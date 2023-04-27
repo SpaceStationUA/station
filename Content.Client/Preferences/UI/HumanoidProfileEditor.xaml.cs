@@ -75,6 +75,8 @@ namespace Content.Client.Preferences.UI
         private Button _saveButton => CSaveButton;
         private OptionButton _sexButton => CSexButton;
         private OptionButton _genderButton => CPronounsButton;
+        private OptionButton _voiceButton => CVoiceButton; // TTS
+        private Button _voicePlayButton => CVoicePlayButton; // TTS
         private Slider _skinColor => CSkin;
         private OptionButton _clothingButton => CClothingButton;
         private OptionButton _backpackButton => CBackpackButton;
@@ -188,6 +190,14 @@ namespace Content.Client.Preferences.UI
             };
 
             #endregion Gender
+
+            // TTS-Start
+            #region Voice
+
+            InitializeVoice();
+
+            #endregion
+            // TTS-End
 
             #region Species
 
@@ -871,7 +881,14 @@ namespace Content.Client.Preferences.UI
                     break;
             }
             UpdateGenderControls();
+            UpdateTTSVoicesControls(); // TTS
             CMarkings.SetSex(newSex);
+            IsDirty = true;
+        }
+
+        private void SetVoice(string newVoice)
+        {
+            Profile = Profile?.WithVoice(newVoice);
             IsDirty = true;
         }
 
@@ -1272,6 +1289,7 @@ namespace Content.Client.Preferences.UI
             UpdateLoadouts(_loadoutsShowUnusableButton.Pressed);
             UpdateLoadoutPreferences();
             UpdateMarkings();
+            UpdateTTSVoicesControls(); // TTS
             RebuildSpriteView();
             UpdateHairPickers();
             UpdateCMarkingsHair();
