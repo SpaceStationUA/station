@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterGorillaSuit
-  name: gorilla suit
-  description: A thick gorilla costume, its muscles are made of thick padded foam.
+  name: костюм горили
+  description: Товстий костюм горили, її м’язи виготовлені з товстого поролону.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Misc/gorillasuit.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterXenoSuit
-  name: xeno costume
-  description: A costume made from spray-painted foam pads taped onto a black spandex suit that resembles a Xeno.
+  name: костюм ксено
+  description: Костюм із пофарбованих пінопластів, наклеєних на чорний спандексовий костюм, який нагадує Xeno.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Misc/xenosuit.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterLobsterSuit
-  name: lobster suit
-  description: A smelly lobster suit. Woop woop woop woop!
+  name: костюм лобстера
+  description: Смердючий костюм лобстера. Вуп вуп вуп вуп вуп!
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Misc/lobstersuit.rsi
@@ -53,7 +53,7 @@
   parent: ClothingOuterStorageToggleableBase
   id: ClothingOuterAmongGrandeSuit
   name: among grande
-  description: Sospechoso...
+  description: Підозріло...
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Misc/amonggrande.rsi

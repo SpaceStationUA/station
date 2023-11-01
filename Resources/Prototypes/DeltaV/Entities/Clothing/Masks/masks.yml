@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskHockeyMask
-  name: hockey mask
-  description: It's a dirty-looking hockey mask, with some red markings on it, presumably painted. Whoever wore this was an aggressive player.
+  name: хокейна маска
+  description: Це брудна на вигляд хокейна маска з деякими червоними позначками на ній, ймовірно, розфарбованою. Той, хто це одягав, був агресивним гравцем.
   components:
   - type: IngestionBlocker
   - type: IdentityBlocker
@@ -15,8 +15,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskRetroHockeyMask
-  name: retro hockey mask
-  description: A retro version of a hockey mask. Makes you want to kill people in videogames.
+  name: ретро хокейна маска
+  description: Ретро варіант хокейної маски. Викликає бажання вбивати людей у відеоіграх.
   components:
   - type: IngestionBlocker
   - type: IdentityBlocker
@@ -29,8 +29,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskMummyMask
-  name: facial bandages
-  description: Some tathered used bandages. Once worn by the bringer of death.
+  name: пов'язки на обличчя
+  description: Дехто з татерів використовував бинти. Колись носив той, хто приносить смерть.
   components:
   - type: IngestionBlocker
   - type: IdentityBlocker
@@ -42,7 +42,7 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskScarecrowMask
-  name: scarecrow hood
+  name: опудало капюшон
   description: A scarecrow sack. Can be worn as a hood. It has a little smiley face on it.
   components:
   - type: IngestionBlocker
@@ -55,8 +55,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskBalaclava
-  name: balaclava
-  description: A ski-mask to protect your face against the cold.
+  name: балаклава
+  description: Лижна маска для захисту обличчя від холоду.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Mask/balaclava.rsi
