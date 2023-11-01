@@ -50,18 +50,18 @@
     sprite: DeltaV/Clothing/OuterClothing/Misc/lobstersuit.rsi
 
 - type: entity
-  parent: ClothingOuterBase
-  id: ClothingOuterVestAmongGrande
+  parent: ClothingOuterStorageToggleableBase
+  id: ClothingOuterAmongGrandeSuit
   name: among grande
   description: Sospechoso...
   components:
-  - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHatAmongGrande
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Misc/amonggrande.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Misc/amonggrande.rsi
-  - type: TemperatureProtection
-    coefficient: 0.5
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodAmongGrande
   - type: TypingIndicatorClothing
     proto: lawyer
+  - type: TemperatureProtection
+    coefficient: 0.5
