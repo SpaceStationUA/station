@@ -45,3 +45,15 @@
     objectives:
     - TerminateObjective
     - ShutDownObjective
+
+# stores configuration for mage
+- type: entity
+  noSpawn: true
+  parent: BaseGameRule
+  id: Mage
+  components:
+  - type: GenericAntagRule
+    agentName: mage-round-end-agent-name
+    # objectives:
+    # - CarpRiftsObjective
+    # - DragonSurviveObjective

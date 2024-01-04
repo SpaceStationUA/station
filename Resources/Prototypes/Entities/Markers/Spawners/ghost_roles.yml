@@ -153,3 +153,33 @@
     - state: green
     - sprite: Mobs/Species/Terminator/parts.rsi
       state: full
+
+- type: entity  
+  noSpawn: true
+  id: SpawnPointGhostMage
+  name: точка появи ролі мага
+  parent: MarkerBase
+  components:
+  - type: GhostRole
+    name: Маг
+    description: Космічний маг привносить хаос
+    rules: Ви космічний чаклун, привнесіть хаос на станцію аби розвеселити себе.
+  - type: GhostRoleMobSpawner
+    prototype: MobHumanMage
+  - type: Sprite
+    sprite: Markers/jobs.rsi
+    layers:
+    - state: green
+    - sprite: Objects/Weapons/Melee/energykatana.rsi
+      state: icon
+
+# - type: entity
+#   noSpawn: true
+#   parent: MobHumanMage
+#   id: MobMageCloset
+#   name: Чаклун у Шафі
+#   components:
+#   - type: GhostRole
+#     name: ghost-role-information-closet-mage-name
+#     description: ghost-role-information-closet-mage-description
+#   - type: GhostTakeoverAvailable

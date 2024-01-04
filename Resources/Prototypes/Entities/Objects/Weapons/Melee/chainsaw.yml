@@ -47,3 +47,27 @@
         maxVol: 300
   - type: UseDelay
     delay: 1
+
+- type: entity
+  name: магічна бензопила
+  parent: Chainsaw
+  id: MagicChainsaw
+  description: ААА ЗАРАЗ Я БУДУ ВАС ВСІХ РІЗАТИ!
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/magic_chainsaw.rsi
+    state: icon
+  - type: Item
+    size: Normal
+    sprite: Objects/Weapons/Melee/magic_chainsaw.rsi
+  - type: MeleeWeapon
+    wideAnimationRotation: -135
+    damage:
+      types:
+        Slash: 3
+        Blunt: 3
+        Structural: 4
+    soundHit:
+      path: /Audio/Weapons/chainsaw.ogg
+      params:
+        volume: -3

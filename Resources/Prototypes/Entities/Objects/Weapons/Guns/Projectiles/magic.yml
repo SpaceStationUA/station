@@ -75,6 +75,136 @@
       - Body
 
 - type: entity
+  id: ProjectilePolyboltMouseTimed
+  parent: ProjectilePolyboltBase
+  name: миша
+  description: Ні, я не хочу бути мишою!
+  noSpawn: true
+  components:
+  - type: PolymorphOnCollide
+    polymorph: WizardMouse
+    whitelist:
+      components:
+      - Body
+
+- type: entity
+  id: ProjectilePolyboltCluwneTimed
+  parent: ProjectilePolyboltBase
+  name: клувне
+  description: Ні, я не хочу бути клувне!
+  noSpawn: true
+  components:
+  - type: PolymorphOnCollide
+    polymorph: ArtifactCluwne
+    whitelist:
+      components:
+      - Body
+
+- type: entity
+  id: ProjectilePolyboltBreadTimed
+  parent: ProjectilePolyboltBase
+  name: хліб
+  description: Ні, я не хочу бути хлібом!
+  noSpawn: true
+  components:
+  - type: PolymorphOnCollide
+    polymorph: WizardBread
+    whitelist:
+      components:
+      - Body
+
+- type: entity
+  id: ProjectilePolyboltChickenTimed
+  parent: ProjectilePolyboltBase
+  name: курка
+  description: Ні, я не хочу бути куркою!
+  noSpawn: true
+  components:
+  - type: PolymorphOnCollide
+    polymorph: WizardChicken
+    whitelist:
+      components:
+      - Body
+
+- type: entity
+  id: ProjectilePolyboltMonkeyTimed
+  parent: ProjectilePolyboltBase
+  name: монке
+  description: Ні, я не хочу бути куркою!
+  noSpawn: true
+  components:
+  - type: PolymorphOnCollide
+    polymorph: WizardMonkey
+    whitelist:
+      components:
+      - Body
+
+- type: entity
+  id: ProjectilePolyboltGoatTimed
+  parent: ProjectilePolyboltBase
+  name: козел
+  description: Ні, я не хочу бути куркою!
+  noSpawn: true
+  components:
+  - type: PolymorphOnCollide
+    polymorph: WizardGoat
+    whitelist:
+      components:
+      - Body
+
+- type: entity
+  id: ProjectilePolyboltCowTimed
+  parent: ProjectilePolyboltBase
+  name: корова
+  description: Ні, я не хочу бути куркою!
+  noSpawn: true
+  components:
+  - type: PolymorphOnCollide
+    polymorph: WizardCow
+    whitelist:
+      components:
+      - Body
+
+- type: entity
+  id: ProjectilePolyboltPigTimed
+  parent: ProjectilePolyboltBase
+  name: свиня
+  description: Ні, я не хочу бути куркою!
+  noSpawn: true
+  components:
+  - type: PolymorphOnCollide
+    polymorph: WizardPig
+    whitelist:
+      components:
+      - Body
+
+- type: entity
+  id: ProjectilePolyboltHamsterTimed
+  parent: ProjectilePolyboltBase
+  name: омак
+  description: Ні, я не хочу бути куркою!
+  noSpawn: true
+  components:
+  - type: PolymorphOnCollide
+    polymorph: WizardHamster
+    whitelist:
+      components:
+      - Body
+
+- type: entity
+  id: ProjectilePolyboltWizardCatTimed
+  parent: ProjectilePolyboltBase
+  name: кіт
+  description: Ні, я не хочу бути куркою!
+  noSpawn: true
+  components:
+  - type: PolymorphOnCollide
+    polymorph: WizardCat
+    whitelist:
+      components:
+      - Body      
+
+- type: entity
   id: ProjectilePolyboltMonkey
   parent: ProjectilePolyboltBase
   name: monkey polybolt

@@ -87,3 +87,40 @@
     nameSegments:
     - names_ninja_title
     - names_ninja
+
+# Mage
+- type: entity
+  noSpawn: true
+  name: Маг
+  parent: MobHuman
+  id: MobHumanMage
+  components:
+  - type: RandomHumanoidAppearance
+    randomizeName: false
+  - type: Loadout
+    prototypes: [MageGear]
+  - type: NpcFactionMember
+    factions:
+    - Syndicate
+  # - type: SpaceNinja
+  - type: GenericAntag
+    rule: Mage
+  # - type: AutoImplant
+  #   implants:
+  #   - DeathAcidifierImplant
+  - type: RandomMetadata
+    nameSegments:
+    - names_wizard_first
+    - names_wizard_last
+  - type: Mage
+  - type: Store
+    categories:
+    - MageAbilities
+    - MageUtility
+    currencyWhitelist:
+    - Experince
+  - type: UserInterface
+    interfaces:
+    - key: enum.StoreUiKey.Key
+      type: StoreBoundUserInterface
+

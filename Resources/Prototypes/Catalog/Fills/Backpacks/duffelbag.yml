@@ -385,3 +385,17 @@
         amount: 2
       - id: SyndieTrickyBomb
         amount: 2
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackBootsSpeedMagic
+  name: Набір чоботів швидкості
+  description: "Містить чоботи швидкості та батарейку яку треба в них вставити"
+  suffix: DO NOT MAP
+  components:
+    - type: Tag
+      tags: [] # ignore "WhitelistChameleon" tag
+    - type: StorageFill
+      contents:
+        - id: ClothingShoesBootsSpeedMagic
+        - id: PowerCellMicroreactor

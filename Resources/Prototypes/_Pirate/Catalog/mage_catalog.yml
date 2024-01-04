@@ -1,0 +1,182 @@
+- type: listing
+  id: MageTeleport
+  name: Телепорт
+  description: Телепотується.
+  productAction: ActionMageBlink
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageDash
+  name: Телепорт
+  description: Телепорт у полі зору, не через перешкоди.
+  productAction: ActionMageDash
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageKnock
+  name: Стук
+  description: Відкрийте сусідні двері
+  productAction: MageAbilityKnock
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageFireball
+  name: Фаербол
+  description: EXPLOSION!
+  productAction: MageAbilityFireball
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageIcicle
+  name: Бурулька
+  description: EXPLOSION!
+  productAction: MageAbilityIcicle
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageEmp
+  name: EMP
+  description: Світло, вимкнись!
+  productAction: MageAbilityEmp
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageLightning
+  name: Блискавка
+  description: Сила тесли!
+  # productEntity: ClothingHandsGlovesColorBlueIsolated
+  productAction: MageAbilityLightning
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageHardsuit
+  name: магічний скафандр
+  description: Чудернацький костюм, інкрустований самоцвітами, випромінює магічну енергію.
+  productEntity: ClothingOuterHardsuitWizard
+  cost:
+    Experince: 1
+  categories:
+  - MageUtility
+
+
+- type: listing
+  id: MageCloak
+  name: магічний плащ
+  description: Плащ що зкриває вашу сутність.
+  productEntity: ClothingNeckCloakVoidMagic
+  cost:
+    Experince: 2
+  categories:
+  - MageUtility
+
+- type: listing
+  id: MageBat
+  name: магічна бита
+  description: Відкидує у напрямку атаки.
+  productEntity: WeaponMeleeMagicBat
+  cost:
+    Experince: 2
+  categories:
+  - MageUtility
+
+- type: listing
+  id: MageChainsaw
+  name: магічна бензопила
+  description: РІЗНЯ
+  productEntity: MagicChainsaw
+  cost:
+    Experince: 2
+  categories:
+  - MageUtility
+
+- type: listing
+  id: MageArmBlade
+  name: магічні лезоруки
+  description: Розріжемо їх
+  productEntity: MagicArmBlade
+  cost:
+    Experince: 2
+  categories:
+  - MageUtility
+
+- type: listing
+  id: MageSpeedBoots
+  name: набір швидких черевиків
+  description: сумка з швидкими черевиками та батарейкою
+  productEntity: ClothingBackpackBootsSpeedMagic
+  cost:
+    Experince: 2
+  categories:
+  - MageUtility
+
+- type: listing
+  id: MageMagicCrossbow
+  name: набір магічного арбалету
+  description: сумка з магічним арбалетом та стрілами
+  productEntity: ClothingBeltQuiverMagicCrossbow
+  cost:
+    Experince: 2
+  categories:
+  - MageUtility
+
+- type: listing
+  id: MageMagicEnergyCutlass
+  name: Магічний світлова сабля
+  description: світлова сабля
+  productEntity: MagicEnergyCutlass
+  cost:
+    Experince: 2
+  categories:
+  - MageUtility
+
+- type: listing
+  id: MageMagicGunMultiphasePolymorh
+  name: Пістолет магічного поліморфу
+  description: перетворіть когось на істоту. Діє 60 секунд
+  productEntity: WeaponEnergyGunMultiphasePolymorh
+  cost:
+    Experince: 2
+  categories:
+  - MageUtility

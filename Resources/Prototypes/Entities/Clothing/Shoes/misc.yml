@@ -130,3 +130,45 @@
     event: !type:ToggleClothingSpeedEvent
     icon: { sprite: Clothing/Shoes/Boots/speedboots.rsi, state: icon }
     iconOn: { sprite: Clothing/Shoes/Boots/speedboots.rsi, state: icon-on }
+
+- type: entity
+  parent: [ClothingShoesBase, PowerCellSlotSmallItem]
+  id: ClothingShoesBootsSpeedMagic
+  name: чоботи спритності
+  description: Gotta Go Fast!
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Boots/speedboots.rsi
+    layers:
+    - state: icon
+      map: [ "enum.ToggleVisuals.Layer" ]
+  - type: Clothing
+    sprite: Clothing/Shoes/Boots/speedboots.rsi
+    equipSound:   
+      path: /Audio/Items/speedboots_equip.ogg
+      params:
+        volume: -3
+  - type: ToggleClothingSpeed
+    toggleAction: ActionToggleSpeedBoots
+  - type: ClothingSpeedModifier
+    walkModifier: 1.5
+    sprintModifier: 1.7
+    enabled: false
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: icon-on}
+          False: {state: icon}
+  - type: StaticPrice
+    price: 500
+  - type: PowerCellDraw
+    drawRate: 4
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+  - type: Tag
+    tags: []
+  - type: NoSlip

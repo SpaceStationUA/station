@@ -70,6 +70,20 @@
 
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
+  id: ClothingHandsGlovesColorBlueIsolated
+  name: ізольовані сині рукавички
+  description: Сині рукавички, які вбережуть від електрики.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/Color/blue.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/Color/blue.rsi
+  - type: Fiber
+    fiberColor: fibers-blue
+  - type: Insulated
+
+- type: entity
+  parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesColorBrown
   name: brown gloves
   description: Regular brown gloves that do not keep you from frying.

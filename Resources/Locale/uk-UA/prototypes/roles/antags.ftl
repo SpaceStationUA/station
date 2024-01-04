@@ -27,3 +27,6 @@ roles-antag-subverted-silicon-objective = Follow your new laws and do bad unto t
 
 roles-antag-space-ninja-name = Космо Нінзя
 roles-antag-space-ninja-objective = Use your stealth to sabotage the station, nom on electrical wires.
+
+roles-antag-space-mage-name = Чаклун
+roles-antag-space-mage-objective = Використовуй чари для власних забаганок. Розвесели себе.

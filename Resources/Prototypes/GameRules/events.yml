@@ -121,6 +121,33 @@
     minimumPlayers: 40
   - type: NinjaSpawnRule
 
+# - type: entity
+#   parent: BaseGameRule
+#   id: MageSpawn
+#   noSpawn: true
+#   components:
+#   - type: StationEvent
+#     weight: 10
+#     duration: 1
+#     earliestStart: 10
+#     minimumPlayers: 10
+#     reoccurrenceDelay: 60
+#   - type: RandomEntityStorageSpawnRule
+#     prototype: MobMageCloset
+
+- type: entity
+  id: MageSpawn
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    earliestStart: 60 # DeltaV - was 45
+    weight: 3 # DeltaV - was 5
+    minimumPlayers: 10
+    reoccurrenceDelay: 30
+    duration: 1
+  - type: MageSpawnRule
+
 - type: entity
   parent: BaseGameRule
   id: RevenantSpawn
@@ -130,7 +157,7 @@
     weight: 7.5
     duration: 1
     earliestStart: 45
-    minimumPlayers: 20
+    minimumPlayers: 10
   - type: RandomSpawnRule
     prototype: MobRevenant
 

@@ -3995,6 +3995,13 @@ entities:
     - type: Transform
       pos: -0.5,-9.5
       parent: 768
+- proto: SpawnPointGhostMage
+  entities:
+  - uid: 770
+    components:
+    - type: Transform
+      pos: -1.5,-10.5
+      parent: 768
 - proto: SpawnPointLatejoin
   entities:
   - uid: 762
