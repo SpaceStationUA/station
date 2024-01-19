@@ -1,13 +1,21 @@
-# base actions
+# - type: entity
+#   id: OpenEmotes
+#   icon: Interface/Actions/emotes.png
+#   name: action-name-emotes
+#   description: action-description-emotes
+#   serverEvent: !type:OpenEmotesActionEvent
 
 - type: entity
-  id: BaseSuicideAction
-  abstract: true
+  id: OpenEmotes
+  name: action-name-emotes
+  description: action-description-emotes
+  noSpawn: true
   components:
-  - type: ConfirmableAction
-    popup: suicide-action-popup
-
-# actions
+  - type: InstantAction
+    useDelay: 2
+    icon: Interface/Actions/emotes.png
+    event: !type:OpenEmotesActionEvent
+    checkCanInteract: false
 
 - type: entity
   id: ActionScream
