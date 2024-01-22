@@ -1,33 +1,36 @@
 <Document>
-# Reverse Engineering
+# Зворотне проектування
 
 <GuideEntityEmbed Entity="ReverseEngineeringMachine"/>
 
-The reverse engineering machine allows salvage to bootstrap their way into unlocking powerful lathe recipes that are otherwise unacquirable.
+Машина зворотного проектування дозволяє salvage розпочати свій шлях до розблокування потужних токарних рецептів, які інакше неможливо отримати.
 
-The machine's power is very limited without upgrades to its matter bin and manipulator.
-The matter bin increases its analysis power and the manipulator decreases the chance of destruction with safety turned off.
+<GuideEntityEmbed Entity="AdvancedMatterBinStockPart"/>
+<GuideEntityEmbed Entity="NanoManipulatorStockPart"/>
+
+Потужність машини дуже обмежена без модернізації її бункера для матерії та маніпулятора.
+Бункер матерії збільшує свою потужність аналізу, а маніпулятор зменшує ймовірність знищення з вимкненою безпекою.
 
 ## Operation
 
-The machine will only accept items it can reverse engineer. Currently this is most circuit boards and machine parts, but it accepts quite a variety of objects.
+Машина прийматиме лише елементи, які вона може провести зворотним інженерним процесом. Зараз це більшість друкованих плат і деталей машин, але він приймає досить різноманітні об’єкти.
 
-It does not accept firearms and never will.
+Він не приймає вогнепальної зброї і ніколи не прийматиме.
 
-To use the machine, insert an item and use the buttons on the left.
+Щоб скористатися машиною, вставте предмет і скористайтеся кнопками зліва.
 
 - [color=#a4885c]Analyze:[/color]
-This starts a new reverse engineering attempt.
+Це починає нову спробу зворотного проектування.
 
 - [color=#a4885c]Safety:[/color]
-With safety off, you have more analysis power, but there is a chance to destroy the item.
+Якщо безпеку вимкнено, ви маєте більше можливостей для аналізу, але є шанс знищити предмет.
 
 - [color=#a4885c]AutoProbe:[/color]
-This will automatically start a new attempt when the last one ends.
+Це автоматично розпочне нову спробу, коли закінчиться остання.
 
 - [color=#a4885c]Stop:[/color]
-Stops the current attempt.
+Зупиняє поточну спробу.
 
 - [color=#a4885c]Item:[/color]
-Ejects the item.
+Витягує предмет.
 </Document>

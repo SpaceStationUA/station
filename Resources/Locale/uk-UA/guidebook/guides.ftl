@@ -24,8 +24,8 @@ guide-entry-chemicals = Chemicals
 guide-entry-ss14 = Space Station 14
 guide-entry-janitorial = Janitorial
 guide-entry-bartender = Bartender
-guide-entry-chef = Chef
-guide-entry-foodrecipes = Food Recipes
+guide-entry-chef = Шеф
+guide-entry-foodrecipes = Рецепти
 guide-entry-medical = Medical
 guide-entry-medicaldoctor = Medical Doctor
 guide-entry-chemist = Chemist
@@ -59,3 +59,41 @@ guide-entry-space-ninja = Space Ninja
 
 guide-entry-writing = Writing
 guide-entry-glossary = Glossary
+
+guide-entry-burgers = Бургери
+guide-entry-breads = Хліб
+guide-entry-pizza = Піца
+guide-entry-pasta = Паста
+guide-entry-soup = Суп
+guide-entry-meats = Мʼясо
+guide-entry-fast-food = Фастфуд
+guide-entry-deserts = Десерти
+guide-entry-pies = Пироги
+guide-entry-cakes = Торти
+guide-entry-salads = Салати
+guide-entry-tacos = Тако
+
+
+# species_categories.yml
+guide-entry-species = Species
+guide-entry-wizden-species = Wizard Den Species
+guide-entry-nyano-species = Nyanotrasen Species
+guide-entry-simplestation-species = ParkStation Species
+
+# species_specific.yml
+# wizden-species
+guide-entry-diona = Diona
+guide-entry-dwarf = Dwarf
+guide-entry-human = Human
+guide-entry-reptilian = Reptilian
+guide-entry-skeleton = Skeleton
+guide-entry-slime = Slime
+guide-entry-vox = Vox
+# nyano-species
+guide-entry-arachne = Arachne
+guide-entry-felinid = Felinid
+guide-entry-moth = Moth
+guide-entry-oni = Oni
+# parkstation-species
+guide-entry-plasmaman = Plasmaman
+guide-entry-shadowkin = Shadowkin
