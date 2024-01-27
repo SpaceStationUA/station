@@ -36,3 +36,7 @@ trait-frontal-lisp-desc = You thpeak with a lithp
 
 trait-socialanxiety-name = Social Anxiety
 trait-socialanxiety-desc = You are anxious when you speak and stutter.
+
+
+trait-goblin-accent-name = Гоблін кант
+trait-goblin-accent-desc = Ви розмовляєте секретною мовою яку багато хто вважає як недолугу і тому не дуже секретною
