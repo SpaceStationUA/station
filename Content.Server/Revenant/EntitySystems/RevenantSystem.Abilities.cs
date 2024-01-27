@@ -28,6 +28,9 @@ using Content.Shared.Mobs.Systems;
 using Content.Shared.Revenant.Components;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Utility;
+using Content.Server.Disease;
+using Content.Shared.Disease.Components;
+using Content.Shared.Revenant.EntitySystems;
 
 namespace Content.Server.Revenant.EntitySystems;
 
@@ -41,6 +44,7 @@ public sealed partial class RevenantSystem
     [Dependency] private readonly MobThresholdSystem _mobThresholdSystem = default!;
     [Dependency] private readonly GhostSystem _ghost = default!;
     [Dependency] private readonly TileSystem _tile = default!;
+    [Dependency] private readonly DiseaseSystem _disease = default!;
 
     private void InitializeAbilities()
     {
@@ -307,6 +311,13 @@ public sealed partial class RevenantSystem
 
         args.Handled = true;
         // TODO: When disease refactor is in.
+
+        var emo = GetEntityQuery<DiseaseCarrierComponent>();
+        foreach (var ent in _lookup.GetEntitiesInRange(uid, component.BlightRadius))
+        {
+            if (emo.TryGetComponent(ent, out var comp))
+                _disease.TryAddDisease(ent, component.BlightDiseasePrototypeId, comp);
+        }
     }
 
     private void OnMalfunctionAction(EntityUid uid, RevenantComponent component, RevenantMalfunctionActionEvent args)

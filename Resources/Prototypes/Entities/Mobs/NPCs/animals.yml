@@ -1340,6 +1340,8 @@
       Unsexed: UnisexReptilian
   - type: TypingIndicator
     proto: lizard
+  - type: DiseaseCarrier
+    diseaseResist: 0.1
   - type: InteractionPopup
     successChance: 0.9
     interactSuccessString: petting-success-monkey
@@ -1586,6 +1588,10 @@
     combatToggleAction: ActionCombatModeToggleOff
   - type: Bloodstream
     bloodMaxVolume: 50
+  - type: DiseaseCarrier #The other class lab animal and disease vector
+    naturalImmunities:
+      - AMIV
+      - ActiveHonkVirus
   - type: CanEscapeInventory
   - type: MobPrice
     price: 50
@@ -1646,6 +1652,7 @@
         Base: dead-1
       Dead:
         Base: splat-1
+  - type: DiseaseCarrier #Why doesn't this save if it's only on the parent wtf
 
 - type: entity
   parent: MobMouse
@@ -1672,6 +1679,7 @@
         Base: dead-2
       Dead:
         Base: splat-2
+  - type: DiseaseCarrier
 
 - type: entity
   name: lizard #Weh
@@ -3201,4 +3209,3 @@
   components:
   - type: ReplacementAccent
     accent: nymph
-    

@@ -675,3 +675,17 @@
     maxSpawns: 1
     spawns:
     - id: TeslaEnergyBall
+
+- type: artifactEffect
+  id: EffectDisease
+  targetDepth: 3
+  effectHint: artifact-effect-hint-biochemical
+  components:
+  - type: DiseaseArtifact
+    diseasePrototypes:
+    - VanAusdallsRobovirus
+    - OwOnavirus
+    - BleedersBite
+    - MemeticAmirmir
+    - TongueTwister
+    - AMIV

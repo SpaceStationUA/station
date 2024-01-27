@@ -236,6 +236,8 @@
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
+  - type: DiseaseProtection
+    protection: 0.2
   - type: Armor
     modifiers:
       coefficients:
@@ -357,6 +359,8 @@
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
+  - type: DiseaseProtection
+    protection: 0.2
   - type: Armor
     modifiers:
       coefficients:
@@ -434,6 +438,8 @@
         Piercing: 0.5
         Radiation: 0.5
         Caustic: 0.6
+  - type: DiseaseProtection
+    protection: 0.2
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
@@ -804,6 +810,8 @@
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertmedical.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTMedical
+  - type: DiseaseProtection
+    protection: 0.25
 
 #ERT Security Hardsuit
 - type: entity

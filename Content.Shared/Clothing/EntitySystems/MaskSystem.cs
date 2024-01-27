@@ -6,6 +6,8 @@ using Content.Shared.Inventory.Events;
 using Content.Shared.Item;
 using Content.Shared.Popups;
 using Robust.Shared.Timing;
+using Content.Shared.Disease.Components;
+using Robust.Shared.Player;
 
 namespace Content.Shared.Clothing.EntitySystems;
 
@@ -72,6 +74,10 @@ public sealed class MaskSystem : EntitySystem
 
         var wearerEv = new WearerMaskToggledEvent(mask.IsToggled);
         RaiseLocalEvent(wearer, ref wearerEv);
+        // toggle disease protection
+        if (TryComp<DiseaseProtectionComponent>(uid, out var diseaseProtection))
+            diseaseProtection.IsActive = !mask.IsToggled;
+
     }
 
     private void OnFolded(Entity<MaskComponent> ent, ref FoldedEvent args)
