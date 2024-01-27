@@ -1265,15 +1265,15 @@
     name: ghost-role-information-monkey-name
     description: ghost-role-information-monkey-description
   - type: GhostTakeoverAvailable
-  - type: Clumsy
-    clumsyDamage:
-      types:
-        Blunt: 5
-        Piercing: 4
-      groups:
-        Burn: 3
-    clumsySound:
-      path: /Audio/Animals/monkey_scream.ogg
+  # - type: Clumsy
+  #   clumsyDamage:
+  #     types:
+  #       Blunt: 5
+  #       Piercing: 4
+  #     groups:
+  #       Burn: 3
+  #   clumsySound:
+  #     path: /Audio/Animals/monkey_scream.ogg
 
 - type: entity
   name: monkey
@@ -1416,15 +1416,15 @@
     spawned:
     - id: FoodMeat
       amount: 2
-  - type: Clumsy
-    clumsyDamage:
-      types:
-        Blunt: 2
-        Piercing: 7
-      groups:
-        Burn: 3
-    clumsySound:
-      path: /Audio/Voice/Reptilian/reptilian_scream.ogg
+  # - type: Clumsy
+  #   clumsyDamage:
+  #     types:
+  #       Blunt: 2
+  #       Piercing: 7
+  #     groups:
+  #       Burn: 3
+  #   clumsySound:
+  #     path: /Audio/Voice/Reptilian/reptilian_scream.ogg
   - type: AlwaysRevolutionaryConvertible
   - type: GhostTakeoverAvailable
   - type: SentienceTarget
