@@ -2050,5 +2050,16 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<bool> PsionicRollsEnabled =
             CVarDef.Create("psionics.rolls_enabled", true, CVar.SERVERONLY);
+
+
+        /*
+        * Station Goals
+        */
+
+        /// <summary>
+        ///     Enables station goals
+        /// </summary>
+        public static readonly CVarDef<bool> StationGoalsEnabled =
+            CVarDef.Create("game.station_goals", false, CVar.SERVERONLY);
     }
 }
