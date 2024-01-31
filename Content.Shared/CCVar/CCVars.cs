@@ -2061,5 +2061,46 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<bool> StationGoalsEnabled =
             CVarDef.Create("game.station_goals", false, CVar.SERVERONLY);
+
+        /// <summary>
+        /// Whether the Shipyard is enabled.
+        /// </summary>
+        public static readonly CVarDef<bool> Shipyard =
+            CVarDef.Create("shuttle.shipyard", true, CVar.SERVERONLY);
+
+        /// <summary>
+        /// Whether the arrivals shuttle is enabled.
+        /// </summary>
+        public static readonly CVarDef<bool> FrontierSpawn =
+            CVarDef.Create("frontier.spawn", false);
+
+    /*
+     *  Public Transit
+     */
+    /// <summary>
+    /// Whether public transit is enabled.
+    /// </summary>
+    public static readonly CVarDef<bool> PublicTransit =
+        CVarDef.Create("nf14.publictransit.enabled", true, CVar.SERVERONLY);
+
+    /// <summary>
+    /// The map to use for the public bus.
+    /// </summary>
+    public static readonly CVarDef<string> PublicTransitBusMap =
+        CVarDef.Create("nf14.publictransit.bus_map", "/Maps/_NF/Shuttles/publicts.yml", CVar.SERVERONLY);
+
+    /// <summary>
+    /// The amount of time the bus waits at a station.
+    /// </summary>
+    public static readonly CVarDef<float> PublicTransitWaitTime =
+        CVarDef.Create("nf14.publictransit.wait_time", 150f, CVar.SERVERONLY);
+
+    /// <summary>
+    /// The amount of time the flies through FTL space.
+    /// </summary>
+    public static readonly CVarDef<float> PublicTransitFlyTime =
+        CVarDef.Create("nf14.publictransit.fly_time", 145f, CVar.SERVERONLY);
+
+
     }
 }

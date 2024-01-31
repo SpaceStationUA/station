@@ -150,3 +150,10 @@
     - id: BloodbathPuddleMessVariationPass
       prob: 0.01
       orGroup: puddleMess
+  # nf adventure stuff for now
+- type: entity
+  id: Adventure
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: AdventureRule

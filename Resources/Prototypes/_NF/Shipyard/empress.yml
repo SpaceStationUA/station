@@ -1,0 +1,31 @@
+- type: vessel
+  id: Empress
+  name: NT Empress
+  description: Велике патрульне судно, здатне перевозити до 3 менших швидкісних кораблів. Флагманське судно безпеки.
+  price: 170200
+  category: Large
+  group: Security
+  shuttlePath: /Maps/_NF/Shuttles/empress.yml
+
+- type: gameMap
+  id: Empress
+  mapName: 'NSF Empress'
+  mapPath: /Maps/_NF/Shuttles/empress.yml
+  minPlayers: 0
+  stations:
+    Empress:
+      stationProto: StandardFrontierSecurityVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Empress {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            PrisonGuard: [ 0, 0 ]
+            SecurityOfficer: [ 0, 0 ]
+            Warden: [ 0, 0 ]
+            Brigmedic: [ 0, 0 ]
+            Chef: [ 0, 0 ]

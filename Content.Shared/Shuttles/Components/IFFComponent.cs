@@ -48,5 +48,9 @@ public enum IFFFlags : byte
     /// </summary>
     Hide,
 
+    /// <summary>
+    /// Is this a player shuttle
+    /// </summary>
+    IsPlayerShuttle = 4,
     // TODO: Need one that hides its outline, just replace it with a bunch of triangles or lines or something.
 }
