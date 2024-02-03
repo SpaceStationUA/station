@@ -1,3 +1,3 @@
-trait-nearsighted-name = Nearsighted
-trait-nearsighted-desc = You require glasses to see properly.
-trait-nearsighted-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} eyes are pretty unfocused. It doesn't seem like {SUBJECT($target)} can see things that well.[/color]
+trait-nearsighted-name = Короткозорість
+trait-nearsighted-desc = Вам потрібні окуляри, щоб добре бачити.
+trait-nearsighted-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} очі досить розфокусовані. Схоже {SUBJECT($target)} не дуже добре бачить.[/color]

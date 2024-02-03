@@ -6,3 +6,5 @@ species-name-harpy = Гарпія
 species-name-shadowkin = Шедовкін
 
 species-name-goblin = Гоблін
+
+species-name-ipc = ІПШ

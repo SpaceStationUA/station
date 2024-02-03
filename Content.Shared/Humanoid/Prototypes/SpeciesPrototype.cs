@@ -138,4 +138,5 @@ public enum SpeciesNaming : byte
     //End of Nyano - Summary: for Oni naming
     TheFirstofLast,
     First, // Parkstation-Shadowkin
+    FirstDashLast, // Parkstation-IPC
 }

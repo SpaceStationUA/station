@@ -9,14 +9,16 @@
 #     components:
 #       - Blindable
 
-# - type: trait
-#   id: ShadowkinBlackeye
-#   name: Blackeye
-#   description: You lose your special Shadowkin powers, in return for some points.
-#   cost: 5
-#   category: Negative
-#   whitelist:
-#     species:
-#       - Shadowkin
-#   components:
-#     - type: ShadowkinBlackeyeTrait
+- type: trait
+  id: AntiSocial
+  name: trait-antisocial-name
+  description: trait-antisocial-description
+  cost: 1
+  category: Negative
+  components:
+    - type: InteractionPopup
+      successChance: 0
+      interactFailureString: hugging-failure-generic
+      messagePerceivedByOthers: hugging-success-generic-others
+      soundPerceivedByOthers: false
+    - type: StutteringAccent

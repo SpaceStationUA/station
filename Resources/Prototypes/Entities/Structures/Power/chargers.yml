@@ -102,49 +102,11 @@
         ejectOnInteract: true
         name: power-cell-slot-component-slot-name-default
         whitelist:
-          tags:
+          components:
           - PowerCell
-          - PowerCellSmall
-
-- type: entity
-  parent: [ BaseItemRecharger, ConstructibleMachine ]
-  id: PowerCageRecharger
-  name: cage recharger
-  components:
-  - type: Fixtures
-    fixtures:
-      fix1:
-        shape:
-          !type:PhysShapeAabb
-          bounds: "-0.25,-0.35,0.25,0.35"
-        density: 190
-        mask:
-        - MachineMask
-        layer:
-        - MachineLayer
-  - type: LitOnPowered
-  - type: PointLight
-    radius: 1.5
-    color: "#03fc4e"
-    energy: 0.7
-  - type: Charger
-    chargeRate: 50
-  - type: Sprite
-    sprite: Structures/Power/cage_recharger.rsi
-  - type: PowerCellSlot
-    cellSlotId: charger_slot
-  - type: ItemSlots
-    slots:
-      charger_slot:
-        ejectOnInteract: true
-        name: Power cage
-        whitelist:
+        blacklist:
           tags:
-          - PowerCage
-  - type: Machine
-    board: PowerCageRechargerCircuitboard
-  - type: StaticPrice
-    price: 500
+          - PotatoBattery
 
 - type: entity
   parent: BaseItemRecharger
@@ -156,6 +118,8 @@
   - type: Machine
     board: WeaponCapacitorRechargerCircuitboard
   # no powercellslot since stun baton etc arent powercells
+  - type: Charger
+    baseChargeRate: 50
   - type: ItemSlots
     slots:
       charger_slot:
@@ -207,7 +171,7 @@
       shader: "unshaded"
   - type: WallMount
   - type: Charger
-    chargeRate: 25
+    baseChargeRate: 35
   - type: ItemSlots
     slots:
       charger_slot:
@@ -245,6 +209,9 @@
     whitelist:
       components:
       - BorgChassis
+  #- type: SiliconCharger
+  #  chargeMulti: 50
+  #  targetTemp: 390
   - type: Construction
     containers:
     - machine_parts
@@ -286,7 +253,7 @@
             visible: true
             state: borgcharger1
   - type: EntityStorage
-    capacity: 1
+    maxItemSize: Tiny
     whitelist:
       components:
       - BorgChassis
