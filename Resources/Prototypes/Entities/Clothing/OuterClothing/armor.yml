@@ -305,3 +305,20 @@
         Piercing: 0.6
         Heat: 0.5
   - type: GroupExamine
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ClothingOuterArmorBasic
+  name: шкіряна броня
+  description: зроблена не кращими майстрами ...
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Armor/leather.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Armor/leather.rsi
+  - type: Armor 
+    modifiers:
+      coefficients:
+        Blunt: 0.90
+        Slash: 0.85
+        Piercing: 0.80

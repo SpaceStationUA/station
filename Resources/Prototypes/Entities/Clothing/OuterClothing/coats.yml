@@ -420,3 +420,80 @@
     sprite: Clothing/OuterClothing/Coats/blueshield_coat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/blueshield_coat.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatDirtyOvercoatCape
+  name: брудна шинель з накидкою
+  description: Краще б це попрасувати.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/dirty_overcoat_cape.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/dirty_overcoat_cape.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatDirtyOvercoat
+  name: брудна шинель
+  description: Краще б це попрасувати.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/dirty_overcoat.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/dirty_overcoat.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatDirty
+  name: брудне пальто
+  description: Краще б це попрасувати.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/dirtycoat.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/dirtycoat.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatNoir
+  name: нуарне пальто
+  description: Занадто сіре.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/noircoat.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/noircoat.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatOvercoatCape
+  name: шинель з накидкою
+  description: Стильно виглядає.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/overcoat_cape.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/overcoat_cape.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatOvercoat
+  name: шинель
+  description: Стильно виглядає.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/overcoat.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/overcoat.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatTribal
+  name: племінна накидка
+  description: шматок тканини.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/tribalcoat.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Coats/tribalcoat.rsi

@@ -216,6 +216,17 @@
     - HidesHair
     - WhitelistChameleon
 
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatHoodShaman
+  name: капюшон шамана
+  description: зшитий із шкіри ксеноса.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/Head/Hoods/shaman_hood.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/Head/Hoods/shaman_hood.rsi
+
 #Winter Coat Hoods
 - type: entity
   parent: ClothingHeadHatHoodWinterBase

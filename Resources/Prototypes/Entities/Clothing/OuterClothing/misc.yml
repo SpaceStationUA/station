@@ -374,3 +374,25 @@
     sprite: Clothing/OuterClothing/Misc/red_racoon.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Misc/red_racoon.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterDirtySportwear
+  name: брудна спортивка
+  description: Краще б це попрасувати.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Misc/dirty_sportswear.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Misc/dirty_sportswear.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterSportwear
+  name: спортивка
+  description: спортивка, підходить для спорту і спорту. також вона підходить для занять спортом і спорт спорту.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Misc/sportswear.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/OuterClothing/Misc/sportswear.rsi

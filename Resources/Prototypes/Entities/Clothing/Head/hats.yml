@@ -1098,3 +1098,47 @@
   - type: Tag
     tags:
     - ClothMade
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBlack
+  name: чорна шапка
+  description: тепленька!
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/Head/Hats/blackhat.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/Head/Hats/blackhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBlue
+  name: синя шапка
+  description: тепленька!
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/Head/Hats/bluehat.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/Head/Hats/bluehat.rsii
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatRed
+  name: червона шапка
+  description: тепленька!
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/Head/Hats/bluehat.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/Head/Hats/bluehat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatYellow
+  name: жовта шапка
+  description: тепленька!
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/Head/Hats/yellowhat.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/Head/Hats/yellowhat.rsi

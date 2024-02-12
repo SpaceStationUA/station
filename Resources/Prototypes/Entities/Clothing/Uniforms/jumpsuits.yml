@@ -1484,3 +1484,58 @@
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitDicatorialFragrance
+  name: диктаторський фраг
+  description: більше 200 нагород.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/Uniforms/Jumpsuit/dictatorial_fragrance.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/Uniforms/Jumpsuit/dictatorial_fragrance.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitDirtyJeansThsirt
+  name: брудні джинси та майка
+  description: Краще б це попрасувати.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/Uniforms/Jumpsuit/dirtyjeans_tshirt.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/Uniforms/Jumpsuit/dirtyjeans_tshirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitDirtyJeans
+  name: брудні джинси
+  description: краще б це попрасувати.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/Uniforms/Shorts/dirtyjeans.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/Uniforms/Shorts/dirtyjeans.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitJeansThsirt
+  name: джинси та майка
+  description: прості джинси, та проста майка. ідеальне комбо.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/Uniforms/Jumpsuit/jeans_tshirt.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/Uniforms/Jumpsuit/jeans_tshirt.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitJeans
+  name: джинси
+  description: Звичайні джинси.
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/T_Pirate/Clothing/Uniforms/Shorts/jeans.rsi
+  - type: Clothing
+    sprite: Resources/Textures/T_Pirate/Clothing/Uniforms/Shorts/jeans.rsi
