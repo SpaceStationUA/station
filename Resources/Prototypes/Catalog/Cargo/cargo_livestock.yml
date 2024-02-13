@@ -79,6 +79,16 @@
   group: market
 
 - type: cargoProduct
+  id: LivestockBorgi
+  icon:
+    sprite: _Pirate/Entities/Mobs/NPCs/borgi.rsi
+    state: borgi
+  product: CrateNPCPuppyBorgi
+  cost: 1200
+  category: Livestock
+  group: market
+
+- type: cargoProduct
   id: LivestockCow
   icon:
     sprite: Mobs/Animals/cow.rsi
