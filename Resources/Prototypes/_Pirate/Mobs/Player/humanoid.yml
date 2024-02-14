@@ -1,0 +1,28 @@
+- type: entity
+  id: RandomHumanoidSpawnerCBURNFlamerUnit
+  name: CBURN Flamer
+  suffix: ERTRole
+  components:
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      state: cburn
+    - type: RandomHumanoidSpawner
+      settings: CBURNFlamerAgent
+    - type: InitialInfectedExempt
+
+
+- type: randomHumanoidSettings
+  id: CBURNFlamerAgent
+  components:
+    - type: MindShield
+    - type: Loadout
+      prototypes: [CBURNFlamerGear]
+    - type: GhostRole
+      name: ghost-role-information-cburn-agent-name
+      description: ghost-role-information-cburn-agent-description
+    - type: GhostTakeoverAvailable
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - NamesLastMilitary
+    - type: InitialInfectedExempt

@@ -61,7 +61,7 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
 
         SubscribeLocalEvent<RoundStartingEvent>(OnStartup);
         SubscribeLocalEvent<PlayerSpawnCompleteEvent>(OnPlayerSpawningEvent);
-        SubscribeLocalEvent<RoundEndTextAppendEvent>(OnRoundEndTextEvent);
+        // SubscribeLocalEvent<RoundEndTextAppendEvent>(OnRoundEndTextEvent);
 
         // Don't invoke immediately as it will get set in the natural course of things.
         Enabled = _cfgManager.GetCVar(CCVars.FrontierSpawn);
@@ -75,10 +75,10 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
 
     private void OnRoundEndTextEvent(RoundEndTextAppendEvent ev)
     {
-        var profitText = Loc.GetString($"adventure-mode-profit-text");
-        var lossText = Loc.GetString($"adventure-mode-loss-text");
-        ev.AddLine(Loc.GetString("adventure-list-start"));
-        var allScore = new List<Tuple<string, int>>();
+        // var profitText = Loc.GetString($"adventure-mode-profit-text");
+        // var lossText = Loc.GetString($"adventure-mode-loss-text");
+        // ev.AddLine(Loc.GetString("adventure-list-start"));
+        // var allScore = new List<Tuple<string, int>>();
 
         // foreach (var player in _players)
         // {
@@ -93,9 +93,9 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
         // if (!(allScore.Count >= 1))
         //     return;
 
-        var relayText = Loc.GetString("adventure-list-high");
-        relayText += '\n';
-        var highScore = allScore.OrderByDescending(h => h.Item2).ToList();
+        // var relayText = Loc.GetString("adventure-list-high");
+        // relayText += '\n';
+        // var highScore = allScore.OrderByDescending(h => h.Item2).ToList();
 
         // for (var i = 0; i < 10 && i < highScore.Count; i++)
         // {
@@ -103,8 +103,8 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
         //     relayText += '\n';
         //     highScore.Remove(highScore.First());
         // }
-        relayText += Loc.GetString("adventure-list-low");
-        relayText += '\n';
+        // relayText += Loc.GetString("adventure-list-low");
+        // relayText += '\n';
         // highScore.Reverse();
         // for (var i = 0; i < 10 && i < highScore.Count; i++)
         // {
@@ -112,7 +112,7 @@ public sealed class NfAdventureRuleSystem : GameRuleSystem<AdventureRuleComponen
         //     relayText += '\n';
         //     highScore.Remove(highScore.First());
         // }
-        ReportRound(relayText);
+        // ReportRound(relayText);
     }
 
     private void OnPlayerSpawningEvent(PlayerSpawnCompleteEvent ev)

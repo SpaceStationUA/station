@@ -1,0 +1,13 @@
+- type: entity
+  id: MarkerSpecialforce
+  name: special forces marker
+  suffix: Specialforce
+  parent: MarkerBase
+  components:
+    - type: SpawnPoint
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Mobs/Animals/regalrat.rsi
+          state: icon
