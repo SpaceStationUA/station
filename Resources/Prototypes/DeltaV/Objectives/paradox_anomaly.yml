@@ -50,3 +50,17 @@
       sprite: Structures/Furniture/chairs.rsi
       state: shuttle
   - type: EscapeShuttleCondition
+
+
+- type: entity
+  noSpawn: true
+  parent: [BaseParadoxAnomalyObjective, BaseLivingObjective]
+  id: MageEscapeObjective
+  name: Втечіть на центком живими та не пійманими.
+  description: Попутньо розвеселіть себе.
+  components:
+  - type: Objective
+    icon:
+      sprite: Structures/Furniture/chairs.rsi
+      state: shuttle
+  - type: EscapeShuttleCondition

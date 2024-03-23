@@ -54,6 +54,5 @@
   components:
   - type: GenericAntagRule
     agentName: mage-round-end-agent-name
-    # objectives:
-    # - CarpRiftsObjective
-    # - DragonSurviveObjective
+    objectives:
+    - MageEscapeObjective

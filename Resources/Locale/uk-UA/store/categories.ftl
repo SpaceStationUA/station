@@ -14,4 +14,6 @@ store-category-armor = Броня
 store-category-pointless = Безглузде
 
 # Revenant
-store-category-abilities = Вміння
+store-category-abilities = Здібності
+
+store-category-utility = Предмети

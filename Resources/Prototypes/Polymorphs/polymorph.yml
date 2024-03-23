@@ -7,57 +7,93 @@
 
 - type: polymorph
   id: WizardMouse
-  entity: MobMouse
-  forced: true
-  duration: 60
+  configuration:
+    entity: MobMouse
+    transferName: true
+    forced: true
+    duration: 60
+    revertOnCrit: true
+    revertOnDeath: true
 
 - type: polymorph
   id: WizardBread
-  entity: FoodBreadPlain
-  forced: true
-  duration: 60
+  configuration:
+    entity: FoodBreadPlain
+    transferName: true
+    forced: true
+    duration: 60
+    revertOnCrit: true
+    revertOnDeath: true
 
 - type: polymorph
   id: WizardChicken
-  entity: MobChicken
-  forced: true
-  duration: 60
+  configuration:
+    entity: MobChicken
+    transferName: true
+    forced: true
+    duration: 60
+    revertOnCrit: true
+    revertOnDeath: true
 
 - type: polymorph
   id: WizardMonkey
-  entity: MobMonkey
-  forced: true
-  duration: 60
+  configuration:
+    entity: MobMonkey
+    transferName: true
+    forced: true
+    duration: 60
+    revertOnCrit: true
+    revertOnDeath: true
 
 - type: polymorph
   id: WizardGoat
-  entity: MobGoat
-  forced: true
-  duration: 60
+  configuration:
+    entity: MobGoat
+    transferName: true
+    forced: true
+    duration: 60
+    revertOnCrit: true
+    revertOnDeath: true
 
 - type: polymorph
   id: WizardCow
-  entity: MobCow
-  forced: true
-  duration: 60
+  configuration:
+    entity: MobCow
+    transferName: true
+    forced: true
+    duration: 60
+    revertOnCrit: true
+    revertOnDeath: true
 
 - type: polymorph
   id: WizardPig
-  entity: MobPig
-  forced: true
-  duration: 60
+  configuration:
+    entity: MobPig
+    transferName: true
+    forced: true
+    duration: 60
+    revertOnCrit: true
+    revertOnDeath: true
 
 - type: polymorph
   id: WizardHamster
-  entity: MobHamster
-  forced: true
-  duration: 60
+  configuration:
+    entity: MobHamster
+    transferName: true
+    forced: true
+    duration: 60
+    revertOnCrit: true
+    revertOnDeath: true
 
 - type: polymorph
   id: WizardCat
-  entity: MobCat
-  forced: true
-  duration: 60
+  configuration:
+    entity: MobCat
+    transferName: true
+    forced: true
+    duration: 60
+    revertOnCrit: true
+    revertOnDeath: true
 
 - type: polymorph
   id: Chicken

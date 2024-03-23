@@ -154,24 +154,31 @@
     - sprite: Mobs/Species/Terminator/parts.rsi
       state: full
 
-- type: entity  
+- type: entity
   noSpawn: true
   id: SpawnPointGhostMage
   name: точка появи ролі мага
+  suffix: wizard
   parent: MarkerBase
   components:
   - type: GhostRole
     name: Маг
     description: Космічний маг привносить хаос
     rules: Ви космічний чаклун, привнесіть хаос на станцію аби розвеселити себе.
+    # requirements:
+    # - !type:OverallPlaytimeRequirement
+    #   time: 10000 # PIRATE
+    # - !type:DepartmentTimeRequirement # DeltaV - Security dept time requirement
+    #   department: Security
+    #   time: 10000 # PIRATE
   - type: GhostRoleMobSpawner
     prototype: MobHumanMage
   - type: Sprite
     sprite: Markers/jobs.rsi
     layers:
-    - state: green
-    - sprite: Objects/Weapons/Melee/energykatana.rsi
-      state: icon
+      - state: green
+      - sprite: Structures/Wallmounts/signs.rsi
+        state: radiation
 
 # - type: entity
 #   noSpawn: true

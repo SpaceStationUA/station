@@ -141,9 +141,9 @@
   noSpawn: true
   components:
   - type: StationEvent
-    earliestStart: 60 # DeltaV - was 45
-    weight: 3 # DeltaV - was 5
-    minimumPlayers: 10
+    earliestStart: 100 # DeltaV - was 45
+    weight: 1 # DeltaV - was 5
+    minimumPlayers: 15
     reoccurrenceDelay: 30
     duration: 1
   - type: MageSpawnRule

@@ -36,7 +36,7 @@ public sealed class MageKnockSystem : EntitySystem
     [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
     [Dependency] private readonly DoorSystem _doorSystem = default!;
-    [Dependency] private readonly DoorBoltSystem _boltsSystem = default!;
+    // [Dependency] private readonly DoorBoltSystem _boltsSystem = default!;
 
 
     public override void Initialize()
@@ -78,7 +78,7 @@ public sealed class MageKnockSystem : EntitySystem
         foreach (var entity in _lookup.GetEntitiesInRange(coords, args.Range))
         {
             if (TryComp<DoorBoltComponent>(entity, out var bolts))
-                _boltsSystem.SetBoltsDown(entity, bolts, false);
+                _doorSystem.SetBoltsDown((entity, bolts), false);
 
             if (TryComp<DoorComponent>(entity, out var doorComp) && doorComp.State is not DoorState.Open)
                 _doorSystem.StartOpening(entity);
