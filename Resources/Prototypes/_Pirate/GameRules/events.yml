@@ -1,0 +1,13 @@
+- type: entity
+  id: LostPiratesSpawn
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    earliestStart: 60
+    weight: 3
+    minimumPlayers: 10
+    reoccurrenceDelay: 100
+    duration: 1
+  - type: LostPiratesSpawnRule
+
