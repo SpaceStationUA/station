@@ -129,6 +129,12 @@
             Poison: 4
       - !type:ChemVomit
         probability: 0.25
+    Medicine:
+      effects:
+        - !type:CauseZombieInfection
+          conditions:
+            - !type:ReagentThreshold
+              min: 1
 
 - type: reagent
   id: Ichor
