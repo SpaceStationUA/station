@@ -235,3 +235,14 @@
   - type: ContainerContainer
     containers:
       toggleable-clothing: !type:ContainerSlot {}
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterSuitRobocop
+  name: robot cop suit
+  description: A fantastic human with titanic powers! - M. A.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Suits/robocop.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Suits/robocop.rsi
