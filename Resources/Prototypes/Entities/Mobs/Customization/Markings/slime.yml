@@ -2,7 +2,11 @@
   id: SlimeGradientLeftArm
   bodyPart: LArm
   markingCategory: Arms
-  speciesRestriction: [SlimePerson]
+  speciesRestriction:
+    [
+      SlimePerson,
+      Shadowkin,
+    ]
   sprites:
   - sprite: Mobs/Customization/slime_parts.rsi
     state: gradient_l_arm
@@ -11,7 +15,11 @@
   id: SlimeGradientRightArm
   bodyPart: RArm
   markingCategory: Arms
-  speciesRestriction: [SlimePerson]
+  speciesRestriction:
+    [
+      SlimePerson,
+      Shadowkin,
+    ]
   sprites:
   - sprite: Mobs/Customization/slime_parts.rsi
     state: gradient_r_arm
@@ -20,7 +28,11 @@
   id: SlimeGradientLeftLeg
   bodyPart: LLeg
   markingCategory: Legs
-  speciesRestriction: [SlimePerson]
+  speciesRestriction:
+    [
+      SlimePerson,
+      Shadowkin,
+    ]
   sprites:
   - sprite: Mobs/Customization/slime_parts.rsi
     state: gradient_l_leg
@@ -29,7 +41,11 @@
   id: SlimeGradientRightLeg
   bodyPart: RLeg
   markingCategory: Legs
-  speciesRestriction: [SlimePerson]
+  speciesRestriction:
+    [
+      SlimePerson,
+      Shadowkin,
+    ]
   sprites:
   - sprite: Mobs/Customization/slime_parts.rsi
     state: gradient_r_leg
@@ -56,7 +72,11 @@
   id: SlimeGradientLeftHand
   bodyPart: LHand
   markingCategory: Arms
-  speciesRestriction: [SlimePerson]
+  speciesRestriction:
+    [
+      SlimePerson,
+      Shadowkin,
+    ]
   sprites:
   - sprite: Mobs/Customization/slime_parts.rsi
     state: gradient_l_hand
@@ -65,7 +85,11 @@
   id: SlimeGradientRightHand
   bodyPart: RHand
   markingCategory: Arms
-  speciesRestriction: [SlimePerson]
+  speciesRestriction:
+    [
+      SlimePerson,
+      Shadowkin,
+    ]
   sprites:
   - sprite: Mobs/Customization/slime_parts.rsi
     state: gradient_r_hand

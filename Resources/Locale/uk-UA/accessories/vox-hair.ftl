@@ -1,0 +1,13 @@
+marking-VoxHairShortQuills = Short Vox Quills
+marking-VoxHairKingly = Vox Kingly
+marking-VoxHairAfro = Вокс Афро
+marking-VoxHairMohawk = Vox Mohawk
+marking-VoxHairYasuhiro = Vox Yasuhiro
+marking-VoxHairHorns = Vox Horns
+marking-VoxHairNights = Vox Nights
+marking-VoxHairSurf = Vox Surf
+marking-VoxHairCropped = Вокс кроп
+marking-VoxHairRuffhawk = Vox Ruffhawk
+marking-VoxHairRows = Vox Rows
+marking-VoxHairMange = Vox Mange
+marking-VoxHairPony = Вокс поні

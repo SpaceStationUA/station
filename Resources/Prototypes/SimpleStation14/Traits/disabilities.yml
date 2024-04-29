@@ -1,11 +1,22 @@
-- type: trait
-  id: Nearsighted
-  name: trait-nearsighted-name
-  description: You require glasses to see properly.
-  traitGear: ClothingEyesGlasses
-  components:
-    - type: Nearsighted
-  whitelist: # Delta V fix to borgs spawning with it.
-    components:
-      - Blindable
+# - type: trait
+#   id: Nearsighted
+#   name: trait-nearsighted-name
+#   description: You require glasses to see properly.
+#   traitGear: ClothingEyesGlasses
+#   components:
+#     - type: Nearsighted
+#   whitelist: # Delta V fix to borgs spawning with it.
+#     components:
+#       - Blindable
 
+# - type: trait
+#   id: ShadowkinBlackeye
+#   name: Blackeye
+#   description: You lose your special Shadowkin powers, in return for some points.
+#   cost: 5
+#   category: Negative
+#   whitelist:
+#     species:
+#       - Shadowkin
+#   components:
+#     - type: ShadowkinBlackeyeTrait

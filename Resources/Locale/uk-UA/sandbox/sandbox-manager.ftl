@@ -1,0 +1,16 @@
+sandbox-window-title = Sandbox Panel
+sandbox-window-respawn-button = Респавн
+sandbox-window-spawn-entities-button = Спавн об'єктів
+sandbox-window-spawn-tiles-button = Спавн підлоги
+sandbox-window-spawn-decals-button = Спавн наліпок
+sandbox-window-grant-full-access-button = Надати повний доступ
+sandbox-window-ghost-button = Привид
+sandbox-window-toggle-lights-button = Перемикнути тіні
+sandbox-window-toggle-fov-button = Перемикнути поле зору
+sandbox-window-toggle-shadows-button = Перемикнути тіні
+sandbox-window-toggle-subfloor-button = Перемикнути підлогу
+sandbox-window-toggle-suicide-button = Суїцид
+sandbox-window-show-spawns-button = Показати спавни
+sandbox-window-show-bb-button = Показати BB
+sandbox-window-show-npc-button = Показати NPC
+sandbox-window-link-machines-button = З'єднати пристрої

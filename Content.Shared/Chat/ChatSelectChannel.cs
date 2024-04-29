@@ -52,9 +52,14 @@
         Admin = ChatChannel.AdminChat,
 
         /// <summary>
-        ///     Nyano - Summary:. Telepathic channel for all psionic entities. 
+        ///     Nyano - Summary:. Telepathic channel for all psionic entities.
         /// </summary>
         Telepathic = ChatChannel.Telepathic,
+
+        /// <summary>
+        ///     Shadowkin empathy channel
+        /// </summary>
+        Empathy = ChatChannel.Empathy,
 
         Console = ChatChannel.Unspecified
     }
