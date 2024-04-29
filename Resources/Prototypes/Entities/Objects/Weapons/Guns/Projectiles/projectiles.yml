@@ -992,3 +992,17 @@
     soundHit:
       collection: MeatLaserImpact
     soundForce: true
+
+- type: entity
+  name: energy bolt
+  id: BulletEnergyGunBlaster
+  parent: BulletEnergyGunLaser
+  components:
+  - type: Projectile
+    impactEffect: BulletImpactEffectRedDisabler
+    damage:
+      types:
+        Heat: 10 # Slightly more damage than the 17heat from the Captain's Hitscan lasgun
+    soundHit:
+      collection: MeatLaserImpact
+    soundForce: true

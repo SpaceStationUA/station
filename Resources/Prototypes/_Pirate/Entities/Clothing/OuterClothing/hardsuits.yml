@@ -162,3 +162,202 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitMarsSpecial
+
+#MERC
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitMercGreen
+  name: зелений скафандр наймита
+  description: Легкий скафандр, який належав відомому найманцю.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_green.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_green.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitMercGreen
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitMercWhite
+  name: скафандр наймита
+  description: Такі скафандри носять відомі космічні найманці
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_white.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_white.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitMercWhite
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitMercBlue
+  name: синій скафандр наймита
+  description: Легкий скафандр, який належав відомому найманцю.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_white.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_white.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitMercBlue
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTropperDefault
+  name: скафандр штурмовика
+  description: Скафандр дуже зручний, але надає добрий захист від середовища та шкідників.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_default.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_default.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.3
+        Heat: 0.5
+        Radiation: 0.25
+        Caustic: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitTropperDefault
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTropperRed
+  name: червоний скафандр штурмовика
+  description: Такий костюм можуть носити лише досвідчені штурмовики.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_red.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_red.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitTropperRed
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTropperBlack
+  name: чорний скафандр штурмовика
+  description: Не багатьом "пощастило" вижити у бою з елітними штурмовиками
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_black.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_black.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitTropperBlack

@@ -129,3 +129,148 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+
+#Green
+- type: entity
+  parent: ClothingHeadHardsuitBase
+  id: ClothingHeadHelmetHardsuitMercGreen
+  name: merc hardsuit helmet
+  description: A bizarre gem-encrusted helmet that radiates magical energies.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hardsuits/merc_green.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hardsuits/merc_green.rsi
+  # - type: PointLight
+  #   color: green
+  - type: PressureProtection
+    highPressureMultiplier: 0.27
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+- type: entity
+  parent: ClothingHeadHardsuitBase
+  id: ClothingHeadHelmetHardsuitMercWhite
+  name: merc white hardsuit helmet
+  description: A bizarre gem-encrusted helmet that radiates magical energies.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hardsuits/merc_white.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hardsuits/merc_white.rsi
+  # - type: PointLight
+  #   color: "#ffadfb"
+  - type: PressureProtection
+    highPressureMultiplier: 0.27
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+- type: entity
+  parent: ClothingHeadHardsuitBase
+  id: ClothingHeadHelmetHardsuitMercBlue
+  name: merc blue hardsuit helmet
+  description: A bizarre gem-encrusted helmet that radiates magical energies.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hardsuits/merc_blue.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hardsuits/merc_blue.rsi
+  # - type: PointLight
+  #   color: "#adf1ff"
+  - type: PressureProtection
+    highPressureMultiplier: 0.27
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+- type: entity
+  parent: ClothingHeadHardsuitBase
+  id: ClothingHeadHelmetHardsuitTropperDefault
+  name: tropper hardsuit helmet
+  description: A bizarre gem-encrusted helmet that radiates magical energies.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hardsuits/tropper_default.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hardsuits/tropper_default.rsi
+  # - type: PointLight
+  #   color: "#adf1ff"
+  - type: PressureProtection
+    highPressureMultiplier: 0.27
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+- type: entity
+  parent: ClothingHeadHardsuitBase
+  id: ClothingHeadHelmetHardsuitTropperRed
+  name: red tropper hardsuit helmet
+  description: A bizarre gem-encrusted helmet that radiates magical energies.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hardsuits/tropper_red.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hardsuits/tropper_red.rsi
+  # - type: PointLight
+  #   color: red
+  - type: PressureProtection
+    highPressureMultiplier: 0.27
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+- type: entity
+  parent: ClothingHeadHardsuitBase
+  id: ClothingHeadHelmetHardsuitTropperBlack
+  name: black tropper hardsuit helmet
+  description: A bizarre gem-encrusted helmet that radiates magical energies.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hardsuits/tropper_black.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hardsuits/tropper_black.rsi
+  # - type: PointLight
+  #   color: red
+  - type: PressureProtection
+    highPressureMultiplier: 0.27
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
