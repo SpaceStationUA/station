@@ -90,6 +90,9 @@
     sprite: Clothing/OuterClothing/Misc/cardborg.rsi
   - type: TypingIndicatorClothing
     proto: robot
+  - type: Tag
+    tags:
+    - WhitelistChameleon
 
 - type: entity
   parent: ClothingOuterBaseToggleable
@@ -116,6 +119,17 @@
     sprite: Clothing/OuterClothing/Misc/classicponcho.rsi
   - type: AddAccentClothing
     accent: SpanishAccent
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobesClockwork
+  name: clockwork robes
+  description: What is a clockwork cult without clockwork robes?
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Misc/clockwork_cuirass_old.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Misc/clockwork_cuirass_old.rsi
 
 - type: entity
   parent: ClothingOuterBase
@@ -374,3 +388,25 @@
     sprite: Clothing/OuterClothing/Misc/red_racoon.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Misc/red_racoon.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterDirtySportwear
+  name: брудна спортивка
+  description: Краще б це попрасувати.
+  components:
+  - type: Sprite
+    sprite: T_Pirate/Clothing/OuterClothing/Misc/dirty_sportswear.rsi
+  - type: Clothing
+    sprite: T_Pirate/Clothing/OuterClothing/Misc/dirty_sportswear.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterSportwear
+  name: спортивка
+  description: спортивка, підходить для спорту і спорту. також вона підходить для занять спортом і спорт спорту.
+  components:
+  - type: Sprite
+    sprite: T_Pirate/Clothing/OuterClothing/Misc/sportswear.rsi
+  - type: Clothing
+    sprite: T_Pirate/Clothing/OuterClothing/Misc/sportswear.rsi

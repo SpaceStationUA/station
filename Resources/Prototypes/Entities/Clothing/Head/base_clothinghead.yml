@@ -30,6 +30,11 @@
   parent: ClothingHeadBase
   id: ClothingHeadBaseButcherable
   components:
+  - type: Clothing
+    slots:
+    - HEAD
+    - HEAD1
+    - HEAD2
   - type: Butcherable
     butcheringType: Knife
     spawned:
@@ -42,17 +47,29 @@
 
 - type: entity
   abstract: true
-  parent: Clothing
-  id: HatBase
+  parent: ClothingHeadBase
+  id: ClothingHatBase
   components:
   - type: Clothing
     slots:
     - HEAD
+    - HEAD1
+    - HEAD2
   - type: Sprite
     state: icon
-  - type: Tag
-    tags:
-      - WhitelistChameleon
+
+- type: entity
+  abstract: true
+  parent: ClothingHeadBase
+  id: ClothingHeadMiscBase
+  components:
+  - type: Clothing
+    slots:
+    - HEAD
+    - HEAD1
+    - HEAD2
+  - type: Sprite
+    state: icon
 
 - type: entity
   abstract: true
@@ -137,6 +154,8 @@
     - WhitelistChameleon
     - HelmetEVA
     - HidesNose
+  - type: DiseaseProtection
+    protection: 0.05
   - type: IdentityBlocker
 
 - type: entity
@@ -176,6 +195,8 @@
     - HidesHair
     - WhitelistChameleon
     - HidesNose
+  - type: DiseaseProtection
+    protection: 0.05
   - type: IdentityBlocker
 
 - type: entity

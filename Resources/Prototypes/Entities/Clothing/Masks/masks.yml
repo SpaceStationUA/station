@@ -9,6 +9,8 @@
   - type: Clothing
     sprite: Clothing/Mask/gas.rsi
   - type: BreathMask
+  - type: DiseaseProtection
+    protection: 0.05
   - type: IngestionBlocker
   - type: IdentityBlocker
   - type: Tag
@@ -128,6 +130,8 @@
     sprite: Clothing/Mask/medical.rsi
   - type: Clothing
     sprite: Clothing/Mask/medical.rsi
+  - type: DiseaseProtection
+    protection: 0.10
   - type: BreathMask
   - type: IngestionBlocker
   - type: Tag
@@ -167,6 +171,8 @@
     sprite: Clothing/Mask/breath.rsi
   - type: Clothing
     sprite: Clothing/Mask/breath.rsi
+  - type: DiseaseProtection
+    protection: 0.05
   - type: BreathMask
   - type: IngestionBlocker
   - type: Tag
@@ -265,6 +271,8 @@
     sprite: Clothing/Mask/sterile.rsi
   - type: Clothing
     sprite: Clothing/Mask/sterile.rsi
+  - type: DiseaseProtection
+    protection: 0.1
   - type: IngestionBlocker
   - type: Item
     storedRotation: -90
@@ -301,6 +309,8 @@
     sprite: Clothing/Mask/plaguedoctormask.rsi
   - type: Clothing
     sprite: Clothing/Mask/plaguedoctormask.rsi
+  - type: DiseaseProtection
+    protection: 0.1
   - type: BreathMask
   - type: IngestionBlocker
   - type: IdentityBlocker
@@ -513,6 +523,16 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+
+- type: entity
+  parent: ClothingMaskNeckGaiter
+  id: ClothingMaskNeckGaiterRed
+  name: red neck gaiter
+  components:
+  - type: Sprite
+    sprite: Clothing/Mask/neckgaiterred.rsi
+  - type: Clothing
+    sprite: Clothing/Mask/neckgaiterred.rsi
 
 - type: entity
   parent: ClothingMaskClownBase

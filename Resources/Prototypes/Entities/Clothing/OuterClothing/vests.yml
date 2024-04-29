@@ -63,6 +63,9 @@
     sprite: Clothing/OuterClothing/Vests/hazard.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Vests/hazard.rsi
+  - type: Tag
+    tags:
+    - HiViz
 
 #(Bartender) vest
 - type: entity
@@ -75,3 +78,15 @@
     sprite: Clothing/OuterClothing/Vests/vest.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Vests/vest.rsi
+
+#Blueshield vest
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: ClothingOuterVestBlueshield
+  name: blueshield vest
+  description: Це желет а не желе!.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Vests/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Vests/blueshield.rsi

@@ -7,6 +7,7 @@
     - PetsNT
     - Zombie
     - Revolutionary
+    - WizardFederation
 
 - type: npcFaction
   id: NanoTrasen
@@ -16,6 +17,7 @@
   - Xeno
   - Zombie
   - Revolutionary
+  - WizardFederation
 
 - type: npcFaction
   id: Mouse
@@ -32,6 +34,7 @@
   - SimpleHostile
   - Zombie
   - Xeno
+  - WizardFederation
 
 - type: npcFaction
   id: SimpleHostile
@@ -42,6 +45,7 @@
   - PetsNT
   - Zombie
   - Revolutionary
+  - WizardFederation
 
 - type: npcFaction
   id: SimpleNeutral
@@ -54,6 +58,7 @@
   - Xeno
   - PetsNT
   - Zombie
+  - WizardFederation
 
 - type: npcFaction
   id: Xeno
@@ -83,3 +88,13 @@
   - Zombie
   - SimpleHostile
   - Dragon
+
+- type: npcFaction
+  id: Goblin
+
+- type: npcFaction
+  id: WizardFederation
+  hostile:
+  - NanoTrasen
+  - SimpleHostile
+  - Syndicate

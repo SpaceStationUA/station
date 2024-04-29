@@ -13,6 +13,8 @@
       types:
         Blunt: 10
         Structural: 5
+    soundHit:
+      collection: MetalThud
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
@@ -39,6 +41,21 @@
     - BaseballBat
 
 - type: entity
+  name: incomplete baseball bat
+  parent: BaseItem
+  id: IncompleteBaseBallBat
+  description: A few planks of wood stuck together.
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/incomplete_bat.rsi
+    state: icon
+  - type: Item
+    size: Normal
+  - type: Construction
+    graph: WoodenBat
+    node: incompleteBat
+
+- type: entity
   name: knockback stick
   parent: BaseBallBat
   id: WeaponMeleeKnockbackStick
@@ -50,3 +67,24 @@
     damage:
       types:
         Blunt: 1
+
+- type: entity
+  name: магічна бита
+  parent: BaseBallBat
+  id: WeaponMeleeMagicBat
+  description: Вибийте з них всю дурь.
+  # suffix: Do not map
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Melee/magic_bat.rsi
+    state: icon
+  - type: MeleeThrowOnHit
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 12
+        Structural: 7
+    soundHit:
+      path: /Audio/Weapons/bat_bonk.ogg
+      params:
+        volume: -3

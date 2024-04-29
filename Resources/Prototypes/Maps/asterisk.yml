@@ -14,7 +14,7 @@
           mapNameTemplate: '{0} Asterisk Station {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
-            prefixCreator: '14'
+            prefixCreator: 'DV'
         - type: StationJobs
           overflowJobs:
             - Passenger
@@ -44,6 +44,7 @@
             MedicalIntern: [ 2, 3 ]
           #science
             ResearchDirector: [ 1, 1 ]
+            Roboticist: [ 1, 1 ]
             Chaplain: [ 1, 1 ]
             ForensicMantis: [ 1, 1 ]
             Scientist: [ 2, 3 ]
@@ -51,6 +52,7 @@
             Borg: [ 1, 2 ]
           #security
             HeadOfSecurity: [ 1, 1 ]
+            Blueshield: [ 1, 1 ]
             Warden: [ 1, 1 ]
             Detective: [ 1, 1 ]
             Brigmedic: [ 1, 1 ]

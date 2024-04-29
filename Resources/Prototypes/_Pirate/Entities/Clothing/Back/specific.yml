@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingBackpackWaterTank
+  id: ClothingBackpackFlameTank
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      tank:
+        reagents:
+        - ReagentId: Napalm
+          Quantity: 490
+        - ReagentId: ChlorineTrifluoride
+          Quantity: 10
+
+

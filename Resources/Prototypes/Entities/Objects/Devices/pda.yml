@@ -108,6 +108,7 @@
 - type: entity
   parent: BasePDA
   id: BaseMedicalPDA
+  abstract: true
   components:
   - type: HealthAnalyzer
     scanDelay: 1
@@ -1136,3 +1137,33 @@
       whitelist:
         components:
           - Cartridge
+
+- type: entity
+  parent: BasePDA
+  id: BlueshieldPDA
+  name: blueshield PDA
+  description: Коштує дорожче ніж ви, сер.
+  components:
+  - type: Pda
+    id: BlueshieldIDCard
+    state: pda-blueshield
+  - type: PdaBorderColor
+    borderColor: "#004281"
+    accentHColor: "#001932"
+  - type: Icon
+    state: pda-blueshield
+
+- type: entity
+  parent: BasePDA
+  id: RoboticistPDA
+  name: Roboticist PDA
+  description: Найкращий друг робота.
+  components:
+  - type: Pda
+    id: RoboticistIDCard
+    state: pda-roboticist
+  - type: PdaBorderColor
+    borderColor: "#333333"
+    accentVColor: "#891417"
+  - type: Icon
+    state: pda-roboticist

@@ -1,0 +1,68 @@
+- type: job
+  id: Blueshield
+  name: job-name-blueshield
+  description: job-description-blueshield
+  playTimeTracker: JobBlueshield
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 14000
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 18000 #  5 hours
+    - !type:WhitelistRequirement # PIRATE - Whitelist requirement
+  #  - !type:RoleTimeRequirement        # 
+  #    role: JobHeadOfPersonnel         # 
+  #    time: 3600 #1 hrs                # 
+  #  - !type:RoleTimeRequirement        # треба буде якось це налаштувати.
+  #    role: JobHeadOfSecurity          # просто я не можу придумати на яких ролях треба награти для такої професії
+  #    time: 3600 #1 hrs                # або ж мені просто лінь придумувати ))
+  #  - !type:RoleTimeRequirement        # 
+  #    role: JobChiefMedicalOfficer     #
+  #    time: 3600 #1 hrs                #
+  weight: 20
+  startingGear: BlueshieldGear
+  icon: "JobIconBlueshield"
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  access:
+  - Command
+  - Service
+#  - Frontier
+  - Maintenance
+  - External
+  - Chemistry 
+  - Engineering 
+  - Research 
+  - Detective
+  - Salvage
+  - Security
+#  - Brig Delta-V removed 
+  - Cargo
+  - Atmospherics
+  - Medical
+  - Armory 
+#  - Mercenary
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant, TrackingImplant, StorageImplant ]
+
+- type: startingGear
+  id: BlueshieldGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBlueshield
+    back: ClothingBackpackBlueshieldFilled
+    shoes: ClothingShoesBootsCombatFilled
+    head: ClothingHeadHatBeretBlueshield
+    eyes: ClothingEyesGlassesSecurity
+    gloves: ClothingHandsGlovesCombat
+    outerClothing: ClothingOuterVestBlueshield
+    id: BlueshieldPDA
+    ears: ClothingHeadsetAltSecurity
+    pocket1: WeaponEnergyGunAdvancedRevolver
+    belt: ClothingBeltSecurityBlueshieldFilled
+    neck: ClothingNeckTieBlue
+  innerClothingSkirt: ClothingUniformJumpskirtBlueshield
+  satchel: ClothingBackpackSatchelBlueshieldFilled
+  duffelbag: ClothingBackpackDuffelBlueshieldFilled

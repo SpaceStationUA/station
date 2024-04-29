@@ -1,0 +1,28 @@
+- type: vessel
+  id: Rogue
+  name: NT Rogue
+  description: Мале десантне судно з перемикачем для невидимості в глибокому космосі.
+  price: 8200 #the appraisal is 7941$
+  category: Small
+  group: None
+  mapchecker_group_override: Security  # Treat this as a security vessel for mapchecker purposes
+  shuttlePath: /Maps/Shuttles/rogue.yml
+
+- type: gameMap
+  id: Rogue
+  mapName: 'NSF Rogue'
+  mapPath: /Maps/Shuttles/rogue.yml
+  minPlayers: 0
+  stations:
+    Rogue:
+      stationProto: StandardFrontierSecurityVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Rogue {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          overflowJobs: []
+          availableJobs:
+            Passenger: [ 0, 0 ]

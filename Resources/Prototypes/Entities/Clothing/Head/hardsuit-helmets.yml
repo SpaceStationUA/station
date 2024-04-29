@@ -424,6 +424,8 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+  - type: DiseaseProtection
+    protection: 0.25
 
 #Syndicate Commander Hardsuit
 - type: entity
@@ -449,6 +451,8 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+  - type: DiseaseProtection
+    protection: 0.25
 
 #Cybersun Juggernaut Hardsuit
 - type: entity
@@ -571,6 +575,21 @@
         Piercing: 0.9
         Heat: 0.9
 
+#ERT Chaplain Hardsuit
+- type: entity
+  parent: ClothingHeadHelmetHardsuitSyndie
+  id: ClothingHeadHelmetHardsuitERTChaplain
+  name: ERT chaplain hardsuit helmet
+  description: A special hardsuit helmet worn by members of an emergency response team.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hardsuits/ERThelmets/ertchaplain.rsi
+  - type: PointLight
+    color: "#ffffff"
+
 #ERT Engineer Hardsuit
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
@@ -607,6 +626,8 @@
     sprite: Clothing/Head/Hardsuits/ERThelmets/ertmedical.rsi
   - type: PointLight
     color: "#adffec"
+  - type: DiseaseProtection
+    protection: 0.20
 
 #ERT Security Hardsuit
 - type: entity

@@ -5,21 +5,19 @@
   playTimeTracker: JobHeadOfPersonnel
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   requirements:
-    - !type:RoleTimeRequirement
-      role: JobChef
-      time: 14400 # DeltaV - 4 hours
-    - !type:RoleTimeRequirement
-      role: JobBartender
-      time: 14400 # DeltaV - 4 hours
-    - !type:RoleTimeRequirement
-      role: JobJanitor
-      time: 14400 # DeltaV - 4 hours
-    - !type:DepartmentTimeRequirement # DeltaV - Civilian dept time requirement
-      department: Civilian
-      time: 72000 # 20 hours
-    - !type:OverallPlaytimeRequirement # DeltaV - Playtime requirement
-      time: 90000 # 25 hours
-  weight: 10 # DeltaV - Changed HoP weight from 20 to 10 due to them not being more important than other Heads
+    - !type:DepartmentTimeRequirement
+      department: Engineering
+      time: 36000 # 10 hours
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 36000 # 10 hours
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000 # 10 hrs
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 36000 # 10 hours
+  weight: 20 # Я не знаю за що цей параметр відповідає тому повернув як в оригіналі
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"
   requireAdminNotify: true
@@ -31,10 +29,12 @@
   - Bar
   - Service
   - Maintenance
+  - Mail # Nyanotrasen - MailCarrier, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Cargo/mail-carrier.yml
+  - Orders # DeltaV - Orders, see Resources/Prototypes/DeltaV/Access/cargo.yml Доступ до заказів
   - Janitor
   - Theatre
   - Kitchen
-#  - Chapel
+  - Chapel
   - Hydroponics
   - External
   - Cryogenics
@@ -42,17 +42,21 @@
   # As of 15/03/23 they can't do that so here's MOST of the rest of the access levels.
   # Head level access that isn't their own was deliberately left out, get AA from the captain instead.
   # Delta V - fuck all of this HoP is a service role
-#  - Chemistry
-#  - Engineering
-#  - Research
-#  - Detective
-#  - Salvage
-#  - Security # NoooOoOo!! My HoPcurity!1
-#  - Brig
+  - Chemistry
+  - Psychologist # DeltaV - Add Psychologist access 
+  - Mantis # DeltaV - Psionic Mantis, see Resources/Prototypes/DeltaV/Access/epistemics.yml Доступ до кімнати Мантіса
+  - Engineering
+  - Research
+  - Detective
+  - Salvage
+  - Security
+#  - Brig # В білду дельти немає доступу бріга
+  - Corpsman # DeltaV - added Corpsman access
+  - Paramedic # DeltaV - Add Paramedic access
   - Lawyer
-#  - Cargo
-#  - Atmospherics
-#  - Medical
+  - Cargo
+  - Atmospherics
+  - Medical
   - Boxer # DeltaV - Add Boxer access
   - Clown # DeltaV - Add Clown access
   - Library # DeltaV - Add Library access
@@ -80,7 +84,7 @@
     head: ClothingHeadHatHopcap
     id: HoPPDA
     gloves: ClothingHandsGlovesHop
-    ears: ClothingHeadsetHoP # DeltaV - HoP is now a service role, replaces their all channels headset.
+    ears: ClothingHeadsetAltCommand
     belt: BoxFolderClipboard
   innerClothingSkirt: ClothingUniformJumpskirtHoP
   satchel: ClothingBackpackSatchelHOPFilled

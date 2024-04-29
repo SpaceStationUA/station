@@ -130,6 +130,18 @@
         amount: 2
 
 - type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateFilledCSAR
+  name: C-SAR bundle
+  description: "A brand new, top of the line Cybersun Specialist Automatic Rifle, and 3 spare magazines."
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponSubMachineGunCSAR
+      - id: MagazineCaselessRifle
+        amount: 2
+
+- type: entity
   parent: ClothingBackpackDuffelSyndicateAmmo
   id: ClothingBackpackDuffelSyndicateAmmoFilled
   name: ammo bundle
@@ -236,17 +248,18 @@
   id: ClothingBackpackChameleonFill
   suffix: Fill, Chameleon
   components:
-  - type: StorageFill
-    contents:
-      - id: ClothingUniformJumpsuitChameleon
-      - id: ClothingOuterChameleon
-      - id: ClothingNeckChameleon
-      - id: ClothingMaskGasChameleon
-      - id: ClothingHeadHatChameleon
-      - id: ClothingHandsChameleon
-      - id: ClothingEyesChameleon
-      - id: ClothingHeadsetChameleon
-      - id: ClothingShoesChameleon
+    - type: StorageFill
+      contents:
+        - id: ClothingUniformJumpsuitChameleon
+        - id: ClothingOuterChameleon
+        - id: ClothingNeckChameleon
+        - id: ClothingMaskGasChameleon
+        - id: ClothingHeadHatChameleon
+        - id: ClothingHandsChameleon
+        - id: ClothingEyesChameleon
+        - id: ClothingHeadsetChameleon
+        - id: ClothingShoesChameleon
+        - id: BarberScissors
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
@@ -366,6 +379,35 @@
       - id: ClothingHandsGlovesNitrile
       - id: SyringeTranexamicAcid
       - id: SyringeHyronalin
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackBootsSpeedMagic
+  name: Набір чоботів швидкості
+  description: "Містить чоботи швидкості та батарейку яку треба в них вставити"
+  suffix: DO NOT MAP
+  components:
+    - type: Tag
+      tags: [] # ignore "WhitelistChameleon" tag
+    - type: StorageFill
+      contents:
+        - id: ClothingShoesBootsSpeedMagic
+        - id: PowerCellMicroreactor
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackHolyGrenade
+  name: Набір святих гранат
+  description: "Містить святі гранати: 4 відволікаючих, і 1 справжню"
+  suffix: DO NOT MAP
+  components:
+    - type: Tag
+      tags: [] # ignore "WhitelistChameleon" tag
+    - type: StorageFill
+      contents:
+        - id: HolyGrenadeDummy
+          amount: 4
+        - id: HolyHandGrenade
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle

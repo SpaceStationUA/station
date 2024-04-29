@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesShadowkinDarkWindow
+  name: затемнені окуляри
+  description: Незвичайна пара окулярів була розроблена під час нелюдських експериментів за участю Шедовкіна. Вони розроблені, щоб дозволити власнику зазирнути в The Dark.
+  components:
+  - type: Sprite
+    sprite: SimpleStation14/Clothing/Eyes/Glasses/darkened.rsi
+  - type: Clothing
+    sprite: SimpleStation14/Clothing/Eyes/Glasses/darkened.rsi
+  - type: EyeProtection
+  # - type: DropOnSlip
+  #   chance: 20
+  - type: ShadowkinSight

@@ -1,0 +1,34 @@
+- type: loadout
+  id: LoadoutCommandRDNeckMantle
+  category: Jobs
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - ResearchDirector
+  items:
+    - ClothingNeckMantleRD
+
+- type: loadout
+  id: LoadoutCommandRDNeckCloak
+  category: Jobs
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - ResearchDirector
+  items:
+    - ClothingNeckCloakRd
+
+- type: loadout
+  id: LoadoutCommandRDOuterWinter
+  category: Jobs
+  cost: 2
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - ResearchDirector
+  items:
+    - ClothingOuterWinterRD

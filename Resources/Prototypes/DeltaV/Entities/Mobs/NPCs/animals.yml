@@ -24,8 +24,8 @@
         - MobLayer
   - type: Appearance
   - type: Inventory
-    speciesId: arcticfox
-    templateId: pet
+    speciesId: secdog
+    templateId: secdog
   - type: InventorySlots
   - type: Strippable
   - type: UserInterface
@@ -65,7 +65,43 @@
     price: 400
   - type: Tag
     tags:
+    - DoorBumpOpener
     - VimPilot
+  - type: Puller
+    needsHands: false
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: "розумна арктична лисиця"
+    description: "Будьте білосніжною лисицею"
+  - type: GhostTakeoverAvailable
+  - type: CombatMode
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 3.5
+    baseSprintSpeed : 5.0
+  - type: NpcFactionMember
+    factions:
+      - PetsNT
+  - type: Speech
+    speechVerb: Canine
+    speechSounds: Vulpkanin
+  - type: StaminaDamageOnHit
+    damage: 22
+  - type: MeleeWeapon
+    hidden: true
+    altDisarm: false
+    soundHit:
+        path: /Audio/Effects/bite.ogg
+    angle: 0
+    attackRate: 1
+    damage:
+      types:
+        Slash: 10
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      40: 0.70
+      80: 0.30
 
 - type: entity
   name: security dog

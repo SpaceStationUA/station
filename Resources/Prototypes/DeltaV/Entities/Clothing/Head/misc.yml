@@ -1,0 +1,194 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatJackoLanternMask
+  name: маска Джека-ліхтарика
+  description: Маска ліхтарика Джека! Його очі світяться аурою шулера...
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Head/Misc/jackolantern_mask.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Head/Misc/jackolantern_mask.rsi
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: PointLight
+    radius: 1.2
+    energy: 3.8
+    color: "#EBAB34"
+  - type: Tag
+    tags:
+    - HidesHair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHoodGigaPompodour
+  name: гіга помподур
+  description: Така перука, яка додасть вам величезної впевненості, щоб затьмарити відсутність волосся.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Head/Misc/gigapompodour.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Head/Misc/gigapompodour.rsi
+  - type: Tag
+    tags:
+    - HidesHair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHoodBlondeGigaPompodour
+  name: блондинка гіга помпадур
+  description: Такий тип перуки, який змушує вас сказати - «Привіт, красуня, мамо, що трясеться?».
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Head/Misc/gigapompodour.rsi
+    state: blonde-icon
+  - type: Clothing
+    sprite: DeltaV/Clothing/Head/Misc/gigapompodour.rsi
+    equippedPrefix: blonde
+  - type: Item
+    sprite: DeltaV/Clothing/Head/Misc/gigapompodour.rsi
+    heldPrefix: blonde
+  - type: Tag
+    tags:
+    - HidesHair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHoodGorillaMask
+  name: маска горили
+  description: Маска горили, ідеально підходить для носіння під час їжі бананів.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Head/Misc/gorillamask.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Head/Misc/gorillamask.rsi
+  - type: Tag
+    tags:
+    - HidesHair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHoodCowMask
+  name: маска корови
+  description: Одягнувши це, у вас виникає бажання з’їсти трохи трави.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Head/Misc/cowmask.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Head/Misc/cowmask.rsi
+  - type: Tag
+    tags:
+    - HidesHair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHoodPigMask
+  name: маска свині
+  description: Свиня вигукує - «Хрю, хрю, хрю». Чекай, що?
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Head/Misc/pigmask.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Head/Misc/pigmask.rsi
+  - type: Tag
+    tags:
+    - HidesHair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHoodXenoHelm
+  name: головний убір xeno
+  description: Головний убір, що нагадує Xeno.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Head/Misc/xeno_helm.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Head/Misc/xeno_helm.rsi
+  - type: Tag
+    tags:
+    - HidesHair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHoodLobsterHelm
+  name: головний убір лобстера
+  description: Головний убір, що нагадує лобстера. Це нагадує вам іншого омара на ім'я Ларрі.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Head/Misc/lobster_helm.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Head/Misc/lobster_helm.rsi
+  - type: Tag
+    tags:
+    - HidesHair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHoodNemesHeaddress
+  name: головний убір nemes
+  description: Ходи як єгиптянин.~ ♫
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Head/Misc/nemes_headdress.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Head/Misc/nemes_headdress.rsi
+  - type: Tag
+    tags:
+    - HidesHair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHoodSkeletonmask
+  name: маска скелета
+  description: Надворі чудовий день.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Head/Misc/skeletonmask.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Head/Misc/skeletonmask.rsi
+  - type: IdentityBlocker
+  - type: IngestionBlocker
+  - type: Tag
+    tags:
+    - HidesHair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHoodMonitorHelm
+  name: IPC монітор
+  description: Старий монітор блоку IPC. Ви могли б туди помістити свою голову.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Head/Misc/monitorhelm.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Head/Misc/monitorhelm.rsi
+  - type: Tag
+    tags:
+    - HidesHair
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatTony
+  name: tony
+  description: 'Man, this party stinks, I fucking hate these people.'
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Head/Misc/tony.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Head/Misc/tony.rsi
+    equipSound:
+      path: /Audio/DeltaV/Weapons/Melee/pickupweapon.ogg
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: EmitSoundOnPickup
+    sound: /Audio/DeltaV/Weapons/Melee/pickupweapon.ogg
+  - type: AmbientSound
+    range: 0.01
+    volume: -4
+    sound: /Audio/DeltaV/Misc/miami_music.ogg
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1.2
+    enabled: true
+  - type: Tag
+    tags:
+    - HidesHair

@@ -20,12 +20,6 @@
   text: "/ServerInfo/Guidebook/Survival.xml"
 
 - type: guideEntry
-  id: Chemicals
-  name: guide-entry-chemicals
-  text: "/ServerInfo/Guidebook/Chemicals.xml"
-  filterEnabled: True
-
-- type: guideEntry
   id: Janitorial
   name: guide-entry-janitorial
   text: "/ServerInfo/Guidebook/Service/Janitorial.xml"
@@ -47,4 +41,79 @@
   id: Food Recipes
   name: guide-entry-foodrecipes
   text: "/ServerInfo/Guidebook/Service/FoodRecipes.xml"
+  children:
+  - Burgers
+  - Breads
+  - Pizzas
+  - Pastas
+  - Soups
+  - Meats
+  - FastFood
+  - Deserts
+  - Pies
+  - Cakes
+  - Salads
+  - Tacos
+
+- type: guideEntry
+  id: Burgers
+  name: guide-entry-burgers
+  text: "/ServerInfo/Guidebook/Service/Burgers.xml"
+
+- type: guideEntry
+  id: Breads
+  name: guide-entry-breads
+  text: "/ServerInfo/Guidebook/Service/Breads.xml"
+
+- type: guideEntry
+  id: Pizzas
+  name: guide-entry-pizza
+  text: "/ServerInfo/Guidebook/Service/Pizza.xml"
+
+- type: guideEntry
+  id: Pastas
+  name: guide-entry-pasta
+  text: "/ServerInfo/Guidebook/Service/Pasta.xml"
+
+- type: guideEntry
+  id: Soups
+  name: guide-entry-soup
+  text: "/ServerInfo/Guidebook/Service/Soups.xml"
+
+- type: guideEntry
+  id: Meats
+  name: guide-entry-meats
+  text: "/ServerInfo/Guidebook/Service/Meats.xml"
+
+- type: guideEntry
+  id: FastFood
+  name: guide-entry-fast-food
+  text: "/ServerInfo/Guidebook/Service/FastFood.xml"
+
+- type: guideEntry
+  id: Deserts
+  name: guide-entry-deserts
+  text: "/ServerInfo/Guidebook/Service/Deserts.xml"
+
+- type: guideEntry
+  id: Pies
+  name: guide-entry-pies
+  text: "/ServerInfo/Guidebook/Service/Pies.xml"
+
+- type: guideEntry
+  id: Cakes
+  name: guide-entry-cakes
+  text: "/ServerInfo/Guidebook/Service/Cakes.xml"
+
+- type: guideEntry
+  id: Salads
+  name: guide-entry-salads
+  text: "/ServerInfo/Guidebook/Service/Salads.xml"
+
+- type: guideEntry
+  id: Tacos
+  name: guide-entry-tacos
+  text: "/ServerInfo/Guidebook/Service/Tacos.xml"
+
+
 

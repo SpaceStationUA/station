@@ -26,6 +26,7 @@ using Content.Server.Popups;
 using Content.Server.Power.Components;
 using Content.Server.Station.Systems;
 using Content.Server.Spawners.EntitySystems;
+using Content.Shared.Access;
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
 using Content.Shared.Chemistry.EntitySystems;
@@ -42,6 +43,7 @@ using Content.Shared.Item;
 using Content.Shared.Mail;
 using Content.Shared.Maps;
 using Content.Shared.Nutrition.Components;
+using Content.Shared.Nutrition.EntitySystems;
 using Content.Shared.PDA;
 using Content.Shared.Random.Helpers;
 using Content.Shared.Roles;
@@ -126,8 +128,8 @@ namespace Content.Server.Mail
                 return;
             }
 
-            if (!HasComp<StationMailRouterComponent>(station))
-                return;
+            // if (!HasComp<StationMailRouterComponent>(station))
+            //     return;
 
             AddComp<MailReceiverComponent>(args.SpawnResult.Value);
         }
@@ -445,7 +447,8 @@ namespace Content.Server.Mail
             foreach (var item in EntitySpawnCollection.GetSpawns(mailComp.Contents, _random))
             {
                 var entity = EntityManager.SpawnEntity(item, Transform(uid).Coordinates);
-                if (!container.Insert(entity))
+
+                if (!_containerSystem.Insert(entity, container))
                 {
                     _sawmill.Error($"Can't insert {ToPrettyString(entity)} into new mail delivery {ToPrettyString(uid)}! Deleting it.");
                     QueueDel(entity);
@@ -493,7 +496,10 @@ namespace Content.Server.Mail
                 ("recipient", recipient.Name)));
 
             var accessReader = EnsureComp<AccessReaderComponent>(uid);
-            accessReader.AccessLists.Add(recipient.AccessTags);
+            foreach (var access in recipient.AccessTags)
+            {
+                accessReader.AccessLists.Add(new HashSet<ProtoId<AccessLevelPrototype>>{access});
+            }
         }
 
         /// <summary>
@@ -717,10 +723,10 @@ namespace Content.Server.Mail
         public string Name;
         public string Job;
         public string JobIcon;
-        public HashSet<String> AccessTags;
+        public HashSet<ProtoId<AccessLevelPrototype>> AccessTags;
         public bool MayReceivePriorityMail;
 
-        public MailRecipient(string name, string job, string jobIcon, HashSet<String> accessTags, bool mayReceivePriorityMail)
+        public MailRecipient(string name, string job, string jobIcon, HashSet<ProtoId<AccessLevelPrototype>> accessTags, bool mayReceivePriorityMail)
         {
             Name = name;
             Job = job;

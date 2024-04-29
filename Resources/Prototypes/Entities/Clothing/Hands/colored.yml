@@ -63,8 +63,24 @@
     sprite: Clothing/Hands/Gloves/Color/blue.rsi
   - type: Clothing
     sprite: Clothing/Hands/Gloves/Color/blue.rsi
+  - type: DiseaseProtection
+    protection: 0.15
   - type: Fiber
     fiberColor: fibers-blue
+
+- type: entity
+  parent: ClothingHandsGlovesSyntheticBase
+  id: ClothingHandsGlovesColorBlueIsolated
+  name: ізольовані сині рукавички
+  description: Сині рукавички, які вбережуть від електрики.
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/Color/blue.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/Color/blue.rsi
+  - type: Fiber
+    fiberColor: fibers-blue
+  - type: Insulated
 
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
@@ -180,17 +196,17 @@
     list:
       - 0
       - 0
-      - 0
       - 0.5
       - 0.5
       - 0.5
-      - 0.75
-      - 1.25
-      - 1.25
       - 1.5
       - 1.5
-      - 1.5
-      - 1.5
+      - 2
+      - 2.5
+      - 2.5
+      - 3
+      - 3.5
+      - 4
 
 - type: entity
   parent: ClothingHandsGlovesColorYellow

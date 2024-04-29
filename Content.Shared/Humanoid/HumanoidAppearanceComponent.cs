@@ -85,7 +85,6 @@ public sealed partial class HumanoidAppearanceComponent : Component
     [ViewVariables(VVAccess.ReadOnly)]
     public Color? CachedFacialHairColor;
 
-    /// <summary>
     /// DeltaV - let paradox anomaly be cloned
     /// </summary>
     [ViewVariables]

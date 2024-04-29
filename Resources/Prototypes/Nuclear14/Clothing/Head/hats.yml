@@ -1,0 +1,50 @@
+# Insert hat base here
+
+# General
+
+- type: entity
+  parent: ClothingHatBase
+  id: N14ClothingHeadHatHeadscarf
+  name: тканинна хустка
+  description: A headscarf made from scraps of cloth
+  components:
+  - type: Sprite
+    sprite: Nuclear14/Clothing/Head/FalloutHats/headscarf.rsi
+  - type: Clothing
+    sprite: Nuclear14/Clothing/Head/FalloutHats/headscarf.rsi
+
+# Bandit
+- type: entity
+  parent: ClothingHatBase
+  id: N14ClothingHeadHatBandit
+  name: бандитський капелюх
+  description: Uh oh. He's coming this way.
+  components:
+  - type: Sprite
+    sprite: Nuclear14/Clothing/Head/FalloutHats/bandit.rsi
+  - type: Clothing
+    sprite: Nuclear14/Clothing/Head/FalloutHats/bandit.rsi
+
+# NCR
+- type: entity
+  parent: ClothingHatBase
+  id: N14ClothingHeadHatNCRSidecap
+  name: NCR sidecap
+  description: A sidecap often worn by junior NCR soldiers.
+  components:
+  - type: Sprite
+    sprite: Nuclear14/Clothing/Head/FalloutHats/ncrsidecap.rsi
+  - type: Clothing
+    sprite: Nuclear14/Clothing/Head/FalloutHats/ncrsidecap.rsi
+
+# Tribal
+- type: entity
+  parent: ClothingHatBase
+  id: N14ClothingHeadHatTribalOutcastHood
+  name: племінний капюшон
+  description: Shame! A hood worn by outcasts.
+  components:
+  - type: Sprite
+    sprite: Nuclear14/Clothing/Head/FalloutHats/tribalhoodoutcast.rsi
+  - type: Clothing
+    sprite: Nuclear14/Clothing/Head/FalloutHats/tribalhoodoutcast.rsi

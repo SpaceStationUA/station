@@ -29,6 +29,8 @@ public sealed class ClientClothingSystem : ClothingSystem
     private static readonly Dictionary<string, string> TemporarySlotMap = new()
     {
         {"head", "HELMET"},
+        {"head1", "HELMET"},
+        {"head2", "HELMET"},
         {"eyes", "EYES"},
         {"ears", "EARS"},
         {"mask", "MASK"},
@@ -43,6 +45,8 @@ public sealed class ClientClothingSystem : ClothingSystem
         {"pocket1", "POCKET1"},
         {"pocket2", "POCKET2"},
         {"suitstorage", "SUITSTORAGE"},
+        {"neck1", "NECK"},
+        {"neck2", "NECK"},
     };
 
     [Dependency] private readonly IResourceCache _cache = default!;
@@ -133,7 +137,7 @@ public sealed class ClientClothingSystem : ClothingSystem
         else if (TryComp(uid, out SpriteComponent? sprite))
             rsi = sprite.BaseRSI;
 
-        if (rsi == null || rsi.Path == null)
+        if (rsi == null)
             return false;
 
         var correctedSlot = slot;
@@ -271,7 +275,7 @@ public sealed class ClientClothingSystem : ClothingSystem
         {
             if (!revealedLayers.Add(key))
             {
-                Logger.Warning($"Duplicate key for clothing visuals: {key}. Are multiple components attempting to modify the same layer? Equipment: {ToPrettyString(equipment)}");
+                Log.Warning($"Duplicate key for clothing visuals: {key}. Are multiple components attempting to modify the same layer? Equipment: {ToPrettyString(equipment)}");
                 continue;
             }
 
@@ -281,6 +285,9 @@ public sealed class ClientClothingSystem : ClothingSystem
                 // note that every insertion requires reshuffling & remapping all the existing layers.
                 sprite.AddBlankLayer(index);
                 sprite.LayerMapSet(key, index);
+
+                if (layerData.Color != null)
+                    sprite.LayerSetColor(key, layerData.Color.Value);
             }
             else
                 index = sprite.LayerMapReserveBlank(key);

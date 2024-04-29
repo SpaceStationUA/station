@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: 0 0 * * 0
-
+    
 jobs:
   get_credits:
     runs-on: ubuntu-latest
@@ -16,22 +16,21 @@ jobs:
       - uses: actions/checkout@v3.6.0
         with:
           ref: master
-
       - name: Get this week's Contributors
         shell: pwsh
         run: Tools/dump_github_contributors.ps1 > Resources/Credits/GitHub.txt
 
       # TODO
       #- name: Get this week's Patreons
-      #  run: Tools/script2dumppatreons > Resources/Credits/Patrons.yml
-
+      #  run: Tools/script2dumppatreons > Resources/Credits/Patrons.yml        
+      
       # MAKE SURE YOU ENABLED "Allow GitHub Actions to create and approve pull requests" IN YOUR ACTIONS, OTHERWISE IT WILL MOST LIKELY FAIL
 
 
-      # For this you can use a pat token of an account with direct push access to the repo if you have protected branches.
+      # For this you can use a pat token of an account with direct push access to the repo if you have protected branches. 
       # Uncomment this and comment the other line if you do this.
       # https://github.com/stefanzweifel/git-auto-commit-action#push-to-protected-branches
-
+      
       #- name: Commit new credit files
       #  uses: stefanzweifel/git-auto-commit-action@v4
       #  with:

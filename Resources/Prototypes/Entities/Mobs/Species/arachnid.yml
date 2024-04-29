@@ -51,7 +51,7 @@
   - type: MeleeWeapon
     animation: WeaponArcBite
     soundHit:
-      collection: AlienClaw
+      path: /Audio/Effects/bite.ogg
     damage:
       types:
         Piercing: 5
@@ -112,6 +112,10 @@
       - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
       - map: [ "mask" ]
       - map: [ "head" ]
+      - map: [ "neck2" ]
+      - map: [ "neck1" ]
+      - map: [ "head2" ]
+      - map: [ "head1" ]    
       - map: [ "pocket1" ]
       - map: [ "pocket2" ]
       - map: ["enum.HumanoidVisualLayers.Handcuffs"]

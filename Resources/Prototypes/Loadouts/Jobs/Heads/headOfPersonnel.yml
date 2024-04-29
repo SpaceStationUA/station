@@ -1,0 +1,45 @@
+- type: loadout
+  id: LoadoutCommandHOPNeckMantle
+  category: Jobs
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - HeadOfPersonnel
+  items:
+    - ClothingNeckMantleHOP
+
+- type: loadout
+  id: LoadoutCommandHOPNeckCloak
+  category: Jobs
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - HeadOfPersonnel
+  items:
+    - ClothingNeckCloakHop
+
+- type: loadout
+  id: LoadoutCommandHOPBackIan
+  category: Jobs
+  cost: 4
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - HeadOfPersonnel
+  items:
+    - ClothingBackpackIan
+
+- type: loadout
+  id: LoadoutCommandHOPHatCap
+  category: Jobs
+  cost: 1
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - HeadOfPersonnel
+  items:
+    - ClothingHeadHatHopcap

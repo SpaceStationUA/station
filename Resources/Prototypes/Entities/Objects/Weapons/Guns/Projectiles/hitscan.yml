@@ -35,7 +35,7 @@
   id: RedLaserPractice
   damage:
     types:
-      Heat: 0
+      Heat: 1
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_laser
@@ -66,6 +66,21 @@
   damage:
     types:
       Heat: 7
+  muzzleFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: muzzle_laser
+  travelFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: beam
+  impactFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: impact_laser
+
+- type: hitscan
+  id: RedLightLaserBetter
+  damage:
+    types:
+      Heat: 15
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_laser
@@ -138,3 +153,19 @@
   impactFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: impact_beam_heavy2
+
+- type: hitscan
+  id: HolyLaser
+  damage:
+    types:
+      Heat: 14
+      Holy: 6
+  muzzleFlash:
+    sprite: _Pirate/Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: muzzle_holy
+  travelFlash:
+    sprite: _Pirate/Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: beam_holy
+  impactFlash:
+    sprite: _Pirate/Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: impact_holy

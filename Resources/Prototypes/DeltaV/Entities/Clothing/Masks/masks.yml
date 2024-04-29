@@ -1,0 +1,65 @@
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: ClothingMaskHockeyMask
+  name: хокейна маска
+  description: Це брудна на вигляд хокейна маска з деякими червоними позначками на ній, ймовірно, розфарбованою. Той, хто це одягав, був агресивним гравцем.
+  components:
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: BreathMask
+  - type: Sprite
+    sprite: DeltaV/Clothing/Mask/hockey_mask.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Mask/hockey_mask.rsi
+
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: ClothingMaskRetroHockeyMask
+  name: ретро хокейна маска
+  description: Ретро варіант хокейної маски. Викликає бажання вбивати людей у відеоіграх.
+  components:
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: BreathMask
+  - type: Sprite
+    sprite: DeltaV/Clothing/Mask/retro_hockey_mask.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Mask/retro_hockey_mask.rsi
+
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: ClothingMaskMummyMask
+  name: пов'язки на обличчя
+  description: Дехто з татерів використовував бинти. Колись носив той, хто приносить смерть.
+  components:
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: Sprite
+    sprite: DeltaV/Clothing/Mask/facial_bandages.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Mask/facial_bandages.rsi
+
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: ClothingMaskScarecrowMask
+  name: опудало капюшон
+  description: A scarecrow sack. Can be worn as a hood. It has a little smiley face on it.
+  components:
+  - type: IngestionBlocker
+  - type: IdentityBlocker
+  - type: Sprite
+    sprite: DeltaV/Clothing/Mask/scarecrow_hood.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Mask/scarecrow_hood.rsi
+
+- type: entity
+  parent: ClothingMaskPullableBase
+  id: ClothingMaskBalaclava
+  name: балаклава
+  description: Лижна маска для захисту обличчя від холоду.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/Mask/balaclava.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Mask/balaclava.rsi
+  - type: IngestionBlocker

@@ -6,6 +6,7 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 7200 # DeltaV - 2 hours
+    - !type:WhitelistRequirement # PIRATE - Whitelist requirement
   startingGear: MimeGear
   icon: "JobIconMime"
   supervisors: job-supervisors-hop
@@ -47,5 +48,7 @@
   - type: InstantAction
     priority: -1
     useDelay: 30
-    icon: Structures/Walls/solid.rsi/full.png
+    icon:
+      sprite: Structures/Walls/solid.rsi
+      state: full
     event: !type:InvisibleWallActionEvent

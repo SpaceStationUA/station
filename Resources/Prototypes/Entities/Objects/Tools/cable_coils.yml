@@ -18,13 +18,23 @@
     sprite: Objects/Tools/cable-coils.rsi
   - type: Item
     sprite: Objects/Tools/cable-coils.rsi
-    size: Normal
+    size: Small
+    storedRotation: -90
   - type: CablePlacer
   - type: Clickable
   - type: StaticPrice
     price: 0
   - type: StackPrice
     price: 1
+  - type: Healing # ipc. cables can be used to heal IPC
+    damageContainers:
+      - IPCSilicon
+    damage:
+      types:
+        Heat: -5
+        Cold: -5
+        Shock: -5
+        Caustic: -5
 
 - type: entity
   id: CableHVStack

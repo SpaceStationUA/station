@@ -7,7 +7,7 @@
     ///     Maps to <see cref="ChatChannel"/>, giving better names.
     /// </remarks>
     [Flags]
-    public enum ChatSelectChannel : ushort
+    public enum ChatSelectChannel : uint
     {
         None = 0,
 
@@ -52,9 +52,14 @@
         Admin = ChatChannel.AdminChat,
 
         /// <summary>
-        ///     Nyano - Summary:. Telepathic channel for all psionic entities. 
+        ///     Nyano - Summary:. Telepathic channel for all psionic entities.
         /// </summary>
         Telepathic = ChatChannel.Telepathic,
+
+        /// <summary>
+        ///     Shadowkin empathy channel
+        /// </summary>
+        Empathy = ChatChannel.Empathy,
 
         Console = ChatChannel.Unspecified
     }

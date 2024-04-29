@@ -1,0 +1,184 @@
+- type: entity
+  name: N14BasePistol
+  parent: BaseItem
+  id: N14BaseWeaponPistol
+  description: A rooty tooty point and shooty.
+  abstract: true
+  components:
+  - type: Sprite
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+    quickEquip: false
+    slots:
+    - suitStorage
+    - Belt
+  - type: Gun
+    fireRate: 6
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/pistol_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistol
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistol
+            - MagazinePistolHighCapacity
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistol
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 500
+
+
+- type: entity
+  name: трубний пістолет
+  parent: N14BaseWeaponPistol
+  id: N14WeaponPipe10mm
+  description: a light makeshift pistol, the grip is incredibly uncomfortable.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: Item
+    sprite: _Pirate/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
+  - type: Gun
+    fireRate: 4
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistol
+        whitelist:
+          tags:
+            - MagazinePistol
+            - MagazinePistolHighCapacity
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistol
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
+
+- type: entity
+  name: chinese пістолет
+  parent: BaseWeaponSniper
+  id: N14WeaponPistolChinese
+  description: A elegant and long barrel pistol with a integrated magazine, chambered in 9 mm.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Weapons/Guns/Pistols/chinesepistol.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    sprite: _Pirate/Objects/Weapons/Guns/Pistols/chinesepistol.rsi
+    # size: 10
+  - type: Clothing
+    slots:
+    - suitStorage
+    - Belt
+  - type: Gun
+    fireRate: 6
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistol
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
+    selectedMode: Semiauto
+    availableModes:
+    - Semiauto
+  - type: BallisticAmmoProvider
+    capacity: 14
+    proto: CartridgePistol
+    whitelist:
+      tags:
+      - CartridgePistol
+
+- type: entity
+  name: шпіон
+  parent: BaseWeaponSniper
+  id: N14WeaponPistolSpy
+  description: A modified version of the common chinese pistols. with a integrated silencer, extended mag and fully automatic conversion this gun was designed with passion, chambered in 9 mm.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Weapons/Guns/Pistols/thespy.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Item
+    sprite: _Pirate/Objects/Weapons/Guns/Pistols/thespy.rsi
+    # size: 10
+  - type: Clothing
+    slots:
+    - suitStorage
+    - Belt
+  - type: Gun
+    fireRate: 6
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
+      params:
+        volume: -10
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistol
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
+    selectedMode: Fullauto
+    availableModes:
+    - Fullauto
+  - type: BallisticAmmoProvider
+    capacity: 14
+    proto: CartridgePistol
+    whitelist:
+      tags:
+      - CartridgePistol

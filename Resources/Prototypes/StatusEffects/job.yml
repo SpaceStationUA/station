@@ -3,6 +3,7 @@
   abstract: true
   priority: 1
   locationPreference: Right
+  isShaded: true
 
 - type: statusIcon
   parent: JobIcon
@@ -367,6 +368,13 @@
   icon:
     sprite: /Textures/Interface/Misc/job_icons.rsi
     state: SeniorResearcher
+
+- type: statusIcon
+  parent: JobIcon
+  id: JobIconBlueshield
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: BlueshieldOfficer
 
 - type: statusIcon
   parent: JobIcon

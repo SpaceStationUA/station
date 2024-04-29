@@ -4,14 +4,14 @@
   parent: BaseMobHuman
   id: MobHuman
   components:
-  - type: PotentialPsionic #Nyano - Summary: makes potentially psionic. 
+  - type: PotentialPsionic #Nyano - Summary: makes potentially psionic.
 
 #Syndie
 - type: entity
   parent: MobHuman
-  id: MobHumanSyndicateAgent
+  id: MobHumanSyndicateAgentBase
   name: syndicate agent
-  suffix: Human
+  suffix: Human, Base
   components:
     - type: Loadout
       prototypes: [SyndicateOperativeGearExtremelyBasic]
@@ -22,9 +22,20 @@
       - Syndicate
 
 - type: entity
-  parent: MobHumanSyndicateAgent
+  parent: MobHumanSyndicateAgentBase
+  id: MobHumanSyndicateAgent
+  name: syndicate agent
+  suffix: Human, Traitor
+  components:
+    # make the player a traitor once its taken
+    - type: AutoTraitor
+      giveUplink: false
+      giveObjectives: false
+
+- type: entity
+  parent: MobHumanSyndicateAgentBase
   id: MobHumanSyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink
-  suffix: NukeOps
+  suffix: Human, NukeOps
   components:
     - type: NukeOperative
 
@@ -87,3 +98,40 @@
     nameSegments:
     - names_ninja_title
     - names_ninja
+
+# Mage
+- type: entity
+  noSpawn: true
+  name: Маг
+  parent: MobHuman
+  id: MobHumanMage
+  components:
+  - type: RandomHumanoidAppearance
+    randomizeName: false
+  - type: Loadout
+    prototypes: [MageGear]
+  - type: NpcFactionMember
+    factions:
+    - WizardFederation
+  # - type: SpaceNinja
+  - type: GenericAntag
+    rule: Mage
+  # - type: AutoImplant
+  #   implants:
+  #   - DeathAcidifierImplant
+  - type: RandomMetadata
+    nameSegments:
+    - names_wizard_first
+    - names_wizard_last
+  - type: Mage
+  - type: Store
+    categories:
+    - MageAbilities
+    - MageUtility
+    currencyWhitelist:
+    - Experince
+  - type: UserInterface
+    interfaces:
+    - key: enum.StoreUiKey.Key
+      type: StoreBoundUserInterface
+

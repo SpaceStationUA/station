@@ -1,0 +1,363 @@
+#MARS HARDSUITS
+#Mars Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitMars
+  name: mars-son hardsuit
+  description: A heavily armored hardsuit designed for work in special operations. Sons of Mars Property.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/mars.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/mars.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitMars
+
+#Mars Elite Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitMarsElite
+  name: mars elite hardsuit
+  description: An elite version of the mars hardsuit, with improved mobility and fireproofing. Sons of Mars property.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marselite.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marselite.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.2
+        Radiation: 0.01
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitMarsElite
+
+#Mars Commander Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitMarsCommander
+  name: mars commander hardsuit
+  description: A bulked up version of the mars hardsuit, purpose-built for the commander of a mars sons operative squad. Has significantly improved armor for those deadly front-lines firefights.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marscommander.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marscommander.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.3
+        Heat: 0.5
+        Radiation: 0.25
+        Caustic: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitMarsCommander
+
+#Mars Juggernaut Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitJuggernautMars
+  name: mars juggernaut suit
+  description: A suit made by the cutting edge R&D department by Mars sons to be hyper resilient.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marsjugger.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marsjugger.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.2
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.2
+        Slash: 0.2
+        Piercing: 0.2
+        Heat: 0.2
+        Radiation: 0.2
+        Caustic: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.65
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitMarsJugger
+
+#Mars Special Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitMarsSpecial
+  name: mars special hardsuit
+  description: A bizarre gem-encrusted suit that radiates magical energies.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marsspecial.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marsspecial.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.4
+        Heat: 0.25
+        Radiation: 0.25
+        Caustic: 0.75
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitMarsSpecial
+
+#MERC
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitMercGreen
+  name: зелений скафандр наймита
+  description: Легкий скафандр, який належав відомому найманцю.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_green.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_green.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitMercGreen
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitMercWhite
+  name: скафандр наймита
+  description: Такі скафандри носять відомі космічні найманці
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_white.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_white.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitMercWhite
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitMercBlue
+  name: синій скафандр наймита
+  description: Легкий скафандр, який належав відомому найманцю.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_white.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_white.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitMercBlue
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTropperDefault
+  name: скафандр штурмовика
+  description: Скафандр дуже зручний, але надає добрий захист від середовища та шкідників.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_default.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_default.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.3
+        Heat: 0.5
+        Radiation: 0.25
+        Caustic: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitTropperDefault
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTropperRed
+  name: червоний скафандр штурмовика
+  description: Такий костюм можуть носити лише досвідчені штурмовики.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_red.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_red.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitTropperRed
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitTropperBlack
+  name: чорний скафандр штурмовика
+  description: Не багатьом "пощастило" вижити у бою з елітними штурмовиками
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_black.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_black.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitTropperBlack

@@ -1,12 +1,13 @@
 - type: emote
   id: Sneeze
   category: Vocal
-  chatMessages: [sneezes]
+  chatMessages: [чхає]
     
 - type: emote
   id: Cough
+  icon: Interface/Emotes/coughs.jpeg
   category: Vocal
-  chatMessages: [coughs]
+  chatMessages: [кашляє]
   chatTriggers:
     - cough
     - coughs
@@ -29,17 +30,19 @@
 - type: emote
   id: RobotBeep
   category: Vocal
-  chatMessages: [beeps]
+  chatMessages: [біпає]
 
 - type: emote
   id: Yawn
+  icon: Interface/Emotes/yawns.png
   category: Vocal
-  chatMessages: [yawns]
+  chatMessages: [позіхає]
   chatTriggers:
     - yawn
     - yawns
 
 - type: emote
+  # icon: Interface/Emotes/snore.png
   id: Snore
   category: Vocal
-  chatMessages: [snores]
+  chatMessages: [хропить]

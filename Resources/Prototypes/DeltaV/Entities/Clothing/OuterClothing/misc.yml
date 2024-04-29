@@ -15,3 +15,53 @@
         Caustic: 0.25
   - type: TemperatureProtection
     coefficient: 1
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterGorillaSuit
+  name: костюм горили
+  description: Товстий костюм горили, її м’язи виготовлені з товстого поролону.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/OuterClothing/Misc/gorillasuit.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/OuterClothing/Misc/gorillasuit.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterXenoSuit
+  name: костюм ксено
+  description: Костюм із пофарбованих пінопластів, наклеєних на чорний спандексовий костюм, який нагадує Xeno.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/OuterClothing/Misc/xenosuit.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/OuterClothing/Misc/xenosuit.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterLobsterSuit
+  name: костюм лобстера
+  description: Смердючий костюм лобстера. Вуп вуп вуп вуп вуп!
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/OuterClothing/Misc/lobstersuit.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/OuterClothing/Misc/lobstersuit.rsi
+
+- type: entity
+  parent: ClothingOuterStorageToggleableBase
+  id: ClothingOuterAmongGrandeSuit
+  name: among grande
+  description: Підозріло...
+  components:
+  - type: Sprite
+    sprite: DeltaV/Clothing/OuterClothing/Misc/amonggrande.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/OuterClothing/Misc/amonggrande.rsi
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHatHoodAmongGrande
+  - type: TypingIndicatorClothing
+    proto: lawyer
+  - type: TemperatureProtection
+    coefficient: 0.5

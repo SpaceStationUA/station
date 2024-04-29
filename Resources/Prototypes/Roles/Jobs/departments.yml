@@ -42,6 +42,7 @@
   color: "#334E6D"
   roles:
   - Captain
+  - Blueshield
   - CentralCommandOfficial
   - ChiefEngineer
   - ChiefMedicalOfficer
@@ -59,7 +60,6 @@
   roles:
   - AtmosphericTechnician
   - ChiefEngineer
-  - SeniorEngineer
   - StationEngineer
   - TechnicalAssistant
 
@@ -84,9 +84,9 @@
   weight: 20
   roles:
   - HeadOfSecurity
+  - Blueshield
   - SecurityCadet
   - SecurityOfficer
-  - SeniorOfficer
   - Detective
   - Warden
   - PrisonGuard # Nyanotrasen - PrisonGuard, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Security/prisonguard.yml
@@ -98,11 +98,11 @@
   color: "#D381C9"
   roles:
   - ResearchDirector
-  - SeniorResearcher
   - Scientist
   - ResearchAssistant
   - Chaplain # DeltaV - Move Chaplain into Epistemics
   - ForensicMantis # Nyanotrasen - ForensicMantis, see Resources/Prototypes/Nyanotrasen/Roles/Jobs/Epistemics/forensicmantis.yml
+  - Roboticist
 
 - type: department
   id: Specific

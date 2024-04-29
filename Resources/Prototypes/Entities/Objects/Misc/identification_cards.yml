@@ -591,8 +591,8 @@
   id: AgentIDCard
   suffix: Agent
   components:
-  - type: IdCard
-    jobTitle: Passenger
+  - type: PresetIdCard
+    job: Passenger
   - type: Access
     tags:
     - Maintenance
@@ -635,7 +635,6 @@
     - JobIconChiefEngineer
     - JobIconBartender
     - JobIconHeadOfSecurity
-    - JobIconBrigmedic
     - JobIconMedicalDoctor
     - JobIconParamedic
     - JobIconChef
@@ -819,8 +818,6 @@
     layers:
     - state: default
     - state: idseniorengineer
-  - type: PresetIdCard
-    job: SeniorEngineer
 
 - type: entity
   parent: IDCardStandard
@@ -831,8 +828,6 @@
     layers:
     - state: default
     - state: idseniorresearcher
-  - type: PresetIdCard
-    job: SeniorResearcher
 
 - type: entity
   parent: IDCardStandard
@@ -843,8 +838,6 @@
     layers:
     - state: default
     - state: idseniorphysician
-  - type: PresetIdCard
-    job: SeniorPhysician
 
 - type: entity
   parent: IDCardStandard
@@ -857,3 +850,32 @@
     - state: idseniorofficer
   - type: PresetIdCard
     job: SeniorOfficer
+
+- type: entity
+  parent: IDCardStandard
+  id: BlueshieldIDCard
+  name: Blueshield ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: special
+        - state: idblueshield
+    - type: Item
+      heldPrefix: special
+    - type: PresetIdCard
+      job: Blueshield
+
+- type: entity
+  parent: IDCardStandard
+  id: RoboticistIDCard
+  name: Roboticist ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: special
+        - state: idroboticist
+    - type: Item
+      heldPrefix: special
+    - type: PresetIdCard
+      job: Roboticist
+  

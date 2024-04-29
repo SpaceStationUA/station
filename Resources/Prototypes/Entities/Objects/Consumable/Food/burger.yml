@@ -226,6 +226,8 @@
           Quantity: 6
         - ReagentId: Vitamin
           Quantity: 5
+        - ReagentId: ZombieBlood
+          Quantity: 3
   - type: Tag
     tags:
     - Meat
@@ -432,6 +434,8 @@
           Quantity: 3
         - ReagentId: Vitamin
           Quantity: 6
+        - ReagentId: ZombieBlood
+          Quantity: 5
   - type: Tag
     tags:
     - Meat
@@ -574,7 +578,7 @@
   - type: SolutionContainerManager
     solutions:
       food:
-        maxVol: 15
+        maxVol: 17
         reagents:
         - ReagentId: Nutriment
           Quantity: 2
@@ -582,6 +586,8 @@
           Quantity: 6
         - ReagentId: Vitamin
           Quantity: 5
+        - ReagentId: ZombieBlood
+          Quantity: 2
   - type: Tag
     tags:
     - Meat

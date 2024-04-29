@@ -1,0 +1,37 @@
+# General
+- type: entity
+  parent: ClothingBackpack
+  id: N14ClothingBackpackTrekker
+  name: trekker backpack
+  description: A hard wearing backpack for travelling the wastes.
+  components:
+  - type: Sprite
+    sprite: Nuclear14/Clothing/Back/Backpacks/trekkerpack.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: N14ClothingBackpackHiking
+  name: hiking backpack
+  description: A hard wearing backpack for hiking the wastes.
+  components:
+  - type: Sprite
+    sprite: Nuclear14/Clothing/Back/Backpacks/hikingbackpack.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: N14ClothingBackpackExplorer
+  name: explorer backpack
+  description: A hard wearing backpack for exploring the wastes.
+  components:
+  - type: Sprite
+    sprite: Nuclear14/Clothing/Back/Backpacks/explorerpack.rsi
+
+# Military
+- type: entity
+  parent: ClothingBackpack
+  id: N14ClothingBackpackMilitary
+  name: military backpack
+  description: A hard wearing backpack worn by soldiers.
+  components:
+  - type: Sprite
+    sprite: Nuclear14/Clothing/Back/Backpacks/military.rsi

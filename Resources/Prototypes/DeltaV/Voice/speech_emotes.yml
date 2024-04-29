@@ -1,8 +1,9 @@
 # Harpy
 - type: emote
   id: HonkHarpy
+  icon: Interface/Emotes/honk.png
   category: Vocal
-  chatMessages: [honks.]
+  chatMessages: [хонкає.]
   chatTriggers:
     - honk.
     - honks.
@@ -12,8 +13,9 @@
 
 - type: emote
   id: Ring
+  icon: Interface/Emotes/bell.png
   category: Vocal
-  chatMessages: [rings.]
+  chatMessages: [дзвонить.]
   chatTriggers:
     - ring.
     - rings.
@@ -23,8 +25,9 @@
 
 - type: emote
   id: Pew
+  icon: Interface/Emotes/pews.png
   category: Vocal
-  chatMessages: [pews.]
+  chatMessages: [ніби стріляє.]
   chatTriggers:
     - pew.
     - pews.
@@ -41,21 +44,22 @@
     - banging.
     - banged.
 
-- type: emote
-  id: Beep
-  category: Vocal
-  chatMessages: [beeps.]
-  chatTriggers:
-    - beeps.
-    - beep.
-    - beep!
-    - beeping.
-    - beeped.
+#- type: emote
+#  id: Beep
+#  category: Vocal
+#  chatMessages: [beeps.]
+#  chatTriggers:
+#    - beeps.
+#    - beep.
+#    - beep!
+#    - beeping.
+#    - beeped.
 
 - type: emote
   id: Rev
+  icon: Interface/Emotes/mixer.png
   category: Vocal
-  chatMessages: [revs.]
+  chatMessages: [міксує.]
   chatTriggers:
     - revs.
     - rev.
@@ -63,21 +67,23 @@
     - revving
     - revved
 
-#- type: emote
-#  id: Click
-#  category: Vocal
-#  chatMessages: [clicks.]
-#  chatTriggers:
-#    - clicks.
-#    - click.
-#    - click!
-#    - clicking.
-#    - clicked.
+- type: emote
+  id: Click
+  icon: Interface/Emotes/click.png
+  category: Vocal
+  chatMessages: [клікає.]
+  chatTriggers:
+    - clicks.
+    - click.
+    - click!
+    - clicking.
+    - clicked.
 
 - type: emote
   id: Caw
   category: Vocal
-  chatMessages: [caws.]
+  icon: Interface/Emotes/caving.png
+  chatMessages: [каркає.]
   chatTriggers:
     - caws.
     - caw.
@@ -85,11 +91,24 @@
     - cawing
     - cawed
 
+- type: emote
+  id: Chirp
+  icon: Interface/Emotes/chirp.png
+  category: Vocal
+  chatMessages: [щебече.]
+  chatTriggers:
+    - chirps.
+    - chirp.
+    - chirp!
+    - chirping.
+    - chirped.
+
 #Vulpkanin
 - type: emote
   id: Bark
+  icon: Interface/Emotes/dog.png
   category: Vocal
-  chatMessages: [barks.]
+  chatMessages: [гавкає.]
   chatTriggers:
     - bark.
     - bark!
@@ -101,8 +120,9 @@
 
 - type: emote
   id: Snarl
+  icon: Interface/Emotes/snarl.png
   category: Vocal
-  chatMessages: [snarls.]
+  chatMessages: [ричить.]
   chatTriggers:
     - snarl.
     - snarl!
@@ -114,8 +134,9 @@
 
 - type: emote
   id: Whine
+  icon: Interface/Emotes/whine.jpeg
   category: Vocal
-  chatMessages: [whines.]
+  chatMessages: [скиглить.]
   chatTriggers:
     - whine.
     - whine!

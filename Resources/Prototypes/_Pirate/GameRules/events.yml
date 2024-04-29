@@ -1,0 +1,30 @@
+- type: entity
+  id: LostPiratesSpawn
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    earliestStart: 60
+    weight: 3
+    minimumPlayers: 10
+    reoccurrenceDelay: 100
+    duration: 1
+  - type: LostPiratesSpawnRule
+
+- type: entity
+  id: RatKingArise
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-vent-creatures-start-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
+    earliestStart: 60
+    minimumPlayers: 20
+    weight: 5
+    reoccurrenceDelay: 120
+  - type: VentCrittersRule
+    specialEntries:
+    - id: SpawnPointGhostRatKing
+      prob: 0

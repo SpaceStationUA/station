@@ -64,14 +64,12 @@ public sealed class ExecutionSystem : EntitySystem
     {
         if (args.Hands == null || args.Using == null || !args.CanAccess || !args.CanInteract)
             return;
-
         var attacker = args.User;
         var weapon = args.Using!.Value;
         var victim = args.Target;
 
         if (!CanExecuteWithMelee(weapon, victim, attacker))
             return;
-
         UtilityVerb verb = new()
         {
             Act = () =>
@@ -100,7 +98,6 @@ public sealed class ExecutionSystem : EntitySystem
 
         if (!CanExecuteWithGun(weapon, victim, attacker))
             return;
-
         UtilityVerb verb = new()
         {
             Act = () =>
@@ -147,7 +144,6 @@ public sealed class ExecutionSystem : EntitySystem
     private bool CanExecuteWithMelee(EntityUid weapon, EntityUid victim, EntityUid user)
     {
         if (!CanExecuteWithAny(weapon, victim, user)) return false;
-
         // We must be able to actually hurt people with the weapon
         if (!TryComp<MeleeWeaponComponent>(weapon, out var melee) && melee!.Damage.GetTotal() > 0.0f)
             return false;
@@ -165,7 +161,6 @@ public sealed class ExecutionSystem : EntitySystem
 
         return true;
     }
-
     private void TryStartMeleeExecutionDoafter(EntityUid weapon, EntityUid victim, EntityUid attacker)
     {
         if (!CanExecuteWithMelee(weapon, victim, attacker))
@@ -183,24 +178,20 @@ public sealed class ExecutionSystem : EntitySystem
             ShowExecutionPopup("execution-popup-melee-initial-internal", Filter.Entities(attacker), PopupType.Medium, attacker, victim, weapon);
             ShowExecutionPopup("execution-popup-melee-initial-external", Filter.PvsExcept(attacker), PopupType.MediumCaution, attacker, victim, weapon);
         }
-
         var doAfter =
             new DoAfterArgs(EntityManager, attacker, executionTime, new ExecutionDoAfterEvent(), weapon, target: victim, used: weapon)
             {
-                BreakOnTargetMove = true,
-                BreakOnUserMove = true,
+                BreakOnMove = true,
                 BreakOnDamage = true,
                 NeedHand = true
             };
 
         _doAfterSystem.TryStartDoAfter(doAfter);
     }
-
     private void TryStartGunExecutionDoafter(EntityUid weapon, EntityUid victim, EntityUid attacker)
     {
         if (!CanExecuteWithGun(weapon, victim, attacker))
             return;
-
         if (attacker == victim)
         {
             ShowExecutionPopup("suicide-popup-gun-initial-internal", Filter.Entities(attacker), PopupType.Medium, attacker, victim, weapon);
@@ -215,8 +206,7 @@ public sealed class ExecutionSystem : EntitySystem
         var doAfter =
             new DoAfterArgs(EntityManager, attacker, GunExecutionTime, new ExecutionDoAfterEvent(), weapon, target: victim, used: weapon)
             {
-                BreakOnTargetMove = true,
-                BreakOnUserMove = true,
+                BreakOnMove = true,
                 BreakOnDamage = true,
                 NeedHand = true
             };
@@ -240,7 +230,6 @@ public sealed class ExecutionSystem : EntitySystem
     {
         if (args.Handled || args.Cancelled || args.Used == null || args.Target == null)
             return;
-
         var attacker = args.User;
         var victim = args.Target!.Value;
         var weapon = args.Used!.Value;
@@ -249,7 +238,6 @@ public sealed class ExecutionSystem : EntitySystem
 
         if (!TryComp<MeleeWeaponComponent>(weapon, out var melee) && melee!.Damage.GetTotal() > 0.0f)
             return;
-
         _damageableSystem.TryChangeDamage(victim, melee.Damage * DamageModifier, true);
         _audioSystem.PlayEntity(melee.HitSound, Filter.Pvs(weapon), weapon, true, AudioParams.Default);
 
@@ -264,26 +252,22 @@ public sealed class ExecutionSystem : EntitySystem
             ShowExecutionPopup("execution-popup-melee-complete-external", Filter.PvsExcept(attacker), PopupType.MediumCaution, attacker, victim, weapon);
         }
     }
-
     // TODO: This repeats a lot of the code of the serverside GunSystem, make it not do that
     private void OnDoafterGun(EntityUid uid, GunComponent component, DoAfterEvent args)
     {
         if (args.Handled || args.Cancelled || args.Used == null || args.Target == null)
             return;
-
         var attacker = args.User;
         var weapon = args.Used!.Value;
         var victim = args.Target!.Value;
 
         if (!CanExecuteWithGun(weapon, victim, attacker)) return;
-
         // Check if any systems want to block our shot
         var prevention = new ShotAttemptedEvent
         {
             User = attacker,
             Used = weapon
         };
-
         RaiseLocalEvent(weapon, ref prevention);
         if (prevention.Cancelled)
             return;
@@ -291,7 +275,6 @@ public sealed class ExecutionSystem : EntitySystem
         RaiseLocalEvent(attacker, ref prevention);
         if (prevention.Cancelled)
             return;
-
         // Not sure what this is for but gunsystem uses it so ehhh
         var attemptEv = new AttemptShootEvent(attacker, null);
         RaiseLocalEvent(weapon, ref attemptEv);
@@ -304,7 +287,6 @@ public sealed class ExecutionSystem : EntitySystem
                 return;
             }
         }
-
         // Take some ammunition for the shot (one bullet)
         var fromCoordinates = Transform(attacker).Coordinates;
         var ev = new TakeAmmoEvent(1, new List<(EntityUid? Entity, IShootable Shootable)>(), fromCoordinates, attacker);
@@ -317,7 +299,6 @@ public sealed class ExecutionSystem : EntitySystem
             ShowExecutionPopup("execution-popup-gun-empty", Filter.Pvs(weapon), PopupType.Medium, attacker, victim, weapon);
             return;
         }
-
         // Information about the ammo like damage
         DamageSpecifier damage = new DamageSpecifier();
 

@@ -5,6 +5,7 @@ using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Content.Server._Pirate.BwoinkFromConsole;
 using Content.Server.Administration.Managers;
 using Content.Server.Afk;
 using Content.Server.Discord;
@@ -517,6 +518,32 @@ namespace Content.Server.Administration.Systems
             stringbuilder.Append($" **{username}:** ");
             stringbuilder.Append(message);
             return stringbuilder.ToString();
+        }
+
+        /// <summary>
+        /// Used to send a bwoink message from the console to discord.
+        /// DO NOT DELETE! This is used by discord bot.
+        /// </summary>
+        /// <param name="session"></param>
+        /// <param name="msg"></param>
+        public void SendDiscordMessage(ICommonSession session, BwoinkTextMessage msg)
+        {
+            var sendsWebhook = _webhookUrl != string.Empty;
+            if (sendsWebhook)
+            {
+                if (!_messageQueues.ContainsKey(msg.UserId))
+                    _messageQueues[msg.UserId] = new Queue<string>();
+
+                var str = msg.Text;
+                var unameLength = session.Name.Length;
+
+                if (unameLength + str.Length + _maxAdditionalChars > DescriptionMax)
+                {
+                    str = str[..(DescriptionMax - _maxAdditionalChars - unameLength)];
+                }
+                var nonAfkAdmins = GetNonAfkAdmins();
+                _messageQueues[msg.UserId].Enqueue(GenerateAHelpMessage("", str, true, _gameTicker.RoundDuration().ToString("hh\\:mm\\:ss"), _gameTicker.RunLevel, playedSound: true, noReceivers: nonAfkAdmins.Count == 0));
+            }
         }
     }
 }

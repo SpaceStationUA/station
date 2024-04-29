@@ -17,6 +17,13 @@ public sealed partial class FaxMachineComponent : Component
     public string FaxName { get; set; } = "Unknown";
 
     /// <summary>
+    /// If true, will sync fax name with a station name.
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    [DataField("useStationName")]
+    public bool UseStationName { get; set; }
+
+    /// <summary>
     /// Device address of fax in network to which data will be send
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
@@ -50,6 +57,15 @@ public sealed partial class FaxMachineComponent : Component
     [ViewVariables(VVAccess.ReadWrite)]
     [DataField("receiveNukeCodes")]
     public bool ReceiveNukeCodes { get; set; } = false;
+
+    // StationGoal-Start
+    /// <summary>
+    /// Should that fax receive station goal info
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    [DataField("receiveStationGoal")]
+    public bool ReceiveStationGoal { get; set; } = false;
+    // StationGoal-End
 
     /// <summary>
     /// Sound to play when fax has been emagged
