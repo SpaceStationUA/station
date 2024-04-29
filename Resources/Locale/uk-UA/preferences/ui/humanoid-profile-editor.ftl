@@ -43,3 +43,19 @@ humanoid-profile-editor-job-priority-never-button = Ніколи
 humanoid-profile-editor-naming-rules-warning = Warning: Offensive or LRP IC names and descriptions will lead to admin intervention on this server. Read our \[Rules\] for more.
 humanoid-profile-editor-markings-tab = Маркування
 humanoid-profile-editor-flavortext-tab = Опис
+
+humanoid-profile-editor-loadouts-tab = Гардероб
+humanoid-profile-editor-loadouts-uncategorized-tab = Без категорії
+humanoid-profile-editor-loadouts-no-loadouts = Нічого не знайдено
+humanoid-profile-editor-loadouts-points-label = У вас {$points}/{$max} очок
+humanoid-profile-editor-loadouts-show-unusable-button = Показати недоступне
+humanoid-profile-editor-loadouts-show-unusable-button-tooltip =
+    When enabled, loadouts that your current character setup cannot use will be shown.
+    You will still not be able to use the invalid loadouts unless your character setup changes to fit the whitelists.
+    This may be useful if you like switching between multiple jobs and don't want to have to reselect your loadout every time.
+humanoid-profile-editor-loadouts-whitelist = Вайтліст:
+humanoid-profile-editor-loadouts-blacklist = Блекліст:
+humanoid-profile-editor-loadouts-component = - {$component} (Component)
+humanoid-profile-editor-loadouts-tag = - {$tag} (Tag)
+humanoid-profile-editor-loadouts-job = - {$job} (Job)
+humanoid-profile-editor-loadouts-species = - {$species} (Species)

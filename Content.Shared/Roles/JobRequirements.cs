@@ -164,7 +164,7 @@ namespace Content.Shared.Roles
                             return true;
 
                         reason = FormattedMessage.FromMarkup(Loc.GetString(
-                              "role-timer-overall-insufficient", 
+                              "role-timer-overall-insufficient",
                               ("time", Math.Ceiling(overallDiff))));
                         return false;
                     }
