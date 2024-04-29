@@ -18,7 +18,13 @@ namespace Content.Server.GameTicking.Rules.Components;
 public sealed partial class NukeopsRuleComponent : Component
 {
     /// <summary>
-    /// This INCLUDES the operatives. So a value of 3 is satisfied by 2 players & 1 operative
+    /// The minimum needed amount of players
+    /// </summary>
+    [DataField]
+    public int MinPlayers = 7;
+
+    /// <summary>
+    ///     This INCLUDES the operatives. So a value of 3 is satisfied by 2 players & 1 operative
     /// </summary>
     [DataField]
     public int PlayersPerOperative = 10;
@@ -96,7 +102,7 @@ public sealed partial class NukeopsRuleComponent : Component
     ///     Minimal operatives count for war declaration
     /// </summary>
     [DataField]
-    public int WarDeclarationMinOps = 4;
+    public int WarDeclarationMinOps = 1;
 
     [DataField]
     public EntProtoId SpawnPointProto = "SpawnPointNukies";
