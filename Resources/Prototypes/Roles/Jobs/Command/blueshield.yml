@@ -6,15 +6,18 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 14000
- #   - !type:RoleTimeRequirement        # 
- #     role: JobHeadOfPersonnel         # 
- #     time: 3600 #1 hrs                # 
- #   - !type:RoleTimeRequirement        # треба буде якось це налаштувати.
- #     role: JobHeadOfSecurity          # просто я не можу придумати на яких ролях треба награти для такої професії
- #     time: 3600 #1 hrs                # або ж мені просто лінь придумувати ))
- #   - !type:RoleTimeRequirement        # 
- #     role: JobChiefMedicalOfficer     #
- #     time: 3600 #1 hrs                #
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 18000 #  5 hours
+  #  - !type:RoleTimeRequirement        # 
+  #    role: JobHeadOfPersonnel         # 
+  #    time: 3600 #1 hrs                # 
+  #  - !type:RoleTimeRequirement        # треба буде якось це налаштувати.
+  #    role: JobHeadOfSecurity          # просто я не можу придумати на яких ролях треба награти для такої професії
+  #    time: 3600 #1 hrs                # або ж мені просто лінь придумувати ))
+  #  - !type:RoleTimeRequirement        # 
+  #    role: JobChiefMedicalOfficer     #
+  #    time: 3600 #1 hrs                #
   weight: 20
   startingGear: BlueshieldGear
   icon: "JobIconBlueshield"

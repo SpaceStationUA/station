@@ -48,6 +48,7 @@ job-name-senior-engineer = Senior Інженер
 job-name-senior-researcher = Професор
 job-name-senior-physician = Senior Лікар
 job-name-senior-officer = Сержант
+job-name-blueshield = Офіцер Блюшілд
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Атмосферний Інженер
