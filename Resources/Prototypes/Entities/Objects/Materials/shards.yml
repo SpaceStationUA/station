@@ -49,6 +49,7 @@
   - type: Tag
     tags:
     - Trash
+    - Wirecutter
   - type: SpaceGarbage
   - type: Damageable
     damageContainer: Inorganic
@@ -71,6 +72,9 @@
     launchForwardsMultiplier: 0
   - type: TriggerOnStepTrigger
   - type: DamageUserOnTrigger
+  - type: Tool
+    qualities:
+      - Cutting
     damage:
       types:
         Piercing: 5
