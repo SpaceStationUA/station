@@ -4,7 +4,7 @@
   parent: BaseMobHuman
   id: MobHuman
   components:
-  - type: PotentialPsionic #Nyano - Summary: makes potentially psionic. 
+  - type: PotentialPsionic #Nyano - Summary: makes potentially psionic.
 
 #Syndie
 - type: entity
@@ -112,7 +112,7 @@
     prototypes: [MageGear]
   - type: NpcFactionMember
     factions:
-    - Syndicate
+    - WizardFederation
   # - type: SpaceNinja
   - type: GenericAntag
     rule: Mage

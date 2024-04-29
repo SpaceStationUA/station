@@ -147,3 +147,197 @@
       # range: 4
       maxElectrocutionRange: 4
       maxElectrocuteDuration: 2
+
+- type: entity
+  id: MageAbilityBlind
+  name: Blind
+  description: Temporarily blinds a target.
+  noSpawn: true
+  components:
+  - type: EntityTargetAction
+    useDelay: 30
+    itemIconStyle: BigAction
+    whitelist:
+      components:
+      - Body
+    canTargetSelf: false
+    interactOnMiss: false
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Magic/staff_chaos.ogg
+    icon:
+      sprite: Mobs/Species/Human/organs.rsi
+      state: eyeball-r
+    event: !type:MageBlindSpellEvent
+      speech: action-speech-spell-blind
+      manaCost: 30
+
+- type: entity
+  id: MageAbilitySmoke
+  name: Smoke
+  description: This spell creates a thick smoke screen around the caster
+  noSpawn: true
+  components:
+  - type: InstantAction
+    useDelay: 45
+    itemIconStyle: BigAction
+    icon:
+      sprite: Objects/Weapons/Grenades/smoke.rsi
+      state: icon
+    event: !type:MageSmokeSpellEvent
+      speech: action-speech-spell-smoke
+      manaCost: 30
+
+- type: entity
+  id: MageAbilitySwap
+  name: Swap
+  description: Swap positions with a target
+  noSpawn: true
+  components:
+  - type: EntityTargetAction
+    useDelay: 30
+    range: 16
+    itemIconStyle: BigAction
+    whitelist:
+      components:
+      - Body
+    canTargetSelf: false
+    interactOnMiss: false
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Magic/blink.ogg
+    icon:
+      sprite: Objects/Devices/swapper.rsi
+      state: icon
+    event: !type:MageSwapSpellEvent
+      speech: action-speech-spell-swap
+      manaCost: 30
+
+- type: entity
+  id: MageAbilityMindSwap
+  name: Swap
+  description: Swap positions with a target
+  noSpawn: true
+  components:
+  - type: EntityTargetAction
+    useDelay: 30
+    range: 16
+    itemIconStyle: BigAction
+    whitelist:
+      components:
+      - Body
+    canTargetSelf: false
+    interactOnMiss: false
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Magic/blink.ogg
+    icon:
+      sprite: Objects/Devices/swapper.rsi
+      state: icon
+    event: !type:MageMindSwapSpellEvent
+      speech: action-speech-spell-mind-swap
+      manaCost: 30
+
+- type: entity
+  id: MageAbilityHeal
+  name: Heal
+  description: Heals whoever you target. Target yourself to self-heal
+  noSpawn: true
+  components:
+  - type: EntityTargetAction
+    useDelay: 30
+    range: 16
+    itemIconStyle: BigAction
+    whitelist:
+      components:
+      - Body
+    canTargetSelf: true
+    interactOnMiss: false
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Magic/staff_healing.ogg
+    icon:
+      sprite: Objects/Magic/magicactions.rsi
+      state: heal
+    event: !type:MageHealSpellEvent
+      speech: action-speech-spell-heal
+      manaCost: 30
+
+- type: entity
+  id: MageAbilityAnimateDead
+  name: Animate Dead
+  description: This spell forces the skeleton out of all nearby corpses to assist you
+  noSpawn: true
+  components:
+  - type: InstantAction
+    useDelay: 45
+    itemIconStyle: BigAction
+    icon:
+      sprite: Mobs/Species/Skeleton/parts.rsi
+      state: skull_icon
+    event: !type:MageAnimateDeadSpellEvent
+      speech: action-speech-spell-animatedead
+      manaCost: 30
+
+- type: entity
+  id: MageMagicMissile
+  name: Magic Missile
+  description: Fires an orb that stuns on hit towards the clicked location.
+  noSpawn: true
+  components:
+  - type: WorldTargetAction
+    useDelay: 10
+    itemIconStyle: BigAction
+    checkCanAccess: false
+    range: 60
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Magic/fireball.ogg
+    icon:
+      sprite: Objects/Magic/magicactions.rsi
+      state: magicmissile
+    event: !type:MageProjectileSpellEvent
+      manaCost: 25
+      prototype: ProjectileMagicMissile
+      posData: !type:TargetCasterPos
+      speech: action-speech-spell-magicmissile
+
+- type: entity
+  id: MageIceBurst
+  name: Magic Missile
+  description: Fires an orb that stuns on hit towards the clicked location.
+  noSpawn: true
+  components:
+  - type: WorldTargetAction
+    useDelay: 10
+    itemIconStyle: BigAction
+    checkCanAccess: false
+    range: 60
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Magic/iceburst.ogg
+    icon:
+      sprite: Objects/Magic/magicactions.rsi
+      state: magicmissile
+    event: !type:MageProjectileSpellEvent
+      manaCost: 25
+      prototype: ProjectileIceBurst
+      posData: !type:TargetCasterPos
+      speech: action-speech-spell-iceburst
+
+- type: entity
+  id: MagicTeslaBall
+  name: Tesla Ball
+  description: Fires a mini tesla ball towards the clicked location
+  noSpawn: true
+  components:
+  - type: WorldTargetAction
+    useDelay: 25
+    itemIconStyle: BigAction
+    checkCanAccess: false
+    range: 60
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Magic/lightning.ogg
+    icon:
+      sprite: Objects/Magic/magicactions.rsi
+      state: tesla
+    event: !type:MageProjectileSpellEvent
+      manaCost: 25
+      prototype: ProjectileMagicTesla
+      posData: !type:TargetCasterPos
+      speech: action-speech-spell-teslaball
+

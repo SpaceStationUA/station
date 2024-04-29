@@ -91,6 +91,123 @@
     stock: 1
 
 - type: listing
+  id: MageBlind
+  name: Осліплення
+  description: Шось в їхніх очах!
+  productAction: MageAbilityBlind
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageSmoke
+  name: Осліплення
+  description: Він зник!
+  productAction: MageAbilitySmoke
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageSwap
+  name: Свап
+  description: Reverse Card?!
+  productAction: MageAbilitySwap
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageMindSwap
+  name: Свап розуму
+  description: ти це я, а я це ти
+  productAction: MageAbilityMindSwap
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageHeal
+  name: Лікування
+  description: Ось аптечка!
+  productAction: MageAbilityHeal
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageAnimeteDead
+  name: Оживлення метвеця
+  description: Підняти скелет!
+  productAction: MageAbilityAnimateDead
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageMagicMissile
+  name: Магічна куля
+  description: Час стану!
+  productAction: MageMagicMissile
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageIceBurst
+  name: Льодовий потік
+  description: Перетворимо їх на сугроб!
+  productAction: MageIceBurst
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
+  id: MageTesla
+  name: Шар Тесли
+  description: Хто сьогодні заряджається?
+  productAction: MagicTeslaBall
+  cost:
+    Experince: 2
+  categories:
+  - MageAbilities
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+
+- type: listing
   id: MageHardsuit
   name: магічний скафандр
   description: Чудернацький костюм, інкрустований самоцвітами, випромінює магічну енергію.
@@ -99,7 +216,6 @@
     Experince: 1
   categories:
   - MageUtility
-
 
 - type: listing
   id: MageCloak
@@ -200,3 +316,15 @@
     Experince: 2
   categories:
   - MageUtility
+
+- type: listing
+  id: MageSpellBlade
+  name: Спел-Меч
+  description: Магічний меч
+  productEntity: Spellblade
+  cost:
+    Experince: 3
+  categories:
+  - MageUtility
+
+
