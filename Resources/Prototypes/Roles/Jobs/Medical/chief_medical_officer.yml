@@ -15,9 +15,9 @@
 #      time: 21600 #6 hrs
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 43200 # DeltaV - 12 hours
+      time: 10000 # DeltaV - 12 hours
     - !type:OverallPlaytimeRequirement
-      time: 72000 # DeltaV - 20 hours
+      time: 20000 # DeltaV - 20 hours
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"

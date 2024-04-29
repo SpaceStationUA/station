@@ -12,9 +12,9 @@
   #    time: 14400 #DeltaV 4 hrs
     - !type:DepartmentTimeRequirement # DeltaV - Command dept time requirement
       department: Command
-      time: 36000 # 10 hours
+      time: 10000 # 10 hours
     - !type:OverallPlaytimeRequirement
-      time: 90000 # DeltaV - 25 hours
+      time: 40000 # DeltaV - 25 hours
     - !type:WhitelistRequirement # DeltaV - Whitelist requirement
   weight: 10
   startingGear: HoSGear
