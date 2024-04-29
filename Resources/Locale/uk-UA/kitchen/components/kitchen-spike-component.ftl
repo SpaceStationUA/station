@@ -1,18 +1,18 @@
-comp-kitchen-spike-deny-collect = { CAPITALIZE(THE($this)) } already has something on it, finish collecting its meat first!
-comp-kitchen-spike-deny-butcher = { CAPITALIZE(THE($victim)) } can't be butchered on { THE($this) }.
-comp-kitchen-spike-deny-butcher-knife = { CAPITALIZE(THE($victim)) } can't be butchered on { THE($this) }, you need to butcher it using a knife.
-comp-kitchen-spike-deny-not-dead = { CAPITALIZE(THE($victim)) } can't be butchered. { CAPITALIZE(SUBJECT($victim)) } { CONJUGATE-BE($victim) } is not dead!
+comp-kitchen-spike-deny-collect = На { CAPITALIZE($this) } вже щось є, спочатку закінчіть збирати м'ясо!
+comp-kitchen-spike-deny-butcher = { CAPITALIZE($victim) } не може бути забито на { $this }.
+comp-kitchen-spike-deny-butcher-knife = { CAPITALIZE($victim) } не можна забити на { $this }, потрібно зарізати ножем.
+comp-kitchen-spike-deny-not-dead = { CAPITALIZE($victim) } не можна зарізати. { CAPITALIZE(SUBJECT($victim)) } { CONJUGATE-BE($victim) } ще живий!
 
-comp-kitchen-spike-begin-hook-victim = { THE($user) } begins dragging you onto { THE($this) }!
-comp-kitchen-spike-begin-hook-self = You begin dragging yourself onto { THE($this) }!
+comp-kitchen-spike-begin-hook-victim = { $user } почав чіпляти вас на { $this }!
+comp-kitchen-spike-begin-hook-self = Ви почали чіпляти себе на { $this }!
 
-comp-kitchen-spike-kill = { CAPITALIZE(THE($user)) } has forced { THE($victim) } onto the spike, killing them instantly!
+comp-kitchen-spike-kill = { CAPITALIZE($user) } вбив { $victim } повісивши { POSS-ADJ($victim) } на гак для м'яса!
 
-comp-kitchen-spike-suicide-other = { CAPITALIZE(THE($victim)) } has thrown themselves on a meat spike!
-comp-kitchen-spike-suicide-self = You throw yourself on a meat spike!
+comp-kitchen-spike-suicide-other = { CAPITALIZE($victim) } повісив себе на гак для м'яса!
+comp-kitchen-spike-suicide-self = Ви повісили себе на гак для м'яса!
 
-comp-kitchen-spike-knife-needed = You need a knife to do this.
-comp-kitchen-spike-remove-meat = You remove some meat from { THE($victim) }.
-comp-kitchen-spike-remove-meat-last = You remove the last piece of meat from { THE($victim) }!
+comp-kitchen-spike-knife-needed = Для цього вам потрібен ніж.
+comp-kitchen-spike-remove-meat = Ви зрізаєте трохи м'яса з { $victim }.
+comp-kitchen-spike-remove-meat-last = Ви зрізали останній шматок м'яса з { $victim }!
 
 comp-kitchen-spike-meat-name = { $name } ({ $victim })

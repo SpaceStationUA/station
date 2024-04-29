@@ -1,23 +1,27 @@
-salvage-system-announcement-source = Salvage Control System
-salvage-system-announcement-arrived = A piece of salvagable debris has been pulled in. Estimated hold time: {$timeLeft} seconds.
-salvage-system-announcement-losing = The magnet is no longer able to hold the salvagable debris. Estimated time until loss: {$timeLeft} seconds.
-salvage-system-announcement-lost = The salvagable debris have been lost.
+salvage-system-announcement-source = Система управління магнітом шахтарів
+salvage-system-announcement-arrived = Частину уламків, які можна зачистити, притягнуто. Приблизний час утримання: {$timeLeft} секунд.
+salvage-system-announcement-losing = Магніт більше не в змозі утримувати уламок, який можна зачистити. Приблизний час до втрати: {$timeLeft} секунд.
+salvage-system-announcement-lost = Магніт шахтарів перестав утримувати уламок.
 
-salvage-system-announcement-spawn-magnet-lost = The salvage magnet has been lost.
-salvage-system-announcement-spawn-no-debris-available = No debris could be recovered by the salvage magnet.
-salvage-system-announcement-spawn-debris-disintegrated = Debris disintegrated during orbital transfer.
+salvage-system-announcement-spawn-magnet-lost = Магніт шахтарів був втрачений.
+salvage-system-announcement-spawn-no-debris-available = Немає уламків, які можна притягнути магнітом.
+salvage-system-announcement-spawn-debris-disintegrated = Уламок розвалився при орбітальному переміщенні.
 
-salvage-system-report-already-active = The salvage magnet is already active.
-salvage-system-report-cooling-down = The salvage magnet is cooling down.
-salvage-system-report-activate-success = The salvage magnet is pulling in a piece of debris!
+salvage-system-report-already-active = Магніт шахтарів вже активен.
+salvage-system-report-cooling-down = Магніт шахтарів остигає.
+salvage-system-report-activate-success = Магніт притягує шматок уламків!
 
-salvage-system-magnet-examined-inactive = The salvage magnet is inactive.
-salvage-system-magnet-examined-pulling-in = The salvage magnet is attempting to pull in salvage.
-salvage-system-magnet-examined-active = The salvage magnet is holding salvage in place. Can hold for { $timeLeft ->
-    [1] one second.
-    *[other] { $timeLeft } seconds.
+salvage-system-magnet-examined-inactive = Магніт шахтарів неактивний.
+salvage-system-magnet-examined-pulling-in = Магніт намагається притягнути уламки.
+salvage-system-magnet-examined-active = Магніт шахтарів утримує уламки на місці. Час утримання { $timeLeft ->
+    [one] 1 секунда.
+    [few] { $timeLeft } секунди.
+   *[other] { $timeLeft } секунд.
 }
-salvage-system-magnet-examined-releasing = The salvage magnet is releasing the salvage.
-salvage-system-magnet-examined-cooling-down = The salvage magnet is cooling down. It will be ready in: {$timeLeft} seconds.
-salvage-system-magnet-delay-upgrade = Attaching/cooldown delay
-
+salvage-system-magnet-examined-releasing = Магніт перестає утримувати уламки.
+salvage-system-magnet-examined-cooling-down = Магніт шахтарів остигає. Він буде знову готовий через { $timeLeft ->
+    [one] 1 секунду.
+    [few] { $timeLeft } секунди.
+   *[other] { $timeLeft } секунд.
+}
+salvage-system-magnet-delay-upgrade = Затримка прикріплення/охолодження

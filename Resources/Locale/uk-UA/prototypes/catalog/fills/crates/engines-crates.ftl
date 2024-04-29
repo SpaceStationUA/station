@@ -28,3 +28,12 @@ ent-CrateEngineeringSolar = Solar assembly crate
     .desc = Parts for constructing solar panels and trackers.
 
 ent-CrateEngineeringShuttle = Shuttle powering crate
+
+ent-CrateEngineeringTeslaGenerator = Ящик для генератора Тесли
+    .desc = Генератор Тесли. Нехай Бог вас береже.
+
+ent-CrateEngineeringTeslaCoil = Ящик для катушки Тесли
+    .desc = Катушка Тесли. Притягує блискавку Тесли і генерує з неї енергію.
+
+ent-CrateEngineeringTeslaGroundingRod = Ящик для заземлюючого стержння Тесли
+    .desc = Заземлюючий стержння, найкраще підходить для захисту від блискавки Тесли.

@@ -1,61 +1,75 @@
 ## Rev Head
 
-roles-antag-rev-head-name = Head Revolutionary
-roles-antag-rev-head-objective = Your objective is to take over the station by converting people to your cause and killing all Command staff on station.
+roles-antag-rev-head-name = Головний Революціонер
+roles-antag-rev-head-objective = Ваша мета - захопити станцію, вербуючи людей на свій бік і вбивши всіх членів командування станції.
 
 head-rev-role-greeting =
-    You are a Head Revolutionary.
-    You are tasked with removing all of Command from station via death or exilement.
-    The Syndicate has sponsored you with a flash that converts the crew to your side.
-    Beware, this won't work on Security, Command, or those wearing sunglasses.
+    Ви - головний революціонер.
+    Ваше завдання - усунути всіх членів командування станції шляхом вбивства або вигнання.
+    Синдикат надав вам спалах, який може вербувати членів екіпажу на ваш бік.
+    Будьте обережні, він не працює на Службу Безпеки, Командування або на тих, хто носить сонцезахисні окуляри.
     Viva la revolución!
 
 head-rev-briefing =
-    Use flashes to convert people to your cause.
-    Kill all heads to take over the station.
+    Використовуйте спалахи, щоб вербувати людей на свій бік.
+    Вбийте всіх членів командування, щоб захопити станцію.
 
-head-rev-break-mindshield = The Mindshield was destroyed!
+head-rev-break-mindshield = Імплант лояльності знищено!
 
 ## Rev
 
-roles-antag-rev-name = Revolutionary
-roles-antag-rev-objective = Your objective is to ensure the safety and follow the orders of the Head Revolutionaries as well as killing all Command staff on station.
+roles-antag-rev-name = Революціонер
+roles-antag-rev-objective = Ваша мета - забезпечити безпеку та виконувати накази Головних Революціонерів, а також вбити всіх членів командування станції.
 
-rev-break-control = {$name} has remembered their true allegiance!
+rev-break-control = {$name} згадав свою істинну приналежність!
 
 rev-role-greeting =
-    You are a Revolutionary.
-    You are tasked with taking over the station and protecting the Head Revolutionaries.
-    Eliminate all of the Command staff.
+    Ви - революціонер.
+    Ваше завдання - захопити станцію допомагаючи та захищаючи Головних Революціонерів.
+    Усуньте всіх членів командування.
     Viva la revolución!
 
-rev-briefing = Help your head revolutionaries kill every head to take over the station.
+rev-briefing = Допоможіть Головним Революціонерам вбити всіх членів командування, щоб захопити станцію.
 
 ## General
 
-rev-title = Revolutionaries
-rev-description = Revolutionaries are among us.
+rev-title = Революціонери
+rev-description = Революціонери на станції.
 
-rev-not-enough-ready-players = Not enough players readied up for the game. There were {$readyPlayersCount} players readied up out of {$minimumPlayers} needed. Can't start a Revolution.
-rev-no-one-ready = No players readied up! Can't start a Revolution.
-rev-no-heads = There were no Head Revolutionaries to be selected. Can't start a Revolution.
+rev-not-enough-ready-players = Недостатньо готових гравців. Було готово {$readyPlayersCount} з {$minimumPlayers} необхідних. Неможливо розпочати Революцію.
+rev-no-one-ready = Жоден з гравців не приготувався! Неможливо розпочати Революцію.
+rev-no-heads = Не було обрано жодного Головного Революціонера. Неможливо розпочати революцію.
 
-rev-all-heads-dead = All the heads are dead, now finish up the rest of the crew!
+rev-all-heads-dead = Командування станції мертве, тепер добийте решту екіпажу!
 
-rev-won = The Head Revs survived and killed all of Command.
+rev-won = Головні Революціонери вижили та вбили всіх членів Командування.
 
-rev-lost = Command survived and killed all of the Head Revs.
+rev-lost = Командування вижило і вбило всіх Головних Революціонерів.
 
-rev-stalemate = All of the Head Revs and Command died. It's a draw.
+rev-stalemate = Всі Головні Революціонери та Командування станції загинули. І як так сталося... Назвемо це нічиєю.
 
-rev-reverse-stalemate = Both Command and Head Revs survived.
+rev-reverse-stalemate = І Командування станції та Головні Революціонери вижили. Виграла... дружба?
 
 rev-headrev-count = {$initialCount ->
-    [one] There was one Head Revolutionary:
-    *[other] There were {$initialCount} Head Revolutionaries:
+    [one] Був один Голова Революції:
+    *[other] Було {$initialCount} Голів Революції:
 }
 
-rev-headrev-player = {$title} converted {$count} {$count ->
-    [one] person
-    *[other] people
-}.
+rev-headrev-name-user = [color=#5e9cff]{$name}[/color] ([color=gray]{$username}[/color]) завербував {$count} {$count ->
+    [one] персонажа
+    *[other] персонажів
+}
+
+rev-headrev-name = [color=#5e9cff]{$name}[/color] завербував {$count} {$count ->
+    [one] персонажа
+    *[other] персонажів
+}
+
+## Deconverted window
+
+rev-deconverted-title = Deconverted!
+rev-deconverted-text =
+    As the last headrev has died, the revolution is over.
+
+    You are no longer a revolutionary, so be nice.
+rev-deconverted-confirm = Confirm

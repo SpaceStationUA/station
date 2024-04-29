@@ -1,5 +1,5 @@
-﻿construction-presenter-to-craft = Щоб створити це, треба:
-construction-presenter-to-build = Щоб подувати це, треба:
+﻿construction-presenter-to-craft = Щоб створити цю річ, ви маєте:
+construction-presenter-to-build = Щоб побудувати цю річ, ви маєте:
 
 construction-presenter-step-wrapper = {$step-number}. {$text}
 

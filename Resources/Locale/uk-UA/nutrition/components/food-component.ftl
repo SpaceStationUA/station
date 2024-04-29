@@ -2,28 +2,28 @@
 ### Interaction Messages
 
 # When trying to eat food without the required utensil... but you gotta hold it
-food-you-need-to-hold-utensil = You need to be holding a {$utensil} to eat that!
+food-you-need-to-hold-utensil = Ви повині тримати в руках {$utensil}, щоб з'їсти це!
 
 food-nom = Ням. {$flavors}
-food-swallow = Ви зʼїли {$food}. {$flavors}
+food-swallow = Ви ковтаєте {$food}. {$flavors}
 
-food-has-used-storage = Ви не можете їсти {$food} з предметом всередині.
+food-has-used-storage = Ви не можете їсти {$food} із предметом розташованим всередині.
 
-food-system-remove-mask = спочатку ви маєте зняти {$entity}
+food-system-remove-mask = Щоб з'їсти спочатку зніміть {$entity}.
 
 ## System
 
 food-system-you-cannot-eat-any-more = Ви не можете більше їсти!
-food-system-you-cannot-eat-any-more-other = Вони не можуть більше їсти!
-food-system-try-use-food-is-empty = {CAPITALIZE(THE($entity))} пусте!
-food-system-wrong-utensil = Ви не можете їсти {THE($food)} з {INDEFINITE($utensil)} {$utensil}.
-food-system-cant-digest = You can't digest {THE($entity)}!
-food-system-cant-digest-other = They can't digest {THE($entity)}!
+food-system-you-cannot-eat-any-more-other = Вони більше не можуть їсти!
+food-system-try-use-food-is-empty = {CAPITALIZE(THE($entity))} порожня!
+food-system-wrong-utensil = Не можна їсти {THE($food)} з {INDEFINITE($utensil)}.
+food-system-cant-digest = Ти не можеш перетравити {THE($entity)}!
+food-system-cant-digest-other = Вони не можуть перетравлювати {THE($entity)}!
 
 food-system-verb-eat = Їсти
 
 ## Force feeding
 
-food-system-force-feed = {CAPITALIZE(THE($user))} намагається вам шось зкормити!
-food-system-force-feed-success = {CAPITALIZE(THE($user))} зкормили вам шось! {$flavors}
-food-system-force-feed-success-user = Ви успішно накормили {THE($target)}
+food-system-force-feed = {CAPITALIZE(THE($user))} намагається тебе чимось нагодувати!
+food-system-force-feed-success = {CAPITALIZE(THE($user))} примушував тебе щось їсти {$flavors}!
+food-system-force-feed-success-user = Ви успішно годуєте {THE($target)}

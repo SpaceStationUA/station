@@ -1,21 +1,21 @@
 ﻿## Modes
 
-suit-sensor-mode-off = Off
-suit-sensor-mode-binary = Binary
-suit-sensor-mode-vitals = Vitals
+suit-sensor-mode-off = Вимкнено
+suit-sensor-mode-binary = Двійковий
+suit-sensor-mode-vitals = Життєві показники
 suit-sensor-mode-cords = Coordinates
 
 ## Popups
-suit-sensor-mode-state = Suit sensors: {$mode}
+suit-sensor-mode-state = Датчики костюма: {$mode}
 
 ## Components
 
-suit-sensor-component-unknown-name = Unknown
-suit-sensor-component-unknown-job = No job
+suit-sensor-component-unknown-name = Невідомий
+suit-sensor-component-unknown-job = Немає роботи
 
 ## Examine
 
-suit-sensor-examine-off = Its sensors appear to be [color=darkred]disabled[/color].
-suit-sensor-examine-binary = Its binary life sensors appear to be enabled.
-suit-sensor-examine-vitals = Its vital tracker appears to be enabled.
-suit-sensor-examine-cords = Its vital tracker and tracking beacon appear to be enabled.
+suit-sensor-examine-off = Схоже, що його датчики [color=darkred]disabled[/color].
+suit-sensor-examine-binary = Його бінарні датчики життя, здається, увімкнені.
+suit-sensor-examine-vitals = Здається, його життєво важливий трекер увімкнено.
+suit-sensor-examine-cords = Його життєво важливий трекер і маяк стеження, здається, увімкнено.

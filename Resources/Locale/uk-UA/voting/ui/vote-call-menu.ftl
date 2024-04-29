@@ -1,23 +1,23 @@
-ui-vote-type-restart = Рестарт
-ui-vote-type-gamemode = Наступний ігровий режим
-ui-vote-type-map = Наступна мапа
+ui-vote-type-restart = Перезапуск раунду
+ui-vote-type-gamemode = Вибір режиму
+ui-vote-type-map = Інша карта
 
 # Window title of the vote create menu
-ui-vote-create-title = Почати голосування
+ui-vote-create-title = Голосування
 
 # Submit button in the vote create button
-ui-vote-create-button = Почати голосування
+ui-vote-create-button = Голосування
 
 # Timeout text if a standard vote type is currently on timeout.
-ui-vote-type-timeout = Це голосування було призначено недавно ({$remaining})
+ui-vote-type-timeout = Це голосування вже нещодавно відбулось. Зачекайте: ({$remaining})
 
 # Unavailable text if a vote type has been disabled manually.
-ui-vote-type-not-available = Цей тип голосування вимкнено
+ui-vote-type-not-available = Цей тип голосування вимкнено.
 
 # Hue hue hue
-ui-vote-fluff = Технологія Robust™ Anti-Tamper
+ui-vote-fluff = Технологія «Антиледащо» від компанії Робуста™
 
 ## Vote menu command
 
-ui-vote-menu-command-description = Opens the voting menu
-ui-vote-menu-command-help-text = Usage: votemenu
+ui-vote-menu-command-description = Відкрити меню голосування
+ui-vote-menu-command-help-text = Використовуйте: votemenu

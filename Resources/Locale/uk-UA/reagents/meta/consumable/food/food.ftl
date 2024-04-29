@@ -1,19 +1,20 @@
-reagent-name-nutriment = поживна речовина
-reagent-desc-nutriment = всі елементи,що треба твому організму!
+reagent-name-nutriment = поживні речовини
+reagent-desc-nutriment = Всі ці вітаміни, мінерали та вуглеводи, яких потребує організм у чистому вигляді.
 
 reagent-name-glucose = глюкоза
-reagent-desc-glucose = звичний цукор,його можна знайти у багатьох стравах.
+reagent-desc-glucose = Моносахарид, що міститься в багатьох продуктах харчування.
 
-reagent-name-vitamin = вітаміни
-reagent-desc-vitamin = збадьорять пацієнтів психолога,невід'ємна складова більшості фруктів.
- 
-reagent-name-protein = протеїн
-reagent-desc-protein = не треба нам тренболон,ми справжні вікінги! Бобік дякує вам!
-reagent-name-cocoapowder = сocoa powder
-reagent-desc-cocoapowder = From the best varieties of cocoa beans
+reagent-name-vitamin = вітамін
+reagent-desc-vitamin = Міститься у здоровій, повноцінній їжі.
 
-reagent-name-butter = butter
-reagent-desc-butter = You can believe it!
+reagent-name-protein = білок
+reagent-desc-protein = Міститься в певних продуктах харчування, корисний для здоров'я організму.
 
-reagent-name-pumpkin-flesh = pumpkin flesh
-reagent-desc-pumpkin-flesh = The mushy, sweet remains of a pumpkin.
+reagent-name-cocoapowder = какао порошок
+reagent-desc-cocoapowder = З найкращих сортів какао-бобів.
+
+reagent-name-butter = вершкове масло
+reagent-desc-butter = Ви можете в це повірити!
+
+reagent-name-pumpkin-flesh = гарбузова м'якоть
+reagent-desc-pumpkin-flesh = М'які, солодкі залишки гарбуза.

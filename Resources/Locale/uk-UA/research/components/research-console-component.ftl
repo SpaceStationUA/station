@@ -1,17 +1,17 @@
 ## UI
 
-research-console-menu-title = R&D Console
-research-console-menu-research-points-text = Research: [color=orchid]{$points}[/color]
-research-console-menu-main-discipline = Main Discipline: [color={$color}]{$name}[/color]
-research-console-menu-server-selection-button = Server list
-research-console-menu-server-sync-button = Sync
-research-console-menu-server-research-button = Research
-research-console-available-text = Researchable Technologies
-research-console-unlocked-text = Unlocked Technologies
-research-console-tier-discipline-info = Tier {$tier}, [color={$color}]{$discipline}[/color]
-research-console-tier-info-small = : Tier {$tier}
-research-console-cost = Cost: [color=orchid]{$amount}[/color]
-research-console-unlocks-list-start = Unlocks:
+research-console-menu-title = Комп'ютер досліджень
+research-console-menu-research-points-text = Бали досліджень: [color=orchid]{$points}[/color]
+research-console-menu-main-discipline = Основиний напрямок: [color={$color}]{$name}[/color]
+research-console-menu-server-selection-button = Список серверів
+research-console-menu-server-sync-button = Синхронізувати
+research-console-menu-server-research-button = Дослідити
+research-console-available-text = Доступні Технології
+research-console-unlocked-text = Розблоковані технології
+research-console-tier-discipline-info = Рівень {$tier}, [color={$color}]{$discipline}[/color]
+research-console-tier-info-small = : Рівень {$tier}
+research-console-cost = Вартість: [color=orchid]{$amount}[/color]
+research-console-unlocks-list-start = Розблоковує:
 research-console-unlocks-list-entry = - [color=yellow]{$name}[/color]
 research-console-unlocks-list-entry-generic = - [color=green]{$text}[/color]
 research-console-prereqs-list-start = Requires:

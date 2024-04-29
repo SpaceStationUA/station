@@ -9,10 +9,10 @@ chem-master-bound-user-interface-title = ChemMaster 4000
 ## UI
 
 chem-master-window-input-tab = Вхід
-chem-master-window-output-tab = Визід
+chem-master-window-output-tab = Вихід
 chem-master-window-container-label = Резервуар
 chem-master-window-eject-button = Дістати
-chem-master-window-no-container-loaded-text = Контейнер не завантажено.
+chem-master-window-no-container-loaded-text = Контейнер не завантажений.
 chem-master-window-buffer-text = Буфер
 chem-master-window-buffer-label = буфер:
 chem-master-window-buffer-all-amount = Усе

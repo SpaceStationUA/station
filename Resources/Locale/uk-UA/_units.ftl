@@ -1,7 +1,7 @@
 ## Standard SI prefixes
-units-si--y = y
-units-si--z = z
-units-si--a = a
+units-si--y = й
+units-si--z = з
+units-si--a = а
 units-si--f = ф
 units-si--p = п
 units-si--n = н
@@ -11,17 +11,17 @@ units-si = {""}
 units-si-k = к
 units-si-m = М
 units-si-g = Г
-units-si-t = Т
-units-si-p = P
-units-si-e = E
-units-si-z = Z
-units-si-y = Y
+units-si-t = Ь
+units-si-p = П
+units-si-e = Е
+units-si-z = З
+units-si-y = Й
 
 ### Long form
-units-si--y-long = yocto
-units-si--z-long = zepto
-units-si--a-long = atto
-units-si--f-long = femto
+units-si--y-long = йокто
+units-si--z-long = зепто
+units-si--a-long = ато
+units-si--f-long = фемто
 units-si--p-long = піко
 units-si--n-long = нано
 units-si--u-long = мікро
@@ -41,7 +41,7 @@ units-u--pascal = мкПа
 units-m--pascal = мПа
 units-pascal = Па
 units-k-pascal = кПа
-units-m-pascal = мПа
+units-m-pascal = МПа
 units-g-pascal = ГПа
 
 units-u--pascal-long = Мікропаскаль
@@ -70,20 +70,20 @@ units-g-watt-long = Гігават
 units-u--joule = мкДж
 units-m--joule = мДж
 units-joule = Дж
-units-k-joule = КДж
+units-k-joule = кДж
 units-m-joule = МДж
 
 units-u--joule-long = Мікроджоуль
-units-m--joule-long = Міліджуль
-units-joule-long = Джуль
+units-m--joule-long = Міліджоуль
+units-joule-long = Джоуль
 units-k-joule-long = Кілоджоуль
 units-m-joule-long = Мегаджоуль
 
 ## Kelvin (Temperature)
 units-u--kelvin = мкК
-units-m--kelvin = мГ
+units-m--kelvin = мК
 units-kelvin = К
-units-k-kelvin = КК
+units-k-kelvin = кК
 units-m-kelvin = МК
 units-g-kelvin = ГК
 

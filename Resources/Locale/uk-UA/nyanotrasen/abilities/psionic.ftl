@@ -1,26 +1,26 @@
-cage-resist-second-person = You start removing your {$cage}.
-cage-resist-third-person = {CAPITALIZE(THE($user))} starts removing {POSS-ADJ($user)} {$cage}.
+cage-resist-second-person = Ви починаєте знімати свій {$cage}.
+cage-resist-third-person = {CAPITALIZE(THE($user))} починає знімати {POSS-ADJ($user)} {$cage}.
 
-cage-uncage-verb = Uncage
+cage-uncage-verb = Зняти
 
-action-name-metapsionic = Metapsionic Pulse
-action-description-metapsionic = Send a mental pulse through the area to see if there are any psychics nearby.
+action-name-metapsionic = Метапсіонний пульс
+action-description-metapsionic = Надішліть ментальний імпульс через область, щоб побачити, чи немає поблизу екстрасенсів.
 
-metapsionic-pulse-success = You detect psychic presence nearby.
-metapsionic-pulse-failure = You don't detect any psychic presence nearby.
-metapsionic-pulse-power = You detect that {$power} was used nearby.
+metapsionic-pulse-success = Ви виявляєте психічну присутність поруч.
+metapsionic-pulse-failure = Ви не помічаєте жодної психічної присутності поблизу.
+metapsionic-pulse-power = Ви помічаєте що {$power} було використано десь поруч.
 
-action-name-dispel = Dispel
-action-description-dispel = Dispel summoned entities such as familiars or forcewalls.
+action-name-dispel = Розвієння
+action-description-dispel = Розсіювати покликаних сутностей, таких як фамільяри або силові стіни.
 
-action-name-mass-sleep = Mass Sleep
-action-description-mass-sleep = Put targets in a small area to sleep.
+action-name-mass-sleep = Масовий сон
+action-description-mass-sleep = Змусьте цілі в невеликому радіусі спати.
 
-accept-psionics-window-title = Psionic!
-accept-psionics-window-prompt-text-part = You rolled a psionic power!
-                                         It's possible that certain anti-psychic forces may hunt you,
-                                         so you should consider keeping it secret.
-                                         Do you still wish to be psionic?
+accept-psionics-window-title = Псіоніка!
+accept-psionics-window-prompt-text-part = Ви отримали псіонічну силу!
+                                         Цілком можливо, що на вас можуть полювати певні антипсихічні сили,
+                                         тому вам слід зберегти це в таємниці.
+                                         Ви все ще хочете бути псіонікою?
 
 action-name-psionic-invisibility = Psionic Invisibility
 action-description-psionic-invisibility = Render yourself invisible to any entity that could potentially be psychic. Borgs, animals, and so on are not affected.
@@ -32,21 +32,21 @@ action-name-psionic-invisibility-off = Turn Off Psionic Invisibility
 action-description-psionic-invisibility-off = Return to visibility, and receive a stun.
 
 action-name-mind-swap = Mind Swap
-action-description-mind-swap = Swap minds with the target. Either can change back after 20 seconds.
+action-description-mind-swap = Поміняйтеся розумом з ціллю. Будь-яка з них може повернутися через 20 секунд.
 
-action-name-mind-swap-return = Reverse Mind Swap
-action-description-mind-swap-return = Return to your original body.
+action-name-mind-swap-return = Зворотний Mind Swap
+action-description-mind-swap-return = Повернутись в своє початкове тіло.
 
-action-name-telegnosis = Telegnosis
-action-description-telegnosis = Create a telegnostic projection to remotely observe things.
+action-name-telegnosis = Телегноз
+action-description-telegnosis = Створіть телегностичну проекцію, щоб дистанційно спостерігати за речами.
 
-action-name-psionic-regeneration = Psionic Regeneration
-action-description-psionic-regeneration = Push your natural metabolism to the limit to power your body's regenerative capability.
+action-name-psionic-regeneration = Псіонічна регенерація
+action-description-psionic-regeneration = Доведіть свій природний метаболізм до межі, щоб активізувати регенераційну здатність вашого тіла.
 
-glimmer-report = Current Glimmer Level: {$level}Ψ.
-glimmer-event-report-generic = Noöspheric discharge detected. Glimmer level has decreased by {$decrease} to {$level}Ψ.
-glimmer-event-report-signatures = New psionic signatures manifested. Glimmer level has decreased by {$decrease} to {$level}Ψ.
-glimmer-event-awakened-prefix = awakened {$entity}
+glimmer-report = Поточний рівень Мерехтіння: {$level}Ψ.
+glimmer-event-report-generic = Виявлено ноосферний розряд. Рівень Мерехтіння зменшився на {$decrease} до {$level}Ψ.
+glimmer-event-report-signatures = Виявлено нові псіонічні сигнатури. Рівень Мерехтіння зменшився на {$decrease} до {$level}Ψ.
+glimmer-event-awakened-prefix = пробудили {$entity}
 
 noospheric-zap-seize = You seize up!
 noospheric-zap-seize-potential-regained = You seize up! Some mental block seems to have cleared, too.
@@ -62,12 +62,12 @@ psionic-burn-resist = Strange arcs dance across {THE($item)}!
 action-name-noospheric-zap = Noospheric Zap
 action-description-noospheric-zap = Shocks the conciousness of the target and leaves them stunned and stuttering.
 
-action-name-pyrokinesis = Pyrokinesis
-action-description-pyrokinesis = Light a flammable target on fire.
-pyrokinesis-power-used = A wisp of flame engulfs {THE($target)}, igniting {OBJECT($target)}!
+action-name-pyrokinesis = Пірокінез
+action-description-pyrokinesis = Підпалити легкозаймисту мішень.
+pyrokinesis-power-used = Струмок полум'я охоплює {THE($target)}, запалює {OBJECT($target)}!
 
-action-name-psychokinesis = Psychokinesis
-action-description-psychokinesis = Bend the fabric of space to instantly move across it.
+action-name-psychokinesis = Психокінез
+action-description-psychokinesis = Згинайте тканину простору, щоб миттєво рухатися по ній.
 
 action-name-rf-sensitivity = Toggle RF Sensitivity
-action-desc-rf-sensitivity = Toggle your ability to interpret radio waves on and off.
+action-desc-rf-sensitivity = Увімкніть і вимкніть здатність інтерпретувати радіохвилі.

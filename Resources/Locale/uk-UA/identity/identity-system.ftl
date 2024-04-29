@@ -6,4 +6,4 @@ identity-age-old = похилого віку
 
 identity-gender-feminine = жінка
 identity-gender-masculine = чоловік
-identity-gender-person = особа
+identity-gender-person = людина

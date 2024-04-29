@@ -1,5 +1,5 @@
 
 ### UI
 
-# Shown when the battery is examined in details range
+# Показано при детальному огляді акумулятора в діапазоні
 examinable-battery-component-examine-detail = Батарея на [color={$markupPercentColor}]{$percent}%[/color] повна.

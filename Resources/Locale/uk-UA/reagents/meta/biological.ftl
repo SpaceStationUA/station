@@ -1,20 +1,29 @@
-reagent-name-blood = blood
-reagent-desc-blood = I hope this is ketchup.
+reagent-name-blood = кров
+reagent-desc-blood = Не знаю як на смак, але виглядає як кетчуп.
 
-reagent-name-slime = slime
-reagent-desc-slime = You thought this was gradient blood at first, but you were mistaken.
+reagent-name-insect-blood = кров комах
+reagent-desc-insect-blood = Гаразд, це справді огидно. Виглядає майже живим?
 
-reagent-name-hemocyanin-blood = blue blood
-reagent-desc-hemocyanin-blood = Contains copper as opposed to iron which gives it a distinct blue color.
+reagent-name-slime = слиз
+reagent-desc-slime = Спочатку ви подумали, що це відтінок крові, але ви помилилися.
 
-reagent-name-zombie-blood = zombie blood
-reagent-desc-zombie-blood = Would not advise eating. Can be used to create an inoculation against the infection.
+reagent-name-hemocyanin-blood = синя кров
+reagent-desc-hemocyanin-blood = Містить мідь на відміну від заліза, що надає виразного синього кольору.
 
-reagent-name-ichor = ichor
-reagent-desc-ichor = An extremely potent regenerative chemical, perfected by space fauna evolution. Produced in the dragon's digestive system, it is seen as an exotic commodity due to the gargantuan effort of hunting for it.
+reagent-name-ammonia-blood = анаеробна кров
+reagent-desc-ammonia-blood = Більше ніщо у всій галактиці не пахне так жахливо.
 
-reagent-name-fat = fat
-reagent-desc-fat = No matter how it was obtained, its application is important.
+reagent-name-zombie-blood = кров зомбі
+reagent-desc-zombie-blood = Не порадив би це їсти. Можна використовувати для створення щеплення проти інфекції.
 
-reagent-name-vomit = vomit
-reagent-desc-vomit = You can see a few chunks of someone's last meal in it.
+reagent-name-ichor = іхор
+reagent-desc-ichor = Надзвичайно потужна регенеративна хімічна речовина, вдосконалена еволюцією космічної фауни. Виробляється в травній системі драконів і вважається екзотичним товаром через гігантські зусилля, яких потребує полювання на нього.
+
+reagent-name-fat = жир
+reagent-desc-fat = Не важливо, як його було отримано, важливо як його застосувати.
+
+reagent-name-vomit = блювота
+reagent-desc-vomit = У нії можна побачити кілька шматочків чиєїсь останньої їжі.
+
+reagent-name-grey-matter = сіра матерія
+reagent-desc-grey-matter = Виглядає наче сік, що витікає з твоїх вух.

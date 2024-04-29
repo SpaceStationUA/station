@@ -1,54 +1,54 @@
-book-text-atmos-distro = The distribution network, or "distro" for short, is the station's lifeline. It's responsible for transporting air from atmospherics throughout the station.
+book-text-atmos-distro = Дистрибуційна мережа, або ж "дистро", є артерією станції. Вона відповідальна за транспортування повітря з атмосферної по всій станції.
 
-        Relevant pipes are often painted Popping Subdued Blue, but a surefire way to identify them is to use a tray scanner to trace which pipes are connected to active vents on the station.
+        Відповідні труби часто пофарбовані в м'який синій колір, однак більш надійний спосіб упізнати їх це взяти т-променевий сканер щоб відслідкувати, які труби під'єднані до активних вентиляцій на станції.
 
-        The standard gas mix of the distribution network is 20 degrees celsius, 78% nitrogen, 22% oxygen. You can check this by using a gas analyzer on a distro pipe or any vent connected to it. Special circumstances may call for special mixes.
+        Стандартний коктейль газів в дистрибуційній мережі дорівнює 20 градусам по цельсію, 78% азоту, 22% кисню. Ви можете перевірити ці показники використовуючи газовий аналізатор на трубі дистро або ж будь-якій під'єднаній до неї вентиляції. Особливі обставини можуть потребувати особливих коктейлів.
 
-        When it comes to deciding on a distro pressure, there are a few things to consider. Active vents will regulate the station's pressure, so as long as everything is functioning properly, there's no such thing as too high of a distro pressure.
+        Коли діло доходить до врегулювання тиску в дистро, є кілька речей які варто брати до уваги. Активні вентиляції врегулюють тиск на станції, тож поки все працює правильно нема такої речі як зависокий тиск у дистро.
 
-        A higher distro pressure will allow the distro network to act as a buffer between the gas miners and vents, providing a significant amount of extra air that can be used to re-pressurize the station after a spacing.
+        Високий тиск у дистро дозволить дистро виконувати роль буферу між газовими добувачами та вентиляціями, постачаючи суттєву кількість додаткового повітря яке може бути використано для відновлення тиску після розгерметизації.
 
-        A lower distro pressure will reduce the amount of gas lost in the event that the distro is spaced, a quick way to deal with distro contamination. It can also help slow or prevent over-pressurization of the station in the event of vent issues.
+        Низький тиск у дистро зменшить кількість повітря втраченого у разі пошкодження дистро, -- швидкий спосіб впоратися із забрудненням дистро. Це також може сповільнити або запобігтти накопиченню надлишкового тиску у разі проблем з вентиляціями.
 
-        Common distro pressures are in the range of 300-375 kPa, but other pressures can be used with knowledge of the risks and benefits.
+        Зазвичай, тиск дистро знаходиться десь у проміжку 300-375 кПа, однак і інші значення можуть використовуватися зі знанням про ризики та переваги.
 
-        The pressure of the network is determined by the last pump pumping into it. To prevent bottlenecks, all other pumps between the miners and the last pump should be set to their maximum rate, and any unnecessary devices should be removed.
+        Тиск мережі визначається останнім насосом, що веде в неї. Для запобігання перешкод в системі, усі інші насоси між добувачами та останнім насосом мають бути виставлені на максимальні значення, а всі зайві пристрої мають бути прибрані.
 
-        You can validate the distro pressure with a gas analyzer, but keep in mind that high demand due to things like spacings can cause the distro to be below the set target pressure for extended periods. So, if you see a dip in pressure, don't panic - it might be temporary.
+        Ви можете вимірювати тиск в дистро газовим аналізатором, однак пам'ятайте що високий попит у зв'язку з такими речами як розгерметизації може змусити дистро опуститися нижче цільового тиску на деякий час. Тож, якщо бачите провал у тиску в системі, -- не панікуйте, це може бути тимчасово. А може і не бути.
 
-book-text-atmos-waste = The waste network is the primary system responsible for keeping the air on the station free of contaminants.
+book-text-atmos-waste = Мережа відходів -- це головна система, відповідальна за чистоту повітря на станції.
 
-        You can identify the relevant pipes by their Pleasing Dull Red color or by using a tray scanner to trace which pipes are connected to the scrubbers on the station.
+        Ви можете впізнати відповідні труби по м'якому червоному кольору або ж використовуючи т-променевий сканер щоб відслідкувати, які труби приєднані до скруберів на станції.
 
-        The waste network is used to transport waste gasses to either be filtered or spaced. It is ideal to keep the pressure at 0 kPa, but it may sometimes be at a low non-zero pressure while in use.
+        Мережа відходів використовується для транспортування "відпрацьованих" газів щоб відфільтрувати або викинути їх в космос. В ідеалі тиск мережі має дорівнювати 0 кПа, але він може дорівнювати і невеликим не-нульовим значенням під час використання.
 
-        Technicians have the option to filter or space the waste gasses. While spacing is faster, filtering allows for the gasses to be reused for recycling or selling.
+        Техніки мають вибір між тим, щоб фільтрувати або просто викидати відходи. Коли викинути гази легше та швидше, фільтрація дозволяє збирати їх для повторного використання чи продажу.
 
-        The waste network can also be used to diagnose atmospheric issues on the station. High levels of a waste gas may suggest a large leak, while the presence of non-waste gases may indicate a scrubber configuration or physical connection issue. If the gases are at a high temperature, it could indicate a fire.
+        Мережа відходів може також бути використана для діагностики атмосферних проблем на станції. Висока концентрація відпрацьованих газів може означати великий витік, коли наявність не-відходів може вказувати на проблему з конфігурацією скруберів або фізичними підключеннями. Якщо гази під вликою температурою, можлива пожежа.
 
-book-text-atmos-alarms = Air alarms are located throughout stations to allow management and monitoring of the local atmosphere.
+book-text-atmos-alarms = Повітряні сигналізації розташовані по станції для налаштування та диагносики місцевої атмосфери.
 
-            The air alarm interface provides technicians with a list of connected sensors, their readings, and the ability to adjust thresholds. These thresholds are used to determine the alarm condition of the air alarm. Technicians can also use the interface to set target pressures for vents and configure the operating speeds and targeted gases for scrubbers.
+            Інтерфейс повітряної сигналізації надає техніку список сенсорів, їхні показаннята можливість налаштування порогів безпеки. Ці пороги використовуються для визначення стану сигналізації. Техніки також можуть використовувати інтерфейс для зазначення цільового тиску для вентиляцій, а також визначення робочого темпу та цільових газів для скруберів.
 
-            While the interface allows for fine-tuning of the devices under the air alarm's control, there are also several modes available for rapid configuration of the alarm. These modes are automatically switched to when the alarm state changes:
-            - Filtering: The default mode
-            - Filtering (wide): A filtering mode that modifies the operation of scrubbers to scrub a wider area
-            - Fill: Disables scrubbers and sets vents to their maximum pressure
-            - Panic: Disables vents and sets scrubbers to siphon
+            У той час, коли інтерфейс дозволяє тонке налаштування пристроїв під контролем сигналізації, існують кілька режимів для пришвидшеної конфігурації сигналізацій. Ці режими вмикаються автоматично в залежності від стану сигналізації:
+            - Фільтрація: Звичайний режим.
+            - Фільтрація (розширена): Режим фільтрації, що оптимізує роботу скруберів для фільтрації більшої площі.
+            - Заповнення: Вимикає скрубери та ставить фентиляції на максимальний тиск.
+            - Панічний: Вимикає вентиляції та ставить скрубери на злив.
 
-            A multitool or network configurator can be used to link devices to air alarms.
+            Мультитул чи мережевий конфігуратор можуть бути використані для прив'язки пристроїв до повітряних сигналізацій.
 
-book-text-atmos-vents =
-    Below is a quick reference guide to several atmospheric devices:
+book-text-atmos-vents = 
+    Нижче наведено короткий посібник по кількох атмосферних пристроях:
 
-                Passive Vents:
-                These vents don't require power, they allow gases to flow freely both into and out of the pipe network they are attached to.
+                Пасивні Вентиляції:
+                Ці вентиляції не потребують живлення, вони дозволяють газам вільно проходити в і з мережі труб, до якої вони під'єднані.
 
-                Active Vents:
-                These are the most common vents on the station. They have an internal pump, and require power. By default, they will only pump gases out of pipes, and only up to 101 kpa. However, they can be reconfigured using an air alarm. They will also lock out if the room is under 1 kpa, to prevent pumping gasses into space.
+                Активні Вентиляції:
+                Це найбільш звичні вентиляції на станції. Вони мають власний насос і потребують живлення. Зазвичай, вони лише будуть викачувати гази з труб і тільки за тиску до 101 кПа. Однак, вони можуть бути переналаштовані за допомогою повітряної сигналізації. Також, вони заблокуються при тиску менше 1 кПа, щоб запобігти витіканню газу в космос.
 
-                Air Scrubbers:
-                These devices allow gases to be removed from the environment and put into the connected pipe network. They can be configured to select specific gases when connected to an air alarm.
+                Повітряні Скрубери:
+                Ці пристрої дозволять вам забирати гази з навколишнього середовища та поміщати в мережу труб, до якої вони під'єднані. Вони можуть бути налаштовані до певних газів, якщо підключені до повітряної сигналізації.
 
-                Air Injectors:
-                Injectors are similar to active vents, but they have no internal pump and do not require power. They cannot be configured, but they can continue to pump gasses up to much higher pressures.
+                Повітряні Ін'єктори:
+                Ін'єктори дещо схожі до активних вентиляцій, проте вони не мають внутрішнього насосу та не потребують живлення. Вони не можуть бути налаштовані, однак здатні качати гази до набагато вищого тиску.

@@ -1,6 +1,6 @@
-﻿butcherable-different-tool = You are going to need a different tool to butcher { THE($target) }.
-butcherable-knife-butchered-success = You butcher { THE($target) } with { THE($knife) }.
-butcherable-need-knife = Use a sharp object to butcher { THE($target) }.
-butcherable-not-in-container = { CAPITALIZE(THE($target)) } can't be in a container.
-butcherable-mob-isnt-dead = Needs to be dead.
-butcherable-verb-name = Butcher
+﻿butcherable-different-tool = Вам потрібен інший інструмент для патрання { $target }.
+butcherable-knife-butchered-success = Ви патраєте { $target } за допомогою { $knife }.
+butcherable-need-knife = Використовуйте гострий предмет, щоб патрати { $target }.
+butcherable-not-in-container = { CAPITALIZE($target) } не може бути в контейнері.
+butcherable-mob-isnt-dead = Має бути мертвим.
+butcherable-verb-name = Патрати

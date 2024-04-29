@@ -1,8 +1,8 @@
 department-Cargo = Карго
 department-Civilian = Цивільні
 department-Command = Командування
-department-Engineering = Інженерний
+department-Engineering = Інженерія
 department-Medical = Медичний
 department-Security = Служба Безпеки
-department-Science = Науковий
-department-Specific = Специфічне для станції
+department-Science = Дослідження та Розробка
+department-Specific = Специфічні для станції

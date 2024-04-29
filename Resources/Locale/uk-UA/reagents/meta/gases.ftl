@@ -1,20 +1,20 @@
-reagent-name-oxygen = oxygen
-reagent-desc-oxygen = An oxidizing, colorless gas.
+reagent-name-oxygen = кисень
+reagent-desc-oxygen = Окислювальний безбарвний газ.
 
-reagent-name-plasma = plasma
-reagent-desc-plasma = Funky, space-magic pixie dust. You probably shouldn't eat this, but we both know you will anyways.
+reagent-name-plasma = плазма
+reagent-desc-plasma = Прикольний, космічно-магічний пил ельфів. Можливо, вам не варто це їсти, але ми всі знаємо, що ви все одно не послухаєте.
 
-reagent-name-tritium = tritium
-reagent-desc-tritium = Radioactive space-magic pixie dust.
+reagent-name-tritium = тритій
+reagent-desc-tritium = Радіоактивний космічно-магічний пил ельфів.
 
-reagent-name-carbon-dioxide = carbon dioxide
-reagent-desc-carbon-dioxide = You have genuinely no idea what this is.
+reagent-name-carbon-dioxide = діоксид вуглецю
+reagent-desc-carbon-dioxide = Ви не маєте жодного уявлення, що це таке.
 
-reagent-name-nitrogen = nitrogen
-reagent-desc-nitrogen = A colorless, odorless unreactive gas. Highly stable.
+reagent-name-nitrogen = азот
+reagent-desc-nitrogen = Не має кольору, запаху, неактивний газ. Дуже стабільний.
 
-reagent-name-nitrous-oxide = nitrous oxide
-reagent-desc-nitrous-oxide = You know how everything seems funnier when you're tired? Well...
+reagent-name-nitrous-oxide = оксид азоту
+reagent-desc-nitrous-oxide = Знаєш, як все здається веселішим, коли ти втомлений? Так от...
 
-reagent-name-frezon = frezon
-reagent-desc-frezon = A highly effective coolant.. and hallucinogenic.
+reagent-name-frezon = фрезон
+reagent-desc-frezon = Високоефективний холодоагент... а ще класний галюциноген.

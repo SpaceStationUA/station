@@ -1,30 +1,31 @@
 ## UI
-cloning-console-window-title = Cloning Console
-cloning-console-window-clone-button-text = Clone
+cloning-console-window-title = Консоль клонування
+cloning-console-window-clone-button-text = Клон
 cloning-console-window-scanner-id = ID: [color=white]{$scannerOccupantName}[/color]
 cloning-console-window-pod-id = ID: [color=white]{$podOccupantName}[/color]
-cloning-console-window-no-patient-data-text = No patient data.
+cloning-console-window-no-patient-data-text = Немає даних про пацієнта.
 cloning-console-window-id-blank = ID:
-cloning-console-window-scanner-details-label = Genetic Scanner Status
-cloning-console-window-pod-details-label = Cloning Pod Status
-cloning-console-window-no-scanner-detected-label = Link a genetic scanner with a multitool or network configurator.
-cloning-console-window-no-clone-pod-detected-label = Link a cloning pod with a multitool or network configurator.
-cloning-console-window-scanner-far-label = Genetic Scanner Too Far Away
-cloning-console-window-clone-pod-far-label = Cloning Pod Too Far Away
-cloning-console-eject-body-button = Eject Body
-cloning-console-neural-interface-label = Neural Interface:
-cloning-console-no-mind-activity-text = Neural Interface: [color=red]No Activity[/color]
-cloning-console-mind-present-text = Neural Interface: [color=green]Consciousness Detected[/color]
-cloning-console-component-msg-ready = Ready To Clone
-cloning-console-component-msg-empty = No Body Detected
-cloning-console-component-msg-scanner-occupant-alive = Not Ready: Scanner Occupant Living
-cloning-console-component-msg-already-alive = Not Ready: Metaphysical Conflict
-cloning-console-component-msg-occupied = Not Ready: The Pod Already Contains A Clone
-cloning-console-component-msg-already-cloning = Not Ready: Pod Network Conflict
-cloning-console-component-msg-incomplete = Not Ready: Cloning In Progress
-cloning-console-component-msg-no-cloner = Not Ready: No Cloner Detected
-cloning-console-component-msg-no-mind = Not Ready: No Soul Activity Detected
 
-cloning-console-chat-error = ERROR: INSUFFICIENT BIOMASS. CLONING THIS BODY REQUIRES {$units} UNITS OF BIOMASS.
-cloning-console-uncloneable-trait-error = ERROR: SOUL IS ABSENT, CLONING IS IMPOSSIBLE.
-cloning-console-cellular-warning = WARNING: GENEFSCK CONFIDENCE SCORE IS {$percent}%. CLONING MAY HAVE UNEXPECTED RESULTS.
+cloning-console-window-scanner-details-label = Статус генетичного сканера
+cloning-console-window-pod-details-label = Статус клонування
+cloning-console-window-no-scanner-detected-label = Зв’яжіть генетичний сканер із мультитулом.
+cloning-console-window-no-clone-pod-detected-label = Зв’яжіть модуль клонування з мультитулом.
+cloning-console-window-scanner-far-label = Генетичний сканер надто далеко
+cloning-console-window-clone-pod-far-label = Клонування занадто далеко
+cloning-console-eject-body-button = Витягнути тіло
+cloning-console-neural-interface-label = Нейронний інтерфейс:
+cloning-console-no-mind-activity-text = Нейронний інтерфейс: [color=red]No Activity[/color]
+cloning-console-mind-present-text = Нейронний інтерфейс: [color=green]Consciousness Detected[/color]
+cloning-console-component-msg-ready = Готовий до клонування
+cloning-console-component-msg-empty = Тіла не виявлено
+cloning-console-component-msg-scanner-occupant-alive = Не готовий: живий мешканець сканера
+cloning-console-component-msg-already-alive = Не готовий: Метафізичний конфлікт
+cloning-console-component-msg-occupied = Не готовий: модуль уже містить клон
+cloning-console-component-msg-already-cloning = Не готовий: конфлікт мережі Pod
+cloning-console-component-msg-incomplete = Не готово: клонування триває
+cloning-console-component-msg-no-cloner = Не готовий: Клона не виявлено
+cloning-console-component-msg-no-mind = Не готовий: активності душі не виявлено
+
+cloning-console-chat-error = ПОМИЛКА: НЕДОСТАТНЯ БІОМАСА. КЛОНУВАННЯ ЦЬОГО ТІЛА ПОТРІБНО {$units} ОДИНИЦІ БІОМАСИ.
+cloning-console-uncloneable-trait-error = ПОМИЛКА: ДУША ВІДСУТНЯ, КЛОНУВАННЯ НЕМОЖЛИВЕ.
+cloning-console-cellular-warning = ПОПЕРЕДЖЕННЯ: ІМОВІРНІСТ КЛОНУВАНА ГЕНІВ {$percent}%. КЛОНУВАННЯ МОЖЕ ДАТИ НЕСПОДІВАНІ РЕЗУЛЬТАТИ.

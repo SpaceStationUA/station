@@ -1,1 +1,1 @@
-station-map-window-title = Station map
+station-map-window-title = Мапа станції

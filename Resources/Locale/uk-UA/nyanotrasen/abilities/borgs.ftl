@@ -1,5 +1,5 @@
-action-name-fabricate-lollipop = Fabricate Lollipop
-action-description-fabricate-lollipop = Fabricate a lollipop that contains a small dose of Omnizine.
+action-name-fabricate-lollipop = Виготовити льодяник
+action-description-fabricate-lollipop = Виготовте льодяник, який містить невелику дозу омнізину.
 
-action-name-fabricate-gumball = Fabricate Gumball
-action-description-fabricate-gumball = Fabricate a gumball full of sugar and medicine to treat small injuries.
+action-name-fabricate-gumball = Виготовити гумову кульку
+action-description-fabricate-gumball = Виготовте гумову кульку, наповнену цукром і ліками, щоб лікувати невеликі травми.

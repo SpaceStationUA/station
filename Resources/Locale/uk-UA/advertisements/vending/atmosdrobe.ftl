@@ -1,1 +1,3 @@
-advertisement-atmosdrobe-1 = Беріть свій легкозаймистий одяг прямо з собою!!!
+advertisement-atmosdrobe-1 = Легкозаймистий одяг збирайте тут!!!
+advertisement-atmosdrobe-2 = Захищає вас від плазмових пожеж!
+advertisement-atmosdrobe-3 = Насолоджуйтесь інженерним одягом інших брендів!

@@ -2,42 +2,42 @@
 
 ## 'createvote' command
 
-cmd-createvote-desc = Creates a vote
-cmd-createvote-help = Usage: createvote <'restart'|'preset'|'map'>
-cmd-createvote-cannot-call-vote-now = You can't call a vote right now!
-cmd-createvote-invalid-vote-type = Invalid vote type
+cmd-createvote-desc = Створити голосування
+cmd-createvote-help = Використовуйте: createvote <'restart'|'preset'|'map'>
+cmd-createvote-cannot-call-vote-now = Зараз це зробити не можна!
+cmd-createvote-invalid-vote-type = Неправильний тип
 cmd-createvote-arg-vote-type = <vote type>
 
 ## 'customvote' command
 
-cmd-customvote-desc = Creates a custom vote
-cmd-customvote-help = Usage: customvote <title> <option1> <option2> [option3...]
-cmd-customvote-on-finished-tie = Tie between {$ties}!
-cmd-customvote-on-finished-win = {$winner} wins!
+cmd-customvote-desc = Створити своє голосування
+cmd-customvote-help = Використовуйте: customvote <title> <option1> <option2> [option3...]
+cmd-customvote-on-finished-tie = Нічия між {$ties}!
+cmd-customvote-on-finished-win = Переможець: {$winner}!
 cmd-customvote-arg-title = <title>
 cmd-customvote-arg-option-n = <option{ $n }>
 
 ## 'vote' command
 
-cmd-vote-desc = Votes on an active vote
+cmd-vote-desc = Проголосувати в активному голосуванні
 cmd-vote-help = vote <voteId> <option>
-cmd-vote-cannot-call-vote-now = You can't call a vote right now!
-cmd-vote-on-execute-error-must-be-player = Must be a player
-cmd-vote-on-execute-error-invalid-vote-id = Invalid vote ID
-cmd-vote-on-execute-error-invalid-vote-options = Invalid vote options
-cmd-vote-on-execute-error-invalid-vote = Invalid vote
-cmd-vote-on-execute-error-invalid-option = Invalid option
+cmd-vote-cannot-call-vote-now = Ви не можете зараз викликати голосування!
+cmd-vote-on-execute-error-must-be-player = Має бути гравець
+cmd-vote-on-execute-error-invalid-vote-id = Недійсний ID голосування
+cmd-vote-on-execute-error-invalid-vote-options = Недійсні варіанти для голосування
+cmd-vote-on-execute-error-invalid-vote = Недійсне голосування
+cmd-vote-on-execute-error-invalid-option = Недійсний варіант
 
 ## 'listvotes' command
 
-cmd-listvotes-desc = Lists currently active votes
-cmd-listvotes-help = Usage: listvotes
+cmd-listvotes-desc = Списки активних голосувань
+cmd-listvotes-help = Використовуйте: listvotes
 
 ## 'cancelvote' command
 
-cmd-cancelvote-desc = Cancels an active vote
-cmd-cancelvote-help = Usage: cancelvote <id>
-                      You can get the ID from the listvotes command.
-cmd-cancelvote-error-invalid-vote-id = Invalid vote ID
-cmd-cancelvote-error-missing-vote-id = Missing ID
+cmd-cancelvote-desc = Скасовує активне голосування
+cmd-cancelvote-help = Використовуйте: cancelvote <id>
+                      Ви можете отримати ID голосування за допомогою команди: listvotes.
+cmd-cancelvote-error-invalid-vote-id = Недійсний ID голосування
+cmd-cancelvote-error-missing-vote-id = Відсутній ID
 cmd-cancelvote-arg-id = <id>

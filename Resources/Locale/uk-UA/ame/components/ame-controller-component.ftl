@@ -6,7 +6,7 @@ ame-controller-component-interact-using-fail = Ви не можете встав
 
 ## UI
 
-ame-window-title = Antimatter Control Unit
+ame-window-title = Блок керування антиматерією
 ame-window-engine-status-label = Статус двигунів:
 ame-window-engine-injection-status-not-injecting-label = Не увімкнено
 ame-window-engine-injection-status-injecting-label = Вприсування...

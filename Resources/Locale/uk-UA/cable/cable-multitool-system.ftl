@@ -1,10 +1,10 @@
-cable-multitool-system-internal-error-no-power-node = Ваш мультитул видає повідомлення, "ПОМИЛКА: КАБЕЛЬ НЕ ПІДКЛЮЧЕНО".
-cable-multitool-system-internal-error-missing-component = Your multitool reads, "ПОМИЛКА: КАБЕЛЬ НЕСПРАВНИЙ".
+cable-multitool-system-internal-error-no-power-node = Ваш мультитул видає повідомлення "ВНУТРІШНЯ ПОМИЛКА: НЕ ПІДКЛЮЧЕНО КАБЕЛЬ ЕЛЕКТРОЖИВЛЕННЯ".
+cable-multitool-system-internal-error-missing-component = Ваш мультитул показує: "ВНУТРІШНЯ ПОМИЛКА: КАБЕЛЬ НЕСПРАВНИЙ".
 cable-multitool-system-verb-name = Струм
-cable-multitool-system-verb-tooltip = Використовуйте мультитул для статистики потужності.
+cable-multitool-system-verb-tooltip = Використовуйте багатофункціональний інструмент для вивчення статистики потужності.
 
-cable-multitool-system-statistics = Ваш мультитул показує список даних:
-                                    Поточний струм: { POWERWATTS($supplyc) }
+cable-multitool-system-statistics = Ваш мультитул показує список статистичних даних:
+                                    Подача струму: { POWERWATTS($supplyc) }
                                     Від батарейок: { POWERWATTS($supplyb) }
                                     Теоретична пропозиція: { POWERWATTS($supplym) }
                                     Ідеальне споживання: { POWERWATTS($consumption) }

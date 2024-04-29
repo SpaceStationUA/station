@@ -12,9 +12,9 @@ comp-gas-canister-ui-holding-tank-label-empty = Порожньо
 comp-gas-canister-ui-holding-tank-pressure = Тиск у балоні:
 comp-gas-canister-ui-holding-tank-eject = Вийняти
 
-comp-gas-canister-ui-release-valve-status = Статус випускного клапану
-comp-gas-canister-ui-release-pressure = Вихідний тиск (kPa):
-comp-gas-canister-ui-release-valve = Відкрити клапан:
+comp-gas-canister-ui-release-valve-status = Статус випускного клапана
+comp-gas-canister-ui-release-pressure = Вихідний тиск (кПа):
+comp-gas-canister-ui-release-valve = Статус клапана:
 comp-gas-canister-ui-release-valve-open = Відкрити
 comp-gas-canister-ui-release-valve-close = Закрити
 

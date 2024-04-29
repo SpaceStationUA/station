@@ -1,17 +1,17 @@
 ## UI
 
-reagent-grinder-bound-user-interface-instant-button = INSTANT
-reagent-grinder-bound-user-interface-cook-time-label = COOK TIME
-reagent-grinder-component-cannot-put-entity-message = You can't put this in the reagent grinder!
+reagent-grinder-bound-user-interface-instant-button = МИТТЄВЕ
+reagent-grinder-bound-user-interface-cook-time-label = ЧАС ГОТУВАННЯ
+reagent-grinder-component-cannot-put-entity-message = Ви не можете покласти це в подрібнювач реагентів!
 
 reagent-grinder-component-upgrade-work-time = Work time
 reagent-grinder-component-upgrade-storage = Storage
 
-grinder-menu-title = All-In-One Grinder 3000
-grinder-menu-grind-button = Grind
-grinder-menu-juice-button = Juice
-grinder-menu-chamber-content-box-label = Chamber
-grinder-menu-chamber-content-box-button = Eject Contents
-grinder-menu-beaker-content-box-label = Beaker
-grinder-menu-beaker-content-box-button = Eject Beaker
-grinder-menu-beaker-content-box-is-empty = Empty
+grinder-menu-title = Подрібнювач Два-В-Одном 3000
+grinder-menu-grind-button = Мелення
+grinder-menu-juice-button = Сік
+grinder-menu-chamber-content-box-label = Камера
+grinder-menu-chamber-content-box-button = Вийняти Вміст
+grinder-menu-beaker-content-box-label = Склянка
+grinder-menu-beaker-content-box-button = Вийняти склянку
+grinder-menu-beaker-content-box-is-empty = Порожньо

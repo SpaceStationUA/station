@@ -1,37 +1,38 @@
 reagent-name-flour = борошно
-reagent-desc-flour = звичайне борошно,використовується для випічки.
+reagent-desc-flour = Використовується для приготування випічки.
 
 reagent-name-cornmeal = кукурудзяне борошно
-reagent-desc-cornmeal =звичайне борошно,використовується для випічки.
+reagent-desc-cornmeal = Використовується для приготування випічки.
 
 reagent-name-oats = овес
-reagent-desc-oats = вівсяна каша - дешевий спосіб нагодувати всю станцію,та чи будуть вони вам вдячні?
+reagent-desc-oats = Використовується у різних смачних цілях.
 
 reagent-name-enzyme = універсальний фермент
-reagent-desc-enzyme = досить часто використовуєтся як каталізатор.
+reagent-desc-enzyme = Використовується у приготуванні різних страв.
 
 reagent-name-egg = яйце
-reagent-desc-egg = радий,що у тебе їх два,лиши інші для тих,у кого зовсім немає!
-reagent-name-raw-egg = raw egg
-reagent-desc-raw-egg = Used for baking.
+reagent-desc-egg = Приготовлений курячій ембріон, смакота.
 
-reagent-name-sugar = sugar
-reagent-desc-sugar = вигаданий буржуями солодкий пісок...
+reagent-name-raw-egg = сире яйце
+reagent-desc-raw-egg = Використовується для приготування випічки.
+
+reagent-name-sugar = цукор
+reagent-desc-sugar = Смакосмічний цукор!
 
 reagent-name-blackpepper = чорний перець
-reagent-desc-blackpepper = потрібен,щоб твоя їжа смакувала божественно
+reagent-desc-blackpepper = Часто використовується для приправлення їжі або щоб викликати чхання.
 
 reagent-name-vinegar = оцет
-reagent-desc-vinegar = використовуй його для готування чогось краще вівсяної каші!
+reagent-desc-vinegar = Часто використовується для приправлення їжі.
 
 reagent-name-rice = рис
-reagent-desc-rice = найчистіший рис,дякуючи НТ!
+reagent-desc-rice = Тверді, дрібні білі зерна.
 
-reagent-name-oil-olive = оливкова олія 
-reagent-desc-oil-olive = дорога олія,що використовується для готування їжі
+reagent-name-oil-olive = оливкова олія
+reagent-desc-oil-olive = В'язка та запашна.
 
-reagent-name-oil = олія 
-reagent-desc-oil = використовується шефами для готування їжі
+reagent-name-oil = олія
+reagent-desc-oil = Використовується кухарями для приготування їжі.
 
-reagent-name-capsaicin-oil = капсаїцинова олія 
-reagent-desc-capsaicin-oil = не та олія,що ви подумали! міститься у гострому перці.
+reagent-name-capsaicin-oil = Капсаїцинова Олія
+reagent-desc-capsaicin-oil = Капсаїцинова олія це інгредієнт, який міститься в різних видах гострого перцю.

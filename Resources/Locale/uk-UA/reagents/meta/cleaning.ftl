@@ -1,17 +1,17 @@
-reagent-name-bleach = bleach
-reagent-desc-bleach = Heavy duty cleaner that can clean tiles the same as Space Cleaner and also decontaminate clothes. Extremely toxic when ingested.
+reagent-name-bleach = відбілювач
+reagent-desc-bleach = Надпотужний очищувач, який може чистити плитку так само як Space Cleaner, а також знезаражувати одяг. Надзвичайно токсичний при потраплянні всередину.
 
-reagent-name-space-cleaner = space cleaner
-reagent-desc-space-cleaner = This is able to clean almost all surfaces of almost anything that may dirty them. The janitor is likely to appreciate refills.
+reagent-name-space-cleaner = космічний очищувач
+reagent-desc-space-cleaner = Цей засіб здатен очистити майже всі поверхні майже від усього, що може їх забруднити. Прибиральник, ймовірно, буде вдячний за поповнення.
 
-reagent-name-soap = soap
-reagent-desc-soap = Soap can be used to make soapy water.
+reagent-name-soap = мило
+reagent-desc-soap = Мило можна використовувати для приготування мильної води.
 
 reagent-name-soapy-water = soapy water
 reagent-desc-soapy-water = It's just soap and water. Good for cleaning gunk off of surfaces and also slippier than regular water.
 
-reagent-name-space-lube = space lube
-reagent-desc-space-lube = Space Lube is a high performance lubricant intended for maintenance of extremely complex mechanical equipment (and certainly not used to make people slip).
+reagent-name-space-lube = космічне мастило
+reagent-desc-space-lube = Космічне мастило це високоефективне мастило, призначене для обслуговування надзвичайно складного механічного обладнання (точно не для того, щоб люди послизнулися).
 
-reagent-name-space-glue = space glue
-reagent-desc-space-glue = Space Glue is a high performance glue intended for maintenance of extremely complex mechanical equipment (and certainly not used to make people stick to the floor).
+reagent-name-space-glue = космічний клей
+reagent-desc-space-glue = Космічний клей це високоефективний клей, призначений для обслуговування надзвичайно складного механічного обладнання (точно не для того, щоб люди прилипали до підлоги).

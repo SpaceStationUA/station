@@ -1,10 +1,10 @@
-job-name-gladiator = Gladiator
-job-name-guard = Prison Guard
-job-name-mail-carrier = Courier
-job-name-martialartist =  Martial Artist
-job-name-prisoner = Prisoner
-job-name-mantis = Psionic Mantis
+job-name-gladiator = Гладіатор
+job-name-guard = Охоронець тюрми
+job-name-mail-carrier = Листоноша
+job-name-martialartist =  Майстер бойових мистецтв
+job-name-prisoner = Вʼязень
+job-name-mantis = Псіо-екстрасенс
 
 # Role timers
-JobMailCarrier = Courier
-JobForensicMantis = Psionic Mantis
+JobMailCarrier = Листоноша
+JobForensicMantis = Псіо-екстрасенс

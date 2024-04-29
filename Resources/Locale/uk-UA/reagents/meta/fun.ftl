@@ -1,23 +1,23 @@
-reagent-name-carpetium = carpetium
-reagent-desc-carpetium = A mystical chemical, usually outsourced from the Clown Planet, that covers everything it touches in carpet. Somehow filters out carpotoxin from the blood stream.
+reagent-name-carpetium = карпетій
+reagent-desc-carpetium = Містична хімічна речовина, зазвичай постачається з Планети Клоунів, яка вкриває все, до чого торкається, килимом.
 
-reagent-name-fiber = fiber
-reagent-desc-fiber = A raw material, usually extracted from wool or other fabric products.
+reagent-name-fiber = волокно
+reagent-desc-fiber = Сировина, зазвичай видобувається з вовни або інших тканинних виробів.
 
-reagent-name-buzzochloric-bees = buzzochloric bees
-reagent-desc-buzzochloric-bees = Liquid bees. Oh god it's LIQUID BEES NO-
+reagent-name-buzzochloric-bees = Топлені бджоли
+reagent-desc-buzzochloric-bees = Рідкі бджоли. О Господи, РІДКІ БДЖОЛИ, НІ-
 
-reagent-name-ground-bee = ground Bee
-reagent-desc-ground-bee = Bee grounds. Gross.
+reagent-name-ground-bee = Мелена бджола
+reagent-desc-ground-bee = Мука з бджоли. Гидота.
 
-reagent-name-saxoite = saxoite
-reagent-desc-saxoite = Smells like jazz.
+reagent-name-saxoite = Саксоїд
+reagent-desc-saxoite = Пахне джазом.
 
-reagent-name-licoxide = licoxide
-reagent-desc-licoxide = A synthetic battery acid. It looks... electrifying.
+reagent-name-licoxide = Лікоксид
+reagent-desc-licoxide = Синтетична акумуляторна кислота. Виглядає... електризуюче.
 
-reagent-name-razorium = razorium
-reagent-desc-razorium = A strange, non-newtonian chemical. It is produced when two conflicting brute medications are combined. When force is applied to it, it temporarily hardens creating millions of tiny, sharp edges. Very painful.
+reagent-name-razorium = Розорій
+reagent-desc-razorium = Дивна, неньютонівська хімія. Він утворюється при поєднанні двох протилежних грубих ліків. Коли до нього прикладається сила, він тимчасово твердне, утворюючи мільйони крихітних гострих країв. Дуже болісно.
 
-reagent-name-fresium = Fresium
-reagent-desc-fresium = A mysterious compound that slows the vibration of atoms and molecules... somehow. In layman's terms, it makes things cold... REALLY cold. Can cause long-lasting movement issues if ingested.
+reagent-name-fresium = Фрізіум
+reagent-desc-fresium = Таємнича сполука, яка уповільнює вібрацію атомів і молекул... якось. З точки зору непрофесіонала, це робить речі холодними... ДІЙСНО холодними. При попаданні всередину може викликати тривалі проблеми з рухом.

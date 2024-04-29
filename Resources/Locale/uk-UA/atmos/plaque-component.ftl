@@ -1,11 +1,11 @@
-atmos-plaque-component-desc-zum = This plaque commemorates the rise of the Atmos ZUM division. May they carry the torch that the Atmos ZAS, LINDA and FEA divisions left behind.
-atmos-plaque-component-desc-fea = This plaque commemorates the fall of the Atmos FEA division. For all the charred, dizzy, and brittle men who have died in its hands.
-atmos-plaque-component-desc-linda =This plaque commemorates the fall of the Atmos LINDA division. For all the charred, dizzy, and brittle men who have died in its hands.
-atmos-plaque-component-desc-zas = This plaque commemorates the fall of the Atmos ZAS division. For all the charred, dizzy, and brittle men who have died in its hands.
-atmos-plaque-component-desc-unset = Uhm
+atmos-plaque-component-desc-zum = Ця меморіальна дошка увічнює пам'ять про становлення дивізіону " Atmos ZAS". Нехай вони несуть естафету, яку залишили після себе підрозділи Atmos ZAS, LINDA та FEA.
+atmos-plaque-component-desc-fea = Ця меморіальна дошка вшановує пам'ять загиблих бійців підрозділу ЗРВ "Атмос". Всім обвугленим, запамороченим і тендітним чоловікам, які загинули в його руках.
+atmos-plaque-component-desc-linda = Ця меморіальна дошка присвячена падінню дивізії "Атмос Лінда". Всім обвугленим, запамороченим і тендітним чоловікам, які загинули в його руках.
+atmos-plaque-component-desc-zas = Ця меморіальна дошка вшановує пам'ять загиблих бійців дивізіону "Атмос ЗАС". Всім обвугленим, запамороченим і тендітним чоловікам, які загинули в його руках.
+atmos-plaque-component-desc-unset = Ухм.
 
-atmos-plaque-component-name-zum = ZUM Atmospherics Division plaque
-atmos-plaque-component-name-fea = FEA Atmospherics Division plaque
-atmos-plaque-component-name-linda = LINDA Atmospherics Division plaque
-atmos-plaque-component-name-zas = ZAS Atmospherics Division plaque
-atmos-plaque-component-name-unset = Uhm
+atmos-plaque-component-name-zum = Меморіальна дошка відділу атмосфери ZUM
+atmos-plaque-component-name-fea = Меморіальна дошка відділу атмосфери ЗЕД
+atmos-plaque-component-name-linda = Меморіальна дошка відділу атмосфери ЛІНДА
+atmos-plaque-component-name-zas = Меморіальна дошка Відділу атмосфери ЗАН
+atmos-plaque-component-name-unset = Ухм.

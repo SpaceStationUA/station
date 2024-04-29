@@ -1,10 +1,10 @@
-﻿pirates-title = Privateers
-pirates-description = A group of privateers has approached your lowly station. Hostile or not, their sole goal is to end the round with as many knicknacks on their ship as they can get.
+﻿pirates-title = Пірати
+pirates-description = Група космічних піратів підійшла до вашої беззахисної станції. Ворожі чи ні, їхня єдина мета — завершити раунд із якомога більшою кількістю дрібничок на своєму кораблі.
 
-pirates-no-ship = Through unknown circumstances, the privateer's ship was completely and utterly destroyed. No score.
-pirates-final-score = The privateers successfully obtained {$score} spesos worth
-pirates-final-score-2 = of knicknacks, with a total of {$finalPrice} spesos.
-pirates-list-start = The privateers were:
-pirates-most-valuable = The most valuable stolen items were:
-pirates-stolen-item-entry = {$entity} ({$credits} spesos)
-pirates-stole-nothing = - The pirates stole absolutely nothing at all. Point and laugh.
+pirates-no-ship = За невідомих обставин корабель піратів був повністю знищений. Без грошей(.
+pirates-final-score = Пірати успішно отримали {$score} космічних баксів
+pirates-final-score-2 = дрібниць із загальною ціною {$finalPrice} баксів.
+pirates-list-start = Піратами були:
+pirates-most-valuable = Найціннішими викраденими речами стали:
+pirates-stolen-item-entry = {$entity} ({$credits} космічних баксів)
+pirates-stole-nothing = - Пірати нічого не вкрали. Посмійтеся над ними!

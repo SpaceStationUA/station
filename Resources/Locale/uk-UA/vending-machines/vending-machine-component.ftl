@@ -1,6 +1,6 @@
 ##  VendingMachineComponent
 
-vending-machine-component-try-eject-invalid-item = Невірний предмет
-vending-machine-component-try-eject-out-of-stock = Скінчилось
-vending-machine-component-try-eject-access-denied = Нема доступу
+vending-machine-component-try-eject-invalid-item = Недійсний товар
+vending-machine-component-try-eject-out-of-stock = Немає в наявності
+vending-machine-component-try-eject-access-denied = Відмовлено в доступі
 vending-machine-component-search-filter = Пошук...

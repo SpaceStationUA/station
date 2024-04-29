@@ -24,21 +24,22 @@ trait-uncloneable-name = Неклонований
 trait-uncloneable-desc = Не можна клонувати
 
 trait-pirate-accent-name = Піратський акцент
-trait-pirate-accent-desc = You can't stop speaking like a pirate!
+trait-pirate-accent-desc = Ти не можеш перестати говорити як пірат!
 
 trait-archaic-accent-name = Архаїчний акцент
 trait-archaic-accent-desc = You speak in a way that many others find outdated
 
 trait-accentless-name = Без акценту
-trait-accentless-desc = You don't have the accent that your species would usually have
+trait-accentless-desc = У вас немає акценту, який зазвичай притаманний вашому виду
 
 trait-wheelchair-bound-name = На візку
 trait-wheelchair-bound-desc = Ви не можете пересуватись без візку. Візок у вас буде.
-trait-frontal-lisp-name = Frontal Lisp
-trait-frontal-lisp-desc = You thpeak with a lithp
 
-trait-socialanxiety-name = Social Anxiety
-trait-socialanxiety-desc = You are anxious when you speak and stutter.
+trait-frontal-lisp-name = Лобова шепелявість
+trait-frontal-lisp-desc = Ви тросески сепелявите
+
+trait-socialanxiety-name = Соціальна тривожність
+trait-socialanxiety-desc = Ви хвилюєтеся, коли говорите і заїкаєтесь.
 
 
 trait-goblin-accent-name = Гоблін кант

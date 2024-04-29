@@ -1,9 +1,9 @@
-bluespace-artifact-event-announcement = Our readings have detected an incoming object of alien origin. Please inform the research team of { $sighting }.
+bluespace-artifact-event-announcement = Наші прилади зафіксували вхідний аномальний об'єкт. Будь ласка, повідомте науковий відділ про { $sighting }.
 
-bluespace-artifact-sighting-1 = bright flashes of light
-bluespace-artifact-sighting-2 = strange sounds coming from maintenance tunnels
-bluespace-artifact-sighting-3 = otherworldly structures
-bluespace-artifact-sighting-4 = incomprehensible alien objects
-bluespace-artifact-sighting-5 = unfamiliar objects in strange places
-bluespace-artifact-sighting-6 = unknown alien artifacts
-bluespace-artifact-sighting-7 = explosions of light accompanied by weird sounds
+bluespace-artifact-sighting-1 = яскраві спалахи світла
+bluespace-artifact-sighting-2 = дивні звуки, що доносяться з технічних тунелів
+bluespace-artifact-sighting-3 = потойбічні споруди
+bluespace-artifact-sighting-4 = незрозумілі інопланетні об'єкти
+bluespace-artifact-sighting-5 = незнайомі предмети в дивних місцях
+bluespace-artifact-sighting-6 = невідомі інопланетні артефакти
+bluespace-artifact-sighting-7 = вибухи світла, що супроводжуються дивними звуками

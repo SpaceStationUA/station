@@ -1,11 +1,11 @@
 ## Entity
 
-reagent-dispenser-component-activate-no-hands = У вас нема рук.
-reagent-dispenser-component-cannot-put-entity-message = Ви не можете вставити це у дозатор!
+reagent-dispenser-component-activate-no-hands = У вас немає рук.
+reagent-dispenser-component-cannot-put-entity-message = Ви не можете покласти це в диспенсер!
 
 ## Bound UI
 
-reagent-dispenser-bound-user-interface-title = Дозатор реагентів
+reagent-dispenser-bound-user-interface-title = Диспенсер реагентів
 
 ## UI
 
@@ -14,6 +14,6 @@ reagent-dispenser-window-container-label = Ємність:
 reagent-dispenser-window-clear-button = Очистити
 reagent-dispenser-window-eject-button = Дістати
 reagent-dispenser-window-no-container-loaded-text = Контейнер не завантажено.
-reagent-dispenser-window-reagent-name-not-found-text = Реагент з цією назвою не знайдено
-reagent-dispenser-window-unknown-reagent-text = невідомий реагент
+reagent-dispenser-window-reagent-name-not-found-text = Назву реагенту не знайдено
+reagent-dispenser-window-unknown-reagent-text = Невідомий реагент
 reagent-dispenser-window-quantity-label-text = {$quantity}u
