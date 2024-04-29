@@ -58,7 +58,7 @@ public sealed class ShadowkinRestSystem : EntitySystem
         if (component.IsResting)
         {
             // Sleepy time
-            _entity.EnsureComponent<ForcedSleepingComponent>(args.Performer);
+            _entity.EnsureComponent<SleepingComponent>(args.Performer);
             // No waking up normally (it would do nothing)
             // _actions.RemoveAction(uid, component.RestActionEntity);
             // _actions.RemoveAction(args.Performer, new InstantAction(_prototype.Index<InstantActionPrototype>("Wake")));

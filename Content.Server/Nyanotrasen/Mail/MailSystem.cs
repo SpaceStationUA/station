@@ -11,7 +11,6 @@ using Content.Server.Cargo.Systems;
 using Content.Server.Chat.Systems;
 using Content.Server.Chemistry.Containers.EntitySystems;
 using Content.Server.Chemistry.EntitySystems;
-using Content.Server.Chemistry.Containers.EntitySystems;
 using Content.Server.Damage.Components;
 using Content.Server.Destructible;
 using Content.Server.Destructible.Thresholds;
@@ -127,8 +126,8 @@ namespace Content.Server.Mail
                 return;
             }
 
-            if (!HasComp<StationMailRouterComponent>(station))
-                return;
+            // if (!HasComp<StationMailRouterComponent>(station))
+            //     return;
 
             AddComp<MailReceiverComponent>(args.SpawnResult.Value);
         }

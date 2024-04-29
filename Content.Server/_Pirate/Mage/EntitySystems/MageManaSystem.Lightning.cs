@@ -1,10 +1,13 @@
 using Content.Server.Magic;
-using Content.Server.Pulling;
+// using Content.Server.Pulling;
 using Content.Shared.Actions;
 using Content.Shared.Actions.ActionTypes;
 using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
-using Content.Shared.Pulling.Components;
+// using Content.Shared.Pulling.Components;
+using Content.Shared.Movement.Pulling.Components;
+using Content.Shared.Movement.Pulling.Systems;
+using Content.Shared.Movement.Pulling;
 using Content.Shared.Storage.Components;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
@@ -54,14 +57,14 @@ public sealed class MageLightningSystem : EntitySystem
 
     }
 
-    
+
 
     private void OnLightningSpell(MageLightningSpellEvent args)
     {
         if (!_entity.TryGetComponent<MageComponent>(args.Performer, out var comp) || // Not a Mage
             _entity.TryGetComponent<HandcuffComponent>(args.Performer, out var cuffs)) // Inside an entity storage
             return;
-        
+
         if (args.Handled)
             return;
         if (!_mana.TryUseAbility(args.Performer, comp, args.ManaCost))

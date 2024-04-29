@@ -20,6 +20,8 @@ using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Content.Shared.Ghost;
 using Robust.Shared.Prototypes;
+using Content.Shared.NPC.Components;
+using Content.Shared.NPC.Systems;
 
 namespace Content.Server.SimpleStation14.Species.Shadowkin.Systems;
 
@@ -36,7 +38,7 @@ public sealed class ShadowkinDarkSwapSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototype = default!;
     [Dependency] private readonly MagicSystem _magic = default!;
     [Dependency] private readonly NpcFactionSystem _factions = default!;
-    
+
     [Dependency] private readonly SharedEyeSystem _eye = default!;
 
     public override void Initialize()
@@ -54,7 +56,7 @@ public sealed class ShadowkinDarkSwapSystem : EntitySystem
 
 
     private void Startup(EntityUid uid, ShadowkinDarkSwapPowerComponent component, ComponentStartup args)
-    {    
+    {
         _actions.AddAction(uid, ref component.DarkSwapActionEntity, component.DarkSwapAction);
 
         // _actions.AddAction(uid, new InstantAction(_prototype.Index<InstantActionPrototype>("ShadowkinDarkSwap")), null);
@@ -289,14 +291,14 @@ public sealed class ShadowkinDarkSwapSystem : EntitySystem
                 _factions.RemoveFaction(uid, faction);
 
             // Add status factions for The Dark to the entity
-            foreach (var faction in component.AddedFactions)
-                _factions.AddFaction(uid, faction);
+            // foreach (var faction in component.AddedFactions)
+            //     _factions.AddFaction(uid, faction);
         }
         else
         {
             // Remove the status factions from the entity
-            foreach (var faction in component.AddedFactions)
-                _factions.RemoveFaction(uid, faction);
+            // foreach (var faction in component.AddedFactions)
+            //     _factions.RemoveFaction(uid, faction);
 
             // Add the factions back to the entity
             foreach (var faction in component.SuppressedFactions)

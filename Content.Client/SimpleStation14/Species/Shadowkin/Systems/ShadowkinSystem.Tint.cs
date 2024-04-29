@@ -4,9 +4,11 @@ using Robust.Shared.Player;
 using Content.Client.SimpleStation14.Overlays;
 using Content.Client.SimpleStation14.Overlays.Shaders;
 using Content.Shared.SimpleStation14.Species.Shadowkin.Components;
+using Content.Shared.DeltaV.CCVars;
 using Robust.Client.GameObjects;
 using Content.Shared.GameTicking;
 using Content.Shared.Humanoid;
+using Robust.Shared.Configuration;
 
 namespace Content.Client.SimpleStation14.Species.Shadowkin.Systems;
 
@@ -15,6 +17,7 @@ public sealed class ShadowkinTintSystem : EntitySystem
     [Dependency] private readonly IPlayerManager _player = default!;
     [Dependency] private readonly IOverlayManager _overlay = default!;
     [Dependency] private readonly IEntityManager _entity = default!;
+    [Dependency] private readonly IConfigurationManager _cfg = default!;
 
     private ColorTintOverlay _tintOverlay = default!;
 
@@ -101,6 +104,7 @@ public sealed class ShadowkinTintSystem : EntitySystem
         {
             _overlay.RemoveOverlay(_tintOverlay);
         }
+        if (_cfg.GetCVar(DCCVars.NoVisionFilters)) return;
 
         if (color != null)
             _tintOverlay.TintColor = color;

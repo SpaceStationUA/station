@@ -47,6 +47,7 @@
   components:
   - type: InstantAction
     checkCanInteract: false
+    checkConsciousness: false
     icon: Interface/Actions/zombie-turn.png
     event: !type:ZombifySelfActionEvent
 
@@ -58,7 +59,7 @@
   components:
   - type: InstantAction
     icon: { sprite: Objects/Tools/flashlight.rsi, state: flashlight }
-    iconOn: Objects/Tools/flashlight.rsi/flashlight-on.png
+    iconOn: { sprite: Objects/Tools/flashlight.rsi, state: flashlight-on }
     event: !type:ToggleActionEvent
 
 - type: entity
@@ -94,6 +95,7 @@
   components:
   - type: InstantAction
     checkCanInteract: false
+    checkConsciousness: false
     itemIconStyle: BigAction
     priority: -20
     icon:
@@ -110,6 +112,7 @@
   components:
   - type: InstantAction
     checkCanInteract: false
+    checkConsciousness: false
     itemIconStyle: BigAction
     priority: -20
     icon:
@@ -171,6 +174,7 @@
   noSpawn: true
   components:
   - type: InstantAction
+    checkCanInteract: false
     charges: 2
     useDelay: 5
     itemIconStyle: BigAction
@@ -214,6 +218,7 @@
   components:
   - type: InstantAction
     checkCanInteract: false
+    checkConsciousness: false
     icon: Interface/Actions/harmOff.png
     iconOn: Interface/Actions/harm.png
     event: !type:ToggleCombatActionEvent
@@ -284,6 +289,7 @@
   - type: InstantAction
     clientExclusive: true
     checkCanInteract: false
+    checkConsciousness: false
     temporary: true
     icon: { sprite: Objects/Tools/multitool.rsi, state: icon }
     event: !type:ClearAllOverlaysEvent
@@ -307,6 +313,7 @@
   components:
   - type: InstantAction
     checkCanInteract: false
+    checkConsciousness: false
     icon: { sprite: Clothing/Head/Hats/pyjamasyndicatered.rsi, state: icon }
     event: !type:SleepActionEvent
 
@@ -319,6 +326,7 @@
   - type: InstantAction
     icon: { sprite: Clothing/Head/Hats/pyjamasyndicatered.rsi, state: icon }
     checkCanInteract: false
+    checkConsciousness: false
     event: !type:WakeActionEvent
 
 - type: entity
@@ -356,6 +364,7 @@
     event: !type:ToggleEyesActionEvent
     useDelay: 1 # so u cant give yourself and observers eyestrain by rapidly spamming the action
     checkCanInteract: false
+    checkConsciousness: false
 
 - type: entity
   id: ActionToggleWagging

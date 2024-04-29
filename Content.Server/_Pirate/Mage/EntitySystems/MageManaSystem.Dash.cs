@@ -1,10 +1,13 @@
 using Content.Server.Magic;
-using Content.Server.Pulling;
+// using Content.Server.Pulling;
 using Content.Shared.Actions;
 using Content.Shared.Actions.ActionTypes;
 using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
-using Content.Shared.Pulling.Components;
+// using Content.Shared.Pulling.Components;
+using Content.Shared.Movement.Pulling.Components;
+using Content.Shared.Movement.Pulling.Systems;
+using Content.Shared.Movement.Pulling;
 using Content.Shared.Storage.Components;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
@@ -59,20 +62,21 @@ public sealed class MageDashSystem : EntitySystem
         if (!_mana.TryUseAbility(args.Performer, comp, args.ManaCost))
             return;
 
-        SharedPullableComponent? pullable = null; // To avoid "might not be initialized when accessed" warning
-        if (_entity.TryGetComponent<SharedPullerComponent>(args.Performer, out var puller) &&
+        PullableComponent? pullable = null; // To avoid "might not be initialized when accessed" warning
+        if (_entity.TryGetComponent<PullerComponent>(args.Performer, out var puller) &&
             puller.Pulling != null &&
-            _entity.TryGetComponent<SharedPullableComponent>(puller.Pulling, out pullable) &&
+            _entity.TryGetComponent<PullableComponent>(puller.Pulling, out pullable) &&
             pullable.BeingPulled)
-        
+
             // Temporarily stop pulling to avoid not teleporting fully to the target
-            _pulling.TryStopPull(pullable);
-        
+            if (puller.Pulling != null)
+                _pulling.TryStopPull(puller.Pulling.Value, pullable, user: args.Performer);
+
         // Teleport the performer to the target
         _transform.SetCoordinates(args.Performer, args.Target);
         _transform.AttachToGridOrMap(args.Performer, transform);
 
-        if (pullable != null && puller != null)
+        if (pullable != null && puller != null && pullable.Puller != null && puller.Pulling != null)
         {
             // Get transform of the pulled entity
             var pulledTransform = Transform(pullable.Owner);
@@ -84,7 +88,7 @@ public sealed class MageDashSystem : EntitySystem
 
             // Resume pulling
             // TODO: This does nothing? // This does things sometimes, but the client never knows
-            _pulling.TryStartPull(puller, pullable);
+            _pulling.TryStartPull(puller.Pulling.Value, pullable.Puller.Value);
         }
 
         // Play the teleport sound
