@@ -21,10 +21,11 @@
       - id: ClothingOuterHardsuitCombatWarden # DeltaV - ClothingOuterHardsuitWarden replaced in favour of warden's riot combat hardsuit.
       - id: HoloprojectorSecurity
       - id: ClothingEyesHudSecurity
+      - id: ClothingEyesGlassesShadowkinDarkWindow
       - id: BoxPDAPrisoner # Delta-V
       - id: ClothingShoesBootsWinterWarden #Delta V: Add departmental winter boots
       - id: BoxEncryptionKeyPrisoner #Delta-V
-      
+
 - type: entity
   id: LockerWardenFilled
   suffix: Filled
@@ -47,6 +48,7 @@
       - id: DoorRemoteArmory
       - id: HoloprojectorSecurity
       - id: ClothingEyesHudSecurity
+      - id: ClothingEyesGlassesShadowkinDarkWindow
       - id: BoxPDAPrisoner # Delta-V
       - id: ClothingShoesBootsWinterWarden #Delta V: Add departmental winter boots
       - id: BoxEncryptionKeyPrisoner #Delta-V
@@ -91,6 +93,7 @@
       - id: WeaponMeleeNeedle
         prob: 0.1
       - id: ClothingEyesHudSecurity
+      - id: ClothingEyesGlassesShadowkinDarkWindow
       - id: HoloprojectorSecurity
         prob: 0.6
 
@@ -102,6 +105,7 @@
   - type: StorageFill
     contents:
       - id: ClothingEyesHudSecurity
+      - id: ClothingEyesGlassesShadowkinDarkWindow
       - id: WeaponDisabler
       - id: TrackingImplanter
         amount: 2
@@ -140,6 +144,7 @@
   - type: StorageFill
     contents:
       - id: ClothingEyesHudSecurity
+      - id: ClothingEyesGlassesShadowkinDarkWindow
       - id: WeaponDisabler
       - id: TrackingImplanter
         amount: 2
@@ -172,6 +177,7 @@
     contents:
       - id: ClothingEyesHudSecurity
         prob: 0.3
+      - id: ClothingEyesGlassesShadowkinDarkWindow
       - id: ClothingHeadHatFedoraBrown
       - id: ClothingNeckTieDet
       - id: ClothingOuterVestDetective
