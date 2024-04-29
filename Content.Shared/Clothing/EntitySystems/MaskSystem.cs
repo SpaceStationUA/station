@@ -79,9 +79,6 @@ public sealed class MaskSystem : EntitySystem
         if (TryComp<DiseaseProtectionComponent>(uid, out var diseaseProtection))
             diseaseProtection.IsActive = !mask.IsToggled;
         RaiseLocalEvent(wearer, ref wearerEv);
-        // toggle disease protection
-        if (TryComp<DiseaseProtectionComponent>(uid, out var diseaseProtection))
-            diseaseProtection.IsActive = !mask.IsToggled;
 
     }
 

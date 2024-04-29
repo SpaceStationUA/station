@@ -332,10 +332,6 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         }
 
         humanoid.Age = profile.Age;
-        // Parkstation-HeightSlider Start
-		humanoid.Height = profile.Height;
-        _heightAdjust.SetScale(uid, profile.Height);
-        // Parkstation-HeightSlider End
 
 
         // Parkstation-CharacterInformation-Start

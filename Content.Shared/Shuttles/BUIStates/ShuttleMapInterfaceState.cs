@@ -1,6 +1,5 @@
 using Content.Shared.Shuttles.Systems;
 using Content.Shared.Shuttles.UI.MapObjects;
-using Content.Shared.Timing;
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Shuttles.BUIStates;
@@ -17,9 +16,9 @@ public sealed class ShuttleMapInterfaceState
     public readonly FTLState FTLState;
 
     /// <summary>
-    /// When the current FTL state starts and ends.
+    /// How long the FTL state takes.
     /// </summary>
-    public StartEndTime FTLTime;
+    public float FTLDuration;
 
     public List<ShuttleBeaconObject> Destinations;
 
@@ -27,12 +26,12 @@ public sealed class ShuttleMapInterfaceState
 
     public ShuttleMapInterfaceState(
         FTLState ftlState,
-        StartEndTime ftlTime,
+        float ftlDuration,
         List<ShuttleBeaconObject> destinations,
         List<ShuttleExclusionObject> exclusions)
     {
         FTLState = ftlState;
-        FTLTime = ftlTime;
+        FTLDuration = ftlDuration;
         Destinations = destinations;
         Exclusions = exclusions;
     }
