@@ -177,6 +177,19 @@
         - id: SpeedLoaderMagnumRubber
 
 - type: entity
+  id: ClothingBeltSecurityBlueshieldFilled
+  parent: ClothingBeltSecurity
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+      - id: GrenadeFlashBang
+      - id: GrenadeFlashBang
+      - id: Stunbaton
+      - id: Handcuffs
+      - id: Handcuffs
+
+- type: entity
   id: ClothingBeltChefFilled
   parent: ClothingBeltChef
   suffix: Filled

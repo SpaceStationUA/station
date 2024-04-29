@@ -1084,3 +1084,17 @@
     sprite: Clothing/Head/Hats/beret_medic.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/beret_medic.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretBlueshield
+  name: blueshield beret
+  description: Стоїть на захисті твого ніжного волосся.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Tag
+    tags:
+    - ClothMade

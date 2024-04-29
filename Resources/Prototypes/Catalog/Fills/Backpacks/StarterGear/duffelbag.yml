@@ -263,3 +263,16 @@
     - type: StorageFill
       contents:
         - id: BoxSurvival
+
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackDuffelBlueshield
+  id: ClothingBackpackDuffelBlueshieldFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalSecurity
+      - id: MedkitAdvancedFilled
+      - id: HandheldCrewMonitor
+      - id: Flash
+      - id: WeaponDisabler

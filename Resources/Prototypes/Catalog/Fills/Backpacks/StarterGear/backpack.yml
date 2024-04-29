@@ -318,6 +318,18 @@
         - id: CrowbarRed
         - id: AdvMopItem
 
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackBlueshield
+  id: ClothingBackpackBlueshieldFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalSecurity
+      - id: MedkitAdvancedFilled
+      - id: HandheldCrewMonitor
+      - id: Flash
+
 # Death Squad
 
 - type: entity

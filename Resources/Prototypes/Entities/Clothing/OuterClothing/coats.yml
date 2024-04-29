@@ -409,3 +409,14 @@
     sprite: Clothing/OuterClothing/Coats/expensive_coat.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Coats/expensive_coat.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatBlueshield
+  name: blueshield coat
+  description: Знехтуйте своєю безпекою заради кишень для цигарок!
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Coats/blueshield_coat.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Coats/blueshield_coat.rsi

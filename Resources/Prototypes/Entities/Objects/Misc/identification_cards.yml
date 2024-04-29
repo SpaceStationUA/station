@@ -857,3 +857,17 @@
     - state: idseniorofficer
   - type: PresetIdCard
     job: SeniorOfficer
+
+- type: entity
+  parent: IDCardStandard
+  id: BlueshieldIDCard
+  name: Blueshield ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: special
+        - state: idblueshield
+    - type: Item
+      heldPrefix: special
+    - type: PresetIdCard
+      job: Blueshield

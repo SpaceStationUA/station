@@ -279,6 +279,19 @@
 
 - type: entity
   noSpawn: true
+  parent: ClothingBackpackSatchelBlueshield
+  id: ClothingBackpackSatchelBlueshieldFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvivalSecurity
+      - id: MedkitAdvancedFilled
+      - id: HandheldCrewMonitor
+      - id: Flash
+      - id: WeaponDisabler
+
+- type: entity
+  noSpawn: true
   parent: ClothingBackpackSatchelHolding
   id: ClothingBackpackSatchelHoldingAdmin
   components:

@@ -167,6 +167,69 @@
           Special: { state: mode-stun } # Unused
 
 - type: entity
+  name: advanced energy revolver
+  parent: BaseWeaponBatterySmall
+  id: WeaponEnergyGunAdvancedRevolver
+  description: A light version of the Energy gun with a smaller capacity.
+  components:
+  - type: Sprite
+    sprite: DeltaV/Objects/Weapons/Guns/Battery/advanced_revolver.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mode-disabler
+      shader: unshaded
+      map: [ "Firemode" ]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: DeltaV/Objects/Weapons/Guns/Battery/advanced_revolver.rsi
+  - type: Gun
+    soundGunshot:
+      path: /Audio/DeltaV/Weapons/Guns/Gunshots/laser.ogg
+    soundEmpty:
+      path: /Audio/DeltaV/Weapons/Guns/Empty/dry_fire.ogg
+  - type: Battery
+    maxCharge: 2000
+    startingCharge: 2000
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletDisabler
+    fireCost: 100
+  - type: EnergyGun
+    fireModes:
+    - proto: BulletDisabler
+      fireCost: 100
+      name: disable
+      state: disabler
+    - proto: BulletEnergyGunLaser
+      fireCost: 200
+      name: lethal
+      state: lethal
+    # - proto: BulletEnergyGunIon
+    #   fireCost: 500
+    #   name: ion
+    #   state: special
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.EnergyGunFireModeVisuals.State:
+        Firemode:
+          Disabler: { state: mode-disabler }
+          Lethal: { state: mode-lethal }
+          Special: { state: mode-ion }
+  - type: Tag
+    tags:
+    - HighRiskItem
+    - Sidearm
+  - type: StaticPrice
+    price: 750
+
+- type: entity
   name: PDW-9 Energy Pistol
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyGunPistol

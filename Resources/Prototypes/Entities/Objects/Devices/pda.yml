@@ -1136,3 +1136,18 @@
       whitelist:
         components:
           - Cartridge
+
+- type: entity
+  parent: BasePDA
+  id: BlueshieldPDA
+  name: blueshield PDA
+  description: Коштує дорожче ніж ви, сер.
+  components:
+  - type: Pda
+    id: BlueshieldIDCard
+    state: pda-blueshield
+  - type: PdaBorderColor
+    borderColor: "#004281"
+    accentHColor: "#001932"
+  - type: Icon
+    state: pda-blueshield
