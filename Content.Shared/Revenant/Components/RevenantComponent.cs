@@ -10,13 +10,15 @@ using Content.Shared.Disease;
 namespace Content.Shared.Revenant.Components;
 
 [RegisterComponent, NetworkedComponent]
+[AutoGenerateComponentState]
 public sealed partial class RevenantComponent : Component
 {
     /// <summary>
     /// The total amount of Essence the revenant has. Functions
     /// as health and is regenerated.
     /// </summary>
-    [ViewVariables(VVAccess.ReadWrite)]
+    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    [AutoNetworkedField]
     public FixedPoint2 Essence = 75;
 
     [DataField("stolenEssenceCurrencyPrototype", customTypeSerializer: typeof(PrototypeIdSerializer<CurrencyPrototype>))]
