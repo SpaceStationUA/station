@@ -1,0 +1,229 @@
+# - type: entity
+#   id: BaseWeaponPowerCell
+#   parent: BaseItem
+#   abstract: true
+#   components:
+#   - type: Sprite
+#   - type: Item
+#     size: 40
+#   - type: AmmoCounter
+#   # - type: Wieldable
+#   # - type: GunWieldBonus
+#   #   minAngle: -34
+#   #   maxAngle: -63
+#   - type: Gun
+#     # minAngle: 35
+#     # maxAngle: 65
+#     # angleIncrease: 4
+#     # angleDecay: 16
+#     fireRate: 2
+#     selectedMode: SemiAuto
+#     availableModes:
+#     - SemiAuto
+#     soundGunshot:
+#       path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+#   - type: MagazineAmmoProvider
+#   - type: ItemSlots
+#     slots:
+#       gun_magazine:
+#         name: Magazine
+#         startingItem: PowerCellSmall
+#         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+#         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+#         whitelist:
+#           tags:
+#             - PowerCell
+#             - PowerCellSmall
+#   - type: Appearance
+#   - type: StaticPrice
+#     price: 500
+#   - type: ContainerContainer
+#     containers:
+#       gun_magazine: !type:ContainerSlot
+
+# - type: entity
+#   id: BaseWeaponPowerCellSmall
+#   parent: BaseWeaponPowerCell
+#   abstract: true
+#   components:
+#   - type: Item
+#     size: 10
+#   - type: Tag
+#     tags:
+#     - Sidearm
+#   - type: Clothing
+#     sprite: Objects/Weapons/Guns/Battery/taser.rsi
+#     quickEquip: false
+#     slots:
+#     - Belt
+
+- type: entity
+  id: BaseWeaponPowerCellMedium
+  parent: BaseWeaponPowerCell
+  abstract: true
+  components:
+  - type: Item
+    size: Huge
+  - type: Tag
+    tags:
+    - Sidearm
+  - type: Clothing
+    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    quickEquip: false
+    slots:
+    - Belt
+
+- type: entity
+  name: плазмовий пістолет
+  parent: BaseWeaponPowerCellSmall
+  id: N14WeaponPlasmaPistol
+  description: A highly advanced plasma pistol.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Weapons/Guns/Battery/plasma_pistol.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _Pirate/Objects/Weapons/Guns/Battery/plasma_pistol.rsi
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: PowerCellMedium
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        whitelist:
+          tags:
+            - PowerCellMedium
+            - PowerCell
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Gun
+    soundGunshot:
+      path: /Audio/Weapons/plasma_cutter.ogg
+
+- type: entity
+  name: плазмова гвинтівка
+  parent: BaseWeaponPowerCellMedium
+  id: N14WeaponPlasmaRifle
+  description: A highly advanced plasma rifle.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Weapons/Guns/Battery/plasma_rifle.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _Pirate/Objects/Weapons/Guns/Battery/plasma_rifle.rsi
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: PowerCellMedium
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        whitelist:
+          tags:
+            - PowerCellMedium
+            - PowerCell
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Gun
+    fireRate: 3
+    soundGunshot:
+      path: /Audio/Weapons/plasma_cutter.ogg
+    availableModes:
+      - SemiAuto
+      - FullAuto
+
+
+- type: entity
+  name: сучасна плазмова гвинтівка
+  parent: BaseWeaponPowerCellMedium
+  id: N14WeaponUrbanPlasmaRifle
+  description: A mass produced pre war plasma rifle designed for close quarters combat in urban environments.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Weapons/Guns/Battery/plasma_urban.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _Pirate/Objects/Weapons/Guns/Battery/plasma_urban.rsi
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: PowerCellMedium
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        whitelist:
+          tags:
+            - PowerCellMedium
+            - PowerCell
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Gun
+    fireRate: 3
+    soundGunshot:
+      path: /Audio/Weapons/plasma_cutter.ogg
+    availableModes:
+      - SemiAuto
+      - FullAuto
+
+- type: entity
+  name: мультиплазм
+  parent: BaseWeaponPowerCellMedium
+  id: N14WeaponMultiplas
+  description: A modified urban plasma rifle, it spreads the plasma into multiple projectiles but sacrifices accuracy.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Weapons/Guns/Battery/multiplas.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-4
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Clothing
+    sprite: _Pirate/Objects/Weapons/Guns/Battery/multiplas.rsi
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: PowerCellMedium
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        whitelist:
+          tags:
+            - PowerCellMedium
+            - PowerCell
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: Gun
+    fireRate: 3
+    soundGunshot:
+      path: /Audio/Weapons/plasma_cutter.ogg
+    count: 3
+    spread: 10
+    availableModes:
+      - SemiAuto
+      - FullAuto

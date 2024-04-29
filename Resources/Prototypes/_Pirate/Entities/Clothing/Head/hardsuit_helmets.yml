@@ -1,0 +1,131 @@
+#Sons of Mars Hardsuit
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitMars
+  name: Mars sons hardsuit helmet
+  description: A heavily armored helmet designed for work in special operations. Mars sons Property.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hardsuits/mars.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hardsuits/mars.rsi
+  - type: PointLight
+    # color: green
+    color: "#ffefad"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Mars Elite Hardsuit
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitMarsElite
+  name: mars elite helmet
+  description: An elite version of the mars hardsuit's helmet, with improved armor and fireproofing. Sons of Mars property.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hardsuits/marselite.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hardsuits/marselite.rsi
+  - type: PointLight
+    color: "#ffefad"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.005
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: DiseaseProtection
+    protection: 0.25
+
+#Mars Commander Hardsuit
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitMarsCommander
+  name: mars commander helmet
+  description: A bulked up version of the mars hardsuit's helmet, purpose-built for the commander of a Mars sons operative squad. Has significantly improved armor for those deadly front-lines firefights.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hardsuits/marscommander.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hardsuits/marscommander.rsi
+  - type: PointLight
+    color: "#ffefad"
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: DiseaseProtection
+    protection: 0.25
+
+#Mars Juggernaut Hardsuit
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitMarsJugger
+  name: mars juggernaut helmet
+  description: Made of compressed orage matter, this helmet was designed in the Mars chromosphere facility.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hardsuits/marsjugger.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hardsuits/marsjugger.rsi
+  - type: PointLight
+    color: "#ffefad"
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+#Mard Special Hardsuit
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitMarsSpecial
+  name: mars special hardsuit helmet
+  description: A bizarre gem-encrusted helmet that radiates magical energies.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hardsuits/marsspecial.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hardsuits/marsspecial.rsi
+  - type: PointLight
+    color: "#ffadfb"
+  - type: PressureProtection
+    highPressureMultiplier: 0.27
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
