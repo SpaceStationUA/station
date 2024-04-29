@@ -1,0 +1,13 @@
+- type: listing
+  id: UplinkRatvarianSpear
+  name: Спис Ратвара
+  description: Спис давнього культу Ратвара, знайдений архіологами Синдикату
+  productEntity: RatvarianSpear
+  cost:
+    Telecrystal: 6
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerJobCondition
+    whitelist:
+    - Chaplain
