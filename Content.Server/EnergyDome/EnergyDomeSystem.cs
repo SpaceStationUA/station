@@ -180,7 +180,7 @@ public sealed partial class EnergyDomeSystem : EntitySystem
             {
                 _battery.UseCharge(cell.Owner, energyLeak);
 
-                if (cell.Charge == 0)
+                if (cell.CurrentCharge == 0)
                     TurnOff((generatorUid, generatorComp), true);
             }
         }
@@ -189,7 +189,7 @@ public sealed partial class EnergyDomeSystem : EntitySystem
         if (TryComp<BatteryComponent>(generatorUid, out var battery)) {
             _battery.UseCharge(generatorUid, energyLeak);
 
-            if (battery.Charge == 0)
+            if (battery.CurrentCharge == 0)
                 TurnOff((generatorUid, generatorComp), true);
         }
     }
@@ -245,7 +245,7 @@ public sealed partial class EnergyDomeSystem : EntitySystem
 
         if (TryComp<BatteryComponent>(generator, out var battery))
         {
-            if (battery.Charge == 0)
+            if (battery.CurrentCharge == 0)
             {
                 _audio.PlayPvs(generator.Comp.TurnOffSound, generator);
                 _popup.PopupEntity(

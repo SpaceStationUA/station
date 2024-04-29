@@ -13,6 +13,7 @@ public abstract class SharedStationSpawningSystem : EntitySystem
 {
     [Dependency] protected readonly InventorySystem InventorySystem = default!;
     [Dependency] private   readonly SharedHandsSystem _handsSystem = default!;
+    // [Dependency] private readonly SharedContainerSystem _containerSystem = default!;
 
     /// <summary>
     /// Equips starting gear onto the given entity.
@@ -59,7 +60,8 @@ public abstract class SharedStationSpawningSystem : EntitySystem
                     foreach (var key in defaultKeys)
                     {
                         var keyEntity = Spawn(key, Transform(entity).Coordinates);
-                        keyHolderComp.KeyContainer.Insert(keyEntity, force: true);
+                        // keyHolderComp.KeyContainer.Insert(keyEntity, force: true);
+                        // _containerSystem.Insert(keyEntity, keyHolderComp.KeyContainer);
                     }
                 }
 

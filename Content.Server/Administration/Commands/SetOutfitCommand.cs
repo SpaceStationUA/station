@@ -22,6 +22,7 @@ namespace Content.Server.Administration.Commands
     public sealed class SetOutfitCommand : IConsoleCommand
     {
         [Dependency] private readonly IEntityManager _entities = default!;
+        // [Dependency] private readonly SharedContainerSystem _containerSystem = default!;
 
         public string Command => "setoutfit";
 
@@ -151,7 +152,9 @@ namespace Content.Server.Administration.Commands
                         foreach (var key in defaultKeys)
                         {
                             var keyEntity = entityManager.SpawnEntity(key, entityManager.GetComponent<TransformComponent>(target).Coordinates);
-                            keyHolderComp.KeyContainer.Insert(keyEntity, force: true);
+                            // keyHolderComp.KeyContainer.Insert(keyEntity, force: true);
+                            // _containerSystem.Insert(keyEntity, keyHolderComp.KeyContainer);
+
                         }
                     }
 

@@ -4,6 +4,7 @@ using System.Numerics;
 using Content.Client.Guidebook;
 using System.Text;
 using System.Text.RegularExpressions;
+using Content.Client.Guidebook;
 using Content.Client.Humanoid;
 using Content.Client.Lobby.UI;
 using Content.Client.Message;

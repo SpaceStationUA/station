@@ -114,7 +114,7 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
 
         _sawmill.Info($"Shuttle {shuttlePath} was purchased at {ToPrettyString((EntityUid) stationUid)} for {price:f2}");
         //can do TryFTLDock later instead if we need to keep the shipyard map paused
-        _shuttle.FTLTravel(shuttleGrid.Value, shuttle, targetGrid.Value, 0f, 15f, true);
+        _shuttle.FTLToDock(shuttleGrid.Value, shuttle, targetGrid.Value, 0f, 15f);
 
         return true;
     }
@@ -189,11 +189,11 @@ public sealed partial class ShipyardSystem : SharedShipyardSystem
         var shuttleDocks = _docking.GetDocks(shuttleUid);
         var isDocked = false;
 
-        foreach (var shuttleDock in shuttleDocks)
+        foreach (var (dockUid, shuttleDock) in shuttleDocks)
         {
-            foreach (var gridDock in gridDocks)
+            foreach (var (gridUi, gridDock) in gridDocks)
             {
-                if (shuttleDock.Component.DockedWith == gridDock.Uid)
+                if (shuttleDock.DockedWith == gridUi)
                 {
                     isDocked = true;
                     break;

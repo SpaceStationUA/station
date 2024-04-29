@@ -16,6 +16,16 @@
     icon: Interface/Actions/emotes.png
     event: !type:OpenEmotesActionEvent
     checkCanInteract: false
+# base actions
+
+- type: entity
+  id: BaseSuicideAction
+  abstract: true
+  components:
+  - type: ConfirmableAction
+    popup: suicide-action-popup
+
+# actions
 
 - type: entity
   id: ActionScream
