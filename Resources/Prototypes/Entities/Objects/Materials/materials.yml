@@ -209,7 +209,7 @@
         reagents: #Hell if I know what durathread is made out of.
         - ReagentId: Fiber
           Quantity: 6
-          
+
 - type: entity
   parent: MaterialBase
   id: MaterialWoodPlank
@@ -315,6 +315,8 @@
     equippedPrefix: bear
     slots:
       - HEAD
+      - HEAD1
+      - HEAD2
   - type: PointLight
     radius: 1.2
     energy: 1.5
@@ -338,6 +340,8 @@
     equippedPrefix: corgi2
     slots:
     - HEAD
+    - HEAD1
+    - HEAD2
   - type: Tag
     tags:
     - HideCorgi

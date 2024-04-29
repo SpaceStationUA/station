@@ -29,6 +29,8 @@ public sealed class ClientClothingSystem : ClothingSystem
     private static readonly Dictionary<string, string> TemporarySlotMap = new()
     {
         {"head", "HELMET"},
+        {"head1", "HELMET"},
+        {"head2", "HELMET"},
         {"eyes", "EYES"},
         {"ears", "EARS"},
         {"mask", "MASK"},
@@ -43,6 +45,8 @@ public sealed class ClientClothingSystem : ClothingSystem
         {"pocket1", "POCKET1"},
         {"pocket2", "POCKET2"},
         {"suitstorage", "SUITSTORAGE"},
+        {"neck1", "NECK"},
+        {"neck2", "NECK"},
     };
 
     [Dependency] private readonly IResourceCache _cache = default!;

@@ -76,6 +76,10 @@
       - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
       - map: [ "mask" ]
       - map: [ "head" ]
+      - map: [ "neck2" ]
+      - map: [ "neck1" ]
+      - map: [ "head2" ]
+      - map: [ "head1" ]
       - map: [ "singingLayer" ]
         sprite: DeltaV/Effects/harpysinger.rsi
         state: singing_music_notes
@@ -182,6 +186,10 @@
       - map: [ "enum.HumanoidVisualLayers.Hair" ]
       - map: [ "mask" ]
       - map: [ "head" ]
+      - map: [ "neck2" ]
+      - map: [ "neck1" ]
+      - map: [ "head2" ]
+      - map: [ "head1" ]
 
 - type: entity
   id: ActionHarpyPlayMidi

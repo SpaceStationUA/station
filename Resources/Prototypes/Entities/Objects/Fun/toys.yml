@@ -143,6 +143,8 @@
     equippedPrefix: bee
     slots:
     - HEAD
+    - HEAD1
+    - HEAD2
 
 - type: entity
   parent: BasePlushie
@@ -616,6 +618,8 @@
     equippedPrefix: mouse
     slots:
     - HEAD
+    - HEAD1
+    - HEAD2
 
 - type: entity
   parent: BasePlushie
@@ -633,6 +637,8 @@
     sprite: Objects/Fun/ducky.rsi
     slots:
     - HEAD
+    - HEAD1
+    - HEAD2
   - type: EmitSoundOnUse
     sound:
       path: /Audio/Items/Toys/quack.ogg
