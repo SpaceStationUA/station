@@ -14,6 +14,7 @@ id-card-access-level-atmospherics = Атмос
 
 id-card-access-level-research-director = ДнВ
 id-card-access-level-research = Наука
+id-card-access-level-robotics = Робототехніка
 
 id-card-access-level-chief-medical-officer = ГЛікар
 id-card-access-level-medical = Мед

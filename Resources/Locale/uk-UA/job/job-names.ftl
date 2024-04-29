@@ -49,6 +49,7 @@ job-name-senior-researcher = Професор
 job-name-senior-physician = Senior Лікар
 job-name-senior-officer = Сержант
 job-name-blueshield = Офіцер Блюшілд
+job-name-roboticist = Робототехнік
 
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = Атмосферний Інженер
@@ -101,3 +102,4 @@ JobStationEngineer = Інженер
 JobTechnicalAssistant = Технічний Асистент
 JobWarden = Варден
 JobZookeeper = Зоолог
+JobRoboticist = Робототехнік

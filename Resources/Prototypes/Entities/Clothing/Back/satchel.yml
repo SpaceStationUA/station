@@ -189,3 +189,13 @@
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/blueshield.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelRobotics
+  name: robotics satchel
+  description: Useful for holding research materials.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/robotics.rsi
+

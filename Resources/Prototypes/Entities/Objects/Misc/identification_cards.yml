@@ -864,3 +864,18 @@
       heldPrefix: special
     - type: PresetIdCard
       job: Blueshield
+
+- type: entity
+  parent: IDCardStandard
+  id: RoboticistIDCard
+  name: Roboticist ID card
+  components:
+    - type: Sprite
+      layers:
+        - state: special
+        - state: idroboticist
+    - type: Item
+      heldPrefix: special
+    - type: PresetIdCard
+      job: Roboticist
+  

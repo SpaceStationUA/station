@@ -84,3 +84,27 @@
         - ResearchDirector
   items:
     - ClothingHeadHatBeretRND
+
+- type: loadout
+  id: LoadoutRoboticistHatBeret
+  category: Jobs
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - Roboticist
+  items:
+    - ClothingHeadHatBeretRobotics
+    
+- type: loadout
+  id: LoadoutBioinginerHatBeret
+  category: Jobs
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - Roboticist
+  items:
+    - ClothingHeadHatBeretBioinginer

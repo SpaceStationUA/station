@@ -1214,3 +1214,25 @@
     sprite: Resources/Textures/T_Pirate/Clothing/Head/Hats/yellowhat.rsi
   - type: Clothing
     sprite: Resources/Textures/T_Pirate/Clothing/Head/Hats/yellowhat.rsi
+
+- type: entity
+  parent: ClothingHatBase
+  id: ClothingHeadHatBeretRobotics
+  name: robotics beret
+  description: Це берет робототехників.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/beret_robotics.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/beret_robotics.rsi
+
+- type: entity
+  parent: ClothingHatBase
+  id: ClothingHeadHatBeretBioinginer
+  name: bioinginer beret
+  description: Білий берет біоінженера.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/beret_bioinginer.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/beret_bioinginer.rsi
