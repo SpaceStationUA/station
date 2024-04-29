@@ -128,5 +128,6 @@ namespace Content.Server.RatKing
             var msg = Random.Pick(datasetPrototype.Values);
             _chat.TrySendInGameICMessage(uid, msg, InGameICChatType.Speak, true);
         }
+
     }
 }

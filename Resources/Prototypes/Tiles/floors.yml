@@ -1477,8 +1477,8 @@
   - 1.0
   - 1.0
   baseTurf: FloorDirt
-  isSubfloor: true
   canShovel: true # Delta V
+  isSubfloor: true
   footstepSounds:
     collection: FootstepGrass
   itemDrop: FloorTileItemGrassDark # Delta V
@@ -1496,8 +1496,8 @@
   - 1.0
   - 1.0
   baseTurf: FloorDirt
-  isSubfloor: true
   canShovel: true # Delta V
+  isSubfloor: true
   footstepSounds:
     collection: FootstepGrass
   itemDrop: FloorTileItemGrassLight
@@ -1515,8 +1515,9 @@
   - 1.0
   - 1.0
   baseTurf: Plating
-  isSubfloor: true
   canShovel: true # Delta V
+  # baseTurf: Plating
+  isSubfloor: true
   footstepSounds:
     collection: FootstepAsteroid
   itemDrop: FloorTileItemDirt # Delta V

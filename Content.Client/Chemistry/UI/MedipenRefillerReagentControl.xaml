@@ -1,0 +1,19 @@
+<Control xmlns="https://spacestation14.io">
+    <BoxContainer
+        Margin="1"
+        Name="ReagentBoxContainer"
+        HorizontalExpand="True"
+        Orientation="Horizontal"
+        SeparationOverride="1"
+        MinSize="220 15">
+        <Label
+            Name="ReagentName">
+        </Label>
+        <Label
+            Margin="3 0 0 0"
+            Name="ReagentAmount"
+            StyleClasses="LabelSecondaryColor">
+        </Label>
+        <Control HorizontalExpand="True"/>
+    </BoxContainer>
+</Control>

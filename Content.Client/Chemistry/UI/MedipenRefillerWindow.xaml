@@ -1,0 +1,120 @@
+<controls:FancyWindow
+    xmlns="https://spacestation14.io"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+    xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+    xmlns:ui="clr-namespace:Content.Client.Materials.UI"
+    Title="{Loc 'medipen-refiller-bound-user-interface-title'}">
+    <BoxContainer
+        HorizontalExpand="True"
+        Orientation="Horizontal"
+        SeparationOverride="5"
+        VerticalExpand="True">
+        <!--  Left Col  -->
+        <BoxContainer
+            Margin="10"
+            MinWidth="250"
+            HorizontalExpand="True"
+            VerticalExpand="True">
+            <BoxContainer
+                HorizontalExpand="True"
+                Orientation="Vertical"
+                SeparationOverride="5"
+                VerticalExpand="True">
+                <BoxContainer Orientation="Horizontal"
+                              HorizontalExpand="True">
+                    <Label Text="{Loc 'medipen-refiller-window-medipen-list-label'}" />
+                </BoxContainer>
+                <BoxContainer
+                    Margin="0 5 0 0"
+                    HorizontalExpand="True"
+                    Orientation="Vertical"
+                    SizeFlagsStretchRatio="4"
+                    VerticalExpand="True">
+                    <!-- Medipen List -->
+                    <PanelContainer StyleClasses="OpenRight" VerticalExpand="True">
+                        <PanelContainer.PanelOverride>
+                            <gfx:StyleBoxFlat BackgroundColor="#1B1B1E" />
+                        </PanelContainer.PanelOverride>
+                        <ScrollContainer HScrollEnabled="False" VerticalExpand="True">
+                            <BoxContainer
+                                Name="MedipenList"
+                                HorizontalExpand="True"
+                                Orientation="Vertical"
+                                RectClipContent="True"
+                                VerticalExpand="True" />
+                        </ScrollContainer>
+                    </PanelContainer>
+                </BoxContainer>
+            </BoxContainer>
+        </BoxContainer>
+        <BoxContainer MinWidth="5"/>
+        <!--  Right Col  -->
+        <BoxContainer
+            Margin="0 10 10 10"
+            MinWidth="450"
+            HorizontalExpand="True"
+            Orientation="Vertical"
+            SeparationOverride="5">
+            <!-- Input -->
+            <BoxContainer Orientation="Horizontal">
+                <Label Text="{Loc 'medipen-refiller-window-container-label'}" />
+                <Control HorizontalExpand="True" />
+                <Button
+                    Name="InputEjectButton"
+                    Access="Public"
+                    MinSize="80 0"
+                    Text="{Loc 'medipen-refiller-window-insert-button'}" />
+            </BoxContainer>
+
+            <PanelContainer MinSize="0 200" VerticalExpand="True">
+                <PanelContainer.PanelOverride>
+                    <gfx:StyleBoxFlat BackgroundColor="#1B1B1E" />
+                </PanelContainer.PanelOverride>
+
+                <ScrollContainer HorizontalExpand="True" MinSize="0 200">
+                    <!--  Input reagent list  -->
+                    <BoxContainer
+                        Name="InputContainerInfo"
+                        Margin="3"
+                        HorizontalExpand="True"
+                        Orientation="Vertical">
+                        <Label Text="{Loc 'medipen-refiller-window-no-container-loaded-text'}" />
+                    </BoxContainer>
+                </ScrollContainer>
+            </PanelContainer>
+
+            <!--  Padding  -->
+            <Control MinSize="0 10" />
+
+            <!--  Buffer info -->
+            <BoxContainer Orientation="Horizontal">
+                <Label Text="{Loc 'medipen-refiller-window-buffer-text'}" />
+                <Control HorizontalExpand="True" />
+                <Button
+                    Name="MedipenEjectButton"
+                    Access="Public"
+                    MinSize="80 0"
+                    Text="{Loc 'medipen-refiller-window-insert-button'}" />
+            </BoxContainer>
+
+            <PanelContainer MinSize="0 200" VerticalExpand="True">
+                <PanelContainer.PanelOverride>
+                    <gfx:StyleBoxFlat BackgroundColor="#1B1B1E" />
+                </PanelContainer.PanelOverride>
+
+                <ScrollContainer HorizontalExpand="True" MinSize="0 200">
+                    <!--  Buffer reagent list  -->
+                    <BoxContainer
+                        Name="BufferInfo"
+                        Margin="3"
+                        HorizontalExpand="True"
+                        Orientation="Vertical">
+                        <Label Text="{Loc 'medipen-refiller-window-buffer-empty-text'}" />
+                    </BoxContainer>
+                </ScrollContainer>
+            </PanelContainer>
+        </BoxContainer>
+    </BoxContainer>
+
+</controls:FancyWindow>

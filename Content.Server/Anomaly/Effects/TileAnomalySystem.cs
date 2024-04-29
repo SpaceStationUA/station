@@ -1,4 +1,3 @@
-using System.Linq;
 using System.Numerics;
 using Content.Shared.Anomaly;
 using Content.Shared.Anomaly.Components;

@@ -1,6 +1,7 @@
 using System.Linq;
 using Content.Server.Announcements;
 using Content.Server.Discord;
+using Content.Server.GameTicking;
 using Content.Server.GameTicking.Events;
 using Content.Server.Ghost;
 using Content.Server.Maps;
@@ -255,6 +256,7 @@ namespace Content.Server.GameTicking
             AnnounceRound();
             UpdateInfoText();
             SendRoundStartedDiscordMessage();
+            // RaiseLocalEvent(new RoundStartingEvent(RoundId)); // RoundFlow
 
 #if EXCEPTION_TOLERANCE
             }
@@ -398,7 +400,7 @@ namespace Content.Server.GameTicking
                 sound
             );
             RaiseNetworkEvent(roundEndMessageEvent);
-            RaiseLocalEvent(roundEndMessageEvent);
+            RaiseLocalEvent(new RoundEndedEvent(RoundId, roundDuration)); // RoundFlow
 
             _replayRoundPlayerInfo = listOfPlayerInfoFinal;
             _replayRoundText = roundEndText;

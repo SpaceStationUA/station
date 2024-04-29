@@ -14,6 +14,10 @@ using Robust.Server.GameObjects;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.Player;
+using Content.Server.Disease;
+using Content.Server.Popups;
+using Content.Server.UserInterface;
+using Content.Shared.IdentityManagement;
 using Robust.Shared.Timing;
 
 namespace Content.Server.Medical;

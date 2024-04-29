@@ -86,6 +86,11 @@ public sealed partial class HumanoidAppearanceComponent : Component
     public Color? CachedFacialHairColor;
 
     /// <summary>
+    ///     The height of this humanoid.
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public float Height = 1f; // Parkstation-HeightSlider
+
     /// DeltaV - let paradox anomaly be cloned
     /// </summary>
     [ViewVariables]

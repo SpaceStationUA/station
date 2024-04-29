@@ -1,0 +1,72 @@
+- type: entity
+  id: MedipenRefiller
+  parent: [ BaseMachinePowered, ConstructibleMachine ]
+  name: medipen refiller
+  description: A machine that refill medipens.
+  components:
+  - type: Sprite
+    snapCardinals: true
+    sprite: Structures/Machines/medipen_refiller.rsi
+    layers:
+    - state: base
+    - state: powered
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+  - type: Appearance
+  - type: MedipenRefiller
+  - type: GenericVisualizer
+    visuals:
+      enum.PowerDeviceVisuals.Powered:
+        enum.PowerDeviceVisualLayers.Powered:
+          True: { visible: true }
+          False: { visible: false }
+  - type: Physics
+    bodyType: Static
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:ChangeConstructionNodeBehavior
+        node: machineFrame
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: ApcPowerReceiver
+    powerLoad: 250
+  - type: ActivatableUI
+    key: enum.MedipenRefillerUiKey.Key
+  - type: ActivatableUIRequiresPower
+  - type: UserInterface
+    interfaces:
+    - key: enum.MedipenRefillerUiKey.Key
+      type: MedipenRefillerBoundUserInterface
+  - type: WiresPanel
+  - type: Wires
+    boardName: wires-board-name-medipenrefiller
+    layoutId: medipen_refiller
+  - type: Machine
+    board: MedipenRefillerMachineCircuitboard
+  - type: ContainerContainer
+    containers:
+      beakerSlot: !type:ContainerSlot
+      medipenSlot: !type:ContainerSlot
+      machine_board: !type:Container
+      machine_parts: !type:Container
+  - type: ItemSlots
+    slots:
+      beakerSlot:
+        whitelist:
+          components:
+          - FitsInDispenser
+      medipenSlot:
+        whitelist:
+          tags:
+          - EmptyMedipen
+  - type: SolutionContainerManager
+    solutions:
+      buffer:
+        maxVol: 30
+  - type: DumpableSolution
+    solution: buffer
+    unlimited: false

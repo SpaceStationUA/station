@@ -40,9 +40,9 @@ namespace Content.Shared.Humanoid
                 case SpeciesNaming.FirstDashFirst:
                     return Loc.GetString("namepreset-firstdashfirst",
                         ("first1", GetFirstName(speciesProto, gender)), ("first2", GetFirstName(speciesProto, gender)));
-                case SpeciesNaming.First:
-                    return Loc.GetString("namepreset-first",
-                        ("first", GetFirstName(speciesProto, gender)));
+                // case SpeciesNaming.First:
+                //     return Loc.GetString("namepreset-first",
+                //         ("first", GetFirstName(speciesProto, gender)));
                 // Parkstation-Ipc-Start
                 case SpeciesNaming.FirstDashLast:
                     return Loc.GetString("namepreset-firstdashlast",

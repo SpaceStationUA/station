@@ -1,4 +1,6 @@
 humanoid-profile-editor-randomize-everything-button = Randomize everything
+# CosmaticDrift-HeightSlider
+humanoid-profile-editor-reset-height-button = Reset Height
 humanoid-profile-editor-name-label = Name:
 humanoid-profile-editor-name-random-button = Randomize
 humanoid-profile-editor-appearance-tab = Appearance
@@ -10,6 +12,8 @@ humanoid-profile-editor-sex-female-text = Female
 humanoid-profile-editor-sex-unsexed-text = None
 humanoid-profile-editor-age-label = Age:
 humanoid-profile-editor-skin-color-label = Skin color:
+# CosmaticDrift-HeightSlider
+humanoid-profile-editor-height-label = Height: {$height}x
 humanoid-profile-editor-species-label = Species:
 humanoid-profile-editor-pronouns-label = Pronouns:
 humanoid-profile-editor-pronouns-male-text = He / Him

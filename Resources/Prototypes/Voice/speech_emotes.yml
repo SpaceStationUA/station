@@ -102,7 +102,7 @@
   id: Crying
   icon: Interface/Emotes/crying.png
   category: Vocal
-  chatMessages: [crying]
+  chatMessages: [плаче]
   chatTriggers:
     - cry
     - cry.
@@ -169,8 +169,9 @@
 
 - type: emote
   id: Click
+  icon: Interface/Emotes/click.png
   category: Vocal
-  chatMessages: [click.]
+  chatMessages: [клікає.]
   chatTriggers:
    - click
    - click.
@@ -257,8 +258,9 @@
 
 - type: emote
   id: Chirp
+  icon: Interface/Emotes/chirp.png
   category: Vocal
-  chatMessages: [chirps!]
+  chatMessages: [щебече!]
   chatTriggers:
     - chirp
     - chirp!

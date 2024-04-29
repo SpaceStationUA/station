@@ -420,6 +420,7 @@
       - CryoPodMachineCircuitboard
       - VaccinatorMachineCircuitboard
       - DiagnoserMachineCircuitboard
+      - MedipenRefillerMachineCircuitboard
       - BiomassReclaimerMachineCircuitboard
       - BiofabricatorMachineCircuitboard
       - SurveillanceCameraRouterCircuitboard
@@ -915,6 +916,8 @@
       - Hemostat
       - ClothingEyesGlassesChemical
     dynamicRecipes:
+      - ChemicalMedipen
+      - Dropper
       - ChemicalPayload
       - CryostasisBeaker
       - BluespaceBeaker

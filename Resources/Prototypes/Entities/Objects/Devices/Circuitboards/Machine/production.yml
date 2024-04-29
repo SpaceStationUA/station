@@ -645,6 +645,27 @@
         - ChemDispenserMachineCircuitboard
 
 - type: entity
+  id: MedipenRefillerMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: medipen refiller machine board
+  description: A machine printed circuit board for a Medipen Refiller.
+  components:
+    - type: Sprite
+      state: medical
+    - type: MachineBoard
+      prototype: MedipenRefiller
+      requirements:
+        MatterBin: 1
+      materialRequirements:
+        Steel: 5
+        Glass: 2
+      tagRequirements:
+        GlassBeaker:
+          Amount: 1
+          DefaultPrototype: Beaker
+          ExamineName: Glass Beaker
+
+- type: entity
   id: BiomassReclaimerMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: biomass reclaimer machine board
@@ -1051,6 +1072,7 @@
     materialRequirements:
       Glass: 2
       Cable: 5
+
 
 - type: entity
   id: StasisBedMachineCircuitboard

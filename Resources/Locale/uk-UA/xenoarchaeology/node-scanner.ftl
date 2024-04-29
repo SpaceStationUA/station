@@ -1,1 +1,1 @@
-node-scan-popup = The node ID is {$id}
+node-scan-popup = Ідентифікатор вузла {$id}

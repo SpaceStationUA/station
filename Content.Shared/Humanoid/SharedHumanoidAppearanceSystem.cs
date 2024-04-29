@@ -332,6 +332,20 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         }
 
         humanoid.Age = profile.Age;
+        // Parkstation-HeightSlider Start
+		humanoid.Height = profile.Height;
+        _heightAdjust.SetScale(uid, profile.Height);
+        // Parkstation-HeightSlider End
+
+
+        // Parkstation-CharacterInformation-Start
+        if (profile.FlavorText != "" && _configurationManager.GetCVar(CCVars.FlavorText))
+        {
+            var detail = EnsureComp<DetailExaminableComponent>(uid);
+            detail.Content = profile.FlavorText;
+            Dirty(detail);
+        }
+        // Parkstation-CharacterInformation-End
 
         humanoid.LastProfileLoaded = profile; // DeltaV - let paradox anomaly be cloned
 

@@ -6,6 +6,7 @@
   requirements:
     - !type:OverallPlaytimeRequirement # DeltaV - Playtime requirement
       time: 7200 #2 hrs
+    - !type:WhitelistRequirement # PIRATE - Whitelist requirement
   startingGear: ClownGear
   icon: "JobIconClown"
   supervisors: job-supervisors-hop

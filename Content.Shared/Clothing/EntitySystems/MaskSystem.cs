@@ -73,6 +73,11 @@ public sealed class MaskSystem : EntitySystem
         RaiseLocalEvent(uid, ref maskEv);
 
         var wearerEv = new WearerMaskToggledEvent(mask.IsToggled);
+        // RaiseLocalEvent(uid, ref wearerEv);
+
+        // toggle disease protection
+        if (TryComp<DiseaseProtectionComponent>(uid, out var diseaseProtection))
+            diseaseProtection.IsActive = !mask.IsToggled;
         RaiseLocalEvent(wearer, ref wearerEv);
         // toggle disease protection
         if (TryComp<DiseaseProtectionComponent>(uid, out var diseaseProtection))

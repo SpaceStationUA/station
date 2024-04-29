@@ -9,6 +9,7 @@
     - !type:DepartmentTimeRequirement
       department: Security
       time: 18000 #  5 hours
+    - !type:WhitelistRequirement # PIRATE - Whitelist requirement
   #  - !type:RoleTimeRequirement        # 
   #    role: JobHeadOfPersonnel         # 
   #    time: 3600 #1 hrs                # 

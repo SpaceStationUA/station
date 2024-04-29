@@ -97,6 +97,12 @@
                                     <Control HorizontalExpand="True"/>
                                     <OptionButton Name="CBackpackButton" HorizontalAlignment="Right" />
                                 </BoxContainer>
+								<!-- Height -->
+                                <BoxContainer HorizontalExpand="True">
+                                    <Label Name="CHeightLabel" MinWidth="100" />
+                                    <Slider Name="CHeightSlider" MinValue="0.5" Value="1" MaxValue="1.5" HorizontalExpand="True" Margin="5 0 5 0" />
+                                    <Button Name="CHeightReset" Text="{Loc 'humanoid-profile-editor-reset-height-button'}" />
+                                </BoxContainer>
                                 <!-- Spawn Priority -->
                                 <BoxContainer HorizontalExpand="True">
                                     <Label Text="{Loc 'humanoid-profile-editor-spawn-priority-label'}" />
