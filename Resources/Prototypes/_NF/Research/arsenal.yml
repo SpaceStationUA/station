@@ -1,0 +1,18 @@
+# Tier 3
+
+- type: technology
+  id: HardsuitsArmoredAdvanced
+  name: research-technology-hardsuits-scaf
+  icon:
+    sprite: _NF/Clothing/OuterClothing/Hardsuits/scaf.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  # - ClothingOuterHardsuitSecurity
+  # - ClothingOuterHardsuitWarden
+  # - ClothingOuterHardsuitBrigmedic
+  - ClothingOuterHardsuitScaf
+  # technologyPrerequisites:
+  # - HardsuitsArmored

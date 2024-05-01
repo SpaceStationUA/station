@@ -183,6 +183,19 @@
       - id: GrassBattlemap
       - id: DiceBag
         amount: 6
+      - id: PaperCNCSheet
+        amount: 6
+
+- type: entity
+  id: CrateFunATV
+  parent: CrateLivestock
+  name: ATV crate
+  description: An Absolutely Taxable Vehicle to help cargo with hauling.
+  components:
+  - type: StorageFill
+    contents:
+      - id: VehicleATVNF # Frontier
+      - id: VehicleKeyATV
 
 - type: entity
   id: CrateFunSadTromboneImplants

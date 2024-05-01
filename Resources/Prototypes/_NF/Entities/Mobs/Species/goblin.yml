@@ -23,7 +23,7 @@
       types:
         Asphyxiation: -1.0
   - type: Butcherable
-    butcheringType: Spike
+    # butcheringType: Spike
     spawned:
     - id: FoodMeatGoblin
       amount: 3
@@ -58,6 +58,7 @@
     damage:
       types:
         Slash: 3
+#        Poison: 1 # Too Stinky
   - type: Speech
     speechSounds: Alto
   - type: DamageOnHighSpeedImpact
@@ -81,6 +82,27 @@
     tags:
     - CanPilot
     - DoorBumpOpener
+  - type: TypingIndicator
+    proto: goblin
+  # - type: SlowOnDamage
+  #   speedModifierThresholds:
+  #     60: 0.85  # 0.7 is base speed.
+  #     80: 0.75  # 0.5 is base speed.
+  - type: Reactive
+    groups:
+      Flammable: [ Touch ]
+      Extinguish: [ Touch ]
+    reactions:
+    - reagents: [ Water, SpaceCleaner, SoapReagent ]
+      methods: [ Touch ]
+      effects:
+      - !type:WashCreamPieReaction
+    - reagents: [ Water, SpaceCleaner, SoapReagent ]
+      methods: [ Touch ]
+      effects:
+      - !type:Emote
+        emote: Scream
+        probability: 0.2
 
 - type: entity
   save: false
