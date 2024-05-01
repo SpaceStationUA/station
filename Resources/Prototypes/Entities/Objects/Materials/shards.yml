@@ -71,12 +71,12 @@
     launchForwardsMultiplier: 0
   - type: TriggerOnStepTrigger
   - type: DamageUserOnTrigger
-  - type: Tool
-    qualities:
-      - Cutting
     damage:
       types:
         Piercing: 5
+  - type: Tool
+    qualities:
+      - Cutting
   - type: DeleteOnTrigger
   - type: StaticPrice
     price: 0

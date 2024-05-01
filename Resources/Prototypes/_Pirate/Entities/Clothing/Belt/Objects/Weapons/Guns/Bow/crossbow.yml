@@ -84,9 +84,9 @@
         base:
           True: { state: wielded }
           False: { state: unwielded }
-  - type: Construction
-    graph: ImprovisedCrossbow
-    node: ImprovisedCrossbow
+  # - type: Construction
+  #   graph: ImprovisedCrossbow
+  #   node: ImprovisedCrossbow
 
 
 - type: entity
@@ -126,6 +126,6 @@
         base:
           True: { state: wielded }
           False: { state: unwielded }
-  - type: Construction
-    graph: ImprovisedCrossbow
-    node: ImprovisedCrossbow
+  # - type: Construction
+  #   graph: ImprovisedCrossbow
+  #   node: ImprovisedCrossbow
