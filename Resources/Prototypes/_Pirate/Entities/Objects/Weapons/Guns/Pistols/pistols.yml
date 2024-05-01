@@ -185,16 +185,13 @@
         whitelist:
           tags:
             - CartridgePistol
-    gun_chamber:
-      name: Chamber
-      startingItem: CartridgePistol
-      priority: 1
-      whitelist:
-        tags:
-          - CartridgePistol
-    selectedMode: Fullauto
-    availableModes:
-    - Fullauto
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistol
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
   - type: BallisticAmmoProvider
     capacity: 14
     proto: CartridgePistol

@@ -22,7 +22,7 @@
   mapName: 'NC WaveShot'
   mapPath: /Maps/_NF/Shuttles/waveshot.yml
   minPlayers: 0
-  stations: 
+  stations:
     WaveShot:
       stationProto: StandardFrontierVessel
       components:
@@ -34,5 +34,5 @@
         - type: StationJobs
           overflowJobs: []
           availableJobs:
-            Pilot: [ 0, 0 ]
+            # Pilot: [ 0, 0 ]
             Reporter: [ 0, 0 ]

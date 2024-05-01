@@ -7,7 +7,7 @@
 # Discord: erhardsteinhauer
 
 # Shuttle Notes:
-# 
+#
 
 - type: vessel
   id: harbormaster
@@ -23,7 +23,7 @@
   mapName: 'Harbormaster'
   mapPath: /Maps/_NF/Shuttles/harbormaster.yml
   minPlayers: 0
-  stations: 
+  stations:
     harbormaster:
       stationProto: StandardFrontierVessel
       components:
@@ -35,4 +35,4 @@
         - type: StationJobs
           overflowJobs: []
           availableJobs:
-            Pilot: [ 0, 0 ]
+            # Pilot: [ 0, 0 ]
