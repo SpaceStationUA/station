@@ -1041,7 +1041,7 @@
         Heat: 20 # Slightly more damage than the 17heat from the Captain's Hitscan lasgun
     soundHit:
       collection: MeatLaserImpact
-    soundForce: true
+    forceSound: true
 
 - type: entity
   name: energy bolt
@@ -1055,4 +1055,4 @@
         Heat: 10 # Slightly more damage than the 17heat from the Captain's Hitscan lasgun
     soundHit:
       collection: MeatLaserImpact
-    soundForce: true
+    forceSound: true

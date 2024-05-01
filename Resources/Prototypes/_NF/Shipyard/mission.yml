@@ -22,7 +22,7 @@
   mapName: 'NC Mission'
   mapPath: /Maps/_NF/Shuttles/mission.yml
   minPlayers: 0
-  stations: 
+  stations:
     Mission:
       stationProto: StandardFrontierExpeditionVessel
       components:
@@ -36,4 +36,4 @@
           availableJobs:
             Chaplain: [ 0, 0 ]
             Janitor: [ 0, 0 ]
-            Pilot: [ 0, 0 ]
+            # Pilot: [ 0, 0 ]

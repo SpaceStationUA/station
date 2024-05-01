@@ -10,7 +10,7 @@
     scale: 0.81, 0.81
   - type: Item
     sprite: DeltaV/Objects/Weapons/Melee/bloody_knuckle_dusters.rsi
-    state: item
+    # state: item
     size: Small
   - type: Insulated
   - type: EmitSoundOnLand
@@ -26,10 +26,11 @@
     damage:
       types:
         Blunt: 10
+    bluntStaminaDamageFactor: 1.35
     soundHit:
       collection: KnuckleDuster
-    params:
-        volume: 5
+    # params:
+    #     volume: 5
     animation: WeaponArcFist
   - type: Wieldable
     wieldSound: !type:SoundPathSpecifier
@@ -41,5 +42,4 @@
       types:
         Blunt: 10
         Slash: 5
-    bluntStaminaDamageFactor: 1.35
   - type: DisarmMalus

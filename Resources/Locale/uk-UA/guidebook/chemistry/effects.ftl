@@ -197,11 +197,7 @@ reagent-effect-guidebook-chem-clean-bloodstream =
         *[other] cleanse
     } the bloodstream of other chemicals
 
-reagent-effect-guidebook-cure-disease =
-    { $chance ->
-        [1] Cures
-        *[other] cure
-    } diseases
+reagent-effect-guidebook-cure-disease = cures diseases
 
 reagent-effect-guidebook-cure-eye-damage =
     { $chance ->
