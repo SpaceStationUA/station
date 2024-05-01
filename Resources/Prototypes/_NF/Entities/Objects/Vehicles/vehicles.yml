@@ -458,3 +458,35 @@
           components:
             - Gun
         priority: 2
+
+- type: entity
+  parent: VehicleHoverbikeMailcarrier
+  id: VehicleHoverbikeNFKeys
+  suffix: With key
+  components:
+  - type: ItemSlots
+    slots:
+      key_slot:
+        name: vehicle-slot-component-slot-name-keys
+        whitelist:
+          requireAll: true
+          tags:
+          - VehicleKey
+          - HoverbikeKeys
+        startingItem: VehicleKeyHoverbikeNF
+
+- type: entity
+  parent: VehicleHoverbikeMailcarrier
+  id: VehicleHoverbikeMailcarrierKey
+  suffix: With key
+  components:
+  - type: ItemSlots
+    slots:
+      key_slot:
+        name: vehicle-slot-component-slot-name-keys
+        whitelist:
+          requireAll: true
+          tags:
+          - VehicleKey
+          - HoverbikeKeys
+        startingItem: VehicleKeyHoverbikeNF
