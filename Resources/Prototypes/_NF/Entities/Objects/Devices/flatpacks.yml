@@ -11,30 +11,30 @@
   #   - state: engineering_lathe
 
 # Hoverbikes
-- type: entity
-  parent: BaseNFFlatpack
-  id: HoverbikeFlatpack
-  name: hoverbike flatpack
-  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
-  components:
-  - type: Flatpack
-    entity: VehicleHoverbikeNFKeys
-  - type: StaticPrice
-    price: 2000
-  # - type: Sprite
-  #   layers:
-  #   - state: command_airlock
+# - type: entity
+#   parent: BaseNFFlatpack
+#   id: HoverbikeFlatpack
+#   name: hoverbike flatpack
+#   description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
+#   components:
+#   - type: Flatpack
+#     entity: VehicleHoverbikeNFKeys
+#   - type: StaticPrice
+#     price: 2000
+#   # - type: Sprite
+#   #   layers:
+#   #   - state: command_airlock
 
-- type: entity
-  parent: HoverbikeFlatpack
-  id: HoverbikeMailcarrierFlatpack
-  name: mail carrier hoverbike flatpack
-  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
-  components:
-  - type: Flatpack
-    entity: VehicleHoverbikeMailcarrierKey
-  - type: StaticPrice
-    price: 75
+# - type: entity
+#   parent: HoverbikeFlatpack
+#   id: HoverbikeMailcarrierFlatpack
+#   name: mail carrier hoverbike flatpack
+#   description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
+#   components:
+#   - type: Flatpack
+#     entity: VehicleHoverbikeMailcarrierKey
+#   - type: StaticPrice
+#     price: 75
 
 - type: entity
   parent: HoverbikeFlatpack

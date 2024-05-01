@@ -83,3 +83,5 @@ research-technology-advanced-spray = Передове Розпилення Рі�
 research-technology-bluespace-cargo-transport = Блюспейс Транспорт Грузів
 research-technology-quantum-fiber-weaving = Квантове плетіння волокон
 research-technology-bluespace-chemistry = Блюспейс Хімія
+
+research-technology-hardsuits-scaf = Армований скафандр
