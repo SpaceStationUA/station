@@ -1707,3 +1707,18 @@
       whitelist:
         tags:
           - NukeOpsUplink
+
+- type: listing
+  id: UplinkHoverBikeSyndie
+  name: hoverbike
+  description: hoverbike
+  productEntity: HoverbikeSyndicateFlatpack
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkDeception
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - NukeOpsUplink
