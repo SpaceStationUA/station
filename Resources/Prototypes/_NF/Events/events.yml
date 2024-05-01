@@ -38,25 +38,25 @@
     gridPath: /Maps/_NF/Bluespace/vault.yml
     rewardFactor: 0.7
 
-- type: entity
-  id: BluespaceVaultSmallError
-  parent: BaseGameRule
-  noSpawn: true
-  components:
-  - type: StationEvent
-    startAnnouncement: station-event-bluespace-vault-start-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
-    endAnnouncement: station-event-bluespace-vault-end-announcement
-    earliestStart: 100
-    minimumPlayers: 15
-    weight: 1
-    startDelay: 10
-    duration: 1200
-    maxDuration: 2400
-  - type: BluespaceErrorRule
-    gridPath: /Maps/_NF/Bluespace/vaultsmall.yml
-    rewardFactor: 1
+# - type: entity
+#   id: BluespaceVaultSmallError
+#   parent: BaseGameRule
+#   noSpawn: true
+#   components:
+#   - type: StationEvent
+#     startAnnouncement: station-event-bluespace-vault-start-announcement
+#     startAudio:
+#       path: /Audio/Announcements/attention.ogg
+#     endAnnouncement: station-event-bluespace-vault-end-announcement
+#     earliestStart: 100
+#     minimumPlayers: 15
+#     weight: 1
+#     startDelay: 10
+#     duration: 1200
+#     maxDuration: 2400
+#   - type: BluespaceErrorRule
+#     gridPath: /Maps/_NF/Bluespace/vaultsmall.yml
+#     rewardFactor: 1
 
 - type: entity
   id: BluespaceAsteroid

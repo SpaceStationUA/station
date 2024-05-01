@@ -33,7 +33,7 @@
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockClothesFilled
-  cost: 8000 #DeltaV
+  cost: 12000 #DeltaV #Pirate <- change to pass test (sell value should be lower than buy)
   category: cargoproduct-category-name-service
   group: market
 
