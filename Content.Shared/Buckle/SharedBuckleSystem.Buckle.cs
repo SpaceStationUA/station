@@ -14,6 +14,7 @@ using Content.Shared.Standing;
 using Content.Shared.Storage.Components;
 using Content.Shared.Stunnable;
 using Content.Shared.Throwing;
+using Content.Shared.Vehicle.Components;
 using Content.Shared.Verbs;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Events;
@@ -127,6 +128,13 @@ public abstract partial class SharedBuckleSystem
 
     private void OnBuckleThrowPushbackAttempt(EntityUid uid, BuckleComponent component, ThrowPushbackAttemptEvent args)
     {
+        if (component.BuckledTo != null)
+        {
+            var buckle = component.BuckledTo;
+            if (TryComp<VehicleComponent>(buckle, out _))
+                return;
+        }
+
         if (component.Buckled)
             args.Cancel();
     }
@@ -136,7 +144,8 @@ public abstract partial class SharedBuckleSystem
         if (component.LifeStage > ComponentLifeStage.Running)
             return;
 
-        if (component.Buckled) // buckle shitcode
+        if (component.Buckled &&
+            !HasComp<VehicleComponent>(component.BuckledTo)) // buckle shitcode
             args.Cancel();
     }
 
@@ -416,6 +425,8 @@ public abstract partial class SharedBuckleSystem
             if (HasComp<SleepingComponent>(buckleUid) && buckleUid == userUid)
                 return false;
 
+            if (TryComp<VehicleComponent>(strapUid, out var vehicle) && vehicle.Rider != userUid && !_mobState.IsIncapacitated(buckleUid))
+                return false;
             // If the person is crit or dead in any kind of strap, return. This prevents people from unbuckling themselves while incapacitated.
             if (_mobState.IsIncapacitated(buckleUid) && userUid == buckleUid)
                 return false;
