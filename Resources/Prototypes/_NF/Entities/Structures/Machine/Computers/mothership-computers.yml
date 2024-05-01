@@ -15,11 +15,11 @@
       state: shipyard_security
     - map: ["computerLayerKeys"]
       state: telesci_key
-  - type: ShipyardListing
-    shuttles:
-    - Fighter
-    - Cleric
-    - Rogue
+  # - type: ShipyardListing
+  #   shuttles:
+  #   # - Fighter
+  #   # - Cleric
+  #   - Rogue
 
 # The mccargo console
 - type: entity
@@ -30,7 +30,7 @@
   - type: ShipyardListing
     shuttles:
     - McDelivery
- 
+
 # The caduceus console
 - type: entity
   id: CaduceusMothershipComputer
@@ -50,7 +50,7 @@
       state: telesci_key
   - type: ShipyardListing
     shuttles:
-    - Pulse
+    # - Pulse
     - Searchlight
 
 # The GASBENDA-A-A-AH (sick metal guitar riff) console
@@ -74,12 +74,12 @@
   - type: ShipyardListing
     shuttles:
     - Bocadillo
-    - Pulse
-    - PTS
-    - Construct
+    # - Pulse
+    # - PTS
+    # - Construct
     - Pioneer
     - Loader
     - Legman
     - Liquidator
     - Mission
-    - Honker
+    # - Honker

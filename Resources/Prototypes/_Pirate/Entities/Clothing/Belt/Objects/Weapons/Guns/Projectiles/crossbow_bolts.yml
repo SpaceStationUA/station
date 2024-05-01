@@ -89,9 +89,9 @@
     damage:
       types:
         Piercing: 25
-  - type: Construction
-    graph: CraftCrossbowBoltGlassShard
-    node: CraftCrossbowBoltGlassShard
+  # - type: Construction
+  #   graph: CraftCrossbowBoltGlassShard
+  #   node: CraftCrossbowBoltGlassShard
 
 - type: entity
   parent: CrossbowBolt
@@ -114,9 +114,9 @@
     damage:
       types:
         Piercing: 30
-  - type: Construction
-    graph: CraftCrossbowBoltPlasmaGlassShard
-    node: CraftCrossbowBoltPlasmaGlassShard
+  # - type: Construction
+  #   graph: CraftCrossbowBoltPlasmaGlassShard
+  #   node: CraftCrossbowBoltPlasmaGlassShard
 
 - type: entity
   parent: CrossbowBolt
@@ -140,6 +140,6 @@
       types:
         Piercing: 25
         Radiation: 5
-  - type: Construction
-    graph: CraftCrossbowBoltUraniumGlassShard
-    node: CraftCrossbowBoltUraniumGlassShard
+  # - type: Construction
+  #   graph: CraftCrossbowBoltUraniumGlassShard
+  #   node: CraftCrossbowBoltUraniumGlassShard

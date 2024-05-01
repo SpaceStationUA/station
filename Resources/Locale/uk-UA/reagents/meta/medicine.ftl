@@ -132,3 +132,6 @@ reagent-desc-aloxadone = Кріогенний хімікат. Використо
 
 reagent-name-polypyrylium-oligomers = Олігомери поліпірилу
 reagent-desc-polypyrylium-oligomers = Фіолетова суміш коротких поліелектролітних ланцюгів, яку нелегко синтезувати в лабораторії. Лікує асфіксію та грубі пошкодження. З часом зупиняє кровотечу.
+
+reagent-name-spaceacillin = Спейсацилін
+reagent-desc-spaceacillin = Реагент що лікує Cellular
