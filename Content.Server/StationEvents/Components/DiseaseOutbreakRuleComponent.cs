@@ -20,6 +20,9 @@ public sealed partial class DiseaseOutbreakRuleComponent : Component
         "AMIV",
         "SpaceFlu",
         "BirdFlew",
-        "TongueTwister"
+        "TongueTwister",
+        "VanAusdallsRobovirus",
+        "MemeticAmirmir",
+        "OwOnavirus",
     };
 }

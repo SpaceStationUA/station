@@ -16,9 +16,11 @@ public sealed class LizardAccentSystem : EntitySystem
         var message = args.Message;
 
         // hissss
-        message = Regex.Replace(message, "s+", "sss");
+        message = Regex.Replace(message, "с+", "сс");
+        message = Regex.Replace(message, "ш+", "шш");
         // hiSSS
-        message = Regex.Replace(message, "S+", "SSS");
+        message = Regex.Replace(message, "С+", "сс");
+        message = Regex.Replace(message, "Ш+", "шш");
         // ekssit
         message = Regex.Replace(message, @"(\w)x", "$1kss");
         // ecks
