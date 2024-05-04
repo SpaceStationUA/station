@@ -40,7 +40,7 @@ public sealed class ChameleonClothingSystem : SharedChameleonClothingSystem
 
     private void HandleState(EntityUid uid, ChameleonClothingComponent component, ref AfterAutoHandleStateEvent args)
     {
-        PrepareAllVariants();
+        UpdateVisuals(uid, component);
     }
 
     protected override void UpdateSprite(EntityUid uid, EntityPrototype proto)
