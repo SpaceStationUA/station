@@ -8,7 +8,7 @@
   id: BureaucraticError
 
 - type: stationGoal
-  id: Combat
+  id: Combat0
 
 - type: stationGoal
   id: Labor
@@ -37,6 +37,14 @@
 - type: stationGoal
   id: Zoo
 
+- type: stationGoal
+  id: Tesla
+
+- type: stationGoal
+  id: Combat1
+
+- type: stationGoal
+  id: Combat2
 
 - type: weightedRandom
   id: StationGoals
@@ -58,6 +66,7 @@
   weights:
     Singularity: 1
     SolarPanels: 1
+    Tesla: 1
 
 - type: weightedRandom
   id: StationGoalScience
@@ -69,7 +78,9 @@
 - type: weightedRandom
   id: StationGoalSecurity
   weights:
-    Combat: 1
+    Combat0: 1
+    Combat1: 1
+    Combat2: 1
 
 - type: weightedRandom
   id: StationGoalStation
