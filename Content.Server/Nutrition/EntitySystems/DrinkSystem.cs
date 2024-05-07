@@ -284,7 +284,7 @@ public sealed class DrinkSystem : EntitySystem
             target: target,
             used: item)
         {
-            BreakOnMove = forceDrink,
+            BreakOnTargetMove = forceDrink,
             BreakOnDamage = true,
             MovementThreshold = 0.01f,
             DistanceThreshold = 1.0f,

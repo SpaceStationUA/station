@@ -289,7 +289,7 @@ namespace Content.Server.Disease
 
             _doAfterSystem.TryStartDoAfter(new DoAfterArgs(EntityManager, args.User, vaxx.InjectDelay, new VaccineDoAfterEvent(), uid, target: args.Target, used: uid)
             {
-                BreakOnMove = true,
+                BreakOnTargetMove = true,
                 // BreakOnUserMove = true,
                 NeedHand = true
             });

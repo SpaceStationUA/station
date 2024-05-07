@@ -593,7 +593,7 @@ public sealed class NukeSystem : EntitySystem
         var doAfter = new DoAfterArgs(EntityManager, user, nuke.DisarmDoafterLength, new NukeDisarmDoAfterEvent(), uid, target: uid)
         {
             BreakOnDamage = true,
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             NeedHand = true
         };
 

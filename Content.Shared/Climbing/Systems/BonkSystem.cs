@@ -104,7 +104,7 @@ public sealed partial class BonkSystem : EntitySystem
 
         var doAfterArgs = new DoAfterArgs(EntityManager, user, bonkableComponent.BonkDelay, new BonkDoAfterEvent(), uid, target: uid, used: climber)
         {
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             BreakOnDamage = true
         };
 

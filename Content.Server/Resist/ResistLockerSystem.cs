@@ -47,7 +47,7 @@ public sealed class ResistLockerSystem : EntitySystem
 
         var doAfterEventArgs = new DoAfterArgs(EntityManager, user, resistLockerComponent.ResistTime, new ResistLockerDoAfterEvent(), target, target: target)
         {
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             BreakOnDamage = true,
             NeedHand = false //No hands 'cause we be kickin'
         };

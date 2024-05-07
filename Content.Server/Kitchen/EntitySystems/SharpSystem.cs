@@ -63,7 +63,7 @@ public sealed class SharpSystem : EntitySystem
         if (TryComp<MobStateComponent>(target, out var mobState) && !_mobStateSystem.IsDead(target, mobState))
             return false;
 
-        if (butcher.Type != ButcheringType.Knife && target != user)
+        if (butcher.Type != ButcheringType.Knife)
         {
             _popupSystem.PopupEntity(Loc.GetString("butcherable-different-tool", ("target", target)), knife, user);
             return true;
@@ -75,8 +75,9 @@ public sealed class SharpSystem : EntitySystem
         var doAfter =
             new DoAfterArgs(EntityManager, user, sharp.ButcherDelayModifier * butcher.ButcherDelay, new SharpDoAfterEvent(), knife, target: target, used: knife)
             {
+                BreakOnTargetMove = true,
+                BreakOnUserMove = true,
                 BreakOnDamage = true,
-                BreakOnMove = true,
                 NeedHand = true
             };
         _doAfterSystem.TryStartDoAfter(doAfter);

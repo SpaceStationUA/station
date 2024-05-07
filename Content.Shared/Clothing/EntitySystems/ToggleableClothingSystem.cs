@@ -95,12 +95,12 @@ public sealed class ToggleableClothingSystem : EntitySystem
         if (component.StripDelay == null)
             return;
 
-        var (time, stealth) = _strippable.GetStripTimeModifiers(user, wearer, component.StripDelay.Value);
+        var (time, stealth) = _strippable.GetStripTimeModifiers(user, wearer, (float) component.StripDelay.Value.TotalSeconds);
 
         var args = new DoAfterArgs(EntityManager, user, time, new ToggleClothingDoAfterEvent(), item, wearer, item)
         {
             BreakOnDamage = true,
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             // This should just re-use the BUI range checks & cancel the do after if the BUI closes. But that is all
             // server-side at the moment.
             // TODO BUI REFACTOR.

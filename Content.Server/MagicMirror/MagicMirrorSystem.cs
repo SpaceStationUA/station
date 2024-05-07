@@ -96,7 +96,7 @@ public sealed class MagicMirrorSystem : EntitySystem
         {
             DistanceThreshold = SharedInteractionSystem.InteractionRange,
             BreakOnDamage = true,
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             BreakOnHandChange = false,
             NeedHand = true
         }, out var doAfterId);
@@ -150,7 +150,7 @@ public sealed class MagicMirrorSystem : EntitySystem
         _doAfterSystem.TryStartDoAfter(new DoAfterArgs(EntityManager, user, component.ChangeSlotTime, doAfter, uid, target: target, used: uid)
         {
             BreakOnDamage = true,
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             BreakOnHandChange = false,
             NeedHand = true
         }, out var doAfterId);
@@ -257,7 +257,7 @@ public sealed class MagicMirrorSystem : EntitySystem
         _doAfterSystem.TryStartDoAfter(new DoAfterArgs(EntityManager, message.Session.AttachedEntity.Value, component.AddSlotTime, doAfter, uid, target: component.Target.Value, used: uid)
         {
             BreakOnDamage = true,
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             BreakOnHandChange = false,
             NeedHand = true
         }, out var doAfterId);

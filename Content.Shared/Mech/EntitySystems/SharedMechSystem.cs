@@ -434,7 +434,7 @@ public abstract class SharedMechSystem : EntitySystem
 
         var doAfterEventArgs = new DoAfterArgs(EntityManager, args.Dragged, component.EntryDelay, new MechEntryEvent(), uid, target: uid)
         {
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
         };
 
         _doAfter.TryStartDoAfter(doAfterEventArgs);

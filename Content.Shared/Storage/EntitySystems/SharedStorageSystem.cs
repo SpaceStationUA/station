@@ -294,7 +294,7 @@ public abstract class SharedStorageSystem : EntitySystem
                 var doAfterArgs = new DoAfterArgs(EntityManager, args.User, delay, new AreaPickupDoAfterEvent(GetNetEntityList(validStorables)), uid, target: uid)
                 {
                     BreakOnDamage = true,
-                    BreakOnMove = true,
+                    BreakOnTargetMove = true,
                     NeedHand = true
                 };
 
@@ -1076,7 +1076,7 @@ public abstract class SharedStorageSystem : EntitySystem
             for (int i = 0; i < list.Count; i++)
             {
                 var saved = list[i];
-                
+
                 if (saved == location)
                 {
                     list.Remove(location);

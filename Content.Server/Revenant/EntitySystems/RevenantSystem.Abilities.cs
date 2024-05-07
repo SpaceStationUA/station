@@ -87,7 +87,7 @@ public sealed partial class RevenantSystem
     {
         var searchDoAfter = new DoAfterArgs(EntityManager, uid, revenant.SoulSearchDuration, new SoulEvent(), uid, target: target)
         {
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             BreakOnDamage = true,
             DistanceThreshold = 2
         };
@@ -142,7 +142,7 @@ public sealed partial class RevenantSystem
         var doAfter = new DoAfterArgs(EntityManager, uid, revenant.HarvestDebuffs.X, new HarvestEvent(), uid, target: target)
         {
             DistanceThreshold = 2,
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             BreakOnDamage = true,
             RequireCanInteract = false, // stuns itself
         };

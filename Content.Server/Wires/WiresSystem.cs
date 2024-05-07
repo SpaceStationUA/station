@@ -701,7 +701,7 @@ public sealed class WiresSystem : SharedWiresSystem
             {
                 NeedHand = true,
                 BreakOnDamage = true,
-                BreakOnMove = true
+                BreakOnTargetMove = true
             };
 
             _doAfter.TryStartDoAfter(args);

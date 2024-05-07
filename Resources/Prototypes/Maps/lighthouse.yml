@@ -19,19 +19,19 @@
         overflowJobs:
         - Passenger
         availableJobs:
-          Captain: [ 1, 1 ]
         #service
+          Captain: [ 1, 1 ]
           HeadOfPersonnel: [ 1, 1 ]
-          Bartender: [ 2, 4 ]
+          Bartender: [ 1, 2 ]
           Botanist: [ 2, 2 ]
           Boxer: [ 2, 2 ]
           Chef: [ 1, 2 ]
           Clown: [ 1, 1 ]
           Lawyer: [ 2, 2 ]
           Librarian: [ 1, 1 ]
-          Reporter: [ 2, 2 ]
+          Reporter: [ 0, 2 ]
           Musician: [ 1, 1 ]
-          Janitor: [ 2, 2 ]
+          Janitor: [ 1, 2 ]
           Mime: [ 1, 1 ]
         #engineering
           ChiefEngineer: [ 1, 1 ]
@@ -59,10 +59,10 @@
           SecurityOfficer: [ 2, 4 ]
           SecurityCadet: [ 1, 4 ]
           Prisoner: [ 2, 3 ]
-        #logistics
+        #supply
           Quartermaster: [ 1, 1 ]
           MailCarrier: [ 2, 2 ]
-          SalvageSpecialist: [ 4, 4 ]
+          SalvageSpecialist: [ 2, 3 ]
           CargoTechnician: [ 2, 4 ]
         #civilian
           Passenger: [ -1, -1 ]

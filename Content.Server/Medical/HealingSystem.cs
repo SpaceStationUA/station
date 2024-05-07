@@ -199,7 +199,7 @@ public sealed class HealingSystem : EntitySystem
                 // Didn't break on damage as they may be trying to prevent it and
                 // not being able to heal your own ticking damage would be frustrating.
                 NeedHand = true,
-                BreakOnMove = true,
+                BreakOnTargetMove = true,
                 BreakOnWeightlessMove = false,
             };
 

@@ -116,7 +116,7 @@ public sealed class LockSystem : EntitySystem
             return _doAfter.TryStartDoAfter(
                 new DoAfterArgs(EntityManager, user, lockComp.LockTime, new LockDoAfter(), uid, uid)
                 {
-                    BreakOnDamage = true, BreakOnMove = true, RequireCanInteract = true,
+                    BreakOnDamage = true, BreakOnTargetMove = true, RequireCanInteract = true,
                     NeedHand = true
                 });
         }
@@ -192,7 +192,7 @@ public sealed class LockSystem : EntitySystem
             return _doAfter.TryStartDoAfter(
                 new DoAfterArgs(EntityManager, user, lockComp.LockTime, new UnlockDoAfter(), uid, uid)
                 {
-                    BreakOnDamage = true, BreakOnMove = true, RequireCanInteract = true,
+                    BreakOnDamage = true, BreakOnTargetMove = true, RequireCanInteract = true,
                     NeedHand = true
                 });
         }

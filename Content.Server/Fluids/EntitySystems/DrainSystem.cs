@@ -240,7 +240,7 @@ public sealed class DrainSystem : SharedDrainSystem
         var doAfterArgs = new DoAfterArgs(EntityManager, args.User, entity.Comp.UnclogDuration, new DrainDoAfterEvent(), entity, args.Target, args.Used)
         {
             BreakOnDamage = true,
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             BreakOnHandChange = true
         };
 

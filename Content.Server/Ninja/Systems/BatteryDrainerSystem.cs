@@ -51,7 +51,7 @@ public sealed class BatteryDrainerSystem : SharedBatteryDrainerSystem
         var doAfterArgs = new DoAfterArgs(EntityManager, uid, comp.DrainTime, new DrainDoAfterEvent(), target: target, eventTarget: uid)
         {
             MovementThreshold = 0.5f,
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             CancelDuplicate = false,
             AttemptFrequency = AttemptFrequency.StartAndEnd
         };

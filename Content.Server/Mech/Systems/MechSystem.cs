@@ -92,7 +92,7 @@ public sealed partial class MechSystem : SharedMechSystem
             var doAfterEventArgs = new DoAfterArgs(EntityManager, args.User, component.BatteryRemovalDelay,
                 new RemoveBatteryEvent(), uid, target: uid, used: args.Target)
             {
-                BreakOnMove = true
+                BreakOnTargetMove = true
             };
 
             _doAfter.TryStartDoAfter(doAfterEventArgs);
@@ -179,7 +179,7 @@ public sealed partial class MechSystem : SharedMechSystem
                 {
                     var doAfterEventArgs = new DoAfterArgs(EntityManager, args.User, component.EntryDelay, new MechEntryEvent(), uid, target: uid)
                     {
-                        BreakOnMove = true,
+                        BreakOnTargetMove = true,
                     };
 
                     _doAfter.TryStartDoAfter(doAfterEventArgs);

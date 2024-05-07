@@ -47,7 +47,7 @@ public sealed class BotanySwabSystem : EntitySystem
         _doAfterSystem.TryStartDoAfter(new DoAfterArgs(EntityManager, args.User, swab.SwabDelay, new BotanySwabDoAfterEvent(), uid, target: args.Target, used: uid)
         {
             Broadcast = true,
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             NeedHand = true
         });
     }

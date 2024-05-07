@@ -132,7 +132,7 @@ public sealed class DumpableSystem : EntitySystem
 
         _doAfterSystem.TryStartDoAfter(new DoAfterArgs(EntityManager, userUid, delay, new DumpableDoAfterEvent(), storageUid, target: targetUid, used: storageUid)
         {
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             NeedHand = true
         });
     }

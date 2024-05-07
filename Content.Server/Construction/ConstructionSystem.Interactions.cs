@@ -288,7 +288,7 @@ namespace Content.Server.Construction
                         var doAfterEventArgs = new DoAfterArgs(EntityManager, interactUsing.User, step.DoAfter, doAfterEv, uid, uid, interactUsing.Used)
                         {
                             BreakOnDamage = false,
-                            BreakOnMove = true,
+                            BreakOnTargetMove = true,
                             NeedHand = true
                         };
 

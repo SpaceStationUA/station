@@ -122,7 +122,7 @@ namespace Content.Server.Disease
 
             _doAfterSystem.TryStartDoAfter(new DoAfterArgs(EntityManager, args.User, swab.SwabDelay, new DiseaseSwabDoAfterEvent(), uid, target: args.Target, used: uid)
             {
-                BreakOnMove = true,
+                BreakOnTargetMove = true,
                 // BreakOnUserMove = true,
                 NeedHand = true
             });

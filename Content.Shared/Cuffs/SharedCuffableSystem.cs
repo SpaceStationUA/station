@@ -480,7 +480,7 @@ namespace Content.Shared.Cuffs
 
             var doAfterEventArgs = new DoAfterArgs(EntityManager, user, cuffTime, new AddCuffDoAfterEvent(), handcuff, target, handcuff)
             {
-                BreakOnMove = true,
+                BreakOnTargetMove = true,
                 BreakOnWeightlessMove = false,
                 BreakOnDamage = true,
                 NeedHand = true,
@@ -576,7 +576,7 @@ namespace Content.Shared.Cuffs
 
             var doAfterEventArgs = new DoAfterArgs(EntityManager, user, uncuffTime, new UnCuffDoAfterEvent(), target, target, cuffsToRemove)
             {
-                BreakOnMove = true,
+                BreakOnTargetMove = true,
                 BreakOnWeightlessMove = false,
                 BreakOnDamage = true,
                 NeedHand = true,

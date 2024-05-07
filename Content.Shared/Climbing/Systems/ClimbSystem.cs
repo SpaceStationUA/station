@@ -221,7 +221,7 @@ public sealed partial class ClimbSystem : VirtualController
             target: climbable,
             used: entityToMove)
         {
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
             BreakOnDamage = true
         };
 

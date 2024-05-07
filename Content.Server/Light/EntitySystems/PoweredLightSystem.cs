@@ -150,7 +150,7 @@ namespace Content.Server.Light.EntitySystems
             // removing a working bulb, so require a delay
             _doAfterSystem.TryStartDoAfter(new DoAfterArgs(EntityManager, userUid, light.EjectBulbDelay, new PoweredLightDoAfterEvent(), uid, target: uid)
             {
-                BreakOnMove = true,
+                BreakOnTargetMove = true,
                 BreakOnDamage = true,
             });
 
