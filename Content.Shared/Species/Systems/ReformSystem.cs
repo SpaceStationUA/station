@@ -69,7 +69,7 @@ public sealed partial class ReformSystem : EntitySystem
         // Create a doafter & start it
         var doAfter = new DoAfterArgs(EntityManager, uid, comp.ReformTime, new ReformDoAfterEvent(), uid)
         {
-            BreakOnTargetMove = true,
+            BreakOnUserMove = true,
             BlockDuplicate = true,
             BreakOnDamage = true,
             CancelDuplicate = true,

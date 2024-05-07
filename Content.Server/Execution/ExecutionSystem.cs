@@ -182,6 +182,7 @@ public sealed class ExecutionSystem : EntitySystem
             new DoAfterArgs(EntityManager, attacker, executionTime, new ExecutionDoAfterEvent(), weapon, target: victim, used: weapon)
             {
                 BreakOnTargetMove = true,
+                BreakOnUserMove = true,
                 BreakOnDamage = true,
                 NeedHand = true
             };
@@ -207,6 +208,7 @@ public sealed class ExecutionSystem : EntitySystem
             new DoAfterArgs(EntityManager, attacker, GunExecutionTime, new ExecutionDoAfterEvent(), weapon, target: victim, used: weapon)
             {
                 BreakOnTargetMove = true,
+                BreakOnUserMove = true,
                 BreakOnDamage = true,
                 NeedHand = true
             };

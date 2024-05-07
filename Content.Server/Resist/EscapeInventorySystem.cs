@@ -73,7 +73,8 @@ public sealed class EscapeInventorySystem : EntitySystem
 
         var doAfterEventArgs = new DoAfterArgs(EntityManager, user, component.BaseResistTime * multiplier, new EscapeInventoryEvent(), user, target: container)
         {
-            BreakOnTargetMove = true,
+            BreakOnTargetMove = false,
+            BreakOnUserMove = true,
             BreakOnDamage = true,
             NeedHand = false
         };

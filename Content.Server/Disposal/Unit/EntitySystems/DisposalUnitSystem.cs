@@ -517,6 +517,7 @@ public sealed class DisposalUnitSystem : SharedDisposalUnitSystem
         {
             BreakOnDamage = true,
             BreakOnTargetMove = true,
+            BreakOnUserMove = true,
             NeedHand = false
         };
 

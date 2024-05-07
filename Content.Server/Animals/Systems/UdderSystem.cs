@@ -76,8 +76,9 @@ internal sealed class UdderSystem : EntitySystem
 
         var doargs = new DoAfterArgs(EntityManager, userUid, 5, new MilkingDoAfterEvent(), udder, udder, used: containerUid)
         {
-            BreakOnTargetMove = true,
+            BreakOnUserMove = true,
             BreakOnDamage = true,
+            BreakOnTargetMove = true,
             MovementThreshold = 1.0f,
         };
 

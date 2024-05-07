@@ -107,8 +107,9 @@ namespace Content.Server.Medical.Stethoscope
         {
             _doAfterSystem.TryStartDoAfter(new DoAfterArgs(EntityManager, user, comp.Delay, new StethoscopeDoAfterEvent(), scope, target: target, used: scope)
             {
-                NeedHand = true,
                 BreakOnTargetMove = true,
+                BreakOnUserMove = true,
+                NeedHand = true
             });
         }
 

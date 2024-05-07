@@ -289,6 +289,7 @@ namespace Content.Server.Construction
                         {
                             BreakOnDamage = false,
                             BreakOnTargetMove = true,
+                            BreakOnUserMove = true,
                             NeedHand = true
                         };
 

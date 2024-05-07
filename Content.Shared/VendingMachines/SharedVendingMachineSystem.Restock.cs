@@ -71,6 +71,7 @@ public abstract partial class SharedVendingMachineSystem
             target: target, used: uid)
         {
             BreakOnTargetMove = true,
+            BreakOnUserMove = true,
             BreakOnDamage = true,
             NeedHand = true
         };

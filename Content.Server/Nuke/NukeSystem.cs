@@ -594,6 +594,7 @@ public sealed class NukeSystem : EntitySystem
         {
             BreakOnDamage = true,
             BreakOnTargetMove = true,
+            BreakOnUserMove = true,
             NeedHand = true
         };
 

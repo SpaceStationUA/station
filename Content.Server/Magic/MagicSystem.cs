@@ -119,8 +119,9 @@ public sealed class MagicSystem : EntitySystem
     {
         var doAfterEventArgs = new DoAfterArgs(EntityManager, args.User, component.LearnTime, new SpellbookDoAfterEvent(), uid, target: uid)
         {
-            BreakOnDamage = true,
             BreakOnTargetMove = true,
+            BreakOnUserMove = true,
+            BreakOnDamage = true,
             NeedHand = true //What, are you going to read with your eyes only??
         };
 

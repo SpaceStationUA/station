@@ -125,7 +125,7 @@ public abstract partial class SharedToolSystem : EntitySystem
         {
             BreakOnDamage = true,
             BreakOnTargetMove = true,
-            BreakOnWeightlessMove = false,
+            BreakOnUserMove = true,
             NeedHand = tool != user,
             AttemptFrequency = IsWelder(tool) ? AttemptFrequency.EveryTick : AttemptFrequency.Never
         };

@@ -96,6 +96,7 @@ namespace Content.Server.Forensics
             _doAfterSystem.TryStartDoAfter(new DoAfterArgs(EntityManager, user, component.ScanDelay, new ForensicScannerDoAfterEvent(), uid, target: target, used: uid)
             {
                 BreakOnTargetMove = true,
+                BreakOnUserMove = true,
                 NeedHand = true
             });
         }

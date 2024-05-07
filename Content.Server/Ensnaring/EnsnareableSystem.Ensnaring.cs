@@ -114,11 +114,12 @@ public sealed partial class EnsnareableSystem
             return;
 
         var freeTime = user == target ? component.BreakoutTime : component.FreeTime;
-        var BreakOnTargetMove = !component.CanMoveBreakout;
+        var breakOnMove = !component.CanMoveBreakout;
 
         var doAfterEventArgs = new DoAfterArgs(EntityManager, user, freeTime, new EnsnareableDoAfterEvent(), target, target: target, used: ensnare)
         {
-            BreakOnTargetMove = BreakOnTargetMove,
+            BreakOnUserMove = breakOnMove,
+            BreakOnTargetMove = breakOnMove,
             BreakOnDamage = false,
             NeedHand = true,
             BlockDuplicate = true,

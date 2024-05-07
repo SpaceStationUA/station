@@ -171,6 +171,29 @@
    - squeaked.
    - squeaked!
 
+- type: emote
+  id: Click
+  icon: Interface/Emotes/click.png
+  category: Vocal
+  chatMessages: [клікає.]
+  chatTriggers:
+   - click
+   - click.
+   - click!
+   - click?
+   - clicks
+   - clicks.
+   - clicks!
+   - clicks?
+   - clicked
+   - clicked.
+   - clicked!
+   - clicked?
+   - clicking
+   - clicking.
+   - clicking!
+   - clicking?
+
 # hand emotes
 - type: emote
   id: Clap
@@ -247,93 +270,25 @@
   category: Vocal
   chatMessages: [Wehs!]
 
-# Machine Emotes
 - type: emote
-  id: Beep
+  id: Chirp
+  icon: Interface/Emotes/chirp.png
   category: Vocal
-  chatMessages: [beeps.]
+  chatMessages: [щебече.]
   chatTriggers:
-    - beep
-    - beep!
-    - beep.
-    - beeps
-    - beeps.
-    - beeps!
-    - beeped
-    - beeped.
-    - beeped!
-    - beeping
-    - beeping.
-    - beeping!
-
-- type: emote
-  id: Chime
-  category: Vocal
-  chatMessages: [chimes.]
-  chatTriggers:
-    - chime
-    - chime.
-    - chime!
-    - chimes
-    - chimes.
-    - chimes!
-    - chimed
-    - chimed.
-    - chimed!
-    - chiming
-    - chiming,
-    - chiming!
-
-- type: emote
-  id: Buzz-Two
-  category: Vocal
-  chatMessages: [buzzesTwice.]
-  chatTriggers:
-    - buzztwice
-    - buzztwice.
-    - buzztwice!
-    - buzzstwice
-    - buzzstwice.
-    - buzzstwice!
-    - buzzestwice
-    - buzzestwice.
-    - buzzestwice!
-    - buzzingtwice
-    - buzzingtwice.
-    - buzzingtwice!
-    - buzzedtwice
-    - buzzedtwice.
-    - buzzedtwice!
-    - buzz twice
-    - buzz twice.
-    - buzz twice!
-    - buzzs twice
-    - buzzs twice.
-    - buzzs twice!
-    - buzzes twice
-    - buzzes twice.
-    - buzzes twice!
-    - buzzing twice
-    - buzzing twice.
-    - buzzing twice!
-    - buzzed twice
-    - buzzed twice.
-    - buzzed twice!
-
-- type: emote
-  id: Ping
-  category: Vocal
-  chatMessages: [pings.]
-  chatTriggers:
-    - ping
-    - ping.
-    - ping!
-    - pings
-    - pings.
-    - pings!
-    - pinged
-    - pinged.
-    - pinged!
-    - pinging
-    - pinging.
-    - pinging!
+    - chirp
+    - chirp.
+    - chirp!
+    - chirp?
+    - chirps
+    - chirps.
+    - chirps!
+    - chirps?
+    - chirped
+    - chirped.
+    - chirped!
+    - chirped?
+    - chirping
+    - chirping.
+    - chirping!
+    - chirping?

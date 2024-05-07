@@ -634,6 +634,7 @@ public sealed partial class DeepFryerSystem : SharedDeepfryerSystem
         {
             BreakOnDamage = true,
             BreakOnTargetMove = true,
+            BreakOnUserMove = true,
             MovementThreshold = 0.25f,
             NeedHand = true
         };

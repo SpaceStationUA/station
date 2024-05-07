@@ -232,6 +232,7 @@ namespace Content.Server.Carrying
             var args = new DoAfterArgs(EntityManager, carrier, length, ev, carried, target: carried)
             {
                 BreakOnTargetMove = true,
+                BreakOnUserMove = true,
                 NeedHand = true
             };
 

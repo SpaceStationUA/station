@@ -181,8 +181,9 @@ public sealed class FoodSystem : EntitySystem
             target: target,
             used: food)
         {
-            BreakOnTargetMove = forceFeed,
+            BreakOnUserMove = forceFeed,
             BreakOnDamage = true,
+            BreakOnTargetMove = forceFeed,
             MovementThreshold = 0.01f,
             DistanceThreshold = MaxFeedDistance,
             // Mice and the like can eat without hands.

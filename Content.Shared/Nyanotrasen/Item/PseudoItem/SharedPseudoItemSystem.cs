@@ -150,6 +150,7 @@ public abstract partial class SharedPseudoItemSystem : EntitySystem
         var args = new DoAfterArgs(EntityManager, inserter, 5f, ev, toInsert, toInsert, storageEntity)
         {
             BreakOnTargetMove = true,
+            BreakOnUserMove = true,
             NeedHand = true
         };
 

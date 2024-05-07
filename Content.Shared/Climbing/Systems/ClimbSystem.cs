@@ -222,6 +222,7 @@ public sealed partial class ClimbSystem : VirtualController
             used: entityToMove)
         {
             BreakOnTargetMove = true,
+            BreakOnUserMove = true,
             BreakOnDamage = true
         };
 

@@ -143,6 +143,7 @@ public sealed partial class CryoPodSystem : SharedCryoPodSystem
         {
             BreakOnDamage = true,
             BreakOnTargetMove = true,
+            BreakOnUserMove = true,
             NeedHand = false,
         };
         _doAfterSystem.TryStartDoAfter(doAfterArgs);
