@@ -85,3 +85,26 @@
     layers:
       - state: box_security
       - state: forensic
+
+- type: entity
+  name: tracking implant box
+  parent: BoxCardboard
+  id: BoxTracking
+  description: A box full of zipties.
+  components:
+  - type: Item
+    shape:
+    - 0,0,1,1
+    whitelist:
+      components:
+      - Tracking
+  - type: StorageFill
+    contents:
+      - id: TrackingImplanter
+        amount: 6
+  - type: Storage
+    grid:
+    - 0,0,2,3
+  - type: Sprite
+    layers:
+      - state: box_security

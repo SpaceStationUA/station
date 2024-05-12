@@ -1,6 +1,7 @@
 id-card-access-level-command = Місток
 id-card-access-level-captain = Кеп
 id-card-access-level-head-of-personnel = ГПерсоналу
+id-card-access-level-blueshield = Синій щит
 
 id-card-access-level-head-of-security = ГБезпеки
 id-card-access-level-security = Безпека
