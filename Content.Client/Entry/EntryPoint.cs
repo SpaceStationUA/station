@@ -35,6 +35,7 @@ using Robust.Shared.Configuration;
 using Robust.Shared.ContentPack;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Replays;
+using Content.Client._Pirate.TTS;
 
 namespace Content.Client.Entry
 {

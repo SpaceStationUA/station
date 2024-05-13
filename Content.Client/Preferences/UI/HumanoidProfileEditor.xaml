@@ -115,6 +115,12 @@
                                     <Control HorizontalExpand="True"/>
                                     <OptionButton Name="CSpawnPriorityButton" HorizontalAlignment="Right" />
                                 </BoxContainer>
+                                <BoxContainer HorizontalExpand="True">
+                                    <Label Text="{Loc 'humanoid-profile-editor-voice-label'}" />
+                                    <Control HorizontalExpand="True"/>
+                                    <OptionButton Name="CVoiceButton" HorizontalAlignment="Right" />
+									<Button Name="CVoicePlayButton" Text="{Loc 'humanoid-profile-editor-voice-play'}" MaxWidth="80" />
+                                </BoxContainer>
                             </BoxContainer>
                             <!-- Skin -->
                             <BoxContainer Margin="10" HorizontalExpand="True" Orientation="Vertical">
