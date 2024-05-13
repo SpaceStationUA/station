@@ -68,8 +68,7 @@ public sealed class TTSManager
 
         var fileName = text.GetHashCode().ToString() + ".wav";
         string strCmdText;
-        strCmdText = "export DYLD_LIBRARY_PATH=~/downloads/tts/piper/modules/piper/pp/install/lib && echo '" + text + "'| ~/downloads/tts/piper/piper --model ~/downloads/tts/piper/uk_UA-ukrainian_tts-medium.onnx --output_file " + fileName;
-
+        strCmdText = "echo '" + text + "'| ~/piper/piper --model ~/piper/uk_UA-ukrainian_tts-medium.onnx --output_file " + fileName;
         var proc = new Process
         {
             StartInfo = new ProcessStartInfo
