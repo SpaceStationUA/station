@@ -15,4 +15,14 @@ public sealed class SimpleStationCCVars
     public static readonly CVarDef<float> SiliconNpcUpdateTime =
         CVarDef.Create("silicon.npcupdatetime", 1.5f, CVar.SERVERONLY);
     #endregion Silicons
+
+    #region Tts
+
+    public static readonly CVarDef<float> TTSVolume =
+        CVarDef.Create("tts.volume", 0.5f, CVar.CLIENTONLY);
+
+    public static readonly CVarDef<bool> TTSEnabled =
+        CVarDef.Create("tts.enabled", false, CVar.SERVERONLY);
+    #endregion Tts
+
 }
