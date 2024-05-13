@@ -1,0 +1,43 @@
+ent-SinkEmpty = sink
+   .desc = The faucets have been tightened to the maximum possible torque but are still known to drip.
+ent-Sink = sink
+   .desc = "desc"
+ent-SinkWide = wide sink
+   .desc = "desc"
+ent-SinkStemless = sink
+   .desc = "desc"
+ent-SinkStemlessWater = sink
+   .desc = "desc"
+ent-Bookshelf = bookshelf
+   .desc = Mostly filled with books.
+ent-Memorial = memorial
+   .desc = Commemorating something.
+ent-SS13Memorial = Tomb of the Unknown Employee
+   .desc = Here rests an unknown employee
+Unknown by name or rank
+Whose acts will not be forgotten
+
+ent-Bed = bed
+   .desc = This is used to lie in, sleep in or strap on. Resting here provides extremely slow healing.
+ent-MedicalBed = medical bed
+   .desc = A hospital bed for patients to recover in. Resting here provides fairly slow healing.
+ent-DogBed = dog bed
+   .desc = A comfy-looking dog bed. You can even strap your pet in, in case the gravity turns off.
+ent-Mattress = mattress
+   .desc = Better sleep in that then on the floor i guess.
+ent-WebBed = web bed
+   .desc = You got webbed.
+ent-PsychBed = psychologist bed
+   .desc = An upholstered bed for the psychological care of patients.
+ent-CarpetBase = carpet
+   .desc = Fancy walking surface.
+ent-Carpet = "name"
+   .desc = "desc"
+ent-CarpetBlack = "name"
+   .desc = "desc"
+ent-CarpetPink = "name"
+   .desc = "desc"
+ent-CarpetBlue = "name"
+   .desc = "desc"
+ent-CarpetGreen = "name"
+   .desc = "desc"

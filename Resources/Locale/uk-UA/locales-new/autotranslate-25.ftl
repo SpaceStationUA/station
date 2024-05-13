@@ -1,0 +1,43 @@
+ent-PortableGeneratorSuperPacman = S.U.P.E.R.P.A.C.M.A.N.-type portable generator
+   .desc = An advanced generator for powering departments.
+Runs off uranium sheets and is rated for up to 50 kW.
+ent-PortableGeneratorJrPacman = J.R.P.A.C.M.A.N.-type portable generator
+   .desc = A small generator capable of powering individual rooms, in case of emergencies.
+Runs off welding fuel and is rated for up to 8 kW.
+Rated ages 3 and up.
+ent-TegCenter = thermo-electric generator
+   .desc = A high efficiency generator that uses energy transfer between hot and cold gases to produce electricity.
+ent-TegCirculator = circulator
+   .desc = Passes gas through the thermo-electric generator to exchange heat. Has an inlet and outlet port.
+ent-TegCirculatorArrow = "name"
+   .desc = "desc"
+ent-SolarPanelBasePhysSprite = solar panel
+   .desc = "desc"
+ent-SolarPanel = solar panel
+   .desc = A solar panel that generates power.
+ent-SolarPanelBroken = solar panel
+   .desc = A broken solar panel.
+ent-SolarAssembly = solar assembly
+   .desc = A solar assembly. Anchor to a wire to start building a solar panel.
+ent-SolarTracker = solar tracker
+   .desc = A solar tracker. Tracks the nearest star.
+ent-AmeController = AME controller
+   .desc = It's a controller for the antimatter engine.
+ent-AmeControllerUnanchored = "name"
+   .desc = "desc"
+ent-AmeShielding = AME shielding
+   .desc = Keeps the antimatter in and the matter out.
+ent-BaseGenerator = generator
+   .desc = A high efficiency thermoelectric generator.
+ent-BaseGeneratorWallmount = wallmount generator
+   .desc = A high efficiency thermoelectric generator stuffed in a wall cabinet.
+ent-BaseGeneratorWallmountFrame = wallmount generator frame
+   .desc = A construction frame for a wallmount generator.
+ent-GeneratorBasic = "name"
+   .desc = "desc"
+ent-GeneratorBasic15kW = "name"
+   .desc = "desc"
+ent-GeneratorWallmountBasic = "name"
+   .desc = "desc"
+ent-GeneratorWallmountAPU = shuttle APU
+   .desc = An auxiliary power unit for a shuttle - 6kW.
