@@ -22,7 +22,7 @@ public sealed class SimpleStationCCVars
         CVarDef.Create("tts.volume", 0.5f, CVar.CLIENTONLY);
 
     public static readonly CVarDef<bool> TTSEnabled =
-        CVarDef.Create("tts.enabled", true, CVar.SERVERONLY);
+        CVarDef.Create("tts.enabled", false, CVar.SERVERONLY);
     #endregion Tts
 
 }
