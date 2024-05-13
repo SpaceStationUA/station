@@ -56,8 +56,12 @@ namespace Content.Server.Database
                 .IsUnique();
 
             modelBuilder.Entity<Trait>()
-                        .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.TraitName})
-                        .IsUnique();
+                .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.TraitName})
+                .IsUnique();
+
+            modelBuilder.Entity<Loadout>()
+                .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.LoadoutName})
+                .IsUnique();
 
             modelBuilder.Entity<Loadout>()
                         .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.LoadoutName})

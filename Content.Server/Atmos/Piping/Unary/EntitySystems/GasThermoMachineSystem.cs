@@ -110,7 +110,7 @@ namespace Content.Server.Atmos.Piping.Unary.EntitySystems
                 _atmosphereSystem.AddHeat(heatExchangeGasMixture, dQPipe);
                 thermoMachine.LastEnergyDelta = dQPipe;
 
-                if (dQLeak != 0f && _atmosphereSystem.GetContainingMixture(uid, args.Grid, args.Map, excite: true) is { } containingMixture)
+                if (dQLeak != 0f && _atmosphereSystem.GetContainingMixture(uid, excite: true) is { } containingMixture)
                     _atmosphereSystem.AddHeat(containingMixture, dQLeak);
             }
 

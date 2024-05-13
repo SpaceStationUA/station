@@ -17,6 +17,7 @@ namespace Content.Server.Connection
     public interface IConnectionManager
     {
         void Initialize();
+        Task<bool> HasPrivilegedJoin(NetUserId userId);
     }
 
     /// <summary>
@@ -162,14 +163,13 @@ namespace Content.Server.Connection
                 }
             }
 
-            var wasInGame = EntitySystem.TryGet<GameTicker>(out var ticker) &&
-                            ticker.PlayerGameStatuses.TryGetValue(userId, out var status) &&
-                            status == PlayerGameStatus.JoinedGame;
-            var adminBypass = _cfg.GetCVar(CCVars.AdminBypassMaxPlayers) && adminData != null;
-            if ((_plyMgr.PlayerCount >= _cfg.GetCVar(CCVars.SoftMaxPlayers) && !adminBypass) && !wasInGame)
-            {
+
+            var isPrivileged = await HasPrivilegedJoin(userId);
+            var isQueueEnabled = _cfg.GetCVar(CCVars.QueueEnabled);
+
+            if (_plyMgr.PlayerCount >= _cfg.GetCVar(CCVars.SoftMaxPlayers) && !isPrivileged && !isQueueEnabled)
                 return (ConnectionDenyReason.Full, Loc.GetString("soft-player-cap-full"), null);
-            }
+
 
             var bans = await _db.GetServerBansAsync(addr, userId, hwId, includeUnbanned: false);
             if (bans.Count > 0)
@@ -264,6 +264,15 @@ namespace Content.Server.Connection
             {
                 _connectedWhitelistedPlayers.Remove(e.Channel.UserId);
             }
+        }
+
+        public async Task<bool> HasPrivilegedJoin(NetUserId userId)
+        {
+            var isAdmin = await _dbManager.GetAdminDataForAsync(userId) != null;
+            var wasInGame = EntitySystem.TryGet<GameTicker>(out var ticker) &&
+                            ticker.PlayerGameStatuses.TryGetValue(userId, out var status) &&
+                            status == PlayerGameStatus.JoinedGame;
+            return isAdmin || wasInGame;
         }
     }
 }

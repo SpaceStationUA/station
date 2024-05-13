@@ -298,7 +298,7 @@ namespace Content.Server.Database
             profile.Loadouts.Clear();
             profile.Loadouts.AddRange(
                 humanoid.LoadoutPreferences
-                        .Select(t => new Loadout {LoadoutName = t})
+                    .Select(t => new Loadout {LoadoutName = t})
             );
 
             return profile;

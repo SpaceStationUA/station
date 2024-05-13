@@ -54,3 +54,15 @@
         - ChiefMedicalOfficer
   items:
     - ClothingHeadHatBeretCmo
+
+- type: loadout
+  id: LoadoutCommandCMOShoesBootsWinter
+  category: Jobs
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - ChiefMedicalOfficer
+  items:
+    - ClothingShoesBootsWinterChiefMedicalOfficer

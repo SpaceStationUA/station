@@ -1,5 +1,4 @@
 using Robust.Shared.Audio;
-using Content.Shared.Whitelist;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
@@ -19,18 +18,6 @@ public abstract partial class SharedDisposalUnitComponent : Component
     public SoundSpecifier? FlushSound = new SoundPathSpecifier("/Audio/Machines/disposalflush.ogg");
 
     /// <summary>
-    /// Blacklists (prevents) entities listed from being placed inside.
-    /// </summary>
-    [DataField]
-    public EntityWhitelist? Blacklist;
-
-    /// <summary>
-    /// Whitelists (allows) entities listed from being placed inside.
-    /// </summary>
-    [DataField]
-    public EntityWhitelist? Whitelist;
-
-    /// <summary>
     /// Sound played when an object is inserted into the disposal unit.
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite), DataField("soundInsert")]
@@ -46,20 +33,20 @@ public abstract partial class SharedDisposalUnitComponent : Component
     /// <summary>
     /// State for this disposals unit.
     /// </summary>
-    [DataField]
+    [DataField("state")]
     public DisposalsPressureState State;
 
     // TODO: Just make this use vaulting.
     /// <summary>
     /// We'll track whatever just left disposals so we know what collision we need to ignore until they stop intersecting our BB.
     /// </summary>
-    [ViewVariables, DataField]
+    [ViewVariables, DataField("recentlyEjected")]
     public List<EntityUid> RecentlyEjected = new();
 
     /// <summary>
     /// Next time the disposal unit will be pressurized.
     /// </summary>
-    [DataField(customTypeSerializer:typeof(TimeOffsetSerializer))]
+    [DataField("nextPressurized", customTypeSerializer:typeof(TimeOffsetSerializer))]
     public TimeSpan NextPressurized = TimeSpan.Zero;
 
     /// <summary>
@@ -71,60 +58,63 @@ public abstract partial class SharedDisposalUnitComponent : Component
     /// <summary>
     /// How long it takes from the start of a flush animation to return the sprite to normal.
     /// </summary>
-    [DataField]
+    [DataField("flushDelay")]
     public TimeSpan FlushDelay = TimeSpan.FromSeconds(3);
+
+    [DataField("mobsCanEnter")]
+    public bool MobsCanEnter = true;
 
     /// <summary>
     /// Removes the pressure requirement for flushing.
     /// </summary>
-    [DataField, ViewVariables(VVAccess.ReadWrite)]
+    [DataField("disablePressure"), ViewVariables(VVAccess.ReadWrite)]
     public bool DisablePressure;
 
     /// <summary>
-    /// Last time that an entity tried to exit this disposal unit.
+    ///     Last time that an entity tried to exit this disposal unit.
     /// </summary>
     [ViewVariables]
     public TimeSpan LastExitAttempt;
 
-    [DataField]
+    [DataField("autoEngageEnabled")]
     public bool AutomaticEngage = true;
 
     [ViewVariables(VVAccess.ReadWrite)]
-    [DataField]
+    [DataField("autoEngageTime")]
     public TimeSpan AutomaticEngageTime = TimeSpan.FromSeconds(30);
 
     /// <summary>
-    /// Delay from trying to enter disposals ourselves.
+    ///     Delay from trying to enter disposals ourselves.
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
-    [DataField]
+    [DataField("entryDelay")]
     public float EntryDelay = 0.5f;
 
     /// <summary>
-    /// Delay from trying to shove someone else into disposals.
+    ///     Delay from trying to shove someone else into disposals.
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
     public float DraggedEntryDelay = 2.0f;
 
     /// <summary>
-    /// Container of entities inside this disposal unit.
+    ///     Container of entities inside this disposal unit.
     /// </summary>
     [ViewVariables] public Container Container = default!;
 
     // TODO: Network power shit instead fam.
-    [ViewVariables, DataField]
+    [ViewVariables, DataField("powered")]
     public bool Powered;
 
     /// <summary>
     /// Was the disposals unit engaged for a manual flush.
     /// </summary>
-    [ViewVariables(VVAccess.ReadWrite), DataField]
+    [ViewVariables(VVAccess.ReadWrite), DataField("engaged")]
     public bool Engaged;
 
     /// <summary>
     /// Next time this unit will flush. Is the lesser of <see cref="FlushDelay"/> and <see cref="AutomaticEngageTime"/>
     /// </summary>
-    [ViewVariables, DataField(customTypeSerializer:typeof(TimeOffsetSerializer))]
+    [ViewVariables, DataField("nextFlush", customTypeSerializer:typeof(TimeOffsetSerializer))]
     public TimeSpan? NextFlush;
 
     [Serializable, NetSerializable]
@@ -140,8 +130,8 @@ public abstract partial class SharedDisposalUnitComponent : Component
     {
         UnAnchored,
         Anchored,
-        OverlayFlushing,
-        OverlayCharging
+        Flushing,
+        Charging
     }
 
     [Serializable, NetSerializable]

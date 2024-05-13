@@ -396,9 +396,8 @@
   id: AirlockEVALocked
   suffix: EVA, Locked
   components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsExternal ]
+  - type: AccessReader
+    access: [["External"]]
 
 # Glass Airlocks
 - type: entity
@@ -769,9 +768,8 @@
   id: AirlockSyndicateNukeopGlassLocked
   suffix: Nukeop, Locked
   components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsNukeop ]
+  - type: AccessReader
+    access: [["NuclearOperative"]]
 
 # Maintenance Hatches
 - type: entity
@@ -1048,11 +1046,8 @@
   id: AirlockMaintArmoryLocked
   suffix: Armory, Locked
   components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsArmory ]
-  - type: Wires
-    layoutId: AirlockArmory
+  - type: AccessReader
+    access: [["Armory"]]
 
 - type: entity
   parent: AirlockSyndicate
@@ -1209,7 +1204,7 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsRobotics ]
-      
+
 - type: entity
   parent: AirlockScienceGlass
   id: AirlockRoboticsGlassLocked

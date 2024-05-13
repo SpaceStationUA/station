@@ -1,8 +1,6 @@
-using System.Diagnostics.CodeAnalysis;
 using Content.Shared.Clothing.Components;
-using Content.Shared.Humanoid.Prototypes;
+using Content.Shared.Clothing.Loadouts.Prototypes;
 using Content.Shared.Inventory;
-using Content.Shared.Loadouts;
 using Content.Shared.Preferences;
 using Content.Shared.Roles;
 using Content.Shared.Station;
@@ -11,8 +9,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 
-namespace Content.Shared.Clothing;
-
+namespace Content.Shared.Clothing.Loadouts.Systems;
 
 public sealed class LoadoutSystem : EntitySystem
 {
@@ -28,7 +25,6 @@ public sealed class LoadoutSystem : EntitySystem
 
         SubscribeLocalEvent<LoadoutComponent, MapInitEvent>(OnMapInit);
     }
-
 
     private void OnMapInit(EntityUid uid, LoadoutComponent component, MapInitEvent args)
     {
@@ -110,7 +106,7 @@ public sealed class LoadoutSystem : EntitySystem
 
 
                 // Equip the loadout
-                if (!_inventory.TryEquip(uid, item, slot, false, !string.IsNullOrEmpty(slot), true))
+                if (!_inventory.TryEquip(uid, item, slot, true, !string.IsNullOrEmpty(slot), true))
                     failedLoadouts.Add(item);
             }
         }
@@ -130,7 +126,7 @@ public sealed class LoadoutSystem : EntitySystem
 
         foreach (var requirement in requirements)
         {
-            // set valid to false if the requirement is invalid and not inverted, if it's inverted set it to true when it's valid
+            // Set valid to false if the requirement is invalid and not inverted, if it's inverted set it to true when it's valid
             if (!requirement.IsValid(job, profile, playTimes, entityManager, prototypeManager, configManager, out var reason))
             {
                 if (valid)

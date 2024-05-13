@@ -12,7 +12,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Utility;
 
-namespace Content.Shared.Loadouts;
+namespace Content.Shared.Clothing.Loadouts.Systems;
 
 [ImplicitDataDefinitionForInheritors, MeansImplicitUse]
 [Serializable, NetSerializable]
