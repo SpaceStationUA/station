@@ -31,12 +31,12 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
     [ValidatePrototypeId<SpeciesPrototype>]
     public const string DefaultSpecies = "Human";
-    public const string DefaultVoice = "TEST";
+    public const string DefaultVoice = "Lada";
     public static readonly Dictionary<Sex, string> DefaultSexVoice = new()
     {
-        {Sex.Male, "TEST"},
-        {Sex.Female, "TEST2"},
-        {Sex.Unsexed, "TEST3"},
+        {Sex.Male, "Mykyta"},
+        {Sex.Female, "Tetiana"},
+        {Sex.Unsexed, "Lada"},
     };
 
     public override void Initialize()
