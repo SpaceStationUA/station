@@ -68,7 +68,7 @@ public sealed class TTSManager
 
         var fileName = text.GetHashCode().ToString() + ".wav";
         string strCmdText;
-        strCmdText = "echo '" + text + "'| ~/piper/piper --model ~/piper/uk_UA-ukrainian_tts-medium.onnx --output_file " + fileName;
+        strCmdText = "echo '" + text + "'| /home/alwyzon/piper/piper --model /home/alwyzon/piper/uk_UA-ukrainian_tts-medium.onnx --output_file " + fileName;
         var proc = new Process
         {
             StartInfo = new ProcessStartInfo
