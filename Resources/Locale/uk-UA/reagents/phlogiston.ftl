@@ -1,1 +1,1 @@
-﻿phlogiston-plasma-created = The mixture bubbles, and plasma rises from it!
+﻿phlogiston-plasma-created = Суміш пузириться, і з неї піднімається плазма!

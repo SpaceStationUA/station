@@ -1,1 +1,1 @@
-﻿suicide-prevented = You tried to suicide, but only your spirit escapes.
+﻿suicide-prevented = Ти намагався накласти на себе руки, але вийшов лише твій дух.

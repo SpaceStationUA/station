@@ -4,7 +4,7 @@ random-sentience-event-data-2 = графіків передбачень
 random-sentience-event-data-3 = нашої всемогутності
 random-sentience-event-data-4 = трафіків комунікації з вашої станції
 random-sentience-event-data-5 = енергетичної нестабільністі що ми зафіксували
-random-sentience-event-data-6 = [ЗРЕДАГОВАНО]
+random-sentience-event-data-6 = [ВІДРЕДАГОВАНО]
 
 ## Phrases used to describe the level of intelligence, though it doesn't actually affect anything.
 random-sentience-event-strength-1 = людина
@@ -27,7 +27,7 @@ station-event-random-sentience-announcement = На основі { $data }, ми 
 
 ## Ghost role description
 
-station-event-random-sentience-role-description = Ви розумна { $name } істота, що отримав життя завдяки космічній магії.
+station-event-random-sentience-role-description = Ви розумна { $name } істота, що отримала життя завдяки космічній магії.
 
 # Flavors
 station-event-random-sentience-flavor-mechanical = механічні

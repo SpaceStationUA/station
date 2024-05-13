@@ -1,8 +1,8 @@
-ventriloquist-puppet-insert-hand = You insert your hand into the puppet.
-ventriloquist-puppet-remove-hand = You remove your hand from the puppet.
+ventriloquist-puppet-insert-hand = Ви вставили руку в ляльку.
+ventriloquist-puppet-remove-hand = Ви вийняли руку з ляльки.
 
-ventriloquist-puppet-cant-speak = You cannot speak without a helping hand.
-ventriloquist-puppet-inserted-hand = You have a helping hand.
-ventriloquist-puppet-removed-hand = you have lost your helping hand.
-ventriloquist-puppet-role-name = A dummy
-ventriloquist-puppet-role-description = Become a dummy, dummy!
+ventriloquist-puppet-cant-speak = Ви не можете розмовляти без допоміжної руки.
+ventriloquist-puppet-inserted-hand = У вас є допоміжна руки.
+ventriloquist-puppet-removed-hand = ви втратили допоміжну руку.
+ventriloquist-puppet-role-name = Лялька
+ventriloquist-puppet-role-description = Стань лялькою, лялька!

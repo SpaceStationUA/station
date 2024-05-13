@@ -1,4 +1,4 @@
-reagent-name-carpetium = карпетій
+reagent-name-carpetium = килимій
 reagent-desc-carpetium = Містична хімічна речовина, зазвичай постачається з Планети Клоунів, яка вкриває все, до чого торкається, килимом.
 
 reagent-name-fiber = волокно

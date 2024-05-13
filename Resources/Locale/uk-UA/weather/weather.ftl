@@ -1,3 +1,3 @@
-cmd-weather-desc = Sets the weather for the current map.
+cmd-weather-desc = Встановлює погоду на поточну мапу.
 cmd-weather-help = weather <mapId> <prototype / null>
 cmd-weather-hint = Weather prototype

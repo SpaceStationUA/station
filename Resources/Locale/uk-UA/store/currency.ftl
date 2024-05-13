@@ -7,6 +7,6 @@ store-currency-display-debugdollar = {$amount ->
     [one] Debug Dollar
     *[other] Debug Dollars
 }
-store-currency-display-telecrystal = TC
-store-currency-display-stolen-essence = Stolen Essence
+store-currency-display-telecrystal = ТК
+store-currency-display-stolen-essence = Викрадена есенція
 store-currency-display-experince = ОД

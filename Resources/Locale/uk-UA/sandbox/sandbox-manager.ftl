@@ -1,7 +1,7 @@
 sandbox-window-title = Панель пісочниці
 sandbox-window-respawn-button = Відродження
 sandbox-window-spawn-entities-button = Створення сутностей
-sandbox-window-spawn-tiles-button = Створення тайлів
+sandbox-window-spawn-tiles-button = Створення плиток
 sandbox-window-spawn-decals-button = Створення наклейок
 sandbox-window-grant-full-access-button = Надати повний доступ
 sandbox-window-ghost-button = Привид

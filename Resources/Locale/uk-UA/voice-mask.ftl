@@ -1,4 +1,4 @@
-voice-mask-name-change-window = Змінити імʼя войс маски
+voice-mask-name-change-window = Змінити імʼя голосової маски
 voice-mask-name-change-info = Введіть бажане імʼя для імітації.
 voice-mask-name-change-set = Встановити імʼя
 voice-mask-name-change-set-description = Зміни імʼя щоб вдавати когось іншого.

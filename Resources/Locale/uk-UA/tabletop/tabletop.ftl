@@ -10,7 +10,7 @@ tabletop-chess-board-name = Шахи
 tabletop-chess-flip = Перевернути дошку
 
 ## Parchís
-tabletop-parchis-board-name = Parchís
+tabletop-parchis-board-name = Лудо
 
 ## Backgammon
 tabletop-backgammon-board-name = Нарди
@@ -19,4 +19,4 @@ tabletop-backgammon-board-name = Нарди
 tabletop-checkers-board-name = Шашки
 
 ## Battlemap
-tabletop-battlemap-board-name = Battlemap
+tabletop-battlemap-board-name = Бойова мапа

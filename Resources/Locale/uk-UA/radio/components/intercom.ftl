@@ -1,4 +1,4 @@
-﻿intercom-menu-title = Інтерком
+﻿intercom-menu-title = Домофон
 intercom-channel-label = Канал:
 intercom-button-text-mic = Мікро.
 intercom-button-text-speaker = Говорити

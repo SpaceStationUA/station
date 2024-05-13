@@ -1,17 +1,17 @@
-ent-CrateArmorySMG = SMG crate
-    .desc = Contains two high-powered, semiautomatic rifles with four mags. Requires Armory access to open.
+ent-CrateArmorySMG = Ящик СМГ
+    .desc = Містить дві потужні напівавтоматичні гвинтівки з чотирма магазинами. Для відкриття потрібен доступ до зброярні.
 
-ent-CrateArmoryShotgun = Shotgun crate
-    .desc = For when the enemy absolutely needs to be replaced with lead. Contains two Enforcer Combat Shotguns, and some standard shotgun shells. Requires Armory access to open.
+ent-CrateArmoryShotgun = Ящик рушниць
+    .desc = Для тих випадків, коли ворога конче потрібно завалити свинцем. Містить два бойові дробовики Виконавець та кілька стандартних набоїв до них. Для відкриття потрібен доступ до зброярні.
 
-ent-CrateTrackingImplants = Tracking implants
-    .desc = Contains a handful of tracking implanters. Good for prisoners you'd like to release but still keep track of.
+ent-CrateTrackingImplants = Імпланти відстеження
+    .desc = Містить кілька відстежувальних імплантатів. Добре підходить для в'язнів, яких ви хочете відпустити, але все одно продовжуєте стежити за ними.
 
-ent-CrateTrainingBombs = Training bombs
-    .desc = Contains three low-yield training bombs for security to learn defusal and safe ordnance disposal, EOD suit not included. Requires Armory access to open.
+ent-CrateTrainingBombs = Тренувальні бомби
+    .desc = Містить три навчальні бомби малої потужності для тренувань з знешкодження та безпечної утилізації бомб, костюм сапера не входить до комплекту. Для відкриття потрібен доступ до зброярні.
 
-ent-CrateArmoryLaser = lasers crate
-    .desc = Contains three standard-issue laser rifles. Requires Armory access to open.
+ent-CrateArmoryLaser = Ящик лазерів
+    .desc = Містить три стандартні лазерні гвинтівки. Для відкриття потрібен доступ до зброярні.
 
-ent-CrateArmoryPistols = pistols crate
-    .desc = Contains two standard NT pistols with four mags. Requires Armory access to open.
+ent-CrateArmoryPistols = Ящик пістолетів
+    .desc = Містить два стандартних пістолети НаноТрейзену з чотирма магазинами. Для відкриття потрібен доступ до зброярні.
