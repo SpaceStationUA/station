@@ -23,6 +23,8 @@
     priority: Low
   - type: ExtensionCableReceiver
   - type: WiresPanel
+  - type: Wires
+    layoutId: rndserver
   - type: WiresVisuals
   - type: Machine
     board: ResearchAndDevelopmentServerMachineCircuitboard
@@ -49,7 +51,6 @@
             min: 1
             max: 2
   - type: Appearance
-  - type: DiseaseServer
   - type: AmbientSound
     volume: -9
     range: 5

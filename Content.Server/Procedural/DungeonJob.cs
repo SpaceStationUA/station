@@ -126,9 +126,6 @@ public sealed partial class DungeonJob : Job<Dungeon>
                 case CornerClutterPostGen clutter:
                     await PostGen(clutter, dungeon, _gridUid, _grid, random);
                     break;
-                case CorridorClutterPostGen corClutter:
-                    await PostGen(corClutter, dungeon, _gridUid, _grid, random);
-                    break;
                 case CorridorPostGen cordor:
                     await PostGen(cordor, dungeon, _gridUid, _grid, random);
                     break;
@@ -161,9 +158,6 @@ public sealed partial class DungeonJob : Job<Dungeon>
                     break;
                 case WallMountPostGen wall:
                     await PostGen(wall, dungeon, _gridUid, _grid, random);
-                    break;
-                case WormCorridorPostGen worm:
-                    await PostGen(worm, dungeon, _gridUid, _grid, random);
                     break;
                 default:
                     throw new NotImplementedException();

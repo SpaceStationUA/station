@@ -51,7 +51,6 @@
       - BriefcaseBrown
       - Floodlight
       - MonkeyCubeWrapped
-      - KoboldCubeWrapped
       - SpaceCash
       - SpaceCash10
       - Torch
@@ -68,23 +67,11 @@
       - LightBulbMaintenanceRed
       - LightBulbBroken
       - LightTubeBroken
-      - LedLightBulb
-      - LightBulbOld
-      - LightTubeOld
-      - ServiceLightBulb
-      - LightTubeCrystalCyan
-      - LightTubeCrystalBlue
-      - LightTubeCrystalPink
-      - LightTubeCrystalOrange
-      - LightTubeCrystalRed
-      - LightTubeCrystalGreen
       - PowerCellPotato
       - PowerCellSmallPrinted
       - ChemistryEmptyBottle03
       - LargeBeaker
-      - BaseChemistryEmptyVial
       - Syringe
-      - Dropper
       - BodyBag_Folded
       - SprayBottle
       - SprayBottleWater
@@ -94,6 +81,8 @@
       - GroundTobacco
       - Bucket
       - Flare
+      #- StrangePill
+      #- FlashlightLantern
       - GlowstickBase
       - GlowstickRed
       - GlowstickPurple
@@ -101,7 +90,10 @@
       - GlowstickBlue
       - HandLabeler
       - Lantern
+      #- Lighter
       - CheapLighter
+      #- Matchbox
+      #- Shovel
       - trayScanner
       - ClothingMaskGas
       - ClothingMaskBreathMedical
@@ -145,16 +137,6 @@
       - Spoon
       - KnifePlastic
       - FishLabeler
-      - SnapPop
-      - ShardCrystalRandom
-      - Coal1
-      - Salt1
-      - BarberScissors
-      - RagItem
-      - Plunger
-      - LightReplacerEmpty
-      - FlippoLighter
-      - RollingPin
     chance: 0.75
     rarePrototypes:
       - CigCartonGreen
@@ -192,8 +174,6 @@
       - Cablecuffs
       - Zipties
       - MonkeyCubeBox
-      - KoboldCubeBox
-      - VariantCubeBox
       - SpaceCash100
       - PowerCellSmall
       - PowerCellMediumPrinted
@@ -211,7 +191,7 @@
       - Gauze
       - AloeCream
       - StrangePill
-      - PillCanisterRandom
+      # Pills/Syringes???
       - Medkit
       - MedkitBurn
       - MedkitToxin
@@ -232,7 +212,6 @@
       - FlashlightSeclite
       - HandheldGPSBasic
       - JetpackBlue
-      - JetpackMini
       - LanternFlash
       - ToolboxArtistic
       - Bola
@@ -250,25 +229,4 @@
       - MrChips
       - MrDips
       - ProximitySensor
-      - GeigerCounter
-      - DefaultStationBeaconUnanchored
-      - HandheldStationMap
-      - BananiumHorn
-      - SnapPopBox
-      - MaterialGunpowder
-      - ShardGlassClockwork
-      - EggSpider
-      - EvidenceMarkerThree
-      - EvidenceMarkerSeven
-      - EvidenceMarkerNine
-      - MothroachCube
-      - MouseCube
-      - CockroachCube
-      - SpaceTickCube
-      - GoatCube
-      - CowCube
-      - WeaponMeleeNeedle
-      - WhiteCane
-      - CleanerGrenade
-      - GrenadeDummy
     rareChance: 0.05

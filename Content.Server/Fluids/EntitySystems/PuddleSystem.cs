@@ -46,6 +46,7 @@ public sealed partial class PuddleSystem : SharedPuddleSystem
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly ITileDefinitionManager _tileDefMan = default!;
     [Dependency] private readonly AudioSystem _audio = default!;
+    [Dependency] private readonly DoAfterSystem _doAfterSystem = default!;
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
     [Dependency] private readonly ReactiveSystem _reactive = default!;
     [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
@@ -53,7 +54,7 @@ public sealed partial class PuddleSystem : SharedPuddleSystem
     [Dependency] private readonly SharedPopupSystem _popups = default!;
     [Dependency] private readonly SolutionContainerSystem _solutionContainerSystem = default!;
     [Dependency] private readonly StepTriggerSystem _stepTrigger = default!;
-    [Dependency] private readonly SpeedModifierContactsSystem _speedModContacts = default!;
+    [Dependency] private readonly SlowContactsSystem _slowContacts = default!;
     [Dependency] private readonly TileFrictionController _tile = default!;
 
     [ValidatePrototypeId<ReagentPrototype>]
@@ -434,13 +435,13 @@ public sealed partial class PuddleSystem : SharedPuddleSystem
 
         if (maxViscosity > 0)
         {
-            var comp = EnsureComp<SpeedModifierContactsComponent>(uid);
+            var comp = EnsureComp<SlowContactsComponent>(uid);
             var speed = 1 - maxViscosity;
-            _speedModContacts.ChangeModifiers(uid, speed, comp);
+            _slowContacts.ChangeModifiers(uid, speed, comp);
         }
         else
         {
-            RemComp<SpeedModifierContactsComponent>(uid);
+            RemComp<SlowContactsComponent>(uid);
         }
     }
 
@@ -550,8 +551,11 @@ public sealed partial class PuddleSystem : SharedPuddleSystem
 
     #region Spill
 
-    /// <inheritdoc/>
-    public override bool TrySplashSpillAt(EntityUid uid,
+    /// <summary>
+    ///     First splashes reagent on reactive entities near the spilling entity, then spills the rest regularly to a
+    ///     puddle. This is intended for 'destructive' spills, like when entities are destroyed or thrown.
+    /// </summary>
+    public bool TrySplashSpillAt(EntityUid uid,
         EntityCoordinates coordinates,
         Solution solution,
         out EntityUid puddleUid,
@@ -596,8 +600,11 @@ public sealed partial class PuddleSystem : SharedPuddleSystem
         return TrySpillAt(coordinates, solution, out puddleUid, sound);
     }
 
-    /// <inheritdoc/>
-    public override bool TrySpillAt(EntityCoordinates coordinates, Solution solution, out EntityUid puddleUid, bool sound = true)
+    /// <summary>
+    ///     Spills solution at the specified coordinates.
+    /// Will add to an existing puddle if present or create a new one if not.
+    /// </summary>
+    public bool TrySpillAt(EntityCoordinates coordinates, Solution solution, out EntityUid puddleUid, bool sound = true)
     {
         if (solution.Volume == 0)
         {
@@ -615,8 +622,10 @@ public sealed partial class PuddleSystem : SharedPuddleSystem
         return TrySpillAt(_map.GetTileRef(gridUid.Value, mapGrid, coordinates), solution, out puddleUid, sound);
     }
 
-    /// <inheritdoc/>
-    public override bool TrySpillAt(EntityUid uid, Solution solution, out EntityUid puddleUid, bool sound = true,
+    /// <summary>
+    /// <see cref="TrySpillAt(Robust.Shared.Map.EntityCoordinates,Content.Shared.Chemistry.Components.Solution,out Robust.Shared.GameObjects.EntityUid,bool)"/>
+    /// </summary>
+    public bool TrySpillAt(EntityUid uid, Solution solution, out EntityUid puddleUid, bool sound = true,
         TransformComponent? transformComponent = null)
     {
         if (!Resolve(uid, ref transformComponent, false))
@@ -628,8 +637,10 @@ public sealed partial class PuddleSystem : SharedPuddleSystem
         return TrySpillAt(transformComponent.Coordinates, solution, out puddleUid, sound: sound);
     }
 
-    /// <inheritdoc/>
-    public override bool TrySpillAt(TileRef tileRef, Solution solution, out EntityUid puddleUid, bool sound = true,
+    /// <summary>
+    /// <see cref="TrySpillAt(Robust.Shared.Map.EntityCoordinates,Content.Shared.Chemistry.Components.Solution,out Robust.Shared.GameObjects.EntityUid,bool)"/>
+    /// </summary>
+    public bool TrySpillAt(TileRef tileRef, Solution solution, out EntityUid puddleUid, bool sound = true,
         bool tileReact = true)
     {
         if (solution.Volume <= 0)

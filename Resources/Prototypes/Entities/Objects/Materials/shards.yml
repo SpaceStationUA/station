@@ -49,7 +49,6 @@
   - type: Tag
     tags:
     - Trash
-    - Wirecutter
   - type: SpaceGarbage
   - type: Damageable
     damageContainer: Inorganic
@@ -64,6 +63,7 @@
         acts: [ "Destruction" ]
   - type: StepTrigger
     intersectRatio: 0.2
+    requiredTriggeredSpeed: 0
   - type: ShoesRequiredStepTrigger
   - type: Slippery
     slipSound:
@@ -74,9 +74,6 @@
     damage:
       types:
         Piercing: 5
-  - type: Tool
-    qualities:
-      - Cutting
   - type: DeleteOnTrigger
   - type: StaticPrice
     price: 0

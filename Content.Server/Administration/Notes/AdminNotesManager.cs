@@ -331,9 +331,9 @@ public sealed class AdminNotesManager : IAdminNotesManager, IPostInjectInit
         return await _db.GetMessages(player);
     }
 
-    public async Task MarkMessageAsSeen(int id, bool dismissedToo)
+    public async Task MarkMessageAsSeen(int id)
     {
-        await _db.MarkMessageAsSeen(id, dismissedToo);
+        await _db.MarkMessageAsSeen(id);
     }
 
     public void PostInject()

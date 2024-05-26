@@ -53,10 +53,10 @@
     solution: melee
   - type: InjectableSolution
     solution: melee
-  - type: SolutionInjectOnEmbed
+  - type: SolutionInjectOnCollide
     transferAmount: 2
-    solution: melee
     blockSlots: OUTERCLOTHING
+    fixtureId: "throw-fixture"
   - type: SolutionTransfer
     maxTransferAmount: 2
   - type: Damageable
@@ -124,9 +124,10 @@
     solutions:
       melee:
         maxVol: 7
-  - type: SolutionInjectOnEmbed
+  - type: SolutionInjectOnCollide
     transferAmount: 7
-    solution: melee
+    blockSlots: NONE
+    fixtureId: "throw-fixture"
   - type: SolutionTransfer
     maxTransferAmount: 7
 

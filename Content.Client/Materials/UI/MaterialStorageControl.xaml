@@ -1,8 +1,7 @@
-<ScrollContainer xmlns="https://spacestation14.io"
+<BoxContainer xmlns="https://spacestation14.io"
+              Orientation="Vertical"
               SizeFlagsStretchRatio="8"
               HorizontalExpand="True"
               VerticalExpand="True">
-    <BoxContainer Name="MaterialList" Orientation="Vertical">
-        <Label Name="NoMatsLabel" Text="{Loc 'lathe-menu-no-materials-message'}" Align="Center"/>
-    </BoxContainer>
-</ScrollContainer>
+    <Label Name="NoMatsLabel" Text="{Loc 'lathe-menu-no-materials-message'}" Align="Center"/>
+</BoxContainer>

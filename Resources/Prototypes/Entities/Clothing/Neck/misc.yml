@@ -73,9 +73,7 @@
   noSpawn: true
   components:
   - type: EntityTargetAction
-    icon:
-      sprite: Clothing/Neck/Misc/stethoscope.rsi
-      state: icon
+    icon: Clothing/Neck/Misc/stethoscope.rsi/icon.png
     event: !type:StethoscopeActionEvent
     checkCanInteract: false
     priority: -1
@@ -87,9 +85,9 @@
   description: A wreath of colourful flowers.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Misc/flower-wreath.rsi
+    sprite: Clothing/Neck/Misc/flower-wreath.rsi
   - type: Clothing
-    sprite: Clothing/Head/Misc/flower-wreath.rsi
+    sprite: Clothing/Neck/Misc/flower-wreath.rsi
   - type: Construction
     graph: flowerwreath
     node: flowerwreath

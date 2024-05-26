@@ -59,10 +59,6 @@ namespace Content.Server.Database
                         .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.TraitName})
                         .IsUnique();
 
-            modelBuilder.Entity<Loadout>()
-                        .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.LoadoutName})
-                        .IsUnique();
-
             modelBuilder.Entity<Job>()
                 .HasIndex(j => j.ProfileId);
 
@@ -272,11 +268,6 @@ namespace Content.Server.Database
                 .HasPrincipalKey(author => author.UserId)
                 .OnDelete(DeleteBehavior.SetNull);
 
-            // A message cannot be "dismissed" without also being "seen".
-            modelBuilder.Entity<AdminMessage>().ToTable(t =>
-                t.HasCheckConstraint("NotDismissedAndSeen",
-                    "NOT dismissed OR seen"));
-
             modelBuilder.Entity<ServerBan>()
                 .HasOne(ban => ban.CreatedBy)
                 .WithMany(author => author.AdminServerBansCreated)
@@ -338,7 +329,6 @@ namespace Content.Server.Database
         public string Sex { get; set; } = null!;
         public string Gender { get; set; } = null!;
         public string Species { get; set; } = null!;
-        public string Voice { get; set; } = null!; // TTS
         [Column(TypeName = "jsonb")] public JsonDocument? Markings { get; set; } = null!;
         public string HairName { get; set; } = null!;
         public string HairColor { get; set; } = null!;
@@ -352,7 +342,6 @@ namespace Content.Server.Database
         public List<Job> Jobs { get; } = new();
         public List<Antag> Antags { get; } = new();
         public List<Trait> Traits { get; } = new();
-        public List<Loadout> Loadouts { get; } = new();
 
         [Column("pref_unavailable")] public DbPreferenceUnavailableMode PreferenceUnavailable { get; set; }
 
@@ -395,15 +384,6 @@ namespace Content.Server.Database
         public int ProfileId { get; set; }
 
         public string TraitName { get; set; } = null!;
-    }
-
-    public class Loadout
-    {
-        public int Id { get; set; }
-        public Profile Profile { get; set; } = null!;
-        public int ProfileId { get; set; }
-
-        public string LoadoutName { get; set; } = null!;
     }
 
     public enum DbPreferenceUnavailableMode
@@ -989,15 +969,6 @@ namespace Content.Server.Database
         [ForeignKey("DeletedBy")] public Guid? DeletedById { get; set; }
         public Player? DeletedBy { get; set; }
         public DateTime? DeletedAt { get; set; }
-
-        /// <summary>
-        /// Whether the message has been seen at least once by the player.
-        /// </summary>
         public bool Seen { get; set; }
-
-        /// <summary>
-        /// Whether the message has been dismissed permanently by the player.
-        /// </summary>
-        public bool Dismissed { get; set; }
     }
 }

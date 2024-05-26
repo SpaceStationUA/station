@@ -28,10 +28,10 @@ public sealed class TemperatureArtifactSystem : EntitySystem
 
         if (component.AffectAdjacentTiles && transform.GridUid != null)
         {
-            var enumerator = _atmosphereSystem.GetAdjacentTileMixtures(transform.GridUid.Value,
+            var adjacent = _atmosphereSystem.GetAdjacentTileMixtures(transform.GridUid.Value,
                 _transformSystem.GetGridOrMapTilePosition(uid, transform), excite: true);
 
-            while (enumerator.MoveNext(out var mixture))
+            foreach (var mixture in adjacent)
             {
                 UpdateTileTemperature(component, mixture);
             }

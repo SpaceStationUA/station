@@ -1,5 +1,5 @@
 using Content.Server.DeltaV.ParadoxAnomaly.Components;
-using Content.Shared.DetailExaminable;
+using Content.Server.DetailExaminable;
 using Content.Server.GenericAntag;
 using Content.Server.Ghost.Roles;
 using Content.Server.Ghost.Roles.Components;

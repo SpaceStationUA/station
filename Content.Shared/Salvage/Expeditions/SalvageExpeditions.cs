@@ -1,5 +1,4 @@
 using Content.Shared.Salvage.Expeditions.Modifiers;
-using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
@@ -31,11 +30,7 @@ public sealed class SalvageExpeditionConsoleState : BoundUserInterfaceState
 [RegisterComponent, NetworkedComponent]
 public sealed partial class SalvageExpeditionConsoleComponent : Component
 {
-    /// <summary>
-    /// The sound made when spawning a coordinates disk
-    /// </summary>
-    [DataField]
-    public SoundSpecifier PrintSound = new SoundPathSpecifier("/Audio/Machines/terminal_insert_disc.ogg");
+
 }
 
 [Serializable, NetSerializable]

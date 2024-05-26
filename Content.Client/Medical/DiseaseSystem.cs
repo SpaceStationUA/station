@@ -1,9 +1,9 @@
-// namespace Content.Client.Medical;
+namespace Content.Client.Medical;
 
-// /* Here be dragons */
+/* Here be dragons */
 
-// public enum DiseaseMachineVisualLayers : byte
-// {
-//     IsOn,
-//     IsRunning
-// }
+public enum DiseaseMachineVisualLayers : byte
+{
+    IsOn,
+    IsRunning
+}

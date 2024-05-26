@@ -56,7 +56,6 @@ public sealed class ScreenSystem : EntitySystem
             )
         {
             _appearanceSystem.SetData(uid, TextScreenVisuals.DefaultText, text);
-            _appearanceSystem.SetData(uid, TextScreenVisuals.ScreenText, text);
         }
     }
 

@@ -81,7 +81,7 @@ namespace Content.Client.Chat.Managers
                     throw new ArgumentOutOfRangeException(nameof(channel), channel, null);
             }
         }
-        //Nyano - Summary: fires off the update permissions script.
+        //Nyano - Summary: fires off the update permissions script. 
         public void UpdatePermissions()
         {
             PermissionsUpdated?.Invoke();

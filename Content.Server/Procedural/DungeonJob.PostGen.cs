@@ -26,7 +26,7 @@ public sealed partial class DungeonJob
 
     private bool HasWall(MapGridComponent grid, Vector2i tile)
     {
-        var anchored = _maps.GetAnchoredEntitiesEnumerator(_gridUid, _grid, tile);
+        var anchored = grid.GetAnchoredEntitiesEnumerator(tile);
 
         while (anchored.MoveNext(out var uid))
         {
@@ -52,7 +52,7 @@ public sealed partial class DungeonJob
         // Gather existing nodes
         foreach (var tile in allTiles)
         {
-            var anchored = _maps.GetAnchoredEntitiesEnumerator(_gridUid, _grid, tile);
+            var anchored = grid.GetAnchoredEntitiesEnumerator(tile);
 
             while (anchored.MoveNext(out var anc))
             {
@@ -186,9 +186,7 @@ public sealed partial class DungeonJob
         // - Tiles first
         foreach (var neighbor in dungeon.RoomExteriorTiles)
         {
-            DebugTools.Assert(!dungeon.RoomTiles.Contains(neighbor));
-
-            if (dungeon.Entrances.Contains(neighbor))
+            if (dungeon.RoomTiles.Contains(neighbor))
                 continue;
 
             if (!_anchorable.TileFree(grid, neighbor, DungeonSystem.CollisionLayer, DungeonSystem.CollisionMask))
@@ -267,6 +265,7 @@ public sealed partial class DungeonJob
         Random random)
     {
         var physicsQuery = _entManager.GetEntityQuery<PhysicsComponent>();
+        var tagQuery = _entManager.GetEntityQuery<TagComponent>();
 
         foreach (var tile in dungeon.CorridorTiles)
         {
@@ -772,7 +771,7 @@ public sealed partial class DungeonJob
                 {
                     for (var y = -expansion; y <= expansion; y++)
                     {
-                        var neighbor = new Vector2(tile.X + x, tile.Y + y).Floored();
+                        var neighbor = new Vector2i(tile.X + x, tile.Y + y);
 
                         if (dungeon.RoomTiles.Contains(neighbor) ||
                             dungeon.RoomExteriorTiles.Contains(neighbor) ||
@@ -818,52 +817,6 @@ public sealed partial class DungeonJob
             return mod;
         });
 
-        WidenCorridor(dungeon, gen.Width, corridorTiles);
-
-        var setTiles = new List<(Vector2i, Tile)>();
-        var tileDef = _prototype.Index(gen.Tile);
-
-        foreach (var tile in corridorTiles)
-        {
-            setTiles.Add((tile, _tile.GetVariantTile(tileDef, random)));
-        }
-
-        grid.SetTiles(setTiles);
-        dungeon.CorridorTiles.UnionWith(corridorTiles);
-        BuildCorridorExterior(dungeon);
-    }
-
-    private void BuildCorridorExterior(Dungeon dungeon)
-    {
-        var exterior = dungeon.CorridorExteriorTiles;
-
-        // Just ignore entrances or whatever for now.
-        foreach (var tile in dungeon.CorridorTiles)
-        {
-            for (var x = -1; x <= 1; x++)
-            {
-                for (var y = -1; y <= 1; y++)
-                {
-                    var neighbor = new Vector2i(tile.X + x, tile.Y + y);
-
-                    if (dungeon.CorridorTiles.Contains(neighbor) ||
-                        dungeon.RoomExteriorTiles.Contains(neighbor) ||
-                        dungeon.RoomTiles.Contains(neighbor) ||
-                        dungeon.Entrances.Contains(neighbor))
-                    {
-                        continue;
-                    }
-
-                    exterior.Add(neighbor);
-                }
-            }
-        }
-    }
-
-    private void WidenCorridor(Dungeon dungeon, float width, ICollection<Vector2i> corridorTiles)
-    {
-        var expansion = width - 2;
-
         // Widen the path
         if (expansion >= 1)
         {
@@ -878,7 +831,7 @@ public sealed partial class DungeonJob
                 {
                     for (var y = -expansion; y <= expansion; y++)
                     {
-                        var neighbor = new Vector2(node.X + x, node.Y + y).Floored();
+                        var neighbor = new Vector2i(node.X + x, node.Y + y);
 
                         // Diagonals still matter here.
                         if (dungeon.RoomTiles.Contains(neighbor) ||
@@ -897,6 +850,36 @@ public sealed partial class DungeonJob
             foreach (var node in toAdd)
             {
                 corridorTiles.Add(node);
+            }
+        }
+
+        var setTiles = new List<(Vector2i, Tile)>();
+        var tileDef = _prototype.Index(gen.Tile);
+
+        foreach (var tile in corridorTiles)
+        {
+            setTiles.Add((tile, _tile.GetVariantTile(tileDef, random)));
+        }
+
+        grid.SetTiles(setTiles);
+        dungeon.CorridorTiles.UnionWith(corridorTiles);
+
+        var exterior = dungeon.CorridorExteriorTiles;
+
+        // Just ignore entrances or whatever for now.
+        foreach (var tile in dungeon.CorridorTiles)
+        {
+            for (var x = -1; x <= 1; x++)
+            {
+                for (var y = -1; y <= 1; y++)
+                {
+                    var neighbor = new Vector2i(tile.X + x, tile.Y + y);
+
+                    if (dungeon.CorridorTiles.Contains(neighbor))
+                        continue;
+
+                    exterior.Add(neighbor);
+                }
             }
         }
     }

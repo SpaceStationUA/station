@@ -47,9 +47,6 @@
       collection: FootstepDuck
       params:
         variation: 0.07
-  - type: Construction
-    graph: ClothingShoeSlippersDuck
-    node: shoes
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -133,7 +130,7 @@
     event: !type:ToggleClothingSpeedEvent
     icon: { sprite: Clothing/Shoes/Boots/speedboots.rsi, state: icon }
     iconOn: { sprite: Clothing/Shoes/Boots/speedboots.rsi, state: icon-on }
-
+#PIRATE START UNTIL END OF FILE
 - type: entity
   parent: [ClothingShoesBase, PowerCellSlotSmallItem]
   id: ClothingShoesBootsSpeedMagic

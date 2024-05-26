@@ -1,5 +1,6 @@
 - type: entity
   id: BriefcaseBrownFilled
+  name: brown briefcase
   parent: BriefcaseBrown
   suffix: Filled, Paper
   components:
@@ -10,8 +11,9 @@
 
 - type: entity
   id: BriefcaseSyndieSniperBundleFilled
+  name: brown briefcase
   parent: BriefcaseSyndie
-  suffix: Syndicate, Sniper Bundle
+  suffix: SniperBundle
   components:
   - type: Item
     size: Ginormous
@@ -30,6 +32,7 @@
 
 - type: entity
   id: BriefcaseSyndieLobbyingBundleFilled
+  name: brown briefcase
   parent: BriefcaseSyndie
   suffix: Syndicate, Spesos
   components:
@@ -49,6 +52,7 @@
 
 - type: entity
   id: BriefcaseThiefBribingBundleFilled
+  name: brown briefcase
   parent: BriefcaseSyndie
   suffix: Thief, Spesos
   components:

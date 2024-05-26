@@ -35,7 +35,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Replays;
 using Robust.Shared.Utility;
-using Content.Server.SimpleStation14.Chat;
+using Content.Server.SimpleStation14.Chat; // Pirate
 
 namespace Content.Server.Chat.Systems;
 
@@ -58,7 +58,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     [Dependency] private readonly ActionBlockerSystem _actionBlocker = default!;
     [Dependency] private readonly StationSystem _stationSystem = default!;
     [Dependency] private readonly MobStateSystem _mobStateSystem = default!;
-    [Dependency] private readonly SimpleStationChatSystem _simpleStationChatSystem = default!;
+    [Dependency] private readonly SimpleStationChatSystem _simpleStationChatSystem = default!; // Pirate
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedInteractionSystem _interactionSystem = default!;
     [Dependency] private readonly ReplacementAccentSystem _wordreplacement = default!;
@@ -263,7 +263,7 @@ public sealed partial class ChatSystem : SharedChatSystem
             case InGameICChatType.Telepathic:
                 _nyanoChatSystem.SendTelepathicChat(source, message, range == ChatTransmitRange.HideChat);
                 break;
-            // Shadowkin
+            // Shadowkin // Pirate
             case InGameICChatType.Empathy:
                 _simpleStationChatSystem.SendEmpathyChat(source, message, range == ChatTransmitRange.HideChat);
                 break;
@@ -428,7 +428,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         SendInVoiceRange(ChatChannel.Local, message, wrappedMessage, source, range);
 
-        var ev = new EntitySpokeEvent(source, message, originalMessage, null, null);
+        var ev = new EntitySpokeEvent(source, message, originalMessage, null, null);  // Pirate OriginalMessage TTS
         RaiseLocalEvent(source, ev, true);
 
         // To avoid logging any messages sent by entities that are not players, like vendors, cloning, etc.
@@ -523,7 +523,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         _replay.RecordServerMessage(new ChatMessage(ChatChannel.Whisper, message, wrappedMessage, GetNetEntity(source), null, MessageRangeHideChatForReplay(range)));
 
-        var ev = new EntitySpokeEvent(source, message, originalMessage, channel, obfuscatedMessage);
+        var ev = new EntitySpokeEvent(source, message, originalMessage, channel, obfuscatedMessage);  // Pirate OriginalMessage TTS
         RaiseLocalEvent(source, ev, true);
         if (!hideLog)
             if (originalMessage == message)
@@ -931,7 +931,7 @@ public sealed class EntitySpokeEvent : EntityEventArgs
 {
     public readonly EntityUid Source;
     public readonly string Message;
-    public readonly string OriginalMessage;
+    public readonly string OriginalMessage; // Pirate OriginalMessage TTS
     public readonly string? ObfuscatedMessage; // not null if this was a whisper
 
     /// <summary>
@@ -940,11 +940,11 @@ public sealed class EntitySpokeEvent : EntityEventArgs
     /// </summary>
     public RadioChannelPrototype? Channel;
 
-    public EntitySpokeEvent(EntityUid source, string message, string originalMessage, RadioChannelPrototype? channel, string? obfuscatedMessage)
+    public EntitySpokeEvent(EntityUid source, string message, string originalMessage, RadioChannelPrototype? channel, string? obfuscatedMessage) //Pirate Original Message
     {
         Source = source;
         Message = message;
-        OriginalMessage = originalMessage; // TTS: Spec symbol sanitize
+        OriginalMessage = originalMessage; //Pirate TTS: Spec symbol sanitize
         Channel = channel;
         ObfuscatedMessage = obfuscatedMessage;
     }
@@ -960,7 +960,7 @@ public enum InGameICChatType : byte
     Emote,
     Whisper,
     Telepathic, //Nyano - Summary: adds telepathic as a type of message users can receive.
-    Empathy // Shadowkin
+    Empathy //Pirate Shadowkin
 }
 
 /// <summary>

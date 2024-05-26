@@ -1,33 +1,33 @@
 <Document>
-# Зворотне проектування
+# Reverse Engineering
 
 <GuideEntityEmbed Entity="ReverseEngineeringMachine"/>
 
-Машина зворотного проектування дозволяє salvage розпочати свій шлях до розблокування потужних токарних рецептів, які інакше неможливо отримати.
+The reverse engineering machine allows salvage to bootstrap their way into unlocking powerful lathe recipes that are otherwise unacquirable.
 
-Потужність машини дуже обмежена без модернізації її бункера для матерії та маніпулятора.
-Бункер матерії збільшує свою потужність аналізу, а маніпулятор зменшує ймовірність знищення з вимкненою безпекою.
+The machine's power is very limited without upgrades to its matter bin and manipulator.
+The matter bin increases its analysis power and the manipulator decreases the chance of destruction with safety turned off.
 
 ## Operation
 
-Машина прийматиме лише елементи, які вона може провести зворотним інженерним процесом. Зараз це більшість друкованих плат і деталей машин, але він приймає досить різноманітні об’єкти.
+The machine will only accept items it can reverse engineer. Currently this is most circuit boards and machine parts, but it accepts quite a variety of objects.
 
-Він не приймає вогнепальної зброї і ніколи не прийматиме.
+It does not accept firearms and never will.
 
-Щоб скористатися машиною, вставте предмет і скористайтеся кнопками зліва.
+To use the machine, insert an item and use the buttons on the left.
 
 - [color=#a4885c]Analyze:[/color]
-Це починає нову спробу зворотного проектування.
+This starts a new reverse engineering attempt.
 
 - [color=#a4885c]Safety:[/color]
-Якщо безпеку вимкнено, ви маєте більше можливостей для аналізу, але є шанс знищити предмет.
+With safety off, you have more analysis power, but there is a chance to destroy the item.
 
 - [color=#a4885c]AutoProbe:[/color]
-Це автоматично розпочне нову спробу, коли закінчиться остання.
+This will automatically start a new attempt when the last one ends.
 
 - [color=#a4885c]Stop:[/color]
-Зупиняє поточну спробу.
+Stops the current attempt.
 
 - [color=#a4885c]Item:[/color]
-Витягує предмет.
+Ejects the item.
 </Document>

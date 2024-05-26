@@ -167,9 +167,6 @@
     sprite: Clothing/Back/Duffels/syndicate.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.1
-  - type: Storage
-    grid:
-    - 0,0,8,4
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicate
@@ -246,15 +243,6 @@
 
 - type: entity
   parent: ClothingBackpackDuffel
-  id: ClothingBackpackDuffelBlueshield
-  name: blueshield duffel backpack
-  description: Велика штука для великих речей.
-  components:
-    - type: Sprite
-      sprite: Clothing/Back/Duffels/blueshield.rsi
-
-- type: entity
-  parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelCBURN
   name: CBURN duffel bag
   description: A duffel bag containing a variety of biological containment equipment.
@@ -265,6 +253,15 @@
     walkModifier: 1
     sprintModifier: 1
   - type: HeldSpeedModifier
+#PIRATE START UNTIL END OF FILE
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelBlueshield
+  name: blueshield duffel backpack
+  description: Велика штука для великих речей.
+  components:
+    - type: Sprite
+      sprite: Clothing/Back/Duffels/blueshield.rsi
 
 - type: entity
   parent: ClothingBackpackDuffel

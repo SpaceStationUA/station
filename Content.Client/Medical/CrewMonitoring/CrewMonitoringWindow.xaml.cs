@@ -210,9 +210,9 @@ public sealed partial class CrewMonitoringWindow : FancyWindow
                 specifier = new SpriteSpecifier.Rsi(new ResPath("Interface/Alerts/human_crew_monitoring.rsi"), "dead");
             }
 
-            else if (sensor.DamagePercentage != null)
+            else if (sensor.TotalDamage != null)
             {
-                var index = MathF.Round(4f * sensor.DamagePercentage.Value);
+                var index = MathF.Round(4f * (sensor.TotalDamage.Value / 100f));
 
                 if (index >= 5)
                     specifier = new SpriteSpecifier.Rsi(new ResPath("Interface/Alerts/human_crew_monitoring.rsi"), "critical");

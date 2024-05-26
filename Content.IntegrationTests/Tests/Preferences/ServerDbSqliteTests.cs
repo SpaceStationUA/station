@@ -41,7 +41,7 @@ namespace Content.IntegrationTests.Tests.Preferences
                 "Charlie Charlieson",
                 "The biggest boy around.",
                 "Human",
-                "TEST",
+                    SharedHumanoidAppearanceSystem.DefaultVoice,
                 21,
                 Sex.Male,
                 Gender.Epicene,
@@ -62,9 +62,8 @@ namespace Content.IntegrationTests.Tests.Preferences
                     {SharedGameTicker.FallbackOverflowJob, JobPriority.High}
                 },
                 PreferenceUnavailableMode.StayInLobby,
-                antagPreferences: new List<string>(),
-                traitPreferences: new List<string>(),
-                loadoutPreferences: new List<string>()
+                new List<string> (),
+                new List<string>()
             );
         }
 

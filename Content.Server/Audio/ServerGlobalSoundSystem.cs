@@ -1,7 +1,6 @@
 ﻿using Content.Server.Station.Systems;
 using Content.Shared.Audio;
 using Robust.Shared.Audio;
-using Robust.Shared.Audio.Systems;
 using Robust.Shared.Console;
 using Robust.Shared.Player;
 
@@ -11,7 +10,6 @@ public sealed class ServerGlobalSoundSystem : SharedGlobalSoundSystem
 {
     [Dependency] private readonly IConsoleHost _conHost = default!;
     [Dependency] private readonly StationSystem _stationSystem = default!;
-    [Dependency] private readonly SharedAudioSystem _audio = default!;
 
     public override void Shutdown()
     {
@@ -52,13 +50,9 @@ public sealed class ServerGlobalSoundSystem : SharedGlobalSoundSystem
 
     public void DispatchStationEventMusic(EntityUid source, SoundSpecifier sound, StationEventMusicType type)
     {
-        DispatchStationEventMusic(source, _audio.GetSound(sound), type);
-    }
-
-    public void DispatchStationEventMusic(EntityUid source, string sound, StationEventMusicType type)
-    {
         var audio = AudioParams.Default.WithVolume(-8);
-        var msg = new StationEventMusicEvent(sound, type, audio);
+        var soundFile = sound.GetSound();
+        var msg = new StationEventMusicEvent(soundFile, type, audio);
 
         var filter = GetStationAndPvs(source);
         RaiseNetworkEvent(msg, filter);

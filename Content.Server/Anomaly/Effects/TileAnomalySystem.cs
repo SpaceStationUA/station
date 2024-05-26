@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Numerics;
 using Content.Shared.Anomaly;
 using Content.Shared.Anomaly.Components;
@@ -33,7 +34,7 @@ public sealed class TileAnomalySystem : SharedTileAnomalySystem
             if (!entry.Settings.SpawnOnPulse)
                 continue;
 
-            SpawnTiles(component, entry, args.Stability, args.Severity, args.PowerModifier);
+            SpawnTiles(component, entry, args.Stability, args.Severity);
         }
     }
 
@@ -44,7 +45,7 @@ public sealed class TileAnomalySystem : SharedTileAnomalySystem
             if (!entry.Settings.SpawnOnSuperCritical)
                 continue;
 
-            SpawnTiles(component, entry, 1, 1, args.PowerModifier);
+            SpawnTiles(component, entry, 1, 1);
         }
     }
 
@@ -55,7 +56,7 @@ public sealed class TileAnomalySystem : SharedTileAnomalySystem
             if (!entry.Settings.SpawnOnShutdown || args.Supercritical)
                 continue;
 
-            SpawnTiles(component, entry, 1, 1, 1);
+            SpawnTiles(component, entry, 1, 1);
         }
     }
 
@@ -66,7 +67,7 @@ public sealed class TileAnomalySystem : SharedTileAnomalySystem
             if (!entry.Settings.SpawnOnStabilityChanged)
                 continue;
 
-            SpawnTiles(component, entry, args.Stability, args.Severity, 1);
+            SpawnTiles(component, entry, args.Stability, args.Severity);
         }
     }
 
@@ -77,17 +78,17 @@ public sealed class TileAnomalySystem : SharedTileAnomalySystem
             if (!entry.Settings.SpawnOnSeverityChanged)
                 continue;
 
-            SpawnTiles(component, entry, args.Stability, args.Severity, 1);
+            SpawnTiles(component, entry, args.Stability, args.Severity);
         }
     }
 
-    private void SpawnTiles(Entity<TileSpawnAnomalyComponent> anomaly, TileSpawnSettingsEntry entry, float stability, float severity, float powerMod)
+    private void SpawnTiles(Entity<TileSpawnAnomalyComponent> anomaly, TileSpawnSettingsEntry entry, float stability, float severity)
     {
         var xform = Transform(anomaly);
         if (!TryComp<MapGridComponent>(xform.GridUid, out var grid))
             return;
 
-        var tiles = _anomaly.GetSpawningPoints(anomaly, stability, severity, entry.Settings, powerMod);
+        var tiles = _anomaly.GetSpawningPoints(anomaly, stability, severity, entry.Settings);
         if (tiles == null)
             return;
 

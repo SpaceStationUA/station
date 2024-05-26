@@ -9,8 +9,6 @@
     sprite: Clothing/OuterClothing/Bio/general.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Bio/general.rsi
-  - type: DiseaseProtection
-    protection: 0.4
   - type: Armor
     modifiers:
       coefficients:
@@ -27,8 +25,6 @@
     sprite: Clothing/OuterClothing/Bio/cmo.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Bio/cmo.rsi
-  - type: DiseaseProtection
-    protection: 0.5
 
 - type: entity
   parent: ClothingOuterBioGeneral
@@ -53,8 +49,6 @@
     sprite: Clothing/OuterClothing/Bio/scientist.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Bio/scientist.rsi
-  - type: DiseaseProtection
-    protection: 0.4
 
 - type: entity
   parent: ClothingOuterBioGeneral
@@ -79,5 +73,3 @@
     sprite: Clothing/OuterClothing/Bio/virology.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Bio/virology.rsi
-  - type: DiseaseProtection
-    protection: 0.55

@@ -29,8 +29,8 @@ public sealed class ClientClothingSystem : ClothingSystem
     private static readonly Dictionary<string, string> TemporarySlotMap = new()
     {
         {"head", "HELMET"},
-        {"head1", "HELMET"},
-        {"head2", "HELMET"},
+        {"head1", "HELMET"}, // Pirate
+        {"head2", "HELMET"}, // Pirate
         {"eyes", "EYES"},
         {"ears", "EARS"},
         {"mask", "MASK"},
@@ -45,8 +45,8 @@ public sealed class ClientClothingSystem : ClothingSystem
         {"pocket1", "POCKET1"},
         {"pocket2", "POCKET2"},
         {"suitstorage", "SUITSTORAGE"},
-        {"neck1", "NECK"},
-        {"neck2", "NECK"},
+        {"neck1", "NECK"}, // Pirate
+        {"neck2", "NECK"}, // Pirate
     };
 
     [Dependency] private readonly IResourceCache _cache = default!;
@@ -137,7 +137,7 @@ public sealed class ClientClothingSystem : ClothingSystem
         else if (TryComp(uid, out SpriteComponent? sprite))
             rsi = sprite.BaseRSI;
 
-        if (rsi == null)
+        if (rsi == null || rsi.Path == null)
             return false;
 
         var correctedSlot = slot;

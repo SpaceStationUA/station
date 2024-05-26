@@ -16,13 +16,6 @@ public sealed partial class NavMapBeaconComponent : Component
     [AutoNetworkedField]
     public string? Text;
 
-    /// <summary>
-    /// A localization string that populates <see cref="Text"/> if it is null at mapinit.
-    /// Used so that mappers can still override Text while mapping.
-    /// </summary>
-    [DataField]
-    public LocId? DefaultText;
-
     [ViewVariables(VVAccess.ReadWrite), DataField]
     [AutoNetworkedField]
     public Color Color = Color.Orange;

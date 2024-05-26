@@ -214,16 +214,6 @@
       - id: BoxSurvival
       - id: Bible
       - id: RubberStampChaplain
-  
-- type: entity
-  noSpawn: true
-  parent: ClothingBackpackSatchel
-  id: ClothingBackpackSatchelLawyerFilled
-  components:
-  - type: StorageFill
-    contents:
-      - id: BoxSurvival
-      - id: RubberStampLawyer
 
 - type: entity
   noSpawn: true
@@ -289,19 +279,6 @@
 
 - type: entity
   noSpawn: true
-  parent: ClothingBackpackSatchelBlueshield
-  id: ClothingBackpackSatchelBlueshieldFilled
-  components:
-  - type: StorageFill
-    contents:
-      - id: BoxSurvivalSecurity
-      - id: MedkitAdvancedFilled
-      - id: HandheldCrewMonitor
-      - id: Flash
-      - id: WeaponDisabler
-
-- type: entity
-  noSpawn: true
   parent: ClothingBackpackSatchelHolding
   id: ClothingBackpackSatchelHoldingAdmin
   components:
@@ -310,7 +287,7 @@
     - id: GasAnalyzer
     - id: trayScanner
   - type: Unremoveable
-
+#PIRATE START UNTIL END OF FILE
 - type: entity
   noSpawn: true
   parent: ClothingBackpackSatchelRobotics

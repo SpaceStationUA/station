@@ -15,7 +15,6 @@ public sealed class ZombieSystem : EntitySystem
 
         SubscribeLocalEvent<ZombieComponent, ComponentStartup>(OnStartup);
         SubscribeLocalEvent<ZombieComponent, CanDisplayStatusIconsEvent>(OnCanDisplayStatusIcons);
-        SubscribeLocalEvent<InitialInfectedComponent, CanDisplayStatusIconsEvent>(OnCanDisplayStatusIcons);
     }
 
     private void OnStartup(EntityUid uid, ZombieComponent component, ComponentStartup args)
@@ -37,18 +36,7 @@ public sealed class ZombieSystem : EntitySystem
     /// </summary>
     private void OnCanDisplayStatusIcons(EntityUid uid, ZombieComponent component, ref CanDisplayStatusIconsEvent args)
     {
-        if (HasComp<ZombieComponent>(args.User) || HasComp<InitialInfectedComponent>(args.User) || HasComp<ShowZombieIconsComponent>(args.User))
-            return;
-
-        if (component.IconVisibleToGhost && HasComp<GhostComponent>(args.User))
-            return;
-
-        args.Cancelled = true;
-    }
-
-    private void OnCanDisplayStatusIcons(EntityUid uid, InitialInfectedComponent component, ref CanDisplayStatusIconsEvent args)
-    {
-        if (HasComp<InitialInfectedComponent>(args.User) && !HasComp<ZombieComponent>(args.User))
+        if (HasComp<ZombieComponent>(args.User) || HasComp<ShowZombieIconsComponent>(args.User))
             return;
 
         if (component.IconVisibleToGhost && HasComp<GhostComponent>(args.User))

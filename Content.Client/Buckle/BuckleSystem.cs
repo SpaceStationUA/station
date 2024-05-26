@@ -2,7 +2,7 @@ using Content.Client.Rotation;
 using Content.Shared.Buckle;
 using Content.Shared.Buckle.Components;
 using Content.Shared.Rotation;
-using Content.Shared.Vehicle.Components;
+using Content.Shared.Vehicle.Components; //Pirate hoverbikes
 using Robust.Client.GameObjects;
 
 namespace Content.Client.Buckle;
@@ -26,7 +26,7 @@ internal sealed class BuckleSystem : SharedBuckleSystem
         if (!TryComp<SpriteComponent>(uid, out var ownerSprite))
             return;
 
-        if (HasComp<VehicleComponent>(component.LastEntityBuckledTo))
+        if (HasComp<VehicleComponent>(component.LastEntityBuckledTo)) //Pirate hoverbikes
             return;
         // Adjust draw depth when the chair faces north so that the seat back is drawn over the player.
         // Reset the draw depth when rotated in any other direction.

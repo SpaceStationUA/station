@@ -6,15 +6,6 @@
     Steel: 300
 
 - type: latheRecipe
-  id: ClothingEyesGlassesShadowkinDarkWindow
-  result: ClothingEyesGlassesShadowkinDarkWindow
-  completetime: 2
-  materials:
-    Steel: 200
-    Plastic: 200
-    Glass: 200
-
-- type: latheRecipe
   id: Zipties
   result: Zipties
   completetime: 2
@@ -97,6 +88,14 @@
     Plastic: 100
 
 - type: latheRecipe
+  id: ClothingEyesGlassesSecurity
+  result: ClothingEyesGlassesSecurity
+  completetime: 2
+  materials:
+    Steel: 300
+    Glass: 200
+
+- type: latheRecipe
   id: ClothingEyesHudSecurity
   result: ClothingEyesHudSecurity
   completetime: 2
@@ -112,14 +111,6 @@
     Steel: 300
     Glass: 50
     Plastic: 50
-
-- type: latheRecipe
-  id: ClothingEyesGlassesSecurity
-  result: ClothingEyesGlassesSecurity
-  completetime: 2
-  materials:
-    Steel: 300
-    Glass: 200
 
 - type: latheRecipe
   id: RiotShield
@@ -621,17 +612,7 @@
     Steel: 1000
     Glass: 500
     Plastic: 500
-
-- type: latheRecipe
-  id: EnergyDomeDirectionalTurtle
-  result: EnergyDomeDirectionalTurtle
-  completetime: 12
-  materials:
-    Steel: 1000
-    Plastic: 500
-    Gold: 250
-    Uranium: 50
-
+     
 - type: latheRecipe
   id: MagazineGrenadeEmpty
   result: MagazineGrenadeEmpty
@@ -639,7 +620,7 @@
   materials:
      Steel: 150
      Plastic: 50
-
+     
 - type: latheRecipe
   id: GrenadeEMP
   result: GrenadeEMP
@@ -648,7 +629,7 @@
      Steel: 150
      Plastic: 100
      Glass: 20
-
+     
 - type: latheRecipe
   id: GrenadeBlast
   result: GrenadeBlast
@@ -657,7 +638,7 @@
      Steel: 150
      Plastic: 100
      Gold: 50
-
+     
 - type: latheRecipe
   id: GrenadeFlash
   result: GrenadeFlash
@@ -666,3 +647,12 @@
      Steel: 150
      Plastic: 100
      Glass: 20
+#PIRATE START UNTIL END OF FILE
+- type: latheRecipe
+  id: ClothingEyesGlassesShadowkinDarkWindow
+  result: ClothingEyesGlassesShadowkinDarkWindow
+  completetime: 2
+  materials:
+    Steel: 200
+    Plastic: 200
+    Glass: 200

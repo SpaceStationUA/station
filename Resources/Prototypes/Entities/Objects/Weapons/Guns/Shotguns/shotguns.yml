@@ -105,20 +105,14 @@
   id: WeaponShotgunDoubleBarreled
   description: An immortal classic. Uses .50 shotgun shells.
   components:
-  # - type: Sprite
-  #   sprite: Objects/Weapons/Guns/Shotguns/db_shotgun.rsi
+  - type: Sprite
+    sprite: DeltaV/Objects/Weapons/Guns/Shotguns/db_shotgun.rsi # Delta-V
   - type: Item
     size: Normal
     shape:
     - 0,0,4,0
-  - type: Sprite
-    sprite: DeltaV/Objects/Weapons/Guns/Shotguns/db_shotgun.rsi # Delta-V
-  # - type: Item
-  #   size: Normal
-  #   shape:
-  #   - 0,0,4,0
-  #   sprite: Objects/Weapons/Guns/Shotguns/inhands_64x.rsi
-  #   heldPrefix: db
+    sprite: Objects/Weapons/Guns/Shotguns/inhands_64x.rsi
+    heldPrefix: db
   - type: Gun
     fireRate: 2
   - type: BallisticAmmoProvider
@@ -270,7 +264,7 @@
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi # Delta-V
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi
+    sprite: DeltaV/Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi # Delta-V
   - type: Item
     size: Normal
     shape:

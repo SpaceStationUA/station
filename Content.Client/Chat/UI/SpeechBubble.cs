@@ -252,8 +252,7 @@ namespace Content.Client.Chat.UI
             var bubbleContent = new RichTextLabel
             {
                 MaxWidth = SpeechMaxWidth,
-                Margin = new Thickness(2, 6, 2, 2),
-                StyleClasses = { "bubbleContent" }
+                Margin = new Thickness(2, 6, 2, 2)
             };
 
             //We'll be honest. *Yes* this is hacky. Doing this in a cleaner way would require a bottom-up refactor of how saycode handles sending chat messages. -Myr

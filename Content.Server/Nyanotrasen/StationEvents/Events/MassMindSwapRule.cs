@@ -65,7 +65,7 @@ internal sealed class MassMindSwapRule : StationEventSystem<MassMindSwapRuleComp
                 // Remove this actor from the pool of swap candidates before they go.
                 psionicPool.Remove(actor);
 
-                //if actor or other has MindSwappedComponent component then skip, if not that leads to stuck in body
+                // [Pirate] if actor or other has MindSwappedComponent component then skip, if not that leads to stuck in body
                 if (HasComp<MindSwappedComponent>(actor) || HasComp<MindSwappedComponent>(other))
                     continue;
 

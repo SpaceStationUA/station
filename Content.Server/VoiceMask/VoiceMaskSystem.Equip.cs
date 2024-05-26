@@ -21,7 +21,6 @@ public sealed partial class VoiceMaskSystem
 
         var comp = EnsureComp<VoiceMaskComponent>(user);
         comp.VoiceName = component.LastSetName;
-        comp.SpeechVerb = component.LastSpeechVerb;
 
         _actions.AddAction(user, ref component.ActionEntity, component.Action, uid);
     }
@@ -31,23 +30,15 @@ public sealed partial class VoiceMaskSystem
         RemComp<VoiceMaskComponent>(args.Equipee);
     }
 
-    private VoiceMaskerComponent? TryGetMask(EntityUid user)
+    private void TrySetLastKnownName(EntityUid maskWearer, string lastName)
     {
-        if (!HasComp<VoiceMaskComponent>(user) || !_inventory.TryGetSlotEntity(user, MaskSlot, out var maskEntity))
-            return null;
+        if (!HasComp<VoiceMaskComponent>(maskWearer)
+            || !_inventory.TryGetSlotEntity(maskWearer, MaskSlot, out var maskEntity)
+            || !TryComp<VoiceMaskerComponent>(maskEntity, out var maskComp))
+        {
+            return;
+        }
 
-        return CompOrNull<VoiceMaskerComponent>(maskEntity);
-    }
-
-    private void TrySetLastKnownName(EntityUid user, string name)
-    {
-        if (TryGetMask(user) is {} comp)
-            comp.LastSetName = name;
-    }
-
-    private void TrySetLastSpeechVerb(EntityUid user, string? verb)
-    {
-        if (TryGetMask(user) is {} comp)
-            comp.LastSpeechVerb = verb;
+        maskComp.LastSetName = lastName;
     }
 }

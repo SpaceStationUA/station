@@ -132,7 +132,7 @@
   - type: Clothing
     sprite: Clothing/OuterClothing/Suits/spaceninja.rsi
   - type: StealthClothing
-    visibility: 1.0
+    visibility: 1.1
     toggleAction: ActionTogglePhaseCloak
   - type: PressureProtection
     highPressureMultiplier: 0.6
@@ -235,14 +235,3 @@
   - type: ContainerContainer
     containers:
       toggleable-clothing: !type:ContainerSlot {}
-
-- type: entity
-  parent: ClothingOuterBase
-  id: ClothingOuterSuitRobocop
-  name: robot cop suit
-  description: A fantastic human with titanic powers! - M. A.
-  components:
-  - type: Sprite
-    sprite: Clothing/OuterClothing/Suits/robocop.rsi
-  - type: Clothing
-    sprite: Clothing/OuterClothing/Suits/robocop.rsi

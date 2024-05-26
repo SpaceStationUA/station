@@ -14,8 +14,11 @@ public sealed partial class CorridorPostGen : IPostDunGen
     /// <remarks>
     /// Given the heavy weightings this needs to be fairly large for larger dungeons.
     /// </remarks>
-    [DataField]
+    [DataField("pathLimit")]
     public int PathLimit = 2048;
+
+    [DataField("method")]
+    public CorridorPostGenMethod Method = CorridorPostGenMethod.MinimumSpanningTree;
 
     [DataField]
     public ProtoId<ContentTileDefinition> Tile = "FloorSteel";
@@ -23,6 +26,12 @@ public sealed partial class CorridorPostGen : IPostDunGen
     /// <summary>
     /// How wide to make the corridor.
     /// </summary>
-    [DataField]
-    public float Width = 3f;
+    [DataField("width")]
+    public int Width = 3;
+}
+
+public enum CorridorPostGenMethod : byte
+{
+    Invalid,
+    MinimumSpanningTree,
 }

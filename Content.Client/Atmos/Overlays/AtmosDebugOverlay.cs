@@ -256,8 +256,6 @@ public sealed class AtmosDebugOverlay : Overlay
         handle.DrawString(_font, pos, $"Map: {data.MapAtmosphere}");
         pos += offset;
         handle.DrawString(_font, pos, $"NoGrid: {data.NoGrid}");
-        pos += offset;
-        handle.DrawString(_font, pos, $"Immutable: {data.Immutable}");
     }
 
     private void GetGrids(MapId mapId, Box2Rotated box)

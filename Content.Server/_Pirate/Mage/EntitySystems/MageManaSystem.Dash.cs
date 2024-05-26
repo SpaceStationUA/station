@@ -5,7 +5,7 @@ using Content.Shared.Actions.ActionTypes;
 using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
 // using Content.Shared.Pulling.Components;
-using Content.Shared.Movement.Pulling.Components;
+
 using Content.Shared.Movement.Pulling.Systems;
 using Content.Shared.Movement.Pulling;
 using Content.Shared.Storage.Components;
@@ -62,10 +62,10 @@ public sealed class MageDashSystem : EntitySystem
         if (!_mana.TryUseAbility(args.Performer, comp, args.ManaCost))
             return;
 
-        PullableComponent? pullable = null; // To avoid "might not be initialized when accessed" warning
-        if (_entity.TryGetComponent<PullerComponent>(args.Performer, out var puller) &&
+        SharedPullableComponent? pullable = null; // To avoid "might not be initialized when accessed" warning
+        if (_entity.TryGetComponent<SharedPullerComponent>(args.Performer, out var puller) &&
             puller.Pulling != null &&
-            _entity.TryGetComponent<PullableComponent>(puller.Pulling, out pullable) &&
+            _entity.TryGetComponent<SharedPullableComponent>(puller.Pulling, out pullable) &&
             pullable.BeingPulled)
 
             // Temporarily stop pulling to avoid not teleporting fully to the target

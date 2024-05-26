@@ -3,24 +3,30 @@ using Content.Server.Objectives.Components;
 using Content.Shared.Mind;
 using Content.Shared.Objectives.Components;
 
-namespace Content.Server.Objectives.Systems;
-
-public sealed class BecomePsionicConditionSystem : EntitySystem
+namespace Content.Server.Objectives.Systems
 {
-    public override void Initialize()
+    public sealed class BecomePsionicConditionSystem : EntitySystem
     {
-        base.Initialize();
+        private EntityQuery<MetaDataComponent> _metaQuery;
 
-        SubscribeLocalEvent<BecomePsionicConditionComponent, ObjectiveGetProgressEvent>(OnGetProgress);
-    }
+        public override void Initialize()
+        {
+            base.Initialize();
 
-    private void OnGetProgress(Entity<BecomePsionicConditionComponent> ent, ref ObjectiveGetProgressEvent args)
-    {
-        args.Progress = GetProgress(args.Mind);
-    }
+            SubscribeLocalEvent<BecomePsionicConditionComponent, ObjectiveGetProgressEvent>(OnGetProgress);
+        }
 
-    private float GetProgress(MindComponent mind)
-    {
-        return HasComp<PsionicComponent>(mind.OwnedEntity) ? 1 : 0;
+        private void OnGetProgress(EntityUid uid, BecomePsionicConditionComponent comp, ref ObjectiveGetProgressEvent args)
+        {
+            args.Progress = GetProgress(args.Mind);
+        }
+
+        private float GetProgress(MindComponent mind)
+        {
+            var entMan = IoCManager.Resolve<IEntityManager>();
+            if (HasComp<PsionicComponent>(mind.CurrentEntity))
+                return 1;
+            return 0;
+        }
     }
 }

@@ -301,14 +301,14 @@ namespace Content.Server.Database
         private static void RewriteColumnName(IConventionPropertyBuilder propertyBuilder)
         {
             var property = propertyBuilder.Metadata;
-            var entityType = (IConventionEntityType)property.DeclaringType;
+            var entityType = property.DeclaringEntityType;
 
             if (entityType.ClrType == typeof(Microsoft.EntityFrameworkCore.Migrations.HistoryRow))
                 return;
 
             property.Builder.HasNoAnnotation(RelationalAnnotationNames.ColumnName);
 
-            var baseColumnName = StoreObjectIdentifier.Create(entityType, StoreObjectType.Table) is { } tableIdentifier
+            var baseColumnName = StoreObjectIdentifier.Create(property.DeclaringEntityType, StoreObjectType.Table) is { } tableIdentifier
                 ? property.GetDefaultColumnName(tableIdentifier)
                 : property.GetDefaultColumnName();
 

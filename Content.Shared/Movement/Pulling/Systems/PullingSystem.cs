@@ -9,9 +9,9 @@ using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Input;
 using Content.Shared.Interaction;
 using Content.Shared.Movement.Events;
-using Content.Shared.Movement.Pulling.Components;
 using Content.Shared.Movement.Pulling.Events;
 using Content.Shared.Movement.Systems;
+using Content.Shared.Pulling.Components;
 using Content.Shared.Pulling.Events;
 using Content.Shared.Throwing;
 using Content.Shared.Verbs;
@@ -52,16 +52,16 @@ public sealed class PullingSystem : EntitySystem
         UpdatesAfter.Add(typeof(SharedPhysicsSystem));
         UpdatesOutsidePrediction = true;
 
-        SubscribeLocalEvent<PullableComponent, MoveInputEvent>(OnPullableMoveInput);
-        SubscribeLocalEvent<PullableComponent, CollisionChangeEvent>(OnPullableCollisionChange);
-        SubscribeLocalEvent<PullableComponent, JointRemovedEvent>(OnJointRemoved);
-        SubscribeLocalEvent<PullableComponent, GetVerbsEvent<Verb>>(AddPullVerbs);
-        SubscribeLocalEvent<PullableComponent, EntGotInsertedIntoContainerMessage>(OnPullableContainerInsert);
+        SubscribeLocalEvent<SharedPullableComponent, MoveInputEvent>(OnPullableMoveInput);
+        SubscribeLocalEvent<SharedPullableComponent, CollisionChangeEvent>(OnPullableCollisionChange);
+        SubscribeLocalEvent<SharedPullableComponent, JointRemovedEvent>(OnJointRemoved);
+        SubscribeLocalEvent<SharedPullableComponent, GetVerbsEvent<Verb>>(AddPullVerbs);
+        SubscribeLocalEvent<SharedPullableComponent, EntGotInsertedIntoContainerMessage>(OnPullableContainerInsert);
 
-        SubscribeLocalEvent<PullerComponent, EntGotInsertedIntoContainerMessage>(OnPullerContainerInsert);
-        SubscribeLocalEvent<PullerComponent, EntityUnpausedEvent>(OnPullerUnpaused);
-        SubscribeLocalEvent<PullerComponent, VirtualItemDeletedEvent>(OnVirtualItemDeleted);
-        SubscribeLocalEvent<PullerComponent, RefreshMovementSpeedModifiersEvent>(OnRefreshMovespeed);
+        SubscribeLocalEvent<SharedPullerComponent, EntGotInsertedIntoContainerMessage>(OnPullerContainerInsert);
+        SubscribeLocalEvent<SharedPullerComponent, EntityUnpausedEvent>(OnPullerUnpaused);
+        SubscribeLocalEvent<SharedPullerComponent, VirtualItemDeletedEvent>(OnVirtualItemDeleted);
+        SubscribeLocalEvent<SharedPullerComponent, RefreshMovementSpeedModifiersEvent>(OnRefreshMovespeed);
 
         CommandBinds.Builder
             .Bind(ContentKeyFunctions.MovePulledObject, new PointerInputCmdHandler(OnRequestMovePulledObject))
@@ -69,17 +69,17 @@ public sealed class PullingSystem : EntitySystem
             .Register<PullingSystem>();
     }
 
-    private void OnPullerContainerInsert(Entity<PullerComponent> ent, ref EntGotInsertedIntoContainerMessage args)
+    private void OnPullerContainerInsert(Entity<SharedPullerComponent> ent, ref EntGotInsertedIntoContainerMessage args)
     {
         if (ent.Comp.Pulling == null) return;
 
-        if (!TryComp(ent.Comp.Pulling.Value, out PullableComponent? pulling))
+        if (!TryComp(ent.Comp.Pulling.Value, out SharedPullableComponent? pulling))
             return;
 
         TryStopPull(ent.Comp.Pulling.Value, pulling, ent.Owner);
     }
 
-    private void OnPullableContainerInsert(Entity<PullableComponent> ent, ref EntGotInsertedIntoContainerMessage args)
+    private void OnPullableContainerInsert(Entity<SharedPullableComponent> ent, ref EntGotInsertedIntoContainerMessage args)
     {
         TryStopPull(ent.Owner, ent.Comp);
     }
@@ -90,12 +90,12 @@ public sealed class PullingSystem : EntitySystem
         CommandBinds.Unregister<PullingSystem>();
     }
 
-    private void OnPullerUnpaused(EntityUid uid, PullerComponent component, ref EntityUnpausedEvent args)
+    private void OnPullerUnpaused(EntityUid uid, SharedPullerComponent component, ref EntityUnpausedEvent args)
     {
         component.NextThrow += args.PausedTime;
     }
 
-    private void OnVirtualItemDeleted(EntityUid uid, PullerComponent component, VirtualItemDeletedEvent args)
+    private void OnVirtualItemDeleted(EntityUid uid, SharedPullerComponent component, VirtualItemDeletedEvent args)
     {
         // If client deletes the virtual hand then stop the pull.
         if (component.Pulling == null)
@@ -104,13 +104,13 @@ public sealed class PullingSystem : EntitySystem
         if (component.Pulling != args.BlockingEntity)
             return;
 
-        if (EntityManager.TryGetComponent(args.BlockingEntity, out PullableComponent? comp))
+        if (EntityManager.TryGetComponent(args.BlockingEntity, out SharedPullableComponent? comp))
         {
             TryStopPull(args.BlockingEntity, comp, uid);
         }
     }
 
-    private void AddPullVerbs(EntityUid uid, PullableComponent component, GetVerbsEvent<Verb> args)
+    private void AddPullVerbs(EntityUid uid, SharedPullableComponent component, GetVerbsEvent<Verb> args)
     {
         if (!args.CanAccess || !args.CanInteract)
             return;
@@ -142,12 +142,12 @@ public sealed class PullingSystem : EntitySystem
         }
     }
 
-    private void OnRefreshMovespeed(EntityUid uid, PullerComponent component, RefreshMovementSpeedModifiersEvent args)
+    private void OnRefreshMovespeed(EntityUid uid, SharedPullerComponent component, RefreshMovementSpeedModifiersEvent args)
     {
         args.ModifySpeed(component.WalkSpeedModifier, component.SprintSpeedModifier);
     }
 
-    private void OnPullableMoveInput(EntityUid uid, PullableComponent component, ref MoveInputEvent args)
+    private void OnPullableMoveInput(EntityUid uid, SharedPullableComponent component, ref MoveInputEvent args)
     {
         // If someone moves then break their pulling.
         if (!component.BeingPulled)
@@ -161,7 +161,7 @@ public sealed class PullingSystem : EntitySystem
         TryStopPull(uid, component, user: uid);
     }
 
-    private void OnPullableCollisionChange(EntityUid uid, PullableComponent component, ref CollisionChangeEvent args)
+    private void OnPullableCollisionChange(EntityUid uid, SharedPullableComponent component, ref CollisionChangeEvent args)
     {
         // IDK what this is supposed to be.
         if (!_timing.ApplyingState && component.PullJointId != null && !args.CanCollide)
@@ -170,7 +170,7 @@ public sealed class PullingSystem : EntitySystem
         }
     }
 
-    private void OnJointRemoved(EntityUid uid, PullableComponent component, JointRemovedEvent args)
+    private void OnJointRemoved(EntityUid uid, SharedPullableComponent component, JointRemovedEvent args)
     {
         // Just handles the joint getting nuked without going through pulling system (valid behavior).
 
@@ -191,7 +191,7 @@ public sealed class PullingSystem : EntitySystem
     /// <summary>
     /// Forces pulling to stop and handles cleanup.
     /// </summary>
-    private void StopPulling(EntityUid pullableUid, PullableComponent pullableComp)
+    private void StopPulling(EntityUid pullableUid, SharedPullableComponent pullableComp)
     {
         if (!_timing.ApplyingState)
         {
@@ -207,7 +207,7 @@ public sealed class PullingSystem : EntitySystem
         Dirty(pullableUid, pullableComp);
 
         // No more joints with puller -> force stop pull.
-        if (TryComp<PullerComponent>(oldPuller, out var pullerComp))
+        if (TryComp<SharedPullerComponent>(oldPuller, out var pullerComp))
         {
             var pullerUid = oldPuller.Value;
             _alertsSystem.ClearAlert(pullerUid, AlertType.Pulling);
@@ -227,7 +227,7 @@ public sealed class PullingSystem : EntitySystem
         _alertsSystem.ClearAlert(pullableUid, AlertType.Pulled);
     }
 
-    public bool IsPulled(EntityUid uid, PullableComponent? component = null)
+    public bool IsPulled(EntityUid uid, SharedPullableComponent? component = null)
     {
         return Resolve(uid, ref component, false) && component.BeingPulled;
     }
@@ -240,12 +240,12 @@ public sealed class PullingSystem : EntitySystem
             return false;
         }
 
-        if (!TryComp<PullerComponent>(player, out var pullerComp))
+        if (!TryComp<SharedPullerComponent>(player, out var pullerComp))
             return false;
 
         var pulled = pullerComp.Pulling;
 
-        if (!HasComp<PullableComponent>(pulled))
+        if (!HasComp<SharedPullableComponent>(pulled))
             return false;
 
         if (_containerSystem.IsEntityInContainer(player))
@@ -269,11 +269,11 @@ public sealed class PullingSystem : EntitySystem
         }
 
         Dirty(player, pullerComp);
-        _throwing.TryThrow(pulled.Value, fromUserCoords, user: player, strength: 4f, animated: false, recoil: false, playSound: false, doSpin: false);
+        _throwing.TryThrow(pulled.Value, fromUserCoords, user: player, strength: 4f, playSound: false);
         return false;
     }
 
-    public bool IsPulling(EntityUid puller, PullerComponent? component = null)
+    public bool IsPulling(EntityUid puller, SharedPullerComponent? component = null)
     {
         return Resolve(puller, ref component, false) && component.Pulling != null;
     }
@@ -285,8 +285,8 @@ public sealed class PullingSystem : EntitySystem
             return;
         }
 
-        if (!TryComp(player, out PullerComponent? pullerComp) ||
-            !TryComp(pullerComp.Pulling, out PullableComponent? pullableComp))
+        if (!TryComp(player, out SharedPullerComponent? pullerComp) ||
+            !TryComp(pullerComp.Pulling, out SharedPullableComponent? pullableComp))
         {
             return;
         }
@@ -294,7 +294,7 @@ public sealed class PullingSystem : EntitySystem
         TryStopPull(pullerComp.Pulling.Value, pullableComp, user: player);
     }
 
-    public bool CanPull(EntityUid puller, EntityUid pullableUid, PullerComponent? pullerComp = null)
+    public bool CanPull(EntityUid puller, EntityUid pullableUid, SharedPullerComponent? pullerComp = null)
     {
         if (!Resolve(puller, ref pullerComp, false))
         {
@@ -347,7 +347,7 @@ public sealed class PullingSystem : EntitySystem
         return !startPull.Cancelled && !getPulled.Cancelled;
     }
 
-    public bool TogglePull(EntityUid pullableUid, EntityUid pullerUid, PullableComponent pullable)
+    public bool TogglePull(EntityUid pullableUid, EntityUid pullerUid, SharedPullableComponent pullable)
     {
         if (pullable.Puller == pullerUid)
         {
@@ -357,16 +357,16 @@ public sealed class PullingSystem : EntitySystem
         return TryStartPull(pullerUid, pullableUid, pullableComp: pullable);
     }
 
-    public bool TogglePull(EntityUid pullerUid, PullerComponent puller)
+    public bool TogglePull(EntityUid pullerUid, SharedPullerComponent puller)
     {
-        if (!TryComp<PullableComponent>(puller.Pulling, out var pullable))
+        if (!TryComp<SharedPullableComponent>(puller.Pulling, out var pullable))
             return false;
 
         return TogglePull(puller.Pulling.Value, pullerUid, pullable);
     }
 
     public bool TryStartPull(EntityUid pullerUid, EntityUid pullableUid, EntityUid? user = null,
-        PullerComponent? pullerComp = null, PullableComponent? pullableComp = null)
+        SharedPullerComponent? pullerComp = null, SharedPullableComponent? pullableComp = null)
     {
         if (!Resolve(pullerUid, ref pullerComp, false) ||
             !Resolve(pullableUid, ref pullableComp, false))
@@ -464,7 +464,7 @@ public sealed class PullingSystem : EntitySystem
         return true;
     }
 
-    public bool TryStopPull(EntityUid pullableUid, PullableComponent pullable, EntityUid? user = null)
+    public bool TryStopPull(EntityUid pullableUid, SharedPullableComponent pullable, EntityUid? user = null)
     {
         var pullerUidNull = pullable.Puller;
 

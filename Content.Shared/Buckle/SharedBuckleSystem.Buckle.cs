@@ -7,9 +7,11 @@ using Content.Shared.Database;
 using Content.Shared.Hands.Components;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Interaction;
+using Content.Shared.Interaction.Events;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Movement.Events;
 using Content.Shared.Popups;
+using Content.Shared.Pulling.Components;
 using Content.Shared.Standing;
 using Content.Shared.Storage.Components;
 using Content.Shared.Stunnable;
@@ -19,7 +21,6 @@ using Content.Shared.Verbs;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Utility;
-using PullableComponent = Content.Shared.Movement.Pulling.Components.PullableComponent;
 
 namespace Content.Shared.Buckle;
 
@@ -39,6 +40,7 @@ public abstract partial class SharedBuckleSystem
         SubscribeLocalEvent<BuckleComponent, StandAttemptEvent>(OnBuckleStandAttempt);
         SubscribeLocalEvent<BuckleComponent, ThrowPushbackAttemptEvent>(OnBuckleThrowPushbackAttempt);
         SubscribeLocalEvent<BuckleComponent, UpdateCanMoveEvent>(OnBuckleUpdateCanMove);
+        SubscribeLocalEvent<BuckleComponent, ChangeDirectionAttemptEvent>(OnBuckleChangeDirectionAttempt);
     }
 
     private void OnBuckleComponentStartup(EntityUid uid, BuckleComponent component, ComponentStartup args)
@@ -55,7 +57,7 @@ public abstract partial class SharedBuckleSystem
 
     private void OnBuckleMove(EntityUid uid, BuckleComponent component, ref MoveEvent ev)
     {
-        if (component.BuckledTo is not { } strapUid)
+        if (component.BuckledTo is not {} strapUid)
             return;
 
         if (!TryComp<StrapComponent>(strapUid, out var strapComp))
@@ -86,7 +88,7 @@ public abstract partial class SharedBuckleSystem
         {
             Act = () => TryUnbuckle(uid, args.User, buckleComp: component),
             Text = Loc.GetString("verb-categories-unbuckle"),
-            Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/unbuckle.svg.192dpi.png"))
+            Icon = new SpriteSpecifier.Texture(new ("/Textures/Interface/VerbIcons/unbuckle.svg.192dpi.png"))
         };
 
         if (args.Target == args.User && args.Using == null)
@@ -128,7 +130,7 @@ public abstract partial class SharedBuckleSystem
 
     private void OnBuckleThrowPushbackAttempt(EntityUid uid, BuckleComponent component, ThrowPushbackAttemptEvent args)
     {
-        if (component.BuckledTo != null)
+        if (component.BuckledTo != null) //Pirate hoverbikes
         {
             var buckle = component.BuckledTo;
             if (TryComp<VehicleComponent>(buckle, out _))
@@ -144,8 +146,14 @@ public abstract partial class SharedBuckleSystem
         if (component.LifeStage > ComponentLifeStage.Running)
             return;
 
-        if (component.Buckled &&
-            !HasComp<VehicleComponent>(component.BuckledTo)) // buckle shitcode
+        if (component.Buckled && // buckle shitcode
+            !HasComp<VehicleComponent>(component.BuckledTo)) //Pirate hoverbikes
+            args.Cancel();
+    }
+
+    private void OnBuckleChangeDirectionAttempt(EntityUid uid, BuckleComponent component, ChangeDirectionAttemptEvent args)
+    {
+        if (component.Buckled)
             args.Cancel();
     }
 
@@ -200,7 +208,7 @@ public abstract partial class SharedBuckleSystem
 
         ActionBlocker.UpdateCanMove(buckleUid);
         UpdateBuckleStatus(buckleUid, buckleComp, strapComp);
-        Dirty(buckleUid, buckleComp);
+        Dirty(buckleComp);
     }
 
     /// <summary>
@@ -230,8 +238,8 @@ public abstract partial class SharedBuckleSystem
         }
 
         // Does it pass the Whitelist
-        if (strapComp.Whitelist != null &&
-            !strapComp.Whitelist.IsValid(buckleUid, EntityManager) || strapComp.Blacklist?.IsValid(buckleUid, EntityManager) == true)
+        if (strapComp.AllowedEntities != null &&
+            !strapComp.AllowedEntities.IsValid(userUid, EntityManager))
         {
             if (_netManager.IsServer)
                 _popup.PopupEntity(Loc.GetString("buckle-component-cannot-fit-message"), userUid, buckleUid, PopupType.Medium);
@@ -357,25 +365,25 @@ public abstract partial class SharedBuckleSystem
         RaiseLocalEvent(ev.BuckledEntity, ref ev);
         RaiseLocalEvent(ev.StrapEntity, ref ev);
 
-        if (TryComp<PullableComponent>(buckleUid, out var ownerPullable))
+        if (TryComp<SharedPullableComponent>(buckleUid, out var ownerPullable))
         {
             if (ownerPullable.Puller != null)
             {
-                _pulling.TryStopPull(buckleUid, ownerPullable);
+                _pulling.TryStopPull(ownerPullable);
             }
         }
 
         if (TryComp<PhysicsComponent>(buckleUid, out var physics))
         {
-            _physics.ResetDynamics(buckleUid, physics);
+            _physics.ResetDynamics(physics);
         }
 
-        if (!buckleComp.PullStrap && TryComp<PullableComponent>(strapUid, out var toPullable))
+        if (!buckleComp.PullStrap && TryComp<SharedPullableComponent>(strapUid, out var toPullable))
         {
             if (toPullable.Puller == buckleUid)
             {
                 // can't pull it and buckle to it at the same time
-                _pulling.TryStopPull(strapUid, toPullable);
+                _pulling.TryStopPull(toPullable);
             }
         }
 
@@ -425,7 +433,7 @@ public abstract partial class SharedBuckleSystem
             if (HasComp<SleepingComponent>(buckleUid) && buckleUid == userUid)
                 return false;
 
-            if (TryComp<VehicleComponent>(strapUid, out var vehicle) && vehicle.Rider != userUid && !_mobState.IsIncapacitated(buckleUid))
+            if (TryComp<VehicleComponent>(strapUid, out var vehicle) && vehicle.Rider != userUid && !_mobState.IsIncapacitated(buckleUid)) //Pirate hoverbikes
                 return false;
             // If the person is crit or dead in any kind of strap, return. This prevents people from unbuckling themselves while incapacitated.
             if (_mobState.IsIncapacitated(buckleUid) && userUid == buckleUid)
@@ -479,7 +487,8 @@ public abstract partial class SharedBuckleSystem
         if (strapComp.BuckledEntities.Remove(buckleUid))
         {
             strapComp.OccupiedSize -= buckleComp.Size;
-            Dirty(strapUid, strapComp);
+            //Dirty(strapUid);
+            Dirty(strapComp);
         }
 
         _joints.RefreshRelay(buckleUid);

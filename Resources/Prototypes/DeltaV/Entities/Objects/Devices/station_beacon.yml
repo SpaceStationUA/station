@@ -5,7 +5,7 @@
   suffix: Conference Room
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-conference-room
+    text: station-beacon-conference-room
 
 #Medical
 - type: entity
@@ -14,7 +14,7 @@
   suffix: Virology
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-virology
+    text: station-beacon-virology
 
 - type: entity
   parent: DefaultStationBeaconMedical
@@ -22,15 +22,15 @@
   suffix: Cloning #Metempsychosis
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-metempsychosis
+    text: station-beacon-metempsychosis
 
 - type: entity
   parent: DefaultStationBeaconMedical
   id: DefaultStationBeaconExam
-  suffix: Exam
+  suffix: Exam Room
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-exam
+    text: station-beacon-exam
 
 - type: entity
   parent: DefaultStationBeaconMedical
@@ -38,32 +38,32 @@
   suffix: Medical Outpost
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-med-outpost
+    text: station-beacon-med-outpost
 
 - type: entity
   parent: DefaultStationBeaconMedical
   id: DefaultStationBeaconPsychologist
-  suffix: Psych
+  suffix: Psychologist
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-psych
+    text: station-beacon-psych
 
 #Epistemics
 - type: entity
   parent: DefaultStationBeaconScience
   id: DefaultStationBeaconProber
-  suffix: Prober
+  suffix: Glimmer Prober
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-glimmer-prober
+    text: station-beacon-glimmer-prober
 
 - type: entity
   parent: DefaultStationBeaconScience
   id: DefaultStationBeaconMantis
-  suffix: Mantis
+  suffix: Forensic Mantis
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-forensic-mantis
+    text: station-beacon-forensic-mantis
 
 #Logistics
 - type: entity
@@ -72,7 +72,7 @@
   suffix: Mailroom
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-mailroom
+    text: station-beacon-mailroom
 
 #Engineering
 - type: entity
@@ -81,7 +81,7 @@
   suffix: Engi Outpost
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-engi-outpost
+    text: station-beacon-engi-outpost
 
 #Service
 - type: entity
@@ -90,7 +90,7 @@
   suffix: Janitor's Office
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-janitor-office
+    text: station-beacon-janitor-office
 
 - type: entity
   parent: DefaultStationBeaconService
@@ -98,7 +98,7 @@
   suffix: Reporter
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-reporter
+    text: station-beacon-reporter
 
 #Surveilance
 - type: entity
@@ -107,7 +107,7 @@
   suffix: Camera Servers
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-camera-servers
+    text: station-beacon-camera-servers
 
 #General
 - type: entity
@@ -116,7 +116,7 @@
   suffix: Boxing Ring
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-boxing-ring
+    text: station-beacon-boxing-ring
 
 - type: entity
   parent: DefaultStationBeacon
@@ -124,7 +124,7 @@
   suffix: Park
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-park
+    text: station-beacon-park
 
 #Security
 - type: entity
@@ -133,4 +133,4 @@
   suffix: Corpsman
   components:
   - type: NavMapBeacon
-    defaultText: station-beacon-corpsman
+    text: station-beacon-corpsman

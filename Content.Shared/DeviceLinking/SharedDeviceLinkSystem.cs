@@ -13,6 +13,7 @@ public abstract class SharedDeviceLinkSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly SharedPopupSystem _popupSystem = default!;
     [Dependency] private readonly ISharedAdminLogManager _adminLogger = default!;
+    private ISawmill _sawmill = default!;
 
     public const string InvokedPort = "link_port";
 
@@ -24,6 +25,7 @@ public abstract class SharedDeviceLinkSystem : EntitySystem
         SubscribeLocalEvent<DeviceLinkSinkComponent, ComponentStartup>(OnSinkStartup);
         SubscribeLocalEvent<DeviceLinkSourceComponent, ComponentRemove>(OnSourceRemoved);
         SubscribeLocalEvent<DeviceLinkSinkComponent, ComponentRemove>(OnSinkRemoved);
+        _sawmill = Logger.GetSawmill("devicelink");
     }
 
     #region Link Validation
@@ -384,12 +386,12 @@ public abstract class SharedDeviceLinkSystem : EntitySystem
 
         if (sourceComponent == null)
         {
-            Log.Error($"Attempted to remove link between {ToPrettyString(sourceUid)} and {ToPrettyString(sinkUid)}, but the source component was missing.");
+            _sawmill.Error($"Attempted to remove link between {ToPrettyString(sourceUid)} and {ToPrettyString(sinkUid)}, but the source component was missing.");
             sinkComponent!.LinkedSources.Remove(sourceUid);
         }
         else
         {
-            Log.Error($"Attempted to remove link between {ToPrettyString(sourceUid)} and {ToPrettyString(sinkUid)}, but the sink component was missing.");
+            _sawmill.Error($"Attempted to remove link between {ToPrettyString(sourceUid)} and {ToPrettyString(sinkUid)}, but the sink component was missing.");
             sourceComponent.LinkedPorts.Remove(sourceUid);
         }
     }

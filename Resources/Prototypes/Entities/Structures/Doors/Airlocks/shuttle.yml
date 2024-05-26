@@ -1,5 +1,5 @@
 - type: entity
-  parent: AirlockRCDResistant
+  parent: Airlock
   id: AirlockShuttle
   suffix: Docking
   name: external airlock
@@ -57,6 +57,7 @@
     denySound:
       path: /Audio/Machines/airlock_deny.ogg
   - type: Airtight
+    fixVacuum: true
     noAirWhenFullyAirBlocked: false
   - type: Tag
     tags:

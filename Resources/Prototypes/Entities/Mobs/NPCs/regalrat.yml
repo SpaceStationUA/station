@@ -26,9 +26,6 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: regalrat
-    - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
-      state: eyes
-      shader: unshaded
   - type: Physics
     bodyType: KinematicController
   - type: Fixtures
@@ -80,7 +77,6 @@
     states:
       Alive:
         Base: regalrat
-        BaseUnshaded: eyes
       Critical:
         Base: critical
       Dead:
@@ -106,19 +102,6 @@
     spawned:
     - id: ClothingHeadHatFancyCrown #how did that get there?
       amount: 1
-  - type: DiseaseCarrier
-    naturalImmunities:
-    - ActiveHonkVirus
-    carrierDiseases:
-    - VentCough
-    - AMIV
-    - SpaceCold
-    - SpaceFlu
-    - BirdFlew
-    - VanAusdallsRobovirus
-    - BleedersBite
-    - Plague
-    - TongueTwister
   - type: MobPrice
     price: 2500 # rat wealth
   - type: RandomMetadata
@@ -144,9 +127,6 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: regalrat
-    - map: [ "enum.DamageStateVisualLayers.BaseUnshaded"]
-      state: eyes
-      shader: unshaded
   - type: MobState
   - type: MobThresholds
     thresholds:
@@ -201,21 +181,17 @@
     - SimpleHostile
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: Mobs/Animals/rat.rsi
+    sprite: Mobs/Animals/mouse.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
-      state: rat
-    - map: [ "enum.DamageStateVisualLayers.BaseUnshaded"]
-      state: eyes
-      shader: unshaded
-
+      state: mouse-3
   - type: SpriteMovement
     movementLayers:
       movement:
-        state: rat-moving
+        state: mouse-moving-3
     noMovementLayers:
       movement:
-        state: rat
+        state: mouse-3
   - type: Physics
     bodyType: KinematicController
   - type: Fixtures
@@ -268,29 +244,15 @@
   - type: DamageStateVisuals
     states:
       Alive:
-        Base: rat
-        BaseUnshaded: eyes
+        Base: mouse-3
       Critical:
-        Base: dead
+        Base: dead-3
       Dead:
-        Base: splat
+        Base: splat-3
   - type: Butcherable
     spawned:
     - id: FoodMeatRat
       amount: 1
-  - type: DiseaseCarrier
-    naturalImmunities:
-      - ActiveHonkVirus
-    carrierDiseases:
-    - VentCough
-    - AMIV
-    - SpaceCold
-    - SpaceFlu
-    - BirdFlew
-    - VanAusdallsRobovirus
-    - BleedersBite
-    - Plague
-    - TongueTwister
   - type: Vocal
     sounds:
       Male: Mouse
@@ -314,10 +276,7 @@
   - type: FelinidFood # Nyanotrasen - Felinid, ability to eat rat, see Content.Server/Nyanotrasen/Abilities/Felinid/FelinidSystem.cs
   - type: Food
   - type: Item
-    size: Tiny # Delta V - Make them edible and pickable.
-  - type: FireVisuals
-    sprite: Mobs/Effects/onfire.rsi
-    normalState: Mouse_burning
+    size: Tiny # Delta V - Make them eatable and pickable.
 
 - type: weightedRandomEntity
   id: RatKingLoot
@@ -325,7 +284,6 @@
     RandomSpawner100: 66 #garbage
     FoodCheese: 28 #food
     IngotGold1: 5 #loot
-
 
 - type: entity
   id: ActionRatKingRaiseArmy

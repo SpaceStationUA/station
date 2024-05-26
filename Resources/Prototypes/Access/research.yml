@@ -5,10 +5,6 @@
 - type: accessLevel
   id: Research
   name: id-card-access-level-research
-  
-- type: accessLevel
-  id: Robotics
-  name: id-card-access-level-robotics
 
 - type: accessGroup
   id: Research
@@ -17,3 +13,8 @@
   - Research
   - Mantis # DeltaV - Psionic Mantis, see Resources/Prototypes/DeltaV/Access/epistemics.yml
   - Robotics # Troyéshina pirates - Add access
+
+#PIRATES START UNTIL END OF FILE
+- type: accessLevel
+  id: Robotics
+  name: id-card-access-level-robotics

@@ -10,6 +10,11 @@ namespace Content.Shared.Shuttles.Components;
 [Access(typeof(SharedShuttleSystem))]
 public sealed partial class IFFComponent : Component
 {
+    /// <summary>
+    /// Should we show IFF by default?
+    /// </summary>
+    public const bool ShowIFFDefault = true;
+
     public static readonly Color SelfColor = Color.MediumSpringGreen;
 
     /// <summary>
@@ -43,9 +48,5 @@ public enum IFFFlags : byte
     /// </summary>
     Hide,
 
-    /// <summary>
-    /// Is this a player shuttle
-    /// </summary>
-    IsPlayerShuttle = 4,
     // TODO: Need one that hides its outline, just replace it with a bunch of triangles or lines or something.
 }

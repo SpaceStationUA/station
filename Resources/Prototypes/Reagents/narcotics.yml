@@ -116,13 +116,6 @@
         damage:
           types:
             Poison: 1
-      - !type:AdjustReagent
-        conditions:
-        - !type:ReagentThreshold
-          reagent: ChloralHydrate
-          min: 1
-        reagent: ChloralHydrate
-        amount: -10
       - !type:GenericStatusEffect
         key: Stun
         time: 3
@@ -136,10 +129,6 @@
         component: StaminaModifier
         time: 3
         type: Add
-      - !type:GenericStatusEffect
-        key: ForcedSleep
-        time: 3
-        type: Remove
     Medicine:
       metabolismRate: 1.0
       effects:
@@ -212,14 +201,6 @@
   plantMetabolism:
   - !type:PlantAdjustHealth
     amount: -5
-  metabolisms:
-    Poison:
-      effects:
-      - !type:HealthChange
-        probability: 0.02
-        damage:
-          types:
-            Cellular: 2 #smoking gives you cancer.
 
 # TODO: Replace these nonstandardized effects with generic brain damage
 - type: reagent
