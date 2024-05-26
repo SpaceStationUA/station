@@ -1,4 +1,3 @@
-using Content.Server.Disease;
 using Content.Shared.Disease.Components;
 using Content.Server.GameTicking.Rules.Components;
 using Content.Server.StationEvents.Components;

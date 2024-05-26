@@ -16,6 +16,7 @@ using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
 using Content.Shared.Magic.Events;
+using Content.Shared.Pulling.Components;
 
 namespace Content.Server.SimpleStation14.Species.Shadowkin.Systems;
 

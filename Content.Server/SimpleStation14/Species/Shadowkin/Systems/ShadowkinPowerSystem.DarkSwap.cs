@@ -20,8 +20,6 @@ using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Content.Shared.Ghost;
 using Robust.Shared.Prototypes;
-using Content.Shared.NPC.Components;
-using Content.Shared.NPC.Systems;
 
 namespace Content.Server.SimpleStation14.Species.Shadowkin.Systems;
 

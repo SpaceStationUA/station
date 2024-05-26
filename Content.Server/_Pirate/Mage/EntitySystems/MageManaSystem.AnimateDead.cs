@@ -1,30 +1,22 @@
 using Content.Server.Magic;
 using Content.Shared.Actions;
-using Content.Shared.Actions.ActionTypes;
 using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Movement.Pulling.Systems;
-using Content.Shared.Movement.Pulling;
 using Content.Shared.Storage.Components;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
-using Robust.Server.GameObjects;
-using Robust.Shared.Physics.Systems;
-using Content.Shared.Magic.Events;
 using Content.Shared._Pirate.Mage.Events;
-using Content.Server._Pirate.Mage.EntitySystems;
-using Content.Server._Pirate.Mage.Components;
 using Content.Shared._Pirate.Mage.Components;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Body.Components;
 using Content.Server.Body.Systems;
-using Content.Shared.NPC.Systems;
-using Content.Server.NPC.HTN;
-using System.Threading.Tasks;
+using Content.Server.NPC.Systems;
 
 namespace Content.Server._Pirate.Mage.EntitySystems;
+
 public sealed class MageAnimateDeadSystem : EntitySystem
 {
     [Dependency] private readonly MageManaSystem _mana = default!;
@@ -49,7 +41,6 @@ public sealed class MageAnimateDeadSystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<MageAnimateDeadSpellEvent>(OnAnimateDead);
-
     }
 
     /// <summary>
@@ -110,5 +101,4 @@ public sealed class MageAnimateDeadSystem : EntitySystem
 
         args.Handled = true;
     }
-
 }

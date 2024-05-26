@@ -18,6 +18,7 @@ using Content.Shared._Pirate.Mage.Events;
 using Content.Server._Pirate.Mage.EntitySystems;
 using Content.Server._Pirate.Mage.Components;
 using Content.Shared._Pirate.Mage.Components;
+using Content.Shared.Pulling.Components;
 
 namespace Content.Server._Pirate.Mage.EntitySystems;
 

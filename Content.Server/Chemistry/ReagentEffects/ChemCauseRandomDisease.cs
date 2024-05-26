@@ -1,5 +1,4 @@
 using Content.Shared.Chemistry.Reagent;
-using Content.Server.Disease;
 using Content.Shared.Disease.Components;
 using Robust.Shared.Random;
 using JetBrains.Annotations;
