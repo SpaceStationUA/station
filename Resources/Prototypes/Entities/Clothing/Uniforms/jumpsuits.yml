@@ -1461,3 +1461,14 @@
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
+#PIRATE
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitBlueshield
+  name: blueshield jumpsuit
+  description: Сер, це дуже технологічний комбенізон, він зшитий найдосвідчинішими клоунами!.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi

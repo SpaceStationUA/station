@@ -926,3 +926,14 @@
       - state: equipped-INNERCLOTHING-jumpskirt
       - state: equipped-INNERCLOTHING-shirt
         color: "#b30000"
+#PIRATE
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtBlueshield
+  name: blueshield jumpskirt
+  description: Міс, цей комбенізон був внесений до модного журналу!.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/blueshield.rsi
