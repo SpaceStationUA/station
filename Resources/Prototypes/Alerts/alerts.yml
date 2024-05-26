@@ -27,14 +27,6 @@
     - alertType: Magboots
     - alertType: Pacified
 #PIRATE START
-- type: entity
-  id: AlertSpriteView
-  categories: [ hideSpawnMenu ]
-  components:
-  - type: Sprite
-    layers:
-    - map: [ "enum.AlertVisualLayers.Base" ]
-
 - type: alert
   id: MageMana
   # category: Stamina
