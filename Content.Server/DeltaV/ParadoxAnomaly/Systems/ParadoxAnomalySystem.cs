@@ -18,6 +18,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 using System.Diagnostics.CodeAnalysis;
+using Content.Shared.DetailExaminable;
 
 namespace Content.Server.DeltaV.ParadoxAnomaly.Systems;
 
