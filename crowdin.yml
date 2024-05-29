@@ -1,3 +1,6 @@
 files:
-  - source: Resources/Locale/en-US
-    translation: Resources/Locale/uk-UA
+  - source: /Resources/Locale/en-US/**
+    translation: /Resources/Locale/uk-UA/{path}/
+    languages_mapping:
+      uk-UA:
+        - uk-UA/**
