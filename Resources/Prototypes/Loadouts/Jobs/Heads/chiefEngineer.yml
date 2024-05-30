@@ -32,3 +32,15 @@
         - ChiefEngineer
   items:
     - ClothingOuterWinterCE
+
+- type: loadout
+  id: LoadoutCommandCEShoesBootsWinter
+  category: Jobs
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - ChiefEngineer
+  items:
+    - ClothingShoesBootsWinterChiefEngineer

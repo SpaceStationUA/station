@@ -1,17 +1,15 @@
-using Content.Shared.Humanoid.Prototypes;
-using Content.Shared.Roles;
-using Content.Shared.Whitelist;
+using Content.Shared.Clothing.Loadouts.Systems;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.List;
 
-namespace Content.Shared.Loadouts;
+namespace Content.Shared.Clothing.Loadouts.Prototypes;
 
 [Prototype("loadout")]
 public sealed class LoadoutPrototype : IPrototype
 {
     /// <summary>
-    ///     Formatted like "Loadout<Department><CommonClothingSlot><SimplifiedClothingId>", example: "LoadoutScienceOuterLabcoatSeniorResearcher"
+    ///     Formatted like "Loadout[Department/ShortHeadName][CommonClothingSlot][SimplifiedClothingId]", example: "LoadoutScienceOuterLabcoatSeniorResearcher"
     /// </summary>
     [IdDataField]
     public string ID { get; } = default!;

@@ -12,7 +12,7 @@ namespace Content.Server.Clothing.Systems;
 public sealed class LoadoutSystem : EntitySystem
 {
     [Dependency] private readonly IConfigurationManager _configurationManager = default!;
-    [Dependency] private readonly Shared.Clothing.LoadoutSystem _loadout = default!;
+    [Dependency] private readonly Shared.Clothing.Loadouts.Systems.LoadoutSystem _loadout = default!;
     [Dependency] private readonly InventorySystem _inventory = default!;
     [Dependency] private readonly SharedStorageSystem _storage = default!;
     [Dependency] private readonly PlayTimeTrackingManager _playTimeTracking = default!;
@@ -43,7 +43,7 @@ public sealed class LoadoutSystem : EntitySystem
         {
             if (EntityManager.TryGetComponent<ItemComponent>(loadout, out var itemComp) &&
                 _storage.CanInsert(item.Value, loadout, out _, inventory, itemComp))
-                _storage.Insert(item.Value, loadout, out _);
+                _storage.Insert(item.Value, loadout, out _, playSound: false);
         }
     }
 }

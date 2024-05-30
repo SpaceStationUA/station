@@ -24,6 +24,7 @@ using Robust.Shared.Audio;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
+using Content.Server.Advertise.EntitySystems;
 
 namespace Content.Server.VendingMachines
 {
@@ -38,6 +39,7 @@ namespace Content.Server.VendingMachines
         [Dependency] private readonly UserInterfaceSystem _userInterfaceSystem = default!;
         [Dependency] private readonly IGameTiming _timing = default!;
         [Dependency] private readonly SpeakOnUIClosedSystem _speakOnUIClosed = default!;
+        [Dependency] private readonly AdvertiseSystem _advertise = default!;
 
         public override void Initialize()
         {

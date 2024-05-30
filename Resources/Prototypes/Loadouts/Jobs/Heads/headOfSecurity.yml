@@ -161,3 +161,15 @@
         - HeadOfSecurity
   items:
     - ClothingHeadHatHoshat
+
+- type: loadout
+  id: LoadoutCommandHOSShoesBootsWinter
+  category: Jobs
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - HeadOfSecurity
+  items:
+    - ClothingShoesBootsWinterHeadOfSecurity
