@@ -14,6 +14,3 @@ cargoproduct-category-name-science = Science
 cargoproduct-category-name-security = Security
 cargoproduct-category-name-service = Service
 cargoproduct-category-name-shuttle = Shuttle
-
-cargoproduct-category-name-epistemics = Epistemics
-cargoproduct-category-name-logistics = Logistics

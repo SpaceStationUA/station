@@ -103,6 +103,17 @@
     - ClothingHeadHatCapcap
 
 - type: loadout
+  id: LoadoutCommandCapHatBeret
+  category: Jobs
+  cost: 1
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - Captain
+  items:
+    - ClothingHeadHatBeretCap
+
+- type: loadout
   id: LoadoutCommandCapMaskGas
   category: Jobs
   cost: 1
@@ -112,6 +123,18 @@
         - Captain
   items:
     - ClothingMaskGasCaptain
+
+- type: loadout
+  id: LoadoutCommandCapShoesBootsWinter
+  category: Jobs
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - Captain
+  items:
+    - ClothingShoesBootsWinterCap
 
 - type: loadout
   id: LoadoutCommandCapItemDrinkFlask
