@@ -222,6 +222,14 @@
   components:
   - type: AccessReader
     access: [["Quartermaster"]]
+    
+- type: entity
+  parent: DoorElectronics
+  id: DoorElectronicsBlueshield
+  suffix: Blueshield, Locked
+  components:
+  - type: AccessReader
+    access: [["Blueshield"]]
 
 - type: entity
   parent: DoorElectronics
