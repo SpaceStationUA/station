@@ -210,7 +210,7 @@
   description: "All hail the Communist party!"
   components:
   - type: Sprite
-    state: poster18_contraband
+    state: poster_broken
 
 - type: entity
   parent: PosterBase
@@ -590,7 +590,7 @@
   components:
     - type: Sprite
       state: poster62_contraband
-      
+
 - type: entity
   parent: PosterBase
   id: PosterContrabandMissingSpacepen
