@@ -20,8 +20,7 @@ namespace Content.Shared.Atmos.EntitySystems
             int? InExcitedGroup,
             bool IsSpace,
             bool MapAtmosphere,
-            bool NoGrid,
-            bool Immutable);
+            bool NoGrid);
 
         /// <summary>
         ///     Invalid tiles for the gas overlay.

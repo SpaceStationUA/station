@@ -17,5 +17,16 @@
   components:
   - type: StorageFill
     contents:
-    - id: BoxSurvivalMedical
-    - id: RubberStampPsychologist
+      - id: BoxSurvivalMedical
+      - id: RubberStampPsychologist
+
+  
+- type: entity
+  noSpawn: true
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelLawyerFilled
+  components:
+  - type: StorageFill
+    contents:
+      - id: BoxSurvival
+      - id: RubberStampLawyer

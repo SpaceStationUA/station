@@ -1,4 +1,5 @@
 ﻿using Content.Server.Magic;
+using Content.Server.Pulling;
 // using Content.Server.Pulling;
 using Content.Server.SimpleStation14.Species.Shadowkin.Components;
 using Content.Shared.SimpleStation14.Species.Shadowkin.Events;
@@ -7,15 +8,14 @@ using Content.Shared.Actions.ActionTypes;
 using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
 // using Content.Shared.Pulling.Components;
-using Content.Shared.Movement.Pulling.Components;
-using Content.Shared.Movement.Pulling.Systems;
-using Content.Shared.Movement.Pulling;
+
 using Content.Shared.SimpleStation14.Species.Shadowkin.Components;
 using Content.Shared.Storage.Components;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
 using Content.Shared.Magic.Events;
+using Content.Shared.Pulling.Components;
 
 namespace Content.Server.SimpleStation14.Species.Shadowkin.Systems;
 
@@ -70,14 +70,14 @@ public sealed class ShadowkinTeleportSystem : EntitySystem
         if (transform.MapID != args.Target.GetMapId(EntityManager))
             return;
 
-        PullableComponent? pullable = null; // To avoid "might not be initialized when accessed" warning
-        if (_entity.TryGetComponent<PullerComponent>(args.Performer, out var puller) &&
+        SharedPullableComponent? pullable = null; // To avoid "might not be initialized when accessed" warning
+        if (_entity.TryGetComponent<SharedPullerComponent>(args.Performer, out var puller) &&
             puller.Pulling != null &&
-            _entity.TryGetComponent<PullableComponent>(puller.Pulling, out pullable) &&
+            _entity.TryGetComponent<SharedPullableComponent>(puller.Pulling, out pullable) &&
             pullable.BeingPulled)
 
             // Temporarily stop pulling to avoid not teleporting fully to the target
-            _pulling.TryStopPull(puller.Pulling.Value, pullable, user: args.Performer);
+            _pulling.TryStopPull(pullable, user: args.Performer);
 
 
         // Teleport the performer to the target

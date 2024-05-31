@@ -204,7 +204,11 @@ public sealed class AtmosMonitorSystem : EntitySystem
         if (!this.IsPowered(uid, EntityManager))
             return;
 
-        if (args.Grid  == null)
+        // can't hurt
+        // (in case something is making AtmosDeviceUpdateEvents
+        // outside the typical device loop)
+        if (!TryComp<AtmosDeviceComponent>(uid, out var atmosDeviceComponent)
+            || atmosDeviceComponent.JoinedGrid == null)
             return;
 
         // if we're not monitoring atmos, don't bother

@@ -1,11 +1,9 @@
-using System.Linq;
 using Content.Server.Database;
 using Content.Server.EUI;
 using Content.Shared.Administration.Notes;
 using Content.Shared.CCVar;
 using Content.Shared.Eui;
 using Robust.Shared.Configuration;
-using Robust.Shared.Timing;
 using static Content.Shared.Administration.Notes.AdminMessageEuiMsg;
 
 namespace Content.Server.Administration.Notes;
@@ -14,33 +12,32 @@ public sealed class AdminMessageEui : BaseEui
 {
     [Dependency] private readonly IAdminNotesManager _notesMan = default!;
     [Dependency] private readonly IConfigurationManager _cfg = default!;
-    [Dependency] private readonly IGameTiming _gameTiming = default!;
+    private readonly float _closeWait;
+    private AdminMessageRecord? _message;
+    private DateTime _startTime;
 
-    private readonly TimeSpan _closeWait;
-    private readonly TimeSpan _endTime;
-    private readonly AdminMessageRecord[] _messages;
-
-    public AdminMessageEui(AdminMessageRecord[] messages)
+    public AdminMessageEui()
     {
         IoCManager.InjectDependencies(this);
-        _closeWait = TimeSpan.FromSeconds(_cfg.GetCVar(CCVars.MessageWaitTime));
-        _endTime = _gameTiming.RealTime + _closeWait;
-        _messages = messages;
+        _closeWait = _cfg.GetCVar(CCVars.MessageWaitTime);
     }
 
-    public override void Opened()
+    public void SetMessage(AdminMessageRecord message)
     {
+        _message = message;
+        _startTime = DateTime.UtcNow;
         StateDirty();
     }
 
     public override EuiStateBase GetNewState()
     {
+        if (_message == null)
+            return new AdminMessageEuiState(float.MaxValue, "An error has occurred.", string.Empty, DateTime.MinValue);
         return new AdminMessageEuiState(
             _closeWait,
-            _messages.Select(x => new AdminMessageEuiState.Message(
-                x.Message,
-                x.CreatedBy?.LastSeenUserName ?? Loc.GetString("admin-notes-fallback-admin-name"),
-                x.CreatedAt.UtcDateTime)).ToArray()
+            _message.Message,
+            _message.CreatedBy?.LastSeenUserName ?? "[System]",
+            _message.CreatedAt.UtcDateTime
         );
     }
 
@@ -50,14 +47,15 @@ public sealed class AdminMessageEui : BaseEui
 
         switch (msg)
         {
-            case Dismiss dismiss:
-                if (_gameTiming.RealTime < _endTime)
-                    return;
-
-                foreach (var message in _messages)
-                {
-                    await _notesMan.MarkMessageAsSeen(message.Id, dismiss.Permanent);
-                }
+            case Accept:
+                if (_message == null)
+                    break;
+                // No escape
+                if (DateTime.UtcNow - _startTime >= TimeSpan.FromSeconds(_closeWait))
+                    await _notesMan.MarkMessageAsSeen(_message.Id);
+                Close();
+                break;
+            case Dismiss:
                 Close();
                 break;
         }

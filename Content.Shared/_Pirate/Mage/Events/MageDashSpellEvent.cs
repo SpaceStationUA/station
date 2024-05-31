@@ -9,7 +9,7 @@ namespace Content.Shared._Pirate.Mage.Events;
 public sealed partial class MageDashSpellEvent : WorldTargetActionEvent, ISpeakSpell
 {
     [DataField("sound")]
-    public SoundSpecifier Sound = new SoundPathSpecifier("/Audio/_Park/Effects/Shadowkin/Powers/teleport.ogg");
+    public SoundSpecifier Sound = new SoundPathSpecifier("/Audio/SimpleStation14/Effects/Shadowkin/Powers/teleport.ogg");
 
     [DataField("speech")]
     public string? Speech { get; set;}

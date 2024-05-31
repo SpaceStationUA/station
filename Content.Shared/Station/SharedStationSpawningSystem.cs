@@ -2,9 +2,9 @@ using Content.Shared.Hands.Components;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Inventory;
 using Content.Shared.Preferences;
-using Content.Shared.Radio.Components; // Parkstation-IPC
-using Content.Shared.Containers; // Parkstation-IPC
-using Robust.Shared.Containers; // Parkstation-IPC
+using Content.Shared.Radio.Components; //PIRATE Parkstation-IPC
+using Content.Shared.Containers; //PIRATE Parkstation-IPC
+using Robust.Shared.Containers; //PIRATE Parkstation-IPC
 using Content.Shared.Roles;
 
 namespace Content.Shared.Station;
@@ -13,7 +13,6 @@ public abstract class SharedStationSpawningSystem : EntitySystem
 {
     [Dependency] protected readonly InventorySystem InventorySystem = default!;
     [Dependency] private   readonly SharedHandsSystem _handsSystem = default!;
-    // [Dependency] private readonly SharedContainerSystem _containerSystem = default!;
 
     /// <summary>
     /// Equips starting gear onto the given entity.
@@ -36,7 +35,7 @@ public abstract class SharedStationSpawningSystem : EntitySystem
             }
         }
 
-        // Parkstation-Ipc-Start
+        //PIRATE Parkstation-Ipc-Start
         // This is kinda gross, and weird, and very hardcoded, but it's the best way I could think of to do it.
         // This is replicated in SetOutfitCommand.SetOutfit.
         // If they have an EncryptionKeyHolderComponent, spawn in their headset, find the
@@ -68,7 +67,7 @@ public abstract class SharedStationSpawningSystem : EntitySystem
                 EntityManager.QueueDeleteEntity(earEntity);
             }
         }
-        // Parkstation-Ipc-End
+        //PIRATE Parkstation-Ipc-End
 
         if (!TryComp(entity, out HandsComponent? handsComponent))
             return;

@@ -7,12 +7,12 @@ namespace Content.Shared.Procedural.PostGeneration;
 /// </summary>
 public sealed partial class CornerClutterPostGen : IPostDunGen
 {
-    [DataField]
+    [DataField("chance")]
     public float Chance = 0.50f;
 
     /// <summary>
     /// The default starting bulbs
     /// </summary>
-    [DataField(required: true)]
+    [DataField("contents", required: true)]
     public List<EntitySpawnEntry> Contents = new();
 }

@@ -1,7 +1,5 @@
 using Content.Shared.Gravity;
 using Content.Shared.Hands.Components;
-using Content.Shared.Interaction;
-using Content.Shared.Physics;
 using Robust.Shared.Utility;
 
 namespace Content.Shared.DoAfter;
@@ -10,7 +8,6 @@ public abstract partial class SharedDoAfterSystem : EntitySystem
 {
     [Dependency] private readonly IDynamicTypeFactory _factory = default!;
     [Dependency] private readonly SharedGravitySystem _gravity = default!;
-    [Dependency] private readonly SharedInteractionSystem _interaction = default!;
 
     private DoAfter[] _doAfters = Array.Empty<DoAfter>();
 

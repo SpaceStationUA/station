@@ -4,14 +4,14 @@
   parent: BaseMobHuman
   id: MobHuman
   components:
-  - type: PotentialPsionic #Nyano - Summary: makes potentially psionic.
+  - type: PotentialPsionic #Nyano - Summary: makes potentially psionic. 
 
 #Syndie
 - type: entity
   parent: MobHuman
-  id: MobHumanSyndicateAgentBase
+  id: MobHumanSyndicateAgent
   name: syndicate agent
-  suffix: Human, Base
+  suffix: Human
   components:
     - type: Loadout
       prototypes: [SyndicateOperativeGearExtremelyBasic]
@@ -22,20 +22,9 @@
       - Syndicate
 
 - type: entity
-  parent: MobHumanSyndicateAgentBase
-  id: MobHumanSyndicateAgent
-  name: syndicate agent
-  suffix: Human, Traitor
-  components:
-    # make the player a traitor once its taken
-    - type: AutoTraitor
-      giveUplink: false
-      giveObjectives: false
-
-- type: entity
-  parent: MobHumanSyndicateAgentBase
+  parent: MobHumanSyndicateAgent
   id: MobHumanSyndicateAgentNukeops # Reinforcement exclusive to nukeops uplink
-  suffix: Human, NukeOps
+  suffix: NukeOps
   components:
     - type: NukeOperative
 
@@ -98,7 +87,7 @@
     nameSegments:
     - names_ninja_title
     - names_ninja
-
+#PIRATE START UNTIL END OF FILE
 # Mage
 - type: entity
   noSpawn: true

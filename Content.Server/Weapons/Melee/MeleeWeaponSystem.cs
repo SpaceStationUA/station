@@ -1,4 +1,8 @@
+using Content.Server.Body.Components;
+using Content.Server.Body.Systems;
 using Content.Server.Chat.Systems;
+using Content.Server.Chemistry.Components;
+using Content.Server.Chemistry.Containers.EntitySystems;
 using Content.Server.CombatMode.Disarm;
 using Content.Server.Movement.Systems;
 using Content.Shared.Actions.Events;
@@ -10,14 +14,15 @@ using Content.Shared.Database;
 using Content.Shared.Effects;
 using Content.Shared.Hands.Components;
 using Content.Shared.IdentityManagement;
+using Content.Shared.Inventory;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Popups;
 using Content.Shared.Speech.Components;
 using Content.Shared.StatusEffect;
+using Content.Shared.Tag;
 using Content.Shared.Weapons.Melee;
 using Content.Shared.Weapons.Melee.Events;
 using Robust.Shared.Audio;
-using Robust.Shared.Audio.Systems;
 using Robust.Shared.Map;
 using Robust.Shared.Player;
 using Robust.Shared.Random;
@@ -28,17 +33,21 @@ namespace Content.Server.Weapons.Melee;
 
 public sealed class MeleeWeaponSystem : SharedMeleeWeaponSystem
 {
-    [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
+    [Dependency] private readonly BloodstreamSystem _bloodstream = default!;
     [Dependency] private readonly ChatSystem _chat = default!;
     [Dependency] private readonly DamageExamineSystem _damageExamine = default!;
+    [Dependency] private readonly InventorySystem _inventory = default!;
     [Dependency] private readonly LagCompensationSystem _lag = default!;
     [Dependency] private readonly MobStateSystem _mobState = default!;
     [Dependency] private readonly SharedColorFlashEffectSystem _color = default!;
+    [Dependency] private readonly SolutionContainerSystem _solutions = default!;
+    [Dependency] private readonly TagSystem _tag = default!;
 
     public override void Initialize()
     {
         base.Initialize();
+        SubscribeLocalEvent<MeleeChemicalInjectorComponent, MeleeHitEvent>(OnChemicalInjectorHit);
         SubscribeLocalEvent<MeleeSpeechComponent, MeleeHitEvent>(OnSpeechHit);
         SubscribeLocalEvent<MeleeWeaponComponent, DamageExamineEvent>(OnMeleeExamineDamage);
     }
@@ -133,48 +142,32 @@ public sealed class MeleeWeaponSystem : SharedMeleeWeaponSystem
 
         if (_random.Prob(chance))
         {
-            // Yknow something tells me this comment is hilariously out of date...
             // Don't play a sound as the swing is already predicted.
             // Also don't play popups because most disarms will miss.
             return false;
         }
 
-        AdminLogger.Add(LogType.DisarmedAction, $"{ToPrettyString(user):user} used disarm on {ToPrettyString(target):target}");
+        var filterOther = Filter.PvsExcept(user, entityManager: EntityManager);
+        var msgPrefix = "disarm-action-";
 
-        var eventArgs = new DisarmedEvent { Target = target, Source = user, PushProbability = 1 - chance };
-        RaiseLocalEvent(target, eventArgs);
-
-        if (!eventArgs.Handled)
-        {
-            return false;
-        }
-
-        _audio.PlayPvs(combatMode.DisarmSuccessSound, user, AudioParams.Default.WithVariation(0.025f).WithVolume(5f));
-        AdminLogger.Add(LogType.DisarmedAction, $"{ToPrettyString(user):user} used disarm on {ToPrettyString(target):target}");
-
-        var targetEnt = Identity.Entity(target, EntityManager);
-        var userEnt = Identity.Entity(user, EntityManager);
+        if (inTargetHand == null)
+            msgPrefix = "disarm-action-shove-";
 
         var msgOther = Loc.GetString(
-                eventArgs.PopupPrefix + "popup-message-other-clients",
-                ("performerName", userEnt),
-                ("targetName", targetEnt));
+                msgPrefix + "popup-message-other-clients",
+                ("performerName", Identity.Entity(user, EntityManager)),
+                ("targetName", Identity.Entity(target, EntityManager)));
 
-        var msgUser = Loc.GetString(eventArgs.PopupPrefix + "popup-message-cursor", ("targetName", targetEnt));
-
-        var filterOther = Filter.PvsExcept(user, entityManager: EntityManager);
+        var msgUser = Loc.GetString(msgPrefix + "popup-message-cursor", ("targetName", Identity.Entity(target, EntityManager)));
 
         PopupSystem.PopupEntity(msgOther, user, filterOther, true);
         PopupSystem.PopupEntity(msgUser, target, user);
 
-        if (eventArgs.IsStunned)
-        {
+        Audio.PlayPvs(combatMode.DisarmSuccessSound, user, AudioParams.Default.WithVariation(0.025f).WithVolume(5f));
+        AdminLogger.Add(LogType.DisarmedAction, $"{ToPrettyString(user):user} used disarm on {ToPrettyString(target):target}");
 
-            PopupSystem.PopupEntity(Loc.GetString("stunned-component-disarm-success-others", ("source", userEnt), ("target", targetEnt)), targetEnt, Filter.PvsExcept(user), true, PopupType.LargeCaution);
-            PopupSystem.PopupCursor(Loc.GetString("stunned-component-disarm-success", ("target", targetEnt)), user, PopupType.Large);
-
-            AdminLogger.Add(LogType.DisarmedKnockdown, LogImpact.Medium, $"{ToPrettyString(user):user} knocked down {ToPrettyString(target):target}");
-        }
+        var eventArgs = new DisarmedEvent { Target = target, Source = user, PushProbability = 1 - chance };
+        RaiseLocalEvent(target, eventArgs);
 
         return true;
     }
@@ -251,5 +244,48 @@ public sealed class MeleeWeaponSystem : SharedMeleeWeaponSystem
             _chat.TrySendInGameICMessage(args.User, comp.Battlecry, InGameICChatType.Speak, true, true, checkRadioPrefix: false);  //Speech that isn't sent to chat or adminlogs
         }
 
+    }
+
+    private void OnChemicalInjectorHit(Entity<MeleeChemicalInjectorComponent> entity, ref MeleeHitEvent args)
+    {
+        if (!args.IsHit ||
+            !args.HitEntities.Any() ||
+            !_solutions.TryGetSolution(entity.Owner, entity.Comp.Solution, out var solutionContainer))
+        {
+            return;
+        }
+
+        var hitBloodstreams = new List<(EntityUid Entity, BloodstreamComponent Component)>();
+        var bloodQuery = GetEntityQuery<BloodstreamComponent>();
+
+        foreach (var hit in args.HitEntities)
+        {
+            if (Deleted(hit))
+                continue;
+
+            // prevent deathnettles injecting through hardsuits
+            if (!entity.Comp.PierceArmor && _inventory.TryGetSlotEntity(hit, "outerClothing", out var suit) && _tag.HasTag(suit.Value, "Hardsuit"))
+            {
+                PopupSystem.PopupEntity(Loc.GetString("melee-inject-failed-hardsuit", ("weapon", entity.Owner)), args.User, args.User, PopupType.SmallCaution);
+                continue;
+            }
+
+            if (bloodQuery.TryGetComponent(hit, out var bloodstream))
+                hitBloodstreams.Add((hit, bloodstream));
+        }
+
+        if (!hitBloodstreams.Any())
+            return;
+
+        var removedSolution = _solutions.SplitSolution(solutionContainer.Value, entity.Comp.TransferAmount * hitBloodstreams.Count);
+        var removedVol = removedSolution.Volume;
+        var solutionToInject = removedSolution.SplitSolution(removedVol * entity.Comp.TransferEfficiency);
+        var volPerBloodstream = solutionToInject.Volume * (1 / hitBloodstreams.Count);
+
+        foreach (var (ent, bloodstream) in hitBloodstreams)
+        {
+            var individualInjection = solutionToInject.SplitSolution(volPerBloodstream);
+            _bloodstream.TryAddToChemicals(ent, individualInjection, bloodstream);
+        }
     }
 }

@@ -27,8 +27,8 @@
   components:
   - type: BluespaceHarvesterBundle
     contents:
-    - id: SalvageLootSpawner
-      amount: 3
+    - id: SalvagePartsT3Spawner
+      amount: 7
 
 - type: entity
   id: CrateHarvesterPartsT4
@@ -37,7 +37,7 @@
   components:
   - type: BluespaceHarvesterBundle
     contents:
-    - id: SalvageLootSpawner
+    - id: SalvagePartsT4Spawner
       amount: 4
 
 - type: entity

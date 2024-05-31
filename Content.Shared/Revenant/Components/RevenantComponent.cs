@@ -5,20 +5,17 @@ using Content.Shared.Whitelist;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
-using Content.Shared.Disease;
 
 namespace Content.Shared.Revenant.Components;
 
 [RegisterComponent, NetworkedComponent]
-[AutoGenerateComponentState]
 public sealed partial class RevenantComponent : Component
 {
     /// <summary>
     /// The total amount of Essence the revenant has. Functions
     /// as health and is regenerated.
     /// </summary>
-    [DataField, ViewVariables(VVAccess.ReadWrite)]
-    [AutoNetworkedField]
+    [ViewVariables(VVAccess.ReadWrite)]
     public FixedPoint2 Essence = 75;
 
     [DataField("stolenEssenceCurrencyPrototype", customTypeSerializer: typeof(PrototypeIdSerializer<CurrencyPrototype>))]
@@ -164,14 +161,6 @@ public sealed partial class RevenantComponent : Component
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite), DataField("blightRadius")]
     public float BlightRadius = 3.5f;
-
-        
-    /// <summary>
-    /// The disease that is given to the victims of the ability.
-    /// </summary>
-    [ViewVariables(VVAccess.ReadWrite), DataField("blightDiseasePrototypeId", customTypeSerializer: typeof(PrototypeIdSerializer<DiseasePrototype>))]
-    public string BlightDiseasePrototypeId = "SpectralTiredness";
-
     #endregion
 
     #region Malfunction Ability

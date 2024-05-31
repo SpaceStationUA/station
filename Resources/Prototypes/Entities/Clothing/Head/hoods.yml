@@ -8,10 +8,10 @@
   - type: Sprite
     sprite: Clothing/Head/Hoods/Bio/general.rsi
   - type: Clothing
-    slots:
-    - HEAD
-    - HEAD1
-    - HEAD2
+    slots: #PIRATE
+    - HEAD #PIRATE
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
     sprite: Clothing/Head/Hoods/Bio/general.rsi
   - type: BreathMask
   - type: IngestionBlocker
@@ -19,8 +19,6 @@
     tags:
     - HidesHair
     - WhitelistChameleon
-  - type: DiseaseProtection
-    protection: 0.15
 
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
@@ -34,8 +32,6 @@
     sprite: Clothing/Head/Hoods/Bio/cmo.rsi
   - type: Clothing
     sprite: Clothing/Head/Hoods/Bio/cmo.rsi
-  - type: DiseaseProtection
-    protection: 0.25
 
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
@@ -88,8 +84,6 @@
     sprite: Clothing/Head/Hoods/Bio/virology.rsi
   - type: Clothing
     sprite: Clothing/Head/Hoods/Bio/virology.rsi
-  - type: DiseaseProtection
-    protection: 0.30
 
 - type: entity
   parent: ClothingHeadBase
@@ -101,30 +95,16 @@
   - type: Sprite
     sprite: Clothing/Head/Hoods/chaplain.rsi
   - type: Clothing
-    slots:
-    - HEAD
-    - HEAD1
-    - HEAD2
+    slots: #PIRATE
+    - HEAD #PIRATE
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
     sprite: Clothing/Head/Hoods/chaplain.rsi
   - type: Tag
     tags:
     - HidesHair
     - HamsterWearable
     - WhitelistChameleon
-
-- type: entity
-  parent: ClothingHeadBase
-  id: ClothingHeadHatHoodClockwork
-  name: clockwork hood
-  description: What is a clockwork cult without clockwork hoods?
-  components:
-  - type: Sprite
-    sprite: Clothing/Head/Hoods/clockwork_helmet_old.rsi
-  - type: Clothing
-    sprite: Clothing/Head/Hoods/clockwork_helmet_old.rsi
-  - type: Tag
-    tags:
-    - HidesHair
 
 - type: entity
   parent: ClothingHeadBase
@@ -135,10 +115,10 @@
   - type: Sprite
     sprite: Clothing/Head/Hoods/cult.rsi
   - type: Clothing
-    slots:
-    - HEAD
-    - HEAD1
-    - HEAD2
+    slots: #PIRATE
+    - HEAD #PIRATE
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
     sprite: Clothing/Head/Hoods/cult.rsi
   - type: Tag
     tags:
@@ -154,10 +134,10 @@
   - type: Sprite
     sprite: Clothing/Head/Hoods/nun.rsi
   - type: Clothing
-    slots:
-    - HEAD
-    - HEAD1
-    - HEAD2
+    slots: #PIRATE
+    - HEAD #PIRATE
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
     sprite: Clothing/Head/Hoods/nun.rsi
   - type: Tag
     tags:
@@ -194,10 +174,10 @@
   - type: Sprite
     sprite: Clothing/Head/Hoods/goliathcloak.rsi
   - type: Clothing
-    slots:
-    - HEAD
-    - HEAD1
-    - HEAD2
+    slots: #PIRATE
+    - HEAD #PIRATE
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
     sprite: Clothing/Head/Hoods/goliathcloak.rsi
   - type: Tag
     tags:
@@ -214,10 +194,10 @@
   - type: Sprite
     sprite: Clothing/Head/Hoods/iansuit.rsi
   - type: Clothing
-    slots:
-    - HEAD
-    - HEAD1
-    - HEAD2
+    slots: #PIRATE
+    - HEAD #PIRATE
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
     sprite: Clothing/Head/Hoods/iansuit.rsi
   - type: Tag
     tags:
@@ -233,10 +213,10 @@
   - type: Sprite
     sprite: Clothing/Head/Hoods/carpsuit.rsi
   - type: Clothing
-    slots:
-    - HEAD
-    - HEAD1
-    - HEAD2
+    slots: #PIRATE
+    - HEAD #PIRATE
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
     sprite: Clothing/Head/Hoods/carpsuit.rsi
   - type: Tag
     tags:
@@ -251,31 +231,16 @@
   - type: Sprite
     sprite: Clothing/Head/Hoods/moth.rsi
   - type: Clothing
-    slots:
-    - HEAD
-    - HEAD1
-    - HEAD2
+    slots: #PIRATE
+    - HEAD #PIRATE
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
     sprite: Clothing/Head/Hoods/moth.rsi
   - type: IdentityBlocker
   - type: Tag
     tags:
     - HidesHair
     - WhitelistChameleon
-
-- type: entity
-  parent: ClothingHeadBase
-  id: ClothingHeadHatHoodShaman
-  name: капюшон шамана
-  description: зшитий із шкіри ксеноса.
-  components:
-  - type: Sprite
-    sprite: T_Pirate/Clothing/Head/Hoods/shaman_hood.rsi
-  - type: Clothing
-    slots:
-    - HEAD
-    - HEAD1
-    - HEAD2
-    sprite: T_Pirate/Clothing/Head/Hoods/shaman_hood.rsi
 
 #Winter Coat Hoods
 - type: entity
@@ -287,10 +252,10 @@
   - type: Sprite
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
   - type: Clothing
-    slots:
-    - HEAD
-    - HEAD1
-    - HEAD2
+    slots: #PIRATE
+    - HEAD #PIRATE
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
     sprite: Clothing/Head/Hoods/Coat/hooddefault.rsi
 
 - type: entity

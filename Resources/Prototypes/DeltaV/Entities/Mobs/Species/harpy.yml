@@ -76,10 +76,10 @@
       - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
       - map: [ "mask" ]
       - map: [ "head" ]
-      - map: [ "neck2" ]
-      - map: [ "neck1" ]
-      - map: [ "head2" ]
-      - map: [ "head1" ]
+      - map: [ "neck2" ] #PIRATE
+      - map: [ "neck1" ] #PIRATE
+      - map: [ "head2" ] #PIRATE
+      - map: [ "head1" ] #PIRATE
       - map: [ "singingLayer" ]
         sprite: DeltaV/Effects/harpysinger.rsi
         state: singing_music_notes
@@ -186,10 +186,10 @@
       - map: [ "enum.HumanoidVisualLayers.Hair" ]
       - map: [ "mask" ]
       - map: [ "head" ]
-      - map: [ "neck2" ]
-      - map: [ "neck1" ]
-      - map: [ "head2" ]
-      - map: [ "head1" ]
+      - map: [ "neck2" ] #PIRATE
+      - map: [ "neck1" ] #PIRATE
+      - map: [ "head2" ] #PIRATE
+      - map: [ "head1" ] #PIRATE
 
 - type: entity
   id: ActionHarpyPlayMidi

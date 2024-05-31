@@ -15,8 +15,7 @@
       completed:
       - !type:DamageEntity
         damage:
-          types:
-            Blunt: 10
+          Blunt: 10
       steps:
       # egg explodes some time after the water in it boils and increases pressure, guessing ~110C
       - minTemperature: 383

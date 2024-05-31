@@ -10,15 +10,14 @@
   components:
   - type: Sprite
     sprite: Structures/Piping/disposal.rsi
+    snapCardinals: true
     layers:
     - state: condisposal
       map: [ "enum.DisposalUnitVisualLayers.Unanchored" ]
     - state: disposal
       map: [ "enum.DisposalUnitVisualLayers.Base" ]
-    - state: disposal-charging
-      map: [ "enum.DisposalUnitVisualLayers.BaseCharging" ]
     - state: disposal-flush
-      map: [ "enum.DisposalUnitVisualLayers.OverlayFlush" ]
+      map: [ "enum.DisposalUnitVisualLayers.BaseFlush" ]
     - state: dispover-charge
       map: [ "enum.DisposalUnitVisualLayers.OverlayCharging" ]
     - state: dispover-ready
@@ -29,6 +28,17 @@
       map: [ "enum.DisposalUnitVisualLayers.OverlayEngaged" ]
   - type: Physics
     bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.25,-0.4,0.25,0.4"
+        density: 75
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
   - type: Destructible
     thresholds:
     - trigger:
@@ -70,9 +80,6 @@
   parent: DisposalUnitBase
   name: disposal unit
   components:
-  - type: Sprite
-    sprite: Structures/Piping/disposal.rsi
-    snapCardinals: true
   - type: Construction
     graph: DisposalMachine
     node: disposal_unit
@@ -91,7 +98,6 @@
   components:
   - type: Sprite
     sprite: Structures/Piping/disposal.rsi
-    snapCardinals: true
     layers:
       - state: conmailing
         map: [ "enum.DisposalUnitVisualLayers.Unanchored" ]
@@ -100,7 +106,7 @@
       - state: mailing-charging
         map: [ "enum.DisposalUnitVisualLayers.BaseCharging" ]
       - state: mailing-flush
-        map: [ "enum.DisposalUnitVisualLayers.OverlayFlush" ]
+        map: [ "enum.DisposalUnitVisualLayers.BaseFlush" ]
       - state: dispover-charge
         map: [ "enum.DisposalUnitVisualLayers.OverlayCharging" ]
       - state: dispover-ready
@@ -114,9 +120,7 @@
     node: mailing_unit
   - type: DisposalUnit
     autoEngageEnabled: false
-    whitelist:
-      components:
-      - Item
+    mobsCanEnter: false
   - type: MailingUnit
   - type: DeviceNetwork
     deviceNetId: Wired

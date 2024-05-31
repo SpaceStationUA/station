@@ -25,9 +25,9 @@ public sealed partial class AccessOverriderComponent : Component
     [Serializable, NetSerializable]
     public sealed class WriteToTargetAccessReaderIdMessage : BoundUserInterfaceMessage
     {
-        public readonly List<ProtoId<AccessLevelPrototype>> AccessList;
+        public readonly List<string> AccessList;
 
-        public WriteToTargetAccessReaderIdMessage(List<ProtoId<AccessLevelPrototype>> accessList)
+        public WriteToTargetAccessReaderIdMessage(List<string> accessList)
         {
             AccessList = accessList;
         }
@@ -48,15 +48,15 @@ public sealed partial class AccessOverriderComponent : Component
         public readonly string PrivilegedIdName;
         public readonly bool IsPrivilegedIdPresent;
         public readonly bool IsPrivilegedIdAuthorized;
-        public readonly ProtoId<AccessLevelPrototype>[]? TargetAccessReaderIdAccessList;
-        public readonly ProtoId<AccessLevelPrototype>[]? AllowedModifyAccessList;
-        public readonly ProtoId<AccessLevelPrototype>[]? MissingPrivilegesList;
+        public readonly string[]? TargetAccessReaderIdAccessList;
+        public readonly string[]? AllowedModifyAccessList;
+        public readonly string[]? MissingPrivilegesList;
 
         public AccessOverriderBoundUserInterfaceState(bool isPrivilegedIdPresent,
             bool isPrivilegedIdAuthorized,
-            ProtoId<AccessLevelPrototype>[]? targetAccessReaderIdAccessList,
-            ProtoId<AccessLevelPrototype>[]? allowedModifyAccessList,
-            ProtoId<AccessLevelPrototype>[]? missingPrivilegesList,
+            string[]? targetAccessReaderIdAccessList,
+            string[]? allowedModifyAccessList,
+            string[]? missingPrivilegesList,
             string privilegedIdName,
             string targetLabel,
             Color targetLabelColor)

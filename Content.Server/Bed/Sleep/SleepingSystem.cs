@@ -1,6 +1,5 @@
 using Content.Server.Popups;
-using Content.Server.Sound;
-using Content.Shared.Sound.Components;
+using Content.Server.Sound.Components;
 using Content.Shared.Actions;
 using Content.Shared.Audio;
 using Content.Shared.Bed.Sleep;
@@ -8,7 +7,6 @@ using Content.Shared.Damage;
 using Content.Shared.Examine;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Interaction;
-using Content.Shared.Interaction.Events;
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Slippery;
@@ -31,7 +29,6 @@ namespace Content.Server.Bed.Sleep
         [Dependency] private readonly PopupSystem _popupSystem = default!;
         [Dependency] private readonly SharedAudioSystem _audio = default!;
         [Dependency] private readonly StatusEffectsSystem _statusEffectsSystem = default!;
-        [Dependency] private readonly EmitSoundSystem _emitSound = default!;
 
         [ValidatePrototypeId<EntityPrototype>] public const string SleepActionId = "ActionSleep";
 
@@ -48,7 +45,6 @@ namespace Content.Server.Bed.Sleep
             SubscribeLocalEvent<SleepingComponent, InteractHandEvent>(OnInteractHand);
             SubscribeLocalEvent<SleepingComponent, ExaminedEvent>(OnExamined);
             SubscribeLocalEvent<SleepingComponent, SlipAttemptEvent>(OnSlip);
-            SubscribeLocalEvent<SleepingComponent, ConsciousAttemptEvent>(OnConsciousAttempt);
             SubscribeLocalEvent<ForcedSleepingComponent, ComponentInit>(OnInit);
         }
 
@@ -69,12 +65,9 @@ namespace Content.Server.Bed.Sleep
                 if (TryComp<SleepEmitSoundComponent>(uid, out var sleepSound))
                 {
                     var emitSound = EnsureComp<SpamEmitSoundComponent>(uid);
-                    if (HasComp<SnoringComponent>(uid))
-                    {
-                        emitSound.Sound = sleepSound.Snore;
-                    }
-                    emitSound.MinInterval = sleepSound.Interval;
-                    emitSound.MaxInterval = sleepSound.MaxInterval;
+                    emitSound.Sound = sleepSound.Snore;
+                    emitSound.PlayChance = sleepSound.Chance;
+                    emitSound.RollInterval = sleepSound.Interval;
                     emitSound.PopUp = sleepSound.PopUp;
                 }
 
@@ -130,7 +123,7 @@ namespace Content.Server.Bed.Sleep
                 return;
             }
             if (TryComp<SpamEmitSoundComponent>(uid, out var spam))
-                _emitSound.SetEnabled((uid, spam), args.NewMobState == MobState.Alive);
+                spam.Enabled = args.NewMobState == MobState.Alive;
         }
 
         private void AddWakeVerb(EntityUid uid, SleepingComponent component, GetVerbsEvent<AlternativeVerb> args)
@@ -179,12 +172,6 @@ namespace Content.Server.Bed.Sleep
         {
             args.Cancel();
         }
-
-        private void OnConsciousAttempt(EntityUid uid, SleepingComponent component, ConsciousAttemptEvent args)
-        {
-            args.Cancel();
-        }
-
 
         private void OnInit(EntityUid uid, ForcedSleepingComponent component, ComponentInit args)
         {

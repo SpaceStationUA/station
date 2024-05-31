@@ -20,8 +20,6 @@ using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Content.Shared.Ghost;
 using Robust.Shared.Prototypes;
-using Content.Shared.NPC.Components;
-using Content.Shared.NPC.Systems;
 
 namespace Content.Server.SimpleStation14.Species.Shadowkin.Systems;
 
@@ -284,7 +282,7 @@ public sealed class ShadowkinDarkSwapSystem : EntitySystem
                 return;
 
             // Copy the suppressed factions to the power component
-            component.SuppressedFactions = factions.Factions.ToList();
+            // component.SuppressedFactions = factions.Factions.ToList();
 
             // Remove the factions from the entity
             foreach (var faction in factions.Factions)

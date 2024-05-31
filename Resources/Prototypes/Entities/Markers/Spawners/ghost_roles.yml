@@ -86,10 +86,10 @@
     rules: ghost-role-information-loneop-rules
     requirements:
     - !type:OverallPlaytimeRequirement
-      time: 10000 # DeltaV - 48 hours
+      time: 172800 # DeltaV - 48 hours
     - !type:DepartmentTimeRequirement # DeltaV - Security dept time requirement
       department: Security
-      time: 10000 # DeltaV - 10 hours
+      time: 36000 # DeltaV - 10 hours
   - type: GhostRoleMobSpawner
     prototype: MobHumanLoneNuclearOperative
   - type: Sprite
@@ -153,39 +153,3 @@
     - state: green
     - sprite: Mobs/Species/Terminator/parts.rsi
       state: full
-
-- type: entity
-  id: SpawnPointGhostMage
-  name: точка появи ролі мага
-  suffix: wizard
-  parent: MarkerBase
-  components:
-  - type: GhostRole
-    name: Маг
-    description: Космічний маг привносить хаос
-    rules: Ви космічний чаклун, привнесіть хаос на станцію аби розвеселити себе.
-    # requirements:
-    # - !type:OverallPlaytimeRequirement
-    #   time: 10000 # PIRATE
-    # - !type:DepartmentTimeRequirement # DeltaV - Security dept time requirement
-    #   department: Security
-    #   time: 10000 # PIRATE
-  - type: GhostRoleMobSpawner
-    prototype: MobHumanMage
-  - type: Sprite
-    sprite: Markers/jobs.rsi
-    layers:
-      - state: green
-      - sprite: Structures/Wallmounts/signs.rsi
-        state: radiation
-
-# - type: entity
-#   noSpawn: true
-#   parent: MobHumanMage
-#   id: MobMageCloset
-#   name: Чаклун у Шафі
-#   components:
-#   - type: GhostRole
-#     name: ghost-role-information-closet-mage-name
-#     description: ghost-role-information-closet-mage-description
-#   - type: GhostTakeoverAvailable

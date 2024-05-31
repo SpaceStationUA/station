@@ -1,6 +1,5 @@
 using Content.Shared.CCVar;
 using Content.Shared.Climbing.Components;
-using Content.Shared.Climbing.Events;
 using Content.Shared.Damage;
 using Content.Shared.DoAfter;
 using Content.Shared.DragDrop;
@@ -10,6 +9,7 @@ using Content.Shared.Interaction;
 using Content.Shared.Interaction.Components;
 using Content.Shared.Popups;
 using Content.Shared.Stunnable;
+using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Configuration;
 using Robust.Shared.Player;
@@ -30,54 +30,42 @@ public sealed partial class BonkSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
+        SubscribeLocalEvent<BonkableComponent, DragDropTargetEvent>(OnDragDrop);
         SubscribeLocalEvent<BonkableComponent, BonkDoAfterEvent>(OnBonkDoAfter);
-        SubscribeLocalEvent<BonkableComponent, AttemptClimbEvent>(OnAttemptClimb);
     }
 
-    private void OnBonkDoAfter(EntityUid uid, BonkableComponent component, BonkDoAfterEvent args)
+    private void OnBonkDoAfter(EntityUid uid, Components.BonkableComponent component, BonkDoAfterEvent args)
     {
-        if (args.Handled || args.Cancelled || args.Args.Used == null)
+        if (args.Handled || args.Cancelled || args.Args.Target == null)
             return;
 
-        TryBonk(args.Args.Used.Value, uid, component, source: args.Args.User);
+        TryBonk(args.Args.User, uid, component);
 
         args.Handled = true;
     }
 
 
-    public bool TryBonk(EntityUid user, EntityUid bonkableUid, BonkableComponent? bonkableComponent = null, EntityUid? source = null)
+    public bool TryBonk(EntityUid user, EntityUid bonkableUid, Components.BonkableComponent? bonkableComponent = null)
     {
         if (!Resolve(bonkableUid, ref bonkableComponent, false))
             return false;
+
+        if (!_cfg.GetCVar(CCVars.GameTableBonk))
+        {
+            // Not set to always bonk, try clumsy roll.
+            if (!_interactionSystem.TryRollClumsy(user, bonkableComponent.BonkClumsyChance))
+                return false;
+        }
 
         // BONK!
         var userName = Identity.Entity(user, EntityManager);
         var bonkableName = Identity.Entity(bonkableUid, EntityManager);
 
-        if (user == source)
-        {
-            // Non-local, non-bonking players
-            _popupSystem.PopupEntity(Loc.GetString("bonkable-success-message-others", ("user", userName), ("bonkable", bonkableName)), user, Filter.PvsExcept(user), true);
-            // Local, bonking player
-            _popupSystem.PopupClient(Loc.GetString("bonkable-success-message-user", ("user", userName), ("bonkable", bonkableName)), user, user);
-        }
-        else if (source != null)
-        {
-            // Local, non-bonking player (dragger)
-            _popupSystem.PopupClient(Loc.GetString("bonkable-success-message-others", ("user", userName), ("bonkable", bonkableName)), user, source.Value);
-            // Non-local, non-bonking players
-            _popupSystem.PopupEntity(Loc.GetString("bonkable-success-message-others", ("user", userName), ("bonkable", bonkableName)), user, Filter.Pvs(user).RemoveWhereAttachedEntity(e => e == user || e == source.Value), true);
-            // Non-local, bonking player
-            _popupSystem.PopupEntity(Loc.GetString("bonkable-success-message-user", ("user", userName), ("bonkable", bonkableName)), user, user);
-        }
+        _popupSystem.PopupEntity(Loc.GetString("bonkable-success-message-others", ("user", userName), ("bonkable", bonkableName)), user, Filter.PvsExcept(user), true);
 
+        _popupSystem.PopupEntity(Loc.GetString("bonkable-success-message-user", ("user", userName), ("bonkable", bonkableName)), user, user);
 
-
-        if (source != null)
-            _audioSystem.PlayPredicted(bonkableComponent.BonkSound, bonkableUid, source);
-        else
-            _audioSystem.PlayPvs(bonkableComponent.BonkSound, bonkableUid);
-
+        _audioSystem.PlayPvs(bonkableComponent.BonkSound, bonkableUid);
         _stunSystem.TryParalyze(user, TimeSpan.FromSeconds(bonkableComponent.BonkTime), true);
 
         if (bonkableComponent.BonkDamage is { } bonkDmg)
@@ -87,22 +75,12 @@ public sealed partial class BonkSystem : EntitySystem
 
     }
 
-    private bool TryStartBonk(EntityUid uid, EntityUid user, EntityUid climber, BonkableComponent? bonkableComponent = null)
+    private void OnDragDrop(EntityUid uid, Components.BonkableComponent component, ref DragDropTargetEvent args)
     {
-        if (!Resolve(uid, ref bonkableComponent, false))
-            return false;
+        if (args.Handled || !HasComp<ClumsyComponent>(args.Dragged) || !HasComp<HandsComponent>(args.User))
+            return;
 
-        if (!HasComp<ClumsyComponent>(climber) || !HasComp<HandsComponent>(user))
-            return false;
-
-        if (!_cfg.GetCVar(CCVars.GameTableBonk))
-        {
-            // Not set to always bonk, try clumsy roll.
-            if (!_interactionSystem.TryRollClumsy(climber, bonkableComponent.BonkClumsyChance))
-                return false;
-        }
-
-        var doAfterArgs = new DoAfterArgs(EntityManager, user, bonkableComponent.BonkDelay, new BonkDoAfterEvent(), uid, target: uid, used: climber)
+        var doAfterArgs = new DoAfterArgs(EntityManager, args.Dragged, component.BonkDelay, new BonkDoAfterEvent(), uid, target: uid)
         {
             BreakOnTargetMove = true,
             BreakOnUserMove = true,
@@ -111,16 +89,7 @@ public sealed partial class BonkSystem : EntitySystem
 
         _doAfter.TryStartDoAfter(doAfterArgs);
 
-        return true;
-    }
-
-    private void OnAttemptClimb(EntityUid uid, BonkableComponent component, AttemptClimbEvent args)
-    {
-        if (args.Cancelled || !HasComp<ClumsyComponent>(args.Climber) || !HasComp<HandsComponent>(args.User))
-            return;
-
-        if (TryStartBonk(uid, args.User, args.Climber, component))
-            args.Cancelled = true;
+        args.Handled = true;
     }
 
     [Serializable, NetSerializable]

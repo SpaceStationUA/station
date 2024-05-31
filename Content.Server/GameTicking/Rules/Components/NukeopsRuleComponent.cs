@@ -1,8 +1,8 @@
 using Content.Server.Maps;
+using Content.Server.NPC.Components;
 using Content.Server.RoundEnd;
 using Content.Server.StationEvents.Events;
 using Content.Shared.Dataset;
-using Content.Shared.NPC.Prototypes;
 using Content.Shared.Roles;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
@@ -18,13 +18,7 @@ namespace Content.Server.GameTicking.Rules.Components;
 public sealed partial class NukeopsRuleComponent : Component
 {
     /// <summary>
-    /// The minimum needed amount of players
-    /// </summary>
-    [DataField]
-    public int MinPlayers = 7;
-
-    /// <summary>
-    ///     This INCLUDES the operatives. So a value of 3 is satisfied by 2 players & 1 operative
+    /// This INCLUDES the operatives. So a value of 3 is satisfied by 2 players & 1 operative
     /// </summary>
     [DataField]
     public int PlayersPerOperative = 10;
@@ -102,7 +96,7 @@ public sealed partial class NukeopsRuleComponent : Component
     ///     Minimal operatives count for war declaration
     /// </summary>
     [DataField]
-    public int WarDeclarationMinOps = 1;
+    public int WarDeclarationMinOps = 4;
 
     [DataField]
     public EntProtoId SpawnPointProto = "SpawnPointNukies";

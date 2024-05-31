@@ -202,16 +202,6 @@
       - id: BoxSurvival
       - id: Bible
       - id: RubberStampChaplain
-  
-- type: entity
-  noSpawn: true
-  parent: ClothingBackpack
-  id: ClothingBackpackLawyerFilled
-  components:
-  - type: StorageFill
-    contents:
-      - id: BoxSurvival
-      - id: RubberStampLawyer
 
 - type: entity
   noSpawn: true
@@ -328,41 +318,6 @@
         - id: CrowbarRed
         - id: AdvMopItem
 
-- type: entity
-  noSpawn: true
-  parent: ClothingBackpackERTChaplain
-  id: ClothingBackpackERTChaplainFilled
-  components:
-    - type: StorageFill
-      contents:
-        - id: BoxSurvivalEngineering
-        - id: BoxCandle
-        - id: BoxBodyBag
-        - id: DrinkWaterMelonJuiceJug
-        - id: Lantern
-        - id: Lantern
-        - id: Bible
-        - id: CrowbarRed
-        - id: FoodBakedBunHotX
-        - id: FoodBakedBunHotX
-        - id: FoodBakedBunHotX
-        - id: FoodBakedBunHotX
-        - id: Lighter
-        
-# Cargo
-
-- type: entity
-  noSpawn: true
-  parent: ClothingBackpackBlueshield
-  id: ClothingBackpackBlueshieldFilled
-  components:
-  - type: StorageFill
-    contents:
-      - id: BoxSurvivalSecurity
-      - id: MedkitAdvancedFilled
-      - id: HandheldCrewMonitor
-      - id: Flash
-
 # Death Squad
 
 - type: entity
@@ -423,12 +378,3 @@
         - id: Cutlass
         - id: WeaponRevolverPirate
         - id: ClothingEyesEyepatch
-
-- type: entity
-  noSpawn: true
-  parent: ClothingBackpackRobotics
-  id: ClothingBackpackRoboticsFilled
-  components:
-  - type: StorageFill
-    contents:
-      - id: BoxSurvival

@@ -11,7 +11,7 @@ namespace Content.Client.Materials.UI;
 /// This widget is one row in the lathe eject menu.
 /// </summary>
 [GenerateTypedNameReferences]
-public sealed partial class MaterialStorageControl : ScrollContainer
+public sealed partial class MaterialStorageControl : BoxContainer
 {
     [Dependency] private readonly IEntityManager _entityManager = default!;
 
@@ -63,7 +63,7 @@ public sealed partial class MaterialStorageControl : ScrollContainer
         }
 
         var children = new List<MaterialDisplay>();
-        children.AddRange(MaterialList.Children.OfType<MaterialDisplay>());
+        children.AddRange(Children.OfType<MaterialDisplay>());
 
         foreach (var display in children)
         {
@@ -71,7 +71,7 @@ public sealed partial class MaterialStorageControl : ScrollContainer
 
             if (extra.Contains(mat))
             {
-                MaterialList.RemoveChild(display);
+                RemoveChild(display);
                 continue;
             }
 
@@ -83,7 +83,7 @@ public sealed partial class MaterialStorageControl : ScrollContainer
         foreach (var mat in missing)
         {
             var volume = mats[mat];
-            MaterialList.AddChild(new MaterialDisplay(_owner.Value, mat, volume, canEject));
+            AddChild(new MaterialDisplay(_owner.Value, mat, volume, canEject));
         }
 
         _currentMaterials = mats;

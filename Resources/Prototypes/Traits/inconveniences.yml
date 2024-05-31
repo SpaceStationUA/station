@@ -16,15 +16,3 @@
       fourRandomProb: 0
       threeRandomProb: 0
       cutRandomProb: 0
-
-- type: trait
-  id: UncontrollableSneezing
-  name: trait-sneezing-name
-  description: trait-sneezing-desc
-  whitelist:
-    components:
-      - DiseaseCarrier
-  components:
-    - type: UncontrollableSnough
-      emote: Sneeze
-      timeBetweenIncidents: 1, 300

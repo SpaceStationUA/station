@@ -1,7 +1,7 @@
 - type: entity
   id: MiningWindow
   name: mining window
-  parent: WindowRCDResistant
+  parent: Window
   components:
   - type: Sprite
     drawdepth: WallTops
@@ -92,5 +92,3 @@
   - type: DamageVisuals
     damageOverlay:
       sprite: Structures/Windows/cracks_diagonal.rsi
-  - type: StaticPrice
-    price: 88

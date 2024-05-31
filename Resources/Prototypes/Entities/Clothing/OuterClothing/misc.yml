@@ -122,17 +122,6 @@
 
 - type: entity
   parent: ClothingOuterBase
-  id: ClothingOuterRobesClockwork
-  name: clockwork robes
-  description: What is a clockwork cult without clockwork robes?
-  components:
-  - type: Sprite
-    sprite: Clothing/OuterClothing/Misc/clockwork_cuirass_old.rsi
-  - type: Clothing
-    sprite: Clothing/OuterClothing/Misc/clockwork_cuirass_old.rsi
-
-- type: entity
-  parent: ClothingOuterBase
   id: ClothingOuterRobesCult
   name: cult robes
   description: There's no cult without classic red/crimson cult robes.
@@ -388,7 +377,7 @@
     sprite: Clothing/OuterClothing/Misc/red_racoon.rsi
   - type: Clothing
     sprite: Clothing/OuterClothing/Misc/red_racoon.rsi
-
+#PIRATE START UNTIL END OF FILE
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterDirtySportwear

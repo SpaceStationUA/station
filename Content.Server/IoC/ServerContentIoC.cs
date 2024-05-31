@@ -22,7 +22,7 @@ using Content.Server.Worldgen.Tools;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Administration.Managers;
 using Content.Shared.Kitchen;
-using Content.Server._Pirate.TTS;
+using Content.Server._Pirate.TTS; // Pirate
 
 namespace Content.Server.IoC
 {
@@ -59,9 +59,7 @@ namespace Content.Server.IoC
             IoCManager.Register<PoissonDiskSampler>();
             IoCManager.Register<DiscordWebhook>();
             IoCManager.Register<ServerDbEntryManager>();
-
-            IoCManager.Register<TTSManager>();
-
+            IoCManager.Register<TTSManager>(); // Pirate
         }
     }
 }

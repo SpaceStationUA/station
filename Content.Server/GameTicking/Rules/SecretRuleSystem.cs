@@ -1,5 +1,4 @@
 using Content.Server.Administration.Logs;
-using Content.Server.Chat.Managers;
 using Content.Server.GameTicking.Presets;
 using Content.Server.GameTicking.Rules.Components;
 using Content.Shared.Random;
@@ -18,7 +17,6 @@ public sealed class SecretRuleSystem : GameRuleSystem<SecretRuleComponent>
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly IConfigurationManager _configurationManager = default!;
     [Dependency] private readonly IAdminLogManager _adminLogger = default!;
-    [Dependency] private readonly IChatManager _chatManager = default!;
 
     protected override void Added(EntityUid uid, SecretRuleComponent component, GameRuleComponent gameRule, GameRuleAddedEvent args)
     {
@@ -44,7 +42,6 @@ public sealed class SecretRuleSystem : GameRuleSystem<SecretRuleComponent>
         var preset = _prototypeManager.Index<WeightedRandomPrototype>(presetString).Pick(_random);
         Log.Info($"Selected {preset} for secret.");
         _adminLogger.Add(LogType.EventStarted, $"Selected {preset} for secret.");
-        _chatManager.SendAdminAnnouncement(Loc.GetString("rule-secret-selected-preset", ("preset", preset)));
 
         var rules = _prototypeManager.Index<GamePresetPrototype>(preset).Rules;
         foreach (var rule in rules)

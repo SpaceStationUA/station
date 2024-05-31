@@ -55,7 +55,7 @@ namespace Content.Server.Abilities.Psionics
             if (!TryComp<FlammableComponent>(args.Target, out var flammableComponent))
                 return;
 
-            if (HasComp<PsionicInsulationComponent>(args.Target))
+            if (HasComp<PsionicInsulationComponent>(args.Target)) // Pirate
                 return;
 
             flammableComponent.FireStacks += 5;

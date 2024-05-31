@@ -130,18 +130,6 @@
         amount: 2
 
 - type: entity
-  parent: ClothingBackpackDuffelSyndicateBundle
-  id: ClothingBackpackDuffelSyndicateFilledCSAR
-  name: C-SAR bundle
-  description: "A brand new, top of the line Cybersun Specialist Automatic Rifle, and 3 spare magazines."
-  components:
-  - type: StorageFill
-    contents:
-      - id: WeaponSubMachineGunCSAR
-      - id: MagazineCaselessRifle
-        amount: 2
-
-- type: entity
   parent: ClothingBackpackDuffelSyndicateAmmo
   id: ClothingBackpackDuffelSyndicateAmmoFilled
   name: ammo bundle
@@ -381,6 +369,25 @@
       - id: SyringeHyronalin
 
 - type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateDecoyKitFilled
+  name: decoy bundle
+  description: "Contains distractions, both auditory and visual. Smell coming soon."
+  components:
+  - type: StorageFill
+    contents:
+      - id: BalloonOperative
+      - id: BalloonAgent
+      - id: BalloonElite
+      - id: BalloonJuggernaut
+      - id: BalloonCommander
+      - id: SnapPopBox
+      - id: GrenadeDummy
+        amount: 2
+      - id: SyndieTrickyBomb
+        amount: 2
+#PIRATE UNTIL END OF FILE
+- type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackBootsSpeedMagic
   name: Набір чоботів швидкості
@@ -408,22 +415,3 @@
         - id: HolyGrenadeDummy
           amount: 4
         - id: HolyHandGrenade
-
-- type: entity
-  parent: ClothingBackpackDuffelSyndicateBundle
-  id: ClothingBackpackDuffelSyndicateDecoyKitFilled
-  name: decoy bundle
-  description: "Contains distractions, both auditory and visual. Smell coming soon."
-  components:
-  - type: StorageFill
-    contents:
-      - id: BalloonOperative
-      - id: BalloonAgent
-      - id: BalloonElite
-      - id: BalloonJuggernaut
-      - id: BalloonCommander
-      - id: SnapPopBox
-      - id: GrenadeDummy
-        amount: 2
-      - id: SyndieTrickyBomb
-        amount: 2

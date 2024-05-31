@@ -8,16 +8,16 @@ public partial record struct ItemStorageLocation
     /// <summary>
     /// The rotation, stored a cardinal direction in order to reduce rounding errors.
     /// </summary>
-    [DataField("_rotation")]
-    public Direction Direction;
+    [DataField]
+    private Direction _rotation;
 
     /// <summary>
     /// The rotation of the piece in storage.
     /// </summary>
     public Angle Rotation
     {
-        get => Direction.ToAngle();
-        set => Direction = value.GetCardinalDir();
+        get => _rotation.ToAngle();
+        set => _rotation = value.GetCardinalDir();
     }
 
     /// <summary>

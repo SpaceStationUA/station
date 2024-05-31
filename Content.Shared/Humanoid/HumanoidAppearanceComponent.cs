@@ -1,4 +1,4 @@
-using Content.Shared._Pirate.TTS;
+using Content.Shared._Pirate.TTS; //Pirate
 using Content.Shared.Humanoid.Markings;
 using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Preferences; // DeltaV
@@ -49,13 +49,13 @@ public sealed partial class HumanoidAppearanceComponent : Component
     [DataField(required: true), AutoNetworkedField]
     public ProtoId<SpeciesPrototype> Species { get; set; }
 
-    // TTS-Start
+    //PIRATE TTS-Start
     /// <summary>
     ///     Current voice. Used for correct cloning.
     /// </summary>
     [DataField("voice")]
     public ProtoId<TTSVoicePrototype> Voice { get; set; } = SharedHumanoidAppearanceSystem.DefaultVoice;
-    // TTS-End
+    //PIRATE TTS-End
 
     /// <summary>
     ///     The initial profile and base layers to apply to this humanoid.
@@ -94,6 +94,7 @@ public sealed partial class HumanoidAppearanceComponent : Component
     [ViewVariables(VVAccess.ReadOnly)]
     public Color? CachedFacialHairColor;
 
+    /// <summary>
     /// DeltaV - let paradox anomaly be cloned
     /// </summary>
     [ViewVariables]
@@ -121,6 +122,5 @@ public readonly partial struct CustomBaseLayerInfo
     ///     Color of this custom base layer. Null implies skin colour if the corresponding <see cref="HumanoidSpeciesSpriteLayer"/> is set to match skin.
     /// </summary>
     [DataField]
-
-   public Color? Color { get; init; }
+    public Color? Color { get; init; }
 }

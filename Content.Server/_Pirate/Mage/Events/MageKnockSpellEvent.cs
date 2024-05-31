@@ -4,7 +4,7 @@ using Content.Shared.Magic;
 
 namespace Content.Server._Pirate.Mage.Events;
 
-public sealed partial class MageKnockSpellEvent: InstantActionEvent, ISpeakSpell
+public sealed partial class MageKnockSpellEvent : InstantActionEvent, ISpeakSpell
 {
     /// <summary>
     /// The range this spell opens doors in
@@ -23,12 +23,11 @@ public sealed partial class MageKnockSpellEvent: InstantActionEvent, ISpeakSpell
     public float KnockVolume = 5f;
 
     [DataField("speech")]
-    public string? Speech { get; set;}
+    public string? Speech { get; set; }
 
     /// <summary>
     /// How much mana should be drained.
     /// </summary>
     [DataField("manaCost")]
     public float ManaCost = 10f;
-
 }

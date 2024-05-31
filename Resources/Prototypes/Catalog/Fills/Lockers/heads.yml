@@ -262,7 +262,6 @@
       - id: HandheldCrewMonitor
       - id: DoorRemoteMedical
       - id: RubberStampCMO
-      - id: RubberStampPsychologist # DeltaV
       - id: MedicalTechFabCircuitboard
       - id: BoxEncryptionKeyMedical
       - id: BoxPDAMedical # Delta-V
@@ -327,7 +326,7 @@
   - type: StorageFill
     contents:
       - id: ClothingEyesHudSecurity
-      - id: ClothingEyesGlassesShadowkinDarkWindow
+      - id: ClothingEyesGlassesShadowkinDarkWindow #PIRATE
       - id: WeaponDisabler
       - id: ClothingOuterCoatHoSTrench
       - id: ClothingMaskNeckGaiter
@@ -335,7 +334,7 @@
       - id: ClothingMaskGasSwat
       - id: ClothingBeltSecurityFilled
       - id: ClothingHeadsetAltSecurity
-      - id: ClothingEyesGlassesSecurity
+      - id: ClothingEyesGlassesSunglasses
       - id: ClothingShoesBootsJack
       - id: CigarGoldCase
         prob: 0.50
@@ -352,7 +351,7 @@
       - id: ClothingShoesBootsWinterHeadOfSecurity #Delta V: Add departmental winter boots
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
-      - id: HoverbikeNfsdFlatpack
+      - id: HoverbikeNfsdFlatpack #PIRATE
 
 - type: entity
   id: LockerHeadOfSecurityFilled
@@ -362,13 +361,13 @@
   - type: StorageFill
     contents:
       - id: ClothingEyesHudSecurity
-      - id: ClothingEyesGlassesShadowkinDarkWindow
+      - id: ClothingEyesGlassesShadowkinDarkWindow #PIRATE
       - id: WeaponDisabler
       - id: ClothingOuterCoatHoSTrench
       - id: ClothingMaskNeckGaiter
       - id: ClothingBeltSecurityFilled
       - id: ClothingHeadsetAltSecurity
-      - id: ClothingEyesGlassesSecurity
+      - id: ClothingEyesGlassesSunglasses
       - id: ClothingShoesBootsJack
       - id: CigarGoldCase
         prob: 0.50
@@ -384,7 +383,7 @@
       - id: ClothingShoesBootsWinterHeadOfSecurity #Delta V: Add departmental winter boots
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
-      - id: HoverbikeNfsdFlatpack
+      - id: HoverbikeNfsdFlatpack #PIRATE
 
 - type: entity
   id: LockerFreezerVaultFilled

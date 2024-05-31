@@ -379,7 +379,7 @@
         damage: 10
       behaviors:
       - !type:GibBehavior { }
-#  - type: NonSpreaderZombie
+  - type: NonSpreaderZombie
 
 - type: entity
   name: glockroach
@@ -423,6 +423,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
+    whitelistRequired: false
     name: ghost-role-information-mothroach-name
     description: ghost-role-information-mothroach-description
   - type: Fixtures
@@ -461,8 +462,8 @@
     equippedPrefix: 0
     slots:
     - HEAD
-    - HEAD1
-    - HEAD2
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
   - type: Appearance
   - type: DamageStateVisuals
     states:
@@ -539,13 +540,6 @@
         damage: 60
       behaviors:
       - !type:GibBehavior { }
-  - type: FireVisuals
-    sprite: Mobs/Effects/onfire.rsi
-    normalState: Mouse_burning
-
-
-# Note that the mallard duck is actually a male drake mallard, with the brown duck being the female variant of the same species, however ss14 lacks sex specific textures
-# The white duck is more akin to a pekin or call duck.
 
 - type: entity
   name: mallard duck #Quack
@@ -764,8 +758,9 @@
           Quantity: 30
   - type: Udder
     reagentId: Milk
-    quantityPerUpdate: 25
-    growthDelay: 30
+    targetSolution: udder
+    quantity: 25
+    updateRate: 30
   - type: Butcherable
     spawned:
     - id: FoodMeat
@@ -1038,8 +1033,6 @@
     bloodMaxVolume: 300
     # if you fuck with the gorilla he will harambe you
   - type: MeleeWeapon
-    soundHit:
-      collection: Punch
     damage:
       types:
         Blunt: 20
@@ -1230,15 +1223,6 @@
       path: /Audio/Animals/ferret_happy.ogg
     interactFailureSound:
       path: /Audio/Items/wirecutter.ogg
-  - type: MeleeWeapon
-    soundHit:
-      path: /Audio/Effects/bite.ogg
-    angle: 30
-    animation: WeaponArcBite
-    damage:
-      types:
-        Blunt: 3
-        Piercing: 3
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -1283,15 +1267,15 @@
     name: ghost-role-information-monkey-name
     description: ghost-role-information-monkey-description
   - type: GhostTakeoverAvailable
-  # - type: Clumsy
-  #   clumsyDamage:
-  #     types:
-  #       Blunt: 5
-  #       Piercing: 4
-  #     groups:
-  #       Burn: 3
-  #   clumsySound:
-  #     path: /Audio/Animals/monkey_scream.ogg
+  - type: Clumsy
+    clumsyDamage:
+      types:
+        Blunt: 5
+        Piercing: 4
+      groups:
+        Burn: 3
+    clumsySound:
+      path: /Audio/Animals/monkey_scream.ogg
 
 - type: entity
   name: monkey
@@ -1356,8 +1340,6 @@
       Male: UnisexReptilian
       Female: UnisexReptilian
       Unsexed: UnisexReptilian
-  - type: DiseaseCarrier
-    diseaseResist: 0.1
   - type: TypingIndicator
     proto: lizard
   - type: InteractionPopup
@@ -1379,13 +1361,12 @@
     baseSprintSpeed: 5
   - type: MeleeWeapon
     soundHit:
-      collection: AlienClaw
+      path: /Audio/Weapons/pierce.ogg
     angle: 30
-    animation: WeaponArcClaw
+    animation: WeaponArcPunch
     damage:
       types:
-        Slash: 5
-        Piercing: 4
+        Piercing: 9
   - type: Temperature
     heatDamageThreshold: 360
     coldDamageThreshold: 285
@@ -1437,15 +1418,15 @@
     spawned:
     - id: FoodMeat
       amount: 2
-  # - type: Clumsy
-  #   clumsyDamage:
-  #     types:
-  #       Blunt: 2
-  #       Piercing: 7
-  #     groups:
-  #       Burn: 3
-  #   clumsySound:
-  #     path: /Audio/Voice/Reptilian/reptilian_scream.ogg
+  - type: Clumsy
+    clumsyDamage:
+      types:
+        Blunt: 2
+        Piercing: 7
+      groups:
+        Burn: 3
+    clumsySound:
+      path: /Audio/Voice/Reptilian/reptilian_scream.ogg
   - type: AlwaysRevolutionaryConvertible
   - type: GhostTakeoverAvailable
   - type: SentienceTarget
@@ -1504,8 +1485,8 @@
     equippedPrefix: 0
     slots:
     - HEAD
-    - HEAD1
-    - HEAD2
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
   - type: NpcFactionMember
     factions:
       - Mouse
@@ -1609,20 +1590,13 @@
     combatToggleAction: ActionCombatModeToggleOff
   - type: Bloodstream
     bloodMaxVolume: 50
-  - type: DiseaseCarrier #The other class lab animal and disease vector
-    naturalImmunities:
-      - AMIV
-      - ActiveHonkVirus
   - type: CanEscapeInventory
   - type: MobPrice
     price: 50
   - type: FelinidFood # Nyanotrasen - Felinid, ability to eat mice, see Content.Server/Nyanotrasen/Abilities/Felinid/FelinidSystem.cs
   - type: BadFood
-#  - type: NonSpreaderZombie
+  - type: NonSpreaderZombie
   - type: PreventSpiller
-  - type: FireVisuals
-    sprite: Mobs/Effects/onfire.rsi
-    normalState: Mouse_burning
 
 - type: entity
   parent: MobMouse
@@ -1676,7 +1650,6 @@
         Base: dead-1
       Dead:
         Base: splat-1
-  - type: DiseaseCarrier #Why doesn't this save if it's only on the parent wtf
 
 - type: entity
   parent: MobMouse
@@ -1703,7 +1676,6 @@
         Base: dead-2
       Dead:
         Base: splat-2
-  - type: DiseaseCarrier
 
 - type: entity
   name: lizard #Weh
@@ -1898,13 +1870,6 @@
     spawned:
     - id: FoodMeat
       amount: 1
-  - type: Speech
-    speechSounds: Parrot
-    speechVerb: Parrot
-  - type: Vocal
-    sounds:
-      Unsexed: Parrot
-  - type: ParrotAccent
   - type: InteractionPopup
     successChance: 0.6
     interactSuccessString: petting-success-bird
@@ -2473,22 +2438,6 @@
       gender: epicene
   - type: Bloodstream
     bloodMaxVolume: 100
-  - type: MeleeWeapon
-    angle: 0
-    animation: WeaponArcBite
-    soundHit:
-      path: /Audio/Effects/bite.ogg
-    damage:
-      types:
-        Piercing: 8
-  - type: NpcFactionMember
-    factions:
-    - Passive
-  - type: NPCRetaliation
-    attackMemoryLength: 10
-  - type: HTN
-    rootTask:
-      task: RuminantHostileCompound
   - type: Tag
     tags:
     - VimPilot
@@ -3092,13 +3041,10 @@
   - type: Bloodstream
     bloodMaxVolume: 60
   - type: CanEscapeInventory
-    baseResistTime: 3
+    BaseResistTime: 3
   - type: MobPrice
     price: 60
-#  - type: NonSpreaderZombie
-  - type: FireVisuals
-    sprite: Mobs/Effects/onfire.rsi
-    normalState: Mouse_burning
+  - type: NonSpreaderZombie
 
 - type: entity
   name: pig
@@ -3152,7 +3098,7 @@
         Base: dead
   - type: Butcherable
     spawned:
-    - id: FoodMeatBacon
+    - id: FoodMeat
       amount: 6
   - type: Grammar
     attributes:
@@ -3202,7 +3148,7 @@
   - type: InventorySlots
   - type: Strippable
   - type: Bloodstream
-    bloodReagent: Sap
+    bloodReagent: Water
     bloodMaxVolume: 60
   - type: UserInterface
     interfaces:
@@ -3259,3 +3205,4 @@
   components:
   - type: ReplacementAccent
     accent: nymph
+    

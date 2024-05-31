@@ -12,3 +12,12 @@
         amount: 2
       - id: ClothingMaskSterile
         amount: 2
+#PIRATE
+- type: entity
+  id: CrateScienceBluespaceHarvesterKit
+  parent: CrateScienceSecure
+  components:
+  - type: StorageFill
+    contents:
+      - id: MachineBluespaceHarvesterCircuitboard
+        amount: 1

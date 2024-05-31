@@ -9,7 +9,7 @@ namespace Content.Shared.Nutrition.Components;
 /// Starts closed, open it with Z or E.
 /// </summary>
 [NetworkedComponent, AutoGenerateComponentState]
-[RegisterComponent, Access(typeof(OpenableSystem))]
+[RegisterComponent, Access(typeof(SharedOpenableSystem))]
 public sealed partial class OpenableComponent : Component
 {
     /// <summary>

@@ -57,7 +57,7 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
         SetSex(target, sourceHumanoid.Sex, false, targetHumanoid);
         targetHumanoid.CustomBaseLayers = new(sourceHumanoid.CustomBaseLayers);
         targetHumanoid.MarkingSet = new(sourceHumanoid.MarkingSet);
-        SetTTSVoice(target, sourceHumanoid.Voice, targetHumanoid); // TTS
+        SetTTSVoice(target, sourceHumanoid.Voice, targetHumanoid); //PIRATE TTS
 
         targetHumanoid.Gender = sourceHumanoid.Gender;
         if (TryComp<GrammarComponent>(target, out var grammar))
@@ -67,7 +67,7 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
 
         targetHumanoid.LastProfileLoaded = sourceHumanoid.LastProfileLoaded; // DeltaV - let paradox anomaly be cloned
 
-        Dirty(target, targetHumanoid);
+        Dirty(targetHumanoid);
     }
 
     /// <summary>
@@ -88,7 +88,7 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
         humanoid.MarkingSet.Remove(prototype.MarkingCategory, marking);
 
         if (sync)
-            Dirty(uid, humanoid);
+            Dirty(humanoid);
     }
 
     /// <summary>
@@ -109,7 +109,7 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
         }
 
         humanoid.MarkingSet.Remove(category, index);
-        Dirty(uid, humanoid);
+        Dirty(humanoid);
     }
 
     /// <summary>
@@ -138,7 +138,7 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
         }
 
         humanoid.MarkingSet.Replace(category, index, marking);
-        Dirty(uid, humanoid);
+        Dirty(humanoid);
     }
 
     /// <summary>
@@ -165,7 +165,7 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
             markings[index].SetColor(i, colors[i]);
         }
 
-        Dirty(uid, humanoid);
+        Dirty(humanoid);
     }
 
     /// <summary>

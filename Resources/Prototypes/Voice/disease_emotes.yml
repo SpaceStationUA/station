@@ -5,7 +5,7 @@
     
 - type: emote
   id: Cough
-  icon: Interface/Emotes/coughs.jpeg
+  icon: Interface/Emotes/coughs.jpeg #PIRATE
   category: Vocal
   chatMessages: [кашляє]
   chatTriggers:
@@ -34,7 +34,7 @@
 
 - type: emote
   id: Yawn
-  icon: Interface/Emotes/yawns.png
+  icon: Interface/Emotes/yawns.png #PIRATE
   category: Vocal
   chatMessages: [позіхає]
   chatTriggers:
@@ -42,7 +42,6 @@
     - yawns
 
 - type: emote
-  # icon: Interface/Emotes/snore.png
   id: Snore
   category: Vocal
   chatMessages: [хропить]

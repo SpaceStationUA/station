@@ -30,6 +30,10 @@
             <Label Text="{Loc 'id-card-console-window-job-selection-label'}" />
             <OptionButton Name="JobPresetOptionButton" />
         </GridContainer>
-        <Control Name="AccessLevelControlContainer" />
+        <GridContainer Name="AccessLevelGrid" Columns="5" HorizontalAlignment="Center">
+
+            <!-- Access level buttons are added here by the C# code -->
+
+        </GridContainer>
     </BoxContainer>
 </DefaultWindow>

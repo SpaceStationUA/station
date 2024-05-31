@@ -1,24 +1,11 @@
-# - type: trait
-#   id: Nearsighted
-#   name: trait-nearsighted-name
-#   description: You require glasses to see properly.
-#   traitGear: ClothingEyesGlasses
-#   components:
-#     - type: Nearsighted
-#   whitelist: # Delta V fix to borgs spawning with it.
-#     components:
-#       - Blindable
-
 - type: trait
-  id: AntiSocial
-  name: trait-antisocial-name
-  description: trait-antisocial-description
-  # cost: 1
-  # category: Negative
+  id: Nearsighted
+  name: trait-nearsighted-name
+  description: You require glasses to see properly.
+  traitGear: ClothingEyesGlasses
   components:
-    - type: InteractionPopup
-      successChance: 0
-      interactFailureString: hugging-failure-generic
-      messagePerceivedByOthers: hugging-success-generic-others
-      soundPerceivedByOthers: false
-    - type: StutteringAccent
+    - type: Nearsighted
+  whitelist: # Delta V fix to borgs spawning with it.
+    components:
+      - Blindable
+

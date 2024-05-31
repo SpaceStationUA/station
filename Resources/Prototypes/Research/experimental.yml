@@ -4,8 +4,8 @@
   id: BasicRobotics
   name: research-technology-basic-robotics
   icon:
-    sprite: Structures/Machines/exosuit_fabricator.rsi
-    state: fab-idle
+    sprite: Mobs/Silicon/drone.rsi
+    state: drone
   discipline: Experimental
   tier: 1
   cost: 5000
@@ -113,6 +113,18 @@
   - BasicAnomalousResearch
 
 - type: technology
+  id: RapidPartExchange
+  name: research-technology-rped
+  icon:
+    sprite: Objects/Specific/Research/rped.rsi
+    state: icon
+  discipline: Experimental
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - RPED
+
+- type: technology
   id: DeterrenceTechnologies
   name: research-technology-deterrence
   icon:
@@ -124,18 +136,6 @@
   recipeUnlocks:
   - WeaponParticleDecelerator
   - HoloprojectorField
-
-- type: technology
-  id: BluespaceMining
-  name: research-technology-bluespace-mining
-  icon:
-    sprite: Objects/Misc/stock_parts.rsi
-    state: ansible_crystal
-  discipline: Experimental
-  tier: 2
-  cost: 10000
-  recipeUnlocks:
-  - MachineBluespaceHarvesterCircuitboard
 
 # Tier 3
 
@@ -163,3 +163,15 @@
   cost: 10000
   recipeUnlocks:
   - DeviceQuantumSpinInverter
+#PIRATE START UNTIL END OF FILE
+- type: technology
+  id: BluespaceMining
+  name: research-technology-bluespace-mining
+  icon:
+    sprite: Objects/Misc/stock_parts.rsi
+    state: ansible_crystal
+  discipline: Experimental
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - MachineBluespaceHarvesterCircuitboard

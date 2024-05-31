@@ -291,7 +291,7 @@
       right:
       - state: inhand-right-blade
         shader: unshaded
-
+#PIRATE START UNTIL END OF FILE
 - type: entity
   name: енергетична сабля
   parent: EnergyCutlass
@@ -340,11 +340,3 @@
     autoRecharge: true
     autoRechargeRate: 50
   - type: AmmoCounter
-
-  # - type: GenericVisualizer
-  #   visuals:
-  #     enum.EnergyGunFireModeVisuals.State:
-  #       Firemode:
-  #         Disabler: { state: mode-disabler }
-  #         Lethal: { state: mode-lethal }
-  #         Special: { state: mode-ion }

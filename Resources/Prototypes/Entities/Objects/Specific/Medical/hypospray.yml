@@ -18,7 +18,7 @@
   - type: ExaminableSolution
     solution: hypospray
   - type: Hypospray
-    onlyAffectsMobs: false
+    onlyMobs: false
   - type: UseDelay
     delay: 0.5
   - type: StaticPrice
@@ -49,7 +49,7 @@
   - type: ExaminableSolution
     solution: hypospray
   - type: Hypospray
-    onlyAffectsMobs: false
+    onlyMobs: false
   - type: UseDelay
     delay: 0.5
 
@@ -73,7 +73,6 @@
   - type: ExaminableSolution
     solution: hypospray
   - type: Hypospray
-    onlyAffectsMobs: false
   - type: UseDelay
     delay: 0.5
 
@@ -92,9 +91,9 @@
       delay: 0.0
 
 - type: entity
-  name: empty medipen
+  name: chemical medipen
   parent: BaseItem
-  description: A sterile injector for rapid administration of drugs to patients.
+  description: A sterile injector for rapid administration of drugs to patients. This one can't be refilled.
   id: ChemicalMedipen
   components:
   - type: Sprite
@@ -114,21 +113,22 @@
   - type: Hypospray
     solutionName: pen
     transferAmount: 15
-    onlyAffectsMobs: false
-    injectOnly: true
   - type: Appearance
   - type: SolutionContainerVisuals
     maxFillLevels: 1
     changeColor: false
     emptySpriteName: firstaid_empty
   - type: Tag
-    tags: [ "Medipen", "EmptyMedipen" ]
+    tags:
+    - Trash
   - type: PhysicalComposition
     materialComposition:
-      Plasteel: 100
-      Steel: 50
+      Plastic: 50
+  - type: SpaceGarbage
   - type: StaticPrice
-    price: 100
+    price: 75 # These are limited supply items.
+  - type: TrashOnSolutionEmpty
+    solution: pen
 
 - type: entity
   name: emergency medipen
@@ -155,7 +155,7 @@
         - ReagentId: TranexamicAcid
           Quantity: 3
   - type: Tag
-    tags: [ "Medipen" ]
+    tags: []
 
 - type: entity
   name: poison auto-injector
@@ -182,7 +182,7 @@
         - ReagentId: Epinephrine
           Quantity: 5
   - type: Tag
-    tags: [ "Medipen" ]
+    tags: []
 
 - type: entity
   name: brute auto-injector
@@ -202,8 +202,6 @@
   - type: Hypospray
     solutionName: pen
     transferAmount: 20
-    onlyAffectsMobs: false
-    injectOnly: true
   - type: SolutionContainerManager
     solutions:
       pen:
@@ -214,7 +212,7 @@
         - ReagentId: TranexamicAcid
           Quantity: 5
   - type: Tag
-    tags: [ "Medipen" ]
+    tags: []
 
 - type: entity
   name: burn auto-injector
@@ -234,8 +232,6 @@
   - type: Hypospray
     solutionName: pen
     transferAmount: 20
-    onlyAffectsMobs: false
-    injectOnly: true
   - type: SolutionContainerManager
     solutions:
       pen:
@@ -246,7 +242,7 @@
         - ReagentId: Leporazine
           Quantity: 10
   - type: Tag
-    tags: [ "Medipen" ]
+    tags: []
 
 - type: entity
   name: rad auto-injector
@@ -266,9 +262,6 @@
   - type: Hypospray
     solutionName: pen
     transferAmount: 20
-    onlyAffectsMobs: false
-    injectOnly: true
-
   - type: SolutionContainerManager
     solutions:
       pen:
@@ -279,7 +272,7 @@
         - ReagentId: Bicaridine
           Quantity: 5
   - type: Tag
-    tags: [ "Medipen" ]
+    tags: []
 
 - type: entity
   name: space medipen
@@ -300,8 +293,6 @@
   - type: Hypospray
     solutionName: pen
     transferAmount: 30
-    onlyAffectsMobs: false
-    injectOnly: true
   - type: SolutionContainerManager
     solutions:
       pen:
@@ -312,7 +303,7 @@
           - ReagentId: Barozine
             Quantity: 20
   - type: Tag
-    tags: [ "Medipen" ]
+    tags: []
 
 - type: entity
   name: stimulant injector
@@ -339,12 +330,10 @@
   - type: Hypospray
     solutionName: pen
     transferAmount: 30
-    onlyAffectsMobs: false
-    injectOnly: true
   - type: StaticPrice
     price: 500
   - type: Tag
-    tags: [ "Medipen" ]
+    tags: []
 
 - type: entity
   name: stimulant microinjector
@@ -371,7 +360,7 @@
   - type: StaticPrice
     price: 100
   - type: Tag
-    tags: [ "Medipen" ]
+    tags: []
 
 - type: entity
   name: combat medipen
@@ -400,12 +389,10 @@
   - type: Hypospray
     solutionName: pen
     transferAmount: 30
-    onlyAffectsMobs: false
-    injectOnly: true
   - type: StaticPrice
     price: 500
   - type: Tag
-    tags: [ "Medipen" ]
+    tags: []
 
 - type: entity
   name: pen
@@ -422,9 +409,8 @@
     solution: hypospray
   - type: ExaminableSolution
     solution: hypospray
-    heldOnly: true # Allow examination only when held in hand.
   - type: Hypospray
-    onlyAffectsMobs: false
+    onlyMobs: false
   - type: UseDelay
     delay: 0.5
   - type: StaticPrice # A new shitcurity meta

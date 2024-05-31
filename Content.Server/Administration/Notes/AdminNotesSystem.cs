@@ -1,4 +1,3 @@
-using System.Linq;
 using Content.Server.Administration.Commands;
 using Content.Server.Chat.Managers;
 using Content.Server.EUI;
@@ -53,7 +52,7 @@ public sealed class AdminNotesSystem : EntitySystem
 
     private async void OnPlayerStatusChanged(object? sender, SessionStatusEventArgs e)
     {
-        if (e.NewStatus != SessionStatus.InGame)
+        if (e.NewStatus != SessionStatus.Connected)
             return;
 
         var messages = await _notes.GetNewMessages(e.Session.UserId);
@@ -70,11 +69,19 @@ public sealed class AdminNotesSystem : EntitySystem
             _chat.SendAdminAlert(Loc.GetString("admin-notes-watchlist", ("player", username), ("message", watchlist.Message)));
         }
 
-        var messagesToShow = messages.OrderBy(x => x.CreatedAt).Where(x => !x.Dismissed).ToArray();
-        if (messagesToShow.Length == 0)
-            return;
+        foreach (var message in messages)
+        {
+            var messageString = Loc.GetString("admin-notes-new-message", ("admin", message.CreatedBy?.LastSeenUserName ?? "[System]"), ("message", message.Message));
+            // Only open the popup if the user hasn't seen it yet
+            if (!message.Seen)
+            {
+                var ui = new AdminMessageEui();
+                _euis.OpenEui(ui, e.Session);
+                ui.SetMessage(message);
 
-        var ui = new AdminMessageEui(messagesToShow);
-        _euis.OpenEui(ui, e.Session);
+				// Only send the message if they haven't seen it yet
+				_chat.DispatchServerMessage(e.Session, messageString);
+            }
+        }
     }
 }

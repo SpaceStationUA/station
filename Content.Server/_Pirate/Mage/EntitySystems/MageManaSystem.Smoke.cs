@@ -1,40 +1,34 @@
+using Content.Server.Fluids.EntitySystems;
 using Content.Server.Magic;
+using Content.Server.Pulling;
+using Content.Shared._Pirate.Mage.Components;
+using Content.Shared._Pirate.Mage.Events;
 using Content.Shared.Actions;
-using Content.Shared.Actions.ActionTypes;
+using Content.Shared.Chemistry.Components;
 using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
-using Content.Shared.Movement.Pulling.Components;
-using Content.Shared.Movement.Pulling.Systems;
-using Content.Shared.Movement.Pulling;
 using Content.Shared.Storage.Components;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
-using Robust.Shared.Prototypes;
-using Robust.Shared.Physics.Systems;
-using Content.Shared.Magic.Events;
-using Content.Shared._Pirate.Mage.Events;
-using Content.Server._Pirate.Mage.EntitySystems;
-using Content.Server._Pirate.Mage.Components;
-using Content.Shared._Pirate.Mage.Components;
-using Content.Server.Fluids.EntitySystems;
 using Robust.Shared.Map;
+using Robust.Shared.Prototypes;
 
 namespace Content.Server._Pirate.Mage.EntitySystems;
 
 public sealed class MageSmokeSystem : EntitySystem
 {
-    [Dependency] private readonly MageManaSystem _mana = default!;
-    [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly SharedActionsSystem _actions = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly IEntityManager _entity = default!;
-    [Dependency] private readonly StaminaSystem _stamina = default!;
-    [Dependency] private readonly PullingSystem _pulling = default!;
-    [Dependency] private readonly SharedActionsSystem _actions = default!;
-    [Dependency] private readonly IPrototypeManager _prototype = default!;
     [Dependency] private readonly MagicSystem _magic = default!;
-    [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
-    [Dependency] private readonly SmokeSystem _smoke = default!;
+    [Dependency] private readonly MageManaSystem _mana = default!;
     [Dependency] private readonly IMapManager _mapManager = default!;
+    [Dependency] private readonly IPrototypeManager _prototype = default!;
+    [Dependency] private readonly PullingSystem _pulling = default!;
+    [Dependency] private readonly SmokeSystem _smoke = default!;
+    [Dependency] private readonly StaminaSystem _stamina = default!;
+    [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
 
 
     public override void Initialize()
@@ -42,11 +36,10 @@ public sealed class MageSmokeSystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<MageSmokeSpellEvent>(OnSmokeSpell);
-
     }
 
     /// <summary>
-    /// Teleports the user to the clicked location
+    ///     Teleports the user to the clicked location
     /// </summary>
     /// <param name="args"></param>
     private void OnSmokeSpell(MageSmokeSpellEvent args)
@@ -69,11 +62,10 @@ public sealed class MageSmokeSystem : EntitySystem
 
         _audio.PlayPvs(args.Sound, args.Performer, AudioParams.Default.WithVolume(args.Volume));
         var ent = Spawn("Smoke", coords);
-        _smoke.StartSmoke(ent, new(), 15, 40);
+        _smoke.StartSmoke(ent, new Solution(), 15, 40);
 
         _magic.Speak(args);
 
         args.Handled = true;
     }
-
 }

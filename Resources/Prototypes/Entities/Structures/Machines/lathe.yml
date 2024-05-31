@@ -33,6 +33,9 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: WiresPanel
+  - type: Wires
+    boardName: wires-board-name-autolathe
+    layoutId: Autolathe
   - type: ActivatableUI
     key: enum.LatheUiKey.Key
   - type: ActivatableUIRequiresPower
@@ -156,7 +159,6 @@
       - SubstationMachineCircuitboard
       - CellRechargerCircuitboard
       - BorgChargerCircuitboard
-      - IndustrialChargerCircuitboard
       - WeaponCapacitorRechargerCircuitboard
       - HandheldStationMap
       - ClothingHeadHatWelding
@@ -259,6 +261,9 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: Machine
     board: ProtolatheMachineCircuitboard
+  - type: Wires
+    boardName: wires-board-name-protolathe
+    layoutId: Protolathe
   - type: MaterialStorage
     whitelist:
       tags:
@@ -311,6 +316,7 @@
       - WeaponPistolCHIMP
       - WeaponGauntletGorilla
       - SynthesizerInstrument
+      - RPED
       - ClothingShoesBootsMagSci
       - ClothingShoesBootsSpeed
       - NodeScanner
@@ -329,14 +335,10 @@
       - JawsOfLife
       - CoreSilver # Nyanotrasen - Silver Golem core
       - FauxTileAstroGrass
-      - FauxTileMowedAstroGrass
-      - FauxTileJungleAstroGrass
       - FauxTileAstroIce
-      - FauxTileAstroSnow
       - OreBagOfHolding
       - DeviceQuantumSpinInverter
       - EnergyDomeDirectionalTurtle
-      - ClothingOuterHardsuitScaf # Frontier
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - ExplosivePayload
@@ -418,7 +420,6 @@
       - CryoPodMachineCircuitboard
       - VaccinatorMachineCircuitboard
       - DiagnoserMachineCircuitboard
-      - MedipenRefillerMachineCircuitboard
       - BiomassReclaimerMachineCircuitboard
       - BiofabricatorMachineCircuitboard
       - SurveillanceCameraRouterCircuitboard
@@ -478,7 +479,6 @@
       - ArtifactCrusherMachineCircuitboard
       - TelecomServerCircuitboard
       - MassMediaCircuitboard
-      - ReagentGrinderIndustrialMachineCircuitboard
     # Begin Nyano additions
       - ReverseEngineeringMachineCircuitboard
       - CrewMonitoringComputerCircuitboard
@@ -492,7 +492,7 @@
       - MetempsychoticMachineCircuitboard
     # End Nyano additions
       - SalvageExpeditionsComputerCircuitboard # DeltaV
-      - MachineBluespaceHarvesterCircuitboard
+      - MachineBluespaceHarvesterCircuitboard #PIRATE
   - type: MaterialStorage
     whitelist:
       tags:
@@ -692,7 +692,7 @@
       - ClothingEyesHudSecurity
       - Flash
       - Handcuffs
-      - ClothingEyesGlassesShadowkinDarkWindow
+      - ClothingEyesGlassesShadowkinDarkWindow #PIRATE
       - Zipties
       - Stunbaton
       - ForensicPad
@@ -743,6 +743,7 @@
       - CartridgeMagnumRubber
       - CartridgePistolRubber
       - CartridgeRifleRubber
+      - ClothingEyesGlassesSecurity
       - ExplosivePayload
       - FlashPayload
       - HoloprojectorSecurity
@@ -791,13 +792,6 @@
       - WeaponEnergyGunMini #DeltaV - Energy Gun but miniature
       - WeaponEnergyGunPistol #DeltaV - Energy Gun Mini but with the power of a normal energy gun
       - WeaponGunLaserCarbineAutomatic #DeltaV - New Laser Projectiles with a 20 round carbine
-      - PowerCageSmall
-      - PowerCageMedium
-      - PowerCageHigh
-      - ShuttleGunSvalinnMachineGunCircuitboard
-      - ShuttleGunPerforatorCircuitboard
-      - ShuttleGunFriendshipCircuitboard
-      - ShuttleGunDusterCircuitboard
       # DeltaV - .38 special ammo - Add various .38 special ammo to security techfab
       - CartridgeSpecialRubber
       - CartridgeSpecialIncendiary
@@ -861,8 +855,6 @@
       whitelist:
         tags:
           - Sheet
-          - RawMaterial
-          - Ingot
 
 - type: entity
   id: MedicalTechFab
@@ -925,8 +917,6 @@
       - Hemostat
       - ClothingEyesGlassesChemical
     dynamicRecipes:
-      - ChemicalMedipen
-      - Dropper
       - ChemicalPayload
       - CryostasisBeaker
       - BluespaceBeaker

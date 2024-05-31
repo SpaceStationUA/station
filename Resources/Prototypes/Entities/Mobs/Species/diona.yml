@@ -25,14 +25,14 @@
     damageOverlayGroups:
       Brute:
         sprite: Mobs/Effects/brute_damage.rsi
-        color: "#cd7314"
+        color: "#75b1f0"
   - type: Butcherable
     butcheringType: Spike
     spawned:
       - id: FoodMeatPlant
         amount: 5
   - type: Bloodstream
-    bloodReagent: Sap
+    bloodReagent: Water
   - type: Reactive
     groups:
       Flammable: [ Touch ]

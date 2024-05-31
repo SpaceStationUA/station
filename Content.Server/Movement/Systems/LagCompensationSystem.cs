@@ -18,10 +18,12 @@ public sealed class LagCompensationSystem : EntitySystem
     // Max ping I've had is 350ms from aus to spain.
     public static readonly TimeSpan BufferTime = TimeSpan.FromMilliseconds(750);
 
+    private ISawmill _sawmill = Logger.GetSawmill("lagcomp");
+
     public override void Initialize()
     {
         base.Initialize();
-        Log.Level = LogLevel.Info;
+        _sawmill.Level = LogLevel.Info;
         SubscribeLocalEvent<LagCompensationComponent, MoveEvent>(OnLagMove);
     }
 
@@ -85,13 +87,13 @@ public sealed class LagCompensationSystem : EntitySystem
 
         if (coordinates == default)
         {
-            Log.Debug($"No long comp coords found, using {xform.Coordinates}");
+            _sawmill.Debug($"No long comp coords found, using {xform.Coordinates}");
             coordinates = xform.Coordinates;
             angle = xform.LocalRotation;
         }
         else
         {
-            Log.Debug($"Actual coords is {xform.Coordinates} and got {coordinates}");
+            _sawmill.Debug($"Actual coords is {xform.Coordinates} and got {coordinates}");
         }
 
         return (coordinates, angle);

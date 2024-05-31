@@ -1,4 +1,4 @@
-using System.IO;
+﻿using System.IO;
 using Content.Server.Administration;
 using Content.Shared.Administration;
 using Content.Shared.CCVar;
@@ -32,6 +32,7 @@ public sealed class MappingSystem : EntitySystem
     /// <returns></returns>
     private Dictionary<MapId, (TimeSpan next, string fileName)> _currentlyAutosaving = new();
 
+    private ISawmill _sawmill = default!;
     private bool _autosaveEnabled;
 
     public override void Initialize()
@@ -43,6 +44,7 @@ public sealed class MappingSystem : EntitySystem
             "autosave <map> <path if enabling>",
             ToggleAutosaveCommand);
 
+        _sawmill = Logger.GetSawmill("autosave");
         Subs.CVar(_cfg, CCVars.AutosaveEnabled, SetAutosaveEnabled, true);
     }
 
@@ -67,7 +69,7 @@ public sealed class MappingSystem : EntitySystem
 
             if (!_mapManager.MapExists(map) || _mapManager.IsMapInitialized(map))
             {
-                Log.Warning($"Can't autosave map {map}; it doesn't exist, or is initialized. Removing from autosave.");
+                _sawmill.Warning($"Can't autosave map {map}; it doesn't exist, or is initialized. Removing from autosave.");
                 _currentlyAutosaving.Remove(map);
                 return;
             }
@@ -77,7 +79,7 @@ public sealed class MappingSystem : EntitySystem
 
             var path = Path.Combine(saveDir, $"{DateTime.Now.ToString("yyyy-M-dd_HH.mm.ss")}-AUTO.yml");
             _currentlyAutosaving[map] = (CalculateNextTime(), name);
-            Log.Info($"Autosaving map {name} ({map}) to {path}. Next save in {ReadableTimeLeft(map)} seconds.");
+            _sawmill.Info($"Autosaving map {name} ({map}) to {path}. Next save in {ReadableTimeLeft(map)} seconds.");
             _map.SaveMap(map, path);
         }
     }
@@ -103,17 +105,17 @@ public sealed class MappingSystem : EntitySystem
         {
             if (!_mapManager.MapExists(map) || _mapManager.IsMapInitialized(map))
             {
-                Log.Warning("Tried to enable autosaving on non-existant or already initialized map!");
+                _sawmill.Warning("Tried to enable autosaving on non-existant or already initialized map!");
                 _currentlyAutosaving.Remove(map);
                 return;
             }
 
-            Log.Info($"Started autosaving map {path} ({map}). Next save in {ReadableTimeLeft(map)} seconds.");
+            _sawmill.Info($"Started autosaving map {path} ({map}). Next save in {ReadableTimeLeft(map)} seconds.");
         }
         else
         {
             _currentlyAutosaving.Remove(map);
-            Log.Info($"Stopped autosaving on map {map}");
+            _sawmill.Info($"Stopped autosaving on map {map}");
         }
     }
 

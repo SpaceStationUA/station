@@ -33,8 +33,6 @@ public sealed class SpreaderSystem : EntitySystem
     // TODO PERFORMANCE Assign each prototype to an index and convert dictionary to array
     private readonly Dictionary<EntityUid, Dictionary<string, int>> _gridUpdates = [];
 
-    private EntityQuery<EdgeSpreaderComponent> _query;
-
     public const float SpreadCooldownSeconds = 1;
 
     [ValidatePrototypeId<TagPrototype>]
@@ -49,8 +47,6 @@ public sealed class SpreaderSystem : EntitySystem
 
         SubscribeLocalEvent<EdgeSpreaderComponent, EntityTerminatingEvent>(OnTerminating);
         SetupPrototypes();
-
-        _query = GetEntityQuery<EdgeSpreaderComponent>();
     }
 
     private void OnPrototypeReload(PrototypesReloadedEventArgs obj)
@@ -70,7 +66,13 @@ public sealed class SpreaderSystem : EntitySystem
 
     private void OnAirtightChanged(ref AirtightChanged ev)
     {
-        ActivateSpreadableNeighbors(ev.Entity, ev.Position);
+        var neighbors = GetSpreadableNeighbors(ev.Entity, ev.Airtight, ev.Position);
+
+        foreach (var neighbor in neighbors)
+        {
+            if (!TerminatingOrDeleted(neighbor))
+                EnsureComp<ActiveEdgeSpreaderComponent>(neighbor);
+        }
     }
 
     private void OnGridInit(GridInitializeEvent ev)
@@ -80,7 +82,13 @@ public sealed class SpreaderSystem : EntitySystem
 
     private void OnTerminating(Entity<EdgeSpreaderComponent> entity, ref EntityTerminatingEvent args)
     {
-        ActivateSpreadableNeighbors(entity);
+        var neighbors = GetSpreadableNeighbors(entity);
+
+        foreach (var neighbor in neighbors)
+        {
+            if (!TerminatingOrDeleted(neighbor))
+                EnsureComp<ActiveEdgeSpreaderComponent>(neighbor);
+        }
     }
 
     /// <inheritdoc/>
@@ -231,9 +239,10 @@ public sealed class SpreaderSystem : EntitySystem
         // Add the normal neighbors.
         for (var i = 0; i < 4; i++)
         {
-            var atmosDir = (AtmosDirection) (1 << i);
-            var neighborPos = tile.Offset(atmosDir);
-            neighborTiles.Add((comp.GridUid.Value, grid, neighborPos, atmosDir, i.ToOppositeDir()));
+            var direction = (Direction) (i * 2);
+            var atmosDir = direction.ToAtmosDirection();
+            var neighborPos = SharedMapSystem.GetDirection(tile, direction);
+            neighborTiles.Add((comp.GridUid.Value, grid, neighborPos, atmosDir, atmosDir.GetOpposite()));
         }
 
         foreach (var (neighborEnt, neighborGrid, neighborPos, ourAtmosDir, otherAtmosDir) in neighborTiles)
@@ -245,7 +254,8 @@ public sealed class SpreaderSystem : EntitySystem
             if (!_map.TryGetTileRef(neighborEnt, neighborGrid, neighborPos, out var tileRef) || tileRef.Tile.IsEmpty)
                 continue;
 
-            var directionEnumerator = _map.GetAnchoredEntitiesEnumerator(neighborEnt, neighborGrid, neighborPos);
+            var directionEnumerator =
+                _map.GetAnchoredEntitiesEnumerator(neighborEnt, neighborGrid, neighborPos);
             var occupied = false;
 
             while (directionEnumerator.MoveNext(out var ent))
@@ -267,7 +277,8 @@ public sealed class SpreaderSystem : EntitySystem
                 continue;
 
             var oldCount = occupiedTiles.Count;
-            directionEnumerator = _map.GetAnchoredEntitiesEnumerator(neighborEnt, neighborGrid, neighborPos);
+            directionEnumerator =
+                _map.GetAnchoredEntitiesEnumerator(neighborEnt, neighborGrid, neighborPos);
 
             while (directionEnumerator.MoveNext(out var ent))
             {
@@ -288,11 +299,14 @@ public sealed class SpreaderSystem : EntitySystem
     }
 
     /// <summary>
-    /// This function activates all spreaders that are adjacent to a given entity. This also activates other spreaders
-    /// on the same tile as the current entity (for thin airtight entities like windoors).
+    /// Given an entity, this returns a list of all adjacent entities with a <see cref="EdgeSpreaderComponent"/>.
     /// </summary>
-    public void ActivateSpreadableNeighbors(EntityUid uid, (EntityUid Grid, Vector2i Tile)? position = null)
+    public List<EntityUid> GetSpreadableNeighbors(EntityUid uid, AirtightComponent? comp = null,
+        (EntityUid Grid, Vector2i Tile)? position = null)
     {
+        Resolve(uid, ref comp, false);
+        var neighbors = new List<EntityUid>();
+
         Vector2i tile;
         EntityUid ent;
         MapGridComponent? grid;
@@ -301,40 +315,37 @@ public sealed class SpreaderSystem : EntitySystem
         {
             var transform = Transform(uid);
             if (!TryComp(transform.GridUid, out grid) || TerminatingOrDeleted(transform.GridUid.Value))
-                return;
-
+                return neighbors;
             tile = _map.TileIndicesFor(transform.GridUid.Value, grid, transform.Coordinates);
             ent = transform.GridUid.Value;
         }
         else
         {
             if (!TryComp(position.Value.Grid, out grid))
-                return;
-            (ent, tile) = position.Value;
+                return neighbors;
+            tile = position.Value.Tile;
+            ent = position.Value.Grid;
         }
 
-        var anchored = _map.GetAnchoredEntitiesEnumerator(ent, grid, tile);
-        while (anchored.MoveNext(out var entity))
-        {
-            if (entity == ent)
-                continue;
-            DebugTools.Assert(Transform(entity.Value).Anchored);
-            if (_query.HasComponent(ent) && !TerminatingOrDeleted(entity.Value))
-                EnsureComp<ActiveEdgeSpreaderComponent>(entity.Value);
-        }
+        var spreaderQuery = GetEntityQuery<EdgeSpreaderComponent>();
 
         for (var i = 0; i < Atmospherics.Directions; i++)
         {
             var direction = (AtmosDirection) (1 << i);
-            var adjacentTile = SharedMapSystem.GetDirection(tile, direction.ToDirection());
-            anchored = _map.GetAnchoredEntitiesEnumerator(ent, grid, adjacentTile);
+            if (comp != null && !comp.AirBlockedDirection.IsFlagSet(direction))
+                continue;
 
-            while (anchored.MoveNext(out var entity))
+            var directionEnumerator =
+                _map.GetAnchoredEntitiesEnumerator(ent, grid, SharedMapSystem.GetDirection(tile, direction.ToDirection()));
+
+            while (directionEnumerator.MoveNext(out var entity))
             {
                 DebugTools.Assert(Transform(entity.Value).Anchored);
-                if (_query.HasComponent(ent) && !TerminatingOrDeleted(entity.Value))
-                    EnsureComp<ActiveEdgeSpreaderComponent>(entity.Value);
+                if (spreaderQuery.HasComponent(entity) && !TerminatingOrDeleted(entity.Value))
+                    neighbors.Add(entity.Value);
             }
         }
+
+        return neighbors;
     }
 }

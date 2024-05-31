@@ -22,7 +22,7 @@
       - id: PlushieSharkGrey
         orGroup: PlushieShark
       - id: PlushieAtmosian
-      - id: PlushieShadowkin
+      - id: PlushieShadowkin #PIRATE
       - id: PlushieDiona
       - id: PlushieXeno
       - id: PlushieHampter
@@ -183,19 +183,6 @@
       - id: GrassBattlemap
       - id: DiceBag
         amount: 6
-      - id: PaperCNCSheet
-        amount: 6
-
-- type: entity
-  id: CrateFunATV
-  parent: CrateLivestock
-  name: ATV crate
-  description: An Absolutely Taxable Vehicle to help cargo with hauling.
-  components:
-  - type: StorageFill
-    contents:
-      - id: VehicleATVNF # Frontier
-      - id: VehicleKeyATV
 
 - type: entity
   id: CrateFunSadTromboneImplants
@@ -362,3 +349,14 @@
         amount: 1
         prob: 0.05
 
+#PIRATE START UNTIL END OF FILE
+- type: entity
+  id: CrateFunATV
+  parent: CrateLivestock
+  name: ATV crate
+  description: An Absolutely Taxable Vehicle to help cargo with hauling.
+  components:
+  - type: StorageFill
+    contents:
+      - id: VehicleATVNF # Frontier
+      - id: VehicleKeyATV

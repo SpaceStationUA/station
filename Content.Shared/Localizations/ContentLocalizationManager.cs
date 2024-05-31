@@ -49,12 +49,12 @@ namespace Content.Shared.Localizations
              * This ensures the english translations continue to work as expected when fallbacks are needed.
              */
             var cultureEn = new CultureInfo("en-US");
-            var cultureUa = new CultureInfo("uk-UA");
+            var cultureUa = new CultureInfo("uk-UA"); // Ukrainian translation
 
             _loc.AddFunction(cultureEn, "MAKEPLURAL", FormatMakePlural);
             _loc.AddFunction(cultureEn, "MANY", FormatMany);
-            _loc.AddFunction(cultureUa, "MAKEPLURAL", FormatMakePlural);
-            _loc.AddFunction(cultureUa, "MANY", FormatMany);
+            _loc.AddFunction(cultureUa, "MAKEPLURAL", FormatMakePlural); // Ukrainian translation
+            _loc.AddFunction(cultureUa, "MANY", FormatMany); // Ukrainian translation
 
         }
 
@@ -126,14 +126,6 @@ namespace Content.Shared.Localizations
                 2 => $"{list[0]} and {list[1]}",
                 _ => $"{string.Join(", ", list.GetRange(0, list.Count - 1))}, and {list[^1]}"
             };
-        }
-
-        /// <summary>
-        /// Formats a direction struct as a human-readable string.
-        /// </summary>
-        public static string FormatDirection(Direction dir)
-        {
-            return Loc.GetString($"zzzz-fmt-direction-{dir.ToString()}");
         }
 
         private static ILocValue FormatLoc(LocArgs args)

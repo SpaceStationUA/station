@@ -124,16 +124,17 @@ public sealed partial class MarkingPicker : Control
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
 
+        SetupCategoryButtons();
         CMarkingCategoryButton.OnItemSelected +=  OnCategoryChange;
         CMarkingsUnused.OnItemSelected += item =>
             _selectedUnusedMarking = CMarkingsUnused[item.ItemIndex];
 
-        CMarkingAdd.OnPressed += _ =>
+        CMarkingAdd.OnPressed += args =>
             MarkingAdd();
 
         CMarkingsUsed.OnItemSelected += OnUsedMarkingSelected;
 
-        CMarkingRemove.OnPressed += _ =>
+        CMarkingRemove.OnPressed += args =>
             MarkingRemove();
 
         CMarkingRankUp.OnPressed += _ => SwapMarkingUp();
@@ -145,34 +146,16 @@ public sealed partial class MarkingPicker : Control
     private void SetupCategoryButtons()
     {
         CMarkingCategoryButton.Clear();
-
-        var validCategories = new List<MarkingCategories>();
         for (var i = 0; i < _markingCategories.Count; i++)
         {
-            var category = _markingCategories[i];
-            var markings = GetMarkings(category);
-            if (_ignoreCategories.Contains(category) ||
-                markings.Count == 0)
+            if (_ignoreCategories.Contains(_markingCategories[i]))
             {
                 continue;
             }
 
-            validCategories.Add(category);
-            CMarkingCategoryButton.AddItem(Loc.GetString($"markings-category-{category.ToString()}"), i);
+            CMarkingCategoryButton.AddItem(Loc.GetString($"markings-category-{_markingCategories[i].ToString()}"), i);
         }
-
-        if (validCategories.Contains(_selectedMarkingCategory))
-        {
-            CMarkingCategoryButton.SelectId(_markingCategories.IndexOf(_selectedMarkingCategory));
-        }
-        else if (validCategories.Count > 0)
-        {
-            _selectedMarkingCategory = validCategories[0];
-        }
-        else
-        {
-            _selectedMarkingCategory = MarkingCategories.Chest;
-        }
+        CMarkingCategoryButton.SelectId(_markingCategories.IndexOf(_selectedMarkingCategory));
     }
 
     private string GetMarkingName(MarkingPrototype marking) => Loc.GetString($"marking-{marking.ID}");
@@ -196,21 +179,16 @@ public sealed partial class MarkingPicker : Control
         return result;
     }
 
-    private IReadOnlyDictionary<string, MarkingPrototype> GetMarkings(MarkingCategories category)
-    {
-        return IgnoreSpecies
-            ? _markingManager.MarkingsByCategoryAndSex(category, _currentSex)
-            : _markingManager.MarkingsByCategoryAndSpeciesAndSex(category, _currentSpecies, _currentSex);
-    }
-
     public void Populate(string filter)
     {
-        SetupCategoryButtons();
-
         CMarkingsUnused.Clear();
         _selectedUnusedMarking = null;
 
-        var sortedMarkings = GetMarkings(_selectedMarkingCategory).Values.Where(m =>
+        var markings = IgnoreSpecies
+            ? _markingManager.MarkingsByCategoryAndSex(_selectedMarkingCategory, _currentSex)
+            : _markingManager.MarkingsByCategoryAndSpeciesAndSex(_selectedMarkingCategory, _currentSpecies, _currentSex);
+
+        var sortedMarkings = markings.Values.Where(m =>
             m.ID.ToLower().Contains(filter.ToLower()) ||
             GetMarkingName(m).ToLower().Contains(filter.ToLower())
         ).OrderBy(p => Loc.GetString(GetMarkingName(p)));

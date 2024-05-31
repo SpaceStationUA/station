@@ -23,7 +23,7 @@
       conditions:
       - !type:EntityAnchored {}
       steps:
-      - component: DoorElectronics
+      - tag: DoorElectronics
         store: board
         name: "door electronics circuit board"
         icon:

@@ -80,8 +80,14 @@ namespace Content.Shared.Interaction
 
         public bool TryFaceAngle(EntityUid user, Angle diffAngle, TransformComponent? xform = null)
         {
-            if (!_actionBlockerSystem.CanChangeDirection(user))
-                return false;
+            if (_actionBlockerSystem.CanChangeDirection(user))
+            {
+                if (!Resolve(user, ref xform))
+                    return false;
+
+                _transform.SetWorldRotation(xform, diffAngle);
+                return true;
+            }
 
             if (EntityManager.TryGetComponent(user, out BuckleComponent? buckle) && buckle.Buckled)
             {
@@ -99,16 +105,9 @@ namespace Content.Shared.Interaction
                         return true;
                     }
                 }
-
-                return false;
             }
 
-            // user is not buckled in; apply to their transform
-            if (!Resolve(user, ref xform))
-                return false;
-
-            _transform.SetWorldRotation(xform, diffAngle);
-            return true;
+            return false;
         }
     }
 }

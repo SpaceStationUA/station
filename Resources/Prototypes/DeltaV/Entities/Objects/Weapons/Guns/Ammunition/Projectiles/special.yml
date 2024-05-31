@@ -87,7 +87,7 @@
     solution: ammo
   - type: DrainableSolution
     solution: ammo
-  - type: SolutionInjectOnProjectileHit
+  - type: SolutionInjectOnCollide
     transferAmount: 9
     blockSlots: NONE #shouldn't be blocked by a mask
   - type: InjectableSolution
