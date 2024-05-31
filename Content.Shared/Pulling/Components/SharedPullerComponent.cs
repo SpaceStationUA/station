@@ -1,11 +1,10 @@
-﻿using Content.Shared.Movement.Pulling.Systems;
-using Robust.Shared.GameStates;
+﻿using Robust.Shared.GameStates;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
 namespace Content.Shared.Pulling.Components
 {
     [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
-    [Access(typeof(SharedPullingStateManagementSystem), typeof(PullingSystem))]
+    [Access(typeof(SharedPullingStateManagementSystem))]
     public sealed partial class SharedPullerComponent : Component
     {
         // Before changing how this is updated, please see SharedPullerSystem.RefreshMovementSpeed

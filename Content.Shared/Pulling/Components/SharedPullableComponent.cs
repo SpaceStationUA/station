@@ -1,4 +1,3 @@
-using Content.Shared.Movement.Pulling.Systems;
 using Robust.Shared.GameStates;
 using Robust.Shared.Map;
 using Robust.Shared.Serialization;
@@ -15,14 +14,14 @@ namespace Content.Shared.Pulling.Components
         /// The current entity pulling this component.
         /// </summary>
         [DataField, AutoNetworkedField]
-        [Access(typeof(PullingSystem), typeof(SharedPullingStateManagementSystem))]
+        [Access(typeof(SharedPullingStateManagementSystem))]
         public EntityUid? Puller { get; set; }
 
         /// <summary>
         /// The pull joint.
         /// </summary>
         [DataField, AutoNetworkedField]
-        [Access(typeof(PullingSystem), typeof(SharedPullingStateManagementSystem))]
+        [Access(typeof(SharedPullingStateManagementSystem))]
         public string? PullJointId { get; set; }
 
         public bool BeingPulled => Puller != null;
@@ -40,7 +39,7 @@ namespace Content.Shared.Pulling.Components
         /// <summary>
         /// What the pullable's fixedrotation was set to before being pulled.
         /// </summary>
-        [Access(typeof(SharedPullingSystem), typeof(PullingSystem), Other = AccessPermissions.ReadExecute)]
+        [Access(typeof(SharedPullingSystem), Other = AccessPermissions.ReadExecute)]
         [ViewVariables]
         public bool PrevFixedRotation;
     }

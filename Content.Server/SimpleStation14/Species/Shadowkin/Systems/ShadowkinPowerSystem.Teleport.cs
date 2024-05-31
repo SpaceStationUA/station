@@ -1,4 +1,5 @@
 ﻿using Content.Server.Magic;
+using Content.Server.Pulling;
 // using Content.Server.Pulling;
 using Content.Server.SimpleStation14.Species.Shadowkin.Components;
 using Content.Shared.SimpleStation14.Species.Shadowkin.Events;
@@ -8,8 +9,6 @@ using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
 // using Content.Shared.Pulling.Components;
 
-using Content.Shared.Movement.Pulling.Systems;
-using Content.Shared.Movement.Pulling;
 using Content.Shared.SimpleStation14.Species.Shadowkin.Components;
 using Content.Shared.Storage.Components;
 using Robust.Shared.Audio;
@@ -78,7 +77,7 @@ public sealed class ShadowkinTeleportSystem : EntitySystem
             pullable.BeingPulled)
 
             // Temporarily stop pulling to avoid not teleporting fully to the target
-            _pulling.TryStopPull(puller.Pulling.Value, pullable, user: args.Performer);
+            _pulling.TryStopPull(pullable, user: args.Performer);
 
 
         // Teleport the performer to the target

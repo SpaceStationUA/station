@@ -1,40 +1,32 @@
+using System.Threading.Tasks;
 using Content.Server.Magic;
+using Content.Server.Pulling;
+using Content.Shared._Pirate.Mage.Components;
+using Content.Shared._Pirate.Mage.Events;
 using Content.Shared.Actions;
-using Content.Shared.Actions.ActionTypes;
 using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
-
-using Content.Shared.Movement.Pulling.Systems;
-using Content.Shared.Movement.Pulling;
+using Content.Shared.Eye.Blinding.Components;
+using Content.Shared.Eye.Blinding.Systems;
 using Content.Shared.Storage.Components;
-using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
-using Robust.Shared.Physics.Systems;
-using Content.Shared.Magic.Events;
-using Content.Shared._Pirate.Mage.Events;
-using Content.Server._Pirate.Mage.EntitySystems;
-using Content.Server._Pirate.Mage.Components;
-using Content.Shared._Pirate.Mage.Components;
-using Content.Shared.Eye.Blinding.Systems;
-using System.Threading.Tasks;
-using Content.Shared.Eye.Blinding.Components;
 
 namespace Content.Server._Pirate.Mage.EntitySystems;
 
 public sealed class MageBlindSystem : EntitySystem
 {
-    [Dependency] private readonly MageManaSystem _mana = default!;
-    [Dependency] private readonly SharedTransformSystem _transform = default!;
-    [Dependency] private readonly SharedAudioSystem _audio = default!;
-    [Dependency] private readonly IEntityManager _entity = default!;
-    [Dependency] private readonly StaminaSystem _stamina = default!;
-    [Dependency] private readonly PullingSystem _pulling = default!;
     [Dependency] private readonly SharedActionsSystem _actions = default!;
-    [Dependency] private readonly IPrototypeManager _prototype = default!;
-    [Dependency] private readonly MagicSystem _magic = default!;
-    [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
+    [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly BlindableSystem _blindnessSystem = default!;
+    [Dependency] private readonly IEntityManager _entity = default!;
+    [Dependency] private readonly MagicSystem _magic = default!;
+    [Dependency] private readonly MageManaSystem _mana = default!;
+    [Dependency] private readonly IPrototypeManager _prototype = default!;
+    [Dependency] private readonly PullingSystem _pulling = default!;
+    [Dependency] private readonly StaminaSystem _stamina = default!;
+    [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
 
 
     public override void Initialize()
@@ -42,11 +34,10 @@ public sealed class MageBlindSystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<MageBlindSpellEvent>(OnBlindSpell);
-
     }
 
     /// <summary>
-    /// Teleports the user to the clicked location
+    ///     Teleports the user to the clicked location
     /// </summary>
     /// <param name="args"></param>
     private async void OnBlindSpell(MageBlindSpellEvent args)
@@ -77,5 +68,4 @@ public sealed class MageBlindSystem : EntitySystem
 
         args.Handled = true;
     }
-
 }

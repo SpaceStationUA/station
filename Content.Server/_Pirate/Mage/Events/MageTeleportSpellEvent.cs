@@ -12,7 +12,7 @@ public sealed partial class MageTeleportSpellEvent : WorldTargetActionEvent, ISp
     public SoundSpecifier BlinkSound = new SoundPathSpecifier("/Audio/Magic/blink.ogg");
 
     [DataField("speech")]
-    public string? Speech { get; set;}
+    public string? Speech { get; set; }
 
     /// <summary>
     /// Volume control for the spell.

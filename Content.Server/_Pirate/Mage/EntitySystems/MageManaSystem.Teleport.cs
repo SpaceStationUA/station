@@ -1,37 +1,30 @@
 using Content.Server.Magic;
-// using Content.Server.Pulling;
+using Content.Server.Pulling;
+using Content.Shared._Pirate.Mage.Components;
+using Content.Shared._Pirate.Mage.Events;
 using Content.Shared.Actions;
-using Content.Shared.Actions.ActionTypes;
 using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
-// using Content.Shared.Pulling.Components;
-
-using Content.Shared.Movement.Pulling.Systems;
-using Content.Shared.Movement.Pulling;
 using Content.Shared.Storage.Components;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
-using Robust.Shared.Physics.Systems;
-using Content.Shared.Magic.Events;
-using Content.Shared._Pirate.Mage.Events;
-using Content.Server._Pirate.Mage.EntitySystems;
-using Content.Server._Pirate.Mage.Components;
-using Content.Shared._Pirate.Mage.Components;
+// using Content.Server.Pulling;
+// using Content.Shared.Pulling.Components;
 
 namespace Content.Server._Pirate.Mage.EntitySystems;
 
 public sealed class MageTeleportSystem : EntitySystem
 {
-    [Dependency] private readonly MageManaSystem _mana = default!;
-    [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly SharedActionsSystem _actions = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly IEntityManager _entity = default!;
-    [Dependency] private readonly StaminaSystem _stamina = default!;
-    [Dependency] private readonly PullingSystem _pulling = default!;
-    [Dependency] private readonly SharedActionsSystem _actions = default!;
-    [Dependency] private readonly IPrototypeManager _prototype = default!;
     [Dependency] private readonly MagicSystem _magic = default!;
+    [Dependency] private readonly MageManaSystem _mana = default!;
+    [Dependency] private readonly IPrototypeManager _prototype = default!;
+    [Dependency] private readonly PullingSystem _pulling = default!;
+    [Dependency] private readonly StaminaSystem _stamina = default!;
+    [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
 
 
@@ -40,11 +33,10 @@ public sealed class MageTeleportSystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<MageTeleportSpellEvent>(OnTeleportSpell);
-
     }
 
     /// <summary>
-    /// Teleports the user to the clicked location
+    ///     Teleports the user to the clicked location
     /// </summary>
     /// <param name="args"></param>
     private void OnTeleportSpell(MageTeleportSpellEvent args)
@@ -59,7 +51,8 @@ public sealed class MageTeleportSystem : EntitySystem
 
         var transform = Transform(args.Performer);
 
-        if (transform.MapID != args.Target.GetMapId(EntityManager)) return;
+        if (transform.MapID != args.Target.GetMapId(EntityManager))
+            return;
 
         if (!_mana.TryUseAbility(args.Performer, comp, args.ManaCost))
             return;
@@ -73,5 +66,4 @@ public sealed class MageTeleportSystem : EntitySystem
 
         args.Handled = true;
     }
-
 }
