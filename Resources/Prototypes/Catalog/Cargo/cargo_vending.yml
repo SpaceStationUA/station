@@ -33,7 +33,7 @@
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockClothesFilled
-  cost: 12000 #DeltaV #Pirate <- change to pass test (sell value should be lower than buy)
+  cost: 8050
   category: cargoproduct-category-name-service
   group: market
 
@@ -104,7 +104,7 @@
     sprite: Objects/Specific/Service/vending_machine_restock.rsi
     state: base
   product: CrateVendingMachineRestockChemVendFilled
-  cost: 6300 #Delta V - was 3820, see rebase PR #53
+  cost: 3820
   category: cargoproduct-category-name-medical
   group: market
 
@@ -195,7 +195,7 @@
     state: base
   product: CrateVendingMachineRestockRoboticsFilled
   cost: 1600
-  category: cargoproduct-category-name-epistemics
+  category: cargoproduct-category-name-science
   group: market
 
 - type: cargoProduct

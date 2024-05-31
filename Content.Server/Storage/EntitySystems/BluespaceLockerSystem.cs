@@ -3,7 +3,6 @@ using Content.Server.Explosion.EntitySystems;
 using Content.Server.Resist;
 using Content.Server.Station.Components;
 using Content.Server.Storage.Components;
-using Content.Shared.Access;
 using Content.Shared.Access.Components;
 using Content.Shared.Coordinates;
 using Content.Shared.DoAfter;
@@ -15,7 +14,6 @@ using Content.Shared.Tools.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
-using Robust.Shared.Prototypes;
 
 namespace Content.Server.Storage.EntitySystems;
 
@@ -140,7 +138,7 @@ public sealed class BluespaceLockerSystem : EntitySystem
     }
 
     /// <returns>True if any HashSet in <paramref name="a"/> would grant access to <paramref name="b"/></returns>
-    private bool AccessMatch(IReadOnlyCollection<HashSet<ProtoId<AccessLevelPrototype>>>? a, IReadOnlyCollection<HashSet<ProtoId<AccessLevelPrototype>>>? b)
+    private bool AccessMatch(IReadOnlyCollection<HashSet<string>>? a, IReadOnlyCollection<HashSet<string>>? b)
     {
         if ((a == null || a.Count == 0) && (b == null || b.Count == 0))
             return true;

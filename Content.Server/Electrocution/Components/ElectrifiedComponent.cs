@@ -41,32 +41,8 @@ public sealed partial class ElectrifiedComponent : Component
     [DataField("lowVoltageNode")]
     public string? LowVoltageNode;
 
-    /// <summary>
-    /// Damage multiplier for HV electrocution
-    /// </summary>
-    [DataField]
-    public float HighVoltageDamageMultiplier = 3f;
-
-    /// <summary>
-    /// Shock time multiplier for HV electrocution
-    /// </summary>
-    [DataField]
-    public float HighVoltageTimeMultiplier = 1.5f;
-
-    /// <summary>
-    /// Damage multiplier for MV electrocution
-    /// </summary>
-    [DataField]
-    public float MediumVoltageDamageMultiplier = 2f;
-
-    /// <summary>
-    /// Shock time multiplier for MV electrocution
-    /// </summary>
-    [DataField]
-    public float MediumVoltageTimeMultiplier = 1.25f;
-
     [DataField("shockDamage")]
-    public float ShockDamage = 7.5f;
+    public int ShockDamage = 20;
 
     /// <summary>
     ///     Shock time, in seconds.

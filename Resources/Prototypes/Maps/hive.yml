@@ -2,7 +2,7 @@
   id: TheHive
   mapName: 'The Hive'
   mapPath: /Maps/hive.yml
-  minPlayers: 30
+  minPlayers: 5
   #maxPlayers: 80 Temporary maybe
   stations:
     TheHive:
@@ -38,7 +38,7 @@
             Psychologist: [ 1, 1 ]
           #security
             Brigmedic: [ 1, 1 ]
-            Blueshield: [ 1, 1 ]
+            Blueshield: [ 1, 1 ] #PIRATE
             Detective: [ 1, 1 ]
             HeadOfSecurity: [ 1, 1 ]
             Prisoner: [ 2, 3 ]

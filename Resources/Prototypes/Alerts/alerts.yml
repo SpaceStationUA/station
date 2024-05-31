@@ -6,8 +6,8 @@
   order:
     - category: Health
     - category: Stamina
-    - category: ShadowkinPower
-    - alertType: MageMana
+    - category: ShadowkinPower #PIRATE
+    - alertType: MageMana #PIRATE
     - alertType: SuitPower
     - category: Internals
     - alertType: Fire
@@ -26,15 +26,7 @@
     - category: Thirst
     - alertType: Magboots
     - alertType: Pacified
-
-- type: entity
-  id: AlertSpriteView
-  categories: [ hideSpawnMenu ]
-  components:
-  - type: Sprite
-    layers:
-    - map: [ "enum.AlertVisualLayers.Base" ]
-
+#PIRATE START
 - type: alert
   id: MageMana
   # category: Stamina
@@ -60,7 +52,7 @@
   description: alerts-shadowkin-power-desc
   minSeverity: 0
   maxSeverity: 7
-
+#PIRATE END
 - type: alert
   id: LowOxygen
   category: Breathing

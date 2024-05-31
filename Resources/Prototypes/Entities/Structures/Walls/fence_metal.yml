@@ -10,6 +10,9 @@
       Brute:
         path:
           "/Audio/Weapons/grille_hit.ogg"
+  - type: Tag
+    tags:
+    - RCDDeconstructWhitelist
   - type: Sprite
     sprite: Structures/Walls/fence.rsi
     drawdepth: WallTops
@@ -75,10 +78,6 @@
           True: { visible: True }
           False: { visible: False }
   - type: AnimationPlayer
-  - type: RCDDeconstructable
-    cost: 2
-    delay: 2
-    fx: EffectRCDDeconstruct2
 
 - type: entity
   parent: BaseFenceMetal

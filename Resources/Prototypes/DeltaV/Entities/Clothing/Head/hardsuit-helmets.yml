@@ -22,8 +22,6 @@
         Slash: 0.90
         Piercing: 0.90
         Heat: 0.90
-  - type: DiseaseProtection
-    protection: 0.15
 
 - type: entity
   parent: ClothingHeadHelmetHardsuitCombatStandard
@@ -52,8 +50,6 @@
   - type: PressureProtection
     highPressureMultiplier: 0.60
     lowPressureMultiplier: 1000
-  - type: DiseaseProtection
-    protection: 0.15
   - type: Armor
     modifiers:
       coefficients:
@@ -106,8 +102,6 @@
     sprite: DeltaV/Clothing/Head/Hardsuits/Combat/warden.rsi
   - type: Clothing
     sprite: DeltaV/Clothing/Head/Hardsuits/Combat/warden.rsi
-  - type: DiseaseProtection
-    protection: 0.15
 
 # Advanced Combat Hardsuits
 - type: entity

@@ -1,4 +1,17 @@
 - type: guideEntry
+  id: Species
+  name: guide-entry-species
+  text: "/ServerInfo/Guidebook/Mobs/Species.xml"
+  children:
+    - Arachnid
+    - Diona
+    - Dwarf
+    - Human
+    - Moth
+    - Reptilian
+    - SlimePerson
+
+- type: guideEntry
   id: Arachnid
   name: species-name-arachnid
   text: "/ServerInfo/Guidebook/Mobs/Arachnid.xml"
@@ -32,3 +45,35 @@
   id: SlimePerson
   name: species-name-slime
   text: "/ServerInfo/Guidebook/Mobs/SlimePerson.xml"
+
+#PIRATE UNTIL END OF FILE
+- type: guideEntry
+  id: WizdenSpecies
+  name: guide-entry-wizden-species
+  text: "/ServerInfo/SimpleStation14/Guidebook/Species/WizdenSpecies.xml"
+  children:
+  - SpeciesHuman
+  - SpeciesDiona
+  - SpeciesDwarf
+  - SpeciesSlime
+  - SpeciesSkeleton
+  - SpeciesReptilian
+  - SpeciesVox
+
+- type: guideEntry
+  id: NyanoSpecies
+  name: guide-entry-nyano-species
+  text: "/ServerInfo/SimpleStation14/Guidebook/Species/NyanoSpecies.xml"
+  children:
+  - SpeciesArachne
+  - SpeciesFelinid
+  - SpeciesMoff
+  - SpeciesOni
+
+- type: guideEntry
+  id: SimpleStationSpecies
+  name: guide-entry-simplestation-species
+  text: "/ServerInfo/SimpleStation14/Guidebook/Species/SimpleStationSpecies.xml"
+  children:
+  # - SpeciesPlasmaman
+  - SpeciesShadowkin

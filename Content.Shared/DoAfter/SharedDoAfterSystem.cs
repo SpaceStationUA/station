@@ -219,6 +219,7 @@ public abstract partial class SharedDoAfterSystem : EntitySystem
 
         if (args.Target != null && args.BreakOnTargetMove)
         {
+            // Target should never be null if the bool is set.
             var targetPosition = Transform(args.Target.Value).Coordinates;
             doAfter.UserPosition.TryDistance(EntityManager, targetPosition, out doAfter.TargetDistance);
         }

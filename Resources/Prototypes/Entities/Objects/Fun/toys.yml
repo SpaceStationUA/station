@@ -143,8 +143,8 @@
     equippedPrefix: bee
     slots:
     - HEAD
-    - HEAD1
-    - HEAD2
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
 
 - type: entity
   parent: BasePlushie
@@ -618,8 +618,6 @@
     equippedPrefix: mouse
     slots:
     - HEAD
-    - HEAD1
-    - HEAD2
 
 - type: entity
   parent: BasePlushie
@@ -637,8 +635,8 @@
     sprite: Objects/Fun/ducky.rsi
     slots:
     - HEAD
-    - HEAD1
-    - HEAD2
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
   - type: EmitSoundOnUse
     sound:
       path: /Audio/Items/Toys/quack.ogg
@@ -1438,9 +1436,6 @@
         reagents:
         - ReagentId: Nothing
           Quantity: 100
-  - type: Tag
-    tags:
-    - Banana
 
 - type: entity
   parent: DrinkBase

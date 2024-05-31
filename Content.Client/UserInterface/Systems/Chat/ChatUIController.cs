@@ -9,10 +9,8 @@ using Content.Client.Chat.UI;
 using Content.Client.Examine;
 using Content.Client.Gameplay;
 using Content.Client.Ghost;
-using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Screens;
 using Content.Client.UserInterface.Systems.Chat.Widgets;
-using Content.Client.SimpleStation14.Chat;
 using Content.Client.UserInterface.Systems.Gameplay;
 using Content.Shared.Administration;
 using Content.Shared.CCVar;
@@ -39,7 +37,8 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Replays;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
-using Content.Client.Nyanotrasen.Chat; //Nyano - Summary: chat namespace.
+using Content.Client.Nyanotrasen.Chat;
+using Content.Client.SimpleStation14.Chat; //Nyano - Summary: chat namespace.
 
 namespace Content.Client.UserInterface.Systems.Chat;
 
@@ -57,13 +56,14 @@ public sealed class ChatUIController : UIController
     [Dependency] private readonly IStateManager _state = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
     [Dependency] private readonly IReplayRecordingManager _replayRecording = default!;
+    [Dependency] private readonly IConfigurationManager _cfg = default!;
 
     [UISystemDependency] private readonly ExamineSystem? _examine = default;
     [UISystemDependency] private readonly GhostSystem? _ghost = default;
     [UISystemDependency] private readonly TypingIndicatorSystem? _typingIndicator = default;
     [UISystemDependency] private readonly ChatSystem? _chatSys = default;
     [UISystemDependency] private readonly PsionicChatUpdateSystem? _psionic = default!; //Nyano - Summary: makes the psionic chat available.
-    [UISystemDependency] private readonly ShadowkinChatUpdateSystem? _shadowkin = default!;
+    [UISystemDependency] private readonly ShadowkinChatUpdateSystem? _shadowkin = default!; // Pirate
 
     [ValidatePrototypeId<ColorPalettePrototype>]
     private const string ChatNamePalette = "ChatNames";
@@ -85,7 +85,7 @@ public sealed class ChatUIController : UIController
         {SharedChatSystem.RadioCommonPrefix, ChatSelectChannel.Radio},
         {SharedChatSystem.DeadPrefix, ChatSelectChannel.Dead},
         {SharedChatSystem.TelepathicPrefix, ChatSelectChannel.Telepathic}, //Nyano - Summary: adds the telepathic prefix =.
-        {SharedChatSystem.EmpathyPrefix, ChatSelectChannel.Empathy}
+        {SharedChatSystem.EmpathyPrefix, ChatSelectChannel.Empathy}// Pirate
     };
 
     public static readonly Dictionary<ChatSelectChannel, char> ChannelPrefixes = new()
@@ -100,7 +100,7 @@ public sealed class ChatUIController : UIController
         {ChatSelectChannel.Radio, SharedChatSystem.RadioCommonPrefix},
         {ChatSelectChannel.Dead, SharedChatSystem.DeadPrefix},
         {ChatSelectChannel.Telepathic, SharedChatSystem.TelepathicPrefix }, //Nyano - Summary: associates telepathic with =.
-        {ChatSelectChannel.Empathy, SharedChatSystem.EmpathyPrefix}
+        {ChatSelectChannel.Empathy, SharedChatSystem.EmpathyPrefix}// Pirate
     };
 
     /// <summary>
@@ -188,8 +188,8 @@ public sealed class ChatUIController : UIController
         _net.RegisterNetMessage<MsgChatMessage>(OnChatMessage);
         _net.RegisterNetMessage<MsgDeleteChatMessagesBy>(OnDeleteChatMessagesBy);
         SubscribeNetworkEvent<DamageForceSayEvent>(OnDamageForceSay);
-        _config.OnValueChanged(CCVars.ChatEnableColorName, (value) => { _chatNameColorsEnabled = value; });
-        _chatNameColorsEnabled = _config.GetCVar(CCVars.ChatEnableColorName);
+        _cfg.OnValueChanged(CCVars.ChatEnableColorName, (value) => { _chatNameColorsEnabled = value; });
+        _chatNameColorsEnabled = _cfg.GetCVar(CCVars.ChatEnableColorName);
 
         _speechBubbleRoot = new LayoutContainer();
 
@@ -241,9 +241,6 @@ public sealed class ChatUIController : UIController
         {
             _chatNameColors[i] = nameColors[i].ToHex();
         }
-
-        _config.OnValueChanged(CCVars.ChatWindowOpacity, OnChatWindowOpacityChanged);
-
     }
 
     public void OnScreenLoad()
@@ -252,41 +249,11 @@ public sealed class ChatUIController : UIController
 
         var viewportContainer = UIManager.ActiveScreen!.FindControl<LayoutContainer>("ViewportContainer");
         SetSpeechBubbleRoot(viewportContainer);
-
-        SetChatWindowOpacity(_config.GetCVar(CCVars.ChatWindowOpacity));
     }
 
     public void OnScreenUnload()
     {
         SetMainChat(false);
-    }
-
-    private void OnChatWindowOpacityChanged(float opacity)
-    {
-        SetChatWindowOpacity(opacity);
-    }
-
-    private void SetChatWindowOpacity(float opacity)
-    {
-        var chatBox = UIManager.ActiveScreen?.GetWidget<ChatBox>() ?? UIManager.ActiveScreen?.GetWidget<ResizableChatBox>();
-
-        var panel = chatBox?.ChatWindowPanel;
-        if (panel is null)
-            return;
-
-        Color color;
-        if (panel.PanelOverride is StyleBoxFlat styleBoxFlat)
-            color = styleBoxFlat.BackgroundColor;
-        else if (panel.TryGetStyleProperty<StyleBox>(PanelContainer.StylePropertyPanel, out var style)
-                 && style is StyleBoxFlat propStyleBoxFlat)
-            color = propStyleBoxFlat.BackgroundColor;
-        else
-            color = StyleNano.ChatBackgroundColor;
-
-        panel.PanelOverride = new StyleBoxFlat
-        {
-            BackgroundColor = color.WithAlpha(opacity)
-        };
     }
 
     public void SetMainChat(bool setting)
@@ -562,7 +529,7 @@ public sealed class ChatUIController : UIController
             FilterableChannels |= ChatChannel.AdminChat;
             CanSendChannels |= ChatSelectChannel.Admin;
             FilterableChannels |= ChatChannel.Telepathic; //Nyano - Summary: makes admins able to see psionic chat.
-            FilterableChannels |= ChatChannel.Empathy;
+            FilterableChannels |= ChatChannel.Empathy; // Pirate
         }
 
         // Nyano - Summary: - Begin modified code block to add telepathic as a channel for a psionic user.
@@ -573,7 +540,7 @@ public sealed class ChatUIController : UIController
         }
         // /Nyano - End modified code block
 
-        // Shadowkin
+        // Shadowkin // Pirate
         if (_shadowkin != null && _shadowkin.IsShadowkin)
         {
             FilterableChannels |= ChatChannel.Empathy;
@@ -829,7 +796,7 @@ public sealed class ChatUIController : UIController
         ProcessChatMessage(msg);
 
         if ((msg.Channel & ChatChannel.AdminRelated) == 0 ||
-            _config.GetCVar(CCVars.ReplayRecordAdminChat))
+            _cfg.GetCVar(CCVars.ReplayRecordAdminChat))
         {
             _replayRecording.RecordClientMessage(msg);
         }
@@ -889,7 +856,7 @@ public sealed class ChatUIController : UIController
                 break;
 
             case ChatChannel.LOOC:
-                if (_config.GetCVar(CCVars.LoocAboveHeadShow))
+                if (_cfg.GetCVar(CCVars.LoocAboveHeadShow))
                     AddSpeechBubble(msg, SpeechBubble.SpeechType.Looc);
                 break;
         }

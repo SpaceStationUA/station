@@ -645,27 +645,6 @@
         - ChemDispenserMachineCircuitboard
 
 - type: entity
-  id: MedipenRefillerMachineCircuitboard
-  parent: BaseMachineCircuitboard
-  name: medipen refiller machine board
-  description: A machine printed circuit board for a Medipen Refiller.
-  components:
-    - type: Sprite
-      state: medical
-    - type: MachineBoard
-      prototype: MedipenRefiller
-      requirements:
-        MatterBin: 1
-      materialRequirements:
-        Steel: 5
-        Glass: 2
-      tagRequirements:
-        GlassBeaker:
-          Amount: 1
-          DefaultPrototype: Beaker
-          ExamineName: Glass Beaker
-
-- type: entity
   id: BiomassReclaimerMachineCircuitboard
   parent: BaseMachineCircuitboard
   name: biomass reclaimer machine board
@@ -1073,7 +1052,6 @@
       Glass: 2
       Cable: 5
 
-
 - type: entity
   id: StasisBedMachineCircuitboard
   parent: BaseMachineCircuitboard
@@ -1200,9 +1178,6 @@
     - type: ReverseEngineering # Nyano
       recipes:
         - MicrowaveMachineCircuitboard
-    - type: Tag
-      tags:
-      - MicrowaveMachineBoard
 
 - type: entity
   id: FatExtractorMachineCircuitboard
@@ -1458,7 +1433,7 @@
     materialRequirements:
       Steel: 5
       CableHV: 5
-
+      
 - type: entity
   id: ShuttleGunPerforatorCircuitboard
   parent: BaseMachineCircuitboard
@@ -1475,7 +1450,7 @@
     materialRequirements:
       Steel: 10
       CableHV: 5
-
+      
 - type: entity
   id: ShuttleGunFriendshipCircuitboard
   parent: BaseMachineCircuitboard
@@ -1491,8 +1466,8 @@
       Manipulator: 2
     materialRequirements:
       Steel: 7
-      CableHV: 5
-
+      CableHV: 5  
+      
 - type: entity
   id: ShuttleGunDusterCircuitboard
   parent: BaseMachineCircuitboard
@@ -1510,7 +1485,7 @@
       Steel: 10
       CableHV: 5
       Uranium: 2
-
+      
 - type: entity
   id: ShuttleGunKineticCircuitboard
   parent: BaseMachineCircuitboard
@@ -1527,16 +1502,4 @@
     materialRequirements:
       Steel: 5
       CableHV: 2
-
-- type: entity
-  parent: BaseMachineCircuitboard
-  id: ReagentGrinderIndustrialMachineCircuitboard
-  name: industrial reagent grinder machine board
-  components:
-  - type: MachineBoard
-    prototype: ReagentGrinderIndustrial
-    requirements:
-      MatterBin: 1
-      Manipulator: 3
-    materialRequirements:
-      Glass: 1
+      

@@ -124,7 +124,9 @@
             <BoxContainer
             VerticalExpand="True"
             HorizontalExpand="True"
-            Orientation="Vertical">
+            Orientation="Vertical"
+            MinHeight="225"
+            >
             <Label Text="{Loc 'lathe-menu-materials-title'}" Margin="5 5 5 5" HorizontalAlignment="Center"/>
             <BoxContainer
                 Orientation="Vertical"

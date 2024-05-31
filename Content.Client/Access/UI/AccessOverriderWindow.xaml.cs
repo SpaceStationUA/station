@@ -16,6 +16,7 @@ namespace Content.Client.Access.UI
         [Dependency] private readonly ILogManager _logManager = default!;
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
 
+        private readonly ISawmill _logMill = default!;
         private readonly AccessOverriderBoundUserInterface _owner;
         private readonly Dictionary<string, Button> _accessButtons = new();
 
@@ -24,7 +25,7 @@ namespace Content.Client.Access.UI
         {
             RobustXamlLoader.Load(this);
             IoCManager.InjectDependencies(this);
-            var logMill = _logManager.GetSawmill(SharedAccessOverriderSystem.Sawmill);
+            _logMill = _logManager.GetSawmill(SharedAccessOverriderSystem.Sawmill);
 
             _owner = owner;
 
@@ -32,13 +33,13 @@ namespace Content.Client.Access.UI
             {
                 if (!prototypeManager.TryIndex(access, out var accessLevel))
                 {
-                    logMill.Error($"Unable to find accesslevel for {access}");
+                    _logMill.Error($"Unable to find accesslevel for {access}");
                     continue;
                 }
 
                 var newButton = new Button
                 {
-                    Text = accessLevel.GetAccessLevelName(),
+                    Text = GetAccessLevelName(accessLevel),
                     ToggleMode = true,
                 };
 
@@ -46,6 +47,14 @@ namespace Content.Client.Access.UI
                 _accessButtons.Add(accessLevel.ID, newButton);
                 newButton.OnPressed += _ => SubmitData();
             }
+        }
+
+        private static string GetAccessLevelName(AccessLevelPrototype prototype)
+        {
+            if (prototype.Name is { } name)
+                return Loc.GetString(name);
+
+            return prototype.ID;
         }
 
         public void UpdateState(AccessOverriderBoundUserInterfaceState state)
@@ -96,7 +105,7 @@ namespace Content.Client.Access.UI
             _owner.SubmitData(
 
                 // Iterate over the buttons dictionary, filter by `Pressed`, only get key from the key/value pair
-                _accessButtons.Where(x => x.Value.Pressed).Select(x => new ProtoId<AccessLevelPrototype>(x.Key)).ToList());
+                _accessButtons.Where(x => x.Value.Pressed).Select(x => x.Key).ToList());
         }
     }
 }

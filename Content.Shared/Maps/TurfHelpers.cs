@@ -3,7 +3,6 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using Content.Shared.Physics;
 using Robust.Shared.Map;
-using Robust.Shared.Map.Components;
 using Robust.Shared.Random;
 
 namespace Content.Shared.Maps
@@ -120,8 +119,9 @@ namespace Content.Shared.Maps
         private static bool GetWorldTileBox(TileRef turf, out Box2Rotated res)
         {
             var entManager = IoCManager.Resolve<IEntityManager>();
+            var map = IoCManager.Resolve<IMapManager>();
 
-            if (entManager.TryGetComponent<MapGridComponent>(turf.GridUid, out var tileGrid))
+            if (map.TryGetGrid(turf.GridUid, out var tileGrid))
             {
                 var gridRot = entManager.GetComponent<TransformComponent>(turf.GridUid).WorldRotation;
 

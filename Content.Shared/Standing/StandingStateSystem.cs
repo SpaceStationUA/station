@@ -56,7 +56,7 @@ namespace Content.Shared.Standing
                 return false;
 
             standingState.Standing = false;
-            Dirty(uid, standingState);
+            Dirty(standingState);
             RaiseLocalEvent(uid, new DownedEvent(), false);
 
             // Seemed like the best place to put it

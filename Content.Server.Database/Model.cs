@@ -56,12 +56,12 @@ namespace Content.Server.Database
                 .IsUnique();
 
             modelBuilder.Entity<Trait>()
-                        .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.TraitName})
-                        .IsUnique();
+                .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.TraitName})
+                .IsUnique();
 
             modelBuilder.Entity<Loadout>()
-                        .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.LoadoutName})
-                        .IsUnique();
+                .HasIndex(p => new {HumanoidProfileId = p.ProfileId, p.LoadoutName})
+                .IsUnique();
 
             modelBuilder.Entity<Job>()
                 .HasIndex(j => j.ProfileId);
@@ -338,8 +338,8 @@ namespace Content.Server.Database
         public string Sex { get; set; } = null!;
         public string Gender { get; set; } = null!;
         public string Species { get; set; } = null!;
-        public string Voice { get; set; } = null!; // TTS
         [Column(TypeName = "jsonb")] public JsonDocument? Markings { get; set; } = null!;
+        public string Voice { get; set; } = null!; //PIRATE TTS
         public string HairName { get; set; } = null!;
         public string HairColor { get; set; } = null!;
         public string FacialHairName { get; set; } = null!;

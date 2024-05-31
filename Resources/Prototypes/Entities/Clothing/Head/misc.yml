@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadMiscBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBunny
   name: bunny ears
   description: Cute bunny ears.
@@ -10,7 +10,7 @@
     sprite: Clothing/Head/Misc/bunny.rsi
 
 - type: entity
-  parent: ClothingHeadMiscBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatCake
   name: cake hat
   description: You put the cake on your head. Brilliant.
@@ -21,7 +21,7 @@
     sprite: Clothing/Head/Misc/cake.rsi
 
 - type: entity
-  parent: ClothingHeadMiscBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatChickenhead
   name: chicken head
   description: "It's a chicken head. Bok bok bok!"
@@ -35,6 +35,20 @@
 
 - type: entity
   parent: ClothingHeadBase
+  id: ClothingHeadHatFlowerCrown
+  name: flower crown
+  description: A coronet of fresh and fragrant flowers.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Misc/flower-crown.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Misc/flower-crown.rsi
+  - type: Construction
+    graph: flowercrown
+    node: flowercrown
+
+- type: entity
+  parent: ClothingHeadBase
   id: ClothingHeadHatHairflower
   name: hairflower
   description: A red flower for beautiful ladies.
@@ -43,28 +57,9 @@
     sprite: Clothing/Head/Misc/hairflower.rsi
   - type: Clothing
     sprite: Clothing/Head/Misc/hairflower.rsi
-  # - type: Construction
-  #   graph: hairflower
-  #   node: hairflower
-
-
-
-- type: entity
-  parent: ClothingHeadBase
-  id: ClothingHeadHatFlowerWreath
-  name: flower wreath
-  description: A wreath of colourful flowers. Can be worn both on head and neck.
-  components:
-  - type: Sprite
-    sprite: Clothing/Head/Misc/flower-wreath.rsi
-  - type: Clothing
-    sprite: Clothing/Head/Misc/flower-wreath.rsi
-    slots:
-    - HEAD
-    - neck
   - type: Construction
-    graph: flowerwreath
-    node: flowerwreath
+    graph: hairflower
+    node: hairflower
 
 - type: entity
   parent: ClothingHeadLightBase
@@ -92,7 +87,7 @@
         name: power-cell-slot-component-slot-name-default
 
 - type: entity
-  parent: ClothingHeadMiscBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatPwig
   name: pwig
   description: To be honest, those look ridiculous.
@@ -103,7 +98,7 @@
     sprite: Clothing/Head/Misc/pwig.rsi
 
 - type: entity
-  parent: ClothingHeadMiscBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatRichard
   name: richard
   description: 'Do you like hurting people?'
@@ -116,7 +111,7 @@
   - type: IdentityBlocker
 
 - type: entity
-  parent: ClothingHeadMiscBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatSkub
   name: skub hat
   description: 'Best paired with the Skub Suit.'
@@ -129,7 +124,7 @@
   - type: IdentityBlocker
 
 - type: entity
-  parent: ClothingHeadMiscBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatShrineMaidenWig
   name: shrine maiden's wig
   description: The tag reads "All proceeds go to the Hakurei Shrine."
@@ -144,7 +139,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHeadMiscBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatCone
   name: warning cone
   description: This cone is trying to warn you of something!
@@ -158,7 +153,7 @@
       Plastic: 100
 
 - type: entity
-  parent: ClothingHeadMiscBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatFancyCrown
   name: fancy crown
   description: It smells like dead rat. Lets you speak like one!
@@ -173,7 +168,7 @@
     accent: MobsterAccent
 
 - type: entity
-  parent: ClothingHeadMiscBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatCatEars
   name: cat ears
   description: "NYAH!"
@@ -189,7 +184,7 @@
     accent: OwOAccent
 
 - type: entity
-  parent: ClothingHeadMiscBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatDogEars
   name: doggy ears
   description: Only for good boys.
@@ -203,7 +198,7 @@
     accent: BarkAccent
 
 - type: entity
-  parent: ClothingHeadMiscBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatSquid
   name: squiddy
   description: "Scare your friends with this eldritch mask."
@@ -216,7 +211,7 @@
   - type: IdentityBlocker
 
 - type: entity
-  parent: ClothingHeadMiscBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatRedRacoon
   name: red racoon hat
   description: Fluffy hat of red racoon!
@@ -242,8 +237,8 @@
   - type: Clothing
     slots:
     - HEAD
-    - HEAD1
-    - HEAD2
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
   - type: Food
     solution: drink
     useSound: /Audio/Items/drink.ogg
@@ -285,15 +280,3 @@
       - WhitelistChameleon
   - type: StaticPrice
     price: 1
-
-
-- type: entity
-  parent: ClothingHeadMiscBase
-  id: ClothingHeadHatRobocop
-  name: robot cop head
-  description: "A fantastic human with titanic powers! - M. A."
-  components:
-  - type: Sprite
-    sprite: Clothing/Head/Misc/robocophead.rsi
-  - type: Clothing
-    sprite: Clothing/Head/Misc/robocophead.rsi

@@ -1,5 +1,4 @@
 using System.Numerics;
-using Content.Shared.Anomaly.Prototypes;
 using Content.Shared.Damage;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
@@ -95,13 +94,13 @@ public sealed partial class AnomalyComponent : Component
     /// The minimum interval between pulses.
     /// </summary>
     [DataField]
-    public TimeSpan MinPulseLength = TimeSpan.FromMinutes(2);
+    public TimeSpan MinPulseLength = TimeSpan.FromMinutes(1);
 
     /// <summary>
     /// The maximum interval between pulses.
     /// </summary>
     [DataField]
-    public TimeSpan MaxPulseLength = TimeSpan.FromMinutes(4);
+    public TimeSpan MaxPulseLength = TimeSpan.FromMinutes(2);
 
     /// <summary>
     /// A percentage by which the length of a pulse might vary.
@@ -167,12 +166,6 @@ public sealed partial class AnomalyComponent : Component
     [DataField]
     public AnomalousParticleType WeakeningParticleType;
 
-    /// <summary>
-    /// The particle type that change anomaly behaviour.
-    /// </summary>
-    [DataField]
-    public AnomalousParticleType TransformationParticleType;
-
     #region Points and Vessels
     /// <summary>
     /// The vessel that the anomaly is connceted to. Stored so that multiple
@@ -192,7 +185,7 @@ public sealed partial class AnomalyComponent : Component
     /// This doesn't include the point bonus for being unstable.
     /// </summary>
     [DataField("maxPointsPerSecond")]
-    public int MaxPointsPerSecond = 70;
+    public int MaxPointsPerSecond = 80;
 
     /// <summary>
     /// The multiplier applied to the point value for the
@@ -228,31 +221,6 @@ public sealed partial class AnomalyComponent : Component
     [DataField, ViewVariables(VVAccess.ReadWrite)]
     public EntProtoId? CoreInertPrototype;
 
-    #region Behavior Deviations
-
-    [DataField]
-    public ProtoId<AnomalyBehaviorPrototype>? CurrentBehavior;
-
-    /// <summary>
-    /// Presumption of anomaly to change behavior. The higher the number, the higher the chance that the anomaly will change its behavior.
-    /// </summary>
-    [DataField]
-    public float Continuity = 0f;
-
-    /// <summary>
-    /// Minimum contituty probability chance, that can be selected by anomaly on MapInit
-    /// </summary>
-    [DataField]
-    public float MinContituty = 0.1f;
-
-    /// <summary>
-    /// Maximum contituty probability chance, that can be selected by anomaly on MapInit
-    /// </summary>
-    [DataField]
-    public float MaxContituty = 1.0f;
-
-    #endregion
-
     #region Floating Animation
     /// <summary>
     /// How long it takes to go from the bottom of the animation to the top.
@@ -279,13 +247,13 @@ public sealed partial class AnomalyComponent : Component
 /// <param name="Stability"></param>
 /// <param name="Severity"></param>
 [ByRefEvent]
-public readonly record struct AnomalyPulseEvent(EntityUid Anomaly, float Stability, float Severity, float PowerModifier);
+public readonly record struct AnomalyPulseEvent(EntityUid Anomaly, float Stability, float Severity);
 
 /// <summary>
 /// Event raised on an anomaly when it reaches a supercritical point.
 /// </summary>
 [ByRefEvent]
-public readonly record struct AnomalySupercriticalEvent(EntityUid Anomaly, float PowerModifier);
+public readonly record struct AnomalySupercriticalEvent(EntityUid Anomaly);
 
 /// <summary>
 /// Event broadcast after an anomaly goes supercritical
@@ -314,9 +282,3 @@ public readonly record struct AnomalyStabilityChangedEvent(EntityUid Anomaly, fl
 /// <param name="Anomaly">The anomaly being changed</param>
 [ByRefEvent]
 public readonly record struct AnomalyHealthChangedEvent(EntityUid Anomaly, float Health);
-
-/// <summary>
-/// Event broadcast when an anomaly's behavior is changed.
-/// </summary>
-[ByRefEvent]
-public readonly record struct AnomalyBehaviorChangedEvent(EntityUid Anomaly, ProtoId<AnomalyBehaviorPrototype>? Old, ProtoId<AnomalyBehaviorPrototype>? New);

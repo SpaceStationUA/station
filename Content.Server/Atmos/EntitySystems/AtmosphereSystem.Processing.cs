@@ -86,7 +86,7 @@ namespace Content.Server.Atmos.EntitySystems
                 DebugTools.Assert(atmosphere.Tiles.GetValueOrDefault(tile.GridIndices) == tile);
                 UpdateAdjacentTiles(ent, tile, activate: true);
                 UpdateTileAir(ent, tile, volume);
-                InvalidateVisuals(ent, tile);
+                InvalidateVisuals(uid, tile.GridIndices, visuals);
 
                 if (number++ < InvalidCoordinatesLagCheckIterations)
                     continue;
@@ -272,7 +272,7 @@ namespace Content.Server.Atmos.EntitySystems
             tile.Air = new GasMixture(volume){Temperature = Atmospherics.T20C};
 
             if (data.FixVacuum)
-                GridFixTileVacuum(tile);
+                GridFixTileVacuum(ent, tile, volume);
         }
 
         private void QueueRunTiles(
@@ -313,17 +313,15 @@ namespace Content.Server.Atmos.EntitySystems
             return true;
         }
 
-        private bool ProcessActiveTiles(
-            Entity<GridAtmosphereComponent, GasTileOverlayComponent, MapGridComponent, TransformComponent> ent)
+        private bool ProcessActiveTiles(GridAtmosphereComponent atmosphere, GasTileOverlayComponent visuals)
         {
-            var atmosphere = ent.Comp1;
             if(!atmosphere.ProcessingPaused)
                 QueueRunTiles(atmosphere.CurrentRunTiles, atmosphere.ActiveTiles);
 
             var number = 0;
             while (atmosphere.CurrentRunTiles.TryDequeue(out var tile))
             {
-                ProcessCell(ent, tile, atmosphere.UpdateCounter);
+                ProcessCell(atmosphere, tile, atmosphere.UpdateCounter, visuals);
 
                 if (number++ < LagCheckIterations)
                     continue;
@@ -339,10 +337,8 @@ namespace Content.Server.Atmos.EntitySystems
             return true;
         }
 
-        private bool ProcessExcitedGroups(
-            Entity<GridAtmosphereComponent, GasTileOverlayComponent, MapGridComponent, TransformComponent> ent)
+        private bool ProcessExcitedGroups(GridAtmosphereComponent gridAtmosphere)
         {
-            var gridAtmosphere = ent.Comp1;
             if (!gridAtmosphere.ProcessingPaused)
             {
                 gridAtmosphere.CurrentRunExcitedGroups.Clear();
@@ -360,7 +356,7 @@ namespace Content.Server.Atmos.EntitySystems
                 excitedGroup.DismantleCooldown++;
 
                 if (excitedGroup.BreakdownCooldown > Atmospherics.ExcitedGroupBreakdownCycles)
-                    ExcitedGroupSelfBreakdown(ent, excitedGroup);
+                    ExcitedGroupSelfBreakdown(gridAtmosphere, excitedGroup);
                 else if (excitedGroup.DismantleCooldown > Atmospherics.ExcitedGroupsDismantleCycles)
                     DeactivateGroupTiles(gridAtmosphere, excitedGroup);
                 // TODO ATMOS. What is the point of this? why is this only de-exciting the group? Shouldn't it also dismantle it?
@@ -415,17 +411,15 @@ namespace Content.Server.Atmos.EntitySystems
             return true;
         }
 
-        private bool ProcessHotspots(
-            Entity<GridAtmosphereComponent, GasTileOverlayComponent, MapGridComponent, TransformComponent> ent)
+        private bool ProcessHotspots(GridAtmosphereComponent atmosphere)
         {
-            var atmosphere = ent.Comp1;
             if(!atmosphere.ProcessingPaused)
                 QueueRunTiles(atmosphere.CurrentRunTiles, atmosphere.HotspotTiles);
 
             var number = 0;
             while (atmosphere.CurrentRunTiles.TryDequeue(out var hotspot))
             {
-                ProcessHotspot(ent, hotspot);
+                ProcessHotspot(atmosphere, hotspot);
 
                 if (number++ < LagCheckIterations)
                     continue;
@@ -513,11 +507,8 @@ namespace Content.Server.Atmos.EntitySystems
             return num * AtmosTime;
         }
 
-        private bool ProcessAtmosDevices(
-            Entity<GridAtmosphereComponent, GasTileOverlayComponent, MapGridComponent, TransformComponent> ent,
-            Entity<MapAtmosphereComponent?> map)
+        private bool ProcessAtmosDevices(GridAtmosphereComponent atmosphere)
         {
-            var atmosphere = ent.Comp1;
             if (!atmosphere.ProcessingPaused)
             {
                 atmosphere.CurrentRunAtmosDevices.Clear();
@@ -530,7 +521,7 @@ namespace Content.Server.Atmos.EntitySystems
 
             var time = _gameTiming.CurTime;
             var number = 0;
-            var ev = new AtmosDeviceUpdateEvent(RealAtmosTime(), (ent, ent.Comp1, ent.Comp2), map);
+            var ev = new AtmosDeviceUpdateEvent(RealAtmosTime());
             while (atmosphere.CurrentRunAtmosDevices.TryDequeue(out var device))
             {
                 RaiseLocalEvent(device, ref ev);
@@ -574,11 +565,12 @@ namespace Content.Server.Atmos.EntitySystems
                 var ent = _currentRunAtmosphere[_currentRunAtmosphereIndex];
                 var (owner, atmosphere, visuals, grid, xform) = ent;
 
-                if (xform.MapUid == null
-                    || TerminatingOrDeleted(xform.MapUid.Value)
-                    || xform.MapID == MapId.Nullspace)
+                if (!TryComp(owner, out TransformComponent? x)
+                    || x.MapUid == null
+                    || TerminatingOrDeleted(x.MapUid.Value)
+                    || x.MapID == MapId.Nullspace)
                 {
-                    Log.Error($"Attempted to process atmos without a map? Entity: {ToPrettyString(owner)}. Map: {ToPrettyString(xform?.MapUid)}. MapId: {xform?.MapID}");
+                    Log.Error($"Attempted to process atmos without a map? Entity: {ToPrettyString(owner)}. Map: {ToPrettyString(x?.MapUid)}. MapId: {x?.MapID}");
                     continue;
                 }
 
@@ -592,8 +584,6 @@ namespace Content.Server.Atmos.EntitySystems
 
                 // We subtract it so it takes lost time into account.
                 atmosphere.Timer -= AtmosTime;
-
-                var map = new Entity<MapAtmosphereComponent?>(xform.MapUid.Value, _mapAtmosQuery.CompOrNull(xform.MapUid.Value));
 
                 switch (atmosphere.State)
                 {
@@ -624,7 +614,7 @@ namespace Content.Server.Atmos.EntitySystems
                         atmosphere.State = AtmosphereProcessingState.ActiveTiles;
                         continue;
                     case AtmosphereProcessingState.ActiveTiles:
-                        if (!ProcessActiveTiles(ent))
+                        if (!ProcessActiveTiles(ent, ent))
                         {
                             atmosphere.ProcessingPaused = true;
                             return;
@@ -635,7 +625,7 @@ namespace Content.Server.Atmos.EntitySystems
                         atmosphere.State = ExcitedGroups ? AtmosphereProcessingState.ExcitedGroups : AtmosphereProcessingState.HighPressureDelta;
                         continue;
                     case AtmosphereProcessingState.ExcitedGroups:
-                        if (!ProcessExcitedGroups(ent))
+                        if (!ProcessExcitedGroups(atmosphere))
                         {
                             atmosphere.ProcessingPaused = true;
                             return;
@@ -655,7 +645,7 @@ namespace Content.Server.Atmos.EntitySystems
                         atmosphere.State = AtmosphereProcessingState.Hotspots;
                         continue;
                     case AtmosphereProcessingState.Hotspots:
-                        if (!ProcessHotspots(ent))
+                        if (!ProcessHotspots(atmosphere))
                         {
                             atmosphere.ProcessingPaused = true;
                             return;
@@ -690,7 +680,7 @@ namespace Content.Server.Atmos.EntitySystems
                         atmosphere.State = AtmosphereProcessingState.AtmosDevices;
                         continue;
                     case AtmosphereProcessingState.AtmosDevices:
-                        if (!ProcessAtmosDevices(ent, map))
+                        if (!ProcessAtmosDevices(atmosphere))
                         {
                             atmosphere.ProcessingPaused = true;
                             return;

@@ -28,23 +28,23 @@ public sealed class MonkeyAccentSystem : EntitySystem
                 {
                     foreach (var _ in word)
                     {
-                        accentedMessage.Append('А');
+                        accentedMessage.Append('O');
                     }
 
                     if (_random.NextDouble() >= 0.3)
-                        accentedMessage.Append('У');
+                        accentedMessage.Append('K');
                 }
                 else
-                    accentedMessage.Append('А');
+                    accentedMessage.Append('O');
             }
             else
             {
                 foreach (var _ in word)
                 {
                     if (_random.NextDouble() >= 0.8)
-                        accentedMessage.Append('О');
+                        accentedMessage.Append('H');
                     else
-                        accentedMessage.Append('У');
+                        accentedMessage.Append('A');
                 }
 
             }

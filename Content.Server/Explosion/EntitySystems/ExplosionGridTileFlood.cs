@@ -271,7 +271,7 @@ public sealed class ExplosionGridTileFlood : ExplosionTileFlood
                 var direction = (AtmosDirection) (1 << i);
                 if (ignoreTileBlockers || !blockedDirections.IsFlagSet(direction))
                 {
-                    ProcessNewTile(iteration, tile.Offset(direction), i.ToOppositeDir());
+                    ProcessNewTile(iteration, tile.Offset(direction), direction.GetOpposite());
                 }
             }
 
@@ -300,7 +300,7 @@ public sealed class ExplosionGridTileFlood : ExplosionTileFlood
                 var direction = (AtmosDirection) (1 << i);
                 if (blockedDirections.IsFlagSet(direction))
                 {
-                    list.Add((tile.Offset(direction), i.ToOppositeDir()));
+                    list.Add((tile.Offset(direction), direction.GetOpposite()));
                 }
             }
         }

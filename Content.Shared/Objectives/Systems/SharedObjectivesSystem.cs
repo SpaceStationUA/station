@@ -1,7 +1,6 @@
 using Content.Shared.Mind;
 using Content.Shared.Objectives;
 using Content.Shared.Objectives.Components;
-using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 
 namespace Content.Shared.Objectives.Systems;
@@ -12,7 +11,6 @@ namespace Content.Shared.Objectives.Systems;
 public abstract class SharedObjectivesSystem : EntitySystem
 {
     [Dependency] private readonly SharedMindSystem _mind = default!;
-    [Dependency] private readonly IPrototypeManager _protoMan = default!;
 
     private EntityQuery<MetaDataComponent> _metaQuery;
 
@@ -57,9 +55,6 @@ public abstract class SharedObjectivesSystem : EntitySystem
     /// </summary>
     public EntityUid? TryCreateObjective(EntityUid mindId, MindComponent mind, string proto)
     {
-        if (!_protoMan.HasIndex<EntityPrototype>(proto))
-            return null;
-
         var uid = Spawn(proto);
         if (!TryComp<ObjectiveComponent>(uid, out var comp))
         {

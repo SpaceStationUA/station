@@ -108,7 +108,6 @@
 - type: entity
   parent: BasePDA
   id: BaseMedicalPDA
-  abstract: true
   components:
   - type: HealthAnalyzer
     scanDelay: 1
@@ -1137,7 +1136,7 @@
       whitelist:
         components:
           - Cartridge
-
+#PIRATE START UNTIL END OF FILE
 - type: entity
   parent: BasePDA
   id: BlueshieldPDA

@@ -114,19 +114,6 @@
         damage:
           types:
             Poison: 1
-      - !type:ChemCauseRandomDisease
-        conditions:
-        - !type:ReagentThreshold
-          reagent: Mold
-          min: 1
-        diseases:
-          - VentCough
-          - SpaceCold
-          - SpaceFlu
-          - BirdFlew
-          - Plague
-          - TongueTwister
-          - MemeticAmirmir
 
 - type: reagent
   id: PolytrinicAcid
@@ -443,12 +430,11 @@
   color: "#D6CE7B"
   metabolisms:
     Poison:
-      metabolismRate: 0.2
       effects:
       - !type:HealthChange
         damage:
           types:
-            Poison: 3
+            Poison: 6
 
 - type: reagent
   id: VentCrud
@@ -465,9 +451,6 @@
           damage:
             types:
               Poison: 2
-        - !type:ChemCauseDisease ##Since this mostly just comes from the event you won't ingest that much
-          causeChance: 0.6
-          disease: VentCough
 
 - type: reagent
   id: Romerol
@@ -589,9 +572,7 @@
         damage:
           types:
             Poison: 0.06
-      - !type:ChemCauseDisease
-          causeChance: 1
-          disease: ActiveHonkVirus ##makes target honk and potential chance to be cluwned.
+
 
 - type: reagent
   id: Lead

@@ -89,7 +89,7 @@ namespace Content.Shared.Containers.ItemSlots
         /// </summary>
         public void AddItemSlot(EntityUid uid, string id, ItemSlot slot, ItemSlotsComponent? itemSlots = null)
         {
-            itemSlots ??= EnsureComp<ItemSlotsComponent>(uid);
+            itemSlots ??= EntityManager.EnsureComponent<ItemSlotsComponent>(uid);
             DebugTools.AssertOwner(uid, itemSlots);
 
             if (itemSlots.Slots.TryGetValue(id, out var existing))
@@ -103,7 +103,7 @@ namespace Content.Shared.Containers.ItemSlots
 
             slot.ContainerSlot = _containers.EnsureContainer<ContainerSlot>(uid, id);
             itemSlots.Slots[id] = slot;
-            Dirty(uid, itemSlots);
+            Dirty(itemSlots);
         }
 
         /// <summary>
@@ -127,7 +127,7 @@ namespace Content.Shared.Containers.ItemSlots
             if (itemSlots.Slots.Count == 0)
                 EntityManager.RemoveComponent(uid, itemSlots);
             else
-                Dirty(uid, itemSlots);
+                Dirty(itemSlots);
         }
 
         public bool TryGetSlot(EntityUid uid, string slotId, [NotNullWhen(true)] out ItemSlot? itemSlot, ItemSlotsComponent? component = null)
@@ -279,7 +279,7 @@ namespace Content.Shared.Containers.ItemSlots
             if (ev.Cancelled)
                 return false;
 
-            return _containers.CanInsert(usedUid, slot.ContainerSlot, assumeEmpty: swap);
+            return _containers.CanInsert(usedUid, slot.ContainerSlot, assumeEmpty: true);
         }
 
         /// <summary>

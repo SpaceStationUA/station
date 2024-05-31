@@ -46,15 +46,16 @@
       path: /Maps/Shuttles/cargo.yml
     - type: GridSpawn
       groups:
-#        trade:
-#          addComponents:
-#          - type: ProtectedGrid
-#          - type: TradeStation
-#          paths:
-#          - /Maps/Shuttles/trading_outpost.yml
+        trade:
+          addComponents:
+          - type: ProtectedGrid
+          # If you comment out the tradestation, make sure to also set cargo.tradestation_spawns_in_ftl_map to TRUE
+          - type: TradeStation
+          paths:
+          - /Maps/Shuttles/trading_outpost.yml
         mining:
           paths:
-          - /Maps/Shuttles/shuttle_salvage.yml
+          - /Maps/Shuttles/shuttle_salvage.yml #PIRATE
         # Spawn last
         ruins:
           hide: true
@@ -82,7 +83,7 @@
           - /Maps/Shuttles/cargo_core.yml
         mining:
           paths:
-          - /Maps/Shuttles/shuttle_salvage.yml
+          - /Maps/Shuttles/shuttle_salvage.yml #PIRATE
         ruins:
           hide: true
           nameGrid: true

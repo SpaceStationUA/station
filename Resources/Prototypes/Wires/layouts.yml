@@ -87,7 +87,6 @@
   id: Arcade
   wires:
   - !type:PowerWireAction
-  - !type:SpeechWireAction
   - !type:ArcadeOverflowWireAction
   - !type:ArcadePlayerInvincibleWireAction
   - !type:ArcadeEnemyInvincibleWireAction
@@ -147,6 +146,3 @@
     - !type:DelayWireAction
     - !type:ProceedWireAction
     - !type:BoomWireAction
-
-- type: wireLayout
-  id: medipen_refiller

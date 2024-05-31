@@ -19,13 +19,11 @@ public sealed partial class MageProjectileSpellEvent : WorldTargetActionEvent, I
     /// </summary>
     [DataField("posData")] public MagicSpawnData Pos = new TargetCasterPos();
 
-    [DataField("speech")]
-    public string? Speech { get; set;}
+    [DataField("speech")] public string? Speech { get; set; }
 
     /// <summary>
     /// How much mana should be drained.
     /// </summary>
     [DataField("manaCost")]
     public float ManaCost = 30f;
-
 }

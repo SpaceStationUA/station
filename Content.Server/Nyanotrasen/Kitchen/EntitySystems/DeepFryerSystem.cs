@@ -15,10 +15,8 @@ using Content.Server.Nyanotrasen.Kitchen.Components;
 using Content.Server.Popups;
 using Content.Server.Power.Components;
 using Content.Server.Power.EntitySystems;
-using Content.Server.Storage.EntitySystems;
 using Content.Server.Temperature.Components;
 using Content.Server.Temperature.Systems;
-using Content.Server.UserInterface;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Components.SolutionManager;
 using Content.Shared.Chemistry.EntitySystems;
@@ -45,7 +43,6 @@ using Content.Shared.Nyanotrasen.Kitchen.UI;
 using Content.Shared.Popups;
 using Content.Shared.Throwing;
 using Content.Shared.UserInterface;
-using FastAccessors;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
@@ -89,7 +86,7 @@ public sealed partial class DeepFryerSystem : SharedDeepfryerSystem
     private static readonly string MobFlavorMeat = "meaty";
 
     private static readonly AudioParams
-        AudioParamsInsertRemove = new(0.5f, 1f, 5f, 1.5f, 1f, false, 0f, 0.2f);
+        AudioParamsInsertRemove = new(0.5f, 1f, "Master", 5f, 1.5f, 1f, false, 0f, 0.2f);
 
     private ISawmill _sawmill = default!;
 
@@ -502,7 +499,6 @@ public sealed partial class DeepFryerSystem : SharedDeepfryerSystem
     private void OnRelayMovement(EntityUid uid, DeepFryerComponent component,
         ref ContainerRelayMovementEntityEvent args)
     {
-
         if (!_containerSystem.Remove(args.Entity, component.Storage, destination: Transform(uid).Coordinates))
             return;
 

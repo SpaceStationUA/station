@@ -21,7 +21,6 @@ using Robust.Shared.Timing;
 using Content.Server.Mind;
 using Content.Shared.Actions.Events;
 using Content.Shared.Chemistry.EntitySystems;
-using Content.Server.Chemistry.Containers.EntitySystems;
 using Robust.Server.Audio;
 
 namespace Content.Server.Abilities.Psionics
@@ -40,6 +39,7 @@ namespace Content.Server.Abilities.Psionics
         [Dependency] private readonly IGameTiming _gameTiming = default!;
         [Dependency] private readonly MindSystem _mindSystem = default!;
         [Dependency] private readonly ExamineSystemShared _examine = default!;
+
 
         public override void Initialize()
         {

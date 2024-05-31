@@ -1,37 +1,35 @@
 using Robust.Shared.GameStates;
-using Robust.Shared.Serialization;
-using Content.Shared.Actions;
-using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
-// using Content.Shared.Actions;
+using Robust.Shared.Serialization; //PIRATE
+using Content.Shared.Actions; //PIRATE
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype; //PIRATE
+
 using Robust.Shared.Prototypes;
 
 namespace Content.Shared.Emoting;
 
-// [Serializable, NetSerializable]
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
 public sealed partial class EmotingComponent : Component
 {
     [DataField, AutoNetworkedField]
     [Access(typeof(EmoteSystem), Friend = AccessPermissions.ReadWrite, Other = AccessPermissions.Read)]
     public bool Enabled = true;
-
+    
     /// <summary>
-    /// Open emotes action id
+    /// PIRATE Open emotes action id
     /// </summary>
     [DataField("openEmotesAction", customTypeSerializer: typeof(PrototypeIdSerializer<EntityPrototype>))]
     public string OpenEmotesAction = "OpenEmotes";
 
     /// <summary>
-    /// Used for open emote menu action button
+    /// PIRATE Used for open emote menu action button
     /// </summary>
     // [DataField("action")]
     // public string? Action = ;
 
     [DataField("openEmotesActionEntity")] public EntityUid? ActionEntity;
-
-
 }
 
+//PIRATE START
 [Serializable, NetSerializable]
 public sealed partial class RequestEmoteMenuEvent : EntityEventArgs
 {
@@ -60,3 +58,4 @@ public sealed partial class SelectEmoteEvent : EntityEventArgs
 public sealed partial class OpenEmotesActionEvent : InstantActionEvent
 {
 }
+//PIRATE END

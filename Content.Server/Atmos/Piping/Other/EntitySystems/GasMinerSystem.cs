@@ -38,9 +38,9 @@ namespace Content.Server.Atmos.Piping.Other.EntitySystems
         private bool CheckMinerOperation(Entity<GasMinerComponent> ent, [NotNullWhen(true)] out GasMixture? environment)
         {
             var (uid, miner) = ent;
-            var transform = Transform(uid);
-            environment = _atmosphereSystem.GetContainingMixture((uid, transform), true, true);
+            environment = _atmosphereSystem.GetContainingMixture(uid, true, true);
 
+            var transform = Transform(uid);
             var position = _transformSystem.GetGridOrMapTilePosition(uid, transform);
 
             // Space.

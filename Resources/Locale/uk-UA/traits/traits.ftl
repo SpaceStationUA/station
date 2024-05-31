@@ -6,9 +6,6 @@ trait-narcolepsy-decs = Ви раптово засинаєте
 
 trait-pacifist-name = Пацифіст
 
-trait-sneezing-name = Хворий ніс
-trait-sneezing-desc = Ви неконтрольовано чхаєте та кашляєте
-
 permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} очі скляні та розфокусовані. Не схоже що {SUBJECT($target)} може бачити вас.[/color]
 
 trait-lightweight-name = Легкий Алкоголізм

@@ -281,19 +281,6 @@
     access: [ [ "ResearchDirector" ] ]
 
 - type: entity
-  id: LockerRobotics
-  parent: LockerBase
-  name: roboticist locker
-  components:
-  - type: Appearance
-  - type: EntityStorageVisuals
-    stateBaseClosed: robotics
-    stateDoorOpen: robotics_open
-    stateDoorClosed: robotics_door
-  - type: AccessReader
-    access: [ [ "Robotics" ] ]
-
-- type: entity
   id: LockerScientist
   parent: LockerBase
   name: scientist's locker
@@ -474,3 +461,16 @@
     stateBaseClosed: hop
     stateDoorOpen: hop_open
     stateDoorClosed: representative_door
+#PIRATE START UNTIL END OF FILE
+- type: entity
+  id: LockerRobotics
+  parent: LockerBase
+  name: roboticist locker
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: robotics
+    stateDoorOpen: robotics_open
+    stateDoorClosed: robotics_door
+  - type: AccessReader
+    access: [ [ "Robotics" ] ]

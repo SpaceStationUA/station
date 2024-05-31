@@ -84,17 +84,8 @@ namespace Content.Server.Power.EntitySystems
             while (query.MoveNext(out var uid, out var comp, out var batt))
             {
                 if (!comp.AutoRecharge) continue;
-
-                if (comp.AutoRechargeRate > 0)
-                {
-                    if (batt.IsFullyCharged) continue;
-                    SetCharge(uid, batt.CurrentCharge + comp.AutoRechargeRate * frameTime, batt);
-                }
-                if (comp.AutoRechargeRate < 0) //self discharging
-                {
-                    if (batt.CurrentCharge == 0) continue;
-                    UseCharge(uid, -comp.AutoRechargeRate * frameTime, batt);
-                }
+                if (batt.IsFullyCharged) continue;
+                SetCharge(uid, batt.CurrentCharge + comp.AutoRechargeRate * frameTime, batt);
             }
         }
 

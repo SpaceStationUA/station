@@ -4,7 +4,6 @@ using Content.Server.Cargo.Components;
 using Content.Server.Labels;
 using Content.Server.NameIdentifier;
 using Content.Server.Paper;
-using Content.Server.Station.Systems;
 using Content.Shared.Cargo;
 using Content.Shared.Cargo.Components;
 using Content.Shared.Cargo.Prototypes;
@@ -66,17 +65,16 @@ public sealed partial class CargoSystem
 
         var label = Spawn(component.BountyLabelId, Transform(uid).Coordinates);
         component.NextPrintTime = _timing.CurTime + component.PrintDelay;
-        SetupBountyLabel(label, station, bounty.Value);
+        SetupBountyLabel(label, bounty.Value);
         _audio.PlayPvs(component.PrintSound, uid);
     }
 
-    public void SetupBountyLabel(EntityUid uid, EntityUid stationId, CargoBountyData bounty, PaperComponent? paper = null, CargoBountyLabelComponent? label = null)
+    public void SetupBountyLabel(EntityUid uid, CargoBountyData bounty, PaperComponent? paper = null, CargoBountyLabelComponent? label = null)
     {
         if (!Resolve(uid, ref paper, ref label) || !_protoMan.TryIndex<CargoBountyPrototype>(bounty.Bounty, out var prototype))
             return;
 
         label.Id = bounty.Id;
-        label.AssociatedStationId = stationId;
         var msg = new FormattedMessage();
         msg.AddText(Loc.GetString("bounty-manifest-header", ("id", bounty.Id)));
         msg.PushNewline();
@@ -105,7 +103,7 @@ public sealed partial class CargoSystem
         if (!_container.TryGetContainingContainer(uid, out var container) || container.ID != LabelSystem.ContainerName)
             return;
 
-        if (component.AssociatedStationId is not { } station || !TryComp<StationCargoBountyDatabaseComponent>(station, out var database))
+        if (_station.GetOwningStation(uid) is not { } station || !TryComp<StationCargoBountyDatabaseComponent>(station, out var database))
             return;
 
         if (database.CheckedBounties.Contains(component.Id))
@@ -133,18 +131,14 @@ public sealed partial class CargoSystem
             if (!TryGetBountyLabel(sold, out _, out var component))
                 continue;
 
-            if (component.AssociatedStationId is not { } station || !TryGetBountyFromId(station, component.Id, out var bounty))
-            {
+            if (!TryGetBountyFromId(args.Station, component.Id, out var bounty))
                 continue;
-            }
 
             if (!IsBountyComplete(sold, bounty.Value))
-            {
                 continue;
-            }
 
-            TryRemoveBounty(station, bounty.Value);
-            FillBountyDatabase(station);
+            TryRemoveBounty(args.Station, bounty.Value);
+            FillBountyDatabase(args.Station);
             _adminLogger.Add(LogType.Action, LogImpact.Low, $"Bounty \"{bounty.Value.Bounty}\" (id:{bounty.Value.Id}) was fulfilled");
         }
     }
@@ -202,7 +196,7 @@ public sealed partial class CargoSystem
         FillBountyDatabase(entity);
     }
 
-    public bool IsBountyComplete(EntityUid container, out HashSet<EntityUid> bountyEntities)
+    public bool IsBountyComplete(EntityUid container, EntityUid? station, out HashSet<EntityUid> bountyEntities)
     {
         if (!TryGetBountyLabel(container, out _, out var component))
         {
@@ -210,7 +204,7 @@ public sealed partial class CargoSystem
             return false;
         }
 
-        var station = component.AssociatedStationId;
+        station ??= _station.GetOwningStation(container);
         if (station == null)
         {
             bountyEntities = new();
@@ -231,7 +225,7 @@ public sealed partial class CargoSystem
         return IsBountyComplete(container, data, out _);
     }
 
-    public bool IsBountyComplete(EntityUid container, CargoBountyData data, out HashSet<EntityUid> bountyEntities)
+    public bool IsBountyComplete(EntityUid container, CargoBountyData data,  out HashSet<EntityUid> bountyEntities)
     {
         if (!_protoMan.TryIndex(data.Bounty, out var proto))
         {
@@ -320,7 +314,7 @@ public sealed partial class CargoSystem
                 var children = GetBountyEntities(ent);
                 foreach (var child in children)
                 {
-                    entities.Add(child);
+                 entities.Add(child);
                 }
             }
         }

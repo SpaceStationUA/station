@@ -18,6 +18,7 @@ namespace Content.Server.Spreader;
 /// </summary>
 public sealed class SpreaderSystem : EntitySystem
 {
+    [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly IPrototypeManager _prototype = default!;
     [Dependency] private readonly IRobustRandom _robustRandom = default!;
     [Dependency] private readonly SharedMapSystem _map = default!;
@@ -231,9 +232,10 @@ public sealed class SpreaderSystem : EntitySystem
         // Add the normal neighbors.
         for (var i = 0; i < 4; i++)
         {
-            var atmosDir = (AtmosDirection) (1 << i);
-            var neighborPos = tile.Offset(atmosDir);
-            neighborTiles.Add((comp.GridUid.Value, grid, neighborPos, atmosDir, i.ToOppositeDir()));
+            var direction = (Direction) (i * 2);
+            var atmosDir = direction.ToAtmosDirection();
+            var neighborPos = SharedMapSystem.GetDirection(tile, direction);
+            neighborTiles.Add((comp.GridUid.Value, grid, neighborPos, atmosDir, atmosDir.GetOpposite()));
         }
 
         foreach (var (neighborEnt, neighborGrid, neighborPos, ourAtmosDir, otherAtmosDir) in neighborTiles)

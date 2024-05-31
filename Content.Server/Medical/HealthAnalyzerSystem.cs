@@ -14,10 +14,6 @@ using Robust.Server.GameObjects;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.Player;
-using Content.Server.Disease;
-using Content.Server.Popups;
-using Content.Server.UserInterface;
-using Content.Shared.IdentityManagement;
 using Robust.Shared.Timing;
 
 namespace Content.Server.Medical;
@@ -52,12 +48,6 @@ public sealed class HealthAnalyzerSystem : EntitySystem
 
             if (component.ScannedEntity is not {} patient)
                 continue;
-
-            if (Deleted(patient))
-            {
-                StopAnalyzingEntity((uid, component), patient);
-                continue;
-            }
 
             component.NextUpdate = _timing.CurTime + component.UpdateInterval;
 

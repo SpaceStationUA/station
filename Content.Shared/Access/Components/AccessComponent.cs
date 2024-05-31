@@ -20,17 +20,17 @@ public sealed partial class AccessComponent : Component
     [AutoNetworkedField]
     public bool Enabled = true;
 
-    [DataField]
+    [DataField(customTypeSerializer: typeof(PrototypeIdHashSetSerializer<AccessLevelPrototype>))]
     [Access(typeof(SharedAccessSystem), Other = AccessPermissions.ReadExecute)] // FIXME Friends
     [AutoNetworkedField]
-    public HashSet<ProtoId<AccessLevelPrototype>> Tags = new();
+    public HashSet<string> Tags = new();
 
     /// <summary>
     /// Access Groups. These are added to the tags during map init. After map init this will have no effect.
     /// </summary>
-    [DataField(readOnly: true)]
+    [DataField(readOnly: true, customTypeSerializer: typeof(PrototypeIdHashSetSerializer<AccessGroupPrototype>))]
     [AutoNetworkedField]
-    public HashSet<ProtoId<AccessGroupPrototype>> Groups = new();
+    public HashSet<string> Groups = new();
 }
 
 /// <summary>
@@ -47,9 +47,9 @@ public struct GetAdditionalAccessEvent
 }
 
 [ByRefEvent]
-public record struct GetAccessTagsEvent(HashSet<ProtoId<AccessLevelPrototype>> Tags, IPrototypeManager PrototypeManager)
+public record struct GetAccessTagsEvent(HashSet<string> Tags, IPrototypeManager PrototypeManager)
 {
-    public void AddGroup(ProtoId<AccessGroupPrototype> group)
+    public void AddGroup(string group)
     {
         if (!PrototypeManager.TryIndex<AccessGroupPrototype>(group, out var groupPrototype))
             return;

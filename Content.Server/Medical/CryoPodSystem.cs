@@ -258,7 +258,10 @@ public sealed partial class CryoPodSystem : SharedCryoPodSystem
 
     private void OnCryoPodUpdateAtmosphere(Entity<CryoPodComponent> entity, ref AtmosDeviceUpdateEvent args)
     {
-        if (!_nodeContainer.TryGetNode(entity.Owner, entity.Comp.PortName, out PortablePipeNode? portNode))
+        if (!TryComp(entity, out NodeContainerComponent? nodeContainer))
+            return;
+
+        if (!_nodeContainer.TryGetNode(nodeContainer, entity.Comp.PortName, out PortablePipeNode? portNode))
             return;
 
         if (!TryComp(entity, out CryoPodAirComponent? cryoPodAir))
@@ -277,10 +280,14 @@ public sealed partial class CryoPodSystem : SharedCryoPodSystem
         if (!TryComp(entity, out CryoPodAirComponent? cryoPodAir))
             return;
 
-        args.GasMixtures ??= new Dictionary<string, GasMixture?> { { Name(entity.Owner), cryoPodAir.Air } };
+        var gasMixDict = new Dictionary<string, GasMixture?> { { Name(entity.Owner), cryoPodAir.Air } };
         // If it's connected to a port, include the port side
-        if (_nodeContainer.TryGetNode(entity.Owner, entity.Comp.PortName, out PipeNode? port))
-            args.GasMixtures.Add(entity.Comp.PortName, port.Air);
+        if (TryComp(entity, out NodeContainerComponent? nodeContainer))
+        {
+            if (_nodeContainer.TryGetNode(nodeContainer, entity.Comp.PortName, out PipeNode? port))
+                gasMixDict.Add(entity.Comp.PortName, port.Air);
+        }
+        args.GasMixtures = gasMixDict;
     }
 
     private void OnEjected(Entity<CryoPodComponent> cryoPod, ref EntRemovedFromContainerMessage args)
