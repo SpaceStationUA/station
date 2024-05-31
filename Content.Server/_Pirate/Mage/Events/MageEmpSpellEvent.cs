@@ -8,9 +8,8 @@ namespace Content.Server._Pirate.Mage.Events;
 
 public sealed partial class MageEmpSpellEvent : InstantActionEvent, ISpeakSpell
 {
-
     [DataField("speech")]
-    public string? Speech { get; set;}
+    public string? Speech { get; set; }
 
     /// <summary>
     /// How much mana should be drained.
@@ -35,6 +34,4 @@ public sealed partial class MageEmpSpellEvent : InstantActionEvent, ISpeakSpell
     /// </summary>
     [DataField("empDuration")]
     public float EmpDuration = 20f;
-
-
 }

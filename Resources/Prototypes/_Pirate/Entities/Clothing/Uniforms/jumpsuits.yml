@@ -11,17 +11,6 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: ClothingUniformSwimsuitBlue
-  name: синій купальник
-  description: A blue beach swimsuit. Fits snugly to the body and is quite closed
-  components:
-  - type: Sprite
-    sprite: _Pirate/Clothing/Uniforms/Swimsuits/blue.rsi
-  - type: Clothing
-    sprite: _Pirate/Clothing/Uniforms/Swimsuits/blue.rsi
-
-- type: entity
-  parent: ClothingUniformBase
   id: ClothingUniformSwimsuitRed
   name: червоний купальник
   description: A red beach swimsuit. It looks pretty cliched

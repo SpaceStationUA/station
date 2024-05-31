@@ -50,9 +50,9 @@
     solution: ammo
   - type: InjectableSolution
     solution: ammo
-  - type: SolutionInjectOnEmbed
+  - type: SolutionInjectOnCollide
     transferAmount: 2
-    solution: ammo
+    blockSlots: NONE
   - type: SolutionTransfer
     maxTransferAmount: 2
   - type: Appearance

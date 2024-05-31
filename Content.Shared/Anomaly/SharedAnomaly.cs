@@ -33,7 +33,6 @@ public enum AnomalousParticleType : byte
     Delta,
     Epsilon,
     Zeta,
-    Sigma,
     Default
 }
 

@@ -32,3 +32,26 @@
         - ResearchDirector
   items:
     - ClothingOuterWinterRD
+
+- type: loadout
+  id: LoadoutCommandRDOuterMysta
+  category: Jobs
+  cost: 2
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - ResearchDirector
+  items:
+    - ClothingOuterCoatRndMysta
+
+- type: loadout
+  id: LoadoutCommandRDShoesBootsWinter
+  category: Jobs
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:LoadoutJobRequirement
+      jobs:
+        - ResearchDirector
+  items:
+    - ClothingShoesBootsWinterMystagogue

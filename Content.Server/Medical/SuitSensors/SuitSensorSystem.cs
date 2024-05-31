@@ -9,6 +9,7 @@ using Content.Server.Popups;
 using Content.Server.Station.Systems;
 using Content.Shared.Damage;
 using Content.Shared.DeviceNetwork;
+using Content.Shared.Emp;
 using Content.Shared.Examine;
 using Content.Shared.Inventory.Events;
 using Content.Shared.Medical.SuitSensor;
@@ -26,6 +27,7 @@ public sealed class SuitSensorSystem : EntitySystem
 {
     [Dependency] private readonly IGameTiming _gameTiming = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
+    [Dependency] private readonly CrewMonitoringServerSystem _monitoringServerSystem = default!;
     [Dependency] private readonly DeviceNetworkSystem _deviceNetworkSystem = default!;
     [Dependency] private readonly IdCardSystem _idCardSystem = default!;
     [Dependency] private readonly MobStateSystem _mobStateSystem = default!;
@@ -33,7 +35,6 @@ public sealed class SuitSensorSystem : EntitySystem
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly StationSystem _stationSystem = default!;
     [Dependency] private readonly SingletonDeviceNetServerSystem _singletonServerSystem = default!;
-    [Dependency] private readonly MobThresholdSystem _mobThresholdSystem = default!;
 
     public override void Initialize()
     {
@@ -71,6 +72,11 @@ public sealed class SuitSensorSystem : EntitySystem
 
             // TODO: This would cause imprecision at different tick rates.
             sensor.NextUpdate = curTime + sensor.UpdateRate;
+
+            var canEv = new SuitSensorsSendAttemptEvent();
+            RaiseLocalEvent(uid, ref canEv);
+            if (canEv.Cancelled)
+                continue;
 
             // get sensor status
             var status = GetSensorState(uid, sensor);
@@ -345,11 +351,6 @@ public sealed class SuitSensorSystem : EntitySystem
         if (TryComp<DamageableComponent>(sensor.User.Value, out var damageable))
             totalDamage = damageable.TotalDamage.Int();
 
-        // Get mob total damage crit threshold
-        int? totalDamageThreshold = null;
-        if (_mobThresholdSystem.TryGetThresholdForState(sensor.User.Value, Shared.Mobs.MobState.Critical, out var critThreshold))
-            totalDamageThreshold = critThreshold.Value.Int();
-
         // finally, form suit sensor status
         var status = new SuitSensorStatus(GetNetEntity(uid), userName, userJob, userJobIcon, userJobDepartments);
         switch (sensor.Mode)
@@ -360,12 +361,10 @@ public sealed class SuitSensorSystem : EntitySystem
             case SuitSensorMode.SensorVitals:
                 status.IsAlive = isAlive;
                 status.TotalDamage = totalDamage;
-                status.TotalDamageThreshold = totalDamageThreshold;
                 break;
             case SuitSensorMode.SensorCords:
                 status.IsAlive = isAlive;
                 status.TotalDamage = totalDamage;
-                status.TotalDamageThreshold = totalDamageThreshold;
                 EntityCoordinates coordinates;
                 var xformQuery = GetEntityQuery<TransformComponent>();
 
@@ -410,8 +409,6 @@ public sealed class SuitSensorSystem : EntitySystem
 
         if (status.TotalDamage != null)
             payload.Add(SuitSensorConstants.NET_TOTAL_DAMAGE, status.TotalDamage);
-        if (status.TotalDamageThreshold != null)
-            payload.Add(SuitSensorConstants.NET_TOTAL_DAMAGE_THRESHOLD, status.TotalDamageThreshold);
         if (status.Coordinates != null)
             payload.Add(SuitSensorConstants.NET_COORDINATES, status.Coordinates);
 
@@ -439,14 +436,12 @@ public sealed class SuitSensorSystem : EntitySystem
 
         // try get total damage and cords (optionals)
         payload.TryGetValue(SuitSensorConstants.NET_TOTAL_DAMAGE, out int? totalDamage);
-        payload.TryGetValue(SuitSensorConstants.NET_TOTAL_DAMAGE_THRESHOLD, out int? totalDamageThreshold);
         payload.TryGetValue(SuitSensorConstants.NET_COORDINATES, out NetCoordinates? coords);
 
         var status = new SuitSensorStatus(suitSensorUid, name, job, jobIcon, jobDepartments)
         {
             IsAlive = isAlive.Value,
             TotalDamage = totalDamage,
-            TotalDamageThreshold = totalDamageThreshold,
             Coordinates = coords,
         };
         return status;

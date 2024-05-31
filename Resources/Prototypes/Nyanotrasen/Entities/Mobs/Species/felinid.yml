@@ -5,6 +5,8 @@
   id: MobFelinidBase
   abstract: true
   components:
+  - type: Sprite
+    scale: 0.8, 0.8
   - type: HumanoidAppearance
     species: Felinid
   - type: Fixtures
@@ -62,7 +64,6 @@
       Unsexed: MaleFelinid
   - type: Felinid
   - type: NoShoesSilentFootsteps
-  - type: NyaAccent
 
 - type: entity
   save: false

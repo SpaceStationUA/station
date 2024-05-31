@@ -1,17 +1,14 @@
-using Content.Shared.Alert;
 using Content.Shared._Pirate.Mage.Components;
-using System.Threading.Tasks;
+using Content.Shared.Alert;
 using Content.Shared.FixedPoint;
 using Content.Shared.Popups;
-
 
 namespace Content.Server._Pirate.Mage.EntitySystems;
 
 public sealed class MageManaSystem : EntitySystem
 {
-
-    [Dependency] private readonly IEntityManager _entity = default!;
     [Dependency] private readonly AlertsSystem _alerts = default!;
+    [Dependency] private readonly IEntityManager _entity = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
 
     private readonly Dictionary<ManaThreshold, string> _powerDictionary;
@@ -57,7 +54,7 @@ public sealed class MageManaSystem : EntitySystem
     }
 
     /// <summary>
-    ///    Sets the alert level of a shadowkin.
+    ///     Sets the alert level of a shadowkin.
     /// </summary>
     /// <param name="uid">The entity uid.</param>
     /// <param name="enabled">Enable the alert or not</param>
@@ -123,7 +120,8 @@ public sealed class MageManaSystem : EntitySystem
         }
 
         // Calculate new power level (P = P + t * G * M)
-        var newPowerLevel = component.ManaLevel + frameTime * component.ManaLevelGain; //* component.PowerLevelGainMultiplier;
+        var newPowerLevel =
+            component.ManaLevel + frameTime * component.ManaLevelGain; //* component.PowerLevelGainMultiplier;
 
         // Clamp power level using clamp function
         newPowerLevel = Math.Clamp(newPowerLevel, component.ManaLevelMin, component.ManaLevelMax);

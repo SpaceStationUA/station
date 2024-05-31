@@ -1,21 +1,26 @@
 <Document>
-## Для початку
-Це список рецептів
-Суміші готуються в склянці, продукти готуються в мікрохвильовій печі. Буде вказано час приготування.
+## Starting Out
+This is not an extensive list of recipes, these listings are to showcase the basics.
+
+Mixes are done in a Beaker, foods are cooked in a Microwave. Cook times will be listed.
+
+WARNING: This is not an automatically generated list, things here may become outdated. The wiki has much more than is listed here.
+
 ## The Basics: Mixing
 
-- Тісто = 15 Муки, 10 Води
-- Тісто з кукурудзяного борошна = 1 Яйце (6u), 10 Молока, 15 Кукурудзяне борошно
-- Тофу = 5 Ензім, 30 Соєве молоко
-- Тісто для пирога = 2 Яйця (12u), 15 Муки, 5 Солі
-- Тісто для торта = 2 Яйця(12u), 15 муки, 5 Цукру
-- Веганське тісто для торта = 15 Соєвого молока, 15 Муки, 5 Цукру
-- Масло = 30 Молока, 5 Солі
-- Сирне колесо = 5 Ензім, 40 Молока
-- Тефтелі = 1 Яйце (6u), 5 Борошна, 5 Сирі тваринні білки
-- Сирий тваринний білок: Подрібніть сире м'ясо у блендері
-- курдський сир: 15 молока 5 оцту 5 крему
-- моцарела: 15 молока 10 крему 5 ензіму
+- Dough = 15 Flour, 10 Water
+- Cornmeal Dough = 1 Egg (6u), 10 Milk, 15 Cornmeal
+- Tortila Dough = 15 Cornmeal, 10 Water
+- Tofu = 5 Enzyme (Catalyst), 30 Soy Milk
+- Pie Dough = 2 Eggs (12u), 15 Flour, 5 Table Salt
+- Cake Batter = 2 Eggs(12u), 15 flour, 5 Sugar
+- Vegan Cake Batter = 15 Soy Milk, 15 Flour, 5 Sugar
+- Butter = 30 Milk, 5 Table Salt (Catalyst)
+- Cheese Wheel = 5 Enzyme (Catalyst), 40 Milk
+- Chèvre Log = 5 Enzyme (Catalyst), 10 Goat Milk
+- Meatball = 1 Egg (6u), 5 Flour, 5 Uncooked Animal Proteins
+- Chocolate = 6 Cocoa Powder, 2 Milk, 2 Sugar
+- Uncooked Animal Protein: Grind Raw Meat
 
 <Box>
 <GuideEntityEmbed Entity="FoodDough"/>
@@ -31,29 +36,23 @@
 <GuideEntityEmbed Entity="FoodButter"/>
 <GuideEntityEmbed Entity="FoodMeatMeatball"/>
 <GuideEntityEmbed Entity="FoodCheese"/>
-<GuideEntityEmbed Entity="FoodCurdCheese"/>
-<GuideEntityEmbed Entity="FoodMozzarella"/>
+<GuideEntityEmbed Entity="FoodChevre"/>
+<GuideEntityEmbed Entity="FoodSnackChocolateBar"/>
 </Box>
 
-## Другорядні продукти
+## Secondary Products
 
-- Скибочка тіста: Нарізати тісто
-- Булочка: Нарізане тісто в мікрохвильовій печі протягом 5 секунд
-- Котлета: Нарізати сире м'ясо
-- Сирний шматочок: Нарізати сирне колесо
-- Плоске тісто: Використовуйте качалку або круглий предмет (вогнегасник, банку газованої води, пляшку) на тісто.
-- Скибочка кукурудзяного тіста: нарізати тісто
-- Плоске кукурудзяне тісто - розкатати скибочку кукурудзяного тіста
+- Dough Slice: Cut Dough
+- Bun: Microwave Dough Slice for 5 Seconds
+- Cutlet: Slice Raw Meat
+- Cheese Wedge: Slice Cheese Wheel
+- Flat Dough: Use a rolling pin or a round object (fire extinguisher, soda can, bottle) on Dough.
+- Tortilla Dough Slice: cut Tortilla Dough
+- Flat Tortilla Dough: Use a rolling pin or a round object (fire extinguisher, soda can, bottle) on Tortilla Dough Slice
+- Taco Shell: Microwave Flat Tortilla Dough for 5 Seconds
 
-## Приклади блюд
+## Food Examples
 
-- Хліб: Тісто в мікрохвильовці протягом 10 секунд
-- Звичайний бургер: 1 булочку та 1 сире м’ясо в мікрохвильовій печі протягом 10 секунд
-- Борщ: 10u Води, 1 Чаша (Bowl), та 2 Помідори на 10 секунд
-- Салат з цитрусових: 1 Чаша (Bowl), 1 Лимон, 1 Лайм, 1 Апельсин на 5 секунд
-- Піца Маргарита: Помістіть у мікрохвильову піч 1 листове тісто, 1 шматочок сиру та 4 помідори на 30 секунд
-- Торт: 1 тісто для торта протягом 15 секунд
-- Яблучний пиріг: 1 тісто для пирога, 3 яблука та 1 форма для пирога на 15 секунд
 - Bread: Microwave Dough for 10 Seconds
 - Plain Burger: Microwave 1 Bun and 1 Raw Meat for 10 Seconds
 - Tomato Soup: 10u Water, 1 Bowl, and 2 Tomatoes for 10 Seconds
@@ -77,12 +76,7 @@
 <GuideEntityEmbed Entity="FoodPizzaMargherita"/>
 <GuideEntityEmbed Entity="FoodCakePlain"/>
 <GuideEntityEmbed Entity="FoodPieApple"/>
-</Box>
-<Box>
-<GuideEntityEmbed Entity="FoodMealCubancarp"/>
-<GuideEntityEmbed Entity="FoodPieBananaCream"/>
-<GuideEntityEmbed Entity="FoodMealFriesCarrot"/>
-<GuideEntityEmbed Entity="FoodBakedPancake"/>
+<GuideEntityEmbed Entity="FoodTacoBeef"/>
 </Box>
 <Box>
 <GuideEntityEmbed Entity="FoodMealCubancarp"/>

@@ -14,7 +14,6 @@
   - BorgModuleHarvesting
   - SeedExtractorMachineCircuitboard
   - HydroponicsTrayMachineCircuitboard
-  - ReagentGrinderIndustrialMachineCircuitboard
 
 - type: technology
   id: CritterMechs
@@ -228,16 +227,3 @@
   recipeUnlocks:
   - BluespaceBeaker
   - SyringeBluespace
-
-- type: technology
-  id: MedipenRefilling
-  name: research-technology-medipen-fabrication
-  icon:
-    sprite: Structures/Machines/medipen_refiller.rsi
-    state: base
-  discipline: CivilianServices
-  tier: 1
-  cost: 7500
-  recipeUnlocks:
-  - MedipenRefillerMachineCircuitboard
-  - ChemicalMedipen

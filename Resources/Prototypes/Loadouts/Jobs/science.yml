@@ -9,7 +9,7 @@
         - Scientist
     - !type:LoadoutDepartmentTimeRequirement
       department: Epistemics
-      # time: 216000 # 60 hours
+      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpskirtSeniorResearcher
 
@@ -24,7 +24,7 @@
         - Scientist
     - !type:LoadoutDepartmentTimeRequirement
       department: Epistemics
-      # time: 216000 # 60 hours
+      min: 216000 # 60 hours
   items:
     - ClothingUniformJumpsuitSeniorResearcher
 
@@ -67,7 +67,7 @@
         - Scientist
     - !type:LoadoutDepartmentTimeRequirement
       department: Epistemics
-      # time: 216000 # 60 hours
+      min: 216000 # 60 hours
   items:
     - ClothingOuterCoatLabSeniorResearcher
 
@@ -84,27 +84,3 @@
         - ResearchDirector
   items:
     - ClothingHeadHatBeretRND
-
-- type: loadout
-  id: LoadoutRoboticistHatBeret
-  category: Jobs
-  cost: 1
-  exclusive: true
-  requirements:
-    - !type:LoadoutJobRequirement
-      jobs:
-        - Roboticist
-  items:
-    - ClothingHeadHatBeretRobotics
-
-- type: loadout
-  id: LoadoutBioinginerHatBeret
-  category: Jobs
-  cost: 1
-  exclusive: true
-  requirements:
-    - !type:LoadoutJobRequirement
-      jobs:
-        - Roboticist
-  items:
-    - ClothingHeadHatBeretBioinginer

@@ -212,16 +212,14 @@ namespace Content.Client.Examine
             var vBox = new BoxContainer
             {
                 Name = "ExaminePopupVbox",
-                Orientation = LayoutOrientation.Vertical,
-                MaxWidth = _examineTooltipOpen.MaxWidth
+                Orientation = LayoutOrientation.Vertical
             };
             panel.AddChild(vBox);
 
             var hBox = new BoxContainer
             {
                 Orientation = LayoutOrientation.Horizontal,
-                SeparationOverride = 5,
-                Margin = new Thickness(6, 0, 6, 0)
+                SeparationOverride = 5
             };
 
             vBox.AddChild(hBox);
@@ -231,7 +229,8 @@ namespace Content.Client.Examine
                 var spriteView = new SpriteView
                 {
                     OverrideDirection = Direction.South,
-                    SetSize = new Vector2(32, 32)
+                    SetSize = new Vector2(32, 32),
+                    Margin = new Thickness(2, 0, 2, 0),
                 };
                 spriteView.SetEntity(target);
                 hBox.AddChild(spriteView);
@@ -239,17 +238,19 @@ namespace Content.Client.Examine
 
             if (knowTarget)
             {
-                var itemName = FormattedMessage.RemoveMarkup(Identity.Name(target, EntityManager, player));
-                var labelMessage = FormattedMessage.FromMarkup($"[bold]{itemName}[/bold]");
-                var label = new RichTextLabel();
-                label.SetMessage(labelMessage);
-                hBox.AddChild(label);
+                hBox.AddChild(new Label
+                {
+                    Text = Identity.Name(target, EntityManager, player),
+                    HorizontalExpand = true,
+                });
             }
             else
             {
-                var label = new RichTextLabel();
-                label.SetMessage(FormattedMessage.FromMarkup("[bold]???[/bold]"));
-                hBox.AddChild(label);
+                hBox.AddChild(new Label
+                {
+                    Text = "???",
+                    HorizontalExpand = true,
+                });
             }
 
             panel.Measure(Vector2Helpers.Infinity);

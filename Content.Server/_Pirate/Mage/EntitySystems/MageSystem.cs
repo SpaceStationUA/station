@@ -1,22 +1,15 @@
-using System.Numerics;
-using Content.Server.Actions;
 using Content.Server._Pirate.Mage.Components;
+using Content.Server.Actions;
 using Content.Server.Store.Components;
 using Content.Server.Store.Systems;
-using Content.Shared.Actions;
-using Content.Shared.Magic.Events;
-using Content.Shared.Bed.Sleep;
-using Content.Shared.Cuffs.Components;
+using Content.Shared._Pirate.Mage;
+using Content.Shared._Pirate.Mage.Components;
 using Content.Shared.Examine;
+using Content.Shared.FixedPoint;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Interaction;
 using Content.Shared.Mobs.Systems;
-using Content.Shared.Physics;
-using Content.Shared.FixedPoint;
-using Content.Shared._Pirate.Mage;
-using Content.Shared._Pirate.Mage.Components;
 using Content.Shared.Popups;
-using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 
@@ -24,17 +17,17 @@ namespace Content.Server._Pirate.Mage.EntitySystems;
 
 public sealed class MageSystem : EntitySystem
 {
-    [Dependency] private readonly MageManaSystem _power = default!;
-    [Dependency] private readonly IRobustRandom _random = default!;
+    [ValidatePrototypeId<EntityPrototype>]
+    private const string MageShopId = "ActionMageShop";
+
+    [Dependency] private readonly ActionsSystem _action = default!;
     [Dependency] private readonly IEntityManager _entity = default!;
     [Dependency] private readonly SharedInteractionSystem _interaction = default!;
     [Dependency] private readonly MobStateSystem _mobState = default!;
-    [Dependency] private readonly StoreSystem _store = default!;
-    [Dependency] private readonly ActionsSystem _action = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
-
-    [ValidatePrototypeId<EntityPrototype>]
-    private const string MageShopId = "ActionMageShop";
+    [Dependency] private readonly MageManaSystem _power = default!;
+    [Dependency] private readonly IRobustRandom _random = default!;
+    [Dependency] private readonly StoreSystem _store = default!;
 
     public override void Initialize()
     {
@@ -56,7 +49,7 @@ public sealed class MageSystem : EntitySystem
             _store.UpdateUserInterface(uid, uid, store);
 
         _store.TryAddCurrency(new Dictionary<string, FixedPoint2>
-            { {component.ExperinceCurrencyPrototype, 10} }, uid);
+            { { component.ExperinceCurrencyPrototype, 10 } }, uid);
     }
 
     private void OnExamine(EntityUid uid, MageComponent component, ExaminedEvent args)
@@ -130,8 +123,6 @@ public sealed class MageSystem : EntitySystem
             // I can't figure out how to get this to go to the 100% filled state in the above if statement 😢
             _power.UpdateAlert(uid, true, mage.ManaLevel);
             _power.TryUpdatePowerLevel(uid, frameTime);
-
         }
     }
-
 }

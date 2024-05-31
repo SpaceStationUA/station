@@ -2,6 +2,7 @@ using Content.Shared.Popups;
 using Content.Shared.Damage;
 using Content.Shared.Revenant;
 using Robust.Shared.Random;
+using Robust.Shared.Map;
 using Content.Shared.Tag;
 using Content.Server.Storage.Components;
 using Content.Server.Light.Components;
@@ -14,6 +15,7 @@ using Content.Shared.Item;
 using Content.Shared.Bed.Sleep;
 using System.Linq;
 using System.Numerics;
+using Content.Server.Maps;
 using Content.Server.Revenant.Components;
 using Content.Shared.DoAfter;
 using Content.Shared.Emag.Systems;
@@ -26,15 +28,12 @@ using Content.Shared.Mobs.Systems;
 using Content.Shared.Revenant.Components;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Utility;
-using Content.Server.Disease;
-using Content.Shared.Disease.Components;
-using Content.Shared.Revenant.EntitySystems;
-using Robust.Shared.Map.Components;
 
 namespace Content.Server.Revenant.EntitySystems;
 
 public sealed partial class RevenantSystem
 {
+    [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly ThrowingSystem _throwing = default!;
     [Dependency] private readonly EntityStorageSystem _entityStorage = default!;
     [Dependency] private readonly EmagSystem _emag = default!;
@@ -42,7 +41,6 @@ public sealed partial class RevenantSystem
     [Dependency] private readonly MobThresholdSystem _mobThresholdSystem = default!;
     [Dependency] private readonly GhostSystem _ghost = default!;
     [Dependency] private readonly TileSystem _tile = default!;
-    [Dependency] private readonly DiseaseSystem _disease = default!;
 
     private void InitializeAbilities()
     {
@@ -215,7 +213,7 @@ public sealed partial class RevenantSystem
         //var coords = Transform(uid).Coordinates;
         //var gridId = coords.GetGridUid(EntityManager);
         var xform = Transform(uid);
-        if (!TryComp<MapGridComponent>(xform.GridUid, out var map))
+        if (!_mapManager.TryGetGrid(xform.GridUid, out var map))
             return;
         var tiles = map.GetTilesIntersecting(Box2.CenteredAround(xform.WorldPosition,
             new Vector2(component.DefileRadius * 2, component.DefileRadius))).ToArray();
@@ -309,13 +307,6 @@ public sealed partial class RevenantSystem
 
         args.Handled = true;
         // TODO: When disease refactor is in.
-
-        var emo = GetEntityQuery<DiseaseCarrierComponent>();
-        foreach (var ent in _lookup.GetEntitiesInRange(uid, component.BlightRadius))
-        {
-            if (emo.TryGetComponent(ent, out var comp))
-                _disease.TryAddDisease(ent, component.BlightDiseasePrototypeId, comp);
-        }
     }
 
     private void OnMalfunctionAction(EntityUid uid, RevenantComponent component, RevenantMalfunctionActionEvent args)

@@ -12,16 +12,16 @@ public sealed partial class SleepEmitSoundComponent : Component
     public SoundSpecifier Snore = new SoundCollectionSpecifier("Snores", AudioParams.Default.WithVariation(0.2f));
 
     /// <summary>
-    /// Minimum interval between snore attempts in seconds
+    /// Interval between snore attempts in seconds
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public TimeSpan Interval = TimeSpan.FromSeconds(5);
+    public float Interval = 5f;
 
     /// <summary>
-    /// Maximum interval between snore attempts in seconds
+    /// Chance for snore attempt to succeed
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public TimeSpan MaxInterval = TimeSpan.FromSeconds(15);
+    public float Chance = 0.33f;
 
     /// <summary>
     /// Popup for snore (e.g. Zzz...)

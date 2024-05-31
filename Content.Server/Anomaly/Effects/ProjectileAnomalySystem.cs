@@ -31,12 +31,12 @@ public sealed class ProjectileAnomalySystem : EntitySystem
 
     private void OnPulse(EntityUid uid, ProjectileAnomalyComponent component, ref AnomalyPulseEvent args)
     {
-        ShootProjectilesAtEntities(uid, component, args.Severity * args.PowerModifier);
+        ShootProjectilesAtEntities(uid, component, args.Severity);
     }
 
     private void OnSupercritical(EntityUid uid, ProjectileAnomalyComponent component, ref AnomalySupercriticalEvent args)
     {
-        ShootProjectilesAtEntities(uid, component, args.PowerModifier);
+        ShootProjectilesAtEntities(uid, component, 1.0f);
     }
 
     private void ShootProjectilesAtEntities(EntityUid uid, ProjectileAnomalyComponent component, float severity)

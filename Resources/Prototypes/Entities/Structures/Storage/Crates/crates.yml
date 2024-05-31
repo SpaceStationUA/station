@@ -236,18 +236,6 @@
     sprite: Structures/Storage/Crates/scicrate_secure.rsi
   - type: AccessReader
     access: [["Research"]]
-    
-- type: entity
-  parent: CrateBaseSecure
-  id: CrateRoboticsSecure
-  name: secure robotics crate
-  components:
-  - type: Icon
-    sprite: Structures/Storage/Crates/robocrate_secure.rsi
-  - type: Sprite
-    sprite: Structures/Storage/Crates/robocrate_secure.rsi
-  - type: AccessReader
-    access: [["Robotics"]]
 
 - type: entity
   parent: CrateBaseSecure
@@ -575,7 +563,7 @@
     sprite: Structures/Storage/Crates/syndicate.rsi
 
 - type: entity
-  parent: [StructureWheeled, CrateBaseWeldable]
+  parent: CrateBaseWeldable
   id: CrateTrashCart
   name: trash cart
   components:
@@ -606,3 +594,16 @@
   - type: StealthOnMove
     passiveVisibilityRate: -0.10
     movementVisibilityRate: 0.10
+
+#PIRATE START UNTIL END OF FILE
+- type: entity
+  parent: CrateBaseSecure
+  id: CrateRoboticsSecure
+  name: secure robotics crate
+  components:
+  - type: Icon
+    sprite: Structures/Storage/Crates/robocrate_secure.rsi
+  - type: Sprite
+    sprite: Structures/Storage/Crates/robocrate_secure.rsi
+  - type: AccessReader
+    access: [["Robotics"]]

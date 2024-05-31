@@ -25,7 +25,6 @@ materials-meat = meat
 materials-web = silk
 materials-bones = bone
 materials-coal = coal
-materials-gunpowder = gunpowder
 
 # Ores
 materials-raw-iron = raw iron

@@ -18,11 +18,11 @@ public enum SlotFlags
     OUTERCLOTHING = 1 << 5,
     INNERCLOTHING = 1 << 6,
     NECK = 1 << 7,
-    NECK1 = 1 << 8,
-    NECK2 = 1 << 9,
+    NECK1 = 1 << 8, //PIRATE
+    NECK2 = 1 << 9, //PIRATE
     BACK = 1 << 10,
-    HEAD1 = 1 << 11,
-    HEAD2 = 1 << 12,
+    HEAD1 = 1 << 11, //PIRATE
+    HEAD2 = 1 << 12, //PIRATE
     BELT = 1 << 13,
     GLOVES = 1 << 14,
     IDCARD = 1 << 15,

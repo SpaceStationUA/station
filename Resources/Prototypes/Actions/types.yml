@@ -1,21 +1,3 @@
-# - type: entity
-#   id: OpenEmotes
-#   icon: Interface/Actions/emotes.png
-#   name: action-name-emotes
-#   description: action-description-emotes
-#   serverEvent: !type:OpenEmotesActionEvent
-
-- type: entity
-  id: OpenEmotes
-  name: action-name-emotes
-  description: action-description-emotes
-  noSpawn: true
-  components:
-  - type: InstantAction
-    useDelay: 2
-    icon: Interface/Actions/emotes.png
-    event: !type:OpenEmotesActionEvent
-    checkCanInteract: false
 # base actions
 
 - type: entity
@@ -148,7 +130,7 @@
     priority: -20
     icon:
       sprite: Objects/Devices/communication.rsi
-      state: old-radio
+      state: radio
     event: !type:OpenUplinkImplantEvent
 
 - type: entity
@@ -378,3 +360,16 @@
       itemIconStyle: NoItem
       useDelay: 1 # emote spam
       event: !type:ToggleActionEvent
+
+#PIRATES
+- type: entity
+  id: OpenEmotes
+  name: action-name-emotes
+  description: action-description-emotes
+  noSpawn: true
+  components:
+  - type: InstantAction
+    useDelay: 2
+    icon: Interface/Actions/emotes.png
+    event: !type:OpenEmotesActionEvent
+    checkCanInteract: false

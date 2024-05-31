@@ -37,7 +37,7 @@
   - type: ApcPowerReceiver
     powerLoad: 250
   - type: FaxMachine
-    receiveStationGoal: true # StationGoal
+    receiveStationGoal: true #PIRATE StationGoal
     paperSlot:
       insertSound: /Audio/Machines/scanning.ogg
       ejectSound: /Audio/Machines/tray_eject.ogg
@@ -81,7 +81,7 @@
         color: "#bfe3ff"
   - type: FaxMachine
     name: "Central Command"
-    receiveStationGoal: true # StationGoal
+    receiveStationGoal: true #PIRATE StationGoal
     notifyAdmins: true
 
 - type: entity
@@ -99,7 +99,7 @@
     name: "ERR*?*%!"
     responsePings: false
     notifyAdmins: true
-    receiveStationGoal: true # StationGoal
+    receiveStationGoal: true #PIRATE StationGoal
   - type: Emagged
 
 - type: entity
@@ -111,6 +111,6 @@
     - type: FaxMachine
       name: "Captain's Office"
       receiveNukeCodes: true
-      receiveStationGoal: true # StationGoal
+      receiveStationGoal: true #PIRATE StationGoal
     - type: StealTarget
       stealGroup: FaxMachineCaptain

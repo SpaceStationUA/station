@@ -51,6 +51,9 @@
   - type: Machine
     board: TelecomServerCircuitboard
   - type: WiresPanel
+  - type: Wires
+    boardName: wires-board-name-telecomserver
+    layoutId: TelecomServer
   - type: Transform
     anchored: true
   - type: Pullable

@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeaverHat
   name: beaver hat
   description: 'Gentlemen?'
@@ -10,7 +10,7 @@
     sprite: Clothing/Head/Hats/beaver_hat.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeret
   name: beret
   description: A beret, an artists favorite headwear.
@@ -26,7 +26,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretFrench
   name: French beret
   description: A French beret, "vive la France".
@@ -43,7 +43,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretSecurity
   name: security beret
   description: A stylish clothing option for security officers.
@@ -59,7 +59,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatCasa
   name: casa
   description: Cone-shaped hat
@@ -70,7 +70,7 @@
       sprite: Clothing/Head/Hats/casa.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretRND
   name: scientific beret
   description: A beret for real scientists.
@@ -86,7 +86,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretEngineering
   name: engineering beret
   description: A beret with the engineering insignia emblazoned on it. For engineers that are more inclined towards style than safety.
@@ -102,7 +102,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretQM
   # DeltaV - Logistics Department - Replace Quartermaster with Logistics Officer
   name: logistics officer's beret
@@ -120,7 +120,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretHoS
   name: head of security's beret
   description: A black beret with a commander's rank emblem. For officers that are more inclined towards style than safety.
@@ -136,7 +136,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretWarden
   name: warden's beret
   description: A black beret with a warden's rank emblem. For officers that are more inclined towards style than safety. # DeltaV - changed description to match sprite
@@ -147,7 +147,7 @@
     sprite: DeltaV/Clothing/Head/Hats/beret_warden.rsi # DeltaV - resprite
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretSeniorPhysician
   name: physician beret
   description: Donning the colours of medical and chemistry, physicians are the pride of this department!
@@ -158,7 +158,7 @@
     sprite: Clothing/Head/Hats/beret_physician.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretBrigmedic
   name: brigmedical beret
   description: White beret, looks like a cream pie on the head.
@@ -169,7 +169,7 @@
     sprite: Clothing/Head/Hats/beret_brigmedic.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretMerc
   name: mercenary beret
   description: Olive beret, the badge depicts a jackal on a rock.
@@ -180,7 +180,7 @@
     sprite: Clothing/Head/Hats/beret_merc.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBowlerHat
   name: bowler hat
   description: Stylish bowler hat.
@@ -191,7 +191,7 @@
     sprite: Clothing/Head/Hats/bowler_hat.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatCaptain
   name: captain's hardhat
   description: It's good being the king.
@@ -207,7 +207,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatCardborg
   name: cardborg helmet
   description: A hat made out of a box.
@@ -222,7 +222,7 @@
   - type: IngestionBlocker
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatCentcom
   name: CentCom brand hat
   description: "It's good to be the emperor."
@@ -233,7 +233,7 @@
     sprite: Clothing/Head/Hats/centcom.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatChef
   name: chef's hat
   description: "It's a hat used by chefs to keep hair out of your food. Judging by the food in the mess, they don't work."
@@ -259,7 +259,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatFedoraBrown
   name: brown fedora
   description: It's a brown fedora.
@@ -275,7 +275,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatFedoraGrey
   name: grey fedora
   description: It's a grey fedora.
@@ -286,7 +286,7 @@
     sprite: Clothing/Head/Hats/greyfedora.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatFez
   name: fez
   description: A red fez.
@@ -297,7 +297,7 @@
     sprite: Clothing/Head/Hats/fez.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatHopcap
   name: head of personnel's cap
   description: A grand, stylish head of personnel's cap.
@@ -313,7 +313,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatHoshat
   name: head of security's hat
   description: "There's a new sheriff in station."
@@ -329,7 +329,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatOutlawHat
   name: outlaw's hat
   description: A hat that makes you look like you carry a notched pistol, numbered one and nineteen more.
@@ -340,7 +340,7 @@
     sprite: Clothing/Head/Hats/outlawhat.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatWitch1
   name: witch hat
   description: A witch hat.
@@ -351,7 +351,7 @@
     sprite: Clothing/Head/Hats/witchhat.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatPaper
   name: paper hat
   description: A hat made of paper.
@@ -362,7 +362,7 @@
     sprite: Clothing/Head/Hats/paper.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatPirate
   name: pirate hat
   description: 'Yo ho ho and a bottle of rum!'
@@ -373,7 +373,7 @@
     sprite: Clothing/Head/Hats/pirate.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatPlaguedoctor
   name: plague doctor hat
   description: These were once used by plague doctors.
@@ -389,7 +389,7 @@
     - ClothMade
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatRedwizard
   name: red wizard hat
   description: Strange-looking red hat-wear that most certainly belongs to a real magic user.
@@ -405,7 +405,7 @@
     coefficient: 0.2
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatSantahat
   name: santa hat
   description: "A festive hat worn by Santa Claus"
@@ -416,7 +416,7 @@
     sprite: Clothing/Head/Hats/santahat.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatSombrero
   name: sombrero
   description: "Perfectly for Space Mexico, si?"
@@ -429,7 +429,7 @@
     accent: SpanishAccent
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapBlue
   name: surgical cap
   description: A blue cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
@@ -445,7 +445,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapGreen
   name: surgical cap
   description: A green cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
@@ -456,7 +456,7 @@
     sprite: Clothing/Head/Hats/surgcap_green.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapPurple
   name: surgical cap
   description: A purple cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
@@ -467,7 +467,7 @@
     sprite: Clothing/Head/Hats/surgcap_purple.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatTophat
   name: tophat
   description: A stylish black tophat.
@@ -483,33 +483,20 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: [ClothingHeadBase, BaseFoldable]
+  parent: ClothingHeadBase
   id: ClothingHeadHatUshanka
   name: ushanka
   description: "Perfect for winter in Siberia, da?"
   components:
-  - type: Clothing
-    sprite: Clothing/Head/Hats/ushanka.rsi
-  - type: Appearance
-  - type: AddAccentClothing
-    accent: RussianAccent
-  - type: Foldable
-    canFoldInsideContainer: true
-  - type: FoldableClothing
-    foldedEquippedPrefix: up
-    foldedHeldPrefix: up
   - type: Sprite
     sprite: Clothing/Head/Hats/ushanka.rsi
-    layers:
-    - state: icon
-      map: [ "unfoldedLayer" ]
-    - state: icon-up
-      map: ["foldedLayer"]
-      visible: false
-
+  - type: Clothing
+    sprite: Clothing/Head/Hats/ushanka.rsi
+  - type: AddAccentClothing
+    accent: RussianAccent
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatVioletwizard
   name: violet wizard hat
   description: "Strange-looking violet hat-wear that most certainly belongs to a real magic user."
@@ -525,7 +512,7 @@
     coefficient: 0.2
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatWarden
   name: warden's cap
   description: The responsibility weighs heavy, like a barbed crown. # DeltaV - changed description to remove THE LAW
@@ -538,7 +525,7 @@
     stealGroup: ClothingHeadHatWarden
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatWitch
   name: witch hat
   description: A witch hat.
@@ -554,7 +541,7 @@
     - ClothMade
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatWizardFake
   name: fake wizard hat
   description: It has WIZZARD written across it in sequins. Comes with a cool beard.
@@ -565,7 +552,7 @@
     sprite: Clothing/Head/Hats/wizard_fake.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatWizard
   name: wizard hat
   description: Strange-looking blue hat-wear that most certainly belongs to a powerful magic user.
@@ -586,7 +573,7 @@
     coefficient: 0.2
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatXmasCrown
   name: xmas crown
   description: 'Happy Christmas!'
@@ -597,7 +584,7 @@
     sprite: Clothing/Head/Hats/xmascrown.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatTrucker
   name: trucker hat
   description: Formerly Chucks, this hat is yours now.
@@ -608,7 +595,7 @@
     sprite: Clothing/Head/Hats/truckershat.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadPyjamaSyndicateBlack
   name: syndicate black pyjama hat
   description: For keeping that traitor head of yours warm.
@@ -619,7 +606,7 @@
     sprite: Clothing/Head/Hats/pyjamasyndicateblack.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadPyjamaSyndicatePink
   name: syndicate pink pyjama hat
   description: For keeping that traitor head of yours warm.
@@ -630,7 +617,7 @@
     sprite: Clothing/Head/Hats/pyjamasyndicatepink.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadPyjamaSyndicateRed
   name: syndicate red pyjama hat
   description: For keeping that traitor head of yours warm.
@@ -641,7 +628,7 @@
     sprite: Clothing/Head/Hats/pyjamasyndicatered.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadPaperSack
   name: papersack hat
   description: A paper sack with crude holes cut out for eyes. Useful for hiding one's identity or ugliness.
@@ -653,7 +640,7 @@
   - type: IdentityBlocker
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadPaperSackSmile
   name: smiling papersack hat
   description: A paper sack with crude holes cut out for eyes and a sketchy smile drawn on the front. Not creepy at all.
@@ -665,7 +652,7 @@
   - type: IdentityBlocker
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadFishCap
   name: fishing cap
   description: Women fear me. Fish fear me. Men turn their eyes away from me. As I walk no beast dares make a sound in my presence. I am alone on this barren Earth.
@@ -676,7 +663,7 @@
     sprite: Clothing/Head/Hats/fishcap.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadNurseHat
   name: nurse hat
   description: Somehow I feel I'm not supposed to leave this place.
@@ -692,7 +679,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadRastaHat
   name: rasta hat
   description: Right near da beach, boyee.
@@ -703,7 +690,7 @@
     sprite: Clothing/Head/Hats/rasta.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadSafari
   name: safari hat
   description: Keeps the sun out of your eyes. Makes you a target for the locals.
@@ -714,7 +701,7 @@
     sprite: Clothing/Head/Hats/safarihat.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatJester
   name: jester hat
   description: A hat with bells, to add some merriness to the suit.
@@ -734,7 +721,7 @@
       sprite: Clothing/Head/Hats/jester2.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretCmo
   name: chief medical officer's beret
   description: Turquoise beret with a cross on the front. The sight of it calms you down and makes it clear that you will be cured.
@@ -750,7 +737,7 @@
     - WhitelistChameleon
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatPirateTricord
   name: pirate hat
   description: 'Yo ho ho and a bottle of rum!'
@@ -761,7 +748,7 @@
     sprite: Clothing/Head/Hats/piratetricord.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatWatermelon
   name: watermelon helmet
   description: A carelessly cut half of a watermelon, gutted from the inside, to be worn as a helmet. It can soften the blow to the head.
@@ -776,7 +763,7 @@
         Blunt: 0.95
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatSyndie
   name: syndicate hat
   description: A souvenir hat from "Syndieland", their production has already been closed.
@@ -787,7 +774,7 @@
     sprite: Clothing/Head/Hats/syndiecap.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatSyndieMAA
   name: master at arms hat
   description: Master at arms hat, looks intimidating, I doubt that you will like to communicate with its owner...
@@ -798,7 +785,7 @@
     sprite: Clothing/Head/Hats/syndiecap_maa.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatTacticalMaidHeadband
   name: tactical maid headband
   description: "A red headband - don't imagine yourself a Rambo and don't pick up a few machine guns."
@@ -809,7 +796,7 @@
     sprite: Clothing/Head/Hats/tacticalmaidheadband.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatHetmanHat
   name: hetman hat
   description: From the Zaporozhian Sich with love.
@@ -820,7 +807,7 @@
     sprite: Clothing/Head/Hats/hetman_hat.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatMagician
   name: magician's tophat
   description: "A magician's tophat."
@@ -854,7 +841,7 @@
   - type: Tag
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatCapcap
   name: cap cap
   description: A grand, stylish captain cap.
@@ -870,7 +857,7 @@
     - HamsterWearable
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatCentcomcap
   name: CentCom cap
   description: An extravagant, fancy Central Commander cap.
@@ -886,7 +873,7 @@
     - HamsterWearable
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatGladiator
   name: gladiator helmet
   description: Protects the head from harsh ash winds and toy spears.
@@ -897,7 +884,7 @@
     sprite: Clothing/Head/Hats/gladiator.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatPartyRed
   name: red party hat
   description: Spread a joy!
@@ -953,21 +940,7 @@
     sprite: Clothing/Head/Hats/party_water_cup.rsi
 
 - type: entity
-  parent: ClothingHatBase
-  id: ClothingHeadHatBeretBlueshield
-  name: blueshield beret
-  description: Стоїть на захисті твого ніжного волосся.
-  components:
-  - type: Sprite
-    sprite: Clothing/Head/Hats/beret_blueshield.rsi
-  - type: Clothing
-    sprite: Clothing/Head/Hats/beret_blueshield.rsi
-  - type: Tag
-    tags:
-    - ClothMade
-
-- type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatGreyFlatcap
   name: grey flatcap
   description: Fashionable for both the working class and old man Jenkins.
@@ -981,7 +954,7 @@
     sprite: Clothing/Head/Hats/greyflatcap.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBrownFlatcap
   name: brown flatcap
   description: Stupid clown! You made me look bad!
@@ -995,51 +968,7 @@
     sprite: Clothing/Head/Hats/brownflatcap.rsi
 
 - type: entity
-  parent: ClothingHatBase
-  id: ClothingHeadHatBlack
-  name: чорна шапка
-  description: тепленька!
-  components:
-  - type: Sprite
-    sprite: T_Pirate/Clothing/Head/Hats/blackhat.rsi
-  - type: Clothing
-    sprite: T_Pirate/Clothing/Head/Hats/blackhat.rsi
-
-- type: entity
-  parent: ClothingHatBase
-  id: ClothingHeadHatBlue
-  name: синя шапка
-  description: тепленька!
-  components:
-  - type: Sprite
-    sprite: T_Pirate/Clothing/Head/Hats/bluehat.rsi
-  - type: Clothing
-    sprite: T_Pirate/Clothing/Head/Hats/bluehat.rsi
-
-- type: entity
-  parent: ClothingHatBase
-  id: ClothingHeadHatRed
-  name: червона шапка
-  description: тепленька!
-  components:
-  - type: Sprite
-    sprite: T_Pirate/Clothing/Head/Hats/redhat.rsi
-  - type: Clothing
-    sprite: T_Pirate/Clothing/Head/Hats/redhat.rsi
-
-- type: entity
-  parent: ClothingHatBase
-  id: ClothingHeadHatYellow
-  name: жовта шапка
-  description: тепленька!
-  components:
-  - type: Sprite
-    sprite: T_Pirate/Clothing/Head/Hats/yellowhat.rsi
-  - type: Clothing
-    sprite: T_Pirate/Clothing/Head/Hats/yellowhat.rsi
-
-- type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatCowboyBrown
   name: brown cowboy hat
   description: This hat ain't big enough for the both of us.
@@ -1103,7 +1032,7 @@
       sprite: Clothing/Head/Hats/cowboyhatbountyhunter.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatStrawHat
   name: straw hat
   description: A fancy hat for hot days! Not recommended to wear near fires.
@@ -1147,7 +1076,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretMedic
   name: medical beret
   description: White beret that encourages you to be clean.
@@ -1156,9 +1085,9 @@
     sprite: Clothing/Head/Hats/beret_medic.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/beret_medic.rsi
-
+#PIRATE START UNTIL END OF FILE
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretRobotics
   name: robotics beret
   description: Це берет робототехників.
@@ -1169,7 +1098,7 @@
     sprite: Clothing/Head/Hats/beret_robotics.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretBioinginer
   name: bioinginer beret
   description: Білий берет біоінженера.
@@ -1178,3 +1107,17 @@
     sprite: Clothing/Head/Hats/beret_bioinginer.rsi
   - type: Clothing
     sprite: Clothing/Head/Hats/beret_bioinginer.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatBeretBlueshield
+  name: blueshield beret
+  description: Стоїть на захисті твого ніжного волосся.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Hats/beret_blueshield.rsi
+  - type: Tag
+    tags:
+    - ClothMade

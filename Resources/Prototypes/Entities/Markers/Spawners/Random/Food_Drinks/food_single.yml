@@ -13,7 +13,6 @@
         state: plain
   - type: RandomSpawner
     prototypes:
-      - FoodBurgerBrain
       - FoodBurgerJelly
       - FoodBurgerCarp
       - FoodBurgerTofu
@@ -73,6 +72,7 @@
       - FoodBurgerCat
       - FoodBurgerClown
       - FoodBurgerMime
+      - FoodBurgerBrain
       - FoodBurgerGhost
       - FoodBurgerSpell
       - FoodBurgerSuper

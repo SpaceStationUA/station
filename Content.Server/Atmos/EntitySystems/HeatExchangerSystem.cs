@@ -40,16 +40,24 @@ public sealed class HeatExchangerSystem : EntitySystem
 
     private void OnAtmosUpdate(EntityUid uid, HeatExchangerComponent comp, ref AtmosDeviceUpdateEvent args)
     {
-        // make sure that the tile the device is on isn't blocked by a wall or something similar.
-        if (args.Grid is {} grid
-            && _transform.TryGetGridTilePosition(uid, out var tile)
-            && _atmosphereSystem.IsTileAirBlocked(grid, tile))
+        if (!TryComp(uid, out NodeContainerComponent? nodeContainer)
+                || !TryComp(uid, out AtmosDeviceComponent? device)
+                || !_nodeContainer.TryGetNode(nodeContainer, comp.InletName, out PipeNode? inlet)
+                || !_nodeContainer.TryGetNode(nodeContainer, comp.OutletName, out PipeNode? outlet))
         {
             return;
         }
 
-        if (!_nodeContainer.TryGetNodes(uid, comp.InletName, comp.OutletName, out PipeNode? inlet, out PipeNode? outlet))
-            return;
+        // make sure that the tile the device is on isn't blocked by a wall or something similar.
+        var xform = Transform(uid);
+        if (_transform.TryGetGridTilePosition(uid, out var tile))
+        {
+            // TryGetGridTilePosition() already returns false if GridUid is null, but the null checker isn't smart enough yet
+            if (xform.GridUid != null && _atmosphereSystem.IsTileAirBlocked(xform.GridUid.Value, tile))
+            {
+                return;
+            }
+        }
 
         var dt = args.dt;
 

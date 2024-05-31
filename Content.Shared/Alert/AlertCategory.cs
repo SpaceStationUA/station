@@ -12,10 +12,10 @@ public enum AlertCategory
     Health,
     Internals,
     Stamina,
-    ShadowkinPower,
     Piloting,
     Hunger,
     Thirst,
     Toxins,
-    Battery
+    Battery,
+    ShadowkinPower // Pirate
 }

@@ -28,3 +28,16 @@
     specialEntries:
     - id: SpawnPointGhostRatKing
       prob: 0
+
+- type: entity
+  id: MageSpawn
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    earliestStart: 100 # DeltaV - was 45
+    weight: 1 # DeltaV - was 5
+    minimumPlayers: 15
+    reoccurrenceDelay: 30
+    duration: 1
+  - type: MageSpawnRule

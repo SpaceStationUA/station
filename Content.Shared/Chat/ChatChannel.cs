@@ -4,7 +4,7 @@ namespace Content.Shared.Chat
     ///     Represents chat channels that the player can filter chat tabs by.
     /// </summary>
     [Flags]
-    public enum ChatChannel : uint
+    public enum ChatChannel : uint //PIRATE, ushort too tiny
     {
         None = 0,
 
@@ -91,7 +91,7 @@ namespace Content.Shared.Chat
         Telepathic = 1 << 15,
 
         /// <summary>
-        ///     Empathy channel for Shadowkin.
+        ///     PIRATE Empathy channel for Shadowkin.
         /// </summary>
         Empathy = 1 << 16,
 

@@ -1,6 +1,6 @@
 using System.Numerics;
 using Content.Shared.Alert;
-using Content.Shared.Vehicle;
+using Content.Shared.Vehicle;  //Pirate hoverbikes
 using Content.Shared.Whitelist;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
@@ -9,7 +9,7 @@ using Robust.Shared.Serialization;
 namespace Content.Shared.Buckle.Components;
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
-[Access(typeof(SharedBuckleSystem), typeof(SharedVehicleSystem))]
+[Access(typeof(SharedBuckleSystem), typeof(SharedVehicleSystem))] //Pirate hoverbikes
 public sealed partial class StrapComponent : Component
 {
     /// <summary>
@@ -23,14 +23,9 @@ public sealed partial class StrapComponent : Component
     /// Entities that this strap accepts and can buckle
     /// If null it accepts any entity
     /// </summary>
-    [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public EntityWhitelist? Whitelist;
-
-    /// <summary>
-    /// Entities that this strap does not accept and cannot buckle.
-    /// </summary>
-    [DataField, ViewVariables(VVAccess.ReadWrite)]
-    public EntityWhitelist? Blacklist;
+    [DataField]
+    [ViewVariables]
+    public EntityWhitelist? AllowedEntities;
 
     /// <summary>
     /// The change in position to the strapped mob

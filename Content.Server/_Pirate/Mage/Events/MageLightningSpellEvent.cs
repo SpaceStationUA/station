@@ -4,7 +4,7 @@ using Content.Shared.Magic;
 
 namespace Content.Server._Pirate.Mage.Events;
 
-public sealed partial class MageLightningSpellEvent: InstantActionEvent, ISpeakSpell
+public sealed partial class MageLightningSpellEvent : InstantActionEvent, ISpeakSpell
 {
     /// <summary>
     /// The range this lightning hits
@@ -28,13 +28,11 @@ public sealed partial class MageLightningSpellEvent: InstantActionEvent, ISpeakS
     public TimeSpan MaxElectrocuteDuration = TimeSpan.FromSeconds(2);
 
     [DataField("speech")]
-    public string? Speech { get; set;}
+    public string? Speech { get; set; }
 
     /// <summary>
     /// How much mana should be drained.
     /// </summary>
     [DataField("manaCost")]
     public float ManaCost = 10f;
-
 }
-

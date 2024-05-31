@@ -17,7 +17,6 @@ public sealed class InjectorStatusControl : Control
 
     private FixedPoint2 PrevVolume;
     private FixedPoint2 PrevMaxVolume;
-    private FixedPoint2 PrevTransferAmount;
     private InjectorToggleMode PrevToggleState;
 
     public InjectorStatusControl(Entity<InjectorComponent> parent, SharedSolutionContainerSystem solutionContainers)
@@ -38,13 +37,11 @@ public sealed class InjectorStatusControl : Control
         // only updates the UI if any of the details are different than they previously were
         if (PrevVolume == solution.Volume
             && PrevMaxVolume == solution.MaxVolume
-            && PrevTransferAmount == _parent.Comp.TransferAmount
             && PrevToggleState == _parent.Comp.ToggleState)
             return;
 
         PrevVolume = solution.Volume;
         PrevMaxVolume = solution.MaxVolume;
-        PrevTransferAmount = _parent.Comp.TransferAmount;
         PrevToggleState = _parent.Comp.ToggleState;
 
         // Update current volume and injector state

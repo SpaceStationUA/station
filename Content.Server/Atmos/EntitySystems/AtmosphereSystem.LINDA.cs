@@ -1,18 +1,14 @@
 using Content.Server.Atmos.Components;
 using Content.Shared.Atmos;
 using Content.Shared.Atmos.Components;
-using Robust.Shared.Map.Components;
 using Robust.Shared.Utility;
 
 namespace Content.Server.Atmos.EntitySystems
 {
     public sealed partial class AtmosphereSystem
     {
-        private void ProcessCell(
-            Entity<GridAtmosphereComponent, GasTileOverlayComponent, MapGridComponent, TransformComponent> ent,
-            TileAtmosphere tile, int fireCount)
+        private void ProcessCell(GridAtmosphereComponent gridAtmosphere, TileAtmosphere tile, int fireCount, GasTileOverlayComponent visuals)
         {
-            var gridAtmosphere = ent.Comp1;
             // Can't process a tile without air
             if (tile.Air == null)
             {
@@ -56,7 +52,11 @@ namespace Content.Server.Atmos.EntitySystems
                     shouldShareAir = true;
                 } else if (CompareExchange(tile.Air, enemyTile.Air) != GasCompareResult.NoExchange)
                 {
-                    AddActiveTile(gridAtmosphere, enemyTile);
+                    if (!enemyTile.Excited)
+                    {
+                        AddActiveTile(gridAtmosphere, enemyTile);
+                    }
+
                     if (ExcitedGroups)
                     {
                         var excitedGroup = tile.ExcitedGroup;
@@ -91,7 +91,7 @@ namespace Content.Server.Atmos.EntitySystems
                         }
                         else
                         {
-                            ConsiderPressureDifference(gridAtmosphere, enemyTile, i.ToOppositeDir(), -difference);
+                            ConsiderPressureDifference(gridAtmosphere, enemyTile, direction.GetOpposite(), -difference);
                         }
                     }
 
@@ -102,7 +102,7 @@ namespace Content.Server.Atmos.EntitySystems
             if(tile.Air != null)
                 React(tile.Air, tile);
 
-            InvalidateVisuals(ent, tile);
+            InvalidateVisuals(tile.GridIndex, tile.GridIndices, visuals);
 
             var remove = true;
 
@@ -146,7 +146,7 @@ namespace Content.Server.Atmos.EntitySystems
         /// <param name="tile">Tile Atmosphere to be activated.</param>
         private void AddActiveTile(GridAtmosphereComponent gridAtmosphere, TileAtmosphere tile)
         {
-            if (tile.Air == null || tile.Excited)
+            if (tile.Air == null)
                 return;
 
             tile.Excited = true;

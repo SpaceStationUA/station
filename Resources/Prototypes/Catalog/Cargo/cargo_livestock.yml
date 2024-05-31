@@ -54,7 +54,7 @@
     sprite: Mobs/Animals/duck.rsi
     state: icon-0
   product: CrateNPCDuck
-  cost: 4000
+  cost: 6000
   category: cargoproduct-category-name-livestock
   group: market
 
@@ -76,16 +76,6 @@
   product: CrateNPCPuppyCorgi
   cost: 1200
   category: cargoproduct-category-name-livestock
-  group: market
-
-- type: cargoProduct
-  id: LivestockBorgi
-  icon:
-    sprite: _Pirate/Entities/Mobs/NPCs/borgi.rsi
-    state: borgi
-  product: CrateNPCPuppyBorgi
-  cost: 2500 #Pirate <- change to pass test (sell value should be lower than buy)
-  category: Livestock
   group: market
 
 - type: cargoProduct
@@ -237,3 +227,11 @@
   cost: 5000
   category: cargoproduct-category-name-livestock
   group: market
+#PIRATE
+- type: cargoProduct
+  id: LivestockBorgi
+  icon:
+    sprite: _Pirate/Entities/Mobs/NPCs/borgi.rsi
+    state: borgi
+  product: CrateNPCPuppyBorgi
+  cost: 2500 #Pirate <- change to pass test (sell value should be lower than buy)

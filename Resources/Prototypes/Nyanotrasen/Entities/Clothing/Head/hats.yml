@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadMailCarrier
   name: mail carrier's hat
   description: Smells like a good pension.
@@ -10,7 +10,7 @@
     sprite: Nyanotrasen/Clothing/Head/Hats/mailman.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHoodMysta
   name: mystagogue's muffin cap # Delta V - Mystagogue new hat
   description: Contrary to its silly name, it's actually a symbol of great academic achievement.
@@ -21,7 +21,7 @@
     sprite: DeltaV/Clothing/Head/Hats/mysta.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHoodBrown
   name: brown hood
   description: Spooky.
@@ -35,7 +35,7 @@
     - HidesHair
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadAreopagite
   name: areopagite hat
   description: Intimidating.
@@ -46,7 +46,7 @@
     sprite: Nyanotrasen/Clothing/Head/Hats/areopagite.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadTechPriest
   name: automaturge hood
   description: Protects the mind that makes artificial minds.
@@ -79,7 +79,7 @@
     - Psionics
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBellhop
   name: bellhop cap
   description: All the inconvinience and humiliation of a fez with none of the style!
@@ -120,7 +120,7 @@
         Radiation: 0.95
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatFezMantis
   name: psionic mantis' fez # DeltaV - Rename Forensic Mantis to Psionic Mantis
   description: A fine red fez with a gold tassel.
@@ -131,7 +131,7 @@
     sprite: Nyanotrasen/Clothing/Head/Hats/mantis_fez.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadPrisonGuard
   name: prison guard's hat
   description: Grants full immunity from denying others basic human rights, dignity, or respect.
@@ -159,7 +159,7 @@
         Piercing: 0.95
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretCap
   name: captain's beret
   description: A blue beret with a captain's rank emblem. For captains that are more inclined towards style than safety.
@@ -170,7 +170,7 @@
     sprite: Nyanotrasen/Clothing/Head/Hats/beret_cap.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretCentcomm
   name: CentCom beret
   description: A green beret with an admiral's rank emblem.
@@ -181,7 +181,7 @@
     sprite: Nyanotrasen/Clothing/Head/Hats/beret_cent.rsi
 
 - type: entity
-  parent: ClothingHatBase
+  parent: ClothingHeadBase
   id: ClothingHeadHatBeretMysta
   name: mystagogue's beret
   description: A purple beret with a blue epistemics emblem. Mystical and stylish.

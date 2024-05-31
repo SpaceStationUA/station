@@ -1,6 +1,5 @@
 using Content.Server.Popups;
-using Content.Server.Sound;
-using Content.Shared.Sound.Components;
+using Content.Server.Sound.Components;
 using Content.Shared.Actions;
 using Content.Shared.Audio;
 using Content.Shared.Bed.Sleep;
@@ -31,7 +30,6 @@ namespace Content.Server.Bed.Sleep
         [Dependency] private readonly PopupSystem _popupSystem = default!;
         [Dependency] private readonly SharedAudioSystem _audio = default!;
         [Dependency] private readonly StatusEffectsSystem _statusEffectsSystem = default!;
-        [Dependency] private readonly EmitSoundSystem _emitSound = default!;
 
         [ValidatePrototypeId<EntityPrototype>] public const string SleepActionId = "ActionSleep";
 
@@ -73,8 +71,8 @@ namespace Content.Server.Bed.Sleep
                     {
                         emitSound.Sound = sleepSound.Snore;
                     }
-                    emitSound.MinInterval = sleepSound.Interval;
-                    emitSound.MaxInterval = sleepSound.MaxInterval;
+                    emitSound.PlayChance = sleepSound.Chance;
+                    emitSound.RollInterval = sleepSound.Interval;
                     emitSound.PopUp = sleepSound.PopUp;
                 }
 
@@ -130,7 +128,7 @@ namespace Content.Server.Bed.Sleep
                 return;
             }
             if (TryComp<SpamEmitSoundComponent>(uid, out var spam))
-                _emitSound.SetEnabled((uid, spam), args.NewMobState == MobState.Alive);
+                spam.Enabled = args.NewMobState == MobState.Alive;
         }
 
         private void AddWakeVerb(EntityUid uid, SleepingComponent component, GetVerbsEvent<AlternativeVerb> args)

@@ -1,7 +1,6 @@
 using System.Linq;
 using Content.Shared.CCVar;
 using Content.Shared.Decals;
-using Content.Shared.DetailExaminable;
 using Content.Shared.Humanoid.Markings;
 using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Preferences;
@@ -10,6 +9,7 @@ using Robust.Shared.GameObjects.Components.Localization;
 using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
 using Content.Shared._Pirate.TTS;
+using Content.Shared.DetailExaminable; //PIRATE
 
 namespace Content.Shared.Humanoid;
 
@@ -27,10 +27,11 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
     [Dependency] private readonly INetManager _netManager = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly MarkingManager _markingManager = default!;
-    [Dependency] private readonly IConfigurationManager _configurationManager = default!;
+    [Dependency] private readonly IConfigurationManager _configurationManager = default!; //PIRATE
 
     [ValidatePrototypeId<SpeciesPrototype>]
     public const string DefaultSpecies = "Human";
+    //PIRATE START
     public const string DefaultVoice = "Lada";
     public static readonly Dictionary<Sex, string> DefaultSexVoice = new()
     {
@@ -38,6 +39,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         {Sex.Female, "Tetiana"},
         {Sex.Unsexed, "Lada"},
     };
+    //PIRATE END
 
     public override void Initialize()
     {
@@ -111,7 +113,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         }
 
         if (dirty)
-            Dirty(uid, humanoid);
+            Dirty(humanoid);
     }
 
     protected virtual void SetLayerVisibility(
@@ -159,7 +161,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         humanoid.MarkingSet = new(oldMarkings, prototype.MarkingPoints, _markingManager, _prototypeManager);
 
         if (sync)
-            Dirty(uid, humanoid);
+            Dirty(humanoid);
     }
 
     /// <summary>
@@ -189,7 +191,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         humanoid.SkinColor = skinColor;
 
         if (sync)
-            Dirty(uid, humanoid);
+            Dirty(humanoid);
     }
 
     /// <summary>
@@ -213,7 +215,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
             humanoid.CustomBaseLayers[layer] = new(id);
 
         if (sync)
-            Dirty(uid, humanoid);
+            Dirty(humanoid);
     }
 
     /// <summary>
@@ -234,7 +236,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
             humanoid.CustomBaseLayers[layer] = new(null, color);
 
         if (sync)
-            Dirty(uid, humanoid);
+            Dirty(humanoid);
     }
 
     /// <summary>
@@ -256,7 +258,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
         if (sync)
         {
-            Dirty(uid, humanoid);
+            Dirty(humanoid);
         }
     }
 
@@ -332,7 +334,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         }
 
         EnsureDefaultMarkings(uid, humanoid);
-        SetTTSVoice(uid, profile.Voice, humanoid);
+        SetTTSVoice(uid, profile.Voice, humanoid); // PIRATE
 
         humanoid.Gender = profile.Gender;
         if (TryComp<GrammarComponent>(uid, out var grammar))
@@ -342,28 +344,18 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
         humanoid.Age = profile.Age;
 
-
-        // Parkstation-CharacterInformation-Start
+        //PIRATE Parkstation-CharacterInformation-Start
         if (profile.FlavorText != "" && _configurationManager.GetCVar(CCVars.FlavorText))
         {
             var detail = EnsureComp<DetailExaminableComponent>(uid);
             detail.Content = profile.FlavorText;
             Dirty(detail);
         }
-        // Parkstation-CharacterInformation-End
+        //PIRATE Parkstation-CharacterInformation-End
 
         humanoid.LastProfileLoaded = profile; // DeltaV - let paradox anomaly be cloned
 
-        // Parkstation-CharacterInformation-Start
-        if (profile.FlavorText != "" && _configurationManager.GetCVar(CCVars.FlavorText))
-        {
-            var detail = EnsureComp<DetailExaminableComponent>(uid);
-            detail.Content = profile.FlavorText;
-            Dirty(detail);
-        }
-        // Parkstation-CharacterInformation-End
-
-        Dirty(uid, humanoid);
+        Dirty(humanoid);
     }
 
     /// <summary>
@@ -396,7 +388,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         humanoid.MarkingSet.AddBack(prototype.MarkingCategory, markingObject);
 
         if (sync)
-            Dirty(uid, humanoid);
+            Dirty(humanoid);
     }
 
     private void EnsureDefaultMarkings(EntityUid uid, HumanoidAppearanceComponent? humanoid)
@@ -430,10 +422,10 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         humanoid.MarkingSet.AddBack(prototype.MarkingCategory, markingObject);
 
         if (sync)
-            Dirty(uid, humanoid);
+            Dirty(humanoid);
     }
 
-    public void SetTTSVoice(EntityUid uid, string voiceId, HumanoidAppearanceComponent humanoid)
+    public void SetTTSVoice(EntityUid uid, string voiceId, HumanoidAppearanceComponent humanoid) //PIRATE
     {
         if (!TryComp<TTSComponent>(uid, out var comp))
             return;

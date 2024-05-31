@@ -1,53 +1,44 @@
 using Content.Server.Magic;
+using Content.Server.Mind;
+using Content.Server.Pulling;
+using Content.Shared._Pirate.Mage.Components;
+using Content.Shared._Pirate.Mage.Events;
 using Content.Shared.Actions;
-using Content.Shared.Actions.ActionTypes;
 using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
-using Content.Shared.Movement.Pulling.Components;
-using Content.Shared.Movement.Pulling.Systems;
-using Content.Shared.Movement.Pulling;
-using Content.Shared.Storage.Components;
-using Robust.Shared.Audio;
-using Robust.Shared.Audio.Systems;
-using Robust.Shared.Prototypes;
-using Robust.Shared.Physics.Systems;
-using Content.Shared.Magic.Events;
-using Content.Shared._Pirate.Mage.Events;
-using Content.Server._Pirate.Mage.EntitySystems;
-using Content.Server._Pirate.Mage.Components;
-using Content.Shared._Pirate.Mage.Components;
 using Content.Shared.StatusEffect;
-using Content.Server.Mind;
+using Content.Shared.Storage.Components;
+using Robust.Shared.Audio.Systems;
 using Robust.Shared.Map;
+using Robust.Shared.Prototypes;
 
 namespace Content.Server._Pirate.Mage.EntitySystems;
 
 public sealed class MageMindSwapSystem : EntitySystem
 {
-    [Dependency] private readonly MageManaSystem _mana = default!;
-    [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly SharedActionsSystem _actions = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly IEntityManager _entity = default!;
-    [Dependency] private readonly StaminaSystem _stamina = default!;
-    [Dependency] private readonly PullingSystem _pulling = default!;
-    [Dependency] private readonly SharedActionsSystem _actions = default!;
-    [Dependency] private readonly IPrototypeManager _prototype = default!;
     [Dependency] private readonly MagicSystem _magic = default!;
-    [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
-    [Dependency] private readonly StatusEffectsSystem _statusEffects = default!;
-    [Dependency] private readonly MindSystem _mind = default!;
+    [Dependency] private readonly MageManaSystem _mana = default!;
     [Dependency] private readonly IMapManager _mapManager = default!;
+    [Dependency] private readonly MindSystem _mind = default!;
+    [Dependency] private readonly IPrototypeManager _prototype = default!;
+    [Dependency] private readonly PullingSystem _pulling = default!;
+    [Dependency] private readonly StaminaSystem _stamina = default!;
+    [Dependency] private readonly StatusEffectsSystem _statusEffects = default!;
+    [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
 
     public override void Initialize()
     {
         base.Initialize();
 
         SubscribeLocalEvent<MageMindSwapSpellEvent>(OnMindswapSpell);
-
     }
 
     /// <summary>
-    /// Teleports the user to the clicked location
+    ///     Teleports the user to the clicked location
     /// </summary>
     /// <param name="args"></param>
     private void OnMindswapSpell(MageMindSwapSpellEvent args)
@@ -78,12 +69,11 @@ public sealed class MageMindSwapSystem : EntitySystem
         if (!_mind.TryGetMind(args.Target, out var targetmindId, out var targetmind))
             return;
 
-       _mind.ControlMob(args.Target, args.Performer);
-       Console.WriteLine("mindswap lawd");
+        _mind.ControlMob(args.Target, args.Performer);
+        Console.WriteLine("mindswap lawd");
 
         _magic.Speak(args);
 
         args.Handled = true;
     }
-
 }

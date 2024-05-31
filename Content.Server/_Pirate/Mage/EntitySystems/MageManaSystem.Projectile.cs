@@ -1,68 +1,38 @@
 using Content.Server.Magic;
-// using Content.Server.Pulling;
+using Content.Server.Pulling;
+using Content.Server.Weapons.Ranged.Systems;
+using Content.Shared._Pirate.Mage.Components;
+using Content.Shared._Pirate.Mage.Events;
 using Content.Shared.Actions;
-using Content.Shared.Actions.ActionTypes;
 using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
-// using Content.Shared.Pulling.Components;
-using Content.Shared.Movement.Pulling.Components;
-using Content.Shared.Movement.Pulling.Systems;
-using Content.Shared.Movement.Pulling;
-using Content.Shared.Storage.Components;
-using Robust.Shared.Audio;
-using Robust.Shared.Audio.Systems;
-using Robust.Shared.Prototypes;
-using Robust.Shared.Physics.Systems;
-using Content.Shared.Magic.Events;
-// using Content.Shared._Pirate.Mage.Events;
-using Content.Shared._Pirate.Mage.Events;
-using Content.Server._Pirate.Mage.EntitySystems;
-using Content.Server._Pirate.Mage.Components;
-using Content.Shared._Pirate.Mage.Components;
-
-using System.Numerics;
-using Content.Server.Body.Components;
-using Content.Server.Body.Systems;
-using Content.Server.Chat.Systems;
-using Content.Server.Doors.Systems;
-using Content.Server.Magic.Components;
-using Content.Server.Weapons.Ranged.Systems;
-using Content.Shared.Actions;
-using Content.Shared.Body.Components;
-using Content.Shared.Coordinates.Helpers;
-using Content.Shared.DoAfter;
-using Content.Shared.Doors.Components;
-using Content.Shared.Doors.Systems;
-using Content.Shared.Interaction.Events;
 using Content.Shared.Magic;
-using Content.Shared.Magic.Events;
 using Content.Shared.Maps;
-using Content.Shared.Physics;
-using Content.Shared.Storage;
+using Content.Shared.Storage.Components;
 using Robust.Server.GameObjects;
-using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Map;
-using Robust.Shared.Random;
-using Robust.Shared.Serialization.Manager;
-using Robust.Shared.Spawners;
+using Robust.Shared.Prototypes;
+// using Content.Server.Pulling;
+// using Content.Shared.Pulling.Components;
+// using Content.Shared._Pirate.Mage.Events;
 
 namespace Content.Server._Pirate.Mage.EntitySystems;
 
 public sealed class MageProgectileSystem : EntitySystem
 {
-    [Dependency] private readonly MageManaSystem _mana = default!;
-    [Dependency] private readonly IMapManager _mapManager = default!;
-    [Dependency] private readonly GunSystem _gunSystem = default!;
-    [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly SharedActionsSystem _actions = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly IEntityManager _entity = default!;
-    [Dependency] private readonly StaminaSystem _stamina = default!;
-    [Dependency] private readonly PullingSystem _pulling = default!;
-    [Dependency] private readonly SharedActionsSystem _actions = default!;
-    [Dependency] private readonly IPrototypeManager _prototype = default!;
+    [Dependency] private readonly GunSystem _gunSystem = default!;
     [Dependency] private readonly MagicSystem _magic = default!;
+    [Dependency] private readonly MageManaSystem _mana = default!;
+    [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly PhysicsSystem _physics = default!;
+    [Dependency] private readonly IPrototypeManager _prototype = default!;
+    [Dependency] private readonly PullingSystem _pulling = default!;
+    [Dependency] private readonly StaminaSystem _stamina = default!;
+    [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
 
 
@@ -71,7 +41,6 @@ public sealed class MageProgectileSystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<MageProjectileSpellEvent>(OnProjectileSpell);
-
     }
 
     private void OnProjectileSpell(MageProjectileSpellEvent ev)
@@ -101,7 +70,7 @@ public sealed class MageProgectileSystem : EntitySystem
             var mapPos = pos.ToMap(EntityManager);
             var spawnCoords = _mapManager.TryFindGridAt(mapPos, out var gridUid, out _)
                 ? pos.WithEntityId(gridUid, EntityManager)
-                : new(_mapManager.GetMapEntityId(mapPos.MapId), mapPos.Position);
+                : new EntityCoordinates(_mapManager.GetMapEntityId(mapPos.MapId), mapPos.Position);
 
             var ent = Spawn(ev.Prototype, spawnCoords);
             var direction = ev.Target.ToMapPos(EntityManager, _transformSystem) -
@@ -115,7 +84,7 @@ public sealed class MageProgectileSystem : EntitySystem
         switch (data)
         {
             case TargetCasterPos:
-                return new List<EntityCoordinates>(1) {casterXform.Coordinates};
+                return new List<EntityCoordinates>(1) { casterXform.Coordinates };
             case TargetInFront:
             {
                 // This is shit but you get the idea.
@@ -144,7 +113,7 @@ public sealed class MageProgectileSystem : EntitySystem
                         {
                             coords,
                             coordsPlus,
-                            coordsMinus,
+                            coordsMinus
                         };
                     }
                     case Direction.East:
@@ -156,7 +125,7 @@ public sealed class MageProgectileSystem : EntitySystem
                         {
                             coords,
                             coordsPlus,
-                            coordsMinus,
+                            coordsMinus
                         };
                     }
                 }
@@ -167,6 +136,4 @@ public sealed class MageProgectileSystem : EntitySystem
                 throw new ArgumentOutOfRangeException();
         }
     }
-
-
 }

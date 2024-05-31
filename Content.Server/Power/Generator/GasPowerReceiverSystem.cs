@@ -26,8 +26,12 @@ public sealed class GasPowerReceiverSystem : EntitySystem
     {
         var timeDelta = args.dt;
 
-        if (!_nodeContainer.TryGetNode(uid, "pipe", out PipeNode? pipe))
+        if (!HasComp<AtmosDeviceComponent>(uid)
+            || !TryComp<NodeContainerComponent>(uid, out var nodeContainer)
+            || !_nodeContainer.TryGetNode<PipeNode>(nodeContainer, "pipe", out var pipe))
+        {
             return;
+        }
 
         // if we're below the max temperature, then we are simply consuming our target gas
         if (pipe.Air.Temperature <= component.MaxTemperature)
@@ -53,7 +57,7 @@ public sealed class GasPowerReceiverSystem : EntitySystem
                 if (component.OffVentGas)
                 {
                     // eject the gas into the atmosphere
-                    var mix = _atmosphereSystem.GetContainingMixture(uid, args.Grid, args.Map, false, true);
+                    var mix = _atmosphereSystem.GetContainingMixture(uid, false, true);
                     if (mix is not null)
                         _atmosphereSystem.Merge(res, mix);
                 }

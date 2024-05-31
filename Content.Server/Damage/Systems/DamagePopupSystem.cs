@@ -1,8 +1,7 @@
-using System.Linq;
 using Content.Server.Damage.Components;
 using Content.Server.Popups;
 using Content.Shared.Damage;
-using Content.Shared.Interaction;
+using Robust.Shared.Player;
 
 namespace Content.Server.Damage.Systems;
 
@@ -14,7 +13,6 @@ public sealed class DamagePopupSystem : EntitySystem
     {
         base.Initialize();
         SubscribeLocalEvent<DamagePopupComponent, DamageChangedEvent>(OnDamageChange);
-        SubscribeLocalEvent<DamagePopupComponent, InteractHandEvent>(OnInteractHand);
     }
 
     private void OnDamageChange(EntityUid uid, DamagePopupComponent component, DamageChangedEvent args)
@@ -33,22 +31,6 @@ public sealed class DamagePopupSystem : EntitySystem
                 _ => "Invalid type",
             };
             _popupSystem.PopupEntity(msg, uid);
-        }
-    }
-
-    private void OnInteractHand(EntityUid uid, DamagePopupComponent component, InteractHandEvent args)
-    {
-        if (component.AllowTypeChange)
-        {
-            if (component.Type == Enum.GetValues(typeof(DamagePopupType)).Cast<DamagePopupType>().Last())
-            {
-                component.Type = Enum.GetValues(typeof(DamagePopupType)).Cast<DamagePopupType>().First();
-            }
-            else
-            {
-                component.Type = (DamagePopupType) (int) component.Type + 1;
-            }
-            _popupSystem.PopupEntity("Target set to type: " + component.Type.ToString(), uid);
         }
     }
 }

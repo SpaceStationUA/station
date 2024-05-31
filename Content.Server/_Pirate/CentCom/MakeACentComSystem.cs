@@ -48,7 +48,7 @@ public sealed class MakeACentComSystem : EntitySystem
 
         var centComComponent = _entManager.GetComponent<FTLDestinationComponent>(centCom.Value);
         centComComponent.Enabled = true;
-        centComComponent.RequireCoordinateDisk = true;
+        // centComComponent.RequireCoordinateDisk = true;
         _entManager.Dirty(centCom.Value, centComComponent);
 
         var shuttleMap = _mapManager.CreateMap();

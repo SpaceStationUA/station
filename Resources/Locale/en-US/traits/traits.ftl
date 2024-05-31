@@ -18,9 +18,6 @@ trait-muted-desc = You can't speak
 trait-paracusia-name = Paracusia
 trait-paracusia-desc = You hear sounds that aren't really there
 
-trait-unrevivable-name = Unrevivable
-trait-unrevivable-desc = You are unable to be revived by defibrillators.
-
 trait-pirate-accent-name = Pirate Accent
 trait-pirate-accent-desc = You can't stop speaking like a pirate!
 
@@ -32,9 +29,6 @@ trait-frontal-lisp-desc = You thpeak with a lithp
 
 trait-socialanxiety-name = Social Anxiety
 trait-socialanxiety-desc = You are anxious when you speak and stutter.
-
-trait-southern-name = Southern Drawl
-trait-southern-desc = You have a different way of speakin'.
 
 trait-snoring-name = Snoring
 trait-snoring-desc = You will snore while sleeping.

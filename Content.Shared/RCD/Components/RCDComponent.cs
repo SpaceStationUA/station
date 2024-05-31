@@ -1,10 +1,19 @@
+using Content.Shared.Maps;
 using Content.Shared.RCD.Systems;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
-using Robust.Shared.Physics;
-using Robust.Shared.Prototypes;
+using Robust.Shared.Serialization;
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 
 namespace Content.Shared.RCD.Components;
+
+public enum RcdMode : byte
+{
+    Floors,
+    Walls,
+    Airlock,
+    Deconstruct
+}
 
 /// <summary>
 /// Main component for the RCD
@@ -16,57 +25,27 @@ namespace Content.Shared.RCD.Components;
 public sealed partial class RCDComponent : Component
 {
     /// <summary>
-    /// List of RCD prototypes that the device comes loaded with
+    /// Time taken to do an action like placing a wall
     /// </summary>
-    [DataField, AutoNetworkedField]
-    public HashSet<ProtoId<RCDPrototype>> AvailablePrototypes { get; set; } = new();
+    [DataField("delay"), ViewVariables(VVAccess.ReadWrite), AutoNetworkedField]
+    public float Delay = 2f;
+
+    [DataField("swapModeSound")]
+    public SoundSpecifier SwapModeSound = new SoundPathSpecifier("/Audio/Items/genhit.ogg");
+
+    [DataField("successSound")]
+    public SoundSpecifier SuccessSound = new SoundPathSpecifier("/Audio/Items/deconstruct.ogg");
 
     /// <summary>
-    /// Sound that plays when a RCD operation successfully completes
+    /// What mode are we on? Can be floors, walls, airlock, deconstruct.
     /// </summary>
-    [DataField]
-    public SoundSpecifier SuccessSound { get; set; } = new SoundPathSpecifier("/Audio/Items/deconstruct.ogg");
+    [DataField("mode"), AutoNetworkedField]
+    public RcdMode Mode = RcdMode.Floors;
 
     /// <summary>
-    /// The ProtoId of the currently selected RCD prototype
+    /// ID of the floor to create when using the floor mode.
     /// </summary>
-    [DataField, AutoNetworkedField]
-    public ProtoId<RCDPrototype> ProtoId { get; set; } = "Invalid";
-
-    /// <summary>
-    /// A cached copy of currently selected RCD prototype
-    /// </summary>
-    /// <remarks>
-    /// If the ProtoId is changed, make sure to update the CachedPrototype as well
-    /// </remarks>
-    [ViewVariables(VVAccess.ReadOnly)]
-    public RCDPrototype CachedPrototype { get; set; } = default!;
-
-    /// <summary>
-    /// The direction constructed entities will face upon spawning
-    /// </summary>
-    [DataField, AutoNetworkedField]
-    public Direction ConstructionDirection
-    {
-        get
-        {
-            return _constructionDirection;
-        }
-        set
-        {
-            _constructionDirection = value;
-            ConstructionTransform = new Transform(new(), _constructionDirection.ToAngle());
-        }
-    }
-
-    private Direction _constructionDirection = Direction.South;
-
-    /// <summary>
-    /// Returns a rotated transform based on the specified ConstructionDirection
-    /// </summary>
-    /// <remarks>
-    /// Contains no position data
-    /// </remarks>
-    [ViewVariables(VVAccess.ReadOnly)]
-    public Transform ConstructionTransform { get; private set; } = default!;
+    [DataField("floor", customTypeSerializer: typeof(PrototypeIdSerializer<ContentTileDefinition>))]
+    [ViewVariables(VVAccess.ReadWrite), AutoNetworkedField]
+    public string Floor = "FloorSteel";
 }

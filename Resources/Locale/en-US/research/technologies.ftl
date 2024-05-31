@@ -21,19 +21,6 @@ research-technology-bluespace-storage = Bluespace Storage
 research-technology-portable-fission = Portable Fission
 research-technology-space-scanning = Space Scanning
 
-research-technology-chemistry = Chemistry
-research-technology-surgical-tools = Surgical Tools
-research-technology-biochemical-stasis = Biochemical Stasis
-research-technology-mechanized-treatment = Mechanized Treatment
-research-technology-medipen-fabrication = Medipen Refilling
-research-technology-virology = Virology
-research-technology-cryogenics = Cryogenics
-research-technology-chemical-dispensary = Chemical Dispensary
-research-technology-biofabrication = Biofabrication
-research-technology-crew-monitoring = Crew Monitoring
-research-technology-bluespace-chemistry = Bluespace Chemistry
-research-technology-cloning = Cloning
-
 research-technology-salvage-weapons = Salvage Weapons
 research-technology-draconic-munitions = Draconic Munitions
 research-technology-uranium-munitions = Uranium Munitions
@@ -65,7 +52,7 @@ research-technology-advanced-anomaly-research = Advanced Anomaly Research
 research-technology-rped = Rapid Part Exchange
 research-technology-super-parts = Super Parts
 research-technology-deterrence = Deterrence Technologies
-research-technology-bluespace-mining = Bluespace Mining
+research-technology-bluespace-mining = Bluespace Mining #PIRATE
 
 research-technology-janitorial-equipment = Janitorial Equipment
 research-technology-laundry-tech = Laundry Tech

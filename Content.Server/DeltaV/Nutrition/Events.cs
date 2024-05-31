@@ -4,7 +4,6 @@ namespace Content.Server.Nutrition;
 /// Raised on a food being sliced.
 /// Used by deep frier to apply friedness to slices (e.g. deep fried pizza)
 /// </summary>
-[ByRefEvent]
 public sealed class SliceFoodEvent : EntityEventArgs
 {
     /// <summary>

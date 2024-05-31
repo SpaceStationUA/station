@@ -5,7 +5,7 @@ using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using Content.Server._Pirate.BwoinkFromConsole;
+using Content.Server._Pirate.BwoinkFromConsole;// Pirate
 using Content.Server.Administration.Managers;
 using Content.Server.Afk;
 using Content.Server.Discord;
@@ -521,6 +521,7 @@ namespace Content.Server.Administration.Systems
         }
 
         /// <summary>
+		// Pirate
         /// Used to send a bwoink message from the console to discord.
         /// DO NOT DELETE! This is used by discord bot.
         /// </summary>

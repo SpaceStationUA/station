@@ -196,7 +196,7 @@ namespace Content.Server.Database
             if (Enum.TryParse<Gender>(profile.Gender, true, out var genderVal))
                 gender = genderVal;
 
-            var voice = profile.Voice;
+            var voice = profile.Voice; // Pirate TTS
             if (voice == String.Empty)
                 voice = SharedHumanoidAppearanceSystem.DefaultSexVoice[sex];
 
@@ -220,7 +220,7 @@ namespace Content.Server.Database
                 profile.CharacterName,
                 profile.FlavorText,
                 profile.Species,
-                voice, // TTS
+                voice, // Pirate TTS
                 profile.Age,
                 sex,
                 gender,
@@ -259,7 +259,7 @@ namespace Content.Server.Database
             profile.CharacterName = humanoid.Name;
             profile.FlavorText = humanoid.FlavorText;
             profile.Species = humanoid.Species;
-            profile.Voice = humanoid.Voice; // TTS
+            profile.Voice = humanoid.Voice; // Pirate TTS
             profile.Age = humanoid.Age;
             profile.Sex = humanoid.Sex.ToString();
             profile.Gender = humanoid.Gender.ToString();
@@ -298,7 +298,7 @@ namespace Content.Server.Database
             profile.Loadouts.Clear();
             profile.Loadouts.AddRange(
                 humanoid.LoadoutPreferences
-                        .Select(t => new Loadout {LoadoutName = t})
+                    .Select(t => new Loadout {LoadoutName = t})
             );
 
             return profile;
