@@ -1,1 +1,1 @@
-vehicle-use-key = Використай {THE($keys)} щоб завести {THE($vehicle)}.
+vehicle-use-key = Встав {THE($keys)} щоб завести {THE($vehicle)}.

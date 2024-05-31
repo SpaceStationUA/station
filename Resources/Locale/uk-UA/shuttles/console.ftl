@@ -17,16 +17,16 @@ shuttle-console-ftl-cooldown = Охолодження
 
 shuttle-console-ftl-timer = Час у FTL
 
-shuttle-console-max-radar = Max радіус дії радара:
-shuttle-console-radar = Радіус радара:
+shuttle-console-max-radar = Макс. радіус дії радару:
+shuttle-console-radar = Радіус радару:
 shuttle-console-position = Позиція:
 shuttle-console-orientation = Орієнтація:
 shuttle-console-linear-velocity = Лінійна швидкість:
 shuttle-console-angular-velocity = Кутова швидкість:
 
-shuttle-console-dock-label = Док-порти
-shuttle-console-docked = (Docked)
-shuttle-console-dock-button = Док {$suffix}
+shuttle-console-dock-label = Стикувальні-порти
+shuttle-console-docked = (пристиковано)
+shuttle-console-dock-button = Пристикувати {$suffix}
 
 shuttle-console-hyperspace-label = Пункти призначення FTL
 shuttle-console-hyperspace-none = Не знайдено пунктів призначення
@@ -37,5 +37,5 @@ shuttle-console-iff-label = {$name} ({$distance}m)
 # Buttons
 shuttle-console-strafing = Страфінговий режим
 shuttle-console-iff-toggle = Перемкнути IFF
-shuttle-console-dock-toggle = Перемкнути доки
+shuttle-console-dock-toggle = Перемкнути стикувальні порти
 shuttle-console-undock = Відстикувати

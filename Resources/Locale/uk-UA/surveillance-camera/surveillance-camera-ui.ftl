@@ -1,13 +1,13 @@
-surveillance-camera-monitor-ui-window = Camera monitor
-surveillance-camera-monitor-ui-refresh-cameras = Refresh cameras
-surveillance-camera-monitor-ui-refresh-subnets = Refresh subnets
-surveillance-camera-monitor-ui-disconnect = Disconnect
+surveillance-camera-monitor-ui-window = Монітор камер
+surveillance-camera-monitor-ui-refresh-cameras = Оновити камери
+surveillance-camera-monitor-ui-refresh-subnets = Оновити мережі
+surveillance-camera-monitor-ui-disconnect = Від'єднатись
 surveillance-camera-monitor-ui-status = {$status} {$address}
-surveillance-camera-monitor-ui-status-connecting = Connecting:
-surveillance-camera-monitor-ui-status-connected = Connected:
-surveillance-camera-monitor-ui-status-disconnected = Disconnected
-surveillance-camera-monitor-ui-no-subnets = No Subnets
+surveillance-camera-monitor-ui-status-connecting = З'єднання:
+surveillance-camera-monitor-ui-status-connected = З'єднано:
+surveillance-camera-monitor-ui-status-disconnected = Від'єднано
+surveillance-camera-monitor-ui-no-subnets = Нема мережей
 
-surveillance-camera-setup = Setup
-surveillance-camera-setup-ui-set = Set
+surveillance-camera-setup = Налаштувати
+surveillance-camera-setup-ui-set = Встановити
 

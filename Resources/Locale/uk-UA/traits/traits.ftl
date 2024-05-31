@@ -8,13 +8,13 @@ trait-pacifist-name = Пацифіст
 
 permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} очі скляні та розфокусовані. Не схоже що {SUBJECT($target)} може бачити вас.[/color]
 
-trait-lightweight-name = Lightweight Drunk
-trait-lightweight-desc = Alcohol has a stronger effect on you
+trait-lightweight-name = Легкий Алкоголізм
+trait-lightweight-desc = Алкоголь має більший ефект на вас
 
 trait-muted-name = Німий
 trait-muted-desc = Ви не можете говорити
 
-trait-paracusia-name = Paracusia
+trait-paracusia-name = Паракузія
 trait-paracusia-desc = Ви чуєте звуки яких не існує
 
 trait-uncloneable-name = Неклонований
@@ -24,7 +24,7 @@ trait-pirate-accent-name = Піратський акцент
 trait-pirate-accent-desc = Ти не можеш перестати говорити як пірат!
 
 trait-archaic-accent-name = Архаїчний акцент
-trait-archaic-accent-desc = You speak in a way that many others find outdated
+trait-archaic-accent-desc = Ви розмовляєте мовою яку більшість вважають застарілою
 
 trait-accentless-name = Без акценту
 trait-accentless-desc = У вас немає акценту, який зазвичай притаманний вашому виду

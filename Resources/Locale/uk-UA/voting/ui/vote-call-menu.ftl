@@ -1,6 +1,6 @@
 ui-vote-type-restart = Перезапуск раунду
 ui-vote-type-gamemode = Вибір режиму
-ui-vote-type-map = Інша карта
+ui-vote-type-map = Інша мапа
 
 # Window title of the vote create menu
 ui-vote-create-title = Голосування

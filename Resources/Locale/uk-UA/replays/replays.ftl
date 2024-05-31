@@ -1,40 +1,40 @@
 ﻿# Loading Screen
 
-replay-loading = Loading ({$cur}/{$total})
-replay-loading-reading = Reading Files
-replay-loading-processing = Processing Files
-replay-loading-spawning = Spawning Entities
-replay-loading-initializing = Initializing Entities
-replay-loading-starting= Starting Entities
-replay-loading-failed = Failed to load replay:
+replay-loading = Завантаження ({$cur}/{$total})
+replay-loading-reading = Читання Файлів
+replay-loading-processing = Обробка Файлів
+replay-loading-spawning = Створення Сутностей
+replay-loading-initializing = Ініціалізація Сутностей
+replay-loading-starting= Стартування Сутностей
+replay-loading-failed = Помилка при завантаженні повторення:
                         {$reason}
 
 # Main Menu
-replay-menu-subtext = Replay Client
-replay-menu-load = Load Selected Replay
-replay-menu-select = Select a Replay
-replay-menu-open = Open Replay Folder
-replay-menu-none = No replays found.
+replay-menu-subtext = Клієнт Повтору
+replay-menu-load = Завантажити Вибраний Повтор
+replay-menu-select = Вибрати Повтор
+replay-menu-open = Відкрити Папку Повторів
+replay-menu-none = Не Знайдено Повторів.
 
 # Main Menu Info Box
-replay-info-title = Replay Information
-replay-info-none-selected = No replay selected
-replay-info-invalid = [color=red]Invalid replay selected[/color]
-replay-info-info = {"["}color=gray]Selected:[/color]  {$name} ({$file})
-                   {"["}color=gray]Time:[/color]   {$time}
-                   {"["}color=gray]Round ID:[/color]   {$roundId}
-                   {"["}color=gray]Duration:[/color]   {$duration}
+replay-info-title = Інформація Повтору
+replay-info-none-selected = Не Вибрано Повтору
+replay-info-invalid = [color=red]Вибрано Невірний Повтор[/color]
+replay-info-info = {"["}color=gray]Вибрано:[/color]  {$name} ({$file})
+                   {"["}color=gray]Час:[/color]   {$time}
+                   {"["}color=gray]ID Раунду:[/color]   {$roundId}
+                   {"["}color=gray]Тривалість:[/color]   {$duration}
                    {"["}color=gray]ForkId:[/color]   {$forkId}
-                   {"["}color=gray]Version:[/color]   {$version}
-                   {"["}color=gray]Engine:[/color]   {$engVersion}
+                   {"["}color=gray]Версія:[/color]   {$version}
+                   {"["}color=gray]Рушій:[/color]   {$engVersion}
                    {"["}color=gray]Type Hash:[/color]   {$hash}
                    {"["}color=gray]Comp Hash:[/color]   {$compHash}
 
 # Replay selection window
-replay-menu-select-title = Select Replay
+replay-menu-select-title = Вибрати Повтор
 
 # Replay related verbs
-replay-verb-spectate = Spectate
+replay-verb-spectate = Наглядати
 
 # command
 cmd-replay-spectate-help = replay_spectate [optional entity]

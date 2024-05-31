@@ -3,7 +3,7 @@
 ## General
 
 shell-server-cannot = Server cannot do this.
-shell-command-success = Команда успішна
+shell-command-success = Команда успішна.
 shell-invalid-command = Невірна команда.
 shell-invalid-command-specific = Invalid {$commandName} command.
 shell-cannot-run-command-from-server = You cannot run this command from the server.

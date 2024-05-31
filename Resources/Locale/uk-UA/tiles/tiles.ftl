@@ -1,4 +1,4 @@
-tiles-space = проміжок
+tiles-space = космос
 tiles-plating = листова обшивка
 tiles-lattice = сітка
 tiles-lattice-train = решітка поїзда
@@ -29,7 +29,7 @@ tiles-dark-floor = темна сталева плитка
 tiles-dark-floor-mini = темна сталева міні-плитка
 tiles-dark-floor-pavement = темне сталеве покриття
 tiles-dark-floor-diagonal = темна сталева діагональна плитка
-tiles-dark-floor-offset = зміщена темна сталева плитка 
+tiles-dark-floor-offset = зміщена темна сталева плитка
 tiles-dark-floor-mono = темна сталева моно-плитка
 tiles-dark-floor-pavement-vertical = темне сталеве вертикальне покриття
 tiles-dark-floor-herringbone = темний сталевий візерунок «ялинка»

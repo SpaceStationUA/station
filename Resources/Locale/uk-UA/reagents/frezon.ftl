@@ -1,2 +1,2 @@
-﻿frezon-lungs-cold = Your lungs feel colder..
-frezon-euphoric = You feel chilly, but euphoric..
+﻿frezon-lungs-cold = У легенях стало холодніше..
+frezon-euphoric = Ви відчуваєте холод, але ейфорія..

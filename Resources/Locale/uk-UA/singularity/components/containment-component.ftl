@@ -1,7 +1,7 @@
 ﻿comp-containment-turned-on = Захисне поле: запускається.
 comp-containment-turned-off = Захисне поле: припинило роботу
 
-comp-containment-on = Перемекач [color=green]увімкнений[/color], готовий до генерації поля.
+comp-containment-on = Перемикач [color=green]увімкнений[/color], готовий до генерації поля.
 comp-containment-off = Перемикач [color=red]вимкнений[/color].
 
 comp-containment-connected = Генератор поля стримування випромінює світло, коли встановлює з’єднання!

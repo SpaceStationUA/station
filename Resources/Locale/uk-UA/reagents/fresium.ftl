@@ -1,3 +1,3 @@
-fresium-effect-freeze-insides = You feel your insides freezing up!
-fresium-effect-frozen = Your legs have completely frozen up!
-fresium-effect-slow = Your legs buckle and struggle to move!
+fresium-effect-freeze-insides = Ви відчуваєте як ваші нутрощі замерзають!
+fresium-effect-frozen = Ваші ноги повністю замерзли!
+fresium-effect-slow = Ноги підкошуються і важко рухатися!

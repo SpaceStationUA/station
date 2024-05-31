@@ -1,1 +1,1 @@
-attach-to-self-verb-get-data-text = Attach to self
+attach-to-self-verb-get-data-text = Прив'язати до себе

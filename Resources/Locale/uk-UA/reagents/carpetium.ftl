@@ -1,2 +1,2 @@
-﻿carpetium-effect-blood-fibrous = Your blood feels oddly fibrous today.
-carpetium-effect-jumpsuit-insides = You feel like there's a jumpsuit inside you, for some reason.
+﻿carpetium-effect-blood-fibrous = Ваша кров сьогодні здається незвично волокнистою.
+carpetium-effect-jumpsuit-insides = Ти відчуваєш себе так, ніби всередині тебе чомусь комбінезон.

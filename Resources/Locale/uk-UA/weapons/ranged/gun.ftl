@@ -29,13 +29,13 @@ gun-battery-examine = Тут достатньо заряду для [color={$col
 
 # CartridgeAmmoProvider
 gun-chamber-bolt-ammo = Рушниця незакрита
-gun-chamber-bolt = Засув [color={$color}]{$bolt}[/color].
-gun-chamber-bolt-closed = Закритий болт
-gun-chamber-bolt-opened = Відкритий засув
-gun-chamber-bolt-close = Закрити болт
-gun-chamber-bolt-open = Відкрити засув
-gun-chamber-bolt-closed-state = закрито
-gun-chamber-bolt-open-state = відкрито
+gun-chamber-bolt = Запобіжник [color={$color}]{$bolt}[/color].
+gun-chamber-bolt-closed = Запобіжник вимкнений
+gun-chamber-bolt-opened = Запобіжник увімкнений
+gun-chamber-bolt-close = Вимкнути запобіжник
+gun-chamber-bolt-open = Увімкнути запобіжник
+gun-chamber-bolt-closed-state = вимкнуто
+gun-chamber-bolt-open-state = увімкнуто
 gun-chamber-rack = Стійка
 
 # MagazineAmmoProvider

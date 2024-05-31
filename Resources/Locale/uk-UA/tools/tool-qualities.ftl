@@ -10,10 +10,10 @@ tool-quality-screwing-tool-name = Викрутка
 tool-quality-cutting-name = Різання
 tool-quality-cutting-tool-name = Кусачки
 
-tool-quality-welding-name = Зварка
+tool-quality-welding-name = Зварювання
 tool-quality-welding-tool-name = Зварювальний апарат
 
-tool-quality-pulsing-name = Подача живлення
+tool-quality-pulsing-name = З'єднання
 tool-quality-pulsing-tool-name = Мультитул
 
 tool-quality-slicing-name = Нарізка
@@ -29,7 +29,7 @@ tool-quality-woodcutting-name = Дереворубка
 tool-quality-woodcutting-tool-name = Сокира
 
 tool-quality-rolling-name = Прокатка
-tool-quality-rolling-tool-name = Скалка
+tool-quality-rolling-tool-name = Качалка
 
 tool-quality-digging-name = Копання
 tool-quality-digging-tool-name = Лопата

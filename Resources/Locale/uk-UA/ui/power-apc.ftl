@@ -1,4 +1,4 @@
-apc-menu-title = APC
+apc-menu-title = ЗКЖ
 
 apc-menu-breaker-label = Головний вимикач
 apc-menu-breaker-button = Перемкнути

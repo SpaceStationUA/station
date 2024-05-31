@@ -1,6 +1,6 @@
 solar-control-window-title = Консоль керування сонячними панелями
 solar-control-window-output-power = Вихідна потужність:
-solar-control-window-watts = W
+solar-control-window-watts = Ват
 solar-control-window-sun-angle = Кут Сонця:
 solar-control-window-degrees = °
 solar-control-window-panel-angle = Кут панелі:

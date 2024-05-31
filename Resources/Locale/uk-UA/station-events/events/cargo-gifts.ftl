@@ -1,23 +1,23 @@
-cargo-gifts-event-announcement = Congratulations! { $sender } has decided to send { $description } to the station { $dest }. Look for it in your next cargo shipment.
-cargo-gift-default-description = A bundle of gifts
-cargo-gift-default-sender = NanoTrasen
-cargo-gift-default-dest = Logistics Dept.
+cargo-gifts-event-announcement = Вітаємо! { $sender } вирішили надіслати { $description } для { $dest }. Шукайте його в наступному вантажі.
+cargo-gift-default-description = Подаруночки!
+cargo-gift-default-sender = НаноТрейзен
+cargo-gift-default-dest = Логістичний Департамент
 
-cargo-gift-dest-bar = bar
-cargo-gift-dest-eng = Engineering Dept
-cargo-gift-dest-supp = Logistics Dept
-cargo-gift-dest-janitor = Service Dept
-cargo-gift-dest-med = Medical Dept
-cargo-gift-dest-sec = Security Dept
+cargo-gift-dest-bar = бару
+cargo-gift-dest-eng = Інженерний Департаменту
+cargo-gift-dest-supp = Логістичний Департаменту
+cargo-gift-dest-janitor = Сервісний Департаменту
+cargo-gift-dest-med = Медичний Департаменту
+cargo-gift-dest-sec = Департаменту Служби Безпеки
 
-cargo-gift-pizza-small = A small pizza party
-cargo-gift-pizza-large = A large pizza party
+cargo-gift-pizza-small = Маленьку партію піци
+cargo-gift-pizza-large = Велику партію піци
 
-cargo-gift-eng = Repair Materials
-cargo-gift-vending = Vending machines refills
-cargo-gift-cleaning = Cleaning equipment
-cargo-gift-medical-supply = Medical supplies
-cargo-gift-space-protection = Space Hazard Protection
-cargo-gift-fire-protection = Fire Protection
-cargo-gift-security-guns = Lethal Weapons
-cargo-gift-security-riot = Riot Gear
+cargo-gift-eng = Відновлювальні Матеріали
+cargo-gift-vending = Поповнення Для Торгових Автоматів
+cargo-gift-cleaning = Прибиральне Спорядження
+cargo-gift-medical-supply = Медичну Допомогу
+cargo-gift-space-protection = Захист Від Космічних Небезпек
+cargo-gift-fire-protection = Захист Від Вогню
+cargo-gift-security-guns = Летальну Зброю
+cargo-gift-security-riot = Засоби Для Приборкання Повстань
