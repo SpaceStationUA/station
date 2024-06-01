@@ -2,7 +2,7 @@
   id: Meta
   mapName: 'Meta Station'
   mapPath: /Maps/meta.yml
-  minPlayers: 5
+  minPlayers: 0
   stations:
     Meta:
       stationProto: StandardNanotrasenStation
@@ -41,7 +41,7 @@
             Paramedic: [ 1, 1 ]
             #science
             ResearchDirector: [ 1, 1 ]
-            Scientist: [ 3, 5 ]
+            Scientist: [ 5, 7 ]
             ResearchAssistant: [ 3, 6 ]
             Borg: [ 2, 2 ]
             Roboticist: [ 2, 2 ]
