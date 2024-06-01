@@ -104,6 +104,10 @@ namespace Content.Shared.Roles
             bool isWhitelisted,
             string? localePrefix = "role-timer-")
         {
+            if (localePrefix == null){ //PIRATE FIX
+                localePrefix = "role-timer-";
+            }
+
             reason = null;
 
             switch (requirement)
