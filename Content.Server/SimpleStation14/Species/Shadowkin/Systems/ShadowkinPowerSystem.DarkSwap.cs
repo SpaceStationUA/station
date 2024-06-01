@@ -281,12 +281,12 @@ public sealed class ShadowkinDarkSwapSystem : EntitySystem
             if (!_entity.TryGetComponent<NpcFactionMemberComponent>(uid, out var factions))
                 return;
 
-            // Copy the suppressed factions to the power component
-            // component.SuppressedFactions = factions.Factions.ToList();
-
             // Remove the factions from the entity
             foreach (var faction in factions.Factions)
+            {
+                component.SuppressedFactions.Add(faction);
                 _factions.RemoveFaction(uid, faction);
+            }
 
             // Add status factions for The Dark to the entity
             // foreach (var faction in component.AddedFactions)
