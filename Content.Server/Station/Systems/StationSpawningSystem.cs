@@ -191,7 +191,7 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
             _metaSystem.SetEntityName(entity.Value, profile.Name);
             if (profile.FlavorText != "" && _configurationManager.GetCVar(CCVars.FlavorText))
             {
-                AddComp<DetailExaminableComponent>(entity.Value).Content = profile.FlavorText;
+                EnsureComp<DetailExaminableComponent>(entity.Value).Content = profile.FlavorText;
             }
         }
 
