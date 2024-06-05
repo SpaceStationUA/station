@@ -8,4 +8,5 @@ advertisement-magivend-7 = Кайзер,викликаю тебе!
 advertisement-magivend-8 = Знищити станцію!
 advertisement-magivend-9 = Обладнання для згинання простору-часу!
 advertisement-magivend-10 = 1234 LOONIES LOL!
+advertisement-magivend-11 = NAR'SIE, RISE!!!
 

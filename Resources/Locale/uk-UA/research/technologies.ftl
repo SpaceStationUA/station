@@ -46,6 +46,7 @@ research-technology-wave-particle-harnessing = Використання X-про
 research-technology-advanced-riot-control = Удосконалений RIOT контроль
 research-technology-portable-microfusion-weaponry = Портативна мікрофузійна зброя
 research-technology-experimental-battery-ammo = Експериментальні акумуляторні патрони
+research-technology-energy_barriers = Energy Barriers
 research-technology-basic-shuttle-armament = Основне озброєння шатлу
 research-technology-advanced-shuttle-weapon = Удосконалена шатлова зброя
 
@@ -64,6 +65,7 @@ research-technology-advanced-anomaly-research = Передові дослідж�
 research-technology-rped = Швидка Заміна Компонентів
 research-technology-super-parts = Суперкомпоненти
 research-technology-deterrence = Технології стримування
+research-technology-bluespace-mining = Bluespace Mining
 
 research-technology-janitorial-equipment = Прибиральне Обладнання
 research-technology-laundry-tech = Технологія Виготовлення Одягу

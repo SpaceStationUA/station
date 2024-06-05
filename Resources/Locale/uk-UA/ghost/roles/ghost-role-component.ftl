@@ -3,6 +3,17 @@ ghost-role-component-default-rules = Ви не пам'ятаєте [color=red]Н
                                      Ви можете мати загальні знання про гру (як готувати, як користуватися предметами тощо).
                                      Вам абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати, говорити, згадувати тощо, про вашого минулого персонажа.
 
+# Delta V soft antag rule
+deltav-ghost-role-information-softantag-rules = You are allowed to attack the crew without provocation.
+                                                You are allowed to coexist with the crew.
+                                                The crew is allowed to kill you without warning.
+
+# Delta V salvage antag rule
+deltav-ghost-role-information-salvageantag-rules =  You are a salvage mob.
+                                                    You are allowed to attack salvagers without provocation. DO NOT GIB THEIR CORPSES!
+                                                    You are allowed to attack the salvage shuttle.
+                                                    You are NOT allowed to go to the station. If the salvagers go to the station, you can't follow them.
+
 ghost-role-information-mouse-name = Миша
 ghost-role-information-mouse-description = Голодна пустотлива миша.
 
@@ -207,6 +218,10 @@ ghost-role-information-Cak-rules = Ти живий їстівний солодк
 ghost-role-information-BreadDog-name = Хлібний пес
 ghost-role-information-BreadDog-description = Ви улюблена дитина шеф-кухаря. Ти живий хлібо-собака.
 ghost-role-information-BreadDog-rules = Ти їстівний пес із хліба. Ваше завдання - знайти своє місце в цьому світі, де все хоче вас з'їсти.
+
+ghost-role-information-Shiva-name = Shiva
+ghost-role-information-Shiva-description = Shiva, the stations first defender. Help the Head of Security in their work
+ghost-role-information-Shiva-rules = Protect security staff and the crew from danger. Stay with Security staff or around the Security department, try to disable criminals and not kill them if the situation allows for it.
 
 ghost-role-information-exterminator-name = Знищувач
 ghost-role-information-exterminator-description = Вас відправили назад у часі, щоб знищити ціль, яка має велике значення для майбутнього.

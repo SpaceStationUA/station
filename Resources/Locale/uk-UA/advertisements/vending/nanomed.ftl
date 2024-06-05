@@ -2,6 +2,8 @@
 advertisement-nanomed-2 = Найкраще для вашого медбею.
 advertisement-nanomed-3 = Тільки найкращі інструменти.
 advertisement-nanomed-4 = Природні хімікати!
-advertisement-nanomed-5 = Ця штука шурятує життя.
+advertisement-nanomed-5 = Ця штука рятує життя.
 advertisement-nanomed-6 = Ви не хочете?
 advertisement-nanomed-7 = пінгую!
+advertisement-nanomed-8 = Make sure not to overdose people!
+advertisement-nanomed-9 = Go overdose people!

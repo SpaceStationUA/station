@@ -1,4 +1,3 @@
-
 ### UI
 
 # For the PDA screen
@@ -22,17 +21,17 @@ pda-bound-user-interface-show-uplink-description = Подивитись у св�
 pda-bound-user-interface-lock-uplink-title = Заблокувати Uplink
 pda-bound-user-interface-lock-uplink-description = Забороніть будь-кому отримати доступ до вашого uplink без коду
 
-comp-pda-ui-menu-title = Планшет
+comp-pda-ui-menu-title = КПК
 
-comp-pda-ui-footer = Станція: [color=white]{$station}[/color]
+comp-pda-ui-footer = Персональний Цифровий Асистент
 
-comp-pda-ui-station-alert-level = Рівень Тривоги: [color={ $color }]{ $level }[/color]
+comp-pda-ui-station = Станція: [color=white]{$station}[/color]
+
+comp-pda-ui-station-alert-level = Рівень тривоги: [color={ $color }]{ $level }[/color]
 
 comp-pda-ui-station-alert-level-instructions = Інструкції: [color=white]{ $instructions }[/color]
 
-comp-pda-ui-station-alert-level-instructions = Інструкції: [color=white]{ $instructions }[/color]
-
-comp-pda-ui-station-time = Зміна триває: [color=white]{ $time }[/color]
+comp-pda-ui-station-time = Тривалість зміни: [color=white]{ $time }[/color]
 
 comp-pda-ui-eject-id-button = Вийняти ID
 
@@ -51,3 +50,5 @@ pda-bound-user-interface-music-button-description = Грати музику на
 comp-pda-ui-unknown = Невідомо
 
 comp-pda-ui-unassigned = Непризначено
+
+pda-notification-message = [font size=12][bold]КПК[/bold] { $header }: [/font] "{ $message }"

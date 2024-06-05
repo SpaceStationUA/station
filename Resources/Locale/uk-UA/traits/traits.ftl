@@ -2,11 +2,12 @@ trait-blindness-name = Сліпота
 trait-blindness-desc = Ви нічого не бачите
 
 trait-narcolepsy-name = Нарколепсія
-trait-narcolepsy-decs = Ви раптово засинаєте
+trait-narcolepsy-desc = Ви раптово засинаєте
 
 trait-pacifist-name = Пацифіст
+trait-pacifist-desc = You cannot attack or hurt any living beings.
 
-permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} очі скляні та розфокусовані. Не схоже що {SUBJECT($target)} може бачити вас.[/color]
+permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} eyes are glassy and unfocused. It doesn't seem like {SUBJECT($target)} can see you well, if at all.[/color]
 
 trait-lightweight-name = Легкий Алкоголізм
 trait-lightweight-desc = Алкоголь має більший ефект на вас
@@ -38,6 +39,8 @@ trait-frontal-lisp-desc = Ви тросески сепелявите
 trait-socialanxiety-name = Соціальна тривожність
 trait-socialanxiety-desc = Ви хвилюєтеся, коли говорите і заїкаєтесь.
 
+trait-snoring-name = Хропіння
+trait-snoring-desc = Ви хропите коли спите.
 
 trait-goblin-accent-name = Гоблін кант
 trait-goblin-accent-desc = Ви розмовляєте секретною мовою яку багато хто вважає як недолугу і тому не дуже секретною

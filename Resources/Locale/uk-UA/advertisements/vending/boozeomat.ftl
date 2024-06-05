@@ -17,3 +17,6 @@ advertisement-boozeomat-16 = Вино, відзначене нагородами
 advertisement-boozeomat-17 = Максимум алкоголю! Максимум сили!
 advertisement-boozeomat-18 = Людина любить пиво. Людина любить вино.
 advertisement-boozeomat-19 = Тост за прогрес!
+thankyou-boozeomat-1 = Please drink responsibly!
+thankyou-boozeomat-2 = Please drink un-responsibly!
+thankyou-boozeomat-3 = Please enjoy your drink!

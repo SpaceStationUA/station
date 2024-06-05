@@ -32,3 +32,4 @@ plant-holder-component-light-improper-warning = Блимає [color=yellow]сп�
 plant-holder-component-heat-improper-warning = Блимає [color=orange]сповіщення про невідповідний рівень температури[/color]
 plant-holder-component-pressure-improper-warning = Блимає [color=lightblue]сповіщення про невідповідний тиск середовища[/color]
 plant-holder-component-gas-missing-warning = Блимає [color=cyan]сповіщення про невідповідне газове середовище[/color]
+plant-holder-component-early-sample-message = The plant hasn't grown enough to take a sample yet.

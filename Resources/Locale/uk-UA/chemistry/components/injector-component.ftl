@@ -18,9 +18,12 @@ injector-component-transfer-success-message = Ви перемістили {$amou
 injector-component-draw-success-message = Ви набрали {$amount}u з {$target}.
 injector-component-target-already-full-message = {$target} вже повний!
 injector-component-target-is-empty-message = {$target} пустий!
+injector-component-cannot-toggle-draw-message = Too full to draw!
+injector-component-cannot-toggle-inject-message = Nothing to inject!
 
 ## mob-inject doafter messages
 
+injector-component-drawing-user = You start drawing the needle.
 injector-component-injecting-user = Ви почали вводити голку.
 injector-component-drawing-target = {CAPITALIZE(THE($user))} намагається використати голку, щоб взяти рідину з вас!
 injector-component-injecting-target = {CAPITALIZE($user)} намагається встромити в вас голку!

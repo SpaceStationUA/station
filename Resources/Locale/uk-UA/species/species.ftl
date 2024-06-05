@@ -7,3 +7,5 @@ species-name-slime = Слаймолюд
 species-name-diona = Діона
 species-name-arachnid = Арахнід
 species-name-moth = Міль
+species-name-skeleton = Skeleton
+species-name-vox = Vox

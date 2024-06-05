@@ -9,3 +9,7 @@ advertisement-cigs-8 = Не відмовляйтеся, купуйте біль�
 advertisement-cigs-9 = Нікотинова насолода
 advertisement-cigs-10 = Найкращі сигарети з 2150 року.
 advertisement-cigs-11 = Наші цигарки виграють нагороди!
+advertisement-cigs-12 = Here to take an edge off work!
+thankyou-cigs-1 = You've got 'em, now smoke 'em!
+thankyou-cigs-2 = You probably won't regret it!
+thankyou-cigs-3 = You'll become an addict in no time!

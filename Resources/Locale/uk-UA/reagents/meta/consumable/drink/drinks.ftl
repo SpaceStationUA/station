@@ -46,6 +46,9 @@ reagent-desc-nothing = цього не існує,сходи до психоло
 reagent-name-nuclear-cola = термоядерна кола
 reagent-desc-nuclear-cola = хтось кинув туди тренболон з креатином? Пані та панове,бобік більше не працює.
 
+reagent-name-hot-cocoa = hot cocoa
+reagent-desc-hot-cocoa = Smells like the holidays!
+
 reagent-name-soda-water = содова
 reagent-desc-soda-water = газова вода,часто використовується барменами та звичайними громадянами.
 
@@ -81,3 +84,6 @@ reagent-desc-the-martinez = легенда Карпат,мікс відпочи�
 
 reagent-name-white-gilgamesh = блідий Гільгамеш
 reagent-desc-white-gilgamesh = якщо ви вважаєте що можете назвати пиво з молоком на честь шумерського царя...
+
+reagent-name-mopwata = mopwata
+reagent-desc-mopwata = Dirty, stagnant mop water.

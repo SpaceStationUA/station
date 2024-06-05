@@ -2,3 +2,5 @@
 advertisement-theater-2 = Підійшов і взувся!
 advertisement-theater-3 = Час вистави, час шоу!
 advertisement-theater-4 = Навіщо залишати стиль напризволяще? Використовуйте AutoDrobe!
+advertisement-theater-5 = All wacky outfits and clothes, from gladitor robes to who knows what!
+advertisement-theater-6 = The clown will appreciate your outfit!

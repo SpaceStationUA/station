@@ -11,6 +11,7 @@ comp-solution-transfer-is-full = {$target} повний!
 ## Displayed in change transfer amount verb's name
 comp-solution-transfer-verb-custom-amount = Інший
 comp-solution-transfer-verb-amount = {$amount}u
+comp-solution-transfer-verb-toggle = Toggle to {$amount}u
 
 ## Displayed after you successfully change a solution's amount using the BUI
 comp-solution-transfer-set-amount = Обсяг перенесення встановлено на {$amount}u.

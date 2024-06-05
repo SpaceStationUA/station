@@ -1,4 +1,4 @@
-﻿positronic-brain-installed = Виявлено нейронну активність.
+positronic-brain-installed = Виявлено нейронну активність.
 positronic-brain-off = Нейронної активності не виявлено
 positronic-brain-still-searching = Виконується дешифрування синтетичного нейрона...
 positronic-brain-searching = Початок дешифрування синтетичних нейронів...
@@ -11,3 +11,5 @@ positronic-brain-wiped-device = Нервова активність була п�
 
 positronic-brain-stop-searching-verb-text = Припиніть пошуки
 positronic-brain-stopped-searching = Дешифрування нейронів зупинено.
+
+positronic-brain-slot-component-slot-name-brain = Мозок

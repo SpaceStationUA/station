@@ -8,7 +8,9 @@ pai-system-role-description = Стань чиєюсь електронною б�
                               (Спогади *відсутні*.)
 pai-system-role-name-syndicate = персональний ШІ синдикату
 pai-system-role-description-syndicate = Стань електронним компаньйоном синдикату!
-                                        (Memories *not* included.)
+                                        (Спогади *відсутні*.)
+pai-system-role-name-potato = potato artificial intelligence
+pai-system-role-description-potato = It's a toy for children. And now you live in it.
 
 pai-system-wipe-device-verb-text = Видалення пШІ
 pai-system-wiped-device = Бібліотеку пШІ було видалено з цього пристрою.

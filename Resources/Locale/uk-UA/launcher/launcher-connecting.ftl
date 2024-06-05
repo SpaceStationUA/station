@@ -9,6 +9,7 @@ connecting-redial-wait = Будь ласка зачекайте : { TOSTRING($ti
 connecting-in-progress = Приєднання до сервера...
 connecting-disconnected = Відключення:
 connecting-tip = Повернись живим!
+connecting-window-tip = Порада { $numberTip }
 connecting-version = ver 0.1
 connecting-fail-reason = Помилка при підключення:
                          { $reason }

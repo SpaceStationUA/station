@@ -50,10 +50,6 @@ chat-manager-admin-channel-name = АДМІН
 chat-manager-rate-limited = Ви надсилаєте повідомлення надто швидко!
 chat-manager-rate-limit-admin-announcement = Гравець { $player } перевищив ліміт повідомлень на секунду. Watch them if this is a regular occurence.
 
-chat-manager-send-empathy-chat-wrap-message = {$empathyChannelName}: {$message}
-chat-manager-send-empathy-chat-wrap-message-admin = {$empathyChannelName} - {$source}: {$message}
-chat-manager-empathy-channel-name = ЕМПАТІЯ
-
 ## Speech verbs for chat
 
 chat-speech-verb-suffix-exclamation = !
@@ -85,6 +81,13 @@ chat-speech-verb-plant-1 = шелестить
 chat-speech-verb-plant-2 = гойдається
 chat-speech-verb-plant-3 = скрипить
 
+chat-speech-verb-robotic-1 = states
+chat-speech-verb-robotic-2 = beeps
+
+chat-speech-verb-reptilian-1 = hisses
+chat-speech-verb-reptilian-2 = snorts
+chat-speech-verb-reptilian-3 = huffs
+
 chat-speech-verb-skeleton-1 = гримить
 chat-speech-verb-skeleton-2 = клацає
 chat-speech-verb-skeleton-3 = скреготить
@@ -92,10 +95,6 @@ chat-speech-verb-skeleton-3 = скреготить
 chat-speech-verb-vox-1 = верещить
 chat-speech-verb-vox-2 = кричить
 chat-speech-verb-vox-3 = каркає
-
-chat-speech-verb-skeleton-1 = брязкає
-chat-speech-verb-skeleton-2 = клацає
-chat-speech-verb-skeleton-3 = скрегоче
 
 chat-speech-verb-canine-1 = гавкає
 chat-speech-verb-canine-2 = вуфає
@@ -110,6 +109,10 @@ chat-speech-verb-large-mob-2 = гарчить
 chat-speech-verb-monkey-1 = хрипить
 chat-speech-verb-monkey-2 = верещить
 
+chat-speech-verb-parrot-1 = squawks
+chat-speech-verb-parrot-2 = tweets
+chat-speech-verb-parrot-3 = chirps
+
 chat-speech-verb-cluwne-1 = гигикає
 chat-speech-verb-cluwne-2 = регоче
 chat-speech-verb-cluwne-3 = сміється
@@ -122,3 +125,10 @@ chat-speech-verb-ghost-4 = бурмоче
 chat-speech-verb-electricity-1 = потріскує
 chat-speech-verb-electricity-2 = дзижчить
 chat-speech-verb-electricity-3 = верещить
+
+#PIRATE START
+chat-manager-send-empathy-chat-wrap-message = {$empathyChannelName}: {$message}
+chat-manager-send-empathy-chat-wrap-message-admin = {$empathyChannelName} - {$source}: {$message}
+chat-manager-empathy-channel-name = ЕМПАТІЯ
+
+chat-speech-verb-name-goblin = Goblin

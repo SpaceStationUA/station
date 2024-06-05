@@ -1,14 +1,14 @@
 # ban
 cmd-ban-desc = Забанити когось
-cmd-ban-help = Usage: ban <name or user ID> <reason> [duration in minutes, leave out or 0 for permanent ban]
-cmd-ban-player = Unable to find a player with that name.
-cmd-ban-invalid-minutes = ${minutes} is not a valid amount of minutes!
-cmd-ban-invalid-severity = ${severity} is not a valid severity!
-cmd-ban-invalid-arguments = Invalid amount of arguments
-cmd-ban-hint = <name/user ID>
-cmd-ban-hint-reason = <reason>
-cmd-ban-hint-duration = [duration]
-cmd-ban-hint-severity = [severity]
+cmd-ban-help = Використання: ban <ім'я або ID користувача> <причина> [тривалість у хвилинах, пропустіть або 0 для постійного бану]
+cmd-ban-player = Не вдалося знайти гравця з таким ім'ям.
+cmd-ban-invalid-minutes = {$minutes} - недійсна кількість хвилин!
+cmd-ban-invalid-severity = {$severity} - недійсна серйозність!
+cmd-ban-invalid-arguments = Недійсна кількість аргументів
+cmd-ban-hint = <ім'я/ID користувача>
+cmd-ban-hint-reason = <причина>
+cmd-ban-hint-duration = [тривалість]
+cmd-ban-hint-severity = [серйозність]
 
 cmd-ban-hint-duration-1 = Назавжди
 cmd-ban-hint-duration-2 = 1 день
@@ -18,67 +18,67 @@ cmd-ban-hint-duration-5 = 2 тижні
 cmd-ban-hint-duration-6 = 1 місяць
 
 # ban panel
-cmd-banpanel-desc = Opens the ban panel
-cmd-banpanel-help = Usage: banpanel [name or user guid]
-cmd-banpanel-server = This can not be used from the server console
-cmd-banpanel-player-err = The specified player could not be found
+cmd-banpanel-desc = Відкрити панель бану
+cmd-banpanel-help = Використання: banpanel [ім'я або guid користувача]
+cmd-banpanel-server = Це не можна використовувати з консолі сервера
+cmd-banpanel-player-err = Вказаного гравця не знайдено
 
 # listbans
-cmd-banlist-desc = Lists a user's active bans.
-cmd-banlist-help = Usage: banlist <name or user ID>
-cmd-banlist-empty = No active bans found for {$user}
-cmd-banlistF-hint = <name/user ID>
+cmd-banlist-desc = Показати активні бани користувача.
+cmd-banlist-help = Використання: banlist <ім'я або ID користувача>
+cmd-banlist-empty = Активних банів для {$user} не знайдено
+cmd-banlistF-hint = <ім'я/ID користувача>
 
-cmd-ban_exemption_update-desc = Set an exemption to a type of ban on a player.
-cmd-ban_exemption_update-help = Usage: ban_exemption_update <player> <flag> [<flag> [...]]
-    Specify multiple flags to give a player multiple ban exemption flags.
-    To remove all exemptions, run this command and give "None" as only flag.
+cmd-ban_exemption_update-desc = Встановити виняток з типу бану для гравця.
+cmd-ban_exemption_update-help = Використання: ban_exemption_update <гравець> <прапор> [<прапор> [...]]
+    Вкажіть кілька прапорів, щоб дати гравцеві кілька винятків.
+    Щоб видалити всі винятки, виконайте цю команду та вкажіть "None" як єдиний прапор.
 
-cmd-ban_exemption_update-nargs = Expected at least 2 arguments
-cmd-ban_exemption_update-locate = Unable to locate player '{$player}'.
-cmd-ban_exemption_update-invalid-flag = Invalid flag '{$flag}'.
-cmd-ban_exemption_update-success = Updated ban exemption flags for '{$player}' ({$uid}).
-cmd-ban_exemption_update-arg-player = <player>
-cmd-ban_exemption_update-arg-flag = <flag>
+cmd-ban_exemption_update-nargs = Очікувалося щонайменше 2 аргументи
+cmd-ban_exemption_update-locate = Не вдалося знайти гравця '{$player}'.
+cmd-ban_exemption_update-invalid-flag = Недійсний прапор '{$flag}'.
+cmd-ban_exemption_update-success = Оновлено прапори винятків для '{$player}' ({$uid}).
+cmd-ban_exemption_update-arg-player = <гравець>
+cmd-ban_exemption_update-arg-flag = <прапор>
 
-cmd-ban_exemption_get-desc = Show ban exemptions for a certain player.
-cmd-ban_exemption_get-help = Usage: ban_exemption_get <player>
+cmd-ban_exemption_get-desc = Показати винятки з банів для певного гравця.
+cmd-ban_exemption_get-help = Використання: ban_exemption_get <гравець>
 
-cmd-ban_exemption_get-nargs = Expected exactly 1 argument
-cmd-ban_exemption_get-none = User is not exempt from any bans.
-cmd-ban_exemption_get-show = User is exempt from the following ban flags: {$flags}.
-cmd-ban_exemption_get-arg-player = <player>
+cmd-ban_exemption_get-nargs = Очікувався рівно 1 аргумент
+cmd-ban_exemption_get-none = Користувач не має винятків з банів.
+cmd-ban_exemption_get-show = Користувач має такі винятки з банів: {$flags}.
+cmd-ban_exemption_get-arg-player = <гравець>
 
 # Ban panel
-ban-panel-title = Banning panel
-ban-panel-player = Player
+ban-panel-title = Панель бану
+ban-panel-player = Гравець
 ban-panel-ip = IP
 ban-panel-hwid = HWID
-ban-panel-reason = Reason
-ban-panel-last-conn = Use IP and HWID from last connection?
-ban-panel-submit = Ban
-ban-panel-confirm = Are you sure?
-ban-panel-tabs-basic = Basic info
-ban-panel-tabs-reason = Reason
-ban-panel-tabs-players = Player List
-ban-panel-tabs-role = Role ban info
-ban-panel-no-data = You must provide either a user, IP or HWID to ban
-ban-panel-invalid-ip = The IP address could not be parsed. Please try again
-ban-panel-select = Select type
-ban-panel-server = Server ban
-ban-panel-role = Role ban
-ban-panel-minutes = Minutes
-ban-panel-hours = Hours
-ban-panel-days = Days
-ban-panel-weeks = Weeks
-ban-panel-months = Months
-ban-panel-years = Years
-ban-panel-permanent = Permanent
-ban-panel-ip-hwid-tooltip = Leave empty and check the checkbox below to use last connection's details
-ban-panel-severity = Severity:
-ban-panel-erase = Erase chat messages and player from round
+ban-panel-reason = Причина
+ban-panel-last-conn = Використовувати IP та HWID з останнього підключення?
+ban-panel-submit = Забанити
+ban-panel-confirm = Ви впевнені?
+ban-panel-tabs-basic = Основна інформація
+ban-panel-tabs-reason = Причина
+ban-panel-tabs-players = Список гравців
+ban-panel-tabs-role = Інформація про бан ролі
+ban-panel-no-data = Ви повинні вказати користувача, IP або HWID для бану
+ban-panel-invalid-ip = Не вдалося розпізнати IP адресу. Спробуйте ще раз
+ban-panel-select = Виберіть тип
+ban-panel-server = Бан сервера
+ban-panel-role = Бан ролі
+ban-panel-minutes = Хвилини
+ban-panel-hours = Години
+ban-panel-days = Дні
+ban-panel-weeks = Тижні
+ban-panel-months = Місяці
+ban-panel-years = Роки
+ban-panel-permanent = Назавжди
+ban-panel-ip-hwid-tooltip = Залиште порожнім та поставте галочку нижче, щоб використовувати дані з останнього підключення
+ban-panel-severity = Серйозність:
+ban-panel-erase = Видалити повідомлення чату та гравця з раунду
 
 # Ban string
-server-ban-string = {$admin} created a {$severity} severity server ban that expires {$expires} for [{$name}, {$ip}, {$hwid}], with reason: {$reason}
-server-ban-string-no-pii = {$admin} created a {$severity} severity server ban that expires {$expires} for {$name} with reason: {$reason}
-server-ban-string-never = never
+server-ban-string = {$admin} створив бан з серйозністю {$severity}, який закінчується {$expires} для [{$name}, {$ip}, {$hwid}], з причиною: {$reason}
+server-ban-string-no-pii = {$admin} створив бан з серйозністю {$severity}, який закінчується {$expires} для {$name} з причиною: {$reason}
+server-ban-string-never = ніколи

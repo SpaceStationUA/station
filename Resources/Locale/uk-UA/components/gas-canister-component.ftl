@@ -19,3 +19,7 @@ comp-gas-canister-ui-release-valve-open = Відкрити
 comp-gas-canister-ui-release-valve-close = Закрити
 
 comp-gas-canister-ui-pressure = {$pressure} кПа
+
+# Canister gas tank slot
+
+comp-gas-canister-slot-name-gas-tank = Gas tank

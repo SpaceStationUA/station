@@ -1,4 +1,6 @@
-﻿default-program-name = Програма
+device-pda-slot-component-slot-name-cartridge = Cartridge
+
+default-program-name = Програма
 notekeeper-program-name = Заміки
 news-read-program-name = Новини станції
 
@@ -11,3 +13,9 @@ net-probe-label-name = Імʼя
 net-probe-label-address = Адреса
 net-probe-label-frequency = Частота
 net-probe-label-network = Мережа
+
+log-probe-program-name = LogProbe
+log-probe-scan = Downloaded logs from {$device}!
+log-probe-label-time = Time
+log-probe-label-accessor = Accessed by
+log-probe-label-number = #

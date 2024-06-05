@@ -19,3 +19,5 @@ chatsan-waves = махає рукою
 chatsan-salutes = салютує
 chatsan-tearfully-salutes = слізно салютує
 chatsan-shrugs = знизує плечима
+chatsan-tearfully-smiles = tearfully smiles
+chatsan-winks = winks

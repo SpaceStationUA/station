@@ -26,7 +26,12 @@ hud-chatbox-channel-Whisper = Шепіт
 hud-chatbox-channel-LOOC = LOOC
 hud-chatbox-channel-OOC = OOC
 hud-chatbox-channel-Radio = Радіо
+hud-chatbox-channel-Notifications = Notifications
 hud-chatbox-channel-Server = Сервер
 hud-chatbox-channel-Visual = Дії
 hud-chatbox-channel-Damage = Шкода
 hud-chatbox-channel-Unspecified = Невизначений
+
+#PIRATE START
+hud-chatbox-select-channel-Empathy = Empathy
+hud-chatbox-channel-Empathy = Empathy

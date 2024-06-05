@@ -5,3 +5,6 @@ advertisement-dinnerware-4 = Ти любиш виделки?
 advertisement-dinnerware-5 = Я люблю виделки.
 advertisement-dinnerware-6 = Воу, посуд. Вперше бачу!
 advertisement-dinnerware-7 = Це вам справді не потрібно...
+advertisement-dinnerware-8 = Take them if you want them!
+advertisement-dinnerware-9 = I'm pretty sure beakers are a must-have.
+advertisement-dinnerware-10 = WHY ARE THERE SO MANY KINDS OF MUGS?

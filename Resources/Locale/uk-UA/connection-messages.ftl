@@ -10,20 +10,22 @@ whitelist-playercount-invalid = {$min ->
 }
 whitelist-not-whitelisted-rp = Ви не у вайтлісті. Якщо ви досвідчений гравець, щоб вас додали у вайтліст, зайдіть у наш Дискорд (посилання в лаунчері) та створіть тікет.
 
-command-whitelistadd-description = Додає гравця з зазначеним ніком до вайтліста.
-command-whitelistadd-help = whitelistadd <нік>
-command-whitelistadd-existing = {$username} вже у вайтлісті!
-command-whitelistadd-added = {$username} додано у вайтліст
-command-whitelistadd-not-found = Не вийшло знайти '{$username}'
+cmd-whitelistadd-desc = Додає гравця з зазначеним ніком до вайтліста.
+cmd-whitelistadd-help = whitelistadd <нік>
+cmd-whitelistadd-existing = {$username} вже у вайтлісті!
+cmd-whitelistadd-added = {$username} додано у вайтліст
+cmd-whitelistadd-not-found = Не вийшло знайти '{$username}'
+cmd-whitelistadd-arg-player = [player]
 
-command-whitelistremove-description = Видалити гравця з таким ніком з вайтлісту.
-command-whitelistremove-help = whitelistremove <нік>
-command-whitelistremove-existing = {$username} не у вайтлісті!
-command-whitelistremove-removed = {$username} видалено з вайтліста
-command-whitelistremove-not-found = Неможливо знайти '{$username}'
+cmd-whitelistremove-description = Видалити гравця з таким ніком з вайтлісту.
+cmd-whitelistremove-help = whitelistremove <нік>
+cmd-whitelistremove-existing = {$username} не у вайтлісті!
+cmd-whitelistremove-removed = {$username} видалено з вайтліста
+cmd-whitelistremove-not-found = Неможливо знайти '{$username}'
+cmd-whitelistremove-arg-player = [player]
 
-command-kicknonwhitelisted-description = Кікнути всіх гравців не у вайтлісті з сервера.
-command-kicknonwhitelisted-help = kicknonwhitelisted
+cmd-kicknonwhitelisted-description = Кікнути всіх гравців не у вайтлісті з сервера.
+cmd-kicknonwhitelisted-help = kicknonwhitelisted
 
 ban-banned-permanent = Цього бану можна позбавитись лише оскарежнням.
 ban-banned-permanent-appeal = Цього бану можна позбутись лише поданням апеляції. Ви можете подати апеляцію в {$link}

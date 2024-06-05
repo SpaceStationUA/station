@@ -1,11 +1,14 @@
+## Повідомлення, що показуються гравцям з обмеженням агресії, коли вони намагаються вчинити насильство:
 
-## Messages shown to Pacified players when they try to do violence:
+# З киданням предметів:
+pacified-cannot-throw = Я не можу змусити себе кинути { THE($projectile) }, це може когось поранити!
+# З предметами, що вражають:
+pacified-cannot-throw-embed = Я ніколи не кину { THE($projectile) }, це може застрягти в комусь!
+# З рідинами, що проливаються:
+pacified-cannot-throw-spill = Я не можу кинути { THE($projectile) }, це може пролити неприємні речі на когось!
+# З боласами та пастками:
+pacified-cannot-throw-snare = Я не можу кинути { THE($projectile) }, а що, якщо хтось спіткнеться?!
 
-# With projectiles:
-pacified-cannot-throw = You can't bring yourself to throw { THE($projectile) }, that could hurt someone!
-# With embedding projectiles:
-pacified-cannot-throw-embed = No way you can throw { THE($projectile) }, that could get lodged inside someone!
-# With liquid-spilling projectiles:
-pacified-cannot-throw-spill = You can't possibly throw { THE($projectile) }, that could spill nasty stuff on someone!
-# With bolas and snares:
-pacified-cannot-throw-snare = You can't throw { THE($projectile) }, what if someone trips?!
+pacified-cannot-harm-directly = Я не можу змусити себе поранити { THE($entity) }!
+pacified-cannot-harm-indirect = Я не можу пошкодити { THE($entity) }, це може когось поранити!
+pacified-cannot-fire-gun = Я не можу стріляти з { THE($entity) }, це може когось поранити!

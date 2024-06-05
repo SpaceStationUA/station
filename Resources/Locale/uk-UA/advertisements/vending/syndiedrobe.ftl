@@ -29,4 +29,8 @@ advertisement-syndiedrobe-28 = Наші костюми вологостійкі,
 advertisement-syndiedrobe-29 = Найкращий у галактиці!
 advertisement-syndiedrobe-30 = Що може бути краще запаху нашої форми вранці?
 advertisement-syndiedrobe-31 = Ви можете залишити відгук про зручність форми, відправивши запит на нашу гарячу лінію Тайпан, головне не помилитися номером!
-
+thankyou-syndiedrobe-1 = Put it to good use!
+thankyou-syndiedrobe-2 = Death to NT!
+thankyou-syndiedrobe-3 = Show them the power of style.
+thankyou-syndiedrobe-4 = Happy killing!
+thankyou-syndiedrobe-5 = Enjoy your murderfest!

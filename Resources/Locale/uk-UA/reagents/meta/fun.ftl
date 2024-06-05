@@ -21,3 +21,9 @@ reagent-desc-razorium = Дивна, неньютонівська хімія. В�
 
 reagent-name-fresium = Фрізіум
 reagent-desc-fresium = Таємнича сполука, яка уповільнює вібрацію атомів і молекул... якось. З точки зору непрофесіонала, це робить речі холодними... ДІЙСНО холодними. При попаданні всередину може викликати тривалі проблеми з рухом.
+
+reagent-name-laughter = Laughter
+reagent-desc-laughter = Some say that this is the best medicine, but recent studies have proven that to be untrue.
+
+reagent-name-weh = juice that makes you Weh
+reagent-desc-weh = Pure essence of lizard plush. Makes you Weh!

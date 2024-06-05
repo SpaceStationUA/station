@@ -9,10 +9,10 @@ objectives-player-user-named = [color=White]{$name}[/color] ([color=gray]{$user}
 objectives-player-user = [color=gray]{$user}[/color]
 objectives-player-named = [color=White]{$name}[/color]
 
-objectives-no-objectives = [bold][color=red]{$custody}[/color]{$title} були {$agent}.
-objectives-with-objectives = [bold][color=red]{$custody}[/color]{$title} були {$agent} і мали наступні завдання:
+objectives-no-objectives = {$custody}{$title} були {$agent}.
+objectives-with-objectives = {$custody}{$title} були {$agent} і мали наступні завдання:
 
 objectives-objective-success = {$objective} | [color={$markupColor}]Успіх![/color]
 objectives-objective-fail = {$objective} | [color={$markupColor}]Невдача![/color] ({$progress}%)
 
-objectives-in-custody = | ЗАТРИМАНО |
+objectives-in-custody = [bold][color=red]| ЗАТРИМАНО | [/color][/bold]
