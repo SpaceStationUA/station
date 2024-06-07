@@ -1,0 +1,72 @@
+#IPC
+- type: emoteSounds
+  id: MaleIPC
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: IPCMaleScreams
+    Laugh:
+      collection: IPCMaleLaugh
+    Sneeze:
+      collection: IPCMaleSneezes
+    Cough:
+      collection: IPCMaleCoughs
+    CatMeow:
+      collection: CatMeows
+    CatHisses:
+      collection: CatHisses
+    MonkeyScreeches:
+      collection: MonkeyScreeches
+    RobotBeep:
+      collection: RobotBeeps
+    Yawn:
+      collection: IPCMaleYawn
+    Snore:
+      collection: Snores
+    Honk:
+      collection: BikeHorn
+    Sigh:
+      collection: IPCMaleSigh
+    Crying:
+      collection: IPCMaleCry
+    Whistle:
+      collection: IPCWhistles
+    Weh:
+      collection: Weh
+
+- type: emoteSounds
+  id: FemaleIPC
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: IPCFemaleScreams
+    Laugh:
+      collection: IPCFemaleLaugh
+    Sneeze:
+      collection: IPCFemaleSneezes
+    Cough:
+      collection: IPCFemaleCoughs
+    CatMeow:
+      collection: CatMeows
+    CatHisses:
+      collection: CatHisses
+    MonkeyScreeches:
+      collection: MonkeyScreeches
+    RobotBeep:
+      collection: RobotBeeps
+    Yawn:
+      collection: IPCFemaleYawn
+    Snore:
+      collection: Snores
+    Honk:
+      collection: CluwneHorn
+    Sigh:
+      collection: IPCFemaleSigh
+    Crying:
+      collection: IPCFemaleCry
+    Whistle:
+      collection: IPCWhistles
+    Weh:
+      collection: Weh
