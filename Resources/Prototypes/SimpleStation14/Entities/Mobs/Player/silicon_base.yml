@@ -311,12 +311,12 @@
     - type: Ensnareable
       sprite: Objects/Misc/ensnare.rsi
     - type: Speech
-      speechSounds: Pai
+      speechSounds: IPCTenor
     - type: Vocal
       sounds:
-        Male: MaleHuman
-        Female: FemaleHuman
-        Unsexed: MaleHuman
+        Male: MaleIPC
+        Female: FemaleIPC
+        Unsexed: MaleIPC
     - type: MeleeWeapon
       hidden: true
       soundHit:
