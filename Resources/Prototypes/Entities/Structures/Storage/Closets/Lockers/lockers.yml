@@ -467,6 +467,8 @@
   parent: LockerBase
   name: roboticist locker
   components:
+  - type: Sprite
+    sprite: _Pirate/Structures/Storage/closet.rsi
   - type: Appearance
   - type: EntityStorageVisuals
     stateBaseClosed: robotics
