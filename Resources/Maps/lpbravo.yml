@@ -2420,7 +2420,7 @@ entities:
     - pos: 3.5,-2.5
       parent: 1
       type: Transform
-- proto: PoweredlightColoredBlack
+- proto: PoweredLightColoredBlack
   entities:
   - uid: 436
     components:
@@ -2491,7 +2491,7 @@ entities:
       type: Transform
     - enabled: False
       type: AmbientSound
-- proto: PoweredlightColoredRed
+- proto: PoweredLightColoredRed
   entities:
   - uid: 434
     components:
@@ -3177,15 +3177,6 @@ entities:
     - flags: SessionSpecific
       type: MetaData
     - pos: 0.5,-2.5
-      parent: 1
-      type: Transform
-- proto: VendingMachineSyndieContraband
-  entities:
-  - uid: 516
-    components:
-    - flags: SessionSpecific
-      type: MetaData
-    - pos: 0.5,0.5
       parent: 1
       type: Transform
 - proto: VendingMachineSyndieDrobe

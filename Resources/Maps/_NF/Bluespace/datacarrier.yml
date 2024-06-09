@@ -5251,13 +5251,6 @@ entities:
     - pos: 4.5,-5.5
       parent: 1
       type: Transform
-- proto: CrateNPCEmotionalSupportSafe
-  entities:
-  - uid: 337
-    components:
-    - pos: 5.5,-12.5
-      parent: 1
-      type: Transform
 - proto: CrateServiceJanitorialSupplies
   entities:
   - uid: 345
@@ -5265,31 +5258,6 @@ entities:
     - pos: 4.5,-9.5
       parent: 1
       type: Transform
-- proto: CrateSyndicateLightSurplusBundle
-  entities:
-  - uid: 767
-    components:
-    - pos: 11.5,-16.5
-      parent: 1
-      type: Transform
-    - air:
-        volume: 200
-        immutable: False
-        temperature: 75.31249
-        moles:
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-      type: EntityStorage
 - proto: EnergyKatana
   entities:
   - uid: 173
@@ -6451,39 +6419,11 @@ entities:
     - pos: -1.5,-20.5
       parent: 1
       type: Transform
-- proto: PlushieCorgi
-  entities:
-  - uid: 695
-    components:
-    - pos: 17.982115,-12.495051
-      parent: 1
-      type: Transform
-- proto: PlushieGirlyCorgi
-  entities:
-  - uid: 877
-    components:
-    - pos: 17.044615,-12.479426
-      parent: 1
-      type: Transform
-- proto: PlushieJester
-  entities:
-  - uid: 880
-    components:
-    - pos: -16.414333,-12.510676
-      parent: 1
-      type: Transform
 - proto: PlushieLizard
   entities:
   - uid: 1680
     components:
     - pos: -16.836208,-12.729426
-      parent: 1
-      type: Transform
-- proto: PlushieSlips
-  entities:
-  - uid: 1679
-    components:
-    - pos: -16.508083,-12.916926
       parent: 1
       type: Transform
 - proto: PortableScrubber
@@ -7203,13 +7143,6 @@ entities:
     components:
     - rot: 1.5707963267948966 rad
       pos: -8.5,-17.5
-      parent: 1
-      type: Transform
-- proto: RandomMagicBookSafe
-  entities:
-  - uid: 876
-    components:
-    - pos: 2.5,-4.5
       parent: 1
       type: Transform
 - proto: RandomSoap
@@ -8221,18 +8154,6 @@ entities:
     components:
     - rot: 1.5707963267948966 rad
       pos: 10.5,-14.5
-      parent: 1
-      type: Transform
-- proto: VendingMachineArcadia
-  entities:
-  - uid: 396
-    components:
-    - pos: -10.5,-12.5
-      parent: 1
-      type: Transform
-  - uid: 397
-    components:
-    - pos: 10.5,-12.5
       parent: 1
       type: Transform
 - proto: VendingMachineBooze

@@ -6841,17 +6841,6 @@ entities:
     - canCollide: False
       type: Physics
     - type: InsideEntityStorage
-- proto: ClothingShoesClothwarp
-  entities:
-  - uid: 1426
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 1413
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
 - proto: ClothingShoesColorBlack
   entities:
   - uid: 1415
@@ -13139,7 +13128,7 @@ entities:
       pos: 37.5,10.5
       parent: 1
       type: Transform
-- proto: PoweredlightColoredRed
+- proto: PoweredLightColoredRed
   entities:
   - uid: 2467
     components:
@@ -17599,35 +17588,6 @@ entities:
       type: Physics
     - type: InsideEntityStorage
   - uid: 253
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 162
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-- proto: WeaponEmpEmitter
-  entities:
-  - uid: 257
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 162
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-  - uid: 346
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 162
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-  - uid: 399
     components:
     - flags: InContainer
       type: MetaData

@@ -9289,7 +9289,7 @@ entities:
       pos: 1.5,5.5
       parent: 1
       type: Transform
-- proto: PoweredlightColoredBlack
+- proto: PoweredLightColoredBlack
   entities:
   - uid: 1353
     components:
@@ -11907,44 +11907,6 @@ entities:
       type: Physics
     - type: InsideEntityStorage
   - uid: 802
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 798
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-- proto: WeaponEmpEmitter
-  entities:
-  - uid: 656
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 654
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-  - uid: 659
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 654
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-  - uid: 800
-    components:
-    - flags: InContainer
-      type: MetaData
-    - parent: 798
-      type: Transform
-    - canCollide: False
-      type: Physics
-    - type: InsideEntityStorage
-  - uid: 803
     components:
     - flags: InContainer
       type: MetaData
