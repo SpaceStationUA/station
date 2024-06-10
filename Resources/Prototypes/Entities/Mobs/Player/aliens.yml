@@ -388,7 +388,6 @@
         components:
           - MobState
       consumes:
-        - Alive
         - Critical
         - Dead
     - type: VomitAction
@@ -641,7 +640,16 @@
     plasmaPerSecond: 5
     plasmaModified: 40
   - type: Devourer
-    devourTime: 2
+    shouldStoreDevoured: true
+    foodPreference: Humanoid
+    chemical: UncookedAnimalProteins
+    healRate: 5.0
+    whitelist:
+      components:
+      - MobState
+    consumes:
+    - Critical
+    - Dead
   - type: MovementSpeedModifier
     baseWalkSpeed: 4
     baseSprintSpeed: 8
