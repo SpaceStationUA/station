@@ -41,7 +41,7 @@
         - Xeno
     - type: HTN
       rootTask:
-        task: MouseCompound
+        task: XenoCompound
     - type: Physics
     - type: Fixtures
       fixtures:
@@ -381,12 +381,12 @@
         - StaminaModifier
     - type: Devourer
       shouldStoreDevoured: true
-      foodPreference: Humanoid
+      foodPreference: All
       chemical: UncookedAnimalProteins
       healRate: 5.0
       whitelist:
         components:
-          - Dna
+          - MobState
       consumes:
         - Alive
         - Critical
@@ -642,12 +642,12 @@
     plasmaModified: 40
   - type: Devourer
     shouldStoreDevoured: true
-    foodPreference: Humanoid
+    foodPreference: All
     chemical: UncookedAnimalProteins
     healRate: 5.0
     whitelist:
       components:
-        - Dna
+        - MobState
     consumes:
     - Alive
     - Critical
