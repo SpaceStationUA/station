@@ -386,8 +386,9 @@
       healRate: 5.0
       whitelist:
         components:
-          - MobState
+          - Dna
       consumes:
+        - Alive
         - Critical
         - Dead
     - type: VomitAction
@@ -646,8 +647,9 @@
     healRate: 5.0
     whitelist:
       components:
-      - MobState
+        - Dna
     consumes:
+    - Alive
     - Critical
     - Dead
   - type: MovementSpeedModifier
