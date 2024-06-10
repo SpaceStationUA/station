@@ -89,6 +89,8 @@ namespace Content.Shared.Chat
         ///     Nyano - Summary:: Telepathic channel for all psionic entities.
         /// </summary>
         Telepathic = 1 << 15,
+		//test xeno
+        XenoHivemind = 2 << 2,
 
         /// <summary>
         ///     PIRATE Empathy channel for Shadowkin.
@@ -98,7 +100,7 @@ namespace Content.Shared.Chat
         /// <summary>
         ///     Channels considered to be IC.
         /// </summary>
-        IC = Local | Whisper | Radio | Dead | Emotes | Damage | Visual | Telepathic | Notifications | Empathy, //Nyano - Summary: Adds telepathic as an 'IC' labelled chat..
+        IC = Local | Whisper | Radio | Dead | Emotes | Damage | Visual | Telepathic | Notifications | XenoHivemind | Empathy, //Nyano - Summary: Adds telepathic as an 'IC' labelled chat..
 
         AdminRelated = Admin | AdminAlert | AdminChat,
     }

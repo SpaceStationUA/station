@@ -24,6 +24,7 @@ public abstract class SharedChatSystem : EntitySystem
     public const char TelepathicPrefix = '='; //Nyano - Summary: Adds the telepathic channel's prefix.  
     public const char DefaultChannelKey = 'р';
     public const char EmpathyPrefix = '~'; //PIRATE Shadowkin
+	public const char XenoHivemindPrefix = 'а';
 
     [ValidatePrototypeId<RadioChannelPrototype>]
     public const string CommonChannel = "Common";
