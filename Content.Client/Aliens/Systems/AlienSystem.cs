@@ -31,7 +31,7 @@ public sealed class AlienSystem : EntitySystem
         if (args.Handled)
             return;
 
-        RequestToggleLight(uid, component);
+        //RequestToggleLight(uid, component);
         args.Handled = true;
     }
 

@@ -48,6 +48,7 @@ public sealed class AlienSystem : EntitySystem
     [Dependency] private readonly RoleSystem _role = default!;
     [Dependency] private readonly MindSystem _mind = default!;
     [Dependency] private readonly IChatManager _chatMan = default!;
+    [Dependency] private readonly SharedEyeSystem _eye = default!;
 
     /// <inheritdoc/>
     public override void Initialize()
@@ -64,7 +65,6 @@ public sealed class AlienSystem : EntitySystem
     {
         _actions.AddAction(uid, ref component.ToggleLightingActionEntity, component.ToggleLightingAction);
         _actions.AddAction(uid, ref component.WeednodeActionEntity, component.WeednodeAction);
-
     }
 
     private void OnTakeRole(EntityUid uid, AlienComponent component, PlayerAttachedEvent args)
@@ -93,7 +93,6 @@ public sealed class AlienSystem : EntitySystem
                 _chatMan.DispatchServerMessage(args.Player, Loc.GetString("alien-maid-greeting"));
                 break;
         }
-
     }
 
     private void OnPickup(EntityUid uid, AlienComponent component, PickupAttemptEvent args)
@@ -113,13 +112,13 @@ public sealed class AlienSystem : EntitySystem
             _popup.PopupClient(Loc.GetString(Loc.GetString("alien-action-fail-plasma")), uid, uid);
             return;
         }
+
         CreateStructure(uid, component);
         args.Handled = true;
     }
 
     public void CreateStructure(EntityUid uid, AlienComponent component)
     {
-
         if (_container.IsEntityOrParentInContainer(uid))
             return;
 
@@ -157,6 +156,17 @@ public sealed class AlienSystem : EntitySystem
 
         while (query.MoveNext(out var uid, out var alien))
         {
+            if (HasComp<PlasmaTransferComponent>(uid) && TryComp<EyeComponent>(uid, out var eye))
+            {
+                if (eye.DrawLight)
+                {
+                    _eye.SetDrawLight(uid, false);
+                }
+                if (eye.DrawFov)
+                {
+                    _eye.SetDrawFov(uid, false);
+                }
+            }
             var weed = false;
             var passiveDamageComponent = EnsureComp<PassiveDamageComponent>(uid);
             foreach (var entity in _lookup.GetEntitiesInRange(Transform(uid).Coordinates, 0.1f))
@@ -172,5 +182,4 @@ public sealed class AlienSystem : EntitySystem
                 passiveDamageComponent.Damage = new DamageSpecifier();
         }
     }
-
 }
