@@ -1,6 +1,6 @@
 ﻿- type: entity
   name: Alien
-  parent: BaseItem
+  parent: BaseSimpleMob
   id: Facehugger
   description: It has some sort of a tube at the end of its tail. It seems to be active!
   components:
@@ -42,8 +42,11 @@
     - AlienItem
     - MonkeyWearable
   - type: Sprite
+    drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/alien.rsi
-    state: facehugger
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: facehugger
   - type: Item
     sprite: Mobs/Aliens/Xenos/alien.rsi
     state: facehugger
@@ -58,10 +61,27 @@
   - type: Facehugger
     range: 1
   - type: Blindfold
+  - type: NpcFactionMember
+    factions:
+    - Xeno
+  - type: MeleeWeapon
+    hidden: true
+    altDisarm: false
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    angle: 0
+    attackRate: 0.2
+    damage:
+      types:
+        Slash: 1
+  - type: CombatMode
+  - type: HTN
+    rootTask:
+      task: XenoCompound
 
 - type: entity
   name: Alien
-  parent: BaseItem
+  parent: BaseSimpleMob
   id: FacehuggerInactive
   description: It has some sort of a tube at the end of its tail. It doesn't seem active.
   suffix: Inactive
@@ -85,10 +105,16 @@
       tags:
       - AlienItem
       - MonkeyWearable
+    - type: MobState
+      allowedStates:
+      - Dead
+    - type: MobThresholds
+      thresholds:
+        0: Dead
 
 - type: entity
   name: Lamarr
-  parent: BaseItem
+  parent: BaseSimpleMob
   id: FacehuggerLamarr
   description: It has some sort of a tube at the end of its tail, but it doesn't seem, like it can use it.
   components:
@@ -130,8 +156,11 @@
     - AlienItem
     - MonkeyWearable
   - type: Sprite
+    drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/alien.rsi
-    state: facehugger
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: facehugger
   - type: Item
     sprite: Mobs/Aliens/Xenos/alien.rsi
     state: facehugger
@@ -144,3 +173,20 @@
     - Mask
   - type: BreathMask
   - type: Blindfold
+  - type: NpcFactionMember
+    factions:
+    - Xeno
+  - type: MeleeWeapon
+    hidden: true
+    altDisarm: false
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    angle: 0
+    attackRate: 0.2
+    damage:
+      types:
+        Slash: 1
+  - type: CombatMode
+  - type: HTN
+    rootTask:
+      task: XenoCompound
