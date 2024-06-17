@@ -332,8 +332,8 @@ public sealed partial class MapScreen : BoxContainer
                 {
                     AddMapObject(mapComp.MapId, gridObj);
                 }
-                else if (iffComp == null ||
-                         (iffComp.Flags & IFFFlags.Hide) == 0x0)
+                else if (!_shuttles.IsBeaconMap(_mapManager.GetMapEntityId(mapComp.MapId)) && (iffComp == null ||
+                         (iffComp.Flags & IFFFlags.Hide) == 0x0))
                 {
                     _pendingMapObjects.Add((mapComp.MapId, gridObj));
                 }
