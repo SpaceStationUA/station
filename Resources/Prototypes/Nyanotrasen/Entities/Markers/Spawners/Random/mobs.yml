@@ -102,30 +102,30 @@
         - MobXenoQueenNPC
       rareChance: 0.10
 
-- type: entity
-  name: Argocyte Spawner
-  id: ArgocyteAISpawner
-  parent: MarkerBase
-  components:
-    - type: Sprite
-      layers:
-        - state: red
-        - sprite: Mobs/Aliens/Argocyte/argocyte_common.rsi
-          state: crawler
-        - state: ai
-    - type: RandomSpawner
-      prototypes:
-        - MobArgocyteSkitter
-        - MobArgocyteSwiper
-        - MobArgocyteMolder
-        - MobArgocytePouncer
-        - MobArgocyteGlider
-        - MobArgocyteHarvester
-        - MobArgocyteCrawler
-        - MobArgocyteFounder
-      rarePrototypes:
-        - MobArgocyteLeviathing
-      rareChance: 0.10
+# - type: entity
+#   name: Argocyte Spawner
+#   id: ArgocyteAISpawner
+#   parent: MarkerBase
+#   components:
+#     - type: Sprite
+#       layers:
+#         - state: red
+#         - sprite: Mobs/Aliens/Argocyte/argocyte_common.rsi
+#           state: crawler
+#         - state: ai
+#     - type: RandomSpawner
+#       prototypes:
+#         - MobArgocyteSkitter
+#         - MobArgocyteSwiper
+#         - MobArgocyteMolder
+#         - MobArgocytePouncer
+#         - MobArgocyteGlider
+#         - MobArgocyteHarvester
+#         - MobArgocyteCrawler
+#         - MobArgocyteFounder
+#       rarePrototypes:
+#         - MobArgocyteLeviathing
+#       rareChance: 0.10
 
 - type: entity
   name: Watcher Spawner
