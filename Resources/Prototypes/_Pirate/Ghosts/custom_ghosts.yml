@@ -2,7 +2,7 @@
   id: local-test
   ckey: localhost@JoeGenero
   sprite: _Pirate/Ghosts/amata.rsi
-  alpha: 1
+  alpha: 0.3
   ghostName: A.
   ghostDescription: хоч бан?
 
@@ -61,3 +61,11 @@
   alpha: 1
   ghostName: Astrally
   ghostDescription: Шляпа
+
+- type: customGhost
+  id: bunkenran-ghost
+  ckey: bunkenran
+  sprite: _Pirate/Ghosts/bunkenran.rsi
+  alpha: 1
+  ghostName: A.
+  ghostDescription: хоч бан?
