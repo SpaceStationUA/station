@@ -66,6 +66,7 @@ public sealed class ChannelSelectorButton : ChatPopupButton<ChannelSelectorPopup
             ChatSelectChannel.Admin => Color.HotPink,
             ChatSelectChannel.Telepathic => Color.PaleVioletRed, //Nyano - Summary: determines the color for the chat. 
 			ChatSelectChannel.Empathy => Color.PaleVioletRed, // Pirate
+			ChatSelectChannel.XenoHivemind => Color.FromHex("#5b0c82"),
             _ => Color.DarkGray
         };
     }

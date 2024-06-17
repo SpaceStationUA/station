@@ -1,0 +1,192 @@
+﻿- type: entity
+  name: Alien
+  parent: BaseSimpleMob
+  id: Facehugger
+  description: It has some sort of a tube at the end of its tail. It seems to be active!
+  components:
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.2
+        density: 100
+        mask:
+        - SmallMobMask
+        layer:
+        - SmallMobLayer
+  - type: MobState
+  - type: Deathgasp
+  - type: MobStateActions
+    actions:
+      Critical:
+      - ActionCritSuccumb
+      - ActionCritFakeDeath
+      - ActionCritLastWords
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      25: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 5
+    baseSprintSpeed: 5
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: facehugger
+      Dead:
+        Base: facehugger_dead
+  - type: Tag
+    tags:
+    - AlienItem
+    - MonkeyWearable
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Mobs/Aliens/Xenos/alien.rsi
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: facehugger
+  - type: Item
+    sprite: Mobs/Aliens/Xenos/alien.rsi
+    state: facehugger
+    size: Small
+  - type: StaticPrice
+    price: 1000
+  - type: Clothing
+    sprite: Clothing/Mask/facehugger.rsi
+    slots:
+    - Mask
+  - type: BreathMask
+  - type: Facehugger
+    range: 1
+  - type: Blindfold
+  - type: NpcFactionMember
+    factions:
+    - Xeno
+  - type: MeleeWeapon
+    hidden: true
+    altDisarm: false
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    angle: 0
+    attackRate: 0.2
+    damage:
+      types:
+        Slash: 1
+  - type: CombatMode
+  - type: HTN
+    rootTask:
+      task: XenoCompound
+
+- type: entity
+  name: Alien
+  parent: BaseSimpleMob
+  id: FacehuggerInactive
+  description: It has some sort of a tube at the end of its tail. It doesn't seem active.
+  suffix: Inactive
+  components:
+    - type: Sprite
+      sprite: Mobs/Aliens/Xenos/alien.rsi
+      state: facehugger_impregnated
+    - type: Item
+      sprite: Mobs/Aliens/Xenos/alien.rsi
+      state: facehugger_impregnated
+      size: Small
+    - type: StaticPrice
+      price: 100
+    - type: Clothing
+      sprite: Clothing/Mask/facehugger.rsi
+      slots:
+      - Mask
+    - type: BreathMask
+    - type: Blindfold
+    - type: Tag
+      tags:
+      - AlienItem
+      - MonkeyWearable
+    - type: MobState
+      allowedStates:
+      - Dead
+    - type: MobThresholds
+      thresholds:
+        0: Dead
+
+- type: entity
+  name: Lamarr
+  parent: BaseSimpleMob
+  id: FacehuggerLamarr
+  description: It has some sort of a tube at the end of its tail, but it doesn't seem, like it can use it.
+  components:
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.2
+        density: 100
+        mask:
+        - SmallMobMask
+        layer:
+        - SmallMobLayer
+  - type: MobState
+  - type: Deathgasp
+  - type: MobStateActions
+    actions:
+      Critical:
+      - ActionCritSuccumb
+      - ActionCritFakeDeath
+      - ActionCritLastWords
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      25: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 5
+    baseSprintSpeed: 5
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: facehugger
+      Dead:
+        Base: facehugger_dead
+  - type: Tag
+    tags:
+    - AlienItem
+    - MonkeyWearable
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Mobs/Aliens/Xenos/alien.rsi
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: facehugger
+  - type: Item
+    sprite: Mobs/Aliens/Xenos/alien.rsi
+    state: facehugger
+    size: Small
+  - type: StaticPrice
+    price: 1000
+  - type: Clothing
+    sprite: Clothing/Mask/facehugger.rsi
+    slots:
+    - Mask
+  - type: BreathMask
+  - type: Blindfold
+  - type: NpcFactionMember
+    factions:
+    - Xeno
+  - type: MeleeWeapon
+    hidden: true
+    altDisarm: false
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    angle: 0
+    attackRate: 0.2
+    damage:
+      types:
+        Slash: 1
+  - type: CombatMode
+  - type: HTN
+    rootTask:
+      task: XenoCompound
