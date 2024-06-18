@@ -1,4 +1,4 @@
-namespace Content.Server.GameTicking.Events;
+namespace Content.Server.GameTicking;
 
 public sealed class RoundEndedEvent : EntityEventArgs
 {

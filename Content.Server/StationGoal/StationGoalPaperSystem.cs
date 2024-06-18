@@ -1,7 +1,5 @@
-using System.Data;
 using System.Text.RegularExpressions;
 using Content.Server.GameTicking;
-using Content.Server.GameTicking.Events;
 using Content.Server.Fax;
 using Content.Server.Station.Systems;
 using Content.Shared.CCVar;
@@ -10,6 +8,7 @@ using Content.Shared.Random.Helpers;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
+using Content.Shared.Dataset;
 
 namespace Content.Server.StationGoal;
 
@@ -26,20 +25,23 @@ public sealed class StationGoalPaperSystem : EntitySystem
 
     private static readonly Regex StationIdRegex = new(@".*-(\d+)$");
 
+    [ValidatePrototypeId<WeightedRandomPrototype>]
     private const string RandomPrototype = "StationGoals";
-
+    [ValidatePrototypeId<DatasetPrototype>]
+    private const string RandomSignature = "names_last";
 
     public override void Initialize()
     {
         base.Initialize();
 
-        SubscribeLocalEvent<RoundStartingEvent>(OnRoundStarted);
+        SubscribeLocalEvent<RoundStartedEvent>(OnRoundStarted);
     }
 
 
-    private void OnRoundStarted(RoundStartingEvent ev)
+    private void OnRoundStarted(RoundStartedEvent ev)
     {
-        if (_config.GetCVar(CCVars.StationGoalsEnabled))
+        if (_config.GetCVar(CCVars.StationGoalsEnabled)
+        	&& _random.Prob(_config.GetCVar(CCVars.StationGoalsChance)))
             SendRandomGoal();
     }
 
@@ -47,7 +49,7 @@ public sealed class StationGoalPaperSystem : EntitySystem
     ///     Send a random station goal to all faxes which are authorized to receive it
     /// </summary>
     /// <returns>If the fax was successful</returns>
-    /// <exception cref="ConstraintException">Raised when station goal types in the prototype is invalid</exception>
+    /// <exception cref="Exception">Raised when station goal types in the prototype is invalid</exception>
     public bool SendRandomGoal()
     {
         // Get the random station goal list
@@ -74,7 +76,7 @@ public sealed class StationGoalPaperSystem : EntitySystem
         if (_prototype.TryIndex<WeightedRandomPrototype>(goal, out var goalRandom))
             return RecursiveRandom(goalRandom);
 
-        throw new Exception($"StationGoalPaperSystem: Random station goal could not be found from origin prototype {RandomPrototype}");
+        throw new Exception($"StationGoalPaperSystem: Random station goal could not be found from prototypes {RandomPrototype} and {random.ID}");
     }
 
     /// <summary>
@@ -85,11 +87,12 @@ public sealed class StationGoalPaperSystem : EntitySystem
     {
         var enumerator = EntityManager.EntityQueryEnumerator<FaxMachineComponent>();
         var wasSent = false;
+        var signerName = _prototype.Index<DatasetPrototype>(RandomSignature);
 
         while (enumerator.MoveNext(out var uid, out var fax))
         {
-            if (!fax.ReceiveStationGoal ||
-                !TryComp<MetaDataComponent>(_station.GetOwningStation(uid), out var meta))
+            if (!fax.ReceiveStationGoal
+                || !TryComp<MetaDataComponent>(_station.GetOwningStation(uid), out var meta))
                 continue;
 
             var stationId = StationIdRegex.Match(meta.EntityName).Groups[1].Value;
@@ -98,7 +101,8 @@ public sealed class StationGoalPaperSystem : EntitySystem
                 Loc.GetString("station-goal-fax-paper-header",
                     ("date", DateTime.Now.ToString("2470 MMMM dd")),
                     ("station", string.IsNullOrEmpty(stationId) ? "???" : stationId),
-                    ("content", goal.Text)
+                    ("content", goal.Text),
+                    ("name", _random.Pick(signerName.Values))
                 ),
                 Loc.GetString("station-goal-fax-paper-name"),
                 "StationGoalPaper"

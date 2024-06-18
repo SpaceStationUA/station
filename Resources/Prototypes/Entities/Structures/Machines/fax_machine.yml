@@ -81,7 +81,6 @@
         color: "#bfe3ff"
   - type: FaxMachine
     name: "Central Command"
-    receiveStationGoal: true #PIRATE StationGoal
     notifyAdmins: true
 
 - type: entity
@@ -99,7 +98,6 @@
     name: "ERR*?*%!"
     responsePings: false
     notifyAdmins: true
-    receiveStationGoal: true #PIRATE StationGoal
   - type: Emagged
 
 - type: entity
@@ -111,6 +109,7 @@
     - type: FaxMachine
       name: "Captain's Office"
       receiveNukeCodes: true
-      receiveStationGoal: true #PIRATE StationGoal
+      receiveStationGoal: true
     - type: StealTarget
       stealGroup: FaxMachineCaptain
+
