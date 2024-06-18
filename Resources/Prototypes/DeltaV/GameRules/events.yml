@@ -1,5 +1,5 @@
 - type: entity
-  id: AlienInfestation
+  id: XenoVents
   parent: BaseGameRule
   noSpawn: true
   components:
@@ -13,11 +13,22 @@
     duration: 60
   - type: VentCrittersRule
     entries:
-    - id: SpawnPointGhostAlienLarva
-      prob: 0.05
-    specialEntries:
-    - id: SpawnPointGhostAlienLarva
-      prob: 0.05
+    - id: MobXeno
+      prob: 0.01
+    - id: MobXenoRouny
+      prob: 0.005
+    - id: MobXenoDrone
+      prob: 0.005
+    - id: MobXenoSpitter
+      prob: 0.005
+    - id: MobXenoRunner
+      prob: 0.005
+    - id: MobXenoPraetorian
+      prob: 0.005
+    - id: MobXenoRavager
+      prob: 0.005
+    - id: MobXenoQueen
+      prob: 0.005
 
 - type: entity
   id: MothroachSpawn
@@ -49,3 +60,25 @@
     debrisCount: 6
     distanceModifier: 13
     debrisDistanceModifier: 3
+
+#PIRATE START UNTIL END OF FILE
+- type: entity
+  id: AlienInfestation
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    startAnnouncement: station-event-xeno-vent-start-announcement
+    startAudio:
+      path: /Audio/Announcements/aliens.ogg
+    earliestStart: 20
+    minimumPlayers: 15
+    weight: 1
+    duration: 60
+  - type: VentCrittersRule
+    entries:
+    - id: SpawnPointGhostAlienLarva
+      prob: 0.05
+    specialEntries:
+    - id: SpawnPointGhostAlienLarva
+      prob: 0.05
