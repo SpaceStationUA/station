@@ -1,16 +1,16 @@
 - type: construction
-  name: torch
+  name: "факел"
   id: LightTorch
   graph: LightTorch
   startNode: start
   targetNode: torch
   category: construction-category-tools
-  description: A torch fashioned from some wood.
+  description: "Смолоскип, зроблений з дерева."
   icon: { sprite: Objects/Misc/torch.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: logic gate
+  name: "логічний вентиль"
   id: LogicGate
   graph: LogicGate
   startNode: start
@@ -21,7 +21,7 @@
   objectType: Item
 
 - type: construction
-  name: edge detector
+  name: "детектор країв"
   id: EdgeDetector
   graph: LogicGate
   startNode: start
@@ -32,7 +32,7 @@
   objectType: Item
 
 - type: construction
-  name: power sensor
+  name: "датчик потужності"
   id: PowerSensor
   graph: LogicGate
   startNode: start

@@ -1,5 +1,5 @@
 - type: entity
-  name: forensic scanner
+  name: "криміналістичний сканер"
   parent: BaseItem
   id: ForensicScanner
   description: A handheld device that can scan objects for fingerprints and fibers.
@@ -30,7 +30,7 @@
     stealGroup: ForensicScanner
 
 - type: entity
-  name: forensic scanner report
+  name: "звіт криміналістичного сканера"
   parent: Paper
   id: ForensicReportPaper
   description: 'Circumstantial evidence, at best'

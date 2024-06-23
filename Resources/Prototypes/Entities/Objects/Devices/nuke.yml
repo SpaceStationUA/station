@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseStructure
   id: NuclearBomb
-  name: nuclear fission explosive
+  name: "вибухівка ядерного розщеплення"
   description: You probably shouldn't stick around to see if this is armed.
   components:
   - type: Transform
@@ -117,9 +117,9 @@
 - type: entity
   parent: StorageTank
   id: NuclearBombKeg
-  name: nuclear fission explosive
+  name: "вибухівка ядерного розщеплення"
   suffix: keg
-  description: You probably shouldn't stick around to see if this is armed. It has a tap on the side.
+  description: "Вам, мабуть, не варто залишатися тут, щоб перевірити, чи він озброєний. Тут є кран збоку."
   components:
   - type: NukeLabel
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   noSpawn: true
   id: BaseAPC
-  name: APC
-  description: A control terminal for the area's electrical systems.
+  name: "БТР"
+  description: "Термінал управління електричними системами району."
   placement:
     mode: SnapgridCenter
   components:
@@ -148,8 +148,8 @@
 - type: entity
   noSpawn: true
   id: APCFrame
-  name: APC frame
-  description: A control terminal for the area's electrical systems, lacking the electronics.
+  name: "Рама БТР"
+  description: "Термінал управління електричними системами району, в якому відсутня електроніка."
   placement:
     mode: SnapgridCenter
   components:

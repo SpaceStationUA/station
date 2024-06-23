@@ -1,7 +1,7 @@
 - type: job
   id: Roboticist
-  name: job-name-roboticist
-  description: job-description-roboticist
+  name: "job-name-roboticist"
+  description: "посадова інструкція робототехніка"
   playTimeTracker: JobRoboticist
   requirements:
     - !type:DepartmentTimeRequirement

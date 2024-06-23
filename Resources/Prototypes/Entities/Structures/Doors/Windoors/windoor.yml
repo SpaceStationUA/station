@@ -1,44 +1,44 @@
 - type: entity
   id: Windoor
   parent: BaseWindoor
-  name: Windoor
-  description: It's a window and a sliding door. Wow!
+  name: "Вікно"
+  description: "Це вікно і розсувні двері. Ого!"
 
 - type: entity
   id: WindoorSecure
   parent: BaseSecureWindoor
-  name: Secure Windoor
-  description: It's a sturdy window and a sliding door. Wow!
+  name: "Безпечне вікно"
+  description: "Це міцне вікно і розсувні двері. Ого!"
 
 - type: entity
   id: WindoorClockwork
   parent: BaseClockworkWindoor
-  name: clockwork windoor
-  description: It's a sturdy window and a sliding door. Wow!
+  name: "годинниковий механізм на дверях"
+  description: "Це міцне вікно і розсувні двері. Ого!"
 
 - type: entity
   id: WindoorPlasma
   parent: BasePlasmaWindoor
-  name: Plasma Windoor
-  description: It's a pink window *and* a sliding door. Amazing!
+  name: "Плазмове вікно"
+  description: "Це рожеве вікно і розсувні двері. Дивовижно!"
 
 - type: entity
   id: WindoorSecurePlasma
   parent: BaseSecurePlasmaWindoor
-  name: Secure Plasma Windoor
-  description: It's a sturdy purple window *and* a sliding door. Spectacular!
+  name: "Захищене плазмове вікно"
+  description: "Це міцне фіолетове вікно і розсувні двері. Приголомшливо!"
 
 - type: entity
   id: WindoorUranium
   parent: BaseUraniumWindoor
-  name: Uranium Windoor
-  description: It's a window and a sliding door. Huh? Oh, and it's green!
+  name: "Уранове вікно"
+  description: "Це вікно і розсувні двері. А? О, і воно зелене!"
 
 - type: entity
   id: WindoorSecureUranium
   parent: BaseSecureUraniumWindoor
-  name: Secure Uranium Windoor
-  description: It's a sturdy window and a sliding door. It's so neon green, it might even taste like limes!
+  name: "Безпечне уранове вікно"
+  description: "Це міцне вікно та розсувні двері. Він такий неоново-зелений, що на смак може навіть нагадувати лайм!"
 
 # TODO remove these with parameterized prototypes/whatever we end up doing
 # Windoors (alphabetical)

@@ -1,8 +1,8 @@
 - type: entity
-  name: energy gun
+  name: "енергетична гармата"
   parent: BaseWeaponBattery
   id: WeaponEnergyGun
-  description: "A basic hybrid energy gun with two settings: disable and kill."
+  description: "Базова гібридна енергетична гармата з двома налаштуваннями: вивести з ладу та вбити."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Battery/energygun.rsi
@@ -52,7 +52,7 @@
           Special: { state: mode-stun } # Unused
 
 - type: entity
-  name: x-01 multiphase energy gun
+  name: "x-01 багатофазна енергетична гармата"
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyGunMultiphase
   description: This is an expensive, modern recreation of an antique laser gun. This gun has several unique firemodes, but lacks the ability to recharge over time.
@@ -117,10 +117,10 @@
     stealGroup: WeaponEnergyGunMultiphase
 
 - type: entity
-  name: miniature energy gun
+  name: "мініатюрна енергетична гармата"
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyGunMini
-  description: A light version of the Energy gun with a smaller capacity.
+  description: "Полегшена версія гармати Energy з меншою потужністю."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Battery/mini_energygun.rsi
@@ -167,10 +167,10 @@
           Special: { state: mode-stun } # Unused
 
 - type: entity
-  name: PDW-9 Energy Pistol
+  name: "Енергетичний пістолет PDW-9"
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyGunPistol
-  description: A military grade sidearm, used by many militia forces throughout the local sector.
+  description: "Зброя військового зразка, що використовується багатьма ополченськими силами в місцевому секторі."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Battery/energygun_pistol.rsi
@@ -224,10 +224,10 @@
     price: 750
 
 - type: entity
-  name: IK-60 laser carbine
+  name: "Лазерний карабін IK-60"
   parent: BaseWeaponBattery
   id: WeaponGunLaserCarbineAutomatic
-  description: "A 20 round semi-automatic laser carbine."
+  description: "Напівавтоматичний лазерний карабін на 20 набоїв."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Battery/energygun_carbine.rsi
@@ -262,10 +262,10 @@
 
 #PIRATE
 - type: entity
-  name: advanced energy revolver
+  name: "передовий енергетичний револьвер"
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyGunAdvancedRevolver
-  description: A light version of the Energy gun with a smaller capacity.
+  description: "Полегшена версія гармати Energy з меншою потужністю."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Battery/advanced_revolver.rsi
@@ -325,10 +325,10 @@
     price: 750
 
 - type: entity
-  name: x-02 енерго-поліморф
+  name: "x-02 енерго-поліморф"
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyGunMultiphasePolymorh
-  description: Чаклунська модифікація енерго-пістолету, що викликає небачені результати.
+  description: "Чаклунська модифікація енерго-пістолету, що викликає небачені результати."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Battery/multiphase_energygun.rsi

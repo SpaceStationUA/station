@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AlienAcid
-  name: alien-acid-name
-  description: alien-acid-desc
+  name: "alien-acid-name"
+  description: "alien-acid-desc"
   components:
     - type: Fixtures
       fixtures:
@@ -66,9 +66,9 @@
 
 - type: entity
   id: CorrosiveAcid
-  name: alien-acid-name
+  name: "alien-acid-name"
   suffix: overlay
-  description: alien-acid-desc
+  description: "alien-acid-desc"
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Xenos/alien.rsi
@@ -82,9 +82,9 @@
 
 - type: entity
   id: CorrodedAcid
-  name: corroded acid
+  name: "корозійна кислота"
   suffix: overlay
-  description: alien-acid-desc
+  description: "alien-acid-desc"
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Xenos/alien.rsi
