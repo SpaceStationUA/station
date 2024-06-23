@@ -70,7 +70,7 @@ accent-dwarf-words-22 = себе
 accent-dwarf-words-replace-22 = ерцель
 
 accent-dwarf-words-23 = де
-accent-dwarf-words-replace-23 = що ж..
+accent-dwarf-words-replace-23 = що ж.
 
 accent-dwarf-words-24 = ох
 accent-dwarf-words-replace-24 = ач
@@ -127,7 +127,7 @@ accent-dwarf-words-41 = бляха-муха
 accent-dwarf-words-replace-41 = дерен
 
 accent-dwarf-words-42 = буде
-accent-dwarf-words-replace-42 = ти..
+accent-dwarf-words-replace-42 = ти.
 
 accent-dwarf-words-43 = повинен
 accent-dwarf-words-replace-43 = ти повинен
@@ -211,7 +211,7 @@ accent-dwarf-words-69 = що
 accent-dwarf-words-replace-69 = що
 
 accent-dwarf-words-70 = де
-accent-dwarf-words-replace-70 = що ж..
+accent-dwarf-words-replace-70 = що ж.
 
 accent-dwarf-words-71 = коли
 accent-dwarf-words-replace-71 = вен
@@ -310,7 +310,7 @@ accent-dwarf-words-102 = без
 accent-dwarf-words-replace-102 = з тобою
 
 accent-dwarf-words-103 = чи
-accent-dwarf-words-replace-103 = ми..
+accent-dwarf-words-replace-103 = ми.
 
 accent-dwarf-words-104 = коли-небудь
 accent-dwarf-words-replace-104 = колись
@@ -322,7 +322,7 @@ accent-dwarf-words-106 = неважливо
 accent-dwarf-words-replace-106 = що?
 
 accent-dwarf-words-107 = як
-accent-dwarf-words-replace-107 = ти..
+accent-dwarf-words-replace-107 = ти.
 
 accent-dwarf-words-108 = однак
 accent-dwarf-words-replace-108 = ти

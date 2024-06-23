@@ -10,7 +10,7 @@ flavor-profile-unknown = Смакує невимовно.
 
 flavor-base-savory = пахучий
 flavor-base-sweet = солодко
-flavor-base-salty = солоно...фу,блін.
+flavor-base-salty = солоно...фу,блін
 flavor-base-sour = кисле
 flavor-base-bitter = гірко
 flavor-base-spicy = гостро
@@ -224,7 +224,7 @@ flavor-complex-syndie-bomb = як бабаха
 flavor-complex-tequila-sunrise = як 10 годин блекауту взимку
 flavor-complex-irish-coffee = як призив до революції
 flavor-complex-iced-beer = як заморожена сеча бармена
-flavor-complex-gargle-blaster = наче ти готовий вступати у третю мотопіхотну..
+flavor-complex-gargle-blaster = наче ти готовий вступати у третю мотопіхотну.
 flavor-complex-bloody-mary = наче таємний ритуал на крові незайманої курки
 flavor-complex-beepsky = наче ви готові отримувати станбатоном по голові
 flavor-complex-banana-honk = як благословення Хонкоматері
@@ -249,7 +249,7 @@ flavor-complex-medicine = наче хімік спеціально зробив 
 
 flavor-complex-carpet = як шматок хутра
 flavor-complex-bee = необджілковно
-flavor-complex-sax = як джазмени непомнітного бару.
+flavor-complex-sax = як джазмени непомнітного бару
 flavor-complex-bottledlightning = як блискавка в банці
 flavor-complex-punishment = як покарання
 flavor-weh = як, наприклад

@@ -32,7 +32,7 @@ reagent-name-juice-potato = картопляний сік
 reagent-desc-juice-potato = Сік сирої картоплі?! Ти здурів?
 
 reagent-name-juice-tomato = томатний сік
-reagent-desc-juice-tomato = помідоровий сік? Як на мене звучить краще..
+reagent-desc-juice-tomato = помідоровий сік? Як на мене звучить краще.
 
 reagent-name-juice-watermelon = кавуновий сік
 reagent-desc-juice-watermelon = зі смаком свят та літа!
