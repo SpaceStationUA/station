@@ -1,2 +1,2 @@
-ent-CrateFunBBGun = { ent-CrateFunBBGun }
-    .desc = { ent-CrateFunBBGun.desc }
+ent-CrateFunBBGun = Ящик від кулемета
+    .desc = Містить 1 пістолет і 2 коробки з набоями.

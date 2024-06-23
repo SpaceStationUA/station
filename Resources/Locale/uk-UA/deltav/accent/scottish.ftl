@@ -127,7 +127,7 @@ accent-scottish-words-41 = бляха-муха
 accent-scottish-words-replace-41 = бляха-муха
 
 accent-scottish-words-42 = буде
-accent-scottish-words-replace-42 = ти.
+accent-scottish-words-replace-42 = ти
 
 accent-scottish-words-43 = повинен
 accent-scottish-words-replace-43 = ти повинен
@@ -304,7 +304,7 @@ accent-scottish-words-102 = без
 accent-scottish-words-replace-102 = з тобою
 
 accent-scottish-words-103 = чи
-accent-scottish-words-replace-103 = ми.
+accent-scottish-words-replace-103 = ми
 
 accent-scottish-words-104 = коли-небудь
 accent-scottish-words-replace-104 = колись
@@ -316,7 +316,7 @@ accent-scottish-words-106 = неважливо
 accent-scottish-words-replace-106 = що?
 
 accent-scottish-words-107 = як
-accent-scottish-words-replace-107 = ти.
+accent-scottish-words-replace-107 = ти
 
 accent-scottish-words-108 = однак
 accent-scottish-words-replace-108 = ти

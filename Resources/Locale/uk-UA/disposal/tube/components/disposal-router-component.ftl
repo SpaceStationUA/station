@@ -7,4 +7,4 @@ disposal-router-window-tag-input-confirm-button = Підтвердити
 
 ## ConfigureVerb
 
-configure-verb-get-data-text = Open Configuration
+configure-verb-get-data-text = Відкрити конфігурацію

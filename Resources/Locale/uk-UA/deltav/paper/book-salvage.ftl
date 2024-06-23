@@ -1,34 +1,34 @@
-book-text-fishops = FISHOPS ADVANCED USER MANUAL FIRST EDITION
+book-text-fishops = FISHOPS РОЗШИРЕНИЙ ПОСІБНИК КОРИСТУВАЧА ПЕРШЕ ВИДАННЯ
 
      -----------------------------------------------------------------------------
 
-     fishops (v.)
-       Summoning many carp on someone.
-       "I got fishopsed!" (said post revival as the subject died)
-     fishops (n.)
-       The act of war in which the majority of a nuclear task force's budget is put towards fishopsing the station.
-       Alternatively it can be used to refer to the operatives doing fishops.
-       "We are doing fishops."
-       "It's the dreaded fishops!"
+     фішопс (розм.)
+       Накликати на когось багато коропів.
+       "На мене напустили рибу!" (сказано після відродження, оскільки тема померла)
+     фішопс (розм.)
+       Акт війни, в якому більша частина бюджету ядерної оперативної групи витрачається на риболовлю на станції.
+       Також може використовуватися для позначення оперативників, які проводять риболовецьку операцію.
+       "Ми проводимо риболовецьку операцію".
+       "Це жахлива рибна ловля!"
 
-     This manual will teach you the mechanics of both kinds of fishops.
+     Цей посібник навчить вас механіці обох видів фішопсу.
 
-     CHAPTER 1: The Old Man and the Fish
-     What is a carp? A carp is a space creature that only has one desire: to attack the enemy. Once it finds a suitable target, it will home in and viciously attack. The manner in which it attacks is fairly simple: it will move in, bite the target, then move back out. This is referred to as kiting.
-     This makes a single fish challenging to fight, let alone a group of them. A carp does not need food or water, it attacks for pleasure alone. Unfortunately it will not attack past critical condition, a single carp will refuse to finish off a target. Many carp however will, around 20 will instantly kill just about anything.
+     РОЗДІЛ 1: Старий і риба
+     Що таке карп? Короп - це космічна істота, яка має лише одне бажання: атакувати ворога. Як тільки він знайде підходящу ціль, він з'являється і жорстоко атакує. Спосіб, у який він атакує, досить простий: він заходить, кусає ціль, а потім виходить назад. Це називається кайтингом.
+     Це робить боротьбу з однією рибою складною, не кажучи вже про групу. Коропу не потрібна ні їжа, ні вода, він нападає заради задоволення. На жаль, він не буде атакувати після критичного стану, один короп відмовиться добивати мішень. Однак багато коропів, близько 20, миттєво вб'ють майже все.
 
-     CHAPTER 2: Under the Sea
-     Knowing what a carp is good and all, but how does one summon a carp on command? The dehydrated space carp, found rarely on wreckages in space or supplied by the syndicate to its agents and operatives. It is a simple thing: once water is sprayed or poured on it, it will turn into a real space carp. Slipping in a puddle of water will instantly hydrate all the dehydrated carp in your inventory, which can be lucrative for instant "fishbombing".
+     РОЗДІЛ 2: Під водою
+     Знати, що таке короп - це добре, але як викликати його за командою? Зневодненого космічного коропа, якого зрідка знаходять на уламках космічних кораблів або якого синдикат постачає своїм агентам і оперативникам. Все просто: варто на нього бризнути або вилити воду, як він перетвориться на справжнього космічного коропа. Послизнувшись у калюжі води, ви миттєво зволожите всіх зневоднених коропів у вашому інвентарі, що може бути прибутковим для миттєвого "рибного бомбардування".
 
-     CHAPTER 3: Best Friends Forever
-     Summoning a carp that attacks you is rarely useful, so there is a way to make them friendly to you. Before hydration, you stroke the dehydrated carp's head like petting a cat. Once hydrated, it will never attack you. This applies to any number of people that do it, so you can have a whole group of people that the carps are friendly towards. Before this was a thing operatives would remotely detonate literal carp bombs: a locker containing carp, a c4 to blow the locker open and a water foam grenade to hydrate the carp. Once at a safe distance, the c4 and grenade are triggered to unleash the carp.
+     РОЗДІЛ 3: Найкращі друзі назавжди
+     Виклик коропа, який нападає на вас, рідко буває корисним, тому є спосіб зробити його дружнім до вас. Перед тим, як напоїти, погладьте зневодненого коропа по голові, ніби гладите кота. Напоєний, він ніколи не нападе на вас. Це стосується будь-якої кількості людей, які роблять це, тому ви можете мати цілу групу людей, до яких коропи ставляться дружньо. Раніше оперативники дистанційно підривали буквально коропові бомби: шафка з коропами, вибухівка С4, щоб відкрити шафку, і граната з водяною піною, щоб напоїти коропа. На безпечній відстані с4 і граната спрацьовують, щоб випустити коропа на волю.
 
-     CHAPTER 4: Fish Petting Pipeline
-     Without an optimal pipeline, not everyone on a team will pet all the fish perfectly. This is where a fish petting pipeline comes in. Each member of the team is only allowed to pet fish in their own pipeline. After everyone has purchased carp, they are put in one large pile. The first member starts petting, putting the petted fish in a second pile. This repeats until there is a pile at the end which everyone has pet at some point. This pile can then be bagged for use.
+     РОЗДІЛ 4: Трубопровід для виведення риби
+     Без оптимального конвеєра не всі члени команди зможуть ідеально погладити всіх риб. Тут на допомогу приходить конвеєр для виважування риби. Кожному члену команди дозволяється гладити рибу лише у своєму конвеєрі. Після того, як всі придбали коропів, їх складають в одну велику купу. Перший учасник починає гладити, перекладаючи погладжену рибу в другу купу. Це повторюється до тих пір, поки в кінці не утвориться купа, яку кожен учасник погладив у певний момент. Цю купу можна покласти в мішок для подальшого використання.
 
-     CHAPTER 5: Deployment
-     Fishbombs, slipping and other methods are powerful but require large setup. A much easier way to hydrate them is to have a bottle of water. Any bottle stores 100u of liquids so simply empty it and fill it from a sink. Once you see someone that should be attacked, or are in an area that should be secured from the enemy, simply pour a single unit of water onto each carp. A single bottle will have enough for 100 carp, so you can even take a drink if you get thirsty.
-     Each member in a fishops squad should carry a bottle and some fish, as there will be far more than just one member can carry.
+     РОЗДІЛ 5: Розгортання
+     Рибні бомби, ковзання та інші методи є ефективними, але вимагають великої підготовки. Набагато простіший спосіб напоїти їх - це мати пляшку води. Будь-яка пляшка вміщує 100 унцій рідини, тому просто спорожніть її і наповніть з раковини. Як тільки ви побачите когось, на кого слід напасти, або опинитеся в зоні, яку слід захистити від ворога, просто вилийте на кожного коропа по одній одиниці води. Однієї пляшки вистачить на 100 коропів, тож ви можете навіть попити, якщо вас мучить спрага.
+     Кожен член загону рибоохоронців повинен мати при собі пляшку і трохи риби, оскільки риби буде набагато більше, ніж може нести один член загону.
 
-     CHAPTER 6: Fish War
-     In the event of fish war there will be double the fish, more than could possibly be carried. A reinforcement or two will be required to carry the surplus fish. A fish war has never happened in recorded history, so it is currently purely theoretical. Its destructive power would rival several neutronium bombs.
+     РОЗДІЛ 6: Рибна війна
+     У випадку рибної війни риби буде вдвічі більше, ніж можна нести. Для перенесення надлишку риби знадобиться підкріплення або дві людини. Рибна війна ніколи не відбувалася в історії людства, тому наразі вона є суто теоретичною. Її руйнівна сила могла б конкурувати з кількома нейтронними бомбами.

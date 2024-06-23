@@ -110,10 +110,10 @@ reagent-name-cuba-libre = куба лібре
 reagent-desc-cuba-libre = у нас буде свій коммунізм з казином,бабками і прости... Viva la revolucion.
 
 reagent-name-demons-blood = кров демонів
-reagent-desc-demons-blood = з глибокого пекла,не питайте клуню на рахунок цього.
+reagent-desc-demons-blood = з глибокого пекла,не питайте клуню на рахунок цього
 
 reagent-name-devils-kiss = поцілунок демона
-reagent-desc-devils-kiss = Чого зашарівся? Не всі демони красиві.
+reagent-desc-devils-kiss = Чого зашарівся? Не всі демони красиві
 
 reagent-name-doctors-delight = насолода лікаря
 reagent-desc-doctors-delight = в медбеї помер кеп,а тебе звинуватили? Попий цього!
@@ -158,7 +158,7 @@ reagent-name-irish-coffee = ірландська кава
 reagent-desc-irish-coffee = Любиш капучіно? Ні? ТАК!
 
 reagent-name-kira-special = кіра спешіал
-reagent-desc-kira-special = Коли тебе кинула дівчина,але тобі завтра на роботу.
+reagent-desc-kira-special = Коли тебе кинула дівчина,але тобі завтра на роботу
 
 reagent-name-long-island-iced-tea = лонг Айлен айс ті
 reagent-desc-long-island-iced-tea = якщо хочеш приховати останню стадію алкоголізму,тобі сюди.
@@ -200,7 +200,7 @@ reagent-name-rewriter = переписувач
 reagent-desc-rewriter = енергетик,але для бібліотекаря і гравців в ДнД.
 
 reagent-name-sbiten = сбітен
-reagent-desc-sbiten = горілка з перцем.Колись ти думав,як твої батьки таке п'ють.
+reagent-desc-sbiten = горілка з перцем.Колись ти думав,як твої батьки таке п'ють
 
 reagent-name-screwdriver-cocktail = викрутка
 reagent-desc-screwdriver-cocktail = Викручує голову,в переносному сенсі.
