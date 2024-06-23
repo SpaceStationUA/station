@@ -1,8 +1,8 @@
 - type: entity
   id: LockerBooze
   parent: LockerBase
-  name: "зберігання випивки"
-  description: "Тут бармен зберігає випивку."
+  name: booze storage
+  description: This is where the bartender keeps the booze.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -22,7 +22,7 @@
 - type: entity
   id: LockerSteel
   parent: LockerBaseSecure
-  name: "безпечна шафа"
+  name: secure closet
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -34,7 +34,7 @@
 - type: entity
   id: LockerQuarterMaster
   parent: LockerBaseSecure
-  name: "шафка логіста" # DeltaV - Logistics Department replacing Cargo
+  name: logistics officer's locker # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -47,8 +47,8 @@
 - type: entity
   id: LockerSalvageSpecialist
   parent: LockerBase
-  name: "екіпірування фахівця з порятунку"
-  description: "Забудьте про кирку."
+  name: salvage specialist's equipment
+  description: Nevermind the pickaxe.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -62,7 +62,7 @@
 - type: entity
   id: LockerCaptain
   parent: LockerBaseSecure
-  name: "шафка капітана"
+  name: captain's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -75,7 +75,7 @@
 - type: entity
   id: LockerHeadOfPersonnel
   parent: LockerBaseSecure
-  name: "завідувач камери схову персоналу"
+  name: head of personnel's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -89,7 +89,7 @@
 - type: entity
   id: LockerChiefEngineer
   parent: LockerBaseSecure
-  name: "шафка головного інженера"
+  name: chief engineer's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -103,7 +103,7 @@
 - type: entity
   id: LockerElectricalSupplies
   parent: LockerBase
-  name: "шафа для електроприладів"
+  name: electrical supplies locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -117,7 +117,7 @@
 - type: entity
   id: LockerWeldingSupplies
   parent: LockerBase
-  name: "шафа для зварювальних матеріалів"
+  name: welding supplies locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -131,7 +131,7 @@
 - type: entity
   id: LockerAtmospherics
   parent: LockerBase
-  name: "шафка атмосферного техніка"
+  name: atmospheric technician's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -145,7 +145,7 @@
 - type: entity
   id: LockerEngineer
   parent: LockerBase
-  name: "шафка інженера"
+  name: engineer's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -159,7 +159,7 @@
 - type: entity
   id: LockerFreezerBase
   parent: LockerBase
-  name: "морозильна камера"
+  name: freezer
   suffix: No Access
   components:
   - type: Appearance
@@ -174,7 +174,7 @@
 - type: entity
   id: LockerFreezer
   parent: LockerFreezerBase
-  name: "морозильна камера"
+  name: freezer
   suffix: Kitchen, Locked
   components:
   - type: AccessReader
@@ -184,7 +184,7 @@
 - type: entity
   id: LockerBotanist
   parent: LockerBase
-  name: "шафка ботаніка"
+  name: botanist's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -198,8 +198,8 @@
 - type: entity
   id: LockerMedicine
   parent: LockerBase
-  name: "шафка з ліками"
-  description: "Вщерть заповнений медичним мотлохом."
+  name: medicine locker
+  description: Filled to the brim with medical junk.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -213,7 +213,7 @@
 - type: entity
   id: LockerMedical
   parent: LockerBase
-  name: "шафка лікаря"
+  name: medical doctor's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -227,7 +227,7 @@
 - type: entity
   id: LockerParamedic
   parent: LockerBase
-  name: "шафка фельдшера"
+  name: paramedic's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -242,7 +242,7 @@
 - type: entity
   id: LockerChemistry
   parent: LockerBase
-  name: "шафа для хімікатів"
+  name: chemical locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -256,7 +256,7 @@
 - type: entity
   id: LockerChiefMedicalOfficer
   parent: LockerBaseSecure
-  name: "шафка головного лікаря"
+  name: chief medical officer's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -270,7 +270,7 @@
 - type: entity
   id: LockerResearchDirector
   parent: LockerBase
-  name: "шафка містифікатора" # DeltaV - Epistemics Department replacing Science
+  name: mystagogue's locker # DeltaV - Epistemics Department replacing Science
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -283,7 +283,7 @@
 - type: entity
   id: LockerScientist
   parent: LockerBase
-  name: "шафка вченого"
+  name: scientist's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -297,7 +297,7 @@
 - type: entity
   id: LockerHeadOfSecurity
   parent: LockerBaseSecure
-  name: "шафка начальника служби безпеки"
+  name: head of security's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -311,7 +311,7 @@
 - type: entity
   id: LockerWarden
   parent: LockerBaseSecure
-  name: "шафка наглядача"
+  name: warden's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -325,7 +325,7 @@
 - type: entity
   id: LockerBrigmedic
   parent: LockerBaseSecure
-  name: "роздягальня санітара" # DeltaV - rename brigmedic to corpsman
+  name: corpsman locker # DeltaV - rename brigmedic to corpsman
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -339,7 +339,7 @@
 - type: entity
   id: LockerSecurity
   parent: LockerBaseSecure
-  name: "шафка охоронця"
+  name: security officer's locker
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -352,7 +352,7 @@
 - type: entity
   id: GunSafe
   parent: LockerBaseSecure
-  name: "сейф для зброї"
+  name: gun safe
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -366,8 +366,8 @@
 - type: entity
   id: LockerDetective
   parent: LockerBooze
-  name: "кабінет детектива"
-  description: "Зазвичай холодна і порожня... як твоє серце."
+  name: detective's cabinet
+  description: Usually cold and empty... like your heart.
   components:
   - type: AccessReader
     access: [["Detective"]]
@@ -375,8 +375,8 @@
 - type: entity
   id: LockerEvidence
   parent: LockerSecurity
-  name: "сховище доказів"
-  description: "Для зберігання мішків з гільзами та речей затриманих."
+  name: evidence locker
+  description: To store bags of bullet casings and detainee belongings.
   components:
   - type: AccessReader
     access: [["Security"]]
@@ -384,9 +384,9 @@
 # Syndicate
 - type: entity
   id: LockerSyndicatePersonal
-  name: "збройова шафа"
+  name: armory closet
   parent: LockerBaseSecure
-  description: "Це персональне сховище для оперативного спорядження."
+  description: It's a personal storage unit for operative gear.
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -397,10 +397,10 @@
 # Bluespace
 - type: entity
   id: LockerBluespaceStation
-  name: "шафка bluespace"
+  name: bluespace locker
   suffix: once to station
   parent: LockerSyndicatePersonal
-  description: "Передова технологія шафки."
+  description: Advanced locker technology.
   components:
     - type: BluespaceLocker
       minBluespaceLinks: 1
@@ -423,7 +423,7 @@
 # Clown
 - type: entity
   id: LockerClown
-  name: "клоунська шафка"
+  name: clown locker
   parent: LockerBaseSecure
   components:
   - type: Appearance
@@ -437,7 +437,7 @@
 # Mime
 - type: entity
   id: LockerMime
-  name: "шафка для мімів"
+  name: mime locker
   parent: LockerBaseSecure
   components:
   - type: Appearance
@@ -451,7 +451,7 @@
 # Representative
 - type: entity
   id: LockerRepresentative
-  name: "представницька шафка"
+  name: representative locker
   parent: LockerBaseSecure
   components:
   - type: Appearance
@@ -465,7 +465,7 @@
 - type: entity
   id: LockerRobotics
   parent: LockerBase
-  name: "шафка робототехніка"
+  name: roboticist locker
   components:
   - type: Sprite
     sprite: _Pirate/Structures/Storage/closet.rsi

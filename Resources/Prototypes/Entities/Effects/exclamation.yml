@@ -1,6 +1,6 @@
 - type: entity
   id: Exclamation
-  name: "вигук"
+  name: exclamation
   noSpawn: true
   save: false
   components:
@@ -21,7 +21,7 @@
         
 - type: entity
   id: WhistleExclamation
-  name: "вигук"
+  name: exclamation
   noSpawn: true
   components:
     - type: Sprite

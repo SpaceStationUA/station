@@ -1,8 +1,8 @@
 - type: entity
-  name: "спис"
+  name: spear
   parent: BaseItem
   id: Spear
-  description: "Визначення класики. Зберігаючи вбивство доступним з 200 000 років до нашої ери."
+  description: Definition of a Classic. Keeping murder affordable since 200,000 BCE.
   components:
   - type: EmbeddableProjectile
     offset: 0.15,0.15
@@ -113,10 +113,10 @@
     fillBaseName: spear
 
 - type: entity
-  name: "посилений спис"
+  name: reinforced spear
   parent: Spear
   id: SpearReinforced
-  description: "Спис з армованим уламком скла в якості наконечника."
+  description: A spear with a reinforced glass shard as a tip.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/reinforced_spear.rsi
@@ -133,10 +133,10 @@
     graph: SpearReinforced
 
 - type: entity
-  name: "плазмовий спис"
+  name: plasma spear
   parent: Spear
   id: SpearPlasma
-  description: "Спис з плазмовим осколком в якості наконечника."
+  description: A spear with a plasma shard as a tip.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/plasma_spear.rsi
@@ -153,10 +153,10 @@
     graph: SpearPlasma
 
 - type: entity
-  name: "урановий спис"
+  name: uranium spear
   parent: Spear
   id: SpearUranium
-  description: "Спис з урановим осколком на наконечнику."
+  description: A spear with a uranium shard as a tip.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/uranium_spear.rsi
@@ -175,10 +175,10 @@
     graph: SpearUranium
 
 - type: entity
-  name: "кістяний спис"
+  name: bone spear
   parent: Spear
   id: SpearBone
-  description: "Спис з кісток."
+  description: A spear made of bones.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/bone_spear.rsi

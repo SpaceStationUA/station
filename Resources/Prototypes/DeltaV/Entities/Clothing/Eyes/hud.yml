@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesPrescriptionMedHud
-  name: "рецептурний медичний худ"
-  description: "Погано зроблена і поспішна суміш між половиною пари рецептурних окулярів і медичним HUD, що дозволяє чітко бачити одним оком і спостерігати за здоров'ям людей іншим оком!"
+  name: prescription medical hud
+  description: A poorly done and rushed mix between half of a pair of prescription glasses and a medical HUD allowing you to see clearly out of one eye and view the health of people out of the other!
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Eyes/Hud/prescmedhud.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesPrescriptionHudSecurity
-  name: "рецептурний захисний худ"
-  description: "Погано зроблена і поспішна суміш половини пари рецептурних окулярів і захисного HUD, що дозволяє чітко бачити одним оком і перевіряти посвідчення співробітника і статус попередження іншим!"
+  name: prescription security hud
+  description: A poorly done and rushed mix between half of a pair of prescription glasses and a security HUD allowing you to see clearly out of one eye and inspect the employee's ID and warning status in the other!
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Eyes/Hud/prescsechud.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesHudSyndicateMed
-  name: "синдикатський медичний козирок"
-  description: "Модернізований синдикативний забрало з автоматичним зчитуванням показників здоров'я, призначений для кращого виявлення гуманоїдів і їх подальшого знищення."
+  name: syndicate medical visor
+  description: An upgraded syndicate visor with automatic health readings, designed for better detection of humanoids and their subsequent elimination.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Eyes/Hud/syndmed.rsi

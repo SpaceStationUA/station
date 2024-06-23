@@ -1,8 +1,8 @@
 # TODO move this to tiles once tile smoothing is supported
 - type: entity
   id: Catwalk
-  name: "подіум"
-  description: "Подіум для полегшення маневрування EVA та розміщення кабелю."
+  name: catwalk
+  description: A catwalk for easier EVA maneuvering and cable placement.
   placement:
     mode: SnapgridCenter
   components:

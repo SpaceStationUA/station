@@ -1,8 +1,8 @@
 - type: entity
-  name: "ящик для виживання"
+  name: survival box
   parent: BoxCardboard
   id: BoxSurvival
-  description: "Це коробка з основними нутрощами всередині."
+  description: It's a box with basic internals inside.
   components:
   - type: StorageFill
     contents:
@@ -19,10 +19,10 @@
       - state: emergencytank
 
 - type: entity
-  name: "ящик для виживання збільшеної місткості"
+  name: extended-capacity survival box
   parent: BoxCardboard
   id: BoxSurvivalEngineering
-  description: "Це коробка з основними компонентами всередині. Ця коробка позначена як така, що містить бак збільшеної місткості."
+  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
   components:
   - type: StorageFill
     contents:
@@ -39,10 +39,10 @@
       - state: extendedtank
 
 - type: entity
-  name: "ящик для виживання"
+  name: survival box
   parent: BoxCardboard
   id: BoxSurvivalSecurity
-  description: "Це коробка з основними нутрощами всередині."
+  description: It's a box with basic internals inside.
   suffix: Security
   components:
   - type: StorageFill
@@ -60,10 +60,10 @@
       - state: emergencytank
 
 - type: entity
-  name: "ящик для виживання"
+  name: survival box
   parent: BoxCardboard
   id: BoxSurvivalBrigmedic
-  description: "Це коробка з основними нутрощами всередині."
+  description: It's a box with basic internals inside.
   suffix: MedSec
   components:
   - type: StorageFill
@@ -81,10 +81,10 @@
       - state: emergencytank
 
 - type: entity
-  name: "ящик для виживання"
+  name: survival box
   parent: BoxCardboard
   id: BoxSurvivalMedical
-  description: "Це коробка з основними нутрощами всередині."
+  description: It's a box with basic internals inside.
   suffix: Medical
   components:
   - type: StorageFill
@@ -102,10 +102,10 @@
       - state: emergencytank
 
 - type: entity
-  name: "коробка обіймів"
+  name: box of hugs
   parent: BoxCardboard
   id: BoxHug
-  description: "Спеціальна коробка для чутливих людей."
+  description: A special box for sensitive people.
   suffix: Emergency
   components:
   - type: Sprite
@@ -128,10 +128,10 @@
       - BoxHug
 
 - type: entity
-  name: "ящик для виживання збільшеної місткості"
+  name: extended-capacity survival box
   parent: BoxCardboard
   id: BoxSurvivalSyndicate
-  description: "Це коробка з основними компонентами всередині. Ця коробка позначена як така, що містить бак збільшеної місткості."
+  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
   components:
   - type: StorageFill
     contents:

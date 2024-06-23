@@ -1,5 +1,5 @@
 - type: construction
-  name: "веб-стіна"
+  name: web wall
   id: WallWeb
   graph: WebStructures
   startNode: start
@@ -20,7 +20,7 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "веб-таблиця"
+  name: web table
   id: TableWeb
   graph: WebStructures
   startNode: start
@@ -41,7 +41,7 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "павутинне ліжко"
+  name: web bed
   id: WebBed
   graph: WebStructures
   startNode: start
@@ -62,7 +62,7 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "веб-крісло"
+  name: web chair
   id: ChairWeb
   graph: WebStructures
   startNode: start
@@ -80,7 +80,7 @@
     - SpiderCraft
 
 - type: construction
-  name: "павутинний ящик"
+  name: web crate
   id: CrateWeb
   graph: WebStructures
   startNode: start
@@ -99,7 +99,7 @@
     - SpiderCraft
 
 - type: construction
-  name: "павутинні двері"
+  name: web door
   id: WebDoor
   graph: WebStructures
   startNode: start
