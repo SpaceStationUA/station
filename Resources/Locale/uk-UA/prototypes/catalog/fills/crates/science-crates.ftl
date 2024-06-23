@@ -1,2 +1,2 @@
-ent-CrateScienceBiosuit = scientist bio suit crate
-    .desc = Contains 2 biohazard suits to ensure that no disease will distract you from doing science. Requires Epistemics access to open.
+ent-CrateScienceBiosuit = Ящик з біокостюмами для вчених
+    .desc = Містить 2 біозахисних костюми, щоб жодна хвороба не заважала вам займатися наукою. Для відкриття потрібен доступ до епістеміки.

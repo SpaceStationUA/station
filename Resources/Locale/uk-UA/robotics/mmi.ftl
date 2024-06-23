@@ -3,7 +3,7 @@ positronic-brain-off = Нейронної активності не виявле
 positronic-brain-still-searching = Виконується дешифрування синтетичного нейрона...
 positronic-brain-searching = Початок дешифрування синтетичних нейронів...
 
-positronic-brain-role-name = Позитронний мозок
+positronic-brain-role-name = позитронний мозок
 positronic-brain-role-description = Підпорядковуйтеся вашому творцю та законам робототехніки
 
 positronic-brain-wipe-device-verb-text = Стерти Мозок

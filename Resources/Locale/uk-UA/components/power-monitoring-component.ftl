@@ -1,27 +1,27 @@
-power-monitoring-window-title = Power Monitoring Console
+power-monitoring-window-title = Консоль моніторингу живлення
 
-power-monitoring-window-label-sources = Sources
-power-monitoring-window-label-smes = SMES
-power-monitoring-window-label-substation = Substation
-power-monitoring-window-label-apc = APC
-power-monitoring-window-label-misc = Misc
+power-monitoring-window-label-sources = Джерела
+power-monitoring-window-label-smes = МСП
+power-monitoring-window-label-substation = Підстанція
+power-monitoring-window-label-apc = БТР
+power-monitoring-window-label-misc = Різне
 
-power-monitoring-window-object-array = {$name} array [{$count}]
+power-monitoring-window-object-array = {$name} масив [{$count}]
 
 power-monitoring-window-station-name = [color=white][font size=14]{$stationName}[/font][/color]
-power-monitoring-window-unknown-location = Unknown location
-power-monitoring-window-total-sources = Total generator output
-power-monitoring-window-total-battery-usage = Total battery usage
-power-monitoring-window-total-loads = Total network loads
+power-monitoring-window-unknown-location = Невідоме місцезнаходження
+power-monitoring-window-total-sources = Загальна потужність генератора
+power-monitoring-window-total-battery-usage = Загальний час використання акумулятора
+power-monitoring-window-total-loads = Загальне навантаження на мережу
 power-monitoring-window-value = { POWERWATTS($value) }
-power-monitoring-window-show-inactive-consumers = Show Inactive Consumers
+power-monitoring-window-show-inactive-consumers = Показати неактивних споживачів
 
-power-monitoring-window-show-cable-networks = Toggle cable networks
-power-monitoring-window-show-hv-cable = High voltage
-power-monitoring-window-show-mv-cable = Medium voltage
-power-monitoring-window-show-lv-cable = Low voltage
+power-monitoring-window-show-cable-networks = Комутаційні кабельні мережі
+power-monitoring-window-show-hv-cable = Висока напруга
+power-monitoring-window-show-mv-cable = Середня напруга
+power-monitoring-window-show-lv-cable = Низька напруга
 
 power-monitoring-window-flavor-left = [user@nanotrasen] $run power_net_query  
 power-monitoring-window-flavor-right = v1.3
-power-monitoring-window-rogue-power-consumer = [color=white][font size=14][bold]! WARNING - ROGUE POWER CONSUMING DEVICE DETECTED ![/bold][/font][/color]
-power-monitoring-window-power-net-abnormalities = [color=white][font size=14][bold]CAUTION - ABNORMAL ACTIVITY IN POWER NET[/bold][/font][/color]
+power-monitoring-window-rogue-power-consumer = [color=white][font size=14][bold]! ПОПЕРЕДЖЕННЯ - ВИЯВЛЕНО НЕЛЕГАЛЬНИЙ ПРИСТРІЙ, ЩО СПОЖИВАЄ ЕНЕРГІЮ![/bold][/font][/color]
+power-monitoring-window-power-net-abnormalities = [color=white][font size=14][bold]УВАГА - НЕНОРМАЛЬНА АКТИВНІСТЬ В ЕЛЕКТРОМЕРЕЖІ[/bold][/font][/color]

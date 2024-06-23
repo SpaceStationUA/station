@@ -1,11 +1,11 @@
 - type: construction
-  name: web tile
+  name: "веб-плитка"
   id: TileWeb
   graph: WebObjects
   startNode: start
   targetNode: tile
   category: construction-category-tiles
-  description: "Nice and smooth."
+  description: "Приємно і гладко."
   entityWhitelist:
     tags:
     - SpiderCraft
@@ -15,7 +15,7 @@
   objectType: Item
 
 - type: construction
-  name: web winter coat
+  name: "павутиння зимове пальто"
   id: ClothingOuterWinterWeb
   graph: WebObjects
   startNode: start
@@ -31,7 +31,7 @@
   objectType: Item
 
 - type: construction
-  name: web jumpsuit
+  name: "павутинний комбінезон"
   id: ClothingUniformJumpsuitWeb
   graph: WebObjects
   startNode: start
@@ -47,7 +47,7 @@
   objectType: Item
 
 - type: construction
-  name: web jumpskirt
+  name: "спідниця з павутини"
   id: ClothingUniformJumpskirtWeb
   graph: WebObjects
   startNode: start
@@ -63,13 +63,13 @@
   objectType: Item
 
 - type: construction
-  name: silk woven cloth
+  name: "шовкова ткана тканина"
   id: SilkWovenCloth
   graph: WebObjects
   startNode: start
   targetNode: cloth
   category: construction-category-materials
-  description: "Feels just like cloth, strangely enough."
+  description: "На дотик, як не дивно, як тканина."
   entityWhitelist:
     tags:
     - SpiderCraft
@@ -79,7 +79,7 @@
   objectType: Item
 
 - type: construction
-  name: web shield
+  name: "веб-щит"
   id: WebShield
   graph: WebObjects
   startNode: start
@@ -95,7 +95,7 @@
   objectType: Item
 
 - type: construction
-  name: web winter boots
+  name: "зимові черевики з павутини"
   id: ClothingShoesBootsWinterWeb
   graph: WebObjects
   startNode: start

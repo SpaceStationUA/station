@@ -32,7 +32,7 @@
   objectType: Item
 
 - type: construction
-  name: reinforced shiv
+  name: "посилене лезо"
   id: ReinforcedShiv
   graph: ReinforcedShiv
   startNode: start
@@ -43,7 +43,7 @@
   objectType: Item
 
 - type: construction
-  name: plasma shiv
+  name: "плазмовий ніж"
   id: PlasmaShiv
   graph: PlasmaShiv
   startNode: start
@@ -54,7 +54,7 @@
   objectType: Item
 
 - type: construction
-  name: uranium shiv
+  name: "урановий ніж"
   id: UraniumShiv
   graph: UraniumShiv
   startNode: start
@@ -120,7 +120,7 @@
   objectType: Item
 
 - type: construction
-  name: wooden buckler
+  name: "дерев'яна пряжка"
   id: WoodenBuckler
   graph: WoodenBuckler
   startNode: start
@@ -131,7 +131,7 @@
   objectType: Item
 
 - type: construction
-  name: makeshift shield
+  name: "імпровізований щит"
   id: MakeshiftShield
   graph: MakeshiftShield
   startNode: start
@@ -142,29 +142,29 @@
   objectType: Item
 
 - type: construction
-  name: glass shard arrow
+  name: "стріла з осколків скла"
   id: ImprovisedArrow
   graph: ImprovisedArrow
   startNode: start
   targetNode: ImprovisedArrow
   category: construction-category-weapons
-  description: An arrow tipped with pieces of a glass shard, for use with a bow.
+  description: "Стріла з наконечником зі шматочками скляного уламка, для використання з лука."
   icon: { sprite: Objects/Weapons/Guns/Bow/bow.rsi, state: wielded-arrow }
   objectType: Item
 
 - type: construction
-  name: improvised bow
+  name: "імпровізований лук"
   id: ImprovisedBow
   graph: ImprovisedBow
   startNode: start
   targetNode: ImprovisedBow
   category: construction-category-weapons
-  description: A shoddily constructed bow made out of wood and cloth. It's not much, but it's gotten the job done for millennia.
+  description: "Недбало зроблений лук з дерева та тканини. Це небагато, але він виконував свою роботу протягом тисячоліть."
   icon: { sprite: Objects/Weapons/Guns/Bow/bow.rsi, state: unwielded }
   objectType: Item
 
 - type: construction
-  name: bone spear
+  name: "кістяний спис"
   id: SpearBone
   graph: SpearBone
   startNode: start

@@ -1,2 +1,2 @@
-ent-CrateHolyWaterKit = DIY holy water crate
-    .desc = For when undeads or vampires becomes a real problem and you'd rather keep them at bay.
+ent-CrateHolyWaterKit = Зроби сам ящик для свяченої води
+    .desc = Для випадків, коли нежить або вампіри стають справжньою проблемою, і ви хочете тримати їх на відстані.

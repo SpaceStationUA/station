@@ -35,4 +35,4 @@ roles-antag-space-mage-name = Чаклун
 roles-antag-space-mage-objective = Використовуй чари для власних забаганок. Розвесели себе.
 
 roles-antag-terminator-name = Термінатор
-roles-antag-terminator-objective = Убийте ціль будь-якою ціною, від цього залежить майбутнє.
+roles-antag-terminator-objective = Убийте ціль будь-якою ціною, від цього залежить майбутнє

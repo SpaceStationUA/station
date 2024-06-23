@@ -1,5 +1,5 @@
 - type: construction
-  name: livestock crate
+  name: "ящик для худоби"
   id: CrateLivestock
   graph: CrateLivestock
   startNode: start
@@ -21,7 +21,7 @@
   objectType: Structure
 
 - type: construction
-  name: secure crate
+  name: "безпечний ящик"
   id: CrateSecure
   graph: CrateSecure
   startNode: start
@@ -32,7 +32,7 @@
   objectType: Structure
 
 - type: construction
-  name: plastic crate
+  name: "пластиковий ящик"
   id: CratePlastic
   graph: CratePlastic
   startNode: start
@@ -43,18 +43,18 @@
   objectType: Structure
 
 - type: construction
-  name: cardboard box
+  name: "картонна коробка"
   id: BigBox
   graph: BaseBigBox
   startNode: start
   targetNode: basebigbox
   category: construction-category-storage
-  description: A big box for storing things or hiding in.
+  description: "Велика коробка для зберігання речей або ховання."
   icon: { sprite: Structures/Storage/closet.rsi, state: cardboard }
   objectType: Structure
 
 - type: construction
-  name: cardboard box
+  name: "картонна коробка"
   id: BoxCardboard
   graph: BoxCardboard
   startNode: start
@@ -65,7 +65,7 @@
   objectType: Item
 
 - type: construction
-  name: coffin
+  name: "труна"
   id: CrateCoffin
   graph: CrateCoffin
   startNode: start

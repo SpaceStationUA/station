@@ -14,4 +14,4 @@ cuffable-component-remove-cuffs-partial-success-message = Ви успішно з
 cuffable-component-remove-cuffs-fail-message = Вам не вдалось звільнитись.
 
 # UnrestrainVerb
-uncuff-verb-get-data-text = Unrestrain
+uncuff-verb-get-data-text = Розслабтеся

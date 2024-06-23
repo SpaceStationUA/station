@@ -1,5 +1,5 @@
-signal-port-selector-menu-title = Port Selector
-signal-port-selector-menu-clear = Clear
-signal-port-selector-menu-link-defaults = Link defaults
-signal-port-selector-help = Select the ports you want to link up
-signal-port-selector-menu-done = Done
+signal-port-selector-menu-title = Перемикач портів
+signal-port-selector-menu-clear = Чисто
+signal-port-selector-menu-link-defaults = Посилання за замовчуванням
+signal-port-selector-help = Виберіть порти, які потрібно з'єднати
+signal-port-selector-menu-done = Зроблено

@@ -1,3 +1,3 @@
-server-shutdown = Shutdown
-server-ooc-toggle = Toggle OOC
-server-looc-toggle = Toggle LOOC
+server-shutdown = Вимкнення
+server-ooc-toggle = Переключити OOC
+server-looc-toggle = Перемикач LOOK

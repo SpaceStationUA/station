@@ -1,9 +1,9 @@
-carp-rift-warning = A rift is causing an unnaturally large energy flux at {$location}. Stop it at all costs!
-carp-rift-duplicate = Cannot have 2 charging rifts at the same time!
-carp-rift-examine = It is [color=yellow]{$percentage}%[/color] charged!
-carp-rift-max = You have reached your maximum amount of rifts
-carp-rift-anchor = Rifts require a stable surface to spawn.
-carp-rift-proximity = Too close to a nearby rift! Need to be at least {$proximity}m away.
-carp-rift-space-proximity = Too close to space! Need to be at least {$proximity}m away.
-carp-rift-weakened = You are unable to summon more rifts in your weakened state.
-carp-rift-destroyed = A rift has been destroyed! You are now weakened temporarily.
+carp-rift-warning = Розлом спричиняє неприродно великий потік енергії у {$location}. Зупиніть його за будь-яку ціну!
+carp-rift-duplicate = Не можна мати 2 зарядні розколини одночасно!
+carp-rift-examine = Він [color=yellow]{$percentage}%[/color] заряджений!
+carp-rift-max = Ви досягли максимальної кількості розривів
+carp-rift-anchor = Для нересту рифам потрібна стабільна поверхня.
+carp-rift-proximity = Занадто близько до найближчого розриву! Необхідно бути щонайменше на відстані {$proximity}м.
+carp-rift-space-proximity = Занадто близько до космосу! Потрібно бути принаймні на відстані {$proximity}m.
+carp-rift-weakened = У вашому ослабленому стані ви не в змозі викликати більше розколів.
+carp-rift-destroyed = Розлом знищено! Тепер ви тимчасово ослаблені.

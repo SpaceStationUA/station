@@ -1,68 +1,68 @@
-ent-CrateVendingMachineRestockBoozeFilled = Booze-O-Mat restock crate
-    .desc = Contains a restock box for the Booze-O-Mat.
+ent-CrateVendingMachineRestockBoozeFilled = Ящик для поповнення Booze-O-Mat
+    .desc = Містить коробку для поповнення Booze-O-Mat.
 
-ent-CrateVendingMachineRestockClothesFilled = Clothing restock crate
-    .desc = Contains a pair of restock boxes, one for the ClothesMate and one for the AutoDrobe.
+ent-CrateVendingMachineRestockClothesFilled = Ящик для поповнення одягу
+    .desc = Містить пару коробок для поповнення, одну для ClothesMate та одну для AutoDrobe.
 
-ent-CrateVendingMachineRestockDinnerwareFilled = Plasteel Chef restock crate
-    .desc = Contains a restock box for the Plasteel Chef vending machine.
+ent-CrateVendingMachineRestockDinnerwareFilled = Ящик для поповнення Plasteel Chef
+    .desc = Містить коробку для поповнення автомата Plasteel Chef.
 
-ent-CrateVendingMachineRestockEngineeringFilled = EngiVend restock crate
-    .desc = Contains a restock box for the EngiVend. Also supports the YouTool.
+ent-CrateVendingMachineRestockEngineeringFilled = Ящик для поповнення EngiVend
+    .desc = Містить коробку для поповнення EngiVend. Також підтримує YouTool.
 
-ent-CrateVendingMachineRestockGamesFilled = Good Clean Fun restock crate
-    .desc = Contains a restock box for the Good Clean Fun vending machine.
+ent-CrateVendingMachineRestockGamesFilled = Ящик для поповнення Good Clean Fun
+    .desc = Містить коробку для поповнення автомата Good Clean Fun.
 
-ent-CrateVendingMachineRestockHotDrinksFilled = Solar's Best restock crate
-    .desc = Contains two restock boxes for Solar's Best Hot Drinks vending machine.
+ent-CrateVendingMachineRestockHotDrinksFilled = Ящик для поповнення Solar's Best
+    .desc = Містить дві коробки для поповнення автомата гарячих напоїв Solar's Best.
 
-ent-CrateVendingMachineRestockMedicalFilled = NanoMed restock crate
-    .desc = Contains a restock box, compatible with the NanoMed and NanoMedPlus.
+ent-CrateVendingMachineRestockMedicalFilled = Ящик для поповнення NanoMed
+    .desc = Містить коробку для поповнення, сумісну з NanoMed та NanoMedPlus.
 
-ent-CrateVendingMachineRestockNutriMaxFilled = NutriMax restock crate
-    .desc = Contains a restock box for the NutriMax vending machine.
+ent-CrateVendingMachineRestockNutriMaxFilled = Ящик для поповнення NutriMax
+    .desc = Містить коробку для поповнення автомата NutriMax.
 
-ent-CrateVendingMachineRestockPTechFilled = PTech restock crate
-    .desc = Contains a restock box for the PTech bureaucracy dispenser.
+ent-CrateVendingMachineRestockPTechFilled = Ящик для поповнення PTech
+    .desc = Містить коробку для поповнення дозатора бюрократичних засобів PTech.
 
-ent-CrateVendingMachineRestockRobustSoftdrinksFilled = Robust Softdrinks restock crate
-    .desc = Contains two restock boxes for the Robust Softdrinks LLC vending machine.
+ent-CrateVendingMachineRestockRobustSoftdrinksFilled = Ящик для поповнення Robust Softdrinks
+    .desc = Містить дві коробки для поповнення автомата Robust Softdrinks LLC.
 
-ent-CrateVendingMachineRestockSalvageEquipmentFilled = Salvage restock crate
-    .desc = Contains a restock box for the salvage vendor.
+ent-CrateVendingMachineRestockSalvageEquipmentFilled = Ящик для поповнення Salvage
+    .desc = Містить коробку для поповнення автомата Salvage.
 
-ent-CrateVendingMachineRestockSecTechFilled = SecTech restock crate
-    .desc = Contains a restock box for the SecTech vending machine.
+ent-CrateVendingMachineRestockSecTechFilled = Ящик для поповнення SecTech
+    .desc = Містить коробку для поповнення автомата SecTech.
 
-ent-CrateVendingMachineRestockSeedsFilled = MegaSeed restock crate
-    .desc = Contains a restock box for the MegaSeed vending machine.
+ent-CrateVendingMachineRestockSeedsFilled = Ящик для поповнення MegaSeed
+    .desc = Містить коробку для поповнення автомата MegaSeed.
 
-ent-CrateVendingMachineRestockSmokesFilled = ShadyCigs restock crate
-    .desc = Contains two restock boxes for the ShadyCigs vending machine.
+ent-CrateVendingMachineRestockSmokesFilled = Ящик для поповнення ShadyCigs
+    .desc = Містить дві коробки для поповнення автомата ShadyCigs.
 
-ent-CrateVendingMachineRestockVendomatFilled = Vendomat restock crate
-    .desc = Contains a restock box for a Vendomat vending machine.
+ent-CrateVendingMachineRestockVendomatFilled = Ящик для поповнення Vendomat
+    .desc = Містить коробку для поповнення автомата Vendomat.
 
-ent-CrateVendingMachineRestockRoboticsFilled = Robotech Deluxe restock crate
-    .desc = Contains a restock box for a Robotech Deluxe vending machine.
+ent-CrateVendingMachineRestockRoboticsFilled = Ящик для поповнення Robotech Deluxe
+    .desc = Містить коробку для поповнення автомата Robotech Deluxe.
 
-ent-CrateVendingMachineRestockTankDispenserFilled = Tank dispenser restock crate
-    .desc = Contains a restock box for an Engineering or Atmospherics tank dispenser.
+ent-CrateVendingMachineRestockTankDispenserFilled = Ящик для поповнення дозатора балонів
+    .desc = Містить коробку для поповнення дозатора балонів для Інженерії або Атмосферики.
 
-ent-CrateVendingMachineRestockHappyHonkFilled = Happy honk restock crate
-    .desc = Contains a restock box for a happy honk dispenser.
+ent-CrateVendingMachineRestockHappyHonkFilled = Ящик для поповнення Happy honk
+    .desc = Містить коробку для поповнення дозатора Happy honk.
 
-ent-CrateVendingMachineRestockGetmoreChocolateCorpFilled = Getmore Chocolate Corp restock crate
-    .desc = Contains a restock box for a Getmore Chocolate Corp dispenser.
+ent-CrateVendingMachineRestockGetmoreChocolateCorpFilled = Ящик для поповнення Getmore Chocolate Corp
+    .desc = Містить коробку для поповнення дозатора Getmore Chocolate Corp.
 
-ent-CrateVendingMachineRestockChangFilled = Chang restock crate
-    .desc = Contains a restock box for a Mr. Chang dispenser.
+ent-CrateVendingMachineRestockChangFilled = Ящик для поповнення Chang
+    .desc = Містить коробку для поповнення дозатора Mr. Chang.
 
-ent-CrateVendingMachineRestockDiscountDansFilled = Discount Dans restock crate
-    .desc = Contains a restock box for a Discount Dan's dispenser.
+ent-CrateVendingMachineRestockDiscountDansFilled = Ящик для поповнення Discount Dans
+    .desc = Містить коробку для поповнення дозатора Discount Dan's.
 
-ent-CrateVendingMachineRestockDonutFilled = Donut restock crate
-    .desc = Contains a restock box for a Monkin' Donuts dispenser.
+ent-CrateVendingMachineRestockDonutFilled = Ящик для поповнення Donut
+    .desc = Містить коробку для поповнення дозатора Monkin' Donuts.
 
-ent-CrateVendingMachineRestockChemVendFilled = ChemVend restock crate
-    .desc = Contains a restock box for the ChemVend.
+ent-CrateVendingMachineRestockChemVendFilled = Ящик для поповнення ChemVend
+    .desc = Містить коробку для поповнення ChemVend.

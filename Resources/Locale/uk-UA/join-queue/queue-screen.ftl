@@ -1,4 +1,4 @@
-queue-title = Join Queue
-queue-quit = Disconnect
-queue-position = Position in queue:
-queue-total = Total in queue:
+queue-title = Приєднатися до черги
+queue-quit = Від'єднати
+queue-position = Станьте в чергу:
+queue-total = Всього в черзі:

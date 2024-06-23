@@ -22,4 +22,4 @@ comp-gas-canister-ui-pressure = {$pressure} кПа
 
 # Canister gas tank slot
 
-comp-gas-canister-slot-name-gas-tank = Gas tank
+comp-gas-canister-slot-name-gas-tank = Бензобак

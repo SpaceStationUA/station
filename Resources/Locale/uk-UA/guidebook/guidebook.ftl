@@ -1,8 +1,8 @@
-guidebook-window-title = Guidebook
-guidebook-placeholder-text = Select an entry.
-guidebook-placeholder-text-2 = If you're new, select the topmost entry to get started.
-guidebook-filter-placeholder-text = Filter items
+guidebook-window-title = Путівник
+guidebook-placeholder-text = Виберіть запис.
+guidebook-placeholder-text-2 = Якщо ви новачок, виберіть самий верхній запис, щоб почати.
+guidebook-filter-placeholder-text = Фільтрувати елементи
 
 
-guidebook-monkey-unspin = Unspin Monkey
-guidebook-monkey-disco = Disco Monkey
+guidebook-monkey-unspin = Відкрутити Мавпу
+guidebook-monkey-disco = Диско Мавпа

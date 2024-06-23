@@ -2,15 +2,15 @@ ammonia-smell = Щось погано тхне!
 
 ## Perishable
 
-perishable-1 = [color=green]{ CAPITALIZE(POSS-ADJ($target)) } corpse still looks fresh.[/color]
-perishable-2 = [color=orangered]{ CAPITALIZE(POSS-ADJ($target)) } corpse looks somewhat fresh.[/color]
-perishable-3 = [color=red]{ CAPITALIZE(POSS-ADJ($target)) } corpse doesn't look very fresh.[/color]
+perishable-1 = [color=green]{ CAPITALIZE(POSS-ADJ($target)) } труп все ще виглядає свіжим.[/color]
+perishable-2 = [color=orangered]{ CAPITALIZE(POSS-ADJ($target)) } труп виглядає дещо свіжим.[/color]
+perishable-3 = [color=red]{ CAPITALIZE(POSS-ADJ($target)) } тіло не виглядає свіжим.[/color]
 
-perishable-1-nonmob = [color=green]{ CAPITALIZE(SUBJECT($target)) } still looks fresh.[/color]
-perishable-2-nonmob = [color=orangered]{ CAPITALIZE(SUBJECT($target)) } looks somewhat fresh.[/color]
-perishable-3-nonmob = [color=red]{ CAPITALIZE(SUBJECT($target)) } doesn't look very fresh.[/color]
+perishable-1-nonmob = [color=green]{ CAPITALIZE(SUBJECT($target)) } все ще виглядає свіжо.[/color]
+perishable-2-nonmob = [color=orangered]{ CAPITALIZE(SUBJECT($target)) } виглядає дещо свіжо.[/color]
+perishable-3-nonmob = [color=red]{ CAPITALIZE(SUBJECT($target)) } виглядає не дуже свіжо.[/color]
 
-## Rotting
+## Гниє
 
 rotting-rotting = [color=orange]{ CAPITALIZE(POSS-ADJ($target)) } гниє![/color]
 rotting-bloated = [color=orangered]{ CAPITALIZE(POSS-ADJ($target)) } роздулось![/color]

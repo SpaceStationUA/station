@@ -9,7 +9,7 @@ mech-equipment-select-none-popup = Нічого не вибрано
 
 mech-ui-open-verb = Відкрити панель
 
-mech-menu-title = Панель контролю
+mech-menu-title = панель контролю
 
 mech-integrity-display = Цілістність: {$amount}%
 mech-energy-display = Зарядка: {$amount}%

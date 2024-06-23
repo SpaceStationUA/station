@@ -1,80 +1,80 @@
-signal-port-name-autoclose = Autoclose
-signal-port-description-autoclose = Toggles whether the device should automatically close.
+signal-port-name-autoclose = Автозакриття
+signal-port-description-autoclose = Дозволяє ввімкнути автоматичне закриття пристрою.
 
-signal-port-name-toggle = Toggle
-signal-port-description-toggle = Toggles the state of a device.
+signal-port-name-toggle = Перемикач
+signal-port-description-toggle = Перемикає стан пристрою.
 
-signal-port-name-on-receiver = On
-signal-port-description-on-receiver = Turns a device on.
+signal-port-name-on-receiver = На
+signal-port-description-on-receiver = Вмикає пристрій.
 
-signal-port-name-off-receiver = Off
-signal-port-description-off-receiver = Turns a device off.
+signal-port-name-off-receiver = Вимкнено
+signal-port-description-off-receiver = Вимикає пристрій.
 
-signal-port-name-forward = Forward
-signal-port-description-forward = Makes a device (e.g. conveyer) operate in the normal direction.
+signal-port-name-forward = Вперед
+signal-port-description-forward = Змушує пристрій (наприклад, конвеєр) працювати в нормальному напрямку.
 
-signal-port-name-reverse = Reverse
-signal-port-description-reverse = Makes a device (e.g. conveyer) operate in the reverse direction.
+signal-port-name-reverse = Задній хід
+signal-port-description-reverse = Змушує пристрій (наприклад, конвеєр) працювати у зворотному напрямку.
 
-signal-port-name-open = Open
-signal-port-description-open = Opens a device.
+signal-port-name-open = Відкрито
+signal-port-description-open = Відкриває пристрій.
 
-signal-port-name-close = Close
-signal-port-description-close = Closes a device.
+signal-port-name-close = Закрити
+signal-port-description-close = Закриває пристрій.
 
-signal-port-name-doorbolt = Door bolt
-signal-port-description-doorbolt = Bolts door when HIGH.
+signal-port-name-doorbolt = Дверний засув
+signal-port-description-doorbolt = Двері замикаються на засувку, коли вони високі.
 
-signal-port-name-trigger = Trigger
-signal-port-description-trigger = Triggers some mechanism on the device.
+signal-port-name-trigger = Спусковий гачок
+signal-port-description-trigger = Запускає якийсь механізм на пристрої.
 
-signal-port-name-order-sender = Order sender
-signal-port-description-order-sender = Cargo console order sender
+signal-port-name-order-sender = Відправник замовлення
+signal-port-description-order-sender = Відправник замовлення вантажної консолі
 
-signal-port-name-order-receiver = Order receiver
-signal-port-description-order-receiver = Cargo console order receiver
+signal-port-name-order-receiver = Одержувач замовлення
+signal-port-description-order-receiver = Приймач замовлень на вантажну консоль
 
-signal-port-name-pressurize = Pressurize
-signal-port-description-pressurize = Causes the device to starts releasing air until some target pressure is reached.
+signal-port-name-pressurize = Тисни на газ
+signal-port-description-pressurize = Призводить до того, що пристрій починає випускати повітря, поки не буде досягнуто певного цільового тиску.
 
-signal-port-name-depressurize = Depressurize
-signal-port-description-depressurize = Causes the device to starts siphoning air until some target pressure is reached.
+signal-port-name-depressurize = Скинути тиск
+signal-port-description-depressurize = Призводить до того, що пристрій починає відкачувати повітря, доки не буде досягнуто певного цільового тиску.
 
-signal-port-name-pod-sender = Cloning pod
-signal-port-description-pod-sender = Cloning pod signal sender
+signal-port-name-pod-sender = Капсула для клонування
+signal-port-description-pod-sender = Відправник сигналу клонування капсули
 
-signal-port-name-pod-receiver = Cloning pod
-signal-port-description-pod-receiver = Cloning pod signal receiver
+signal-port-name-pod-receiver = Капсула для клонування
+signal-port-description-pod-receiver = Приймач сигналу клонування стручка
 
-signal-port-name-med-scanner-sender = Medical scanner
-signal-port-description-med-scanner-sender = Medical scanner signal sender
+signal-port-name-med-scanner-sender = Медичний сканер
+signal-port-description-med-scanner-sender = Передавач сигналу медичного сканера
 
-signal-port-name-med-scanner-receiver = Medical scanner
-signal-port-description-med-scanner-receiver = Medical scanner signal receiver
+signal-port-name-med-scanner-receiver = Медичний сканер
+signal-port-description-med-scanner-receiver = Приймач сигналу медичного сканера
 
-signal-port-name-hold-open = Hold
-signal-port-description-hold-open = Turns off automatic closing.
+signal-port-name-hold-open = Зачекай
+signal-port-description-hold-open = Вимикає автоматичне закриття.
 
-signal-port-name-artifact-analyzer-sender = Console
-signal-port-description-artifact-analyzer-sender = Analysis console signal sender
+signal-port-name-artifact-analyzer-sender = Консоль
+signal-port-description-artifact-analyzer-sender = Відправник сигналу аналітичної консолі
 
-signal-port-name-artifact-analyzer-receiver = Pad
-signal-port-description-artifact-analyzer-receiver = Artifact analyzer signal receiver
+signal-port-name-artifact-analyzer-receiver = Подушечка
+signal-port-description-artifact-analyzer-receiver = Приймач сигналу аналізатора артефактів
 
-signal-port-name-set-particle-delta = Set particle type: delta
-signal-port-description-set-particle-delta = Sets the type of particle this device emits to delta.
+signal-port-name-set-particle-delta = Встановити тип частинок: дельта
+signal-port-description-set-particle-delta = Встановлює тип частинок, які випромінює пристрій, на дельта.
 
-signal-port-name-set-particle-epsilon = Set particle type: epsilon
-signal-port-description-set-particle-epsilon = Sets the type of particle this device emits to epsilon.
+signal-port-name-set-particle-epsilon = Тип встановленої частинки: епсилон
+signal-port-description-set-particle-epsilon = Встановлює тип частинок, які випромінює цей пристрій, на епсилон.
 
-signal-port-name-set-particle-zeta = Set particle type: zeta
-signal-port-description-set-particle-zeta = Sets the type of particle this device emits to zeta.
+signal-port-name-set-particle-zeta = Встановити тип частинок: zeta
+signal-port-description-set-particle-zeta = Задає тип частинок, які пристрій випромінює на дзета.
 
-signal-port-name-logic-input-a = Input A
-signal-port-description-logic-input-a = First input of a logic gate.
+signal-port-name-logic-input-a = Вхід A
+signal-port-description-logic-input-a = Перший вхід логічного вентилю.
 
-signal-port-name-logic-input-b = Input B
-signal-port-description-logic-input-b = Second input of a logic gate.
+signal-port-name-logic-input-b = Вхід B
+signal-port-description-logic-input-b = Другий вхід логічного вентилю.
 
-signal-port-name-logic-input = Input
-signal-port-description-logic-input = Input to the edge detector, cannot be a pulse signal.
+signal-port-name-logic-input = Вхідні дані
+signal-port-description-logic-input = Вхідний сигнал на детектор фронтів не може бути імпульсним.

@@ -5,9 +5,9 @@ cmd-bql_select-help = Usage: bql_select <bql query>
 cmd-bql_select-err-server-shell = Cannot be executed from server shell
 cmd-bql_select-err-rest = Warning: unused part after BQL query: "{ $rest }"
 
-ui-bql-results-title = BQL results
-ui-bql-results-vv = VV
-ui-bql-results-tp = TP
-ui-bql-results-vv-tooltip = View entity variables
-ui-bql-results-tp-tooltip = Teleport to entity
-ui-bql-results-status = { $count } entities
+ui-bql-results-title = Результати BQL
+ui-bql-results-vv = В.В
+ui-bql-results-tp = ТП
+ui-bql-results-vv-tooltip = Перегляд змінних сутності
+ui-bql-results-tp-tooltip = Телепортуйтеся до сутності
+ui-bql-results-status = { $count } одиниць

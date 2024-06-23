@@ -1,50 +1,50 @@
 # named frequencies
-device-frequency-prototype-name-atmos = Atmospheric Devices
-device-frequency-prototype-name-suit-sensors = Suit Sensors
-device-frequency-prototype-name-crew-monitor = Crew Monitor
-device-frequency-prototype-name-lights = Smart Lights
-device-frequency-prototype-name-mailing-units = Mailing Units
-device-frequency-prototype-name-pdas = PDAs
-device-frequency-prototype-name-fax = Fax
-device-frequency-prototype-name-basic-device = Basic Devices
+device-frequency-prototype-name-atmos = Атмосферні пристрої
+device-frequency-prototype-name-suit-sensors = Датчики костюма
+device-frequency-prototype-name-crew-monitor = Спостерігач екіпажу
+device-frequency-prototype-name-lights = Розумні світильники
+device-frequency-prototype-name-mailing-units = Поштові блоки
+device-frequency-prototype-name-pdas = КПК
+device-frequency-prototype-name-fax = Факс
+device-frequency-prototype-name-basic-device = Основні пристрої
 
-## camera frequencies
-device-frequency-prototype-name-surveillance-camera-test = Subnet Test
-device-frequency-prototype-name-surveillance-camera-engineering = Engineering Cameras
-device-frequency-prototype-name-surveillance-camera-security = Security Cameras
-device-frequency-prototype-name-surveillance-camera-science = Epistemics Cameras
-device-frequency-prototype-name-surveillance-camera-supply = Supply Cameras
-device-frequency-prototype-name-surveillance-camera-command = Command Cameras
-device-frequency-prototype-name-surveillance-camera-service = Service Cameras
-device-frequency-prototype-name-surveillance-camera-medical = Medical Cameras
-device-frequency-prototype-name-surveillance-camera-general = General Cameras
-device-frequency-prototype-name-surveillance-camera-entertainment = Entertainment Cameras
+## частоти камер
+device-frequency-prototype-name-surveillance-camera-test = Тест підмережі
+device-frequency-prototype-name-surveillance-camera-engineering = Інженерні камери
+device-frequency-prototype-name-surveillance-camera-security = Камери спостереження
+device-frequency-prototype-name-surveillance-camera-science = Епістемічні камери
+device-frequency-prototype-name-surveillance-camera-supply = Камери спостереження
+device-frequency-prototype-name-surveillance-camera-command = Командні камери
+device-frequency-prototype-name-surveillance-camera-service = Службові камери
+device-frequency-prototype-name-surveillance-camera-medical = Медичні камери
+device-frequency-prototype-name-surveillance-camera-general = Загальні камери
+device-frequency-prototype-name-surveillance-camera-entertainment = Розважальні камери
 
-# prefixes for randomly generated device addresses
-device-address-prefix-vent = VNT-
-device-address-prefix-scrubber = SCR-
+# префікси для випадково згенерованих адрес пристроїв
+device-address-prefix-vent = ВНТ-
+device-address-prefix-scrubber = СКР-
 device-address-prefix-sensor = SNS-
-# Damn bet you couldn't see this one coming.
-device-address-prefix-teg = TEG-
-device-address-prefix-heater = HTR-
-device-address-prefix-freezer = FZR-
-device-address-prefix-volume-pump = VPP-
+# Б'юся об заклад, ти не міг передбачити, що це станеться.
+device-address-prefix-teg = ТЕГ-
+device-address-prefix-heater = НГВ-
+device-address-prefix-freezer = МЗН-
+device-address-prefix-volume-pump = НСП-
 device-address-prefix-smes = SMS-
 
-#PDAs and terminals
-device-address-prefix-console = CLS-
-device-address-prefix-fire-alarm = FIR-
-device-address-prefix-air-alarm = AIR-
+#КПК та термінали
+device-address-prefix-console = КОН-
+device-address-prefix-fire-alarm = ППО-
+device-address-prefix-air-alarm = ТНА-
 
-device-address-prefix-sensor-monitor = MON-
+device-address-prefix-sensor-monitor = МОН-
 
-device-address-examine-message = The device's address is {$address}.
+device-address-examine-message = Адреса пристрою - {$address}.
 
-#Device net ID names
-device-net-id-private = Private
-device-net-id-wired = Wired
-device-net-id-wireless = Wireless
-device-net-id-apc = Apc
-device-net-id-atmos-devices = Atmos Devices
-device-net-id-reserved = Reserved
+# Імена мережевих ідентифікаторів пристроїв
+device-net-id-private = Рядовий
+device-net-id-wired = Дротяна
+device-net-id-wireless = Бездротовий
+device-net-id-apc = АПК
+device-net-id-atmos-devices = Пристрої Atmos
+device-net-id-reserved = Зарезервовано
 

@@ -1,8 +1,8 @@
 # Command
 cmd-faxui-desc = Відкрити вікно адміністратора для надсилання факсів
-cmd-faxui-help = Usage: faxui
+cmd-faxui-help = Використання: faxui
 
-# Window
+# Вікно
 admin-fax-title = Менеджер адмін факсів
 admin-fax-fax = Факс:
 admin-fax-follow = слідувати

@@ -1,2 +1,2 @@
-powersink-examine-drain-amount = The power sink is draining [color={$markupDrainColor}]{$amount} kW[/color].
-powersink-immiment-explosion-announcement = System scans have detected a rogue power consuming device is becoming unstable.  Staff are advised to locate and disconnect this device immediately before the station is damaged.
+powersink-examine-drain-amount = Розетка розряджається [color={$markupDrainColor}]{$amount} кВт[/color].
+powersink-immiment-explosion-announcement = Сканування системи виявило несанкціонований пристрій, що споживає енергію, робота якого стає нестабільною.  Персоналу рекомендується знайти і відключити цей пристрій негайно, поки станція не була пошкоджена.

@@ -5,7 +5,7 @@ replay-loading-reading = Читання Файлів
 replay-loading-processing = Обробка Файлів
 replay-loading-spawning = Створення Сутностей
 replay-loading-initializing = Ініціалізація Сутностей
-replay-loading-starting= Стартування Сутностей
+replay-loading-starting = Стартування Сутностей
 replay-loading-failed = Помилка при завантаженні повторення:
                         {$reason}
 
@@ -37,6 +37,6 @@ replay-menu-select-title = Вибрати Повтор
 replay-verb-spectate = Наглядати
 
 # command
-cmd-replay-spectate-help = replay_spectate [optional entity]
-cmd-replay-spectate-desc = Attaches or detaches the local player to a given entity uid.
-cmd-replay-spectate-hint = Optional EntityUid
+cmd-replay-spectate-help = replay_spectate [необов'язкова сутність]
+cmd-replay-spectate-desc = Приєднує або від'єднує локального гравця до заданого uid сутності.
+cmd-replay-spectate-hint = Необов'язковий EntityUid

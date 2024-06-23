@@ -8,10 +8,10 @@ chat-speech-verb-felinid-2 = мявчить
 chat-speech-verb-felinid-3 = нявкає
 chat-speech-verb-felinid-4 = муркоче
 
-chat-speech-verb-harpy-1 = chirps
-chat-speech-verb-harpy-2 = tweets
-chat-speech-verb-harpy-3 = caws
-chat-speech-verb-harpy-4 = trills
+chat-speech-verb-harpy-1 = цвірінькання
+chat-speech-verb-harpy-2 = твіти
+chat-speech-verb-harpy-3 = кігті
+chat-speech-verb-harpy-4 = трелі
 
 chat-speech-verb-name-goblin = Гоблін
 chat-speech-verb-goblin-1 = бурчить

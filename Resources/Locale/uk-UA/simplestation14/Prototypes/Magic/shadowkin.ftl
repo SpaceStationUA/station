@@ -1,10 +1,10 @@
 ﻿action-name-shadowkin-teleport=Teleport
-action-description-shadowkin-teleport=Aaramrra!
+action-description-shadowkin-teleport = Аарамрра!
 
-action-name-shadowkin-darkswap=Dark Swap
-action-description-shadowkin-darkswap=Mmra Mamm!
+action-name-shadowkin-darkswap = Темна підміна
+action-description-shadowkin-darkswap = Ммра Мамм!
 
-action-name-shadowkin-rest=Rest
-action-description-shadowkin-rest=Rama
+action-name-shadowkin-rest = Відпочинок
+action-description-shadowkin-rest = Рама
 
-ethereal-pickup-fail=Your hand sizzles as it passes through...
+ethereal-pickup-fail = Твоя рука шипить, коли вона проходить крізь нього...

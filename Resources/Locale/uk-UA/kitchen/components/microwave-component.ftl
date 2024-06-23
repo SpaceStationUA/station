@@ -14,15 +14,15 @@ microwave-component-interact-item-too-big = { CAPITALIZE(THE($item)) } зана�
 
 ## Bound UI
 
-microwave-bound-user-interface-instant-button = МИТТЕВЕ
-microwave-bound-user-interface-cook-time-label = ЧАС ГОТУВАННЯ: {$time}
+microwave-bound-user-interface-instant-button = МИТЬ
+microwave-bound-user-interface-cook-time-label = Час приготування: {$time}
 
-## UI
+## ІНТЕРФЕЙС
 
 microwave-menu-title = Мікрохвильовка
 microwave-menu-start-button = Почати
 microwave-menu-eject-all-text = Вийняти Вміст
 microwave-menu-eject-all-tooltip = Випаровує всі реагенти, але викидає всі тверді речовини.
-microwave-menu-instant-button = МИТТЄВЕ
+microwave-menu-instant-button = МИТЬ
 microwave-menu-footer-flavor-left = Не вставляйте електронні, металеві або живі предмети.
 microwave-menu-footer-flavor-right = v1.5

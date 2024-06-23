@@ -1,11 +1,11 @@
 ## Traitor
 
 traitor-round-end-codewords = Кодові слова були: [color=White]{$codewords}[/color]
-traitor-round-end-agent-name = traitor
+traitor-round-end-agent-name = зрадник
 
-objective-issuer-syndicate = [color=crimson]The Syndicate[/color]
+objective-issuer-syndicate = [color=crimson]Синдикат[/color]
 
-# Shown at the end of a round of Traitor
+# З'являється в кінці раунду Зрадника
 
 traitor-title = Зрадник
 traitor-description = Серед нас є зрадники...

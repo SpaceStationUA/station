@@ -1,29 +1,29 @@
 ## Nyano
-flavor-base-acidic = acidic
-flavor-complex-nuggie = like "chicken"
-flavor-complex-enthralling = enthralling
-flavor-complex-sublime = sublime
-flavor-complex-holy = heavenly
-flavor-base-seeds = seeds
+flavor-base-acidic = кислий
+flavor-complex-nuggie = як "курча"
+flavor-complex-enthralling = захоплююче
+flavor-complex-sublime = піднесений
+flavor-complex-holy = небесний
+flavor-base-seeds = насіння
 flavor-complex-cotton = like cotton
-flavor-complex-vanilla = like vanilla
-flavor-complex-soju = like bold, alcoholic rice
-flavor-complex-orangecreamcicle = like creamy, alcoholic orange juice
-flavor-complex-silverjack = like a rockstars dream
-flavor-complex-brainbomb = like liver damage
-flavor-complex-atomicpunch = like bittersweet radiation
-flavor-complex-circusjuice = extremely funny
-flavor-complex-pinkdrink = overwhelmingly like pink
-flavor-complex-sapopicante = like tomatoes and spices
-flavor-complex-graveyard = like a strong cold brew
-flavor-complex-bubbletea = like creamy sweetness
-flavor-complex-corncob = like a sick joke
+flavor-complex-vanilla = як ваніль
+flavor-complex-soju = як сміливий, алкогольний рис
+flavor-complex-orangecreamcicle = як вершковий, алкогольний апельсиновий сік
+flavor-complex-silverjack = як мрія рок-зірки
+flavor-complex-brainbomb = наприклад, ураження печінки
+flavor-complex-atomicpunch = як гірко-солодке випромінювання
+flavor-complex-circusjuice = дуже смішно
+flavor-complex-pinkdrink = в переважній більшості, як рожевий
+flavor-complex-sapopicante = наприклад, помідори та спеції
+flavor-complex-graveyard = як міцний холодний заварний напій
+flavor-complex-bubbletea = як вершкова солодкість
+flavor-complex-corncob = як хворий жарт.
 
-## Delta
-flavor-complex-gunmetal = bittersweet and creamy
-flavor-complex-lemondrop = refreshingly tart
-flavor-complex-greengrass = like a holiday in the sun
-flavor-complex-daiquiri = fashionable
-flavor-complex-arsonistsbrew = like ash and flame
-flavor-complex-healthcodeviolation = ominous
+## Дельта
+flavor-complex-gunmetal = гірко-солодкий і вершковий
+flavor-complex-lemondrop = освіжаюче-терпкий
+flavor-complex-greengrass = як свято на сонці
+flavor-complex-daiquiri = модний
+flavor-complex-arsonistsbrew = як попіл і полум'я
+flavor-complex-healthcodeviolation = зловісний
 flavor-complex-pumpkin = like pumpkin

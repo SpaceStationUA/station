@@ -1,7 +1,7 @@
-cmd-loadacts-desc = Loads action toolbar assignments from a user-file.
-cmd-loadacts-help = Usage: {$command} <user resource path>
-cmd-loadacts-error = Failed to load action assignments
+cmd-loadacts-desc = Завантажує призначення панелей дій з користувацького файлу.
+cmd-loadacts-help = Використання: {$command} <шлях до ресурсу користувача>
+cmd-loadacts-error = Не вдалося завантажити призначення дій
 
-cmd-loadmapacts-desc = Loads the mapping preset action toolbar assignments.
-cmd-loadmapacts-help = Usage: {$command} <user resource path>
-cmd-loadmapacts-error = Failed to load action assignments
+cmd-loadmapacts-desc = Завантажує попередньо встановлені призначення панелі інструментів дій мапування.
+cmd-loadmapacts-help = Використання: {$command} <шлях до ресурсу користувача>
+cmd-loadmapacts-error = Не вдалося завантажити призначення дій

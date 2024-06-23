@@ -12,4 +12,4 @@ admin-verbs-erase-description = Видаляє гравця з раунду, м�
     Їх речі падають на землю.
     Гравці отримують повідомлення грати якби цього персонажу ніколи не існувало.
 toolshed-verb-mark = Маркувати
-toolshed-verb-mark-description = Places this entity into the $marked variable, a list of entities, replacing it's prior value.
+toolshed-verb-mark-description = Поміщає цей об'єкт у змінну $marked, список об'єктів, замінюючи її попереднє значення.

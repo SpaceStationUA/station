@@ -3,7 +3,7 @@
 # For the PDA screen
 comp-pda-ui = ID: [color=white]{$owner}[/color], [color=yellow]{$jobTitle}[/color]
 
-comp-pda-ui-blank = ID:
+comp-pda-ui-blank = ПОСВІДЧЕННЯ ОСОБИ:
 
 comp-pda-ui-owner = Власник: [color=white]{$actualOwnerName}[/color]
 

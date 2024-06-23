@@ -1,23 +1,23 @@
-ent-CrateFoodPizza = Emergency pizza delivery
-    .desc = Help do your part to end station hunger by distributing pizza to underfunded departments! Includes 4 pizzas.
+ent-CrateFoodPizza = Доставка піци для надзвичайних ситуацій
+    .desc = Допоможіть побороти голод на станції, роздаючи піцу недофінансованим відділам! Включає 4 піци.
 
-ent-CrateFoodPizzaLarge = Disaster pizza delivery
-    .desc = In the ultimate event that all else has failed, Find comfort in that more pizza solves everything. Includes 16 pizzas.
+ent-CrateFoodPizzaLarge = Доставка піци під час катастрофи
+    .desc = Якщо все інше не вдалося, знайдіть розраду в тому, що більше піци вирішує все. Включає 16 піц.
 
-ent-CrateFoodMRE = MRE crate
-    .desc = A military style meal fit to feed a whole department.
+ent-CrateFoodMRE = Ящик з MRE
+    .desc = Військовий стиль їжі, придатний для харчування цілого відділу.
 
-ent-CrateFoodCooking = Kitchen supplies crate
-    .desc = Extra kitchen supplies, in case the botanists are absent.
+ent-CrateFoodCooking = Ящик з кухонним приладдям
+    .desc = Додаткове кухонне приладдя на випадок, якщо ботаніків немає.
 
-ent-CrateFoodDinnerware = Kitchen dinnerware crate
-    .desc = Extra kitchen supplies, in case the clown was allowed in the cafeteria unsupervised.
+ent-CrateFoodDinnerware = Ящик з кухонним посудом
+    .desc = Додаткове кухонне приладдя на випадок, якщо клоун був допущений до їдальні без нагляду.
 
-ent-CrateFoodBarSupply = Bartending supplies crate
-    .desc = Extra Bar supplies, in case the clown was allowed in the bar unsupervised.
+ent-CrateFoodBarSupply = Ящик з барним приладдям
+    .desc = Додаткове барне приладдя на випадок, якщо клоун був допущений до бару без нагляду.
 
-ent-CrateFoodSoftdrinks = Softdrinks crate
-    .desc = A variety of sodas to complement a small party, without having to empty the soda machines. Includes 14 sodas.
+ent-CrateFoodSoftdrinks = Ящик з безалкогольними напоями
+    .desc = Різноманітні содові напої для невеликої вечірки, без необхідності спорожнювати автомати з содою. Включає 14 содових напоїв.
 
-ent-CrateFoodSoftdrinksLarge = Softdrinks bulk crate
-    .desc = Lots of sodas taken straight out of Centcomm's own vending machines, because you just can't leave your department. Includes 28 sodas.
+ent-CrateFoodSoftdrinksLarge = Ящик з безалкогольними напоями у великій кількості
+    .desc = Багато содових напоїв прямо з автоматів Centcomm, тому що ви просто не можете залишити свій відділ. Включає 28 содових напоїв.

@@ -1,9 +1,9 @@
-energy-dome-access-denied = Access denied
-energy-dome-recharging = Recharging...
-energy-dome-no-power = Low battery
-energy-dome-no-cell = There is no power source
+energy-dome-access-denied = У доступі відмовлено
+energy-dome-recharging = Перезарядка...
+energy-dome-no-power = Розряджена батарея
+energy-dome-no-cell = Джерело живлення відсутнє
 
-energy-dome-on-examine-is-on-message = The energy barrier is [color=darkgreen]up[/color].
-energy-dome-on-examine-is-off-message = The energy barrier is [color=darkred]down[/color].
+energy-dome-on-examine-is-on-message = Енергетичний бар'єр [color=darkgreen]піднято[/color].
+energy-dome-on-examine-is-off-message = Енергетичний бар'єр [color=darkred]знижується[/color].
 
-energy-dome-verb-toggle = Toggle energy dome
+energy-dome-verb-toggle = Перемикання енергетичного купола

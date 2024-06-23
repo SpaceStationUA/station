@@ -1,14 +1,14 @@
-ent-CrateHydroponicsSeedsExotic = Exotic seeds crate
-    .desc = Any entrepreneuring botanist's dream. Contains many different exotic seeds. Requires Hydroponics access to open.
+ent-CrateHydroponicsSeedsExotic = Ящик з екзотичними насінням
+    .desc = Мрія будь-якого підприємливого ботаніка. Містить багато різних екзотичних насінин. Потрібен доступ до гідропоніки для відкриття.
 
-ent-CrateHydroponicsSeedsMedicinal = Medicinal seeds crate
-    .desc = The wannabe chemist's dream. The power of medicine is at your fingertips! Requires Hydroponics access to open.
+ent-CrateHydroponicsSeedsMedicinal = Ящик з лікарськими насінням
+    .desc = Мрія початківця-хіміка. Сила медицини у вас під рукою! Потрібен доступ до гідропоніки для відкриття.
 
-ent-CrateHydroponicsTools = Hydroponics equipment crate
-    .desc = Supplies for growing a great garden! Contains some spray bottles of plant chemicals, a hatchet, a mini-hoe, scythe, as well as a pair of leather gloves and a botanist's apron.
+ent-CrateHydroponicsTools = Ящик з обладнанням для гідропоніки
+    .desc = Запаси для вирощування чудового саду! Містить кілька розпилювачів з хімікатами для рослин, сокиру, міні-кирку, косу, а також пару шкіряних рукавичок та фартух ботаніка.
 
-ent-CrateHydroponicsSeeds = Seeds crate
-    .desc = Big things have small beginnings. Contains twelve different seeds.
+ent-CrateHydroponicsSeeds = Ящик з насінням
+    .desc = Великі речі починаються з малого. Містить дванадцять різних насінин.
 
-ent-CratePlantBGone = Bulk Plant-B-Gone crate
-    .desc = From Monstano. "Unwanted Weeds, Meet Your Celestial Roundup!"
+ent-CratePlantBGone = Ящик Plant-B-Gone оптом
+    .desc = Від Monstano. "Небажані бур'яни, зустрічайте свій небесний гербіцид!"

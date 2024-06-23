@@ -6,110 +6,110 @@
 # accent-italian-prefix-3 = Mamma-mia! That's a spicy meat-ball!
 # accemt-italian-prefix-4 = La la la la la funiculi funicula!
 
-accent-italian-words-1 = assistant
-accent-italian-words-replace-1 = goombah
+accent-italian-words-1 = асистент
+accent-italian-words-replace-1 = гумба
 
-accent-italian-words-2 = assistants
-accent-italian-words-replace-2 = goombahs
+accent-italian-words-2 = асистенти
+accent-italian-words-replace-2 = гумбахи
 
-accent-italian-words-3 = baby
-accent-italian-words-replace-3 = bambino
+accent-italian-words-3 = крихітка
+accent-italian-words-replace-3 = бамбіно
 
-accent-italian-words-4 = bad
-accent-italian-words-replace-4 = molto male
+accent-italian-words-4 = поганий
+accent-italian-words-replace-4 = справжній чоловік
 
-accent-italian-words-5 = bye
-accent-italian-words-replace-5 = arrivederci
+accent-italian-words-5 = бувай
+accent-italian-words-replace-5 = до побачення
 
-accent-italian-words-6 = captain
-accent-italian-words-replace-6 = capitano
+accent-italian-words-6 = капітане
+accent-italian-words-replace-6 = капітано
 
-accent-italian-words-7 = cheese
-accent-italian-words-replace-7 = parmesano
+accent-italian-words-7 = сир
+accent-italian-words-replace-7 = пармезан
 
-accent-italian-words-8 = cook
-accent-italian-words-replace-8 = cook-a
+accent-italian-words-8 = готувати
+accent-italian-words-replace-8 = готувати
 
-accent-italian-words-9 = could
-accent-italian-words-replace-9 = could-a
+accent-italian-words-9 = міг би
+accent-italian-words-replace-9 = міг би..
 
-accent-italian-words-10 = dad
-accent-italian-words-replace-10 = pappa
+accent-italian-words-10 = тату
+accent-italian-words-replace-10 = тату!
 
-accent-italian-words-11 = good
-accent-italian-words-replace-11 = molto bene
+accent-italian-words-11 = добре
+accent-italian-words-replace-11 = дуже добре
 
-accent-italian-words-12 = greytide
-accent-italian-words-replace-12 = curvisti
+accent-italian-words-12 = сірість
+accent-italian-words-replace-12 = кривий
 
-accent-italian-words-13 = greytider
-accent-italian-words-replace-13 = curvisti
+accent-italian-words-13 = грейтайдер
+accent-italian-words-replace-13 = кривий
 
-accent-italian-words-14 = greytiders
-accent-italian-words-replace-14 = curvisti
+accent-italian-words-14 = грейтайдери
+accent-italian-words-replace-14 = кривий
 
-accent-italian-words-15 = hello
-accent-italian-words-replace-15 = ciao
+accent-italian-words-15 = привіт
+accent-italian-words-replace-15 = чао
 
-accent-italian-words-16 = it's
-accent-italian-words-replace-16 = it's-a
+accent-italian-words-16 = це
+accent-italian-words-replace-16 = це..
 
-accent-italian-words-17 = make
-accent-italian-words-replace-17 = make-a
+accent-italian-words-17 = зробити
+accent-italian-words-replace-17 = зробити
 
-accent-italian-words-18 = meat
-accent-italian-words-replace-18 = prosciutto
+accent-italian-words-18 = м'ясо
+accent-italian-words-replace-18 = прошутто
 
-accent-italian-words-19 = mom
-accent-italian-words-replace-19 = mamma
+accent-italian-words-19 = мамо
+accent-italian-words-replace-19 = мамо
 
-accent-italian-words-20 = my
-accent-italian-words-replace-20 = my-a
+accent-italian-words-20 = мій
+accent-italian-words-replace-20 = моя..
 
-accent-italian-words-21 = nuke
-accent-italian-words-replace-21 = spiciest-a meatball
+accent-italian-words-21 = ядерна бомба
+accent-italian-words-replace-21 = найгостріша - фрикаделька
 
-accent-italian-words-22 = op
-accent-italian-words-replace-22 = greek
+accent-italian-words-22 = оп
+accent-italian-words-replace-22 = грецький
 
-accent-italian-words-23 = operative
-accent-italian-words-replace-23 = greek
+accent-italian-words-23 = оперативник
+accent-italian-words-replace-23 = грецький
 
-accent-italian-words-24 = operatives
-accent-italian-words-replace-24 = greeks
+accent-italian-words-24 = оперативники
+accent-italian-words-replace-24 = греки
 
-accent-italian-words-24 = ops
-accent-italian-words-replace-24 = greeks
+accent-italian-words-24 = операції
+accent-italian-words-replace-24 = греки
 
 accent-italian-words-25 = безпека
 accent-italian-words-replace-25 = поліція
 
-accent-italian-words-26 = security
-accent-italian-words-replace-26 = polizia
+accent-italian-words-26 = безпека
+accent-italian-words-replace-26 = поліція
 
-accent-italian-words-27 = secoff
-accent-italian-words-replace-27 = polizia
+accent-italian-words-27 = шериф
+accent-italian-words-replace-27 = поліція
 
-accent-italian-words-28 = shitcurity
-accent-italian-words-replace-28 = carabinieri
+accent-italian-words-28 = охорона
+accent-italian-words-replace-28 = карабінери
 
-accent-italian-words-29 = shitsec
-accent-italian-words-replace-29 = carabinieri
+accent-italian-words-29 = гівнюки
+accent-italian-words-replace-29 = карабінери
 
-accent-italian-words-30 = sing
-accent-italian-words-replace-30 = sing-a
+accent-italian-words-30 = співати
+accent-italian-words-replace-30 = співай
 
-accent-italian-words-31 = spaghetti
-accent-italian-words-replace-31 = SPAGHETT
+accent-italian-words-31 = спагеті
+accent-italian-words-replace-31 = СПАГЕТТ
 
-accent-italian-words-32 = spicy
-accent-italian-words-replace-32 = a-spicy
+accent-italian-words-32 = гострий
+accent-italian-words-replace-32 = а-пікантний
 
 accent-italian-words-33 = дякую
 accent-italian-words-replace-33 = граціас
 
-accent-italian-words-34 = thing
-accent-italian-words-replace-34 = thing-a
+accent-italian-words-34 = річ
+accent-italian-words-replace-34 = річ-а
 
 accent-italian-words-35 = зрадник
 accent-italian-words-replace-35 = мафіозі
@@ -117,38 +117,38 @@ accent-italian-words-replace-35 = мафіозі
 accent-italian-words-36 = зрадники
 accent-italian-words-replace-36 = мафіозі
 
-accent-italian-words-37 = use
-accent-italian-words-replace-37 = use-a
+accent-italian-words-37 = використання
+accent-italian-words-replace-37 = використовувати -а
 
-accent-italian-words-38 = want
-accent-italian-words-replace-38 = want-a
+accent-italian-words-38 = хочу
+accent-italian-words-replace-38 = хочу
 
-accent-italian-words-39 = what's
-accent-italian-words-replace-39 = what's-a
+accent-italian-words-39 = що таке
+accent-italian-words-replace-39 = що..
 
-accent-italian-words-40 = who's
-accent-italian-words-replace-40 = who's-a
+accent-italian-words-40 = хто
+accent-italian-words-replace-40 = який..
 
-accent-italian-words-41 = whose
-accent-italian-words-replace-41 = whose-a
+accent-italian-words-41 = чия
+accent-italian-words-replace-41 = чия..
 
-accent-italian-words-42 = why
-accent-italian-words-replace-42 = for-a what reason
+accent-italian-words-42 = чому
+accent-italian-words-replace-42 = з якої причини
 
-accent-italian-words-43 = wine
-accent-italian-words-replace-43 = vino
+accent-italian-words-43 = вино
+accent-italian-words-replace-43 = вино
 
-accent-italian-words-44 = passenger
-accent-italian-words-replace-44 = goombah
+accent-italian-words-44 = пасажир
+accent-italian-words-replace-44 = гумба
 
-accent-italian-words-45 = passengers
-accent-italian-words-replace-45 = goombahs
+accent-italian-words-45 = пасажири
+accent-italian-words-replace-45 = гумбахи
 
-accent-italian-words-46 = i'm
-accent-italian-words-replace-46 = i'm-a
+accent-italian-words-46 = я
+accent-italian-words-replace-46 = я..
 
-accent-italian-words-47 = am-a
-accent-italian-words-replace-47 = am-a
+accent-italian-words-47 = ам-а
+accent-italian-words-replace-47 = ам-а
 
-accent-italian-words-48 = and-a
-accent-italian-words-replace-48 = and-a
+accent-italian-words-48 = і-а
+accent-italian-words-replace-48 = і-а

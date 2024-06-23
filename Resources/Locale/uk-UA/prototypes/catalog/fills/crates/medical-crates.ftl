@@ -1,41 +1,41 @@
-ent-CrateMedicalSupplies = Medical supplies crate
-    .desc = Basic medical supplies.
+ent-CrateMedicalSupplies = Ящик з медичними приладдям
+    .desc = Основні медичні засоби.
 
-ent-CrateChemistrySupplies = Chemistry supplies crate
-    .desc = Basic chemistry supplies.
+ent-CrateChemistrySupplies = Ящик з хімічними приладдям
+    .desc = Основні хімічні засоби.
 
-ent-CrateChemistryVials = Vial supply crate
-    .desc = Crate filled with a box of vials.
+ent-CrateChemistryVials = Ящик з пробірками
+    .desc = Ящик, заповнений коробкою з пробірками.
 
-ent-CrateMindShieldImplants = MindShield implant crate
-    .desc = Crate filled with 3 MindShield implants.
+ent-CrateMindShieldImplants = Ящик з імплантатами захисту розуму
+    .desc = Ящик, заповнений 3 імплантатами захисту розуму.
 
-ent-CrateMedicalSurgery = Surgical supplies crate
-    .desc = Surgical instruments.
+ent-CrateMedicalSurgery = Ящик з хірургічними інструментами
+    .desc = Хірургічні інструменти.
 
-ent-CrateMedicalScrubs = Medical scrubs crate
-    .desc = Medical clothings.
+ent-CrateMedicalScrubs = Ящик з медичним одягом
+    .desc = Медичний одяг.
 
-ent-CrateEmergencyBurnKit = Emergency burn kit
-    .desc = Crate filled with a burn treatment kit
+ent-CrateEmergencyBurnKit = Аварійний набір для опіків
+    .desc = Ящик, заповнений набором для лікування опіків.
 
-ent-CrateEmergencyToxinKit = Emergency toxin kit
-    .desc = Crate filled with a toxin treatment kit
+ent-CrateEmergencyToxinKit = Аварійний набір для лікування токсинів
+    .desc = Ящик, заповнений набором для лікування токсинів.
 
-ent-CrateEmergencyO2Kit = Emergency O2 kit
-    .desc = Crate filled with an O2 treatment kit
+ent-CrateEmergencyO2Kit = Аварійний набір O2
+    .desc = Ящик, заповнений набором для лікування кисневої недостатності.
 
-ent-CrateEmergencyBruteKit = Emergency brute kit
-    .desc = Crate filled with a brute treatment kit
+ent-CrateEmergencyBruteKit = Аварійний набір для травм
+    .desc = Ящик, заповнений набором для лікування травм.
 
-ent-CrateEmergencyAdvancedKit = Emergency advanced kit
-    .desc = Crate filled with an advanced treatment kit
+ent-CrateEmergencyAdvancedKit = Аварійний розширений набір
+    .desc = Ящик, заповнений розширеним набором для лікування.
 
-ent-CrateEmergencyRadiationKit = Emergency radiation kit
-    .desc = Crate filled with a radiation treatment kit
+ent-CrateEmergencyRadiationKit = Аварійний набір для лікування радіації
+    .desc = Ящик, заповнений набором для лікування радіаційного опромінення.
 
-ent-CrateBodyBags = Body bags crate
-    .desc = Contains ten body bags.
+ent-CrateBodyBags = Ящик з мішками для трупів
+    .desc = Містить десять мішків для трупів.
 
-ent-CrateVirologyBiosuit = Virology bio suit crate
-    .desc = Contains 2 biohazard suits to ensure that no disease will distract you from treating the crew. Requires Medical access to open.
+ent-CrateVirologyBiosuit = Ящик з біокостюмами для вірусології
+    .desc = Містить 2 біозахисних костюми, щоб жодна хвороба не заважала вам лікувати екіпаж. Для відкриття потрібен медичний доступ.

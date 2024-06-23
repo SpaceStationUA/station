@@ -1,4 +1,4 @@
 advertisement-robodrobe-1 = Айон іс вотчінг ю!
-advertisement-robodrobe-2 = 01101110 01100101 01110110 01100101 01110010 00100000 01100111 01101111 01101110 01101110 01100001 00100000 01100111 01101001 01110110 01100101 00100000 01111001 01101111 01110101 00100000 01110101 01110000
-advertisement-robodrobe-3 = Steal someone from maintenance and turn them into a robot!
-advertisement-robodrobe-4 = Robotics is fun!
+advertisement-robodrobe-2 = 0110001101101100011011110111010001101000011001010111001101101000011001010111001001100101
+advertisement-robodrobe-3 = Викрадіть когось з техобслуговування і перетворіть його на робота!
+advertisement-robodrobe-4 = Робототехніка - це весело!

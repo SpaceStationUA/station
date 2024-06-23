@@ -1,6 +1,6 @@
-set-ooc-command-description = Allows you to enable or disable OOC.
-set-ooc-command-help = Usage: setooc OR setooc [value]
-set-ooc-command-too-many-arguments-error = Too many arguments.
-set-ooc-command-invalid-argument-error = Invalid argument.
-set-ooc-command-ooc-enabled = OOC chat has been enabled.
-set-ooc-command-ooc-disabled = OOC chat has been disabled.
+set-ooc-command-description = Дозволяє ввімкнути або вимкнути OOC.
+set-ooc-command-help = Використання: setooc АБО setooc [значення]
+set-ooc-command-too-many-arguments-error = Занадто багато аргументів.
+set-ooc-command-invalid-argument-error = Неправильний аргумент.
+set-ooc-command-ooc-enabled = Увімкнено OOC чат.
+set-ooc-command-ooc-disabled = OOC чат вимкнено.

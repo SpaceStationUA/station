@@ -29,18 +29,18 @@ nuke-user-interface-second-status-cooldown-time = ЗАЧЕКАЙТЕ: {$time}
 ## Nuke labels
 nuke-label-nanotrasen = NT-{$serial}
 
-# do you even need this one? It's more funnier to say that
-# the Syndicate stole a NT nuke
+# вам це взагалі потрібно? Смішніше сказати, що
+# Синдикат вкрав ядерну бомбу з НТ
 nuke-label-syndicate = SYN-{$serial}
 
-# Codes
+# Коди
 nuke-codes-message = [color=red]НАДЗВИЧАЙНО СЕКРЕТНО![/color]
 nuke-codes-list = {$name} код: {$code}
 nuke-codes-fax-paper-name = коди активації ядерної боєголовки
 
 # Nuke disk slot
-nuke-slot-component-slot-name-disk = Disk
+nuke-slot-component-slot-name-disk = Диск
 
-## Examine
-nuke-examine-armed = Hey uh, why's that [color=red]red light[/color] blinking?
-nuke-examine-exploding = Yeah... I think it's too late buddy.
+## Вивчити
+nuke-examine-armed = Ей, а чому блимає [color=red]червоне світло[/color]?
+nuke-examine-exploding = Так... Думаю, вже запізно, приятелю.

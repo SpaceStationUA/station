@@ -2,8 +2,8 @@
   abstract: true
   id: TranslatorUnpowered
   parent: [ BaseItem ]
-  name: translator
-  description: Translates speech.
+  name: "перекладач"
+  description: "Перекладає мову."
   components:
   - type: Sprite
     sprite: Objects/Devices/translator.rsi
@@ -48,8 +48,8 @@
 - type: entity
   id: CanilunztTranslator
   parent: [ TranslatorEmpty ]
-  name: Canilunzt translator
-  description: Translates speech between Canilunzt and Galactic Common.
+  name: "Перекладач Canilunzt"
+  description: "Перекладає мовлення з канілунзької на галактичну мову."
   components:
   - type: HandheldTranslator
     spoken:
@@ -65,8 +65,8 @@
 - type: entity
   id: BubblishTranslator
   parent: [ TranslatorEmpty ]
-  name: Bubblish translator
-  description: Translates speech between Bubblish and Galactic Common.
+  name: "Перекладач Bubblish"
+  description: "Перекладає мову з бабліш на галактичну загальну."
   components:
   - type: HandheldTranslator
     spoken:
@@ -82,8 +82,8 @@
 - type: entity
   id: NekomimeticTranslator
   parent: [ TranslatorEmpty ]
-  name: Nekomimetic translator
-  description: Translates speech between Nekomimetic and Galactic Common. Why would you want that?
+  name: "Неміметичний перекладач"
+  description: "Перекладає мовлення з Некоміметичної на Галактичну загальну. Навіщо це вам?"
   components:
   - type: HandheldTranslator
     spoken:
@@ -99,8 +99,8 @@
 - type: entity
   id: DraconicTranslator
   parent: [ TranslatorEmpty ]
-  name: Draconic translator
-  description: Translates speech between Draconic and Galactic Common.
+  name: "Драконівський перекладач"
+  description: "Перекладає мову з драконівської на галактичну."
   components:
   - type: HandheldTranslator
     spoken:
@@ -116,8 +116,8 @@
 - type: entity
   id: SolCommonTranslator
   parent: [ TranslatorEmpty ]
-  name: Sol Common translator
-  description: Translates speech between Sol Common and Galactic Common. Like a true Earthman!
+  name: "Сол Спільний перекладач"
+  description: "Перекладає мову з сол-спільної на галактичну. Як справжній землянин!"
   components:
   - type: HandheldTranslator
     spoken:
@@ -133,8 +133,8 @@
 - type: entity
   id: RootSpeakTranslator
   parent: [ TranslatorEmpty ]
-  name: RootSpeak translator
-  description: Translates speech between RootSpeak and Galactic Common. Like a true plant?
+  name: "Перекладач RootSpeak"
+  description: "Перекладає мову між RootSpeak та Galactic Common. Як справжня рослина?"
   components:
   - type: HandheldTranslator
     spoken:
@@ -150,8 +150,8 @@
 - type: entity
   id: MofficTranslator
   parent: [ TranslatorEmpty ]
-  name: Moffic translator
-  description: Translates speech between Moffic and Galactic Common. Like a true moth... or bug?
+  name: "Moffic перекладач"
+  description: "Перекладає мову з моффікської на галактичну. Як справжній метелик... чи жук?"
   components:
   - type: HandheldTranslator
     spoken:
@@ -167,8 +167,8 @@
 - type: entity
   id: XenoTranslator
   parent: [ TranslatorEmpty ]
-  name: Xeno translator
-  description: Translates speech between Xeno and Galactic Common. Not sure if that will help.
+  name: "Ксеноперекладач"
+  description: "Перекладає мову між Ксено та Галактичною загальною. Не впевнений, що це допоможе."
   components:
   - type: HandheldTranslator
     spoken:
@@ -183,8 +183,8 @@
 - type: entity
   id: AnimalTranslator
   parent: [ TranslatorEmpty ]
-  name: Animal translator
-  description: Translates all the cutes noises that animals make into a more understandable form!
+  name: "Перекладач тварин"
+  description: "Перекладає всі милі звуки, які видають тварини, у більш зрозумілу форму!"
   components:
   - type: HandheldTranslator
     understood:

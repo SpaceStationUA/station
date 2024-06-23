@@ -9,17 +9,17 @@ pai-system-role-description = Стань чиєюсь електронною б�
 pai-system-role-name-syndicate = персональний ШІ синдикату
 pai-system-role-description-syndicate = Стань електронним компаньйоном синдикату!
                                         (Спогади *відсутні*.)
-pai-system-role-name-potato = potato artificial intelligence
-pai-system-role-description-potato = It's a toy for children. And now you live in it.
+pai-system-role-name-potato = штучний інтелект картоплі
+pai-system-role-description-potato = Це дитяча іграшка. А тепер ти в ній живеш.
 
 pai-system-wipe-device-verb-text = Видалення пШІ
 pai-system-wiped-device = Бібліотеку пШІ було видалено з цього пристрою.
 
-pai-system-stop-searching-verb-text = Припинення встановлення.
+pai-system-stop-searching-verb-text = Припинення встановлення
 pai-system-stopped-searching = пристрій припинив встановлення бібліотеки пШІ.
 
-pai-system-pai-name = пШІ "{ CAPITALIZE(THE($owner)) }"
-pai-system-pai-name-raw = {$name}'s pAI
+pai-system-pai-name = пШІ "{ CAPITALIZE(THE($owner)) }
+pai-system-pai-name-raw = {$name}'s пAI
 
-pai-system-brick-popup = The pAI's circuits loudly pop and fizzle out!
-pai-system-scramble-popup = The pAI's circuits are overloaded with electricity!
+pai-system-brick-popup = Схеми pAI голосно тріщать і шиплять!
+pai-system-scramble-popup = Ланцюги pAI перевантажені електроенергією!

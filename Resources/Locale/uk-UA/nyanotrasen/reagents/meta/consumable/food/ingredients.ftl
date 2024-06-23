@@ -1,2 +1,2 @@
 ﻿reagent-name-nausium = nausium
-reagent-desc-nausium = Sickening.
+reagent-desc-nausium = Огидно.

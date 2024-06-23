@@ -4,7 +4,7 @@ bible-heal-success-none-self = Ви вдарили {THE($target)} {THE($bible)},
 bible-heal-success-none-others = {CAPITALIZE(THE($user))} вдарили {THE($target)} {THE($bible)}!
 
 bible-heal-fail-self = Ви вдарили {THE($target)} {THE($bible)}, і воно вдарилось зі скрежетом, приголомшує {OBJECT($target)}!
-bible-heal-fail-others = {CAPITALIZE(THE($user))} hits {THE($target)} with {THE($bible)}, and it lands with a sad thack, dazing {OBJECT($target)}!
+bible-heal-fail-others = {CAPITALIZE(THE($user))} б'є {THE($target)} по {THE($bible)}, і та приземляється з сумним стуком, приголомшуючи {OBJECT($target)}!
 bible-sizzle = Книга шипить в руках!
 
 bible-summon-verb = Викликати фамільяра

@@ -1,62 +1,62 @@
-ent-CrateNPCBee = Crate of bees
-    .desc = A crate containing a swarm of eight bees.
+ent-CrateNPCBee = Ящик з бджолами
+    .desc = Ящик, що містить рій з восьми бджіл.
 
-ent-CrateNPCButterflies = Crate of butterflies
-    .desc = A crate containing five butterflies.
+ent-CrateNPCButterflies = Ящик з метеликами
+    .desc = Ящик, що містить п'ять метеликів.
 
-ent-CrateNPCCat = Cat crate
-    .desc = A crate containing a single cat.
+ent-CrateNPCCat = Ящик з котом
+    .desc = Ящик, що містить одного кота.
 
-ent-CrateNPCChicken = Chicken crate
-    .desc = A crate containing four fully grown chickens.
+ent-CrateNPCChicken = Ящик з курками
+    .desc = Ящик, що містить чотири дорослі курки.
 
-ent-CrateNPCCrab = Crab crate
-    .desc = A crate containing three huge crabs.
+ent-CrateNPCCrab = Ящик з крабами
+    .desc = Ящик, що містить трьох величезних крабів.
 
-ent-CrateNPCDuck = Duck crate
-    .desc = A crate containing six fully grown ducks.
+ent-CrateNPCDuck = Ящик з качками
+    .desc = Ящик, що містить шість дорослих качок.
 
-ent-CrateNPCCorgi = Corgi crate
-    .desc = A crate containing a single corgi.
+ent-CrateNPCCorgi = Ящик з коргі
+    .desc = Ящик, що містить одного коргі.
 
-ent-CrateNPCPuppyCorgi = Puppy Corgi crate
-    .desc = A crate containing a single puppy corgi. Awww.
+ent-CrateNPCPuppyCorgi = Ящик з цуценям коргі
+    .desc = Ящик, що містить одного цуценя коргі. Аwww.
 
-ent-CrateNPCCow = Cow crate
-    .desc = A crate containing a single cow.
+ent-CrateNPCCow = Ящик з коровою
+    .desc = Ящик, що містить одну корову.
 
-ent-CrateNPCGoat = Goat crate
-    .desc = A crate containing a single goat.
+ent-CrateNPCGoat = Ящик з козою
+    .desc = Ящик, що містить одну козу.
 
-ent-CrateNPCGoose = Goose crate
-    .desc = A crate containing two geese.
+ent-CrateNPCGoose = Ящик з гусьми
+    .desc = Ящик, що містить двох гусей.
 
-ent-CrateNPCGorilla = Gorilla crate
-    .desc = A crate containing a single gorilla.
+ent-CrateNPCGorilla = Ящик з горилою
+    .desc = Ящик, що містить одну горилу.
 
-ent-CrateNPCMonkeyCube = Monkey cube crate
-    .desc = A crate containing three boxes of monkey cubes.
+ent-CrateNPCMonkeyCube = Ящик з кубами мавп
+    .desc = Ящик, що містить три коробки з кубами мавп.
 
-ent-CrateNPCMouse = Mice crate
-    .desc = A crate containing five mice.
+ent-CrateNPCMouse = Ящик з мишами
+    .desc = Ящик, що містить п'ять мишей.
 
-ent-CrateNPCParrot = Parrot crate
-    .desc = A crate containing three parrots.
+ent-CrateNPCParrot = Ящик з папугами
+    .desc = Ящик, що містить трьох папуг.
 
-ent-CrateNPCPenguin = Penguin crate
-    .desc = A crate containing two penguins.
+ent-CrateNPCPenguin = Ящик з пінгвінами
+    .desc = Ящик, що містить двох пінгвінів.
 
-ent-CrateNPCMothroach = Crate of mothroaches
-    .desc = A crate containing six mothroaches.
+ent-CrateNPCMothroach = Ящик з мотроачами
+    .desc = Ящик, що містить шість мотроачів.
 
-ent-CrateNPCPig = Pig crate
-    .desc = A crate containing a single pig.
+ent-CrateNPCPig = Ящик зі свинею
+    .desc = Ящик, що містить одну свиню.
 
-ent-CrateNPCSnake = Snake crate
-    .desc = A crate containing three snakes.
+ent-CrateNPCSnake = Ящик зі зміями
+    .desc = Ящик, що містить трьох змій.
 
-ent-CrateNPCLizard = Lizard crate
-    .desc = A crate containing a lizard.
+ent-CrateNPCLizard = Ящик з ящіркою
+    .desc = Ящик, що містить одну ящірку.
 
-ent-CrateNPCKangaroo = Kangaroo crate
-    .desc = A crate containing a kangaroo.
+ent-CrateNPCKangaroo = Ящик з кенгуру
+    .desc = Ящик, що містить одного кенгуру.

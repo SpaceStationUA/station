@@ -22,8 +22,8 @@ reagent-desc-ketchup = зроблений з томатів та приправ,
 reagent-name-ketchunaise = кетчунез
 reagent-desc-ketchunaise = створена провідними інженерами для економії часу під час їжі!
 
-reagent-name-laughin-syrup = laughin' syrup
-reagent-desc-laughin-syrup = The product of juicing Laughin' Peas. Fizzy, and seems to change flavour based on what it's used with!
+reagent-name-laughin-syrup = сироп для сміху
+reagent-desc-laughin-syrup = Продукт вичавлювання соку з горошку "Смішний горошок". Шипучий, і, здається, змінює смак залежно від того, з чим його вживають!
 
 reagent-name-mayo = майонез
 reagent-desc-mayo = зроблений з яєць та олії.

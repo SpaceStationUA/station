@@ -11,7 +11,7 @@ reagent-name-green-tea = зелений час
 reagent-desc-green-tea = який твій улюблений зелений чай? :)
 
 reagent-name-grenadine = сироп Гренадин
-reagent-desc-grenadine = червоний концентрат гранатового соку.
+reagent-desc-grenadine = червоний концентрат гранатового соку
 
 reagent-name-iced-coffee = охолоджена кава
 reagent-desc-iced-coffee = охолоджує,хочеш видатися знавцем на каві - вибирай це!
@@ -46,11 +46,11 @@ reagent-desc-nothing = цього не існує,сходи до психоло
 reagent-name-nuclear-cola = термоядерна кола
 reagent-desc-nuclear-cola = хтось кинув туди тренболон з креатином? Пані та панове,бобік більше не працює.
 
-reagent-name-hot-cocoa = hot cocoa
-reagent-desc-hot-cocoa = Smells like the holidays!
+reagent-name-hot-cocoa = гаряче какао
+reagent-desc-hot-cocoa = Пахне святами!
 
 reagent-name-soda-water = содова
-reagent-desc-soda-water = газова вода,часто використовується барменами та звичайними громадянами.
+reagent-desc-soda-water = газова вода,часто використовується барменами та звичайними громадянами
 
 reagent-name-soy-latte = соєве латте
 reagent-desc-soy-latte = в склад війшло еспрессо на соєвому молоці...знущання!
@@ -79,11 +79,11 @@ reagent-desc-pilk = молоко та кола,відчуття,що це нап
 reagent-name-posca = поска
 reagent-desc-posca = напій воїнів,після якого краще вмерти,ніж пити його знову
 
-reagent-name-the-martinez = мартінез 
-reagent-desc-the-martinez = легенда Карпат,мікс відпочинку на Гавайях та пригод у пірамідах Єгипту!
+reagent-name-the-martinez = Мартінес 
+reagent-desc-the-martinez = Легенда про еджраннера.  Пам'ятається під випивку, забувається п'яним.
 
 reagent-name-white-gilgamesh = блідий Гільгамеш
 reagent-desc-white-gilgamesh = якщо ви вважаєте що можете назвати пиво з молоком на честь шумерського царя...
 
-reagent-name-mopwata = mopwata
-reagent-desc-mopwata = Dirty, stagnant mop water.
+reagent-name-mopwata = мопвата
+reagent-desc-mopwata = Брудна, застояна вода для миття швабр.

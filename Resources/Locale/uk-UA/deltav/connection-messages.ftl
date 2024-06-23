@@ -1,1 +1,1 @@
-﻿whitelist-not-whitelisted-peri = You are not whitelisted. To become whitelisted, apply on our forum. It can be found at https://forum.delta-v.org/
+﻿whitelist-not-whitelisted-peri = Тебе немає в білому списку. Щоб потрапити до білого списку, подай заявку на нашому форумі. Його можна знайти за адресою https://discord.gg/KZTGDk9qyB

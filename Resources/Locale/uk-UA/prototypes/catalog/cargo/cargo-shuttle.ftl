@@ -4,5 +4,5 @@ ent-ShuttleThruster = { ent-Thruster }
 ent-ShuttleGyroscope = { ent-Gyroscope }
     .desc = { ent-Gyroscope.desc }
 
-ent-ShuttlePowerKit = Shuttle powering crate
-    .desc = Contains boards for wallmounted power utilities.
+ent-ShuttlePowerKit = Ящик для живлення шатла
+    .desc = Містить плати для настінних енергетичних пристроїв.

@@ -1,26 +1,26 @@
-markings-used = Used Markings
-markings-unused = Unused Markings
-markings-add = Add Marking
-markings-remove = Remove Marking
-markings-rank-up = Up
-markings-rank-down = Down
-markings-search = Search
-marking-points-remaining = Markings left: {$points}
+markings-used = Використане маркування
+markings-unused = Невикористане маркування
+markings-add = Додати позначку
+markings-remove = Видалити маркування
+markings-rank-up = Вгору
+markings-rank-down = Вниз
+markings-search = Пошук
+marking-points-remaining = Залишилися сліди: {$points}
 marking-used = {$marking-name}
-marking-used-forced = {$marking-name} (Forced)
-marking-slot-add = Add
-marking-slot-remove = Remove
+marking-used-forced = {$marking-name} (Примусово)
+marking-slot-add = Додати
+marking-slot-remove = Видалити
 
-# Categories
+# Категорії
 
-markings-category-Hair = Hair
-markings-category-FacialHair = Facial Hair
-markings-category-Head = Head
-markings-category-HeadTop = Head (Top)
-markings-category-HeadSide = Head (Side)
-markings-category-Snout = Snout
-markings-category-Chest = Chest
-markings-category-Arms = Arms
-markings-category-Legs = Legs
-markings-category-Tail = Tail
-markings-category-Overlay = Overlay
+markings-category-Hair = Волосся
+markings-category-FacialHair = Волосся на обличчі
+markings-category-Head = Голова
+markings-category-HeadTop = Голова (зверху)
+markings-category-HeadSide = Голова (збоку)
+markings-category-Snout = Морда
+markings-category-Chest = Груди
+markings-category-Arms = Зброя
+markings-category-Legs = Ноги
+markings-category-Tail = Хвіст
+markings-category-Overlay = Накладення

@@ -1,26 +1,26 @@
 reagent-name-sake = саке
-reagent-desc-sake = Alcoholic beverage made by fermenting rice that has been polished.
+reagent-desc-sake = Алкогольний напій, виготовлений шляхом бродіння відшліфованого рису.
 
 reagent-name-soju = соджу
-reagent-desc-soju = Alcoholic beverage made by distilling rice that has been polished.
+reagent-desc-soju = Алкогольний напій, виготовлений шляхом дистиляції відшліфованого рису.
 
 reagent-name-orange-creamcicle = апельсиновий крем
-reagent-desc-orange-creamcicle = Orangy, creamy goodness.
+reagent-desc-orange-creamcicle = Помаранчева, вершкова смакота.
 
 reagent-name-silverjack = срібний джек
-reagent-desc-silverjack = Reminds you of family.
+reagent-desc-silverjack = Нагадує про сім'ю.
 
 reagent-name-brainbomb = мозкова бомба
-reagent-desc-brainbomb = Toxic to about anything alive, especially your liver.
+reagent-desc-brainbomb = Токсичний для всього живого, особливо для печінки.
 
 reagent-name-clownblood = кров клоуна
-reagent-desc-clownblood = Security Officers favorite drink after a long day.
+reagent-desc-clownblood = Улюблений напій охоронців після довгого дня.
 
 reagent-name-circusjuice = цирковий сік
-reagent-desc-circusjuice = Honkmother would be proud.
+reagent-desc-circusjuice = Мама пишалася б.
 
 reagent-name-sapopicante = сапо піканте
-reagent-desc-sapopicante = Tastes nothing like a toad.
+reagent-desc-sapopicante = На смак зовсім не схоже на жабу.
 
 reagent-name-graveyard = кладовище
-reagent-desc-graveyard = For those shifts that never seem to end.
+reagent-desc-graveyard = Для тих змін, які, здається, ніколи не закінчаться.

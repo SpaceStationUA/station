@@ -18,7 +18,7 @@ air-alarm-ui-window-auto-mode-label = Автоматичний режим
 air-alarm-ui-window-pressure = {$pressure} кПа
 air-alarm-ui-window-pressure-indicator = Тиск: [color={$color}]{$pressure} кПа[/color]
 air-alarm-ui-window-temperature = {$tempC} Ц ({$temperature} K)
-air-alarm-ui-window-temperature-indicator = Temperature: [color={$color}]{$tempC} Ц ({$temperature} K)[/color]
+air-alarm-ui-window-temperature-indicator = Температура: [color={$color}]{$tempC} Ц ({$temperature} K)[/color]
 air-alarm-ui-window-alarm-state = [color={$color}]{$state}[/color]
 air-alarm-ui-window-alarm-state-indicator = Стан: [color={$color}]{$state}[/color]
 
@@ -61,7 +61,7 @@ air-alarm-ui-scrubber-wide-net-label = Широка мережа (WideNet)
 ### Thresholds
 
 air-alarm-ui-sensor-gases = Гази
-air-alarm-ui-sensor-thresholds = Thresholds
+air-alarm-ui-sensor-thresholds = Пороги
 air-alarm-ui-thresholds-pressure-title = Порогові значення (кПа)
 air-alarm-ui-thresholds-temperature-title = Порогові значення (К)
 air-alarm-ui-thresholds-gas-title = Порогові значення (%)

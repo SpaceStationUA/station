@@ -49,7 +49,7 @@
     state: power6
   - sprite: /Textures/SimpleStation14/Interface/Alerts/shadowkin_power.rsi
     state: power7
-  name: alerts-shadowkin-power-name
+  name: "alerts-shadowkin-power-name"
   description: alerts-shadowkin-power-desc
   minSeverity: 0
   maxSeverity: 7
@@ -121,8 +121,8 @@
     state: power_display10
   minSeverity: 0
   maxSeverity: 11
-  name: alerts-plasma-name
-  description: alerts-plasma-desc
+  name: "alerts-plasma-name"
+  description: "alerts-plasma-desc"
 
 - type: alert
   id: HighPressure
@@ -521,8 +521,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health0
-  name: Debug1
-  description: Debug
+  name: "Налагодження1"
+  description: "Налагодження"
 
 - type: alert
   id: Debug2
@@ -530,36 +530,36 @@
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health1
   name: Debug2
-  description: Debug
+  description: "Налагодження"
 
 - type: alert
   id: Debug3
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health2
-  name: Debug3
-  description: Debug
+  name: "Налагодження3"
+  description: "Налагодження"
 
 - type: alert
   id: Debug4
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health3
-  name: Debug4
-  description: Debug
+  name: "Налагодження4"
+  description: "Налагодження"
 
 - type: alert
   id: Debug5
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health4
-  name: Debug5
-  description: Debug
+  name: "Налагодження5"
+  description: "Налагодження"
 
 - type: alert
   id: Debug6
   icons:
   - sprite: /Textures/Interface/Alerts/human_critical.rsi
     state: critical
-  name: Debug6
-  description: Debug
+  name: "Налагодження6"
+  description: "Налагодження"

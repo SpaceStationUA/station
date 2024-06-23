@@ -1,14 +1,14 @@
-spray-painter-window-title = Spray painter
+spray-painter-window-title = Фарборозпилювач
 
-spray-painter-style-not-available = Cannot apply the selected style to this type of airlock
-spray-painter-selected-style = Selected style:
+spray-painter-style-not-available = Неможливо застосувати вибраний стиль до цього типу шлюзу
+spray-painter-selected-style = Вибраний стиль:
 
-spray-painter-selected-color = Selected color:
-spray-painter-color-red = red
-spray-painter-color-yellow = yellow
-spray-painter-color-brown = brown
-spray-painter-color-green = green
-spray-painter-color-cyan = cyan
-spray-painter-color-blue = blue
-spray-painter-color-white = white
-spray-painter-color-black = black
+spray-painter-selected-color = Вибраний колір:
+spray-painter-color-red = червоний
+spray-painter-color-yellow = жовтий
+spray-painter-color-brown = коричневий
+spray-painter-color-green = зелений
+spray-painter-color-cyan = блакитний
+spray-painter-color-blue = синій
+spray-painter-color-white = білий
+spray-painter-color-black = чорний

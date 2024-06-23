@@ -5,5 +5,5 @@ advertisement-nanomed-4 = Природні хімікати!
 advertisement-nanomed-5 = Ця штука рятує життя.
 advertisement-nanomed-6 = Ви не хочете?
 advertisement-nanomed-7 = пінгую!
-advertisement-nanomed-8 = Make sure not to overdose people!
-advertisement-nanomed-9 = Go overdose people!
+advertisement-nanomed-8 = Слідкуйте за тим, щоб не допустити передозування людей!
+advertisement-nanomed-9 = Передозуйте людей!

@@ -5,7 +5,7 @@ admin-player-actions-ban = Забанити
 admin-player-actions-ahelp = ЄДопомога
 admin-player-actions-respawn = Респавн
 admin-player-actions-spawn = Заспавнити тут
-admin-player-spawn-failed = Failed to find valid coordinates
+admin-player-spawn-failed = Не вдалося знайти правильні координати
 
 admin-player-actions-clone = Клонувати
 admin-player-actions-teleport = Телепортуватись до

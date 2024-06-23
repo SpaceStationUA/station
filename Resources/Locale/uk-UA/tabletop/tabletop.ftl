@@ -1,6 +1,6 @@
 ﻿## TabletopGameComponent
 tabletop-verb-play-game = Зіграти
-tabletop-verb-dump-pieces = Dump Pieces
+tabletop-verb-dump-pieces = Сміттєві шматки
 tabletop-default-board-name = Настолка
 tabletop-error-remove-non-hologram = Ви не можете видалити вбудовану частину!
 tabletop-added-piece = Дошка яскраво переливається!

@@ -1,6 +1,6 @@
-set-looc-command-description = Allows you to enable or disable LOOC.
-set-looc-command-help = Usage: setlooc OR setlooc [value]
-set-looc-command-too-many-arguments-error = Too many arguments.
-set-looc-command-invalid-argument-error = Invalid argument.
-set-looc-command-looc-enabled = LOOC chat has been enabled.
-set-looc-command-looc-disabled = LOOC chat has been disabled.
+set-looc-command-description = Дозволяє ввімкнути або вимкнути LOOC.
+set-looc-command-help = Використання: setlooc АБО setlooc [значення]
+set-looc-command-too-many-arguments-error = Занадто багато аргументів.
+set-looc-command-invalid-argument-error = Неправильний аргумент.
+set-looc-command-looc-enabled = Чат LOOC увімкнено.
+set-looc-command-looc-disabled = Чат LOOC вимкнено.

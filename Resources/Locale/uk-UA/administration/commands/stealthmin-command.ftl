@@ -1,3 +1,3 @@
-cmd-stealthmin-desc = Toggle whether others can see you in adminwho.
-cmd-stealthmin-help = Usage: stealthmin\nUse stealthmin to toggle whether you appear in the output of the adminwho command.
-cmd-stealthmin-no-console = You cannot use this command from the server console.
+cmd-stealthmin-desc = Увімкніть, чи можуть інші бачити вас в adminwho.
+cmd-stealthmin-help = Використання: stealthmin\nВикористовуйте stealthmin, щоб увімкнути відображення вас у виводі команди adminwho.
+cmd-stealthmin-no-console = Ви не можете використовувати цю команду з консолі сервера.

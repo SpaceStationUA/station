@@ -1,20 +1,20 @@
-ent-CrateEmergencyExplosive = Bomb suit crate
-    .desc = Epistemics gone bonkers? Beeping behind the airlock? Buy now and be the hero the station des... I mean needs! (time not included)
+ent-CrateEmergencyExplosive = Ящик з бомбозахисним костюмом
+    .desc = Епістеміки зійшли з розуму? Писк за шлюзом? Купуйте зараз і станьте героєм станції, якого вона заслугов... я маю на увазі, потребує! (час не включено)
 
-ent-CrateEmergencyFire = Firefighting crate
-    .desc = Only you can prevent station fires. Partner up with two firefighter suits, gas masks, flashlights, large oxygen tanks, extinguishers, and hardhats!
+ent-CrateEmergencyFire = Ящик для пожежогасіння
+    .desc = Тільки ви можете запобігти пожежам на станції. Вкомплектуйтесь двома костюмами пожежників, газовими масками, ліхтариками, великими кисневими балонами, вогнегасниками та касками!
 
-ent-CrateEmergencyInternals = Internals crate
-    .desc = Master your life energy and control your breathing with three breath masks, three emergency oxygen tanks and three large air tanks.
+ent-CrateEmergencyInternals = Ящик з інтерналами
+    .desc = Оволодійте своєю життєвою енергією та контролюйте дихання за допомогою трьох дихальних масок, трьох аварійних кисневих балонів та трьох великих повітряних балонів.
 
-ent-CrateEmergencyRadiation = Radiation protection crate
-    .desc = Survive the Nuclear Apocalypse and Supermatter Engine alike with two sets of Radiation suits. Each set contains a helmet, suit, and Geiger counter. We'll even throw in a bottle of vodka and some glasses too, considering the life-expectancy of people who order this.
+ent-CrateEmergencyRadiation = Ящик для захисту від радіації
+    .desc = Виживіть як під час ядерного апокаліпсису, так і з двигуном на надматерії з двома комплектами радіаційних костюмів. Кожен комплект містить шолом, костюм та лічильник Гейгера. Ми навіть додамо пляшку горілки та кілька склянок, враховуючи тривалість життя людей, які замовляють це.
 
-ent-CrateEmergencyInflatablewall = Inflatable wall crate
-    .desc = Three stacks of inflatable walls for when the stations metal walls don't want to hold atmosphere anymore.
+ent-CrateEmergencyInflatablewall = Ящик з надувними стінами
+    .desc = Три стоси надувних стін на випадок, коли металеві стіни станції більше не хочуть утримувати атмосферу.
 
-ent-CrateGenericBiosuit = Emergency bio suit crate
-    .desc = Contains 2 biohazard suits to ensure that no disease will distract you from what you're doing there.
+ent-CrateGenericBiosuit = Ящик з аварійними біозахисними костюмами
+    .desc = Містить 2 біозахисні костюми, щоб жодна хвороба не відволікала вас від того, що ви там робите.
 
-ent-CrateSlimepersonLifeSupport = Slimeperson life support crate
-    .desc = Contains four breath masks and four large nitrogen tanks.
+ent-CrateSlimepersonLifeSupport = Ящик для підтримки життєдіяльності слизової людини
+    .desc = Містить чотири дихальні маски та чотири великі балони з азотом.

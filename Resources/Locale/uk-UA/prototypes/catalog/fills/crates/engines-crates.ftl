@@ -1,33 +1,33 @@
-ent-CrateEngineeringAMEShielding = Packaged antimatter reactor crate
-    .desc = 9 parts for the main body of an antimatter reactor, or for expanding an existing one.
+ent-CrateEngineeringAMEShielding = Ящик з частинами антиматерійного реактора
+    .desc = 9 частин для основного корпусу антиматерійного реактора або для розширення існуючого.
 
-ent-CrateEngineeringAMEJar = Antimatter containment jar crate
-    .desc = 3 antimatter jars, for fuelling an antimatter reactor.
+ent-CrateEngineeringAMEJar = Ящик з контейнерами для антиматерії
+    .desc = 3 контейнери для антиматерії, для заправки антиматерійного реактора.
 
-ent-CrateEngineeringAMEControl = Antimatter control unit crate
-    .desc = The control unit of an antimatter reactor.
+ent-CrateEngineeringAMEControl = Ящик з блоком управління антиматерійним реактором
+    .desc = Блок управління антиматерійним реактором.
 
-ent-CrateEngineeringSingularityEmitter = Emitter crate
-    .desc = An emitter, best used for singularity engines.
+ent-CrateEngineeringSingularityEmitter = Ящик з випромінювачем
+    .desc = Випромінювач, найкраще підходить для двигунів з сингулярністю.
 
-ent-CrateEngineeringSingularityCollector = Radiation collector crate
-    .desc = A radiation collector, best used for singularity engines.
+ent-CrateEngineeringSingularityCollector = Ящик з радіаційним колектором
+    .desc = Радіаційний колектор, найкраще підходить для двигунів з сингулярністю.
 
-ent-CrateEngineeringSingularityContainment = Containment field generator crate
-    .desc = A containment field generator, keeps the singulo in submission.
+ent-CrateEngineeringSingularityContainment = Ящик з генератором утримуючого поля
+    .desc = Генератор утримуючого поля, утримує сингулярність під контролем.
 
-ent-CrateEngineeringSingularityGenerator = Singularity generator crate
-    .desc = A singularity generator, the mother of the beast.
+ent-CrateEngineeringSingularityGenerator = Ящик з генератором сингулярності
+    .desc = Генератор сингулярності, мати звіра.
 
-ent-CrateEngineeringParticleAccelerator = PA crate
-    .desc = Complex to setup, but rewarding as fuck.
+ent-CrateEngineeringParticleAccelerator = Ящик з прискорювачем часток
+    .desc = Складний у налаштуванні, але дуже корисний.
 
-ent-CrateEngineeringGenerator = Generator crate
+ent-CrateEngineeringGenerator = Ящик з генератором
 
-ent-CrateEngineeringSolar = Solar assembly crate
-    .desc = Parts for constructing solar panels and trackers.
+ent-CrateEngineeringSolar = Ящик з частинами сонячних панелей
+    .desc = Частини для будівництва сонячних панелей і трекерів.
 
-ent-CrateEngineeringShuttle = Shuttle powering crate
+ent-CrateEngineeringShuttle = Ящик для живлення шатла
 
 ent-CrateEngineeringTeslaGenerator = Ящик для генератора Тесли
     .desc = Генератор Тесли. Нехай Бог вас береже.

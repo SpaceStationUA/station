@@ -1,3 +1,3 @@
-﻿gift-packin-contains = This present appears to contain {INDEFINITE($name)} {$name}.
-christmas-tree-got-gift = After a bit of digging, you find a present with your name on it!
-christmas-tree-no-gift = There isn't a gift under the tree for you...
+﻿gift-packin-contains = Цей подарунок, здається, містить {INDEFINITE($name)} {$name}.
+christmas-tree-got-gift = Трохи покопавшись, ви знайдете подарунок з вашим ім'ям на ньому!
+christmas-tree-no-gift = Під ялинкою для вас немає подарунка...

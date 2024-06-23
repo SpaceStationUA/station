@@ -1,2 +1,2 @@
-container-verb-text-enter = Enter
-container-verb-text-empty = Empty
+container-verb-text-enter = Увійдіть
+container-verb-text-empty = Порожньо

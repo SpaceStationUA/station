@@ -1,41 +1,41 @@
-ent-CrateEngineeringGear = Engineering gear crate
-    .desc = Various engineering gear parts.
+ent-CrateEngineeringGear = Ящик з інженерним обладнанням
+    .desc = Різноманітні частини інженерного обладнання.
 
-ent-CrateEngineeringToolbox = Toolbox crate
-    .desc = Two mechanical and two electrical toolboxes.
+ent-CrateEngineeringToolbox = Ящик з інструментами
+    .desc = Два механічні та два електричні ящики з інструментами.
 
-ent-CrateEngineeringPowercell = AME crate
-    .desc = Three microcreactor powercells.
+ent-CrateEngineeringPowercell = Ящик з елементами живлення AME
+    .desc = Три елементи живлення для мікрореактора.
 
-ent-CrateEngineeringCableLV = LV cable crate
-    .desc = 3 coils of LV cables.
+ent-CrateEngineeringCableLV = Ящик з низьковольтними кабелями
+    .desc = 3 котушки низьковольтних кабелів.
 
-ent-CrateEngineeringCableMV = MV cable crate
-    .desc = 3 coils of MV cables.
+ent-CrateEngineeringCableMV = Ящик з середньовольтними кабелями
+    .desc = 3 котушки середньовольтних кабелів.
 
-ent-CrateEngineeringCableHV = HV cable crate
-    .desc = 3 coils of HV cables.
+ent-CrateEngineeringCableHV = Ящик з високовольтними кабелями
+    .desc = 3 котушки високовольтних кабелів.
 
-ent-CrateEngineeringCableBulk = Bulk cable crate
-    .desc = 2 coils each for every cable type.
+ent-CrateEngineeringCableBulk = Ящик з кабелями оптом
+    .desc = 2 котушки кожного типу кабелів.
 
-ent-CrateEngineeringElectricalSupplies = Electrical Supplies Crate
-    .desc = NT is not responsible for any workplace infighting relating to the insulated gloves included within these crates.
+ent-CrateEngineeringElectricalSupplies = Ящик з електротехнічними матеріалами
+    .desc = NT не несе відповідальності за будь-які конфлікти на робочому місці, пов'язані з ізольованими рукавичками, що входять до складу цих ящиків.
 
-ent-CrateEngineeringJetpack = Jetpack crate
-    .desc = Two jetpacks for those who don't know how to use fire extinguishers.
+ent-CrateEngineeringJetpack = Ящик з реактивними ранцями
+    .desc = Два реактивних ранця для тих, хто не знає, як користуватися вогнегасниками.
 
-ent-CrateEngineeringMiniJetpack = Mini jetpack crate
-    .desc = Two mini jetpacks for those who want an extra challenge.
+ent-CrateEngineeringMiniJetpack = Ящик з міні реактивними ранцями
+    .desc = Два міні реактивних ранця для тих, хто хоче додаткового виклику.
 
-ent-CrateAirlockKit = Airlock kit
-    .desc = A kit for building 6 airlocks, doesn't include tools.
+ent-CrateAirlockKit = Набір для повітряного шлюзу
+    .desc = Набір для будівництва 6 повітряних шлюзів, не включає інструменти.
 
-ent-CrateEvaKit = EVA kit
-    .desc = A set consisting of two prestigious EVA suits and helmets.
+ent-CrateEvaKit = Набір EVA
+    .desc = Набір, що складається з двох престижних EVA костюмів та шоломів.
 
-ent-CrateRCDAmmo = RCD ammo crate
-    .desc = 3 RCD ammo, each restoring 5 charges.
+ent-CrateRCDAmmo = Ящик з боєприпасами для RCD
+    .desc = 3 боєприпаси для RCD, кожен з яких відновлює 5 зарядів.
 
-ent-CrateRCD = RCD crate
-    .desc = A crate containing a single Rapid Construction Device.
+ent-CrateRCD = Ящик з пристроєм швидкого будівництва
+    .desc = Ящик, що містить один пристрій швидкого будівництва (RCD).

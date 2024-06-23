@@ -23,7 +23,7 @@ reagent-name-juice-lime = лаймовий сік
 reagent-desc-juice-lime = солодко-кислий сік лайма
 
 reagent-name-juice-orange = апельсиновий сік
-reagent-desc-juice-orange = смачний і корисний. 
+reagent-desc-juice-orange = смачний і корисний 
 
 reagent-name-juice-pineapple = ананасовий сік
 reagent-desc-juice-pineapple = Часто бачиш ананаси? Тепер зможеш випити один!
@@ -32,7 +32,7 @@ reagent-name-juice-potato = картопляний сік
 reagent-desc-juice-potato = Сік сирої картоплі?! Ти здурів?
 
 reagent-name-juice-tomato = томатний сік
-reagent-desc-juice-tomato = помідоровий сік? Як на мене звучить краще...
+reagent-desc-juice-tomato = помідоровий сік? Як на мене звучить краще..
 
 reagent-name-juice-watermelon = кавуновий сік
 reagent-desc-juice-watermelon = зі смаком свят та літа!

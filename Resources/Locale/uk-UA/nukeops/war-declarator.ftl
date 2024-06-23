@@ -1,7 +1,7 @@
 war-declarator-not-working = Пристрій блимає та скреготить,але нічого не відбувається...
 war-declarator-ui-header = Оголошення війни
 war-declarator-ui-war-button = ОГОЛОСИТИ ВІЙНУ!
-war-declarator-ui-try-war-button = Спробувати оголосити війну.
+war-declarator-ui-try-war-button = Спробувати оголосити війну
 war-declarator-conditions-small-crew = Недостатньо ядерних оперативників для оголошення війни!
 war-declarator-conditions-left-outpost = Шатл покинув форпост синдикату
 war-declarator-conditions-time-out = Минув час оголошення війни

@@ -1,8 +1,8 @@
 ﻿# Base actions
 - type: entity
   id: ActionToggleLightingAlien
-  name: Toggle All Lighting
-  description: Toggle all light rendering to better observe dark areas.
+  name: "Ввімкнути все освітлення"
+  description: "Увімкніть весь рендеринг світла, щоб краще бачити темні ділянки."
   noSpawn: true
   components:
     - type: InstantAction
@@ -14,8 +14,8 @@
 
 - type: entity
   id: ActionVomit
-  name: action-vomit-name
-  description: action-vomit-desc
+  name: "action-vomit-name"
+  description: "action-vomit-desc"
   noSpawn: true
   components:
     - type: InstantAction
@@ -26,8 +26,8 @@
 
 - type: entity
   id: ActionMakeAcid
-  name: action-make-acid-name
-  description: action-make-acid-desc
+  name: "дія-зробити-кислоту-назва"
+  description: "дія-зробити-кислоту-деск"
   noSpawn: true
   components:
     - type: InstantAction
@@ -38,8 +38,8 @@
 
 - type: entity
   id: ActionAlienNode
-  name: action-create-weednode-name
-  description: action-create-weednode-desc
+  name: "action-create-weednode-name"
+  description: "action-create-weednode-desc"
   noSpawn: true
   components:
   - type: InstantAction
@@ -50,8 +50,8 @@
 
 - type: entity
   id: ActionCombatModeToggleAlien
-  name: "[color=red]Combat Mode[/color]"
-  description: Enter combat mode
+  name: "[color=red]Бойовий режим[/color]"
+  description: "Увійдіть в бойовий режим"
   noSpawn: true
   components:
   - type: InstantAction
@@ -66,8 +66,8 @@
 
 - type: entity
   id: ActionAlienDroneWall
-  name: action-create-resin-wall-name
-  description: action-create-resin-wall-desc
+  name: "action-create-resin-wall-name"
+  description: "action-create-resin-wall-desc"
   noSpawn: true
   components:
     - type: InstantAction
@@ -78,8 +78,8 @@
 
 - type: entity
   id: ActionWindowResin
-  name: action-create-resin-window-name
-  description: action-create-resin-window-desc
+  name: "action-create-resin-window-name"
+  description: "action-create-resin-window-desc"
   noSpawn: true
   components:
     - type: InstantAction
@@ -90,8 +90,8 @@
 
 - type: entity
   id: ActionAlienNest
-  name: action-create-alien-nest-name
-  description: action-create-alien-nest-desc
+  name: "action-create-alien-nest-name"
+  description: "action-create-alien-nest-desc"
   noSpawn: true
   components:
   - type: InstantAction
@@ -104,8 +104,8 @@
 
 - type: entity
   id: ActionEvolveDrone
-  name: action-evolve-alien-drone
-  description: action-evolve-alien-drone-desc
+  name: "дія-еволюціонувати-інопланетянин-безпілотник"
+  description: "дія-еволюціонувати-інопланетянин-безпілотник-деск"
   noSpawn: true
   components:
   - type: InstantAction
@@ -116,8 +116,8 @@
 
 - type: entity
   id: ActionEvolveSentinel
-  name: action-evolve-alien-sentinel
-  description: action-evolve-alien-sentinel-desc
+  name: "дія-еволюціонувати-інопланетянин-вартовий"
+  description: "дія-еволюціонувати-інопланетянин-сентинел-деск"
   noSpawn: true
   components:
   - type: InstantAction
@@ -128,8 +128,8 @@
 
 - type: entity
   id: ActionEvolvePraetorian
-  name: action-evolve-alien-praetorian
-  description: action-evolve-alien-praetorian-desc
+  name: "дія-еволюціонувати-інопланетянин-преторіанський"
+  description: "дія-еволюціонувати-інопланетянин-преторіанський-деск"
   noSpawn: true
   components:
   - type: InstantAction
@@ -140,8 +140,8 @@
 
 - type: entity
   id: ActionEvolveHunter
-  name: action-evolve-alien-hunter
-  description: action-evolve-alien-hunter-desc
+  name: "дія-еволюціонувати-мисливець на інопланетян"
+  description: "дія-еволюціонувати-інопланетянин-мисливець-деск"
   noSpawn: true
   components:
   - type: InstantAction
@@ -152,8 +152,8 @@
 
 - type: entity
   id: ActionEvolveQueen
-  name: action-evolve-alien-queen
-  description: action-evolve-alien-queen-desc
+  name: "дія-еволюціонувати-інопланетянин-королева"
+  description: "дія-еволюціонувати-інопланетянин-королева-деск"
   noSpawn: true
   components:
   - type: InstantAction
@@ -164,8 +164,8 @@
 
 - type: entity
   id: ActionLarvaGrow
-  name: action-larva-grow
-  description: action-larva-grow-desc
+  name: "action-larva-grow"
+  description: "action-larva-grow-desc"
   noSpawn: true
   components:
   - type: InstantAction
@@ -178,8 +178,8 @@
 
 - type: entity
   id: ActionStalkAlien
-  name: action-stalk-alien-hunter
-  description: action-stalk-alien-hunter-desc
+  name: "екшн-переслідування-інопланетян-мисливець"
+  description: "action-stalk-alien-hunter-desc"
   noSpawn: true
   components:
   - type: InstantAction
@@ -192,8 +192,8 @@
 
 - type: entity
   id: ActionJumpAlien
-  name: action-alien-jump
-  description: action-alien-jump-desc
+  name: "дія-інопланетянин-стрибок"
+  description: "дія-інопланетянин-стрибок-десант"
   noSpawn: true
   components:
   - type: WorldTargetAction
@@ -209,8 +209,8 @@
 
 - type: entity
   id: ActionAlienEgg
-  name: action-egg-alien
-  description: action-egg-alien-desc
+  name: "дія-яйце-інопланетянин"
+  description: "дія-яйце-інопланетянин-деск"
   noSpawn: true
   components:
   - type: InstantAction
@@ -221,8 +221,8 @@
 
 - type: entity
   id: ActionAlienRoyalLarva
-  name: action-promotion-alien
-  description: action-promotion-alien-desc
+  name: "акція-просування-інопланетянин"
+  description: "акція-просування-інопланетянин-деск"
   noSpawn: true
   components:
   - type: EntityTargetAction
@@ -234,8 +234,8 @@
 
 - type: entity
   id: ActionTailLash
-  name: action-tail-lash
-  description: action-tail-lash-desc
+  name: "action-tail-lash"
+  description: "action-tail-lash-desc"
   noSpawn: true
   components:
   - type: InstantAction
@@ -246,8 +246,8 @@
 
 - type: entity
   id: ActionAlienTransferPlasma
-  name: action-transfer-plasma-alien
-  description: action-transfer-plasma-alien-desc
+  name: "дія-передача-плазма-чужий"
+  description: "дія-передача-плазми-чужорідний-деск"
   noSpawn: true
   components:
   - type: EntityTargetAction

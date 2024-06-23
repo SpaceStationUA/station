@@ -1,3 +1,3 @@
-cmd-openahelp-desc = Opens AHelp channel for a given NetUserID, or your personal channel if none given.
-cmd-openahelp-help = Usage: {$command} [<netuserid>]
-cmd-openahelp-error = Bad GUID!
+cmd-openahelp-desc = Відкриває канал AHelp для заданого NetUserID або ваш особистий канал, якщо його не вказано.
+cmd-openahelp-help = Використання: {$command} [<netuserid>]
+cmd-openahelp-error = Поганий провідник!

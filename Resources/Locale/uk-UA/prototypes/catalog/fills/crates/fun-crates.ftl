@@ -1,56 +1,56 @@
-ent-CrateFunPlushie = Plushie crate
-    .desc = A buncha soft plushies. Throw them around and then wonder how you're gonna explain this purchase to NT.
+ent-CrateFunPlushie = Ящик з плюшевими іграшками
+    .desc = Купа м'яких плюшевих іграшок. Розкидайте їх навколо і потім подумайте, як ви будете пояснювати цю покупку NT.
 
-ent-CrateFunInstrumentsVariety = Variety instrument collection
-    .desc = Get your sad station movin' and groovin' with this catch-all variety pack! Contains seven different instruments.
+ent-CrateFunInstrumentsVariety = Колекція різноманітних інструментів
+    .desc = Зробіть вашу сумну станцію більш веселою з цим універсальним набором! Містить сім різних інструментів.
 
-ent-CrateFunInstrumentsBrass = Brass instrument ensemble crate
-    .desc = Bring some jazz to the station with the brass ensemble. Contains a variety of brass instruments for the whole station to play.
+ent-CrateFunInstrumentsBrass = Ящик з духовими інструментами
+    .desc = Принесіть джаз на станцію з цим ансамблем духових інструментів. Містить різноманітні духові інструменти для всієї станції.
 
-ent-CrateFunInstrumentsString = String instrument ensemble crate
-    .desc = Pluck or pick, slap or shred! Play a smooth melody or melt peoples' faces with this package of stringed instruments.
+ent-CrateFunInstrumentsString = Ящик зі струнними інструментами
+    .desc = Грайте гладку мелодію або запаліть обличчя людей з цим пакетом струнних інструментів.
 
-ent-CrateFunInstrumentsWoodwind = Woodwind instrument ensemble crate
-    .desc = If atmos is good at their job, use air to play music with these woodwind instruments! Real wood not guaranteed with every item.
+ent-CrateFunInstrumentsWoodwind = Ящик з дерев'яними духовими інструментами
+    .desc = Якщо атмос справляється зі своєю роботою, використовуйте повітря для гри на цих дерев'яних духових інструментах! Натуральне дерево не гарантовано у кожному предметі.
 
-ent-CrateFunInstrumentsKeyedPercussion = Keyed/Percussion instrument ensemble crate
-    .desc = Hit some keys with some sticks or your hands, with this Keyed and Percussion instrument ensemble crate.
+ent-CrateFunInstrumentsKeyedPercussion = Ящик з клавішними/ударними інструментами
+    .desc = Натискайте клавіші паличками або руками з цим ящиком клавішних та ударних інструментів.
 
-ent-CrateFunInstrumentsSpecial = Special instrument collector's crate
-    .desc = Create some noise with this special collection of arguably-instruments! Centcomm is not responsible for any trauma caused by the contents.
+ent-CrateFunInstrumentsSpecial = Ящик для колекціонера спеціальних інструментів
+    .desc = Створіть шум з цією спеціальною колекцією інструментів, які можна назвати інструментами. Centcomm не несе відповідальності за будь-які травми, спричинені вмістом.
 
-ent-CrateFunArtSupplies = Art supplies
-    .desc = Make some happy little accidents with lots of crayons!
+ent-CrateFunArtSupplies = Художні матеріали
+    .desc = Робіть веселі маленькі аварії з великою кількістю кольорових олівців!
 
-ent-CrateFunBoardGames = Board game crate
-    .desc = Game nights have been proven to either decrease boredom or increase murderous rage depending on the game.
+ent-CrateFunBoardGames = Ящик з настільними іграми
+    .desc = Ігрові вечори довели свою ефективність або в зменшенні нудьги, або в збільшенні вбивчого гніву залежно від гри.
 
-ent-CrateFunATV = ATV crate
-    .desc = An Absolutely Taxable Vehicle to help logistics with hauling.
+ent-CrateFunATV = Ящик з квадроциклом
+    .desc = Абсолютно оподатковуваний транспортний засіб для допомоги у перевезеннях.
 
-ent-CrateFunSadTromboneImplants = Sad Trombone Implants
-    .desc = Death's never been so fun before! Implant these to make dying a bit more happy.
+ent-CrateFunSadTromboneImplants = Імпланти «Сумний тромбон»
+    .desc = Смерть ніколи не була такою веселою! Імплантуйте їх, щоб зробити смерть трохи веселішою.
 
-ent-CrateFunLightImplants = Light Implants
-    .desc = Light up your skin with these implants!
+ent-CrateFunLightImplants = Світлові імпланти
+    .desc = Освітіть свою шкіру цими імплантами!
 
-ent-CrateFunParty = Party Crate
-    .desc = An entire party just waiting for you to open it. Includes party favors, party beverages, and even a cake.
+ent-CrateFunParty = Ящик для вечірки
+    .desc = Ціла вечірка, яка чекає, поки ви її відкриєте. Включає святкові подарунки, святкові напої і навіть торт.
 
-ent-CrateFunWaterGuns = Water Gun Crate
-    .desc = A summer special with a variety of brightly colored water guns. Water not included.
+ent-CrateFunWaterGuns = Ящик з водяними пістолетами
+    .desc = Літня пропозиція з різноманітними яскраво забарвленими водяними пістолетами. Вода не включена.
 
-ent-CrateFunSyndicateSegway = Syndicate segway crate
-    .desc = A crate containing a two-wheeler that will help you escape from the security officers. Or not.
+ent-CrateFunSyndicateSegway = Ящик з сігвеєм Синдикату
+    .desc = Ящик з двоколісним транспортним засобом, який допоможе вам втекти від офіцерів безпеки. Або ні.
 
-ent-CrateFunBoxing = Boxing Crate
-    .desc = Want to set up an underground fight club or host a tournament amongst station crew? This crate is for you!
+ent-CrateFunBoxing = Ящик для боксу
+    .desc = Хочете влаштувати підпільний бійцівський клуб або провести турнір серед екіпажу станції? Цей ящик для вас!
 
-ent-CrateFunBikeHornImplants = Bike Horn Implants
-    .desc = A thousand honks a day keeps security officers away!
+ent-CrateFunBikeHornImplants = Імпланти «Велосипедний гудок»
+    .desc = Тисяча гудків на день тримає офіцерів безпеки подалі!
 
-ent-CrateFunMysteryFigurines = Mystery Figure Crate
-    .desc = A collection of 10 Mystery Figurine boxes. Duplicates non refundable.
+ent-CrateFunMysteryFigurines = Ящик з фігурками-загадками
+    .desc = Колекція з 10 ящиків з фігурками-загадками. Дублікатам не підлягає поверненню.
 
-ent-CrateFunDartsSet = Dartboard Box Set
-    .desc = A box with everything you need for a fun game of darts.
+ent-CrateFunDartsSet = Ящик з комплектом для дартсу
+    .desc = Ящик з усім необхідним для веселої гри в дартс.

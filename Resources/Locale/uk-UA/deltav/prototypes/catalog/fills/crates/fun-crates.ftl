@@ -1,2 +1,2 @@
-ent-CrateFunBBGun = BB gun crate
-    .desc = Contains 1 BB gun and 2 boxes of BBs.
+ent-CrateFunBBGun = Ящик від кулемета
+    .desc = Містить 1 пістолет і 2 коробки з набоями.

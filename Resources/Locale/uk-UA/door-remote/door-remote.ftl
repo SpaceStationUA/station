@@ -1,6 +1,6 @@
-door-remote-switch-state-open-close = You switch the remote to open and close doors
-door-remote-switch-state-toggle-bolts = You switch the remote to toggle bolts
-door-remote-switch-state-toggle-emergency-access = You switch the remote to toggle emergency access
-door-remote-no-power = The door is not powered
-door-remote-denied = Access denied
+door-remote-switch-state-open-close = Ви перемикаєте пульт, щоб відчиняти та зачиняти двері
+door-remote-switch-state-toggle-bolts = Ви перемикаєте пульт дистанційного керування на тумблери
+door-remote-switch-state-toggle-emergency-access = Ви перемикаєте пульт дистанційного керування, щоб увімкнути аварійний доступ
+door-remote-no-power = Двері не працюють
+door-remote-denied = У доступі відмовлено
 

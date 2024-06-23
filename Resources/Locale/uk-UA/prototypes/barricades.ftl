@@ -1,5 +1,4 @@
-### Barricades entity prototype data.
+### Дані прототипу сутності барикад.
 
-ent-barricade = wooden barricade
-    .desc = The poor man's barrier, not nearly as strong or cool looking.
-
+ent-barricade = дерев'яна барикада
+    .desc = Перешкода для бідняків, не така міцна та не виглядає так круто.

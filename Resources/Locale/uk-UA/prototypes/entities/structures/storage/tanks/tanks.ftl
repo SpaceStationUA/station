@@ -1,20 +1,20 @@
-ent-WeldingFuelTank = fuel tank
-    .desc = A fuel tank. It's used to store high amounts of fuel.
+ent-WeldingFuelTank = паливний бак
+    .desc = Паливний бак. Використовується для зберігання великих об'ємів палива.
 
 ent-WeldingFuelTankFull = { ent-WeldingFuelTank }
     .desc = { ent-WeldingFuelTank.desc }
 
-ent-WeldingFuelTankHighCapacity = high-capacity fuel tank
-    .desc = A highly pressurized fuel tank made to hold gargantuan amounts of welding fuel.
+ent-WeldingFuelTankHighCapacity = бак для палива великої місткості
+    .desc = Високонапружений паливний бак, призначений для зберігання величезних об'ємів зварювального палива.
 
-ent-WaterTank = water tank
-    .desc = A water tank. It's used to store high amounts of water.
+ent-WaterTank = водяний бак
+    .desc = Водяний бак. Використовується для зберігання великих об'ємів води.
 
 ent-WaterTankFull = { ent-WaterTank }
     .desc = { ent-WaterTank.desc }
 
-ent-WaterCooler = water cooler
-    .desc = Seems like a good place to stand and waste time. It has a stock of paper cups on the side.
+ent-WaterCooler = кулер для води
+    .desc = Здається, гарне місце для того, щоб стояти та гаяти час. На боці є запас паперових стаканчиків.
 
-ent-WaterTankHighCapacity = high-capacity water tank
-    .desc = A highly pressurized water tank made to hold gargantuan amounts of water.
+ent-WaterTankHighCapacity = бак для води великої місткості
+    .desc = Високонапружений водяний бак, призначений для зберігання величезних об'ємів води.

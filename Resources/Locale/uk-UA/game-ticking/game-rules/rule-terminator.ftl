@@ -1,6 +1,6 @@
 terminator-round-end-agent-name = nt-800
 
-objective-issuer-susnet = [color=#d64119]Susnet[/color]
+objective-issuer-susnet = [color=#d64119]Суснет[/color]
 
 terminator-role-greeting =
     You are the exterminator, a relentless assassin sent into the past to secure our future.
@@ -14,5 +14,5 @@ terminator-role-briefing =
     Kill them and assume their identity, or talk it out and become friends.
     Your objectives support either playstyle (and you obviously can't do both).
 
-terminator-endoskeleton-gib-popup = All the battered flesh falls apart, revealing a titanium endoskeleton!
-terminator-endoskeleton-burn-popup = The seared flesh is burned to a crisp, revealing a titanium endoskeleton!
+terminator-endoskeleton-gib-popup = Вся побита плоть розпадається, відкриваючи титановий ендоскелет!
+terminator-endoskeleton-burn-popup = Обсмажена плоть згорає до хрусткої скоринки, відкриваючи титановий ендоскелет!

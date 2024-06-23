@@ -1,2 +1,2 @@
-tool-quality-digging-name = Digging
-tool-quality-digging-tool-name = Shovel
+tool-quality-digging-name = Копання
+tool-quality-digging-tool-name = Лопата

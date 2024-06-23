@@ -13,4 +13,4 @@ generic-hours = годин
 
 generic-playtime-title = Час гри
 
-generic-confirm = Confirm
+generic-confirm = Підтвердити

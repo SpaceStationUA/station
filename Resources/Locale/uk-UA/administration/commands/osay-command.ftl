@@ -1,9 +1,9 @@
-osay-command-description = Forces another entity to try to send a message
-osay-command-help-text = Usage: {$command} <uid> <type> <message>
+osay-command-description = Змушує інший об'єкт спробувати надіслати повідомлення
+osay-command-help-text = Використання: {$command} <uid> <type> <message>
 
-osay-command-arg-uid = source uid
-osay-command-arg-type = type
-osay-command-arg-message = message
+osay-command-arg-uid = джерело uid
+osay-command-arg-type = тип
+osay-command-arg-message = повідомлення
 
-osay-command-error-args = Invalid number of arguments
-osay-command-error-euid = {$arg} is not a valid entity uid.
+osay-command-error-args = Неправильна кількість аргументів
+osay-command-error-euid = {$arg} не є допустимим uid сутності.

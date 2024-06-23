@@ -4,4 +4,4 @@ cmd-setalertlevel-invalid-grid = Ви маєте бути на сітці ста
 cmd-setalertlevel-invalid-level = Вибраний рівень загрози не існує на цій сітці.
 
 cmd-setalertlevel-hint-1 = <level>
-cmd-setalertlevel-hint-2 = [locked]
+cmd-setalertlevel-hint-2 = [зачинено]

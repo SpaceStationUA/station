@@ -65,7 +65,7 @@ research-technology-advanced-anomaly-research = Передові дослідж�
 research-technology-rped = Швидка Заміна Компонентів
 research-technology-super-parts = Суперкомпоненти
 research-technology-deterrence = Технології стримування
-research-technology-bluespace-mining = Bluespace Mining
+research-technology-bluespace-mining = Майнінг Bluespace #ПІРАТ
 
 research-technology-janitorial-equipment = Прибиральне Обладнання
 research-technology-laundry-tech = Технологія Виготовлення Одягу
@@ -80,7 +80,7 @@ research-technology-mechanized-treatment = Механізоване лікува
 research-technology-robotic-cleanliness = Роботизована Чистота
 research-technology-advanced-cleaning = Передові Технології Очищення
 research-technology-meat-manipulation = Обробка М'яса
-research-technology-honk-mech = Екзокостюм H.O.N.K.
+research-technology-honk-mech = Екзокостюм H.O.N.K
 research-technology-advanced-spray = Передове Розпилення Рідини
 research-technology-bluespace-cargo-transport = Блюспейс Транспорт Грузів
 research-technology-quantum-fiber-weaving = Квантове плетіння волокон

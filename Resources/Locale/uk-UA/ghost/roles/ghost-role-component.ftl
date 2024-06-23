@@ -4,11 +4,11 @@ ghost-role-component-default-rules = Ви не пам'ятаєте [color=red]Н
                                      Вам абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати, говорити, згадувати тощо, про вашого минулого персонажа.
 
 # Delta V soft antag rule
-deltav-ghost-role-information-softantag-rules = You are allowed to attack the crew without provocation.
-                                                You are allowed to coexist with the crew.
-                                                The crew is allowed to kill you without warning.
+deltav-ghost-role-information-softantag-rules = Ви маєте право нападати на екіпаж без провокацій.
+                                                Вам дозволено співіснувати з екіпажем.
+                                                Екіпаж може вбити вас без попередження.
 
-# Delta V salvage antag rule
+# Правило порятунку Дельти V
 deltav-ghost-role-information-salvageantag-rules =  You are a salvage mob.
                                                     You are allowed to attack salvagers without provocation. DO NOT GIB THEIR CORPSES!
                                                     You are allowed to attack the salvage shuttle.
@@ -159,7 +159,7 @@ ghost-role-information-skeleton-biker-description = Покатайтеся на 
 ghost-role-information-closet-skeleton-name = Шафовий Скелет
 ghost-role-information-closet-skeleton-description = Сіяти хаос! Ви — споконвічна сила без вірності. Живіть щасливо з екіпажем або ведіть солодку війну скелетів.
 
-ghost-role-information-onestar-mecha-name = Мех "Онестар"
+ghost-role-information-onestar-mecha-name = Мех "Онестар
 ghost-role-information-onestar-mecha-description = Ви - експериментальна меха, створена невідомо ким, все, що ви знаєте - це те, що у вас є зброя і ви виявляєте м'ясисті рухомі цілі поблизу...
 ghost-role-information-onestar-mecha-rules = Використовуйте свою зброю, щоб викликати хаос. Ти - антагоніст.
 
@@ -219,9 +219,9 @@ ghost-role-information-BreadDog-name = Хлібний пес
 ghost-role-information-BreadDog-description = Ви улюблена дитина шеф-кухаря. Ти живий хлібо-собака.
 ghost-role-information-BreadDog-rules = Ти їстівний пес із хліба. Ваше завдання - знайти своє місце в цьому світі, де все хоче вас з'їсти.
 
-ghost-role-information-Shiva-name = Shiva
-ghost-role-information-Shiva-description = Shiva, the stations first defender. Help the Head of Security in their work
-ghost-role-information-Shiva-rules = Protect security staff and the crew from danger. Stay with Security staff or around the Security department, try to disable criminals and not kill them if the situation allows for it.
+ghost-role-information-Shiva-name = Шиво!
+ghost-role-information-Shiva-description = Шива, перший захисник станції. Допомагати начальнику служби безпеки в роботі
+ghost-role-information-Shiva-rules = Захистіть співробітників служби безпеки та екіпаж від небезпеки. Залишайтеся з персоналом охорони або біля відділу охорони, намагайтеся вивести злочинців з ладу, але не вбивайте їх, якщо ситуація дозволяє це зробити.
 
 ghost-role-information-exterminator-name = Знищувач
 ghost-role-information-exterminator-description = Вас відправили назад у часі, щоб знищити ціль, яка має велике значення для майбутнього.
@@ -235,6 +235,6 @@ ghost-role-information-syndicate-reinforcement-name = Агент синдика�
 ghost-role-information-syndicate-reinforcement-description = Комусь потрібне підкріплення. Ви, перший, кого зможе знайти синдикат, допоможете їм.
 ghost-role-information-syndicate-reinforcement-rules = Застосовуються звичайні правила антагоністів синдикату. Працюйте з тими, хто вас викликав, і не завдавайте їм шкоди.
 
-ghost-role-information-syndicate-monkey-reinforcement-name = Syndicate Monkey Agent
+ghost-role-information-syndicate-monkey-reinforcement-name = Агент Синдикату Мавп
 ghost-role-information-syndicate-monkey-reinforcement-description = Комусь потрібне підкріплення. Ви, дресирована мавпочка, будете їм допомагати.
 ghost-role-information-syndicate-monkey-reinforcement-rules = Застосовуються звичайні правила антагоністів синдикату. Працюйте з тими, хто вас викликав, і не завдавайте їм шкоди.

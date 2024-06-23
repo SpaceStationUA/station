@@ -11,7 +11,7 @@ reagent-name-protein = білок
 reagent-desc-protein = Міститься в певних продуктах харчування, корисний для здоров'я організму.
 
 reagent-name-cocoapowder = какао порошок
-reagent-desc-cocoapowder = З найкращих сортів какао-бобів.
+reagent-desc-cocoapowder = З найкращих сортів какао-бобів
 
 reagent-name-butter = вершкове масло
 reagent-desc-butter = Ви можете в це повірити!

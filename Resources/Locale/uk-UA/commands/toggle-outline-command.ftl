@@ -1,3 +1,3 @@
-cmd-toggleoutline-desc = Toggles outline drawing on entities.
-cmd-toggleoutline-help = Usage: {$command}
-cmd-toggleoutline-notify = Draw outlines set to: {$cvar}
+cmd-toggleoutline-desc = Вмикає/вимикає малювання контурів на об'єктах.
+cmd-toggleoutline-help = Використання: {$command}
+cmd-toggleoutline-notify = Намалювати контури встановити на: {$cvar}

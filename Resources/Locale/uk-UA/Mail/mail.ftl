@@ -1,5 +1,5 @@
-mail-recipient-mismatch = Recipient name or job does not match.
-mail-invalid-access = Recipient name and job match, but access isn't as expected.
+mail-recipient-mismatch = Ім'я або посада одержувача не збігаються.
+mail-invalid-access = Ім'я отримувача та посада збігаються, але доступ не такий, як очікувалося.
 mail-locked = Блюспейс-захисна стрічка не прибрана. Проведіть по ній планшетом отримувача.
 mail-desc-far = Листівка. Ви не бачите кому вона призначена з цієї відстані.
 mail-desc-close = Листівка адресована до {CAPITALIZE($name)}, {$job}.
@@ -15,16 +15,16 @@ mail-penalty-expired = ЗАПІЗНІЛА ДОСТАВКА. КАРГО ОШТР�
 mail-item-name-unaddressed = листівка
 mail-item-name-addressed = листівка для ({$recipient})
 
-command-mailto-description = Queue a parcel to be delivered to an entity. Example usage: `mailto 1234 5678 false false`. The target container's contents will be transferred to an actual mail parcel.
-command-mailto-help = Usage: {$command} <recipient entityUid> <container entityUid> [is-fragile: true or false] [is-priority: true or false]
-command-mailto-no-mailreceiver = Target recipient entity does not have a {$requiredComponent}.
-command-mailto-no-blankmail = The {$blankMail} prototype doesn't exist. Something is very wrong. Contact a programmer.
-command-mailto-bogus-mail = {$blankMail} did not have {$requiredMailComponent}. Something is very wrong. Contact a programmer.
-command-mailto-invalid-container = Target container entity does not have a {$requiredContainer} container.
-command-mailto-unable-to-receive = Target recipient entity was unable to be setup for receiving mail. ID may be missing.
-command-mailto-no-teleporter-found = Target recipient entity was unable to be matched to any station's mail teleporter. Recipient may be off-station.
-command-mailto-success = Success! Mail parcel has been queued for next teleport in {$timeToTeleport} seconds.
+command-mailto-description = Поставити посилку в чергу на доставку до організації. Приклад використання: `mailto 1234 5678 false false false`. Вміст цільового контейнера буде передано до реальної поштової посилки.
+command-mailto-help = Використання: {$command} <Uid сутності-одержувача> <Uid сутності-контейнера> [is-fragile: true or false] [is-priority: true or false] [is-fragile: true or false] [is-priority: true or false]
+command-mailto-no-mailreceiver = Цільовий отримувач не має {$requiredComponent}.
+command-mailto-no-blankmail = Прототипу {$blankMail} не існує. Щось дуже неправильно. Зверніться до програміста.
+command-mailto-bogus-mail = У {$blankMail} не було {$requiredMailComponent}. Щось дуже неправильно. Зверніться до програміста.
+command-mailto-invalid-container = Цільовий контейнер не має контейнера {$requiredContainer}.
+command-mailto-unable-to-receive = Не вдалося налаштувати цільового отримувача на отримання пошти. Можливо, відсутній ідентифікатор.
+command-mailto-no-teleporter-found = Не вдалося зіставити цільового одержувача з жодним поштовим телепортом станції. Одержувач може перебувати за межами станції.
+command-mailto-success = Успішно! Поштову посилку поставлено в чергу на наступний телепорт через {$timeToTeleport} секунд.
 
-command-mailnow = Force all mail teleporters to deliver another round of mail as soon as possible. This will not bypass the undelivered mail limit.
-command-mailnow-help = Usage: {$command}
-command-mailnow-success = Success! All mail teleporters will be delivering another round of mail soon.
+command-mailnow = Змусити всі поштові телепорти доставити чергову порцію пошти якнайшвидше. Це не дозволить обійти ліміт недоставленої пошти.
+command-mailnow-help = Використання: {$command}
+command-mailnow-success = Успіх! Всі поштові телепорти незабаром доставлять чергову порцію пошти.

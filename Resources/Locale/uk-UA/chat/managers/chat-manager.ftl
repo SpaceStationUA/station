@@ -24,25 +24,25 @@ chat-manager-sender-announcement-wrap-message = [font size=14][bold]{$sender} О
 chat-manager-entity-say-wrap-message = [BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent]{$message}[/BubbleContent]"[/font]
 chat-manager-entity-say-bold-wrap-message = [BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] {$verb}, [font={$fontType} size={$fontSize}]"[BubbleContent][bold]{$message}[/bold][/BubbleContent]"[/font]
 
-chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] whispers,"[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
-chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Someone[/BubbleHeader] whispers, "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
+chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] шепоче, "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
+chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Хтось[/BubbleHeader] шепоче: "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
 
-# THE() is not used here because the entity and its name can technically be disconnected if a nameOverride is passed...
+# THE() тут не використовується, тому що сутність та її ім'я технічно можна роз'єднати, якщо передати nameOverride...
 chat-manager-entity-me-wrap-message = [italic]{ PROPER($entity) ->
-    *[false] {$entityName} {$message}[/italic]
+    *[false] the {$entityName} {$message}[/italic]
      [true] {$entityName} {$message}[/italic]
     }
 
-chat-manager-entity-looc-wrap-message = LOOC: [bold]{$entityName}:[/bold] {$message}
-chat-manager-send-ooc-wrap-message = OOC: [bold]{$playerName}:[/bold] {$message}
-chat-manager-send-ooc-patron-wrap-message = OOC: [bold][color={$patronColor}]{$playerName}[/color]:[/bold] {$message}
+chat-manager-entity-looc-wrap-message = LOOC: {$entityName}: {$message}
+chat-manager-send-ooc-wrap-message = OOC: {$playerName}: {$message}
+chat-manager-send-ooc-patron-wrap-message = OOC: [color={$patronColor}]{$playerName}[/color]: {$message}
 
-chat-manager-send-dead-chat-wrap-message = {$deadChannelName}: [bold][BubbleHeader]{$playerName}[/BubbleHeader]:[/bold] [BubbleContent]{$message}[/BubbleContent]
-chat-manager-send-admin-dead-chat-wrap-message = {$adminChannelName}: [bold]([BubbleHeader]{$userName}[/BubbleHeader]):[/bold] [BubbleContent]{$message}[/BubbleContent]
-chat-manager-send-admin-chat-wrap-message = {$adminChannelName}: [bold]{$playerName}:[/bold] {$message}
+chat-manager-send-dead-chat-wrap-message = {$deadChannelName}: [BubbleHeader]{$playerName}[/BubbleHeader]: [BubbleContent]{$message}[/BubbleContent]
+chat-manager-send-admin-dead-chat-wrap-message = {$adminChannelName}: ([BubbleHeader]{$userName}[/BubbleHeader]): [BubbleContent]{$message}[/BubbleContent]
+chat-manager-send-admin-chat-wrap-message = {$adminChannelName}: {$playerName}: {$message}
 chat-manager-send-admin-announcement-wrap-message = [bold]{$adminChannelName}: {$message}[/bold]
 
-chat-manager-send-hook-ooc-wrap-message = OOC: [bold](D){$senderName}:[/bold] {$message}
+chat-manager-send-hook-ooc-wrap-message = OOC: (D){$senderName}: {$message}
 
 chat-manager-dead-channel-name = МЕРТВІ
 chat-manager-admin-channel-name = АДМІН
@@ -81,12 +81,12 @@ chat-speech-verb-plant-1 = шелестить
 chat-speech-verb-plant-2 = гойдається
 chat-speech-verb-plant-3 = скрипить
 
-chat-speech-verb-robotic-1 = states
-chat-speech-verb-robotic-2 = beeps
+chat-speech-verb-robotic-1 = держави
+chat-speech-verb-robotic-2 = гудки
 
-chat-speech-verb-reptilian-1 = hisses
-chat-speech-verb-reptilian-2 = snorts
-chat-speech-verb-reptilian-3 = huffs
+chat-speech-verb-reptilian-1 = шипіння
+chat-speech-verb-reptilian-2 = фыркає
+chat-speech-verb-reptilian-3 = злість
 
 chat-speech-verb-skeleton-1 = гримить
 chat-speech-verb-skeleton-2 = клацає
@@ -109,9 +109,9 @@ chat-speech-verb-large-mob-2 = гарчить
 chat-speech-verb-monkey-1 = хрипить
 chat-speech-verb-monkey-2 = верещить
 
-chat-speech-verb-parrot-1 = squawks
-chat-speech-verb-parrot-2 = tweets
-chat-speech-verb-parrot-3 = chirps
+chat-speech-verb-parrot-1 = крякання
+chat-speech-verb-parrot-2 = твіти
+chat-speech-verb-parrot-3 = цвірінькання
 
 chat-speech-verb-cluwne-1 = гигикає
 chat-speech-verb-cluwne-2 = регоче
@@ -131,4 +131,4 @@ chat-manager-send-empathy-chat-wrap-message = {$empathyChannelName}: {$message}
 chat-manager-send-empathy-chat-wrap-message-admin = {$empathyChannelName} - {$source}: {$message}
 chat-manager-empathy-channel-name = ЕМПАТІЯ
 
-chat-speech-verb-name-goblin = Goblin
+chat-speech-verb-name-goblin = Гоблін

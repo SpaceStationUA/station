@@ -1,5 +1,5 @@
-particle-accelerator-control-menu-on-button = Увімк.
-particle-accelerator-control-menu-off-button = Вимк.
+particle-accelerator-control-menu-on-button = Увімк
+particle-accelerator-control-menu-off-button = Вимк
 particle-accelerator-control-menu-service-manual-reference = Зверніться до 132 с. посібника з обслуговування
 particle-accelerator-control-menu-device-version-label = Прискорювач частинок Марк 2
 particle-accelerator-control-menu-power-label = Напруга:

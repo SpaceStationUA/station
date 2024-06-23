@@ -1,6 +1,6 @@
-fat-extractor-fact-1 = Fats are triglycerides made up of a combination of different building blocks; glycerol and fatty acids.
-fat-extractor-fact-2 = Adults should get a recommended 20-35% of their energy intake from fat.
-fat-extractor-fact-3 = Being overweight or obese puts you at an increased risk of chronic diseases, such as cardiovascular diseases, metabolic syndrome, type 2 diabetes, and some types of cancers.
-fat-extractor-fact-4 = Not all fats are bad. A certain amount of fat is an essential part of a healthy balanced diet.
-fat-extractor-fact-5 = Saturated fat should form no more than 11% of your daily calories.
-fat-extractor-fact-6 = Unsaturated fat, that is monounsaturated fats, polyunsaturated fats, and omega-3 fatty acids, is found in plants and fish.
+fat-extractor-fact-1 = Жири - це тригліцериди, що складаються з комбінації різних будівельних блоків: гліцерину та жирних кислот.
+fat-extractor-fact-2 = Дорослі повинні отримувати рекомендовані 20-35% енергії з жирів.
+fat-extractor-fact-3 = Надмірна вага або ожиріння підвищує ризик хронічних захворювань, таких як серцево-судинні захворювання, метаболічний синдром, діабет 2 типу та деякі види раку.
+fat-extractor-fact-4 = Не всі жири шкідливі. Певна кількість жирів є невід'ємною частиною здорового збалансованого харчування.
+fat-extractor-fact-5 = Насичені жири повинні становити не більше 11% добової калорійності.
+fat-extractor-fact-6 = Ненасичені жири, тобто мононенасичені жири, поліненасичені жири та омега-3 жирні кислоти, містяться в рослинах і рибі.

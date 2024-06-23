@@ -1,8 +1,8 @@
-ent-CrateChemistryP = Chemicals crate (P)
-    .desc = Contains chemicals from the P-Block of elements. Requires Chemistry access to open.
+ent-CrateChemistryP = Ящик з хімікатами (P)
+    .desc = Містить хімікати з елементів P-блоку. Потрібен доступ до хімічної лабораторії для відкриття.
 
-ent-CrateChemistryS = Chemicals crate (S)
-    .desc = Contains chemicals from the S-Block of elements. Requires Chemistry access to open.
+ent-CrateChemistryS = Ящик з хімікатами (S)
+    .desc = Містить хімікати з елементів S-блоку. Потрібен доступ до хімічної лабораторії для відкриття.
 
-ent-CrateChemistryD = Chemicals crate (D)
-    .desc = Contains chemicals from the D-Block of elements. Requires Chemistry access to open.
+ent-CrateChemistryD = Ящик з хімікатами (D)
+    .desc = Містить хімікати з елементів D-блоку. Потрібен доступ до хімічної лабораторії для відкриття.

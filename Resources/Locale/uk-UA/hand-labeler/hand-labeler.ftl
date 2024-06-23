@@ -1,17 +1,17 @@
-hand-labeler-ui-header = Hand Labeler
+hand-labeler-ui-header = Ручний етикетувальник
 
-# The content of the label in the UI above the text entry input.
-hand-labeler-current-text-label = Label:
+# Вміст мітки в інтерфейсі користувача над полем введення тексту.
+hand-labeler-current-text-label = Етикетка:
 
-# When the hand labeler applies a label successfully
-hand-labeler-successfully-applied = Applied label successfully
+# Коли ручний етикетувальник успішно наносить етикетку
+hand-labeler-successfully-applied = Етикетка успішно нанесена
 
-# When the hand labeler removes a label successfully
-hand-labeler-successfully-removed = Removed label successfully
+# Коли ручний етикетувальник успішно видаляє етикетку
+hand-labeler-successfully-removed = Етикетку успішно видалено
 
-# Appended to the description of an object with a label on input
-hand-labeler-has-label = This object has a label on it, which reads '{$label}'
+# Додається до опису об'єкта з міткою на вході
+hand-labeler-has-label = Цей об'єкт має мітку, яка має вигляд '{$label}'
 
-# Verb text
-hand-labeler-remove-label-text = Remove label
-hand-labeler-add-label-text = Apply label
+# Текст дієслова
+hand-labeler-remove-label-text = Зніміть етикетку
+hand-labeler-add-label-text = Нанесіть етикетку

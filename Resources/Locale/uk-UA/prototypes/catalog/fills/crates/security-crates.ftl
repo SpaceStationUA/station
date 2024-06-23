@@ -1,20 +1,20 @@
-ent-CrateSecurityArmor = armor crate
-    .desc = Three vests of well-rounded, decently-protective armor. Requires Security access to open.
+ent-CrateSecurityArmor = ящик з бронею
+    .desc = Три жилети з добре збалансованою, досить захисною бронею. Потрібен доступ до служби безпеки для відкриття.
 
-ent-CrateSecurityHelmet = helmet crate
-    .desc = Contains three standard-issue brain buckets. Requires Security access to open.
+ent-CrateSecurityHelmet = ящик з шоломами
+    .desc = Містить три стандартні захисні шоломи. Потрібен доступ до служби безпеки для відкриття.
 
-ent-CrateSecurityNonlethal = nonlethals crate
-    .desc = Disabler weapons. Requires Security access to open.
+ent-CrateSecurityNonlethal = ящик з нелетальною зброєю
+    .desc = Зброя для знешкодження. Потрібен доступ до служби безпеки для відкриття.
 
-ent-CrateSecurityRiot = swat crate
-    .desc = Contains two sets of riot armor, helmets, shields, and enforcers loaded with beanbags. Extra ammo is included. Requires Armory access to open.
+ent-CrateSecurityRiot = ящик SWAT
+    .desc = Містить два комплекти броні для придушення заворушень, шоломи, щити та рушниці з гумовими кулями. Включено додаткові боєприпаси. Потрібен доступ до арсеналу для відкриття.
 
-ent-CrateSecuritySupplies = security supplies crate
-    .desc = Contains various supplies for the station's Security team. Requires Security access to open.
+ent-CrateSecuritySupplies = ящик з постачанням для безпеки
+    .desc = Містить різні матеріали для команди безпеки станції. Потрібен доступ до служби безпеки для відкриття.
 
-ent-CrateRestraints = restraints crate
-    .desc = Contains two boxes each of handcuffs and zipties. Requires Security access to open.
+ent-CrateRestraints = ящик з наручниками
+    .desc = Містить дві коробки з наручниками та пластиковими затяжками. Потрібен доступ до служби безпеки для відкриття.
 
-ent-CrateSecurityBiosuit = security bio suit crate
-    .desc = Contains 2 biohazard suits to ensure that no disease will distract you from your duties. Requires Security access to open.
+ent-CrateSecurityBiosuit = ящик з біозахисними костюмами
+    .desc = Містить 2 біозахисні костюми, щоб жодна хвороба не відволікала вас від обов'язків. Потрібен доступ до служби безпеки для відкриття.

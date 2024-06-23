@@ -1,2 +1,2 @@
-ent-CrateSyndicateSamurai = Syndicate samurai crate
-    .desc = Contains a modern replica of a full Tousei-Gusoku set.
+ent-CrateSyndicateSamurai = Скринька самурая Синдикату
+    .desc = Містить сучасну репліку повного набору Tousei-Gusoku.

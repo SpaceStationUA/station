@@ -1,28 +1,28 @@
-book-text-plasma-trap = Heheheheh, no way in hell they're going to get at our stash NOW, is there?
-      I rigged the area where our stuff's at to be a toasty thousand K.
-      You know how to drain it when we need it out.
+book-text-plasma-trap = Хе-хе-хе, тепер вони нізащо не дістануться до нашої заначки, чи не так?
+      Я обладнав місце, де лежать наші речі, під гарячу тисячу кілограмів.
+      Ти знаєш, як його викачати, коли нам буде потрібно.
        - J.
 
-book-text-holoparasite-info = Thanks for choosing our holoparasite package!
-      At cybersun, we pride ourselves on cutting-edge military and industrial technology, and greatly appreciate your contribution to our establishment!
-      Guardians are helpful and intelligent beings which nest within your body, completely immune to common hazards such as pressure, temperature and even bullets!
-      You have purchased the holoparasite package, which contains a holoparasite activator, an instruction booklet, and our softcap merchandise.
-      Instructions for use:
-      1. Activate the holoparasite injector (preferably in a secluded area).
-      2. Wait for the tingling and/or painful metaphysical sensation.
-      3. Check your holoparasite for the ability to communicate and cooperate, and capacity to understand your orders.
-      4. Use your recall-manifest ability to summon or recall the holoparasite back into your body.
-      5. Keep the holoparasite within a short distance from yourself, otherwise it will be recalled by force!
-      WARNING: Guardians are metaphysical beings, but draw from your HEALTH in order to exist. Direct damage done to guardians will be partially transferred to you!
-      Cybersun inc. is not responsible for complete annihilation following the misuse of Holoparasite technology.
+book-text-holoparasite-info = Дякуємо, що обрали наш пакет голопаразитів!
+      У CyberSun ми пишаємося передовими військовими та промисловими технологіями і дуже цінуємо ваш внесок у наше підприємство!
+      Охоронці - це корисні та розумні істоти, які гніздяться у вашому тілі, повністю несприйнятливі до звичайних небезпек, таких як тиск, температура і навіть кулі!
+      Ви придбали пакет з голопаразитами, який містить активатор голопаразитів, інструкцію з використання та нашу сувенірну продукцію в м'якому ковпачку.
+      Інструкція по застосуванню:
+      1. Активуйте ін'єктор голопаразитів (бажано у відокремленому місці).
+      2. Дочекайтеся метафізичного відчуття поколювання та/або болю.
+      3. Перевірте голопаразита на здатність до комунікації та співпраці, а також здатність розуміти ваші накази.
+      4. Використовуйте свою здатність відкликання, щоб викликати або відкликати голопаразита назад у своє тіло.
+      5. Тримайте голопаразита на невеликій відстані від себе, інакше він буде відкликаний силою!
+      ПОПЕРЕДЖЕННЯ: Охоронці є метафізичними істотами, але живляться від вашого ЗДОРОВ'Я, щоб існувати. Пряма шкода, заподіяна охоронцям, буде частково передана вам!
+      Cybersun inc. не несе відповідальності за повне знищення після неправильного використання технології голопаразитів.
 
-book-text-ame-scribbles = I don't know if you're trained already, so I hope this'll help.
-      AME controller needs LV power and an HV wire to output to. Check the area with a crowbar if you aren't sure.
-      There should be an empty room next to where you found this, that room's wired for the AME.
-      You can put an AME anywhere if you can get the wires to it, though.
-      3x3 grid of AME parts, multitool them to unpack. Be careful not to 'trap' anything.
-      AME controller adjacent horizontally or vertically (not diagonally) to any point.
-      With only 1 core (what a 3x3 grid will get you), don't turn it up above 2.
-      The golden rule is 2 injection for every 1 core. You can go lower to save fuel.
-      Higher will burn the engine out and eventually make it explode. Don't.
-      Don't forget to refuel it, it tends to stop at the worst possible time.
+book-text-ame-scribbles = Я не знаю, чи ви вже навчені, тому сподіваюся, що це допоможе.
+      Контролер AME потребує низьковольтного живлення та високовольтного дроту для виходу. Перевірте місцевість ломом, якщо ви не впевнені.
+      Поруч з тим місцем, де ви це знайшли, має бути порожня кімната, до якої підведені дроти для AME.
+      Ви можете поставити AME де завгодно, якщо зможете підвести до нього дроти.
+      Розпакуйте деталі AME у вигляді сітки 3х3, розріжте їх за допомогою мультитула. Будьте обережні, щоб нічого не зачепити.
+      AME-контролер прилягає горизонтально або вертикально (не по діагоналі) до будь-якої точки.
+      Маючи лише 1 ядро (сітка 3х3), не піднімайте його вище 2.
+      Золоте правило - 2 впорскування на кожне 1 ядро. Ви можете опустити нижче, щоб заощадити паливо.
+      Вище - спалить двигун і врешті-решт призведе до його вибуху. Не робіть цього.
+      Не забувайте заправляти його, він має тенденцію зупинятися в найгірший можливий час.

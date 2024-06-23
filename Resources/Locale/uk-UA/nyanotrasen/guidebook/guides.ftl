@@ -1,3 +1,3 @@
-guide-entry-altars-golemancy = Altars and Golemancy
-guide-entry-psionics = Psionics
-guide-entry-reverse-engineering = Reverse Engineering
+guide-entry-altars-golemancy = Вівтарі та големанство
+guide-entry-psionics = Псіоніка
+guide-entry-reverse-engineering = Реінжиніринг

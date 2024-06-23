@@ -1,126 +1,126 @@
-book-text-demonomicon1 = How To Summon a Demon
-          - by J.G. Wizgerald
+book-text-demonomicon1 = Як викликати демона
+          - автор Дж. Г. Візґеральд
 
-          1. todo finish writing demon summoning guide
+          1. закінчити написання посібника з виклику демонів
 
-book-text-demonomicon2 = How To Summon a Lemon
-          - by J.G. Wizgerald
+book-text-demonomicon2 = Як викликати лимон
+          - автор Дж. Г. Візджеральд
 
-          1. todo finish writing lemon summoning guide
-          2. WAit. Typo. Oh shit. Sorry guys
+          1. закінчити написання посібника з виклику лимона
+          2. Зачекай. Помилка. От лайно. Вибачте, хлопці
 
-book-text-demonomicon3 = Cool Demon Names I Found
-      - by Ms. Mossrock
+book-text-demonomicon3 = Круті імена демонів, які я знайшла
+      - пані Моссрок.
 
-      Abraxas
-      Nephilim
-      Baal
-      Leviathan
-      Gary
-      Moloch
-      Scylla
-      Phenex
+      Абраксас
+      Нефілім
+      Ваал
+      Левіафан
+      Гарі
+      Молох
+      Сцилла
+      Фенекс
 
-book-text-chemistry-insane = IGOR CHEMISTRY GUIDE TO CHEMISTRY
+book-text-chemistry-insane = IGOR CHEMISTRY ДОВІДНИК З ХІМІЇ
 
-      TITLE: GUIDE TO CHEMISTRY
+      НАЗВА: ДОВІДНИК З ХІМІЇ
 
-      ABSTRACT: GUIDE TO CHEMISTRY
+      АНОТАЦІЯ: ДОВІДНИК З ХІМІЇ
 
-      SECTION: WISE WORDS OF IGOR CHEMISTRY
+      РОЗДІЛ: МУДРІ СЛОВА ІГОРЯ ХІМІЇ
 
-      MY NUMBER ONE TIP. IS TO ALWAYS HAVE FUN. YOU NEVER KNOW WHEN IT'LL ALL END.
-      SO JUST KEEP AT IT!!
+      МОЯ ПОРАДА НОМЕР ОДИН. ЦЕ ЗАВЖДИ ОТРИМУВАТИ ЗАДОВОЛЕННЯ. ВИ НІКОЛИ НЕ ЗНАЄТЕ, КОЛИ ЦЕ ВСЕ ЗАКІНЧИТЬСЯ.
+      ТАК ЩО ПРОСТО ПРОДОВЖУЙТЕ!!!
 
-      MY NUMBER TWO TIP. I JUST CAN'T STOP FUCKING GRINDING UP JUMPSUITS. MY "COLLEAGUES" (agents) KEEP YELLING AT ME
-      TO STOP AND THAT 'itll come out of our paychecks' BUT THE STUFF IS SO GOOD. I'M LIKE AN INTERIOR DECORATION GENIUS.
-      SAXOPHONES AND BATTERIES TAKE MY MIND OFF OF IT BUT I'M ALWAYS BACK TO THE JUMPSUITS. HOO WEE.
+      МОЯ ПОРАДА НОМЕР ДВА. Я просто не можу перестати шліфувати комбінезони. МОЇ "КОЛЕГИ" (агенти) продовжують кричати на мене
+      ЩОБ Я ПРИПИНИВ І ЩО "це вирахують з нашої зарплати", АЛЕ РЕЧОВИНА ТАКА ДОБРА. Я ЯК ГЕНІЙ ІНТЕР'ЄРУ.
+      САКСОФОНИ І БАТАРЕЙКИ ВІДВОЛІКАЮТЬ МЕНЕ ВІД ЦЬОГО, АЛЕ Я ЗАВЖДИ ПОВЕРТАЮСЯ ДО КОМБІНЕЗОНІВ.
 
-      MY NUMBER THREE TIP. THANK YOU FOR READING!! IGOR CHEMISTRY
+      МОЯ ПОРАДА НОМЕР ТРИ. ДЯКУЮ, ЩО ПРОЧИТАЛИ!!! ХІМІЯ ІГОРА
 
-      CONCLUSION: IGOR CHEMISTRY
+      ВИСНОВОК: ХІМІЯ ІГОРА
 
-book-text-botanics = ** Applications of Botanical Specimens Found In Nanotrasen Territories **
+book-text-botanics = ** Застосування ботанічних зразків, знайдених на територіях нанотехнологій
 
-      Many plants, when ground, yield useful chemicals. S. (spessmens) papaver and S. aloe vera
-      are known for their basic healing properties.
+      Багато рослин, якщо їх подрібнити, виділяють корисні хімічні речовини. S. (spessmens) papaver та S. aloe vera
+      відомі своїми основними цілющими властивостями.
 
-      S. lucidum, or lingzhi, is known for its potent ability to save those near death from toxins. Eating too much
-      is known to cause adverse effects.
+      S. lucidum, або лінчжі, відомий своєю потужною здатністю рятувати від токсинів тих, хто перебуває при смерті. Надмірне вживання в їжу
+      може призвести до несприятливих наслідків.
 
-      S. amanita, a powerfully poisonous specimen (Rest In Peace Sir Alacaster), and S. galactica, a
-      seemingly ordinary antitoxin, appear to have some sort of relation to eachother.
+      S. amanita, сильно отруйний екземпляр (Спочивай з миром, сер Алакастер), і S. galactica, на перший погляд
+      S. galactica, на перший погляд звичайний антитоксин, схоже, мають певний зв'язок між собою.
 
-      Some research is being done on combinations of the medicinal plants discussed, and they may prove fruitful.
+      Проводяться дослідження комбінацій цих лікарських рослин, і вони можуть виявитися плідними.
 
       ----
 
-      - penned by James Alacaster and Golzuk Amaranth
+      - автори Джеймс Алакастер і Голзук Амарант
 
-book-text-gnome = All Hail Our Gnome King
+book-text-gnome = Хай живе наш король гномів
 
-      He who is the grand cartographer who placed our kind into the world of the Island!
+      Того, хто є великим картографом, який помістив наш рід у світ Острова!
 
-      He who loves those with the largest of Hats!
+      Того, хто любить тих, хто має найбільший капелюх!
 
-      Struck down by the evildoers who cannot appreciate our kind!
+      Збитий лиходіями, які не вміють цінувати наш рід!
 
-      Our revenge will be dealt in full! He will Rise once more! hee Hoo!
+      Наша помста буде здійснена сповна! He will Rise once more! he will Rise once more! hee Hoo!
 
-book-text-fishing = When I grow up, I want to be one of the harvesters of the space sea!
+book-text-fishing = Коли я виросту, я хочу стати одним з комбайнів космічного моря!
 
-      I think before my days are done I want to catch the fabled space fish!
+      Думаю, до кінця своїх днів я хочу зловити легендарну космічну рибу!
 
-      I'm like a little rat sailing the seas of cheese! The bastards come to end me but I am as sly as a cat and as lucky as they come!
+      Я як маленький щур, що плаває по сирних морях! Негідники приходять, щоб покінчити зі мною, але я хитрий, як кіт, і такий же везучий, як і вони!
 
-      Press the <L BUMPER> and <R TRIGGER> to activate the fishing minigame.
+      Натисніть <L BUMPER> і <R TRIGGER>, щоб активувати міні-гру "Риболовля".
 
-      - Sgt. John Baker Aclopoly
+      - Сержант Джон Бейкер Аклаполія
 
-book-text-fishops = FISHOPS ADVANCED USER MANUAL FIRST EDITION
+book-text-fishops = FISHOPS РОЗШИРЕНИЙ ПОСІБНИК КОРИСТУВАЧА ПЕРШЕ ВИДАННЯ
 
      -----------------------------------------------------------------------------
 
-     fishops (v.)
-       Summoning many carp on someone.
-       "I got fishopsed!" (said post revival as the subject died)
-     fishops (n.)
-       The act of war in which the majority of a nuclear task force's budget is put towards fishopsing the station.
-       Alternatively it can be used to refer to the operatives doing fishops.
-       "We are doing fishops."
-       "It's the dreaded fishops!"
+     фішопс (розм.)
+       Накликати на когось багато коропів.
+       "На мене напустили рибу!" (сказано після відродження, оскільки тема померла)
+     фішопс (розм.)
+       Акт війни, в якому більша частина бюджету ядерної оперативної групи витрачається на риболовлю на станції.
+       Також може використовуватися для позначення оперативників, які проводять риболовецьку операцію.
+       "Ми проводимо риболовецьку операцію".
+       "Це жахлива рибна ловля!"
 
-     This manual will teach you the mechanics of both kinds of fishops.
+     Цей посібник навчить вас механіці обох видів фішопсу.
 
-     CHAPTER 1: The Old Man and the Fish
-     What is a carp? A carp is a space creature that only has one desire: to attack the enemy. Once it finds a suitable target, it will home in and viciously attack. The manner in which it attacks is fairly simple: it will move in, bite the target, then move back out. This is referred to as kiting.
-     This makes a single fish challenging to fight, let alone a group of them. A carp does not need food or water, it attacks for pleasure alone. Unfortunately it will not attack past critical condition, a single carp will refuse to finish off a target. Many carp however will, around 20 will instantly kill just about anything.
+     РОЗДІЛ 1: Старий і риба
+     Що таке карп? Короп - це космічна істота, яка має лише одне бажання: атакувати ворога. Як тільки він знайде підходящу ціль, він з'являється і жорстоко атакує. Спосіб, у який він атакує, досить простий: він заходить, кусає ціль, а потім виходить назад. Це називається кайтингом.
+     Це робить боротьбу з однією рибою складною, не кажучи вже про групу. Коропу не потрібна ні їжа, ні вода, він нападає заради задоволення. На жаль, він не буде атакувати після критичного стану, один короп відмовиться добивати мішень. Однак багато коропів, близько 20, миттєво вб'ють майже все.
 
-     CHAPTER 2: Under the Sea
-     Knowing what a carp is good and all, but how does one summon a carp on command? The dehydrated space carp, found rarely on wreckages in space or supplied by the syndicate to its agents and operatives. It is a simple thing: once water is sprayed or poured on it, it will turn into a real space carp. Slipping in a puddle of water will instantly hydrate all the dehydrated carp in your inventory, which can be lucrative for instant "fishbombing".
+     РОЗДІЛ 2: Під водою
+     Знати, що таке короп - це добре, але як викликати його за командою? Зневодненого космічного коропа, якого зрідка знаходять на уламках космічних кораблів або якого синдикат постачає своїм агентам і оперативникам. Все просто: варто на нього бризнути або вилити воду, як він перетвориться на справжнього космічного коропа. Послизнувшись у калюжі води, ви миттєво зволожите всіх зневоднених коропів у вашому інвентарі, що може бути прибутковим для миттєвого "рибного бомбардування".
 
-     CHAPTER 3: Best Friends Forever
-     Summoning a carp that attacks you is rarely useful, so there is a way to make them friendly to you. Before hydration, you stroke the dehydrated carp's head like petting a cat. Once hydrated, it will never attack you. This applies to any number of people that do it, so you can have a whole group of people that the carps are friendly towards. Before this was a thing operatives would remotely detonate literal carp bombs: a locker containing carp, a c4 to blow the locker open and a water foam grenade to hydrate the carp. Once at a safe distance, the c4 and grenade are triggered to unleash the carp.
+     РОЗДІЛ 3: Найкращі друзі назавжди
+     Виклик коропа, який нападає на вас, рідко буває корисним, тому є спосіб зробити його дружнім до вас. Перед тим, як напоїти, погладьте зневодненого коропа по голові, ніби гладите кота. Напоєний, він ніколи не нападе на вас. Це стосується будь-якої кількості людей, які роблять це, тому ви можете мати цілу групу людей, до яких коропи ставляться дружньо. Раніше оперативники дистанційно підривали буквально коропові бомби: шафка з коропами, вибухівка С4, щоб відкрити шафку, і граната з водяною піною, щоб напоїти коропа. На безпечній відстані с4 і граната спрацьовують, щоб випустити коропа на волю.
 
-     CHAPTER 4: Fish Petting Pipeline
-     Without an optimal pipeline, not everyone on a team will pet all the fish perfectly. This is where a fish petting pipeline comes in. Each member of the team is only allowed to pet fish in their own pipeline. After everyone has purchased carp, they are put in one large pile. The first member starts petting, putting the petted fish in a second pile. This repeats until there is a pile at the end which everyone has pet at some point. This pile can then be bagged for use.
+     РОЗДІЛ 4: Трубопровід для виведення риби
+     Без оптимального конвеєра не всі члени команди зможуть ідеально погладити всіх риб. Тут на допомогу приходить конвеєр для виважування риби. Кожному члену команди дозволяється гладити рибу лише у своєму конвеєрі. Після того, як всі придбали коропів, їх складають в одну велику купу. Перший учасник починає гладити, перекладаючи погладжену рибу в другу купу. Це повторюється до тих пір, поки в кінці не утвориться купа, яку кожен учасник погладив у певний момент. Цю купу можна покласти в мішок для подальшого використання.
 
-     CHAPTER 5: Deployment
-     Fishbombs, slipping and other methods are powerful but require large setup. A much easier way to hydrate them is to have a bottle of water. Any bottle stores 100u of liquids so simply empty it and fill it from a sink. Once you see someone that should be attacked, or are in an area that should be secured from the enemy, simply pour a single unit of water onto each carp. A single bottle will have enough for 100 carp, so you can even take a drink if you get thirsty.
-     Each member in a fishops squad should carry a bottle and some fish, as there will be far more than just one member can carry.
+     РОЗДІЛ 5: Розгортання
+     Рибні бомби, ковзання та інші методи є ефективними, але вимагають великої підготовки. Набагато простіший спосіб напоїти їх - це мати пляшку води. Будь-яка пляшка вміщує 100 унцій рідини, тому просто спорожніть її і наповніть з раковини. Як тільки ви побачите когось, на кого слід напасти, або опинитеся в зоні, яку слід захистити від ворога, просто вилийте на кожного коропа по одній одиниці води. Однієї пляшки вистачить на 100 коропів, тож ви можете навіть попити, якщо вас мучить спрага.
+     Кожен член загону рибоохоронців повинен мати при собі пляшку і трохи риби, оскільки риби буде набагато більше, ніж може нести один член загону.
 
-     CHAPTER 6: Fish War
-     In the event of fish war there will be double the fish, more than could possibly be carried. A reinforcement or two will be required to carry the surplus fish. A fish war has never happened in recorded history, so it is currently purely theoretical. Its destructive power would rival several neutronium bombs.
+     РОЗДІЛ 6: Рибна війна
+     У випадку рибної війни риби буде вдвічі більше, ніж можна нести. Для перенесення надлишку риби знадобиться підкріплення або дві людини. Рибна війна ніколи не відбувалася в історії людства, тому наразі вона є суто теоретичною. Її руйнівна сила могла б конкурувати з кількома нейтронними бомбами.
 
 
-book-text-detective = CHAPTER 1: SMALL ADVENTURES IN A BIG STATION
+book-text-detective = РОЗДІЛ 1: МАЛЕНЬКІ ПРИГОДИ НА ВЕЛИКІЙ СТАНЦІЇ
 
-      This station is filled with crime and grime...
+      Ця станція наповнена злочинністю і брудом...
 
-      I was shooting hoops down on Bagel when I heard a cry and a laser shot. I walked under the table nearby to hide, but there wasn't a second shot.
+      Я накидав обручі на Бублика, коли почув крик і лазерний постріл. Я сховався під сусіднім столом, щоб сховатися, але другого пострілу не було.
 
-      Outside, the engineerin chief got blasted by two Syndies hooked up with some fierce contraband. There wasn't enough of him for an open casket funeral.
+      На вулиці головного інженера розстріляли двоє синдиків, пов'язаних з якоюсь запеклою контрабандою. Його не вистачило на похорон у відкритій труні.
 
-      Things always go wild here.. I'll never look at clowns the same.
+      Тут завжди щось відбувається. Я ніколи не зможу дивитися на клоунів як раніше.
 
-      The question is.. Who did it?
+      Питання в тому. хто це зробив?

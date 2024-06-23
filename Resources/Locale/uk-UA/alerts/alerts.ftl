@@ -1,11 +1,11 @@
 alerts-low-oxygen-name = [color=red]Низький рівень кисню[/color]
 alerts-low-oxygen-desc = Тут [color=red]недостатньо кисню[/color] у повітрі яким ви дихаєте. Надінте [color=green]кисневу маску[/color].
 
-alerts-low-nitrogen-name = [color=red]Low Nitrogen[/color]
-alerts-low-nitrogen-desc = There is [color=red]not enough nitrogen[/color] in the air you are breathing. Put on [color=green]internals[/color].
+alerts-low-nitrogen-name = [color=red]Низький вміст азоту[/color]
+alerts-low-nitrogen-desc = У повітрі, яким ви дихаєте, [color=red]недостатньо азоту[/color]. Одягніть [color=green]внутрішні засоби[/color].
 
 alerts-high-toxin-name = [color=red]Високий рівень токсинів[/color]
-alerts-high-toxin-desc = There are [color=red]надто багато токсинів[/color] у повітрі яким ви дихаєте. Надінте [color=green]кисневу маску[/color] або залиште місце.
+alerts-high-toxin-desc = Тут [color=red]надто багато токсинів[/color] у повітрі яким ви дихаєте. Надінте [color=green]кисневу маску[/color] або залиште місце.
 
 alerts-low-pressure-name = [color=red]Низький тиск[/color]
 alerts-low-pressure-desc = Повітря навколо [color=red]не має тиску[/color]. [color=green]скафандр[/color] захистить вас.
@@ -102,11 +102,11 @@ alerts-pacified-desc = Ви заспокоєні, ви не зможете на�
 alerts-suit-power-name = Потужність костюма
 alerts-suit-power-desc = Скільки енергії має ваш космічний костюм ніндзя.
 
-alerts-magboots-name = Magboots
-alerts-magboots-desc = You are immune to airflow, but slightly slower.
+alerts-magboots-name = Магбути
+alerts-magboots-desc = Ви захищені від повітряного потоку, але трохи повільніше.
 
-alerts-revenant-essence-name = Essence
-alerts-revenant-essence-desc = The power of souls. It sustains you and is used for abilities. It regenerates slowly over time.
+alerts-revenant-essence-name = Суть
+alerts-revenant-essence-desc = Сила душ. Вона підтримує вас і використовується для здібностей. З часом вона повільно відновлюється.
 
-alerts-revenant-corporeal-name = Corporeal
-alerts-revenant-corporeal-desc = You have manifested physically. People around you can see and hurt you.
+alerts-revenant-corporeal-name = Тілесний
+alerts-revenant-corporeal-desc = Ви проявилися фізично. Люди навколо вас можуть бачити і завдавати вам болю.

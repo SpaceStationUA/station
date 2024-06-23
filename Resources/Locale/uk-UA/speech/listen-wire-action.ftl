@@ -1,3 +1,3 @@
-wire-listen-pulse-identifier = electricity
-wire-listen-pulse-characters = eee EEo
-wire-listen-pulse-error-name = ERROR
+wire-listen-pulse-identifier = електроенергія
+wire-listen-pulse-characters = еее ЕЕо
+wire-listen-pulse-error-name = ПОМИЛКА

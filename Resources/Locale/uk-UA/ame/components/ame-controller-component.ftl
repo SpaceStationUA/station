@@ -4,11 +4,11 @@ ame-controller-component-interact-using-already-has-jar = В контролер 
 ame-controller-component-interact-using-success = Ви вставляєте банку у паливний слот.
 ame-controller-component-interact-using-fail = Ви не можете вставити це у контролер...
 
-ame-controller-component-fuel-slot-fail-whitelist = You can't put that in the controller...
-ame-controller-component-fuel-slot-fail-locked = Power down the AME before manipulating its fuel.
-ame-controller-component-fuel-slot-success-insert = You insert the jar into the fuel slot.
+ame-controller-component-fuel-slot-fail-whitelist = Ви не можете покласти це в контролер ...
+ame-controller-component-fuel-slot-fail-locked = Перед тим, як маніпулювати паливом, вимкніть AME.
+ame-controller-component-fuel-slot-success-insert = Ви вставляєте банку в паливний отвір.
 
-## UI
+## ІНТЕРФЕЙС
 
 ame-window-title = Блок керування антиматерією
 ame-window-engine-status-label = Статус двигунів:

@@ -2,5 +2,5 @@
 
 ## Petting animals
 
-petting-success-nukie-mouse = You pet {THE($target)} on {POSS-ADJ($target)} little blood-red syndicate mouse head.
-petting-failure-nukie-mouse = You reach out to pet {THE($target)}, but {SUBJECT($target)} attempts to slice your finger with a mouse-sized e-dagger and only your quick reflexes save you from an almost fatal injury.
+petting-success-nukie-mouse = Ви гладите {THE($target)} по {POSS-ADJ($target)} маленькій криваво-червоній голівці мишки Синдикату.
+petting-failure-nukie-mouse = Ви простягаєте руку, щоб погладити {THE($target)}, але {SUBJECT($target)} намагається порізати ваш палець електронним кинджалом розміром з мишу, і лише ваші швидкі рефлекси рятують вас від майже смертельного поранення.

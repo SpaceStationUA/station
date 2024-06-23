@@ -1,13 +1,13 @@
-verb-system-waiting-on-server-text = Waiting on Server...
-verb-system-null-server-response = Entity not in view. You should not see this.
+verb-system-waiting-on-server-text = Очікування на сервері...
+verb-system-null-server-response = Об'єкта не видно. Ви не повинні цього бачити.
 
 
-# if verbs have a range of targets (e.g., multiple ejectables) you can
-# usually just use Entity.Name. But it is a bit odd when targeting yourself
-verb-self-target-pronoun = Yourself
+# якщо дієслова мають діапазон цілей (наприклад, декілька викидань), ви можете
+# зазвичай просто використовувати Entity.Name. Але це трохи дивно, якщо ви націлюєтесь на себе
+verb-self-target-pronoun = Ти сам.
 
 
-# verb categories & common verbs. These appear across multiple systems, so they may as well go here.
+# дієслівні категорії та загальні дієслова. Вони з'являються в різних системах, тому їх також можна розмістити тут.
 
 verb-categories-admin = Адмін
 verb-categories-debug = Дебаг

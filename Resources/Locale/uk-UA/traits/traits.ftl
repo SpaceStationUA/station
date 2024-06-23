@@ -5,7 +5,7 @@ trait-narcolepsy-name = Нарколепсія
 trait-narcolepsy-desc = Ви раптово засинаєте
 
 trait-pacifist-name = Пацифіст
-trait-pacifist-desc = You cannot attack or hurt any living beings.
+trait-pacifist-desc = Ви не можете вбивати чи шкодити іншим
 
 permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} eyes are glassy and unfocused. It doesn't seem like {SUBJECT($target)} can see you well, if at all.[/color]
 

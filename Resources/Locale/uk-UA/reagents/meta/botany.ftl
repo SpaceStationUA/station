@@ -1,7 +1,7 @@
 reagent-name-e-z-nutrient = EZ поживна речовина
 reagent-desc-e-z-nutrient = Дайте своїм рослинам трохи цього EZ добрива!
 
-reagent-name-left4-zed = left-4-zed
+reagent-name-left4-zed = ліфт-4-зед
 reagent-desc-left4-zed = Коктейль мутагенних сполук, які спричиняють нестабільність росту рослин.
 
 reagent-name-pest-killer = засіб для знищення шкідників

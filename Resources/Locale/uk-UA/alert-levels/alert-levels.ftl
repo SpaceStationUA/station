@@ -24,8 +24,8 @@ alert-level-white-announcement = Станція страждає від небе
 alert-level-white-instructions = Членам екіпажу рекомендується шукати псіоізоляцію. Медики повинні повідомляти про взлом розуму або големізацію.
 
 alert-level-yellow = Жовтий
-alert-level-yellow-announcement = There is a structural or atmospheric threat within the station. Engineering staff are advised to immediately respond and perform safety measures. Crewmembers are advised to stay away from the threat, and stay in their workplaces if necessary.
-alert-level-yellow-instructions = Crewmembers are advised to stay away from the threat, and stay in their workplaces if necessary.
+alert-level-yellow-announcement = Існує серйозна проблема з атмосферною системою, станція зазнала/може зазнати значних пошкоджень, або виникла інша значна інженерна надзвичайна ситуація. Членам екіпажу рекомендується триматися подалі від загрози, а за необхідності залишатися на своїх робочих місцях.
+alert-level-yellow-instructions = Членам екіпажу рекомендується триматися подалі від загрози, а в разі необхідності залишатися на своїх робочих місцях.
 
 alert-level-gamma = Ґамма
 alert-level-gamma-announcement = Центральне командування наказало ввести на станції рівень безпеки "Гамма". Охорона повинна постійно мати при собі зброю, а всі цивільні особи повинні негайно звернутися до свого найближчого керівника для транспортування в безпечне місце.

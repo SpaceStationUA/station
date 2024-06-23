@@ -1,27 +1,27 @@
-book-text-escalation = When it comes to getting robusted, it's all about strategy. Do it right and you'll be the envy of the station. Do it wrong and the gods themselves may turn against you. Personally, I always aim for the former...
+book-text-escalation = Коли справа доходить до зміцнення, все залежить від стратегії. Зробите все правильно - і вам буде заздрити вся станція. Зробиш неправильно - і самі боги можуть відвернутися від тебе. Особисто я завжди прагну до першого...
 
-        First things first: let the insults fly! This is your chance to really let your opponent know what you think of their ridiculously large shoes and that annoying bike horn.
+        Насамперед: нехай образи летять! Це ваш шанс по-справжньому дати опоненту зрозуміти, що ви думаєте про його безглуздо великі черевики і набридливий велосипедний гудок.
 
-        No conflict is complete without a little bit of physicality. Give your opponent a good shove or two, and if you're lucky, they'll stumble and fall, providing even more opportunities for insults.
+        Жоден конфлікт не обходиться без фізичного контакту. Дайте опонентові добрячого штурхана, і якщо вам пощастить, він спіткнеться і впаде, що дасть ще більше можливостей для образ.
 
-        But beware, because by now your opponent is probably trying to kill you. So, try to calm things down a bit. It'll make you look good during the inevitable homicide investigation.
+        Але будьте обережні, адже зараз ваш опонент, ймовірно, намагається вбити вас. Тому постарайтеся трохи заспокоїтися. Це допоможе вам виглядати добре під час неминучого розслідування вбивства.
 
-        If deescalation doesn't work, it's time to grab a weapon. But be smart about it - choose something that looks like it couldn't possibly be deadly, like this book.
+        Якщо деескалація не спрацювала, час хапатися за зброю. Але робіть це з розумом - оберіть щось, що виглядає так, ніби не може бути смертоносним, наприклад, цю книгу.
 
-        And if you're both still standing, it's time to pull out the big guns. Find the sharpest thing you can and end things, because everyone's getting kind of tired of this by now.
+        І якщо ви обидва все ще стоїте на місці, настав час витягнути важку зброю. Знайдіть найгострішу річ, яку зможете, і покладіть цьому край, тому що всі вже трохи втомилися від цього.
 
-        Now parade your vanquished opponent through the halls to the medbay so that everyone knows just how robust you really are.
+        А тепер проведіть свого переможеного супротивника коридорами до лазарету, щоб усі знали, наскільки ви сильні насправді.
 
-        Remember, it's all about conserving energy. Let your opponent do some of the escalation for you - it's a win-win!
+        Пам'ятайте, що потрібно берегти енергію. Дозвольте супернику зробити частину ескалації за вас - це безпрограшний варіант!
 
-book-text-escalation-security = Get it right and you'll have the whole station calling you shitsec. Get it wrong and you'll face harmbatoning from the gods. Personally, I always aim for the former...
+book-text-escalation-security = Зробиш це правильно, і вся станція буде називати тебе гівнюком. Неправильно - отримаєш удар гармошки від богів. Особисто я завжди прагну до першого...
 
-        They say the pen is mightier than the sword, but you don't have a sword, you have a stun baton, and as soon as you start writing, any suspect is going to leave.
+        Кажуть, що перо могутніше за меч, але у вас немає меча, у вас є електрошокер, і як тільки ви почнете писати, будь-який підозрюваний піде геть.
 
-        So, try starting your confrontations with words. It probably won't get you called shitsec, but it's also not likely to be very effective against someone with lethal intent.
+        Тож спробуйте почати протистояння зі слів. Можливо, це не призведе до того, що вас назвуть гівнюком, але це також навряд чи буде дуже ефективним проти когось, хто має смертельні наміри.
 
-        Your next move should be to use non-lethal or less lethal devices, like stun batons, disablers, flashes, and flashbangs. Just make sure you get some training on these before trying to use them - offering them to a suspect in exchange for their cooperation is not an effective use of these tools.
+        Наступним кроком має бути використання нелетальних або менш смертельних пристроїв, таких як електрошокери, деактиватори, спалахи та світлошумові гранати. Тільки переконайтеся, що ви пройшли відповідну підготовку, перш ніж намагатися їх використовувати - пропонувати їх підозрюваному в обмін на співпрацю не є ефективним використанням цих засобів.
 
-        If you're lucky enough to run into a suspect who is a lethal threat, it's time to bust out all the goodies you've been hoarding from the armory.
+        Якщо вам пощастило зіткнутися з підозрюваним, який становить смертельну загрозу, саме час дістати зі сховища все, що ви там припасли.
 
-        For an extra intimidation factor, take your robusted suspects to the medbay to be healed instead of the brig. That way, the whole crew can see just how robust you are.
+        Для додаткового фактору залякування, замість гауптвахти, відведіть зміцнілих підозрюваних до лазарету, щоб їх вилікували. Таким чином, вся команда побачить, наскільки ви сильні.

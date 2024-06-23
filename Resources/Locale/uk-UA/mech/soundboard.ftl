@@ -1,6 +1,6 @@
-mech-soundboard-BikeHorn = Honk!
-mech-soundboard-CluwneHorn = !knoH
-mech-soundboard-TrollAnimals = animal noises
-mech-soundboard-TrollEsword = e-sword
-mech-soundboard-TrollBeeping = Beep beep beep
-mech-soundboard-TrollMeeting = red vented!!!!!
+mech-soundboard-BikeHorn = Гудок!
+mech-soundboard-CluwneHorn = Знаю
+mech-soundboard-TrollAnimals = звуки тварин
+mech-soundboard-TrollEsword = електронний меч
+mech-soundboard-TrollBeeping = Біп біп біп біп
+mech-soundboard-TrollMeeting = червоний вентильований!!!!!

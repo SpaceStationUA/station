@@ -1,34 +1,34 @@
-salvage-expedition-structure-examine = This is a [color=#B02E26]destruction[/color] objective
+salvage-expedition-structure-examine = Це [color=#B02E26]завдання на знищення[/color]
 salvage-expedition-structure-remaining = {$count ->
-    [one] {$count} structure remaining.
-    *[other] {$count} structures remaining.
+     [one] Залишилось структур {$count}.
+    *[other] {$count} структури, що залишилися.
 }
 
-salvage-expedition-type = Mission
-salvage-expedition-window-title = Salvage expeditions
-salvage-expedition-window-difficulty = Difficulty:
-salvage-expedition-window-details = Details:
-salvage-expedition-window-hostiles = Hostiles:
-salvage-expedition-window-duration = Duration:
-salvage-expedition-window-biome = Biome:
-salvage-expedition-window-modifiers = Modifiers:
+salvage-expedition-type = Місія
+salvage-expedition-window-title = Рятувальні експедиції
+salvage-expedition-window-difficulty = Труднощі:
+salvage-expedition-window-details = Деталі:
+salvage-expedition-window-hostiles = Вороги:
+salvage-expedition-window-duration = Тривалість:
+salvage-expedition-window-biome = Біом:
+salvage-expedition-window-modifiers = Модифікатори:
 
-offering-window-claimed = Claimed
-offering-window-claim = Claim
+offering-window-claimed = Заявлено
+offering-window-claim = Претензія
 
-salvage-expedition-window-next = Next offer
+salvage-expedition-window-next = Наступна пропозиція
 
-salvage-expedition-difficulty-Moderate = Moderate
-salvage-expedition-difficulty-Hazardous = Hazardous
-salvage-expedition-difficulty-Extreme = Extreme
+salvage-expedition-difficulty-Moderate = Помірний
+salvage-expedition-difficulty-Hazardous = Небезпечно
+salvage-expedition-difficulty-Extreme = Екстрим
 
-salvage-expedition-difficulty-players = Recommended salvagers:
+salvage-expedition-difficulty-players = Рекомендовані рятувальники:
 
-# Runner
-salvage-expedition-not-all-present = Not all salvagers are aboard the shuttle!
+# Бігун
+salvage-expedition-not-all-present = Не всі рятувальники знаходяться на борту шатла!
 
-salvage-expedition-announcement-countdown-minutes = {$duration} minutes remaining to complete the expedition.
-salvage-expedition-announcement-countdown-seconds = {$duration} seconds remaining to complete the expedition.
-salvage-expedition-announcement-dungeon = Dungeon is located {$direction}.
-salvage-expedition-completed = Expedition is completed.
-salvage-expedition-reward-description = Mission completion reward
+salvage-expedition-announcement-countdown-minutes = До завершення експедиції залишилося {$duration} хвилин.
+salvage-expedition-announcement-countdown-seconds = {$duration} секунд залишилося до завершення експедиції.
+salvage-expedition-announcement-dungeon = Підземелля знаходиться у напрямку {$direction}.
+salvage-expedition-completed = Експедиція завершена.
+salvage-expedition-reward-description = Винагорода за виконання місії

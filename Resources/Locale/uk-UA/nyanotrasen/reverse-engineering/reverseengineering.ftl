@@ -1,35 +1,35 @@
-reverse-engineering-machine-menu-title = reverse engineering machine
-reverse-engineering-machine-server-list-button = Server List
-reverse-engineering-machine-scan-button = Analyze
-reverse-engineering-machine-scan-tooltip-info = Analyze the inserted item to attempt to reverse engineer it.
-reverse-engineering-machine-safety-button = Safety
-reverse-engineering-machine-safety-tooltip-info = Toggle safety protocols. Safety off will use stronger but possibly destructive methods of analysis.
-reverse-engineering-machine-autoscan-button = AutoProbe
-reverse-engineering-machine-autoscan-tooltip-info = Toggle whether to automatically start a new probe when the previous one finishes.
-reverse-engineering-machine-stop-button = Stop
-reverse-engineering-machine-stop-tooltip-info = Stop the current probe.
-reverse-engineering-machine-eject-button = Eject
-reverse-engineering-machine-eject-tooltip-info = Eject the current item.
+reverse-engineering-machine-menu-title = машина зворотного проектування
+reverse-engineering-machine-server-list-button = Список серверів
+reverse-engineering-machine-scan-button = Проаналізуйте
+reverse-engineering-machine-scan-tooltip-info = Проаналізуйте вставлений елемент, щоб спробувати здійснити його реінжиніринг.
+reverse-engineering-machine-safety-button = Безпека
+reverse-engineering-machine-safety-tooltip-info = Увімкнути протоколи безпеки. Якщо безпеку вимкнено, будуть використовуватися сильніші, але, можливо, руйнівні методи аналізу.
+reverse-engineering-machine-autoscan-button = Автозонд
+reverse-engineering-machine-autoscan-tooltip-info = Увімкніть, чи потрібно автоматично запускати новий зонд після завершення попереднього.
+reverse-engineering-machine-stop-button = Стоп!
+reverse-engineering-machine-stop-tooltip-info = Зупинити поточний зонд.
+reverse-engineering-machine-eject-button = Викидай!
+reverse-engineering-machine-eject-tooltip-info = Викинути поточний елемент.
 
-reverse-engineering-status-ready = Insert item to reverse engineer.
-reverse-engineering-current-item = Current item: {$item}
-reverse-engineering-analysis-score = Analysis power: {$score}
-reverse-engineering-item-difficulty = Difficulty: {$difficulty}
-reverse-engineering-progress = Progress: {$progress}%
-reverse-engineering-last-attempt-result = Last probe result: {$result}
+reverse-engineering-status-ready = Вставте елемент для зворотного проектування.
+reverse-engineering-current-item = Поточний товар: {$item}
+reverse-engineering-analysis-score = Потужність аналізу: {$score}
+reverse-engineering-item-difficulty = Труднощі: {$difficulty}
+reverse-engineering-progress = Прогрес: {$progress}%
+reverse-engineering-last-attempt-result = Останній результат зондування: {$result}
 
-reverse-engineering-total-progress-label = Total
+reverse-engineering-total-progress-label = Всього
 
-reverse-engineering-failure = CRITICAL FAILURE
-reverse-engineering-stagnation = Minimal Progress
-reverse-engineering-minor = Minor progress
-reverse-engineering-average = Acceptable progress
-reverse-engineering-major = Major progress
-reverse-engineering-success = Breakthrough
+reverse-engineering-failure = КРИТИЧНИЙ ЗБІЙ
+reverse-engineering-stagnation = Мінімальний прогрес
+reverse-engineering-minor = Незначний прогрес
+reverse-engineering-average = Прийнятний прогрес
+reverse-engineering-major = Значний прогрес
+reverse-engineering-success = Прорив
 
-reverse-engineering-machine-bonus-upgrade = Analysis power
-reverse-engineering-machine-aversion-upgrade = Destruction aversion bonus
+reverse-engineering-machine-bonus-upgrade = Потужність аналізу
+reverse-engineering-machine-aversion-upgrade = Бонус відрази до руйнування
 
-reverse-engineering-popup-failure = {CAPITALIZE(THE($machine))} blows smoke and debris everywhere!
+reverse-engineering-popup-failure = {CAPITALIZE(THE($machine))} розкидає дим і уламки на всі боки!
 
-reverse-engineering-examine = [color=yellow]This item can be reverse engineered. Difficulty: {$diff}[/color]
+reverse-engineering-examine = [color=yellow]Цей елемент можна переробити. Складність: {$diff}[/color]

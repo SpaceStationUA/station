@@ -1,6 +1,6 @@
 goodfeeling-artifact-1 = Ви почуваєтесь добре.
-goodfeeling-artifact-2 = Схоже, все в порядку.
-goodfeeling-artifact-3 = У вас гарне передчуття щодо цього.
+goodfeeling-artifact-2 = Схоже, все в порядку
+goodfeeling-artifact-3 = У вас гарне передчуття щодо цього
 goodfeeling-artifact-4 = Інстинкти кажуть вам, що все буде гаразд.
 goodfeeling-artifact-5 = У повітрі витає гарне відчуття.
 goodfeeling-artifact-6 = Пахне... Свіжою випічкою.

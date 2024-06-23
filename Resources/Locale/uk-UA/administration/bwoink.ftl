@@ -11,4 +11,4 @@ bwoink-system-typing-indicator = {$players} {$count ->
 *[other] друкують
 } ...
 
-admin-bwoink-play-sound = Bwoink?
+admin-bwoink-play-sound = Бвінк?

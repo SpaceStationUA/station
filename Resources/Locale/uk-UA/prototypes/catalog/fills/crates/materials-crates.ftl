@@ -1,26 +1,26 @@
-ent-CrateMaterialGlass = Glass sheet crate
-    .desc = 90 sheets of glass, packed with care.
+ent-CrateMaterialGlass = Ящик зі склом
+    .desc = 90 аркушів скла, упакованих з турботою.
 
-ent-CrateMaterialSteel = Steel sheet crate
-    .desc = 90 sheets of steel.
+ent-CrateMaterialSteel = Ящик зі сталлю
+    .desc = 90 аркушів сталі.
 
-ent-CrateMaterialTextiles = Textiles crate
-    .desc = 60 pieces of cloth and 30 pieces of durathread.
+ent-CrateMaterialTextiles = Ящик з текстилем
+    .desc = 60 шматків тканини та 30 шматків дюратканини.
 
-ent-CrateMaterialPlastic = Plastic sheet crate
-    .desc = 90 sheets of plastic.
+ent-CrateMaterialPlastic = Ящик з пластиком
+    .desc = 90 аркушів пластику.
 
-ent-CrateMaterialWood = Wood crate
-    .desc = Bunch of wood planks.
+ent-CrateMaterialWood = Ящик з деревиною
+    .desc = Купа дерев'яних дощок.
 
-ent-CrateMaterialPlasteel = Plasteel crate
-    .desc = 90 sheets of plasteel.
+ent-CrateMaterialPlasteel = Ящик з пласталлю
+    .desc = 90 аркушів пласталі.
 
-ent-CrateMaterialPlasma = Solid plasma crate
-    .desc = 90 sheets of plasma.
+ent-CrateMaterialPlasma = Ящик з твердою плазмою
+    .desc = 90 аркушів плазми.
 
-ent-CrateMaterialCardboard = Cardboard crate
-    .desc = 60 pieces of cardboard.
+ent-CrateMaterialCardboard = Ящик з картоном
+    .desc = 60 шматків картону.
 
-ent-CrateMaterialPaper = Paper crate
-    .desc = 90 sheets of paper.
+ent-CrateMaterialPaper = Ящик з папером
+    .desc = 90 аркушів паперу.

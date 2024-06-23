@@ -16,7 +16,7 @@ petting-success-dog = {THE($target)} отримує ващі пестощі по
 petting-success-frog = {THE($target)} отримує ващі пестощі по {POSS-ADJ($target)} слизькій голівці.
 petting-success-goat = {THE($target)} отримує ващі пестощі по {POSS-ADJ($target)} рогатій пухнастій голові.
 petting-success-goose = Наперекір всьому, {THE($target)} отримує ващі пестощі по {POSS-ADJ($target)} жахливій голівці.
-petting-success-kangaroo = You pet {THE($target)} on {POSS-ADJ($target)} Strayan head.
+petting-success-kangaroo = Ви гладите {THE($target)} по {POSS-ADJ($target)} голові Страяна.
 petting-success-possum = {THE($target)} отримує ващі пестощі по {POSS-ADJ($target)} страшній голівці.
 petting-success-pig = {THE($target)} отримує ващі пестощі по {POSS-ADJ($target)} волохатій голові.
 petting-success-raccoon = {THE($target)} отримує ващі пестощі по {POSS-ADJ($target)} сміттєядній маленькій голові.
@@ -74,9 +74,9 @@ comp-window-knock = *тук тук*
 
 ## Rattling fences
 
-fence-rattle-success = *rattle*
+fence-rattle-success = *брязкіт*
 
-## Hugging players
+## Обіймають гравців
 
 hugging-success-generic = {THE($target)} тане у ваших обіймах.
 hugging-success-generic-others = { CAPITALIZE(THE($user)) } обіймає {THE($target)}.

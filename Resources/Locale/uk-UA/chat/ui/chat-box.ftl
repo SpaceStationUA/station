@@ -1,6 +1,6 @@
 hud-chatbox-info = {$talk-key} щоб говорити, {$cycle-key} to cycle channels.
 hud-chatbox-info-talk = {$talk-key} щоб говорити.
-hud-chatbox-info-cycle = Click here to talk, {$cycle-key} to cycle channels.
+hud-chatbox-info-cycle = Натисніть тут, щоб поговорити, {$cycle-key}, щоб перемикати канали.
 hud-chatbox-info-unbound = Натисніть тут щоб говорити.
 
 hud-chatbox-select-name-prefixed = {$prefix} {$name}
@@ -26,12 +26,12 @@ hud-chatbox-channel-Whisper = Шепіт
 hud-chatbox-channel-LOOC = LOOC
 hud-chatbox-channel-OOC = OOC
 hud-chatbox-channel-Radio = Радіо
-hud-chatbox-channel-Notifications = Notifications
+hud-chatbox-channel-Notifications = Сповіщення
 hud-chatbox-channel-Server = Сервер
 hud-chatbox-channel-Visual = Дії
 hud-chatbox-channel-Damage = Шкода
 hud-chatbox-channel-Unspecified = Невизначений
 
 #PIRATE START
-hud-chatbox-select-channel-Empathy = Empathy
-hud-chatbox-channel-Empathy = Empathy
+hud-chatbox-select-channel-Empathy = Емпатія
+hud-chatbox-channel-Empathy = Емпатія

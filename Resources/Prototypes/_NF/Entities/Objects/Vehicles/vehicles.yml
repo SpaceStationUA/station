@@ -2,8 +2,8 @@
 - type: entity
   parent: VehicleATV
   id: VehicleATVNF
-  name: ATV
-  description: All-Tile Vehicle.
+  name: "КВАДРОЦИКЛ"
+  description: "Цілісний транспортний засіб."
   components:
   - type: Sprite
     sprite: _NF/Objects/Vehicles/atv.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: VehicleSkeletonMotorcycle
   id: VehicleSkeletonMotorcycleNF
-  name: skeleton motorcycle
-  description: Bad to the Bone.
+  name: "скелетний мотоцикл"
+  description: "Поганий до мозку кісток."
   components:
     - type: Storage
       grid:
@@ -76,8 +76,8 @@
 - type: entity
   parent: VehicleATVNF
   id: VehicleHoverbikeNF
-  name: hoverbike
-  description: A turbine with bike handles. Very safe.
+  name: "ховербайк"
+  description: "Турбіна з велосипедними ручками. Дуже безпечна."
   components:
   - type: MovementIgnoreGravity
   - type: MovementAlwaysTouching
@@ -149,8 +149,8 @@
 - type: entity
   parent: VehicleSkeletonMotorcycleNF
   id: VehicleHoverbikeMailcarrier
-  name: mail carrier hoverbike
-  description: You better run, better run, faster than my mail.
+  name: "поштовий ховербайк"
+  description: "Краще біжи, краще біжи, швидше за мою пошту."
   components:
   - type: MovementIgnoreGravity
   - type: MovementAlwaysTouching
@@ -208,8 +208,8 @@
 - type: entity
   parent: VehicleHoverbikeMailcarrier
   id: VehicleHoverbikeNfsd
-  name: nfsd hoverbike
-  description: An NFSD issued turbine with bike handles. Very safe.
+  name: "nfsd hoverbike"
+  description: "Турбіна, випущена NFSD, з велосипедними ручками. Дуже безпечно."
   components:
   - type: Vehicle
     northOver: true
@@ -303,8 +303,8 @@
 - type: entity
   parent: VehicleHoverbikeMailcarrier
   id: VehicleHoverbikePirate
-  name: pirate hoverbike
-  description: Yarr! Dis be me sovereign space shuttle. Now, whaur me rum?
+  name: "піратський ховербайк"
+  description: "Ярр! Це мій суверенний космічний шатл. А тепер, де мені рому?"
   components:
   - type: Storage
     grid:
@@ -381,8 +381,8 @@
 - type: entity
   parent: VehicleHoverbikeMailcarrier
   id: VehicleHoverbikeSyndicate
-  name: syndicate hoverbike
-  description: This thing screams style. And war crimes.
+  name: "синдикатський ховербайк"
+  description: "Ця річ кричить про стиль. І про військові злочини."
   components:
   - type: Storage
     grid:

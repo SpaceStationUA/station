@@ -1,4 +1,4 @@
-﻿### Emitter entity prototype data.
+﻿### Дані прототипу сутності випромінювача.
 
-ent-emitter = emitter
-    .desc = A machine that fires bolts of energy, used for powering containment fields at a safe distance.
+ent-emitter = випромінювач
+    .desc = Машина, яка випускає енергетичні імпульси, використовується для живлення полів утримання на безпечній відстані.

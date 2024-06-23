@@ -3,9 +3,9 @@
 damage-command-description = Додати або видалити пошкодження об'єкту. 
 damage-command-help = Використання: {$command} <type/group> <amount> [ignoreResistances] [uid]
 
-damage-command-arg-type = <damage type or group>
-damage-command-arg-quantity = [quantity]
-damage-command-arg-target = [target euid]
+damage-command-arg-type = <тип або група ушкоджень
+damage-command-arg-quantity = [кількість]
+damage-command-arg-target = [ціль euid]
 
 damage-command-error-type = {$arg} не є дійсною групою чи типом пошкодження.
 damage-command-error-euid = {$arg} не є дійсним ідентифікаційним кодом юридичної особи.

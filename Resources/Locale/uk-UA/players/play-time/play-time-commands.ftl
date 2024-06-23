@@ -1,7 +1,7 @@
 ﻿parse-minutes-fail = Unable to parse '{$minutes}' as minutes
-parse-session-fail = Did not find session for '{$username}'
+parse-session-fail = Не знайдено сесію для '{$username}'
 
-## Role Timer Commands
+## Команди рольового таймера
 
 # - playtime_addoverall
 cmd-playtime_addoverall-desc = Adds the specified minutes to a player's overall playtime

@@ -1,27 +1,27 @@
-machine-insert-item = {THE($user)} inserted {THE($item)} into {THE($machine)}.
+machine-insert-item = {THE($user)} вставив {THE($item)} у {THE($machine)}.
 
-machine-upgrade-examinable-verb-text = Upgrades
-machine-upgrade-examinable-verb-message = Examine the machine upgrades.
-machine-upgrade-increased-by-percentage = [color=yellow]{CAPITALIZE($upgraded)}[/color] increased by {$percent}%.
-machine-upgrade-decreased-by-percentage = [color=yellow]{CAPITALIZE($upgraded)}[/color] decreased by {$percent}%.
-machine-upgrade-increased-by-amount = [color=yellow]{CAPITALIZE($upgraded)}[/color] increased by {$difference}.
-machine-upgrade-decreased-by-amount = [color=yellow]{CAPITALIZE($upgraded)}[/color] decreased by {$difference}.
-machine-upgrade-not-upgraded = [color=yellow]{CAPITALIZE($upgraded)}[/color] not upgraded.
+machine-upgrade-examinable-verb-text = Оновлення
+machine-upgrade-examinable-verb-message = Вивчіть оновлення машини.
+machine-upgrade-increased-by-percentage = [color=yellow]{CAPITALIZE($upgraded)}[/color] збільшилася на {$percent}%.
+machine-upgrade-decreased-by-percentage = [color=yellow]{CAPITALIZE($upgraded)}[/color] зменшилася на {$percent}%.
+machine-upgrade-increased-by-amount = [color=yellow]{CAPITALIZE($upgraded)}[/color] збільшено на {$difference}.
+machine-upgrade-decreased-by-amount = [color=yellow]{CAPITALIZE($upgraded)}[/color] зменшилася на {$difference}.
+machine-upgrade-not-upgraded = [color=yellow]{CAPITALIZE($upgraded)}[/color] не оновлено.
 
-machine-part-name-capacitor = Capacitor
-machine-part-name-manipulator = Manipulator
-machine-part-name-matter-bin = Matter Bin
-machine-part-name-power-cell = Power Cell
+machine-part-name-capacitor = Конденсатор
+machine-part-name-manipulator = Маніпулятор
+machine-part-name-matter-bin = Кошик для сміття
+machine-part-name-power-cell = Елемент живлення
 
 upgrade-power-draw = power draw
 upgrade-max-charge = max charge
 upgrade-power-supply = power supply
 upgrade-power-supply-ramping = power ramp rate
 
-two-way-lever-left = push left
-two-way-lever-right = push right
-two-way-lever-cant = can't push the lever that way!
+two-way-lever-left = натисни ліворуч
+two-way-lever-right = натисни праворуч
+two-way-lever-cant = не може так натиснути на важіль!
 
-recycler-count-items = Recycled {$items} objects.
+recycler-count-items = Перероблені об'єкти {$items}.
 
-machine-already-in-use = {CAPITALIZE(THE($machine))} is already in use.
+machine-already-in-use = {CAPITALIZE(THE($machine))} вже використовується.

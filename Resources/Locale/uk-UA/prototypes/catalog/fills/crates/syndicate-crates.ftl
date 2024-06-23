@@ -1,9 +1,8 @@
-ent-CrateSyndicate = Syndicate crate
-    .desc = A dark steel crate with red bands and a letter S embossed on the front.
+ent-CrateSyndicate = Ящик Синдикату
+    .desc = Темно-сталевий ящик з червоними смугами та буквою S на передній панелі.
 
-ent-CrateSyndicateSurplusBundle = Syndicate surplus crate
-    .desc = Contains 50 telecrystals worth of completely random Syndicate items. It can be useless junk or really good.
+ent-CrateSyndicateSurplusBundle = Ящик надлишків Синдикату
+    .desc = Містить 50 телекристалів вартістю абсолютно випадкових предметів Синдикату. Це може бути як марний мотлох, так і щось дуже корисне.
 
-ent-CrateSyndicateSuperSurplusBundle = Syndicate super surplus crate
-    .desc = Contains 125 telecrystals worth of completely random Syndicate items.
-
+ent-CrateSyndicateSuperSurplusBundle = Супер ящик надлишків Синдикату
+    .desc = Містить 125 телекристалів вартістю абсолютно випадкових предметів Синдикату.

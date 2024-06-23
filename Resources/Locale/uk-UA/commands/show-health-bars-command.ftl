@@ -1,6 +1,6 @@
-cmd-showhealthbars-desc = Toggles health bars above mobs.
-cmd-showhealthbars-help = Usage: {$command} [<DamageContainerId>]
-cmd-showhealthbars-error-not-player = You aren't a player.
-cmd-showhealthbars-error-no-entity = You do not have an attached entity.
-cmd-showhealthbars-notify-enabled = Enabled health overlay for DamageContainers: {$args}.
-cmd-showhealthbars-notify-disabled = Disabled health overlay.
+cmd-showhealthbars-desc = Перемикає індикатори здоров'я над мобами.
+cmd-showhealthbars-help = Використання: {$command} [<DamageContainerId>]
+cmd-showhealthbars-error-not-player = Ти не гравець.
+cmd-showhealthbars-error-no-entity = Ви не маєте приєднаного суб'єкта господарювання.
+cmd-showhealthbars-notify-enabled = Увімкнено накладання здоров'я для DamageContainers: {$args}.
+cmd-showhealthbars-notify-disabled = Вимкнено накладання здоров'я.

@@ -1,14 +1,14 @@
 ﻿### Localization for role ban command
 
-cmd-roleban-desc = Bans a player from a role
-cmd-roleban-help = Usage: roleban <name or user ID> <job> <reason> [duration in minutes, leave out or 0 for permanent ban]
+cmd-roleban-desc = Забороняє гравцеві виконувати роль
+cmd-roleban-help = Використання: roleban <ім'я або ідентифікатор користувача> <робота> <причина> [тривалість у хвилинах, не вказувати або 0 для постійного бану].
 
-## Completion result hints
-cmd-roleban-hint-1 = <name or user ID>
-cmd-roleban-hint-2 = <job>
-cmd-roleban-hint-3 = <reason>
-cmd-roleban-hint-4 = [duration in minutes, leave out or 0 for permanent ban]
-cmd-roleban-hint-5 = [severity]
+## Підказки результату виконання
+cmd-roleban-hint-1 = <ім'я або ідентифікатор користувача
+cmd-roleban-hint-2 = <робота>
+cmd-roleban-hint-3 = <причина>
+cmd-roleban-hint-4 = [тривалість у хвилинах, не вказувати або 0 для постійної заборони]
+cmd-roleban-hint-5 = [суворість]
 
 cmd-roleban-hint-duration-1 = Назавжди
 cmd-roleban-hint-duration-2 = 1 день
@@ -24,17 +24,17 @@ cmd-roleunban-desc = Відмінити рол бан гравцю
 cmd-roleunban-help = Використання: roleunban <role ban id>
 
 ## Completion result hints
-cmd-roleunban-hint-1 = <role ban id>
+cmd-roleunban-hint-1 = <role ban id
 
 
-### Localization for roleban list command
+### Локалізація для команди list roleban
 
 cmd-rolebanlist-desc = Перелічує рол бани користувача
-cmd-rolebanlist-help = Usage: <name or user ID> [include unbanned]
+cmd-rolebanlist-help = Використання: <ім'я або ідентифікатор користувача> [включити незаборонене].
 
-## Completion result hints
-cmd-rolebanlist-hint-1 = <name or user ID>
-cmd-rolebanlist-hint-2 = [include unbanned]
+## Підказки результату завершення
+cmd-rolebanlist-hint-1 = <ім'я або ідентифікатор користувача
+cmd-rolebanlist-hint-2 = [включити незаборонене]
 
 
 cmd-roleban-minutes-parse = {$time} не є дійсною кількістю хвилин.\n{$help}

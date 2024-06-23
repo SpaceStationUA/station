@@ -1,2 +1,2 @@
-narsie-has-risen = NAR'SIE HAS RISEN
+narsie-has-risen = НАР'СІ ПІДНЯЛАСЯ
 narsie-has-risen-sender = ???

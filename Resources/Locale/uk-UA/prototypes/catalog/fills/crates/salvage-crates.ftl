@@ -1,2 +1,2 @@
-ent-CrateSalvageEquipment = Salvage equipment crate
-    .desc = For the daring.
+ent-CrateSalvageEquipment = Ящик з рятувальним обладнанням
+    .desc = Для сміливих.

@@ -6,7 +6,7 @@ chem-master-component-cannot-put-entity-message = Ви не можете пок�
 ## Bound UI
 chem-master-bound-user-interface-title = ChemMaster 4000
 
-## UI
+## ІНТЕРФЕЙС КОРИСТУВАЧА
 
 chem-master-window-input-tab = Вхід
 chem-master-window-output-tab = Вихід

@@ -1,1 +1,1 @@
-chat-radio-prison = Prison
+chat-radio-prison = В'язниця

@@ -2,7 +2,7 @@ shuttle-pilot-start = Пілотувати корабель
 shuttle-pilot-end = Перестати пілотувати
 
 shuttle-console-in-ftl = Неможливо виконати FTL коли вже у FTL!
-shuttle-console-mass = Надто великий для FTL.
+shuttle-console-mass = Надто великий для FTL
 shuttle-console-prevent = Ви не можете керувати цим кораблем.
 
 # NAV
@@ -15,7 +15,7 @@ shuttle-console-linear-velocity = Лінійна швидкість:
 shuttle-console-angular-velocity = Кутова швидкість:
 
 shuttle-console-unknown = Невідомо
-shuttle-console-iff-label = {$name} ({$distance}m)
+shuttle-console-iff-label = {$name} ({$distance}м)
 shuttle-console-exclusion = Зона виключення
 
 shuttle-console-nav-settings = Налаштування
@@ -32,7 +32,7 @@ shuttle-console-ftl-state-Arriving = Прибуття
 shuttle-console-ftl-state-Cooldown = Охолодження
 
 shuttle-console-map-settings = Налаштування
-shuttle-console-ftl-button = FTL
+shuttle-console-ftl-button = НАДСВІТЛОВА ШВИДКІСТЬ
 shuttle-console-map-rebuild = Сканування об'єктів
 shuttle-console-map-beacons = Показати маяки
 

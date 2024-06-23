@@ -3,14 +3,14 @@
   id: ConjuredObject10
   suffix: Conjured
   abstract: true
-  description: A magically created entity, that'll vanish from existence eventually.
+  description: "Магічно створена сутність, яка врешті-решт зникає з існування."
   components:
   - type: TimedDespawn
     lifetime: 10
 
 # Conjured objects
 - type: entity
-  name: soap
+  name: "мило"
   id: SoapConjured
   parent:
   - BaseBullet
@@ -62,7 +62,7 @@
 
 # Blood Cult Soaps
 - type: entity
-  name: soaplet
+  name: "мило"
   id: SoapletBloodCult
   noSpawn: true
   parent: SoapConjured
@@ -106,7 +106,7 @@
     softness: 1
 
 - type: entity
-  name: soap
+  name: "мило"
   id: SoapConjuredBloodCultCluster # I swear, I'll use it some how
   parent:
   - Soap

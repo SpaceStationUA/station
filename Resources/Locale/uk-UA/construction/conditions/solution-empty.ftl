@@ -1,3 +1,3 @@
 # SolutionEmpty
-construction-examine-condition-solution-empty = First, empty the contents.
-construction-guide-condition-solution-empty = Empty the contents.
+construction-examine-condition-solution-empty = Спочатку очистіть вміст.
+construction-guide-condition-solution-empty = Вийміть вміст.

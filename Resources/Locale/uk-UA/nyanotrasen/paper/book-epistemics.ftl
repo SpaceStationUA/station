@@ -1,9 +1,9 @@
-book-text-epistemics1 = THE EFFECTS OF HIGH GLIMMER LEVELS
+book-text-epistemics1 = ВПЛИВ ВИСОКИХ РІВНІВ МЕРЕХТІННЯ
 
-      On a shift I served on one of our backwater stations, we had an eccentric mystagogue as our only command member.
-      Their magnum opus experiment was to... raise the glimmer as far as they could, up until our grammateus couldn't tell how much there was.
-      Thankfully, nobody was harmed. But as the glimmer gloomed, I'd started feeling its metallic smell, started feeling the pain of being in outer space.
-      And then, I saw the universe as a whole. I'd seen every movement, every thought, star, galaxy, in a dim blue marble in front of me.
-      When our mystagogue finally stopped, and failed to break the veil... the station felt off. Cramped, fragile with the eight of us.
-      Maybe they weren't crazy. I know now the universe is MASSIVELY smaller than it seems.
+      У зміну, яку я служив на одній з наших глухих станцій, єдиним членом нашої команди був ексцентричний містифікатор.
+      Їхній magnum opus експеримент полягав у тому, щоб... підвищити рівень мерехтіння настільки, наскільки це було можливо, аж до того, що наш граматик не міг визначити, наскільки він високий.
+      На щастя, ніхто не постраждав. Але коли мерехтіння потьмяніло, я почав відчувати його металевий запах, почав відчувати біль від перебування у відкритому космосі.
+      А потім я побачив всесвіт як єдине ціле. Я побачив кожен рух, кожну думку, зірку, галактику в тьмяному синьому мармурі переді мною.
+      Коли наш містагог нарешті зупинився і не зміг розірвати завісу... станція ніби відлетіла. Тісною, крихкою для нас вісьмох.
+      Можливо, вони не були божевільними. Тепер я знаю, що всесвіт НАБАГАТО менший, ніж здається.
       -Z7

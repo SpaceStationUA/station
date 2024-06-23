@@ -1,16 +1,16 @@
-cmd-atvrange-desc = Sets the atmos debug range (as two floats, start [red] and end [blue])
-cmd-atvrange-help = Usage: {$command} <start> <end>
-cmd-atvrange-error-start = Bad float START
-cmd-atvrange-error-end = Bad float END
-cmd-atvrange-error-zero = Scale cannot be zero, as this would cause a division by zero in AtmosDebugOverlay.
+cmd-atvrange-desc = Встановлює діапазон налагодження atmos (у вигляді двох поплавків, початок [червоний] і кінець [синій])
+cmd-atvrange-help = Використання: {$command} <start> <end>
+cmd-atvrange-error-start = Поганий СТАРТ поплавка
+cmd-atvrange-error-end = Поганий поплавок END
+cmd-atvrange-error-zero = Масштаб не може бути нульовим, оскільки це призведе до ділення на нуль у AtmosDebugOverlay.
 
-cmd-atvmode-desc = Sets the atmos debug mode. This will automatically reset the scale.
-cmd-atvmode-help = Usage: {$command} <TotalMoles/GasMoles/Temperature> [<gas ID (for GasMoles)>]
-cmd-atvmode-error-invalid = Invalid mode
-cmd-atvmode-error-target-gas = A target gas must be provided for this mode.
-cmd-atvmode-error-out-of-range = Gas ID not parsable or out of range.
-cmd-atvmode-error-info = No further information is required for this mode.
+cmd-atvmode-desc = Встановлює режим налагодження atmos. Шкала буде автоматично скинута.
+cmd-atvmode-help = Використання: {$command} <TotalMoles/GasMoles/Temperature> [<ідентифікатор газу (для GasMoles)>]
+cmd-atvmode-error-invalid = Неправильний режим
+cmd-atvmode-error-target-gas = Для цього режиму повинен бути передбачений цільовий газ.
+cmd-atvmode-error-out-of-range = Ідентифікатор газу не розпізнається або знаходиться поза зоною досяжності.
+cmd-atvmode-error-info = Для цього режиму ніякої додаткової інформації не потрібно.
 
-cmd-atvcbm-desc = Changes from red/green/blue to greyscale
-cmd-atvcbm-help = Usage: {$command} <true/false>
-cmd-atvcbm-error = Invalid flag
+cmd-atvcbm-desc = Перехід від червоного/зеленого/синього до відтінків сірого
+cmd-atvcbm-help = Використання: {$command} <true/false>
+cmd-atvcbm-error = Неправильний прапор

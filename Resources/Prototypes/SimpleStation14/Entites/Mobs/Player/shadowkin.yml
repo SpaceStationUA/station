@@ -2,7 +2,7 @@
   save: false
   parent: BaseMobHuman
   id: MobShadowkin
-  name: Urist McFloof
+  name: "Уріст Макфлуф"
   components:
   - type: HumanoidAppearance
     species: Shadowkin
@@ -135,7 +135,7 @@
   parent: MobHumanDummy
   id: MobShadowkinDummy
   noSpawn: true
-  description: A dummy shadowkin meant to be used in character setup.
+  description: "Манекен-тіньовик, призначений для використання при створенні персонажів."
   components:
   - type: HumanoidAppearance
     species: Shadowkin
@@ -201,7 +201,7 @@
 
 - type: entity
   id: ShadowkinTeleport
-  name: action-name-shadowkin-teleport
+  name: "назва акції-shadowkin-teleport"
   description: action-description-shadowkin-teleport
   noSpawn: true
   components:

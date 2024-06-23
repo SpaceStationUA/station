@@ -9,4 +9,4 @@ wires-component-ui-on-receive-message-cannot-mend-uncut-wire = Ви не мож�
 ## UI
 
 wires-menu-name-label = Дроти
-wires-menu-dead-beef-text = DEAD-BEEF
+wires-menu-dead-beef-text = ДОХЛАЯ ЯЛОВИНА

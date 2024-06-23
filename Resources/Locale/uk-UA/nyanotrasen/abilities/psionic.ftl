@@ -22,16 +22,16 @@ accept-psionics-window-prompt-text-part = Ви отримали псіонічн
                                          тому вам слід зберегти це в таємниці.
                                          Ви все ще хочете бути псіонікою?
 
-action-name-psionic-invisibility = Psionic Invisibility
-action-description-psionic-invisibility = Render yourself invisible to any entity that could potentially be psychic. Borgs, animals, and so on are not affected.
+action-name-psionic-invisibility = Псіонна невидимість
+action-description-psionic-invisibility = Зробіть себе невидимим для будь-якої істоти, яка потенційно може бути екстрасенсом. На боргів, тварин тощо це не впливає.
 
-action-name-psionic-invisibility = Psionic Invisibility
-action-description-psionic-invisibility = Render yourself invisible to any entity that could potentially be psychic. Borgs, animals, and so on are not affected.
+action-name-psionic-invisibility = Псіонна невидимість
+action-description-psionic-invisibility = Зробіть себе невидимим для будь-якої істоти, яка потенційно може бути екстрасенсом. На боргів, тварин тощо це не впливає.
 
-action-name-psionic-invisibility-off = Turn Off Psionic Invisibility
-action-description-psionic-invisibility-off = Return to visibility, and receive a stun.
+action-name-psionic-invisibility-off = Вимкнути псионну невидимість
+action-description-psionic-invisibility-off = Поверніться в зону видимості та отримайте оглушення.
 
-action-name-mind-swap = Mind Swap
+action-name-mind-swap = Обмін думками
 action-description-mind-swap = Поміняйтеся розумом з ціллю. Будь-яка з них може повернутися через 20 секунд.
 
 action-name-mind-swap-return = Зворотний Mind Swap
@@ -48,19 +48,19 @@ glimmer-event-report-generic = Виявлено ноосферний розря�
 glimmer-event-report-signatures = Виявлено нові псіонічні сигнатури. Рівень Мерехтіння зменшився на {$decrease} до {$level}Ψ.
 glimmer-event-awakened-prefix = пробудили {$entity}
 
-noospheric-zap-seize = You seize up!
-noospheric-zap-seize-potential-regained = You seize up! Some mental block seems to have cleared, too.
+noospheric-zap-seize = У тебе судоми!
+noospheric-zap-seize-potential-regained = Ану схопися! Здається, якийсь ментальний блок теж розвіявся.
 
-mindswap-trapped = Seems you're trapped in this vessel.
+mindswap-trapped = Здається, ви потрапили в пастку в цій посудині.
 
-telegnostic-trapped-entity-name = severed telegnostic projection
-telegnostic-trapped-entity-desc = Its many eyes betray sadness.
+telegnostic-trapped-entity-name = розірвана телегностична проекція
+telegnostic-trapped-entity-desc = Його численні очі видають смуток.
 
-psionic-burns-up = {CAPITALIZE(THE($item))} burns up with arcs of strange energy!
-psionic-burn-resist = Strange arcs dance across {THE($item)}!
+psionic-burns-up = {CAPITALIZE(THE($item))} палає дугами дивної енергії!
+psionic-burn-resist = Дивні дуги танцюють по {THE($item)}!
 
-action-name-noospheric-zap = Noospheric Zap
-action-description-noospheric-zap = Shocks the conciousness of the target and leaves them stunned and stuttering.
+action-name-noospheric-zap = Ноосферний Зап
+action-description-noospheric-zap = Викликає шок у свідомості мішені, залишаючи її приголомшеною і заїкаючоюся.
 
 action-name-pyrokinesis = Пірокінез
 action-description-pyrokinesis = Підпалити легкозаймисту мішень.
@@ -69,5 +69,5 @@ pyrokinesis-power-used = Струмок полум'я охоплює {THE($targe
 action-name-psychokinesis = Психокінез
 action-description-psychokinesis = Згинайте тканину простору, щоб миттєво рухатися по ній.
 
-action-name-rf-sensitivity = Toggle RF Sensitivity
+action-name-rf-sensitivity = Перемикання радіочастотної чутливості
 action-desc-rf-sensitivity = Увімкніть і вимкніть здатність інтерпретувати радіохвилі.

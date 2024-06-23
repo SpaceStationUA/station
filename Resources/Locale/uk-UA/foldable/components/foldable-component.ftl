@@ -1,7 +1,7 @@
 # Foldable
 
-foldable-deploy-fail = You can't deploy the {$object} here.
-fold-verb = Fold
-unfold-verb = Unfold
+foldable-deploy-fail = Ви не можете розгорнути {$object} тут.
+fold-verb = Скласти
+unfold-verb = Розгорнути
 
-fold-flip-verb = Flip
+fold-flip-verb = Переверни

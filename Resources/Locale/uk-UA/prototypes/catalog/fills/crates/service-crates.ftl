@@ -1,38 +1,38 @@
-ent-CrateServiceJanitorialSupplies = Janitorial supplies crate
-    .desc = Fight back against dirt and grime with Nanotrasen's Janitorial Essentials(tm)! Contains three buckets, caution signs, and cleaner grenades. Also has a single mop, broom, spray cleaner, rag, and trash bag.
+ent-CrateServiceJanitorialSupplies = Ящик з прибиральними приладдям
+    .desc = Боротьба з брудом та пилом за допомогою засобів Nanotrasen Janitorial Essentials(tm)! Містить три відра, попереджувальні знаки та гранати з чистячим засобом. Також є одна швабра, мітла, спрей для чищення, ганчірка та сміттєвий мішок.
 
-ent-CrateServiceReplacementLights = Replacement lights crate
-    .desc = May the light of Aether shine upon this station! Or at least, the light of forty two light tubes and twenty one light bulbs.
+ent-CrateServiceReplacementLights = Ящик з запасними лампами
+    .desc = Хай світло Ефіру світить на цю станцію! Або принаймні, світло сорока двох ламп і двадцяти одного лампочки.
 
-ent-CrateMousetrapBoxes = Mousetraps crate
-    .desc = Mousetraps, for when all of service is being haunted by an entire horde of rats. Use sparingly... or not.
+ent-CrateMousetrapBoxes = Ящик з мишоловками
+    .desc = Мишоловки для випадків, коли всю службу тероризує ціла орда щурів. Використовуйте обережно... або ні.
 
-ent-CrateServiceSmokeables = Smokeables crate
-    .desc = Tired of a quick death on the station? Order this crate and chain-smoke your way to a coughy demise!
+ent-CrateServiceSmokeables = Ящик з курильними виробами
+    .desc = Втомилися від швидкої смерті на станції? Замовте цей ящик і ланцюгом викуріть свій шлях до кашляючого кінця!
 
-ent-CrateServiceCustomSmokable = DIY smokeables crate
-    .desc = Want to get a little creative with what you use to destroy your lungs? Then this crate is for you! Has everything you need to roll your own cigarettes.
+ent-CrateServiceCustomSmokable = Ящик для самостійного виготовлення курильних виробів
+    .desc = Хочете трохи креативності у тому, що використовуєте для руйнування своїх легенів? Тоді цей ящик для вас! Містить усе необхідне для скручування власних сигарет.
 
-ent-CrateServiceBureaucracy = Bureaucracy crate
-    .desc = Several stacks of paper and a few pens, what more can you ask for.
+ent-CrateServiceBureaucracy = Ящик з бюрократичним приладдям
+    .desc = Кілька стопок паперу та кілька ручок, що ще можна попросити.
 
-ent-CrateServicePersonnel = Personnel crate
-    .desc = Contains a box of blank ID cards and PDAs.
+ent-CrateServicePersonnel = Ящик з персональними приладдям
+    .desc = Містить коробку з порожніми ID-картками та КПК.
 
-ent-CrateServiceBooks = Books crate
-    .desc = Contains 10 empty books of random appearance
+ent-CrateServiceBooks = Ящик з книгами
+    .desc = Містить 10 порожніх книг з випадковою зовнішністю.
 
-ent-CrateServiceGuidebooks = Guidebooks crate
-    .desc = Contains guidebooks.
+ent-CrateServiceGuidebooks = Ящик з путівниками
+    .desc = Містить путівники.
 
-ent-CrateServiceBox = Boxes crate
-    .desc = Contains 6 empty multipurpose boxes.
-    
-ent-CrateJanitorBiosuit = Janitor bio suit crate
-    .desc = Contains 2 biohazard suits to ensure that no disease will distract you from cleaning.
+ent-CrateServiceBox = Ящик з коробками
+    .desc = Містить 6 порожніх універсальних коробок.
 
-ent-CrateServiceTheatre = Theatrical performances crate
-    .desc = Contains a moth cloak, barber scissors, maid uniform, clown and mime attributes, and other performance charms.
+ent-CrateJanitorBiosuit = Ящик з біокостюмами для прибиральника
+    .desc = Містить 2 біозахисних костюми, щоб жодна хвороба не заважала вам прибирати.
 
-ent-CrateJanitorExplosive = Janitorial bomb suit crate
-    .desc = Supplies a bomb suit for cleaning up any explosive compounds, buy one today!
+ent-CrateServiceTheatre = Ящик з театральними реквізитами
+    .desc = Містить плащ метелика, ножиці перукаря, форму покоївки, реквізит клоуна та мім, а також інші театральні чарівності.
+
+ent-CrateJanitorExplosive = Ящик з вибухозахисним костюмом для прибиральника
+    .desc = Постачає вибухозахисний костюм для очищення будь-яких вибухових речовин, купуйте один сьогодні!

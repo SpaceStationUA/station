@@ -4,7 +4,7 @@ cloning-console-window-clone-button-text = Клон
 cloning-console-window-scanner-id = ID: [color=white]{$scannerOccupantName}[/color]
 cloning-console-window-pod-id = ID: [color=white]{$podOccupantName}[/color]
 cloning-console-window-no-patient-data-text = Немає даних про пацієнта.
-cloning-console-window-id-blank = ID:
+cloning-console-window-id-blank = ПОСВІДЧЕННЯ ОСОБИ:
 
 cloning-console-window-scanner-details-label = Статус генетичного сканера
 cloning-console-window-pod-details-label = Статус клонування

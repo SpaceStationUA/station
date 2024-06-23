@@ -1,5 +1,5 @@
 - type: entity
-  name: medibot spawner
+  name: "спайдер медиботів"
   id: SpawnMobMedibot
   parent: MarkerBase
   components:
@@ -13,7 +13,7 @@
       - MobMedibot
 
 - type: entity
-  name: cleanbot spawner
+  name: "спойлер cleanbot"
   id: SpawnMobCleanBot
   parent: MarkerBase
   components:

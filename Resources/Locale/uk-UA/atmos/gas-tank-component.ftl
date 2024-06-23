@@ -7,10 +7,10 @@ comp-gas-tank-examine = Тиск: [color=orange]{PRESSURE($pressure)}[/color].
 comp-gas-tank-connected = Він підключений до зовнішнього компоненту.
 
 # Examine text when valve is open or closed.
-comp-gas-tank-examine-open-valve = Gas release valve is [color=red]open[/color].
-comp-gas-tank-examine-closed-valve = Gas release valve is [color=green]closed[/color].
+comp-gas-tank-examine-open-valve = Газовідвідний клапан [color=red]відкритий[/color].
+comp-gas-tank-examine-closed-valve = Газовідвідний клапан [color=зелений]закритий[/color].
 
-## ControlVerb
+## Дієслово керування
 control-verb-open-control-panel-text = Відкрийте панель керування
 
 ## UI

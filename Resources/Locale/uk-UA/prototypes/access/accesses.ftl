@@ -1,7 +1,7 @@
 id-card-access-level-command = Місток
 id-card-access-level-captain = Капітан
 id-card-access-level-head-of-personnel = Голова Персоналу
-id-card-access-level-cryogenics = Cryogenics
+id-card-access-level-cryogenics = Кріогенні технології
 
 id-card-access-level-head-of-security = Голова Безпеки
 id-card-access-level-security = Безпека
@@ -50,6 +50,6 @@ id-card-access-level-external = Зовнішні шлюзи
 id-card-access-level-nuclear-operative = Ядерний Оперативник
 id-card-access-level-syndicate-agent = Агент Синдикату
 
-id-card-access-level-unused = You shouldn't see this
+id-card-access-level-unused = Ви не повинні цього бачити
 
-id-card-access-level-central-command = Central Command
+id-card-access-level-central-command = Центральне командування

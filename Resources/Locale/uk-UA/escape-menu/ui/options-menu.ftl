@@ -15,7 +15,7 @@ ui-options-default = За замовчуванням
 
 ui-options-discordrich = Увімкніть Discord Повну Присутність
 ui-options-general-ui-style = UI Стиль
-ui-options-general-discord = Discord
+ui-options-general-discord = Розбрат
 ui-options-general-cursor = Курсор
 ui-options-general-speech = Розмови
 ui-options-general-storage = Сховище
@@ -37,7 +37,7 @@ ui-options-admin-sounds = Звук звернень адміністраторі
 ui-options-volume-label = Гучність
 ui-options-volume-percent = { TOSTRING($volume, "P0") }
 
-## Graphics menu
+## Графічне меню
 
 ui-options-show-held-item = Показувати утримуваний елемент поруч з курсором?
 ui-options-show-combat-mode-indicators = Показувати індикатори бойового режиму при наведенні курсору?

@@ -1,8 +1,8 @@
 # Types
-mixing-verb-default-mix = mix
-mixing-verb-default-grind = grind
-mixing-verb-default-juice = juice
-mixing-verb-default-condense = condense
+mixing-verb-default-mix = мікс
+mixing-verb-default-grind = шліфувати
+mixing-verb-default-juice = сік
+mixing-verb-default-condense = конденсуватися
 mixing-verb-centrifuge = цетрифугування
 mixing-verb-electrolysis = електроліз
 mixing-verb-holy = освятити

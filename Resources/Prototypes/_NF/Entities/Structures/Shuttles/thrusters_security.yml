@@ -1,7 +1,7 @@
 - type: entity
   id: ThrusterSecurity
   parent: [ Thruster ]
-  name: thruster
+  name: "рушій"
   suffix: Security
   components:
   - type: Sprite
@@ -20,7 +20,7 @@
 - type: entity
   id: DebugThrusterSecurity
   parent: [DebugThruster]
-  name: thruster
+  name: "рушій"
   suffix: DEBUG, Security
   components:
   - type: Sprite
@@ -50,7 +50,7 @@
 - type: entity
   id: DebugGyroscopeSecurity
   parent: [DebugGyroscope]
-  name: gyroscope
+  name: "гіроскоп"
   suffix: DEBUG, Security
   components:
   - type: Sprite
@@ -62,7 +62,7 @@
 - type: entity
   id: SmallGyroscopeSecurity
   parent: GyroscopeSecurity
-  name: small gyroscope
+  name: "маленький гіроскоп"
   suffix: Security
   components:
   - type: Thruster

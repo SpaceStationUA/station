@@ -15,8 +15,8 @@ materials-unit-slab = кусок
 # webs of silk
 materials-unit-web = павутина
 # chunks of ore
-materials-unit-chunk = chunk
+materials-unit-chunk = шматок
 
-# bills of spesos... not very good but they are not (yet?) used for crafting anything
-# also the lathe/atm would need bigger denominations to output...
+# банкноти спесо... не дуже добре, але вони (поки що?) не використовуються для виготовлення чогось
+# також токарний верстат/банкомат потребує більших номіналів для випуску...
 materials-unit-bill = купюра

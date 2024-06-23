@@ -3,9 +3,9 @@
 suit-sensor-mode-off = Вимкнено
 suit-sensor-mode-binary = Двійковий
 suit-sensor-mode-vitals = Життєві показники
-suit-sensor-mode-cords = Coordinates
+suit-sensor-mode-cords = Координати
 
-## Popups
+## Спливаючі вікна
 suit-sensor-mode-state = Датчики костюма: {$mode}
 
 ## Components

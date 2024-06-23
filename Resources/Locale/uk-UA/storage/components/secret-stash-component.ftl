@@ -6,5 +6,5 @@ comp-secret-stash-action-hide-container-not-empty = Тут щось вже є?!
 comp-secret-stash-action-hide-item-too-big = { THE($item) } Занадто велике щоб поміститися у {$stash}!
 comp-secret-stash-action-get-item-found-something = Щось уже було в {$stash}!
 
-secret-stash-part-plant = Рослина
-secret-stash-part-toilet = Туалетний бачок
+secret-stash-part-plant = рослина
+secret-stash-part-toilet = туалетний бачок

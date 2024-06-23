@@ -8,24 +8,24 @@ ui-disposal-unit-label-status = Готово
 
 ui-disposal-unit-button-flush = Змити
 ui-disposal-unit-button-eject = Вийняти вміст
-ui-disposal-unit-button-power = Power
+ui-disposal-unit-button-power = Сила
 
-## Verbs
+## Дієслова
 disposal-flush-verb-get-data-text = Змити
 disposal-self-insert-verb-get-data-text = Стрибнути всередину
 disposal-eject-verb-get-data-text = Вийняти вміст
 
 ## No hands
-disposal-unit-no-hands = You don't have hands!
+disposal-unit-no-hands = У тебе немає рук!
 
-## missed
+## Промахнувся
 disposal-unit-thrown-missed = Промах!
 
 # state
 disposal-unit-state-Ready = Готово
 # Yes I want it to always say Pressurizing
-disposal-unit-state-Flushed = Pressurizing
-disposal-unit-state-Pressurizing = Pressurizing
+disposal-unit-state-Flushed = Нагнітання тиску
+disposal-unit-state-Pressurizing = Нагнітання тиску
 
-# putting people in
+# ♪ заштовхуючи людей всередину
 disposal-unit-being-inserted = {CAPITALIZE($user)} намагається засунути вас у мусорку!

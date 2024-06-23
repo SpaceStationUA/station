@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgePistol
-  name: cartridge (.35 auto)
+  name: "патрон (.35 auto)"
   parent: BaseCartridge
   abstract: true
   components:
@@ -20,7 +20,7 @@
 
 - type: entity
   id: CartridgePistol
-  name: cartridge (.35 auto)
+  name: "патрон (.35 auto)"
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -28,7 +28,7 @@
 
 - type: entity
   id: CartridgePistolPractice
-  name: cartridge (.35 auto practice)
+  name: "патрон (.35 auto practice)"
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -43,7 +43,7 @@
 
 - type: entity
   id: CartridgePistolRubber
-  name: cartridge (.35 auto rubber)
+  name: "патрон (.35 автогума)"
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -58,7 +58,7 @@
 
 - type: entity
   id: CartridgePistolIncendiary
-  name: cartridge (.35 auto incendiary)
+  name: "патрон (.35 автоматичний запалювальний)"
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -73,7 +73,7 @@
 
 - type: entity
   id: CartridgePistolUranium
-  name: cartridge (.35 auto uranium)
+  name: "патрон (.35 auto uranium)"
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo

@@ -1,32 +1,32 @@
-station-beacon-epistemics = Epistemics
-station-beacon-mystagogue = Mystagogue
+station-beacon-epistemics = Епістеміка
+station-beacon-mystagogue = Містифікатор
 
-station-beacon-logistics = Logistics
-station-beacon-logistics-reception = Logistics
-station-beacon-lo = LO
+station-beacon-logistics = Логістика
+station-beacon-logistics-reception = Логістика
+station-beacon-lo = ЛО
 
-station-beacon-conference-room = Conference Room
+station-beacon-conference-room = Конференц-зал
 
-station-beacon-virology = Virology
-station-beacon-metempsychosis = Metempsychosis
-station-beacon-exam = Exam
-station-beacon-med-outpost = Med Outpost
-station-beacon-psych = Psych
+station-beacon-virology = Вірусологія
+station-beacon-metempsychosis = Метемпсихоз
+station-beacon-exam = Іспит
+station-beacon-med-outpost = Мед Форпост
+station-beacon-psych = Псих
 
-station-beacon-glimmer-prober = Prober
-station-beacon-forensic-mantis = Mantis
+station-beacon-glimmer-prober = Зонд
+station-beacon-forensic-mantis = Богомол
 
-station-beacon-mailroom = Mail
+station-beacon-mailroom = Пошта
 
-station-beacon-engi-outpost = Engi Outpost
+station-beacon-engi-outpost = Застава Енгі
 
-station-beacon-janitor-office = Jani Office
-station-beacon-janitor-closet = Jani Closet
-station-beacon-reporter = Reporter
+station-beacon-janitor-office = Офіс Яні
+station-beacon-janitor-closet = Шафа Jani Closet
+station-beacon-reporter = Репортер
 
-station-beacon-camera-servers = Cameras
+station-beacon-camera-servers = Камери
 
-station-beacon-boxing-ring = Boxing
-station-beacon-park = Park
+station-beacon-boxing-ring = Бокс
+station-beacon-park = Парк
 
-station-beacon-corpsman = Corpsman
+station-beacon-corpsman = Санітар

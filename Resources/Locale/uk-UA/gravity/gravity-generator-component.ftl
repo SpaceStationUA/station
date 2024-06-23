@@ -2,27 +2,27 @@
 
 ## UI
 
-gravity-generator-window-title = Gravity Generator
+gravity-generator-window-title = Гравітаційний генератор
 
-## UI field names
+## Назви полів інтерфейсу
 
-gravity-generator-window-status = Status:
-gravity-generator-window-power = Power:
-gravity-generator-window-eta = ETA:
-gravity-generator-window-charge = Charge:
+gravity-generator-window-status = Статус:
+gravity-generator-window-power = Сила:
+gravity-generator-window-eta = ОРІЄНТОВНИЙ ЧАС ПРИБУТТЯ:
+gravity-generator-window-charge = Заряджай:
 
-## UI statuses
-gravity-generator-window-status-fully-charged = Fully Charged
-gravity-generator-window-status-off = Off
-gravity-generator-window-status-charging = Charging
-gravity-generator-window-status-discharging = Discharging
+## Статуси інтерфейсу
+gravity-generator-window-status-fully-charged = Повністю заряджений
+gravity-generator-window-status-off = Вимкнено
+gravity-generator-window-status-charging = Зарядка
+gravity-generator-window-status-discharging = Розрядка
 
-## UI Power Buttons
-gravity-generator-window-power-on = On
-gravity-generator-window-power-off = Off
+## Кнопки живлення інтерфейсу
+gravity-generator-window-power-on = На
+gravity-generator-window-power-off = Вимкнено
 gravity-generator-window-power-label = { $draw } / { $max } W
 
-## UI ETA label
+## UI ETA мітка
 
-gravity-generator-window-eta-none = N/A
+gravity-generator-window-eta-none = Н/Д
 gravity-generator-window-eta-value = { TOSTRING($left, "m\\:ss") }

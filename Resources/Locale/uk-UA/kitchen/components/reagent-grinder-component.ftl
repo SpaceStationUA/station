@@ -1,7 +1,7 @@
 ## UI
 
-reagent-grinder-bound-user-interface-instant-button = МИТТЄВЕ
-reagent-grinder-bound-user-interface-cook-time-label = ЧАС ГОТУВАННЯ
+reagent-grinder-bound-user-interface-instant-button = МИТЬ
+reagent-grinder-bound-user-interface-cook-time-label = ЧАС ПРИГОТУВАННЯ
 reagent-grinder-component-cannot-put-entity-message = Ви не можете покласти це в подрібнювач реагентів!
 
 reagent-grinder-component-upgrade-work-time = Work time

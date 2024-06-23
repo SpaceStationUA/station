@@ -14,13 +14,13 @@ fax-machine-ui-paper-button-office = Офісний папір
 fax-machine-ui-copy-button = Зробити копію
 fax-machine-ui-send-button = Надіслати
 fax-machine-ui-refresh-button = Перезавантажити
-fax-machine-ui-no-peers = No Peers
+fax-machine-ui-no-peers = Немає рівних
 fax-machine-ui-to = До:
 fax-machine-ui-from = Від:
 fax-machine-ui-paper = Папірець:
 fax-machine-ui-paper-inserted = Папірець всередині
 fax-machine-ui-paper-not-inserted = нічого всередині
 
-fax-machine-chat-notify = Отримано нове факсове повідомлення від "{$fax}"
+fax-machine-chat-notify = Отримано нове факсове повідомлення від "{$fax}
 
-fax-machine-printed-paper-name = Роздрукований папірець
+fax-machine-printed-paper-name = роздрукований папірець

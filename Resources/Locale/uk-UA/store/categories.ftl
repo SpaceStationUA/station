@@ -1,6 +1,6 @@
 ﻿# Uplink
-store-category-debug = debug category
-store-category-debug2 = debug category 2
+store-category-debug = категорія налагодження
+store-category-debug2 = налагодження категорії 2
 store-category-weapons = Зброя
 store-category-ammo = Патрони
 store-category-explosives = Вибухівка

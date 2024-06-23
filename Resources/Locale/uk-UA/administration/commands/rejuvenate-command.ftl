@@ -1,5 +1,5 @@
-rejuvenate-command-description = Fully heals a mob.
-rejuvenate-command-help-text = Usage: rejuvenate <mobUid_1> <mobUid_2> ... <mobUid_n>
-                               Attempts to heal the user's mob if no arguments are provided.
-rejuvenate-command-self-heal-message = Healing the user's mob since no arguments were provided.
-rejuvenate-command-no-entity-attached-message = There's no entity attached to the user.
+rejuvenate-command-description = Повністю зцілює мобів.
+rejuvenate-command-help-text = Використання: омолодити <mobUid_1> <mobUid_2> ... <mobUid_n>
+                               Спроба зцілити моба користувача, якщо не надано жодних аргументів.
+rejuvenate-command-self-heal-message = Зцілення мобу користувача, оскільки не було надано жодних аргументів.
+rejuvenate-command-no-entity-attached-message = До користувача не прив'язано жодної сутності.

@@ -10,7 +10,7 @@ flavor-profile-unknown = Смакує невимовно.
 
 flavor-base-savory = пахучий
 flavor-base-sweet = солодко
-flavor-base-salty = солоно...фу,блін..
+flavor-base-salty = солоно...фу,блін.
 flavor-base-sour = кисле
 flavor-base-bitter = гірко
 flavor-base-spicy = гостро
@@ -44,29 +44,29 @@ flavor-base-sharp = гостро
 flavor-base-syrupy = сиропоподібно
 flavor-base-spaceshroom = загадково
 flavor-base-clean = чисто
-flavor-base-alkaline = alkaline
-flavor-base-holy = holy
-flavor-base-horrible = horrible
+flavor-base-alkaline = лужний
+flavor-base-holy = святий
+flavor-base-horrible = жахливо
 # lmao
 flavor-base-terrible = жахливо
-flavor-base-mindful = mindful
+flavor-base-mindful = уважним.
 
-# Complex flavors. Put a flavor here when you want something that's more
-# specific.
+# Складні ароматизатори. Додайте сюди ароматизатор, якщо хочете чогось більш
+# специфічного.
 
 flavor-complex-nothing = як ніщо
 flavor-complex-honey = як солодкий мед
 
 # Condiments
 
-flavor-complex-ketchunaise = like tomatoes and mayonnaise
-flavor-complex-mayonnaise = like mayonnaise
-flavor-complex-mustard = like mustard
+flavor-complex-ketchunaise = як помідори та майонез
+flavor-complex-mayonnaise = як майонез
+flavor-complex-mustard = як гірчиця.
 
 
-# Food-specific flavors.
+# Харчові ароматизатори.
 
-## Food chemicals. In case you get something that has this inside.
+## Харчові хімікати. На випадок, якщо ви з'їсте щось, що має це всередині.
 flavor-complex-nutriment = як харчі
 flavor-complex-vitamin = як вітаміни
 flavor-complex-protein = як протеїни 
@@ -105,13 +105,13 @@ flavor-complex-eggplant = як баклажан
 flavor-complex-carrot = як морква
 flavor-complex-cabbage = як капуста
 flavor-complex-potatoes = картопляно
-flavor-complex-pumpkin = як гарбузи
+flavor-complex-pumpkin = як гарбуз
 flavor-complex-mushroom = як гриби
 flavor-complex-tomato = помідорово
 flavor-complex-corn = кукурудзяно
 flavor-complex-banana = наче банани
 flavor-complex-apple = яблучно
-flavor-complex-cotton = like cottons
+flavor-complex-cotton = як бавовна
 flavor-complex-bungo = як бунго
 flavor-complex-raisins = як сушений виноград
 flavor-complex-orange = апельсиново
@@ -150,7 +150,7 @@ flavor-complex-gunpowder = як порох
 flavor-complex-validhunting = як валідхантер
 flavor-complex-people = як людські почки
 flavor-complex-cat = як кіт
-flavor-complex-homerun = like a homerun
+flavor-complex-homerun = як хоум-ран
 flavor-complex-grass = як трава
 flavor-complex-flare = як димлячий факел
 flavor-complex-cobwebs = як павутиння
@@ -164,14 +164,14 @@ flavor-complex-plastic = як пластик
 flavor-complex-glue = як клей
 flavor-complex-spaceshroom-cooked = як космічний грибочки
 flavor-complex-lost-friendship = як втрачена дружба
-flavor-complex-light = like a light gone out
-flavor-complex-profits = like profits
-flavor-complex-fishops = like the dreaded fishops
-flavor-complex-violets = like violets
+flavor-complex-light = наче світло згасло
+flavor-complex-profits = наприклад, прибутки
+flavor-complex-fishops = як жахливі фішопи
+flavor-complex-violets = як фіалки.
 
-# Drink-specific flavors.
+# Аромати для напоїв.
 
-## Generic alcohol/soda taste. This should be replaced with an actual flavor profile.
+## Загальний смак алкоголю/соди. Він повинен бути замінений на справжній профіль смаку.
 flavor-complex-alcohol = як майбутній перегар
 flavor-complex-soda = наче газики уже в твоїй голові
 flavor-complex-juice = як вижатий фрукт
@@ -180,22 +180,22 @@ flavor-complex-rocksandstones = як каміння...навіщо?!
 ## Basic drinks
 flavor-complex-water = водянисто
 flavor-complex-beer = наче бармен насцяв в пляшку
-flavor-complex-cognac = like dry spicy alcohol
-flavor-complex-mead = like fermented honey
-flavor-complex-vermouth = like herbal grape rinds
+flavor-complex-cognac = як сухий пряний алкоголь
+flavor-complex-mead = як перебродивший мед
+flavor-complex-vermouth = як трав'яні виноградні шкірки
 flavor-complex-ale = хлібно
-flavor-complex-tonic-water = like angry water
+flavor-complex-tonic-water = як розлючена вода
 flavor-complex-cola = як кола
-flavor-complex-energy-drink = like battery acid
-flavor-complex-dr-gibb = like malpractice
-flavor-complex-grape-soda = like grape soda
-flavor-complex-lemon-lime-soda = like lemon-lime soda
-flavor-complex-pwr-game-soda = like gaming
-flavor-complex-root-beer-soda = like root beer
-flavor-complex-citrus-soda = like citrus soda
-flavor-complex-space-up-soda = like space
-flavor-complex-starkist-soda = like orange soda
-flavor-complex-fourteen-loko-soda = like sweet malt
+flavor-complex-energy-drink = як кислота в акумуляторі
+flavor-complex-dr-gibb = наприклад, недбалість
+flavor-complex-grape-soda = як виноградну газовану воду
+flavor-complex-lemon-lime-soda = як лимонно-лаймова газована вода
+flavor-complex-pwr-game-soda = як в іграх
+flavor-complex-root-beer-soda = як кореневе пиво
+flavor-complex-citrus-soda = як цитрусова сода
+flavor-complex-space-up-soda = як космос
+flavor-complex-starkist-soda = як апельсинова газована вода
+flavor-complex-fourteen-loko-soda = як солодкий солод
 flavor-complex-vodka = як зброджений зерно
 flavor-complex-tequila = як зброджений мексиканець
 flavor-complex-sake = як солодкий алкогольний рис
@@ -209,22 +209,22 @@ flavor-complex-coffee = як кава
 flavor-complex-milk = як молоко
 flavor-complex-tea = як чай
 flavor-complex-ice = як лід
-flavor-complex-mopwata = like stagnant, dirty water
+flavor-complex-mopwata = як застояна, брудна вода
 
-## Cocktails
+## Коктейлі
 flavor-complex-long-island = як повна брехня,що це чай
 flavor-complex-three-mile-island = як чай,відварений у радіоактивних відходах
 flavor-complex-whiskey-cola = як знущання над 150 річним віскі
-flavor-complex-root-beer-float = like ice cream in root beer
-flavor-complex-black-russian = like alcoholic coffee
-flavor-complex-white-russian = like alcoholic sweetened coffee
-flavor-complex-moonshine = like pure alcohol
+flavor-complex-root-beer-float = як морозиво в рутбірі
+flavor-complex-black-russian = як алкогольна кава
+flavor-complex-white-russian = як алкогольна підсолоджена кава
+flavor-complex-moonshine = як чистий спирт
 flavor-complex-singulo = як ожиріння 3 стадії
 flavor-complex-syndie-bomb = як бабаха 
 flavor-complex-tequila-sunrise = як 10 годин блекауту взимку
 flavor-complex-irish-coffee = як призив до революції
 flavor-complex-iced-beer = як заморожена сеча бармена
-flavor-complex-gargle-blaster = наче ти готовий вступати у третю мотопіхотну...
+flavor-complex-gargle-blaster = наче ти готовий вступати у третю мотопіхотну..
 flavor-complex-bloody-mary = наче таємний ритуал на крові незайманої курки
 flavor-complex-beepsky = наче ви готові отримувати станбатоном по голові
 flavor-complex-banana-honk = як благословення Хонкоматері
@@ -233,7 +233,7 @@ flavor-complex-atomic-cola = як термоядерний двигун без �
 flavor-complex-cuba-libre = як збройний переворот на Кубі
 flavor-complex-gin-tonic = як дешевий напій з АТБ
 flavor-complex-screwdriver = як відпочинок в гаражному кооперативі
-flavor-complex-irish-car-bomb = like a spiked cola float
+flavor-complex-irish-car-bomb = як шипуча кола
 flavor-complex-themartinez = як пригоди
 flavor-complex-cogchamp = як заступництво Ратвара
 flavor-complex-white-gilgamesh = як прокляття шумерського царя
@@ -249,7 +249,7 @@ flavor-complex-medicine = наче хімік спеціально зробив 
 
 flavor-complex-carpet = як шматок хутра
 flavor-complex-bee = необджілковно
-flavor-complex-sax = як джазмени непомнітного бару..
+flavor-complex-sax = як джазмени непомнітного бару.
 flavor-complex-bottledlightning = як блискавка в банці
 flavor-complex-punishment = як покарання
-flavor-weh = like weh
+flavor-weh = як, наприклад

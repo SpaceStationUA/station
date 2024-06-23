@@ -1,14 +1,14 @@
-ent-BaseThruster = thruster
-    .desc = A thruster that allows a shuttle to move.
+ent-BaseThruster = рушій
+    .desc = Рушій, який дозволяє шатлу рухатися.
 
 ent-Thruster = { ent-BaseThruster }
     .desc = { ent-BaseThruster.desc }
 
-ent-DebugThruster = debug thruster
-    .desc = It goes nyooooooom. It doesn't need power nor space.
+ent-DebugThruster = відладочний рушій
+    .desc = Він рухається "nyooooooom". Йому не потрібна ні енергія, ні простір.
 
-ent-Gyroscope = gyroscope
-    .desc = Increases the shuttle's potential angular rotation.
+ent-Gyroscope = гіроскоп
+    .desc = Збільшує потенційну кутову швидкість обертання шатла.
 
-ent-DebugGyroscope = debug gyroscope
+ent-DebugGyroscope = відладочний гіроскоп
     .desc = { ent-Gyroscope.desc }

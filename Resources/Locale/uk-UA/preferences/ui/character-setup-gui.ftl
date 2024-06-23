@@ -1,4 +1,4 @@
-character-setup-gui-character-setup-label = Character setup
+character-setup-gui-character-setup-label = Налаштування символів
 character-setup-gui-character-setup-stats-button = Стати
 character-setup-gui-character-setup-rules-button = Правила
 character-setup-gui-character-setup-save-button = Зберегти

@@ -1,12 +1,12 @@
-flatpack-unpack-no-room = No room to unpack!
-flatpack-examine = Use a [color=yellow]multitool[/color] to unpack this.
-flatpack-entity-name = {$name} flatpack
-flatpack-entity-description = A flatpack used for constructing {INDEFINITE($name)} {$name}.
+flatpack-unpack-no-room = Немає місця для розпакування!
+flatpack-examine = Розпакуйте його за допомогою [color=yellow]мультитула[/color].
+flatpack-entity-name = {$name} плоский пакет
+flatpack-entity-description = Флетпак, який використовується для побудови {INDEFINITE($name)} {$name}.
 
-flatpacker-item-slot-name = Machine board slot
-flatpacker-ui-title = Flatpacker 1001
-flatpacker-ui-materials-label = Materials
-flatpacker-ui-cost-label = Packing Cost
-flatpacker-ui-no-board-label = No board present!
-flatpacker-ui-insert-board = Insert a board to begin.
-flatpacker-ui-pack-button = Pack
+flatpacker-item-slot-name = Гніздо на платі машини
+flatpacker-ui-title = Флетпакер 1001
+flatpacker-ui-materials-label = Матеріали
+flatpacker-ui-cost-label = Вартість упаковки
+flatpacker-ui-no-board-label = Дошка відсутня!
+flatpacker-ui-insert-board = Для початку вставте дошку.
+flatpacker-ui-pack-button = Пакуйте

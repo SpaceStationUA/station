@@ -23,17 +23,17 @@ portable-generator-ui-eject = Вийняти
 portable-generator-ui-eta = (~{ $minutes } хв)
 portable-generator-ui-unanchored = Відкручено
 portable-generator-ui-current-output = Поточний вихід: {$voltage}
-portable-generator-ui-network-stats = Network:
+portable-generator-ui-network-stats = Мережа:
 portable-generator-ui-network-stats-value = { POWERWATTS($supply) } / { POWERWATTS($load) }
-portable-generator-ui-network-stats-not-connected = Not connected
+portable-generator-ui-network-stats-not-connected = Не підключено
 
 power-switchable-generator-examine = Вихід встановлено на {$voltage}.
 power-switchable-generator-switched = Вихід змінено на {$voltage}!
 
 power-switchable-voltage = { $voltage ->
-    [HV] [color=orange]ВН[/color]
-    [MV] [color=yellow]СН[/color]
-    *[LV] [color=green]НН[/color]
+    [HV] [color=orange]Висока напруга[/color]
+    [MV] [color=yellow]Середня напруга[/color]
+    *[LV] [color=green]Низька напруга[/color]
 }
 power-switchable-switch-voltage = Перемкнути на {$voltage}
 
