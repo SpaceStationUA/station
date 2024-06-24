@@ -22,22 +22,18 @@ traitor-death-match-end-round-description-entry = {$originalName} має {$tcBal
 ## TraitorRole
 
 # TraitorRole
-traitor-role-greeting =
-    Ви агент синдикату.
+traitor-role-greeting = Ви агент синдикату.
     Ваші цілі та кодові слова вказані у меню персонажа.
     Використовуйте висхідну лінію, завантажену у ваш КПК, щоб придбати інструменти, які можуть знадобитися для цієї місії.
     Смерть Нанотрасену!
-traitor-role-codewords =
-    Кодові слова:
+traitor-role-codewords = Кодові слова:
     {$codewords}.
     Кодові слова можна використовувати у звичайних розмовах, щоб інші агенти мали змогу вас впізнати.
     Прислухайтеся до них і тримайте в таємниці.
-traitor-role-uplink-code =
-    Встановіть мелодію дзвінка вашого КПК на {$code}, щоб заблокувати або розблокувати ваш аплінк.
+traitor-role-uplink-code = Встановіть мелодію дзвінка вашого КПК на {$code}, щоб заблокувати або розблокувати ваш аплінк.
     Не забудьте заблокувати ваш аплінк, інакше екіпаж станції легко може його виявити!
 
 # don't need all the flavour text for character menu
-traitor-role-codewords-short =
-    Кодові слова:
+traitor-role-codewords-short = Кодові слова:
     {$codewords}.
 traitor-role-uplink-code-short = Ваш аплінк код {$code}. Встановіть його як сигнал дзвінка КПК для доступу до аплінку.

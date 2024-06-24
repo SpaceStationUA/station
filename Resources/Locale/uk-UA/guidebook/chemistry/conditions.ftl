@@ -7,44 +7,38 @@
                  }
     }
 
-reagent-effect-condition-guidebook-reagent-threshold =
-    { $max ->
-        [2147483648] there's at least {NATURALFIXED($min, 2)}u of {$reagent}
+reagent-effect-condition-guidebook-reagent-threshold = { $max ->
+        [2147483648] є щонайменше {NATURALFIXED($min, 2)}u {$reagent}.
         *[other] { $min ->
-                    [0] there's at most {NATURALFIXED($max, 2)}u of {$reagent}
-                    *[other] there's between {NATURALFIXED($min, 2)}u and {NATURALFIXED($max, 2)}u of {$reagent}
+                    [0] існує щонайбільше {NATURALFIXED($max, 2)}u {$reagent}
+                    *[other] між {NATURALFIXED($min, 2)}u та {NATURALFIXED($max, 2)}u {$reagent}
                  }
     }
 
-reagent-effect-condition-guidebook-mob-state-condition =
-    the mob is { $state }
+reagent-effect-condition-guidebook-mob-state-condition = моб - це { $state }
 
-reagent-effect-condition-guidebook-solution-temperature =
-    the solution's temperature is { $max ->
-            [2147483648] at least {NATURALFIXED($min, 2)}k
+reagent-effect-condition-guidebook-solution-temperature = температура розчину дорівнює { $max ->
+            [2147483648] не менше {NATURALFIXED($min, 2)}k
             *[other] { $min ->
-                        [0] at most {NATURALFIXED($max, 2)}k
-                        *[other] between {NATURALFIXED($min, 2)}k and {NATURALFIXED($max, 2)}k
+                        [0] не більше {NATURALFIXED($max, 2)}k
+                        *[other] між {NATURALFIXED($min, 2)}k та {NATURALFIXED($max, 2)}k
                      }
     }
 
-reagent-effect-condition-guidebook-body-temperature =
-    the body's temperature is { $max ->
-            [2147483648] at least {NATURALFIXED($min, 2)}k
+reagent-effect-condition-guidebook-body-temperature = температура тіла становить { $max ->
+            [2147483648] не менше {NATURALFIXED($min, 2)}k
             *[other] { $min ->
-                        [0] at most {NATURALFIXED($max, 2)}k
-                        *[other] between {NATURALFIXED($min, 2)}k and {NATURALFIXED($max, 2)}k
+                        [0] не більше {NATURALFIXED($max, 2)}k
+                        *[other] між {NATURALFIXED($min, 2)}k та {NATURALFIXED($max, 2)}k
                      }
     }
 
-reagent-effect-condition-guidebook-organ-type =
-    the metabolizing organ { $shouldhave ->
+reagent-effect-condition-guidebook-organ-type = орган метаболізму { $shouldhave ->
                                 [true] is
                                 *[false] is not
-                           } {INDEFINITE($name)} {$name} organ
+                           } {INDEFINITE($name)} {$name} орган
 
-reagent-effect-condition-guidebook-has-tag =
-    the target { $invert ->
-                 [true] does not have
-                 *[false] has
-                } the tag {$tag}
+reagent-effect-condition-guidebook-has-tag = ціль { $invert ->
+                 [true] не має
+                 *[false] має
+                } тег {$tag}

@@ -9,10 +9,10 @@ deltav-ghost-role-information-softantag-rules = Ви маєте право на�
                                                 Екіпаж може вбити вас без попередження.
 
 # Правило порятунку Дельти V
-deltav-ghost-role-information-salvageantag-rules =  You are a salvage mob.
-                                                    You are allowed to attack salvagers without provocation. DO NOT GIB THEIR CORPSES!
-                                                    You are allowed to attack the salvage shuttle.
-                                                    You are NOT allowed to go to the station. If the salvagers go to the station, you can't follow them.
+deltav-ghost-role-information-salvageantag-rules = Ви - натовп уламкових мобів.
+                                                    Вам дозволено нападати на рятівників без провокацій. НЕ ДАРУЙТЕ ЇХНІ ТРУПИ!
+                                                    Вам дозволено атакувати рятувальний шатл.
+                                                    Вам заборонено заходити на станцію. Якщо рятувальники йдуть на станцію, ви не можете йти за ними.
 
 ghost-role-information-mouse-name = Миша
 ghost-role-information-mouse-description = Голодна пустотлива миша.
@@ -114,7 +114,7 @@ ghost-role-information-salvage-kangaroo-name = Космічний кенгуру
 ghost-role-information-salvage-kangaroo-description = Захистіть здобич всередині врятованого судна!
 
 ghost-role-information-space-spider-name = Космічний павук
-ghost-role-information-space-spider-description =  Космічні павуки так само агресивно, як і звичайні павуки.
+ghost-role-information-space-spider-description = Космічні павуки так само агресивно, як і звичайні павуки.
 
 ghost-role-information-salvage-spider-name = Космічний павук на врятованому кораблі
 ghost-role-information-salvage-spider-description = Захистіть здобич всередині врятованого судна!

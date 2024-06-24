@@ -1,9 +1,8 @@
 thief-backpack-window-title = набір інструментів злодія
 
-thief-backpack-window-description =
-    This toolbox is filled with unspecified contents.
-    Now you need to remember what you put in it.
-    Choose 2 different sets from the list.
+thief-backpack-window-description = Цей ящик наповнений невизначеним вмістом.
+    Тепер вам потрібно згадати, що ви туди поклали.
+    Виберіть 2 різні набори зі списку.
 
 thief-backpack-window-selected = Вибрані набори: ({$selectedCount}/{$maxCount})
 
@@ -14,50 +13,43 @@ thief-backpack-button-deselect = Виберіть [X].
 # Набори
 
 thief-backpack-category-chameleon-name = комплект хамелеона
-thief-backpack-category-chameleon-description =
-    Includes a full set of clothing that contain
+thief-backpack-category-chameleon-description = Includes a full set of clothing that contain
     chameleon technology, allowing you to disguise
     as pretty much anything on the station.
 
 thief-backpack-category-tools-name = набір мисливця на ведмедів
-thief-backpack-category-tools-description =
-    A set of tools for roughing up doors, walls, windows,
-    and anything else that for whatever reason doesn't
-    want to let you in where you need to go.
-    Includes two C4s, a multitool, jaws of life,
-    a pair of advanced welder meson glasses and some insulated gloves.
+thief-backpack-category-tools-description = Набір інструментів для чорнової обробки дверей, стін, вікон,
+    і всього іншого, що з якихось причин
+    не хоче впускати вас туди, куди вам потрібно.
+    Включає два C4, мультитул, рятувальні лещата,
+    пара сучасних мезонних окулярів для зварювальника та кілька ізольованих рукавичок.
 
 thief-backpack-category-chemistry-name = хімічний набір
-thief-backpack-category-chemistry-description =
-    A set for those who love to improve their body.
-    It includes a storage implanter,
-    a DNA scrambler implanter,
-    a set of chemicals for a rainy day,
-    and omega soap.
+thief-backpack-category-chemistry-description = Набір для тих, хто любить вдосконалювати своє тіло.
+    До нього входить накопичувальний імплантат,
+    імплантант для скремблерів ДНК,
+    набір хімікатів на чорний день,
+    і омега-мило.
 
 thief-backpack-category-syndie-name = синдикатський набір
-thief-backpack-category-syndie-description =
-    A set of items from a syndicate agent you've robbed
-    in the past. Includes an Agent ID card, Emag, a syndicate pAI,
-    and some strange red crystals.
+thief-backpack-category-syndie-description = Набір речей від агента синдикату, якого ви пограбували
+    в минулому. Включає посвідчення агента, Емаг, синдикатський PAI,
+    і якісь дивні червоні кристали.
 
 thief-backpack-category-sleeper-name = набір лунатика
-thief-backpack-category-sleeper-description =
-    A set for those who like to sleep in,
-    or for everyone around you to sleep.
-    Includes a set of nocturine vials, a hypopen and
-    a tank of sleeping gas.
+thief-backpack-category-sleeper-description = Комплект для тих, хто любить поспати,
+    або для тих, хто хоче, щоб всі навколо спали.
+    Включає в себе набір ампул з ноктурином, гіпопен та
+    балончик зі снодійним газом.
 
 thief-backpack-category-communicator-name = комплект комунікатора
-thief-backpack-category-communicator-description =
-    A communication enthusiast's kit. Includes a master key
-    for all station channels, a cybersun pen, a portable
-    crew monitor, a voice chameleon mask and lots of money for business deals.
+thief-backpack-category-communicator-description = Набір для ентузіастів зв'язку. Включає майстер-ключ
+    для всіх каналів станції, ручку-кібер-сонце, портативний
+    монітор екіпажу, голосову маску-хамелеон і багато грошей для бізнес-угод.
 
 thief-backpack-category-smuggler-name = набір контрабандиста
-thief-backpack-category-smuggler-description =
-    A kit for those who like to have big pockets.
-    Includes a fulton beacon, ten fultons, 3 smoke grenades
-    and an invisible crate. You can't move in them,
-    but you can quickly hide or carry valuable loot.
-    This kit also has a cool void cloak to go along with it.
+thief-backpack-category-smuggler-description = Набір для тих, хто любить мати великі кишені.
+    Включає в себе фултон-маяк, десять фултонів, 3 димові шашки
+    і невидимий ящик. У ньому не можна пересуватися,
+    але в них можна швидко сховатися або перенести цінну здобич.
+    До цього набору також входить крутий плащ порожнечі.

@@ -32,8 +32,7 @@ cargo-console-unfulfilled = Невистачає місця для викона�
 cargo-console-trade-station = Відправити до {$destination}
 
 cargo-console-paper-print-name = Замовлення #{$orderNumber}
-cargo-console-paper-print-text =
-    Замовлення: #{$orderNumber}
+cargo-console-paper-print-text = Замовлення: #{$orderNumber}
     Пункт: {$itemName}
     На замовлення: {$requester}
     Причина: {$reason}

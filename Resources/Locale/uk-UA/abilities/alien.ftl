@@ -51,7 +51,7 @@ alien-acid-name = Корозійна кислота
 alien-acid-desc = Кислота, що роз'їдає стіни та живі істоти.
 
 alien-node-name = Бур'яновий вузол
-alien-node-desc =  It's strangely glowing
+alien-node-desc = Воно дивно світиться
 
 alien-weed-name = Бур'ян
 alien-weed-desc = ""

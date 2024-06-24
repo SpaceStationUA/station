@@ -1,25 +1,21 @@
-reagent-effect-guidebook-change-glimmer-reaction-effect =
-    { $chance ->
-        [1] Modifies
-        *[other] modify
-    } the glimmer count by {$count} points
+reagent-effect-guidebook-change-glimmer-reaction-effect = { $chance ->
+        [1] Змінює
+        *[other] змінює
+    } кількість мерехтінь на {$count} пунктів
 
-reagent-effect-guidebook-chem-remove-psionic =
-    { $chance ->
-        [1] Removes
-        *[other] remove
-    } psionic powers
+reagent-effect-guidebook-chem-remove-psionic = { $chance ->
+        [1] видаляє
+        *[other] видаляє
+    } псіонічні здібності
 
-reagent-effect-guidebook-chem-reroll-psionic =
-    { $chance ->
-        [1] Allows
-        *[other] allow
-    } a chance to get a different psionic power
+reagent-effect-guidebook-chem-reroll-psionic = { $chance ->
+        [1] Дозволяє
+        *[other] дозволяє
+    } шанс отримати іншу псионічну силу
 
-## Disease System support
+## Підтримка системи хвороб
 
-reagent-effect-guidebook-chem-miasma-pool =
-    { $chance ->
-        [1] Causes
-        *[other] cause
-    } diseases
+reagent-effect-guidebook-chem-miasma-pool = { $chance ->
+        [1] Причини
+        *[other] причина
+    } хвороби

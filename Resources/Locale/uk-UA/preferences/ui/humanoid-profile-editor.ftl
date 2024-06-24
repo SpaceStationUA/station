@@ -55,10 +55,9 @@ humanoid-profile-editor-loadouts-uncategorized-tab = Без категорії
 humanoid-profile-editor-loadouts-no-loadouts = Нічого не знайдено
 humanoid-profile-editor-loadouts-points-label = У вас {$points}/{$max} очок
 humanoid-profile-editor-loadouts-show-unusable-button = Показати недоступне
-humanoid-profile-editor-loadouts-show-unusable-button-tooltip =
-    When enabled, loadouts that your current character setup cannot use will be shown highlighted in red.
-    You will still not be able to use the invalid loadouts unless your character setup changes to fit the requirements.
-    This may be useful if you like switching between multiple jobs and don't want to have to reselect your loadout every time.
+humanoid-profile-editor-loadouts-show-unusable-button-tooltip = Якщо увімкнено, розкладки, які не можуть бути використані у вашій поточній гарнітурі символів, будуть виділені червоним кольором.
+    Ви все одно не зможете використовувати недійсні розкладки, доки не зміните розкладку символів відповідно до вимог.
+    Це може бути корисно, якщо ви любите перемикатися між кількома завданнями і не хочете повторно вибирати розкладку щоразу, коли
 humanoid-profile-editor-markings-tab = Маркування
 humanoid-profile-editor-flavortext-tab = Опис
 humanoid-profile-editor-loadouts-whitelist = Вайтліст:

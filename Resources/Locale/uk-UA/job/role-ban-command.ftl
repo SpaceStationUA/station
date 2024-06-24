@@ -46,7 +46,7 @@ cmd-roleban-existing = {$target} вже має бан ролі {$role}.
 cmd-roleban-success = Видано роль бан {$target} ролі {$role} через причину {$reason} {$length}.
 
 cmd-roleban-inf = назавжди
-cmd-roleban-until =  через {$expires}
+cmd-roleban-until = через {$expires}
 
 # Department bans
 cmd-departmentban-desc = Забороняє гравця виконувати ролі, що входять до складу відділу

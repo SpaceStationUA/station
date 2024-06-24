@@ -1,5 +1,5 @@
 loadout-description-LoadoutShoesBlack = Заходьте в тінь у цих елегантних і стильних чорних туфлях, які ідеально підійдуть ніндзя або будь-кому, хто прагне справити загадкове враження.
-loadout-description-LoadoutShoesBlue =  From zero-gravity dance floors to orbital adventures, these kicks are ready to make your journey as vibrant as the cosmos.
+loadout-description-LoadoutShoesBlue = Від танцполів у невагомості до орбітальних пригод - ці кросівки готові зробити вашу подорож такою ж яскравою, як і космос.
 loadout-description-LoadoutShoesBrown = Класичні та надійні, ці коричневі туфлі стануть вашим надійним супутником у будь-якій пригоді.
 loadout-description-LoadoutShoesGreen = Пориньте в сутність природи з цими зеленими туфлями. Взуйте їх, і нехай світ стане вашим пишним і яскравим ігровим майданчиком.
 loadout-description-LoadoutShoesOrange = Приготуйтеся до високооктанових гострих відчуттів на космічній станції в цих яскраво-помаранчевих туфлях.
