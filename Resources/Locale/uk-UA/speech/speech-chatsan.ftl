@@ -4,8 +4,8 @@ chatsan-replacement-1 = привіт
 chatsan-word-2 = пж
 chatsan-replacement-2 = будь ласка
 
-chatsan-word-3 = шзх
-chatsan-replacement-3 = що за фігня
+chatsan-word-3 = хз
+chatsan-replacement-3 = не знаю
 
 chatsan-word-4 = шзнх
 chatsan-replacement-4 = що за нафіг
@@ -84,36 +84,36 @@ chatsan-replacement-30 = дупа
 chatsan-word-31 = пизд
 chatsan-replacement-31 = дупа
 
-chatsan-word-32 = я мушу йти
-chatsan-replacement-32 = мушу йти
+chatsan-word-32 = підор
+chatsan-replacement-32 = мудак
 
-chatsan-word-33 = успіху
-chatsan-replacement-33 = щасти тобі
+chatsan-word-33 = гомік
+chatsan-replacement-33 = мудак
 
-chatsan-word-34 = як ти
-chatsan-replacement-34 = а як щодо тебе?
+chatsan-word-34 = гандон
+chatsan-replacement-34 = мудак
 
-chatsan-word-35 = хм
-chatsan-replacement-35 = подзвони мені
+chatsan-word-35 = хуйня
+chatsan-replacement-35 = фігня
 
-chatsan-word-36 = пішов геть
-chatsan-replacement-36 = забирайся звідси!
+chatsan-word-36 = хуй
+chatsan-replacement-36 = фігня
 
-chatsan-word-37 = що маєш на увазі
-chatsan-replacement-37 = що ти маєш на увазі?
+chatsan-word-37 = нахуй
+chatsan-replacement-37 = нафіг
 
-chatsan-word-38 = матеріал
-chatsan-replacement-38 = виродок!
+chatsan-word-38 = на хуй
+chatsan-replacement-38 = нафіг
 
-chatsan-word-39 = і т.д
-chatsan-word-40 = і т.д.
-chatsan-replacement-etcetera = і так далі
+chatsan-word-39 = хєр
+chatsan-word-40 = хєрня
+chatsan-replacement-etcetera = фігня
 
-chatsan-word-41 = що робиш
-chatsan-replacement-41 = що ти робиш?
+chatsan-word-41 = дебіл
+chatsan-replacement-41 = дурненький
 
-chatsan-word-42 = звичайно
-chatsan-replacement-42 = звісно
+chatsan-word-42 = даун
+chatsan-replacement-42 = дурненький
 
-chatsan-word-43 = я
-chatsan-replacement-43 = напевно
+chatsan-word-43 = тормоз
+chatsan-replacement-43 = з'їж снікерс
