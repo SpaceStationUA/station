@@ -10,7 +10,7 @@ comp-climbable-verb-climb = Сховище
 comp-climbable-user-climbs = Ви стрибаєте на { THE($climbable) }!
 
 # Показується іншим, коли $user залазить на $climbable
-comp-climbable-user-climbs-other  = { CAPITALIZE(THE($user)) } jumps onto { THE($climbable) }!
+comp-climbable-user-climbs-other = { CAPITALIZE(THE($user)) } jumps onto { THE($climbable) }!
 
 # Shown to you when your character forces someone to climb on $climbable
 comp-climbable-user-climbs-force = Ви примушуєте { THE($moved-user) } до { THE($climbable) }!
