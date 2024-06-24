@@ -1,6 +1,6 @@
 - type: stack
   id: Ointment
-  name: "мазь"
+  name: ointment
   icon: { sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: ointment }
   spawn: Ointment
   maxCount: 10
@@ -8,7 +8,7 @@
 
 - type: stack
   id: AloeCream
-  name: "крем з алое"
+  name: aloe cream
   icon: { sprite: "/Textures/Objects/Specific/Hydroponics/aloe.rsi", state: cream }
   spawn: AloeCream
   maxCount: 10

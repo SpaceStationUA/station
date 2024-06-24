@@ -1,22 +1,22 @@
 - type: construction
   id: ClosetSteel
-  name: "шафа"
+  name: closet
   graph: ClosetSteel
   startNode: start
   targetNode: done
   category: construction-category-storage
-  description: "Високий сталевий ящик, який неможливо замкнути."
+  description: A tall steel box that cannot be locked.
   icon: { sprite: Structures/Storage/closet.rsi, state: generic_icon }
   objectType: Structure
 
 - type: construction
   id: ClosetSteelSecure
-  name: "безпечна шафа"
+  name: secure closet
   graph: ClosetSteelSecure
   startNode: start
   targetNode: done
   category: construction-category-storage
-  description: "Високий сталевий ящик, який можна замкнути."
+  description: A tall steel box that can be locked.
   icon: { sprite: Structures/Storage/closet.rsi, state: secure_icon }
   objectType: Structure
 

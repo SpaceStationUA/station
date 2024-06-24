@@ -3,7 +3,7 @@
 - type: entity
   id: BasePart
   parent: BaseItem
-  name: "частина тіла"
+  name: "body part"
   abstract: true
   components:
   - type: Damageable
@@ -22,7 +22,7 @@
 
 - type: entity
   id: BaseTorso
-  name: "тулуб"
+  name: "torso"
   parent: BasePart
   abstract: true
   components:
@@ -31,7 +31,7 @@
 
 - type: entity
   id: BaseHead
-  name: "голова"
+  name: "head"
   parent: BasePart
   abstract: true
   components:
@@ -46,7 +46,7 @@
 
 - type: entity
   id: BaseLeftArm
-  name: "ліва рука"
+  name: "left arm"
   parent: BasePart
   abstract: true
   components:
@@ -56,7 +56,7 @@
 
 - type: entity
   id: BaseRightArm
-  name: "права рука"
+  name: "right arm"
   parent: BasePart
   abstract: true
   components:
@@ -66,7 +66,7 @@
 
 - type: entity
   id: BaseLeftHand
-  name: "ліва рука"
+  name: "left hand"
   parent: BasePart
   abstract: true
   components:
@@ -76,7 +76,7 @@
 
 - type: entity
   id: BaseRightHand
-  name: "права рука"
+  name: "right hand"
   parent: BasePart
   abstract: true
   components:
@@ -86,7 +86,7 @@
 
 - type: entity
   id: BaseLeftLeg
-  name: "ліва нога"
+  name: "left leg"
   parent: BasePart
   abstract: true
   components:
@@ -97,7 +97,7 @@
 
 - type: entity
   id: BaseRightLeg
-  name: "права нога"
+  name: "right leg"
   parent: BasePart
   abstract: true
   components:
@@ -108,7 +108,7 @@
 
 - type: entity
   id: BaseLeftFoot
-  name: "ліва нога"
+  name: "left foot"
   parent: BasePart
   abstract: true
   components:
@@ -118,7 +118,7 @@
 
 - type: entity
   id: BaseRightFoot
-  name: "права нога"
+  name: "right foot"
   parent: BasePart
   abstract: true
   components:

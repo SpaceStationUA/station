@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantleCap
-  name: "капітанська мантія"
-  description: "Зручна і шикарна мантія, гідна лише найдосвідченішого капітана."
+  name: captain's mantle
+  description: A comfortable and chique mantle befitting of only the most experienced captain.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/capmantle.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantleCE
-  name: "мантія головного інженера"
-  description: "Висока видимість, перевірено. Система RIG, перевірено. Ємний акумулятор, є. Все, що може знадобитися головному інженеру в стильній мантії."
+  name: chief engineer's mantle
+  description: High visibility, check. RIG system, check. High capacity cell, check. Everything a chief engineer could need in a stylish mantle.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/cemantle.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantleCMO
-  name: "мантія головного лікаря"
-  description: "Керівник медичної служби, який побував у достатній кількості медпунктів, знає, що більше ЗІЗ означає менше візитів до хімчистки центральної команди після закінчення зміни."
+  name: chief medical officer's mantle
+  description: For a CMO that has been in enough medbays to know that more PPE means less central command dry cleaning visits when the shift is over.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/cmomantle.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantleHOP
-  name: "мантія начальника відділу кадрів"
-  description: "Хороший HOP знає, що штовхання паперу - це лише половина роботи... інша половина - погладити собаку і виглядати модно - це інша половина."
+  name: head of personnel's mantle
+  description: A good HOP knows that paper pushing is only half the job... petting your dog and looking fashionable is the other half.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/hopmantle.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantleHOS
-  name: "мантія керівника служби безпеки"
-  description: "Перестрілки з ядерними боєголовками - це просто ще один вівторок для цього HoS. Ця мантія - символ відданості станції."
+  name: head of security's mantle
+  description: Shootouts with nukies are just another Tuesday for this HoS. This mantle is a symbol of commitment to the station.
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/hosmantle.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantleRD
-  name: "мантія містифікатора" # DeltaV - Epistemics Department replacing Science
-  description: "Коли довгі дні в офісі складаються з вибухівки, отруйного газу, роботів-вбивць та свіжої піци з відділу логістики, ця мантія забезпечить вам комфорт." # DeltaV - Logistics Department replacing Cargo
+  name: mystagogue's mantle # DeltaV - Epistemics Department replacing Science
+  description: For when long days in the office consist of explosives, poisonous gas, murder robots, and a fresh pizza from logistics; this mantle will keep you comfy. # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/rdmantle.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckMantleQM
-  name: "мантія офіцера логістики" # DeltaV - Logistics Department replacing Cargo
-  description: "Для майстра товарів і матеріалів, який керує відділом, - гідна мантія, щоб продемонструвати свою перевагу!"
+  name: logistics officer's mantle # DeltaV - Logistics Department replacing Cargo
+  description: For the master of goods and materials to rule over the department, a befitting mantle to show off superiority!
   components:
   - type: Sprite
     sprite: Clothing/Neck/mantles/qmmantle.rsi

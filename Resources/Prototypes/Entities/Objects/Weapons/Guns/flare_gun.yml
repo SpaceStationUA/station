@@ -1,8 +1,8 @@
 - type: entity
-  name: "сигнальна ракета"
+  name: flare gun
   parent: BaseWeaponLauncher
   id: WeaponFlareGun
-  description: "Компактний однозарядний пістолет, що стріляє дробовими набоями."
+  description: A compact, single-shot pistol that fires shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/flaregun.rsi

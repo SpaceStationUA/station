@@ -1,8 +1,8 @@
 - type: entity
   id: BodyBag_Container
   parent: BaseFoldable
-  name: "мішок для трупів"
-  description: "Поліетиленовий мішок, призначений для зберігання і транспортування трупів, щоб запобігти розкладанню тіла."
+  name: body bag
+  description: A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
   components:
   - type: Item
     size: Small
@@ -84,8 +84,8 @@
 
 - type: entity
   id: BodyBag_Folded
-  name: "мішок для трупів"
-  description: "Поліетиленовий мішок, призначений для зберігання і транспортування трупів, щоб запобігти розкладанню тіла."
+  name: body bag
+  description: A plastic bag designed for the storage and transportation of cadavers to stop body decomposition.
   parent: BodyBag_Container
   suffix: folded
   components:
