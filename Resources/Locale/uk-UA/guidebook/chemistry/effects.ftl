@@ -155,6 +155,7 @@ reagent-effect-guidebook-adjust-temperature = { $chance ->
     } {POWERJOULES($amount)} тепла { $deltasign ->
             [1] до
             *[-1] від
+        }
         від тіла, в якому вона перебуває
 
 reagent-effect-guidebook-chem-cause-disease = { $chance ->
