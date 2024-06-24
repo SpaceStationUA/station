@@ -17,3 +17,8 @@ store-category-pointless = Безглузде
 store-category-abilities = Здібності
 
 store-category-utility = Предмети
+
+store-category-misc = Різне
+store-category-bundles = Пакети
+store-category-tools = Інструменти
+store-category-armor = Броня

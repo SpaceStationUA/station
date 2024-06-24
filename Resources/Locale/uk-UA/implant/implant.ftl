@@ -23,3 +23,7 @@ scramble-implant-activated-popup = Ваша зовнішність змінює�
 
 deathrattle-implant-dead-message = {$user} загинув у {$position}.
 deathrattle-implant-critical-message = Життєві показники {$user} критичні, необхідна негайна допомога у {$position}.
+
+implanter-component-implant-already = {$target} вже має імплант {$implant}!
+
+## UI

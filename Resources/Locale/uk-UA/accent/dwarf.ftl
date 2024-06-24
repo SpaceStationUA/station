@@ -444,5 +444,5 @@ accent-dwarf-words-replace-146 = бобі
 accent-dwarf-words-147 = секунду
 accent-dwarf-words-replace-147 = боббі
 
-accent-dwarf-words-148 = a
+accent-dwarf-words-148 = а
 accent-dwarf-words-replace-148 = до

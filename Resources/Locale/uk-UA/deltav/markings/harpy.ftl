@@ -50,3 +50,5 @@ marking-HarpyLegsDefault-thighs = Стегна
 marking-HarpyFeetDefault = Пташині лапки
 marking-HarpyFeetDefault-feet = Ноги
 marking-HarpyFeetDefault-talons = Пазурі
+
+marking-HarpyTailPeacock = Павиний хвіст

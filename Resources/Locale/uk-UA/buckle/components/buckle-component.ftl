@@ -5,3 +5,5 @@ buckle-component-cannot-buckle-message = Ти не можеш там прист�
 buckle-component-other-cannot-buckle-message = Ти не можеш пристебнути {$owner} там!
 buckle-component-cannot-fit-message = Ви туди не вміщаєтесь!
 buckle-component-other-cannot-fit-message = {$owner} туди не поміститься!
+
+unbuckling-wait-message = Ви зможете відстебнутись через {$delay} секунд.

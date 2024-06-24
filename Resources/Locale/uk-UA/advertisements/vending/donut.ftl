@@ -6,3 +6,5 @@ thankyou-donut-1 = Насолоджуйтесь пончиком!
 thankyou-donut-2 = Ще один пончик продано!
 thankyou-donut-3 = Гарного дня, офіцере!
 thankyou-donut-4 = Сподіваюся, ви захопитеся!
+
+advertisement-donut-4 = Ми пишаємося стабільністю наших продуктів!

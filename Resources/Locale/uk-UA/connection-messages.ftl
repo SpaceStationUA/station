@@ -39,3 +39,6 @@ panic-bunker-account-denied = Сервер у режимі бункера для
 panic-bunker-account-denied-reason = Сервер у режимі бункера для захисту від атаки, вас не підключило. Причина: "{$reason}"
 panic-bunker-account-reason-account = Профіль має бути старшим за {$minutes} хвилин
 panic-bunker-account-reason-overall = Кількість награних годин має бути {$hours} годин
+
+cmd-whitelistremove-desc = Видаляє гравця з вказаним іменем користувача з білого списку сервера.
+cmd-kicknonwhitelisted-desc = Виганяє з сервера всіх гравців, які не входять до білого списку.

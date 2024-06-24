@@ -67,3 +67,20 @@ humanoid-profile-editor-loadouts-component = - {$component} (Component)
 humanoid-profile-editor-loadouts-tag = - {$tag} (Tag)
 humanoid-profile-editor-loadouts-job = - {$job} (Job)
 humanoid-profile-editor-loadouts-species = - {$species} (Species)
+
+humanoid-profile-editor-traits-header = У вас є {$points ->
+    [1] 1 очко
+    *[other] {$points} бали
+} і {$maxTraits ->
+    [2147483648] {$traits ->
+        [1] 1 риса
+        *[other] {$traits} риси
+    }
+    *[other] {$traits}/{$maxTraits} риси
+}
+
+humanoid-profile-editor-traits-show-unusable-button = Показати непридатний для використання
+humanoid-profile-editor-traits-show-unusable-button-tooltip = Якщо увімкнено, риси, які не можна використовувати у вашому поточному наборі символів, будуть виділені червоним кольором.
+    Ви все одно не зможете використовувати недійсні риси, доки не зміните налаштування персонажа відповідно до вимог.
+    Скоріш за все, це може бути корисно лише у випадку, якщо баг приховує риси, які ви можете використовувати, або якщо ви хочете побачити риси інших видів чи щось подібне.
+humanoid-profile-editor-traits-no-traits = Ознак не виявлено

@@ -246,3 +246,6 @@ reagent-desc-whiskey-soda = бюджетний варіант,але досі н
 
 reagent-name-white-russian = білий московит
 reagent-desc-white-russian = диви який блідий: "мі нє зналі,нас заставілі :(
+
+reagent-name-gildlager = позолотник
+reagent-desc-gildlager = 100% міцний шнапс з корицею, створений для дівчат-підлітків-алкоголіків на весняних канікулах.

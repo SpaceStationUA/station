@@ -420,7 +420,7 @@ accent-scottish-words-replace-146 = боббі
 accent-scottish-words-147 = секунду
 accent-scottish-words-replace-147 = боббі
 
-accent-scottish-words-148 = a
+accent-scottish-words-148 = а
 accent-scottish-words-replace-148 = до
 
 accent-scottish-words-149 = певний

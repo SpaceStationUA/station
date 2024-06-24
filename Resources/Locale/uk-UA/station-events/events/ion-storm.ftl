@@ -13,7 +13,7 @@ ion-storm-crew = ЕКІПАЖ
 ion-storm-adjective-things = {$adjective} речі
 ion-storm-x-and-y = {$x} І {$y}
 
-# joined - це скорочення від {$число} {$прикметник}.
+# joined - це скорочення від {$number} {$adjective}
 # суб'єктами зазвичай можуть бути загрози, завдання або об'єкти
 # річ вказується над ним
 ion-storm-law-on-station = НА СТАНЦІЇ Є {$joined} {$subjects}
