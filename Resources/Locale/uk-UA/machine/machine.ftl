@@ -13,10 +13,10 @@ machine-part-name-manipulator = Маніпулятор
 machine-part-name-matter-bin = Кошик для сміття
 machine-part-name-power-cell = Елемент живлення
 
-upgrade-power-draw = power draw
-upgrade-max-charge = max charge
-upgrade-power-supply = power supply
-upgrade-power-supply-ramping = power ramp rate
+upgrade-power-draw = споживана потужність
+upgrade-max-charge = максимальний заряд
+upgrade-power-supply = джерело живлення
+upgrade-power-supply-ramping = швидкість наростання потужності
 
 two-way-lever-left = натисни ліворуч
 two-way-lever-right = натисни праворуч

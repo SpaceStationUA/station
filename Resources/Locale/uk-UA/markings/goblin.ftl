@@ -1,13 +1,13 @@
 # goblin ears
-marking-GoblinEarsBasic = Basic Ears
-marking-GoblinEarsBasicAlt = Basic Ears (Alt)
-marking-GoblinEarsLong01 = Long Ears (tips down)
-marking-GoblinEarsLong02 = Long Ears (tips up)
-# goblin noses
-marking-GoblinNoseBasic = Basic Nose
-marking-GoblinNoseLong = Long Nose
-marking-GoblinNoseCrooked = Crooked Nose
-# goblin tusks
-marking-GoblinTusksBasic = No Tusks
-marking-GoblinTusksSmall = Small Tusks
-marking-GoblinTusksBig = Long Tusks
+marking-GoblinEarsBasic = Базові вуха
+marking-GoblinEarsBasicAlt = Основні вуха (Alt)
+marking-GoblinEarsLong01 = Довгі вуха (кінчики вниз)
+marking-GoblinEarsLong02 = Довгі вуха (кінчики вгору)
+# гоблінські носи
+marking-GoblinNoseBasic = Базовий ніс
+marking-GoblinNoseLong = Довгий Ніс
+marking-GoblinNoseCrooked = Кривий Ніс
+# ікла гобліна
+marking-GoblinTusksBasic = Без іклів
+marking-GoblinTusksSmall = Малі бивні
+marking-GoblinTusksBig = Довгі ікла

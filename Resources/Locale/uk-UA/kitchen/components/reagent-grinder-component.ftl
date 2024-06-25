@@ -4,8 +4,8 @@ reagent-grinder-bound-user-interface-instant-button = МИТЬ
 reagent-grinder-bound-user-interface-cook-time-label = ЧАС ПРИГОТУВАННЯ
 reagent-grinder-component-cannot-put-entity-message = Ви не можете покласти це в подрібнювач реагентів!
 
-reagent-grinder-component-upgrade-work-time = Work time
-reagent-grinder-component-upgrade-storage = Storage
+reagent-grinder-component-upgrade-work-time = Час роботи
+reagent-grinder-component-upgrade-storage = Зберігання
 
 grinder-menu-title = Подрібнювач Два-В-Одном 3000
 grinder-menu-grind-button = Мелення

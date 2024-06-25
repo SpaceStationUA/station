@@ -1,7 +1,6 @@
 mage-round-end-agent-name = чаклун
 
-mage-role-greeting =
-    Я чаклун!
+mage-role-greeting = Я чаклун!
     Час розвеселити себе.
     Купіть вміння, предмети та веселіть себе. Удачі!
 

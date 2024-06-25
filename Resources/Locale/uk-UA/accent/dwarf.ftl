@@ -267,8 +267,8 @@ accent-dwarf-words-replace-87 = крихітка
 accent-dwarf-words-88 = після того, як
 accent-dwarf-words-replace-88 = після
 
-accent-dwarf-words-89 = for
-accent-dwarf-words-replace-89 = fer
+accent-dwarf-words-89 = за
+accent-dwarf-words-replace-89 = фер
 
 accent-dwarf-words-90 = збираюся
 accent-dwarf-words-replace-90 = ти підеш
@@ -330,8 +330,8 @@ accent-dwarf-words-replace-108 = ти
 accent-dwarf-words-109 = думаю
 accent-dwarf-words-replace-109 = вважаю
 
-accent-dwarf-words-110 = thinking
-accent-dwarf-words-replace-110 = fer
+accent-dwarf-words-110 = думаючи
+accent-dwarf-words-replace-110 = фер
 
 accent-dwarf-words-111 = село
 accent-dwarf-words-replace-111 = гаммі
@@ -351,17 +351,17 @@ accent-dwarf-words-replace-115 = редді
 accent-dwarf-words-116 = ядерна речовина
 accent-dwarf-words-replace-116 = редді
 
-accent-dwarf-words-117 = antag
-accent-dwarf-words-replace-117 = baddie
+accent-dwarf-words-117 = антаг
+accent-dwarf-words-replace-117 = лиходій
 
-accent-dwarf-words-118 = syndicate
-accent-dwarf-words-replace-118 = baddie
+accent-dwarf-words-118 = синдикат
+accent-dwarf-words-replace-118 = лиходій
 
-accent-dwarf-words-119 = syndi
-accent-dwarf-words-replace-119 = baddie
+accent-dwarf-words-119 = синді
+accent-dwarf-words-replace-119 = лиходій
 
-accent-dwarf-words-120 = syndie
-accent-dwarf-words-replace-120 = baddie
+accent-dwarf-words-120 = синдикат
+accent-dwarf-words-replace-120 = лиходій
 
 accent-dwarf-words-121 = більше
 accent-dwarf-words-replace-121 = маер
@@ -372,8 +372,8 @@ accent-dwarf-words-replace-122 = ще більше
 accent-dwarf-words-123 = прийом
 accent-dwarf-words-replace-123 = надворі
 
-accent-dwarf-words-124 = shuttle
-accent-dwarf-words-replace-124 = molly
+accent-dwarf-words-124 = шатл
+accent-dwarf-words-replace-124 = моллі
 
 accent-dwarf-words-125 = людський
 accent-dwarf-words-replace-125 = гумі

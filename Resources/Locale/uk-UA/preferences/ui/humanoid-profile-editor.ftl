@@ -62,10 +62,10 @@ humanoid-profile-editor-markings-tab = Маркування
 humanoid-profile-editor-flavortext-tab = Опис
 humanoid-profile-editor-loadouts-whitelist = Вайтліст:
 humanoid-profile-editor-loadouts-blacklist = Блекліст:
-humanoid-profile-editor-loadouts-component = - {$component} (Component)
-humanoid-profile-editor-loadouts-tag = - {$tag} (Tag)
-humanoid-profile-editor-loadouts-job = - {$job} (Job)
-humanoid-profile-editor-loadouts-species = - {$species} (Species)
+humanoid-profile-editor-loadouts-component = - {$component} (Компонент)
+humanoid-profile-editor-loadouts-tag = - {$tag} (тег)
+humanoid-profile-editor-loadouts-job = - {$job} (Робота)
+humanoid-profile-editor-loadouts-species = - {$species} (Вид)
 
 humanoid-profile-editor-traits-header = У вас є {$points ->
     [1] 1 очко

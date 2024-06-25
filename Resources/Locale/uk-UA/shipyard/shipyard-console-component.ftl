@@ -15,4 +15,4 @@ shipyard-console-docking = Власник {$owner} корабля {$vessel} оч
 shipyard-console-leaving = Капітан {$owner} корабля {$vessel} проданий {$player}.
 shipyard-console-docking-secret = Незареєстрований корабель входить у сектор.
 shipyard-console-leaving-secret = Незареєстрований корабель покинув сектор.
-shipyard-commands-purchase-desc = Spawns and FTL docks a specified shuttle from a grid file.
+shipyard-commands-purchase-desc = Створює і прискорено стикує вказаний шатл з файлу сітки.

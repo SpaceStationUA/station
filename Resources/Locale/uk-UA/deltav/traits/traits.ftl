@@ -1,16 +1,16 @@
-trait-scottish-accent-name = Scottish Accent
-trait-scottish-accent-desc = Fer tha folk who come frae Hielan clan.
+trait-scottish-accent-name = Шотландський акцент
+trait-scottish-accent-desc = Для людей, які прийшли з клану Хілан.
 
-trait-ultravision-name = Ultraviolet Vision
-trait-ultravision-desc = Whether through custom bionic eyes, random mutation,
-                         or being a Harpy, you perceive the world with ultraviolet light.
+trait-ultravision-name = Ультрафіолетовий зір
+trait-ultravision-desc = Чи то через біонічні очі на замовлення, випадкову мутацію,
+                         чи через те, що ти Гарпія, ти сприймаєш світ за допомогою ультрафіолету.
 
-trait-deuteranopia-name = Deuteranopia
-trait-deuteranopia-desc = Whether through custom bionic eyes, random mutation,
-                          or being a Vulpkanin, you have red–green colour blindness.
+trait-deuteranopia-name = Дейтеранопія
+trait-deuteranopia-desc = Чи то через біонічні очі на замовлення, чи то через випадкову мутацію,
+                          чи через те, що ви - вулканіни, у вас червоно-зелений дальтонізм.
 
-trait-uncloneable-name = Uncloneable
-trait-uncloneable-desc = Cannot be cloned
+trait-uncloneable-name = Неклонований
+trait-uncloneable-desc = Не можна клонувати
 
 trait-name-ScottishAccent = Шотландський акцент
 trait-description-ScottishAccent = Для людей, які прийшли з клану Хілан.

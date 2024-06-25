@@ -7,7 +7,7 @@ trait-narcolepsy-desc = Ви раптово засинаєте
 trait-pacifist-name = Пацифіст
 trait-pacifist-desc = Ви не можете вбивати чи шкодити іншим
 
-permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} eyes are glassy and unfocused. It doesn't seem like {SUBJECT($target)} can see you well, if at all.[/color]
+permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} очі скляні і розфокусовані. Не схоже, що {SUBJECT($target)} бачить вас добре, якщо взагалі бачить.[/color]
 
 trait-lightweight-name = Легкий Алкоголізм
 trait-lightweight-desc = Алкоголь має більший ефект на вас
