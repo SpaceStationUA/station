@@ -1,6 +1,6 @@
 - type: entity
   id: RandomWoodenSupport
-  name: "дерев'яний опорний нерестовик"
+  name: wooden support spawner
   parent: MarkerBase
   components:
   - type: Sprite
@@ -18,7 +18,7 @@
 
 - type: entity
   id: RandomWoodenWall
-  name: "дерев'яний настінний нерестовик"
+  name: wooden wall spawner
   parent: MarkerBase
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 
 - type: entity
   id: RandomStalagmiteOrCrystal
-  name: "сталагміт або кристалічний спайдер"
+  name: stalagmite or crystal spawner
   parent: MarkerBase
   components:
   - type: Sprite
@@ -52,7 +52,7 @@
 
 - type: entity
   id: RandomBrownStalagmite
-  name: "коричневий сталагмітовий нерест"
+  name: brown stalagmite spawner
   parent: MarkerBase
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
 
 - type: entity
   id: RandomGreyStalagmite
-  name: "сірий сталагмітовий нерест"
+  name: grey stalagmite spawner
   parent: MarkerBase
   components:
   - type: Sprite

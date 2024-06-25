@@ -32,8 +32,8 @@
 - type: entity
   parent: UtensilBase
   id: Fork
-  name: "вилка"
-  description: "Прилад для їжі, ідеально підходить для нанесення ножових ран."
+  name: fork
+  description: An eating utensil, perfect for stabbing.
   components:
   - type: Tag
     tags:
@@ -54,8 +54,8 @@
 - type: entity
   parent: UtensilBasePlastic
   id: ForkPlastic
-  name: "пластикова виделка"
-  description: "Прилад для їжі, ідеально підходить для нанесення ножових ран."
+  name: plastic fork
+  description: An eating utensil, perfect for stabbing.
   components:
   - type: Sprite
     state: plastic_fork
@@ -66,8 +66,8 @@
 - type: entity
   parent: UtensilBase
   id: Spoon
-  name: "ложка"
-  description: "Ложки немає."
+  name: spoon
+  description: There is no spoon.
   components:
   - type: Tag
     tags:
@@ -91,8 +91,8 @@
 - type: entity
   parent: UtensilBasePlastic
   id: SpoonPlastic
-  name: "пластикова ложка"
-  description: "Ложки немає."
+  name: plastic spoon
+  description: There is no spoon.
   components:
   - type: Sprite
     state: plastic_spoon
@@ -107,8 +107,8 @@
 - type: entity
   parent: UtensilBasePlastic
   id: KnifePlastic
-  name: "пластиковий ніж"
-  description: "Це не ніж. Це ніж."
+  name: plastic knife
+  description: That's not a knife. This is a knife.
   components:
   - type: Sprite
     state: plastic_knife

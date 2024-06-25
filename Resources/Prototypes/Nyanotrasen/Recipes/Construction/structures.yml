@@ -1,11 +1,11 @@
 - type: construction
-  name: "паперова стіна"
+  name: paper wall
   id: PaperWall
   graph: Girder
   startNode: start
   targetNode: paperWall
   category: construction-category-structures
-  description: "Допомагає стримувати повторювані крики майстрів бойових мистецтв."
+  description: Helps to contain the repeated screams of martial artists.
   icon:
     sprite: Nyanotrasen/Structures/Walls/paper.rsi
     state: full
@@ -17,13 +17,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "шатл-стіна"
+  name: shuttle wall
   id: ShuttleWall
   graph: Girder
   startNode: start
   targetNode: shuttleWall
   category: construction-category-structures
-  description: "Утримує повітря всередині і не пропускає сірість назовні."
+  description: Keeps the air in and the greytide out.
   icon:
     sprite: Structures/Walls/shuttle.rsi
     state: full
@@ -35,13 +35,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "внутрішня шатлова стіна"
+  name: interior shuttle wall
   id: InteriorShuttleWall
   graph: Girder
   startNode: start
   targetNode: shuttleInteriorWall
   category: construction-category-structures
-  description: "Утримує повітря всередині і не пропускає сірість назовні."
+  description: Keeps the air in and the greytide out.
   icon:
     sprite: Nyanotrasen/Structures/Walls/shuttleinterior.rsi
     state: full
@@ -54,13 +54,13 @@
 
 
 - type: construction
-  name: "діагональна човникова стіна"
+  name: diagonal shuttle wall
   id: DiagonalShuttleWall
   graph: Girder
   startNode: start
   targetNode: diagonalshuttleWall
   category: construction-category-structures
-  description: "Утримує повітря всередині і не пропускає сірість назовні."
+  description: Keeps the air in and the greytide out.
   icon:
     sprite: Structures/Walls/shuttle_diagonal.rsi
     state: state0
@@ -72,14 +72,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "вікно шаттла"
+  name: shuttle window
   id: ShuttleWindow
   graph: Window
   startNode: start
   targetNode: shuttleWindow
   category: construction-category-structures
   canBuildInImpassable: true
-  description: "Надзвичайно міцний, щоб витримати тиск надсвітлової швидкості та пошкодження від боєприпасів."
+  description: Extra sturdy to resist the pressure of FTL or sustain damage from munitions.
   conditions:
     - !type:EmptyOrWindowValidInTile
     - !type:NoWindowsInTile

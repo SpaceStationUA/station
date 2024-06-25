@@ -26,8 +26,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasPressurePump
-  name: "газовий насос"
-  description: "Насос, який переміщує газ під дією тиску."
+  name: gas pump
+  description: A pump that moves gas by pressure.
   placement:
     mode: SnapgridCenter
   components:
@@ -66,8 +66,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasVolumePump
-  name: "об'ємний газовий насос"
-  description: "Насос, який переміщує газ за об'ємом."
+  name: volumetric gas pump
+  description: A pump that moves gas by volume.
   placement:
     mode: SnapgridCenter
   components:
@@ -115,8 +115,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasPassiveGate
-  name: "пасивні ворота"
-  description: "Односторонній повітряний клапан, який не потребує живлення."
+  name: passive gate
+  description: A one-way air valve that does not require power.
   placement:
     mode: SnapgridCenter
   components:
@@ -144,8 +144,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasValve
-  name: "ручний клапан"
-  description: "Труба з клапаном, за допомогою якого можна перекрити потік газу через неї."
+  name: manual valve
+  description: A pipe with a valve that can be used to disable the flow of gas through it.
   placement:
     mode: SnapgridCenter
   components:
@@ -192,8 +192,8 @@
 - type: entity
   parent: GasBinaryBase
   id: SignalControlledValve
-  name: "сигнальний клапан"
-  description: "Клапан керується за допомогою сигнальних входів."
+  name: signal valve
+  description: A pipe with a valve that can be controlled with signals.
   placement:
     mode: SnapgridCenter
   components:
@@ -250,8 +250,8 @@
 - type: entity
   parent: GasBinaryBase
   id: GasPort
-  name: "порт роз'єму"
-  description: "Для підключення портативних пристроїв, пов'язаних з контролем атмосфери."
+  name: connector port
+  description: For connecting portable devices related to atmospherics control.
   placement:
     mode: SnapgridCenter
   components:
@@ -279,8 +279,8 @@
 - type: entity
   parent: GasVentPump
   id: GasDualPortVentPump
-  name: "двопортовий вентиляційний отвір"
-  description: "Має клапан і прикріплений до нього насос. Має два порти, один - вхідний для випуску повітря, інший - вихідний при сифонізації."
+  name: dual-port air vent
+  description: Has a valve and a pump attached to it. There are two ports, one is an input for releasing air, the other is an output when siphoning.
   placement:
     mode: SnapgridCenter
   components:
@@ -334,8 +334,8 @@
 - type: entity
   parent: [ BaseMachine, ConstructibleMachine ]
   id: GasRecycler
-  name: "рециркулятор газу"
-  description: "Переробляє вуглекислий газ та закис азоту. Нагрівач і компресор не входять до комплекту."
+  name: gas recycler
+  description: Recycles carbon dioxide and nitrous oxide. Heater and compressor not included.
   placement:
     mode: SnapgridCenter
   components:
@@ -395,8 +395,8 @@
 - type: entity
   parent: GasBinaryBase
   id: HeatExchanger
-  name: "радіатор"
-  description: "Передає тепло між трубою та її оточенням."
+  name: radiator
+  description: Transfers heat between the pipe and its surroundings.
   placement:
     mode: SnapgridCenter
   components:

@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: "Уріст МакГарпі"
+  name: Urist McHarpy
   parent: BaseMobHuman
   id: MobHarpyBase
   abstract: true
@@ -146,11 +146,11 @@
 
 - type: entity
   save: false
-  name: "Уріст МакХендс"
+  name: Urist McHands
   parent: MobHumanDummy
   id: MobHarpyDummy
   noSpawn: true
-  description: "Манекен Гарпії, призначений для використання в налаштуванні персонажа."
+  description: A dummy Harpy meant to be used in character setup.
   components:
   - type: HumanoidAppearance
     species: Harpy
@@ -205,8 +205,8 @@
 
 - type: entity
   id: ActionHarpyPlayMidi
-  name: "Відтворення MIDI"
-  description: "Співайте від душі! Клацніть правою кнопкою миші на себе, щоб вибрати інструмент."
+  name: Play MIDI
+  description: Sing your heart out! Right click yourself to set an instrument.
   noSpawn: true
   components:
   - type: InstantAction
@@ -217,8 +217,8 @@
 
 - type: entity
   id: ActionSyrinxChangeVoiceMask
-  name: "Назва набору"
-  description: "Змініть ім'я, яке чують інші, на інше."
+  name: Set name
+  description: Change the name others hear to something else.
   noSpawn: true
   components:
   - type: InstantAction
