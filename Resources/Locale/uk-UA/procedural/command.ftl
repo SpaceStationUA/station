@@ -14,9 +14,9 @@ cmd-dungen-hint-posx = Позиція X
 cmd-dungen-hint-posy = Позиція Y
 cmd-dungen-hint-seed = [Насіннєвий]
 
-cmd-dungen_preset_vis-desc = Generates a tile-based preview of a dungeon preset.
+cmd-dungen_preset_vis-desc = Створює плитковий попередній перегляд пресетів підземелля.
 cmd-dungen_preset_vis-help = dungen_preset_vis <mapid> <preset>
 
-cmd-dungen_pack_vis-success = Success
-cmd-dungen_pack_vis-desc = Generates a tile-based preview of a dungeon pack.
+cmd-dungen_pack_vis-success = Успіх
+cmd-dungen_pack_vis-desc = Створює попередній перегляд набору підземель на основі тайлів.
 cmd-dungen_pack_vis-help = dungen_pack_vis <mapid> <pack>

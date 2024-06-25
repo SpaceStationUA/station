@@ -5,40 +5,40 @@ marking-ArachnidCheliceraeInwards = Chelicerae (всередину)
 marking-ArachnidCheliceraeInwards-inwards = Хеліцери
 
 marking-ArachnidAppendagesDefault = Придатки (довгі)
-marking-ArachnidAppendagesDefault-long_primary = Appendage
-marking-ArachnidAppendagesDefault-long_secondary = Stripes
+marking-ArachnidAppendagesDefault-long_primary = Придаток
+marking-ArachnidAppendagesDefault-long_secondary = Смуги
 
 marking-ArachnidAppendagesSharp = Придатки (гострі)
-marking-ArachnidAppendagesSharp-sharp_primary = Appendage
-marking-ArachnidAppendagesSharp-sharp_secondary = Stripes
+marking-ArachnidAppendagesSharp-sharp_primary = Придаток
+marking-ArachnidAppendagesSharp-sharp_secondary = Смуги
 
 marking-ArachnidAppendagesZigZag = Придатки (ZigZag)
-marking-ArachnidAppendagesZigZag-zigzag_primary = Appendage
-marking-ArachnidAppendagesZigZag-zigzag_secondary = Stripes
+marking-ArachnidAppendagesZigZag-zigzag_primary = Придаток
+marking-ArachnidAppendagesZigZag-zigzag_secondary = Смуги
 
 marking-ArachnidAppendagesCurled = Придатки (скручені)
-marking-ArachnidAppendagesCurled-curled_primary = Appendage
-marking-ArachnidAppendagesCurled-curled_secondary = Stripes
+marking-ArachnidAppendagesCurled-curled_primary = Придаток
+marking-ArachnidAppendagesCurled-curled_secondary = Смуги
 
 marking-ArachnidAppendagesStingers = Придатки (жала)
-marking-ArachnidAppendagesStingers-stingers_primary = Appendage
-marking-ArachnidAppendagesStingers-stingers_secondary = Stripes
+marking-ArachnidAppendagesStingers-stingers_primary = Придаток
+marking-ArachnidAppendagesStingers-stingers_secondary = Смуги
 
 marking-ArachnidAppendagesChipped = Придатки (відколоті)
-marking-ArachnidAppendagesChipped-chipped_primary = Appendage
-marking-ArachnidAppendagesChipped-chipped_secondary = Stripes
+marking-ArachnidAppendagesChipped-chipped_primary = Придаток
+marking-ArachnidAppendagesChipped-chipped_secondary = Смуги
 
 marking-ArachnidAppendagesHarvest = Придатки (Урожай)
-marking-ArachnidAppendagesHarvest-harvest_primary = Appendage
-marking-ArachnidAppendagesHarvest-harvest_secondary = Stripes
+marking-ArachnidAppendagesHarvest-harvest_primary = Придаток
+marking-ArachnidAppendagesHarvest-harvest_secondary = Смуги
 
 marking-ArachnidAppendagesShort = Придатки (скорочено)
-marking-ArachnidAppendagesShort-short_primary = Appendage
-marking-ArachnidAppendagesShort-short_secondary = Stripes
+marking-ArachnidAppendagesShort-short_primary = Придаток
+marking-ArachnidAppendagesShort-short_secondary = Смуги
 
 marking-ArachnidAppendagesFreaky = Придатки (Дивно довгі)
-marking-ArachnidAppendagesFreaky-freaky_primary = Appendage
-marking-ArachnidAppendagesFreaky-freaky_secondary = Stripes
+marking-ArachnidAppendagesFreaky-freaky_primary = Придаток
+marking-ArachnidAppendagesFreaky-freaky_secondary = Смуги
 
 marking-ArachnidTorsoStripes = Смуги
 marking-ArachnidTorsoStripes-stripes = Дизайн
@@ -80,15 +80,15 @@ marking-ArachnidTorsoTarget = Ціль
 marking-ArachnidTorsoTarget-target = Дизайн
 
 marking-ArachnidRArmStripes = Павукоподібні смуги (праворуч)
-marking-ArachnidRArmStripes-stripes_right = Stripes
+marking-ArachnidRArmStripes-stripes_right = Смуги
 
 marking-ArachnidLArmStripes = Павукоподібні смуги (ліворуч)
-marking-ArachnidLArmStripes-stripes_left = Stripes
+marking-ArachnidLArmStripes-stripes_left = Смуги
 
 marking-ArachnidRLegStripes = Павукоподібні смуги (праворуч)
-marking-ArachnidRLegStripes-stripes_right = Stripes
+marking-ArachnidRLegStripes-stripes_right = Смуги
 
 marking-ArachnidLLegStripes = Павукоподібні смуги (ліворуч)
-marking-ArachnidLLegStripes-stripes_left = Stripes
+marking-ArachnidLLegStripes-stripes_left = Смуги
 
 marking-ArachnidOverlayFuzzy = Нечіткий

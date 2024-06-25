@@ -47,7 +47,7 @@ marking-VulpEarDalmatian-dalmatian = Вуха далматинця
 marking-VulpEarDalmatian = Вулканічний далматинець
 
 
-marking-VulpSnoutAlt-muzzle_alt = Muzzle
+marking-VulpSnoutAlt-muzzle_alt = Морда
 marking-VulpSnoutAlt-nose = Ніс
 marking-VulpSnoutAlt = Дуло Вулканіна 2
 
@@ -55,11 +55,11 @@ marking-VulpSnout-muzzle = Морда
 marking-VulpSnout-nose = Ніс
 marking-VulpSnout = Морда Вулканіна
 
-marking-VulpSnoutSharp-muzzle_sharp = Muzzle
+marking-VulpSnoutSharp-muzzle_sharp = Морда
 marking-VulpSnoutSharp-nose = Ніс
 marking-VulpSnoutSharp = Дуло Вулканіна (гостре)
 
-marking-VulpSnoutFade-muzzle_fade = Muzzle
+marking-VulpSnoutFade-muzzle_fade = Морда
 marking-VulpSnoutFade-nose = Ніс
 marking-VulpSnoutFade = Морда Вулканіна (вицвітання)
 
@@ -84,10 +84,10 @@ marking-VulpSnoutPatch-patch = Патч
 marking-VulpSnoutPatch = Патч Vulpkanin
 
 
-marking-VulpHeadTiger-tiger_head = Tiger stripes
+marking-VulpHeadTiger-tiger_head = Тигрові смуги
 marking-VulpHeadTiger = Вулканін Тигрові смуги (голова)
 
-marking-VulpHeadTigerFace-tiger_face = Tiger stripes
+marking-VulpHeadTigerFace-tiger_face = Тигрові смуги
 marking-VulpHeadTigerFace = Вулканін Тигрові смужки (лицьова сторона)
 
 marking-VulpHeadSlash-slash = Слэш
@@ -102,20 +102,20 @@ marking-VulpTailTip-vulp = Вулканічний хвіст (основа)
 marking-VulpTailTip-vulp-tip = Вулканічний хвіст (кінчик)
 marking-VulpTailTip = Vulpkanin (підказка)
 
-marking-VulpTailWag-vulp_wag = Vulpkanin tail (base)
-marking-VulpTailWag-vulp_wag-fade = Vulpkanin tail (fade)
+marking-VulpTailWag-vulp_wag = Вулканічний хвіст (основа)
+marking-VulpTailWag-vulp_wag-fade = Вулканічний хвіст (вицвітання)
 marking-VulpTailWag = Вулканін (виляння)
 
-marking-VulpTailWagTip-vulp_wag = Vulpkanin tail (base)
-marking-VulpTailWagTip-vulp_wag-tip = Vulpkanin tail (tip)
+marking-VulpTailWagTip-vulp_wag = Вулканічний хвіст (основа)
+marking-VulpTailWagTip-vulp_wag-tip = Вулканічний хвіст (кінчик)
 marking-VulpTailWagTip = Вульпканин (виляння, підказка)
 
-marking-VulpTailAlt-vulp_alt = Vulpkanin tail (base)
-marking-VulpTailAlt-vulp_alt-fade = Vulpkanin tail (fade)
+marking-VulpTailAlt-vulp_alt = Вулканічний хвіст (основа)
+marking-VulpTailAlt-vulp_alt-fade = Вулканічний хвіст (вицвітання)
 marking-VulpTailAlt = Вулпканін (альт)
 
-marking-VulpTailAltTip-vulp_alt = Vulpkanin tail (base)
-marking-VulpTailAltTip-vulp_alt-tip = Vulpkanin tail (tip)
+marking-VulpTailAltTip-vulp_alt = Вулканічний хвіст (основа)
+marking-VulpTailAltTip-vulp_alt-tip = Вулканічний хвіст (кінчик)
 marking-VulpTailAltTip = Вулпканін (альт, кінчик)
 
 marking-VulpTailLong-long = Довгий хвіст (основа)
@@ -130,27 +130,27 @@ marking-VulpTailFoxTip-fox = Лисячий хвіст (основа)
 marking-VulpTailFoxTip-fox-tip = Лисячий хвіст (вицвітання)
 marking-VulpTailFoxTip = Лис Вулканін (підказка)
 
-marking-VulpTailFoxWag-fox_wag = Fox tail (base)
-marking-VulpTailFoxWag-fox_wag-fade = Fox tail (fade)
+marking-VulpTailFoxWag-fox_wag = Лисячий хвіст (основа)
+marking-VulpTailFoxWag-fox_wag-fade = Лисячий хвіст (вицвітання)
 marking-VulpTailFoxWag = Лис Вулканін (виляння)
 
-marking-VulpTailFoxWagTip-fox_wag = Fox tail (base)
-marking-VulpTailFoxWagTip-fox_wag-tip = Fox tail (tip)
+marking-VulpTailFoxWagTip-fox_wag = Лисячий хвіст (основа)
+marking-VulpTailFoxWagTip-fox_wag-tip = Лисячий хвіст (кінчик)
 marking-VulpTailFoxWagTip = Лис Вулканін (виляння, підказка)
 
 marking-VulpTailBushy-bushfluff = Хвіст куща
 marking-VulpTailBushy = Вулканічний кущ
 
-marking-VulpTailBushyWag-bushfluff_wag = Bush tail
+marking-VulpTailBushyWag-bushfluff_wag = Хвіст куща
 marking-VulpTailBushyWag = Кущ Вулканіна (виляння)
 
 marking-VulpTailCoyote-coyote = Хвіст койота
 marking-VulpTailCoyote = Вулканічний койот
 
-marking-VulpTailCoyoteWag-coyote_wag = Coyote tail
+marking-VulpTailCoyoteWag-coyote_wag = Хвіст койота
 marking-VulpTailCoyoteWag = Вулканічний койот (виляння)
 
-marking-VulpTailCorgiWag-corgi_wag = Crogi tail
+marking-VulpTailCorgiWag-corgi_wag = Хвіст кроги
 marking-VulpTailCorgiWag = Вулканічний коргі (виляння)
 
 marking-VulpTailHusky-husky-inner = Хвіст хаскі (внутрішній)
@@ -176,53 +176,53 @@ marking-VulpTailOtie = Вулпканін Оті
 marking-VulpTailFluffy-fluffy = Пухнастий хвіст
 marking-VulpTailFluffy = Вулканін Пухнастий
 
-marking-VulpTailDalmatianWag-dalmatian_wag = Dalmatian tail
+marking-VulpTailDalmatianWag-dalmatian_wag = Далматинський хвіст
 marking-VulpTailDalmatianWag = Вулканічний далматинець (виляння)
 
 
-marking-VulpBellyCrest-belly_crest = Belly
+marking-VulpBellyCrest-belly_crest = Живіт
 marking-VulpBellyCrest = Вулканічний черевцевий гребінь
 
-marking-VulpBellyFull-belly_full = Belly
+marking-VulpBellyFull-belly_full = Живіт
 marking-VulpBellyFull = Вулканічний живіт 1
 
-marking-VulpBellyFox-belly_fox = Belly
+marking-VulpBellyFox-belly_fox = Живіт
 marking-VulpBellyFox = Вулканічний живіт 2
 
 
-marking-VulpBodyPointsCrest-points_crest = Points (crest)
+marking-VulpBodyPointsCrest-points_crest = Бали (гребінь)
 marking-VulpBodyPointsCrest = Бали Вулканіну (герб)
 
-marking-VulpBodyPointsFade-points_fade = Vulpkanin Points (fade)
+marking-VulpBodyPointsFade-points_fade = Бали Вулканіну (зникають)
 marking-VulpBodyPointsFade = Бали Вулканіну (зникають)
 
-marking-VulpBodyPointsSharp-points_sharp = Vulpkanin Points (sharp)
+marking-VulpBodyPointsSharp-points_sharp = Вулканічні точки (гострі)
 marking-VulpBodyPointsSharp = Вулканічні точки (гострі)
 
 
-marking-VulpPointsFeet-points_feet = Points Feet
+marking-VulpPointsFeet-points_feet = Бали Фути
 marking-VulpPointsFeet = Вулпканін Вказівки Ступні
 
-marking-VulpPointsCrestLegs-points_crest-legs = Points (crest)
+marking-VulpPointsCrestLegs-points_crest-legs = Бали (гребінь)
 marking-VulpPointsCrestLegs = Вулканічні точки Ніжки (гребінь)
 
-marking-VulpPointsFadeLegs-points_fade-legs = Points (fade)
+marking-VulpPointsFadeLegs-points_fade-legs = Точки (зникають)
 marking-VulpPointsFadeLegs = Vulpkanin Points Legs (зникають)
 
-marking-VulpPointsSharpLegs-points_sharp-legs = Points (sharp)
+marking-VulpPointsSharpLegs-points_sharp-legs = Точки (гострі)
 marking-VulpPointsSharpLegs = Вулканінові точки Ніжки (гострі)
 
 
-marking-VulpPointsHands-points_hands = Points Hands
+marking-VulpPointsHands-points_hands = Точки Руки
 marking-VulpPointsHands = Vulpkanin Points Руки
 
-marking-VulpPointsCrestArms-points_crest-arms = Points (crest)
+marking-VulpPointsCrestArms-points_crest-arms = Бали (гребінь)
 marking-VulpPointsCrestArms = Вулканічний наконечник зброї (герб)
 
-marking-VulpPointsFadeArms-points_fade-arms = Points (fade)
+marking-VulpPointsFadeArms-points_fade-arms = Точки (зникають)
 marking-VulpPointsFadeArms = Vulpkanin Points Руки (зникають)
 
-marking-VulpPointsSharpArms-points_sharp-arms = Points (sharp)
+marking-VulpPointsSharpArms-points_sharp-arms = Точки (гострі)
 marking-VulpPointsSharpArms = Вулканічна зброя (гостра)
 
 

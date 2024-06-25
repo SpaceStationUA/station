@@ -1,23 +1,23 @@
-marking-SlimeGradientLeftArm-gradient_l_arm = Slime Left Arm (Gradient)
+marking-SlimeGradientLeftArm-gradient_l_arm = Ліва рука слизу (градієнт)
 marking-SlimeGradientLeftArm = Ліва рука слизу (градієнт)
 
-marking-SlimeGradientRightArm-gradient_r_arm = Slime Right Arm (Gradient)
+marking-SlimeGradientRightArm-gradient_r_arm = Права рука слизу (градієнт)
 marking-SlimeGradientRightArm = Права рука слизу (градієнт)
 
-marking-SlimeGradientLeftFoot-gradient_l_foot = Slime Left Foot (Gradient)
+marking-SlimeGradientLeftFoot-gradient_l_foot = Ліва нога слизу (градієнт)
 marking-SlimeGradientLeftFoot = Ліва нога слизу (градієнт)
 
-marking-SlimeGradientRightFoot-gradient_r_foot = Slime Right Foot (Gradient)
+marking-SlimeGradientRightFoot-gradient_r_foot = Слиз права нога (градієнт)
 marking-SlimeGradientRightFoot = Слиз права нога (градієнт)
 
-marking-SlimeGradientLeftLeg-gradient_l_leg = Slime Left Leg (Gradient)
+marking-SlimeGradientLeftLeg-gradient_l_leg = Ліва нога слизу (градієнт)
 marking-SlimeGradientLeftLeg = Ліва нога слизу (градієнт)
 
-marking-SlimeGradientRightLeg-gradient_r_leg = Slime Right Leg (Gradient)
+marking-SlimeGradientRightLeg-gradient_r_leg = Слиз права нога (градієнт)
 marking-SlimeGradientRightLeg = Слиз права нога (градієнт)
 
-marking-SlimeGradientLeftHand-gradient_l_hand = Slime Left Hand (Gradient)
+marking-SlimeGradientLeftHand-gradient_l_hand = Лівий шлам (градієнт)
 marking-SlimeGradientLeftHand = Лівий шлам (градієнт)
 
-marking-SlimeGradientRightHand-gradient_r_hand = Slime Right Hand (Gradient)
+marking-SlimeGradientRightHand-gradient_r_hand = Слизь права рука (градієнт)
 marking-SlimeGradientRightHand = Слизь права рука (градієнт)

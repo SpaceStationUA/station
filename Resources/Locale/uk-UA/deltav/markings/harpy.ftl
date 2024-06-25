@@ -29,16 +29,16 @@ marking-HarpyWingTipsClassic-harpywingtip1 = Головна
 marking-HarpyWingTipsClassic-harpywingtip2 = Кінчики пір'я
 
 marking-HarpyEarsDefault = Пучки пір'я
-marking-HarpyEarsDefault-harpy_ears_default = Tufts
+marking-HarpyEarsDefault-harpy_ears_default = Чубчики
 
 marking-HarpyTailPhoenix = Основний хвіст
-marking-HarpyTailPhoenix-phoenix_tail = Tail
+marking-HarpyTailPhoenix-phoenix_tail = Хвіст
 
 marking-HarpyTailRooster = Півнячий хвіст
-marking-HarpyTailRooster-rooster_tail = Tail
+marking-HarpyTailRooster-rooster_tail = Хвіст
 
 marking-HarpyTailFinch = Зябликовий хвіст
-marking-HarpyTailFinch-finch_tail = Tail
+marking-HarpyTailFinch-finch_tail = Хвіст
 
 marking-HarpyChestDefault = Термобілизна для крил і паху
 marking-HarpyChestDefault-upper = Термобілизна для крил
@@ -52,3 +52,5 @@ marking-HarpyFeetDefault-feet = Ноги
 marking-HarpyFeetDefault-talons = Пазурі
 
 marking-HarpyTailPeacock = Павиний хвіст
+marking-HarpyTailPeacock-peacock_tail_feathers = Пір'я
+marking-HarpyTailPeacock-peacock_tail_eyes = Очі.

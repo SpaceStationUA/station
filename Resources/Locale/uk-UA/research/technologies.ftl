@@ -46,7 +46,7 @@ research-technology-wave-particle-harnessing = Використання X-про
 research-technology-advanced-riot-control = Удосконалений RIOT контроль
 research-technology-portable-microfusion-weaponry = Портативна мікрофузійна зброя
 research-technology-experimental-battery-ammo = Експериментальні акумуляторні патрони
-research-technology-energy_barriers = Energy Barriers
+research-technology-energy_barriers = Енергетичні бар'єри
 research-technology-basic-shuttle-armament = Основне озброєння шатлу
 research-technology-advanced-shuttle-weapon = Удосконалена шатлова зброя
 

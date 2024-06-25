@@ -1,16 +1,16 @@
-marking-DionaThornsHead-thorns_head = Diona Head (Thorns)
+marking-DionaThornsHead-thorns_head = Діона Хед (Thorns)
 marking-DionaThornsHead = Діона Хед (Thorns)
 
-marking-DionaThornsBody-thorns_body = Diona Chest (Thorns)
+marking-DionaThornsBody-thorns_body = Діонова скриня (Терни)
 marking-DionaThornsBody = Діонова скриня (Терни)
 
-marking-DionaFlowersHead-flowers_head = Diona Head (Flowers)
+marking-DionaFlowersHead-flowers_head = Діона Хед (квіти)
 marking-DionaFlowersHead = Діона Хед (квіти)
 
-marking-DionaFlowersBody-flowers_body = Diona Chest (Flowers)
+marking-DionaFlowersBody-flowers_body = Скриня Діони (Квіти)
 marking-DionaFlowersBody = Скриня Діони (Квіти)
 
-marking-DionaLeafCover-leaf_cover = Diona Chest (Leaf)
+marking-DionaLeafCover-leaf_cover = Діонова скриня (Leaf)
 marking-DionaLeafCover = Діонова скриня (Leaf)
 
 marking-DionaBloomHead-bloom = Діона Еверблум (Квітка)
