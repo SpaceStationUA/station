@@ -1,5 +1,4 @@
-﻿command-description-visualize =
-    Takes the input list of entities and puts them into a UI window for easy browsing.
+command-description-visualize = Отримує вхідний список сутностей і поміщає їх у вікно інтерфейсу для зручного перегляду.
 command-description-runverbas = Виконує дієслово над вхідними сутностями з заданим користувачем.
 command-description-acmd-perms = Повертає права адміністратора даної команди, якщо такі є.
 command-description-acmd-caninvoke = Перевірте, чи може даний гравець викликати задану команду.

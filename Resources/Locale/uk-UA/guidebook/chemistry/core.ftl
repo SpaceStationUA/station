@@ -1,10 +1,9 @@
-﻿guidebook-reagent-effect-description =
-    {$chance ->
+guidebook-reagent-effect-description = { $chance ->
         [1] { $effect }
-        *[other] Has a { NATURALPERCENT($chance, 2) } chance to { $effect }
+        *[other] Має { NATURALPERCENT($chance, 2) } шанс на { $effect }
     }{ $conditionCount ->
         [0] .
-        *[other] {" "}when { $conditions }.
+        *[other] {" "}коли { $conditions }.
     }
 
 guidebook-reagent-name = [bold][color={$color}]{CAPITALIZE($name)}[/color][/bold]

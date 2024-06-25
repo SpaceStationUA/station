@@ -1,7 +1,6 @@
-﻿-create-3rd-person =
-    { $chance ->
-        [1] Creates
-        *[other] create
+-create-3rd-person = { $chance ->
+        [1] створює
+        *[other] створює
     }
 
 -cause-3rd-person = { $chance ->

@@ -1,4 +1,4 @@
-﻿reagent-effect-status-effect-Stun = stunning
+reagent-effect-status-effect-Stun = приголомшливо
 reagent-effect-status-effect-KnockedDown = нокдаун
 reagent-effect-status-effect-Jitter = тремтіння
 reagent-effect-status-effect-TemporaryBlindness = сліпота

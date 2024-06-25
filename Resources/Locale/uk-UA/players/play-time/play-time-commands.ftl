@@ -1,4 +1,4 @@
-﻿parse-minutes-fail = Unable to parse '{$minutes}' as minutes
+parse-minutes-fail = Не вдається розібрати '{$minutes}' як хвилини
 parse-session-fail = Не знайдено сесію для '{$username}'
 
 ## Команди рольового таймера

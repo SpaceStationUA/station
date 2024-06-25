@@ -1,2 +1,2 @@
-﻿reagent-name-nausium = nausium
+reagent-name-nausium = нудота
 reagent-desc-nausium = Огидно.

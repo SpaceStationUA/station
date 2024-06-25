@@ -1,2 +1,2 @@
-﻿advertisement-maildrobe-1 = Outrun any dog with our psuedo-suede duracarbon mail shorts! Limited supply!
+advertisement-maildrobe-1 = Обженеш будь-яку собаку в наших поштових шортах із міцної замші псуедо! Обмежена кількість!
 advertisement-maildrobe-2 = Синій вам дуже личить!

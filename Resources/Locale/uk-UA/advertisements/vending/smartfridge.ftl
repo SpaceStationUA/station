@@ -1,4 +1,4 @@
-﻿advertisement-smartfridge-1 = Hello world!
+advertisement-smartfridge-1 = Привіт, світе!
 advertisement-smartfridge-2 = ВИПУСТИ МЕНЕ!
 advertisement-smartfridge-3 = Я можу зробити квінтильйон обчислень за секунду. Тепер я холодильник.
 advertisement-smartfridge-4 = Доступне нове оновлення мікропрограми.

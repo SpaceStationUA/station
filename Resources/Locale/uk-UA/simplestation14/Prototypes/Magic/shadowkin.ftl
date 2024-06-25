@@ -1,4 +1,4 @@
-﻿action-name-shadowkin-teleport=Teleport
+action-name-shadowkin-teleport = Телепортуйся
 action-description-shadowkin-teleport = Аарамрра!
 
 action-name-shadowkin-darkswap = Темна підміна

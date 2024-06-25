@@ -1,4 +1,4 @@
-﻿shadowkin-power-examined-other = {CAPITALIZE(SUBJECT($target))} seems to be {$powerType}.
+shadowkin-power-examined-other = {CAPITALIZE(SUBJECT($target))} схоже на {$powerType}.
 shadowkin-power-examined-self = Ви маєте енергію {$power}/{$powerMax}, ви - {$powerType}.
 
 shadowkin-power-max = енергійний

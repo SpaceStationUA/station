@@ -1,4 +1,4 @@
-﻿loadcharacter-command-description = Applies your currently selected character to an entity
+loadcharacter-command-description = Застосовує вибраний вами символ до об'єкта
 loadcharacter-command-help = Використання: loadcharacter | loadcharacter <entityUid> | loadcharacter <entityUid> <characterName>
 loadcharacter-command-mismatch = Виявлено невідповідність виду між персонажем і вибраним об'єктом, це може призвести до несподіваних результатів.
 loadcharacter-command-complete = Символ завантажено.

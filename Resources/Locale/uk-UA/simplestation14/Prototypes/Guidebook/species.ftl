@@ -1,1 +1,1 @@
-﻿guide-entry-shadowkin = Shadowkin
+guide-entry-shadowkin = Шедоукін

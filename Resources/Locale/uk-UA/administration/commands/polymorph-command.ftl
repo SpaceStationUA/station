@@ -1,4 +1,4 @@
-﻿polymorph-command-description = For when you need someone to stop being a person. Takes an entity and a polymorph prototype.
+polymorph-command-description = Для випадків, коли потрібно, щоб хтось перестав бути людиною. Береться сутність і поліморфний прототип.
 polymorph-command-help-text = поліморф <id> <прототип поліморфу>
 
 add-polymorph-action-command-description = Беремо сутність і даємо їй добровільний поліморф.

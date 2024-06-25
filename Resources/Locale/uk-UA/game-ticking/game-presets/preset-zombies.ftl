@@ -1,4 +1,4 @@
-﻿zombie-title = Zombies
+zombie-title = Зомбі
 zombie-description = На станцію випустили мерців! Разом з екіпажем виживіть під час спалаху і захистіть станцію.
 
 zombie-not-enough-ready-players = Недостатньо гравців підготувалися до гри! Було підготовлено {$readyPlayersCount} гравців при необхідних {$minimumPlayers}. Неможливо почати гру "Зомбі".

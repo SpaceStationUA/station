@@ -1,4 +1,4 @@
-﻿immovable-rod-collided-rod-not-good = Oh fuck, that can't be good.
+immovable-rod-collided-rod-not-good = Бляха, це не може бути добре.
 immovable-rod-penetrated-mob = {CAPITALIZE(THE($rod))} чисто випотрошить {THE($mob)}!
 
 immovable-rod-consumed-none = {CAPITALIZE(THE($rod))} поглинуло нуль душ.
