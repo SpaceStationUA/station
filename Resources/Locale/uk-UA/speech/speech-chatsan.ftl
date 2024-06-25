@@ -7,14 +7,14 @@ chatsan-replacement-2 = будь ласка
 chatsan-word-3 = хз
 chatsan-replacement-3 = не знаю
 
-chatsan-word-4 = шзнх
-chatsan-replacement-4 = що за нафіг
+chatsan-word-4 = сука
+chatsan-replacement-4 = бука
 
-chatsan-word-5 = птнхл
-chatsan-replacement-5 = путін хуйло
+chatsan-word-5 = сук
+chatsan-replacement-5 = бука
 
-chatsan-word-6 = аПЦ
-chatsan-replacement-6 = зКЖ
+chatsan-word-6 = підар
+chatsan-replacement-6 = мудак
 
 chatsan-word-7 = арт
 chatsan-replacement-7 = артефакт
