@@ -15,7 +15,7 @@
   noSpawn: true
   parent: [BaseTerminatorObjective, BaseKillObjective]
   id: TerminateObjective
-  description: "Дотримуйтесь програми і знищіть ціль."
+  description: Follow your programming and terminate the target.
   components:
   - type: Objective
     unique: false
@@ -30,8 +30,8 @@
   noSpawn: true
   parent: BaseTerminatorObjective
   id: ShutDownObjective
-  name: "Вимкнути"
-  description: "Після завершення місії помріть, щоб запобігти крадіжці наших технологій."
+  name: Shut down
+  description: Once the mission is complete die to prevent our technology from being stolen.
   components:
   - type: Objective
     icon:
