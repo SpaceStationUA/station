@@ -2,7 +2,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodArcadia
   noSpawn: true
-  name: arcadia coat hood
+  name: "капюшон пальто arcadia"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hoods/Coat/arcadia.rsi
@@ -13,9 +13,9 @@
 - type: entity
   parent: ClothingHeadHatHoodBioGeneral
   id: ClothingHeadHatHoodBioArmoredSyndicate
-  name: bio hood
+  name: "біо-витяжка"
   suffix: Syndicate
-  description: A hood that protects the head and face from biological contaminants. As well as user's identity.
+  description: "Капюшон, що захищає голову та обличчя від біологічних забруднень. А також особистість користувача."
   components:
   - type: IdentityBlocker
   - type: Sprite
@@ -27,7 +27,7 @@
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodWinterSyndieUnremoveable
   noSpawn: true
-  name: syndicate coat hood
+  name: "синдикатський капюшон"
   components:
   - type: Unremoveable
   - type: Sprite
@@ -38,7 +38,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodBloodCulthood
-  name: cult hood
+  name: "культовий капюшон"
   noSpawn: true
   components:
   - type: Sprite
@@ -54,6 +54,6 @@
   parent: [ ClothingHeadHatHoodBloodCulthood, ClothingHeadHelmetBasic ] # hehe
   id: ClothingHeadHatHoodBloodCulthoodUnremoveable
   noSpawn: true
-  name: cult hood
+  name: "культовий капюшон"
   components:
   - type: Unremoveable

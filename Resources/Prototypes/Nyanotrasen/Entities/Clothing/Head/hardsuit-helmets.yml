@@ -2,8 +2,8 @@
   parent: ClothingHeadHelmetHardsuitRd
   id: ClothingHeadHelmetHardsuitMystagogue
   noSpawn: true
-  name: mystagogue's hardsuit helmet
-  description: Lightweight hardsuit helmet that has a galaxy-first psionic passthrough system.
+  name: "шолом містифікатора"
+  description: "Легкий захисний шолом, який має першу в галактиці систему проходження крізь псіонічні хвилі."
   components:
   - type: Psionic
   - type: TinfoilHat
@@ -19,8 +19,8 @@
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitSyndieReverseEngineered
   noSpawn: true
-  name: SA-123 combat hardsuit helmet
-  description: An advanced hardsuit helmet designed for work in special operations.
+  name: "Шолом бойового бронежилета SA-123"
+  description: "Удосконалений шолом-гардкостюм, призначений для роботи в умовах спецоперацій."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/ReverseEngineering/syndicate.rsi
@@ -31,8 +31,8 @@
   parent: ClothingHeadHelmetHardsuitCybersun
   id: ClothingHeadHelmetHardsuitJuggernautReverseEngineered
   noSpawn: true
-  name: SA-127 combat hardsuit helmet
-  description: An assault hardsuit helmet featuring a top-secret translucent polymer.
+  name: "Шолом бойового бронежилета SA-127"
+  description: "Шолом для штурмового бронежилету з надсекретного напівпрозорого полімеру."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/ReverseEngineering/juggernaut.rsi
@@ -42,7 +42,7 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitERTLeader
   id: ClothingHeadHelmetHardsuitERTCentcomm
-  name: CentCom hardsuit helmet
+  name: "Захисний шолом CentCom"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hardsuits/ERThelmets/ertcentcomm.rsi

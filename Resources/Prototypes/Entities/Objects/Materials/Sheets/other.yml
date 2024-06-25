@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: SheetOtherBase
-  description: A sheet of material, used often on the station in various applications.
+  description: "Лист матеріалу, який часто використовується на станції в різних сферах."
   components:
   - type: Sprite
     sprite: Objects/Materials/Sheets/other.rsi
@@ -31,7 +31,7 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPaper
-  name: paper
+  name: "папір"
   suffix: Full
   components:
   - type: Stack
@@ -66,7 +66,7 @@
 - type: entity
   parent: SheetPaper
   id: SheetPaper1
-  name: paper
+  name: "папір"
   suffix: Single
   components:
   - type: Sprite
@@ -77,7 +77,7 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPlasma
-  name: plasma
+  name: "плазма"
   suffix: Full
   components:
   - type: Material
@@ -116,7 +116,7 @@
 - type: entity
   parent: SheetPlasma
   id: SheetPlasma1
-  name: plasma
+  name: "плазма"
   suffix: Single
   components:
   - type: Sprite
@@ -127,7 +127,7 @@
 - type: entity
   parent: SheetOtherBase
   id: SheetPlastic
-  name: plastic
+  name: "пластик"
   suffix: Full
   components:
   - type: Tag
@@ -169,7 +169,7 @@
 - type: entity
   parent: SheetPlastic
   id: SheetPlastic10
-  name: plastic
+  name: "пластик"
   suffix: 10
   components:
   - type: Sprite
@@ -180,7 +180,7 @@
 - type: entity
   parent: SheetPlastic
   id: SheetPlastic1
-  name: plastic
+  name: "пластик"
   suffix: Single
   components:
   - type: Sprite
@@ -191,7 +191,7 @@
 - type: entity
   parent: [SheetOtherBase, FoodBase]
   id: SheetUranium
-  name: uranium
+  name: "уран"
   suffix: Full
   components:
   - type: Material
@@ -231,7 +231,7 @@
 - type: entity
   parent: SheetUranium
   id: SheetUranium1
-  name: uranium
+  name: "уран"
   suffix: Single
   components:
   - type: Stack
@@ -240,7 +240,7 @@
 - type: entity
   parent: SheetOtherBase
   id: MaterialSheetMeat
-  name: meat sheet
+  name: "м'ясний лист"
   suffix: Full
   components:
     - type: Sprite
