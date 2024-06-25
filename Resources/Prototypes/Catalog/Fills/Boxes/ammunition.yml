@@ -1,10 +1,10 @@
 # As opposed to MagazineBox these are boxes of magazines so BoxMagazine
 # CaselessRifle
 - type: entity
-  name: box of magazines
+  name: "коробка журналів"
   parent: BoxCardboard
   id: BoxMagazine
-  description: A box full of magazines.
+  description: "Коробка, повна журналів."
   components:
   - type: Sprite
     layers:
@@ -12,10 +12,10 @@
       - state: magazine
 
 - type: entity
-  name: box of .25 caseless magazines
+  name: "коробка безоболонкових магазинів калібру .25"
   parent: BoxMagazine
   id: BoxMagazinePistolCaselessRifle
-  description: A box full of .25 caseless magazines.
+  description: "Коробка, повна безоболонкових магазинів калібру .25."
   components:
   - type: StorageFill
     contents:
@@ -23,10 +23,10 @@
         amount: 4
 
 - type: entity
-  name: box of .25 caseless (practice) magazines
+  name: "коробка з безоболонковими (тренувальними) магазинами калібру .25"
   parent: BoxMagazine
   id: BoxMagazinePistolCaselessRiflePractice
-  description: A box full of .25 caseless practice magazines.
+  description: "Коробка, повна тренувальних магазинів для набоїв калібру .25."
   components:
   - type: StorageFill
     contents:
@@ -34,10 +34,10 @@
         amount: 4
 
 - type: entity
-  name: box of .25 caseless (rubber) magazines
+  name: "коробка безоболонкових (гумових) магазинів калібру .25"
   parent: BoxMagazine
   id: BoxMagazineCaselessRifleRubber
-  description: A box full of
+  description: "Коробка, повна"
   components:
   - type: StorageFill
     contents:
@@ -46,10 +46,10 @@
 
 # LightRifle
 - type: entity
-  name: box of .30 rifle magazines
+  name: "коробка магазинів для гвинтівок калібру .30"
   parent: BoxMagazine
   id: BoxMagazineLightRifle
-  description: A box full of .30 rifle magazines.
+  description: "Коробка, повна магазинів для гвинтівок калібру .30."
   components:
   - type: StorageFill
     contents:
@@ -57,10 +57,10 @@
         amount: 4
 
 - type: entity
-  name: box of .30 rifle (practice) magazines
+  name: "коробка магазинів до гвинтівки калібру .30 (тренувальні)"
   parent: BoxMagazine
   id: BoxMagazineLightRiflePractice
-  description: A box full of .30 rifle (practice) magazines.
+  description: "Коробка, повна магазинів для гвинтівок калібру .30 (тренувальних)."
   components:
   - type: StorageFill
     contents:
@@ -68,10 +68,10 @@
         amount: 4
 
 - type: entity
-  name: box of .30 rifle (rubber) magazines
+  name: "коробка магазинів для гвинтівок калібру .30 (гумові)"
   parent: BoxMagazine
   id: BoxMagazineLightRifleRubber
-  description: A box full of .30 rifle (practice) magazines.
+  description: "Коробка, повна магазинів для гвинтівок калібру .30 (тренувальних)."
   components:
   - type: StorageFill
     contents:
@@ -79,10 +79,10 @@
         amount: 4
 
 - type: entity
-  name: box of Vector magazines
+  name: "коробка журналів Vector"
   parent: BoxMagazine
   id: BoxMagazineMagnumSubMachineGun
-  description: A box full of Vector magazines.
+  description: "Коробка, повна журналів Vector."
   components:
   - type: StorageFill
     contents:
@@ -90,10 +90,10 @@
         amount: 3
 
 - type: entity
-  name: box of Vector (practice) magazines
+  name: "коробка журналів Vector (практика)"
   parent: BoxMagazine
   id: BoxMagazineMagnumSubMachineGunPractice
-  description: A box full of Vector (practice) magazines.
+  description: "Коробка, повна журналів Vector (практика)."
   components:
   - type: StorageFill
     contents:
@@ -101,10 +101,10 @@
         amount: 3
 
 - type: entity
-  name: box of Vector (rubber) magazines
+  name: "коробка журналів Vector (гумові)"
   parent: BoxMagazine
   id: BoxMagazineMagnumSubMachineGunRubber
-  description: A box full of Vector (rubber) magazines.
+  description: "Коробка з гумовими журналами Vector."
   components:
   - type: StorageFill
     contents:
@@ -113,10 +113,10 @@
 
 # Pistol
 - type: entity
-  name: box of WT550 .35 auto magazines
+  name: "коробка з магазинами WT550 калібру .35"
   parent: BoxMagazine
   id: BoxMagazinePistolSubMachineGunTopMounted
-  description: A box full of WT550 .35 auto magazines.
+  description: "Коробка, повна магазинів для автомата WT550 калібру .35."
   components:
   - type: StorageFill
     contents:
@@ -124,10 +124,10 @@
         amount: 3
 
 - type: entity
-  name: box of pistol .35 auto magazines
+  name: "коробка з пістолетними магазинами калібру .35"
   parent: BoxMagazine
   id: BoxMagazinePistol
-  description: A box full of pistol .35 auto magazines.
+  description: "Коробка, повна магазинів до пістолетів калібру .35."
   components:
   - type: StorageFill
     contents:
@@ -135,10 +135,10 @@
         amount: 4
 
 - type: entity
-  name: box of pistol .35 auto (practice) magazines
+  name: "коробка пістолетних авто (тренувальних) магазинів калібру .35"
   parent: BoxMagazine
   id: BoxMagazinePistolPractice
-  description: A box full of  magazines.
+  description: "Коробка, повна журналів."
   components:
   - type: StorageFill
     contents:
@@ -146,10 +146,10 @@
         amount: 4
 
 - type: entity
-  name: box of pistol .35 auto (rubber) magazines
+  name: "коробка пістолетних магазинів калібру .35 auto (гумові)"
   parent: BoxMagazine
   id: BoxMagazinePistolRubber
-  description: A box full of pistol .35 auto (rubber) magazines.
+  description: "Коробка, повна автоматичних (гумових) магазинів для пістолетів калібру .35."
   components:
   - type: StorageFill
     contents:
@@ -157,10 +157,10 @@
         amount: 4
 
 - type: entity
-  name: box of machine pistol .35 auto magazines
+  name: "коробка з магазинами для пістолета-кулемета калібру .35"
   parent: BoxMagazine
   id: BoxMagazinePistolHighCapacity
-  description: A box full of machine pistol .35 auto magazines.
+  description: "Коробка, повна магазинів до кулеметів калібру .35."
   components:
   - type: StorageFill
     contents:
@@ -168,10 +168,10 @@
         amount: 4
 
 - type: entity
-  name: box of machine pistol .35 auto (practice) magazines
+  name: "коробка магазинів до пістолета-кулемета калібру .35 автомата (тренувальні)"
   parent: BoxMagazine
   id: BoxMagazinePistolHighCapacityPractice
-  description: A box full of machine pistol .35 auto (practice) magazines.
+  description: "Коробка, повна магазинів до кулемета калібру .35 автомата (тренувальних)."
   components:
   - type: StorageFill
     contents:
@@ -179,10 +179,10 @@
         amount: 4
 
 - type: entity
-  name: box of machine pistol .35 auto (rubber) magazines
+  name: "коробка магазинів до пістолета-кулемета калібру .35 автомата (гумові)"
   parent: BoxMagazine
   id: BoxMagazinePistolHighCapacityRubber
-  description: A box full of machine pistol .35 auto (rubber) magazines.
+  description: "Коробка, повна магазинів до пістолета-кулемета калібру .35 auto (гумові)."
   components:
   - type: StorageFill
     contents:
@@ -191,10 +191,10 @@
 
 
 - type: entity
-  name: box of SMG .35 auto magazines
+  name: "коробка магазинів до автомата SMG калібру .35"
   parent: BoxMagazine
   id: BoxMagazinePistolSubMachineGun
-  description: A box full of SMG .35 auto magazines.
+  description: "Коробка, повна магазинів під набій SMG .35."
   components:
   - type: StorageFill
     contents:
@@ -202,10 +202,10 @@
         amount: 3
 
 - type: entity
-  name: box of SMG .35 auto (practice) magazines
+  name: "коробка з магазинами для автомата SMG .35 (тренувальні)"
   parent: BoxMagazine
   id: BoxMagazinePistolSubMachineGunPractice
-  description: A box full of SMG .35 auto (practice) magazines.
+  description: "Коробка, повна автоматичних (тренувальних) магазинів під набій SMG .35."
   components:
   - type: StorageFill
     contents:
@@ -213,10 +213,10 @@
         amount: 3
 
 - type: entity
-  name: box of SMG .35 auto (rubber) magazines
+  name: "коробка автомобільних (гумових) магазинів SMG .35"
   parent: BoxMagazine
   id: BoxMagazinePistolSubMachineGunRubber
-  description: A box full of SMG .35 auto (rubber) magazines.
+  description: "Коробка, повна автомобільних (гумових) магазинів під набій SMG .35."
   components:
   - type: StorageFill
     contents:
@@ -225,10 +225,10 @@
 
 # Shotgun
 - type: entity
-  name: box of (.50 pellet) ammo drums
+  name: "ящик бочок з набоями (калібру .50)"
   parent: BoxMagazine
   id: BoxMagazineShotgun
-  description: A box full of (.50 pellet) ammo drums.
+  description: "Ящик, повний бочок з набоями калібру .50."
   components:
   - type: StorageFill
     contents:
@@ -236,10 +236,10 @@
         amount: 4
 
 - type: entity
-  name: box of (.50 beanbag) ammo drums
+  name: "ящик бочок з набоями калібру .50"
   parent: BoxMagazine
   id: BoxMagazineShotgunBeanbag
-  description: A box full of (.50 beanbag) ammo drums.
+  description: "Ящик, повний бочок з набоями калібру .50."
   components:
   - type: StorageFill
     contents:
@@ -247,10 +247,10 @@
         amount: 4
 
 - type: entity
-  name: box of (.50 slug) ammo drums
+  name: "ящик бочок з набоями калібру .50"
   parent: BoxMagazine
   id: BoxMagazineShotgunSlug
-  description: A box full of (.50 slug) ammo drums.
+  description: "Ящик, повний барабанів з набоями калібру .50."
   components:
   - type: StorageFill
     contents:
@@ -258,10 +258,10 @@
         amount: 4
 
 - type: entity
-  name: box of (.50 incendiary) ammo drums
+  name: "ящик бочок з набоями калібру (.50 запалювальними)"
   parent: BoxMagazine
   id: BoxMagazineShotgunIncendiary
-  description: A box full of (.50 incendiary) ammo drums.
+  description: "Ящик, повний барабанів з набоями калібру (.50 запалювальних)."
   components:
   - type: StorageFill
     contents:
@@ -270,10 +270,10 @@
 
 # Rifle
 - type: entity
-  name: box of .20 rifle magazines
+  name: "коробка магазинів для гвинтівок калібру .20"
   parent: BoxMagazine
   id: BoxMagazineRifle
-  description: A box full of .20 rifle magazines.
+  description: "Коробка, повна магазинів для гвинтівок калібру .20."
   components:
   - type: StorageFill
     contents:
@@ -281,10 +281,10 @@
         amount: 4
 
 - type: entity
-  name: box of .20 rifle (practice) magazines
+  name: "коробка магазинів до гвинтівки калібру .20 (тренувальні)"
   parent: BoxMagazine
   id: BoxMagazineRiflePractice
-  description: A box full of .20 rifle (practice) magazines.
+  description: "Коробка, повна магазинів для гвинтівок калібру .20 (тренувальних)."
   components:
   - type: StorageFill
     contents:
@@ -292,10 +292,10 @@
         amount: 4
 
 - type: entity
-  name: box of .20 rifle (rubber) magazines
+  name: "коробка магазинів для гвинтівок калібру .20 (гумові)"
   parent: BoxMagazine
   id: BoxMagazineRifleRubber
-  description: A box full of .20 rifle (rubber) magazines.
+  description: "Коробка, повна магазинів для гвинтівок калібру .20 (гумові)."
   components:
   - type: StorageFill
     contents:

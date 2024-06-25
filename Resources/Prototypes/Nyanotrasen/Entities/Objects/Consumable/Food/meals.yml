@@ -1,8 +1,8 @@
 - type: entity
-  name: big baked rice
+  name: "великий запечений рис"
   parent: FoodBakingBase
   id: FoodMothBakedRice
-  description: A mothic favourite, baked rice can be filled with a variety of vegetable fillings to make a delicious meal to share.
+  description: "Улюблений мотиками запечений рис можна наповнити різноманітними овочевими начинками, щоб приготувати смачну страву, якою можна було б поділитися."
   components:
   - type: FlavorProfile
     flavors:
@@ -31,10 +31,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: lil baked rice
+  name: "малий запечений рис"
   parent: FoodBakingBase
   id: FoodMothBakedRicePortion
-  description: A single portion of baked rice, perfect as a side dish, or even as a full meal.
+  description: "Одна порція запеченого рису ідеально підходить як гарнір або навіть як повноцінна страва."
   components:
   - type: FlavorProfile
     flavors:
@@ -60,10 +60,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: green lasagne
+  name: "зелена лазанья"
   parent: FoodMealBase
   id: FoodMothGreenLasagne
-  description: A fine lasagne made with pesto and a herby white sauce. Good for multiple servings.
+  description: "Вишукана лазанья з песто та білого соусу з травами. Добре підходить для кількох порцій."
   components:
   - type: FlavorProfile
     flavors:
@@ -94,10 +94,10 @@
 #Tastes like cheese, pesto and pasta
 
 - type: entity
-  name: green lasagne slice
+  name: "зелений шматочок лазаньї"
   parent: FoodMealBase
   id: FoodMothGreenLasagneSlice
-  description: A slice of herby, pesto-y lasagne.
+  description: "Шматочок лазаньї з травами та соусом песто."
   components:
   - type: FlavorProfile
     flavors:
@@ -124,10 +124,10 @@
 #Tastes like cheese, pesto and pasta
 
 - type: entity
-  name: oven-baked corn
+  name: "запечена в духовці кукурудза"
   parent: FoodBakingBase
   id: FoodMothBakedCorn
-  description: A cob of corn, baked in the roasting heat of an oven until it blisters and blackens.
+  description: "Качан кукурудзи, запечений у жаркій духовці до утворення пухирців і почорніння."
   components:
   - type: FlavorProfile
     flavors:
@@ -150,10 +150,10 @@
 #Tastes like corn and char
 
 - type: entity
-  name: buttered baked corn
+  name: "запечена кукурудза в маслі"
   parent: FoodBakingBase
   id: FoodMothButteredBakedCorn
-  description: A cob of corn, baked in the roasting heat of an oven until it blisters and blackens.
+  description: "Качан кукурудзи, запечений у жаркій духовці до утворення пухирців і почорніння."
   components:
   - type: FlavorProfile
     flavors:
@@ -177,10 +177,10 @@
 #Tastes like corn, butter and char
 
 - type: entity
-  name: mozzarella sticks
+  name: "палички моцарели"
   parent: FoodBakingBase
   id: FoodMothMozzarellaSticks
-  description: Little sticks of mozzarella, breaded and fried.
+  description: "Маленькі палички моцарели, обсмажені в паніровці."
   components:
   - type: FlavorProfile
     flavors:
@@ -206,10 +206,10 @@
 
 # Mac Balls should use macncheese donks
 - type: entity
-  name: mac balls
+  name: "макаронні кульки"
   parent: FoodBakingBase
   id: FoodMothMacBalls
-  description: Fried balls of donk-pocket dipped in corn batter, served with tomato sauce.
+  description: "Обсмажені кульки з донжуана, вмочені в кукурудзяний кляр, подаються з томатним соусом."
   components:
   - type: FlavorProfile
     flavors:
@@ -238,10 +238,10 @@
 #Tastes like pasta, cornbread and cheese
 
 - type: entity
-  name: fish and chips
+  name: "риба з картоплею"
   parent: FoodMealBase
   id: FoodMealFishChips
-  description: A dish that consists of fried fish and potatoes.
+  description: "Страва, яка складається зі смаженої риби та картоплі."
   components:
   - type: FlavorProfile
     flavors:
