@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: N14ClothingUniformJumpskirtFalloutBlack
-  name: black skirt
-  description: It's a skirt. This one is black.
+  name: "чорна спідниця"
+  description: "Це спідниця. Ця чорна."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSkirts/blackskirt.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: N14ClothingUniformJumpskirtFalloutBlue
-  name: blue skirt
-  description: It's a skirt. This one is blue.
+  name: "синя спідниця"
+  description: "Це спідниця. Ця синя."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSkirts/blueskirt.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: N14ClothingUniformJumpskirtDressBlack
-  name: black dress
-  description: It's a dress. This one is black.
+  name: "чорна сукня"
+  description: "Це сукня. Ця чорна."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSkirts/blackdress.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: N14ClothingUniformJumpskirtDressBlue
-  name: blue dress
-  description: It's a dress. This one is blue.
+  name: "синя сукня"
+  description: "Це сукня. Ця синя."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSkirts/bluedress.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: N14ClothingUniformJumpskirtSundress
-  name: sundress
-  description: It's a pre-war sundress.
+  name: "сарафан"
+  description: "Це довоєнний сарафан."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSkirts/sundress.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: N14ClothingUniformJumpskirtWastelandDoc
-  name: wasteland doctor's apparel
-  description: It's a uniform that post-war doctors wear. Perfect for shrapnel removal or bandaging bruises.
+  name: "одяг лікаря на пустирі"
+  description: "Це форма, яку носили повоєнні лікарі. Ідеально підходить для видалення осколків або перев'язки синців."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSkirts/medicaldoctor.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: N14ClothingUniformJumpskirtMerc
-  name: mercenary uniform
-  description: A uniform worn by your typical hirable-gun type.
+  name: "форма найманця"
+  description: "Уніформа, яку носять типові найманці."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSkirts/mercc.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: N14ClothingUniformJumpskirtTribal
-  name: tribal apparel
-  description: Fairly primitive clothing for fairly primitve people. 
+  name: "племінний одяг"
+  description: "Досить примітивний одяг для досить примітивних людей."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSkirts/tribal.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: N14ClothingUniformJumpskirtRDFormal
-  name: research director's formal dress
-  description: Some formal attire for the research director.
+  name: "офіційна сукня наукового керівника"
+  description: "Офіційне вбрання для наукового керівника."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSkirts/rdformal.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: N14ClothingUniformJumpskirtBOSBlack
-  name: black brotherhood of steel uniform
-  description: A uniform worn by members of The Brotherhood of Steel. This one is black.
+  name: "чорне братство сталевої уніформи"
+  description: "Форма, яку носять члени \"Сталевого братства\". Ця чорна."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSkirts/Brotherhood/bosbasic.rsi
@@ -112,9 +112,9 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: N14ClothingUniformJumpskirtBOSSilver
-  name: brotherhood of steel uniform
+  name: "братство сталевої уніформи"
   suffix: ranked silver
-  description: A uniform worn by members of The Brotherhood of Steel. This one has silver rank-markings.
+  description: "Уніформа, яку носили члени \"Сталевого братства\". Ця має срібні знаки розрізнення."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSkirts/Brotherhood/bossilver.rsi
@@ -124,9 +124,9 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: N14ClothingUniformJumpskirtBOSGold
-  name: brotherhood of steel uniform
+  name: "братство сталевої уніформи"
   suffix: ranked gold
-  description: A uniform worn by members of The Brotherhood of Steel. This one has gold rank-markings.
+  description: "Уніформа, яку носили члени \"Сталевого братства\". Ця має золоті знаки розрізнення."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSkirts/Brotherhood/bosgold.rsi

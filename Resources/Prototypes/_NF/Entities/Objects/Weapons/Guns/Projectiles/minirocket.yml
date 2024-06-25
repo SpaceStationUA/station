@@ -2,7 +2,7 @@
 - type: entity
   parent: BaseBulletTrigger
   id: BulletRocketMiniNF
-  name: mini rocket
+  name: "міні-ракета"
   noSpawn: true
   components:
   - type: Sprite
@@ -24,7 +24,7 @@
 # Cartridge
 - type: entity
   id: CartridgeRocketMiniNF
-  name: minirocket
+  name: "міні-ракетка"
   parent: BaseItem
   components:
     - type: Item

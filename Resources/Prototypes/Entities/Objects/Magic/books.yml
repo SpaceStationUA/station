@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: BaseSpellbook
-  name: spellbook
+  name: "книга заклинань"
   parent: BaseItem
   abstract: true
   components:
@@ -15,7 +15,7 @@
 
 - type: entity
   id: SpawnSpellbook
-  name: spawn spellbook
+  name: "книга заклинань відтворення"
   parent: BaseSpellbook
   components:
     - type: Spellbook
@@ -24,7 +24,7 @@
 
 - type: entity
   id: ForceWallSpellbook
-  name: force wall spellbook
+  name: "книга заклинань силової стіни"
   parent: BaseSpellbook
   components:
     - type: Sprite
@@ -37,7 +37,7 @@
 
 - type: entity
   id: BlinkBook
-  name: blink spellbook
+  name: "книга заклинань блимання"
   parent: BaseSpellbook
   components:
     - type: Sprite
@@ -50,7 +50,7 @@
 
 - type: entity
   id: SmiteBook
-  name: smite spellbook
+  name: "книга заклинань \"Удар"
   parent: BaseSpellbook
   components:
   - type: Sprite
@@ -63,7 +63,7 @@
 
 - type: entity
   id: KnockSpellbook
-  name: knock spellbook
+  name: "книга заклинань \"стук"
   parent: BaseSpellbook
   components:
     - type: Sprite
@@ -76,7 +76,7 @@
 
 - type: entity
   id: FireballSpellbook
-  name: fireball spellbook
+  name: "книга заклинань вогняної кулі"
   parent: BaseSpellbook
   components:
   - type: Sprite
@@ -89,7 +89,7 @@
 
 - type: entity
   id: ScrollRunes
-  name: scroll of runes
+  name: "сувій рун"
   parent: BaseSpellbook
   components:
   - type: Item

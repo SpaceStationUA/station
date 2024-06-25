@@ -1,8 +1,8 @@
 - type: entity
   id: CrateScienceBiosuit
   parent: CrateScienceSecure
-  name: scientist bio suit crate
-  description: Contains 2 biohazard suits to ensure that no disease will distract you from doing science. Requires Science access to open.
+  name: "ящик для біокостюму вченого"
+  description: "Містить 2 костюми біозахисту, щоб жодна хвороба не відволікала вас від занять наукою. Потрібен відкритий доступ до Science."
   components:
   - type: StorageFill
     contents:
