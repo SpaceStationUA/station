@@ -1,8 +1,8 @@
 - type: entity
-  name: "гарбузовий пиріг"
+  name: pumpkin pie
   parent: FoodPieBase
   id: FoodPiePumpkin
-  description: "Сезонний фаворит, що складається переважно з гарбуза та жменьки моторошних спецій."
+  description: A seasonal favorite, consisting mostly of pumpkin and a handful of spooky spices.
   components:
   - type: FlavorProfile
     flavors:
@@ -21,7 +21,7 @@
     - Pie
 
 - type: entity
-  name: "шматочок гарбузового пирога"
+  name: slice of pumpkin pie
   parent: FoodPieSliceBase
   id: FoodPiePumpkinSlice
   components:

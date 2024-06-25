@@ -1,8 +1,8 @@
 - type: entity
-  name: "песець"
+  name: arctic fox
   parent: SimpleMobBase
   id: MobArcticFox
-  description: "Носить королівську шубу сніжної елегантності, що підкреслює її холодну і винахідливу натуру."
+  description: Wears a regal coat of snowy elegance, belying its cold and resourceful nature.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -73,10 +73,10 @@
     - Fox
 
 - type: entity
-  name: "охоронний собака"
+  name: security dog
   parent: SimpleMobBase
   id: MobSecDog
-  description: "Як не дивно, ця свиня насправді собака."
+  description: Funnily enough, this pig is actually a dog.
   components:
   - type: GhostRole
     makeSentient: true

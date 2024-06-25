@@ -1,8 +1,8 @@
 - type: entity
-  name: "енергетичний меч"
+  name: energy sword
   parent: BaseItem
   id: EnergySword
-  description: "Дуже гучний і небезпечний меч з променем з чистої, концентрованої плазми. Розсікає неброньовані цілі як масло."
+  description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
   components:
   - type: EnergySword
   - type: ItemToggle
@@ -85,7 +85,7 @@
     temperature: 700
 
 - type: entity
-  name: "ручка"
+  name: pen
   parent: EnergySword
   id: EnergyDagger
   suffix: E-Dagger
@@ -166,9 +166,9 @@
 - type: entity
   parent: BaseItem
   id: EnergyDaggerBox
-  name: "коробка для електронних кинджалів"
+  name: e-dagger box
   suffix: E-Dagger
-  description: "Невеличка коробочка з електронним кинджалом. Упаковка розпадається при відкритті, не залишаючи жодних доказів."
+  description: A small box containing an e-dagger. Packaging disintegrates when opened, leaving no evidence behind.
   components:
   - type: Item
     size: Tiny
@@ -182,10 +182,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: "енергетичний меч"
+  name: energy cutlass
   parent: EnergySword
   id: EnergyCutlass
-  description: "Екзотична енергетична зброя, брутальне лезо, що потріскує грубо приборканою плазмою." #DeltaV - nicer description.
+  description: An exotic energy weapon, brutal blade crackling with crudely harnessed plasma. #DeltaV - nicer description.
   components:
   - type: EnergySword
   - type: ItemToggleMeleeWeapon
@@ -226,10 +226,10 @@
         shader: unshaded
 
 - type: entity
-  name: "двосічний енергетичний меч"
+  name: double-bladed energy sword
   parent: EnergySword
   id: EnergySwordDouble
-  description: "Стажери Командування Синдикату вважали, що одного леза на енергетичному мечі недостатньо. Його можна зберігати в кишенях."
+  description: Syndicate Command Interns thought that having one blade on the energy sword was not enough. This can be stored in pockets.
   components:
   - type: EnergySword
   - type: ItemToggle
@@ -297,10 +297,10 @@
         shader: unshaded
 #PIRATE START UNTIL END OF FILE
 - type: entity
-  name: "енергетична шабля"
+  name: енергетична сабля
   parent: EnergyCutlass
   id: MagicEnergyCutlass
-  description: "Дуже гучний і небезпечний сабля із пучком із чистої концентрованої плазми. Прорізає неброньовані цілі як масло."
+  description: Дуже гучний і небезпечний сабля із пучком із чистої концентрованої плазми. Прорізає неброньовані цілі як масло.
   components:
   - type: MeleeWeapon
     soundSwing:

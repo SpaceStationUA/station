@@ -2,8 +2,8 @@
   abstract: true
   id: BaseTranslatorImplanter
   parent: [ BaseItem ]
-  name: "базовий перекладацький імплантат"
-  description: "Перекладає мову."
+  name: basic translator implant
+  description: Translates speech.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/implanter.rsi
@@ -28,8 +28,8 @@
 - type: entity
   id: BasicGalaticCommonTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: "базовий імплантат перекладача Galactic Common"
-  description: "Імплантат, що дає можливість розуміти галактичну мову."
+  name: basic Galactic Common translator implant
+  description: An implant giving the ability to understand Galactic Common.
   components:
   - type: TranslatorImplanter
     understood:
@@ -38,8 +38,8 @@
 - type: entity
   id: AdvancedGalaticCommonTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: "вдосконалений імплантат перекладача Галактичної Спільної мови"
-  description: "Імплантат, що дає можливість розуміти та розмовляти галактичною мовою."
+  name: advanced Galactic Common translator implant
+  description: An implant giving the ability to understand and speak Galactic Common.
   components:
   - type: TranslatorImplanter
     spoken:
@@ -50,8 +50,8 @@
 - type: entity
   id: BubblishTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: "Імплантат перекладача Bubblish"
-  description: "Імплантат, що дає можливість розуміти та розмовляти мовою баббліш."
+  name: Bubblish translator implant
+  description: An implant giving the ability to understand and speak Bubblish.
   components:
   - type: TranslatorImplanter
     spoken:
@@ -62,8 +62,8 @@
 - type: entity
   id: NekomimeticTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: "Неоміметичний перекладацький імплантат"
-  description: "Імплантат, що дає можливість розуміти та розмовляти неміметичною мовою. Ня~!"
+  name: Nekomimetic translator implant
+  description: An implant giving the ability to understand and speak Nekomimetic. Nya~!
   components:
   - type: TranslatorImplanter
     spoken:
@@ -74,8 +74,8 @@
 - type: entity
   id: DraconicTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: "Драконівський перекладацький імплантат"
-  description: "Імплантат, що дає можливість розуміти і розмовляти драконячою мовою."
+  name: Draconic translator implant
+  description: An implant giving the ability to understand and speak Draconic.
   components:
   - type: TranslatorImplanter
     spoken:
@@ -86,8 +86,8 @@
 - type: entity
   id: CanilunztTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: "Імплантат перекладача Canilunzt"
-  description: "Імплантат, що дає можливість розуміти та розмовляти мовою канілунц. Ух ти!"
+  name: Canilunzt translator implant
+  description: An implant giving the ability to understand and speak Canilunzt. Yeeps!
   components:
   - type: TranslatorImplanter
     spoken:
@@ -98,8 +98,8 @@
 - type: entity
   id: SolCommonTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: "Перекладацький імплантат SolCommon"
-  description: "Імплантат, що дає можливість розуміти та розмовляти солкомовною. Аааа!"
+  name: SolCommon translator implant
+  description: An implant giving the ability to understand and speak SolCommon. Raaagh!
   components:
   - type: TranslatorImplanter
     spoken:
@@ -110,8 +110,8 @@
 - type: entity
   id: RootSpeakTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: "Імплантат перекладача RootSpeak"
-  description: "Імплантат, що дає можливість розуміти та розмовляти мовою RootSpeak."
+  name: RootSpeak translator implant
+  description: An implant giving the ability to understand and speak RootSpeak.
   components:
   - type: TranslatorImplanter
     spoken:
@@ -122,8 +122,8 @@
 - type: entity
   id: MofficTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: "Імплантат перекладача Moffic"
-  description: "Імплантат, що дає можливість розуміти та розмовляти жестовою мовою."
+  name: Moffic translator implant
+  description: An implant giving the ability to understand and speak Moffic.
   components:
   - type: TranslatorImplanter
     spoken:
