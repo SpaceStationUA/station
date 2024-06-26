@@ -4,4 +4,4 @@ foldable-deploy-fail = Ви не можете розгорнути {$object} т�
 fold-verb = Скласти
 unfold-verb = Розгорнути
 
-fold-flip-verb = Переверни
+fold-flip-verb = Перевернути

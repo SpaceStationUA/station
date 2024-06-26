@@ -4,7 +4,7 @@ apc-menu-breaker-label = Головний вимикач
 apc-menu-breaker-button = Перемкнути
 apc-menu-power-label = Електроживлення
 apc-menu-external-label = Зовнішнє живлення
-apc-menu-charge-label = Заряд {$percent}
+apc-menu-charge-label = Заряду {$percent}
 
 # For the power state label
 
@@ -14,7 +14,7 @@ apc-menu-power-state-none = Немає напруги
 
 # For the power state label
 
-apc-menu-power-state-good = Гарний
+apc-menu-power-state-good = Добрий
 apc-menu-power-state-low = Низький
 apc-menu-power-state-none = Відсутній
 

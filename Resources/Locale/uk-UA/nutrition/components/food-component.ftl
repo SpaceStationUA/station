@@ -17,7 +17,7 @@ food-system-you-cannot-eat-any-more = Ви не можете більше їст
 food-system-you-cannot-eat-any-more-other = Вони більше не можуть їсти!
 food-system-try-use-food-is-empty = {CAPITALIZE(THE($entity))} порожня!
 food-system-wrong-utensil = Не можна їсти {THE($food)} з {INDEFINITE($utensil)}.
-food-system-cant-digest = Ти не можеш перетравити {THE($entity)}!
+food-system-cant-digest = Ви не можете перетравити {THE($entity)}!
 food-system-cant-digest-other = Вони не можуть перетравлювати {THE($entity)}!
 
 food-system-verb-eat = Їсти

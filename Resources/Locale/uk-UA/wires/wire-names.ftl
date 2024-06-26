@@ -42,29 +42,29 @@ wires-board-name-spaceheater = Обігрівач простору
 
 # імена, які відображаються в логах hud та адміністратора злому дроту.
 
-wire-name-access = Доступ
-wire-name-arcade-overflow = Переповнення
-wire-name-air-alarm-panic = Тривога
-wire-name-device-net = Мережа
-wire-name-bolt-light = БЛІТ
+wire-name-access = ДОСТУП
+wire-name-arcade-overflow = ПЕРЕПОВНЕННЯ
+wire-name-air-alarm-panic = ТРИВОГА
+wire-name-device-net = МЕРЕЖА
+wire-name-bolt-light = СВІТЛО
 wire-name-door-bolt = БОЛТ
-wire-name-door-safety = БЕЗПЕЧНО
-wire-name-door-timer = Таймер дверей
+wire-name-door-safety = БЕЗПЕКА
+wire-name-door-timer = ТАЙМЕР
 wire-name-lock = БЛОКУВАННЯ
-wire-name-power = Електроживлення
-wire-name-arcade-invincible = Невразливий
-wire-name-vending-contraband = Контрабанда
-wire-name-vending-eject = Викидання
-wire-name-pa-keyboard = Клавіатура
-wire-name-pa-limiter = Обмежувач
-wire-name-pa-power = Живлення
-wire-name-pa-strength = Сила
+wire-name-power = ЕЛЕКТРОЖИВЛЕННЯ
+wire-name-arcade-invincible = НЕВРАЗЛИВИЙ
+wire-name-vending-contraband = КОНТРАБАНДА
+wire-name-vending-eject = ВИКИДАННЯ
+wire-name-pa-keyboard = КЛАВІАТУРА
+wire-name-pa-limiter = ОБМЕЖУВАЧ
+wire-name-pa-power = ЖИВЛЕННЯ
+wire-name-pa-strength = СИЛА
 wire-name-bomb-live = НАЖИВО
 wire-name-bomb-delay = ЗАТРИМКА
-wire-name-bomb-proceed = Продовжити
+wire-name-bomb-proceed = ПРОДОВЖИТИ
 wire-name-bomb-boom = БУМ
 wire-name-bomb-bolt = БОЛТ
-wire-name-speech = Голос
-wire-name-listen = Мікрофон
+wire-name-speech = ГОЛОС
+wire-name-listen = МІКРОФОН
 
 ipc-board-name = Провода ІПШ

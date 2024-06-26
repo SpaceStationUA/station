@@ -18,7 +18,7 @@ gravity-generator-window-status-charging = Зарядка
 gravity-generator-window-status-discharging = Розрядка
 
 ## Кнопки живлення інтерфейсу
-gravity-generator-window-power-on = На
+gravity-generator-window-power-on = Увімкнено
 gravity-generator-window-power-off = Вимкнено
 gravity-generator-window-power-label = { $draw } / { $max } W
 

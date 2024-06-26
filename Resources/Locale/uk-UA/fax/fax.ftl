@@ -19,7 +19,7 @@ fax-machine-ui-to = До:
 fax-machine-ui-from = Від:
 fax-machine-ui-paper = Папірець:
 fax-machine-ui-paper-inserted = Папірець всередині
-fax-machine-ui-paper-not-inserted = нічого всередині
+fax-machine-ui-paper-not-inserted = Паперу нема
 
 fax-machine-chat-notify = Отримано нове факсове повідомлення від "{$fax}
 

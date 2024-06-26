@@ -1,6 +1,6 @@
 ## UI
 
-ui-disposal-unit-title = Мусорка
+ui-disposal-unit-title = Смітник
 
 ui-disposal-unit-label-state = Статус:
 ui-disposal-unit-label-pressure = Тиск:
@@ -8,7 +8,7 @@ ui-disposal-unit-label-status = Готово
 
 ui-disposal-unit-button-flush = Змити
 ui-disposal-unit-button-eject = Вийняти вміст
-ui-disposal-unit-button-power = Сила
+ui-disposal-unit-button-power = Живлення
 
 ## Дієслова
 disposal-flush-verb-get-data-text = Змити
@@ -16,7 +16,7 @@ disposal-self-insert-verb-get-data-text = Стрибнути всередину
 disposal-eject-verb-get-data-text = Вийняти вміст
 
 ## No hands
-disposal-unit-no-hands = У тебе немає рук!
+disposal-unit-no-hands = У вас немає рук!
 
 ## Промахнувся
 disposal-unit-thrown-missed = Промах!

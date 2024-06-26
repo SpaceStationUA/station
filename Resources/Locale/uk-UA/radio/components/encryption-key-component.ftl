@@ -3,7 +3,7 @@ encryption-key-slots-already-full = Немає місця для ключа ши
 encryption-keys-all-extracted = Ви витягуєте ключі шифрування!
 encryption-keys-no-keys = Цей пристрій не має ключів шифрування!
 encryption-keys-are-locked = Слоти для ключів шифрування заблоковані!
-encryption-keys-panel-locked = Спочатку відкрийте панель!
+encryption-keys-panel-locked = Спочатку відкрийте технічну панель!
 
 examine-encryption-channels-prefix = Доступні частоти:
 examine-encryption-channel = [color={$color}]{$key} для {$id} ({$freq})[/color]

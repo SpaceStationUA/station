@@ -53,4 +53,4 @@ marking-HarpyFeetDefault-talons = Пазурі
 
 marking-HarpyTailPeacock = Павиний хвіст
 marking-HarpyTailPeacock-peacock_tail_feathers = Пір'я
-marking-HarpyTailPeacock-peacock_tail_eyes = Очі.
+marking-HarpyTailPeacock-peacock_tail_eyes = Очі

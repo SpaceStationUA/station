@@ -3,7 +3,7 @@
 species-name-vulpkanin = Вульпа
 species-name-harpy = Гарпія
 
-species-name-shadowkin = Тінькін
+species-name-shadowkin = Тіньовик
 
 species-name-goblin = Гоблін
 

@@ -4,9 +4,9 @@
 
 cmd-createvote-desc = Створити голосування
 cmd-createvote-help = Використовуйте: createvote <'restart'|'preset'|'map'>
-cmd-createvote-cannot-call-vote-now = Зараз це зробити не можна!
+cmd-createvote-cannot-call-vote-now = Ви не можете зараз викликати голосування!
 cmd-createvote-invalid-vote-type = Неправильний тип голосування
-cmd-createvote-arg-vote-type = <тип голосу> <тип голосу
+cmd-createvote-arg-vote-type = <тип голосу>
 
 ## команда 'customvote'
 

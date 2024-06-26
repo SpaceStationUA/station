@@ -1,4 +1,4 @@
-marking-TailShadowkin = Тінькін
+marking-TailShadowkin = Тіньовик
 marking-TailShadowkinBig = Shadowkin (Великий)
 marking-TailShadowkinShorter = Shadowkin (короткометражка)
 marking-TailShadowkinMedium = Shadowkin (середній)

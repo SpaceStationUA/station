@@ -1,1 +1,1 @@
-marking-EyesShadowkin = Тінькін
+marking-EyesShadowkin = Тіньовик

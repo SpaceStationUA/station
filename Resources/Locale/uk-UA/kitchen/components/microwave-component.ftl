@@ -21,7 +21,7 @@ microwave-bound-user-interface-cook-time-label = Час приготування
 
 microwave-menu-title = Мікрохвильовка
 microwave-menu-start-button = Почати
-microwave-menu-eject-all-text = Вийняти Вміст
+microwave-menu-eject-all-text = Вийняти вміст
 microwave-menu-eject-all-tooltip = Випаровує всі реагенти, але викидає всі тверді речовини.
 microwave-menu-instant-button = МИТЬ
 microwave-menu-footer-flavor-left = Не вставляйте електронні, металеві або живі предмети.

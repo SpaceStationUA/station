@@ -14,7 +14,7 @@ criminal-records-status-suspected = Підозра
 criminal-records-status-discharged = Звільнено
 criminal-records-status-paroled = Умовно-достроково
 
-criminal-records-console-wanted-reason = [color=gray]Підсава для розшуку[/color]
+criminal-records-console-wanted-reason = [color=gray]Підстава для розшуку[/color]
 criminal-records-console-suspected-reason = [color=gray]Підстава для підозри[/color]
 criminal-records-console-reason = Підстава
 criminal-records-console-reason-placeholder = Наприклад: {$placeholder}
@@ -31,14 +31,14 @@ criminal-records-permission-denied = Немає доступу
 
 ## Security channel notifications
 
-criminal-records-console-wanted = {$officer} подали у розшук: {$name} за: {$reason}.
-criminal-records-console-suspected = {$officer} позначили {$name} як підозрілу особу через: {$reason}
-criminal-records-console-not-suspected = {$name} більше не підозрілий.
-criminal-records-console-detained = {$name} було затримано, від {$officer}.
-criminal-records-console-released = {$name} було звільнено, від {$officer}.
+criminal-records-console-wanted = {$name} подано у розшук офіцером {$officer} за: {$reason}.
+criminal-records-console-suspected = {$name} позначено як підозрілу особу офіцером {$officer} через: {$reason}
+criminal-records-console-not-suspected = {$name} більше не в підозрі.
+criminal-records-console-detained = {$name} було затримано офіцером {$officer}.
+criminal-records-console-released = {$name} було звільнено офіцером {$officer}.
 criminal-records-console-not-wanted = {$name} більше не у розшуку.
-criminal-records-console-paroled = {$name} звільнено достроково, від {$officer}.
-criminal-records-console-not-parole = {$name} більше не значиться як звільнено достроково.
+criminal-records-console-paroled = {$name} звільнено достроково офіцером {$officer}.
+criminal-records-console-not-parole = {$name} більше не значиться як "звільнено достроково".
 criminal-records-console-unknown-officer = <невідомий офіцер>
 
 ## Filters

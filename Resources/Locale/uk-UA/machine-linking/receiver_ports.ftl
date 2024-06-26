@@ -4,7 +4,7 @@ signal-port-description-autoclose = Дозволяє ввімкнути авто
 signal-port-name-toggle = Перемикач
 signal-port-description-toggle = Перемикає стан пристрою.
 
-signal-port-name-on-receiver = На
+signal-port-name-on-receiver = Увімкнено
 signal-port-description-on-receiver = Вмикає пристрій.
 
 signal-port-name-off-receiver = Вимкнено

@@ -1,1 +1,1 @@
-guide-entry-shadowkin = Шедоукін
+guide-entry-shadowkin = Тіньовик

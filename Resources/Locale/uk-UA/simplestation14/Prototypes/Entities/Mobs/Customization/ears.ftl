@@ -1,1 +1,1 @@
-marking-EarsShadowkin = Шедоукін
+marking-EarsShadowkin = Тіньовик

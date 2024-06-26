@@ -29,7 +29,7 @@ verb-categories-lever = Важіль
 verb-categories-select-type = Оберіть Тип
 verb-categories-fax = Встановити Місцепризначення
 
-verb-common-toggle-light = Вімкнути світло
+verb-common-toggle-light = Перемкнути світло
 verb-common-close = Зачинити
 verb-common-open = Відчинити
 verb-common-close-ui = Закрити UI
