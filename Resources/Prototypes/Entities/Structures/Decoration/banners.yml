@@ -1,8 +1,8 @@
 - type: entity
   id: BannerBase
   parent: BaseStructureDynamic
-  name: "основний банер"
-  description: "Це концепція банера, ви не повинні цього бачити."
+  name: base banner
+  description: It's the concept of a banner, you shouldn't be seeing this.
   abstract: true
   components:
   - type: Sprite
@@ -30,8 +30,8 @@
 - type: entity
   id: BannerNanotrasen
   parent: BannerBase
-  name: "банер з нанотрасену"
-  description: "Банер з логотипом Nanotrasen. Виглядає досить дешево."
+  name: nanotrasen banner
+  description: A banner displaying the Nanotrasen logo. It looks rather cheap.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -40,8 +40,8 @@
 - type: entity
   id: BannerCargo
   parent: BannerBase
-  name: "логістичний банер"
-  description: "Банер у кольорах відділу логістики. Ні. Каргонія." # DeltaV - Logistics Department replacing Cargo
+  name: logistics banner
+  description: A banner displaying the colors of the logistics department. Not. Cargonia. # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -50,8 +50,8 @@
 - type: entity
   id: BannerEngineering
   parent: BannerBase
-  name: "інженерний прапор"
-  description: "Банер, що відображає кольори інженерного відділу. Скрунгуларті."
+  name: engineering banner
+  description: A banner displaying the colors of the engineering department. Scrungularty.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -60,8 +60,8 @@
 - type: entity
   id: BannerMedical
   parent: BannerBase
-  name: "медичний банер"
-  description: "Банер, що відображає кольори медичного відділення. Як стерильно."
+  name: medical banner
+  description: A banner displaying the colors of the medical department. How sterile.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -70,8 +70,8 @@
 - type: entity
   id: BannerRevolution
   parent: BannerBase
-  name: "прапор революції"
-  description: "Банер із зображенням революції. Віва!"
+  name: revolution banner
+  description: A banner displaying revolution. Viva!
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -80,8 +80,8 @@
 - type: entity
   id: BannerSyndicate
   parent: BannerBase
-  name: "банер синдикату"
-  description: "Прапор, від якого, на думку синдикату, ви повинні відчувати ненависть до НТ."
+  name: syndicate banner
+  description: A banner from which, according to the syndicate, you should feel hatred for NT.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -90,8 +90,8 @@
 - type: entity
   id: BannerScience
   parent: BannerBase
-  name: "банер про епістемологію" # DeltaV - Epistemics Department replacing Science
-  description: "Банер у кольорах кафедри епістеміки. Де доведено, що дурість більша за всесвіт." # DeltaV - Epistemics Department replacing Science
+  name: epistemics banner # DeltaV - Epistemics Department replacing Science
+  description: A banner displaying the colors of the epistemics department. Where stupidity is proven greater than the universe. # DeltaV - Epistemics Department replacing Science
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -100,8 +100,8 @@
 - type: entity
   id: BannerSecurity
   parent: BannerBase
-  name: "банер безпеки"
-  description: "Банер у кольорах департаменту гівнобезпеки. Охорона, винен."
+  name: security banner
+  description: A banner displaying the colors of the shitcurity department. Security, my bad.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -110,8 +110,8 @@
 - type: entity
   id: BannerBlue
   parent: BannerBase
-  name: "синій прапор"
-  description: "Банер із зображенням синього кольору. Дабудідабудай."
+  name: blue banner
+  description: A banner displaying the color blue. Dabudidabudai.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -120,8 +120,8 @@
 - type: entity
   id: BannerRed
   parent: BannerBase
-  name: "червоний прапор"
-  description: "Банер з червоним кольором. Гострий банер."
+  name: red banner
+  description: A banner displaying the color red. The edgy one.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -130,8 +130,8 @@
 - type: entity
   id: BannerYellow
   parent: BannerBase
-  name: "жовтий прапор"
-  description: "Банер, що відображає жовтий колір. Нагадує качок та лимонні кіоски."
+  name: yellow banner
+  description: A banner displaying the color yellow. Reminds you of ducks and lemon stands.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi
@@ -140,8 +140,8 @@
 - type: entity
   id: BannerGreen
   parent: BannerBase
-  name: "зелений прапор"
-  description: "Банер із зображенням зеленого кольору. Трава, листя, гуакамоле."
+  name: green banner
+  description: A banner displaying the color green. Grass, leaves, guacamole.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi

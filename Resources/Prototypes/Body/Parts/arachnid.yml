@@ -3,7 +3,7 @@
 - type: entity
   id: PartArachnid
   parent: [BaseItem, BasePart]
-  name: "частина тіла павукоподібних"
+  name: "arachnid body part"
   abstract: true
   components:
   - type: Extractable
@@ -16,7 +16,7 @@
 
 - type: entity
   id: TorsoArachnid
-  name: "тулуб павука"
+  name: "arachnid torso"
   parent: [PartArachnid, BaseTorso]
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
 
 - type: entity
   id: HeadArachnid
-  name: "голова павука"
+  name: "arachnid head"
   parent: [PartArachnid, BaseHead]
   components:
   - type: Sprite
@@ -48,7 +48,7 @@
 
 - type: entity
   id: LeftArmArachnid
-  name: "ліва рука павука"
+  name: "left arachnid arm"
   parent: [PartArachnid, BaseLeftArm]
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 
 - type: entity
   id: RightArmArachnid
-  name: "права рука павукоподібних"
+  name: "right arachnid arm"
   parent: [PartArachnid, BaseRightArm]
   components:
   - type: Sprite
@@ -66,7 +66,7 @@
 
 - type: entity
   id: LeftHandArachnid
-  name: "ліва павукоподібна рука"
+  name: "left arachnid hand"
   parent: [PartArachnid, BaseLeftHand]
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 
 - type: entity
   id: RightHandArachnid
-  name: "права павукоподібна рука"
+  name: "right arachnid hand"
   parent: [PartArachnid, BaseRightHand]
   components:
   - type: Sprite
@@ -84,7 +84,7 @@
 
 - type: entity
   id: LeftLegArachnid
-  name: "ліва нога павука"
+  name: "left arachnid leg"
   parent: [PartArachnid, BaseLeftLeg]
   components:
   - type: Sprite
@@ -94,7 +94,7 @@
 
 - type: entity
   id: RightLegArachnid
-  name: "права нога павука"
+  name: "right arachnid leg"
   parent: [PartArachnid, BaseRightLeg]
   components:
   - type: Sprite
@@ -104,7 +104,7 @@
 
 - type: entity
   id: LeftFootArachnid
-  name: "ліва павукоподібна лапка"
+  name: "left arachnid foot"
   parent: [PartArachnid, BaseLeftFoot]
   components:
   - type: Sprite
@@ -113,7 +113,7 @@
 
 - type: entity
   id: RightFootArachnid
-  name: "права павукоподібна лапка"
+  name: "right arachnid foot"
   parent: [PartArachnid, BaseRightFoot]
   components:
   - type: Sprite
