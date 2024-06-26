@@ -118,8 +118,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobHonkBot
-  name: honkbot
-  description: Horrifying.
+  name: "гудок"
+  description: "Жахливо."
   components:
   - type: SpamEmitSound
     sound:
@@ -166,8 +166,8 @@
 - type: entity
   parent: MobHonkBot
   id: MobJonkBot
-  name: jonkbot
-  description: Horrifying.
+  name: "jonkbot"
+  description: "Жахливо."
   components:
   - type: SpamEmitSound
     sound:
@@ -198,8 +198,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobCleanBot
-  name: cleanbot
-  description: The creep of automation now threatening space janitors.
+  name: "чистко-бот"
+  description: "Повзуча автоматизація тепер загрожує космічним прибиральникам."
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/cleanbot.rsi
@@ -246,8 +246,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobMedibot
-  name: medibot
-  description: No substitute for a doctor, but better than nothing.
+  name: "медико-бот"
+  description: "Це не замінить лікаря, але краще, ніж нічого."
   components:
   - type: Medibot
     treatments:
@@ -295,8 +295,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobMimeBot
-  name: mimebot
-  description: Why not give mimebot a friendly wave.
+  name: "мімебот"
+  description: "Чому б не помахати мімеботу рукою?"
   components:
   - type: InventorySlots
   - type: Strippable
