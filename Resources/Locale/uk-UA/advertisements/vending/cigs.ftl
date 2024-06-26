@@ -1,6 +1,6 @@
-﻿advertisement-cigs-1 = Космічні сигарети мають такий смак, як і планетарні.
+advertisement-cigs-1 = Космічні сигарети мають такий смак, як і планетарні.
 advertisement-cigs-2 = я краще виберу цигарку,ніж кальян!
-advertisement-cigs-3 = Увага,гази!
+advertisement-cigs-3 = Куріть!
 advertisement-cigs-4 = Не вірте СМІ - куріть сьогодні!
 advertisement-cigs-5 = Я впевнений, непогано для вас!
 advertisement-cigs-6 = Не вірте скаженим вченим!
