@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: "Чужа личинка"
+  name: Alien larva
   parent: SimpleSpaceMobBase
   id: MobAlienLarva
-  description: "Маленький і нешкідливий прибулець"
+  description: Little and harmless alien
   components:
     - type: ShowInfectedIcons
     - type: Body
@@ -200,11 +200,11 @@
       evolutionCooldown: 50
 
 - type: entity
-  name: "Інопланетний безпілотник"
+  name: Alien drone
   abstract: true
   id: MobAlienBase
   parent: SimpleSpaceMobBase
-  description: "Вони приходять переважно вночі. Здебільшого."
+  description: They mostly come at night. Mostly.
   components:
     - type: ShowInfectedIcons
     - type: PlasmaTransfer
@@ -407,7 +407,7 @@
     - type: LizardAccent
 
 - type: entity
-  name: "Інопланетний безпілотник"
+  name: Alien drone
   id: MobAlienDrone
   parent: MobAlienBase
   components:
@@ -422,7 +422,7 @@
     - type: PraetorianEvolution
 
 - type: entity
-  name: "Інопланетний вартовий"
+  name: Alien sentinel
   id: MobAlienSentinel
   parent: MobAlienBase
   components:
@@ -495,7 +495,7 @@
     baseSprintSpeed: 5
 
 - type: entity
-  name: "Чужий преторіанський"
+  name: Alien praetorian
   id: MobAlienPraetorian
   parent: MobAlienBase
   components:
@@ -575,7 +575,7 @@
   - type: TailLash
 
 - type: entity
-  name: "Мисливець на прибульців"
+  name: Alien hunter
   id: MobAlienHunter
   parent: MobAlienBase
   components:
@@ -661,7 +661,7 @@
     jumpSprite: Mobs/Aliens/Xenos/alien_hunter_jump.rsi
 
 - type: entity
-  name: "Інопланетна королева"
+  name: Alien queen
   id: MobAlienQueen
   parent: MobAlienBase
   components:
@@ -736,8 +736,8 @@
   - type: TailLash
 
 - type: entity
-  name: "Хтива інопланетна покоївка"
-  description: "Не просіть його відкладати в вас яйця."
+  name: Lusty alien maid
+  description: Don't ask it to lay eggs in you.
   id: MobAlienMaid
   parent: MobAlienBase
   components:

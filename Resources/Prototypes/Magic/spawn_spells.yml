@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionSpawnMagicarpSpell
-  name: "Викликати Магікарпа"
-  description: "Це заклинання викликає трьох Магів-Карпів на допомогу! Може вмикатися або не вмикатися користувачем."
+  name: Summon Magicarp
+  description: This spell summons three Magi-Carp to your aid! May or may not turn on user.
   noSpawn: true
   components:
   - type: WorldTargetAction

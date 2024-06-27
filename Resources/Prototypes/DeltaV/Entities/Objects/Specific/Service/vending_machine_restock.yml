@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseVendingMachineRestock
   id: BaseVendingMachineRestockDeltaV
-  name: "коробка для поповнення торгового автомата"
-  description: "Коробка для поповнення торгових автоматів фірмовими смаколиками."
+  name: vending machine restock box
+  description: A box for restocking vending machines with corporate goodies.
   abstract: true
   components:
   - type: Sprite
@@ -11,8 +11,8 @@
 - type: entity
   parent: BaseVendingMachineRestockDeltaV
   id: VendingMachineRestockPride
-  name: "Коробка для поповнення запасів Pride-O-Mat"
-  description: "Станції потрібно більше плюшевих акул, і ви це знаєте."
+  name: Pride-O-Mat restock box
+  description: The station needs more plushie sharks and you know it.
   components:
   - type: VendingMachineRestock
     canRestock:
