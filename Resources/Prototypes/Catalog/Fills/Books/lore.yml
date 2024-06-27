@@ -1,11 +1,11 @@
 ﻿# ---- Library Salvage Fills ----
 
 - type: entity
-  name: demonomicon
+  name: "демонікон"
   parent: BookBase
   id: BookDemonomicon
   noSpawn: true
-  description: 'Who knows what dark spells may be contained in these horrid pages?'
+  description: "Хто знає, які темні заклинання можуть міститися на цих страшних сторінках?"
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -13,7 +13,7 @@
     - state: book_demonomicon
 
 - type: entity
-  name: demonomicon
+  name: "демонікон"
   parent: BookDemonomicon
   id: BookDemonomiconRandom
   suffix: random
@@ -50,11 +50,11 @@
     content: book-text-demonomicon3
 
 - type: entity
-  name: pharmaceutical manuscript
+  name: "фармацевтичний рукопис"
   parent: BookBase
   id: BookChemistryInsane
   suffix: library salvage
-  description: 'You can tell whoever wrote this was off the desoxy HARD.'
+  description: "Очевидно, що той, хто це написав, не вживав дезоксибутират HARD."
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -64,11 +64,11 @@
     content: book-text-chemistry-insane
 
 - type: entity
-  name: botanical textbook
+  name: "підручник з ботаніки"
   parent: BookBase
   id: BookBotanicalTextbook
   suffix: library salvage
-  description: 'Only a couple pages are left.'
+  description: "Залишилося лише кілька сторінок."
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -80,9 +80,9 @@
 - type: entity
   parent: BookBase
   id: BookGnominomicon
-  name: gnominomicon
+  name: "gnominomicon"
   suffix: library salvage
-  description: You don't like the look of this. Looks
+  description: "Тобі не подобається, як це виглядає. Виглядає"
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -94,9 +94,9 @@
 - type: entity
   parent: BookBase
   id: BookFishing
-  name: Tales from the Fishbowl
+  name: "Казки з акваріума"
   suffix: library salvage
-  description: This book sucks.
+  description: "Ця книга - відстій."
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi
@@ -108,9 +108,9 @@
 - type: entity
   parent: BookFishing
   id: BookFishops
-  name: Fishops Advanced User Manual, first edition
+  name: "Розширений посібник користувача Fishops, перше видання"
   suffix: library salvage
-  description: Legends say the second edition was lost to time.
+  description: "Легенди кажуть, що друге видання загубилося в часі."
   components:
   - type: Paper
     content: book-text-fishops
@@ -118,9 +118,9 @@
 - type: entity
   parent: BookBase
   id: BookDetective
-  name: Strokgraeth Holmes, Dwarf Detective
+  name: "Строггет Холмс, карликовий детектив"
   suffix: library salvage
-  description: Exciting! Invigorating! This author died after his book career failed.
+  description: "Захоплююче! Підбадьорює! Цей автор помер після того, як його книжкова кар'єра зазнала краху."
   components:
   - type: Sprite
     sprite: Objects/Misc/books.rsi

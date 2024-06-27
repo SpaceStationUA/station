@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingBackpack
   id: ClothingBackpackChameleon
-  name: backpack
-  description: You wear this on your back and put items into it.
+  name: "рюкзак"
+  description: "Ви одягаєте його на спину і кладете в нього речі."
   suffix: Chameleon
   components:
     - type: Tag
@@ -22,8 +22,8 @@
 - type: entity
   parent: Clothing
   id: ClothingBackpackWaterTank
-  name: backpack water tank
-  description: Holds a large amount of fluids. Supplies to spray nozzles in your hands.
+  name: "резервуар для води в рюкзаку"
+  description: "Вміщує велику кількість рідини. Підходить для розпилювачів в руках."
   components:
   - type: Tag
     tags:

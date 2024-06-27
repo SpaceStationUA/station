@@ -1,5 +1,5 @@
 - type: entity
-  name: NPC Carp Spawner
+  name: "NPC Короповий нерестовик"
   id: CarpSpawnerMundane
   parent: MarkerBase
   suffix: No Ghost Takeover
@@ -20,7 +20,7 @@
       rareChance: 0.05
 
 - type: entity
-  name: NPC Snake Spawner
+  name: "NPC Зміїний нерестовик"
   id: SnakeSpawnerMundane
   parent: MarkerBase
   components:
@@ -38,7 +38,7 @@
       rareChance: 0.2
 
 - type: entity
-  name: Salvage Snake Spawner
+  name: "Нерестовик рятівної змії"
   id: SnakeMobMundane
   parent: MarkerBase
   suffix: 75%
@@ -58,7 +58,7 @@
       rareChance: 0.20
 
 - type: entity
-  name: Salvage Snake Spawner
+  name: "Нерестовик рятівної змії"
   id: SnakeMobMundane25
   parent: MarkerBase
   suffix: 25%
@@ -78,7 +78,7 @@
       rareChance: 0.20
 
 - type: entity
-  name: Xeno Spawner
+  name: "Xeno Spawner"
   id: XenoAISpawner
   parent: MarkerBase
   suffix: No Ghost Takeover
@@ -128,7 +128,7 @@
 #       rareChance: 0.10
 
 - type: entity
-  name: Watcher Spawner
+  name: "Спостерігач Нерестовик"
   id: WatcherAISpawner
   parent: MarkerBase
   components:
@@ -148,7 +148,7 @@
       rareChance: 0.10
 
 - type: entity
-  name: Space Creature Spawner
+  name: "Спайдер космічних істот"
   id: SpaceCreatureAISpawner
   parent: MarkerBase
   components:
@@ -165,7 +165,7 @@
         - MobSpiderSpace
 
 - type: entity
-  name: Arena Spawner
+  name: "Arena Spawner"
   id: ArenaSpawner
   parent: MarkerBase
   components:
