@@ -16,7 +16,7 @@ reagent-desc-grape-soda = воно Шипиииить!
 reagent-name-ice-cream = морозиво
 reagent-desc-ice-cream = не треба сувати його в мікрохвильовку,ти ж не хочеш їсти суп з морозива!
 
-reagent-name-lemon-lime = лимон-лайм=лимон-лайм
+reagent-name-lemon-lime = лимон-лайм
 reagent-desc-lemon-lime = содова з лимону та лайму
 
 reagent-name-pwr-game = Павер Гейм

@@ -20,19 +20,19 @@ reagent-name-ketchup = кетчуп
 reagent-desc-ketchup = зроблений з томатів та приправ,до твоїх вареників!
 
 reagent-name-ketchunaise = кетчунез
-reagent-desc-ketchunaise = створена провідними інженерами для економії часу під час їжі!
+reagent-desc-ketchunaise = створений провідними інженерами для економії часу під час їжі!
 
-reagent-name-laughin-syrup = сироп для сміху
+reagent-name-laughin-syrup = смішнявка
 reagent-desc-laughin-syrup = Продукт вичавлювання соку з горошку "Смішний горошок". Шипучий, і, здається, змінює смак залежно від того, з чим його вживають!
 
 reagent-name-mayo = майонез
 reagent-desc-mayo = зроблений з яєць та олії.
 
 reagent-name-mustard = гірчиця
-reagent-desc-mustard = зроблений з насіння гірчиці. Слабо зжерти всю пачку?!
+reagent-desc-mustard = зроблена з насіння гірчиці. Слабо зжерти всю пачку залпом?!
 
 reagent-name-vinaigrette = вінігрет
-reagent-desc-vinaigrette = святкова страва,навіює згадки про Новий Рік!
+reagent-desc-vinaigrette = святкова страва,навіює згадками про Новий Рік!
 
 reagent-name-soysauce = соєвий соус
 reagent-desc-soysauce = не рекомендую змішувати з соєвим молоком...ти справді про це думав?

@@ -1,5 +1,5 @@
-marking-TailShadowkin = Тіньовик
-marking-TailShadowkinBig = Shadowkin (Великий)
-marking-TailShadowkinShorter = Shadowkin (короткометражка)
-marking-TailShadowkinMedium = Shadowkin (середній)
-marking-TailShadowkinBigFluff = Shadowkin (Великий і пухнастий)
+marking-TailShadowkin = Шедовкін
+marking-TailShadowkinBig = Хвіст шедовкіна (Великий)
+marking-TailShadowkinShorter = Хвіст шедовкіна (короткий)
+marking-TailShadowkinMedium = Хвіст шедовкіна (середній)
+marking-TailShadowkinBigFluff = Хвіст шедовкіна (Великий і пухнастий)

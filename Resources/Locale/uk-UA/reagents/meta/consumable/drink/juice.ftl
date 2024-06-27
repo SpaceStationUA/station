@@ -5,7 +5,7 @@ reagent-name-juice-banana = банановий сік
 reagent-desc-juice-banana = рідка лють всіх клунь світу.
 
 reagent-name-juice-berry = ягідний сік
-reagent-desc-juice-berry = суміш кілької НЕОТРУЙНИХ видів ягід.
+reagent-desc-juice-berry = суміш кілької НЕотруйних видів ягід.
 
 reagent-name-juice-berry-poison = отруйний ягідний сік
 reagent-desc-juice-berry-poison = Невимовно смачно...але нажаль,останнэ що ти зможеш спробувати в свому житті.

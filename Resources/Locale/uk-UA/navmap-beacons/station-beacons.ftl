@@ -4,7 +4,7 @@ station-beacon-command = Командир
 station-beacon-bridge = Міст
 station-beacon-vault = Сховище
 station-beacon-captain = Капітане
-station-beacon-hop = ХОП
+station-beacon-hop = Голова Персоналу (HoP)
 
 station-beacon-security = Безпека
 station-beacon-brig = Бригадир

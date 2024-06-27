@@ -11,7 +11,7 @@ reagent-name-enzyme = універсальний фермент
 reagent-desc-enzyme = Використовується у приготуванні різних страв.
 
 reagent-name-egg = яйце
-reagent-desc-egg = Приготовлений курячій ембріон, смакота.
+reagent-desc-egg = Приготований курячий ембріон, смакота.
 
 reagent-name-raw-egg = сире яйце
 reagent-desc-raw-egg = Використовується для приготування випічки.

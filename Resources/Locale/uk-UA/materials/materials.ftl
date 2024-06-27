@@ -8,7 +8,7 @@ materials-reinforced-plasma-glass = армоване плазмове скло
 materials-steel = сталь
 materials-gold = золото
 materials-silver = срібло
-materials-plasteel = пластилін
+materials-plasteel = пласталь
 
 # Інше
 materials-biomass = біомаса
