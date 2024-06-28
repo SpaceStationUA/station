@@ -1,4 +1,6 @@
+using System.IO;
 using System.Linq;
+using System.Text.Json;
 using Content.Server.Announcements;
 using Content.Server.Discord;
 using Content.Server.GameTicking.Events;
@@ -404,6 +406,21 @@ namespace Content.Server.GameTicking
             _replayRoundPlayerInfo = listOfPlayerInfoFinal;
             _replayRoundText = roundEndText;
             RaiseLocalEvent(new RoundEndedEvent(RoundId, roundDuration));
+            //PIRATE START
+            var roundEndData = new Dictionary<string, string>
+            {
+                {"gamemodeTitle", gamemodeTitle},
+                {"roundEndText", roundEndText},
+                {"roundDuration", roundDuration.ToString()},
+                {"roundId", RoundId.ToString()},
+                {"playerCount", listOfPlayerInfoFinal.Length.ToString()},
+            };
+            var roundEndDataJson = JsonSerializer.Serialize(roundEndData);
+            string path = "roundEndData.json";
+            FileInfo file = new FileInfo(path);
+            file.Directory?.Create();
+            File.WriteAllText(file.FullName, roundEndDataJson);
+            //PIRATE END
         }
 
         private async void SendRoundEndDiscordMessage()
