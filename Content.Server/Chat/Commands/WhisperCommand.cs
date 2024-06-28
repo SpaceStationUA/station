@@ -9,7 +9,7 @@ namespace Content.Server.Chat.Commands
     internal sealed class WhisperCommand : IConsoleCommand
     {
         public string Command => "whisper";
-        public string Description => "Send chat messages to the local channel as a whisper";
+        public string Description => "Відправляє чат-повідомлення в локальний канал як шепіт";
         public string Help => "whisper <text>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

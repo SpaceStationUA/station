@@ -9,7 +9,7 @@ namespace Content.Server.Chat.Commands
     internal sealed class LOOCCommand : IConsoleCommand
     {
         public string Command => "looc";
-        public string Description => "Send Local Out Of Character chat messages.";
+        public string Description => "Відправляє повідомлення в локальний канал поза грою (OOC)";
         public string Help => "looc <text>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

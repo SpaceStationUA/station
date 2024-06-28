@@ -12,7 +12,7 @@ namespace Content.Server.Ghost.Roles
         [Dependency] private readonly IEntityManager _entManager = default!;
 
         public string Command => "makeghostrole";
-        public string Description => "Turns an entity into a ghost role.";
+        public string Description => "Перетворює сутність на роль привида";
         public string Help => $"Usage: {Command} <entity uid> <name> <description> [<rules>]";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

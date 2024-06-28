@@ -11,7 +11,7 @@ namespace Content.Server.Nuke.Commands
     public sealed class SendNukeCodesCommand : IConsoleCommand
     {
         public string Command => "nukecodes";
-        public string Description => "Send nuke codes to a station's communication consoles";
+        public string Description => "Відправляє коди ядерної зброї на комунікаційні консолі станції";
         public string Help => "nukecodes [station EntityUid]";
 
         [Dependency] private readonly IEntityManager _entityManager = default!;

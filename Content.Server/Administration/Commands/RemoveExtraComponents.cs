@@ -8,7 +8,7 @@ namespace Content.Server.Administration.Commands
     public sealed class RemoveExtraComponents : IConsoleCommand
     {
         public string Command => "removeextracomponents";
-        public string Description => "Removes all components from all entities of the specified id if that component is not in its prototype.\nIf no id is specified, it matches all entities.";
+        public string Description => "Видаляє всі компоненти з усіх сутностей із вказаним id, якщо цього компонента немає в його прототипі.\nЯкщо id не вказано, збігається з усіма сутностями";
         public string Help => $"{Command} <entityId> / {Command}";
         public void Execute(IConsoleShell shell, string argStr, string[] args)
         {

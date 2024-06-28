@@ -13,7 +13,7 @@ namespace Content.Server.Atmos.Commands
         [Dependency] private readonly IEntityManager _entities = default!;
 
         public string Command => "addatmos";
-        public string Description => "Adds atmos support to a grid.";
+        public string Description => "Додає підтримку атмосфери до сітки";
         public string Help => $"{Command} <GridId>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

@@ -18,7 +18,7 @@ namespace Content.Server.Decals.Commands
         [Dependency] private readonly IPrototypeManager _protoManager = default!;
 
         public string Command => "adddecal";
-        public string Description => "Creates a decal on the map";
+        public string Description => "Створює наклейку на карті";
         public string Help => $"{Command} <id> <x position> <y position> <gridId> [angle=<angle> zIndex=<zIndex> color=<color>]";
         public void Execute(IConsoleShell shell, string argStr, string[] args)
         {

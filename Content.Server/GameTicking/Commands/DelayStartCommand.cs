@@ -8,7 +8,7 @@ namespace Content.Server.GameTicking.Commands
     sealed class DelayStartCommand : IConsoleCommand
     {
         public string Command => "delaystart";
-        public string Description => "Delays the round start.";
+        public string Description => "Затримує початок раунду";
         public string Help => $"Usage: {Command} <seconds>\nPauses/Resumes the countdown if no argument is provided.";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

@@ -11,7 +11,7 @@ namespace Content.Server.Damage.Commands
         [Dependency] private readonly IEntityManager _entManager = default!;
 
         public string Command => "godmode";
-        public string Description => "Makes your entity or another invulnerable to almost anything. May have irreversible changes.";
+        public string Description => "Робить вашу сутність або іншу невразливою майже до всього. Може мати незворотні зміни";
         public string Help => $"Usage: {Command} / {Command} <entityUid>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

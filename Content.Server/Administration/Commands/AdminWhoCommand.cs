@@ -11,7 +11,7 @@ namespace Content.Server.Administration.Commands;
 public sealed class AdminWhoCommand : IConsoleCommand
 {
     public string Command => "adminwho";
-    public string Description => "Returns a list of all admins on the server";
+    public string Description => "Повертає список усіх адміністраторів на сервері";
     public string Help => "Usage: adminwho";
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)

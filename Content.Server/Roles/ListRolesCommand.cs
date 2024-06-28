@@ -11,7 +11,7 @@ namespace Content.Server.Roles
     {
         public string Command => "listroles";
 
-        public string Description => "Lists roles";
+        public string Description => "Перелічує ролі";
 
         public string Help => "listroles";
 

@@ -7,7 +7,7 @@ namespace Content.Client.Ghost;
 public sealed class GhostToggleSelfVisibility : IConsoleCommand
 {
     public string Command => "toggleselfghost";
-    public string Description => "Toggles seeing your own ghost.";
+    public string Description => "Перемикає видимість власного привида";
     public string Help => "toggleselfghost";
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {

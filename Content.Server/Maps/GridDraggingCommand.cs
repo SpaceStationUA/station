@@ -12,7 +12,7 @@ namespace Content.Server.Maps;
 public sealed class GridDraggingCommand : IConsoleCommand
 {
     public string Command => SharedGridDraggingSystem.CommandName;
-    public string Description => $"Allows someone with permissions to drag grids around.";
+    public string Description => $"Дозволяє користувачу з відповідними правами переміщати гріди мишкою";
     public string Help => $"{Command}";
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {

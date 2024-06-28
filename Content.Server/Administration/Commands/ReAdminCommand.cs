@@ -8,7 +8,7 @@ namespace Content.Server.Administration.Commands
     public sealed class ReAdminCommand : IConsoleCommand
     {
         public string Command => "readmin";
-        public string Description => "Re-admins you if you previously de-adminned.";
+        public string Description => "Повертає вам права адміністратора, якщо ви раніше їх відмовилися";
         public string Help => "Usage: readmin";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

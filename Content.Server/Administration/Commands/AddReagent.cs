@@ -19,7 +19,7 @@ namespace Content.Server.Administration.Commands
         [Dependency] private readonly IPrototypeManager _protomanager = default!;
 
         public string Command => "addreagent";
-        public string Description => "Add (or remove) some amount of reagent from some solution.";
+        public string Description => "Додає (або видаляє) певну кількість реагенту з розчину";
         public string Help => $"Usage: {Command} <target> <solution> <reagent> <quantity>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

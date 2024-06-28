@@ -10,7 +10,7 @@ namespace Content.Server._Pirate.Administration.Commands
     {
         [Dependency] private readonly IChatManager _chatManager = default!;
         public string Command => "announce-console";
-        public string Description => "Send an ooc announcement from console.";
+        public string Description => "Відправляє оголошення OOC з консолі";
         public string Help => $"{Command} <message> to send announcement as console.";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

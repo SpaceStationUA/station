@@ -16,7 +16,7 @@ public sealed class NPCDomainCommand : IConsoleCommand
     [Dependency] private readonly IPrototypeManager _protoManager = default!;
 
     public string Command => "npcdomain";
-    public string Description => "Lists the domain of a particular HTN compound task";
+    public string Description => "Перелічує домен певного HTN завдання складної задачі";
     public string Help => $"{Command} <htncompoundtask>";
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)

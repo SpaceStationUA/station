@@ -22,7 +22,7 @@ public sealed class PersistenceSave : IConsoleCommand
     [Dependency] private readonly IMapManager _map = default!;
 
     public string Command => "persistencesave";
-    public string Description => "Saves server data to a persistence file to be loaded later.";
+    public string Description => "Зберігає дані сервера у файл для подальшого завантаження";
     public string Help => "persistencesave [mapId] [filePath - default: game.map (CCVar) ]";
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)

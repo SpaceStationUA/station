@@ -11,7 +11,7 @@ namespace Content.Server.GameTicking.Commands
     public sealed class GoLobbyCommand : IConsoleCommand
     {
         public string Command => "golobby";
-        public string Description => "Enables the lobby and restarts the round.";
+        public string Description => "Вмикає лобі та перезапускає раунд";
         public string Help => $"Usage: {Command} / {Command} <preset>";
         public void Execute(IConsoleShell shell, string argStr, string[] args)
         {

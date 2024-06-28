@@ -11,7 +11,7 @@ namespace Content.Server.Administration.Commands
         [Dependency] private readonly IEntityManager _entities = default!;
 
         public string Command => "showghosts";
-        public string Description => "makes all of the currently present ghosts visible. Cannot be reversed.";
+        public string Description => "Робить усіх поточних привидів видимими. Це не можна скасувати";
         public string Help => "showghosts <visible>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

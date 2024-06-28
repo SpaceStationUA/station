@@ -12,7 +12,7 @@ namespace Content.Server.Power
         [Dependency] private readonly IEntityManager _entManager = default!;
 
         public string Command => "setbatterypercent";
-        public string Description => "Drains or recharges a battery by entity uid and percentage, i.e.: forall with Battery do setbatterypercent $ID 0";
+        public string Description => "Розряджає або заряджає батарею за uid сутності та відсотком, наприклад: forall з батареєю виконує setbatterypercent $ID 0";
         public string Help => $"{Command} <id> <percent>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

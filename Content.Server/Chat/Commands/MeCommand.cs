@@ -9,7 +9,7 @@ namespace Content.Server.Chat.Commands
     internal sealed class MeCommand : IConsoleCommand
     {
         public string Command => "me";
-        public string Description => "Perform an action.";
+        public string Description => "Виконує дію";
         public string Help => "me <text>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

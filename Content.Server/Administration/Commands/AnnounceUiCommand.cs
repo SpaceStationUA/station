@@ -10,7 +10,7 @@ namespace Content.Server.Administration.Commands
     {
         public string Command => "announceui";
 
-        public string Description => "Opens the announcement UI";
+        public string Description => "Відкриває інтерфейс оголошень";
 
         public string Help => $"{Command}";
 

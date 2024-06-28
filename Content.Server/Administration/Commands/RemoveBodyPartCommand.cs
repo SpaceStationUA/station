@@ -10,7 +10,7 @@ namespace Content.Server.Administration.Commands
         [Dependency] private readonly IEntityManager _entManager = default!;
 
         public string Command => "rmbodypart";
-        public string Description => "Removes a given entity from it's containing body, if any.";
+        public string Description => "Видаляє задану сутність із контейнера тіла, якщо є";
         public string Help => "Usage: rmbodypart <uid>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

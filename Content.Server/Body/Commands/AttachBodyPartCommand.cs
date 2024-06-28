@@ -13,7 +13,7 @@ namespace Content.Server.Body.Commands
         [Dependency] private readonly IEntityManager _entManager = default!;
 
         public string Command => "attachbodypart";
-        public string Description => "Attaches a body part to you or someone else.";
+        public string Description => "Прикріплює частину тіла до вас або до іншого";
         public string Help => $"{Command} <partEntityUid> / {Command} <entityUid> <partEntityUid>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

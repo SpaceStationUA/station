@@ -10,7 +10,7 @@ namespace Content.Server.GameTicking.Commands
     sealed class ToggleDisallowLateJoinCommand : IConsoleCommand
     {
         public string Command => "toggledisallowlatejoin";
-        public string Description => "Allows or disallows latejoining during mid-game.";
+        public string Description => "Дозволяє або забороняє пізнє приєднання під час гри";
         public string Help => $"Usage: {Command} <disallow>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

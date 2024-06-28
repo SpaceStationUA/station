@@ -14,7 +14,7 @@ namespace Content.Server.Objectives.Commands
         [Dependency] private readonly IEntityManager _entityManager = default!;
 
         public string Command => "addobjective";
-        public string Description => "Adds an objective to the player's mind.";
+        public string Description => "Додає мету до розуму гравця";
         public string Help => "addobjective <username> <objectiveID>";
         public void Execute(IConsoleShell shell, string argStr, string[] args)
         {

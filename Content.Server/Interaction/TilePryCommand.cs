@@ -13,7 +13,7 @@ namespace Content.Server.Interaction
         [Dependency] private readonly IEntityManager _entities = default!;
 
         public string Command => "tilepry";
-        public string Description => "Pries up all tiles in a radius around the user.";
+        public string Description => "Відриває всі плитки в радіусі навколо користувача";
         public string Help => $"Usage: {Command} <radius>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

@@ -9,7 +9,7 @@ namespace Content.Server.Administration.Commands;
 public sealed class OpenAdminLogsCommand : IConsoleCommand
 {
     public string Command => "adminlogs";
-    public string Description => "Opens the admin logs panel.";
+    public string Description => "Відкриває панель журналів адміністратора";
     public string Help => $"Usage: {Command}";
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)

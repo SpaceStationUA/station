@@ -9,7 +9,7 @@ namespace Content.Server.Atmos.Commands
     public sealed class ShowAtmos : IConsoleCommand
     {
         public string Command => "showatmos";
-        public string Description => "Toggles seeing atmos debug overlay.";
+        public string Description => "Перемикає показ накладення налагодження атмосфери";
         public string Help => $"Usage: {Command}";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

@@ -11,7 +11,7 @@ namespace Content.Server.GameTicking.Commands
     sealed class ForcePresetCommand : IConsoleCommand
     {
         public string Command => "forcepreset";
-        public string Description => "Forces a specific game preset to start for the current lobby.";
+        public string Description => "Примушує почати поточний лобі за конкретним ігровим сценарієм";
         public string Help => $"Usage: {Command} <preset>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

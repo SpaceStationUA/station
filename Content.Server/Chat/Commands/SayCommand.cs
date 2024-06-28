@@ -9,7 +9,7 @@ namespace Content.Server.Chat.Commands
     internal sealed class SayCommand : IConsoleCommand
     {
         public string Command => "say";
-        public string Description => "Send chat messages to the local channel or a specified radio channel.";
+        public string Description => "Відправляє чат-повідомлення в локальний канал або на вказаний радіоканал";
         public string Help => "say <text>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

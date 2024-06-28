@@ -7,7 +7,7 @@ namespace Content.Server.Administration.Commands
     public sealed class DeleteComponent : IConsoleCommand
     {
         public string Command => "deletecomponent";
-        public string Description => "Deletes all instances of the specified component.";
+        public string Description => "Видаляє всі екземпляри вказаного компонента";
         public string Help => $"Usage: {Command} <name>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

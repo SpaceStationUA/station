@@ -21,7 +21,7 @@ namespace Content.Server.Body.Commands
         public const string DefaultHandPrototype = "LeftHandHuman";
 
         public string Command => "addhand";
-        public string Description => "Adds a hand to your entity.";
+        public string Description => "Додає руку до вашої сутності";
         public string Help => $"Usage: {Command} <entityUid> <handPrototypeId> / {Command} <entityUid> / {Command} <handPrototypeId> / {Command}";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

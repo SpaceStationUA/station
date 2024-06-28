@@ -9,7 +9,7 @@ namespace Content.Server.Atmos.Commands
     public sealed class ListGasesCommand : IConsoleCommand
     {
         public string Command => "listgases";
-        public string Description => "Prints a list of gases and their indices.";
+        public string Description => "Виводить список газів та їх індекси";
         public string Help => "listgases";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

@@ -12,7 +12,7 @@ namespace Content.Server.Administration.Commands
         [Dependency] private readonly IEntityManager _entManager = default!;
 
         public string Command => "setsolutionthermalenergy";
-        public string Description => "Set the thermal energy of some solution.";
+        public string Description => "Встановлює теплову енергію розчину";
         public string Help => $"Usage: {Command} <target> <solution> <new thermal energy>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

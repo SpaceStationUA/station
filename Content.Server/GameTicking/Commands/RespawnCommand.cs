@@ -9,7 +9,7 @@ namespace Content.Server.GameTicking.Commands
     sealed class RespawnCommand : IConsoleCommand
     {
         public string Command => "respawn";
-        public string Description => "Respawns a player, kicking them back to the lobby.";
+        public string Description => "Переспавнює гравця, повертаючи його назад до лобі";
         public string Help => "respawn [player]";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

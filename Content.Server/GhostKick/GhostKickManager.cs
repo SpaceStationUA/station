@@ -48,7 +48,7 @@ public sealed class GhostKickManager
 public sealed class GhostKickCommand : IConsoleCommand
 {
     public string Command => "ghostkick";
-    public string Description => "Kick a client from the server as if their network just dropped.";
+    public string Description => "Викидає клієнта з сервера, ніби його мережа просто відключилася";
     public string Help => "Usage: ghostkick <Player> [Reason]";
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)

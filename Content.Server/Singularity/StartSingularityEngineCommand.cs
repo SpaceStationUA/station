@@ -13,7 +13,7 @@ namespace Content.Server.Singularity
     public sealed class StartSingularityEngineCommand : IConsoleCommand
     {
         public string Command => "startsingularityengine";
-        public string Description => "Automatically turns on the particle accelerator and containment field emitters.";
+        public string Description => "Автоматично вмикає прискорювач частинок і випромінювачі поля утримання";
         public string Help => $"{Command}";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

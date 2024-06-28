@@ -15,7 +15,7 @@ namespace Content.Server.Administration.Commands;
 public sealed class OpenExplosionEui : IConsoleCommand
 {
     public string Command => "explosionui";
-    public string Description => "Opens a window for easy access to station destruction";
+    public string Description => "Відкриває вікно для легкого доступу до руйнування станції";
     public string Help => $"Usage: {Command}";
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)
@@ -37,7 +37,7 @@ public sealed class OpenExplosionEui : IConsoleCommand
 public sealed class ExplosionCommand : IConsoleCommand
 {
     public string Command => "explosion";
-    public string Description => "Train go boom";
+    public string Description => "Вибух";
 
     // Note that if you change the arguments, you should also update the client-side SpawnExplosionWindow, as that just
     // uses this command.

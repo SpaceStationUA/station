@@ -13,7 +13,7 @@ public sealed class EditDecalCommand : IConsoleCommand
     [Dependency] private readonly IMapManager _mapManager = default!;
 
     public string Command => "editdecal";
-    public string Description => "Edits a decal.";
+    public string Description => "Редагує наклейку";
     public string Help => $@"{Command} <gridId> <uid> <mode>\n
 Possible modes are:\n
 - position <x position> <y position>\n

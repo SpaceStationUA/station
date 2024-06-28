@@ -140,7 +140,7 @@ public sealed class NetworkConfiguratorSystem : SharedNetworkConfiguratorSystem
 public sealed class ClearAllNetworkLinkOverlays : IConsoleCommand
 {
     public string Command => "clearnetworklinkoverlays";
-    public string Description => "Clear all network link overlays.";
+    public string Description => "Очистити всі накладки мережевих посилань";
     public string Help => Command;
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {

@@ -9,7 +9,7 @@ namespace Content.Server.Power.Commands
     public sealed class PowerStatCommand : IConsoleCommand
     {
         public string Command => "powerstat";
-        public string Description => "Shows statistics for pow3r";
+        public string Description => "Показує статистику для pow3r";
         public string Help => "Usage: powerstat";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

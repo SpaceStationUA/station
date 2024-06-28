@@ -10,7 +10,7 @@ namespace Content.Server.NPC.Commands;
 public sealed class NPCCommand : IConsoleCommand
 {
     public string Command => "npc";
-    public string Description => "Opens the debug window for NPCs";
+    public string Description => "Відкриває вікно налагодження для NPC";
     public string Help => $"{Command}";
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {

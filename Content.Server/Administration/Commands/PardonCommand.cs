@@ -9,7 +9,7 @@ namespace Content.Server.Administration.Commands
     public sealed class PardonCommand : IConsoleCommand
     {
         public string Command => "pardon";
-        public string Description => "Pardons somebody's ban";
+        public string Description => "Помилує чийсь бан";
         public string Help => $"Usage: {Command} <ban id>";
 
         public async void Execute(IConsoleShell shell, string argStr, string[] args)

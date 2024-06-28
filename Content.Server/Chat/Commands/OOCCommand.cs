@@ -8,7 +8,7 @@ namespace Content.Server.Chat.Commands
     internal sealed class OOCCommand : IConsoleCommand
     {
         public string Command => "ooc";
-        public string Description => "Send Out Of Character chat messages.";
+        public string Description => "Відправляє повідомлення поза грою (OOC)";
         public string Help => "ooc <text>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

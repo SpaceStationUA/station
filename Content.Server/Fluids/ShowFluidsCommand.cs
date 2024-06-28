@@ -10,7 +10,7 @@ public sealed class ShowFluidsCommand : IConsoleCommand
 {
     [Dependency] private readonly IEntitySystemManager _entitySystem = default!;
     public string Command => "showfluids";
-    public string Description => "Toggles seeing puddle debug overlay.";
+    public string Description => "Перемикає показ накладення налагодження калюж";
     public string Help => $"Usage: {Command}";
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {

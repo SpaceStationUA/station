@@ -11,7 +11,7 @@ namespace Content.Server.Administration.Commands
         [Dependency] private readonly IEntityManager _entManager = default!;
 
         public string Command => "addbodypart";
-        public string Description => "Adds a given entity to a containing body.";
+        public string Description => "Додає задану сутність до контейнера тіла";
         public string Help => "Usage: addbodypart <entity uid> <body uid> <part slot> <part type>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

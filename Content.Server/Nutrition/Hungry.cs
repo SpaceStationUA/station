@@ -12,7 +12,7 @@ namespace Content.Server.Nutrition
         [Dependency] private readonly IEntityManager _entities = default!;
 
         public string Command => "hungry";
-        public string Description => "Makes you hungry.";
+        public string Description => "Робить вас голодним";
         public string Help => $"{Command}";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

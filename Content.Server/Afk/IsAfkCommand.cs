@@ -11,7 +11,7 @@ namespace Content.Server.Afk
         [Dependency] private readonly IPlayerManager _players = default!;
 
         public string Command => "isafk";
-        public string Description => "Checks if a specified player is AFK";
+        public string Description => "Перевіряє, чи вказаний гравець є AFK";
         public string Help => "Usage: isafk <playerName>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

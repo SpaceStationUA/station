@@ -5,7 +5,7 @@ namespace Content.Client.Audio;
 public sealed class AmbientOverlayCommand : IConsoleCommand
 {
     public string Command => "showambient";
-    public string Description => "Shows all AmbientSoundComponents in the viewport";
+    public string Description => "Показує всі компоненти AmbientSound в області перегляду.";
     public string Help => $"{Command}";
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {

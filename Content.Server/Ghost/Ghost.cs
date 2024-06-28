@@ -11,7 +11,7 @@ namespace Content.Server.Ghost
         [Dependency] private readonly IEntityManager _entities = default!;
 
         public string Command => "ghost";
-        public string Description => "Give up on life and become a ghost.";
+        public string Description => "Здається і стає привидом";
         public string Help => "ghost";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

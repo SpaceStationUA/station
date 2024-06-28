@@ -15,7 +15,7 @@ namespace Content.Server.Construction.Commands
     {
         // ReSharper disable once StringLiteralTypo
         public string Command => "tilewindows";
-        public string Description => "Puts a reinforced plating tile below every window on a grid.";
+        public string Description => "Встановлює плитку з посиленням під кожним вікном на сітці";
         public string Help => $"Usage: {Command} <gridId> | {Command}";
 
         public const string TilePrototypeId = "FloorReinforced";

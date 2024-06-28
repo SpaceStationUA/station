@@ -10,7 +10,7 @@ public sealed class LinkBluespaceLocker : IConsoleCommand
     [Dependency] private readonly IEntityManager _entManager = default!;
 
     public string Command => "linkbluespacelocker";
-    public string Description => "Links an entity, the target, to another as a bluespace locker target.";
+    public string Description => "Пов'язує сутність, ціль, з іншою як ціль bluespace шафи";
     public string Help => "Usage: linkbluespacelocker <two-way link> <origin storage uid> <target storage uid>";
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)

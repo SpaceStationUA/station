@@ -9,7 +9,7 @@ namespace Content.Server.Administration.Commands
     public sealed class OpenPermissionsCommand : IConsoleCommand
     {
         public string Command => "permissions";
-        public string Description => "Opens the admin permissions panel.";
+        public string Description => "Відкриває панель дозволів адміністратора";
         public string Help => "Usage: permissions";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

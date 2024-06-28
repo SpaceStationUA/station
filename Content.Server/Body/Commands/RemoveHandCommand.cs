@@ -16,7 +16,7 @@ namespace Content.Server.Body.Commands
         [Dependency] private readonly IRobustRandom _random = default!;
 
         public string Command => "removehand";
-        public string Description => "Removes a hand from your entity.";
+        public string Description => "Видаляє руку з вашої сутності";
         public string Help => $"Usage: {Command}";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

@@ -9,7 +9,7 @@ namespace Content.Server.GameTicking.Commands
     public sealed class RestartRoundCommand : IConsoleCommand
     {
         public string Command => "restartround";
-        public string Description => "Ends the current round and starts the countdown for the next lobby.";
+        public string Description => "Закінчує поточний раунд і запускає зворотний відлік до наступного лобі";
         public string Help => string.Empty;
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)
@@ -30,7 +30,7 @@ namespace Content.Server.GameTicking.Commands
     public sealed class RestartRoundNowCommand : IConsoleCommand
     {
         public string Command => "restartroundnow";
-        public string Description => "Moves the server from PostRound to a new PreRoundLobby.";
+        public string Description => "Переводить сервер з PostRound у новий PreRoundLobby";
         public string Help => String.Empty;
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

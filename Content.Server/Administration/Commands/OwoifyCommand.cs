@@ -12,7 +12,7 @@ public sealed class OwoifyCommand : IConsoleCommand
 
     public string Command => "owoify";
 
-    public string Description => "For when you need everything to be cat. Uses OwOAccent's formatting on the name and description of an entity.";
+    public string Description => "Для випадків, коли потрібно, щоб все було котом. Використовує форматування OwOAccent для імені та опису сутності";
 
     public string Help => "owoify <id>";
 

@@ -17,7 +17,7 @@ namespace Content.Server.Roles
 
         public string Command => "rmrole";
 
-        public string Description => "Removes a role from a player's mind.";
+        public string Description => "Видаляє роль з розуму гравця";
 
         public string Help => "rmrole <session ID> <Role Type>\nThat role type is the actual C# type name.";
 

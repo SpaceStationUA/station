@@ -10,7 +10,7 @@ namespace Content.Server.Alert.Commands
     public sealed class ClearAlert : IConsoleCommand
     {
         public string Command => "clearalert";
-        public string Description => "Clears an alert for a player, defaulting to current player";
+        public string Description => "Очищає попередження для гравця, за замовчуванням для поточного гравця";
         public string Help => "clearalert <alertType> <name or userID, omit for current player>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

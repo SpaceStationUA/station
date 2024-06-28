@@ -6,7 +6,7 @@ namespace Content.Client.Shuttles.Commands;
 public sealed class ShowEmergencyShuttleCommand : IConsoleCommand
 {
     public string Command => "showemergencyshuttle";
-    public string Description => "Shows the expected position of the emergency shuttle";
+    public string Description => "Показує очікуване положення аварійного шатла";
     public string Help => $"{Command}";
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {

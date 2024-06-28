@@ -18,7 +18,7 @@ namespace Content.Server.Mind.Commands
         [Dependency] private readonly IEntityManager _entManager = default!;
 
         public string Command => "makesentient";
-        public string Description => "Makes an entity sentient (able to be controlled by a player)";
+        public string Description => "Робить сутність відчуваючою (здатною керувати гравцем)";
         public string Help => "makesentient <entity id>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

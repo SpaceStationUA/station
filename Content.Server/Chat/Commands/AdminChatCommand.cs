@@ -9,7 +9,7 @@ namespace Content.Server.Chat.Commands
     internal sealed class AdminChatCommand : IConsoleCommand
     {
         public string Command => "asay";
-        public string Description => "Send chat messages to the private admin chat channel.";
+        public string Description => "Відправляє чат-повідомлення в приватний канал адміністраторів";
         public string Help => "asay <text>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

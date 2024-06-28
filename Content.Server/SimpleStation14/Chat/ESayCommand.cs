@@ -10,7 +10,7 @@
 //     internal sealed class ESayCommand : IConsoleCommand
 //     {
 //         public string Command => "esay";
-//         public string Description => "Send chat messages to Shadowkin.";
+//         public string Description => "Відправляє чат-повідомлення до Shadowkin";
 //         public string Help => $"{Command} <text>";
 
 //         public void Execute(IConsoleShell shell, string argStr, string[] args)

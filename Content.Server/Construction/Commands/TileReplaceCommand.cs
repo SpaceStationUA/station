@@ -14,7 +14,7 @@ sealed class TileReplaceCommand : IConsoleCommand
 
     // ReSharper disable once StringLiteralTypo
     public string Command => "tilereplace";
-    public string Description => "Replaces one tile with another.";
+    public string Description => "Заміщує одну плитку іншою";
     public string Help => $"Usage: {Command} [<gridId>] <src> <dst>";
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)

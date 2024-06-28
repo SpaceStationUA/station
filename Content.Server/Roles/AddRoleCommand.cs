@@ -16,7 +16,7 @@ namespace Content.Server.Roles
 
         public string Command => "addrole";
 
-        public string Description => "Adds a role to a player's mind.";
+        public string Description => "Додає роль до розуму гравця";
 
         public string Help => "addrole <session ID> <role>";
 

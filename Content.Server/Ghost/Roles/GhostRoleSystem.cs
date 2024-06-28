@@ -416,7 +416,7 @@ namespace Content.Server.Ghost.Roles
     public sealed class GhostRoles : IConsoleCommand
     {
         public string Command => "ghostroles";
-        public string Description => "Opens the ghost role request window.";
+        public string Description => "Відкриває вікно запиту ролі привида";
         public string Help => $"{Command}";
         public void Execute(IConsoleShell shell, string argStr, string[] args)
         {

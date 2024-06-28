@@ -14,7 +14,7 @@ namespace Content.Server.Atmos.Commands
         [Dependency] private readonly IEntityManager _entManager = default!;
 
         public string Command => "addgas";
-        public string Description => "Adds gas at a certain position.";
+        public string Description => "Додає газ у певну позицію";
         public string Help => "addgas <X> <Y> <GridEid> <Gas> <moles>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

@@ -15,7 +15,7 @@ namespace Content.Server.Construction.Commands
 
         // ReSharper disable once StringLiteralTypo
         public string Command => "fixrotations";
-        public string Description => "Sets the rotation of all occluders, low walls and windows to south.";
+        public string Description => "Встановлює обертання всіх затінювачів, низьких стін і вікон на південь";
         public string Help => $"Usage: {Command} <gridId> | {Command}";
 
         public void Execute(IConsoleShell shell, string argsOther, string[] args)

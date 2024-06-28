@@ -254,7 +254,7 @@ public sealed class CrewManifestSystem : EntitySystem
 public sealed class CrewManifestCommand : IConsoleCommand
 {
     public string Command => "crewmanifest";
-    public string Description => "Opens the crew manifest for the given station.";
+    public string Description => "Відкриває список екіпажу для заданої станції";
     public string Help => $"Usage: {Command} <entity uid>";
 
     [Dependency] private readonly IEntityManager _entityManager = default!;

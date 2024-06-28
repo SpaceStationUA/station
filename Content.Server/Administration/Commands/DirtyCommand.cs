@@ -9,7 +9,7 @@ public sealed class DirtyCommand : IConsoleCommand
     [Dependency] private readonly IEntityManager _entManager = default!;
 
     public string Command => "dirty";
-    public string Description => "Marks all components on an entity as dirty, if not specified, dirties everything";
+    public string Description => "Позначає всі компоненти на сутності як брудні, якщо не вказано інше, позначає все як брудне";
     public string Help => $"Usage: {Command} [entityUid]";
 
     public async void Execute(IConsoleShell shell, string argStr, string[] args)

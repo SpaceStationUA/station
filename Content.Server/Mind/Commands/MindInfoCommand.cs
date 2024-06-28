@@ -14,7 +14,7 @@ namespace Content.Server.Mind.Commands
         [Dependency] private readonly IEntityManager _entities = default!;
 
         public string Command => "mindinfo";
-        public string Description => "Lists info for the mind of a specific player.";
+        public string Description => "Перелічує інформацію для розуму конкретного гравця";
         public string Help => "mindinfo <session ID>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

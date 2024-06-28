@@ -10,7 +10,7 @@ namespace Content.Server.Alert.Commands
     public sealed class ShowAlert : IConsoleCommand
     {
         public string Command => "showalert";
-        public string Description => "Shows an alert for a player, defaulting to current player";
+        public string Description => "Показує попередження для гравця, за замовчуванням для поточного гравця";
         public string Help => "showalert <alertType> <severity, -1 if no severity> <name or userID, omit for current player>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

@@ -9,7 +9,7 @@ namespace Content.Server.Administration.Commands
     public sealed class ReadyAll : IConsoleCommand
     {
         public string Command => "readyall";
-        public string Description => "Readies up all players in the lobby, except for observers.";
+        public string Description => "Готує до гри всіх гравців у лобі, крім спостерігачів";
         public string Help => $"{Command} | ̣{Command} <ready>";
         public void Execute(IConsoleShell shell, string argStr, string[] args)
         {

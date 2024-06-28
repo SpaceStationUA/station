@@ -10,7 +10,7 @@ namespace Content.Server.Chat.Commands
     internal sealed class AliensayCommand : IConsoleCommand
     {
         public string Command => "aliensay";
-        public string Description => "Send message to your hivemind";
+        public string Description => "Відправляє повідомлення в ваш колективний розум";
         public string Help => "aliensay <text>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

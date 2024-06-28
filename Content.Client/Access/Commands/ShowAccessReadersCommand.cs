@@ -7,7 +7,7 @@ namespace Content.Client.Access.Commands;
 public sealed class ShowAccessReadersCommand : IConsoleCommand
 {
     public string Command => "showaccessreaders";
-    public string Description => "Shows all access readers in the viewport";
+    public string Description => "Показує всі пристрої зчитування доступу в області перегляду";
     public string Help => $"{Command}";
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {

@@ -10,7 +10,7 @@ namespace Content.Server.Administration.Commands
     public sealed class DeAdminCommand : IConsoleCommand
     {
         public string Command => "deadmin";
-        public string Description => "Temporarily de-admins you so you can experience the round as a normal player.";
+        public string Description => "Тимчасово відмовляється від прав адміністратора, щоб ви могли пережити раунд як звичайний гравець";
         public string Help => "Usage: deadmin\nUse readmin to re-admin after using this.";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

@@ -11,7 +11,7 @@ namespace Content.Client.Weapons.Melee;
 public sealed class MeleeSpreadCommand : IConsoleCommand
 {
     public string Command => "showmeleespread";
-    public string Description => "Shows the current weapon's range and arc for debugging";
+    public string Description => "Показує дальність і дугу поточної зброї для налагодження";
     public string Help => $"{Command}";
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {

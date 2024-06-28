@@ -11,7 +11,7 @@ namespace Content.Server.Administration.Commands
         [Dependency] private readonly IEntityManager _entManager = default!;
 
         public string Command => "rmstorage";
-        public string Description => "Removes a given entity from it's containing storage, if any.";
+        public string Description => "Видаляє задану сутність із контейнера сховища, якщо є";
         public string Help => "Usage: rmstorage <uid>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

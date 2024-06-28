@@ -12,7 +12,7 @@ namespace Content.Server.Administration.Commands;
 public sealed class AdminLogBulk : IConsoleCommand
 {
     public string Command => "adminlogbulk";
-    public string Description => "Adds debug logs to the database.";
+    public string Description => "Додає журнали налагодження до бази даних";
     public string Help => $"Usage: {Command} <amount> <parallel>";
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)

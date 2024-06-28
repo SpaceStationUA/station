@@ -22,7 +22,7 @@ public sealed class RenameCommand : IConsoleCommand
     [Dependency] private readonly IPlayerManager _playerManager = default!;
 
     public string Command => "rename";
-    public string Description => "Renames an entity and its cloner entries, ID cards, and PDAs.";
+    public string Description => "Перейменовує сутність та її записи в клонері, ID-карти та PDA";
     public string Help => "rename <Username|EntityUid> <New character name>";
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)

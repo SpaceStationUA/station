@@ -12,7 +12,7 @@ namespace Content.Server.Objectives.Commands
         [Dependency] private readonly IEntityManager _entityManager = default!;
 
         public string Command => "rmobjective";
-        public string Description => "Removes an objective from the player's mind.";
+        public string Description => "Видаляє мету з розуму гравця";
         public string Help => "rmobjective <username> <index>";
         public void Execute(IConsoleShell shell, string argStr, string[] args)
         {

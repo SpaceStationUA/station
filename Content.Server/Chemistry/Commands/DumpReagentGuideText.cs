@@ -13,7 +13,7 @@ public sealed class DumpReagentGuideText : IConsoleCommand
     [Dependency] private readonly IEntitySystemManager _entSys = default!;
 
     public string Command => "dumpreagentguidetext";
-    public string Description => "Dumps the guidebook text for a reagent to the console";
+    public string Description => "Виводить текст довідника для реагенту в консоль";
     public string Help => "dumpreagentguidetext <reagent>";
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)

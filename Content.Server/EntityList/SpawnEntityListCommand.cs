@@ -10,7 +10,7 @@ namespace Content.Server.EntityList
     public sealed class SpawnEntityListCommand : IConsoleCommand
     {
         public string Command => "spawnentitylist";
-        public string Description => "Spawns a list of entities around you";
+        public string Description => "Створює список сутностей навколо вас";
         public string Help => $"Usage: {Command} <entityListPrototypeId>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

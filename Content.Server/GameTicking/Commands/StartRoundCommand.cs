@@ -8,7 +8,7 @@ namespace Content.Server.GameTicking.Commands
     sealed class StartRoundCommand : IConsoleCommand
     {
         public string Command => "startround";
-        public string Description => "Ends PreRoundLobby state and starts the round.";
+        public string Description => "Закінчує стан PreRoundLobby і починає раунд";
         public string Help => String.Empty;
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

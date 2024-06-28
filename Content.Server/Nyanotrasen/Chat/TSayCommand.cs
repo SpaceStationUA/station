@@ -11,7 +11,7 @@ namespace Content.Server.Chat.Commands
     internal sealed class TSayCommand : IConsoleCommand
     {
         public string Command => "tsay";
-        public string Description => "Send chat messages to the telepathic.";
+        public string Description => "Відправляє чат-повідомлення телепатам";
         public string Help => "tsay <text>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

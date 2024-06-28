@@ -10,7 +10,7 @@ namespace Content.Server.Announcements
     public sealed class AnnounceCommand : IConsoleCommand
     {
         public string Command => "announce";
-        public string Description => "Send an in-game announcement.";
+        public string Description => "Відправляє оголошення в грі";
         public string Help => $"{Command} <sender> <message> or {Command} <message> to send announcement as CentCom.";
         public void Execute(IConsoleShell shell, string argStr, string[] args)
         {

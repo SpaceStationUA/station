@@ -8,7 +8,7 @@ namespace Content.Server.GameTicking.Commands
     sealed class EndRoundCommand : IConsoleCommand
     {
         public string Command => "endround";
-        public string Description => "Ends the round and moves the server to PostRound.";
+        public string Description => "Закінчує раунд і переходить сервер у PostRound";
         public string Help => String.Empty;
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

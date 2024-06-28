@@ -6,7 +6,7 @@ namespace Content.Client.Weapons.Ranged;
 public sealed class ShowSpreadCommand : IConsoleCommand
 {
     public string Command => "showgunspread";
-    public string Description => $"Shows gun spread overlay for debugging";
+    public string Description => $"Показує накладення розсіювання зброї для налагодження";
     public string Help => $"{Command}";
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {

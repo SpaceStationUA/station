@@ -118,7 +118,7 @@ namespace Content.Client.Changelog
     public sealed class ChangelogCommand : IConsoleCommand
     {
         public string Command => "changelog";
-        public string Description => "Opens the changelog";
+        public string Description => "Відкриває журнал змін";
         public string Help => "Usage: changelog";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

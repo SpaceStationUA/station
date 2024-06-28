@@ -16,7 +16,7 @@ namespace Content.Server.Administration.Commands
     {
         public string Command => "loadgamemap";
 
-        public string Description => "Loads the given game map at the given coordinates.";
+        public string Description => "Завантажує задану ігрову карту в заданих координатах";
 
         public string Help => "loadgamemap <mapid> <gamemap> [<x> <y> [<name>]] ";
 
@@ -85,7 +85,7 @@ namespace Content.Server.Administration.Commands
     {
         public string Command => "listgamemaps";
 
-        public string Description => "Lists the game maps that can be used by loadgamemap";
+        public string Description => "Перелічує ігрові карти, які можна використовувати за допомогою loadgamemap";
 
         public string Help => "listgamemaps";
 

@@ -9,7 +9,7 @@ namespace Content.Client.NodeContainer
     public sealed class NodeVisCommand : IConsoleCommand
     {
         public string Command => "nodevis";
-        public string Description => "Toggles node group visualization";
+        public string Description => "Перемикає візуалізацію групи вузлів";
         public string Help => "";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)
@@ -29,7 +29,7 @@ namespace Content.Client.NodeContainer
     public sealed class NodeVisFilterCommand : IConsoleCommand
     {
         public string Command => "nodevisfilter";
-        public string Description => "Toggles showing a specific group on nodevis";
+        public string Description => "Перемикає показ конкретної групи на nodevis";
         public string Help => "Usage: nodevis [filter]\nOmit filter to list currently masked-off";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

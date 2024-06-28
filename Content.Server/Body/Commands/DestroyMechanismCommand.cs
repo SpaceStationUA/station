@@ -11,7 +11,7 @@ namespace Content.Server.Body.Commands
     sealed class DestroyMechanismCommand : IConsoleCommand
     {
         public string Command => "destroymechanism";
-        public string Description => "Destroys a mechanism from your entity";
+        public string Description => "Знищує механізм у вашій сутності";
         public string Help => $"Usage: {Command} <mechanism>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

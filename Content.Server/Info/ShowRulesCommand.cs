@@ -13,7 +13,7 @@ namespace Content.Server.Info;
 public sealed class ShowRulesCommand : IConsoleCommand
 {
     public string Command => "showrules";
-    public string Description => "Opens the rules popup for the specified player.";
+    public string Description => "Відкриває вікно правил для вказаного гравця";
     public string Help => "showrules <username> [seconds]";
     public async void Execute(IConsoleShell shell, string argStr, string[] args)
     {

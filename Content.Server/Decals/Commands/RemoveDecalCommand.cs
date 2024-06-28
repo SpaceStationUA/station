@@ -13,7 +13,7 @@ namespace Content.Server.Decals.Commands
         [Dependency] private readonly IMapManager _mapManager = default!;
 
         public string Command => "rmdecal";
-        public string Description => "removes a decal";
+        public string Description => "Видаляє наклейку";
         public string Help => $"{Command} <uid> <gridId>";
         public void Execute(IConsoleShell shell, string argStr, string[] args)
         {

@@ -10,7 +10,7 @@ namespace Content.Server.Administration.Commands
         [Dependency] private readonly IEntityManager _entManager = default!;
 
         public string Command => "addmechanism";
-        public string Description => "Adds a given entity to a containing body.";
+        public string Description => "Додає задану сутність до контейнера тіла";
         public string Help => "Usage: addmechanism <entity uid> <bodypart uid>";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)

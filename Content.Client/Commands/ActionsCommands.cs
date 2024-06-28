@@ -15,7 +15,7 @@ namespace Content.Client.Commands;
 public sealed class SaveActionsCommand : IConsoleCommand
 {
     public string Command => "saveacts";
-    public string Description => "Saves the current action toolbar assignments to a file";
+    public string Description => "Зберігає поточні призначення панелі інструментів до файлу";
     public string Help => $"Usage: {Command} <user resource path>";
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {

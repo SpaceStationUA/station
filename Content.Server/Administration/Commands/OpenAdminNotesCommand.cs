@@ -10,7 +10,7 @@ public sealed class OpenAdminNotesCommand : IConsoleCommand
     public const string CommandName = "adminnotes";
 
     public string Command => CommandName;
-    public string Description => "Opens the admin notes panel.";
+    public string Description => "Відкриває панель нотаток адміністратора";
     public string Help => $"Usage: {Command} <notedPlayerUserId OR notedPlayerUsername>";
 
     public async void Execute(IConsoleShell shell, string argStr, string[] args)

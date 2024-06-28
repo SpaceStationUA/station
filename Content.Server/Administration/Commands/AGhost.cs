@@ -12,7 +12,7 @@ namespace Content.Server.Administration.Commands
         [Dependency] private readonly IEntityManager _entities = default!;
 
         public string Command => "aghost";
-        public string Description => "Makes you an admin ghost.";
+        public string Description => "Робить вас адміністраторським привидом";
         public string Help => "aghost";
 
         public void Execute(IConsoleShell shell, string argStr, string[] args)
