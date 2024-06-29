@@ -1,5 +1,5 @@
 - type: entity
-  name: Secway Spawner
+  name: "Нерестовик Secway"
   id: SpawnVehicleSecway
   parent: MarkerBase
   components:
@@ -13,7 +13,7 @@
       - VehicleSecway
 
 - type: entity
-  name: Janicart Spawner
+  name: "Янікарт Спаунер"
   id: SpawnVehicleJanicart
   parent: MarkerBase
   components:
@@ -27,7 +27,7 @@
       - VehicleJanicart
 
 - type: entity
-  name: ATV Spawner
+  name: "ATV Spawner"
   id: SpawnVehicleATV
   parent: MarkerBase
   components:
@@ -41,7 +41,7 @@
       - VehicleATVNF # Frontier
 
 - type: entity
-  name: Motobike Spawner
+  name: "Мотоцикл Spawner"
   id: SpawnVehicleMotobike
   parent: MarkerBase
   components:
@@ -55,7 +55,7 @@
       - VehicleSkeletonMotorcycleNF # Frontier
       
 - type: entity
-  name: Wheelchair Spawner
+  name: "Інвалідний візок Spawner"
   id: SpawnVehicleWheelchair
   parent: MarkerBase
   components:
@@ -69,7 +69,7 @@
       - VehicleWheelchair
       
 - type: entity
-  name: Wheelchair [Folded] Spawner
+  name: "Інвалідний візок [Складений] Спайдер"
   id: SpawnVehicleWheelchairFolded
   parent: MarkerBase
   components:

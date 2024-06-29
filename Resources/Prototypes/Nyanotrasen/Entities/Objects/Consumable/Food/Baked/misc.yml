@@ -1,8 +1,8 @@
 - type: entity
-  name: cheesecake balls
+  name: "чізкейкові кульки"
   parent: FoodBakedBase
   id: FoodMothCheesecakeBalls
-  description: Made of soft cheese, powdered sugar and flour, rolled into balls, battered and then deep fried. They're often served with honey.
+  description: "З м'якого сиру, цукрової пудри та борошна скачують кульки, обвалюють у клярі, а потім смажать у фритюрі. Часто подають з медом."
   components:
   - type: FlavorProfile
     flavors:
@@ -29,10 +29,10 @@
 #Tastes like cheesecake and honey
 
 - type: entity
-  name: mothmallow tray
+  name: "піднос для зефіру"
   parent: FoodBakedBase
   id: FoodMothMothmallow
-  description: A light and fluffy vegan marshmallow flavoured with vanilla and rum. These are known to the moths as cloud squares.
+  description: "Легкий та пухнастий веганський зефір зі смаком ванілі та рому. Метеликам вони відомі як хмарні квадратики."
   components:
   - type: FlavorProfile
     flavors:
@@ -60,10 +60,10 @@
 #Tastes like vanilla and clouds.
 
 - type: entity
-  name: mothmallow slice
+  name: "шматочок зефіру"
   parent: FoodBakedBase
   id: FoodMothMothmallowSlice
-  description: Fluffy little clouds of joy- in a strangely moth-like form and colour.
+  description: "Пухнасті хмаринки радості - дивної форми та кольору, що нагадують метеликів."
   components:
   - type: FlavorProfile
     flavors:
@@ -88,10 +88,10 @@
 #Tastes like vanilla and clouds.
 
 - type: entity
-  name: moffin
+  name: "moffin"
   parent: FoodBakedBase
   id: FoodMothMoffin
-  description: A delicious, spongy and dusty little cake.
+  description: "Смачний, пористий і пишний маленький пиріг."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Consumable/Food/Baked/misc.rsi

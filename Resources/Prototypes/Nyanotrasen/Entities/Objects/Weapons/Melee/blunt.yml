@@ -1,8 +1,8 @@
 - type: entity
-  name: kanabou
+  name: "канабу"
   parent: BaseItem
   id: Kanabou
-  description: The classic oni weapon, for those that forgo subtlety.
+  description: "Класична зброя оні, для тих, хто відмовляється від витонченості."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Weapons/Melee/kanabou.rsi
@@ -33,10 +33,10 @@
     - back
 
 - type: entity
-  name: shinai
+  name: "shinai"
   parent: BaseItem
   id: Shinai
-  description: A bamboo sword, commonly used in kendo. Made some time after the realization that wooden swords hurt a lot.
+  description: "Бамбуковий меч, який зазвичай використовується в кендо. Зроблений через деякий час після усвідомлення того, що дерев'яні мечі завдають багато болю."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Weapons/Melee/shinai.rsi
