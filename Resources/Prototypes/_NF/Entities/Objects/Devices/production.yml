@@ -1,7 +1,7 @@
 - type: entity
   id: ThrusterSecurityMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "захисна машинна плата рушія безпеки"
+  name: security thruster machine board
   components:
   - type: MachineBoard
     prototype: ThrusterSecurity
@@ -13,7 +13,7 @@
 - type: entity
   id: ThrusterNfsdMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата підрулюючого пристрою nfsd"
+  name: nfsd thruster machine board
   components:
   - type: MachineBoard
     prototype: ThrusterNfsd
@@ -25,7 +25,7 @@
 - type: entity
   id: SmallThrusterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата малої рушійної машини"
+  name: small thruster machine board
   components:
   - type: MachineBoard
     prototype: SmallThruster
@@ -40,7 +40,7 @@
 - type: entity
   id: GyroscopeSecurityMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "захисна гіроскопічна плата машини"
+  name: security gyroscope machine board
   components:
   - type: MachineBoard
     prototype: GyroscopeSecurity
@@ -53,7 +53,7 @@
 - type: entity
   id: SmallGyroscopeSecurityMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "невелика плата машини з гіроскопом безпеки"
+  name: small security gyroscope machine board
   components:
   - type: MachineBoard
     prototype: SmallGyroscopeSecurity
@@ -68,7 +68,7 @@
 - type: entity
   id: GyroscopeNfsdMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини з гіроскопом nfsd"
+  name: nfsd gyroscope machine board
   components:
   - type: MachineBoard
     prototype: GyroscopeNfsd
@@ -81,7 +81,7 @@
 - type: entity
   id: SmallGyroscopeNfsdMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "невелика плата для гіроскопа nfsd"
+  name: small nfsd gyroscope machine board
   components:
   - type: MachineBoard
     prototype: SmallGyroscopeNfsd
@@ -96,7 +96,7 @@
 - type: entity
   id: SmallGyroscopeMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "невелика плата гіроскопічного верстата"
+  name: small gyroscope machine board
   components:
   - type: MachineBoard
     prototype: SmallGyroscope

@@ -2,12 +2,12 @@
 - type: entity
   id: PartSlime
   parent: [BaseItem, BasePart]
-  name: "частина тіла слимака"
+  name: "slime body part"
   abstract: true
 
 - type: entity
   id: TorsoSlime
-  name: "слизовий тулуб"
+  name: "slime torso"
   parent: [PartSlime, BaseTorso]
   components:
     - type: Sprite
@@ -16,7 +16,7 @@
 
 - type: entity
   id: HeadSlime
-  name: "голова слимака"
+  name: "slime head"
   parent: [PartSlime, BaseHead]
   components:
     - type: Sprite
@@ -25,7 +25,7 @@
   
 - type: entity
   id: LeftArmSlime
-  name: "лівий слизовий рукав"
+  name: "left slime arm"
   parent: [PartSlime, BaseLeftArm]
   components:
     - type: Sprite
@@ -34,7 +34,7 @@
 
 - type: entity
   id: RightArmSlime
-  name: "правий слизовий рукав"
+  name: "right slime arm"
   parent: [PartSlime, BaseRightArm]
   components:
     - type: Sprite
@@ -43,7 +43,7 @@
 
 - type: entity
   id: LeftHandSlime
-  name: "ліва слизька рука"
+  name: "left slime hand"
   parent: [PartSlime, BaseLeftHand]
   components:
     - type: Sprite
@@ -52,7 +52,7 @@
 
 - type: entity
   id: RightHandSlime
-  name: "права слизька рука"
+  name: "right slime hand"
   parent: [PartSlime, BaseRightHand]
   components:
     - type: Sprite
@@ -61,7 +61,7 @@
 
 - type: entity
   id: LeftLegSlime
-  name: "ліва нога слимака"
+  name: "left slime leg"
   parent: [PartSlime, BaseLeftLeg]
   components:
     - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: RightLegSlime
-  name: "права нога слимака"
+  name: "right slime leg"
   parent: [PartSlime, BaseRightLeg]
   components:
     - type: Sprite
@@ -79,7 +79,7 @@
 
 - type: entity
   id: LeftFootSlime
-  name: "ліва слизова нога"
+  name: "left slime foot"
   parent: [PartSlime, BaseLeftFoot]
   components:
     - type: Sprite
@@ -88,7 +88,7 @@
 
 - type: entity
   id: RightFootSlime
-  name: "права слизова нога"
+  name: "right slime foot"
   parent: [PartSlime, BaseRightFoot]
   components:
     - type: Sprite

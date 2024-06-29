@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterLeatherArmor
-  name: "шкіряні обладунки"
-  description: "Шкіряний костюм-броня, що забезпечує захист від фізичних загроз."
+  name: leather armor
+  description: A leather suit of armor that provides protection against physical threats.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutleather.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterMetalArmor
-  name: "металева броня"
-  description: "Костюм з металевої броні, що забезпечує захист від фізичних загроз, але за рахунок свободи пересування."
+  name: metal armor
+  description: A suit of metal armor that provides protection against physical threats, at the cost of movement.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutmetal.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterCombatArmor
-  name: "бойові обладунки"
-  description: "Костюм бойового обладунку, який використовується в бою."
+  name: combat armor
+  description: A suit of combat armor that's used in combat.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutcombat.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterCombatArmorBOS
-  name: "бойові обладунки братства"
-  description: "Бойовий обладунок, який використовувало Сталеве братство."
+  name: brotherhood combat armor
+  description: A suit of combat armor used by the Brotherhood of Steel.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutbosarmor.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterCombatArmorMK2
-  name: "бойова броня MK2"
-  description: "Костюм бойового обладунку, який використовується в бою. Виглядає сильніше."
+  name: combat armor mk2
+  description: A suit of combat armor that's used in combat. It looks stronger.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutcombatmk2.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterCombatArmorBOSMK2
-  name: "бойова броня братства MK2"
-  description: "Бойовий обладунок, який використовувало Сталеве Братство. Виглядає сильніше."
+  name: brotherhood combat armor mk2
+  description: A suit of combat armor used by the Brotherhood of Steel. It looks stronger.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutbosmk2armor.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorMK2
   id: N14ClothingOuterEnclaveArmor
-  name: "броня анклаву"
-  description: "Бронежилет, який використовували солдати анклаву."
+  name: enclave armor
+  description: A suit of armor used by enclave soldiers.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutenclavearmor.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterCombatArmorBOSSenior
-  name: "старший обладунок братства"
-  description: "Бойовий обладунок, який використовували старші бійці \"Сталевого братства\"."
+  name: brotherhood senior armor
+  description: A suit of combat armor used by Brotherhood of Steel seniors.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutbossenior.rsi
@@ -134,8 +134,8 @@
 - type: entity
   parent: N14ClothingOuterCombatArmorBOSSenior
   id: N14ClothingOuterCombatArmorBOSKnight
-  name: "лицарські обладунки Братства"
-  description: "Бойовий обладунок, який використовували лицарі Сталевого братства."
+  name: brotherhood knight armor
+  description: A suit of combat armor used by Brotherhood of Steel knights.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutbosknight.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterCombatArmorBOSCaptain
-  name: "братство капітана броні"
-  description: "Бойовий обладунок, який використовують капітани \"Сталевого братства\". Цей виглядає найкраще."
+  name: brotherhood captain armor
+  description: A suit of combat armor used by Brotherhood of Steel captains. This one looks the nicest.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutboscaptain.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterTribalArmor
-  name: "племінні обладунки"
-  description: "Елемент обладунку, який використовували племена."
+  name: tribal armor
+  description: A piece of armor used by tribals.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/fallouttribal.rsi
@@ -181,8 +181,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterTribalArmorHeavy
-  name: "важкі племінні обладунки"
-  description: "Частина важких обладунків, які використовували племена."
+  name: heavy tribal armor
+  description: A piece of heavy armor used by tribals.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/fallouttribalheavy.rsi
@@ -203,8 +203,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterRaiderBadlands
-  name: "рейдерська броня для безлюдних земель"
-  description: "Костюм рейдерської броні. Він майже не захищає... але виглядає круто."
+  name: raider badlands armor
+  description: A suit of raider armor. It provides barely any protection... but it DOES look cool.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutraiderbadlands.rsi
@@ -214,8 +214,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterRaiderBlastmaster
-  name: "рейдерська броня підривника"
-  description: "Костюм рейдерської броні. Він майже не захищає... але виглядає круто."
+  name: raider blastmaster armor
+  description: A suit of raider armor. It provides barely any protection... but it DOES look cool.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutraiderblastmaster.rsi
@@ -225,8 +225,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterRaiderCombat1
-  name: "бойова броня для рейдерів"
-  description: "Броня, яку сумнозвісно використовують у бою рейдери всіх видів."
+  name: raider combat armor
+  description: An armor piece infamously used by Raiders of all kinds in combat.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutcombatraider1.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: N14ClothingOuterRaiderCombat1
   id: N14ClothingOuterRaiderCombat2
-  name: "бойова броня для рейдерів"
-  description: "Броня, яку сумнозвісно використовують у бою рейдери всіх видів."
+  name: raider combat armor
+  description: An armor piece infamously used by Raiders of all kinds in combat.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutcombatraider2.rsi
