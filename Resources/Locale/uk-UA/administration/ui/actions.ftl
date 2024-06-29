@@ -11,4 +11,4 @@ admin-player-actions-clone = Клонувати
 admin-player-actions-teleport = Телепортуватись до
 admin-player-actions-confirm = Ви впевнені?
 
-admin-player-actions-follow = Підпишіться
+admin-player-actions-follow = Слідкувати

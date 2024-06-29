@@ -1,4 +1,4 @@
-apc-menu-title = БТР
+apc-menu-title = АПЦ
 
 apc-menu-breaker-label = Головний вимикач
 apc-menu-breaker-button = Перемкнути

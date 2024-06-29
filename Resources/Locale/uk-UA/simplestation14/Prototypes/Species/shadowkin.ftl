@@ -1,1 +1,1 @@
-species-name-shadowkin = Шедовкін
+species-name-shadowkin = Тіньовик

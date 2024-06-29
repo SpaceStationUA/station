@@ -1,5 +1,5 @@
-ent-BaseThruster = рушій
-    .desc = Рушій, який дозволяє шатлу рухатися.
+ent-BaseThruster = двигун
+    .desc = Двигун, який дозволяє шатлу рухатися.
 
 ent-Thruster = { ent-BaseThruster }
     .desc = { ent-BaseThruster.desc }
