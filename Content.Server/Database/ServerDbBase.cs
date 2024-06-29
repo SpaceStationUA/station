@@ -221,6 +221,8 @@ namespace Content.Server.Database
                 profile.FlavorText,
                 profile.Species,
                 voice, // Pirate TTS
+                profile.Height,
+                profile.Width,
                 profile.Age,
                 sex,
                 gender,
@@ -263,6 +265,8 @@ namespace Content.Server.Database
             profile.Age = humanoid.Age;
             profile.Sex = humanoid.Sex.ToString();
             profile.Gender = humanoid.Gender.ToString();
+            profile.Height = humanoid.Height;
+            profile.Width = humanoid.Width;
             profile.HairName = appearance.HairStyleId;
             profile.HairColor = appearance.HairColor.ToHex();
             profile.FacialHairName = appearance.FacialHairStyleId;
