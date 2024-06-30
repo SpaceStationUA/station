@@ -1,9 +1,9 @@
 power-monitoring-window-title = Консоль моніторингу живлення
 
 power-monitoring-window-label-sources = Джерела
-power-monitoring-window-label-smes = МСП
+power-monitoring-window-label-smes = SMES
 power-monitoring-window-label-substation = Підстанція
-power-monitoring-window-label-apc = БТР
+power-monitoring-window-label-apc = АПЦ
 power-monitoring-window-label-misc = Різне
 
 power-monitoring-window-object-array = {$name} масив [{$count}]

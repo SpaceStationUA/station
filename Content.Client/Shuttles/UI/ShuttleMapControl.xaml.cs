@@ -206,7 +206,8 @@ public sealed partial class ShuttleMapControl : BaseShuttleControl
     private List<IMapObject> GetViewportMapObjects(Matrix3 matty, List<IMapObject> mapObjects)
     {
         var results = new List<IMapObject>();
-        var viewBox = SizeBox.Scale(1.2f);
+        var enlargement = new Vector2i((int) (16 * UIScale), (int) (16 * UIScale));
+        var viewBox = new UIBox2i(Vector2i.Zero - enlargement, PixelSize + enlargement);
 
         foreach (var mapObj in mapObjects)
         {
@@ -398,8 +399,8 @@ public sealed partial class ShuttleMapControl : BaseShuttleControl
 
             foreach (var (gridUiPos, iffText) in sendStrings)
             {
-                var textWidth = handle.GetDimensions(_font, iffText, UIScale);
-                handle.DrawString(_font, gridUiPos + textWidth with { X = -textWidth.X / 2f }, iffText, adjustedColor);
+                var textWidth = handle.GetDimensions(_font, iffText, 1f);
+                handle.DrawString(_font, gridUiPos + textWidth with { X = -textWidth.X / 2f, Y = textWidth.Y * UIScale }, iffText, adjustedColor);
             }
         }
 
@@ -587,7 +588,7 @@ public sealed partial class ShuttleMapControl : BaseShuttleControl
 
             var distance = (localPos - mousePos).Length();
 
-            if (distance > BeaconSnapRange ||
+            if (distance > BeaconSnapRange * UIScale ||
                 distance > nearestValue)
             {
                 continue;
