@@ -1,9 +1,9 @@
 - type: entity
   id: AsteroidAltRock #It's 1994
   parent: BaseStructure
-  name: asteroid rock
+  name: "астероїдний камінь"
   suffix: Low Ore Yield
-  description: A rocky asteroid.
+  description: "Кам'янистий астероїд."
   components:
   - type: Gatherable
     whitelist:
@@ -46,9 +46,9 @@
 - type: entity
   id: MountainRockMining
   parent: AsteroidAltRock
-  name: mountain rock
+  name: "гірська порода"
   suffix: Low Yield/Higher Value Ore
-  description: A craggy mountain wall.
+  description: "Скеляста гірська стіна."
   components:
   - type: Sprite
     sprite: DeltaV/Structures/Walls/mountain_rock_ore.rsi
@@ -68,9 +68,9 @@
 - type: entity
   id: MountainRock
   parent: BaseStructure
-  name: mountain rock
+  name: "гірська порода"
   suffix: un-mineable
-  description: A craggy mountain wall. It is too hard to mine.
+  description: "Скеляста гірська стіна. Її надто важко добувати."
   components:
   - type: Sprite
     sprite: DeltaV/Structures/Walls/mountain_rock.rsi
@@ -106,9 +106,9 @@
 - type: entity
   id: AsteroidAltRockMining
   parent: AsteroidAltRock
-  name: asteroid rock
+  name: "астероїдний камінь"
   suffix: higher ore yield
-  description: A rocky asteroid.
+  description: "Кам'янистий астероїд."
   components:
   - type: Gatherable
     whitelist:

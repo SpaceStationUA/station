@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: UniformJabroni
-  name: jabroni outfit
-  description: For artists, performance artists.
+  name: "вбрання jabroni"
+  description: "Для художників, перформерів."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/jabroni.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingCostumeArcDress
-  name: white shirt and purple skirt
-  description: You feel a supernatural urge to put these on. It must be fate.
+  name: "біла сорочка та фіолетова спідниця"
+  description: "Ви відчуваєте надприродне бажання вдягнути їх. Це, мабуть, доля."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/arc.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: UniformGeisha
-  name: geisha dress
-  description: For a good hostess.
+  name: "сукня гейші"
+  description: "Для хорошої господині."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/geisha.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtNurse
-  name: nurse skirt
-  description: Time to carry the medical department.
+  name: "спідниця медсестри"
+  description: "Час нести медичний відділ."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/nurse.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: UniformMaid
-  name: maid uniform
-  description: Authentic, from Space France!
+  name: "уніформа покоївки"
+  description: "Автентичне, від Space France!"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/maid.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingCostumeBunnySuit
-  name: bunny suit
-  description: Ready to go with stockings and a bow tie.
+  name: "костюм зайчика"
+  description: "Готовий до носіння з панчохами та краваткою-метеликом."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/bunny.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingCostumeMioSkirt
-  name: yellow skirt with rose hoodie
-  description: Soft and comfortable, it sports bright colors with a neat yellow bow at the neck.
+  name: "жовта спідниця з рожевим худі"
+  description: "М'яка та зручна, вона має яскраві кольори та акуратний жовтий бант на горловині."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/mio.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformSkirtTurtle
-  name: decorated turtle skirt
-  description: A turtle skirt with yellow straps and soft fabric.
+  name: "декорована спідниця-черепаха"
+  description: "Спідниця-черепаха на жовтих бретелях з м'якої тканини."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpskirt/Decorskirt.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingCostumeNaota
-  name: turquoise hoodie and shorts
-  description: A hoodie with a small kangaroo pouch. 
+  name: "бірюзовий худі та шорти"
+  description: "Худі з невеликою сумкою-кенгуру."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/naota.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformRat
-  name: rat king fan outfit
-  description: Declare your allegiance to the rodent monarch, as well as your desire to see the station burn *at the same time!*
+  name: "фанатський костюм щурячого короля"
+  description: "Заявіть про свою вірність монарху гризунів, а також про своє бажання побачити, як згорить вокзал *одночасно!*"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/rat.rsi
@@ -115,8 +115,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformDressRed
-  name: red dress
-  description: A voluminous, fancy red dress.
+  name: "червона сукня"
+  description: "Об'ємна, фантазійна червона сукня."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/red_dress.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformSwimsuitBlue
-  name: blue swimsuit
-  description: A form-fitting, hydrodynamic blue swimsuit.
+  name: "синій купальник"
+  description: "Облягаючий гідродинамічний купальник синього кольору."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/swimsuit.rsi
@@ -141,13 +141,13 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformSchoolgirlBase
-  description: Ready for school!
+  description: "Готові до школи!"
   abstract: true
 
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlRed
-  name: red schoolgirl uniform
+  name: "червона шкільна форма"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/red.rsi
@@ -157,7 +157,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlBlack
-  name: black schoolgirl uniform
+  name: "чорна форма школярки"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/black.rsi
@@ -167,7 +167,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlBlue
-  name: blue schoolgirl uniform
+  name: "блакитна форма школярки"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/blue.rsi
@@ -177,7 +177,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlCyan
-  name: cyan schoolgirl uniform
+  name: "блакитна форма школярки"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/cyan.rsi
@@ -187,7 +187,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlGreen
-  name: green schoolgirl uniform
+  name: "зелена форма школярки"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/green.rsi
@@ -197,7 +197,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlOrange
-  name: orange schoolgirl uniform
+  name: "помаранчева форма школярки"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/orange.rsi
@@ -207,7 +207,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlPink
-  name: pink schoolgirl uniform
+  name: "рожева форма школярки"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/pink.rsi
@@ -217,7 +217,7 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlPurple
-  name: purple schoolgirl uniform
+  name: "фіолетова форма школярки"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/Schoolgirl/purple.rsi
@@ -229,8 +229,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformKendoHakama
-  name: hakama
-  description: An elegant black and blue hakama that could be worn for kendo or formal events.
+  name: "хакама"
+  description: "Елегантна чорно-синя хакама, яку можна одягати для занять кендо або офіційних заходів."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/hakama.rsi
@@ -240,8 +240,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformMartialGi
-  name: gi
-  description: A white top and bottom traditionally used in martial arts, often paired with a belt.
+  name: "gi"
+  description: "Білий верх і низ традиційно використовуються в бойових мистецтвах, часто в парі з поясом."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/gi.rsi
@@ -253,8 +253,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingKimonoBlue
-  name: blue kimono
-  description: I'm blue da ba dee da ba da-ee!
+  name: "синє кімоно"
+  description: "Я блакитний да-ба-ді да-ба-да-і!"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/kimono-blue.rsi
@@ -264,8 +264,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingKimonoPink
-  name: pink kimono
-  description: Pretty in pink, isn't she?
+  name: "рожеве кімоно"
+  description: "Гарненька в рожевому, чи не так?"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/kimono-pink.rsi
@@ -275,8 +275,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingKimonoPurple
-  name: purple kimono
-  description: You definitely won't look like a maroon in this.
+  name: "фіолетове кімоно"
+  description: "У ньому ви точно не будете виглядати як бордова."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/kimono-purple.rsi
@@ -286,8 +286,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingKimonoSky
-  name: sky blue kimono
-  description: Reminds you of natsu matsuri.
+  name: "небесно-блакитне кімоно"
+  description: "Нагадує Нацу Мацурі."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/kimono-sky.rsi
@@ -297,8 +297,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingKimonoGreen
-  name: sea green kimono
-  description: Colors and textures reminiscent of seaweed.
+  name: "морське зелене кімоно"
+  description: "Кольори та текстури нагадують морські водорості."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/kimono-green.rsi
@@ -310,8 +310,8 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlDusk
-  name: dusk schoolgirl uniform
-  description: Ready for school in modern style.
+  name: "сутінкова форма школярки"
+  description: "Готовий до школи в сучасному стилі."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/SchoolgirlModern/dusk.rsi
@@ -321,8 +321,8 @@
 - type: entity
   parent: ClothingUniformSchoolgirlBase
   id: UniformSchoolgirlBlazerTan
-  name: tan blazer schoolgirl uniform
-  description: Ready for school in modern style. This set comes with a tan blazer.
+  name: "коричневий блейзер шкільної форми"
+  description: "Готовий до школи в сучасному стилі. До цього комплекту додається піджак кольору засмаги."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/SchoolgirlModern/blazer-tan.rsi
@@ -334,8 +334,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformSchoolGakuranBlack
-  name: gakuran uniform
-  description: A sleek school uniform.
+  name: "форма гакуран"
+  description: "Елегантна шкільна форма."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Costume/gakuran.rsi
@@ -348,8 +348,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformMNKOfficeSkirt
-  name: MNK office skirt
-  description: An MNK outfit within office dress code.
+  name: "Офісна спідниця MNK"
+  description: "Вбрання MNK в рамках офісного дрес-коду."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/office_skirt.rsi
@@ -360,8 +360,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformMNKUnderGarment
-  name: MNK under garment
-  description: MNK ensured comfort for the important bits.
+  name: "MNK під одягом"
+  description: "MNK забезпечив комфорт для важливих бітів."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/under_garments.rsi
@@ -371,8 +371,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformMNKGymBra
-  name: MNK gym bra
-  description: Maximum performance with MNK sweat blockers.
+  name: "Спортивний бюстгальтер MNK"
+  description: "Максимальна продуктивність з блокаторами потовиділення MNK."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/gym_bra.rsi
@@ -383,8 +383,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformMNKDressBlack
-  name: MNK black dress
-  description: A sleek black dress sporting a MNK window.
+  name: "Чорна сукня MNK"
+  description: "Елегантна чорна сукня з вітриною MNK."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/black_dress.rsi
@@ -395,8 +395,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformMNKBlackOveralls
-  name: MNK black overalls
-  description: A comfy undershirt and thick black MNK overalls.
+  name: "Чорний комбінезон MNK"
+  description: "Зручна майка та щільний чорний комбінезон MNK."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/black_overall.rsi
@@ -407,8 +407,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformMNKBlackShoulder
-  name: MNK exposed shoulders
-  description: A MNK outfit with exposed shoulders.
+  name: "MNK відкриті плечі"
+  description: "Вбрання MNK з відкритими плечима."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/exposed_shoulder.rsi
@@ -419,8 +419,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformMNKTracksuitBlack
-  name: MNK black tracksuit
-  description: A set of light MNK athletic clothing.
+  name: "Чорний спортивний костюм MNK"
+  description: "Комплект легкого спортивного одягу MNK."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/tracksuit.rsi

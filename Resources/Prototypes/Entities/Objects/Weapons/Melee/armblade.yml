@@ -1,8 +1,8 @@
 - type: entity
-  name: arm blade
+  name: "лезо ножа"
   parent: BaseItem
   id: ArmBlade
-  description: A grotesque blade made out of bone and flesh that cleaves through people as a hot knife through butter.
+  description: "Гротескне лезо з кістки та плоті, що розтинає людей, як гарячий ніж масло."
   components:
   - type: Sharp
   - type: Sprite
@@ -24,7 +24,7 @@
   - type: Prying
 #PIRATE START UNTIL END OF FILE
 - type: entity
-  name: магічна лезорука
+  name: "магічна лезорука"
   parent: ArmBlade
   id: MagicArmBlade
   components:
