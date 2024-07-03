@@ -14,7 +14,7 @@ salvage-expedition-window-biome = Біом:
 salvage-expedition-window-modifiers = Модифікатори:
 
 offering-window-claimed = Заявлено
-offering-window-claim = Претензія
+offering-window-claim = Замовити
 
 salvage-expedition-window-next = Наступна пропозиція
 

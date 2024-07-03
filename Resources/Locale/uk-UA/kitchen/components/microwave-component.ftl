@@ -14,7 +14,7 @@ microwave-component-interact-item-too-big = { CAPITALIZE(THE($item)) } зана�
 
 ## Bound UI
 
-microwave-bound-user-interface-instant-button = МИТЬ
+microwave-bound-user-interface-instant-button = МИТТЄВО
 microwave-bound-user-interface-cook-time-label = Час приготування: {$time}
 
 ## ІНТЕРФЕЙС

@@ -1,4 +1,4 @@
-﻿# Loading Screen
+# Loading Screen
 
 replay-loading = Завантаження ({$cur}/{$total})
 replay-loading-reading = Читання Файлів
@@ -34,7 +34,7 @@ replay-info-info = {"["}color=gray]Вибрано:[/color]  {$name} ({$file})
 replay-menu-select-title = Вибрати Повтор
 
 # Replay related verbs
-replay-verb-spectate = Наглядати
+replay-verb-spectate = Спостерігати
 
 # command
 cmd-replay-spectate-help = replay_spectate [необов'язкова сутність]
