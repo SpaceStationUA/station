@@ -1,8 +1,8 @@
 - type: entity
-  name: "гвинтівка mark 1"
+  name: mark 1 rifle
   parent: BaseWeaponSniper
   id: WeaponSniperGrand
-  description: "Важка та надійна самозарядна гвинтівка, що використовує модифіковану версію багатовікової конструкції. Використовує гвинтівкові набої калібру .30."
+  description: A heavy and reliable self-loading rifle, utilising a modified version of a centuries-old design. Uses .30 rifle ammo.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Weapons/Guns/Snipers/grand_rifle.rsi
@@ -24,10 +24,10 @@
       - CartridgeLightRifle
 
 - type: entity
-  name: "парадна гвинтівка"
+  name: ceremonial rifle
   parent: BaseWeaponSniper
   id: WeaponSniperCeremonial
-  description: "Парадний варіант гвинтівки Mark 1, зі смаком виконаний у синьо-білому кольорі. Під набій .30."
+  description: A ceremonial variant of the Mark 1 Rifle, in tasteful blue and white. Uses .30 rifle ammo.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Weapons/Guns/Snipers/ceremonial_grand.rsi

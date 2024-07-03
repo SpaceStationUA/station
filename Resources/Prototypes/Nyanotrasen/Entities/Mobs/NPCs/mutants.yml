@@ -1,8 +1,8 @@
 - type: entity
-  name: "помідор-вбивця"
+  name: killer tomato
   id: MobTomatoKiller
   parent: SimpleSpaceMobBase
-  description: "Це дійсно дозволить вам залучити кількох веганів до наступної онлайн-дискусії."
+  description: This is really going to let you own some vegans in your next online debate.
   components:
   - type: InputMover
   - type: MobMover
@@ -211,8 +211,8 @@
 - type: entity
   parent: SimpleMobBase
   id: MobMouseCancer
-  name: "Ракова миша"
-  description: "Привіт, Цивільний..."
+  name: Cancer Mouse
+  description: Oh hey Civvie...
   components:
   - type: Sprite
     drawdepth: SmallMobs

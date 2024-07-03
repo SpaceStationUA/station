@@ -3,7 +3,7 @@
   noSpawn: true
   parent: FoodPacketTrash
   id: FoodPSBTrash
-  name: "обгортка psb"
+  name: psb wrapper
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Consumable/Food/ration.rsi
@@ -11,10 +11,10 @@
   - type: Item
 
 - type: entity
-  name: "упакований сухий пайок"
+  name: prepacked sustenance bar
   parent: BaseItem
   id: FoodPSB
-  description: "PSB - це щільно упакований, багатий поживними речовинами, штучно ароматизований і забарвлений харчовий батончик, спеціально розроблений для всіх видів тварин під час нестачі їжі."
+  description: The PSB is a densely packed, nutrient rich, artificially flavored and colored food bar specifically made to accomodate all species during food shortages.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Consumable/Food/ration.rsi
@@ -77,10 +77,10 @@
     - Fruit # DeltaV - Allow anyone to eat it, hopefully
 
 - type: entity
-  name: "соєвий батончик"
+  name: soy sustenance bar
   parent: FoodPSBBase
   id: FoodPSBBarSoy
-  description: "Щільно упакований, багатий на поживні речовини батончик. Цей батончик зі смаком змішаних трав."
+  description: A densely packed, nutrient rich sustenance bar. This one is mixed-herb flavoured.
   components:
   - type: FlavorProfile
     flavors:
@@ -90,10 +90,10 @@
   - type: Item
 
 - type: entity
-  name: "неаполітанський закусочна"
+  name: neapolitan sustenance bar
   parent: FoodPSBBase
   id: FoodPSBBarNeapolitan
-  description: "Щільно упакований, багатий на поживні речовини батончик. Цей батончик має неаполітанський смак - полуниця, ваніль та шоколад."
+  description: A densely packed, nutrient rich sustenance bar. This one is neapolitan flavoured- strawberry, vanilla, and chocolate.
   components:
   - type: FlavorProfile
     flavors:
@@ -105,10 +105,10 @@
   - type: Item
 
 - type: entity
-  name: "шоколадний батончик"
+  name: brownie sustenance bar
   parent: FoodPSBBase
   id: FoodPSBBarBrownie
-  description: "Щільно упакований, багатий на поживні речовини батончик. Цей батончик зі смаком брауні."
+  description: A densely packed, nutrient rich sustenance bar. This one is brownie flavored.
   components:
   - type: FlavorProfile
     flavors:
@@ -118,10 +118,10 @@
   - type: Item
 
 - type: entity
-  name: "сирна закусочна"
+  name: cheese sustenance bar
   parent: FoodPSBBase
   id: FoodPSBBarCheese
-  description: "Щільно упакований, багатий на поживні речовини батончик. Цей батончик зі смаком трьох сирів - пармезану, моцарели та чеддеру."
+  description: A densely packed, nutrient rich sustenance bar. This one is three-cheese flavoured- parmesan, mozzarella, and cheddar.
   components:
   - type: FlavorProfile
     flavors:
@@ -131,10 +131,10 @@
   - type: Item
 
 - type: entity
-  name: "м'ясний батончик"
+  name: meat sustenance bar
   parent: FoodPSBBase
   id: FoodPSBBarMeat
-  description: "Щільно упакований, багатий на поживні речовини батончик. Цей батончик зі смаком м'яса та перцю."
+  description: A densely packed, nutrient rich sustenance bar. This one is meat and pepper flavored.
   components:
   - type: FlavorProfile
     flavors:
@@ -145,10 +145,10 @@
   - type: Item
 
 - type: entity
-  name: "овочевий батончик"
+  name: vegetable sustenance bar
   parent: FoodPSBBase
   id: FoodPSBBarVegetable
-  description: "Щільно упакований, багатий на поживні речовини батончик. Цей батончик має овочевий смак - салат, морква та картопля."
+  description: A densely packed, nutrient rich sustenance bar. This one is vegetable flavoured- lettuce, carrots and potato.
   components:
   - type: FlavorProfile
     flavors:
@@ -160,10 +160,10 @@
   - type: Item
 
 - type: entity
-  name: "м'ятний батончик"
+  name: mint sustenance bar
   parent: FoodPSBBase
   id: FoodPSBBarMint
-  description: "Щільно упакований, багатий на поживні речовини батончик. Цей батончик зі смаком м'ятного шоколаду - м'яти, чорного шоколаду та картопляних чіпсів."
+  description: A densely packed, nutrient rich sustenance bar. This one is mint choc chip flavoured- peppermint, dark chocolate, and potato chips.
   components:
   - type: FlavorProfile
     flavors:
@@ -175,10 +175,10 @@
   - type: Item
 
 - type: entity
-  name: "банановий батончик"
+  name: banana sustenance bar
   parent: FoodPSBBase
   id: FoodPSBBarBanana
-  description: "Щільно упакований, багатий на поживні речовини батончик. Цей батончик зі смаком бананового молочного коктейлю - банан і молоко."
+  description: A densely packed, nutrient rich sustenance bar. This one is banana milkshake flavoured- banana and milk.
   components:
   - type: FlavorProfile
     flavors:
@@ -189,10 +189,10 @@
   - type: Item
 
 - type: entity
-  name: "батончик для підтримання життєдіяльності winka"
+  name: wonka sustenance bar
   parent: FoodPSBBase
   id: FoodPSBBarWonka
-  description: "Щільно упакований, багатий на поживні речовини батончик. Цей батончик розділений на три смаки, які складають типовий обід - томатний суп, смажений гарбуз і чорничний пиріг."
+  description: A densely packed, nutrient rich sustenance bar. This one is split into three flavours, making up a typical meal- tomato soup, roast pumpkin, and blueberry pie.
   components:
   - type: FlavorProfile
     flavors:

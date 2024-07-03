@@ -1,8 +1,8 @@
 - type: entity
-  name: "персонал майстрів"
+  name: wizard staff
   parent: Shovel
   id: WizardStaffMeleeBase
-  description: "Символ майстерного володіння чаклуном таємними мистецтвами."
+  description: Symbol of wizard's mastery of arcane arts.
   components:
   - type: Item
     sprite: Objects/Weapons/Guns/Basic/staves.rsi
@@ -23,7 +23,7 @@
     - WizardStaff
 
 - type: entity
-  name: "інертний посох червоного чарівника"
+  name: inert red wizard staff
   parent: WizardStaffMeleeBase
   id: WizardStaffMeleeRed
   components:
@@ -33,7 +33,7 @@
     state: animation
 
 - type: entity
-  name: "інертний фіолетовий посох чарівника"
+  name: inert violet wizard staff
   parent: WizardStaffMeleeBase
   id: WizardStaffMeleeViolet
   components:
@@ -43,7 +43,7 @@
     state: chaos
 
 - type: entity
-  name: "персонал майстра інертного мила"
+  name: inert soap wizard staff
   parent: WizardStaffMeleeBase
   id: WizardStaffMeleeSoap
   components:
@@ -54,7 +54,7 @@
 
 # Blood Cult
 - type: entity
-  name: "інертний культовий персонал"
+  name: inert cultist staff
   parent: WizardStaffMeleeRed
   id: WizardStaffMeleeBlood
   components:
@@ -70,7 +70,7 @@
       path: /Audio/Effects/bite.ogg
 
 - type: entity
-  name: "сектантський персонал"
+  name: cultist staff
   parent: WizardStaffMeleeBlood
   id: WizardStaffDarkBolt
   suffix: "Dark bolt"
