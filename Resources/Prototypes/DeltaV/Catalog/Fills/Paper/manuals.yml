@@ -1,7 +1,7 @@
 - type: entity
   parent: Paper
   id: PaperWrittenNoteFromMumGeneric
-  name: note from mom
+  name: "записка від мами"
   suffix: Lunchbox, Generic
   components:
   - type: Paper
@@ -10,7 +10,7 @@
 - type: entity
   parent: PaperWrittenNoteFromMumGeneric
   id: PaperWrittenNoteFromMumHealthy
-  name: note from mom
+  name: "записка від мами"
   suffix: Lunchbox, Healthy
   components:
   - type: Paper
@@ -19,7 +19,7 @@
 - type: entity
   parent: PaperWrittenNoteFromMumGeneric
   id: PaperWrittenNoteFromMumUnhealthy
-  name: note from mom
+  name: "записка від мами"
   suffix: Lunchbox, Unhealthy
   components:
   - type: Paper

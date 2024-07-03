@@ -2,8 +2,8 @@
   abstract: true
   id: BaseTranslatorImplanter
   parent: [ BaseItem ]
-  name: basic translator implant
-  description: Translates speech.
+  name: "базовий імплант"
+  description: "Перекладає мову."
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/implanter.rsi
@@ -28,8 +28,8 @@
 - type: entity
   id: BasicGalaticCommonTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: basic Galactic Common translator implant
-  description: An implant giving the ability to understand Galactic Common.
+  name: "базовий імплант перекладача Galactic Common"
+  description: "Імплантат, що дає можливість розуміти галактичну мову."
   components:
   - type: TranslatorImplanter
     understood:
@@ -38,8 +38,8 @@
 - type: entity
   id: AdvancedGalaticCommonTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: advanced Galactic Common translator implant
-  description: An implant giving the ability to understand and speak Galactic Common.
+  name: "вдосконалений імплант перекладача Galactic Common"
+  description: "Імплантат, що дає можливість розуміти та розмовляти галактичною мовою."
   components:
   - type: TranslatorImplanter
     spoken:
@@ -50,8 +50,8 @@
 - type: entity
   id: BubblishTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: Bubblish translator implant
-  description: An implant giving the ability to understand and speak Bubblish.
+  name: "Імплант перекладача Bubblish"
+  description: "Імплантат, що дає можливість розуміти та розмовляти мовою баббліш."
   components:
   - type: TranslatorImplanter
     spoken:
@@ -62,8 +62,8 @@
 - type: entity
   id: NekomimeticTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: Nekomimetic translator implant
-  description: An implant giving the ability to understand and speak Nekomimetic. Nya~!
+  name: "Імплант перекладача Nekomimetic "
+  description: "Імплантат, що дає можливість розуміти та розмовляти неміметичною мовою. Ня~!"
   components:
   - type: TranslatorImplanter
     spoken:
@@ -74,8 +74,8 @@
 - type: entity
   id: DraconicTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: Draconic translator implant
-  description: An implant giving the ability to understand and speak Draconic.
+  name: "Імплант перекладача Draconic "
+  description: "Імплантат, що дає можливість розуміти і розмовляти драконячою мовою."
   components:
   - type: TranslatorImplanter
     spoken:
@@ -86,8 +86,8 @@
 - type: entity
   id: CanilunztTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: Canilunzt translator implant
-  description: An implant giving the ability to understand and speak Canilunzt. Yeeps!
+  name: "Імплант перекладача Canilunzt"
+  description: "Імплантат, що дає можливість розуміти та розмовляти мовою канілунц. Ух ти!"
   components:
   - type: TranslatorImplanter
     spoken:
@@ -98,8 +98,8 @@
 - type: entity
   id: SolCommonTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: SolCommon translator implant
-  description: An implant giving the ability to understand and speak SolCommon. Raaagh!
+  name: "Імплант перекладача SolCommon"
+  description: "Імплантат, що дає можливість розуміти та розмовляти солкомовною. Аааа!"
   components:
   - type: TranslatorImplanter
     spoken:
@@ -110,8 +110,8 @@
 - type: entity
   id: RootSpeakTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: RootSpeak translator implant
-  description: An implant giving the ability to understand and speak RootSpeak.
+  name: "Імплант перекладача RootSpeak"
+  description: "Імплантат, що дає можливість розуміти та розмовляти мовою RootSpeak."
   components:
   - type: TranslatorImplanter
     spoken:
@@ -122,8 +122,8 @@
 - type: entity
   id: MofficTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
-  name: Moffic translator implant
-  description: An implant giving the ability to understand and speak Moffic.
+  name: "Імплант перекладача Moffic"
+  description: "Імплантат, що дає можливість розуміти та розмовляти жестовою мовою."
   components:
   - type: TranslatorImplanter
     spoken:

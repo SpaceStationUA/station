@@ -1,5 +1,5 @@
 - type: entity
-  name: Mining Rock Spawner
+  name: "Гірничодобувна порода Sprener"
   id: RandomRockSpawner
   parent: MarkerBase
   components:
@@ -23,7 +23,7 @@
     rareChance: 0.15
 
 - type: entity
-  name: Crystal Spawner
+  name: "Кришталевий спайдер"
   id: RandomCrystalSpawner
   parent: MarkerBase
   components:
@@ -42,7 +42,7 @@
       - CrystalCyan
 
 - type: entity
-  name: Wall Rock Spawner
+  name: "Нерестовик настінної скелі"
   id: RandomWallRockSpawner
   parent: MarkerBase
   components:
@@ -63,7 +63,7 @@
       - WallRockArtifactFragment
 
 - type: entity
-  name: Basalt Rock Spawner
+  name: "Спайдер базальтових порід"
   id: RandomBasaltRockSpawner
   parent: MarkerBase
   components:
