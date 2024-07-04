@@ -44,7 +44,7 @@ device-address-examine-message = Адреса пристрою - {$address}.
 device-net-id-private = Рядовий
 device-net-id-wired = Дротяна
 device-net-id-wireless = Бездротовий
-device-net-id-apc = АПК
+device-net-id-apc = АПЦ
 device-net-id-atmos-devices = Пристрої Atmos
 device-net-id-reserved = Зарезервовано
 
