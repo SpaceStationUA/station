@@ -1,8 +1,8 @@
 - type: entity
-  name: "BasePistol"
+  name: BasePistol
   parent: BaseItem
   id: BaseWeaponPistol
-  description: "Корінцевий зубастий і пагонистий."
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -67,10 +67,10 @@
     price: 500
 
 - type: entity
-  name: "гадюка"
+  name: viper
   parent: BaseWeaponPistol
   id: WeaponPistolViper
-  description: "Невеликий, легко прихований, але дещо малопотужний пістолет, виготовлений виробником масової зброї, який вже понад сто років як не існує. Використовує автоматичні набої калібру .35." # DeltaV - change description to reflect forced semi
+  description: A small, easily concealable, but somewhat underpowered gun, produced by a bulk arms manufacturer now defunct for over a century. Uses .35 auto ammo. # DeltaV - change description to reflect forced semi
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
@@ -110,10 +110,10 @@
     fireOnDropChance: 0.3
 
 - type: entity
-  name: "кобра"
+  name: cobra
   parent: BaseWeaponPistol
   id: WeaponPistolCobra
-  description: "Міцний, надійний пістолет оператора з вбудованим глушником. Використовує безоболонкові набої калібру .25."
+  description: A rugged, robust operator handgun with inbuilt silencer. Uses .25 caseless ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
@@ -159,10 +159,10 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: "mK 58"
+  name: mk 58
   parent: BaseWeaponPistol
   id: WeaponPistolMk58
-  description: "Дешева, повсюдна зброя, вироблена дочірньою компанією NanoTrasen. Використовує набої калібру .35."
+  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
@@ -206,10 +206,10 @@
             - CartridgePistol
 
 - type: entity
-  name: "N1984"
+  name: N1984
   parent: BaseWeaponPistol
   id: WeaponPistolN1984 # the spaces in description are for formatting.
-  description: "Зброя будь-якого офіцера, який себе поважає.     Випускається в калібрі .45 магнум, улюбленому калібрі лордів."
+  description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
@@ -251,7 +251,7 @@
             - CartridgeMagnum
 
 - type: entity
-  name: "N1984"
+  name: N1984
   parent: WeaponPistolN1984
   id: WeaponPistolN1984Nonlethal
   suffix: Non-lethal
