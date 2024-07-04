@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: GlassBoxLaser
-  name: glass box
-  description: A sturdy showcase for an expensive exhibit.
+  name: "скляна коробка"
+  description: "Міцна вітрина для дорогого експоната."
   parent: BaseStructureDynamic
   placement:
     mode: SnapgridCenter
@@ -119,8 +119,8 @@
 
 - type: entity
   id: GlassBoxLaserBroken
-  name: broken glass box
-  description: A broken showcase for a stolen expensive exhibit.
+  name: "розбита скляна коробка"
+  description: "Розбита вітрина для викраденого дорогого експоната."
   parent: BaseStructureDynamic
   suffix: Broken
   placement:

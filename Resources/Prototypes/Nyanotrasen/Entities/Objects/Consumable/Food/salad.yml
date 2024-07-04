@@ -1,10 +1,10 @@
 #Salads
 
 - type: entity
-  name: caprese salad
+  name: "салат капрезе"
   parent: FoodBakingBase
   id: FoodMothCapreseSalad
-  description: A very tasty yet simple to prepare salad.
+  description: "Дуже смачний і водночас простий у приготуванні салат."
   components:
   - type: FlavorProfile
     flavors:
@@ -29,10 +29,10 @@
 #Tastes like mozzarella, tomato and balsamic
 
 - type: entity
-  name: fleet salad
+  name: "флотський салат"
   parent: FoodBowlBase
   id: FoodMothFleetSalad
-  description: The grilled cheese makes it particularly filling, while the croutons provide a crunchy kick.
+  description: "Сир на грилі робить його особливо ситним, а сухарики надають хрусткої скоринки."
   components:
   - type: FlavorProfile
     flavors:
@@ -59,10 +59,10 @@
 #Tastes like cheese, salad and bread
 
 - type: entity
-  name: cotton salad
+  name: "бавовняний салат"
   parent: FoodBowlBase
   id: FoodMothCottonSalad
-  description: A salad with added cotton and a basic dressing. Presumably moths are around.
+  description: "Салат з додаванням бавовни та базової заправки. Імовірно, десь літає міль."
   components:
   - type: FlavorProfile
     flavors:
@@ -89,7 +89,7 @@
 #Tastes like cheese, salad and cotton
 
 - type: entity
-  name: kachumbari salad
+  name: "салат качумбарі"
   parent: FoodBowlBase
   id: FoodMothKachumbariSalad
   description:

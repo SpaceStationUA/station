@@ -1,6 +1,6 @@
 - type: entity
-  name: blood red personal shield generator
-  description: A personal shield generator that protects the wearer from lasers and bullets but prevents from using ranged weapons himself. Uses a power cell.
+  name: "криваво-червоний генератор персонального щита"
+  description: "Генератор персонального щита, який захищає власника від лазерів і куль, але не дозволяє йому самому користуватися далекобійною зброєю. Використовує елемент живлення."
   id: EnergyDomeGeneratorPersonalSyndie
   parent: BaseItem
   components:
@@ -38,8 +38,8 @@
     delay: 10.0
 
 - type: entity
-  name: BR-40c "Turtle"
-  description: A two-handed and heavy energy barrier with extremely low passive energy consumption. Can be tethered with a multitool.
+  name: "BR-40c \"Черепаха\""
+  description: "Важкий енергетичний бар'єр, який можна використовувати двома руками, з надзвичайно низьким споживанням пасивної енергії. Можна прив'язати за допомогою мультитула."
   id: EnergyDomeDirectionalTurtle
   parent: BaseItem
   components:
@@ -101,8 +101,8 @@
 
 - type: entity
   id: EnergyDomeWiredTest
-  name: Static Dome
-  description: Test energy barrier powered by station wiring. I don't know how the hell to balance it.....
+  name: "Статичний купол"
+  description: "Випробування енергетичного бар'єру з живленням від станційної проводки. Я не знаю, як в біса його збалансувати....."
   parent: BaseMachine
   suffix: DO NOT MERGE
   placement:
