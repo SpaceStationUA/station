@@ -165,7 +165,7 @@
   id: NitrogenTankFilled
   parent: NitrogenTank
   suffix: Filled
-  name: "азотний бак"
+  name: nitrogen tank
   components:
   - type: GasTank
     air:
@@ -180,7 +180,7 @@
   id: NitrousOxideTankFilled
   parent: NitrousOxideTank
   suffix: Filled
-  name: "бак для закису азоту"
+  name: nitrous oxide tank
   components:
   - type: GasTank
     #      0.21  | % oxygen in normal atmosphere
@@ -207,7 +207,7 @@
 - type: entity
   id: PlasmaTankFilled
   parent: PlasmaTank
-  name: "плазмовий бак"
+  name: plasma tank
   suffix: Filled
   components:
   - type: GasTank

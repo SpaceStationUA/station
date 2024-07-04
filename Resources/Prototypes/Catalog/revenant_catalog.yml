@@ -1,7 +1,7 @@
 - type: listing
   id: RevenantDefile
-  name: "Дефіле"
-  description: "Паплюжить навколишню територію, зриваючи підлогу, пошкоджуючи вікна, відкриваючи контейнери та кидаючи предмети. Використання його робить вас вразливими до атак на короткий проміжок часу."
+  name: Defile
+  description: Defiles the surrounding area, ripping up floors, damaging windows, opening containers, and throwing items. Using it leaves you vulnerable to attacks for a short period of time.
   productAction: ActionRevenantDefile
   cost:
     StolenEssence: 10
@@ -13,8 +13,8 @@
 
 - type: listing
   id: RevenantOverloadLights
-  name: "Індикатори перевантаження"
-  description: "Перевантажує всі ліхтарі поблизу, змушуючи їх пульсувати та випромінювати небезпечні блискавки. Використання його робить вас вразливими до атак протягом тривалого періоду часу."
+  name: Overload Lights
+  description: Overloads all nearby lights, causing lights to pulse and sending out dangerous lightning. Using it leaves you vulnerable to attacks for a long period of time.
   productAction: ActionRevenantOverloadLights
   cost:
     StolenEssence: 25
@@ -39,8 +39,8 @@
 
 - type: listing
   id: RevenantMalfunction
-  name: "Несправність"
-  description: "Змушує електроніку, що знаходиться поруч, перестати працювати належним чином. Використання його робить вас вразливими до атак протягом тривалого періоду часу."
+  name: Malfunction
+  description: Makes nearby electronics stop working properly. Using it leaves you vulnerable to attacks for a long period of time.
   productAction: ActionRevenantMalfunction
   cost:
     StolenEssence: 125

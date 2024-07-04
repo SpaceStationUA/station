@@ -3,7 +3,7 @@
 - type: entity
   id: PartVox
   parent: BaseItem
-  name: "vox частина тіла"
+  name: "vox body part"
   abstract: true
   components:
   - type: Damageable
@@ -76,7 +76,7 @@
 
 - type: entity
   id: LeftArmVox
-  name: "лівий вокс-рукав"
+  name: "left vox arm"
   parent: PartVox
   components:
     - type: Sprite
@@ -91,7 +91,7 @@
 
 - type: entity
   id: RightArmVox
-  name: "правий вокс-рукав"
+  name: "right vox arm"
   parent: PartVox
   components:
     - type: Sprite
@@ -106,7 +106,7 @@
 
 - type: entity
   id: LeftHandVox
-  name: "ліва рука вокалу"
+  name: "left vox hand"
   parent: PartVox
   components:
     - type: Sprite
@@ -121,7 +121,7 @@
 
 - type: entity
   id: RightHandVox
-  name: "права рука вокаліста"
+  name: "right vox hand"
   parent: PartVox
   components:
     - type: Sprite
@@ -136,7 +136,7 @@
 
 - type: entity
   id: LeftLegVox
-  name: "ліва нога вокса"
+  name: "left vox leg"
   parent: PartVox
   components:
     - type: Sprite
@@ -152,7 +152,7 @@
 
 - type: entity
   id: RightLegVox
-  name: "права нога вокса"
+  name: "right vox leg"
   parent: PartVox
   components:
     - type: Sprite
@@ -168,7 +168,7 @@
 
 - type: entity
   id: LeftFootVox
-  name: "ліва нога вокса"
+  name: "left vox foot"
   parent: PartVox
   components:
     - type: Sprite
@@ -183,7 +183,7 @@
 
 - type: entity
   id: RightFootVox
-  name: "права вокальна нога"
+  name: "right vox foot"
   parent: PartVox
   components:
     - type: Sprite
