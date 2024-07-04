@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMars
-  name: mars-son hardsuit
-  description: A heavily armored hardsuit designed for work in special operations. Sons of Mars Property.
+  name: "костюм \"Марс-син"
+  description: "Важкоброньований хардкостюм, призначений для роботи в умовах спецоперацій. Власність \"Синів Марса\"."
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/mars.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMarsElite
-  name: mars elite hardsuit
-  description: An elite version of the mars hardsuit, with improved mobility and fireproofing. Sons of Mars property.
+  name: "елітний комбінезон mars elite"
+  description: "Елітна версія марсіанського скафандра, з покращеною мобільністю та вогнестійкістю. Власність компанії \"Сини Марса\"."
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marselite.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMarsCommander
-  name: mars commander hardsuit
-  description: A bulked up version of the mars hardsuit, purpose-built for the commander of a mars sons operative squad. Has significantly improved armor for those deadly front-lines firefights.
+  name: "скафандр марсіанського командира"
+  description: "Посилена версія бронежилета \"Марс\", спеціально розроблена для командира оперативного загону \"Сини Марса\". Має значно покращену броню для смертельних перестрілок на передовій."
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marscommander.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitJuggernautMars
-  name: mars juggernaut suit
-  description: A suit made by the cutting edge R&D department by Mars sons to be hyper resilient.
+  name: "костюм марсіанського джаггернаута"
+  description: "Костюм, виготовлений найсучаснішим відділом досліджень та розробок синів Марса, щоб бути надзвичайно стійким до зовнішніх впливів."
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marsjugger.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMarsSpecial
-  name: mars special hardsuit
-  description: A bizarre gem-encrusted suit that radiates magical energies.
+  name: "спеціальний комбінезон марс"
+  description: "Химерний костюм, інкрустований дорогоцінним камінням, що випромінює магічну енергію."
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marsspecial.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMercGreen
-  name: зелений скафандр наймита
-  description: Легкий скафандр, який належав відомому найманцю.
+  name: "зелений скафандр найманця"
+  description: "Легкий скафандр, який належав відомому найманцю."
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_green.rsi
@@ -200,8 +200,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMercWhite
-  name: скафандр наймита
-  description: Такі скафандри носять відомі космічні найманці
+  name: "скафандр найманця"
+  description: "Такі скафандри носять відомі космічні найманці"
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_white.rsi
@@ -233,8 +233,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMercBlue
-  name: синій скафандр наймита
-  description: Легкий скафандр, який належав відомому найманцю.
+  name: "синій скафандр наймита"
+  description: "Легкий скафандр, який належав відомому найманцю."
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_white.rsi
@@ -266,8 +266,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitTropperDefault
-  name: скафандр штурмовика
-  description: Скафандр дуже зручний, але надає добрий захист від середовища та шкідників.
+  name: "скафандр штурмовика"
+  description: "Скафандр дуже зручний, але надає добрий захист від середовища та шкідників."
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_default.rsi
@@ -299,8 +299,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitTropperRed
-  name: червоний скафандр штурмовика
-  description: Такий костюм можуть носити лише досвідчені штурмовики.
+  name: "червоний скафандр штурмовика"
+  description: "Такий костюм можуть носити лише досвідчені штурмовики."
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_red.rsi
@@ -332,8 +332,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitTropperBlack
-  name: чорний скафандр штурмовика
-  description: Не багатьом "пощастило" вижити у бою з елітними штурмовиками
+  name: "чорний скафандр штурмовика"
+  description: "Не багатьом \"пощастило\" вижити у бою з елітними штурмовиками"
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_black.rsi
