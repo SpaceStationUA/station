@@ -4,7 +4,7 @@
 
 - type: entity
   id: SpawnPointPlayerCharacter
-  name: ghost role spawn point
+  name: "точка народження примарної ролі"
   suffix: player character, DO NOT MAP
   parent: MarkerBase
   components:
@@ -23,7 +23,7 @@
 - type: entity # Part of PirateRadioSpawn
   noSpawn: true
   id: SpawnPointGhostSyndicateListener
-  name: ghost role spawn point
+  name: "точка народження примарної ролі"
   suffix: syndicate listener
   parent: MarkerBase
   components:
@@ -55,7 +55,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnPointGhostParadoxAnomaly
-  name: paradox anomaly spawn point
+  name: "точка зародження парадоксальної аномалії"
   components:
   - type: GhostRole
     name: ghost-role-information-paradox-anomaly-name

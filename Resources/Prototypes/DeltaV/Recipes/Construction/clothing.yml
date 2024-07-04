@@ -1,21 +1,21 @@
 - type: construction
-  name: prescription medhud
+  name: "рецептурний медхуд"
   id: ClothingEyesPrescriptionMedHud
   graph: PrescriptionMedHud
   startNode: start
   targetNode: prescmedhud 
   category: construction-category-clothing
-  description: Prescription medhud, merged glasses and medhud together by sheer luck and cables with glue.
+  description: "Рецепт медхуда, з'єднані разом окуляри і медхуд завдяки щасливому випадку і кабелям з клеєм."
   icon: { sprite: DeltaV/Clothing/Eyes/Hud/prescmedhud.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: prescription sechud
+  name: "рецептурний сечуд"
   id: ClothingEyesPrescriptionHudSecurity
   graph: PrescriptionSecHud
   startNode: start
   targetNode: prescsechud 
   category: construction-category-clothing
-  description: Prescription sechud, merged glasses and sechud together by sheer luck and cables with glue.
+  description: "Сечуд за рецептом, злиті докупи склянки і сечуд завдяки щасливому випадку і кабелям з клеєм."
   icon: { sprite: DeltaV/Clothing/Eyes/Hud/prescsechud.rsi, state: icon }
   objectType: Item

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsGlovesCombat
   id: ClothingHandsGlovesArcadiaCombat
-  name: arcadia combat gloves
-  description: Combat gloves produced by Arcadia Industries.
+  name: "бойові рукавички arcadia"
+  description: "Бойові рукавиці виробництва Arcadia Industries."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Hands/Gloves/arcadia.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHandsGlovesLeather
   id: ClothingHandsGlovesPilot
-  name: pilot gloves
-  description: Driving gloves, but for spaceships!
+  name: "рукавички для пілотів"
+  description: "Рукавички для водіння, але для космічних кораблів!"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Hands/Gloves/pilot.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHandsGlovesCombat
   id: ClothingHandsGlovesCombatNfsdBrown
-  name: nfsd combat gloves
-  description: Insulated gloves for a deputy sheriff.
+  name: "бойові рукавички nfsd"
+  description: "Утеплені рукавички для заступника шерифа."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Hands/Gloves/nfsd_brown.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingHandsGlovesCombat
   id: ClothingHandsGlovesCombatNfsdCream
-  name: nfsd combat gloves
-  description: Insulated gloves for a deputy sheriff.
+  name: "бойові рукавички nfsd"
+  description: "Утеплені рукавички для заступника шерифа."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Hands/Gloves/nfsd_cream.rsi
@@ -60,9 +60,9 @@
 - type: entity
   parent: ClothingHandsGlovesCombat
   id: ClothingHandsGlovesColorBlackSMG
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: smg
-  description: Regular black gloves that do not keep you from frying.
+  description: "Звичайні чорні рукавички, які не заважають смажити."
   noSpawn: true
   components:
   - type: Unremoveable
@@ -83,7 +83,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorBlackAK
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: ak
   noSpawn: true
   components:
@@ -99,7 +99,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorBlackChinaLake
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: china lake
   noSpawn: true
   components:
@@ -115,7 +115,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorBlackPistol
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: pistol
   noSpawn: true
   components:
@@ -131,7 +131,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorMercPistol
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: pistol
   noSpawn: true
   components:
@@ -146,7 +146,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorMercRevolvers
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: double revolvers
   noSpawn: true
   components:
@@ -163,7 +163,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorMercShotgun
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: shotgun
   noSpawn: true
   components:
@@ -178,7 +178,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorMercMosin
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: mosin
   noSpawn: true
   components:
@@ -193,7 +193,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorMercRepeater
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: repeater
   noSpawn: true
   components:
@@ -208,7 +208,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorMercHatchet
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: hatchet
   noSpawn: true
   components:
@@ -225,7 +225,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorMercMachete
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: hatchet
   noSpawn: true
   components:
@@ -242,7 +242,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorMercLaserNSaw
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: laser and saw
   noSpawn: true
   components:
@@ -259,7 +259,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorBlackPython
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: python
   noSpawn: true
   components:
@@ -275,7 +275,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorBlackShotgun
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: shotgun
   noSpawn: true
   components:
@@ -291,7 +291,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorBlackSprayNozzle
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: spray nozzle
   noSpawn: true
   components:
@@ -307,7 +307,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorBlackCrossbow
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: crossbow
   noSpawn: true
   components:
@@ -323,7 +323,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesColorBlackLaserPistol
-  name: combat gloves
+  name: "бойові рукавички"
   suffix: laser pistol
   noSpawn: true
   components:
@@ -339,7 +339,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesWeaponWieldedGlaive
-  name: wielded weapon
+  name: "володів зброєю"
   suffix: crusher glaive
   noSpawn: true
   components:
@@ -352,7 +352,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesWeaponDrill
-  name: wielded weapon
+  name: "володів зброєю"
   suffix: mining drill
   noSpawn: true
   components:
@@ -365,7 +365,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesWeaponWieldedPickaxe
-  name: wielded weapon
+  name: "володів зброєю"
   suffix: Pickaxe
   noSpawn: true
   components:
@@ -378,7 +378,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesWeaponPkaFlashlight
-  name: wielded weapon
+  name: "володів зброєю"
   suffix: PKA, flashlifght
   noSpawn: true
   components:
@@ -396,7 +396,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesWeaponWieldedPka
-  name: wielded weapon
+  name: "володів зброєю"
   suffix: PKA
   noSpawn: true
   components:
@@ -409,7 +409,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesWeaponSawnOffPkaDagger
-  name: wielded weapon
+  name: "володів зброєю"
   suffix: sawn-off PKA, crusher dagger
   noSpawn: true
   components:
@@ -424,7 +424,7 @@
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
   id: ClothingHandsGlovesWeaponSawnOffPkas
-  name: wielded weapon
+  name: "володів зброєю"
   suffix: double sawn-off PKAs
   noSpawn: true
   components:

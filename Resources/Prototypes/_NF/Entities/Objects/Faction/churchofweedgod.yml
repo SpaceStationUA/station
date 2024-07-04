@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRobesWeedChurch
-  name: church of weedgod robes
-  description: the robes of those dedicated to the god who's name begins with G
+  name: "церква бур'янових шат"
+  description: "вбрання тих, хто присвятив себе богу, чиє ім'я починається на G"
   components:
   - type: Sprite
     sprite: _NF/Faction/Clothing/OuterClothing/weedchurchrobes.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingHeadBaseButcherable
   id: ClothingHeadBeanieWeedChurch
-  name: church of weedgod beanie
-  description: the beanie worn by followers of the church of weedgod
+  name: "церква бур'янистого бога Біні"
+  description: "шапка, яку носять послідовники церкви бур'янобогів"
   components:
   - type: Sprite
     sprite: _NF/Faction/Clothing/Head/weedchurchbeanie.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadWeedChurchBishop
-  name: church of weedgod bishop's hat
-  description: a holy hat worn by those with high status in the church of weedgod
+  name: "церква бур'янового єпископського капелюха"
+  description: "священний капелюх, який носили люди з високим статусом у церкві бур'янобога"
   components:
   - type: Sprite
     sprite: _NF/Faction/Clothing/Head/weedchurchbishop.rsi
@@ -35,8 +35,8 @@
 
 #Bible
 - type: entity
-  name: weejurnum
-  description: holy book to followers of the church of weedgod
+  name: "миджурнум"
+  description: "священна книга для послідовників церкви бур'янів"
   parent: BaseStorageItem
   id: Weejurnum
   components:
