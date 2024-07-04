@@ -1,8 +1,8 @@
 - type: entity
-  name: "сумка для хімії"
+  name: chemistry bag
   id: ChemBag
   parent: BaseStorageItem
-  description: "Сумка для зберігання хімічних препаратів, таких як пігулки, баночки, пляшечки та шприци."
+  description: A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/chem_bag.rsi

@@ -1,8 +1,8 @@
 - type: entity
-  name: "дротовий різак"
+  name: wirecutter
   parent: BaseItem
   id: Wirecutter
-  description: "Це вбиває дріт."
+  description: This kills the wire.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -45,10 +45,10 @@
     price: 30
 
 - type: entity
-  name: "викрутка"
+  name: screwdriver
   parent: BaseItem
   id: Screwdriver
-  description: "Крутний момент промислового класу в невеликій викрутці."
+  description: Industrial grade torque in a small screwdriving package.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -89,10 +89,10 @@
     price: 30
 
 - type: entity
-  name: "гайковий ключ"
+  name: wrench
   parent: BaseItem
   id: Wrench
-  description: "Найпоширеніший інструмент для збирання та розбирання. Пам'ятайте: правою рукою туго, лівою вільно."
+  description: 'A common tool for assembly and disassembly. Remember: righty tighty, lefty loosey.'
   components:
   - type: EmitSoundOnLand
     sound:
@@ -128,10 +128,10 @@
     price: 22
 
 - type: entity
-  name: "лом"
+  name: crowbar
   parent: BaseItem
   id: Crowbar
-  description: "Багатофункціональний інструмент для відчинення дверей та боротьби з міжпросторовими загарбниками."
+  description: A multipurpose tool to pry open doors and fight interdimensional invaders.
   components:
   - type: EmitSoundOnLand
     sound:
@@ -171,7 +171,7 @@
 - type: entity
   parent: Crowbar
   id: CrowbarRed
-  name: "аварійний лом"
+  name: emergency crowbar
   components:
   - type: Tag
     tags:
@@ -186,10 +186,10 @@
       state: red-storage
 
 - type: entity
-  name: "мультитул"
+  name: multitool
   parent: BaseItem
   id: Multitool
-  description: "Просунутий інструмент для копіювання, зберігання та надсилання електричних імпульсів і сигналів через дроти та машини"
+  description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines
   components:
   - type: EmitSoundOnLand
     sound:
@@ -233,10 +233,10 @@
     price: 56
 
 - type: entity
-  name: "конфігуратор мережі"
+  name: network configurator
   parent: BaseItem
   id: NetworkConfigurator
-  description: "Інструмент для зв'язування пристроїв між собою. Має два режими: режим списку для масового зв'язування пристроїв і режим зв'язування для розширеного зв'язування пристроїв."
+  description: A tool for linking devices together. Has two modes, a list mode for mass linking devices and a linking mode for advanced device linking.
   components:
     - type: EmitSoundOnLand
       sound:
@@ -283,10 +283,10 @@
 #Power tools
 #Later on these should switch probably switch damage when changing the tool behavior.
 - type: entity
-  name: "електродриль"
+  name: power drill
   parent: BaseItem
   id: PowerDrill
-  description: "Проста ручна дриль з електроприводом."
+  description: A simple powered hand drill.
   components:
   - type: Tag
     tags:
@@ -343,10 +343,10 @@
       path: "/Audio/Items/drill_hit.ogg"
 
 - type: entity
-  name: "RCD"
+  name: RCD
   parent: BaseItem
   id: RCD
-  description: "Просунутий будівельний пристрій, який може швидко встановлювати/знімати стіни, підлогу та повітряні шлюзи."
+  description: An advanced construction device which can place/remove walls, floors, and airlocks quickly.
   components:
   - type: RCD
   - type: LimitedCharges
@@ -382,8 +382,8 @@
 - type: entity
   id: RCDRecharging
   parent: RCD
-  name: "експериментальний RCD"
-  description: "ПЗВ, що пасивно регенерує заряди, з ефектом блюзового простору."
+  name: experimental rcd
+  description: A bluespace-enhanced RCD that regenerates charges passively.
   suffix: AutoRecharge
   components:
   - type: LimitedCharges
@@ -396,17 +396,17 @@
   id: RCDExperimental
   parent: RCD
   suffix: Admeme
-  name: "експериментальний RCD"
-  description: "ПЗВ, що пасивно регенерує заряди, з ефектом блюзового простору."
+  name: experimental rcd
+  description: A bluespace-enhanced RCD that regenerates charges passively.
   components:
   - type: AutoRecharge
     rechargeDuration: 5
 
 - type: entity
-  name: "заряди для RCD"
+  name: RCD Ammo
   parent: BaseItem
   id: RCDAmmo
-  description: "Патрони для RCD."
+  description: Ammo cartridge for an RCD.
   components:
   - type: RCDAmmo
   - type: Sprite
@@ -429,10 +429,10 @@
       - RCDAmmo
 
 - type: entity
-  name: "omnitool"
+  name: omnitool
   parent: BaseItem
   id: Omnitool
-  description: "Найкращий друг безпілотника."
+  description: A drone's best friend.
   components:
   - type: Sprite
     sprite: Objects/Tools/omnitool.rsi
@@ -495,10 +495,10 @@
 
 #Other
 - type: entity
-  name: "лопата"
+  name: shovel
   parent: BaseItem
   id: Shovel
-  description: "Великий інструмент для копання та переміщення ґрунту."
+  description: A large tool for digging and moving dirt.
   components:
   - type: Sprite
     sprite: Objects/Tools/shovel.rsi
@@ -531,8 +531,8 @@
 - type: entity
   parent: BaseItem
   id: RollingPin
-  name: "качалка"
-  description: "Інструмент, який використовується для формування та розрівнювання тіста."
+  name: rolling pin
+  description: A tool used to shape and flatten dough.
   components:
   - type: Sprite
     sprite: Objects/Tools/rolling_pin.rsi

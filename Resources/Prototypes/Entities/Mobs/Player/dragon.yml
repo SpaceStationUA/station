@@ -2,8 +2,8 @@
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
   id: BaseMobDragon
   suffix: ""
-  name: "космічний дракон"
-  description: "Літаючий левіафан, віддалено пов'язаний з космічними коропами."
+  name: space dragon
+  description: A flying leviathan, loosely related to space carps.
   abstract: true
   components:
   - type: Bloodstream
@@ -181,8 +181,8 @@
 
 - type: entity
   id: ActionSpawnRift
-  name: "Викликати Carp Rift"
-  description: "Викликає короповий розлом, який періодично буде нереститися коропами."
+  name: Summon Carp Rift
+  description: Summons a carp rift that will periodically spawns carps.
   noSpawn: true
   components:
   - type: InstantAction
@@ -194,8 +194,8 @@
 
 - type: entity
   id: ActionDevour
-  name: "[color=red]Поглинути[/color]"
-  description: "Спробуйте зламати конструкцію щелепами або проковтнути істоту."
+  name: "[color=red]Devour[/color]"
+  description: Attempt to break a structure with your jaws or swallow a creature.
   noSpawn: true
   components:
   - type: EntityTargetAction

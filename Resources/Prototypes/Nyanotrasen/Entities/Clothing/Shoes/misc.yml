@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesGeta
-  name: "босоніжки geta"
-  description: "Пара традиційних японських сандалій."
+  name: geta sandals
+  description: A pair of traditional japanese sandals.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Shoes/Misc/geta.rsi
@@ -12,9 +12,9 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesWizardFake
-  name: "черевики чарівника"
+  name: wizard shoes
   suffix: fake
-  description: "Пара босоніжок."
+  description: A pair of sandals.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/wizard.rsi
