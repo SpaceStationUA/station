@@ -2,7 +2,7 @@
 # These rulesets exist because Salvage mobs kept harassing the station and going out of control.
 
 - type: entity
-  name: "Спайдер ящиків для утилізаційних матеріалів"
+  name: Salvage Material Crate Spawner
   id: SalvageMaterialCrateSpawner
   parent: MarkerBase
   components:
@@ -40,7 +40,7 @@
       offset: 0.0
 
 - type: entity
-  name: "Спайдер для рятувальних каністр"
+  name: Salvage Canister Spawner
   id: SalvageCanisterSpawner
   parent: MarkerBase
   components:
@@ -63,7 +63,7 @@
       offset: 0.0
 
 - type: entity
-  name: "спайдер лута для порятунку"
+  name: salvage loot spawner
   id: SalvageLootSpawner
   parent: MarkerBase
   components:
@@ -81,7 +81,7 @@
       offset: 0.0
 
 - type: entity
-  name: "Спайдер мобів-рятівників"
+  name: Salvage Mob Spawner
   id: SalvageMobSpawner
   parent: MarkerBase
   suffix: 25
@@ -110,7 +110,7 @@
       offset: 0.2
 
 - type: entity #I made this in case someone decided to make a terrifying space tick swarm for salvage. that someone may be me -EG404
-  name: "Спаситель космічного кліща"
+  name: Salvage Space Tick Spawner
   id: SpaceTickSpawner
   parent: MarkerBase
   suffix: 100
@@ -125,7 +125,7 @@
         - MobTickSalvage
 
 - type: entity
-  name: "Спасатель космічних ведмедів"
+  name: Salvage Space Bear Spawner
   id: SpawnMobBearSalvage
   parent: MarkerBase
   components:
@@ -162,7 +162,7 @@
     offset: 0.2
 
 - type: entity
-  name: "Спасатель космічного кенгуру - нерестовик"
+  name: Salvage Space Kangaroo Spawner
   id: SpawnMobKangarooSalvage
   parent: MarkerBase
   components:
@@ -176,7 +176,7 @@
     - MobKangarooSpaceSalvage
 
 - type: entity
-  name: "Спасатель космічного павука"
+  name: Salvage Space Spider Spawner
   id: SpawnMobSpiderSalvage
   parent: MarkerBase
   components:
@@ -190,7 +190,7 @@
     - MobSpiderSpaceSalvage
 
 - type: entity
-  name: "Спасатель космічної кобри"
+  name: Salvage Space Cobra Spawner
   id: SpawnMobCobraSalvage
   parent: MarkerBase
   components:
@@ -204,7 +204,7 @@
     - MobCobraSpaceSalvage
 
 - type: entity
-  name: "Спаситель плоті з уламків плоті"
+  name: Salvage Flesh Spawner
   id: SalvageFleshSpawner
   parent: SalvageMobSpawner
   suffix: 100

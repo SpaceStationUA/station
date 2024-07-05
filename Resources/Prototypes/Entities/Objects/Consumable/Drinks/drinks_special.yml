@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DrinkShaker
-  name: "шейкер"
-  description: "Вірний помічник бармена у змішуванні напоїв."
+  name: shaker
+  description: The trusty mixing buddy of the bartender.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -35,8 +35,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShotGlass
-  name: "чарка"
-  description: "Ідеально підходить для того, щоб сердито грюкнути нею об стіл."
+  name: shot glass
+  description: Perfect for slamming down onto the table angrily.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -64,8 +64,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkJar
-  name: "банка"
-  description: "Чашка хіпстера"
+  name: jar
+  description: The hipster's cup
   components:
   - type: Drink
   - type: Sprite
@@ -95,8 +95,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkJarWhat
-  name: "банку з чимось"
-  description: "Насправді не можна сказати, що це таке."
+  name: jar of something
+  description: You can't really tell what this is.
   components:
   - type: Drink
   - type: Sprite
