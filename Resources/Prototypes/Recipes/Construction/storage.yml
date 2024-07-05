@@ -1,8 +1,8 @@
 #bureaucracy
 - type: construction
   id: FilingCabinet
-  name: "шафа для документів"
-  description: "Шафа для всіх ваших потреб."
+  name: filing cabinet
+  description: A cabinet for all your filing needs.
   graph: FilingCabinet
   startNode: start
   targetNode: filingCabinet
@@ -18,8 +18,8 @@
 
 - type: construction
   id: TallCabinet
-  name: "висока шафа"
-  description: "Шафа для всіх ваших потреб."
+  name: tall cabinet
+  description: A cabinet for all your filing needs.
   graph: FilingCabinet
   startNode: start
   targetNode: tallCabinet
@@ -35,8 +35,8 @@
 
 - type: construction
   id: ChestDrawer
-  name: "шухляда комода"
-  description: "Невелика шухляда для всіх ваших потреб, тепер на коліщатках!"
+  name: chest drawer
+  description: A small drawer for all your filing needs, Now with wheels!
   graph: FilingCabinet
   startNode: start
   targetNode: chestDrawer

@@ -1,7 +1,7 @@
 - type: entity
   parent: MobObserver
   id: AdminObserver
-  name: "адміністратор-спостерігач"
+  name: admin observer
   noSpawn: true
   components:
   - type: Eye
@@ -100,8 +100,8 @@
 
 - type: entity
   id: ActionAGhostShowSolar
-  name: "Інтерфейс керування сонячною батареєю"
-  description: "Перегляд інтерфейсу керування сонячною батареєю."
+  name: Solar Control Interface
+  description: View a solar control interface.
   noSpawn: true
   components:
   - type: InstantAction
@@ -113,8 +113,8 @@
 
 - type: entity
   id: ActionAGhostShowCommunications
-  name: "Інтерфейс зв'язку"
-  description: "Перегляд інтерфейсу зв'язку."
+  name: Communications Interface
+  description: View a communications interface.
   noSpawn: true
   components:
   - type: InstantAction
@@ -126,8 +126,8 @@
 
 - type: entity
   id: ActionAGhostShowRadar
-  name: "Інтерфейс масового сканера"
-  description: "Перегляд інтерфейсу масового сканера."
+  name: Mass Scanner Interface
+  description: View a mass scanner interface.
   noSpawn: true
   components:
   - type: InstantAction
@@ -139,8 +139,8 @@
 
 - type: entity
   id: ActionAGhostShowCargo
-  name: "Інтерфейс замовлення вантажу"
-  description: "Переглянути інтерфейс замовлення вантажу."
+  name: Cargo Ordering Interface
+  description: View a cargo ordering interface.
   noSpawn: true
   components:
   - type: InstantAction
@@ -152,8 +152,8 @@
 
 - type: entity
   id: ActionAGhostShowCrewMonitoring
-  name: "Інтерфейс моніторингу екіпажу"
-  description: "Перегляд інтерфейсу моніторингу екіпажу."
+  name: Crew Monitoring Interface
+  description: View a crew monitoring interface.
   noSpawn: true
   components:
   - type: InstantAction
@@ -165,8 +165,8 @@
 
 - type: entity
   id: ActionAGhostShowStationRecords
-  name: "Інтерфейс записів станції"
-  description: "Перегляд записів станції Інтерфейс"
+  name: Station Records Interface
+  description: View a station records Interface
   noSpawn: true
   components:
   - type: InstantAction

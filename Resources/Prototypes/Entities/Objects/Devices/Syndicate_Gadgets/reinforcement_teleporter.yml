@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ReinforcementRadioSyndicate
-  name: "радіо підкріплення синдикату"
-  description: "Викликати агента синдикату сумнівної якості, миттєво! Надається лише базове обладнання."
+  name: syndicate reinforcement radio
+  description: Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
   components:
   - type: Sprite
     sprite: Objects/Devices/communication.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: ReinforcementRadioSyndicate
   id: ReinforcementRadioSyndicateMonkey
-  name: "радіо підкріплення синдикату мавп"
-  description: "Викликає на допомогу спеціально навчену мавпу."
+  name: syndicate monkey reinforcement radio
+  description: Calls in a specially trained monkey to assist you.
   components:
   - type: GhostRole
     name: ghost-role-information-syndicate-monkey-reinforcement-name
@@ -51,8 +51,8 @@
 - type: entity
   parent: ReinforcementRadioSyndicate
   id: ReinforcementRadioSyndicateCyborgAssault # Reinforcement radio exclusive to nukeops uplink
-  name: "синдикат штурм кіборгів радіо підкріплення"
-  description: "Негайно викличте добре озброєного штурмового кіборга!"
+  name: syndicate assault cyborg reinforcement radio
+  description: Call in a well armed assault cyborg, instantly!
   suffix: NukeOps
   components:
     - type: GhostRole

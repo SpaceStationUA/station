@@ -1,11 +1,11 @@
 - type: construction
-  name: "нанотрасеновий вівтар"
+  name: nanotrasen altar
   id: AltarNanotrasen
   graph: Altar
   startNode: start
   targetNode: nanotrasen
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: nanotrasen
@@ -16,13 +16,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "вівтар хаосу"
+  name: chaos altar
   id: AltarChaos
   graph: Altar
   startNode: start
   targetNode: chaos
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: chaos
@@ -33,13 +33,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "друїдський вівтар"
+  name: druid altar
   id: AltarDruid
   graph: Altar
   startNode: start
   targetNode: druid
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: druid
@@ -50,13 +50,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "ящик для інструментів вівтар"
+  name: toolbox altar
   id: AltarToolbox
   graph: Altar
   startNode: start
   targetNode: toolbox
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: toolbox
@@ -67,13 +67,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "космічно-християнський вівтар"
+  name: space-christian altar
   id: AltarSpaceChristian
   graph: Altar
   startNode: start
   targetNode: spacechristian
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: space-christian
@@ -84,13 +84,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "сатанинський вівтар"
+  name: satanic altar
   id: AltarSatana
   graph: Altar
   startNode: start
   targetNode: satana
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: satana
@@ -101,13 +101,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "технологічний вівтар"
+  name: technology altar
   id: AltarTechnology
   graph: Altar
   startNode: start
   targetNode: technology
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: technology
@@ -118,13 +118,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "фестивальний вівтар"
+  name: festival altar
   id: AltarConvertFestival
   graph: Altar
   startNode: start
   targetNode: festival
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: festival
@@ -135,13 +135,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "вівтар"
+  name: maint altar
   id: AltarConvertMaint
   graph: Altar
   startNode: start
   targetNode: maint
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: maint
@@ -152,13 +152,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "блакитний вівтар"
+  name: blue altar
   id: AltarConvertBlue
   graph: Altar
   startNode: start
   targetNode: blue
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: blue
@@ -169,13 +169,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "вівтар тягарів"
+  name: burden altar
   id: AltarConvertBurden
   graph: Altar
   startNode: start
   targetNode: burden
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: burden
@@ -186,13 +186,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "перетворити вівтар"
+  name: convert altar
   id: AltarConvert
   graph: Altar
   startNode: start
   targetNode: convert
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: convertaltar
@@ -203,13 +203,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "помаранчевий вівтар"
+  name: orange altar
   id: AltarConvertOrange
   graph: Altar
   startNode: start
   targetNode: orange
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: orange
@@ -220,13 +220,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "червоний вівтар"
+  name: red altar
   id: AltarConvertRed
   graph: Altar
   startNode: start
   targetNode: red
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: red
@@ -237,13 +237,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "білий вівтар"
+  name: white altar
   id: AltarConvertWhite
   graph: Altar
   startNode: start
   targetNode: white
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: white
@@ -254,13 +254,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "жовтий вівтар"
+  name: yellow altar
   id: AltarConvertYellow
   graph: Altar
   startNode: start
   targetNode: yellow
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: yellow
@@ -271,13 +271,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "небесний вівтар"
+  name: heaven altar
   id: AltarHeaven
   graph: Altar
   startNode: start
   targetNode: heaven
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Cults/heaven.rsi
     state: full
@@ -288,13 +288,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "ікластий вівтар"
+  name: fanged altar
   id: AltarFangs
   graph: Altar
   startNode: start
   targetNode: fanged
   category: construction-category-furniture
-  description: "Вівтар богів. Ті, хто має певний божественний потенціал, можуть принести на нього в жертву псионіку."
+  description: Altar of the Gods. Those with some divine potential can sacrifice psionics on top of it.
   icon:
     sprite: Structures/Furniture/Altars/Cults/fangs.rsi
     state: full
@@ -305,13 +305,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "армований дерев'яний стіл"
+  name: reinforced wood table
   id: TableWoodReinforced
   graph: Table
   startNode: start
   targetNode: TableWoodReinforced
   category: construction-category-furniture
-  description: "Квадратний шматок дерева, що стоїть на чотирьох металевих ніжках. Дуже міцний."
+  description: A square piece of wood standing on four metal legs. Extra robust.
   icon:
     sprite: Nyanotrasen/Structures/Furniture/Tables/rwood.rsi
     state: full
@@ -322,13 +322,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "площа татамі"
+  name: tatami square
   id: tatamisingle
   graph: tatami
   startNode: start
   targetNode: tatamiSquare
   category: construction-category-furniture
-  description: "Це татамі, але квадратне."
+  description: It's tatami, but a square.
   icon:
     sprite: Nyanotrasen/Structures/Furniture/tatami.rsi
     state: tatami_1x1
@@ -339,13 +339,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "килимок татамі"
+  name: tatami mat
   id: tatamimat
   graph: tatami
   startNode: start
   targetNode: tatamiPart
   category: construction-category-furniture
-  description: "Це частина килимка для татамі."
+  description: It's a portion of a tatami mat.
   icon:
     sprite: Nyanotrasen/Structures/Furniture/tatami.rsi
     state: tatami_1x1P

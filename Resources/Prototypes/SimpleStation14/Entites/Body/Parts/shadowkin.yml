@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: PartShadowkin
   parent: BaseItem
-  name: "частина тіла тіньовика"
+  name: "Shadowkin body part"
   abstract: true
   components:
     - type: Sprite
@@ -19,7 +19,7 @@
 
 - type: entity
   id: TorsoShadowkin
-  name: "тіньовицький торс"
+  name: "Shadowkin torso"
   parent: PartShadowkin
   components:
     - type: Sprite
@@ -31,7 +31,7 @@
 
 - type: entity
   id: HeadShadowkin
-  name: "тіньовицька голова"
+  name: "Shadowkin head"
   parent: PartShadowkin
   components:
     - type: Sprite
@@ -50,7 +50,7 @@
 
 - type: entity
   id: LeftArmShadowkin
-  name: "тіньовицька ліва рука "
+  name: "left Shadowkin arm"
   parent: PartShadowkin
   components:
     - type: Sprite
@@ -63,7 +63,7 @@
 
 - type: entity
   id: RightArmShadowkin
-  name: "тіньовицька права рука "
+  name: "right Shadowkin arm"
   parent: PartShadowkin
   components:
     - type: Sprite
@@ -76,7 +76,7 @@
 
 - type: entity
   id: LeftHandShadowkin
-  name: "тіньовицька ліва рука "
+  name: "left Shadowkin hand"
   parent: PartShadowkin
   components:
     - type: Sprite
@@ -89,7 +89,7 @@
 
 - type: entity
   id: RightHandShadowkin
-  name: "тіньовицька права рука "
+  name: "right Shadowkin hand"
   parent: PartShadowkin
   components:
     - type: Sprite
@@ -102,7 +102,7 @@
 
 - type: entity
   id: LeftLegShadowkin
-  name: "тіньовицька ліва нога "
+  name: "left Shadowkin leg"
   parent: PartShadowkin
   components:
     - type: Sprite
@@ -116,7 +116,7 @@
 
 - type: entity
   id: RightLegShadowkin
-  name: "тіньовицька права нога "
+  name: "right Shadowkin leg"
   parent: PartShadowkin
   components:
     - type: Sprite
@@ -130,7 +130,7 @@
 
 - type: entity
   id: LeftFootShadowkin
-  name: "тіньовицька ліва нога "
+  name: "left Shadowkin foot"
   parent: PartShadowkin
   components:
     - type: Sprite
@@ -143,7 +143,7 @@
 
 - type: entity
   id: RightFootShadowkin
-  name: "тіньовицька права нога "
+  name: "right Shadowkin foot"
   parent: PartShadowkin
   components:
     - type: Sprite
