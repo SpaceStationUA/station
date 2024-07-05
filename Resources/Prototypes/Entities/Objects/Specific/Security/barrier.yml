@@ -1,7 +1,7 @@
 - type: entity
-  name: deployable barrier
+  name: "бар'єр, що розгортається"
   id: DeployableBarrier
-  description: A deployable barrier. Swipe your ID card to lock/unlock it.
+  description: "Шлагбаум, що розгортається. Проведіть посвідченням особи, щоб заблокувати/розблокувати його."
   parent: BaseStructure
   components:
   - type: Transform

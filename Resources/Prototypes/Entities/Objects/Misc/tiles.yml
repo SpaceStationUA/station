@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseItem
   id: FloorTileItemBase
-  description: The floor was meant to hold this, not you.
+  description: "Підлога повинна була тримати це, а не ви."
   abstract: true
   components:
   - type: Sprite
@@ -47,7 +47,7 @@
         Blunt: 5
 
 - type: entity
-  name: steel tile
+  name: "сталева черепиця"
   parent: FloorTileItemBase
   id: FloorTileItemSteel
   components:
@@ -72,7 +72,7 @@
     sound: /Audio/Weapons/block_metal1.ogg
 
 - type: entity
-  name: steel dark checker tile
+  name: "сталева темна плитка в клітинку"
   parent: FloorTileItemSteel
   id: FloorTileItemSteelCheckerDark
   components:
@@ -84,7 +84,7 @@
       - FloorSteelCheckerDark
 
 - type: entity
-  name: steel light checker tile
+  name: "сталева світла плитка в клітинку"
   parent: FloorTileItemSteel
   id: FloorTileItemSteelCheckerLight
   components:
@@ -96,7 +96,7 @@
       - FloorSteelCheckerLight
 
 - type: entity
-  name: steel tile
+  name: "сталева черепиця"
   parent: FloorTileItemSteel
   id: FloorTileItemMetalDiamond
   components:
@@ -115,7 +115,7 @@
 #    node: steeltile
 
 - type: entity
-  name: wood floor
+  name: "дерев'яна підлога"
   parent: FloorTileItemBase
   id: FloorTileItemWood
   components:
@@ -134,7 +134,7 @@
     node: woodtile
 
 - type: entity
-  name: white tile
+  name: "біла плитка"
   parent: FloorTileItemBase
   id: FloorTileItemWhite
   components:
@@ -153,7 +153,7 @@
     node: whitetile
 
 - type: entity
-  name: dark tile
+  name: "темна плитка"
   parent: FloorTileItemSteel
   id: FloorTileItemDark
   components:
@@ -172,7 +172,7 @@
     node: darktile
 
 - type: entity
-  name: techmaint floor
+  name: "технічний поверх"
   parent: FloorTileItemSteel
   id: FloorTileItemTechmaint
   components:
@@ -188,7 +188,7 @@
     stackType: FloorTileTechmaint
 
 - type: entity
-  name: reinforced tile
+  name: "армована плитка"
   parent: FloorTileItemSteel
   id: FloorTileItemReinforced
   components:
@@ -206,7 +206,7 @@
 # TODO add a catwalk tile item once tile smoothing is supported
 
 - type: entity
-  name: mono tile
+  name: "моно плитка"
   parent: FloorTileItemBase
   id: FloorTileItemMono
   components:
@@ -222,7 +222,7 @@
     stackType: FloorTileMono
 
 - type: entity
-  name: linoleum floor
+  name: "лінолеум на підлозі"
   parent: FloorTileItemBase
   id: FloorTileItemLino
   components:
@@ -238,7 +238,7 @@
     stackType: FloorTileLino
 
 - type: entity
-  name: filled brass plate
+  name: "заповнена латунна пластина"
   parent: FloorTileItemBase
   id: FloorTileItemBrassFilled
   components:
@@ -257,7 +257,7 @@
     node: filledPlate
 
 - type: entity
-  name: smooth brass plate
+  name: "гладка латунна пластина"
   parent: FloorTileItemBase
   id: FloorTileItemBrassReebe
   components:
@@ -276,7 +276,7 @@
     node: reebe
 
 - type: entity
-  name: dirty tile
+  name: "брудна плитка"
   parent: FloorTileItemBase
   id: FloorTileItemDirty
   components:
@@ -292,7 +292,7 @@
     stackType: FloorTileDirty
 
 - type: entity
-  name: elevator shaft tile
+  name: "плитка для шахти ліфта"
   parent: FloorTileItemSteel
   id: FloorTileItemElevatorShaft
   components:
@@ -308,7 +308,7 @@
     stackType: FloorTileElevatorShaft
 
 - type: entity
-  name: rock vault tile
+  name: "склепінчаста черепиця"
   parent: FloorTileItemBase
   id: FloorTileItemRockVault
   components:
@@ -324,7 +324,7 @@
     stackType: FloorTileRockVault
 
 - type: entity
-  name: blue tile
+  name: "синя плитка"
   parent: FloorTileItemBase
   id: FloorTileItemBlue
   components:
@@ -340,7 +340,7 @@
     stackType: FloorTileBlue
 
 - type: entity
-  name: lime tile
+  name: "вапняна черепиця"
   parent: FloorTileItemBase
   id: FloorTileItemLime
   components:
@@ -356,7 +356,7 @@
     stackType: FloorTileLime
 
 - type: entity
-  name: mining tile
+  name: "гірничодобувна плитка"
   parent: FloorTileItemBase
   id: FloorTileItemMining
   components:
@@ -372,7 +372,7 @@
     stackType: FloorTileMining
 
 - type: entity
-  name: dark mining tile
+  name: "темна гірнича плитка"
   parent: FloorTileItemSteel
   id: FloorTileItemMiningDark
   components:
@@ -388,7 +388,7 @@
     stackType: FloorTileMiningDark
 
 - type: entity
-  name: light mining tile
+  name: "легка гірничодобувна плитка"
   parent: FloorTileItemSteel
   id: FloorTileItemMiningLight
   components:
@@ -405,7 +405,7 @@
 
 # Departamental
 - type: entity
-  name: freezer tile
+  name: "морозильна плитка"
   parent: FloorTileItemBase
   id: FloorTileItemFreezer
   components:
@@ -421,7 +421,7 @@
     stackType: FloorTileFreezer
 
 - type: entity
-  name: showroom tile
+  name: "плитка для салону"
   parent: FloorTileItemBase
   id: FloorTileItemShowroom
   components:
@@ -437,7 +437,7 @@
     stackType: FloorTileShowroom
 
 - type: entity
-  name: hydro tile
+  name: "гідрочерепиця"
   parent: FloorTileItemBase
   id: FloorTileItemHydro
   components:
@@ -453,7 +453,7 @@
     stackType: FloorTileHydro
 
 - type: entity
-  name: bar tile
+  name: "барна плитка"
   parent: FloorTileItemBase
   id: FloorTileItemBar
   components:
@@ -469,7 +469,7 @@
     stackType: FloorTileBar
 
 - type: entity
-  name: clown tile
+  name: "клоунська плитка"
   parent: FloorTileItemBase
   id: FloorTileItemClown
   components:
@@ -485,7 +485,7 @@
     stackType: FloorTileClown
 
 - type: entity
-  name: mime tile
+  name: "мімічна плитка"
   parent: FloorTileItemBase
   id: FloorTileItemMime
   components:
@@ -501,7 +501,7 @@
     stackType: FloorTileMime
 
 - type: entity
-  name: kitchen tile
+  name: "кухонна плитка"
   parent: FloorTileItemBase
   id: FloorTileItemKitchen
   components:
@@ -517,7 +517,7 @@
     stackType: FloorTileKitchen
 
 - type: entity
-  name: laundry tile
+  name: "плитка для прання"
   parent: FloorTileItemBase
   id: FloorTileItemLaundry
   components:
@@ -536,7 +536,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemConcrete
-  name: concrete tile
+  name: "бетонна плитка"
   components:
   - type: Sprite
     state: concrete
@@ -552,7 +552,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemGrayConcrete
-  name: gray concrete tile
+  name: "сіра бетонна плитка"
   components:
   - type: Sprite
     state: grayconcrete
@@ -568,7 +568,7 @@
 - type: entity
   parent: FloorTileItemBase
   id: FloorTileItemOldConcrete
-  name: old concrete tile
+  name: "стара бетонна плитка"
   components:
   - type: Sprite
     state: oldconcrete
@@ -583,7 +583,7 @@
 
 # Carpets
 - type: entity
-  name: blue arcade floor
+  name: "синя підлога аркади"
   parent: FloorTileItemBase
   id: FloorTileItemArcadeBlue
   components:
@@ -599,7 +599,7 @@
     stackType: FloorTileStackArcadeBlue
 
 - type: entity
-  name: blue arcade floor
+  name: "синя підлога аркади"
   parent: FloorTileItemBase
   id: FloorTileItemArcadeBlue2
   components:
@@ -615,7 +615,7 @@
     stackType: FloorTileStackArcadeBlue2
 
 - type: entity
-  name: red arcade floor
+  name: "червона підлога аркади"
   parent: FloorTileItemBase
   id: FloorTileItemArcadeRed
   components:
@@ -631,7 +631,7 @@
     stackType: FloorTileStackArcadeRed
 
 - type: entity
-  name: eighties floor
+  name: "вісімдесятий поверх"
   parent: FloorTileItemBase
   id: FloorTileItemEighties
   components:
@@ -647,7 +647,7 @@
     stackType: FloorTileStackEighties
 
 - type: entity
-  name: clown carpet floor
+  name: "клоунська килимова підлога"
   parent: FloorTileItemBase
   id: FloorTileItemCarpetClown
   components:
@@ -663,7 +663,7 @@
     stackType: FloorTileStackCarpetClown
 
 - type: entity
-  name: office carpet floor
+  name: "офісна килимова підлога"
   parent: FloorTileItemBase
   id: FloorTileItemCarpetOffice
   components:
@@ -679,7 +679,7 @@
     stackType: FloorTileStackCarpetOffice
 
 - type: entity
-  name: boxing ring floor
+  name: "підлога боксерського рингу"
   parent: FloorTileItemBase
   id: FloorTileItemBoxing
   components:
@@ -695,7 +695,7 @@
     stackType: FloorTileStackBoxing
 
 - type: entity
-  name: gym floor
+  name: "підлога спортзалу"
   parent: FloorTileItemBase
   id: FloorTileItemGym
   components:
@@ -712,7 +712,7 @@
 
 # Shuttles
 - type: entity
-  name: white shuttle floor
+  name: "біла човникова підлога"
   parent: FloorTileItemBase
   id: FloorTileItemShuttleWhite
   components:
@@ -728,7 +728,7 @@
     stackType: FloorTileStackShuttleWhite
 
 - type: entity
-  name: blue shuttle floor
+  name: "синій шатл-поверх"
   parent: FloorTileItemBase
   id: FloorTileItemShuttleBlue
   components:
@@ -744,7 +744,7 @@
     stackType: FloorTileStackShuttleBlue
 
 - type: entity
-  name: orange shuttle floor
+  name: "помаранчевий поверх шаттла"
   parent: FloorTileItemBase
   id: FloorTileItemShuttleOrange
   components:
@@ -760,7 +760,7 @@
     stackType: FloorTileStackShuttleOrange
 
 - type: entity
-  name: purple shuttle floor
+  name: "фіолетовий шатл-поверх"
   parent: FloorTileItemBase
   id: FloorTileItemShuttlePurple
   components:
@@ -776,7 +776,7 @@
     stackType: FloorTileStackShuttlePurple
 
 - type: entity
-  name: red shuttle floor
+  name: "червоний поверх шаттла"
   parent: FloorTileItemBase
   id: FloorTileItemShuttleRed
   components:
@@ -792,7 +792,7 @@
     stackType: FloorTileStackShuttleRed
 
 - type: entity
-  name: grey shuttle floor
+  name: "сіра підлога шатла"
   parent: FloorTileItemBase
   id: FloorTileItemShuttleGrey
   components:
@@ -808,7 +808,7 @@
     stackType: FloorTileStackShuttleGrey
 
 - type: entity
-  name: black shuttle floor
+  name: "чорна підлога човника"
   parent: FloorTileItemBase
   id: FloorTileItemShuttleBlack
   components:
@@ -825,7 +825,7 @@
 
 # Materials
 - type: entity
-  name: gold floor
+  name: "золота підлога"
   parent: FloorTileItemBase
   id: FloorTileItemGold
   components:
@@ -841,7 +841,7 @@
     stackType: FloorTileGold
 
 - type: entity
-  name: silver tile
+  name: "срібна плитка"
   parent: FloorTileItemBase
   id: FloorTileItemSilver
   components:
@@ -858,7 +858,7 @@
 
 # Circuits
 - type: entity
-  name: green circuit floor
+  name: "зелена підлога контуру"
   parent: FloorTileItemBase
   id: FloorTileItemGCircuit
   components:
@@ -874,7 +874,7 @@
     stackType: FloorTileGCircuit
 
 - type: entity
-  name: blue circuit floor
+  name: "синя підлога контуру"
   parent: FloorTileItemBase
   id: FloorTileItemBCircuit
   components:
@@ -909,7 +909,7 @@
 
 # Terrain
 - type: entity
-  name: grass tile
+  name: "трав'яна плитка"
   parent: FloorTileItemBase
   id: FloorTileItemGrass
   components:
@@ -925,7 +925,7 @@
     stackType: FloorTileGrass
 
 - type: entity
-  name: jungle grass tile
+  name: "черепиця з джунглів"
   parent: FloorTileItemBase
   id: FloorTileItemGrassJungle
   components:
@@ -941,7 +941,7 @@
     stackType: FloorTileGrassJungle
 
 - type: entity
-  name: snow tile
+  name: "снігова черепиця"
   parent: FloorTileItemBase
   id: FloorTileItemSnow
   components:
@@ -957,7 +957,7 @@
     stackType: FloorTileSnow
 
 - type: entity
-  name: wood pattern floor
+  name: "підлога з дерев'яним малюнком"
   parent: FloorTileItemBase
   id: FloorTileItemWoodPattern
   components:
@@ -975,7 +975,7 @@
 - type: entity
   id: FloorTileItemFlesh
   parent: FloorTileItemBase
-  name: flesh floor
+  name: "тілесна підлога"
   components:
   - type: Sprite
     state: meat
@@ -992,7 +992,7 @@
     node: fleshTile
 
 - type: entity
-  name: steel maint floor
+  name: "сталева підлога для технічного обслуговування"
   parent: FloorTileItemBase
   id: FloorTileItemSteelMaint
   components:
@@ -1008,7 +1008,7 @@
     stackType: FloorTileSteelMaint
 
 - type: entity
-  name: grating maint floor
+  name: "решітчаста підлога"
   parent: FloorTileItemBase
   id: FloorTileItemGratingMaint
   components:
@@ -1024,7 +1024,7 @@
     stackType: FloorTileGratingMaint
 
 - type: entity
-  name: web tile
+  name: "веб-плитка"
   parent: FloorTileItemBase
   id: FloorTileItemWeb
   components:
@@ -1045,8 +1045,8 @@
 - type: entity
   id: FloorTileItemAstroGrass
   parent: FloorTileItemBase
-  name: astro-grass
-  description: Fake grass that covers up wires and even comes with realistic NanoTrimmings!
+  name: "астро-трава"
+  description: "Штучна трава, яка приховує дроти і навіть має реалістичні нанообрізки!"
   components:
   - type: Sprite
     state: astrograss
@@ -1062,8 +1062,8 @@
 - type: entity
   id: FloorTileItemMowedAstroGrass
   parent: FloorTileItemBase
-  name: mowed astro-grass
-  description: Fake grass that covers up wires and even comes with realistic NanoTrimmings!
+  name: "скошена астро-трава"
+  description: "Штучна трава, яка приховує дроти і навіть має реалістичні нанообрізки!"
   components:
   - type: Sprite
     state: grass
@@ -1079,8 +1079,8 @@
 - type: entity
   id: FloorTileItemJungleAstroGrass
   parent: FloorTileItemBase
-  name: jungle astro-grass
-  description: Fake grass that covers up wires and even comes with realistic NanoTrimmings!
+  name: "астро-трава джунглів"
+  description: "Штучна трава, яка приховує дроти і навіть має реалістичні нанообрізки!"
   components:
   - type: Sprite
     state: grassjungle
@@ -1096,8 +1096,8 @@
 - type: entity
   id: FloorTileItemAstroIce
   parent: FloorTileItemBase
-  name: astro-ice
-  description: Fake ice that's as slippery as the real thing, while being easily removable!
+  name: "астро-лід"
+  description: "Фальшивий лід, такий же слизький, як і справжній, але при цьому легко знімається!"
   components:
   - type: Sprite
     state: astroice
@@ -1113,8 +1113,8 @@
 - type: entity
   id: FloorTileItemAstroSnow
   parent: FloorTileItemBase
-  name: astro-snow
-  description: Fake snow that's as fluffy as the real thing, while being easily removable!
+  name: "астро-сніг"
+  description: "Штучний сніг, такий же пухнастий, як і справжній, але при цьому легко знімається!"
   components:
   - type: Sprite
     state: snow
@@ -1128,7 +1128,7 @@
     stackType: FloorTileAstroSnow
 
 - type: entity
-  name: large wood floor
+  name: "велика дерев'яна підлога"
   parent: FloorTileItemBase
   id: FloorTileItemWoodLarge
   components:
