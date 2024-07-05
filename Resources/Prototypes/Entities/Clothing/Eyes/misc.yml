@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesEyepatch
-  name: eyepatch
-  description: Yarr.
+  name: "пов'язка на око"
+  description: "Ярр."
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Misc/eyepatch.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesBlindfold
-  name: blindfold
-  description: The bind leading the blind.
+  name: "пов'язка на очах"
+  description: "Зв'язка, що веде за собою сліпих."
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Misc/blindfold.rsi

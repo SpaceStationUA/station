@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: OrganBloodsuckerStomach
   parent: OrganAnimalStomach
-  name: stomach
+  name: "шлунок"
   noSpawn: true
   components:
   - type: Metabolizer
@@ -10,7 +10,7 @@
 - type: entity
   id: OrganBloodsuckerLiver
   parent: OrganAnimalLiver
-  name: liver
+  name: "печінка"
   noSpawn: true
   components:
   - type: Metabolizer
@@ -19,7 +19,7 @@
 - type: entity
   id: OrganBloodsuckerHeart
   parent: OrganAnimalHeart
-  name: heart
+  name: "серце"
   noSpawn: true
   components:
   - type: Metabolizer
