@@ -10,16 +10,16 @@ signal-port-description-off-transmitter = Цей порт викликаєтьс
 signal-port-name-status-transmitter = Статус
 signal-port-description-status-transmitter = Цей порт викликається зі значенням HIGH або LOW залежно від стану передавача.
 
-signal-port-name-left = Ліворуч
+signal-port-name-left = Ліво
 signal-port-description-left = Цей порт викликається щоразу, коли важіль переміщується в крайнє ліве положення.
 
-signal-port-name-right = Так
+signal-port-name-right = Право
 signal-port-description-right = Цей порт викликається щоразу, коли важіль переміщується в крайнє праве положення.
 
 signal-port-name-doorstatus = Стан дверей
 signal-port-description-doorstatus = Цей порт викликається зі значенням HIGH, коли двері відчиняються, і LOW, коли двері зачиняються.
 
-signal-port-name-middle = Середній
+signal-port-name-middle = Середина
 signal-port-description-middle = Цей порт викликається щоразу, коли важіль переводиться в нейтральне положення.
 
 signal-port-name-timer-trigger = Тригер таймера

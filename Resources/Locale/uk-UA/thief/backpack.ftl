@@ -12,16 +12,15 @@ thief-backpack-button-deselect = Виберіть [X].
 
 # Набори
 
-thief-backpack-category-chameleon-name = комплект хамелеона
-thief-backpack-category-chameleon-description = Includes a full set of clothing that contain
-    chameleon technology, allowing you to disguise
-    as pretty much anything on the station.
+thief-backpack-category-chameleon-name = набір хамелеона
+thief-backpack-category-chameleon-description = Включає в себе повний комплект одягу, який містить
+    технологію хамелеона, що дозволяє маскуватися
+    під будь-що на станції.
 
-thief-backpack-category-tools-name = набір мисливця на ведмедів
+thief-backpack-category-tools-name = набір ведмежатника
 thief-backpack-category-tools-description = Набір інструментів для чорнової обробки дверей, стін, вікон,
-    і всього іншого, що з якихось причин
-    не хоче впускати вас туди, куди вам потрібно.
-    Включає два C4, мультитул, рятувальні лещата,
+    і всього іншого, що з якихось причин у вас нема доступу туди, куди вам потрібно.
+    Набір включає в собі: два C4, мультитул, рятувальні клешні,
     пара сучасних мезонних окулярів для зварювальника та кілька ізольованих рукавичок.
 
 thief-backpack-category-chemistry-name = хімічний набір

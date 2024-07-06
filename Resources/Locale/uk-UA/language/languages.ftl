@@ -16,7 +16,7 @@ language-Nekomimetic-description = Для стороннього спостер�
 language-Draconic-name = Драконівський
 language-Draconic-description = Спільна мова людей-ящірок складається з шиплячих звуків і хрипів.
 
-language-SolCommon-name = Соль звичайна
+language-SolCommon-name = Сонячна звичайна
 language-SolCommon-description = Мова, спільна для видів з Сонячної системи.
 
 language-Canilunzt-name = Canilunzt
