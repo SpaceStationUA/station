@@ -1,7 +1,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafePistolUniversal
-  name: "сейф для MK32"
+  name: mk32 safe
   components:
   - type: StorageFill
     contents:
@@ -13,7 +13,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeSniperGrand
-  name: "сейф для рушниць Mark-1"
+  name: mark 1 rifle safe
   components:
   - type: StorageFill
     contents:
@@ -25,7 +25,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeVulcanRifle
-  name: "вулканічний сейф"
+  name: vulcan safe
   components:
   - type: StorageFill
     contents:
@@ -37,7 +37,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeAdjutantShotgun
-  name: "сейф ад'ютантський"
+  name: adjutant safe
   components:
   - type: StorageFill
     contents:
@@ -49,7 +49,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeEnergyGun
-  name: "енергетичний сейф для зброї"
+  name: energy gun safe
   components:
   - type: StorageFill
     contents:
@@ -59,7 +59,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeEnergyGunMini
-  name: "мініатюрний сейф для енергетичних пістолетів"
+  name: miniature energy gun safe
   components:
   - type: StorageFill
     contents:
