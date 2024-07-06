@@ -57,6 +57,7 @@ namespace Content.Shared.Alert
         BorgHealth,
         BorgCrit,
         BorgDead,
+		Offer,
 //Pirate START
         ShadowkinPower,
         MageMana,

@@ -13,6 +13,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: bat
       sprite: Mobs/Animals/bat.rsi
+  - type: Carriable
   - type: Speech
     speechSounds: Squeak
     speechVerb: SmallMob
@@ -48,7 +49,7 @@
     flavorKind: station-event-random-sentience-flavor-organic
   - type: Bloodstream
     bloodMaxVolume: 50
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Mouse
     understands:
@@ -188,6 +189,8 @@
     noMovementLayers:
       movement:
         state: chicken-0
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Fixtures
     fixtures:
       fix1:
@@ -240,7 +243,7 @@
   - type: EggLayer
     eggSpawn:
     - id: FoodEgg
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Chicken
     understands:
@@ -521,7 +524,7 @@
       prob: 0.5
   - type: Extractable
     grindableSolutionName: food
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Moffic
     understands:
@@ -582,6 +585,8 @@
         - MobMask
         layer:
         - MobLayer
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -621,7 +626,7 @@
   - type: EggLayer
     eggSpawn:
     - id: FoodEgg
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Duck
     understands:
@@ -842,6 +847,8 @@
     noMovementLayers:
       movement:
         state: crab
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -874,7 +881,7 @@
     interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Voice/Arachnid/arachnid_chitter.ogg
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Crab
     understands:
@@ -909,6 +916,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: goat
       sprite: Mobs/Animals/goat.rsi
+  - type: Carriable
   - type: Fixtures
     fixtures:
       fix1:
@@ -1001,6 +1009,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: goose
       sprite: Mobs/Animals/goose.rsi
+  - type: Carriable
   - type: Fixtures
     fixtures:
       fix1:
@@ -1120,7 +1129,7 @@
   - type: Inventory
     speciesId: kangaroo
     templateId: kangaroo
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Kangaroo
     understands:
@@ -1247,6 +1256,7 @@
       sprite: "Effects/creampie.rsi"
       state: "creampie_human"
       visible: false
+  - type: Carriable
   - type: Hands
   - type: GenericVisualizer
     visuals:
@@ -1313,7 +1323,7 @@
   - type: Speech
     speechSounds: Monkey
     speechVerb: Monkey
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Monkey
     understands:
@@ -1352,7 +1362,7 @@
   - type: Speech
     speechSounds: Monkey
     speechVerb: Monkey
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Monkey
     understands:
@@ -1397,7 +1407,7 @@
   - type: NameIdentifier
     group: Kobold
   - type: LizardAccent
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Kobold
     understands:
@@ -1634,7 +1644,7 @@
     spawned:
     - id: FoodMeatRat
       amount: 1
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Mouse
     understands:
@@ -1771,6 +1781,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: lizard
       sprite: Mobs/Animals/lizard.rsi
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -1825,6 +1836,8 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: slug
       sprite: Mobs/Animals/slug.rsi
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -1877,6 +1890,7 @@
     noMovementLayers:
       movement:
         state: frog
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -1940,6 +1954,8 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: parrot
       sprite: Mobs/Animals/parrot.rsi
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Fixtures
     fixtures:
       fix1:
@@ -1977,7 +1993,7 @@
       path: /Audio/Animals/parrot_raught.ogg
   - type: Bloodstream
     bloodMaxVolume: 50
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - GalacticCommon
     understands:
@@ -1995,6 +2011,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: penguin
       sprite: Mobs/Animals/penguin.rsi
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2128,6 +2145,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: snake
       sprite: Mobs/Animals/snake.rsi
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2190,6 +2208,7 @@
     noMovementLayers:
       movement:
         state: tarantula
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2240,7 +2259,7 @@
   - type: MeleeChemicalInjector
     transferAmount: 0.75
     solution: melee
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Xeno
     understands:
@@ -2375,6 +2394,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: possum
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2450,6 +2470,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: raccoon
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2514,6 +2535,7 @@
     noMovementLayers:
       movement:
         state: fox
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2576,7 +2598,7 @@
   - type: Tag
     tags:
     - VimPilot
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Fox
     understands:
@@ -2594,6 +2616,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: corgi
+  - type: Carriable
   - type: Physics
   - type: Speech
     speechVerb: Canine
@@ -2627,7 +2650,7 @@
     spawned:
     - id: FoodMeat
       amount: 2
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Dog
     understands:
@@ -2750,6 +2773,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: cat
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -2784,7 +2808,7 @@
     spawned:
     - id: FoodMeat
       amount: 3
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Cat
     understands:
@@ -2856,7 +2880,7 @@
   - type: NpcFactionMember
     factions:
     - Syndicate
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Xeno
     understands:
@@ -2929,6 +2953,8 @@
         Base: kitten_dead
       Dead:
         Base: kitten_dead
+  - type: Carriable
+    freeHandsRequired: 1
   - type: Butcherable
     spawned:
     - id: FoodMeat
@@ -2959,6 +2985,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: sloth
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -3020,6 +3047,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: ferret
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -3161,7 +3189,7 @@
     spawned:
     - id: FoodMeat
       amount: 1
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Mouse
     understands:
@@ -3221,6 +3249,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: pig
       sprite: Mobs/Animals/pig.rsi
+  - type: Carriable
   - type: Fixtures
     fixtures:
       fix1:
@@ -3273,7 +3302,7 @@
     interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Animals/pig_oink.ogg
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - Pig
     understands:
@@ -3296,6 +3325,7 @@
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: nymph
       sprite: Mobs/Animals/nymph.rsi
+  - type: Carriable
   - type: Physics
   - type: Fixtures
     fixtures:
@@ -3363,7 +3393,7 @@
     reformTime: 10
     popupText: diona-reform-attempt
     reformPrototype: MobDionaReformed
-  - type: LanguageSpeaker
+  - type: LanguageKnowledge
     speaks:
     - RootSpeak
     understands:
