@@ -68,3 +68,10 @@ trait-name-SocialAnxiety = Соціальна тривожність
 trait-description-SocialAnxiety = Ви хвилюєтеся, коли говорите і заїкаєтеся.
 trait-name-Snoring = Хропіння
 trait-description-Snoring = Ви будете хропіти під час сну.
+trait-name-NormalVisionHarpy = Модифікація Trichromat
+trait-description-NormalVisionHarpy = Ваші очі були модифіковані за допомогою передової медицини, щоб бачити стандартні кольори: червоний, зелений і синій.
+trait-name-NormalVisionVulpkanin = Модифікація Trichromat
+trait-description-NormalVisionVulpkanin = Ваші очі були модифіковані за допомогою передової медицини, щоб бачити стандартні кольори: червоний, зелений і синій.
+trait-name-Thieving = Злодійство
+trait-description-Thieving = У вас спритні руки, і ви талановито переконуєте людей у тому, що їхні речі належать їм.
+    Ви можете ідентифікувати кишенькові речі, красти їх тихіше і на 33% швидше.

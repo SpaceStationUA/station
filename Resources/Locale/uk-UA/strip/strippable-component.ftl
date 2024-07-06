@@ -20,3 +20,6 @@ strip-verb-get-data-text = Роздягання
 
 strippable-bound-user-interface-stripping-menu-title = Інвентар {$ownerName}
 strippable-bound-user-interface-stripping-menu-ensnare-button = Розв'язати ноги
+
+thieving-component-user = Хтось
+thieving-component-item = щось

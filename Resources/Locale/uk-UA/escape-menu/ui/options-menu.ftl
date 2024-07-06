@@ -257,3 +257,6 @@ ui-options-net-pvs-leave-tooltip = Обмежує частоту, з якою к
 ## Toggle window console command
 cmd-options-desc = Відкриває меню опцій, опціонально з конкретно обраною вкладкою
 cmd-options-help = Використання: options [tab]
+
+ui-options-show-offer-mode-indicators = Показувати індикатори режиму пропозиції курсором
+ui-options-function-offer-item = Запропонуйте щось

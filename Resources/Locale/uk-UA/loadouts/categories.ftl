@@ -7,3 +7,9 @@ loadout-category-Uncategorized = Без категорії
 loadout-category-Uniform = Уніформа
 loadout-category-Neck = Шия
 loadout-category-Shoes = Взуття
+
+loadout-category-Eyes = Очі
+loadout-category-Hands = Руки
+loadout-category-Head = Голова
+loadout-category-Mask = Маска
+loadout-category-Species = Види
