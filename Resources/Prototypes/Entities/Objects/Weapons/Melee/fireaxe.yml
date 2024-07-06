@@ -1,8 +1,8 @@
 - type: entity
-  name: fireaxe
+  name: "вогнепальна сокира"
   parent: BaseItem
   id: FireAxe
-  description: Truly, the weapon of a madman. Who would think to fight fire with an axe?
+  description: "Воістину, зброя божевільного. Кому спаде на думку боротися з вогнем за допомогою сокири?"
   components:
   - type: Tag
     tags:
@@ -50,9 +50,9 @@
 
 - type: entity
   id: FireAxeFlaming
-  name: fire axe
+  name: "пожежна сокира"
   parent: FireAxe
-  description: Why fight fire with an axe when you can fight with fire and axe? Now featuring rugged rubberized handle!
+  description: "Навіщо боротися з вогнем сокирою, коли можна боротися з вогнем і сокирою? Тепер з міцною прогумованою ручкою!"
   components:
   - type: MeleeWeapon
     wideAnimationRotation: 90

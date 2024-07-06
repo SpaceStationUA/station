@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
-  name: light replacer
+  name: "замінник світла"
   id: LightReplacer
-  description: An item which uses magnets to easily replace broken lights. Refill By adding more lights into the replacer.
+  description: "Виріб, який використовує магніти для легкої заміни розбитих ламп. Поповнення - додавання нових лампочок у замінник."
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/light_replacer.rsi

@@ -1,7 +1,7 @@
 - type: entity
   parent: SeatBase
   id: ChairBarber
-  name: barbers chair
+  name: "перукарське крісло"
   components:
   - type: Transform
     anchored: true
@@ -16,8 +16,8 @@
 - type: entity
   parent: BaseSign
   id: BarberSignPole
-  name: barber pole
-  description: Hypnotic.
+  name: "перукарська палиця"
+  description: "Гіпнотичний."
   components:
   - type: Sprite
     sprite: Structures/Specific/barbershop.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: BarberSignPole
   id: BarberSignThesnip
-  name: the snip
-  description: Let's hope it's not a medical practice...
+  name: "постріл"
+  description: "Будемо сподіватися, що це не медична практика..."
   components:
   - type: Sprite
     sprite: Structures/Specific/barbershop.rsi
