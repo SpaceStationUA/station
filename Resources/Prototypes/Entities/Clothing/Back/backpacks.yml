@@ -1,8 +1,8 @@
 - type: entity
   parent: [Clothing, ContentsExplosionResistanceBase]
   id: ClothingBackpack
-  name: "рюкзак"
-  description: "Ви одягаєте його на спину і кладете в нього речі."
+  name: backpack
+  description: You wear this on your back and put items into it.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/backpack.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackClown
-  name: "хихикає фон Хонкертон"
-  description: "Це рюкзак, зроблений компанією Honk! Co."
+  name: giggles von honkerton
+  description: It's a backpack made by Honk! Co.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/clown.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackIan
-  name: "Рюкзак Яна"
-  description: "Іноді він його носить."
+  name: Ian's backpack
+  description: Sometimes he wears it.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ian.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackSecurity
-  name: "захисний рюкзак"
-  description: "Це дуже міцний рюкзак."
+  name: security backpack
+  description: It's a very robust backpack.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/security.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackBrigmedic
-  name: "рюкзак бріг-медика" # DeltaV - rename brig medic to corpsman
-  description: "Це дуже стерильний рюкзак."
+  name: corpsman backpack # DeltaV - rename brig medic to corpsman
+  description: It's a very sterile backpack.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Back/Backpacks/brigmedic.rsi # DeltaV - resprite
@@ -77,8 +77,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackEngineering
-  name: "інженерний рюкзак"
-  description: "Це міцний рюкзак для щоденної рутини вокзального життя."
+  name: engineering backpack
+  description: It's a tough backpack for the daily grind of station life.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/engineering.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackAtmospherics
-  name: "атмосферний рюкзак"
-  description: "Це рюкзак з вогнетривких волокон. Пахне плазмою."
+  name: atmospherics backpack
+  description: It's a backpack made of fire resistant fibers. Smells like plasma.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/atmospherics.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackMedical
-  name: "медичний рюкзак"
-  description: "Це рюкзак, спеціально розроблений для використання в стерильному середовищі."
+  name: medical backpack
+  description: It's a backpack especially designed for use in a sterile environment.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/medical.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackCaptain
-  name: "капітанський рюкзак"
-  description: "Це спеціальний рюкзак, виготовлений ексклюзивно для офіцерів \"Нанотрасену\"."
+  name: captain's backpack
+  description: It's a special backpack made exclusively for Nanotrasen officers.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/captain.rsi
@@ -113,8 +113,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackMime
-  name: "мімічний рюкзак"
-  description: "Безшумний рюкзак, створений для тих, хто працює мовчки. Silence Co."
+  name: mime backpack
+  description: A silent backpack made for those silent workers. Silence Co.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/mime.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackChemistry
-  name: "рюкзак для хімії"
-  description: "Рюкзак, спеціально розроблений для відштовхування плям і небезпечних рідин."
+  name: chemistry backpack
+  description: A backpack specially designed to repel stains and hazardous liquids.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/chemistry.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackHydroponics
-  name: "рюкзак для гідропоніки"
-  description: "Це рюкзак з повністю натуральних волокон."
+  name: hydroponics backpack
+  description: It's a backpack made of all-natural fibers.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/hydroponics.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackScience
-  name: "рюкзак з епістемології" # DeltaV - Epistemics Department replacing Science
-  description: "Рюкзак, спеціально розроблений для відштовхування плям і небезпечних рідин."
+  name: epistemics backpack # DeltaV - Epistemics Department replacing Science
+  description: A backpack specially designed to repel stains and hazardous liquids.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/science.rsi
@@ -149,8 +149,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackVirology
-  name: "вірусологічний рюкзак"
-  description: "Рюкзак з гіпоалергенних волокон. Створений, щоб допомогти запобігти поширенню хвороб. Пахне мавпочкою."
+  name: virology backpack
+  description: A backpack made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/virology.rsi
@@ -158,8 +158,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackGenetics
-  name: "генетичний рюкзак"
-  description: "Надміцний рюкзак, розроблений на випадок, якщо на вас хтось накинеться."
+  name: genetics backpack
+  description: A backpack designed to be super tough, just in case someone hulks out on you.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/genetics.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackCargo
-  name: "логістичний рюкзак" # DeltaV - Logistics Department replacing Cargo
-  description: "Міцний рюкзак для крадіжок з логістики." # DeltaV - Logistics Department replacing Cargo
+  name: logistics backpack # DeltaV - Logistics Department replacing Cargo
+  description: A robust backpack for stealing logistics's loot. # DeltaV - Logistics Department replacing Cargo
   components:
     - type: Sprite
       sprite: Clothing/Back/Backpacks/cargo.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackSalvage
-  name: "рятувальний мішок"
-  description: "Міцний рюкзак для зберігання здобичі."
+  name: salvage bag
+  description: A robust backpack for stashing your loot.
   components:
     - type: Sprite
       sprite: Clothing/Back/Backpacks/salvage.rsi
@@ -185,8 +185,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackMerc
-  name: "мішок з грошима"
-  description: "Рюкзак, який побував у багатьох небезпечних місцях, надійний бойовий рюкзак."
+  name: merc bag
+  description: A backpack that has been in many dangerous places, a reliable combat backpack.
   components:
     - type: Sprite
       sprite: Clothing/Back/Backpacks/merc.rsi
@@ -195,8 +195,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackERTLeader
-  name: "Рюкзак лідера групи швидкого реагування"
-  description: "Місткий рюкзак з великою кількістю кишень, який носить командир групи швидкого реагування."
+  name: ERT leader backpack
+  description: A spacious backpack with lots of pockets, worn by the Commander of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertleader.rsi
@@ -207,8 +207,8 @@
 - type: entity
   parent: ClothingBackpackERTLeader
   id: ClothingBackpackERTSecurity
-  name: "Рюкзак безпеки ERT"
-  description: "Місткий рюкзак з великою кількістю кишень, який носять співробітники служби безпеки групи швидкого реагування."
+  name: ERT security backpack
+  description: A spacious backpack with lots of pockets, worn by Security Officers of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertsec.rsi
@@ -216,8 +216,8 @@
 - type: entity
   parent: ClothingBackpackERTLeader
   id: ClothingBackpackERTMedical
-  name: "Медичний рюкзак ERT"
-  description: "Місткий рюкзак з великою кількістю кишень, який носять медики бригади швидкого реагування."
+  name: ERT medical backpack
+  description: A spacious backpack with lots of pockets, worn by Medical Officers of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertmed.rsi
@@ -225,8 +225,8 @@
 - type: entity
   parent: ClothingBackpackERTLeader
   id: ClothingBackpackERTEngineer
-  name: "Рюкзак інженера ERT"
-  description: "Місткий рюкзак з великою кількістю кишень, який носять інженери аварійно-рятувальної бригади."
+  name: ERT engineer backpack
+  description: A spacious backpack with lots of pockets, worn by Engineers of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/erteng.rsi
@@ -234,8 +234,8 @@
 - type: entity
   parent: ClothingBackpackERTLeader
   id: ClothingBackpackERTJanitor
-  name: "Рюкзак прибиральника ERT"
-  description: "Місткий рюкзак з великою кількістю кишень, який носять прибиральники аварійно-рятувальної бригади."
+  name: ERT janitor backpack
+  description: A spacious backpack with lots of pockets, worn by Janitors of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertjanitor.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: ClothingBackpackERTLeader
   id: ClothingBackpackERTClown
-  name: "Рюкзак клоуна ERT"
-  description: "Місткий рюкзак з великою кількістю кишень, який носять клоуни групи швидкого реагування."
+  name: ERT clown backpack
+  description: A spacious backpack with lots of pockets, worn by Clowns of an Emergency Response Team.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/ertclown.rsi
@@ -253,7 +253,7 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackSyndicate
-  name: "синдикатський рюкзак"
+  name: syndicate backpack
   description:
   components:
   - type: Sprite
@@ -265,8 +265,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackHolding
-  name: "мішок для утримання"
-  description: "Рюкзак, який відкривається в локальну кишеню блюзового простору."
+  name: bag of holding
+  description: A backpack that opens into a localized pocket of bluespace.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/holding.rsi
@@ -287,9 +287,9 @@
 - type: entity
   parent: ClothingBackpackClown
   id: ClothingBackpackCluwne
-  name: "джиглз фон джонкертон"
+  name: jiggles von jonkerton
   suffix: Unremoveable
-  description: "Це рюкзак від компанії Jonk! Co."
+  description: It's a backpack made by Jonk! Co.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/cluwne.rsi
@@ -300,8 +300,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackDebug
-  name: "вакпак"
-  description: "Що це в біса таке?"
+  name: wackpack
+  description: What the fuck is this?
   suffix: Debug
   components:
   - type: Storage
@@ -316,8 +316,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackDebug2
-  name: "великий рюкзак"
-  description: "Що це в біса таке?"
+  name: big wackpack
+  description: What the fuck is this?
   suffix: Debug
   components:
   - type: Storage
@@ -327,8 +327,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackDebug3
-  name: "гейський придурок"
-  description: "Що це в біса таке?"
+  name: gay wackpack
+  description: What the fuck is this?
   suffix: Debug
   components:
   - type: Storage
@@ -348,8 +348,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackDebug4
-  name: "офсетний рюкзак"
-  description: "Що це в біса таке?"
+  name: offset wackpack
+  description: What the fuck is this?
   suffix: Debug
   components:
   - type: Storage
@@ -359,8 +359,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackBlueshield
-  name: "рюкзак blueshield"
-  description: "Не їстівне, нажаль..."
+  name: blueshield backpack
+  description: Не їстівне, нажаль...
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/blueshield.rsi
@@ -368,8 +368,8 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackRobotics
-  name: "рюкзак з робототехніки"
-  description: "Рюкзак, спеціально розроблений для відштовхування плям і небезпечних рідин."
+  name: robotics backpack
+  description: A backpack specially designed to repel stains and hazardous liquids.
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/robotics.rsi

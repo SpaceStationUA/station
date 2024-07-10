@@ -1,7 +1,7 @@
 - type: entity
-  name: "Гіпоспрей NTCS-101"
+  name: NTCS-101 hypospray
   parent: BaseItem
-  description: "Комерційний гіпоспрей, розроблений компанією Nanotrasen Chemical Supply. Він має дві вбудовані функції безпеки для споживчого ринку, невеликий хімічний резервуар і затримку впорскування."
+  description: A commercial hypospray designed by Nanotrasen Chemical Supply. It has two built in safety features for the consumer market, a small chemical reservoir and an injection delay.
   id: HypoMini
   components:
   - type: Sprite
@@ -25,9 +25,9 @@
     price: 550
 
 - type: entity
-  name: "Гіпоспрей NTCS-102"
+  name: NTCS-102 hypospray
   parent: HypoMini
-  description: "Комерційний гіпоспрей, розроблений компанією Nanotrasen Chemical Supply. Він має дві вбудовані функції безпеки для споживчого ринку: невеликий резервуар для хімікатів і затримку впорскування. Цей балончик призначений для використання правоохоронними органами."
+  description: A commercial hypospray designed by Nanotrasen Chemical Supply. It has two built in safety features for the consumer market, a small chemical reservoir and an injection delay. This one is branded for use by law-enforcement.
   id: HypoBrigmedic
   components:
   - type: Sprite
@@ -37,9 +37,9 @@
     sprite: _NF/Objects/Specific/Medical/hypobrigmedic.rsi
 
 - type: entity
-  name: "Гіпоспрей NTCS-103"
+  name: NTCS-103 hypospray
   parent: HypoMini
-  description: "Комерційний гіпоспрей, розроблений компанією Nanotrasen Chemical Supply. Він має дві вбудовані функції безпеки для споживчого ринку, невеликий резервуар для хімікатів та затримку впорскування. Здається, це обмежена серія, пощастило вам!"
+  description: A commercial hypospray designed by Nanotrasen Chemical Supply. It has two built in safety features for the consumer market, a small chemical reservoir and an injection delay. This one seems to be a limited edition, lucky you!
   id: HypoMiniLimitedEdition
   components:
   - type: Sprite
