@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: MachineParticleAcceleratorEndCapCircuitboard
   parent: BaseMachineCircuitboard
-  name: PA end cap board
-  description: A machine board for a particle accelerator end cap
+  name: "Плата торцевої кришки гучномовця"
+  description: "Машинна плата для торцевої кришки прискорювача частинок"
   components:
     - type: Sprite
       state: engineering
@@ -15,8 +15,8 @@
 - type: entity
   id: MachineParticleAcceleratorFuelChamberCircuitboard
   parent: BaseMachineCircuitboard
-  name: PA fuel chamber board
-  description: A machine board for a particle accelerator fuel chamber
+  name: "Плата паливної камери PA"
+  description: "Машинна плата для паливної камери прискорювача частинок"
   components:
     - type: Sprite
       state: engineering
@@ -34,8 +34,8 @@
 - type: entity
   id: MachineParticleAcceleratorPowerBoxCircuitboard
   parent: BaseMachineCircuitboard
-  name: PA power box board
-  description: A machine board for a particle accelerator power box
+  name: "Плата блоку живлення гучномовця"
+  description: "Машинна плата для силового блоку прискорювача частинок"
   components:
     - type: Sprite
       state: engineering
@@ -50,8 +50,8 @@
 - type: entity
   id: MachineParticleAcceleratorEmitterStarboardCircuitboard
   parent: BaseMachineCircuitboard
-  name: PA starboard emitter board
-  description: A machine board for a particle accelerator left emitter
+  name: "Плата випромінювача правого борту PA"
+  description: "Машинна плата лівого випромінювача прискорювача частинок"
   components:
     - type: Sprite
       state: engineering
@@ -64,8 +64,8 @@
 - type: entity
   id: MachineParticleAcceleratorEmitterForeCircuitboard
   parent: BaseMachineCircuitboard
-  name: PA fore emitter board
-  description: A machine board for a particle accelerator center emitter
+  name: "Плата переднього випромінювача PA"
+  description: "Машинна плата для центрального випромінювача прискорювача частинок"
   components:
     - type: Sprite
       state: engineering
@@ -78,8 +78,8 @@
 - type: entity
   id: MachineParticleAcceleratorEmitterPortCircuitboard
   parent: BaseMachineCircuitboard
-  name: PA port emitter board
-  description: A machine board for a particle accelerator right emitter
+  name: "Плата випромінювача порту PA"
+  description: "Машинна плата для правого випромінювача прискорювача частинок"
   components:
     - type: Sprite
       state: engineering
