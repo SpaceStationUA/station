@@ -19,3 +19,23 @@
   #   suitstorage: YellowOxygenTankFilled
   # inhand:
   #   - JetpackBlackFilled
+
+- type: startingGear
+  id: MercGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitMercenary
+    back: ClothingBackpackMerc
+    mask: ClothingMaskGasMerc
+    head: ClothingHeadHelmetMerc
+    eyes: ClothingEyesGlassesMercenary
+    gloves: ClothingHandsGlovesMercFingerless
+    outerClothing: ClothingOuterHardsuitMercWhite
+    shoes: ClothingShoesBootsMercFilled
+    id: PirateIDCard
+    ears: ClothingHeadsetFreelance
+    pocket1: SpiderCharge
+    pocket2: PinpointerStation
+    belt: ClothingBeltMercWebbing
+    suitstorage: OxygenTankFilled
+  inhand:
+    - JetpackBlackFilled

@@ -26,3 +26,15 @@
       - NamesFirstMilitary
       - NamesLastMilitary
     - type: InitialInfectedExempt
+
+- type: randomHumanoidSettings
+  id: Mercenary
+  components:
+  - type: MindShield
+  - type: GhostRole
+    name: "Найманець"
+    description: "Ви найманець, слідуйте кодексу найманців, що зазвичай знаходиться на вашому шатлі."
+  - type: GhostTakeoverAvailable
+  - type: Loadout
+    prototypes: [ MercGear ]
+  - type: InitialInfectedExempt
