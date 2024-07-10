@@ -4,3 +4,11 @@ door-remote-switch-state-toggle-emergency-access = Ви перемикаєте �
 door-remote-no-power = Двері без живлення
 door-remote-denied = У доступі відмовлено
 
+
+door-remote-open-close-text = Відчиняє та зачиняє двері
+door-remote-toggle-bolt-text = Перемикачі Болти
+door-remote-emergency-access-text = Вмикає аварійний доступ
+door-remote-invalid-text = Недійсний
+door-remote-mode-label = Режим: [color=white]{$modeString}[/color]
+
+## Сутність
