@@ -50,6 +50,12 @@ public sealed class MakeAMercSystem : EntitySystem
         if (!_map.TryLoad(shuttleMap, MapPath, out var grids, options))
             return;
 
+        var shuttleMapId = _mapManager.GetMapEntityId(shuttleMap);
+        var shuttleMapComponent = EnsureComp<FTLDestinationComponent>(shuttleMapId);
+        shuttleMapComponent.Enabled = true;
+        // shuttleMapComponent.RequireCoordinateDisk = true;
+        _entManager.Dirty(shuttleMapId, shuttleMapComponent);
+
         var shuttle = grids.FirstOrNull();
         if (shuttle == null)
             return;
