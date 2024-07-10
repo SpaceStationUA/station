@@ -85,7 +85,7 @@ chat-speech-verb-robotic-1 = держави
 chat-speech-verb-robotic-2 = гудки
 
 chat-speech-verb-reptilian-1 = шипіння
-chat-speech-verb-reptilian-2 = фыркає
+chat-speech-verb-reptilian-2 = фиркає
 chat-speech-verb-reptilian-3 = злість
 
 chat-speech-verb-skeleton-1 = гримить
