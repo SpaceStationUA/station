@@ -1,11 +1,11 @@
 using Content.Server.Magic;
-using Content.Server.Pulling;
 using Content.Shared._Pirate.Mage.Components;
 using Content.Shared._Pirate.Mage.Events;
 using Content.Shared.Actions;
 using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
-using Content.Shared.Pulling.Components;
+using Content.Shared.Movement.Pulling.Components;
+using Content.Shared.Movement.Pulling.Systems;
 using Content.Shared.Storage.Components;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
@@ -55,8 +55,8 @@ public sealed class MageDashSystem : EntitySystem
         if (!_mana.TryUseAbility(args.Performer, comp, args.ManaCost))
             return;
 
-        SharedPullableComponent? pullable = null; // To avoid "might not be initialized when accessed" warning
-        if (_entity.TryGetComponent<SharedPullerComponent>(args.Performer, out var puller) &&
+        PullableComponent? pullable = null; // To avoid "might not be initialized when accessed" warning
+        if (_entity.TryGetComponent<PullerComponent>(args.Performer, out var puller) &&
             puller.Pulling != null &&
             _entity.TryGetComponent(puller.Pulling, out pullable) &&
             pullable.BeingPulled)
@@ -64,7 +64,13 @@ public sealed class MageDashSystem : EntitySystem
             // Temporarily stop pulling to avoid not teleporting fully to the target
         {
             if (puller.Pulling != null)
-                _pulling.TryStopPull(pullable, args.Performer);
+            {
+                // Assuming you have the PullableComponent from earlier checks or retrieval
+                if (_entity.TryGetComponent(puller.Pulling.Value, out PullableComponent? pullableComponent))
+                {
+                    _pulling.TryStopPull(puller.Pulling.Value, pullableComponent, args.Performer);
+                }
+            }
         }
 
         // Teleport the performer to the target

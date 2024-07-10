@@ -1,6 +1,5 @@
 using System.Threading.Tasks;
 using Content.Server.Magic;
-using Content.Server.Pulling;
 using Content.Shared._Pirate.Mage.Components;
 using Content.Shared._Pirate.Mage.Events;
 using Content.Shared.Actions;
@@ -8,6 +7,7 @@ using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Eye.Blinding.Components;
 using Content.Shared.Eye.Blinding.Systems;
+using Content.Shared.Movement.Pulling.Systems;
 using Content.Shared.Storage.Components;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;

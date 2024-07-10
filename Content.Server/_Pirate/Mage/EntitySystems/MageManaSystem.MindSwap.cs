@@ -1,6 +1,6 @@
 using Content.Server.Magic;
 using Content.Server.Mind;
-using Content.Server.Pulling;
+using Content.Shared.Movement.Pulling.Systems;
 using Content.Shared._Pirate.Mage.Components;
 using Content.Shared._Pirate.Mage.Events;
 using Content.Shared.Actions;

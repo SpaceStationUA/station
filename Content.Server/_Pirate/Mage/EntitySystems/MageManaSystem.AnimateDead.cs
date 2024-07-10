@@ -1,7 +1,6 @@
 using Content.Server.Body.Systems;
 using Content.Server.Magic;
 using Content.Server.NPC.Systems;
-using Content.Server.Pulling;
 using Content.Shared._Pirate.Mage.Components;
 using Content.Shared._Pirate.Mage.Events;
 using Content.Shared.Actions;
@@ -10,6 +9,7 @@ using Content.Shared.Cuffs.Components;
 using Content.Shared.Damage.Systems;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
+using Content.Shared.Movement.Pulling.Systems;
 using Content.Shared.Storage.Components;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;

@@ -1,5 +1,5 @@
 using Content.Server.Magic;
-using Content.Server.Pulling;
+using Content.Shared.Movement.Pulling.Systems;
 using Content.Server.Weapons.Ranged.Systems;
 using Content.Shared._Pirate.Mage.Components;
 using Content.Shared._Pirate.Mage.Events;
