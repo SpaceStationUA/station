@@ -1,7 +1,7 @@
 # The empress console
 - type: entity
   id: EmpressMothershipComputer
-  name: Empress mothership console
+  name: "Консоль материнського корабля \"Імператриця"
   parent: BaseMothershipComputer
   components:
   - type: Sprite
@@ -24,7 +24,7 @@
 # The mccargo console
 - type: entity
   id: McCargoMothershipComputer
-  name: McCargo delivery ship console
+  name: "Консоль вантажного судна доставки McCargo"
   parent: BaseMothershipComputer
   components:
   - type: ShipyardListing
@@ -34,7 +34,7 @@
 # The caduceus console
 - type: entity
   id: CaduceusMothershipComputer
-  name: Caduceus mothership console
+  name: "Консоль материнського корабля Caduceus"
   parent: BaseMothershipComputer
   components:
   - type: Sprite
@@ -56,7 +56,7 @@
 # The GASBENDA-A-A-AH (sick metal guitar riff) console
 - type: entity
   id: GasbenderMothershipComputer
-  name: Gasbender mothership ship console
+  name: "Корабельна консоль материнського корабля Gasbender"
   parent: BaseMothershipComputer
   components:
   - type: ShipyardListing
@@ -68,7 +68,7 @@
 # The crescent console
 - type: entity
   id: CrescentMothershipComputer
-  name: Crescent mothership console
+  name: "Консоль материнського корабля \"Півмісяць"
   parent: BaseMothershipComputer
   components:
   - type: ShipyardListing

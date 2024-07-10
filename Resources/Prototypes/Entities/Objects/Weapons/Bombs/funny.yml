@@ -1,6 +1,6 @@
 - type: entity
-  name: hot potato
-  description: Once activated, you can't drop this time bomb - hit someone else with it to save yourself! Don't burn your hands!
+  name: "гаряча картопля"
+  description: "Після активації ви не зможете скинути цю бомбу уповільненої дії - вдарте нею когось іншого, щоб врятуватися! Не обпечіть руки!"
   parent: BaseItem
   id: HotPotato
   components:
@@ -69,7 +69,7 @@
   - type: AnimationPlayer
 
 - type: entity
-  name: banana peel
+  name: "бананова шкірка"
   suffix: Explosive
   parent: TrashBananaPeel
   id: TrashBananaPeelExplosive
@@ -105,9 +105,9 @@
 - type: entity
   parent: BaseItem
   id: TrashBananaPeelExplosiveUnarmed
-  name: banana
+  name: "банан"
   suffix: Unarmed
-  description: There's something unusual about this banana.
+  description: "У цьому банані є щось незвичайне."
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
