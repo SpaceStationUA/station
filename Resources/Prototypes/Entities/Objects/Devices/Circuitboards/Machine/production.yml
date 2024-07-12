@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: AutolatheMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата токарного верстата"
-  description: "Друкована плата для токарного верстата"
+  name: autolathe machine board
+  description: A machine printed circuit board for an autolathe
   components:
     - type: MachineBoard
       prototype: Autolathe
@@ -15,8 +15,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AutolatheHyperConvectionMachineCircuitboard
-  name: "гіперконвекційна плата для автоклавного верстата"
-  description: "Друкована плата для гіперконвекційного автоклава"
+  name: hyper convection autolathe machine board
+  description: A machine printed circuit board for a hyper convection autolathe
   components:
   - type: MachineBoard
     prototype: AutolatheHyperConvection
@@ -33,8 +33,8 @@
 - type: entity
   id: ProtolatheMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "протолатайте плату верстата"
-  description: "Машинна друкована плата для протолата."
+  name: protolathe machine board
+  description: A machine printed circuit board for a protolathe.
   components:
     - type: MachineBoard
       prototype: Protolathe
@@ -50,8 +50,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: ProtolatheHyperConvectionMachineCircuitboard
-  name: "гіперконвекційний протолат плата верстата"
-  description: "Машинна друкована плата для гіперконвекційного протолата."
+  name: hyper convection protolathe machine board
+  description: A machine printed circuit board for a hyper convection protolathe.
   components:
   - type: MachineBoard
     prototype: ProtolatheHyperConvection
@@ -70,8 +70,8 @@
 - type: entity
   id: BiofabricatorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини біофабрикатора"
-  description: "Машинна друкована плата для біофабрикатора."
+  name: biofabricator machine board
+  description: A machine printed circuit board for a biofabricator.
   components:
     - type: MachineBoard
       prototype: Biofabricator
@@ -83,8 +83,8 @@
 - type: entity
   id: SecurityTechFabCircuitboard
   parent: BaseMachineCircuitboard
-  name: "безпека techfab машинна плата"
-  description: "Машинна друкована плата для технологічного центру безпеки."
+  name: security techfab machine board
+  description: A machine printed circuit board for a security techfab.
   components:
     - type: Sprite
       state: security
@@ -102,8 +102,8 @@
 - type: entity
   id: AmmoTechFabCircuitboard
   parent: BaseMachineCircuitboard
-  name: "друкована плата ammo techfab"
-  description: "Машинна друкована плата для технологічного цеху з виробництва боєприпасів"
+  name: ammo techfab circuit board
+  description: A machine printed circuit board for an ammo techfab
   components:
     - type: Sprite
       state: security
@@ -116,8 +116,8 @@
 - type: entity
   id: MedicalTechFabCircuitboard
   parent: BaseMachineCircuitboard
-  name: "медичний техфаб верстатна плата"
-  description: "Машинна друкована плата для медичної лабораторії."
+  name: medical techfab machine board
+  description: A machine printed circuit board for a medical techfab.
   components:
     - type: Sprite
       state: medical
@@ -137,7 +137,7 @@
 - type: entity
   id: CircuitImprinterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "друкарська плата для імпринтера мікросхем"
+  name: circuit imprinter machine board
   components:
   - type: Sprite
     state: science
@@ -159,7 +159,7 @@
 - type: entity
   id: ExosuitFabricatorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата верстата для виготовлення екзокостюмів"
+  name: exosuit fabricator machine board
   components:
   - type: Sprite
     state: science
@@ -182,8 +182,8 @@
 - type: entity
   id: ResearchAndDevelopmentServerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "R&D серверна машинна плата"
-  description: "Машинна друкована плата для R&D сервера."
+  name: R&D server machine board
+  description: A machine printed circuit board for the R&D server.
   components:
   - type: Sprite
     state: science
@@ -195,7 +195,7 @@
 - type: entity
   id: UniformPrinterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "уніфікована плата друкарської машини"
+  name: uniform printer machine board
   components:
   - type: MachineBoard
     prototype: UniformPrinter
@@ -210,7 +210,7 @@
 - type: entity
   id: VaccinatorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини для вакцинації"
+  name: vaccinator machine board
   components:
   - type: Sprite
     state: medical
@@ -234,7 +234,7 @@
 - type: entity
   id: DiagnoserMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата діагностичної машини"
+  name: diagnoser machine board
   components:
   - type: Sprite
     state: medical
@@ -260,8 +260,8 @@
 - type: entity
   id: ArtifactAnalyzerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "машинна плата аналізатора артефактів"
-  description: "Машинна друкована плата для аналізатора артефактів."
+  name: artifact analyzer machine board
+  description: A machine printed circuit board for an artifact analyzer.
   components:
     - type: Sprite
       state: science
@@ -280,8 +280,8 @@
 - type: entity
   id: TraversalDistorterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "траверсний дисторсійний щит верстата"
-  description: "Машинна друкована плата для траверсного дисторсера."
+  name: traversal distorter machine board
+  description: A machine printed circuit board for a traversal distorter.
   components:
     - type: Sprite
       state: science
@@ -301,8 +301,8 @@
 - type: entity
   id: ArtifactCrusherMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата дробарки для артефактів"
-  description: "Друкована плата машини для дробарки артефактів."
+  name: artifact crusher machine board
+  description: A machine printed circuit board for an artifact crusher.
   components:
   - type: Sprite
     state: science
@@ -317,8 +317,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AnomalyVesselCircuitboard
-  name: "машинна плата аномального судна"
-  description: "Машинна друкована плата для аномального судна."
+  name: anomaly vessel machine board
+  description: A machine printed circuit board for an anomaly vessel.
   components:
     - type: Sprite
       state: science
@@ -337,8 +337,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AnomalyVesselExperimentalCircuitboard
-  name: "машинна плата експериментального аномального судна"
-  description: "Машинна друкована плата для експериментального аномального судна."
+  name: experimental anomaly vessel machine board
+  description: A machine printed circuit board for an experimental anomaly vessel.
   components:
   - type: Sprite
     state: science
@@ -354,8 +354,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AnomalySynchronizerCircuitboard
-  name: "плата машинного синхронізатора аномалії"
-  description: "Машинна друкована плата для синхронізатора аномалій."
+  name: anomaly synchronizer machine board
+  description: A machine printed circuit board for an anomaly synchronizer.
   components:
     - type: Sprite
       state: science
@@ -371,8 +371,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: APECircuitboard
-  name: "Плата машини A.P.E"
-  description: "Машинна друкована плата для A.P.E."
+  name: A.P.E. machine board
+  description: A machine printed circuit board for an A.P.E.
   components:
     - type: Sprite
       state: science
@@ -391,8 +391,8 @@
 - type: entity
   id: ThermomachineFreezerMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: "морозильна камера термомашина машинна плата"
-  description: "Схоже, що для зміни типу плати можна скористатися викруткою."
+  name: freezer thermomachine machine board
+  description: Looks like you could use a screwdriver to change the board type.
   components:
   - type: Sprite
     state: engineering
@@ -415,8 +415,8 @@
 - type: entity
   id: ThermomachineHeaterMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: "нагрівач термомашини машинна плата"
-  description: "Схоже, що для зміни типу плати можна скористатися викруткою."
+  name: heater thermomachine machine board
+  description: Looks like you could use a screwdriver to change the board type.
   components:
   - type: Sprite
     state: engineering
@@ -435,8 +435,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: HellfireFreezerMachineCircuitBoard
-  name: "плата морозильної машини hellfire"
-  description: "Схоже, що для зміни типу плати можна скористатися викруткою."
+  name: hellfire freezer machine board
+  description: Looks like you could use a screwdriver to change the board type.
   components:
   - type: Sprite
     state: engineering
@@ -455,8 +455,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: HellfireHeaterMachineCircuitBoard
-  name: "машинна плата нагрівача пекельного вогню"
-  description: "Схоже, що для зміни типу плати можна скористатися викруткою."
+  name: hellfire heater machine board
+  description: Looks like you could use a screwdriver to change the board type.
   components:
   - type: Sprite
     state: engineering
@@ -475,8 +475,8 @@
 - type: entity
   id: CondenserMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: "плата конденсаторної машини"
-  description: "Машинна друкована плата для конденсатора."
+  name: condenser machine board
+  description: A machine printed circuit board for a condenser.
   components:
   - type: Sprite
     state: engineering
@@ -490,8 +490,8 @@
 - type: entity
   id: PortableScrubberMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: "плата портативної підлогомийної машини"
-  description: "Машинна друкована плата для портативного пилососа."
+  name: portable scrubber machine board
+  description: A machine printed circuit board for a portable scrubber.
   components:
   - type: Sprite
     state: engineering
@@ -510,8 +510,8 @@
 - type: entity
   id: SpaceHeaterMachineCircuitBoard
   parent: BaseMachineCircuitboard
-  name: "машинна плата обігрівача"
-  description: "Машинна друкована плата для обігрівача."
+  name: space heater machine board
+  description: A machine printed circuit board for a space heater.
   components:
   - type: Sprite
     state: engineering
@@ -526,8 +526,8 @@
 - type: entity
   id: CloningPodMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини для клонування стручка"
-  description: "Машинна друкована плата для капсули для клонування."
+  name: cloning pod machine board
+  description: A machine printed circuit board for a cloning pod.
   components:
     - type: Sprite
       state: medical
@@ -547,8 +547,8 @@
 - type: entity
   id: MedicalScannerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата медичного сканера"
-  description: "Машинна друкована плата для медичного сканера."
+  name: medical scanner machine board
+  description: A machine printed circuit board for a medical scanner.
   components:
     - type: Sprite
       state: medical
@@ -567,8 +567,8 @@
 - type: entity
   id: CrewMonitoringServerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "екіпаж моніторить машинну плату сервера"
-  description: "Машинна друкована плата для сервера моніторингу екіпажу."
+  name: crew monitoring server machine board
+  description: A machine printed circuit board for a crew monitoring server.
   components:
     - type: MachineBoard
       prototype: CrewMonitoringServer
@@ -579,8 +579,8 @@
 - type: entity
   id: CryoPodMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини для кріопідів"
-  description: "Машинна друкована плата для кріоподу."
+  name: cryo pod machine board
+  description: A machine printed circuit board for a cryo pod.
   components:
     - type: Sprite
       state: medical
@@ -597,8 +597,8 @@
 - type: entity
   id: ChemMasterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "Машинна плата ChemMaster 4000"
-  description: "Машинна друкована плата для ChemMaster 4000."
+  name: ChemMaster 4000 machine board
+  description: A machine printed circuit board for a ChemMaster 4000.
   components:
     - type: Sprite
       state: medical
@@ -622,8 +622,8 @@
 - type: entity
   id: ChemDispenserMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини для дозатора хімреагентів"
-  description: "Машинна друкована плата для дозатора хімікатів."
+  name: chem dispenser machine board
+  description: A machine printed circuit board for a chem dispenser.
   components:
     - type: Sprite
       state: medical
@@ -647,8 +647,8 @@
 - type: entity
   id: BiomassReclaimerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини для рекуперації біомаси"
-  description: "Друкована плата машини для рекуператора біомаси."
+  name: biomass reclaimer machine board
+  description: A machine printed circuit board for a biomass reclaimer.
   components:
     - type: MachineBoard
       prototype: BiomassReclaimer
@@ -670,8 +670,8 @@
 - type: entity
   id: HydroponicsTrayMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "лоток для гідропоніки машинна плата"
-  description: "Машинна друкована плата для гідропонного лотка."
+  name: hydroponics tray machine board
+  description: A machine printed circuit board for a hydroponics tray.
   components:
     - type: Sprite
       state: service
@@ -694,8 +694,8 @@
 - type: entity
   id: SeedExtractorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини для витяжки насіння"
-  description: "Друкована плата для машинного екстрактора насіння."
+  name: seed extractor machine board
+  description: A machine printed circuit board for a seed extractor.
   components:
     - type: Sprite
       state: service
@@ -716,8 +716,8 @@
 - type: entity
   id: SMESMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "Машинна плата для SMES"
-  description: "Машинна друкована плата для надпровідного магнітного накопичувача енергії ."
+  name: SMES machine board
+  description: A machine printed circuit board for a SMES.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -736,8 +736,8 @@
 - type: entity
   id: CellRechargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини для підзарядки мобільних телефонів"
-  description: "Машинна друкована плата для зарядного пристрою."
+  name: cell recharger machine board
+  description: A machine printed circuit board for a cell recharger.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -758,8 +758,8 @@
 - type: entity
   id: PowerCageRechargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини для перезарядки клітки"
-  description: "Машинна друкована плата для зарядного пристрою для енергетичної клітки."
+  name: cage recharger machine board
+  description: A machine printed circuit board for a energy cage recharger.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -781,8 +781,8 @@
 - type: entity
   id: BorgChargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: "машинна плата станції підзарядки кіборгів"
-  description: "Машинна друкована плата для станції підзарядки робота."
+  name: cyborg recharging station machine board
+  description: A machine printed circuit board for a robot recharging station.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -803,8 +803,8 @@
 - type: entity
   id: WeaponCapacitorRechargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата зарядної машини"
-  description: "Машинна друкована плата для зарядного пристрою."
+  name: recharger machine board
+  description: A machine printed circuit board for a recharger.
   components:
     - type: Sprite
       sprite: Objects/Misc/module.rsi
@@ -825,8 +825,8 @@
 - type: entity
   id: TurboItemRechargerCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата турбозарядної машини"
-  description: "Машинна друкована плата для турбопідзарядного пристрою."
+  name: turbo recharger machine board
+  description: A machine printed circuit board for a turbo recharger.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -845,8 +845,8 @@
 - type: entity
   id: SubstationMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "машинний щит підстанції"
-  description: "Машинна друкована плата для підстанції."
+  name: substation machine board
+  description: A machine printed circuit board for a substation.
   components:
     - type: MachineBoard
       prototype: SubstationBasicEmpty
@@ -870,7 +870,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: DawInstrumentMachineCircuitboard
-  name: "машинна плата цифрової аудіо робочої станції"
+  name: digital audio workstation machine board
   components:
     - type: MachineBoard
       prototype: DawInstrument
@@ -907,7 +907,7 @@
 - type: entity
   id: PortableGeneratorPacmanMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "Машинна плата портативного генератора типу P.A.C.M.A.N"
+  name: P.A.C.M.A.N.-type portable generator machine board
   components:
     - type: Sprite
       state: engineering
@@ -932,7 +932,7 @@
 - type: entity
   id: ThrusterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата рушійної машини"
+  name: thruster machine board
   components:
   - type: MachineBoard
     prototype: Thruster
@@ -944,7 +944,7 @@
 - type: entity
   id: GyroscopeMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата гіроскопічної машини"
+  name: gyroscope machine board
   components:
   - type: MachineBoard
     prototype: Gyroscope
@@ -957,7 +957,7 @@
 - type: entity
   id: PortableGeneratorSuperPacmanMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "Плата портативного генератора типу S.U.P.E.R.P.A.C.M.A.N"
+  name: S.U.P.E.R.P.A.C.M.A.N.-type portable generator machine board
   components:
     - type: Sprite
       state: engineering
@@ -982,7 +982,7 @@
 - type: entity
   id: PortableGeneratorJrPacmanMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "Плата для портативного генератора типу J.R.P.A.C.M.A.N"
+  name: J.R.P.A.C.M.A.N.-type portable generator machine board
   components:
     - type: Sprite
       state: engineering
@@ -1003,8 +1003,8 @@
 - type: entity
   id: ReagentGrinderMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини для подрібнення реагентів"
-  description: "Машинна друкована плата для подрібнювача реактивів."
+  name: reagent grinder machine board
+  description: A machine printed circuit board for a reagent grinder.
   components:
     - type: MachineBoard
       prototype: KitchenReagentGrinder
@@ -1024,8 +1024,8 @@
 - type: entity
   id: HotplateMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата конфорки машини"
-  description: "Машинна друкована плата для електроплитки."
+  name: hotplate machine board
+  description: A machine printed circuit board for a hotplate.
   components:
     - type: MachineBoard
       prototype: ChemistryHotplate
@@ -1041,8 +1041,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: ElectricGrillMachineCircuitboard
-  name: "плата електричної гриль-машини"
-  description: "Машинна друкована плата для електричного гриля."
+  name: electric grill machine board
+  description: A machine printed circuit board for an electric grill.
   components:
   - type: MachineBoard
     prototype: KitchenElectricGrill
@@ -1055,7 +1055,7 @@
 - type: entity
   id: StasisBedMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "стаціонарне ліжко машинна плата"
+  name: stasis bed machine board
   components:
     - type: Sprite
       state: medical
@@ -1075,8 +1075,8 @@
 - type: entity
   id: ElectrolysisUnitMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "машинна плата електролізера"
-  description: "Машинна друкована плата для електролізної установки."
+  name: electrolysis unit machine board
+  description: A machine printed circuit board for an electrolysis unit.
   components:
   - type: Sprite
     state: medical
@@ -1090,8 +1090,8 @@
 - type: entity
   id: CentrifugeMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата центрифуги"
-  description: "Машинна друкована плата для центрифуги."
+  name: centrifuge machine board
+  description: A machine printed circuit board for a centrifuge.
   components:
   - type: Sprite
     state: medical
@@ -1105,7 +1105,7 @@
 - type: entity
   id: MaterialReclaimerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини для ресайклінгу матеріалів"
+  name: material reclaimer machine board
   components:
     - type: Sprite
       state: supply
@@ -1120,7 +1120,7 @@
 - type: entity
   id: OreProcessorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата рудозбагачувальної машини"
+  name: ore processor machine board
   components:
     - type: Sprite
       state: supply
@@ -1138,7 +1138,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: OreProcessorIndustrialMachineCircuitboard
-  name: "плата промислової рудозбагачувальної машини"
+  name: industrial ore processor machine board
   components:
   - type: Sprite
     state: supply
@@ -1153,7 +1153,7 @@
 - type: entity
   id: SheetifierMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "верстатна плата sheet-meister 2000"
+  name: sheet-meister 2000 machine board
   components:
   - type: MachineBoard
     prototype: Sheetifier
@@ -1164,7 +1164,7 @@
 - type: entity
   id: MicrowaveMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата мікрохвильової печі"
+  name: microwave machine board
   components:
     - type: Sprite
       state: service
@@ -1182,7 +1182,7 @@
 - type: entity
   id: FatExtractorMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини для екстракції ліпідів"
+  name: lipid extractor machine board
   components:
     - type: Sprite
       state: service
@@ -1199,7 +1199,7 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: FlatpackerMachineCircuitboard
-  name: "Пакувальна платаFlatpacker 1001"
+  name: Flatpacker 1001 machine board
   components:
   - type: MachineBoard
     prototype: MachineFlatpacker
@@ -1212,7 +1212,7 @@
 - type: entity
   id: EmitterCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата емітерної машини"
+  name: emitter machine board
   components:
     - type: Sprite
       state: engineering
@@ -1231,8 +1231,8 @@
 - type: entity
   id: SurveillanceCameraRouterCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата маршрутизатора камери спостереження"
-  description: "Машинна друкована плата для маршрутизатора камер спостереження."
+  name: surveillance camera router board
+  description: A machine printed circuit board for a surveillance camera router.
   components:
     - type: MachineBoard
       prototype: SurveillanceCameraRouterConstructed
@@ -1246,8 +1246,8 @@
 - type: entity
   id: SurveillanceCameraWirelessRouterCircuitboard
   parent: BaseMachineCircuitboard
-  name: "камера спостереження бездротова плата маршрутизатора"
-  description: "Машинна друкована плата для бездротового маршрутизатора камери спостереження."
+  name: surveillance camera wireless router board
+  description: A machine printed circuit board for a surveillance camera wireless router.
   components:
     - type: MachineBoard
       prototype: SurveillanceCameraWirelessRouterConstructed
@@ -1262,8 +1262,8 @@
 - type: entity
   id: SurveillanceWirelessCameraMovableCircuitboard
   parent: BaseMachineCircuitboard
-  name: "рухома плата бездротової камери"
-  description: "Машинна друкована плата для рухомої бездротової камери."
+  name: movable wireless camera board
+  description: A machine printed circuit board for a movable wireless camera.
   components:
     - type: MachineBoard
       prototype: SurveillanceWirelessCameraMovableConstructed
@@ -1278,8 +1278,8 @@
 - type: entity
   id: SurveillanceWirelessCameraAnchoredCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата бездротової камери"
-  description: "Машинна друкована плата для бездротової камери."
+  name: wireless camera board
+  description: A machine printed circuit board for a wireless camera.
   components:
     - type: MachineBoard
       prototype: SurveillanceWirelessCameraAnchoredConstructed
@@ -1294,8 +1294,8 @@
 - type: entity
   id: GasRecyclerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата рециркуляції газу"
-  description: "Друкована плата для утилізатора газу."
+  name: gas recycler board
+  description: A printed circuit board for a gas recycler.
   components:
   - type: MachineBoard
     prototype: GasRecycler
@@ -1313,8 +1313,8 @@
 - type: entity
   id: BoozeDispenserMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата машини для розливу напоїв"
-  description: "Машинна друкована плата для диспенсера для напоїв."
+  name: booze dispenser machine board
+  description: A machine printed circuit board for a booze dispenser.
   components:
     - type: Sprite
       state: service
@@ -1334,8 +1334,8 @@
 - type: entity
   id: CargoTelepadMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата вантажної телетайпної машини"
-  description: "Машинна друкована плата для вантажного телепаду."
+  name: cargo telepad machine board
+  description: A machine printed circuit board for a cargo telepad.
   components:
     - type: Sprite
       state: supply
@@ -1350,8 +1350,8 @@
 - type: entity
   id: SodaDispenserMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата дозатора содової машини"
-  description: "Машинна друкована плата для дозатора газованої води."
+  name: soda dispenser machine board
+  description: A machine printed circuit board for a soda dispenser.
   components:
     - type: Sprite
       state: service
@@ -1371,8 +1371,8 @@
 - type: entity
   id: TelecomServerCircuitboard
   parent: BaseMachineCircuitboard
-  name: "машинна плата телекомунікаційного сервера"
-  description: "Машинна друкована плата для телекомунікаційного сервера."
+  name: telecommunication server machine board
+  description: A machine printed circuit board for an telecommunication server.
   components:
     - type: MachineBoard
       prototype: TelecomServer
@@ -1386,8 +1386,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: SalvageMagnetMachineCircuitboard
-  name: "плата машини з утилізованого магніту"
-  description: "Машинна друкована плата для рятувального магніту."
+  name: salvage magnet machine board
+  description: A machine printed circuit board for a salvage magnet.
   components:
   - type: MachineBoard
     prototype: SalvageMagnet
@@ -1404,8 +1404,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: MiniGravityGeneratorCircuitboard
-  name: "плата міні-гравітаційного генератора"
-  description: "Машинна друкована плата для міні-гравітаційного генератора."
+  name: mini gravity generator machine board
+  description: A machine printed circuit board for a mini gravity generator.
   components:
   - type: MachineBoard
     prototype: GravityGeneratorMini
@@ -1420,8 +1420,8 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGunCircuitboard
   parent: BaseMachineCircuitboard
-  name: "Станок LSE-400c \"Свалінський кулемет"
-  description: "Машинна друкована плата для кулемета LSE-400c \"Свалінн\""
+  name: LSE-400c "Svalinn machine gun" machine board
+  description: A machine printed circuit board for an LSE-400c "Svalinn machine gun"
   components:
   - type: Sprite
     state: security
@@ -1437,8 +1437,8 @@
 - type: entity
   id: ShuttleGunPerforatorCircuitboard
   parent: BaseMachineCircuitboard
-  name: "Плата верстата LSE-1200c \"Перфоратор"
-  description: "Друкована плата для верстата LSE-1200c \"Перфоратор\""
+  name: LSE-1200c "Perforator" machine board
+  description: A machine printed circuit board for an LSE-1200c "Perforator"
   components:
   - type: Sprite
     state: security
@@ -1454,8 +1454,8 @@
 - type: entity
   id: ShuttleGunFriendshipCircuitboard
   parent: BaseMachineCircuitboard
-  name: "EXP-320g \"Дружба\" машинна плата"
-  description: "Машинна друкована плата для ЕКСП-320г \"Дружба\""
+  name: EXP-320g "Friendship" machine board
+  description: A machine printed circuit board for an EXP-320g "Friendship"
   components:
   - type: Sprite
     state: security
@@ -1471,8 +1471,8 @@
 - type: entity
   id: ShuttleGunDusterCircuitboard
   parent: BaseMachineCircuitboard
-  name: "EXP-2100g Плата верстата \"Duster"
-  description: "Друкована плата для машини EXP-2100g \"Duster\""
+  name: EXP-2100g "Duster" machine board
+  description: A machine printed circuit board for an EXP-2100g "Duster"
   components:
   - type: Sprite
     state: security
@@ -1489,8 +1489,8 @@
 - type: entity
   id: ShuttleGunKineticCircuitboard
   parent: BaseMachineCircuitboard
-  name: "Плата машини PTK-800 \"Дематеріалізатор матерії"
-  description: "Машинна друкована плата для \"Дематеріалізатора матерії\" PTK-800"
+  name: PTK-800 "Matter Dematerializer" machine board
+  description: A machine printed circuit board for an PTK-800 "Matter Dematerializer"
   components:
   - type: Sprite
     state: security

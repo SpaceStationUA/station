@@ -1,6 +1,6 @@
 # Clutter
 - type: entity
-  name: "випадковий безлад"
+  name: random clutter
   id: SpawnDungeonLootClutterEngi
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Engineering"
@@ -33,7 +33,7 @@
 
 # Engineering Tools
 - type: entity
-  name: "довільний інструмент"
+  name: random tool
   id: SpawnDungeonLootToolsBasicEngineering
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Engineering"
@@ -75,7 +75,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "довільний інструмент"
+  name: random tool
   id: SpawnDungeonLootToolsAdvancedEngineering
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Chief Engineer"
@@ -106,7 +106,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадковий набір інструментів"
+  name: random toolbox
   id: SpawnDungeonLootToolbox
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -137,7 +137,7 @@
 
 # Clothes
 - type: entity
-  name: "випадковий одяг"
+  name: random clothes
   id: SpawnDungeonLootClothesEngi
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Engineering"
@@ -168,7 +168,7 @@
 
 # Furniture/Lockers
 - type: entity
-  name: "випадкова шафка"
+  name: random locker
   id: SpawnDungeonLootLockersEngi
   parent: MarkerBase
   suffix: "Dungeon, Engineering"
@@ -206,7 +206,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадковий контейнер для зберігання костюмів"
+  name: random suit storage unit
   id: SpawnDungeonLootSuitStorageUnitsEngi
   parent: MarkerBase
   suffix: "Dungeon, Engineering"
@@ -237,7 +237,7 @@
 
 # Machines
 - type: entity
-  name: "випадковий машинний техфаб"
+  name: random machine techfab
   id: SpawnDungeonLootLatheEngi
   parent: MarkerBase
   suffix: "Dungeon, Engineering"
@@ -272,7 +272,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадкові вендомати"
+  name: random vendomats
   id: SpawnDungeonVendomatsEngi
   parent: MarkerBase
   suffix: "Dungeon, Engineering"
@@ -302,7 +302,7 @@
 
 # Other
 - type: entity
-  name: "випадкові частини"
+  name: random parts
   id: SpawnDungeonLootPartsEngi
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -350,7 +350,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: "випадковий елемент живлення"
+  name: random power cell
   id: SpawnDungeonLootPowerCell
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -377,7 +377,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадкова плата машини"
+  name: random machine board
   id: SpawnDungeonLootCircuitBoardEngi
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Engineering"
