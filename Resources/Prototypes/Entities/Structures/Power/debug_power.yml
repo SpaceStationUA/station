@@ -13,7 +13,7 @@
 
 - type: entity
   id: DebugConsumer
-  name: "споживач"
+  name: consumer
   suffix: DEBUG
   placement:
     mode: SnapgridCenter
@@ -58,7 +58,7 @@
 
 - type: entity
   id: DebugBatteryStorage
-  name: "акумуляторна батарея"
+  name: battery storage
   suffix: DEBUG
   placement:
     mode: SnapgridCenter
@@ -91,7 +91,7 @@
 
 - type: entity
   id: DebugBatteryDischarger
-  name: "зарядний пристрій для акумулятора"
+  name: battery discharger
   suffix: DEBUG
   placement:
     mode: SnapgridCenter
@@ -153,7 +153,7 @@
 
 - type: entity
   id: DebugPowerReceiver
-  name: "приймач живлення"
+  name: power receiver
   suffix: DEBUG
   placement:
     mode: SnapgridCenter

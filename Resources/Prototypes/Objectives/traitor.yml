@@ -39,8 +39,8 @@
   noSpawn: true
   parent: [BaseTraitorObjective, BaseLivingObjective]
   id: EscapeShuttleObjective
-  name: "Втекти до центру живим і неушкодженим."
-  description: "Один з наших агентів під прикриттям проінформує вас, коли ви прибудете. Не з'являйтеся в наручниках."
+  name: Escape to centcom alive and unrestrained.
+  description: One of our undercover agents will debrief you when you arrive. Don't show up in cuffs.
   components:
   - type: Objective
     difficulty: 1.3
@@ -88,7 +88,7 @@
   noSpawn: true
   parent: [BaseTraitorObjective, BaseKillObjective]
   id: KillRandomPersonObjective
-  description: "Робіть, що хочете, тільки переконайтеся, що вони не потраплять до центрального офісу."
+  description: Do it however you like, just make sure they don't make it to centcom.
   components:
   - type: Objective
     difficulty: 1.75
@@ -101,7 +101,7 @@
   noSpawn: true
   parent: [BaseTraitorObjective, BaseKillObjective]
   id: KillRandomHeadObjective
-  description: "Нам потрібно, щоб ця голова зникла, і ви, мабуть, знаєте чому. Удачі, агенте."
+  description: We need this head gone and you probably know why. Good luck, agent.
   components:
   - type: Objective
     # technically its still possible for KillRandomPersonObjective to roll a head but this is guaranteed, so higher difficulty
@@ -122,7 +122,7 @@
   noSpawn: true
   parent: [BaseTraitorSocialObjective, BaseKeepAliveObjective]
   id: RandomTraitorAliveObjective
-  description: "Називайте себе на свій страх і ризик. Вони потрібні нам живими."
+  description: Identify yourself at your own risk. We just need them alive.
   components:
   - type: Objective
     difficulty: 1.75
@@ -134,7 +134,7 @@
   noSpawn: true
   parent: [BaseTraitorSocialObjective, BaseHelpProgressObjective]
   id: RandomTraitorProgressObjective
-  description: "Ідентифікуйте себе на свій страх і ризик. Ми просто хочемо, щоб вони досягли успіху."
+  description: Identify yourself at your own risk. We just need them to succeed.
   components:
   - type: Objective
     difficulty: 2.5

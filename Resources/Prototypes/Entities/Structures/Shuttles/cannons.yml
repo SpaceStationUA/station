@@ -1,6 +1,6 @@
 - type: entity
   id: ShuttleGunBase
-  name: "гівняний пістолет"
+  name: shittle gun
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -57,8 +57,8 @@
 - type: entity
   id: ShuttleGunSvalinnMachineGun
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: "LSE-400c \"Свалінський кулемет\""
-  description: "Базова стаціонарна лазерна установка. Ефективний проти живих цілей та електроніки. Використовує для стрільби звичайні елементи живлення і має надзвичайно високу скорострільність"
+  name: LSE-400c "Svalinn machine gun"
+  description: Basic stationary laser unit. Effective against live targets and electronics. Uses regular power cells to fire, and has an extremely high rate of fire
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shuttles/laser.rsi
@@ -110,8 +110,8 @@
 - type: entity
   id: ShuttleGunPerforator
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: "LSE-1200c \"Перфоратор\""
-  description: "Вдосконалений стаціонарний лазерний апарат. Знищує електроніку та надзвичайно небезпечний для здоров'я! Використовує силову клітку для стрільби."
+  name: LSE-1200c "Perforator"
+  description: Advanced stationary laser unit. Annihilates electronics and is extremely dangerous to health! Uses the power cage to fire.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shuttles/laser.rsi
@@ -165,8 +165,8 @@
 - type: entity
   id: ShuttleGunFriendship
   parent: [ShuttleGunBase, ConstructibleMachine]
-  name: "EXP-320g \"Дружба\""
-  description: "Невеликий стаціонарний гранатомет, що вміщує 2 гранати."
+  name: EXP-320g "Friendship"
+  description: A small stationary grenade launcher that holds 2 grenades.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shuttles/launcher.rsi
@@ -218,8 +218,8 @@
 - type: entity
   id: ShuttleGunDuster
   parent: [ShuttleGunBase, ConstructibleMachine]
-  name: "EXP-2100g \"Duster\""
-  description: "Потужний стаціонарний гранатомет. Для використання потрібен патрон."
+  name: EXP-2100g "Duster"
+  description: A powerful stationary grenade launcher. A cartridge is required for use.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shuttles/launcher.rsi
@@ -278,8 +278,8 @@
 - type: entity
   id: ShuttleGunPirateCannon
   parent: ShuttleGunBase
-  name: "гармата піратського корабля"
-  description: "Бабах!"
+  name: pirate ship cannon
+  description: Kaboom!
   components:
   - type: ContainerContainer
     containers:
@@ -315,8 +315,8 @@
 - type: entity
   id: ShuttleGunKinetic
   parent: [ ShuttleGunBase, ConstructibleMachine]
-  name: "PTK-800 \"Дематеріалізатор матерії\""
-  description: "Рятівна стаціонарна шахтна вежа. Поступово накопичує заряди самостійно, надзвичайно ефективна для розкопок астероїдів."
+  name: PTK-800 "Matter Dematerializer"
+  description: Salvage stationary mining turret. Gradually accumulates charges on its own, extremely effective for asteroid excavation.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shuttles/kinetic.rsi

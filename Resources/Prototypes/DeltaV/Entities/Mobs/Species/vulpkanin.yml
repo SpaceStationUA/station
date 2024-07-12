@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: "Уріст МакВулп"
+  name: Urist McVulp
   parent: BaseMobSpeciesOrganic
   id: BaseMobVulpkanin
   abstract: true
@@ -112,11 +112,11 @@
 
 - type: entity
   save: false
-  name: "Манекен Вулканіна"
+  name: Vulpkanin Dummy
   parent: MobHumanDummy
   id: MobVulpkaninDummy
   noSpawn: true
-  description: "Фіктивний vulpkanin, призначений для використання в налаштуванні символів."
+  description: A dummy vulpkanin meant to be used in character setup.
   components:
   - type: HumanoidAppearance
     species: Vulpkanin

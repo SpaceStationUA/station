@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseItem
   id: PaintBase
-  name: "аерозольна фарба"
-  description: "Балончик з фарбою."
+  name: spray paint
+  description: A tin of spray paint.
   noSpawn: true
   components:
   - type: Appearance
@@ -44,8 +44,8 @@
 - type: entity
   parent: PaintBase
   id: FunnyPaint
-  name: "кумедна фарба"
-  description:  "Бляшанка кумедної фарби, виготовлена компанією Honk! Co."
+  name: funny paint
+  description:  A tin of funny paint, manufactured by Honk! Co.
   components:
   - type: Paint
     color: "#fa74df"
@@ -62,8 +62,8 @@
 - type: entity
   parent: PaintBase
   id: FunnyPaintYellow
-  name: "кумедна фарба"
-  description:  "Бляшанка кумедної фарби, виготовлена компанією Honk! Co."
+  name: funny paint
+  description:  A tin of funny paint, manufactured by Honk! Co.
   components:
   - type: Paint
     color: "#d5e028"

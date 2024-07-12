@@ -1,8 +1,8 @@
 - type: entity
   id: CrateFoodPizza
   parent: CratePlastic
-  name: "екстрена доставка піци"
-  description: "Допоможіть зробити свій внесок у боротьбу з голодом на вокзалі, роздавши піцу відділенням, які не отримують достатнього фінансування! Включає 4 піци."
+  name: emergency pizza delivery
+  description: Help do your part to end station hunger by distributing pizza to underfunded departments! Includes 4 pizzas.
   components:
   - type: StorageFill
     contents:
@@ -15,8 +15,8 @@
 - type: entity
   id: CrateFoodPizzaLarge
   parent: CratePlastic
-  name: "аварійна доставка піци"
-  description: "У крайньому випадку, коли все інше не спрацювало, знайдіть розраду в тому, що ще одна піца вирішує все. Включає 16 піц."
+  name: disaster pizza delivery
+  description: In the ultimate event that all else has failed, Find comfort in that more pizza solves everything. Includes 16 pizzas.
   components:
   - type: StorageFill
     contents:
@@ -30,8 +30,8 @@
 - type: entity
   id: CrateFoodMRE
   parent: CratePlastic
-  name: "Ящик MRE"
-  description: "Їжа у військовому стилі, якої вистачить, щоб нагодувати цілий відділ."
+  name: MRE crate
+  description: A military style meal fit to feed a whole department.
   components:
   - type: StorageFill
     contents:
@@ -41,8 +41,8 @@
 - type: entity
   id: CrateFoodCooking
   parent: CratePlastic
-  name: "ящик для кухонного приладдя"
-  description: "Додаткове кухонне приладдя на випадок відсутності ботаніків."
+  name: kitchen supplies crate
+  description: Extra kitchen supplies, in case the botanists are absent.
   components:
   - type: StorageFill
     contents:
@@ -72,8 +72,8 @@
 - type: entity
   id: CrateFoodDinnerware
   parent: CratePlastic
-  name: "ящик для кухонного посуду"
-  description: "Додаткове кухонне приладдя на випадок, якщо клоуна пустять в кафетерій без нагляду."
+  name: kitchen dinnerware crate
+  description: Extra kitchen supplies, in case the clown was allowed in the cafeteria unsupervised.
   components:
   - type: StorageFill
     contents:
@@ -99,8 +99,8 @@
 - type: entity
   id: CrateFoodBarSupply
   parent: CratePlastic
-  name: "ящик для барменського приладдя"
-  description: "Додаткові барні приналежності, на випадок, якщо клоуна пустять до бару без нагляду."
+  name: bartending supplies crate
+  description: Extra Bar supplies, in case the clown was allowed in the bar unsupervised.
   components:
   - type: StorageFill
     contents:
@@ -126,8 +126,8 @@
 - type: entity
   id: CrateFoodSoftdrinks
   parent: CratePlastic
-  name: "ящик для безалкогольних напоїв"
-  description: "Різноманітні газовані напої для невеликої вечірки, без необхідності спорожнення автоматів з газованою водою. Містить 14 газованих напоїв."
+  name: softdrinks crate
+  description: A variety of sodas to complement a small party, without having to empty the soda machines. Includes 14 sodas.
   components:
   - type: StorageFill
     contents:
@@ -147,8 +147,8 @@
 - type: entity
   id: CrateFoodSoftdrinksLarge
   parent: CratePlastic
-  name: "ящик для безалкогольних напоїв"
-  description: "Багато газованої води, взятої прямо з власних торгових автоматів Centcomm, тому що ви просто не можете покинути свій відділ. Включає 28 газованих напоїв."
+  name: softdrinks bulk crate
+  description: Lots of sodas taken straight out of Centcomm's own vending machines, because you just can't leave your department. Includes 28 sodas.
   components:
   - type: StorageFill
     contents:
