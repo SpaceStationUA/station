@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseStructureDynamic
   id: AlienEggGrowing
-  name: Egg
-  description: A large mottled egg
+  name: "Яйце"
+  description: "Велике строкате яйце"
   components:
     - type: Transform
       noRot: true
@@ -53,8 +53,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: AlienEgg
-  name: Egg
-  description: A large mottled egg
+  name: "Яйце"
+  description: "Велике строкате яйце"
   components:
     - type: Transform
       noRot: true
@@ -104,8 +104,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: AlienEggHatching
-  name: Egg
-  description: A large mottled egg
+  name: "Яйце"
+  description: "Велике строкате яйце"
   components:
     - type: Transform
       noRot: true
@@ -124,8 +124,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: AlienEggOpened
-  name: Egg
-  description: A large mottled egg
+  name: "Яйце"
+  description: "Велике строкате яйце"
   components:
     - type: Transform
       noRot: true
@@ -175,7 +175,7 @@
 
 - type: entity
   id: AlienEggSpawner
-  name: alien egg spawner
+  name: "нерестовик чужорідних яєць"
   parent: MarkerBase
   components:
   - type: Sprite
@@ -190,7 +190,7 @@
 
 - type: entity
   id: AlienEggSpawnerRandom
-  name: alien egg spawner
+  name: "нерестовик чужорідних яєць"
   suffix: 20%
   parent: MarkerBase
   components:
