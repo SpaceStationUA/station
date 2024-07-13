@@ -1,4 +1,4 @@
-station-event-ion-storm-start-announcement = Поблизу станції виявлено іонну бурю. Будь ласка, перевірте все обладнання, кероване ШІ, на наявність помилок.
+station-event-ion-storm-announcement = Поблизу станції виявлено іонну бурю. Будь ласка, перевірте все обладнання, кероване ШІ, на наявність помилок.
 
 ion-storm-law-scrambled-number = [font="Monospace"][scramble rate=250 length={$length} chars="@@###$$&%!01"/][/font]
 

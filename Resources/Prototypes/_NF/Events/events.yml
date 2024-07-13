@@ -4,10 +4,8 @@
   noSpawn: true
   components:
     - type: StationEvent
-      startAnnouncement: station-event-bluespace-cache-start-announcement
-      startAudio:
-        path: /Audio/Announcements/attention.ogg
-      endAnnouncement: station-event-bluespace-cache-end-announcement
+      startAnnouncement: true
+      endAnnouncement: true
       earliestStart: 100
       minimumPlayers: 20
       weight: 1
@@ -24,10 +22,8 @@
   noSpawn: true
   components:
   - type: StationEvent
-    startAnnouncement: station-event-bluespace-vault-start-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
-    endAnnouncement: station-event-bluespace-vault-end-announcement
+    startAnnouncement: true
+    endAnnouncement: true
     earliestStart: 100
     minimumPlayers: 15
     weight: 1
@@ -44,10 +40,8 @@
   noSpawn: true
   components:
   - type: StationEvent
-    startAnnouncement: station-event-bluespace-vault-start-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
-    endAnnouncement: station-event-bluespace-vault-end-announcement
+    startAnnouncement: true
+    endAnnouncement: true
     earliestStart: 100
     minimumPlayers: 15
     weight: 1
@@ -64,10 +58,8 @@
   noSpawn: true
   components:
   - type: StationEvent
-    startAnnouncement: station-event-bluespace-asteroid-start-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
-    endAnnouncement: station-event-bluespace-asteroid-end-announcement
+    startAnnouncement: true
+    endAnnouncement: true
     earliestStart: 100
     minimumPlayers: 15
     weight: 1
@@ -83,10 +75,8 @@
   noSpawn: true
   components:
   - type: StationEvent
-    startAnnouncement: station-event-bluespace-asteroid-start-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
-    endAnnouncement: station-event-bluespace-asteroid-end-announcement
+    startAnnouncement: true
+    endAnnouncement: true
     earliestStart: 100
     minimumPlayers: 15
     weight: 1
@@ -102,10 +92,8 @@
   noSpawn: true
   components:
   - type: StationEvent
-    startAnnouncement: station-event-bluespace-ship-start-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
-    endAnnouncement: station-event-bluespace-ship-end-announcement
+    startAnnouncement: true
+    endAnnouncement: true
     earliestStart: 100
     minimumPlayers: 15
     weight: 1
@@ -121,10 +109,8 @@
   noSpawn: true
   components:
   - type: StationEvent
-    startAnnouncement: station-event-bluespace-ship-start-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
-    endAnnouncement: station-event-bluespace-ship-end-announcement
+    startAnnouncement: true
+    endAnnouncement: true
     earliestStart: 100
     minimumPlayers: 15
     weight: 1
@@ -140,10 +126,8 @@
   noSpawn: true
   components:
   - type: StationEvent
-    startAnnouncement: station-event-bluespace-ship-start-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
-    endAnnouncement: station-event-bluespace-ship-end-announcement
+    startAnnouncement: true
+    endAnnouncement: true
     earliestStart: 100
     minimumPlayers: 15
     weight: 1

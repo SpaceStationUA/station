@@ -132,3 +132,27 @@
     # Fallback # REQUIRED
     - id: fallback # Any announcement sent without a valid announcement on this announcer will use this
       path: fallback.ogg
+
+  # Pirate
+    - id: alienInfestation
+      path: events/aliens.ogg
+    - id: ratKingArise
+      path: comms/attention.ogg
+    - id: bluespaceCacheError
+      path: comms/attention.ogg
+    - id: bluespaceVaultError
+      path: comms/attention.ogg
+    - id: bluespaceVaultSmallError
+      path: comms/attention.ogg
+    - id: bluespaceAsteroid
+      path: comms/attention.ogg
+    - id: bluespaceAsteroidBunker
+      path: comms/attention.ogg
+    - id: bluespaceCargoniaShip
+      path: comms/attention.ogg
+    - id: bluespaceArcIndDataCarrier
+      path: comms/attention.ogg
+    - id: bluespaceResearchBunker
+      path: comms/attention.ogg
+    - id: spiderClownSpawn
+      path: comms/attention.ogg

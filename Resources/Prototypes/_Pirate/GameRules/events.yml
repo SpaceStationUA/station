@@ -17,9 +17,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    startAnnouncement: station-event-vent-creatures-start-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
+    startAnnouncement: true
     earliestStart: 60
     minimumPlayers: 15
     weight: 5
@@ -61,8 +59,6 @@
   - type: StationEvent
     weight: 10
     duration: 1
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
   - type: RandomSentienceRule
 
 - type: entity
@@ -84,9 +80,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    startAnnouncement: station-event-vent-creatures-start-announcement
-    startAudio:
-      path: /Audio/Announcements/attention.ogg
+    startAnnouncement: true
     startDelay: 10
     earliestStart: 20
     minimumPlayers: 15

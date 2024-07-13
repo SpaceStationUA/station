@@ -1,4 +1,4 @@
-anomaly-spawn-event-announcement = Наші прилади виявили небезпечну міжпросторову аномалію. Будь ласка, повідомте науковий відділ про { $sighting }.
+station-event-anomaly-spawn-announcement = Наші прилади виявили небезпечну міжпросторову аномалію. Будь ласка, повідомте науковий відділ про { $sighting }.
 
 anomaly-spawn-sighting-1 = низькі пульсуючі звуки, чутні по всій станції
 anomaly-spawn-sighting-2 = дивні джерела світла
