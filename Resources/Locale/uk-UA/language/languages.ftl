@@ -4,10 +4,10 @@ language-Universal-description = Що ти таке?
 language-GalacticCommon-name = Галактичний загальний
 language-GalacticCommon-description = Стандартна галицька мова, яку найчастіше використовують для міжвидового спілкування та юридичної роботи.
 
-language-Bubblish-name = Bubblish
+language-Bubblish-name = Блюббіш
 language-Bubblish-description = Мова слизу. Суміш булькаючих звуків і поп-музики, яку дуже важко сприймати як людську без використання механічних засобів.
 
-language-RootSpeak-name = Rootspeak
+language-RootSpeak-name = Говір коренів
 language-RootSpeak-description = Дивна мова, схожа на свист, якою розмовляє Діона.
 
 language-Nekomimetic-name = Неміметичний
@@ -22,7 +22,7 @@ language-SolCommon-description = Мова, спільна для видів з �
 language-Canilunzt-name = Canilunzt
 language-Canilunzt-description = Гортанна мова, якою розмовляють мешканці системи Ваззенд, складається з гарчання, гавкоту, тявкання та інтенсивних рухів вухами і хвостом. Вулканіни розмовляють цією мовою з легкістю.
 
-language-Moffic-name = Пробки
+language-Moffic-name = Моффік
 language-Moffic-description = Мова людей-метеликів межує з повною нерозбірливістю.
 
 language-RobotTalk-name = RobotTalk
@@ -32,7 +32,7 @@ language-Cat-name = Кіт
 language-Cat-description = Мяу!
 
 language-Dog-name = Пес
-language-Dog-description = Гавкни!
+language-Dog-description = Гав!
 
 language-Fox-name = Лис
 language-Fox-description = Ух ти!
@@ -44,19 +44,19 @@ language-Monkey-name = Мавпа
 language-Monkey-description = ууууу!
 
 language-Mouse-name = Миша
-language-Mouse-description = Тисни!
+language-Mouse-description = Піііі!
 
 language-Chicken-name = Курка
-language-Chicken-description = Кут!
+language-Chicken-description = Кух-ку-да!
 
-language-Duck-name = Пригнися
+language-Duck-name = Качка
 language-Duck-description = Кря!
 
 language-Cow-name = Корова
 language-Cow-description = Мууу!
 
 language-Sheep-name = Вівці
-language-Sheep-description = Ба-а-а!
+language-Sheep-description = Бе-е-е!
 
 language-Kangaroo-name = Кенгуру
 language-Kangaroo-description = Чуу!

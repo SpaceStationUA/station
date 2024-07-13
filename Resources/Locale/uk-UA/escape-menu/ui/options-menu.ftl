@@ -260,3 +260,4 @@ cmd-options-help = Використання: options [tab]
 
 ui-options-show-offer-mode-indicators = Показувати індикатори режиму пропозиції курсором
 ui-options-function-offer-item = Запропонуйте щось
+ui-options-announcer-volume = Гучність диктора:

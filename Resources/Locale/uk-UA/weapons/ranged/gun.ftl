@@ -32,8 +32,8 @@ gun-chamber-bolt-ammo = Рушниця незакрита
 gun-chamber-bolt = Запобіжник [color={$color}]{$bolt}[/color].
 gun-chamber-bolt-closed = Запобіжник вимкнений
 gun-chamber-bolt-opened = Запобіжник увімкнений
-gun-chamber-bolt-close = Вимкнути запобіжник
-gun-chamber-bolt-open = Увімкнути запобіжник
+gun-chamber-bolt-close = Смикнути запобіжник
+gun-chamber-bolt-open = Смикнути запобіжник
 gun-chamber-bolt-closed-state = вимкнуто
 gun-chamber-bolt-open-state = увімкнуто
 gun-chamber-rack = Стійка

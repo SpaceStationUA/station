@@ -6,10 +6,10 @@ comp-gas-canister-ui-port-status = Статус зʼєднання:
 comp-gas-canister-ui-port-connected = З'єднано
 comp-gas-canister-ui-port-disconnected = Відʼєднано
 
-comp-gas-canister-ui-holding-tank-status = Статус балону
-comp-gas-canister-ui-holding-tank-label = Назва балону:
+comp-gas-canister-ui-holding-tank-status = Статус каністри
+comp-gas-canister-ui-holding-tank-label = Назва каністри:
 comp-gas-canister-ui-holding-tank-label-empty = Порожньо
-comp-gas-canister-ui-holding-tank-pressure = Тиск у балоні:
+comp-gas-canister-ui-holding-tank-pressure = Тиск у каністрі:
 comp-gas-canister-ui-holding-tank-eject = Вийняти
 
 comp-gas-canister-ui-release-valve-status = Статус випускного клапана

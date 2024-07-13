@@ -1,4 +1,4 @@
-barsign-component-name = барна вивіска
+barsign-component-name = знак бару
 
 # Прототипи барних вивісок
 

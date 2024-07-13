@@ -40,3 +40,7 @@ latejoin-arrivals-direction-time = Шатл який перевозить вас
 
 preset-not-enough-ready-players = Не вдається запустити {$presetName}. Потрібно {$minimumPlayers} гравців, але у нас є {$readyPlayersCount}.
 preset-no-one-ready = Не вдається запустити {$presetName}. Жоден гравець не готовий.
+
+game-ticker-welcome-to-the-station = Ласкаво просимо до команди станції, приємного перебування!
+
+# Відображається в чаті адміністраторам, коли гравець приєднується

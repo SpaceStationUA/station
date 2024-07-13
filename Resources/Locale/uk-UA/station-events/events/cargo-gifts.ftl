@@ -10,14 +10,14 @@ cargo-gift-dest-janitor = Сервісний Департаменту
 cargo-gift-dest-med = Медичний Департаменту
 cargo-gift-dest-sec = Департаменту Служби Безпеки
 
-cargo-gift-pizza-small = Маленьку партію піци
-cargo-gift-pizza-large = Велику партію піци
+cargo-gift-pizza-small = маленьку партію піци
+cargo-gift-pizza-large = велику партію піци
 
-cargo-gift-eng = Відновлювальні Матеріали
-cargo-gift-vending = Поповнення Для Торгових Автоматів
-cargo-gift-cleaning = Прибиральне Спорядження
-cargo-gift-medical-supply = Медичну Допомогу
-cargo-gift-space-protection = Захист Від Космічних Небезпек
-cargo-gift-fire-protection = Захист Від Вогню
-cargo-gift-security-guns = Летальну Зброю
-cargo-gift-security-riot = Засоби Для Приборкання Повстань
+cargo-gift-eng = відновлювальні Матеріали
+cargo-gift-vending = поповнення Для Торгових Автоматів
+cargo-gift-cleaning = прибиральне Спорядження
+cargo-gift-medical-supply = медичну Допомогу
+cargo-gift-space-protection = захист Від Космічних Небезпек
+cargo-gift-fire-protection = захист Від Вогню
+cargo-gift-security-guns = летальну Зброю
+cargo-gift-security-riot = засоби Для Приборкання Повстань
