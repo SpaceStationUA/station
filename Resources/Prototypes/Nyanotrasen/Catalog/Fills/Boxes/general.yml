@@ -1,8 +1,8 @@
 - type: entity
-  name: colored lighttube box
+  name: "кольоровий ламповий ящик"
   parent: BoxCardboard
   id: BoxColoredLighttube
-  description: This box is shaped on the inside so that only light tubes and bulbs fit.
+  description: "Ця коробка зсередини має таку форму, щоб туди помістилися лише лампочки та трубки."
   components:
   - type: StorageFill
     contents:
@@ -25,10 +25,10 @@
       - LightBulb
 
 - type: entity
-  name: maintenance lightbulb box
+  name: "коробка з лампочками для технічного обслуговування"
   parent: BoxCardboard
   id: BoxMaintenanceLightbulb
-  description: This box is shaped on the inside so that only light tubes and bulbs fit.
+  description: "Ця коробка зсередини має таку форму, щоб туди помістилися лише лампочки та трубки."
   components:
   - type: StorageFill
     contents:
@@ -49,10 +49,10 @@
       - LightBulb
 
 - type: entity
-  name: holy water kit
+  name: "набір для святої води"
   parent: BoxCardboard
   id: BoxHolyWater
-  description: This box is filled with everything you need to make homemade holy water. Water not included.
+  description: "Ця коробочка наповнена всім необхідним для приготування домашньої святої води. Вода не входить до комплекту."
   components:
   - type: StorageFill
     contents:

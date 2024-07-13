@@ -33,45 +33,45 @@
   pulseFrequencyModifier: 3
   pulsePowerModifier: 0.5
   earnPointModifier: 0.05
-  description: anomaly-behavior-safe
+  description: "аномальна-поведінка-безпечна"
 
 - type: anomalyBehavior
   id: Slow
   pulseFrequencyModifier: 2
   earnPointModifier: 0.5
-  description: anomaly-behavior-slow
+  description: "аномалія-поведінка-повільна"
 
 - type: anomalyBehavior
   id: Light
   pulsePowerModifier: 0.5
   earnPointModifier: 0.5
-  description: anomaly-behavior-light
+  description: "аномалія-поведінка-світло"
 
 # Balanced x1 point production
 
 - type: anomalyBehavior
   id: Balanced
   earnPointModifier: 1
-  description: anomaly-behavior-balanced
+  description: "аномалія-поведінка-збалансована"
 
 - type: anomalyBehavior
   id: DelayedForce
   earnPointModifier: 1.15
-  description: anomaly-behavior-delayed-force
+  description: "аномалія-поведінки-відкладена сила"
   pulseFrequencyModifier: 0.5
   pulsePowerModifier: 2
   
 - type: anomalyBehavior
   id: Rapid
   earnPointModifier: 1.15
-  description: anomaly-behavior-rapid
+  description: "аномалія-поведінка-швидка"
   pulseFrequencyModifier: 2
   pulsePowerModifier: 0.5
 
 - type: anomalyBehavior
   id: BalancedSecret
   earnPointModifier: 1.2
-  description: anomaly-behavior-secret
+  description: "аномалія-поведінки-секрет"
   components:
   - type: SecretDataAnomaly
     randomStartSecretMin: 2
@@ -81,7 +81,7 @@
   id: Reflect
   earnPointModifier: 1.1
   particleSensivity: 0.5
-  description: anomaly-behavior-reflect
+  description: "аномалія-поведінка-відображення"
   components:
   - type: Reflect
     reflectProb: 0.5
@@ -92,13 +92,13 @@
   id: NonSensivity
   earnPointModifier: 0.8
   particleSensivity: 0.5
-  description: anomaly-behavior-nonsensivity
+  description: "аномалія-поведінка-безглуздість"
   
 - type: anomalyBehavior
   id: Sensivity
   earnPointModifier: 1.2
   particleSensivity: 1.5
-  description: anomaly-behavior-sensivity
+  description: "аномалія-поведінка-чутливість"
 
 # Hard x2 point production
 
@@ -106,18 +106,18 @@
   id: Fast
   earnPointModifier: 1.9
   pulseFrequencyModifier: 0.5
-  description: anomaly-behavior-fast
+  description: "аномалія-поведінки-швидко"
 
 - type: anomalyBehavior
   id: Strenght
   pulsePowerModifier: 1.5
   earnPointModifier: 1.4
-  description: anomaly-behavior-strenght
+  description: "аномалія-поведінка-міцність"
 
 - type: anomalyBehavior
   id: Inconstancy
   earnPointModifier: 1.7
-  description: anomaly-behavior-inconstancy
+  description: "аномалія-поведінка-нестабільність"
   components:
   - type: ShuffleParticlesAnomaly
     shuffleOnPulse: true
@@ -126,7 +126,7 @@
 - type: anomalyBehavior
   id: InconstancyParticle
   earnPointModifier: 1.8
-  description: anomaly-behavior-inconstancy
+  description: "аномалія-поведінка-нестабільність"
   components:
   - type: ShuffleParticlesAnomaly
     shuffleOnParticleHit: true
@@ -135,7 +135,7 @@
 - type: anomalyBehavior
   id: Jumping
   earnPointModifier: 1.8
-  description: anomaly-behavior-moving
+  description: "аномалія-поведінка-рух"
   components:
   - type: ChaoticJump
     jumpMinInterval: 15
@@ -147,7 +147,7 @@
 - type: anomalyBehavior
   id: FullUnknown
   earnPointModifier: 1.9
-  description: anomaly-behavior-secret
+  description: "аномалія-поведінки-секрет"
   components:
   - type: SecretDataAnomaly
     randomStartSecretMin: 4
@@ -158,7 +158,7 @@
 - type: anomalyBehavior
   id: JumpingUnknown
   earnPointModifier: 1.9
-  description: anomaly-behavior-moving
+  description: "аномалія-поведінка-рух"
   components:
   - type: ChaoticJump
     jumpMinInterval: 15
@@ -175,7 +175,7 @@
   id: FastUnknown
   earnPointModifier: 1.9
   pulseFrequencyModifier: 0.5
-  description: anomaly-behavior-fast
+  description: "аномалія-поведінки-швидко"
   components:
   - type: SecretDataAnomaly
     randomStartSecretMin: 3
@@ -184,7 +184,7 @@
 - type: anomalyBehavior
   id: InconstancyParticleUnknown
   earnPointModifier: 1.95
-  description: anomaly-behavior-inconstancy
+  description: "аномалія-поведінка-нестабільність"
   components:
   - type: ShuffleParticlesAnomaly
     shuffleOnParticleHit: true

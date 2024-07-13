@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: ShardBase
-  description: It's a shard of some unknown material.
+  description: "Це уламок якогось невідомого матеріалу."
   components:
   - type: Sharp
   - type: Sprite
@@ -83,8 +83,8 @@
 - type: entity
   parent: ShardBase
   id: ShardGlass
-  name: glass shard
-  description: A small piece of glass.
+  name: "осколок скла"
+  description: "Маленький шматочок скла."
   components:
   - type: Sprite
     color: "#bbeeff"
@@ -114,8 +114,8 @@
 - type: entity
   parent: ShardBase
   id: ShardGlassReinforced
-  name: reinforced glass shard
-  description: A small piece of reinforced glass.
+  name: "армований скляний осколок"
+  description: "Невеликий шматок армованого скла."
   components:
   - type: Sprite
     color: "#96cdef"
@@ -146,8 +146,8 @@
 - type: entity
   parent: ShardBase
   id: ShardGlassPlasma
-  name: plasma glass shard
-  description: A small piece of plasma glass.
+  name: "осколок плазмового скла"
+  description: "Невеликий шматочок плазмового скла."
   components:
   - type: Sprite
     color: "#FF72E7"
@@ -180,8 +180,8 @@
 - type: entity
   parent: ShardBase
   id: ShardGlassUranium
-  name: uranium glass shard
-  description: A small piece of uranium glass.
+  name: "осколок уранового скла"
+  description: "Маленький шматочок уранового скла."
   components:
   - type: Sprite
     color: "#8eff7a"
@@ -215,8 +215,8 @@
 - type: entity
   parent: ShardBase
   id: ShardGlassClockwork
-  name: clockwork glass shard
-  description: A small piece of brass-infused glass.
+  name: "осколок годинникового скла"
+  description: "Невеликий шматок скла, інкрустований латунню."
   components:
   - type: Sprite
     color: "#e0aa36"

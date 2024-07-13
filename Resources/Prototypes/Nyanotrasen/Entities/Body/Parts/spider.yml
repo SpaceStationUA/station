@@ -1,7 +1,7 @@
 - type: entity
   id: PartSpider
   parent: BaseItem
-  name: "spider body part"
+  name: "частина тіла павука"
   abstract: true
   components:
   - type: Damageable
@@ -26,7 +26,7 @@
 
 - type: entity
   id: RightLegSpider
-  name: "right spider leg"
+  name: "права павукова нога"
   parent: PartSpider
   components:
   - type: Sprite
@@ -44,7 +44,7 @@
 
 - type: entity
   id: LeftLegSpider
-  name: "left spider leg"
+  name: "ліва нога павука"
   parent: PartSpider
   components:
   - type: Sprite
