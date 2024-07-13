@@ -38,6 +38,7 @@ namespace Content.Client.Options.UI.Tabs
             AmbienceSoundsSlider.OnValueChanged += OnAmbienceSoundsSliderChanged;
             LobbyVolumeSlider.OnValueChanged += OnLobbyVolumeSliderChanged;
             InterfaceVolumeSlider.OnValueChanged += OnInterfaceVolumeSliderChanged;
+            AnnouncerVolumeSlider.OnValueChanged += OnAnnouncerVolumeSliderChanged;
             TtsVolumeSlider.OnValueChanged += OnTtsVolumeSliderChanged; //Pirate TTS
             LobbyMusicCheckBox.OnToggled += OnLobbyMusicCheckToggled;
             RestartSoundsCheckBox.OnToggled += OnRestartSoundsCheckToggled;
@@ -61,6 +62,7 @@ namespace Content.Client.Options.UI.Tabs
             LobbyVolumeSlider.OnValueChanged -= OnLobbyVolumeSliderChanged;
             InterfaceVolumeSlider.OnValueChanged -= OnInterfaceVolumeSliderChanged;
             TtsVolumeSlider.OnValueChanged -= OnTtsVolumeSliderChanged; //Pirate TTS
+            AnnouncerVolumeSlider.OnValueChanged -= OnAnnouncerVolumeSliderChanged;
             base.Dispose(disposing);
         }
 
@@ -104,6 +106,11 @@ namespace Content.Client.Options.UI.Tabs
         {
             UpdateChanges();
         }
+        
+        private void OnAnnouncerVolumeSliderChanged(Range range)
+        {
+            UpdateChanges();
+        }
 
         private void OnLobbyMusicCheckToggled(BaseButton.ButtonEventArgs args)
         {
@@ -134,6 +141,7 @@ namespace Content.Client.Options.UI.Tabs
             _cfg.SetCVar(CCVars.LobbyMusicVolume, LobbyVolumeSlider.Value / 100f * ContentAudioSystem.LobbyMultiplier);
             _cfg.SetCVar(CCVars.InterfaceVolume, InterfaceVolumeSlider.Value / 100f * ContentAudioSystem.InterfaceMultiplier);
             _cfg.SetCVar(SimpleStationCCVars.TTSVolume, TtsVolumeSlider.Value / 100f * ContentAudioSystem.TtsMultiplier); //Pirate TTS
+            _cfg.SetCVar(CCVars.AnnouncerVolume, AnnouncerVolumeSlider.Value / 100f * ContentAudioSystem.AnnouncerMultiplier);
 
             _cfg.SetCVar(CCVars.MaxAmbientSources, (int)AmbienceSoundsSlider.Value);
 
@@ -159,6 +167,7 @@ namespace Content.Client.Options.UI.Tabs
             LobbyVolumeSlider.Value = _cfg.GetCVar(CCVars.LobbyMusicVolume) * 100f / ContentAudioSystem.LobbyMultiplier;
             InterfaceVolumeSlider.Value = _cfg.GetCVar(CCVars.InterfaceVolume) * 100f / ContentAudioSystem.InterfaceMultiplier;
             TtsVolumeSlider.Value = _cfg.GetCVar(SimpleStationCCVars.TTSVolume) * 100f / ContentAudioSystem.TtsMultiplier; //Pirate TTS
+            AnnouncerVolumeSlider.Value = _cfg.GetCVar(CCVars.AnnouncerVolume) * 100f / ContentAudioSystem.AnnouncerMultiplier;
 
             AmbienceSoundsSlider.Value = _cfg.GetCVar(CCVars.MaxAmbientSources);
 
@@ -186,14 +195,17 @@ namespace Content.Client.Options.UI.Tabs
                 Math.Abs(InterfaceVolumeSlider.Value - _cfg.GetCVar(CCVars.InterfaceVolume) * 100f / ContentAudioSystem.InterfaceMultiplier) < 0.01f;
             var isTtsVolumeSame =
                 Math.Abs(TtsVolumeSlider.Value - _cfg.GetCVar(SimpleStationCCVars.TTSVolume) * 100f / ContentAudioSystem.TtsMultiplier) < 0.01f; //Pirate
+            var isAnnouncerVolumeSame =
+                Math.Abs(AnnouncerVolumeSlider.Value - _cfg.GetCVar(CCVars.AnnouncerVolume) * 100f / ContentAudioSystem.AnnouncerMultiplier) < 0.01f;
 
             var isAmbientSoundsSame = (int)AmbienceSoundsSlider.Value == _cfg.GetCVar(CCVars.MaxAmbientSources);
             var isLobbySame = LobbyMusicCheckBox.Pressed == _cfg.GetCVar(CCVars.LobbyMusicEnabled);
             var isRestartSoundsSame = RestartSoundsCheckBox.Pressed == _cfg.GetCVar(CCVars.RestartSoundsEnabled);
             var isEventSame = EventMusicCheckBox.Pressed == _cfg.GetCVar(CCVars.EventMusicEnabled);
             var isAdminSoundsSame = AdminSoundsCheckBox.Pressed == _cfg.GetCVar(CCVars.AdminSoundsEnabled);
-            var isEverythingSame = isMasterVolumeSame && isMidiVolumeSame && isAmbientVolumeSame && isAmbientMusicVolumeSame && isAmbientSoundsSame && isLobbySame && isRestartSoundsSame && isEventSame
-                                   && isAdminSoundsSame && isLobbyVolumeSame && isInterfaceVolumeSame;
+            var isEverythingSame = isMasterVolumeSame && isMidiVolumeSame && isAmbientVolumeSame
+                && isAmbientMusicVolumeSame && isAmbientSoundsSame && isLobbySame && isRestartSoundsSame && isEventSame
+                && isAdminSoundsSame && isLobbyVolumeSame && isInterfaceVolumeSame && isAnnouncerVolumeSame;
             isEverythingSame = isEverythingSame && isTtsVolumeSame; //Pirate TTS
             ApplyButton.Disabled = isEverythingSame;
             ResetButton.Disabled = isEverythingSame;
@@ -211,6 +223,8 @@ namespace Content.Client.Options.UI.Tabs
                 Loc.GetString("ui-options-volume-percent", ("volume", InterfaceVolumeSlider.Value / 100));
             TtsVolumeLabel.Text =
                 Loc.GetString("ui-options-volume-percent", ("volume", TtsVolumeSlider.Value / 100)); //Pirate TTS
+            AnnouncerVolumeLabel.Text =
+                Loc.GetString("ui-options-volume-percent", ("volume", AnnouncerVolumeSlider.Value / 100));
             AmbienceSoundsLabel.Text = ((int)AmbienceSoundsSlider.Value).ToString();
         }
     }
