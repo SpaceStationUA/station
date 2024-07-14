@@ -1,7 +1,7 @@
 - type: entity
   id: FireAlarm
-  name: "пожежна сигналізація"
-  description: "Пожежна тривога. Гаряче!"
+  name: fire alarm
+  description: A fire alarm. Spicy!
   components:
   - type: WallMount
   - type: ApcPowerReceiver
@@ -109,8 +109,8 @@
 
 - type: entity
   id: FireAlarmAssembly
-  name: "монтаж пожежної сигналізації"
-  description: "Пожежна сигналізація. Дуже м'який."
+  name: fire alarm assembly
+  description: A fire alarm assembly. Very mild.
   components:
   - type: WallMount
   - type: Clickable

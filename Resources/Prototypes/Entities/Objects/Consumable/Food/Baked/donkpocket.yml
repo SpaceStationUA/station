@@ -28,10 +28,10 @@
 # Warm ones contain a small amount of Omnizine.
 
 - type: entity
-  name: "донк-карман"
+  name: donk-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocket
-  description: "Їжа на вибір для досвідченого зрадника."
+  description: The food of choice for the seasoned traitor.
   components:
   - type: FlavorProfile
     flavors:
@@ -42,10 +42,10 @@
     state: plain
 
 - type: entity
-  name: "нагрітий донк-карман"
+  name: warm donk-pocket
   parent: FoodDonkpocket
   id: FoodDonkpocketWarm
-  description: "Підігріта їжа для досвідченого зрадника."
+  description: The heated food of choice for the seasoned traitor.
   components:
   - type: FlavorProfile
     flavors:
@@ -63,10 +63,10 @@
           Quantity: 2
 
 - type: entity
-  name: "сирий донк-карман"
+  name: dank-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketDank
-  description: "Їжа на вибір для досвідченого ботаніка."
+  description: The food of choice for the seasoned botanist.
   components:
   - type: FlavorProfile
     flavors:
@@ -82,10 +82,10 @@
     state: dank
 
 - type: entity
-  name: "нагрітий сирий донк-карман"
+  name: warm dank-pocket
   parent: FoodDonkpocketDank
   id: FoodDonkpocketDankWarm
-  description: "Підігріта їжа на вибір досвідченого ботаніка."
+  description: The heated food of choice for the seasoned botanist.
   components:
   - type: FlavorProfile
     flavors:
@@ -101,10 +101,10 @@
           Quantity: 4
 
 - type: entity
-  name: "гострий донк-карман"
+  name: spicy-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketSpicy
-  description: "Класична закуска, тепер із пряним ароматом, що активується під час нагрівання."
+  description: The classic snack food, now with a heat-activated spicy flair.
   components:
   - type: FlavorProfile
     flavors:
@@ -115,10 +115,10 @@
     state: plain
 
 - type: entity
-  name: "нагрітий гострий донк-карман"
+  name: warm spicy-pocket
   parent: FoodDonkpocketSpicy
   id: FoodDonkpocketSpicyWarm
-  description: "Класична їжа для перекусу, тепер, можливо, трохи занадто гостра."
+  description: The classic snack food, now maybe a bit too spicy.
   components:
   - type: FlavorProfile
     flavors:
@@ -137,10 +137,10 @@
     state: spicy
 
 - type: entity
-  name: "теріякі-карман"
+  name: teriyaki-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketTeriyaki
-  description: "Східно-азійський варіант класичної закуски на вокзалі."
+  description: An East Asian take on the classic stationside snack.
   components:
   - type: FlavorProfile
     flavors:
@@ -151,10 +151,10 @@
     state: teriyaki
 
 - type: entity
-  name: "нагрітий теріякі-карман"
+  name: warm teriyaki-pocket
   parent: FoodDonkpocketTeriyaki
   id: FoodDonkpocketTeriyakiWarm
-  description: "Східно-азійський варіант класичного вокзального перекусу, тепер ще й з парою та теплом."
+  description: An East Asian take on the classic stationside snack, now steamy and warm.
   components:
   - type: FlavorProfile
     flavors:
@@ -171,10 +171,10 @@
           Quantity: 2
 
 - type: entity
-  name: "піцца-карман"
+  name: pizza-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketPizza
-  description: "Смачний, сирний і напрочуд ситний."
+  description: Delicious, cheesy and surprisingly filling.
   components:
   - type: FlavorProfile
     flavors:
@@ -192,10 +192,10 @@
     state: pizza
 
 - type: entity
-  name: "нагріта піцца-карман"
+  name: warm pizza-pocket
   parent: FoodDonkpocketPizza
   id: FoodDonkpocketPizzaWarm
-  description: "Сирна начинка дуже смакує в теплому вигляді."
+  description: Cheese filling really hits the spot when warm.
   components:
   - type: FlavorProfile
     flavors:
@@ -213,10 +213,10 @@
           Quantity: 2
 
 - type: entity
-  name: "гудковий-карман"
+  name: honk-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketHonk
-  description: "Удостоєна нагород кишеня для осла, яка завоювала серця клоунів і людей."
+  description: The award-winning donk-pocket that won the hearts of clowns and humans alike.
   components:
   - type: FlavorProfile
     flavors:
@@ -234,10 +234,10 @@
     state: banana
 
 - type: entity
-  name: "нагрітий гудковий-карман"
+  name: warm honk-pocket
   parent: FoodDonkpocketHonk
   id: FoodDonkpocketHonkWarm
-  description: "Відзначена нагородами кишеня для донкіхотів, тепер тепла і підсмажена."
+  description: The award-winning donk-pocket, now warm and toasty.
   components:
   - type: FlavorProfile
     flavors:
@@ -253,10 +253,10 @@
           Quantity: 2
 
 - type: entity
-  name: "ягідний-карман"
+  name: berry-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketBerry
-  description: "Невтомно солодкий ослик-кишеня. Зроблено зі 100% штучних ароматизаторів."
+  description: A relentlessly sweet donk-pocket. Made with 100% artificial flavoring.
   components:
   - type: FlavorProfile
     flavors:
@@ -272,10 +272,10 @@
     state: berry
 
 - type: entity
-  name: "нагрітий ягідний-карман"
+  name: warm berry-pocket
   parent: FoodDonkpocketBerry
   id: FoodDonkpocketBerryWarm
-  description: "Незмінно солодкий ослик-кишеня, тепер теплий і смачний."
+  description: A relentlessly sweet donk-pocket, now warm and delicious.
   components:
   - type: FlavorProfile
     flavors:
@@ -293,10 +293,10 @@
           Quantity: 2
 
 - type: entity
-  name: "стонк-карман"
+  name: stonk-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketStonk
-  description: "Смачно, але сумне нагадування про великий крах 24-го року"
+  description: Tasty, but a sad reminder of the great crash of '24
   components:
   - type: FlavorProfile
     flavors:
@@ -312,7 +312,7 @@
     state: stonk
 
 - type: entity
-  name: "нагрітий стонк-карман"
+  name: warm stonk-pocket
   parent: FoodDonkpocketStonk
   id: FoodDonkpocketStonkWarm
   components:
@@ -330,10 +330,10 @@
           Quantity: 2
 
 - type: entity
-  name: "короп-карман"
+  name: carp-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketCarp
-  description: "Давно втрачене видання донк-карман, зроблене спеціально для працьовитих рятувальників."
+  description: A long-lost edition of donk pocket, made specifically for hard-working salvagers.
   components:
   - type: FlavorProfile
     flavors:
@@ -349,7 +349,7 @@
     state: carp
 
 - type: entity
-  name: "нагрітий короп-карман"
+  name: warm carp-pocket
   parent: FoodDonkpocketCarp
   id: FoodDonkpocketCarpWarm
   components:
@@ -367,10 +367,10 @@
           Quantity: 2
 
 - type: entity
-  name: "ящірний донк-карман"
+  name: dink-pocket
   parent: FoodDonkpocketBase
   id: FoodDonkpocketDink
-  description: "Небрендована кишеня з ящірки, наповнена маринованою морквою та загорнута у водорості. Найкраще їсти холодною, а ще краще - не їсти взагалі."
+  description: An off-brand lizard donk-pocket, filled with pickled carrot and wrapped with seaweed. Best eaten cold, or even better, not eaten at all.
   components:
   - type: FlavorProfile
     flavors:

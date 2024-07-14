@@ -1,6 +1,6 @@
 ﻿- type: entity
-  name: "Бур'ян"
-  description: "Дивні сірі бур'яни."
+  name: Weed
+  description: Strange grey weeds.
   parent: BaseStructure
   id: AlienWeed
   components:
@@ -43,8 +43,8 @@
       - type: PlasmaGainModifier
 
 - type: entity
-  name: "Вузол бур'яну"
-  description: "Він дивно світиться."
+  name: Weed node
+  description: It's strangely glowing.
   parent: BaseStructure
   id: AlienWeednode
   components:

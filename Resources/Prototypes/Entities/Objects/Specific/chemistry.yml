@@ -149,9 +149,9 @@
     price: 30
 
 - type: entity
-  name: "склянка"
+  name: beaker
   parent: BaseBeaker
-  description: "Використовується для зберігання помірної кількості хімічних речовин і розчинів."
+  description: Used to contain a moderate amount of chemicals and solutions.
   id: Beaker
   components:
   - type: Spillable
@@ -165,8 +165,8 @@
     inHandsFillBaseName: -fill-
 
 - type: entity
-  name: "склянка з кріоксадоном"
-  description: "Заповнені реагентом, що використовується в кріогенних пробірках."
+  name: cryoxadone beaker
+  description: Filled with a reagent used in cryogenic tubes.
   parent: Beaker
   id: CryoxadoneBeakerSmall
   components:
@@ -179,9 +179,9 @@
           Quantity: 50
 
 - type: entity
-  name: "велика склянка"
+  name: large beaker
   parent: BaseBeaker
-  description: "Використовується для зберігання великої кількості хімічних речовин або розчинів."
+  description: Used to contain a large amount of chemicals or solutions.
   id: LargeBeaker
   components:
   - type: Spillable
@@ -211,9 +211,9 @@
     price: 20
 
 - type: entity
-  name: "стакан для кріостазу"
+  name: cryostasis beaker
   parent: BaseBeakerMetallic
-  description: "Використовується для утримання хімічних речовин або розчинів, що не вступають у реакцію."
+  description: Used to contain chemicals or solutions without reactions.
   id: CryostasisBeaker
   components:
   - type: Spillable
@@ -229,9 +229,9 @@
         canReact: false
 
 - type: entity
-  name: "блюспейс стакан"
+  name: bluespace beaker
   parent: BaseBeakerMetallic
-  description: "Працює на експериментальній технології bluespace."
+  description: Powered by experimental bluespace technology.
   id: BluespaceBeaker
   components:
   - type: Spillable
@@ -247,9 +247,9 @@
         canMix: true
 
 - type: entity
-  name: "піпетка"
+  name: dropper
   parent: BaseItem
-  description: "Використовується для переміщення невеликих кількостей хімічного розчину між контейнерами."
+  description: Used to transfer small amounts of chemical solution between containers.
   id: Dropper
   components:
   - type: Sprite
@@ -290,9 +290,9 @@
     price: 40
 
 - type: entity
-  name: "боргдроппер"
+  name: borgdropper
   parent: Dropper
-  description: "Використовується для перенесення невеликих кількостей хімічних розчинів між контейнерами. Розширений для використання медичними боргами."
+  description: Used to transfer small amounts of chemical solution between containers. Extended for use by medical borgs.
   id: BorgDropper
   components:
   - type: Sprite
@@ -310,9 +310,9 @@
     sprite: Objects/Specific/Chemistry/dropper.rsi
 
 - type: entity
-  name: "шприц"
+  name: syringe
   parent: BaseItem
-  description: "Використовується для відбору зразків крові у натовпу або для ін'єкцій реагентів."
+  description: Used to draw blood samples from mobs, or to inject them with reagents.
   id: BaseSyringe
   abstract: true
   components:
@@ -374,8 +374,8 @@
 - type: entity
   id: SyringeBluespace
   parent: BaseSyringe
-  name: "шприц bluespace"
-  description: "Ін'єкції за допомогою передової технології bluespace."
+  name: bluespace syringe
+  description: Injecting with advanced bluespace technology.
   components:
   - type: Sprite
     layers:
@@ -405,8 +405,8 @@
 - type: entity
   id: SyringeCryostasis
   parent: BaseSyringe
-  name: "кріостазний шприц"
-  description: "Шприц, який використовується для зберігання хімічних речовин або розчинів без реакції."
+  name: cryostasis syringe
+  description: A syringe used to contain chemicals or solutions without reactions.
   components:
   - type: Sprite
     layers:
@@ -435,10 +435,10 @@
 
 
 - type: entity
-  name: "таблетка"
+  name: pill
   parent: BaseItem
   id: Pill
-  description: "Це не супозиторії."
+  description: It's not a suppository.
   components:
   - type: Sprite
     sprite: Objects/Specific/Chemistry/pills.rsi
@@ -483,10 +483,10 @@
     - Pill
 
 - type: entity
-  name: "баночка з-під таблеток"
+  name: pill canister
   id: PillCanister
   parent: BaseStorageItem
-  description: "Містить до 10 таблеток."
+  description: Holds up to 10 pills.
   components:
   - type: Item
     size: Tiny

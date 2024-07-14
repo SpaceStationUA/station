@@ -77,7 +77,7 @@
 - type: entity
   abstract: true
   id: MobOreCrab
-  name: "рудний краб"
+  name: ore crab
   parent: [ MobElementalBase, MobCombat ]
   components:
   - type: Sprite
@@ -105,7 +105,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobQuartzCrab
-  description: "Рудний краб з кварцу."
+  description: An ore crab made from Quartz.
   components:
   - type: Sprite
     state: quartz_crab
@@ -129,7 +129,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobIronCrab
-  description: "Рудний краб із заліза."
+  description: An ore crab made from iron.
   components:
   - type: Sprite
     state: iron_crab
@@ -160,7 +160,7 @@
 - type: entity
   parent: MobOreCrab
   id: MobUraniumCrab
-  description: "Рудний краб з урану."
+  description: An ore crab made from uranium.
   components:
   - type: FactionException
   - type: NPCRetaliation
@@ -195,8 +195,8 @@
 - type: entity
   parent: MobOreCrab
   id: MobSilverCrab
-  name: "рудний краб"
-  description: "Рудний краб зі срібла."
+  name: ore crab
+  description: An ore crab made from silver.
   components:
   - type: Sprite
     state: silver_crab
@@ -222,11 +222,11 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: "Реагентний слиз"
+  name: Reagent slime
   id: ReagentSlime
   suffix: Water
   parent: [ MobAdultSlimes, MobCombat ]
-  description: "Він складається з рідини, і вона хоче розчинити вас у собі."
+  description: It consists of a liquid, and it wants to dissolve you in itself.
   components:
   - type: GhostRole
     description: ghost-role-information-angry-slimes-description
@@ -294,7 +294,7 @@
     solution: bloodstream
 
 - type: entity
-  name: "Спавн реагентного слизу"
+  name: Reagent Slime Spawner
   id: ReagentSlimeSpawner
   parent: MarkerBase
   components:

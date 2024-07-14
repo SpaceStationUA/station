@@ -1,6 +1,6 @@
 - type: entity
-  name: "біблія"
-  description: "Нова міжзоряна версія 2340"
+  name: bible
+  description: New Interstellar Version 2340
   parent: BaseStorageItem
   id: Bible
   components:
@@ -55,8 +55,8 @@
 
 - type: entity
   parent: Bible
-  name: "некрономікон"
-  description: "Там є примітка: Klatuu, Verata, Nikto - не забудьте її знову!"
+  name: necronomicon
+  description: "There's a note: Klatuu, Verata, Nikto -- Don't forget it again!"
   id: BibleNecronomicon
   components:
   - type: Bible
@@ -84,8 +84,8 @@
 
 - type: entity
   id: ActionBibleSummon
-  name: "Викликати знайомого"
-  description: "Викличте знайомого, який допоможе вам і отримає людський розум, колись населений душею."
+  name: Summon familiar
+  description: Summon a familiar that will aid you and gain humanlike intelligence once inhabited by a soul.
   noSpawn: true
   components:
   - type: InstantAction
