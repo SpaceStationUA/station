@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionBlink
-  name: "Поморгай"
-  description: "Телепортуйтеся у вибране місце."
+  name: Blink
+  description: Teleport to the clicked location.
   noSpawn: true
   components:
   - type: WorldTargetAction

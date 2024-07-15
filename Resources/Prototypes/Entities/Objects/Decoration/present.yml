@@ -1,7 +1,7 @@
 - type: entity
   id: PresentBase
-  name: "подарунок"
-  description: "Маленька коробочка з неймовірними сюрпризами всередині."
+  name: present
+  description: A little box with incredible surprises inside.
   abstract: true
   components:
   - type: Sprite
@@ -437,8 +437,8 @@
   id: PresentTrash
   noSpawn: true
   parent: BaseItem
-  name: "Обгортковий папір"
-  description: "Акуратно складають, заклеюють скотчем і зав'язують бантом. Потім урочисто розривають і кидають на підлогу."
+  name: Wrapping Paper
+  description: Carefully folded, taped, and tied with a bow. Then ceremoniously ripped apart and tossed on the floor.
   components:
   - type: Sprite
     sprite: Objects/Decoration/present.rsi

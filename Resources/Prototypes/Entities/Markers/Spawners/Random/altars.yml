@@ -1,5 +1,5 @@
 - type: entity
-  name: "випадковий спавнер вівтаря"
+  name: random altar spawner
   id: AltarSpawner
   parent: MarkerBase
   components:
@@ -20,7 +20,7 @@
       offset: 0.0
 
 - type: entity
-  name: "випадковий спавнер новонаверненого вівтаря"
+  name: random convert-altar spawner
   id: ConvertAltarSpawner
   parent: MarkerBase
   components:
@@ -43,7 +43,7 @@
       offset: 0.0
 
 - type: entity
-  name: "випадкове породження культового вівтаря"
+  name: random cult-altar spawner
   id: CultAltarSpawner
   parent: MarkerBase
   components:
