@@ -2,8 +2,8 @@
 - type: entity
   id: OrganSyntheticHeart
   parent: BaseHumanOrgan
-  name: synthetic heart
-  description: "Whirrs and pumps blood."
+  name: "синтетичне серце"
+  description: "Дзижчить і качає кров."
   components:
   - type: Sprite
     state: heart-on
@@ -19,8 +19,8 @@
 - type: entity
   id: OrganSyntheticLiver
   parent: BaseHumanOrgan
-  name: synthetic liver
-  description: "Filters toxins from the bloodstream at higher rate than old 'ganic liver."
+  name: "синтетична печінка"
+  description: "Фільтрує токсини з крові з більшою швидкістю, ніж стареча печінка."
   components:
   - type: Sprite
     state: liver
@@ -40,8 +40,8 @@
 - type: entity
   id: OrganSyntheticKidneys
   parent: BaseHumanOrgan
-  name: synthetic kidneys
-  description: "Filters toxins from the bloodstream at higher rate than old 'ganic liver."
+  name: "синтетичні нирки"
+  description: "Фільтрує токсини з крові з більшою швидкістю, ніж стареча печінка."
   components:
   - type: Sprite
     layers:

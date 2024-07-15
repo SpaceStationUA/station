@@ -1,25 +1,25 @@
 - type: construction
-  name: tinfoil hat
+  name: "капелюх з фольги"
   id: tinfoilhat
   graph: TinfoilHat
   startNode: start
   targetNode: tinfoilhat
   category: construction-category-misc
-  description: Protect yourself from all the psionics on board this cursed vessel.
+  description: "Захистіть себе від усіх псіоніків на борту цього проклятого судна."
   icon:
     sprite: Nyanotrasen/Clothing/Head/Hats/tinfoil.rsi
     state: icon
   objectType: Item
 
 - type: construction
-  name: fish labeler
+  name: "етикетувальник риби"
   id: fishlabeler
   graph: fishlabeler
   startNode: start
   targetNode: fishlabeler
   category: construction-category-misc
   objectType: Item
-  description: For labeling your pet fish.
+  description: "Для маркування ваших домашніх рибок."
   icon:
     sprite: Objects/Tools/hand_labeler.rsi
     state: hand_labeler

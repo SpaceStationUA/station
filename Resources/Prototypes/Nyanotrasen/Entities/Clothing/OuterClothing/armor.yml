@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterArmorGladiator
-  name: gladiator armor
-  description: A good old set of boiled leather armor fit with buckles, belts, and a decorated pauldron. Are you not entertained?
+  name: "обладунки гладіатора"
+  description: "Старий добрий набір обладунків з вареної шкіри з пряжками, ременями та оздобленим казаном. Вам не цікаво?"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Armor/gladiator.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterArmorKendoBogu
-  name: bogu
-  description: A set of armor used in Kendo. It covers the waist, torso, and hands. 
+  name: "bogu"
+  description: "Комплект обладунків, що використовується в кендо. Покриває талію, тулуб і руки."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Armor/bogu.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterArmorTouseiGusoku
-  name: tousei-gusoku
-  description: A modern replica of a Ni-mai-do Gusoku armor set. 
+  name: "tousei-gusoku"
+  description: "Сучасна репліка набору обладунків Ні-май-до Гусоку."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Armor/touseigusoku.rsi

@@ -27,7 +27,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleBig
-  name: ammunition box (.20 rifle)
+  name: "коробочка з набоями (гвинтівка калібру .20)"
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -47,7 +47,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleBigRubber
-  name: ammunition box (.20 rifle rubber)
+  name: "ящик для набоїв (гвинтівкова гума калібру .20)"
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -68,7 +68,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifle
-  name: ammunition box (.20 rifle)
+  name: "коробочка з набоями (гвинтівка калібру .20)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifle
@@ -82,7 +82,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRiflePractice
-  name: ammunition box (.20 rifle practice)
+  name: "коробочка з набоями (стрільба з гвинтівки калібру .20)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRiflePractice
@@ -97,7 +97,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleRubber
-  name: ammunition box (.20 rifle rubber)
+  name: "ящик для набоїв (гвинтівкова гума калібру .20)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleRubber
@@ -112,7 +112,7 @@
 - type: entity
   id: MagazineBoxRifleIncendiary
   parent: BaseMagazineBoxRifle
-  name: ammunition box (.20 rifle incendiary)
+  name: "ящик з боєприпасами (запал для гвинтівки калібру 20)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleIncendiary
@@ -127,7 +127,7 @@
 - type: entity
   id: MagazineBoxRifleUranium
   parent: BaseMagazineBoxRifle
-  name: ammunition box (.20 rifle uranium)
+  name: "коробочка з набоями (.20 гвинтівочний уран)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleUranium

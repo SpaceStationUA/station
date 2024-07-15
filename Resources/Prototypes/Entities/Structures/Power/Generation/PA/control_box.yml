@@ -1,8 +1,8 @@
 - type: entity
   parent: ParticleAcceleratorFinishedPart
   id: ParticleAcceleratorControlBox
-  name: PA control computer
-  description: This controls the density of the particles.
+  name: "Моніторинг керування прискорювачем частинок"
+  description: "Це контролює щільність частинок."
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/PA/control_box.rsi
@@ -31,9 +31,9 @@
 - type: entity
   parent: ParticleAcceleratorUnfinishedBase
   id: ParticleAcceleratorControlBoxUnfinished
-  name: PA control computer
+  name: "Моніторинг керування прискорювачем частинок"
   suffix: Unfinished
-  description: This controls the density of the particles. It looks unfinished.
+  description: "Це контролює щільність частинок. Виглядає незавершеним."
   components:
     - type: Sprite
       sprite: Structures/Power/Generation/PA/control_box.rsi
