@@ -2,8 +2,8 @@
   noSpawn: true
   id: TranslatorUnpowered
   parent: BaseItem
-  name: translator
-  description: Translates speech.
+  name: "перекладач"
+  description: "Перекладає мову."
   components:
   - type: Sprite
     sprite: Objects/Devices/translator.rsi
@@ -53,15 +53,15 @@
   noSpawn: true
   id: TranslatorForeigner
   parent: [ TranslatorUnpowered, PowerCellSlotHighItem ]
-  name: foreigner's translator
-  description: A special-issue translator that helps foreigner's speak and understand this station's primary language.
+  name: "перекладач іноземців"
+  description: "Спеціальний перекладач, який допомагає іноземцям говорити і розуміти основну мову цієї станції."
 
 
 - type: entity
   id: CanilunztTranslator
   parent: [ TranslatorEmpty ]
-  name: Canilunzt translator
-  description: Translates speech between Canilunzt and Galactic Common, allowing your local yeepers to communicate with the locals and vice versa!
+  name: "Перекладач Canilunzt"
+  description: "Перекладає мову між Canilunzt і Galactic Common, дозволяючи вашим місцевим юзерам спілкуватися з місцевими і навпаки!"
   components:
   - type: HandheldTranslator
     spoken:
@@ -77,8 +77,8 @@
 - type: entity
   id: BubblishTranslator
   parent: [ TranslatorEmpty ]
-  name: Bubblish translator
-  description: Translates speech between Bubblish and Galactic Common, helping communicate with slimes and slime people.
+  name: "Перекладач Bubblish"
+  description: "Перекладає мову з баблішської на галактичну, допомагаючи спілкуватися зі слимаками та людьми-слимаками."
   components:
   - type: HandheldTranslator
     spoken:
@@ -94,8 +94,8 @@
 - type: entity
   id: NekomimeticTranslator
   parent: [ TranslatorEmpty ]
-  name: Nekomimetic translator
-  description: Translates speech between Nekomimetic and Galactic Common, enabling you to communicate with your pet cats.
+  name: "Неміметичний перекладач"
+  description: "Перекладає мову з Некоміметичної на Галактичну загальну, дозволяючи вам спілкуватися з вашими домашніми котами."
   components:
   - type: HandheldTranslator
     spoken:
@@ -111,8 +111,8 @@
 - type: entity
   id: DraconicTranslator
   parent: [ TranslatorEmpty ]
-  name: Draconic translator
-  description: Translates speech between Draconic and Galactic Common, making it easier to understand your local Uniathi.
+  name: "Драконівський перекладач"
+  description: "Перекладає мову з драконячої на галактичну, полегшуючи розуміння вашої місцевої уніаті."
   components:
   - type: HandheldTranslator
     spoken:
@@ -128,8 +128,8 @@
 - type: entity
   id: SolCommonTranslator
   parent: [ TranslatorEmpty ]
-  name: Sol Common translator
-  description: Translates speech between Sol Common and Galactic Common. Like a true Earthman!
+  name: "Сол Спільний перекладач"
+  description: "Перекладає мову з сол-спільної на галактичну. Як справжній землянин!"
   components:
   - type: HandheldTranslator
     spoken:
@@ -145,8 +145,8 @@
 - type: entity
   id: RootSpeakTranslator
   parent: [ TranslatorEmpty ]
-  name: RootSpeak translator
-  description: Translates speech between RootSpeak and Galactic Common. You may now speak for the trees.
+  name: "Перекладач RootSpeak"
+  description: "Перекладає мову між RootSpeak та Galactic Common. Тепер ви можете говорити від імені дерев."
   components:
   - type: HandheldTranslator
     spoken:
@@ -162,8 +162,8 @@
 - type: entity
   id: MofficTranslator
   parent: [ TranslatorEmpty ]
-  name: Moffic translator
-  description: Translates speech between Moffic and Galactic Common, helping you understand the buzzes of your pet mothroach!
+  name: "Moffic перекладач"
+  description: "Перекладає мову між Moffic та Galactic Common, допомагаючи вам зрозуміти дзижчання вашого домашнього таргана!"
   components:
   - type: HandheldTranslator
     spoken:
@@ -179,8 +179,8 @@
 - type: entity
   id: XenoTranslator
   parent: [ TranslatorEmpty ]
-  name: Xeno translator
-  description: Translates speech between Xeno and Galactic Common. This will probably not help you survive an encounter, though.
+  name: "Ксеноперекладач"
+  description: "Перекладає мову між Ксено та галактичною мовою. Однак це, мабуть, не допоможе вам вижити під час сутички."
   components:
   - type: HandheldTranslator
     spoken:
@@ -195,8 +195,8 @@
 - type: entity
   id: AnimalTranslator
   parent: [ TranslatorEmpty ]
-  name: Animal translator
-  description: Translates all the cutes noises that most animals make into a more understandable form!
+  name: "Перекладач тварин"
+  description: "Перекладає всі милі звуки, які видає більшість тварин, у більш зрозумілу форму!"
   components:
   - type: HandheldTranslator
     understood:

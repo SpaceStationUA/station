@@ -1,9 +1,9 @@
 - type: entity
-  name: basic slime
+  name: "основний шлам"
   id: MobAdultSlimes
   parent: [ SimpleMobBase, MobCombat ]
   abstract: true
-  description: It looks so much like jelly. I wonder what it tastes like?
+  description: "Це так схоже на желе. Цікаво, який він на смак?"
   components:
   - type: NpcFactionMember
     factions:
@@ -131,7 +131,7 @@
   - type: CanWalk
 
 - type: entity
-  name: blue slime
+  name: "синій слиз"
   id: MobAdultSlimesBlue
   parent: MobAdultSlimes
   components:
@@ -143,7 +143,7 @@
         Base: blue_adult_slime_dead
 
 - type: entity
-  name: blue slime
+  name: "синій слиз"
   parent: MobAdultSlimesBlue
   id: MobAdultSlimesBlueAngry
   suffix: Angry
@@ -155,7 +155,7 @@
 #      description: ghost-role-information-angry-slimes-description
 
 - type: entity
-  name: green slime
+  name: "зелений слиз"
   parent: MobAdultSlimes
   id: MobAdultSlimesGreen
   components:
@@ -178,7 +178,7 @@
           Poison: 4
 
 - type: entity
-  name: green slime
+  name: "зелений слиз"
   parent: MobAdultSlimesGreen
   id: MobAdultSlimesGreenAngry
   suffix: Angry
@@ -190,7 +190,7 @@
 #      description: ghost-role-information-angry-slimes-description
 
 - type: entity
-  name: yellow slime
+  name: "жовтий слиз"
   parent: MobAdultSlimes
   id: MobAdultSlimesYellow
   components:
@@ -213,7 +213,7 @@
           Cellular: 3
 
 - type: entity
-  name: yellow slime
+  name: "жовтий слиз"
   parent: MobAdultSlimesYellow
   id: MobAdultSlimesYellowAngry
   suffix: Angry

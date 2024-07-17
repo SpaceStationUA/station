@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtArcadia
-  name: arcadia jumpskirt
-  description: A jumpskirt produced by Arcadia Industries. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood
+  name: "спідниця-комбінезон arcadia"
+  description: "Спідниця-комбінезон виробництва Arcadia Industries. Призначена для зменшення потертостей між ногами для комфорту шкіри, слизу, лусочок, пуху та деревини"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/arcadia.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtValet
-  name: valet's uniform
-  description: A nice and tidy uniform.
+  name: "уніформа паркувальника"
+  description: "Гарна та охайна форма."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
@@ -23,20 +23,20 @@
 - type: entity
   parent: ClothingUniformJumpskirtDetective
   id: ClothingUniformJumpskirtBH
-  name: hard-worn suit
-  description: Someone who wears this means business.
+  name: "міцний костюм"
+  description: "Той, хто носить це, має на увазі бізнес."
 
 - type: entity
   parent: ClothingUniformJumpskirtDetectiveGrey
   id: ClothingUniformJumpskirtBHGrey
-  name: noir suit
-  description: A grey suit, complete with tie clip.
+  name: "чорний костюм"
+  description: "Сірий костюм, з затискачем для краватки."
 
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtMercenary
-  name: mercenary jumpskirt
-  description: Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.
+  name: "спідниця найманця"
+  description: "Одяг для справжніх найманців, які пройшли крізь вогонь, воду та джунглі планет, що кишать небезпечними монстрами або цілями, за які призначена винагорода."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/mercenary.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSecGuard
-  name: security guard's uniform
-  description: A specialized uniform for Frontier Outpost's station guard. Crisp and official to let dock loiterers know you mean business.
+  name: "форма охоронця"
+  description: "Спеціалізована уніформа для прикордонників Прикордонної застави. Чіткий та офіційний, щоб дати зрозуміти неробам, що ви серйозно ставитеся до справи."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/security_guard.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtNfsd
-  name: nfsd jumpskirt
-  description: A long sleeved jumpskirt produced for deputy sheriff's. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood
+  name: "nfsd спідниця-комбінезон"
+  description: "Спідниця з довгими рукавами, виготовлена для заступників шерифа. Призначена для зменшення потертостей між ногами для комфорту шкіри, слизу, луски, пуху та деревини"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/nfsd_skirt.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtNfsdShort
-  name: nfsd jumpskirt
-  description: A short sleeved jumpskirt produced for deputy sheriff's. Designed to reduce chaffing between the legs for the comfort of skin, slime, scales, fluff, and wood
+  name: "nfsd спідниця-комбінезон"
+  description: "Спідниця з короткими рукавами, виготовлена для заступників шерифа. Призначена для зменшення потертостей між ногами для комфорту шкіри, слизу, луски, пуху та деревини"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/nfsd_skirt_short.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPrivateSec
-  name: private security jumpskirt
-  description: A specialized uniform for a private security guard. For the discerning private contractor in need of a professional look.
+  name: "комбінезон приватної охорони"
+  description: "Спеціалізована уніформа для приватного охоронця. Для вибагливого приватного підрядника, який потребує професійного вигляду."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/private_security.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: ClothingUniformJumpskirtHoP
   id: ClothingUniformJumpskirtSr
-  name: station representative's uniform
-  description: A top of the line outfit for Frontier Outpost's station representative. No expense was spared in the tailoring, every stitch is a masterpiece. The fact this suit was even issued shows the trust Central Command is placing in their representative on this outpost.
+  name: "уніформа представника станції"
+  description: "Першокласне вбрання для представника прикордонної застави. На пошиття не шкодували коштів, кожен стібок - шедевр. Той факт, що цей костюм взагалі був виданий, свідчить про довіру Центрального командування до свого представника на цій заставі."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/sr.rsi

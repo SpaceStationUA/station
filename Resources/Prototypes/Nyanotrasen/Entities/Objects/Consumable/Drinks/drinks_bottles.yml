@@ -1,7 +1,7 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: DrinkSakeBottleFull
-  name: sake bottle
+  name: "пляшка саке"
   description: |
     Clear, or sometimes foggy
     Chilled like ice cream alcohol
@@ -19,8 +19,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: DrinkSojuBottleFull
-  name: soju bottle
-  description: It's like sake but if you're trying to get FUCKED. UP.
+  name: "пляшка соджу"
+  description: "Це як саке, але якщо ти хочеш, щоб тебе відтрахали. ВСТАВАЙ."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -34,8 +34,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkTokkuri
-  name: tokkuri
-  description: Floral and full of osake!
+  name: "токкурі"
+  description: "Квітковий і повний осаке!"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -50,8 +50,8 @@
 - type: entity
   parent: DrinkBottleGlassBaseFull
   id: DrinkHolyWaterFull
-  name: flask of holy water
-  description: A flask of holy water.
+  name: "колба зі святою водою"
+  description: "Фляга зі свяченою водою."
   components:
   - type: SolutionContainerManager
     solutions:

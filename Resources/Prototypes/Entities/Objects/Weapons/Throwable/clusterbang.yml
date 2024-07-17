@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ClusterBang
-  name: clusterbang
-  description: Can be used only with flashbangs. Explodes several times.
+  name: "кластерний вибух"
+  description: "Може використовуватися тільки з сигнальними ракетами. Вибухає кілька разів."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/clusterbang.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: GrenadeBase
   id: ClusterBangFull
-  name: ClusterBang
-  description: Launches three flashbangs after the timer runs out.
+  name: "ClusterBang"
+  description: "Запускає три світлошумові гранати після закінчення таймера."
   suffix: Full
   components:
   - type: Sprite
@@ -52,8 +52,8 @@
 - type: entity
   parent: GrenadeBase
   id: ClusterGrenade
-  name: clustergrenade
-  description: Why use one grenade when you can use three at once!
+  name: "кластерна граната"
+  description: "Навіщо використовувати одну гранату, коли можна використати одразу три!"
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/clusterbomb.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: BaseItem
   id: ClusterBananaPeel
-  name: cluster banana peel
-  description: Splits into 6 explosive banana peels after throwing, guaranteed fun!
+  name: "кластерна бананова шкірка"
+  description: "Після кидка розпадається на 6 вибухових бананових шкірок, веселощі гарантовані!"
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/banana.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: GrenadeBase
   id: GrenadeStinger
-  name: stinger grenade
-  description: Nothing to see here, please disperse.
+  name: "світлошумова граната"
+  description: "Тут немає на що дивитися, будь ласка, розійдіться."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/stingergrenade.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: GrenadeBase
   id: GrenadeIncendiary
-  name: incendiary grenade
-  description: Guaranteed to light up the mood.
+  name: "запальна граната"
+  description: "Гарантовано підніме настрій."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/pyrogrenade.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: GrenadeBase
   id: GrenadeShrapnel
-  name: shrapnel grenade
-  description: Releases a deadly spray of shrapnel that causes severe bleeding.
+  name: "осколкова граната"
+  description: "Випускає смертоносний аерозоль осколків, що спричиняє сильну кровотечу."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Grenades/shrapnelgrenade.rsi
@@ -204,8 +204,8 @@
 - type: entity
   parent: SoapSyndie
   id: SlipocalypseClusterSoap
-  name: slipocalypse clustersoap
-  description: Spreads small pieces of syndicate soap over an area upon landing on the floor.
+  name: "slipocalypse clustersoap"
+  description: "Приземлившись на підлогу, розкидає невеликі шматочки синдикативного мила по площі."
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/soap.rsi
