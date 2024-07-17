@@ -40,6 +40,7 @@ namespace Content.Shared.Alert
         Internals,
         Toxins,
         Muted,
+        Walking,
         VowOfSilence,
         VowBroken,
         Essence,
