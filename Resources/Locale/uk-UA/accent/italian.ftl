@@ -7,37 +7,37 @@
 # accemt-italian-prefix-4 = La la la la la funiculi funicula!
 
 accent-italian-words-1 = асистент
-accent-italian-words-replace-1 = гумба
+accent-italian-words-replace-1 = асістенте
 
 accent-italian-words-2 = асистенти
-accent-italian-words-replace-2 = гумбахи
+accent-italian-words-replace-2 = асістентос
 
 accent-italian-words-3 = крихітка
 accent-italian-words-replace-3 = бамбіно
 
 accent-italian-words-4 = поганий
-accent-italian-words-replace-4 = справжній чоловік
+accent-italian-words-replace-4 = малє
 
 accent-italian-words-5 = бувай
-accent-italian-words-replace-5 = до побачення
+accent-italian-words-replace-5 = чао
 
 accent-italian-words-6 = капітане
 accent-italian-words-replace-6 = капітано
 
 accent-italian-words-7 = сир
-accent-italian-words-replace-7 = пармезан
+accent-italian-words-replace-7 = формагіо
 
 accent-italian-words-8 = готувати
-accent-italian-words-replace-8 = готувати
+accent-italian-words-replace-8 = кукінаре
 
 accent-italian-words-9 = міг би
-accent-italian-words-replace-9 = міг би
+accent-italian-words-replace-9 = потребе
 
 accent-italian-words-10 = тату
-accent-italian-words-replace-10 = тату!
+accent-italian-words-replace-10 = папà!
 
 accent-italian-words-11 = добре
-accent-italian-words-replace-11 = дуже добре
+accent-italian-words-replace-11 = бене
 
 accent-italian-words-12 = сірість
 accent-italian-words-replace-12 = кривий
@@ -69,8 +69,8 @@ accent-italian-words-replace-20 = моя
 accent-italian-words-21 = ядерна бомба
 accent-italian-words-replace-21 = найгостріша - фрикаделька
 
-accent-italian-words-22 = оп
-accent-italian-words-replace-22 = грецький
+accent-italian-words-22 = яо
+accent-italian-words-replace-22 = грецький перець
 
 accent-italian-words-23 = оперативник
 accent-italian-words-replace-23 = грецький
@@ -82,28 +82,28 @@ accent-italian-words-24 = операції
 accent-italian-words-replace-24 = греки
 
 accent-italian-words-25 = безпека
-accent-italian-words-replace-25 = поліція
+accent-italian-words-replace-25 = сікуреза
 
 accent-italian-words-26 = безпека
-accent-italian-words-replace-26 = поліція
+accent-italian-words-replace-26 = сікуреза
 
 accent-italian-words-27 = шериф
-accent-italian-words-replace-27 = поліція
+accent-italian-words-replace-27 = ла полізіа
 
 accent-italian-words-28 = охорона
-accent-italian-words-replace-28 = карабінери
+accent-italian-words-replace-28 = мердареза
 
 accent-italian-words-29 = гівнюки
-accent-italian-words-replace-29 = карабінери
+accent-italian-words-replace-29 = москетоні
 
 accent-italian-words-30 = співати
-accent-italian-words-replace-30 = співай
+accent-italian-words-replace-30 = кантаре
 
 accent-italian-words-31 = спагеті
-accent-italian-words-replace-31 = СПАГЕТТ
+accent-italian-words-replace-31 = СПАГЕТТІ
 
 accent-italian-words-32 = гострий
-accent-italian-words-replace-32 = а-пікантний
+accent-italian-words-replace-32 = акуто
 
 accent-italian-words-33 = дякую
 accent-italian-words-replace-33 = граціас
@@ -112,10 +112,10 @@ accent-italian-words-34 = річ
 accent-italian-words-replace-34 = річ-а
 
 accent-italian-words-35 = зрадник
-accent-italian-words-replace-35 = мафіозі
+accent-italian-words-replace-35 = мафіозі-о
 
 accent-italian-words-36 = зрадники
-accent-italian-words-replace-36 = мафіозі
+accent-italian-words-replace-36 = мафіозі-о
 
 accent-italian-words-37 = використання
 accent-italian-words-replace-37 = використовувати -а
@@ -145,10 +145,10 @@ accent-italian-words-45 = пасажири
 accent-italian-words-replace-45 = гумбахи
 
 accent-italian-words-46 = я
-accent-italian-words-replace-46 = я
+accent-italian-words-replace-46 = я-а
 
-accent-italian-words-47 = ам-а
-accent-italian-words-replace-47 = ам-а
+accent-italian-words-47 = я
+accent-italian-words-replace-47 = я-а
 
 accent-italian-words-48 = і-а
 accent-italian-words-replace-48 = і-а

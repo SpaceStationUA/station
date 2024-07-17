@@ -1,8 +1,8 @@
 ## PickUpVerb
 
-pick-up-verb-get-data-text = Візьми трубку.
+pick-up-verb-get-data-text = Підібрати.
 
-# "Забрати" не має сенсу, якщо товар вже є в інвентарі
+# "Підбирати" не має сенсу, якщо товар вже є в інвентарі
 
 pick-up-verb-get-data-text-inventory = Покласти в руку
 
