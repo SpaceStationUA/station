@@ -1,8 +1,8 @@
 - type: entity
-  name: "бейсбольна біта"
+  name: baseball bat
   parent: BaseItem
   id: BaseBallBat
-  description: "Міцна бейсбольна бита."
+  description: A robust baseball bat.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/baseball_bat.rsi
@@ -41,10 +41,10 @@
     - BaseballBat
 
 - type: entity
-  name: "ударна палиця"
+  name: knockback stick
   parent: BaseBallBat
   id: WeaponMeleeKnockbackStick
-  description: "А потім у нього почалася кровотеча."
+  description: And then he spleefed all over.
   suffix: Do not map
   components:
   - type: MeleeThrowOnHit
@@ -54,10 +54,10 @@
         Blunt: 1
 #PIRATE START UNTIL END OF FILE
 - type: entity
-  name: "магічна біта"
+  name: магічна бита
   parent: BaseBallBat
   id: WeaponMeleeMagicBat
-  description: "Вибийте з них всю дурість."
+  description: Вибийте з них всю дурь.
   # suffix: Do not map
   components:
   - type: Sprite

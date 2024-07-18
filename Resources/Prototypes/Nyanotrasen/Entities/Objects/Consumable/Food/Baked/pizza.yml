@@ -1,8 +1,8 @@
 - type: entity
-  name: "піца з кукурудзяним качаном"
+  name: corncob crust pizza
   parent: FoodPizzaBase
   id: FoodPizzaCorncob
-  description: "Складені разом як хворий жарт. Найкраще подавати з рідким вершковим маслом."
+  description: Cobbled together as a sick joke. Best served with liquid butter.
   components:
   - type: FlavorProfile
     flavors:
@@ -26,10 +26,10 @@
     - Pizza
 
 - type: entity
-  name: "шматочок піци з кукурудзяного качана"
+  name: slice of corncob crust pizza
   parent: FoodPizzaSliceBase
   id: FoodPizzaCorncobSlice
-  description: "Складені разом як хворий жарт. Найкраще подавати з рідким вершковим маслом."
+  description: Cobbled together as a sick joke. Best served with liquid butter.
   components:
   - type: FlavorProfile
     flavors:
@@ -51,10 +51,10 @@
     - Pizza
 
 - type: entity
-  name: "піца-феєрверк"
+  name: firecracker pizza
   parent: FoodPizzaBase
   id: FoodMothPizzaFirecracker
-  description: "Вони не жартують, коли називають це гарячою піцою."
+  description: They're not kidding when they call this a hot pizza pie.
   components:
   - type: FlavorProfile
     flavors:
@@ -86,10 +86,10 @@
     - ClothMade # Mothic Food
 
 - type: entity
-  name: "шматок піци-феєрверк"
+  name: slice of firecracker pizza
   parent: FoodPizzaSliceBase
   id: FoodMothPizzaFirecrackerSlice
-  description: "Гострий шматочок чогось дуже приємного."
+  description: A spicy slice of something quite nice.
   components:
   - type: FlavorProfile
     flavors:
@@ -120,10 +120,10 @@
 # Tastes like crust, chili, corn, cheese
 
 - type: entity
-  name: "піца з чотирма сирами"
+  name: quattro formaggi pizza
   parent: FoodPizzaBase
   id: FoodMothPizzaFiveCheese
-  description: "Століттями вчені запитували: скільки сиру - це занадто багато сиру?"
+  description: For centuries, scholars have asked; how much cheese is too much cheese?
   components:
   - type: FlavorProfile
     flavors:
@@ -141,10 +141,10 @@
     - ClothMade # Mothic Food
 
 - type: entity
-  name: "шматок піци з чотирма сирами"
+  name: slice of quattro formaggi pizza
   parent: FoodPizzaSliceBase
   id: FoodMothPizzaFiveCheeseSlice
-  description: "Це найсирніша скибочка в галактиці!"
+  description: It's the cheesiest slice in the galaxy!
   components:
   - type: FlavorProfile
     flavors:
@@ -161,10 +161,10 @@
 # Tastes like crust, cheese, more cheese, excessive amount of cheese
 
 - type: entity
-  name: "піца з песто"
+  name: pesto pizza
   parent: FoodPizzaBase
   id: FoodMothPizzaPesto
-  description: "Песто - популярна начинка для піци серед метеликів, цілком можливо, тому, що вона уособлює їхні улюблені смаки: сир, зелень та овочі."
+  description: Pesto is a popular pizza topping for moths, quite possibly because it exemplifies their favourite flavours; cheese, herbs, and veggies.
   components:
   - type: FlavorProfile
     flavors:
@@ -194,10 +194,10 @@
     - Fruit
 
 - type: entity
-  name: "шматочок піци з песто"
+  name: slice of pesto pizza
   parent: FoodPizzaSliceBase
   id: FoodMothPizzaPestoSlice
-  description: "Зелений, як трава в саду."
+  description: Green as the grass in the garden.
   components:
   - type: FlavorProfile
     flavors:
@@ -226,10 +226,10 @@
 # Tastes like crust, pesto, cheese
 
 - type: entity
-  name: "бавовняна піца"
+  name: cotton pizza
   parent: FoodPizzaBase
   id: FoodMothPizzaCotton
-  description: "Для одних - злочин, для інших - смачна піца. Бавовна і сир."
+  description: A crime to some, a delicious pizza to others. Cotton and cheese.
   components:
   - type: FlavorProfile
     flavors:
@@ -258,10 +258,10 @@
     - ClothMade
 
 - type: entity
-  name: "шматочок бавовняної піци"
+  name: slice of cotton pizza
   parent: FoodPizzaSliceBase
   id: FoodMothPizzaCottonSlice
-  description: "Білий, як аркуш паперу."
+  description: White as a sheet of paper.
   components:
   - type: FlavorProfile
     flavors:

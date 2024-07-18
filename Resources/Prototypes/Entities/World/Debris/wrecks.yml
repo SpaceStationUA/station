@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseScrapDebris
   parent: BaseDebris
-  name: "Утилізація сміття"
+  name: Scrap Debris
   abstract: true
   components:
     - type: MapGrid
@@ -52,7 +52,7 @@
 - type: entity
   id: ScrapDebrisSmall
   parent: BaseScrapDebris
-  name: "Брухт Сміття Малий"
+  name: Scrap Debris Small
   noSpawn: true
   components:
     - type: MapGrid
@@ -62,7 +62,7 @@
 - type: entity
   id: ScrapDebrisMedium
   parent: BaseScrapDebris
-  name: "Середній рівень брухту та сміття"
+  name: Scrap Debris Medium
   noSpawn: true
   components:
     - type: MapGrid
@@ -72,7 +72,7 @@
 - type: entity
   id: ScrapDebrisLarge
   parent: BaseScrapDebris
-  name: "Брухт сміття великий"
+  name: Scrap Debris Large
   noSpawn: true
   components:
     - type: MapGrid
