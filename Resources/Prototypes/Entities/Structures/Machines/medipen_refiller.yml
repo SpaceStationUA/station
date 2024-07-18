@@ -1,8 +1,8 @@
 - type: entity
   id: MedipenRefiller
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: medipen refiller
-  description: A machine that refill medipens.
+  name: "наповнювач medipen"
+  description: "Машина, яка заправляє медикаменти."
   components:
   - type: Sprite
     snapCardinals: true

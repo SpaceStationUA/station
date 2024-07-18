@@ -1,6 +1,6 @@
 # Clutter
 - type: entity
-  name: random clutter
+  name: "випадковий безлад"
   id: SpawnDungeonLootArmoryClutter
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Mercenary"
@@ -35,7 +35,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: random clutter
+  name: "випадковий безлад"
   id: SpawnDungeonLootArmoryClutterSec
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Security"
@@ -80,7 +80,7 @@
 
 # Tools (Weapons)
 - type: entity
-  name: random weapon
+  name: "випадкова зброя"
   id: SpawnDungeonLootArmoryGuns
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Loose, T1"
@@ -112,7 +112,7 @@
     rareChance: 0.25
 
 - type: entity
-  name: random weapon
+  name: "випадкова зброя"
   id: SpawnDungeonLootVaultGuns
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Vault, T2"
@@ -144,7 +144,7 @@
     rareChance: 0.25
 
 - type: entity
-  name: random weapon
+  name: "випадкова зброя"
   id: SpawnDungeonLootArmoryMelee
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Melee, T1-T2"
@@ -169,7 +169,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: random weapon
+  name: "випадкова зброя"
   id: SpawnDungeonLootArmoryRare
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Vault, T3"
@@ -201,7 +201,7 @@
     rareChance: 0.45
 
 - type: entity
-  name: random weapon
+  name: "випадкова зброя"
   id: SpawnDungeonLootArmoryExplosives
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Explosives, T1-T2"
@@ -229,7 +229,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: random shields
+  name: "випадкові щити"
   id: SpawnDungeonLootShieldsMercenary
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Mercenary"
@@ -256,7 +256,7 @@
 
 # Clothes
 - type: entity
-  name: random clothes
+  name: "випадковий одяг"
   id: SpawnDungeonLootClothesMercenary
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Mercenary"
@@ -294,7 +294,7 @@
     rareChance: 0.02
 
 - type: entity
-  name: random armor
+  name: "випадкова броня"
   id: SpawnDungeonLootArmorMercenary
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Mercenary"
@@ -323,7 +323,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: random hardsuits
+  name: "випадкові комбінезони"
   id: SpawnDungeonLootHardsuitsMercenary
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Mercenary"
@@ -348,7 +348,7 @@
 
 # Furniture/Lockers
 - type: entity
-  name: random locker
+  name: "випадкова шафка"
   id: SpawnDungeonLootLockersArmory
   parent: MarkerBase
   suffix: "Dungeon, Armory, Mercenary"
@@ -377,7 +377,7 @@
     rareChance: 0.03
 
 - type: entity
-  name: random crate
+  name: "випадковий ящик"
   id: SpawnDungeonLootCrateArmoryWeapon
   parent: MarkerBase
   suffix: "Dungeon, Armory, Weapon"
@@ -404,7 +404,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: random crate
+  name: "випадковий ящик"
   id: SpawnDungeonLootCrateArmoryArmor
   parent: MarkerBase
   suffix: "Dungeon, Armory, Armor"
@@ -430,7 +430,7 @@
 
 # Machines
 - type: entity
-  name: random vendomat
+  name: "випадковий вендомат"
   id: SpawnDungeonVendomatsArmory
   parent: MarkerBase
   suffix: "Dungeon, Armory"
@@ -458,7 +458,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: random machine techfab
+  name: "випадковий машинний техфаб"
   id: SpawnDungeonLootLatheArmory
   parent: MarkerBase
   suffix: "Dungeon, Armory"
