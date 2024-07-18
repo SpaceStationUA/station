@@ -16,8 +16,8 @@
 - type: entity
   parent: BaseLogicItem
   id: LogicGate
-  name: "логічний вентиль"
-  description: "Двійковий логічний вентиль для сигналів."
+  name: logic gate
+  description: A logic gate with two inputs and one output. Technicians can change its mode of operation using a screwdriver.
   components:
   - type: Sprite
     layers:
@@ -54,8 +54,8 @@
 - type: entity
   parent: BaseLogicItem
   id: EdgeDetector
-  name: "детектор країв"
-  description: "Фронтальний детектор сигналів."
+  name: edge detector
+  description: Splits rising and falling edges into unique pulses and detects how edgy you are.
   components:
   - type: Sprite
     state: edge_detector
@@ -77,8 +77,8 @@
 - type: entity
   parent: BaseLogicItem
   id: PowerSensor
-  name: "датчик потужності"
-  description: "Пристрій для перевірки сигналів в електромережі."
+  name: power sensor
+  description: Generates signals in response to powernet changes. Can be cycled between cable voltages.
   components:
   - type: Sprite
     state: power_sensor

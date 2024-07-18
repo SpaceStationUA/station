@@ -1,79 +1,79 @@
 # These should be lathe recipes but lathe code sucks so hard rn so they'll be crafted by hand.
 
 - type: construction
-  name: "сталева черепиця"
+  name: steel tile
   id: TileSteel
   graph: TileSteel
   startNode: start
   targetNode: steeltile
   category: construction-category-tiles
-  description: "Чотири сталеві станційні плитки."
+  description: "Four steel station tiles."
   icon: { sprite: Objects/Tiles/tile.rsi, state: steel }
   objectType: Item
 
 - type: construction
-  name: "дерев'яна підлога"
+  name: wood floor
   id: TileWood
   graph: TileWood
   startNode: start
   targetNode: woodtile
   category: construction-category-tiles
-  description: "Чотири шматки дерев'яної станційної підлоги."
+  description: "Four pieces of wooden station flooring."
   icon: { sprite: Objects/Tiles/tile.rsi, state: wood }
   objectType: Item
   
 - type: construction
-  name: "заповнена латунна пластина"
+  name: filled brass plate
   id: TileBrassFilled
   graph: TilesBrass
   startNode: start
   targetNode: filledPlate
   category: construction-category-tiles
-  description: "Чотири частини латунної підлоги станції, сумісні лише з латунним покриттям."
+  description: "Four pieces of brass station flooring, only compatible with brass plating."
   icon: { sprite: Objects/Tiles/tile.rsi, state: brass-filled }
   objectType: Item
   
 - type: construction
-  name: "гладка латунна пластина"
+  name: smooth brass plate
   id: TileBrassReebe
   graph: TilesBrass
   startNode: start
   targetNode: reebe
   category: construction-category-tiles
-  description: "Чотири шматки гладкої латунної підлоги станції, сумісні лише з латунним покриттям."
+  description: "Four pieces of smooth brass station flooring, only compatible with brass plating."
   icon: { sprite: Objects/Tiles/tile.rsi, state: reebe }
   objectType: Item
 
 - type: construction
-  name: "біла плитка"
+  name: white tile
   id: TileWhite
   graph: TileWhite
   startNode: start
   targetNode: whitetile
   category: construction-category-tiles
-  description: "Чотири білі вокзальні плитки."
+  description: "Four white station tiles."
   icon: { sprite: Objects/Tiles/tile.rsi, state: white }
   objectType: Item
 
 - type: construction
-  name: "темна плитка"
+  name: dark tile
   id: TileDark
   graph: TileDark
   startNode: start
   targetNode: darktile
   category: construction-category-tiles
-  description: "Чотири темні вокзальні плитки."
+  description: "Four dark station tiles."
   icon: { sprite: Objects/Tiles/tile.rsi, state: dark }
   objectType: Item
 
 - type: construction
-  name: "черепиця тілесного кольору"
+  name: flesh tile
   id: TileFlesh
   graph: TileFlesh
   startNode: start
   targetNode: fleshTile
   category: construction-category-tiles
-  description: "Чотири м'ясисті плитки."
+  description: "Four fleshy tiles."
   icon: { sprite: Objects/Tiles/tile.rsi, state: meat }
   objectType: Item
 
@@ -188,12 +188,12 @@
 #   objectType: Item
 
 - type: construction
-  name: "велика дерев'яна підлога"
+  name: large wood floor
   id: TileWoodLarge
   graph: TileWoodLarge
   startNode: start
   targetNode: woodtilelarge
   category: construction-category-tiles
-  description: "Чотири шматки дерев'яної станційної підлоги."
+  description: "Four pieces of wooden station flooring."
   icon: { sprite: Objects/Tiles/tile.rsi, state: wood-large }
   objectType: Item

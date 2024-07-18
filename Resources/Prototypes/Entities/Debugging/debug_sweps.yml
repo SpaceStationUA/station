@@ -1,8 +1,8 @@
 - type: entity
-  name: "бах, Дідо-ган"
+  name: bang, ded
   parent: BaseWeaponPistol
   id: WeaponPistolDebug
-  description: "дід. Тікайте хто може!"
+  description: ded
   suffix: DEBUG
   components:
   - type: Tag
@@ -43,7 +43,7 @@
 
 - type: entity
   id: MagazinePistolDebug
-  name: "бац, Дід Маг!"
+  name: bang, ded mag
   parent: BaseMagazinePistol
   suffix: DEBUG
   components:
@@ -58,7 +58,7 @@
 
 - type: entity
   id: BulletDebug
-  name: "бах, куля!"
+  name: bang, ded bullet
   parent: BaseBullet
   noSpawn: true
   suffix: DEBUG
@@ -73,7 +73,7 @@
 
 - type: entity
   id: CartridgeDebug
-  name: "бах, розряджений патрон"
+  name: bang, ded cartridge
   parent: BaseCartridgePistol
   suffix: DEBUG
   components:
@@ -84,10 +84,10 @@
     proto: BulletDebug
 
 - type: entity
-  name: "бах-бах, палиця, тарабарщина"
+  name: bang stick gibber
   parent: BaseItem
   id: MeleeDebugGib
-  description: "вдарили сильно"
+  description: hit hard ye
   suffix: DEBUG
   components:
   - type: Tag
@@ -105,7 +105,7 @@
     sprite: Objects/Weapons/Melee/debug.rsi
 
 - type: entity
-  name: "bang stick 100dmg"
+  name: bang stick 100dmg
   parent: MeleeDebugGib
   id: MeleeDebug100
   components:
@@ -118,7 +118,7 @@
         Blunt: 100
 
 - type: entity
-  name: "bang stick 200dmg"
+  name: bang stick 200dmg
   parent: MeleeDebugGib
   id: MeleeDebug200
   components:

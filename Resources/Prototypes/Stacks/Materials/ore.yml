@@ -1,6 +1,6 @@
 - type: stack
   id: GoldOre
-  name: "золота руда"
+  name: gold ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: gold }
   spawn: GoldOre1
   maxCount: 30
@@ -8,7 +8,7 @@
 
 - type: stack
   id: SteelOre
-  name: "залізна руда"
+  name: iron ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: iron }
   spawn: SteelOre1
   maxCount: 30
@@ -16,7 +16,7 @@
 
 - type: stack
   id: PlasmaOre
-  name: "плазмова руда"
+  name: plasma ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: plasma }
   spawn: PlasmaOre1
   maxCount: 30
@@ -24,7 +24,7 @@
 
 - type: stack
   id: SilverOre
-  name: "срібна руда"
+  name: silver ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: silver }
   spawn: SilverOre1
   maxCount: 30
@@ -32,7 +32,7 @@
 
 - type: stack
   id: SpaceQuartz
-  name: "космічний кварц"
+  name: space quartz
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: spacequartz }
   spawn: SpaceQuartz1
   maxCount: 30
@@ -40,7 +40,7 @@
 
 - type: stack
   id: UraniumOre
-  name: "уранова руда"
+  name: uranium ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: uranium }
   spawn: UraniumOre1
   maxCount: 30
@@ -49,7 +49,7 @@
 
 - type: stack
   id: BananiumOre
-  name: "бананова руда"
+  name: bananium ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: bananium }
   spawn: BananiumOre1
   maxCount: 30
@@ -57,7 +57,7 @@
 
 - type: stack
   id: Coal
-  name: "вугілля"
+  name: coal
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: coal }
   spawn: Coal1
   maxCount: 30
@@ -65,7 +65,7 @@
 
 - type: stack
   id: SaltOre
-  name: "сіль"
+  name: salt
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: salt }
   spawn: Salt1
   maxCount: 30

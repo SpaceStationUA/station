@@ -18,8 +18,8 @@
 - type: entity
   parent: BaseHyperlinkBook
   id: HyperlinkBookSpaceLaw
-  name: "космічне право"
-  description: "Велика книга законів для космічних судів."
+  name: space law
+  description: A big book of laws for space courts.
   components:
   - type: Sprite
     layers:
@@ -30,8 +30,8 @@
 - type: entity
   parent: BaseHyperlinkBook
   id: HyperlinkBookSupernanny
-  name: "книга несанкціонованих космічних покарань"
-  description: "Маячня божевільного."
+  name: book of unsanctioned space punishments
+  description: The ravings of a madman.
   components:
   - type: Sprite
     layers:
@@ -60,8 +60,8 @@
 - type: entity
   parent: BaseHyperlinkBook
   id: HyperlinkBookChemistry
-  name: "книга хімічних рецептів"
-  description: "Список хімічних рецептів."
+  name: chemical recipe book
+  description: A list of chemical recipes.
   components:
   - type: Sprite
     layers:
@@ -72,8 +72,8 @@
 - type: entity
   parent: BaseHyperlinkBook
   id: HyperlinkBookBartending
-  name: "посібник бармена"
-  description: "Список рецептів напоїв."
+  name: bartender's guide
+  description: A list of drink recipes.
   components:
   - type: Sprite
     layers:
@@ -84,8 +84,8 @@
 - type: entity
   parent: BaseHyperlinkBook
   id: HyperlinkBookCooking
-  name: "кулінарна книга"
-  description: "Список рецептів страв."
+  name: cookbook
+  description: A list of food recipes.
   components:
   - type: Sprite
     layers:
@@ -96,8 +96,8 @@
 - type: entity
   parent: BaseHyperlinkBook
   id: HyperlinkBookBotany
-  name: "ботанічний польовий путівник"
-  description: "Путівник по рослинах."
+  name: botanical field guide
+  description: A guide to plants.
   components:
   - type: Sprite
     layers:
@@ -108,8 +108,8 @@
 - type: entity
   parent: BaseHyperlinkBook
   id: HyperlinkBookShuttle
-  name: "посібник з будівництва шатлів"
-  description: "Посібник з будівництва шатлів."
+  name: guide to shuttle construction
+  description: A guide to building shuttles.
   components:
   - type: Sprite
     layers:
@@ -121,8 +121,8 @@
   parent: BaseHyperlinkBook
   id: HyperlinkBookAlerts
   suffix: GuidebookBook
-  name: "Що робити, коли все йде шкереберть"
-  description: "Процедура, коли і чому кожне оповіщення має бути введене в дію, і що робити."
+  name: What to do When Things are Blowing Up
+  description: Procedure for when and why each alert should be put in effect, and what to do.
   components:
   - type: Sprite
     layers:
@@ -139,8 +139,8 @@
   parent: BaseHyperlinkBook
   id: HyperlinkBookProcedure
   suffix: GuidebookBook
-  name: "стандартна операційна процедура"
-  description: "Посібник з нормального функціонування станції."
+  name: standard operating procedure
+  description: A guide to normal station function.
   components:
   - type: Sprite
     layers:
@@ -154,8 +154,8 @@
 - type: entity
   parent: BaseHyperlinkBook
   id: HyperlinkBookPower
-  name: "путівник по владі"
-  description: "Посібник з живлення станції."
+  name: guide to power
+  description: A guide to powering the station.
   components:
   - type: Sprite
     layers:
@@ -166,8 +166,8 @@
 - type: entity
   parent: BaseHyperlinkBook
   id: HyperlinkBookMedical
-  name: "путівник по медичному"
-  description: "Путівник по медичному відділенню."
+  name: guide to medical
+  description: A guide to the medical department.
   components:
   - type: Sprite
     layers:
@@ -178,8 +178,8 @@
 - type: entity
   parent: BaseHyperlinkBook
   id: HyperlinkBookHacking
-  name: "посібник зі злому"
-  description: "Тільки для екстреного використання."
+  name: guide to hacking
+  description: For emergency use only.
   components:
   - type: Sprite
     layers:
@@ -191,8 +191,8 @@
   parent: BaseHyperlinkBook
   id: HyperlinkBookAtmos
   suffix: GuidebookBook
-  name: "Як зробити газ гарячим"
-  description: "Путівник по атмосфері. Не забудьте взяти захоплююче продовження: \"Що робити, коли газ гарячий\"."
+  name: How to Make Gas Hot
+  description: A guide on Atmospherics. Make sure to grab the thrilling sequal; What to do When Gas Hot.
   components:
   - type: Sprite
     layers:

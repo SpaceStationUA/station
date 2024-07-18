@@ -3,8 +3,8 @@
 - type: entity
   parent: MobNonHumanHostileBase
   id: BaseMobDinosaurExpeditions
-  name: "динозавр"
-  description: "Загадкові бегемоти з минулої епохи, відомі своїм значним зростом і грізною присутністю."
+  name: dinosaur
+  description: Enigmatic behemoths from a bygone era, known for their imposing stature and formidable presence.
   abstract: true
   components:
   - type: HTN
@@ -66,7 +66,7 @@
 - type: entity
   parent: BaseMobDinosaurExpeditions
   id: MobDinosaurCompyExpeditions
-  name: "компсогнатус"
+  name: compsognathus
   noSpawn: true
   components:
   - type: Sprite
@@ -103,7 +103,7 @@
 - type: entity
   parent: BaseMobDinosaurExpeditions
   id: MobDinosaurDiloExpeditions
-  name: "дилофозавр"
+  name: dilophosaurus
   noSpawn: true
   components:
   - type: Sprite
@@ -141,7 +141,7 @@
 - type: entity
   parent: BaseMobDinosaurExpeditions
   id: MobDinosaurRaptorExpeditions
-  name: "велоцираптор"
+  name: velociraptor
   noSpawn: true
   components:
   - type: Sprite
@@ -178,7 +178,7 @@
 - type: entity
   parent: BaseMobDinosaurExpeditions
   id: MobDinosaurParaExpeditions
-  name: "парасауролофус"
+  name: parasaurolophus
   noSpawn: true
   components:
   - type: Sprite
@@ -215,7 +215,7 @@
 - type: entity
   parent: BaseMobDinosaurExpeditions
   id: MobDinosaurKentroExpeditions
-  name: "кентрозавр"
+  name: kentrosaurus
   noSpawn: true
   components:
   - type: Sprite
@@ -252,7 +252,7 @@
 - type: entity
   parent: BaseMobDinosaurExpeditions
   id: MobDinosaurTrikeExpeditions
-  name: "трицератопси"
+  name: triceratops
   noSpawn: true
   components:
   - type: Sprite
@@ -289,7 +289,7 @@
 - type: entity
   parent: BaseMobDinosaurExpeditions
   id: MobDinosaurAnkiExpeditions
-  name: "анкілозавр"
+  name: ankylosaurus
   noSpawn: true
   components:
   - type: Sprite
@@ -326,7 +326,7 @@
 - type: entity
   parent: BaseMobDinosaurExpeditions
   id: MobDinosaurSpinoExpeditions
-  name: "спінозавр"
+  name: spinosaurus
   noSpawn: true
   components:
   - type: Sprite
@@ -363,7 +363,7 @@
 - type: entity
   parent: BaseMobDinosaurExpeditions
   id: MobDinosaurStegoExpeditions
-  name: "стегозавр"
+  name: stegosaurus
   noSpawn: true
   components:
   - type: Sprite
@@ -402,7 +402,7 @@
 - type: entity
   parent: BaseMobDinosaurExpeditions
   id: MobDinosaurTrexExpeditions
-  name: "тиранозавр"
+  name: tyrannosaurus
   noSpawn: true
   components:
   - type: Sprite
