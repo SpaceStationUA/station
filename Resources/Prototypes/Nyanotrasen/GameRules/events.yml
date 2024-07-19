@@ -46,6 +46,7 @@
   noSpawn: true
   components:
     - type: StationEvent
+      startAnnouncement: false
       # Favor glimmer events just a little more than regular events.
       weight: 12
     - type: GlimmerEvent

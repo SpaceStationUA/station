@@ -98,6 +98,7 @@
   noSpawn: true
   components:
   - type: StationEvent
+    startAnnouncement: false
     weight: 3 # DeltaV - was 10
     duration: 1
     earliestStart: 45 # DeltaV - was 30
