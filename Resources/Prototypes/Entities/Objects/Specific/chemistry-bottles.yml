@@ -1,9 +1,9 @@
 - type: entity
-  name: bottle
+  name: "пляшка"
   parent: BaseItem
   id: BaseChemistryEmptyBottle
   abstract: true
-  description: A small bottle.
+  description: "Маленька пляшечка."
   components:
   - type: Tag
     tags:
@@ -145,7 +145,7 @@
 
 - type: entity
   id: EpinephrineChemistryBottle
-  name: epinephrine bottle
+  name: "флакон з епінефрином"
   parent: BaseChemistryBottleFilled
   components:
   - type: SolutionContainerManager
@@ -158,8 +158,8 @@
 
 - type: entity
   id: RobustHarvestChemistryBottle
-  name: robust harvest bottle
-  description: This will increase the potency of your plants.
+  name: "флакон з приростом врожаю"
+  description: "Це підвищить потенцію ваших рослин."
   parent: BaseChemistryBottleFilled
   components:
   - type: SolutionContainerManager
@@ -172,8 +172,8 @@
 
 - type: entity
   id: EZNutrientChemistryBottle
-  name: ez nutrient bottle
-  description: This will provide some nutrition to your plants.
+  name: "флакон з поживними речовинами"
+  description: "Це забезпечить рослинам певне живлення."
   parent: BaseChemistryBottleFilled
   components:
   - type: SolutionContainerManager
@@ -186,8 +186,8 @@
 
 - type: entity
   id: Left4ZedChemistryBottle
-  name: left-4-zed bottle
-  description: This will increase the effectiveness of mutagen.
+  name: "лівий 4-ЗЕД пляшка"
+  description: "Це підвищить ефективність мутагену."
   parent: BaseChemistryBottleFilled
   components:
   - type: SolutionContainerManager
@@ -200,8 +200,8 @@
 
 - type: entity
   id: UnstableMutagenChemistryBottle
-  name: unstable mutagen bottle
-  description: This will cause rapid mutations in your plants.
+  name: "флакон з нестабільним мутагеном"
+  description: "Це призведе до швидких мутацій у ваших рослинах."
   parent: BaseChemistryBottleFilled
   components:
   - type: SolutionContainerManager
@@ -214,8 +214,8 @@
 
 - type: entity
   id: NocturineChemistryBottle
-  name: nocturine bottle
-  description: This will make someone fall down almost immediately. Hard to overdose on.
+  name: "флакон з ноктурином"
+  description: "Це змусить когось впасти майже миттєво. Важко передозувати."
   parent: BaseChemistryBottleFilled
   components:
   - type: SolutionContainerManager
@@ -228,7 +228,7 @@
 
 - type: entity
   id: EphedrineChemistryBottle
-  name: ephedrine bottle
+  name: "флакон з ефедрином"
   parent: BaseChemistryBottleFilled
   components:
   - type: SolutionContainerManager
@@ -241,7 +241,7 @@
 
 - type: entity
   id: OmnizineChemistryBottle
-  name: omnizine bottle
+  name: "флакон омнізину"
   parent: BaseChemistryBottleFilled
   components:
   - type: SolutionContainerManager
@@ -255,7 +255,7 @@
 - type: entity
   parent: BaseChemistryBottleFilled
   id: CognizineChemistryBottle
-  name: cognizine bottle
+  name: "флакон когнізину"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -267,7 +267,7 @@
 
 - type: entity
   id: PaxChemistryBottle
-  name: pax bottle
+  name: "флакон pax"
   parent: BaseChemistryBottleFilled
   components:
     - type: SolutionContainerManager
@@ -280,7 +280,7 @@
 
 - type: entity
   id: MuteToxinChemistryBottle
-  name: mute toxin bottle
+  name: "флакон з німим токсином"
   parent: BaseChemistryBottleFilled
   components:
     - type: SolutionContainerManager
@@ -293,7 +293,7 @@
 
 - type: entity
   id: LeadChemistryBottle
-  name: lead bottle
+  name: "флакон з свинцем"
   parent: BaseChemistryBottleFilled
   components:
     - type: SolutionContainerManager
@@ -306,7 +306,7 @@
 
 - type: entity
   id: ToxinChemistryBottle
-  name: toxin bottle
+  name: "флакон з токсином"
   parent: BaseChemistryBottleFilled
   components:
     - type: SolutionContainerManager

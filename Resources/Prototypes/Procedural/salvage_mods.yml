@@ -1,7 +1,7 @@
 # Markers
 - type: entity
   id: SalvageShuttleMarker
-  name: Salvage shuttle marker
+  name: "Маркер рятувального шаттла"
   parent: FTLPoint
 
 # Biome mods -> at least 1 required
@@ -32,26 +32,26 @@
 # Light mods -> required
 - type: salvageLightMod
   id: Daylight
-  desc: Daylight
+  desc: "Денне світло"
   color: "#D8B059"
   biomes:
     - Grasslands
 
 - type: salvageLightMod
   id: Lavalight
-  desc: Daylight
+  desc: "Денне світло"
   color: "#A34931"
   biomes:
     - Lava
 
 - type: salvageLightMod
   id: Evening
-  desc: Evening
+  desc: "Вечірній час"
   color: "#2b3143"
 
 - type: salvageLightMod
   id: Night
-  desc: Night time
+  desc: "Нічний час"
   cost: 1
   color: null
 
@@ -72,7 +72,7 @@
 
 - type: salvageTemperatureMod
   id: Burning
-  desc: High temperature
+  desc: "Висока температура"
   cost: 2
   temperature: 423.15 # 200C
   biomes:
@@ -82,7 +82,7 @@
 
 - type: salvageTemperatureMod
   id: Melting
-  desc: Extreme heat
+  desc: "Екстремальна спека"
   cost: 4
   temperature: 1273.15 # 1000C hot hot hot
   biomes:
@@ -100,7 +100,7 @@
 
 - type: salvageTemperatureMod
   id: Tundra
-  desc: Low temperature
+  desc: "Низька температура"
   cost: 2
   temperature: 263.15 # -40C
   biomes:
@@ -109,7 +109,7 @@
 
 - type: salvageTemperatureMod
   id: Frozen
-  desc: Extreme cold
+  desc: "Екстремальний холод"
   cost: 4
   temperature: 123.15 # -150C
   biomes:
@@ -118,7 +118,7 @@
 # Air mixtures
 - type: salvageAirMod
   id: Space
-  desc: No atmosphere
+  desc: "Немає атмосфери"
   space: true
   cost: 2
   biomes:
@@ -135,7 +135,7 @@
 - type: salvageAirMod
   id: Sleepy
   cost: 1
-  desc: Dangerous atmosphere
+  desc: "Небезпечна атмосфера"
   gases:
     - 21.824779 # oxygen
     - 72.10312 # nitrogen
@@ -155,7 +155,7 @@
 - type: salvageAirMod
   id: Poisoned
   cost: 2
-  desc: Dangerous atmosphere
+  desc: "Небезпечна атмосфера"
   gases:
     - 21.824779 # oxygen
     - 77.10312 # nitrogen
@@ -170,7 +170,7 @@
 - type: salvageAirMod
   id: Poison
   cost: 3
-  desc: Toxic atmosphere
+  desc: "Токсична атмосфера"
   gases:
     - 21.824779 # oxygen
     - 0
@@ -183,7 +183,7 @@
 - type: salvageAirMod
   id: Plasma
   cost: 4
-  desc: Toxic atmosphere
+  desc: "Токсична атмосфера"
   gases:
     - 0
     - 0
@@ -196,7 +196,7 @@
 - type: salvageAirMod
   id: Burnable
   cost: 5
-  desc: Volatile atmosphere
+  desc: "Летюча атмосфера"
   gases:
     - 21.824779 # oxygen
     - 0

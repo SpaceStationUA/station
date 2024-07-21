@@ -9,8 +9,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitBasic
-  name: basic hardsuit helmet
-  description: A basic-looking hardsuit helmet that provides minor protection against most sources of damage.
+  name: "базовий шолом захисного костюму"
+  description: "Базовий на вигляд шолом для захисного костюма, який забезпечує мінімальний захист від більшості джерел пошкоджень."
   components:
   - type: BreathMask
   - type: Sprite
@@ -25,8 +25,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitAtmos
-  name: atmos hardsuit helmet
-  description: A special hardsuit helmet designed for working in low-pressure, high thermal environments.
+  name: "захисний шолом atmos"
+  description: "Спеціальний шолом-гардкостюм, призначений для роботи в умовах низького тиску та високої температури."
   components:
   - type: BreathMask
   - type: Sprite
@@ -65,8 +65,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitEngineering
-  name: engineering hardsuit helmet
-  description: An engineering hardsuit helmet designed for working in low-pressure, high radioactive environments.
+  name: "інженерний захисний шолом"
+  description: "Інженерний захисний шолом, призначений для роботи в умовах низького тиску та високої радіоактивності."
   components:
   - type: BreathMask
   - type: Sprite
@@ -83,8 +83,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSpatio
-  name: spationaut hardsuit helmet
-  description: A sturdy helmet designed for complex industrial operations in space.
+  name: "шолом-гардкостюм spationaut"
+  description: "Міцний шолом, призначений для складних промислових операцій у космосі."
   components:
   - type: BreathMask
   - type: Sprite
@@ -118,8 +118,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSalvage
-  name: salvage hardsuit helmet
-  description: A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating for wildlife encounters and dual floodlights.
+  name: "рятувальний шолом-комбінезон"
+  description: "Спеціальний шолом, розроблений для роботи в небезпечному середовищі з низьким тиском. Має посилене покриття для захисту від диких тварин та подвійні прожектори."
   components:
   - type: BreathMask
   - type: Sprite
@@ -137,8 +137,8 @@
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitMaxim
   noSpawn: true
-  name: salvager maxim helmet
-  description: A predication of decay washes over your mind.
+  name: "шолом salvager maxim"
+  description: "Передчуття занепаду омиває ваш розум."
   components:
   - type: BreathMask
   - type: Sprite
@@ -160,8 +160,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSecurity
-  name: security hardsuit helmet
-  description: Armored hardsuit helmet for security needs.
+  name: "захисний шолом-костюм"
+  description: "Броньований шолом для потреб безпеки."
   components:
   - type: BreathMask
   - type: Sprite
@@ -185,8 +185,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitBrigmedic
-  name: corpsman hardsuit helmet # DeltaV - rename brigmedic to corpsman
-  description: The lightweight helmet of the corpsman hardsuit. Protects against viruses, and clowns. # Delta V - rename brigmedic to corpsman
+  name: "шолом бронежилет бріг-медика" # DeltaV - rename brigmedic to corpsman
+  description: "Легкий шолом санітарного костюма. Захищає від вірусів та клоунів." # Delta V - rename brigmedic to corpsman
   components:
   - type: BreathMask
   - type: Sprite
@@ -212,8 +212,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitWarden
-  name: warden's hardsuit helmet
-  description: A modified riot helmet. Oddly comfortable.
+  name: "каска наглядача в бронежилеті"
+  description: "Модифікований шолом. На диво зручний."
   components:
   - type: BreathMask
   - type: Sprite
@@ -237,8 +237,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCap
-  name: captain's hardsuit helmet
-  description: Special hardsuit helmet, made for the captain of the station.
+  name: "шолом капітанського скафандра"
+  description: "Спеціальний захисний шолом, виготовлений для капітана станції."
   components:
   - type: BreathMask
   - type: Sprite
@@ -253,8 +253,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitEngineeringWhite
-  name: chief engineer's hardsuit helmet
-  description: Special hardsuit helmet, made for the chief engineer of the station.
+  name: "шолом головного інженера в бронежилеті"
+  description: "Спеціальний захисний шолом, виготовлений для головного інженера станції."
   components:
   - type: BreathMask
   - type: Sprite
@@ -271,8 +271,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitMedical
-  name: chief medical officer's hardsuit helmet
-  description: Lightweight medical hardsuit helmet that doesn't restrict your head movements.
+  name: "шолом головного лікаря в бронежилеті"
+  description: "Легкий медичний шолом-гардкостюм, що не обмежує рухів голови."
   components:
   - type: BreathMask
   - type: Sprite
@@ -289,8 +289,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitRd
-  name: experimental research hardsuit helmet
-  description: Lightweight hardsuit helmet that doesn't restrict your head movements.
+  name: "експериментальний дослідницький захисний шолом"
+  description: "Легкий шолом-гардкостюм, що не обмежує рухів голови."
   components:
   - type: BreathMask
   - type: Sprite
@@ -307,8 +307,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSecurityRed
-  name: head of security's hardsuit helmet
-  description: Security hardsuit helmet with the latest top secret NT-HUD software. Belongs to the HoS.
+  name: "шолом керівника служби безпеки"
+  description: "Захисний шолом з новітнім надсекретним програмним забезпеченням NT-HUD. Належить Міністерству охорони здоров'я."
   components:
   - type: BreathMask
   - type: Sprite
@@ -332,8 +332,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
-  name: luxury mining hardsuit helmet
-  description: A refurbished mining hardsuit helmet, fitted with satin cushioning and an extra (non-functioning) antenna, because you're that extra.
+  name: "розкішний шахтерський захисний шолом"
+  description: "Відремонтована гірнича каска з атласною підкладкою та додатковою (непрацюючою) антеною, адже ви - той самий зайвий."
   components:
   - type: BreathMask
   - type: Sprite
@@ -352,8 +352,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndie
-  name: blood-red hardsuit helmet
-  description: A heavily armored helmet designed for work in special operations. Property of Gorlex Marauders.
+  name: "криваво-червоний бронешолом"
+  description: "Важкоброньований шолом, призначений для роботи в спецопераціях. Власність Gorlex Marauders."
   components:
   - type: BreathMask
   - type: Sprite
@@ -377,8 +377,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieMedic
-  name: blood-red medic hardsuit helmet
-  description: An advanced red hardsuit helmet specifically designed for field medic operations.
+  name: "криваво-червоний медичний шолом"
+  description: "Удосконалений шолом червоного кольору, спеціально розроблений для польових медиків."
   components:
   - type: BreathMask
   - type: Sprite
@@ -402,8 +402,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieElite
-  name: syndicate elite helmet
-  description: An elite version of the blood-red hardsuit's helmet, with improved armor and fireproofing. Property of Gorlex Marauders.
+  name: "синдикатський елітний шолом"
+  description: "Елітна версія криваво-червоного шолома, з покращеною бронею та вогнетривкістю. Власність \"Мародерів Горлекса\"."
   components:
   - type: BreathMask
   - type: Sprite
@@ -429,8 +429,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieCommander
-  name: syndicate commander helmet
-  description: A bulked up version of the blood-red hardsuit's helmet, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
+  name: "шолом командира синдикату"
+  description: "Збільшена версія криваво-червоного шолома, спеціально розроблена для командира оперативного загону синдикату. Має значно покращену броню для смертельних перестрілок на лінії фронту."
   components:
   - type: BreathMask
   - type: Sprite
@@ -454,8 +454,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitCybersun
-  name: cybersun juggernaut helmet
-  description: Made of compressed red matter, this helmet was designed in the Tau chromosphere facility.
+  name: "шолом \"кіберсолдат джаггернаут"
+  description: "Цей шолом, виготовлений зі спресованої червоної матерії, був розроблений у хромосферній установці Tau."
   components:
   - type: BreathMask
   - type: Sprite
@@ -477,8 +477,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitWizard
-  name: wizard hardsuit helmet
-  description: A bizarre gem-encrusted helmet that radiates magical energies.
+  name: "захисний шолом чарівника"
+  description: "Химерний шолом, інкрустований коштовним камінням, що випромінює магічну енергію."
   components:
   - type: BreathMask
   - type: Sprite
@@ -502,8 +502,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitLing
-  name: organic space helmet
-  description: A spaceworthy biomass of pressure and temperature resistant tissue.
+  name: "органічний космічний шолом"
+  description: "Космічна біомаса зі стійкої до тиску та температури тканини."
   components:
   - type: BreathMask
   - type: Sprite
@@ -518,9 +518,9 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitPirateEVA
-  name: deep space EVA helmet
+  name: "шолом глибокого космосу EVA"
   suffix: Pirate
-  description: A deep space EVA helmet, very heavy but provides good protection.
+  description: "Шолом з EVA для глибокого космосу, дуже важкий, але забезпечує хороший захист."
   components:
   - type: BreathMask
   - type: Sprite
@@ -535,9 +535,9 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitPirateCap
-  name: pirate captain's hardsuit helmet
+  name: "шолом піратського капітана"
   suffix: Pirate
-  description: A special hardsuit helmet, made for the captain of a pirate ship.
+  description: "Спеціальний шолом, виготовлений для капітана піратського корабля."
   components:
   - type: BreathMask
   - type: Sprite
@@ -553,8 +553,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndieCommander
   id: ClothingHeadHelmetHardsuitERTLeader
-  name: ERT leader hardsuit helmet
-  description: A special hardsuit helmet worn by members of an emergency response team.
+  name: "Шолом керівника групи швидкого реагування"
+  description: "Спеціальний захисний шолом, який носять члени команди реагування на надзвичайні ситуації."
   components:
   - type: BreathMask
   - type: Sprite
@@ -575,8 +575,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTChaplain
-  name: ERT chaplain hardsuit helmet
-  description: A special hardsuit helmet worn by members of an emergency response team.
+  name: "Шолом капелана екстреної медичної допомоги"
+  description: "Спеціальний захисний шолом, який носять члени команди реагування на надзвичайні ситуації."
   components:
   - type: BreathMask
   - type: Sprite
@@ -590,8 +590,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTEngineer
-  name: ERT engineer hardsuit helmet
-  description: A special hardsuit helmet worn by members of an emergency response team.
+  name: "Шолом інженера ERT в захисному костюмі"
+  description: "Спеціальний захисний шолом, який носять члени команди реагування на надзвичайні ситуації."
   components:
   - type: BreathMask
   - type: Sprite
@@ -612,8 +612,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndieElite
   id: ClothingHeadHelmetHardsuitERTMedical
-  name: ERT medic hardsuit helmet
-  description: A special hardsuit helmet worn by members of an emergency response team.
+  name: "Шолом медика екстреної медичної допомоги"
+  description: "Спеціальний захисний шолом, який носять члени команди реагування на надзвичайні ситуації."
   components:
   - type: BreathMask
   - type: Sprite
@@ -627,8 +627,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTSecurity
-  name: ERT security hardsuit helmet
-  description: A special hardsuit helmet worn by members of an emergency response team.
+  name: "Шолом захисного костюму ERT"
+  description: "Спеціальний захисний шолом, який носять члени команди реагування на надзвичайні ситуації."
   components:
   - type: BreathMask
   - type: Sprite
@@ -649,8 +649,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitERTJanitor
-  name: ERT janitor hardsuit helmet
-  description: A special hardsuit helmet worn by members of an emergency response team.
+  name: "Шолом прибиральника ERT"
+  description: "Спеціальний захисний шолом, який носять члени команди реагування на надзвичайні ситуації."
   components:
   - type: BreathMask
   - type: Sprite
@@ -664,8 +664,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetCBURN
-  name: CBURN exosuit helmet
-  description: A pressure resistant and fireproof hood worn by special cleanup units.
+  name: "Шолом екзокостюму CBURN"
+  description: "Стійкий до тиску та вогнетривкий капюшон, який одягається спеціальними прибиральними машинами."
   components:
   - type: BreathMask
   - type: Sprite
@@ -703,8 +703,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitDeathsquad
-  name: deathsquad hardsuit helmet
-  description: A robust helmet for special operations.
+  name: "шолом для ескадрону смерті"
+  description: "Надійний шолом для спецоперацій."
   components:
   - type: BreathMask
   - type: Sprite
@@ -729,8 +729,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSecurity
   id: ClothingHeadHelmetHardsuitClown
-  name: clown hardsuit helmet
-  description: A clown hardsuit helmet.
+  name: "клоунський шолом-скафандр"
+  description: "Клоунський шолом."
   components:
   - type: BreathMask
   - type: Sprite
@@ -744,8 +744,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSecurity
   id: ClothingHeadHelmetHardsuitMime
-  name: mime hardsuit helmet
-  description: A mime hardsuit helmet.
+  name: "шолом для мімічного костюма"
+  description: "Мімічний шолом."
   components:
   - type: BreathMask
   - type: Sprite
@@ -757,8 +757,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitSanta
-  name: Santa's hardsuit helmet
-  description: A festive-looking hardsuit helmet that provides the jolly gift-giver protection from low-pressure environments.
+  name: "Шолом Санта-Клауса"
+  description: "Святковий захисний шолом, який захистить дарувальника від впливу середовища з низьким тиском."
   components:
   - type: BreathMask
   - type: Sprite

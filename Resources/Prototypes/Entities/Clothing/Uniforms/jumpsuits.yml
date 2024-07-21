@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDeathSquad
-  name: death squad uniform
-  description: Advanced armored jumpsuit used by special forces in special operations.
+  name: "форма ескадрону смерті"
+  description: "Удосконалений броньований комбінезон, що використовується спецпідрозділами під час спецоперацій."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/deathsquad.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitAncient
-  name: ancient jumpsuit
-  description: A terribly ragged and frayed grey jumpsuit. It looks like it hasn't been washed in over a decade.
+  name: "старовинний комбінезон"
+  description: "Страшенно пошарпаний і обшарпаний сірий комбінезон. Виглядає так, ніби його не прали більше десяти років."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ancient.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBartender
-  name: bartender's uniform
-  description: A nice and tidy uniform. Shame about the bar though.
+  name: "форма бармена"
+  description: "Гарна і охайна форма. Шкода, що немає бару."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/bartender.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJacketMonkey
-  name: bartender's jacket monkey
-  description: A decent jacket, for a decent monkey.
+  name: "мавпа на куртці бармена"
+  description: "Пристойна куртка, для пристойної мавпи."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/punpun.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBartenderPurple
-  name: purple bartender's uniform
-  description: A special purple outfit to serve drinks.
+  name: "фіолетова форма бармена"
+  description: "Спеціальне фіолетове вбрання для подачі напоїв."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/bartender_purple.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCaptain
-  name: captain's jumpsuit
-  description: It's a blue jumpsuit with some gold markings denoting the rank of "Captain".
+  name: "капітанський комбінезон"
+  description: "Це синій комбінезон із золотими знаками, що позначають звання \"капітан\"."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/captain.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCargo
-  name: cargo tech jumpsuit
-  description: A sturdy jumpsuit, issued to members of the Logistics department. # DeltaV - Logistics Department replacing Cargo
+  name: "вантажницький комбінезон"
+  description: "Міцний комбінезон, виданий співробітникам відділу логістики." # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/cargotech.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSalvageSpecialist
-  name: salvage specialist's jumpsuit
-  description: It's a snappy jumpsuit with a sturdy set of overalls. It's very dirty.
+  name: "комбінезон рятувальника"
+  description: "Це короткий комбінезон з міцним набором комбінезонів. Він дуже брудний."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/explorer.rsi # DeltaV - Salvage better looking uniform
@@ -93,8 +93,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChiefEngineer
-  name: chief engineer's jumpsuit
-  description: It's a high visibility jumpsuit given to those engineers insane enough to achieve the rank of Chief Engineer. It has minor radiation shielding.
+  name: "комбінезон Голови інженерії"
+  description: "Це комбінезон підвищеної видимості, який видається інженерам, достатньо божевільним, щоб досягти звання головного інженера. Має незначний захист від радіації."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ce.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChiefEngineerTurtle
-  name: chief engineer's turtleneck
-  description: A yellow turtleneck designed specifically for work in conditions of the engineering department.
+  name: "водолазка Головного інженера"
+  description: "Жовта водолазка, розроблена спеціально для роботи в умовах інженерного відділу."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ce_turtle.rsi
@@ -115,8 +115,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChaplain
-  name: chaplain's jumpsuit
-  description: It's a black jumpsuit, often worn by religious folk.
+  name: "комбінезон капелана"
+  description: "Це чорний комбінезон, який часто носять релігійні люди."
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/chaplain.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomAgent
-  name: CentCom agent's jumpsuit
-  description: A suit worn by CentCom's legal team. Smells of burnt coffee.
+  name: "Комбінезон агенції ЦентКом"
+  description: "Костюм, який носить юридична команда ЦентКом. Пахне горілою кавою."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcom_agent.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomOfficial
-  name: CentCom official's jumpsuit
-  description: It's a jumpsuit worn by CentCom's officials.
+  name: "Комбінезон чиновника CentCom"
+  description: "Це комбінезон, який носять співробітники CentCom."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcom_official.rsi
@@ -148,8 +148,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomOfficer
-  name: CentCom officer's jumpsuit
-  description: It's a jumpsuit worn by CentCom Officers.
+  name: "Комбінезон офіцерства ЦентКом"
+  description: "Це комбінезон, який носять офіцери Центру."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
@@ -159,8 +159,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChef
-  name: chef uniform
-  description: Can't cook without this.
+  name: "кухарський комбінезон"
+  description: "Не можу готувати без цього."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/chef.rsi
@@ -170,8 +170,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChemistry
-  name: chemistry jumpsuit
-  description: There's some odd stains on this jumpsuit. Hm.
+  name: "хімічний комбінезон"
+  description: "На цьому комбінезоні якісь дивні плями. Хм."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/chemistry.rsi
@@ -181,8 +181,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitVirology
-  name: virology jumpsuit
-  description: It's made of a special fiber that gives special protection against biohazards. It has a virologist rank stripe on it.
+  name: "вірусологічний комбінезон"
+  description: "Він виготовлений зі спеціального волокна, яке забезпечує особливий захист від біонебезпеки. На ньому є нашивка зі званням вірусолога."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/virology.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitGenetics
-  name: genetics jumpsuit
-  description: It's made of a special fiber that gives special protection against biohazards. It has a geneticist rank stripe on it.
+  name: "генетичний комбінезон"
+  description: "Він виготовлений зі спеціального волокна, яке забезпечує особливий захист від біологічних загроз. На ньому є нашивка зі званням генетика."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/genetics.rsi
@@ -203,8 +203,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitClown
-  name: clown suit
-  description: HONK!
+  name: "костюм клоуна"
+  description: "ГУДОК!"
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/clown.rsi
@@ -218,7 +218,7 @@
 - type: entity
   parent: ClothingUniformJumpsuitClown
   id: ClothingUniformJumpsuitClownBanana
-  name: banana clown suit
+  name: "банановий костюм клоуна"
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/clown_banana.rsi
@@ -236,8 +236,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJester
-  name: jester suit
-  description: A jolly dress, well suited to entertain your master, nuncle.
+  name: "костюм блазня"
+  description: "Весела сукня, добре підходить для того, щоб розважити свого господаря, дядька."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/jester.rsi
@@ -256,8 +256,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCMO
-  name: chief medical officer's jumpsuit
-  description: It's a jumpsuit worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
+  name: "комбінезон головного лікаря"
+  description: "Це комбінезон, який носять ті, хто має досвід роботи на посаді головного лікаря. Він забезпечує незначний біологічний захист."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/cmo.rsi
@@ -267,8 +267,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDetective
-  name: hard-worn suit
-  description: Someone who wears this means business.
+  name: "міцний костюм"
+  description: "Той, хто носить це, має на увазі бізнес."
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/detective.rsi
@@ -278,8 +278,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDetectiveGrey
-  name: noir suit
-  description: A hard-boiled private investigator's grey suit, complete with tie clip.
+  name: "чорний костюм"
+  description: "Сірий костюм приватного детектива, укомплектований затискачем для краватки."
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/detective_grey.rsi
@@ -289,8 +289,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitEngineering
-  name: engineering jumpsuit
-  description: If this suit was non-conductive, maybe engineers would actually do their damn job.
+  name: "інженерний комбінезон"
+  description: "Якби цей костюм був непровідним, можливо, інженери справді робили б свою чортову роботу."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/engineering.rsi
@@ -300,8 +300,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitEngineeringHazard
-  name: hazard jumpsuit
-  description: Woven in a grungy, warm orange. Lets others around you know that you really mean business when it comes to work.
+  name: "захисний інженерний комбінезон"
+  description: "Витканий у похмурому, теплому помаранчевому кольорі. Дає зрозуміти оточуючим, що ви справді серйозно ставитеся до роботи."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/engineering_hazard.rsi
@@ -311,8 +311,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoP
-  name: head of personnel's jumpsuit
-  description: Rather bland and inoffensive. Perfect for vanishing off the face of the universe.
+  name: "комбінезон Голови персоналу"
+  description: "Досить м'який і ненав'язливий. Ідеально підходить для того, щоб зникнути з лиця всесвіту."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hop.rsi
@@ -322,8 +322,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoS
-  name: head of security's jumpsuit
-  description: A standard Station Security uniform, adorned with gold emblems and commander's epaulettes. # DeltaV - improved description
+  name: "комбінезон Голови СБ"
+  description: "Стандартна уніформа охорони станції, прикрашена золотими емблемами та командирськими погонами." # DeltaV - improved description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/hos.rsi # DeltaV - resprite
@@ -333,8 +333,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoSAlt
-  name: head of security's turtleneck
-  description: It's a turtleneck worn by those strong and disciplined enough to achieve the position of Head of Security.
+  name: "водолазка начальника служби безпеки"
+  description: "Це водолазка, яку носять ті, хто достатньо сильний і дисциплінований, щоб досягти посади керівника служби безпеки."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hos_alt.rsi
@@ -344,8 +344,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoSBlue
-  name: head of security's blue jumpsuit
-  description: A blue Station Security shirt with charcoal trousers. Features gold emblems and commander's epaulettes. # DeltaV - improved description
+  name: "синій комбінезон Голови СБ"
+  description: "Блакитна сорочка служби безпеки станції з вугільними штанами. Із золотими емблемами та командирськими погонами." # DeltaV - improved description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/hos_blue.rsi # DeltaV - resprite
@@ -355,8 +355,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoSGrey
-  name: head of security's grey jumpsuit
-  description: A grey Station Security shirt with charcoal trousers. Stands out with red highlights, gold emblems, and commander's epaulettes. # DeltaV - improved description
+  name: "сірий комбінезон Голови СБ"
+  description: "Сіра сорочка охорони вокзалу з вугільними штанами. Виділяється червоними лампасами, золотими емблемами та командирськими погонами." # DeltaV - improved description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/hos_grey.rsi # DeltaV - resprite
@@ -366,8 +366,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoSParadeMale
-  name: head of security's parade uniform
-  description: A male head of security's luxury-wear, for special occasions.
+  name: "урочиста форма Голови СБ"
+  description: "Розкішний одяг начальника служби безпеки для особливих випадків."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hos_parade.rsi
@@ -377,8 +377,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHydroponics
-  name: hydroponics jumpsuit
-  description: Has a strong earthy smell to it. Hopefully it's merely dirty as opposed to soiled.
+  name: "комбінезон гідропоніки"
+  description: "Має сильний земляний запах. Сподіваємося, що це просто бруд, а не забруднення."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hydro.rsi
@@ -388,8 +388,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJanitor
-  name: janitor jumpsuit
-  description: The jumpsuit for the poor sop with a mop.
+  name: "прибиральницький комбінезон"
+  description: "Комбінезон бідного персоналу зі шваброю."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/janitor.rsi
@@ -399,8 +399,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitKimono
-  name: kimono
-  description: traditional chinese clothing
+  name: "кімоно"
+  description: "традиційний китайський одяг"
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/kimono.rsi
@@ -410,8 +410,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMedicalDoctor
-  name: medical doctor jumpsuit
-  description: It's made of a special fiber that provides minor protection against biohazards. It has a cross on the chest denoting that the wearer is trained medical personnel.
+  name: "лікарський комбінезон"
+  description: "Він виготовлений зі спеціального волокна, яке забезпечує незначний захист від біологічних загроз. На грудях є хрест, який означає, що власник є підготовленим медичним персоналом."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/medical.rsi
@@ -421,8 +421,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMime
-  name: mime suit
-  description: ...
+  name: "костюм міма"
+  description: "..."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/mime.rsi
@@ -432,8 +432,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitParamedic
-  name: paramedic jumpsuit
-  description: It's got a plus on it, that's a good thing right?
+  name: "парамедичний комбінезон"
+  description: "Це плюс, це ж добре, чи не так?"
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/paramedic.rsi
@@ -443,8 +443,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBrigmedic
-  name: corpsman jumpsuit # DeltaV - rename brigmedic to corpsman
-  description: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
+  name: "комбінезон бріг-медика" # DeltaV - rename brigmedic to corpsman
+  description: "Ця форма видається кваліфікованому персоналу, який пройшов навчання. Нікого не хвилює, що навчання тривало півдня."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/brigmedic.rsi # DeltaV - resprite
@@ -454,8 +454,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPrisoner
-  name: prisoner jumpsuit
-  description: Busted.
+  name: "комбінезон ув'язнених"
+  description: "Попався."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/color.rsi
@@ -493,8 +493,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitQM
-  name: logistics officer's jumpsuit # DeltaV - Logistics Department replacing Cargo
-  description: 'What can brown do for you?'
+  name: "комбінезон Голови Карго" # DeltaV - Logistics Department replacing Cargo
+  description: "Що коричневий може зробити для вас?"
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/qm.rsi
@@ -504,8 +504,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitQMTurtleneck
-  name: logistics officer's turtleneck # DeltaV - Logistics Department replacing Cargo
-  description: A sharp turtleneck made for the hardy work environment of supply.
+  name: "водолазка офіцера логістики" # DeltaV - Logistics Department replacing Cargo
+  description: "Гостра водолазка, створена для суворого робочого середовища постачання."
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/qmturtle.rsi
@@ -516,8 +516,8 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitQMFormal
   # DeltaV - Logistics Department - Replace Quartermaster with Logistics Officer
-  name: logistics officer's formal suit
-  description: Inspired by the logistics officers of military's past, the perfect outfit for supplying a formal occasion.
+  name: "урочистий костюм Голови Карго"
+  description: "Натхненний військовими офіцерами логістики минулого, ідеальне вбрання для офіційних заходів."
   # End of modified code
   components:
     - type: Sprite
@@ -528,8 +528,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitResearchDirector
-  name: mystagogue's turtleneck # DeltaV - Epistemics Department replacing Science
-  description: It's a turtleneck worn by those with the know-how to achieve the position of Mystagogue. Its fabric provides minor protection from biological contaminants. # DeltaV - Epistemics Department replacing Science
+  name: "водолазка містифікатора" # DeltaV - Epistemics Department replacing Science
+  description: "Це водолазка, яку носять ті, хто володіє ноу-хау, щоб досягти позиції Містагога. Її тканина забезпечує незначний захист від біологічних забруднень." # DeltaV - Epistemics Department replacing Science
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/rnd.rsi
@@ -539,8 +539,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitScientist
-  name: scientist jumpsuit
-  description: It's made of a special fiber that provides minor protection against explosives. It has markings that denote the wearer as a scientist.
+  name: "комбінезон вчених"
+  description: "Він виготовлений зі спеціального волокна, яке забезпечує незначний захист від вибухівки. Має маркування, що позначає власника як науковця."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/scientist.rsi
@@ -550,8 +550,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitScientistFormal
-  name: scientist's formal jumpsuit
-  description: A uniform for sophisticated scientists, best worn with its matching tie.
+  name: "формальний комбінезон вчених"
+  description: "Уніформа для витончених науковців, яку найкраще носити з краваткою в тон."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/scientist_formal.rsi
@@ -561,8 +561,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitRoboticist
-  name: roboticist jumpsuit
-  description: It's a slimming black with reinforced seams; great for industrial work.
+  name: "комбінезон робототехніки"
+  description: "Це тонкий чорний колір з посиленими швами; чудово підходить для промислової роботи."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/roboticist.rsi
@@ -572,8 +572,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSec
-  name: security jumpsuit
-  description: Charcoal trousers and a dull red shirt, the standard-issue uniform of the infamous Station Security Department. # DeltaV - improved description
+  name: "офіцерський комбінезон"
+  description: "Вугільні штани та тьмяна червона сорочка - стандартна уніформа сумнозвісного відділу служби безпеки." # DeltaV - improved description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/security.rsi # DeltaV - resprite
@@ -583,8 +583,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSecBlue
-  name: blue security jumpsuit # DeltaV - renamed to mirror other security uniforms
-  description: A cool blue shirt over charcoal trousers, for the calm and collected security officer. # DeltaV - improved description
+  name: "синій офіцерський комбінезон" # DeltaV - renamed to mirror other security uniforms
+  description: "Прохолодна синя сорочка поверх вугільних штанів - для спокійного і зібраного офіцерства." # DeltaV - improved description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/security_blue.rsi # DeltaV - resprite
@@ -594,8 +594,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSecGrey
-  name: grey security jumpsuit
-  description: A light grey shirt with bright red highlights, for dedicated and responsive security officers. # DeltaV - improved description
+  name: "сірий офіцерський комбінезон"
+  description: "Світло-сіра сорочка з яскраво-червоними вкрапленнями для відданного і чуйного офіцерства." # DeltaV - improved description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/security_grey.rsi # DeltaV - resprite
@@ -605,8 +605,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitWarden
-  name: warden's jumpsuit # DeltaV - renamed to mirror other security uniforms
-  description: Red shirt on charcoal trousers, with white markings and epaulettes that denote a warden's rank. # DeltaV - improved description
+  name: "наглядацький комбінезон" # DeltaV - renamed to mirror other security uniforms
+  description: "Червона сорочка на вугільних штанях, з білими знаками та погонами, що позначають звання наглядача." # DeltaV - improved description
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/warden.rsi # DeltaV - resprite
@@ -616,8 +616,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformOveralls
-  name: overalls
-  description: Great for working outdoors.
+  name: "комбінезон"
+  description: "Чудово підходить для роботи на свіжому повітрі."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/overalls.rsi
@@ -627,8 +627,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLibrarian
-  name: librarian jumpsuit
-  description: A cosy green jumper fit for a curator of books.
+  name: "комбінезон бібліотекаря"
+  description: "Затишний зелений джемпер для куратора книжок."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/librarian.rsi
@@ -638,8 +638,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCurator
-  name: sensible suit
-  description: It's sensible. Too sensible...
+  name: "розумний костюм"
+  description: "Це розумно. Занадто розумно..."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/curator.rsi
@@ -649,8 +649,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerRed
-  name: red lawyer suit
-  description: A flashy red suit worn by lawyers and show-offs.
+  name: "червоний костюм адвоката"
+  description: "Кричущий червоний костюм, який носять адвокати і показушники."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerred.rsi
@@ -660,8 +660,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerBlue
-  name: blue lawyer suit
-  description: A flashy blue suit worn by lawyers and show-offs.
+  name: "синій адвокатський костюм"
+  description: "Кричущий синій костюм, який носять адвокати і показушники."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerblue.rsi
@@ -671,8 +671,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerBlack
-  name: black lawyer suit
-  description: A subtle black suit worn by lawyers and gangsters.
+  name: "костюм чорного адвоката"
+  description: "Витончений чорний костюм, який носять адвокати та гангстери."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerblack.rsi
@@ -682,8 +682,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerPurple
-  name: purple lawyer suit
-  description: A stylish purple piece worn by lawyers and show people.
+  name: "фіолетовий адвокатський костюм"
+  description: "Стильна фіолетова річ, яку носять юристи та люди шоу-бізнесу."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerpurple.rsi
@@ -693,8 +693,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLawyerGood
-  name: good lawyer's suit
-  description: A tacky suit perfect for a CRIMINAL lawyer!
+  name: "костюм хорошого адвоката"
+  description: "Липкий костюм ідеально підходить для КРИМІНАЛЬНОГО адвоката!"
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/lawyergood.rsi
@@ -704,8 +704,8 @@
 - type: entity
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformJumpsuitPyjamaSyndicateBlack
-  name: black syndicate pyjamas
-  description: For those long nights in perma.
+  name: "чорна піжама Синдикату"
+  description: "Для довгих ночей у пермі."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicateblack.rsi
@@ -715,8 +715,8 @@
 - type: entity
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformJumpsuitPyjamaSyndicatePink
-  name: pink syndicate pyjamas
-  description: For those long nights in perma.
+  name: "рожева піжама Синдикату"
+  description: "Для довгих ночей у пермі."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatepink.rsi
@@ -726,8 +726,8 @@
 - type: entity
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformJumpsuitPyjamaSyndicateRed
-  name: red syndicate pyjamas
-  description: For those long nights in perma.
+  name: "червона піжама Синдикату"
+  description: "Для довгих ночей у пермі."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatered.rsi
@@ -737,8 +737,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNanotrasen
-  name: nanotrasen jumpsuit
-  description: A stately blue jumpsuit to represent NanoTrasen.
+  name: "комбінезон Нанотрасену"
+  description: "Величний синій комбінезон для представлення NanoTrasen."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/nanotrasen.rsi
@@ -748,8 +748,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCapFormal
-  name: captain's formal suit
-  description: A suit for special occasions.
+  name: "урочистий костюм капітана"
+  description: "Костюм для особливих випадків."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/capformal.rsi
@@ -759,8 +759,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomFormal
-  name: central command formal suit
-  description: A suit for special occasions.
+  name: "урочистий костюм центрального командування"
+  description: "Костюм для особливих випадків."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/centcomformal.rsi
@@ -770,8 +770,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHosFormal
-  name: hos's formal suit
-  description: A suit for special occasions.
+  name: "урочистий костюм Голови персоналу"
+  description: "Костюм для особливих випадків."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hosformal.rsi
@@ -781,8 +781,8 @@
 - type: entity
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformJumpsuitOperative
-  name: operative jumpsuit
-  description: Uniform for elite syndicate operatives performing tactical operations in deep space.
+  name: "оперативницький комбінезон"
+  description: "Уніформа для елітних оперативників Синдикату, які виконують тактичні операції у відкритому космосі."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/operative.rsi
@@ -792,8 +792,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTacticool
-  name: tacticool jumpsuit
-  description: Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
+  name: "комбінезон tacticool"
+  description: "Уніформа для низькокваліфікованих оперативників LARP, які виконують тактичні крадіжки в ізольованих рукавичках у відкритому космосі."
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/tacticool.rsi
@@ -807,8 +807,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMercenary
-  name: mercenary jumpsuit
-  description: Clothing for real mercenaries who have gone through fire, water and the jungle of planets flooded with dangerous monsters or targets for which a reward has been assigned.
+  name: "комбінезон найманця"
+  description: "Одяг для справжніх найманців, які пройшли крізь вогонь, воду та джунглі планет, що кишать небезпечними монстрами або цілями, за які призначена винагорода."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/mercenary.rsi
@@ -818,8 +818,8 @@
 - type: entity
   parent: UnsensoredClothingUniformBase
   id: ClothingUniformJumpsuitNinja
-  name: ninja jumpsuit
-  description: Comfortable ninja suit, for convenience when relaxing and when you need to practice.
+  name: "комбінезон ніндзя"
+  description: "Зручний костюм ніндзя, для зручності під час відпочинку та тренувань."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ninja.rsi
@@ -829,8 +829,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitAtmos
-  name: atmospheric technician jumpsuit
-  description: I am at work. I can't leave work. Work is breathing. I am testing air quality.
+  name: "комбінезон атмосферного техніка"
+  description: "Я на роботі. Я не можу покинути роботу. Робота - це дихання. Я перевіряю якість повітря."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/atmos.rsi
@@ -840,8 +840,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitAtmosCasual
-  name: atmospheric technician's casual jumpsuit
-  description: Might as well relax with a job as easy as yours.
+  name: "повсякденний комбінезон атмосферного техніка"
+  description: "З такою ж легкістю можна розслабитися, маючи таку просту роботу, як у вас."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/atmos_casual.rsi
@@ -851,8 +851,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPsychologist
-  name: psychologist suit
-  description: I don't lose things. I place things in locations which later elude me.
+  name: "костюм психолога"
+  description: "Я не гублю речі. Я кладу речі в місця, які потім вислизають від мене."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/psychologist.rsi
@@ -862,8 +862,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitReporter
-  name: reporter suit
-  description: A good reporter remains a skeptic all their life.
+  name: "репортерський костюм"
+  description: "Хороший репортер залишається скептиком все життя."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/reporter.rsi
@@ -873,8 +873,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSafari
-  name: safari suit
-  description: Perfect for a jungle excursion.
+  name: "костюм сафарі"
+  description: "Ідеально підходить для екскурсії в джунглі."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/safari.rsi
@@ -884,8 +884,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJournalist
-  name: journalist suit
-  description: If journalism is good, it is controversial, by nature.
+  name: "журналістський костюм"
+  description: "Якщо журналістика хороша, вона суперечлива за своєю природою."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/journalist.rsi
@@ -895,8 +895,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMonasticRobeDark
-  name: dark monastic robe
-  description: It's a dark robe, often worn by religious folk.
+  name: "темна чернеча ряса"
+  description: "Це темний одяг, який часто носять релігійні люди."
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/monastic_robe_dark.rsi
@@ -906,8 +906,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMonasticRobeLight
-  name: light monastic robe
-  description: It's a light robe, often worn by religious folk.
+  name: "світлий чернеча ряса"
+  description: "Це світлий халат, який часто носять релігійні люди."
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/monastic_robe_light.rsi
@@ -917,8 +917,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMusician
-  name: musician's tuxedo
-  description: A fancy tuxedo for the musically inclined.  Perfect for any lounge act!
+  name: "смокінг музиканта"
+  description: "Модний смокінг для музично налаштованих людей.  Ідеально підходить для будь-якого лаунж-виступу!"
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/musician.rsi
@@ -928,8 +928,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTChaplain
-  name: ERT chaplain uniform
-  description: A special suit made for Central Command's elite chaplain corps.
+  name: "Форма капелана швидкої допомоги"
+  description: "Спеціальний костюм, пошитий для елітного капеланського корпусу Центрального командування."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_chaplain.rsi
@@ -939,8 +939,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTEngineer
-  name: ERT engineering uniform
-  description: A special suit made for the elite engineers under CentCom.
+  name: "Інженерна форма ERT"
+  description: "Спеціальний костюм, виготовлений для елітних інженерів компанії CentCom."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_engineer.rsi
@@ -950,8 +950,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTJanitor
-  name: ERT janitorial uniform
-  description: A special suit made for the elite janitors under CentCom.
+  name: "Прибиральницька форма ERT"
+  description: "Спеціальний костюм, пошитий для елітних прибиральників CentCom."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_janitor.rsi
@@ -961,8 +961,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTLeader
-  name: ERT leader uniform
-  description: A special suit made for the best of the elites under CentCom.
+  name: "уніформа лідерства ERT"
+  description: "Спеціальний костюм, виготовлений для найкращих з еліти компанії CentCom."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_leader.rsi
@@ -972,8 +972,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTMedic
-  name: ERT medical uniform
-  description: A special suit made for the elite medics under CentCom.
+  name: "медична уніформа ERT"
+  description: "Спеціальний костюм, виготовлений для елітних медиків CentCom."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_medic.rsi
@@ -983,8 +983,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTSecurity
-  name: ERT security uniform
-  description: A special suit made for the elite security under CentCom.
+  name: "уніформа служби безпеки ERT"
+  description: "Спеціальний костюм, виготовлений для елітної служби безпеки компанії ЦентКом."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/ert_security.rsi
@@ -994,9 +994,9 @@
 - type: entity
   parent: ClothingUniformJumpsuitClown
   id: ClothingUniformJumpsuitCluwne
-  name: cluwne suit
+  name: "комбінезон-плащ"
   suffix: Unremoveable
-  description: Cursed cluwne suit.
+  description: "Клятий костюм-плащ."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/cluwne.rsi
@@ -1007,8 +1007,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitDameDane
-  name: yakuza outfit
-  description: Baka mitai...
+  name: "костюм якудзи"
+  description: "Бака мітай..."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/damedaneoutfit.rsi
@@ -1018,8 +1018,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPirate
-  name: pirate slops
-  description: A pirate variation of a space sailor's jumpsuit.
+  name: "піратські відходи"
+  description: "Піратська варіація комбінезона космічного моряка."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/pirate.rsi
@@ -1031,8 +1031,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCossack
-  name: cossack suit
-  description: the good old pants and brigantine.
+  name: "козацький костюм"
+  description: "старі добрі шаровари і бригантина."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/cossack.rsi
@@ -1042,8 +1042,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHawaiBlack
-  name: black hawaiian shirt
-  description: Black as a starry night.
+  name: "чорна гавайська сорочка"
+  description: "Чорний, як зоряна ніч."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hawaiblack.rsi
@@ -1053,8 +1053,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHawaiBlue
-  name: blue hawaiian shirt
-  description: Blue as a huge ocean.
+  name: "блакитна гавайська сорочка"
+  description: "Синій, як величезний океан."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hawaiblue.rsi
@@ -1064,8 +1064,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHawaiRed
-  name: red hawaiian shirt
-  description: Red as a juicy watermelons.
+  name: "червона гавайська сорочка"
+  description: "Червоні, як соковиті кавуни."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hawaired.rsi
@@ -1075,8 +1075,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHawaiYellow
-  name: yellow hawaiian shirt
-  description: Yellow as a bright sun.
+  name: "жовта гавайська сорочка"
+  description: "Жовтий, як яскраве сонце."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/hawaiyellow.rsi
@@ -1086,8 +1086,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSyndieFormal
-  name: syndicate formal suit
-  description: "The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
+  name: "урочиста уніформа Синдикату"
+  description: "Уніформа синдикату виконана в елегантному стилі, в ній навіть шкода робити брудні трюки."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/syndieformal.rsi
@@ -1097,8 +1097,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitFlannel
-  name: flannel jumpsuit
-  description: Smells like someones been grillin'.
+  name: "фланелевий комбінезон"
+  description: "Пахне так, ніби хтось смажив на грилі."
   components:
     - type: Sprite
       sprite: Clothing/Uniforms/Jumpsuit/flannel.rsi
@@ -1108,8 +1108,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorEngineer
-  name: senior engineer jumpsuit
-  description: A sign of skill and prestige within the engineering department.
+  name: "комбінезон старшої інженерії"
+  description: "Ознака майстерності та престижу в інженерному відділі."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/senior_engineer.rsi
@@ -1119,8 +1119,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorResearcher
-  name: senior researcher jumpsuit
-  description: A sign of skill and prestige within the epistemics department. # DeltaV - Epistemics Department replacing Science
+  name: "комбінезон старших вчених"
+  description: "Ознака майстерності та престижу у науковому відділі." # DeltaV - Epistemics Department replacing Science
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/senior_researcher.rsi
@@ -1130,8 +1130,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorPhysician
-  name: senior physician jumpsuit
-  description: A sign of skill and prestige within the medical department.
+  name: "комбінезон старшого лікаря"
+  description: "Ознака майстерності та престижу в медичному відділенні."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/senior_physician.rsi
@@ -1141,8 +1141,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSeniorOfficer
-  name: senior officer jumpsuit
-  description: A sign of skill and prestige within the security department.
+  name: "комбінезон старшого офіцерства"
+  description: "Ознака майстерності та престижу у відділі служби безпеки."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/senior_officer.rsi
@@ -1152,8 +1152,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitWeb
-  name: web jumpsuit
-  description: Makes it clear that you are one with the webs.
+  name: "павутинний комбінезон"
+  description: "Принаймні, це вже щось."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/web.rsi
@@ -1183,8 +1183,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLoungewear
-  name: loungewear
-  description: A long stretch of fabric that wraps around your body for comfort.
+  name: "літній одяг"
+  description: "Довгий відрізок тканини, який обертається навколо тіла для комфорту."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/loungewear.rsi
@@ -1194,8 +1194,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitGladiator
-  name: gladiator uniform
-  description: Made for true gladiators (or Ash Walkers).
+  name: "уніформа гладіатора"
+  description: "Зроблено для справжніх гладіаторів (або Попелястих ходоків)."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/gladiator.rsi
@@ -1205,8 +1205,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCasualBlue
-  name: casual blue jumpsuit
-  description: A loose worn blue shirt with a grey pants, perfect for someone looking to relax.
+  name: "повсякденний синій комбінезон"
+  description: "Вільна поношена синя сорочка з сірими штанами - ідеальний варіант для тих, хто хоче розслабитися."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
@@ -1235,8 +1235,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCasualPurple
-  name: casual purple jumpsuit
-  description: A loose worn purple shirt with a grey pants, perfect for someone looking to relax.
+  name: "повсякденний фіолетовий комбінезон"
+  description: "Вільна поношена фіолетова сорочка з сірими штанами - ідеальний варіант для тих, хто хоче розслабитися."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
@@ -1265,8 +1265,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCasualRed
-  name: casual red jumpsuit
-  description: A loose worn red shirt with a grey pants, perfect for someone looking to relax.
+  name: "повсякденний червоний комбінезон"
+  description: "Вільна поношена червона сорочка з сірими штанами - ідеальний варіант для тих, хто хоче розслабитися."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
@@ -1295,8 +1295,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitFamilyGuy
-  name: familiar garbs
-  description: Makes you remember the time you did something funny.
+  name: "знайомий одяг"
+  description: "Змушує згадати час, коли ви зробили щось смішне."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
@@ -1306,8 +1306,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBlueshield
-  name: blueshield jumpsuit
-  description: Сер, це дуже технологічний комбенізон, він зшитий найдосвідчинішими клоунами!.
+  name: "комбінезон синього кольору"
+  description: "Сер, це дуже технологічний комбенізон, він зшитий найдосвідчинішими клоунами!."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/blueshield.rsi
