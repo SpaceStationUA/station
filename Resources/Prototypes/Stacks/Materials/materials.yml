@@ -1,6 +1,6 @@
 - type: stack
   id: Biomass
-  name: "біомаса"
+  name: biomass
   icon: { sprite: /Textures/Objects/Misc/monkeycube.rsi, state: cube }
   spawn: MaterialBiomass1
   maxCount: 100
@@ -8,7 +8,7 @@
 
 - type: stack
   id: WoodPlank
-  name: "дерев'яна дошка"
+  name: wood plank
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: wood }
   spawn: MaterialWoodPlank1
   maxCount: 30
@@ -16,7 +16,7 @@
 
 - type: stack
   id: Cardboard
-  name: "картон"
+  name: cardboard
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: cardboard }
   spawn: MaterialCardboard1
   maxCount: 30
@@ -24,7 +24,7 @@
 
 - type: stack
   id: Cloth
-  name: "тканина"
+  name: cloth
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: cloth }
   spawn: MaterialCloth1
   maxCount: 30
@@ -32,7 +32,7 @@
 
 - type: stack
   id: Durathread
-  name: "міцна нитка"
+  name: durathread
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: durathread }
   spawn: MaterialDurathread1
   maxCount: 30
@@ -40,7 +40,7 @@
 
 - type: stack
   id: Diamond
-  name: "діамант"
+  name: diamond
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: diamond }
   spawn: MaterialDiamond1
   maxCount: 30
@@ -48,7 +48,7 @@
 
 - type: stack
   id: Cotton
-  name: "бавовна"
+  name: cotton
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: cotton }
   spawn: MaterialCotton1
   maxCount: 30
@@ -56,7 +56,7 @@
 
 - type: stack
   id: Bananium
-  name: "банан"
+  name: bananium
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: bananium }
   spawn: MaterialBananium1
   maxCount: 10
@@ -64,7 +64,7 @@
 
 - type: stack
   id: MeatSheets
-  name: "м'ясний лист"
+  name: meat sheet
   icon: { sprite: /Textures/Objects/Materials/Sheets/meaterial.rsi, state: meat }
   spawn: MaterialSheetMeat1
   maxCount: 30
@@ -72,7 +72,7 @@
 
 - type: stack
   id: WebSilk
-  name: "шовк"
+  name: silk
   icon: { sprite: /Textures/Objects/Materials/silk.rsi, state: icon }
   spawn: MaterialWebSilk1
   maxCount: 50
@@ -80,7 +80,7 @@
 
 - type: stack
   id: Bones
-  name: "кістки"
+  name: bones
   icon: { sprite: /Textures/Objects/Materials/materials.rsi, state: bones}
   spawn: MaterialBones1
   maxCount: 30

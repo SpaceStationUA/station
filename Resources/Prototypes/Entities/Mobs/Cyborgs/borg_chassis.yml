@@ -28,7 +28,7 @@
 - type: entity
   id: BorgChassisMining
   parent: BaseBorgChassisNT
-  name: "врятувати кіборга"
+  name: salvage cyborg
   components:
   - type: Sprite
     layers:
@@ -79,7 +79,7 @@
 - type: entity
   id: BorgChassisEngineer
   parent: BaseBorgChassisNT
-  name: "інженер-кіборг"
+  name: engineer cyborg
   components:
   - type: Sprite
     layers:
@@ -124,7 +124,7 @@
 - type: entity
   id: BorgChassisJanitor
   parent: BaseBorgChassisNT
-  name: "кіборг-прибиральник"
+  name: janitor cyborg
   components:
   - type: Sprite
     layers:
@@ -177,7 +177,7 @@
 - type: entity
   id: BorgChassisMedical
   parent: BaseBorgChassisNT
-  name: "медичний кіборг"
+  name: medical cyborg
   components:
   - type: Sprite
     layers:
@@ -231,7 +231,7 @@
 - type: entity
   id: BorgChassisService
   parent: BaseBorgChassisNT
-  name: "сервісний кіборг"
+  name: service cyborg
   components:
   - type: Sprite
     layers:
@@ -274,8 +274,8 @@
 - type: entity
   id: BorgChassisSyndicateAssault
   parent: BaseBorgChassisSyndicate
-  name: "синдикатський штурмовий кіборг"
-  description: "Худорлява, жорстока машина для вбивства з доступом до різноманітних смертоносних модулів."
+  name: syndicate assault cyborg
+  description: A lean, mean killing machine with access to a variety of deadly modules.
   components:
     - type: Sprite
       layers:
@@ -305,8 +305,8 @@
 - type: entity
   id: BorgChassisSyndicateMedical
   parent: BaseBorgChassisSyndicate
-  name: "синдикатський медичний кіборг"
-  description: "Бойовий медичний кіборг. Має обмежений наступальний потенціал, але з лишком компенсує його своїми можливостями підтримки."
+  name: syndicate medical cyborg
+  description: A combat medical cyborg. Has limited offensive potential, but makes more than up for it with its support capabilities.
   components:
     - type: Sprite
       layers:
@@ -334,8 +334,8 @@
 - type: entity
   id: BorgChassisSyndicateSaboteur
   parent: BaseBorgChassisSyndicate
-  name: "синдикатський диверсант-кіборг"
-  description: "Обтічний інженерний кіборг, оснащений прихованими модулями. Проектор-хамелеон дозволяє йому маскуватися під кіборга \"Нанотрасен\"."
+  name: syndicate saboteur cyborg
+  description: A streamlined engineering cyborg, equipped with covert modules. Its chameleon projector lets it disguise itself as a Nanotrasen cyborg.
   components:
     - type: Sprite
       layers:

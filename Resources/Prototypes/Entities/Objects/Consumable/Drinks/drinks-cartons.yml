@@ -71,8 +71,8 @@
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseFull]
   id: DrinkJuiceLimeCarton
-  name: "сік лайма"
-  description: "Солодко-кисла смакота."
+  name: lime juice
+  description: Sweet-sour goodness.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -86,8 +86,8 @@
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseFull]
   id: DrinkJuiceOrangeCarton
-  name: "апельсиновий сік"
-  description: "Повно вітамінів і смакоти!"
+  name: orange juice
+  description: Full of vitamins and deliciousness!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -101,8 +101,8 @@
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseFull]
   id: DrinkJuiceTomatoCarton
-  name: "томатний сік"
-  description: "Ну, принаймні, це виглядає як томатний сік. Не скажеш, що це почервоніння."
+  name: tomato juice
+  description: Well, at least it LOOKS like tomato juice. You can't tell with all that redness.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -116,8 +116,8 @@
 - type: entity
   parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkCoconutWaterCarton
-  name: "кокосова вода"
-  description: "Важливою є внутрішня частина кокосового горіха."
+  name: coconut water
+  description: It's the inside of the coconut that counts.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -134,8 +134,8 @@
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseFull]
   id: DrinkCreamCarton
-  name: "молочні вершки"
-  description: "Це вершки. Зроблені з молока. Що ще ти думав там знайти?"
+  name: milk cream
+  description: It's cream. Made from milk. What else did you think you'd find in there?
   components:
   - type: SolutionContainerManager
     solutions:
@@ -149,8 +149,8 @@
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseLargeFull]
   id: DrinkMilkCarton
-  name: "молоко"
-  description: "Непрозора біла рідина, що виробляється молочними залозами ссавців."
+  name: milk
+  description: An opaque white liquid produced by the mammary glands of mammals.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -164,8 +164,8 @@
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseLargeFull]
   id: DrinkSoyMilkCarton
-  name: "соєве молоко"
-  description: "Біла та поживна соєва смакота!"
+  name: soy milk
+  description: White and nutritious soy goodness!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -179,8 +179,8 @@
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseLargeFull]
   id: DrinkOatMilkCarton
-  name: "вівсяне молоко"
-  description: "Це вівсяне молоко. Смачна і поживна смакота!"
+  name: oat milk
+  description: It's oat milk. Tan and nutritious goodness!
   components:
   - type: SolutionContainerManager
     solutions:
@@ -204,8 +204,8 @@
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseFull]
   id: DrinkMilkCartonMini
-  name: "міні-молоко"
-  description: "Непрозора біла рідина, що виробляється молочними залозами ссавців."
+  name: mini milk
+  description: An opaque white liquid produced by the mammary glands of mammals.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -221,8 +221,8 @@
 - type: entity
   parent: [DrinkCartonVisualsOpenable, DrinkCartonBaseFull]
   id: DrinkMilkCartonMiniChocolate
-  name: "міні-шоколадне молоко"
-  description: "Молочний напій зі смаком шоколаду."
+  name: mini choco milk
+  description: A milk drink flavored with chocolate.
   components:
   - type: SolutionContainerManager
     solutions:
