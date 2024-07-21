@@ -78,3 +78,6 @@ signal-port-description-logic-input-b = Другий вхід логічного
 
 signal-port-name-logic-input = Вхідні дані
 signal-port-description-logic-input = Вхідний сигнал на детектор фронтів не може бути імпульсним.
+
+signal-port-name-set-particle-sigma = Встановити тип частинок: сигма
+signal-port-description-set-particle-sigma = Встановлює тип частинок, які випромінює цей пристрій, на сигму.

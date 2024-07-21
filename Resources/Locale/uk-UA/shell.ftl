@@ -47,3 +47,5 @@ shell-argument-number-invalid = Аргумент {$index} повинен бут�
 
 # Підказки
 shell-argument-username-hint = <ім'я користувача>
+
+shell-argument-username-optional-hint = [ім'я користувача]

@@ -240,3 +240,8 @@ ghost-role-information-syndicate-monkey-reinforcement-description = Комусь
 ghost-role-information-syndicate-monkey-reinforcement-rules = Застосовуються звичайні правила антагоністів синдикату. Працюйте з тими, хто вас викликав, і не завдавайте їм шкоди.
 
 ghost-role-information-smile-rules = Ви - домашня тварина, підпорядкована екіпажу. Ви можете захищатися і навіть атакувати загрози для станції, але загалом ви не повинні нападати на екіпаж станції або знищувати їхнє майно.
+ghost-role-information-ert-chaplain-name = Капелан екстреної медичної допомоги
+ghost-role-information-ert-chaplain-description = Допомагати в жалобі, щоб вирішити моральні проблеми екіпажу станції.
+ghost-role-information-artifact-name = Чуттєвий артефакт
+ghost-role-information-artifact-description = Втілюйте свої елдричні забаганки.
+      Примусово активуйте свої вузли на добро чи на зло.

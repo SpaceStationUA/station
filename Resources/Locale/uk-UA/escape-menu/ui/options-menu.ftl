@@ -262,3 +262,7 @@ ui-options-show-offer-mode-indicators = Показувати індикатор�
 ui-options-function-offer-item = Запропонуйте щось
 ui-options-announcer-volume = Гучність диктора:
 ui-options-function-toggle-standing = Перемикач стояння
+ui-options-show-ooc-patron-color = Показати колір OOC Patreon
+ui-options-chat-window-opacity = Непрозорість вікна чату
+ui-options-chat-window-opacity-percent = { TOSTRING($opacity, "P0") }
+ui-options-function-save-item-location = Зберегти розташування елемента

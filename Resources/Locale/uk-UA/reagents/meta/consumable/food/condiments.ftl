@@ -39,3 +39,6 @@ reagent-desc-soysauce = не рекомендую змішувати з соєв
 
 reagent-name-table-salt = харчова сіль
 reagent-desc-table-salt = в минулому була дуже дорогою,але зараз ні,дякуюємо НТ!
+
+reagent-name-syrup = сироп
+reagent-desc-syrup = Смачний сироп з деревного соку, чимось схожий на клей.

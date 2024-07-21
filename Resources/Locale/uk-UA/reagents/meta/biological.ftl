@@ -27,3 +27,5 @@ reagent-desc-vomit = У нії можна побачити кілька шмат
 
 reagent-name-grey-matter = сіра матерія
 reagent-desc-grey-matter = Виглядає наче сік, що витікає з твоїх вух.
+reagent-name-sap = сік
+reagent-desc-sap = Липка, солодка кров дерева.

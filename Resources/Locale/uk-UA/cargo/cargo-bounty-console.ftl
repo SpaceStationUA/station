@@ -1,4 +1,4 @@
-﻿bounty-console-menu-title = Консоль нагороди за вантаж
+bounty-console-menu-title = Консоль нагороди за вантаж
 bounty-console-label-button-text = Друк етикетки
 bounty-console-time-label = Час: [color=orange]{$time}[/color]
 bounty-console-reward-label = Нагорода: [color=limegreen]${$reward}[/color]
@@ -15,3 +15,5 @@ bounty-console-flavor-right = v1.4
 
 bounty-manifest-header = Офіційний маніфест винагороди за вантаж (ID#{$id})
 bounty-manifest-list-start = Маніфест товару:
+
+bounty-console-skip-button-text = Пропустити

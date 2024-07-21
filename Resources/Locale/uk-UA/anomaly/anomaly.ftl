@@ -66,3 +66,30 @@ anomaly-command-supercritical = Робить цільову аномалію н�
 # Flavor text on the footer
 anomaly-generator-flavor-left = Аномалія може породжуватися всередині оператора.
 anomaly-generator-flavor-right = v1.1
+
+anomaly-particles-sigma = Сигма-частинки
+anomaly-scanner-severity-percentage-unknown = Поточний ступінь тяжкості: [color=red]ПОМИЛКА[/color]
+anomaly-scanner-stability-unknown = Поточний стан аномалії: [color=red]ПОМИЛКА[/color]
+anomaly-scanner-point-output-unknown = Точковий вихід: [color=red]ERROR[/color]
+anomaly-scanner-particle-transformation = - [color=#6b75fa]Тип перетворення:[/color] {$type}
+anomaly-scanner-particle-danger-unknown = - [color=crimson]Тип небезпеки:[/color] [color=red]ПОМИЛКА[/color]
+anomaly-scanner-particle-unstable-unknown = - [color=plum]Нестабільний тип:[/color] [color=red]ПОМИЛКА[/color]
+anomaly-scanner-particle-containment-unknown = - [color=goldenrod]Тип вмісту:[/color] [color=red]ПОМИЛКА[/color]
+anomaly-scanner-particle-transformation-unknown = - [color=#6b75fa]Тип перетворення:[/color] [color=red]ПОМИЛКА[/color]
+anomaly-behavior-unknown = [color=red]ПОМИЛКА. Неможливо прочитати.[/color]
+anomaly-behavior-title = аналіз відхилень у поведінці:
+anomaly-behavior-point = [color=gold]Аномалія приносить {$mod}% очок[/color]
+anomaly-behavior-safe = [color=forestgreen]Аномалія надзвичайно стабільна. Вкрай рідкісні пульсації.[/color]
+anomaly-behavior-slow = [color=forestgreen]Частота пульсацій набагато менша[/color]
+anomaly-behavior-light = [color=forestgreen]Потужність пульсації значно зменшується[/color]
+anomaly-behavior-balanced = Відхилень у поведінці не виявлено.
+anomaly-behavior-delayed-force = Частота пульсацій значно зменшується, але їхня потужність збільшується.
+anomaly-behavior-rapid = Частота пульсації набагато вища, але її сила ослаблена.
+anomaly-behavior-reflect = Виявлено захисне покриття.
+anomaly-behavior-nonsensivity = Виявлено слабку реакцію на частинки.
+anomaly-behavior-sensivity = Виявлено посилену реакцію на частинки.
+anomaly-behavior-secret = Виявлено перешкоди. Не вдається прочитати деякі дані
+anomaly-behavior-inconstancy = [color=crimson]Виявлено мінливість. Типи частинок можуть змінюватися з часом[/color]
+anomaly-behavior-fast = [color=crimson]Частота пульсації сильно збільшена[/color]
+anomaly-behavior-strenght = [color=crimson]Потужність пульсації значно збільшена[/color]
+anomaly-behavior-moving = [color=crimson]Виявлено нестабільність координат[/color]

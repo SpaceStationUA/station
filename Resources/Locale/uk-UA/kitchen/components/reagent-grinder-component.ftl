@@ -15,3 +15,7 @@ grinder-menu-chamber-content-box-button = Вийняти Вміст
 grinder-menu-beaker-content-box-label = Склянка
 grinder-menu-beaker-content-box-button = Вийняти склянку
 grinder-menu-beaker-content-box-is-empty = Порожньо
+
+grinder-menu-auto-label = Автоматичний режим
+grinder-menu-auto-button-off = Вимкнено
+grinder-menu-manual-label = Ручний режим

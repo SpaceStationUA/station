@@ -8,3 +8,5 @@ comp-secret-stash-action-get-item-found-something = Щось уже було в 
 
 secret-stash-part-plant = рослина
 secret-stash-part-toilet = туалетний бачок
+
+comp-secret-stash-on-examine-found-hidden-item = Усередині є щось приховане.

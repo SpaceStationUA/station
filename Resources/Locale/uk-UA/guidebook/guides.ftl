@@ -62,3 +62,12 @@ guide-entry-space-ninja = Космічний ніндзя
 
 guide-entry-writing = Написання
 guide-entry-glossary = Глосарій
+
+guide-entry-elements = Елементи
+guide-entry-narcotics = Наркотики
+guide-entry-pyrotechnics = Піротехнік
+guide-entry-toxins = Токсини
+guide-entry-foods = Продукти харчування
+guide-entry-biological = Біологічний
+guide-entry-others = Інші
+guide-entry-botanical = Ботанічні препарати

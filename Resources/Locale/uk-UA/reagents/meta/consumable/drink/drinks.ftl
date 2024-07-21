@@ -87,3 +87,10 @@ reagent-desc-white-gilgamesh = якщо ви вважаєте що можете 
 
 reagent-name-mopwata = мопвата
 reagent-desc-mopwata = Брудна, застояна вода для миття швабр.
+
+reagent-name-coconut-water = кокосова вода
+reagent-desc-coconut-water = Улюбленець тих, хто вижив на безлюдних островах.
+reagent-name-cream-of-coconut = кокосовий крем
+reagent-desc-cream-of-coconut = Солодкий, сиропоподібний варіант кокосового крему з додаванням цукру.
+reagent-name-arnold-palmer = арнольд Палмер
+reagent-desc-arnold-palmer = А тепер подивись на цей диск.

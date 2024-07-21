@@ -107,3 +107,6 @@ JobVisitor = Відвідувач
 JobWarden = Варден
 JobZookeeper = Зоолог
 JobRoboticist = Робототехнік
+
+job-name-ertchaplain = Капелан екстреної медичної допомоги
+JobERTChaplain = Капелан екстреної медичної допомоги

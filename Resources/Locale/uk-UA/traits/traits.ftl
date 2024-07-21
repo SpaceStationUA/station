@@ -83,3 +83,5 @@ trait-description-Foreigner = З тієї чи іншої причини ви н
     Натомість у вас є перекладач, яким можете користуватися лише ви.
 trait-name-HeavyweightDrunk = П'яний важковаговик
 trait-description-HeavyweightDrunk = Алкоголь боїться вас
+trait-name-Southern = Southern Drawl
+trait-description-Southern = У вас інша манера говорити.

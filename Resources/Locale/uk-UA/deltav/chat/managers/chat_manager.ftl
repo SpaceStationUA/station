@@ -19,3 +19,7 @@ chat-speech-verb-goblin-2 = вокери
 chat-speech-verb-goblin-3 = випалює
 chat-speech-verb-goblin-4 = поплескування
 chat-speech-verb-goblin-5 = ріже
+
+chat-speech-verb-name-vulpkanin = Vulpkanin
+chat-speech-verb-name-felinid = Фелінід
+chat-speech-verb-name-harpy = Гарпія

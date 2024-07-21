@@ -117,3 +117,6 @@ chatsan-replacement-42 = пришелепкуватий
 
 chatsan-word-43 = тормоз
 chatsan-replacement-43 = з'їж снікерс
+
+chatsan-word-44 = tbf
+chatsan-replacement-44 = чесно кажучи

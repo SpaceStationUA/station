@@ -253,3 +253,11 @@ flavor-complex-sax = як джазмени непомнітного бару
 flavor-complex-bottledlightning = як блискавка в банці
 flavor-complex-punishment = як покарання
 flavor-weh = як, наприклад
+
+flavor-complex-ginger-soda = як імбир
+flavor-complex-coconut-rum = як горіховий ферментований цукор
+flavor-complex-arnold-palmer = як влучити в яблучко
+flavor-complex-blue-hawaiian = як тропіки
+flavor-complex-cosmopolitan = солодкий і гострий
+flavor-complex-painkiller = як ананасовий сік з прянощами
+flavor-complex-pina-colada = як тропічне сонце

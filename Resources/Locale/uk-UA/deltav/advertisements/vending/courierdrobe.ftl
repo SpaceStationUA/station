@@ -5,3 +5,5 @@ advertisement-courierdrobe-4 = Ці шорти зручні та легкі в �
 advertisement-courierdrobe-5 = У нашому стильному одязі випередиш будь-яку небезпеку!
 thankyou-courierdrobe-1 = Now get out there and deliver that mail!
 thankyou-courierdrobe-1 = Ці посилки самі себе не доставлять!
+
+thankyou-courierdrobe-2 = Ці посилки самі себе не доставлять!

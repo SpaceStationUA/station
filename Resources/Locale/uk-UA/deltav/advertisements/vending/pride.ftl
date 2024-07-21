@@ -3,3 +3,5 @@ advertisement-pride-2 = Повно кольорів!
 advertisement-pride-3 = Ви дійсні!
 thankyou-pride-1 = Go, do some crime!
 thankyou-pride-1 = Яскравого вам дня!
+
+thankyou-pride-2 = Яскравого вам дня!

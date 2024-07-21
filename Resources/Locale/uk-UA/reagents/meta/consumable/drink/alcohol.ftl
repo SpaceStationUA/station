@@ -249,3 +249,13 @@ reagent-desc-white-russian = диви який блідий: "мі нє знал
 
 reagent-name-gildlager = позолотник
 reagent-desc-gildlager = 100% міцний шнапс з корицею, створений для дівчат-підлітків-алкоголіків на весняних канікулах.
+reagent-name-blue-hawaiian = блакитний гавайський
+reagent-desc-blue-hawaiian = Алоха! Це означає привіт чи прощання?
+reagent-name-coconut-rum = кокосовий ром
+reagent-desc-coconut-rum = Ром з кокосовою стружкою для тропічного відчуття.
+reagent-name-cosmopolitan = космополіт
+reagent-desc-cosmopolitan = Навіть у найгірших ситуаціях ніщо не зрівняється зі свіжим космополітом.
+reagent-name-painkiller = знеболювальне
+reagent-desc-painkiller = Ліки від того, що вас турбує.
+reagent-name-pina-colada = піна-колада
+reagent-desc-pina-colada = За те, що загубився під дощем.
