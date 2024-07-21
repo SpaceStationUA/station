@@ -28,6 +28,15 @@
     - alertType: Magboots
     - alertType: Pacified
     - alertType: Offer
+
+- type: entity
+  id: AlertSpriteView
+  categories: [ hideSpawnMenu ]
+  components:
+  - type: Sprite
+    layers:
+    - map: [ "enum.AlertVisualLayers.Base" ]    
+
 #PIRATE START
 - type: alert
   id: MageMana

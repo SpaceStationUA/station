@@ -9,6 +9,7 @@ using Content.Shared.Roles;
 using Content.Shared.Traits;
 using Robust.Shared.Configuration;
 using Robust.Shared.Enums;
+using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Serialization;
@@ -459,8 +460,11 @@ namespace Content.Shared.Preferences
             return Appearance.MemberwiseEquals(other.Appearance);
         }
 
-        public void EnsureValid(IConfigurationManager configManager, IPrototypeManager prototypeManager)
+        public void EnsureValid(ICommonSession session, IDependencyCollection collection)
         {
+            var configManager = collection.Resolve<IConfigurationManager>();
+            var prototypeManager = collection.Resolve<IPrototypeManager>();
+
             if (!prototypeManager.TryIndex<SpeciesPrototype>(Species, out var speciesPrototype) || speciesPrototype.RoundStart == false)
             {
                 Species = SharedHumanoidAppearanceSystem.DefaultSpecies;
@@ -677,10 +681,10 @@ namespace Content.Shared.Preferences
             return voice.RoundStart && sex == Sex.Unsexed || (voice.Sex == sex || voice.Sex == Sex.Unsexed);
         }
 
-        public ICharacterProfile Validated(IConfigurationManager configManager, IPrototypeManager prototypeManager)
+        public ICharacterProfile Validated(ICommonSession session, IDependencyCollection collection)
         {
             var profile = new HumanoidCharacterProfile(this);
-            profile.EnsureValid(configManager, prototypeManager);
+            profile.EnsureValid(session, collection);
             return profile;
         }
 

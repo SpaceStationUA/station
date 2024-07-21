@@ -1,47 +1,45 @@
 - type: emote
   id: Sneeze
   category: Vocal
-  chatMessages: [чхає]
+  chatMessages: [ чхає ]
     
 - type: emote
   id: Cough
   icon: Interface/Emotes/coughs.jpeg #PIRATE
   category: Vocal
-  chatMessages: [кашляє]
+  chatMessages: [ кашляє ]
   chatTriggers:
-    - cough
     - coughs
 
 - type: emote
   id: CatMeow
   category: Vocal
-  chatMessages: [meows]
+  chatMessages: [ meows ]
 
 - type: emote
   id: CatHisses
   category: Vocal
-  chatMessages: [hisses]
+  chatMessages: [ hisses ]
 
 - type: emote
   id: MonkeyScreeches
   category: Vocal
-  chatMessages: [screeches]
+  chatMessages: [ screeches ]
 
 - type: emote
   id: RobotBeep
   category: Vocal
-  chatMessages: [біпає]
+  chatMessages: [ біпає ]
 
 - type: emote
   id: Yawn
   icon: Interface/Emotes/yawns.png #PIRATE
   category: Vocal
-  chatMessages: [позіхає]
+  chatMessages: [ позіхає ]
   chatTriggers:
-    - yawn
     - yawns
 
 - type: emote
   id: Snore
   category: Vocal
-  chatMessages: [хропить]
+  chatMessages: [ хропить ]

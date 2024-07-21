@@ -269,7 +269,7 @@
   suffix: Vault, Locked
   components:
   - type: AccessReader
-    access: [["Security", "Command"]]
+    access: [["Security"], ["Command"]]
 
 - type: entity
   parent: DoorElectronics

@@ -9,7 +9,7 @@ character-species-requirement = Ви повинні {$inverted ->
 character-trait-requirement = Ви повинні {$inverted ->
     [true] не мати
     *[other] мати
-} ознаку [color=lightblue]{$trait}[/color]
+} ознаки [color=lightblue]{$traits}[/color]
 character-backpack-type-requirement = Ви повинні {$inverted ->
     [true] не використовувати
     *[other] використовувати

@@ -6,6 +6,9 @@ using Content.Shared.Radio.Components; //PIRATE Parkstation-IPC
 using Content.Shared.Containers; //PIRATE Parkstation-IPC
 using Robust.Shared.Containers; //PIRATE Parkstation-IPC
 using Content.Shared.Roles;
+using Content.Shared.Storage;
+using Content.Shared.Storage.EntitySystems;
+using Robust.Shared.Collections;
 
 namespace Content.Shared.Station;
 
@@ -13,6 +16,8 @@ public abstract class SharedStationSpawningSystem : EntitySystem
 {
     [Dependency] protected readonly InventorySystem InventorySystem = default!;
     [Dependency] private   readonly SharedHandsSystem _handsSystem = default!;
+    [Dependency] private   readonly SharedStorageSystem _storage = default!;
+    [Dependency] private   readonly SharedTransformSystem _xformSystem = default!;
 
     /// <summary>
     /// Equips starting gear onto the given entity.
@@ -27,11 +32,11 @@ public abstract class SharedStationSpawningSystem : EntitySystem
             foreach (var slot in slotDefinitions)
             {
                 var equipmentStr = startingGear.GetGear(slot.Name, profile);
-                if (!string.IsNullOrEmpty(equipmentStr))
-                {
-                    var equipmentEntity = EntityManager.SpawnEntity(equipmentStr, EntityManager.GetComponent<TransformComponent>(entity).Coordinates);
-                    InventorySystem.TryEquip(entity, equipmentEntity, slot.Name, true, force:true);
-                }
+                if (string.IsNullOrEmpty(equipmentStr))
+                    continue;
+
+                var equipmentEntity = EntityManager.SpawnEntity(equipmentStr, EntityManager.GetComponent<TransformComponent>(entity).Coordinates);
+                InventorySystem.TryEquip(entity, equipmentEntity, slot.Name, true, force:true);
             }
         }
 
@@ -69,18 +74,43 @@ public abstract class SharedStationSpawningSystem : EntitySystem
         }
         //PIRATE Parkstation-Ipc-End
 
-        if (!TryComp(entity, out HandsComponent? handsComponent))
+        if (TryComp(entity, out HandsComponent? handsComponent))
             return;
-
-        var inhand = startingGear.Inhand;
-        var coords = EntityManager.GetComponent<TransformComponent>(entity).Coordinates;
-        foreach (var prototype in inhand)
         {
-            var inhandEntity = EntityManager.SpawnEntity(prototype, coords);
-
-            if (_handsSystem.TryGetEmptyHand(entity, out var emptyHand, handsComponent))
+            var inhand = startingGear.Inhand;
+            var coords = EntityManager.GetComponent<TransformComponent>(entity).Coordinates;
+            foreach (var prototype in inhand)
             {
-                _handsSystem.TryPickup(entity, inhandEntity, emptyHand, checkActionBlocker: false, handsComp: handsComponent);
+                var inhandEntity = EntityManager.SpawnEntity(prototype, coords);
+
+                if (_handsSystem.TryGetEmptyHand(entity, out var emptyHand, handsComponent))
+                    _handsSystem.TryPickup(entity, inhandEntity, emptyHand, checkActionBlocker: false,
+                        handsComp: handsComponent);
+            }
+        }
+
+        if (startingGear.Storage.Count > 0)
+        {
+            var coords = _xformSystem.GetMapCoordinates(entity);
+            var ents = new ValueList<EntityUid>();
+            TryComp(entity, out InventoryComponent? inventoryComp);
+
+            foreach (var (slot, entProtos) in startingGear.Storage)
+            {
+                if (entProtos.Count == 0)
+                    continue;
+
+                foreach (var ent in entProtos)
+                    ents.Add(Spawn(ent, coords));
+
+                if (inventoryComp == null
+                    || !InventorySystem.TryGetSlotEntity(entity, slot, out var slotEnt,
+                        inventoryComponent: inventoryComp)
+                    || !TryComp(slotEnt, out StorageComponent? storage))
+                    continue;
+
+                foreach (var ent in ents)
+                    _storage.Insert(slotEnt.Value, ent, out _, storageComp: storage, playSound: false);
             }
         }
     }

@@ -24,6 +24,7 @@ using Content.Server.Worldgen.Tools;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Administration.Managers;
 using Content.Shared.Kitchen;
+using Content.Shared.Players.PlayTimeTracking;
 using Content.Server._Pirate.TTS; // Pirate
 
 namespace Content.Server.IoC
@@ -63,7 +64,9 @@ namespace Content.Server.IoC
             IoCManager.Register<ServerDbEntryManager>();
             IoCManager.Register<JoinQueueManager>();
             IoCManager.Register<DiscordAuthManager>();
-			IoCManager.Register<TTSManager>(); // Pirate
+            IoCManager.Register<ISharedPlaytimeManager, PlayTimeTrackingManager>();
+            IoCManager.Register<ServerApi>();
+            IoCManager.Register<TTSManager>(); // Pirate
         }
     }
 }

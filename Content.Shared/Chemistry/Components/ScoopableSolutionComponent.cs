@@ -7,7 +7,7 @@ namespace Content.Shared.Chemistry.Components;
 /// Basically reverse spiking, instead of using the solution-entity on a beaker, you use the beaker on the solution-entity.
 /// If there is not enough volume it will stay in the solution-entity rather than spill onto the floor.
 /// </summary>
-[RegisterComponent, NetworkedComponent]
+[RegisterComponent, NetworkedComponent, Access(typeof(ScoopableSolutionSystem))]
 public sealed partial class ScoopableSolutionComponent : Component
 {
     /// <summary>

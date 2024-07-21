@@ -5,7 +5,7 @@ namespace Content.Server.Anomaly.Components;
 /// <summary>
 /// Shuffle Particle types in some situations
 /// </summary>
-[RegisterComponent]
+[RegisterComponent, Access(typeof(ShuffleParticlesAnomalySystem))]
 public sealed partial class ShuffleParticlesAnomalyComponent : Component
 {
     /// <summary>
