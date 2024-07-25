@@ -56,8 +56,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonOperative
-  name: operative balloon
-  description: Upon closer inspection, this Syndicate operative is actually a balloon.
+  name: "оперативна повітряна куля"
+  description: "При ближчому розгляді цей оперативник Синдикату насправді є повітряною кулькою."
   components:
   - type: HandheldLight
     addPrefix: false
@@ -80,8 +80,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonAgent
-  name: agent balloon
-  description: Upon closer inspection, this Syndicate agent is actually a balloon.
+  name: "повітряна куля з агентом"
+  description: "При ближчому розгляді цей агент Синдикату насправді є повітряною кулею."
   components:
   - type: HandheldLight
     addPrefix: false
@@ -103,8 +103,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonElite
-  name: elite operative balloon
-  description: Upon closer inspection, this Syndicate elite operative is actually a balloon.
+  name: "елітна оперативна повітряна куля"
+  description: "При ближчому розгляді цей елітний оперативник Синдикату виявляється насправді повітряною кулькою."
   components:
   - type: HandheldLight
     addPrefix: false
@@ -126,8 +126,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonJuggernaut
-  name: juggernaut balloon
-  description: Upon closer inspection, this Syndicate juggernaut is actually a balloon.
+  name: "повітряна куля-джаггернаут"
+  description: "При ближчому розгляді, цей джаггернаут Синдикату насправді є повітряною кулею."
   components:
   - type: HandheldLight
     addPrefix: false
@@ -148,8 +148,8 @@
 - type: entity
   parent: BaseDecoy
   id: BalloonCommander
-  name: commander balloon
-  description: Upon closer inspection, this Syndicate commander is actually a balloon.
+  name: "командирська куля"
+  description: "При ближчому розгляді цей командир Синдикату насправді є повітряною кулькою."
   components:
   - type: HandheldLight
     addPrefix: false

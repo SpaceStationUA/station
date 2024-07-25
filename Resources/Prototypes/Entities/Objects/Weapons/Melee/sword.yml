@@ -1,8 +1,8 @@
 - type: entity
-  name: captain's sabre
+  name: "шабля капітана"
   parent: BaseItem
   id: CaptainSabre
-  description: A ceremonial weapon belonging to the captain of the station.
+  description: "Церемоніальна зброя, що належить капітану станції."
   components:
   - type: Sharp
   - type: Sprite
@@ -29,10 +29,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: katana
+  name: "катана"
   parent: BaseItem
   id: Katana
-  description: Ancient craftwork made with not so ancient plasteel.
+  description: "Старовинний ремісничий виріб із не такої вже й давньої сталі."
   components:
   - type: Sharp
   - type: Tag
@@ -54,10 +54,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: energy katana
+  name: "енергетична катана"
   parent: Katana
   id: EnergyKatana
-  description: A katana infused with strong energy.
+  description: "Катана, наповнена сильною енергією."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/energykatana.rsi
@@ -85,10 +85,10 @@
   - type: Reflect
 
 - type: entity
-  name: machete
+  name: "мачете"
   parent: BaseItem
   id: Machete
-  description: A large, vicious looking blade.
+  description: "Велике, злісне на вигляд лезо."
   components:
   - type: Sharp
   - type: Tag
@@ -110,10 +110,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: claymore
+  name: "клаймор"
   parent: BaseItem
   id: Claymore
-  description: An ancient war blade.
+  description: "Стародавній бойовий клинок."
   components:
   - type: Sharp
   - type: Sprite
@@ -136,10 +136,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: cutlass
+  name: "шабля"
   parent: BaseItem
   id: Cutlass
-  description: A wickedly curved blade, often seen in the hands of space pirates.
+  description: "Зловісно вигнуте лезо, яке часто можна побачити в руках космічних піратів."
   components:
   - type: Sharp
   - type: Tag
@@ -161,10 +161,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: The Throngler
+  name: "Розбишака"
   parent: BaseItem
   id: Throngler
-  description: Why would you make this?
+  description: "Навіщо ви це робите?"
   components:
     - type: Sharp
     - type: Sprite
@@ -195,8 +195,8 @@
 - type: entity
   parent: Katana
   id: Spellblade
-  name: spellblade
-  description: A magical blade that deals respectable damage, wield to shoot out a magic fire bolt.
+  name: "лезо заклинання"
+  description: "Магічний клинок, що завдає значної шкоди, яким можна вистрілити магічним вогняним болтом."
   components:
   - type: Sharp
   - type: Sprite
