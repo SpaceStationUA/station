@@ -1,14 +1,14 @@
 - type: entity
   parent: ClothingHeadHatHoshat
   id: ClothingHeadHatBH
-  name: "капелюх мисливця за головами"
-  description: "У секторі з'явився новий мисливець за головами."
+  name: "bounty hunter's hat"
+  description: "There's a new bounty hunter in the sector."
 
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCardinal
-  name: "капелюх кардинала"
-  description: "Добре захищає голову від сонця і розуму."
+  name: cardinal's hat
+  description: Keeps your head well protected from sun and reason.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hats/cardinal_hat.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatWitchhunter
-  name: "капелюх мисливця на відьом"
-  description: "Відьмі не можна залишати життя."
+  name: witch hunter's hat
+  description: "Thou shalt not suffer a witch to live."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hats/witch_hunter_hat.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBishopMitre
-  name: "єпископська митра"
-  description: "Як це носити? А! Навпаки!"
+  name: bishop's mitre
+  description: How to wear this thing? Ah! The other way around!
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hats/bishop_mitre.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatKippah
-  name: "кіпа"
-  description: "Базова версія без вбудованого банкомату."
+  name: kippah
+  description: Basic version without built-in ATM.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hats/kippah.rsi
@@ -68,8 +68,8 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodCardinalHood
   noSpawn: true
-  name: "капюшон кардинала"
-  description: "Ховає очі, загартовує віру."
+  name: cardinal's hood
+  description: Hides your eyes, ensteels your faith.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hoods/cardinal_hood.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPirateLuffy
-  name: "підозрілий піратський капелюх"
-  description: "Цей капелюх виглядає підозріло."
+  name: suspicious pirate's hat
+  description: This here hat be lookin' suspicious.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hats/pirate_hat_luffy.rsi
