@@ -13,3 +13,5 @@ changelog-button-new-entries = Список змін (нове!)
 changelog-tab-title-Changelog = Візард
 changelog-tab-title-Admin = Адмін
 changelog-tab-title-DeltaV = Дельта-Ві
+changelog-tab-title-Pirate = Наші зміни
+
