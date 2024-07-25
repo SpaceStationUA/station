@@ -65,6 +65,8 @@ public sealed class TTSManager
     /// <returns>OGG audio bytes or null if failed</returns>
     public async Task<byte[]?> ConvertTextToSpeech(string speaker, string text)
     {
+        if(speaker == -1)
+            return;
 
         var fileName = text.GetHashCode().ToString() + ".wav";
         string strCmdText;
