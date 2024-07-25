@@ -2,6 +2,7 @@ using Content.Server.Ghost.Roles.Components;
 using Content.Server.Humanoid.Systems;
 using Content.Server.RandomMetadata;
 using Content.Server.RoundEnd;
+using Content.Shared.Directions;
 using Content.Shared.Mind;
 using Content.Shared.Players;
 using Content.Shared.Shuttles.Components;
@@ -18,6 +19,7 @@ public sealed class MakeAMercSystem : EntitySystem
 {
     private const string MapPath = "Maps/Shuttles/Qazmlp/st_merc.yml";
     [ValidatePrototypeId<EntityPrototype>] private const string SpawnerPrototypeId = "Mercenary";
+    [ValidatePrototypeId<EntityPrototype>] private const string Disk = "CoordinatesDisk";
     [Dependency] private readonly IEntityManager _entManager = default!;
     [Dependency] private readonly MapLoaderSystem _map = default!;
     [Dependency] private readonly IMapManager _mapManager = default!;
@@ -53,16 +55,22 @@ public sealed class MakeAMercSystem : EntitySystem
         var shuttleMapId = _mapManager.GetMapEntityId(shuttleMap);
         var shuttleMapComponent = EnsureComp<FTLDestinationComponent>(shuttleMapId);
         shuttleMapComponent.Enabled = true;
-        // shuttleMapComponent.RequireCoordinateDisk = true;
+        shuttleMapComponent.RequireCoordinateDisk = true;
         _entManager.Dirty(shuttleMapId, shuttleMapComponent);
 
         var shuttle = grids.FirstOrNull();
         if (shuttle == null)
             return;
 
-        var spawn = Transform(shuttle.Value).Coordinates;
+        var position = Transform(shuttle.Value).Coordinates;
+        var spawn = new EntityCoordinates(shuttle.Value, position.X + 10, position.Y);
         var uid = _randomHumanoidSystem.SpawnRandomHumanoid(SpawnerPrototypeId, spawn, metadata.EntityName);
         RemComp<GhostRoleComponent>(uid);
         mindSystem.TransferTo(mind, uid, true);
+
+        var disk = EntityManager.SpawnEntity(Disk, spawn);
+        var cd = _entManager.EnsureComponent<ShuttleDestinationCoordinatesComponent>(disk);
+        cd.Destination = shuttleMapId;
+        _entManager.Dirty(disk, cd);
     }
 }
