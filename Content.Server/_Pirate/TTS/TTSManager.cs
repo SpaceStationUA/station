@@ -66,7 +66,7 @@ public sealed class TTSManager
     public async Task<byte[]?> ConvertTextToSpeech(string speaker, string text)
     {
         if(speaker == "-1")
-            return;
+            return null;
 
         var fileName = text.GetHashCode().ToString() + ".wav";
         string strCmdText;
