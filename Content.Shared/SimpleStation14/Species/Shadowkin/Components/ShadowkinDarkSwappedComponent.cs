@@ -19,6 +19,12 @@ public sealed partial class ShadowkinDarkSwappedComponent : Component
     public bool Pacify = true;
 
     /// <summary>
+    ///     Is shadowkin pacified by default
+    /// <inheritdoc cref="Invisible"/>
+    /// </summary>
+    public bool PacifiedDefault = false;
+
+    /// <summary>
     ///     If it should dim nearby lights
     /// </summary>
     [DataField("darken"), ViewVariables(VVAccess.ReadWrite)]
