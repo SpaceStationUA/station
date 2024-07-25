@@ -484,7 +484,7 @@ entities:
     - type: Transform
       pos: -6.5,-1.5
       parent: 213
-- proto: AirlockHatch
+- proto: AirlockHatchSyndicate
   entities:
   - uid: 101
     components:
@@ -540,7 +540,7 @@ entities:
       rot: 3.141592653589793 rad
       pos: -5.5,8.5
       parent: 213
-- proto: AirlockShuttleSyndicate
+- proto: AirlockExternalShuttleSyndicateLocked
   entities:
   - uid: 97
     components:
