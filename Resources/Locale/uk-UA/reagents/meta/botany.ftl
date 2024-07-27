@@ -7,7 +7,7 @@ reagent-desc-left4-zed = Коктейль мутагенних сполук, я�
 reagent-name-pest-killer = вбивця шкідників
 reagent-desc-pest-killer = Суміш для знищення шкідників.
 
-reagent-name-plant-b-gone = plant-B-Gone
+reagent-name-plant-b-gone = рослина Б зникла
 reagent-desc-plant-b-gone = Шкідлива токсична суміш для знищення рослин. Не ковтати!
 
 reagent-name-robust-harvest = міцний врожай

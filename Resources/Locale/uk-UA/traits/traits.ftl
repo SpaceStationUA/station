@@ -85,3 +85,7 @@ trait-name-HeavyweightDrunk = П'яний важковаговик
 trait-description-HeavyweightDrunk = Алкоголь боїться вас
 trait-name-Southern = Southern Drawl
 trait-description-Southern = У вас інша манера говорити.
+trait-name-Stutter = Заїка
+trait-description-Stutter = Ти т-т-говориш трохи з-заїкаючись...
+trait-name-NormalVision = Модифікація Trichromat
+trait-description-NormalVision = Ваші очі були модифіковані за допомогою передової медицини, щоб бачити стандартні кольори: червоний, зелений і синій.

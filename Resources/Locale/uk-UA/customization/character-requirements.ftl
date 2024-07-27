@@ -37,3 +37,8 @@ character-timer-role-too-high = Вам знадобиться [color=yellow] {TO
 
 character-trait-group-exclusion-requirement = Якщо ви виберете цю опцію, ви не можете мати одну з наступних рис: {$traits}
 character-loadout-group-exclusion-requirement = Якщо ви виберете цей параметр, ви не зможете мати жодного з наступних завантажень: {$loadouts}
+
+character-loadout-requirement = Ви повинні {$inverted ->
+    [true] не мати
+    *[other] мати
+} один з цих наборів: {$loadouts}
