@@ -1,6 +1,6 @@
 - type: entity
   id: BaseSpeedLoaderMagnum
-  name: "speed loader (.45 magnum)"
+  name: "швидкісний зарядник (.45 magnum)"
   parent: BaseItem
   abstract: true
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   id: SpeedLoaderMagnum
-  name: "speed loader (.45 magnum)"
+  name: "швидкісний зарядник (.45 magnum)"
   parent: BaseSpeedLoaderMagnum
   components:
   - type: BallisticAmmoProvider
@@ -41,7 +41,7 @@
 
 - type: entity
   id: SpeedLoaderMagnumPractice
-  name: "speed loader (.45 magnum practice)"
+  name: "швидкісний зарядник (.45 magnum practice)"
   parent: BaseSpeedLoaderMagnum
   components:
   - type: BallisticAmmoProvider
@@ -61,7 +61,7 @@
 
 - type: entity
   id: SpeedLoaderMagnumRubber
-  name: "speed loader (.45 magnum rubber)"
+  name: "швидкісний зарядник (гума .45 magnum)"
   parent: BaseSpeedLoaderMagnum
   components:
   - type: BallisticAmmoProvider
@@ -81,7 +81,7 @@
 
 - type: entity
   id: SpeedLoaderMagnumAP
-  name: "speed loader (.45 magnum armor-piercing)"
+  name: "швидкісний зарядник (.45 magnum бронебійний)"
   parent: BaseSpeedLoaderMagnum
   components:
   - type: BallisticAmmoProvider
@@ -101,7 +101,7 @@
 
 - type: entity
   id: SpeedLoaderMagnumUranium
-  name: "speed loader (.45 magnum uranium)"
+  name: "швидкісний зарядник (.45 magnum uranium)"
   parent: BaseSpeedLoaderMagnum
   components:
   - type: BallisticAmmoProvider

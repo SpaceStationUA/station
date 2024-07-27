@@ -1,8 +1,8 @@
 - type: entity
-  name: fire extinguisher
+  name: "вогнегасник"
   parent: BaseItem
   id: FireExtinguisher
-  description: It extinguishes fires.
+  description: "Він гасить пожежі."
   components:
   - type: Sprite
     sprite: Objects/Misc/fire_extinguisher.rsi
@@ -56,7 +56,7 @@
           False: { state: fire_extinguisher_open }
 
 - type: entity
-  name: extinguisher spray
+  name: "вогнегасник спрей"
   id: ExtinguisherSpray
   parent: Vapor
   noSpawn: true
