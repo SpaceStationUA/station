@@ -40,26 +40,26 @@
     duration: 1
   - type: MageSpawnRule
 
-- type: entity
-  parent: BaseGameRule
-  id: ClosetSkeleton
-  noSpawn: true
-  components:
-  - type: StationEvent
-    weight: 10
-    duration: 1
-  - type: RandomEntityStorageSpawnRule
-    prototype: MobSkeletonCloset
-
-- type: entity
-  id: RandomSentience
-  parent: BaseGameRule
-  noSpawn: true
-  components:
-  - type: StationEvent
-    weight: 10
-    duration: 1
-  - type: RandomSentienceRule
+#- type: entity
+#  parent: BaseGameRule
+#  id: ClosetSkeleton
+#  noSpawn: true
+#  components:
+#  - type: StationEvent
+#    weight: 10
+#    duration: 1
+#  - type: RandomEntityStorageSpawnRule
+#    prototype: MobSkeletonCloset
+#
+#- type: entity
+#  id: RandomSentience
+#  parent: BaseGameRule
+#  noSpawn: true
+#  components:
+#  - type: StationEvent
+#    weight: 10
+#    duration: 1
+#  - type: RandomSentienceRule
 
 - type: entity
   parent: BaseGameRule
