@@ -35,7 +35,7 @@
 - type: entity
   parent: BaseFoam
   id: Smoke
-  name: "дим"
+  name: smoke
   noSpawn: true
   components:
   - type: Occluder
@@ -51,7 +51,7 @@
 - type: entity
   parent: BaseFoam
   id: Foam
-  name: "піна"
+  name: foam
   noSpawn: true
   components:
   - type: Sprite
@@ -83,7 +83,7 @@
 
 - type: entity
   id: MetalFoam
-  name: "металева піна"
+  name: metal foam
   noSpawn: true
   parent: Foam
   components:
@@ -107,7 +107,7 @@
 
 - type: entity
   id: IronMetalFoam
-  name: "залізо металева піна"
+  name: iron metal foam
   noSpawn: true
   parent: MetalFoam
   components:
@@ -116,7 +116,7 @@
 
 - type: entity
   id: AluminiumMetalFoam
-  name: "алюмінієва металева піна"
+  name: aluminium metal foam
   noSpawn: true
   parent: MetalFoam
   components:
@@ -125,7 +125,7 @@
 
 - type: entity
   id: BaseFoamedMetal
-  name: "основа зі спіненого металу"
+  name: base foamed metal
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -173,8 +173,8 @@
 
 - type: entity
   id: FoamedIronMetal
-  name: "металл зі спіненого заліза"
-  description: "Для герметизації пробоїн в корпусі."
+  name: foamed iron metal
+  description: "For sealing hull breaches."
   parent: BaseFoamedMetal
   components:
   - type: Sprite
@@ -195,8 +195,8 @@
 
 - type: entity
   id: FoamedAluminiumMetal
-  name: "спінений алюмінієвий метал"
-  description: "Для герметизації пробоїн в корпусі."
+  name: foamed aluminium metal
+  description: "For sealing hull breaches."
   parent: BaseFoamedMetal
   components:
   - type: Sprite

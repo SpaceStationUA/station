@@ -1,8 +1,8 @@
 - type: entity
-  name: "BaseWeaponShotgun"
+  name: BaseWeaponShotgun
   parent: BaseItem
   id: BaseWeaponShotgun
-  description: "Корінцевий зубастий і пагонистий."
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -45,11 +45,11 @@
     price: 500
 
 - type: entity
-  name: "Бульдог"
+  name: Bulldog
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: BaseItem
   id: WeaponShotgunBulldog
-  description: "Це рушниця з магазинним живленням, призначена для ближнього бою. Використовує набої калібру .50."
+  description: It's a magazine-fed shotgun designed for close quarters combat. Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi
@@ -102,10 +102,10 @@
     price: 500
 
 - type: entity
-  name: "двоствольна рушниця"
+  name: double-barreled shotgun
   parent: BaseWeaponShotgun
   id: WeaponShotgunDoubleBarreled
-  description: "Безсмертна класика. Використовує гільзи 50-го калібру."
+  description: An immortal classic. Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/db_shotgun.rsi # Delta-V
@@ -126,20 +126,20 @@
     deconstructionTarget: null
 
 - type: entity
-  name: "двоствольна рушниця"
+  name: double-barreled shotgun
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledRubber
-  description: "Безсмертна класика. Використовує гільзи 50-го калібру."
+  description: An immortal classic. Uses .50 shotgun shells.
   suffix: Non-Lethal
   components:
   - type: BallisticAmmoProvider
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: "Enforcer"
+  name: Enforcer
   parent: BaseWeaponShotgun
   id: WeaponShotgunEnforcer
-  description: "Бойова рушниця преміум-класу, створена на основі конструкції Kammerer, зі збільшеною місткістю обойми. Дробові набої калібру .50."
+  description: A premium combat shotgun based on the Kammerer design, featuring an upgraded clip capacity. .50 shotgun shells.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/enforcer.rsi # Delta-V
@@ -156,10 +156,10 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: "Каммерер"
+  name: Kammerer
   parent: BaseWeaponShotgun
   id: WeaponShotgunKammerer
-  description: "Коли старий дизайн Ремінгтона поєднується з сучасними матеріалами, виходить ось такий результат. Улюблена зброя ополченців у багатьох країнах світу. Використовує набої калібру .50."
+  description: When an old Remington design meets modern materials, this is the result. A favourite weapon of militia forces throughout many worlds. Uses .50 shotgun shells.
   components:
   - type: Item
     size: Normal
@@ -178,10 +178,10 @@
     - WeaponShotgunKammerer
 
 - type: entity
-  name: "обріз рушниці"
+  name: sawn-off shotgun
   parent: BaseWeaponShotgun
   id: WeaponShotgunSawn
-  description: "Круто! Використовує гільзи 50-го калібру."
+  description: Groovy! Uses .50 shotgun shells.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/sawn.rsi # Delta-V
@@ -202,10 +202,10 @@
     deconstructionTarget: null
 
 - type: entity
-  name: "відпиляний сьогун"
+  name: sawn-off shogun
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnEmpty
-  description: "Круто! Використовує гільзи 50-го калібру."
+  description: Groovy! Uses .50 shotgun shells.
   suffix: Empty
   components:
   - type: BallisticAmmoProvider
@@ -216,10 +216,10 @@
     deconstructionTarget: null
 
 - type: entity
-  name: "пістолет ручної роботи"
+  name: handmade pistol
   parent: BaseWeaponShotgun
   id: WeaponShotgunHandmade
-  description: "Виглядає ненадійно. Використовує гільзи від дробовика 50-го калібру."
+  description: Looks unreliable. Uses .50 shotgun shells.
   components:
   - type: Item
     size: Small
@@ -241,11 +241,11 @@
     price: 0
 
 - type: entity
-  name: "мушкетон"
+  name: blunderbuss
   parent: BaseWeaponShotgun
   id: WeaponShotgunBlunderbuss
   suffix: Pirate
-  description: "Смертельна з близької відстані."
+  description: Deadly at close range.
   components:
   - type: Item
     size: Normal
@@ -262,10 +262,10 @@
     price: 0
 
 - type: entity
-  name: "імпровізовану рушницю"
+  name: improvised shotgun
   parent: BaseWeaponShotgun
   id: WeaponShotgunImprovised
-  description: "Гівняна ручна рушниця, яка використовує набої калібру .50. В патронник може поміститися лише один патрон."
+  description: A shitty, hand-made shotgun that uses .50 shotgun shells. It can only hold one round in the chamber.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/improvised_shotgun.rsi # Delta-V
@@ -290,7 +290,7 @@
     price: 20
 
 - type: entity
-  name: "імпровізовану рушницю"
+  name: improvised shotgun
   parent: WeaponShotgunImprovised
   suffix: Loaded
   id: WeaponShotgunImprovisedLoaded

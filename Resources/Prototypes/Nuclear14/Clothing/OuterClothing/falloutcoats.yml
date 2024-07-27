@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterCoatWinterArmored
-  name: "броньоване зимове пальто"
-  description: "Зимове пальто, оснащене імпровізованою бронею, на випадок, коли потрібно захиститися від чогось іншого, окрім холоду."
+  name: armored winter coat
+  description: A winter coat equipped makeshift armor, for when you need to protect yourself from something other than the cold.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Coats/armoredwinter.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: N14ClothingOuterOverseerCoat
   id: N14ClothingOuterBattlecoatCoat
-  name: "бойовий мундир"
-  description: "Для тих, хто йде в бій."
+  name: battlecoat
+  description: For when you're going into battle.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Coats/falloutbattlecoat.rsi
@@ -33,7 +33,7 @@
 - type: entity
   parent: N14ClothingOuterBattlecoatCoat
   id: N14ClothingOuterBattlecoatTan
-  name: "коричневий плащ"
+  name: tan battlecoat
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Coats/falloutbattlecoattan.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterCoatFollowerLab
-  name: "лабораторний халат послідовника"
-  description: "Лабораторний халат, який носять Послідовники Апокаліпсису."
+  name: follower's lab coat
+  description: A lab coat worn by the Followers of the Apocalypse.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Coats/falloutfollowerlabcoat.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterCoatDuster
-  name: "пилосос"
-  description: "Не притрушуй його пилом, напарнику."
+  name: duster
+  description: Don't get dust on it, partner.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Coats/falloutduster.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterCoatLeatherDuster
-  name: "шкіряний пилосос"
-  description: "Так, у мене є ферма брамінів. Звідки ви знаєте?"
+  name: leather duster
+  description: Why, yes, I do own a brahmin farm. How did you know?
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Coats/falloutleatherduster.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: N14ClothingOuterOverseerCoat
   id: N14ClothingOuterBrotherhoodElderCoat
-  name: "Старший жупан"
-  description: "Для тих, хто йде в бій."
+  name: Elder greatcoat
+  description: For when you're going into battle.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Coats/brotherhoodeldercoat.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: N14ClothingOuterOverseerCoat
   id: N14ClothingOuterBrotherhoodFieldScribeCoat
-  name: "Братське поле Писарський плащ"
-  description: "Теплий плащ, який носили польові книжники Братства."
+  name: Brotherhood field Scribe coat
+  description: A warm coat worn by Brotherhood field Scribes.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Coats/brotherhoodfieldscribe.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterEnclaverOfficerCoat
-  name: "офіцерський мундир анклаву"
-  description: "Плащ, який носили офіцери анклаву. Під ним броня."
+  name: enclave officer coat
+  description: A coat worn by enclave officers. It has armor underneath.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Coats/falloutarmoredofficer.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterOverseerCoat
-  name: "пальто наглядача"
-  description: "Пальто, яке носить хтось важливий. На спині - цифра 14."
+  name: "overseer's coat"
+  description: A coat worn by someone important. It has the number 14 on the back.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Coats/falloutoverseercoat.rsi
