@@ -1,0 +1,77 @@
+marking-MobIPCHeadDefault = Стандартний оперативний монітор
+marking-MobIPCTorsoDefault = Стандартне роботизоване шасі
+marking-MobIPCTorsoFemaleDefault = Стандартне роботизоване шасі
+marking-MobIPCLArmDefault = Стандартний лівий роботизований маніпулятор
+marking-MobIPCLHandDefault = Стандартна ліва роботизована рука
+marking-MobIPCLLegDefault = Стандартна ліва нога робота
+marking-MobIPCLFootDefault = Стандартна ліва роботизована нога
+marking-MobIPCRArmDefault = Стандартний правий роботизований маніпулятор
+marking-MobIPCRHandDefault = Стандартна правая роботизована рука
+marking-MobIPCRLegDefault = Стандартна права нога робота
+marking-MobIPCRFootDefault = Стандартна правая роботизована нога
+
+marking-CyberLimbsMarkingBishopHead = Оперативний монітор від Bishop Cybernetics
+marking-CyberLimbsMarkingBishopChest = Роботизовані шасі від Bishop Cybernetics
+marking-CyberLimbsMarkingBishopLArm = Ліва роботизована рука від Bishop Cybernetics
+marking-CyberLimbsMarkingBishopLHand = Ліва роботизована рука від Bishop Cybernetics
+marking-CyberLimbsMarkingBishopLLeg = Ліва роботизована нога від Bishop Cybernetics
+marking-CyberLimbsMarkingBishopLFoot = Ліва роботизована нога від Bishop Cybernetics
+marking-CyberLimbsMarkingBishopRArm = Права роботизована рука від Bishop Cybernetics
+marking-CyberLimbsMarkingBishopRHand = Права роботизована рука від Bishop Cybernetics
+marking-CyberLimbsMarkingBishopRLeg = Права роботизована нога від Bishop Cybernetics
+marking-CyberLimbsMarkingBishopRFoot = Права роботизована нога від Bishop Cybernetics
+
+marking-CyberLimbsMarkingHesphiastosHead = Оперативний монітор від Hesphiastos Industries
+marking-CyberLimbsMarkingHesphiastosChest = Роботизовані шасі від Hesphiastos Industries
+marking-CyberLimbsMarkingHesphiastosLArm = Ліва роботизована рука від Hesphiastos Industries
+marking-CyberLimbsMarkingHesphiastosLHand = Ліва роботизована рука від Hesphiastos Industries
+marking-CyberLimbsMarkingHesphiastosLLeg = Ліва роботизована нога від Hesphiastos Industries
+marking-CyberLimbsMarkingHesphiastosLFoot = Ліва роботизована нога від Hesphiastos Industries
+marking-CyberLimbsMarkingHesphiastosRArm = Права роботизована рука від Hesphiastos Industries
+marking-CyberLimbsMarkingHesphiastosRHand = Права роботизована рука від Hesphiastos Industries
+marking-CyberLimbsMarkingHesphiastosRLeg = Права роботизована нога від Hesphiastos Industries
+marking-CyberLimbsMarkingHesphiastosRFoot = Права роботизована нога від Hesphiastos Industries
+
+marking-CyberLimbsMarkingWardtakahashiHead = Оперативний монітор від Уорд-Такахасі
+marking-CyberLimbsMarkingWardtakahashiChest = Роботизовані шасі від Ward-Takahashi
+marking-CyberLimbsMarkingWardtakahashiLArm = Ліва роботизована рука від Ward-Takahashi
+marking-CyberLimbsMarkingWardtakahashiLHand = Ліва роботизована рука від Ward-Takahashi
+marking-CyberLimbsMarkingWardtakahashiLLeg = Ліва роботизована нога від Ward-Takahashi
+marking-CyberLimbsMarkingWardtakahashiLFoot = Ліва роботизована нога від Ward-Takahashi
+marking-CyberLimbsMarkingWardtakahashiRArm = Права роботизована рука від Ward-Takahashi
+marking-CyberLimbsMarkingWardtakahashiRHand = Права роботизована рука від Ward-Takahashi
+marking-CyberLimbsMarkingWardtakahashiRLeg = Права роботизована нога від Ward-Takahashi
+marking-CyberLimbsMarkingWardtakahashiRFoot = Права роботизована нога від Ward-Takahashi
+
+marking-CyberLimbsMarkingXionHead = Оперативний монітор від Xion Manufacturing Group
+marking-CyberLimbsMarkingXionChest = Роботизовані шасі від Xion Manufacturing Group
+marking-CyberLimbsMarkingXionLArm = Ліва роботизована рука від Xion Manufacturing Group
+marking-CyberLimbsMarkingXionLHand = Ліва роботизована рука від Xion Manufacturing Group
+marking-CyberLimbsMarkingXionLLeg = Ліва нога робота від Xion Manufacturing Group
+marking-CyberLimbsMarkingXionLFoot = Ліва роботизована нога від Xion Manufacturing Group
+marking-CyberLimbsMarkingXionRArm = Правий роботизований маніпулятор від Xion Manufacturing Group
+marking-CyberLimbsMarkingXionRHand = Права роботизована рука від Xion Manufacturing Group
+marking-CyberLimbsMarkingXionRLeg = Права нога робота від Xion Manufacturing Group
+marking-CyberLimbsMarkingXionRFoot = Права роботизована нога від Xion Manufacturing Group
+
+marking-CyberLimbsMarkingShellguardHead = Оперативний монітор від Shellguard Munitions
+marking-CyberLimbsMarkingShellguardChest = Роботизовані шасі від Shellguard Munitions
+marking-CyberLimbsMarkingShellguardLArm = Ліва роботизована рука від Shellguard Munitions
+marking-CyberLimbsMarkingShellguardLHand = Ліва роботизована рука від Shellguard Munitions
+marking-CyberLimbsMarkingShellguardLLeg = Ліва нога робота від Shellguard Munitions
+marking-CyberLimbsMarkingShellguardLFoot = Ліва роботизована нога від Shellguard Munitions
+marking-CyberLimbsMarkingShellguardRArm = Права роботизована рука від Shellguard Munitions
+marking-CyberLimbsMarkingShellguardRHand = Права роботизована рука від Shellguard Munitions
+marking-CyberLimbsMarkingShellguardRLeg = Права нога робота від Shellguard Munitions
+marking-CyberLimbsMarkingShellguardRFoot = Права роботизована нога від Shellguard Munitions
+
+marking-CyberLimbsMarkingMorpheusHead = Оперативний монітор від Morpheus Cyberkinetics
+marking-CyberLimbsMarkingMorpheusChest = Роботизовані шасі від Morpheus Cyberkinetics
+marking-CyberLimbsMarkingMorpheusLArm = Ліва роботизована рука від Morpheus Cyberkinetics
+marking-CyberLimbsMarkingMorpheusLHand = Ліва роботизована рука від Morpheus Cyberkinetics
+marking-CyberLimbsMarkingMorpheusLLeg = Ліва роботизована нога від Morpheus Cyberkinetics
+marking-CyberLimbsMarkingMorpheusLFoot = Ліва роботизована нога від Morpheus Cyberkinetics
+marking-CyberLimbsMarkingMorpheusRArm = Права роботизована рука від Morpheus Cyberkinetics
+marking-CyberLimbsMarkingMorpheusRHand = Права роботизована рука від Morpheus Cyberkinetics
+marking-CyberLimbsMarkingMorpheusRLeg = Права роботизована нога від Morpheus Cyberkinetics
+marking-CyberLimbsMarkingMorpheusRFoot = Права роботизована нога від Morpheus Cyberkinetics

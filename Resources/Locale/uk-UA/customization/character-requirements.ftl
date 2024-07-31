@@ -42,3 +42,7 @@ character-loadout-requirement = Ви повинні {$inverted ->
     [true] не мати
     *[other] мати
 } один з цих наборів: {$loadouts}
+character-whitelist-requirement = Ви повинні {$inverted ->
+    [true] не бути
+    *[other] бути
+} у білому списку
