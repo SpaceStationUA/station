@@ -1,8 +1,8 @@
 - type: entity
-  name: "коробка з наручниками"
+  name: handcuff box
   parent: BoxCardboard
   id: BoxHandcuff
-  description: "Коробка, повна наручників."
+  description: A box full of handcuffs.
   components:
   - type: Storage
     whitelist:
@@ -18,10 +18,10 @@
       - state: handcuff
 
 - type: entity
-  name: "коробка з осліплювачами"
+  name: flashbang box
   parent: BoxCardboard
   id: BoxFlashbang
-  description: "ПОПЕРЕДЖЕННЯ: Ці пристрої надзвичайно небезпечні і можуть спричинити сліпоту або глухоту при повторному використанні."
+  description: 'WARNING: These devices are extremely dangerous and can cause blindness or deafness in repeated use.'
   components:
   - type: StorageFill
     contents:
@@ -33,10 +33,10 @@
       - state: flashbang
 
 - type: entity
-  name: "сечуд-бокс"
+  name: sechud box
   parent: BoxCardboard
   id: BoxSechud
-  description: "Коробка захисних окулярів."
+  description: A box of security glasses.
   components:
   - type: StorageFill
     contents:
@@ -48,10 +48,10 @@
       - state: sechud
 
 - type: entity
-  name: "коробка на застібці-блискавці"
+  name: ziptie box
   parent: BoxCardboard
   id: BoxZiptie
-  description: "Коробка, повна застібок-блискавок."
+  description: A box full of zipties.
   components:
   - type: Storage
     grid:
@@ -69,10 +69,10 @@
       - state: ziptie
 
 - type: entity
-  name: "судово-медичний блокнот"
+  name: forensic pad box
   parent: BoxCardboard
   id: BoxForensicPad
-  description: "Коробка криміналістичних прокладок."
+  description: A box of forensic pads.
   components:
   - type: Item
     shape:

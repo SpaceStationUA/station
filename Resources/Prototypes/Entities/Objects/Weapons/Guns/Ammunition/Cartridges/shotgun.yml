@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: BaseShellShotgun
-  name: "набій (.50)"
+  name: shell (.50)
   parent: BaseCartridge
   abstract: true
   components:
@@ -23,7 +23,7 @@
 
 - type: entity
   id: ShellShotgunBeanbag
-  name: "набій (.50 beanbag)"
+  name: shell (.50 beanbag)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -38,7 +38,7 @@
 
 - type: entity
   id: ShellShotgunSlug
-  name: "набій (куля калібру .50)"
+  name: shell (.50 slug)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -54,7 +54,7 @@
 
 - type: entity
   id: ShellShotgunFlare
-  name: "снаряд (сигнальна ракета калібру .50)"
+  name: shell (.50 flare)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -69,7 +69,7 @@
 
 - type: entity
   id: ShellShotgun
-  name: "набій (.50)"
+  name: shell (.50)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -81,7 +81,7 @@
 
 - type: entity
   id: ShellShotgunIncendiary
-  name: "набій (.50 запальна)"
+  name: shell (.50 incendiary)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -95,7 +95,7 @@
 
 - type: entity
   id: ShellShotgunPractice
-  name: "набій (.50 практична)"
+  name: shell (.50 practice)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -109,7 +109,7 @@
 
 - type: entity
   id: ShellTranquilizer
-  name: "набій (.50 транквілізатор)"
+  name: shell (.50 tranquilizer)
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -133,8 +133,8 @@
     
 - type: entity
   id: ShellShotgunImprovised
-  name: "імпровізований дробовий снаряд"
-  description: "Саморобний дробовий снаряд, що стріляє болючими скляними осколками. Розліт настільки широкий, що він не міг влучити в широку сторону сараю"
+  name: improvised shotgun shell
+  description: A homemade shotgun shell that shoots painful glass shrapnel. The spread is so wide that it couldn't hit the broad side of a barn.
   parent: BaseShellShotgun
   components:
   - type: Sprite
@@ -153,7 +153,7 @@
 
 - type: entity
   id: ShellShotgunUranium
-  name: "урановий дробовий снаряд"
+  name: uranium shotgun shell
   parent: BaseShellShotgun
   components:
     - type: Sprite
