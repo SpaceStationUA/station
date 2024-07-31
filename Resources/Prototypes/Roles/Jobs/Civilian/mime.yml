@@ -4,8 +4,8 @@
   description: job-description-mime
   playTimeTracker: JobMime
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 7200 # DeltaV - 2 hours
+    - !type:CharacterOverallTimeRequirement
+      min: 7200 # DeltaV - 2 hours
     - !type:WhitelistRequirement # PIRATE - Whitelist requirement
   startingGear: MimeGear
   icon: "JobIconMime"
