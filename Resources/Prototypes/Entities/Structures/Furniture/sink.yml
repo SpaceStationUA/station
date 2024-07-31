@@ -1,8 +1,8 @@
 - type: entity
-  name: sink
+  name: "раковина"
   id: SinkEmpty
   suffix: Empty
-  description: The faucets have been tightened to the maximum possible torque but are still known to drip.
+  description: "Крани були затягнуті з максимально можливим моментом, але вони все одно капають."
   placement:
     mode: SnapgridCenter
   components:
@@ -68,7 +68,7 @@
 
 
 - type: entity
-  name: sink
+  name: "раковина"
   id: Sink
   parent: SinkEmpty
   suffix: Water
@@ -83,7 +83,7 @@
           Quantity: 500
 
 - type: entity
-  name: wide sink
+  name: "широка раковина"
   id: SinkWide
   parent: Sink
   components:
@@ -102,7 +102,7 @@
 #Stemless Sink
 
 - type: entity
-  name: sink
+  name: "раковина"
   id: SinkStemless
   parent: SinkEmpty
   components:
@@ -115,7 +115,7 @@
         visible: false
 
 - type: entity
-  name: sink
+  name: "раковина"
   id: SinkStemlessWater
   parent: SinkStemless
   suffix: Water

@@ -1,8 +1,8 @@
 - type: entity
-  name: Remilia
+  name: "Ремілія"
   parent: MobBat
   id: MobBatRemilia
-  description: The chaplain's familiar. Likes fruit.
+  description: "Капелана я знаю. Любить фрукти."
   components:
   - type: GhostRole
     makeSentient: true
@@ -38,10 +38,10 @@
     removable: false
 
 - type: entity
-  name: Cerberus
+  name: "Цербер"
   parent: MobCorgiNarsi
   id: MobCorgiCerberus
-  description: This pupper is not wholesome.
+  description: "Це цуценя не є здоровим."
   components:
   - type: GhostRole
     makeSentient: true

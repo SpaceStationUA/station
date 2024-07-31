@@ -44,7 +44,7 @@
   parent: BaseVehicle
   id: BaseVehicleRideable
   abstract: true
-  name: Vehicle
+  name: "Транспортний засіб"
   components:
   - type: Strap
     buckleOffset: "0.10, 0.36"
@@ -87,8 +87,8 @@
 - type: entity
   id: VehicleJanicart
   parent: BaseVehicleRideable
-  name: janicart
-  description: The janitor's trusty steed.
+  name: "janicart"
+  description: "Вірний кінь двірника."
   components:
   - type: Vehicle
     southOver: true
@@ -162,7 +162,7 @@
 - type: entity
   id: VehicleJanicartDestroyed
   parent: MachineFrameDestroyed
-  name: destroyed janicart
+  name: "знищений janicart"
   components:
   - type: Sprite
     sprite: Objects/Vehicles/janicart.rsi
@@ -171,8 +171,8 @@
 - type: entity
   id: VehicleSecway
   parent: BaseVehicleRideable
-  name: secway
-  description: The future of transportation. Popularized by St. James, the patron saint of security officers and internet forum moderators.
+  name: "secway"
+  description: "Майбутнє транспорту. Популяризований святим Яковом, покровителем співробітників служб безпеки та модераторів інтернет-форумів."
   components:
   - type: Vehicle
     northOver: true
@@ -221,8 +221,8 @@
 - type: entity
   parent: BaseVehicleRideable
   id: VehicleATV
-  name: ATV
-  description: All-Tile Vehicle.
+  name: "КВАДРОЦИКЛ"
+  description: "Цілісний транспортний засіб."
   noSpawn: true # Frontier, using VehicleATVNF instead
   components:
   - type: Vehicle
@@ -270,8 +270,8 @@
 - type: entity
   id: VehicleSyndicateSegway
   parent: BaseVehicleRideable
-  name: syndicate segway
-  description: Be an enemy of the corporation, in style.
+  name: "синдикат сегвей"
+  description: "Будьте ворогом корпорації, але стильно."
   components:
     - type: Vehicle
       southOver: true
@@ -313,8 +313,8 @@
 - type: entity
   parent: BaseVehicleRideable
   id: VehicleSkeletonMotorcycle
-  name: skeleton motorcycle
-  description: Bad to the Bone.
+  name: "скелетний мотоцикл"
+  description: "Поганий до мозку кісток."
   noSpawn: true # Frontier, using VehicleSkeletonMotorcycleNF instead
   components:
     - type: Vehicle
@@ -360,8 +360,8 @@
 - type: entity
   id: VehicleUnicycle
   parent: [BaseVehicleRideable, BaseFoldable, BaseItem]
-  name: unicycle
-  description: It only has one wheel!
+  name: "одноколісний велосипед"
+  description: "У нього лише одне колесо!"
   components:
   - type: Vehicle
     northOver: true
@@ -417,8 +417,8 @@
 - type: entity
   id: VehicleWheelchair
   parent: [BaseVehicleRideable, BaseFoldable, BaseItem]
-  name: wheelchair
-  description: A chair with big wheels. It looks like you can move in these on your own.
+  name: "інвалідний візок"
+  description: "Стілець з великими колесами. Виглядає так, ніби ти можеш пересуватися на ньому самостійно."
   components:
     - type: Vehicle
       northOver: true

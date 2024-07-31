@@ -20,7 +20,7 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: explosive payload
+  name: "вибуховий заряд"
   parent: BasePayload
   id: ExplosivePayload
   components:
@@ -50,10 +50,10 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: chemical payload
+  name: "хімічне навантаження"
   parent: BasePayload
   id: ChemicalPayload
-  description: A chemical payload. Has space to store two beakers. In combination with a trigger and a case, this can be used to initiate chemical reactions.
+  description: "Хімічний вантаж. Має місце для зберігання двох склянок. У поєднанні з пусковим механізмом та футляром може використовуватися для ініціювання хімічних реакцій."
   components:
   - type: Sprite
     sprite: Objects/Devices/payload.rsi
@@ -86,10 +86,10 @@
     price: 60
 
 - type: entity
-  name: flash payload
+  name: "флеш-пам'ять з корисним навантаженням"
   parent: BasePayload
   id: FlashPayload
-  description: A single-use flash payload.
+  description: "Одноразовий спалах."
   components:
     - type: Sprite
       sprite: Objects/Devices/payload.rsi
