@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitHoPMess
-  name: head of personnel's mess kit
-  description: A swanky uniform with tasteful gold and red trim. Keep your latte away from this.
+  name: "начальник їдальні особового складу"
+  description: "Шикарна уніформа зі смачним золотим і червоним оздобленням. Тримай свій латте подалі від цього."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/hopmesskit.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBoatswain
-  name: boatswain's turtleneck
-  description: A comfortable rollneck and slacks. Suitable attire for a pipe-smoking bosun.
+  name: "водолазка боцмана"
+  description: "Зручний ролнек і брюки. Підходяще вбрання для боцмана, що палить люльку."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/boatswain.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSuitBlack
-  name: black suit
-  description: A crisp white shirt and charcoal slacks. Reminds you of the old times.
+  name: "чорний костюм"
+  description: "Білосніжна сорочка та вугільні штани. Нагадує старі часи."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/suitblack.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSuitBlackAlt
-  name: dark suit
-  description: A crisp grey shirt and charcoal slacks. Reminds you of overcast days.
+  name: "темний костюм"
+  description: "Сіра сорочка та вугільні штани. Нагадує похмурі дні."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/suitblackalt.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSuitBlackMob
-  name: mobster's attire
-  description: A crisp red shirt and charcoal slacks. Reminds you of your debts.
+  name: "вбрання мафіозі"
+  description: "Хрустка червона сорочка та вугільні штани. Нагадує тобі про твої борги."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/suitblackmob.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSuitBrown
-  name: brown suit
-  description: A crisp white shirt and chocolate slacks. Reminds you of dusty offices.
+  name: "коричневий костюм"
+  description: "Білосніжна сорочка та шоколадні штани. Нагадує про запилені офіси."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/suitbrown.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSuitBrownAlt
-  name: suspicious suit
-  description: A crisp grey shirt and chocolate slacks. Reminds you of clandestine operators.
+  name: "підозрілий костюм"
+  description: "Сіра сорочка та шоколадні штани. Нагадує підпільників."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/suitbrownalt.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSuitBrownMob
-  name: gangster's attire
-  description: A crisp red shirt and chocolate slacks. Reminds you of drivebys.
+  name: "вбрання гангстера"
+  description: "Хрустка червона сорочка та шоколадні штани. Нагадує тобі про автокрамниці."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/suitbrownmob.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSuitWhite
-  name: white suit
-  description: A crisp white shirt and ivory slacks. Reminds you of swans.
+  name: "білий костюм"
+  description: "Білосніжна сорочка і брюки кольору слонової кістки. Нагадує лебедів."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/suitwhite.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSuitWhiteAlt
-  name: negative suit
-  description: A crisp grey shirt and ivory slacks. Reminds you of daguerreotypes.
+  name: "негативний позов"
+  description: "Сіра сорочка та брюки кольору слонової кістки. Нагадує дагеротипи."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/suitwhitealt.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSuitWhiteMob
-  name: mafioso's attire
-  description: A crisp red shirt and ivory slacks. Reminds you of family.
+  name: "вбрання мафіозі"
+  description: "Яскраво-червона сорочка та штани кольору слонової кістки. Нагадує тобі про сім'ю."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/suitwhitemob.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSecFormal
-  name: security formal suit
-  description: A ceremonial piece of Station Security kit, for special occasions of any kind.
+  name: "охоронний офіційний костюм"
+  description: "Церемоніальний елемент набору Station Security, для особливих випадків будь-якого роду."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/secformal.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSober
-  name: sober sweater
-  description: For the more lucid moments.
+  name: "тверезий светр"
+  description: "Для більш просвітлених моментів."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/sober.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitLostTourist
-  name: lost tourist uniform
-  description: The uniform of those who just want to relax on a beach... Where is the beach anyway?
+  name: "загублена туристична форма"
+  description: "Форма тих, хто просто хоче відпочити на пляжі... А де взагалі пляж?"
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/lost_tourist.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJeansRed
-  name: red sweater with jeans
-  description: A red sweater with blue jeans. This one has the dominant jeans.
+  name: "червоний светр з джинсами"
+  description: "Червоний светр з синіми джинсами. Тут домінують джинси."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/jeans_red.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJeansGreen
-  name: green sweater with jeans
-  description: A green sweater with blue jeans. This one has the recessive jeans.
+  name: "зелений светр з джинсами"
+  description: "Зелений светр з синіми джинсами. У цього рецесивні джинси."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/jeans_green.rsi
@@ -177,8 +177,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitJeansBrown
-  name: brown sweater with jeans
-  description: A brown sweater with blue jeans.
+  name: "коричневий светр з джинсами"
+  description: "Коричневий светр з синіми джинсами."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/jeans_brown.rsi
@@ -188,7 +188,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformCourier
-  name: courier's uniform
+  name: "кур'єрська форма"
   description:
   components:
   - type: Sprite
@@ -201,8 +201,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitWardenBlue
-  name: blue warden's jumpsuit
-  description: A cool blue shirt with ice-white markings and warden's epaulettes.
+  name: "синій комбінезон наглядача"
+  description: "Прохолодна синя сорочка з крижано-білими знаками та погонами наглядача."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/warden_blue.rsi
@@ -212,8 +212,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitWardenGrey
-  name: grey warden's jumpsuit
-  description: Charcoal pants, a grey shirt, and white warden's markings and epaulettes.
+  name: "сірий комбінезон наглядача"
+  description: "Вугільні штани, сіра сорочка, білі наглядові знаки та погони."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/warden_grey.rsi
@@ -225,8 +225,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitCentcomDirector
-  name: director's jumpsuit
-  description: A sharp and professional jumpsuit worn by a high-ranking member of Central Command.
+  name: "режисерський комбінезон"
+  description: "Строгий і професійний комбінезон, який носить високопоставлений член Центрального командування."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
@@ -236,8 +236,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpsuitKilt
-  name: kilt
-  description: A fine bit o' garb for the lad an' lasses.
+  name: "кілт"
+  description: "Гарне вбрання для хлопців та дівчат."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/kilt.rsi
@@ -247,8 +247,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChemShirt
-  name: formal chemistry suit
-  description: There's still some odd stains on this suit. Hm.
+  name: "формальний хімічний костюм"
+  description: "На цьому костюмі все ще якісь дивні плями. Хм."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Uniforms/Jumpsuit/chemshirtsuit.rsi

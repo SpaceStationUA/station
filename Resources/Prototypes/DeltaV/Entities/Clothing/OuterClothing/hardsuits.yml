@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitCombatStandard
-  name: combat hardsuit
-  description: A purpose-built combat suit designed to protect its user against all manner of enemy combatants in low pressure environments.
+  name: "бойовий комбінезон"
+  description: "Спеціально розроблений бойовий костюм, призначений для захисту від усіх видів ворожих бойових дій в умовах низького тиску."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/standard.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: ClothingOuterHardsuitCombatStandard
   id: ClothingOuterHardsuitCombatOfficer
-  name: security combat hardsuit
-  description: A purpose-built combat suit designed to protect its user against all manner of enemy combatants in low pressure environments. This one has station security markings.
+  name: "захисний бойовий комбінезон"
+  description: "Спеціально розроблений бойовий костюм, призначений для захисту від усіх видів ворожих бойовиків в умовах низького тиску. На цьому костюмі є позначки безпеки станції."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/officer.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitCombatMedical
-  name: medical combat hardsuit
-  description: A purpose-built combat suit designed to allow its user greater mobility for superior support of friendly units in active combat zones.
+  name: "медичний бойовий комбінезон"
+  description: "Спеціально розроблений бойовий костюм, що дозволяє користувачеві бути більш мобільним для кращої підтримки дружніх підрозділів у зонах активних бойових дій."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/medical.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: ClothingOuterHardsuitCombatMedical
   id: ClothingOuterHardsuitCombatCorpsman
-  name: corpsman combat hardsuit
-  description: A purpose-built combat suit designed to allow its user greater mobility for superior support of friendly units in active combat zones. This one has station security markings.
+  name: "бойовий комбінезон бріг-медика"
+  description: "Спеціально розроблений бойовий костюм, що дозволяє користувачеві бути більш мобільним для кращої підтримки дружніх підрозділів у зонах активних бойових дій. На цьому костюмі є позначки безпеки станції."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/corpsman.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitCombatRiot
-  name: riot combat hardsuit
-  description: A purpose-built combat suit designed for crowd control against armed combatants in low pressure environments.
+  name: "костюм для боротьби з масовими заворушеннями"
+  description: "Спеціально розроблений бойовий костюм, призначений для боротьби з натовпом проти озброєних бойовиків в умовах низького тиску."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/riot.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: ClothingOuterHardsuitCombatRiot
   id: ClothingOuterHardsuitCombatWarden
-  name: warden's riot combat hardsuit
-  description: A purpose-built combat suit designed for crowd control against armed combatants in low pressure environments. This one has station security and warden's rank markings.
+  name: "костюм наглядача для боротьби з бунтом"
+  description: "Спеціально розроблений бойовий костюм, призначений для контролю натовпу проти озброєних бойовиків в умовах низького тиску. На цьому костюмі є знаки безпеки станції та звання наглядача."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/warden.rsi
@@ -134,8 +134,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitCombatAdvanced
-  name: advanced combat hardsuit
-  description: A purpose-built combat suit of second-generation design, providing unparalleled protection against all manner of kinetic forces in low pressure environments.
+  name: "вдосконалений бойовий комбінезон"
+  description: "Спеціально розроблений бойовий костюм другого покоління, що забезпечує неперевершений захист від усіх видів кінетичних сил в умовах низького тиску."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/advanced.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: ClothingOuterHardsuitCombatAdvanced
   id: ClothingOuterHardsuitCombatHoS
-  name: head of security's advanced combat hardsuit
-  description: A purpose-built combat suit of second-generation design, providing unparalleled protection against all manner of kinetic forces in low pressure environments. This one has station security and commander's rank markings.
+  name: "просунутий бойовий комбінезон керівника служби безпеки"
+  description: "Спеціально розроблений бойовий костюм другого покоління, що забезпечує неперевершений захист від усіх видів кінетичних сил в умовах низького тиску. Має захисні знаки станції та звання командира."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/hos.rsi

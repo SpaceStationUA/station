@@ -41,8 +41,8 @@
 
 - type: entity
   id: ActionMimeInvisibleWall
-  name: Create Invisible Wall
-  description: Create an invisible wall in front of you, if placeable there.
+  name: "Створіть невидиму стіну"
+  description: "Створіть невидиму стіну перед собою, якщо це можливо."
   noSpawn: true
   components:
   - type: InstantAction

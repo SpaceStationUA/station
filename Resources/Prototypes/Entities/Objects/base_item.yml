@@ -1,5 +1,5 @@
 - type: entity
-  name: "item"
+  name: "пункт"
   id: BaseItem
   abstract: true
   components:
@@ -42,7 +42,7 @@
   - type: DamageExaminable
 
 - type: entity
-  name: "storage item"
+  name: "елемент зберігання"
   id: BaseStorageItem
   parent: BaseItem
   abstract: true

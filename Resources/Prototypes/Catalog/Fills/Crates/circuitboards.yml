@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: CrateCrewMonitoringBoards
   parent: CrateEngineeringSecure
-  name: crew monitoring boards
-  description: Has two crew monitoring console and server replacements. Requires engineering access to open.
+  name: "дошки моніторингу екіпажу"
+  description: "Має дві заміни консолі моніторингу екіпажу та сервера. Для відкриття потрібен інженерний доступ."
   components:
     - type: StorageFill
       contents:
