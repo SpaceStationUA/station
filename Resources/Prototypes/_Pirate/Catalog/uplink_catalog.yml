@@ -22,3 +22,14 @@
     Telecrystal: 8
   categories:
     - UplinkAllies
+
+- type: listing
+  id: UplinkContractorbaton
+  name: "Контрактний електрошокер"
+  description: "Компактний електрошокер, який функціонує як потужна самозарядна електрична дубинка."
+  icon: { sprite: /Textures/_Pirate/Objects/Weapons/Melee/contractor_baton.rsi, state: stunbaton_on }
+  productEntity: Contractorbaton
+  cost:
+    Telecrystal: 8
+  categories:
+    - UplinkWeapons
