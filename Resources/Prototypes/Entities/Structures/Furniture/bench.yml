@@ -1,8 +1,8 @@
 - type: entity
-  name: "зручна лавка"
+  name: comfortable bench
   id: BenchComfy
   parent: SeatBase
-  description: "Лавка з надзвичайно зручною спинкою."
+  description: A bench with an extremely comfortable backrest.
   components:
   - type: Transform
     anchored: true
@@ -22,7 +22,7 @@
   id: BenchColorfulComfy
   suffix: Solo. Colorful
   parent: BenchComfy
-  description: "Лавка з надзвичайно зручною спинкою."
+  description: A bench with an extremely comfortable backrest.
   components:
   - type: Sprite
     layers:
