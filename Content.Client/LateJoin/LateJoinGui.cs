@@ -54,7 +54,7 @@ namespace Content.Client.LateJoin
             _crewManifest = _entitySystem.GetEntitySystem<CrewManifestSystem>();
             _gameTicker = _entitySystem.GetEntitySystem<ClientGameTicker>();
             _characterRequirements = _entitySystem.GetEntitySystem<CharacterRequirementsSystem>();
-            
+
             Title = Loc.GetString("late-join-gui-title");
 
             _base = new BoxContainer()
@@ -267,7 +267,7 @@ namespace Content.Client.LateJoin
                                 prototype,
                                 (HumanoidCharacterProfile) (_prefs.Preferences?.SelectedCharacter
                                     ?? HumanoidCharacterProfile.DefaultWithSpecies()),
-                                _jobRequirements.GetPlayTimes(),
+                                _jobRequirements.GetRawPlayTimeTrackers(),
                                 _jobRequirements.IsWhitelisted(),
                                 _entityManager,
                                 _prototypeManager,
