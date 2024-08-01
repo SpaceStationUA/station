@@ -1,9 +1,9 @@
 - type: entity
-  name: "туалет"
+  name: toilet
   id: ToiletEmpty
   suffix: Empty
   parent: [ DisposalUnitBase, SeatBase ]
-  description: "Пристрій для змивання людських екскрементів."
+  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
   components:
   - type: Sprite
     sprite: Structures/Furniture/toilet.rsi

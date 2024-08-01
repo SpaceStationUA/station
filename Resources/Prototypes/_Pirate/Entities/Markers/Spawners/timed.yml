@@ -1,6 +1,6 @@
 - type: entity
   id: SpawnPointLostPirate
-  name: "точка народження примарної ролі"
+  name: ghost role spawn point
   suffix: pirate
   parent: MarkerBase
   components:
@@ -19,7 +19,7 @@
 
 - type: entity
   id: SpawnPointLostCaptainPirate
-  name: "точка народження примарної ролі"
+  name: ghost role spawn point
   suffix: pirate
   parent: MarkerBase
   components:
@@ -38,7 +38,7 @@
 
 - type: entity
   id: SpawnPointLostFirstmate
-  name: "точка народження примарної ролі"
+  name: ghost role spawn point
   suffix: pirate
   parent: MarkerBase
   components:
@@ -57,7 +57,7 @@
 
 - type: entity
   id: SpawnPointGhostMage
-  name: "точка появи ролі мага"
+  name: точка появи ролі мага
   suffix: wizard
   parent: MarkerBase
   components:

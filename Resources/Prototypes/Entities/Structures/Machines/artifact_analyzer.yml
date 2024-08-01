@@ -1,8 +1,8 @@
 - type: entity
   id: MachineArtifactAnalyzer
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
-  name: "аналізатор артефактів"
-  description: "Платформа, здатна виконувати аналіз різних типів артефактів."
+  name: artifact analyzer
+  description: A platform capable of performing analysis on various types of artifacts.
   components:
   - type: Sprite
     noRot: true
@@ -76,8 +76,8 @@
 - type: entity
   id: MachineTraversalDistorter
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: "дисторсійний викривлювач траверси"
-  description: "Машина, здатна спотворювати обхід вузлів артефактів."
+  name: traversal distorter
+  description: A machine capable of distorting the traversal of artifact nodes.
   components:
   - type: Sprite
     noRot: true
@@ -132,8 +132,8 @@
 - type: entity
   id: MachineArtifactCrusher
   parent: [ ConstructibleMachine, BaseMachinePowered ]
-  name: "дробарка для артефактів"
-  description: "Краще не дозволяти пальцям застрявати..."
+  name: artifact crusher
+  description: Best not to let your fingers get stuck...
   components:
   - type: ArtifactCrusher
     crushingWhitelist:
