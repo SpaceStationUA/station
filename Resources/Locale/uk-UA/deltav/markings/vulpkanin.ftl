@@ -252,3 +252,8 @@ marking-VulpFacialHairRuff = Руф
 marking-VulpFacialHairElder = Старійшино
 marking-VulpFacialHairElderChin = Старійшина Чин
 marking-VulpFacialHairKita = Кіта
+
+marking-VulpTailCorgi-corgi = Хвіст коргі
+marking-VulpTailCorgi = Вулканічний коргі
+marking-VulpTailDalmatian-dalmatian = Далматинський хвіст
+marking-VulpTailDalmatian = Вулканічний далматинець
