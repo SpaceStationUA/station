@@ -106,7 +106,7 @@
   abstract: true
   parent: [ClothingOuterBase, GeigerCounterClothing]
   id: ClothingOuterHardsuitBase
-  name: "базовий комбінезон"
+  name: base hardsuit
   components:
   - type: PressureProtection
     highPressureMultiplier: 0.3
@@ -146,7 +146,7 @@
   abstract: true
   parent: ClothingOuterBase
   id: ClothingOuterEVASuitBase
-  name: "базовий костюм EVA"
+  name: base EVA Suit
   components:
   - type: PressureProtection
     highPressureMultiplier: 0.6
@@ -169,7 +169,7 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterBaseToggleable
-  name: "худі з капюшоном"
+  name: hoodie with hood
   abstract: True
   components:
   - type: ToggleableClothing

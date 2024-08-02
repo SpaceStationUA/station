@@ -86,7 +86,7 @@
 - type: entity
   id: LeftArmBorgEngineer
   parent: BaseBorgArmLeft
-  name: "інженер-кіборг ліва рука"
+  name: engineer cyborg left arm
   components:
   - type: Sprite
     state: engineer_l_arm
@@ -101,7 +101,7 @@
 - type: entity
   id: RightArmBorgEngineer
   parent: BaseBorgArmRight
-  name: "права рука інженерного кіборга"
+  name: engineer cyborg right arm
   components:
   - type: Sprite
     state: engineer_r_arm
@@ -116,7 +116,7 @@
 - type: entity
   id: LeftLegBorgEngineer
   parent: BaseBorgLegLeft
-  name: "інженер-кіборг ліва нога"
+  name: engineer cyborg left leg
   components:
   - type: Sprite
     state: engineer_l_leg
@@ -131,7 +131,7 @@
 - type: entity
   id: RightLegBorgEngineer
   parent: BaseBorgLegRight
-  name: "права нога інженерного кіборга"
+  name: engineer cyborg right leg
   components:
   - type: Sprite
     state: engineer_r_leg
@@ -146,7 +146,7 @@
 - type: entity
   id: HeadBorgEngineer
   parent: BaseBorgHead
-  name: "голова інженерного кіборга"
+  name: engineer cyborg head
   components:
   - type: Sprite
     state: engineer_head
@@ -161,7 +161,7 @@
 - type: entity
   id: TorsoBorgEngineer
   parent: BaseBorgTorso
-  name: "торс інженера-кіборга"
+  name: engineer cyborg torso
   components:
   - type: Sprite
     state: engineer_chest
@@ -176,7 +176,7 @@
 - type: entity
   id: LeftLegBorgJanitor
   parent: BaseBorgLegLeft
-  name: "прибиральник-кіборг ліва нога"
+  name: janitor cyborg left leg
   components:
     - type: Sprite
       state: janitor_l_leg
@@ -191,7 +191,7 @@
 - type: entity
   id: RightLegBorgJanitor
   parent: BaseBorgLegRight
-  name: "прибиральник-кіборг права нога"
+  name: janitor cyborg right leg
   components:
     - type: Sprite
       state: janitor_r_leg
@@ -206,7 +206,7 @@
 - type: entity
   id: HeadBorgJanitor
   parent: BaseBorgHead
-  name: "голова прибиральника-кіборга"
+  name: janitor cyborg head
   components:
     - type: Sprite
       state: janitor_head
@@ -221,7 +221,7 @@
 - type: entity
   id: TorsoBorgJanitor
   parent: BaseBorgTorso
-  name: "торс прибиральника-кіборга"
+  name: janitor cyborg torso
   components:
     - type: Sprite
       state: janitor_chest
@@ -236,7 +236,7 @@
 - type: entity
   id: LeftArmBorgMedical
   parent: BaseBorgArmLeft
-  name: "медичний кіборг ліва рука"
+  name: medical cyborg left arm
   components:
     - type: Sprite
       state: medical_l_arm
@@ -251,7 +251,7 @@
 - type: entity
   id: RightArmBorgMedical
   parent: BaseBorgArmRight
-  name: "медичний кіборг права рука"
+  name: medical cyborg right arm
   components:
     - type: Sprite
       state: medical_r_arm
@@ -266,7 +266,7 @@
 - type: entity
   id: LeftLegBorgMedical
   parent: BaseBorgLegLeft
-  name: "медичний кіборг ліва нога"
+  name: medical cyborg left leg
   components:
     - type: Sprite
       state: medical_l_leg
@@ -281,7 +281,7 @@
 - type: entity
   id: RightLegBorgMedical
   parent: BaseBorgLegRight
-  name: "медичний кіборг права нога"
+  name: medical cyborg right leg
   components:
     - type: Sprite
       state: medical_r_leg
@@ -296,7 +296,7 @@
 - type: entity
   id: HeadBorgMedical
   parent: BaseBorgHead
-  name: "голова медичного кіборга"
+  name: medical cyborg head
   components:
     - type: Sprite
       state: medical_head
@@ -311,7 +311,7 @@
 - type: entity
   id: TorsoBorgMedical
   parent: BaseBorgTorso
-  name: "торс медичного кіборга"
+  name: medical cyborg torso
   components:
     - type: Sprite
       state: medical_chest
@@ -326,7 +326,7 @@
 - type: entity
   id: LeftArmBorgMining
   parent: BaseBorgArmLeft
-  name: "ліва рука шахтарського кіборга"
+  name: mining cyborg left arm
   components:
     - type: Sprite
       state: mining_l_arm
@@ -341,7 +341,7 @@
 - type: entity
   id: RightArmBorgMining
   parent: BaseBorgArmRight
-  name: "права рука шахтарського кіборга"
+  name: mining cyborg right arm
   components:
     - type: Sprite
       state: mining_r_arm
@@ -356,7 +356,7 @@
 - type: entity
   id: LeftLegBorgMining
   parent: BaseBorgLegLeft
-  name: "ліва нога шахтарського кіборга"
+  name: mining cyborg left leg
   components:
     - type: Sprite
       state: mining_l_leg
@@ -371,7 +371,7 @@
 - type: entity
   id: RightLegBorgMining
   parent: BaseBorgLegRight
-  name: "права нога шахтарського кіборга"
+  name: mining cyborg right leg
   components:
     - type: Sprite
       state: mining_r_leg
@@ -386,7 +386,7 @@
 - type: entity
   id: HeadBorgMining
   parent: BaseBorgHead
-  name: "голова шахтарського кіборга"
+  name: mining cyborg head
   components:
     - type: Sprite
       state: mining_head
@@ -401,7 +401,7 @@
 - type: entity
   id: TorsoBorgMining
   parent: BaseBorgTorso
-  name: "шахтарський торс кіборга"
+  name: mining cyborg torso
   components:
     - type: Sprite
       state: mining_chest
@@ -416,7 +416,7 @@
 - type: entity
   id: LeftArmBorgService
   parent: BaseBorgArmLeft
-  name: "ліва рука сервісного кіборга"
+  name: service cyborg left arm
   components:
   - type: Sprite
     state: service_l_arm
@@ -431,7 +431,7 @@
 - type: entity
   id: RightArmBorgService
   parent: BaseBorgArmRight
-  name: "права рука сервісного кіборга"
+  name: service cyborg right arm
   components:
   - type: Sprite
     state: service_r_arm
@@ -446,7 +446,7 @@
 - type: entity
   id: LeftLegBorgService
   parent: BaseBorgLegLeft
-  name: "ліва нога сервісного кіборга"
+  name: service cyborg left leg
   components:
   - type: Sprite
     state: service_l_leg
@@ -461,7 +461,7 @@
 - type: entity
   id: RightLegBorgService
   parent: BaseBorgLegRight
-  name: "права нога сервісного кіборга"
+  name: service cyborg right leg
   components:
   - type: Sprite
     state: service_r_leg
@@ -476,7 +476,7 @@
 - type: entity
   id: HeadBorgService
   parent: BaseBorgHead
-  name: "голова сервісного кіборга"
+  name: service cyborg head
   components:
   - type: Sprite
     state: service_head
@@ -491,7 +491,7 @@
 - type: entity
   id: TorsoBorgService
   parent: BaseBorgTorso
-  name: "торс сервісного кіборга"
+  name: service cyborg torso
   components:
   - type: Sprite
     state: service_chest

@@ -1,7 +1,7 @@
 - type: entity
   id: StationMapBroken
-  name: "мапа станції"
-  description: "Віртуальна карта околиць станції."
+  name: station map
+  description: A virtual map of the surrounding station.
   suffix: Wall broken
   placement:
     mode: SnapgridCenter
@@ -31,9 +31,9 @@
 
 - type: entity
   id: StationMap
-  name: "мапа станції"
+  name: station map
   parent: BaseComputer
-  description: "Віртуальна карта околиць станції."
+  description: A virtual map of the surrounding station.
   suffix: Wall
   placement:
     mode: SnapgridCenter
@@ -91,8 +91,8 @@
 
 - type: entity
   id: StationMapAssembly
-  name: "складання мапи станції"
-  description: "Збірка карти станцій."
+  name: station map assembly
+  description: A station map assembly.
   components:
   - type: WallMount
   - type: Clickable

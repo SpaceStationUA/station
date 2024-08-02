@@ -34,8 +34,8 @@
 - type: entity
   id: TeslaEnergyBall
   parent: BaseEnergyBall
-  name: "кульова блискавка"
-  description: "Гігантська куля чистої енергії. Простір навколо неї гуде і тане."
+  name: ball lightning
+  description: A giant ball of pure energy. The space around it is humming and melting.
   components:
   - type: Fixtures
     fixtures:
@@ -108,8 +108,8 @@
 - type: entity
   id: TeslaMiniEnergyBall
   parent: BaseEnergyBall
-  name: "міні кульова блискавка"
-  description: "Дитинча руйнівної енергетичної клітки. Не таке небезпечне, але все ж не варто торкатися голими руками."
+  name: mini ball lightning
+  description: The cub of a destructive energy cage. Not as dangerous, but still not worth touching with bare hands.
   components:
   - type: ChasingWalk
     minSpeed: 2

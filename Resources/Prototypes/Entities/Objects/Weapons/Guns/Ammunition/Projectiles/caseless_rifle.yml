@@ -1,6 +1,6 @@
 - type: entity
   id: BulletCaselessRifle
-  name: "куля (.25 без гільзи)"
+  name: bullet (.25 caseless)
   parent: BaseBullet
   noSpawn: true
   components:
@@ -11,7 +11,7 @@
 
 - type: entity
   id: BulletCaselessRiflePractice
-  name: "куля (.25 безоболонкова практика)"
+  name: bullet (.25 caseless practice)
   parent: BaseBulletPractice
   noSpawn: true
   components:
@@ -22,7 +22,7 @@
 
 - type: entity
   id: BulletCaselessRifleRubber
-  name: "куля (.25 безоболонкова гумова)"
+  name: bullet (.25 caseless rubber)
   parent: BaseBulletRubber
   noSpawn: true
   components:
