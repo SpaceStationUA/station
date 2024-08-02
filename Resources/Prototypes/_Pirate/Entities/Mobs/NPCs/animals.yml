@@ -124,3 +124,16 @@
         damage: 60
       behaviors:
       - !type:GibBehavior { }
+
+- type: entity
+  name: "рогата жаба"
+  parent: MobFrog
+  id: MobFrogHorns
+  description: Чи не здається вам що ці рога завеликі?
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base", "movement"]
+      state: frog
+      sprite: _Pirate/Mobs/Animals/froghorns.rsi

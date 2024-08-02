@@ -90,3 +90,21 @@
     entries:
     - id: MobClownSpider
       prob: 0.05
+
+- type: entity
+  id: FrogSpawn
+  parent: BaseGameRule
+  noSpawn: true
+  components:
+  - type: StationEvent
+    id: VentCritters
+    earliestStart: 15
+    minimumPlayers: 1
+    weight: 4
+    duration: 60
+  - type: VentCrittersRule
+    entries:
+    - id: MobFrog
+      prob: 0.05
+    - id: MobFrogHorns
+      prob: 0.05
