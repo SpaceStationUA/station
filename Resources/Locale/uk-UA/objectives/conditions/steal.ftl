@@ -9,3 +9,6 @@ objective-condition-steal-Ian = коргі голови персоналу
 objective-condition-thief-description = {$itemName} було б чудовим доповненням до моєї колекції!
 objective-condition-thief-animal-description = {$itemName} було б чудовим доповненням до моєї колекції! Найголовніше, живим.
 objective-condition-thief-multiply-description = Мені потрібно отримати {$count} {MAKEPLURAL($itemName)} і взяти їх із собою.
+
+objective-condition-steal-smsliver-title = Відріжте шматочок від кристала надматерії.
+objective-condition-steal-smsliver-description = Використовуйте будь-який ріжучий інструмент, який є під рукою. Скальпель більш рекомендований. Також не помирайте від радіаційного отруєння.
