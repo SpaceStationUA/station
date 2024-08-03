@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: Alien
+  name: "Чужий"
   parent: BaseSimpleMob
   id: Facehugger
-  description: It has some sort of a tube at the end of its tail. It seems to be active!
+  description: "На кінці хвоста у нього якась трубка. Здається, вона активна!"
   components:
   - type: Physics
   - type: Fixtures
@@ -80,10 +80,10 @@
       task: XenoCompound
 
 - type: entity
-  name: Alien
+  name: "Чужий"
   parent: BaseSimpleMob
   id: FacehuggerInactive
-  description: It has some sort of a tube at the end of its tail. It doesn't seem active.
+  description: "На кінці хвоста у нього якась трубка. Вона не виглядає активною."
   suffix: Inactive
   components:
     - type: Sprite
@@ -113,10 +113,10 @@
         0: Dead
 
 - type: entity
-  name: Lamarr
+  name: "Ламарр"
   parent: BaseSimpleMob
   id: FacehuggerLamarr
-  description: It has some sort of a tube at the end of its tail, but it doesn't seem, like it can use it.
+  description: "На кінці хвоста у нього є якась трубка, але не схоже, що він може нею користуватися."
   components:
   - type: Physics
   - type: Fixtures

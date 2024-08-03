@@ -1,6 +1,6 @@
 - type: entity
   id: CartridgeRifleParticle
-  name: cartridge (.20 particle)
+  name: "патрон (.20 частка)"
   parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -8,7 +8,7 @@
 
 - type: entity
   id: CartridgeRifleParticlePlasma
-  name: cartridge (.20 plasma)
+  name: "патрон (.20 плазма)"
   parent: CartridgePistolParticlePlasma
   components:
   - type: CartridgeAmmo
@@ -16,7 +16,7 @@
 
 - type: entity
   id: CartridgeRifleParticleTritium
-  name: cartridge (.20 tritium)
+  name: "патрон (.20 тритій)"
   parent: CartridgePistolParticleTritium
   components:
   - type: CartridgeAmmo
@@ -24,7 +24,7 @@
 
 - type: entity
   id: CartridgeRifleParticleFrezon
-  name: cartridge (.20 frezon)
+  name: "патрон (.20 frezon)"
   parent: CartridgePistolParticleFrezon
   components:
   - type: CartridgeAmmo
