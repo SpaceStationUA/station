@@ -103,6 +103,18 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
             _guidebook.ToggleGuidebook();
         };
 
+        //Pirate support us button
+        _escapeWindow.SupportButton.OnPressed += _ =>
+        {
+            var supportUrl = _cfg.GetCVar(CCVars.SupportUrl);
+            if (!string.IsNullOrEmpty(supportUrl))
+            {
+                _uri.OpenUri(supportUrl);
+            }
+        };
+        _escapeWindow.SupportButton.ModulateSelfOverride = Color.FromHex("#A88B5E");
+        _escapeWindow.SupportButton.Label.FontColorOverride = Color.White;
+
         // Hide wiki button if we don't have a link for it.
         _escapeWindow.WikiButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWiki) != "";
 

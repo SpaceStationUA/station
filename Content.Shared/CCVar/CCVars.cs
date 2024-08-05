@@ -2391,6 +2391,11 @@ namespace Content.Shared.CCVar
         #endregion
 //PIRATE START
         /// <summary>
+        /// Url that the donate button will open.
+        /// </summary>
+        public static readonly CVarDef<string> SupportUrl =
+            CVarDef.Create("support.url", "", CVar.REPLICATED);
+        /// <summary>
         /// Whether the Shipyard is enabled.
         /// </summary>
         public static readonly CVarDef<bool> Shipyard =
