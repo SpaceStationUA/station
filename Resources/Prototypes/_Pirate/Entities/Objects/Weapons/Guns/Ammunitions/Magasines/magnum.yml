@@ -1,6 +1,6 @@
 - type: entity
   id: MagazineMagnumParticle
-  name: "пістолетний магазин (.45 частка)"
+  name: pistol magazine (.45 particle)
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -14,7 +14,7 @@
 
 - type: entity
   id: MagazineMagnumParticlePlasma
-  name: "пістолетний магазин (.45 плазма)"
+  name: pistol magazine (.45 plasma)
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -28,7 +28,7 @@
 
 - type: entity
   id: MagazineMagnumParticleTritium
-  name: "пістолетний магазин (.45 тритій)"
+  name: pistol magazine (.45 tritium)
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -42,7 +42,7 @@
 
 - type: entity
   id: MagazineMagnumParticleFrezon
-  name: "пістолетний магазин (.45 frezon)"
+  name: pistol magazine (.45 frezon)
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -56,7 +56,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunParticle
-  name: "Журнал \"Вектор\" (патрон .45)"
+  name: "Vector magazine (.45 particle)"
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -70,7 +70,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunParticlePlasma
-  name: "Журнал \"Вектор\" (.45 плазма)"
+  name: "Vector magazine (.45 plasma)"
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -84,7 +84,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunParticleTritium
-  name: "Магазин Vector (.45 тритій)"
+  name: "Vector magazine (.45 tritium)"
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -98,7 +98,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunParticleFrezon
-  name: "Магазин Vector (.45 frezon)"
+  name: "Vector magazine (.45 frezon)"
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider

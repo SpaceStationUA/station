@@ -1,6 +1,6 @@
 - type: entity
   id: CartridgePistolParticle
-  name: "патрон (.35 частка)"
+  name: cartridge (.35 particle)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -8,7 +8,7 @@
 
 - type: entity
   id: CartridgePistolParticlePlasma
-  name: "патрон (.35 плазма)"
+  name: cartridge (.35 plasma)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -25,7 +25,7 @@
 
 - type: entity
   id: CartridgePistolParticleTritium
-  name: "патрон (.35 тритій)"
+  name: cartridge (.35 tritium)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo
@@ -42,7 +42,7 @@
 
 - type: entity
   id: CartridgePistolParticleFrezon
-  name: "патрон (.35 frezon)"
+  name: cartridge (.35 frezon)
   parent: BaseCartridgePistol
   components:
   - type: CartridgeAmmo

@@ -1,8 +1,8 @@
 - type: entity
-  name: "R-91"
+  name: R-91
   parent: BaseWeaponRifle
   id: N14WeaponRifleR91
-  description: "Старомодна штурмова гвинтівка калібру 5.56." # TODO: Need to create projectiles, magazines and boxes for 5.56.
+  description: An old fashioned assault rifle chambered in 5.56. # TODO: Need to create projectiles, magazines and boxes for 5.56.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Rifles/r91.rsi
@@ -53,10 +53,10 @@
   - type: Appearance
 
 - type: entity
-  name: "китайська штурмова гвинтівка"
+  name: chinese штурмова гвинтівка
   parent: BaseWeaponRifle
   id: N14WeaponChineseRifle
-  description: "Стара штурмова гвинтівка з дивними символами, в патроннику достатньо місця для патрона калібру 7,62."
+  description: A old foreing assault rifle with strange simbols on it, the chamber has enough space to hold a 7,62 bullet.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Rifles/chineserifle.rsi
@@ -104,10 +104,10 @@
   - type: Appearance
 
 - type: entity
-  name: "штурмова гвинтівка"
+  name: штурмова гвинтівка
   parent: BaseWeaponRifle
   id: N14WeaponCarbine
-  description: "Чорна компактна штурмова гвинтівка під набій 5.56."
+  description: A black compact assault rifle, uses 5.56 ammo.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Rifles/assaultcarbine.rsi
@@ -158,10 +158,10 @@
   - type: Appearance
 
 - type: entity
-  name: "снайперський карабін"
+  name: marksman карабін
   parent: BaseWeaponRifle
   id: N14WeaponMarksman
-  description: "Важка напівавтоматична гвинтівка з оптичним прицілом, використовує набої калібру 7.62."
+  description: A heavy semiautomatic rifle with a scope, uses 7.62 ammo.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Rifles/marksman.rsi
@@ -211,10 +211,10 @@
   - type: Appearance
 
 - type: entity
-  name: "військова гвинтівка"
+  name: військова гвинтівка
   parent: BaseWeaponRifle
   id: N14WeaponService
-  description: "Дешева масова післявоєнна гвинтівка виробництва NCR, калібру 5.56."
+  description: A cheap mass produced post war rifle made by the NCR, chambered in 5.56.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Rifles/servicerifle.rsi
@@ -265,10 +265,10 @@
   - type: Appearance
 
 - type: entity
-  name: "Лектор частинок"
+  name: Particle Lecter
   parent: WeaponRifleLecter
   id: WeaponRifleLecterParticle
-  description: "Висококласна штурмова гвинтівка військового класу. Використовує боєприпаси 20-го калібру."
+  description: A high end military grade assault rifle. Uses .20 particle ammo.
   suffix: particle, admeme
   components:
   - type: Gun

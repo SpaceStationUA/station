@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleParticle
-  name: "ящик для боєприпасів (.20)"
+  name: ammunition box (.20 particle)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleParticle
@@ -15,7 +15,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleParticlePlasma
-  name: "ящик для боєприпасів (.20 плазма)"
+  name: ammunition box (.20 plasma)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleParticlePlasma
@@ -30,7 +30,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleParticleTritium
-  name: "ящик для боєприпасів (.20 тритій)"
+  name: ammunition box (.20 tritium)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleParticleTritium
@@ -45,7 +45,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleParticleFrezon
-  name: "ящик для набоїв (.20 frezon)"
+  name: ammunition box (.20 frezon)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleParticleFrezon

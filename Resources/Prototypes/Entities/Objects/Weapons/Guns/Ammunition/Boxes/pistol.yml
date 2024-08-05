@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseMagazineBox
   id: BaseMagazineBoxPistol
-  name: "коробочка з набоями (.35 auto)"
+  name: ammunition box (.35 auto)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -28,7 +28,7 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistol
-  name: "коробочка з набоями (.35 auto)"
+  name: ammunition box (.35 auto)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -42,7 +42,7 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolPractice
-  name: "коробочка з набоями (.35 auto practice)"
+  name: ammunition box (.35 auto practice)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -57,7 +57,7 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolRubber
-  name: "коробочка з набоями (.35 автогума)"
+  name: ammunition box (.35 auto rubber)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolRubber
@@ -72,7 +72,7 @@
 - type: entity
   id: MagazineBoxPistolIncendiary
   parent: BaseMagazineBoxPistol
-  name: "ящик з боєприпасами (автоматичний запал калібру .35)"
+  name: ammunition box (.35 auto incendiary)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -87,7 +87,7 @@
 - type: entity
   id: MagazineBoxPistolUranium
   parent: BaseMagazineBoxPistol
-  name: "коробочка з набоями (.35 auto uranium)"
+  name: ammunition box (.35 auto uranium)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium

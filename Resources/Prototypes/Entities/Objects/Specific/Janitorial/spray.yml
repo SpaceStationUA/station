@@ -1,9 +1,9 @@
 - type: entity
-  name: "пляшка з розпилювачем"
+  name: spray bottle
   id: SprayBottle
   parent: BaseItem
   suffix: Empty
-  description: "Флакон з розпилювачем, що відкручується."
+  description: A spray bottle with an unscrewable top.
   components:
   - type: Tag
     tags:
@@ -36,11 +36,11 @@
     solution: spray
 
 - type: entity
-  name: "мега пляшка з розпилювачем"
+  name: mega spray bottle
   id: MegaSprayBottle
   parent: SprayBottle
   suffix: Empty
-  description: "Величезна пляшка-розпилювач, здатна на неперевершену прибиральну силу."
+  description: A huge spray bottle, capable of unrivaled janitorial power.
   components:
   - type: Sprite
     sprite: Objects/Specific/Janitorial/janitorial.rsi
@@ -58,7 +58,7 @@
       path: /Audio/Effects/spray2.ogg
 
 - type: entity
-  name: "пляшка з розпилювачем"
+  name: spray bottle
   id: SprayBottleWater
   suffix: Filled
   parent: SprayBottle
@@ -75,8 +75,8 @@
           Quantity: 100
 
 - type: entity
-  name: "космічний очищувач"
-  description: "BLAM!-брендовий засіб для прибирання, що не піниться!"
+  name: space cleaner
+  description: BLAM!-brand non-foaming space cleaner!
   id: SprayBottleSpaceCleaner
   parent: SprayBottle
   suffix: ""
@@ -95,7 +95,7 @@
 
 - type: entity
   id: Vapor
-  name: "пара"
+  name: "vapor"
   noSpawn: true
   components:
   - type: SolutionContainerManager

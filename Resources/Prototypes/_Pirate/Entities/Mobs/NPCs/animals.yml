@@ -1,10 +1,10 @@
 # Syndicat Mothroach
 - type: entity
-  name: "Синдиканський метелик"
+  name: Синдиканський мотильок
   # parent: MobCockroach
   parent: MobMothroach
   id: MobSyndicateMothroach
-  description: "Ця істота продукт науковців синдикату по генетичному виведенню вибухаючої тварини з мотильків."
+  description: Ця істота продукт науковців синдикату по генетичному виведенню вибухаючої тварини з мотильків.
   components:
   - type: GhostRole
     makeSentient: true
@@ -129,7 +129,7 @@
   name: "рогата жаба"
   parent: MobFrog
   id: MobFrogHorns
-  description: "Чи не здається вам що ці рога завеликі?"
+  description: Чи не здається вам що ці рога завеликі?
   components:
   - type: Sprite
     drawdepth: Mobs

@@ -1,8 +1,8 @@
 - type: entity
   id: BluespaceHarvester
   parent: [ BaseMachine, ConstructibleMachine ]
-  name: "bluespace harvester"
-  description: "Використовує величезну кількість енергії для вилучення матерії з усіх куточків Всесвіту."
+  name: bluespace harvester
+  description: Uses huge amounts of energy to extract matter from all corners of the universe.
   components:
   - type: BluespaceHarvester
   - type: Appearance

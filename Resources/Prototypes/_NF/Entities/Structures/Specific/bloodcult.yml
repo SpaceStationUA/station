@@ -2,8 +2,8 @@
 - type: entity
   parent: CybersunDataMiner
   id: BloodCollector
-  name: "збирач крові"
-  description: "Мерзенна камера, наповнена кров'ю. Здається, вона вміщує більше, ніж її об'єм."
+  name: blood collector
+  description: A vile chamber filled with blood. Seems to hold more than it's volume.
   components:
   - type: Sprite
     sprite: _NF/Structures/Specific/BloodCult/bloodcollector.rsi
@@ -64,7 +64,7 @@
 - type: entity
   parent: BaseWall
   id: WallCultIndestructible
-  name: "культова стіна"
+  name: cult wall
   suffix: indestructible
   components:
   - type: Tag
@@ -101,7 +101,7 @@
 # Glowing Floor Thingy
 - type: entity
   id: BloodCultGlowingFloor
-  name: "культ крові світиться підлога"
+  name: blood cult glowing floor
   parent: BaseRune
   components:
     - type: Sprite
@@ -112,7 +112,7 @@
 
 - type: entity
   id: BloodCultHoleFloor
-  name: "кривавий культ дірка в підлозі"
+  name: blood cult floor hole
   parent: FlashRuneTimer
   components:
     - type: Sprite
@@ -124,7 +124,7 @@
 - type: entity
   id: BloodCultGravityGeneratorMini
   parent: [GravityGeneratorMini]
-  name: "генератор гравітації культу крові"
+  name: blood cult gravity generator
   components:
   - type: Sprite
     sprite: _NF/Structures/Specific/BloodCult/gravity_generator.rsi
@@ -146,8 +146,8 @@
 
 # Wall Light
 - type: entity
-  name: "світло культу крові"
-  description: "Як ця штука світиться? Чому?"
+  name: blood cult light
+  description: "How is this thing glowing? Why?"
   id: BloodCultAlwaysPoweredLight
   suffix: Always powered
   parent: AlwaysPoweredWallLight
@@ -173,8 +173,8 @@
 - type: entity
   parent: CarpStatue
   id: BloodCultProp01
-  name: "цікавий об'єкт"
-  description: "Цікаво, що це за штука і що вона робить?"
+  name: curious object
+  description: Huh, I wonder what this thing is and what does it do.
   components:
   - type: Sprite
     sprite: _NF/Structures/Specific/BloodCult/props.rsi
@@ -186,8 +186,8 @@
 - type: entity
   parent: Autolathe
   id: BloodCultProp02
-  name: "кузня кривавого культу"
-  description: "Кузня для виробництва зброї та обладунків."
+  name: blood cult forge
+  description: A forge for weapon and armor production.
   components:
   - type: Sprite
     sprite: _NF/Structures/Specific/BloodCult/forge.rsi
@@ -233,8 +233,8 @@
 - type: entity
   parent: BloodCultProp01
   id: BloodCultProp03
-  name: "святиня кривавого культу"
-  description: "Окультна святиня для наповнення предметів нечистою енергією."
+  name: blood cult shrine
+  description: An occult shrine for imbuing objects with vile energies.
   components:
   - type: Sprite
     sprite: _NF/Structures/Specific/BloodCult/props.rsi
@@ -246,8 +246,8 @@
 - type: entity
   parent: BloodCultProp01
   id: BloodCultProp04
-  name: "культова лабораторія крові"
-  description: "Окультний верстак зі зручними шухлядками. В одній - відрубана рука."
+  name: blood cult workbench
+  description: An occult workbench with handy drawers. There is a severed hand in one.
   components:
   - type: Sprite
     sprite: _NF/Structures/Specific/BloodCult/props.rsi
@@ -259,8 +259,8 @@
 - type: entity
   parent: BloodCultProp01
   id: BloodCultProp05
-  name: "цікавий об'єкт"
-  description: "Цікаво, що це за штука і що вона робить?"
+  name: curious object
+  description: Huh, I wonder what this thing is and what does it do.
   components:
   - type: Sprite
     sprite: _NF/Structures/Specific/BloodCult/props.rsi
@@ -272,8 +272,8 @@
 - type: entity
   parent: BloodCultProp01
   id: BloodCultProp07
-  name: "цікавий об'єкт"
-  description: "Цікаво, що це за штука і що вона робить?"
+  name: curious object
+  description: Huh, I wonder what this thing is and what does it do.
   components:
   - type: Sprite
     sprite: _NF/Structures/Specific/BloodCult/props.rsi

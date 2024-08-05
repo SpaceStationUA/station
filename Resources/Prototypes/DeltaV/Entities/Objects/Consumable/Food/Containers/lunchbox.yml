@@ -1,8 +1,8 @@
 - type: entity
   id: LunchboxGeneric
   parent: [ BoxCardboard, BaseBagOpenClose ]
-  name: "ланч-бокс"
-  description: "Для перенесення їжі на ходу."
+  name: lunchbox
+  description: For on-the-go meal carrying needs.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Storage/lunchbox.rsi
@@ -37,8 +37,8 @@
   parent: LunchboxGeneric
   id: LunchboxGenericFilledRandom
   suffix: Filled, Random
-  name: "попередньо упакований ланч-бокс"
-  description: "Упаковані з любов'ю."
+  name: pre-packed lunchbox
+  description: Packed with love.
   components:
   - type: StorageFill
     contents:
@@ -117,8 +117,8 @@
   parent: LunchboxGeneric
   id: LunchboxGenericFilledHealthy
   suffix: Filled, Healthy
-  name: "попередньо упакований ланч-бокс"
-  description: "Упаковані здоровою любов'ю."
+  name: pre-packed lunchbox
+  description: Packed with healthy love.
   components:
   - type: StorageFill
     contents:
@@ -149,8 +149,8 @@
   parent: LunchboxGeneric
   id: LunchboxGenericFilledUnhealthy
   suffix: Filled, Unhealthy
-  name: "попередньо упакований ланч-бокс"
-  description: "Упаковані з любов'ю."
+  name: pre-packed lunchbox
+  description: Packed with love.
   components:
   - type: StorageFill
     contents:
