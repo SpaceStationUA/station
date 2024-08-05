@@ -1,76 +1,76 @@
 - type: construction
-  name: "ящик для худоби"
+  name: livestock crate
   id: CrateLivestock
   graph: CrateLivestock
   startNode: start
   targetNode: cratelivestock
   category: construction-category-storage
-  description: "Дерев'яний ящик для утримання худоби."
+  description: A wooden crate for holding livestock.
   icon: { sprite: Structures/Storage/Crates/livestock.rsi, state: base }
   objectType: Structure
 
 - type: construction
-  name: "сталева обрешітка"
+  name: steel crate
   id: CrateGenericSteel
   graph: CrateGenericSteel
   startNode: start
   targetNode: crategenericsteel
   category: construction-category-storage
-  description: "Металевий ящик для зберігання речей."
+  description: A metal crate for storing things.
   icon: { sprite: Structures/Storage/Crates/generic.rsi, state: icon }
   objectType: Structure
 
 - type: construction
-  name: "безпечний ящик"
+  name: secure crate
   id: CrateSecure
   graph: CrateSecure
   startNode: start
   targetNode: cratesecure
   category: construction-category-storage
-  description: "Безпечний металевий ящик для зберігання речей. Не потребує спеціального доступу, можна налаштувати за допомогою Конфігуратора доступу."
+  description: A secure metal crate for storing things. Requires no special access, can be configured with an Access Configurator.
   icon: { sprite: Structures/Storage/Crates/secure.rsi, state: icon }
   objectType: Structure
 
 - type: construction
-  name: "пластиковий ящик"
+  name: plastic crate
   id: CratePlastic
   graph: CratePlastic
   startNode: start
   targetNode: crateplastic
   category: construction-category-storage
-  description: "Пластиковий ящик для зберігання речей."
+  description: A plastic crate for storing things.
   icon: { sprite: Structures/Storage/Crates/plastic.rsi, state: icon }
   objectType: Structure
 
 - type: construction
-  name: "картонна коробка"
+  name: cardboard box
   id: BigBox
   graph: BaseBigBox
   startNode: start
   targetNode: basebigbox
   category: construction-category-storage
-  description: "Велика коробка для зберігання речей або ховання."
+  description: A big box for storing things or hiding in.
   icon: { sprite: Structures/Storage/closet.rsi, state: cardboard }
   objectType: Structure
 
 - type: construction
-  name: "картонна коробка"
+  name: cardboard box
   id: BoxCardboard
   graph: BoxCardboard
   startNode: start
   targetNode: boxcardboard
   category: construction-category-storage
-  description: "Невеличка коробка для зберігання речей."
+  description: A small box for storing things.
   icon: { sprite: Objects/Storage/boxes.rsi, state: box }
   objectType: Item
 
 - type: construction
-  name: "труна"
+  name: coffin
   id: CrateCoffin
   graph: CrateCoffin
   startNode: start
   targetNode: cratecoffin
   category: construction-category-storage
-  description: "Труна для зберігання трупів."
+  description: A coffin for storing corpses.
   icon: { sprite: Structures/Storage/Crates/coffin.rsi, state: base }
   objectType: Structure

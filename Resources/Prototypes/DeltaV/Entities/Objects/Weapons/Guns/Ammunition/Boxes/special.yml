@@ -27,7 +27,7 @@
 - type: entity
   parent: BaseMagazineBoxSpecial
   id: MagazineBoxSpecial
-  name: "коробочка з набоями (.38 special)"
+  name: ammunition box (.38 special)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecial
@@ -41,7 +41,7 @@
 - type: entity
   parent: BaseMagazineBoxSpecial
   id: MagazineBoxSpecialPractice
-  name: "коробочка з набоями (.38 special practice)"
+  name: ammunition box (.38 special practice)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialPractice
@@ -56,7 +56,7 @@
 - type: entity
   parent: BaseMagazineBoxSpecial
   id: MagazineBoxSpecialRubber
-  name: "коробочка з набоями (.38 спеціальна гума)"
+  name: ammunition box (.38 special rubber)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialRubber
@@ -71,7 +71,7 @@
 - type: entity
   parent: BaseMagazineBoxSpecial
   id: MagazineBoxSpecialIncendiary
-  name: "коробочка з набоями (.38 спеціальний запалювальний)"
+  name: ammunition box (.38 special incendiary)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialIncendiary
@@ -86,7 +86,7 @@
 - type: entity
   parent: BaseMagazineBoxSpecial
   id: MagazineBoxSpecialUranium
-  name: "коробочка з набоями (.38 special uranium)"
+  name: ammunition box (.38 special uranium)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialUranium
@@ -101,7 +101,7 @@
 - type: entity
   parent: BaseMagazineBoxSpecial
   id: MagazineBoxSpecialMindbreaker
-  name: "коробочка з набоями (.38 special mindbreaker)"
+  name: ammunition box (.38 special mindbreaker)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialMindbreaker

@@ -22,8 +22,8 @@
   parent: GasTankBase
   abstract: true
   id: BaseJetpack
-  name: "реактивний ранець"
-  description: "Це реактивний ранець."
+  name: Jetpack
+  description: It's a jetpack.
   components:
     - type: InputMover
       toParent: true
@@ -67,8 +67,8 @@
 
 - type: entity
   id: ActionToggleJetpack
-  name: "Перекидний реактивний ранець"
-  description: "Вмикає реактивний ранець, дозволяючи вам пересуватися за межами станції."
+  name: Toggle jetpack
+  description: Toggles the jetpack, giving you movement outside the station.
   noSpawn: true
   components:
   - type: InstantAction
@@ -85,7 +85,7 @@
 - type: entity
   id: JetpackBlue
   parent: BaseJetpack
-  name: "реактивний ранець"
+  name: jetpack
   suffix: Empty
   components:
   - type: Sprite
@@ -99,7 +99,7 @@
 - type: entity
   id: JetpackBlueFilled
   parent: JetpackBlue
-  name: "реактивний ранець"
+  name: jetpack
   suffix: Filled
   components:
   - type: GasTank
@@ -116,7 +116,7 @@
 - type: entity
   id: JetpackBlack
   parent: BaseJetpack
-  name: "реактивний ранець"
+  name: jetpack
   suffix: Empty
   components:
   - type: Item
@@ -132,7 +132,7 @@
 - type: entity
   id: JetpackBlackFilled
   parent: JetpackBlack
-  name: "реактивний ранець"
+  name: jetpack
   suffix: Filled
   components:
   - type: GasTank
@@ -149,7 +149,7 @@
 - type: entity
   id: JetpackCaptain
   parent: BaseJetpack
-  name: "реактивний ранець капітана"
+  name: captain's jetpack
   suffix: Empty
   components:
   - type: Sprite
@@ -172,7 +172,7 @@
 - type: entity
   id: JetpackCaptainFilled
   parent: JetpackCaptain
-  name: "реактивний ранець капітана"
+  name: captain's jetpack
   suffix: Filled
   components:
   - type: GasTank
@@ -189,7 +189,7 @@
 - type: entity
   id: JetpackMini
   parent: BaseJetpack
-  name: "міні реактивний ранець"
+  name: mini jetpack
   suffix: Empty
   components:
     - type: Item
@@ -215,7 +215,7 @@
 - type: entity
   id: JetpackMiniFilled
   parent: JetpackMini
-  name: "міні реактивний ранець"
+  name: mini jetpack
   suffix: Filled
   components:
   - type: GasTank
@@ -232,7 +232,7 @@
 - type: entity
   id: JetpackSecurity
   parent: BaseJetpack
-  name: "захисний реактивний ранець"
+  name: security jetpack
   suffix: Empty
   components:
   - type: Item
@@ -248,7 +248,7 @@
 - type: entity
   id: JetpackSecurityFilled
   parent: JetpackSecurity
-  name: "захисний реактивний ранець"
+  name: security jetpack
   suffix: Filled
   components:
   - type: GasTank
@@ -265,7 +265,7 @@
 - type: entity
   id: JetpackVoid
   parent: BaseJetpack
-  name: "реактивний ранець порожнечі"
+  name: void jetpack
   suffix: Empty
   components:
   - type: Item
@@ -283,7 +283,7 @@
 - type: entity
   id: JetpackVoidFilled
   parent: JetpackVoid
-  name: "реактивний ранець порожнечі"
+  name: void jetpack
   suffix: Filled
   components:
   - type: GasTank

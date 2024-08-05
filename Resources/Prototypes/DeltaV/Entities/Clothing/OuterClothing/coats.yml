@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatRyuzo
-  name: "Дельфійське пальто"
-  description: "В іншому всесвіті Синдикат відомий як хороші хлопці."
+  name: Delphic coat
+  description: In another universe, The Syndicate are known as the good guys.
   suffix: ADMIN ONLY, DO NOT MAP
   components:
   - type: Sprite
@@ -20,8 +20,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatHoPArmored
-  name: "бронежилет начальника штабу"
-  description: "Зручна куртка, яка забезпечує певний захист від стихійних лих та людей."
+  name: head of personnel's armored coat
+  description: A comfortable jacket that offers some protection against acts of god and man.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Coats/hop.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatOvercoat
-  name: "пальто"
-  description: "Тепле темне пальто, яке підійде для офіційних заходів."
+  name: overcoat
+  description: A warm, dark overcoat, suitable for formal occasions.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Coats/overcoat.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatGreatcoat
-  name: "пальто"
-  description: "Сіре і міцне пальто з підкладкою для захисту від негоди."
+  name: greatcoat
+  description: A drab and rugged greatcoat, padded for protection against the elements.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Coats/greatcoat.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatLeatherJacket
-  name: "шкіряна куртка"
-  description: "Міцна шкіряна куртка, для моди або для практичності."
+  name: leather jacket
+  description: A rugged leather jacket, for fashion or for utility.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Coats/leatherjacket.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatCybersunWindbreaker
-  name: "вітровка cybersun"
-  description: "Вітровка для парамедиків, з офіційною геральдикою медичного підрозділу Cybersuns. Виготовлена з міцного балістичного волокна."
+  name: cybersun windbreaker
+  description: A paramedics windbreaker, sporting the official heraldry of Cybersuns meditech division. Its made of sturdy ballistic fiber.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Coats/cybersunwindbreaker.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatHoPFormal
-  name: "формальний піджак керівника персоналу"
-  description: "Епатажний піджак із золотими ґудзиками та червоною обробкою. Скоріше вульгарний, ніж стильний."
+  name: head of personnel's formal jacket
+  description: A showy and over-the-top jacket with gold buttons and red trim. More tacky than classy.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Coats/repcoat.rsi

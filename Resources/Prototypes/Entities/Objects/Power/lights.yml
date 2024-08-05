@@ -116,9 +116,9 @@
 # https://academo.org/demos/colour-temperature-relationship/
 - type: entity
   parent: BaseLightbulb
-  name: "лампа розжарювання"
+  name: incandescent light bulb
   id: LightBulb
-  description: "Лампочка."
+  description: A light bulb.
   components:
   - type: LightBulb
     bulb: Bulb
@@ -129,9 +129,9 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: "світлодіодна лампочка"
+  name: led light bulb
   id: LedLightBulb
-  description: "Енергоефективна лампочка."
+  description: A power efficient light bulb.
   components:
   - type: LightBulb
     bulb: Bulb
@@ -144,9 +144,9 @@
 
 - type: entity
   parent: LightBulb
-  name: "стара лампа розжарювання"
+  name: old incandescent light bulb
   id: LightBulbOld
-  description: "Старіюча лампочка."
+  description: An aging light bulb.
   components:
   - type: LightBulb
     bulb: Bulb
@@ -158,9 +158,9 @@
 - type: entity
   suffix: Broken
   parent: BaseLightbulb
-  name: "лампа розжарювання"
+  name: incandescent light bulb
   id: LightBulbBroken
-  description: "Лампочка."
+  description: A light bulb.
   components:
   - type: LightBulb
     startingState: Broken
@@ -168,9 +168,9 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: "сервісна лампочка"
+  name: service light bulb
   id: ServiceLightBulb
-  description: "Зелена лампочка низької яскравості, що використовується в ліхтарях для прибиральників."
+  description: A low-brightness green lightbulb used in janitorial service lights.
   components:
   - type: LightBulb
     bulb: Bulb
@@ -181,9 +181,9 @@
 
 - type: entity
   parent: BaseLightTube
-  name: "люмінесцентна лампа"
+  name: fluorescent light tube
   id: LightTube
-  description: "Світильник."
+  description: A light fixture.
   components:
   - type: LightBulb
     color: "#FFE4CE" # 5000K color temp
@@ -194,9 +194,9 @@
 
 - type: entity
   parent: LightTube
-  name: "стара люмінесцентна лампа"
+  name: old fluorescent light tube
   id: LightTubeOld
-  description: "Старіючий світильник."
+  description: An aging light fixture.
   components:
   - type: LightBulb
     color: "#FFDABB" # old fluorescents are yellower-4500K temp
@@ -208,17 +208,17 @@
 - type: entity
   suffix: Broken
   parent: BaseLightTube
-  name: "люмінесцентна лампа"
+  name: fluorescent light tube
   id: LightTubeBroken
-  description: "Світильник."
+  description: A light fixture.
   components:
   - type: LightBulb
     startingState: Broken
 
 - type: entity
   parent: BaseLightTube
-  name: "світлодіодна лампа"
-  description: "Високопотужна високоенергетична лампочка."
+  name: led light tube
+  description: A high power high energy bulb.
   id: LedLightTube
   components:
   - type: LightBulb
@@ -231,8 +231,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: "трубка зовнішнього освітлення"
-  description: "Потужна високоенергетична лампа для глибин космосу. Може містити ртуть."
+  name: exterior light tube
+  description: A high power high energy bulb for the depths of space. May contain mercury.
   id: ExteriorLightTube
   noSpawn: true # DeltaV - Don't map these
   components:
@@ -246,8 +246,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: "натрієва лампа"
-  description: "Потужна високоенергетична лампа для глибин космосу. Солона."
+  name: sodium light tube
+  description: A high power high energy bulb for the depths of space. Salty.
   id: SodiumLightTube
   components:
   - type: LightBulb
@@ -260,8 +260,8 @@
 
 - type: entity
   parent: BaseLightTube
-  name: "блакитна кришталева лампочка"
-  description: "Потужна високоенергетична лампочка з маленьким кольоровим кристалом всередині."
+  name: cyan crystal light tube
+  description: A high power high energy bulb which has a small colored crystal inside.
   id: LightTubeCrystalCyan
   components:
   - type: LightBulb
@@ -281,7 +281,7 @@
 
 - type: entity
   parent: LightTubeCrystalCyan
-  name: "блакитна кришталева лампочка"
+  name: blue crystal light tube
   id: LightTubeCrystalBlue
   components:
   - type: LightBulb
@@ -301,7 +301,7 @@
 
 - type: entity
   parent: LightTubeCrystalCyan
-  name: "рожева кришталева лампочка"
+  name: pink crystal light tube
   id: LightTubeCrystalPink
   components:
   - type: LightBulb
@@ -321,7 +321,7 @@
 
 - type: entity
   parent: LightTubeCrystalCyan
-  name: "помаранчева кришталева лампочка"
+  name: orange crystal light tube
   id: LightTubeCrystalOrange
   components:
   - type: LightBulb
@@ -341,7 +341,7 @@
 
 - type: entity
   parent: LightTubeCrystalCyan
-  name: "червона кришталева лампочка"
+  name: red crystal light tube
   id: LightTubeCrystalRed
   components:
   - type: LightBulb
@@ -361,7 +361,7 @@
 
 - type: entity
   parent: LightTubeCrystalCyan
-  name: "зелена кришталева лампочка"
+  name: green crystal light tube
   id: LightTubeCrystalGreen
   components:
   - type: LightBulb

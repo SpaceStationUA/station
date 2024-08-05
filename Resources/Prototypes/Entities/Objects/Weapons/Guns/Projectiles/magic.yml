@@ -1,7 +1,7 @@
 - type: entity
   id: ProjectileFireball
-  name: "вогняна куля"
-  description: "Тобі краще зважитися."
+  name: fireball
+  description: You better GITTAH WEIGH.
   parent: BulletRocket
   noSpawn: true
   components:
@@ -32,8 +32,8 @@
 
 - type: entity
   id: ProjectileAnomalyFireball
-  name: "вогняна куля"
-  description: "Згусток полум'я, що висить у повітрі."
+  name: fireball
+  description: Hovering blob of flame.
   parent: ProjectileFireball
   noSpawn: true
   components:
@@ -64,8 +64,8 @@
 - type: entity
   id: ProjectilePolyboltCarp
   parent: ProjectilePolyboltBase
-  name: "короповий поліболт"
-  description: "Ні, я не хочу бути рибою!"
+  name: carp polybolt
+  description: Nooo, I don't wanna be fish!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -77,8 +77,8 @@
 - type: entity
   id: ProjectilePolyboltMonkey
   parent: ProjectilePolyboltBase
-  name: "мавпячий поліболт"
-  description: "Ні, я не хочу бути мавпою!"
+  name: monkey polybolt
+  description: Nooo, I don't wanna be monkey!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -90,8 +90,8 @@
 - type: entity
   id: ProjectilePolyboltDoor
   parent: ProjectilePolyboltBase
-  name: "дверний засув"
-  description: "Ні, я не хочу бути дверима!"
+  name: door polybolt
+  description: Nooo, I don't wanna be door!
   noSpawn: true
   components:
   - type: Sprite
@@ -110,8 +110,8 @@
 
 - type: entity
   id: ProjectileHealingBolt
-  name: "цілющий болт"
-  description: "Я НАКАЗУЮ ТОБІ ЖИТИ!"
+  name: healing bolt
+  description: I COMMAND YOU TO LIVE!
   parent: BaseBullet
   noSpawn: true
   components:
@@ -131,10 +131,10 @@
 
 - type: entity
   id: BulletInstakillMagic
-  name: "магічний свинцевий циліндр"
+  name: magical lead cylinder
   parent: BaseBullet
   noSpawn: true
-  description: "Виглядає знайомо."
+  description: This looks familiar.
   components:
   - type: Projectile
     damage:
@@ -145,8 +145,8 @@
 - type: entity
   id: ProjectilePolyboltCluwne
   parent: ProjectilePolyboltBase
-  name: "застібка-фіксатор"
-  description: "кноХ КноХ!"
+  name: cluwne polybolt
+  description: knoH KnoH!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -158,8 +158,8 @@
 - type: entity
   id: ProjectileIcicle
   parent: BaseBullet
-  name: "Бурулька"
-  description: "Бррррр."
+  name: Icicle
+  description: Brrrrr.
   noSpawn: true
   components:
   - type: Sprite
@@ -174,8 +174,8 @@
 - type: entity
   parent: ProjectilePolyboltBase
   id: ProjectilePolyboltBread
-  name: "хлібний поліболт"
-  description: "Ні, я не хочу бути хлібом!"
+  name: bread polybolt
+  description: Nooo, I don't wanna be bread!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -187,8 +187,8 @@
 - type: entity
   id: ProjectilePolyboltMouseTimed
   parent: ProjectilePolyboltBase
-  name: "миша"
-  description: "Ні, я не хочу бути мишою!"
+  name: миша
+  description: Ні, я не хочу бути мишою!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -200,8 +200,8 @@
 - type: entity
   id: ProjectilePolyboltCluwneTimed
   parent: ProjectilePolyboltBase
-  name: "клувне"
-  description: "Ні, я не хочу бути клувне!"
+  name: клувне
+  description: Ні, я не хочу бути клувне!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -213,8 +213,8 @@
 - type: entity
   id: ProjectilePolyboltBreadTimed
   parent: ProjectilePolyboltBase
-  name: "хліб"
-  description: "Ні, я не хочу бути хлібом!"
+  name: хліб
+  description: Ні, я не хочу бути хлібом!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -226,8 +226,8 @@
 - type: entity
   id: ProjectilePolyboltChickenTimed
   parent: ProjectilePolyboltBase
-  name: "курка"
-  description: "Ні, я не хочу бути куркою!"
+  name: курка
+  description: Ні, я не хочу бути куркою!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -239,8 +239,8 @@
 - type: entity
   id: ProjectilePolyboltMonkeyTimed
   parent: ProjectilePolyboltBase
-  name: "монка"
-  description: "Ні, я не хочу бути куркою!"
+  name: монке
+  description: Ні, я не хочу бути куркою!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -252,8 +252,8 @@
 - type: entity
   id: ProjectilePolyboltGoatTimed
   parent: ProjectilePolyboltBase
-  name: "козел"
-  description: "Ні, я не хочу бути куркою!"
+  name: козел
+  description: Ні, я не хочу бути куркою!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -265,8 +265,8 @@
 - type: entity
   id: ProjectilePolyboltCowTimed
   parent: ProjectilePolyboltBase
-  name: "корова"
-  description: "Ні, я не хочу бути куркою!"
+  name: корова
+  description: Ні, я не хочу бути куркою!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -278,8 +278,8 @@
 - type: entity
   id: ProjectilePolyboltPigTimed
   parent: ProjectilePolyboltBase
-  name: "свиня"
-  description: "Ні, я не хочу бути куркою!"
+  name: свиня
+  description: Ні, я не хочу бути куркою!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -291,8 +291,8 @@
 - type: entity
   id: ProjectilePolyboltHamsterTimed
   parent: ProjectilePolyboltBase
-  name: "омак"
-  description: "Ні, я не хочу бути куркою!"
+  name: омак
+  description: Ні, я не хочу бути куркою!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -304,8 +304,8 @@
 - type: entity
   id: ProjectilePolyboltWizardCatTimed
   parent: ProjectilePolyboltBase
-  name: "кіт"
-  description: "Ні, я не хочу бути куркою!"
+  name: кіт
+  description: Ні, я не хочу бути куркою!
   noSpawn: true
   components:
   - type: PolymorphOnCollide
@@ -316,8 +316,8 @@
 
 - type: entity
   id: ProjectileMagicMissile
-  name: "чарівна ракета"
-  description: "Пахне магією."
+  name: magic missile
+  description: Smells like magic.
   parent: BaseBullet
   noSpawn: true
   components:
@@ -340,8 +340,8 @@
 
 - type: entity
   id: ProjectileIceBurst
-  name: "лід проломився"
-  description: "Бррррр."
+  name: ice burst
+  description: Brrrrr.
   parent: BaseBullet
   noSpawn: true
   components:
@@ -360,8 +360,8 @@
 - type:  entity
   parent: BaseBullet
   id: ProjectileMagicTesla
-  name: "магічна куля тесла"
-  description: "2 баджільйони вольт"
+  name: magic tesla ball
+  description: 2 bajillion volts
   noSpawn: true
   components:
   - type: TimedDespawn
@@ -389,7 +389,7 @@
     requirePower: false
 
 - type: entity
-  name: "болт зачарованого меча"
+  name: spellsword bolt
   id: SpellswordBolt
   parent: BaseBullet
   noSpawn: true
