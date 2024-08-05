@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolParticle
-  name: ammunition box (.35 particle)
+  name: "ящик для боєприпасів (.35)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolParticle
@@ -15,7 +15,7 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolParticlePlasma
-  name: ammunition box (.35 plasma)
+  name: "ящик для боєприпасів (.35 плазма)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolParticlePlasma
@@ -30,7 +30,7 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolParticleTritium
-  name: ammunition box (.35 tritium)
+  name: "ящик для боєприпасів (.35 тритій)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolParticleTritium
@@ -45,7 +45,7 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolParticleFrezon
-  name: ammunition box (.35 frezon)
+  name: "ящик для набоїв (.35 frezon)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolParticleFrezon

@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponLauncher
+  name: "BaseWeaponLauncher"
   parent: BaseItem
   id: BaseWeaponLauncher
-  description: A rooty tooty point and shooty.
+  description: "Корінцевий зубастий і пагонистий."
   abstract: true
   components:
   - type: Sprite
@@ -21,10 +21,10 @@
         ents: []
 
 - type: entity
-  name: china lake
+  name: "гранатомет \"Китайське озеро"
   parent: BaseWeaponLauncher
   id: WeaponLauncherChinaLake
-  description: PLOOP
+  description: "ПЛОП"
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
@@ -54,10 +54,10 @@
       path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
 
 - type: entity
-  name: RPG-7
+  name: "РПГ-7"
   parent: BaseWeaponLauncher
   id: WeaponLauncherRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: "Модифікований старовинний реактивний гранатомет."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -87,10 +87,10 @@
   - type: Appearance
 
 - type: entity
-  name: multiple rocket launcher
+  name: "реактивна система залпового вогню"
   parent: BaseWeaponLauncher
   id: WeaponLauncherMultipleRocket
-  description: A modified ancient rocket-propelled grenade launcher.
+  description: "Модифікований старовинний реактивний гранатомет."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -122,10 +122,10 @@
   - type: Appearance
 
 - type: entity
-  name: pirate cannon
+  name: "піратська гармата"
   parent: BaseWeaponLauncher
   id: WeaponLauncherPirateCannon
-  description: Kaboom!
+  description: "Бабах!"
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
@@ -154,12 +154,12 @@
         path: /Audio/Weapons/Guns/Gunshots/grenade_launcher.ogg
 
 - type: entity
-  name: tether gun
+  name: "рушницю з прив'язною стрічкою"
   parent:
   - BaseItem
   - PowerCellSlotMediumItem
   id: WeaponTetherGun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: "Маніпулює гравітацією навколо об'єктів, щоб кидати їх з великою швидкістю."
   components:
     - type: Item
       storedRotation: -90
@@ -193,12 +193,12 @@
             False: { visible: false }
 
 - type: entity
-  name: force gun
+  name: "пістолет для примусу"
   parent:
     - BaseItem
     - PowerCellSlotMediumItem
   id: WeaponForceGun
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: "Маніпулює гравітацією навколо об'єктів, щоб кидати їх з великою швидкістю."
   components:
     - type: Item
       storedRotation: -90
@@ -238,7 +238,7 @@
                 False: { visible: false }
 
 - type: entity
-  name: grappling gun
+  name: "рушниця для захоплення"
   parent: BaseItem
   id: WeaponGrapplingGun
   components:
@@ -270,11 +270,11 @@
 
 # Admeme
 - type: entity
-  name: tether gun
+  name: "рушницю з прив'язною стрічкою"
   parent: BaseItem
   id: WeaponTetherGunAdmin
   suffix: Admeme
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: "Маніпулює гравітацією навколо об'єктів, щоб кидати їх з великою швидкістю."
   components:
     - type: TetherGun
       canTetherAlive: true
@@ -309,11 +309,11 @@
             False: { visible: false }
 
 - type: entity
-  name: force gun
+  name: "пістолет для примусу"
   parent: BaseItem
   id: WeaponForceGunAdmin
   suffix: Admeme
-  description: Manipulates gravity around objects to fling them at high velocities.
+  description: "Маніпулює гравітацією навколо об'єктів, щоб кидати їх з великою швидкістю."
   components:
     - type: ForceGun
       canTetherAlive: true
@@ -351,11 +351,11 @@
             False: { visible: false }
 
 - type: entity
-  name: meteor launcher
+  name: "метеоритна установка"
   parent: WeaponLauncherMultipleRocket
   id: WeaponLauncherAdmemeMeteorLarge
   suffix: Admeme
-  description: It fires large meteors
+  description: "Він вистрілює великими метеоритами"
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -364,11 +364,11 @@
     proto: MeteorLarge
 
 - type: entity
-  name: immovable rod launcher
+  name: "нерухома пускова установка для стрижнів"
   parent: WeaponLauncherAdmemeMeteorLarge
   id: WeaponLauncherAdmemeImmovableRodSlow
   suffix: Admeme
-  description: It fires slow immovable rods.
+  description: "Він стріляє повільними нерухомими стрижнями."
   components:
   - type: BallisticAmmoProvider
     whitelist:

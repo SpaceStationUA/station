@@ -1,8 +1,8 @@
 - type: entity
-  name: N14BasePistol
+  name: "N14BasePistol"
   parent: BaseItem
   id: N14BaseWeaponPistol
-  description: A rooty tooty point and shooty.
+  description: "Корінцевий зубастий і пагонистий."
   abstract: true
   components:
   - type: Sprite
@@ -68,10 +68,10 @@
 
 
 - type: entity
-  name: трубний пістолет
+  name: "трубний пістолет"
   parent: N14BaseWeaponPistol
   id: N14WeaponPipe10mm
-  description: a light makeshift pistol, the grip is incredibly uncomfortable.
+  description: "легкий саморобний пістолет, хват неймовірно незручний."
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
@@ -104,10 +104,10 @@
             - CartridgePistol
 
 - type: entity
-  name: chinese пістолет
+  name: "китайський пістолет"
   parent: BaseWeaponSniper
   id: N14WeaponPistolChinese
-  description: A elegant and long barrel pistol with a integrated magazine, chambered in 9 mm.
+  description: "Елегантний пістолет з довгим стволом та інтегрованим магазином, калібру 9 мм."
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Pistols/chinesepistol.rsi
@@ -151,10 +151,10 @@
       - CartridgePistol
 
 - type: entity
-  name: шпіон
+  name: "шпигун"
   parent: BaseWeaponSniper
   id: N14WeaponPistolSpy
-  description: A modified version of the common chinese pistols. with a integrated silencer, extended mag and fully automatic conversion this gun was designed with passion, chambered in 9 mm.
+  description: "Модифікована версія звичайного китайського пістолета з інтегрованим глушником, подовженим магазином і повністю автоматичним перезарядженням, цей пістолет був розроблений з пристрастю, під патрон 9 мм."
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Pistols/thespy.rsi
@@ -200,10 +200,10 @@
       - CartridgePistol
 
 - type: entity
-  name: mk 59
+  name: "mk 59"
   parent: WeaponPistolMk58
   id: WeaponPistolMk59Particle
-  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 particle.
+  description: "Дешева, повсюдна зброя, вироблена дочірньою компанією NanoTrasen. Використовує кулю 35-го калібру."
   suffix: particle, admeme
   components:
   - type: Gun
@@ -234,10 +234,10 @@
             - CartridgePistol
 
 - type: entity
-  name: Particle N1984
+  name: "Частинка N1984"
   parent: WeaponPistolN1984
   id: WeaponPistolN1984Particle
-  description: The sidearm of any self respecting officer. Comes in the lord's caliber .45 particle.
+  description: "Зброя будь-якого офіцера, який себе поважає. Випускається під божественний 45-й калібр."
   suffix: particle, admeme
   components:
   - type: Gun

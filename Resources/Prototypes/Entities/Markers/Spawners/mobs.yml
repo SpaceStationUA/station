@@ -1,7 +1,7 @@
 # Base
 
 - type: entity
-  name: Mouse Spawner
+  name: "Мишачий нерестовик"
   id: SpawnMobMouse
   parent: MarkerBase
   components:
@@ -18,7 +18,7 @@
       - MobMouse2
 
 - type: entity
-  name: Cockroach Spawner
+  name: "Нерестовик тарганів"
   id: SpawnMobCockroach
   parent: MarkerBase
   components:
@@ -33,7 +33,7 @@
       - MobCockroach
 
 - type: entity
-  name: HoP Corgi Spawner
+  name: "HoP Corgi Sprener"
   id: SpawnMobCorgi
   parent: MarkerBase
   components:
@@ -49,7 +49,7 @@
       - MobCorgiIanPup
 
 - type: entity
-  name: Possum Morty Spawner
+  name: "Опосум Морти Споунер"
   id: SpawnMobPossumMorty
   parent: MarkerBase
   components:
@@ -62,7 +62,7 @@
       - MobPossumMortyOld
 
 - type: entity
-  name: Raccoon Morticia Spawner
+  name: "Єнот Мортиша Споунер"
   id: SpawnMobRaccoonMorticia
   parent: MarkerBase
   components:
@@ -75,7 +75,7 @@
       - MobRaccoonMorticia
 
 - type: entity
-  name: Drone Spawner
+  name: "Дрон-розплідник"
   id: SpawnMobDrone
   parent: MarkerBase
   components:
@@ -86,7 +86,7 @@
         state: shell
 
 - type: entity
-  name: Fox Renault Spawner
+  name: "Лисиця Рено Спайнер"
   id: SpawnMobFoxRenault
   parent: MarkerBase
   components:
@@ -99,7 +99,7 @@
       - MobFoxRenault
 
 - type: entity
-  name: Runtime Spawner
+  name: "Спавнер виконання (Runtime Spawner)"
   id: SpawnMobCatRuntime
   parent: MarkerBase
   components:
@@ -112,7 +112,7 @@
       - MobCatRuntime
 
 - type: entity
-  name: Exception Spawner
+  name: "Виняток Spawner"
   id: SpawnMobCatException
   parent: MarkerBase
   components:
@@ -125,7 +125,7 @@
       - MobCatException
 
 - type: entity
-  name: Tropico Spawner
+  name: "Tropico Spawner"
   id: SpawnMobCrabAtmos
   parent: MarkerBase
   components:
@@ -138,7 +138,7 @@
       - MobCrabAtmos
 
 - type: entity
-  name: Floppa Spawner
+  name: "Нерестовик флоппи"
   id: SpawnMobCatFloppa
   parent: MarkerBase
   components:
@@ -151,7 +151,7 @@
       - MobCatFloppa
 
 - type: entity
-  name: Bingus Spawner
+  name: "Бінгус Спайнер"
   id: SpawnMobCatBingus
   parent: MarkerBase
   components:
@@ -164,7 +164,7 @@
       - MobBingus
 
 - type: entity
-  name: Space Cat Spawner
+  name: "Космічний кіт - нерестовик"
   id: SpawnMobCatSpace
   parent: MarkerBase
   components:
@@ -177,7 +177,7 @@
       - MobCatSpace
 
 - type: entity
-  name: Kitten Spawner
+  name: "Нерестовик кошенят"
   id: SpawnMobCatKitten
   parent: MarkerBase
   components:
@@ -190,7 +190,7 @@
       - MobCatKitten
 
 - type: entity
-  name: Cat Spawner
+  name: "Котячий нерестовик"
   id: SpawnMobCat
   parent: MarkerBase
   components:
@@ -206,7 +206,7 @@
       - MobBingus
 
 - type: entity
-  name: Generic Cat Spawner
+  name: "Універсальний нерестовик для котів"
   id: SpawnMobCatGeneric
   parent: MarkerBase
   components:
@@ -225,7 +225,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: Bandito Spawner
+  name: "Бандитський спайдер"
   id: SpawnMobBandito
   parent: MarkerBase
   components:
@@ -238,7 +238,7 @@
       - MobBandito
 
 - type: entity
-  name:  McGriff Spawner
+  name:  "МакГріфф Споунер"
   id: SpawnMobMcGriff
   parent: MarkerBase
   components:
@@ -251,7 +251,7 @@
       - MobMcGriff
 
 - type: entity
-  name: Sloth Paperwork Spawner
+  name: "Лінивий паперотворець паперової тяганини"
   id: SpawnMobSlothPaperwork
   parent: MarkerBase
   components:
@@ -264,7 +264,7 @@
       - MobPaperwork
 
 - type: entity
-  name: Walter Spawner
+  name: "Волтер Споунер"
   id: SpawnMobWalter
   parent: MarkerBase
   components:
@@ -277,7 +277,7 @@
       - MobWalter
 
 - type: entity
-  name: Space Bear Spawner
+  name: "Космічний ведмідь - нерестовик"
   id: SpawnMobBear
   parent: MarkerBase
   components:
@@ -291,7 +291,7 @@
     - MobBearSpace
 
 - type: entity
-  name: Space Carp Spawner
+  name: "Нерестовик космічного коропа"
   id: SpawnMobCarp
   parent: MarkerBase
   components:
@@ -305,7 +305,7 @@
     - MobCarp
 
 - type: entity
-  name: Magicarp Spawner
+  name: "Магічний нерестовик Магікарп"
   id: SpawnMobCarpMagic
   parent: MarkerBase
   components:
@@ -319,7 +319,7 @@
     - MobCarpMagic
 
 - type: entity
-  name: Holocarp Spawner
+  name: "Голокарпний нерестовик"
   id: SpawnMobCarpHolo
   parent: MarkerBase
   components:
@@ -333,7 +333,7 @@
     - MobCarpHolo
 
 - type: entity
-  name: Space Sharkminnow Spawner
+  name: "Космічна акулаminnow спавнер"
   id: SpawnMobShark
   parent: MarkerBase
   components:
@@ -347,7 +347,7 @@
     - MobShark
 
 - type: entity
-  name: Hamster Hamlet Spawner
+  name: "Хом'як Гамлет Нерестовик"
   id: SpawnMobHamsterHamlet
   parent: MarkerBase
   components:
@@ -362,7 +362,7 @@
       - CrateNPCHamlet
 
 - type: entity
-  name: Alexander Spawner
+  name: "Олександр Споунер"
   id: SpawnMobAlexander
   parent: MarkerBase
   components:
@@ -375,7 +375,7 @@
       - MobAlexander
 
 - type: entity
-  name: Shiva Spawner
+  name: "Шива Споунер"
   id: SpawnMobShiva
   parent: MarkerBase
   components:
@@ -389,7 +389,7 @@
       - MobSpiderShiva
 
 - type: entity
-  name: Willow Spawner
+  name: "Нерестовик верби"
   id: SpawnMobKangarooWillow
   parent: MarkerBase
   components:
@@ -403,7 +403,7 @@
     - MobKangarooWillow
 
 - type: entity
-  name: Space Kangaroo Spawner
+  name: "Нерестовик космічних кенгуру"
   id: SpawnMobKangaroo
   parent: MarkerBase
   components:
@@ -417,7 +417,7 @@
     - MobKangarooSpace
 
 - type: entity
-  name: Boxing Kangaroo Spawner
+  name: "Нерестовик боксерського кенгуру"
   id: SpawnMobBoxingKangaroo
   parent: MarkerBase
   components:
@@ -431,7 +431,7 @@
     - MobBoxingKangaroo
 
 - type: entity
-  name: Space Spider Spawner
+  name: "Спайдер космічного павука"
   id: SpawnMobSpaceSpider
   parent: MarkerBase
   components:
@@ -445,7 +445,7 @@
     - MobSpiderSpace
 
 - type: entity
-  name: Space Cobra Spawner
+  name: "Космічний нерестовик кобр"
   id: SpawnMobSpaceCobra
   parent: MarkerBase
   components:
@@ -459,7 +459,7 @@
     - MobCobraSpace
 
 - type: entity
-  name: Slimes Spawner Blue
+  name: "Слимаки Нерестовик Блакитний"
   id: SpawnMobAdultSlimesBlue
   parent: MarkerBase
   components:
@@ -472,7 +472,7 @@
       - MobAdultSlimesBlue
 
 - type: entity
-  name: Slimes Spawner Blue Angry
+  name: "Слимаки Нерестовик Блакитний Сердитий"
   id: SpawnMobAdultSlimesBlueAngry
   parent: MarkerBase
   components:
@@ -485,7 +485,7 @@
       - MobAdultSlimesBlueAngry
 
 - type: entity
-  name: Slimes Spawner Green
+  name: "Слимаки Нерестовик зелений"
   id: SpawnMobAdultSlimesGreen
   parent: MarkerBase
   components:
@@ -498,7 +498,7 @@
       - MobAdultSlimesGreen
 
 - type: entity
-  name: Slimes Spawner Green Angry
+  name: "Слимаки Нерестовик Зелений Сердитий"
   id: SpawnMobAdultSlimesGreenAngry
   parent: MarkerBase
   components:
@@ -511,7 +511,7 @@
       - MobAdultSlimesGreenAngry
 
 - type: entity
-  name: Slimes Spawner Yellow
+  name: "Слимаки Нерестовик жовтий"
   id: SpawnMobAdultSlimesYellow
   parent: MarkerBase
   components:
@@ -524,7 +524,7 @@
       - MobAdultSlimesYellow
 
 - type: entity
-  name: Slimes Spawner Yellow Angry
+  name: "Слимаки Нерестовик жовтий Сердитий"
   id: SpawnMobAdultSlimesYellowAngry
   parent: MarkerBase
   components:
@@ -537,7 +537,7 @@
       - MobAdultSlimesYellowAngry
 
 - type: entity
-  name: Smile Spawner
+  name: "Smile Spawner"
   id: SpawnMobSmile
   parent: MarkerBase
   components:
@@ -550,7 +550,7 @@
       - MobSlimesPet
 
 - type: entity
-  name: Pun Pun Spawner
+  name: "Каламбурний каламбурний спайдер"
   id: SpawnMobMonkeyPunpun
   parent: MarkerBase
   components:
@@ -564,7 +564,7 @@
     - MobMonkeyPunpun
 
 - type: entity
-  name: behonker Spawner
+  name: "behonker Spawner"
   id: SpawnMobBehonker
   parent: MarkerBase
   components:
@@ -581,7 +581,7 @@
       - MobBehonkerGrav
 
 - type: entity
-  name: Monkey Spawner
+  name: "Мавпячий нерестовик"
   id: SpawnMobMonkey
   parent: MarkerBase
   components:
@@ -595,7 +595,7 @@
     - MobMonkey
 
 - type: entity
-  name: Purple Snake Spawner
+  name: "Пурпурова змія - нерестовик"
   id: SpawnMobPurpleSnake
   parent: MarkerBase
   components:
@@ -609,7 +609,7 @@
     - MobPurpleSnake
 
 - type: entity
-  name: Small Purple Snake Spawner
+  name: "Нерестовик малої пурпурової змії"
   id: SpawnMobSmallPurpleSnake
   parent: MarkerBase
   components:
@@ -623,7 +623,7 @@
     - MobSmallPurpleSnake
 
 - type: entity
-  name: Slug Spawner
+  name: "Нерестовик слимаків"
   id: SpawnMobSlug
   parent: MarkerBase
   components:
@@ -637,7 +637,7 @@
     - MobSlug
 
 - type: entity
-  name: Lizard Spawner
+  name: "Нерест ящірок"
   id: SpawnMobLizard
   parent: MarkerBase
   components:
@@ -651,7 +651,7 @@
     - MobLizard
 
 - type: entity
-  name: Crab Spawner
+  name: "Крабовий нерестовик"
   id: SpawnMobCrab
   parent: MarkerBase
   components:
@@ -665,7 +665,7 @@
     - MobCrab
 
 - type: entity
-  name: Goat Spawner
+  name: "Нерестовик кози"
   id: SpawnMobGoat
   parent: MarkerBase
   components:
@@ -679,7 +679,7 @@
     - MobGoat
 
 - type: entity
-  name: Frog Spawner
+  name: "Нерестовик жаб"
   id: SpawnMobFrog
   parent: MarkerBase
   components:
@@ -693,7 +693,7 @@
     - MobFrog
 
 - type: entity
-  name: Bee Spawner
+  name: "Бджолиний нерестовик"
   id: SpawnMobBee
   parent: MarkerBase
   components:
@@ -707,7 +707,7 @@
     - MobBee
 
 - type: entity
-  name: Parrot Spawner
+  name: "Нерестовик папуг"
   id: SpawnMobParrot
   parent: MarkerBase
   components:
@@ -721,7 +721,7 @@
     - MobParrot
 
 - type: entity
-  name: Butterfly Spawner
+  name: "Нерестовик метеликів"
   id: SpawnMobButterfly
   parent: MarkerBase
   components:
@@ -735,7 +735,7 @@
     - MobButterfly
 
 - type: entity
-  name: Cow Spawner
+  name: "Нерест корів"
   id: SpawnMobCow
   parent: MarkerBase
   components:
@@ -749,7 +749,7 @@
     - MobCow
 
 - type: entity
-  name: Gorilla Spawner
+  name: "Нерестовик горили"
   id: SpawnMobGorilla
   parent: MarkerBase
   components:
@@ -763,7 +763,7 @@
     - MobGorilla
 
 - type: entity
-  name: Penguin Spawner
+  name: "Нерест пінгвінів"
   id: SpawnMobPenguin
   parent: MarkerBase
   components:
@@ -778,7 +778,7 @@
 
 
 - type: entity
-  name: Hellspawn Spawner
+  name: "Пекельний нерестовик"
   id: SpawnMobHellspawn
   parent: MarkerBase
   components:
@@ -792,7 +792,7 @@
       - MobHellspawn
 
 - type: entity
-  name: ore crab spawner
+  name: "нерестовик рудного краба"
   id: SpawnMobOreCrab
   parent: MarkerBase
   components:
@@ -809,7 +809,7 @@
       - MobSpawnCrabSilver
 
 - type: entity
-  name: luminous person spawner
+  name: "нерестовик людини, що світиться"
   id: SpawnMobLuminousPerson
   parent: MarkerBase
   components:
@@ -823,7 +823,7 @@
     - MobLuminousPerson
 
 - type: entity
-  name: luminous object spawner
+  name: "спайдер об'єктів, що світяться"
   id: SpawnMobLuminousObject
   parent: MarkerBase
   components:
@@ -837,7 +837,7 @@
     - MobLuminousObject
 
 - type: entity
-  name: luminous entity spawner
+  name: "спайдер світної сутності"
   id: SpawnMobLuminousEntity
   parent: MarkerBase
   components:

@@ -1,8 +1,8 @@
 - type: entity
-  name: syringe box
+  name: "шприц-бокс"
   parent: BoxCardboard
   id: BoxSyringe
-  description: A box full of syringes.
+  description: "Коробка, повна шприців."
   components:
   - type: StorageFill
     contents:
@@ -14,10 +14,10 @@
       - state: syringe
 
 - type: entity
-  name: pill canister box
+  name: "коробка з-під таблеток"
   parent: BoxCardboard
   id: BoxPillCanister
-  description: A box full of pill canisters.
+  description: "Коробка, повна банок з-під таблеток."
   components:
   - type: StorageFill
     contents:
@@ -29,10 +29,10 @@
       - state: pillbox
 
 - type: entity
-  name: bottle box
+  name: "ящик для флаконів"
   parent: BoxCardboard
   id: BoxBottle
-  description: A box full of bottles.
+  description: "Коробка, повна флаконами"
   components:
   - type: StorageFill
     contents:
@@ -44,10 +44,10 @@
       - state: bottle
 
 - type: entity
-  name: sterile mask box
+  name: "стерильна коробка для масок"
   parent: BoxCardboard
   id: BoxSterileMask
-  description: This box contains sterile medical masks.
+  description: "У цій коробці знаходяться стерильні медичні маски."
   components:
   - type: StorageFill
     contents:
@@ -59,10 +59,10 @@
       - state: sterile
 
 - type: entity
-  name: latex gloves box
+  name: "ящик для латексних рукавичок"
   parent: BoxCardboard
   id: BoxLatexGloves
-  description: Contains sterile latex gloves.
+  description: "Містить стерильні латексні рукавички."
   components:
   - type: StorageFill
     contents:
@@ -74,10 +74,10 @@
       - state: latex
 
 - type: entity
-  name: nitrile gloves box
+  name: "ящик для нітрилових рукавичок"
   parent: BoxCardboard
   id: BoxNitrileGloves
-  description: Contains sterile nitrile gloves. Better than latex.
+  description: "Містить стерильні нітрилові рукавички. Краще, ніж латексні."
   components:
   - type: StorageFill
     contents:
@@ -89,10 +89,10 @@
       - state: nitrile
 
 - type: entity
-  name: body bag box
+  name: "мішок для трупів"
   parent: BoxCardboard
   id: BoxBodyBag
-  description: Contains body bags.
+  description: "Містить мішки для трупів."
   components:
   - type: StorageFill
     contents:
@@ -107,10 +107,10 @@
         - BodyBag
 
 - type: entity
-  name: vial box
+  name: "коробка для флаконів"
   parent: BoxCardboard
   id: BoxVial
-  description: A box full of vials.
+  description: "Коробка, повна ампул."
   components:
   - type: Storage
     grid:
