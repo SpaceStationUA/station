@@ -89,3 +89,6 @@ trait-name-Stutter = Заїка
 trait-description-Stutter = Ти т-т-говориш трохи з-заїкаючись...
 trait-name-NormalVision = Модифікація Trichromat
 trait-description-NormalVision = Ваші очі були модифіковані за допомогою передової медицини, щоб бачити стандартні кольори: червоний, зелений і синій.
+trait-name-Voracious = Ненажера
+trait-description-Voracious = Ніщо не стоїть між вами та вашою їжею.
+    Нескінченне споживання їжі та напоїв відбувається вдвічі швидше.
