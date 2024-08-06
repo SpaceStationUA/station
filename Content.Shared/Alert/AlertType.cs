@@ -63,7 +63,8 @@ namespace Content.Shared.Alert
         ShadowkinPower,
         MageMana,
         Charge, //IPC
-		Caged //IPC
+		Caged, //IPC
+        Stasis // Chronolegioner
 //Pirate END
     }
 
