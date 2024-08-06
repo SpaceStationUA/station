@@ -87,3 +87,5 @@ research-technology-quantum-fiber-weaving = Квантове плетіння в
 research-technology-bluespace-chemistry = Блюспейс Хімія
 
 research-technology-hardsuits-scaf = Армований скафандр
+
+research-technology-mechanized-salvaging = Механізоване шахтерство

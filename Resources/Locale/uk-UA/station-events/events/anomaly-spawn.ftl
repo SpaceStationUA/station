@@ -6,4 +6,4 @@ anomaly-spawn-sighting-3 = незрозумілі форми
 anomaly-spawn-sighting-4 = форми, що викликають важкі психічні розлади
 anomaly-spawn-sighting-5 = дивний вплив на місцеве середовище
 
-anomaly-spawn-event-announcement = Наші вимірювання виявили небезпечну міжпросторову аномалію. Будь ласка, повідомте дослідницьку команду про { $sighting }.
+anomaly-spawn-event-announcement = Наші прилади виявили небезпечну міжпросторову аномалію. Будь ласка, повідомте науковий відділ про { $sighting }.

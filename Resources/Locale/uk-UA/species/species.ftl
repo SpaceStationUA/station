@@ -1,4 +1,4 @@
-﻿## Species Names
+## Species Names
 
 species-name-human = Людина
 species-name-dwarf = Дворф
@@ -9,3 +9,4 @@ species-name-arachnid = Арахнід
 species-name-moth = Міль
 species-name-skeleton = Скелет
 species-name-vox = Вокс
+species-name-arachne = Арахна
