@@ -18,3 +18,5 @@ armor-damage-type-cold = Холод
 armor-damage-type-poison = Отрута
 armor-damage-type-shock = Шок
 armor-damage-type-structural = Структурна
+
+armor-examine-stamina = Зменшує пошкодження витривалості на [color=cyan]{$num}%[/color].

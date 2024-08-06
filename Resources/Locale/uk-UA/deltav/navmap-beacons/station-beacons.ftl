@@ -30,3 +30,7 @@ station-beacon-boxing-ring = Бокс
 station-beacon-park = Парк
 
 station-beacon-corpsman = Санітар
+
+station-beacon-justice = Справедливість
+station-beacon-chiefjustice = Головний суддя
+station-beacon-prosecutor = Прокурор
