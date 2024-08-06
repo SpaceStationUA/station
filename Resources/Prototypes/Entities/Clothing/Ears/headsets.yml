@@ -2,8 +2,8 @@
   abstract: true
   parent: Clothing
   id: ClothingHeadset
-  name: headset
-  description: An updated, modular intercom that fits over the head. Takes encryption keys.
+  name: "гарнітура"
+  description: "Оновлений модульний інтерком, який одягається на голову. Приймає ключі шифрування."
   components:
   - type: ContainerContainer
     containers:
@@ -30,7 +30,7 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetGrey
-  name: passenger headset
+  name: "пасажирська гарнітура"
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/base.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetCargo
-  name: logistics headset # DeltaV - Logistics Department replacing Cargo
-  description: A headset used by supply employees.
+  name: "логістична гарнітура" # DeltaV - Logistics Department replacing Cargo
+  description: "Гарнітура, якою користуються працівники відділу постачання."
   components:
   - type: ContainerFill
     containers:
@@ -54,8 +54,8 @@
 - type: entity
   parent: ClothingHeadsetCargo
   id: ClothingHeadsetMining
-  name: mining headset
-  description: Headset used by shaft miners.
+  name: "гарнітура шахтера"
+  description: "Гарнітура, яку використовують шахтарі."
   components:
   - type: Sprite
     sprite: Clothing/Ears/Headsets/mining.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: ClothingHeadsetCargo
   id: ClothingHeadsetQM
-  name: logistics officer's headset # DeltaV - Logistics Department replacing Cargo
-  description: A headset used by the logistics officer. # DeltaV - Logistics Department replacing Cargo
+  name: "гарнітура логіста" # DeltaV - Logistics Department replacing Cargo
+  description: "Гарнітура, якою користується логіст." # DeltaV - Logistics Department replacing Cargo
   components:
   - type: ContainerFill
     containers:
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetCentCom
-  name: CentCom headset
-  description: A headset used by the upper echelons of Nanotrasen.
+  name: "Гарнітура CentCom"
+  description: "Гарнітура, якою користуються вищі ешелони Нанотрасену."
   components:
   - type: ContainerFill
     containers:
@@ -94,8 +94,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetCommand
-  name: command headset
-  description: A headset with a commanding channel.
+  name: "командна гарнітура"
+  description: "Гарнітура з командним каналом."
   components:
   - type: ContainerFill
     containers:
@@ -109,8 +109,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetEngineering
-  name: engineering headset
-  description: A headset for engineers to chat while the station burns around them.
+  name: "інженерна гарнітура"
+  description: "Гарнітура для спілкування інженерів, поки навколо них горить станція."
   components:
   - type: ContainerFill
     containers:
@@ -125,8 +125,8 @@
 - type: entity
   parent: ClothingHeadsetEngineering
   id: ClothingHeadsetCE
-  name: ce headset
-  description: A headset for the chief engineer to ignore all emergency calls on.
+  name: "гарнітура головного інженера"
+  description: "Гарнітура для головного інженера, на якій можна ігнорувати всі екстрені виклики."
   components:
   - type: ContainerFill
     containers:
@@ -138,8 +138,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetMedical
-  name: medical headset
-  description: A headset for the trained staff of the medbay.
+  name: "медична гарнітура"
+  description: "Гарнітура для навченого персоналу медпункту."
   components:
   - type: ContainerFill
     containers:
@@ -154,8 +154,8 @@
 - type: entity
   parent: ClothingHeadsetMedical
   id: ClothingHeadsetCMO
-  name: cmo headset
-  description: A headset used by the CMO.
+  name: "гарнітура cmo"
+  description: "Гарнітура, якою користується ОКУ."
   components:
   - type: ContainerFill
     containers:
@@ -167,8 +167,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetScience
-  name: epistemics headset # DeltaV - Epistemics Department replacing Science
-  description: A sciency headset. Like usual. # DeltaV - Epistemics Department replacing Science
+  name: "епістемологічна гарнітура" # DeltaV - Epistemics Department replacing Science
+  description: "Наукова гарнітура. Як завжди." # DeltaV - Epistemics Department replacing Science
   components:
   - type: ContainerFill
     containers:
@@ -183,8 +183,8 @@
 - type: entity
   parent: ClothingHeadsetScience
   id: ClothingHeadsetMedicalScience
-  name: medical research headset
-  description: A headset that is a result of the mating between medical and science.
+  name: "медична дослідницька гарнітура"
+  description: "Гарнітура, яка є результатом поєднання медицини та науки."
   components:
   - type: ContainerFill
     containers:
@@ -199,8 +199,8 @@
 - type: entity
   parent: ClothingHeadsetScience
   id: ClothingHeadsetRobotics
-  name: robotics headset
-  description: Made specifically for the roboticists, who cannot decide between departments.
+  name: "робототехнічна гарнітура"
+  description: "Зроблено спеціально для робототехніків, які не можуть вибрати між відділами."
   components:
   - type: ContainerFill
     containers:
@@ -215,8 +215,8 @@
 - type: entity
   parent: ClothingHeadsetScience
   id: ClothingHeadsetRD
-  name: mysta headset # DeltaV - Epistemics Department replacing Science
-  description: Lamarr used to love chewing on this...
+  name: "гарнітура mysta" # DeltaV - Epistemics Department replacing Science
+  description: "Ламарр любив жувати це..."
   components:
   - type: ContainerFill
     containers:
@@ -228,8 +228,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetSecurity
-  name: security headset
-  description: This is used by your elite security force.
+  name: "охоронна гарнітура"
+  description: "Ним користується ваша елітна служба безпеки."
   components:
   - type: ContainerFill
     containers:
@@ -244,8 +244,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetBrigmedic
-  name: corpsman headset # DeltaV - rename brigmedic to corpsman
-  description: A headset that helps to hear the death cries.
+  name: "санітарна гарнітура" # DeltaV - rename brigmedic to corpsman
+  description: "Гарнітура, яка допомагає почути передсмертні крики."
   components:
   - type: ContainerFill
     containers:
@@ -261,8 +261,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetService
-  name: service headset
-  description: Headset used by the service staff, tasked with keeping the station full, happy and clean.
+  name: "сервісна гарнітура"
+  description: "Гарнітура використовується обслуговуючим персоналом, який стежить за тим, щоб станція була повною, щасливою і чистою."
   components:
   - type: ContainerFill
     containers:
@@ -277,8 +277,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetFreelance
-  name: freelancer headset
-  description: This is used by a roaming group of freelancers
+  name: "гарнітура для фрілансерів"
+  description: "Це використовується роумінговою групою фрілансерів"
   components:
     - type: ContainerFill
       containers:

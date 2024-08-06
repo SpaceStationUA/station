@@ -1,7 +1,7 @@
 - type: listing
   id: MageTeleport
-  name: Телепорт
-  description: Телепотується.
+  name: "Телепорт"
+  description: "Телепотується."
   productAction: ActionMageBlink
   cost:
     Experince: 2
@@ -13,8 +13,8 @@
 
 - type: listing
   id: MageDash
-  name: Телепорт
-  description: Телепорт у полі зору, не через перешкоди.
+  name: "Телепорт"
+  description: "Телепорт у полі зору, не через перешкоди."
   productAction: ActionMageDash
   cost:
     Experince: 2
@@ -26,8 +26,8 @@
 
 - type: listing
   id: MageKnock
-  name: Стук
-  description: Відкрийте сусідні двері
+  name: "Стук"
+  description: "Відкрийте сусідні двері"
   productAction: MageAbilityKnock
   cost:
     Experince: 2
@@ -39,8 +39,8 @@
 
 - type: listing
   id: MageFireball
-  name: Фаербол
-  description: EXPLOSION!
+  name: "Фаєрбол"
+  description: "ВИБУХ!"
   productAction: MageAbilityFireball
   cost:
     Experince: 2
@@ -52,8 +52,8 @@
 
 - type: listing
   id: MageIcicle
-  name: Бурулька
-  description: EXPLOSION!
+  name: "Бурулька"
+  description: "ВИБУХ!"
   productAction: MageAbilityIcicle
   cost:
     Experince: 2
@@ -65,8 +65,8 @@
 
 - type: listing
   id: MageEmp
-  name: EMP
-  description: Світло, вимкнись!
+  name: "ЕМІ"
+  description: "Світло, вимкнись!"
   productAction: MageAbilityEmp
   cost:
     Experince: 2
@@ -78,8 +78,8 @@
 
 - type: listing
   id: MageLightning
-  name: Блискавка
-  description: Сила тесли!
+  name: "Блискавка"
+  description: "Сила Теслі!"
   # productEntity: ClothingHandsGlovesColorBlueIsolated
   productAction: MageAbilityLightning
   cost:
@@ -92,8 +92,8 @@
 
 - type: listing
   id: MageBlind
-  name: Осліплення
-  description: Шось в їхніх очах!
+  name: "Освітлення"
+  description: "Шось в їхніх очах!"
   productAction: MageAbilityBlind
   cost:
     Experince: 2
@@ -105,8 +105,8 @@
 
 - type: listing
   id: MageSmoke
-  name: Осліплення
-  description: Він зник!
+  name: "Освітлення"
+  description: "Він зник!"
   productAction: MageAbilitySmoke
   cost:
     Experince: 2
@@ -118,8 +118,8 @@
 
 - type: listing
   id: MageSwap
-  name: Свап
-  description: Reverse Card?!
+  name: "Свап"
+  description: "Зворотна карта?!"
   productAction: MageAbilitySwap
   cost:
     Experince: 2
@@ -131,8 +131,8 @@
 
 - type: listing
   id: MageMindSwap
-  name: Свап розуму
-  description: ти це я, а я це ти
+  name: "Свап розуму"
+  description: "ти це я, а я це ти"
   productAction: MageAbilityMindSwap
   cost:
     Experince: 2
@@ -144,8 +144,8 @@
 
 - type: listing
   id: MageHeal
-  name: Лікування
-  description: Ось аптечка!
+  name: "Лікування"
+  description: "Ось аптечка!"
   productAction: MageAbilityHeal
   cost:
     Experince: 2
@@ -157,8 +157,8 @@
 
 - type: listing
   id: MageAnimeteDead
-  name: Оживлення метвеця
-  description: Підняти скелет!
+  name: "Оживлення метвеця"
+  description: "Підняти скелет!"
   productAction: MageAbilityAnimateDead
   cost:
     Experince: 2
@@ -170,8 +170,8 @@
 
 - type: listing
   id: MageMagicMissile
-  name: Магічна куля
-  description: Час стану!
+  name: "Магічна куля"
+  description: "Час ставати!"
   productAction: MageMagicMissile
   cost:
     Experince: 2
@@ -183,8 +183,8 @@
 
 - type: listing
   id: MageIceBurst
-  name: Льодовий потік
-  description: Перетворимо їх на сугроб!
+  name: "Льодовий потік"
+  description: "Перетворимо їх на сугроб!"
   productAction: MageIceBurst
   cost:
     Experince: 2
@@ -196,8 +196,8 @@
 
 - type: listing
   id: MageTesla
-  name: Шар Тесли
-  description: Хто сьогодні заряджається?
+  name: "Куля Теслі"
+  description: "Хто сьогодні заряджається?"
   productAction: MagicTeslaBall
   cost:
     Experince: 2
@@ -209,8 +209,8 @@
 
 - type: listing
   id: MageHardsuit
-  name: магічний скафандр
-  description: Чудернацький костюм, інкрустований самоцвітами, випромінює магічну енергію.
+  name: "магічний скафандр"
+  description: "Чудернацький костюм, інкрустований самоцвітами, випромінює магічну енергію."
   productEntity: ClothingOuterHardsuitWizard
   cost:
     Experince: 1
@@ -219,8 +219,8 @@
 
 - type: listing
   id: MageCloak
-  name: магічний плащ
-  description: Плащ що зкриває вашу сутність.
+  name: "магічний плащ"
+  description: "Плащ що зкриває вашу сутність."
   productEntity: ClothingNeckCloakVoidMagic
   cost:
     Experince: 2
@@ -229,8 +229,8 @@
 
 - type: listing
   id: MageBat
-  name: магічна бита
-  description: Відкидує у напрямку атаки.
+  name: "магічна біта"
+  description: "Відкидує у напрямку атаки."
   productEntity: WeaponMeleeMagicBat
   cost:
     Experince: 2
@@ -239,8 +239,8 @@
 
 - type: listing
   id: MageChainsaw
-  name: магічна бензопила
-  description: РІЗНЯ
+  name: "магічна бензопила"
+  description: "РІЗНЕ"
   productEntity: MagicChainsaw
   cost:
     Experince: 2
@@ -249,8 +249,8 @@
 
 - type: listing
   id: MageArmBlade
-  name: магічні лезоруки
-  description: Розріжемо їх
+  name: "магічні лезоруби"
+  description: "Розріжемо їх"
   productEntity: MagicArmBlade
   cost:
     Experince: 2
@@ -259,8 +259,8 @@
 
 - type: listing
   id: MageSpeedBoots
-  name: набір швидких черевиків
-  description: сумка з швидкими черевиками та батарейкою
+  name: "набір швидких черевиків"
+  description: "сумка зі швидкими черевиками та батарейкою"
   productEntity: ClothingBackpackBootsSpeedMagic
   cost:
     Experince: 2
@@ -269,8 +269,8 @@
 
 - type: listing
   id: MageMagicCrossbow
-  name: набір магічного арбалету
-  description: сумка з магічним арбалетом та стрілами
+  name: "набір магічного арбалету"
+  description: "сумка з магічним арбалетом та стрілами"
   productEntity: ClothingBeltQuiverMagicCrossbow
   cost:
     Experince: 2
@@ -279,8 +279,8 @@
 
 - type: listing
   id: MageMagicEnergyCutlass
-  name: Магічний світлова сабля
-  description: світлова сабля
+  name: "Магічний світлова сабля"
+  description: "світлова шабля"
   productEntity: MagicEnergyCutlass
   cost:
     Experince: 2
@@ -289,8 +289,8 @@
 
 - type: listing
   id: MageMagicGunMultiphasePolymorh
-  name: Пістолет магічного поліморфу
-  description: перетворіть когось на істоту. Діє 60 секунд
+  name: "Пістолет магічного поліморфу"
+  description: "перетворіть когось на істоту. Діє 60 секунд"
   productEntity: WeaponEnergyGunMultiphasePolymorh
   cost:
     Experince: 2
@@ -299,8 +299,8 @@
 
 - type: listing
   id: MageMagicHoly
-  name: Набір святих гранат
-  description: Одна з них справжня... яка ж?
+  name: "Набір святих гранат"
+  description: "Одна з них справжня... яка ж?"
   productEntity: ClothingBackpackHolyGrenade
   cost:
     Experince: 2
@@ -309,8 +309,8 @@
 
 - type: listing
   id: MageMagicMirror
-  name: Щит-дзеркало
-  description: Лети туди звідки прилетіло
+  name: "Щит-дзеркало"
+  description: "Лети туди звідки прилетіло"
   productEntity: MirrorShield
   cost:
     Experince: 2
@@ -319,8 +319,8 @@
 
 - type: listing
   id: MageSpellBlade
-  name: Спел-Меч
-  description: Магічний меч
+  name: "Співав-Меч"
+  description: "Магічний меч"
   productEntity: Spellblade
   cost:
     Experince: 3

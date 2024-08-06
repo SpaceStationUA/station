@@ -20,8 +20,8 @@
 # One bullet to bring them all into the darkness and bind them
 - type: entity
   id: BaseBullet
-  name: BaseBullet
-  description: If you can see this you're probably dead!
+  name: "BaseBullet"
+  description: "Якщо ви бачите це, ви, мабуть, мертві!"
   abstract: true
   components:
   - type: Reflective
@@ -91,7 +91,7 @@
 
 - type: entity
   id: BaseBulletPractice
-  name: base bullet practice
+  name: "практика з базовими кулями"
   parent: BaseBullet
   noSpawn: true
   components:
@@ -106,7 +106,7 @@
 
 - type: entity
   id: BaseBulletRubber
-  name: base bullet rubber
+  name: "гума основи кулі"
   parent: BaseBullet
   noSpawn: true
   components:
@@ -125,7 +125,7 @@
 
 - type: entity
   id: BaseBulletIncendiary
-  name: base bullet incendiary
+  name: "базова куля запалювальна"
   parent: BaseBullet
   noSpawn: true
   components:
@@ -143,7 +143,7 @@
 
 - type: entity
   id: BaseBulletAP
-  name: base bullet armor-piercing
+  name: "базова куля бронебійний"
   parent: BaseBullet
   noSpawn: true
   components:
@@ -159,7 +159,7 @@
 
 - type: entity
   id: BaseBulletUranium
-  name: base bullet uranium
+  name: "базовий уран для куль"
   parent: BaseBullet
   noSpawn: true
   components:
@@ -174,7 +174,7 @@
 
 # Energy projectiles
 - type: entity
-  name: taser bolt
+  name: "болт електрошокера"
   id: BulletTaser
   parent: BaseBullet
   noSpawn: true
@@ -299,7 +299,7 @@
     forceSound: true
 
 - type: entity
-  name: emitter bolt
+  name: "болт випромінювача"
   id: EmitterBolt
   parent: BaseBullet
   noSpawn: true
@@ -336,7 +336,7 @@
     lifetime: 3
 
 - type: entity
-  name: watcher bolt
+  name: "сторожовий болт"
   id: WatcherBolt
   parent: BaseBullet
   noSpawn: true
@@ -376,7 +376,7 @@
     lifetime: 3
 
 - type: entity
-  name: magmawing watcher bolt
+  name: "магнітний болт зі сторожовим замком"
   id: WatcherBoltMagmawing
   parent: BaseBullet
   noSpawn: true
@@ -396,10 +396,10 @@
 
 - type: entity
   id: BulletKinetic
-  name: kinetic bolt
+  name: "кінетичний болт"
   parent: BaseBullet
   noSpawn: true
-  description: Not too bad, but you still don't want to get hit by it.
+  description: "Не так вже й погано, але ви все одно не хочете, щоб він вас зачепив."
   components:
   - type: Reflective
     reflective:
@@ -449,10 +449,10 @@
 
 - type: entity
   id: BulletCharge
-  name: charge bolt
+  name: "зарядний болт"
   parent: BaseBullet
   noSpawn: true
-  description: Marks a target for additional damage.
+  description: "Позначає ціль для нанесення додаткової шкоди."
   components:
   - type: Reflective
     reflective:
@@ -484,7 +484,7 @@
 - type: entity
   parent: BaseBullet
   id: AnomalousParticleDelta
-  name: delta particles
+  name: "дельта-частинки"
   noSpawn: true
   components:
   - type: PointLight
@@ -538,7 +538,7 @@
 - type: entity
   parent: AnomalousParticleDelta
   id: AnomalousParticleEpsilon
-  name: epsilon particles
+  name: "епсилон-частинки"
   noSpawn: true
   components:
   - type: PointLight
@@ -568,7 +568,7 @@
 - type: entity
   parent: AnomalousParticleDelta
   id: AnomalousParticleZeta
-  name: zeta particles
+  name: "дзета-частинки"
   noSpawn: true
   components:
   - type: PointLight
@@ -598,7 +598,7 @@
 - type: entity
   parent: AnomalousParticleDelta
   id: AnomalousParticleOmegaStrong
-  name: omega particles
+  name: "омега-частинки"
   noSpawn: true
   components:
   - type: PointLight
@@ -627,7 +627,7 @@
 - type: entity
   parent: AnomalousParticleDelta
   id: AnomalousParticleSigma
-  name: sigma particles
+  name: "сигма-частинки"
   noSpawn: true
   components:
   - type: PointLight
@@ -645,7 +645,7 @@
 - type: entity
   parent: AnomalousParticleSigma
   id: AnomalousParticleSigmaStrong
-  name: sigma particles
+  name: "сигма-частинки"
   noSpawn: true
   components:
   - type: AnomalousParticle
@@ -654,7 +654,7 @@
 # Launcher projectiles (grenade / rocket)
 - type: entity
   id: BulletRocket
-  name: rocket
+  name: "ракета"
   parent: BaseBulletTrigger
   noSpawn: true
   components:
@@ -676,7 +676,7 @@
 
 - type: entity
   id: BulletWeakRocket
-  name: weak rocket
+  name: "слабка ракета"
   parent: BaseBulletTrigger
   noSpawn: true
   components:
@@ -698,7 +698,7 @@
 
 - type: entity
   id: BulletGrenadeBaton
-  name: baton grenade
+  name: "світлошумова граната"
   parent: BaseBullet
   noSpawn: true
   components:
@@ -718,7 +718,7 @@
 
 - type: entity
   id: BulletGrenadeBlast
-  name: blast grenade
+  name: "бойова граната"
   parent: BaseBulletTrigger
   noSpawn: true
   components:
@@ -735,7 +735,7 @@
 
 - type: entity
   id: BulletGrenadeFlash
-  name: flash grenade
+  name: "світлошумова граната"
   parent: BaseBulletTrigger
   noSpawn: true
   components:
@@ -754,7 +754,7 @@
 # This is supposed to spawn shrapnel and stuff so uhh... TODO?
 - type: entity
   id: BulletGrenadeFrag
-  name: frag grenade
+  name: "осколкова граната"
   parent: BaseBulletTrigger
   noSpawn: true
   components:
@@ -771,7 +771,7 @@
 
 - type: entity
   id: BulletGrenadeEMP
-  name: EMP rocket
+  name: "ЕМІ-ракета"
   parent: BaseBulletTrigger
   noSpawn: true
   components:
@@ -792,7 +792,7 @@
 
 - type: entity
   id: BulletCap
-  name: cap bullet
+  name: "капсюльна куля"
   parent: BaseBullet
   noSpawn: true
   components:
@@ -808,7 +808,7 @@
 
 - type: entity
   id: BulletAcid
-  name: acid spit
+  name: "кислотна слина"
   parent: BaseBullet
   noSpawn: true
   components:
@@ -825,7 +825,7 @@
 
 - type: entity
   id: BulletAcidSentinel
-  name: acid spit
+  name: "кислотна слина"
   parent: BaseBullet
   noSpawn: true
   components:
@@ -842,7 +842,7 @@
 
 - type: entity
   id: BulletWaterShot
-  name: water
+  name: "вода"
   noSpawn: true
   components:
   - type: Clickable
@@ -884,7 +884,7 @@
 
 - type: entity
   id: BulletCannonBall
-  name: cannonball
+  name: "гарматне ядро"
   parent: BaseBulletTrigger
   noSpawn: true
   components:
@@ -906,7 +906,7 @@
 
 - type: entity
   id: GrapplingHook
-  name: grappling hook
+  name: "гак для захоплення"
   noSpawn: true
   components:
     - type: EmbeddableProjectile
@@ -983,7 +983,7 @@
     forceSound: true
 
 - type: entity
-  name: tesla gun lightning
+  name: "блискавка з гармати Тесли"
   id: TeslaGunBullet
   parent: BaseBullet
   noSpawn: true
@@ -1020,7 +1020,7 @@
 
 # Because Hitscan lasers aren't fun to shoot in my opinion, we give the HoS pistol a special lethal laser that moves
 - type: entity
-  name: energy bolt
+  name: "енергетичний болт"
   id: BulletEnergyGunLaser
   parent: BaseBullet
   noSpawn: true

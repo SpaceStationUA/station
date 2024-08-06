@@ -1,8 +1,8 @@
 - type: entity
-  name: soap
+  name: "мило"
   id: Soap
   parent: BaseItem
-  description: A cheap bar of soap. Doesn't smell.
+  description: "Дешевий шматок мила. Не пахне."
   components:
   - type: Tag
     tags:
@@ -74,10 +74,10 @@
     residueColor: residue-green
 
 - type: entity
-  name: soap
+  name: "мило"
   id: SoapNT
   parent: Soap
-  description: A Nanotrasen brand bar of soap. Smells of plasma.
+  description: "Шматок мила марки \"Нанотрасен\". Пахне плазмою."
   components:
   - type: Sprite
     layers:
@@ -99,10 +99,10 @@
     residueColor: residue-grey
 
 - type: entity
-  name: soap
+  name: "мило"
   id: SoapDeluxe
   parent: Soap
-  description: A deluxe Waffle Co. brand bar of soap. Smells of strawberries.
+  description: "Розкішний шматок мила марки Waffle Co. Пахне полуницею."
   components:
   - type: Sprite
     layers:
@@ -117,10 +117,10 @@
     residueColor: residue-brown
 
 - type: entity
-  name: soap
+  name: "мило"
   id: SoapSyndie
   parent: Soap
-  description: An untrustworthy bar of soap. Smells of fear.
+  description: "Ненадійний шматок мила. Пахне страхом."
   components:
   - type: Sprite
     layers:
@@ -144,11 +144,11 @@
     residueColor: residue-red
 
 - type: entity
-  name: soaplet
+  name: "мило"
   id: SoapletSyndie
   noSpawn: true
   parent: Soap
-  description: A tiny piece of syndicate soap.
+  description: "Крихітний шматочок синдикатського мила."
   components:
   - type: Sprite
     layers:
@@ -184,10 +184,10 @@
         volume: -20
 
 - type: entity
-  name: soap
+  name: "мило"
   id: SoapHomemade
   parent: Soap
-  description: A homemade bar of soap. Smells of... well....
+  description: "Саморобний шматок мила. Пахне... добре...."
   components:
   - type: Sprite
     layers:
@@ -209,10 +209,10 @@
     residueColor: residue-red
 
 - type: entity
-  name: omega soap
+  name: "омега-мило"
   id: SoapOmega
   parent: Soap
-  description: The most advanced soap known to mankind. Smells of bluespace.
+  description: "Найдосконаліше мило, відоме людству. Пахне блакитним простором."
   components:
   - type: Sprite
     layers:
