@@ -20,6 +20,12 @@ public sealed partial class EnergyDomeGeneratorComponent : Component
     public float DamageEnergyDraw = 10f;
 
     /// <summary>
+    /// Whenever dome battery should charge when it got shut down. Fixes issue, when dome gets permanently shut down.
+    /// </summary>
+    [DataField]
+    public bool AlwaysCharge = false;
+
+    /// <summary>
     /// Whether or not the dome can be toggled via standard interactions
     /// (alt verbs, using in hand, etc)
     /// </summary>

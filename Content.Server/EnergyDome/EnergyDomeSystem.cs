@@ -302,7 +302,7 @@ public sealed partial class EnergyDomeSystem : EntitySystem
         QueueDel(generator.Comp.SpawnedDome);
 
         _powerCell.SetPowerCellDrawEnabled(generator, false);
-        if (TryComp<BatterySelfRechargerComponent>(generator, out var recharger))
+        if (TryComp<BatterySelfRechargerComponent>(generator, out var recharger) && generator.Comp.AlwaysCharge == false)
         {
             recharger.AutoRecharge = false;
         }
