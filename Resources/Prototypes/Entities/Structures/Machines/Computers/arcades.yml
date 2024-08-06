@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: ArcadeBase
-  description: "Шафа для ігрових автоматів."
-  name: "аркада"
+  description: An arcade cabinet.
+  name: arcade
   parent: BaseComputer
   components:
   - type: ApcPowerReceiver
@@ -53,7 +53,7 @@
 
 - type: entity
   id: SpaceVillainArcade
-  name: "аркада про космічних лиходіїв"
+  name: space villain arcade
   parent: ArcadeBase
   components:
   - type: Sprite
@@ -164,8 +164,8 @@
 
 - type: entity
   id: BlockGameArcade
-  description: "Аркадна шафа з дивно знайомою грою."
-  name: "Блокова гра NT"
+  description: An arcade cabinet with a strangely familiar game.
+  name: NT block game
   parent: ArcadeBase
   components:
   - type: Sprite

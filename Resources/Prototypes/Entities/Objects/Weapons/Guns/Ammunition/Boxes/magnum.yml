@@ -27,7 +27,7 @@
 - type: entity
   parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnum
-  name: "коробочка з набоями (.45 magnum)"
+  name: ammunition box (.45 magnum)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnum
@@ -41,7 +41,7 @@
 - type: entity
   parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnumPractice
-  name: "коробочка з набоями (.45 magnum practice)"
+  name: ammunition box (.45 magnum practice)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumPractice
@@ -56,7 +56,7 @@
 - type: entity
   parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnumRubber
-  name: "коробочка з набоями (гума .45 магнум)"
+  name: ammunition box (.45 magnum rubber)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumRubber
@@ -71,7 +71,7 @@
 - type: entity
   id: MagazineBoxMagnumIncendiary
   parent: BaseMagazineBoxMagnum
-  name: "ящик з боєприпасами (запалювальні .45 магнум)"
+  name: ammunition box (.45 magnum incendiary)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumIncendiary
@@ -86,7 +86,7 @@
 - type: entity
   id: MagazineBoxMagnumUranium
   parent: BaseMagazineBoxMagnum
-  name: "коробочка з набоями (.45 магнум уран)"
+  name: ammunition box (.45 magnum uranium)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumUranium
@@ -101,7 +101,7 @@
 - type: entity
   id: MagazineBoxMagnumAP
   parent: BaseMagazineBoxMagnum
-  name: "коробочка з набоями (.45 магнум бронебійний)"
+  name: ammunition box (.45 magnum armor-piercing)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumAP

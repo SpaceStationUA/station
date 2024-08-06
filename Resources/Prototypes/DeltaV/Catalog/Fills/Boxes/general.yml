@@ -1,8 +1,8 @@
 - type: entity
-  name: "Скринька з ключами шифрування ув'язненого"
+  name: Prisoner encryption key box
   parent: BoxCardboard
   id: BoxEncryptionKeyPrisoner
-  description: "Коробка запасних ключів шифрування."
+  description: A box of spare encryption keys.
   components:
   - type: StorageFill
     contents:
