@@ -1,8 +1,8 @@
 - type: entity
-  name: "кирка"
+  name: pickaxe
   parent: BaseItem
   id: Pickaxe
-  description: "Зазубрені до досконалості, для забивання в каміння"
+  description: Notched to perfection, for jamming it into rocks
   components:
   - type: Tag
     tags:
@@ -37,10 +37,10 @@
   - type: UseDelay
 
 - type: entity
-  name: "шахтерський  бур"
+  name: mining drill
   parent: BaseItem
   id: MiningDrill
-  description: "Потужний інструмент для швидкого свердління гірських порід"
+  description: Powerful tool used to quickly drill through rocks
   components:
   - type: Item
     storedRotation: -90

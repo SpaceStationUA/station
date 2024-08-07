@@ -1,5 +1,5 @@
 - type: entity
-  name: "синдикатський піхотинець-розплідник"
+  name: syndicate footsoldier spawner
   id: SpawnMobSyndicateFootSoldier
   parent: MarkerBase
   components:
@@ -26,7 +26,7 @@
     - MobSyndicateFootsoldier
 
 - type: entity
-  name: "пілот шаттла синдикату - спайдер синдикату"
+  name: syndicate shuttle pilot spawner
   id: SpawnMobSyndicateFootsoldierPilot
   parent: SpawnMobSyndicateFootSoldier
   components:

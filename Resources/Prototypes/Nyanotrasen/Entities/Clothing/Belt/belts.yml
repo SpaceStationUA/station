@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltMantis
-  name: "псіонічний пояс богомола" # DeltaV - Rename Forensic Mantis to Psionic Mantis
-  description: "Ідеально підходить для зберігання всього вашого обладнання."
+  name: psionic mantis' belt # DeltaV - Rename Forensic Mantis to Psionic Mantis
+  description: Perfect for storing all of your equipment.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Belt/mantis_belt.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: ClothingBeltMartialBlack
-  name: "чорний пояс"
-  description: "Це найбільш бойовий з усіх поясів."
+  name: black belt
+  description: This is the most martial of all the belts.
   components:
   - type: MeleeWeapon
     attackRate: 1.25
@@ -39,8 +39,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltKatanaSheath
-  name: "піхви для катани"
-  description: "Витіюватий пояс, призначений для зберігання пари самурайських клинків, або дайшо."
+  name: katana sheaths
+  description: An ornate belt designed to hold a pair of samurai's blades, or daisho.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Belt/katanasheath.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltMilitaryWebbingCMO
-  name: "грудна клітка головного лікаря"
-  description: "Медичний нагрудник з глибокими кишенями для використання парамедиками та медичними працівниками."
+  name: chief medical officer's chest rig
+  description: A medical chest rig with deep pockets, for use by paramedics and health professionals.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Belt/cmowebbing.rsi
