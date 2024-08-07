@@ -91,5 +91,5 @@ admin-trick-halt-movement-description = Зупиняє рух цільового
 admin-trick-unpause-map-description = Призупиніть відтворення вибраної мапи. ЗАУВАЖТЕ, ЩО ЦЕ МОЖЕ СПРИЧИНИТИ ПОГАНУ ПОВЕДІНКУ З КАРТАМИ СХОВИЩА!
 admin-trick-pause-map-description = Призупинити вибрану мапу. Зверніть увагу, що це не зупиняє рух гравця повністю!
 admin-trick-snap-joints-description = Видалити всі фізичні суглоби з об'єкта. На жаль, не можна клацнути кожною кісткою у своєму тілі.
-admin-trick-minigun-fire-description = Змушує цільову зброю стріляти як міні-пістолет (дуже швидко).
+admin-trick-minigun-fire-description = Змушує цільову зброю стріляти як мініган(дуже швидко).
 admin-trick-set-bullet-amount-description = Швидко встановлюйте кількість нестворених набоїв у гарматі.

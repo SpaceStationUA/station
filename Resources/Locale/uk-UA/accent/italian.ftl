@@ -39,32 +39,32 @@ accent-italian-words-replace-10 = папà!
 accent-italian-words-11 = добре
 accent-italian-words-replace-11 = бене
 
-accent-italian-words-12 = сірість
-accent-italian-words-replace-12 = кривий
+accent-italian-words-12 = смачного
+accent-italian-words-replace-12 = бон апетітто!
 
-accent-italian-words-13 = грейтайдер
-accent-italian-words-replace-13 = кривий
+accent-italian-words-13 = похуй
+accent-italian-words-replace-13 = сті кацці
 
-accent-italian-words-14 = грейтайдери
-accent-italian-words-replace-14 = кривий
+accent-italian-words-14 = чорт
+accent-italian-words-replace-14 = каволо
 
 accent-italian-words-15 = привіт
 accent-italian-words-replace-15 = чао
 
 accent-italian-words-16 = це
-accent-italian-words-replace-16 = це
+accent-italian-words-replace-16 = екко
 
 accent-italian-words-17 = зробити
-accent-italian-words-replace-17 = зробити
+accent-italian-words-replace-17 = фаре
 
 accent-italian-words-18 = м'ясо
 accent-italian-words-replace-18 = прошутто
 
 accent-italian-words-19 = мамо
-accent-italian-words-replace-19 = мамо
+accent-italian-words-replace-19 = мамма
 
 accent-italian-words-20 = мій
-accent-italian-words-replace-20 = моя
+accent-italian-words-replace-20 = міо
 
 accent-italian-words-21 = ядерна бомба
 accent-italian-words-replace-21 = найгостріша - фрикаделька
@@ -109,7 +109,7 @@ accent-italian-words-33 = дякую
 accent-italian-words-replace-33 = граціас
 
 accent-italian-words-34 = річ
-accent-italian-words-replace-34 = річ-а
+accent-italian-words-replace-34 = коза
 
 accent-italian-words-35 = зрадник
 accent-italian-words-replace-35 = мафіозі-о
@@ -118,25 +118,25 @@ accent-italian-words-36 = зрадники
 accent-italian-words-replace-36 = мафіозі-о
 
 accent-italian-words-37 = використання
-accent-italian-words-replace-37 = використовувати -а
+accent-italian-words-replace-37 = утіліззьо
 
 accent-italian-words-38 = хочу
-accent-italian-words-replace-38 = хочу
+accent-italian-words-replace-38 = волере
 
 accent-italian-words-39 = що таке
-accent-italian-words-replace-39 = що
+accent-italian-words-replace-39 = ке коза
 
 accent-italian-words-40 = хто
-accent-italian-words-replace-40 = який
+accent-italian-words-replace-40 = кі
 
 accent-italian-words-41 = чия
-accent-italian-words-replace-41 = чия
+accent-italian-words-replace-41 = ді кі
 
 accent-italian-words-42 = чому
-accent-italian-words-replace-42 = з якої причини
+accent-italian-words-replace-42 = перке
 
 accent-italian-words-43 = вино
-accent-italian-words-replace-43 = вино
+accent-italian-words-replace-43 = віно
 
 accent-italian-words-44 = пасажир
 accent-italian-words-replace-44 = гумба
@@ -147,8 +147,8 @@ accent-italian-words-replace-45 = гумбахи
 accent-italian-words-46 = я
 accent-italian-words-replace-46 = я-а
 
-accent-italian-words-47 = я
-accent-italian-words-replace-47 = я-а
+accent-italian-words-47 = ахуєть
+accent-italian-words-replace-47 = мама мія
 
-accent-italian-words-48 = і-а
-accent-italian-words-replace-48 = і-а
+accent-italian-words-48 = блять
+accent-italian-words-replace-48 = каццо

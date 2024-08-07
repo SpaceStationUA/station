@@ -81,8 +81,8 @@ chat-speech-verb-plant-1 = шелестить
 chat-speech-verb-plant-2 = гойдається
 chat-speech-verb-plant-3 = скрипить
 
-chat-speech-verb-robotic-1 = держави
-chat-speech-verb-robotic-2 = гудки
+chat-speech-verb-robotic-1 = константує
+chat-speech-verb-robotic-2 = бібупає
 
 chat-speech-verb-reptilian-1 = шипіння
 chat-speech-verb-reptilian-2 = фиркає
