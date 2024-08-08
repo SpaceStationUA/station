@@ -40,3 +40,5 @@ artifact-trigger-hint-regular-gases = Стандартні атмосферні 
 artifact-trigger-hint-plasma = Газоподібна плазма
 artifact-trigger-hint-land = Активне гальмування
 artifact-trigger-hint-examine = Вивчення
+
+artifact-effect-hint-psionic = Ноосферні бурі

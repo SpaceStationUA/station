@@ -13,8 +13,6 @@ reagent-effect-guidebook-chem-reroll-psionic = { $chance ->
         *[other] дозволяє
     } шанс отримати іншу псионічну силу
 
-## Підтримка системи хвороб
-
 reagent-effect-guidebook-chem-miasma-pool = { $chance ->
         [1] Причини
         *[other] причина

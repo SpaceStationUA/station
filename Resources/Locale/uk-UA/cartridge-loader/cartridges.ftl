@@ -19,3 +19,8 @@ log-probe-scan = Викачані логи з {$device}!
 log-probe-label-time = Час
 log-probe-label-accessor = Доступ до
 log-probe-label-number = #
+
+glimmer-monitor-program-name = Монітор Мерехтіння
+glimmer-monitor-current-glimmer = Мерехтіння: {$glimmer}Ψ
+glimmer-monitor-interval = Інтервал
+glimmer-monitor-sync = Оновити

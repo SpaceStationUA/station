@@ -1,1 +1,1 @@
-artifact-effect-hint-psionic = Ноосферні порушення
+artifact-effect-hint-psionic = Ноосферні бурі

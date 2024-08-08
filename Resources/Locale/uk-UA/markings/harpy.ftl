@@ -75,3 +75,16 @@ marking-HarpyLegsDefault-thighs = Стегна
 marking-HarpyFeetDefault = Пташині лапки
 marking-HarpyFeetDefault-feet = Ноги
 marking-HarpyFeetDefault-talons = Пазурі
+
+marking-HarpyWingBat = Крилаті кажани (білокрилка)
+marking-HarpyWingBat-bat_wings_tone_1 = Кінцівки
+marking-HarpyWingBat-bat_wings_tone_2 = Мембрана
+marking-HarpyWingBionic = Прості біонічні крила (Whitescale)
+marking-HarpyWingBionic-bionic_wings_tone_1 = Крила
+marking-HarpyWingBionic-bionic_wings_tone_2 = Світло (незаштриховане)
+marking-HarpyTailHaven = Хвостатий хвіст (білохвіст)
+marking-HarpyTailHaven-haven_tone_1 = Зовнішнє пір'я
+marking-HarpyTailHaven-haven_tone_2 = Внутрішнє пір'я
+marking-HarpyTailForkedLong = Довгохвіст (білохвіст)
+marking-HarpyTailForkedLong-forked_long = Хвіст
+marking-HarpyTailSwallow = Ластівчин хвіст (білокрилка)
