@@ -10,6 +10,7 @@ ui-vote-restart-fail-not-enough-ghost-players = Голосування за пе
 ui-vote-restart-yes = Так
 ui-vote-restart-no = Ні
 ui-vote-restart-abstain = Утриматись
+ui-vote-restart-fail-min-round-duration = Голосування за перезапуск провалено: Поточний раунд триває менше { $minRoundDuration } хвилин. Почекайте трохи.
 
 ui-vote-gamemode-title = Наступний ігровий режим
 ui-vote-gamemode-tie = Нічия у голосуванні! Вибираємо... { $picked }

@@ -75,6 +75,18 @@ namespace Content.Server.Voting.Managers
 
             var roundedGhostPercentage = (int)Math.Round(ghostPercentage);
 
+            #region PIRATE, check minimum round duration before starting vote
+            var _gameTicker = EntitySystem.Get<GameTicker>();
+            var roundDuration = _gameTicker.RoundDuration().TotalMinutes;
+            if(roundDuration < _cfg.GetCVar(CCVars.VoteRestartMinMinutes) && roundedGhostPercentage <= 90)
+            {
+                _adminLogger.Add(LogType.Vote, LogImpact.Medium, $"Restart vote failed: Current round duration:{roundDuration} minutes is less than the minimum required duration of {_cfg.GetCVar(CCVars.VoteRestartMinMinutes)} minutes");
+                _chatManager.DispatchServerAnnouncement(
+                    Loc.GetString("ui-vote-restart-fail-min-round-duration", ("minRoundDuration", _cfg.GetCVar(CCVars.VoteRestartMinMinutes))));
+                return;
+            }
+            #endregion
+
             if (totalPlayers <= playerVoteMaximum || roundedGhostPercentage >= ghostVotePercentageRequirement)
             {
                 StartVote(initiator);

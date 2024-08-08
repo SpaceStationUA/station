@@ -1527,6 +1527,12 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<int>
             VoteTimerAlone = CVarDef.Create("vote.timeralone", 10, CVar.SERVERONLY);
+        /// #PIRATE CVAR
+        /// <summary>
+        ///     Sets the minimum duration of the restart vote timer.
+        /// </summary>
+        public static readonly CVarDef<int>
+            VoteRestartMinMinutes = CVarDef.Create("vote.restart_min_duration", 120, CVar.SERVERONLY);
 
 
         /*
@@ -2291,7 +2297,7 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<float> StationGoalsChance =
             CVarDef.Create("game.station_goals_chance", 0.1f, CVar.SERVERONLY);
-            
+
 
         #region CPR System
         /// <summary>
@@ -2338,7 +2344,7 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<float> CPRAirlossReductionMultiplier =
             CVarDef.Create("cpr.airloss_reduction_multiplier", 1f, CVar.REPLICATED | CVar.SERVER);
-            
+
         #endregion
 
         #region Contests System
