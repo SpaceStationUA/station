@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitEVA
-  name: EVA suit
-  description: A lightweight space suit with the basic ability to protect the wearer from the vacuum of space during emergencies.
+  name: "Костюм EVA"
+  description: "Легкий скафандр з базовою здатністю захищати користувача від вакууму космосу під час надзвичайних ситуацій."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitSyndicate # TODO: rename to ClothingOuterEVASuitSyndicate
-  name: syndicate EVA suit
-  description: "Has a tag on the back that reads: 'Totally not property of an enemy corporation, honest!'"
+  name: "синдикатський позов EVA"
+  description: "Ззаду є бирка з написом: \"Зовсім не власність ворожої корпорації, чесно!"
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterSuitEmergency
-  name: emergency EVA suit
-  description: An emergency EVA suit with a built-in helmet. It's horribly slow and lacking in temperature protection, but enough to bide you time from the harsh vaccuum of space.
+  name: "аварійний костюм EVA"
+  description: "Аварійний EVA-костюм із вбудованим шоломом. Він страшенно повільний і не має захисту від перепадів температури, але його вистачить, щоб витримати час у суворому вакуумі космосу."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_emergency.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id:  ClothingOuterHardsuitEVAPrisoner
-  name: prisoner EVA suit
-  description: A lightweight space suit for prisoners to protect them from the vacuum of space during emergencies.
+  name: "костюм для ув'язнених EVA"
+  description: "Легкий скафандр для ув'язнених, щоб захистити їх від вакууму космосу під час надзвичайних ситуацій."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_prisoner.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitAncientEVA
-  name: NTSRA voidsuit #Nanotrasen Space Research Association
-  description: An ancient space suit, designed by the NTSRA branch of CentCom. It is very finely crafted, allowing for greater mobility than most modern space suits.
+  name: "Позов NTSRA про визнання недійсним" #Nanotrasen Space Research Association
+  description: "Старовинний скафандр, розроблений філією NTSRA компанії CentCom. Він дуже тонко виготовлений, що забезпечує більшу мобільність, ніж більшість сучасних скафандрів."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/ancient_voidsuit.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitVoidParamed
-  name: paramedic void suit
-  description: A void suit made for paramedics.
+  name: "позов про недійсність договору з парамедиком"
+  description: "Порожній костюм для парамедиків."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/paramed.rsi

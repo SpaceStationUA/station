@@ -1,7 +1,7 @@
 # Empty mags
 - type: entity
   id: BaseMagazineLightRifle
-  name: "magazine (.30 rifle)"
+  name: "магазин (гвинтівка калібру .30)"
   parent: BaseItem
   abstract: true
   components:
@@ -36,7 +36,7 @@
 # Magazines
 - type: entity
   id: MagazineLightRifleBox
-  name: "L6 SAW magazine box (.30 rifle)"
+  name: "Коробка магазину L6 SAW (гвинтівка калібру .30)"
   parent: BaseMagazineLightRifle
   components:
   - type: Tag
@@ -56,7 +56,7 @@
 
 - type: entity
   id: MagazineLightRifle
-  name: "magazine (.30 rifle)"
+  name: "магазин (гвинтівка калібру .30)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -70,7 +70,7 @@
 
 - type: entity
   id: MagazineLightRiflePractice
-  name: "magazine (.30 rifle practice)"
+  name: "магазин (практична стрільба з гвинтівки калібру .30)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -84,7 +84,7 @@
 
 - type: entity
   id: MagazineLightRifleRubber
-  name: "magazine (.30 rifle rubber)"
+  name: "магазин (.30 гвинтівочна гума)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -98,7 +98,7 @@
 
 - type: entity
   id: MagazineLightRifleUranium
-  name: "magazine (.30 rifle uranium)"
+  name: "магазин (.30 гвинтівочний уран)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -112,7 +112,7 @@
 
 - type: entity
   id: MagazineLightRifleMaxim
-  name: "pan magazine (.30 rifle)"
+  name: "магазин під набій (гвинтівка калібру .30)"
   parent: BaseMagazineLightRifle
   components:
   - type: Tag
@@ -126,7 +126,7 @@
 
 - type: entity
   id: MagazineLightRiflePkBox
-  name: "PK munitions box (.30 rifle)"
+  name: "коробочка з набоями PK (гвинтівка калібру .30)"
   parent: BaseMagazineLightRifle
   components:
   - type: Tag
