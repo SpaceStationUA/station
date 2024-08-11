@@ -1,8 +1,8 @@
 - type: entity
   parent: Clothing
   id: N14ClothingBackpackDuffel
-  name: duffel bag
-  description: A large duffel bag for holding extra things.
+  name: "речовий мішок"
+  description: "Велика сумка для зберігання додаткових речей."
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/duffel.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: N14ClothingBackpackDuffel
   id: N14ClothingBackpackDuffelSalvage
-  name: salvage duffel bag
-  description: A large duffel bag for holding extra exotic treasures.
+  name: "рятувальний мішок"
+  description: "Велика спортивна сумка для зберігання екзотичних скарбів."
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/salvage.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: N14ClothingBackpackDuffel
   id: N14ClothingBackpackDuffelMilitary
-  name: military duffel bag
-  description: A large duffel bag for holding heavy equipment.
+  name: "військовий речовий мішок"
+  description: "Велика сумка для перевезення важкого спорядження."
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/syndicate.rsi
@@ -50,7 +50,7 @@
 - type: entity
   parent: N14ClothingBackpackDuffelMilitary
   id: N14ClothingBackpackDuffelMilitaryMedical
-  name: military medical duffel bag
+  name: "військова медична сумка"
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/syndicate.rsi

@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: PartTerminator
-  name: nt-800 body part
+  name: "частина корпусу nt-800"
   components:
   - type: Sprite
     sprite: Mobs/Species/Terminator/parts.rsi
@@ -23,7 +23,7 @@
 - type: entity
   parent: PartTerminator
   id: TorsoTerminator
-  name: nt-800 torso
+  name: "тулуб nt-800"
   components:
   - type: Sprite
     state: torso_m
@@ -35,8 +35,8 @@
 - type: entity
   parent: PartTerminator
   id: HeadTerminator
-  name: nt-800 skull
-  description: Its red eyes have powered down... for now.
+  name: "череп nt-800"
+  description: "Його червоні очі вимкнулися... поки що."
   components:
   - type: Sprite
     state: skull_icon
@@ -54,7 +54,7 @@
 - type: entity
   parent: PartTerminator
   id: LeftArmTerminator
-  name: left nt-800 arm
+  name: "ліва рука nt-800"
   components:
   - type: Sprite
     state: l_arm
@@ -67,7 +67,7 @@
 - type: entity
   parent: PartTerminator
   id: RightArmTerminator
-  name: right nt-800 arm
+  name: "права рука nt-800"
   components:
   - type: Sprite
     state: r_arm
@@ -80,7 +80,7 @@
 - type: entity
   parent: PartTerminator
   id: LeftHandTerminator
-  name: left nt-800 hand
+  name: "ліва рука nt-800"
   components:
   - type: Sprite
     state: l_hand
@@ -93,7 +93,7 @@
 - type: entity
   parent: PartTerminator
   id: RightHandTerminator
-  name: right nt-800 hand
+  name: "права рука nt-800"
   components:
   - type: Sprite
     state: r_hand
@@ -106,7 +106,7 @@
 - type: entity
   parent: PartTerminator
   id: LeftLegTerminator
-  name: left nt-800 leg
+  name: "ліва нога nt-800"
   components:
   - type: Sprite
     state: l_leg
@@ -120,7 +120,7 @@
 - type: entity
   parent: PartTerminator
   id: RightLegTerminator
-  name: right nt-800 leg
+  name: "права нога nt-800"
   components:
   - type: Sprite
     state: r_leg
@@ -134,7 +134,7 @@
 - type: entity
   parent: PartTerminator
   id: LeftFootTerminator
-  name: left nt-800 foot
+  name: "ліва нога nt-800"
   components:
   - type: Sprite
     state: l_foot
@@ -147,7 +147,7 @@
 - type: entity
   parent: PartTerminator
   id: RightFootTerminator
-  name: right nt-800 foot
+  name: "правая нога nt-800"
   components:
   - type: Sprite
     state: r_foot

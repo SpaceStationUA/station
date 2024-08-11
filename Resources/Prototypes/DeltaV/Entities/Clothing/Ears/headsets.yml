@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadsetService
   id: ClothingHeadsetHoP
-  name: hop headset
-  description: A headset used by the head of personnel.
+  name: "хмелева гарнітура"
+  description: "Гарнітура, якою користується керівник відділу кадрів."
   components:
   - type: ContainerFill
     containers:
@@ -14,7 +14,7 @@
 - type: entity
   parent: ClothingHeadsetAlt
   id: ClothingHeadsetAltService
-  name: head of personnel's over-ear headset
+  name: "навушник керівника персоналу"
   components:
   - type: ContainerFill
     containers:
@@ -30,8 +30,8 @@
 - type: entity
   parent: ClothingHeadsetAltSyndicate
   id: ClothingHeadsetAltSyndicateListening
-  name: blood-red over-ear interception headset
-  description: An advanced, modular syndicate interception intercom that fits over the head.
+  name: "криваво-червона навушникова гарнітура з перехопленням"
+  description: "Удосконалений модульний переговорний пристрій для перехоплення синдикатів, який одягається на голову."
   components:
   - type: ContainerFill
     containers:
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetJustice
-  name: justice headset
-  description: This is used by the justice department.
+  name: "гарнітура для правосуддя"
+  description: "Цим користується міністерство юстиції."
   components:
   - type: ContainerFill
     containers:
@@ -65,8 +65,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetAltJustice
-  name: chief justice's headset
-  description: The headset used by the chief justice.
+  name: "гарнітура голови суду"
+  description: "Гарнітура, якою користується голова суду."
   components:
   - type: ContainerFill
     containers:
@@ -85,8 +85,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetPrison
-  name: prison headset
-  description: Headset used by anybody who needs direct contact with prisoners
+  name: "тюремний гарнітур"
+  description: "Гарнітура використовується всіма, хто потребує безпосереднього контакту з ув'язненими"
   components:
   - type: ContainerFill
     containers:
@@ -101,8 +101,8 @@
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetPrisonGuard
-  name: guard headset
-  description: Headset used by prison guards.
+  name: "охоронна гарнітура"
+  description: "Гарнітура, якою користуються тюремні охоронці."
   components:
   - type: ContainerFill
     containers:
