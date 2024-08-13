@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: MonkeyCube
-  name: monkey cube
-  description: Just add water!
+  name: "мавпячий куб"
+  description: "Просто додайте води!"
   components:
   - type: Item
     size: Tiny
@@ -52,7 +52,7 @@
 - type: entity
   parent: MonkeyCube
   id: KoboldCube
-  name: kobold cube
+  name: "кобольдський куб"
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -61,7 +61,7 @@
 - type: entity
   parent: MonkeyCube
   id: CowCube
-  name: cow cube
+  name: "коров'ячий куб"
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -70,7 +70,7 @@
 - type: entity
   parent: MonkeyCube
   id: GoatCube
-  name: goat cube
+  name: "козячий кубик"
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -79,7 +79,7 @@
 - type: entity
   parent: MonkeyCube
   id: MothroachCube
-  name: mothroach cube
+  name: "кубик від тарганів"
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -88,7 +88,7 @@
 - type: entity
   parent: MonkeyCube
   id: MouseCube
-  name: mouse cube
+  name: "мишачий куб"
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -97,8 +97,8 @@
 - type: entity
   parent: MonkeyCube
   id: CockroachCube
-  name: cockroach cube
-  description: Just add wa- OH GOD!
+  name: "кубик для тарганів"
+  description: "Просто додайте ва- О, БОЖЕ!"
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -107,8 +107,8 @@
 - type: entity
   parent: MonkeyCube
   id: SpaceCarpCube
-  name: carp cube
-  description: Just add water! At your own risk.
+  name: "короповий кубик"
+  description: "Просто додай води! На свій страх і ризик."
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -117,8 +117,8 @@
 - type: entity
   parent: MonkeyCube
   id: SpaceTickCube
-  name: tick cube
-  description: Just add water! At your own risk.
+  name: "кубик для галочок"
+  description: "Просто додай води! На свій страх і ризик."
   components:
   - type: Rehydratable
     possibleSpawns:
@@ -127,8 +127,8 @@
 - type: entity
   parent: MonkeyCube
   id: AbominationCube
-  name: abomination cube
-  description: Just add blood!
+  name: "куб мерзоти"
+  description: "Просто додай крові!"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -153,8 +153,8 @@
 - type: entity
   parent: PlushieCarp
   id: DehydratedSpaceCarp
-  name: dehydrated space carp
-  description: Looks like a plush toy carp, but just add water and it becomes a real-life space carp!
+  name: "зневоднений білий амур"
+  description: "Виглядає як плюшевий іграшковий короп, але просто додайте води, і він стане справжнім космічним коропом!"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -210,9 +210,9 @@
 - type: entity
   parent: BaseItem
   id: SyndicateSponge
-  name: monkey cube
+  name: "мавпячий куб"
   suffix: Syndicate
-  description: Just add water!
+  description: "Просто додайте води!"
   components:
   - type: Item
     size: Tiny
