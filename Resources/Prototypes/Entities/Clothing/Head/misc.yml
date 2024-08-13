@@ -6,7 +6,11 @@
   components:
   - type: Sprite
     sprite: Clothing/Head/Misc/bunny.rsi
-  - type: Clothing
+  - type: Clothing #PIRATE
+    slots: #PIRATE
+    - HEAD #PIRATE
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
     sprite: Clothing/Head/Misc/bunny.rsi
 
 - type: entity
@@ -167,7 +171,11 @@
     tags: [] # ignore "WhitelistChameleon" tag
   - type: Sprite
     sprite: Clothing/Head/Hats/catears.rsi
-  - type: Clothing
+  - type: Clothing #PIRATE
+    slots: #PIRATE
+    - HEAD #PIRATE
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
     sprite: Clothing/Head/Hats/catears.rsi
   - type: AddAccentClothing
     accent: OwOAccent
@@ -181,7 +189,11 @@
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/dogears.rsi
-  - type: Clothing
+  - type: Clothing #PIRATE
+    slots: #PIRATE
+    - HEAD #PIRATE
+    - HEAD1 #PIRATE
+    - HEAD2 #PIRATE
     sprite: Clothing/Head/Hats/dogears.rsi
   - type: AddAccentClothing
     accent: BarkAccent
