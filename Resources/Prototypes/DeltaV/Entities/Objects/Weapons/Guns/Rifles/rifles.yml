@@ -1,8 +1,8 @@
 - type: entity
-  name: "Вулкан"
+  name: Vulcan
   parent: BaseWeaponRifle
   id: WeaponRifleVulcan
-  description: "Одна з перших вогнепальних гвинтівок, модифікованих для використання в космосі, ця гвинтівка була спеціально розроблена для пробивання отворів у каргоніанських \"бойових механізмах\". Використовує гвинтівкові набої калібру .30."
+  description: One of the first firearms modified for space usage, this rifle was purpose-designed to punch holes in Cargonian "combat mechs." Uses .30 rifle ammo.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Rifles/vulcan.rsi
@@ -48,10 +48,10 @@
     sprite: DeltaV/Objects/Weapons/Guns/Rifles/vulcan.rsi
 
 - type: entity
-  name: "CAWS-25 Галка"
+  name: CAWS-25 Jackdaw
   parent: BaseWeaponRifle
   id: WeaponRifleJackdaw
-  description: "Початок кінця сповіщає пісня галки. Використовує безоболонкові набої калібру .25."
+  description: The beginning of the end is heralded by the song of a Jackdaw. Uses .25 caseless ammo.
   suffix: Deathsquad
   components:
   - type: Item
@@ -107,10 +107,10 @@
     sprite: DeltaV/Objects/Weapons/Guns/Rifles/jackdaw.rsi
 
 - type: entity
-  name: "Тенебра"
+  name: Tenebra
   parent: BaseWeaponRifle
   id: WeaponRifleTenebra
-  description: "Серійна та мінімалістична гвинтівка в корпусі буллпап. Використовує гвинтівкові набої калібру .20."
+  description: A mass-produced and minimalist rifle in bullpup design. Uses .20 rifle ammo.
   suffix: Mercenary
   components:
   - type: Sprite
@@ -164,10 +164,10 @@
     sprite: DeltaV/Objects/Weapons/Guns/Rifles/tenebra.rsi
 
 - type: entity
-  name: "M-90"
+  name: M-90
   id: WeaponRifleM90
   parent: WeaponRifleM90GrenadeLauncher
-  description: "Стара модель карабіна-буллпап. Використовує набої 20-го калібру."
+  description: An older bullpup carbine model. Uses .20 rifle ammo.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Rifles/carbinenogl.rsi
