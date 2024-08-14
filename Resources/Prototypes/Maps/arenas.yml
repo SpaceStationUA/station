@@ -1,6 +1,6 @@
 - type: gameMap
   id: MeteorArena
-  mapName: Meteor Arena
+  mapName: Метеор Арена
   mapPath: /Maps/Nonstations/meteor-arena.yml
   minPlayers: 0
   stations:
@@ -8,9 +8,43 @@
       stationProto: StandardStationArena
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Meteor Arena"
+          mapNameTemplate: "Арена"
         - type: StationJobs
           overflowJobs:
             - Passenger
           availableJobs:
             Passenger: [ -1, -1 ]
+
+- type: gameMap
+  id: BeachArena
+  mapName: Пляжний переполох
+  mapPath: /Maps/Nonstations/dm_r.yml
+  minPlayers: 0
+  stations:
+    Arena:
+      stationProto: StandardStationArena
+      components:
+      - type: StationNameSetup
+        mapNameTemplate: "Арена"
+      - type: StationJobs
+        overflowJobs:
+        - Passenger
+        availableJobs:
+          Passenger: [ -1, -1 ]
+
+- type: gameMap
+  id: StreetFight
+  mapName: Вуличні розбірки
+  mapPath: /Maps/Nonstations/dead_m_c.yml
+  minPlayers: 0
+  stations:
+    Arena:
+      stationProto: StandardStationArena
+      components:
+      - type: StationNameSetup
+        mapNameTemplate: "Арена"
+      - type: StationJobs
+        overflowJobs:
+        - Passenger
+        availableJobs:
+          Passenger: [ -1, -1 ]
