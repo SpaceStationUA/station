@@ -1,0 +1,47 @@
+- type: entity
+  parent: MobLizard
+  id: MobLizardLois
+  name: Lois
+  description: A lizard with a love of life, and a fear of justice.
+  components:
+  - type: InteractionPopup
+    successChance: 0.7
+  - type: NpcFactionMember
+    factions:
+    - Pet
+  - type: Grammar
+    attributes:
+      proper: true
+      gender: male
+
+- type: entity
+  parent: MobFrog
+  id: MobFrogRandall
+  name: Randall
+  description: Ayooo, it's Randall hoppin' round!
+  components:
+  - type: InteractionPopup
+    successChance: 0.35
+  - type: NpcFactionMember
+    factions:
+    - Pet
+  - type: Grammar
+    attributes:
+      proper: true
+      gender: male
+
+- type: entity
+  parent: MobSlug
+  id: MobSlugTerrance
+  name: Terrance
+  description: Tis Terrance.
+  components:
+  - type: InteractionPopup
+    successChance: 0.25
+  - type: NpcFactionMember
+    factions:
+    - Pet
+  - type: Grammar
+    attributes:
+      proper: true
+      gender: male

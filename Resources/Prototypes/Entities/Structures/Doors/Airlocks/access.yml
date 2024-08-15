@@ -92,7 +92,7 @@
       board: [ DoorElectronicsExternal ]
 
 - type: entity
-  parent: AirlockExternal
+  parent: AirlockExternalService # Parkstation-CustomExternalAirlocks
   id: AirlockExternalCargoLocked
   suffix: External, Logistics, Locked # DeltaV - Logistics Department replacing Cargo
   components:
@@ -101,7 +101,7 @@
       board: [ DoorElectronicsCargo ]
 
 - type: entity
-  parent: AirlockExternal
+  parent: AirlockExternalEngineering # Parkstation-CustomExternalAirlocks
   id: AirlockExternalEngineeringLocked
   suffix: External, Engineering, Locked
   components:
@@ -110,7 +110,7 @@
       board: [ DoorElectronicsEngineering ]
 
 - type: entity
-  parent: AirlockExternal
+  parent: AirlockExternalAtmospherics # Parkstation-CustomExternalAirlocks
   id: AirlockExternalAtmosphericsLocked
   suffix: External, Atmospherics, Locked
   components:
@@ -1233,7 +1233,7 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsRobotics ]
-      
+
 - type: entity
   parent: AirlockScienceGlass
   id: AirlockRoboticsGlassLocked

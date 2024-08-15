@@ -2084,22 +2084,31 @@
     sprite: Objects/Consumable/Drinks/vodkatonicglass.rsi
     state: icon
 
+# Parkstation-Betterjug-Start
 - type: entity
   parent: DrinkGlassBase
   id: DrinkWaterJug
   name: water jug
   description: Stay hydrated
   components:
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    emptySpriteName: empty
   - type: SolutionContainerManager
     solutions:
       drink:
-        maxVol: 30
+        maxVol: 200
         reagents:
-        - ReagentId: Water
-          Quantity: 30
+          - ReagentId: Water
+            Quantity: 200
   - type: Drink
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/water.rsi
+    sprite: SimpleStation14/Objects/Consumable/Drinks/jug.rsi
+    layers:
+      - state: full
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: true
+  # Parkstation-Betterjug-End
 
 - type: entity
   parent: DrinkGlass

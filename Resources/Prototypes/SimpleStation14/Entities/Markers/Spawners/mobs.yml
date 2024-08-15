@@ -1,0 +1,39 @@
+
+- type: entity
+  name: Lois Spawner
+  id: SpawnMobLizardLois
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobLizardLois
+
+- type: entity
+  name: Randall Spawner
+  id: SpawnMobFrogRandall
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobFrogRandall
+
+- type: entity
+  name: Terrance Spawner
+  id: SpawnMobSlugTerrance
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ai
+  - type: ConditionalSpawner
+    prototypes:
+      - MobSlugTerrance

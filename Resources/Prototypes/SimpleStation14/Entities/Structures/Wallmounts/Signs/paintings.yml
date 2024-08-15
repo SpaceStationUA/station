@@ -1,0 +1,16 @@
+- type: entity
+  parent: PaintingBase
+  id: PaintingBasePark
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: SimpleStation14/Structures/Wallmounts/paintings.rsi
+
+- type: entity
+  parent: PaintingBasePark
+  id: PaintingLois
+  name: Lois
+  description: A painting of a lizard with a warm beverage.
+  components:
+  - type: Sprite
+    state: painting2
