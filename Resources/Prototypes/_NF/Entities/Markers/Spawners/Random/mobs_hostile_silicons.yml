@@ -1,5 +1,5 @@
 - type: entity
-  name: drone spawner
+  name: "безпілотник-розплідник"
   id: SpawnMobRogueDronesT1
   parent: MarkerBase
   suffix: AI, Hostile, T1
@@ -29,7 +29,7 @@
     offset: 0.0
 
 - type: entity
-  name: scrap unit spawner
+  name: "спайдер металобрухту"
   id: SpawnMobRogueScapT1
   parent: MarkerBase
   suffix: AI, Hostile, T1
@@ -68,7 +68,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: rogue unit spawner
+  name: "несанкціоноване створення одиниць"
   id: SpawnMobRogueSiliconsT2
   parent: MarkerBase
   suffix: AI, Hostile, T2
@@ -106,7 +106,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: rogue unit spawner
+  name: "несанкціоноване створення одиниць"
   id: SpawnMobRogueSiliconsT3
   parent: MarkerBase
   suffix: AI, Hostile, T3
