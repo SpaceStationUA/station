@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionFireball
-  name: "Вогняна куля"
-  description: "Вистрілює вибуховою вогняною кулею в напрямку клацнутої локації."
+  name: Fireball
+  description: Fires an explosive fireball towards the clicked location.
   noSpawn: true
   components:
   - type: WorldTargetAction
@@ -25,8 +25,8 @@
 - type: entity
   id: ActionFireballII
   parent: ActionFireball
-  name: "Вогняна куля II"
-  description: "Випустіть три вибухові вогняні кулі в напрямку вказаної локації."
+  name: Fireball II
+  description: Fire three explosive fireball towards the clicked location.
   noSpawn: true
   components:
   - type: WorldTargetAction
