@@ -32,7 +32,7 @@
   noSpawn: true
   parent: BaseNinjaObjective
   id: StealResearchObjective
-  description: "Ваші рукавички можуть бути використані для злому дослідницького сервера і викрадення його дорогоцінних даних. Якщо епістемологія занепала, вам доведеться взятися за роботу." # DeltaV - Epistemics Department replacing Science
+  description: Your gloves can be used to hack a research server and steal its precious data. If epistemics has been slacking you'll have to get to work. # DeltaV - Epistemics Department replacing Science
   components:
   - type: Objective
     icon:
@@ -48,7 +48,7 @@
   noSpawn: true
   parent: BaseNinjaObjective
   id: SpiderChargeObjective
-  description: "Ця бомба може бути підірвана в певному місці. Зверніть увагу, що в іншому місці бомба не спрацює!"
+  description: This bomb can be detonated in a specific location. Note that the bomb will not work anywhere else!
   components:
   - type: Objective
     icon:
@@ -60,8 +60,8 @@
   noSpawn: true
   parent: [BaseNinjaObjective, BaseSurviveObjective]
   id: NinjaSurviveObjective
-  name: "Вижити"
-  description: "Ти не будеш хорошим ніндзя, якщо помреш, чи не так?"
+  name: Survive
+  description: You wouldn't be a very good ninja if you died, now would you?
   components:
   - type: Objective
     icon:
@@ -72,8 +72,8 @@
   noSpawn: true
   parent: BaseNinjaObjective
   id: TerrorObjective
-  name: "Повідомте про загрозу"
-  description: "Використовуйте рукавички на комунікаційній консолі, щоб принести ще одну загрозу на станцію."
+  name: Call in a threat
+  description: Use your gloves on a communication console in order to bring another threat to the station.
   components:
   - type: Objective
     icon:
