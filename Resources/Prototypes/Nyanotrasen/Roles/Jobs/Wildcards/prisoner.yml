@@ -13,7 +13,7 @@
     - !type:DepartmentTimeRequirement
       department: Security
       min: 21600
-    - !type:CharacterWhitelistRequirement # PIRATE - Whitelist requirement
+    - !type:WhitelistRequirement # PIRATE - Whitelist requirement
 
 - type: startingGear
   id: PrisonerGear

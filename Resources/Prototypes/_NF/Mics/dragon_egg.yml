@@ -43,7 +43,7 @@
     description: ghost-role-information-baby-dragon-description
     rules: ghost-role-information-baby-dragon-rules
     requirements:
-    - !type:CharacterWhitelistRequirement
+    - !type:WhitelistRequirement
   - type: GhostRoleMobSpawner
     prototype: MobSpawnBabyDragon
   - type: SolutionContainerManager

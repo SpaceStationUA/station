@@ -1,9 +1,5 @@
-using Content.Server.Antag;
 using Content.Server.GameTicking.Rules;
-using Content.Server.GameTicking.Rules.Components;
 using Content.Shared.Humanoid;
-using Robust.Shared.Player;
-using Robust.Shared.Prototypes;
 
 namespace Content.Server._Pirate.MakeATraitor;
 
@@ -16,53 +12,41 @@ public sealed class MakeATraitorSystem : EntitySystem
         Revolutionary = 2
     }
 
-    [ValidatePrototypeId<EntityPrototype>]
-    private const string DefaultTraitorRule = "Traitor";
-
-    [ValidatePrototypeId<EntityPrototype>]
-    private const string DefaultRevsRule = "Revolutionary";
-
-    [ValidatePrototypeId<EntityPrototype>]
-    private const string DefaultThiefRule = "Thief";
-
-    [Dependency] private readonly AntagSelectionSystem _antag = default!;
+    [Dependency] private readonly RevolutionaryRuleSystem _revolutionaryRule = default!;
+    [Dependency] private readonly ThiefRuleSystem _thief = default!;
+    [Dependency] private readonly TraitorRuleSystem _traitorRule = default!;
 
     public void MakeTraitor(TraitorType traitorType, EntityUid entity)
     {
-        if (!TryComp<ActorComponent>(entity, out var actor))
-            return;
-
-        var player = actor.PlayerSession;
-
         switch (traitorType)
         {
             case TraitorType.Traitor:
-                MakeTraitor(player);
+                MakeTraitor(entity);
                 break;
             case TraitorType.Thief:
-                MakeThief(player);
+                MakeThief(entity);
                 break;
             case TraitorType.Revolutionary:
-                MakeRevolutionary(player);
+                MakeRevolutionary(entity);
                 break;
             default:
                 return;
         }
     }
 
-    private void MakeTraitor(ICommonSession? target)
+    private void MakeTraitor(EntityUid target)
     {
-        _antag.ForceMakeAntag<TraitorRuleComponent>(target, DefaultTraitorRule);
+        var isHuman = EntityManager.HasComponent<HumanoidAppearanceComponent>(target);
+        _traitorRule.MakeTraitorAdmin(target, isHuman, isHuman);
     }
 
-    private void MakeThief(ICommonSession? target)
+    private void MakeThief(EntityUid target)
     {
-        _antag.ForceMakeAntag<ThiefRuleComponent>(target, DefaultThiefRule);
+        _thief.AdminMakeThief(target, true);
     }
 
-    private void MakeRevolutionary(ICommonSession? target)
+    private void MakeRevolutionary(EntityUid target)
     {
-        _antag.ForceMakeAntag<RevolutionaryRuleComponent>(target, DefaultRevsRule);
-
+        _revolutionaryRule.OnHeadRevAdmin(target);
     }
 }

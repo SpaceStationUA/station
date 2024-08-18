@@ -1,17 +1,19 @@
 using Content.Shared.Hands.Components;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Inventory;
+using Content.Shared.Preferences;
+using Content.Shared.Radio.Components; //PIRATE Parkstation-IPC
+using Content.Shared.Containers; //PIRATE Parkstation-IPC
+using Robust.Shared.Containers; //PIRATE Parkstation-IPC
 using Content.Shared.Roles;
 using Content.Shared.Storage;
 using Content.Shared.Storage.EntitySystems;
 using Robust.Shared.Collections;
-using Robust.Shared.Prototypes;
 
 namespace Content.Shared.Station;
 
 public abstract class SharedStationSpawningSystem : EntitySystem
 {
-    [Dependency] protected readonly IPrototypeManager PrototypeManager = default!;
     [Dependency] protected readonly InventorySystem InventorySystem = default!;
     [Dependency] private   readonly SharedHandsSystem _handsSystem = default!;
     [Dependency] private   readonly SharedStorageSystem _storage = default!;
@@ -22,27 +24,14 @@ public abstract class SharedStationSpawningSystem : EntitySystem
     /// </summary>
     /// <param name="entity">Entity to load out.</param>
     /// <param name="startingGear">Starting gear to use.</param>
-    public void EquipStartingGear(EntityUid entity, ProtoId<StartingGearPrototype>? startingGear)
+    /// <param name="profile">Character profile to use, if any.</param>
+    public void EquipStartingGear(EntityUid entity, StartingGearPrototype startingGear, HumanoidCharacterProfile? profile)
     {
-        PrototypeManager.TryIndex(startingGear, out var gearProto);
-        EquipStartingGear(entity, gearProto);
-    }
-
-    /// <summary>
-    /// Equips starting gear onto the given entity.
-    /// </summary>
-    /// <param name="entity">Entity to load out.</param>
-    /// <param name="startingGear">Starting gear to use.</param>
-    public void EquipStartingGear(EntityUid entity, StartingGearPrototype? startingGear)
-    {
-        if (startingGear == null)
-            return;
-
         if (InventorySystem.TryGetSlots(entity, out var slotDefinitions))
         {
             foreach (var slot in slotDefinitions)
             {
-                var equipmentStr = startingGear.GetGear(slot.Name, null);
+                var equipmentStr = startingGear.GetGear(slot.Name, profile);
                 if (string.IsNullOrEmpty(equipmentStr))
                     continue;
 
@@ -50,6 +39,40 @@ public abstract class SharedStationSpawningSystem : EntitySystem
                 InventorySystem.TryEquip(entity, equipmentEntity, slot.Name, true, force:true);
             }
         }
+
+        //PIRATE Parkstation-Ipc-Start
+        // This is kinda gross, and weird, and very hardcoded, but it's the best way I could think of to do it.
+        // This is replicated in SetOutfitCommand.SetOutfit.
+        // If they have an EncryptionKeyHolderComponent, spawn in their headset, find the
+        // EncryptionKeyHolderComponent on it, move the keys over, and delete the headset.
+        if (TryComp<EncryptionKeyHolderComponent>(entity, out var keyHolderComp))
+        {
+            var containerMan = EntityManager.System<SharedContainerSystem>();
+
+            var earEquipString = startingGear.GetGear("ears", profile);
+
+            if (!string.IsNullOrEmpty(earEquipString))
+            {
+                var earEntity = Spawn(earEquipString, Transform(entity).Coordinates);
+
+                if (TryComp<EncryptionKeyHolderComponent>(earEntity, out _) && // I had initially wanted this to spawn the headset, and simply move all the keys over, but the headset didn't seem to have any keys in it when spawned...
+                    TryComp<ContainerFillComponent>(earEntity, out var fillComp) &&
+                    fillComp.Containers.TryGetValue(EncryptionKeyHolderComponent.KeyContainerName, out var defaultKeys))
+                {
+                    containerMan.CleanContainer(keyHolderComp.KeyContainer);
+
+                    foreach (var key in defaultKeys)
+                    {
+                        var keyEntity = Spawn(key, Transform(entity).Coordinates);
+                        // keyHolderComp.KeyContainer.Insert(keyEntity, force: true);
+                        // _containerSystem.Insert(keyEntity, keyHolderComp.KeyContainer);
+                    }
+                }
+
+                EntityManager.QueueDeleteEntity(earEntity);
+            }
+        }
+        //PIRATE Parkstation-Ipc-End
 
         if (TryComp(entity, out HandsComponent? handsComponent))
             return;
