@@ -20,17 +20,17 @@
     - HellshiftStationEventScheduler
     - BasicRoundstartVariation
 
-- type: gamePreset
-  id: AllAtOnce
-  name: all-at-once-title
-  description: all-at-once-description
-  showInVote: true # PIRATE
-  rules:
-    - Nukeops
-    - Traitor
-    - Revolutionary
-    - Zombie
-    - RampingStationEventScheduler
+# - type: gamePreset
+#   id: AllAtOnce
+#   name: all-at-once-title
+#   description: all-at-once-description
+#   showInVote: true # PIRATE
+#   rules:
+#     - Nukeops
+#     - Traitor
+#     - Revolutionary
+#     - Zombie
+#     - RampingStationEventScheduler
 
 - type: gamePreset
   id: Extended
@@ -55,26 +55,26 @@
   rules:
   - BasicRoundstartVariation
 
-- type: gamePreset
-  id: Secret
-  alias:
-    - secret
-    - sekrit
-  name: secret-title
-  showInVote: true
-  description: secret-description
-  rules:
-    - Secret
+# - type: gamePreset
+#   id: Secret
+#   alias:
+#     - secret
+#     - sekrit
+#   name: secret-title
+#   showInVote: true
+#   description: secret-description
+#   rules:
+#     - Secret
 
-- type: gamePreset
-  id: SecretExtended #For Admin Use: Runs Extended but shows "Secret" in lobby.
-  alias:
-    - secretextended
-  name: secret-title
-  showInVote: false #Admin Use
-  description: secret-description
-  rules:
-    - BasicStationEventScheduler
+# - type: gamePreset
+#   id: SecretExtended #For Admin Use: Runs Extended but shows "Secret" in lobby.
+#   alias:
+#     - secretextended
+#   name: secret-title
+#   showInVote: false #Admin Use
+#   description: secret-description
+#   rules:
+#     - BasicStationEventScheduler
 
 - type: gamePreset
   id: SecretGreenshift #For Admin Use: Runs Greenshift but shows "Secret" in lobby.
@@ -95,18 +95,18 @@
   rules:
     - Sandbox
 
-- type: gamePreset
-  id: Traitor
-  alias:
-    - traitor
-  name: traitor-title
-  description: traitor-description
-  showInVote: true
-  rules:
-    - Traitor
-    - SubGamemodesRule
-    - BasicStationEventScheduler
-    - BasicRoundstartVariation
+# - type: gamePreset
+#   id: Traitor
+#   alias:
+#     - traitor
+#   name: traitor-title
+#   description: traitor-description
+#   showInVote: true
+#   rules:
+#     - Traitor
+#     - SubGamemodesRule
+#     - BasicStationEventScheduler
+#     - BasicRoundstartVariation
 
 - type: gamePreset
   id: Deathmatch
@@ -121,46 +121,58 @@
   rules:
     - DeathMatch31
 
-- type: gamePreset
-  id: Nukeops
-  alias:
-    - nukeops
-  name: nukeops-title
-  description: nukeops-description
-  showInVote: true #PIRATE
-  rules:
-    - Nukeops
-    - SubGamemodesRule
-    - BasicStationEventScheduler
-    - BasicRoundstartVariation
+# - type: gamePreset
+#   id: Nukeops
+#   alias:
+#     - nukeops
+#   name: nukeops-title
+#   description: nukeops-description
+#   showInVote: true #PIRATE
+#   rules:
+#     - Nukeops
+#     - SubGamemodesRule
+#     - BasicStationEventScheduler
+#     - BasicRoundstartVariation
 
-- type: gamePreset
-  id: Revolutionary
-  alias:
-    - rev
-    - revs
-    - revolutionaries
-  name: rev-title
-  description: rev-description
-  showInVote: true #PIRATE
-  rules:
-    - Revolutionary
-    - SubGamemodesRule
-    - BasicStationEventScheduler
-    - BasicRoundstartVariation
+# - type: gamePreset
+#   id: Revolutionary
+#   alias:
+#     - rev
+#     - revs
+#     - revolutionaries
+#   name: rev-title
+#   description: rev-description
+#   showInVote: true #PIRATE
+#   rules:
+#     - Revolutionary
+#     - SubGamemodesRule
+#     - BasicStationEventScheduler
+#     - BasicRoundstartVariation
 
-- type: gamePreset
-  id: Zombie
-  alias:
-  - zombie
-  - zombies
-  - Zombies
-  - zz14
-  - zomber
-  name: zombie-title
-  description: zombie-description
-  showInVote: true #PIRATE
-  rules:
-  - Zombie
-  - BasicStationEventScheduler
-  - BasicRoundstartVariation
+# - type: gamePreset
+#   id: Zombie
+#   alias:
+#   - zombie
+#   - zombies
+#   - Zombies
+#   - zz14
+#   - zomber
+#   name: zombie-title
+#   description: zombie-description
+#   showInVote: true #PIRATE
+#   rules:
+#   - Zombie
+#   - BasicStationEventScheduler
+#   - BasicRoundstartVariation
+
+# - type: gamePreset
+#   id: Pirates
+#   alias:
+#     - pirates
+#   name: pirates-title
+#   description: pirates-description
+#   showInVote: false
+#   rules:
+#     - Pirates
+#     - BasicStationEventScheduler
+#     - BasicRoundstartVariation
