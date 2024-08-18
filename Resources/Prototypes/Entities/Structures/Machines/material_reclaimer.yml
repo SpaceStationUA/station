@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: MaterialReclaimer
-  name: material reclaimer
-  description: Cannot reclaim immaterial things, like motivation.
+  name: "переробник матеріалів"
+  description: "Неможливо повернути нематеріальні речі, такі як мотивація."
   components:
   - type: Sprite
     sprite: Structures/Machines/material_reclaimer.rsi
