@@ -2,8 +2,10 @@ using Robust.Server.GameObjects;
 using Robust.Server.Maps;
 using Robust.Shared.Map;
 using Content.Server.GameTicking;
-using Content.Server.GameTicking.Components;
+using Content.Server.GameTicking.Rules;
+using Content.Server.GameTicking.Rules.Components;
 using Content.Server.StationEvents.Components;
+using Content.Server.RoundEnd;
 
 namespace Content.Server.StationEvents.Events;
 
@@ -39,4 +41,3 @@ public sealed class MageSpawnRule : StationEventSystem<MageSpawnRuleComponent>
         //     GameTicker.EndGameRule(component.AdditionalRule.Value);
     }
 }
-
