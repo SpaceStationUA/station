@@ -41,4 +41,3 @@ public sealed class MageSpawnRule : StationEventSystem<MageSpawnRuleComponent>
         //     GameTicker.EndGameRule(component.AdditionalRule.Value);
     }
 }
-

@@ -1,0 +1,118 @@
+- type: entity
+  parent: BaseItem
+  id: BaseDepartmentBudgetCard
+  noSpawn: true
+  components:
+    - type: BankCard
+      startingBalance: 5000
+    - type: Sprite
+      sprite: _Pirate/Objects/Misc/cards.rsi
+      scale: 0.8, 0.8
+      state: budgetcard
+    - type: Item
+      storedRotation: 90
+
+- type: entity
+  parent: BaseDepartmentBudgetCard
+  id: CommandBudgetCard
+  name: command budget card
+  components:
+    - type: Sprite
+      state: budgetcard
+    - type: BankCard
+      commandBudgetCard: true
+
+- type: entity
+  parent: Paper
+  id: CommandBudgetPinPaper
+  name: command budget pin
+  components:
+  - type: CommandBudgetPinPaper
+  - type: Paper
+
+- type: entity
+  parent: BaseDepartmentBudgetCard
+  id: CargoBudgetCard
+  name: cargo budget card
+  components:
+    - type: Sprite
+      state: car_budget
+    - type: BankCard
+      accountId: 1315
+
+- type: entity
+  parent: BaseDepartmentBudgetCard
+  id: CivilianBudgetCard
+  name: civilian budget card
+  components:
+    - type: Sprite
+      state: srv_budget
+    - type: BankCard
+      accountId: 1316
+
+- type: entity
+  parent: BaseDepartmentBudgetCard
+  id: EngineeringBudgetCard
+  name: engineering budget card
+  components:
+    - type: Sprite
+      state: eng_budget
+    - type: BankCard
+      accountId: 1318
+
+- type: entity
+  parent: BaseDepartmentBudgetCard
+  id: MedicalBudgetCard
+  name: medical budget card
+  components:
+    - type: Sprite
+      state: med_budget
+    - type: BankCard
+      accountId: 1319
+
+- type: entity
+  parent: BaseDepartmentBudgetCard
+  id: ScienceBudgetCard
+  name: science budget card
+  components:
+    - type: Sprite
+      state: sci_budget
+    - type: BankCard
+      accountId: 1321
+
+- type: entity
+  parent: BaseDepartmentBudgetCard
+  id: SecurityBudgetCard
+  name: security budget card
+  components:
+    - type: Sprite
+      state: sec_budget
+    - type: BankCard
+      accountId: 1320
+
+- type: entity
+  parent: BaseItem
+  id: Eftpos
+  name: EFTPOS
+  description: Swipe your ID card to make purchases electronically.
+  components:
+    - type: Sprite
+      sprite: _Pirate/Objects/Devices/eftpos.rsi
+      state:
+      layers:
+        - state: eftpos
+        - state: eftpos-screen
+          shader: unshaded
+      netsync: false
+    - type: Eftpos
+    - type: ActivatableUI
+      key: enum.EftposKey.Key
+      singleUser: true
+    - type: UserInterface
+      interfaces:
+      - key: enum.EftposKey.Key
+        type: EftposBui
+    - type: Clothing
+      quickEquip: false
+      slots:
+      - Belt

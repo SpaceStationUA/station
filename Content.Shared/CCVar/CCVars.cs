@@ -543,7 +543,7 @@ namespace Content.Shared.CCVar
          */
 
         public static readonly CVarDef<int> SuspicionMinPlayers =
-            CVarDef.Create("suspicion.min_players", 3);
+            CVarDef.Create("suspicion.min_players", 5);
 
         public static readonly CVarDef<int> SuspicionMinTraitors =
             CVarDef.Create("suspicion.min_traitors", 2);
@@ -562,7 +562,7 @@ namespace Content.Shared.CCVar
          */
 
         public static readonly CVarDef<int> TraitorMinPlayers =
-            CVarDef.Create("traitor.min_players", 3);
+            CVarDef.Create("traitor.min_players", 5);
 
         public static readonly CVarDef<int> TraitorMaxTraitors =
             CVarDef.Create("traitor.max_traitors", 12); // Assuming average server maxes somewhere from like 50-80 people
@@ -600,14 +600,14 @@ namespace Content.Shared.CCVar
          */
 
         public static readonly CVarDef<int> ZombieMinPlayers =
-            CVarDef.Create("zombie.min_players", 3);
+            CVarDef.Create("zombie.min_players", 20);
 
         /*
          * Pirates
          */
 
         public static readonly CVarDef<int> PiratesMinPlayers =
-            CVarDef.Create("pirates.min_players", 3);
+            CVarDef.Create("pirates.min_players", 25);
 
         public static readonly CVarDef<int> PiratesMaxOps =
             CVarDef.Create("pirates.max_pirates", 6);
@@ -2297,7 +2297,7 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<float> StationGoalsChance =
             CVarDef.Create("game.station_goals_chance", 0.1f, CVar.SERVERONLY);
-
+            
 
         #region CPR System
         /// <summary>
@@ -2344,7 +2344,7 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<float> CPRAirlossReductionMultiplier =
             CVarDef.Create("cpr.airloss_reduction_multiplier", 1f, CVar.REPLICATED | CVar.SERVER);
-
+            
         #endregion
 
         #region Contests System
@@ -2386,6 +2386,12 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<bool> DoMindContests =
             CVarDef.Create("contests.do_mind_contests", true, CVar.REPLICATED | CVar.SERVER);
+
+        /// <summary>
+        ///     Toggles all MoodContest functions. All mood contests output 1f when false.
+        /// </summary>
+        public static readonly CVarDef<bool> DoMoodContests =
+            CVarDef.Create("contests.do_mood_contests", true, CVar.REPLICATED | CVar.SERVER);
 
         /// <summary>
         ///     The maximum amount that Mass Contests can modify a physics multiplier, given as a +/- percentage
@@ -2442,6 +2448,19 @@ namespace Content.Shared.CCVar
         /// </summary>
         public static readonly CVarDef<float> SupermatterRadsModifier =
             CVarDef.Create("supermatter.rads_modifier", 1f, CVar.SERVER);
+
+        #endregion
+
+        #region Mood System
+
+        public static readonly CVarDef<bool> MoodEnabled =
+            CVarDef.Create("mood.enabled", true, CVar.SERVER);
+
+        public static readonly CVarDef<bool> MoodIncreasesSpeed =
+            CVarDef.Create("mood.increases_speed", true, CVar.SERVER);
+
+        public static readonly CVarDef<bool> MoodDecreasesSpeed =
+            CVarDef.Create("mood.decreases_speed", true, CVar.SERVER);
 
         #endregion
 //PIRATE START

@@ -28,6 +28,22 @@ namespace Content.Shared.Alert
         AlienHealth,
         BorgBattery,
         BorgBatteryNone,
+
+        // Mood
+        Bleeding,
+        Insane,
+        Horrible,
+        Terrible,
+        Bad,
+        Meh,
+        Neutral,
+        Good,
+        Great,
+        Exceptional,
+        Perfect,
+        MoodDead,
+        CultBuffed,
+
         PilotingShuttle,
         Peckish,
         Starving,

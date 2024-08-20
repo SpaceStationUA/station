@@ -1,4 +1,5 @@
 using Content.Shared.Actions;
+using Content.Shared.Stacks;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
@@ -187,6 +188,27 @@ namespace Content.Shared.VendingMachines
         [DataField("loopDeny")]
         public bool LoopDenyAnimation = true;
         #endregion
+
+        //Pirate banking start
+        [DataField, ViewVariables(VVAccess.ReadWrite)]
+        public double PriceMultiplier = 0.25;
+
+        public ProtoId<StackPrototype> CreditStackPrototype = "Credit";
+
+        [DataField]
+        public string CurrencyType = "SpaceCash";
+
+        [DataField]
+        public SoundSpecifier SoundInsertCurrency =
+            new SoundPathSpecifier("/Audio/_Pirate/Machines/polaroid2.ogg");
+
+        [DataField]
+        public SoundSpecifier SoundWithdrawCurrency =
+            new SoundPathSpecifier("/Audio/_Pirate/Machines/polaroid1.ogg");
+
+        [ViewVariables]
+        public int Credits;
+        //Pirate banking end
     }
 
     [Serializable, NetSerializable]
@@ -198,11 +220,14 @@ namespace Content.Shared.VendingMachines
         public string ID;
         [ViewVariables(VVAccess.ReadWrite)]
         public uint Amount;
-        public VendingMachineInventoryEntry(InventoryType type, string id, uint amount)
-        {
+        [ViewVariables(VVAccess.ReadWrite)] //Pirate banking
+        public int Price; //Pirate banking
+
+        public VendingMachineInventoryEntry(InventoryType type, string id, uint amount, int price)        {
             Type = type;
             ID = id;
             Amount = amount;
+            Price = price; //Pirate banking
         }
     }
 

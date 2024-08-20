@@ -1,6 +1,8 @@
+using Content.Server._Pirate.Banking; //Pirate banking
 using Content.Server.Access.Systems;
 using Content.Server.Cargo.Components;
 using Content.Server.DeviceLinking.Systems;
+using Content.Server.GameTicking; //Pirate banking
 using Content.Server.Paper;
 using Content.Server.Popups;
 using Content.Server.Shuttles.Systems;
@@ -49,6 +51,9 @@ public sealed partial class CargoSystem : SharedCargoSystem
     [Dependency] private readonly IComponentFactory _factory = default!;
     [Dependency] private readonly MapLoaderSystem _mapLoader = default!;
 
+    [Dependency] private readonly GameTicker _ticker = default!; //Pirate banking
+    [Dependency] private readonly BankCardSystem _bankCard = default!; //Pirate banking
+
     private EntityQuery<TransformComponent> _xformQuery;
     private EntityQuery<CargoSellBlacklistComponent> _blacklistQuery;
     private EntityQuery<MobStateComponent> _mobQuery;
@@ -71,7 +76,18 @@ public sealed partial class CargoSystem : SharedCargoSystem
         InitializeShuttle();
         InitializeTelepad();
         InitializeBounty();
+
+        SubscribeLocalEvent<StationBankAccountComponent, ComponentInit>(OnInit); //Pirate banking
     }
+
+    //Pirate banking Start
+    private void OnInit(EntityUid uid, StationBankAccountComponent component, ComponentInit args)
+    {
+        component.BankAccount = _bankCard.CreateAccount(default, 2000);
+        component.BankAccount.CommandBudgetAccount = true;
+        component.BankAccount.Name = Loc.GetString("command-budget");
+    }
+    //Pirate banking end
 
     public override void Update(float frameTime)
     {
