@@ -1,3 +1,4 @@
+using Content.Server._Pirate.Banking; //Pirate banking
 using Content.Shared.Cargo;
 
 namespace Content.Server.Cargo.Components;
@@ -8,8 +9,17 @@ namespace Content.Server.Cargo.Components;
 [RegisterComponent, Access(typeof(SharedCargoSystem))]
 public sealed partial class StationBankAccountComponent : Component
 {
-    [ViewVariables(VVAccess.ReadWrite), DataField("balance")]
-    public int Balance = 2000;
+    //Pirate banking Start
+    [ViewVariables(VVAccess.ReadWrite)]
+    public int Balance
+    {
+        get => BankAccount.Balance;
+        set => BankAccount.Balance = value;
+    }
+
+    [ViewVariables]
+    public BankAccount BankAccount = default!;
+    //Pirate banking End
 
     /// <summary>
     /// How much the bank balance goes up per second, every Delay period. Rounded down when multiplied.

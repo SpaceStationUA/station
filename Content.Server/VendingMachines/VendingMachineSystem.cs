@@ -1,3 +1,5 @@
+using Content.Server._Pirate.Banking; // Pirate banking
+using Content.Shared._Pirate.Banking; // Pirate banking
 using System.Linq;
 using System.Numerics;
 using Content.Server.Advertise;
@@ -6,6 +8,8 @@ using Content.Server.Cargo.Systems;
 using Content.Server.Emp;
 using Content.Server.Power.Components;
 using Content.Server.Power.EntitySystems;
+using Content.Server.Stack; // Pirate banking
+using Content.Server.Store.Components; // Pirate banking
 using Content.Shared.Access.Components;
 using Content.Shared.Access.Systems;
 using Content.Shared.Actions;
@@ -15,7 +19,11 @@ using Content.Shared.DoAfter;
 using Content.Shared.Emag.Components;
 using Content.Shared.Emag.Systems;
 using Content.Shared.Emp;
+using Content.Shared.Interaction; // Pirate banking
+using Content.Shared.PDA; // Pirate banking
 using Content.Shared.Popups;
+using Content.Shared.Stacks; // Pirate banking
+using Content.Shared.Tag; // Pirate banking
 using Content.Shared.Throwing;
 using Content.Shared.UserInterface;
 using Content.Shared.VendingMachines;
@@ -38,6 +46,13 @@ namespace Content.Server.VendingMachines
         [Dependency] private readonly UserInterfaceSystem _userInterfaceSystem = default!;
         [Dependency] private readonly IGameTiming _timing = default!;
         [Dependency] private readonly SpeakOnUIClosedSystem _speakOnUIClosed = default!;
+
+        //Pirate banking Start
+        [Dependency] private readonly BankCardSystem _bankCard = default!;
+        [Dependency] private readonly TagSystem _tag = default!;
+        [Dependency] private readonly StackSystem _stackSystem = default!;
+        private const double GlobalPriceMultiplier = 2.0;
+        //Pirate banking end
 
         public override void Initialize()
         {
@@ -63,6 +78,12 @@ namespace Content.Server.VendingMachines
             SubscribeLocalEvent<VendingMachineComponent, RestockDoAfterEvent>(OnDoAfter);
 
             SubscribeLocalEvent<VendingMachineRestockComponent, PriceCalculationEvent>(OnPriceCalculation);
+
+            //Pirate banking Start
+            SubscribeLocalEvent<VendingMachineComponent, InteractUsingEvent>(OnInteractUsing);
+            SubscribeLocalEvent<VendingMachineComponent, VendingMachineWithdrawMessage>(OnWithdrawMessage);
+            //Pirate banking end
+
         }
 
         private void OnComponentMapInit(EntityUid uid, VendingMachineComponent component, MapInitEvent args)
@@ -112,7 +133,8 @@ namespace Content.Server.VendingMachines
 
         private void UpdateVendingMachineInterfaceState(EntityUid uid, VendingMachineComponent component)
         {
-            var state = new VendingMachineInterfaceState(GetAllInventory(uid, component));
+            var state = new VendingMachineInterfaceState(GetAllInventory(uid, component), GetPriceMultiplier(component),
+                component.Credits); //Pirate banking
 
             _userInterfaceSystem.TrySetUiState(uid, VendingMachineUiKey.Key, state);
         }
@@ -142,7 +164,10 @@ namespace Content.Server.VendingMachines
         private void OnEmagged(EntityUid uid, VendingMachineComponent component, ref GotEmaggedEvent args)
         {
             // only emag if there are emag-only items
-            args.Handled = component.EmaggedInventory.Count > 0;
+            //Pirate banking start
+            args.Handled = component.EmaggedInventory.Count > 0 || component.PriceMultiplier > 0;
+            UpdateVendingMachineInterfaceState(uid, component);
+            //Pirate banking end
         }
 
         private void OnDamage(EntityUid uid, VendingMachineComponent component, DamageChangedEvent args)
@@ -232,7 +257,7 @@ namespace Content.Server.VendingMachines
             if (_accessReader.IsAllowed(sender, uid, accessReader) || HasComp<EmaggedComponent>(uid))
                 return true;
 
-            Popup.PopupEntity(Loc.GetString("vending-machine-component-try-eject-access-denied"), uid);
+            Popup.PopupEntity(Loc.GetString("vending-machine-component-try-eject-access-denied"), uid, sender); //Pirate banking
             Deny(uid, vendComponent);
             return false;
         }
@@ -246,7 +271,7 @@ namespace Content.Server.VendingMachines
         /// <param name="itemId">The prototype ID of the item</param>
         /// <param name="throwItem">Whether the item should be thrown in a random direction after ejection</param>
         /// <param name="vendComponent"></param>
-        public void TryEjectVendorItem(EntityUid uid, InventoryType type, string itemId, bool throwItem, VendingMachineComponent? vendComponent = null)
+        public void TryEjectVendorItem(EntityUid uid, InventoryType type, string itemId, bool throwItem, VendingMachineComponent? vendComponent = null, EntityUid? sender = null) //Pirate banking
         {
             if (!Resolve(uid, ref vendComponent))
                 return;
@@ -260,14 +285,20 @@ namespace Content.Server.VendingMachines
 
             if (entry == null)
             {
-                Popup.PopupEntity(Loc.GetString("vending-machine-component-try-eject-invalid-item"), uid);
+                //Pirate banking start
+                if (sender.HasValue)
+                    Popup.PopupEntity(Loc.GetString("vending-machine-component-try-eject-invalid-item"), uid, sender.Value);
+                //Pirate banking end
                 Deny(uid, vendComponent);
                 return;
             }
 
             if (entry.Amount <= 0)
             {
-                Popup.PopupEntity(Loc.GetString("vending-machine-component-try-eject-out-of-stock"), uid);
+                //Pirate banking start
+                if (sender.HasValue)
+                    Popup.PopupEntity(Loc.GetString("vending-machine-component-try-eject-out-of-stock"), uid, sender.Value);
+                //Pirate banking end
                 Deny(uid, vendComponent);
                 return;
             }
@@ -275,6 +306,44 @@ namespace Content.Server.VendingMachines
             if (string.IsNullOrEmpty(entry.ID))
                 return;
 
+            //Pirate banking start
+            var price = GetPrice(entry, vendComponent);
+            if (price > 0 && sender.HasValue && !_tag.HasTag(sender.Value, "IgnoreBalanceChecks"))
+            {
+                var success = false;
+                if (vendComponent.Credits >= price)
+                {
+                    vendComponent.Credits -= price;
+                    success = true;
+                }
+                else
+                {
+                    var items = _accessReader.FindPotentialAccessItems(sender.Value);
+                    foreach (var item in items)
+                    {
+                        var nextItem = item;
+                        if (TryComp(item, out PdaComponent? pda) && pda.ContainedId is { Valid: true } id)
+                            nextItem = id;
+
+                        if (!TryComp<BankCardComponent>(nextItem, out var bankCard) || !bankCard.AccountId.HasValue
+                            || !_bankCard.TryGetAccount(bankCard.AccountId.Value, out var account)
+                            || account.Balance < price)
+                            continue;
+
+                        _bankCard.TryChangeBalance(bankCard.AccountId.Value, -price);
+                        success = true;
+                        break;
+                    }
+                }
+
+                if (!success)
+                {
+                    Popup.PopupEntity(Loc.GetString("vending-machine-component-no-balance"), uid);
+                    Deny(uid, vendComponent);
+                    return;
+                }
+            }
+            //Pirate banking end
 
             // Start Ejecting, and prevent users from ordering while anim playing
             vendComponent.Ejecting = true;
@@ -302,7 +371,7 @@ namespace Content.Server.VendingMachines
         {
             if (IsAuthorized(uid, sender, component))
             {
-                TryEjectVendorItem(uid, type, itemId, component.CanShoot, component);
+                TryEjectVendorItem(uid, type, itemId, component.CanShoot, component, sender); //Pirate banking
             }
         }
 
@@ -495,5 +564,54 @@ namespace Content.Server.VendingMachines
 
             args.Price += priceSets.Max();
         }
+
+        //Pirate banking start
+        private void OnInteractUsing(EntityUid uid, VendingMachineComponent component, InteractUsingEvent args)
+        {
+            if (args.Handled)
+                return;
+
+            if (component.Broken || !this.IsPowered(uid, EntityManager))
+                return;
+
+            if (!TryComp<CurrencyComponent>(args.Used, out var currency) ||
+                !currency.Price.Keys.Contains(component.CurrencyType))
+                return;
+
+            var stack = Comp<StackComponent>(args.Used);
+            component.Credits += stack.Count;
+            Del(args.Used);
+            UpdateVendingMachineInterfaceState(uid, component);
+            Audio.PlayPvs(component.SoundInsertCurrency, uid);
+            args.Handled = true;
+        }
+
+        protected override int GetEntryPrice(EntityPrototype proto)
+        {
+            var price = (int) _pricing.GetEstimatedPrice(proto);
+            return price > 0 ? price : 25;
+        }
+
+        private int GetPrice(VendingMachineInventoryEntry entry, VendingMachineComponent comp)
+        {
+            return (int) (entry.Price * GetPriceMultiplier(comp));
+        }
+
+        private double GetPriceMultiplier(VendingMachineComponent comp)
+        {
+            return comp.PriceMultiplier * GlobalPriceMultiplier;
+        }
+
+        private void OnWithdrawMessage(EntityUid uid, VendingMachineComponent component, VendingMachineWithdrawMessage args)
+        {
+            _stackSystem.Spawn(component.Credits, PrototypeManager.Index(component.CreditStackPrototype),
+                Transform(uid).Coordinates);
+            component.Credits = 0;
+            Audio.PlayPvs(component.SoundWithdrawCurrency, uid);
+
+            UpdateVendingMachineInterfaceState(uid, component);
+        }
+        //Pirate banking end
+
     }
 }

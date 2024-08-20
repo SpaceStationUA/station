@@ -109,7 +109,8 @@
         prob: 0.3
       - id: ClothingMaskSterile
       - id: LunchboxMedicalFilledRandom # Delta-V Lunchboxes!
-        prob: 0.3 
+        prob: 0.3
+      - id: Eftpos #Pirate banking
 
 - type: entity
   parent: LockerWallMedical
@@ -145,7 +146,8 @@
         orGroup: Surgshrubs
       - id: ClothingMaskSterile
       - id: LunchboxMedicalFilledRandom # Delta-V Lunchboxes!
-        prob: 0.3 
+        prob: 0.3
+      - id: Eftpos #Pirate banking
 
 - type: entity
   id: LockerChemistryFilled
@@ -167,6 +169,7 @@
       - id: ClothingMaskSterile
       - id: HandLabeler
         prob: 0.5
+      - id: Eftpos #Pirate banking
 
 - type: entity
   id: LockerParamedicFilled #Delta V - Paramedic locker without suit
@@ -187,7 +190,8 @@
       - id: MedkitFilled
         prob: 0.3
       - id: LunchboxMedicalFilledRandom # Delta-V Lunchboxes!
-        prob: 0.3 
+        prob: 0.3
+      - id: Eftpos #Pirate banking
 
 - type: entity
   id: LockerParamedicFilledHardsuit #Delta V - Paramedic locker with suit
@@ -211,4 +215,5 @@
       - id: MedkitFilled
         prob: 0.3
       - id: LunchboxMedicalFilledRandom # Delta-V Lunchboxes!
-        prob: 0.3 
+        prob: 0.3
+      - id: Eftpos #Pirate banking
