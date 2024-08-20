@@ -43,8 +43,8 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatBluesoft
-  name: "синя шапочка"
-  description: "Це бейсболка позбавленого смаку синього кольору."
+  name: blue cap
+  description: "It's a baseball hat in a tasteless blue colour."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/bluesoft.rsi
@@ -54,13 +54,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBluesoft]
   id: ClothingHeadHatBluesoftFlipped
-  name: "синя шапочка"
+  name: blue cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatCargosoft
-  name: "логістичний ковпак" # DeltaV - Logistics Department replacing Cargo
-  description: "Це бейсболка, розфарбована у кольори логістики." # DeltaV - Logistics Department replacing Cargo
+  name: logistics cap # DeltaV - Logistics Department replacing Cargo
+  description: "It's a baseball hat painted in Logistics colours." # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/cargosoft.rsi
@@ -75,8 +75,8 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatCargosoft]
   id: ClothingHeadHatCargosoftFlipped
-  name: "логістичний ковпак" # DeltaV - Logistics Department replacing Cargo
-  description: "Це бейсболка, розфарбована в кольори Логістики. Перевернута." # DeltaV - Logistics Department replacing Cargo
+  name: logistics cap # DeltaV - Logistics Department replacing Cargo
+  description: "It's a baseball hat painted in Logistics colours. Flipped." # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Tag
     tags:
@@ -87,8 +87,8 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatQMsoft
-  name: "кашкет офіцера логістики" # DeltaV - Logistics Department replacing Cargo
-  description: "Це бейсболка, розфарбована у кольори офіцера логістики."
+  name: logistics officer's cap # DeltaV - Logistics Department replacing Cargo
+  description: "It's a baseball hat painted in the Logistics Officer's colors."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/qmsoft.rsi
@@ -98,13 +98,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatQMsoft]
   id: ClothingHeadHatQMsoftFlipped
-  name: "кашкет офіцера логістики"
+  name: logistics officer's cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatCorpsoft
-  name: "корпоративна кепка"
-  description: "Бейсбольна біта в корпоративних кольорах."
+  name: corporate cap
+  description: A baseball bat in corporation colors.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/corpsoft.rsi
@@ -114,13 +114,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatCorpsoft]
   id: ClothingHeadHatCorpsoftFlipped
-  name: "корпоративна кепка"
+  name: corporate cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatGreensoft
-  name: "зелений кашкет"
-  description: "Це бейсболка позбавленого смаку зеленого кольору."
+  name: green cap
+  description: "It's a baseball hat in a tasteless green colour."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/greensoft.rsi
@@ -130,13 +130,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatGreensoft]
   id: ClothingHeadHatGreensoftFlipped
-  name: "зелений кашкет"
+  name: green cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatBlacksoft
-  name: "чорний кашкет"
-  description: "Це бейсболка позбавленого смаку чорного кольору."
+  name: black cap
+  description: "It's a baseball hat in a tasteless black colour."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/blacksoft.rsi
@@ -146,13 +146,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBlacksoft]
   id: ClothingHeadHatBlacksoftFlipped
-  name: "чорний кашкет"
+  name: black cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatGreysoft
-  name: "сіра кепка"
-  description: "Це бейсболка позбавленого смаку сірого кольору."
+  name: grey cap
+  description: "It's a baseball hat in a tasteless grey colour."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/greysoft.rsi
@@ -162,13 +162,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatGreysoft]
   id: ClothingHeadHatGreysoftFlipped
-  name: "сіра кепка"
+  name: grey cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatMimesoft
-  name: "мімічна шапочка"
-  description: "Це бейсболка позбавленого смаку білого кольору."
+  name: mime cap
+  description: "It's a baseball hat in a tasteless white colour."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/mimesoft.rsi
@@ -178,13 +178,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatMimesoft]
   id: ClothingHeadHatMimesoftFlipped
-  name: "мімічна шапочка"
+  name: mime cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatOrangesoft
-  name: "помаранчевий ковпачок"
-  description: "Це бейсболка гарного помаранчевого кольору."
+  name: orange cap
+  description: It's a baseball hat in a good-looking orange colour.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/orangesoft.rsi
@@ -194,13 +194,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatOrangesoft]
   id: ClothingHeadHatOrangesoftFlipped
-  name: "помаранчевий ковпачок"
+  name: orange cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatPurplesoft
-  name: "фіолетовий ковпачок"
-  description: "Це бейсболка позбавленого смаку фіолетового кольору."
+  name: purple cap
+  description: It's a baseball hat in a tasteless purple colour.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/purplesoft.rsi
@@ -215,7 +215,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatPurplesoft]
   id: ClothingHeadHatPurplesoftFlipped
-  name: "фіолетовий ковпачок"
+  name: purple cap
   components:
   - type: Tag
     tags:
@@ -226,8 +226,8 @@
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatRedsoft
-  name: "червона шапочка"
-  description: "Це бейсболка позбавленого смаку червоного кольору."
+  name: red cap
+  description: It's a baseball hat in a tasteless red colour.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/redsoft.rsi
@@ -237,13 +237,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatRedsoft]
   id: ClothingHeadHatRedsoftFlipped
-  name: "червона шапочка"
+  name: red cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatSecsoft
-  name: "захисний ковпачок"
-  description: "Це міцна бейсболка зі смаком виконана в червоному кольорі."
+  name: security cap
+  description: It's a robust baseball hat in tasteful red colour.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/secsoft.rsi
@@ -253,13 +253,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSecsoft]
   id: ClothingHeadHatSecsoftFlipped
-  name: "захисний ковпачок"
+  name: security cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatYellowsoft
-  name: "жовтий ковпачок"
-  description: "Жовта бейсболка."
+  name: yellow cap
+  description: A yellow baseball hat.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/yellowsoft.rsi
@@ -269,13 +269,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatYellowsoft]
   id: ClothingHeadHatYellowsoftFlipped
-  name: "жовтий ковпачок"
+  name: yellow cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatBizarreSoft
-  name: "кепка баламута"
-  description: "Дійсно... дивний аксесуар."
+  name: troublemaker's cap
+  description: A truly.. bizarre accessory.
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/bizarresoft.rsi
@@ -285,13 +285,13 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBizarreSoft]
   id: ClothingHeadHatBizarreSoftFlipped
-  name: "кепка баламута"
+  name: troublemaker's cap
 
 - type: entity
   parent: ClothingHeadHeadHatBaseFlippable
   id: ClothingHeadHatParamedicsoft
-  name: "шапочка парамедика"
-  description: "Це бейсболка парамедика з медичним логотипом."
+  name: paramedic cap
+  description: "It's a paramedic's baseball hat with a medical logo."
   components:
   - type: Sprite
     sprite: Clothing/Head/Soft/paramedicsoft.rsi
@@ -306,7 +306,7 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatParamedicsoft]
   id: ClothingHeadHatParamedicsoftFlipped
-  name: "шапочка парамедика"
+  name: paramedic cap
   components:
   - type: Tag
     tags:
