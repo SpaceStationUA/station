@@ -27,6 +27,7 @@
       - NewsReaderCartridge
       - CrimeAssistCartridge
       - SecWatchCartridge
+      - WalletCartridge # Pirate banking
   - type: Pda
     id: BrigmedicIDCard
     state: pda-corpsman
@@ -79,6 +80,7 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - CrimeAssistCartridge
+      - WalletCartridge # Pirate banking
 
 - type: entity
   parent: BasePDA
@@ -118,7 +120,8 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - CrimeAssistCartridge
-      
+      - WalletCartridge # Pirate banking
+
 - type: entity
   parent: BasePDA
   id: ProsecutorPDA
@@ -157,6 +160,7 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - CrimeAssistCartridge
+      - WalletCartridge # Pirate banking
 
 - type: entity
   parent: SyndiPDA
