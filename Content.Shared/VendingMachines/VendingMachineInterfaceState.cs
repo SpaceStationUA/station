@@ -7,11 +7,28 @@ namespace Content.Shared.VendingMachines
     {
         public List<VendingMachineInventoryEntry> Inventory;
 
-        public VendingMachineInterfaceState(List<VendingMachineInventoryEntry> inventory)
+        //Pirate banking start
+        public double PriceMultiplier;
+        public int Credits;
+
+        public VendingMachineInterfaceState(List<VendingMachineInventoryEntry> inventory, double priceMultiplier,
+            int credits)
+        //Pirate banking end
         {
             Inventory = inventory;
+            //Pirate banking start
+            PriceMultiplier = priceMultiplier;
+            Credits = credits;
+            //Pirate banking end
         }
     }
+
+    //Pirate banking start
+    [Serializable, NetSerializable]
+    public sealed class VendingMachineWithdrawMessage : BoundUserInterfaceMessage
+    {
+    }
+    //Pirate banking end
 
     [Serializable, NetSerializable]
     public sealed class VendingMachineEjectMessage : BoundUserInterfaceMessage

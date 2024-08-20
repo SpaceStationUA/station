@@ -26,16 +26,17 @@ namespace Content.Client.VendingMachines
 
             var vendingMachineSys = EntMan.System<VendingMachineSystem>();
 
-            _cachedInventory = vendingMachineSys.GetAllInventory(Owner);
+            var component = EntMan.GetComponent<VendingMachineComponent>(Owner); //Pirate banking
+            _cachedInventory = vendingMachineSys.GetAllInventory(Owner, component); //Pirate banking
 
             _menu = new VendingMachineMenu { Title = EntMan.GetComponent<MetaDataComponent>(Owner).EntityName };
 
             _menu.OnClose += Close;
             _menu.OnItemSelected += OnItemSelected;
             _menu.OnSearchChanged += OnSearchChanged;
+            _menu.OnWithdraw += SendMessage; //Pirate banking
 
-            _menu.Populate(_cachedInventory, out _cachedFilteredIndex);
-
+            _menu.Populate(_cachedInventory, out _cachedFilteredIndex, component.PriceMultiplier, component.Credits); //Pirate banking
             _menu.OpenCenteredLeft();
         }
 
@@ -48,7 +49,7 @@ namespace Content.Client.VendingMachines
 
             _cachedInventory = newState.Inventory;
 
-            _menu?.Populate(_cachedInventory, out _cachedFilteredIndex, _menu.SearchBar.Text);
+            _menu?.Populate(_cachedInventory, out _cachedFilteredIndex, newState.PriceMultiplier, newState.Credits); //Pirate banking
         }
 
         private void OnItemSelected(ItemList.ItemListSelectedEventArgs args)
@@ -80,7 +81,10 @@ namespace Content.Client.VendingMachines
 
         private void OnSearchChanged(string? filter)
         {
-            _menu?.Populate(_cachedInventory, out _cachedFilteredIndex, filter);
+            //Pirate banking Start
+            var component = EntMan.GetComponent<VendingMachineComponent>(Owner);
+            _menu?.Populate(_cachedInventory, out _cachedFilteredIndex, component.PriceMultiplier, component.Credits, filter);
+            //Pirate banking end
         }
     }
 }

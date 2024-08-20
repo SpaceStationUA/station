@@ -17,6 +17,7 @@ namespace Content.Client.VendingMachines.UI
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
 
         public event Action<ItemList.ItemListSelectedEventArgs>? OnItemSelected;
+        public Action<VendingMachineWithdrawMessage>? OnWithdraw; //Pirate banking
         public event Action<string>? OnSearchChanged;
 
         public VendingMachineMenu()
@@ -40,8 +41,18 @@ namespace Content.Client.VendingMachines.UI
         /// Populates the list of available items on the vending machine interface
         /// and sets icons based on their prototypes
         /// </summary>
-        public void Populate(List<VendingMachineInventoryEntry> inventory, out List<int> filteredInventory,  string? filter = null)
+        public void Populate(List<VendingMachineInventoryEntry> inventory, out List<int> filteredInventory, double priceMultiplier, int credits,  string? filter = null) // Pirate banking
         {
+            //Pirate banking Start
+            CreditsLabel.Text = Loc.GetString("vending-ui-credits-amount", ("credits", credits));
+            WithdrawButton.Disabled = credits == 0;
+            WithdrawButton.OnPressed += _ =>
+            {
+                if (credits == 0)
+                    return;
+                OnWithdraw?.Invoke(new VendingMachineWithdrawMessage());
+            };
+            //Pirate banking End
             filteredInventory = new();
 
             if (inventory.Count == 0)
@@ -68,6 +79,7 @@ namespace Content.Client.VendingMachines.UI
             for (var i = 0; i < inventory.Count; i++)
             {
                 var entry = inventory[i];
+                var price = (int)(entry.Price * priceMultiplier); //Pirate banking
                 var vendingItem = VendingContents[i - filterCount];
                 vendingItem.Text = string.Empty;
                 vendingItem.Icon = null;
@@ -92,7 +104,7 @@ namespace Content.Client.VendingMachines.UI
                 if (itemName.Length > longestEntry.Length)
                     longestEntry = itemName;
 
-                vendingItem.Text = $"{itemName} [{entry.Amount}]";
+                vendingItem.Text = $" [{price}$] {itemName} [{entry.Amount}]"; //Pirate banking
                 vendingItem.Icon = icon;
                 filteredInventory.Add(i);
             }

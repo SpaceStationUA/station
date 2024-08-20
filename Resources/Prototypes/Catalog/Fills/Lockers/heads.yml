@@ -22,6 +22,7 @@
       - id: QuartermasterIDCard # Delta-V
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: Eftpos #Pirate banking
 
 - type: entity
   id: LockerCaptainFilledHardsuit
@@ -139,6 +140,10 @@
       - id: ClothingHandsGlovesInspection # DeltaV - Add inspection gloves for HoP.
       - id: LunchboxCommandFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      # Pirate Banking Start
+      - id: CommandBudgetCard
+      - id: CommandBudgetPinPaper
+      # Pirate Banking End
 
 - type: entity
   id: LockerChiefEngineerFilledHardsuit
