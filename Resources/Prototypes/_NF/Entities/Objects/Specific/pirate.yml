@@ -1,9 +1,9 @@
 - type: entity
-  name: doubloon
+  name: "дублону"
   parent: BaseItem
   id: Doubloon
   suffix: 20 DB
-  description: A dirty gold coin used for nefarious pirate exchanges.
+  description: "Брудна золота монета, яку використовували для брудних піратських обмінів."
   components:
   - type: Sprite
     sprite: _NF/Objects/Specific/Pirate/pirate_doubloon.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: BaseItem
   id: BasePirateUplink
-  name: pirate uplink
-  description: A coconut with an antenna?
+  name: "піратський канал зв'язку"
+  description: "Кокос з антеною?"
   suffix: Empty
   noSpawn: true
   components:

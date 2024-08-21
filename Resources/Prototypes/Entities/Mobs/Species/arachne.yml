@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McArachne
+  name: "Уріст МакАрахн"
   parent: BaseMobHuman
   id: MobArachneBase
   abstract: true
@@ -138,11 +138,11 @@
 
 - type: entity
   save: false
-  name: Urist McHands
+  name: "Уріст МакХендс"
   parent: MobHumanDummy
   id: MobArachneDummy
   noSpawn: true
-  description: A dummy arachne meant to be used in character setup.
+  description: "Фіктивна павутина, призначена для використання в налаштуваннях символів."
   components:
   - type: Sprite
     layers:

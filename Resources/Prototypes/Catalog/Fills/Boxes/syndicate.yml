@@ -1,7 +1,7 @@
 - type: entity
   id: ElectricalDisruptionKit
   parent: BoxCardboard
-  name: electrical disruption kit
+  name: "комплект для захисту від перебоїв в електропостачанні"
   suffix: Filled
   components:
     - type: StorageFill
@@ -14,8 +14,8 @@
 - type: entity
   parent: BoxVial
   id: ChemicalSynthesisKit
-  name: chemical synthesis kit
-  description: A starter kit for the aspiring chemist, includes toxin and vestine for all your criminal needs!
+  name: "набір для хімічного синтезу"
+  description: "Стартовий набір для хіміка-початківця, що включає токсин і вестину для всіх ваших злочинних потреб!"
   components:
   - type: Storage
     grid:
@@ -35,7 +35,7 @@
 - type: entity
   id: Observationskit
   parent: BoxCardboard
-  name: observations kit
+  name: "набір для спостережень"
   suffix: Filled
   components:
   - type: StorageFill
@@ -52,8 +52,8 @@
 - type: entity
   parent: BoxCardboard
   id: ThrowingKnivesKit
-  name: throwing knives kit
-  description: A set of 4 syndicate branded throwing knives, perfect for embedding into the body of your victims.
+  name: "набір метальних ножів"
+  description: "Набір з 4 фірмових метальних ножів синдикату, які ідеально підходять для встромляння в тіло жертви."
   components:
   - type: Storage
     grid:
