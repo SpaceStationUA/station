@@ -26,17 +26,21 @@
     price: 0
   - type: StackPrice
     price: 1
-#PIRATE START
-  - type: Healing # ipc. cables can be used to heal IPC
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 15
+  #Same as Ointment but divided by 5 and 3 because StackPrice needs to be 1 - Estacao Pirata IPCs
+  #1 Ointment = -50 damage of those types
+  #1 Cable ~= -50 (-49.8) damage of those types 
+  - type: Healing
+    delay: 0.6
     damageContainers:
-      - IPCSilicon
+    - Silicon
     damage:
-      types:
-        Heat: -5
-        Cold: -5
-        Shock: -5
-        Caustic: -5
-#PIRATE END
+      types: # these are all split across multiple types
+        Heat: -1.66
+        Shock: -1.66
+
 - type: entity
   id: CableHVStack
   parent: CableStack

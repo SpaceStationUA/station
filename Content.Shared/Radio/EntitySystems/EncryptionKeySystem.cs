@@ -178,13 +178,11 @@ public sealed partial class EncryptionKeySystem : EntitySystem
         if (!args.IsInDetailsRange)
             return;
 
-        //PIRATE Parkstation-Ipc-Start
         if (!component.ExamineWhileLocked && !component.KeysUnlocked)
             return;
 
         if (!component.ExamineWhileLocked && TryComp<WiresPanelComponent>(uid, out var panel) && !panel.Open)
             return;
-        //PIRATE Parkstation-Ipc-End
 
         if (component.KeyContainer.ContainedEntities.Count == 0)
         {

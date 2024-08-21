@@ -43,6 +43,13 @@ public sealed partial class EncryptionKeyHolderComponent : Component
     public const string KeyContainerName = "key_slots";
 
     /// <summary>
+    ///     Whether or not the headset can be examined to see the encryption keys while the keys aren't accessible.
+    /// </summary>
+    [ViewVariables(VVAccess.ReadWrite)]
+    [DataField("examineWhileLocked")]
+    public bool ExamineWhileLocked = true;
+
+    /// <summary>
     ///     Combined set of radio channels provided by all contained keys.
     /// </summary>
     [ViewVariables]
@@ -53,13 +60,4 @@ public sealed partial class EncryptionKeyHolderComponent : Component
     /// </summary>
     [ViewVariables]
     public string? DefaultChannel;
-
-    //PIRATE Parkstation-Ipc-Start
-    /// <summary>
-    ///     Whether or not the headset can be examined to see the encryption keys while the keys aren't accessible.
-    /// </summary>
-    [ViewVariables(VVAccess.ReadWrite)]
-    [DataField("examineWhileLocked")]
-    public bool ExamineWhileLocked = true;
-    //PIRATE Parkstation-Ipc-End
 }
