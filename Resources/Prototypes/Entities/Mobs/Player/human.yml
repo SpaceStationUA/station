@@ -11,6 +11,12 @@
   name: syndicate agent
   suffix: Human, Base
   components:
+    - type: Tag
+      tags:
+      - CanPilot
+      - FootstepSound
+      - DoorBumpOpener
+      - IgnoreBalanceChecks # Pirate banking
     - type: Loadout
       prototypes: [SyndicateOperativeGearExtremelyBasic]
     - type: RandomMetadata
@@ -44,6 +50,12 @@
   parent: MobHuman
   id: MobHumanNukeOp
   components:
+    - type: Tag
+      tags:
+      - CanPilot
+      - FootstepSound
+      - DoorBumpOpener
+      - IgnoreBalanceChecks # Pirate banking
     - type: NukeOperative
     - type: RandomHumanoidAppearance
     - type: Psionic
@@ -55,6 +67,12 @@
   id: MobHumanLoneNuclearOperative
   name: Lone Operative
   components:
+    - type: Tag
+      tags:
+      - CanPilot
+      - FootstepSound
+      - DoorBumpOpener
+      - IgnoreBalanceChecks # Pirate banking
     - type: RandomHumanoidAppearance
       randomizeName: false
     - type: NukeOperative
@@ -77,6 +95,12 @@
   parent: MobHuman
   id: MobHumanSpaceNinja
   components:
+  - type: Tag
+    tags:
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
+    - IgnoreBalanceChecks # Pirate banking
   - type: RandomHumanoidAppearance
     randomizeName: false
   - type: Loadout
@@ -102,6 +126,12 @@
   parent: MobHuman
   id: MobHumanMage
   components:
+  - type: Tag
+    tags:
+    - CanPilot
+    - FootstepSound
+    - DoorBumpOpener
+    - IgnoreBalanceChecks # Pirate banking
   - type: RandomHumanoidAppearance
     randomizeName: false
   - type: Loadout
