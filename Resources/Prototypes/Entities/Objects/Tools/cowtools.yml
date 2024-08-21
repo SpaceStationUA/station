@@ -1,8 +1,8 @@
 - type: entity
-  name: haycutters
+  name: "сінокосарки"
   parent: BaseItem
   id: Haycutters
-  description: This kills the wire. Moo!
+  description: "Це вбиває дріт. Муу!"
   components:
   - type: Tag
     tags:
@@ -26,10 +26,10 @@
     sprite: Objects/Tools/Cowtools/haycutters.rsi
 
 - type: entity
-  name: moodriver
+  name: "настрій"
   parent: BaseItem
   id: Moodriver
-  description: Turn to use. Moo!
+  description: "Повернись до використання. Муу!"
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/moodriver.rsi
@@ -49,10 +49,10 @@
     speed: 0.05
 
 - type: entity
-  name: wronch
+  name: "ключ"
   parent: BaseItem
   id: Wronch
-  description: Wronch thing. Moo!
+  description: "Погана штука. Муу!"
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/wronch.rsi
@@ -72,10 +72,10 @@
     speed: 0.05
 
 - type: entity
-  name: cowbar
+  name: "коров'яча штанга"
   parent: BaseItem
   id: Cowbar
-  description: Cow your problems away. Moo!
+  description: "Забудьте про свої проблеми. Муу!"
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cowbar.rsi
@@ -98,10 +98,10 @@
   - type: Prying
 
 - type: entity
-  name: mooltitool
+  name: "mooltitool"
   parent: BaseItem
   id: Mooltitool
-  description: An crude tool to copy, store, and send electrical pulses and signals through wires and machines. Moo!
+  description: "Примітивний інструмент для копіювання, зберігання та надсилання електричних імпульсів і сигналів через дроти та машини. Муу!"
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/mooltitool.rsi
@@ -116,10 +116,10 @@
       - Multitool
 
 - type: entity
-  name: cowelding tool
+  name: "зварювальний інструмент"
   parent: Welder
   id: Cowelder
-  description: "Melts anything as long as it's fueled, don't forget your eye protection! Moo!"
+  description: "Розплавляє все, що завгодно, якщо воно заправлене паливом, не забудьте захисні окуляри! Муу!"
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cowelder.rsi
@@ -135,10 +135,10 @@
         Blunt: -5
 
 - type: entity
-  name: milkalyzer
+  name: "молочний аналізатор"
   parent: BaseItem
   id: Milkalyzer
-  description: A hand-held environmental scanner which reports current gas levels. Moo!
+  description: "Ручний екологічний сканер, який повідомляє про поточний рівень загазованості. Муу!"
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/milkalyzer.rsi
@@ -152,10 +152,10 @@
   - type: Appearance
 
 - type: entity
-  name: cow toolbox
+  name: "ящик для інструментів для корів"
   parent: ToolboxBase
   id: CowToolbox
-  description: A weirdly shaped box, stocked with... tools?
+  description: "Ящик дивної форми, наповнений... інструментами?"
   components:
   - type: Sprite
     sprite: Objects/Tools/Cowtools/cow_toolbox.rsi
@@ -169,7 +169,7 @@
 
 - type: entity
   id: CowToolboxFilled
-  name: cow toolbox
+  name: "ящик для інструментів для корів"
   suffix: Filled
   parent: CowToolbox
   components:

@@ -2,8 +2,8 @@
   id: BaseFirelock
   abstract: true
   parent: BaseStructure
-  name: firelock
-  description: Apply crowbar.
+  name: "брандспойт"
+  description: "Застосуй лом."
   components:
     - type: AtmosAlarmable
       syncWith:
@@ -127,7 +127,7 @@
 - type: entity
   id: FirelockGlass
   parent: Firelock
-  name: glass firelock
+  name: "скляний замок"
   components:
     - type: Sprite
       sprite: Structures/Doors/Airlocks/Glass/firelock.rsi
@@ -152,7 +152,7 @@
 - type: entity
   id: FirelockEdge
   parent: Firelock
-  name: firelock
+  name: "брандспойт"
   components:
     - type: Sprite
       sprite: Structures/Doors/edge_door_hazard.rsi
