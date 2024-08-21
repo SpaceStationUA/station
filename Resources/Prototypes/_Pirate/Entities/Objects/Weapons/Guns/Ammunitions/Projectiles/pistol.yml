@@ -1,7 +1,7 @@
 - type: entity
   id: BulletPistolParticle
   parent: BaseBulletParticle
-  name: "BulletParticle"
+  name: BulletParticle
   noSpawn: true
   components:
   - type: Projectile
@@ -15,7 +15,7 @@
 
 - type: entity
   id: BulletPistolParticlePlasma # Poison Burny bullets
-  name: "іонізована плазма"
+  name: ionized plasma
   parent: BaseBulletPistolParticleSolution
   noSpawn: true
   components:
@@ -37,7 +37,7 @@
 
 - type: entity
   id: BulletPistolParticleTritium # Rad Burny bullets
-  name: "іонізований тритій"
+  name: ionized tritium
   parent: BaseBulletPistolParticleSolution
   noSpawn: true
   components:
@@ -59,7 +59,7 @@
 
 - type: entity
   id: BulletPistolParticleFrezon # Cold bullets
-  name: "іонізований фрезон"
+  name: ionized frezon
   parent: BaseBulletPistolParticleSolution
   noSpawn: true
   components:

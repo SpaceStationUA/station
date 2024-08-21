@@ -2,8 +2,8 @@
   abstract: true
   id: GasPipeBase
   parent: BaseItem
-  name: "труба"
-  description: "Тримає газ."
+  name: pipe
+  description: Holds gas.
   placement:
     mode: SnapgridCenter
   components:
@@ -164,8 +164,8 @@
 - type: entity
   id: GasPipeBroken
   parent: GasPipeBase
-  name: "прорвана труба"
-  description: "Там був газ."
+  name: broken pipe
+  description: It used to hold gas.
   components:
   - type: Sprite
     sprite: Structures/Piping/Atmospherics/pipe.rsi
