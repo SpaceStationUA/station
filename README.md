@@ -109,11 +109,9 @@ We provide some scripts shown below to make the job easier.
 
 ## License
 
-Content contributed to this repository after commit 87c70a89a67d0521a56388e6b1c3f2cb947943e4 (`17 February 2024 23:00:00 UTC`) is licensed under the GNU Affero General Public License version 3.0 unless otherwise stated.
-See [LICENSE-AGPLv3](./LICENSE-AGPLv3.txt).
+All content in this repository taken/created from the Wizards Federation repository is licensed under the MIT license. To distinguish which content it does apply, every commit from Wizard Federation is under MIT.
 
-Content contributed to this repository before commit 87c70a89a67d0521a56388e6b1c3f2cb947943e4 (`17 February 2024 23:00:00 UTC`) is licensed under the MIT license unless otherwise stated.
-See [LICENSE-MIT](./LICENSE-MIT.txt).
+All content in this repository taken/created from the Einstein Engines repository in under the GNU Affero General Public License version 3.0 unless otherwise stated. [LICENSE-AGPLv3](./LICENSE-AGPLv3.txt). To distinguish to which content it does apply, it's every commit created in the Einstein Engines repository, unless the same commit is present in Wizard Federation repository, which makes it MIT.
 
 Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file.
 [Example](./Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
