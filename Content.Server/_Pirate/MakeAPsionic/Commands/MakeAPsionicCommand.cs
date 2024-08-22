@@ -1,9 +1,12 @@
+using System.Linq;
 using Content.Server._Pirate.SpecialForces;
 using Content.Server.Administration;
 using Content.Server.Administration.Logs;
 using Content.Shared.Administration;
 using Content.Shared.Ghost;
+using Content.Shared.Psionics;
 using Robust.Shared.Console;
+using Robust.Shared.Prototypes;
 
 namespace Content.Server._Pirate.MakeAPsionic.Commands;
 
@@ -12,12 +15,13 @@ public sealed class MakeAPsionicCommand : IConsoleCommand
 {
     [Dependency] private readonly IAdminLogManager _adminLogger = default!;
     [Dependency] private readonly EntityManager EntityManager = default!;
+    [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
 
     public string Command => "makepsionic";
 
-    public string Description => "робить вибраного гравця псіоніком";
+    public string Description => "Робить вибраного гравця псіоніком.";
 
-    public string Help => "makepsionic <uid> <type>";
+    public string Help => "makepsionic <uid> <psionic power>";
 
     public void Execute(IConsoleShell shell, string argStr, string[] args)
     {
@@ -48,9 +52,9 @@ public sealed class MakeAPsionicCommand : IConsoleCommand
             return;
         }
 
-        if (!Enum.TryParse<MakeAPsionicSystem.PsionicType>(args[1], true, out var psionicType))
+        if (!_prototypeManager.TryIndex<PsionicPowerPrototype>(args[1], out var psionicPower))
         {
-            shell.WriteLine("invalid psionic type");
+            shell.WriteError("Invalid psionic power prototype");
             return;
         }
 
@@ -60,16 +64,20 @@ public sealed class MakeAPsionicCommand : IConsoleCommand
             return;
         }
 
-        EntityManager.System<MakeAPsionicSystem>().MakePsionic(psionicType, target.Value);
+        EntityManager.System<MakeAPsionicSystem>().MakePsionic(psionicPower, target.Value);
     }
 
     public CompletionResult GetCompletion(IConsoleShell shell, string[] args)
     {
-        return args.Length switch
+        switch (args.Length)
         {
-            2 => CompletionResult.FromHintOptions(Enum.GetNames<MakeAPsionicSystem.PsionicType>(),
-                "Тип псіоники"),
-            _ => CompletionResult.Empty
-        };
+            case 2:
+                var options = _prototypeManager.EnumeratePrototypes<PsionicPowerPrototype>()
+                    .Select(p => p.ID)
+                    .ToArray();
+                return CompletionResult.FromHintOptions(options, "Тип псіонічної здібності");
+            default:
+                return CompletionResult.Empty;
+        }
     }
 }
