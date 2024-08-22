@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieWhite
-  name: "біла краватка"
-  description: "Біла краватка кольору слонової кістки."
+  name: white tie
+  description: An ivory-white tie.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Ties/whitetie.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieBlack
-  name: "чорна краватка"
-  description: "Вугільно-чорна краватка."
+  name: black tie
+  description: A charcoal-black tie.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Ties/blacktie.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieBrown
-  name: "коричнева краватка"
-  description: "Шоколадно-коричнева краватка."
+  name: brown tie
+  description: A chocolate-brown tie.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Ties/browntie.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieBlue
-  name: "синя краватка"
-  description: "Блакитно-синя краватка."
+  name: blue tie
+  description: A cerulean-blue tie.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Ties/bluetie.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieGreen
-  name: "зелена краватка"
-  description: "Зелена краватка."
+  name: green tie
+  description: A grass-green tie.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Ties/greentie.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieChem
-  name: "краватка з хімії"
-  description: "Помаранчева краватка."
+  name: chemistry tie
+  description: An safety-orange tie.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Ties/chemtie.rsi
