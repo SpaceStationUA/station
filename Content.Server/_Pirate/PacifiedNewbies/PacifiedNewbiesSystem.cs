@@ -1,3 +1,4 @@
+using Content.Server._Pirate.ForcePacify;
 using Content.Server.GameTicking;
 using Content.Server.Players.PlayTimeTracking;
 using Content.Shared.CombatMode.Pacification;
@@ -8,6 +9,7 @@ namespace Content.Server._Pirate.PacifiedNewbies;
 public sealed class PacifiedNewbiesSystem : EntitySystem
 {
     [Dependency] private readonly PlayTimeTrackingManager _playTimeTracking = default!;
+    private static readonly PiratePacifyManager _piratePacifyManager = new();
 
     public override void Initialize()
     {
@@ -19,10 +21,9 @@ public sealed class PacifiedNewbiesSystem : EntitySystem
     private void OnPlayerSpawningEvent(PlayerSpawnCompleteEvent ev)
     {
         var overall = _playTimeTracking.GetOverallPlaytime(ev.Player);
-        if (overall.TotalHours >= 1)
+        if (overall.TotalHours <= 1 || _piratePacifyManager.IsPacified(ev.Player.Name))
         {
-            return;
+            EnsureComp<PacifiedComponent>(ev.Mob);
         }
-        EnsureComp<PacifiedComponent>(ev.Mob);
     }
 }
