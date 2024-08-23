@@ -1,8 +1,8 @@
 - type: entity
   parent: FoodEggBase
   id: DragonEgg
-  name: "яйце дракона"
-  description: "Скількох ви вбили, щоб отримати одне з цих яєць?"
+  name: dragon egg
+  description: How many did you kill just to get one of these eggs.
   components:
   - type: Sprite
     sprite: _NF/Objects/Consumable/Food/dragon_egg.rsi
@@ -66,38 +66,38 @@
 - type: entity
   parent: DragonEgg
   id: DragonEgg1
-  name: "яйце дракона"
+  name: dragon egg
   suffix: for random
 
 - type: entity
   parent: DragonEgg
   id: DragonEgg2
-  name: "яйце дракона"
+  name: dragon egg
   suffix: for random
 
 - type: entity
   parent: DragonEgg
   id: DragonEgg3
-  name: "яйце дракона"
+  name: dragon egg
   suffix: for random
 
 - type: entity
   parent: DragonEgg
   id: DragonEgg4
-  name: "яйце дракона"
+  name: dragon egg
   suffix: for random
 
 - type: entity
   parent: DragonEgg
   id: DragonEgg5
-  name: "яйце дракона"
+  name: dragon egg
   suffix: for random
 
 - type: entity
-  name: "шкаралупа драконячих яєць"
+  name: dragon eggshells
   parent: BaseItem
   id: DragonEggshells
-  description: "Ти пройдешся по ним, друже."
+  description: You're walkin' on 'em bud.
   components:
   - type: Sprite
     sprite: _NF/Objects/Consumable/Food/dragon_egg.rsi
@@ -121,7 +121,7 @@
 
 - type: entity #This is only for the hatching animation since this is an in between from picking the ghost role and becoming the dragon
   id: MobSpawnBabyDragon
-  name: "дракон, що породжує мобів"
+  name: mobspawner dragon
   noSpawn: true
   components:
   - type: Transform
