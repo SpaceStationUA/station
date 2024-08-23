@@ -7632,13 +7632,6 @@ entities:
     - type: Transform
       pos: 8.5,19.5
       parent: 2
-- proto: AirlockCaptainGlassLocked
-  entities:
-  - uid: 4518
-    components:
-    - type: Transform
-      pos: -12.5,34.5
-      parent: 2
 - proto: AirlockCaptainLocked
   entities:
   - uid: 246
@@ -7652,11 +7645,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 35.5,-8.5
-      parent: 2
-  - uid: 4519
-    components:
-    - type: Transform
-      pos: -17.5,37.5
       parent: 2
 - proto: AirlockCargoLocked
   entities:
@@ -7787,11 +7775,6 @@ entities:
     components:
     - type: Transform
       pos: 46.5,-10.5
-      parent: 2
-  - uid: 4640
-    components:
-    - type: Transform
-      pos: -15.5,38.5
       parent: 2
 - proto: AirlockEngineeringGlass
   entities:
@@ -8793,6 +8776,25 @@ entities:
     components:
     - type: Transform
       pos: -17.5,-20.5
+      parent: 2
+- proto: AirlockQuartermasterGlassLocked
+  entities:
+  - uid: 4519
+    components:
+    - type: Transform
+      pos: -12.5,34.5
+      parent: 2
+- proto: AirlockQuartermasterLocked
+  entities:
+  - uid: 4518
+    components:
+    - type: Transform
+      pos: -15.5,38.5
+      parent: 2
+  - uid: 4640
+    components:
+    - type: Transform
+      pos: -17.5,37.5
       parent: 2
 - proto: AirlockResearchDirectorGlassLocked
   entities:
