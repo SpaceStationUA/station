@@ -74,7 +74,16 @@ namespace Content.Server._Pirate.ForcePacify
                     Directory.CreateDirectory("data");
                 }
 
-                var json = JsonSerializer.Serialize(_pacifiedPlayers);
+                var serializableData = _pacifiedPlayers.ToDictionary(
+                    entry => entry.Key,
+                    entry => new
+                    {
+                        UserName = entry.Value.UserName,
+                        ExpirationDate = entry.Value.ExpirationDate
+                    }
+                );
+
+                var json = JsonSerializer.Serialize(serializableData);
                 File.WriteAllText(FilePath, json);
             }
             catch (Exception ex)
@@ -90,20 +99,30 @@ namespace Content.Server._Pirate.ForcePacify
                 if (File.Exists(FilePath))
                 {
                     var json = File.ReadAllText(FilePath);
-                    var data = JsonSerializer.Deserialize<Dictionary<string, (string UserName, DateTime ExpirationDate)>>(json);
+
+                    var data = JsonSerializer.Deserialize<Dictionary<string, Dictionary<string, object>>>(json);
                     if (data != null)
                     {
                         bool dataModified = false;
 
                         foreach (var entry in data)
                         {
-                            if (entry.Value.ExpirationDate > DateTime.Now)
+                            if (entry.Value.TryGetValue("ExpirationDate", out var expirationDateObj) &&
+                                expirationDateObj != null &&
+                                entry.Value.TryGetValue("UserName", out var userNameObj) &&
+                                userNameObj != null)
                             {
-                                _pacifiedPlayers[entry.Key] = entry.Value;
-                            }
-                            else
-                            {
-                                dataModified = true;
+                                var expirationDate = DateTime.Parse(expirationDateObj.ToString()!);
+                                var userName = userNameObj.ToString()!;
+
+                                if (expirationDate > DateTime.Now)
+                                {
+                                    _pacifiedPlayers[entry.Key] = (userName, expirationDate);
+                                }
+                                else
+                                {
+                                    dataModified = true;
+                                }
                             }
                         }
 
