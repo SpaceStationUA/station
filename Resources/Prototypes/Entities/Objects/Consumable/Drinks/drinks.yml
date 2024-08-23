@@ -94,8 +94,8 @@
 
 # Transformable container - normal glass
 - type: entity
-  name: glass cup
-  description: A glass cup, able to hold a variety of liquids for your drinking pleasure.
+  name: "метаморфічне скло"
+  description: "Склянка-метаморфоза, яка автоматично перетворюється на келих, відповідний до напою, що в ній знаходиться. На дні відшліфований номер патенту."
   parent: DrinkGlassBase
   id: DrinkGlass
   components:
@@ -124,8 +124,8 @@
   - type: TransformableContainer
 
 - type: entity
-  name: coupe glass
-  description: A classic thin neck coupe glass, the icon of fragile labels on crates around the galaxy.
+  name: "скло купе"
+  description: "Класичний келих купе з тонким горлом, ікона тендітних етикеток на ящиках по всій галактиці."
   parent: DrinkGlassBase
   id: DrinkGlassCoupeShaped
   components:
@@ -962,7 +962,7 @@
   parent: DrinkGlass
   id: DrinkHoochGlass
   suffix: hooch
-  description: You've really hit rock bottom now... your liver packed its bags and left last night.
+  description: "Ви дійсно досягли дна... Ваша печінка спакувала валізи і пішла вчора ввечері."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -1913,8 +1913,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkTeapot
-  name: teapot  # short and stout
-  description: An elegant teapot. It simply oozes class.
+  name: "чайник"  # short and stout
+  description: "Елегантний чайник. Він просто випромінює клас."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2087,8 +2087,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkWaterJug
-  name: water jug
-  description: Stay hydrated
+  name: "колба води"
+  description: "Залишайтеся зволоженими"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2199,7 +2199,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeBlue
-  name: blue milkshake
+  name: "блакитний молочний коктейль"
   description: ''
   components:
   - type: Drink
@@ -2209,7 +2209,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeEmpty
-  name: shakeempty
+  name: "трясця, трясця"
   description: ''
   components:
   - type: Drink
@@ -2219,7 +2219,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeMeat
-  name: meat shake
+  name: "м'ясний коктейль"
   description: ''
   components:
   - type: Drink
@@ -2229,7 +2229,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeRobo
-  name: robo shake
+  name: "робо-шейк"
   description: ''
   components:
   - type: Drink
@@ -2239,7 +2239,7 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkShakeWhite
-  name: white shake
+  name: "білий шейк"
   description: ''
   components:
   - type: Drink
@@ -2249,8 +2249,8 @@
 - type: entity
   parent: DrinkGlassBase
   id: DrinkRamen
-  name: cup ramen
-  description: Just add 10ml boiling water. A taste that reminds you of your school years.
+  name: "чашка рамен"
+  description: "Просто додайте 10 мл окропу. Смак, що нагадує шкільні роки."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2271,8 +2271,8 @@
 - type: entity
   parent: DrinkRamen
   id: DrinkHellRamen
-  name: hell ramen
-  description: Just add 10ml boiling water. Super spicy flavor.
+  name: "пекельний рамен"
+  description: "Просто додайте 10 мл окропу. Супер гострий смак."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -2316,8 +2316,8 @@
 - type: entity
   parent: DrinkBasePlastic
   id: DrinkFitnessShakerBlack
-  name: fitness shaker
-  description: Big enough to contain enough protein to get perfectly swole. Don't mind the bits.
+  name: "фітнес-шейкер"
+  description: "Досить великий, щоб містити достатньо білка для ідеального набухання. Не звертайте уваги на шматочки."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shakerblack.rsi

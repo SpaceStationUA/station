@@ -1,7 +1,7 @@
 - type: entity
   id: CargoPallet
-  name: cargo pallet
-  description: Designates valid items to sell to CentCom when a shuttle is recalled.
+  name: "вантажний піддон"
+  description: "Вказує на дійсні товари, які можна продати CentCom, коли шатл відкликається."
   parent: BaseStructure
   components:
   - type: InteractionOutline
@@ -57,8 +57,8 @@
 
 - type: entity
   id: CargoPalletSell
-  name: cargo selling pallet
-  description: Designates valid items to sell with a selling computer, or to CentCom when a shuttle is recalled.
+  name: "піддон для продажу вантажу"
+  description: "Позначає дійсні товари для продажу на комп'ютері для продажу або в CentCom, коли шаттл відкликають."
   parent: CargoPallet
   components:
   - type: CargoPallet
@@ -72,8 +72,8 @@
 
 - type: entity
   id: CargoPalletBuy
-  name: cargo buying pallet
-  description: Designates where orders will appear when purchased.
+  name: "палета для купівлі вантажу"
+  description: "Вказує, де з'являтимуться замовлення після покупки."
   parent: CargoPallet
   components:
   - type: CargoPallet
