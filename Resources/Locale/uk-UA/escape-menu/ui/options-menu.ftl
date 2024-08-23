@@ -266,3 +266,5 @@ ui-options-show-ooc-patron-color = Показати колір OOC Patreon
 ui-options-chat-window-opacity = Непрозорість вікна чату
 ui-options-chat-window-opacity-percent = { TOSTRING($opacity, "P0") }
 ui-options-function-save-item-location = Зберегти розташування елемента
+ui-options-announcer-disable-multiple-sounds = Вимкнути звуки диктора, що накладаються один на одного
+ui-options-announcer-disable-multiple-sounds-tooltip = Деякі оголошення будуть звучати неправильно, це налаштування не рекомендується
