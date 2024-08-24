@@ -1,9 +1,9 @@
 # Hacky for the stress test so don't even consider adding to this
 - type: entity
-  name: Burrower
+  name: "Нюхач"
   id: MobXeno
   parent: SimpleSpaceMobBase
-  description: They mostly come at night. Mostly.
+  description: "Вони приходять переважно вночі. Здебільшого."
   components:
   - type: Insulated
   - type: CombatMode
@@ -130,7 +130,7 @@
     - Xeno
 
 - type: entity
-  name: Praetorian
+  name: "Преторіанський"
   parent: MobXeno
   id: MobXenoPraetorianNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -163,7 +163,7 @@
         - MobLayer
 
 - type: entity
-  name: Drone
+  name: "Дрон"
   parent: MobXeno
   id: MobXenoDroneNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -200,7 +200,7 @@
         - MobLayer
 
 - type: entity
-  name: Queen
+  name: "Королева"
   parent: MobXeno
   id: MobXenoQueenNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -246,7 +246,7 @@
     - Xeno
 
 - type: entity
-  name: Ravager
+  name: "Ravager"
   parent: MobXeno
   id: MobXenoRavagerNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -283,7 +283,7 @@
         - MobLayer
 
 - type: entity
-  name: Runner
+  name: "Бігун"
   parent: MobXeno
   id: MobXenoRunnerNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -313,7 +313,7 @@
         - MobLayer
 
 - type: entity
-  name: Rouny
+  name: "Руні"
   parent: MobXenoRunnerNPC # Delta V - These no longer inherit the ghost takeover comp
   id: MobXenoRounyNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -328,7 +328,7 @@
       amount: 3
 
 - type: entity
-  name: Spitter
+  name: "Спіттер"
   parent: MobXeno
   id: MobXenoSpitterNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -375,10 +375,10 @@
         - MobLayer
 
 - type: entity
-  name: space adder
+  name: "просторовий суматор"
   parent: SimpleSpaceMobBase
   id: MobPurpleSnake
-  description: A menacing purple snake from Kepler-283c.
+  description: "Загрозлива фіолетова змія з Kepler-283c."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -440,11 +440,11 @@
     - FootstepSound
 
 - type: entity
-  name: space adder
+  name: "просторовий суматор"
   parent: MobPurpleSnake
   id: MobSmallPurpleSnake
   suffix: small
-  description: A smaller version of the menacing purple snake from Kepler-283c.
+  description: "Зменшена версія загрозливої фіолетової змії з Kepler-283c."
   components:
   - type: Sprite
     drawdepth: Mobs
