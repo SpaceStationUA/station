@@ -16,6 +16,16 @@ public sealed class PacifiedNewbiesSystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<PlayerSpawnCompleteEvent>(OnPlayerSpawningEvent);
+        SubscribeLocalEvent<GhostRoleTakenPirate>(OnPlayerGhostRoleTaken);
+    }
+
+    private void OnPlayerGhostRoleTaken(GhostRoleTakenPirate ev)
+    {
+        var overall = _playTimeTracking.GetOverallPlaytime(ev.Player);
+        if (overall.TotalHours <= 1 || _piratePacifyManager.IsPacified(ev.Player.Name))
+        {
+            EnsureComp<PacifiedComponent>(ev.Mob);
+        }
     }
 
     private void OnPlayerSpawningEvent(PlayerSpawnCompleteEvent ev)
