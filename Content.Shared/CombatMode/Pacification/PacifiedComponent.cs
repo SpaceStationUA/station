@@ -16,13 +16,13 @@ namespace Content.Shared.CombatMode.Pacification;
 public sealed partial class PacifiedComponent : Component
 {
     [DataField]
-    public bool DisallowDisarm = false;
+    public bool DisallowDisarm = true;
 
     /// <summary>
     ///  If true, this will disable combat entirely instead of only disallowing attacking living creatures and harmful things.
     /// </summary>
     [DataField]
-    public bool DisallowAllCombat = false;
+    public bool DisallowAllCombat = true;
 
 
     /// <summary>
