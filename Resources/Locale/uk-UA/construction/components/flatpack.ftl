@@ -1,7 +1,7 @@
 flatpack-unpack-no-room = Немає місця для розпакування!
 flatpack-examine = Розпакуйте його за допомогою [color=yellow]мультитула[/color].
 flatpack-entity-name = {$name} плоский пакет
-flatpack-entity-description = Флетпак, який використовується для побудови {INDEFINITE($name)} {$name}.
+flatpack-entity-description = Флетпак, який використовується для побудови {$name}.
 
 flatpacker-item-slot-name = Гніздо на платі машини
 flatpacker-ui-title = Флетпакер 1001

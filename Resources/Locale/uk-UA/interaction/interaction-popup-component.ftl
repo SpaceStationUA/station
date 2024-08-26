@@ -33,15 +33,15 @@ petting-success-snake = {THE($target)} отримує ваші пестощі п
 petting-success-monkey = {THE($target)} отримує ваші пестощі по {POSS-ADJ($target)} пустотливій голівці.
 petting-success-nymph = Ви гладите {THE($target)} по {POSS-ADJ($target)} дерев’яній голівці.
 
-petting-failure-generic = Ви тягнетесь, аби попестити тварину «{THE($target)}», але {SUBJECT($target)} {CONJUGATE-BE($target)} не виглядає зацікавлено.
+petting-failure-generic = Ви тягнетесь, аби попестити тварину «{THE($target)}», але {SUBJECT($target)} не виглядає зацікавлено.
 
-petting-failure-bat = Ви тягнетесь, аби попестити тварину «{THE($target)}», але {SUBJECT($target)} {CONJUGATE-BE($target)} не спіймати!
-petting-failure-carp = Ви тягнетесь, аби попестити тварину «{THE($target)}», але {SUBJECT($target)} {CONJUGATE-BE($target)} гострі зуби змушують задуматися.
+petting-failure-bat = Ви тягнетесь, аби попестити тварину «{THE($target)}», але {SUBJECT($target)} не спіймати!
+petting-failure-carp = Ви тягнетесь, аби попестити тварину «{THE($target)}», але {SUBJECT($target)} гострі зуби змушують задуматися.
 petting-failure-corrupted-corgi = Ви тягнетесь, аби попестити тварину «{THE($target)}», але подумайте двічі.
 petting-failure-crab = Ви тягнетесь, аби попестити тварину «{THE($target)}», але {SUBJECT($target)} клацає {POSS-ADJ($target)} щелепами у вашому напрямку!
 petting-failure-dehydrated-carp = Ви пестите {THE($target)} по {POSS-ADJ($target)} сухій маленькі голові.
 petting-failure-goat = Ви тягнетесь, аби попестити тварину «{THE($target)}», але {SUBJECT($target)} вперто відмовляється!
-petting-failure-goose = Ви тягнетесь, аби попестити тварину «{THE($target)}», але {SUBJECT($target)} {CONJUGATE-BE($target)} надто лячний!
+petting-failure-goose = Ви тягнетесь, аби попестити тварину «{THE($target)}», але {SUBJECT($target)} надто лячний!
 petting-failure-possum = Ви тягнетесь, аби попестити тварину «{THE($target)}», але отримуєте лише гарчання та шипіння!
 petting-failure-pig = Ви тягнетесь, аби попестити тварину {THE($target)}, але зустрів роздратовані хрю та вереск!
 petting-failure-raccoon = Ви тягнетесь, аби попестити тварину {THE($target)}, але {THE($target)} занадто заєнотився у своїх справах.
@@ -63,8 +63,8 @@ petting-success-medibot = {THE($target)} отримує ващі пестощі 
 petting-success-recycler = {THE($target)} отримує ващі пестощі по {POSS-ADJ($target)} помірно загрозливій сталевій голові.
 
 petting-failure-honkbot = Ви тягнетесь, аби попестити «{THE($target)}», але {SUBJECT($target)} обурливо сигналить!
-petting-failure-cleanbot = Ви тягнетесь, аби попестити «{THE($target)}», але {SUBJECT($target)} {CONJUGATE-BE($target)} зайнятий прибиранням!
-petting-failure-mimebot = Ви тягнетесь, аби попестити {THE($target)}, але {SUBJECT($target)} {CONJUGATE-BE($target)} зайнятий мімікою!
+petting-failure-cleanbot = Ви тягнетесь, аби попестити «{THE($target)}», але {SUBJECT($target)} зайнятий прибиранням!
+petting-failure-mimebot = Ви тягнетесь, аби попестити {THE($target)}, але {SUBJECT($target)} зайнятий мімікою!
 petting-failure-medibot = Ви тягнетесь, аби попестити «{THE($target)}», але {POSS-ADJ($target)} шприц ледь не вколов вашу долоню!
 
 ## Knocking on windows

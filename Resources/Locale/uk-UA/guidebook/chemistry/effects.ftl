@@ -14,10 +14,8 @@
     }
 
 reagent-effect-guidebook-create-entity-reaction-effect = { $chance ->
-        [1] створює
         *[other] створює
     } { $amount ->
-        [1] {INDEFINITE($entname)}
         *[other] {$amount} {MAKEPLURAL($entname)}
     }
 

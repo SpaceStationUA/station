@@ -4,8 +4,8 @@ hands-system-empty-equipment-slot = У твоєму {$slotName} нічого н�
 
 
 # Examine text after when they're holding something (in-hand)
-comp-hands-examine = { CAPITALIZE(SUBJECT($user)) } { CONJUGATE-BE($user) } тримає { $items }.
-comp-hands-examine-empty = { CAPITALIZE(SUBJECT($user)) } { CONJUGATE-BE($user) } нічого не тримає.
-comp-hands-examine-wrapper = { INDEFINITE($item) } [color=paleturquoise]{$item}[/color]
+comp-hands-examine = { CAPITALIZE(SUBJECT($user)) } тримає { $items }.
+comp-hands-examine-empty = { CAPITALIZE(SUBJECT($user)) } нічого не тримає.
+comp-hands-examine-wrapper = [color=paleturquoise]{$item}[/color]
 
 hands-system-blocked-by = Блокується

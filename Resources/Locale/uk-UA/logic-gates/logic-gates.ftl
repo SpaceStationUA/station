@@ -1,6 +1,6 @@
-logic-gate-examine = Наразі це {INDEFINITE($gate)} {$gate} gate.
+logic-gate-examine = Наразі це {$gate} gate.
 
-logic-gate-cycle = Переключено на браму {INDEFINITE($gate)} {$gate}
+logic-gate-cycle = Переключено на браму {$gate}
 
 power-sensor-examine = Наразі він перевіряє вивід мережі {$output ->
     [true] вихід

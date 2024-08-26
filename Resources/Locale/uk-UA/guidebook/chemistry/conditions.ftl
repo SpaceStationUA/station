@@ -33,9 +33,9 @@ reagent-effect-condition-guidebook-body-temperature = температура т�
     }
 
 reagent-effect-condition-guidebook-organ-type = орган метаболізму { $shouldhave ->
-                                [true] is
-                                *[false] is not
-                           } {INDEFINITE($name)} {$name} орган
+                                [true] має мати
+                                *[false] не має мати
+                           } {$name} орган
 
 reagent-effect-condition-guidebook-has-tag = ціль { $invert ->
                  [true] не має
