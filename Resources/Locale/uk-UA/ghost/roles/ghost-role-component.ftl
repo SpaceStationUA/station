@@ -219,8 +219,8 @@ ghost-role-information-BreadDog-name = Хлібний пес
 ghost-role-information-BreadDog-description = Ви улюблена дитина шеф-кухаря. Ти живий хлібо-собака.
 ghost-role-information-BreadDog-rules = Ти їстівний пес із хліба. Ваше завдання - знайти своє місце в цьому світі, де все хоче вас з'їсти.
 
-ghost-role-information-Shiva-name = Шиво!
-ghost-role-information-Shiva-description = Шива, перший захисник станції. Допомагати начальнику служби безпеки в роботі
+ghost-role-information-Shiva-name = Бодька
+ghost-role-information-Shiva-description = Бодя, перший захисник станції. Допомагати начальнику служби безпеки в роботі
 ghost-role-information-Shiva-rules = Захистіть співробітників служби безпеки та екіпаж від небезпеки. Залишайтеся з персоналом охорони або біля відділу охорони, намагайтеся вивести злочинців з ладу, але не вбивайте їх, якщо ситуація дозволяє це зробити.
 
 ghost-role-information-exterminator-name = Знищувач
