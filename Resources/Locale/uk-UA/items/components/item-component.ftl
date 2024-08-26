@@ -12,5 +12,5 @@ item-component-size-Tiny = крихітний
 item-component-size-Small = невеликий
 item-component-size-Normal = середній
 item-component-size-Large = великий
-item-component-size-Huge = величезна
+item-component-size-Huge = величезний
 item-component-size-Ginormous = велетенський
