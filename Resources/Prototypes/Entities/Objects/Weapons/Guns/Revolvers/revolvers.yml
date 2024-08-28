@@ -1,8 +1,8 @@
 - type: entity
-  name: "BaseWeaponRevolver"
+  name: BaseWeaponRevolver
   parent: BaseItem
   id: BaseWeaponRevolver
-  description: "Корінцевий зубастий і пагонистий."
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -52,10 +52,10 @@
     price: 500
 
 - type: entity
-  name: "Декард"
+  name: Deckard
   parent: BaseWeaponRevolver
   id: WeaponRevolverDeckard
-  description: "Рідкісний револьвер, зроблений на замовлення. Використовується, коли немає часу на тест Войта-Кампфа. Використовує набої .45 магнум."
+  description: A rare, custom-built revolver. Use when there is no time for Voight-Kampff test. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
@@ -80,10 +80,10 @@
     price: 1500
 
 - type: entity
-  name: "Інспектор"
+  name: Inspector
   parent: BaseWeaponRevolver
   id: WeaponRevolverInspector
-  description: "Кращий друг детектива. Використовує набої .45 магнум."
+  description: A detective's best friend. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi
@@ -95,10 +95,10 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: "Матеба"
+  name: Mateba
   parent: BaseWeaponRevolver
   id: WeaponRevolverMateba
-  description: "Культова зброя жахливих ескадронів смерті. Використовує набої .45 магнум."
+  description: The iconic sidearm of the dreaded death squads. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
@@ -110,10 +110,10 @@
       path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
 
 - type: entity
-  name: "Python"
+  name: Python
   parent: BaseWeaponRevolver
   id: WeaponRevolverPython
-  description: "Надійний револьвер, який полюбляють агенти Синдикату. Використовує набої .45 магнум."
+  description: A robust revolver favoured by Syndicate agents. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
@@ -131,11 +131,11 @@
     fireOnDropChance: 0.3
 
 - type: entity
-  name: "Python"
+  name: Python
   parent: WeaponRevolverPython
   id: WeaponRevolverPythonAP # For the uplink.
   suffix: armor-piercing
-  description: "Надійний револьвер, який полюбляють агенти Синдикату. Використовує набої .45 магнум."
+  description: A robust revolver favoured by Syndicate agents. Uses .45 magnum ammo.
   components:
   - type: RevolverAmmoProvider
     whitelist:
@@ -146,10 +146,10 @@
 
 
 - type: entity
-  name: "піратський револьвер"
+  name: pirate revolver
   parent: BaseWeaponRevolver
   id: WeaponRevolverPirate
-  description: "Дивний, старовинний револьвер, який полюбляли піратські команди. Використовує набої .45 магнум."
+  description: An odd, old-looking revolver, favoured by pirate crews. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi

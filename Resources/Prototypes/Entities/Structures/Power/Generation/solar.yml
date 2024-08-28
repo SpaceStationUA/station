@@ -1,7 +1,7 @@
 - type: entity
   id: SolarPanelBasePhysSprite
   noSpawn: true
-  name: "сонячна панель"
+  name: solar panel
   placement:
     mode: SnapgridCenter
   components:
@@ -54,8 +54,8 @@
 - type: entity
   id: SolarPanel
   parent: SolarPanelBasePhysSprite
-  name: "сонячна панель"
-  description: "Можна перетворити на сонячну панель або сонячний трекер."
+  name: solar panel
+  description: A solar panel that generates power.
   components:
   - type: PowerSupplier
     supplyRampTolerance: 500
@@ -84,8 +84,8 @@
 - type: entity
   id: SolarPanelBroken
   parent: SolarPanelBasePhysSprite
-  name: "сонячна панель"
-  description: "Розбита сонячна панель."
+  name: solar panel
+  description: A broken solar panel.
   suffix: Broken
   components:
   - type: Sprite
@@ -115,8 +115,8 @@
 
 - type: entity
   id: SolarAssembly
-  name: "сонячна збірка"
-  description: "Сонячна збірка. Прикріпіть якір до дроту, щоб почати будувати сонячну панель."
+  name: solar assembly
+  description: A solar assembly. Anchor to a wire to start building a solar panel.
   placement:
     mode: SnapgridCenter
   components:
@@ -162,8 +162,8 @@
 
 - type: entity
   id: SolarTracker
-  name: "сонячний трекер"
-  description: "Сонячний трекер. Відстежує найближчу зірку."
+  name: solar tracker
+  description: A solar tracker. Tracks the nearest star.
   placement:
     mode: SnapgridCenter
   components:
