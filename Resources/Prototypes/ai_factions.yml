@@ -96,6 +96,23 @@
   - SimpleHostile
   - Dragon
   - DinosaursNF # Frontier
+
+- type: npcFaction
+  id: Pibble
+  hostile:
+  - Cat
+  - Birb
+  - Mailman
+
+- type: npcFaction
+  id: Mailman
+
+- type: npcFaction
+  id: Cat
+
+- type: npcFaction
+  id: Birb
+
 #PIRATE START UNTIL END OF FILE
 - type: npcFaction
   id: Goblin

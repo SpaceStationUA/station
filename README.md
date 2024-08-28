@@ -109,6 +109,8 @@ We provide some scripts shown below to make the job easier.
 
 ## License
 
+Please read the [LEGAL.md](./LEGAL.md) file for information on the licenses of the code and assets in this repository.
+
 All content in this repository taken/created from the Wizards Federation repository is licensed under the MIT license. To distinguish which content it does apply, every commit from Wizard Federation is under MIT.
 
 All content in this repository taken/created from the Einstein Engines repository in under the GNU Affero General Public License version 3.0 unless otherwise stated. [LICENSE-AGPLv3](./LICENSE-AGPLv3.txt). To distinguish to which content it does apply, it's every commit created in the Einstein Engines repository, unless the same commit is present in Wizard Federation repository, which makes it MIT.
