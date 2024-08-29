@@ -1,5 +1,5 @@
 - type: entity
-  name: dark grass tile
+  name: "темна трав'яна плитка"
   parent: FloorTileItemBase
   id: FloorTileItemGrassDark
   components:
@@ -15,7 +15,7 @@
     stackType: FloorTileGrassDark
 
 - type: entity
-  name: light grass tile
+  name: "світла трав'яна плитка"
   parent: FloorTileItemBase
   id: FloorTileItemGrassLight
   components:
@@ -31,7 +31,7 @@
     stackType: FloorTileGrassLight
 
 - type: entity
-  name: dirt tile
+  name: "глиняна черепиця"
   parent: FloorTileItemBase
   id: FloorTileItemDirt
   components:
@@ -47,7 +47,7 @@
     stackType: FloorTileDirt
 
 - type: entity
-  name: bedrock tile
+  name: "керамічна плитка"
   parent: FloorTileItemBase
   id: FloorTileItemBedrock
   components:

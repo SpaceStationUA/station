@@ -1,11 +1,11 @@
 - type: entity
-  name: handheld crew monitor
+  name: "ручний монітор екіпажу"
   suffix: DO NOT MAP
   parent:
   - BaseItem
   - PowerCellSlotSmallItem
   id: HandheldCrewMonitor
-  description: A hand-held crew monitor displaying the status of suit sensors.
+  description: "Ручний монітор екіпажу, що відображає стан датчиків скафандра."
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
@@ -52,8 +52,8 @@
 
 - type: entity
   id: SpyCrewMonitor
-  name: spy monitor
-  description: A spy device capable of connecting to crew monitoring servers.
+  name: "шпигунський монітор"
+  description: "Шпигунський пристрій, здатний підключатися до серверів моніторингу екіпажу."
   parent: HandheldCrewMonitor
   components:
   - type: Sprite
@@ -78,8 +78,8 @@
 
 - type: entity
   id: SyndiCrewMonitor
-  name: syndicate crew monitor
-  description: The syndicated version of crew monitor, intercepts information from the server.
+  name: "спостерігач за екіпажем синдикату"
+  description: "Синдикована версія монітора екіпажу, перехоплює інформацію з сервера."
   parent: HandheldCrewMonitor
   components:
   - type: Sprite
