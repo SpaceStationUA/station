@@ -86,7 +86,7 @@
     rules: ghost-role-information-loneop-rules
     requirements:
     - !type:CharacterOverallTimeRequirement
-      min: 172800 # DeltaV - 48 hours
+      min: 72000 #Pirate - 20 hours
     - !type:DepartmentTimeRequirement # DeltaV - Security dept time requirement
       department: Security
       time: 36000 # DeltaV - 10 hours

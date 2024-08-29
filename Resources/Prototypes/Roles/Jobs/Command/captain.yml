@@ -21,9 +21,9 @@
       min: 18000 # 5 hours
     - !type:CharacterDepartmentTimeRequirement
       department: Command
-      min: 108000 # DeltaV - 30 hours
+      min: 72000 #Pirate - 20 hours
     - !type:CharacterOverallTimeRequirement # DeltaV - Playtime requirement
-      min: 108000 # 30 hours
+      min: 72000 #Pirate 20 hours
     - !type:CharacterWhitelistRequirement
   weight: 20
   startingGear: CaptainGear

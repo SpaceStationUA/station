@@ -29,7 +29,7 @@
     rules: ghost-role-information-listeningop-rules
     requirements: # Worth considering these numbers for the goal of making sure someone willing to MRP takes this.
     - !type:CharacterOverallTimeRequirement
-      min: 259200 # 72 hours
+      min: 36000 #Pirate 10 hours
     - !type:DepartmentTimeRequirement
       department: Security
       time: 40000 # 11.1 hours
