@@ -1,8 +1,8 @@
 - type: entity
-  name: "BaseWeaponSniper"
+  name: BaseWeaponSniper
   parent: BaseItem
   id: BaseWeaponSniper
-  description: "Корінцевий зубастий і пагонистий."
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -39,10 +39,10 @@
     price: 500
 
 - type: entity
-  name: "Кардашев-Мосін"
+  name: Kardashev-Mosin
   parent: BaseWeaponSniper
   id: WeaponSniperMosin
-  description: "Зброя для полювання або нескінченної окопної війни. Використовує гвинтівкові патрони калібру .30."
+  description: A weapon for hunting, or endless trench warfare. Uses .30 rifle ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -56,10 +56,10 @@
     fireOnDropChance: 1
 
 - type: entity
-  name: "Христов"
+  name: Hristov
   parent: BaseWeaponSniper
   id: WeaponSniperHristov
-  description: "Портативна протитанкова гвинтівка. Стріляє бронебійними 14,5 мм снарядами. Використовує боєприпаси калібру .60."
+  description: A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
@@ -73,10 +73,10 @@
     proto: CartridgeAntiMateriel
 
 - type: entity
-  name: "мушкет"
+  name: musket
   parent: BaseWeaponSniper
   id: Musket
-  description: "Це мало бути в музеї задовго до твого народження. Використовує протипіхотні набої 60-го калібру."
+  description: This should've been in a museum long before you were born. Uses .60 anti-materiel ammo.
   components:
   - type: Sharp
   - type: Item
@@ -112,10 +112,10 @@
       path: /Audio/Weapons/bladeslice.ogg
 
 - type: entity
-  name: "кремінний пістолет"
+  name: flintlock pistol
   parent: BaseWeaponSniper
   id: WeaponPistolFlintlock
-  description: "Супутниця пірата. Яррр! Використовує протипіхотні набої 60-го калібру."
+  description: A pirate's companion. Yarrr! Uses .60 anti-materiel ammo.
   components:
   - type: Gun
     minAngle: 0

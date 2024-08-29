@@ -1,6 +1,6 @@
 - type: stack
   id: Ointment
-  name: "мазь"
+  name: ointment
   icon: { sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: ointment }
   spawn: Ointment
   maxCount: 10
@@ -8,7 +8,7 @@
 
 - type: stack
   id: AloeCream
-  name: "крем з алое"
+  name: aloe cream
   icon: { sprite: "/Textures/Objects/Specific/Hydroponics/aloe.rsi", state: cream }
   spawn: AloeCream
   maxCount: 10
@@ -16,7 +16,7 @@
 
 - type: stack
   id: Gauze
-  name: "марля"
+  name: gauze
   icon: { sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: gauze }
   spawn: Gauze
   maxCount: 10
@@ -24,7 +24,7 @@
 
 - type: stack
   id: Brutepack
-  name: "брутпак"
+  name: brutepack
   icon: { sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: gauze }
   spawn: Brutepack
   maxCount: 10
@@ -32,7 +32,7 @@
 
 - type: stack
   id: Bloodpack
-  name: "пакет крові"
+  name: bloodpack
   icon: { sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: bloodpack }
   spawn: Bloodpack
   maxCount: 10
@@ -40,7 +40,7 @@
 
 - type: stack
   id: MedicatedSuture
-  name: "медикаментозний кетгут"
+  name: medicated-suture
   icon: {sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: medicated-suture }
   spawn: MedicatedSuture
   maxCount: 10
@@ -48,7 +48,7 @@
 
 - type: stack
   id: RegenerativeMesh
-  name: "регенеративна сітка"
+  name: regenerative-mesh
   icon: {sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: regenerative-mesh}
   spawn: RegenerativeMesh
   maxCount: 10
