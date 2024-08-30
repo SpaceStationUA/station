@@ -11,8 +11,8 @@
 
 - type: entity
   id: ActionScream
-  name: Scream
-  description: AAAAAAAAAAAAAAAAAAAAAAAAA
+  name: "Кричи!"
+  description: "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
   noSpawn: true
   components:
   - type: InstantAction
@@ -23,8 +23,8 @@
 
 - type: entity
   id: ActionTurnUndead
-  name: Turn Undead
-  description: Succumb to your infection and become a zombie.
+  name: "Перетворитися на нежить"
+  description: "Піддайтеся своїй інфекції і станьте зомбі."
   noSpawn: true
   components:
   - type: InstantAction
@@ -35,8 +35,8 @@
 
 - type: entity
   id: ActionToggleLight
-  name: Toggle Light
-  description: Turn the light on and off.
+  name: "Індикатор перемикання"
+  description: "Увімкніть і вимкніть світло."
   noSpawn: true
   components:
   - type: InstantAction
@@ -46,8 +46,8 @@
 
 - type: entity
   id: ActionToggleDome
-  name: Toggle energy dome
-  description: Turn the energy barrier on or off.
+  name: "Перемикання енергетичного купола"
+  description: "Увімкніть або вимкніть енергетичний бар'єр."
   noSpawn: true
   components:
   - type: InstantAction
@@ -56,8 +56,8 @@
 
 - type: entity
   id: ActionOpenStorageImplant
-  name: Open Storage Implant
-  description: Opens the storage implant embedded under your skin
+  name: "Імплантат відкритого зберігання"
+  description: "Відкриває імплант для зберігання, вмонтований під шкіру"
   noSpawn: true
   components:
   - type: InstantAction
@@ -71,8 +71,8 @@
 - type: entity
   parent: BaseSuicideAction
   id: ActionActivateMicroBomb
-  name: Activate Microbomb
-  description: Activates your internal microbomb, completely destroying you and your equipment
+  name: "Активувати Мікробому"
+  description: "Активує вашу внутрішню мікробому, повністю знищуючи вас і ваше обладнання"
   noSpawn: true
   components:
   - type: InstantAction
@@ -88,8 +88,8 @@
 - type: entity
   parent: BaseSuicideAction
   id: ActionActivateDeathAcidifier
-  name: Activate Death-Acidifier
-  description: Activates your death-acidifier, completely melting you and your equipment
+  name: "Активувати підсилювач смерті"
+  description: "Активує ваш підкислювач смерті, повністю розплавляючи вас і ваше спорядження"
   noSpawn: true
   components:
   - type: InstantAction
@@ -105,8 +105,8 @@
 
 - type: entity
   id: ActionActivateFreedomImplant
-  name: Break Free
-  description: Activating your freedom implant will free you from any hand restraints
+  name: "Вирвися на волю"
+  description: "Активація імплантату свободи звільнить вас від будь-яких обмежень для рук"
   noSpawn: true
   components:
   - type: InstantAction
@@ -121,8 +121,8 @@
 
 - type: entity
   id: ActionOpenUplinkImplant
-  name: Open Uplink
-  description: Opens the syndicate uplink embedded under your skin
+  name: "Open Uplink"
+  description: "Відкриває синдикатський канал зв'язку, вбудований у вашу шкіру"
   noSpawn: true
   components:
   - type: InstantAction
@@ -135,8 +135,8 @@
 
 - type: entity
   id: ActionActivateEmpImplant
-  name: Activate EMP
-  description: Triggers a small EMP pulse around you
+  name: "Активувати EMP"
+  description: "Запускає невеликий ЕМІ-імпульс навколо вас"
   noSpawn: true
   components:
   - type: InstantAction
@@ -151,8 +151,8 @@
 
 - type: entity
   id: ActionActivateScramImplant
-  name: SCRAM!
-  description: Randomly teleports you within a large distance.
+  name: "КРИК!"
+  description: "Випадково телепортує вас на велику відстань."
   noSpawn: true
   components:
   - type: InstantAction
@@ -168,8 +168,8 @@
 
 - type: entity
   id: ActionActivateDnaScramblerImplant
-  name: Scramble DNA
-  description:  Randomly changes your name and appearance.
+  name: "Скремблювання ДНК"
+  description:  "Випадковим чином змінює ваше ім'я та зовнішність."
   noSpawn: true
   components:
   - type: InstantAction
@@ -183,8 +183,8 @@
 
 - type: entity
   id: ActionToggleSuitPiece
-  name: Toggle Suit Piece
-  description: Remember to equip the important pieces of your suit before going into action.
+  name: "Перемикач костюмів"
+  description: "Не забудьте спорядити важливі елементи свого костюма перед тим, як вирушати в бій."
   noSpawn: true
   components:
   - type: InstantAction
@@ -194,8 +194,8 @@
 
 - type: entity
   id: ActionCombatModeToggle
-  name: "[color=red]Combat Mode[/color]"
-  description: Enter combat mode
+  name: "[color=red]Бойовий режим[/color]"
+  description: "Увійдіть в бойовий режим"
   noSpawn: true
   components:
   - type: InstantAction
@@ -209,8 +209,8 @@
 - type: entity
   id: ActionCombatModeToggleOff
   parent: ActionCombatModeToggle
-  name: "[color=red]Combat Mode[/color]"
-  description: Enter combat mode
+  name: "[color=red]Бойовий режим[/color]"
+  description: "Увійдіть в бойовий режим"
   noSpawn: true
   components:
   - type: InstantAction
@@ -220,8 +220,8 @@
 
 - type: entity
   id: ActionChangeVoiceMask
-  name: Set name
-  description: Change the name others hear to something else.
+  name: "Назва набору"
+  description: "Змініть ім'я, яке чують інші, на інше."
   noSpawn: true
   components:
   - type: InstantAction
@@ -230,8 +230,8 @@
 
 - type: entity
   id: ActionVendingThrow
-  name: Dispense Item
-  description: Randomly dispense an item from your stock.
+  name: "Пункт видачі"
+  description: "Випадково роздайте предмет зі свого запасу."
   noSpawn: true
   components:
   - type: InstantAction
@@ -240,8 +240,8 @@
 
 - type: entity
   id: ActionArtifactActivate
-  name: Activate Artifact
-  description: Immediately activates your current artifact node.
+  name: "Активувати артефакт"
+  description: "Негайно активує ваш поточний вузол артефактів."
   noSpawn: true
   components:
   - type: InstantAction
@@ -253,8 +253,8 @@
 
 - type: entity
   id: ActionToggleBlock
-  name: Block
-  description: Raise or lower your shield.
+  name: "Блок"
+  description: "Підніміть або опустіть щит."
   noSpawn: true
   components:
   - type: InstantAction
@@ -264,8 +264,8 @@
 
 - type: entity
   id: ActionClearNetworkLinkOverlays
-  name: Clear network link overlays
-  description: Clear network link overlays.
+  name: "Очистити накладання мережевих з'єднань"
+  description: "Чіткі накладання мережевих посилань."
   noSpawn: true
   components:
   - type: InstantAction
@@ -278,8 +278,8 @@
 
 - type: entity
   id: ActionAnimalLayEgg
-  name: Lay egg
-  description: Uses hunger to lay an egg.
+  name: "Несіть яйце"
+  description: "Використовує голод, щоб відкласти яйце."
   noSpawn: true
   components:
   - type: InstantAction
@@ -289,8 +289,8 @@
 
 - type: entity
   id: ActionSleep
-  name: Sleep
-  description: Go to sleep.
+  name: "Спати"
+  description: "Лягай спати."
   noSpawn: true
   components:
   - type: InstantAction
@@ -301,8 +301,8 @@
 
 - type: entity
   id: ActionWake
-  name: Wake up
-  description: Stop sleeping.
+  name: "Прокидайся"
+  description: "Досить спати."
   noSpawn: true
   components:
   - type: InstantAction
@@ -313,8 +313,8 @@
 
 - type: entity
   id: ActionActivateHonkImplant
-  name: Honk
-  description: Activates your honking implant, which will produce the signature sound of the clown.
+  name: "Гудок"
+  description: "Активує ваш імплант, який видаватиме фірмовий звук клоуна."
   noSpawn: true
   components:
   - type: InstantAction
@@ -324,8 +324,8 @@
 
 - type: entity
   id: ActionFireStarter
-  name: Ignite
-  description: Ignites enemies in a radius around you.
+  name: "Підпалюй"
+  description: "Підпалює ворогів у радіусі навколо вас."
   noSpawn: true
   components:
   - type: InstantAction
@@ -336,8 +336,8 @@
 
 - type: entity
   id: ActionToggleEyes
-  name: Open/Close eyes
-  description: Close your eyes to protect your peepers, or open your eyes to enjoy the pretty lights.
+  name: "Відкрити/закрити очі"
+  description: "Заплющте очі, щоб захистити очі, або розплющте, щоб насолодитися гарними вогнями."
   noSpawn: true
   components:
   - type: InstantAction

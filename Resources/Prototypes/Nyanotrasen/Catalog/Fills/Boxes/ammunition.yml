@@ -1,8 +1,8 @@
 - type: entity
-  name: box of soulbreaker cartridges
+  name: "коробка картриджів \"Душогубка"
   parent: BaseAmmoProvider
   id: BoxShellSoulbreaker
-  description: A box full of anti-psionic soulbreaker cartridges, designed for riot shotguns.
+  description: "Коробка з антипіонерськими патронами, призначеними для рушниць для розбиття масових заворушень."
   components:
     - type: BallisticAmmoProvider
       proto: ShellSoulbreaker
@@ -13,10 +13,10 @@
         - state: shellslug
 
 - type: entity
-  name: box of .45 magnum Universal magazines
+  name: "коробка універсальних магазинів під набій .45 магнум Universal"
   parent: BoxMagazine
   id: BoxMagazineUniversalMagnum
-  description: A box full of .45 magnum magazines.
+  description: "Коробка, повна магазинів до набоїв .45 магнум."
   components:
   - type: StorageFill
     contents:
@@ -31,10 +31,10 @@
         - BallisticAmmoProvider
 
 - type: entity
-  name: box of .45 magnum Universal (practice) magazines
+  name: "коробка універсальних (тренувальних) магазинів .45 магнум Універсальні (тренувальні) магазини"
   parent: BoxMagazine
   id: BoxMagazineUniversalMagnumPractice
-  description: A box full of .45 magnum practice magazines.
+  description: "Коробка, повна тренувальних магазинів під набій .45 магнум."
   components:
   - type: StorageFill
     contents:
@@ -49,10 +49,10 @@
         - BallisticAmmoProvider
 
 - type: entity
-  name: box of .45 magnum Universal (rubber) magazines
+  name: "коробка універсальних (гумових) магазинів .45 magnum Universal (гумові)"
   parent: BoxMagazine
   id: BoxMagazineUniversalMagnumRubber
-  description: A box full of .45 magnum rubber magazines.
+  description: "Коробка, повна гумових магазинів калібру .45 магнум."
   components:
   - type: StorageFill
     contents:
@@ -67,10 +67,10 @@
         - BallisticAmmoProvider
 
 - type: entity
-  name: box of .30 rifle speed loaders
+  name: "коробка швидкісних зарядних пристроїв для гвинтівок калібру .30"
   parent: BoxMagazine
   id: BoxSpeedLoaderLightRifle
-  description: A box full of .30 rifle speed loaders.
+  description: "Коробка, повна швидкісних набоїв для гвинтівок калібру .30."
   components:
   - type: StorageFill
     contents:
