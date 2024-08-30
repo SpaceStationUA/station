@@ -1,8 +1,8 @@
 - type: entity
-  name: "мішок з рудою"
+  name: ore bag
   id: OreBag
   parent: BaseStorageItem
-  description: "Міцна сумка для рятувальників і шахтарів для перенесення великої кількості руди. Прикріплена до поясу, притягує руду, що знаходиться поблизу."
+  description: A robust bag for salvage specialists and miners alike to carry large amounts of ore. Magnetises any nearby ores when attached to a belt.
   components:
   - type: MagnetPickup
   - type: Sprite

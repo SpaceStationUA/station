@@ -1,6 +1,6 @@
 - type: entity
   id: CratePirateChestCaptain
-  name: "піратська скриня капітана"
+  name: captain's pirate chest
   suffix: Filled
   parent: CratePirate
   components:
@@ -13,7 +13,7 @@
 
 - type: entity
   id: CratePirateChest
-  name: "піратська скриня екіпажу"
+  name: crew's pirate chest
   suffix: Filled
   parent: CratePirate
   components:
@@ -35,7 +35,7 @@
 
 - type: entity
   id: CratePirateChestCannonBall
-  name: "скриня з гарматним ядром"
+  name: cannonball chest
   suffix: Filled
   parent: CratePirateGrey
   components:
@@ -46,7 +46,7 @@
 
 - type: entity
   id: CratePirateChestGrapeShot
-  name: "скриня з грейпфрутом"
+  name: grapeshot chest
   suffix: Filled
   parent: CratePirateGrey
   components:
@@ -57,7 +57,7 @@
 
 - type: entity
   id: CratePirateChestGlassShot
-  name: "розстріляна грудна клітка"
+  name: glassshot chest
   suffix: Filled
   parent: CratePirateGrey
   components:
