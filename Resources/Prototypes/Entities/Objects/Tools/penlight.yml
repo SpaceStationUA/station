@@ -1,8 +1,8 @@
 - type: entity
-  name: "Pen Light"
+  name: Pen Light
   parent: Pen
   id: PenLightBase
-  description: "Ліхтарик розміром з ручку, що використовується медичним персоналом."
+  description: A pen-sized light, used by medical staff.
   components:
     - type: HandheldLight
       addPrefix: false
@@ -48,10 +48,10 @@
       - Pen
 
 - type: entity
-  name: "Ліхтар для ручки головного лікаря"
+  name: Chief Medical Officer's Pen Light
   parent: PenLightBase
   id: CMOPenLight
-  description: "Ліхтар розміром з ручку, цей належить головному лікарю. Коли тебе підвищують, ти отримуєш кращу ручку."
+  description: A pen-sized light, this one belonging to the Chief Medical Officer. When you get promoted you get a better pen.
   components:
     - type: HandheldLight
       addPrefix: false

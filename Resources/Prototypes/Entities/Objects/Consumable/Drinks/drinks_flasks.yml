@@ -13,8 +13,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkShinyFlask
-  name: "блискуча колба"
-  description: "Блискуча металева колба. На ній, схоже, викарбуваний грецький символ."
+  name: shiny flask
+  description: A shiny metal flask. It appears to have a Greek symbol inscribed on it.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/shinyflask.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkMREFlask
-  name: "Фляга MRE"
-  description: "Стара військова фляга, наповнена найкращим вмістом для солдатів"
+  name: MRE flask
+  description: An old military flask, filled with the finest contents for soldiers
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/mreflask.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkDetFlask
-  name: "фляга інспектора"
-  description: "Металева фляга зі шкіряним ремінцем та золотим значком, що належить інспектору."
+  name: inspector's flask
+  description: A metal flask with a leather band and golden badge belonging to the inspector.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/detflask.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkHosFlask
-  name: "фляга Хос"
-  description: "Металева колба, придатна для працьовитих хот-догів."
+  name: hos's flask
+  description: A metal flask, fit for a hard working HoS.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/hosflask.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkFlask
-  name: "капітанська фляга"
-  description: "Металева фляга, що належала капітану"
+  name: captain's flask
+  description: A metal flask belonging to the captain
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/flask.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkFlaskBar
-  name: "фляга для бару"
-  description: "Металева фляга, яку бармен часто видає напрокат. Не забудьте її повернути!"
+  name: bar flask
+  description: A metal flask often given out by the bartender on loan. Don't forget to return it!
   components:
     - type: Sprite
       sprite: Objects/Consumable/Drinks/barflask.rsi
@@ -75,7 +75,7 @@
 - type: entity
   parent: FlaskBase
   id: DrinkFlaskOld
-  name: "фляга"
+  name: flask
   description: ''
   components:
   - type: Sprite
@@ -84,8 +84,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkLithiumFlask
-  name: "літієва колба"
-  description: "Колба з символом атома літію на ній."
+  name: lithium flask
+  description: A flask with a Lithium Atom symbol on it.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/lithiumflask.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: FlaskBase
   id: DrinkVacuumFlask
-  name: "вакуумна колба"
-  description: "Зберігаємо ваші напої ідеальної температури з 1892 року."
+  name: vacuum flask
+  description: Keeping your drinks at the perfect temperature since 1892.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Drinks/vacuumflask.rsi
