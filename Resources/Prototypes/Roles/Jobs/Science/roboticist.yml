@@ -4,17 +4,16 @@
   description: job-description-roboticist
   playTimeTracker: JobRoboticist
   requirements:
-    - !type:DepartmentTimeRequirement
-      department: Epistemics 
-      time: 21600 #6 hrs
+  - !type:CharacterDepartmentTimeRequirement
+    department: Epistemics
+    min: 14400 # 4 hours - same as scientist
   startingGear: RoboticistGear
   icon: "JobIconRoboticist"
   supervisors: job-supervisors-rd
   access:
   - Research
   - Maintenance
-  - Robotics
-  
+
 - type: startingGear
   id: RoboticistGear
   equipment:
@@ -22,7 +21,7 @@
     back: ClothingBackpackRoboticsFilled
     shoes: ClothingShoesColorBlack
     outerClothing: ClothingOuterCoatRobo
-    id: RoboticistPDA
+    id: RoboticsPDA
     ears: ClothingHeadsetRobotics
   innerClothingSkirt: ClothingUniformJumpskirtRoboticist
   satchel: ClothingBackpackSatchelRoboticsFilled
