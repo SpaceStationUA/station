@@ -36,3 +36,6 @@ interaction-ShakeOther-fail-target-popup = {THE($user)} якось не діє �
 interaction-ShakeOther-success-self-popup = Ви берете і трясете {THE($target)}.
 interaction-ShakeOther-success-target-popup = {THE($user)} хапає вас і трясе.
 interaction-ShakeOther-success-others-popup = {THE($user)} хапає і трясе {THE($target)}.
+
+interaction-HelpUp-delayed-others-popup = {THE($user)} намагається допомогти {THE($target)} встати...
+interaction-ForceDown-delayed-others-popup = {THE($user)} намагається витіснити {THE($target)} вниз...

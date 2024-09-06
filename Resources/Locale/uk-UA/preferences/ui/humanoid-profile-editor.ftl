@@ -86,3 +86,13 @@ humanoid-profile-editor-traits-no-traits = Ознак не виявлено
 humanoid-profile-editor-height-label = Висота: {$height}см
 humanoid-profile-editor-width-label = Ширина: {$width}cm
 humanoid-profile-editor-weight-label = Вага: {$weight}кг
+
+humanoid-profile-editor-traits-remove-unusable-button = Видалити {$count} Непридатні риси
+humanoid-profile-editor-traits-remove-unusable-button-tooltip = Якщо ви натиснете цю кнопку, всі риси, які не можуть бути використані у вашому поточному наборі символів, буде вилучено.
+    Перед тим, як риси буде вилучено, вам буде запропоновано підтвердити їхнє видалення.
+humanoid-profile-editor-loadouts-remove-unusable-button = Видалити {$count ->
+    [1] {$count} Непридатне вбрання
+    *[other] {$count} Непридатні вбрання
+}
+humanoid-profile-editor-loadouts-remove-unusable-button-tooltip = Якщо ви натиснете цю кнопку, всі вбрання, які не можуть бути використані у вашому поточному наборі одягу, буде вилучено.
+    Перед видаленням вбрання вас буде запитано про підтвердження.
