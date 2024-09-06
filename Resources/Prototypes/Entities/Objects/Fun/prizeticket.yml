@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: PrizeTicketBase
-  description: A prize ticket, ready to be redeemed at a prize counter.
+  description: "Призовий квиток, готовий до викупу на призовій стійці."
   components:
   - type: Sprite
     sprite: Objects/Fun/prizeticket.rsi
@@ -19,7 +19,7 @@
 - type: entity
   parent: PrizeTicketBase
   id: PrizeTicket
-  name: prize ticket
+  name: "призовий квиток"
   suffix: Full
   components:
   - type: Material
@@ -47,7 +47,7 @@
 - type: entity
   parent: PrizeTicket
   id: PrizeTicket10
-  name: prize ticket
+  name: "призовий квиток"
   suffix: 10
   components:
   - type: Sprite
@@ -59,7 +59,7 @@
 - type: entity
   parent: PrizeTicket
   id: PrizeTicket30
-  name: prize ticket
+  name: "призовий квиток"
   suffix: 30
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 - type: entity
   parent: PrizeTicket
   id: PrizeTicket60
-  name: prize ticket
+  name: "призовий квиток"
   suffix: 60
   components:
   - type: Sprite
@@ -83,7 +83,7 @@
 - type: entity
   parent: PrizeTicket
   id: PrizeTicket1
-  name: prize ticket
+  name: "призовий квиток"
   suffix: Single
   components:
   - type: Sprite
@@ -95,8 +95,8 @@
 - type: entity
   parent: PresentRandom
   id: PrizeBall
-  name: prize ball
-  description: I wounder whats inside!
+  name: "призовий м'яч"
+  description: "Я раню те, що всередині!"
   components:
   - type: Sprite
     sprite: Objects/Fun/prizeticket.rsi

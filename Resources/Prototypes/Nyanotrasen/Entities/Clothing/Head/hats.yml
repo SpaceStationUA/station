@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadMailCarrier
-  name: mail carrier's hat
-  description: Smells like a good pension.
+  name: "капелюх листоноші"
+  description: "Пахне хорошою пенсією."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/mailman.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHoodMysta
-  name: mystagogue's muffin cap # Delta V - Mystagogue new hat
-  description: Contrary to its silly name, it's actually a symbol of great academic achievement.
+  name: "ковпачок для кексу містифікатора" # Delta V - Mystagogue new hat
+  description: "Всупереч своїй безглуздій назві, вона насправді є символом великих академічних досягнень."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/mysta.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHoodBrown
-  name: brown hood
-  description: Spooky.
+  name: "коричневий капюшон"
+  description: "Моторошно."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/brownhood.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadAreopagite
-  name: areopagite hat
-  description: Intimidating.
+  name: "капелюх ареопагіта"
+  description: "Залякує."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/areopagite.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadTechPriest
-  name: automaturge hood
-  description: Protects the mind that makes artificial minds.
+  name: "автоматична витяжка"
+  description: "Захищає розум, який створює штучний розум."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/techpriest.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadTinfoil
-  name: tinfoil hat
-  description: Protects you from all manner of psionic assaults.
+  name: "фольгова шапочка"
+  description: "Захищає вас від усіх видів псионних атак."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/tinfoil.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBellhop
-  name: bellhop cap
-  description: All the inconvinience and humiliation of a fez with none of the style!
+  name: "кашкет коридорного"
+  description: "Вся незручність і приниження фески без жодного стилю!"
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/bellhop.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: ClothingHeadTinfoil
   id: ClothingHeadCage
-  name: insulative headcage
-  description: Psionically insulates whoevers head is inside it. It takes time to resist out of.
+  name: "ізоляційний каркас"
+  description: "Психічно ізолює того, чия голова опиниться всередині. Потрібен час, щоб вийти з нього."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/cage.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: ClothingHeadTinfoil
   id: ClothingHeadHelmetInsulated
-  name: insulative skullcap
-  description: Psionically insulates whoevers head is inside it. It has some protection from physical damage.
+  name: "ізоляційна тюбетейка"
+  description: "Психічно ізолює голову того, хто знаходиться всередині. Має певний захист від фізичних ушкоджень."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Helmets/insulative_skullcap.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFezMantis
-  name: mantis' fez
-  description: A fine red fez with a gold tassel.
+  name: "феска богомола"
+  description: "Тонка червона феска із золотою китицею."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/mantis_fez.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadPrisonGuard
-  name: prison guard's hat
-  description: Grants full immunity from denying others basic human rights, dignity, or respect.
+  name: "капелюх охорони в'язниці"
+  description: "Надає повний імунітет від відмови іншим в основних правах людини, гідності та повазі."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/prisonguard.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHelmetKendoMen
-  name: men
-  description: The quintessential head armor of the kendo practitioner.
+  name: "чоловіки"
+  description: "Квінтесенція головного обладунку практикуючого кендо."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Helmets/men.rsi
@@ -163,8 +163,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretCap
-  name: captain's beret
-  description: A blue beret with a captain's rank emblem. For captains that are more inclined towards style than safety.
+  name: "капітанський берет"
+  description: "Синій берет з емблемою капітанського звання. Для капітанів, які більше схильні до стилю, ніж до безпеки."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/beret_cap.rsi
@@ -174,8 +174,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretCentcomm
-  name: CentCom beret
-  description: A green beret with an admiral's rank emblem.
+  name: "берет ЦентКом"
+  description: "Зелений берет з емблемою адміральського звання."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/beret_cent.rsi
@@ -185,8 +185,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretMysta
-  name: mystagogue's beret
-  description: A purple beret with a blue epistemics emblem. Mystical and stylish.
+  name: "директорський берет"
+  description: "Фіолетовий берет із синьою емблемою відділу науки. Містично і стильно."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Head/Hats/beret_mysta.rsi

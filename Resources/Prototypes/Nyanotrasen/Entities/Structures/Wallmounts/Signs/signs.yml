@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSign
   id: SignSec
-  name: security sign
-  description: A sign indicating the Security department.
+  name: "знак безпеки"
+  description: "Вивіска, що вказує на відділ безпеки."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Structures/Wallmounts/signs.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: BaseSign
   id: SignLastIdiot
-  name: Zero Days Since Last Idiot
-  description: Must be an Engineering joke.
+  name: "Нуль днів після останнього ідіота"
+  description: "Мабуть, це інженерний жарт."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Structures/Wallmounts/last_idiot.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseSign
   id: SignConspiracyBoard
-  name: conspiracy board
-  description: Perfect for tracking the multiple layers of criminal activities.
+  name: "конспіративна дошка"
+  description: "Ідеально підходить для відстеження багаторівневої злочинної діяльності."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Structures/Wallmounts/conspiracy_board.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: BaseSign
   id: SignDojo
-  name: dojo sign
-  description: A sign indicating a place with discipline and tatami mats.
+  name: "знак додзьо"
+  description: "Знак, що вказує на місце з дисципліною і татамі."
   components:
   - type: Sprite
     sprite: Nyanotrasen/Structures/Wallmounts/doujou.rsi

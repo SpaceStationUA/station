@@ -1,5 +1,5 @@
 - type: entity
-  name: Blood Cult Priest Spawner
+  name: "Жрець культу крові Spawner"
   suffix: AI, Hostile, Caster
   id: SpawnMobBloodCultistPriest
   parent: MarkerBase
@@ -23,7 +23,7 @@
       - MobBloodCultistPriest
 
 - type: entity
-  name: Blood Cult Acolyte
+  name: "Аколіт культуральної рідини крові"
   suffix: AI, Hostile, Melee
   id: SpawnMobBloodCultistAcolyte
   parent: MarkerBase
@@ -47,7 +47,7 @@
       - MobBloodCultistAcolyte
 
 - type: entity
-  name: Blood Cult Zealot
+  name: "Зилот культу крові"
   suffix: AI, Hostile, Melee
   id: SpawnMobBloodCultistZealotMelee
   parent: MarkerBase
@@ -71,7 +71,7 @@
       - MobBloodCultistZealotMelee
 
 - type: entity
-  name: Blood Cult Zealot
+  name: "Зилот культу крові"
   suffix: AI, Hostile, Ranged
   id: SpawnMobBloodCultistZealotRanged
   parent: MarkerBase
@@ -95,7 +95,7 @@
       - MobBloodCultistZealotRanged
 
 - type: entity
-  name: Blood Cult Zealot
+  name: "Зилот культу крові"
   suffix: AI, Hostile, Caster
   id: SpawnMobBloodCultistCaster
   parent: MarkerBase
@@ -119,7 +119,7 @@
       - MobBloodCultistCaster
 
 - type: entity
-  name: Blood Cult Leech
+  name: "П'явка культу крові"
   suffix: AI, Hostile, Melee, Fast
   id: SpawnMobBloodCultLeech
   parent: MarkerBase
@@ -135,7 +135,7 @@
       - MobBloodCultLeech
 
 - type: entity
-  name: Ascended Cultist
+  name: "Вознесений культист"
   suffix: AI, Hostile, Caster, Megafauna
   id: SpawnMobBloodCultistAscended
   parent: MarkerBase
@@ -151,7 +151,7 @@
       - MobBloodCultistAscended
 
 - type: entity
-  name: Blood Cult Janitor
+  name: "Прибиральник кривавого культу"
   suffix: AI, Hostile, Melee
   id: SpawnMobBloodCultistJanitor
   parent: MarkerBase
