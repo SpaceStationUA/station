@@ -1,0 +1,16 @@
+- type: hitscan
+  id: raygun
+  damage:
+    types:
+      Heat: 20
+      # Radiation: 20 Радіація то занадто, напевно, краще 20 хіт замість 10, і 25 стаміни замість 15
+      Stamina: 25
+  muzzleFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: muzzle_blue
+  travelFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: beam_blue
+  impactFlash:
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+    state: impact_blue
