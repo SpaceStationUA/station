@@ -1,0 +1,34 @@
+- type: speechSounds
+  id: PVC
+  saySound:
+    path: /Audio/_Pirate/Voice/Talk/gray.ogg
+  askSound:
+    path: /Audio/_Pirate/Voice/Talk/gray_ask.ogg
+  exclaimSound:
+    path: /Audio/_Pirate/Voice/Talk/gray_exclaim.ogg
+
+- type: emoteSounds
+  id: UnisexGray
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      path: /Audio/_Pirate/Voice/Gray/gray_scream.ogg
+    Laugh:
+      path: /Audio/_Pirate/Voice/Gray/gray_laugh.ogg
+    Honk:
+      collection: BikeHorn
+    Yawn:
+      path: /Audio/_Pirate/Voice/Gray/gray_yawn.ogg
+    Whistle:
+      collection: Whistles
+    Crying:
+      path: /Audio/_Pirate/Voice/Gray/gray_cry.ogg
+    Sigh:
+      path: /Audio/_Pirate/Voice/Gray/gray_sigh.ogg
+    Gasp:
+      path: /Audio/_Pirate/Voice/Gray/gray_gasp.ogg
+    Cough:
+      path: /Audio/_Pirate/Voice/Gray/gray_cough.ogg
+    DefaultDeathgasp:
+      path: /Audio/_Pirate/Voice/Gray/gray_deathgasp.ogg
