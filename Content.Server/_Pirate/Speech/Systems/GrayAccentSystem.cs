@@ -1,4 +1,5 @@
 using System.Text.RegularExpressions;
+using Content.Server.Speech;
 using Content.Server._Pirate.Speech.Components;
 
 namespace Content.Server._Pirate.Speech.EntitySystems;
