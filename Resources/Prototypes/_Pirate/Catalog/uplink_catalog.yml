@@ -33,3 +33,14 @@
     Telecrystal: 8
   categories:
     - UplinkWeapons
+
+- type: listing
+  id: UplinkTeleporter
+  name: uplink-syndicate-teleporter-name
+  description: uplink-syndicate-teleporter-desc
+  icon: { sprite: /Textures/_Pirate/Objects/Devices/syndicate_teleporter.rsi, state: icon }
+  productEntity: SyndicateTeleporter
+  cost:
+    Telecrystal: 12
+  categories:
+  - UplinkUtility
