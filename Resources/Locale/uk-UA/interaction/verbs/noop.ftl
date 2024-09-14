@@ -42,3 +42,9 @@ interaction-WaveAt-success-others-popup = {THE($user)} хвилює {$hasUsed ->
     [false] на {THE($target)}.
     *[true] {POSS-PRONOUN($user)} {$used} у {THE($target)}.
 }
+
+interaction-PetAnimal-name = {interaction-Pet-name}
+interaction-PetAnimal-description = Погладь тварину.
+interaction-PetAnimal-success-self-popup = {interaction-Pet-success-self-popup}
+interaction-PetAnimal-success-target-popup = {interaction-Pet-success-target-popup}
+interaction-PetAnimal-success-others-popup = {interaction-Pet-success-others-popup}

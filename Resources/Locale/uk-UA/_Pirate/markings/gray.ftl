@@ -1,4 +1,4 @@
-marking-GrayCuteEyes-eyes_cute = Gray Eyes (Cute)
-marking-GrayCuteEyes = Gray Eyes (Cute)
-marking-GrayCoolEyes-eyes_cool = Gray Eyes (Cool)
-marking-GrayCoolEyes = Gray Eyes (Cool)
+marking-GrayCuteEyes-eyes_cute = Сіроокий (милий)
+marking-GrayCuteEyes = Сіроокий (милий)
+marking-GrayCoolEyes-eyes_cool = Сірі очі (прохолодно)
+marking-GrayCoolEyes = Сірі очі (прохолодно)

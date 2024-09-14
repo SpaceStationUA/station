@@ -314,3 +314,9 @@ reagent-effect-guidebook-chem-reroll-psionic = { $chance ->
         [1] Дозволяє
         *[other] дозволяє
     } шанс отримати іншу псионічну силу
+
+reagent-effect-guidebook-add-moodlet = змінює настрій на {$amount}
+    { $timeout ->
+        [0] на невизначений час
+        *[other] на {$timeout} секунд
+    }
