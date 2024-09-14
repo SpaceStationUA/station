@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCrucifix
-  name: "розп'яття"
-  description: "Чорт забирай, як приємно бути таким побожним."
+  name: crucifix
+  description: Damn, it feels good to be so pious.
   components:
   - type: Item
     size: Tiny
@@ -22,8 +22,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckAmuletBloodCult
-  name: "вознесенський культовий амулет"
-  description: "Щоразу, коли ви дивитеся на нього, вам здається, що він дивиться у відповідь."
+  name: ascended cultist amulet
+  description: Every time you look upon it, you feel like it gazes back.
   components:
   - type: Item
     size: Tiny
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckIFFNeutral
-  name: "Білий строб IFF"
-  description: "Видимий світлодіодний комплект IFF, що складається з шолома та наплічних стробоскопів."
+  name: IFF white strobe
+  description: Visible LED IFF kit that consists of helmet and shoulder strobes.
   components:
   - type: Item
     size: Small
@@ -74,7 +74,7 @@
 - type: entity
   parent: ClothingNeckIFFNeutral
   id: ClothingNeckIFFGreen
-  name: "Зелений строб IFF"
+  name: IFF green strobe
   components:
   - type: Sprite
     sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
@@ -95,7 +95,7 @@
 - type: entity
   parent: ClothingNeckIFFNeutral
   id: ClothingNeckIFFRed
-  name: "Червоний строб IFF"
+  name: IFF red strobe
   components:
   - type: Sprite
     sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
@@ -116,7 +116,7 @@
 - type: entity
   parent: ClothingNeckIFFNeutral
   id: ClothingNeckIFFBlue
-  name: "Синій строб IFF"
+  name: IFF blue strobe
   components:
   - type: Sprite
     sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
@@ -137,7 +137,7 @@
 - type: entity
   parent: ClothingNeckIFFNeutral
   id: ClothingNeckIFFCyan
-  name: "IFF блакитний строб"
+  name: IFF cyan strobe
   components:
   - type: Sprite
     sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
@@ -158,7 +158,7 @@
 - type: entity
   parent: ClothingNeckIFFNeutral
   id: ClothingNeckIFFOrange
-  name: "Помаранчевий строб IFF"
+  name: IFF orange strobe
   components:
   - type: Sprite
     sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi
@@ -179,7 +179,7 @@
 - type: entity
   parent: ClothingNeckIFFNeutral
   id: ClothingNeckIFFPurple
-  name: "IFF фіолетовий строб"
+  name: IFF purple strobe
   components:
   - type: Sprite
     sprite: _NF/Clothing/Neck/Misc/mercenary_iff.rsi

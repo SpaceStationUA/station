@@ -2,7 +2,7 @@
 - type: entity
   id: PartSkeleton
   parent: BaseItem
-  name: "частина тіла скелета"
+  name: "skeleton body part"
   abstract: true
   components:
   - type: Damageable
@@ -21,7 +21,7 @@
 
 - type: entity
   id: TorsoSkeleton
-  name: "скелетний торс"
+  name: "skeleton torso"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -35,8 +35,8 @@
 
 - type: entity
   id: HeadSkeleton
-  name: "череп"
-  description: "На жаль, бідолашний Йорик..."
+  name: "skull"
+  description: Alas poor Yorick...
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -75,7 +75,7 @@
 
 - type: entity
   id: LeftArmSkeleton
-  name: "ліва скелетна рука"
+  name: "left skeleton arm"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -90,7 +90,7 @@
 
 - type: entity
   id: RightArmSkeleton
-  name: "права скелетна рука"
+  name: "right skeleton arm"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -105,7 +105,7 @@
 
 - type: entity
   id: LeftHandSkeleton
-  name: "ліва скелетна рука"
+  name: "left skeleton hand"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -120,7 +120,7 @@
 
 - type: entity
   id: RightHandSkeleton
-  name: "права скелетна рука"
+  name: "right skeleton hand"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -135,7 +135,7 @@
 
 - type: entity
   id: LeftLegSkeleton
-  name: "ліва скелетна нога"
+  name: "left skeleton leg"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -151,7 +151,7 @@
 
 - type: entity
   id: RightLegSkeleton
-  name: "права скелетна нога"
+  name: "right skeleton leg"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -167,7 +167,7 @@
 
 - type: entity
   id: LeftFootSkeleton
-  name: "ліва скелетна стопа"
+  name: "left skeleton foot"
   parent: PartSkeleton
   components:
     - type: Sprite
@@ -182,7 +182,7 @@
 
 - type: entity
   id: RightFootSkeleton
-  name: "права скелетна стопа"
+  name: "right skeleton foot"
   parent: PartSkeleton
   components:
     - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
-  name: "щелепи життя"
+  name: jaws of life
   parent: BaseItem
   id: JawsOfLife
-  description: "Набір щелеп життя, стиснутих за допомогою магії науки."
+  description: A set of jaws of life, compressed through the magic of science.
   components:
   - type: Tag
     tags:
@@ -64,10 +64,10 @@
       - JawsOfLife
 
 - type: entity
-  name: "синдикат \"Щелепи життя"
+  name: syndicate jaws of life
   parent: JawsOfLife
   id: SyndicateJawsOfLife
-  description: "Корисний для входу на вокзал або до його відділів."
+  description: Useful for entering the station or its departments.
   components:
   - type: Sprite
     sprite: Objects/Tools/jaws_of_life.rsi
