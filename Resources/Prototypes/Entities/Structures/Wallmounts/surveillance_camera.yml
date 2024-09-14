@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: SurveillanceCameraBase
-  name: camera
-  description: A surveillance camera. It's watching you. Kinda.
+  name: "камера"
+  description: "Камера спостереження. Вона стежить за тобою. Типу того."
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -75,7 +75,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraConstructed
-  name: camera
+  name: "камера"
   suffix: Constructed
   components:
     - type: DeviceNetwork
@@ -95,7 +95,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraEngineering
-  name: camera
+  name: "камера"
   suffix: Engineering
   components:
   - type: DeviceNetwork
@@ -108,7 +108,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraSecurity
-  name: camera
+  name: "камера"
   suffix: Security
   components:
   - type: DeviceNetwork
@@ -121,7 +121,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraScience
-  name: camera
+  name: "камера"
   suffix: Epistemics # DeltaV - Epistemics Department replacing Science
   components:
   - type: DeviceNetwork
@@ -134,7 +134,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraSupply
-  name: camera
+  name: "камера"
   suffix: Supply
   components:
   - type: DeviceNetwork
@@ -147,7 +147,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraCommand
-  name: camera
+  name: "камера"
   suffix: Command
   components:
   - type: DeviceNetwork
@@ -160,7 +160,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraService
-  name: camera
+  name: "камера"
   suffix: Service
   components:
   - type: DeviceNetwork
@@ -173,7 +173,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraMedical
-  name: camera
+  name: "камера"
   suffix: Medical
   components:
   - type: DeviceNetwork
@@ -186,7 +186,7 @@
 - type: entity
   parent: SurveillanceCameraBase
   id: SurveillanceCameraGeneral
-  name: camera
+  name: "камера"
   suffix: General
   components:
   - type: DeviceNetwork
@@ -198,8 +198,8 @@
 
 - type: entity
   id: SurveillanceCameraAssembly
-  name: camera
-  description: A surveillance camera. Doesn't seem to be watching anybody any time soon. Probably.
+  name: "камера"
+  description: "Камера спостереження. Не схоже, що найближчим часом вона буде за кимось спостерігати. Напевно."
   components:
     - type: Clickable
     - type: InteractionOutline

@@ -16,10 +16,10 @@
     capacity: 5
 
 - type: entity
-  name: wand of carp polymorph
+  name: "паличка коропового поліморфу"
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphCarp
-  description: For when you need a carp filet quick and the clown is looking juicy.
+  description: "Для тих, кому потрібно швидко приготувати коропове філе, а клоун виглядає соковито."
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltCarp
@@ -27,10 +27,10 @@
     count: 5
 
 - type: entity
-  name: wand of monkey polymorph
+  name: "паличка мавпячого поліморфу"
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphMonkey
-  description: For when you need a monkey friend.
+  description: "На випадок, коли вам потрібен друг-мавпа."
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltMonkey
@@ -38,10 +38,10 @@
     count: 5
 
 - type: entity
-  name: wand of fireball
+  name: "паличка з вогняною кулею"
   parent: WeaponWandBase
   id: WeaponWandFireball
-  description: Great big balls of fire!
+  description: "Величезні вогняні кулі!"
   components:
   - type: Sprite
     layers:
@@ -58,10 +58,10 @@
     count: 5
 
 - type: entity
-  name: magical wand of instant death
+  name: "чарівна паличка миттєвої смерті"
   parent: WeaponWandBase
   id: WeaponWandDeath
-  description: Only the best and brightest of the Space Wizards R&D team worked together to create this beauty.
+  description: "Над створенням цієї краси працювали лише найкращі та найяскравіші з команди Space Wizards R&D."
   components:
   - type: Sprite
     layers:
@@ -77,10 +77,10 @@
     count: 3
 
 - type: entity
-  name: wand of entrance
+  name: "паличка для входу"
   parent: WeaponWandBase
   id: WeaponWandPolymorphDoor
-  description: For when you need a get-away route.
+  description: "Для тих випадків, коли вам потрібен маршрут для втечі."
   components:
   - type: Sprite
     layers:
@@ -96,10 +96,10 @@
     count: 10
 
 - type: entity
-  name: wand of cluwning
+  name: "чарівна паличка"
   parent: WeaponWandPolymorphBase
   id: WeaponWandCluwne
-  description: Make their situation worse by turning them into a cluwne.
+  description: "Погіршити їхнє становище, перетворивши на клоунаду."
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltCluwne
@@ -109,8 +109,8 @@
 - type: entity
   parent: WeaponWandPolymorphBase
   id: WeaponWandPolymorphBread
-  name: magic bread wand
-  description: Turn all your friends into bread! Your boss! Your enemies! Your dog! Make everything bread!
+  name: "чарівна хлібна паличка"
+  description: "Перетвори всіх своїх друзів на хліб! Свого боса! Твоїх ворогів! Свого пса! Зробіть з усього хліб!"
   components:
   - type: BasicEntityAmmoProvider
     proto: ProjectilePolyboltBread

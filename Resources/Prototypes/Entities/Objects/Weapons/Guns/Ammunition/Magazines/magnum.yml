@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineMagnum
-  name: pistol magazine (.45 magnum)
+  name: "пістолетний магазин (.45 magnum)"
   parent: BaseMagazinePistol
   abstract: true
   components:
@@ -16,7 +16,7 @@
 
 - type: entity
   id: BaseMagazineMagnumSubMachineGun
-  name: "Vector magazine (.45 magnum)"
+  name: "Магазин Vector (.45 magnum)"
   parent: BaseItem
   abstract: true
   components:
@@ -49,7 +49,7 @@
 
 - type: entity
   id: MagazineMagnum
-  name: pistol magazine (.45 magnum)
+  name: "пістолетний магазин (.45 magnum)"
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -63,7 +63,7 @@
 
 - type: entity
   id: MagazineMagnumPractice
-  name: pistol magazine (.45 magnum practice)
+  name: "пістолетний магазин (.45 магнум практика)"
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -77,7 +77,7 @@
 
 - type: entity
   id: MagazineMagnumRubber
-  name: pistol magazine (.45 magnum rubber)
+  name: "пістолетний магазин (.45 магнум гума)"
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -91,7 +91,7 @@
 
 - type: entity
   id: MagazineMagnumUranium
-  name: pistol magazine (.45 magnum uranium)
+  name: "пістолетний магазин (.45 магнум уран)"
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -105,7 +105,7 @@
 
 - type: entity
   id: MagazineMagnumAP
-  name: pistol magazine (.45 magnum armor-piercing)
+  name: "пістолетний магазин (.45 магнум бронебійний)"
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -119,7 +119,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGun
-  name: "Vector magazine (.45 magnum)"
+  name: "Магазин Vector (.45 magnum)"
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -133,7 +133,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunPractice
-  name: "Vector magazine (.45 magnum practice)"
+  name: "Журнал \"Вектор\" (.45 магнум практика)"
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -147,7 +147,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunRubber
-  name: "Vector magazine (.45 magnum rubber)"
+  name: "Магазин Vector (гума .45 магнум)"
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -161,7 +161,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunUranium
-  name: "Vector magazine (.45 magnum uranium)"
+  name: "Магазин Vector (.45 magnum uranium)"
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -175,7 +175,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunPiercing
-  name: "Vector magazine (.45 magnum armor-piercing)"
+  name: "Магазин Vector (.45 magnum бронебійний)"
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider
