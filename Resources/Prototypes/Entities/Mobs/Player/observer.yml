@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMob
   id: MobObserver
-  name: "спостерігач"
-  description: "Бу!"
+  name: observer
+  description: Boo!
   noSpawn: true
   components:
   - type: CargoSellBlacklist
@@ -57,8 +57,8 @@
 
 - type: entity
   id: ActionGhostBoo
-  name: "Бу!"
-  description: "Налякайте членів екіпажу нудьгою!"
+  name: Boo!
+  description: Scare your crew members because of boredom!
   noSpawn: true
   components:
   - type: InstantAction
@@ -69,8 +69,8 @@
 
 - type: entity
   id: ActionToggleLighting
-  name: "Ввімкнути все освітлення"
-  description: "Увімкніть весь рендеринг світла, щоб краще бачити темні ділянки."
+  name: Toggle All Lighting
+  description: Toggle all light rendering to better observe dark areas.
   noSpawn: true
   components:
   - type: InstantAction
@@ -81,8 +81,8 @@
 
 - type: entity
   id: ActionToggleFov
-  name: "Toggle FoV"
-  description: "Перемикає поле зору, щоб бачити те, що бачать гравці."
+  name: Toggle FoV
+  description: Toggles field-of-view in order to see what players see.
   noSpawn: true
   components:
   - type: InstantAction
@@ -93,8 +93,8 @@
 
 - type: entity
   id: ActionToggleGhosts
-  name: "Перемикання привидів"
-  description: "Перемикання видимості інших привидів."
+  name: Toggle Ghosts
+  description: Toggle the visibility of other ghosts.
   noSpawn: true
   components:
   - type: InstantAction
@@ -105,8 +105,8 @@
 
 - type: entity
   id: ActionToggleGhostHearing
-  name: "Ввімкнути слух привидів"
-  description: "Перемикайтеся між прослуховуванням усіх повідомлень і прослуховуванням лише радіо та повідомлень поблизу."
+  name: Toggle Ghost Hearing
+  description: Toggle between hearing all messages and hearing only radio & nearby messages.
   noSpawn: true
   components:
   - type: InstantAction
