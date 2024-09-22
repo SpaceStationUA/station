@@ -64,3 +64,6 @@ character-item-group-LoadoutBartenderWeapon = Зброя бармена
 
 # Послуга - Музикант
 character-item-group-LoadoutMusicianInstruments = Музичні інструменти
+
+character-item-group-TraitsLanguagesBasic = Основні мови
+character-item-group-TraitsAccents = Акценти

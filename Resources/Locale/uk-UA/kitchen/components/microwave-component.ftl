@@ -26,3 +26,5 @@ microwave-menu-eject-all-tooltip = Випаровує всі реагенти, �
 microwave-menu-instant-button = МИТЬ
 microwave-menu-footer-flavor-left = Не вставляйте електронні, металеві або живі предмети.
 microwave-menu-footer-flavor-right = v1.5
+
+microwave-component-upgrade-cook-time = час приготування
