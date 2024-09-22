@@ -5914,4 +5914,278 @@ Entries:
   id: 6360
   time: '2024-09-14T06:48:55.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/896
-
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Станції підзарядки кіборгів нарешті знову працюють.
+    - type: Fix
+      message: >-
+        Реідратовані сутності (як-от куби мавп) більше не створюють другий
+        клієнтський об'єкт при реідратації.
+  id: 6361
+  time: '2024-09-14T17:55:41.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/888
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: Тепер властивість "Uncloneable" коштує лише один бал.
+  id: 6362
+  time: '2024-09-14T18:01:21.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/868
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Гарпії тепер можуть літати на станції протягом обмеженого часу,
+        рухаючись швидше за рахунок витрати витривалості.
+  id: 6363
+  time: '2024-09-16T04:41:44.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/919
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Перетягування було перероблено. Тепер ваш персонаж намагатиметься
+        постійно штовхати перетягуваний об'єкт, коли ви використовуєте клавішу
+        штовхання.
+    - type: Remove
+      message: >-
+        Ви більше не можете штовхати перетягуваний об'єкт під час ходьби, а
+        штовхання тепер відповідає законам збереження імпульсу.
+  id: 6364
+  time: '2024-09-17T23:38:45.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/883
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Тепер ядро має 6-ядерний AME, який постачається з двома банками палива.
+        Це повинно дати інженерам значно більше 20 хвилин для налаштування
+        двигуна Supermatter.
+  id: 6365
+  time: '2024-09-17T23:39:07.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/927
+- author: JayJacobs
+  changes:
+    - type: Tweak
+      message: Змінено спрайт перукарського крісла.
+    - type: Fix
+      message: Виправлено текстури лавок.
+  id: 6366
+  time: '2024-09-17T23:39:57.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/925
+- author: zelezniciar
+  changes:
+    - type: Tweak
+      message: Пожежна сокира знову може піднімати підлоги.
+  id: 6367
+  time: '2024-09-17T23:40:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/921
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Консолі клонування тепер правильно вказують, коли тіло має властивість
+        "Uncloneable".
+  id: 6368
+  time: '2024-09-18T04:30:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/926
+- author: Spatison
+  changes:
+    - type: Add
+      message: Додана система лежання.
+    - type: Tweak
+      message: >-
+        Лежання тепер використовує "do-afters", які видно іншим людям, щоб
+        показати, що відбувається.
+    - type: Add
+      message: Додана система прицілювання.
+    - type: Tweak
+      message: Тепер можна прицілюватися з Христова.
+  id: 6369
+  time: '2024-09-19T02:18:35.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/815
+- author: FoxxoTrystan
+  changes:
+    - type: Remove
+      message: Видалено вкладку DeltaV Option (опції переміщені).
+  id: 6370
+  time: '2024-09-19T02:24:25.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/928
+- author: Hell_Cat
+  changes: []
+  id: 6371
+  time: '2024-09-19T03:29:41.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/929
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено проблеми з системою лежання. Лежання більше не змушує всі
+        об'єкти на вашому екрані одночасно лягати. Використання будь-якої
+        клавіші руху більше не змушує персонажа виглядати так, ніби він лежить.
+  id: 6372
+  time: '2024-09-19T20:37:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/933
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        UniversalLanguageSpeaker (і Xenoglossy як його розширення) тепер
+        з'являються у вашому мовному меню поряд з іншими відомими мовами,
+        замість того, щоб замінювати всі відомі мови. Тепер ви можете вибирати,
+        чи говорити на ньому, чи використовувати звичайну мову.
+    - type: Add
+      message: Властивості тепер можуть додавати мови напряму.
+    - type: Add
+      message: Властивості тепер можуть видаляти мови напряму.
+  id: 6373
+  time: '2024-09-20T01:47:52.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/899
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Меле-зброя тепер може індивідуально визначати свою взаємодію з системою
+        змагань (ContestsSystem).
+    - type: Add
+      message: >-
+        Додано тип ContestArgs, що дозволяє будь-якому компоненту містити список
+        аргументів для ContestSystems.
+    - type: Add
+      message: >-
+        Додано ContestConstructor, новий тип мета-змагання, який дозволяє
+        іншим системам використовувати компоненти для визначення всіх можливих
+        поведінок змагань, замість того щоб кодувати певні взаємодії.
+  id: 6374
+  time: '2024-09-20T02:48:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/934
+- author: gluesniffler
+  changes:
+    - type: Add
+      message: >-
+        Додана необов'язкова змінна сервера, яка дозволяє сутностям повзати під
+        столами.
+    - type: Tweak
+      message: >-
+        Столи та пластикові заслони стали менш стійкими до пошкоджень, і тепер
+        їх можна цілити зброєю, прицілюючись на них.
+  id: 6375
+  time: '2024-09-20T19:34:02.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/939
+- author: ODJ
+  changes:
+    - type: Tweak
+      message: Змінено меле-атаки; Менше використання витривалості при важких ударах.
+  id: 6376
+  time: '2024-09-20T19:34:46.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/938
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        JukeOperator тепер дозволяє використовувати аргументи JukeDuration та
+        JukeCooldown. JukeCooldown - це нова функція, яка змушує ворогів чекати
+        час, рівний JukeCooldown у секундах, перш ніж вони зможуть спробувати
+        ухилитися від меле-атаки.
+    - type: Tweak
+      message: >-
+        За замовчуванням NPC будуть намагатися ухилитися від атак лише раз на 5
+        секунд.
+    - type: Fix
+      message: >-
+        JukeOperator тепер виконує надзвичайно складні обчислення в 5000 разів
+        рідше. ВИХІДНІ УМОВИ, ЛЮДИ!
+  id: 6377
+  time: '2024-09-20T20:05:31.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/935
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Усі "довгоствольні" рушниці, гвинтівки, легкі кулемети та дробовики тепер
+        вимагають взяти їх у дві руки для використання.
+  id: 6378
+  time: '2024-09-20T20:35:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/913
+- author: zelezniciar
+  changes:
+    - type: Add
+      message: Додано комп'ютер атмосферних тривог.
+  id: 6379
+  time: '2024-09-20T21:46:38.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/922
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Додано базове мовне меню до вкладки Traits.
+    - type: Add
+      message: >-
+        Tau-Ceti Basic, Tradeband, Freespeak, Elyran Standard, Sol Common та
+        жестова мова додані до мовного меню.
+  id: 6380
+  time: '2024-09-20T21:46:47.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/936
+- author: VMSolidus
+  changes:
+    - type: Remove
+      message: >-
+        Видалено завдання зрадника "Стати псіоніком". Його було неможливо
+        провалити, якщо ви брали властивість "Latent Psychic", і неможливо
+        виконати, якщо не брали.
+  id: 6381
+  time: '2024-09-20T21:47:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/940
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Повернуто оновлення частин.
+  id: 6382
+  time: '2024-09-21T22:46:49.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/917
+- author: Spatison
+  changes:
+    - type: Add
+      message: Додано знижки в аплінк.
+  id: 6383
+  time: '2024-09-21T22:46:59.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/930
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано нову псіонічну силу "Healing Word". Коли застосовано до іншої
+        особи, вона зцілює невелику кількість усіх типів пошкоджень (масштабується
+        з характеристиками використання), а також зменшує таймери гниття.
+        Healing Word має дуже короткий час перезарядки та низьку вартість
+        Glimmer.
+    - type: Add
+      message: >-
+        Додано нову надзвичайно рідкісну псіонічну силу "Breath of Life". Коли
+        застосовується до іншої особи, вона зцілює велику кількість пошкоджень
+        (масштабується з характеристиками використання), а також суттєво зменшує
+        таймери гниття. Крім того, якщо можливо, вона оживить ціль.
+        Breath of Life має надзвичайно довгий час перезарядки, тривалий час
+        кастування, яке можна перервати, і надзвичайно високу вартість Glimmer
+        (типовий псіон збільшить Glimmer більше ніж на 50 пунктів під час
+        кастування).
+    - type: Add
+      message: Капелан тепер починає з силою "Healing Word".
+  id: 6384
+  time: '2024-09-21T22:50:01.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/942
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Пляшки, стакани, тарілки та всі ємності для рідин тепер можуть бути
+        вражені кулями (і, ймовірно, знищені в процесі). Ми сподіваємося, що це
+        забезпечить як невелику тактичну перевагу/недолік, так і зробить
+        перестрілки навколо бару більш "кінематографічними".
+    - type: Add
+      message: >-
+        Тепер стільці також можуть бути вражені кулями, якщо стрілок
+        прицілюється на них, так само як і столи.
+  id: 6385
+  time: '2024-09-21T23:22:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/943

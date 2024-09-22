@@ -29,10 +29,15 @@
           state: "smes-op1"
           shader: unshaded
     - type: Smes
+    - type: UpgradeBattery
+      maxChargeMultiplier: 2
+      baseMaxCharge: 16000000 # Pirate - SMES buff
+    - type: UpgradePowerSupplyRamping
+      scaling: Linear
+      supplyRampingMultiplier: 1     
     - type: Appearance
     - type: Battery
       startingCharge: 0
-      maxCharge: 16000000 # Pirate - SMES buff
     - type: ExaminableBattery
     - type: NodeContainer
       examinable: true
