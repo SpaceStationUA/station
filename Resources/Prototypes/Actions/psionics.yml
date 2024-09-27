@@ -177,8 +177,8 @@
             powerName: Healing Word
             popupText: healing-word-begin
             playSound: true
-            minGlimmer: 2
-            maxGlimmer: 4
+            minGlimmer: 1
+            maxGlimmer: 2
             glimmerObviousSoundThreshold: 100
             glimmerObviousPopupThreshold: 200
 
@@ -215,7 +215,7 @@
             powerName: Revivify
             popupText: revivify-begin
             playSound: true
-            minGlimmer: 10 # These also get multiplied by caster stats. So,
-            maxGlimmer: 15 # keeping in mind the ~3.5x multiplier, this spikes glimmer by as much as 60 points.
+            minGlimmer: 5 # These also get multiplied by caster stats. So,
+            maxGlimmer: 7 # keeping in mind the ~3.5x multiplier, this spikes glimmer by as much as 60 points.
             glimmerObviousSoundThreshold: 50
             glimmerObviousPopupThreshold: 100
