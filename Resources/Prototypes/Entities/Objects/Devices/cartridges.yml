@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: NotekeeperCartridge
-  name: notekeeper cartridge
-  description: A program for keeping notes
+  name: "картридж для нотатника"
+  description: "Програма для ведення нотаток"
   components:
   - type: Sprite
     sprite: Objects/Devices/cartridge.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: BaseItem
   id: NewsReaderCartridge
-  name: news cartridge
-  description: A program for reading news
+  name: "новинний картридж"
+  description: "Програма для читання новин"
   components:
   - type: Sprite
     sprite: Objects/Devices/cartridge.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: BaseItem
   id: CrewManifestCartridge
-  name: crew manifest cartridge
-  description: A program for listing your fellow crewmembers
+  name: "касета з екіпажним маніфестом"
+  description: "Програма для створення списку ваших колег по екіпажу"
   components:
     - type: Sprite
       sprite: Objects/Devices/cartridge.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseItem
   id: NetProbeCartridge
-  name: NetProbe cartridge
-  description: A program for getting the address and frequency of network devices
+  name: "Картридж NetProbe"
+  description: "Програма для отримання адреси та частоти мережевих пристроїв"
   components:
     - type: Sprite
       sprite: Objects/Devices/cartridge.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: BaseItem
   id: LogProbeCartridge
-  name: LogProbe cartridge
-  description: A program for getting access logs from devices
+  name: "Картридж LogProbe"
+  description: "Програма для отримання логів доступу з пристроїв"
   components:
     - type: Sprite
       sprite: Objects/Devices/cartridge.rsi
