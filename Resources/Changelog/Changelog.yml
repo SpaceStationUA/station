@@ -6189,3 +6189,40 @@ Entries:
   id: 6385
   time: '2024-09-21T23:22:43.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/943
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено баг, де заклинання "Подих Життя" та "Слово Зцілення" могли критично пошкодити живих людей, що призводило до їх падіння.
+    - type: Fix
+      message: >-
+        Виправлено баг, де "Подих Життя" міг воскресити людей, які були в стані гниття (він все ще зцілює їх та зменшує таймер гниття, але не воскресить, якщо таймер не знизиться до межі 10 хвилин).
+    - type: Add
+      message: >-
+        Тепер шкала "Do-After" для "Подиху Життя" і "Слова Зцілення" прихована, якщо рівень глімеру достатньо низький. Поріг залежить від вашої характеристики "Глушіння" — більше глушіння = непомітніше використання заклинання.
+  id: 6386
+  time: '2024-09-24T00:56:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/949
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Додано багато рецептів у меню швидкого будівництва. Спробуйте натиснути Z, тримаючи різні будівельні матеріали!
+  id: 6387
+  time: '2024-09-24T00:56:45.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/945
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Тепер IPC важать 71 кг замість 5 кг. Серйозно, хто ж зробив BeepBoops із пір'я?!?
+  id: 6388
+  time: '2024-09-25T05:09:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/959
+- author: fenndragon
+  changes:
+    - type: Add
+      message: Додано нових нейтральних ксеносів, події та слаймів реагентів
+  id: 6389
+  time: '2024-09-26T15:06:54.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/956
