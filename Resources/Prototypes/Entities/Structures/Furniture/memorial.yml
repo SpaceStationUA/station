@@ -1,8 +1,8 @@
 - type: entity
   id: Memorial
   parent: BaseStructure
-  name: memorial
-  description: Commemorating something.
+  name: "меморіал"
+  description: "Вшанування чогось."
   components:
   - type: Sprite
     sprite: Structures/Furniture/Memorials/generic_memorial.rsi
@@ -32,7 +32,7 @@
 - type: entity
   id: SS13Memorial
   parent: BaseStructure
-  name: Tomb of the Unknown Employee
+  name: "Могила невідомого працівника"
   description: |
     Here rests an unknown employee
     Unknown by name or rank

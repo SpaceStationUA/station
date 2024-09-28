@@ -1,8 +1,8 @@
 # gloves
 - type: entity
   id: ActionToggleNinjaGloves
-  name: Toggle ninja gloves
-  description: Toggles all glove actions on left click. Includes your doorjack, draining power, stunning enemies, downloading research and calling in a threat.
+  name: "Рукавички ніндзя з перемикачем"
+  description: "Перемикає всі дії рукавички по лівому клацанню. Включає відмикання дверей, викачування енергії, оглушення ворогів, завантаження досліджень і виклик загрози."
   noSpawn: true
   components:
   - type: InstantAction
@@ -12,8 +12,8 @@
 # suit
 - type: entity
   id: ActionCreateThrowingStar
-  name: Create throwing star
-  description: Channels suit power into creating a throwing star that deals extra stamina damage.
+  name: "Створіть метальну зірку"
+  description: "Використовує силу костюма для створення метальної зірки, яка завдає додаткової шкоди витривалості."
   noSpawn: true
   components:
   - type: InstantAction
@@ -27,8 +27,8 @@
 
 - type: entity
   id: ActionRecallKatana
-  name: Recall katana
-  description: Teleports the Energy Katana linked to this suit to its wearer, cost based on distance.
+  name: "Згадати катану"
+  description: "Телепортує пов'язану з цим костюмом Енергетичну катану до її власника, вартість залежить від відстані."
   noSpawn: true
   components:
   - type: InstantAction
@@ -42,8 +42,8 @@
 
 - type: entity
   id: ActionNinjaEmp
-  name: EM Burst
-  description: Disable any nearby technology with an electro-magnetic pulse.
+  name: "Електромагнітний сплеск"
+  description: "Вимкніть електромагнітним імпульсом будь-яку техніку поблизу."
   noSpawn: true
   components:
   - type: InstantAction
@@ -56,8 +56,8 @@
 
 - type: entity
   id: ActionTogglePhaseCloak
-  name: Phase cloak
-  description: Toggles your suit's phase cloak. Beware that if you are hit, all abilities are disabled for 5 seconds, including your cloak!
+  name: "Фазова маскування"
+  description: "Вмикає фазовий плащ вашого костюма. Пам'ятайте, що при попаданні у вас відключаються всі здібності на 5 секунд, включно з маскою!"
   noSpawn: true
   components:
   - type: InstantAction
@@ -69,8 +69,8 @@
 # katana
 - type: entity
   id: ActionEnergyKatanaDash
-  name: Katana dash
-  description: Teleport to anywhere you can see, if your Energy Katana is in your hand.
+  name: "Катання на катані"
+  description: "Телепортуйтеся в будь-яке місце, яке ви бачите, якщо ваша Енергетична Катана у вас в руці."
   noSpawn: true
   components:
   - type: WorldTargetAction
