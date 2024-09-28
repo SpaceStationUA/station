@@ -1,3 +1,5 @@
+trait-name-GoblinAccent = Гоблінський акцент
+
 trait-blindness-name = Сліпота
 trait-blindness-desc = Ви нічого не бачите
 
