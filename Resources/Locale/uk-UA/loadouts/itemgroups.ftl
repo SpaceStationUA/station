@@ -67,3 +67,4 @@ character-item-group-LoadoutMusicianInstruments = Музичні інструм�
 
 character-item-group-TraitsLanguagesBasic = Основні мови
 character-item-group-TraitsAccents = Акценти
+character-item-group-LoadoutBackpacks = Цивільні рюкзаки

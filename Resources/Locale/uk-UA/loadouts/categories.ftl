@@ -31,3 +31,4 @@ loadout-category-JobsSecurity = Безпека
 loadout-category-JobsService = Сервіс
 loadout-category-JobsServiceUncategorized = Без категорії
 loadout-category-JobsServiceBartender = Бармен
+loadout-category-Backpacks = Рюкзаки
