@@ -7,17 +7,17 @@ station-beacon-captain = Капітане
 station-beacon-hop = Голова Персоналу (HoP)
 
 station-beacon-security = Безпека
-station-beacon-brig = Бригадир
+station-beacon-brig = Бріг
 station-beacon-warden = Наглядач
 station-beacon-hos = Голова служби безпеки (HOS)
-station-beacon-armory = Зброя
+station-beacon-armory = Зброярнярня
 station-beacon-perma-brig = Перма
-station-beacon-detective = Детективе
+station-beacon-detective = Детектив
 station-beacon-courtroom = Зала суду
 station-beacon-law = Адвокатське бюро
 station-beacon-security-checkpoint = Контрольно-пропускний пункт
 
-station-beacon-medical = Медичні
+station-beacon-medical = Медичний
 station-beacon-medbay = Медблок
 station-beacon-chemistry = Хімія
 station-beacon-cryonics = Кріоподи
@@ -25,7 +25,7 @@ station-beacon-cmo = Головний лікар (CMO)
 station-beacon-morgue = Морг
 station-beacon-surgery = Хірургія
 
-station-beacon-science = Наука
+station-beacon-science = Науковий
 station-beacon-research-and-development = Дослідження
 station-beacon-research-server = Сервер
 station-beacon-research-director = Директор досліджень (RD)
@@ -41,7 +41,7 @@ station-beacon-salvage = Порятунок
 
 station-beacon-engineering = Інжиніринг
 station-beacon-ce = Головний інженер (CE)
-station-beacon-ame = Помічник інженера (AME)
+station-beacon-ame = AME
 station-beacon-solars = Солар
 station-beacon-gravgen = Грав
 station-beacon-pa = Управління Прискорювачем частинок
