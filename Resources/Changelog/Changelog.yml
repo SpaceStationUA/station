@@ -6226,3 +6226,69 @@ Entries:
   id: 6389
   time: '2024-09-26T15:06:54.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/956
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Рюкзаки, сумки та торби були додані до спорядження.
+    - type: Remove
+      message: >-
+        Кнопку для "Налаштування рюкзака" було видалено. Вибір рюкзаків тепер
+        здійснюється через спорядження.
+    - type: Remove
+      message: >-
+        Кнопку для "Налаштування костюма/спідниці" також було видалено. Вибір
+        костюмів тепер здійснюється через спорядження.
+  id: 6390
+  time: '2024-09-28T00:46:19.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/957
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Виправлено помилку, через яку кнопка для перезавантаження IPC не з'являлась.
+  id: 6391
+  time: '2024-09-28T02:23:54.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/963
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Виправлено аварійне завершення програми, пов'язане з "Сяючими сутностями".
+  id: 6392
+  time: '2024-09-28T02:28:40.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/954
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Куріння сигарет або вживання лотої олії більше не буде спамити
+        спливаючими повідомленнями настрою.
+  id: 6393
+  time: '2024-09-28T02:30:18.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/948
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: Носферні події тепер знову можуть відбуватися на нижчих рівнях гліммера.
+  id: 6394
+  time: '2024-09-28T02:43:48.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/969
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: >-
+        Штовхання об'єкта більше не змушує вашого персонажа рухатись, але лише
+        якщо вас утримує гравітація.
+    - type: Tweak
+      message: >-
+        Штовхання об'єкта за допомогою Ctrl-RMB тепер здійснюється безперервно
+        до 5 секунд замість 2.
+  id: 6395
+  time: '2024-09-28T02:44:07.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/966
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Тепер люди можуть мати хвостові та вушні мітки.
+  id: 6396
+  time: '2024-09-28T03:10:14.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/964
+
