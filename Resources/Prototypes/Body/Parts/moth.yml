@@ -3,7 +3,7 @@
 - type: entity
   id: PartMoth
   parent: [BaseItem, BasePart]
-  name: "частина тіла метелика"
+  name: "moth body part"
   abstract: true
   components:
   - type: Extractable
@@ -16,7 +16,7 @@
 
 - type: entity
   id: TorsoMoth
-  name: "тулуб метелика"
+  name: "moth torso"
   parent: [PartMoth, BaseTorso]
   components:
   - type: Sprite
@@ -33,7 +33,7 @@
 
 - type: entity
   id: HeadMoth
-  name: "голова метелика"
+  name: "moth head"
   parent: [PartMoth, BaseHead]
   components:
   - type: Sprite
@@ -49,7 +49,7 @@
 
 - type: entity
   id: LeftArmMoth
-  name: "ліва рука метелика"
+  name: "left moth arm"
   parent: [PartMoth, BaseLeftArm]
   components:
   - type: Sprite
@@ -58,7 +58,7 @@
 
 - type: entity
   id: RightArmMoth
-  name: "права рука метелика"
+  name: "right moth arm"
   parent: [PartMoth, BaseRightArm]
   components:
   - type: Sprite
@@ -67,7 +67,7 @@
 
 - type: entity
   id: LeftHandMoth
-  name: "ліва рука метелика"
+  name: "left moth hand"
   parent: [PartMoth, BaseLeftHand]
   components:
   - type: Sprite
@@ -76,7 +76,7 @@
 
 - type: entity
   id: RightHandMoth
-  name: "права рука метелика"
+  name: "right moth hand"
   parent: [PartMoth, BaseRightHand]
   components:
   - type: Sprite
@@ -85,7 +85,7 @@
 
 - type: entity
   id: LeftLegMoth
-  name: "ліва ніжка метелика"
+  name: "left moth leg"
   parent: [PartMoth, BaseLeftLeg]
   components:
   - type: Sprite
@@ -94,7 +94,7 @@
 
 - type: entity
   id: RightLegMoth
-  name: "права ніжка метелика"
+  name: "right moth leg"
   parent: [PartMoth, BaseRightLeg]
   components:
   - type: Sprite
@@ -103,7 +103,7 @@
 
 - type: entity
   id: LeftFootMoth
-  name: "ліва лапка метелика"
+  name: "left moth foot"
   parent: [PartMoth, BaseLeftFoot]
   components:
   - type: Sprite
@@ -112,7 +112,7 @@
 
 - type: entity
   id: RightFootMoth
-  name: "права нога метелика"
+  name: "right moth foot"
   parent: [PartMoth, BaseRightFoot]
   components:
   - type: Sprite

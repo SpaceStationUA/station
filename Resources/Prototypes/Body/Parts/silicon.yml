@@ -29,7 +29,7 @@
 - type: entity
   id: BaseBorgArmLeft
   parent: PartSilicon
-  name: "ліва рука кіборга"
+  name: left cyborg arm
   abstract: true
   components:
   - type: BodyPart
@@ -43,7 +43,7 @@
 - type: entity
   id: BaseBorgArmRight
   parent: PartSilicon
-  name: "права рука кіборга"
+  name: right cyborg arm
   abstract: true
   components:
   - type: BodyPart
@@ -57,7 +57,7 @@
 - type: entity
   id: BaseBorgLegLeft
   parent: PartSilicon
-  name: "ліва нога кіборга"
+  name: left cyborg leg
   abstract: true
   components:
   - type: BodyPart
@@ -71,7 +71,7 @@
 - type: entity
   id: BaseBorgLegRight
   parent: PartSilicon
-  name: "права нога кіборга"
+  name: right cyborg leg
   abstract: true
   components:
   - type: BodyPart
@@ -85,7 +85,7 @@
 - type: entity
   id: BaseBorgHead
   parent: PartSilicon
-  name: "голова кіборга"
+  name: cyborg head
   abstract: true
   components:
   - type: BodyPart
@@ -98,7 +98,7 @@
 - type: entity
   id: BaseBorgTorso
   parent: PartSilicon
-  name: "торс кіборга"
+  name: cyborg torso
   abstract: true
   components:
   - type: BodyPart

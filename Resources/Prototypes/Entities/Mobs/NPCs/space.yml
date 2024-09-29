@@ -1,9 +1,9 @@
 - type: entity
-  name: "основний"
+  name: basic
   id: MobSpaceBasic
   parent: SimpleSpaceMobBase
   abstract: true
-  description: "Виглядає дружелюбно. Чому б тобі не обійняти його?"
+  description: It looks friendly. Why don't you give it a hug?
   components:
   - type: HTN
     rootTask:
@@ -69,10 +69,10 @@
     speechVerb: LargeMob
 
 - type: entity
-  name: "космічний ведмідь"
+  name: space bear
   id: MobBearSpace
   parent: MobSpaceBasic
-  description: "Виглядає дружелюбно. Чому б тобі не обійняти його?"
+  description: It looks friendly. Why don't you give it a hug?
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -119,10 +119,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: "космічний кенгуру"
+  name: space kangaroo
   id: MobKangarooSpace
   parent: MobSpaceBasic
-  description: "Виглядає дружелюбно. Чому б тобі не обійняти його?"
+  description: It looks friendly. Why don't you give it a hug?
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -185,10 +185,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: "космічний павук"
+  name: space spider
   id: MobSpiderSpace
   parent: MobSpaceBasic
-  description: "Він так світиться, що виглядає небезпечно."
+  description: It's so glowing, it looks dangerous.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -285,10 +285,10 @@
   - type: SalvageMobRestrictions
 
 - type: entity
-  name: "космічна кобра"
+  name: space cobra
   id: MobCobraSpace
   parent: MobSpaceBasic
-  description: "Довгі ікла та сяючий капюшон, а звабливий погляд так і просить підійти ближче."
+  description: Long fangs and a glowing hood, and the alluring look begs to come closer.
   components:
     - type: Sprite
       drawdepth: Mobs

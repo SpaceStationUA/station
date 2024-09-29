@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: BaseStockPart
-  name: "запасна частина"
+  name: stock part
   parent: BaseItem
-  description: "Що?"
+  description: What?
   abstract: true
   components:
     - type: Sprite
@@ -25,9 +25,9 @@
 
 - type: entity
   id: CapacitorStockPart
-  name: "конденсатор"
+  name: capacitor
   parent: BaseStockPart
-  description: "Базовий конденсатор, який використовується в побудові різноманітних пристроїв."
+  description: A basic capacitor used in the construction of a variety of devices.
   suffix: Rating 1
   components:
     - type: Sprite
@@ -44,9 +44,9 @@
 
 - type: entity
   id: MicroManipulatorStockPart
-  name: "маніпулятор"
+  name: manipulator
   parent: BaseStockPart
-  description: "Базовий маніпулятор, що використовується при конструюванні різноманітних пристроїв."
+  description: A basic manipulator used in the construction of a variety of devices.
   suffix: Rating 1
   components:
     - type: Sprite
@@ -60,9 +60,9 @@
 
 - type: entity
   id: MatterBinStockPart
-  name: "речовиний бак для сміття"
+  name: matter bin
   parent: BaseStockPart
-  description: "Базовий контейнер для речовин, який використовується в конструкції різноманітних пристроїв."
+  description: A basic matter bin used in the construction of a variety of devices.
   suffix: Rating 1
   components:
     - type: Sprite
@@ -78,9 +78,9 @@
 
 - type: entity
   id: AdvancedCapacitorStockPart
-  name: "вдосконалений конденсатор"
+  name: advanced capacitor
   parent: CapacitorStockPart
-  description: "Вдосконалений конденсатор, який використовується в конструкції різноманітних пристроїв."
+  description: An advanced capacitor used in the construction of a variety of devices.
   suffix: Rating 2
   components:
     - type: Sprite
@@ -94,9 +94,9 @@
 
 - type: entity
   id: NanoManipulatorStockPart
-  name: "просунутий маніпулятор"
+  name: advanced manipulator
   parent: MicroManipulatorStockPart
-  description: "Вдосконалений маніпулятор, який використовується в конструюванні різноманітних пристроїв."
+  description: An advanced manipulator used in the construction of a variety of devices.
   suffix: Rating 2
   components:
     - type: Sprite
@@ -110,9 +110,9 @@
 
 - type: entity
   id: AdvancedMatterBinStockPart
-  name: "просунутий контейнер для матерії"
+  name: advanced matter bin
   parent: MatterBinStockPart
-  description: "Удосконалений контейнер для речовин, що використовується в конструкції різноманітних пристроїв."
+  description: An advanced matter bin used in the construction of a variety of devices.
   suffix: Rating 2
   components:
     - type: Sprite
@@ -128,9 +128,9 @@
 
 - type: entity
   id: SuperCapacitorStockPart
-  name: "суперконденсатор"
+  name: super capacitor
   parent: CapacitorStockPart
-  description: "Суперконденсатор, який використовується в конструкції різноманітних пристроїв."
+  description: A super capacitor used in the construction of a variety of devices.
   suffix: Rating 3
   components:
     - type: Sprite
@@ -144,9 +144,9 @@
 
 - type: entity
   id: PicoManipulatorStockPart
-  name: "супер маніпулятор"
+  name: super manipulator
   parent: MicroManipulatorStockPart
-  description: "Суперманіпулятор, який використовується в конструюванні різноманітних пристроїв."
+  description: A super manipulator used in the construction of a variety of devices.
   suffix: Rating 3
   components:
     - type: Sprite
@@ -160,9 +160,9 @@
 
 - type: entity
   id: SuperMatterBinStockPart
-  name: "контейнер для надматерії"
+  name: super matter bin
   parent: MatterBinStockPart
-  description: "Контейнер для надматерії, що використовується в будівництві різноманітних пристроїв."
+  description: A super matter bin used in the construction of a variety of devices.
   suffix: Rating 3
   components:
     - type: Sprite
@@ -178,9 +178,9 @@
 
 - type: entity
   id: QuadraticCapacitorStockPart
-  name: "конденсатор bluespace"
+  name: bluespace capacitor
   parent: CapacitorStockPart
-  description: "Конденсатор для блюзового простору, який використовується в конструкції різноманітних пристроїв."
+  description: A bluespace capacitor used in the construction of a variety of devices.
   suffix: Rating 4
   components:
     - type: Sprite
@@ -194,9 +194,9 @@
 
 - type: entity
   id: FemtoManipulatorStockPart
-  name: "блюзовий маніпулятор"
+  name: bluespace manipulator
   parent: MicroManipulatorStockPart
-  description: "Маніпулятор, що використовується при конструюванні різноманітних пристроїв."
+  description: A bluespace manipulator used in the construction of a variety of devices.
   suffix: Rating 4
   components:
     - type: Sprite
@@ -210,9 +210,9 @@
 
 - type: entity
   id: BluespaceMatterBinStockPart
-  name: "смітник для сміття bluespace"
+  name: bluespace matter bin
   parent: MatterBinStockPart
-  description: "Бункер для сміття з блакитного простору, що використовується в конструкції різноманітних пристроїв."
+  description: A bluespace matter bin used in the construction of a variety of devices.
   suffix: Rating 4
   components:
     - type: Sprite
@@ -228,63 +228,63 @@
 
 - type: entity
   id: AnsibleSubspaceStockPart
-  name: "підпростір ansible"
+  name: subspace ansible
   parent: BaseStockPart
-  description: "Компактний модуль, здатний відчувати позапросторову активність."
+  description: A compact module capable of sensing extradimensional activity.
   components:
     - type: Sprite
       state: subspace_ansible
 
 - type: entity
   id: FilterSubspaceStockPart
-  name: "гіперхвильовий фільтр"
+  name: hyperwave filter
   parent: BaseStockPart
-  description: "Крихітний пристрій, здатний фільтрувати та перетворювати надінтенсивні радіохвилі."
+  description: A tiny device capable of filtering and converting super-intense radiowaves.
   components:
     - type: Sprite
       state: hyperwave_filter
 
 - type: entity
   id: AmplifierSubspaceStockPart
-  name: "підпросторовий підсилювач"
+  name: subspace amplifier
   parent: BaseStockPart
-  description: "Компактна мікромашина, здатна посилювати слабкі підпросторові передачі."
+  description: A compact micro-machine capable of amplifying weak subspace transmissions.
   components:
     - type: Sprite
       state: subspace_amplifier
 
 - type: entity
   id: TreatmentSubspaceStockPart
-  name: "диск для обробки підпростору"
+  name: subspace treatment disk
   parent: BaseStockPart
-  description: "Компактна мікро-машина, здатна розтягувати гіперстиснуті радіохвилі."
+  description: A compact micro-machine capable of stretching out hyper-compressed radio waves.
   components:
     - type: Sprite
       state: treatment_disk
 
 - type: entity
   id: AnalyzerSubspaceStockPart
-  name: "аналізатор підпросторових довжин хвиль"
+  name: subspace wavelength analyzer
   parent: BaseStockPart
-  description: "Складний аналізатор, здатний аналізувати довжини хвиль криптографічного підпростору."
+  description: A sophisticated analyzer capable of analyzing cryptic subspace wavelengths.
   components:
     - type: Sprite
       state: wavelength_analyzer
 
 - type: entity
   id: CrystalSubspaceStockPart
-  name: "ансибловий кристал"
+  name: ansible crystal
   parent: BaseStockPart
-  description: "Кристал з чистого скла, що використовується для передачі лазерних імпульсів у підпростір."
+  description: A crystal made from pure glass used to transmit laser databursts to subspace.
   components:
     - type: Sprite
       state: ansible_crystal
 
 - type: entity
   id: TransmitterSubspaceStockPart
-  name: "підпросторовий передавач"
+  name: subspace transmitter
   parent: BaseStockPart
-  description: "Велике обладнання, яке використовується для відкриття вікна у підпросторовий вимір."
+  description: A large piece of equipment used to open a window into the subspace dimension.
   components:
     - type: Sprite
       state: subspace_transmitter
