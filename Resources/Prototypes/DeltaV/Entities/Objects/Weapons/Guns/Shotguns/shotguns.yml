@@ -1,8 +1,8 @@
 - type: entity
-  name: adjutant
+  name: "ад'ютант"
   parent: BaseWeaponShotgun
   id: WeaponShotgunAdjutant
-  description: Sold as a "riot" shotgun, this shotgun has a special gas-operated mechanism that makes it highly effective for CQC and suppressive fire.
+  description: "Ця рушниця, що продається як \"бунтівна\", має спеціальний газовий механізм, що робить її дуже ефективною для ведення прицільного вогню та вогню на придушення."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Shotguns/Adjutant.rsi
@@ -30,10 +30,10 @@
       path: /Audio/Weapons/Guns/MagIn/shotgun_insert.ogg
 
 - type: entity
-  name: Kammerer
+  name: "Каммерер"
   parent: BaseWeaponShotgun
   id: WeaponShotgunKammererNonLethal #Legacy name
-  description: When an old Remington design meets modern materials, this is the result. A favourite weapon of militia forces throughout many worlds. Uses .50 shotgun shells.
+  description: "Коли старий дизайн Ремінгтона поєднується з сучасними матеріалами, виходить ось такий результат. Улюблена зброя ополченців у багатьох країнах світу. Використовує набої калібру .50."
   suffix: Beanbag
   components:
   - type: Sprite
