@@ -2,8 +2,8 @@
   parent: ClothingNeckBase
   id: ClothingNeckMedalBase
   abstract: true
-  name: medal
-  description: not given to anyone
+  name: "медаль"
+  description: "нікому не дається"
   components:
   - type: Tag
     tags:
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingNeckMedalBase
   id: ClothingNeckBronzeheart
-  name: bronzeheart medal
-  description: Given to crewmates for exemplary bravery in the face of danger.
+  name: "медаль \"Бронзове серце"
+  description: "Надається членам екіпажу за зразкову хоробрість перед обличчям небезпеки."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Medals/bronzeheart.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingNeckMedalBase
   id: ClothingNeckGoldmedal
-  name: gold medal of crewmanship
-  description: Given to crewmates who display excellent crewmanship.
+  name: "золота медаль за майстерність екіпажу"
+  description: "Надається членам екіпажу, які демонструють відмінну роботу в команді."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Medals/gold.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: ClothingNeckMedalBase
   id: ClothingNeckCargomedal
-  name: logistics medal # DeltaV - Logistics Department replacing Cargo
-  description: Whether it's for superior accountancy, courageous salvage work, or just being a friendly technician - this medal is to be assigned only for the best work in the logistics department. # DeltaV - Logistics Department replacing Cargo. Updated description for flavour
+  name: "медаль за логістику" # DeltaV - Logistics Department replacing Cargo
+  description: "Чи то за відмінну бухгалтерію, мужню рятувальну роботу, чи просто за доброзичливість - ця медаль призначається лише за найкращу роботу у відділі матеріально-технічного забезпечення." # DeltaV - Logistics Department replacing Cargo. Updated description for flavour
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Medals/cargomedal.rsi # DeltaV - resprite
@@ -47,8 +47,8 @@
 - type: entity
   parent: ClothingNeckMedalBase
   id: ClothingNeckEngineermedal
-  name: engineer medal
-  description: Whether it's by keeping the crew breathing, meticulous rewiring and upgrading, or just having plenty of materials on-hand - this medal is to be assigned only for the best work in the engineering department. # DeltaV - Updated description for flavour
+  name: "медаль інженера"
+  description: "Чи то завдяки підтримці дихання екіпажу, ретельному переобладнанню та модернізації, чи просто наявності великої кількості матеріалів під рукою - ця медаль присуджується лише за найкращу роботу в інженерному відділі." # DeltaV - Updated description for flavour
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Medals/engineermedal.rsi # DeltaV - resprite
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingNeckMedalBase
   id: ClothingNeckMedicalmedal
-  name: medical medal
-  description: Whether it's being the first on the scene of an accident, the most caring bedside manner, or just making sure the patients don't go mad - this medal is to be assigned only for the best work in the medical department. # DeltaV - Updated description for flavour
+  name: "медична медаль"
+  description: "Чи то перше прибуття на місце нещасного випадку, чи то найдбайливіший догляд за хворим, чи то просто турбота про те, щоб пацієнти не з'їхали з глузду - ця медаль призначається лише за найкращу роботу в медичному відділенні." # DeltaV - Updated description for flavour
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Medals/medicalmedal.rsi # DeltaV - resprite
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingNeckMedalBase
   id: ClothingNeckSciencemedal
-  name: epistemics medal # DeltaV - Epistemics Department replacing Science
-  description: Whether it's pushing the edges of modern science and technology, foraying into the vast expanses of the noosphere, or just fetching the coffee - this medal is to be assigned only for the best work in the epistemics department. # DeltaV - Epistemics Department replacing Science. Updated description for flavour
+  name: "медаль за епістемологію" # DeltaV - Epistemics Department replacing Science
+  description: "Незалежно від того, чи це просування на межі сучасної науки і технологій, чи вилазка на безкраї простори ноосфери, чи просто принесення кави - ця медаль призначається лише за найкращу роботу в галузі епістеміки." # DeltaV - Epistemics Department replacing Science. Updated description for flavour
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Medals/sciencemedal.rsi # DeltaV - resprite
@@ -80,8 +80,8 @@
 - type: entity
   parent: ClothingNeckMedalBase
   id: ClothingNeckSecuritymedal
-  name: security medal
-  description: Whether it's catching armed terrorists, guarding the crew from alien threats, or just having a conversation in the corridor - this medal is to be assigned only for the best work in the security department. # DeltaV - Updated description for flavour
+  name: "медаль за безпеку"
+  description: "Затримання озброєних терористів, охорона екіпажу від інопланетних загроз чи просто розмова в коридорі - ця медаль призначається лише за найкращу роботу у відділі безпеки." # DeltaV - Updated description for flavour
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Medals/securitymedal.rsi # DeltaV - resprite
@@ -91,8 +91,8 @@
 - type: entity
   parent: ClothingNeckMedalBase
   id: ClothingNeckClownmedal
-  name: bravado medal # DeltaV - Updated title so it's not just a joke medal.
-  description: Given to crewmates who laugh in the face of death, lift their peers' spirits, and uplift themselves and their friends to success. # DeltaV - Updated description for flavour and to reflect title.
+  name: "медаль за браваду" # DeltaV - Updated title so it's not just a joke medal.
+  description: "Нагорода вручається членам екіпажу, які сміються в обличчя смерті, піднімають настрій своїм товаришам і ведуть себе та своїх друзів до успіху." # DeltaV - Updated description for flavour and to reflect title.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Medals/clownmedal.rsi # DeltaV - resprite

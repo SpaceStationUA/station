@@ -1,7 +1,7 @@
 - type: entity
   id: MobRevenant
-  name: revenant
-  description: A spooky ghostie.
+  name: "ревенант"
+  description: "Моторошний привид."
   components:
   - type: MindContainer
   - type: InputMover
@@ -97,4 +97,11 @@
     - RevenantTheme
   - type: Speech
     speechVerb: Ghost
-  - type: UniversalLanguageSpeaker
+  - type: Psionic
+    removable: false
+    psychognomicDescriptors:
+      - p-descriptor-vampiric
+  - type: InnatePsionicPowers
+    powersToAdd:
+      - XenoglossyPower
+      - TelepathyPower

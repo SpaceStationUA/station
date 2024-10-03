@@ -23,6 +23,7 @@ namespace Content.Server._Pirate.SandboxRules;
 public sealed class SandboxRulesSystem : EntitySystem
 {
     [Dependency] private readonly IChatManager _chatManager = default!;
+    [Dependency] private readonly GameTicker _gameTicker = default!;
 
     public override void Initialize()
     {
@@ -33,6 +34,11 @@ public sealed class SandboxRulesSystem : EntitySystem
 
     private void OnPlayerSpawningEvent(PlayerBeforeSpawnEvent ev)
     {
-        _chatManager.DispatchServerMessage(ev.Player, Loc.GetString("game-ticker-player-join-game-message-sandbox"));
+        var preset = _gameTicker.CurrentPreset;
+        if (preset?.ID == "Sandbox")
+        {
+            _chatManager.DispatchServerMessage(ev.Player,
+                Loc.GetString("game-ticker-player-join-game-message-sandbox"));
+        }
     }
 }

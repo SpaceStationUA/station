@@ -1,8 +1,8 @@
 - type: entity
   id: BaseThruster
   parent: BaseStructureDynamic
-  name: thruster
-  description: A thruster that allows a shuttle to move.
+  name: "двигун"
+  description: "Двигун, який дозволяє шатлу рухатися."
   abstract: true
   components:
     - type: Fixtures
@@ -60,7 +60,7 @@
 
 - type: entity
   id: Thruster
-  name: thruster
+  name: "двигун"
   parent: [ BaseThruster, ConstructibleMachine ]
   components:
   - type: Machine
@@ -137,12 +137,13 @@
 - type: entity
   id: Gyroscope
   parent: [ BaseThruster, ConstructibleMachine ]
-  name: gyroscope
-  description: Increases the shuttle's potential angular rotation.
+  name: "гіроскоп"
+  description: "Збільшує потенційний кутовий поворот шатла."
   components:
   - type: Thruster
     thrusterType: Angular
     requireSpace: false
+    baseThrust: 2000
     thrust: 2000
     machinePartThrust: Manipulator
   - type: Sprite
@@ -192,6 +193,9 @@
             collection: MetalBreak
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
+  - type: UpgradePowerDraw
+    powerDrawMultiplier: 0.75
+    scaling: Exponential
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: Electronic
@@ -216,6 +220,7 @@
   - type: Thruster
     thrusterType: Angular
     requireSpace: false
+    baseThrust: 100
     thrust: 100
   - type: ApcPowerReceiver
     needsPower: false

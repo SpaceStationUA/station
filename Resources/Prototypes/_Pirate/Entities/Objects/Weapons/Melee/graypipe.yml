@@ -1,0 +1,24 @@
+- type: entity
+  name: "P.V.C"
+  parent: BaseItem
+  id: PVC
+  description: "Каналізатор точної швидкості."
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Weapons/Melee/pvc.rsi
+    state: icon
+  - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 8
+        Structural: 10
+    soundHit:
+        path: /Audio/_Pirate/Weapons/pvc.ogg
+  - type: MeleeThrowOnHit
+    unanchorOnHit: False
+    enabled: true
+    lifetime: 0.2
+    speed: 5
+  - type: Item
+    sprite: _Pirate/Objects/Weapons/Melee/pvc.rsi
+  - type: DisarmMalus

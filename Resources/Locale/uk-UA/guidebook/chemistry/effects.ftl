@@ -296,7 +296,13 @@ reagent-effect-guidebook-innoculate-zombie-infection = { $chance ->
         [1] Ліки
         *[other] лікування
     } поточну зомбі-інфекцію та забезпечує імунітет до майбутніх інфекцій
-
+	
+reagent-effect-guidebook-reduce-rotting = 
+    { $chance ->
+        [1] Регенерує
+        *[other] регенерує
+    } {NATURALFIXED($time, 3)} {MANY("секунд", $time)} гниття
+	
 reagent-effect-guidebook-missing = { $chance ->
         [1] Причини
         *[other] причина
@@ -314,3 +320,9 @@ reagent-effect-guidebook-chem-reroll-psionic = { $chance ->
         [1] Дозволяє
         *[other] дозволяє
     } шанс отримати іншу псионічну силу
+
+reagent-effect-guidebook-add-moodlet = змінює настрій на {$amount}
+    { $timeout ->
+        [0] на невизначений час
+        *[other] на {$timeout} секунд
+    }

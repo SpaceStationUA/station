@@ -1,8 +1,8 @@
 - type: entity
-  name: fire extinguisher
+  name: "вогнегасник"
   parent: BaseItem
   id: FireExtinguisher
-  description: It extinguishes fires.
+  description: "Він гасить пожежі."
   components:
   - type: Sprite
     sprite: Objects/Misc/fire_extinguisher.rsi
@@ -46,8 +46,8 @@
         Blunt: 8
     heavyRateModifier: 0.8
     heavyDamageBaseModifier: 2
-    heavyStaminaCost: 15
-    maxTargets: 8
+    heavyStaminaCost: 7.5
+    maxTargets: 6
     soundHit:
       path: /Audio/Weapons/smash.ogg
   - type: Tool
@@ -63,7 +63,7 @@
           False: { state: fire_extinguisher_open }
 
 - type: entity
-  name: extinguisher spray
+  name: "вогнегасник спрей"
   id: ExtinguisherSpray
   parent: Vapor
   noSpawn: true

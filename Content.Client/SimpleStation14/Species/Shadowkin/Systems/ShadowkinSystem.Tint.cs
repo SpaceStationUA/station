@@ -3,6 +3,7 @@ using Robust.Client.Player;
 using Robust.Shared.Player;
 using Content.Client.SimpleStation14.Overlays;
 using Content.Client.SimpleStation14.Overlays.Shaders;
+using Content.Shared.CCVar;
 using Content.Shared.SimpleStation14.Species.Shadowkin.Components;
 using Content.Shared.DeltaV.CCVars;
 using Robust.Client.GameObjects;
@@ -104,7 +105,7 @@ public sealed class ShadowkinTintSystem : EntitySystem
         {
             _overlay.RemoveOverlay(_tintOverlay);
         }
-        if (_cfg.GetCVar(DCCVars.NoVisionFilters)) return;
+        if (_cfg.GetCVar(CCVars.NoVisionFilters)) return;
 
         if (color != null)
             _tintOverlay.TintColor = color;

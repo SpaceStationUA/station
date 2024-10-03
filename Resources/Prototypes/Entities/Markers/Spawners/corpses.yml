@@ -1,5 +1,5 @@
 - type: entity
-  name: Human Corpse Spawner
+  name: "Людський трупний нерестовик"
   id: SalvageHumanCorpseSpawner
   parent: MarkerBase
   components:
@@ -12,7 +12,7 @@
       - SalvageHumanCorpse
 
 - type: entity
-  name: Random Service Corpse Spawner
+  name: "Випадковий спаунер службових трупів"
   id: RandomServiceCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -25,7 +25,7 @@
       - MobRandomServiceCorpse
 
 - type: entity
-  name: Random Engineer Corpse Spawner
+  name: "Випадковий інженер-споунер трупів"
   id: RandomEngineerCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -38,7 +38,7 @@
       - MobRandomEngineerCorpse
 
 - type: entity
-  name: Random Logistics Corpse Spawner # DeltaV - Logistics Department replacing Cargo
+  name: "Випадковий логістичний спаунер трупів" # DeltaV - Logistics Department replacing Cargo
   id: RandomCargoCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -51,7 +51,7 @@
       - MobRandomCargoCorpse
 
 - type: entity
-  name: Random Medic Corpse Spawner
+  name: "Випадковий спаунер трупів медиків"
   id: RandomMedicCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -64,7 +64,7 @@
       - MobRandomMedicCorpse
 
 - type: entity
-  name: Random Epistemics Corpse Spawner # DeltaV - Epistemics Department replacing Science
+  name: "Випадковий епістемологічний спайдер трупів" # DeltaV - Epistemics Department replacing Science
   id: RandomScienceCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:
@@ -77,7 +77,7 @@
       - MobRandomScienceCorpse
 
 - type: entity
-  name: Random Security Corpse Spawner
+  name: "Випадковий спаунер трупів безпеки"
   id: RandomSecurityCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   noSpawn: true # DeltaV - Prevent security corpses from being mapped in
@@ -91,7 +91,7 @@
       - MobRandomServiceCorpse # DeltaV - Prevent Security corpses from spawning and instead spawn Service corpses
 
 - type: entity
-  name: Random Command Corpse Spawner
+  name: "Випадковий командний спаунер трупів"
   id: RandomCommandCorpseSpawner
   parent: SalvageHumanCorpseSpawner
   components:

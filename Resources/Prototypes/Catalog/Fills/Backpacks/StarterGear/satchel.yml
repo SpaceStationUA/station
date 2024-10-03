@@ -162,6 +162,11 @@
 
 - type: entity
   noSpawn: true
+  parent: ClothingBackpackSatchelRobotics
+  id: ClothingBackpackSatchelRoboticsFilled
+
+- type: entity
+  noSpawn: true
   parent: ClothingBackpackSatchelHydroponics
   id: ClothingBackpackSatchelHydroponicsFilled
 
@@ -243,15 +248,6 @@
 #PIRATE START UNTIL END OF FILE
 - type: entity
   noSpawn: true
-  parent: ClothingBackpackSatchelRobotics
-  id: ClothingBackpackSatchelRoboticsFilled
-  components:
-  - type: StorageFill
-    contents:
-      - id: BoxSurvival
-
-- type: entity
-  noSpawn: true
   parent: ClothingBackpackSatchelBlueshield
   id: ClothingBackpackSatchelBlueshieldFilled
   components:
@@ -262,4 +258,3 @@
       - id: HandheldCrewMonitor
       - id: Flash
       - id: WeaponDisabler
-      

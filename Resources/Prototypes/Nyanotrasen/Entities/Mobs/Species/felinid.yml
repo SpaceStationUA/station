@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McFelinid
+  name: "Уріст МакФелінід"
   parent: BaseMobHuman
   id: MobFelinidBase
   abstract: true
@@ -67,26 +67,31 @@
   - type: NoShoesSilentFootsteps
   - type: LanguageKnowledge
     speaks:
-    - GalacticCommon
-    - SolCommon
+    - TauCetiBasic
     - Nekomimetic
     understands:
-    - GalacticCommon
-    - SolCommon
+    - TauCetiBasic
     - Nekomimetic
   - type: Thieving
     ignoreStripHidden: true
     stealth: Subtle
     stripTimeReduction: 0
     stripTimeMultiplier: 0.667
+  - type: StepTriggerImmune
+    whitelist:
+      types:
+        - Shard
+        - Landmine
+        - Mousetrap
+        - SlipEntity
 
 - type: entity
   save: false
-  name: Urist McHands
+  name: "Уріст МакХендс"
   parent: MobHumanDummy
   id: MobFelinidDummy
   noSpawn: true
-  description: A dummy felinid meant to be used in character setup.
+  description: "Фіктивний фелінід, призначений для використання в налаштуваннях персонажів."
   components:
   - type: HumanoidAppearance
     species: Felinid

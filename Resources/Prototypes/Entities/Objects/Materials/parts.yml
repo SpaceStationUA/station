@@ -23,7 +23,7 @@
 - type: entity
   parent: PartBase
   id: PartRodMetal
-  name: metal rod
+  name: "металевий стрижень"
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -68,11 +68,42 @@
           Quantity: 4.5
         - ReagentId: Carbon
           Quantity: 0.5
+  - type: UserInterface
+    interfaces:
+    - key: enum.ShortConstructionUiKey.Key
+      type: ShortConstructionMenuBUI
+  - type: ActivatableUI
+    key: enum.ShortConstructionUiKey.Key
+  - type: ShortConstruction
+    entries:
+    - prototype: Grille
+    - prototype: GrilleDiagonal
+    - category:
+        name: Railings
+        icon:
+          sprite: Structures/Walls/railing.rsi
+          state: side
+        entries:
+        - prototype: Railing
+        - prototype: RailingCorner
+        - prototype: RailingRound
+        - prototype: RailingCornerSmall
+    - category:
+        name: Glass
+        icon:
+          sprite: Objects/Materials/Sheets/glass.rsi
+          state: rglass_3
+        entries:
+        - prototype: SheetRPGlass
+        - prototype: SheetRPGlass0
+        - prototype: SheetRUGlass
+        - prototype: SheetRUGlass0
+        - prototype: SheetRGlass
 
 - type: entity
   parent: PartRodMetal
   id: PartRodMetal10
-  name: metal rod
+  name: "металевий стрижень"
   suffix: 10
   components:
   - type: Tag
@@ -86,7 +117,7 @@
 - type: entity
   parent: PartRodMetal
   id: PartRodMetal1
-  name: metal rod
+  name: "металевий стрижень"
   suffix: Single
   components:
   - type: Tag

@@ -35,3 +35,5 @@ materials-raw-plasma = сира плазма
 materials-raw-uranium = сирий уран
 materials-raw-bananium = сирий банан
 materials-raw-salt = неочищена сіль
+
+material-reclaimer-upgrade-process-rate = швидкість процесу

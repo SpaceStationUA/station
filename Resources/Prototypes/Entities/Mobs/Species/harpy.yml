@@ -1,10 +1,14 @@
 - type: entity
   save: false
-  name: Urist McHarpy
+  name: "Уріст МакГарпі"
   parent: BaseMobHuman
   id: MobHarpyBase
   abstract: true
   components:
+  - type: Flight
+    isLayerAnimated: true
+    layer: "/Textures/Mobs/Customization/Harpy/harpy_wings.rsi"
+    animationKey: "Flap"
   - type: Singer
     proto: HarpySinger
   - type: Sprite
@@ -117,19 +121,25 @@
     - ShoesRequiredStepTriggerImmune
   - type: LanguageKnowledge
     speaks:
-    - GalacticCommon
-    - SolCommon
+    - TauCetiBasic
+    - ValyrianStandard
     understands:
-    - GalacticCommon
-    - SolCommon
+    - TauCetiBasic
+    - ValyrianStandard
+  - type: StepTriggerImmune
+    whitelist:
+      types:
+      - Shard
+      - Landmine
+      - Mousetrap
 
 - type: entity
   save: false
-  name: Urist McHands
+  name: "Уріст МакХендс"
   parent: MobHumanDummy
   id: MobHarpyDummy
   noSpawn: true
-  description: A dummy Harpy meant to be used in character setup.
+  description: "Манекен Гарпії, призначений для використання в налаштуванні персонажа."
   components:
   - type: HumanoidAppearance
     species: Harpy
@@ -184,8 +194,8 @@
 
 - type: entity
   id: ActionHarpyPlayMidi
-  name: Play MIDI
-  description: Sing your heart out! Right click yourself to set an instrument.
+  name: "Відтворення MIDI"
+  description: "Співайте від душі! Клацніть правою кнопкою миші на себе, щоб вибрати інструмент."
   noSpawn: true
   components:
   - type: InstantAction
@@ -196,11 +206,23 @@
 
 - type: entity
   id: ActionSyrinxChangeVoiceMask
-  name: Set name
-  description: Change the name others hear to something else.
+  name: "Назва набору"
+  description: "Змініть ім'я, яке чують інші, на інше."
   noSpawn: true
   components:
   - type: InstantAction
     icon: DeltaV/Interface/Actions/harpy_syrinx.png
     itemIconStyle: BigAction
     event: !type:VoiceMaskSetNameEvent
+
+- type: entity
+  id: ActionToggleFlight
+  name: "Лети!"
+  description: "Використовуйте свої крила, щоб літати. Відкиньте звинувачення у тому, що ви - нелітаючий птах."
+  noSpawn: true
+  components:
+  - type: InstantAction
+    checkCanInteract: false
+    icon: { sprite: Interface/Actions/flight.rsi, state: flight_off }
+    iconOn: { sprite : Interface/Actions/flight.rsi, state: flight_on }
+    event: !type:ToggleFlightEvent

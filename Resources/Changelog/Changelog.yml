@@ -5202,4 +5202,1129 @@ Entries:
       message: Смертельні хрипи силіконів тепер темніші.
   id: 6291
   time: '2024-08-29T02:57:16.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Тепер IPC можуть лягати, пропонувати предмети іншим людям, а також їх можна підбирати та нести.
+  id: 6292
+  time: '2024-08-29T20:01:47.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Тимчасово вимкнено Telegnosis, очікуючи на більш масштабне оновлення.
+  id: 6293
+  time: '2024-08-30T00:46:52.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: IPC тепер мають своє унікальне повідомлення при смерті.
+  id: 6294
+  time: '2024-08-30T00:50:20.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Штовхання знову працює правильно, і різниця у вазі має велике значення
+        при штовханні когось.
+    - type: Fix
+      message: >-
+        Час, необхідний для втечі з рук, знову залежить від різниці у вазі між
+        тим, хто тікає, та тим, хто тримає.
+    - type: Tweak
+      message: >-
+        Вихід з критичного стану витривалості тепер залишає вас з нульовою
+        витривалістю. Ви не зможете бути негайно оглушені знову, але
+        страждатимете від уповільнення і бойових недоліків.
+  id: 6295
+  time: '2024-08-30T04:46:40.0000000+00:00'
+- author: ShatteredSwords
+  changes:
+    - type: Tweak
+      message: Злодії тепер є в режимах Survival, Hellshift та Extended.
+  id: 6296
+  time: '2024-08-30T04:57:29.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Компонент телепатії було відокремлено від компонента псіоніки, тепер це
+        окрема функція.
+    - type: Add
+      message: Телепатія була додана як нова псіонічна сила.
+    - type: Add
+      message: >-
+        Натуральний телепат повернувся з Psionic-Refactor V1, тепер з
+        використанням нової функціональності системи здібностей, що дозволяє
+        здібностям купувати псіонічні сили безпосередньо.
+    - type: Add
+      message: >-
+        Латентні психіки, які не купили Натурального телепата та не отримали
+        Телепатію протягом раунду, іноді можуть чути уривки розмов із
+        телепатичного чату.
+    - type: Tweak
+      message: >-
+        Вартість Латентного психіка знижена з 6 до 4 очок, це зроблено для
+        компенсації втрати Телепатії як бонусної функції для всіх псіоніків.
+        Оскільки Натуральний телепат є здібністю вартістю 2 очки, це дає
+        нульову зміну в кількості очок для тих, хто хоче залишатися телепатом з
+        початку раунду.
+    - type: Tweak
+      message: >-
+        Псіонічний богомол, містагог, капелан і каталогізатор всі є
+        натуральними телепатами, і тому отримують нову здібність безкоштовно.
+  id: 6297
+  time: '2024-08-30T05:27:54.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        x-Хвильове невідповідність була відновлена з Psionic Refactor v1.
+        x-Хвильове невідповідність є надзвичайно дорогою здібністю, яка надає
+        повний імунітет до майже всіх псіонічних сил та ефектів, як позитивних,
+        так і негативних.
+  id: 6298
+  time: '2024-08-30T05:39:59.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Було впроваджено нову систему взаємодій. Меню правої кнопки миші тепер
+        пропонує широкий вибір різних взаємодій з різними об'єктами. Деякі
+        старі стандартні взаємодії, такі як обійми, стукання, трясіння огорожі,
+        також були переміщені до цієї системи.
+  id: 6299
+  time: '2024-08-30T05:45:24.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Об'єкти з радіаційним захистом були збалансовані, так що об'єкти, які
+        гравці раніше вважали такими, що забезпечують розумний захист від
+        радіації, тепер фактично це роблять. Наприклад, радіаційні заслінки тепер
+        дійсно блокують радіацію.
+  id: 6300
+  time: '2024-08-30T14:10:02.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Повернення Glacier.
+  id: 6301
+  time: '2024-08-30T14:13:04.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Saltern додано до ротації карт. Тепер містить компактний двигун
+        Supermatter, повний відділ Епістеміки, та значно розширені каплицю і
+        бібліотеку.
+  id: 6302
+  time: '2024-08-30T14:24:49.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Core додано до списку карт у ротації. Цього разу з індивідуальним
+        двигуном Supermatter.
+  id: 6303
+  time: '2024-08-30T14:42:12.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        InnatePsionicPowers тепер працює на MapInitEvent замість ComponentStartup,
+        що означає, що його тепер можна безпечно використовувати на об'єктах,
+        які є на карті, а не з'являються після спавну.
+    - type: Add
+      message: >-
+        Oracle і Sophia тепер визнаються божественними, і тому є створіннями,
+        до яких можна молитися.
+  id: 6304
+  time: '2024-08-31T04:28:16.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Діагональні вікна тепер використовують з'єднані текстури.
+  id: 6305
+  time: '2024-09-01T23:20:12.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: Імена персонажів тепер можуть бути до 48 символів завдовжки.
+    - type: Tweak
+      message: >-
+        Опис персонажів тепер може бути до 1024 символів завдовжки. Це максимальний
+        розмір описів, який можливий без смуги прокручування у меню. І хоча нам би
+        хотілося зробити його більшим, ми плануємо розробити новий інтерфейс для цього
+        в майбутньому!
+  id: 6306
+  time: '2024-09-01T23:20:45.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Тепер стандартна вартість витривалості для силових атак для будь-якої зброї,
+        яка явно не змінює її, правильно встановлена на 10 витривалості (замість 20).
+  id: 6307
+  time: '2024-09-01T23:25:51.0000000+00:00'
+- author: Evgencheg
+  changes:
+    - type: Add
+      message: Зміни тепер мають відображатися у Discord.
+  id: 6308
+  time: '2024-09-01T23:47:18.0000000+00:00'
+- author: DJB1gYAPPA
+  changes:
+    - type: Add
+      message: Додано музичний автомат з основними піснями.
+  id: 6309
+  time: '2024-09-02T02:28:11.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Revenants, Reagent Slimes і Ore Crabs тепер вважаються псіонічними (але не можуть
+        отримувати сили випадковим чином). Це зумовлено їхнім статусом "магічних або
+        позапланетарних створінь", що робить їх дійсними цілями для антипсіонічних
+        здібностей, таких як антипсіонічний ніж Psionic Mantis.
+    - type: Add
+      message: Деякі Reagent Slimes тепер можуть містити Lotophagoi Oil.
+  id: 6310
+  time: '2024-09-02T15:08:11.0000000+00:00'
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Машини для клонування та метемпсихозу були рефакторизовані!
+    - type: Add
+      message: >-
+        Клонування може зазнати невдачі на будь-якому етапі процесу клонування,
+        перетворюючи потенційного клона на суп з крові та аміаку.
+    - type: Add
+      message: >-
+        "Клоновий суп" безпосередньо залежить від маси об'єкта, якого ви намагаєтеся
+        клонувати. Якщо спробувати клонувати Ламію, вас привітають олімпійським басейном
+        крові, коли машина відкриється.
+    - type: Add
+      message: >-
+        Клонування зазнає невдачі, якщо на будь-якому етапі процедури машина буде
+        знеструмлена, від'єднана або піддавана емалюванню.
+    - type: Add
+      message: >-
+        Клони виходять з машини з серйозним клітинним ушкодженням. Розгляньте можливість
+        використання доксаруфбіадону у кріо-трубці як доступного засобу "завершення"
+        клонів.
+    - type: Tweak
+      message: >-
+        Час клонування тепер збільшується пропорційно, якщо об'єкт, що клонуються,
+        більший за стандартну людину (менші об'єкти залишаються без змін).
+    - type: Tweak
+      message: >-
+        Вартість клонування об'єкта тепер може бути налаштована на сервері через
+        CCVar "cloning.biomass_cost_multiplier".
+    - type: Tweak
+      message: >-
+        Тепер можна перемикати, чи буде утілізатор біомаси видаляти тіла з душами
+        за допомогою CCVar "cloning.reclaim_souled_bodies".
+    - type: Add
+      message: >-
+        Ефекти метемпсихозу тепер залежать від відповідних характеристик псіонічного
+        каскадера. Більш потужні псіоніки з більшою ймовірністю отримають сприятливі
+        результати від примусового перевтілення.
+  id: 6311
+  time: '2024-09-02T15:08:52.0000000+00:00'
+- author: DEATHB4DEFEAT
+  changes:
+    - type: Add
+      message: Нові зміни тепер мають показувати посилання на їхні PR.
+    - type: Tweak
+      message: Автори змін тепер повинні бути заголовком, а не жирним текстом.
+    - type: Fix
+      message: Зміни не повинні надсилати випадкові кількості старих змін.
+  id: 6312
+  time: '2024-09-02T19:52:08.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/843
+- author: DEATHB4DEFEAT
+  changes:
+    - type: Fix
+      message: oatnsdaoersoaetaroeoertnsirlea
+  id: 6313
+  time: '2024-09-02T19:54:19.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/846
+- author: Rane
+  changes:
+    - type: Add
+      message: Додано психогномію.
+    - type: Tweak
+      message: Відкочено зміну імені Софії.
+    - type: Tweak
+      message: Невеликі зміни у можливості доступу до псіонічного чату та його форматування.
+    - type: Add
+      message: >-
+        Додано деяку нову утиліту для гравців, які керують Оракулом або Софією.
+        Функціональність NPC буде пізніше :^)
+  id: 6314
+  time: '2024-09-03T02:17:55.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/808
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано кілька нових підказок у гру, багато з яких стосуються нового
+        контенту, доступного на Einstein-Engines.
+  id: 6315
+  time: '2024-09-05T00:00:21.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/844
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Виправлено кілька проблем з новою системою взаємодії через дієслова.
+  id: 6316
+  time: '2024-09-05T00:18:41.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/854
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Через ЧИСЛЕННІ скарги NanoTrasen змінив наклейки на всіх кольорових
+        комбінезонах, щоб правильно вказати, що це дійсно "спідниці", і тепер
+        їх можна законно носити Гарпіям, Ламіям та Арахне.
+  id: 6317
+  time: '2024-09-05T00:19:49.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/848
+- author: ShatteredSwords
+  changes:
+    - type: Tweak
+      message: Оновлено вартість багатьох рис.
+    - type: Tweak
+      message: Змінено кілька рис.
+  id: 6318
+  time: '2024-09-06T20:08:38.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/842
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Додано нову роботу Робототехніка. Ця робота не надає нових прав доступу,
+        але дозволяє відрізнити себе від вчених. Існуючі карти необхідно
+        оновити для підтримки нової роботи.
+    - type: Add
+      message: >-
+        Додано нові варіанти КПК, посвідчень і сумок для робототехніків. Також
+        містагог тепер знайде у своєму офісі робототехнічний КПК.
+  id: 6319
+  time: '2024-09-06T20:17:31.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/801
+- author: DEATHB4DEFEAT
+  changes:
+    - type: Fix
+      message: Продуктивність редакторів оснащення/рис покращено в 100~1000 разів.
+    - type: Tweak
+      message: Вкладки редактора персонажів виглядають, відчуваються і працюють значно краще.
+    - type: Fix
+      message: Непридатні для використання оснащення/риси виділяються помаранчевим кольором при виборі.
+    - type: Tweak
+      message: Прев'ю оснащення тепер знаходяться всередині кнопки.
+    - type: Add
+      message: >-
+        Додано кнопку для видалення будь-якого непридатного оснащення (або рис),
+        яке ви вибрали.
+    - type: Add
+      message: >-
+        Оснащення та риси можуть мати підкатегорії, хоча на даний момент їх
+        використовують лише оснащення командування.
+    - type: Fix
+      message: Виправлено незакриття порожніх категорій оснащення.
+    - type: Fix
+      message: Виправлено розташування тексту причин для деяких вимог до оснащення.
+    - type: Fix
+      message: Виправлено непоновлення рис після збереження.
+  id: 6320
+  time: '2024-09-06T21:59:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/736
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано першу нову групу екіпірування - цивільні уніформи.
+        Можна вибрати лише одну цивільну уніформу в обмін на...
+    - type: Tweak
+      message: >-
+        Вартість усіх неконкретних робочих уніформ значно знижено,
+        майже всі коштують 0 балів, з незначною кількістю за 2 бали,
+        і решта за 1 бал.
+  id: 6321
+  time: '2024-09-07T00:53:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/872
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Вартість усіх предметів для шиї в екіпіруванні значно знижено,
+        більшість із них коштують 0 балів.
+  id: 6322
+  time: '2024-09-07T00:55:49.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/874
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: Вартість окулярів у екіпіруванні значно знижена.
+  id: 6323
+  time: '2024-09-07T01:04:42.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/879
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: Вартість усіх масок у екіпіруванні суттєво знижено.
+  id: 6324
+  time: '2024-09-07T01:06:11.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/875
+- author: Remuchi
+  changes:
+    - type: Add
+      message: >-
+        Взаємодія з деякими матеріалами тепер відкриває радіальне меню
+        з найчастіше використовуваними рецептами для цих матеріалів.
+  id: 6325
+  time: '2024-09-07T03:59:44.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/861
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Розмір вашого персонажа тепер впливає на кількість крові.
+        Менші персонажі матимуть менше крові, а більші — більше.
+  id: 6326
+  time: '2024-09-08T14:39:19.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/858
+- author: Mnemotechnician
+  changes:
+    - type: Remove
+      message: >-
+        Швидку заміну відключено для більшості слотів предметів.
+        Це означає, що перед заміною вам доведеться вийняти батареї/магазини з предметів/зброї/боргів.
+  id: 6327
+  time: '2024-09-08T14:42:30.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/856
+- author: router
+  changes:
+    - type: Tweak
+      message: У жіночих слизів більше немає криків із фільмів.
+  id: 6328
+  time: '2024-09-08T14:44:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/849
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: Бульбашки чату тепер використовують шрифт і колір мови повідомлення.
+  id: 6329
+  time: '2024-09-08T14:51:20.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/812
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Тип морфу «Креветка» було додано до пулу невдач метемпсихотичної машини.
+  id: 6330
+  time: '2024-09-08T14:56:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/882
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено кілька проблем із перекладачами.
+        Крім того, тепер можна тримати кілька портативних перекладачів одночасно без проблем.
+  id: 6331
+  time: '2024-09-08T15:08:37.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/834
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Переробники знову можуть знищувати людей, якщо їх зламати.
+    - type: Add
+      message: >-
+        Можливість переробників знищувати людей тепер контролюється змінною "reclaimer.allow_gibbing".
+    - type: Add
+      message: >-
+        Переробники потребують енергії для знищення людей. Тепер не можна просто тягнути зламані переробники у натовп.
+  id: 6332
+  time: '2024-09-08T15:15:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/822
+- author: BlueHNT
+  changes:
+    - type: Add
+      message: Додано молот з боінком зі звуком боїнка.
+  id: 6333
+  time: '2024-09-08T15:16:09.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/759
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Додано нову консольну команду AddPsionicPower.
+  id: 6334
+  time: '2024-09-08T15:16:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/807
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: На картах Glacier, Core та Saltern тепер є слоти для роботи асистентів.
+    - type: Add
+      message: >-
+        Glacier, Core та Saltern тепер можна вибирати під час голосування за вибір карти.
+  id: 6335
+  time: '2024-09-09T04:13:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/838
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Широкий удар більше не є стандартним для всіх видів зброї.
+        Тепер за замовчуванням використовується потужний удар (витрачається 10 витривалості на 20% додаткової шкоди по одній цілі).
+        Лише мала кількість зброї, призначеної для "Рубки", зберегла свою здатність до широкого удару.
+  id: 6336
+  time: '2024-09-09T04:13:14.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/866
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Прибуття знову увімкнено. Вибачте всі, хто думав, що ми їх відключили.
+        Це був спадковий перемикач, який залишився з часів, коли ми відокремилися від DeltaV.
+  id: 6337
+  time: '2024-09-09T04:13:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/871
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Тепер фелініди та гарпії не активують підлогові пастки, такі як міни та мишоловки.
+    - type: Add
+      message: >-
+        Додано нову рису "Уникач пасток", яка дозволяє персонажам купувати вроджену здатність уникати пасток на підлозі.
+        Я б назвав це "Легкий крок", за аналогією з рисою з Fallout, але ця назва вже використовується для іншої риси.
+  id: 6338
+  time: '2024-09-09T04:14:44.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/884
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Маркування рук та ніг тепер розділене для кожної руки, долоні, ноги та стопи.
+  id: 6339
+  time: '2024-09-09T05:30:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/870
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Антаг реворк знову додано. Скоро буде більше антагоністів.
+  id: 6340
+  time: '2024-09-09T14:21:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/794
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Сторінка "рецепти їжі" в довіднику тепер містить автоматично згенерований список рецептів їжі.
+  id: 6341
+  time: '2024-09-11T17:55:11.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/783
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Щурині королі повернулися в стандартну ротацію подій.
+  id: 6342
+  time: '2024-09-11T19:59:32.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/903
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Джетпаки тепер працюють у невагомост.
+    - type: Add
+      message: >-
+        Нова змінна "jetpack.enable_anywhere" дозволяє адміністраторам серверів зробити джетпаки доступними будь-де, навіть у гравітації та на платформах.
+    - type: Add
+      message: >-
+        Нова змінна "jetpack.enable_in_no_gravity" дозволяє адміністраторам серверів відключити можливість використання джетпаків у невагомості.
+  id: 6343
+  time: '2024-09-11T19:59:45.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/901
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Предмети, пов’язані з медичними роботами, тепер є частиною медичної групи екіпірування і всі вони значно знижені в ціні.
+  id: 6344
+  time: '2024-09-11T20:00:07.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/902
+- author: Tilkku
+  changes:
+    - type: Tweak
+      message: Повідомлення про огляд за допомогою ліхтарика.
+    - type: Fix
+      message: Ліхтарики тепер потрібно вмикати для огляду.
+    - type: Fix
+      message: Ліхтарики більше не можна використовувати на собі.
+  id: 6345
+  time: '2024-09-11T20:02:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/900
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Виправлено кілька проблем з інтерфейсом мовного меню та перекладачами.
+  id: 6346
+  time: '2024-09-11T20:03:25.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/893
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Предмети, пов’язані з роботою вантажників, тепер є частиною групи екіпірування для вантажників і всі вони значно знижені в ціні.
+  id: 6347
+  time: '2024-09-11T20:27:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/909
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Предмети, пов’язані з роботою служби безпеки, тепер є частиною групи екіпірування для безпеки і всі вони значно знижені в ціні.
+  id: 6348
+  time: '2024-09-11T20:39:55.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/908
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Предмети, пов’язані з роботою сервісу, тепер є частиною групи екіпірування для сервісу і всі вони значно знижені в ціні.
+    - type: Tweak
+      message: >-
+        Музиканти тепер мають значні знижки на всі інструменти в екіпіруванні, але можуть взяти не більше трьох.
+  id: 6349
+  time: '2024-09-11T20:52:21.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/906
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Предмети, пов’язані з роботою інженера, тепер є частиною групи екіпірування для інженерів і всі вони значно знижені в ціні.
+  id: 6350
+  time: '2024-09-11T21:03:37.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/907
+- author: Squishy77
+  changes:
+    - type: Add
+      message: >-
+        Додано RCD до списку можливих повторних і перенесено оновлення повторного використання з Delta.
+    - type: Tweak
+      message: >-
+        Вартість плат для машин була відкоригована, щоб бути більш узгодженою з їхніми аналогами після оновлення гіперточки.
+  id: 6351
+  time: '2024-09-12T00:12:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/910
+- author: SleepyScarecrow
+  changes:
+    - type: Tweak
+      message: Вміст етанолу.
+    - type: Fix
+      message: Рецепт SnowWhite.
+    - type: Tweak
+      message: Порог отруєння етанолом змінено з 15 до 45.
+  id: 6352
+  time: '2024-09-12T00:14:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/911
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: Портовано кілька пісень для музичного автомата з Delta-V.
+  id: 6353
+  time: '2024-09-12T00:14:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/912
+- author: Skubman
+  changes:
+    - type: Fix
+      message: >-
+        Недостатність крові тепер викликає втрату постійного відсотка крові незалежно від об’єму крові, який визначається розміром.
+        Це робить час до низького рівня крові та смерті однаковим для персонажів будь-якого розміру з цією рисою.
+  id: 6354
+  time: '2024-09-12T00:15:18.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/895
+- author: stellar-novas
+  changes:
+    - type: Add
+      message: Повітряні шлюзи знову мають доступ до проводів. Приємного злому!
+  id: 6355
+  time: '2024-09-14T00:48:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/916
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Предмети, пов’язані з науковими роботами, тепер є частиною наукової групи екіпірування і всі вони значно знижені в ціні.
+    - type: Add
+      message: Додано більше одягу в науковий розділ екіпірування.
+    - type: Tweak
+      message: Відкориговано ціни на предмети для командного екіпірування.
+    - type: Tweak
+      message: Додано локалізовані рядки для нових груп екіпірування.
+  id: 6356
+  time: '2024-09-14T01:00:26.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/914
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано відсутні локалізації для відділів, робіт та груп предметів екіпірування.
+    - type: Add
+      message: >-
+        Специфічне екіпірування для барменів! Бармени тепер можуть вибрати, щоб з’явитися або зі своєю класичною рушницею, або з Mosin Nagant, зарядженим гумовими кулями.
+  id: 6357
+  time: '2024-09-14T01:12:40.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/915
+- author: CilliePaint
+  changes:
+    - type: Tweak
+      message: Адвокатам набито кишені довідниками з космічного права!
+    - type: Remove
+      message: Забрано рюкзаки Atmos зі стартового спорядження.
+  id: 6358
+  time: '2024-09-14T05:41:40.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/897
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Тепер ви можете вибирати, ходити або бігати за замовчуванням у налаштуваннях.
+  id: 6359
+  time: '2024-09-14T05:44:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/889
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Наркоманія! Наркоманія — це довготривалі пари настроїв. Перша складається з тимчасового бонусу до настрою, який оновлюється після вживання наркотику, а друга — з дуже тривалої пенальті до настрою, яка замінює бонус, якщо ви не вживаєте наркотик довгий час.
+    - type: Add
+      message: Додано нову незначну негативну рису "Нікотинова залежність".
+    - type: Add
+      message: >-
+        Наркотики/реагенти тепер можуть впливати на настрій вашого персонажа! Як з наркоманією, так і без неї.
+    - type: Add
+      message: >-
+        Систему рис було оновлено для безпосереднього додавання настроїв персонажам під час входу в раунд, таких як наркоманія або постійні зміни настрою, такі як Сангвінік/Сатурнік.
+    - type: Add
+      message: >-
+        Олія Лотофагів тепер викликає надзвичайно сильну наркоманію, надаючи величезний бонус до настрою на короткий час. Після чого настає сильне погіршення настрою, яке триває дуже довго (або до моменту, коли ви вип’єте більше олії Лото).
+  id: 6360
+  time: '2024-09-14T06:48:55.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/896
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Станції підзарядки кіборгів нарешті знову працюють.
+    - type: Fix
+      message: >-
+        Реідратовані сутності (як-от куби мавп) більше не створюють другий
+        клієнтський об'єкт при реідратації.
+  id: 6361
+  time: '2024-09-14T17:55:41.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/888
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: Тепер властивість "Uncloneable" коштує лише один бал.
+  id: 6362
+  time: '2024-09-14T18:01:21.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/868
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Гарпії тепер можуть літати на станції протягом обмеженого часу,
+        рухаючись швидше за рахунок витрати витривалості.
+  id: 6363
+  time: '2024-09-16T04:41:44.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/919
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Перетягування було перероблено. Тепер ваш персонаж намагатиметься
+        постійно штовхати перетягуваний об'єкт, коли ви використовуєте клавішу
+        штовхання.
+    - type: Remove
+      message: >-
+        Ви більше не можете штовхати перетягуваний об'єкт під час ходьби, а
+        штовхання тепер відповідає законам збереження імпульсу.
+  id: 6364
+  time: '2024-09-17T23:38:45.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/883
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Тепер ядро має 6-ядерний AME, який постачається з двома банками палива.
+        Це повинно дати інженерам значно більше 20 хвилин для налаштування
+        двигуна Supermatter.
+  id: 6365
+  time: '2024-09-17T23:39:07.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/927
+- author: JayJacobs
+  changes:
+    - type: Tweak
+      message: Змінено спрайт перукарського крісла.
+    - type: Fix
+      message: Виправлено текстури лавок.
+  id: 6366
+  time: '2024-09-17T23:39:57.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/925
+- author: zelezniciar
+  changes:
+    - type: Tweak
+      message: Пожежна сокира знову може піднімати підлоги.
+  id: 6367
+  time: '2024-09-17T23:40:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/921
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Консолі клонування тепер правильно вказують, коли тіло має властивість
+        "Uncloneable".
+  id: 6368
+  time: '2024-09-18T04:30:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/926
+- author: Spatison
+  changes:
+    - type: Add
+      message: Додана система лежання.
+    - type: Tweak
+      message: >-
+        Лежання тепер використовує "do-afters", які видно іншим людям, щоб
+        показати, що відбувається.
+    - type: Add
+      message: Додана система прицілювання.
+    - type: Tweak
+      message: Тепер можна прицілюватися з Христова.
+  id: 6369
+  time: '2024-09-19T02:18:35.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/815
+- author: FoxxoTrystan
+  changes:
+    - type: Remove
+      message: Видалено вкладку DeltaV Option (опції переміщені).
+  id: 6370
+  time: '2024-09-19T02:24:25.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/928
+- author: Hell_Cat
+  changes: []
+  id: 6371
+  time: '2024-09-19T03:29:41.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/929
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено проблеми з системою лежання. Лежання більше не змушує всі
+        об'єкти на вашому екрані одночасно лягати. Використання будь-якої
+        клавіші руху більше не змушує персонажа виглядати так, ніби він лежить.
+  id: 6372
+  time: '2024-09-19T20:37:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/933
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        UniversalLanguageSpeaker (і Xenoglossy як його розширення) тепер
+        з'являються у вашому мовному меню поряд з іншими відомими мовами,
+        замість того, щоб замінювати всі відомі мови. Тепер ви можете вибирати,
+        чи говорити на ньому, чи використовувати звичайну мову.
+    - type: Add
+      message: Властивості тепер можуть додавати мови напряму.
+    - type: Add
+      message: Властивості тепер можуть видаляти мови напряму.
+  id: 6373
+  time: '2024-09-20T01:47:52.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/899
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Меле-зброя тепер може індивідуально визначати свою взаємодію з системою
+        змагань (ContestsSystem).
+    - type: Add
+      message: >-
+        Додано тип ContestArgs, що дозволяє будь-якому компоненту містити список
+        аргументів для ContestSystems.
+    - type: Add
+      message: >-
+        Додано ContestConstructor, новий тип мета-змагання, який дозволяє
+        іншим системам використовувати компоненти для визначення всіх можливих
+        поведінок змагань, замість того щоб кодувати певні взаємодії.
+  id: 6374
+  time: '2024-09-20T02:48:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/934
+- author: gluesniffler
+  changes:
+    - type: Add
+      message: >-
+        Додана необов'язкова змінна сервера, яка дозволяє сутностям повзати під
+        столами.
+    - type: Tweak
+      message: >-
+        Столи та пластикові заслони стали менш стійкими до пошкоджень, і тепер
+        їх можна цілити зброєю, прицілюючись на них.
+  id: 6375
+  time: '2024-09-20T19:34:02.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/939
+- author: ODJ
+  changes:
+    - type: Tweak
+      message: Змінено меле-атаки; Менше використання витривалості при важких ударах.
+  id: 6376
+  time: '2024-09-20T19:34:46.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/938
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        JukeOperator тепер дозволяє використовувати аргументи JukeDuration та
+        JukeCooldown. JukeCooldown - це нова функція, яка змушує ворогів чекати
+        час, рівний JukeCooldown у секундах, перш ніж вони зможуть спробувати
+        ухилитися від меле-атаки.
+    - type: Tweak
+      message: >-
+        За замовчуванням NPC будуть намагатися ухилитися від атак лише раз на 5
+        секунд.
+    - type: Fix
+      message: >-
+        JukeOperator тепер виконує надзвичайно складні обчислення в 5000 разів
+        рідше. ВИХІДНІ УМОВИ, ЛЮДИ!
+  id: 6377
+  time: '2024-09-20T20:05:31.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/935
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Усі "довгоствольні" рушниці, гвинтівки, легкі кулемети та дробовики тепер
+        вимагають взяти їх у дві руки для використання.
+  id: 6378
+  time: '2024-09-20T20:35:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/913
+- author: zelezniciar
+  changes:
+    - type: Add
+      message: Додано комп'ютер атмосферних тривог.
+  id: 6379
+  time: '2024-09-20T21:46:38.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/922
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Додано базове мовне меню до вкладки Traits.
+    - type: Add
+      message: >-
+        Tau-Ceti Basic, Tradeband, Freespeak, Elyran Standard, Sol Common та
+        жестова мова додані до мовного меню.
+  id: 6380
+  time: '2024-09-20T21:46:47.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/936
+- author: VMSolidus
+  changes:
+    - type: Remove
+      message: >-
+        Видалено завдання зрадника "Стати псіоніком". Його було неможливо
+        провалити, якщо ви брали властивість "Latent Psychic", і неможливо
+        виконати, якщо не брали.
+  id: 6381
+  time: '2024-09-20T21:47:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/940
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Повернуто оновлення частин.
+  id: 6382
+  time: '2024-09-21T22:46:49.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/917
+- author: Spatison
+  changes:
+    - type: Add
+      message: Додано знижки в аплінк.
+  id: 6383
+  time: '2024-09-21T22:46:59.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/930
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано нову псіонічну силу "Healing Word". Коли застосовано до іншої
+        особи, вона зцілює невелику кількість усіх типів пошкоджень (масштабується
+        з характеристиками використання), а також зменшує таймери гниття.
+        Healing Word має дуже короткий час перезарядки та низьку вартість
+        Glimmer.
+    - type: Add
+      message: >-
+        Додано нову надзвичайно рідкісну псіонічну силу "Breath of Life". Коли
+        застосовується до іншої особи, вона зцілює велику кількість пошкоджень
+        (масштабується з характеристиками використання), а також суттєво зменшує
+        таймери гниття. Крім того, якщо можливо, вона оживить ціль.
+        Breath of Life має надзвичайно довгий час перезарядки, тривалий час
+        кастування, яке можна перервати, і надзвичайно високу вартість Glimmer
+        (типовий псіон збільшить Glimmer більше ніж на 50 пунктів під час
+        кастування).
+    - type: Add
+      message: Капелан тепер починає з силою "Healing Word".
+  id: 6384
+  time: '2024-09-21T22:50:01.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/942
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Пляшки, стакани, тарілки та всі ємності для рідин тепер можуть бути
+        вражені кулями (і, ймовірно, знищені в процесі). Ми сподіваємося, що це
+        забезпечить як невелику тактичну перевагу/недолік, так і зробить
+        перестрілки навколо бару більш "кінематографічними".
+    - type: Add
+      message: >-
+        Тепер стільці також можуть бути вражені кулями, якщо стрілок
+        прицілюється на них, так само як і столи.
+  id: 6385
+  time: '2024-09-21T23:22:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/943
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено баг, де заклинання "Подих Життя" та "Слово Зцілення" могли критично пошкодити живих людей, що призводило до їх падіння.
+    - type: Fix
+      message: >-
+        Виправлено баг, де "Подих Життя" міг воскресити людей, які були в стані гниття (він все ще зцілює їх та зменшує таймер гниття, але не воскресить, якщо таймер не знизиться до межі 10 хвилин).
+    - type: Add
+      message: >-
+        Тепер шкала "Do-After" для "Подиху Життя" і "Слова Зцілення" прихована, якщо рівень глімеру достатньо низький. Поріг залежить від вашої характеристики "Глушіння" — більше глушіння = непомітніше використання заклинання.
+  id: 6386
+  time: '2024-09-24T00:56:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/949
+- author: Mocho
+  changes:
+    - type: Add
+      message: >-
+        Додано багато рецептів у меню швидкого будівництва. Спробуйте натиснути Z, тримаючи різні будівельні матеріали!
+  id: 6387
+  time: '2024-09-24T00:56:45.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/945
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Тепер IPC важать 71 кг замість 5 кг. Серйозно, хто ж зробив BeepBoops із пір'я?!?
+  id: 6388
+  time: '2024-09-25T05:09:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/959
+- author: fenndragon
+  changes:
+    - type: Add
+      message: Додано нових нейтральних ксеносів, події та слаймів реагентів
+  id: 6389
+  time: '2024-09-26T15:06:54.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/956
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Рюкзаки, сумки та торби були додані до спорядження.
+    - type: Remove
+      message: >-
+        Кнопку для "Налаштування рюкзака" було видалено. Вибір рюкзаків тепер
+        здійснюється через спорядження.
+    - type: Remove
+      message: >-
+        Кнопку для "Налаштування костюма/спідниці" також було видалено. Вибір
+        костюмів тепер здійснюється через спорядження.
+  id: 6390
+  time: '2024-09-28T00:46:19.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/957
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Виправлено помилку, через яку кнопка для перезавантаження IPC не з'являлась.
+  id: 6391
+  time: '2024-09-28T02:23:54.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/963
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Виправлено аварійне завершення програми, пов'язане з "Сяючими сутностями".
+  id: 6392
+  time: '2024-09-28T02:28:40.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/954
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Куріння сигарет або вживання лотої олії більше не буде спамити
+        спливаючими повідомленнями настрою.
+  id: 6393
+  time: '2024-09-28T02:30:18.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/948
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: Носферні події тепер знову можуть відбуватися на нижчих рівнях гліммера.
+  id: 6394
+  time: '2024-09-28T02:43:48.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/969
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: >-
+        Штовхання об'єкта більше не змушує вашого персонажа рухатись, але лише
+        якщо вас утримує гравітація.
+    - type: Tweak
+      message: >-
+        Штовхання об'єкта за допомогою Ctrl-RMB тепер здійснюється безперервно
+        до 5 секунд замість 2.
+  id: 6395
+  time: '2024-09-28T02:44:07.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/966
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Тепер люди можуть мати хвостові та вушні мітки.
+  id: 6396
+  time: '2024-09-28T03:10:14.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/964
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        У гарпій тепер є своя власна мова, яка називається "Валірійський стандарт".
+    - type: Add
+      message: >-
+        Валірійський стандарт тепер можна придбати як додаткову мову в меню Талантів.
+  id: 6397
+  time: '2024-09-28T14:42:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/968
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено помилку з "Словом зцілення" та "Подихом життя", коли якщо гравця-кастера переміщували під час касту, вони ставали назавжди нездатними повторно застосовувати ці заклинання.
+  id: 6398
+  time: '2024-09-29T01:43:20.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/970
+- author: VMSolidus
+  changes:
+    - type: Remove
+      message: >-
+        Видалено Псіонічний довідник. Він був невірний у більшості моментів і ніколи не буде оновлений до відповідності новому контенту псіоніки. Від гравців очікується, що вони самостійно "ДІЗНАЮТЬСЯ У ГРІ", як усе працює, через здогади, спроби та помилки або випадковості. Експериментуйте з цим. Спливаючі підказки спеціально зроблені розмитими. Ви маєте самі думати над тим, що вони означають. Припиніть питати адміністраторів у допомозі, що означає цей неясний текст.
+  id: 6399
+  time: '2024-09-29T01:43:32.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/972
+- author: Aikakakah
+  changes:
+    - type: Fix
+      message: Виправлено неповні назви кольорових секцій для міток.
+    - type: Fix
+      message: Виправлено категорії міток для IPC.
+  id: 6400
+  time: '2024-09-29T01:58:28.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/974
 

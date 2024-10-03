@@ -34,3 +34,5 @@ verb-common-close = Зачинити
 verb-common-open = Відчинити
 verb-common-close-ui = Закрити UI
 verb-common-open-ui = Відкрити UI
+
+verb-categories-interaction = Взаємодіяти

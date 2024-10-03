@@ -1,8 +1,8 @@
 - type: entity
-  name: wirecutter
+  name: "кусачки"
   parent: BaseItem
   id: Wirecutter
-  description: This kills the wire.
+  description: "Воно ріже дріт."
   components:
   - type: EmitSoundOnPickup
     sound:
@@ -38,9 +38,7 @@
         Blunt: 6.5
     heavyRateModifier: 0.9
     heavyDamageBaseModifier: 1.2
-    heavyStaminaCost: 5
     maxTargets: 4
-    angle: 60
     soundHit:
       path: "/Audio/Items/wirecutter.ogg"
   - type: Tool
@@ -63,10 +61,10 @@
     price: 30
 
 - type: entity
-  name: screwdriver
+  name: "викрутка"
   parent: BaseItem
   id: Screwdriver
-  description: Industrial grade torque in a small screwdriving package.
+  description: "Крутний момент промислового класу в невеликій викрутці."
   components:
   - type: EmitSoundOnPickup
     sound:
@@ -103,7 +101,6 @@
         Piercing: 6
     heavyRateModifier: 0.75
     heavyDamageBaseModifier: 1.5
-    heavyStaminaCost: 5
     maxTargets: 1
     angle: 20
     soundHit:
@@ -124,10 +121,10 @@
     price: 30
 
 - type: entity
-  name: wrench
+  name: "гайковий ключ"
   parent: BaseItem
   id: Wrench
-  description: 'A common tool for assembly and disassembly. Remember: righty tighty, lefty loosey.'
+  description: "Найпоширеніший інструмент для збирання та розбирання. Пам'ятайте: правою рукою туго, лівою вільно."
   components:
   - type: EmitSoundOnPickup
     sound:
@@ -165,7 +162,6 @@
     bluntStaminaDamageFactor: 1.5
     heavyRateModifier: 0.75
     heavyDamageBaseModifier: 1.75
-    heavyStaminaCost: 5
     angle: 100
     soundHit:
       collection: MetalThud
@@ -181,10 +177,10 @@
     price: 22
 
 - type: entity
-  name: crowbar
+  name: "лом"
   parent: BaseItem
   id: Crowbar
-  description: A multipurpose tool to pry open doors and fight interdimensional invaders.
+  description: "Багатофункціональний інструмент для відчинення дверей та боротьби з міжпросторовими загарбниками."
   components:
   - type: EmitSoundOnPickup
     sound:
@@ -239,7 +235,7 @@
 - type: entity
   parent: Crowbar
   id: CrowbarRed
-  name: emergency crowbar
+  name: "аварійний лом"
   components:
   - type: Tag
     tags:
@@ -254,10 +250,10 @@
       state: red-storage
 
 - type: entity
-  name: multitool
+  name: "мультитул"
   parent: BaseItem
   id: Multitool
-  description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines
+  description: "Просунутий інструмент для копіювання, зберігання та надсилання електричних імпульсів і сигналів через дроти та машини"
   components:
   - type: EmitSoundOnPickup
     sound: /Audio/SimpleStation14/Items/Handling/multitool_pickup.ogg
@@ -279,7 +275,6 @@
         Shock: 2
     heavyRateModifier: 0.9
     heavyDamageBaseModifier: 1.2
-    heavyStaminaCost: 5
     maxTargets: 1
     angle: 20
   - type: Item
@@ -316,10 +311,10 @@
     price: 56
 
 - type: entity
-  name: network configurator
+  name: "конфігуратор мережі"
   parent: BaseItem
   id: NetworkConfigurator
-  description: A tool for linking devices together. Has two modes, a list mode for mass linking devices and a linking mode for advanced device linking.
+  description: "Інструмент для зв'язування пристроїв між собою. Має два режими: режим списку для масового зв'язування пристроїв і режим зв'язування для розширеного зв'язування пристроїв."
   components:
     - type: EmitSoundOnLand
       sound:
@@ -369,10 +364,10 @@
 #Power tools
 #Later on these should switch probably switch damage when changing the tool behavior.
 - type: entity
-  name: power drill
+  name: "електродриль"
   parent: BaseItem
   id: PowerDrill
-  description: A simple powered hand drill.
+  description: "Проста ручна дриль з електроприводом."
   components:
   - type: Tag
     tags:
@@ -413,10 +408,6 @@
       Plastic: 100
 #  - type: DynamicPrice
 #    price: 100
-  - type: ReverseEngineering # Nyano
-    difficulty: 2
-    recipes:
-      - PowerDrill
   - type: StaticPrice
     price: 100
   - type: MeleeWeapon
@@ -428,17 +419,20 @@
         Piercing: 8
     heavyRateModifier: 0.9
     heavyDamageBaseModifier: 1.2
-    heavyStaminaCost: 5
     maxTargets: 1
     angle: 20
     soundHit:
       path: "/Audio/Items/drill_hit.ogg"
+  - type: ReverseEngineering # Nyano
+    difficulty: 2
+    recipes:
+      - PowerDrill
 
 - type: entity
   id: RCD
   parent: BaseItem
-  name: RCD
-  description: The rapid construction device can be used to quickly place and remove various station structures and fixtures. Requires compressed matter to function.
+  name: "УЗО"
+  description: "Пристрій для швидкого будівництва можна використовувати для швидкого встановлення та демонтажу різних станційних конструкцій і пристосувань. Для роботи потрібна стиснута речовина."
   components:
   - type: RCD
     availablePrototypes:
@@ -478,7 +472,7 @@
   - type: PhysicalComposition
     materialComposition:
       Steel: 600
-      Plastic: 100
+      Plastic: 150
   - type: StaticPrice
     price: 100
   - type: UserInterface
@@ -487,6 +481,10 @@
       type: RCDMenuBoundUserInterface
   - type: ActivatableUI
     key: enum.RcdUiKey.Key
+  - type: ReverseEngineering # Nyano
+    difficulty: 3
+    recipes:
+      - RCD
 
 - type: entity
   id: RCDEmpty
@@ -513,8 +511,8 @@
 - type: entity
   id: RCDRecharging
   parent: RCD
-  name: experimental RCD
-  description: A bluespace-enhanced rapid construction device that passively generates its own compressed matter.
+  name: "експериментальний УЗО"
+  description: "Пристрій для швидкого будівництва, що пасивно генерує власну стиснуту матерію, на основі блюзового простору."
   suffix: AutoRecharge
   components:
   - type: LimitedCharges
@@ -527,17 +525,17 @@
   id: RCDExperimental
   parent: RCD
   suffix: Admeme
-  name: experimental RCD
-  description: A bluespace-enhanced rapid construction device that passively generates its own compressed matter.
+  name: "експериментальний УЗО"
+  description: "Пристрій для швидкого будівництва, що пасивно генерує власну стиснуту матерію, на основі блюзового простору."
   components:
   - type: AutoRecharge
     rechargeDuration: 1
 
 - type: entity
-  name: compressed matter
+  name: "стиснута речовина"
   parent: BaseItem
   id: RCDAmmo
-  description: A cartridge of raw matter compacted by bluespace technology. Used in rapid construction devices.
+  description: "Картридж із сировиною, спресованою за технологією bluespace. Використовується в пристроях швидкого будівництва."
   components:
   - type: RCDAmmo
   - type: Sprite
@@ -548,7 +546,7 @@
     heldPrefix: ammo
   - type: PhysicalComposition
     materialComposition:
-      Steel: 100
+      Steel: 300
       Plastic: 100
   - type: StaticPrice
     price: 60
@@ -560,10 +558,10 @@
       - RCDAmmo
 
 - type: entity
-  name: omnitool
+  name: "omnitool"
   parent: BaseItem
   id: Omnitool
-  description: A drone's best friend.
+  description: "Найкращий друг безпілотника."
   components:
   - type: Sprite
     sprite: Objects/Tools/omnitool.rsi
@@ -626,10 +624,10 @@
 
 #Other
 - type: entity
-  name: shovel
+  name: "лопата"
   parent: BaseItem
   id: Shovel
-  description: A large tool for digging and moving dirt.
+  description: "Великий інструмент для копання та переміщення ґрунту."
   components:
   - type: Sprite
     sprite: Objects/Tools/shovel.rsi
@@ -637,14 +635,14 @@
   - type: MeleeWeapon
     wideAnimationRotation: 45
     attackRate: 0.8
-    range: 2.0
+    range: 1.75
     damage:
       types:
         Blunt: 8
     bluntStaminaDamageFactor: 1.5
     heavyRateModifier: 0.9
     heavyDamageBaseModifier: 1.5
-    heavyStaminaCost: 10
+    heavyStaminaCost: 7.5
     angle: 100
     soundHit:
       collection: MetalThud
@@ -669,8 +667,8 @@
 - type: entity
   parent: BaseItem
   id: RollingPin
-  name: rolling pin
-  description: A tool used to shape and flatten dough.
+  name: "качалка"
+  description: "Інструмент, який використовується для формування та розрівнювання тіста."
   components:
   - type: Sprite
     sprite: Objects/Tools/rolling_pin.rsi
@@ -692,8 +690,7 @@
     bluntStaminaDamageFactor: 2.0
     heavyRateModifier: 0.8
     heavyDamageBaseModifier: 1.5
-    heavyStaminaCost: 5
-    maxTargets: 1
+    maxTargets: 2
     angle: 20
     soundHit:
       collection: MetalThud

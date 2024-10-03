@@ -126,7 +126,7 @@
         enabled: false
 
 - type: entity
-  name: P.A.C.M.A.N.-type portable generator
+  name: "Портативний генератор типу P.A.C.M.A.N"
   description: |-
     A flexible backup generator for powering a variety of equipment.
     Runs off solid plasma sheets and is rated for up to 30 kW.
@@ -171,6 +171,9 @@
       materialWhiteList: [Plasma]
     - type: PortableGenerator
       startChance: 0.8
+    - type: UpgradePowerSupplier
+      powerSupplyMultiplier: 1.25
+      scaling: Exponential
     - type: GeneratorExhaustGas
       gasType: CarbonDioxide
       # 2 moles of gas for every sheet of plasma.
@@ -184,7 +187,7 @@
       state: portgen0
 
 - type: entity
-  name: S.U.P.E.R.P.A.C.M.A.N.-type portable generator
+  name: "Портативний генератор типу S.U.P.E.R.P.A.C.M.A.N"
   description: |-
     An advanced generator for powering departments.
     Runs off uranium sheets and is rated for up to 50 kW.
@@ -228,6 +231,9 @@
       storageLimit: 3000
       materialWhiteList: [Uranium]
     - type: PortableGenerator
+    - type: UpgradePowerSupplier
+      powerSupplyMultiplier: 1.25
+      scaling: Exponential
     - type: PowerMonitoringDevice
       group: Generator
       loadNodes:
@@ -237,7 +243,7 @@
       state: portgen1
 
 - type: entity
-  name: J.R.P.A.C.M.A.N.-type portable generator
+  name: "Портативний генератор типу J.R.P.A.C.M.A.N"
   description: |-
     A small generator capable of powering individual rooms, in case of emergencies.
     Runs off welding fuel and is rated for up to 8 kW.

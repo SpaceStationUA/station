@@ -1,9 +1,9 @@
 # Hacky for the stress test so don't even consider adding to this
 - type: entity
-  name: Burrower
+  name: "Нюхач"
   id: MobXeno
   parent: SimpleSpaceMobBase
-  description: They mostly come at night. Mostly.
+  description: "Вони приходять переважно вночі. Здебільшого."
   components:
   - type: Insulated
   - type: CombatMode
@@ -58,13 +58,18 @@
         layer:
         - MobLayer
   - type: MobState
-    allowedStates:
-    - Alive
-    - Dead
+  - type: Deathgasp
+  - type: MobStateActions
+    actions:
+      Critical:
+      - ActionCritSuccumb
+      - ActionCritFakeDeath
+      - ActionCritLastWords
   - type: MobThresholds
     thresholds:
       0: Alive
-      50: Dead
+      50: Critical
+      100: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
       25: 0.5
@@ -92,6 +97,7 @@
       Dead:
         Base: dead
   - type: Puller
+    needsHands: false
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -121,8 +127,11 @@
     molsPerSecondPerUnitMass: 0.0005
   - type: Speech
     speechVerb: LargeMob
-  - type: Psionic #Nyano - Summary: makes psionic by default.
+  - type: Psionic
     removable: false
+  - type: InnatePsionicPowers
+    powersToAdd:
+      - TelepathyPower
   - type: LanguageKnowledge
     speaks:
     - Xeno
@@ -130,7 +139,7 @@
     - Xeno
 
 - type: entity
-  name: Praetorian
+  name: "Преторіанський"
   parent: MobXeno
   id: MobXenoPraetorianNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -144,7 +153,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      100: Dead
+      100: Critical
+      150: Dead
   - type: Stamina
     critThreshold: 300
   - type: SlowOnDamage
@@ -163,7 +173,7 @@
         - MobLayer
 
 - type: entity
-  name: Drone
+  name: "Дрон"
   parent: MobXeno
   id: MobXenoDroneNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -177,7 +187,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      80: Dead
+      80: Critical
+      130: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
       40: 0.7
@@ -200,7 +211,7 @@
         - MobLayer
 
 - type: entity
-  name: Queen
+  name: "Королева"
   parent: MobXeno
   id: MobXenoQueenNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -214,7 +225,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      300: Dead
+      300: Critical
+      350: Dead
   - type: SlowOnDamage
     speedModifierThresholds:
       150: 0.7
@@ -239,14 +251,14 @@
     - CannotSuicide
   - type: LanguageKnowledge
     speaks:
-    - GalacticCommon
+    - TauCetiBasic
     - Xeno
     understands:
-    - GalacticCommon
+    - TauCetiBasic
     - Xeno
 
 - type: entity
-  name: Ravager
+  name: "Ravager"
   parent: MobXeno
   id: MobXenoRavagerNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -260,7 +272,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      100: Dead
+      100: Critical
+      150: Dead
   - type: MovementSpeedModifier
     baseSprintSpeed: 4
   - type: MeleeWeapon
@@ -283,7 +296,7 @@
         - MobLayer
 
 - type: entity
-  name: Runner
+  name: "Бігун"
   parent: MobXeno
   id: MobXenoRunnerNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -299,7 +312,7 @@
   - type: MeleeWeapon
     damage:
      groups:
-       Brute: 5
+       Brute: 10
   - type: Fixtures
     fixtures:
       fix1:
@@ -313,7 +326,7 @@
         - MobLayer
 
 - type: entity
-  name: Rouny
+  name: "Руні"
   parent: MobXenoRunnerNPC # Delta V - These no longer inherit the ghost takeover comp
   id: MobXenoRounyNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -321,6 +334,7 @@
     drawdepth: Mobs
     sprite: Mobs/Aliens/Xenos/rouny.rsi
     offset: 0,0.6
+    scale: 0.7, 0.7
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -328,7 +342,7 @@
       amount: 3
 
 - type: entity
-  name: Spitter
+  name: "Спіттер"
   parent: MobXeno
   id: MobXenoSpitterNPC # Delta V - These no longer inherit the ghost takeover comp
   components:
@@ -375,10 +389,10 @@
         - MobLayer
 
 - type: entity
-  name: space adder
+  name: "просторовий суматор"
   parent: SimpleSpaceMobBase
   id: MobPurpleSnake
-  description: A menacing purple snake from Kepler-283c.
+  description: "Загрозлива фіолетова змія з Kepler-283c."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -440,11 +454,11 @@
     - FootstepSound
 
 - type: entity
-  name: space adder
+  name: "просторовий суматор"
   parent: MobPurpleSnake
   id: MobSmallPurpleSnake
   suffix: small
-  description: A smaller version of the menacing purple snake from Kepler-283c.
+  description: "Зменшена версія загрозливої фіолетової змії з Kepler-283c."
   components:
   - type: Sprite
     drawdepth: Mobs
