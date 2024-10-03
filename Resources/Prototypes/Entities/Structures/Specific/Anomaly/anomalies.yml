@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: BaseAnomaly
-  name: anomaly
-  description: An impossible object. Should you be standing this close to it?
+  name: "аномалія"
+  description: "Неможливий об'єкт. Чи варто стояти так близько до нього?"
   components:
   - type: Anomaly
     pulseSound:
@@ -48,8 +48,12 @@
   - type: EmitSoundOnSpawn
     sound:
       path: /Audio/Effects/teleport_arrival.ogg
-  - type: Psionic #Nyano - Summary: makes psionic on creation.
-  - type: GlimmerSource #Nyano - Summary: makes this a potential source of Glimmer.
+  - type: Psionic
+    removable: false
+  - type: InnatePsionicPowers
+    powersToAdd:
+      - TelepathyPower
+  - type: GlimmerSource
     active: false
   - type: SecretDataAnomaly
     randomStartSecretMin: 0
@@ -648,9 +652,9 @@
 
 - type: entity
   id: AnomalyFloraBulb
-  name: strange glowing berry
+  name: "сяюча дивна ягода"
   parent: BaseStructure
-  description: It's a beautiful strange glowing berry. It seems to have something growing inside it...
+  description: "Це красива дивна ягода, що світиться. Здається, всередині неї щось росте..."
   suffix: Flora Anomaly
   components:
   - type: Transform

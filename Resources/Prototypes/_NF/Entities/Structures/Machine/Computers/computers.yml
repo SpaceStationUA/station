@@ -1,8 +1,8 @@
 - type: entity
-  name: консоль верфі
+  name: "консоль верфі"
   parent: BaseStructureComputer
   id: ComputerShipyard
-  description: Використовується для купівлі та продажу човників. Поки я директор цього.. фонду ми не будемо малювати шатли!
+  description: "Використовується для купівлі та продажу човників. Поки я директор цього.. фонду ми не будемо малювати шатли!"
   placement:
     mode: SnapgridCenter
   components:
@@ -84,8 +84,8 @@
 - type: entity
   id: BaseMothershipComputer
   parent: ComputerShipyard
-  name: mothership console
-  description: Used on motherships to purchase and sell ships without returning to a station.
+  name: "консоль материнського корабля"
+  description: "Використовується на материнських кораблях для купівлі та продажу кораблів без повернення на станцію."
   components:
   - type: ActivatableUI
     key: enum.ShipyardConsoleUiKey.Custom
@@ -99,8 +99,8 @@
 - type: entity
   id: ComputerShipyardSecurity
   parent: ComputerShipyard
-  name: консоль верфі для СБ
-  description: Використовується для залучення до сил безпеки Nanotrasen
+  name: "консоль верфі для СБ"
+  description: "Використовується для залучення до сил безпеки Nanotrasen"
   components:
   - type: ActivatableUI
     key: enum.ShipyardConsoleUiKey.Security
@@ -123,8 +123,8 @@
 - type: entity
   id: ComputerShipyardBlackMarket
   parent: ComputerShipyard
-  name: консоль верфі чорного ринку
-  description: Використовується для покупки кораблів, недоступних іншими способами. Має наклейку з написом ПОДАТОК З ПРОДАЖУ 30%
+  name: "консоль верфі чорного ринку"
+  description: "Використовується для покупки кораблів, недоступних іншими способами. Має наклейку з написом ПОДАТОК З ПРОДАЖУ 30%"
   components:
   - type: ActivatableUI
     key: enum.ShipyardConsoleUiKey.BlackMarket
@@ -155,8 +155,8 @@
 - type: entity
   id: ComputerShipyardExpedition
   parent: ComputerShipyard
-  name: консоль експедиційної верфі
-  description: Використовується для купівлі кораблів, споряджених для планетарних експедицій
+  name: "консоль експедиційної верфі"
+  description: "Використовується для купівлі кораблів, споряджених для планетарних експедицій"
   components:
   - type: ActivatableUI
     key: enum.ShipyardConsoleUiKey.Expedition
@@ -179,8 +179,8 @@
 - type: entity
   id: ComputerShipyardScrap
   parent: ComputerShipyard
-  name: scrapyard console
-  description: Used to purchase and sell "shuttles"
+  name: "консоль металобрухту"
+  description: "Використовується для купівлі-продажу \"шатлів\""
   components:
   - type: ActivatableUI
     key: enum.ShipyardConsoleUiKey.Scrap

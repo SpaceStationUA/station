@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseStructure
   id: BaseFenceMetal
-  name: chain link fence
-  description: A metal piece of fencing cordoning off something likely very important.
+  name: "огорожа з ланцюгової сітки"
+  description: "Металевий шматок огорожі, що огороджує щось, ймовірно, дуже важливе."
   abstract: true
   components:
   - type: MeleeSound
@@ -79,12 +79,15 @@
     cost: 2
     delay: 2
     fx: EffectRCDDeconstruct2
+  - type: InteractionVerbs
+    allowedVerbs:
+    - Rattle
 
 - type: entity
   parent: BaseFenceMetal
   id: FenceMetalBroken
-  name: broken chain link fence
-  description: Someone got real mad at an inanimate object.
+  name: "зламаний паркан з ланцюгової огорожі"
+  description: "Хтось дуже розлютився на неживий предмет."
   components:
   - type: Sprite
     layers:
@@ -107,11 +110,6 @@
         - FullTileMask
         layer:
         - TableLayer
-  - type: InteractionPopup
-    interactSuccessString: fence-rattle-success
-    messagePerceivedByOthers: fence-rattle-success
-    interactSuccessSound:
-      collection: FenceRattle
   - type: Destructible
     thresholds:
     - trigger:
@@ -166,11 +164,6 @@
         layer:
         - MidImpassable
         - LowImpassable
-  - type: InteractionPopup
-    interactSuccessString: fence-rattle-success
-    messagePerceivedByOthers: fence-rattle-success
-    interactSuccessSound:
-      collection: FenceRattle
   - type: Destructible
     thresholds:
     - trigger:
@@ -234,11 +227,6 @@
         layer:
         - MidImpassable
         - LowImpassable
-  - type: InteractionPopup
-    interactSuccessString: fence-rattle-success
-    messagePerceivedByOthers: fence-rattle-success
-    interactSuccessSound:
-      collection: FenceRattle
   - type: Construction
     graph: FenceMetal
     node: corner
@@ -271,11 +259,6 @@
         layer:
         - MidImpassable
         - LowImpassable
-  - type: InteractionPopup
-    interactSuccessString: fence-rattle-success
-    messagePerceivedByOthers: fence-rattle-success
-    interactSuccessSound:
-      collection: FenceRattle
   - type: Construction
     graph: FenceMetal
     node: end
@@ -283,8 +266,8 @@
 - type: entity
   parent: BaseFenceMetal
   id: FenceMetalGate
-  name: chain link fence gate
-  description: You could use the door instead of vaulting over--if you're a COWARD, that is.
+  name: "ворота для паркану з ланцюгової огорожі"
+  description: "Простий спосіб пробратися через паркан із сітки рабиці."
   components:
   - type: Sprite
     layers:

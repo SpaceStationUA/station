@@ -1,0 +1,24 @@
+- type: entity
+  parent: BaseItem
+  id: SyndicateTeleporter
+  name: телепортер синдикату
+  description: "Ручний телепортер, розроблений вченими Cybersun"
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Devices/syndicate_teleporter.rsi
+    state: icon
+  - type: Item
+    sprite: _Pirate/Objects/Devices/syndicate_teleporter.rsi
+  - type: SyndicateTeleporter
+  - type: UseDelay
+    delay: 0.5
+  - type: LimitedCharges
+    charges: 2
+    maxCharges: 2
+  - type: AutoRecharge
+    rechargeDuration: 45
+  - type: EmitSoundOnUse
+    sound:
+      collection: ShortCircuit
+      params:
+        variation: 0.125

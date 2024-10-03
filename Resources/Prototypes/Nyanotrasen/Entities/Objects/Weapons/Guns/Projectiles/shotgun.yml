@@ -1,6 +1,6 @@
 - type: entity
   id: PelletShotgunSoulbreaker
-  name: pellet (.50 soulbreaker)
+  name: "дробина (.50 soulbreaker)"
   noSpawn: true
   parent: BaseBulletPractice
   components:
@@ -24,6 +24,3 @@
     blockSlots: NONE #tranquillizer darts shouldn't be blocked by a mask
   - type: InjectableSolution
     solution: ammo
-  - type: GuideHelp
-    guides:
-    - Psionics

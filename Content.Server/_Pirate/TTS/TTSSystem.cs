@@ -3,6 +3,7 @@ using Content.Server.Chat.Systems;
 using Content.Shared.SimpleStation14.CCVar;
 using Content.Shared._Pirate.TTS;
 using Content.Shared.GameTicking;
+using Content.Shared.Language.Systems;
 using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
@@ -83,7 +84,8 @@ public sealed partial class TTSSystem : EntitySystem
         if (!_prototypeManager.TryIndex<TTSVoicePrototype>(voiceId, out var protoVoice))
             return;
 
-        if (args.Language.ID != "GalacticCommon")
+        var allowedLanguages = new List<string> {SharedLanguageSystem.UniversalPrototype, SharedLanguageSystem.FallbackLanguagePrototype};
+        if (!allowedLanguages.Contains(args.Language.ID))
             return;
 
         if (args.IsWhisper)

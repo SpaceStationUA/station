@@ -1,6 +1,6 @@
 - type: psionicPower
   id: DispelPower
-  name: Dispel
+  name: "Розвіяти"
   description: dispel-power-description
   actions:
     - ActionDispel
@@ -12,7 +12,7 @@
 
 - type: psionicPower
   id: MassSleepPower
-  name: Mass Sleep
+  name: "Масовий сон"
   description: mass-sleep-power-description
   actions:
     - ActionMassSleep
@@ -25,7 +25,7 @@
 
 - type: psionicPower
   id: MindSwapPower
-  name: Mind Swap
+  name: "Обмін думками"
   description: mind-swap-power-description
   actions:
     - ActionMindSwap
@@ -37,7 +37,7 @@
 
 - type: psionicPower
   id: NoosphericZapPower
-  name: Noospheric Zap
+  name: "Noospheric Zap"
   description: noospheric-zap-power-description
   actions:
     - ActionNoosphericZap
@@ -49,7 +49,7 @@
 
 - type: psionicPower
   id: PyrokinesisPower
-  name: Pyrokinesis
+  name: "Пірокінез"
   description: pyrokinesis-power-description
   actions:
   - ActionPyrokinesis
@@ -61,7 +61,7 @@
 
 - type: psionicPower
   id: MetapsionicPower
-  name: Metapsionic Pulse
+  name: "Метапсихічний імпульс"
   description: metapsionic-power-description
   actions:
   - ActionMetapsionic
@@ -74,7 +74,7 @@
 
 - type: psionicPower
   id: PsionicRegenerationPower
-  name: Psionic Regeneration
+  name: "Псіонна регенерація"
   description: psionic-regeneration-power-description
   actions:
   - ActionPsionicRegeneration
@@ -87,7 +87,7 @@
 
 - type: psionicPower
   id: TelegnosisPower
-  name: Telegnosis
+  name: "Телегнозис"
   description: telegnosis-power-description
   actions:
   - ActionTelegnosis
@@ -100,7 +100,7 @@
 
 - type: psionicPower
   id: PsionicInvisibilityPower
-  name: Psionic Invisibility
+  name: "Псіонна невидимість"
   description: psionic-invisibility-power-description
   actions:
   - ActionDispel
@@ -113,9 +113,52 @@
 
 - type: psionicPower
   id: XenoglossyPower
-  name: Xenoglossy
+  name: "Ксеноглянцевий"
   description: xenoglossy-power-description
   components:
     - type: UniversalLanguageSpeaker
   initializationFeedback: xenoglossy-power-initialization-feedback
   metapsionicFeedback: psionic-language-power-feedback # Reuse for telepathy, clairaudience, etc
+  powerSlotCost: 0
+
+- type: psionicPower
+  id: PsychognomyPower #i.e. reverse physiognomy
+  name: "Психогномія" #psycho- + -gnomy. I reccomend starting with your language's equilvalent of "physiognomy" and working backwards. i.e. психо(г)номика
+  description: psychognomy-power-description
+  components:
+    - type: Psychognomist
+  initializationFeedback: psychognomy-power-initialization-feedback
+  metapsionicFeedback: psionic-language-power-feedback
+  powerSlotCost: 0
+
+- type: psionicPower
+  id: TelepathyPower
+  name: "Телепатія"
+  description: telepathy-power-description
+  components:
+    - type: Telepathy
+  initializationFeedback: telepathy-power-initialization-feedback
+  metapsionicFeedback: psionic-language-power-feedback # Reuse for telepathy, clairaudience, etc
+  powerSlotCost: 0
+
+- type: psionicPower
+  id: HealingWordPower
+  name: "HealingWord"
+  description: healing-word-power-description
+  actions:
+    - ActionHealingWord
+  initializationFeedback: healing-word-power-initialization-feedback
+  metapsionicFeedback: healing-word-power-feedback
+  amplificationModifier: 0.5
+  dampeningModifier: 0.5
+
+- type: psionicPower
+  id: RevivifyPower
+  name: "Відродити"
+  description: revivify-power-description
+  actions:
+    - ActionRevivify
+  initializationFeedback: revivify-power-initialization-feedback
+  metapsionicFeedback: revivify-power-feedback
+  amplificationModifier: 2.5 # An extremely rare and dangerous power
+  powerSlotCost: 2

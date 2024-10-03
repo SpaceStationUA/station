@@ -1,6 +1,6 @@
 - type: entity
   id: ReinforcedPlasmaWindow
-  name: reinforced plasma window
+  name: "посилене плазмове вікно"
   parent: WindowRCDResistant
   components:
   - type: Sprite
@@ -12,7 +12,7 @@
     damageContainer: StructuralInorganic
     damageModifierSet: RGlass
   - type: RadiationBlocker
-    resistance: 4
+    resistance: 8
   - type: Destructible
     thresholds:
     - trigger:
@@ -59,8 +59,8 @@
 - type: entity
   id: PlasmaReinforcedWindowDirectional
   parent: WindowDirectionalRCDResistant
-  name: directional reinforced plasma window
-  description: Don't smudge up the glass down there.
+  name: "спрямоване армоване плазмове вікно"
+  description: "Вогнестійкий і навіть міцніший, з фіолетовим відтінком."
   placement:
     mode: SnapgridCenter
     snap:
@@ -125,7 +125,7 @@
     state: state0
   - type: IconSmooth
     mode: Diagonal
-    key: windows
+    key: walls
     base: state
   - type: Icon
     sprite: Structures/Windows/reinforced_plasma_diagonal.rsi

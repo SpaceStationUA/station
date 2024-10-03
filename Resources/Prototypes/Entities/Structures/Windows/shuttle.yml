@@ -1,6 +1,6 @@
 - type: entity
   id: ShuttleWindow
-  name: shuttle window
+  name: "вікно шаттла"
   parent: WindowRCDResistant
   components:
   - type: Sprite
@@ -63,7 +63,7 @@
     state: state0
   - type: IconSmooth
     mode: Diagonal
-    key: windows
+    key: walls
     base: state
   - type: Icon
     sprite: Structures/Windows/shuttle_window_diagonal.rsi

@@ -1,29 +1,8 @@
 - type: entity
-  id: MetempsychoticMachineCircuitboard
-  parent: BaseMachineCircuitboard
-  name: metempsychotic machine machine board
-  description: A machine printed circuit board for a cloning pod
-  components:
-    - type: Sprite
-      state: medical
-    - type: MachineBoard
-      prototype: MetempsychoticMachine
-      requirements:
-        Capacitor: 2
-        Manipulator: 2
-      materialRequirements:
-        Glass: 1
-        Cable: 1
-    - type: ReverseEngineering
-      difficulty: 3
-      recipes:
-        - MetempsychoticMachineCircuitboard
-
-- type: entity
   id: ReverseEngineeringMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: reverse engineering machine machine board
-  description: A machine printed circuit board for a reverse engineering machine
+  name: "реінжиніринг верстата плата верстата"
+  description: "Друкована плата для машини зворотного інжинірингу"
   components:
     - type: Sprite
       state: engineering
@@ -33,9 +12,8 @@
         MatterBin: 1
         Manipulator: 1
       materialRequirements:
-        Glass: 1
         Cable: 1
-        Diamond: 10
+        PlasmaGlass: 5
       tagRequirements:
         BorgArm:
           Amount: 3
@@ -49,7 +27,7 @@
 - type: entity
   id: DeepFryerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: deep fryer machine board
+  name: "дошка фритюрниці"
   components:
     - type: Sprite
       state: service
@@ -69,7 +47,7 @@
 - type: entity
   id: MailTeleporterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: mail teleporter machine board
+  name: "машинна плата поштового телепорту"
   components:
     - type: Sprite
       state: supply

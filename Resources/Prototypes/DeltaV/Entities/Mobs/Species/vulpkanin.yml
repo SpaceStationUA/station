@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist McVulp
+  name: "Уріст МакВулп"
   parent: BaseMobSpeciesOrganic
   id: BaseMobVulpkanin
   abstract: true
@@ -111,10 +111,10 @@
   - type: Wagging
   - type: LanguageKnowledge
     speaks:
-    - GalacticCommon
+    - TauCetiBasic
     - Canilunzt
     understands:
-    - GalacticCommon
+    - TauCetiBasic
     - Canilunzt
   - type: ConsumeDelayModifier
     foodDelayMultiplier: 0.5
@@ -124,11 +124,11 @@
 
 - type: entity
   save: false
-  name: Vulpkanin Dummy
+  name: "Манекен Вулканіна"
   parent: MobHumanDummy
   id: MobVulpkaninDummy
   noSpawn: true
-  description: A dummy vulpkanin meant to be used in character setup.
+  description: "Фіктивний vulpkanin, призначений для використання в налаштуванні символів."
   components:
   - type: HumanoidAppearance
     species: Vulpkanin

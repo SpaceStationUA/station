@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: MobSpawnCrabQuartz
-  name: mobspawner quartzcrab
+  name: "кварцовий краб mobspawner"
   components:
   - type: Transform
     anchored: True
@@ -29,7 +29,7 @@
 - type: entity
   id: MobSpawnCrabIron
   parent: MobSpawnCrabQuartz
-  name: mobspawner ironcrab
+  name: "залізний краб mobspawner"
   components:
   - type: Sprite
     sprite: /Textures/Effects/mobspawn.rsi
@@ -40,7 +40,7 @@
 - type: entity
   id: MobSpawnCrabSilver
   parent: MobSpawnCrabQuartz
-  name: mobspawner silvercrab
+  name: "мобпороджувач сріблястий краб"
   components:
   - type: Sprite
     sprite: /Textures/Effects/mobspawn.rsi
@@ -51,7 +51,7 @@
 - type: entity
   id: MobSpawnCrabUranium
   parent: MobSpawnCrabQuartz
-  name: mobspawner uraniumcrab
+  name: "mobspawner uranecrab"
   components:
   - type: Sprite
     sprite: /Textures/Effects/mobspawn.rsi

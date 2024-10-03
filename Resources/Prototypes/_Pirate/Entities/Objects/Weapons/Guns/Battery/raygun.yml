@@ -1,0 +1,35 @@
+- type: entity
+  name: "Рейган"
+  parent: BaseWeaponBatterySmall
+  id: WeaponRaygun
+  description: "Піу піу."
+  components:
+    - type: Tag
+      tags:
+        - Taser
+        - Sidearm
+    - type: Sprite
+      sprite: _Pirate/Objects/Weapons/Guns/Battery/raygun.rsi
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-unshaded-0
+          map: ["enum.GunVisualLayers.MagUnshaded"]
+          shader: unshaded
+    - type: Clothing
+      sprite: _Pirate/Objects/Weapons/Guns/Battery/raygun.rsi
+      quickEquip: false
+      slots:
+        - suitStorage
+        - Belt
+    - type: Gun
+      fireRate: 2
+      soundGunshot:
+        path: /Audio/_Pirate/Weapons/Guns/Gunshots/raygun.ogg
+    - type: HitscanBatteryAmmoProvider
+      proto: raygun
+      fireCost: 20
+    - type: MagazineVisuals
+      magState: mag
+      steps: 5
+      zeroVisible: true
