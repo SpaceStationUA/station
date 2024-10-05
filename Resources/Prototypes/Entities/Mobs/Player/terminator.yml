@@ -10,7 +10,7 @@
   parent: [MobHuman, MobTerminatorBase]
   id: MobHumanTerminator
   # uses random name generator dont worry
-  name: "дезінсектор"
+  name: exterminator
   components:
   - type: Terminator
   - type: GenericAntag
@@ -116,8 +116,8 @@
   - MobTerminatorBase
   id: MobTerminatorEndoskeleton
   # you are now valid
-  name: "ендоскелет nt-800 \"винищувач"
-  description: "Внутрішній двигун андроїдів-розвідників \"Саснет\". Сміховинно твердий сплав всередині, невибаглива плоть зовні."
+  name: nt-800 "exterminator" endoskeleton
+  description: The inner powerhouse of Susnet's infiltrator androids. Ridiculously hard alloy on the inside, unassuming flesh on the outside.
   components:
   - type: HumanoidAppearance
     species: Terminator
