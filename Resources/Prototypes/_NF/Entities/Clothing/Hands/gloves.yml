@@ -74,11 +74,9 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: Clothing/Hands/Gloves/Color/white.rsi
-        state: equipped-HAND
+      - state: equipped-HAND
         color: "#535353"
-      - sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
-        state: inhand-left
+      - state: inhand-left
 
 - type: entity
   parent: ClothingHandsGlovesColorBlackSMG
@@ -431,7 +429,5 @@
   - type: Clothing
     clothingVisuals:
       gloves:
-      - sprite: _NF/Objects/Weapons/Guns/Basic/sawn_kinetic_accelerator.rsi
-        state: inhand-left
-      - sprite: _NF/Objects/Weapons/Guns/Basic/sawn_kinetic_accelerator.rsi
-        state: inhand-right
+      - state: inhand-left
+      - state: inhand-right
