@@ -6327,4 +6327,164 @@ Entries:
   id: 6400
   time: '2024-09-29T01:58:28.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/974
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Суттєво ослаблено реактивних слаймів. Тепер у них на 1/3 менше здоров'я, при активації реактивних слаймів народжується вдвічі менше слаймів, вони завдають значно менше шкоди та впорскують набагато менше хімікатів при кусанні.
+  id: 6401
+  time: '2024-09-29T17:42:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/977
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено декілька дрібних проблем із взаємодією. Найважливіше, що тепер спливаючі вікна взаємодії будуть завжди правильно відображатися.
+  id: 6402
+  time: '2024-09-30T16:27:47.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/965
+- author: Spatison
+  changes:
+    - type: Fix
+      message: >-
+        Тепер розмір лобі не можна змінити.
+  id: 6403
+  time: '2024-09-30T16:29:47.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/962
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Додано Shadeskip як нову псионічну силу.
+  id: 6404
+  time: '2024-09-30T18:04:20.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/987
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Система настрою тепер має взаємодії з псионіками.
+  id: 6405
+  time: '2024-09-30T18:28:21.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/988
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано 7 нових псионічних властивостей: Високий пси-потенціал, Низький пси-потенціал, Неперевершена сила, надлишок кα, дефіцит кα, вміння кδ та дефект кδ.
+    - type: Add
+      message: >-
+        У Оні тепер вбудована негативна властивість, яка діє як більш сувора версія низького пси-потенціалу. Оні тепер мають значні штрафи на генерацію нових псионічних сил.
+  id: 6406
+  time: '2024-09-30T18:28:31.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/983
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Нарколепсію перероблено. Тепер ви знаєте, коли збираєтеся заснути, і можете добровільно лягти спати, щоб скинути таймер нарколепсії і уникнути неприємностей.
+  id: 6407
+  time: '2024-09-30T19:04:22.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/967
+- author: zelezniciar
+  changes:
+    - type: Fix
+      message: >-
+        Космічні дракони, яких розбирають на частини або вбивають, тепер залишають тіла, які вони поглинули.
+  id: 6408
+  time: '2024-10-01T21:34:55.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/992
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Відновлено функцію "Розум бренду". Вона була вимкнена випадково декілька тижнів тому. Перепрошую всіх, хто пропустив задоволення від вбивства торгових автоматів-убивць.
+  id: 6409
+  time: '2024-10-01T21:39:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/947
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено меню міток, додано контейнер для прокрутки. Тепер можна використовувати мітки з кількістю кольорів більше двох.
+  id: 6410
+  time: '2024-10-01T21:43:17.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/997
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Повернено подію з незрушуваним стрижнем.
+    - type: Add
+      message: >-
+        Подію з незрушуваним стрижнем зроблено справедливішою. Вона більше не буде автоматично розривати людей на частини, а просто завдасть їм великої тупої шкоди (яку можна пережити, якщо одягти хороший бронежилет або якщо ви Оні).
+  id: 6411
+  time: '2024-10-02T01:31:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/973
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано повний запис у довіднику для Гарпій. На відміну від попередніх записів, цей документ містить не тільки ігрові механіки, але й глибоку передісторію та лор гарпій.
+  id: 6412
+  time: '2024-10-02T01:32:07.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/993
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: 13 нових міток у стилі Кемонімі. 4 види вух і 9 нових хвостів!
+  id: 6413
+  time: '2024-10-02T01:32:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/981
+- author: fenndragon
+  changes:
+    - type: Tweak
+      message: 'Налаштовано частоту появи певних мобів у правилі ventcritters.'
+  id: 6414
+  time: '2024-10-02T01:34:19.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/982
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Знову додано зброю Grapple та Tether.
+  id: 6415
+  time: '2024-10-02T02:19:46.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1000
+- author: Fansana
+  changes:
+    - type: Fix
+      message: Виправлено доступ до поштових дверей.
+  id: 6416
+  time: '2024-10-02T23:14:55.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/986
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Додано силу телекінетичного імпульсу.
+    - type: Fix
+      message: Виправлено збій, пов'язаний з Shadeskip.
+  id: 6417
+  time: '2024-10-04T00:14:21.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1002
+- author: FoxxoTrystan
+  changes:
+    - type: Tweak
+      message: Оновлено спрайти для напрямних вікон і столів!
+    - type: Fix
+      message: Виправлено стан інверсії сигналізації повітря!
+  id: 6418
+  time: '2024-10-04T00:25:33.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/958
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Портовано систему відродження. Ця система дозволяє гравцям повернутися в лобі, але зобов'язує їх входити в раунд під іншим персонажем.
+  id: 6419
+  time: '2024-10-04T00:43:37.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/998
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Зимові черевики більше не можуть захистити вас від надзвичайних температур.
+  id: 6420
+  time: '2024-10-04T00:52:11.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1004
 
