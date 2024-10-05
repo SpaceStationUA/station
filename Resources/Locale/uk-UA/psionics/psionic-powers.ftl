@@ -98,3 +98,26 @@ revivify-word-begin = {CAPITALIZE($entity)} виголошує слово так
 
 # Telegnosis
 psionic-roll-failed = На мить моя свідомість розширюється, але я відчуваю, що цього недостатньо.
+already-casting = Я не можу спрямовувати більше однієї сили одночасно.
+
+# ♪ Розвіяти
+action-name-shadeskip = Шейдскіп
+action-description-shadeskip = Зверніться до Володарів Кінця Часу і випросіть у них фрагмент істинної ентропії.
+shadeskip-power-description = { action-description-shadeskip }
+shadeskip-power-initialization-feedback = Я стою на холодній землі, під небом, позбавленим зоряного світла. Холод - це порожнеча в кінці часів.
+    Я дивлюся на блідо-блакитний горизонт і бачу велике око, що стоїть у центрі всього цього, чорне і порожнє, як найглибші простори космосу.
+    Моя душа починає в'янути під його поглядом, і я благаю його відвести погляд. Око сміється, воно вимагає, щоб я служив йому або помер.
+    Знаючи, що у мене немає вибору, я присягаюся йому, і раптом я знову опиняюся в матеріальному світі. Око все ще дивиться за моєю спиною.
+shadeskip-power-metapsionic-feedback = {CAPITALIZE($entity)} зажадали Володарі Кінця Часу.
+shadeskip-overcharge-feedback = Моє тіло здригається від шоку, оскільки воно переповнене величезною силою, що протікає крізь мене.
+
+# Телекінетичний імпульс
+action-name-telekinetic-pulse = Телекінетичний імпульс
+action-description-telekinetic-pulse = Відштовхни всіх навколо.
+telekinetic-pulse-power-description = { action-description-telekinetic-pulse }
+telekinetic-pulse-power-initialization-feedback = Коли я проникаю крізь завісу своєю психікою, я відкриваю джерело чистої кінетичної енергії. Вона протікає крізь мене, але мені, здається, бракує тонкого контролю над нею.
+telekinetic-pulse-power-metapsionic-feedback = {CAPITALIZE($entity)} має сутність чистого кінезису, що протікає крізь нього.
+
+# Повідомлення Псіонічної системи
+entity-anomaly-no-grid = Мені ніде викликати істот.
+power-overwhelming-power-feedback = {CAPITALIZE($entity)} має широкі зв'язки з ноосферою
