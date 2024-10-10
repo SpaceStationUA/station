@@ -221,16 +221,3 @@
   noSpawn: true
   parent: ClothingBackpackDuffelSalvage
   id: ClothingBackpackDuffelSalvageFilled
-#PIRATE START UNTIL END OF FILE
-- type: entity
-  noSpawn: true
-  parent: ClothingBackpackDuffelBlueshield
-  id: ClothingBackpackDuffelBlueshieldFilled
-  components:
-  - type: StorageFill
-    contents:
-      - id: BoxSurvivalSecurity
-      - id: MedkitAdvancedFilled
-      - id: HandheldCrewMonitor
-      - id: Flash
-      - id: WeaponDisabler

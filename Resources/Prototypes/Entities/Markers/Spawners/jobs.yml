@@ -672,15 +672,3 @@
     layers:
       - state: green
       - state: zookeeper
-#PIRATE START UNTIL END OF FILE
-- type: entity
-  id: SpawnPointBlueshield
-  parent: SpawnPointJobBase
-  name: Blueshield
-  components:
-  - type: SpawnPoint
-    job_id: Blueshield
-  - type: Sprite
-    layers:
-      - state: green
-      - state: security_officer

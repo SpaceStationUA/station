@@ -27,20 +27,3 @@
       components:
       - SurplusBundle
 
-# PIRATE START UNTIL END OF FILE
-
-- type: listing
-  id: UplinkMiamiBundle
-  name: miami-name
-  description: miami-desc
-  productEntity: CrateSyndicateMiamiBundle
-  icon: { sprite: DeltaV/Clothing/Head/Misc/tony.rsi, state: icon }
-  cost:
-    Telecrystal: 12
-  categories:
-    - UplinkWeaponry
-  conditions:
-    - !type:StoreWhitelistCondition
-      blacklist:
-        tags:
-          - NukeOpsUplink

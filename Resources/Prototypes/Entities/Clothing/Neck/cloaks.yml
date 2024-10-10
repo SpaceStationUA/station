@@ -8,7 +8,7 @@
     sprite: Clothing/Neck/Cloaks/centcomcloakformal.rsi
   - type: StealTarget
     stealGroup: HeadCloak # leaving this here because I suppose it might be interesting?
-    
+
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakCap
@@ -272,13 +272,3 @@
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/pan.rsi
 
-#PIRATE START UNTIL END OF FILE
-- type: entity  
-  id: ClothingNeckCloakVoidMagic
-  parent: ClothingNeckCloakVoid
-  name: Магічний плащ пустоти
-  description: Плащ пустоти. Для тих хто доєднався темної сторони сили
-  components:
-  - type: StealthClothing
-    visibility: 1.0
-    toggleAction: ActionTogglePhaseCloak

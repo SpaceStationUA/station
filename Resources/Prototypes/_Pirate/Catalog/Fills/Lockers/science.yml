@@ -1,0 +1,14 @@
+- type: entity
+  id: LockerRoboticsFilled
+  suffix: Filled
+  parent: LockerRobotics
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHandsGlovesRobohands
+      - id: ClothingHeadsetRobotics
+      - id: ClothingOuterCoatRobo
+      - id: ClothingEyesHudDiagnostic
+      - id: ClothingBeltUtilityFilled
+      - id: LunchboxEpistemicsFilledRandom
+        prob: 0.3
