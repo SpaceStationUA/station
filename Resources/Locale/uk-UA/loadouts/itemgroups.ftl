@@ -68,3 +68,8 @@ character-item-group-LoadoutMusicianInstruments = Музичні інструм�
 character-item-group-TraitsLanguagesBasic = Основні мови
 character-item-group-TraitsAccents = Акценти
 character-item-group-LoadoutBackpacks = Цивільні рюкзаки
+character-item-group-LoadoutBackSecurity = Рюкзаки безпеки
+character-item-group-LoadoutWeaponSecurity = Зброя для забезпечення безпеки
+character-item-group-LoadoutHoSWeapon = Колекція антикварної зброї керівника служби безпеки
+
+# Послуга.
