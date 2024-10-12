@@ -37,6 +37,7 @@ namespace Content.Shared.Preferences
             string name,
             string flavortext,
             string species,
+            string customspeciename,
             string voice, //Pirate
             float height,
             float width,
@@ -56,6 +57,7 @@ namespace Content.Shared.Preferences
             Name = name;
             FlavorText = flavortext;
             Species = species;
+            Customspeciename = customspeciename;
             Voice = voice; //Pirate
             Height = height;
             Width = width;
@@ -80,7 +82,7 @@ namespace Content.Shared.Preferences
             List<string> antagPreferences,
             List<string> traitPreferences,
             List<string> loadoutPreferences)
-            : this(other.Name, other.FlavorText, other.Species, other.Voice, other.Height, other.Width, other.Age, other.Sex, other.Gender, other.Appearance,
+            : this(other.Name, other.FlavorText, other.Species, other.Customspeciename, other.Voice, other.Height, other.Width, other.Age, other.Sex, other.Gender, other.Appearance,
                 other.Clothing, other.Backpack, other.SpawnPriority, jobPriorities, other.PreferenceUnavailable,
                 antagPreferences, traitPreferences, loadoutPreferences)
         {
@@ -98,6 +100,7 @@ namespace Content.Shared.Preferences
             string name,
             string flavortext,
             string species,
+            string customspeciename,
             string voice, //Pirate
             float height,
             float width,
@@ -113,7 +116,7 @@ namespace Content.Shared.Preferences
             IReadOnlyList<string> antagPreferences,
             IReadOnlyList<string> traitPreferences,
             IReadOnlyList<string> loadoutPreferences)
-            : this(name, flavortext, species, voice, height, width, age, sex, gender, appearance, clothing, backpack, spawnPriority,
+            : this(name, flavortext, species, customspeciename, voice, height, width, age, sex, gender, appearance, clothing, backpack, spawnPriority,
                 new Dictionary<string, JobPriority>(jobPriorities), preferenceUnavailable,
                 new List<string>(antagPreferences), new List<string>(traitPreferences),
                 new List<string>(loadoutPreferences))
@@ -129,6 +132,7 @@ namespace Content.Shared.Preferences
             "John Doe",
             "",
             SharedHumanoidAppearanceSystem.DefaultSpecies,
+            "",
             SharedHumanoidAppearanceSystem.DefaultVoice, //Pirate
             1f,
             1f,
@@ -161,6 +165,7 @@ namespace Content.Shared.Preferences
                 "John Doe",
                 "",
                 species,
+                "",
                 SharedHumanoidAppearanceSystem.DefaultVoice, //Pirate
                 1f,
                 1f,
@@ -232,7 +237,7 @@ namespace Content.Shared.Preferences
 
             var name = GetName(species, gender);
 
-            return new HumanoidCharacterProfile(name, "", species, voiceId, height, width, age, sex, gender,
+            return new HumanoidCharacterProfile(name, "", species, species, voiceId, height, width, age, sex, gender,
                 HumanoidCharacterAppearance.Random(species, sex), ClothingPreference.Jumpsuit,
                 BackpackPreference.Backpack, SpawnPriorityPreference.None,
                 new Dictionary<string, JobPriority>
@@ -243,9 +248,13 @@ namespace Content.Shared.Preferences
 
         public string Name { get; private set; }
         public string FlavorText { get; private set; }
+
         [DataField("species")]
         public string Species { get; private set; }
         public string Voice { get; private set; } //PIRATE TTS
+
+        [DataField]
+        public string Customspeciename { get; private set; }
 
         [DataField("height")]
         public float Height { get; private set; }
@@ -303,6 +312,11 @@ namespace Content.Shared.Preferences
         public HumanoidCharacterProfile WithSpecies(string species)
         {
             return new(this) { Species = species };
+        }
+
+        public HumanoidCharacterProfile WithCustomSpeciesName(string customspeciename)
+        {
+            return new(this) { Customspeciename = customspeciename };
         }
 
         public HumanoidCharacterProfile WithVoice(string voice) //Pirate
@@ -537,6 +551,10 @@ namespace Content.Shared.Preferences
                 name = GetName(Species, gender);
             }
 
+            var customspeciename = speciesPrototype.CustomName
+                ? FormattedMessage.RemoveMarkup(Customspeciename ?? "")[..MaxNameLength]
+                : "";
+
             string flavortext;
             if (FlavorText.Length > MaxDescLength)
             {
@@ -642,6 +660,7 @@ namespace Content.Shared.Preferences
 
 
             Name = name;
+            Customspeciename = customspeciename;
             FlavorText = flavortext;
             Age = age;
             Height = height;
@@ -723,6 +742,9 @@ namespace Content.Shared.Preferences
                     _antagPreferences,
                     _traitPreferences,
                     _loadoutPreferences
+                ),
+                HashCode.Combine(
+                    Customspeciename
                 )
             );
         }

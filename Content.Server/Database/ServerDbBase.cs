@@ -220,6 +220,7 @@ namespace Content.Server.Database
                 profile.CharacterName,
                 profile.FlavorText,
                 profile.Species,
+                profile.CustomSpecieName,
                 voice, // Pirate TTS
                 profile.Height,
                 profile.Width,
@@ -261,6 +262,7 @@ namespace Content.Server.Database
             profile.CharacterName = humanoid.Name;
             profile.FlavorText = humanoid.FlavorText;
             profile.Species = humanoid.Species;
+            profile.CustomSpecieName = humanoid.Customspeciename;
             profile.Voice = humanoid.Voice; // Pirate TTS
             profile.Age = humanoid.Age;
             profile.Sex = humanoid.Sex.ToString();

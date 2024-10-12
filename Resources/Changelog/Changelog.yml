@@ -6487,4 +6487,192 @@ Entries:
   id: 6420
   time: '2024-10-04T00:52:11.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1004
-
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено баг з CloningSystem. Тепер при невдалій спробі клонування
+        правильно з'являється кров.
+  id: 6421
+  time: '2024-10-05T14:28:32.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1009
+- author: Mocho
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено неправильну глибину відображення при підніманні або коли
+        об'єкти лежали на ліжку.
+  id: 6422
+  time: '2024-10-07T15:28:36.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1017
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Нервовано тривалість позитивних і негативних настроїв від Lotophagoi до
+        10 хвилин. Загальна зміна настрою залишилася без змін.
+  id: 6423
+  time: '2024-10-07T15:29:05.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1013
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Shadeskip більше не створює Stationwide Shadow Kudzu при кастуванні на
+        високому рівні блиску.
+  id: 6424
+  time: '2024-10-07T15:29:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1012
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Рятувальний шаттл був замінений на Pathfinder Expedition Vessel з Frontier.
+  id: 6425
+  time: '2024-10-09T01:17:11.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1027
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Рятувальники тепер можуть купувати Crusher Dagger у своєму спорядженні.
+    - type: Fix
+      message: Знову додані Crusher weapons у рятувальні спавнери.
+  id: 6426
+  time: '2024-10-09T01:17:38.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1026
+- author: Ichaie
+  changes:
+    - type: Add
+      message: Нова карта під назвою NCS Gax додана до ротації.
+  id: 6427
+  time: '2024-10-09T01:37:57.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1019
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: Майже все спорядження для безпеки тепер безкоштовне.
+    - type: Remove
+      message: >-
+        Усі ролі безпеки більше не спавняться з пістолетом за замовчуванням. Це
+        було перенесено в спорядження.
+    - type: Add
+      message: >-
+        Співробітники безпеки тепер можуть обирати різні види вогнепальної
+        зброї як свою службову зброю. Disablers, Mk58 та інспекторські револьвери
+        безкоштовні, а модніші види зброї, такі як N1984, можна купити за очки
+        спорядження.
+    - type: Add
+      message: Они можуть взяти палицю замість пістолета.
+    - type: Add
+      message: >-
+        Співробітники безпеки можуть брати магазини для пістолетів та запасні
+        магазини у своєму спорядженні.
+    - type: Add
+      message: Рюкзаки безпеки додано до спорядження.
+    - type: Fix
+      message: >-
+        Виправлено проблеми з опціями ременів безпеки (мережевий, ремінь,
+        кобура), які неправильно замінювали оригінальний предмет і не містили
+        предметів.
+  id: 6428
+  time: '2024-10-09T15:37:08.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1025
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено відсутність вимоги, що ви не можете мати протилежну рису
+        для рис High & Low Psi-Potential. Вони були взаємовиключними, тому
+        взяття обох створювало проблеми.
+  id: 6429
+  time: '2024-10-09T15:37:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1022
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Виправлено локалізації для мови Sinta'Azaziba.
+  id: 6430
+  time: '2024-10-09T15:39:59.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1020
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Тварини тепер мають більше унікальних реплік, коли ними не керує
+        гравець.
+  id: 6431
+  time: '2024-10-09T15:48:57.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1003
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Glimmer Mites більше не можуть з'являтися будь-де, окрім "THE" Station.
+  id: 6432
+  time: '2024-10-09T16:12:10.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/976
+- author: FoxxoTrystan
+  changes:
+    - type: Add
+      message: Додано кастомні назви видів.
+  id: 6433
+  time: '2024-10-09T16:12:20.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/994
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Логістика тепер може напряму замовляти різноманітні хардсьюти. Хардсьюти
+        "NT In-Network" суттєво дешевші завдяки таємним домовленостям.
+  id: 6434
+  time: '2024-10-09T23:01:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1024
+- author: DangerRevolution
+  changes:
+    - type: Add
+      message: Оновлено спрайти для базових уніформ обслуговуючого персоналу.
+    - type: Add
+      message: Додано варіанти з закатаними рукавами для уніформ обслуговуючого персоналу.
+  id: 6435
+  time: '2024-10-10T16:21:24.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1021
+- author: VMSolidus
+  changes:
+    - type: Remove
+      message: X-01 мультифазний енергетичний пістолет був видалений з шафки HoS.
+    - type: Add
+      message: >-
+        Додано нову групу предметів Loadout під назвою "Антикварна колекція
+        зброї начальника безпеки". Замість того, щоб отримувати унікальну зброю
+        від творців карти, кожен начальник безпеки має право на один предмет з
+        цього нового розділу Loadout безкоштовно. Але будьте обережні, будь-який
+        вибраний предмет з цього списку може бути використаний як об'єкт для
+        крадіжки для зрадників. Можливо, у вас є новий крутий пістолет, але це
+        також робить вас мішенню.
+    - type: Add
+      message: >-
+        Антикварний Bulldog, антикварний C-20r пістолет, x-01 мультифазний
+        енергетичний пістолет, антикварний енергетичний меч, антикварний
+        імпульсний пістолет, антикварний Wt550 та пара ножен для катан були
+        додані як опції Loadout для начальника безпеки.
+  id: 6436
+  time: '2024-10-11T01:43:36.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1031
+- author: Ichaie
+  changes:
+    - type: Add
+      message: До ротації додана карта під назвою "RadStation".
+    - type: Add
+      message: >-
+        Додано новий евакуаційний шаттл під назвою "emergency_neol" на RadStation.
+  id: 6437
+  time: '2024-10-11T16:05:53.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1034
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Сплячі та заклеєні ротом об'єкти більше не можуть використовувати голосові
+        емоції (крик, мяв, тощо).
+  id: 6438
+  time: '2024-10-11T16:08:48.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1037

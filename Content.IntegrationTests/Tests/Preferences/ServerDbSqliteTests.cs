@@ -41,6 +41,7 @@ namespace Content.IntegrationTests.Tests.Preferences
                 "Charlie Charlieson",
                 "The biggest boy around.",
                 "Human",
+                "",
                 SharedHumanoidAppearanceSystem.DefaultVoice,
                 1,
                 1,
