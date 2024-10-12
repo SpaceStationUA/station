@@ -72,4 +72,4 @@ character-item-group-LoadoutBackSecurity = Рюкзаки безпеки
 character-item-group-LoadoutWeaponSecurity = Зброя для забезпечення безпеки
 character-item-group-LoadoutHoSWeapon = Колекція антикварної зброї керівника служби безпеки
 
-# Послуга.
+# Послуга
