@@ -73,18 +73,18 @@
     reoccurrenceDelay: 5
   - type: ClericalErrorRule
 
-- type: entity
-  parent: BaseGameRule
-  id: ClosetSkeleton
-  noSpawn: true
-  components:
-  - type: StationEvent
-    weight: 10
-    duration: 1
-    minimumPlayers: 15
-    reoccurrenceDelay: 25
-  - type: RandomEntityStorageSpawnRule
-    prototype: MobSkeletonCloset
+#- type: entity #REMOVED BY PIRATES, NICHOLAS REQUESTED
+#  parent: BaseGameRule
+#  id: ClosetSkeleton
+#  noSpawn: true
+#  components:
+#  - type: StationEvent
+#    weight: 10
+#    duration: 1
+#    minimumPlayers: 15
+#    reoccurrenceDelay: 25
+#  - type: RandomEntityStorageSpawnRule
+#    prototype: MobSkeletonCloset
 
 - type: entity
   parent: BaseGameRule
