@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: PersonalAI
-  name: personal ai device
-  description: Your electronic pal who's fun to be with!
+  name: "персональний ШІ-помічник"
+  description: "Ваш електронний друг, з яким весело проводити час!"
   components:
   - type: Instrument
     allowPercussion: false
@@ -74,8 +74,8 @@
 - type: entity
   parent: PersonalAI
   id: SyndicatePersonalAI
-  name: syndicate personal ai device
-  description: Your Syndicate pal who's fun to be with!
+  name: "синдикат персональний ШІ-помічник"
+  description: "Твій друг із Синдикату, з яким весело проводити час!"
   components:
   - type: Sprite
     sprite: Objects/Fun/pai.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: PersonalAI
   id: PotatoAI
-  name: potato artificial intelligence
-  description: It's a potato. You forced it to be sentient, you monster.
+  name: "штучний інтелект картоплі"
+  description: "Картопля є ідеальним джерелом енергії для цього чіпсу."
   components:
   - type: Sprite
     sprite: Objects/Fun/pai.rsi
@@ -132,8 +132,8 @@
 
 - type: entity
   id: ActionPAIPlayMidi
-  name: Play MIDI
-  description: Open your portable MIDI interface to soothe your owner.
+  name: "Відтворення MIDI"
+  description: "Відкрийте свій портативний MIDI-інтерфейс, щоб заспокоїти власника."
   noSpawn: true
   components:
   - type: InstantAction
@@ -145,8 +145,8 @@
 
 - type: entity
   id: ActionPAIOpenMap
-  name: Open Map
-  description: Open your map interface and guide your owner.
+  name: "Відкрити мапу"
+  description: "Відкрийте інтерфейс карти та допоможіть власнику."
   noSpawn: true
   components:
     - type: InstantAction

@@ -1,8 +1,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachinePride
-  name: Pride-O-Mat
-  description: A vending machine containing crimes.
+  name: "Прайд-О-Мат"
+  description: "Торговий автомат зі злочинами."
   components:
   - type: VendingMachine
     pack: PrideDrobeInventory
@@ -28,8 +28,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCourierDrobe
-  name: CourierDrobe
-  description: Neither solar flares nor meteors nor plasma fire nor void of space stays these couriers from the swift completion of their appointed rounds.
+  name: "CourierDrobe"
+  description: "Ні сонячні спалахи, ні метеорити, ні плазмовий вогонь, ні космічна порожнеча не заважають цим кур'єрам якнайшвидше завершити призначені їм рейси."
   components:
   - type: VendingMachine
     pack: CourierDrobeInventory
