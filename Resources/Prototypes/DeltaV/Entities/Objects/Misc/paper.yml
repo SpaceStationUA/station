@@ -1,8 +1,8 @@
 - type: entity
-  name: "ордер на арешт"
+  name: station warrant
   parent: Paper
   id: PaperStationWarrant
-  description: "Паперовий ордер, виданий департаментом юстиції."
+  description: 'A paper warrant issued by the justice department.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi

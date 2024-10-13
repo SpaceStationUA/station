@@ -1,8 +1,8 @@
 - type: entity
-  name: "BaseSMG"
+  name: BaseSMG
   parent: BaseItem
   id: BaseWeaponSubMachineGun
-  description: "Корінцевий зубастий і пагонистий."
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -56,10 +56,10 @@
     price: 500
 
 - type: entity
-  name: "Атрейдс"
+  name: Atreides
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunAtreides
-  description: "Пла-кет-кет-кет-кет-кет! Використовує автоматичні набої 35-го калібру."
+  description: Pla-ket-ket-ket-ket! Uses .35 auto ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
@@ -80,10 +80,10 @@
   - type: Appearance
 
 - type: entity
-  name: "Пістолет-кулемет C-20r"
+  name: C-20r sub machine gun
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunC20r
-  description: "С-20r, вироблений компанією Cybersun-Armaments, є однією з найпопулярніших особистих стрілецьких рушниць в Коаліції Колоній. Використовує автоматичні набої калібру .35."
+  description: Manufactured by Cybersun-Armaments, the C-20r is one of the most popular personal small-arms in the Coalition of Colonies. Uses .35 auto ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
@@ -112,19 +112,19 @@
   - type: Appearance
 
 - type: entity
-  name: "антикварний пістолет-кулемет С-20р"
+  name: antique C-20r submachine gun
   parent: WeaponSubMachineGunC20r
   id: WeaponSubMachineGunC20rHoS
-  description: "На цьому сильно зношеному пістолеті-кулеметі викарбувано слова: \"Пам'ятай про Марс\"."
+  description: This heavily worn submachine gun is engraved with the words, "Remember Mars".
   components:
     - type: StealTarget
       stealGroup: WeaponSubMachineGunC20rHoS
 
 - type: entity
-  name: "Дрозд"
+  name: Drozd
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunDrozd
-  description: "Чудовий повністю автоматичний важкий кулемет Heavy SMG."
+  description: An excellent fully automatic Heavy SMG.
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/SMGs/drozd.rsi
@@ -168,11 +168,11 @@
     - type: Appearance
 
 - type: entity
-  name: "Вектор"
+  name: Vector
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunVector
   suffix: Deprecated use Drozd
-  description: "Відмінна повністю автоматична важка гвинтівка Heavy SMG. Використовує набої .45 магнум."
+  description: An excellent fully automatic Heavy SMG. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/vector.rsi
@@ -216,10 +216,10 @@
   - type: Appearance
 
 - type: entity
-  name: "WT550"
+  name: WT550
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunWt550
-  description: "Відмінний SMG, вироблений підрозділом стрілецької зброї компанії NanoTrasen. Використовує автомобільні набої калібру .35."
+  description: An excellent SMG, produced by NanoTrasen's Small Arms Division. Uses .35 auto ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
@@ -276,17 +276,17 @@
   - type: Appearance
 
 - type: entity
-  name: "антикварний Wt550"
+  name: antique Wt550
   id: WeaponSubMachineGunWt550HoS
   parent: WeaponSubMachineGunWt550
-  description: "Цінна річ начальника служби безпеки станції. Запах засохлої крові зберігається на дулі цієї зброї. На руків'ї викарбувано маленький факел з 24 зірками навколо нього."
+  description: A prized possession of the station's Head of Security. The smell of dried blood lingers on this weapon's muzzle. A small torch with 24 stars surrounding it has been engraved on the grip.
   components:
     - type: StealTarget
       stealGroup: WeaponSubMachineGunWt550HoS
 
 # Rubber
 - type: entity
-  name: "Дрозд"
+  name: Drozd
   parent: WeaponSubMachineGunDrozd
   id: WeaponSubMachineGunDrozdRubber
   suffix: Non-Lethal
@@ -311,10 +311,10 @@
               - CartridgePistol
 
 - type: entity
-  name: "Вектор"
+  name: Vector
   parent: WeaponSubMachineGunVector
   id: WeaponSubMachineGunVectorRubber
-  description: "Відмінна повністю автоматична важка гвинтівка Heavy SMG. Використовує набої .45 магнум."
+  description: An excellent fully automatic Heavy SMG. Uses .45 magnum ammo.
   suffix: Non-Lethal
   components:
   - type: ItemSlots
