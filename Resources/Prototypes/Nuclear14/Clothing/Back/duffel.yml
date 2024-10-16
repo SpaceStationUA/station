@@ -26,8 +26,8 @@
     sprintModifier: 0.9
   - type: UserInterface
     interfaces:
-    - key: enum.StorageUiKey.Key
-      type: StorageBoundUserInterface
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
 
 - type: entity
   parent: N14ClothingBackpackDuffel

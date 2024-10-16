@@ -17,7 +17,7 @@ public sealed partial class MageProjectileSpellEvent : WorldTargetActionEvent, I
     /// <summary>
     /// Gets the targeted spawn positions; may lead to multiple entities being spawned.
     /// </summary>
-    [DataField("posData")] public MagicSpawnData Pos = new TargetCasterPos();
+    [DataField("posData")] public MagicInstantSpawnData Pos = new TargetCasterPos();
 
     [DataField("speech")] public string? Speech { get; set; }
 

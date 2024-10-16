@@ -5,6 +5,7 @@ using Content.Shared.Actions;
 using Content.Shared.Actions.ActionTypes;
 using Content.Shared.Chat.Prototypes;
 using Content.Shared.Emoting;
+using Content.Shared.Speech.Components;
 using Robust.Server.GameObjects;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Player;

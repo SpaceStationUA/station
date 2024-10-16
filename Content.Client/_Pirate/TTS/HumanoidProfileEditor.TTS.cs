@@ -4,7 +4,7 @@ using Content.Shared._Pirate.TTS;
 using Content.Shared.Preferences;
 using Robust.Shared.Random;
 
-namespace Content.Client.Preferences.UI;
+namespace Content.Client.Lobby.UI;
 
 public sealed partial class HumanoidProfileEditor
 {
@@ -29,7 +29,7 @@ public sealed partial class HumanoidProfileEditor
     private void InitializeVoice()
     {
         _random = IoCManager.Resolve<IRobustRandom>();
-        _ttsSys = _entityManager.System<TTSSystem>();
+        _ttsSys = _entManager.System<TTSSystem>();
         _voiceList = _prototypeManager
             .EnumeratePrototypes<TTSVoicePrototype>()
             .Where(o => o.RoundStart)

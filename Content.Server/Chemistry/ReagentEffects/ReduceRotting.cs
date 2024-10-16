@@ -2,9 +2,9 @@ using Content.Shared.Chemistry.Reagent;
 using JetBrains.Annotations;
 using Robust.Shared.Prototypes;
 using Content.Server.Atmos.Rotting;
+
 namespace Content.Server.Chemistry.ReagentEffects
 {
-    /// PIRATE
     /// <summary>
     /// Reduces the rotting accumulator on the patient, making them revivable.
     /// </summary>
@@ -21,7 +21,9 @@ namespace Content.Server.Chemistry.ReagentEffects
         {
             if (args.Scale != 1f)
                 return;
+
             var rottingSys = args.EntityManager.EntitySysManager.GetEntitySystem<RottingSystem>();
+
             rottingSys.ReduceAccumulator(args.SolutionEntity, TimeSpan.FromSeconds(RottingAmount));
         }
     }

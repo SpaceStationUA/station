@@ -46,7 +46,8 @@ public sealed class RottingSystem : SharedRottingSystem
         args.Handled = component.CurrentTemperature < Atmospherics.T0C + 0.85f;
     }
 
-    public void ReduceAccumulator(EntityUid uid, TimeSpan time) ///PIRATE
+
+    public void ReduceAccumulator(EntityUid uid, TimeSpan time)
     {
         if (!TryComp<PerishableComponent>(uid, out var perishable))
             return;
