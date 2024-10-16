@@ -80,8 +80,9 @@ namespace Content.Shared.Alert
         MageMana,
         Charge, //IPC
 		Caged, //IPC
-        Stasis // Chronolegioner
+        Stasis, // Chronolegioner
 //Pirate END
+        Deflecting,
     }
 
 }

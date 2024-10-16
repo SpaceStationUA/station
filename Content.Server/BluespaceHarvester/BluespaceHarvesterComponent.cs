@@ -4,7 +4,7 @@ using Robust.Shared.Prototypes;
 
 namespace Content.Server.BluespaceHarvester;
 
-[RegisterComponent, Access(typeof(BluespaceHarvesterSystem))]
+[RegisterComponent]
 public sealed partial class BluespaceHarvesterComponent : Component
 {
     /// <summary>

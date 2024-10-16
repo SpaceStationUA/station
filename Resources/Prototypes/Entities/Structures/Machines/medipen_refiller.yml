@@ -39,8 +39,8 @@
   - type: ActivatableUIRequiresPower
   - type: UserInterface
     interfaces:
-    - key: enum.MedipenRefillerUiKey.Key
-      type: MedipenRefillerBoundUserInterface
+      enum.MedipenRefillerUiKey.Key:
+        type: MedipenRefillerBoundUserInterface
   - type: WiresPanel
   - type: Wires
     boardName: wires-board-name-medipenrefiller
