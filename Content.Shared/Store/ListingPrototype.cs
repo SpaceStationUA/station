@@ -3,6 +3,7 @@ using Content.Shared.FixedPoint;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Utility;
+using Content.Shared.Heretic.Prototypes;
 
 namespace Content.Shared.Store;
 
@@ -94,6 +95,13 @@ public partial class ListingData : IEquatable<ListingData>, ICloneable
     [DataField]
     public object? ProductEvent;
 
+    // goobstation - heretics
+    // i am too tired of making separate systems for knowledge adding
+    // and all that shit. i've had like 4 failed attempts
+    // so i'm just gonna shitcode my way out of my misery
+    [DataField]
+    public ProtoId<HereticKnowledgePrototype>? ProductHereticKnowledge;
+
     [DataField]
     public bool RaiseProductEventOnUser;
 
@@ -177,6 +185,7 @@ public partial class ListingData : IEquatable<ListingData>, ICloneable
             ProductUpgradeId = ProductUpgradeId,
             ProductActionEntity = ProductActionEntity,
             ProductEvent = ProductEvent,
+            ProductHereticKnowledge = ProductHereticKnowledge, // goob edit
             PurchaseAmount = PurchaseAmount,
             RestockTime = RestockTime,
             SaleLimit = SaleLimit,

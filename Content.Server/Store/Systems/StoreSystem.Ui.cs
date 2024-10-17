@@ -15,6 +15,9 @@ using Robust.Server.GameObjects;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
+using Content.Shared.Heretic;
+using Content.Shared.Heretic.Prototypes;
+using Content.Server.Heretic.EntitySystems;
 
 namespace Content.Server.Store.Systems;
 
@@ -31,6 +34,8 @@ public sealed partial class StoreSystem
     [Dependency] private readonly UserInterfaceSystem _ui = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
 
+    // goobstation - heretics
+    [Dependency] private readonly HereticKnowledgeSystem _heretic = default!;
     private void InitializeUi()
     {
         SubscribeLocalEvent<StoreComponent, StoreRequestUpdateInterfaceMessage>(OnRequestUpdate);
@@ -176,6 +181,16 @@ public sealed partial class StoreSystem
             component.BalanceSpent.TryAdd(currency, FixedPoint2.Zero);
 
             component.BalanceSpent[currency] += value;
+        }
+
+        // goobstation - heretics
+        // i am too tired of making separate systems for knowledge adding
+        // and all that shit. i've had like 4 failed attempts
+        // so i'm just gonna shitcode my way out of my misery
+        if (listing.ProductHereticKnowledge != null)
+        {
+            if (TryComp<HereticComponent>(buyer, out var heretic))
+                _heretic.AddKnowledge(buyer, heretic, (ProtoId<HereticKnowledgePrototype>) listing.ProductHereticKnowledge);
         }
 
         //spawn entity
