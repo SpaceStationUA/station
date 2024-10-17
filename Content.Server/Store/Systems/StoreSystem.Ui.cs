@@ -15,6 +15,9 @@ using Robust.Server.GameObjects;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
+using Content.Shared.Heretic;
+using Content.Shared.Heretic.Prototypes;
+using Content.Server.Heretic.EntitySystems;
 
 namespace Content.Server.Store.Systems;
 
@@ -31,6 +34,8 @@ public sealed partial class StoreSystem
     [Dependency] private readonly UserInterfaceSystem _ui = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
 
+    // goobstation - heretics
+    [Dependency] private readonly HereticKnowledgeSystem _heretic = default!;
     private void InitializeUi()
     {
         SubscribeLocalEvent<StoreComponent, StoreRequestUpdateInterfaceMessage>(OnRequestUpdate);
@@ -73,7 +78,7 @@ public sealed partial class StoreSystem
         if (!Resolve(uid, ref component))
             return;
 
-        _ui.TryCloseAll(uid, StoreUiKey.Key);
+        _ui.CloseUi(uid, StoreUiKey.Key);
     }
 
     /// <summary>
@@ -83,12 +88,13 @@ public sealed partial class StoreSystem
     /// <param name="store">The store entity itself</param>
     /// <param name="component">The store component being refreshed.</param>
     /// <param name="ui"></param>
-    public void UpdateUserInterface(EntityUid? user, EntityUid store, StoreComponent? component = null, PlayerBoundUserInterface? ui = null)
+    public void UpdateUserInterface(EntityUid? user, EntityUid store, StoreComponent? component = null)
     {
         if (!Resolve(store, ref component))
             return;
 
-        if (ui == null && !_ui.TryGetUi(store, StoreUiKey.Key, out ui))
+        // TODO: Why is the state not being set unless this?
+        if (!_ui.HasUi(store, StoreUiKey.Key))
             return;
 
         //this is the person who will be passed into logic for all listing filtering.
@@ -113,12 +119,12 @@ public sealed partial class StoreSystem
         // only tell operatives to lock their uplink if it can be locked
         var showFooter = HasComp<RingerUplinkComponent>(store);
         var state = new StoreUpdateState(component.LastAvailableListings, allCurrency, showFooter, component.RefundAllowed);
-        _ui.SetUiState(ui, state);
+        _ui.SetUiState(store, StoreUiKey.Key, state);
     }
 
     private void OnRequestUpdate(EntityUid uid, StoreComponent component, StoreRequestUpdateInterfaceMessage args)
     {
-        UpdateUserInterface(args.Session.AttachedEntity, GetEntity(args.Entity), component);
+        UpdateUserInterface(args.Actor, GetEntity(args.Entity), component);
     }
 
     private void BeforeActivatableUiOpen(EntityUid uid, StoreComponent component, BeforeActivatableUIOpenEvent args)
@@ -139,8 +145,7 @@ public sealed partial class StoreSystem
             return;
         }
 
-        if (msg.Session.AttachedEntity is not { Valid: true } buyer)
-            return;
+        var buyer = msg.Actor;
 
         //verify that we can actually buy this listing and it wasn't added
         if (!ListingHasCategory(listing, component.Categories))
@@ -176,6 +181,16 @@ public sealed partial class StoreSystem
             component.BalanceSpent.TryAdd(currency, FixedPoint2.Zero);
 
             component.BalanceSpent[currency] += value;
+        }
+
+        // goobstation - heretics
+        // i am too tired of making separate systems for knowledge adding
+        // and all that shit. i've had like 4 failed attempts
+        // so i'm just gonna shitcode my way out of my misery
+        if (listing.ProductHereticKnowledge != null)
+        {
+            if (TryComp<HereticComponent>(buyer, out var heretic))
+                _heretic.AddKnowledge(buyer, heretic, (ProtoId<HereticKnowledgePrototype>) listing.ProductHereticKnowledge);
         }
 
         //spawn entity
@@ -215,11 +230,11 @@ public sealed partial class StoreSystem
             {
                 HandleRefundComp(uid, component, actionId.Value);
 
-                if (listing.ProductUpgradeID != null)
+                if (listing.ProductUpgradeId != null)
                 {
                     foreach (var upgradeListing in component.Listings)
                     {
-                        if (upgradeListing.ID == listing.ProductUpgradeID)
+                        if (upgradeListing.ID == listing.ProductUpgradeId)
                         {
                             upgradeListing.ProductActionEntity = actionId.Value;
                             break;
@@ -229,7 +244,7 @@ public sealed partial class StoreSystem
             }
         }
 
-        if (listing is { ProductUpgradeID: not null, ProductActionEntity: not null })
+        if (listing is { ProductUpgradeId: not null, ProductActionEntity: not null })
         {
             if (listing.ProductActionEntity != null)
             {
@@ -263,7 +278,7 @@ public sealed partial class StoreSystem
             $"{ToPrettyString(buyer):player} purchased listing \"{ListingLocalisationHelpers.GetLocalisedNameOrEntityName(listing, _prototypeManager)}\" from {ToPrettyString(uid)}");
 
         listing.PurchaseAmount++; //track how many times something has been purchased
-        _audio.PlayEntity(component.BuySuccessSound, msg.Session, uid); //cha-ching!
+        _audio.PlayEntity(component.BuySuccessSound, msg.Actor, uid); //cha-ching!
 
         if (listing.SaleLimit != 0 && listing.DiscountValue > 0 && listing.PurchaseAmount >= listing.SaleLimit)
         {
@@ -295,8 +310,7 @@ public sealed partial class StoreSystem
         if (proto.Cash == null || !proto.CanWithdraw)
             return;
 
-        if (msg.Session.AttachedEntity is not { Valid: true } buyer)
-            return;
+        var buyer = msg.Actor;
 
         FixedPoint2 amountRemaining = msg.Amount;
         var coordinates = Transform(buyer).Coordinates;
@@ -319,7 +333,7 @@ public sealed partial class StoreSystem
     {
         // TODO: Remove guardian/holopara
 
-        if (args.Session.AttachedEntity is not { Valid: true } buyer)
+        if (args.Actor is not { Valid: true } buyer)
             return;
 
         if (!IsOnStartingMap(uid, component))

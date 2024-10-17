@@ -1,0 +1,23 @@
+#Clockwork Helmet
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetClockwork
+  name: clockwork helmet
+  description: A heavy helmet made of brass.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Helmets/clockwork.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Helmets/clockwork.rsi
+  - type: IngestionBlocker
+  - type: Armor #same as the cult helmet for balance reasons, change when clockcult becomes real
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.9
+  - type: Tag
+    tags:
+    - HidesHair
+    - WhitelistChameleon

@@ -3,6 +3,7 @@ using Content.Shared.FixedPoint;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Utility;
+using Content.Shared.Heretic.Prototypes;
 
 namespace Content.Shared.Store;
 
@@ -75,14 +76,14 @@ public partial class ListingData : IEquatable<ListingData>, ICloneable
     public EntProtoId? ProductAction;
 
     /// <summary>
-    ///     The listing ID of the related upgrade listing. Can be used to link a <see cref="ProductAction"/> to an
-    ///         upgrade or to use standalone as an upgrade
+    /// The listing ID of the related upgrade listing. Can be used to link a <see cref="ProductAction"/> to an
+    /// upgrade or to use standalone as an upgrade
     /// </summary>
     [DataField]
-    public ProtoId<ListingPrototype>? ProductUpgradeID;
+    public ProtoId<ListingPrototype>? ProductUpgradeId;
 
     /// <summary>
-    ///     Keeps track of the current action entity this is tied to, for action upgrades
+    /// Keeps track of the current action entity this is tied to, for action upgrades
     /// </summary>
     [DataField]
     [NonSerialized]
@@ -93,6 +94,13 @@ public partial class ListingData : IEquatable<ListingData>, ICloneable
     /// </summary>
     [DataField]
     public object? ProductEvent;
+
+    // goobstation - heretics
+    // i am too tired of making separate systems for knowledge adding
+    // and all that shit. i've had like 4 failed attempts
+    // so i'm just gonna shitcode my way out of my misery
+    [DataField]
+    public ProtoId<HereticKnowledgePrototype>? ProductHereticKnowledge;
 
     [DataField]
     public bool RaiseProductEventOnUser;
@@ -174,9 +182,10 @@ public partial class ListingData : IEquatable<ListingData>, ICloneable
             Priority = Priority,
             ProductEntity = ProductEntity,
             ProductAction = ProductAction,
-            ProductUpgradeID = ProductUpgradeID,
+            ProductUpgradeId = ProductUpgradeId,
             ProductActionEntity = ProductActionEntity,
             ProductEvent = ProductEvent,
+            ProductHereticKnowledge = ProductHereticKnowledge, // goob edit
             PurchaseAmount = PurchaseAmount,
             RestockTime = RestockTime,
             SaleLimit = SaleLimit,

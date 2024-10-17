@@ -110,8 +110,8 @@
       singleUser: true
     - type: UserInterface
       interfaces:
-      - key: enum.EftposKey.Key
-        type: EftposBui
+        enum.EftposKey.Key:
+          type: EftposBui
     - type: Clothing
       quickEquip: false
       slots:

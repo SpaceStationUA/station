@@ -136,7 +136,7 @@ namespace Content.Server.VendingMachines
             var state = new VendingMachineInterfaceState(GetAllInventory(uid, component), GetPriceMultiplier(component),
                 component.Credits); //Pirate banking
 
-            _userInterfaceSystem.TrySetUiState(uid, VendingMachineUiKey.Key, state);
+            _userInterfaceSystem.SetUiState(uid, VendingMachineUiKey.Key, state);
         }
 
         private void OnInventoryEjectMessage(EntityUid uid, VendingMachineComponent component, VendingMachineEjectMessage args)
@@ -144,7 +144,7 @@ namespace Content.Server.VendingMachines
             if (!this.IsPowered(uid, EntityManager))
                 return;
 
-            if (args.Session.AttachedEntity is not { Valid: true } entity || Deleted(entity))
+            if (args.Actor is not { Valid: true } entity || Deleted(entity))
                 return;
 
             AuthorizedVend(uid, entity, args.Type, args.ID, component);

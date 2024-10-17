@@ -79,7 +79,7 @@ public sealed class MageProgectileSystem : EntitySystem
         }
     }
 
-    private List<EntityCoordinates> GetSpawnPositions(TransformComponent casterXform, MagicSpawnData data)
+    private List<EntityCoordinates> GetSpawnPositions(TransformComponent casterXform, MagicInstantSpawnData data)
     {
         switch (data)
         {
