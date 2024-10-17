@@ -1,57 +1,57 @@
 # Abilities
-changeling-biomass-deficit = Not enough biomass!
-changeling-chemicals-deficit = Not enough chemicals!
-changeling-action-fail-lesserform = Can't use it while in lesser form!
-changeling-action-fail-absorbed = Need to absorb {$number} more organics to use it!
+changeling-biomass-deficit = Недостатньо біомаси!
+changeling-chemicals-deficit = Недостатньо хімії!
+changeling-action-fail-lesserform = Не можу використати допоки у меншій формі!
+changeling-action-fail-absorbed = Необхідно поглинути ще {$number} органіки для використання!
 
-changeling-absorb-start = {CAPITALIZE(THE($user))} starts absorbing {CAPITALIZE(THE($target))}'s!
-changeling-absorb-fail-incapacitated = You can't absorb it until it's not incapacitated.
-changeling-absorb-fail-absorbed = You've already absorbed it.
-changeling-absorb-fail-unabsorbable = The target is not absorbable.
-changeling-absorb-end-self = Another organic absorbed. You are evolving.
-changeling-absorb-end-self-ling = Another changeling absorbed. You are evolving more rapidly.
-changeling-absorb-onexamine = [color=red]The body feels hollow.[/color]
+changeling-absorb-start = {CAPITALIZE(THE($user))} починає поглинати {CAPITALIZE(THE($target))}!
+changeling-absorb-fail-incapacitated = Ви не можете поглинути допоки ціль не недієздатна.
+changeling-absorb-fail-absorbed = Ви вже поглинули це.
+changeling-absorb-fail-unabsorbable = Ціль не можу бути поглинутою.
+changeling-absorb-end-self = Органіку поглинуто. Ви еволюціонуєте.
+changeling-absorb-end-self-ling = Іншого changeling поглинуто. Ви швидко еволюціонуєте.
+changeling-absorb-onexamine = [color=red]Тіло відчувається порожнім.[/color]
 
-changeling-transform-cycle = Switched to {$target}'s DNA.
-changeling-transform-cycle-empty = You don't have any DNA strains!
-changeling-transform-others = {CAPITALIZE(THE($user))}'s body twists and takes shape of another being!
-changeling-transform-fail-self = You can't transform into your current form!
-changeling-transform-fail-choose = You did not choose a form to transform into!
-changeling-transform-fail-absorbed = You can't transform a husk!
-changeling-transform-finish = You are now {$target}.
+changeling-transform-cycle = Переключаюсь на ДНК {$target}.
+changeling-transform-cycle-empty = У вас немає жодного ДНК!
+changeling-transform-others = Тіло {CAPITALIZE(THE($user))} вигинається і приймає форму іншої істоти!
+changeling-transform-fail-self = Ви не можете перетворитись на таку саму форму!
+changeling-transform-fail-choose = Ви не вибрали форму у яку перетворитись!
+changeling-transform-fail-absorbed = Ви не можете перетворитись на husk!
+changeling-transform-finish = Тепер ви {$target}.
 
-changeling-sting-fail-self = You tried to sting {CAPITALIZE(THE($target))}, but something stopped you from doing it!
-changeling-sting-fail-ling = Someone just tried to silently sting you!
+changeling-sting-fail-self = Ви спробували вжалити {CAPITALIZE(THE($target))}, але щось вас зупинило!
+changeling-sting-fail-ling = Хтось вас тихенько вжалив!
 
-changeling-sting = You silently sting {CAPITALIZE(THE($target))}
-changeling-sting-fail-simplemob = You can't sting a lesser creature!
-changeling-sting-extract-fail = Unable to extract DNA
-changeling-sting-extract-max = Need to get rid of the stored DNA beforehand
+changeling-sting = Ви тихенько вжалили {CAPITALIZE(THE($target))}
+changeling-sting-fail-simplemob = Ви не можете вжалити малу істоту!
+changeling-sting-extract-fail = Неможливо вичавити ДНК
+changeling-sting-extract-max = Необхідно заздалегідь позбутися збереженої ДНК через ліміт
 
-changeling-stasis-enter = You enter regenerative stasis
-changeling-stasis-enter-fail = Can't enter stasis!
-changeling-stasis-exit = You exit regenerative stasis
-changeling-stasis-exit-fail = We're not in a stasis!
-changeling-stasis-exit-fail-dead = Can't exit stasis!
+changeling-stasis-enter = Ви увійшли у відновлювальний стазис
+changeling-stasis-enter-fail = Не можу увійти в стазис!
+changeling-stasis-exit = Ви вийшли зі стазису
+changeling-stasis-exit-fail = Ви не у стазисі!
+changeling-stasis-exit-fail-dead = Не можу покинути стазис!
 
-changeling-fail-hands = Need to drop something beforehand
+changeling-fail-hands = Треба щось викинути з рук
 
-changeling-muscles-start = Your body feels a lot lighter
-changeling-muscles-end = Your legs feel heavier
+changeling-muscles-start = Ваше тіло легшає
+changeling-muscles-end = Ваші ноги тяжчають
 
-changeling-equip-armor-fail = Need to get rid of existing outer clothing beforehand
+changeling-equip-armor-fail = Необхідно позбутися зовнішнього одягу перед цим
 
-changeling-inject = You inject yourself
-changeling-inject-fail = Failed to inject yourself!
+changeling-inject = Ви вкололи себе
+changeling-inject-fail = Не вийшло вколоти себе!
 
-changeling-passive-activate = Activated ability
-changeling-passive-activate-fail = Failed to activate the ability
-changeling-passive-active = Already active!
+changeling-passive-activate = Активовано здібність
+changeling-passive-activate-fail = Не вийшло активувати здібність
+changeling-passive-active = Вже активно!
 
-changeling-fleshmend = Your body twists, sealing wounds and regenerating dead cells
-changeling-panacea = You mutate and alter your DNA for better cell regeneration
+changeling-fleshmend = Ваше тіло вигинається, зцілюючи поранення та відновлюючи клітини
+changeling-panacea = Ви мутуєте та змінюєте свою ДНК для кращої регенерації
 
-changeling-chameleon-start = You adapt your skin to the environment
-changeling-chameleon-end = Your skin is losing it's translucency
+changeling-chameleon-start = Ви адаптуєте шкіру до середовища
+changeling-chameleon-end = Ваша шкіра втрачає прозорість
 
-changeling-hivemind-start = You tune your brainwaves to match the hivemind frequency
+changeling-hivemind-start = Ви налаштовуєте мозкові хвилі на частоту hivemind

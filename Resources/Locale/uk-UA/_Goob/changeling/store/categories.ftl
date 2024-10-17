@@ -1,4 +1,4 @@
 # Changeling
-store-ling-category-combat = Combat
-store-ling-category-sting = Stings
-store-ling-category-utility = Utility
+store-ling-category-combat = Бій
+store-ling-category-sting = Жала
+store-ling-category-utility = Різне

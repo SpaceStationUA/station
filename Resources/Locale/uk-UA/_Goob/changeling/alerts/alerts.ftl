@@ -1,6 +1,6 @@
-alerts-changeling-chemicals-name = Chemicals
-alerts-changeling-chemicals-desc = Spend chemicals to use your abilities. Slowly regenerates.
+alerts-changeling-chemicals-name = Хімія
+alerts-changeling-chemicals-desc = витрачайте хімію щоб використати здібності. Повільно відновлюється.
 
 alerts-changeling-biomass-name = Біомаса
 alerts-changeling-biomass-desc =
-    This is your health. If it reaches 0 - it's [color=red]game over[/color]. Absorb humanoids to recover some of it.
+    Це ваше здоровʼя. Якщо 0 - це [color=red]кінець[/color]. Поглинайте гуманоїдів для відновлення.

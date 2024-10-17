@@ -1,3 +1,3 @@
-popup-changeling-biomass-deficit-low = Your skin itches.
-popup-changeling-biomass-deficit-medium = Must find a food source...
-popup-changeling-biomass-deficit-high = Must eat... NOW!!
+popup-changeling-biomass-deficit-low = Ваша шкіра тремтить.
+popup-changeling-biomass-deficit-medium = Треба знайти їжу...
+popup-changeling-biomass-deficit-high = Я маю їсти... ЗАРАЗ!!
