@@ -434,7 +434,14 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
         humanoid.CustomSpecieName = profile.Customspeciename;
 
-        _heightAdjust.SetScale(uid, new Vector2(profile.Width, profile.Height));
+        var species = _proto.Index(humanoid.Species);
+
+        if (profile.Height <= 0 || profile.Width <= 0)
+            SetScale(uid, new Vector2(species.DefaultWidth, species.DefaultHeight), true, humanoid);
+        else
+            SetScale(uid, new Vector2(profile.Width, profile.Height), true, humanoid);
+
+        _heightAdjust.SetScale(uid, new Vector2(humanoid.Width, humanoid.Height));
 
         //PIRATE Parkstation-CharacterInformation-Start
         if (profile.FlavorText != "" && _configurationManager.GetCVar(CCVars.FlavorText))
