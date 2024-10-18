@@ -44,10 +44,7 @@ public sealed class EftposSystem : EntitySystem
 
     private void OnLock(EntityUid uid, EftposComponent component, EftposLockMessage args)
     {
-        if (args.Session.AttachedEntity is not { Valid: true } player)
-            return;
-
-        if (!TryComp(player, out HandsComponent? hands) ||
+        if (!TryComp(args.Actor, out HandsComponent? hands) ||
             !TryComp(hands.ActiveHandEntity, out BankCardComponent? bankCard))
             return;
 
@@ -86,7 +83,6 @@ public sealed class EftposSystem : EntitySystem
             Owner = owner
         };
 
-        var ui = _ui.GetUi(uid, EftposKey.Key);
-        _ui.SetUiState(ui, state);
+        _ui.SetUiState(uid, EftposKey.Key, state);
     }
 }

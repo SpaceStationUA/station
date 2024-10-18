@@ -33,6 +33,9 @@ public sealed partial class AdminVerbSystem
     [ValidatePrototypeId<StartingGearPrototype>]
     private const string PirateGearId = "PirateGear";
 
+    [ValidatePrototypeId<EntityPrototype>]
+    private const string DefaultChangelingRule = "Changeling";
+
     // All antag verbs have names so invokeverb works.
     private void AddAntagVerbs(GetVerbsEvent<Verb> args)
     {
@@ -134,5 +137,36 @@ public sealed partial class AdminVerbSystem
             Message = Loc.GetString("admin-verb-make-thief"),
         };
         args.Verbs.Add(thief);
+
+        // Goobstation - changelings
+        Verb ling = new()
+        {
+            Text = Loc.GetString("admin-verb-text-make-changeling"),
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/_Goobstation/Changeling/changeling_abilities.rsi"), "transform"),
+            Act = () =>
+            {
+                _antag.ForceMakeAntag<ChangelingRuleComponent>(targetPlayer, DefaultChangelingRule);
+            },
+            Impact = LogImpact.High,
+            Message = Loc.GetString("admin-verb-make-changeling"),
+        };
+        args.Verbs.Add(ling);
+
+        // goobstation - heretics
+        Verb heretic = new()
+        {
+            Text = Loc.GetString("admin-verb-make-heretic"),
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/_Goobstation/Heretic/Blades/blade_blade.rsi"), "icon"),
+            Act = () =>
+            {
+                _antag.ForceMakeAntag<HereticRuleComponent>(targetPlayer, "Heretic");
+            },
+            Impact = LogImpact.High,
+            Message = Loc.GetString("admin-verb-make-heretic"),
+        };
+        args.Verbs.Add(heretic);
+
     }
 }
