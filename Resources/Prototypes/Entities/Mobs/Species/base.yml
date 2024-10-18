@@ -195,12 +195,18 @@
   - type: Strippable
   - type: UserInterface
     interfaces:
-      - key: enum.VoiceMaskUIKey.Key
+      enum.VoiceMaskUIKey.Key:
         type: VoiceMaskBoundUserInterface
-      - key: enum.HumanoidMarkingModifierKey.Key
+      enum.HumanoidMarkingModifierKey.Key:
         type: HumanoidMarkingModifierBoundUserInterface
-      - key: enum.StrippingUiKey.Key
+      enum.StrippingUiKey.Key:
         type: StrippableBoundUserInterface
+      # Goobstation - changelings
+      enum.StoreUiKey.Key:
+        type: StoreBoundUserInterface
+      enum.InstrumentUiKey.Key:
+        type: InstrumentBoundUserInterface
+        requireInputValidation: false
   - type: Puller
   - type: Speech
     speechSounds: Alto
@@ -243,6 +249,7 @@
   id: BaseMobSpeciesOrganic
   abstract: true
   components:
+  - type: Absorbable # Goobstation - changelings
   - type: Flashable
   - type: Barotrauma
     damage:
@@ -389,7 +396,8 @@
   - type: Body
     prototype: Human
     requiredLegs: 2
+  - type: Absorbable # Goobstation - changelings
   - type: UserInterface
     interfaces:
-      - key: enum.HumanoidMarkingModifierKey.Key # sure, this can go here too
+      enum.HumanoidMarkingModifierKey.Key: # sure, this can go here too
         type: HumanoidMarkingModifierBoundUserInterface

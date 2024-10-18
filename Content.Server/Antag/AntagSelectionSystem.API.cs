@@ -5,6 +5,7 @@ using Content.Server.GameTicking.Rules.Components;
 using Content.Server.Objectives;
 using Content.Shared.Chat;
 using Content.Shared.Mind;
+using Content.Shared.Preferences;
 using JetBrains.Annotations;
 using Robust.Shared.Audio;
 using Robust.Shared.Enums;
@@ -76,6 +77,20 @@ public sealed partial class AntagSelectionSystem
 
         return count;
     }
+
+    // goob edit
+    public List<ICommonSession> GetAliveConnectedPlayers(IList<ICommonSession> pool)
+    {
+        var l = new List<ICommonSession>();
+        foreach (var session in pool)
+        {
+            if (session.Status is SessionStatus.Disconnected or SessionStatus.Zombie)
+                continue;
+            l.Add(session);
+        }
+        return l;
+    }
+    // goob edit end
 
     /// <summary>
     /// Gets the number of antagonists that should be present for a given antag definition based on the provided pool.
@@ -154,6 +169,36 @@ public sealed partial class AntagSelectionSystem
             return new();
 
         return ent.Comp.SelectedMinds.Select(p => p.Item1).ToList();
+    }
+
+    /// <summary>
+    /// Checks if a given session has the primary antag preferences for a given definition
+    /// </summary>
+    public bool HasPrimaryAntagPreference(ICommonSession? session, AntagSelectionDefinition def)
+    {
+        if (session == null)
+            return true;
+
+        if (def.PrefRoles.Count == 0)
+            return false;
+
+        var pref = (HumanoidCharacterProfile) _pref.GetPreferences(session.UserId).SelectedCharacter;
+        return pref.AntagPreferences.Any(p => def.PrefRoles.Contains(p));
+    }
+
+    /// <summary>
+    /// Checks if a given session has the fallback antag preferences for a given definition
+    /// </summary>
+    public bool HasFallbackAntagPreference(ICommonSession? session, AntagSelectionDefinition def)
+    {
+        if (session == null)
+            return true;
+
+        if (def.FallbackRoles.Count == 0)
+            return false;
+
+        var pref = (HumanoidCharacterProfile) _pref.GetPreferences(session.UserId).SelectedCharacter;
+        return pref.AntagPreferences.Any(p => def.FallbackRoles.Contains(p));
     }
 
     /// <summary>

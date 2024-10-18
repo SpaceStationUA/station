@@ -97,8 +97,8 @@
   - type: Strippable
   - type: UserInterface
     interfaces:
-    - key: enum.StrippingUiKey.Key
-      type: StrippableBoundUserInterface
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
     # interfaces:
     #   enum.StrippingUiKey.Key:
     #     type: StrippableBoundUserInterface
@@ -114,8 +114,8 @@
   - type: Strippable
   - type: UserInterface
     interfaces:
-    - key: enum.StrippingUiKey.Key
-      type: StrippableBoundUserInterface
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
   # - type: UserInterface
   #   interfaces:
   #     enum.StrippingUiKey.Key:

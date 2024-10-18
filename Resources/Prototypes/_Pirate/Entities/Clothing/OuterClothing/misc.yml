@@ -19,3 +19,14 @@
     sprite: T_Pirate/Clothing/OuterClothing/Misc/sportswear.rsi
   - type: Clothing
     sprite: T_Pirate/Clothing/OuterClothing/Misc/sportswear.rsi
+
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobesClockwork
+  name: clockwork robes
+  description: What is a clockwork cult without clockwork robes?
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Misc/clockwork_cuirass_old.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Misc/clockwork_cuirass_old.rsi
