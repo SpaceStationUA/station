@@ -53,6 +53,8 @@
     - Revolutionary
     - Zombie
     - RampingStationEventScheduler
+    - Changeling
+    - Heretic
 
 - type: gamePreset
   id: Extended
@@ -127,6 +129,32 @@
   showInVote: true
   rules:
     - Traitor
+    - SubGamemodesRule
+    - BasicStationEventScheduler
+    - BasicRoundstartVariation
+
+- type: gamePreset
+  id: Changeling
+  alias:
+    - changeling
+  name: changeling-title
+  description: changeling-description
+  showInVote: true
+  rules:
+    - Changeling
+    - SubGamemodesRule
+    - BasicStationEventScheduler
+    - BasicRoundstartVariation
+
+- type: gamePreset
+  id: Heretic
+  alias:
+    - heretic
+  name: heretic-title
+  description: heretic-description
+  showInVote: true
+  rules:
+    - Heretic
     - SubGamemodesRule
     - BasicStationEventScheduler
     - BasicRoundstartVariation
