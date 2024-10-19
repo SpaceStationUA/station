@@ -8,7 +8,7 @@ spellbook-blink-desc = Не кліпайте, а то проґавите, як �
 spellbook-force-wall-name = Силова стіна
 spellbook-force-wall-desc = Зробіть три стіни з чистої сили, через які ви можете пройти, а інші - ні.
 
-spellbook-polymoprh-spider-name = Spider Polymoprh
+spellbook-polymoprh-spider-name = Перевертень-Павук
 spellbook-polymorph-spider-desc = Перетворює тебе на павука, чувак!
 
 spellbook-polymorph-rod-name = Поліморфний стрижень
