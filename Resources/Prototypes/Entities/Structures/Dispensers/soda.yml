@@ -1,9 +1,9 @@
 - type: entity
   id: soda_dispenser
-  name: soda dispenser
+  name: "дозатор газованої води"
   suffix: Filled
   parent: ReagentDispenserBase
-  description: A beverage dispenser with a selection of soda and several other common beverages. Has a single fill slot for containers.
+  description: "Диспенсер для напоїв з вибором газованої води та деяких інших поширених напоїв. Має один слот для наповнення контейнерів."
   components:
   - type: Rotatable
   - type: Sprite
