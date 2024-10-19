@@ -13,7 +13,9 @@ public sealed class MakeATraitorSystem : EntitySystem
     {
         Traitor = 0,
         Thief = 1,
-        Revolutionary = 2
+        Revolutionary = 2,
+        Changeling = 3,
+        Heretic = 4,
     }
 
     [ValidatePrototypeId<EntityPrototype>]
@@ -24,6 +26,12 @@ public sealed class MakeATraitorSystem : EntitySystem
 
     [ValidatePrototypeId<EntityPrototype>]
     private const string DefaultThiefRule = "Thief";
+
+    [ValidatePrototypeId<EntityPrototype>]
+    private const string DefaultChangelingRule = "Changeling";
+
+    [ValidatePrototypeId<EntityPrototype>]
+    private const string DefaultHereticRule = "Heretic";
 
     [Dependency] private readonly AntagSelectionSystem _antag = default!;
 
@@ -45,6 +53,12 @@ public sealed class MakeATraitorSystem : EntitySystem
             case TraitorType.Revolutionary:
                 MakeRevolutionary(player);
                 break;
+            case TraitorType.Changeling:
+                MakeChangeling(player);
+                break;
+            case TraitorType.Heretic:
+                MakeHeretic(player);
+                break;
             default:
                 return;
         }
@@ -64,5 +78,15 @@ public sealed class MakeATraitorSystem : EntitySystem
     {
         _antag.ForceMakeAntag<RevolutionaryRuleComponent>(target, DefaultRevsRule);
 
+    }
+
+    private void MakeChangeling(ICommonSession? target)
+    {
+        _antag.ForceMakeAntag<ChangelingRuleComponent>(target, DefaultChangelingRule);
+    }
+
+    private void MakeHeretic(ICommonSession? target)
+    {
+        _antag.ForceMakeAntag<HereticRuleComponent>(target, DefaultHereticRule);
     }
 }
