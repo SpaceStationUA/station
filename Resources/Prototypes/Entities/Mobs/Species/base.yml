@@ -204,6 +204,8 @@
       # Goobstation - changelings
       enum.StoreUiKey.Key:
         type: StoreBoundUserInterface
+      enum.HereticLivingHeartKey.Key: # goob edit - heretics
+        type: LivingHeartMenuBoundUserInterface
       enum.InstrumentUiKey.Key:
         type: InstrumentBoundUserInterface
         requireInputValidation: false
