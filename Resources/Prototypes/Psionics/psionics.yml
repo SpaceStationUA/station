@@ -1,6 +1,6 @@
 - type: psionicPower
   id: DispelPower
-  name: Dispel
+  name: "Розвіяти"
   description: dispel-power-description
   actions:
     - ActionDispel
@@ -12,7 +12,7 @@
 
 - type: psionicPower
   id: MassSleepPower
-  name: Mass Sleep
+  name: "Масовий сон"
   description: mass-sleep-power-description
   actions:
     - ActionMassSleep
@@ -25,7 +25,7 @@
 
 - type: psionicPower
   id: MindSwapPower
-  name: Mind Swap
+  name: "Обмін думками"
   description: mind-swap-power-description
   actions:
     - ActionMindSwap
@@ -37,7 +37,7 @@
 
 - type: psionicPower
   id: NoosphericZapPower
-  name: Noospheric Zap
+  name: "Noospheric Zap"
   description: noospheric-zap-power-description
   actions:
     - ActionNoosphericZap
@@ -49,7 +49,7 @@
 
 - type: psionicPower
   id: PyrokinesisPower
-  name: Pyrokinesis
+  name: "Пірокінез"
   description: pyrokinesis-power-description
   actions:
   - ActionPyrokinesis
@@ -61,7 +61,7 @@
 
 - type: psionicPower
   id: MetapsionicPower
-  name: Metapsionic Pulse
+  name: "Метапсихічний імпульс"
   description: metapsionic-power-description
   actions:
   - ActionMetapsionic
@@ -74,7 +74,7 @@
 
 - type: psionicPower
   id: PsionicRegenerationPower
-  name: Psionic Regeneration
+  name: "Псіонна регенерація"
   description: psionic-regeneration-power-description
   actions:
   - ActionPsionicRegeneration
@@ -87,7 +87,7 @@
 
 - type: psionicPower
   id: TelegnosisPower
-  name: Telegnosis
+  name: "Телегнозис"
   description: telegnosis-power-description
   actions:
   - ActionTelegnosis
@@ -100,7 +100,7 @@
 
 - type: psionicPower
   id: PsionicInvisibilityPower
-  name: Psionic Invisibility
+  name: "Псіонна невидимість"
   description: psionic-invisibility-power-description
   actions:
   - ActionDispel
@@ -113,7 +113,7 @@
 
 - type: psionicPower
   id: XenoglossyPower
-  name: Xenoglossy
+  name: "Ксеноглянцевий"
   description: xenoglossy-power-description
   components:
     - type: UniversalLanguageSpeaker
@@ -123,7 +123,7 @@
 
 - type: psionicPower
   id: PsychognomyPower #i.e. reverse physiognomy
-  name: Psychognomy #psycho- + -gnomy. I reccomend starting with your language's equilvalent of "physiognomy" and working backwards. i.e. психо(г)номика
+  name: "Психогномія" #psycho- + -gnomy. I reccomend starting with your language's equilvalent of "physiognomy" and working backwards. i.e. психо(г)номика
   description: psychognomy-power-description
   components:
     - type: Psychognomist
@@ -133,7 +133,7 @@
 
 - type: psionicPower
   id: TelepathyPower
-  name: Telepathy
+  name: "Телепатія"
   description: telepathy-power-description
   components:
     - type: Telepathy
@@ -143,7 +143,7 @@
 
 - type: psionicPower
   id: HealingWordPower
-  name: HealingWord
+  name: "HealingWord"
   description: healing-word-power-description
   actions:
     - ActionHealingWord
@@ -154,7 +154,7 @@
 
 - type: psionicPower
   id: RevivifyPower
-  name: Revivify
+  name: "Відродити"
   description: revivify-power-description
   actions:
     - ActionRevivify
@@ -165,43 +165,43 @@
 
 - type: psionicPower
   id: LowAmplification
-  name: LowAmplification
-  description: low-amplification-power-description
+  name: "LowAmplification"
+  description: "опис потужності низького підсилення"
   amplificationModifier: -0.25
   powerSlotCost: 0
 
 - type: psionicPower
   id: HighAmplification
-  name: HighAmplification
-  description: high-amplification-power-description
+  name: "HighAmplification"
+  description: "високе посилення-потужність-опис"
   amplificationModifier: 0.25
   powerSlotCost: 0
 
 - type: psionicPower
   id: PowerOverwhelming
-  name: PowerOverwhelming
-  description: power-overwhelming-power-description
+  name: "PowerOverwhelming"
+  description: "сила-переважна-сила-опис"
   metapsionicFeedback: power-overwhelming-power-feedback
   amplificationModifier: 2
   powerSlotCost: 2
 
 - type: psionicPower
   id: LowDampening
-  name: LowDampening
-  description: low-dampening-power-description
+  name: "Низьке зволоження"
+  description: "опис потужності з низьким рівнем демпфування"
   dampeningModifier: -0.25
   powerSlotCost: 0
 
 - type: psionicPower
   id: HighDampening
-  name: HighDampening
-  description: high-dampening-power-description
+  name: "Високе зволоження"
+  description: "опис потужності з високим рівнем демпфування"
   dampeningModifier: 0.25
   powerSlotCost: 0
 
 - type: psionicPower
   id: ShadeskipPower
-  name: Shadeskip
+  name: "Shadeskip"
   description: shadeskip-power-description
   actions:
   - ActionShadeskip
@@ -211,7 +211,7 @@
 
 - type: psionicPower
   id: TelekineticPulsePower
-  name: Telekinetic Pulse
+  name: "Телекінетичний імпульс"
   description: telekinetic-pulse-power-description
   actions:
   - ActionTelekineticPulse
