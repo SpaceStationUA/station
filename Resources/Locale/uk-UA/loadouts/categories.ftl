@@ -34,4 +34,4 @@ loadout-category-JobsServiceBartender = Бармен
 loadout-category-Backpacks = Рюкзаки
 loadout-category-JobsServiceBotanist = Ботанік
 loadout-category-JobsServiceChef = Шеф-кухар
-loadout-category-JobsServiceJanitor = Прибиральник.
+loadout-category-JobsServiceJanitor = Прибиральник

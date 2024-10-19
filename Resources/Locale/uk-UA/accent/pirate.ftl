@@ -99,4 +99,4 @@ accent-pirate-replacement-31 = мушкет
 accent-pirate-replaced-32 = патрони
 accent-pirate-replacement-32 = порох
 
-accent-pirate-prefix-4 = Яррргх.
+accent-pirate-prefix-4 = Яррргх
