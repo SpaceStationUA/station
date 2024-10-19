@@ -1,7 +1,7 @@
-store-heretic-path-ash = Ashen Path
-store-heretic-path-lock = Path of Lock
-store-heretic-path-flesh = Path of Flesh
-store-heretic-path-void = Path of Void
-store-heretic-path-rust = Path of Blade
-store-heretic-path-blade = Rusted Path
-store-heretic-path-side = Side Knowledge
+store-heretic-path-ash = Попелястий шлях
+store-heretic-path-lock = Шлях замку
+store-heretic-path-flesh = Шлях плоті
+store-heretic-path-void = Шлях порожнечі
+store-heretic-path-rust = Шлях леза
+store-heretic-path-blade = Іржавий шлях
+store-heretic-path-side = Побічні знання

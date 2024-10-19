@@ -33,3 +33,11 @@ analysis-console-print-popup = Консоль надрукувала звіт.
 analyzer-artifact-extract-popup = Енергія мерехтить на поверхні артефакту!
 
 analysis-report-title = Звіт про артефакт: Вузол {$id}
+
+analysis-console-bias-up = Вгору.
+analysis-console-bias-down = Вниз.
+analysis-console-bias-button-info-up = Вмикає або вимикає зміщення артефакту при переміщенні між вузлами. Вгору - до нульової глибини.
+analysis-console-bias-button-info-down = Перемикає зсув артефакту при переміщенні між вузлами. Вниз - рухається до все більшої глибини.
+analysis-console-no-server-connected = Неможливо витягти. Сервер не підключено.
+analysis-console-no-artifact-placed = Артефактів на сканері немає.
+analysis-console-no-points-to-extract = Ніяких балів, які можна витягти.

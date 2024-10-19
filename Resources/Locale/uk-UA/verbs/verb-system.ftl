@@ -36,3 +36,4 @@ verb-common-close-ui = Закрити UI
 verb-common-open-ui = Відкрити UI
 
 verb-categories-interaction = Взаємодіяти
+verb-categories-power-level = Рівень потужності

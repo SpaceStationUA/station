@@ -1,3 +1,3 @@
-admin-verb-make-heretic = Make the target into a heretic.
+admin-verb-make-heretic = Зробити з мішені єретика.
 
-admin-verb-text-make-heretic = Make Heretic
+admin-verb-text-make-heretic = Зробити Єретика

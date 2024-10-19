@@ -1,27 +1,21 @@
-heretic-ascension-ash =
-    The Watch is dead, the Nightwatcher burned with it. Yet his fire burns evermore,
-    for the Nightwatcher brought forth the rite to mankind! His gaze continues, as now I am one with the flames,
-    WITNESS MY ASCENSION, THE ASHY LANTERN BLAZES ONCE MORE!
+heretic-ascension-ash = Варта загинула, Нічний Вартовий згорів разом з нею. Але його вогонь палає вічно,
+    бо Нічний Вартовий приніс обряд людству! Його погляд не згасає, бо тепер я єдиний з полум'ям,
+    СВІДОК МОГО ВОЗНЕСІННЯ, ПОПЕЛЯСТИЙ ЛІХТАР ЗНОВУ ПАЛАЄ!
 
-heretic-ascension-blade =
-    The Torn Champion is freed! I will become the blade reunited, and with my greater ambition,
-    I AM UNMATCHED! A STORM OF STEEL AND SILVER IS UPON US! WITNESS MY ASCENSION!
+heretic-ascension-blade = Зірваний Чемпіон звільнений! Я знову стану клинком, але вже з більшими амбіціями,
+    МЕНІ НЕМАЄ РІВНИХ! БУРЯ ЗІ СТАЛІ ТА СРІБЛА НАСУВАЄТЬСЯ НА НАС! СТАНЬТЕ СВІДКАМИ МОГО ВОЗНЕСІННЯ!
 
-heretic-ascension-lock =
-    The Stewards guided me, and I guided them.
-    My foes were the Locks and my blades were the Key!
-    The Labyrinth will be Locked no more, and freedom will be ours! WITNESS US!
+heretic-ascension-lock = Стюарди вели мене, а я вів їх.
+    Мої вороги були замками, а мої клинки - ключем!
+    Лабіринт більше не буде замкненим, і свобода буде нашою! БУДЬТЕ СВІДКАМИ!
 
-heretic-ascension-flesh =
-    With the Marshal's knowledge, my power had peaked. The throne was open to claim.
-    Men of this world, hear me, for the time has come! The Marshal guides my army!
-    Reality will bend to THE LORD OF THE NIGHT or be unraveled! WITNESS MY ASCENSION!
+heretic-ascension-flesh = З відома маршала моя влада досягла піку. Трон був відкритий для претендентів.
+    Люди цього світу, почуйте мене, бо час прийшов! Маршал веде мою армію!
+    Реальність прогнеться перед Володарем Ночі або буде розгадана! СТАНЬТЕ СВІДКАМИ МОГО ВОЗНЕСІННЯ!
 
-heretic-ascension-void =
-    The world falls into darkness. I stand in an empty plane, small flakes of ice fall from the sky.
-    The Aristocrat stands before me, beckoning. We will play a waltz to the whispers of dying reality,
-    as the world is destroyed before our eyes. The void will return all to nothing, WITNESS MY ASCENSION!
+heretic-ascension-void = Світ занурюється в темряву. Я стою в порожньому літаку, з неба падають дрібні пластівці льоду.
+    Аристократка стоїть переді мною, манить. Ми заграємо вальс під шепіт вмираючої реальності,
+    поки світ руйнується на наших очах. Порожнеча поверне все в ніщо, БУДЬ Свідком мого сходження!
 
-heretic-ascension-rust =
-    Champion of rust. Corruptor of steel. Fear the dark, for the RUSTBRINGER has come!
-    The Blacksmith forges ahead! Rusted Hills, CALL MY NAME! WITNESS MY ASCENSION!
+heretic-ascension-rust = Чемпіон з іржі. Руйнівник сталі. Бійтеся темряви, бо прийшов РУЙНІВНИК!
+    Коваль йде вперед! Іржаві пагорби, назвіть моє ім'я! СТАНЬ СВІДКОМ МОГО ВОЗНЕСІННЯ!

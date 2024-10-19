@@ -24,3 +24,6 @@ fax-machine-ui-paper-not-inserted = Паперу нема
 fax-machine-chat-notify = Отримано нове факсове повідомлення від "{$fax}
 
 fax-machine-printed-paper-name = роздрукований папірець
+
+fax-machine-popup-error = ПОМИЛКА - застрягання паперу
+fax-machine-popup-copy-error = ПОМИЛКА - неможливо скопіювати!

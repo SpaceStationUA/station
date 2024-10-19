@@ -1,46 +1,46 @@
-heretic-ritual-unknown = Unknown Ritual
-heretic-ritual-switch = Selected {$name}
-heretic-ritual-success = Ritual successful
+heretic-ritual-unknown = Невідомий ритуал
+heretic-ritual-switch = Вибрано {$name}
+heretic-ritual-success = Ритуал пройшов успішно
 
-heretic-ritual-fail-items = Ritual failed. Required items: {$itemlist}
-heretic-ritual-norituals = You don't know any rituals!
-heretic-ritual-noritual = No ritual chosen!
+heretic-ritual-fail-items = Ритуал не відбувся. Необхідні предмети: {$itemlist}
+heretic-ritual-norituals = Ти не знаєш жодних ритуалів!
+heretic-ritual-noritual = Ритуал не обрано!
 
-heretic-ritual-basic-sacrifice = Heartbeat of the Mansus
-heretic-ritual-basic-focus = Amber Focus
-heretic-ritual-basic-heart = Relentless Heartbeat
+heretic-ritual-basic-sacrifice = Серцебиття Мансуса
+heretic-ritual-basic-focus = Янтарний фокус
+heretic-ritual-basic-heart = Невпинне серцебиття
 
-heretic-ritual-fail-sacrifice = There is no corpse to sacrifice.
-heretic-ritual-fail-sacrifice-ineligible = The rune refuses to accept this sacrifice.
-heretic-ritual-fail-reagentpuddle = There is no {$reagentname} present.
-heretic-ritual-fail-temperature-hot = It is too hot here.
-heretic-ritual-fail-temperature-cold = It is not cold enough here.
-heretic-ritual-fail-sacrifice-ash = There's either not enough of them dead, or burning.
+heretic-ritual-fail-sacrifice = Немає тіла, яке можна було б принести в жертву.
+heretic-ritual-fail-sacrifice-ineligible = Руна відмовляється прийняти цю жертву.
+heretic-ritual-fail-reagentpuddle = Відсутній {$reagentname}.
+heretic-ritual-fail-temperature-hot = Тут занадто спекотно.
+heretic-ritual-fail-temperature-cold = Тут недостатньо холодно.
+heretic-ritual-fail-sacrifice-ash = Їх або не вистачає, або вони горять.
 
-## side quests
-heretic-ritual-side-knowledge = Ritual of Knowledge
-heretic-ritual-side-shark = Scorching Shark
-heretic-ritual-side-cloak = Void Cloak
-heretic-ritual-side-ghoul = Shattered Ritual
-heretic-ritual-side-armor = Armorer's Ritual
-heretic-ritual-side-water = Priest's Ritual
-heretic-ritual-side-knife = Carving Knife
-heretic-ritual-side-crucible = Mawed Crucible
-heretic-ritual-side-coin = Eldritch Coin
+## побічні завдання
+heretic-ritual-side-knowledge = Ритуал пізнання
+heretic-ritual-side-shark = Палюча акула
+heretic-ritual-side-cloak = Порожній плащ
+heretic-ritual-side-ghoul = Розбитий ритуал
+heretic-ritual-side-armor = Ритуал зброєносця
+heretic-ritual-side-water = Ритуал священика
+heretic-ritual-side-knife = Ніж для нарізки
+heretic-ritual-side-crucible = Розтерзаний горнило
+heretic-ritual-side-coin = Монета Елдрича
 
-## ash path
-heretic-ritual-ash-blade = Nightwatcher's Secret
-heretic-ritual-ash-grasp = Grasp of Ash
-heretic-ritual-ash-mask = Mask of Madness
-heretic-ritual-ash-ascend = Ashlord's Rite
+## Попеляста стежка
+heretic-ritual-ash-blade = Таємниця нічного сторожа
+heretic-ritual-ash-grasp = Розуміння попелу
+heretic-ritual-ash-mask = Маска божевілля
+heretic-ritual-ash-ascend = Обряд Ешлорда
 
-## flesh path
-heretic-ritual-flesh-blade = Principle of Hunger
-heretic-ritual-flesh-ghoul = Imperfect Ritual
-heretic-ritual-flesh-prophet = Raw Ritual
-heretic-ritual-flesh-stalker = Lonely Ritual
-heretic-ritual-flesh-ascend = Priest's Final Hymn
+## Шлях плоті
+heretic-ritual-flesh-blade = Принцип голоду
+heretic-ritual-flesh-ghoul = Недосконалий ритуал
+heretic-ritual-flesh-prophet = Сирий ритуал
+heretic-ritual-flesh-stalker = Самотній ритуал
+heretic-ritual-flesh-ascend = Заключний гімн священика
 
-## void path
-heretic-ritual-void-blade = Glimmer of Winter
-heretic-ritual-void-ascend = Waltz at the End of Time
+## порожній шлях
+heretic-ritual-void-blade = Мерехтіння зими
+heretic-ritual-void-ascend = Вальс наприкінці часів

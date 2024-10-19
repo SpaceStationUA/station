@@ -1,40 +1,34 @@
-heretic-roundend-name = heretic
+heretic-roundend-name = єретик
 
-roundend-prepend-heretic-ascension-success = {$name}, [color=green] has Ascended![/color]
-roundend-prepend-heretic-ascension-fail = {$name}, [color=red] has failed![/color]
-roundend-prepend-heretic-knowledge-named = [color=white]{$name}[/color] has researched a total of [color=purple]{$number}[/color] knowledge.
+roundend-prepend-heretic-ascension-success = {$name}, [color=green] вознісся![/color]
+roundend-prepend-heretic-ascension-fail = {$name}, [color=red] не вдалося![/color]
+roundend-prepend-heretic-knowledge-named = [color=white]{$name}[/color] дослідив загальну кількість [color=purple]{$number}[/color] знань.
 
-heretic-gamemode-title = Heretics
-heretic-gamemode-description =
-    Dimensional anomaly detected within the station. There is no additional data.
+heretic-gamemode-title = Єретики
+heretic-gamemode-description = Виявлено розмірну аномалію в межах станції. Додаткових даних немає.
 
-heretic-role-greeting-fluff =
-    Another day at a meaningless job. You feel a shimmer around you, as a realization of something strange in the air unfolds. You look inwards and discover something that will change your life.
+heretic-role-greeting-fluff = Ще один день на безглуздій роботі. Ви відчуваєте мерехтіння навколо себе, як усвідомлення чогось дивного в повітрі розгортається. Ти дивишся всередину себе і відкриваєш щось, що змінить твоє життя.
 
-    The Gates of Mansus open up to your mind.
+    Ворота Мансуса відкриваються перед твоїм розумом.
 
-heretic-role-greeting =
-    You are the Heretic!
+heretic-role-greeting = Ти - Єретик!
 
-    Read more about your role in the guidebook entry.
+    Прочитайте більше про вашу роль у статті путівника.
 
-heretic-role-greeting-short =
-    You are the Heretic!
-    In order to learn the Final Ritual and Ascend, you must fulfill your tasks.
+heretic-role-greeting-short = Ти - Єретик!
+    Для того, щоб навчитися Останньому Ритуалу і Піднятися, ти повинен виконати свої завдання.
 
-## ghoul
-heretic-ghoul-greeting =
-    You have been summoned into this world by {CAPITALIZE(THE($ent))}!
-    You must aid him in his journey to ascension and protect him at all costs.
-    You may follow other heretics if your master is beyond resurrection.
-heretic-ghoul-greeting-noname =
-    You have been summoned into this world by eldritch forces.
-    Obey the orders of your masters no matter what.
+## упир
+heretic-ghoul-greeting = Тебе покликав у цей світ {CAPITALIZE(THE($ent))}!
+    Ви повинні допомогти йому на шляху до вознесіння і захистити його за будь-яку ціну.
+    Ти можеш слідувати за іншими єретиками, якщо твій вчитель не воскресне.
+heretic-ghoul-greeting-noname = Ви були покликані в цей світ силами ельдритів.
+    Підкоряйся наказам своїх господарів, незважаючи ні на що.
 
-ghostrole-ghoul-name = Ghoul
-ghostrole-prophet-name = Raw Prophet
-ghostrole-stalker-name = Flesh Stalker
-ghostrole-ghoul-desc = Aid your summoner in achieving ascension.
-ghostrole-prophet-desc = Aid your summoner in achieving ascension. Connect other believers to the Mansus Link.
-ghostrole-stalker-desc = Aid your summoner in achieving ascension. Jaunt and sabotage crew's lighting.
-ghostrole-ghoul-rules = You are a [color=red][bold]Team Antagonist[/bold][/color] with the one who summoned you and other eldritch beings.
+ghostrole-ghoul-name = Упир
+ghostrole-prophet-name = Сирий пророк
+ghostrole-stalker-name = Сталкер плоті
+ghostrole-ghoul-desc = Допоможіть своєму викликаючому досягти вознесіння.
+ghostrole-prophet-desc = Допомагайте своєму покликаному в досягненні вознесіння. Підключіть інших віруючих до Ланки Мансуса.
+ghostrole-stalker-desc = Допомагайте своєму викликаючому досягти вознесіння. Підсвічування вилазки та диверсійної групи.
+ghostrole-ghoul-rules = Ви - [color=red][bold]Антагоніст команди[/bold][/color] з тим, хто вас викликав, та іншими ельдритськими істотами.

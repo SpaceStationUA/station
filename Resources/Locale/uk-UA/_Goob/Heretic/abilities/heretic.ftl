@@ -1,56 +1,56 @@
 ## misc
 
-heretic-ability-fail = Failed to cast
-heretic-ability-fail-magicitem = You cannot cast it without a focus!
-heretic-ability-fail-notarget = Couldn't find a valid target!
+heretic-ability-fail = Не вдалося провести кастинг
+heretic-ability-fail-magicitem = Ви не можете кидати його без фокусу!
+heretic-ability-fail-notarget = Не зміг знайти правильну ціль!
 
-heretic-magicitem-examine = [color=yellow]Allows you to use advanced spells while equipped.[/color]
+heretic-magicitem-examine = [color=yellow]Дозволяє використовувати розширені заклинання в екіпіровці[/color]
 
-heretic-blade-examine = [color=yellow]Using it while it's in your hand will break the blade and teleport you away from danger.[/color]
-heretic-blade-use = The blade shatters, and you feel the voices pulling you away.
+heretic-blade-examine = [color=yellow]Використання його в руці зламає лезо і телепортує вас подалі від небезпеки[/color]
+heretic-blade-use = Лезо розбивається вщент, і ти відчуваєш, як голоси тягнуть тебе геть.
 
-heretic-rust-mark-itembreak = {$name} shatters into dust!
+heretic-rust-mark-itembreak = {$name} розсипається на порох!
 
-heretic-manselink-fail-exists = This creature is already connected!
-heretic-manselink-fail-nomind = This creature does not have a mind!
-heretic-manselink-start = You begin to connect this creature's mind to yours.
-heretic-manselink-start-target = You feel your mind being pulled somewhere...
+heretic-manselink-fail-exists = Ця істота вже підключена!
+heretic-manselink-fail-nomind = Ця істота не має розуму!
+heretic-manselink-start = Ви починаєте з'єднувати розум цієї істоти зі своїм.
+heretic-manselink-start-target = Відчуваєш, як твій розум кудись тягне...
 
-heretic-livingheart-notargets = No available targets, visit the rune.
-heretic-livingheart-offstation = It's {$state}, off station, {$direction}!
-heretic-livingheart-onstation = It's {$state}, {$direction}!
-heretic-livingheart-unknown = It's... not in this plain of reality.
+heretic-livingheart-notargets = Немає доступних цілей, відвідайте руну.
+heretic-livingheart-offstation = Це {$state}, поза станцією, {$direction}!
+heretic-livingheart-onstation = Це {$state}, {$direction}!
+heretic-livingheart-unknown = Це... не на цій рівнині реальності.
 
-## speech
-heretic-speech-mansusgrasp = R'CH T'H TR'TH!
+## промова
+heretic-speech-mansusgrasp = Р'Ч Т'Х Т'Р'Т!
 
-heretic-speech-ash-jaunt = ASH'N P'SSG'
-heretic-speech-ash-volcano = V'LC'N!
-heretic-speech-ash-rebirth = G'LR'Y T' TH' N'GHT'W'TCH'ER!
-heretic-speech-ash-flame = FL'MS!!
-heretic-speech-ash-cascade = C'SC'DE!!
+heretic-speech-ash-jaunt = АШ'Н П'ССГ'
+heretic-speech-ash-volcano = В'Л'К'Н!
+heretic-speech-ash-rebirth = ЗАБИРАЙ ЦЮ ШТУКУ!
+heretic-speech-ash-flame = ФЛ'МС!!!
+heretic-speech-ash-cascade = ЗАБИРАЙСЯ ЗВІДСИ!!!
 
-heretic-speech-blade-furioussteel = F'LSH'NG S'LV'R!
+heretic-speech-blade-furioussteel = Ф'ЛШ'НГ С'Л'В'Р!
 
-heretic-speech-flesh-surgery = CL'M M'N!
-heretic-speech-flesh-worm = REALITY UNCOIL!!
+heretic-speech-flesh-surgery = КЛ'М'М'Н!
+heretic-speech-flesh-worm = РЕАЛЬНІСТЬ РОЗКРУЧУЄТЬСЯ!!!
 
 heretic-speech-rust-spread = A'GRSV SPR'D
-heretic-speech-rust-plume = 'NTR'P'C PL'M'
+heretic-speech-rust-plume = NTR'P'C PL'M
 
-heretic-speech-void-blast = F'RZ'E!
-heretic-speech-void-phase = RE'L'T' PH'S'E!
-heretic-speech-void-pull = BR'NG F'RTH TH'M T' M'!!
+heretic-speech-void-blast = Ф'РЗ'Е!
+heretic-speech-void-phase = НЕ БІЙТЕСЯ!
+heretic-speech-void-pull = НА ЧЕСТЬ ПЕРШОГО ДНЯ НАРОДЖЕННЯ!!!
 
-heretic-speech-cleave = CL'VE
-heretic-speech-bloodsiphon = FL'MS O'ET'RN'ITY
-heretic-speech-mansuslink = PI'RC' TH' M'ND
-heretic-speech-realignment = R'S'T
-heretic-speech-fuckoff = F'K 'FF!!
+heretic-speech-cleave = КЛЕВ
+heretic-speech-bloodsiphon = Ф'Л'МС О'Т'Е'РН'ІСТЬ
+heretic-speech-mansuslink = ПІРК' Т' М' НД
+heretic-speech-realignment = Р'С'Т
+heretic-speech-fuckoff = F'K 'FF!!!
 
 
-## technically applied to heretic's spawns only but it stays here because why not.
+## технічно застосовується лише до єретиків, але залишається тут, бо чому б і ні.
 heretic-speech-blind = E'E'S
-heretic-speech-emp = E'P
-heretic-speech-shapeshift = SH'PE
-heretic-speech-link = PI'RC' TH' M'ND
+heretic-speech-emp = Е'П
+heretic-speech-shapeshift = Ш'ПЕ
+heretic-speech-link = ПІРК' Т' М' НД

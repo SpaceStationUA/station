@@ -17,3 +17,5 @@ bloodsucker-blood-sucked-victim = {CAPITALIZE(THE($sucker))} висмокче т
 bloodsucked-health-examine = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } сліди укусів на { POSS-ADJ($target) } шиї.[/color]
 
 bloodsucker-glands-throb = Залози за іклами трохи болять.
+
+bloodsucker-not-blood = {$target} не має смачної, поживної крові.

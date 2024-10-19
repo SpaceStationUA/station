@@ -11,3 +11,17 @@ marking-VoxHairRuffhawk = Волосся Вокса Жорстке Могавк
 marking-VoxHairRows = Волосся Вокса Ряди
 marking-VoxHairMange = Волосся Вокса Короста
 marking-VoxHairPony = Вокс поні
+
+marking-VoxHairBraids = Коси Vox
+marking-VoxHairCrestedQuills = Vox Creeded Quills
+marking-VoxHairEmperorQuills = Vox Emperor Квілс
+marking-VoxHairFlowing = Vox Flowing - Vox Flowing
+marking-VoxHairHawk = Vox Hawk
+marking-VoxHairKeelQuills = Vox Keel Quills
+marking-VoxHairKeetQuills = Vox Keet Quills
+marking-VoxHairLongBraid = Vox Довга коса
+marking-VoxHairRazorClipped = Vox Razor (Обрізано)
+marking-VoxHairRazor = Vox Razor
+marking-VoxHairSortBraid = Vox Коротка коса
+marking-VoxHairTielQuills = Vox Tiel Quails
+marking-VoxHairYasu = Vox Ясухіро

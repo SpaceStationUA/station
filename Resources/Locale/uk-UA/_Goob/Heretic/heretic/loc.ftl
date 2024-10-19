@@ -1,6 +1,6 @@
-heretic-influence-start = Draining influence...
+heretic-influence-start = Виснажливий вплив...
 
-heretic-ritualrune-examine = Current selected ritual: [color=yellow]{$rit}[/color]
+heretic-ritualrune-examine = Поточний обраний ритуал: [color=yellow]{$rit}[/color]
 
-heretic-knowledge-gain = You've learned something
-heretic-knowledge-loss = You're forgotten something
+heretic-knowledge-gain = Ти дечому навчився
+heretic-knowledge-loss = Ти дещо забув

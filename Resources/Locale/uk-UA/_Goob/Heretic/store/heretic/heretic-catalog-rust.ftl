@@ -1,34 +1,30 @@
-knowledge-path-rust-s1-name = Blacksmith's Tale
-knowledge-path-rust-s1-desc = Follow the rust path. Transmute a knife and a trash item into a rusty blade.
+knowledge-path-rust-s1-name = Ковальська казка
+knowledge-path-rust-s1-desc = Йдіть шляхом іржі. Перетворіть ніж і сміттєвий предмет на іржаве лезо.
 
-knowledge-path-rust-s2-name = Grasp of Rust
-knowledge-path-rust-s2-desc =
-    Your Mansus Grasp now deals 100 damage to inorganic matter. Will rust surfaces or machines. Already rusted walls are destroyed.
+knowledge-path-rust-s2-name = Розуміння іржі
+knowledge-path-rust-s2-desc = Ваша Хватка Мансуса тепер завдає 100 пошкоджень неорганічній матерії. Іржавіють поверхні або машини. Вже іржаві стіни руйнуються.
 
-knowledge-path-rust-s3-name = Leeching Walk
-knowledge-path-rust-s3-desc = You slowly heal and gain passive resistance to baton knockdown while standing on rusted tiles.
+knowledge-path-rust-s3-name = Прогулянка п'явками
+knowledge-path-rust-s3-desc = Ви повільно зцілюєтеся і отримуєте пасивний опір до ударів кийком, стоячи на іржавій плитці.
 
-knowledge-path-rust-s4-name = Mark of Rust
-knowledge-path-rust-s4-desc = Your Grasp applies a rust mark on hit. Attack a marked victim with your blade to destroy items they are carrying.
+knowledge-path-rust-s4-name = Знак іржі
+knowledge-path-rust-s4-desc = Твоя Хватка залишає іржаву мітку при попаданні. Атакуйте позначену жертву своїм клинком, щоб знищити предмети, які вона має при собі.
 
-knowledge-path-rust-s6-name = Rust Construction
-knowledge-path-rust-s6-desc =
-    Grants Rust Construction, a spell that allows you to point at a rusted floor to raise a strong wall of rust.
-    Any mobs over the floor where the wall is raised will be damaged and thrown aside, including you.
+knowledge-path-rust-s6-name = Конструкція з іржі
+knowledge-path-rust-s6-desc = Дає Іржаве будівництво, заклинання, яке дозволяє вам вказати на іржаву підлогу, щоб підняти міцну стіну іржі.
+    Будь-які моби над підлогою, де піднімається стіна, будуть пошкоджені і відкинуті вбік, включаючи вас.
 
-knowledge-path-rust-s7-name = Aggressive Spread
-knowledge-path-rust-s7-desc = Spreads rust to nearby turfs. Already rusted walls are destroyed.
+knowledge-path-rust-s7-name = Агресивний спред
+knowledge-path-rust-s7-desc = Поширює іржу на прилеглі території. Руйнуються вже проіржавілі стіни.
 
-knowledge-path-rust-s8-name = Toxic Blade
-knowledge-path-rust-s8-desc = Your blade causes poison damage to those you attack.
+knowledge-path-rust-s8-name = Токсичне лезо
+knowledge-path-rust-s8-desc = Ваш клинок завдає отруйної шкоди тим, кого ви атакуєте.
 
-knowledge-path-rust-s9-name = Entropic Plume
-knowledge-path-rust-s9-desc =
-    Grants Entropic Plume, a spell that sends out a disorienting plume of pure entropy that blinds,
-    poisons and makes enemies strike each other. It also rusts any tiles it affects.
+knowledge-path-rust-s9-name = Ентропійний шлейф
+knowledge-path-rust-s9-desc = Дарує ентропійний шлейф - заклинання, яке випускає дезорієнтуючий шлейф чистої ентропії, що засліплює,
+    отруює і змушує ворогів битися один з одним. Заклинання також іржавіє на всіх тайлах, на які потрапляє.
 
-knowledge-path-rust-s10-name = Rustbringer’s Oath
-knowledge-path-rust-s10-desc =
-    Transmute 3 corpses on the Bridge of the station to Ascend.
-    While on rust tiles, your healing is tripled and you become resistant to a wide variety of effects.
-    Rust also spreads from the ritual's rune, covering the station slowly.
+knowledge-path-rust-s10-name = Клятва Растбрінгера
+knowledge-path-rust-s10-desc = Перетворіть 3 трупи на мосту станції, щоб піднятися.
+    Перебуваючи на плитках іржі, ваше зцілення потроюється, і ви стаєте стійкими до різноманітних ефектів.
+    Іржа також поширюється від руни ритуалу, повільно покриваючи станцію.

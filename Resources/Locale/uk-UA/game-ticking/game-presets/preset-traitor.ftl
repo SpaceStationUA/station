@@ -37,3 +37,7 @@ traitor-role-uplink-code = Встановіть мелодію дзвінка в
 traitor-role-codewords-short = Кодові слова:
     {$codewords}.
 traitor-role-uplink-code-short = Ваш аплінк код {$code}. Встановіть його як сигнал дзвінка КПК для доступу до аплінку.
+
+objective-issuer-unknown = Невідомо
+
+# Показано в кінці раунду Зрадника

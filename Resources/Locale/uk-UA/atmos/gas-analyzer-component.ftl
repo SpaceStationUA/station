@@ -30,3 +30,6 @@ gas-entry-info = {$gasName}: {$gasAmount} моль
 gas-analyzer-window-text-inlet = Вхідний отвір
 gas-analyzer-window-text-outlet = Вихідна розетка
 gas-analyzer-window-text-filter = Фільтр
+
+gas-analyzer-window-volume-text = Обсяг:
+gas-analyzer-window-volume-val-text = {$volume} L

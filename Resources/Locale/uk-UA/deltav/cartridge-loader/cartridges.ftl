@@ -118,3 +118,16 @@ crime-assist-sophont-explanation = Софонт описується як буд
                                    • [bold]Почуття[/bold]: сутність має здатність обробки емоцій або, принаймні, можливість визнання власного болю.
                                    • [bold]Самосвідомість[/bold]: сутність може змінювати свою поведінку під впливом подразників або, принаймні, може визнавати свій власний розум та почуття.
                                    Будь-який софонт вважається юридичною особою, незалежно від походження чи попереднього когнітивного статусу. Софонт може пред'являти обвинувачення членам екіпажу та піддаватися судовому розгляду за вчинені злочини.
+
+mail-metrics-program-name = ПоштоваМетрика
+mail-metrics-header = Дохід від доставки пошти
+mail-metrics-opened = Заробіток (відкриті)
+mail-metrics-expired = Збитки (прострочені)
+mail-metrics-damaged = Втрати (пошкодження)
+mail-metrics-tampered = Втрати (зіпсовані)
+mail-metrics-unopened = Невідкрита.
+mail-metrics-count-header = Пакети
+mail-metrics-money-header = Спесо.
+mail-metrics-total = Всього
+mail-metrics-progress = {$opened} / {$total} пакетів відкрито!
+mail-metrics-progress-percent = Відсоток успіху: {$successRate}%

@@ -6,3 +6,5 @@ game-hud-open-crafting-menu-button-tooltip = Відкрити меню ство�
 game-hud-open-actions-menu-button-tooltip = Відкрити меню дій.
 game-hud-open-admin-menu-button-tooltip = Відкрити адмін меню.
 game-hud-open-sandbox-menu-button-tooltip = Відкрити меню пісочниці.
+
+game-hud-open-emotes-menu-button-tooltip = Відкрити меню емоцій.

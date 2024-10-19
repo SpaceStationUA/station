@@ -1,4 +1,4 @@
-﻿# User interface
+# User interface
 comms-console-menu-title = Комунікаційна консоль
 comms-console-menu-announcement-placeholder = Сповіщення
 comms-console-menu-announcement-button = Сповістити
@@ -18,3 +18,7 @@ comms-console-announcement-unknown-sender = Анонім
 comms-console-announcement-title-station = Комунікаційна консоль
 comms-console-announcement-title-centcom = Центральний комітет
 comms-console-announcement-title-nukie = Ядерні Оперативники 'СИНДИКАТ'
+
+comms-console-message-too-long = Повідомлення занадто довге
+
+# Значення-заповнювачі

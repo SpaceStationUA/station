@@ -171,7 +171,7 @@ flavor-complex-violets = як фіалки.
 
 # Аромати для напоїв.
 
-## Загальний смак алкоголю/соди. Він повинен бути замінений на справжній профіль смаку.
+## Загальний смак алкоголю/соди. Він повинен бути замінений на справжній профіль смаку
 flavor-complex-alcohol = як майбутній перегар
 flavor-complex-soda = наче газики уже в твоїй голові
 flavor-complex-juice = як вижатий фрукт
@@ -261,3 +261,16 @@ flavor-complex-blue-hawaiian = як тропіки
 flavor-complex-cosmopolitan = солодкий і гострий
 flavor-complex-painkiller = як ананасовий сік з прянощами
 flavor-complex-pina-colada = як тропічне сонце
+flavor-complex-pyrotton = як пекучий рот.
+flavor-complex-mothballs = як нафталін.
+flavor-complex-paint-thinner = як розчинник для фарби.
+
+# Ароматизатори для напоїв.
+
+## Загальний смак алкоголю/соди. Його слід замінити на справжній смаковий профіль.
+flavor-complex-vodka-red-bool = як серцевий напад.
+flavor-complex-irish-bool = кофеїн та Ірландія
+flavor-complex-xeno-basher = наприклад, вбивати жуків.
+flavor-complex-budget-insuls-drink = наприклад, злом дверей.
+flavor-complex-watermelon-wakeup = як солодкий дзвінок для пробудження
+flavor-complex-rubberneck = як синтетика.

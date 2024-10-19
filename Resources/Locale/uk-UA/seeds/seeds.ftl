@@ -111,3 +111,8 @@ seeds-pumpkin-name = гарбуз
 seeds-pumpkin-display-name = гарбуз
 seeds-cotton-name = бавовна
 seeds-cotton-display-name = кущ бавовни
+
+seeds-rainbow-cannabis-name = веселковий канабіс
+seeds-rainbow-cannabis-display-name = веселковий канабіс
+seeds-pyrotton-name = піротон
+seeds-pyrotton-display-name = піротонна установка

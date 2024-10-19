@@ -1,67 +1,58 @@
-knowledge-path-flesh-s1-name = Principle of Hunger
-knowledge-path-flesh-s1-desc =
-    Hundreds of us starved, but not me... I found strength in my greed.
+knowledge-path-flesh-s1-name = Принцип голоду
+knowledge-path-flesh-s1-desc = Сотні з нас голодували, але не я... Я знайшов силу в своїй жадібності.
     
-    Opens up the Path of Flesh to you.
-    Allows you to transmute a knife and a pool of blood into a Bloody Blade.
+    Відкриває тобі Шлях Плоті.
+    Дозволяє перетворити ніж і калюжу крові на Кривавий Клинок.
 
-knowledge-path-flesh-s2-name = Grasp of Flesh
-knowledge-path-flesh-s2-desc =
-    My new found desires drove me to greater and greater heights.
+knowledge-path-flesh-s2-name = Розуміння плоті
+knowledge-path-flesh-s2-desc = Мої нові бажання гнали мене до все більших і більших висот.
 
-    Your Mansus Grasp gains the ability to create a ghoul out of corpse with a soul.
-    Ghouls have only 50 health and look like husks to the heathens' eyes, but can use Bloody Blades effectively.
+    Ваш Mansus Grasp отримує здатність створювати упиря з трупа з душею.
+    Упирі мають лише 50 здоров'я і виглядають як лушпиння в очах язичників, але можуть ефективно використовувати Криваві Клинки.
 
-knowledge-path-flesh-s3-name = Imperfect Ritual
-knowledge-path-flesh-s3-desc =
-    I found notes of a dark ritual, unfinished... yet still, I pushed forward.
+knowledge-path-flesh-s3-name = Недосконалий ритуал
+knowledge-path-flesh-s3-desc = Я знайшов нотки темного ритуалу, незавершеного... і все ж таки, я просувався вперед.
 
-    Allows you to transmute a corpse and a poppy to create a Voiceless Dead.
-    The corpse does not need to have a soul.
-    Voiceless Dead are mute ghouls and only have 100 health, but can use Bloody Blades effectively.
+    Дозволяє трансформувати труп і мак, щоб створити безголосого мерця.
+    Труп не обов'язково повинен мати душу.
+    Безголосі мерці - це німі упирі, які мають лише 100 здоров'я, але можуть ефективно використовувати Криваві Клинки.
 
-knowledge-path-flesh-s4-name = Mark of Flesh
-knowledge-path-flesh-s4-desc =
-    That's when I saw them, the marked ones. They were out of reach. They screamed, and screamed.
+knowledge-path-flesh-s4-name = Знак плоті
+knowledge-path-flesh-s4-desc = Тоді я побачив їх, позначених. Вони були поза зоною досяжності. Вони кричали і кричали.
 
-    Your Mansus Grasp now applies the Mark of Flesh. The mark is triggered from an attack with your Bloody Blade.
-    When triggered, the victim violently spills all it's blood on the ground.
+    Твоя Хватка Мансуса тепер застосовує Мітку Плоті. Знак з'являється після атаки вашим Кривавим Клинком.
+    Коли він спрацьовує, жертва з силою проливає всю свою кров на землю.
 
-knowledge-path-flesh-s5-name = Knitting of Flesh
-knowledge-path-flesh-s5-desc =
-    But they were not out of my reach for long. With every step, the screams grew, until at last
-    I learned that they could be silenced.
+knowledge-path-flesh-s5-name = В'язання плоті
+knowledge-path-flesh-s5-desc = Але вони недовго були поза межами моєї досяжності. З кожним кроком крики наростали, поки нарешті
+    я не дізнався, що їх можна змусити замовкнути.
 
-    Grants you the spell Knit Flesh. This spell allows you to remove organs from victims
-    without requiring a lengthy surgery. This process is much longer if the target is not dead.
-    This spell also allows you to heal your minions and summons, or restore failing organs to acceptable status.
+    Дає вам заклинання "В'язати плоть". Це заклинання дозволяє видаляти органи з жертв
+    не потребуючи тривалої операції. Цей процес набагато довший, якщо ціль не мертва.
+    Це заклинання також дозволяє вам зцілювати ваших поплічників і викликати або відновлювати відмовні органи до прийнятного стану.
 
-knowledge-path-flesh-s6-name = Raw Ritual
-knowledge-path-flesh-s6-desc =
-    I could not continue alone. I was able to summon The Uncanny Man to help me see more.
-    The screams... once constant, now silenced by their wretched appearance. Nothing was out of reach.
+knowledge-path-flesh-s6-name = Сирий ритуал
+knowledge-path-flesh-s6-desc = Я не міг продовжувати сам. Я зміг викликати Надприродного Чоловіка, щоб він допоміг мені побачити більше.
+    Крики... колись постійні, тепер заглушені їхнім жалюгідним виглядом. Ніщо не було недосяжним.
 
-    Allows you to transmute a pair of eyes, a stomach, and a pool of blood to create a Raw Prophet.
-    Raw Prophets have a long range jaunt and the ability to link minds to communicate with ease, but are very fragile and weak in combat.
+    Дозволяє перетворити пару очей, шлунок і калюжу крові, щоб створити Сирого Пророка.
+    Сирі пророки мають великий запас ходу і здатність легко зв'язувати розуми для спілкування, але вони дуже крихкі і слабкі в бою.
 
-knowledge-path-flesh-s7-name = Bleeding Steel
-knowledge-path-flesh-s7-desc =
-    The Uncanny Man was not alone. They led me to the Marshal.
-    I finally began to understand. And then, blood rained from the heavens.
+knowledge-path-flesh-s7-name = Сталь, що кровоточить
+knowledge-path-flesh-s7-desc = Незнайомець був не один. Вони привели мене до маршала.
+    Я нарешті почав розуміти. А потім з небес полилася кров.
 
-    Your Bloody Blade now causes enemies to bleed heavily on attack.
+    Твій Кривавий Клинок тепер змушує ворогів стікати кров'ю при атаці.
 
-knowledge-path-flesh-s8-name = Lonely Ritual
-knowledge-path-flesh-s8-desc =
-    I was able to combine my greed and desires to summon an eldritch beast I had never seen before.
-    An ever shapeshifting mass of flesh, it knew well my goals. The Marshal approved.
+knowledge-path-flesh-s8-name = Самотній ритуал
+knowledge-path-flesh-s8-desc = Я зміг об'єднати свою жадібність і бажання, щоб викликати стародавнього звіра, якого я ніколи раніше не бачив.
+    Постійно мінлива маса плоті, вона добре знала мої цілі. Маршал схвалив.
 
-    Allows you to transmute a heart, a stomach, lungs and a pen to create a Stalker.
-    Stalkers can jaunt, release EMPs, and are strong in combat.
+    Дозволяє трансформувати серце, шлунок, легені та ручку, щоб створити сталкера.
+    Сталкери можуть бігати, випускати електромагнітні хвилі і сильні в бою.
 
-knowledge-path-flesh-s9-name = Priest’s Final Hymn
-knowledge-path-flesh-s9-desc =
-    The ascension ritual of the Path of Flesh. Bring 4 corpses to a transmutation rune to complete the ritual.
-    When completed, you gain the ability to shed your human form and become the Lord of the Night, a supremely powerful creature.
-    Just the act of transforming causes nearby heathens great fear and trauma.
-    While in the Lord of the Night form, you can consume the living to heal.
+knowledge-path-flesh-s9-name = Заключний гімн священика
+knowledge-path-flesh-s9-desc = Ритуал вознесіння Шляху Плоті. Принесіть 4 трупи до руни перетворення, щоб завершити ритуал.
+    Після завершення ви отримаєте здатність скинути людську подобу і стати Володарем Ночі, надзвичайно могутньою істотою.
+    Сам акт перетворення викликає у довколишніх язичників великий страх і травму.
+    Перебуваючи в образі Володаря Ночі, ви можете поглинати живих, щоб зцілюватися.

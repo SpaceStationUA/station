@@ -22,3 +22,13 @@ ghost-return-to-body-title = Повернутися у тіло
 ghost-return-to-body-text = Вас було відроджено! Повернутися у тіло?
 
 ghost-gui-return-to-round-button = Респавн
+ghost-target-window-warp-to-most-followed = Найбільш відслідковуваний
+ghost-roles-window-join-raffle-button = Розіграш ролі
+ghost-roles-window-raffle-in-progress-button = Розіграш ({$time}, між { $players ->
+         [one] {$players} гравцем
+        *[other] {$players} гравцями
+    })
+ghost-roles-window-leave-raffle-button = Покинути розіграш ({$time}, між { $players ->
+         [one] {$players} гравцем
+        *[other] {$players} гравцями
+    })

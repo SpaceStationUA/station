@@ -4,3 +4,5 @@ ninja-suit-cooldown = Костюму потрібен час, щоб відно�
 
 ninja-research-steal-fail = Жодних нових вузлів дослідження не було вкрадено...
 ninja-research-steal-success = Вкрадено {$count} нових вузлів з {THE($server)}.
+
+ninja-criminal-records-hack-announcement = ПОМИЛКА: Criminal records has detected a [REDACTED] error #*;"

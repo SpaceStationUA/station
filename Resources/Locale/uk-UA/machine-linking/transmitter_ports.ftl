@@ -66,3 +66,6 @@ signal-port-description-power-charging = Цей порт викликаєтьс�
 
 signal-port-name-power-discharging = Розрядка
 signal-port-description-power-discharging = Цей порт викликається зі значенням HIGH, коли батарея втрачає заряд, і LOW, коли ні.
+
+signal-port-name-dockstatus = Стан дока
+signal-port-description-dockstatus = Цей порт викликається зі значенням HIGH, коли він пристикований, і LOW, коли він відстикований.

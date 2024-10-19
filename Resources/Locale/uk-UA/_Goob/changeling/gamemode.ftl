@@ -1,2 +1,2 @@
-changeling-title=Changeling
-changeling-description=Sneak around the station, absorb people, and transform into them. Evolve your abilities and avoid detection.
+changeling-title = Перевертні
+changeling-description = Прокрадайтеся по станції, поглинайте людей і перетворюйтеся на них. Розвивайте свої здібності та уникайте викриття.

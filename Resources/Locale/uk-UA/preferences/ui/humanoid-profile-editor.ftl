@@ -97,3 +97,4 @@ humanoid-profile-editor-loadouts-remove-unusable-button = Видалити {$cou
 humanoid-profile-editor-loadouts-remove-unusable-button-tooltip = Якщо ви натиснете цю кнопку, всі вбрання, які не можуть бути використані у вашому поточному наборі одягу, буде вилучено.
     Перед видаленням вбрання вас буде запитано про підтвердження.
 humanoid-profile-editor-customspeciename-label = Спеціальна назва виду:
+humanoid-profile-editor-reset-button = Перезавантаження

@@ -1,66 +1,57 @@
-knowledge-path-void-s1-name = Glimmer of Winter
-knowledge-path-void-s1-desc =
-    I feel a shimmer in the air, the air around me gets colder.
-    I start to realize the emptiness of existence. Something's watching me.
+knowledge-path-void-s1-name = Мерехтіння зими
+knowledge-path-void-s1-desc = Я відчуваю мерехтіння в повітрі, повітря навколо мене стає холоднішим.
+    Я починаю усвідомлювати порожнечу існування. Щось спостерігає за мною.
 
-    Opens up the Path of Void to you.
-    Allows you to transmute a knife in sub-zero temperatures into a Void Blade.
+    Відкриває тобі Шлях Порожнечі.
+    Дозволяє перетворити ніж при мінусових температурах на Клинок Порожнечі.
 
-knowledge-path-void-s2-name = Grasp of Void
-knowledge-path-void-s2-desc =
-    I saw the cold watcher who observes me. The chill mounts within me.
-    They are quiet. This isn't the end of the mystery.
+knowledge-path-void-s2-name = Розуміння порожнечі
+knowledge-path-void-s2-desc = Я побачив холодного спостерігача, який спостерігає за мною. У мене всередині все холоднішає.
+    Вони мовчать. Це не кінець таємниці.
 
-    Your Mansus Grasp will temporarily mute and chill the victim.
+    Твоя хватка Мансуса тимчасово німіє і охолоджує жертву.
 
-knowledge-path-void-s3-name = Aristocrat's Way
-knowledge-path-void-s3-desc =
-    I found a thread of cold breath. It lead me to a strange shrine, all made of crystals.
-    Translucent and white, a depiction of a nobleman stood before me.
+knowledge-path-void-s3-name = Шлях аристократа
+knowledge-path-void-s3-desc = Я знайшов нитку холодного подиху. Вона привела мене до дивної святині, повністю зробленої з кристалів.
+    Напівпрозоре і біле, зображення шляхетного чоловіка стояло переді мною.
 
-    Grants you immunity to cold temperatures, and removes your need to breathe.
-    You can still take damage due to a lack of pressure.
+    Надає вам імунітет до низьких температур і позбавляє потреби дихати.
+    Ви все ще можете отримувати ушкодження через відсутність тиску.
 
-knowledge-path-void-s4-name = Mark of Void
-knowledge-path-void-s4-desc =
-    A gust of wind? A shimmer in the air? The presence is overwhelming, my senses began to betray me. My mind is my own enemy.
+knowledge-path-void-s4-name = Знак недійсності
+knowledge-path-void-s4-desc = Порив вітру? Мерехтіння в повітрі? Присутність непереборна, мої органи чуття почали зраджувати мене. Мій розум - мій власний ворог.
 
-    Your Mansus Grasp now applies the Mark of Void. The mark is triggered from an attack with your Void Blade.
-    When triggered, further silences the victim and swiftly lowers the temperature of their body and the air around them.
+    Твій Мансус Гракс зараз застосовує Знак Порожнечі. Знак активується від атаки вашим Клинком Порожнечі.
+    При спрацьовуванні він ще більше змушує жертву замовкнути і швидко знижує температуру її тіла і повітря навколо неї.
 
-knowledge-path-void-s5-name = Void Blast
-knowledge-path-void-s5-desc =
-    Every door I open racks my body. I am afraid of what is behind them. Someone is expecting me,
-    and my legs start to drag. Is that... snow?
+knowledge-path-void-s5-name = Вибух порожнечі
+knowledge-path-void-s5-desc = Кожні двері, які я відчиняю, замикають моє тіло. Я боюся того, що за ними. Хтось чекає на мене,
+    і мої ноги починають підкошуватися. Це... сніг?
 
-    Grants you Void Blast, a spell that shoots out a freezing blast in a cone in front of you,
-    freezing the ground and any victims within.
+    Дає вам Порожній вибух, заклинання, яке вистрілює крижаний вибух у вигляді конуса перед вами,
+    заморожуючи землю і всіх жертв всередині.
 
-knowledge-path-void-s6-name = Void Phase
-knowledge-path-void-s6-desc =
-    The entity calls themself the Aristocrat. They effortlessly walk through air like nothing - leaving a harsh, cold breeze in their wake.
-    They disappear, and I am left in the blizzard.
+knowledge-path-void-s6-name = Порожня фаза
+knowledge-path-void-s6-desc = Істота називає себе Аристократом. Вони легко проходять крізь повітря, як ніщо, залишаючи за собою різкий, холодний вітер.
+    Вони зникають, а я залишаюся в хуртовині.
 
-    Grants you Void Phase, a long range targeted teleport spell.
-    Additionally stuns heathens around your original and target destination.
+    Дає вам Фазу Порожнечі, заклинання телепортації на велику відстань.
+    Додатково оглушує язичників навколо вашого початкового та цільового місця призначення.
 
-knowledge-path-void-s7-name = Seeking Blade
-knowledge-path-void-s7-desc =
-    Fleeting memories, fleeting feet. I mark my way with frozen blood upon the snow. Covered and forgotten.
+knowledge-path-void-s7-name = У пошуках клинка
+knowledge-path-void-s7-desc = Швидкоплинний спогад, швидкоплинна хода. Я позначаю свій шлях замерзлою кров'ю на снігу. Покритий і забутий.
 
-    Your blade freezes enemies. Additionally, when a target is marked, activate the Void Blade in your hand to teleport right next to them without breaking the blade.
+    Ваш клинок заморожує ворогів. Крім того, коли ціль позначена, активуйте Порожній клинок у вашій руці, щоб телепортуватися поруч з нею, не ламаючи клинка.
 
-knowledge-path-void-s8-name = Void Pull
-knowledge-path-void-s8-desc =
-    All is fleeting, but what else stays? I'm close to ending what was started.
-    The Aristocrat reveals themselves to me again. They tell me I am late. Their pull is immense, I cannot turn back.
+knowledge-path-void-s8-name = Порожній потяг
+knowledge-path-void-s8-desc = Все швидкоплинне, але що ще залишається? Я близький до завершення розпочатого.
+    Аристократ знову з'являється переді мною. Вони кажуть мені, що я запізнився. Їхній потяг величезний, я не можу повернути назад.
 
-    Grants you Void Pull, a spell that pulls all nearby heathens towards you, stunning them briefly.
+    Дарує вам Порожній Потяг, заклинання, яке притягує до вас усіх язичників, що знаходяться поблизу, ненадовго приголомшуючи їх.
 
-knowledge-path-void-s9-name = Waltz at the End of Time
-knowledge-path-void-s9-desc =
-    The ascension ritual of the Path of Void.
-    Bring 3 corpses to a transmutation rune in sub-zero temperatures to complete the ritual.
-    When completed, grants you Aristocrat's Blessing.
-    Everything around you will be turned into snow and the air will constantly be frozen. Those nearby will be silenced and frozen even quicker.
-    Additionally, you will become immune to the effects of space.
+knowledge-path-void-s9-name = Вальс наприкінці часів
+knowledge-path-void-s9-desc = Ритуал сходження на Шлях Порожнечі.
+    Принесіть 3 трупи до руни перетворення при мінусовій температурі, щоб завершити ритуал.
+    Після завершення дарує вам Благословення Аристократа.
+    Все навколо вас перетвориться на сніг, а повітря буде постійно замороженим. Ті, хто знаходиться поруч, замовкнуть і замерзнуть ще швидше.
+    Крім того, ви отримаєте імунітет до впливу космосу.

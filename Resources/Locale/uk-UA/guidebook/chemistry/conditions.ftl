@@ -41,3 +41,5 @@ reagent-effect-condition-guidebook-has-tag = ціль { $invert ->
                  [true] не має
                  *[false] має
                 } тег {$tag}
+
+reagent-effect-condition-guidebook-this-reagent = цей реагент

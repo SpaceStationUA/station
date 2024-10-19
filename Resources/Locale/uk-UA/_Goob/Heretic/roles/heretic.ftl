@@ -1,2 +1,2 @@
-roles-antag-heretic-name = Heretic
-roles-antag-heretic-description = Find influences, realize they've all been taken. Sacrifice people and become all powerful or die trying.
+roles-antag-heretic-name = Єретик!
+roles-antag-heretic-description = Знайти впливи, зрозуміти, що вони всі вже зайняті. Жертвуйте людьми і станьте всемогутніми або помріть, намагаючись.

@@ -325,3 +325,8 @@ reagent-effect-guidebook-add-moodlet = змінює настрій на {$amount
         [0] на невизначений час
         *[other] на {$timeout} секунд
     }
+
+reagent-effect-guidebook-smoke-area-reaction-effect = { $chance ->
+        [1] створює
+        *[other] створює
+    } велику кількість диму

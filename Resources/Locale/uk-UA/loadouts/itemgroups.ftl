@@ -73,3 +73,30 @@ character-item-group-LoadoutWeaponSecurity = Зброя для забезпеч�
 character-item-group-LoadoutHoSWeapon = Колекція антикварної зброї керівника служби безпеки
 
 # Послуга
+character-item-group-LoadoutEyesScience = Епістемічні окуляри
+character-item-group-LoadoutGlovesScience = Епістемічні рукавички
+character-item-group-LoadoutHeadScience = Головні убори з епістемології
+character-item-group-LoadoutMaskScience = Епістемічні маски
+character-item-group-LoadoutNeckScience = Епістемологічні нашийні прикраси
+character-item-group-LoadoutOuterScience = Епістеміка Верхній одяг
+character-item-group-LoadoutShoesScience = Епістемологічне взуття
+character-item-group-LoadoutUniformsScience = Епістемічна уніформа
+
+# Епістеміка - Каталогізатор
+character-item-group-LoadoutCataloguerUniforms = Каталогізатор Уніформа
+
+# Медична
+character-item-group-LoadoutHeadService = Службовий головний убір
+character-item-group-LoadoutBartenderHead = Головний убір бармена
+character-item-group-LoadoutBartenderUniforms = Форма для барменів
+character-item-group-LoadoutBotanistUniforms = Уніформа ботаніка
+
+# Обслуговування - Шеф-кухар
+character-item-group-LoadoutChefHead = Головний убір шеф-кухаря
+character-item-group-LoadoutChefOuter = Верхній одяг для шеф-кухарів
+character-item-group-LoadoutChefUniforms = Шеф-кухарська уніформа
+
+# Обслуговування - Прибиральник
+character-item-group-LoadoutJanitorUniforms = Уніформа для прибиральників
+
+# Послуга - Музикант

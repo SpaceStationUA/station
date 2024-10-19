@@ -101,3 +101,8 @@ marking-LizardChestUnderbelly = Грудна клітка ящірки (підч
 
 marking-LizardChestBackspikes-body_backspikes = Шипи на спині ящірки (чотири)
 marking-LizardChestBackspikes = Шипи на спині ящірки (чотири)
+marking-LizardFrillsNeckfull-frills_neckfull = Оборки ящірки (Neckfull)
+marking-LizardFrillsNeckfull = Оборки ящірки (Neckfull)
+marking-LizardSnoutSplotch = Ящірка Мордата (Плямиста)
+marking-LizardSnoutSplotch-snout_splotch_primary = Морда.
+marking-LizardSnoutSplotch-snout_splotch_secondary = Зарозумілість.

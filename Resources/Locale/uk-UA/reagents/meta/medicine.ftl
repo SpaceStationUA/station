@@ -138,3 +138,8 @@ reagent-desc-aloxadone = Кріогенний хімікат. Використо
 
 reagent-name-spaceacillin = Спейсацилін
 reagent-desc-spaceacillin = Реагент що лікує Cellular
+
+reagent-name-mannitol = маніт
+reagent-desc-mannitol = Ефективно відновлює пошкодження мозку.
+reagent-name-psicodine = псикодин
+reagent-desc-psicodine = Пригнічує тривогу та інші різні форми психічного розладу. Передозування викликає галюцинації та незначні токсичні ураження.

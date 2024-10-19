@@ -16,3 +16,5 @@ mech-energy-display = Зарядка: {$amount}%
 mech-slot-display = Доступні місця: {$amount}
 
 mech-no-enter = Ви не можете пілотувати це.
+
+mech-energy-missing = Енергія: ВІДСУТНЯ

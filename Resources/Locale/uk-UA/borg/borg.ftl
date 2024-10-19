@@ -1,4 +1,4 @@
-﻿borg-player-not-allowed = Мозок не підходить!
+borg-player-not-allowed = Мозок не підходить!
 borg-player-not-allowed-eject = Мозок вигнали з шасі!
 
 borg-panel-not-open = Панель кіборга не відкрита...
@@ -17,3 +17,6 @@ borg-ui-no-brain = Немає ядра
 borg-ui-remove-battery = Видалити
 borg-ui-modules-label = Модулі:
 borg-ui-module-counter = {$actual}/{$max}
+borg-transponder-disabled-popup = Мозок вистрілив з голови {$name}!
+borg-transponder-emagged-disabled-popup = Ваш транспондер згас!
+borg-transponder-emagged-destroyed-popup = У вашому транспондері перегорів запобіжник!
