@@ -1,34 +1,34 @@
-mail-recipient-mismatch = Ім'я або посада одержувача не збігаються.
-mail-invalid-access = Ім'я отримувача та посада збігаються, але доступ не такий, як очікувалося.
-mail-locked = Захист від несанкціонованого доступу не знято. Торкніться ідентифікатора одержувача.
-mail-desc-far = Поштова посилка. З такої відстані не розбереш, кому вона адресована.
-mail-desc-close = Поштова посилка на адресу {CAPITALIZE($name)}, {$job}.
-mail-desc-fragile = Він має [color=red]червону тендітну етикетку[/color].
-mail-desc-priority = Активна [color=yellow]жовта[/color] стрічка пріоритету антитамперного замка. Краще доставити його вчасно!
-mail-desc-priority-inactive = Жовта пріоритетна стрічка [color=#886600]антитамперного замка[/color] неактивна.
-mail-unlocked = Система захисту від несанкціонованого доступу розблокована.
-mail-unlocked-by-emag = Система захисту від несанкціонованого доступу *БДЗИНЬ*.
-mail-unlocked-reward = Систему захисту від несанкціонованого доступу розблоковано. На рахунок логіста додано {$bounty} спесо.
-mail-penalty-lock = ЗЛАМАНО ПРОТИЗЛАМНИЙ ЗАМОК. Рахунок ЛОГІСТИК БАНКу ОШТРАФОВАНО на {$credits}. СПЕСОС.
-mail-penalty-fragile = ЦІЛІСНІСТЬ СКОМПРОМЕТОВАНА. Рахунок ЛОГІСТИК БАНКу ОШТРАФОВАНО на {$credits} СПЕСОС.
-mail-penalty-expired = ПОСТАВКА ПРОСТРОЧЕНА. Рахунок ЛОГІСТИК БАНКу ОШТРАФОВАНО на {$credits} СПЕСОС.
+mail-recipient-mismatch = Ім'я або посада отримувача не збігаються.
+mail-invalid-access = Ім'я та посада отримувача збігаються, але доступ не відповідає очікуваному.
+mail-locked = Захисний замок ще не знято. Прикладіть ID отримувача.
+mail-desc-far = Поштова посилка. Ви не можете розібрати, кому вона адресована, на такій відстані.
+mail-desc-close = Поштова посилка, адресована {CAPITALIZE($name)}, {$job}.
+mail-desc-fragile = Вона має [color=red]червону наклейку "крихке"[/color].
+mail-desc-priority = На захисному замку активована [color=yellow]жовта стрічка пріоритету[/color]. Краще доставити її вчасно!
+mail-desc-priority-inactive = На захисному замку неактивна [color=#886600]жовта стрічка пріоритету[/color].
+mail-unlocked = Захисну систему розблоковано.
+mail-unlocked-by-emag = Захисна система *BZZT*.
+mail-unlocked-reward = Захисну систему розблоковано. На рахунок логістики додано {$bounty} спесо.
+mail-penalty-lock = ЗЛАМАНО ЗАХИСНИЙ ЗАМОК. РАХУНОК ЛОГІСТИКИ ШТРАФОВАНО НА {$credits} СПЕСО.
+mail-penalty-fragile = ЦІЛІСНІСТЬ ПОРУШЕНО. РАХУНОК ЛОГІСТИКИ ШТРАФОВАНО НА {$credits} СПЕСО.
+mail-penalty-expired = ТЕРМІН ДОСТАВКИ ПРОЙШОВ. РАХУНОК ЛОГІСТИКИ ШТРАФОВАНО НА {$credits} СПЕСО.
 mail-item-name-unaddressed = пошта
-mail-item-name-addressed = листівка для ({$recipient})
+mail-item-name-addressed = пошта ({$recipient})
 
-command-mailto-description = Поставити посилку в чергу на доставку до організації. Приклад використання: `mailto 1234 5678 false false false`. Вміст цільового контейнера буде передано до реальної поштової посилки.
-command-mailto-help = Використання: {$command} <Uid сутності-одержувача> <Uid сутності-контейнера> [is-fragile: true або false] [is-priority: true або false] [is-large: true або false, необов'язково]
+command-mailto-description = Черга посилок для доставки об'єкту. Приклад використання: `mailto 1234 5678 false false`. Вміст цільового контейнера буде перенесено в реальну поштову посилку.
+command-mailto-help = Використання: {$command} <отримувач entityUid> <контейнер entityUid> [крихке: true або false] [пріоритетне: true або false] [велике: true або false, необов'язково]
 command-mailto-no-mailreceiver = Цільовий отримувач не має {$requiredComponent}.
-command-mailto-no-blankmail = Прототипу {$blankMail} не існує. Щось дуже неправильно. Зверніться до програміста.
-command-mailto-bogus-mail = У {$blankMail} не було {$requiredMailComponent}. Щось дуже неправильно. Зверніться до програміста.
-command-mailto-invalid-container = Цільовий контейнер не має контейнера {$requiredContainer}.
-command-mailto-unable-to-receive = Не вдалося налаштувати цільового отримувача на отримання пошти. Можливо, відсутній ідентифікатор.
-command-mailto-no-teleporter-found = Не вдалося зіставити цільового одержувача з жодним поштовим телепортом станції. Одержувач може перебувати за межами станції.
-command-mailto-success = Успішно! Поштову посилку поставлено в чергу на наступний телепорт через {$timeToTeleport} секунд.
+command-mailto-no-blankmail = Прототип {$blankMail} не існує. Щось дуже не так. Зверніться до програміста.
+command-mailto-bogus-mail = {$blankMail} не мав {$requiredMailComponent}. Щось дуже не так. Зверніться до програміста.
+command-mailto-invalid-container = Цільовий контейнер не має потрібного контейнера {$requiredContainer}.
+command-mailto-unable-to-receive = Цільовий отримувач не може приймати пошту. Може бути відсутній ID.
+command-mailto-no-teleporter-found = Цільовий отримувач не відповідає жодному поштовому телепортеру станції. Можливо, отримувач знаходиться за межами станції.
+command-mailto-success = Успіх! Поштова посилка поставлена в чергу на телепортацію через {$timeToTeleport} секунд.
 
 # Mailnow
 
-command-mailnow = Змусити всі поштові телепорти доставити чергову порцію пошти якнайшвидше. Це не дозволить обійти ліміт недоставленої пошти.
+command-mailnow = Примусово змусити всі поштові телепортери здійснити наступну доставку пошти якнайшвидше. Це не перевищить ліміт недоставленої пошти.
 command-mailnow-help = Використання: {$command}
-command-mailnow-success = Успіх! Всі поштові телепорти незабаром доставлять чергову порцію пошти.
+command-mailnow-success = Успіх! Усі поштові телепортери незабаром здійснять чергову доставку пошти.
 
 # Mailtestbulk
