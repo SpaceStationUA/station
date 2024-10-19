@@ -14,8 +14,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: HoverbikeFlatpack
-  name: "ховербайк флетпак"
-  description: "Флетпак, що використовується для побудови ховербайку. Ключі вже вставлені в замок запалювання."
+  name: hoverbike flatpack
+  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
   components:
   - type: Flatpack
     entity: VehicleHoverbikeNFKeys
@@ -28,8 +28,8 @@
 - type: entity
   parent: HoverbikeFlatpack
   id: HoverbikeMailcarrierFlatpack
-  name: "поштовий перевізник ховербайк flatpack"
-  description: "Флетпак, що використовується для побудови ховербайку. Ключі вже вставлені в замок запалювання."
+  name: mail carrier hoverbike flatpack
+  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
   components:
   - type: Flatpack
     entity: VehicleHoverbikeMailcarrierKey
@@ -39,8 +39,8 @@
 - type: entity
   parent: HoverbikeFlatpack
   id: HoverbikeNfsdFlatpack
-  name: "nfsd hoverbike flatpack"
-  description: "Флетпак, що використовується для побудови ховербайку. Ключі вже вставлені в замок запалювання."
+  name: nfsd hoverbike flatpack
+  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
   components:
   - type: Flatpack
     entity: VehicleHoverbikeNfsdKey
@@ -50,8 +50,8 @@
 - type: entity
   parent: HoverbikeFlatpack
   id: HoverbikeSyndicateFlatpack
-  name: "синдикатський ховербайк flatpack"
-  description: "Флетпак, що використовується для побудови ховербайку. Ключі вже вставлені в замок запалювання."
+  name: syndicate hoverbike flatpack
+  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
   components:
   - type: Flatpack
     entity: VehicleHoverbikeSyndicateKey
