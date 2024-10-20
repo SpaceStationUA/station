@@ -1,8 +1,8 @@
 - type: entity
   parent: Clothing
   id: IDCardStandard
-  name: "посвідчення особи"
-  description: "Картка, необхідна для доступу до різних зон на борту станції."
+  name: identification card
+  description: A card necessary to access various areas aboard the station.
   abstract: true
   components:
   - type: Sprite
@@ -30,7 +30,7 @@
 - type: entity
   parent: IDCardStandard
   id: PassengerIDCard
-  name: "посвідчення особи пасажира"
+  name: passenger ID card
   components:
   - type: Sprite
     layers:
@@ -46,7 +46,7 @@
 - type: entity
   parent: PassengerIDCard
   id: TechnicalAssistantIDCard
-  name: "посвідчення технічного асистента"
+  name: technical assistant ID card
   components:
   - type: PresetIdCard
     job: TechnicalAssistant
@@ -62,7 +62,7 @@
 - type: entity
   parent: PassengerIDCard
   id: MedicalInternIDCard
-  name: "посвідчення лікаря-інтерна"
+  name: medical intern ID card
   components:
   - type: PresetIdCard
     job: MedicalIntern
@@ -78,7 +78,7 @@
 - type: entity
   parent: PassengerIDCard
   id: ResearchAssistantIDCard
-  name: "посвідчення наукового співробітника"
+  name: research assistant ID card
   components:
   - type: PresetIdCard
     job: ResearchAssistant
@@ -94,7 +94,7 @@
 - type: entity
   parent: PassengerIDCard
   id: SecurityCadetIDCard
-  name: "посвідчення курсанта служби безпеки"
+  name: security cadet ID card
   components:
   - type: PresetIdCard
     job: SecurityCadet
@@ -110,7 +110,7 @@
 - type: entity
   parent: PassengerIDCard
   id: ServiceWorkerIDCard
-  name: "посвідчення працівника сфери обслуговування"
+  name: service worker ID card
   components:
   - type: PresetIdCard
     job: ServiceWorker
@@ -126,7 +126,7 @@
 - type: entity
   parent: IDCardStandard
   id: CaptainIDCard
-  name: "посвідчення капітана"
+  name: captain ID card
   components:
   - type: Sprite
     layers:
@@ -151,7 +151,7 @@
 - type: entity
   parent: IDCardStandard
   id: SecurityIDCard
-  name: "посвідчення особи безпеки"
+  name: security ID card
   components:
   - type: Sprite
     layers:
@@ -167,7 +167,7 @@
 - type: entity
   parent: IDCardStandard
   id: WardenIDCard
-  name: "посвідчення наглядача"
+  name: warden ID card
   components:
   - type: Sprite
     layers:
@@ -183,7 +183,7 @@
 - type: entity
   parent: IDCardStandard
   id: EngineeringIDCard
-  name: "посвідчення інженера"
+  name: engineer ID card
   components:
   - type: Sprite
     layers:
@@ -199,7 +199,7 @@
 - type: entity
   parent: IDCardStandard
   id: MedicalIDCard
-  name: "медична картка"
+  name: medical ID card
   components:
   - type: Sprite
     layers:
@@ -215,7 +215,7 @@
 - type: entity
   parent: IDCardStandard
   id: ParamedicIDCard
-  name: "посвідчення парамедика"
+  name: paramedic ID card
   components:
   - type: Sprite
     layers:
@@ -231,7 +231,7 @@
 - type: entity
   parent: IDCardStandard
   id: ChemistIDCard
-  name: "посвідчення фармацевта"
+  name: chemist ID card
   components:
   - type: Sprite
     layers:
@@ -247,7 +247,7 @@
 - type: entity
   parent: IDCardStandard
   id: CargoIDCard
-  name: "логістична ідентифікаційна картка" # DeltaV - Logistics Department replacing Cargo
+  name: logistics ID card # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
     layers:
@@ -263,7 +263,7 @@
 - type: entity
   parent: IDCardStandard
   id: SalvageIDCard
-  name: "ідентифікаційна картка рятувальника"
+  name: salvage ID card
   components:
   - type: Sprite
     layers:
@@ -279,7 +279,7 @@
 - type: entity
   parent: IDCardStandard
   id: QuartermasterIDCard
-  name: "посвідчення логіста" # DeltaV - Logistics Department replacing Cargo
+  name: logistics officer ID card # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
     layers:
@@ -297,7 +297,7 @@
 - type: entity
   parent: IDCardStandard
   id: ResearchIDCard
-  name: "ідентифікаційна картка дослідника"
+  name: research ID card
   components:
   - type: Sprite
     layers:
@@ -329,7 +329,7 @@
 - type: entity
   parent: IDCardStandard
   id: ClownIDCard
-  name: "посвідчення клоуна"
+  name: clown ID card
   components:
   - type: Sprite
     layers:
@@ -345,7 +345,7 @@
 - type: entity
   parent: IDCardStandard
   id: MimeIDCard
-  name: "ідентифікаційна картка міма"
+  name: mime ID card
   components:
   - type: Sprite
     layers:
@@ -360,7 +360,7 @@
 - type: entity
   parent: IDCardStandard
   id: ChaplainIDCard
-  name: "посвідчення капелана"
+  name: chaplain ID card
   components:
   - type: Sprite
     layers:
@@ -376,7 +376,7 @@
 - type: entity
   parent: IDCardStandard
   id: JanitorIDCard
-  name: "посвідчення двірника"
+  name: janitor ID card
   components:
   - type: Sprite
     layers:
@@ -392,7 +392,7 @@
 - type: entity
   parent: IDCardStandard
   id: BartenderIDCard
-  name: "посвідчення бармена"
+  name: bartender ID card
   components:
   - type: Sprite
     layers:
@@ -408,7 +408,7 @@
 - type: entity
   parent: BartenderIDCard
   id: PunPunIDCard
-  name: "каламбурне посвідчення особи"
+  name: pun pun ID card
   components:
   - type: PresetIdCard
     job: Bartender
@@ -417,7 +417,7 @@
 - type: entity
   parent: IDCardStandard
   id: ChefIDCard
-  name: "посвідчення шеф-кухаря"
+  name: chef ID card
   components:
   - type: Sprite
     layers:
@@ -433,7 +433,7 @@
 - type: entity
   parent: IDCardStandard
   id: BotanistIDCard
-  name: "посвідчення ботаніка"
+  name: botanist ID card
   components:
   - type: Sprite
     layers:
@@ -449,7 +449,7 @@
 - type: entity
   parent: IDCardStandard
   id: LibrarianIDCard
-  name: "посвідчення бібліотекаря"
+  name: librarian ID card
   components:
   - type: Sprite
     layers:
@@ -465,7 +465,7 @@
 - type: entity
   parent: IDCardStandard
   id: LawyerIDCard
-  name: "посвідчення адвоката" # DeltaV - Changed Lawyer to Attorney
+  name: attorney ID card # DeltaV - Changed Lawyer to Attorney
   components:
   - type: Sprite
     layers:
@@ -481,7 +481,7 @@
 - type: entity
   parent: IDCardStandard
   id: ChiefJusticeIDCard
-  name: "посвідчення голови суду"
+  name: chief justice ID card
   components:
     - type: PresetIdCard
       job: ChiefJustice
@@ -498,7 +498,7 @@
 - type: entity
   parent: IDCardStandard
   id: ClerkIDCard
-  name: "посвідчення працівника"
+  name: clerk ID card
   components:
     - type: PresetIdCard
       job: Clerk
@@ -514,7 +514,7 @@
 - type: entity
   parent: IDCardStandard
   id: ProsecutorIDCard
-  name: "посвідчення працівника прокуратури"
+  name: presecutor ID card
   components:
     - type: PresetIdCard
       job: Prosecutor
@@ -530,7 +530,7 @@
 - type: entity
   parent: IDCardStandard
   id: HoPIDCard
-  name: "ідентифікаційна картка керівника персоналу"
+  name: head of personnel ID card
   components:
   - type: Sprite
     layers:
@@ -548,7 +548,7 @@
 - type: entity
   parent: IDCardStandard
   id: CEIDCard
-  name: "посвідчення головного інженера"
+  name: chief engineer ID card
   components:
   - type: Sprite
     layers:
@@ -566,7 +566,7 @@
 - type: entity
   parent: IDCardStandard
   id: CMOIDCard
-  name: "посвідчення головного лікаря"
+  name: chief medical officer ID card
   components:
   - type: Sprite
     layers:
@@ -584,7 +584,7 @@
 - type: entity
   parent: IDCardStandard
   id: RDIDCard
-  name: "ідентифікаційна картка містагога" # DeltaV - Epistemics Department replacing Science
+  name: mystagogue ID card # DeltaV - Epistemics Department replacing Science
   components:
   - type: Sprite
     layers:
@@ -602,7 +602,7 @@
 - type: entity
   parent: IDCardStandard
   id: HoSIDCard
-  name: "посвідчення керівника служби безпеки"
+  name: head of security ID card
   components:
   - type: Sprite
     layers:
@@ -620,7 +620,7 @@
 - type: entity
   parent: IDCardStandard
   id: BrigmedicIDCard
-  name: "посвідчення бріг-медика" # DeltaV - rename brigmedic to corpsman
+  name: corpsman ID card # DeltaV - rename brigmedic to corpsman
   components:
   - type: Sprite
     layers:
@@ -636,7 +636,7 @@
 - type: entity
   parent: IDCardStandard
   id: CentcomIDCard
-  name: "посвідчення особи командного складу"
+  name: command officer ID card
   components:
   - type: Sprite
     layers:
@@ -660,7 +660,7 @@
 - type: entity
   parent: CentcomIDCard
   id: ERTLeaderIDCard
-  name: "Ідентифікаційна картка керівника групи швидкого реагування"
+  name: ERT leader ID card
   components:
   - type: Sprite
     layers:
@@ -678,7 +678,7 @@
 - type: entity
   parent: ERTLeaderIDCard
   id: ERTChaplainIDCard
-  name: "Посвідчення капелана екстреної медичної допомоги"
+  name: ERT chaplain ID card
   components:
   - type: Sprite
     layers:
@@ -696,7 +696,7 @@
 - type: entity
   parent: ERTChaplainIDCard
   id: ERTEngineerIDCard
-  name: "Ідентифікаційна картка інженера ERT"
+  name: ERT engineer ID card
   components:
   - type: Sprite
     layers:
@@ -712,7 +712,7 @@
 - type: entity
   parent: ERTChaplainIDCard
   id: ERTJanitorIDCard
-  name: "Ідентифікаційна картка двірника ERT"
+  name: ERT janitor ID card
   components:
   - type: Sprite
     layers:
@@ -728,7 +728,7 @@
 - type: entity
   parent: ERTChaplainIDCard
   id: ERTMedicIDCard
-  name: "Ідентифікаційна картка медика екстреної медичної допомоги"
+  name: ERT medic ID card
   components:
   - type: Sprite
     layers:
@@ -744,7 +744,7 @@
 - type: entity
   parent: ERTChaplainIDCard
   id: ERTSecurityIDCard
-  name: "Ідентифікаційна картка безпеки ERT"
+  name: ERT security ID card
   components:
   - type: Sprite
     layers:
@@ -760,7 +760,7 @@
 - type: entity
   parent: IDCardStandard
   id: CentcomIDCardSyndie
-  name: "посвідчення особи командного складу"
+  name: command officer ID card
   suffix: Fake
   components:
   - type: Sprite
@@ -782,7 +782,7 @@
 - type: entity
   parent: IDCardStandard
   id: MusicianIDCard
-  name: "посвідчення музиканта"
+  name: musician ID card
   components:
   - type: Sprite
     layers:
@@ -798,7 +798,7 @@
 - type: entity
   parent: CentcomIDCard
   id: CentcomIDCardDeathsquad
-  name: "посвідчення члена ескадрону смерті"
+  name: death squad ID card
   components:
   - type: Sprite
     layers:
@@ -814,7 +814,7 @@
     jobTitle: Centcom Agent
 
 - type: entity
-  name: "посвідчення особи пасажира"
+  name: passenger ID card
   parent: IDCardStandard
   id: AgentIDCard
   suffix: Agent
@@ -908,7 +908,7 @@
         type: ChameleonBoundUserInterface
 
 - type: entity
-  name: "посвідчення особи пасажира"
+  name: passenger ID card
   parent: AgentIDCard
   id: NukieAgentIDCard
   suffix: Nukie
@@ -922,7 +922,7 @@
 - type: entity
   parent: IDCardStandard
   id: AtmosIDCard
-  name: "посвідчення технічного спеціаліста з атмосферних явищ"
+  name: atmospheric technician ID card
   components:
   - type: Sprite
     layers:
@@ -938,7 +938,7 @@
 - type: entity
   parent: IDCardStandard
   id: SyndicateIDCard
-  name: "ідентифікаційна картка синдикату"
+  name: syndicate ID card
   components:
   - type: Sprite
     layers:
@@ -956,7 +956,7 @@
 - type: entity
   parent: IDCardStandard
   id: PirateIDCard
-  name: "піратське посвідчення особи"
+  name: pirate ID card
   components:
   - type: Sprite
     layers:
@@ -974,7 +974,7 @@
 - type: entity
   parent: IDCardStandard
   id: PsychologistIDCard
-  name: "посвідчення психолога"
+  name: psychologist ID card
   components:
   - type: Sprite
     layers:
@@ -990,7 +990,7 @@
 - type: entity
   parent: IDCardStandard
   id: ReporterIDCard
-  name: "посвідчення журналіста"
+  name: reporter ID card
   components:
   - type: Sprite
     layers:
@@ -1006,7 +1006,7 @@
 - type: entity
   parent: IDCardStandard
   id: BoxerIDCard
-  name: "посвідчення боксера"
+  name: boxer ID card
   components:
   - type: Sprite
     layers:
@@ -1022,7 +1022,7 @@
 - type: entity
   parent: IDCardStandard
   id: ZookeeperIDCard
-  name: "посвідчення працівника зоопарку"
+  name: zookeeper ID card
   components:
   - type: Sprite
     layers:
@@ -1038,7 +1038,7 @@
 - type: entity
   parent: IDCardStandard
   id: DetectiveIDCard
-  name: "посвідчення детектива"
+  name: detective ID card
   components:
   - type: Sprite
     layers:
@@ -1054,7 +1054,7 @@
 - type: entity
   parent: CentcomIDCard
   id: CBURNIDcard
-  name: "Ідентифікаційна картка CBURN"
+  name: CBURN ID card
   suffix: CBURN
   components:
   - type: Sprite
@@ -1073,7 +1073,7 @@
 - type: entity
   parent: IDCardStandard
   id: CluwneIDCard
-  name: "посвідчення особи cluwne"
+  name: cluwne ID card
   suffix: Unremoveable
   components:
   - type: Sprite
@@ -1092,7 +1092,7 @@
 - type: entity
   parent: IDCardStandard
   id: SeniorEngineerIDCard
-  name: "посвідчення старшого інженера"
+  name: senior engineer ID card
   components:
   - type: Sprite
     layers:
@@ -1108,7 +1108,7 @@
 - type: entity
   parent: IDCardStandard
   id: SeniorResearcherIDCard
-  name: "посвідчення старшого наукового співробітника"
+  name: senior researcher ID card
   components:
   - type: Sprite
     layers:
@@ -1124,7 +1124,7 @@
 - type: entity
   parent: IDCardStandard
   id: SeniorPhysicianIDCard
-  name: "посвідчення старшого лікаря"
+  name: senior physician ID card
   components:
   - type: Sprite
     layers:
@@ -1140,7 +1140,7 @@
 - type: entity
   parent: IDCardStandard
   id: SeniorOfficerIDCard
-  name: "посвідчення старшого офіцера"
+  name: senior officer ID card
   components:
   - type: Sprite
     layers:
@@ -1156,7 +1156,7 @@
 - type: entity
   parent: IDCardStandard
   id: BlueshieldIDCard
-  name: "Ідентифікаційна картка Blueshield"
+  name: Blueshield ID card
   components:
     - type: Sprite
       layers:
@@ -1170,7 +1170,7 @@
 - type: entity
   parent: IDCardStandard
   id: RoboticistIDCard
-  name: "Ідентифікаційна картка робототехніка"
+  name: Roboticist ID card
   components:
     - type: Sprite
       layers:

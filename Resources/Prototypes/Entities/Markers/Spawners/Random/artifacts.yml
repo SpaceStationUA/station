@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RandomArtifactSpawner
-  name: "генератор випадкових артефактів"
+  name: random artifact spawner
   parent: MarkerBase
   components:
     - type: Sprite
@@ -25,7 +25,7 @@
 
 - type: entity
   id: RandomArtifactSpawner20
-  name: "випадковий генератор артефактів [20]"
+  name: random artifact spawner [20]
   parent: RandomArtifactSpawner
   components:
     - type: RandomSpawner
