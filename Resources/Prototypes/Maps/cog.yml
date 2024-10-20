@@ -2,7 +2,7 @@
   id: Cog
   mapName: 'Коґ 35-70'
   mapPath: /Maps/cog.yml
-  minPlayers: 0
+  minPlayers: 10
   maxPlayers: 70
   stations:
     Cog:
@@ -28,7 +28,7 @@
             Reporter: [ 2, 2 ]
             Librarian: [ 1, 1 ]
             ServiceWorker: [ 3, 3 ]
-            Zookeeper: [ 1, 1 ] 
+            Zookeeper: [ 1, 1 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
             AtmosphericTechnician: [ 3, 3 ]
