@@ -1,8 +1,8 @@
 - type: entity
-  name: "звукова викрутка"
+  name: sonic screwdriver
   parent: BaseItem
   id: SonicScrewdriver
-  description: "Wzzzzz...."
+  description: Wzzzzz....
   components:
   - type: Sprite
     sprite: Goobstation/Objects/Tools/sonic_screwdriver.rsi
@@ -64,10 +64,10 @@
           
       
 - type: entity
-  name: "футуристичний УЗО"
+  name: futuristic RCD
   parent: RCD
   id: RCDChrono
-  description: "Інструмент, за допомогою якого можна побудувати станцію з нуля за лічені хвилини."
+  description: A tool that can build a station from scratch in minutes.
   components:
   - type: LimitedCharges
     maxCharges: 100

@@ -15,10 +15,10 @@
     - Belt
 
 - type: entity
-  name: "плазмовий пістолет"
+  name: плазмовий пістолет
   parent: BaseWeaponPowerCellSmall
   id: N14WeaponPlasmaPistol
-  description: "Надсучасний плазмовий пістолет."
+  description: A highly advanced plasma pistol.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Battery/plasma_pistol.rsi
@@ -50,10 +50,10 @@
       path: /Audio/Weapons/plasma_cutter.ogg
 
 - type: entity
-  name: "плазмова гвинтівка"
+  name: плазмова гвинтівка
   parent: BaseWeaponPowerCellMedium
   id: N14WeaponPlasmaRifle
-  description: "Надсучасна плазмова гвинтівка."
+  description: A highly advanced plasma rifle.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Battery/plasma_rifle.rsi
@@ -90,10 +90,10 @@
 
 
 - type: entity
-  name: "сучасна плазмова гвинтівка"
+  name: сучасна плазмова гвинтівка
   parent: BaseWeaponPowerCellMedium
   id: N14WeaponUrbanPlasmaRifle
-  description: "Серійна довоєнна плазмова гвинтівка, призначена для ближнього бою в міських умовах."
+  description: A mass produced pre war plasma rifle designed for close quarters combat in urban environments.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Battery/plasma_urban.rsi
@@ -129,10 +129,10 @@
       - FullAuto
 
 - type: entity
-  name: "мультиплазм"
+  name: мультиплазм
   parent: BaseWeaponPowerCellMedium
   id: N14WeaponMultiplas
-  description: "Модифікована міська плазмова гвинтівка, вона розподіляє плазму на кілька снарядів, але жертвує точністю."
+  description: A modified urban plasma rifle, it spreads the plasma into multiple projectiles but sacrifices accuracy.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Battery/multiplas.rsi
