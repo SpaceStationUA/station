@@ -25,10 +25,10 @@
 
 # Shotgun Shells
 - type: entity
-  name: shotgun beanbag cartridges dispenser
+  name: "дозатор набоїв для рушниці-мішка"
   parent: AmmoProviderShotgunShell
   id: BoxBeanbag
-  description: A dispenser box full of beanbag shots, designed for riot shotguns.
+  description: "Коробка-розподільник, наповнена набоями, призначеними для рушниць для масових заворушень."
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunBeanbag
@@ -38,10 +38,10 @@
         - state: shellbeanbag
 
 - type: entity
-  name: shotgun lethal cartridges dispenser
+  name: "дозатор патронів для дробовика"
   parent: AmmoProviderShotgunShell
   id: BoxLethalshot
-  description: A dispenser box full of lethal pellet shots, designed for riot shotguns.
+  description: "Коробка-розподільник зі смертоносними кулями, призначеними для рушниць для масових заворушень."
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgun
@@ -51,10 +51,10 @@
         - state: shelllethal
 
 - type: entity
-  name: shotgun slug cartridges dispenser
+  name: "дозатор патронів для дробовика"
   parent: AmmoProviderShotgunShell
   id: BoxShotgunSlug
-  description: A dispenser box full of slugs, designed for riot shotguns.
+  description: "Коробка з набоями, призначеними для рушниць, призначених для масових заворушень."
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunSlug
@@ -64,10 +64,10 @@
         - state: shellslug
 
 - type: entity
-  name: shotgun flare cartridges dispenser
+  name: "дозатор патронів для рушниць з сигнальними ракетами"
   parent: AmmoProviderShotgunShell
   id: BoxShotgunFlare
-  description: A dispenser box full of flare cartridges, designed for riot shotguns.
+  description: "Коробка-розподільник, наповнена сигнальними патронами, призначеними для рушниць для масових заворушень."
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunFlare
@@ -77,10 +77,10 @@
         - state: shellflare
 
 - type: entity
-  name: shotgun incendiary cartridges dispenser
+  name: "дозатор запалювальних патронів для рушниці"
   parent: AmmoProviderShotgunShell
   id: BoxShotgunIncendiary
-  description: A dispenser box full of incendiary cartridges, designed for riot shotguns.
+  description: "Коробка з запалювальними патронами, призначеними для рушниць для масових заворушень."
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunIncendiary
@@ -90,10 +90,10 @@
         - state: shellincendiary
 
 - type: entity
-  name: shotgun uranium cartridges dispenser
+  name: "дозатор уранових патронів для дробовика"
   parent: AmmoProviderShotgunShell
   id: BoxShotgunUranium
-  description: A dispenser box full of uranium cartridges, designed for riot shotguns.
+  description: "Коробка-розподільник з урановими патронами, призначеними для рушниць для масових заворушень."
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunUranium
@@ -103,10 +103,10 @@
         - state: shelluranium
 
 - type: entity
-  name: shotgun practice cartridges dispenser
+  name: "дозатор тренувальних патронів для дробовика"
   parent: AmmoProviderShotgunShell
   id: BoxShotgunPractice
-  description: A dispenser box full of practice cartridges, designed for riot shotguns.
+  description: "Коробка-розподільник з тренувальними патронами, призначеними для штурмових рушниць."
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunPractice
@@ -116,10 +116,10 @@
         - state: shellpractice
 
 - type: entity
-  name: tranquilizer cartridges dispenser
+  name: "дозатор картриджів з транквілізаторами"
   parent: AmmoProviderShotgunShell
   id: BoxShellTranquilizer
-  description: A dispenser box full of tranquilizer cartridges, designed for riot shotguns.
+  description: "Коробка з патронами з транквілізатором, призначеними для рушниць для масових заворушень."
   components:
     - type: BallisticAmmoProvider
       proto: ShellTranquilizer

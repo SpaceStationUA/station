@@ -1,7 +1,7 @@
 - type: entity
   id: PartGoblin
   parent: [BaseItem, BasePart]
-  name: "goblin body part"
+  name: "частина тіла гобліна"
   abstract: true
   components:
   - type: Extractable
@@ -14,7 +14,7 @@
 
 - type: entity
   id: TorsoGoblin
-  name: "Goblin torso"
+  name: "Тулуб гобліна"
   parent: [PartGoblin, BaseTorso]
   components:
   - type: Sprite
@@ -30,7 +30,7 @@
 
 - type: entity
   id: HeadGoblin
-  name: "Goblin head"
+  name: "Голова гобліна"
   parent: [PartGoblin, BaseHead]
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 
 - type: entity
   id: LeftArmGoblin
-  name: "left Goblin arm"
+  name: "ліва рука гобліна"
   parent: [PartGoblin, BaseLeftArm]
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 
 - type: entity
   id: RightArmGoblin
-  name: "right Goblin arm"
+  name: "права рука гобліна"
   parent: [PartGoblin, BaseRightArm]
   components:
   - type: Sprite
@@ -64,7 +64,7 @@
 
 - type: entity
   id: LeftHandGoblin
-  name: "left Goblin hand"
+  name: "ліва рука гобліна"
   parent: [PartGoblin, BaseLeftHand]
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
 
 - type: entity
   id: RightHandGoblin
-  name: "right Goblin hand"
+  name: "права рука гобліна"
   parent: [PartGoblin, BaseRightHand]
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 
 - type: entity
   id: LeftLegGoblin
-  name: "left Goblin leg"
+  name: "ліва нога Гобліна"
   parent: [PartGoblin, BaseLeftLeg]
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 
 - type: entity
   id: RightLegGoblin
-  name: "right Goblin leg"
+  name: "права нога гобліна"
   parent: [PartGoblin, BaseRightLeg]
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 
 - type: entity
   id: LeftFootGoblin
-  name: "left Goblin foot"
+  name: "ліва нога гобліна"
   parent: [PartGoblin, BaseLeftFoot]
   components:
   - type: Sprite
@@ -109,7 +109,7 @@
 
 - type: entity
   id: RightFootGoblin
-  name: "right Goblin foot"
+  name: "права нога гобліна"
   parent: [PartGoblin, BaseRightFoot]
   components:
   - type: Sprite

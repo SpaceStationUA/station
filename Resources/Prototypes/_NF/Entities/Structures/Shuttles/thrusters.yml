@@ -1,7 +1,7 @@
 - type: entity
   id: SmallThruster
   parent: Thruster
-  name: small thruster
+  name: "малий двигун"
   components:
   - type: Thruster
     baseThrust: 33
@@ -34,7 +34,7 @@
 - type: entity
   id: SmallGyroscope
   parent: Gyroscope
-  name: small gyroscope
+  name: "маленький гіроскоп"
   components:
   - type: Thruster
     thrusterType: Angular
