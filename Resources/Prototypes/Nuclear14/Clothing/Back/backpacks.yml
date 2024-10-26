@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackTrekker
-  name: "трекінговий рюкзак"
-  description: "Міцний рюкзак для транспортування відходів."
+  name: trekker backpack
+  description: A hard wearing backpack for travelling the wastes.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Back/Backpacks/trekkerpack.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackHiking
-  name: "туристичний рюкзак"
-  description: "Зносостійкий рюкзак для піших прогулянок по звалищах."
+  name: hiking backpack
+  description: A hard wearing backpack for hiking the wastes.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Back/Backpacks/hikingbackpack.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackExplorer
-  name: "рюкзак дослідника"
-  description: "Зносостійкий рюкзак для дослідження відходів."
+  name: explorer backpack
+  description: A hard wearing backpack for exploring the wastes.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Back/Backpacks/explorerpack.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: ClothingBackpack
   id: N14ClothingBackpackMilitary
-  name: "військовий рюкзак"
-  description: "Важкий рюкзак, який носять солдати."
+  name: military backpack
+  description: A hard wearing backpack worn by soldiers.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Back/Backpacks/military.rsi
