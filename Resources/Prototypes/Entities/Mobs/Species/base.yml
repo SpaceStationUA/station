@@ -145,8 +145,8 @@
     - TemporaryBlindness
     - Pacified
     - StaminaModifier
-    - PsionicsDisabled #Nyano - Summary: PCs can have psionics disabled.
-    - PsionicallyInsulated #Nyano - Summary: PCs can be made insulated from psionic powers.
+    - PsionicsDisabled
+    - PsionicallyInsulated
   - type: Reflect
     enabled: false
     reflectProb: 0
@@ -156,7 +156,6 @@
   - type: Identity
   - type: IdExaminable
   - type: Hands
-  - type: Internals
   - type: Inventory
   - type: InventorySlots
   - type: FloatingVisuals
@@ -284,6 +283,8 @@
     - Muted
     - Pacified
     - StaminaModifier
+    - PsionicsDisabled
+    - PsionicallyInsulated
   - type: Blindable
   # Other
   - type: Temperature

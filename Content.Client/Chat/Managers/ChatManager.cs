@@ -72,11 +72,6 @@ namespace Content.Client.Chat.Managers
                     _consoleHost.ExecuteCommand($"tsay \"{CommandParsing.Escape(str)}\"");
                     break;
 
-                // Parkstation - Shadowkin chat
-                case ChatSelectChannel.Empathy:
-                    _consoleHost.ExecuteCommand($"esay \"{CommandParsing.Escape(str)}\"");
-                    break;
-
                 case ChatSelectChannel.XenoHivemind:
                     _consoleHost.ExecuteCommand($"aliensay \"{CommandParsing.Escape(str)}\"");
                     break;

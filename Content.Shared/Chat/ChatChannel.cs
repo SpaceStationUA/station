@@ -93,14 +93,9 @@ namespace Content.Shared.Chat
         XenoHivemind = 2 << 2,
 
         /// <summary>
-        ///     PIRATE Empathy channel for Shadowkin.
-        /// </summary>
-        Empathy = 1 << 16,
-
-        /// <summary>
         ///     Channels considered to be IC.
         /// </summary>
-        IC = Local | Whisper | Radio | Dead | Emotes | Damage | Visual | Telepathic | Notifications | XenoHivemind | Empathy, //Nyano - Summary: Adds telepathic as an 'IC' labelled chat..
+        IC = Local | Whisper | Radio | Dead | Emotes | Damage | Visual | Telepathic | Notifications | XenoHivemind, //Nyano - Summary: Adds telepathic as an 'IC' labelled chat..
 
         AdminRelated = Admin | AdminAlert | AdminChat,
     }

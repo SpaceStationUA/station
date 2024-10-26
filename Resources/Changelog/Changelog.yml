@@ -6860,3 +6860,240 @@ Entries:
   id: 6459
   time: '2024-10-17T19:21:01.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1058
+- author: zelezniciar
+  changes:
+    - type: Fix
+      message: Виправлено, що повітряні тривоги не переходять у стан небезпеки/попередження при низькому тиску
+  id: 6460
+  time: '2024-10-19T08:25:27.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/996
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено проблеми з системою контестів, які дозволяли мобам, таким як космічні
+        коропи, прориватися через бар'єри, які не призначені для руйнування цими мобами.
+  id: 6461
+  time: '2024-10-19T08:26:32.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1069
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено, що криптобіолін не надавав тимчасової псіонічної ізоляції. Тепер він
+        забезпечує захист від псіонічних здібностей та подій на 15 хвилин.
+  id: 6462
+  time: '2024-10-19T08:28:28.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1081
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Арена тепер має повністю функціональний причал прибуття.
+  id: 6463
+  time: '2024-10-19T08:30:22.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1086
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: 'Команда ''addpsionicpower'' тепер працює.'
+  id: 6464
+  time: '2024-10-19T08:34:03.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1095
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Синдикат значно розширив свої операції на прослуховувальних постах, з більшими,
+        краще захищеними аванпостами. Ці нові аванпости також служать складами постачання
+        для агентів Синдикату на місцях.
+  id: 6465
+  time: '2024-10-19T08:45:44.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1065
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено завдання «Вкрасти зброю голови служби безпеки», щоб воно тепер було
+        однією ціллю, яка рахується для будь-якої унікальної зброї, обраної головою служби
+        безпеки. Завдання також знову правильно не з'являтиметься, якщо на станції немає
+        дійсних предметів для нього.
+  id: 6466
+  time: '2024-10-19T21:28:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1084
+- author: Mocho
+  changes:
+    - type: Add
+      message: Додано комунікатор з 20 ТК для всіх оперативників на постах прослуховування
+  id: 6467
+  time: '2024-10-19T21:28:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1062
+- author: FoxxoTrystan
+  changes:
+    - type: Add
+      message: Білий список професій!
+  id: 6468
+  time: '2024-10-19T22:10:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1093
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Портовано буквально всі покращення зручності використання двохручного використання від Wizden.
+  id: 6469
+  time: '2024-10-20T01:45:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1078
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Перебування в атмосфері (наприклад, на планетах, таких як Глейшер та Нюкворлд)
+        обходить обмеження «НЕ РОЗМОВЛЯТИ В КОСМОСІ»
+  id: 6470
+  time: '2024-10-20T05:40:19.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1089
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        «Подих життя» тепер правильно відображає своє езотеричне спливаюче повідомлення,
+        якщо виконані необхідні умови.
+  id: 6471
+  time: '2024-10-20T16:03:28.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1109
+- author: FoxxoTrystan
+  changes:
+    - type: Add
+      message: Додано новий вид — Тіньовики!
+  id: 6472
+  time: '2024-10-20T16:31:21.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/960
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Видалено спавнери пізнього приєднання з шляхопрокладача збирання.
+  id: 6473
+  time: '2024-10-20T16:32:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1105
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Музиканти тепер можуть безкоштовно вибрати будь-які 3 інструменти в грі зі своєю
+        екіпіровкою. Це тепер включає такі речі, як плоскі піаніно. Єдині інструменти, які
+        не включені, це Sypersynth, DAW та «Адмінські інструменти».
+    - type: Remove
+      message: >-
+        Музиканти більше не з'являються зі саксофоном та акустичною гітарою за замовчуванням.
+        Тепер ви обираєте, з якими інструментами ви з'являєтеся, у своїй екіпіровці.
+  id: 6474
+  time: '2024-10-20T16:32:53.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1108
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: 'Додано локалізації для всіх професій Епістеміків.'
+  id: 6475
+  time: '2024-10-20T16:35:00.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1094
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено відсутність LV кабелю в кабінеті капітана на станції Гакс, який
+        забезпечує живлення його дверей.
+  id: 6476
+  time: '2024-10-20T18:18:35.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1112
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено, що в'язень не з'являється у в'язниці, якщо станція прибуття увімкнена.
+  id: 6477
+  time: '2024-10-20T19:28:35.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1113
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано можливість жертвоприношення псіоніків. Псіоніки можуть бути принесені в жертву
+        Епістеміками на вівтарі, щоб значно знизити мерехтіння. Чим сильніший псіонік, якого
+        жертвують, тим більше знижується мерехтіння.
+  id: 6478
+  time: '2024-10-20T21:34:05.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1110
+- author: Aidenkrz
+  changes:
+    - type: Fix
+      message: Текст опису персонажа знову можна оновлювати.
+  id: 6479
+  time: '2024-10-21T00:24:18.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1119
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Глейшер тепер знаходиться на поверхні планети
+  id: 6480
+  time: '2024-10-21T00:41:02.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1115
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Станція Зірка більше не з'являється, похована в снігу, і тепер знаходиться на
+        вершині крижаного покриву.
+  id: 6481
+  time: '2024-10-21T00:41:18.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1118
+- author: Aidenkrz
+  changes:
+    - type: Fix
+      message: Назва кастомного виду більше не зникає в редакторі.
+  id: 6482
+  time: '2024-10-22T01:42:11.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1120
+- author: Remuchi
+  changes:
+    - type: Fix
+      message: Повідомлення при огляді кіберочей більше не розкриває особистість людини.
+  id: 6483
+  time: '2024-10-23T04:16:15.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1127
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Надто високе підвищення мерехтіння тепер може призвести до того, що мерехтливі
+        духи почнуть переслідувати псіоників на станції.
+  id: 6484
+  time: '2024-10-23T04:19:00.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1125
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено, що риса «високе підсилення» знижувала ваше підсилення замість того, щоб
+        збільшувати його.
+  id: 6485
+  time: '2024-10-25T16:22:01.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1137
+- author: Remuchi
+  changes:
+    - type: Fix
+      message: Додано відсутню локалізацію попередження про відбиття.
+  id: 6486
+  time: '2024-10-25T16:23:04.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1140
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Додано «Пірокінетичний спалах» як нову псіонічну здібність.
+  id: 6487
+  time: '2024-10-25T19:03:57.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1138
+- author: SleepyScarecrow
+  changes:
+    - type: Fix
+      message: Виправлено кишенькові ліхтарики
+  id: 6488
+  time: '2024-10-25T19:04:14.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1142

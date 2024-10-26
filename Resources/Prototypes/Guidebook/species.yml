@@ -12,6 +12,7 @@
     - SlimePerson
     - IPCs
     - Harpy
+    - Shadowkin
 
 - type: guideEntry
   id: Arachnid
@@ -57,6 +58,11 @@
   id: Harpy
   name: species-name-harpy
   text: "/ServerInfo/Guidebook/Mobs/Harpy.xml"
+  
+- type: guideEntry
+  id: Shadowkin
+  name: species-name-shadowkin
+  text: "/ServerInfo/Guidebook/Mobs/Shadowkin.xml"
 
 #PIRATE UNTIL END OF FILE
 - type: guideEntry
@@ -81,11 +87,3 @@
   - SpeciesFelinid
   - SpeciesMoff
   - SpeciesOni
-
-- type: guideEntry
-  id: SimpleStationSpecies
-  name: guide-entry-simplestation-species
-  text: "/ServerInfo/SimpleStation14/Guidebook/Species/SimpleStationSpecies.xml"
-  children:
-  # - SpeciesPlasmaman
-  - SpeciesShadowkin

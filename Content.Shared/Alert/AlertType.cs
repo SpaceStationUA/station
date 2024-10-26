@@ -74,9 +74,9 @@ namespace Content.Shared.Alert
         BorgHealth,
         BorgCrit,
         BorgDead,
-		Offer,
-//Pirate START
+        Offer,
         ShadowkinPower,
+//Pirate START
         MageMana,
         Charge, //IPC
 		Caged, //IPC

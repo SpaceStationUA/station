@@ -56,11 +56,6 @@
         /// </summary>
         Telepathic = ChatChannel.Telepathic,
 
-        /// <summary>
-        ///    PIRATE Shadowkin empathy channel
-        /// </summary>
-        Empathy = ChatChannel.Empathy,
-
         XenoHivemind = ChatChannel.XenoHivemind,
 
         Console = ChatChannel.Unspecified

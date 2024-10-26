@@ -18,6 +18,5 @@ public enum AlertCategory
     Thirst,
     Toxins,
     Battery,
-    Counter,
-    ShadowkinPower // Pirate
+    Counter
 }

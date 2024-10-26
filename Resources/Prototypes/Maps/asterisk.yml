@@ -7,8 +7,6 @@
     Asterisk:
       stationProto: StandardNanotrasenStation
       components:
-        - type: StationBiome
-          biome: Snow
         - type: StationRandomTransform
           enableStationRotation: false
           maxStationOffset: null

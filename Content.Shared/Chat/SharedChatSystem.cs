@@ -24,7 +24,6 @@ public abstract class SharedChatSystem : EntitySystem
     public const char WhisperPrefix = ',';
     public const char TelepathicPrefix = '='; //Nyano - Summary: Adds the telepathic channel's prefix.
     public const char DefaultChannelKey = 'р';
-    public const char EmpathyPrefix = '~'; //PIRATE Shadowkin
 	public const char XenoHivemindPrefix = 'a';
 
     [ValidatePrototypeId<RadioChannelPrototype>]
@@ -263,8 +262,7 @@ public enum InGameICChatType : byte
     Speak,
     Emote,
     Whisper,
-    Telepathic,
-	Empathy //Pirate Shadowkin
+    Telepathic
 }
 
 /// <summary>
