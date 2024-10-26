@@ -121,3 +121,24 @@ telekinetic-pulse-power-metapsionic-feedback = {CAPITALIZE($entity)} має су
 # Повідомлення Псіонічної системи
 entity-anomaly-no-grid = Мені ніде викликати істот.
 power-overwhelming-power-feedback = {CAPITALIZE($entity)} має широкі зв'язки з ноосферою
+no-mana = Я не можу спрямувати достатньо енергії.
+
+# ♪ Розвіяти
+revivify-start = {CAPITALIZE($entity)} виголошує слово такої божественної сили, що ті, хто його чує, плачуть від радості.
+
+# Telegnosis
+action-name-pyrokinetic-flare = Пірокінетичний спалах
+action-description-pyrokinetic-flare = Згенеруйте спалах вогню з Геєни, щоб засліпити своїх супротивників.
+pyrokinetic-flare-power-description = { action-description-pyrokinetic-flare }
+pyrokinetic-flare-power-initialization-feedback = Мій погляд ненадовго наповнюється спалахом величезного світла, і голова паморочиться, і на одну-єдину мить я бачу королівство
+    вогню і болю, голоду і страждань. Тільки-но я його побачив, як видіння зникає. Але пам'ять про цей спалах залишається в моїй свідомості.
+    Я й досі можу згадати його, проблиск вогню Геєни.
+pyrokinetic-flare-power-metapsionic-feedback = Це навіть не має значення, тому що ніхто не може прочитати цей рядок у грі, і я не знаю, коли я коли-небудь поверну Narrow Pulse
+
+# Повідомлення псіонічної системи
+action-description-shadowkin-shadeskip = Аарамрра!
+
+# DarkSwap
+action-name-darkswap = DarkSwap
+action-description-darkswap = Ммра Мамм!
+ethereal-pickup-fail = Моя рука обпікається, коли вона проходить крізь нього...

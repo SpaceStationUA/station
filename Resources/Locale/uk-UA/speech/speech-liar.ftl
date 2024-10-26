@@ -130,4 +130,4 @@ liar-word-replacement-43 = немає
 liar-word-44 = немає
 liar-word-replacement-44 = є
 
-liar-word-34-2 = ya
+liar-word-34-2 = так

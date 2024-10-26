@@ -58,3 +58,8 @@ chat-emote-msg-cathisses = шипить!
 chat-emote-msg-monkeyscreeches = мавп'ячі крики!
 chat-emote-msg-yawn = позіхає.
 chat-emote-msg-snore = хропе.
+
+chat-emote-name-mars = Марс
+chat-emote-name-wurble = Вурбл!
+
+# Message

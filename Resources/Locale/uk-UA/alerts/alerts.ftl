@@ -114,3 +114,5 @@ alerts-offer-name = Пропозиція
 alerts-offer-desc = Хтось пропонує вам товар.
 alerts-walking-name = Ходьба
 alerts-walking-desc = Показує, з якою швидкістю ви рухаєтеся.
+alerts-deflecting-name = Відхилення
+alerts-deflecting-desc = У вас є шанс відхилити снаряди, що летять на вас. Стоячи на місці або повільно рухаючись, ви збільшуєте цей шанс.

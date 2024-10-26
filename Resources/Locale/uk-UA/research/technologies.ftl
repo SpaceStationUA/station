@@ -89,3 +89,4 @@ research-technology-bluespace-chemistry = Блюспейс Хімія
 research-technology-hardsuits-scaf = Армований скафандр
 
 research-technology-mechanized-salvaging = Механізоване шахтерство
+research-technology-advanced-bluespace = Поглиблене дослідження блакитного простору

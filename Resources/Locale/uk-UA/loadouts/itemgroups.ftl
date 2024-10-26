@@ -100,3 +100,7 @@ character-item-group-LoadoutChefUniforms = Шеф-кухарська уніфо�
 character-item-group-LoadoutJanitorUniforms = Уніформа для прибиральників
 
 # Послуга - Музикант
+character-item-group-LoadoutChaplainUniforms = Капеланська форма
+character-item-group-LoadoutChaplainEquipment = Спорядження капелана
+
+# Медичне

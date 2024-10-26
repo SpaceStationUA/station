@@ -11,3 +11,5 @@ metabolizer-type-moth = Міль
 metabolizer-type-arachnid = Павукоподібний
 metabolizer-type-vampiric = Вампірський
 metabolizer-type-liquorlifeline = Алкогольна підтримка життя
+
+metabolizer-type-shadowkin = Тіньовик

@@ -162,3 +162,6 @@ chat-speech-verb-oni-1 = хрюкає
 chat-speech-verb-oni-2 = сильфони
 chat-speech-verb-oni-3 = крики
 chat-speech-verb-oni-4 = гуркіт
+chat-speech-verb-marish = Марс.
+
+#ПІРАТСЬКИЙ СТАРТ

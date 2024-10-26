@@ -11,3 +11,4 @@ species-name-skeleton = Скелет
 species-name-vox = Вокс
 species-name-arachne = Арахна
 species-name-ipc = ІПШ
+species-name-shadowkin = Тіньовик

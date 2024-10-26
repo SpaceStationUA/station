@@ -1,2 +1,2 @@
-alerts-shadowkin-power-name = Рівень потужності
-alerts-shadowkin-power-desc = Скільки енергії ви повинні витратити через свої здібності.
+alerts-shadowkin-power-name = Рівень сили
+alerts-shadowkin-power-desc = Скільки енергії можна витратити на тіньові здібності.

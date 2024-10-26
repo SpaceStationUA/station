@@ -74,3 +74,4 @@ guide-entry-botanical = Ботанічні препарати
 guide-entry-altars-golemancy = Вівтарі та големанство
 guide-entry-psionics = Псіоніка
 guide-entry-reverse-engineering = Реінжиніринг
+guide-entry-glimmer-creatures = Мерехтливі істоти
