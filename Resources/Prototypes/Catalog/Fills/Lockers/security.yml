@@ -220,7 +220,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeDisabler
-  name: disabler safe
+  name: "сейф з функцією відключення"
   components:
   - type: StorageFill
     contents:
@@ -230,7 +230,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafePistolMk58
-  name: mk58 safe
+  name: "сейф для MK58"
   components:
   - type: StorageFill
     contents:
@@ -242,7 +242,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeRifleLecter
-  name: lecter safe
+  name: "сейф для лектора"
   components:
   - type: StorageFill
     contents:
@@ -254,7 +254,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeSubMachineGunDrozd
-  name: drozd safe
+  name: "drozd safe"
   components:
   - type: StorageFill
     contents:
@@ -266,7 +266,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeShotgunEnforcer
-  name: enforcer safe
+  name: "сейф для Enforcer"
   components:
   - type: StorageFill
     contents:
@@ -278,7 +278,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeShotgunKammerer
-  name: kammerer safe
+  name: "сейф для каммерера"
   components:
   - type: StorageFill
     contents:
@@ -291,7 +291,7 @@
   id: GunSafeSubMachineGunWt550
   suffix: Wt550
   parent: GunSafe
-  name: wt550 safe
+  name: "сейф для WT550 "
   components:
   - type: StorageFill
     contents:
@@ -303,7 +303,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeLaserCarbine
-  name: laser safe
+  name: "сейф для лазерних карабінів"
   components:
   - type: StorageFill
     contents:
