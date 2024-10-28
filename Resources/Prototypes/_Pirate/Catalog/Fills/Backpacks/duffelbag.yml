@@ -26,3 +26,18 @@
         - id: HolyGrenadeDummy
           amount: 4
         - id: HolyHandGrenade
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateFilledCQC
+  name: CQC bundle
+  description: "CQC."
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHandsSyndieCombat
+      - id: ClothingSyndieLeatherMask
+      - id: DeathTagSyndie
+      - id: ClothingOuterSyndieSuit
+      - id: ClothingEyesSyndieVisor
+      - id: ClothingBeltSyndieWest
