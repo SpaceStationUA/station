@@ -101,7 +101,7 @@ liar-word-34 = хочу
 liar-word-replacement-34 = не хочу
 
 liar-word-35 = не
-liar-word-replacement-35 = ""
+liar-word-replacement-35 = та
 
 liar-word-36 = правда
 liar-word-replacement-36 = неправда
