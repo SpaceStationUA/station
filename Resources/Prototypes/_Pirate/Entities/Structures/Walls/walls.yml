@@ -1,0 +1,16 @@
+- type: entity
+  parent: BaseWall
+  id: WallBackroomsIndestructible
+  name: backrooms wall
+  suffix: Геловін
+  components:
+    - type: Tag
+      tags:
+        - Wall
+    - type: Sprite
+      sprite: _Pirate/Structures/Walls/backrooms.rsi
+    - type: Icon
+      sprite: _Pirate/Structures/Walls/backrooms.rsi
+    - type: IconSmooth
+      key: walls
+      base: backrooms

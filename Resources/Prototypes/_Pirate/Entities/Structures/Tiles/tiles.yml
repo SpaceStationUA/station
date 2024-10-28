@@ -1,0 +1,24 @@
+- type: tile
+  id: FloorBackroom
+  name: floor backroom
+  suffix: Геловін
+  sprite: /Textures/_Pirate/Tiles/backroom.png
+  baseTurf: Plating
+  isSubfloor: false
+  # deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: FloorTileItemSteelMaint
+  heatCapacity: 10000
+  tileRipResistance: 225
+
+# - type: entity
+#   name: backrooms tile
+#   parent: FloorTileItemBase
+#   id: FloorTileBackrooms
+#   suffix: Геловін
+#   components:
+#   - type: Sprite
+#     sprite: _Pirate/Structures/Tiles/backrooms.rsi
+#     state: icon
+#   - type: FloorTile
