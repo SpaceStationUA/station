@@ -62,10 +62,10 @@
     nameSegments: [names_golem]
 
 - type: entity
-  name: Remilia
+  name: "Ремілія"
   parent: BaseMobPsionicFamiliar
   id: MobBatRemilia
-  description: The chaplain's familiar. Likes fruit.
+  description: "Капелана я знаю. Любить фрукти."
   components:
   - type: GhostRole
     makeSentient: true
@@ -125,10 +125,10 @@
         Piercing: 5
 
 - type: entity
-  name: Cerberus
+  name: "Цербер"
   parent: MobCorgiNarsi
   id: MobCorgiCerberus
-  description: This pupper is not wholesome.
+  description: "Це цуценя не є здоровим."
   components:
   - type: GhostRole
     makeSentient: true
@@ -192,10 +192,10 @@
       Unsexed: Cerberus
 
 - type: entity
-  name: imp familiar
+  name: "знайомий біс"
   parent: BaseMobPsionicFamiliar
   id: MobPsionicFamiliarImp
-  description: A living mote of flame summoned from Gehenna.
+  description: "Жива крихта полум'я, викликана з Геєни."
   components:
   - type: Sprite
     drawdepth: Mobs

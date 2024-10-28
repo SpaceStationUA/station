@@ -1,8 +1,8 @@
 - type: entity
-  name: viper
+  name: "гадюка"
   parent: BaseWeaponPistol
   id: WeaponPistolViperWood
-  description: A small, low-power pistol with pleasant lacquered wooden grips. Uses .35 auto ammo.
+  description: "Невеликий, малопотужний пістолет з приємними лакованими дерев'яними ручками. Використовує автоматичні набої калібру .35."
   suffix: Wood
   components:
   - type: Sprite
@@ -34,10 +34,10 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: Pollock
+  name: "Минтай"
   parent: BaseWeaponPistol
   id: WeaponPistolPollock
-  description: A compact and mass-produced combat pistol. Uses .35 auto ammo.
+  description: "Компактний та серійний бойовий пістолет. Використовує автоматичні набої калібру .35."
   suffix: Mercenary
   components:
   - type: Sprite
@@ -73,10 +73,10 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: psi-breaker
+  name: "пси-зломщик"
   parent: BaseWeaponPistol
   id: WeaponPistolPsiBreaker
-  description: A small, flashy pistol with a marble style grip. Provides no tactical advantage. Uses .38 special ammo.
+  description: "Невеликий, яскравий пістолет з мармуровою рукояткою. Тактичної переваги не дає. Використовує спеціальні набої калібру .38."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Pistols/psibreaker.rsi
