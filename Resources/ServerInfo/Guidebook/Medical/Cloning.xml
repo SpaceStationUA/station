@@ -1,23 +1,24 @@
 <Document>
-# Cloning
-If all else fails, patients will need to be cloned. This should only be used as a last resort, if recovery is impossible. This is most often the case when the body has started to rot, or if they have excessive amounts of damage.
+  # Клонування
+  Якщо нічого іншого не допомагає, пацієнтів доведеться клонувати. Це має використовуватися лише як останній засіб, якщо відновлення неможливе. Найчастіше це трапляється, коли тіло почало гнити або якщо вони мають надмірну кількість пошкоджень.
 
-Cloning itself is relatively simple. (Assuming the network is set.) Just drag a body into the scanner, check the cloning console, and clone! If they've taken cellular damage, or have rotted for too long, the results can be... less than pleasant.
+  Сам процес клонування відносно простий. (За умови, що мережа налаштована.) Просто перетягніть тіло в сканер, перевірте консоль клонування і почніть клонування! Якщо вони зазнали клітинних пошкоджень або гнили занадто довго, результати можуть бути... менш ніж приємними.
 
-As a note: Cloning isn't always available, and it would be best not to rely on it. Epistemics might be able to set up cloning, if it's unavailable.
-<Box>
-<GuideEntityEmbed Entity="ComputerCloningConsole" Caption="cloning console"/>
-<GuideEntityEmbed Entity="MedicalScanner"/>
-<GuideEntityEmbed Entity="CloningPod"/>
-<GuideEntityEmbed Entity="NetworkConfigurator"/>
-</Box>
-## Biomass
-Creating a clone requires biomass, which, gruesomely, involves recycling organic material. Be it crew members without a soul, station pets, or hostile creatures that have been 'taken care of', things can often be recycled.
+  Зазначимо: Клонування не завжди доступне, і краще не покладатися на нього. Епістеміки можуть налаштувати клонування, якщо воно недоступне.
+  <Box>
+    <GuideEntityEmbed Entity="ComputerCloningConsole" Caption="консоль клонування"/>
+    <GuideEntityEmbed Entity="MedicalScanner"/>
+    <GuideEntityEmbed Entity="CloningPod"/>
+    <GuideEntityEmbed Entity="NetworkConfigurator"/>
+  </Box>
 
-Dragging a body onto the biomass reclaimer (with your cursor) will mulch it for re-use. If it's a crew member, it's common practice to strip the body and return departmental gear before doing such.
-<Box>
-<GuideEntityEmbed Entity="BiomassReclaimer"/>
-<GuideEntityEmbed Entity="MaterialBiomass"/>
-</Box>
+  ## Біомаса
+  Створення клону потребує біомаси, що, як не дивно, включає переробку органічного матеріалу. Це можуть бути члени екіпажу без душі, станційні вихованці або ворожі істоти, які були "знешкоджені", - усе це можна переробити.
+
+  Перетягування тіла на установку для збору біомаси (за допомогою курсору) подрібнить його для повторного використання. Якщо це член екіпажу, зазвичай перед цим знімають обладнання і повертають його в департамент.
+  <Box>
+    <GuideEntityEmbed Entity="BiomassReclaimer"/>
+    <GuideEntityEmbed Entity="MaterialBiomass"/>
+  </Box>
 
 </Document>

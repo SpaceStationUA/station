@@ -1,60 +1,60 @@
 <Document>
-  # Minor Antagonists
+  # Другорядні антагоністи
 
-  Most if not all Minor Antagonists are ghost-controlled roles that gives dead people new ways to cause chaos around the station. They are spawned by random events.
+  Більшість, якщо не всі другорядні антагоністи, - це ролі, якими керують гравці-привиди, що дає загиблим нові способи створювати хаос на станції. Вони з'являються під час випадкових подій.
 
-  # Revenant
+  # Привид
 
   <Box>
     <GuideEntityEmbed Entity="MobRevenant" Caption=""/>
     <GuideEntityEmbed Entity="Ectoplasm" Caption=""/>
   </Box>
 
-  A Revenant is given powers to haunt the crew and steal life essence from them.
+  Привид отримує сили для того, щоб лякати команду і красти життєву есенцію.
 
-  ## Essence
+  ## Есенція
 
-  - Your [color=#a4885c]essence[/color] is your very own life force and a way to use abilities for a cost, don't let it drop to 0.
-  - To gain [color=#a4885c]essence[/color] you first inspect various souls for their worth. More worthy souls grant more essence.
-  However merely checking their worth isn't enough for collecting [color=#a4885c]essence[/color]. You must siphon it either when the victim is critical, dead, or sleeping.
-  - A good start is to go to medical or dorms but be wary, you are vulnerable to attacks when you siphon a soul. Taking damage reduces your [color=#a4885c]essence[/color]! So plan your attacks wisely.
+  - Ваша [color=#a4885c]есенція[/color] - це ваша власна життєва сила та спосіб використовувати здібності за ціну, не допускайте зниження її до 0.
+  - Щоб отримати [color=#a4885c]есенцію[/color], ви спершу оглядаєте різні душі на їхню цінність. Більш цінні душі надають більше есенції.
+  Однак простий огляд не достатній для збору [color=#a4885c]есенції[/color]. Ви повинні висмоктати її, коли жертва знаходиться у критичному стані, мертва або спить.
+  - Хороший старт - це відправитися до медичного відділу або до гуртожитку, але будьте обережні, ви вразливі до атак, коли висмоктуєте душу. Отримання ушкоджень зменшує вашу [color=#a4885c]есенцію[/color]! Тому плануйте свої атаки з розумом.
 
-  ## Shop And Powers
+  ## Магазин та сили
 
-  - Using [color=#a4885c]stolen essence[/color] gotten from siphoning souls, you can gain skills for mischief such as environmental destruction, electrical disruption, and electrocution through the shop.
-  - Using powers leave you vulnerable to attacks for some time, plan ahead and prepare before attacking.
+  - Використовуючи [color=#a4885c]вкрадену есенцію[/color], отриману під час висмоктування душ, ви можете придбати навички для розваг, такі як руйнування оточення, електричні збої та ураження струмом через магазин.
+  - Використання здібностей робить вас вразливими до атак на певний час, плануйте наперед і підготуйтеся перед атакою.
 
-  # Rat King
-
-  <Box>
-    <GuideEntityEmbed Entity="MobRatKing" Scale="2.4" Caption="Normal Rat King"/>
-    <GuideEntityEmbed Entity="MobRatKingBuff" Caption="Buff Rat King"/>
-  </Box>
-
-  A Rat King is a giant rat capable of setting a nest and creating rats to do their bidding (usually to get food).
-
-  ## Abilities
-
-  Abilities come at a cost to the Rat King's hunger. Simply eating replenishes it.
+  # Король щурів
 
   <Box>
-   <GuideEntityEmbed Entity="MobMouse" Caption="Normal Mouse"/>
-   <GuideEntityEmbed Entity="MobRatServant" Caption="Rat Servant"/>
+    <GuideEntityEmbed Entity="MobRatKing" Scale="2.4" Caption="Звичайний король щурів"/>
+    <GuideEntityEmbed Entity="MobRatKingBuff" Caption="Посилений король щурів"/>
   </Box>
-  - Raise an Army of [color=#a4885c]Rat Servants[/color].
-  - Conjure a cloud of ammonia.
 
-  # Space Dragon
+  Король щурів - це величезний щур, здатний створювати гніздо та створювати щурів для виконання своїх наказів (зазвичай для здобуття їжі).
+
+  ## Здібності
+
+  Здібності коштують Королю щурів голоду. Просте поїдання поповнює його.
+
+  <Box>
+    <GuideEntityEmbed Entity="MobMouse" Caption="Звичайна миша"/>
+    <GuideEntityEmbed Entity="MobRatServant" Caption="Слуга щур"/>
+  </Box>
+  - Підніміть армію [color=#a4885c]Слуг щурів[/color].
+  - Викликайте хмару аміаку.
+
+  # Космічний дракон
 
   <Box>
     <GuideEntityEmbed Entity="MobDragon" Caption=""/>
   </Box>
 
-  A Space Dragon is a giant dragon that creates space carp rifts and eats the crew.
+  Космічний дракон - це гігантський дракон, який створює розриви для космічних коропів і їсть команду.
 
-  ## Abilities
+  ## Здібності
 
-  - Devour critical or dead victims.
+  - Поглинайте критичних або мертвих жертв.
 
   <Box>
     <GuideEntityEmbed Entity="MobCarp" Caption=""/>
@@ -62,6 +62,6 @@
     <GuideEntityEmbed Entity="MobCarp" Caption=""/>
   </Box>
 
-  - Summon a Carp Rift that periodically spawns [color=#a4885c]Space Carp[/color].
+  - Викликайте розрив коропів, який періодично створює [color=#a4885c]космічних коропів[/color].
 
 </Document>

@@ -1,50 +1,49 @@
 <Document>
-# Cryogenics
-Cryogenics can be a bit daunting to understand, but hopefully, quick run through of this diagram, you'll learn how to work it! So, let's go over what each part does:
+  # Кріогеніка
+  Кріогеніку може бути трохи важко зрозуміти, але, сподіваюся, швидкий огляд цієї схеми допоможе вам навчитися, як це працює! Отже, давайте розглянемо, що робить кожна частина:
 
-- Air in: Air comes in here through the distro or an air tank, giving those inside something to breathe, and the freezer something to chill.
-- Gas pump: Limits the network pressure, so those in the tube aren't crushed.
-- Freezer: Chills the air, and by extension, patients in the tube, so Cryoxadone can activate.
-- Gas filters: Removes waste gas (Carbon Dioxide and Nitrous Oxide) from the loop.
-- Air out: Waste gasses go here, either into a storage tank, or into the waste network.
-<Box>
-<GuideEntityEmbed Entity="GasPipeBend" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPipeBend" Rotation="0"/>
-<GuideEntityEmbed Entity="CryoPod" Caption="cryo pod" Rotation="0"/>
-<GuideEntityEmbed Entity="GasThermoMachineFreezerEnabled" Rotation="0"/>
-</Box>
-<Box>
-<GuideEntityEmbed Entity="GasPipeBend" Rotation="180"/>
-<GuideEntityEmbed Entity="GasFilterFlipped" Rotation="90"/>
-<GuideEntityEmbed Entity="GasFilterFlipped" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
-<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
-<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="270"/>
-</Box>
-<Box>
-<GuideEntityEmbed Entity="GasPort" Caption="air out" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
-<GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
-<GuideEntityEmbed Entity="GasPort" Caption="air in" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPressurePump" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
-</Box>
+  - Вхід повітря: Повітря надходить сюди через дистриб'ютор або балон з повітрям, надаючи тим, хто всередині, щось для дихання, а морозильнику - щось для охолодження.
+  - Газовий насос: Обмежує тиск у мережі, щоб ті, хто знаходиться в трубі, не були роздавлені.
+  - Морозильник: Охолоджує повітря, а разом із ним і пацієнтів у трубі, щоб Cryoxadone міг активуватися.
+  - Газові фільтри: Видаляють відпрацьований газ (вуглекислий газ і закис азоту) з контуру.
+  - Вихід повітря: Відпрацьовані гази надходять сюди, або в резервуар для зберігання, або в мережу відходів.
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="0"/>
+    <GuideEntityEmbed Entity="CryoPod" Caption="кріопод" Rotation="0"/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezerEnabled" Rotation="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="180"/>
+    <GuideEntityEmbed Entity="GasFilterFlipped" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasFilterFlipped" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="270"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="GasPort" Caption="вихід повітря" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
+    <GuideEntityEmbed Entity="GasPort" Caption="вхід повітря" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPressurePump" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
+  </Box>
 
-Not every network will look like this, but hopefully, it's enough to give you the basic gist of how it's functioning.
+  Не кожна мережа виглядатиме саме так, але, сподіваюся, цього достатньо, щоб дати вам основне уявлення про те, як це працює.
 
-An important thing to note, winter clothing (and hardsuits) will make cryogenic treatment less, or completely ineffective. Be sure to remove cold preventative clothing before placing people in the pod.
+  Важливо відзначити, що зимовий одяг (і скафандри) зроблять кріогенне лікування менш ефективним або зовсім неефективним. Обов'язково зніміть одяг, що захищає від холоду, перед тим, як поміщати людей у кріокапсулу.
 
-## Using the Pod
-Once things have been set up, you're going to require a specific medication, Cryoxadone. Cryoxadone heals all damage types when a patient is chilled, and can either be pre-adminsitered (with a pill), or loaded into the cell directly with a beaker. Do note, patients won't begin to heal until they've chilled to the appropriate temperature, it may be worthwhile to wait a bit before placing a beaker inside.
+  ## Використання капсули
+  Після налаштування вам знадобиться певний препарат, Cryoxadone. Cryoxadone зцілює всі види пошкоджень, коли пацієнт охолоджується, і може бути введений попередньо (у вигляді таблетки) або безпосередньо завантажений у камеру за допомогою мензурки. Зауважте, що пацієнти не почнуть зцілюватися, доки не охолонуть до відповідної температури, тому може бути доцільно трохи почекати перед тим, як помістити мензурку всередину.
 
-## Additional Information:
+  ## Додаткова інформація:
+  Стандартний тиск для газового насоса становить 100,325 кПа. Cryoxadone працює при температурі нижче 170K, але стандартною практикою є встановлення морозильника на 100K для швидшого заморожування.
 
-The standard pressure for a gas pump is 100.325 kpa. Cryoxadone works at under 170K, but it is standard practice to set the freezer to 100K for faster freezing.
-
-<GuideReagentEmbed Reagent="Cryoxadone"/>
-<GuideReagentEmbed Reagent="Doxarubixadone"/>
-<GuideReagentEmbed Reagent="Dexalin"/>
+  <GuideReagentEmbed Reagent="Cryoxadone"/>
+  <GuideReagentEmbed Reagent="Doxarubixadone"/>
+  <GuideReagentEmbed Reagent="Dexalin"/>
 
 </Document>

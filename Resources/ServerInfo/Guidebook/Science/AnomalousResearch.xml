@@ -1,41 +1,40 @@
 <Document>
-# Anomalous Research
+  # Аномальні Дослідження
 
-Anomalous Research is a subdepartment of Epistemics focused around the containment and manipulation of various unique anomalies.
+  Аномальні дослідження - це підвідділ Епістеміки, який зосереджений на стримуванні та маніпуляції різними унікальними аномаліями.
 
-## Equipment
-<Box>
-<GuideEntityEmbed Entity="AnomalyScanner"/>
-<GuideEntityEmbed Entity="MachineAnomalyVessel"/>
-<GuideEntityEmbed Entity="MachineAPE"/>
-</Box>
+  ## Обладнання
+  <Box>
+    <GuideEntityEmbed Entity="AnomalyScanner"/>
+    <GuideEntityEmbed Entity="MachineAnomalyVessel"/>
+    <GuideEntityEmbed Entity="MachineAPE"/>
+  </Box>
 
-Scanners, vessels, and A.P.E.s are all used in the containment and observation of anomalies.
+  Сканери, резервуари та A.P.E. використовуються для стримування та спостереження за аномаліями.
 
-<Box>
-<GuideEntityEmbed Entity="MachineAnomalyGenerator"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="MachineAnomalyGenerator"/>
+  </Box>
 
-The anomaly generator can produce a random anomaly somewhere on the station at the cost of plasma.
+  Генератор аномалій може створити випадкову аномалію десь на станції, витрачаючи плазму.
 
-## Anomalies
-Anomalies are static objects that appear on the station. They cannot be moved, and must be worked around, no matter their location.
+  ## Аномалії
+  Аномалії - це статичні об'єкти, які з'являються на станції. Їх не можна переміщувати, і з ними потрібно працювати, незалежно від їх розташування.
 
-<Box>
-<GuideEntityEmbed Entity="AnomalyPyroclastic"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="AnomalyPyroclastic"/>
+  </Box>
 
-Each anomaly has three main stats, two of which can be seen in anomaly scans:
+  Кожна аномалія має три основні характеристики, дві з яких можна побачити під час сканування аномалії:
 
-- [color=#a4885c]Severity:[/color] This is a numerical value corresponding to the danger of an anomaly.
-- [color=#a4885c]Stability:[/color] Shown as either decaying, stable, or growing; this is how frequently and widespread the effects will be.
-- [color=#a4885c]Health:[/color] Health is a hidden stat. It decreases when you use [color=#a4885c]containment particles[/color] on an anomaly. If you use too many, the anomaly will disappear.
+  - [color=#a4885c]Серйозність:[/color] Це числове значення, яке відповідає рівню небезпеки аномалії.
+  - [color=#a4885c]Стабільність:[/color] Показується як така, що знижується, стабільна або зростає; це характеристика того, наскільки часто і поширені будуть ефекти.
+  - [color=#a4885c]Здоров'я:[/color] Здоров'я - це прихована характеристика. Воно зменшується, коли ви використовуєте [color=#a4885c]частинки стримування[/color] на аномалії. Якщо використовувати їх занадто багато, аномалія зникне.
 
-## Pulses and Supercritical Events
-The most dangerous effects of anomalies are seen during [color=#a4885c]pulses[/color] and [color=#a4885c]supercritical events[/color].
+  ## Імпульси та Суперкритичні Події
+  Найнебезпечніші ефекти аномалій проявляються під час [color=#a4885c]імпульсів[/color] та [color=#a4885c]суперкритичних подій[/color].
 
-Pulses are semi-regular bursts of anomalous effects. They're moderately dangerous, scaling with both the severity and stability of an anomaly.
+  Імпульси - це напіврегулярні сплески аномальних ефектів. Вони є помірно небезпечними і залежать від серйозності та стабільності аномалії.
 
-Supercritical events are only seen if an anomaly reaches 100% severity. If this happens, the anomaly will swell before disappearing into a catastrophic event. These should be avoided at all costs!
-
+  Суперкритичні події відбуваються лише тоді, коли аномалія досягає 100% серйозності. Якщо це станеться, аномалія розшириться перед тим, як зникнути в катастрофічній події. Цього слід уникати за будь-яку ціну!
 </Document>

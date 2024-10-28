@@ -1,80 +1,80 @@
 <Document>
-  # Space Ninja
+  # Космічний ніндзя
 
-  The [color=#66FF00]Space Ninja[/color] is a ghost role randomly available mid-late game. If you pick it you will be given your gear, your objectives and the greeting.
+  [color=#66FF00]Космічний ніндзя[/color] - це роль-привид, доступна випадковим чином у середині чи кінці гри. Якщо ви її оберете, вам буде надано спорядження, цілі та привітання.
 
-  You are a ninja, but in space. [color=#66FF00]The Spider Clan[/color] has sent you to the station to wreak all kinds of havoc, and you are equipped to keep it silent-but-deadly.
+  Ви ніндзя, але в космосі. [color=#66FF00]Клан Павука[/color] послав вас на станцію для створення всілякого хаосу, і ви оснащені таким чином, щоб діяти тихо, але смертельно.
 
-  Whether you mercilessly pick off the station's crew one by one, or assassinate the clown over and over, your discipline has taught you that [color=#66FF00]your objectives must be at least attempted[/color]. For honor!
+  Незалежно від того, чи будете ви безжально знищувати екіпаж станції по одному, чи вбиватимете клоуна раз за разом, ваша дисципліна навчила вас, що [color=#66FF00]ваші цілі мають бути хоча б спробувані[/color]. За честь!
 
-  # Equipment
+  # Спорядження
 
-  You begin implanted with a [color=#a4885c]death acidifier[/color], so if you are KIA or decide to commit seppuku you will leave behind one final gift to the janitor and all your precious equipment is kept out of enemy hands.
+  Ви починаєте зі вбудованим [color=#a4885c]кислотним мікробомбою[/color], тож якщо ви загинете або вирішите вчинити сепуку, ви залишите останній подарунок для прибиральника, а все ваше дорогоцінне спорядження залишиться поза руками ворога.
 
-  Your bag is full of tools for more subtle sabotage, along with a survival box if you need a snack.
+  У вашому рюкзаку є інструменти для більш прихованого саботажу, а також коробка для виживання, якщо вам потрібен перекус.
 
-  You have a [color=#a4885c]jetpack[/color] and [color=#a4885c]pinpointer[/color] that will let you find the station.
+  Ви маєте [color=#a4885c]реактивний ранець[/color] та [color=#a4885c]пінпоінтер[/color], які дозволять вам знайти станцію.
 
-  <GuideEntityEmbed Entity="PinpointerStation" Caption="station pinpointer"/>
+  <GuideEntityEmbed Entity="PinpointerStation" Caption="пінпоінтер станції"/>
 
-  ## Ninja Suit
+  ## Костюм ніндзя
 
-  <GuideEntityEmbed Entity="ClothingOuterSuitSpaceNinja" Captain="ninja suit"/>
+  <GuideEntityEmbed Entity="ClothingOuterSuitSpaceNinja" Captain="костюм ніндзя"/>
 
-  Your single most important item is [color=#66FF00]your suit[/color], without it none of your abilities would work.
-  Your suit requires power to function. Its [color=#a4885c]internal battery[/color] can be replaced by clicking on it with another one, and [color=#a4885c]higher capacity batteries[/color] mean a [color=#a4885c]highly effective ninja[/color].
-  You can see the current charge by examining the suit or in a sweet battery alert at the top right of your screen.
+  Ваш найважливіший предмет - це [color=#66FF00]ваш костюм[/color], без нього жодна з ваших здібностей не працюватиме.
+  Ваш костюм потребує живлення для роботи. Його [color=#a4885c]внутрішня батарея[/color] може бути замінена натисканням на нього іншою батареєю, і [color=#a4885c]висока ємність батарей[/color] означає [color=#a4885c]високу ефективність ніндзя[/color].
+  Ви можете бачити поточний заряд, досліджуючи костюм або через оповіщення у верхньому правому куті екрана.
 
-  If you run out of power and need to recharge your battery, just use your gloves to drain an APC, substation or a SMES.
+  Якщо у вас закінчиться заряд і вам потрібно перезарядити батарею, просто скористайтеся рукавичками, щоб висмоктати заряд з APC, підстанції або SMES.
 
-  ## Ninja Gloves
+  ## Рукавички ніндзя
 
-  <GuideEntityEmbed Entity="ClothingHandsGlovesSpaceNinja" Caption="ninja gloves"/>
+  <GuideEntityEmbed Entity="ClothingHandsGlovesSpaceNinja" Caption="рукавички ніндзя"/>
 
-  [color=#66FF00]These bad boys are your bread and butter.[/color]
+  [color=#66FF00]Ці штуки - ваш основний інструмент.[/color]
 
-  They are made from [color=#a4885c]insulated nanomachines[/color] to assist you in gracefully breaking and entering into your destination without leaving behind fingerprints.
+  Вони зроблені з [color=#a4885c]ізольованих наномашин[/color], щоб допомогти вам елегантно пробратися до місця призначення, не залишаючи відбитків пальців.
 
-  You have an action to toggle gloves. When the gloves are turned on, they allow you to use [color=#a4885c]special abilities[/color], which are triggered by interacting with things with an empty hand and with combat mode disabled.
+  У вас є дія для перемикання рукавичок. Коли рукавички ввімкнені, вони дозволяють використовувати [color=#a4885c]спеціальні здібності[/color], які активуються взаємодією з речами порожньою рукою без увімкненого бойового режиму.
 
-  Your glove abilities include:
-  - Emagging an unlimited number of doors.
-  - Draining power from transformers such as APCs, substations or SMESes. The higher the voltage, the more efficient the draining is.
-  - You can shock any mob, stunning and slightly damaging them.
-  - You can download technologies from a R&D server for one of your objectives.
-  - You can hack a communications console to call in a threat.
+  Ваші здібності рукавичок включають:
+  - Емегування необмеженої кількості дверей.
+  - Висмоктування енергії з трансформаторів, таких як APC, підстанції або SMES. Чим вища напруга, тим ефективніше висмоктування.
+  - Ви можете вдарити будь-який моб електрошоком, оглушивши та злегка пошкодивши його.
+  - Ви можете завантажити технології з серверу R&D для однієї з ваших цілей.
+  - Ви можете зламати комунікаційну консоль, щоб викликати загрозу.
 
-  ## Energy Katana
+  ## Енергетична катана
 
-  <GuideEntityEmbed Entity="EnergyKatana" Captain="energy katana"/>
+  <GuideEntityEmbed Entity="EnergyKatana" Captain="енергетична катана"/>
 
-  You have sworn yourself to the [color=#66FF00]sword[/color] and refuse to use firearms.
-  Deals a lot of damage and can be recalled at will, costing suit power proportional to the distance teleported.
-  
-  While in hand you can [color=#a4885c]teleport[/color] to anywhere that you can see, meaning most doors and windows, but not past solid walls.
-  This has a limited number of charges which regenerate slowly, so keep a charge or two spare incase you need a quick getaway.
+  Ви поклялися [color=#66FF00]мечу[/color] і відмовилися від використання вогнепальної зброї.
+  Завдає великої шкоди і може бути повернута на ваше бажання, що вимагає енергії костюма пропорційно відстані, на яку переміщено.
 
-  ## Spider Clan Charge
+  Під час носіння в руці ви можете [color=#a4885c]телепортуватися[/color] у будь-яке місце, яке бачите, включаючи більшість дверей і вікон, але не через суцільні стіни.
+  Це має обмежену кількість зарядів, які повільно відновлюються, тому завжди зберігайте заряд-два на випадок швидкої втечі.
 
-  <GuideEntityEmbed Entity="SpiderCharge" Caption="spider clan charge"/>
+  ## Заряд клану Павука
 
-  [color=#66FF00]A modified C-4 explosive[/color], you start with this in your pocket. Creates a large explosion but must be armed in your target area.
-  A random area on the map is selected for you to blow up, which is one of your [color=#a4885c]objectives[/color].
+  <GuideEntityEmbed Entity="SpiderCharge" Caption="заряд клану павука"/>
 
-  It can't be activated manually, simply plant it on a wall or a particularly ugly piece of furniture.
-  Can't be unstuck once planted.
+  [color=#66FF00]Модифікована вибухівка C-4[/color], яку ви отримуєте на початку гри. Створює великий вибух, але її потрібно закласти у цільовій області.
+  Випадкова область на карті вибирається для підриву, що є однією з ваших [color=#a4885c]цілей[/color].
 
-  ## Ninja Shoes
+  Неможливо активувати вручну, просто прикріпіть до стіни або до особливо потворних меблів.
+  Неможливо відірвати після закладки.
 
-  Special [color=#a4885c]noslips[/color] that keep you agile, swift and upright.
-  Energy not required.
+  ## Взуття ніндзя
 
-  # Objectives
+  Спеціальні [color=#a4885c]неслизькі черевики[/color], які підтримують вас спритними, швидкими і вертикальними.
+  Енергія не потрібна.
 
-  - Download X research nodes: Use your gloves on an R&D server with a number of unlocked technologies
-  - Doorjack X doors on the station: Use your gloves to emag a number of doors.
-  - Detonate the spider clan charge: Plant your spider clan charge at a random location and watch it go boom.
-  - Call in a threat: Use your gloves on a communications console.
-  - Survive: Don't die.
+  # Цілі
+
+  - Завантажити X дослідницьких вузлів: Використовуйте рукавички на сервері R&D із кількістю розблокованих технологій.
+  - Відчинити X дверей на станції: Використовуйте рукавички для емегування дверей.
+  - Підірвати заряд клану павука: Закладіть заряд клану павука у випадковому місці і спостерігайте вибух.
+  - Викликати загрозу: Використовуйте рукавички на комунікаційній консолі.
+  - Вижити: Не померти.
 
 </Document>

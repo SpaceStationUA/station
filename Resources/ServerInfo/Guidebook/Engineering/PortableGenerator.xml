@@ -1,7 +1,7 @@
 <Document>
-  # Portable Generators
+  # Портативні генератори
 
-  Need power? No engines running? The "P.A.C.M.A.N." line of portable generators has you covered.
+  Потрібна енергія? Двигуни не працюють? Лінійка портативних генераторів "P.A.C.M.A.N." має все, що вам потрібно.
 
   <Box>
     <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N." />
@@ -9,19 +9,19 @@
     <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="S.U.P.E.R.P.A.C.M.A.N." />
   </Box>
 
-  # The Junior
+  # Джуніор
 
   <Box>
     <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N." />
     <GuideEntityEmbed Entity="WeldingFuelTank" />
   </Box>
 
-  The J.R.P.A.C.M.A.N. can be found across the station in maintenance shafts, and is ideal for crew to set up themselves whenever there are power issues.
-  Setup is incredibly easy: wrench it down above an [color=green]LV[/color] power cable, give it some welding fuel, and start it up.
+  J.R.P.A.C.M.A.N. можна знайти по всій станції у вентиляційних шахтах, і він ідеально підходить для екіпажу, щоб самостійно налаштувати його в разі проблем з електропостачанням.
+  Налаштування дуже просте: закріпіть його над [color=green]LV[/color] силовим кабелем, додайте трохи зварювального палива і запустіть.
 
-  Welding fuel should be plentiful to find around the station. In a pinch, you can even transfer some from the big tanks with a soda can or water bottle. Just remember to empty the soda can first, I don't think it likes soda as fuel.
+  Зварювальне паливо має бути достатньо поширеним на станції. У крайньому випадку ви навіть можете перелити трохи з великих балонів у банку з-під соди або пляшку з водою. Тільки не забудьте спочатку спорожнити банку з-під соди, думаю, генератор не дуже любить соду як паливо.
 
-  # The Big Ones
+  # Великі генератори
 
   <Box>
     <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
@@ -33,11 +33,11 @@
     <GuideEntityEmbed Entity="SheetUranium" />
   </Box>
 
-  The (S.U.P.E.R.)P.A.C.M.A.N. is intended for usage by engineering for advanced power scenarios. Bootstrapping larger engines, powering departments, and so on.
+  (S.U.P.E.R.)P.A.C.M.A.N. призначений для використання інженерами для складних сценаріїв енергопостачання. Запуск більших двигунів, забезпечення енергією відділів тощо.
 
-  The S.U.P.E.R.P.A.C.M.A.N. boasts a larger power output and longer runtime at maximum output, but scales down to lower outputs less efficiently.
+  S.U.P.E.R.P.A.C.M.A.N. має більшу потужність і триваліший час роботи на максимальному виході, але менш ефективно знижується на нижчих виходах.
 
-  They connect directly to [color=yellow]MV[/color] or [color=orange]HV[/color] power cables, and are able to switch between them for flexibility.
+  Вони підключаються безпосередньо до [color=yellow]MV[/color] або [color=orange]HV[/color] силових кабелів і можуть перемикатися між ними для забезпечення гнучкості.
 
-  The S.U.P.E.R.P.A.C.M.A.N and P.A.C.M.A.N require uranium sheets and plasma sheets as fuel, respectively.
+  S.U.P.E.R.P.A.C.M.A.N. та P.A.C.M.A.N. потребують уранові листи та плазмові листи як паливо відповідно.
 </Document>

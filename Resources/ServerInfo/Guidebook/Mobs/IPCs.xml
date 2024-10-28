@@ -1,52 +1,52 @@
 <Document>
   # I.P.C.
   <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
-  An IPC (short for Integrated Positronic Chassis) is a type of sentient robot and is considered an [color=yellow]independent individual[/color], meaning [color=red]they are not guided by any laws of robotics[/color]. IPCs cannot be hacked by Emags because they do not have to follow any predefined directives in their system. [color=red]IPCs are silicon-based beings, so doctors do not have the skills to repair them.[/color]
+  IPC (скорочення від Інтегроване Позитронне Шасі) — це тип розумного робота, якого вважають [color=yellow]незалежною особистістю[/color], що означає, що [color=red]вони не підпорядковуються жодним законам робототехніки[/color]. IPC не можна зламати за допомогою Emag, оскільки вони не мають слідувати жодним попередньо визначеним директивам у своїй системі. [color=red]IPCs є кремнієвими істотами, тому лікарі не мають навичок, щоб їх ремонтувати.[/color]
 
   <Box>
-    <GuideEntityEmbed Entity="PositronicBrain" Caption="Positronic Brain"/>
+    <GuideEntityEmbed Entity="PositronicBrain" Caption="Позитронний мозок"/>
   </Box>
-  Like borgs, IPCs have a positronic brain as their processing source. However, unlike them, IPCs can't be assembled. "It's cheaper to create a shell that obeys you than one that doesn't! *wink*"
-  ## Recharging an IPC
-   <Box>
-    <GuideEntityEmbed Entity="APCBasic" Caption="APC Terminal"/>
-    <GuideEntityEmbed Entity="BorgCharger" Caption="Borg Charger"/>
-    <GuideEntityEmbed Entity="PowerCellMedium" Caption="Power Cell"/>
-  </Box>
-  IPCs can be recharged in three different ways:
+  Як і борги, IPC мають позитронний мозок як джерело обробки інформації. Однак, на відміну від них, IPC не можна зібрати. "Дешевше створити оболонку, яка вам підкоряється, ніж ту, яка не підкоряється! *підморг*"
 
-  APC Terminal: IPCs can use APC terminals to recharge. Press [color=yellow]Alt + left click[/color] on a terminal as many times as needed to fully recharge.
-
-  Borg Rechargers: IPCs can use borg rechargers to recharge. Always prioritize the ones outside of the Sci area to avoid headaches.
-
-  Power Cell: IPCs have an internal power cell that serves as their battery. They can simply swap it out by opening the hatch and manually replacing it.
-
-  ## Integrated Radio
+  ## Зарядка IPC
   <Box>
-    <GuideEntityEmbed Entity="EncryptionKeyScience" Caption="Encryption key"/>
+    <GuideEntityEmbed Entity="APCBasic" Caption="Термінал APC"/>
+    <GuideEntityEmbed Entity="BorgCharger" Caption="Зарядний пристрій для боргів"/>
+    <GuideEntityEmbed Entity="PowerCellMedium" Caption="Батарея"/>
+  </Box>
+  IPC можна зарядити трьома різними способами:
+
+  Термінал APC: IPC можуть використовувати термінали APC для зарядки. Натисніть [color=yellow]Alt + ліва кнопка миші[/color] на терміналі стільки разів, скільки потрібно, щоб повністю зарядити.
+
+  Зарядні пристрої для боргів: IPC можуть використовувати зарядні пристрої для боргів для зарядки. Завжди віддавайте перевагу тим, що знаходяться за межами наукової зони, щоб уникнути проблем.
+
+  Батарея: IPC мають внутрішню батарею, яка служить джерелом живлення. Вони можуть просто замінити її, відкривши люк і вручну замінивши батарею.
+
+  ## Інтегроване радіо
+  <Box>
+    <GuideEntityEmbed Entity="EncryptionKeyScience" Caption="Ключ шифрування"/>
   </Box>
 
-  IPCs do [bold]not[/bold] use external radios because they already have one built in. They only need to get an encryption key from a radio. By clicking on an IPC with a [color=yellow]wire cutter[/color], you can remove their keys.
-  You can find new keys around the station or remove one from a sector radio using a [color=yellow]screwdriver[/color].
+  IPC [bold]не[/bold] використовують зовнішні радіо, оскільки вони вже мають вбудоване. Їм потрібно лише отримати ключ шифрування з радіо. Натиснувши на IPC за допомогою [color=yellow]кусачок для дротів[/color], можна видалити їхні ключі.
+  Нові ключі можна знайти по всій станції або зняти з радіо сектору за допомогою [color=yellow]викрутки[/color].
 
-  ## Repairing
+  ## Ремонт
   <Box HorizontalAlignment="Stretch">
-    <GuideEntityEmbed Entity="WelderIndustrialAdvanced" Caption="Welder"/>
-    Welders can be used to repair [color=yellow]Brute[/color] damage.
+    <GuideEntityEmbed Entity="WelderIndustrialAdvanced" Caption="Зварювальний апарат"/>
+    Зварювальний апарат можна використовувати для ремонту [color=yellow]тупих пошкоджень[/color].
   </Box>
   <Box HorizontalAlignment="Stretch">
-    <GuideEntityEmbed Entity="CableApcStack" Caption="Cables (any type)"/>
-    Cables can be used to repair [color=yellow]Burns[/color].
+    <GuideEntityEmbed Entity="CableApcStack" Caption="Дроти (будь-який тип)"/>
+    Дроти можна використовувати для ремонту [color=yellow]опіків[/color].
   </Box>
   <Box HorizontalAlignment="Stretch">
-    <GuideEntityEmbed Entity="SheetGlass" Caption="Glass Sheets (any type)"/>
-    Glass Sheets can be used to repair [color=yellow]Blindness[/color].
+    <GuideEntityEmbed Entity="SheetGlass" Caption="Скляні листи (будь-який тип)"/>
+    Скляні листи можна використовувати для ремонту [color=yellow]сліпоти[/color].
   </Box>
   <Box HorizontalAlignment="Stretch">
-    In the event an IPC dies, after being fully repaired, it should be restarted using the [color=yellow]"Restart"[/color] button (located by right-clicking).
+    У випадку смерті IPC, після повного ремонту, його слід перезапустити за допомогою кнопки [color=yellow]"Перезапуск"[/color] (доступної при натисканні правою кнопкою миші).
 
-    [color=red]NEVER ELECTROCUTE AN IPC with a defibrillator or in any other way while it is dead, as this will cause the battery to discharge energy rays outward![/color]
+    [color=red]НІКОЛИ НЕ ЗАСТОСОВУЙТЕ ЕЛЕКТРИЧНИЙ РОЗРЯД ДО IPC за допомогою дефібрилятора або будь-яким іншим способом, коли він мертвий, оскільки це призведе до розрядження батареї назовні![/color]
   </Box>
 
 </Document>
-

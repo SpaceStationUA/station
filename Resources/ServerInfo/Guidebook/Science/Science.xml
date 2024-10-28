@@ -1,48 +1,47 @@
 <Document>
-# Epistemics
+  # Епістеміка
 
-Epistemics, often called Research and Development, is a job made up of both generating research points to unlock new technologies as well as using said technologies to produce new items at lathes to help out the station.
+  Епістеміка, яку часто називають Дослідженням та Розробкою, полягає в генерації дослідницьких балів для розблокування нових технологій, а також у використанні цих технологій для створення нових предметів на верстатах для допомоги станції.
 
-## Technologies
-<Box>
-<GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/>
-<GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>
-</Box>
-The most important thing inside your department is the R&D server, which stores unlocked technologies, and the R&D computer, which allows you to unlock technologies.
+  ## Технології
+  <Box>
+    <GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/>
+    <GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>
+  </Box>
+  Найважливіше у вашому департаменті - це сервер R&D, який зберігає розблоковані технології, і комп'ютер R&D, який дозволяє вам розблоковувати технології.
 
-Each technology costs [color=#a4885c]Research Points[/color] and unlocks recipes at lathes. Some technologies will also have prerequisites you have to unlock before you can research them.
+  Кожна технологія коштує [color=#a4885c]Дослідницькі Бали[/color] і розблоковує рецепти на верстатах. Деякі технології також мають попередні вимоги, які потрібно розблокувати перед їх дослідженням.
 
-Information about the different technologies can be viewed [textlink="on the technology guidebook page" link="Technologies"].
+  Інформацію про різні технології можна переглянути [textlink="на сторінці путівника з технологій" link="Technologies"].
 
-## Disciplines
-Technologies are spread over 5 different Disciplines:
-<Box>
-<GuideEntityEmbed Entity="Wrench" Caption="Industrial"/>
-<GuideEntityEmbed Entity="Syringe" Caption="Biochemical"/>
-<GuideEntityEmbed Entity="WeaponTetherGun" Caption="Experimental"/>
-<GuideEntityEmbed Entity="ComputerTelevision" Caption="Civil Services"/>
-<GuideEntityEmbed Entity="WeaponXrayCannon" Caption="Arsenal"/>
-</Box>
+  ## Дисципліни
+  Технології розподілені на 5 різних Дисциплін:
+  <Box>
+    <GuideEntityEmbed Entity="Wrench" Caption="Індустріальна"/>
+    <GuideEntityEmbed Entity="Syringe" Caption="Біохімічна"/>
+    <GuideEntityEmbed Entity="WeaponTetherGun" Caption="Експериментальна"/>
+    <GuideEntityEmbed Entity="ComputerTelevision" Caption="Цивільні Служби"/>
+    <GuideEntityEmbed Entity="WeaponXrayCannon" Caption="Арсенал"/>
+  </Box>
 
-<GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/> Use your nearest R&D console to take note of which kind of research is locked behind each Discipline tree.
+  <GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/> Використовуйте найближчу консоль R&D, щоб дізнатися, які дослідження заблоковані за кожним деревом Дисциплін.
 
-## Tiers
-Each Discipline tree has up to 3 tiers of technologies. At the start the only tier that is open and available for you is tier 1.
+  ## Рівні
+  Кожне дерево Дисциплін має до 3 рівнів технологій. Спочатку єдиний рівень, який відкритий і доступний для вас, це рівень 1.
 
-In order to progress further, you have to research up to [color=brown]75%[/color] of the current tier to move to the next one. So in order to unlock T2 researches you need to research 75% of T1.
+  Щоб просуватися далі, потрібно дослідити до [color=brown]75%[/color] поточного рівня, щоб перейти на наступний. Отже, щоб розблокувати дослідження T2, вам потрібно дослідити 75% T1.
 
-Now [color=green]Tier 3[/color] is where it gets interesting. If you research a T3 tech, you [color=brown]lock out[/color] T3 techs from other Discipline trees. That is, unless... you find some other way around it, probably should ask your [color=purple]Mystagogue[/color].
+  Тепер [color=green]Рівень 3[/color] стає цікавим. Якщо ви дослідите технологію Т3, ви [color=brown]блокуєте[/color] технології Т3 з інших дерев Дисциплін. Хіба що... ви знайдете інший спосіб обійти це, можливо, варто запитати [color=purple]Містагога[/color].
 
-## Lathes
-<Box>
-<GuideEntityEmbed Entity="Protolathe"/>
-<GuideEntityEmbed Entity="CircuitImprinter"/>
-</Box>
-<Box>
-<GuideEntityEmbed Entity="ExosuitFabricator"/>
-<GuideEntityEmbed Entity="MedicalTechFab"/>
-<GuideEntityEmbed Entity="SecurityTechFab"/>
-</Box>
-At a lathe, you can choose a server to allow it print whatever recipes you have unlocked. Recipes require various materials (steel, glass, plastic, gold, plasma) which can be acquired at Logistics or Salvage.
-
+  ## Верстати
+  <Box>
+    <GuideEntityEmbed Entity="Protolathe"/>
+    <GuideEntityEmbed Entity="CircuitImprinter"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ExosuitFabricator"/>
+    <GuideEntityEmbed Entity="MedicalTechFab"/>
+    <GuideEntityEmbed Entity="SecurityTechFab"/>
+  </Box>
+  На верстаті ви можете вибрати сервер, щоб дозволити йому друкувати будь-які рецепти, які ви розблокували. Рецепти вимагають різних матеріалів (сталь, скло, пластик, золото, плазма), які можна отримати в Логістиці або на Звалищі.
 </Document>

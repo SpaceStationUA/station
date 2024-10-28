@@ -1,24 +1,24 @@
 <Document>
-  # Artifact Reports
-  A large portion of Xenoarchaeology gameplay revolves around the interpretation of artifact reports, which are created at the [color=#a4885c]analysis console[/color] after an artifact is scanned. Reports contain the following information:
+  # Звіти про Артефакти
+  Велика частина ігрового процесу в галузі Ксеноархеології обертається навколо інтерпретації звітів про артефакти, які створюються на [color=#a4885c]консолі аналізу[/color] після сканування артефакта. Звіти містять таку інформацію:
 
-  - [color=#a4885c]Node ID:[/color] a unique numeric ID corresponding to this artifact's node. Useful in conjunction with a [color=#a4885c]node scanner[/color] for quickly identifying recurring nodes.
+  - [color=#a4885c]ID вузла:[/color] унікальний числовий ідентифікатор, що відповідає вузлу цього артефакта. Корисний у поєднанні зі [color=#a4885c]сканером вузлів[/color] для швидкої ідентифікації повторюваних вузлів.
 
-  - [color=#a4885c]Depth:[/color] a distance from the starting node (depth 0). This is a good shorthand for the value and danger of a node.
+  - [color=#a4885c]Глибина:[/color] відстань від стартового вузла (глибина 0). Це хороший скорочений показник вартості та небезпеки вузла.
 
-  - [color=#a4885c]Activation status:[/color] whether or not a node has been activated in the past.
+  - [color=#a4885c]Статус активації:[/color] чи був вузол активований у минулому.
 
-  - [color=#a4885c]Stimulus:[/color] the stimulus for that particular node.
+  - [color=#a4885c]Стимул:[/color] стимул для цього конкретного вузла.
 
-  - [color=#a4885c]Reaction:[/color] the reaction the stimulus induces. This is often vague, so caution is advised.
+  - [color=#a4885c]Реакція:[/color] реакція, яку викликає стимул. Це часто буває неясно, тому слід бути обережним.
 
-  - [color=#a4885c]Edges:[/color] the amount of nodes that are connected to the current node. Using this, you can calculate the total number of nodes as well as organize a map of their connections.
+  - [color=#a4885c]Краї:[/color] кількість вузлів, які з'єднані з поточним вузлом. Використовуючи це, можна розрахувати загальну кількість вузлів, а також організувати карту їх з'єднань.
 
-  - [color=#a4885c]Current value:[/color] the amount of research points an artifact is currently worth. Extracting will set this to zero and traversing new nodes will increase it.
+  - [color=#a4885c]Поточна вартість:[/color] кількість дослідницьких балів, які артефакт зараз вартий. Екстракція встановить це значення на нуль, а проходження нових вузлів збільшить його.
 
-  Reports are a helpful tool in manipulating an artifact, especially in the later stages where you are traversing nodes that have already been activated.
+  Звіти є корисним інструментом для маніпулювання артефактом, особливо на пізніх стадіях, коли ви досліджуєте вузли, які вже були активовані.
   <Box>
-  <GuideEntityEmbed Entity="PaperArtifactAnalyzer"/>
+    <GuideEntityEmbed Entity="PaperArtifactAnalyzer"/>
   </Box>
-  To help with this process, consider printing out reports, writing down details uncovered during activation, or storing them in a folder nearby.
+  Щоб допомогти в цьому процесі, розгляньте можливість роздруківки звітів, запису деталей, виявлених під час активації, або зберігання їх у папці поблизу.
 </Document>

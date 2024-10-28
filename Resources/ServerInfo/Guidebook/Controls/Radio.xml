@@ -1,28 +1,25 @@
 <Document>
-  # Radio
+  # Радіо
 
-  Your radio allows you to communicate across the entire station and to your specific [color=#a4885c]department[/color].
+  Ваше радіо дозволяє вам спілкуватися по всій станції та з вашим конкретним [color=#a4885c]департаментом[/color].
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
   </Box>
 
-  To send a station-wide message over the radio preface your text with [color=#a4885c]semi-colon (;)[/color].
+  Щоб відправити повідомлення по всій станції через радіо, передуйте текст [color=#a4885c]крапкою з комою (;)[/color].
 
-  ## Departmental Radio
+  ## Департаментське радіо
 
-  You are able to send messages over your departmental radio channels using [color=#a4885c]colon (:)[/color] followed by the
-  department letter as long as you're wearing a headset with your department's encryption key.
+  Ви можете відправляти повідомлення через радіоканали вашого департаменту, використовуючи [color=#a4885c]двокрапку (:)[/color] і наступну літеру департаменту, за умови, що ви носите гарнітуру з шифрувальним ключем вашого департаменту.
 
-  Examine your headset to see the department channels available to you.
+  Перевірте свою гарнітуру, щоб побачити доступні вам канали департаменту.
 
-<Box>
-  <GuideEntityEmbed Entity="ClothingHeadsetEngineering"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHeadsetEngineering"/>
+  </Box>
 
-  Examining a default engineering headset would show you the prefixes for the [color=#32cd32]Common[/color] and [color=#f37746]Engineering[/color]
-  channels.
-  
-  It is also possible to use [color=#a4885c]:h[/color]. This hotkey will automatically default to your department radio channel. For an example if you're Captain, then [color=#a4885c]:h[/color] will default to [color=#a4885c]:c[/color]
+  Перевірка стандартної інженерної гарнітури покаже вам префікси для каналів [color=#32cd32]Загального[/color] і [color=#f37746]Інженерного[/color] зв'язку.
 
+  Також можливо використовувати [color=#a4885c]:h[/color]. Ця гаряча клавіша автоматично налаштовується на канал вашого департаменту. Наприклад, якщо ви Капітан, тоді [color=#a4885c]:h[/color] буде налаштовуватися на [color=#a4885c]:c[/color].
 </Document>

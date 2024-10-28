@@ -1,33 +1,33 @@
 <Document>
-# Reverse Engineering
+  # Зворотня інженерія
 
-<GuideEntityEmbed Entity="ReverseEngineeringMachine"/>
+  <GuideEntityEmbed Entity="ReverseEngineeringMachine"/>
 
-The reverse engineering machine allows salvage to bootstrap their way into unlocking powerful lathe recipes that are otherwise unacquirable.
+  Машина зворотної інженерії дозволяє фахівцям з порятунку почати розблоковувати потужні рецепти верстатів, які інакше неможливо отримати.
 
-The machine's power is very limited without upgrades to its matter bin and manipulator.
-The matter bin increases its analysis power and the manipulator decreases the chance of destruction with safety turned off.
+  Потужність машини дуже обмежена без модернізації бункера матеріалів і маніпулятора.
+  Бункер матеріалів підвищує її аналітичну потужність, а маніпулятор знижує ймовірність знищення, коли безпека вимкнена.
 
-## Operation
+  ## Експлуатація
 
-The machine will only accept items it can reverse engineer. Currently this is most circuit boards and machine parts, but it accepts quite a variety of objects.
+  Машина приймає лише ті предмети, які вона може зворотно інженерувати. Наразі це переважно схеми та частини машин, але вона приймає досить різноманітні об'єкти.
 
-It does not accept firearms and never will.
+  Вона не приймає вогнепальну зброю і ніколи не буде приймати.
 
-To use the machine, insert an item and use the buttons on the left.
+  Щоб скористатися машиною, вставте предмет і скористайтеся кнопками зліва.
 
-- [color=#a4885c]Analyze:[/color]
-This starts a new reverse engineering attempt.
+  - [color=#a4885c]Аналізувати:[/color]
+  Це починає нову спробу зворотньої інженерії.
 
-- [color=#a4885c]Safety:[/color]
-With safety off, you have more analysis power, but there is a chance to destroy the item.
+  - [color=#a4885c]Безпека:[/color]
+  З вимкненою безпекою у вас більше аналітичної потужності, але є шанс знищення предмета.
 
-- [color=#a4885c]AutoProbe:[/color]
-This will automatically start a new attempt when the last one ends.
+  - [color=#a4885c]АвтоЗонд:[/color]
+  Це автоматично почне нову спробу після завершення попередньої.
 
-- [color=#a4885c]Stop:[/color]
-Stops the current attempt.
+  - [color=#a4885c]Зупинити:[/color]
+  Зупиняє поточну спробу.
 
-- [color=#a4885c]Item:[/color]
-Ejects the item.
+  - [color=#a4885c]Предмет:[/color]
+  Виймає предмет.
 </Document>

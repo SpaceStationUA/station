@@ -1,29 +1,29 @@
 <Document>
-  # Cargo Bounties
-  [textlink="Logistics" link="Cargo"] can always make money selling items whenever they feel like it. However, there are ways to make even more money by being more selective about what and when you're selling. One of these ways is [color=#a4885c]bounties[/color].
+  # Контракти на вантажі
+  [textlink="Логістика" link="Cargo"] завжди може заробити гроші, продаючи предмети, коли захоче. Однак, є способи заробити ще більше грошей, якщо більш вибірково підходити до того, що і коли продаєте. Один із таких способів - це [color=#a4885c]контракти[/color].
 
   <Box>
     <GuideEntityEmbed Entity="ComputerCargoBounty"/>
   </Box>
-  Every station has a fixed amount of bounties that are globally available. These can be checked at the [color=#a4885c]cargo bounty computer[/color], which shows the following information about them:
-  - What items are needed to fulfill the bounty
-  - How much money do you get for completing the bounty
-  - How much time is left before the bounty expires
+  Кожна станція має фіксовану кількість контрактів, які доступні глобально. Ці контракти можна перевірити на [color=#a4885c]комп'ютері контрактів вантажу[/color], де вказується така інформація про них:
+  - Які предмети потрібні для виконання контракту
+  - Скільки грошей ви отримаєте за виконання контракту
+  - Скільки часу залишилося до завершення контракту
 
-  Assuming that you are able to aquire all of the items for it in a time efficient and low-cost manner, you will be able to complete the bounty and get a significantly higher payout than you would be selling the items conventionally.
+  Якщо ви зможете отримати всі необхідні предмети ефективно за часом і з невеликими витратами, ви зможете виконати контракт і отримати значно більший платіж, ніж якщо б просто продали ці предмети.
 
-  ## Completing Bounties
+  ## Виконання контрактів
   <Box>
     <GuideEntityEmbed Entity="PaperCargoBountyManifest"/>
     <GuideEntityEmbed Entity="CrateGenericSteel"/>
     <GuideEntityEmbed Entity="CargoPallet"/>
   </Box>
-  Once you have collected the items you need for a bounty, completing it is a simple process:
-  - Place all of the items inside of the crate and [bold]close it![/bold]
-  - Get the bounties manifest label by clicking the [color=#a4885c]print label[/color] button on corresponding entry on the cargo bounty computer.
-  - Place the label on the crate containing the items.
-  - Move the crate onto the cargo shuttle.
-  - Sell it.
+  Після того, як ви зібрали всі необхідні предмети для контракту, виконати його досить просто:
+  - Помістіть всі предмети у ящик і [bold]закрийте його![/bold]
+  - Отримайте етикетку з описом контракту, натиснувши кнопку [color=#a4885c]"друкувати етикетку"[/color] для відповідного запису на комп'ютері контрактів вантажу.
+  - Прикріпіть етикетку до ящика, що містить предмети.
+  - Перемістіть ящик на вантажний шатл.
+  - Продайте його.
 
-  And there you go! After you follow these steps, the bounty should disappear from the computer and a new one will take its place.
+  І ось! Після виконання цих кроків контракт має зникнути з комп'ютера, і на його місці з'явиться новий.
 </Document>

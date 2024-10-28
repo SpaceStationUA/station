@@ -1,53 +1,53 @@
 <Document>
-  # Power
+  # Енергопостачання
 
-  SS14 has a fairly in-depth power system through which all devices on the station receive electricity. It's divided into three main powernets; High Voltage, Medium Voltage, and Low Voltage.
+  У SS14 є досить детальна система електропостачання, через яку всі пристрої на станції отримують електрику. Вона поділена на три основні мережі: високої напруги (HV), середньої напруги (MV) та низької напруги (LV).
   <Box>
-  <GuideEntityEmbed Entity="CableHVStack"/>
-  <GuideEntityEmbed Entity="CableMVStack"/>
-  <GuideEntityEmbed Entity="CableApcStack"/>
+    <GuideEntityEmbed Entity="CableHVStack"/>
+    <GuideEntityEmbed Entity="CableMVStack"/>
+    <GuideEntityEmbed Entity="CableApcStack"/>
   </Box>
 
-  ## Cabling
-  The three major cable types (HV, MV, and LV) can be used to form independent powernets. Examine them for a description of their uses.
+  ## Кабелі
+  Три основні типи кабелів (HV, MV і LV) можна використовувати для формування незалежних енергомереж. Досліджуйте їх, щоб отримати опис їх використання.
   <Box>
-  <GuideEntityEmbed Entity="CableHV"/>
-  <GuideEntityEmbed Entity="CableMV"/>
-  <GuideEntityEmbed Entity="CableApcExtension"/>
+    <GuideEntityEmbed Entity="CableHV"/>
+    <GuideEntityEmbed Entity="CableMV"/>
+    <GuideEntityEmbed Entity="CableApcExtension"/>
   </Box>
 
-  ## Power storage
-  Each power storage device presented functions as the transformer for its respective power level (HV, MV, and LV), and also provides a fairly sizable backup battery to help flatten out spikes and dips in power usage.
+  ## Зберігання енергії
+  Кожен пристрій зберігання енергії виконує функцію трансформатора для свого відповідного рівня напруги (HV, MV і LV), а також забезпечує досить великий резервний акумулятор, який допомагає згладжувати піки та падіння споживання енергії.
   <Box>
-  <GuideEntityEmbed Entity="SMESBasic"/>
-  <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="APCBasic"/>
+    <GuideEntityEmbed Entity="SMESBasic"/>
+    <GuideEntityEmbed Entity="SubstationBasic"/>
+    <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  ## Ramping
-  Contrary to what one might expect from a video game electrical simulation, power is not instantly provided upon request. Generators and batteries take time to ramp up to match the draw imposed on them, which leads to brownouts when there are large changes in current draw all at once; for example, when batteries run out.
+  ## Набір потужності
+  На відміну від того, що можна очікувати від імітації електропостачання в відеогрі, енергія не подається миттєво за запитом. Генератори та акумулятори потребують часу для нарощування потужності відповідно до навантаження, що може призвести до зниження напруги при великих змінах споживання струму одночасно; наприклад, коли акумулятори розряджаються.
 
-  ## Installing power storage
-  Substations are the most self-explanatory. Simply install the machine on top of an MV and HV cable; it will draw power from the HV cable to provide to MV.
+  ## Встановлення пристроїв зберігання енергії
+  Підстанції є найпростішими для встановлення. Просто встановіть машину поверх кабелю MV та HV; вона буде споживати енергію з кабелю HV для подачі на MV.
 
-  Installing APCs is similarly simple, except APCs are exclusively wallmounted machinery and cannot be installed on the floor. Make sure it has both MV and LV connections.
+  Встановлення APC також є простим, за винятком того, що APC є виключно настінною технікою і не може бути встановлена на підлозі. Переконайтеся, що має як підключення до MV, так і до LV.
 
-  Installing a SMES requires you construct a cable terminal to use as the input. The SMES will draw power from the terminal and send power out from underneath. The terminal will ensure that the HV input and HV output do not connect. Avoid connecting a SMES to itself; this will result in a short circuit, which can result in power flickering or outages depending on severity.
+  Для встановлення SMES потрібно побудувати кабельний термінал, який буде використовуватися як вхід. SMES буде споживати енергію з термінала і подавати енергію знизу. Термінал забезпечить відсутність підключення входу HV і виходу HV. Уникайте підключення SMES до самого себе; це призведе до короткого замикання, що може спричинити мерехтіння або відключення живлення залежно від серйозності.
 
-  ## APC breaking
-  Currently the only power storage device that has a limit to its power to the network is the APC. As soon as all connected devices and machinery demand more than [color=#a4885c]24kW[/color] of power, its breaker will pop and everything will turn off. In the case that you are not an engineer, call an engineer (or cyborg) to re-enable it, after reducing the load back down to [color=#a4885c]below[/color] 24kW.
+  ## Поломка APC
+  На даний момент єдиний пристрій зберігання енергії, який має обмеження на потужність у мережі, - це APC. Як тільки всі підключені пристрої та машини вимагатимуть більше ніж [color=#a4885c]24 кВт[/color] потужності, його автоматичний вимикач вимкнеться, і все вимкнеться. Якщо ви не інженер, викличте інженера (або кіборга), щоб увімкнути його знову після зниження навантаження до [color=#a4885c]нижче[/color] 24 кВт.
   <Box>
-  <GuideEntityEmbed Entity="APCBasic"/>
+    <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  ## Checking the power grid
-  1. Use the [color=#a4885c]t-ray scanner[/color] in order to locate cables that are hidden under tiles. (skip this step if cables aren't hidden)
-  2. Pry open the tile that is blocking your access to the cable with a [color=#a4885c]crowbar[/color]. (skip this step if cables aren't hidden)
-  3. Equip your trusty [color=#a4885c]Multitool[/color] and click on any cable to see the power-grid stats.
+  ## Перевірка електромережі
+  1. Використовуйте [color=#a4885c]т-ray сканер[/color], щоб знайти кабелі, які приховані під плитками. (пропустіть цей крок, якщо кабелі не приховані)
+  2. Відкрийте плитку, яка блокує доступ до кабелю, за допомогою [color=#a4885c]лома[/color]. (пропустіть цей крок, якщо кабелі не приховані)
+  3. Візьміть свій надійний [color=#a4885c]багатофункціональний інструмент[/color] і натисніть на будь-який кабель, щоб побачити статистику електромережі.
   <Box>
-  <GuideEntityEmbed Entity="Multitool"/>
-  <GuideEntityEmbed Entity="Crowbar"/>
-  <GuideEntityEmbed Entity="trayScanner"/>
+    <GuideEntityEmbed Entity="Multitool"/>
+    <GuideEntityEmbed Entity="Crowbar"/>
+    <GuideEntityEmbed Entity="trayScanner"/>
   </Box>
 
 </Document>

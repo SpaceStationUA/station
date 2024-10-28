@@ -1,46 +1,46 @@
 <Document>
-  # Forensics
+  # Судова експертиза
 
-  There are a lot of tools to help you gather and examine the evidence at your disposal
+  У вас є багато інструментів, які допоможуть вам зібрати та вивчити докази.
 
-  # Log probe
+  # Пробник журналів
 
-  This little add-on to your PDA is incredibly useful, just install the cartridge and your PDA will acquire the ability to scan anything with access (like airlocks) and see who has used them recently.
+  Цей маленький додаток для вашого PDA надзвичайно корисний, просто встановіть картридж, і ваш PDA зможе сканувати все, що потребує доступу (наприклад, повітряні шлюзи), та побачити, хто використовував його нещодавно.
 
-  You can normally find it inside the detective locker. After inserting it on your PDA, go to the programs tab and the log probe application should be there, to use the application you just have to interact with anything that requires access with your PDA while the application is open and the information will be instantly displayed in it.
+  Ви зазвичай знайдете його в шафі детектива. Після вставлення в PDA перейдіть на вкладку програм, і додаток "Log Probe" повинен бути там. Для використання програми потрібно просто взаємодіяти з будь-яким об'єктом, що вимагає доступу, за допомогою PDA під час відкритої програми, і інформація буде миттєво відображена.
 
-  It should be noted that the name shown in the application is not to be trusted 100% of the time since it gets the name from the identification card of whoever used the thing we are scanning, so if for example someone opened an airlock with no card the application would display "Unknown" as the name.
+  Варто зазначити, що ім'я, показане в додатку, не завжди можна довіряти на 100%, оскільки воно отримується з ідентифікаційної картки користувача. Якщо, наприклад, хтось відкрив повітряний шлюз без картки, додаток покаже ім'я "Невідомий".
 
   <Box>
     <GuideEntityEmbed Entity="LockerDetective"/>
     <GuideEntityEmbed Entity="LogProbeCartridge"/>
   </Box>
 
-  # DNA and Fingerprints
+  # ДНК та відбитки пальців
 
-  ## How to get someone’s DNA?
+  ## Як отримати ДНК?
 
-  You can scan blood puddles, vomit, glasses, bottles, cans and other liquid containers using the [color=#a4885c]forensic scanner[/color] to get DNA of any person.
+  Ви можете сканувати калюжі крові, блювоту, склянки, пляшки, банки та інші рідинні контейнери за допомогою [color=#a4885c]судового сканера[/color], щоб отримати ДНК будь-якої особи.
   <Box>
     <GuideEntityEmbed Entity="ForensicScanner"/>
   </Box>
-  So be careful before fighting with someone.
+  Тому будьте обережні, перш ніж битися з кимось.
 
-  Same scanner can also get fingerprint information about who touched pretty much any object. If the possible perpetrator was using gloves, then your scanner will print out which fibers were left on the crimescene.
+  Той самий сканер також може отримувати інформацію про відбитки пальців тих, хто торкався будь-якого об'єкта. Якщо можливий злочинець використовував рукавички, ваш сканер покаже, які волокна були залишені на місці злочину.
 
-  ## I got DNA. How do I recognize whose it is?
+  ## Я отримав ДНК. Як впізнати, кому вона належить?
 
-  You can print the forensic information of the object you scanned so you never miss it. Now with the paper containing DNA you can simply find a [color=#a4885c]Station Records Computer[/color] and look for a person whose DNA matches. Same applies to finding whose fingerprint is is.
+  Ви можете надрукувати інформацію про об'єкт, який ви сканували, щоб ніколи не загубити її. Тепер, маючи папір із ДНК, ви можете знайти [color=#a4885c]Комп'ютер станційних записів[/color] і шукати особу, чия ДНК збігається. Те ж саме стосується пошуку відбитків пальців.
 
-  ## Taking Fingerprints
-  It is also possible to take someones fingerprints while on scene if you make them take off their gloves and appy a forensic pad to their fingers. No need to run back to [color=#a4885c]Station Records Computer[/color] check if the butler did it!
+  ## Взяття відбитків пальців
+  Також можна взяти відбитки пальців безпосередньо на місці, якщо змусити підозрюваного зняти рукавички і прикласти судовий тампон до пальців. Немає потреби повертатися до [color=#a4885c]Комп'ютера станційних записів[/color], щоб перевірити, чи не дворецький винен!
 
   <GuideEntityEmbed Entity="ForensicPad"/>
 
-  ## Fibers
-  Whenenever people wearing gloves touch anything on the station, they are bound to leave behind some fibers. This complicates things, but nothing is unsolvable for a real detective.
+  ## Волокна
+  Коли люди в рукавичках торкаються будь-яких предметів на станції, вони залишають волокна. Це ускладнює ситуацію, але для справжнього детектива немає нічого нерозв'язного.
 
-  There are up to [color=red]25[/color] different types of fibers possible. Can that stop you from solving the case?
+  Існує до [color=red]25[/color] різних типів волокон. Чи може це зупинити вас у розкритті справи?
 
   <Box>
     <GuideEntityEmbed Entity="ComputerStationRecords"/>

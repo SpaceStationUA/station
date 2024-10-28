@@ -1,30 +1,30 @@
 <Document>
-  # Singularity / Tesla Engine
+  # Сингулярний / Тесла двигун
 
-  The Singularity Engine / Tesla Engine can yield [color=#a4885c]infinite power[/color], with no fueling required. It can also [color=red]destroy the whole station[/color] with equal ease. It uses a Particle Accelerator to fire high energy particles at a Singularity Generator to form a singularity or ball lightning.
-  The singularity then pulses radiation which is absorbed by Radiation Collectors, or the ball lightning then zaps nearby tesla coils and grounding rods to provide power.
+  Сингулярний двигун / Тесла двигун може забезпечити [color=#a4885c]нескінченну енергію[/color], без потреби в паливі. Він також може з легкістю [color=red]знищити всю станцію[/color]. Він використовує Прискорювач частинок для запуску високоенергетичних частинок в генератор сингулярності для створення сингулярності або блискавичної кулі.
+  Сингулярність випромінює радіацію, яка поглинається Радіаційними Колекторами, або блискавична куля знищує найближчі котушки Тесли та заземлюючі стержні, забезпечуючи енергію.
 
-  # Setting it up
+  # Налаштування двигуна
 
-  Both engines requires 4 subsystems to work properly; two are shared between both engines:
+  Обидва двигуни потребують 4 підсистеми для коректної роботи; дві з них є спільними для обох двигунів:
 
-  ## Containment field generators and Emitters
+  ## Генератори силового поля та випромінювачі
   <Box>
     <GuideEntityEmbed Entity="Emitter"/>
     <GuideEntityEmbed Entity="ContainmentFieldGenerator"/>
     <GuideEntityEmbed Entity="ContainmentField"/>
   </Box>
-  The emitters connect to MV cables and fire lasers as long as they have power and are turned on.
-  Fire the emitters at enabled containment field generators to activate them.
-  If two containment field generators are active, in range and are in the same cardinal axis, a containment field will appear.
-  The containment field will repel the singularity or tesla, keeping it from escaping, and yield a little bit of power every time anything bounces off of them.
+  Випромінювачі підключаються до MV кабелів і випускають лазери, поки вони мають енергію і увімкнені.
+  Запустіть випромінювачі на активовані генератори силового поля, щоб їх активувати.
+  Якщо два генератори силового поля активні, знаходяться в діапазоні і на одній кардинальній осі, з'явиться силове поле.
+  Силове поле буде відштовхувати сингулярність або Теслу, не даючи їм вийти, і забезпечить трохи енергії кожного разу, коли щось відскакує від них.
 
-  The emitter lasers and the containment fields can also cause damage and/or cause you to be sent flying into deep space; [color=#a4885c]avoid touching them[/color] when active.
-  It is recommended to [color=#a4885c]lock the emitters[/color] with [keybind="AltActivateItemInWorld"/], to prevent any break-in no-gooders from loosing the singularity or tesla by simply switching off the field.
+  Лазери випромінювачів і силові поля також можуть спричинити пошкодження і/або відправити вас у глибокий космос; [color=#a4885c]уникайте контакту з ними[/color], коли вони активні.
+  Рекомендується [color=#a4885c]заблокувати випромінювачі[/color] за допомогою [keybind="AltActivateItemInWorld"/], щоб запобігти тому, щоб хтось не вимкнув поле і не випустив сингулярність або Теслу.
 
-  Teslas can have significantly smaller containment fields than singularity containment fields; adjusting field size is recommended, as the tesla becomes easier to keep watch on in a simply 3x3 field setup.
+  Для Тесли можна використовувати значно менші силові поля, ніж для сингулярності; рекомендується налаштувати розмір поля, щоб Теслу було легше контролювати в простої конфігурації 3x3.
 
-  ## Particle accelerator
+  ## Прискорювач частинок
 
   <Box>
     <GuideEntityEmbed Entity="ParticleAcceleratorEndCap" Caption="" Margin="0"/>
@@ -46,54 +46,54 @@
     <GuideEntityEmbed Entity="ParticleAcceleratorEmitterPort" Caption="" Margin="0"/>
   </Box>
 
-  The Particle Accelerator (PA) is a multi-tile structure that launches accelerated particles from its emitters. Its emitters should always face the generator.
-  Some stations already have an unfinished PA. To complete it, first ensure there is a MV cable beneath the PA power box, anchor all the parts, and then add an LV cable to each part.
+  Прискорювач частинок (PA) є багатокомпонентною структурою, яка запускає прискорені частинки з випромінювачів. Його випромінювачі завжди повинні бути спрямовані на генератор.
+  Деякі станції вже мають незавершений PA. Щоб його завершити, спочатку переконайтеся, що під коробкою живлення PA є MV кабель, закріпіть усі частини та додайте LV кабель до кожної частини.
   <Box>
     <GuideEntityEmbed Entity="CableApcStack"/>
   </Box>
-  Then use a screwdriver to screw back the panels.
-  [color=#a4885c]Scan parts[/color] using the PA control computer to check if it's operational (the PA will not function if you do not scan it!). If it shows up as incomplete, examine what's missing.
+  Потім використовуйте викрутку, щоб закрити панелі.
+  [color=#a4885c]Скануйте частини[/color] за допомогою комп'ютера керування PA, щоб переконатися, що він працює (PA не функціонуватиме, якщо ви не відскануєте його!). Якщо показано, що він незавершений, перевірте, чого не вистачає.
   <Box>
     <GuideEntityEmbed Entity="ParticleAcceleratorControlBox"/>
   </Box>
 
-  The other two subsystems are unique to each other:
+  Дві інші підсистеми унікальні для кожного двигуна:
 
-  ## Gravitational singularity generator or Ball lightning generator
+  ## Генератор гравітаційної сингулярності або Генератор блискавичної кулі
   <Box>
     <GuideEntityEmbed Entity="SingularityGenerator"/>
     <GuideEntityEmbed Entity="TeslaGenerator"/>
   </Box>
-  The generator should be anchored at the center of the containment area, since this is where the singularity/tesla should appear at.
+  Генератор повинен бути закріплений в центрі області утримання, оскільки саме тут має з'явитися сингулярність/Тесла.
 
-  ## Radiation collectors or Tesla coils
+  ## Радіаційні колектори або котушки Тесли
   <Box>
     <GuideEntityEmbed Entity="RadiationCollector"/>
     <GuideEntityEmbed Entity="PlasmaTank"/>
   </Box>
-  The radition collectors connect to HV cables and generate power from nearby radiation sources when turned on.
-  Radiation collectors require a tank full of gaseous plasma in order to operate.
-  Continous radiation exposure will gradually convert the stored plasma into tritium, so replace depleted plasma tanks with fresh ones regularly to maintain a high power output.
+  Радіаційні колектори підключаються до HV кабелів і генерують енергію з найближчих джерел радіації, коли увімкнені.
+  Радіаційні колектори потребують балон з газоподібною плазмою для роботи.
+  Постійний вплив радіації поступово перетворює зберігаючуся плазму на тритій, тому регулярно замінюйте виснажені балони з плазмою на свіжі, щоб підтримувати високий вихід потужності.
 
   <Box>
     <GuideEntityEmbed Entity="TeslaCoil"/>
     <GuideEntityEmbed Entity="TeslaGroundingRod"/>
   </Box>
-  The tesla coils connect to HV cables and provide a stream of power after being zapped by the ball lightning.
-  However, tesla coils usually do not fully absorb the lightning strike, and the grounding rods are required to prevent lighting from arcing to and obliterating nearby machines.
-  Do note that one grounding rod is not a foolproof solution; get [color=#a4885c]atleast 4 rods[/color] around the containment field to make it mathematically unlikely for the tesla to escape.
-  As the ball lightning zaps tesla coils, they will degrade from wear; make sure to [color=#a4885c]weld them[/color] every now and then to keep generating power.
+  Котушки Тесли підключаються до HV кабелів і забезпечують потік енергії після удару блискавичної кулі.
+  Однак котушки Тесли зазвичай не повністю поглинають удар блискавки, і заземлюючі стержні необхідні для запобігання поширенню блискавки і знищення найближчих машин.
+  Зауважте, що один заземлюючий стержень не є надійним рішенням; розмістіть [color=#a4885c]щонайменше 4 стержні[/color] навколо області утримання, щоб зробити малоймовірним втечу Тесли.
+  Коли блискавична куля вдаряє котушки Тесли, вони зношуються; переконайтеся, що їх [color=#a4885c]зварюють[/color] час від часу для продовження генерації енергії.
 
-  ## Turing on the Engines
+  ## Запуск двигунів
 
-  [color=red]Do not[/color] turn the PA on unless all the other subsystems are working properly and there is enough power to start the engine.
+  [color=red]Не вмикайте[/color] PA, якщо всі інші підсистеми не працюють належним чином і немає достатньо енергії для запуску двигуна.
 
-  Turn power on using the PA control computer. Set the strength to an appropiate level. Currently the only appropriate level is [color=#f0684d]1[/color]; anything above that will ensure that singularity grows too strong to handle.
-  The higher the output stength is set on PA control computer, the bigger the singularity will be.
+  Увімкніть енергію за допомогою комп'ютера керування PA. Встановіть силу на відповідний рівень. На даний момент єдиний відповідний рівень - [color=#f0684d]1[/color]; будь-яке вище значення призведе до того, що сингулярність стане занадто сильною для утримання.
+  Чим більша вихідна потужність, встановлена на комп'ютері керування PA, тим більшою буде сингулярність.
 
-  Currently, the output power does not affect the ball lightning, beyond giving the ball lightning extra orbs around it.
+  На даний момент вихідна потужність не впливає на блискавичну кулю, окрім додавання додаткових сфер навколо неї.
 
-  The PA will now draw power from the power net and start firing particles at the generators.
+  PA тепер буде споживати енергію з мережі та почне запускати частинки в генератори.
 
   <Box>
     <GuideEntityEmbed Entity="ParticlesProjectile" Caption=""/>
@@ -101,18 +101,18 @@
     <GuideEntityEmbed Entity="ParticlesProjectile" Caption=""/>
   </Box>
 
-  A singularity or ball lightning will soon appear at the position of the Gravitational singularity generator.
+  Незабаром сингулярність або блискавична куля з'явиться в позиції генератора гравітаційної сингулярності.
   <Box>
     <GuideEntityEmbed Entity="Singularity"/>
-    or
+    або
     <GuideEntityEmbed Entity="TeslaEnergyBall"/>
   </Box>
 
-  If no particles are hitting the singularity, the singularity will start to slowly decay until it disappears.
-  This is not the case for the tesla; feel free to disconnect the PA after the tesla has been set up.
+  Якщо жодна частинка не потрапляє в сингулярність, вона почне повільно зменшуватися, поки не зникне.
+  Це не стосується Тесли; можете від'єднати PA після налаштування Тесли.
 
-  ## Safety
-  The singularity emits a large amount of radiation around it, so always keep a distance from it. Consider getting [color=yellow]radiation shielding gear[/color] beforehand. Seek medical attention if you are experiencing health issues.
+  ## Безпека
+  Сингулярність випромінює велику кількість радіації навколо себе, тому завжди тримайтеся від неї на відстані. Розгляньте можливість отримання [color=yellow]захисного спорядження від радіації[/color] заздалегідь. Звертайтеся за медичною допомогою, якщо у вас є проблеми зі здоров'ям.
 
   <Box>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitEngineering"/>
@@ -124,18 +124,18 @@
     <GuideEntityEmbed Entity="GeigerCounter"/>
   </Box>
 
-  The singularity might move around, but the containment field will repel it.
+  Сингулярність може рухатися, але силове поле буде відштовхувати її.
 
-  The tesla creates large bolts of lightning around it, so make sure to wear insuls before approaching it. If you aren't, and it zaps you, pray that the ball lightning doesn't stunlock you and eventually send you into crit.
+  Тесла створює великі блискавичні заряди навколо себе, тому обов'язково надягайте ізолюючі рукавички перед підходом до неї. Якщо ні, і вона вдарить вас, моліться, щоб блискавична куля не приголомшила вас і не довела до критичного стану.
   <Box>
     <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
   </Box>
-  If a singularity or tesla escapes its containment field, often referred to as a "singuloose" or "tesloose" respectively, it will attract and then consume everything in its way, growing larger as it does so, or it will begin to obliterate every machine in its path, and shock all crew personnel.
+  Якщо сингулярність або Тесла вийде з силового поля, це зазвичай називається "сінгулуз" або "теслулуз", і вона буде притягувати та знищувати все на своєму шляху, збільшуючись при цьому, або почне знищувати всі машини та бити всіх членів екіпажу.
 
-  In such circumstances, there is little to be done other than running in the opposite direction.
+  У такій ситуації майже нічого не можна зробити, окрім як бігти в протилежному напрямку.
   <Box>
     <GuideEntityEmbed Entity="WeaponParticleDecelerator"/>
   </Box>
-  However, if science has happened to research [color=#D381C9]Portable Particle Decelerators[/color], or if cargo can order them in time, you may be able to stop the singularity from eating the whole station.
-  Good luck on the tesla, though; it is merely too powerful to recontain after breaching.
+  Однак, якщо науковий відділ дослідив [color=#D381C9]Портативні Сповільнювачі Частинок[/color], або якщо вантажоперевезення можуть замовити їх вчасно, ви можете зупинити сингулярність від знищення всієї станції.
+  З Теслою, на жаль, все значно складніше; вона надто потужна, щоб повторно утримати після виходу з під контролю.
 </Document>

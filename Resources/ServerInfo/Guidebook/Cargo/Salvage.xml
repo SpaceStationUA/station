@@ -1,57 +1,54 @@
 <Document>
-# Salvage
+  # Рятувальні роботи
 
-Salvage is one of Logistics' key sources of income... until atmos comes along with a bajillion dollars worth of frezon. Until then though, your main job will be making them money, and totally not making a shuttle
+  Рятувальні роботи — одне з основних джерел доходу Логістики... поки відділ атмосфери не з'явиться з мільйонами доларів, отриманих з фрезону. До того моменту ваша головна задача — заробляти гроші, і зовсім не будувати шатл.
 
-## How to prepare for a salvage
+  ## Як підготуватися до рятувальних робіт
 
-Firstly you need a few things before you can commence on your salvaging.
+  Спочатку вам знадобляться кілька речей, перш ніж почати рятувальні роботи.
 
-<Box>
-<GuideEntityEmbed Entity="ClothingOuterHardsuitSpatio"/>
-<GuideEntityEmbed Entity="ClothingShoesBootsMag"/>
-</Box>
-Your Hardsuit is important, as it provides EVA protection. Meaning the lack of pressure and tempurature of space wont kill you. It will also provide minor defense against any space fauna you may encounter. The magboots will ensure you can move smoothly on a salvage and pull things in and out. They also make you slip proof!
+  <Box>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitSpatio"/>
+    <GuideEntityEmbed Entity="ClothingShoesBootsMag"/>
+  </Box>
+  Ваш скафандр важливий, оскільки він забезпечує EVA-захист. Це означає, що відсутність тиску і температура космосу не вб'ють вас. Він також забезпечує мінімальний захист від будь-якої космічної фауни, яку ви можете зустріти. Магнітні черевики забезпечують плавний рух під час рятувальних робіт і допомагають витягувати речі. Вони також захищають від ковзання!
 
-<Box>
-<GuideEntityEmbed Entity="JetpackBlue"/>
-<GuideEntityEmbed Entity="JetpackMini"/>
-</Box>
-Jetpacks will be needed to move thoughout space, since without floors and gravity, you will not be able to move. Its fueled by gases like oxygen, nitrogen, water vapor, or other gases that can be found in canisters.
+  <Box>
+    <GuideEntityEmbed Entity="JetpackBlue"/>
+    <GuideEntityEmbed Entity="JetpackMini"/>
+  </Box>
+  Реактивні ранці потрібні для переміщення в космосі, оскільки без підлоги та гравітації ви не зможете рухатися. Вони заправляються газами, такими як кисень, азот, водяна пара або іншими газами, які можна знайти в каністрах.
 
-<Box>
-<GuideEntityEmbed Entity="ClothingMaskGasExplorer"/>
-<GuideEntityEmbed Entity="OxygenTankFilled"/>
-<GuideEntityEmbed Entity="NitrogenTankFilled"/>
-</Box>
-Internals will be important, given all species need to breathe, and space doesnt have any gases. Your mask is used to connect the gas tank to your mouth to breath, while the gas tanks hold consumable gases and can be refilled at gas canisters. All species breathe oxygen (blue + yellow tanks) except slimes, which need nitrogen (red tanks)
+  <Box>
+    <GuideEntityEmbed Entity="ClothingMaskGasExplorer"/>
+    <GuideEntityEmbed Entity="OxygenTankFilled"/>
+    <GuideEntityEmbed Entity="NitrogenTankFilled"/>
+  </Box>
+  Внутрішнє спорядження важливе, адже всім видам потрібно дихати, а в космосі немає газів. Ваша маска використовується для підключення газового балона до рота для дихання, а балони містять споживні гази і можуть бути поповнені з каністр. Усі види дихають киснем (сині та жовті балони), крім слизів, яким потрібен азот (червоні балони).
 
-<Box>
-<GuideEntityEmbed Entity="WeaponCrusher"/>
-<GuideEntityEmbed Entity="WeaponCrusherDagger"/>
-<GuideEntityEmbed Entity="WeaponProtoKineticAccelerator"/>
-</Box>
-The crusher devices are your first and last line of defense against space fauna and other things that want to bring harm to logistics personnel. While the dagger is just a standard knife, the crusher is has a special property that if you shoot something with it, then follow up with a melee attack, it deals 2x more damage. The protokinetic accelerator is like a recharging weapon that can provide thrust in the scenerio that your jetpack runs dry, or mine for you.
+  <Box>
+    <GuideEntityEmbed Entity="WeaponCrusher"/>
+    <GuideEntityEmbed Entity="WeaponCrusherDagger"/>
+    <GuideEntityEmbed Entity="WeaponProtoKineticAccelerator"/>
+  </Box>
+  Пристрої Crusher — ваша перша і остання лінія захисту від космічної фауни та інших загроз, які хочуть нашкодити персоналу Логістики. Хоча дагер є звичайним ножем, Crusher має особливу властивість: якщо ви вистрелите у щось, а потім атакуєте в ближньому бою, це завдасть вдвічі більше шкоди. Протокінетичний прискорювач — це перезаряджувана зброя, яка може забезпечувати тягу у випадку, якщо ваш реактивний ранець спорожніє, або використовуватися для видобутку ресурсів.
 
-<Box>
-<GuideEntityEmbed Entity="Pickaxe"/>
-<GuideEntityEmbed Entity="MiningDrill"/>
-<GuideEntityEmbed Entity="OreBag"/>
-<GuideEntityEmbed Entity="ClothingBeltUtilityFilled"/>
-</Box>
-The pickaxe and mining drill are both useful for mining rocks or breaking structures quickly.
-The ore bag magnetises nearby ore and automatically picks it up if equipped to a belt slot.
-The utility belt can be useful for holding miscellaneous items when not occupied by your ore bag.
+  <Box>
+    <GuideEntityEmbed Entity="Pickaxe"/>
+    <GuideEntityEmbed Entity="MiningDrill"/>
+    <GuideEntityEmbed Entity="OreBag"/>
+    <GuideEntityEmbed Entity="ClothingBeltUtilityFilled"/>
+  </Box>
+  Кірка та бур корисні для видобутку каменів або швидкого руйнування структур. Мішок для руди автоматично збирає найближчу руду, якщо прикріплений до пояса. Пояс для інструментів може бути корисним для зберігання різних предметів, коли він не зайнятий мішком для руди.
 
-## How to make money as a salvager
-<Box>
-<GuideEntityEmbed Entity="SalvageMagnet"/>
-</Box>
-<Box>
-<GuideEntityEmbed Entity="ComputerSalvageExpedition"/>
-</Box>
-There are 2 primary forms of income for salvage. The magnet and Expeditions.
-The salvage magnet, when activated, calls in one of many random salvages to be generated somewhere within space. Once you find the salvage, you will need to fight off any present space fauna as well as loot it as much possible. A salvage will only be present for 4 minutes, before dissapearing, taking everything unlooted with it. And in worse case scenerios, will take the bodies of other salvagers in critical condition or dead. Afterwards, the magnet needs some time to recharge before being usable again.
-Expeditions are like adventures that you can do with your salvage buddies. First you must pick a mission from the salvage console, each of which of varying difficulty and reward. Afterwards you must FTL to the location via a shuttle. Once you arrive, the chat will tell you in which direction the dungeon of the salvage is, and you must go and conquer the dangers and gain the loot!
+  ## Як заробляти гроші як рятувальник
+  <Box>
+    <GuideEntityEmbed Entity="SalvageMagnet"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ComputerSalvageExpedition"/>
+  </Box>
+  Існує два основних способи заробітку для рятувальників: магніт для рятувальних робіт та експедиції. Коли магніт активується, він викликає одну з багатьох випадкових рятувальних місій, які генеруються десь у космосі. Після того, як ви знайдете місце рятувальних робіт, вам потрібно буде боротися з будь-якою присутньою космічною фауною, а також зібрати якомога більше здобичі. Рятувальна місія триватиме лише 4 хвилини, після чого зникне, забравши все, що не було зібране. У гіршому випадку це може забрати тіла інших рятувальників, які перебувають у критичному стані або мертві. Після цього магніт потребує часу для перезарядки, щоб знову бути використаним.
 
+  Експедиції — це пригоди, які ви можете здійснювати разом зі своїми товаришами. Спочатку потрібно вибрати місію на консолі експедицій, кожна з яких має різний рівень складності та винагороду. Потім потрібно вирушити на місце за допомогою шатлу FTL. Після прибуття чат покаже, в якому напрямку знаходиться підземелля рятувальних робіт, і вам потрібно подолати всі небезпеки, щоб отримати здобич!
 </Document>

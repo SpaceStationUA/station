@@ -1,73 +1,78 @@
 <Document>
-# Chef
-A fella has gotta eat, and it's the chef's job to make sure folks have something other than junk to munch on.
+  # Шеф-кухар
 
-First and foremost, you'll need to familiarize yourself with the kitchen, and the tools available to you.
+  Людина повинна їсти, і завдання шеф-кухаря - переконатися, що людям є що їсти, крім сміття.
 
-<Box>
-<GuideEntityEmbed Entity="KitchenKnife"/>
-<GuideEntityEmbed Entity="LargeBeaker"/>
-<GuideEntityEmbed Entity="ReagentContainerFlour"/>
-<GuideEntityEmbed Entity="FoodContainerEgg"/>
-<GuideEntityEmbed Entity="MobCow"/>
-</Box>
-<Box>
-<GuideEntityEmbed Entity="VendingMachineChefvend" Caption="Chef Vendor"/>
-<GuideEntityEmbed Entity="KitchenMicrowave"/>
-<GuideEntityEmbed Entity="KitchenSpike"/>
-<GuideEntityEmbed Entity="VendingMachineDinnerware" Caption="Dinnerware Vend"/>
-</Box>
+  Перш за все, вам потрібно ознайомитися з кухнею та інструментами, доступними вам.
 
-## Kitchen Prep:
+  <Box>
+    <GuideEntityEmbed Entity="KitchenKnife"/>
+    <GuideEntityEmbed Entity="LargeBeaker"/>
+    <GuideEntityEmbed Entity="ReagentContainerFlour"/>
+    <GuideEntityEmbed Entity="FoodContainerEgg"/>
+    <GuideEntityEmbed Entity="MobCow"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="VendingMachineChefvend" Caption="Автомат шефа"/>
+    <GuideEntityEmbed Entity="KitchenMicrowave"/>
+    <GuideEntityEmbed Entity="KitchenSpike"/>
+    <GuideEntityEmbed Entity="VendingMachineDinnerware" Caption="Автомат з посудом"/>
+  </Box>
 
-It's hard to put into words how to play chef without feeling like you're being given orders, but here are some basics.
+  ## Підготовка на кухні:
 
-- Check what you have on hand when it comes to ingredients, most kitchens have some Flour, Rice, Eggs, Monkey Cubes, and a few other things to get started with.
-- Try your hand at mixing up some dough by putting water and flour together in a beaker. (Use the sinks!)
-- Check the Wiki (or Food Recipes) guidebook for things you can make, and put all the listed ingredients into a microwave to cook it into a meal.
-- Set up mouse traps. Yes, really. It's easy to see all your hard work disappear if you don't take precautions for mice infestations.
+  Важко описати, як грати шеф-кухаря, не відчуваючи, що вам віддають накази, але ось деякі основи.
 
-Once you're a bit more experienced and familiar with what you can make, it might be best to put together a few menus, or a "cheat sheet" so you can give a list of ingredients to botany.
+  - Перевірте, що у вас є з інгредієнтів, більшість кухонь мають трохи борошна, рису, яєць, кубів мавп та ще деякі речі для початку.
+  - Спробуйте змішати трохи тіста, з'єднавши воду та борошно в мірному стакані. (Використовуйте раковини!)
+  - Перевірте Вікі (або посібник з рецептів їжі) для речей, які ви можете приготувати, і помістіть усі перераховані інгредієнти в мікрохвильовку, щоб приготувати страву.
+  - Розставте мишоловки. Так, справді. Легко побачити, як вся ваша робота зникає, якщо не вжити заходів проти інвазії мишей.
 
-## Mixing Dough:
-Add Flour and Water together in a beaker. (Use the sink for water!)
-<Box>
-<GuideEntityEmbed Entity="LargeBeaker"/>
-<GuideEntityEmbed Entity="ReagentContainerFlour"/>
-<GuideEntityEmbed Entity="DrinkWaterBottleFull" Caption="water"/>
-<GuideEntityEmbed Entity="FoodDough"/>
-</Box>
-## Making Flour:
-Place wheat in a grinder (with a beaker placed inside) and grind it up!
-<Box>
-<GuideEntityEmbed Entity="KitchenReagentGrinder"/>
-<GuideEntityEmbed Entity="LargeBeaker"/>
-<GuideEntityEmbed Entity="WheatBushel"/>
-<GuideEntityEmbed Entity="ReagentContainerFlour"/>
-</Box>
-## Getting Plants:
-Ask Botany for what you need, without a botanist, you may need to grow more plants yourself.
-<Box>
-<GuideEntityEmbed Entity="SignHydro1" Caption=" "/>
-<GuideEntityEmbed Entity="hydroponicsTray"/>
-<GuideEntityEmbed Entity="WheatBushel"/>
-<GuideEntityEmbed Entity="SignHydro2" Caption=" "/>
-</Box>
-## Gathering Milk:
-Alt-Click on a Cow with a container in your hand. (Beakers, Buckets, Milk Jugs, ect.)
-<Box>
-<GuideEntityEmbed Entity="Bucket"/>
-<GuideEntityEmbed Entity="MobCow"/>
-<GuideEntityEmbed Entity="DrinkMilkCarton"/>
-</Box>
-## How to Butcher:
-In most cases, you should be able to use a knife directly on a creature that's dead. It's best to do this in the freezer, as the results are... messy.
+  Коли ви набудете більше досвіду та ознайомитесь з тим, що можна приготувати, можливо, найкраще скласти кілька меню або "шпаргалку", щоб ви могли дати список інгредієнтів ботаніці.
 
-Monkeys, however, (and other humanoids), need to be dragged onto a meatspike to be butchered.
-<Box>
-<GuideEntityEmbed Entity="KitchenSpike"/>
-<GuideEntityEmbed Entity="KitchenKnife"/>
-<GuideEntityEmbed Entity="MobMonkey"/>
-<GuideEntityEmbed Entity="FoodMeat"/>
-</Box>
+  ## Змішування тіста:
+  Додайте борошно та воду разом у мірний стакан. (Для води використовуйте раковину!)
+  <Box>
+    <GuideEntityEmbed Entity="LargeBeaker"/>
+    <GuideEntityEmbed Entity="ReagentContainerFlour"/>
+    <GuideEntityEmbed Entity="DrinkWaterBottleFull" Caption="вода"/>
+    <GuideEntityEmbed Entity="FoodDough"/>
+  </Box>
+
+  ## Приготування борошна:
+  Покладіть пшеницю в млин (з мірним стаканом всередині) і подрібніть її!
+  <Box>
+    <GuideEntityEmbed Entity="KitchenReagentGrinder"/>
+    <GuideEntityEmbed Entity="LargeBeaker"/>
+    <GuideEntityEmbed Entity="WheatBushel"/>
+    <GuideEntityEmbed Entity="ReagentContainerFlour"/>
+  </Box>
+
+  ## Отримання рослин:
+  Попросіть ботаніка про те, що вам потрібно, без ботаніка, можливо, вам доведеться вирощувати більше рослин самостійно.
+  <Box>
+    <GuideEntityEmbed Entity="SignHydro1" Caption=" "/>
+    <GuideEntityEmbed Entity="hydroponicsTray"/>
+    <GuideEntityEmbed Entity="WheatBushel"/>
+    <GuideEntityEmbed Entity="SignHydro2" Caption=" "/>
+  </Box>
+
+  ## Збирання молока:
+  Натисніть Alt і клацніть по корові з контейнером у руці (мірний стакан, відро, молочні пакети тощо).
+  <Box>
+    <GuideEntityEmbed Entity="Bucket"/>
+    <GuideEntityEmbed Entity="MobCow"/>
+    <GuideEntityEmbed Entity="DrinkMilkCarton"/>
+  </Box>
+
+  ## Як розібрати на м'ясо:
+  У більшості випадків ви можете використовувати ніж безпосередньо на мертвій істоті. Найкраще робити це в морозильній камері, оскільки результат досить... брудний.
+
+  Мавпи та інші гуманоїди, однак, повинні бути перетягнуті на м'ясну шпильку для розбирання.
+  <Box>
+    <GuideEntityEmbed Entity="KitchenSpike"/>
+    <GuideEntityEmbed Entity="KitchenKnife"/>
+    <GuideEntityEmbed Entity="MobMonkey"/>
+    <GuideEntityEmbed Entity="FoodMeat"/>
+  </Box>
 </Document>

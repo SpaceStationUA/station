@@ -1,20 +1,20 @@
 <Document>
-  # Radioisotope Thermoelectric Generator (RTG)
+  # Радіоізотопний термоелектричний генератор (RTG)
 
   <Box>
     <GuideEntityEmbed Entity="GeneratorRTG" Caption="RTG" />
   </Box>
 
-  Making power using a Radioisotope Thermoelectric Generator (RTG) is similar to making power using solars.
-  RTGs only provide [color=#a4885c]10kW[/color] of power, but they provide it for free and for the entire round.
-  Basically, if you connect an RTG to your power grid, it'll give you [color=#a4885c]free power[/color].
-  However, they're only accessible through salvage finding one on an expedition. Should they bring some in, make sure to thank them!
+  Вироблення енергії за допомогою Радіоізотопного термоелектричного генератора (RTG) подібне до вироблення енергії за допомогою сонячних батарей.
+  RTG забезпечують лише [color=#a4885c]10 кВт[/color] потужності, але вони забезпечують її безкоштовно і протягом усього раунду.
+  Фактично, якщо ви підключите RTG до своєї електромережі, він дасть вам [color=#a4885c]безкоштовну енергію[/color].
+  Однак вони доступні лише через пошук на експедиціях. Якщо вони принесуть їх, не забудьте подякувати!
 
   <Box>
-    <GuideEntityEmbed Entity="GeneratorRTGDamaged" Caption="Damaged RTG" />
+    <GuideEntityEmbed Entity="GeneratorRTGDamaged" Caption="Пошкоджений RTG" />
   </Box>
-  Sometimes, RTGs appear damaged.
-  Damaged RTGs behave just like regular ones, but they're [color=yellow]radioactive[/color].
-  That means they're more dangerous, but on the bright side, you can put radiation collectors next to them to turn that radiation into more power.
-  This is usually more worthwhile, considering the power is still free, so long as you can find a safe spot to put the RTG(s) in.
+  Іноді RTG з'являються пошкодженими.
+  Пошкоджені RTG поводяться так само, як звичайні, але вони [color=yellow]радіоактивні[/color].
+  Це означає, що вони більш небезпечні, але з іншого боку, ви можете поставити поруч колектори радіації, щоб перетворювати цю радіацію на додаткову енергію.
+  Це зазвичай більш варте того, оскільки енергія все одно безкоштовна, якщо ви зможете знайти безпечне місце для розміщення RTG(ів).
 </Document>

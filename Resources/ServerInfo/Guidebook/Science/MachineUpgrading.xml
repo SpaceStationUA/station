@@ -1,38 +1,38 @@
 <Document>
-# Machine Upgrading
+  # Оновлення Машин
 
-Machines help the station run smoothly, and as a scientist, you can help them run even better!
+  Машини допомагають станції працювати безперебійно, і як науковець, ви можете допомогти їм працювати ще краще!
 
-## Parts
-<Box>Stock Parts:</Box>
-<Box>
-<GuideEntityEmbed Entity="CapacitorStockPart"/>
-<GuideEntityEmbed Entity="MatterBinStockPart"/>
-<GuideEntityEmbed Entity="MicroManipulatorStockPart"/>
-</Box>
-You can examine each machine part to see both the type and the rating, which range from 1 to 4.
+  ## Частини
+  <Box>Стокові Частини:</Box>
+  <Box>
+    <GuideEntityEmbed Entity="CapacitorStockPart"/>
+    <GuideEntityEmbed Entity="MatterBinStockPart"/>
+    <GuideEntityEmbed Entity="MicroManipulatorStockPart"/>
+  </Box>
+  Ви можете дослідити кожну частину машини, щоб побачити як тип, так і рейтинг, який варіюється від 1 до 4.
 
-Parts of higher levels can be researched as well as found through artifacts or salvage.
-<Box>
-<GuideEntityEmbed Entity="AdvancedMatterBinStockPart"/>
-<GuideEntityEmbed Entity="SuperMatterBinStockPart"/>
-<GuideEntityEmbed Entity="BluespaceMatterBinStockPart"/>
-</Box>
+  Частини вищого рівня можна досліджувати, а також знаходити через артефакти або на звалищі.
+  <Box>
+    <GuideEntityEmbed Entity="AdvancedMatterBinStockPart"/>
+    <GuideEntityEmbed Entity="SuperMatterBinStockPart"/>
+    <GuideEntityEmbed Entity="BluespaceMatterBinStockPart"/>
+  </Box>
 
-## Upgrading
-To know if a machine can be upgraded, you can examine it and check for the [color=#a4885c]lightning bolt[/color] icon in the lower right corner. Clicking on it will allow you to see what kinds of upgrades the machine has.
+  ## Оновлення
+  Щоб дізнатися, чи можна оновити машину, можна дослідити її і перевірити наявність значка [color=#a4885c]блискавки[/color] у нижньому правому куті. Натискання на нього дозволить вам побачити, які оновлення має машина.
 
-To check what parts a machine needs, you can examine its board. Try it here:
-<Box Orientation="Vertical">
-<GuideEntityEmbed Entity="ProtolatheMachineCircuitboard"/>
-<GuideEntityEmbed Entity="CloningPodMachineCircuitboard"/>
-<GuideEntityEmbed Entity="TraversalDistorterMachineCircuitboard"/>
-<GuideEntityEmbed Entity="ThermomachineFreezerMachineCircuitBoard"/>
-</Box>
-You can use any rating part for any part requirement. Using higher rated parts will increase how effective the machine is.
+  Щоб дізнатися, які частини потрібні машині, ви можете дослідити її плату. Спробуйте це тут:
+  <Box Orientation="Vertical">
+    <GuideEntityEmbed Entity="ProtolatheMachineCircuitboard"/>
+    <GuideEntityEmbed Entity="CloningPodMachineCircuitboard"/>
+    <GuideEntityEmbed Entity="TraversalDistorterMachineCircuitboard"/>
+    <GuideEntityEmbed Entity="ThermomachineFreezerMachineCircuitBoard"/>
+  </Box>
+  Ви можете використовувати будь-яку частину з будь-яким рівнем для будь-якої вимоги до частини. Використання частин вищого рівня підвищить ефективність машини.
 
-If you want to upgrade an existing machine, simply deconstruct it with a screwdriver and crowbar, and replace the existing parts with parts of a higher level.
+  Якщо ви хочете оновити існуючу машину, просто демонтуйте її за допомогою викрутки і лому, а потім замініть існуючі частини на частини вищого рівня.
 
-You can also quickly upgrade machines by using an RPED, loading it with machine parts, and then clicking on a machine. It will quickly be upgraded with whatever parts were inserted.
-<GuideEntityEmbed Entity="RPED"/>
+  Ви також можете швидко оновити машини за допомогою RPED, завантаживши в нього частини машини, а потім натиснувши на машину. Вона швидко буде оновлена частинами, які були вставлені.
+  <GuideEntityEmbed Entity="RPED"/>
 </Document>

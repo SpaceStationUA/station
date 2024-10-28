@@ -1,16 +1,15 @@
+[color=#ffffff]Параметри панелі появи сутностей[/color]
+[color=#a4885c]За замовчуванням[/color] створює малі сутності, такі як чашки, без прив'язки до чого-небудь, а великі сутності, як стіни, прив'язує до сітки.
+[color=#a4885c]Вільне розміщення[/color] створює всі сутності без прив'язки.
+[color=#a4885c]Розміщення поруч[/color] обмежує радіус появи приблизно двома плитками.
+[color=#a4885c]Центр прив'язки[/color] прив'язує сутність до середини плитки.
+[color=#a4885c]Границя прив'язки[/color] прив'язує сутність до краю плитки.
 
-[color=#ffffff]Entity spawn panel options[/color]
-[color=#a4885c]Default[/color] spawns small entities like mugs without aligning them to anything, while aligning block entities like walls to the grid.
-[color=#a4885c]PlaceFree[/color] spawns all entities without aligning them.
-[color=#a4885c]PlaceNearby[/color] limits the spawn radius to around 2 tiles.
-[color=#a4885c]SnapgridCenter[/color] aligns the entity to the middle of the tile.
-[color=#a4885c]SnapgridBorder[/color] aligns the entity to the border of the tile.
-
-[color=#ffffff]Grid aligned options[/color]
-[color=#a4885c]AlignSimilar[/color] snaps the entity to similar entities. Currently broken.
-[color=#a4885c]AlignTileAny[/color] aligns the entity to the grid.
-[color=#a4885c]AlignTileEmpty[/color] target tile must be empty
-[color=#a4885c]AlignTileNonDense[/color] no colliders allowed in the target tile.
-[color=#a4885c]AlignTileDense[/color] colliders must be in the target tile.
-[color=#a4885c]AlignWall[/color] snaps to vertical halftiles.
-[color=#a4885c]AlignWallProper[/color] snaps the entity to the middle of the tile edges
+[color=#ffffff]Опції вирівнювання по сітці[/color]
+[color=#a4885c]Вирівнювання схожих[/color] прив'язує сутність до подібних сутностей. Наразі не працює.
+[color=#a4885c]Вирівнювання по сітці[/color] вирівнює сутність по сітці.
+[color=#a4885c]Вирівнювання по порожній плитці[/color] цільова плитка повинна бути порожньою.
+[color=#a4885c]Вирівнювання по неплотній плитці[/color] не дозволяє наявність колайдерів у цільовій плитці.
+[color=#a4885c]Вирівнювання по щільній плитці[/color] у цільовій плитці мають бути колайдери.
+[color=#a4885c]Вирівнювання по стіні[/color] прив'язує до вертикальних половинних плиток.
+[color=#a4885c]Правильне вирівнювання по стіні[/color] прив'язує сутність до середини країв плитки.
