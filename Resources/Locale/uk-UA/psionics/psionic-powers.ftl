@@ -141,4 +141,24 @@ action-description-shadowkin-shadeskip = Аарамрра!
 # DarkSwap
 action-name-darkswap = DarkSwap
 action-description-darkswap = Ммра Мамм!
-ethereal-pickup-fail = Моя рука обпікається, коли вона проходить крізь нього...
+ethereal-pickup-fail = Моя рука обпікається, коли вона проходить крізь нього..
+revivify-begin = {CAPITALIZE($entity)} виголошує слово такої божественної сили, що ті, хто його чує, плачуть від радості.
+
+# Telegnosis
+action-name-summon-imp = Викликати демона
+action-description-summon-imp = Викличте і зв'яжіть Біса з Геєни, щоб він став вашим Знайомим.
+summon-imp-power-description = { action-description-summon-imp }
+summon-imp-power-initialization-feedback = На короткий час я опиняюся блукаю почорнілими полями Геєни. Я просіюю між попелом, знаходжу тліюче вугілля у формі ока.
+    Я дихаю на нього, і воно спалахує полум'ям. Перш ніж я повернуся, істота дякує мені і називає своє ім'я.
+
+# Виклич Ремілію
+action-name-summon-remilia = Викличте Ремілію
+action-description-summon-remilia = Покличте свою вірну знайому Ремілію.
+summon-remilia-power-description = { action-description-summon-remilia }
+
+# Повідомлення псіонічної системи
+psionic-familiar-cant-attack-master = Я пов'язаний з моїм Вчителем, я не можу заподіяти їм шкоди.
+psionic-familiar-despawn-text = {CAPITALIZE($entity)} повертається звідти, звідки прийшла!
+ghost-role-information-familiar-name = Псіо Фамільяр
+ghost-role-information-familiar-description = Міжпросторова істота, пов'язана з волею Псіона.
+ghost-role-information-familiar-rules = Слухайся того, хто тебе покликав. Не дійте проти інтересів свого Вчителя. Ти помреш за свого Вчителя, якщо це буде потрібно.

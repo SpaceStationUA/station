@@ -1,7 +1,7 @@
-marking-EyesShadowkin = Shadowkin
+marking-EyesShadowkin = Тіньовик
 
-marking-TailShadowkin = Shadowkin
-marking-TailShadowkinBig = Shadowkin (Big)
-marking-TailShadowkinShorter = Shadowkin (Short)
-marking-TailShadowkinMedium = Shadowkin (Medium)
-marking-TailShadowkinBigFluff = Shadowkin (Big and Fluffy)
+marking-TailShadowkin = Тіньовик
+marking-TailShadowkinBig = Shadowkin (великий)
+marking-TailShadowkinShorter = Shadowkin (малий)
+marking-TailShadowkinMedium = Shadowkin (середній)
+marking-TailShadowkinBigFluff = Shadowkin (великий і пухнастий)
