@@ -163,3 +163,7 @@ chat-speech-verb-oni-4 = гуркіт
 chat-speech-verb-marish = Марс.
 
 #ПІРАТСЬКИЙ СТАРТ
+
+chat-manager-send-empathy-chat-wrap-message = {$source}: {$message}
+
+## Speech verbs for chat
