@@ -1,8 +1,8 @@
 - type: entity
   id: ReverseEngineeringMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: reverse engineering machine machine board
-  description: A machine printed circuit board for a reverse engineering machine
+  name: "реінжиніринг верстата плата верстата"
+  description: "Друкована плата для машини зворотного інжинірингу"
   components:
     - type: Sprite
       state: engineering
@@ -27,7 +27,7 @@
 - type: entity
   id: DeepFryerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: deep fryer machine board
+  name: "дошка фритюрниці"
   components:
     - type: Sprite
       state: service
@@ -47,7 +47,7 @@
 - type: entity
   id: MailTeleporterMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: mail teleporter machine board
+  name: "машинна плата поштового телепорту"
   components:
     - type: Sprite
       state: supply

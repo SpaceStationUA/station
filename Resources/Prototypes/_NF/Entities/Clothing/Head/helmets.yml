@@ -6,7 +6,7 @@
 - type: entity
   parent: ClothingHeadHelmetBombSuit
   id: ClothingHeadHelmetBombSuitSyndie
-  name: syndicate bombsuit helmet
+  name: "синдикатський шолом сапера"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Helmets/syndicate_bombsuit.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: ClothingHeadHelmetBasic
   id: ClothingHeadHelmetNfsd
-  name: nfsd helmet
-  description: an nfsd issued helmet to protect your head
+  name: "шолом nfsd"
+  description: "шолом, виданий nfsd для захисту голови"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Helmets/nfsd.rsi
@@ -51,7 +51,7 @@
 - type: entity
   parent: ClothingHeadHelmetBasic
   id: ClothingHeadHelmetCultJanitor
-  name: cult leader helmet
+  name: "шолом лідера секти"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Helmets/cult_janitor.rsi
