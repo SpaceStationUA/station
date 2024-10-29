@@ -1,6 +1,6 @@
 # Base
 - type: entity
-  name: "дослідник"
+  name: explorer
   abstract: true
   parent:
   - MobNonHumanHostileBase
@@ -60,7 +60,7 @@
 # Variations
 ## Tier 1
 - type: entity
-  name: "дослідник"
+  name: explorer
   parent:
   - MobExplorerBase
   - MobHumanoidHostileAISimpleMelee
@@ -86,7 +86,7 @@
       shader: unshaded
 
 - type: entity
-  name: "дослідник"
+  name: explorer
   parent:
   - MobExplorerBase
   id: MobExplorerRangedT1
@@ -136,7 +136,7 @@
 
 ## Tier 2
 - type: entity
-  name: "дослідник"
+  name: explorer
   parent:
   - MobExplorerBase
   - MobHumanoidHostileAISimpleMelee
@@ -170,7 +170,7 @@
     color: "#47f8ff"
 
 - type: entity
-  name: "дослідник"
+  name: explorer
   parent:
   - MobExplorerBase
   id: MobExplorerRangedT2
@@ -221,7 +221,7 @@
 
 # Tier 3
 - type: entity
-  name: "дослідник"
+  name: explorer
   parent:
   - MobExplorerBase
   - MobHumanoidHostileAISimpleMelee
@@ -264,7 +264,7 @@
     color: "#47f8ff"
 
 - type: entity
-  name: "дослідник"
+  name: explorer
   parent:
   - MobExplorerBase
   id: MobExplorerRangedT3
@@ -311,7 +311,7 @@
     color: "#47f8ff"
 
 - type: entity
-  name: "тягач"
+  name: hauler
   noSpawn: true
   parent:
   - MobExplorerBase
@@ -374,7 +374,7 @@
 
 # Tier 4 - Boss
 - type: entity
-  name: "дослідник"
+  name: explorer
   parent:
   - MobExplorerBase
   id: MobExplorerBoss
