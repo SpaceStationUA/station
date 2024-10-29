@@ -19,6 +19,7 @@ public sealed partial class PsionicFamiliarSystem : EntitySystem
     [Dependency] private readonly NPCSystem _npc = default!;
     [Dependency] private readonly HTNSystem _htn = default!;
     [Dependency] private readonly PopupSystem _popup = default!;
+    [Dependency] private readonly SharedTransformSystem _transformSystem = default!; // PIRATE
 
     public override void Initialize()
     {
@@ -32,6 +33,19 @@ public sealed partial class PsionicFamiliarSystem : EntitySystem
 
     private void OnSummon(EntityUid uid, PsionicComponent psionicComponent, SummonPsionicFamiliarActionEvent args)
     {
+        // PIRATE - TELEPORT FAMILIARS TO PLAYER
+        var playerCoords = Transform(uid).Coordinates;
+
+        if (psionicComponent.Familiars.Count > 0)
+        {
+            foreach (var familiarUid in psionicComponent.Familiars)
+            {
+                _transformSystem.SetCoordinates(familiarUid, playerCoords);
+                _transformSystem.AttachToGridOrMap(familiarUid, Transform(familiarUid));
+            }
+        }
+        // END PIRATE
+
         if (psionicComponent.Familiars.Count >= psionicComponent.FamiliarLimit
             || !_psionics.OnAttemptPowerUse(args.Performer, args.PowerName, args.ManaCost, args.CheckInsulation)
             || args.Handled || args.FamiliarProto is null)
