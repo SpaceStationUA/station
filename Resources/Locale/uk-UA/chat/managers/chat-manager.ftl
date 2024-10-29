@@ -127,8 +127,6 @@ chat-speech-verb-electricity-2 = дзижчить
 chat-speech-verb-electricity-3 = верещить
 
 #PIRATE START
-chat-manager-send-empathy-chat-wrap-message = {$empathyChannelName}: {$message}
-chat-manager-send-empathy-chat-wrap-message-admin = {$empathyChannelName} - {$source}: {$message}
 chat-manager-empathy-channel-name = ЕМПАТІЯ
 
 chat-speech-verb-name-goblin = Гоблін

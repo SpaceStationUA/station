@@ -160,10 +160,3 @@ chat-speech-verb-electricity-2 = buzzes
 chat-speech-verb-electricity-3 = screeches
 
 chat-speech-verb-marish = Mars
-
-#PIRATE START
-chat-manager-send-empathy-chat-wrap-message = {$empathyChannelName}: {$message}
-chat-manager-send-empathy-chat-wrap-message-admin = {$empathyChannelName} - {$source}: {$message}
-chat-manager-empathy-channel-name = EMPATHY
-
-chat-speech-verb-name-goblin = Goblin
