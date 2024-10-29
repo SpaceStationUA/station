@@ -60,3 +60,20 @@
       blacklist:
         tags:
           - NukeOpsUplink
+
+- type: listing
+  id: UplinkСQСBundle
+  name: Набір ближнього бою
+  description: Містить бойовий костюм Горлекса, та інші речі для елітного оперативника що розраховує на ближній бій
+  icon: { sprite: /Textures/_Pirate/Clothing/OuterClothing/Armor/syndie_oper.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateFilledCQC
+  cost:
+    Telecrystal: 10
+  categories:
+    - UplinkArmor
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - NukeOpsUplink
+  saleLimit: 1

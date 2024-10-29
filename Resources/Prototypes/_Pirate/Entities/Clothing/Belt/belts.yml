@@ -1,0 +1,14 @@
+- type: entity
+  parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase]
+  id: ClothingBeltSyndieWest
+  name: compact chest rig
+  description: A brand new chest rig for an operation. Gorlex LLC provides it as an addition to compact armorsuit.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/Belt/syndie_west.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Belt/syndie_west.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Item
+    size: Normal
