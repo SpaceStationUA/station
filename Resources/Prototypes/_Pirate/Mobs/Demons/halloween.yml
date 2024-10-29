@@ -1,0 +1,29 @@
+- type: entity
+  name: pumpkin... slime?
+  parent: MobAdultSlimes
+  id: MobHaloweenSlimes
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _Goobstation/Mobs/Demons/pumpkinslime.rsi
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: alive
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: alive
+      Dead:
+        Base: dead
+
+
+- type: entity
+  name: pumpkin... slime?
+  parent: MobHaloweenSlimes
+  id: MobHaloweenSlimesAngry
+  suffix: Angry
+  components:
+    - type: NpcFactionMember
+      factions:
+        - SimpleHostile
+

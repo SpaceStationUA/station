@@ -1,0 +1,45 @@
+- type: entity
+  name: paper bag
+  id: PaperBagCandy
+  parent: CandyBucket
+  suffix: Геловін
+  description: A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
+  components:
+    - type: Sprite
+      sprite: __TEMP/paper_bag.rsi
+      layers:
+      - state: empty_icon
+        map: [ "enum.ToggleVisuals.Layer" ]
+    - type: Storage
+      grid:
+      - 0,0,4,2
+
+- type: entity
+  name: pumpkin bag
+  id: PumpkinBagCandy
+  parent: CandyBucket
+  suffix: Геловін
+  description: A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
+  components:
+    - type: Sprite
+      sprite: __TEMP/pumpkin_bag.rsi
+      layers:
+      - state: empty_icon
+        map: [ "enum.ToggleVisuals.Layer" ]
+    - type: Storage
+      grid:
+      - 0,0,4,2
+
+- type: loadout
+  id: LoadoutItemPaperBag
+  category: Items
+  cost: 0
+  items:
+    - PaperBagCandy
+
+- type: loadout
+  id: LoadoutItemPumpkinBagCandy
+  category: Items
+  cost: 0
+  items:
+    - PumpkinBagCandy
