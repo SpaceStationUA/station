@@ -113,3 +113,15 @@
         tags:
           - NukeOpsUplink
   saleLimit: 1
+
+- type: listing
+  id: UplinkCSARBundle
+  name: uplink-csar-bundle-name
+  description: uplink-csar-bundle-desc
+  icon: { sprite: /Textures/_Pirate/Objects/Weapons/Guns/SMGs/csar.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateFilledCSAR
+  cost:
+    Telecrystal: 14
+  categories:
+  - UplinkBundles
+  saleLimit: 1
