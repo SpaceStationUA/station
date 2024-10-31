@@ -3,6 +3,7 @@
   - BaseMob
   - MobCombat
   id: slendermimeplayer
+  suffix: геловін
   name: Mime
   description: Something seems off...
   components:
@@ -132,3 +133,78 @@
     minimumPlayers: 10
   - type: RandomSpawnRule
     prototype: slendermimeghostrole
+
+### MONSTER
+- type: entity
+  parent:
+  - BaseMob
+  - MobCombat
+  id: WeenMonsterPlayer
+  name: Monster
+  description: Something seems off...
+  suffix: геловін
+  components:
+  - type: Eye
+    drawFov: false
+  - type: PointLight
+    radius: 1.5
+    energy: 2.0
+    color: "#b51d02"
+    castShadows: false
+  - type: Perishable
+  - type: Stamina
+  - type: Damageable
+    damageContainer: Biological
+  - type: NoSlip
+  - type: StatusEffects
+    allowed:
+    - SlowedDown
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 1.5
+    baseSprintSpeed : 2.5
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.3
+        density: 230
+        mask:
+        - MobMask
+        layer:
+        - MobMask
+  # - type: StopOnLOS
+  - type: MeleeWeapon
+    hidden: true
+    soundHit:
+      collection: MetalThud
+    damage:
+      groups:
+        Brute: 50
+  - type: Sprite
+    sprite: _Pirate/Mobs/Customization/monster.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: active
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: active
+      Critical:
+        Base: active
+      Dead:
+        Base: active
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      900: Critical
+      1000: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      600: 0.7
+      800: 0.5
+  - type: MobState
+  - type: MobStateActions
+    actions:
+      Critical:
+      - ActionCritSuccumb
