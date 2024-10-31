@@ -1,8 +1,8 @@
 - type: entity
-  name: snubbed .45
+  name: "калібру .45"
   parent: BaseWeaponRevolver
   id: WeaponRevolverSnub
-  description: An old and reliable revolver, modified to be more easily concealed. Uses .45 magnum ammo.
+  description: "Старий і надійний револьвер, модифікований, щоб його було легше сховати. Використовує набої калібру .45 магнум."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Revolvers/webleysnubnose.rsi
@@ -23,10 +23,10 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: k-38 masterpiece
+  name: "k-38 шедевр"
   parent: BaseWeaponRevolver
   id: WeaponRevolverK38Master
-  description: A classic, if not outdated, law enforcement firearm. Uses .38 special ammo.
+  description: "Класична, якщо не сказати застаріла, вогнепальна зброя правоохоронних органів. Використовує спеціальні набої 38-го калібру."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Revolvers/k38master.rsi
@@ -48,10 +48,10 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: fitz special
+  name: "фіц спеціальний"
   parent: BaseWeaponRevolver
   id: WeaponRevolverFitz
-  description: A compact and concealable self defence snub revolver. Uses .38 special ammo.
+  description: "Компактний пістолет для самозахисту, який можна легко сховати. Використовує спеціальні набої калібру .38."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Revolvers/fitz.rsi
@@ -73,10 +73,10 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: lucky 37
+  name: "щасливий 37"
   parent: BaseWeaponRevolver
   id: WeaponRevolverLucky
-  description: Luck always beats skill, ya weasel. Uses .38 special ammo.
+  description: "Удача завжди перемагає майстерність, ласиця. Використовує спеціальні набої 38-го калібру."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Revolvers/lucky.rsi
@@ -100,10 +100,10 @@
     price: 750
 
 - type: entity
-  name: faith
+  name: "віра"
   parent: BaseWeaponRevolver
   id: WeaponRevolverFaith
-  description: Delivers blessings in bullet form. Uses .38 special ammo.
+  description: "Доставляє благословення у вигляді кулі. Використовує спеціальні набої калібру .38."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Revolvers/faith.rsi
