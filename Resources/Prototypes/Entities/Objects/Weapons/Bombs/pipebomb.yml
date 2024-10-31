@@ -30,6 +30,8 @@
   - type: Construction
     graph: PipeBomb
     node: pipebomb
+  - type: SpawnOnTrigger # Pirate shock wave
+    proto: ExplosionEffectGrenadeShockWave
 
 - type: entity
   parent: BaseItem
