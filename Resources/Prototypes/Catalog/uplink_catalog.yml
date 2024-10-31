@@ -1527,21 +1527,6 @@
   - UplinkArmor
   saleLimit: 1
 
-- type: listing
-  id: UplinkEnergyDomeSyndie
-  name: uplink-energy-dome-name
-  description: uplink-energy-dome-desc
-  productEntity: EnergyDomeGeneratorPersonalSyndie
-  cost: 
-    Telecrystal: 10
-  categories:
-  - UplinkArmor
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - NukeOpsUplink
-
 # Misc
 
 - type: listing
@@ -1793,18 +1778,3 @@
   conditions:
   - !type:ListingLimitedStockCondition
     stock: 1
-#PIRATE
-- type: listing
-  id: UplinkHoverBikeSyndie
-  name: hoverbike
-  description: hoverbike
-  productEntity: HoverbikeSyndicateFlatpack
-  cost:
-    Telecrystal: 10
-  categories:
-  - UplinkDeception
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - NukeOpsUplink
