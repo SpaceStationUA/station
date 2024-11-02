@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionRevertPolymorph
-  name: Revert
-  description: Revert back into your original form.
+  name: "Повернути назад"
+  description: "Поверніться до початкової форми."
   noSpawn: true
   components:
   - type: InstantAction
@@ -17,8 +17,8 @@
 
 - type: entity
   id: ActionPolymorphWizardSpider
-  name: Spider Polymorph
-  description: Polymorphs you into a Spider.
+  name: "Поліморф павука"
+  description: "Поліморфує тебе на павука."
   noSpawn: true
   components:
   - type: InstantAction
@@ -32,8 +32,8 @@
 
 - type: entity
   id: ActionPolymorphWizardRod
-  name: Rod Form
-  description: CLANG!
+  name: "Форма стрижня"
+  description: "БРЯЗКІТ!"
   noSpawn: true
   components:
   - type: InstantAction

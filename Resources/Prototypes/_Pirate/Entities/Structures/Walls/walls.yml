@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseWall
   id: WallBackroomsIndestructible
-  name: backrooms wall
+  name: "стіна підсобки"
   suffix: Геловін
   components:
     - type: Tag
@@ -19,10 +19,10 @@
 - type: entity
   id: BaseFalseWallUnWeldable # To prevent welding of wooden/meat/plastic false walls
   parent: BaseStructure
-  name: solid wall # No meta
+  name: "суцільна стіна" # No meta
   suffix: false wall
   abstract: true
-  description: Keeps the air in and the greytide out.
+  description: "Утримує повітря всередині і не пропускає сірість назовні."
   components:
   - type: Sprite
     # sprite: _Goobstation/Structures/Walls/false_walls/false_wall.rsi
@@ -86,7 +86,7 @@
 
 - type: entity
   id: BackroomsFalseWall
-  name: backrooms wall
+  name: "стіна підсобки"
   suffix: Геловін
   parent: BaseFalseWallUnWeldable
   components:
