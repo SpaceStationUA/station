@@ -164,6 +164,4 @@ chat-speech-verb-marish = Марс.
 
 #ПІРАТСЬКИЙ СТАРТ
 
-chat-manager-send-empathy-chat-wrap-message = {$source}: {$message}
-
-## Speech verbs for chat
+chat-manager-send-empathy-chat-wrap-message = {$source}: {$message} ## Мовні дієслова для чату
