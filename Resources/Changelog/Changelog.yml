@@ -7162,75 +7162,74 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1162
 - author: Ichaie
   changes:
-    - type: Add
-      message: >-
-        Fixed several issues with the Gax Station. It also now has a newly
-        redesigned AI Satellite.
+  - type: Add
+    message: >-
+      Виправлено декілька проблем зі станцією Gax. Також тепер вона має
+      новий перероблений супутник AI.
   id: 6497
   time: '2024-11-01T23:01:34.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1163
 - author: VMSolidus
   changes:
-    - type: Tweak
-      message: >-
-        Several new updates to Saltern, particularly around Service, Logistics,
-        and Engineering.
-    - type: Tweak
-      message: >-
-        Pressure Controlled Valves now actually function like their real-world
-        counterpart. If the pressure in the control-side exceeds the pressure in
-        either input or output sides, the valve opens, allowing air to flow
-        bidirectionally between input and output(Basically, an open valve). Air
-        can never pass through the Control-side.
-    - type: Tweak
-      message: >-
-        Literally doubled the power output of solar panels, to make them
-        actually worthwhile to setup. 
+  - type: Tweak
+    message: >-
+      Кілька нових оновлень для Saltern, особливо в областях Сервісу,
+      Логістики та Інженерії.
+  - type: Tweak
+    message: >-
+      Клапани з керуванням тиском тепер працюють, як їхні аналоги у
+      реальному світі. Якщо тиск на стороні управління перевищує тиск на
+      будь-якій з вхідних або вихідних сторін, клапан відкривається, дозволяючи
+      повітрю рухатись у обох напрямках між входом та виходом (по суті, відкритий
+      клапан). Повітря ніколи не може пройти через сторону керування.
+  - type: Tweak
+    message: >-
+      Потужність сонячних панелей була буквально подвоєна, щоб зробити їх
+      корисними для налаштування.
   id: 6498
   time: '2024-11-02T00:40:50.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1170
 - author: VMSolidus
   changes:
-    - type: Add
-      message: >-
-        Cargo can now order crates of Uranium, Gold, and Silver. This is still
-        far more expensive than getting the materials from Salvage, but serves
-        as an incredibly useful failsafe in the event Salvage is
-        Unwilling/Dead/Incompetent/Shitters.
+  - type: Add
+    message: >-
+      Тепер карго може замовляти ящики з ураном, золотом та сріблом. Це все ще
+      значно дорожче, ніж отримання матеріалів зі збирання, але служить
+      неймовірно корисним резервом на випадок, якщо збирання є
+      небажаним/неможливим/некомпетентним.
   id: 6499
   time: '2024-11-02T01:03:14.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1171
 - author: Beck Thompson
   changes:
-    - type: Fix
-      message: Fixed various bugs related to voice masks and voice mask implants.
+  - type: Fix
+    message: Виправлено різні помилки, пов'язані з масками голосу та імплантами масок голосу.
   id: 6500
   time: '2024-11-02T01:11:00.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1147
 - author: VMSolidus
   changes:
-    - type: Add
-      message: >-
-        Added Python, Pollock, Webley, K38, Fitz, Wood Furniture Viper, Energy
-        Pistol, PDW-9, and Svalinn to security loadouts as new Duty Weapon
-        options.
-    - type: Tweak
-      message: >-
-        Modified the descriptions of all handguns obtained via Security Officer
-        Loadouts to explicitly state that they actually belong to the security
-        officer. Apparently people were being stupid and confiscating weapons
-        from their own Secoffs that they were entirely intended to have.
+  - type: Add
+    message: >-
+      Додано Python, Pollock, Webley, K38, Fitz, дерев'яний Viper, енергетичний
+      пістолет, PDW-9 та Svalinn до спорядження безпеки як нові варіанти зброї.
+  - type: Tweak
+    message: >-
+      Змінено описи всіх пістолетів, отриманих через спорядження охоронців,
+      щоб чітко зазначити, що вони належать офіцерам безпеки. Деякі гравці
+      помилково конфісковували зброю у своїх власних офіцерів безпеки, хоча
+      вони повинні були її мати.
   id: 6501
   time: '2024-11-02T01:11:17.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1158
 - author: FoxxoTrystan
   changes:
-    - type: Tweak
-      message: >-
-        Cocooners can now freely uncocoon any cocoons without the need of a
-        sharp object.
-    - type: Fix
-      message: Cocoon making you stuck in muffle accent.
+  - type: Tweak
+    message: >-
+      Арахни та павуки тепер можуть вільно розкривати будь-які кокони без потреби у
+      гострому предметі.
+  - type: Fix
+    message: Виправлено застрягання у коконі з приглушеним акцентом.
   id: 6502
   time: '2024-11-02T02:21:39.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1169
