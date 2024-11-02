@@ -1,8 +1,8 @@
 - type: entity
   id: SyndicateMonitoringServer
   parent: BaseMachinePowered
-  name: suspicious crew monitoring server
-  description: Receives and relays the status of all active suit sensors.
+  name: "підозрілий сервер моніторингу екіпажу"
+  description: "Отримує та передає стан усіх активних датчиків костюма."
   components:
     - type: Sprite
       sprite: Structures/Machines/server.rsi
