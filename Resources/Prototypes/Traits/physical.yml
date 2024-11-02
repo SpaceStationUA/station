@@ -440,6 +440,16 @@
       inverted: true
       species:
         - IPC
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+      - Detective #PIRATE
+      - HeadOfSecurity #PIRATE
+      - SecurityCadet #PIRATE
+      - SecurityOfficer #PIRATE
+      - SeniorOfficer #PIRATE
+      - Warden #PIRATE
+      - Brigmedic #PIRATE
   componentRemovals:
     - PassiveDamage
   components:
