@@ -52,11 +52,11 @@ accent-cowboy-replacement-17 = морозно
 accent-cowboy-words-18 = труп
 accent-cowboy-replacement-18 = мертве м'ясо
 
-accent-cowboy-words-19 = корова
-accent-cowboy-replacement-19 = собачка
+accent-cowboy-words-19 = агент
+accent-cowboy-replacement-19 = покидьок
 
-accent-cowboy-words-20 = корови
-accent-cowboy-replacement-20 = собачкі
+accent-cowboy-words-20 = агенти
+accent-cowboy-replacement-20 = покидьки
 
 accent-cowboy-words-21 = божевільний
 accent-cowboy-replacement-21 = зламаний
@@ -71,7 +71,7 @@ accent-cowboy-words-24 = п'яний
 accent-cowboy-replacement-24 = готовий
 
 accent-cowboy-words-25 = вибухонебезпечний
-accent-cowboy-replacement-25 = динамітонебезпечнийонебезпечний
+accent-cowboy-replacement-25 = динамітонебезпечний
 
 accent-cowboy-words-26 = швидко
 accent-cowboy-replacement-26 = як орел
@@ -91,11 +91,11 @@ accent-cowboy-replacement-30 = зустрінемось
 accent-cowboy-words-31 = сірість
 accent-cowboy-replacement-31 = мокро
 
-accent-cowboy-words-32 = грейтайдер
-accent-cowboy-replacement-32 = гризун
+accent-cowboy-words-32 = пака
+accent-cowboy-replacement-32 = зустрінемось
 
-accent-cowboy-words-33 = грейтайдери
-accent-cowboy-replacement-33 = гризуни
+accent-cowboy-words-33 = до зустрічі
+accent-cowboy-replacement-33 = зустрінемось
 
 accent-cowboy-words-34 = група
 accent-cowboy-replacement-34 = банда
@@ -116,13 +116,13 @@ accent-cowboy-words-39 = чорт забирай
 accent-cowboy-replacement-39 = дідько
 
 accent-cowboy-words-40 = привіт
-accent-cowboy-replacement-40 = здоров
+accent-cowboy-replacement-40 = хауді
 
-accent-cowboy-words-41 = привіт
-accent-cowboy-replacement-41 = здоров
+accent-cowboy-words-41 = хей
+accent-cowboy-replacement-41 = хауді
 
-accent-cowboy-words-42 = привіт
-accent-cowboy-replacement-42 = здоров
+accent-cowboy-words-42 = здоров
+accent-cowboy-replacement-42 = хауді
 
 accent-cowboy-words-43 = голодний
 accent-cowboy-replacement-43 = пустий
@@ -149,7 +149,7 @@ accent-cowboy-words-50 = рот
 accent-cowboy-replacement-50 = ротяка
 
 accent-cowboy-words-51 = нервує
-accent-cowboy-replacement-51 = наляканий
+accent-cowboy-replacement-51 = дьорганий
 
 accent-cowboy-words-52 = ніндзя
 accent-cowboy-replacement-52 = кущоріз
@@ -160,23 +160,23 @@ accent-cowboy-replacement-53 = кущорізи
 accent-cowboy-words-54 = шум
 accent-cowboy-replacement-54 = галас
 
-accent-cowboy-words-55 = ядерна зброя
+accent-cowboy-words-55 = ядерка
 accent-cowboy-replacement-55 = тотальна зброя
 
-accent-cowboy-words-56 = оператор
+accent-cowboy-words-56 = оперативник
 accent-cowboy-replacement-56 = розбійник
 
-accent-cowboy-words-57 = оператори
+accent-cowboy-words-57 = ядерний оперативник
 accent-cowboy-replacement-57 = розбійники
 
-accent-cowboy-words-58 = операції
+accent-cowboy-words-58 = яо
 accent-cowboy-replacement-58 = розбійники
 
 accent-cowboy-words-59 = приятель
 accent-cowboy-replacement-59 = партнер
 
 accent-cowboy-words-60 = вечірка
-accent-cowboy-replacement-60 = тучовка
+accent-cowboy-replacement-60 = тусовка
 
 accent-cowboy-words-61 = пасажир
 accent-cowboy-replacement-61 = громадянин
@@ -220,7 +220,7 @@ accent-cowboy-replacement-73 = вигукує
 accent-cowboy-words-74 = сб
 accent-cowboy-replacement-74 = закон
 
-accent-cowboy-words-75 = гсб
+accent-cowboy-words-75 = гб
 accent-cowboy-replacement-75 = шериф
 
 accent-cowboy-words-76 = служба безпеки
@@ -232,8 +232,8 @@ accent-cowboy-replacement-77 = поломаний закон
 accent-cowboy-words-78 = черевик
 accent-cowboy-replacement-78 = черевик
 
-accent-cowboy-words-79 = взуття
-accent-cowboy-replacement-79 = черевики
+accent-cowboy-words-79 = голова безпеки
+accent-cowboy-replacement-79 = шериф
 
 accent-cowboy-words-80 = красти
 accent-cowboy-replacement-80 = сперти
