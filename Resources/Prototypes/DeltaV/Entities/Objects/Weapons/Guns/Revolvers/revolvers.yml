@@ -1,8 +1,8 @@
 - type: entity
-  name: "калібру .45"
+  name: snubbed .45
   parent: BaseWeaponRevolver
   id: WeaponRevolverSnub
-  description: "Старий і надійний револьвер, модифікований, щоб його було легше сховати. Використовує набої калібру .45 магнум."
+  description: An old and reliable revolver, modified to be more easily concealed. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Revolvers/webleysnubnose.rsi
@@ -23,13 +23,14 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: "калібру .45"
+  name: snubbed .45
   parent: WeaponRevolverSnub
   id: WeaponRevolverSnubSecurity
-  description: "Старий і надійний револьвер, модифікований так, щоб його було легше сховати. Використовує набої калібру .45 магнум. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: An old and reliable revolver, modified to be more easily concealed. Uses .45 magnum ammo.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
 
 - type: entity
-  name: "калібру .45"
+  name: snubbed .45
   parent: WeaponRevolverSnubSecurity
   id: WeaponRevolverSnubNonlethalSecurity
   components:
@@ -44,10 +45,10 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: "k-38 шедевр"
+  name: k-38 masterpiece
   parent: BaseWeaponRevolver
   id: WeaponRevolverK38Master
-  description: "Класична, якщо не сказати застаріла, вогнепальна зброя правоохоронних органів. Використовує спеціальні набої 38-го калібру."
+  description: A classic, if not outdated, law enforcement firearm. Uses .38 special ammo.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Revolvers/k38master.rsi
@@ -69,13 +70,14 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: "k-38 шедевр"
+  name: k-38 masterpiece
   parent: WeaponRevolverK38Master
   id: WeaponRevolverK38MasterSecurity
-  description: "Класична, якщо не сказати застаріла, вогнепальна зброя правоохоронних органів. Використовує спеціальні набої калібру .38. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: A classic, if not outdated, law enforcement firearm. Uses .38 special ammo.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
 
 - type: entity
-  name: "k-38 шедевр"
+  name: k-38 masterpiece
   parent: WeaponRevolverK38MasterSecurity
   id: WeaponRevolverK38MasterNonlethalSecurity
   components:
@@ -90,10 +92,10 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: "фіц спеціальний"
+  name: fitz special
   parent: BaseWeaponRevolver
   id: WeaponRevolverFitz
-  description: "Компактний пістолет для самозахисту, який можна легко сховати. Використовує спеціальні набої калібру .38."
+  description: A compact and concealable self defence snub revolver. Uses .38 special ammo.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Revolvers/fitz.rsi
@@ -115,13 +117,14 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: "фіц спеціальний"
+  name: fitz special
   parent: WeaponRevolverFitz
   id: WeaponRevolverFitzSecurity
-  description: "Компактний пістолет для самозахисту, який можна легко сховати. Використовує спеціальні набої калібру .38. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: A compact and concealable self defence snub revolver. Uses .38 special ammo.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
 
 - type: entity
-  name: "фіц спеціальний"
+  name: fitz special
   parent: WeaponRevolverFitzSecurity
   id: WeaponRevolverFitzNonlethalSecurity
   components:
@@ -136,10 +139,10 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: "щасливий 37"
+  name: lucky 37
   parent: BaseWeaponRevolver
   id: WeaponRevolverLucky
-  description: "Удача завжди перемагає майстерність, ласиця. Використовує спеціальні набої 38-го калібру."
+  description: Luck always beats skill, ya weasel. Uses .38 special ammo.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Revolvers/lucky.rsi
@@ -163,10 +166,10 @@
     price: 750
 
 - type: entity
-  name: "віра"
+  name: faith
   parent: BaseWeaponRevolver
   id: WeaponRevolverFaith
-  description: "Доставляє благословення у вигляді кулі. Використовує спеціальні набої калібру .38."
+  description: Delivers blessings in bullet form. Uses .38 special ammo.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Revolvers/faith.rsi

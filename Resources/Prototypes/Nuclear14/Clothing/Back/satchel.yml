@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: N14ClothingBackpackSatchelTrekker
-  name: "трекінговий рюкзак"
-  description: "Рюкзак, яким користуються мандрівники пустирями."
+  name: trekker satchel
+  description: A satchel used by wasteland trekkers.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Back/Satchels/trekker.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: N14ClothingBackpackSatchelExplorer
-  name: "рюкзак дослідника"
-  description: "Ранець, яким користуються дослідники пусток."
+  name: explorer satchel
+  description: A satchel used by wasteland explorers.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Back/Satchels/explorer.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: N14ClothingBackpackSatchelMilitary
-  name: "військовий ранець"
-  description: "Міцний ранець, яким користуються військові."
+  name: military satchel
+  description: A tough satchel used by the military.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Back/Satchels/military.rsi
