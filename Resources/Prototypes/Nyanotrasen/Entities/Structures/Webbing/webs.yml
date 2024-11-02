@@ -1,7 +1,7 @@
 - type: entity
   id: CocoonedHumanoid
-  name: "гуманоїд у коконі"
-  description: "Не пощастило."
+  name: cocooned humanoid
+  description: Unlucky.
   placement:
     mode: SnapgridCenter
     snap:
@@ -72,7 +72,7 @@
   id: CocoonSmall
   parent: CocoonedHumanoid
   name: cocoon
-  description: "Що може бути всередині...?"
+  description: What could be inside...?
   placement:
     mode: SnapgridCenter
     snap:

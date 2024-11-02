@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineShotgun
-  name: "барабан для боєприпасів (набої калібру .50)"
+  name: ammo drum (.50 shells)
   parent: BaseItem
   abstract: true
   components:
@@ -35,7 +35,7 @@
 
 - type: entity
   id: MagazineShotgunEmpty
-  name: "барабан для набоїв (будь-які набої калібру .50)"
+  name: ammo drum (.50 shells any)
   suffix: empty
   parent: BaseMagazineShotgun
   components:
@@ -44,7 +44,7 @@
 
 - type: entity
   id: MagazineShotgun
-  name: "барабан для боєприпасів (калібр .50)"
+  name: ammo drum (.50 pellet)
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -58,7 +58,7 @@
 
 - type: entity
   id: MagazineShotgunBeanbag
-  name: "боєприпасний барабан (бобові мішки калібру .50)"
+  name: ammo drum (.50 beanbags)
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -72,7 +72,7 @@
 
 - type: entity
   id: MagazineShotgunSlug
-  name: "барабан для набоїв (куля .50)"
+  name: ammo drum (.50 slug)
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -86,7 +86,7 @@
 
 - type: entity
   id: MagazineShotgunIncendiary
-  name: "барабан з патронами (запальні калібру .50)"
+  name: ammo drum (.50 incendiary)
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
