@@ -7235,28 +7235,28 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1169
 - author: Ichaie
   changes:
-    - type: Add
-      message: >-
-        lockers for Syndicate Agent (for mapping), Janitor and Bartender have
-        been added. 
-    - type: Add
-      message: a new wall variant has been added for the radiation closet
-    - type: Add
-      message: Uranium Crate added
+  - type: Add
+    message: >-
+      Додано шафки для Агентів Синдикату (для мапінгу), Прибиральника та
+      Бармена.
+  - type: Add
+    message: Додано новий варіант стіни для кімнати радіаційного захисту.
+  - type: Add
+    message: Додано ящик з ураном.
   id: 6503
   time: '2024-11-02T15:05:09.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1174
 - author: VMSolidus
   changes:
-    - type: Add
-      message: >-
-        Syndicate Agents no longer have the Syndicate faction. Instead, the
-        Syndicate faction comes from your SYNDICATE ID/PDA. This means that if
-        you steal a Syndicate PDA from nukies, and wear it, you won't be shot by
-        their turrets. This also means that syndicate turrets will fire at
-        syndicate agents not wearing an agent ID.
-    - type: Fix
-      message: Fixed Familiars spawned by traitors attacking crew constantly.
+  - type: Add
+    message: >-
+      Агенти Синдикату більше не мають фракції Синдикату. Натомість, фракція
+      Синдикату визначається вашим ID/PDA Синдикату. Це означає, що якщо ви
+      вкрадете PDA Синдикату у вибухівників і носитимете його, вас не будуть
+      атакувати їхні турелі. Це також означає, що турелі Синдикату будуть
+      стріляти по агентам, які не мають агентського ID.
+  - type: Fix
+    message: Виправлено постійні атаки соратників, викликаних зрадниками, на екіпаж.
   id: 6504
   time: '2024-11-02T16:24:46.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1176
