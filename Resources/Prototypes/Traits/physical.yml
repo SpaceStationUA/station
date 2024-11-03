@@ -422,6 +422,16 @@
       inverted: true
       jobs:
         - Prisoner # Bionics should be "Confiscated" from long term prisoners.
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+      - Detective #PIRATE
+      - HeadOfSecurity #PIRATE
+      - SecurityCadet #PIRATE
+      - SecurityOfficer #PIRATE
+      - SeniorOfficer #PIRATE
+      - Warden #PIRATE
+      - Brigmedic #PIRATE
   components:
     - type: Prying
       speedModifier: 1
