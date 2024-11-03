@@ -40,6 +40,8 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  - !type:AddTraitSpecial
+    traits: [ PlateletFactories ]
 
 - type: startingGear
   id: HoSGear

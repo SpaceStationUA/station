@@ -71,12 +71,10 @@
   name: "гадюка"
   parent: BaseWeaponPistol
   id: WeaponPistolViper
-  description: "Невеликий, легко прихований, але дещо малопотужний пістолет, виготовлений виробником масової зброї, який вже понад сто років як не існує. Використовує автоматичні набої калібру .35." # DeltaV - change description to reflect forced semi
+  description: "Невеликий, легко прихований, але дещо малопотужний пістолет, виготовлений виробником масової зброї, який вже понад сто років як не існує. Використовує автоматичні набої калібру .35."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
-    availableModes: # DeltaV - force semi for balance
-    - SemiAuto
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -111,10 +109,19 @@
     fireOnDropChance: 0.3
 
 - type: entity
+  name: "гадюка"
+  parent: WeaponPistolViper
+  id: WeaponPistolViperSecurity
+  description: "Невеликий, легко прихований, але дещо малопотужний пістолет, виготовлений виробником масової зброї, який вже понад сто років як не існує. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  suffix: Security Loadouts
+
+- type: entity
   id: WeaponPistolViperNonLethal
   parent: WeaponPistolViper
   suffix: Non-lethal
   components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Pistols/vipernl.rsi
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -134,6 +141,12 @@
         whitelist:
           tags:
             - CartridgePistol
+
+- type: entity
+  id: WeaponPistolViperSecurityNonLethal
+  parent: WeaponPistolViperNonLethal
+  suffix: Non-lethal, SecurityLoadouts
+  description: "Невеликий, легко прихований, але дещо малопотужний пістолет, виготовлений виробником масової зброї, який вже понад сто років як не існує. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
 
 - type: entity
   name: "кобра"
@@ -208,10 +221,19 @@
     fireOnDropChance: 0.5
 
 - type: entity
+  name: "mK 58"
+  parent: WeaponPistolMk58
+  id: WeaponPistolMk58Security
+  description: "Дешева, повсюдна зброя, вироблена дочірньою компанією NanoTrasen. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  suffix: Security Loadouts
+
+- type: entity
   id: WeaponPistolMk58Nonlethal
   parent: WeaponPistolMk58
   suffix: Non-lethal
   components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Pistols/mk58nl.rsi
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -230,6 +252,12 @@
         whitelist:
           tags:
             - CartridgePistol
+
+- type: entity
+  id: WeaponPistolMk58SecurityNonlethal
+  parent: WeaponPistolMk58Nonlethal
+  suffix: Non-lethal, Security Loadouts
+  description: "Дешева, повсюдна зброя, вироблена дочірньою компанією NanoTrasen. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
 
 - type: entity
   name: "N1984"
@@ -279,9 +307,18 @@
 - type: entity
   name: "N1984"
   parent: WeaponPistolN1984
+  id: WeaponPistolN1984Security # the spaces in description are for formatting.
+  description: "Зброя будь-якого офіцера, який себе поважає. Випускається під калібр .45 магнум, калібр лорда. Серійний номер на руків'ї вказує на те, що цей пістолет належить офіцеру служби безпеки NT."
+  suffix: Security Loadouts
+
+- type: entity
+  name: "N1984"
+  parent: WeaponPistolN1984
   id: WeaponPistolN1984NonLethal
   suffix: Non-lethal
   components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Pistols/N1984nl.rsi
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -300,3 +337,10 @@
         whitelist:
           tags:
             - CartridgeMagnum
+
+- type: entity
+  name: "N1984"
+  parent: WeaponPistolN1984NonLethal
+  id: WeaponPistolN1984SecurityNonLethal
+  description: "Зброя будь-якого офіцера, який себе поважає. Випускається під калібр .45 магнум, калібр лорда. Серійний номер на руків'ї вказує на те, що цей пістолет належить офіцеру служби безпеки NT."
+  suffix: Security Loadouts

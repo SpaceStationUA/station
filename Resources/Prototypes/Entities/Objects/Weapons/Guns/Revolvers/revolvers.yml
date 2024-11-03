@@ -82,8 +82,14 @@
 - type: entity
   name: "Декард"
   parent: WeaponRevolverDeckard
-  id: WeaponRevolverDeckardNonLethal
-  description: "Рідкісний револьвер, зроблений на замовлення. Використовується, коли потрібно пощадити реплікантів. Поставляється з гумовими набоями калібру .45 магнум."
+  id: WeaponRevolverDeckardSecurity
+  description: "Рідкісний револьвер, зроблений на замовлення. Використовується, коли немає часу на тест Войта-Кампфа. Використовує набої калібру .45 магнум. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+
+- type: entity
+  name: "Декард"
+  parent: WeaponRevolverDeckardSecurity
+  id: WeaponRevolverDeckardNonLethalSecurity
+  description: "Рідкісний револьвер, зроблений на замовлення. Використовується, коли потрібно пощадити реплікантів. Поставляється з гумовою обоймою калібру .45 магнум. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
   components:
   - type: RevolverAmmoProvider
     whitelist:
@@ -110,8 +116,14 @@
 - type: entity
   name: "Інспектор"
   parent: WeaponRevolverInspector
-  id: WeaponRevolverInspectorNonLethal
-  description: "Кращий друг детектива. Поставляється з гумовими набоями калібру .45 магнум."
+  id: WeaponRevolverInspectorSecurity
+  description: "Кращий друг детектива. Використовує набої .45 магнум. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+
+- type: entity
+  name: "Інспектор"
+  parent: WeaponRevolverInspectorSecurity
+  id: WeaponRevolverInspectorNonLethalSecurity
+  description: "Кращий друг детектива. Заряджений гумовими набоями калібру .45 магнум. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
   components:
   - type: RevolverAmmoProvider
     whitelist:
@@ -124,7 +136,7 @@
   name: "Матеба"
   parent: BaseWeaponRevolver
   id: WeaponRevolverMateba
-  description: "Культова зброя жахливих ескадронів смерті. Використовує набої .45 магнум."
+  description: "Характерний револьвер старовинної конструкції Sol', який колись вважався рідкісною колекційною річчю. Його серійно виробляють багато компаній у Республіці Бізель. Використовує набої калібру .45 магнум."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
@@ -139,7 +151,7 @@
   name: "Python"
   parent: BaseWeaponRevolver
   id: WeaponRevolverPython
-  description: "Надійний револьвер, який полюбляють агенти Синдикату. Використовує набої .45 магнум."
+  description: "Культовий револьвер у великій рамці старовинного дизайну Sol'. Його виробляють багато компаній у всіх колоніях. Використовує набої .45 магнум."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
@@ -159,9 +171,34 @@
 - type: entity
   name: "Python"
   parent: WeaponRevolverPython
+  id: WeaponRevolverPythonSecurity
+  description: "Культовий револьвер у великій рамці старовинного дизайну Sol'. Його виробляють багато компаній у всіх колоніях. Використовує набої .45 магнум. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+
+- type: entity
+  name: "Python"
+  parent: WeaponRevolverPythonSecurity
+  id: WeaponRevolverPythonNonlethalSecurity
+  components:
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeMagnum
+        - SpeedLoaderMagnum
+    proto: CartridgeMagnumRubber
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
+    soundEject:
+      path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
+
+- type: entity
+  name: "Python"
+  parent: WeaponRevolverPython
   id: WeaponRevolverPythonAP # For the uplink.
   suffix: armor-piercing
-  description: "Надійний револьвер, який полюбляють агенти Синдикату. Використовує набої .45 магнум."
+  description: "Культовий револьвер у великій рамці старовинного дизайну Sol'. Його виробляють багато компаній у всіх колоніях. Використовує набої .45 магнум."
   components:
   - type: RevolverAmmoProvider
     whitelist:

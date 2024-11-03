@@ -368,6 +368,27 @@
       - MailMetricsCartridge
 
 - type: entity
+  name: "LO спеціальний блок для КПК" # DeltaV - Logistics Department replacing Cargo
+  parent: BasePDA
+  id: QuartermasterNTPDA
+  description: "КПК для хлопця, який керує логістикою. На ньому золотими літерами написано \"спеціальний підрозділ, унікальний для найкращого логіста в секторі\"." # DeltaV - Logistics Department replacing Cargo
+  components:
+  - type: Pda
+    id: QuartermasterIDCard
+    state: pda-qmnano
+  - type: PdaBorderColor
+    borderColor: "#e39751"
+    accentVColor: "#a23e3e"
+  - type: Icon
+    state: pda-qmnano
+  - type: CartridgeLoader # Adds the MailMetrics courier tracker
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - MailMetricsCartridge
+
+- type: entity
   parent: BasePDA
   id: CargoPDA
   name: "кПК карго" # DeltaV - Logistics Department replacing Cargo
@@ -500,6 +521,26 @@
 
 - type: entity
   parent: BasePDA
+  id: CaptainNTPDA
+  name: "Спеціальний блок CAP для КПК"
+  description: "неймовірно блискучий з рельєфними деталями. на ньому золотом написано \"спеціальна одиниця, унікальна для найкращого капітана в секторі\"."
+  components:
+  - type: Pda
+    id: CaptainIDCard
+    state: pda-captainnano
+    penSlot:
+      startingItem: PenCap
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#7C5D00"
+  - type: Icon
+    state: pda-captainnano
+
+- type: entity
+  parent: BasePDA
   id: HoPPDA
   name: "кПК голови персоналу"
   description: "Виглядає так, ніби його погризли."
@@ -521,6 +562,27 @@
 
 - type: entity
   parent: BasePDA
+  id: HoPNTPDA
+  name: "HOP спеціальний блок для КПК"
+  description: "Виглядає так, ніби його вже пережовували. Тут золотими літерами написано \"спеціальний підрозділ, унікальний для найкращого керівника персоналу в секторі\"."
+  components:
+  - type: Pda
+    id: HoPIDCard
+    state: pda-hopnano
+    penSlot:
+      startingItem: PenHop
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#789876"
+    accentHColor: "#447987"
+  - type: Icon
+    state: pda-hopnano
+
+- type: entity
+  parent: BasePDA
   id: CEPDA
   name: "кПК головного інженера"
   description: "Виглядає так, ніби ним майже не користувалися."
@@ -533,6 +595,21 @@
     accentHColor: "#447987"
   - type: Icon
     state: pda-ce
+
+- type: entity
+  parent: BasePDA
+  id: CENTPDA
+  name: "Спеціальний блок для КПК CE"
+  description: "Виглядає так, ніби ним майже не користувалися. На ньому золотими літерами написано \"спеціальний пристрій, унікальний для найкращого головного інженера в секторі\"."
+  components:
+  - type: Pda
+    id: CEIDCard
+    state: pda-cenano
+  - type: PdaBorderColor
+    borderColor: "#949137"
+    accentHColor: "#447987"
+  - type: Icon
+    state: pda-cenano
 
 - type: entity
   parent: BasePDA
@@ -570,6 +647,28 @@
     accentVColor: "#447987"
   - type: Icon
     state: pda-cmo
+
+- type: entity
+  parent: BaseMedicalPDA
+  id: CMONTPDA
+  name: "Спеціальний підрозділ CMO для КПК"
+  description: "Надзвичайно блискучий і стерильний. На ньому золотими літерами написано \"спеціальний блок, унікальний для найкращого головного лікаря в секторі\". Має вбудований аналізатор здоров'я."
+  components:
+  - type: Pda
+    id: CMOIDCard
+    state: pda-cmonano
+    penSlot: # Fancy Pen Light
+      startingItem: CMOPenLight
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+    accentHColor: "#447987"
+    accentVColor: "#447987"
+  - type: Icon
+    state: pda-cmonano
 
 - type: entity
   parent: BaseMedicalPDA
@@ -662,6 +761,28 @@
 
 - type: entity
   parent: BasePDA
+  id: RnDNTPDA
+  name: "МІЙ спеціальний блок для КПК" # DeltaV - Epistemics Department replacing Science
+  description: "На ньому золотими літерами написано: \"Спеціальна одиниця, унікальна для найкращого містагога в секторі\"."
+  components:
+  - type: Pda
+    id: RDIDCard
+    state: pda-rdnano
+  - type: PdaBorderColor
+    borderColor: "#d7d7d0"
+    accentHColor: "#447987"
+    accentVColor: "#8900c9"
+  - type: Icon
+    state: pda-rdnano
+  - type: CartridgeLoader # Nyanotrasen - Glimmer Monitor
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - GlimmerMonitorCartridge
+
+- type: entity
+  parent: BasePDA
   id: SciencePDA
   name: "епістеміка КПК" # DeltaV - Epistemics Department replacing Science
   description: "Вона вкрита невідомою липкою речовиною."
@@ -719,6 +840,28 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - WalletCartridge # Pirate banking
+
+- type: entity
+  parent: BasePDA
+  id: HoSNTPDA
+  name: "Спеціальний блок HOS для КПК"
+  description: "Хто б не носив цей КПК, він - закон. На ньому золотими літерами написано \"спеціальний підрозділ, унікальний для найкращого керівника служби безпеки в секторі\"."
+  components:
+  - type: Pda
+    id: HoSIDCard
+    state: pda-hosnano
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+    accentHColor: "#447987"
+  - type: Icon
+    state: pda-hosnano
+  - type: CartridgeLoader # DeltaV - Crime Assist + SecWatch
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - CrimeAssistCartridge
+      - SecWatchCartridge
 
 - type: entity
   parent: BasePDA
@@ -892,6 +1035,8 @@
       whitelist:
         components:
           - Cartridge
+  - type: ClothingAddFaction
+    faction: Syndicate
 
 - type: entity
   parent: BasePDA
@@ -1241,6 +1386,9 @@
       whitelist:
         components:
           - Cartridge
+  - type: ClothingAddFaction
+    faction: Syndicate
+
 #PIRATE START UNTIL END OF FILE
 - type: entity
   parent: BasePDA
@@ -1271,3 +1419,4 @@
     accentVColor: "#891417"
   - type: Icon
     state: pda-roboticist
+

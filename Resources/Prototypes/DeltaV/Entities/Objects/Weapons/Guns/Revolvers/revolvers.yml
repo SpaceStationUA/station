@@ -23,6 +23,27 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
+  name: "калібру .45"
+  parent: WeaponRevolverSnub
+  id: WeaponRevolverSnubSecurity
+  description: "Старий і надійний револьвер, модифікований так, щоб його було легше сховати. Використовує набої калібру .45 магнум. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+
+- type: entity
+  name: "калібру .45"
+  parent: WeaponRevolverSnubSecurity
+  id: WeaponRevolverSnubNonlethalSecurity
+  components:
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeMagnum
+        - SpeedLoaderMagnum
+    proto: CartridgeMagnumRubber
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
+
+- type: entity
   name: "k-38 шедевр"
   parent: BaseWeaponRevolver
   id: WeaponRevolverK38Master
@@ -37,6 +58,27 @@
     fireRate: 2
     availableModes:
     - SemiAuto
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeSpecial
+        - SpeedLoaderSpecial
+    proto: CartridgeSpecial
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
+
+- type: entity
+  name: "k-38 шедевр"
+  parent: WeaponRevolverK38Master
+  id: WeaponRevolverK38MasterSecurity
+  description: "Класична, якщо не сказати застаріла, вогнепальна зброя правоохоронних органів. Використовує спеціальні набої калібру .38. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+
+- type: entity
+  name: "k-38 шедевр"
+  parent: WeaponRevolverK38MasterSecurity
+  id: WeaponRevolverK38MasterNonlethalSecurity
+  components:
   - type: RevolverAmmoProvider
     whitelist:
       tags:
@@ -62,6 +104,27 @@
     fireRate: 1.75
     availableModes:
     - SemiAuto
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeSpecial
+        - SpeedLoaderSpecial
+    proto: CartridgeSpecial
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
+
+- type: entity
+  name: "фіц спеціальний"
+  parent: WeaponRevolverFitz
+  id: WeaponRevolverFitzSecurity
+  description: "Компактний пістолет для самозахисту, який можна легко сховати. Використовує спеціальні набої калібру .38. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+
+- type: entity
+  name: "фіц спеціальний"
+  parent: WeaponRevolverFitzSecurity
+  id: WeaponRevolverFitzNonlethalSecurity
+  components:
   - type: RevolverAmmoProvider
     whitelist:
       tags:

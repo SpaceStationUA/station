@@ -6,6 +6,7 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security
+      min: 10800 # 3 hrs
   startingGear: SecurityOfficerGear
   icon: "JobIconSecurityOfficer"
   supervisors: job-supervisors-hos
@@ -20,6 +21,8 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  - !type:AddTraitSpecial
+    traits: [ PlateletFactories ]
 
 - type: startingGear
   id: SecurityOfficerGear

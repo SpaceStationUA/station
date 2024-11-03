@@ -7,3 +7,4 @@ voice-mask-popup-success = Імʼя встановлено.
 voice-mask-popup-failure = Імʼя не може бути встановлено.
 
 voice-mask-name-change-speech-style = Стиль мовлення
+voice-mask-default-name-override = Невідомо

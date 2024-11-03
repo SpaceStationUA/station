@@ -1,7 +1,7 @@
 - type: entity
   id: SolarPanelBasePhysSprite
   noSpawn: true
-  name: "сонячна панель"
+  name: "сонячна збірка"
   placement:
     mode: SnapgridCenter
   components:
@@ -49,17 +49,17 @@
     onBump: false
     requirePower: true
     highVoltageNode: output
-  - type: RequireProjectileTarget 
+  - type: RequireProjectileTarget
 
 - type: entity
   id: SolarPanel
   parent: SolarPanelBasePhysSprite
-  name: "сонячна панель"
+  name: "сонячна збірка"
   description: "Можна перетворити на сонячну панель або сонячний трекер."
   components:
   - type: PowerSupplier
-    supplyRampTolerance: 500
-    supplyRampRate: 500
+    supplyRampTolerance: 1000
+    supplyRampRate: 1000
   - type: SolarPanel
   - type: Damageable
     damageContainer: Inorganic
@@ -84,7 +84,7 @@
 - type: entity
   id: SolarPanelBroken
   parent: SolarPanelBasePhysSprite
-  name: "сонячна панель"
+  name: "сонячна збірка"
   description: "Розбита сонячна панель."
   suffix: Broken
   components:
@@ -158,7 +158,7 @@
     graph: SolarPanel
     node: solarassembly
     defaultTarget: solarpanel
-  - type: RequireProjectileTarget 
+  - type: RequireProjectileTarget
 
 - type: entity
   id: SolarTracker
@@ -203,4 +203,4 @@
   - type: Construction
     graph: SolarPanel
     node: solartracker
-  - type: RequireProjectileTarget 
+  - type: RequireProjectileTarget

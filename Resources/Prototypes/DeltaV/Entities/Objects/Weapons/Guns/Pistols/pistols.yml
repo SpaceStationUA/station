@@ -34,6 +34,12 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
+  name: "гадюка"
+  parent: WeaponPistolViperWood
+  id: WeaponPistolViperWoodSecurity
+  description: "Невеликий, малопотужний пістолет з приємними лакованими дерев'яними ручками. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+
+- type: entity
   name: "Минтай"
   parent: BaseWeaponPistol
   id: WeaponPistolPollock
@@ -71,6 +77,37 @@
     containers:
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
+
+- type: entity
+  name: "Минтай"
+  parent: WeaponPistolPollock
+  id: WeaponPistolPollockSecurity
+  description: "Компактний та серійний бойовий пістолет. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+
+- type: entity
+  name: "Минтай"
+  parent: WeaponPistolPollockSecurity
+  id: WeaponPistolPollockNonlethalSecurity
+  components:
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazinePistolRubber
+        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazinePistol
+            - MagazinePistolHighCapacity
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgePistolRubber
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgePistol
 
 - type: entity
   name: "пси-зломщик"

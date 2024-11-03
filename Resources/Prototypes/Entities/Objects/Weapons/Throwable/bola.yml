@@ -1,5 +1,5 @@
 - type: entity
-  name: "бола"
+  name: "імпровізована бола"
   abstract: true
   id: BaseBola
   parent: BaseItem
@@ -28,7 +28,7 @@
     canMoveBreakout: true
 
 - type: entity
-  name: "бола"
+  name: "імпровізована бола"
   parent: [BaseBola]
   id: Bola
   description: "Проста зброя для того, щоб підставити комусь підніжку на відстані."

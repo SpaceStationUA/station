@@ -1,7 +1,7 @@
 - type: entity
   id: Joint
   parent: BaseCigar
-  name: "самокрут"
+  name: "спільний"
   description: "Рулон висушеної рослинної сировини, загорнутий у тонкий папір."
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
 - type: entity
   id: JointRainbow
   parent: Joint
-  name: "самокрут"
+  name: "спільний"
   suffix: Rainbow
   description: "Рулон висушеної рослинної речовини, загорнутий у тонкий папір. Здається, всередині кольоровий."
   components:

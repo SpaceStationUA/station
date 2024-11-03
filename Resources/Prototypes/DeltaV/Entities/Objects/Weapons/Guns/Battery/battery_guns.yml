@@ -167,6 +167,12 @@
           Special: { state: mode-stun } # Unused
 
 - type: entity
+  name: "мініатюрна енергетична гармата"
+  parent: WeaponEnergyGunMini
+  id: WeaponEnergyGunMiniSecurity
+  description: "Полегшена версія пістолета Energy з меншою потужністю. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+
+- type: entity
   name: "Енергетичний пістолет PDW-9"
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyGunPistol
@@ -222,6 +228,12 @@
     - Sidearm
   - type: StaticPrice
     price: 750
+
+- type: entity
+  name: "Енергетичний пістолет PDW-9"
+  parent: WeaponEnergyGunPistol
+  id: WeaponEnergyGunPistolSecurity
+  description: "Пістолет військового зразка, який використовується багатьма міліцейськими підрозділами у місцевому секторі. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки НТ."
 
 - type: entity
   name: "Лазерний карабін IK-60"

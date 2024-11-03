@@ -254,6 +254,18 @@
 
 - type: entity
   parent: CrateBaseSecure
+  id: CrateUranium
+  name: "урановий ящик"
+  components:
+  - type: Icon
+    sprite: Structures/Storage/Crates/uranium.rsi
+  - type: Sprite
+    sprite: Structures/Storage/Crates/uranium.rsi
+  - type: AccessReader
+    access: [["Engineering"], ["Research"]]
+
+- type: entity
+  parent: CrateBaseSecure
   id: CrateSecure
   name: "безпечний ящик"
   components:
