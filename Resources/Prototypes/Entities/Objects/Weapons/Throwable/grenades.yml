@@ -56,6 +56,8 @@
         volume: 5
     initialBeepDelay: 0
     beepInterval: 2 # 2 beeps total (at 0 and 2)
+  - type: SpawnOnTrigger # Pirate shock wave
+    proto: ExplosionEffectGrenadeShockWave
 
 - type: entity
   name: "світлошумова граната"
@@ -119,6 +121,8 @@
       path: /Audio/Effects/minibombcountdown.ogg
       params:
         volume: 12
+  - type: SpawnOnTrigger # Pirate shock wave
+    proto: ExplosionEffectGrenadeShockWave
 
 - type: entity
   name: "Самознищення"
@@ -369,6 +373,8 @@
   - type: TimerTriggerVisuals
     primingSound:
       path: /Audio/Effects/hallelujah.ogg
+  - type: SpawnOnTrigger # Pirate shock wave
+    proto: ExplosionEffectGrenadeShockWave
 
 - type: entity
   parent: GrenadeBase

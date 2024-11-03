@@ -437,3 +437,6 @@ uplink-chameleon-projector-name = Проектор-хамелеон
 uplink-chameleon-projector-desc = Зникнути у всіх на виду, створивши голограму предмета навколо себе. Не використовуйте це для гри "Пошук предметів".
 
 # Безглуздо
+
+uplink-csar-bundle-name = Набір C-SAR
+uplink-csar-bundle-desc = Нова гвинтівка спеціаліста від корпоріції Cybersun і 3 магазини безгільзових куль .25

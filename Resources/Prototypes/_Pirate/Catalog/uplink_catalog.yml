@@ -52,14 +52,18 @@
   productEntity: CrateSyndicateMiamiBundle
   icon: { sprite: DeltaV/Clothing/Head/Misc/tony.rsi, state: icon }
   cost:
-    Telecrystal: 12
+    Telecrystal: 10
   categories:
-    - UplinkWeaponry
+    - UplinkBundles
   conditions:
     - !type:StoreWhitelistCondition
       blacklist:
         tags:
           - NukeOpsUplink
+    - !type:BuyerWhitelistCondition
+      blacklist:
+        components:
+        - SurplusBundle
 
 - type: listing
   id: UplinkСQСBundle
@@ -108,4 +112,16 @@
       whitelist:
         tags:
           - NukeOpsUplink
+  saleLimit: 1
+
+- type: listing
+  id: UplinkCSARBundle
+  name: uplink-csar-bundle-name
+  description: uplink-csar-bundle-desc
+  icon: { sprite: /Textures/_Pirate/Objects/Weapons/Guns/SMGs/csar.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateFilledCSAR
+  cost:
+    Telecrystal: 14
+  categories:
+  - UplinkBundles
   saleLimit: 1
