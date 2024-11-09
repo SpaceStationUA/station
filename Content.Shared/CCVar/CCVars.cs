@@ -2641,6 +2641,11 @@ namespace Content.Shared.CCVar
 
         #endregion
 
+        /// <summary>
+        /// Set to true to disable parallel processing in the pow3r solver.
+        /// </summary>
+        public static readonly CVarDef<bool> DebugPow3rDisableParallel =
+            CVarDef.Create("debug.pow3r_disable_parallel", true, CVar.SERVERONLY);
 //PIRATE START
         /// <summary>
         /// Url that the donate button will open.

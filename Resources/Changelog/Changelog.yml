@@ -7260,3 +7260,74 @@ Entries:
   id: 6504
   time: '2024-11-02T16:24:46.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1176
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Тепер техніки вантажу та техніки збирання можуть обробляти замовлення вантажу. Вам більше не потрібно розбивати шафку офіцера логістики киркою.
+  id: 6505
+  time: '2024-11-02T19:58:26.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1177
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Консолі зв'язку, позначені як "Не можуть відкликати шатл", тепер дійсно не можуть відкликати шатл. Раніше вони все ще могли це робити.
+  id: 6506
+  time: '2024-11-05T04:12:36.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1180
+- author: Mocho
+  changes:
+    - type: Tweak
+      message: Оновлено інтерфейс аналізатора здоров'я від Wizden.
+  id: 6507
+  time: '2024-11-07T04:50:46.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1183
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Фамільяри тепер можуть бути розвіяні.
+    - type: Tweak
+      message: Зменшено здоров'я Remilia до 30 HP.
+    - type: Tweak
+      message: Зменшено здоров'я базового фамільяра до 50 HP.
+  id: 6508
+  time: '2024-11-08T15:17:12.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1184
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: 'Мови тепер відображаються у чаті поруч з іменами персонажів.'
+  id: 6509
+  time: '2024-11-08T16:14:09.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1165
+- author: Ichaie
+  changes:
+    - type: Fix
+      message: Внесено дрібні виправлення на картах Rad та Gax, виправлено заповнення ящика з ураном.
+  id: 6510
+  time: '2024-11-08T18:54:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1178
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: 'Тепер риси можуть безпосередньо додавати імпланти.'
+  id: 6511
+  time: '2024-11-08T18:58:04.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1182
+- author: VMSolidus
+  changes:
+    - type: Remove
+      message: >-
+        Shadowkin тимчасово відключені в очікуванні значних доопрацювань та оновлення балансу.
+  id: 6512
+  time: '2024-11-08T19:33:53.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1187
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано криваві плями, сліди від перетягування тіл та криваві відбитки ніг. Персонажі, які проходять через калюжі крові, залишають криваві сліди. Перетягування тіла залишає кривавий слід там, де тіло рухалося.
+  id: 6513
+  time: '2024-11-09T02:05:47.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1190
