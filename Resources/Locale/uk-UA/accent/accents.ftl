@@ -118,12 +118,12 @@ accent-words-kobold-8 = Ііі!
 accent-words-kobold-9 = Іп.
 
 # Німфа
-accent-words-nymph-1 = Цвірінькай!
+accent-words-nymph-1 = Цвіріньк!
 accent-words-nymph-2 = Чуррр...
 accent-words-nymph-3 = Дешево?
 accent-words-nymph-4 = Хрупе!
 
-accent-words-mothroach-2 = Цвірінькай!
+accent-words-mothroach-2 = Цвіріньк!
 accent-words-mothroach-3 = Поглянь!
 accent-words-mothroach-4 = Ііі!
 accent-words-mothroach-5 = Іп! # Краб
