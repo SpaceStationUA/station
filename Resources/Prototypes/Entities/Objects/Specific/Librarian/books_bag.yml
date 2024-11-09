@@ -1,8 +1,8 @@
 - type: entity
-  name: books bag
+  name: "сумка для книг"
   id: BooksBag
   parent: BaseStorageItem
-  description: A refined bag to carry your own library
+  description: "Вишукана сумка для власної бібліотеки"
   components:
     - type: Sprite
       sprite: Objects/Specific/Library/Equipment/books_bag.rsi

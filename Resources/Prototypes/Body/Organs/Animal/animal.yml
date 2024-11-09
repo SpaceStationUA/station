@@ -34,7 +34,7 @@
 - type: entity
   id: OrganAnimalLungs
   parent: BaseAnimalOrgan
-  name: lungs
+  name: "легені"
   noSpawn: true
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   id: OrganAnimalStomach
   parent: BaseAnimalOrgan
-  name: stomach
+  name: "шлунок"
   noSpawn: true
   components:
   - type: Sprite
@@ -101,7 +101,7 @@
 - type: entity
   id: OrganMouseStomach
   parent: OrganAnimalStomach
-  name: stomach
+  name: "шлунок"
   noSpawn: true
   components:
   - type: SolutionContainerManager
@@ -112,7 +112,7 @@
 - type: entity
   id: OrganAnimalLiver
   parent: BaseAnimalOrgan
-  name: liver
+  name: "печінка"
   noSpawn: true
   components:
   - type: Sprite
@@ -133,7 +133,7 @@
 - type: entity
   id: OrganAnimalHeart
   parent: BaseAnimalOrgan
-  name: heart
+  name: "серце"
   noSpawn: true
   components:
   - type: Sprite
@@ -155,7 +155,7 @@
 - type: entity
   id: OrganAnimalKidneys
   parent: BaseAnimalOrgan
-  name: kidneys
+  name: "нирки"
   noSpawn: true
   components:
   - type: Sprite
