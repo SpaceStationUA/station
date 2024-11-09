@@ -31,9 +31,11 @@
       inverted: true
       traits:
         - LowPotential
-  components:
-    - type: PotentiaModifier
-      potentiaMultiplier: 1.25
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: PotentiaModifier
+          potentiaMultiplier: 1.25
 
 - type: trait
   id: LowPotential
@@ -68,9 +70,11 @@
       inverted: true
       traits:
         - HighPotential
-  components:
-    - type: PotentiaModifier
-      potentiaMultiplier: 0.75
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: PotentiaModifier
+          potentiaMultiplier: 0.75
 
 - type: trait
   id: LowAmplification
@@ -102,8 +106,10 @@
       traits:
         - HighAmplification
         - PowerOverwhelming
-  psionicPowers:
-    - LowAmplification
+  functions:
+    - !type:TraitAddPsionics
+      psionicPowers:
+        - LowAmplification
 
 - type: trait
   id: HighAmplification
@@ -135,8 +141,10 @@
       traits:
         - LowAmplification
         - PowerOverwhelming
-  psionicPowers:
-    - HighAmplification
+  functions:
+    - !type:TraitAddPsionics
+      psionicPowers:
+        - HighAmplification
 
 - type: trait
   id: PowerOverwhelming
@@ -168,8 +176,10 @@
       traits:
         - LowAmplification
         - HighAmplification
-  psionicPowers:
-    - PowerOverwhelming
+  functions:
+    - !type:TraitAddPsionics
+      psionicPowers:
+        - PowerOverwhelming
 
 - type: trait
   id: LowDampening
@@ -200,8 +210,10 @@
       inverted: true
       traits:
         - HighDampening
-  psionicPowers:
-    - LowDampening
+  functions:
+    - !type:TraitAddPsionics
+      psionicPowers:
+        - LowDampening
 
 - type: trait
   id: HighDampening
@@ -232,5 +244,7 @@
       inverted: true
       traits:
         - LowDampening
-  psionicPowers:
-    - HighDampening
+  functions:
+    - !type:TraitAddPsionics
+      psionicPowers:
+        - HighDampening

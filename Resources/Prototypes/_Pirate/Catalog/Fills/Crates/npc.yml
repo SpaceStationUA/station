@@ -1,0 +1,9 @@
+- type: entity
+  id: CrateNPCPuppyBorgi
+  parent: CrateLivestock
+  name: borgi crate
+  description: A crate containing a single borgi. Beepy.
+  components:
+  - type: StorageFill
+    contents:
+    - id: MobBorgi
