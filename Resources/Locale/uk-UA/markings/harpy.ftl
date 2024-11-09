@@ -88,3 +88,4 @@ marking-HarpyTailHaven-haven_tone_2 = Внутрішнє пір'я
 marking-HarpyTailForkedLong = Довгохвіст (білохвіст)
 marking-HarpyTailForkedLong-forked_long = Хвіст
 marking-HarpyTailSwallow = Ластівчин хвіст (білокрилка)
+marking-HarpyTailSwallow-swallow_tail = Хвіст

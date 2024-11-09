@@ -28,3 +28,5 @@ marking-SharkTail-sharktail = Хвіст
 marking-TasselTail = Хвіст з китицею
 marking-TasselTail-tasseltailtone1 = Внутрішній
 marking-TasselTail-tasseltailtone2 = Зовнішній
+
+marking-HorseTailCulty-horsetailculty = Хвіст

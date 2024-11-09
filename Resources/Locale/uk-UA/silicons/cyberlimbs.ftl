@@ -233,3 +233,5 @@ marking-CyberLimbsMarkingZenghuRLeg-r_leg-1 = Первинна нога
 marking-CyberLimbsMarkingZenghuRLeg-r_leg-2 = Вторинна нога
 marking-CyberLimbsMarkingZenghuRFoot-r_foot-1 = Первинна нога
 marking-CyberLimbsMarkingZenghuRFoot-r_foot-2 = Вторинна нога
+marking-CyberLimbsMarkingXionLFoot-l_foot-2 = Вторинна нога
+marking-CyberLimbsMarkingXionRFoot-r_foot-2 = Вторинна нога

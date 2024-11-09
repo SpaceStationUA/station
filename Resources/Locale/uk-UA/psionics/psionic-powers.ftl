@@ -141,7 +141,7 @@ action-description-shadowkin-shadeskip = Аарамрра!
 # DarkSwap
 action-name-darkswap = DarkSwap
 action-description-darkswap = Ммра Мамм!
-ethereal-pickup-fail = Моя рука обпікається, коли вона проходить крізь нього.
+ethereal-pickup-fail = Моя рука обпікається, коли вона проходить крізь нього
 revivify-begin = {CAPITALIZE($entity)} виголошує слово такої божественної сили, що ті, хто його чує, плачуть від радості.
 
 # Telegnosis

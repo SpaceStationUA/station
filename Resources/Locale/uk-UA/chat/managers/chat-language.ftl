@@ -1,0 +1,15 @@
+chat-language-Universal-name = Універсал
+chat-language-Bubblish-name = Блубліш
+chat-language-RootSpeak-name = Коренева
+chat-language-Nekomimetic-name = Неко
+chat-language-Draconic-name = Синта'Унаті
+chat-language-Azaziba-name = Синта'Азазіба
+chat-language-SolCommon-name = Сол
+chat-language-TauCetiBasic-name = Базова
+chat-language-Tradeband-name = Трейдбенд
+chat-language-Freespeak-name = Фріспік
+chat-language-Elyran-name = Еліран
+chat-language-Canilunzt-name = Канілунц
+chat-language-Moffic-name = Мофік
+chat-language-RobotTalk-name = Двійкова
+chat-language-ValyrianStandard-name = Валірійська
