@@ -22,7 +22,6 @@ ame-window-refresh-parts-button = Оновити детали
 ame-window-core-count-label = Кількість ядер:
 ame-window-power-currentsupply-label = Поточна потужність:
 ame-window-power-targetsupply-label = Цільова потужність:
-ame-window-toggle-injection-button = Перемкнути вприскування
 ame-window-eject-button = Витягти
 ame-window-increase-fuel-button = Збільшити
 ame-window-decrease-fuel-button = Зменшити

@@ -56,9 +56,6 @@ alerts-no-battery-desc = У вас немає акумулятора, через
 alerts-internals-name = Перемкнути балон
 alerts-internals-desc = Перемикає подачу газу у вашому балоні.
 
-alerts-internals-name = Перемкнути балон
-alerts-internals-desc = Перемикає подачу газу у вашому балоні.
-
 alerts-piloting-name = Пілотування шатлу
 alerts-piloting-desc = Ви пілотуєте шатл. Натисніть на іконку, щоб перестати.
 
