@@ -5,14 +5,20 @@ using Content.Server.Radio;
 using Content.Shared.Emp;
 using Content.Shared.Examine;
 using Robust.Shared.Map;
+using Content.Shared._Pirate.Emp.Components; // Pirate
+using Robust.Server.GameStates; // Pirate: EMP Blast PVS
+using Robust.Shared.Configuration; // Pirate: EMP Blast PVS
+using Robust.Shared; // Pirate: EMP Blast PVS
 
 namespace Content.Server.Emp;
 
 public sealed class EmpSystem : SharedEmpSystem
 {
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
+    [Dependency] private readonly PvsOverrideSystem _pvs = default!; // Pirate: EMP Blast PVS
+    [Dependency] private readonly IConfigurationManager _cfg = default!; // Pirate: EMP Blast PVS
 
-    public const string EmpPulseEffectPrototype = "EffectEmpPulse";
+    public const string EmpPulseEffectPrototype = "EffectEmpBlast"; // Pirate, before: EffectEmpPulse
 
     public override void Initialize()
     {
@@ -37,7 +43,15 @@ public sealed class EmpSystem : SharedEmpSystem
         {
             TryEmpEffects(uid, energyConsumption, duration);
         }
-        Spawn(EmpPulseEffectPrototype, coordinates);
+        // Spawn(EmpPulseEffectPrototype, coordinates);
+        var empBlast = Spawn(EmpPulseEffectPrototype, coordinates); // Pirate: Added visual effect
+        EnsureComp<EmpBlastComponent>(empBlast, out var empBlastComp); // Pirate
+        empBlastComp.VisualRange = range; // Pirate
+
+        if (range > _cfg.GetCVar(CVars.NetMaxUpdateRange)) // Pirate
+            _pvs.AddGlobalOverride(empBlast); // Pirate
+
+        Dirty(empBlast, empBlastComp); // Pirate
     }
 
     /// <summary>
