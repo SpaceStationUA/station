@@ -74,6 +74,10 @@ public sealed partial class EmotePrototype : IPrototype
     /// </summary>
     [DataField]
     public HashSet<string> ChatTriggers = new();
+
+    // Pirate - animations
+    [DataField]
+    public object? Event = null;
 }
 
 /// <summary>
