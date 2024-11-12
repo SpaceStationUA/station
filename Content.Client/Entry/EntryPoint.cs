@@ -39,6 +39,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Replays;
 using Content.Client._Pirate.TTS;
 using Content.Client._Pirate.Explosion;
+using Content.Client._Pirate.Emp.Overlays; // Pirate
 
 namespace Content.Client.Entry
 {
@@ -164,6 +165,7 @@ namespace Content.Client.Entry
             _overlayManager.AddOverlay(new FlashOverlay());
             _overlayManager.AddOverlay(new RadiationPulseOverlay());
             _overlayManager.AddOverlay(new RMCExplosionShockWaveOverlay()); // Pirate explosion from RMC
+            _overlayManager.AddOverlay(new EmpBlastOverlay()); // Pirate emp effect
             _chatManager.Initialize();
             _clientPreferencesManager.Initialize();
             _euiManager.Initialize();
