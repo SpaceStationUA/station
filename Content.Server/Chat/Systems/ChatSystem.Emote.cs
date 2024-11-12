@@ -178,7 +178,7 @@ public partial class ChatSystem
     private void InvokeEmoteEvent(EntityUid uid, EmotePrototype proto)
     {
         var ev = new EmoteEvent(proto);
-        RaiseLocalEvent(uid, ref ev);
+        RaiseLocalEvent(uid, ref ev, true); // Pirate
     }
 }
 
