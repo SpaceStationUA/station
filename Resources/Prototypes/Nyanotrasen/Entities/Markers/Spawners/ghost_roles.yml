@@ -1,6 +1,6 @@
 - type: entity
   id: SpawnPointGhostIfrit
-  name: ghost role spawn point
+  name: "точка народження примарної ролі"
   suffix: Ifrit
   parent: MarkerBase
   noSpawn: true
@@ -20,7 +20,7 @@
 
 - type: entity
   id: SpawnPointGhostFugitive
-  name: ghost role spawn point
+  name: "точка народження примарної ролі"
   parent: MarkerBase
   noSpawn: true
   components:
@@ -40,7 +40,7 @@
 
 - type: entity
   id: SpawnPointLocationMidRoundAntag
-  name: possible spawn location
+  name: "можливе місце нересту"
   suffix: MidRoundAntag
   parent: MarkerBase
   components:

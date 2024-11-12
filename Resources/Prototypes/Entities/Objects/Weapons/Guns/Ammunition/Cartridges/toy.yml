@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeCap
-  name: cartridge (cap)
+  name: "картридж (ковпачок)"
   parent: BaseCartridge
   abstract: true
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   id: CartridgeCap
-  name: cap gun cartridge
+  name: "капсюльний пістолетний патрон"
   parent: BaseCartridgeCap
   components:
   - type: CartridgeAmmo
