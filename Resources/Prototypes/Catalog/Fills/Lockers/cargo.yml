@@ -6,6 +6,14 @@
   - type: StorageFill
     contents:
       - id: ClothingOuterHardsuitSpatio
+        orGroup: suit # Pirate salvage suits variety
+        prob: 0.8
+      - id: ClothingOuterHardsuitPredaceous
+        orGroup: suit
+        prob: 0.15
+      - id: ClothingOuterHardsuitSynla
+        orGroup: suit
+        prob: 0.15 # Pirate salvage suits variety
       - id: ClothingShoesBootsMag
       - id: ClothingMaskGasExplorer
       - id: ClothingBeltUtilityFilled

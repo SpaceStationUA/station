@@ -361,3 +361,67 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitTropperBlack
+
+
+### Salvage and miners drip hardsuits
+#Predaceous Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitPredaceous
+  name: HpI-25 "Predaceous" hardsuit
+  description: A modified hardsuit is a result of a joint effort program of Hephaestus Industries and Five point Amory's. This variation features a slimmer build allowing faster movement at the cost of overall protection.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/predaceous.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/predaceous.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Radiation: 0.3
+        Caustic: 0.85
+  - type: ClothingSpeedModifier
+    walkModifier: 0.75
+    sprintModifier: 0.75
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitPredaceous
+
+#Synla Hardsuit
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitSynla
+  name: HpI-25 "Synla" hardsuit
+  description: A modified hardsuit is a result of a joint effort program of Hephaestus Industries and Five point Amory's. This variation features a slimmer build allowing faster movement at the cost of overall protection.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/synla.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Hardsuits/synla.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Radiation: 0.3
+        Caustic: 0.85
+  - type: ClothingSpeedModifier
+    walkModifier: 0.75
+    sprintModifier: 0.75
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSynla

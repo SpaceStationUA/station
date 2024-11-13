@@ -270,3 +270,56 @@
         Slash: 0.9
         Piercing: 0.9
         Heat: 0.9
+
+
+#Predaceous Hardsuit
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitPredaceous
+  name: salvage hardsuit helmet
+  description: A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating for wildlife encounters and dual floodlights.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hardsuits/predaceous.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hardsuits/predaceous.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 1000
+  - type: PointLight
+    radius: 7
+    energy: 3
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
+
+#Synla Hardsuit
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: ClothingHeadHelmetHardsuitSynla
+  name: salvage hardsuit helmet
+  description: A special helmet designed for work in a hazardous, low pressure environment. Has reinforced plating for wildlife encounters and dual floodlights.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hardsuits/synla.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hardsuits/synla.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 1000
+  - type: PointLight
+    radius: 7
+    energy: 3
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
