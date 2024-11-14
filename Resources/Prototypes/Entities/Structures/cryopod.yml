@@ -6,10 +6,13 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/cryostorage.rsi
+    sprite: _Pirate/Structures/cryostorage.rsi # Pirate retexture
     layers:
     - state: sleeper_0
       map: ["base"]
+    - state: sleeper_0-overlay # Pirate retexture
+      shader: unshaded
+      map: ["overlay"]
   - type: UserInterface
     interfaces:
       enum.CryostorageUIKey.Key:
@@ -42,6 +45,9 @@
         base:
           True: { state: sleeper_1 }
           False: { state: sleeper_0 }
+        overlay: # Pirate retexture
+          True: { state: sleeper_1-overlay }
+          False: { state: sleeper_0-overlay }
 
 # This one handles all spawns, latejoin and roundstart.
 - type: entity
