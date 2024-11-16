@@ -7339,3 +7339,58 @@ Entries:
   id: 6514
   time: '2024-11-10T15:22:47.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1195
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: "Батлертрон більше не такий широкий, хітбокси зменшено."
+  id: 6515
+  time: '2024-11-13T23:08:38.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1192
+- author: Ichaie
+  changes:
+    - type: Tweak
+      message: "Вулик (карта): додано SuperMatter-двигун, заміна сингулярності на нього."
+  id: 6516
+  time: '2024-11-13T23:12:41.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1201
+- author: DocNITE
+  changes:
+    - type: Add
+      message: "Повернули 'Monument' та 'Atomic Amnesia MMX' як музику в лобі."
+  id: 6517
+  time: '2024-11-13T23:17:11.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1204
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Слухові пости Синдикату більше не можуть з'являтися на поверхні планети. Це
+        не з причин балансу, я б хотів мати слухові пости на планетній стороні.
+        Насправді це вирішує помилку сервера, через яку слухові пости на планетах
+        спричиняють появу 7 мільярдів сутностей.
+  id: 6518
+  time: '2024-11-13T23:27:00.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1188
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: "Додано автоматичну систему голосування."
+  id: 6519
+  time: '2024-11-14T02:05:45.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1213
+- author: Mnemotechnician
+  changes:
+    - type: Tweak
+      message: "Додано мови до певних сутностей, які їх не мали, включаючи ММІ та позитронні мозки."
+    - type: Add
+      message: "Поліморфізм у іншу сутність тепер зберігає ваші мови та граматику."
+  id: 6520
+  time: '2024-11-14T20:03:33.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1223
+- author: DEATHB4DEFEAT
+  changes:
+    - type: Add
+      message: "Повернуто можливість розпилювати фарбу балончиками."
+  id: 6521
+  time: '2024-11-15T14:08:04.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1222
