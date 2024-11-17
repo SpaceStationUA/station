@@ -16,10 +16,10 @@
 # Cautery
 
 - type: entity
-  name: "термокаутер"
+  name: cautery
   id: Cautery
   parent: BaseToolSurgery
-  description: "Хірургічний інструмент, що використовується для припікання відкритих ран."
+  description: A surgical tool used to cauterize open wounds.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/cautery.rsi
@@ -43,10 +43,10 @@
 # Drill
 
 - type: entity
-  name: "дриль"
+  name: drill
   id: Drill
   parent: BaseToolSurgery
-  description: "Хірургічне свердло для виконання отворів у твердих матеріалах."
+  description: A surgical drill for making holes into hard material.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/drill.rsi
@@ -78,10 +78,10 @@
 # Scalpel
 
 - type: entity
-  name: "скальпель"
+  name: scalpel
   id: Scalpel
   parent: BaseToolSurgery
-  description: "Хірургічний інструмент, за допомогою якого роблять розрізи плоті."
+  description: A surgical tool used to make incisions into flesh.
   components:
   - type: Sharp
     butcherDelayModifier: 1.5 # Butchering with a scalpel, regardless of the type, will take 50% longer
@@ -118,10 +118,10 @@
 
 
 - type: entity
-  name: "заточка"
+  name: shiv
   id: ScalpelShiv
   parent: Scalpel
-  description: "Загострений шматок скла, відшліфований до краю і обмотаний скотчем для ручки." # Could become a decent tool or weapon with right tool mods.
+  description: A pointy piece of glass, abraded to an edge and wrapped in tape for a handle. # Could become a decent tool or weapon with right tool mods.
   components:
   - type: Sprite
     state: shiv
@@ -129,10 +129,10 @@
     heldPrefix: shiv
 
 - type: entity
-  name: "вдосконалений скальпель"
+  name: advanced scalpel
   id: ScalpelAdvanced
   parent: Scalpel
-  description: "Виготовлені з дорожчих матеріалів, гостріші та загалом надійніші."
+  description: Made of more expensive materials, sharper and generally more reliable.
   components:
   - type: Sprite
     state: advanced
@@ -144,10 +144,10 @@
         Slash: 8
 
 - type: entity
-  name: "лазерний скальпель"
+  name: laser scalpel
   id: ScalpelLaser
   parent: Scalpel
-  description: "Скальпель, який використовує спрямований лазер для розрізу замість леза, для більш точної хірургії, а також припікає під час розрізу."
+  description: A scalpel which uses a directed laser to slice instead of a blade, for more precise surgery while also cauterizing as it cuts.
   components:
   - type: Sprite
     state: laser
@@ -162,10 +162,10 @@
 # Scissors
 
 - type: entity
-  name: "ретрактор"
+  name: retractor
   id: Retractor
   parent: BaseToolSurgery
-  description: "Хірургічний інструмент, що використовується для утримання відкритих розрізів."
+  description: A surgical tool used to hold open incisions.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scissors.rsi
@@ -181,10 +181,10 @@
   - type: Retractor
 
 - type: entity
-  name: "гемостат"
+  name: hemostat
   id: Hemostat
   parent: BaseToolSurgery
-  description: "Хірургічний інструмент, що використовується для стискання кровоносних судин для запобігання кровотечі."
+  description: A surgical tool used to compress blood vessels to prevent bleeding.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scissors.rsi
@@ -204,8 +204,8 @@
 - type: entity
   parent: BaseToolSurgery
   id: Bonesetter
-  name: "кісткоутворювач"
-  description: "Використовується для вправлення кісток на місце."
+  name: bone setter
+  description: Used for setting bones back into place.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/bonesetter.rsi
@@ -218,8 +218,8 @@
 - type: entity
   parent: BaseToolSurgery
   id: BoneGel
-  name: "пляшка гелю для кісток"
-  description: "Контейнер для кісткового гелю, який часто потрібно поповнювати зі спеціалізованої машини."
+  name: bottle of bone gel
+  description: A container for bone gel that often needs to be refilled from a specialized machine.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/bone_gel.rsi
@@ -229,10 +229,10 @@
 # Saws
 
 - type: entity
-  name: "пила по металу"
+  name: metal saw
   id: Saw
   parent: BaseToolSurgery
-  description: "Для розпилювання дерева та інших предметів на шматки. Або розпилювання кісток, у разі потреби."
+  description: For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
   components:
   - type: Sharp
   - type: Utensil
@@ -265,10 +265,10 @@
 # No, I'm going to saw through your bones.
 
 - type: entity
-  name: "choppa"
+  name: choppa
   id: SawImprov
   parent: Saw
-  description: "Злісне зубчасте лезо, зроблене з будь-яких неприємних гострих предметів, які ви могли знайти." # It would make a pretty decent weapon, given there are more space for some tool mods too.
+  description: A wicked serrated blade made of whatever nasty sharp things you could find. # It would make a pretty decent weapon, given there are more space for some tool mods too.
   components:
   - type: Sprite
     state: improv
@@ -295,10 +295,10 @@
   - type: BoneSaw
 
 - type: entity
-  name: "циркулярна пила"
+  name: circular saw
   id: SawElectric
   parent: Saw
-  description: "Для різання у важких умовах."
+  description: For heavy duty cutting.
   components:
   - type: Sprite
     state: electric
@@ -330,10 +330,10 @@
   - type: BoneSaw
 
 - type: entity
-  name: "вдосконалена циркулярна пила"
+  name: advanced circular saw
   id: SawAdvanced
   parent: Saw
-  description: "Ти думаєш, що можеш вирізати все, що завгодно."
+  description: You think you can cut anything with it.
   components:
   - type: Sprite
     state: advanced
@@ -366,26 +366,26 @@
 - type: entity
   parent: OrganHumanHeart
   id: BioSynthHeart
-  name: "біосинтетичне серце"
-  description: "Таке серце можна пересадити будь-якому живому організму, і воно пристосується до свого реципієнта."
+  name: bio-synthetic heart
+  description: This heart can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: OrganHumanLiver
   id: BioSynthLiver
-  name: "біосинтетична печінка"
-  description: "Таку печінку можна пересадити будь-якому живому організму, і вона пристосується до свого реципієнта."
+  name: bio-synthetic liver
+  description: This liver can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: OrganHumanLungs
   id: BioSynthLungs
-  name: "біосинтетичні легені"
-  description: "Ці легені можна пересадити будь-якому живому організму, і вони пристосуються до свого реципієнта."
+  name: bio-synthetic lungs
+  description: These lungs can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: OrganHumanEyes
   id: BioSynthEyes
-  name: "біосинтетичні очі"
-  description: "Ці очі можна пересадити в будь-який живий організм, і вони пристосуються до свого реципієнта."
+  name: bio-synthetic eyes
+  description: These eyes can be transplanted into any living organism and it will adapt to its recipient.
 
 
 # PARTS
@@ -393,58 +393,58 @@
 - type: entity
   parent: LeftArmHuman
   id: BioSynthLeftArm
-  name: "біосинтетична ліва рука"
-  description: "Цю ліву руку можна пересадити будь-якому живому організму, і вона пристосується до свого реципієнта."
+  name: bio-synthetic left arm
+  description: This left arm can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: RightArmHuman
   id: BioSynthRightArm
-  name: "біосинтетична права рука"
-  description: "Цю праву руку можна пересадити будь-якому живому організму, і вона пристосується до свого реципієнта."
+  name: bio-synthetic right arm
+  description: This right arm can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: LeftHandHuman
   id: BioSynthLeftHand
-  name: "біосинтетична ліва рука"
-  description: "Цю ліву руку можна пересадити будь-якому живому організму, і вона пристосується до свого реципієнта."
+  name: bio-synthetic left hand
+  description: This left hand can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: RightHandHuman
   id: BioSynthRightHand
-  name: "біосинтетична права рука"
-  description: "Цю праву руку можна пересадити будь-якому живому організму, і вона пристосується до свого реципієнта."
+  name: bio-synthetic right hand
+  description: This right hand can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: LeftLegHuman
   id: BioSynthLeftLeg
-  name: "біосинтетична ліва нога"
-  description: "Цю ліву ногу можна пересадити будь-якому живому організму, і вона пристосується до реципієнта."
+  name: bio-synthetic left leg
+  description: This left leg can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: RightLegHuman
   id: BioSynthRightLeg
-  name: "біосинтетична права нога"
-  description: "Цю праву ногу можна пересадити будь-якому живому організму, і вона пристосується до реципієнта."
+  name: bio-synthetic right leg
+  description: This right leg can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: LeftFootHuman
   id: BioSynthLeftFoot
-  name: "біосинтетична ліва стопа"
-  description: "Цю ліву ногу можна пересадити будь-якому живому організму, і вона пристосується до реципієнта."
+  name: bio-synthetic left foot
+  description: This left foot can be transplanted into any living organism and it will adapt to its recipient.
 
 - type: entity
   parent: RightFootHuman
   id: BioSynthRightFoot
-  name: "біосинтетична права стопа"
-  description: "Цю праву ногу можна пересадити в будь-який живий організм, і вона пристосується до реципієнта."
+  name: bio-synthetic right foot
+  description: This right foot can be transplanted into any living organism and it will adapt to its recipient.
 
 # JOKE ITEMS
 
 - type: entity
   parent: LeftArmHuman
   id: PizzaLeftArm
-  name: "піца ліва рука"
-  description: "Для тих, хто хоче перетворити когось на Космічного Джона."
+  name: pizza left arm
+  description: For when you want to turn someone into a Space John's.
   components:
   - type: BodyPart
     partType: Arm
@@ -458,8 +458,8 @@
 - type: entity
   parent: RightArmHuman
   id: PizzaRightArm
-  name: "піца права рука"
-  description: "Для тих, хто хоче перетворити когось на Космічного Джона."
+  name: pizza right arm
+  description: For when you want to turn someone into a Space John's.
   components:
   - type: BodyPart
     partType: Arm
