@@ -6,6 +6,7 @@ using Content.Shared.Decals;
 using Content.Shared.Examine;
 using Content.Shared.Humanoid.Markings;
 using Content.Shared.Humanoid.Prototypes;
+using Content.Shared.Humanoid.Events;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Preferences;
 using Robust.Shared.Configuration;
@@ -464,6 +465,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         humanoid.LastProfileLoaded = profile; // DeltaV - let paradox anomaly be cloned
 
         Dirty(humanoid);
+        RaiseLocalEvent(uid, new ProfileLoadFinishedEvent());
     }
 
     /// <summary>
