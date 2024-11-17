@@ -1,40 +1,40 @@
 <Document>
-# Surgery
-Your usual weekly activity. By performing surgical operations on your patients, you can heal wounds, remove or add body parts, organs, and more.
+  # Хірургія
+  Ваше звичайне щотижневе заняття. Виконуючи хірургічні операції на своїх пацієнтах, ви можете лікувати рани, видаляти або додавати частини тіла, органи та багато іншого.
 
-## The Basics
-To start surgery your patient needs to be laying down, and ideally sedated.
+  ## Основи
+  Щоб розпочати операцію, ваш пацієнт повинен лежати і, бажано, бути під седативними засобами.
 
-If they are not sedated, they will be in a lot of pain, which decreases their mood, and will make surgical wounds worse.
+  Якщо вони не під седативними засобами, вони відчуватимуть сильний біль, що знижує їх настрій і погіршує хірургічні рани.
 
-<Box>
-<GuideEntityEmbed Entity="NitrousOxideTank" Caption="nitrous oxide"/>
-<GuideEntityEmbed Entity="ClothingMaskBreathMedical" Caption="any breathing tool"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="NitrousOxideTank" Caption="закис азоту"/>
+    <GuideEntityEmbed Entity="ClothingMaskBreathMedical" Caption="будь-який дихальний пристрій"/>
+  </Box>
 
-You also need to wear protective gear such as a mask and gloves to prevent harming the patient due to contamination.
+  Вам також потрібно носити захисне спорядження, таке як маска та рукавички, щоб запобігти шкоді пацієнту через зараження.
 
-<Box>
-<GuideEntityEmbed Entity="ClothingMaskSterile" Caption="any mask"/>
-<GuideEntityEmbed Entity="ClothingHandsGlovesNitrile" Caption="any gloves"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="ClothingMaskSterile" Caption="будь-яка маска"/>
+    <GuideEntityEmbed Entity="ClothingHandsGlovesNitrile" Caption="будь-які рукавички"/>
+  </Box>
 
-## Getting Started
+  ## Початок роботи
 
-To engage in surgery, you'll need a set of surgical tools.
+  Для виконання хірургії вам знадобиться набір хірургічних інструментів.
 
-<Box>
-<GuideEntityEmbed Entity="Scalpel" Caption="scalpel"/>
-<GuideEntityEmbed Entity="Retractor" Caption="retractor"/>
-<GuideEntityEmbed Entity="Hemostat" Caption="hemostat"/>
-<GuideEntityEmbed Entity="Drill" Caption="drill"/>
-</Box>
-<Box>
-<GuideEntityEmbed Entity="Saw" Caption="saw"/>
-<GuideEntityEmbed Entity="Cautery" Caption="cautery"/>
-<GuideEntityEmbed Entity="BoneGel" Caption="bone gel"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="Scalpel" Caption="скальпель"/>
+    <GuideEntityEmbed Entity="Retractor" Caption="ретрактор"/>
+    <GuideEntityEmbed Entity="Hemostat" Caption="гемостат"/>
+    <GuideEntityEmbed Entity="Drill" Caption="дриль"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="Saw" Caption="пилка"/>
+    <GuideEntityEmbed Entity="Cautery" Caption="каутер"/>
+    <GuideEntityEmbed Entity="BoneGel" Caption="кістковий гель"/>
+  </Box>
 
-Once you've got tools in hand, interact with your patient to begin surgery. You'll be able to choose which part you want to operate on.
+  Коли у вас є інструменти під рукою, взаємодійте з вашим пацієнтом, щоб розпочати операцію. Ви зможете вибрати, на якій частині ви хочете оперувати.
 
 </Document>

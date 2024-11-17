@@ -1,51 +1,50 @@
 <Document>
-# Organ Manipulation
-These surgeries allow you to remove or replace organs from a patient for healthy ones. Which can help treat conditions on their bodies.
+  # Маніпуляція з органами
+  Ці операції дозволяють видаляти або замінювати органи пацієнта на здорові, що може допомогти вилікувати певні стани їхнього тіла.
 
-## Anatomy
-Normally a body has the following organs:
+  ## Анатомія
+  Зазвичай тіло має наступні органи:
 
-<Box>
-<GuideEntityEmbed Entity="OrganHumanBrain" Caption="brain"/>
-<GuideEntityEmbed Entity="OrganHumanEyes" Caption="eyes"/>
-<GuideEntityEmbed Entity="OrganHumanHeart" Caption="heart"/>
-</Box>
-<Box>
-<GuideEntityEmbed Entity="OrganHumanKidneys" Caption="kidneys"/>
-<GuideEntityEmbed Entity="OrganHumanLiver" Caption="liver"/>
-<GuideEntityEmbed Entity="OrganHumanLungs" Caption="lungs"/>
-<GuideEntityEmbed Entity="OrganHumanStomach" Caption="stomach"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="OrganHumanBrain" Caption="мозок"/>
+    <GuideEntityEmbed Entity="OrganHumanEyes" Caption="очі"/>
+    <GuideEntityEmbed Entity="OrganHumanHeart" Caption="серце"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="OrganHumanKidneys" Caption="нирки"/>
+    <GuideEntityEmbed Entity="OrganHumanLiver" Caption="печінка"/>
+    <GuideEntityEmbed Entity="OrganHumanLungs" Caption="легені"/>
+    <GuideEntityEmbed Entity="OrganHumanStomach" Caption="шлунок"/>
+  </Box>
 
-Certain species might have more or less organs, such as Diona having a combined organ that serves multiple functions, but this is the rough outline of what you'll see.
-To remove an organ, you'll need to apply the respective Organ Removal surgery on it, which will then remove it without harming the patient.
+  Деякі види можуть мати більше або менше органів, наприклад, Діона має комбінований орган, який виконує декілька функцій, але це приблизний перелік того, що ви побачите.
+  Щоб видалити орган, вам потрібно застосувати відповідну операцію видалення органу, що дозволить видалити його без шкоди для пацієнта.
 
-However if you want to transplant an organ, you'll need to apply the respective Organ Transplant surgery where it originally was.
+  Однак, якщо ви хочете пересадити орган, вам потрібно виконати відповідну операцію трансплантації органу на його початковому місці.
 
-## What does each organ transplant do?
+  ## Що робить кожна трансплантація органу?
 
-- Transplanting a [color=#a4885c]brain[/color] will allow the patient to take over another body. An excellent alternative to cloning if you can afford to spare another body.
-- Transplanting a [color=#a4885c]liver[/color] will cure severe poisoning from a patient's body.
-- Transplanting [color=#a4885c]lungs[/color] will help cure patients from severe asphyxiation.
-- Transplanting a [color=#a4885c]heart[/color] will cure a patient's body of rot and decay.
-- Transplanting [color=#a4885c]eyes[/color] will allow the patient to see again, and heal any eye damage.
+  - Трансплантація [color=#a4885c]мозку[/color] дозволить пацієнту взяти під контроль інше тіло. Відмінна альтернатива клонуванню, якщо ви можете дозволити собі пожертвувати іншим тілом.
+  - Трансплантація [color=#a4885c]печінки[/color] вилікує важке отруєння в тілі пацієнта.
+  - Трансплантація [color=#a4885c]легень[/color] допоможе вилікувати пацієнтів від важкої асфіксії.
+  - Трансплантація [color=#a4885c]серця[/color] вилікує тіло пацієнта від гниття та розкладу.
+  - Трансплантація [color=#a4885c]очей[/color] дозволить пацієнту знову бачити та вилікувати будь-які ушкодження очей.
 
-## Where do I get more organs?
+  ## Де я можу отримати більше органів?
 
-Normally when your patients come in needing new organs, they'll need to get a new one, as their old ones will be either missing, or damaged beyond repair.
-For this you can use the Medical Biofabricator with some Biomass. Which can manufacture Biosynthetic organs for all species.
+  Зазвичай, коли ваші пацієнти потребують нових органів, їм потрібно отримати нові, оскільки їхні старі або відсутні, або пошкоджені без можливості відновлення.
+  Для цього ви можете використовувати медичний біофабрикатор з деякою кількістю біомаси, який може виготовляти біосинтетичні органи для всіх видів.
 
-<Box>
-<GuideEntityEmbed Entity="MedicalBiofabricator" Caption="medical biofabricator"/>
-<GuideEntityEmbed Entity="MedicalBiofabMachineBoard" Caption="biofabricator board"/>
-<GuideEntityEmbed Entity="MaterialBiomass" Caption="biomass"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="MedicalBiofabricator" Caption="медичний біофабрикатор"/>
+    <GuideEntityEmbed Entity="MedicalBiofabMachineBoard" Caption="плата біофабрикатора"/>
+    <GuideEntityEmbed Entity="MaterialBiomass" Caption="біомаса"/>
+  </Box>
 
-By default, every Chief Medical Officer has access to a Medical Biofabricator board in their locker.
+  За замовчуванням, кожен Головний Медичний Офіцер має доступ до плати медичного біофабрикатора у своїй шафі.
 
-## Why didn't the organ transplant
-## do anything?
+  ## Чому трансплантація органу нічого не дала?
 
-Your patient's body rejected the organ as it is in a bad shape, try using a fresh organ from a donor, or getting a new one from the Medical Biofabricator.
+  Тіло вашого пацієнта відторгнуло орган, оскільки він у поганому стані. Спробуйте використати свіжий орган від донора або отримати новий з медичного біофабрикатора.
 
 </Document>

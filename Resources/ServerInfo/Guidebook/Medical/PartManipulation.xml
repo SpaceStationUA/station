@@ -1,51 +1,50 @@
 <Document>
-# Part Manipulation
-This is how you will turn felinids into humans, or vice versa if you're feeling particularly cruel.
+  # Маніпуляція з частинами
+  Ось як ви можете перетворити фелініда на людину або навпаки, якщо ви особливо жорстокі.
 
-## Anatomy
-Normally a body has 10 main parts. Those being:
+  ## Анатомія
+  Зазвичай тіло має 10 основних частин. Це:
 
-<Box>
-<GuideEntityEmbed Entity="HeadHuman" Caption="head"/>
-</Box>
-<Box>
-<GuideEntityEmbed Entity="RightHandHuman" Caption="right hand"/>
-<GuideEntityEmbed Entity="RightArmHuman" Caption="right arm"/>
-<GuideEntityEmbed Entity="TorsoHuman" Caption="torso"/>
-<GuideEntityEmbed Entity="LeftArmHuman" Caption="left arm"/>
-<GuideEntityEmbed Entity="LeftHandHuman" Caption="left hand"/>
-</Box>
-<Box>
-<GuideEntityEmbed Entity="RightFootHuman" Caption="right foot"/>
-<GuideEntityEmbed Entity="RightLegHuman" Caption="right leg"/>
-<GuideEntityEmbed Entity="LeftLegHuman" Caption="left leg"/>
-<GuideEntityEmbed Entity="LeftFootHuman" Caption="left foot"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="HeadHuman" Caption="голова"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="RightHandHuman" Caption="права рука"/>
+    <GuideEntityEmbed Entity="RightArmHuman" Caption="праве плече"/>
+    <GuideEntityEmbed Entity="TorsoHuman" Caption="торс"/>
+    <GuideEntityEmbed Entity="LeftArmHuman" Caption="ліве плече"/>
+    <GuideEntityEmbed Entity="LeftHandHuman" Caption="ліва рука"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="RightFootHuman" Caption="права ступня"/>
+    <GuideEntityEmbed Entity="RightLegHuman" Caption="права нога"/>
+    <GuideEntityEmbed Entity="LeftLegHuman" Caption="ліва нога"/>
+    <GuideEntityEmbed Entity="LeftFootHuman" Caption="ліва ступня"/>
+  </Box>
 
-Certain species might have more or less parts, such as tails, wings, or extra limbs, but this is the rough outline of what you'll see.
-To detach a limb, you'll need to apply the Remove Part surgery on it, which will then remove it without harming the patient.
+  Деякі види можуть мати більше або менше частин, такі як хвости, крила або додаткові кінцівки, але це приблизний опис того, що ви побачите.
+  Щоб від'єднати кінцівку, вам потрібно застосувати операцію **"Видалити частину"**, яка дозволить видалити її без шкоди для пацієнта.
 
-However if you want to reattach the limb, you'll need to apply the Attach Part surgery where you want it attached.
-Hands are attached to the arms, feet are attached to the legs. And everything else is attached to the torso.
+  Однак, якщо ви хочете прикріпити кінцівку, вам потрібно застосувати операцію **"Прикріпити частину"** там, де ви хочете її прикріпити.
+  Руки прикріплюються до плечей, ступні прикріплюються до ніг. І все інше прикріплюється до торсу.
 
+  ## Де я можу отримати більше частин?
 
-## Where do I get more parts?
+  Зазвичай, коли ваші пацієнти потребують нових кінцівок, їм потрібно отримати нову, оскільки їхні старі або відсутні, або пошкоджені без можливості відновлення.
+  Для цього ви можете використовувати медичний біофабрикатор з деякою кількістю біомаси, який може виготовляти біосинтетичні кінцівки для всіх видів.
 
-Normally when your patients come in needing new limbs, they'll need to get a new one, as their old ones will be either missing, or damaged beyond repair.
-For this you can use the Medical Biofabricator with some Biomass. Which can manufacture Biosynthetic limbs for all species.
+  <Box>
+    <GuideEntityEmbed Entity="MedicalBiofabricator" Caption="медичний біофабрикатор"/>
+    <GuideEntityEmbed Entity="MedicalBiofabMachineBoard" Caption="плата біофабрикатора"/>
+    <GuideEntityEmbed Entity="MaterialBiomass" Caption="біомаса"/>
+  </Box>
 
-<Box>
-<GuideEntityEmbed Entity="MedicalBiofabricator" Caption="medical biofabricator"/>
-<GuideEntityEmbed Entity="MedicalBiofabMachineBoard" Caption="biofabricator board"/>
-<GuideEntityEmbed Entity="MaterialBiomass" Caption="biomass"/>
-</Box>
+  За замовчуванням, кожен Головний Медичний Офіцер має доступ до плати медичного біофабрикатора у своїй шафі.
 
-By default, every Chief Medical Officer has access to a Medical Biofabricator board in their locker.
+  ## Я переаттачив кінцівку пацієнта, але
+  ## вона не працює?
 
-## I reattached my patient's limb, but
-## it's not working?
-
-Your patient has taken enough damage to the point that their limb's nerves were badly damaged, and they need to be healed properly before it can work again.
-For this you can try the Tend Wounds surgeries, or letting them use topicals on their wounds.
+  Ваш пацієнт отримав достатньо ушкоджень, щоб нерви його кінцівки були серйозно пошкоджені, і їм потрібно правильно вилікуватися, перш ніж вона зможе знову функціонувати.
+  Для цього ви можете спробувати операції **"Обробка ран"** або дозволити їм використовувати мазі на своїх ранах.
 
 </Document>
