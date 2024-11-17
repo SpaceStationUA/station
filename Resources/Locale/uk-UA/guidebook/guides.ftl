@@ -75,3 +75,7 @@ guide-entry-altars-golemancy = Вівтарі та големанство
 guide-entry-psionics = Псіоніка
 guide-entry-reverse-engineering = Реінжиніринг
 guide-entry-glimmer-creatures = Мерехтливі істоти
+guide-entry-surgery = Хірургія
+guide-entry-partmanipulation = Маніпуляції з частинами
+guide-entry-organmanipulation = Маніпуляції з органами
+guide-entry-utilitysurgeries = Допоміжні операції

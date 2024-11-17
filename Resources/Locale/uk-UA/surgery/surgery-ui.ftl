@@ -1,0 +1,12 @@
+surgery-ui-window-title = Хірургія
+surgery-ui-window-require = Потрібно
+surgery-ui-window-parts = < Частини
+surgery-ui-window-surgeries = < Операції
+surgery-ui-window-steps = < Кроки
+surgery-ui-window-steps-error-skills = У вас немає хірургічних навичок.
+surgery-ui-window-steps-error-table = Для цього потрібен операційний стіл.
+surgery-ui-window-steps-error-armor = Необхідно зняти броню!
+surgery-ui-window-steps-error-tools = Немає потрібних інструментів.
+surgery-error-laying = Вони мають лежати!
+surgery-error-self-surgery = Ви не можете проводити операцію на собі!
+surgery-part-damage-evaded = {$user} ледве уникнув ушкодження!

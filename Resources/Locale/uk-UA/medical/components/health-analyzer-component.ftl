@@ -45,3 +45,5 @@ health-analyzer-window-entity-critical-text = Крит
 health-analyzer-window-entity-status-text = Статус:
 health-analyzer-window-entity-unrevivable-text = Виявлено унікальний склад організму! Пацієнт не може бути реанімований звичайними засобами!
 health-analyzer-popup-scan-target = {CAPITALIZE(THE($user))} намагається вас просканувати!
+
+health-analyzer-window-return-button-text = < Повернути

@@ -281,3 +281,10 @@ ui-options-vp-vertical-fit-tooltip = Якщо увімкнено, головне
                                      призведе до обрізання області перегляду по горизонтальній осі.
 ui-options-function-toggle-crawling-under = Перемикач повзання під меблями
 ui-options-function-toggle-round-end-summary-window = Перемикання круглого кінцевого вікна підсумків
+ui-options-header-targeting = Прицілювання
+ui-options-function-target-head = Ціль - голова
+ui-options-function-target-torso = Ціль - торс
+ui-options-function-target-left-arm = Ціль - ліва рука
+ui-options-function-target-right-arm = Ціль - права рука
+ui-options-function-target-left-leg = Ціль - ліва нога
+ui-options-function-target-right-leg = Ціль - права нога
