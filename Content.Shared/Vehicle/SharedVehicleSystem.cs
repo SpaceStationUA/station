@@ -20,9 +20,7 @@ using Robust.Shared.Network;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Serialization;
 
-
 namespace Content.Shared.Vehicle;
-
 
 /// <summary>
 /// Stores the VehicleVisuals and shared event
@@ -32,7 +30,6 @@ namespace Content.Shared.Vehicle;
 public abstract partial class SharedVehicleSystem : EntitySystem
 {
     [Dependency] private readonly INetManager _netManager = default!;
-
     [Dependency] protected readonly SharedAppearanceSystem Appearance = default!;
     [Dependency] private readonly SharedAudioSystem _audioSystem = default!;
     [Dependency] private readonly MovementSpeedModifierSystem _modifier = default!;
@@ -43,7 +40,7 @@ public abstract partial class SharedVehicleSystem : EntitySystem
     [Dependency] private readonly SharedVirtualItemSystem _virtualItemSystem = default!;
     [Dependency] private readonly SharedActionsSystem _actionsSystem = default!;
     [Dependency] private readonly SharedJointSystem _joints = default!;
-    [Dependency] private readonly SharedBuckleSystem _buckle = default!;
+    [Dependency] private readonly SharedBuckleSystem _buckleSystem = default!;
     [Dependency] private readonly SharedMoverController _mover = default!;
 
     private const string KeySlot = "key_slot";
@@ -55,8 +52,8 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         InitializeRider();
 
         SubscribeLocalEvent<VehicleComponent, ComponentStartup>(OnVehicleStartup);
-        SubscribeLocalEvent<VehicleComponent, BuckledEvent>(OnBuckled);
-        SubscribeLocalEvent<VehicleComponent, UnbuckledEvent>(OnUnbuckled);
+        SubscribeLocalEvent<VehicleComponent, StrappedEvent>(OnStrapped);
+        SubscribeLocalEvent<VehicleComponent, UnstrappedEvent>(OnUnstrapped);
         SubscribeLocalEvent<VehicleComponent, HonkActionEvent>(OnHonkAction);
         SubscribeLocalEvent<VehicleComponent, EntInsertedIntoContainerMessage>(OnEntInserted);
         SubscribeLocalEvent<VehicleComponent, EntRemovedFromContainerMessage>(OnEntRemoved);
@@ -77,8 +74,6 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         {
             if (!vehicle.AutoAnimate)
                 continue;
-
-            // Why is this updating appearance data every tick, instead of when it needs to be updated???
 
             if (_mover.GetVelocityInput(mover).Sprinting == Vector2.Zero)
             {
@@ -103,29 +98,29 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         _modifier.RefreshMovementSpeedModifiers(uid);
     }
 
-    private void OnBuckled(EntityUid uid, VehicleComponent component, ref BuckledEvent args)
+    private void OnStrapped(EntityUid uid, VehicleComponent component, ref StrappedEvent args)
     {
-        var buckledEntity = args.Buckle.Owner;
+        var strappedEntity = args.Buckle.Owner;
 
         if (component.UseHand == true)
         {
             // Add a virtual item to rider's hand, unbuckle if we can't.
-            if (!_virtualItemSystem.TrySpawnVirtualItemInHand(uid, buckledEntity))
+            if (!_virtualItemSystem.TrySpawnVirtualItemInHand(uid, strappedEntity))
             {
-                _buckle.TryUnbuckle(buckledEntity, buckledEntity, true);
+                _buckleSystem.TryUnbuckle(strappedEntity, strappedEntity, true);
                 return;
             }
         }
 
         // Set up the rider and vehicle with each other
         EnsureComp<InputMoverComponent>(uid);
-        var rider = EnsureComp<RiderComponent>(buckledEntity);
-        component.Rider = buckledEntity;
+        var rider = EnsureComp<RiderComponent>(strappedEntity);
+        component.Rider = strappedEntity;
         component.LastRider = component.Rider;
         Dirty(uid, component);
         Appearance.SetData(uid, VehicleVisuals.HideRider, true);
 
-        _mover.SetRelay(buckledEntity, uid);
+        _mover.SetRelay(strappedEntity, uid);
         rider.Vehicle = uid;
 
         // Update appearance stuff, add actions
@@ -133,11 +128,11 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         if (TryComp<InputMoverComponent>(uid, out var mover))
             UpdateDrawDepth(uid, GetDrawDepth(Transform(uid), component, mover.RelativeRotation.Degrees));
 
-        if (TryComp<ActionsComponent>(buckledEntity, out var actions) &&
+        if (TryComp<ActionsComponent>(strappedEntity, out var actions) &&
             TryComp<UnpoweredFlashlightComponent>(uid, out var flashlight))
         {
             _actionsSystem.AddAction(
-                buckledEntity,
+                strappedEntity,
                 ref flashlight.ToggleActionEntity,
                 flashlight.ToggleAction,
                 uid,
@@ -146,27 +141,27 @@ public abstract partial class SharedVehicleSystem : EntitySystem
 
         if (component.HornSound != null)
         {
-            _actionsSystem.AddAction(buckledEntity, ref component.HornActionEntity, component.HornAction, uid, actions);
+            _actionsSystem.AddAction(strappedEntity, ref component.HornActionEntity, component.HornAction, uid, actions);
         }
 
-        _joints.ClearJoints(buckledEntity);
+        _joints.ClearJoints(strappedEntity);
 
         _tagSystem.AddTag(uid, "DoorBumpOpener");
     }
 
-    private void OnUnbuckled(EntityUid uid, VehicleComponent component, ref UnbuckledEvent args)
+    private void OnUnstrapped(EntityUid uid, VehicleComponent component, ref UnstrappedEvent args)
     {
-        var buckledEntity = args.Buckle.Owner;
+        var strappedEntity = args.Buckle.Owner;
 
         // Clean up actions and virtual items
-        _actionsSystem.RemoveProvidedActions(buckledEntity, uid);
+        _actionsSystem.RemoveProvidedActions(strappedEntity, uid);
 
         if (component.UseHand == true)
-            _virtualItemSystem.DeleteInHandsMatching(buckledEntity, uid);
+            _virtualItemSystem.DeleteInHandsMatching(strappedEntity, uid);
 
         // Entity is no longer riding
-        RemComp<RiderComponent>(buckledEntity);
-        RemComp<RelayInputMoverComponent>(buckledEntity);
+        RemComp<RiderComponent>(strappedEntity);
+        RemComp<RelayInputMoverComponent>(strappedEntity);
         _tagSystem.RemoveTag(uid, "DoorBumpOpener");
 
         Appearance.SetData(uid, VehicleVisuals.HideRider, false);
@@ -174,7 +169,6 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         component.Rider = null;
         Dirty(uid, component);
     }
-
 
     /// <summary>
     /// This fires when the rider presses the honk action
@@ -184,16 +178,10 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         if (args.Handled || vehicle.HornSound == null)
             return;
 
-        // TODO: Need audio refactor maybe, just some way to null it when the stream is over.
-        // For now better to just not loop to keep the code much cleaner.
         vehicle.HonkPlayingStream = _audioSystem.PlayPredicted(vehicle.HornSound, uid, uid)?.Entity;
         args.Handled = true;
     }
 
-    /// <summary>
-    /// Handle adding keys to the ignition, give stuff the InVehicleComponent so it can't be picked
-    /// up by people not in the vehicle.
-    /// </summary>
     private void OnEntInserted(EntityUid uid, VehicleComponent component, EntInsertedIntoContainerMessage args)
     {
         if (args.Container.ID != KeySlot ||
@@ -218,9 +206,6 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         _modifier.RefreshMovementSpeedModifiers(uid);
     }
 
-    /// <summary>
-    /// Turn off the engine when key is removed.
-    /// </summary>
     private void OnEntRemoved(EntityUid uid, VehicleComponent component, EntRemovedFromContainerMessage args)
     {
         if (args.Container.ID != KeySlot || !RemComp<InVehicleComponent>(args.Entity))
@@ -235,8 +220,7 @@ public abstract partial class SharedVehicleSystem : EntitySystem
     private void OnRefreshMovementSpeedModifiers(
         EntityUid uid,
         VehicleComponent component,
-        RefreshMovementSpeedModifiersEvent args
-    )
+        RefreshMovementSpeedModifiersEvent args)
     {
         if (!component.HasKey)
         {
@@ -250,7 +234,6 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         if (args.NewRotation == args.OldRotation)
             return;
 
-        // This first check is just for safety
         if (component.AutoAnimate && !HasComp<InputMoverComponent>(uid))
         {
             UpdateAutoAnimate(uid, false);
@@ -268,11 +251,6 @@ public abstract partial class SharedVehicleSystem : EntitySystem
             args.Cancel();
     }
 
-    /// <summary>
-    /// Depending on which direction the vehicle is facing,
-    /// change its draw depth. Vehicles can choose between special drawdetph
-    /// when facing north or south. East and west are easy.
-    /// </summary>
     private int GetDrawDepth(TransformComponent xform, VehicleComponent component, Angle cameraAngle)
     {
         var itemDirection = cameraAngle.GetDir() switch
@@ -302,12 +280,6 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         };
     }
 
-
-    /// <summary>
-    /// Change the buckle offset based on what direction the vehicle is facing and
-    /// teleport any buckled entities to it. This is the most crucial part of making
-    /// buckled vehicles work.
-    /// </summary>
     private void UpdateBuckleOffset(EntityUid uid, TransformComponent xform, VehicleComponent component)
     {
         if (!TryComp<StrapComponent>(uid, out var strap))
@@ -335,17 +307,11 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         args.Entities.Add(component.Rider.Value);
     }
 
-    /// <summary>
-    /// Set the draw depth for the sprite.
-    /// </summary>
     private void UpdateDrawDepth(EntityUid uid, int drawDepth)
     {
         Appearance.SetData(uid, VehicleVisuals.DrawDepth, drawDepth);
     }
 
-    /// <summary>
-    /// Set whether the vehicle's base layer is animating or not.
-    /// </summary>
     private void UpdateAutoAnimate(EntityUid uid, bool autoAnimate)
     {
         Appearance.SetData(uid, VehicleVisuals.AutoAnimate, autoAnimate);
