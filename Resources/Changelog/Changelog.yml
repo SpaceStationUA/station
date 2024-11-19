@@ -7410,104 +7410,105 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1159
 - author: sleepyyapril
   changes:
-    - type: Fix
-      message: Fixed stamina system
+  - type: Fix
+    message: Виправлено систему витривалості
   id: 6524
   time: '2024-11-18T02:17:27.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1245
 - author: DocNITE
   changes:
-    - type: Add
-      message: Added Day/Night time cycle for admins and mapers.
+  - type: Add
+    message: Додано цикл день/ніч для адміністраторів та маперів.
   id: 6525
   time: '2024-11-18T02:20:45.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1234
 - author: gluesniffler
   changes:
-    - type: Add
-      message: You can now perform surgery as a monke. Rejoice.
-    - type: Add
-      message: >-
-        You can perform surgery on a lot of animals now, I missed a lot of them
-        so just ask if you want any particular critter to get it.
-    - type: Tweak
-      message: Entities now perish after 60 seconds of losing their heart and/or brain.
-    - type: Fix
-      message: Entities properly take asphyxiation damage after losing their brain.
-    - type: Fix
-      message: Torsos being gibbable, which would break surgery or just about anything.
-    - type: Fix
-      message: >-
-        Items not being removed from their respective slots if the parts were
-        gibbed rather than dropped.
-    - type: Fix
-      message: Animal organs not being usable properly in surgeries
-    - type: Fix
-      message: Cyborg limbs are now usable as pseudo-peg arm/legs.
+  - type: Add
+    message: Тепер ви можете проводити хірургію як мавпа. Радійте.
+  - type: Add
+    message: >-
+      Тепер ви можете проводити хірургію на багатьох тваринах. Я пропустив
+      багато з них, тому просто запитайте, якщо хочете, щоб якась конкретна
+      істота отримала цю можливість.
+  - type: Tweak
+    message: Сутності тепер гинуть через 60 секунд після втрати серця та/або мозку.
+  - type: Fix
+    message: Сутності правильно отримують пошкодження від асфіксії після втрати мозку.
+  - type: Fix
+    message: Торси, які можна було розчленувати, що порушувало хірургію або інші процеси.
+  - type: Fix
+    message: >-
+      Предмети не видалялися з відповідних слотів, якщо частини тіла були
+      розчленовані, а не випали.
+  - type: Fix
+    message: Органи тварин не використовувалися належним чином у хірургії.
+  - type: Fix
+    message: Кіборг-кібернетичні кінцівки тепер можна використовувати як псевдо-протези рук/ніг.
   id: 6526
   time: '2024-11-18T04:03:05.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1240
 - author: Skubman
   changes:
-    - type: Fix
-      message: >-
-        Examining yourself with the Self-Aware trait will no longer crash your
-        game client.
+  - type: Fix
+    message: >-
+      Огляд себе з рисою "Самосвідомість" більше не призводить до збою
+      клієнта гри.
   id: 6527
   time: '2024-11-18T04:29:14.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1247
 - author: Skubman
   changes:
-    - type: Add
-      message: >-
-        Surgery step descriptions (like making an incision, removing/attaching
-        limbs and organs) are now shown as popups to everyone in range upon the
-        start of the step. This makes it clear which surgical procedure is being
-        done and to which body part. No more stealthy brain-stealing in front of
-        everyone!
+  - type: Add
+    message: >-
+      Опис кроків хірургії (наприклад, розріз, видалення/прикріплення
+      кінцівок та органів) тепер відображаються як спливаючі вікна для всіх
+      у радіусі дії на початку кроку. Це робить зрозумілим, яка хірургічна
+      процедура виконується і на якій частині тіла. Більше ніякого
+      непомітного викрадення мозку на очах у всіх!
   id: 6528
   time: '2024-11-18T15:15:56.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1241
 - author: Skubman
   changes:
-    - type: Add
-      message: >-
-        The stamina cost of an object's power attack can now be revealed by
-        examining its damage values. 
-    - type: Tweak
-      message: >-
-        Power attacks can't be done if your stamina is too low, so you can't
-        accidentally stamcrit yourself with power attacks anymore.
-    - type: Tweak
-      message: Power attacks now cost stamina even without hitting anything.
-    - type: Tweak
-      message: >-
-        Prevent power attacks from showing a blue visual effect on the character
-        who attacked due to stamina damage.
+  - type: Add
+    message: >-
+      Витрати витривалості на силову атаку об'єкта тепер можна побачити,
+      оглянувши його значення пошкодження.
+  - type: Tweak
+    message: >-
+      Силові атаки не можна виконувати, якщо ваша витривалість занадто низька,
+      тому ви більше не можете випадково вичерпати себе силовими атаками.
+  - type: Tweak
+    message: Силові атаки тепер витрачають витривалість, навіть якщо не влучили.
+  - type: Tweak
+    message: >-
+      Запобігання відображенню синього візуального ефекту на персонажі, який
+      атакував, через пошкодження витривалості під час силових атак.
   id: 6529
   time: '2024-11-18T15:19:10.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1238
 - author: VMSolidus
   changes:
-    - type: Add
-      message: >-
-        Glimmer Wisps now completely obliterate their victim's Personhood,
-        inflicting the Mindbroken condition on them.
+  - type: Add
+    message: >-
+      Glimmer Wisps тепер повністю знищують особистість своєї жертви,
+      накладаючи на неї стан "Розумовий розлад".
   id: 6530
   time: '2024-11-18T22:07:31.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1248
 - author: VMSolidus
   changes:
-    - type: Fix
-      message: >-
-        Reorganized Loadouts so that all Jobs now have their own job specific
-        tabs. The code for them has been thoroughly reorganized too, such that
-        figuring out which jobs are missing crap is way easier to do.
-    - type: Add
-      message: >-
-        Captain's Personal Weapon loadout category. Currently only contains a
-        choice between the antique laser pistol, or a pulse pistol. Whichever
-        choice is made will be used as a target for a traitor objective.
+  - type: Fix
+    message: >-
+      Перероблено Loadouts, щоб усі роботи тепер мали власні вкладки.
+      Код для них також був ретельно реорганізований, що полегшує виявлення
+      відсутніх елементів для кожної роботи.
+  - type: Add
+    message: >-
+      Категорія особистої зброї капітана в Loadouts. Наразі містить вибір між
+      антикварним лазерним пістолетом або імпульсним пістолетом. Залежно від
+      вибору, цей предмет буде ціллю для завдання зрадника.
   id: 6531
   time: '2024-11-18T22:08:35.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1230
