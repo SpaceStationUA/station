@@ -24,18 +24,13 @@ public sealed partial class ChangelingSystem : EntitySystem
         var stateNormalized = 0f;
 
         // hardcoded because uhh umm i don't know. send help.
-        switch (args.Alert.AlertKey.AlertType)
-        {
-            case AlertType.ChangelingChemicals:
-                stateNormalized = (int) (comp.Chemicals / comp.MaxChemicals * 18);
-                break;
+        if (args.Alert.AlertKey.AlertType == comp.AlertChemicals)
+            stateNormalized = (int) (comp.Chemicals / comp.MaxChemicals * 18);
+        else if (args.Alert.AlertKey.AlertType == comp.AlertBiomass)
+            stateNormalized = (int) (comp.Biomass / comp.MaxBiomass * 16);
+        else
+            return;
 
-            case AlertType.ChangelingBiomass:
-                stateNormalized = (int) (comp.Biomass / comp.MaxBiomass * 16);
-                break;
-            default:
-                return;
-        }
         var sprite = args.SpriteViewEnt.Comp;
         sprite.LayerSetState(AlertVisualLayers.Base, $"{stateNormalized}");
     }

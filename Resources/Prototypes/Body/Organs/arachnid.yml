@@ -21,7 +21,7 @@
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
-  - type: Tag # goob edit
+  - type: Tag # goob edit HERETICS
     tags:
       - Meat
       - Organ
@@ -37,6 +37,8 @@
     state: stomach
   - type: Stomach
     updateInterval: 1.5
+  - type: Organ
+    slotId: stomach
   - type: SolutionContainerManager
     solutions:
       stomach:
@@ -48,7 +50,7 @@
           Quantity: 5
   - type: Metabolizer
     updateInterval: 1.5
-  - type: Tag # goob edit
+  - type: Tag # goob edit HERETICS
     tags:
     - Meat
     - Organ
@@ -65,6 +67,8 @@
       - state: lung-l
       - state: lung-r
   - type: Lung
+  - type: Organ
+    slotId: lungs
   - type: Metabolizer
     updateInterval: 1.5
     removeEmpty: true
@@ -88,7 +92,7 @@
         reagents:
         - ReagentId: UncookedAnimalProteins
           Quantity: 5
-  - type: Tag # goob edit
+  - type: Tag # goob edit HERETICS
     tags:
     - Meat
     - Organ
@@ -102,6 +106,9 @@
   components:
   - type: Sprite
     state: heart-on
+  - type: Heart
+  - type: Organ
+    slotId: heart
   - type: Metabolizer
     updateInterval: 1.5
     maxReagents: 2
@@ -110,7 +117,7 @@
     - id: Medicine
     - id: Poison
     - id: Narcotic
-  - type: Tag # goob edit
+  - type: Tag # goob edit HERETICS
     tags:
     - Meat
     - Organ
@@ -121,10 +128,13 @@
   parent: BaseHumanOrgan
   name: liver
   description: "Pairing suggestion: chianti and fava beans."
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     state: liver
+  - type: Liver
+  - type: Organ
+    slotId: liver
   - type: Metabolizer # The liver metabolizes certain chemicals only, like alcohol.
     updateInterval: 1.5
     maxReagents: 1
@@ -132,7 +142,7 @@
     groups:
     - id: Alcohol
       rateModifier: 0.1 # removes alcohol very slowly along with the stomach removing it as a drink
-  - type: Tag # goob edit
+  - type: Tag # goob edit HERETICS
     tags:
     - Meat
     - Organ
@@ -143,7 +153,7 @@
   parent: BaseHumanOrgan
   name: kidneys
   description: "Filters toxins from the bloodstream."
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     layers:
@@ -155,7 +165,7 @@
     maxReagents: 5
     metabolizerTypes: [Animal]
     removeEmpty: true
-  - type: Tag # goob edit
+  - type: Tag # goob edit  HERETICS
     tags:
     - Meat
     - Organ
@@ -171,7 +181,10 @@
     layers:
       - state: eyeball-l
       - state: eyeball-r
-  - type: Tag # goob edit
+  - type: Eyes
+  - type: Organ
+    slotId: eyes
+  - type: Tag # goob edit HERETICS
     tags:
     - Meat
     - Organ
@@ -185,7 +198,7 @@
   components:
   - type: Sprite
     state: tongue
-  - type: Tag # goob edit
+  - type: Tag # goob edit  HERETICS
     tags:
     - Meat
     - Organ

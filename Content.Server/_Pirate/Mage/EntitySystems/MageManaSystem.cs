@@ -61,16 +61,15 @@ public sealed class MageManaSystem : EntitySystem
     /// <param name="powerLevel">The current power level.</param>
     public void UpdateAlert(EntityUid uid, bool enabled, float? powerLevel = null)
     {
-        if (!enabled || powerLevel == null)
-        {
-            _alerts.ClearAlert(uid, AlertType.MageMana);
-            return;
-        }
-
-        // Get shadowkin component
         if (!_entity.TryGetComponent<MageComponent>(uid, out var component))
         {
             Logger.ErrorS("MageManaSystem", "Tried to update alert of entity without mage component.");
+            return;
+        }
+
+        if (!enabled || powerLevel == null)
+        {
+            _alerts.ClearAlert(uid, component.Alert);
             return;
         }
 
@@ -80,7 +79,7 @@ public sealed class MageManaSystem : EntitySystem
         var power = Math.Clamp(Math.Round(component.ManaLevel / 14), 0, 7);
 
         // Set the alert level
-        _alerts.ShowAlert(uid, AlertType.MageMana, (short) power);
+        _alerts.ShowAlert(uid, component.Alert, (short) power);
     }
 
 

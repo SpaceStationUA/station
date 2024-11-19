@@ -51,7 +51,7 @@ public sealed class SharedPlasmaVesselSystem : EntitySystem
             _popup.PopupEntity(Loc.GetString("alien-plasma-left", ("value", component.Plasma)), uid, uid);
         }
 
-        _alerts.ShowAlert(uid, AlertType.PlasmaCounter, (short) Math.Clamp(Math.Round(component.Plasma.Float() / 50f), 0, 10));
+        _alerts.ShowAlert(uid, component.Alert, (short) Math.Clamp(Math.Round(component.Plasma.Float() / 50f), 0, 10));
 
         return true;
     }

@@ -1,3 +1,4 @@
+using Content.Shared.Alert;
 using Content.Shared.Humanoid;
 using Content.Shared.StatusIcon;
 using Robust.Shared.Audio;
@@ -133,6 +134,12 @@ public sealed partial class ChangelingComponent : Component
 
     [ViewVariables(VVAccess.ReadOnly)]
     public TransformData? SelectedForm;
+
+    [DataField]
+    public ProtoId<AlertPrototype> AlertChemicals = "ChangelingChemicals";
+
+    [DataField]
+    public ProtoId<AlertPrototype> AlertBiomass = "ChangelingBiomass";
 }
 
 [DataDefinition]

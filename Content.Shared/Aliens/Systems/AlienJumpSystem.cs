@@ -71,7 +71,7 @@ public sealed class AlienJumpSystem : EntitySystem
         if (HasComp<StatusEffectsComponent>(args.Target) && _statusEffect.CanApplyEffect(args.Target, "Stun"))
         {
             _stun.TryParalyze(args.Target, TimeSpan.FromSeconds(10), true);
-            _physics.SetBodyStatus(EnsureComp<PhysicsComponent>(uid), BodyStatus.OnGround);
+            _physics.SetBodyStatus(uid, EnsureComp<PhysicsComponent>(uid), BodyStatus.OnGround);
         }
     }
 

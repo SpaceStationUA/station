@@ -1,4 +1,5 @@
 using System.Numerics;
+using Content.Shared.Alert;
 using Content.Shared.FixedPoint;
 using Content.Shared.Store;
 using Content.Shared.Whitelist;
@@ -87,6 +88,9 @@ public sealed partial class MageComponent : Component
         { ManaThreshold.Min, 0.0f },
     };
     #endregion
+
+    [DataField]
+    public ProtoId<AlertPrototype> Alert = "ManaLevel";
 
 }
 

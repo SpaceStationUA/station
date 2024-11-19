@@ -38,6 +38,9 @@
   - type: Sprite
     sprite: Mobs/Species/Diona/organs.rsi
     state: brain
+  - type: Brain
+  - type: Organ
+    slotId: brain
   - type: SolutionContainerManager
     solutions:
       organ:
@@ -69,7 +72,8 @@
     layers:
       - state: eyeball-l
       - state: eyeball-r
-  - type: Tag # goob edit
+  - type: Eyes
+  - type: Tag # goob edit HERETICS
     tags:
     - Meat
     - Organ
@@ -83,6 +87,8 @@
   components:
   - type: Sprite
     state: stomach
+  - type: Organ
+    slotId: stomach
   - type: SolutionContainerManager
     solutions:
       stomach:
@@ -123,6 +129,8 @@
       - state: lung-l
       - state: lung-r
   - type: Lung
+  - type: Organ
+    slotId: lungs
   - type: Metabolizer
     removeEmpty: true
     solutionOnBody: false
@@ -151,7 +159,7 @@
 - type: entity
   id: OrganDionaBrainNymph
   parent: OrganDionaBrain
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: brain
   description: "The source of incredible, unending intelligence. Honk."
   components:
@@ -168,7 +176,7 @@
 - type: entity
   id: OrganDionaStomachNymph
   parent: OrganDionaStomach
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: stomach
   description: "Gross. This is hard to stomach."
   components:
@@ -183,7 +191,7 @@
 - type: entity
   id: OrganDionaLungsNymph
   parent: OrganDionaLungs
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: lungs
   description: "Filters oxygen from an atmosphere, which is then sent into the bloodstream to be used as an electron carrier."
   components:
@@ -199,7 +207,7 @@
 - type: entity
   id: OrganDionaNymphBrain
   parent: MobDionaNymph
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: diona nymph
   suffix: Brain
   description: Contains the brain of a formerly fully-formed Diona. Killing this would kill the Diona forever. You monster.
@@ -211,7 +219,7 @@
 - type: entity
   id: OrganDionaNymphStomach
   parent: MobDionaNymphAccent
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: diona nymph
   suffix: Stomach
   description: Contains the stomach of a formerly fully-formed Diona. It doesn't taste any better for it.
@@ -223,7 +231,7 @@
 - type: entity
   id: OrganDionaNymphLungs
   parent: MobDionaNymphAccent
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   name: diona nymph
   suffix: Lungs
   description: Contains the lungs of a formerly fully-formed Diona. Breathtaking.

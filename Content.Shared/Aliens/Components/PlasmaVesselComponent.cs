@@ -1,5 +1,8 @@
-﻿using Content.Shared.FixedPoint;
+﻿using Content.Shared.Alert;
+using Content.Shared.FixedPoint;
 using Robust.Shared.GameStates;
+using Robust.Shared.Prototypes;
+
 
 namespace Content.Shared.Aliens.Components;
 
@@ -39,4 +42,10 @@ public sealed partial class PlasmaVesselComponent : Component
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite), DataField("plasmaModified")]
     public float WeedModifier = 1.5f;
+
+    /// <summary>
+    /// The type of gas this lung needs. Used only for the breathing alerts, not actual metabolism.
+    /// </summary>
+    [DataField]
+    public ProtoId<AlertPrototype> Alert = "PlasmaCounter";
 }

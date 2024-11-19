@@ -2,7 +2,7 @@ using Robust.Server.GameObjects;
 using Robust.Server.Maps;
 using Robust.Shared.Map;
 using Content.Server.GameTicking;
-using Content.Server.GameTicking.Components;
+using Content.Shared.GameTicking.Components;
 using Content.Server.StationEvents.Components;
 
 namespace Content.Server.StationEvents.Events;

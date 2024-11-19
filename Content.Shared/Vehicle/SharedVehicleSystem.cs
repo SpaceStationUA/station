@@ -20,7 +20,9 @@ using Robust.Shared.Network;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Serialization;
 
+
 namespace Content.Shared.Vehicle;
+
 
 /// <summary>
 /// Stores the VehicleVisuals and shared event
@@ -53,7 +55,8 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         InitializeRider();
 
         SubscribeLocalEvent<VehicleComponent, ComponentStartup>(OnVehicleStartup);
-        SubscribeLocalEvent<VehicleComponent, BuckleChangeEvent>(OnBuckleChange);
+        SubscribeLocalEvent<VehicleComponent, BuckledEvent>(OnBuckled);
+        SubscribeLocalEvent<VehicleComponent, UnbuckledEvent>(OnUnbuckled);
         SubscribeLocalEvent<VehicleComponent, HonkActionEvent>(OnHonkAction);
         SubscribeLocalEvent<VehicleComponent, EntInsertedIntoContainerMessage>(OnEntInserted);
         SubscribeLocalEvent<VehicleComponent, EntRemovedFromContainerMessage>(OnEntRemoved);
@@ -91,86 +94,87 @@ public abstract partial class SharedVehicleSystem : EntitySystem
     {
         UpdateDrawDepth(uid, 2);
 
-        // This code should be purged anyway but with that being said this doesn't handle components being changed.
         if (TryComp<StrapComponent>(uid, out var strap))
         {
-            component.BaseBuckleOffset = strap.BuckleOffsetClamped;
+            component.BaseBuckleOffset = strap.BuckleOffset;
             strap.BuckleOffset = Vector2.Zero;
         }
 
         _modifier.RefreshMovementSpeedModifiers(uid);
     }
 
-    /// <summary>
-    /// Give the user the rider component if they're buckling to the vehicle,
-    /// otherwise remove it.
-    /// </summary>
-    private void OnBuckleChange(EntityUid uid, VehicleComponent component, ref BuckleChangeEvent args)
+    private void OnBuckled(EntityUid uid, VehicleComponent component, ref BuckledEvent args)
     {
-        // Add Rider
-        if (args.Buckling)
-        {
-            if (component.UseHand == true)
-            {
-                // Add a virtual item to rider's hand, unbuckle if we can't.
-                if (!_virtualItemSystem.TrySpawnVirtualItemInHand(uid, args.BuckledEntity))
-                {
-                    _buckle.TryUnbuckle(uid, uid, true);
-                    return;
-                }
-            }
-            // Set up the rider and vehicle with each other
-            EnsureComp<InputMoverComponent>(uid);
-            var rider = EnsureComp<RiderComponent>(args.BuckledEntity);
-            component.Rider = args.BuckledEntity;
-            component.LastRider = component.Rider;
-            Dirty(component);
-            Appearance.SetData(uid, VehicleVisuals.HideRider, true);
-
-            _mover.SetRelay(args.BuckledEntity, uid);
-            rider.Vehicle = uid;
-
-            // Update appearance stuff, add actions
-            UpdateBuckleOffset(uid, Transform(uid), component);
-            if (TryComp<InputMoverComponent>(uid, out var mover))
-                UpdateDrawDepth(uid, GetDrawDepth(Transform(uid), component, mover.RelativeRotation.Degrees));
-
-            if (TryComp<ActionsComponent>(args.BuckledEntity, out var actions) && TryComp<UnpoweredFlashlightComponent>(uid, out var flashlight))
-            {
-                _actionsSystem.AddAction(args.BuckledEntity, ref flashlight.ToggleActionEntity, flashlight.ToggleAction, uid, actions);
-            }
-
-            if (component.HornSound != null)
-            {
-                _actionsSystem.AddAction(args.BuckledEntity, ref component.HornActionEntity, component.HornAction, uid, actions);
-            }
-
-            _joints.ClearJoints(args.BuckledEntity);
-
-            _tagSystem.AddTag(uid, "DoorBumpOpener");
-
-            return;
-        }
-
-        // Remove rider
-
-        // Clean up actions and virtual items
-        _actionsSystem.RemoveProvidedActions(args.BuckledEntity, uid);
+        var buckledEntity = args.Buckle.Owner;
 
         if (component.UseHand == true)
-            _virtualItemSystem.DeleteInHandsMatching(args.BuckledEntity, uid);
+        {
+            // Add a virtual item to rider's hand, unbuckle if we can't.
+            if (!_virtualItemSystem.TrySpawnVirtualItemInHand(uid, buckledEntity))
+            {
+                _buckle.TryUnbuckle(buckledEntity, buckledEntity, true);
+                return;
+            }
+        }
 
+        // Set up the rider and vehicle with each other
+        EnsureComp<InputMoverComponent>(uid);
+        var rider = EnsureComp<RiderComponent>(buckledEntity);
+        component.Rider = buckledEntity;
+        component.LastRider = component.Rider;
+        Dirty(uid, component);
+        Appearance.SetData(uid, VehicleVisuals.HideRider, true);
+
+        _mover.SetRelay(buckledEntity, uid);
+        rider.Vehicle = uid;
+
+        // Update appearance stuff, add actions
+        UpdateBuckleOffset(uid, Transform(uid), component);
+        if (TryComp<InputMoverComponent>(uid, out var mover))
+            UpdateDrawDepth(uid, GetDrawDepth(Transform(uid), component, mover.RelativeRotation.Degrees));
+
+        if (TryComp<ActionsComponent>(buckledEntity, out var actions) &&
+            TryComp<UnpoweredFlashlightComponent>(uid, out var flashlight))
+        {
+            _actionsSystem.AddAction(
+                buckledEntity,
+                ref flashlight.ToggleActionEntity,
+                flashlight.ToggleAction,
+                uid,
+                actions);
+        }
+
+        if (component.HornSound != null)
+        {
+            _actionsSystem.AddAction(buckledEntity, ref component.HornActionEntity, component.HornAction, uid, actions);
+        }
+
+        _joints.ClearJoints(buckledEntity);
+
+        _tagSystem.AddTag(uid, "DoorBumpOpener");
+    }
+
+    private void OnUnbuckled(EntityUid uid, VehicleComponent component, ref UnbuckledEvent args)
+    {
+        var buckledEntity = args.Buckle.Owner;
+
+        // Clean up actions and virtual items
+        _actionsSystem.RemoveProvidedActions(buckledEntity, uid);
+
+        if (component.UseHand == true)
+            _virtualItemSystem.DeleteInHandsMatching(buckledEntity, uid);
 
         // Entity is no longer riding
-        RemComp<RiderComponent>(args.BuckledEntity);
-        RemComp<RelayInputMoverComponent>(args.BuckledEntity);
+        RemComp<RiderComponent>(buckledEntity);
+        RemComp<RelayInputMoverComponent>(buckledEntity);
         _tagSystem.RemoveTag(uid, "DoorBumpOpener");
 
         Appearance.SetData(uid, VehicleVisuals.HideRider, false);
         // Reset component
         component.Rider = null;
-        Dirty(component);
+        Dirty(uid, component);
     }
+
 
     /// <summary>
     /// This fires when the rider presses the honk action
@@ -202,8 +206,10 @@ public abstract partial class SharedVehicleSystem : EntitySystem
 
         component.HasKey = true;
 
-        var msg = Loc.GetString("vehicle-use-key",
-            ("keys", args.Entity), ("vehicle", uid));
+        var msg = Loc.GetString(
+            "vehicle-use-key",
+            ("keys", args.Entity),
+            ("vehicle", uid));
         if (_netManager.IsServer)
             _popupSystem.PopupEntity(msg, uid, args.OldParent, PopupType.Medium);
 
@@ -226,7 +232,11 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         _modifier.RefreshMovementSpeedModifiers(uid);
     }
 
-    private void OnRefreshMovementSpeedModifiers(EntityUid uid, VehicleComponent component, RefreshMovementSpeedModifiersEvent args)
+    private void OnRefreshMovementSpeedModifiers(
+        EntityUid uid,
+        VehicleComponent component,
+        RefreshMovementSpeedModifiersEvent args
+    )
     {
         if (!component.HasKey)
         {
@@ -303,7 +313,6 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         if (!TryComp<StrapComponent>(uid, out var strap))
             return;
 
-        // TODO: Strap should handle this but buckle E/C moment.
         var oldOffset = strap.BuckleOffset;
 
         strap.BuckleOffset = xform.LocalRotation.Degrees switch
@@ -316,13 +325,7 @@ public abstract partial class SharedVehicleSystem : EntitySystem
         };
 
         if (!oldOffset.Equals(strap.BuckleOffset))
-            Dirty(strap);
-
-        foreach (var buckledEntity in strap.BuckledEntities)
-        {
-            var buckleXform = Transform(buckledEntity);
-            _transform.SetLocalPositionNoLerp(buckleXform, strap.BuckleOffsetClamped);
-        }
+            Dirty(uid, strap);
     }
 
     private void OnGetAdditionalAccess(EntityUid uid, VehicleComponent component, ref GetAdditionalAccessEvent args)
@@ -359,6 +362,7 @@ public enum VehicleVisuals : byte
     /// What layer the vehicle should draw on (assumed integer)
     /// </summary>
     DrawDepth,
+
     /// <summary>
     /// Whether the wheels should be turning
     /// </summary>
@@ -369,6 +373,4 @@ public enum VehicleVisuals : byte
 /// <summary>
 /// Raised when someone honks a vehicle horn
 /// </summary>
-public sealed partial class HonkActionEvent : InstantActionEvent
-{
-}
+public sealed partial class HonkActionEvent : InstantActionEvent { }

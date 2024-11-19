@@ -177,14 +177,14 @@ public sealed partial class ChangelingSystem : EntitySystem
         chemicals += amount ?? 1 + comp.BonusChemicalRegen;
         comp.Chemicals = Math.Clamp(chemicals, 0, comp.MaxChemicals);
         Dirty(uid, comp);
-        _alerts.ShowAlert(uid, AlertType.ChangelingChemicals);
+        _alerts.ShowAlert(uid, comp.AlertChemicals);
     }
     private void UpdateBiomass(EntityUid uid, ChangelingComponent comp, float? amount = null)
     {
         comp.Biomass += amount ?? -1;
         comp.Biomass = Math.Clamp(comp.Biomass, 0, comp.MaxBiomass);
         Dirty(uid, comp);
-        _alerts.ShowAlert(uid, AlertType.ChangelingBiomass);
+        _alerts.ShowAlert(uid, comp.AlertBiomass);
 
         var random = (int) _rand.Next(1, 3);
 
