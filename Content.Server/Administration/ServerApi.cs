@@ -31,6 +31,8 @@ namespace Content.Server.Administration;
 /// </summary>
 public sealed partial class ServerApi : IPostInjectInit
 {
+    private static readonly List<Action<ServerApi>> EndpointRegistrationMethods = new(); //PIRATE
+
     private const string SS14TokenScheme = "SS14Token";
 
     private static readonly HashSet<string> PanicBunkerCVars =
@@ -81,6 +83,21 @@ public sealed partial class ServerApi : IPostInjectInit
         RegisterActorHandler(HttpMethod.Post, "/admin/actions/force_preset", ActionForcePreset);
         RegisterActorHandler(HttpMethod.Post, "/admin/actions/set_motd", ActionForceMotd);
         RegisterActorHandler(HttpMethod.Patch, "/admin/actions/panic_bunker", ActionPanicPunker);
+
+        RegisterAdditionalHandlers(); // PIRATE
+    }
+
+    private void RegisterAdditionalHandlers() // PIRATE
+    {
+        foreach (var register in EndpointRegistrationMethods)
+        {
+            register(this);
+        }
+    }
+
+    public static void RegisterEndpoint(Action<ServerApi> registration) // PIRATE
+    {
+        EndpointRegistrationMethods.Add(registration);
     }
 
     public void Initialize()
