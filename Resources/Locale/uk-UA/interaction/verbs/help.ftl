@@ -30,7 +30,7 @@ interaction-MakeSleepOther-success-target-popup = {THE($user)} засинає.
 interaction-MakeSleepOther-success-others-popup = {THE($user)} присипляє {THE($target)}.
 
 interaction-ShakeOther-name = Потисни руку
-interaction-ShakeOther-description = Потряси мішень.
+interaction-ShakeOther-description = Потряси ціль.
 interaction-ShakeOther-fail-self-popup = Вам якось не вдається потрясти {THE($target)}.
 interaction-ShakeOther-fail-target-popup = {THE($user)} якось не діє на вас.
 interaction-ShakeOther-success-self-popup = Ви берете і трясете {THE($target)}.
