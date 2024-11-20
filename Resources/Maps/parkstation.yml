@@ -40570,33 +40570,6 @@ entities:
     - type: Transform
       pos: -10.5,-9.5
       parent: 2
-- proto: CrystalNormality
-  entities:
-  - uid: 12353
-    components:
-    - type: Transform
-      pos: 43.692856,-28.36033
-      parent: 2
-  - uid: 12354
-    components:
-    - type: Transform
-      pos: 43.619904,-28.245667
-      parent: 2
-  - uid: 12355
-    components:
-    - type: Transform
-      pos: 43.328094,-28.41245
-      parent: 2
-  - uid: 12356
-    components:
-    - type: Transform
-      pos: 43.390625,-28.1727
-      parent: 2
-  - uid: 12357
-    components:
-    - type: Transform
-      pos: 43.567795,-28.527113
-      parent: 2
 - proto: CurtainsCyanOpen
   entities:
   - uid: 5565
@@ -80972,7 +80945,7 @@ entities:
         Вчора на станції PT-56-TR звірськи було вбито Ніана, особу котрого не встановлено. На місці злочину було знайдено расиські книги, а кровю постраждалого було написано слово "смерть". Офіційно командування станції не висунуло жодних версій хто вбивця, і які в нього мотиви.
 
 
-        Схожі вбивства інших рас вже ставалися на станціях: 
+        Схожі вбивства інших рас вже ставалися на станціях:
 
         FD-87-RW, GD-122-NB, FW-325-SC
 - proto: PaperArtifactAnalyzer
@@ -110263,16 +110236,6 @@ entities:
     components:
     - type: Transform
       pos: -22.463308,9.296156
-      parent: 2
-- proto: WeaponPistolN1984Nonlethal
-  entities:
-  - uid: 17006
-    components:
-    - type: MetaData
-      desc: Цей пістолет побував в руках Ніколаса...
-      name: Literally 1984
-    - type: Transform
-      pos: 27.644035,30.422106
       parent: 2
 - proto: WeaponProtoKineticAccelerator
   entities:
