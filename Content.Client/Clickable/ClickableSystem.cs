@@ -87,7 +87,7 @@ public sealed class ClickableSystem : EntitySystem
         // Next check each individual sprite layer using automatically computed click maps.
         foreach (var spriteLayer in sprite.AllLayers)
         {
-            if (spriteLayer is not SpriteComponent.Layer layer)
+            if (spriteLayer is not SpriteComponent.Layer layer || !_sprites.IsVisible(layer))
             {
                 continue;
             }
