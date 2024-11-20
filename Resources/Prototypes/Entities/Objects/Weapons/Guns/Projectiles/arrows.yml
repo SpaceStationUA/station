@@ -63,8 +63,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowRegular
-  name: arrow
-  description: You can feel the power of the steppe within you.
+  name: "стрілка"
+  description: "Ви можете відчути силу степу всередині себе."
   components:
   - type: Sprite
     layers:
@@ -84,8 +84,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowImprovised
-  name: glass shard arrow
-  description: The greyshirt's preferred projectile.
+  name: "стріла з осколків скла"
+  description: "Улюблений снаряд сірої сорочки."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi

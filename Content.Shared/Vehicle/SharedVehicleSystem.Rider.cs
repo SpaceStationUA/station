@@ -29,7 +29,7 @@ public abstract partial class SharedVehicleSystem
     {
         if (args.BlockingEntity == component.Vehicle)
         {
-            _buckle.TryUnbuckle(uid, uid, true);
+            _buckleSystem.TryUnbuckle(uid, uid, true);
         }
     }
 

@@ -12,3 +12,4 @@ damage-examine-type = Він виконує наступні функції [col
 damage-value = - [color=red]{$amount}[/color] одиниць [color=yellow]{$type}[/color].
 
 damage-melee-heavy = силова атака
+damage-melee-heavy-stamina-cost = [color=cyan]{$type}[/color] коштує [color=orange]{$cost}[/color] [color=yellow]витривалості[/color].
