@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionSmite
-  name: "Удар!"
-  description: "Миттєво знаходить ціль."
+  name: Smite
+  description: Instantly gibs a target.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction

@@ -1,8 +1,8 @@
 - type: entity
-  name: "система глобального позиціонування"
+  name: global positioning system
   parent: BaseItem
   id: HandheldGPSBasic
-  description: "Допомагає загубленим космонавтам знаходити шлях через планети з 2016 року."
+  description: Helping lost spacemen find their way through the planets since 2016.
   components:
   - type: Sprite
     sprite: Objects/Devices/gps.rsi

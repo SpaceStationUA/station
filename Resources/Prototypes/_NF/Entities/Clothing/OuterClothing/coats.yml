@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterCoatHoSTrench
   id: ClothingOuterCoatBHTrench
-  name: "бронежилет мисливця за головами"
-  description: "Пальто з куленепробивним сплавом для додаткового захисту та стилю для тих, хто має харизматичну зовнішність."
+  name: "bounty hunter's flak trenchcoat"
+  description: A greatcoat enhanced with a bullet proof alloy for some extra protection and style for those with a charismatic presence.
   components:
   - type: Armor # ClothingOuterArmorBulletproof stats
     modifiers:
@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatBishop
-  name: "єпископські ризи"
-  description: "Золоті нитки насправді не зроблені із золота. Облом."
+  name: bishop's robes
+  description: Golden threads aren't actually made of gold. Bummer.
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Misc/bishop_robe.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingOuterBaseToggleable
   id: ClothingOuterCoatWitchHunter
-  name: "плащ мисливця на відьом"
-  description: "Ще краще виглядає під постійним дощем зі штормовим вітром."
+  name: witch hunter's coat
+  description: Looks even better under constant rain with storm wind.
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Misc/witch_hunter_coat.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingOuterBaseToggleable
   id: ClothingOuterCoatCardinal
-  name: "кардинальська мантія"
-  description: "Ніхто не очікує іспанської інквізиції!"
+  name: cardinal's coat
+  description: Nobody expects the spanish inquisition!
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Misc/cardinal_robe.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: [ ClothingOuterStorageBase, ClothingOuterArmorBulletproof ]
   id: ClothingOuterCoatCultJanitor
-  name: "броньовані мантії лідера секти"
-  description: "Королівські шати, що пасують лідеру культу."
+  name: cult leader armored robes
+  description: Regal robes fitting for a cult leader.
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/cult_janitor_robe.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: [ ClothingOuterStorageToggleableBase, ClothingOuterArmorBasic ]
   id: ClothingOuterCoatBloodCultRobes
-  name: "культовий одяг"
-  description: "Не існує культу без класичних червоно-малинових культових шат з бронежилетами."
+  name: cult robes
+  description: There's no cult without classic red/crimson cult robes with bulletproof vests.
   suffix: Frontier
   components:
   - type: Sprite
