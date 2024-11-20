@@ -1,7 +1,7 @@
 - type: entity
   id: ActionMageShop
-  name: "Магазин"
-  description: "Відкриває магазин здібностей."
+  name: Магазин
+  description: Відкриває магазин здібностей.
   noSpawn: true
   components:
   - type: InstantAction
@@ -10,8 +10,8 @@
 
 - type: entity
   id: ActionMageBlink
-  name: "Телепорт"
-  description: "Телепортуйтеся в вибране місце."
+  name: Телепорт
+  description: Телепортуйтеся в вибране місце.
   noSpawn: true
   components:
   - type: WorldTargetAction
@@ -31,8 +31,8 @@
 
 - type: entity
   id: ActionMageDash
-  name: "Слабкий телепорт"
-  description: "Телепортуйтеся у місце що бачиш без перешкод"
+  name: Слабкий Телепорт
+  description: Телепортуйтеся у місце що бачиш без перешкод
   noSpawn: true
   components:
   - type: WorldTargetAction
@@ -52,8 +52,8 @@
 
 - type: entity
   id: MageAbilityKnock
-  name: "Стук"
-  description: "Це заклинання відкриває сусідні двері."
+  name: Стук
+  description: Це заклинання відкриває сусідні двері.
   noSpawn: true
   components:
   - type: InstantAction
@@ -69,8 +69,8 @@
 
 - type: entity
   id: MageAbilityFireball
-  name: "вогняна куля"
-  description: "Випускає вибухову вогняну кулю в напрямку клацання."
+  name: вогняна куля
+  description: Випускає вибухову вогняну кулю в напрямку клацання.
   noSpawn: true
   components:
   - type: WorldTargetAction
@@ -91,8 +91,8 @@
 
 - type: entity
   id: MageAbilityIcicle
-  name: "Бурулька"
-  description: "бурулька."
+  name: Бурулька
+  description: бурулька.
   noSpawn: true
   components:
   - type: WorldTargetAction
@@ -113,8 +113,8 @@
 
 - type: entity
   id: MageAbilityEmp
-  name: "ЕМ Спалах"
-  description: "Вимкніть будь-які сусідні технології за допомогою електромагнітного імпульсу."
+  name: EM Спалах
+  description: Вимкніть будь-які сусідні технології за допомогою електромагнітного імпульсу.
   noSpawn: true
   components:
   - type: InstantAction
@@ -130,8 +130,8 @@
 
 - type: entity
   id: MageAbilityLightning
-  name: "Блискавка"
-  description: "Сила Теслі!"
+  name: Блискавка
+  description: Сила Тесли!
   noSpawn: true
   components:
   - type: InstantAction
@@ -150,8 +150,8 @@
 
 - type: entity
   id: MageAbilityBlind
-  name: "Сліпий"
-  description: "Тимчасово засліплює ціль."
+  name: Blind
+  description: Temporarily blinds a target.
   noSpawn: true
   components:
   - type: EntityTargetAction
@@ -173,8 +173,8 @@
 
 - type: entity
   id: MageAbilitySmoke
-  name: "Дим"
-  description: "Це заклинання створює густу димову завісу навколо заклинателя"
+  name: Smoke
+  description: This spell creates a thick smoke screen around the caster
   noSpawn: true
   components:
   - type: InstantAction
@@ -189,8 +189,8 @@
 
 - type: entity
   id: MageAbilitySwap
-  name: "Своп"
-  description: "Обмін позиціями з метою"
+  name: Swap
+  description: Swap positions with a target
   noSpawn: true
   components:
   - type: EntityTargetAction
@@ -213,8 +213,8 @@
 
 - type: entity
   id: MageAbilityMindSwap
-  name: "Своп"
-  description: "Обмін позиціями з метою"
+  name: Swap
+  description: Swap positions with a target
   noSpawn: true
   components:
   - type: EntityTargetAction
@@ -237,8 +237,8 @@
 
 - type: entity
   id: MageAbilityHeal
-  name: "Зцілити"
-  description: "Зцілює того, на кого націлився. Націльте себе на самозцілення"
+  name: Heal
+  description: Heals whoever you target. Target yourself to self-heal
   noSpawn: true
   components:
   - type: EntityTargetAction
@@ -261,8 +261,8 @@
 
 - type: entity
   id: MageAbilityAnimateDead
-  name: "Одухотворені мерці"
-  description: "Це заклинання змушує скелети з усіх довколишніх трупів допомагати вам"
+  name: Animate Dead
+  description: This spell forces the skeleton out of all nearby corpses to assist you
   noSpawn: true
   components:
   - type: InstantAction
@@ -277,8 +277,8 @@
 
 - type: entity
   id: MageMagicMissile
-  name: "Магічна куля"
-  description: "Час ставати!"
+  name: Magic Missile
+  description: Fires an orb that stuns on hit towards the clicked location.
   noSpawn: true
   components:
   - type: WorldTargetAction
@@ -299,8 +299,8 @@
 
 - type: entity
   id: MageIceBurst
-  name: "Магічна куля"
-  description: "Час ставати!"
+  name: Magic Missile
+  description: Fires an orb that stuns on hit towards the clicked location.
   noSpawn: true
   components:
   - type: WorldTargetAction
@@ -321,8 +321,8 @@
 
 - type: entity
   id: MagicTeslaBall
-  name: "Куля Тесли"
-  description: "Випускає міні-тесла-кулю в напрямку натиснутої локації"
+  name: Tesla Ball
+  description: Fires a mini tesla ball towards the clicked location
   noSpawn: true
   components:
   - type: WorldTargetAction
