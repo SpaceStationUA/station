@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: Cane
-  name: "тростина"
-  description: "Дерев'яний ціпок."
+  name: cane
+  description: A wooden cane.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cane.rsi
@@ -27,10 +27,10 @@
     delay: 1
 
 - type: entity
-  name: "тростинне лезо"
+  name: cane blade
   parent: BaseItem
   id: CaneBlade
-  description: "Гостре лезо з руків'ям у формі тростини."
+  description: A sharp blade with a cane shaped hilt.
   components:
   - type: Sharp
   - type: Sprite

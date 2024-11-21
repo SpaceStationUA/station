@@ -1,33 +1,33 @@
 - type: construction
   id: ClosetSteel
-  name: "шафа"
+  name: closet
   graph: ClosetSteel
   startNode: start
   targetNode: done
   category: construction-category-storage
-  description: "Високий сталевий ящик, який неможливо замкнути."
+  description: A tall steel box that cannot be locked.
   icon: { sprite: Structures/Storage/closet.rsi, state: generic_icon }
   objectType: Structure
 
 - type: construction
   id: ClosetSteelSecure
-  name: "безпечна шафа"
+  name: secure closet
   graph: ClosetSteelSecure
   startNode: start
   targetNode: done
   category: construction-category-storage
-  description: "Високий сталевий ящик, який можна замкнути."
+  description: A tall steel box that can be locked.
   icon: { sprite: Structures/Storage/closet.rsi, state: secure_icon }
   objectType: Structure
 
 - type: construction
   id: ClosetWall
-  name: "настінна шафа"
+  name: wall closet
   graph: ClosetWall
   startNode: start
   targetNode: done
   category: construction-category-storage
-  description: "Стандартний контейнер для зберігання Нанотрасену, тепер на стінах."
+  description: A standard-issue Nanotrasen storage unit, now on walls.
   icon: { sprite: Structures/Storage/wall_locker.rsi, state: generic_icon }
   objectType: Structure
   placementMode: SnapgridCenter
