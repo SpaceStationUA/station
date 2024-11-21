@@ -1,0 +1,18 @@
+- type: entity
+  id: PuddleMucin
+  parent: PuddleTemporary
+  suffix: Mucin
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      puddle:
+        maxVol: 1000
+        reagents:
+        - ReagentId: Mucin
+          Quantity: 20
+  - type: Propulsion
+    walkSpeedModifier: 2.0
+    sprintSpeedModifier: 2.0
+    whitelist:
+      components:
+        - SnailSpeed

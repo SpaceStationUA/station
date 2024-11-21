@@ -87,8 +87,9 @@ public sealed class ThirstSystem : EntitySystem
         SetThirst(uid, component, component.ThirstThresholds[ThirstThreshold.Okay]);
     }
 
-    private ThirstThreshold GetThirstThreshold(ThirstComponent component, float amount)
+    private ThirstThreshold GetThirstThreshold(ThirstComponent component, float? amount = null) // Snails
     {
+        amount ??= component.CurrentThirst; // Snails
         ThirstThreshold result = ThirstThreshold.Dead;
         var value = component.ThirstThresholds[ThirstThreshold.OverHydrated];
         foreach (var threshold in component.ThirstThresholds)
@@ -231,4 +232,15 @@ public sealed class ThirstSystem : EntitySystem
             UpdateEffects(uid, thirst);
         }
     }
+
+    //SNAILS
+    /// a check that returns if the entity is below a thirst threshold (used in Excretion system)
+	public bool IsThirstBelowState(EntityUid uid, ThirstThreshold threshold, float? drink = null, ThirstComponent? comp = null)
+	{
+		if (!Resolve(uid, ref comp))
+			return false; // If entity does not have the ability to be thirsty, don't check it.
+
+		return GetThirstThreshold (comp) < threshold;
+	}
+
 }
