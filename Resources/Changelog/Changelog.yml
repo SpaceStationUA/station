@@ -7514,72 +7514,62 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1230
 - author: VMSolidus
   changes:
-    - type: Fix
-      message: >-
-        Power Attacks now correctly apply a penalty on swing speed, and are no
-        longer faster than left clicking.
+  - type: Fix
+    message: >-
+      Силові атаки тепер правильно застосовують штраф до швидкості замаху і більше не швидші за лівий клік.
   id: 6532
   time: '2024-11-20T03:47:45.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1252
 - author: Mnemotechnician
   changes:
-    - type: Tweak
-      message: >-
-        Tweaked the descriptions of most Wizden traits to be more vivid and
-        descriptive.
+  - type: Tweak
+    message: >-
+      Відкориговано описи більшості рис Wizden, щоб вони були більш яскравими та описовими.
   id: 6533
   time: '2024-11-22T01:01:33.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1260
 - author: VMSolidus
   changes:
-    - type: Add
-      message: >-
-        Five new functions for the Trait System, AddArmor, PushDescription,
-        ModifyMobThresholds, AddSolutionContainer,  and ModifyStamina.
-    - type: Tweak
-      message: >-
-        CyberEyes Basic System has been split, now Flash Protection is a
-        separate module. 
-    - type: Add
-      message: >-
-        Dermal Armor no longer replaces your original species damage
-        resistances. It now stacks multiplicatively with your original
-        resistances. 
-    - type: Tweak
-      message: Dermal Armor can now be taken by any species, not just Humans.
-    - type: Add
-      message: >-
-        Dermal Armor, and Bionic Arms can now be revealed by a close
-        examination. Shift click on someone within touching distance will reveal
-        if they have these "Obvious" cyberware.
+  - type: Add
+    message: >-
+      П'ять нових функцій для Системи Рис: AddArmor, PushDescription, ModifyMobThresholds, AddSolutionContainer та ModifyStamina.
+  - type: Tweak
+    message: >-
+      Базову систему CyberEyes було розділено, тепер Flash Protection — це окремий модуль.
+  - type: Add
+    message: >-
+      Шкірний бронежилет більше не замінює початкові опори до пошкоджень вашого виду. Тепер він множиться на ваші початкові опори.
+  - type: Tweak
+    message: Шкірний бронежилет тепер може бути взятий будь-яким видом, а не лише людьми.
+  - type: Add
+    message: >-
+      Шкірний бронежилет та Біонічні Руки тепер можуть бути виявлені при близькому огляді. Shift-клік по комусь у зоні дотику покаже, чи мають вони цей "Очевидний" кібернетичний імплантат.
   id: 6534
   time: '2024-11-22T01:01:46.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1253
 - author: Mnemotechnician
   changes:
-    - type: Add
-      message: >-
-        You can now touch one anomaly scanner with another to copy the anomaly
-        scan data from it.
+  - type: Add
+    message: >-
+      Тепер ви можете торкнутися одного сканера аномалій іншим, щоб скопіювати дані сканування аномалій з нього.
   id: 6535
   time: '2024-11-22T01:02:13.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1250
 - author: sleepyyapril
   changes:
-    - type: Fix
-      message: >-
-        Fixed chair visuals drawing depth wrongly if you sat in a north-facing
-        chair.
-    - type: Fix
-      message: Fixed buckling doing several buckles each time you did one.
-    - type: Fix
-      message: Fixed the magic mirror.
-    - type: Fix
-      message: Fixed beds re-positioning you every few seconds.
-    - type: Fix
-      message: Fixed E not opening containers that are in another container.
-    - type: Fix
-      message: Fixed disposal systems not flushing or ejecting properly.
+  - type: Fix
+    message: >-
+      Виправлено неправильне відображення глибини крісел, якщо ви сиділи в кріслі, повернутому на північ.
+  - type: Fix
+    message: Виправлено багаторазове приковування під час однієї дії.
+  - type: Fix
+    message: Виправлено магічне дзеркало.
+  - type: Fix
+    message: Виправлено перепозиціонування вас на ліжках кожні кілька секунд.
+  - type: Fix
+    message: Виправлено, що кнопка E не відкривала контейнери, які знаходяться в іншому контейнері.
+  - type: Fix
+    message: Виправлено, що системи утилізації не промивали або не викидали належним чином.
   id: 6536
   time: '2024-11-22T01:03:22.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1256
