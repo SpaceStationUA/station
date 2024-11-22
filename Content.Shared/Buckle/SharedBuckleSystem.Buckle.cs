@@ -56,9 +56,7 @@ public abstract partial class SharedBuckleSystem
     }
 
     private void OnBuckleComponentShutdown(Entity<BuckleComponent> ent, ref ComponentShutdown args)
-    {
-        Unbuckle(ent!, null);
-    }
+        => Unbuckle(ent!, null);
 
     #region Pulling
 
@@ -361,13 +359,12 @@ public abstract partial class SharedBuckleSystem
         SetBuckledTo(buckle, strap!);
         Appearance.SetData(strap, StrapVisuals.State, true);
         Appearance.SetData(buckle, BuckleVisuals.Buckled, true);
-
         _rotationVisuals.SetHorizontalAngle(buckle.Owner, strap.Comp.Rotation);
 
         var xform = Transform(buckle);
         var coords = new EntityCoordinates(strap, strap.Comp.BuckleOffset);
-        _transform.SetCoordinates(buckle, xform, coords, rotation: Angle.Zero);
 
+        _transform.SetCoordinates(buckle, xform, coords, rotation: Angle.Zero);
         _joints.SetRelay(buckle, strap);
 
         switch (strap.Comp.Position)
