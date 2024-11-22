@@ -1,3 +1,3 @@
-loadout-description-LoadoutMedicalUniformJumpskirtSenior = Спідниця для кращих з кращих.
-loadout-description-LoadoutMedicalUniformJumpsuitSenior = Костюм для кращих з кращих.
-loadout-description-LoadoutMedicalHeadBeretSeniorPhysician = Берет для кращих з кращих.
+loadout-description-LoadoutMedicalUniformJumpskirtSenior = Спідниця, гідна найкращих із найкращих.
+loadout-description-LoadoutMedicalUniformJumpsuitSenior = Костюм, гідний найкращих із найкращих.
+loadout-description-LoadoutMedicalHeadBeretSeniorPhysician = Берет, гідний найкращих із найкращих.
