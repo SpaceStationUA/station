@@ -1,8 +1,8 @@
 - type: entity
-  name: jug
+  name: "бутль"
   parent: BaseItem
   id: Jug
-  description: Used to contain a very large amount of chemicals or solutions. Chugging is extremely ill-advised.
+  description: "Використовується для зберігання дуже великої кількості хімічних речовин або розчинів. Вживати його вкрай нерозумно."
   components:
     - type: SolutionContainerManager
       solutions:
@@ -86,7 +86,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (carbon)
+  name: "бутль (вуглець)"
   id: JugCarbon
   categories: [ HideSpawnMenu ]
   components:
@@ -101,7 +101,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (iodine)
+  name: "бутль (йод)"
   id: JugIodine
   categories: [ HideSpawnMenu ]
   components:
@@ -116,7 +116,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (fluorine)
+  name: "бутль (фтор)"
   id: JugFluorine
   categories: [ HideSpawnMenu ]
   components:
@@ -131,7 +131,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (chlorine)
+  name: "бутль (хлорка)"
   id: JugChlorine
   categories: [ HideSpawnMenu ]
   components:
@@ -146,7 +146,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (aluminium)
+  name: "бутль (алюміній)"
   id: JugAluminium
   categories: [ HideSpawnMenu ]
   components:
@@ -161,7 +161,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (phosphorus)
+  name: "бутль (фосфор)"
   id: JugPhosphorus
   categories: [ HideSpawnMenu ]
   components:
@@ -176,7 +176,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (sulfur)
+  name: "бутль (сірка)"
   id: JugSulfur
   categories: [ HideSpawnMenu ]
   components:
@@ -191,7 +191,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (silicon)
+  name: "бутль (кремній)"
   id: JugSilicon
   categories: [ HideSpawnMenu ]
   components:
@@ -206,7 +206,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (hydrogen)
+  name: "бутль (водень)"
   id: JugHydrogen
   categories: [ HideSpawnMenu ]
   components:
@@ -221,7 +221,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (lithium)
+  name: "бутль (літій)"
   id: JugLithium
   categories: [ HideSpawnMenu ]
   components:
@@ -236,7 +236,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (sodium)
+  name: "бутль (натрій)"
   id: JugSodium
   categories: [ HideSpawnMenu ]
   components:
@@ -251,7 +251,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (potassium)
+  name: "бутль (калій)"
   id: JugPotassium
   categories: [ HideSpawnMenu ]
   components:
@@ -266,7 +266,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (radium)
+  name: "бутль (радій)"
   id: JugRadium
   categories: [ HideSpawnMenu ]
   components:
@@ -281,7 +281,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (iron)
+  name: "бутль (залізо)"
   id: JugIron
   categories: [ HideSpawnMenu ]
   components:
@@ -296,7 +296,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (copper)
+  name: "бутль (мідь)"
   id: JugCopper
   categories: [ HideSpawnMenu ]
   components:
@@ -311,7 +311,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (gold)
+  name: "бутль (золото)"
   id: JugGold
   categories: [ HideSpawnMenu ]
   components:
@@ -326,7 +326,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (mercury)
+  name: "бутль (ртуть)"
   id: JugMercury
   categories: [ HideSpawnMenu ]
   components:
@@ -341,7 +341,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (silver)
+  name: "бутль (срібло)"
   id: JugSilver
   categories: [ HideSpawnMenu ]
   components:
@@ -356,7 +356,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (ethanol)
+  name: "бутль (етанол)"
   id: JugEthanol
   categories: [ HideSpawnMenu ]
   components:
@@ -371,7 +371,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (sugar)
+  name: "бутль (цукор)"
   id: JugSugar
   categories: [ HideSpawnMenu ]
   components:
@@ -386,7 +386,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (nitrogen)
+  name: "бутль (азот)"
   id: JugNitrogen
   categories: [ HideSpawnMenu ]
   components:
@@ -401,7 +401,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (oxygen)
+  name: "бутль (кисень)"
   id: JugOxygen
   categories: [ HideSpawnMenu ]
   components:
@@ -416,7 +416,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (Plant-B-Gone)
+  name: "бутль (Plant-B-Gone)"
   id: JugPlantBGone
   categories: [ HideSpawnMenu ]
   components:
@@ -431,7 +431,7 @@
 
 - type: entity
   parent: Jug
-  name: jug (welding fuel)
+  name: "бутль (зварювальне паливо)"
   id: JugWeldingFuel
   categories: [ HideSpawnMenu ]
   components:
