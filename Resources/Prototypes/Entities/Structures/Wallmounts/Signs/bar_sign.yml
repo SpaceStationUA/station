@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseBarSign
   parent: BaseStructure
-  name: "барна вивіска"
+  name: bar sign
   abstract: true
   components:
   - type: MeleeSound
@@ -29,7 +29,7 @@
 - type: entity
   parent: BaseBarSign
   id: BarSign
-  name: "барна вивіска"
+  name: bar sign
   suffix: Random
 
 # Missing appearance components & various other sprite issues.
@@ -51,8 +51,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignComboCafe
-  name: "Кафе \"Комбо"
-  description: "Відомий по всій системі своїми абсолютно нетворчими поєднаннями напоїв."
+  name: Combo Cafe
+  description: Renowned system-wide for their utterly uncreative drink combinations.
   components:
   - type: BarSign
     current: ComboCafe
@@ -60,8 +60,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignEmergencyRumParty
-  name: "Екстрена ромова вечірка"
-  description: "Нещодавно переліцензований після тривалого закриття."
+  name: Emergency Rum Party
+  description: Recently relicensed after a long closure.
   components:
   - type: BarSign
     current: EmergencyRumParty
@@ -69,8 +69,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignLV426
-  name: "LV426"
-  description: "Пияцтво з модними масками для обличчя явно важливіше, ніж відвідування медпункту."
+  name: LV426
+  description: Drinking with fancy facemasks is clearly more important than going to medbay.
   components:
   - type: BarSign
     current: LV426
@@ -78,8 +78,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignMaidCafe
-  name: "Кафе \"Покоївка"
-  description: "Ласкаво просимо назад, хазяїне!"
+  name: Maid Cafe
+  description: Welcome back, master!
   components:
   - type: BarSign
     current: MaidCafe
@@ -87,8 +87,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignMalteseFalcon
-  name: "Мальтійський сокіл"
-  description: "Прокрути ще раз, Семе."
+  name: Maltese Falcon
+  description: Play it again, sam.
   components:
   - type: BarSign
     current: MalteseFalcon
@@ -96,8 +96,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignOfficerBeersky
-  name: "Офіцере Бірський"
-  description: "Чоловіче, з'їж хуй, ці напої чудові."
+  name: Officer Beersky
+  description: Man eat a dong, these drinks are great.
   components:
   - type: BarSign
     current: OfficerBeersky
@@ -105,8 +105,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignRobustaCafe
-  name: "Кафе \"Робуста"
-  description: "5 років беззаперечно утримує рекорд \"Найсмертоносніших бійок\"."
+  name: Robusta Cafe
+  description: Holder of the 'Most Lethal Barfights' record 5 years uncontested.
   components:
   - type: BarSign
     current: RobustaCafe
@@ -114,8 +114,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheAleNath
-  name: "Але Натх"
-  description: "Гаразд, приятелю. Здається, ти вже перебрав. Час ловити таксі."
+  name: The Ale Nath
+  description: All right, buddy. I think you've had EI NATH. Time to get a cab.
   components:
   - type: BarSign
     current: TheAleNath
@@ -123,8 +123,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheBirdCage
-  name: "Пташина клітка"
-  description: "Гав-гав!"
+  name: The Bird Cage
+  description: Caw caw!
   components:
   - type: BarSign
     current: TheBirdCage
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheCoderbus
-  name: "Coderbus"
-  description: "Дуже суперечливий бар, відомий своїм широким асортиментом напоїв, що постійно змінюються."
+  name: The Coderbus
+  description: A very controversial bar known for its wide variety of constantly-changing drinks.
   components:
   - type: BarSign
     current: TheCoderbus
@@ -141,8 +141,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheDrunkCarp
-  name: "П'яний короп"
-  description: "Не пийте і не купайтеся."
+  name: The Drunk Carp
+  description: Don't drink and swim.
   components:
   - type: BarSign
     current: TheDrunkCarp
@@ -150,8 +150,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignEngineChange
-  name: "Заміна двигуна"
-  description: "Все ще чекаю."
+  name: The Engine Change
+  description: Still waiting.
   components:
   - type: BarSign
     current: EngineChange
@@ -159,8 +159,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheHarmbaton
-  name: "Естафета"
-  description: "Чудова їдальня як для співробітників служби безпеки, так і для пасажирів."
+  name: The Harmbaton
+  description: A great dining experience for both security members and passengers.
   components:
   - type: BarSign
     current: Harmbaton
@@ -168,8 +168,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheLightbulb
-  name: "Лампочка"
-  description: "Кафе, популярне серед молі та мофів. Одного разу воно було закрите на тиждень після того, як барменка використала нафталін, щоб захистити свій запасний одяг."
+  name: The Lightbulb
+  description: A cafe popular among moths and moffs. Once shut down for a week after the bartender used mothballs to protect her spare uniforms.
   components:
   - type: BarSign
     current: TheLightbulb
@@ -177,8 +177,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheLooseGoose
-  name: "The Loose Goose"
-  description: "Пийте, поки не знудить і/або не порушите закони реальності!"
+  name: The Loose Goose
+  description: Drink till you puke and/or break the laws of reality!
   components:
   - type: BarSign
     current: Goose
@@ -186,8 +186,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheNet
-  name: "Мережа"
-  description: "Здається, що ти просто занурюєшся в неї на кілька годин."
+  name: The Net
+  description: You just seem to get caught up in it for hours.
   components:
   - type: BarSign
     current: TheNet
@@ -195,8 +195,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheOuterSpess
-  name: "Зовнішній Шпесс"
-  description: "Цей бар насправді не знаходиться у відкритому космосі."
+  name: The Outer Spess
+  description: This bar isn't actually located in outer space.
   components:
   - type: BarSign
     current: TheOuterSpess
@@ -204,8 +204,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheSingulo
-  name: "The Singulo"
-  description: "Куди ходять люди, які не хочуть, щоб їх називали на ім'я."
+  name: The Singulo
+  description: Where people go that'd rather not be called by their name.
   components:
   - type: BarSign
     current: TheSingulo
@@ -213,8 +213,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignTheSun
-  name: "Сонце"
-  description: "Парадоксально яскраво для такого тінистого бару."
+  name: The Sun
+  description: Ironically bright for such a shady bar.
   components:
   - type: BarSign
     current: TheSun
@@ -222,8 +222,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignWiggleRoom
-  name: "Wiggle Room"
-  description: "У MoMMI з'явилися ходи."
+  name: Wiggle Room
+  description: MoMMIs got moves.
   components:
   - type: BarSign
     current: WiggleRoom
@@ -231,8 +231,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignZocalo
-  name: "Зокало"
-  description: "Раніше мешкав в Іспанії."
+  name: Zocalo
+  description: Anteriormente ubicado en Spessmerica.
   components:
   - type: BarSign
     current: Zocalo
@@ -240,8 +240,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignEmprah
-  name: "4 The Emprah"
-  description: "Його полюбляють фанатики, єретики і просто несповна розуму меценати."
+  name: 4 The Emprah
+  description: Enjoyed by fanatics, heretics, and brain-damaged patrons alike.
   components:
   - type: BarSign
     current: Emprah
@@ -249,8 +249,8 @@
 - type: entity
   parent: BaseBarSign
   id: BarSignSpacebucks
-  name: "Космобакси"
-  description: "Від них нікуди не дітися, навіть у космосі, і навіть після того, як ми почали називати їх \"спесо\"."
+  name: Spacebucks
+  description: You can't get away from them, even in space, and even after we started calling them 'spesos' instead.
   components:
   - type: BarSign
     current: Spacebucks

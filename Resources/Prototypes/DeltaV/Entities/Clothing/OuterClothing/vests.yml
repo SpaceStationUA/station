@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVestFlak
-  name: "бронежилет"
-  description: "Запилений і обвітрений бронежилет."
+  name: flak jacket
+  description: A dusty and weathered flak jacket.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Vests/flak.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVestFlakPress
-  name: "бронежилет (прес)"
-  description: "Бронежилет для репортерів, які працюють у зонах, уражених бородавками."
+  name: flak jacket (press)
+  description: A flak jacket for reporters in wartorn zones.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Vests/flakpress.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterClerkVest
-  name: "жилет клерка"
-  description: "шовковий пурпурний жилет з кишенькою для нотаріальної печатки."
+  name: clerk's vest
+  description: a silken magenta vest with a pocket to put your notary stamp.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Vests/clerkvest.rsi
