@@ -1,6 +1,7 @@
 ﻿using System.Linq;
 using Content.Server.Roles.Jobs;
 using Content.Server.WhiteDream.BloodCult.Gamerule;
+using Content.Shared.Mind;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Objectives.Components;
@@ -43,7 +44,12 @@ public sealed class KillTargetCultSystem : EntitySystem
 
     private string GetTitle(EntityUid target, string title)
     {
-        var targetName = MetaData(target).EntityName;
+        var targetName = "Unknown";
+        if (TryComp<MindComponent>(target, out var mind) && mind.CharacterName != null)
+        {
+            targetName = mind.CharacterName;
+        }
+
         var jobName = _job.MindTryGetJobName(target);
         return Loc.GetString(title, ("targetName", targetName), ("job", jobName));
     }
