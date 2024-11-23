@@ -330,3 +330,4 @@ reagent-effect-guidebook-smoke-area-reaction-effect = { $chance ->
         [1] створює
         *[other] створює
     } велику кількість диму
+reagent-effect-guidebook-purify-evil = Очищає від злих сил
