@@ -1,4 +1,5 @@
 using Content.Shared.Actions;
+using Content.Shared.Chat;
 using Robust.Shared.Audio;
 using Content.Shared.Magic;
 
@@ -31,4 +32,5 @@ public sealed partial class MageAnimateDeadSpellEvent : InstantActionEvent, ISpe
     [DataField("manaCost")]
     public float ManaCost = 20f;
 
+    public InGameICChatType ChatType { get; } = InGameICChatType.Speak;
 }

@@ -1,4 +1,5 @@
 ﻿using Content.Shared.Actions;
+using Content.Shared.Chat;
 using Robust.Shared.Audio;
 using Content.Shared.Magic;
 
@@ -30,4 +31,6 @@ public sealed partial class MageKnockSpellEvent : InstantActionEvent, ISpeakSpel
     /// </summary>
     [DataField("manaCost")]
     public float ManaCost = 10f;
+
+    public InGameICChatType ChatType { get; } = InGameICChatType.Speak;
 }

@@ -1,4 +1,5 @@
 using Content.Shared.Actions;
+using Content.Shared.Chat;
 using Content.Shared.Damage;
 using Content.Shared.Magic;
 
@@ -15,4 +16,6 @@ public sealed partial class MageHealSpellEvent : EntityTargetActionEvent, ISpeak
     /// </summary>
     [DataField("manaCost")]
     public float ManaCost = 20f;
+
+    public InGameICChatType ChatType { get; } = InGameICChatType.Speak;
 }

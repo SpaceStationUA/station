@@ -1,4 +1,5 @@
 using Content.Shared.Actions;
+using Content.Shared.Chat;
 using Content.Shared.Magic;
 
 namespace Content.Shared._Pirate.Mage.Events;
@@ -17,4 +18,5 @@ public sealed partial class MageMindSwapSpellEvent : EntityTargetActionEvent, IS
     [DataField("manaCost")]
     public float ManaCost = 20f;
 
+    public InGameICChatType ChatType { get; } = InGameICChatType.Speak;
 }

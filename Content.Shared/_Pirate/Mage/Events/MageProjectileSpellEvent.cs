@@ -1,4 +1,5 @@
 using Content.Shared.Actions;
+using Content.Shared.Chat;
 using Robust.Shared.Audio;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
@@ -27,5 +28,7 @@ public sealed partial class MageProjectileSpellEvent : WorldTargetActionEvent, I
     /// </summary>
     [DataField("manaCost")]
     public float ManaCost = 30f;
+
+    public InGameICChatType ChatType { get; } = InGameICChatType.Speak;
 
 }

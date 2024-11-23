@@ -1,4 +1,5 @@
 using Content.Shared.Actions;
+using Content.Shared.Chat;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
@@ -22,4 +23,6 @@ public sealed partial class MageDashSpellEvent : WorldTargetActionEvent, ISpeakS
     /// </summary>
     [DataField("manaCost")]
     public float ManaCost = 20f;
+
+    public InGameICChatType ChatType { get; } = InGameICChatType.Speak;
 }

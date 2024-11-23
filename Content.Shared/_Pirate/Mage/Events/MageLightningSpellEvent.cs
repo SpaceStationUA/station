@@ -1,4 +1,5 @@
 using Content.Shared.Actions;
+using Content.Shared.Chat;
 using Robust.Shared.Audio;
 using Content.Shared.Magic;
 using Content.Shared.DoAfter;
@@ -38,6 +39,8 @@ public sealed partial class MageLightningSpellEvent: InstantActionEvent, ISpeakS
     /// </summary>
     [DataField("manaCost")]
     public float ManaCost = 10f;
+
+    public InGameICChatType ChatType { get; } = InGameICChatType.Speak;
 
 }
 
