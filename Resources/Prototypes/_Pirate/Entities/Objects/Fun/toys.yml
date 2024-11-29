@@ -1,0 +1,130 @@
+# - type: entity
+#   parent: BasePlushie
+#   id: PlushieJester #Weh!
+#   name: jester plushie
+#   description: A dubious little creature getting up to mischief.
+#   components:
+#   - type: Sprite
+#     sprite: _Pirate/Objects/Fun/toys.rsi
+#     state: plushie_jester
+#   - type: EmitSoundOnUse
+#     sound:
+#       path: /Audio/_Pirate/Items/Toys/wehhelp.ogg
+#   - type: EmitSoundOnLand
+#     sound:
+#       path: /Audio/_Pirate/Items/Toys/wehhelp.ogg
+#   - type: EmitSoundOnActivate
+#     sound:
+#       path: /Audio/_Pirate/Items/Toys/wehhelp.ogg
+#   - type: MeleeWeapon
+#     soundHit:
+#       path: /Audio/_Pirate/Items/Toys/wehhelp.ogg
+
+- type: entity
+  parent: PlushieLizard
+  id: NFPlushieBotanist #Weh!
+  name: botanist plushie
+  description: You need food and it just wont stop making rainbow weed.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Fun/toys.rsi
+    state: plushie_botanist
+
+- type: entity
+  parent: PlushieLizard
+  id: NFPlushieEngineer #Weh!
+  name: engineer plushie
+  description: The poor thing is just sitting there with nothing to do! Give it a hug!
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Fun/toys.rsi
+    state: plushie_engineer
+
+- type: entity
+  parent: PlushieLizard
+  id: NFPlushieConstruction #Weh!
+  name: construction plushie
+  description: A work in progress. A shame it had to end this way.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Fun/toys.rsi
+    state: plushie_construction
+
+- type: entity
+  parent: PlushieLizard
+  id: NFPlushieCmo #Weh!
+  name: chief medical officer plushie
+  description: Just a weh away.
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Fun/toys.rsi
+    state: plushie_cmo
+
+- type: entity
+  parent: PlushieCarp
+  id: NFPlushieSharkMinnow
+  name: sharkminnow plushie
+  description: It's killed you! It's killed your friends! Now this source of PTSD is a Pretty Terrific Stuffed Doodad!
+  components:
+  - type: Sprite
+    sprite: _Pirate/Objects/Fun/sharkminnow.rsi
+    state: sharkminnowplush
+  - type: Item
+    heldPrefix: sharkminnowplush
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        shader: unshaded
+      right:
+      - state: inhand-right
+        shader: unshaded
+
+# - type: entity
+#   parent: BasePlushie
+#   id: PlushieJanitor
+#   name: janitor plushie
+#   description: The silent cleaner, the one that you dont hear say "Weh"!
+#   components:
+#   - type: Sprite
+#     sprite: _Pirate/Objects/Fun/toys.rsi
+#     state: plushie_janitor
+#   - type: EmitSoundOnUse
+#     sound:
+#       path: /Audio/_NF/Effects/silence.ogg
+#   - type: EmitSoundOnLand
+#     sound:
+#       path: /Audio/_NF/Effects/silence.ogg
+#   - type: EmitSoundOnActivate
+#     sound:
+#       path: /Audio/_NF/Effects/silence.ogg
+#   - type: MeleeWeapon
+#     soundHit:
+#       path: /Audio/_NF/Effects/silence.ogg
+#   - type: Tag
+#     tags:
+#     - Soap
+#   - type: Slippery
+#     paralyzeTime: 0.7
+#     launchForwardsMultiplier: 0.5
+#   - type: StepTrigger
+#     intersectRatio: 0.2
+#   - type: CollisionWake
+#     enabled: false
+#   - type: Physics
+#     bodyType: Dynamic
+#   - type: Fixtures
+#     fixtures:
+#       slips:
+#         shape:
+#           !type:PhysShapeAabb
+#           bounds: "-0.4,-0.3,0.4,0.3"
+#         layer:
+#         - SlipLayer
+#         hard: false
+#       fix1:
+#         shape:
+#           !type:PhysShapeAabb
+#           bounds: "-0.4,-0.3,0.4,0.3"
+#         density: 10
+#         mask:
+#         - ItemMask
