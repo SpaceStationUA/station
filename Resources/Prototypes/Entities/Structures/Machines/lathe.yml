@@ -402,6 +402,7 @@
       - WeaponLaserCannon
       - WeaponLaserCarbine
       - WeaponXrayCannon
+      - RapidSyringeGun # Goobstation
       - WeaponEnergyGun       # DeltaV - Energy Gun
       - WeaponEnergyGunMini   # DeltaV - Miniature Energy Gun
       - WeaponEnergyGunPistol # DeltaV - PDW-9 Energy Pistol
@@ -813,6 +814,7 @@
       - MagazineBoxSpecialPractice
       - SpeedLoaderSpecial
       - MagazinePistolSpecial
+      - SyringeGun #Goobstation
     dynamicRecipes:
       - BolaEnergy
       - BoxBeanbag
@@ -1021,6 +1023,7 @@
       - Saw
       - Hemostat
       - ClothingEyesGlassesChemical
+      - SyringeGun #Goobstation
     dynamicRecipes:
       - ChemicalPayload
       - CryostasisBeaker
@@ -1029,6 +1032,7 @@
       - ClothingEyesHudMedical # Nyano
       - ChemicalPayload # Nyano
       - SyringeCryostasis
+      - RapidSyringeGun # Goobstation
   - type: Machine
     board: MedicalTechFabCircuitboard
   - type: StealTarget
