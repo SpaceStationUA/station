@@ -1,6 +1,7 @@
 using Content.Server.Body.Components;
 using Content.Server.Body.Systems;
 using Content.Server.Chemistry.Components;
+using Content.Shared.Chemistry.Components; // GoobStation
 using Content.Server.Chemistry.Containers.EntitySystems;
 using Content.Shared.Inventory;
 using Content.Shared.Popups;
@@ -38,6 +39,10 @@ public sealed class SolutionInjectOnCollideSystem : EntitySystem
 
     private void HandleEmbed(Entity<SolutionInjectOnEmbedComponent> entity, ref EmbedEvent args)
     {
+        // GoobStation Change Start
+        if (_tag.HasTag(entity, "Syringe") && !entity.Comp.Shot)
+            entity.Comp.PierceArmor = false; // This way syringes that are thrown still inject but do not pierce armor.
+        // GoobStation Change End
         DoInjection((entity.Owner, entity.Comp), args.Embedded, args.Shooter);
     }
 
