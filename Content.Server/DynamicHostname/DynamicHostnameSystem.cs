@@ -4,6 +4,8 @@ using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
 using Robust.Shared;
 using Robust.Shared.Configuration;
+using RoundStartedEvent = Content.Server.GameTicking.RoundStartedEvent;
+
 
 namespace Content.Server.DynamicHostname;
 
