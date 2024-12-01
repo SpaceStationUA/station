@@ -938,11 +938,8 @@ namespace Content.Server.Administration.Systems
             var sendsWebhook = _webhookUrl != string.Empty;
             if (sendsWebhook)
             {
-                if (!_messageQueues.TryGetValue(msg.UserId, out var queue))
-                {
-                    queue = new Queue<DiscordRelayedData>();
-                    _messageQueues[msg.UserId] = queue;
-                }
+                if (!_messageQueues.ContainsKey(msg.UserId))
+                    _messageQueues[msg.UserId] = new Queue<string>();
 
                 var str = msg.Text;
                 var unameLength = session.Name.Length;
@@ -951,22 +948,8 @@ namespace Content.Server.Administration.Systems
                 {
                     str = str[..(DescriptionMax - _maxAdditionalChars - unameLength)];
                 }
-
                 var nonAfkAdmins = GetNonAfkAdmins();
-                var messageParams = new AHelpMessageParams(
-                    session.Name,
-                    str,
-                    true,
-                    _gameTicker.RoundDuration().ToString("hh\\:mm\\:ss"),
-                    _gameTicker.RunLevel,
-                    playedSound: true,
-                    isDiscord: false,
-                    noReceivers: nonAfkAdmins.Count == 0
-                );
-
-                var discordMessage = GenerateAHelpMessage(messageParams);
-
-                queue.Enqueue(discordMessage);
+                _messageQueues[msg.UserId].Enqueue(GenerateAHelpMessage("", str, true, _gameTicker.RoundDuration().ToString("hh\\:mm\\:ss"), _gameTicker.RunLevel, playedSound: true, noReceivers: nonAfkAdmins.Count == 0));
             }
         }
     }
