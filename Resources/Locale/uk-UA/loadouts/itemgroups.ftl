@@ -749,3 +749,4 @@ character-item-group-LoadoutReporterMask = Репортерські маски
 character-item-group-LoadoutReporterOuter = Репортерський верхній одяг
 character-item-group-LoadoutReporterShoes = Взуття для репортерів
 character-item-group-LoadoutReporterUniforms = Репортерська уніформа # Риси - Мови
+character-item-group-LoadoutSalvageSpecialistWeapons = Шахтар Зброя #Медицина

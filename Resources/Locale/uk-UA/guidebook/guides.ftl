@@ -134,3 +134,5 @@ guide-entry-rules-sl-restricted-gear = Обмежена передача
 guide-entry-rules-sl-restricted-weapons = Зброя з обмеженим доступом
 guide-entry-rules-ban-types = Типи заборон
 guide-entry-rules-ban-durations = Заборона тривалості
+guide-entry-loadout-info = Гардероб
+guide-entry-loadout-eyes-eyepatch = Пов'язка на око
