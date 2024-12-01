@@ -11,8 +11,3 @@ bwoink-system-typing-indicator = {$players} {$count ->
 } ...
 
 admin-bwoink-play-sound = Бвінк?
-bwoink-system-rate-limited = Система: ви надсилаєте повідомлення занадто швидко.
-bwoink-system-player-disconnecting = від'єднався.
-bwoink-system-player-reconnecting = відновив зв'язок.
-bwoink-system-player-banned = було забанено: {$banReason}
-bwoink-title-none-selected = Не вибрано

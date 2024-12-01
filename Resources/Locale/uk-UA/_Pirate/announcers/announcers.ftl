@@ -1,3 +1,3 @@
-announcer-TikTok-name = Тіктокерка
-announcer-Stern-name = Зловісний
-announcer-MesaVox-name = ВОКС
+announcer-TikTok-name=Тіктокерка
+announcer-Stern-name=Sinister
+announcer-MesaVox-name=VOX

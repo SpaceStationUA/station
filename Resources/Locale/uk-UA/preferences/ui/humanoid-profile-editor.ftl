@@ -98,11 +98,3 @@ humanoid-profile-editor-loadouts-remove-unusable-button-tooltip = Якщо ви 
     Перед видаленням вбрання вас буде запитано про підтвердження.
 humanoid-profile-editor-customspeciename-label = Спеціальна назва виду:
 humanoid-profile-editor-reset-button = Перезавантаження
-humanoid-profile-editor-loadouts-customize = Налаштувати
-humanoid-profile-editor-loadouts-customize-name = Ім'я
-humanoid-profile-editor-loadouts-customize-description = Опис
-humanoid-profile-editor-loadouts-customize-color = Відтінок кольору
-humanoid-profile-editor-loadouts-customize-save = Зберегти
-humanoid-profile-editor-loadouts-guidebook-button-tooltip = Натисніть для отримання додаткової інформації
-humanoid-profile-editor-loadouts-heirloom = Реліквія
-humanoid-profile-editor-loadouts-heirloom-tooltip = Будь-яке завантаження, яке ви виберете як свою потенційну реліквію, буде випадковим чином вибрано під час спавну.

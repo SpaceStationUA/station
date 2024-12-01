@@ -90,6 +90,3 @@ research-technology-hardsuits-scaf = Армований скафандр
 
 research-technology-mechanized-salvaging = Механізоване шахтерство
 research-technology-advanced-bluespace = Поглиблене дослідження блакитного простору
-research-technology-advanced-treatment = Поглиблене лікування
-research-technology-high-end-surgery = Хірургічні інструменти високого класу
-research-technology-cybernetic-enhancements = Кібернетичні вдосконалення

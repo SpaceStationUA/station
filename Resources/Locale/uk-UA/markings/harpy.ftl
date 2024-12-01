@@ -72,8 +72,8 @@ marking-HarpyChestDefault-lower = Пахова білизна
 marking-HarpyLegsDefault = Пташині лапки
 marking-HarpyLegsDefault-thighs = Стегна
 
-marking-HarpyFeetDefault = Пташині ступні
-marking-HarpyFeetDefault-feet = Ступні
+marking-HarpyFeetDefault = Пташині лапки
+marking-HarpyFeetDefault-feet = Ноги
 marking-HarpyFeetDefault-talons = Пазурі
 
 marking-HarpyWingBat = Крилаті кажани (білокрилка)

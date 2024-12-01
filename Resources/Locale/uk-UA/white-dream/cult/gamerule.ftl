@@ -1,7 +1,7 @@
 blood-cult-title = Культ Крові  
 blood-cult-description = Найдавніше і найсильніше почуття людства — це страх, а найдавніший і найсильніший вид страху — це страх перед невідомим.  
 
-roles-antag-blood-cultist-name = Культист крові  
+roles-antag-blood-cultist-name = Культіст крові  
 roles-antag-blood-cultist-objective = Закликати Старого Бога Нар'Сі.  
 
 blood-cult-role-greeting = Геометрія Крові, Нар'Сі, відправила кількох своїх послідовників на космічну станцію.  
@@ -15,4 +15,4 @@ blood-cult-condition-draw = Обидві сторони були знищені.
 blood-cult-condition-failure = Екіпажу вдалося зупинити розрив реальності!  
 
 blood-cultists-list-start = Члени Геометрії Крові були:  
-blood-cultists-list-name = [color=White]{ $name }[/color] ([color=gray]{ $user}[/color])
+blood-cultists-list-name = [color=White]{ $name }[/color] ([color=gray]{ $user }[/color])
