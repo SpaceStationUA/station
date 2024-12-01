@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: CultRuneBase
-  name: based rune
+  name: "на основі руни"
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -27,7 +27,7 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneOffering
-  name: rune of offering
+  name: "руна підношення"
   components:
   - type: Sprite
     state: "offering"
@@ -38,7 +38,7 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneEmpower
-  name: rune of empower
+  name: "руна влади"
   components:
   - type: Sprite
     state: strength
@@ -49,7 +49,7 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneTeleport
-  name: rune of teleportation
+  name: "руна телепортації"
   components:
   - type: Sprite
     state: teleport
@@ -66,7 +66,7 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneRevive
-  name: rune of rejuvenation
+  name: "руна омолодження"
   components:
   - type: Sprite
     state: revive
@@ -77,7 +77,7 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneBarrier
-  name: rune of barrier
+  name: "руна бар'єру"
   components:
   - type: Sprite
     state: barrier
@@ -92,7 +92,7 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneSummoning
-  name: rune of summoning
+  name: "руна виклику"
   components:
   - type: Sprite
     state: summon
@@ -108,7 +108,7 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneBloodBoil
-  name: rune of boiling blood
+  name: "руна киплячої крові"
   components:
   - type: Sprite
     state: blood_boil
@@ -123,7 +123,7 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneApocalypse
-  name: rune of apocalypse
+  name: "руна апокаліпсису"
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Runes/apocalypse.rsi
@@ -146,7 +146,7 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneDimensionalRending
-  name: rune of dimensional rending
+  name: "руна просторової візуалізації"
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Runes/dimensional_rending.rsi
