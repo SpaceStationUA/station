@@ -62,3 +62,5 @@ mood-effect-NicotineWithdrawal = Я б зараз пішов покурити
 mood-effect-EthanolBenefit = Я відчуваю себе таким розслабленим після випивки.
 mood-effect-SpaceDrugsBenefit = Вооооо, які гарні кольори мааааан. Я ніби чую колір і смак звуку маааан.
 mood-effect-SurgeryPain = Операція - це боляче
+mood-effect-HeirloomSecure = Моя реліквія в безпеці, а разом з нею і спогади про тих, хто був до мене.
+mood-effect-HeirloomLost = Я не можу знайти свою реліквію, як тепер минуле буде в безпеці? # Залежності

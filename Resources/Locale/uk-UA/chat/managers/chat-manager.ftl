@@ -21,8 +21,8 @@ chat-manager-whisper-headset-on-message = По радіо не можна шеп
 chat-manager-server-wrap-message = [bold]{$message}[/bold]
 chat-manager-sender-announcement-wrap-message = [font size=14][bold]{$sender} Оголошення:[/font][font size=12]
                                                 {$message}[/bold][/font]
-chat-manager-entity-say-wrap-message = [BubbleHeader][bold][Name]{ $language }{ $entityName }[/Name][/bold][/BubbleHeader] { $verb }, [font={ $fontType } size={ $fontSize }]"[BubbleContent]{ $message }[/BubbleContent]"[/font]
-chat-manager-entity-say-bold-wrap-message = [BubbleHeader][bold][Name]{ $language }{ $entityName }[/Name][/bold][/BubbleHeader] { $verb }, [font={ $fontType } size={ $fontSize }] "[BubbleContent][bold]{ $message }[/bold][/BubbleContent]"[/font]
+chat-manager-entity-say-wrap-message = [BubbleHeader][Name][font size=11][color={$color}][bold]{$language}[/bold][/color][/font][bold]{$entityName}[/bold][/Name][/BubbleHeader] {$verb}, [font="{$fontType}" size={$fontSize} ][color={$color}]"[BubbleContent][font="{$fontType}" size={$fontSize}][color={$color}]{$message}[/color][/font][/BubbleContent]"[/color][/font]
+chat-manager-entity-say-bold-wrap-message = [BubbleHeader][Name][font size=11][color={$color}][bold]{$language}[/bold][/color][/font][bold]{$entityName}[/bold][/Name][/BubbleHeader] {$verb}, [font="{$fontType}" size={$fontSize} ][color={$color}][bold]"[BubbleContent][font="{$fontType}" size={$fontSize}][color={$color}][bold]{$message}[/bold][/color][/font][/BubbleContent]"[/bold][/color][/font]
 
 chat-manager-entity-whisper-wrap-message = [font size=11][italic][BubbleHeader][Name]{$entityName}[/Name][/BubbleHeader] шепоче, "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
 chat-manager-entity-whisper-unknown-wrap-message = [font size=11][italic][BubbleHeader]Хтось[/BubbleHeader] шепоче: "[BubbleContent]{$message}[/BubbleContent]"[/italic][/font]
@@ -167,3 +167,5 @@ chat-speech-verb-marish = Марс.
 chat-manager-send-empathy-chat-wrap-message = {$source}: {$message} ## Мовні дієслова для чату
 chat-manager-send-cult-chat-wrap-message = [bold]\[{ $channelName }\] [BubbleHeader]{ $player }[/BubbleHeader]:[/bold] [BubbleContent]{ $message }[/BubbleContent]
 chat-manager-cult-channel-name = Культ Крові ## Мовленнєві дієслова для чату
+
+chat-manager-language-prefix = ({ $language }){" "}
