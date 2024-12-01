@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineGrenade
-  name: "гранатометний постріл"
+  name: grenade cartridge
   parent: BaseItem
   abstract: true
   components:
@@ -41,14 +41,14 @@
 
 - type: entity
   id: MagazineGrenadeEmpty
-  name: "гранатометний постріл"
+  name: grenade cartridge
   parent: BaseMagazineGrenade
   components:
   - type: BallisticAmmoProvider
     
 - type: entity
   id: MagazineGrenadeFrag
-  name: "осколковий гранатометний патрон"
+  name: frag grenade cartridge
   parent: BaseMagazineGrenade
   components:
   - type: BallisticAmmoProvider
@@ -56,7 +56,7 @@
 
 - type: entity
   id: MagazineGrenadeEMP
-  name: "Патрон до ЕМР-гранати"
+  name: EMP grenade cartridge
   parent: BaseMagazineGrenade
   components:
   - type: BallisticAmmoProvider
@@ -64,7 +64,7 @@
 
 - type: entity
   id: MagazineGrenadeFlash
-  name: "патрон для світлошумової гранати"
+  name: flash grenade cartridge
   parent: BaseMagazineGrenade
   components:
   - type: BallisticAmmoProvider
@@ -72,7 +72,7 @@
 
 - type: entity
   id: MagazineGrenadeBlast
-  name: "патрон до бойової гранати"
+  name: blast grenade cartridge
   parent: BaseMagazineGrenade
   components:
   - type: BallisticAmmoProvider
@@ -80,7 +80,7 @@
 
 - type: entity
   id: MagazineGrenadeBaton
-  name: "патрон до кийкової гранати"
+  name: baton grenade cartridge
   parent: BaseMagazineGrenade
   components:
   - type: BallisticAmmoProvider

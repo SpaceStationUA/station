@@ -5,8 +5,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatHeadscarf
-  name: "тканинна хустка"
-  description: "Хустка з клаптиків тканини"
+  name: тканинна хустка
+  description: A headscarf made from scraps of cloth
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Head/FalloutHats/headscarf.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatBandit
-  name: "бандитський капелюх"
-  description: "Ох, ох. Він йде сюди."
+  name: бандитський капелюх
+  description: Uh oh. He's coming this way.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Head/FalloutHats/bandit.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatNCRSidecap
-  name: "Бічна кришка NCR"
-  description: "Боковий ковпак, який часто носили молодші солдати NCR."
+  name: NCR sidecap
+  description: A sidecap often worn by junior NCR soldiers.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Head/FalloutHats/ncrsidecap.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: N14ClothingHeadHatTribalOutcastHood
-  name: "племінний капюшон"
-  description: "Ганьба! Капюшон, який носять вигнанці."
+  name: племінний капюшон
+  description: Shame! A hood worn by outcasts.
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Head/FalloutHats/tribalhoodoutcast.rsi
