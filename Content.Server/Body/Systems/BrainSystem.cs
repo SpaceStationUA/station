@@ -2,10 +2,8 @@ using Content.Server.Body.Components;
 using Content.Server.Ghost.Components;
 using Content.Shared.Body.Components;
 using Content.Shared.Body.Systems;
-using Content.Shared.Body.Systems;
 using Content.Shared.Body.Events;
 using Content.Shared.Body.Organ;
-using Content.Server.DelayedDeath;
 using Content.Server.DelayedDeath;
 using Content.Shared.Mind;
 using Content.Shared.Mind.Components;
@@ -27,33 +25,29 @@ namespace Content.Server.Body.Systems
             SubscribeLocalEvent<BrainComponent, PointAttemptEvent>(OnPointAttempt);
         }
 
-        private void HandleRemoval(EntityUid uid, BrainComponent brain, ref OrganRemovedFromBodyEvent args)
+        private void HandleRemoval(EntityUid uid, BrainComponent _, ref OrganRemovedFromBodyEvent args)
         {
             if (TerminatingOrDeleted(uid) || TerminatingOrDeleted(args.OldBody))
                 return;
 
-            brain.Active = false;
             // Prevents revival, should kill the user within a given timespan too.
-            if (!CheckOtherBrains(args.OldBody))
-            {
-                EnsureComp<DebrainedComponent>(args.OldBody);
-                HandleMind(uid, args.OldBody);
-            }
+            EnsureComp<DebrainedComponent>(args.OldBody);
+            EnsureComp<DelayedDeathComponent>(args.OldBody);
+            HandleMind(uid, args.OldBody);
         }
 
-        private void HandleAddition(EntityUid uid, BrainComponent brain, ref OrganAddedToBodyEvent args)
+        private void HandleAddition(EntityUid uid, BrainComponent _, ref OrganAddedToBodyEvent args)
         {
             if (TerminatingOrDeleted(uid) || TerminatingOrDeleted(args.Body))
                 return;
 
-            if (!CheckOtherBrains(args.Body))
-            {
-                RemComp<DebrainedComponent>(args.Body);
-                HandleMind(args.Body, uid, brain);
-            }
+            RemComp<DebrainedComponent>(args.Body);
+            if (_bodySystem.TryGetBodyOrganComponents<HeartComponent>(args.Body, out var _))
+                RemComp<DelayedDeathComponent>(args.Body);
+            HandleMind(args.Body, uid);
         }
 
-        private void HandleMind(EntityUid newEntity, EntityUid oldEntity, BrainComponent? brain = null)
+        private void HandleMind(EntityUid newEntity, EntityUid oldEntity)
         {
             if (TerminatingOrDeleted(newEntity) || TerminatingOrDeleted(oldEntity))
                 return;
@@ -69,36 +63,11 @@ namespace Content.Server.Body.Systems
                 return;
 
             _mindSystem.TransferTo(mindId, newEntity, mind: mind);
-            if (brain != null)
-                brain.Active = true;
         }
 
         private void OnPointAttempt(Entity<BrainComponent> ent, ref PointAttemptEvent args)
         {
             args.Cancel();
-        }
-
-        private bool CheckOtherBrains(EntityUid entity)
-        {
-            var hasOtherBrains = false;
-            if (TryComp<BodyComponent>(entity, out var body))
-            {
-                if (TryComp<BrainComponent>(entity, out var bodyBrain))
-                    hasOtherBrains = true;
-                else
-                {
-                    foreach (var (organ, _) in _bodySystem.GetBodyOrgans(entity, body))
-                    {
-                        if (TryComp<BrainComponent>(organ, out var brain) && brain.Active)
-                        {
-                            hasOtherBrains = true;
-                            break;
-                        }
-                    }
-                }
-            }
-
-            return hasOtherBrains;
         }
     }
 }

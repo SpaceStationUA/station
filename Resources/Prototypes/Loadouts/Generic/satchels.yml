@@ -3,7 +3,6 @@
   category: Backpacks
   cost: 0
   exclusive: true
-  customColorTint: true
   items:
     - ClothingBackpackSatchel
   requirements:
@@ -24,6 +23,34 @@
          - Prisoner
 
 - type: loadout
+  id: LoadoutBackpackSatchelSecurity
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelSecurity
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+
+- type: loadout
+  id: LoadoutBackpackSatchelMime
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelMime
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+    - !type:CharacterJobRequirement
+      jobs:
+        - Mime
+
+- type: loadout
   id: LoadoutBackpackSatchelHydroponics
   category: Backpacks
   cost: 0
@@ -36,3 +63,31 @@
     - !type:CharacterDepartmentRequirement
       departments:
         - Civilian
+
+- type: loadout
+  id: LoadoutBackpackSatchelScience
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelScience
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Epistemics
+
+- type: loadout
+  id: LoadoutBackpackSatchelRobotics
+  category: Backpacks
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelRobotics
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Epistemics

@@ -32,8 +32,8 @@
       required: true
       defaultMarkings: [ OniHornDoubleCurved ]
     HeadSide:
-      points: 3
-      required: true
+      points: 1
+      required: false
       defaultMarkings: [ PointyEarsUpwards ]
     Snout:
       points: 2
@@ -57,11 +57,11 @@
       points: 2
       required: false
     RightHand:
-      points: 3
+      points: 2
       required: false
     LeftArm:
       points: 2
       required: false
     LeftHand:
-      points: 3
+      points: 2
       required: false

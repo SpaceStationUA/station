@@ -631,7 +631,6 @@
       - id: Stunbaton
       - id: Handcuffs
       - id: Handcuffs
-
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltMercWebbing
@@ -658,7 +657,7 @@
   parent: [ClothingBeltStorageBase, ContentsExplosionResistanceBase]
   id: ClothingBeltMilitaryWebbing
   name: chest rig
-  description: A set of tactical webbing worn by boarding parties.
+  description: A set of tactical webbing worn by Syndicate boarding parties.
   components:
   - type: Sprite
     sprite: Clothing/Belt/militarywebbing.rsi

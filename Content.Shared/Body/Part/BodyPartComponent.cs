@@ -7,7 +7,6 @@ using Content.Shared.Medical.Surgery.Tools;
 using Content.Shared.Targeting;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
-using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Body.Part;
@@ -29,7 +28,7 @@ public sealed partial class BodyPartComponent : Component, ISurgeryToolComponent
     [DataField, AutoNetworkedField]
     public BodyPartSlot? ParentSlot;
 
-    [DataField, AutoNetworkedField, AlwaysPushInheritance]
+    [DataField, AutoNetworkedField]
     public BodyPartType PartType = BodyPartType.Other;
 
     // TODO BODY Replace with a simulation of organs
@@ -48,14 +47,11 @@ public sealed partial class BodyPartComponent : Component, ISurgeryToolComponent
     public FixedPoint2 VitalDamage = 100;
 
 
-    [DataField, AutoNetworkedField, AlwaysPushInheritance]
+    [DataField, AutoNetworkedField]
     public BodyPartSymmetry Symmetry = BodyPartSymmetry.None;
 
-    [DataField, AlwaysPushInheritance]
+    [DataField]
     public string ToolName { get; set; } = "A body part";
-
-    [DataField, AlwaysPushInheritance]
-    public float Speed { get; set; } = 1f;
 
     [DataField, AutoNetworkedField]
     public bool? Used { get; set; } = null;
@@ -79,12 +75,6 @@ public sealed partial class BodyPartComponent : Component, ISurgeryToolComponent
     public float MinIntegrity;
 
     /// <summary>
-    /// Whether this body part can be severed or not
-    /// </summary>
-    [DataField, AutoNetworkedField]
-    public bool CanSever = true;
-
-    /// <summary>
     /// Whether this body part is enabled or not.
     /// </summary>
     [DataField, AutoNetworkedField]
@@ -95,12 +85,6 @@ public sealed partial class BodyPartComponent : Component, ISurgeryToolComponent
     /// </summary>
     [DataField]
     public bool CanEnable = true;
-
-    /// <summary>
-    /// Whether this body part can attach children or not.
-    /// </summary>
-    [DataField]
-    public bool CanAttachChildren = true;
 
     /// <summary>
     /// How long it takes to run another self heal tick on the body part.
@@ -131,6 +115,7 @@ public sealed partial class BodyPartComponent : Component, ISurgeryToolComponent
     [DataField, AutoNetworkedField]
     public ItemSlot ItemInsertionSlot = new();
 
+
     /// <summary>
     ///     Current species. Dictates things like body part sprites.
     /// </summary>
@@ -147,7 +132,7 @@ public sealed partial class BodyPartComponent : Component, ISurgeryToolComponent
     /// <summary>
     /// The ID of the base layer for this body part.
     /// </summary>
-    [DataField, AutoNetworkedField, AlwaysPushInheritance]
+    [DataField, AutoNetworkedField]
     public string? BaseLayerId;
 
     /// <summary>
@@ -166,18 +151,6 @@ public sealed partial class BodyPartComponent : Component, ISurgeryToolComponent
         { TargetIntegrity.LightlyWounded, 20 },
         { TargetIntegrity.Healthy, 10 },
     };
-
-    /// <summary>
-    ///     When attached, the part will ensure these components on the entity, and delete them on removal.
-    /// </summary>
-    [DataField, AlwaysPushInheritance]
-    public ComponentRegistry? OnAdd;
-
-    /// <summary>
-    ///     When removed, the part will ensure these components on the entity, and add them on removal.
-    /// </summary>
-    [DataField, AlwaysPushInheritance]
-    public ComponentRegistry? OnRemove;
 
     /// <summary>
     /// These are only for VV/Debug do not use these for gameplay/systems

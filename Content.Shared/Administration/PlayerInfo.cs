@@ -18,8 +18,6 @@ namespace Content.Shared.Administration
     {
         private string? _playtimeString;
 
-        public bool IsPinned { get; set; }
-
         public string PlaytimeString => _playtimeString ??=
             OverallPlaytime?.ToString("%d':'hh':'mm") ?? Loc.GetString("generic-unknown-title");
 

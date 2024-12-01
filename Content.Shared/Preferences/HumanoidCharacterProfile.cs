@@ -2,7 +2,6 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using Content.Shared.CCVar;
 using Content.Shared.Clothing.Loadouts.Prototypes;
-using Content.Shared.Clothing.Loadouts.Systems;
 using Content.Shared.GameTicking;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Prototypes;
@@ -48,10 +47,10 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     private HashSet<string> _traitPreferences = new();
 
     /// <see cref="_loadoutPreferences"/>
-    public HashSet<LoadoutPreference> LoadoutPreferences => _loadoutPreferences;
+    public HashSet<string> LoadoutPreferences => _loadoutPreferences;
 
     [DataField]
-    private HashSet<LoadoutPreference> _loadoutPreferences = new();
+    private HashSet<string> _loadoutPreferences = new();
 
     [DataField]
     public string Name { get; set; } = "John Doe";
@@ -134,7 +133,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         PreferenceUnavailableMode preferenceUnavailable,
         HashSet<string> antagPreferences,
         HashSet<string> traitPreferences,
-        HashSet<LoadoutPreference> loadoutPreferences)
+        HashSet<string> loadoutPreferences)
     {
         Name = name;
         FlavorText = flavortext;
@@ -178,7 +177,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
             other.PreferenceUnavailable,
             new HashSet<string>(other.AntagPreferences),
             new HashSet<string>(other.TraitPreferences),
-            new HashSet<LoadoutPreference>(other.LoadoutPreferences))
+            new HashSet<string>(other.LoadoutPreferences))
     {
     }
 
@@ -318,19 +317,14 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         return new(this) { _traitPreferences = list };
     }
 
-    public HumanoidCharacterProfile WithLoadoutPreference(
-        string loadoutId,
-        bool pref,
-        string? customName = null,
-        string? customDescription = null,
-        string? customColor = null,
-        bool? customHeirloom = null)
+    public HumanoidCharacterProfile WithLoadoutPreference(string loadoutId, bool pref)
     {
-        var list = new HashSet<LoadoutPreference>(_loadoutPreferences);
+        var list = new HashSet<string>(_loadoutPreferences);
 
-        list.RemoveWhere(l => l.LoadoutName == loadoutId);
         if (pref)
-            list.Add(new(loadoutId, customName, customDescription, customColor, customHeirloom) { Selected = pref });
+            list.Add(loadoutId);
+        else
+            list.Remove(loadoutId);
 
         return new HumanoidCharacterProfile(this) { _loadoutPreferences = list };
     }
@@ -493,7 +487,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
             .ToList();
 
         var loadouts = LoadoutPreferences
-            .Where(l => prototypeManager.HasIndex<LoadoutPrototype>(l.LoadoutName))
+            .Where(prototypeManager.HasIndex<LoadoutPrototype>)
             .ToList();
 
         Name = name;
