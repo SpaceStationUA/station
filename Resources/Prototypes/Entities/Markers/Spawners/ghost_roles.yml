@@ -1,6 +1,6 @@
 - type: entity
   id: SpawnPointGhostRatKing
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   suffix: rat king
   parent: MarkerBase
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   id: SpawnPointGhostRemilia
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   suffix: Remilia
   parent: MarkerBase
   components:
@@ -42,7 +42,7 @@
 
 - type: entity
   id: SpawnPointGhostCerberus
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   suffix: cerberus
   parent: MarkerBase
   components:
@@ -64,7 +64,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: SpawnPointGhostNukeOperative
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   suffix: nukeops
   parent: MarkerBase
   components:
@@ -84,7 +84,7 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: SpawnPointLoneNukeOperative
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   suffix: loneops
   parent: MarkerBase
   components:
@@ -112,7 +112,7 @@
   parent: MarkerBase
   id: SpawnPointGhostDragon
   categories: [ HideSpawnMenu ]
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   suffix: dragon
   components:
   - type: GhostRole
@@ -131,7 +131,7 @@
 
 - type: entity
   id: SpawnPointGhostSpaceNinja
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   suffix: space ninja
   parent: MarkerBase
   components:
@@ -153,7 +153,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnPointGhostTerminator
-  name: "місце спавну термінатора"
+  name: terminator spawn point
   components:
   - type: GhostRole
     name: ghost-role-information-exterminator-name
@@ -169,7 +169,7 @@
 
 - type: entity
   id: SpawnPointGhostAlienLarva
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   suffix: alien larva
   parent: MarkerBase
   components:
