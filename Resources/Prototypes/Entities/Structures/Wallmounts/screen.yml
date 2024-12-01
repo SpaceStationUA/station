@@ -1,7 +1,7 @@
 - type: entity
   id: Screen
-  name: screen
-  description: Displays text or time.
+  name: "екран"
+  description: "Відображає текст або час."
   placement:
     mode: SnapgridCenter
     snap:
@@ -40,7 +40,7 @@
 - type: entity
   id: ArrivalsShuttleTimer
   parent: Screen
-  name: arrivals screen
+  name: "камера"
   components:
   - type: DeviceNetwork
     receiveFrequencyId: ArrivalsShuttleTimer

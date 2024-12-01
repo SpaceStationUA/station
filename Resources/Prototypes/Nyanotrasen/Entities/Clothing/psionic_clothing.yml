@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesTelegnosisSpectacles
-  name: strange spectacles
-  description: A pair of spectacular and strange spectacles with lenses constructed of an unknown material.
+  name: "дивні окуляри"
+  description: "Пара ефектних і дивних окулярів з лінзами з невідомого матеріалу."
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Glasses/glasses.rsi
@@ -16,8 +16,8 @@
 - type: entity
   id: BedsheetInvisibilityCloak
   parent: BedsheetBase
-  name: tattered bedsheet
-  description: A tattered bedsheet, It looks like its been through hell and back.
+  name: "подерте простирадло"
+  description: "Подерте простирадло, схоже, пройшло через пекло і повернулося назад."
   components:
   - type: Sprite
     state: sheetblack
@@ -30,8 +30,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsDispelGloves
-  name: patchwork gloves
-  description: These leather gloves are heavily worn, however they have been repaired in several places.
+  name: "клаптикові рукавички"
+  description: "Ці шкіряні рукавички сильно зношені, проте вони були відремонтовані в декількох місцях."
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/leather.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: ClothingHandsGlovesColorYellowUnsulated
-  name: unsulated gloves
-  description: Flimsy synthrubber work gloves styled in a drab yellow color. They are not electrically insulated, and provide no protection against any shocks.
+  name: "неізольовані рукавички"
+  description: "Неміцні робочі рукавички з синтетичного каучуку сіро-жовтого кольору. Вони не мають електричної ізоляції та не захищають від ударів."
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/Color/yellow.rsi
