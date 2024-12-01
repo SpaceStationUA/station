@@ -65,7 +65,7 @@
 - type: entity
   id: LeftHandCybernetic
   parent: LeftHandHuman
-  name: "кібернетична ліва рука"
+  name: cybernetic left hand
   components:
   - type: Damageable
     damageContainer: Silicon
@@ -79,7 +79,7 @@
 - type: entity
   id: RightHandCybernetic
   parent: RightHandHuman
-  name: "кібернетична права рука"
+  name: cybernetic right hand
   components:
   - type: Damageable
     damageContainer: Silicon
@@ -93,7 +93,7 @@
 - type: entity
   id: LeftFootCybernetic
   parent: LeftFootHuman
-  name: "кібернетична ліва нога"
+  name: cybernetic left foot
   components:
   - type: Damageable
     damageContainer: Silicon
@@ -107,7 +107,7 @@
 - type: entity
   id: RightFootCybernetic
   parent: RightFootHuman
-  name: "кібернетична права нога"
+  name: cybernetic right foot
   components:
   - type: Damageable
     damageContainer: Silicon
@@ -121,8 +121,8 @@
 - type: entity
   parent: LeftArmCybernetic
   id: JawsOfLifeLeftArm
-  name: "Ліва рука J.W.L"
-  description: "Кібернетична ліва рука з можливістю відчиняти двері."
+  name: J.W.L left arm
+  description: A cybernetic left arm with the ability to pry doors open.
   components:
   - type: BodyPart
     onAdd:
@@ -133,8 +133,8 @@
 - type: entity
   parent: RightArmCybernetic
   id: JawsOfLifeRightArm
-  name: "Права рука J.W.L"
-  description: "Кібернетична права рука з можливістю відчиняти двері."
+  name: J.W.L right arm
+  description: A cybernetic right arm with the ability to pry doors open.
   components:
   - type: BodyPart
     onAdd:
@@ -145,8 +145,8 @@
 - type: entity
   parent: LeftLegCybernetic
   id: SpeedLeftLeg
-  name: "S.P.E.E.D ліва нога"
-  description: "Кібернетична ліва нога, яка дозволяє її власнику бігати швидше."
+  name: S.P.E.E.D left leg
+  description: A cybernetic left leg that allows its wearer to run faster.
   components:
   - type: MovementBodyPart
     walkSpeed: 3.125
@@ -158,8 +158,8 @@
 - type: entity
   parent: RightLegCybernetic
   id: SpeedRightLeg
-  name: "S.P.E.E.D права нога"
-  description: "Кібернетична ліва нога, яка дозволяє її власнику бігати швидше."
+  name: S.P.E.E.D right leg
+  description: A cybernetic left leg that allows its wearer to run faster.
   components:
   - type: MovementBodyPart
     walkSpeed: 3.125
