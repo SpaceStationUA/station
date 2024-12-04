@@ -7786,3 +7786,70 @@ Entries:
   id: 6551
   time: '2024-12-01T14:11:51.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1301
+- author: zelezniciar
+  changes:
+  - type: Fix
+    message: Виправлено некоректне відображення імен старшого інженера та лікаря.
+  id: 6552
+  time: '2024-12-01T23:56:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1302
+- author: Skubman
+  changes:
+  - type: Tweak
+    message: >-
+      Культові конструкції та душові осколки тепер говорять на основній мові
+      Тау-Кеті та Ельдритч.
+  id: 6553
+  time: '2024-12-02T16:47:10.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1303
+- author: Skubman
+  changes:
+  - type: Add
+    message: >-
+      Процедура лоботомії робить ціль незграбною, як клоун. Це змушує їх
+      ударятися, піднімаючись на столи, і змушує зброю вибухати їм в обличчя.
+  - type: Tweak
+    message: Тепер для лоботомії потрібен скальпель замість дриля.
+  - type: Fix
+    message: >-
+      Увімкнено хірургічну процедуру "Відновлення тканин мозку" для
+      лоботомованої цілі.
+  - type: Fix
+    message: >-
+      Ефект лоботомії тепер зберігається в мозку замість тіла. Мозок залишається
+      лоботомованим навіть після трансплантацій, а перенесення нормального
+      мозку в тіло з лоботомією більше не накладає ефекту лоботомії.
+  - type: Fix
+    message: >-
+      Процедура лоботомії тепер правильно відображає спливаюче повідомлення
+      під час виконання.
+  - type: Fix
+    message: Видалено можливість проводити лоботомії на тілах без мозку.
+  - type: Fix
+    message: >-
+      Крок "Видалення органу" у UI тепер правильно відображає спрайт
+      екстрактора замість гематостату.
+  id: 6554
+  time: '2024-12-03T23:31:22.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1306
+- author: Erisfiregamer1
+  changes:
+  - type: Add
+    message: Тепер ви можете запихнути людей у фритюрницю, перетягнувши їх на неї.
+  id: 6555
+  time: '2024-12-03T23:33:01.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1279
+- author: VMSolidus
+  changes:
+  - type: Add
+    message: Додано ЕМІ-ліхтарик до магазинів Синдикату.
+  id: 6556
+  time: '2024-12-04T00:11:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1189
+- author: Ichaie
+  changes:
+  - type: Add
+    message: додано нову карту "Європа" до ротації.
+  id: 6557
+  time: '2024-12-04T00:12:59.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1152
