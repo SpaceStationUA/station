@@ -1,11 +1,11 @@
 - type: construction
-  name: reinforced secret door
+  name: "посилені потайні двері"
   id: SolidReinforcedSecretDoorConstruction
   graph: ReinforcedSecretDoorGraph
   startNode: start
   targetNode: ReinforcedSecretDoorNode
   category: construction-category-structures
-  description: A secret door for the wall.
+  description: "Потаємні двері в стіні."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -16,13 +16,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: wood secret door
+  name: "дерев'яні потайні двері"
   id: WoodSecretDoorConstruction
   graph: WoodSecretDoorGraph
   startNode: start
   targetNode: WoodSecretDoorNode
   category: construction-category-structures
-  description: A secret door for the wall.
+  description: "Потаємні двері в стіні."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -33,13 +33,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: uranium secret door
+  name: "уранові секретні двері"
   id: UraniumSecretDoorConstruction
   graph: UraniumSecretDoorGraph
   startNode: start
   targetNode: UraniumSecretDoorNode
   category: construction-category-structures
-  description: A secret door for the wall.
+  description: "Потаємні двері в стіні."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -50,13 +50,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: shuttle secret door
+  name: "потайні двері шатла"
   id: ShuttleSecretDoorConstruction
   graph: ShuttleSecretDoorGraph
   startNode: start
   targetNode: ShuttleSecretDoorNode
   category: construction-category-structures
-  description: A secret door for the wall.
+  description: "Потаємні двері в стіні."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
