@@ -13,12 +13,12 @@ surgery-popup-procedure-SurgeryAttachLeftArm-step-SurgeryStepInsertFeature = {$u
 surgery-popup-procedure-SurgeryAttachRightArm-step-SurgeryStepInsertFeature = {$user} прикріплює праву руку до {$part} у {$target}!
 surgery-popup-procedure-SurgeryAttachLeftLeg-step-SurgeryStepInsertFeature = {$user} прикріплює ліву ногу до {$part} у {$target}!
 surgery-popup-procedure-SurgeryAttachRightLeg-step-SurgeryStepInsertFeature = {$user} прикріплює праву ногу до {$part} у {$target}!
-surgery-popup-procedure-SurgeryAttachLeftHand-step-SurgeryStepInsertFeature = {$user} прикріплює ліву кисть до {$part} у {$target}!
-surgery-popup-procedure-SurgeryAttachRightHand-step-SurgeryStepInsertFeature = {$user} прикріплює праву кисть до {$part} у {$target}!
+surgery-popup-procedure-SurgeryAttachLeftHand-step-SurgeryStepInsertFeature = {$user} прикріплює ліву долоню до {$part} у {$target}!
+surgery-popup-procedure-SurgeryAttachRightHand-step-SurgeryStepInsertFeature = {$user} прикріплює праву долоню до {$part} у {$target}!
 surgery-popup-procedure-SurgeryAttachLeftFoot-step-SurgeryStepInsertFeature = {$user} прикріплює ліву стопу до {$part} у {$target}!
 surgery-popup-procedure-SurgeryAttachRightFoot-step-SurgeryStepInsertFeature = {$user} прикріплює праву стопу до {$part} у {$target}!
 surgery-popup-procedure-SurgeryAttachLegs-step-SurgeryStepInsertFeature = {$user} прикріплює ноги до {$part} у {$target}!
-surgery-popup-procedure-SurgeryAttachHands-step-SurgeryStepInsertFeature = {$user} прикріплює кисті до {$part} у {$target}!
+surgery-popup-procedure-SurgeryAttachHands-step-SurgeryStepInsertFeature = {$user} прикріплює долоні до {$part} у {$target}!
 surgery-popup-procedure-SurgeryAttachFeet-step-SurgeryStepInsertFeature = {$user} прикріплює стопи до {$part} у {$target}!
 
 surgery-popup-step-SurgeryStepSealWounds = {$user} зашиває рани на {$part} у {$target}.
