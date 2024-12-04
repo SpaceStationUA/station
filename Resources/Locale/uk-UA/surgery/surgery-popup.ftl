@@ -50,3 +50,6 @@ surgery-popup-step-SurgeryStepInsertHeart = {$user} вставляє серце 
 surgery-popup-step-SurgeryStepInsertStomach = {$user} вставляє шлунок у {$part} у {$target}!
 
 surgery-popup-step-SurgeryStepSealOrganWound = {$user} зашиває рани на {$part} у {$target}.
+
+surgery-popup-step-SurgeryStepLobotomize = {$user} проводить лоботомію для {$target}!
+surgery-popup-step-SurgeryStepMendBrainTissue = {$user} відновлює тканину мозку на {$part} у {$target}.
