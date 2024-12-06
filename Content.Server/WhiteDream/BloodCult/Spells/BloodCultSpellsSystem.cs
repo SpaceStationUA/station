@@ -188,8 +188,9 @@ public sealed class BloodCultSpellsSystem : EntitySystem
         if (ev.Handled)
             return;
 
-        var shuckles = Spawn(ev.ShacklesProto);
-        if (!_cuffable.TryAddNewCuffs(ev.Performer, ev.Target, shuckles))
+        var shuckles = Spawn(ev.ShacklesProto, Transform(ev.Performer).Coordinates);
+
+        if (!_cuffable.TryAddNewCuffs(ev.Target, ev.Performer, shuckles))
             return;
 
         _stun.TryKnockdown(ev.Target, ev.KnockdownDuration, true);
