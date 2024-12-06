@@ -66,7 +66,7 @@
     temporary: true
     icon:
       sprite: WhiteDream/BloodCult/actions.rsi
-      state: teleport
+      state: create_emp
     event: !type:BloodCultEmpEvent
       speech: "Ta'gh fara'qha fel d'amar det!"
   - type: BaseCultSpell
