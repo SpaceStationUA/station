@@ -8900,22 +8900,6 @@ entities:
     - type: Transform
       pos: -11.5,1.5
       parent: 2
-- proto: ComputerTabletopComms
-  entities:
-  - uid: 1227
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -10.5,-0.5
-      parent: 2
-- proto: ComputerTabletopSurveillanceCameraMonitor
-  entities:
-  - uid: 1228
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -30.5,4.5
-      parent: 2
 - proto: ComputerTelevision
   entities:
   - uid: 1229

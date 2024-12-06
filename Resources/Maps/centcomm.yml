@@ -10245,29 +10245,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -17.5,-0.5
       parent: 2508
-- proto: ComputerTabletopComms
-  entities:
-  - uid: 1162
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -10.5,-0.5
-      parent: 2
-- proto: ComputerTabletopShuttle
-  entities:
-  - uid: 3090
-    components:
-    - type: Transform
-      pos: -6.5,6.5
-      parent: 2724
-- proto: ComputerTabletopSurveillanceCameraMonitor
-  entities:
-  - uid: 1163
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -30.5,4.5
-      parent: 2
 - proto: ComputerTelevision
   entities:
   - uid: 1164

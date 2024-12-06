@@ -6954,22 +6954,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 6.5,-6.5
       parent: 1
-- proto: ComputerTabletopCriminalRecords
-  entities:
-  - uid: 2906
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -6.5,-0.5
-      parent: 1
-- proto: ComputerTabletopSurveillanceCameraMonitor
-  entities:
-  - uid: 2904
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -8.5,-0.5
-      parent: 1
 - proto: ComputerTechnologyDiskTerminal
   entities:
   - uid: 162
@@ -7392,13 +7376,6 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 9.4807,-6.531718
-      parent: 1
-- proto: EldritchBlade
-  entities:
-  - uid: 2850
-    components:
-    - type: Transform
-      pos: 9.484079,14.502773
       parent: 1
 - proto: Emitter
   entities:

@@ -7383,49 +7383,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: -5.5,-9.5
       parent: 1823
-- proto: ComputerTabletopCloningConsole
-  entities:
-  - uid: 815
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -14.5,12.5
-      parent: 2
-- proto: ComputerTabletopComms
-  entities:
-  - uid: 816
-    components:
-    - type: Transform
-      pos: -10.5,5.5
-      parent: 2
-- proto: ComputerTabletopCrewMonitoring
-  entities:
-  - uid: 817
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -14.5,5.5
-      parent: 2
-  - uid: 818
-    components:
-    - type: Transform
-      pos: -10.5,20.5
-      parent: 2
-- proto: ComputerTabletopId
-  entities:
-  - uid: 819
-    components:
-    - type: Transform
-      pos: -13.5,6.5
-      parent: 2
-- proto: ComputerTabletopSurveillanceCameraMonitor
-  entities:
-  - uid: 820
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -12.5,19.5
-      parent: 2
 - proto: CrateArmorySMG
   entities:
   - uid: 821
