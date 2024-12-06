@@ -1,8 +1,8 @@
 - type: entity
-  name: nuclear authentication disk
+  name: "диск ядерної автентифікації"
   parent: BaseItem
   id: NukeDisk
-  description: A nuclear auth disk, capable of arming a nuke if used along with a code. Note from nanotrasen reads "THIS IS YOUR MOST IMPORTANT POSESSION, SECURE DAT FUKKEN DISK!"
+  description: "Ядерний авторизаційний диск, здатний активувати ядерну бомбу, якщо його використати разом із кодом. Записка від нанотрасену: \"ЦЕ ВАША НАЙВАЖЛИВІША ВЛАСНІСТЬ, БЕЗПЕЧНО ЗБЕРЕЖІТЬ ДИСК DAT FUKKEN!\""
   components:
   - type: NukeDisk
   - type: SpecialRespawn
@@ -30,11 +30,11 @@
     sound: /Audio/SimpleStation14/Items/Handling/disk_drop.ogg
 
 - type: entity
-  name: nuclear authentication disk
+  name: "диск ядерної автентифікації"
   parent: BaseItem
   id: NukeDiskFake
   suffix: Fake
-  description: A nuclear auth disk, capable of arming a nuke if used along with a code. Note from nanotrasen reads "THIS IS YOUR MOST IMPORTANT POSESSION, SECURE DAT FUKKEN DISK!"
+  description: "Ядерний авторизаційний диск, здатний активувати ядерну бомбу, якщо його використати разом із кодом. Записка від нанотрасену: \"ЦЕ ВАША НАЙВАЖЛИВІША ВЛАСНІСТЬ, БЕЗПЕЧНО ЗБЕРЕЖІТЬ ДИСК DAT FUKKEN!\""
   components:
   - type: Sprite
     sprite: Objects/Misc/nukedisk.rsi
