@@ -1,6 +1,5 @@
+using Content.Shared.Whitelist;
 using Robust.Shared.Prototypes;
-using Robust.Shared.Serialization;
-using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 using Robust.Shared.Utility;
 
 namespace Content.Shared.Shipyard.Prototypes;
@@ -8,47 +7,42 @@ namespace Content.Shared.Shipyard.Prototypes;
 [Prototype("vessel")]
 public sealed class VesselPrototype : IPrototype
 {
-    [IdDataField]
+    [ViewVariables, IdDataField]
     public string ID { get; } = default!;
 
     /// <summary>
-    ///     Vessel name.
+    /// Already localized name of the vessel.
     /// </summary>
-    [DataField("name")] public string Name = string.Empty;
+    [DataField(required: true)]
+    public string Name = string.Empty;
 
     /// <summary>
-    ///     Short description of the vessel.
+    /// Already localized short description of the vessel.
     /// </summary>
-    [DataField("description")] public string Description = string.Empty;
+    [DataField(required: true)]
+    public string Description = string.Empty;
 
     /// <summary>
-    ///     The price of the vessel
+    /// How much the vessel costs to purchase.
     /// </summary>
-    [DataField("price", required: true)]
+    [DataField(required: true)]
     public int Price;
 
     /// <summary>
-    ///     The category of the product. (e.g. Small, Medium, Large, Emergency, Special etc.)
+    /// Path to the shuttle yml to load, e.g. `/Maps/Shuttles/yourshittle.yml`
     /// </summary>
-    [DataField("category")]
-    public string Category = string.Empty;
+    [DataField(required: true)]
+    public ResPath Path = default!;
 
     /// <summary>
-    ///     The group of the product. (e.g. Civilian, Syndicate, Contraband etc.)
+    /// Categories that can be filtered in the UI.
     /// </summary>
-    [DataField("group")]
-    public string Group = string.Empty;
-
-    /// Frontier - Add this field for the MapChecker script.
-    /// <summary>
-    ///     The MapChecker override group for this vessel.
-    /// </summary>
-    [DataField("mapchecker_group_override")]
-    public string MapcheckerGroup = string.Empty;
+    [DataField]
+    public List<ProtoId<VesselCategoryPrototype>> Categories = new();
 
     /// <summary>
-    ///     Relative directory path to the given shuttle, i.e. `/Maps/Shuttles/yourshittle.yml`
+    /// If the console does not match this whitelist, the vessel is hidden and can't be bought.
     /// </summary>
-    [DataField("shuttlePath", required: true)]
-    public ResPath ShuttlePath = default!;
+    [DataField]
+    public EntityWhitelist? Whitelist;
 }

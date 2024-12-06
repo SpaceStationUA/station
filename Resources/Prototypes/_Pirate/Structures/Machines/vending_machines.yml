@@ -1,12 +1,4 @@
 - type: entity
-  parent: VendingMachineBooze
-  id: VendingMachineBoozeUnlocked
-  suffix: Unlocked
-  components:
-  - type: AccessReader
-    enabled: false
-
-- type: entity
   parent: VendingMachine
   id: VendingMachineSpooky
   name: SpookyDrobe
