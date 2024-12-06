@@ -11,6 +11,8 @@ using Content.Shared.Damage.Prototypes;
 using Content.Shared.DoAfter;
 using Content.Shared.Examine;
 using Content.Shared.Interaction;
+using Content.Shared.Interaction.Components;
+using Content.Shared.Interaction.Events;
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.UserInterface;
@@ -52,6 +54,7 @@ public sealed class BloodRitesSystem : EntitySystem
 
         SubscribeLocalEvent<BloodRitesAuraComponent, BeforeActivatableUIOpenEvent>(BeforeUiOpen);
         SubscribeLocalEvent<BloodRitesAuraComponent, BloodRitesMessage>(OnRitesMessage);
+        SubscribeLocalEvent<BloodRitesAuraComponent, DroppedEvent>(OnDropped); // pirate
     }
 
     private void OnExamining(Entity<BloodRitesAuraComponent> rites, ref ExaminedEvent args) =>
@@ -233,5 +236,11 @@ public sealed class BloodRitesSystem : EntitySystem
 
         rites.Comp.StoredBlood -= bloodCost;
         return true;
+    }
+
+    //pirate
+    private void OnDropped(EntityUid uid, BloodRitesAuraComponent item, DroppedEvent args)
+    {
+        QueueDel(uid);
     }
 }
