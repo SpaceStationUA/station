@@ -1,6 +1,6 @@
 ## UI
 shipyard-console-invalid-vessel = Неможливо придбати судно:
-shipyard-console-menu-title = Меню верфі
+shipyard-console-menu-title = Суднобудівна консоль
 shipyard-console-docking = {$vessel} на шляху до станції, час очікування 60 секунд.
 shipyard-commands-purchase-desc = Створює та приєднує FTL до вказаного човника з файлу сітки.
 shipyard-console-no-idcard = Немає ID картки
