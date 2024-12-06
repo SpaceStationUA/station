@@ -87,11 +87,11 @@ public sealed class CultRuneOfferingSystem : EntitySystem
     {
         var transform = Transform(target);
         var shard = Spawn("SoulShard", transform.Coordinates);
-        _body.GibBody(target);
 
         if (!_mind.TryGetMind(target, out var mindId, out _))
             return;
 
+        _body.GibBody(target);
         _mind.TransferTo(mindId, shard);
         _mind.UnVisit(mindId);
     }

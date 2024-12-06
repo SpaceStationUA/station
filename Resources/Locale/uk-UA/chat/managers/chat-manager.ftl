@@ -166,6 +166,6 @@ chat-speech-verb-marish = Марс.
 
 chat-manager-send-empathy-chat-wrap-message = {$source}: {$message} ## Мовні дієслова для чату
 chat-manager-send-cult-chat-wrap-message = [bold]\[{ $channelName }\] [BubbleHeader]{ $player }[/BubbleHeader]:[/bold] [BubbleContent]{ $message }[/BubbleContent]
-chat-manager-cult-channel-name = Культ Крові ## Мовленнєві дієслова для чату
+chat-manager-cult-channel-name = Культ Крові
 
 chat-manager-language-prefix = ({ $language }){" "}

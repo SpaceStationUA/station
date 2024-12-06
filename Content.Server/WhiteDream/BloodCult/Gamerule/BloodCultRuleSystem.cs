@@ -182,18 +182,7 @@ public sealed class BloodCultRuleSystem : GameRuleSystem<BloodCultRuleComponent>
         if (!TryComp(target, out ActorComponent? actor))
             return;
 
-        var query = QueryActiveRules();
-        while (query.MoveNext(out var ruleUid, out _, out _, out _))
-        {
-            if (!TryComp(ruleUid, out AntagSelectionComponent? antagSelection))
-                continue;
-
-            var antagSelectionEnt = (ruleUid, antagSelection);
-            if (!_antagSelection.TryGetNextAvailableDefinition(antagSelectionEnt, out var def))
-                continue;
-
-            _antagSelection.MakeAntag(antagSelectionEnt, actor.PlayerSession, def.Value);
-        }
+        _antagSelection.ForceMakeAntag<BloodCultRuleComponent>(actor.PlayerSession, "BloodCult");
     }
 
     public bool TryGetTarget([NotNullWhen(true)] out EntityUid? target)
