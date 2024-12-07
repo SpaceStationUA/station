@@ -253,7 +253,7 @@ public sealed class BloodCultRuleSystem : GameRuleSystem<BloodCultRuleComponent>
         _mindSystem.TryAddObjective(mindId, mind, "KillTargetCultObjective");
     }
 
-    private EntityUid? FindTarget(ICollection<EntityUid> exclude = null!)
+    public EntityUid? FindTarget(ICollection<EntityUid> exclude = null!)
     {
         var querry = EntityManager
             .EntityQueryEnumerator<MindContainerComponent, HumanoidAppearanceComponent, ActorComponent>();

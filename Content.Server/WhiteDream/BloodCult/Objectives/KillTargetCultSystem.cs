@@ -2,6 +2,7 @@
 using Content.Server.Roles.Jobs;
 using Content.Server.WhiteDream.BloodCult.Gamerule;
 using Content.Shared.Mind;
+using Content.Shared.Mind.Components;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Objectives.Components;
@@ -13,6 +14,7 @@ public sealed class KillTargetCultSystem : EntitySystem
     [Dependency] private readonly JobSystem _job = default!;
     [Dependency] private readonly MetaDataSystem _metaData = default!;
     [Dependency] private readonly MobStateSystem _mobState = default!;
+    [Dependency] private readonly BloodCultRuleSystem _cultRule = default!;
 
     public override void Initialize()
     {
@@ -24,6 +26,12 @@ public sealed class KillTargetCultSystem : EntitySystem
     private void OnObjectiveAssigned(Entity<KillTargetCultComponent> ent, ref ObjectiveAssignedEvent args)
     {
         var cultistRule = EntityManager.EntityQuery<BloodCultRuleComponent>().FirstOrDefault();
+
+        if(cultistRule != null && cultistRule.OfferingTarget == null)
+        {
+            var newTarget = _cultRule.FindTarget();
+            cultistRule.OfferingTarget = newTarget;
+        }
         if (cultistRule?.OfferingTarget is { } target)
             ent.Comp.Target = target;
     }
@@ -44,13 +52,14 @@ public sealed class KillTargetCultSystem : EntitySystem
 
     private string GetTitle(EntityUid target, string title)
     {
-        var targetName = "Unknown";
-        if (TryComp<MindComponent>(target, out var mind) && mind.CharacterName != null)
+        try
         {
-            targetName = mind.CharacterName;
+            var targetName = MetaData(target).EntityName ?? "Unknown";
+            var jobName = _job.MindTryGetJobName(target) ?? "Unknown";
+            return Loc.GetString(title, ("targetName", targetName), ("job", jobName));
+        }catch
+        {
+            return Loc.GetString(title, ("targetName", "немає"), ("job", "немає"));
         }
-
-        var jobName = _job.MindTryGetJobName(target);
-        return Loc.GetString(title, ("targetName", targetName), ("job", jobName));
     }
 }
