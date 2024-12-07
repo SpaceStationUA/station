@@ -136,13 +136,18 @@
     storedRotation: 90
   - type: Handcuff
     breakoutTime: 5
-    breakOnRemove: true
+    cuffTime: 2
     cuffedRSI: Objects/Misc/cablecuffs.rsi
     bodyIconState: body-overlay
     color: black
   - type: Sprite
     sprite: WhiteDream/BloodCult/actions.rsi
     state: cuff
+  - type: Tag
+    tags:
+    - Handcuffs
+  - type: UseDelay
+    delay: 6
 
 - type: entity
   parent: BaseItem
