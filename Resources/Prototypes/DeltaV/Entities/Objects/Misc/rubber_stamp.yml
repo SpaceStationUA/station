@@ -1,5 +1,5 @@
 - type: entity
-  name: psychologist's rubber stamp
+  name: "штамп психолога"
   parent: RubberStampBase
   id: RubberStampPsychologist
   suffix: DO NOT MAP
@@ -13,7 +13,7 @@
     state: stamp-psychologist
 
 - type: entity
-  name: lawyer's rubber stamp
+  name: "печатка адвоката"
   parent: RubberStampBase
   id: RubberStampLawyer
   suffix: DO NOT MAP
@@ -27,10 +27,10 @@
     state: stamp-lawyer
 
 - type: entity
-  name: notary stamp
+  name: "печатка нотаріуса"
   parent: RubberStampBase
   id: RubberStampNotary
-  description: An old-fashioned seal for marking important documents, made of polished bronze.
+  description: "Старовинна печатка для скріплення важливих документів, виготовлена з полірованої бронзи."
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-notary
@@ -43,7 +43,7 @@
     stealGroup: RubberStampNotary
 
 - type: entity
-  name: chief justice stamp
+  name: "печатка голови суду"
   parent: RubberStampBase
   id: RubberStampChiefJustice
   components:
