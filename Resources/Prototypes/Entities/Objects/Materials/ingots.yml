@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: IngotBase
-  description: "Злиток важкого металу з логотипом Nanotrasen."
+  description: A heavy metal ingot stamped with the Nanotrasen logo.
   components:
   - type: Sprite
     sprite: Objects/Materials/ingots.rsi
@@ -29,7 +29,7 @@
 - type: entity
   parent: IngotBase
   id: IngotGold
-  name: "золотий злиток"
+  name: gold bar
   suffix: Full
   components:
   - type: Material
@@ -63,7 +63,7 @@
 - type: entity
   parent: IngotGold
   id: IngotGold1
-  name: "золотий злиток"
+  name: gold bar
   suffix: Single
   components:
   - type: Sprite
@@ -74,7 +74,7 @@
 - type: entity
   parent: IngotBase
   id: IngotSilver
-  name: "срібний злиток"
+  name: silver bar
   suffix: Full
   components:
   - type: Material
@@ -108,7 +108,7 @@
 - type: entity
   parent: IngotSilver
   id: IngotSilver1
-  name: "срібний злиток"
+  name: silver bar
   suffix: Single
   components:
   - type: Sprite

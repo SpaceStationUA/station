@@ -1,8 +1,8 @@
 - type: entity
-  name: "BaseWeaponRevolver"
+  name: BaseWeaponRevolver
   parent: BaseItem
   id: BaseWeaponRevolver
-  description: "Корінцевий зубастий і пагонистий."
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -52,10 +52,10 @@
     price: 500
 
 - type: entity
-  name: "Декард"
+  name: Deckard
   parent: BaseWeaponRevolver
   id: WeaponRevolverDeckard
-  description: "Рідкісний револьвер, зроблений на замовлення. Використовується, коли немає часу на тест Войта-Кампфа. Використовує набої .45 магнум."
+  description: A rare, custom-built revolver. Use when there is no time for Voight-Kampff test. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
@@ -80,19 +80,21 @@
     price: 1500
 
 - type: entity
-  name: "Декард"
+  name: Deckard
   parent: WeaponRevolverDeckard
   id: WeaponRevolverDeckardSecurity
-  description: "Рідкісний револьвер, зроблений на замовлення. Використовується, коли немає часу на тест Войта-Кампфа. Використовує набої калібру .45 магнум. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: A rare, custom-built revolver. Use when there is no time for Voight-Kampff test. Uses .45 magnum ammo.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: "Декард"
+  name: Deckard
   parent: WeaponRevolverDeckardSecurity
   id: WeaponRevolverDeckardNonLethalSecurity
-  description: "Рідкісний револьвер, зроблений на замовлення. Використовується, коли потрібно пощадити реплікантів. Поставляється з гумовою обоймою калібру .45 магнум. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: A rare, custom-built revolver. Use when you need to spare the Replicants. Comes with .45 magnum rubber.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: RevolverAmmoProvider
     whitelist:
@@ -104,10 +106,10 @@
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: "Інспектор"
+  name: Inspector
   parent: BaseWeaponRevolver
   id: WeaponRevolverInspector
-  description: "Кращий друг детектива. Використовує набої .45 магнум."
+  description: A detective's best friend. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi
@@ -119,19 +121,21 @@
     ammoSlots: [ null, null, null, null, null, null ]
 
 - type: entity
-  name: "Інспектор"
+  name: Inspector
   parent: WeaponRevolverInspector
   id: WeaponRevolverInspectorSecurity
-  description: "Кращий друг детектива. Використовує набої .45 магнум. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: A detective's best friend. Uses .45 magnum ammo.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: "Інспектор"
+  name: Inspector
   parent: WeaponRevolverInspectorSecurity
   id: WeaponRevolverInspectorNonLethalSecurity
-  description: "Кращий друг детектива. Заряджений гумовими набоями калібру .45 магнум. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: A detective's best friend. Comes loaded with .45 magnum rubber.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: RevolverAmmoProvider
     whitelist:
@@ -143,10 +147,10 @@
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: "Матеба"
+  name: Mateba
   parent: BaseWeaponRevolver
   id: WeaponRevolverMateba
-  description: "Характерний револьвер старовинної конструкції Sol', який колись вважався рідкісною колекційною річчю. Його серійно виробляють багато компаній у Республіці Бізель. Використовує набої калібру .45 магнум."
+  description: A distinctive revolver of an ancient Sol' design that was once seen as a rare collectible. It is in common manufacture by many companies in the Biesel Republic. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi
@@ -158,10 +162,10 @@
       path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
 
 - type: entity
-  name: "Python"
+  name: Python
   parent: BaseWeaponRevolver
   id: WeaponRevolverPython
-  description: "Культовий револьвер у великій рамці старовинного дизайну Sol'. Його виробляють багато компаній у всіх колоніях. Використовує набої .45 магнум."
+  description: An iconic large-framed revolver of ancient Sol' design. It is commonly manufactured by many companies all over the colonies. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
@@ -179,16 +183,17 @@
     fireOnDropChance: 0.3
 
 - type: entity
-  name: "Python"
+  name: Python
   parent: WeaponRevolverPython
   id: WeaponRevolverPythonSecurity
-  description: "Культовий револьвер у великій рамці старовинного дизайну Sol'. Його виробляють багато компаній у всіх колоніях. Використовує набої .45 магнум. Серійний номер на руків'ї вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: An iconic large-framed revolver of ancient Sol' design. It is commonly manufactured by many companies all over the colonies. Uses .45 magnum ammo.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: "Python"
+  name: Python
   parent: WeaponRevolverPythonSecurity
   id: WeaponRevolverPythonNonlethalSecurity
   components:
@@ -209,11 +214,11 @@
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: "Python"
+  name: Python
   parent: WeaponRevolverPython
   id: WeaponRevolverPythonAP # For the uplink.
   suffix: armor-piercing
-  description: "Культовий револьвер у великій рамці старовинного дизайну Sol'. Його виробляють багато компаній у всіх колоніях. Використовує набої .45 магнум."
+  description: An iconic large-framed revolver of ancient Sol' design. It is commonly manufactured by many companies all over the colonies. Uses .45 magnum ammo.
   components:
   - type: RevolverAmmoProvider
     whitelist:
@@ -224,10 +229,10 @@
 
 
 - type: entity
-  name: "піратський револьвер"
+  name: pirate revolver
   parent: BaseWeaponRevolver
   id: WeaponRevolverPirate
-  description: "Дивний, старовинний револьвер, який полюбляли піратські команди. Використовує набої .45 магнум."
+  description: An odd, old-looking revolver, favoured by pirate crews. Uses .45 magnum ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi

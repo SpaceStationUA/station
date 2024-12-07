@@ -1,11 +1,11 @@
 - type: construction
-  name: "павутинна стіна"
+  name: web wall
   id: WallWeb
   graph: WebStructures
   startNode: start
   targetNode: wall
   category: construction-category-structures
-  description: "Досить слабка, але шовковисто-гладка стіна."
+  description: A fairly weak yet silky smooth wall.
   icon:
     sprite: Structures/Walls/web.rsi
     state: full
@@ -20,13 +20,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "павутинний стіл"
+  name: web table
   id: TableWeb
   graph: WebStructures
   startNode: start
   targetNode: table
   category: construction-category-furniture
-  description: "Необхідний для будь-якої серйозної веб-розробки."
+  description: Essential for any serious web development.
   icon:
     sprite: Structures/Furniture/Tables/web.rsi
     state: full
@@ -41,13 +41,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "павутинне ліжко"
+  name: web bed
   id: WebBed
   graph: WebStructures
   startNode: start
   targetNode: bed
   category: construction-category-furniture
-  description: "Цікавий факт: те, що ви їсте павуків уві сні - неправда."
+  description: Fun fact, you eating spiders in your sleep is false.
   icon:
     sprite: Structures/Web/bed.rsi
     state: icon
@@ -62,13 +62,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "паутинне крісло"
+  name: web chair
   id: ChairWeb
   graph: WebStructures
   startNode: start
   targetNode: chair
   category: construction-category-furniture
-  description: "Хочеш серйозно зайнятися веб-розробкою? Сідай на цей стілець!"
+  description: You want to get serious about web development? Get this chair!
   icon:
     sprite: Structures/Web/chair.rsi
     state: icon
@@ -80,13 +80,13 @@
     - SpiderCraft
 
 - type: construction
-  name: "павутинний ящик"
+  name: web crate
   id: CrateWeb
   graph: WebStructures
   startNode: start
   targetNode: crate
   category: construction-category-storage
-  description: "Для зберігання їжі та інших речей. Не такий міцний, як звичайний ящик, і не може бути зварений."
+  description: For containment of food and other things. Not as durable as a normal crate, and can't be welded shut.
   icon:
     sprite: Structures/Storage/Crates/web.rsi
     state: icon
@@ -99,13 +99,13 @@
     - SpiderCraft
 
 - type: construction
-  name: "павутинні двері"
+  name: web door
   id: WebDoor
   graph: WebStructures
   startNode: start
   targetNode: door
   category: construction-category-structures
-  description: "Ручні дверцята з павутиння, зазвичай розміщені безпосередньо перед ямою або пасткою."
+  description: A manual door made from web, normally placed right before a pit or trap.
   icon:
     sprite: Structures/Doors/web_door.rsi
     state: closed
