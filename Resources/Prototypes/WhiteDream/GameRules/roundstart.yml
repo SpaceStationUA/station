@@ -5,6 +5,9 @@
   components:
   - type: GameRule
     minPlayers: 3
+    delay:
+      min: 240
+      max: 420
   - type: BloodCultRule
   - type: AntagSelection
     definitions:
