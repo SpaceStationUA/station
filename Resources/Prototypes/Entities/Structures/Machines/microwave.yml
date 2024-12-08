@@ -1,8 +1,8 @@
 - type: entity
   id: KitchenMicrowave
   parent: [ BaseMachinePowered, SmallConstructibleMachine ]
-  name: "мікрохвильова піч"
-  description: "Це магія."
+  name: microwave
+  description: It's magic.
   components:
   - type: Microwave
     capacity: 10
