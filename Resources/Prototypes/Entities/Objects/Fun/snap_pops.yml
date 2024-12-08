@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: SnapPop
-  name: snap pop
-  description: Throw it at the floor and listen to it POP!
+  name: "снеп-поп"
+  description: "Киньте його на підлогу і послухайте, як він вибухне!"
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: BaseStorageItem
   id: SnapPopBox
-  name: snap pop box
-  description: Contains snap pops for a few minutes of popping fun!
+  name: "коробка для поп-музики з застібкою"
+  description: "Містить швидкісні попси для кількох хвилин веселощів!"
   components:
   - type: Item
     size: Normal

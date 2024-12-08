@@ -1,7 +1,7 @@
 - type: emote
   id: HarpyRing
   icon: Interface/Emotes/bell.png #PIRATE
-  name: chat-emote-name-harpyring
+  name: "chat-emote-name-harpyring"
   category: Vocal
   chatMessages: [ дзвонить ]
   chatTriggers:
@@ -47,7 +47,7 @@
 - type: emote
   id: Bark
   icon: Interface/Emotes/dog.png #PIRATE
-  name: chat-emote-name-vulpbark
+  name: "chat-emote-name-vulpbark"
   category: Vocal
   chatMessages: [ гавкає ]
   chatTriggers:
@@ -56,7 +56,7 @@
 - type: emote
   id: Snarl
   icon: Interface/Emotes/snarl.png #PIRATE
-  name: chat-emote-name-vulpsnarl
+  name: "chat-emote-name-vulpsnarl"
   category: Vocal
   chatMessages: [ ричить ]
   chatTriggers:
@@ -65,7 +65,7 @@
 - type: emote
   id: Whine
   icon: Interface/Emotes/whine.jpeg #PIRATE
-  name: chat-emote-name-vulpwhine
+  name: "chat-emote-name-vulpwhine"
   category: Vocal
   chatMessages: [ скиглить ]
   chatTriggers:
@@ -73,7 +73,7 @@
 
 - type: emote
   id: Howl
-  name: chat-emote-name-vulphowl
+  name: "chat-emote-name-vulphowl"
   category: Vocal
   chatMessages: [ howls ]
   chatTriggers:
