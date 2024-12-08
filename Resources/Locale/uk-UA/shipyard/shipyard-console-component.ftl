@@ -11,7 +11,7 @@ shipyard-console-no-deed = Судновий акт не знайдено
 shipyard-console-sale-reqs = Корабель має бути пришвартований, а весь екіпаж висаджений
 shipyard-console-deed-label = Зареєстроване судно:
 
-shipyard-console-docking = Власник {$owner} корабля {$vessel} очікуйте 10 секунд до прибуття.
+shipyard-console-docking = {$vessel} прямує до станції, орієнтовний час прибуття – 60 секунд.
 shipyard-console-leaving = Капітан {$owner} корабля {$vessel} проданий {$player}.
 shipyard-console-docking-secret = Незареєстрований корабель входить у сектор.
 shipyard-console-leaving-secret = Незареєстрований корабель покинув сектор.

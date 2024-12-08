@@ -13,3 +13,6 @@ damage-value = - [color=red]{$amount}[/color] одиниць [color=yellow]{$typ
 
 damage-melee-heavy = силова атака
 damage-melee-heavy-stamina-cost = [color=cyan]{$type}[/color] коштує [color=orange]{$cost}[/color] [color=yellow]витривалості[/color].
+damage-stamina-cost = А [color=cyan]{$type}[/color] коштує [color=orange]{$cost}[/color] [color=yellow]Витривалість[/color].
+damage-examine-embeddable-harmful = Він [color=cyan]втикається[/color] при кидку, завдаючи шкоди з часом.
+damage-examine-embeddable = Він [color=cyan]втикається[/color] нешкідливо при киданні.
