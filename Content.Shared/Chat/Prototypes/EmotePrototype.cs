@@ -1,8 +1,6 @@
 using Content.Shared.Whitelist;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
-using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
-using Robust.Shared.GameStates;
 using Robust.Shared.Utility;
 
 namespace Content.Shared.Chat.Prototypes;
@@ -17,11 +15,7 @@ public sealed partial class EmotePrototype : IPrototype
     [IdDataField]
     public string ID { get; private set; } = default!;
 
-    // / <summary>
-    // /     Icon representing this emote in the UI.
-    // / </summary>
-    // [DataField("icon")]
-    // public SpriteSpecifier? Icon;
+    /// <summary>
     ///     Localization string for the emote name. Displayed in the radial UI.
     /// </summary>
     [DataField(required: true)]
@@ -75,7 +69,7 @@ public sealed partial class EmotePrototype : IPrototype
     [DataField]
     public HashSet<string> ChatTriggers = new();
 
-    // Pirate - animations
+    // goob edit - animations
     [DataField]
     public object? Event = null;
 }
