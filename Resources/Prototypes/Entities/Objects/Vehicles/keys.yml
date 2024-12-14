@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: VehicleKeyJanicart
-  name: "ключі janicart"
-  description: "Цікавий дизайн."
+  name: janicart keys
+  description: Interesting design.
   components:
   - type: Item
     size: Tiny
@@ -17,8 +17,8 @@
 - type: entity
   parent: VehicleKeyJanicart
   id: VehicleKeySecway
-  name: "ключі secway"
-  description: "Ключі до майбутнього."
+  name: secway keys
+  description: The keys to the future.
   components:
   - type: Tag
     tags:
@@ -31,8 +31,8 @@
 - type: entity
   parent: VehicleKeyJanicart
   id: VehicleKeyATV
-  name: "Ключі від квадроцикла"
-  description: "Думаєте, що це схоже на один ключ? ATV ключі означає \"фактично два ключі від транспортного засобу\""
+  name: ATV keys
+  description: Think this looks like just one key? ATV keys means "actually two vehicle keys."
   components:
   - type: Tag
     tags:
@@ -45,8 +45,8 @@
 - type: entity
   parent: VehicleKeyATV
   id: VehicleKeySkeleton
-  name: "скелетні ключі від транспортного засобу"
-  description: "Розблокувати будь-яку машину."
+  name: vehicle skeleton keys
+  description: Unlock any vehicle.
   components:
   - type: Tag
     tags:
@@ -60,8 +60,8 @@
 - type: entity
   parent: VehicleKeyJanicart
   id: VehicleKeySyndicateSegway
-  name: "синдикат ключів від сегвея"
-  description: "За зразком культового дизайну EMAG."
+  name: syndicate segway keys
+  description: Patterned after the iconic EMAG design.
   components:
     - type: Tag
       tags:
@@ -74,8 +74,8 @@
 - type: entity
   parent: VehicleKeyATV
   id: VehicleKeySkeletonMotorcycle
-  name: "ключі від скелетного мотоцикла"
-  description: "Красивий набір ключів, прикрашений черепом."
+  name: skeleton motorcycle keys
+  description: A beautiful set of keys adorned with a skull.
   components:
     - type: Tag
       tags:
