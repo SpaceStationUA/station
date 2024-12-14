@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterBaseMedium
   id: ClothingOuterArmorPlateCarrier
-  name: plate carrier
-  description: A large and bulky carrier featuring steel plates that offer decent protection against gunfire.
+  name: "носій пластин"
+  description: "Великий і громіздкий носій зі сталевими пластинами, що забезпечують надійний захист від вогнепальних пострілів."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Armor/platecarrier.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: ClothingOuterBaseMedium
   id: ClothingOuterArmorDuraVest
-  name: durathread vest
-  description: A tight-fitting and sturdy armor vest, reinforced with durathread weave to protect against sharp objects and blunt force trauma.
+  name: "бронежилет з фазової тканини"
+  description: "Щільно прилягаючий та міцний бронежилет, посилений плетінням з міцної нитки для захисту від гострих предметів та ударів тупими предметами."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Armor/duravest.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingOuterBaseLarge
   id: ClothingOuterArmorARC
-  name: ARCS
-  description: The Advanced Riot Control Suit, or ARCS for short, is generally regarded as far too bulky and overly hot for any practical use - but when the riots are raging, most officers invariably take great comfort from the thick and claustrophobic padding.
+  name: "ARCS"
+  description: "Удосконалений костюм для боротьби з масовими заворушеннями, або скорочено ARCS, зазвичай вважається занадто громіздким і надто гарячим для практичного використання - але під час масових заворушень більшість офіцерів незмінно відчувають себе комфортно в товстій і клаустрофобній підкладці."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Armor/riot.rsi

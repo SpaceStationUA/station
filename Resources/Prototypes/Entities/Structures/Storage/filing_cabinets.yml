@@ -1,9 +1,9 @@
 - type: entity
-  name: filing cabinet
+  name: "шафка для документів"
   parent: [ BaseStructureDynamic, BaseBagOpenClose ]
   id: filingCabinet
   suffix: Empty
-  description: A cabinet for all your filing needs.
+  description: "Шафа для всіх ваших потреб."
   components:
   - type: Storage
     grid:
@@ -69,7 +69,7 @@
     price: 20
 
 - type: entity
-  name: tall cabinet
+  name: "висока шафа"
   parent: filingCabinet
   id: filingCabinetTall
   suffix: Empty
@@ -87,11 +87,11 @@
     node: tallCabinet
 
 - type: entity
-  name: chest drawer
+  name: "шухляда комода"
   parent: BaseStructureDynamic
   id: filingCabinetDrawer
   suffix: Empty
-  description: A small drawer for all your filing needs, Now with wheels!
+  description: "Невелика шухляда для всіх ваших потреб, тепер на коліщатках!"
   components:
   - type: Storage
     grid:
