@@ -124,3 +124,7 @@ character-item-group-requirement = Ви повинні {$inverted ->
 
 
 ## Білий список
+character-cvar-requirement = Сервер повинен{$inverted ->
+    [true]{" "}не
+    *[other]{""}
+} мати [color={$color}]{$cvar}[/color], встановлений на [color={$color}]{$value}[/color].

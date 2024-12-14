@@ -16,3 +16,6 @@ blood-cult-condition-failure = Екіпажу вдалося зупинити р
 
 blood-cultists-list-start = Члени Геометрії Крові були:  
 blood-cultists-list-name = [color=White]{ $name }[/color] ([color=gray]{ $user}[/color])
+
+blood-cult-role-briefing-rending-locations = Завісу можна прорвати у {$location}, {$coordinates}
+blood-cult-role-briefing-emergency-rending = Ми можемо накреслити ще {$amount} рун розриву чи апокаліпсису!

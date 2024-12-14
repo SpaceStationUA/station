@@ -20,3 +20,8 @@ shuttle-curse-system-failure = СИСТЕМНА НЕСПРАВНІСТЬ
 shuttle-curse-success-global = Шаттл буде затримано на {$time} хвилин.  
 
 veil-shifter-cant-teleport = Не вдалося знайти місце для телепортації. Спробуйте ще раз!
+
+ghost-role-information-soul-shard-holy-name = Осколок благословенної душі
+ghost-role-information-soul-shard-holy-description = Станьте слугою екіпажу і допоможіть їм перемогти культ.
+ghost-role-information-soul-shard-holy-rules = Прийміть форму однієї з перетворених конструкцій і допоможіть команді зупинити Геометра Крові, щоб він не повернув їхню Стару Богиню назад у світ!
+veil-shifter-description = Залишилось {$charges} зарядів.
