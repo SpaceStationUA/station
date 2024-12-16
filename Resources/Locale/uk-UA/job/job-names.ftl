@@ -50,7 +50,7 @@ job-name-visitor = Відвідувач
 job-name-senior-engineer = Старший Інженер
 job-name-senior-researcher = Професор
 job-name-senior-physician = Старший Лікар
-job-name-senior-officer = Сержант
+job-name-senior-officer = Старший Офіцер
 job-name-blueshield = Офіцер Блюшілд
 job-name-roboticist = Робототехнік
 
@@ -97,7 +97,7 @@ JobScientist = Вчений
 JobSecurityCadet = Кадет
 JobSecurityOfficer = Офіцер
 JobSeniorEngineer = Старший Інженер
-JobSeniorOfficer = Сержант
+JobSeniorOfficer = Старший Офіцер
 JobSeniorPhysician = Старший Лікар
 JobSeniorResearcher = Професор
 JobServiceWorker = Сервісний працівник
