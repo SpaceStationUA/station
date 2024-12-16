@@ -8045,4 +8045,45 @@ Entries:
   id: 6575
   time: '2024-12-14T04:22:17.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1344
-
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено помилку, через яку зміна персонажів призводила до неправильного
+        зміни ширини/висоти.
+    - type: Fix
+      message: Виправлено помилку, коли магніт для порятунку відкривався десять разів.
+  id: 6576
+  time: '2024-12-14T18:09:00.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1347
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Заклинання "Розсіяння", "Метапсіонний імпульс", "Ксеноглосія" та
+        "Психогномія" тепер можна придбати під час створення персонажа за
+        бали навичок.
+    - type: Tweak
+      message: Сліпота тепер дає 10 балів навичок замість 6.
+  id: 6577
+  time: '2024-12-15T19:12:33.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1343
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано різноманітні позначки "Гострі Вуха" для персонажів Гарпі та Арахне.
+  id: 6578
+  time: '2024-12-15T19:13:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1348
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Перенесено версію терміналу прибуття з "Cosmatic Drift". Термінал тепер
+        включає всі варіанти одягу департаменту та шафки з матеріалами, які можуть
+        знадобитися гравцям, що дозволяє їм приміряти обладнання та стиль для обраної
+        роботи перед відправкою на станцію.
+  id: 6579
+  time: '2024-12-15T19:26:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1340
