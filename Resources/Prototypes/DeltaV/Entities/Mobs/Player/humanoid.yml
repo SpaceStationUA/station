@@ -1,6 +1,6 @@
 - type: entity # Delta-V part of PirateRadioSpawn
   id: RandomHumanoidSpawnerListener
-  name: "Слухач синдикату"
+  name: Syndicate Listener
   components:
     - type: Sprite
       sprite: Mobs/Species/Human/parts.rsi
@@ -20,7 +20,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerMobster
-  name: "мафіозі"
+  name: mobster
   components:
     - type: Sprite
       netsync: false
@@ -52,7 +52,7 @@
 
 - type: entity
   id: RandomHumanoidSpawnerMobsterAlt
-  name: "мафіозі"
+  name: mobster
   suffix: alt
   components:
     - type: Sprite
