@@ -11,3 +11,4 @@ main-menu-join-public-server-button-tooltip = Не вдається підклю
 main-menu-direct-connect-button = Пряме підключення
 main-menu-options-button = Налаштування
 main-menu-quit-button = Вийти
+main-menu-go-lobby-button = Підключіться та перейдіть до лобі
