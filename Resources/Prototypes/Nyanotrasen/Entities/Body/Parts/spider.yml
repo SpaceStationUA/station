@@ -1,7 +1,7 @@
 - type: entity
   id: PartSpider
   parent: BaseItem
-  name: "spider body part"
+  name: "частина тіла павука"
   abstract: true
   components:
   - type: Damageable
@@ -26,7 +26,7 @@
 
 - type: entity
   id: ThoraxSpider
-  name: "spider thorax" #for arachne, actual spiders should get a cephalothorax that combines with head.
+  name: "грудна клітка павука" #for arachne, actual spiders should get a cephalothorax that combines with head.
   parent: PartSpider
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 
 - type: entity
   id: RightLegSpider
-  name: "right spider leg"
+  name: "права павукова нога"
   parent: PartSpider
   components:
   - type: Sprite
@@ -64,7 +64,7 @@
 
 - type: entity
   id: LeftLegSpider
-  name: "left spider leg"
+  name: "ліва нога павука"
   parent: PartSpider
   components:
   - type: Sprite
