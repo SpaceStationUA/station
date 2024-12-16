@@ -123,4 +123,17 @@ public sealed class SpeedModifierContactsSystem : EntitySystem
         EnsureComp<SpeedModifiedByContactComponent>(otherUid);
         _toUpdate.Add(otherUid);
     }
+
+    /// <summary>
+    /// Add an entity to be checked for speed modification from contact with another entity.
+    /// </summary>
+    /// <param name="uid">The entity to be added.</param>
+    public void AddModifiedEntity(EntityUid uid)
+    {
+        if (!HasComp<MovementSpeedModifierComponent>(uid))
+            return;
+
+        EnsureComp<SpeedModifiedByContactComponent>(uid);
+        _toUpdate.Add(uid);
+    }
 }
