@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFedoraBlack
-  name: black fedora
-  description: A black fedora. Lookin' classy.
+  name: "чорний капелюх"
+  description: "Чорний фетровий капелюх. Виглядає стильно."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/blackfedora.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFedoraChoc
-  name: brown fedora
-  description: A brown fedora. Lookin' snazzy.
+  name: "коричневий капелюх"
+  description: "Коричневий капелюх. Виглядає шикарно."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/brownfedora.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFedoraWhite
-  name: white fedora
-  description: A white fedora. Lookin' ritzy.
+  name: "білий капелюх"
+  description: "Білий капелюх. Виглядає шикарно."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/whitefedora.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFlatBlack
-  name: black flat cap
-  description: A black flat cap, for driving cabs and delivering the papers.
+  name: "чорний плоский ковпачок"
+  description: "Чорний кашкет, для водіння таксі та доставки газет."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/flatblack.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFlatBrown
-  name: brown flat cap
-  description: A brown flat cap, for driving cabs and delivering the papers.
+  name: "коричневий плоский ковпачок"
+  description: "Коричневий кашкет, для водіння таксі та доставки газет."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/flatbrown.rsi
@@ -56,9 +56,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatFlatSyndie
-  name: black flat cap
+  name: "чорний плоский ковпачок"
   suffix: Weapon
-  description: A black flat cap, for sending a message.
+  description: "Чорний капелюшок, для надсилання повідомлення."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/flatblack.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapBlack
-  name: surgical cap
-  description: A black cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: "хірургічна шапочка"
+  description: "Чорна шапочка, яку носять хірурги під час операцій. Не дає їхньому волоссю лоскотати внутрішні органи."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/surgcap_black.rsi
@@ -84,8 +84,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapCyan
-  name: surgical cap
-  description: A cyan cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: "хірургічна шапочка"
+  description: "Шапочка блакитного кольору, яку хірурги одягають під час операцій. Не дає їхньому волоссю лоскотати ваші внутрішні органи."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/surgcap_cyan.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapCybersun
-  name: surgical cap
-  description: A surgical cap worn by members of Cybersun's Biotechnology division.
+  name: "хірургічна шапочка"
+  description: "Хірургічна шапочка, яку носять члени біотехнологічного підрозділу \"КіберСонця\"."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/surgcap_cybersun.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapPink
-  name: surgical cap
-  description: A pink cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: "хірургічна шапочка"
+  description: "Рожева шапочка, яку носять хірурги під час операцій. Не дає їхньому волоссю лоскотати внутрішні органи."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/surgcap_pink.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapRainbow
-  name: surgical cap
-  description: A rainbow cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: "хірургічна шапочка"
+  description: "Райдужна шапочка, яку хірурги одягають під час операцій. Не дає їх волоссю лоскотати внутрішні органи."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/surgcap_rainbow.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSurgcapWhite
-  name: surgical cap
-  description: A black cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
+  name: "хірургічна шапочка"
+  description: "Чорна шапочка, яку носять хірурги під час операцій. Не дає їхньому волоссю лоскотати внутрішні органи."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/surgcap_white.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadCourier
-  name: courier's cap
-  description: Special delivery.
+  name: "кепка кур'єра"
+  description: "Спеціальна доставка."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Soft/couriersoft.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadCourierFlipped
-  name: courier's cap flipped
-  description: Special delivery.
+  name: "кур'єр зсунув кепку"
+  description: "Спеціальна доставка."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Soft/couriersoft.rsi
@@ -163,8 +163,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatDirCap
-  name: director's cap
-  description: A green cap with a director's rank emblem, belonging to a high-ranking member of Central Command. Whoever it is, they mean business.
+  name: "режисерський кашкет"
+  description: "Зелений кашкет з емблемою директорського звання, що належить високопоставленому члену Центрального командування. Хто б це не був, він серйозно налаштований."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/dircap.rsi
@@ -174,8 +174,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretLogi
-  name: logistics beret
-  description: For the intellectual and studious accountant. Definitely not a revolutionary symbol.
+  name: "логістичний берет"
+  description: "Для інтелігентного та старанного бухгалтера. Точно не революційний символ."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/beret_lo.rsi
@@ -185,8 +185,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretCorpsman
-  name: corpsman beret
-  description: For style-conscious combat lifesavers and medical specialists alike.
+  name: "берет бріг-медика"
+  description: "Для тих, хто стежить за стилем, хто рятує життя в бою, а також для медичних працівників."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/beret_corpsman.rsi
@@ -196,8 +196,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCJToque
-  name: chief justice's toque
-  description: A standard-issue judicial hat. Wigs are old-fashioned anyway.
+  name: "токе головного судді"
+  description: "Стандартний суддівський капелюх. Перуки все одно старомодні."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Head/Hats/cj_toque.rsi
