@@ -4,6 +4,7 @@
     - survival
   name: survival-title
   showInVote: true # secret # DeltaV - Me when the survival. Used for periapsis.
+  minPlayers: 13 #PIRATE
   description: survival-description
   rules:
     - RampingStationEventScheduler
@@ -16,6 +17,7 @@
     - hellshift
   showInVote: true
   name: hellshift-title
+  minPlayers: 15 #PIRATE
   description: hellshift-description
   rules:
     - HellshiftStationEventScheduler
@@ -26,6 +28,7 @@
   id: SurvivalIrregular
   alias: [irregular]
   showInVote: true
+  minPlayers: 10 #PIRATE
   name: irregular-title
   description: irregular-description
   rules:
@@ -36,6 +39,7 @@
   id: SurvivalIrregularExtended
   alias: [irregular-extended]
   showInVote: true
+  minPlayers: 10 #PIRATE
   name: irregular-extended-title
   description: irregular-extended-description
   rules:
@@ -45,6 +49,7 @@
 - type: gamePreset
   id: AllAtOnce
   name: all-at-once-title
+  minPlayers: 20 #PIRATE
   description: all-at-once-description
   showInVote: true # PIRATE
   rules:
@@ -87,6 +92,7 @@
     - sekrit
   name: secret-title
   showInVote: true
+  minPlayers: 8 #PIRATE
   description: secret-description
   rules:
     - Secret
@@ -127,6 +133,7 @@
   name: traitor-title
   description: traitor-description
   showInVote: true
+  minPlayers: 9 #PIRATE
   rules:
     - Traitor
     - SubGamemodesRule
@@ -139,6 +146,7 @@
     - changeling
   name: changeling-title
   description: changeling-description
+  minPlayers: 15 #PIRATE
   showInVote: true
   rules:
     - Changeling
@@ -152,6 +160,7 @@
     - heretic
   name: heretic-title
   description: heretic-description
+  minPlayers: 15 #PIRATE
   showInVote: true
   rules:
     - Heretic
@@ -166,7 +175,7 @@
     - dm
   name: death-match-title
   description: death-match-description
-  #maxPlayers: 15
+  maxPlayers: 12
   showInVote: true #PIRATE # DeltaV - No.
   supportedMaps: DeathMatchMapPool
   rules:
@@ -179,6 +188,7 @@
   name: nukeops-title
   description: nukeops-description
   showInVote: true #PIRATE
+  minPlayers: 20 #PIRATE
   rules:
     - Nukeops
     - SubGamemodesRule
@@ -194,6 +204,7 @@
   name: rev-title
   description: rev-description
   showInVote: true #PIRATE
+  minPlayers: 18 #PIRATE
   rules:
     - Revolutionary
     - SubGamemodesRule
@@ -211,6 +222,7 @@
   name: zombie-title
   description: zombie-description
   showInVote: true #PIRATE
+  minPlayers: 16 #PIRATE
   rules:
   - Zombie
   - BasicStationEventScheduler
