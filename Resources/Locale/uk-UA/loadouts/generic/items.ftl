@@ -11,7 +11,6 @@ loadout-description-LoadoutItemPlushieSharkBlue = Поринь у бій зі с
 loadout-description-LoadoutItemPlushieSharkPink = Розкрийте силу рожевого кольору з плюшевою акулою Рожева акула! Цей рожевий хижак, можливо, і не має справжніх зубів, але його чарівності вистачить, щоб зламати будь-чию рішучість. Спостерігайте, як вороги тануть перед його ватним шармом.
 loadout-description-LoadoutItemPlushieSharkGrey = Представляємо плюшеву акулу "Сіра акула" - головного хижака для обіймів! Завдяки своєму витонченому та стриманому дизайну, ця плюшева акула досягає ідеального балансу між компаньйоном для обіймів та уявним охоронцем океану. Обережно: супротивники можуть бути загіпнотизовані гіпнотичними коливаннями його спинного плавника!
 loadout-description-LoadoutItemPlushieCarp = Приготуйтеся до інопланетних витівок з фіолетовим космічним коропом-плюшевим! Риб'ячий загарбник з космічних глибин, ця плюшева фігурка додає трохи гумору до пригод у невагомості. Від ворожих вод до міжзоряного хихотіння - це м'яке протиріччя, яке знаходиться поза межами цього світу
-
 loadout-description-LoadoutSolCommonTranslator = Найпоширеніший з усіх перекладачів, такий, що його можна купити на будь-якій цивілізованій станції. Цей пристрій перекладає мову Sol Common на галактичну Common.
 loadout-name-LoadoutItemPapers = аркуші паперу (x4)
 loadout-description-LoadoutItemPapers = чотири аркуші паперу, які добре підходять для заповнення нудних паперів і мовчазного спілкування.
@@ -22,9 +21,22 @@ loadout-description-LoadoutItemLunchboxGenericFilledRandom = Упаковано 
 loadout-description-LoadoutHandLabeler = Ручний маркувальник, що використовується для маркування предметів і об'єктів. Не рекомендується використовувати його для маркування паливного бака написом "РОЗВ'ЯЗАННЯ ПРОБЛЕМИ КЛОУНА".
 loadout-description-LoadoutEmergencyMedipen = Швидкий і безпечний спосіб стабілізації пацієнтів у критичному стані для персоналу без спеціальних медичних знань. ПОПЕРЕДЖЕННЯ: одночасне введення двох екстрених медипенів призведе до передозування адреналіну.
 loadout-description-LoadoutSpaceMedipen = Містить суміш хімічних речовин, які захищають вас від смертоносного впливу космосу. Також відомий як "скафандр бідняка". УВАГА: одночасне введення двох космічних медипенів призведе до передозування барозином.
+
 loadout-name-LoadoutItemBoxSurvival = ящик для виживання (стандартний)
 loadout-name-LoadoutItemBoxSurvivalEngineering = аварійно-рятувальний бокс збільшеної місткості (інженерний)
 loadout-name-LoadoutItemBoxSurvivalSecurity = ящик для виживання (безпека)
 loadout-name-LoadoutItemBoxSurvivalBrigmedic = ящик для виживання (санітарний)
 loadout-name-LoadoutItemBoxSurvivalMedical = аптечка (медична)
 loadout-name-LoadoutItemBoxHug = коробка з обіймами (клоун)
+
+loadout-name-LoadoutItemLighter = запальничка (кольорова)
+loadout-name-LoadoutItemLighterCheap = дешева запальничка (кольорова)
+loadout-name-LoadoutItemLighterFlippo = запальничка фліппо (кольорова)
+loadout-name-LoadoutItemDrinkShinyFlask = блискуча колба (кольорова)
+loadout-name-LoadoutItemDrinkLithiumFlask = літієва колба (кольорова)
+loadout-name-LoadoutItemDrinkVacuumFlask = вакуумна колба (кольорова)
+
+loadout-name-LoadoutItemPetMouse = домашня миша
+loadout-name-LoadoutItemPetHamster = домашній хом'як
+loadout-name-LoadoutItemPetMothroach = домашній тарган
+loadout-name-LoadoutItemPetCockroach = домашній тарган

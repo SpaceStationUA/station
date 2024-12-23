@@ -750,3 +750,4 @@ character-item-group-LoadoutReporterOuter = Репортерський верх�
 character-item-group-LoadoutReporterShoes = Взуття для репортерів
 character-item-group-LoadoutReporterUniforms = Репортерська уніформа # Риси - Мови
 character-item-group-LoadoutSalvageSpecialistWeapons = Шахтар Зброя #Медицина
+character-item-group-LoadoutPets = Домашні тварини # Шаблон для конкретної роботи
