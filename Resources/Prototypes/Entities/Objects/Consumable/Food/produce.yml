@@ -1251,6 +1251,14 @@
     - Poppy # goob edit
 
 - type: entity
+  name: hairflower
+  id: FoodPoppyWhite
+  parent: FoodPoppy
+  components:
+  - type: Sprite
+    sprite: Objects/Specific/Hydroponics/poppywhite.rsi
+
+- type: entity
   name: lily
   parent: FoodPoppy
   id: FoodLily
