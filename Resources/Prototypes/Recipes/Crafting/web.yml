@@ -1,11 +1,11 @@
 - type: construction
-  name: web tile
+  name: "павутинна-плитка"
   id: TileWeb
   graph: WebObjects
   startNode: start
   targetNode: tile
   category: construction-category-tiles
-  description: "Nice and smooth."
+  description: "Приємно і гладко."
   entityWhitelist:
     tags:
     - SpiderCraft
@@ -15,13 +15,13 @@
   objectType: Item
 
 - type: construction
-  name: web winter coat
+  name: "павутинне зимове пальто"
   id: ClothingOuterWinterWeb
   graph: WebObjects
   startNode: start
   targetNode: coat
   category: construction-category-clothing
-  description: "Surprisingly warm and durable."
+  description: "Напрочуд тепле і міцне."
   entityWhitelist:
     tags:
     - SpiderCraft
@@ -31,13 +31,13 @@
   objectType: Item
 
 - type: construction
-  name: web jumpsuit
+  name: "павутинний комбінезон"
   id: ClothingUniformJumpsuitWeb
   graph: WebObjects
   startNode: start
   targetNode: jumpsuit
   category: construction-category-clothing
-  description: "At least it's something."
+  description: "Принаймні, це вже щось."
   entityWhitelist:
     tags:
     - SpiderCraft
@@ -47,13 +47,13 @@
   objectType: Item
 
 - type: construction
-  name: web jumpskirt
+  name: "спідниця з павутини"
   id: ClothingUniformJumpskirtWeb
   graph: WebObjects
   startNode: start
   targetNode: jumpskirt
   category: construction-category-clothing
-  description: "At least it's something."
+  description: "Принаймні, це вже щось."
   entityWhitelist:
     tags:
     - SpiderCraft
@@ -63,13 +63,13 @@
   objectType: Item
 
 - type: construction
-  name: silk woven cloth
+  name: "шовкова ткана тканина"
   id: SilkWovenCloth
   graph: WebObjects
   startNode: start
   targetNode: cloth
   category: construction-category-materials
-  description: "Feels just like cloth, strangely enough."
+  description: "На дотик, як не дивно, як тканина."
   entityWhitelist:
     tags:
     - SpiderCraft
@@ -79,13 +79,13 @@
   objectType: Item
 
 - type: construction
-  name: web shield
+  name: "павутинний щит"
   id: WebShield
   graph: WebObjects
   startNode: start
   targetNode: shield
   category: construction-category-clothing
-  description: "It's thick enough to handle a few blows, but probably not heat."
+  description: "Він достатньо товстий, щоб витримати кілька ударів, але, мабуть, не нагрівається."
   entityWhitelist:
     tags:
     - SpiderCraft
@@ -95,13 +95,13 @@
   objectType: Item
 
 - type: construction
-  name: web winter boots
+  name: "зимові черевики з павутини"
   id: ClothingShoesBootsWinterWeb
   graph: WebObjects
   startNode: start
   targetNode: boots
   category: construction-category-clothing
-  description: "Tightly woven web should protect against the cold"
+  description: "Щільно сплетене полотно повинно захищати від холоду"
   entityWhitelist:
     tags:
     - SpiderCraft

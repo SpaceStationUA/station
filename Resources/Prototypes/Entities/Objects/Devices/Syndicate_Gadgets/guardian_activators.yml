@@ -1,8 +1,8 @@
 - type: entity
-  name: holoparasite injector
+  name: "ін'єктор голопаразитів"
   id: HoloparasiteInjector
   parent: BaseItem
-  description: A complex artwork of handheld machinery allowing the user to host a holoparasite guardian.
+  description: "Складний витвір ручної техніки, що дозволяє користувачеві приймати у себе охоронця-голопаразита."
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/hypospray.rsi
@@ -11,19 +11,19 @@
     guardianProto: MobHoloparasiteGuardian
 
 - type: entity
-  name: holoclown injector
+  name: "інжектор холоклоуна"
   parent: HoloparasiteInjector
   id: HoloClownInjector
-  description: A complex artwork of handheld machinery allowing the user to host a holoclown guardian.
+  description: "Складний витвір мистецтва з ручної техніки, що дозволяє користувачеві приймати опікуна-голоклоуна."
   components:
   - type: GuardianCreator
     guardianProto: MobHoloClownGuardian
 
 - type: entity
-  name: magical lamp
+  name: "чарівна лампа"
   id: MagicalLamp
   parent: BaseItem
-  description: The wizard federation had to cut costs after the jinn merchandise scandal somehow.
+  description: "Федерація чарівників мусила якось скоротити витрати після скандалу з товарами для джинів."
   components:
   - type: Sprite
     sprite: Objects/Misc/Lights/lamp.rsi
@@ -33,10 +33,10 @@
     guardianProto: MobIfritGuardian
 
 - type: entity
-  name: holoparasite box
+  name: "ящик для голопаразитів"
   parent: BoxCardboard
   id: BoxHoloparasite
-  description: A box containing a holoparasite injector
+  description: "Коробка з ін'єктором для голопаразитів"
   components:
   - type: StorageFill
     contents:
@@ -49,10 +49,10 @@
       - state: holo
 
 - type: entity
-  name: holoclown box
+  name: "голографічна коробка"
   parent: BoxCardboard
   id: BoxHoloclown
-  description: A box containing a holoclown injector
+  description: "Коробка з інжектором холостого ходу"
   components:
   - type: StorageFill
     contents:
