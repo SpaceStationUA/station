@@ -1,8 +1,8 @@
 - type: entity
   id: CrateArmorySMG
   parent: CrateWeaponSecure
-  name: "Ящик SMG"
-  description: "Містить дві потужні напівавтоматичні гвинтівки з чотирма магазинами. Для відкриття потрібен доступ до арсеналу."
+  name: SMG crate
+  description: Contains two high-powered, semiautomatic rifles with four mags. Requires Armory access to open.
   components:
   - type: StorageFill
     contents:
@@ -14,8 +14,8 @@
 - type: entity
   id: CrateArmoryShotgun
   parent: CrateWeaponSecure
-  name: "ящик для рушниці"
-  description: "Для тих випадків, коли ворога конче потрібно завалити свинцем. Містить два бойові дробовики Enforcer та кілька стандартних набоїв до них. Для відкриття потрібен доступ до арсеналу."
+  name: shotgun crate
+  description: For when the enemy absolutely needs to be replaced with lead. Contains two Enforcer Combat Shotguns, and some standard shotgun shells. Requires Armory access to open.
   components:
   - type: StorageFill
     contents:
@@ -27,8 +27,8 @@
 - type: entity
   id: CrateTrackingImplants
   parent: CrateWeaponSecure
-  name: "відстеження імплантатів"
-  description: "Містить кілька відстежувальних імплантатів. Добре підходить для в'язнів, яких ви хочете відпустити, але все одно продовжуєте стежити за ними."
+  name: tracking implants
+  description: Contains a handful of tracking implanters. Good for prisoners you'd like to release but still keep track of.
   components:
   - type: StorageFill
     contents:
@@ -38,8 +38,8 @@
 - type: entity
   parent: CrateWeaponSecure
   id: CrateTrainingBombs
-  name: "навчальні бомби"
-  description: "Містить три навчальні бомби малої потужності для тренувань з знешкодження та безпечної утилізації боєприпасів, костюм сапера не входить до комплекту. Для відкриття потрібен доступ до арсеналу."
+  name: training bombs
+  description: Contains three low-yield training bombs for security to learn defusal and safe ordnance disposal, EOD suit not included. Requires Armory access to open.
   components:
   - type: StorageFill
     contents:
@@ -49,8 +49,8 @@
 - type: entity
   id: CrateArmoryLaser
   parent: CrateWeaponSecure
-  name: "ящик для лазерів"
-  description: "Містить три стандартні лазерні гвинтівки. Для відкриття потрібен доступ до арсеналу."
+  name: lasers crate
+  description: Contains three standard-issue laser rifles. Requires Armory access to open.
   components:
   - type: StorageFill
     contents:
@@ -60,8 +60,8 @@
 - type: entity
   id: CrateArmoryPistols
   parent: CrateWeaponSecure
-  name: "ящик для пістолетів"
-  description: "Містить два стандартних пістолети NT з чотирма магазинами. Для відкриття потрібен доступ до арсеналу."
+  name: pistols crate
+  description: Contains two standard NT pistols with four mags. Requires Armory access to open.
   components:
   - type: StorageFill
     contents:

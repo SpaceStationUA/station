@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterCultArmor
-  name: "справжня нар'сієнська загартована броня"
-  description: "важкоброньований екзокостюм, який носять воїни культу Нар'Сі. Витримує жорсткий вакуум."
+  name: true nar'sien hardened armor
+  description: heavily-armored exosuit worn by warriors of the Nar'Sien cult. It can withstand hard vacuum.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Clothes/Outer/cult_armor.rsi
@@ -35,8 +35,8 @@
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetCultArmor
   categories: [ HideSpawnMenu ]
-  name: "істинно нар'сієнський загартований шолом"
-  description: "Важкоброньований шолом, який носили воїни культу Нар'Сі. Витримує жорсткий вакуум."
+  name: true nar'sien hardened helmet
+  description: A heavily-armored helmet worn by warriors of the Nar'Sien cult. It can withstand hard vacuum.
   components:
   - type: BreathMask
   - type: Sprite
@@ -52,8 +52,8 @@
 - type: entity
   parent: ClothingOuterRobesCult
   id: ClothingOuterRobesCultTrue
-  name: "халат флагелянта"
-  description: "Просякнуті кров'ю шати, наповнені темною магією; дозволяють користувачеві пересуватися з нелюдською швидкістю, але ціною підвищеної шкоди."
+  name: flagellant's robe
+  description: Blood-soaked robes infused with dark magic; allows the user to move at inhuman speeds, but at the cost of increased damage.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Clothes/Outer/cult_robe.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: ClothingHeadHatHoodCulthood
   id: ClothingHeadHatHoodCultHoodTrue
-  name: "капюшон флагелянта"
-  description: "Просякнутий кров'ю капюшон, просякнутий темною магією."
+  name: flagellant's hood
+  description: A blood-soaked hood infused with dark magic.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -103,8 +103,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyeCultBlindfold
-  name: "пов'язка фанатика"
-  description: "Нехай Нар'є проведе вас крізь темряву і захистить від світла"
+  name: zealot's blindfold
+  description: May Nar'Sie guide you through the darkness and shield you from the light
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Misc/blindfold.rsi
