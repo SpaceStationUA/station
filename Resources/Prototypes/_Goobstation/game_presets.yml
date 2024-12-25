@@ -4,7 +4,8 @@
   - blab
   name: blob-title
   description: blob-description
-  showInVote: false
+  minPlayers: 15
+  showInVote: true
   rules:
   - BlobGameMode
   - BasicStationEventScheduler
