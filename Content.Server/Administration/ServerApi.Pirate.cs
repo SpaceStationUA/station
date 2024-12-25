@@ -19,7 +19,8 @@ public sealed partial class ServerApi
         "warden",
         "detective",
         "securityofficer",
-        "securitycadet"
+        "securitycadet",
+        "seniorofficer"
     };
 
     [Dependency] private readonly IEntityManager _entMan = default!;
