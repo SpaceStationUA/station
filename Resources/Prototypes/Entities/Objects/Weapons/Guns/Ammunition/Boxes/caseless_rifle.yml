@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseMagazineBox
   id: BaseMagazineBoxCaselessRifle
-  name: ammunition box (.25 caseless)
+  name: "коробочка з набоями (.25 без гільз)"
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -28,7 +28,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifle10x24
-  name: ammunition box (.25 caseless)
+  name: "коробочка з набоями (.25 без гільз)"
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -48,7 +48,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifleBig
-  name: ammunition box (.25 caseless)
+  name: "коробочка з набоями (.25 без гільз)"
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -68,7 +68,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifleBigRubber
-  name: ammunition box (.25 caseless rubber)
+  name: "коробочка з набоями (гума калібру .25 без гільз)"
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -89,7 +89,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifle
-  name: ammunition box (.25 caseless)
+  name: "коробочка з набоями (.25 без гільз)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifle
@@ -103,7 +103,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRiflePractice
-  name: ammunition box (.25 caseless practice)
+  name: "коробочка з набоями (.25 безоболонковий набій)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRiflePractice
@@ -118,7 +118,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifleRubber
-  name: ammunition box (.25 caseless rubber)
+  name: "коробочка з набоями (гума калібру .25 без гільз)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifleRubber

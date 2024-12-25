@@ -26,8 +26,8 @@
   id: BlobMob
 
 - type: entity
-  name: cancer mouse
-  description: Toxic. Squeak!
+  name: "ракова миша"
+  description: "Токсична. Писк!"
   parent: MobMouseCancer
   id: MobMouseCancerBlob
   suffix: Blob
@@ -36,7 +36,7 @@
 
 - type: entity
   id: SpawnPointGhostBlobRat
-  name: Mouse Blob Spawn Point
+  name: "Точка розмноження мишачої краплі"
   suffix: Blob Ghost Role
   parent: BaseAntagSpawner
   components:
@@ -90,7 +90,7 @@
   abstract: true
   parent: MarkerBase
   id: BaseAntagSpawner
-  name: ghost role spawn point
+  name: "точка народження примарної ролі"
   components:
   - type: GhostRole
     raffle:
