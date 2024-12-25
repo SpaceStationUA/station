@@ -5,7 +5,7 @@
 - type: entity
   id: PartAnimal
   parent: BaseItem
-  name: "частина тіла тварини"
+  name: "animal body part"
   abstract: true
   components:
   # yes these sprites dont make sense i dont care its better than them being invisible
@@ -34,7 +34,7 @@
 
 - type: entity
   id: HandsAnimal
-  name: "руки тварин"
+  name: animal hands
   parent: PartAnimal
   categories: [ HideSpawnMenu ]
   components:
@@ -48,7 +48,7 @@
 
 - type: entity
   id: LegsAnimal
-  name: "ноги тварин"
+  name: animal legs
   parent: PartAnimal
   categories: [ HideSpawnMenu ]
   components:
@@ -62,7 +62,7 @@
 
 - type: entity
   id: FeetAnimal
-  name: "лапи тварин"
+  name: animal feet
   parent: PartAnimal
   categories: [ HideSpawnMenu ]
   components:
@@ -75,7 +75,7 @@
 
 - type: entity
   id: TorsoAnimal
-  name: "тулуб тварини"
+  name: animal torso
   parent: PartAnimal
   categories: [ HideSpawnMenu ]
   components:
@@ -98,7 +98,7 @@
 - type: entity
   parent: [PartAnimal, BaseHead]
   id: HeadAnimal
-  name: "голова тварини"
+  name: animal head
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -117,8 +117,8 @@
   categories: [ HideSpawnMenu ]
   parent: BaseCarpPart
   id: TailCarp
-  name: "короповий хвіст"
-  description: "Унікальні залози в цьому хвості дозволяють космічним коропам літати у вакуумі."
+  name: carp tail
+  description: Unique glands in this tail let space carp fly in a vacuum.
   components:
   - type: Sprite
     layers:
@@ -135,7 +135,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseCarpPart
   id: TorsoCarp
-  name: "тулуб коропа"
+  name: carp torso
   components:
   - type: Sprite
     layers:
