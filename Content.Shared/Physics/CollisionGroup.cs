@@ -23,6 +23,7 @@ public enum CollisionGroup
     BulletImpassable   = 1 << 6, // 64 Can be hit by bullets
     InteractImpassable = 1 << 7, // 128 Blocks interaction/InRangeUnobstructed
     DoorPassable       = 1 << 8, // 256 Allows door to close over top, Like blast doors over conveyors for disposals rooms/cargo.
+    BlobImpassable     = 1 << 9, // 512 Blob Tiles Goobstation - Blob
 
     MapGrid = MapGridHelpers.CollisionGroup, // Map grids, like shuttles. This is the actual grid itself, not the walls or other entities connected to the grid.
 
@@ -30,21 +31,21 @@ public enum CollisionGroup
     AllMask = -1,
 
     // Humanoids, etc.
-    MobMask = Impassable | HighImpassable | MidImpassable | LowImpassable,
+    MobMask = Impassable | HighImpassable | MidImpassable | LowImpassable | BlobImpassable, //Goobstation - Blob
     MobLayer = Opaque | BulletImpassable,
     // Mice, drones
-    SmallMobMask = Impassable | LowImpassable,
+    SmallMobMask = Impassable | LowImpassable | BlobImpassable, //Goobstation - Blob
     SmallMobLayer = Opaque | BulletImpassable,
     // Birds/other small flyers
-    FlyingMobMask = Impassable | HighImpassable,
+    FlyingMobMask = Impassable | HighImpassable | BlobImpassable, //Goobstation - Blob
     FlyingMobLayer = Opaque | BulletImpassable,
 
     // Mechs
-    LargeMobMask = Impassable | HighImpassable | MidImpassable | LowImpassable,
+    LargeMobMask = Impassable | HighImpassable | MidImpassable | LowImpassable | BlobImpassable, //Goobstation - Blob
     LargeMobLayer = Opaque | HighImpassable | MidImpassable | LowImpassable | BulletImpassable,
 
     // Machines, computers
-    MachineMask = Impassable | MidImpassable | LowImpassable,
+    MachineMask = Impassable | MidImpassable | LowImpassable | BlobImpassable, //Goobstation - Blob
     MachineLayer = Opaque | MidImpassable | LowImpassable | BulletImpassable,
     ConveyorMask = Impassable | MidImpassable | LowImpassable | DoorPassable,
 
@@ -52,11 +53,11 @@ public enum CollisionGroup
     CrateMask = Impassable | HighImpassable | LowImpassable,
 
     // Tables that SmallMobs can go under
-    TableMask = Impassable | MidImpassable,
+    TableMask = Impassable | MidImpassable | BlobImpassable, //Goobstation - Blob
     TableLayer = MidImpassable,
 
     // Tabletop machines, windoors, firelocks
-    TabletopMachineMask = Impassable | HighImpassable,
+    TabletopMachineMask = Impassable | HighImpassable | BlobImpassable, //Goobstation - Blob
     // Tabletop machines
     TabletopMachineLayer = Opaque | HighImpassable | BulletImpassable,
 
@@ -70,7 +71,7 @@ public enum CollisionGroup
     // Soap, spills
     SlipLayer = MidImpassable | LowImpassable,
     ItemMask = Impassable | HighImpassable,
-    ThrownItem = Impassable | HighImpassable | BulletImpassable,
+    ThrownItem = Impassable | HighImpassable | BulletImpassable | BlobImpassable, //Goobstation - Blob
     WallLayer = Opaque | Impassable | HighImpassable | MidImpassable | LowImpassable | BulletImpassable | InteractImpassable,
     GlassLayer = Impassable | HighImpassable | MidImpassable | LowImpassable | BulletImpassable | InteractImpassable,
     HalfWallLayer = MidImpassable | LowImpassable,
@@ -80,5 +81,16 @@ public enum CollisionGroup
     // FlyingMob can go past
     FullTileLayer = Opaque | HighImpassable | MidImpassable | LowImpassable | BulletImpassable | InteractImpassable,
 
-    SubfloorMask = Impassable | LowImpassable
+    SubfloorMask = Impassable | LowImpassable,
+
+
+    // start-goobstation: blob
+    BlobMobMask = Impassable | HighImpassable | MidImpassable | LowImpassable,
+    BlobMobLayer = Opaque | BulletImpassable,
+
+    FlyingBlobMobMask = Impassable | HighImpassable,
+    FlyingBlobMobLayer = Opaque | BulletImpassable,
+
+    BlobTileLayer = Opaque | BlobImpassable | BulletImpassable
+    // end-goobstation: blob
 }

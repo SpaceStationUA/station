@@ -1,0 +1,10 @@
+- type: antag
+  id: Blob
+  name: roles-antag-blob-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-blob-objective
+  guides: [ Blob ]
+  requirements:
+  - !type:CharacterOverallTimeRequirement
+    min: 72000 #Pirate - 72 hours
