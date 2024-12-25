@@ -31,8 +31,9 @@
         text: blob-carrier-role-greeting
         color: Plum
         sound: /Audio/Announcements/bloblarm.ogg
-#      mindRoles:
-#      - MindRoleBlob
+      mindComponents:
+      - type: BlobRole
+        prototype: Blob
 
 - type: entity
   id: BlobSpawn

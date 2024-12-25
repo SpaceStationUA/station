@@ -133,7 +133,7 @@ public sealed partial class ExplosionSystem : EntitySystem
             return;
 
         component.DamageCoefficient = newCoefficient;
-        Dirty(entityUid, component);
+        // Dirty(entityUid, component);
     }
 
     private void RelayedResistance(EntityUid uid, ExplosionResistanceComponent component,

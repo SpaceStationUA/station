@@ -37,7 +37,7 @@ public sealed class BlobObserverSystem : SharedBlobObserverSystem
 
     private void OnShowBlobIcon<T>(Entity<T> ent, ref GetStatusIconsEvent args) where T : Component
     {
-        args.StatusIcons.Add(_prototype.Index<StatusIconPrototype>(BlobFaction));
+        // args.StatusIcons.Add(_prototype.Index<StatusIconPrototype>(BlobFaction));
     }
 
     private void OnPlayerAttached(EntityUid uid, BlobObserverComponent component, LocalPlayerAttachedEvent args)

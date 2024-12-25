@@ -16,6 +16,7 @@ public sealed class MakeATraitorSystem : EntitySystem
         Revolutionary = 2,
         Changeling = 3,
         Heretic = 4,
+        Blob = 5,
     }
 
     [ValidatePrototypeId<EntityPrototype>]
@@ -32,6 +33,9 @@ public sealed class MakeATraitorSystem : EntitySystem
 
     [ValidatePrototypeId<EntityPrototype>]
     private const string DefaultHereticRule = "Heretic";
+
+    [ValidatePrototypeId<EntityPrototype>]
+    private const string DefaultBlobRule = "Blob";
 
     [Dependency] private readonly AntagSelectionSystem _antag = default!;
 
@@ -59,9 +63,17 @@ public sealed class MakeATraitorSystem : EntitySystem
             case TraitorType.Heretic:
                 MakeHeretic(player);
                 break;
+            case TraitorType.Blob:
+                MakeBlob(entity);
+                break;
             default:
                 return;
         }
+    }
+
+    private void MakeBlob(EntityUid target)
+    {
+        EnsureComp<Shared._Goobstation.Blob.Components.BlobCarrierComponent>(target).HasMind = HasComp<ActorComponent>(target);
     }
 
     private void MakeTraitor(ICommonSession? target)
