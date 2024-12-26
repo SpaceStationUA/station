@@ -42,6 +42,7 @@ public sealed partial class HereticCombatMarkSystem : EntitySystem
             case "Ash":
                 // gives fire stacks
                 _flammable.AdjustFireStacks(target, 5);
+                _flammable.Ignite(target,target);
                 break;
 
             case "Blade":

@@ -1,5 +1,6 @@
 using Content.Server.Body.Components;
 using Content.Shared.Body.Components;
+using Content.Shared.Body.Organ;
 using Content.Shared.Body.Part;
 using Content.Shared.Damage;
 using Content.Shared.DoAfter;
@@ -30,9 +31,9 @@ public sealed partial class HereticAbilitySystem : EntitySystem
             var dargs = new DoAfterArgs(EntityManager, ent, 10f, new EventHereticFleshSurgeryDoAfter(args.Target), ent, args.Target)
             {
                 BreakOnDamage = true,
-                BreakOnMove = true,
+                BreakOnUserMove = true,
+                BreakOnTargetMove = true,
                 BreakOnHandChange = false,
-                BreakOnDropItem = false,
             };
             _doafter.TryStartDoAfter(dargs);
             args.Handled = true;
@@ -48,7 +49,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
             {
                 // remove stomach
                 case 0:
-                    foreach (var entity in _body.GetBodyOrganEntityComps<StomachComponent>((args.Target, body)))
+                    foreach (var entity in GetBodyOrganEntityComps<StomachComponent>((args.Target, body)))
                         QueueDel(entity.Owner);
 
                     _popup.PopupEntity(Loc.GetString("admin-smite-stomach-removal-self"), args.Target,
@@ -70,7 +71,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
 
                 // remove lungs
                 case 2:
-                    foreach (var entity in _body.GetBodyOrganEntityComps<LungComponent>((args.Target, body)))
+                    foreach (var entity in GetBodyOrganEntityComps<LungComponent>((args.Target, body)))
                         QueueDel(entity.Owner);
 
                     _popup.PopupEntity(Loc.GetString("admin-smite-lung-removal-self"), args.Target,
@@ -106,5 +107,30 @@ public sealed partial class HereticAbilitySystem : EntitySystem
             return;
 
         _aud.PlayPvs(new SoundPathSpecifier("/Audio/Animals/space_dragon_roar.ogg"), (EntityUid) urist, AudioParams.Default.AddVolume(2f));
+    }
+
+    /// <summary>
+    /// Returns a list of Entity<<see cref="T"/>, <see cref="OrganComponent"/>>
+    /// for each organ of the body
+    /// </summary>
+    /// <typeparam name="T">The component that we want to return</typeparam>
+    /// <param name="entity">The body to check the organs of</param>
+    /// PIRATE, HELPER method from Content.Shared.Body.Systems.SharedBodySystem.Organs.cs
+    public List<Entity<T, OrganComponent>> GetBodyOrganEntityComps<T>(
+        Entity<BodyComponent?> entity)
+        where T : IComponent
+    {
+        if (!Resolve(entity, ref entity.Comp))
+            return new List<Entity<T, OrganComponent>>();
+
+        var query = GetEntityQuery<T>();
+        var list = new List<Entity<T, OrganComponent>>(3);
+        foreach (var organ in _body.GetBodyOrgans(entity.Owner, entity.Comp))
+        {
+            if (query.TryGetComponent(organ.Id, out var comp))
+                list.Add((organ.Id, comp, organ.Component));
+        }
+
+        return list;
     }
 }

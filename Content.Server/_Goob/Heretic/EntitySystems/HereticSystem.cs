@@ -3,7 +3,6 @@ using Content.Server.Store.Systems;
 using Content.Shared.FixedPoint;
 using Content.Shared.Heretic;
 using Content.Shared.Mind;
-using Content.Shared.Store.Components;
 using Content.Shared.Heretic.Prototypes;
 using Content.Server.Chat.Systems;
 using Robust.Shared.Audio;
@@ -14,6 +13,7 @@ using System.Linq;
 using Content.Shared.Humanoid;
 using Robust.Server.Player;
 using Content.Server.Revolutionary.Components;
+using Content.Server.Store.Components;
 using Content.Shared.Random.Helpers;
 using Robust.Shared.Prototypes;
 

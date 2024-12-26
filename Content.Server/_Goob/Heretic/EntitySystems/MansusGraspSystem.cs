@@ -1,12 +1,11 @@
 using Content.Server.Atmos.Commands;
 using Content.Server.Chat.Systems;
-using Content.Server.EntityEffects.Effects.StatusEffects;
 using Content.Server.Hands.Systems;
 using Content.Server.Heretic.Components;
 using Content.Server.Speech.EntitySystems;
 using Content.Server.Temperature.Components;
 using Content.Server.Temperature.Systems;
-using Content.Shared._White.Standing;
+using Content.Shared.Chat;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Systems;
 using Content.Shared.DoAfter;
@@ -22,6 +21,7 @@ using Content.Shared.Item;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Silicons.Borgs.Components;
 using Content.Shared.Speech.Muting;
+using Content.Shared.Standing;
 using Content.Shared.StatusEffect;
 using Content.Shared.Stunnable;
 using Content.Shared.Tag;
@@ -134,7 +134,8 @@ public sealed partial class MansusGraspSystem : EntitySystem
         {
             BreakOnDamage = true,
             BreakOnHandChange = true,
-            BreakOnMove = true,
+            BreakOnTargetMove = true,
+            BreakOnUserMove = true,
             CancelDuplicate = false,
         };
         _doAfter.TryStartDoAfter(dargs);
@@ -176,7 +177,7 @@ public sealed partial class MansusGraspSystem : EntitySystem
                     var degrees = Transform(target).LocalRotation.Degrees - Transform(performer).LocalRotation.Degrees;
                     if (HasComp<LayingDownComponent>(target) // laying down
                     || (degrees >= 160 && degrees <= 210)) // looking back
-                        _stamina.TakeStaminaDamage(target, 110f, immediate: true);
+                        _stamina.TakeStaminaDamage(target, 110f);
                     break;
                 }
 

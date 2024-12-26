@@ -28,7 +28,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
     private void OnAristocratWay(Entity<HereticComponent> ent, ref HereticAristocratWayEvent args)
     {
         RemComp<TemperatureComponent>(ent);
-        RemComp<TemperatureSpeedComponent>(ent);
+        // RemComp<TemperatureSpeedComponent>(ent);
         RemComp<RespiratorComponent>(ent);
     }
     private void OnAscensionVoid(Entity<HereticComponent> ent, ref HereticAscensionVoidEvent args)

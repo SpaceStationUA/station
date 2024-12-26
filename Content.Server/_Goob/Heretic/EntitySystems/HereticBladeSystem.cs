@@ -53,7 +53,8 @@ public sealed partial class HereticBladeSystem : EntitySystem
         switch (hereticComp.CurrentPath)
         {
             case "Ash":
-                _flammable.AdjustFireStacks(target, 2.5f, ignite: true);
+                _flammable.AdjustFireStacks(target, 2.5f);
+                _flammable.Ignite(target, target);
                 break;
 
             case "Blade":

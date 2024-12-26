@@ -65,8 +65,12 @@ public sealed partial class HereticAbilitySystem : EntitySystem
         if (!_splitball.Spawn(ent, ignoredTargets))
             return;
 
-        if (ent.Comp.Ascended) // will only work on ash path
-            _flammable.AdjustFireStacks(ent, 20f, ignite: true);
+        if (ent.Comp.Ascended)
+        {
+            // will only work on ash path
+            _flammable.AdjustFireStacks(ent, 20f);
+            _flammable.Ignite(ent, ent);
+        }
 
         args.Handled = true;
     }
@@ -99,7 +103,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
                 }
 
                 if (!flam.OnFire)
-                    _flammable.AdjustFireStacks(look, power, flam, true);
+                    _flammable.AdjustFireStacks(look, power, flam);
 
                 if (TryComp<MobStateComponent>(look, out var mobstat))
                     if (mobstat.CurrentState == MobState.Critical)
@@ -116,9 +120,10 @@ public sealed partial class HereticAbilitySystem : EntitySystem
 
         EnsureComp<HereticFlamesComponent>(ent);
 
-        if (ent.Comp.Ascended)
-            _flammable.AdjustFireStacks(ent, 20f, ignite: true);
-
+        if (ent.Comp.Ascended){
+            _flammable.AdjustFireStacks(ent, 20f);
+            _flammable.Ignite(ent, ent);
+        }
         args.Handled = true;
     }
     private void OnCascade(Entity<HereticComponent> ent, ref EventHereticCascade args)
@@ -137,7 +142,10 @@ public sealed partial class HereticAbilitySystem : EntitySystem
         }
 
         if (ent.Comp.Ascended)
-            _flammable.AdjustFireStacks(ent, 20f, ignite: true);
+        {
+            _flammable.AdjustFireStacks(ent, 20f);
+            _flammable.Ignite(ent, ent);
+        }
 
         args.Handled = true;
     }
@@ -146,7 +154,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
     private void OnAscensionAsh(Entity<HereticComponent> ent, ref HereticAscensionAshEvent args)
     {
         RemComp<TemperatureComponent>(ent);
-        RemComp<TemperatureSpeedComponent>(ent);
+        // RemComp<TemperatureSpeedComponent>(ent);
         RemComp<RespiratorComponent>(ent);
         RemComp<BarotraumaComponent>(ent);
 

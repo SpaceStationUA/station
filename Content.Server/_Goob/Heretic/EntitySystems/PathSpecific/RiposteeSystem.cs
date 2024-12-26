@@ -2,6 +2,7 @@ using Content.Server.Hands.Systems;
 using Content.Server.Heretic.Components.PathSpecific;
 using Content.Server.Popups;
 using Content.Shared.Damage;
+using Content.Shared.FixedPoint;
 using Content.Shared.Weapons.Melee;
 
 namespace Content.Server.Heretic.EntitySystems.PathSpecific;
@@ -46,7 +47,7 @@ public sealed partial class RiposteeSystem : EntitySystem
 
     private void OnBeforeDamageChange(Entity<RiposteeComponent> ent, ref BeforeDamageChangedEvent args)
     {
-        if (!args.Damage.AnyPositive() // is healing
+        if (!AnyPositive(args.Damage.DamageDict) // is healing
         || !ent.Comp.CanRiposte // can't riposte
         || !HasComp<MeleeWeaponComponent>(_hands.GetActiveItem(ent.Owner))) // not holding a melee weapon
             return;
@@ -57,5 +58,17 @@ public sealed partial class RiposteeSystem : EntitySystem
 
         ent.Comp.CanRiposte = false;
         _popup.PopupEntity(Loc.GetString("heretic-riposte-used"), ent);
+    }
+
+    // PIRATE, helper method from DamageableSystem wizden
+    public bool AnyPositive(Dictionary<string, FixedPoint2> DamageDict)
+    {
+        foreach (var value in DamageDict.Values)
+        {
+            if (value > FixedPoint2.Zero)
+                return true;
+        }
+
+        return false;
     }
 }
