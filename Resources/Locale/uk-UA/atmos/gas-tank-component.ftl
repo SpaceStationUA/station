@@ -8,7 +8,7 @@ comp-gas-tank-connected = Він підключений до зовнішньо�
 
 # Examine text when valve is open or closed.
 comp-gas-tank-examine-open-valve = Газовідвідний клапан [color=red]відкритий[/color].
-comp-gas-tank-examine-closed-valve = Газовідвідний клапан [color=зелений]закритий[/color].
+comp-gas-tank-examine-closed-valve = Газовідвідний клапан [color=green]закритий[/color].
 
 ## Дієслово керування
 control-verb-open-control-panel-text = Відкрийте панель керування
