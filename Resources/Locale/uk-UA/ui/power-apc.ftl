@@ -8,9 +8,9 @@ apc-menu-charge-label = Заряду {$percent}
 
 # For the power state label
 
-apc-menu-power-state-good = В межах норми
-apc-menu-power-state-low = Низкий
-apc-menu-power-state-none = Відсутній
+apc-menu-power-state-good = Добре
+apc-menu-power-state-low = Низьке
+apc-menu-power-state-none = Відсутнє
 
 # For the flavor text on the footer
 
