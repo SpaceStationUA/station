@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: SpawnPointGhostBlob
-  name: Blob
+  name: "Блоб"
   suffix: DONTMAP, spawner
   parent: MarkerBase
   components:
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseBlob
   id: CoreBlobTile
-  name: Core Blob
-  description: The most important part of the Blob. This is the brain and heart of the Blob.
+  name: "Ядерна кулька"
+  description: "Найважливіша частина Кульки. Це мозок і серце Згустка."
   save: false
   components:
   - type: Temperature
@@ -101,9 +101,9 @@
 - type: entity
   parent: BaseBlob
   id: NormalBlobTile
-  name: Normal Blob
+  name: "Нормальний згусток"
   categories: [ HideSpawnMenu ]
-  description: An ordinary part of yours required for the construction of more advanced tiles.
+  description: "Звичайна ваша частина, необхідна для створення більш досконалих плиток."
   components:
   - type: Temperature
     heatDamage:
@@ -165,8 +165,8 @@
 - type: entity
   parent: BaseBlob
   id: FactoryBlobTile
-  name: Factory Blob
-  description: The so-called BlobPods come out of the factory and attack passers-by and zombify the corpses of these same passers-by. One factory produces 3 of these BlobPods; they cannot be placed next to each other at a distance of 7 tiles; one factory can produce only one Blobbernaut.
+  name: "Фабрика \"Блоб"
+  description: "З фабрики виходять так звані BlobPods, які нападають на перехожих і зомбують трупи цих самих перехожих. Одна фабрика виробляє 3 таких BlobPods; їх не можна розміщувати один біля одного на відстані 7 тайлів; одна фабрика може виробляти тільки одного Blobbernaut."
   categories: [ HideSpawnMenu ]
   components:
     - type: Temperature
@@ -204,7 +204,7 @@
 - type: entity
   parent: BaseBlob
   id: ResourceBlobTile
-  name: Resource Blob
+  name: "Ресурсна крихта"
   categories: [ HideSpawnMenu ]
   components:
     - type: Temperature
@@ -243,8 +243,8 @@
 - type: entity
   parent: BaseBlob
   id: NodeBlobTile
-  name: Node Blob
-  description: The second, but mini, Blob core, near which you can place factories and resource blobs. Required to split the core.
+  name: "Нода Блоб"
+  description: "Друге, але міні-ядро, Blob core, біля якого можна розміщувати фабрики та ресурсні блоки. Необхідний для поділу ядра."
   categories: [ HideSpawnMenu ]
   components:
     - type: Temperature
@@ -284,7 +284,7 @@
   parent: BaseBlob
   id: StrongBlobTile
   name: StrongBlobTile
-  description: The basis of defensive positions has not only a strength of 6 times, this tile is also capable of withstanding various gases in order to become an atmospheric technician to protect the core, for example, from plasma that the enemy can set on fire.
+  description: "Основа оборонних позицій має не лише 6-кратну міцність, ця плитка також здатна витримувати різні гази, щоб стати атмосферною технікою для захисту ядра, наприклад, від плазми, яку ворог може підпалити."
   categories: [ HideSpawnMenu ]
   components:
     - type: Airtight
@@ -311,8 +311,8 @@
 - type: entity
   parent: BaseBlob
   id: ReflectiveBlobTile
-  name: ReflectiveBlobTile
-  description: Upgrading a fortified cell in which they pay less strength for the ability to reflect only energy projectiles and lasers with a 90% chance.
+  name: "Відбивна плитка ReflectiveBlobTile"
+  description: "Модернізація укріпленої клітини, в якій платять менше сили за можливість відбивати лише енергетичні снаряди та лазери з ймовірністю 90%."
   categories: [ HideSpawnMenu ]
   components:
     - type: Airtight

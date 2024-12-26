@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: WeaponTurretSyndicateBroken
-  name: ballistic turret (broken)
-  description: A ballistic machine gun auto-turret.
+  name: "балістична вежа (розбита)"
+  description: "Балістична кулеметна автобашта."
   components:
     - type: Clickable
     - type: InteractionOutline
@@ -33,7 +33,7 @@
 - type: entity
   parent: BaseStructure
   id: BaseWeaponTurret
-  name: ballistic turret
+  name: "балістична вежа"
   abstract: true
   components:
     - type: Clickable
@@ -130,7 +130,7 @@
 
 - type: entity
   parent: BaseWeaponTurret
-  name: disposable ballistic turret
+  name: "одноразова балістична турель"
   id: WeaponTurretSyndicateDisposable
   suffix: Syndicate, Disposable
   components:
@@ -196,8 +196,8 @@
     - SimpleHostile
 
 - type: entity
-  name: xeno turret
-  description: Shoots 9mm acid projectiles
+  name: "ксенобашта"
+  description: "Стріляє 9-мм кислотними снарядами"
   parent: BaseWeaponTurret
   id: WeaponTurretXeno
   suffix: Xeno
