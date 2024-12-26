@@ -1,82 +1,84 @@
 <Document>
-  # Завіса Мансуса слабшає
-  Отже, ти Єретик? Що ж, готуйся до магії та битви. Збирай впливи, здійснюй жертви, проводь ритуали та піднімайся до божественності.
+  # The Mansus Veil Weakens
+  So you're a Heretic? Well, get ready for magic and battle. Grab influences, complete sacrifices, accomplish rituals, and ascend to godhood.
 
-  Твоя остаточна мета — піднятися та стати всемогутнім, але для цього ти повинен здобути знання.
-  Усі знання коштують 1 очко, за винятком "публічних", які доступні з будь-якого шляху, або Вознесінь.
+  Your ultimate goal is to ascend and become all powerful, but to do that you must gain knowledge.
+  All knowledges cost 1 point, except for "public" ones, which are accessible from any path, or Ascensions.
 
-  Ти можеш здобувати очки знань і ставати сильнішим кількома способами:
-  - Поглинаючи впливи, які випадково з'являються по всій станції.
-  - Жертвуючи членів екіпажу, яких бажають твої темні покровителі.
-  - Автоматично отримуючи одне очко знань кожні 20 хвилин.
+  You can gain knowledge points and become stronger through a few ways:
+  - Draining influences that spawn randomly around the station.
+  - Sacrificing crew members your dark patrons hunger for.
+  - Automatically getting one knowledge point every 20 minutes.
 
-  ## Неземні Впливи
+  ## Eldritch Influences
   <Box>
     <GuideEntityEmbed Entity="EldritchInfluence" Caption=""/>
   </Box>
-  Впливи — це легкий спосіб отримати очки сили. Коли на борту Космічної Станції 14 є Єретики, впливи будуть випадково з'являтися по всій станції.
-  Вони невидимі для непосвяченого ока члена екіпажу, однак вони [bold]стануть[/bold] видимими після збору, окрім того, що раптово змінять кольори.
-  ПРОФЕСІЙНА ПОРАДА: [color=orange]Бурштиновий Фокус[/color] дозволяє вам зібрати вдвічі більше очок з впливів.
+  Influences are the easy way to gain power points. Whenever there are Heretics aboard Space Station 14, influences will randomly spawn across the station.
+  They are not visible to the naked eye of a crew member, hovewer they [bold]will[/bold] become visible after harvesting, aside from suddenly changing colors.
+  Tip: When using [color=green]Codex Cicatrix[/color] on an influence you will get double the points, but it will be a dead giveaway to anyone nearby that you're a heretic.
   <Box>
-    <GuideEntityEmbed Entity="EldritchInfluenceSpent" Caption="Зібраний вплив. Зверніть увагу на світіння."/>
+    <GuideEntityEmbed Entity="EldritchInfluenceSpent" Caption="Harvested influence. Notice the glow."/>
   </Box>
 
-  Кожен вплив можна зібрати лише один раз, тому єретик, який діє найшвидше і збирає найбільше впливів першим, повинен менше вбивати і жертвувати, щоб досягти своїх вознесінь.
+  Each influence can only be harvested once, so the heretic that goes the fastest and grabs the most influences first has to do less killing and sacrificing to reach their ascensions.
 
-  ## Жертвопринесення
-  Тепер настав час набратися хоробрості і почати жертвувати членів екіпажу за очки.
-  Мансус бажає лише вибраних кількох Невірних (не-єретиків) у будь-який момент.
+  ## Sacrifices
+  Now it's time for you to grow some balls and start sacrificing crewmembers for points.
+  The Mansus desires only a select few Heathens (non-heretics) at any moment.
 
-  На початку раунду вам буде призначено п'ять цілей для жертвопринесення. Ви можете перезавантажити їх за допомогою додаткового знання (Невпинний Пульс) пізніше, але до того часу ви прив'язані до них.
+  At the start of the round you will be assigned five sacrifice targets. You can reroll these with an optional knowledge (The Relentless Heartbeat) later on, but until then, you're stuck with those.
 
-  - Однією з цілей буде Голова Персоналу. Голови персоналу дають додаткове очко!
-  - Однією з цілей буде член служби безпеки.
-  - Однією з цілей буде член вашого відділу.
-  - Інші цілі будуть повністю випадковими членами екіпажу.
+  - One target will be a Head of Staff. Heads of staff are worth an additional point!
+  - One target will be a member of security.
+  - One target will be a member of your department.
+  - Other targets will be completely random crewmembers.
+  
+  You will only be able to sacrifice these targets. Your patrons will not accept just any old assistant.
 
-  Ви зможете жертвувати лише цими цілями. Ваші покровителі не приймуть будь-якого старого асистента.
+  Follow your [color=red]Living Heart[/color] to your target of choice and incapacitate them through any means necessary. If your target's in critical condition or dead they're ready to sacrifice.
+  Drag them over a transmutation rune and invoke the [color=yellow]Heartbeat of the Mansus[/color] to sacrifice them.
 
-  Слідуйте за своїм [color=red]Живим Серцем[/color] до обраної цілі і нейтралізуйте її будь-якими необхідними способами. Якщо ваша ціль у критичному стані або мертва, вона готова до жертвопринесення.
-  Перетягніть її на руну трансмутації та викличте ритуал [color=yellow]Пульс Мансуса[/color], щоб принести її в жертву.
+  You can reroll your targets by invoking [color=yellow]Relentless Heartbeat[/color] ritual.
 
-  Ви можете перезавантажити свої цілі, виконавши ритуал [color=yellow]Невпинний Пульс[/color].
+  ## Heretical Research
+  Once you have some power points, it's time to research! Open up your knowledge store using the action button.
+  The research menu forms a branching tree, and your first selection will be to commit to a path that defines your initial abilities and Final Ascension.
+  You can earn abilities from other paths to a limited degree, but overall your chosen path will heavily influence your play-style.
 
-  ## Єретичні Дослідження
-  Коли у вас з'являться деякі очки сили, настав час досліджувати! Відкрийте свій магазин знань за допомогою кнопки дії.
-  Меню досліджень формує розгалужене дерево, і ваш перший вибір буде полягати в тому, щоб вибрати шлях, який визначає ваші початкові здібності та Остаточне Вознесіння.
-  Ви можете здобути здібності з інших шляхів у обмеженому обсязі, але загалом обраний вами шлях сильно вплине на ваш стиль гри.
+  ## Transmutation is Key
+  Eventually, you'll need to start using proper magics. To draw a transmutation rune, you'll need a writing tool, such as a pen or crayon.
+  Activate [color=green]Mansus Grasp[/color] in your offhand and click on the floor to start drawing a rune.
+  These runes are highly noticeable and take up a 3x3 area.
+  You can freely remove runes by using your pen with the activated [color=green]Mansus Grasp[/color] on it, and you can also freely use other Heretic's runes.
 
-  ## Трансмутація — це Ключ
-  Зрештою, вам потрібно буде почати використовувати справжню магію. Щоб намалювати руну трансмутації, вам потрібен інструмент для письма, такий як ручка або крейда.
-  Активуйте [color=green]Хватку Мансуса[/color] у вашій другій руці та клацніть на підлозі, щоб почати малювати руну.
-  Ці руни дуже помітні та займають площу 3x3.
-  Ви можете вільно видаляти руни, використовуючи вашу ручку з активованою [color=green]Хваткою Мансуса[/color], і ви також можете вільно використовувати руни інших Єретиків.
+  To [bold]transmute[/bold], simply click the rune with your empty hand to choose the needed ritual, after that use your [color=green]Mansus Grasp[/color] on the rune to see what objects you require for the ritual.
+  You can always see your chosen ritual by [bold]inspecting[/bold] the rune.
 
-  Щоб [bold]трансмутувати[/bold], просто клацніть по руні порожньою рукою, щоб вибрати потрібний ритуал, після цього використовуйте вашу [color=green]Хватку Мансуса[/color] на руні, щоб побачити, які об'єкти вам потрібні для ритуалу.
-  Ви завжди можете побачити обраний ритуал, [bold]оглянувши[/bold] руну.
+  Transmutation Rituals allow you to create powerful artifacts, demonic monsters, and many useful tools that will help you progress towards ultimate power.
 
-  Ритуали Трансмутації дозволяють створювати потужні артефакти, демонічних монстрів і багато корисних інструментів, які допоможуть вам просунутися до абсолютної влади.
+  ## Focus is Necessary
+  To cast more advanced spells, you must focus by wearing an [color=orange]Amber Focus[/color].
+  You can acquire Ambes Focus using the eponymous ritual.
+  Some more powerful heretical equipment also functions as a focus - namely, the Ominous Armor from the Armorer's Ritual (when the hood is flipped up).
+  [color=yellow]Ascension[/color] disables the need for a focus.
 
-  ## Фокус Необхідний
-  Щоб кастувати більш просунуті заклинання, ви повинні сфокусуватися, одягнувши [color=orange]Бурштиновий Фокус[/color].
-  Ви можете отримати Бурштиновий Фокус, використовуючи однойменний ритуал.
-  Деяке більш потужне єретичне спорядження також функціонує як фокус — а саме, Зловісна Броня з Ритуалу Зброяра (коли капюшон піднятий).
-  [color=yellow]Вознесіння[/color] скасовує потребу у фокусі.
+  ## Starting Knowledge
+  - \[ [color=red]Mansus Grasp[/color] \] - A short range spell that channels eldritch power straight to your palm. Upon contact, knocks down and confuses unsuspecting targets.
+  - \[ [color=red]Heartbeat of the Mansus[/color] \] - Allows you to sacrifice targets who are in critical or worse condition to the Mansus, gibbing them and rewarding you with one knowledge point; two if your victim was a head of staff.
+  - \[ [color=red]Amber Focus[/color] \] - Allows you to transmute a sheet of glass and a pair of eyes into an Amber Focus. This is a small neck-worn item that allows you to cast advanced spells while worn.
+  - \[ [color=red]Living Heart[/color] \] - Allows you to pinpoint your targets. Plays an audible heartbeat sound, so use it carefully.
+  - \[ [color=red]Relentless Heartbeat[/color] \] - Allows you to reroll your target selection, in case you've run out of bodies or want a different approach.
+  - \[ [color=red]Codex Cicatrix[/color] \] - Allows you to cast advanced spells while open in hands, and drain more knowledge points from influences. If you lost your codex you can make a new one at the rune.
 
-  ## Початкові Знання
-  - \[ [color=red]Хватка Мансуса[/color] \] — Заклинання ближнього бою, яке спрямовує неземну силу прямо до вашої долоні. При контакті збиває з ніг і плутає нічого не підозрюючі цілі.
-  - \[ [color=red]Пульс Мансуса[/color] \] — Дозволяє вам жертвувати цілі, які знаходяться в критичному або гіршому стані, Мансусу, розриваючи їх і винагороджуючи вас одним очком знання; двома, якщо ваша жертва була головою персоналу.
-  - \[ [color=red]Бурштиновий Фокус[/color] \] — Дозволяє вам трансмутувати аркуш скла та пару очей у Бурштиновий Фокус. Це маленький предмет, що носиться на шиї, який дозволяє вам кастувати більш просунуті заклинання Єретика, коли він носиться.
-  - \[ [color=red]Живе Серце[/color] \] — Дозволяє вам точно визначити ваші цілі. Відтворює чутний звук серцебиття, тому використовуйте його обережно.
-  - \[ [color=red]Невпинний Пульс[/color] \] — Дозволяє вам перезавантажити вибір цілей, якщо у вас закінчилися тіла або ви хочете інший підхід.
-
-  ## Поради
-  - На Попільному Шляху завжди носіть із собою вогнегасник або пляшку з водою! Хоча ви можете вивергати вогняні кулі, ви не захищені від них, поки не вознесетесь!
-  - Як [color=purple]Упир[/color], ваша здібність [color=green]Зв'язок Мансуса[/color] надзвичайно корисна для спілкування. Коли ви використовуєте її на комусь, вони отримують радіоканал, схожий на канал перевертнів з клавішею :z для приватного спілкування.
-  - На відміну від більшості інших сольних антагоністів, Єретики починають слабкими, але стають сильнішими з часом. Було б найкраще не привертати до себе занадто багато уваги, поки ви не розблокуєте більш потужні заклинання та спорядження.
-  - Ваша Хватка Мансуса тимчасово спотворить мову людей, на яких ви її використовуєте. Це може дозволити вам уникнути покарання за вбивство, поки комунікації працюють, але будьте обережні — це не бездоганно.
-  - [color=purple]Впливи[/color] можуть з'являтися майже в будь-якому місці на станції, починаючи від головних коридорів і громадських туалетів до [color=cyan]офісів командного складу[/color] та [color=red]обмежених зон безпеки[/color] у Бригу. Найкраще перевіряти всі області, до яких ви маєте доступ, громадські та відділові.
-  - За замовчуванням нічого на вас не є викривальним. Якщо безпека підозрює вас, але не може дійсно прив'язати до вас щось єретичне, ви можете видати себе за Зрадника.
-  - Мавпи та інші тварини є чудовими, зазвичай непідозрілими джерелами органів або трупів для ваших єретичних ритуалів.
-  - Більшість викликаних упирів скинуть компоненти, використані для їх створення, після смерті. Хоча їхня смерть не є ідеальною, ви можете легко забрати частини та викликати іншого.
+  ## Tips
+  - On Ashen Path, always carry a fire extinguisher or a bottle of water with you! While you can spew out fireballs, you are not immune to them until you ascend!
+  - As a [color=purple]Ghoul[/color], your [color=green]Mansus Link[/color] ability is extremely useful for communication. When you use it on someone, they gain a radio channel similar to changelings with :z key to talk privately.
+  - Unlike most other solo antagonists, Heretics start weak but grow stronger over time. It would be best not to attract too much attention to yourself until you unlock more powerful spells and equipment.
+  - Your Mansus Grasp will temporarily garble the speech of people who you use it on. This can let you get away with murder while comms are online, but be careful - it's not foolproof.
+  - [color=purple]Influences[/color] can spawn in almost any location on the station, ranging from the main hallways and public restrooms to [color=cyan]Command staff offices[/color] and [color=red]restricted security areas[/color] in the Brig. It's best to check every area you can access, public and department.
+  - By default, nothing on you is incriminating. If security suspects you, but can't actually pin anything heretical on you, you might be able to pass off as a Traitor instead.
+  - Monkeys and other animals make for great, usually non-suspicious sources of organs or corpses for your heretical rituals.
+  - Most summoned ghouls will drop the components used to create them on death. While having them to die is not ideal, you can easily grab the parts and summon another.
+  - [color=yellow]Eldritch Flash[/color], a stage 3 side path knowledge acts like a cryostasis beaker and has a total capacity of 100 units, meaning you can create deadly mixes that are easily triggered.
 </Document>
