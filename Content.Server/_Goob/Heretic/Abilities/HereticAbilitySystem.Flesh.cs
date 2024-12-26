@@ -16,7 +16,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
     {
         SubscribeLocalEvent<HereticComponent, EventHereticFleshSurgery>(OnFleshSurgery);
         SubscribeLocalEvent<HereticComponent, EventHereticFleshSurgeryDoAfter>(OnFleshSurgeryDoAfter);
-        SubscribeLocalEvent<HereticComponent, EventHereticFleshAscend>(OnFleshAscendPolymorph);
+        SubscribeLocalEvent<HereticComponent, HereticAscensionFleshEvent>(OnAscensionFlesh);
     }
 
     private void OnFleshSurgery(Entity<HereticComponent> ent, ref EventHereticFleshSurgery args)
@@ -30,9 +30,9 @@ public sealed partial class HereticAbilitySystem : EntitySystem
             var dargs = new DoAfterArgs(EntityManager, ent, 10f, new EventHereticFleshSurgeryDoAfter(args.Target), ent, args.Target)
             {
                 BreakOnDamage = true,
-                // BreakOnMove = true,
+                BreakOnMove = true,
                 BreakOnHandChange = false,
-                // BreakOnDropItem = false,
+                BreakOnDropItem = false,
             };
             _doafter.TryStartDoAfter(dargs);
             args.Handled = true;
@@ -48,7 +48,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
             {
                 // remove stomach
                 case 0:
-                    foreach (var (entity, _) in _body.GetBodyOrganComponents<StomachComponent>(args.Target, body))
+                    foreach (var entity in _body.GetBodyOrganEntityComps<StomachComponent>((args.Target, body)))
                         QueueDel(entity.Owner);
 
                     _popup.PopupEntity(Loc.GetString("admin-smite-stomach-removal-self"), args.Target,
@@ -70,7 +70,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
 
                 // remove lungs
                 case 2:
-                    foreach (var (entity, _) in _body.GetBodyOrganComponents<LungComponent>(args.Target, body))
+                    foreach (var entity in _body.GetBodyOrganEntityComps<LungComponent>((args.Target, body)))
                         QueueDel(entity.Owner);
 
                     _popup.PopupEntity(Loc.GetString("admin-smite-lung-removal-self"), args.Target,
@@ -99,9 +99,9 @@ public sealed partial class HereticAbilitySystem : EntitySystem
         _dmg.SetAllDamage((EntityUid) args.Target, dmg, 0);
         args.Handled = true;
     }
-    private void OnFleshAscendPolymorph(Entity<HereticComponent> ent, ref EventHereticFleshAscend args)
+    private void OnAscensionFlesh(Entity<HereticComponent> ent, ref HereticAscensionFleshEvent args)
     {
-        if (!TryUseAbility(ent, args))
+        if (ent.Comp.Ascended)
             return;
 
         var urist = _poly.PolymorphEntity(ent, "EldritchHorror");
@@ -109,7 +109,5 @@ public sealed partial class HereticAbilitySystem : EntitySystem
             return;
 
         _aud.PlayPvs(new SoundPathSpecifier("/Audio/Animals/space_dragon_roar.ogg"), (EntityUid) urist, AudioParams.Default.AddVolume(2f));
-
-        args.Handled = true;
     }
 }
