@@ -40,10 +40,10 @@ public sealed partial class TimelineDisruptorComponent : Component
     public TimeSpan DisruptionDuration = TimeSpan.FromSeconds(10);
 
     [DataField]
-    public SoundSpecifier? DisruptionCompleteSound = new SoundPathSpecifier("/Audio/Goobstation/Effects/ding.ogg");
+    public SoundSpecifier? DisruptionCompleteSound = new SoundPathSpecifier("/Audio/_Goobstation/Effects/ding.ogg");
 
     [DataField]
-    public SoundSpecifier? DusruptionSound = new SoundPathSpecifier("/Audio/Goobstation/Effects/ChronoLegionnaire/timeline_disruptor.ogg");
+    public SoundSpecifier? DusruptionSound = new SoundPathSpecifier("/Audio/_Goobstation/Effects/ChronoLegionnaire/timeline_disruptor.ogg");
 
     [DataField]
     public EntityUid? DisruptionSoundStream;
