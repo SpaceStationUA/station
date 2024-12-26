@@ -4,7 +4,7 @@ heretic-ability-fail = Не вдалося провести кастинг
 heretic-ability-fail-magicitem = Ви не можете кидати його без фокусу!
 heretic-ability-fail-notarget = Не зміг знайти правильну ціль!
 
-heretic-magicitem-examine = [color=yellow]Дозволяє використовувати розширені заклинання в екіпіровці[/color]
+heretic-magicitem-examine = [color=yellow]Дозволяє використовувати просунуті заклинання, утримуючи або екіпірувавшись.[/color]
 
 heretic-blade-examine = [color=yellow]Використання його в руці зламає лезо і телепортує вас подалі від небезпеки[/color]
 heretic-blade-use = Лезо розбивається вщент, і ти відчуваєш, як голоси тягнуть тебе геть.
@@ -36,16 +36,16 @@ heretic-speech-flesh-surgery = КЛ'М'М'Н!
 heretic-speech-flesh-worm = РЕАЛЬНІСТЬ РОЗКРУЧУЄТЬСЯ!!!
 
 heretic-speech-rust-spread = A'GRSV SPR'D
-heretic-speech-rust-plume = NTR'P'C PL'M
+heretic-speech-rust-plume = 'NTR'P'C PL'M!
 
 heretic-speech-void-blast = Ф'РЗ'Е!
 heretic-speech-void-phase = НЕ БІЙТЕСЯ!
 heretic-speech-void-pull = НА ЧЕСТЬ ПЕРШОГО ДНЯ НАРОДЖЕННЯ!!!
 
-heretic-speech-cleave = КЛЕВ
-heretic-speech-bloodsiphon = Ф'Л'МС О'Т'Е'РН'ІСТЬ
+heretic-speech-cleave = ДАВАЙ!
+heretic-speech-bloodsiphon = Ф'Л'МС О'Т'РНІТІ!
 heretic-speech-mansuslink = ПІРК' Т' М' НД
-heretic-speech-realignment = Р'С'Т
+heretic-speech-realignment = Р'С'Т!
 heretic-speech-fuckoff = F'K 'FF!!!
 
 
