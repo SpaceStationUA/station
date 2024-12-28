@@ -3,3 +3,11 @@
   name: "Уріст МакРат"
   parent: BaseMobRodentia
   id: MobRodentia
+  components:
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - Mouse
+    understands:
+    - TauCetiBasic
+    - Mouse
