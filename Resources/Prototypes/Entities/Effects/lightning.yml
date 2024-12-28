@@ -1,5 +1,5 @@
 ﻿- type: entity
-  name: "блискавка"
+  name: lightning
   id: BaseLightning
   abstract: true
   components:
@@ -30,7 +30,7 @@
       - HideContextMenu
 
 - type: entity
-  name: "блискавка"
+  name: lightning
   id: Lightning
   parent: BaseLightning
   categories: [ HideSpawnMenu ]
@@ -39,7 +39,7 @@
       canArc: true
 
 - type: entity
-  name: "моторошна блискавка"
+  name: spooky lightning
   id: LightningRevenant
   parent: BaseLightning
   categories: [ HideSpawnMenu ]
@@ -63,7 +63,7 @@
       shockDamage: 30
 
 - type: entity
-  name: "заряджена блискавка"
+  name: charged lightning
   id: ChargedLightning
   parent: BaseLightning
   categories: [ HideSpawnMenu ]
@@ -82,7 +82,7 @@
       lightningPrototype: ChargedLightning
 
 - type: entity
-  name: "блискавка"
+  name: lightning
   id: Spark
   parent: BaseLightning
   categories: [ HideSpawnMenu ]
@@ -109,7 +109,7 @@
       - HideContextMenu
 
 - type: entity
-  name: "перезаряджена блискавка"
+  name: supercharged lightning
   id: SuperchargedLightning
   parent: ChargedLightning
   categories: [ HideSpawnMenu ]
@@ -135,7 +135,7 @@
       castShadows: false
 
 - type: entity
-  name: "перезаряджені блискавки"
+  name: hypercharged lightning
   id: HyperchargedLightning
   parent: ChargedLightning
   categories: [ HideSpawnMenu ]
