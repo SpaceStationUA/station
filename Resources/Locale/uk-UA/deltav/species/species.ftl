@@ -8,3 +8,5 @@ species-name-shadowkin = Тіньовик
 species-name-goblin = Гоблін
 
 species-name-ipc = ІПШ
+
+species-name-rodentia = Роденція
