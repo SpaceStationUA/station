@@ -99,22 +99,11 @@ namespace Content.Shared.Input
         public static readonly BoundKeyFunction Hotbar7 = "Hotbar7";
         public static readonly BoundKeyFunction Hotbar8 = "Hotbar8";
         public static readonly BoundKeyFunction Hotbar9 = "Hotbar9";
-        // Goobstation - Extra hotbar hotkeys BY GOOB
-        public static readonly BoundKeyFunction HotbarShift0 = "HotbarShift0"; //GOOB
-        public static readonly BoundKeyFunction HotbarShift1 = "HotbarShift1"; //GOOB
-        public static readonly BoundKeyFunction HotbarShift2 = "HotbarShift2"; //GOOB
-        public static readonly BoundKeyFunction HotbarShift3 = "HotbarShift3"; //GOOB
-        public static readonly BoundKeyFunction HotbarShift4 = "HotbarShift4"; //GOOB
-        public static readonly BoundKeyFunction HotbarShift5 = "HotbarShift5"; //GOOB
-        public static readonly BoundKeyFunction HotbarShift6 = "HotbarShift6"; //GOOB
-        public static readonly BoundKeyFunction HotbarShift7 = "HotbarShift7"; //GOOB
-        public static readonly BoundKeyFunction HotbarShift8 = "HotbarShift8"; //GOOB
-        public static readonly BoundKeyFunction HotbarShift9 = "HotbarShift9"; //GOOB
+
         public static BoundKeyFunction[] GetHotbarBoundKeys() =>
             new[]
             {
-                Hotbar1, Hotbar2, Hotbar3, Hotbar4, Hotbar5, Hotbar6, Hotbar7, Hotbar8, Hotbar9, Hotbar0,
-                HotbarShift1, HotbarShift2, HotbarShift3, HotbarShift4, HotbarShift5, HotbarShift6, HotbarShift7, HotbarShift8, HotbarShift9, HotbarShift0  //GOOB
+                Hotbar1, Hotbar2, Hotbar3, Hotbar4, Hotbar5, Hotbar6, Hotbar7, Hotbar8, Hotbar9, Hotbar0
             };
 
         public static readonly BoundKeyFunction Loadout0 = "Loadout0";
