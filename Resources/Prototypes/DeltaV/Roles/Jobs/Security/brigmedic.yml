@@ -30,8 +30,8 @@
     components:
     - type: CPRTraining
     - type: SurgerySpeedModifier
-      SpeedModifier: 2.0
-  - !type:AddTraitSpecial
+      speedModifier: 2.0
+  - !type:AddTraitSpecial # PIRATE SEC BUFF
     traits: [ PlateletFactories, BionicArm ]
 
 - type: startingGear

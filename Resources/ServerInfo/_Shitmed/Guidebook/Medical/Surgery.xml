@@ -1,0 +1,52 @@
+<Document>
+  # Хірургія
+  Ваше звичайне щотижневе заняття. Виконуючи хірургічні операції на своїх пацієнтах, ви можете лікувати рани, видаляти або додавати частини тіла, органи та багато іншого.
+
+  ## Основи
+  Щоб розпочати операцію, ваш пацієнт повинен лежати і, бажано, бути під седативними засобами.
+
+  Якщо вони не під седативними засобами, вони відчуватимуть сильний біль, що знижує їх настрій і погіршує хірургічні рани.
+
+  <Box>
+    <GuideEntityEmbed Entity="NitrousOxideTank" Caption="закис азоту"/>
+    <GuideEntityEmbed Entity="ClothingMaskBreathMedical" Caption="будь-який дихальний пристрій"/>
+  </Box>
+
+  Вам також потрібно носити захисне спорядження, таке як маска та рукавички, щоб запобігти шкоді пацієнту через зараження.
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingMaskSterile" Caption="будь-яка маска"/>
+    <GuideEntityEmbed Entity="ClothingHandsGlovesNitrile" Caption="будь-які рукавички"/>
+  </Box>
+
+  ## Початок роботи
+
+  Для виконання хірургії вам знадобиться набір хірургічних інструментів.
+
+  <Box>
+    <GuideEntityEmbed Entity="Scalpel" Caption="скальпель"/>
+    <GuideEntityEmbed Entity="Retractor" Caption="ретрактор"/>
+    <GuideEntityEmbed Entity="Hemostat" Caption="гемостат"/>
+    <GuideEntityEmbed Entity="Drill" Caption="дриль"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="Saw" Caption="пилка"/>
+    <GuideEntityEmbed Entity="Cautery" Caption="каутер"/>
+    <GuideEntityEmbed Entity="BoneGel" Caption="кістковий гель"/>
+  </Box>
+
+  Коли у вас є інструменти під рукою, взаємодійте з вашим пацієнтом, щоб розпочати операцію. Ви зможете вибрати, на якій частині ви хочете оперувати.
+
+## Ghetto Surgery
+
+Certain non-surgical tools can be used in a pinch, use the scalpel examine icon to see how good or bad something is.
+<Box>
+<GuideEntityEmbed Entity="Welder" Caption="welder"/>
+<GuideEntityEmbed Entity="Wirecutter" Caption="wirecutter"/>
+<GuideEntityEmbed Entity="KitchenKnife" Caption="knife"/>
+<GuideEntityEmbed Entity="Crowbar" Caption="crowbar"/>
+</Box>
+
+They aren't ideal compared to real surgical equipment, but they'll do in a pinch!
+
+</Document>

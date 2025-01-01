@@ -186,7 +186,6 @@
       - id: RubberStampCMO
       - id: RubberStampPsychologist # DeltaV
       - id: MedicalTechFabCircuitboard
-      - id: MedicalBiofabMachineBoard
       - id: BoxEncryptionKeyMedical
       - id: BoxPDAMedical # Delta-V
       - id: ClothingBeltMilitaryWebbingCMO # DeltaV - add webbing for CMO. ON THIS STATION, IT'S DRIP OR [die], CAPTAIN!
@@ -195,6 +194,7 @@
         prob: 0.3
       - id: RapidSyringeGun # Pirate
       - id: BoxSyringePax # Pirate
+      - id: MedicalBiofabMachineBoard # Shitmed Change
 
 - type: entity
   id: LockerChiefMedicalOfficerFilled
@@ -214,7 +214,6 @@
       - id: RubberStampCMO
       - id: MedicalTechFabCircuitboard
       - id: BoxEncryptionKeyMedical
-      - id: MedicalBiofabMachineBoard
       - id: BoxPDAMedical # Delta-V
       - id: ClothingBeltMilitaryWebbingCMO # DeltaV - add webbing for CMO. ON THIS STATION, IT'S DRIP OR [die], CAPTAIN!
       - id: CMOIDCard # Delta-V
@@ -222,6 +221,7 @@
         prob: 0.3
       - id: RapidSyringeGun # Pirate
       - id: BoxSyringePax # Pirate
+      - id: MedicalBiofabMachineBoard # Shitmed Change
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
