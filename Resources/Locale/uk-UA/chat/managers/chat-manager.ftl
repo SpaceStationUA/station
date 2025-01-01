@@ -67,26 +67,26 @@ chat-speech-verb-mumble = мямлить
 
 chat-speech-verb-insect-1 = лепече
 chat-speech-verb-insect-2 = цвірінькає
-chat-speech-verb-insect-3 = клікає
+chat-speech-verb-insect-3 = клацає
 
 chat-speech-verb-winged-1 = пурхає
-chat-speech-verb-winged-2 = махає
+chat-speech-verb-winged-2 = клапає
 chat-speech-verb-winged-3 = дзижчить
 
 chat-speech-verb-slime-1 = хлюпає
 chat-speech-verb-slime-2 = бормоче
-chat-speech-verb-slime-3 = сочиться
+chat-speech-verb-slime-3 = булькає
 
 chat-speech-verb-plant-1 = шелестить
-chat-speech-verb-plant-2 = гойдається
+chat-speech-verb-plant-2 = коливається
 chat-speech-verb-plant-3 = скрипить
 
 chat-speech-verb-robotic-1 = константує
 chat-speech-verb-robotic-2 = бібупає
 
-chat-speech-verb-reptilian-1 = шипіння
+chat-speech-verb-reptilian-1 = шипить
 chat-speech-verb-reptilian-2 = фиркає
-chat-speech-verb-reptilian-3 = злість
+chat-speech-verb-reptilian-3 = видуває
 
 chat-speech-verb-skeleton-1 = гримить
 chat-speech-verb-skeleton-2 = клацає
@@ -109,16 +109,16 @@ chat-speech-verb-large-mob-2 = гарчить
 chat-speech-verb-monkey-1 = хрипить
 chat-speech-verb-monkey-2 = верещить
 
-chat-speech-verb-parrot-1 = крякання
-chat-speech-verb-parrot-2 = твіти
-chat-speech-verb-parrot-3 = цвірінькання
+chat-speech-verb-parrot-1 = крякає
+chat-speech-verb-parrot-2 = цвірінькає
+chat-speech-verb-parrot-3 = щебече
 
 chat-speech-verb-cluwne-1 = гигикає
 chat-speech-verb-cluwne-2 = регоче
 chat-speech-verb-cluwne-3 = сміється
 
-chat-speech-verb-ghost-1 = скаржиться
-chat-speech-verb-ghost-2 = дихає
+chat-speech-verb-ghost-1 = нарікає
+chat-speech-verb-ghost-2 = видихує
 chat-speech-verb-ghost-3 = гуде
 chat-speech-verb-ghost-4 = бурмоче
 
@@ -155,11 +155,11 @@ chat-speech-verb-name-cluwne = Клюн
 chat-speech-verb-name-parrot = Папуга
 chat-speech-verb-name-ghost = Привид
 chat-speech-verb-name-electricity = Електрика
-chat-speech-verb-name-oni = Вони
-chat-speech-verb-oni-1 = хрюкає
-chat-speech-verb-oni-2 = сильфони
-chat-speech-verb-oni-3 = крики
-chat-speech-verb-oni-4 = гуркіт
+chat-speech-verb-name-oni = Оні
+chat-speech-verb-oni-1 = бурчить
+chat-speech-verb-oni-2 = висвистує
+chat-speech-verb-oni-3 = викрикує
+chat-speech-verb-oni-4 = гуркоче
 chat-speech-verb-marish = Марс.
 
 #ПІРАТСЬКИЙ СТАРТ

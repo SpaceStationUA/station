@@ -76,9 +76,6 @@ guide-entry-psionics = Псіоніка
 guide-entry-reverse-engineering = Реінжиніринг
 guide-entry-glimmer-creatures = Мерехтливі істоти
 guide-entry-surgery = Хірургія
-guide-entry-partmanipulation = Маніпуляції з частинами
-guide-entry-organmanipulation = Маніпуляції з органами
-guide-entry-utilitysurgeries = Допоміжні операції
 
 guide-entry-rules = Правила сервера
 guide-entry-rules-core-only = Тільки основний набір правил

@@ -2,7 +2,7 @@ apc-menu-title = АПЦ
 
 apc-menu-breaker-label = Головний вимикач
 apc-menu-breaker-button = Перемкнути
-apc-menu-power-label = Електроживлення
+apc-menu-power-label = Навантаження
 apc-menu-external-label = Зовнішнє живлення
 apc-menu-charge-label = Заряду {$percent}
 

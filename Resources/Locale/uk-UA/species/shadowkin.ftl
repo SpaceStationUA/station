@@ -13,3 +13,4 @@ examine-mindbroken-shadowkin-message = {CAPITALIZE($entity)} виглядає ч
 identity-eye-shadowkin = {$color}-окий
 
 shadowkin-blackeye = Я відчуваю, як вичерпуються мої сили...
+shadowkin-tired = Я дуже втомився!

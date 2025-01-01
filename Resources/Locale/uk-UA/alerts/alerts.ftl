@@ -113,3 +113,7 @@ alerts-walking-name = Ходьба
 alerts-walking-desc = Показує, з якою швидкістю ви рухаєтеся.
 alerts-deflecting-name = Відхилення
 alerts-deflecting-desc = У вас є шанс відхилити снаряди, що летять на вас. Стоячи на місці або повільно рухаючись, ви збільшуєте цей шанс.
+
+alerts-mana-name = Рівень мани
+alerts-mana-desc = Скільки мани ви можете витратити на свої здібності.
+mana-alert = [font size=12][color=purple]Мана: {$mana}/{$manaMax}[/color][/font]

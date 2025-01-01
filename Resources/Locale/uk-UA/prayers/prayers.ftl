@@ -1,6 +1,6 @@
-﻿prayer-verbs-subtle-message = Тонке повідомлення
-prayer-verbs-pray = Моліться
-prayer-verbs-call = Телефонуйте
+prayer-verbs-subtle-message = Тонке повідомлення
+prayer-verbs-pray = Молиться
+prayer-verbs-call = Кличе
 prayer-chat-notify-pray = МОЛИТВА
 prayer-chat-notify-honkmother = ХОНКМАМА
 prayer-chat-notify-centcom = ЦЕНТКОМ

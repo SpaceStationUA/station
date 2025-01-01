@@ -8,10 +8,10 @@ chat-speech-verb-felinid-2 = мявчить
 chat-speech-verb-felinid-3 = нявкає
 chat-speech-verb-felinid-4 = муркоче
 
-chat-speech-verb-harpy-1 = цвірінькання
-chat-speech-verb-harpy-2 = твіти
-chat-speech-verb-harpy-3 = кігті
-chat-speech-verb-harpy-4 = трелі
+chat-speech-verb-harpy-1 = цвірінькає
+chat-speech-verb-harpy-2 = цвірінькає
+chat-speech-verb-harpy-3 = скрегоче
+chat-speech-verb-harpy-4 = трелить
 
 chat-speech-verb-name-goblin = Гоблін
 chat-speech-verb-goblin-1 = бурчить
@@ -25,6 +25,6 @@ chat-speech-verb-name-felinid = Фелінід
 chat-speech-verb-name-harpy = Гарпія
 chat-speech-verb-name-rodentia = Роденція
 chat-speech-verb-rodentia-1 = пищить
-chat-speech-verb-rodentia-2 = писк
+chat-speech-verb-rodentia-2 = пікає
 chat-speech-verb-rodentia-3 = балакає
-chat-speech-verb-rodentia-4 = визги
+chat-speech-verb-rodentia-4 = верещить
