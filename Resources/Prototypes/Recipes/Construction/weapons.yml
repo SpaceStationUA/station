@@ -1,175 +1,175 @@
 - type: construction
-  name: "сіра лопатева шапинка"
+  name: grey bladed flatcap
   id: BladedFlatcapGrey
   graph: BladedFlatcapGrey
   startNode: start
   targetNode: icon
   category: construction-category-weapons
-  description: "Непримітний капелюх із зашитими в поля осколками скла."
+  description: An inconspicuous hat with glass shards sewn into the brim.
   icon: { sprite: Clothing/Head/Hats/greyflatcap.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "коричнева лопатева шапинка"
+  name: brown bladed flatcap
   id: BladedFlatcapBrown
   graph: BladedFlatcapBrown
   startNode: start
   targetNode: icon
   category: construction-category-weapons
-  description: "Непримітний капелюх із зашитими в поля осколками скла."
+  description: An inconspicuous hat with glass shards sewn into the brim.
   icon: { sprite: Clothing/Head/Hats/brownflatcap.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "скляний ніж"
+  name: glass shiv
   id: Shiv
   graph: Shiv
   startNode: start
   targetNode: icon
   category: construction-category-weapons
-  description: "Уламок скла з обмотаним навколо нього шматком тканини."
+  description: A glass shard with a piece of cloth wrapped around it.
   icon: { sprite: Objects/Weapons/Melee/shiv.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "посилене лезо"
+  name: reinforced shiv
   id: ReinforcedShiv
   graph: ReinforcedShiv
   startNode: start
   targetNode: icon
   category: construction-category-weapons
-  description: "Армований уламок скла з обмотаним навколо нього шматком тканини."
+  description: A reinforced glass shard with a piece of cloth wrapped around it.
   icon: { sprite: Objects/Weapons/Melee/reinforced_shiv.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "плазмовий ніж"
+  name: plasma shiv
   id: PlasmaShiv
   graph: PlasmaShiv
   startNode: start
   targetNode: icon
   category: construction-category-weapons
-  description: "Осколок плазми з обмотаним навколо нього шматком тканини."
+  description: A plasma shard with a piece of cloth wrapped around it.
   icon: { sprite: Objects/Weapons/Melee/plasma_shiv.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "урановий ніж"
+  name: uranium shiv
   id: UraniumShiv
   graph: UraniumShiv
   startNode: start
   targetNode: icon
   category: construction-category-weapons
-  description: "Урановий осколок з обмотаним навколо нього шматком тканини."
+  description: A uranium shard with a piece of cloth wrapped around it.
   icon: { sprite: Objects/Weapons/Melee/uranium_shiv.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "грубий спис"
+  name: crude spear
   id: Spear
   graph: Spear
   startNode: start
   targetNode: spear
   category: construction-category-weapons
-  description: "Грубий спис для того, щоб продірявити когось."
+  description: A crude spear for when you need to put holes in somebody.
   icon: { sprite: Objects/Weapons/Melee/spear.rsi, state: spear }
   objectType: Item
 
 - type: construction
-  name: "грубий армований спис"
+  name: crude reinforced spear
   id: SpearReinforced
   graph: SpearReinforced
   startNode: start
   targetNode: spear
   category: construction-category-weapons
-  description: "Грубий армований спис для тих випадків, коли потрібно наробити в комусь дірок."
+  description: A crude reinforced spear for when you need to put holes in somebody.
   icon: { sprite: Objects/Weapons/Melee/reinforced_spear.rsi, state: spear }
   objectType: Item
 
 - type: construction
-  name: "сирий плазмовий спис"
+  name: crude plasma spear
   id: SpearPlasma
   graph: SpearPlasma
   startNode: start
   targetNode: spear
   category: construction-category-weapons
-  description: "Грубий плазмовий спис для тих випадків, коли потрібно наробити в комусь дірок."
+  description: A crude plasma spear for when you need to put holes in somebody.
   icon: { sprite: Objects/Weapons/Melee/plasma_spear.rsi, state: spear }
   objectType: Item
 
 - type: construction
-  name: "сирий урановий спис"
+  name: crude uranium spear
   id: SpearUranium
   graph: SpearUranium
   startNode: start
   targetNode: spear
   category: construction-category-weapons
-  description: "Спис з необробленого урану для тих випадків, коли потрібно наробити в комусь дірок."
+  description: A crude uranium spear for when you need to put holes in somebody.
   icon: { sprite: Objects/Weapons/Melee/uranium_spear.rsi, state: spear }
   objectType: Item
 
 - type: construction
-  name: "імпровізована бола"
+  name: makeshift bola
   id: Bola
   graph: Bola
   startNode: start
   targetNode: bola
   category: construction-category-weapons
-  description: "Проста зброя для того, щоб підставити комусь підніжку на відстані."
+  description: A simple weapon for tripping someone at a distance.
   icon: { sprite: Objects/Weapons/Throwable/bola.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "дерев'яний баклер"
+  name: wooden buckler
   id: WoodenBuckler
   graph: WoodenBuckler
   startNode: start
   targetNode: woodenBuckler
   category: construction-category-weapons
-  description: "Гарно вирізьблений дерев'яний щит!"
+  description: A nicely carved wooden shield!
   icon: { sprite: Objects/Weapons/Melee/shields.rsi, state: buckler-icon }
   objectType: Item
 
 - type: construction
-  name: "імпровізований щит"
+  name: makeshift shield
   id: MakeshiftShield
   graph: MakeshiftShield
   startNode: start
   targetNode: makeshiftShield
   category: construction-category-weapons
-  description: "Сирий і розвалюється. Навіщо ви це робите?"
+  description: Crude and falling apart. Why would you make this?
   icon: { sprite: Objects/Weapons/Melee/shields.rsi, state: makeshift-icon }
   objectType: Item
 
 - type: construction
-  name: "стріла з осколків скла"
+  name: glass shard arrow
   id: ImprovisedArrow
   graph: ImprovisedArrow
   startNode: start
   targetNode: ImprovisedArrow
   category: construction-category-weapons
-  description: "Стріла з наконечником зі шматочками скляного уламка, для використання з лука."
+  description: An arrow tipped with pieces of a glass shard, for use with a bow.
   icon: { sprite: Objects/Weapons/Guns/Bow/bow.rsi, state: wielded-arrow }
   objectType: Item
 
 - type: construction
-  name: "імпровізований лук"
+  name: improvised bow
   id: ImprovisedBow
   graph: ImprovisedBow
   startNode: start
   targetNode: ImprovisedBow
   category: construction-category-weapons
-  description: "Недбало зроблений лук з дерева та тканини. Це небагато, але він виконував свою роботу протягом тисячоліть."
+  description: A shoddily constructed bow made out of wood and cloth. It's not much, but it's gotten the job done for millennia.
   icon: { sprite: Objects/Weapons/Guns/Bow/bow.rsi, state: unwielded }
   objectType: Item
 
 - type: construction
-  name: "кістяний спис"
+  name: bone spear
   id: SpearBone
   graph: SpearBone
   startNode: start
   targetNode: spear
   category: construction-category-weapons
-  description: "Кістки та шовк у поєднанні."
+  description: Bones and silk combined together.
   icon: { sprite: Objects/Weapons/Melee/bone_spear.rsi, state: spear }
   objectType: Item

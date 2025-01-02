@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: BaseBulletTrigger
   id: BulletFireBolt
-  name: "протипожежний затвор"
+  name: fire bolt
   noSpawn: true
   components:
   - type: Projectile
@@ -21,7 +21,7 @@
 - type: entity
   parent: BaseBulletTrigger
   id: BulletMagicBolt
-  name: "чарівний засув"
+  name: magic bolt
   noSpawn: true
   components:
   - type: Projectile
@@ -40,7 +40,7 @@
 - type: entity
   parent: BaseBulletTrigger
   id: BulletBloodCultDarkBolt
-  name: "кров'яний згусток"
+  name: blood bolt
   noSpawn: true
   components:
   - type: Projectile
