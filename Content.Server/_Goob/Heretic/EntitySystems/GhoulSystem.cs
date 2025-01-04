@@ -26,6 +26,8 @@ using Content.Shared.Roles;
 using Robust.Shared.Audio;
 using Content.Server.NPC;
 using Content.Server.NPC.Systems;
+using Content.Shared.NPC.Systems;
+
 
 namespace Content.Server.Heretic.EntitySystems;
 
@@ -85,8 +87,8 @@ public sealed partial class GhoulSystem : EntitySystem
         if (!HasComp<GhostRoleMobSpawnerComponent>(ent) && !hasMind)
             EnsureComp<GhostTakeoverAvailableComponent>(ent);
 
-        _faction.ClearFactions(ent);
-        _faction.AddFaction(ent, "Heretic");
+        _faction.ClearFactions((ent, null));
+        _faction.AddFaction((ent, null), "Heretic");
     }
 
     private void SendBriefing(Entity<GhoulComponent> ent, EntityUid mindId, MindComponent? mind)

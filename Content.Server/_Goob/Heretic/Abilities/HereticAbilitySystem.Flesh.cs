@@ -31,8 +31,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
             var dargs = new DoAfterArgs(EntityManager, ent, 10f, new EventHereticFleshSurgeryDoAfter(args.Target), ent, args.Target)
             {
                 BreakOnDamage = true,
-                BreakOnUserMove = true,
-                BreakOnTargetMove = true,
+                BreakOnMove = true,
                 BreakOnHandChange = false,
             };
             _doafter.TryStartDoAfter(dargs);

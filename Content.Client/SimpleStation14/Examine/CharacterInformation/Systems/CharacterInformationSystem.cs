@@ -138,7 +138,7 @@ public sealed class CharacterInformationSystem : EntitySystem
                 if (string.IsNullOrEmpty(name))
                     name = "Unknown";
 
-                var jobTitle = id.JobTitle;
+                var jobTitle = id.LocalizedJobTitle;
                 if (string.IsNullOrEmpty(jobTitle))
                     jobTitle = "Unknown";
                 jobTitle = string.Join(" ", jobTitle.Split(' ').Select(s => s[0].ToString().ToUpper() + s[1..].ToLower()));

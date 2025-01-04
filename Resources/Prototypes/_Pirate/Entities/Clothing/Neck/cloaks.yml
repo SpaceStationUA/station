@@ -5,6 +5,5 @@
   name: Магічний плащ пустоти
   description: Плащ пустоти. Для тих хто доєднався темної сторони сили
   components:
-  - type: StealthClothing
-    visibility: 1.0
-    toggleAction: ActionTogglePhaseCloak
+  - type: ToggleClothing
+    action: ActionTogglePhaseCloak

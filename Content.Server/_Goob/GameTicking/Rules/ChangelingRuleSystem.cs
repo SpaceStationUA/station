@@ -15,6 +15,10 @@ using Robust.Shared.Audio;
 using Robust.Shared.Prototypes;
 using System.Text;
 using Content.Server.NPC.Systems;
+using Content.Shared.NPC.Prototypes;
+using Content.Shared.NPC.Systems;
+using Content.Shared.Store.Components;
+
 
 namespace Content.Server.GameTicking.Rules;
 
@@ -102,12 +106,12 @@ public sealed partial class ChangelingRuleSystem : GameRuleSystem<ChangelingRule
             if (ling.TotalAbsorbedEntities > mostAbsorbed)
             {
                 mostAbsorbed = ling.TotalAbsorbedEntities;
-                mostAbsorbedName = _objective.GetTitle(mindId, mind);
+                mostAbsorbedName = _objective.GetTitle((mindId, mind), metaData.EntityName);
             }
             if (ling.TotalStolenDNA > mostStolen)
             {
                 mostStolen = ling.TotalStolenDNA;
-                mostStolenName = _objective.GetTitle(mindId, mind);
+                mostStolenName = _objective.GetTitle((mindId, mind), metaData.EntityName);
             }
         }
 

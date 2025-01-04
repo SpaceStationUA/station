@@ -283,7 +283,7 @@ public sealed partial class EnergyDomeSystem : EntitySystem
             domeComp.Generator = generator;
         }
 
-        _powerCell.SetPowerCellDrawEnabled(generator, true);
+        _powerCell.SetDrawEnabled(generator.Owner, true);
         if (TryComp<BatterySelfRechargerComponent>(generator, out var recharger)) {
             recharger.AutoRecharge = true;
         }
@@ -301,7 +301,7 @@ public sealed partial class EnergyDomeSystem : EntitySystem
         generator.Comp.Enabled = false;
         QueueDel(generator.Comp.SpawnedDome);
 
-        _powerCell.SetPowerCellDrawEnabled(generator, false);
+        _powerCell.SetDrawEnabled(generator.Owner, false);
         if (TryComp<BatterySelfRechargerComponent>(generator, out var recharger) && generator.Comp.AlwaysCharge == false)
         {
             recharger.AutoRecharge = false;

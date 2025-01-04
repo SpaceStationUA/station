@@ -10,6 +10,7 @@ using Content.Shared.IdentityManagement;
 using Content.Shared.Interaction;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Popups;
+using Content.Shared.Store.Components;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 

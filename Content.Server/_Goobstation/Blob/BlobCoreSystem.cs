@@ -26,6 +26,7 @@ using Content.Shared.GameTicking.Components;
 using Content.Shared.Objectives.Components;
 using Content.Shared.Popups;
 using Content.Shared.Store;
+using Content.Shared.Store.Components;
 using Content.Shared.Weapons.Melee;
 using Robust.Server.GameObjects;
 using Robust.Shared.CPUJob.JobQueues;

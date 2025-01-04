@@ -1,18 +1,32 @@
 # vocal emotes
 - type: emote
   id: Hiss
-  icon: Interface/Emotes/hiss.png #PIRATE
-  name: chat-emote-name-cathisses
+  name: chat-emote-name-hisses
   category: Vocal
+  icon: Interface/Emotes/hiss.png
+  whitelist:
+    tags:
+    - FelinidEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
   chatMessages: [ шипить ]
   chatTriggers:
     - hisses
 
 - type: emote
   id: Meow
-  icon: Interface/Emotes/meow.png #PIRATE
-  name: chat-emote-name-catmeow
+  name: chat-emote-name-meow
   category: Vocal
+  icon: Interface/Emotes/meow.png
+  whitelist:
+    tags:
+    - FelinidEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
   chatMessages: [ мявкає ]
   chatTriggers:
     - meows
@@ -22,26 +36,48 @@
 
 - type: emote
   id: Mew
-  icon: Interface/Emotes/nya.png #PIRATE
-  name: chat-emote-name-catmew
+  name: chat-emote-name-mew
   category: Vocal
+  icon: Interface/Emotes/mew.png
+  whitelist:
+    tags:
+    - FelinidEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
   chatMessages: [ някає ]
   chatTriggers:
     - mews
 
 - type: emote
   id: Growl
-  name: chat-emote-name-catgrowl
+  name: chat-emote-name-growl
   category: Vocal
+  icon: Interface/Emotes/growl.png
+  whitelist:
+    tags:
+    - FelinidEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
   chatMessages: [ гарчить ]
   chatTriggers:
     - growls
 
 - type: emote
   id: Purr
-  icon: Interface/Emotes/purr.png #PIRATE
-  name: chat-emote-name-catpurr
+  name: chat-emote-name-purr
   category: Vocal
+  icon: Interface/Emotes/purr.png
+  whitelist:
+    tags:
+    - FelinidEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
   chatMessages: [ муркоче ]
   chatTriggers:
     - purrs

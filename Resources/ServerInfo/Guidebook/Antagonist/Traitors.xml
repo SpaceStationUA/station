@@ -1,94 +1,75 @@
 <Document>
-  # Зрадники
+# Зрадники
 
-  - Зрадник - це антагоніст, якого наймає Синдикат. Вони мають доступ до різних інструментів і зброї Синдикату через [color=#a4885c]Аплінк[/color].
-  - Зрадники можуть використовувати кодові слова, щоб ідентифікувати себе один одному для кооперації.
-  - У раунді Зрадників будь-який гравець може бути зрадником, крім голів департаментів, капітана або офіцерів безпеки.
-  - Зрадники повинні зосередитися на успішному виконанні своїх завдань до кінця раунду.
+- Зрадник — це антагоніст, найнятий Синдикатом. Вони мають доступ до різноманітних інструментів і зброї Синдикату через свій [color=#a4885c]Аплінк[/color].
+- Зрадники можуть використовувати кодові слова, щоб ідентифікувати одне одного для співпраці.
+- У раунді з зрадниками будь-який гравець, окрім керівників відділів, капітана чи офіцерів безпеки, може бути зрадником.
+- Зрадники повинні зосереджуватися на успішному виконанні своїх завдань до кінця раунду.
 
-  ## Аплінк
-  <Box>
-    <GuideEntityEmbed Entity="BaseUplinkRadio40TC" Caption="Аплінк"/>
-  </Box>
-  - [color=#a4885c]Аплінк[/color] - найважливіший інструмент для Зрадника, оскільки з його допомогою можна купувати інструменти та зброю за [color=#a4885c]телекристали[/color] (TC).
-  <Box>
-    <GuideEntityEmbed Entity="Telecrystal" Caption="Телекристали"/>
-  </Box>
-  - [color=#a4885c]Телекристали[/color] надаються на початку, щоб дати зрадникам перевагу на станції. Інші зрадники можуть обмінюватися телекристалами, перевищуючи звичайну кількість.
-  - Використовуючи [color=#a4885c]PDA[/color] і встановлюючи мелодію дзвінка як код для аплінка, ви отримаєте доступ до різних варіантів для використання проти станції та її екіпажу.
-  <Box>
-    <GuideEntityEmbed Entity="PassengerPDA" Caption="PDA"/>
-  </Box>
-  Не забудьте знову заблокувати [color=#a4885c]PDA[/color], щоб ніхто інший не міг його побачити!
-  - Різне спорядження включає:
-  <Box>
-    <GuideEntityEmbed Entity="WeaponPistolViper" Caption="Зброя"/>
-    <GuideEntityEmbed Entity="FireAxe" State="icon" Caption="Меле"/>
-    <GuideEntityEmbed Entity="C4" Caption="Вибухівка"/>
-    <GuideEntityEmbed Entity="Syringe" Caption="Імпланти"/>
-    <GuideEntityEmbed Entity="ClothingBackpackDuffelSyndicate" Caption="Набори"/>
-  </Box>
+## Аплінк
+<Box>
+  <GuideEntityEmbed Entity="BaseUplinkRadio40TC" Caption="Аплінк"/>
+</Box>
+- [color=#a4885c]Аплінк[/color] — це найважливіший інструмент зрадника, оскільки він дозволяє купувати інструменти та зброю за [color=#a4885c]телекристали[/color](TC).
+<Box>
+  <GuideEntityEmbed Entity="Telecrystal" Caption="Телекристали"/>
+</Box>
+Зрадники — це антагоністи, найняті [color=#ff0000]Синдикатом.[/color] Ви є сплячим агентом, який має доступ до різноманітних інструментів і зброї через свій [bold]аплінк[/bold].
+Ви також отримуєте [bold]кодові слова[/bold] для ідентифікації інших агентів, і координована команда зрадників може мати [italic]жахливі наслідки.[/italic]
 
-  ## Завдання
+Будь-хто, окрім [textlink="керівників відділів" link="Command"] чи членів [textlink="Безпеки" link="Security"], може бути зрадником.
 
-  - Ставши Зрадником, ви отримаєте список завдань, які можуть включати втечу живим, крадіжку предметів і вбивство когось. Використання [color=#a4885c]Аплінка[/color] допоможе вам виконати більшість із цих завдань.
+## Аплінк та активація
+[color=cyan]Аплінк[/color] — це ваш найважливіший інструмент як зрадника. Ви можете обміняти 20 [color=red]телекристалів[/color] (TC), з якими ви починаєте, на предмети, що допоможуть виконати ваші завдання.
 
-  ## Список можливих завдань
+Натиснувши [color=yellow][bold][keybind="OpenCharacterMenu"][/bold][/color], ви побачите свій персональний код аплінка. [bold]Установивши цей код як мелодію дзвінка вашого КПК, ви відкриєте аплінк.[/bold]
+Натиснувши [color=yellow][bold][keybind="OpenCharacterMenu"][/bold][/color], ви також можете переглянути свої завдання та кодові слова.
 
-  - Вбити або залишити на самоті випадкового не-зрадника.
-  - Вбити або залишити на самоті випадкового зрадника.
-  - Вбити або залишити на самоті випадкового голову департаменту.
-  - Залишити живим випадкового зрадника.
-  - Втекти на евакуаційному шатлі живим і без наручників.
-  - Допомогти випадковому зраднику виконати 2/3 його завдань.
-  - Померти славною смертю.
-  - Викрасти [color=#a4885c]ID картку[/color] капітана.
-  <Box>
-    <GuideEntityEmbed Entity="CaptainIDCard" Caption="ID картка капітана"/>
-  </Box>
-  - Викрасти [color=#a4885c]антикварний лазерний пістолет[/color] капітана.
-  <Box>
-    <GuideEntityEmbed Entity="WeaponAntiqueLaser" Caption="Антикварний лазерний пістолет капітана"/>
-  </Box>
-  - Викрасти [color=#a4885c]реактивний ранець[/color] капітана.
-  <Box>
-    <GuideEntityEmbed Entity="JetpackCaptainFilled" Caption="Реактивний ранець капітана"/>
-  </Box>
-  - Викрасти [color=#a4885c]гіпоспрей[/color] головного лікаря.
-  <Box>
-    <GuideEntityEmbed Entity="Hypospray" Caption="Гіпоспрей головного лікаря"/>
-  </Box>
-  - Викрасти [color=#a4885c]комбінезон[/color] Містагога.
-  <Box>
-    <GuideEntityEmbed Entity="ClothingOuterHardsuitRd" Caption="Комбінезон Містагога"/>
-  </Box>
-  - Викрасти [color=#a4885c]телепортер для рук[/color] Містагога.
-  <Box>
-    <GuideEntityEmbed Entity="HandTeleporter" Caption="Телепортер для рук"/>
-  </Box>
-  - Викрасти [color=#a4885c]секретні документи[/color] начальника безпеки.
-  <Box>
-    <GuideEntityEmbed Entity="BookSecretDocuments" Caption="Секретні документи"/>
-  </Box>
-  - Викрасти [color=#a4885c]багаторежимний енергетичний пістолет X-01[/color] начальника безпеки.
-  <Box>
-    <GuideEntityEmbed Entity="WeaponEnergyGunMultiphase" Caption="Особистий енергетичний пістолет начальника безпеки"/>
-  </Box>
-  - Викрасти [color=#a4885c]покращені магнітні черевики[/color] головного інженера.
-  <Box>
-    <GuideEntityEmbed Entity="ClothingShoesBootsMagAdv" Caption="Покращені магнітні черевики"/>
-  </Box>
-  - Викрасти [color=#a4885c]ядерний диск[/color].
-  <Box>
-    <GuideEntityEmbed Entity="NukeDisk" Caption="Ядерний диск"/>
-  </Box>
-  - Викрасти [color=#a4885c]щасливий рахунок[/color] логістичного офіцера.
-  <Box>
-    <GuideEntityEmbed Entity="SpaceCashLuckyBill" Caption="Щасливий рахунок логістичного офіцера"/>
-  </Box>
-  - Викрасти [color=#a4885c]фотокнигу Яна[/color] голови персоналу.
-  <Box>
-    <GuideEntityEmbed Entity="BookIanDossier" Caption="Фотокнига Яна"/>
-  </Box>
+Якщо у вас немає КПК під час активації, вам буде надано [color=cyan]імплант аплінка[/color] [bold]за повну [color=red]вартість TC[/color] імпланта.[/bold]
+Його можна активувати з панелі швидкого доступу.
+<Box>
+  <GuideEntityEmbed Entity="PassengerPDA" Caption="КПК"/>
+  <GuideEntityEmbed Entity="Telecrystal" Caption="Телекристали"/>
+  <GuideEntityEmbed Entity="BaseUplinkRadio" Caption="Імплант аплінка"/>
+</Box>
 
+[bold]Обов'язково закривайте аплінк на КПК, щоб ніхто інший не міг його побачити.[/bold] Ви не хочете, щоб [color=#cb0000]Безпека[/color] отримала доступ до цього елітного набору контрабанди!
+
+Імпланти аплінка зазвичай недоступні для інших людей, тому вони не потребують заходів безпеки. Однак їх можна видалити за допомогою порожнього імплантера.
+
+<Box>
+  <GuideEntityEmbed Entity="Hypospray" Caption="Гіпоспрей головного лікаря"/>
+</Box>
+- Викрасти [color=#a4885c]костюм містагога[/color].
+<Box>
+  <GuideEntityEmbed Entity="ClothingOuterHardsuitRd" Caption="Костюм містагога"/>
+</Box>
+- Викрасти [color=#a4885c]ручний телепортер містагога[/color].
+<Box>
+  <GuideEntityEmbed Entity="HandTeleporter" Caption="Ручний телепортер"/>
+</Box>
+- Викрасти [color=#a4885c]X-01 Багатофазний енергетичний пістолет[/color] глави безпеки.
+<Box>
+  <GuideEntityEmbed Entity="WeaponEnergyGunMultiphase" Caption="Особистий енергетичний пістолет глави безпеки"/>
+</Box>
+- Викрасти [color=#a4885c]покращені магбутси[/color] головного інженера.
+<Box>
+  <GuideEntityEmbed Entity="ClothingShoesBootsMagAdv" Caption="Покращені магбутси"/>
+</Box>
+- Викрасти [color=#cb0000]гвинтівку енергії[/color] глави безпеки.
+<Box>
+  <GuideEntityEmbed Entity="WeaponEnergyShotgun" Caption=""/>
+</Box>
+- Викрасти [color=#a4885c]ядерний диск[/color].
+<Box>
+  <GuideEntityEmbed Entity="NukeDisk" Caption="Ядерний диск"/>
+</Box>
+- Викрасти [color=#a4885c]щасливий рахунок[/color] логістичного офіцера.
+<Box>
+  <GuideEntityEmbed Entity="SpaceCashLuckyBill" Caption="Щасливий рахунок логістичного офіцера"/>
+</Box>
+- Викрасти [color=#a4885c]фотокнигу Яна[/color] начальника персоналу.
+<Box>
+  <GuideEntityEmbed Entity="BookIanDossier" Caption="Фотокнига Яна"/>
+</Box>
 </Document>

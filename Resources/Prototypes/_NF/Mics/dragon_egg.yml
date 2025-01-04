@@ -12,7 +12,8 @@
     size: Large
   - type: MultiHandedItem
   - type: Food
-    trash: DragonEggshells
+    trash:
+      - DragonEggshells
   - type: DamageOnHighSpeedImpact
     minimumSpeed: 0.1
     damage:
@@ -42,8 +43,7 @@
     name: ghost-role-information-baby-dragon-name
     description: ghost-role-information-baby-dragon-description
     rules: ghost-role-information-baby-dragon-rules
-    requirements:
-    - !type:CharacterWhitelistRequirement
+    prototype: BabyDragon
   - type: GhostRoleMobSpawner
     prototype: MobSpawnBabyDragon
   - type: SolutionContainerManager
@@ -62,36 +62,6 @@
           Quantity: 12
   - type: StaticPrice
     price: 20000
-
-- type: entity
-  parent: DragonEgg
-  id: DragonEgg1
-  name: dragon egg
-  suffix: for random
-
-- type: entity
-  parent: DragonEgg
-  id: DragonEgg2
-  name: dragon egg
-  suffix: for random
-
-- type: entity
-  parent: DragonEgg
-  id: DragonEgg3
-  name: dragon egg
-  suffix: for random
-
-- type: entity
-  parent: DragonEgg
-  id: DragonEgg4
-  name: dragon egg
-  suffix: for random
-
-- type: entity
-  parent: DragonEgg
-  id: DragonEgg5
-  name: dragon egg
-  suffix: for random
 
 - type: entity
   name: dragon eggshells
@@ -122,7 +92,7 @@
 - type: entity #This is only for the hatching animation since this is an in between from picking the ghost role and becoming the dragon
   id: MobSpawnBabyDragon
   name: mobspawner dragon
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Transform
     anchored: True
@@ -150,3 +120,11 @@
     lifetime: 3.5
   - type: TransferMindOnDespawn
     entityPrototype: MobDragonPet
+
+- type: ghostRole
+  id: BabyDragon
+  name: ghost-role-information-baby-dragon-name
+  description: ghost-role-information-baby-dragon-description
+  rules: ghost-role-information-emotional-support-rules
+  entityPrototype: DragonEgg # Unsure if this should be MobDragonPet (the actual dragon) - no ghost role component
+  whitelisted: true

@@ -21,9 +21,10 @@ using Content.Shared.Emag.Systems;
 using Content.Shared.Emp;
 using Content.Shared.Interaction; // Pirate banking
 using Content.Shared.PDA; // Pirate banking
-using Content.Shared.Popups;
 using Content.Shared.Stacks; // Pirate banking
 using Content.Shared.Tag; // Pirate banking
+using Content.Shared.Popups;
+using Content.Shared.Power;
 using Content.Shared.Throwing;
 using Content.Shared.UserInterface;
 using Content.Shared.VendingMachines;

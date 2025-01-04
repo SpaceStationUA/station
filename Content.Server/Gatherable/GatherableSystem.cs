@@ -5,6 +5,7 @@ using Content.Shared.Tag;
 using Content.Shared.Weapons.Melee.Events;
 using Content.Shared.Whitelist;
 using Robust.Server.GameObjects;
+using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
@@ -40,13 +41,13 @@ public sealed partial class GatherableSystem : EntitySystem
 
     private void OnActivate(Entity<GatherableComponent> gatherable, ref ActivateInWorldEvent args)
     {
-        if (gatherable.Comp.ToolWhitelist?.IsValid(args.User, EntityManager) != true)
+        if (args.Handled || !args.Complex)
             return;
 
         if (_whitelistSystem.IsWhitelistFailOrNull(gatherable.Comp.ToolWhitelist, args.User))
             return;
 
-        Gather(gatherable, args.User);
+        Gather(args.Target, args.User, gatherable.Comp);
         args.Handled = true;
     }
 

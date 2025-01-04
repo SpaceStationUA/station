@@ -134,8 +134,7 @@ public sealed partial class MansusGraspSystem : EntitySystem
         {
             BreakOnDamage = true,
             BreakOnHandChange = true,
-            BreakOnTargetMove = true,
-            BreakOnUserMove = true,
+            BreakOnMove = true,
             CancelDuplicate = false,
         };
         _doAfter.TryStartDoAfter(dargs);

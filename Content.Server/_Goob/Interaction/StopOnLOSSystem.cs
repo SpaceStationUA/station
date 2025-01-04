@@ -8,6 +8,8 @@ using Content.Shared.Mobs.Components;
 using Content.Server.NPC.Systems;
 using Content.Shared.Mind;
 using Content.Shared.Examine;
+using Content.Shared.NPC.Systems;
+
 
 namespace Content.Server._Goobstation.Interaction;
 

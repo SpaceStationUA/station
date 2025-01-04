@@ -2,6 +2,7 @@ using Content.Client.VendingMachines.UI;
 using Content.Shared.VendingMachines;
 using Robust.Client.UserInterface.Controls;
 using System.Linq;
+using Robust.Client.UserInterface;
 
 namespace Content.Client.VendingMachines
 {
@@ -29,15 +30,15 @@ namespace Content.Client.VendingMachines
             var component = EntMan.GetComponent<VendingMachineComponent>(Owner); //Pirate banking
             _cachedInventory = vendingMachineSys.GetAllInventory(Owner, component); //Pirate banking
 
-            _menu = new VendingMachineMenu { Title = EntMan.GetComponent<MetaDataComponent>(Owner).EntityName };
+            _menu = this.CreateWindow<VendingMachineMenu>();
+            _menu.OpenCenteredLeft();
+            _menu.Title = EntMan.GetComponent<MetaDataComponent>(Owner).EntityName;
 
-            _menu.OnClose += Close;
             _menu.OnItemSelected += OnItemSelected;
             _menu.OnSearchChanged += OnSearchChanged;
             _menu.OnWithdraw += SendMessage; //Pirate banking
 
             _menu.Populate(_cachedInventory, out _cachedFilteredIndex, component.PriceMultiplier, component.Credits); //Pirate banking
-            _menu.OpenCenteredLeft();
         }
 
         protected override void UpdateState(BoundUserInterfaceState state)

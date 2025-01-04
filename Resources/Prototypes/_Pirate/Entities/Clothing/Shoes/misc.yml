@@ -15,8 +15,8 @@
       path: /Audio/Items/speedboots_equip.ogg
       params:
         volume: -3
-  - type: ToggleClothingSpeed
-    toggleAction: ActionToggleSpeedBoots
+  - type: ToggleClothing
+    action: ActionToggleSpeedBoots
   - type: ClothingSpeedModifier
     walkModifier: 1.5
     sprintModifier: 1.7

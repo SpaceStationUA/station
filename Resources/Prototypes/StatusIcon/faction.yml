@@ -1,0 +1,102 @@
+- type: factionIcon
+  id: ZombieFaction
+  priority: 11
+  showTo:
+    components:
+    - ShowAntagIcons
+    - Zombie
+    - InitialInfected
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Zombie
+
+- type: factionIcon
+  id: InitialInfectedFaction
+  priority: 11
+  showTo:
+    components:
+    - ShowAntagIcons
+    - InitialInfected
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: InitialInfected
+
+- type: factionIcon
+  id: RevolutionaryFaction
+  priority: 11
+  showTo:
+    components:
+      - ShowAntagIcons
+      - Revolutionary
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Revolutionary
+
+- type: factionIcon
+  id: HeadRevolutionaryFaction
+  priority: 11
+  showTo:
+    components:
+      - ShowAntagIcons
+      - Revolutionary
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: HeadRevolutionary
+
+- type: factionIcon
+  id: SyndicateFaction
+  priority: 0
+  locationPreference: Left
+  icon:
+    sprite: /Textures/Interface/Misc/job_icons.rsi
+    state: Syndicate
+
+# Infection stages
+
+- type: factionIcon
+  id: AlienInfectedIconStageZero
+  priority: 0
+  locationPreference: Right
+  icon:
+    sprite: /Textures/Interface/Misc/infected.rsi
+    state: infected0
+
+- type: factionIcon
+  id: AlienInfectedIconStageOne
+  priority: 0
+  locationPreference: Right
+  icon:
+    sprite: /Textures/Interface/Misc/infected.rsi
+    state: infected1
+
+- type: factionIcon
+  id: AlienInfectedIconStageTwo
+  priority: 0
+  locationPreference: Right
+  icon:
+    sprite: /Textures/Interface/Misc/infected.rsi
+    state: infected2
+
+- type: factionIcon
+  id: AlienInfectedIconStageThree
+  priority: 0
+  locationPreference: Right
+  icon:
+    sprite: /Textures/Interface/Misc/infected.rsi
+    state: infected3
+
+- type: factionIcon
+  id: AlienInfectedIconStageFour
+  priority: 0
+  locationPreference: Right
+  icon:
+    sprite: /Textures/Interface/Misc/infected.rsi
+    state: infected4
+
+- type: factionIcon
+  id: AlienInfectedIconStageFive
+  priority: 0
+  locationPreference: Right
+  icon:
+    sprite: /Textures/Interface/Misc/infected.rsi
+    state: infected5

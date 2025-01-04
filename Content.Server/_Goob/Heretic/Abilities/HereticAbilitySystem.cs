@@ -34,6 +34,7 @@ using Content.Server.Store.Components;
 using Content.Shared.Chat;
 using Robust.Shared.Prototypes;
 using Content.Server.Heretic.EntitySystems;
+using Content.Shared.Store.Components;
 
 
 namespace Content.Server.Heretic.Abilities;
@@ -242,8 +243,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
         var dargs = new DoAfterArgs(EntityManager, ent, 5f, new HereticMansusLinkDoAfter(args.Target), ent, args.Target)
         {
             BreakOnDamage = true,
-            BreakOnUserMove = true,
-            BreakOnTargetMove = true,
+            BreakOnMove = true,
             BreakOnWeightlessMove = true
         };
         _popup.PopupEntity(Loc.GetString("heretic-manselink-start"), ent, ent);

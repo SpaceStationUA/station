@@ -1,6 +1,6 @@
 - type: entity
   abstract: true
-  parent: BaseItem
+  parent: [ BaseItem, StorePresetUplink ] #PDA's have uplinks so they have to inherit the data.
   id: BasePDA
   name: PDA
   description: Personal Data Assistant.
@@ -77,6 +77,7 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - WalletCartridge # Pirate banking
+      - NanoChatCartridge # DeltaV
     cartridgeSlot:
       priority: -1
       name: device-pda-slot-component-slot-name-cartridge
@@ -119,10 +120,15 @@
   id: BaseMedicalPDA
   abstract: true
   components:
-  - type: HealthAnalyzer
-    scanDelay: 1
-    scanningEndSound:
-      path: "/Audio/Items/Medical/healthscanner.ogg"
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - MedTekCartridge
+      - WalletCartridge # Pirate banking
+      - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: BasePDA
@@ -155,7 +161,7 @@
   parent: BaseMedicalPDA
   id: MedicalInternPDA
   name: medical intern PDA
-  description: Why isn't it white? Has a built-in health analyzer.
+  description: Why isn't it white?
   components:
   - type: Pda
     id: MedicalInternIDCard
@@ -197,6 +203,7 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - WalletCartridge # Pirate banking
+      - NanoChatCartridge
 
 - type: entity
   parent: BasePDA
@@ -374,6 +381,9 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - MailMetricsCartridge
+      - WalletCartridge # Pirate banking
+      - NanoChatCartridge
+      - StockTradingCartridge # DeltaV - StockTrading
 
 - type: entity
   name: LO special PDA unit # DeltaV - Logistics Department replacing Cargo
@@ -394,7 +404,10 @@
       - CrewManifestCartridge
       - NotekeeperCartridge
       - NewsReaderCartridge
-      - MailMetricsCartridge
+      - WalletCartridge # Pirate banking
+      - MailMetricsCartridge # DeltaV - MailMetrics courier tracker
+      - StockTradingCartridge # DeltaV - StockTrading
+      - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: BasePDA
@@ -409,6 +422,14 @@
     borderColor: "#e39751"
   - type: Icon
     state: pda-cargo
+  - type: CartridgeLoader # DeltaV
+    preinstalled:
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NewsReaderCartridge
+    - WalletCartridge # Pirate banking
+    - StockTradingCartridge # DeltaV - StockTrading
+    - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: BasePDA
@@ -424,6 +445,15 @@
     accentVColor: "#8900c9"
   - type: Icon
     state: pda-miner
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - WalletCartridge # Pirate banking
+      - AstroNavCartridge
+      - NanoChatCartridge
 
 - type: entity
   parent: BasePDA
@@ -464,6 +494,8 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - GlimmerMonitorCartridge
+      - WalletCartridge # Pirate banking
+      - NanoChatCartridge
 
 - type: entity
   parent: BasePDA
@@ -492,6 +524,7 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - WalletCartridge # Pirate banking
+      - NanoChatCartridge
 
 - type: entity
   parent: BasePDA
@@ -645,7 +678,7 @@
   parent: BaseMedicalPDA
   id: CMOPDA
   name: chief medical officer PDA
-  description: Extraordinarily shiny and sterile. Has a built-in health analyzer.
+  description: Extraordinarily shiny and sterile.
   components:
   - type: Pda
     id: CMOIDCard
@@ -689,7 +722,7 @@
   parent: BaseMedicalPDA
   id: MedicalPDA
   name: medical PDA
-  description: Shiny and sterile. Has a built-in health analyzer.
+  description: Shiny and sterile.
   components:
   - type: Pda
     id: MedicalIDCard
@@ -713,7 +746,7 @@
   parent: BaseMedicalPDA
   id: ParamedicPDA
   name: paramedic PDA
-  description: Shiny and sterile. Has a built-in rapid health analyzer.
+  description: Shiny and sterile.
   components:
   - type: Pda
     id: ParamedicIDCard
@@ -773,6 +806,7 @@
       - NewsReaderCartridge
       - GlimmerMonitorCartridge
       - WalletCartridge # Pirate banking
+      - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: BasePDA
@@ -795,6 +829,8 @@
       - NotekeeperCartridge
       - NewsReaderCartridge
       - GlimmerMonitorCartridge
+      - WalletCartridge # Pirate banking
+      - NanoChatCartridge
 
 - type: entity
   parent: BasePDA
@@ -817,6 +853,7 @@
       - NewsReaderCartridge
       - GlimmerMonitorCartridge
       - WalletCartridge # Pirate banking
+      - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: SciencePDA
@@ -849,12 +886,14 @@
     state: pda-hos
   - type: CartridgeLoader # DeltaV - Crime Assist + SecWatch
     preinstalled:
-      - CrewManifestCartridge
-      - NotekeeperCartridge
-      - NewsReaderCartridge
-      - CrimeAssistCartridge
-      - SecWatchCartridge
-      - WalletCartridge # Pirate banking
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NewsReaderCartridge
+    - WalletCartridge # Pirate banking
+    - CrimeAssistCartridge # DeltaV
+    - SecWatchCartridge # DeltaV: SecWatch replaces WantedList
+    - LogProbeCartridge
+    - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: BasePDA
@@ -877,6 +916,8 @@
       - NewsReaderCartridge
       - CrimeAssistCartridge
       - SecWatchCartridge
+      - WalletCartridge # Pirate banking
+      - NanoChatCartridge
 
 - type: entity
   parent: BasePDA
@@ -900,6 +941,7 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - WalletCartridge # Pirate banking
+      - NanoChatCartridge
 
 - type: entity
   parent: BasePDA
@@ -922,6 +964,7 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - WalletCartridge # Pirate banking
+      - NanoChatCartridge
 
 - type: entity
   parent: BasePDA
@@ -941,6 +984,16 @@
     borderColor: "#00842e"
   - type: Icon
     state: pda-centcom
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - SecWatchCartridge # DeltaV: SecWatch replaces WantedList
+      - LogProbeCartridge
+      - WalletCartridge # Pirate banking
+      - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: CentcomPDA
@@ -954,12 +1007,17 @@
     scanDelay: 0
   - type: CartridgeLoader
     uiKey: enum.PdaUiKey.Key
+    notificationsEnabled: false
+    diskSpace: 10 # DeltaV
     preinstalled:
       - CrewManifestCartridge
       - NotekeeperCartridge
       - NewsReaderCartridge
       - LogProbeCartridge
       - WalletCartridge # Pirate banking
+      - SecWatchCartridge # DeltaV: SecWatch replaces WantedList
+      - StockTradingCartridge # Delta-V
+      - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: CentcomPDA
@@ -1042,6 +1100,8 @@
     uiKey: enum.PdaUiKey.Key
     preinstalled:
       - NotekeeperCartridge
+      - WalletCartridge # Pirate banking
+      - NanoChatCartridge # DeltaV
     cartridgeSlot:
       priority: -1
       name: Cartridge
@@ -1069,6 +1129,16 @@
     accentVColor: "#447987"
   - type: Icon
     state: pda-ert
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - WalletCartridge # Pirate banking
+      - SecWatchCartridge # DeltaV: SecWatch replaces WantedList
+      - LogProbeCartridge
+      - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: ERTLeaderPDA
@@ -1105,14 +1175,20 @@
   id: ERTMedicPDA
   name: ERT Medic PDA
   suffix: Medic
-  description: Red for firepower, it's shiny and sterile. Has a built-in rapid health analyzer.
+  description: Red for firepower, it's shiny and sterile.
   components:
   - type: Pda
     id: ERTMedicIDCard
-  - type: HealthAnalyzer
-    scanDelay: 1
-    scanningEndSound:
-      path: "/Audio/Items/Medical/healthscanner.ogg"
+  - type: CartridgeLoader
+    uiKey: enum.PdaUiKey.Key
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - MedTekCartridge
+      - WalletCartridge # Pirate banking
+      - CrimeAssistCartridge
+      - SecWatchCartridge
 
 - type: entity
   parent: ERTLeaderPDA
@@ -1138,7 +1214,7 @@
     accentVColor: "#447987"
 
 - type: entity
-  parent: BasePDA
+  parent: BaseMedicalPDA
   id: PsychologistPDA
   name: psychologist PDA
   description: Looks immaculately cleaned.
@@ -1177,6 +1253,14 @@
     borderColor: "#3f3f74"
   - type: Icon
     state: pda-reporter
+  - type: CartridgeLoader # DeltaV
+    preinstalled:
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NewsReaderCartridge
+    - WalletCartridge # Pirate banking
+    - StockTradingCartridge # DeltaV - StockTrading
+    - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: BasePDA
@@ -1222,18 +1306,20 @@
     state: pda-detective
   - type: CartridgeLoader # DeltaV - Crime Assist + SecWatch
     preinstalled:
-      - CrewManifestCartridge
-      - NotekeeperCartridge
-      - NewsReaderCartridge
-      - CrimeAssistCartridge
-      - SecWatchCartridge
-      - WalletCartridge # Pirate banking
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NewsReaderCartridge
+    - WalletCartridge # Pirate banking
+    - CrimeAssistCartridge # DeltaV
+    - SecWatchCartridge # DeltaV: SecWatch replaces WantedList
+    - LogProbeCartridge
+    - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: BaseMedicalPDA
   id: BrigmedicPDA
   name: brigmedic PDA
-  description: I wonder whose pulse is on the screen? I hope he doesnt stop... PDA has a built-in health analyzer.
+  description: I wonder whose pulse is on the screen? I hope it doesn't stop...
   components:
   - type: Pda
     id: BrigmedicIDCard
@@ -1252,12 +1338,13 @@
     state: pda-brigmedic
   - type: CartridgeLoader # DeltaV - Crime Assist + SecWatch
     preinstalled:
-      - CrewManifestCartridge
-      - NotekeeperCartridge
-      - NewsReaderCartridge
-      - CrimeAssistCartridge
-      - SecWatchCartridge
-      - WalletCartridge # Pirate banking
+    - CrewManifestCartridge
+    - NotekeeperCartridge
+    - NewsReaderCartridge
+    - WalletCartridge # Pirate banking
+    - CrimeAssistCartridge # DeltaV
+    - SecWatchCartridge # DeltaV: SecWatch replaces WantedList
+    - NanoChatCartridge # DeltaV
 
 - type: entity
   parent: ClownPDA
@@ -1317,7 +1404,7 @@
   parent: BaseMedicalPDA
   id: SeniorPhysicianPDA
   name: senior physician PDA
-  description: Smells faintly like iron and chemicals. Has a built-in health analyzer.
+  description: Smells faintly like iron and chemicals.
   components:
   - type: Pda
     id: SeniorPhysicianIDCard
@@ -1357,6 +1444,7 @@
       - CrimeAssistCartridge
       - SecWatchCartridge
       - WalletCartridge # Pirate banking
+      - NanoChatCartridge
 
 - type: entity
   parent: SyndiPDA
@@ -1393,6 +1481,9 @@
     uiKey: enum.PdaUiKey.Key
     preinstalled:
       - NotekeeperCartridge
+      - WalletCartridge # Pirate banking
+      - MedTekCartridge
+      - NanoChatCartridge
     cartridgeSlot:
       priority: -1
       name: Cartridge

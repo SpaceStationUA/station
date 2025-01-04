@@ -14,15 +14,6 @@
       department: Security
       min: 21600
     - !type:CharacterWhitelistRequirement # PIRATE - Whitelist requirement
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          inverted: true
-          species:
-            - Shadowkin
-        - !type:CharacterTraitRequirement
-          traits:
-            - ShadowkinBlackeye
   special:
   - !type:AddComponentSpecial
     components:

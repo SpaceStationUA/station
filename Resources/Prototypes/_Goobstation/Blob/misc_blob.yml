@@ -68,15 +68,15 @@
 #    exclusiveAntag: true
 #  - type: BlobRole
 
-- type: statusIcon
+- type: factionIcon
   id: BlobFaction
   priority: 10
-#  showTo:
-#    components:
-#    - BlobCarrier
-#    - BlobObserver
-#    - ZombieBlob
-#    - Blobbernaut
+  showTo:
+    components:
+    - BlobCarrier
+    - BlobObserver
+    - ZombieBlob
+    - Blobbernaut
   icon:
     sprite: /Textures/_Goobstation/Blob/Interface/Misc/antag_icon.rsi
     state: blob
@@ -86,13 +86,3 @@
   displayName: store-currency-display-blob-points
   canWithdraw: false
 
-- type: entity
-  abstract: true
-  parent: MarkerBase
-  id: BaseAntagSpawner
-  name: ghost role spawn point
-  components:
-  - type: GhostRole
-    raffle:
-      settings: default
-  - type: GhostRoleAntagSpawner

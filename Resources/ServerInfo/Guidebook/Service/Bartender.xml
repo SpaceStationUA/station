@@ -1,30 +1,28 @@
 <Document>
-  # Бармен
+# Бармен
+Робота бармена доволі проста: подавати напої. Люди приходитимуть до вас і проситимуть напої, а ваша задача — просто подати їх.
 
-  Робота бармена досить проста: подавати напої. Люди підходять до вас і просять напої, а ваше завдання – просто вручити їх їм.
+<Box>
+Матеріали для цих напоїв можна знайти у різних місцях:
+</Box>
+<Box>
+<GuideEntityEmbed Entity="BoozeDispenser"/>
+<GuideEntityEmbed Entity="SodaDispenser"/>
+<GuideEntityEmbed Entity="VendingMachineBooze"/>
+</Box>
 
-  <Box>
-    Інгредієнти для цих напоїв можна знайти в різних місцях:
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="BoozeDispenser"/>
-    <GuideEntityEmbed Entity="soda_dispenser"/>
-    <GuideEntityEmbed Entity="VendingMachineBooze"/>
-  </Box>
+<Box>
+Не забудьте про контейнери для подачі напоїв!
+</Box>
+<Box>
+<GuideEntityEmbed Entity="DrinkGlass" Caption="Склянка"/>
+<GuideEntityEmbed Entity="DrinkGlassCoupeShaped"/>
+<GuideEntityEmbed Entity="DrinkShaker"/>
+<GuideEntityEmbed Entity="DrinkJigger"/>
+</Box>
 
-  <Box>
-    Не забудьте контейнери для подачі напоїв!
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="DrinkGlass" Caption="Склянка"/>
-    <GuideEntityEmbed Entity="DrinkGlassCoupeShaped"/>
-    <GuideEntityEmbed Entity="DrinkShaker"/>
-    <GuideEntityEmbed Entity="DrinkJigger"/>
-  </Box>
+## Напої
+Знати, як приготувати запитаний напій, дуже важливо. Ось різні напої в грі, включно з їхніми рецептами:
 
-  ## Напої
-
-  Знання того, як приготувати замовлений напій, важливе. Ось різні напої в грі та їхні рецепти:
-
-  <GuideReagentGroupEmbed Group="Drinks"/>
+<GuideReagentGroupEmbed Group="Drinks"/>
 </Document>

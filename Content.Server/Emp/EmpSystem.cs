@@ -4,6 +4,7 @@ using Content.Server.Power.EntitySystems;
 using Content.Server.Radio;
 using Content.Shared.Emp;
 using Content.Shared.Examine;
+using Robust.Server.GameObjects;
 using Robust.Shared.Map;
 using Content.Shared._Pirate.Emp.Components; // Pirate
 using Robust.Server.GameStates; // Pirate: EMP Blast PVS
@@ -17,8 +18,9 @@ public sealed class EmpSystem : SharedEmpSystem
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
     [Dependency] private readonly PvsOverrideSystem _pvs = default!; // Pirate: EMP Blast PVS
     [Dependency] private readonly IConfigurationManager _cfg = default!; // Pirate: EMP Blast PVS
+    [Dependency] private readonly TransformSystem _transform = default!;
 
-    public const string EmpPulseEffectPrototype = "EffectEmpBlast"; // Pirate, before: EffectEmpPulse
+    public const string EmpPulseEffectPrototype = "EffectEmpPulse";
 
     public override void Initialize()
     {
@@ -131,7 +133,7 @@ public sealed class EmpSystem : SharedEmpSystem
 
     private void HandleEmpTrigger(EntityUid uid, EmpOnTriggerComponent comp, TriggerEvent args)
     {
-        EmpPulse(Transform(uid).MapPosition, comp.Range, comp.EnergyConsumption, comp.DisableDuration);
+        EmpPulse(_transform.GetMapCoordinates(uid), comp.Range, comp.EnergyConsumption, comp.DisableDuration);
         args.Handled = true;
     }
 

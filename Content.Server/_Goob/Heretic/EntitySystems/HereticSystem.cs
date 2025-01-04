@@ -15,6 +15,7 @@ using Robust.Server.Player;
 using Content.Server.Revolutionary.Components;
 using Content.Server.Store.Components;
 using Content.Shared.Random.Helpers;
+using Content.Shared.Store.Components;
 using Robust.Shared.Prototypes;
 
 namespace Content.Server.Heretic.EntitySystems;

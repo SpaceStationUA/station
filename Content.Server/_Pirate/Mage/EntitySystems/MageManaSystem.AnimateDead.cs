@@ -10,6 +10,7 @@ using Content.Shared.Damage.Systems;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Movement.Pulling.Systems;
+using Content.Shared.NPC.Systems;
 using Content.Shared.Storage.Components;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;

@@ -50,7 +50,7 @@ public class DeflectThrownObjectsSystem : EntitySystem
                 obj,
                 args.Direction.Value,
                 user: args.User,
-                strength: comp.DeflectSpeed
+                baseThrowSpeed: comp.DeflectSpeed
             );
             _audioSystem.PlayPvs(comp.DeflectSound, ent);
             _damage.TryChangeDamage(obj, melee.Damage);

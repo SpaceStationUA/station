@@ -20,6 +20,10 @@ using System.Text;
 using Content.Server.NPC.Systems;
 using Content.Server.NPC.Components;
 using Content.Server.Store.Components;
+using Content.Shared.NPC.Prototypes;
+using Content.Shared.NPC.Systems;
+using Content.Shared.Store.Components;
+
 
 namespace Content.Server.GameTicking.Rules;
 
@@ -106,7 +110,7 @@ public sealed partial class HereticRuleSystem : GameRuleSystem<HereticRuleCompon
             if (!_mind.TryGetMind(heretic.Owner, out var mindId, out var mind))
                 continue;
 
-            var name = _objective.GetTitle(mindId, mind);
+            var name = _objective.GetTitle((mindId, mind), Name(heretic.Owner));
             if (_mind.TryGetObjectiveComp<HereticKnowledgeConditionComponent>(mindId, out var objective, mind))
             {
                 if (objective.Researched > mostKnowledge)

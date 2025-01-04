@@ -1,72 +1,124 @@
 - type: emote
   id: HarpyRing
-  icon: Interface/Emotes/bell.png #PIRATE
   name: chat-emote-name-harpyring
   category: Vocal
+  icon: Interface/Emotes/ring.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
   chatMessages: [ дзвонить ]
   chatTriggers:
     - rings
 
-# - type: emote
-#   id: HarpyPew
-#   icon: Interface/Emotes/pews.png  #PIRATE
-#   name: chat-emote-name-harpypew
-#   category: Vocal
-#   chatMessages: [ ніби стріляє ]
-#   chatTriggers:
-#     - pews
-#     - pewpews
+- type: emote
+  id: HarpyPew
+  name: chat-emote-name-harpypew
+  category: Vocal
+  icon: Interface/Emotes/pew.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ піу ]
+  chatTriggers:
+    - pews
+    - pewpews
 
-# - type: emote
-#   id: HarpyBang
-#   name: chat-emote-name-harpybang
-#   category: Vocal
-#   chatMessages: [ bangs ]
-#   chatTriggers:
-#     - bangs
+- type: emote
+  id: HarpyBang
+  name: chat-emote-name-harpybang
+  category: Vocal
+  icon: Interface/Emotes/bang.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ бахає ]
+  chatTriggers:
+    - bangs
 
-# - type: emote
-#   id: HarpyRev
-#   icon: Interface/Emotes/mixer.png #PIRATE
-#   name: chat-emote-name-harpyrev
-#   category: Vocal
-#   chatMessages: [ міксує ]
-#   chatTriggers:
-#     - revs
+- type: emote
+  id: HarpyRev
+  name: chat-emote-name-harpyrev
+  icon: Interface/Emotes/rev.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  category: Vocal
+  chatMessages: [ реве ]
+  chatTriggers:
+    - revs
 
-# - type: emote
-#   id: HarpyCaw
-#   name: chat-emote-name-harpycaw
-#   category: Vocal
-#   icon: Interface/Emotes/caving.png #PIRATE
-#   chatMessages: [ каркає ]
-#   chatTriggers:
-#     - caws
+- type: emote
+  id: HarpyCaw
+  name: chat-emote-name-harpycaw
+  category: Vocal
+  icon: Interface/Emotes/caw.png
+  whitelist:
+    tags:
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ кричить ]
+  chatTriggers:
+    - caws
 
 #Vulpkanin
 - type: emote
   id: Bark
-  icon: Interface/Emotes/dog.png #PIRATE
   name: chat-emote-name-vulpbark
   category: Vocal
+  icon: Interface/Emotes/bark.png
+  whitelist:
+    tags:
+    - VulpEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
   chatMessages: [ гавкає ]
   chatTriggers:
     - barks
 
 - type: emote
   id: Snarl
-  icon: Interface/Emotes/snarl.png #PIRATE
   name: chat-emote-name-vulpsnarl
   category: Vocal
-  chatMessages: [ ричить ]
+  icon: Interface/Emotes/snarl.png
+  whitelist:
+    tags:
+    - VulpEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ гарчить ]
   chatTriggers:
     - snarls
 
 - type: emote
   id: Whine
-  icon: Interface/Emotes/whine.jpeg #PIRATE
   name: chat-emote-name-vulpwhine
   category: Vocal
+  icon: Interface/Emotes/whine.png
+  whitelist:
+    tags:
+    - VulpEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
   chatMessages: [ скиглить ]
   chatTriggers:
     - whines
@@ -75,6 +127,14 @@
   id: Howl
   name: chat-emote-name-vulphowl
   category: Vocal
-  chatMessages: [ howls ]
+  icon: Interface/Emotes/howl.png
+  whitelist:
+    tags:
+    - VulpEmotes
+    - HarpyEmotes
+  blacklist:
+    components:
+    - BorgChassis
+  chatMessages: [ виє ]
   chatTriggers:
     - howls

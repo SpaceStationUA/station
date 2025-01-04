@@ -6,6 +6,8 @@ using Content.Server.NPC.Pathfinding;
 using Content.Server.NPC.Systems;
 using Content.Shared.Humanoid;
 using Content.Shared.Mobs.Systems;
+using Content.Shared.NPC.Systems;
+
 
 namespace Content.Server.NPC.HTN.PrimitiveTasks.Operators.Specific;
 

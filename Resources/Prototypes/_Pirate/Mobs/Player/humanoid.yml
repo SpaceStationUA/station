@@ -8,7 +8,7 @@
       state: cburn
     - type: RandomHumanoidSpawner
       settings: CBURNFlamerAgent
-    - type: InitialInfectedExempt
+    - type: AntagImmune
 
 
 - type: randomHumanoidSettings
@@ -25,7 +25,7 @@
       nameSegments:
       - NamesFirstMilitary
       - NamesLastMilitary
-    - type: InitialInfectedExempt
+    - type: AntagImmune
 
 - type: randomHumanoidSettings
   id: Mercenary
@@ -37,4 +37,4 @@
   - type: GhostTakeoverAvailable
   - type: Loadout
     prototypes: [ MercGear ]
-  - type: InitialInfectedExempt
+  - type: AntagImmune

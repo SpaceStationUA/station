@@ -1,23 +1,22 @@
 <Document>
-  # Медицина
-  Це департамент, куди люди звертаються, коли вони поранені, і завдання тих, хто тут працює, полягає в їх лікуванні.
+# Медицина
+Це відділ, куди приходять люди, якщо вони отримали ушкодження. Завдання працівників тут — вилікувати їх.
 
-  На даний момент медичний відділ поділений на два різні набори допомоги:
+На даний момент медичний відділ поділений на два основні напрямки:
 
-  ## Медичне лікування
-  <Box>
-    <GuideEntityEmbed Entity="Brutepack"/>
-    <GuideEntityEmbed Entity="Bloodpack"/>
-    <GuideEntityEmbed Entity="Ointment"/>
-    <GuideEntityEmbed Entity="Gauze"/>
-    <GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
-  </Box>
-
-  ## Виробництво хімікатів
-  <Box>
-    <GuideEntityEmbed Entity="ChemDispenser"/>
-    <GuideEntityEmbed Entity="LargeBeaker"/>
-    <GuideEntityEmbed Entity="PillCanister"/>
-    <GuideEntityEmbed Entity="chem_master"/>
-  </Box>
+## Медичне лікування
+<Box>
+<GuideEntityEmbed Entity="Brutepack"/>
+<GuideEntityEmbed Entity="Bloodpack"/>
+<GuideEntityEmbed Entity="Ointment"/>
+<GuideEntityEmbed Entity="Gauze"/>
+<GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
+</Box>
+## Хімічне виробництво
+<Box>
+<GuideEntityEmbed Entity="ChemDispenser"/>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="PillCanister"/>
+<GuideEntityEmbed Entity="ChemMaster"/>
+</Box>
 </Document>

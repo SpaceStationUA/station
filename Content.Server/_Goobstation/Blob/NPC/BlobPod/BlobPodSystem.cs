@@ -174,8 +174,7 @@ public sealed class BlobPodSystem : SharedBlobPodSystem
         var ev = new BlobPodZombifyDoAfterEvent();
         var args = new DoAfterArgs(EntityManager, uid, component.ZombifyDelay, ev, uid, target: target)
         {
-            BreakOnUserMove = true,
-            BreakOnTargetMove = true,
+            BreakOnMove = true,
             DistanceThreshold = 2f,
             NeedHand = false
         };
