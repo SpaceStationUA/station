@@ -28,3 +28,7 @@ suicide-popup-melee-initial-internal = Ви готуєте {THE($weapon)} про
 suicide-popup-melee-initial-external = {$attacker} готує {$weapon} проти свого горла.
 suicide-popup-melee-complete-internal = Ви ріжете своє горло з {THE($weapon)}!
 suicide-popup-melee-complete-external = {$attacker} ріже своє горло з {THE($weapon)}!
+execution-popup-self-initial-internal = Ви готуєте {THE($weapon)} до свого горла.
+execution-popup-self-initial-external = {$attacker} готує {POSS-ADJ($attacker)} {$weapon} до свого горла.
+execution-popup-self-complete-internal = Ти перерізав собі горло!
+execution-popup-self-complete-external = {$attacker} перерізує собі горло!

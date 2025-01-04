@@ -267,10 +267,16 @@ flavor-complex-paint-thinner = як розчинник для фарби.
 
 # Ароматизатори для напоїв.
 
-## Загальний смак алкоголю/соди. Його слід замінити на справжній смаковий профіль.
+## Загальний смак алкоголю/соди. Його слід замінити на справжній смаковий профіль
 flavor-complex-vodka-red-bool = як серцевий напад
 flavor-complex-irish-bool = кофеїн та Ірландія
 flavor-complex-xeno-basher = наприклад, вбивати жуків
 flavor-complex-budget-insuls-drink = наприклад, злом дверей
 flavor-complex-watermelon-wakeup = як солодкий дзвінок для пробудження
 flavor-complex-rubberneck = як синтетика
+flavor-complex-cherry = як вишня
+flavor-complex-numbing-tranquility = як заціпенілий спокій
+flavor-complex-true-nature = як справжня природа реальності
+flavor-complex-false-meat = не зовсім схоже на м'ясо
+flavor-complex-paper = як кашоподібна м'якоть
+flavor-complex-compressed-meat = як пресоване м'ясо

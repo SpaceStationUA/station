@@ -85,7 +85,7 @@ crime-assist-crimedetail-grandsabotage = Здійснення злоякісни
 crime-assist-crimedetail-decorporealisation = Незаконне, злоякісне відокремлення розуму софота від його тіла.
 crime-assist-crimedetail-kidnapping = Незаконне утримання чи обмеження вільного руху софонта проти його волі..
 crime-assist-crimedetail-sedition = Дії, спрямовані на свергнення законно встановленого командування чи урядового органу без законної чи обґрунтованої причини.
-crime-assist-crimedetail-sexualharassment = Сексуальні домагання, спроби примусу до сексуальних стосунків або здійснення небажаного сексуального контакту з софонтом.
+crime-assist-crimedetail-sexualharassment = Сексуальні домагання, спроби примусу до сексуальних стосунків або здійснення небажаного сексуального контакту з софонтом
 crime-assist-crimepunishment-innocent = Не потрібно жодного покарання
 crime-assist-crimepunishment-animalcruelty = Покарання: 3 хвилини
 crime-assist-crimepunishment-theft = Покарання: 2 хвилини
@@ -117,7 +117,7 @@ crime-assist-sophont-explanation = Софонт описується як буд
                                    • [bold]Розум[/bold]: сутність має базову логіку та навички розв'язання проблем або, принаймні, певний рівень значущого інтелекту.
                                    • [bold]Почуття[/bold]: сутність має здатність обробки емоцій або, принаймні, можливість визнання власного болю.
                                    • [bold]Самосвідомість[/bold]: сутність може змінювати свою поведінку під впливом подразників або, принаймні, може визнавати свій власний розум та почуття.
-                                   Будь-який софонт вважається юридичною особою, незалежно від походження чи попереднього когнітивного статусу. Софонт може пред'являти обвинувачення членам екіпажу та піддаватися судовому розгляду за вчинені злочини.
+                                   Будь-який софонт вважається юридичною особою, незалежно від походження чи попереднього когнітивного статусу. Софонт може пред'являти обвинувачення членам екіпажу та піддаватися судовому розгляду за вчинені злочини
 
 mail-metrics-program-name = ПоштоваМетрика
 mail-metrics-header = Дохід від доставки пошти
@@ -131,3 +131,54 @@ mail-metrics-money-header = Спесо
 mail-metrics-total = Всього
 mail-metrics-progress = {$opened} / {$total} пакетів відкрито!
 mail-metrics-progress-percent = Відсоток успіху: {$successRate}%
+# Біржова торгівля
+stock-trading-program-name = Біржова торгівля
+stock-trading-title = Міжгалактичний фондовий ринок
+stock-trading-balance = Залишок: {$balance} кредитів
+stock-trading-no-entries = Немає записів
+stock-trading-owned-shares = У власності: {$shares}
+stock-trading-buy-button = Купити
+stock-trading-sell-button = Продати
+stock-trading-amount-placeholder = Сума
+stock-trading-price-history = Історія цін
+
+# NanoChat — Загальне
+nano-chat-program-name = Наночат
+nano-chat-title = Наночат
+nano-chat-new-chat = Новий чат
+nano-chat-contacts = Контакти
+nano-chat-no-chats = Немає активних чатів
+nano-chat-select-chat = Виберіть чат, щоб почати
+nano-chat-message-placeholder = Введіть повідомлення...
+nano-chat-send = Надіслати
+nano-chat-edit = Редагувати
+nano-chat-delete = Видалити
+nano-chat-loading = Завантаження...
+nano-chat-message-too-long = Повідомлення занадто довге ({$current}/{$max} символів)
+nano-chat-max-recipients = Досягнуто максимальної кількості одержувачів
+nano-chat-new-message-title = Повідомлення від {$sender}
+nano-chat-new-message-body = {$message}
+nano-chat-toggle-mute = Вимкнути звук сповіщень
+nano-chat-delivery-failed = Не вдалося доставити
+
+# Створити спливаюче вікно чату
+nano-chat-new-title = Додати новий чат
+nano-chat-edit-title = Редагування контакту
+nano-chat-number-label = Номер
+nano-chat-name-label = Ім’я
+nano-chat-job-label = Назва посади
+nano-chat-number-placeholder = Введіть номер
+nano-chat-name-placeholder = Введіть ім’я
+nano-chat-job-placeholder = Введіть назву посади (необов’язково)
+nano-chat-cancel = Скасувати
+nano-chat-create = Створити
+
+# LogProbe
+log-probe-scan-nanochat = Відскановані логи NanoChat {$card}
+log-probe-header-access = Сканер журналу доступу
+log-probe-header-nanochat = Сканер журналу NanoChat
+log-probe-label-message = Повідомлення
+log-probe-card-number = Картка: {$number}
+log-probe-recipients = {$count} одержувачів
+log-probe-recipient-list = Відомі одержувачі:
+log-probe-message-format = {$sender} → {$recipient}: {$content}

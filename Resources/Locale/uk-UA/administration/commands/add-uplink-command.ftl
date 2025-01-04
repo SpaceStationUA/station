@@ -5,3 +5,4 @@ add-uplink-command-completion-1 = Ім'я користувача (за замо�
 add-uplink-command-completion-2 = Uplink uid (за замовчуванням PDA)
 add-uplink-command-error-1 = Обраний гравець не контролює жодної сутності
 add-uplink-command-error-2 = Не вдалося додати аплінк до гравця
+add-uplink-command-completion-3 = Чи ввімкнена знижка за аплінк

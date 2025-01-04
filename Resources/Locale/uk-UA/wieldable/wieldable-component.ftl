@@ -19,3 +19,4 @@ wieldable-component-requires = { CAPITALIZE(THE($item))} має бути в дв
 
 
 gunwieldbonus-component-examine = Ця зброя має підвищену точність стрільби.
+gunrequireswield-component-examine = З цієї зброї можна стріляти лише тоді, коли вона в руках.

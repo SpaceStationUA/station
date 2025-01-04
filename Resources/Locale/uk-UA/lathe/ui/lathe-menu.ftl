@@ -22,3 +22,7 @@ lathe-menu-material-amount-missing = { $amount ->
     [1] {NATURALFIXED($amount, 2)} {$unit} з {$material} ([color=red]{NATURALFIXED($missingAmount, 2)} {$unit} відсутній[/color])
     *[other] {NATURALFIXED($amount, 2)} {MAKEPLURAL($unit)} з {$material} ([color=red]{NATURALFIXED($missingAmount, 2)} {MAKEPLURAL($unit)} відсутні[/color])
 }
+
+lathe-menu-reagent-slot-examine = Збоку є гніздо для мензурки.
+lathe-reagent-dispense-no-container = Рідина виливається з {THE($name)} на підлогу!
+lathe-menu-result-reagent-display = {$reagent} ({$amount}u)

@@ -1,4 +1,4 @@
-﻿roles-antag-syndicate-agent-name = Агент Синдикату
+roles-antag-syndicate-agent-name = Агент Синдикату
 roles-antag-syndicate-agent-objective = Виконай свої цілі, не будучи спійманими.
 
 roles-antag-initial-infected-name = Перший інфікований
@@ -36,3 +36,6 @@ roles-antag-space-mage-objective = Використовуй чари для вл
 
 roles-antag-terminator-name = Термінатор
 roles-antag-terminator-objective = Убийте ціль будь-якою ціною, від цього залежить майбутнє
+
+roles-antag-syndicate-agent-sleeper-name = Сплячий агент синдикату
+roles-antag-syndicate-agent-sleeper-objective = Форма синдикативного агента, який може активуватися в будь-який момент посеред зміни.

@@ -22,3 +22,4 @@ comms-console-announcement-title-nukie = Ядерні Оперативники '
 comms-console-message-too-long = Повідомлення занадто довге
 
 # Значення-заповнювачі
+comms-console-menu-time-remaining = Час, що залишився: {$time}

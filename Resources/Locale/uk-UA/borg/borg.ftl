@@ -20,3 +20,5 @@ borg-ui-module-counter = {$actual}/{$max}
 borg-transponder-disabled-popup = Мозок вистрілив з голови {$name}!
 borg-transponder-emagged-disabled-popup = Ваш транспондер згас!
 borg-transponder-emagged-destroyed-popup = У вашому транспондері перегорів запобіжник!
+borg-transponder-disabling-popup = Ваш транспондер починає блокувати вас від шасі!
+borg-transponder-destroying-popup = Самознищення {$name} починає звуковий сигнал!

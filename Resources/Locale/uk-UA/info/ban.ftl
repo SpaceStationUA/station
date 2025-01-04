@@ -82,3 +82,5 @@ ban-panel-erase = Видалити повідомлення чату та гра
 server-ban-string = {$admin} створив бан з серйозністю {$severity}, який закінчується {$expires} для [{$name}, {$ip}, {$hwid}], з причиною: {$reason}
 server-ban-string-no-pii = {$admin} створив бан з серйозністю {$severity}, який закінчується {$expires} для {$name} з причиною: {$reason}
 server-ban-string-never = ніколи
+
+ban-kick-reason = Вас заблоковано

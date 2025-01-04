@@ -62,4 +62,20 @@ chat-emote-msg-snore = хропе.
 chat-emote-name-mars = Марс
 chat-emote-name-wurble = Вурбл!
 
-# Message
+chat-emote-name-boop = Буп
+chat-emote-name-whirr = Дзижчання
+chat-emote-name-harpyring = Дзвін
+chat-emote-name-harpypew = Піу
+chat-emote-name-harpybang = Бах!
+chat-emote-name-harpyrev = Преподобний
+chat-emote-name-harpycaw = Каркання
+chat-emote-name-tailwag = Виляй хвостиком
+chat-emote-name-vulpbark = Гав!
+chat-emote-name-vulpsnarl = Рик
+chat-emote-name-vulpwhine = Скиглення
+chat-emote-name-vulphowl = Виття # Фелініда
+chat-emote-name-meow = Няв!
+chat-emote-name-mew = Нявк!
+chat-emote-name-purr = Мурчання
+chat-emote-name-hisses = Шипіння
+chat-emote-name-growl = Рик

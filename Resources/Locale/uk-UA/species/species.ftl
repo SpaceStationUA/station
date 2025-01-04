@@ -12,3 +12,4 @@ species-name-vox = Вокс
 species-name-arachne = Арахна
 species-name-ipc = ІПШ
 species-name-shadowkin = Тіньовик
+snail-hurt-by-salt-popup = Солоний розчин пече, як кислота!

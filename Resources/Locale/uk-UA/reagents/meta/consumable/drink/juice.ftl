@@ -36,3 +36,6 @@ reagent-desc-juice-tomato = помідоровий сік? Як на мене з
 
 reagent-name-juice-watermelon = кавуновий сік
 reagent-desc-juice-watermelon = зі смаком свят та літа!
+
+reagent-name-juice-cherry = вишневий сік
+reagent-desc-juice-cherry = Смачний вишневий сік, солодкий і пікантний.

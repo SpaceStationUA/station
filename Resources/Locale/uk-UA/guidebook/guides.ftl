@@ -134,3 +134,5 @@ guide-entry-rules-ban-durations = Заборона тривалості
 guide-entry-loadout-info = Гардероб
 guide-entry-loadout-eyes-eyepatch = Пов'язка на око
 guide-entry-blood-cult = Культ крові
+
+guide-entry-sm = Двигун надматерії (SM)

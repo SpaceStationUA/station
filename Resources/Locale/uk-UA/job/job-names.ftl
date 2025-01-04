@@ -110,3 +110,13 @@ JobRoboticist = Робототехнік
 
 job-name-ertchaplain = Капелан екстреної медичної допомоги
 JobERTChaplain = Капелан екстреної медичної допомоги
+job-name-geneticist = Генетик
+job-name-no-id = Без посвідчення особи
+job-name-prisoner = В'язень
+job-name-syndicate = Синдикат
+job-name-unknown = Невідомо
+job-name-virologist = Вірусолог
+job-name-zombie = Зомбі # Назви посад
+job-title-visitor = Відвідувач
+job-title-cluwne = Клюн
+job-title-universal = Універсальні # Рольові таймери - Зробіть їх в алфавітному порядку, або я вас поріжу

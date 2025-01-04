@@ -33,3 +33,4 @@ markings-category-RightLeg = Права нога
 markings-category-RightFoot = Права стопа
 markings-category-LeftLeg = Ліва нога
 markings-category-LeftFoot = Ліва стопа
+markings-category-Face = Обличчя

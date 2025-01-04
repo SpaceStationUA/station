@@ -45,3 +45,5 @@ materials-raw-bluespace = сирий блюспейс
 materials-raw-normality = сира нормальність
 
 # Утилізатор матеріалу
+materials-diamond = діамант
+materials-gunpowder = порох

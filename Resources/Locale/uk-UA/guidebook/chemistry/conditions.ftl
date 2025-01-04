@@ -43,3 +43,4 @@ reagent-effect-condition-guidebook-has-tag = ціль { $invert ->
                 } тег {$tag}
 
 reagent-effect-condition-guidebook-this-reagent = цей реагент
+reagent-effect-condition-guidebook-job-condition = робота цілі - { $job }

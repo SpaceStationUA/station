@@ -72,3 +72,5 @@ station-beacon-tools = Інструменти
 station-beacon-disposals = Утилізація
 station-beacon-cryosleep = Кріосон
 station-beacon-escape-pod = Рятівна капсула
+
+station-beacon-anchor = Якір

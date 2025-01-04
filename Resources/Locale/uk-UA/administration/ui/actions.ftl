@@ -12,3 +12,4 @@ admin-player-actions-teleport = Телепортуватись до
 admin-player-actions-confirm = Ви впевнені?
 
 admin-player-actions-follow = Слідкувати
+admin-player-actions-player-panel = Відкрити панель гравця
