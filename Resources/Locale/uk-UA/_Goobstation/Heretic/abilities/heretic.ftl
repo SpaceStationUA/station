@@ -2,14 +2,14 @@ heretic-ability-fail = Не вдалося провести кастинг
 heretic-ability-fail-magicitem = Ви не можете кидати його без фокусу!
 heretic-ability-fail-notarget = Не зміг знайти правильну ціль!
 
-heretic-magicitem-examine = [color=yellow]Дозволяє використовувати просунуті заклинання, утримуючи або екіпірувавшись.[/color] ## клинок
+heretic-magicitem-examine = [color=yellow]Дозволяє використовувати просунуті заклинання, утримуючи або екіпірувавшись.[/color]
 heretic-blade-examine = [color=yellow]Використання його в руці зламає лезо і телепортує вас подалі від небезпеки[/color]
 heretic-blade-use = Лезо розбивається вщент, і ти відчуваєш, як голоси тягнуть тебе геть.
 heretic-riposte-used = Рипост використано!
 heretic-riposte-available = Доступний рипост!
 heretic-rust-mark-itembreak = {$name} розсипається на порох!
 heretic-blade-void-examine = [color=cyan]Поки в безпосередній близькості знаходиться хоча б один позначений язичник, телепортуйтеся за його спину, не ламаючи клинка.[/color]
-mansus-infused-item-examine = [color=purple]Від самої лише його присутності мурашки по шкірі. Чи варто його брати?[/color] ## посилання на mansus
+mansus-infused-item-examine = [color=purple]Від самої лише його присутності мурашки по шкірі. Чи варто його брати?[/color]
 heretic-manselink-fail-exists = Ця істота вже підключена!
 heretic-manselink-fail-nomind = Ця істота не має розуму!
 heretic-manselink-start = Ви починаєте з'єднувати розум цієї істоти зі своїм.

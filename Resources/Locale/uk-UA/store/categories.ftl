@@ -27,4 +27,4 @@ store-caregory-spellbook-defensive = Захисні заклинання
 store-caregory-spellbook-utility = Утилітарні заклинання
 store-caregory-spellbook-equipment = Обладнання майстра
 store-caregory-spellbook-events = Заклинання подій
-store-discounted-items = Знижки #Revenant
+store-discounted-items = Знижки

@@ -1,6 +1,6 @@
 food-sequence-no-space = Більше класти не можна!
 
-food-sequence-burger-suffix = бургер #ЗАГАЛЬНЕ
+food-sequence-burger-suffix = бургер
 
 food-sequence-content-chicken = курча
 food-sequence-content-duck = качка
@@ -74,7 +74,7 @@ food-sequence-content-capfruit = капфрут
 food-sequence-content-berries = ягоди
 food-sequence-content-spacemans-trumpet = космонавти Трупмет
 food-sequence-content-cherry = вишня
-food-sequence-content-snail = равлик #БУРГЕРИ
+food-sequence-content-snail = равлик
 
 food-sequence-burger-gen = {$content}бургер
 
@@ -122,9 +122,9 @@ food-sequence-burger-content-suppermatter = вечеря
 food-sequence-burger-content-hamster = шинки
 food-sequence-burger-content-berries = ягода
 food-sequence-burger-content-spacemans-trumpet = spacetrump
-food-sequence-burger-content-world-pea = мир #ТАКО
+food-sequence-burger-content-world-pea = мир
 
-food-sequence-taco-gen = тако з {$content} # шампур
+food-sequence-taco-gen = тако з {$content}
 
 food-sequence-skewer-gen = {$content} шашлик
 

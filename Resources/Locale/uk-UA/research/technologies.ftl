@@ -65,7 +65,7 @@ research-technology-advanced-anomaly-research = Передові дослідж�
 research-technology-rped = Швидка Заміна Компонентів
 research-technology-super-parts = Суперкомпоненти
 research-technology-deterrence = Технології стримування
-research-technology-bluespace-mining = Майнінг Bluespace #ПІРАТ
+research-technology-bluespace-mining = Майнінг Bluespace
 
 research-technology-janitorial-equipment = Прибиральне Обладнання
 research-technology-laundry-tech = Технологія Виготовлення Одягу
