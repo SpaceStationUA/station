@@ -1,8 +1,8 @@
 - type: entity
-  name: "ритуальний кинджал"
+  name: ritual dagger
   parent: BaseKnife
   id: RitualDagger
-  description: "Дивний кинджал, що використовується зловісними групами для ритуалів і жертвоприношень."
+  description: A strange dagger used by sinister groups for rituals and sacrifices.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cult_dagger.rsi
@@ -40,10 +40,10 @@
         type: RuneDrawerBUI
 
 - type: entity
-  name: "жахливий меч"
+  name: eldritch longsword
   parent: BaseItem
   id: EldritchLongsword
-  description: "Меч гуде нечистою енергією. Він світиться тьмяним червоним світлом."
+  description: A sword humming with unholy energy. It glows with a dim red light.
   components:
   - type: Sharp
   - type: Sprite
@@ -83,8 +83,8 @@
 - type: entity
   parent: BaseItem
   id: BloodSpear
-  name: "кривава алебарда"
-  description: "Огидний спис, що повністю складається із застиглої крові."
+  name: blood halberd
+  description: A sickening spear composed entirely of crystallized blood.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/Weapons/cult_spear.rsi
@@ -144,28 +144,3 @@
   - type: DisarmMalus
   - type: CultItem
   - type: BloodSpear
-
-- type: entity
-  parent: BaseItem
-  id: BloodRitesAura
-  name: "аура кровного обряду"
-  description: "Поглинає кров з усього, до чого торкаєшся. Дотик до культистів і споруд може зцілити їх. Використовуйте в руці, щоб розіграти складний обряд."
-  components:
-  - type: Sprite
-    sprite: WhiteDream/BloodCult/Entities/Items/rites.rsi
-    state: icon
-  - type: MeleeWeapon
-    damage:
-      types:
-        Blunt: 0
-    heavyStaminaCost: 0
-    maxTargets: 1
-  - type: BloodRitesAura
-  - type: UserInterface
-    interfaces:
-      enum.BloodRitesUiKey.Key:
-        type: BloodRitesUi
-  - type: ActivatableUI
-    key: enum.BloodRitesUiKey.Key
-    inHandsOnly: true
-    requireActiveHand: false
