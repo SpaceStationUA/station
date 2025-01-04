@@ -20,13 +20,14 @@
   categories:
   - UplinkWeaponry
 
+
 - type: listing
-  id: UplinkHighCapacityMagazinePistol
-  name: uplink-highcap-pistol-mag-name
-  description: uplink-highcap-pistol-mag-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: red }
-  productEntity: MagazinePistolHighCapacity
+  id: UplinkBowHardlight
+  name: uplink-hardlight-bow-name
+  description: uplink-hardlight-bow-desc
+  icon: { sprite:  /Textures/_Goobstation/Objects/Weapons/Guns/Bow/hardlight_bow.rsi, state: icon }
+  productEntity: BowHardlight
   cost:
-    Telecrystal: 3
+    Telecrystal: 16
   categories:
-  - UplinkAmmo
+  - UplinkWeaponry
