@@ -271,3 +271,6 @@ ghost-role-information-snoth-name = Слимак
 ghost-role-information-snoth-description = Маленький слимачок, який не проти трохи простору. Просто залишайся в сітці!
 ghost-role-information-shiva-name = Шиво!
 ghost-role-information-shiva-description = Перший захисник станції.
+ghost-role-information-ifrit-rules = Дух вогню, що походить з Геєни, тебе покликав містифікатор. Слідуй за ними і не створюй жодних проблем, поки вони не скажуть тобі про це.
+ghost-role-information-ifrit-wizard-name = Іфріт (Виклик чарівника)
+ghost-role-information-ifrit-wizard-description = Слухай свого господаря. Не відволікайся на пошкодження. Бий людей сильно.

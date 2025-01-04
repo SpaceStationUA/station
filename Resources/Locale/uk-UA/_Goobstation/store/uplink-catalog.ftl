@@ -52,10 +52,10 @@ uplink-contractor-baton-desc = Компактна спеціалізована �
 uplink-weapon-burner-name = Важка гвинтівка Burner
 uplink-weapon-burner-desc = Важка гвинтівка Burner, відмінна для проривів і придушення ворогів.
 
-uplink-c20r-name = C-20r
+uplink-c20r-name = С-20р
 uplink-c20r-desc = Надійна класика: легендарний пістолет-кулемет C-20r.
 
-uplink-buldog-name = Bulldog
+uplink-buldog-name = Бульдог
 uplink-buldog-desc = Магазинна автоматична рушниця.
 
 uplink-l6-saw-name = Набір L6 Saw

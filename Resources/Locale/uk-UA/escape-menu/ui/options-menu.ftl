@@ -288,3 +288,9 @@ ui-options-function-target-left-arm = Ціль - ліва рука
 ui-options-function-target-right-arm = Ціль - права рука
 ui-options-function-target-left-leg = Ціль - ліва нога
 ui-options-function-target-right-leg = Ціль - права нога
+
+ui-options-chatstack = Автоматично об'єднувати однакові повідомлення чату
+ui-options-chatstack-off = Вимкнено
+ui-options-chatstack-single = Тільки останнє повідомлення
+ui-options-chatstack-double = Останні два повідомлення
+ui-options-chatstack-triple = Останні три повідомлення

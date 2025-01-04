@@ -106,3 +106,7 @@ marking-LizardFrillsNeckfull = Оборки ящірки (Neckfull)
 marking-LizardSnoutSplotch = Ящірка Мордата (Плямиста)
 marking-LizardSnoutSplotch-snout_splotch_primary = Морда
 marking-LizardSnoutSplotch-snout_splotch_secondary = Зарозумілість
+marking-LizardTailSmoothAnimated = Хвіст ящірки (гладкий) (анімований)
+marking-LizardTailSpikesAnimated = Хвіст ящірки (колючий) (анімований)
+marking-LizardTailLTigerAnimated = Хвіст ящірки (світло-тигрові смуги) (анімований)
+marking-LizardTailDTigerAnimated = Хвіст ящірки (темні тигрові смуги) (анімований)
