@@ -1,1 +1,3 @@
-energygun-examine-fire-mode = Режим пожежі встановлено у {$mode}
+energygun-examine-fire-mode = Режим стрільби встановлено на {$mode}
+
+# Hardlight Bow

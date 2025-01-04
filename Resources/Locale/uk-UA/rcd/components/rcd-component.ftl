@@ -52,3 +52,7 @@ rcd-component-lighting = Освітлення
 rcd-component-deconstruct = деконструювати
 rcd-component-floor-steel = сталева черепиця
 rcd-component-plating = пластина корпусу
+rcd-component-piping = Трубопровід
+rcd-component-atmosphericutility = Атмосферні утиліти
+rcd-component-pumps = Насоси та клапани
+rcd-component-vents = Вентиляційні отвори
