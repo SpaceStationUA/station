@@ -8471,101 +8471,93 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1413
 - author: sapphirescript
   changes:
-    - type: Fix
-      message: Fixed a ton of languages missing chat names.
-    - type: Fix
-      message: Fixed a ton of markings missing names.
+  - type: Fix
+    message: Виправлено велику кількість мов, у яких бракувало назв чату.
+  - type: Fix
+    message: Виправлено багато позначень, у яких бракувало назв.
   id: 6620
   time: '2025-01-04T11:02:24.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1420
 - author: angelofallars
   changes:
-    - type: Add
-      message: >-
-        Added religious neckwear to loadouts, such as Crucifix (with a colorable
-        option), Scapular and Tallit.
-    - type: Tweak
-      message: Added the gay male pride pin to loadouts and the Pride-O-Mat.
+  - type: Add
+    message: >-
+      Додано релігійні шийні прикраси до наборів, такі як розп'яття (з можливістю змінювати колір), скапулярій і талліт.
+  - type: Tweak
+    message: Додано значок гей-прайду до наборів і Pride-O-Mat.
   id: 6621
   time: '2025-01-04T15:23:51.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1416
 - author: VMSolidus
   changes:
-    - type: Add
-      message: >-
-        Lamia have been added to the game as a new playable species! They are
-        currently extremely buggy, and so are by default disabled as a
-        roundstart species. To enable them for (Buggy) playtesting, go to
-        /Species/lamia.yml, and set roundstart to true.
+  - type: Add
+    message: >-
+      Ламія додані до гри як новий вид персонажів! Наразі вони мають багато помилок і за замовчуванням вимкнені для вибору на початку раунду. Щоб увімкнути їх для (глючного) тестування, перейдіть до /Species/lamia.yml і встановіть roundstart у значення true.
   id: 6622
   time: '2025-01-04T15:47:57.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/11
 - author: Spatison
   changes:
-    - type: Add
-      message: Constructs now turn into the ectoplasm on their death.
-    - type: Tweak
-      message: >-
-        Blood cult stun and shadow shackles are now auras similar to blood
-        rites.
-    - type: Fix
-      message: Cult constructs now understand eldritch language and can speak it.
-    - type: Fix
-      message: Cult constructs are now healed by pylon.
-    - type: Fix
-      message: Cult constructs now has cult cult icon.
-    - type: Fix
-      message: 'All cult auras can no longer be stored, transferred or dropped. '
-    - type: Fix
-      message: Blood spear now detaches itself on recall action.
-    - type: Fix
-      message: Shadow shackles should now properly work.
+  - type: Add
+    message: Конструкти тепер перетворюються на ектоплазму після своєї смерті.
+  - type: Tweak
+    message: >-
+      Оглушення кровавого культу та тіньові кайдани тепер є аурами, подібно до кровавих ритуалів.
+  - type: Fix
+    message: Конструкти культу тепер розуміють і можуть говорити на елдричній мові.
+  - type: Fix
+    message: Конструкти культу тепер зцілюються за допомогою пілону.
+  - type: Fix
+    message: Конструкти культу тепер мають іконку культу.
+  - type: Fix
+    message: 'Усі аури культу більше не можуть зберігатися, передаватися чи скидатися.'
+  - type: Fix
+    message: Кривавий спис тепер від’єднується під час дії "відкликання".
+  - type: Fix
+    message: Тіньові кайдани тепер повинні працювати правильно.
   id: 6623
   time: '2025-01-04T15:48:53.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1397
 - author: sapphirescript
   changes:
-    - type: Tweak
-      message: >-
-        You can no longer simultaneously equip Red Shirt and Brittle Bones
-        Disease and their positive counterparts, Will To Live and Tenacity.
+  - type: Tweak
+    message: >-
+      Тепер не можна одночасно використовувати Червону Сорочку і Хворобу Крихких Кісток, а також їхні позитивні аналоги - Бажання Жити і Витривалість.
   id: 6624
   time: '2025-01-04T15:49:49.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1418
 - author: sapphirescript
   changes:
-    - type: Fix
-      message: Ifrit name and description now show up properly in ghost roles
+  - type: Fix
+    message: Ім'я та опис Іфріта тепер правильно відображаються в ролях привидів.
   id: 6625
   time: '2025-01-04T15:51:12.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1414
 - author: VMSolidus
   changes:
-    - type: Tweak
-      message: >-
-        Vacsuits now weigh 68kg instead of 5kg. This matters for Space Wind
-        being a lot less likely to throw them at people.
-    - type: Tweak
-      message: >-
-        Hardsuits and Tacsuits now weigh 100kg instead of 5kg. Also for space
-        wind. They deal 30 damage on throw collision, so it's pretty important
-        that space wind needs a lot of oomph to throw them across the room.
+  - type: Tweak
+    message: >-
+      Ваксуїти тепер важать 68 кг замість 5 кг. Це важливо для зменшення імовірності, що космічний вітер кидатиме їх у людей.
+  - type: Tweak
+    message: >-
+      Хардсуїти і такссуїти тепер важать 100 кг замість 5 кг. Також для космічного вітру. Вони завдають 30 одиниць шкоди при ударі, тому важливо, щоб космічний вітер мав більше сили для їх переміщення.
   id: 6626
   time: '2025-01-04T16:03:43.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1411
 - author: RedFoxIV
   changes:
-    - type: Add
-      message: Chatstack. Look for it in Options under "General - Accessibility".
+  - type: Add
+    message: Chatstack. Шукайте його в "Опціях" у розділі "Загальні - Доступність".
   id: 6627
   time: '2025-01-04T16:52:20.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1422
 - author: Mike32oz
   changes:
-    - type: Fix
-      message: Warden has a shotgun in the locker.
-    - type: Remove
-      message: AI, AI/cyborgs upload, and laws cards.
+  - type: Fix
+    message: У вартового тепер є дробовик у шафці.
+  - type: Remove
+    message: Видалено AI, завантаження AI/кіборгів та карти законів.
   id: 6628
   time: '2025-01-04T16:59:01.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1417
+
