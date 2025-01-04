@@ -1,8 +1,8 @@
 - type: entity
-  name: Rat King
+  name: "Щурячий король"
   id: MobRatKing
   parent: [ SimpleMobBase, MobCombat ]
-  description: He's da rat. He make da roolz.
+  description: "Він щур. Від нього я регочу."
   components:
   - type: CombatMode
   - type: MovementSpeedModifier
@@ -171,10 +171,10 @@
     - MinorAntagonists
 
 - type: entity
-  name: Rat Servant
+  name: "Щурячий слуга"
   id: MobRatServant
   parent: [ SimpleMobBase, MobCombat ]
-  description: He's da mini rat. He don't make da roolz.
+  description: "Він маленький щур. Він не робить ролз."
   categories: [ HideSpawnMenu ] #Must be configured to a King or the AI breaks.
   components:
   - type: Carriable
@@ -329,8 +329,8 @@
 
 - type: entity
   id: ActionRatKingRaiseArmy
-  name: Raise Army
-  description: Spend some hunger to summon an allied rat to help defend you.
+  name: "Підніміть армію"
+  description: "Витратьте трохи голоду, щоб викликати щура-союзника, який допоможе вам захистити себе."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -342,8 +342,8 @@
 
 - type: entity
   id: ActionRatKingDomain
-  name: Rat King's Domain
-  description: Spend some hunger to release a cloud of ammonia into the air.
+  name: "Володіння Щурячого короля"
+  description: "Витратьте трохи голоду, щоб випустити в повітря хмару аміаку."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -355,8 +355,8 @@
 
 - type: entity
   id: ActionRatKingOrderStay
-  name: Stay
-  description: Command your army to stand in place.
+  name: "Залишайтесь!"
+  description: "Накажіть своїй армії залишатися на місці."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -374,8 +374,8 @@
 
 - type: entity
   id: ActionRatKingOrderFollow
-  name: Follow
-  description: Command your army to follow you around.
+  name: "За мною!"
+  description: "Накажи своїй армії слідувати за тобою."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -393,8 +393,8 @@
 
 - type: entity
   id: ActionRatKingOrderCheeseEm
-  name: Cheese 'Em
-  description: Command your army to attack whoever you point at.
+  name: "Cheese 'Em"
+  description: "Накажіть своїй армії атакувати того, на кого ви вкажете."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -412,8 +412,8 @@
 
 - type: entity
   id: ActionRatKingOrderLoose
-  name: Loose
-  description: Command your army to act at their own will.
+  name: "Розслабтеся"
+  description: "Накажи своїй армії діяти за власним бажанням."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
