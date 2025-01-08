@@ -1,7 +1,7 @@
 - type: entity
   id: WarpPoint
   parent: MarkerBase
-  name: "точка деформації"
+  name: warp point
   components:
   - type: WarpPoint
   - type: Sprite
@@ -10,7 +10,7 @@
 - type: entity
   id: WarpPointBeacon
   parent: WarpPoint
-  name: "точка деформації (маяк)"
+  name: warp point (beacon)
   components:
   - type: NavMapBeacon
   - type: WarpPoint
@@ -19,7 +19,7 @@
 - type: entity
   parent: WarpPoint
   id: WarpPointBombing
-  name: "точка деформації"
+  name: warp point
   suffix: ninja bombing target
   components:
   - type: BombingTarget

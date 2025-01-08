@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseFlatpack
   id: InstrumentFlatpack
-  name: "футляр для інструментів"
-  description: "Плаский пакунок, який використовується для побудови чогось."
+  name: instrument flatpack
+  description: A flatpack used for constructing something.
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -14,8 +14,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: PianoFlatpack
-  name: "флетпак фортепіано"
-  description: "Плаский пакунок, який використовується для виготовлення фортепіано."
+  name: piano flatpack
+  description: A flatpack used for constructing a piano.
   components:
   - type: Flatpack
     entity: PianoInstrument
@@ -23,8 +23,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: UprightPianoFlatpack
-  name: "флетпак піаніно"
-  description: "Плаский пакунок, який використовується для побудови піаніно."
+  name: upright piano flatpack
+  description: A flatpack used for constructing an upright piano.
   components:
   - type: Flatpack
     entity: UprightPianoInstrument
@@ -32,8 +32,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: VibraphoneFlatpack
-  name: "флетпак вібрафон"
-  description: "Флетпак, що використовується для виготовлення вібрафона."
+  name: vibraphone flatpack
+  description: A flatpack used for constructing a vibraphone.
   components:
   - type: Flatpack
     entity: VibraphoneInstrument
@@ -41,8 +41,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: MarimbaFlatpack
-  name: "флетпак маримба"
-  description: "Плоский пакунок, що використовується для виготовлення маримби."
+  name: marimba flatpack
+  description: A flatpack used for constructing a marimba.
   components:
   - type: Flatpack
     entity: MarimbaInstrument
@@ -50,8 +50,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: ChurchOrganFlatpack
-  name: "флетпак церковний орган"
-  description: "Плоский пакунок, що використовується для побудови церковного органу."
+  name: church organ flatpack
+  description: A flatpack used for constructing a church organ.
   components:
   - type: Flatpack
     entity: ChurchOrganInstrument
@@ -59,8 +59,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: TubaFlatpack
-  name: "флетпак туба"
-  description: "Флетпак, що використовується для виготовлення туби."
+  name: tuba flatpack
+  description: A flatpack used for constructing a tuba.
   components:
   - type: Flatpack
     entity: TubaInstrument
@@ -68,8 +68,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: HarpFlatpack
-  name: "флетпак арфа"
-  description: "Плаский пакунок, що використовується для виготовлення арфи."
+  name: harp flatpack
+  description: A flatpack used for constructing a harp.
   components:
   - type: Flatpack
     entity: HarpInstrument
@@ -77,8 +77,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: TimpaniFlatpack
-  name: "флетпак литаври"
-  description: "Плоский пакунок, що використовується для виготовлення литавр."
+  name: timpani flatpack
+  description: A flatpack used for constructing a timpani.
   components:
   - type: Flatpack
     entity: TimpaniInstrument
@@ -86,8 +86,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: TaikoFlatpack
-  name: "флетпак тайко"
-  description: "Футляр, який використовується для виготовлення тайко."
+  name: taiko flatpack
+  description: A flatpack used for constructing a taiko.
   components:
   - type: Flatpack
     entity: TaikoInstrument
@@ -95,8 +95,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: ContrabassFlatpack
-  name: "флетпак контрабас"
-  description: "Флетпак, що використовується для побудови контрабаса."
+  name: contrabass flatpack
+  description: A flatpack used for constructing a contrabass.
   components:
   - type: Flatpack
     entity: ContrabassInstrument
@@ -104,8 +104,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: MinimoogFlatpack
-  name: "флетпак мінімуг"
-  description: "Флетпак, що використовується для побудови міні-муга."
+  name: minimoog flatpack
+  description: A flatpack used for constructing a minimoog.
   components:
   - type: Flatpack
     entity: MinimoogInstrument
@@ -113,8 +113,8 @@
 - type: entity
   parent: InstrumentFlatpack
   id: TomDrumsFlatpack
-  name: "флетпак томні барабани"
-  description: "Флетпак, що використовується для побудови томних барабанів."
+  name: tom drums flatpack
+  description: A flatpack used for constructing a tom drums set.
   components:
   - type: Flatpack
     entity: TomDrumsInstrument

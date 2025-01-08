@@ -1,10 +1,10 @@
 ﻿# To be implemented: see #9072
 
 - type: entity
-  name: "посох зцілення"
+  name: staff of healing
   parent: WeaponStaffBase
   id: WeaponStaffHealing
-  description: "Ви не передбачаєте, що вам доведеться використовувати його в пошуках кривавої бійні занадто часто."
+  description: You don't foresee having to use this in your quest for carnage too often.
   components:
   - type: Sprite
     layers:
@@ -20,10 +20,10 @@
     count: 10
 
 - type: entity
-  name: "персонал на вході"
+  name: staff of entrance
   parent: WeaponStaffBase
   id: WeaponStaffPolymorphDoor
-  description: "Для тих випадків, коли вам потрібен маршрут для втечі."
+  description: For when you need a get-away route.
   components:
   - type: Sprite
     layers:

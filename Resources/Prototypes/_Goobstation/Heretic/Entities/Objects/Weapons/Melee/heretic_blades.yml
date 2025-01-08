@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseItem ]
   id: HereticBladeBase
-  name: "лезо елдрича"
-  description: "Хворобливе лезо, що використовується зловісними особами для ритуалів і жертвоприношень."
+  name: eldritch blade
+  description: The sickly blade used by sinister individuals for rituals and sacrifices.
   components:
   - type: HereticBlade
   - type: Sharp
@@ -28,7 +28,7 @@
 - type: entity
   parent: HereticBladeBase
   id: HereticBladeAsh
-  name: "попелясте лезо"
+  name: ashen blade
   suffix: Ash
   components:
   - type: HereticBlade
@@ -51,7 +51,7 @@
 - type: entity
   parent: HereticBladeBase
   id: HereticBladeBlade
-  name: "сублімоване лезо"
+  name: sundered blade
   suffix: Blade
   components:
   - type: HereticBlade
@@ -63,7 +63,7 @@
 - type: entity
   parent: HereticBladeBase
   id: HereticBladeFlesh
-  name: "криваве лезо"
+  name: bloody blade
   suffix: Flesh
   components:
   - type: HereticBlade
@@ -77,7 +77,7 @@
 - type: entity
   parent: HereticBladeBase
   id: HereticBladeLock
-  name: "ключове лезо"
+  name: key blade
   suffix: Lock
   components:
   - type: HereticBlade
@@ -91,7 +91,7 @@
 - type: entity
   parent: HereticBladeBase
   id: HereticBladeRust
-  name: "іржаве лезо"
+  name: rusty blade
   suffix: Rust
   components:
   - type: HereticBlade
@@ -105,7 +105,7 @@
 - type: entity
   parent: HereticBladeBase
   id: HereticBladeVoid
-  name: "порожнє лезо"
+  name: void blade
   suffix: Void
   components:
   - type: HereticBlade
