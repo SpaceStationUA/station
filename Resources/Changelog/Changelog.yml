@@ -8560,4 +8560,114 @@ Entries:
   id: 6628
   time: '2025-01-04T16:59:01.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1417
-
+- author: CerberusWolfie
+  changes:
+    - type: Add
+      message: Додано ідентифікатори <Table> та <ColorBox>. Використовуйте їх у SOP!
+  id: 6629
+  time: '2025-01-05T16:01:33.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1427
+- author: Skubman
+  changes:
+    - type: Add
+      message: Ламії тепер можуть бути чоловіками, а не лише жінками. Також вони можуть носити бороду.
+    - type: Add
+      message: Ламії тепер можуть обирати маркування вище рівня ніг, включаючи кібернетику, макіяж, татуювання, сережки, гетерохромію, браслети, роги і гребені, гострі вуха тощо!
+    - type: Fix
+      message: Додано текст для маркування хвоста ламії.
+  id: 6630
+  time: '2025-01-05T18:09:37.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1440
+- author: Skubman
+  changes:
+    - type: Fix
+      message: Виправлено проблему, коли шкода з часом не відображалася при огляді значень шкоди предмета.
+    - type: Fix
+      message: Виправлено, що емаг не завдавав пасивної шкоди при імплантації у ціль.
+    - type: Tweak
+      message: Тепер огляд значень шкоди предмета показує їх у впорядкованому вигляді: шкода від зброї, ближнього бою, кидків, імплантації.
+    - type: Tweak
+      message: Коп'я тепер коштують 6 витривалості при кидку і більше не ламаються після певної кількості кидків.
+    - type: Tweak
+      message: Плитки підлоги тепер ламаються після 10 кидків замість 4.
+    - type: Tweak
+      message: Шафи, скрині й ящики тепер відтворюють відповідний звуковий ефект при кидку (просторовим вітром).
+  id: 6631
+  time: '2025-01-05T18:10:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1434
+- author: Skubman
+  changes:
+    - type: Add
+      message: Додано дві нові риси: Стриманий і Слабкий, які зменшують або збільшують ефект уповільнень від поранень.
+    - type: Tweak
+      message: Уповільнення від поранень для більшості видів трохи збільшено, але це можна компенсувати рисою Стриманий.
+    - type: Tweak
+      message: Опір уповільненням від поранень у черевиках зменшено з 50% до 20%.
+    - type: Tweak
+      message: Черевики для бою тепер додають опір уповільненням від поранень, як і черевики.
+  id: 6632
+  time: '2025-01-05T18:24:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1431
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Тепер при прибиранні слідів шваброю вони очищаються в невеликому радіусі навколо курсора миші.
+  id: 6633
+  time: '2025-01-05T18:27:12.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1439
+- author: Skubman
+  changes:
+    - type: Fix
+      message: Пацифіковані персонажі (з рисою Пацифіст і злодії) більше не можуть кидати предмети, що завдають шкоди.
+  id: 6634
+  time: '2025-01-05T18:30:15.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1433
+- author: Skubman
+  changes:
+    - type: Tweak
+      message: Риса Тренування Паркуру змінена. Тепер вона більше не пришвидшує вставання чи падіння, але зменшує час оглушення при падіннях на 30% і додає 50% опору уповільненням на складній місцевості.
+    - type: Tweak
+      message: Риси Млявий і Равликовий хід тепер лише зменшують швидкість руху. Зменшення швидкості трохи збільшено: з 15% до 16% для Млявого, і з 30% до 32% для Равликового ходу.
+    - type: Add
+      message: Додано нову негативну рису за 3 очки — Погані коліна. Це протилежність Тренуванню Паркуру. Вона уповільнює лазіння через столи, збільшує час оглушення при падіннях і знижує швидкість руху на складній місцевості.
+    - type: Tweak
+      message: Равликовий хід більше не запобігає падінню під час бігу.
+  id: 6635
+  time: '2025-01-05T18:31:21.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1432
+- author: Skubman
+  changes:
+    - type: Fix
+      message: Категорія маркувань Обличчя тепер має необмежену кількість маркувань для всіх видів, окрім IPC.
+    - type: Fix
+      message: Народ Метелики тепер можуть застосовувати макіяж Метеликів у категорії Обличчя.
+    - type: Tweak
+      message: Унатхі тепер мають 3 точки маркувань "Голова (Бок)", тому вони можуть використовувати гребені та сережки для обох сторін.
+  id: 6636
+  time: '2025-01-05T18:35:46.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1435
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Ламії тепер залишають сліди ковзання через калюжі, а не звичайні сліди.
+  id: 6637
+  time: '2025-01-05T18:37:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1425
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Конфісковано чорний грим з Пун-Пуна.
+  id: 6638
+  time: '2025-01-05T19:21:08.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1437
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: Міми більше не можуть брати риси Мовчун і Іноземець.
+    - type: Tweak
+      message: Рідкісні мови, такі як Sinta'Azaziba і Valyrian Standard, тепер коштують очки замість їх надання.
+    - type: Tweak
+      message: Мова жестів тепер коштує очки.
+  id: 6639
+  time: '2025-01-05T19:45:18.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1441
