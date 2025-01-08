@@ -1,7 +1,7 @@
 - type: entity
   id: N14FloorWaterDirtyEntity
-  name: water
-  description: A real thirst quencher.
+  name: "вода"
+  description: "Справжній напій для втамування спраги."
   placement:
     mode: SnapgridCenter
     snap:
@@ -53,8 +53,8 @@
 - type: entity
   parent: N14FloorWaterDirtyEntity
   id: N14FloorWaterSewerDeep
-  name: deep sewer water
-  description: Years of built up feces and urine and other fluids.
+  name: "глибока каналізаційна вода"
+  description: "Роками накопичуються кал, сеча та інші рідини."
   components:
   - type: Sprite
     sprite: _Nuclear14/Tiles/ms13/Water.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterSewerMedium
-  name: sewer water
-  description: Years of built up feces and urine and other fluids.
+  name: "каналізаційна вода"
+  description: "Роками накопичуються кал, сеча та інші рідини."
   components:
   - type: Sprite
     layers:
@@ -80,8 +80,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterSewerShallow
-  name: shallow sewer water
-  description: Years of built up feces and urine and other fluids.
+  name: "неглибока каналізаційна вода"
+  description: "Роками накопичуються кал, сеча та інші рідини."
   components:
   - type: Sprite
     layers:
@@ -93,8 +93,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterDeep
-  name: deep water
-  description: Endless Abyss.
+  name: "глибока вода"
+  description: "Нескінченна безодня."
   components:
   - type: Sprite
     layers:
@@ -106,8 +106,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterMedium
-  name: water
-  description: Unclean water, likely highly unclean.
+  name: "вода"
+  description: "Нечиста вода, швидше за все, дуже нечиста."
   components:
   - type: Sprite
     layers:
@@ -119,8 +119,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterShallow
-  name: shallow water
-  description: Unclean water, likely highly unclean
+  name: "мілководдя"
+  description: "Нечиста вода, ймовірно, дуже брудна"
   components:
   - type: Sprite
     layers:
@@ -132,8 +132,8 @@
 - type: entity
   parent: N14FloorWaterSewerDeep
   id: N14FloorWaterSaltDeep
-  name: deep salt water
-  description: Endless Abyss.
+  name: "глибока солона вода"
+  description: "Нескінченна безодня."
   components:
   - type: Sprite
     layers:
@@ -152,8 +152,8 @@
 - type: entity
   parent: N14FloorWaterSaltDeep
   id: N14FloorWaterSaltMedium
-  name: salt water
-  description: Unclean water, tainted with salt.
+  name: "солона вода"
+  description: "Нечиста вода, зіпсована сіллю."
   components:
   - type: Sprite
     layers:
@@ -165,8 +165,8 @@
 - type: entity
   parent: N14FloorWaterSaltDeep
   id: N14FloorWaterSaltShallow
-  name: shallow salt water
-  description: Unclean water, tainted with salt
+  name: "неглибока солона вода"
+  description: "Нечиста вода, зіпсована сіллю"
   components:
   - type: Sprite
     layers:

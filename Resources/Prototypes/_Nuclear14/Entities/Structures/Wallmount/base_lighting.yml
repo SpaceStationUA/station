@@ -2,9 +2,9 @@
 - type: entity
   parent: SmallLight
   id: N14LightSmallAlwayson
-  name: small light
+  name: "маленьке світло"
   suffix: Always on
-  description: "An always powered light."
+  description: "Постійно ввімкнене світло."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Wallmounts/lightbulbcaged.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: PoweredSmallLightEmpty
   id: N14LightSmallEmpty
-  name: small light
-  description: "A light fixture. Draws power and produces light when equipped with a light bulb."
+  name: "маленьке світло"
+  description: "Освітлювальний прилад. Споживає енергію і виробляє світло, коли оснащений лампочкою."
   suffix: Empty
   components:
   - type: Sprite
