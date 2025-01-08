@@ -156,7 +156,7 @@ nano-chat-delete = Видалити
 nano-chat-loading = Завантаження...
 nano-chat-message-too-long = Повідомлення занадто довге ({$current}/{$max} символів)
 nano-chat-max-recipients = Досягнуто максимальної кількості одержувачів
-nano-chat-new-message-title = Повідомлення від {$sender}
+nano-chat-new-message-title = повідомлення від {$sender}
 nano-chat-new-message-body = {$message}
 nano-chat-toggle-mute = Вимкнути звук сповіщень
 nano-chat-delivery-failed = Не вдалося доставити
@@ -182,3 +182,8 @@ log-probe-card-number = Картка: {$number}
 log-probe-recipients = {$count} одержувачів
 log-probe-recipient-list = Відомі одержувачі:
 log-probe-message-format = {$sender} → {$recipient}: {$content}
+
+nano-chat-new-message-title-recipient = {$sender} ({$jobTitle})
+nano-chat-confirm = Підтвердити
+
+# LogProbe additions

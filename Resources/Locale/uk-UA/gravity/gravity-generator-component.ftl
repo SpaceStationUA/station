@@ -7,9 +7,9 @@ gravity-generator-window-title = Гравітаційний генератор
 ## Назви полів інтерфейсу
 
 gravity-generator-window-status = Статус:
-gravity-generator-window-power = Сила:
+gravity-generator-window-power = Напруга:
 gravity-generator-window-eta = ОРІЄНТОВНИЙ ЧАС ПРИБУТТЯ:
-gravity-generator-window-charge = Заряджай:
+gravity-generator-window-charge = Заряд:
 
 ## Статуси інтерфейсу
 gravity-generator-window-status-fully-charged = Повністю заряджений

@@ -1,7 +1,7 @@
-signal-port-name-pressed = Натиснув
+signal-port-name-pressed = Натиснуто
 signal-port-description-pressed = Цей порт викликається щоразу, коли передавач активовано.
 
-signal-port-name-on-transmitter = На
+signal-port-name-on-transmitter = Увімкнено
 signal-port-description-on-transmitter = Цей порт викликається щоразу, коли передавач увімкнено.
 
 signal-port-name-off-transmitter = Вимкнено
@@ -22,7 +22,7 @@ signal-port-description-doorstatus = Цей порт викликається з
 signal-port-name-middle = Середина
 signal-port-description-middle = Цей порт викликається щоразу, коли важіль переводиться в нейтральне положення.
 
-signal-port-name-timer-trigger = Тригер таймера
+signal-port-name-timer-trigger = Часовий трігер
 signal-port-description-timer-trigger = Цей порт викликається щоразу, коли спрацьовує таймер.
 
 signal-port-name-timer-start = Старт за таймером

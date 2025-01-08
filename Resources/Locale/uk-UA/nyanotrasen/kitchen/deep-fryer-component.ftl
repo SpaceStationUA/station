@@ -9,7 +9,7 @@ deep-fryer-storage-full = Усі кошики повні.
 deep-fryer-storage-no-fit = {CAPITALIZE(THE($item))} не поміститься в один із кошиків.
 deep-fryer-interact-using-not-item = Це, здається, не предмет.
 
-deep-fryer-need-liquid-container-in-hand = Вам потрібно спочатку тримати в активній руці ємність з рідиною, як-от стакан або миску.
+deep-fryer-need-liquid-container-in-hand = Вам потрібно спочатку тримати в активній руці ємність з рідиною, як-от мензурку або миску.
 
 deep-fryer-thrown-missed = Не попав!
 deep-fryer-thrown-hit-oil = Пльоп!

@@ -12,8 +12,8 @@ grinder-menu-grind-button = Мелення
 grinder-menu-juice-button = Сік
 grinder-menu-chamber-content-box-label = Камера
 grinder-menu-chamber-content-box-button = Вийняти Вміст
-grinder-menu-beaker-content-box-label = Склянка
-grinder-menu-beaker-content-box-button = Вийняти склянку
+grinder-menu-beaker-content-box-label = Мензурка
+grinder-menu-beaker-content-box-button = Вийняти мензурку
 grinder-menu-beaker-content-box-is-empty = Порожньо
 
 grinder-menu-auto-label = Автоматичний режим
