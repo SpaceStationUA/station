@@ -8671,3 +8671,199 @@ Entries:
   id: 6639
   time: '2025-01-05T19:45:18.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1441
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Портовано безліч нових предметів одягу з Frontier.
+  id: 6640
+  time: '2025-01-05T19:45:36.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1388
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Виправлено неправильне створення Посту прослуховування Синдикату.
+  id: 6641
+  time: '2025-01-05T19:45:57.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1438
+- author: The Den Contributors
+  changes:
+    - type: Fix
+      message: У медхудах і секхудах з рецептом тепер справжні лінзи. (від KyuPolaris)
+    - type: Add
+      message: Додано светр і дзеркало для голови до комплекту одягу CMO. (від sleepyyapril, KyuPolaris)
+    - type: Add
+      message: Додано броньований плащ для Капітана. Насолоджуйтесь стилем! (від Rosycup)
+    - type: Fix
+      message: Виправлено нерівний штанин літньої форми охорони. (від Rosycup)
+    - type: Add
+      message: Додано Бойову Газову Маску Капітана для близьких контактів. (від Rosycup)
+    - type: Tweak
+      message: Плащ Капітана додано до інших варіантів шафок капітана. (від Rosycup)
+    - type: Fix
+      message: Виправлено відображення займенників вони/їх для персонажів з займенниками це/його у попередньому перегляді. (від Azzy)
+  id: 6642
+  time: '2025-01-05T20:46:36.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1443
+- author: TwoDucksOnnaPlane
+  changes:
+    - type: Fix
+      message: Виправлено елітний костюм Синдикату, який був єдиним телекристалом. Cybersun більше не оговтається від цієї фінансової катастрофи.
+  id: 6643
+  time: '2025-01-07T01:21:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1449
+- author: Skubman
+  changes:
+    - type: Tweak
+      message: Максимальну кількість рис збільшено з 10 до 14.
+  id: 6644
+  time: '2025-01-07T04:08:32.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1446
+- author: Spatison
+  changes:
+    - type: Fix
+      message: Колір гуманоїда в панелі створення тепер правильний.
+    - type: Fix
+      message: IPC більше не можуть бути невидимими під час створення.
+  id: 6645
+  time: '2025-01-07T17:02:45.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1454
+- author: RadsammyT
+  changes:
+    - type: Tweak
+      message: Мови, які не вимагають звуків (наприклад, жестова мова), більше не відтворюватимуть звуки мовлення.
+  id: 6646
+  time: '2025-01-07T17:15:10.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1448
+- author: CerberusWolfie
+  changes:
+    - type: Add
+      message: Додано панель передачі часу.
+  id: 6647
+  time: '2025-01-07T17:23:36.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1429
+- author: Skubman
+  changes:
+    - type: Add
+      message: У повідомленнях NanoChat тепер відображатиметься посада відправника поруч із його ім’ям.
+    - type: Add
+      message: Кнопка редагування NanoChat тепер має відповідну іконку.
+    - type: Tweak
+      message: Максимальний обсяг дискового простору (кількість встановлюваних програм) у КПК збільшено з 5 до 8. Також виправлено помилку, через яку NanoChat не встановлювався на КПК з понад 5 попередньо встановленими картриджами.
+    - type: Tweak
+      message: Ліміт символів для імен та посад у NanoChat збільшено до фактичного обмеження на ID-картках (30 символів).
+    - type: Tweak
+      message: У назвах/титулах чату NanoChat і повідомленнях, що занадто довгі, тепер з’являтиметься «...» наприкінці.
+    - type: Tweak
+      message: Виправлено текст у спливаючому вікні редагування NanoChat, яке тепер відображає правильний текст, замість дублювання вікна створення нового чату.
+    - type: Fix
+      message: NanoChat тепер надсилатиме нові повідомлення незалежно від того, чи відкрито чат.
+    - type: Fix
+      message: Редагування чату в NanoChat більше не знімає вибір цього чату.
+    - type: Fix
+      message: Виправлено помилку, через яку користувачі могли надсилати повідомлення NanoChat довші за максимальну довжину.
+    - type: Fix
+      message: Виправлено можливість створення нового чату без введення 4 цифр у полі номера.
+  id: 6648
+  time: '2025-01-08T06:56:46.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1460
+- author: Skubman
+  changes:
+    - type: Tweak
+      message: Ліміт символів для заголовків новин збільшено з 25 до 50, а для контенту новин — з 2048 до 2560 символів.
+  id: 6649
+  time: '2025-01-08T06:58:05.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1447
+- author: aspiringLich
+  changes:
+    - type: Tweak
+      message: Деякі хімічні речовини зроблені більш яскравими та дружніми до дітей.
+  id: 6650
+  time: '2025-01-08T07:06:22.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1461
+- author: Skubman
+  changes:
+    - type: Fix
+      message: Ручка Cybersun тепер завдає 15 пошкоджень при кидку та завдає пасивні пошкодження при впровадженні.
+  id: 6651
+  time: '2025-01-08T07:07:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1459
+- author: Lumminal
+  changes:
+    - type: Fix
+      message: Виправлено неспрацьовування заклинання Shadow Shackles.
+  id: 6652
+  time: '2025-01-08T07:09:10.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1456
+- author: Skubman
+  changes:
+    - type: Fix
+      message: Виправлено відображення міток на обличчі над окулярами.
+  id: 6653
+  time: '2025-01-08T19:37:24.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1467
+- author: Lumminal
+  changes:
+    - type: Add
+      message: Додано коробку з гарнітурами для в’язнів до шафки наглядача.
+  id: 6654
+  time: '2025-01-09T21:32:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1470
+- author: BlueHNT
+  changes:
+    - type: Add
+      message: Додано відсутні рецепти для токарного верстата.
+  id: 6655
+  time: '2025-01-10T02:27:28.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1472
+- author: Spatison
+  changes:
+    - type: Tweak
+      message: Німфи тепер можуть оперуватися.
+    - type: Fix
+      message: Скелети тепер можуть лягати.
+    - type: Fix
+      message: Тепер неможливо вставити орган у тіло, якщо немає вільного місця.
+  id: 6656
+  time: '2025-01-10T02:27:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1471
+- author: Spatison
+  changes:
+    - type: Add
+      message: Додано окуляри нічного бачення.
+    - type: Add
+      message: Додано окуляри теплового бачення.
+    - type: Add
+      message: Шолом Deathsquad тепер надає нічне та теплове бачення.
+    - type: Add
+      message: Візор ніндзя тепер надає нічне бачення.
+    - type: Tweak
+      message: Деякі тварини отримали нічне бачення.
+    - type: Tweak
+      message: Ксеноси отримали нічне бачення.
+  id: 6657
+  time: '2025-01-10T04:41:32.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1462
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Додано 2 нові риси, пов'язані з кіберочима. Модуль посилення світла та модуль тепловізора.
+  id: 6658
+  time: '2025-01-10T05:14:46.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1477
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Додано нову пси-силу "Аналіз", доступну від початку для псіонічного мантиса. "Аналіз" дозволяє отримувати більше інформації про статистику конкретного псіона, а також натяки на їх здібності, якщо такі є.
+  id: 6659
+  time: '2025-01-11T00:13:27.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1450
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Портовано AI станції.
+    - type: Add
+      message: Saltern тепер обладнаний AI станції.
+  id: 6660
+  time: '2025-01-11T04:39:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1423
+

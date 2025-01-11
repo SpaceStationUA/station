@@ -111,7 +111,7 @@ public abstract class SharedStasisSystem : EntitySystem
     /// </summary>
     private void OnInteractionAttempt(Entity<InsideStasisComponent> stasised, ref InteractionAttemptEvent args)
     {
-        args.Cancel();
+        args.Cancelled = true;
     }
 
     /// <summary>
@@ -122,7 +122,7 @@ public abstract class SharedStasisSystem : EntitySystem
         if (HasComp<StasisImmunityComponent>(args.Uid))
             return;
 
-        args.Cancel();
+        args.Cancelled = true;
     }
 
     private void OnMoveAttempt(Entity<InsideStasisComponent> stasised, ref UpdateCanMoveEvent args)
