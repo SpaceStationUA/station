@@ -13,3 +13,9 @@ bolt-open = Відкрити болт
 
 toggle-light = Перемкнути світло
 
+
+emergency-access-on = Увімкнути аварійний доступ
+emergency-access-off = Вимкнути аварійний доступ
+electrify-door-on = Увімкнути перезарядку
+electrify-door-off = Вимкнути перезарядку
+ai-device-not-responding = Пристрій не відповідає

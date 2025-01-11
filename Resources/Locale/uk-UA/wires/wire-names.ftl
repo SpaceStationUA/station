@@ -68,3 +68,5 @@ wire-name-speech = ГОЛОС
 wire-name-listen = МІКРО
 
 ipc-board-name = Провода ІПШ
+
+wire-name-log = ЛОГ
