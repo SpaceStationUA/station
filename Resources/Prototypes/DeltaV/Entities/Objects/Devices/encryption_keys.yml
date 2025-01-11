@@ -1,8 +1,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyJustice
-  name: "ключ шифрування правосуддя"
-  description: "Ключ шифрування, що використовується Міністерством юстиції."
+  name: justice encryption key
+  description: An encryption key used by the justice department.
   components:
   - type: EncryptionKey
     channels:
@@ -17,8 +17,8 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyPrison
-  name: "Ключ шифрування в'язниці"
-  description: "Ключ шифрування, яким користуються всі, кому потрібно поговорити з ув'язненими"
+  name: Prison encryption key
+  description: An encryption key used by anybody who needs to speak with the prisoners
   components:
   - type: EncryptionKey
     channels:

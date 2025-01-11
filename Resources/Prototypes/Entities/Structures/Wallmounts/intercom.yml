@@ -1,7 +1,7 @@
 - type: entity
   id: BaseIntercom
-  name: "домофон"
-  description: "Переговорний пристрій. Для випадків, коли станція просто хоче щось дізнатися."
+  name: intercom
+  description: An intercom. For when the station just needs to know something.
   abstract: true
   components:
   - type: WallMount
@@ -126,8 +126,8 @@
 
 - type: entity
   id: IntercomAssembly
-  name: "монтаж домофона"
-  description: "Домофон. Не думаю, що це зараз дуже корисно."
+  name: intercom assembly
+  description: An intercom. It doesn't seem very helpful right now.
   components:
   - type: WallMount
   - type: Clickable
@@ -275,7 +275,7 @@
   id: IntercomSecurity
   parent: Intercom
   suffix: Security
-  description: "Домофон. Він укріплений металом від шоломів охоронців, що робить його дуже складним для відкривання."
+  description: An intercom. It's been reinforced with metal from security helmets, making it a bitch-and-a-half to open.
   components:
   - type: WiresPanel
     openDelay: 5

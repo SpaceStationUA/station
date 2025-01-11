@@ -175,7 +175,7 @@
 
 # Human NPC, uses equipment, immune to vacuum/low pressure
 - type: entity
-  name: "Людський NPC"
+  name: Human NPC
   suffix: AI, Hostile
   abstract: true
   parent:
@@ -226,7 +226,7 @@
 
 # NonHuman NPC base, no equipment, immune to vacuum/low pressure
 - type: entity
-  name: "Моб NPC"
+  name: Mob NPC
   suffix: AI, Hostile
   abstract: true
   parent:
