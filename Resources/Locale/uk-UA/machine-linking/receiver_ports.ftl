@@ -81,3 +81,5 @@ signal-port-description-logic-input = Вхідний сигнал на дете�
 
 signal-port-name-set-particle-sigma = Встановити тип частинок: сигма
 signal-port-description-set-particle-sigma = Встановлює тип частинок, які випромінює цей пристрій, на сигму.
+signal-port-name-material-silo-utilizer = Утилізатор силосу
+signal-port-description-material-silo-utilizer = Утилізатор для силосу станційного матеріалу
