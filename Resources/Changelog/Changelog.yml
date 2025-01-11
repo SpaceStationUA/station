@@ -8888,4 +8888,100 @@ Entries:
   id: 6662
   time: '2025-01-11T17:06:38.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1486
-
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Додано Station AI до Radstation
+  id: 6663
+  time: '2025-01-11T17:12:52.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1487
+- author: neuPanda
+  changes:
+    - type: Tweak
+      message: змінено систему видалення тертя
+    - type: Fix
+      message: виправлено систему інерційного гасіння, яка скидала налаштування або впливала на неправильну сітку
+    - type: Remove
+      message: видалено занадто складні зміни
+  id: 6664
+  time: '2025-01-11T17:37:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1482
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано Argenti, Gestio, Novalite C1 та SVT. Додано "Порожній" варіант
+        Mosin для Salvage.
+    - type: Add
+      message: >-
+        Техніки Salvage тепер можуть витрачати свої очки видобутку на нову
+        "цивільну" зброю у Mining Vendor. Вони не мають боєприпасів, тому вам
+        доведеться попросити Службу Безпеки надрукувати їх.
+    - type: Add
+      message: Додано револьвер Argenti до екіпірування Служби Безпеки.
+    - type: Tweak
+      message: >-
+        У шафках Salvage Specialist тепер гарантовано є один кайло та одна
+        сумка для руди.
+  id: 6665
+  time: '2025-01-11T18:24:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1490
+- author: sleepyyapril
+  changes:
+    - type: Fix
+      message: Виправлено спам оголошень, викликаний моїм недоглядом.
+  id: 6666
+  time: '2025-01-11T18:26:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1491
+- author: Spatison
+  changes:
+    - type: Add
+      message: Додано матеріальний силос
+  id: 6667
+  time: '2025-01-11T18:39:24.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1488
+- author: Tirochora
+  changes:
+    - type: Fix
+      message: Не можна взяти "Світлобоязнь", якщо ви сліпі або маєте кіберочі.
+    - type: Fix
+      message: Не можна взяти "Короткозорість", якщо ви сліпі або маєте кіберочі.
+    - type: Fix
+      message: >-
+        Не можна бути сліпим, якщо ви короткозорі, світлобоязливі або маєте
+        кіберочі.
+  id: 6668
+  time: '2025-01-11T18:54:37.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1492
+- author: Spatison
+  changes:
+    - type: Tweak
+      message: У кайданів Тіні тепер є затримка перед зв'язуванням
+    - type: Fix
+      message: Кайдани Тіні тепер можна зняти
+  id: 6669
+  time: '2025-01-11T19:02:09.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1466
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Додано Station AI до (майже) всіх карт у ротації.
+    - type: Add
+      message: Додано рудні силоси до всіх карт у ротації.
+  id: 6670
+  time: '2025-01-11T19:58:08.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1499
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Виправлено проблему, через яку NPC із дальньою зброєю не могли прицілитися.
+  id: 6671
+  time: '2025-01-11T20:40:09.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1500
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Виправлено аварію, викликану тим, що Weather System створював мільйони звуків.
+  id: 6672
+  time: '2025-01-11T20:40:15.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1501
