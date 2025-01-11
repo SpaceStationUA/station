@@ -120,3 +120,6 @@ job-name-zombie = Зомбі
 job-title-visitor = Відвідувач
 job-title-cluwne = Клюн
 job-title-universal = Універсальні
+
+job-name-station-ai = Станція штучного інтелекту
+JobStationAi = Станція штучного інтелекту

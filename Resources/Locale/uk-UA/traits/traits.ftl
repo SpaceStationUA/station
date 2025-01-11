@@ -347,3 +347,7 @@ trait-description-BadKnees = Через травми, вік чи зношенн
     Ти залазиш на об'єкти, як-от столи, [color=yellow]на 50%[/color] повільніше.
     Падіння залишає тебе приголомшеним на [color=yellow]40%[/color] довше. { -slippery-example }
     Складний рельєф уповільнює тебе на [color=yellow]35%[/color] більше. { -terrain-example }
+trait-name-LightAmplification = Модуль CyberEyes: Посилення світла
+trait-description-LightAmplification = Ваші CyberEyes були вдосконалені модулем підсилювача світла, що дозволяє користувачеві перемикатися між стандартним прицілом і режимом "нічного бачення".
+trait-name-ThermographicVision = Модуль CyberEyes: Термографічний сканер
+trait-description-ThermographicVision = Ваші кібер-очі доповнено термографічним сканером. Коли він увімкнений, він робить знімок оточення користувача, виділяючи при цьому всі біологічні форми життя. Він навіть може виявляти людей через стіни станції.
