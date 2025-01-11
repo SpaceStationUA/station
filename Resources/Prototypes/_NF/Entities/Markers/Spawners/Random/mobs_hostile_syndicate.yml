@@ -1,5 +1,5 @@
 - type: entity
-  name: "спавнер капітану морпіхів синдикату"
+  name: syndicate naval captain spawner
   id: SpawnMobSyndicateNavalCaptain
   parent: MarkerBase
   suffix: AI, Hostile, RND
@@ -34,7 +34,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: "спавнер інженера морпіхів синдикату"
+  name: syndicate naval engineer spawner
   id: SpawnMobSyndicateNavalEngineer
   parent: MarkerBase
   suffix: AI, Hostile, RND
@@ -67,7 +67,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: "спавнер мадика морпіхів синдикату"
+  name: syndicate naval medic spawner
   id: SpawnMobSyndicateNavalMedic
   parent: MarkerBase
   suffix: AI, Hostile, RND
@@ -102,7 +102,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: "спавнер другого офіцера морпіхів синдикату"
+  name: syndicate naval second officer spawner
   id: SpawnMobSyndicateNavalSecondOfficer
   parent: MarkerBase
   suffix: AI, Hostile, RND
@@ -137,7 +137,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: "спавнер морпіхів синдикату"
+  name: syndicate naval operator spawner
   id: SpawnMobSyndicateNavalOperator
   parent: MarkerBase
   suffix: AI, Hostile, RND
@@ -172,7 +172,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: "спавнер гренадера морпіхів синдикату"
+  name: syndicate naval grenadier spawner
   id: SpawnMobSyndicateNavalGrenadier
   parent: MarkerBase
   suffix: AI, Hostile, RND
@@ -205,7 +205,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: "спавнер саботера морпіхів синдикату"
+  name: syndicate naval saboteur spawner
   id: SpawnMobSyndicateNavalSaboteur
   parent: MarkerBase
   suffix: AI, Hostile, RND
@@ -240,7 +240,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: "спавнер жертви експеримету"
+  name: victim of experimentation spawner
   id: SpawnMobExperimentationVictim
   parent: MarkerBase
   suffix: AI, Hostile
@@ -260,7 +260,7 @@
       - MobExperimentationVictim
 
 - type: entity
-  name: "спавнер командувача морпіхів синдикату"
+  name: syndicate naval commander spawner
   id: SpawnMobSyndicateNavalCommander
   parent: MarkerBase
   suffix: AI, Hostile, RND
@@ -291,7 +291,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: "спавнер матроса морпіхів синдикату"
+  name: syndicate naval deckhand spawner
   id: SpawnMobSyndicateNavalDeckhand
   parent: MarkerBase
   suffix: AI, Hostile, RND
@@ -322,7 +322,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: "синдикат"
+  name: syndicat
   id: SpawnMobCatSyndy
   parent: MarkerBase
   components:
@@ -337,7 +337,7 @@
       - MobCatSyndy
 
 - type: entity
-  name: "спавнер міма морпіхів синдикату"
+  name: syndicate naval mime spawner
   id: SpawnMobSyndicateNavalMime
   parent: MarkerBase
   suffix: AI, Hostile
@@ -363,7 +363,7 @@
       - MobSyndicateNavalMime
 
 - type: entity
-  name: "спавнер хім-воїна морпіхів синдикату"
+  name: syndicate naval chemwarrior spawner
   id: SpawnMobSyndicateNavalChemwarrior
   parent: MarkerBase
   suffix: AI, Hostile, RND
@@ -398,7 +398,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: "спавнер жаху морпіхів синдикату"
+  name: syndicate naval horror spawner
   id: SpawnMobSyndicateNavalHorror
   parent: MarkerBase
   suffix: AI, Hostile, RND

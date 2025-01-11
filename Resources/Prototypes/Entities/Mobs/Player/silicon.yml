@@ -1,7 +1,7 @@
 # Be careful with these as they get removed on shutdown too!
 - type: entity
   id: AiHeld
-  description: "Компоненти, що додаються/видаляються з сутності, яка вставляється в ядро ШІ."
+  description: Components added / removed from an entity that gets inserted into an AI core.
   categories: [ HideSpawnMenu ]
   components:
   - type: IntrinsicRadioReceiver
@@ -50,8 +50,8 @@
 # Actions
 - type: entity
   id: ActionJumpToCore
-  name: "Перейти до суті"
-  description: "Повертає погляд до суті."
+  name: Jump to core
+  description: Sends your eye back to the core.
   components:
   - type: InstantAction
     itemIconStyle: BigAction
@@ -62,8 +62,8 @@
 
 - type: entity
   id: ActionShowJobIcons
-  name: "Показати іконки вакансій"
-  description: "Показує іконки завдань для членів екіпажу."
+  name: Show job icons
+  description: Shows job icons for crew members.
   components:
   - type: InstantAction
     itemIconStyle: BigAction
@@ -76,8 +76,8 @@
 
 - type: entity
   id: ActionSurvCameraLights
-  name: "Увімкнути підсвічування камери"
-  description: "Увімкніть підсвічування камери спостереження поруч з тим місцем, яке ви переглядаєте."
+  name: Toggle camera lights
+  description: Enable surveillance camera lights near wherever you're viewing.
   components:
   - type: InstantAction
     itemIconStyle: BigAction
@@ -102,7 +102,7 @@
 - type: entity
   id: AiHolder
   abstract: true
-  description: "Керує взаємодією ШІ між голографічними картками + ядрами ШІ"
+  description: Handles AI interactions across holocards + AI cores
   components:
   - type: ItemSlots
   - type: StationAiHolder
@@ -124,8 +124,8 @@
 - type: entity
   id: AsimovCircuitBoard
   parent: BaseElectronics
-  name: "друкована плата (Крюсімов)"
-  description: "Електронна плата з набором законів Крюсімова."
+  name: circuit board (Crewsimov)
+  description: An electronics board containing the Crewsimov lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -136,8 +136,8 @@
 - type: entity
   id: CorporateCircuitBoard
   parent: BaseElectronics
-  name: "друкована плата (корпоративна)"
-  description: "Електронна плата, що містить пакет корпоративного законодавства."
+  name: circuit board (Corporate)
+  description: An electronics board containing the Corporate lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -148,8 +148,8 @@
 - type: entity
   id: NTDefaultCircuitBoard
   parent: BaseElectronics
-  name: "друкована плата (NT за замовчуванням)"
-  description: "Електронна плата, що містить набір законів NT за замовчуванням."
+  name: circuit board (NT Default)
+  description: An electronics board containing the NT Default lawset.
   components:
   - type: Sprite
     sprite: Objects/Misc/module.rsi
@@ -160,8 +160,8 @@
 # Items
 - type: entity
   id: Intellicard
-  name: "Інтелекткарт"
-  description: "Пристрій для зберігання даних для ШІ."
+  name: Intellicard
+  description: A storage device for AIs.
   parent:
   - BaseItem
   - AiHolder
@@ -184,8 +184,8 @@
 
 - type: entity
   id: PlayerStationAiEmpty
-  name: "Ядро штучного інтелекту"
-  description: "Останнє в галузі штучного інтелекту."
+  name: AI Core
+  description: The latest in Artificial Intelligences.
   parent:
   - BaseStructure
   - AiHolder
@@ -300,8 +300,8 @@
   - Incorporeal
   - BaseMob
   id: StationAiHolo
-  name: "Голограма"
-  description: "Проекція ШІ."
+  name: Hologram
+  description: A projection of the AI.
   categories: [ HideSpawnMenu ]
   suffix: DO NOT MAP
   components:
