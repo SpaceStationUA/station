@@ -2,10 +2,10 @@
 
 
 - type: entity
-  name: "бавовняний суп"
+  name: cotton soup
   parent: FoodBowlBase
   id: FoodMothCottonSoup
-  description: "Суп із сирої бавовни на ароматному овочевому бульйоні. Смакує лише міллю та злочинно несмачним."
+  description: A soup made from raw cotton in a flavourful vegetable broth. Enjoyed only by moths and the criminally tasteless.
   components:
   - type: FlavorProfile
     flavors:
@@ -32,10 +32,10 @@
 #Tastes like cotton and broth
 
 - type: entity
-  name: "сирний суп"
+  name: cheese soup
   parent: FoodBowlBase
   id: FoodMothCheeseSoup
-  description: "Простий і ситний суп з домашнього сиру та солодкої картоплі."
+  description: A simple and filling soup made from homemade cheese and sweet potato.
   components:
   - type: FlavorProfile
     flavors:
@@ -63,10 +63,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: "суп з насіння"
+  name: seed soup
   parent: FoodBowlBase
   id: FoodMothSeedSoup
-  description: "Суп на основі насіння, який готується шляхом пророщування насіння і подальшого відварювання."
+  description: A seed based soup, made by germinating seeds and then boiling them.
   components:
   - type: FlavorProfile
     flavors:
@@ -92,10 +92,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: "суп з очних яблук молі"
+  name: moth eyeball soup
   parent: FoodBowlBase
   id: FoodMothEyeballSoup
-  description: "Воно дивиться на тебе..."
+  description: It's looking back at you...
   components:
   - type: FlavorProfile
     flavors:
@@ -116,10 +116,10 @@
 # Tastes like tomato, squirming.
 
 - type: entity
-  name: "тушкована квасоля"
+  name: bean stew
   parent: FoodBowlBase
   id: FoodMothBeanStew
-  description: "Гостре рагу з квасолі з великою кількістю овочів, яке зазвичай подають як ситну і ситну страву з рисом або хлібом."
+  description: A spicy bean stew with lots of veggies, commonly served as a filling and satisfying meal with rice or bread.
   components:
   - type: FlavorProfile
     flavors:
@@ -148,10 +148,10 @@
 #Tastes like beans, cabbage and spicy sauce
 
 - type: entity
-  name: "вівсяне рагу"
+  name: oat stew
   parent: FoodBowlBase
   id: FoodMothOatStew
-  description: "Ситне вівсяне рагу, приготоване з вівсом, солодкою картоплею та різними зимовими овочами."
+  description: A hearty oat stew, prepared with oats, sweet potatoes, and various winter vegetables.
   components:
   - type: FlavorProfile
     flavors:
@@ -178,10 +178,10 @@
 #Tastes like oats, sweet potato, carrot and parsnip
 
 - type: entity
-  name: "суп від печії"
+  name: heartburn soup
   parent: FoodBowlBase
   id: FoodMothHeartburnSoup
-  description: "Свою назву суп від печії отримав завдяки двом речам: рожевому кольору та пекучому гострому перцю чилі."
+  description: The heartburn soup is named after two things; it's rosy pink colour and it's scorchingly hot chili heat.
   components:
   - type: FlavorProfile
     flavors:
@@ -209,10 +209,10 @@
 #Tastes like oats, sweet potato, carrot and parsnip
 
 - type: entity
-  name: "мулановий відвар"
+  name: mulan congee
   parent: FoodBowlBase
   id: FoodMothHuaMulanCongee
-  description: "Усміхнена миска рисової каші з яйцями та беконом."
+  description: A smiley bowl of rice porridge with eggs and bacon.
   components:
   - type: FlavorProfile
     flavors:
@@ -236,10 +236,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: "кукурудзяна каша"
+  name: cornmeal porridge
   parent: FoodBowlBase
   id: FoodMothCornmealPorridge
-  description: "Тарілка кукурудзяної каші. Вона смачніша, ніж більшість каш, і є гарною основою для інших смаків."
+  description: A plate of cornmeal porridge. It's more flavourful than most porridges, and makes a good base for other flavours, too.
   components:
   - type: FlavorProfile
     flavors:
@@ -262,10 +262,10 @@
 #Tastes like cornmeal.
 
 - type: entity
-  name: "сирна каша"
+  name: cheesy porridge
   parent: FoodBowlBase
   id: FoodMothCheesyPorridge
-  description: "Насичена і кремоподібна тарілка сирної каші з кукурудзяного борошна."
+  description: A rich and creamy bowl of cheesy cornmeal porridge.
   components:
   - type: FlavorProfile
     flavors:
@@ -291,10 +291,10 @@
 #Tastes like cornmeal, cheese, more cheese, lots of cheese.
 
 - type: entity
-  name: "смажені баклажани та полента"
+  name: fried eggplant and polenta
   parent: FoodBowlBase
   id: FoodMothEggplantPolenta
-  description: "Полента з сиром, подається з кількома дисками смажених баклажанів і томатним соусом."
+  description: Polenta loaded with cheese, served with a few discs of fried eggplant and some tomato sauce.
   components:
   - type: FlavorProfile
     flavors:
@@ -322,10 +322,10 @@
 #Tastes like cornmeal, cheese, eggplant and tomato sauce
 
 - type: entity
-  name: "вегетаріанський чилі"
+  name: vegetarian chili
   parent: FoodBowlBase
   id: FoodMothVegetarianChili
-  description: "Для чоловіків, які не хочуть м'яса."
+  description: For the hombres who don't want carne.
   components:
   - type: FlavorProfile
     flavors:

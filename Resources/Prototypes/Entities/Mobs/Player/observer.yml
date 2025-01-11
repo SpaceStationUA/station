@@ -2,7 +2,7 @@
   id: Incorporeal
   save: false
   abstract: true
-  description: "Натовпи без фізичних тіл"
+  description: Mobs without physical bodies
   components:
   - type: Sprite
     noRot: true
@@ -32,8 +32,8 @@
   - Incorporeal
   - BaseMob
   id: MobObserver
-  name: "спостерігач"
-  description: "Бу!"
+  name: observer
+  description: Boo!
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -69,8 +69,8 @@
 
 - type: entity
   id: ActionGhostBoo
-  name: "Бу!"
-  description: "Налякайте членів екіпажу нудьгою!"
+  name: Boo!
+  description: Scare your crew members because of boredom!
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -82,8 +82,8 @@
 
 - type: entity
   id: ActionToggleLighting
-  name: "Ввімкнути все освітлення"
-  description: "Увімкніть весь рендеринг світла, щоб краще бачити темні ділянки."
+  name: Toggle All Lighting
+  description: Toggle all light rendering to better observe dark areas.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -94,8 +94,8 @@
 
 - type: entity
   id: ActionToggleFov
-  name: "Toggle FoV"
-  description: "Перемикає поле зору, щоб бачити те, що бачать гравці."
+  name: Toggle FoV
+  description: Toggles field-of-view in order to see what players see.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -106,8 +106,8 @@
 
 - type: entity
   id: ActionToggleGhosts
-  name: "Перемикання привидів"
-  description: "Перемикання видимості інших привидів."
+  name: Toggle Ghosts
+  description: Toggle the visibility of other ghosts.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -118,8 +118,8 @@
 
 - type: entity
   id: ActionToggleGhostHearing
-  name: "Ввімкнути слух привидів"
-  description: "Перемикайтеся між прослуховуванням усіх повідомлень і прослуховуванням лише радіо та повідомлень поблизу."
+  name: Toggle Ghost Hearing
+  description: Toggle between hearing all messages and hearing only radio & nearby messages.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
