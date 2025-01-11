@@ -1,7 +1,7 @@
 - type: entity
   id: N14CarpetSingleBase
   parent: BaseStructure
-  description: Better than the floor.
+  description: "Краще, ніж на підлозі."
   abstract: true
   components:
   - type: Sprite
@@ -24,7 +24,7 @@
 - type: entity
   parent: N14CarpetSingleBase
   id: N14RugMat
-  name: mat
+  name: "килимок"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs.rsi
@@ -42,7 +42,7 @@
   parent: N14RugMat
   id: N14RugMatVulgar1
   suffix: get f
-  description: A charming floor mat.
+  description: "Чарівний килимок для підлоги."
   components:
   - type: Sprite
     state: mat_vulgar
@@ -84,8 +84,8 @@
 - type: entity
   parent: N14RugMat
   id: N14RugMatRubberSingle
-  name: rubber mat
-  description: A rubber protective floor mat.
+  name: "гумовий килимок"
+  description: "Гумовий захисний килимок для підлоги."
   components:
   - type: Sprite
     state: rubber_single
@@ -115,8 +115,8 @@
 - type: entity
   parent: N14CarpetSingleBase
   id: N14RugBlue
-  name: rug
-  description: A modern looking blue rug.
+  name: "килимок"
+  description: "Сучасний синій килимок."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs64x64.rsi
@@ -134,7 +134,7 @@
 - type: entity
   parent: N14RugBlue
   id: N14RugBrownFancy
-  description: A fancy looking rug.
+  description: "Вишуканий килимок."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs64x64.rsi
@@ -143,7 +143,7 @@
 - type: entity
   parent: N14RugBlue
   id: N14RugRed
-  description: A patterned red rug.
+  description: "Червоний килим з візерунками."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs64x64.rsi
@@ -152,7 +152,7 @@
 - type: entity
   parent: N14RugBlue
   id: N14RugYellow
-  description: A patterned yellow rug.
+  description: "Візерунчастий жовтий килимок."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs64x64.rsi
@@ -161,8 +161,8 @@
 - type: entity
   parent: N14RugBlue
   id: N14RugMatRubberLarge
-  name: rubber mat
-  description: A large rubber mat.
+  name: "гумовий килимок"
+  description: "Великий гумовий килимок."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/rugs64x64.rsi
