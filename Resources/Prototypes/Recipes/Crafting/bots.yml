@@ -1,77 +1,77 @@
 - type: construction
-  name: cleanbot
+  name: "cleanbot"
   id: cleanbot
   graph: CleanBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: This bot wanders around the station, mopping up any puddles it sees.
+  description: "Цей бот блукає вокзалом, витираючи калюжі, які бачить."
   icon:
     sprite: Mobs/Silicon/Bots/cleanbot.rsi
     state: cleanbot
 
 - type: construction
-  name: honkbot
+  name: "гудок"
   id: honkbot
   graph: HonkBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: This bot honks and slips people.
+  description: "Цей бот сигналить і підсікає людей."
   icon:
     sprite: Mobs/Silicon/Bots/honkbot.rsi
     state: honkbot
 
 - type: construction
-  name: jonkbot
+  name: "jonkbot"
   id: jonkbot
   graph: JonkBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: This cursed bot honks, laughs and slips people.
+  description: "Цей клятий бот сигналить, сміється і підставляє людей."
   icon:
     sprite: Mobs/Silicon/Bots/honkbot.rsi
     state: jonkbot
 
 - type: construction
-  name: medibot
+  name: "медичний робот"
   id: medibot
   graph: MediBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: This bot can help supply basic healing.
+  description: "Цей бот може допомогти в наданні базової медичної допомоги."
   icon:
     sprite: Mobs/Silicon/Bots/medibot.rsi
     state: medibot
 
 - type: construction
-  name: mimebot
+  name: "мімебот"
   id: mimebot
   graph: MimeBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: This bot knows how to wave.
+  description: "Цей бот вміє махати руками."
   icon:
     sprite: Mobs/Silicon/Bots/mimebot.rsi
     state: mimebot
 
 - type: construction
-  name: supplybot
+  name: "supplybot"
   id: supplybot
   graph: SupplyBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: This bot can be loaded with cargo to make deliveries.
+  description: "Цей бот може бути завантажений вантажем, щоб здійснювати доставку."
   icon:
     sprite: Mobs/Silicon/Bots/supplybot.rsi
     state: supplybot

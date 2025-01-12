@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatBomber
-  name: bomber jacket
-  description: A thick, well-worn WW2 leather bomber jacket.
+  name: "куртка-бомбер"
+  description: "Товста, добре поношена шкіряна куртка-бомбер часів Другої світової війни."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/bomber.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOuterCoatDetective
-  name: detective trenchcoat
-  description: A rugged canvas trenchcoat, designed and created by TX Fabrication Corp. Wearing it makes you feel for the plight of the Tibetans.
+  name: "детективний плащ"
+  description: "Міцний брезентовий тренч, розроблений і створений компанією TX Fabrication Corp. Одягаючи його, ви відчуваєте долю тибетців."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/detective.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatGentle
-  name: gentle coat
-  description: A gentle coat for a gentle man, or woman.
+  name: "ніжне пальто"
+  description: "Ніжне пальто для ніжного чоловіка або жінки."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/gentlecoat.rsi
@@ -54,8 +54,8 @@
 - type: entity
   parent: [ClothingOuterArmorCaptainCarapace, ClothingOuterStorageBase]
   id: ClothingOuterCoatCapTrench
-  name: captain's armored trenchcoat
-  description: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence, outfitted with emblems and decor befitting its wearer. Issued only to the station's finest.
+  name: "бронежилет капітана"
+  description: "Плащ зі спеціального сплаву для додаткового захисту та стилю для тих, хто має владні повноваження, прикрашений емблемами та декором, як і належить його власнику. Видається лише найкращим працівникам станції."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/cap_trenchcoat.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: [ClothingOuterArmorHoS, ClothingOuterStorageBase]
   id: ClothingOuterCoatHoSTrench
-  name: head of security's armored trenchcoat
-  description: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence.
+  name: "бронежилет начальника служби безпеки"
+  description: "Пальто, посилене спеціальним сплавом для додаткового захисту та стилю для тих, хто має владний вигляд."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Coats/hos_trenchcoat.rsi # DeltaV - resprite
@@ -107,8 +107,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatInspector
-  name: slim trench coat
-  description: A slim minimalist trench coat best worn unbuttoned.
+  name: "пальто інспектора"
+  description: "Суворий плащ інспектора для залякування під час перевірок."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/insp_coat.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: ClothingOuterStorageToggleableBase
   id: ClothingOuterCoatJensen
-  name: jensen coat
-  description: A jensen coat.
+  name: "пальто дженсена"
+  description: "Пальто Дженсена."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/jensencoat.rsi
@@ -131,8 +131,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatTrench
-  name: trench coat
-  description: A comfy trench coat.
+  name: "шинель"
+  description: "Зручна шинель."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/trenchcoat.rsi
@@ -157,8 +157,8 @@
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLab
-  name: lab coat
-  description: A suit that protects against minor chemical spills.
+  name: "лабораторний халат"
+  description: "Костюм, що захищає від незначних розливів хімічних речовин."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat.rsi
@@ -172,13 +172,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLab]
   id: ClothingOuterCoatLabOpened
-  name: lab coat
+  name: "лабораторний халат"
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabChem
-  name: chemist lab coat
-  description: A suit that protects against minor chemical spills. Has an orange stripe on the shoulder.
+  name: "лабораторний халат хіміка"
+  description: "Костюм, що захищає від незначних розливів хімічних речовин. Має помаранчеву смужку на плечі."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_chem.rsi
@@ -192,13 +192,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabChem]
   id: ClothingOuterCoatLabChemOpened
-  name: chemist lab coat
+  name: "лабораторний халат хіміка"
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabViro
-  name: virologist lab coat
-  description: A suit that protects against bacteria and viruses. Has an green stripe on the shoulder.
+  name: "халат вірусолога"
+  description: "Костюм, що захищає від бактерій та вірусів. Має зелену смужку на плечі."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_viro.rsi
@@ -212,13 +212,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabViro]
   id: ClothingOuterCoatLabViroOpened
-  name: virologist lab coat
+  name: "халат вірусолога"
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabGene
-  name: geneticist lab coat
-  description: A suit that protects against minor chemical spills. Has an blue stripe on the shoulder.
+  name: "халат генетика"
+  description: "Костюм, що захищає від незначних розливів хімічних речовин. Має синю смужку на плечі."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_gene.rsi
@@ -232,13 +232,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabGene]
   id: ClothingOuterCoatLabGeneOpened
-  name: geneticist lab coat
+  name: "халат генетика"
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatLabCmo
-  name: chief medical officer's lab coat
-  description: Custom made blue lab coat for the Chief Medical Officer, offers improved protection against chemical spills and minor cuts
+  name: "халат головного лікаря"
+  description: "Синій лабораторний халат для головного лікаря, виготовлений на замовлення, забезпечує покращений захист від розливу хімічних речовин та дрібних порізів"
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_cmo.rsi
@@ -254,13 +254,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatLabCmo]
   id: ClothingOuterCoatLabCmoOpened
-  name: chief medical officer's lab coat
+  name: "халат головного лікаря"
 
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatRnd
-  name: epistemics lab coat # DeltaV - Epistemics Department replacing Science
-  description: A suit that protects against minor chemical spills. Has a purple stripe on the shoulder.
+  name: "лабораторний халат з епістемології" # DeltaV - Epistemics Department replacing Science
+  description: "Костюм, що захищає від незначних розливів хімічних речовин. Має фіолетову смужку на плечі."
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Coats/epicoat.rsi # DeltaV - Epistemic lab coat
@@ -274,13 +274,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRnd]
   id: ClothingOuterCoatRndOpened
-  name: scientist lab coat
+  name: "лабораторний халат вченого"
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatRobo
-  name: roboticist lab coat
-  description: More like an eccentric coat than a labcoat. Helps pass off bloodstains as part of the aesthetic. Comes with red shoulder pads.
+  name: "лабораторний халат робототехніка"
+  description: "Більше схоже на ексцентричне пальто, ніж на лабораторний халат. Допомагає замаскувати плями крові як частину естетики. Поставляється з червоними наплічниками."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_robo.rsi
@@ -294,13 +294,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRobo]
   id: ClothingOuterCoatRoboOpened
-  name: roboticist lab coat
+  name: "лабораторний халат робототехніка"
 
 - type: entity
   parent: ClothingOuterStorageFoldableBase
   id: ClothingOuterCoatRD
-  name: research director lab coat
-  description: Woven with top of the line technology, this labcoat helps protect against radiation in similar way to the experimental hardsuit.
+  name: "науковий керівник лабораторний халат"
+  description: "Цей лабораторний халат, виготовлений за найсучаснішою технологією, захищає від радіації так само, як і експериментальний бронежилет."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/rd_coat.rsi
@@ -315,13 +315,13 @@
 - type: entity
   parent: [ClothingOuterStorageFoldableBaseOpened, ClothingOuterCoatRD]
   id: ClothingOuterCoatRDOpened
-  name: research director lab coat
+  name: "науковий керівник лабораторний халат"
 
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatPirate
-  name: pirate garb
-  description: Yarr.
+  name: "піратський одяг"
+  description: "Ярр."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/pirate.rsi
@@ -331,8 +331,8 @@
 - type: entity
   parent: [ClothingOuterArmorWarden, ClothingOuterStorageBase]
   id: ClothingOuterCoatWarden
-  name: warden's armored jacket
-  description: A sturdy, utilitarian jacket designed to protect a warden from any brig-bound threats.
+  name: "бронежилет наглядача"
+  description: "Міцна, утилітарна куртка, призначена для захисту наглядача від будь-яких загроз, пов'язаних з перебуванням на гауптвахті."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/warden.rsi
@@ -342,8 +342,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterDameDane
-  name: yakuza coat
-  description: Friday...
+  name: "пальто якудза"
+  description: "П'ятниця..."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/damedanecoat.rsi
@@ -353,8 +353,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterClownPriest
-  name: robes of the honkmother
-  description: Meant for a clown of the cloth.
+  name: "мантія хонкоматері"
+  description: "Призначений для клоуна."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/clownpriest.rsi
@@ -364,8 +364,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterDogi
-  name: samurai dogi
-  description: Dogi is a type of traditional Japanese clothing. The dogi is made of heavy, durable fabric, it is practical in combat and stylish in appearance. It is decorated with intricate patterns and embroidery on the back.
+  name: "самурай догі"
+  description: "Доґі - вид традиційного японського одягу. Доґі виготовляється з важкої, міцної тканини, він практичний в бою і стильний на вигляд. Прикрашається складними візерунками та вишивкою на спині."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/dogi.rsi
@@ -381,8 +381,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatParamedicWB
-  name: paramedic windbreaker
-  description: A paramedic's trusty windbreaker, for all the space wind.
+  name: "вітровка парамедика"
+  description: "Вірна вітровка парамедика, що захищає від космічного вітру."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/windbreaker_paramedic.rsi
@@ -392,8 +392,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatSyndieCap
-  name: syndicate's coat
-  description: The syndicate's coat is made of durable fabric, with gilded patterns.
+  name: "плащ синдикату"
+  description: "Пальто синдикату виготовлене з міцної тканини, з позолоченими візерунками."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecap.rsi
@@ -403,8 +403,8 @@
 - type: entity
   parent: ClothingOuterCoatHoSTrench
   id: ClothingOuterCoatSyndieCapArmored
-  name: syndicate's armored coat
-  description: The syndicate's armored coat is made of durable fabric, with gilded patterns.
+  name: "бронежилет синдикату"
+  description: "Бронежилет синдикату виготовлений з міцної тканини, з позолоченими візерунками."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/syndicate/coatsyndiecaparmored.rsi
@@ -414,8 +414,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatAMG
-  name: armored medical gown
-  description: The version of the medical gown, with elements of a bulletproof vest, looks strange, but your heart is protected.
+  name: "броньований медичний халат"
+  description: "Варіант медичного халату з елементами бронежилета виглядає дивно, але ваше серце захищене."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/brigmedic.rsi
@@ -433,8 +433,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatLabSeniorResearcher
-  name: senior researcher lab coat
-  description: A suit that protects against minor chemical spills. Has a purple collar and wrist trims.
+  name: "старший науковий співробітник лабораторний халат"
+  description: "Костюм, що захищає від незначних розливів хімічних речовин. Має фіолетовий комір та манжети на зап'ястях."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_senior_researcher.rsi
@@ -448,8 +448,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatLabSeniorPhysician
-  name: senior physician lab coat
-  description: A suit that protects against minor chemical spills. Has light blue sleeves and an orange waist trim.
+  name: "халат старшого лікаря"
+  description: "Костюм, що захищає від незначних розливів хімічних речовин. Має світло-блакитні рукави та помаранчевий пояс."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/labcoat_senior_physician.rsi
@@ -463,8 +463,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatSpaceAsshole
-  name: the coat of space asshole
-  description: And there he was...
+  name: "плащ космічного мудака"
+  description: "І тут з'явився він..."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/space_asshole.rsi
@@ -474,8 +474,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatExpensive
-  name: expensive coat
-  description: Very fluffy pink coat, made out of very expensive fur (clearly).
+  name: "дороге пальто"
+  description: "Дуже пухнасте рожеве пальто, зроблене з дуже дорогого хутра (очевидно)."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Coats/expensive_coat.rsi

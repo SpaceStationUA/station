@@ -1,9 +1,9 @@
 - type: entity
-  name: behonker
+  name: "боже мій"
   parent: [ SimpleSpaceMobBase, FlyingMobBase, MobCombat ]
   id: BaseMobBehonker
   abstract: true
-  description: A floating demon aspect of the honkmother.
+  description: "Плаваючий демонічний аспект бджолиної матері."
   components:
     - type: GhostRole
       allowMovement: true
@@ -119,7 +119,7 @@
       bloodReagent: Laughter
 
 - type: entity
-  name: behonker
+  name: "боже мій"
   parent: BaseMobBehonker
   id: MobBehonkerElectrical
   suffix: "Pyro"
@@ -134,7 +134,7 @@
       spawnRadius: 0
 
 - type: entity
-  name: behonker
+  name: "боже мій"
   parent: BaseMobBehonker
   id: MobBehonkerPyro
   suffix: "Electrical"
@@ -143,7 +143,7 @@
   - type: Electrified
 
 - type: entity
-  name: behonker
+  name: "боже мій"
   parent: BaseMobBehonker
   id: MobBehonkerGrav
   suffix: "Grav"
@@ -151,7 +151,7 @@
   - type: GravityAnomaly
 
 - type: entity
-  name: behonker
+  name: "боже мій"
   parent: BaseMobBehonker
   id: MobBehonkerIce
   suffix: "Ice"

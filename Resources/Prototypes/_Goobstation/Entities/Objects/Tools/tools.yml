@@ -1,8 +1,8 @@
 - type: entity
-  name: handheld fax
+  name: "ручний факс"
   parent: BaseItem
   id: HandheldFax
-  description: A tool that can send ton of paper on Centcomm fax.
+  description: "Інструмент, який може надсилати тонни паперу по факсу Centcomm."
   components:
   - type: Item
     size: Huge
@@ -57,7 +57,7 @@
   - type: MultiHandedItem
 
 - type: entity
-  name: nanotrasen representative handheld fax
+  name: "нанотрасен представницький ручний факс"
   parent: HandheldFax
   id: HandheldFaxNanorep
   suffix: Nanotrasen Representative
@@ -74,10 +74,10 @@
       shader: unshaded
 #PIRATE
 - type: entity
-  name: sonic screwdriver
+  name: "звукова викрутка"
   parent: BaseItem
   id: SonicScrewdriver
-  description: Wzzzzz....
+  description: "Wzzzzz...."
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Tools/sonic_screwdriver.rsi
@@ -139,10 +139,10 @@
 
 
 - type: entity
-  name: futuristic RCD
+  name: "футуристичний УЗО"
   parent: RCD
   id: RCDChrono
-  description: A tool that can build a station from scratch in minutes.
+  description: "Інструмент, за допомогою якого можна побудувати станцію з нуля за лічені хвилини."
   components:
   - type: LimitedCharges
     maxCharges: 100
