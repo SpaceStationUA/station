@@ -80,3 +80,7 @@ loadout-category-JobsServiceClown = Клоун
 loadout-category-JobsServiceLawyer = Адвокат
 loadout-category-JobsServiceMime = Пантоміма
 loadout-category-JobsServiceReporter = Репортер
+
+loadout-category-JobsCommandAdminAssistant = Адміністративний асистент
+loadout-category-JobsCommandBlueshieldOfficer = Офіцер Блакитного Щита
+loadout-category-JobsCommandNanorep = Представник Nanotrasen
