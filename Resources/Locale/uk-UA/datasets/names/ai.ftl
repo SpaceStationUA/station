@@ -84,7 +84,7 @@ names-ai-dataset-59 = Ікар
 names-ai-dataset-60 = Дживсе
 
 names-ai-dataset-61 = Джинкс
-names-ai-dataset-62 = K.I.N.G
+names-ai-dataset-62 = K.І.N.G
 names-ai-dataset-63 = Клапаусій
 names-ai-dataset-64 = Лицар
 names-ai-dataset-65 = Луї

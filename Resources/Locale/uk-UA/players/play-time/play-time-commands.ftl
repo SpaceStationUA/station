@@ -56,9 +56,9 @@ cmd-playtime_flush-error-args = Очікувані нуль або один ар
 cmd-playtime_flush-arg-user = [ім'я користувача]
 
 cmd-playtime_unlock-desc = Розблокуйте вимогу до ігрового часу для певних завдань.
-cmd-playtime_unlock-help = Usage: {$command} [user name] [trackers...]
-    This command unlocks the playtime requirements for specific jobs for a user.
-cmd-playtime_unlock-arg-user = [ім'я користувача].
+cmd-playtime_unlock-help = Використання: {$command} [ім'я користувача] [трекери...]
+    Ця команда знімає вимоги до ігрового часу для певних професій для користувача.
+cmd-playtime_unlock-arg-user = [ім'я користувача]
 cmd-playtime_unlock-arg-job = [ідентифікатор роботи]
 cmd-playtime_unlock-error-args = Очікувані нуль або один аргумент
 cmd-playtime_unlock-error-job = Очікували валідний JobPrototype для другого аргументу, а отримали {$invalidJob}.
