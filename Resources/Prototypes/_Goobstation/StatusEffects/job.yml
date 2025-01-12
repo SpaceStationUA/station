@@ -1,5 +1,20 @@
 - type: jobIcon
   parent: JobIcon
+  id: JobIconNanotrasenRepresentative
+  icon:
+    sprite: /Textures/_Goobstation/Interface/Misc/job_icons.rsi
+    state: nanotrasenrepresentative
+
+- type: jobIcon
+  parent: JobIcon
+  id: JobIconBlueshield
+  icon:
+    sprite: /Textures/_Goobstation/Interface/Misc/job_icons.rsi
+    state: blueshield
+
+#PIRATE
+- type: jobIcon
+  parent: JobIcon
   id: JobIconFuture
   icon:
     sprite: /Textures/_Goobstation/Interface/Misc/job_icons.rsi
