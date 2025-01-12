@@ -19,7 +19,6 @@ using Content.Shared.Mobs;
 using Content.Shared.Random;
 using Content.Shared.StatusIcon;
 using Content.Shared.StatusIcon.Components;
-using FastAccessors;
 using Robust.Shared.Containers;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;

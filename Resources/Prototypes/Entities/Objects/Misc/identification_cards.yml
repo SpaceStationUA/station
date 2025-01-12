@@ -1113,20 +1113,6 @@
 #PIRATE START UNTIL END OF FILE
 - type: entity
   parent: IDCardStandard
-  id: BlueshieldIDCard
-  name: Blueshield ID card
-  components:
-    - type: Sprite
-      layers:
-        - state: special
-        - state: idblueshield
-    - type: Item
-      heldPrefix: special
-    - type: PresetIdCard
-      job: Blueshield
-
-- type: entity
-  parent: IDCardStandard
   id: RoboticistIDCard
   name: Roboticist ID card
   components:
