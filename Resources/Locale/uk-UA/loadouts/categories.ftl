@@ -84,3 +84,4 @@ loadout-category-JobsServiceReporter = Репортер
 loadout-category-JobsCommandAdminAssistant = Адміністративний асистент
 loadout-category-JobsCommandBlueshieldOfficer = Офіцер Блакитного Щита
 loadout-category-JobsCommandNanorep = Представник Nanotrasen
+loadout-category-Belt = Пояс

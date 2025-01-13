@@ -751,3 +751,5 @@ character-item-group-LoadoutReporterShoes = Взуття для репортер
 character-item-group-LoadoutReporterUniforms = Репортерська уніформа
 character-item-group-LoadoutSalvageSpecialistWeapons = Шахтар Зброя
 character-item-group-LoadoutPets = Домашні тварини
+
+character-item-group-LoadoutBelt = Цивільні ремені
