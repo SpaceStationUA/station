@@ -60,7 +60,7 @@ names-ai-dataset-43 = ЕНІАК
 
 names-ai-dataset-44 = Еразм
 names-ai-dataset-45 = Все
-names-ai-dataset-46 = EZ-27
+names-ai-dataset-46 = ЕЗ-27
 names-ai-dataset-47 = ДРУЖНІЙ КОМП'ЮТЕР
 names-ai-dataset-48 = Віра
 names-ai-dataset-49 = Фі
@@ -84,7 +84,7 @@ names-ai-dataset-59 = Ікар
 names-ai-dataset-60 = Дживсе
 
 names-ai-dataset-61 = Джинкс
-names-ai-dataset-62 = K.І.N.G
+names-ai-dataset-62 = К.О.Р.О.Л.Ь
 names-ai-dataset-63 = Клапаусій
 names-ai-dataset-64 = Лицар
 names-ai-dataset-65 = Луї
