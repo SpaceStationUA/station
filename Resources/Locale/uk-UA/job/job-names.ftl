@@ -123,3 +123,5 @@ job-title-universal = Універсальні
 
 job-name-station-ai = Станція штучного інтелекту
 JobStationAi = Станція штучного інтелекту
+job-name-cburn = Агент CBURN
+job-name-deathsquad = Агент Ескадрону Смерті
