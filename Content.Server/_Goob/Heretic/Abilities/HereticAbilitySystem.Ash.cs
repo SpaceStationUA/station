@@ -65,12 +65,8 @@ public sealed partial class HereticAbilitySystem : EntitySystem
         if (!_splitball.Spawn(ent, ignoredTargets))
             return;
 
-        if (ent.Comp.Ascended)
-        {
-            // will only work on ash path
-            _flammable.AdjustFireStacks(ent, 20f);
-            _flammable.Ignite(ent, ent);
-        }
+        if (ent.Comp is { Ascended: true, CurrentPath: "Ash" }) // will only work on ash path
+            _flammable.AdjustFireStacks(ent, 20f, ignite: true);
 
         args.Handled = true;
     }
@@ -79,7 +75,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
         if (!TryUseAbility(ent, args))
             return;
 
-        var power = ent.Comp.CurrentPath == "Ash" ? ent.Comp.PathStage : 2.5f;
+        var power = ent.Comp.CurrentPath == "Ash" ? ent.Comp.PathStage : 4f;
         var lookup = _lookup.GetEntitiesInRange(ent, power);
 
         foreach (var look in lookup)
@@ -102,8 +98,8 @@ public sealed partial class HereticAbilitySystem : EntitySystem
                     _dmg.TryChangeDamage(ent, dmgspec, true, false, dmgc);
                 }
 
-                if (!flam.OnFire)
-                    _flammable.AdjustFireStacks(look, power, flam);
+                if (flam.OnFire)
+                    _flammable.AdjustFireStacks(look, power, flam, true);
 
                 if (TryComp<MobStateComponent>(look, out var mobstat))
                     if (mobstat.CurrentState == MobState.Critical)
