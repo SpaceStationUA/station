@@ -9138,4 +9138,45 @@ Entries:
   id: 6687
   time: '2025-01-13T18:20:20.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1523
-
+- author: CerberusWolfie
+  changes:
+    - type: Fix
+      message: Виправлено текстуру штампа NTR на папері
+    - type: Fix
+      message: Виправлено назву старшого офіцера, CBURN і Deathsquad.
+  id: 6688
+  time: '2025-01-14T01:28:35.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1534
+- author: sleepyyapril
+  changes:
+    - type: Add
+      message: Додано голографічні панелі (поки що не на карті)
+    - type: Add
+      message: Intellicards тепер можна використовувати для видалення/додавання мозку AI станції.
+    - type: Add
+      message: До дій AI станції додано консоль зв'язку.
+    - type: Add
+      message: AI тепер має точку варпу.
+    - type: Add
+      message: Додано більше об'єктів для взаємодії AI.
+    - type: Add
+      message: Додано більше законів для AI.
+    - type: Fix
+      message: Виправлено поштову систему
+    - type: Fix
+      message: Виправлено дії AI
+    - type: Fix
+      message: >-
+        Виправлено недійсні спавни для AI станції, які ламали гру та заважали
+        грати за AI.
+    - type: Fix
+      message: >-
+        Ім'я AI станції тепер правильно відображається в анонсах про "прибуття
+        на станцію".
+    - type: Fix
+      message: Змінено звук CPR, щоб він не повторювався без кінця, поки це не буде виправлено.
+    - type: Fix
+      message: Виправлено відправлення неліокалізованих повідомлень під час випадкової події наділення розумом.
+  id: 6689
+  time: '2025-01-14T06:08:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1525
