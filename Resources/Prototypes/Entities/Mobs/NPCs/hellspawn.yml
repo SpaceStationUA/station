@@ -1,11 +1,11 @@
 - type: entity
-  name: "виплодок пекла"
+  name: hellspawn
   parent:
   - BaseSimpleMob
   - MobCombat
   - MobBloodstream
   id: MobHellspawn
-  description: "Нестримна сила різанини."
+  description: An unstoppable force of carnage.
   components:
   - type: GhostRole
     allowMovement: true
