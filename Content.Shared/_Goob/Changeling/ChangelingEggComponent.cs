@@ -2,6 +2,8 @@ using Content.Shared.Mind;
 // using Content.Shared.Store.Components;
 using Robust.Shared.GameStates;
 using Content.Shared.Changeling;
+using Content.Shared.Store.Components;
+
 
 namespace Content.Shared.Changeling;
 
@@ -11,7 +13,8 @@ public sealed partial class ChangelingEggComponent : Component
 {
     public ChangelingComponent lingComp;
     public EntityUid lingMind;
-    // public StoreComponent lingStore;
+    public StoreComponent lingStore;
+    public bool AugmentedEyesightPurchased;
 
     /// <summary>
     ///     Countdown before spawning monkey.

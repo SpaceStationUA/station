@@ -56,6 +56,7 @@ using Content.Server.Stunnable;
 using Content.Shared.Jittering;
 using Content.Server.Explosion.EntitySystems;
 using System.Linq;
+using Content.Server.Administration.Systems;
 using Content.Shared.Store.Components;
 
 
@@ -105,6 +106,7 @@ public sealed partial class ChangelingSystem : EntitySystem
     [Dependency] private readonly SharedJitteringSystem _jitter = default!;
     [Dependency] private readonly ExplosionSystem _explosionSystem = default!;
     [Dependency] private readonly BodySystem _bodySystem = default!;
+    [Dependency] private readonly RejuvenateSystem _rejuv = default!;
 
     public EntProtoId ArmbladePrototype = "ArmBladeChangeling";
     public EntProtoId FakeArmbladePrototype = "FakeArmBladeChangeling";
@@ -184,14 +186,17 @@ public sealed partial class ChangelingSystem : EntitySystem
     }
     private void UpdateBiomass(EntityUid uid, ChangelingComponent comp, float? amount = null)
     {
-        comp.Biomass += amount ?? -1;
+        float amt = amount ?? -1f;
+        comp.Biomass += amt;
         comp.Biomass = Math.Clamp(comp.Biomass, 0, comp.MaxBiomass);
         Dirty(uid, comp);
         _alerts.ShowAlert(uid, comp.AlertBiomass);
 
         var random = (int) _rand.Next(1, 3);
 
-        if (comp.Biomass <= 0)
+        bool doEffects = amt < 0; // no vomiting blood if you gained biomass
+
+        if (comp.Biomass <= 0 && doEffects)
             // game over, man
             _damage.TryChangeDamage(uid, new DamageSpecifier(_proto.Index(AbsorbedDamageGroup), 50), true);
 
@@ -199,13 +204,16 @@ public sealed partial class ChangelingSystem : EntitySystem
         {
             // THE FUNNY ITCH IS REAL!!
             comp.BonusChemicalRegen = 3f;
-            _popup.PopupEntity(Loc.GetString("popup-changeling-biomass-deficit-high"), uid, uid, PopupType.LargeCaution);
-            _jitter.DoJitter(uid, TimeSpan.FromSeconds(comp.BiomassUpdateCooldown), true, amplitude: 5, frequency: 10);
+            if (doEffects)
+            {
+                _popup.PopupEntity(Loc.GetString("popup-changeling-biomass-deficit-high"), uid, uid, PopupType.LargeCaution);
+                _jitter.DoJitter(uid, TimeSpan.FromSeconds(comp.BiomassUpdateCooldown), true, amplitude: 5, frequency: 10);
+            }
         }
         else if (comp.Biomass <= comp.MaxBiomass / 3)
         {
             // vomit blood
-            if (random == 1)
+            if (random == 1 && doEffects)
             {
                 if (TryComp<StatusEffectsComponent>(uid, out var status))
                     _stun.TrySlowdown(uid, TimeSpan.FromSeconds(1.5f), true, 0.5f, 0.5f, status);
@@ -222,7 +230,7 @@ public sealed partial class ChangelingSystem : EntitySystem
             }
 
             // the funny itch is not real
-            if (random == 3)
+            if (random == 3 && doEffects)
             {
                 _popup.PopupEntity(Loc.GetString("popup-changeling-biomass-deficit-medium"), uid, uid, PopupType.MediumCaution);
                 _jitter.DoJitter(uid, TimeSpan.FromSeconds(.5f), true, amplitude: 5, frequency: 10);
@@ -230,7 +238,7 @@ public sealed partial class ChangelingSystem : EntitySystem
         }
         else if (comp.Biomass <= comp.MaxBiomass / 2 && random == 3)
         {
-            if (random == 1)
+            if (random == 1 && doEffects)
                 _popup.PopupEntity(Loc.GetString("popup-changeling-biomass-deficit-low"), uid, uid, PopupType.SmallCaution);
         }
         else comp.BonusChemicalRegen = 0f;
