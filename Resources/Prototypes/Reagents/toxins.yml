@@ -569,6 +569,11 @@
     Poison:
       metabolismRate: 0.05
       effects:
+      - !type:Polymorph #GOOB
+        prototype: Bananamen
+        conditions:
+        - !type:ReagentThreshold
+          min: 30
       - !type:Emote
         emote: Honk
         showInChat: true
