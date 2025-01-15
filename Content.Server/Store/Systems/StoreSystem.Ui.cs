@@ -16,12 +16,14 @@ using Robust.Server.GameObjects;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
-using Content.Shared.Heretic;
-using Content.Shared.Heretic.Prototypes;
-using Content.Server.Heretic.EntitySystems;
+using Content.Shared.Heretic; // Goob
+using Content.Shared.Heretic.Prototypes; // Goob
+using Content.Server.Heretic.EntitySystems; // Goob
 
 namespace Content.Server.Store.Systems;
 
+// goob edit - fuck newstore
+// do not touch unless you want to shoot yourself in the leg
 public sealed partial class StoreSystem
 {
     [Dependency] private readonly IAdminLogManager _admin = default!;
@@ -34,9 +36,7 @@ public sealed partial class StoreSystem
     [Dependency] private readonly StackSystem _stack = default!;
     [Dependency] private readonly UserInterfaceSystem _ui = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-
-    // goobstation - heretics
-    [Dependency] private readonly HereticKnowledgeSystem _heretic = default!;
+    [Dependency] private readonly HereticKnowledgeSystem _heretic = default!; // goobstation - heretics
     private void InitializeUi()
     {
         SubscribeLocalEvent<StoreComponent, StoreRequestUpdateInterfaceMessage>(OnRequestUpdate);

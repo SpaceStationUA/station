@@ -9,7 +9,6 @@ public sealed partial class LivingHeartMenuBoundUserInterface : BoundUserInterfa
 {
     [Dependency] private readonly IClyde _displayManager = default!;
     [Dependency] private readonly IInputManager _inputManager = default!;
-    [Dependency] private readonly IUserInterfaceManager _uiManager = default!;
 
     [NonSerialized] private LivingHeartMenu? _menu;
 
@@ -22,7 +21,7 @@ public sealed partial class LivingHeartMenuBoundUserInterface : BoundUserInterfa
     {
         base.Open();
 
-        _menu = _uiManager.CreateWindow<LivingHeartMenu>();
+        _menu = this.CreateWindow<LivingHeartMenu>();
         _menu.SetEntity(Owner);
         _menu.SendActivateMessageAction += SendMessage;
         _menu.OpenCenteredAt(_inputManager.MouseScreenPosition.Position / _displayManager.ScreenSize);

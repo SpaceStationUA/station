@@ -40,7 +40,8 @@ public partial class ListingData : IEquatable<ListingData>
         other.Categories,
         other.OriginalCost,
         other.RestockTime,
-        other.DiscountDownTo
+        other.DiscountDownTo,
+        other.ProductHereticKnowledge // goobstation - heretics
     )
     {
 
@@ -64,7 +65,8 @@ public partial class ListingData : IEquatable<ListingData>
         HashSet<ProtoId<StoreCategoryPrototype>> categories,
         IReadOnlyDictionary<ProtoId<CurrencyPrototype>, FixedPoint2> originalCost,
         TimeSpan restockTime,
-        Dictionary<ProtoId<CurrencyPrototype>, FixedPoint2> dataDiscountDownTo
+        Dictionary<ProtoId<CurrencyPrototype>, FixedPoint2> dataDiscountDownTo,
+        ProtoId<HereticKnowledgePrototype>? productHereticKnowledge = null // goobstation - heretics
     )
     {
         Name = name;
@@ -85,6 +87,7 @@ public partial class ListingData : IEquatable<ListingData>
         OriginalCost = originalCost;
         RestockTime = restockTime;
         DiscountDownTo = new Dictionary<ProtoId<CurrencyPrototype>, FixedPoint2>(dataDiscountDownTo);
+        ProductHereticKnowledge = productHereticKnowledge; // goobstation - heretics
     }
 
     [ViewVariables]
@@ -178,7 +181,7 @@ public partial class ListingData : IEquatable<ListingData>
     // i am too tired of making separate systems for knowledge adding
     // and all that shit. i've had like 4 failed attempts
     // so i'm just gonna shitcode my way out of my misery
-    [DataField]
+    [DataField("productHereticKnowledge")]
     public ProtoId<HereticKnowledgePrototype>? ProductHereticKnowledge;
 
     [DataField]
@@ -295,7 +298,8 @@ public sealed partial class ListingDataWithCostModifiers : ListingData
             listingData.Categories,
             listingData.OriginalCost,
             listingData.RestockTime,
-            listingData.DiscountDownTo
+            listingData.DiscountDownTo,
+            listingData.ProductHereticKnowledge // goobstation - heretics
         )
     {
     }

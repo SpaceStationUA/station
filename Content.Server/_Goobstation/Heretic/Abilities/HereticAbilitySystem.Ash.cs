@@ -87,10 +87,13 @@ public sealed partial class HereticAbilitySystem : EntitySystem
         if (!_splitball.Spawn(ent, ignoredTargets))
             return;
 
-        if (ent.Comp is { Ascended: true, CurrentPath: "Ash" }){ // will only work on ash path
+        if (ent.Comp is { Ascended: true, CurrentPath: "Ash" })
+        {
+            // will only work on ash path
             _flammable.AdjustFireStacks(ent, 20f);
-			_flammable.Ignite(ent, ent);
+            _flammable.Ignite(ent, ent);
         }
+
         args.Handled = true;
     }
     private void OnNWRebirth(Entity<HereticComponent> ent, ref EventHereticNightwatcherRebirth args)
@@ -121,10 +124,8 @@ public sealed partial class HereticAbilitySystem : EntitySystem
                     _dmg.TryChangeDamage(ent, dmgspec, true, false, dmgc);
                 }
 
-                if (flam.OnFire){
+                if (flam.OnFire)
                     _flammable.AdjustFireStacks(look, power, flam);
-					_flammable.Ignite(ent, ent);
-                }
 
                 if (TryComp<MobStateComponent>(look, out var mobstat))
                     if (mobstat.CurrentState == MobState.Critical)
@@ -141,10 +142,12 @@ public sealed partial class HereticAbilitySystem : EntitySystem
 
         EnsureComp<HereticFlamesComponent>(ent);
 
-        if (ent.Comp.Ascended){
+        if (ent.Comp.Ascended)
+        {
             _flammable.AdjustFireStacks(ent, 20f);
             _flammable.Ignite(ent, ent);
         }
+
         args.Handled = true;
     }
     private void OnCascade(Entity<HereticComponent> ent, ref EventHereticCascade args)

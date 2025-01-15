@@ -9,8 +9,6 @@ using Content.Shared.StatusEffect;
 using Robust.Shared.Prototypes;
 using System.Linq;
 using System.Numerics;
-using Content.Shared.FixedPoint;
-
 
 namespace Content.Server.Heretic.EntitySystems;
 
@@ -61,7 +59,7 @@ public sealed partial class ProtectiveBladeSystem : EntitySystem
 
     private void OnTakeDamage(Entity<HereticComponent> ent, ref BeforeDamageChangedEvent args)
     {
-        if (!AnyPositive(args.Damage.DamageDict))
+        if (!args.Damage.AnyPositive())
             return;
 
         var blades = GetBlades(ent);
@@ -164,17 +162,5 @@ public sealed partial class ProtectiveBladeSystem : EntitySystem
         var blades = GetBlades(origin);
         if (blades.Count > 0)
             ThrowProtectiveBlade(origin, blades[0], target);
-    }
-
-    // PIRATE, helper method from DamageableSystem wizden
-    public bool AnyPositive(Dictionary<string, FixedPoint2> DamageDict)
-    {
-        foreach (var value in DamageDict.Values)
-        {
-            if (value > FixedPoint2.Zero)
-                return true;
-        }
-
-        return false;
     }
 }

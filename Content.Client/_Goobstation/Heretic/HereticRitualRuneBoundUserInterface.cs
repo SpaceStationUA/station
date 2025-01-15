@@ -5,7 +5,6 @@ using Robust.Client.Graphics;
 using Robust.Client.Input;
 using Robust.Client.UserInterface;
 using Robust.Shared.Prototypes;
-using Robust.Client.UserInterface;
 
 namespace Content.Client._Goobstation.Heretic;
 
@@ -13,7 +12,6 @@ public sealed class HereticRitualRuneBoundUserInterface : BoundUserInterface
 {
     [Dependency] private readonly IClyde _displayManager = default!;
     [Dependency] private readonly IInputManager _inputManager = default!;
-    [Dependency] private readonly IUserInterfaceManager _uiManager = default!;
 
     private HereticRitualRuneRadialMenu? _hereticRitualMenu;
 
@@ -26,7 +24,7 @@ public sealed class HereticRitualRuneBoundUserInterface : BoundUserInterface
     {
         base.Open();
 
-        _hereticRitualMenu = _uiManager.CreateWindow<HereticRitualRuneRadialMenu>();
+        _hereticRitualMenu = this.CreateWindow<HereticRitualRuneRadialMenu>();
         _hereticRitualMenu.SetEntity(Owner);
         _hereticRitualMenu.SendHereticRitualRuneMessageAction += SendHereticRitualMessage;
 

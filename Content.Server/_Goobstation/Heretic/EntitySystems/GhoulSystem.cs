@@ -10,7 +10,6 @@ using Content.Server.Temperature.Components;
 using Content.Shared.Body.Systems;
 using Content.Shared.Damage;
 using Content.Shared.Examine;
-// using Content.Shared.Ghost.Roles.Components;
 using Content.Shared.Heretic;
 using Content.Shared.Humanoid;
 using Content.Shared.IdentityManagement;
@@ -19,15 +18,11 @@ using Content.Shared.Mind;
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
-// using Content.Shared.NPC.Systems;
+using Content.Shared.NPC.Systems;
 using Content.Shared.Nutrition.AnimalHusbandry;
 using Content.Shared.Nutrition.Components;
 using Content.Shared.Roles;
 using Robust.Shared.Audio;
-using Content.Server.NPC;
-using Content.Server.NPC.Systems;
-using Content.Shared.NPC.Systems;
-
 
 namespace Content.Server.Heretic.EntitySystems;
 
@@ -100,11 +95,11 @@ public sealed partial class GhoulSystem : EntitySystem
         var sound = new SoundPathSpecifier("/Audio/_Goobstation/Heretic/Ambience/Antag/Heretic/heretic_gain.ogg");
         _antag.SendBriefing(ent, brief, Color.MediumPurple, sound);
 
-        if (!_mind.TryGetRole<GhoulRoleComponent>(ent, out _))
-            _role.MindAddRole<GhoulRoleComponent>(mindId, new(), mind);
+        if (!TryComp<GhoulRoleComponent>(ent, out _))
+            AddComp<GhoulRoleComponent>(mindId, new(), overwrite: true);
 
-        if (!_mind.TryGetRole<RoleBriefingComponent>(ent, out var rolebrief))
-            _role.MindAddRole(mindId, new RoleBriefingComponent() { Briefing = brief }, mind);
+        if (!TryComp<RoleBriefingComponent>(ent, out var rolebrief))
+            AddComp(mindId, new RoleBriefingComponent() { Briefing = brief }, overwrite: true);
         else rolebrief.Briefing += $"\n{brief}";
     }
 

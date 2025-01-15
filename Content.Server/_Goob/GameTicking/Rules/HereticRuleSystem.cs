@@ -1,29 +1,19 @@
 using Content.Server.Antag;
 using Content.Server.GameTicking.Rules.Components;
-// using Content.Server._Goobstation.Objectives.Components;
 using Content.Server.Mind;
 using Content.Server.Objectives;
 using Content.Server.Objectives.Components;
 using Content.Server.Roles;
 using Content.Shared.Heretic;
-// using Content.Shared.NPC.Prototypes;
-// using Content.Shared.NPC.Systems;
-using Content.Shared.Roles;
-using Content.Shared.Store;
-// using Content.Shared.Store.Components;
-using Robust.Shared.Audio;
-using Robust.Shared.Map;
-using Robust.Shared.Prototypes;
-using Robust.Shared.Random;
-using System.Linq;
-using System.Text;
-using Content.Server.NPC.Systems;
-using Content.Server.NPC.Components;
-using Content.Server.Store.Components;
 using Content.Shared.NPC.Prototypes;
 using Content.Shared.NPC.Systems;
+using Content.Shared.Roles;
+using Content.Shared.Store;
 using Content.Shared.Store.Components;
-
+using Robust.Shared.Audio;
+using Robust.Shared.Prototypes;
+using Robust.Shared.Random;
+using System.Text;
 
 namespace Content.Server.GameTicking.Rules;
 
@@ -38,11 +28,13 @@ public sealed partial class HereticRuleSystem : GameRuleSystem<HereticRuleCompon
 
     public readonly SoundSpecifier BriefingSound = new SoundPathSpecifier("/Audio/_Goobstation/Heretic/Ambience/Antag/Heretic/heretic_gain.ogg");
 
-    public readonly ProtoId<NpcFactionPrototype> HereticFactionId = "Heretic";
+    [ValidatePrototypeId<NpcFactionPrototype>] public readonly ProtoId<NpcFactionPrototype> HereticFactionId = "Heretic";
 
-    public readonly ProtoId<NpcFactionPrototype> NanotrasenFactionId = "NanoTrasen";
+    [ValidatePrototypeId<NpcFactionPrototype>] public readonly ProtoId<NpcFactionPrototype> NanotrasenFactionId = "NanoTrasen";
 
-    public readonly ProtoId<CurrencyPrototype> Currency = "KnowledgePoint";
+    [ValidatePrototypeId<CurrencyPrototype>] public readonly ProtoId<CurrencyPrototype> Currency = "KnowledgePoint";
+
+    [ValidatePrototypeId<EntityPrototype>] static EntProtoId mindRole = "MindRoleHeretic";
 
     public override void Initialize()
     {
@@ -66,6 +58,8 @@ public sealed partial class HereticRuleSystem : GameRuleSystem<HereticRuleCompon
         if (!_mind.TryGetMind(target, out var mindId, out var mind))
             return false;
 
+        _role.MindAddRole(mindId, new HereticRoleComponent(), mind, true);
+
         // briefing
         if (HasComp<MetaDataComponent>(target))
         {
@@ -74,9 +68,8 @@ public sealed partial class HereticRuleSystem : GameRuleSystem<HereticRuleCompon
             _antag.SendBriefing(target, Loc.GetString("heretic-role-greeting-fluff"), Color.MediumPurple, null);
             _antag.SendBriefing(target, Loc.GetString("heretic-role-greeting"), Color.Red, BriefingSound);
 
-            if (_mind.TryGetRole<RoleBriefingComponent>(mindId, out var rbc))
-                rbc.Briefing += $"\n{briefingShort}";
-            else _role.MindAddRole(mindId, new RoleBriefingComponent { Briefing = briefingShort }, mind, true);
+            if (_role.MindHasRole<HereticRoleComponent>(mindId))
+                AddComp(target, new RoleBriefingComponent { Briefing = briefingShort }, overwrite: true);
         }
         _npcFaction.RemoveFaction(target, NanotrasenFactionId, false);
         _npcFaction.AddFaction(target, HereticFactionId);
@@ -91,9 +84,6 @@ public sealed partial class HereticRuleSystem : GameRuleSystem<HereticRuleCompon
         store.Balance.Add(Currency, 2);
 
         rule.Minds.Add(mindId);
-
-        foreach (var objective in rule.Objectives)
-            _mind.TryAddObjective(mindId, mind, objective);
 
         return true;
     }
@@ -118,11 +108,11 @@ public sealed partial class HereticRuleSystem : GameRuleSystem<HereticRuleCompon
                 mostKnowledgeName = name;
             }
 
-            var str = Loc.GetString($"roundend-prepend-heretic-ascension-{(heretic.Ascended ? "success" : "fail")}");
+            var str = Loc.GetString($"roundend-prepend-heretic-ascension-{(heretic.Ascended ? "success" : "fail")}", ("name", name));
             sb.AppendLine(str);
         }
 
-        sb.AppendLine("\n" + Loc.GetString("roundend-prepend-heretic-knowledge-named"));
+        sb.AppendLine("\n" + Loc.GetString("roundend-prepend-heretic-knowledge-named", ("name", mostKnowledgeName), ("number", mostKnowledge)));
 
         args.Text = sb.ToString();
     }

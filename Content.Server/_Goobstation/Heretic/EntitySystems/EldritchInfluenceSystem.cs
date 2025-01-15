@@ -33,7 +33,13 @@ public sealed partial class EldritchInfluenceSystem : EntitySystem
         {
             MagicItemActive = ev.Handled,
         };
-        var dargs = new DoAfterArgs(EntityManager, user, 10f, doAfter, influence, influence);
+        var dargs = new DoAfterArgs(EntityManager, user, 10f, doAfter, influence, influence, used)
+        {
+            NeedHand = true,
+            BreakOnHandChange = true,
+            BreakOnMove = true,
+            BreakOnWeightlessMove = false,
+        };
         _popup.PopupEntity(Loc.GetString("heretic-influence-start"), influence, user);
         return _doafter.TryStartDoAfter(dargs);
     }

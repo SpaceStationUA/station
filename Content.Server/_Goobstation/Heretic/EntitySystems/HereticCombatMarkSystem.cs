@@ -2,7 +2,6 @@ using Content.Server.Atmos.EntitySystems;
 using Content.Server.Body.Systems;
 using Content.Server.Popups;
 using Content.Server.Temperature.Systems;
-using Content.Shared.Atmos;
 using Content.Shared.Popups;
 using Content.Shared.Doors.Components;
 using Content.Shared.Doors.Systems;
@@ -42,7 +41,7 @@ public sealed partial class HereticCombatMarkSystem : EntitySystem
             case "Ash":
                 // gives fire stacks
                 _flammable.AdjustFireStacks(target, 5);
-                _flammable.Ignite(target,target);
+                _flammable.Ignite(target, target);
                 break;
 
             case "Blade":

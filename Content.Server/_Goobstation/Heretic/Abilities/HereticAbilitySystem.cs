@@ -15,7 +15,7 @@ using Content.Shared.DoAfter;
 using Content.Shared.Heretic;
 using Content.Shared.Mind.Components;
 using Content.Shared.Mobs.Systems;
-// using Content.Shared.Store.Components;
+using Content.Shared.Store.Components;
 using Robust.Shared.Audio.Systems;
 using Content.Shared.Popups;
 using Robust.Shared.Random;
@@ -30,11 +30,9 @@ using Content.Server.Station.Systems;
 using Content.Shared.Localizations;
 using Robust.Shared.Audio;
 using Content.Shared.Mobs.Components;
-using Content.Server.Store.Components;
-using Content.Shared.Chat;
 using Robust.Shared.Prototypes;
 using Content.Server.Heretic.EntitySystems;
-using Content.Shared.Store.Components;
+using Content.Shared.Chat;
 
 
 namespace Content.Server.Heretic.Abilities;
@@ -244,7 +242,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
         {
             BreakOnDamage = true,
             BreakOnMove = true,
-            BreakOnWeightlessMove = true
+            BreakOnWeightlessMove = true,
         };
         _popup.PopupEntity(Loc.GetString("heretic-manselink-start"), ent, ent);
         _popup.PopupEntity(Loc.GetString("heretic-manselink-start-target"), args.Target, args.Target, PopupType.MediumCaution);

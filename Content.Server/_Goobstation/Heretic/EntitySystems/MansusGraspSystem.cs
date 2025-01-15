@@ -1,4 +1,3 @@
-using Content.Server.Atmos.Commands;
 using Content.Server.Chat.Systems;
 using Content.Server.Hands.Systems;
 using Content.Server.Heretic.Components;
@@ -13,13 +12,11 @@ using Content.Shared.Doors.Components;
 using Content.Shared.Doors.Systems;
 using Content.Shared.Examine;
 using Content.Shared.Eye.Blinding.Systems;
-using Content.Shared.Hands;
 using Content.Shared.Hands.Components;
 using Content.Shared.Heretic;
 using Content.Shared.Interaction;
 using Content.Shared.Item;
 using Content.Shared.Mobs.Components;
-using Content.Shared.Silicons.Borgs.Components;
 using Content.Shared.Speech.Muting;
 using Content.Shared.Standing;
 using Content.Shared.StatusEffect;
@@ -232,8 +229,7 @@ public sealed partial class MansusGraspSystem : EntitySystem
         if (HasComp<StatusEffectsComponent>(target))
         {
             _audio.PlayPvs(new SoundPathSpecifier("/Audio/Items/welder.ogg"), target);
-            _stun.TryKnockdown(target, TimeSpan.FromSeconds(3f), true);
-            _stamina.TakeStaminaDamage(target, 80f);
+            _stun.TryParalyze(target, TimeSpan.FromSeconds(5f), true);
             _language.DoRatvarian(target, TimeSpan.FromSeconds(10f), true);
         }
 

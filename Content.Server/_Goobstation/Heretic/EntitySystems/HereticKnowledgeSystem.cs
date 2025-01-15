@@ -3,7 +3,6 @@ using Content.Shared.Heretic.Prototypes;
 using Content.Shared.Heretic;
 using Content.Shared.Popups;
 using Robust.Shared.Prototypes;
-using Content.Shared._Goobstation.Heretic.Components;
 
 namespace Content.Server.Heretic.EntitySystems;
 
@@ -30,7 +29,7 @@ public sealed partial class HereticKnowledgeSystem : EntitySystem
 
         if (data.RitualPrototypes != null && data.RitualPrototypes.Count > 0)
             foreach (var ritual in data.RitualPrototypes)
-                comp.KnownRituals.Add(ritual);
+                comp.KnownRituals.Add(_ritual.GetRitual(ritual));
 
         Dirty(uid, comp);
 
@@ -66,7 +65,7 @@ public sealed partial class HereticKnowledgeSystem : EntitySystem
 
         if (data.RitualPrototypes != null && data.RitualPrototypes.Count > 0)
             foreach (var ritual in data.RitualPrototypes)
-                comp.KnownRituals.Remove(ritual);
+                comp.KnownRituals.Remove(_ritual.GetRitual(ritual));
 
         Dirty(uid, comp);
 
