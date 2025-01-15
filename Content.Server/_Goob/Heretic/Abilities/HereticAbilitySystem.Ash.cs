@@ -66,7 +66,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
             return;
 
         if (ent.Comp is { Ascended: true, CurrentPath: "Ash" }) // will only work on ash path
-            _flammable.AdjustFireStacks(ent, 20f, ignite: true);
+            _flammable.AdjustFireStacks(ent, 20f);
 
         args.Handled = true;
     }
@@ -99,7 +99,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
                 }
 
                 if (flam.OnFire)
-                    _flammable.AdjustFireStacks(look, power, flam, true);
+                    _flammable.AdjustFireStacks(look, power, flam);
 
                 if (TryComp<MobStateComponent>(look, out var mobstat))
                     if (mobstat.CurrentState == MobState.Critical)
