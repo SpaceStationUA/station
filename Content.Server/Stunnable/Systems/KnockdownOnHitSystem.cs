@@ -1,4 +1,5 @@
-﻿using System.Linq;
+using System.Linq;
+using Content.Server.Standing;
 using Content.Server.Stunnable.Components;
 using Content.Shared.StatusEffect;
 using Content.Shared.Stunnable.Events;
@@ -9,6 +10,7 @@ namespace Content.Server.Stunnable.Systems;
 public sealed class KnockdownOnHitSystem : EntitySystem
 {
     [Dependency] private readonly StunSystem _stun = default!;
+    [Dependency] private readonly LayingDownSystem _laying = default!;
 
     public override void Initialize()
     {
@@ -27,6 +29,12 @@ public sealed class KnockdownOnHitSystem : EntitySystem
 
         foreach (var target in args.HitEntities)
         {
+            if (entity.Comp.Duration <= TimeSpan.Zero) // Goobstation
+            {
+                _laying.TryLieDown(target, null, null);
+                continue;
+            }
+
             if (!TryComp(target, out StatusEffectsComponent? statusEffects))
                 continue;
 

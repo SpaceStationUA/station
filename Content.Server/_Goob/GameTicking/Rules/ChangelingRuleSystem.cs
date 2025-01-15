@@ -5,7 +5,6 @@ using Content.Server.Mind;
 using Content.Server.Objectives;
 using Content.Server.Roles;
 using Content.Server.Store.Components;
-using Content.Shared.Changeling;
 // using Content.Shared.NPC.Prototypes;
 // using Content.Shared.NPC.Systems;
 using Content.Shared.Roles;
@@ -18,6 +17,7 @@ using Content.Server.NPC.Systems;
 using Content.Shared.NPC.Prototypes;
 using Content.Shared.NPC.Systems;
 using Content.Shared.Store.Components;
+using ChangelingComponent = Content.Shared._Goob.Changeling.ChangelingComponent;
 
 
 namespace Content.Server.GameTicking.Rules;

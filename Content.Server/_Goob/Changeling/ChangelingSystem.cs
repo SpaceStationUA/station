@@ -1,3 +1,4 @@
+using Content.Server.Administration.Systems;
 using Content.Server.DoAfter;
 using Content.Server.Forensics;
 using Content.Server.Polymorph.Systems;
@@ -5,7 +6,6 @@ using Content.Server.Popups;
 using Content.Server.Store.Systems;
 using Content.Server.Zombies;
 using Content.Shared.Alert;
-using Content.Shared.Changeling;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Cuffs.Components;
 using Content.Shared.FixedPoint;
@@ -14,7 +14,7 @@ using Content.Shared.IdentityManagement;
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Nutrition.Components;
-using Content.Server.Store.Components;
+using Content.Shared.Store.Components;
 using Robust.Server.Audio;
 using Robust.Shared.Audio;
 using Robust.Shared.Random;
@@ -39,7 +39,6 @@ using Content.Shared.Damage.Systems;
 using Content.Shared.Mind;
 using Content.Server.Objectives.Components;
 using Content.Server.Light.EntitySystems;
-using Content.Shared.Eye.Blinding.Systems;
 using Content.Shared.StatusEffect;
 using Content.Shared.Movement.Pulling.Systems;
 using Content.Shared.Cuffs;
@@ -56,15 +55,27 @@ using Content.Server.Stunnable;
 using Content.Shared.Jittering;
 using Content.Server.Explosion.EntitySystems;
 using System.Linq;
-using Content.Server.Administration.Systems;
-using Content.Shared.Store.Components;
+using Content.Server.Flash.Components;
+using Content.Shared._Goob.Changeling;
+using Content.Shared._Goobstation.Actions;
+using Content.Shared.Heretic;
+using Content.Shared._Goobstation.Weapons.AmmoSelector;
+using Content.Shared.Projectiles;
+using Content.Shared.Eye.Blinding.Components;
+using Content.Shared.Overlays.Switchable;
+using AbsorbableComponent = Content.Shared._Goob.Changeling.AbsorbableComponent;
+using AbsorbedComponent = Content.Shared._Goob.Changeling.AbsorbedComponent;
+using AugmentedEyesightPurchasedEvent = Content.Shared._Goob.Changeling.AugmentedEyesightPurchasedEvent;
+using ChangelingActionComponent = Content.Shared._Goob.Changeling.ChangelingActionComponent;
+using ChangelingComponent = Content.Shared._Goob.Changeling.ChangelingComponent;
+using ChangelingDartComponent = Content.Shared._Goob.Changeling.ChangelingDartComponent;
+using ChangelingReagentStingComponent = Content.Shared._Goob.Changeling.ChangelingReagentStingComponent;
+using TransformData = Content.Shared._Goob.Changeling.TransformData;
 
-
-// using Content.Shared.Store.Components;
 
 namespace Content.Server.Changeling;
 
-public sealed partial class ChangelingSystem : EntitySystem
+public sealed partial class ChangelingSystem : SharedChangelingSystem
 {
     // this is one hell of a star wars intro text
     [Dependency] private readonly IGameTiming _timing = default!;
@@ -97,8 +108,6 @@ public sealed partial class ChangelingSystem : EntitySystem
     [Dependency] private readonly MovementSpeedModifierSystem _speed = default!;
     [Dependency] private readonly StaminaSystem _stamina = default!;
     [Dependency] private readonly GravitySystem _gravity = default!;
-    [Dependency] private readonly BlindableSystem _blindable = default!;
-    [Dependency] private readonly StatusEffectsSystem _statusEffect = default!;
     [Dependency] private readonly PullingSystem _pull = default!;
     [Dependency] private readonly SharedCuffableSystem _cuffs = default!;
     [Dependency] private readonly SharedPuddleSystem _puddle = default!;
@@ -106,10 +115,15 @@ public sealed partial class ChangelingSystem : EntitySystem
     [Dependency] private readonly SharedJitteringSystem _jitter = default!;
     [Dependency] private readonly ExplosionSystem _explosionSystem = default!;
     [Dependency] private readonly BodySystem _bodySystem = default!;
+    [Dependency] private readonly IComponentFactory _compFactory = default!;
     [Dependency] private readonly RejuvenateSystem _rejuv = default!;
+    [Dependency] private readonly SelectableAmmoSystem _selectableAmmo = default!;
 
     public EntProtoId ArmbladePrototype = "ArmBladeChangeling";
     public EntProtoId FakeArmbladePrototype = "FakeArmBladeChangeling";
+    public EntProtoId HammerPrototype = "ArmHammerChangeling";
+    public EntProtoId ClawPrototype = "ArmClawChangeling";
+    public EntProtoId DartGunPrototype = "DartGunChangeling";
 
     public EntProtoId ShieldPrototype = "ChangelingShield";
     public EntProtoId BoneShardPrototype = "ThrowingStarChangeling";
@@ -131,7 +145,53 @@ public sealed partial class ChangelingSystem : EntitySystem
 
         SubscribeLocalEvent<ChangelingComponent, RefreshMovementSpeedModifiersEvent>(OnRefreshSpeed);
 
+        SubscribeLocalEvent<ChangelingDartComponent, ProjectileHitEvent>(OnDartHit);
+
+        SubscribeLocalEvent<ChangelingComponent, AugmentedEyesightPurchasedEvent>(OnAugmentedEyesightPurchased);
+
         SubscribeAbilities();
+    }
+
+    private void OnDartHit(Entity<ChangelingDartComponent> ent, ref ProjectileHitEvent args)
+    {
+        if (HasComp<ChangelingComponent>(args.Target))
+            return;
+
+        if (ent.Comp.ReagentDivisor <= 0)
+            return;
+
+        if (!_proto.TryIndex(ent.Comp.StingConfiguration, out var configuration))
+            return;
+
+        TryInjectReagents(args.Target,
+            configuration.Reagents.Select(x => (x.Key, x.Value / ent.Comp.ReagentDivisor)).ToDictionary());
+    }
+
+    protected override void UpdateFlashImmunity(EntityUid uid, bool active)
+    {
+        if (TryComp(uid, out FlashImmunityComponent? flashImmunity))
+            flashImmunity.Enabled = active;
+    }
+
+    private void OnAugmentedEyesightPurchased(Entity<ChangelingComponent> ent, ref AugmentedEyesightPurchasedEvent args)
+    {
+        InitializeAugmentedEyesight(ent);
+    }
+
+    public void InitializeAugmentedEyesight(EntityUid uid)
+    {
+        EnsureComp<FlashImmunityComponent>(uid);
+        EnsureComp<EyeProtectionComponent>(uid);
+
+        var thermalVision = _compFactory.GetComponent<ThermalVisionComponent>();
+        thermalVision.Color = Color.FromHex("#FB9898");
+        thermalVision.LightRadius = 15f;
+        // thermalVision.FlashDurationMultiplier = 2f;
+        thermalVision.ActivateSound = null;
+        thermalVision.DeactivateSound = null;
+        thermalVision.ToggleAction = null;
+
+        AddComp(uid, thermalVision);
     }
 
     private void OnRefreshSpeed(Entity<ChangelingComponent> ent, ref RefreshMovementSpeedModifiersEvent args)
@@ -182,7 +242,7 @@ public sealed partial class ChangelingSystem : EntitySystem
         chemicals += amount ?? 1 + comp.BonusChemicalRegen;
         comp.Chemicals = Math.Clamp(chemicals, 0, comp.MaxChemicals);
         Dirty(uid, comp);
-        _alerts.ShowAlert(uid, comp.AlertChemicals);
+        _alerts.ShowAlert(uid, "ChangelingChemicals");
     }
     private void UpdateBiomass(EntityUid uid, ChangelingComponent comp, float? amount = null)
     {
@@ -190,7 +250,7 @@ public sealed partial class ChangelingSystem : EntitySystem
         comp.Biomass += amt;
         comp.Biomass = Math.Clamp(comp.Biomass, 0, comp.MaxBiomass);
         Dirty(uid, comp);
-        _alerts.ShowAlert(uid, comp.AlertBiomass);
+        _alerts.ShowAlert(uid, "ChangelingBiomass");
 
         var random = (int) _rand.Next(1, 3);
 
@@ -298,7 +358,15 @@ public sealed partial class ChangelingSystem : EntitySystem
         return false;
     }
 
-    public bool TryUseAbility(EntityUid uid, ChangelingComponent comp, BaseActionEvent action)
+    public float? GetEquipmentChemCostOverride(ChangelingComponent comp, EntProtoId proto)
+    {
+        return comp.Equipment.ContainsKey(proto) ? 0f : null;
+    }
+
+    public bool TryUseAbility(EntityUid uid,
+        ChangelingComponent comp,
+        BaseActionEvent action,
+        float? chemCostOverride = null)
     {
         if (action.Handled)
             return false;
@@ -318,7 +386,9 @@ public sealed partial class ChangelingSystem : EntitySystem
             return false;
         }
 
-        if (comp.Chemicals < lingAction.ChemicalCost)
+        var chemCost = chemCostOverride ?? lingAction.ChemicalCost;
+
+        if (comp.Chemicals < chemCost)
         {
             _popup.PopupEntity(Loc.GetString("changeling-chemicals-deficit"), uid, uid);
             return false;
@@ -331,7 +401,7 @@ public sealed partial class ChangelingSystem : EntitySystem
             return false;
         }
 
-        UpdateChemicals(uid, comp, -lingAction.ChemicalCost);
+        UpdateChemicals(uid, comp, -chemCost);
         UpdateBiomass(uid, comp, -lingAction.BiomassCost);
 
         action.Handled = true;
@@ -340,15 +410,12 @@ public sealed partial class ChangelingSystem : EntitySystem
     }
     public bool TrySting(EntityUid uid, ChangelingComponent comp, EntityTargetActionEvent action, bool overrideMessage = false)
     {
-        if (!TryUseAbility(uid, comp, action))
-            return false;
-
         var target = action.Target;
 
         // can't get his dna if he doesn't have it!
         if (!HasComp<AbsorbableComponent>(target) || HasComp<AbsorbedComponent>(target))
         {
-            _popup.PopupEntity(Loc.GetString("changeling-sting-extract-fail"), uid, uid);
+            _popup.PopupEntity(Loc.GetString("changeling-sting-fail"), uid, uid);
             return false;
         }
 
@@ -358,15 +425,19 @@ public sealed partial class ChangelingSystem : EntitySystem
             _popup.PopupEntity(Loc.GetString("changeling-sting-fail-ling"), target, target);
             return false;
         }
+
+        if (!TryUseAbility(uid, comp, action))
+            return false;
+
         if (!overrideMessage)
             _popup.PopupEntity(Loc.GetString("changeling-sting", ("target", Identity.Entity(target, EntityManager))), uid, uid);
         return true;
     }
-    public bool TryInjectReagents(EntityUid uid, List<(string, FixedPoint2)> reagents)
+    public bool TryInjectReagents(EntityUid uid, Dictionary<string, FixedPoint2> reagents)
     {
         var solution = new Solution();
         foreach (var reagent in reagents)
-            solution.AddReagent(reagent.Item1, reagent.Item2);
+            solution.AddReagent(reagent.Key, reagent.Value);
 
         if (!_solution.TryGetInjectableSolution(uid, out var targetSolution, out var _))
             return false;
@@ -376,19 +447,26 @@ public sealed partial class ChangelingSystem : EntitySystem
 
         return true;
     }
-    public bool TryReagentSting(EntityUid uid, ChangelingComponent comp, EntityTargetActionEvent action, List<(string, FixedPoint2)> reagents)
+    public bool TryReagentSting(EntityUid uid, ChangelingComponent comp, EntityTargetActionEvent action)
     {
         var target = action.Target;
         if (!TrySting(uid, comp, action))
             return false;
 
-        if (!TryInjectReagents(target, reagents))
+        if (!TryComp(action.Action, out ChangelingReagentStingComponent? reagentSting))
+            return false;
+
+        if (!_proto.TryIndex(reagentSting.Configuration, out var configuration))
+            return false;
+
+        if (!TryInjectReagents(target, configuration.Reagents))
             return false;
 
         return true;
     }
-    public bool TryToggleItem(EntityUid uid, EntProtoId proto, ChangelingComponent comp)
+    public bool TryToggleItem(EntityUid uid, EntProtoId proto, ChangelingComponent comp, out EntityUid? equipment)
     {
+        equipment = null;
         if (!comp.Equipment.TryGetValue(proto.Id, out var item))
         {
             item = Spawn(proto, Transform(uid).Coordinates);
@@ -399,6 +477,7 @@ public sealed partial class ChangelingSystem : EntitySystem
                 return false;
             }
             comp.Equipment.Add(proto.Id, item);
+            equipment = item;
             return true;
         }
 
@@ -563,23 +642,45 @@ public sealed partial class ChangelingSystem : EntitySystem
             if (!persistentDna && data != null)
                 newLingComp?.AbsorbedDNA.Remove(data);
             RemCompDeferred<ChangelingComponent>(uid);
-
-            if (TryComp<StoreComponent>(uid, out var storeComp))
-            {
-                var storeCompCopy = _serialization.CreateCopy(storeComp, notNullableOverride: true);
-                RemComp<StoreComponent>(newUid.Value);
-                EntityManager.AddComponent(newUid.Value, storeCompCopy);
-            }
         }
+
+        //    if (TryComp<StoreComponent>(uid, out var storeComp))
+        //    {
+        //        var storeCompCopy = _serialization.CreateCopy(storeComp, notNullableOverride: true);
+        //        RemComp<StoreComponent>(newUid.Value);
+        //        EntityManager.AddComponent(newUid.Value, storeCompCopy);
+        //    }
+        //}
 
         // exceptional comps check
         // there's no foreach for types i believe so i gotta thug it out yandev style.
-        if (HasComp<HeadRevolutionaryComponent>(uid))
-            EnsureComp<HeadRevolutionaryComponent>(newEnt);
-        if (HasComp<RevolutionaryComponent>(uid))
-            EnsureComp<RevolutionaryComponent>(newEnt);
+        List<Type> types = new()
+        {
+            typeof(HeadRevolutionaryComponent),
+            typeof(RevolutionaryComponent),
+            typeof(GhoulComponent),
+            typeof(HereticComponent),
+            typeof(StoreComponent),
+            typeof(FlashImmunityComponent),
+            typeof(EyeProtectionComponent),
+            typeof(NightVisionComponent),
+            typeof(ThermalVisionComponent),
+            // ADD MORE TYPES HERE
+        };
+        foreach (var type in types)
+        {
+            if (EntityManager.TryGetComponent(uid, type, out var icomp))
+            {
+                var newComp = (Component) _compFactory.GetComponent(_compFactory.GetComponentName(type));
+                var temp = (object) newComp;
+                _serialization.CopyTo(icomp, ref temp, notNullableOverride: true);
+                EntityManager.AddComponent(newEnt, (Component) temp!);
+            }
+        }
 
-        QueueDel(uid);
+        RaiseNetworkEvent(new LoadActionsEvent(GetNetEntity(uid)), newEnt);
+
+        Timer.Spawn(300, () => { QueueDel(uid); });
 
         return newUid;
     }
@@ -660,6 +761,13 @@ public sealed partial class ChangelingSystem : EntitySystem
         UpdateBiomass(uid, comp, 0);
         // make their blood unreal
         _blood.ChangeBloodReagent(uid, "BloodChangeling");
+
+        // Shitmed: Prevent changelings from getting their body parts severed
+        foreach (var (id, part) in _bodySystem.GetBodyChildren(uid))
+        {
+            part.CanSever = false;
+            Dirty(id, part);
+        }
     }
 
     private void OnMobStateChange(EntityUid uid, ChangelingComponent comp, ref MobStateChangedEvent args)

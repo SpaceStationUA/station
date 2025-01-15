@@ -1,11 +1,9 @@
-using Content.Shared.Mind;
-// using Content.Shared.Store.Components;
-using Robust.Shared.GameStates;
-using Content.Shared.Changeling;
 using Content.Shared.Store.Components;
+using Robust.Shared.GameStates;
+// using Content.Shared.Store.Components;
 
 
-namespace Content.Shared.Changeling;
+namespace Content.Shared._Goob.Changeling;
 
 [RegisterComponent, NetworkedComponent]
 

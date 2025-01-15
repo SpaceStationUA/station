@@ -1,4 +1,4 @@
-﻿using Content.Shared.Standing;
+using Content.Shared.Standing;
 
 namespace Content.Server.Stunnable.Components;
 
@@ -13,4 +13,7 @@ public sealed partial class KnockdownOnHitComponent : Component
 
     [DataField]
     public bool RefreshDuration = true;
+
+    [DataField]
+    public bool KnockdownOnHeavyAttack = true; // Goobstation
 }

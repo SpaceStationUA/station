@@ -5,7 +5,8 @@ using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 
-namespace Content.Shared.Changeling;
+
+namespace Content.Shared._Goob.Changeling;
 
 [RegisterComponent, NetworkedComponent]
 [AutoGenerateComponentState]

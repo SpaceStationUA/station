@@ -1,6 +1,7 @@
 using Robust.Shared.GameStates;
 
-namespace Content.Shared.Changeling;
+
+namespace Content.Shared._Goob.Changeling;
 
 /// <summary>
 ///     Component that indicates that a person can be absorbed by a changeling.

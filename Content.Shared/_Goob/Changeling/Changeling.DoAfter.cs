@@ -1,7 +1,8 @@
 using Content.Shared.DoAfter;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared.Changeling;
+
+namespace Content.Shared._Goob.Changeling;
 
 [Serializable, NetSerializable]
 public sealed partial class AbsorbDNADoAfterEvent : SimpleDoAfterEvent { }

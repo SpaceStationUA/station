@@ -1,13 +1,16 @@
 using Content.Client.Alerts;
 using Content.Shared.Alert;
 using Content.Client.UserInterface.Systems.Alerts.Controls;
-using Content.Shared.Changeling;
+using Content.Shared._Goob.Changeling;
 using Content.Shared.StatusIcon.Components;
 using Robust.Shared.Prototypes;
+using ChangelingComponent = Content.Shared._Goob.Changeling.ChangelingComponent;
+using HivemindComponent = Content.Shared._Goob.Changeling.HivemindComponent;
+
 
 namespace Content.Client.Changeling;
 
-public sealed partial class ChangelingSystem : EntitySystem
+public sealed class ChangelingSystem : SharedChangelingSystem
 {
 
     [Dependency] private readonly IPrototypeManager _prototype = default!;
