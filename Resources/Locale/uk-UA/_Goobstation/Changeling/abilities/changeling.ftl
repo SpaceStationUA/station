@@ -12,7 +12,10 @@ changeling-absorb-end-self = Ще одна органіка поглинута. 
 changeling-absorb-end-self-ling = Ще один мінливий поглинений. Ти розвиваєшся швидше.
 changeling-absorb-onexamine = [color=red]Тіло відчуває себе порожнім.[/color]
 
-changeling-transform-cycle = Переключаюсь на ДНК {$target}.
+changeling-absorbbiomatter-start = {THE($user)} починає поглинати їжу!
+changeling-absorbbiomatter-bad-food = Ця їжа не засвоюється.
+
+changeling-transform-cycle = Перемкнено на ДНК {$target}.
 changeling-transform-cycle-empty = У вас немає штамів ДНК!
 changeling-transform-others = Тіло {CAPITALIZE(THE($user))} скручується і приймає форму іншої істоти!
 changeling-transform-fail-self = Ти не можеш перевтілитися у свою нинішню форму!
@@ -27,6 +30,8 @@ changeling-sting = Ви мовчки жалите {CAPITALIZE(THE($target))}
 changeling-sting-fail-simplemob = Не можна жалити меншу істоту!
 changeling-sting-extract-fail = Неможливо виділити ДНК
 changeling-sting-extract-max = Потрібно заздалегідь позбутися накопиченої ДНК
+
+changeling-dartgun-no-stings = У вас не еволюціонували жала реагентів!
 
 changeling-stasis-enter = Ви входите в регенеративний стаз
 changeling-stasis-enter-fail = Не можу увійти в стаз!
@@ -55,3 +60,5 @@ changeling-chameleon-start = Ви адаптуєте свою шкіру до н
 changeling-chameleon-end = Ваша шкіра втрачає свою прозорість
 
 changeling-hivemind-start = Ви налаштовуєте свої мозкові хвилі на частоту бджолиного розуму
+
+changeling-lastresort-activate = ПОТОЧНЕ ТІЛО БУДЕ ВТРАЧЕНО! Використайте його ще раз для підтвердження.

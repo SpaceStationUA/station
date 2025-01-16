@@ -7,3 +7,5 @@ bark-chicken-6 = Потрібно їсти
 bark-chicken-8 = Яйце
 bark-chicken-9 = Коо коо
 bark-chicken-count = 9
+
+bark-chicken-7 = Яйце

@@ -43,3 +43,6 @@ heretic-speech-bloodsiphon = Ф'Л'МС О'Т'РНІТІ!
 heretic-speech-mansuslink = ПІРКНИ ТУДИ!
 heretic-speech-realignment = Р'С'Т!
 heretic-speech-fuckoff = F'K 'FF!
+
+heretic-ability-fail-lowhealth = Це заклинання завдає {$damage} шкоди, але його застосування переведе вас у критичний стан!
+heretic-cant-shoot = Я не можу використовувати { THE($entity) } через мою священну присягу шляху леза

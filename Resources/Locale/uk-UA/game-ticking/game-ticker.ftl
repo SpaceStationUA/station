@@ -44,3 +44,5 @@ preset-no-one-ready = Не вдається запустити {$presetName}. Ж
 game-ticker-welcome-to-the-station = Ласкаво просимо до команди станції, приємного перебування!
 
 # Відображається в чаті адміністраторам, коли гравець приєднується
+latejoin-arrivals-dumped-from-shuttle = Таємнича сила заважає вам вилетіти з шатлом прибуття.
+latejoin-arrivals-teleport-to-spawn = Таємнича сила телепортує вас з шатла прибуття. Вдалої зміни!

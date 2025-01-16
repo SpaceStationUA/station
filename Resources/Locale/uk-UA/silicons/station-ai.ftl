@@ -19,3 +19,4 @@ emergency-access-off = Вимкнути аварійний доступ
 electrify-door-on = Увімкнути перезарядку
 electrify-door-off = Вимкнути перезарядку
 ai-device-not-responding = Пристрій не відповідає
+ai-consciousness-download-warning = Ваша свідомість завантажується.
