@@ -15,7 +15,7 @@ changeling-absorb-onexamine = [color=red]Тіло відчуває себе по
 changeling-absorbbiomatter-start = {THE($user)} починає поглинати їжу!
 changeling-absorbbiomatter-bad-food = Ця їжа не засвоюється.
 
-changeling-transform-cycle = Перемкнено на ДНК {$target}.
+changeling-transform-cycle = Переключаюсь на ДНК {$target}.
 changeling-transform-cycle-empty = У вас немає штамів ДНК!
 changeling-transform-others = Тіло {CAPITALIZE(THE($user))} скручується і приймає форму іншої істоти!
 changeling-transform-fail-self = Ти не можеш перевтілитися у свою нинішню форму!
