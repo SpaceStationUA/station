@@ -8,3 +8,11 @@ crayon-interact-invalid-location = Не дотягнутись!
 
 ## UI
 crayon-window-title = Крейда
+
+crayon-window-placeholder = Пошук або впорядкування списку імен, розділених комами
+crayon-category-1-brushes = Щітки
+crayon-category-2-alphanum = Цифри та літери
+crayon-category-3-symbols = Символи
+crayon-category-4-info = Знаки
+crayon-category-5-graffiti = Графіті
+crayon-category-random = Випадковість

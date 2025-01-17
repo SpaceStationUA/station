@@ -114,3 +114,6 @@ holopad-ai-chute = ШІ - Лоток
 holopad-station-bridge = Станція - Міст
 holopad-station-cargo-bay = Станція - вантажний відсік
 holopad-centcomm-evac = ЦК - Евакуаційний шаттл
+
+holopad-window-relay-label = Походить з..:
+holopad-window-filter-line-placeholder = Пошук контакту

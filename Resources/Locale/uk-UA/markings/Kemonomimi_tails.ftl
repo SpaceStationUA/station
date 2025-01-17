@@ -30,3 +30,5 @@ marking-TasselTail-tasseltailtone1 = Внутрішній
 marking-TasselTail-tasseltailtone2 = Зовнішній
 
 marking-HorseTailCulty-horsetailculty = Хвіст
+marking-BunnyTailAlt = Bunny Tail, Альтернатива
+marking-BunnyTailAlt-bunnytailalt = Bunny Tail, Альтернатива
