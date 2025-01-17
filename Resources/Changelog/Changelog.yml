@@ -9310,3 +9310,201 @@ Entries:
   id: 6703
   time: '2025-01-16T07:21:22.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1557
+- author: Skubman
+  changes:
+  - type: Fix
+    message: Тепер Arachne можуть вставати після лежання.
+  id: 6704
+  time: '2025-01-17T00:16:28.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1571
+- author: sleepyyapril
+  changes:
+  - type: Add
+    message: >-
+      Додано сповіщення, якщо інтерфейс не може бути відкритий через закриту
+      панель обслуговування.
+  - type: Fix
+    message: Виправлено панель керування Ripley.
+  - type: Fix
+    message: Виправлено видачу батареї Ripley замість прийняття.
+  - type: Fix
+    message: Можливо, виправлено відсутність світла у проводах.
+  - type: Fix
+    message: Виправлено крейди, які не створювали обраного малюнка.
+  - type: Fix
+    message: Виправлено, що чоботи bloodred не працювали як реактивний ранець або магнітні черевики.
+  - type: Fix
+    message: Виправлено меню хамелеона голосової маски.
+  - type: Fix
+    message: Можливо, виправлено проблеми з точками появи.
+  - type: Tweak
+    message: >-
+      У меню крейд тепер завжди є букви та цифри поряд один з одним, упорядковані.
+  - type: Tweak
+    message: Покращено інтерфейс крейд, включно з функцією пошуку.
+  id: 6705
+  time: '2025-01-17T00:27:00.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1572
+- author: spess-empyrean
+  changes:
+  - type: Fix
+    message: Виправлено деякі помилки в циклічній поведінці, наприклад, тремтіння.
+  id: 6706
+  time: '2025-01-17T00:29:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1552
+- author: Skubman
+  changes:
+  - type: Add
+    message: >-
+      Пластикові заслони тепер вважаються складною місцевістю, і значно
+      уповільнюють повзання через них. Зверніть увагу, що уповільнення від
+      складної місцевості зменшується вдвічі за допомогою риси Тренування
+      Паркуру і збільшується рисою Погані Коліна.
+  id: 6707
+  time: '2025-01-17T01:53:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1573
+- author: Skubman
+  changes:
+  - type: Tweak
+    message: >-
+      Поїдання мозку тепер займає 5 секунд (замість 1 секунди), а годування
+      когось мозком займає 6 секунд.
+  - type: Add
+    message: >-
+      Спроба або успішне поїдання мозку тепер відображає червоне сповіщення
+      для всіх у радіусі, наприклад: "Urist McHands намагається з'їсти мозок!" /
+      "Urist McHands з'їв мозок!".
+  - type: Fix
+    message: >-
+      Виправлено помилку, через яку гравці після примусового годування не
+      бачили сповіщення зі смаками їжі.
+  id: 6708
+  time: '2025-01-17T01:53:42.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1563
+- author: VMSolidus
+  changes:
+  - type: Add
+    message: >-
+      Glimmer було суттєво перероблено. Будь ласка, ознайомтеся з новим
+      Посібником з Псіоніки для отримання додаткової інформації. Коротко:
+      "500 — це новий нормальний рівень Glimmer. Не панікуйте, якщо Sophia
+      каже, що рівень Glimmer дорівнює 500. Викликайте код білий, якщо він
+      досягає 750 і залишається на цьому рівні".
+  - type: Add
+    message: >-
+      Довгоочікуваний Посібник з Псіоніки повернувся, тепер з усією
+      актуальною інформацією.
+  - type: Remove
+    message: >-
+      Видалено "GLIMMERLOOSE". Тепер неможливо, щоб Glimmer викликав ланцюг
+      подій, які завершують раунд, якщо епістеміка не знищена. Ви завжди
+      можете відновитися після високого рівня Glimmer.
+  - type: Tweak
+    message: >-
+      Усі події Glimmer були скориговані, щоб відобразити той факт, що 500 —
+      це новий "нормальний" рівень Glimmer.
+  id: 6709
+  time: '2025-01-17T02:03:49.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1480
+- author: Eris
+  changes:
+  - type: Add
+    message: >-
+      Система модульних комп'ютерів була перенесена. Очікуйте крутих
+      нововведень незабаром.
+  id: 6710
+  time: '2025-01-17T03:12:40.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1556
+- author: Skubman
+  changes:
+  - type: Add
+    message: >-
+      Переробка Майстра Бойових Мистецтв: тепер вартість Майстра Бойових
+      Мистецтв становить 5 очок, але всі атаки без зброї стають
+      одноцільовими силовими атаками з бонусом 20% до шкоди, 25% до швидкості
+      атаки і 10% до дальності атаки.
+  - type: Tweak
+    message: >-
+      Перероблена риса Майстра Бойових Мистецтв тепер надається безкоштовно
+      Боксерам, Майстрам Бойових Мистецтв і Гладіаторам.
+  - type: Tweak
+    message: >-
+      Майстри Бойових Мистецтв (професія) і Гладіатори тепер можуть вибрати
+      рису Тверді Мозолі.
+  - type: Tweak
+    message: >-
+      Риса Майстра Бойових Мистецтв тепер застосовує бонус до шкоди
+      від задушення та отруєння в ламій.
+  - type: Tweak
+    message: >-
+      Вартість риси Тверді Мозолі зменшена з 4 до 3 очок.
+  - type: Fix
+    message: Виправлено помилку, коли повільна зброя була швидкою і навпаки.
+  - type: Fix
+    message: >-
+      Тепер можна вдарити руків'ям (права кнопка миші) відразу після
+      пострілу, і затримка перед пострілом після удару руків'ям становить
+      завжди 0,528 секунди.
+  - type: Fix
+    message: >-
+      Запобігли вибору риси Видалення Природної Зброї Діонами, Арахнеями та
+      IPC, які мають лише тупу шкоду.
+  id: 6711
+  time: '2025-01-17T03:16:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1560
+- author: sleepyyapril
+  changes:
+  - type: Add
+    message: >-
+      Додано частоти ручних радіостанцій, доступні через натискання кнопки
+      "Використати предмет" під час утримання.
+  id: 6712
+  time: '2025-01-17T03:30:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1574
+- author: Piras314
+  changes:
+  - type: Add
+    message: Додано титри для екранів у лобі.
+  id: 6713
+  time: '2025-01-17T03:52:28.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1558
+- author: sleepyyapril
+  changes:
+  - type: Add
+    message: 'Змінено можливості костюма Вартового. (Оригінальний автор: Stop-Signs)'
+  - type: Add
+    message: Револьвер Repeater, Argenti та коробка 45-го калібру додані до спорядження Бармена.
+  - type: Add
+    message: 'Червоний плащ додано до спорядження (Порт з Floof PR #390)'
+  - type: Add
+    message: 'Роби Відьми додано до спорядження (Порт з Floof PR #390)'
+  - type: Add
+    message: 'Обріз PKA (Порт з Floof PR #390)'
+  - type: Add
+    message: У ChemMaster тепер є опції 20, 75 та 80 одиниць.
+  - type: Tweak
+    message: Збільшено ширину ChemMaster.
+  - type: Fix
+    message: Перенесено виправлення Frontier для візуалізації магазинів на конкретних пістолетах.
+  - type: Fix
+    message: Виправлено мерехтіння настрою у спадкових речей, коли ефект настрою закінчувався.
+  id: 6714
+  time: '2025-01-17T03:53:49.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1509
+- author: Skubman
+  changes:
+  - type: Add
+    message: IPC тепер можуть носити бороди та вуса.
+  id: 6715
+  time: '2025-01-17T04:55:26.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1575
+- author: Skubman
+  changes:
+  - type: Add
+    message: >-
+      Люди отримали альтернативні кролячі вуха та хвости, які виглядають так
+      само, як і вуха з AutoDrobe, але з можливістю налаштування кольору.
+  id: 6716
+  time: '2025-01-17T06:08:10.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1577
+

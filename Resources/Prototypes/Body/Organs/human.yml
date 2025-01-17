@@ -46,6 +46,10 @@
     state: brain
   - type: Organ
     slotId: brain # Shitmed Change
+  - type: Food # Shitmed Change
+    delay: 5
+    forceFeedDelay: 6
+    popupOnEat: true
   - type: Input
     context: "ghost"
   - type: Brain
@@ -76,7 +80,7 @@
     entries:
       Burger: Brain
       Taco: Brain
-  
+
 - type: entity
   id: OrganHumanEyes
   parent: BaseHumanOrgan
