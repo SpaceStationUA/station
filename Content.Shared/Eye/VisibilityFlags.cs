@@ -13,5 +13,6 @@ namespace Content.Shared.Eye
         TelegnosticProjection = 5,
         AIEye = 1 << 4, //PIRATE
         Ethereal = 1 << 3,
+        Abductor  = 1 << 6, // Shitmed Change - Starlight Abductors
     }
 }

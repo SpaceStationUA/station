@@ -11,3 +11,18 @@
   - BasicStationEventScheduler
   - BasicRoundstartVariation
   - SubGamemodesRule
+
+
+- type: gamePreset
+  id: Abductor
+  alias:
+    - abductor
+  name: abductor-title
+  description: abductor-description
+  showInVote: false
+  rules:
+    - LoneAbductorSpawn
+    - SubGamemodesRule
+    - BasicStationEventScheduler
+    - SpaceTrafficControlEventScheduler
+    - BasicRoundstartVariation

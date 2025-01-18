@@ -1,0 +1,62 @@
+- type: entityTable
+  id: DubiousOrgansTable
+  table: !type:GroupSelector
+    children:
+#     Not-so Annoying Organs Group - 50% chance
+    - !type:GroupSelector
+      weight: 50
+      children:
+      - !type:EntSelector
+        id: OrganDubiousHealth
+      - !type:EntSelector
+        id: OrganDubiousInvisible
+      - !type:EntSelector
+        id: OrganDubiousSpaceAdaptation
+      - !type:EntSelector
+        id: OrganDubiousScrambleDna
+      - !type:EntSelector
+        id: OrganDubiousScrambleLocation
+      - !type:EntSelector
+        id: OrganDubiousArtifact
+    # Annoying/Disruptive Organs Group - 35% chance
+    - !type:GroupSelector
+      weight: 35
+      children:
+      - !type:EntSelector
+        id: OrganDubiousShock
+      - !type:EntSelector
+        id: OrganDubiousGoliath
+      - !type:EntSelector
+        id: OrganDubiousEMP
+      - !type:EntSelector
+        id: OrganDubiousGravityWell
+      - !type:EntSelector
+        id: OrganDubiousFlash
+      - !type:EntSelector
+        id: OrganDubiousSmoke
+      - !type:EntSelector
+        id: OrganDubiousGas
+    # Very Disruptive Organs Group - 15% chance
+    - !type:GroupSelector
+      weight: 15
+      children:
+      - !type:EntSelector
+        id: OrganDubiousAA
+      - !type:EntSelector
+        id: OrganDubiousSpiderEggs
+      - !type:EntSelector
+        id: OrganDubiousSlimeEggs
+
+- type: entity
+  name: Dubious Organ Spawner
+  id: DubiousOrganSpawner
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+      - state: red
+      - sprite: _Shitmed/Mobs/Species/Misc/Dubious/organs.rsi
+        state: gland
+  - type: EntityTableSpawner
+    table: !type:NestedSelector
+      tableId: DubiousOrgansTable

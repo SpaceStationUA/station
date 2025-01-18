@@ -128,28 +128,44 @@ namespace Content.Shared.Movement.Systems
                 if (_mobState.IsDead(relayTarget.Source)
                     || TryComp<SleepingComponent>(relayTarget.Source, out _)
                     || !MoverQuery.TryGetComponent(relayTarget.Source, out var relayedMover)
-                    || _mobState.IsCritical(relayTarget.Source) && !_configManager.GetCVar(CCVars.AllowMovementWhileCrit))
+                    || _mobState.IsCritical(relayTarget.Source) && !_configManager.GetCVar(CCVars.AllowMovementWhileCrit)
+                    || !PhysicsQuery.TryGetComponent(relayTarget.Source, out var relayedPhysicsComponent) // Goob abductor
+					|| !XformQuery.TryGetComponent(relayTarget.Source, out var relayedXform)) // Goob abductor
                 {
                     canMove = false;
                 }
                 else
                 {
+                	mover.LerpTarget = relayedMover.LerpTarget; // Goob abductor
                     mover.RelativeEntity = relayedMover.RelativeEntity;
                     mover.RelativeRotation = relayedMover.RelativeRotation;
                     mover.TargetRelativeRotation = relayedMover.TargetRelativeRotation;
+                    HandleMobMovement(relayTarget.Source, relayedMover, relayTarget.Source, relayedPhysicsComponent, relayedXform, frameTime); // Goob abductor
                 }
             }
 
-            // Update relative movement
+        // Update relative movement
+        // Shitmed Change Start
+        else //GOOB ABDUCTOR
+        {
             if (mover.LerpTarget < Timing.CurTime)
             {
-                if (TryUpdateRelative(mover, xform))
+                if (TryComp(uid, out RelayInputMoverComponent? relay) //GOOB ABDUCTOR
+                    && TryComp(relay.RelayEntity, out TransformComponent? relayXform)) //GOOB ABDUCTOR
                 {
-                    Dirty(uid, mover);
+                    if (TryUpdateRelative(mover, relayXform)) //GOOB ABDUCTOR
+                        Dirty(uid, mover);
+                }
+                else //GOOB ABDUCTOR
+                {
+                    if (TryUpdateRelative(mover, xform))  //GOOB ABDUCTOR
+                        Dirty(uid, mover); //GOOB ABDUCTOR
                 }
             }
-
             LerpRotation(uid, mover, frameTime);
+        }
+        // Shitmed Change End
+
 
             if (!canMove
                 || physicsComponent.BodyStatus != BodyStatus.OnGround && !CanMoveInAirQuery.HasComponent(uid)

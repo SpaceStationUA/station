@@ -2,6 +2,10 @@
 
 - type: randomHumanoidSettings
   id: EventHumanoid
+  # GOOB Abductor Start
+  speciesBlacklist:
+  - Abductor
+  # GOOB Abductor End
   components:
     - type: RandomHumanoidAppearance
       randomizeName: false
