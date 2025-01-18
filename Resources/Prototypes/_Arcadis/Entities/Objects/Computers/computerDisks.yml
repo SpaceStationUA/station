@@ -2,7 +2,7 @@
   parent: BaseItem
   id: BaseProgramDisk
   abstract: true
-  name: "програмний диск"
+  name: program disk
   components:
     - type: Sprite
       sprite: Objects/Misc/cd.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: BaseProgramDisk
   id: ProgramDiskCrewMonitor
-  name: "програмний диск (монітор екіпажу)"
-  description: "Дискета для використання в комп'ютері. На ній записана програма \"Монітор екіпажу\"."
+  name: program disk (crew monitor)
+  description: A diskette for usage in a computer. This one has the "Crew Monitor" program burnt to it.
   components:
     - type: ComputerDisk
       programPrototype: CrewMonitorDiskPrototype
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseProgramDisk
   id: ProgramDiskCommunicationsConsole
-  name: "програмний диск (консоль зв'язку)"
-  description: "Дискета для використання в комп'ютері. На ній записана програма \"Communications Console\"."
+  name: program disk (communications console)
+  description: A diskette for usage in a computer. This one has the "Communications Console" program burnt to it.
   components:
     - type: ComputerDisk
       programPrototype: CommunicationsConsoleDiskPrototype
@@ -33,8 +33,8 @@
 - type: entity
   parent: BaseProgramDisk
   id: ProgramDiskUnburnt
-  name: "програмний диск"
-  description: "Дискета для використання в комп'ютері. На ній не записано жодної програми."
+  name: program disk
+  description: A diskette for usage in a computer. This one has no program burnt to it.
   components:
     - type: ComputerDisk
       programPrototype: UnburnedDiskPrototype
