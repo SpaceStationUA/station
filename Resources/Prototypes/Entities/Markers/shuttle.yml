@@ -1,7 +1,7 @@
 - type: entity
   id: FTLPoint
   parent: MarkerBase
-  name: FTL point
+  name: "Надсвітлова точка"
   components:
     - type: FTLSmashImmune
     - type: FTLBeacon
@@ -11,7 +11,7 @@
 - type: entity
   id: FTLExclusion
   parent: MarkerBase
-  name: FTL exclusion point
+  name: "Точка виключення надсвітлової швидкості"
   components:
     - type: FTLExclusion
       range: 32
