@@ -85,3 +85,4 @@ loadout-category-JobsCommandAdminAssistant = Адміністративний а
 loadout-category-JobsCommandBlueshieldOfficer = Офіцер Блакитного Щита
 loadout-category-JobsCommandNanorep = Представник Nanotrasen
 loadout-category-Belt = Пояс
+loadout-category-JobsCommandMagistrate = Магістр

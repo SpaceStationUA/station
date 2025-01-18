@@ -7,3 +7,4 @@ department-Security = Служба Безпеки
 department-Science = Дослідження та Розробка
 department-Specific = Специфічні для станції
 department-Silicon = Силікони
+department-Dignitary = Високопоставлена особа

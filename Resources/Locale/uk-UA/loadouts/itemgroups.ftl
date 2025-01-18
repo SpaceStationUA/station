@@ -753,3 +753,12 @@ character-item-group-LoadoutSalvageSpecialistWeapons = Шахтар Зброя
 character-item-group-LoadoutPets = Домашні тварини
 
 character-item-group-LoadoutBelt = Цивільні ремені
+character-item-group-LoadoutBlueshieldOfficerBackpacks = Офіцерські рюкзаки Blueshield
+character-item-group-LoadoutBlueshieldOfficerVests = Офіцерські жилети Blueshield
+character-item-group-LoadoutBlueshieldOfficerUniforms = Офіцерська форма Blueshield
+character-item-group-LoadoutMagistrateHead = Головний убір судді
+character-item-group-LoadoutMagistrateNeck = Магістратські шийні хустки
+character-item-group-LoadoutMagistrateOuter = Верхній одяг для суддів
+character-item-group-LoadoutMagistrateUniforms = Уніформа судді
+character-item-group-LoadoutNanorepBackpacks = Представницькі рюкзаки Nanotrasen
+character-tiem-group-LoadoutNanorepUniforms = Представницька уніформа Нанотрасен

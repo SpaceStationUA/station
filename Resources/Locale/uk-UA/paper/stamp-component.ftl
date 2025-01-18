@@ -18,3 +18,4 @@ stamp-component-stamped-name-syndicate = Синдикат
 stamp-component-stamped-name-ce = Головний Інженер
 
 stamp-component-stamped-name-nanorep = Представник Нанотрасен
+stamp-component-stamped-name-magistrate = Магістрат
