@@ -9581,3 +9581,187 @@ Entries:
   id: 6722
   time: 2025-01-18T04:35:32.0000000+00:00
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1583
+- author: VMSolidus
+  changes:
+  - type: Add
+    message: Додано класичні Три Закони Робототехніки Азімова до гри.
+  - type: Add
+    message: Тепер ШІ за замовчуванням стартує із законами Азімова, замість "Crewsimov".
+  id: 6723
+  time: '2025-01-18T19:22:41.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1588
+- author: sleepyyapril
+  changes:
+  - type: Add
+    message: Додано опції сортування до ChemMaster.
+  - type: Add
+    message: Додано можливість вводити кастомні кількості у ChemMaster через текстове поле, яке скидається після зміни.
+  - type: Tweak
+    message: Зменшено ширину інтерфейсу ChemMaster.
+  - type: Remove
+    message: Видалено кнопки вибору кількості з ChemMaster.
+  id: 6724
+  time: '2025-01-18T20:03:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1585
+- author: VMSolidus
+  changes:
+  - type: Tweak
+    message: Дія "Крик" більше не відображається за замовчуванням. Її можна увімкнути в конфігурації сервера.
+  id: 6725
+  time: '2025-01-18T20:28:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1589
+- author: VMSolidus
+  changes:
+  - type: Tweak
+    message: Крик знову з’являється за замовчуванням на панелі дій. Конфігурація сервера для його видалення все ще доступна.
+  id: 6726
+  time: '2025-01-18T21:31:15.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1590
+- author: sleepyyapril
+  changes:
+  - type: Fix
+    message: Виправлено помилку "Доступ заборонено" при використанні мережевої конфігурації в режимі маппінгу.
+  id: 6727
+  time: '2025-01-18T23:11:27.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1592
+- author: VMSolidus
+  changes:
+  - type: Remove
+    message: Lamia більше не можуть мати кров’яні риси, такі як "Дефіцит крові".
+  id: 6728
+  time: '2025-01-18T23:37:19.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1586
+- author: BlueHNT
+  changes:
+  - type: Add
+    message: Додано сигари Cohiba Robusto.
+  - type: Tweak
+    message: Налаштовано кількість нікотину в сигарах, вони горять довше.
+  id: 6729
+  time: '2025-01-19T02:45:07.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1455
+- author: VMSolidus
+  changes:
+  - type: Remove
+    message: Видалено більшість випадків використання "Unobtainium" у хімії. Хімікати, які раніше вимагали недоступні реагенти, такі як Cognizine або Vestine, тепер мають довгі виробничі ланцюги з доступних, але складних для створення хімікатів. Докладніше дивіться у меню хімії.
+  id: 6730
+  time: '2025-01-19T19:24:31.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1600
+- author: VMSolidus
+  changes:
+  - type: Tweak
+    message: Зроблено дослідження Арсеналу значно цікавішим, об’єднавши більшість непотрібних одиничних досліджень у більші категорії - "Основна Зброя", "Розширена Зброя", "Прототипи Зброї". Надалі ці категорії отримають більше захопливих варіантів, які зроблять дослідження кориснішим.
+  id: 6731
+  time: '2025-01-19T20:44:45.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1602
+- author: VMSolidus
+  changes:
+  - type: Tweak
+    message: Об’єднано категорії досліджень "Цивільні Послуги", щоб зробити їх більш цікавими та корисними.
+  id: 6732
+  time: '2025-01-19T21:54:48.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1603
+- author: VMSolidus
+  changes:
+  - type: Add
+    message: Додано розширені тактичні костюми та їх прототипи в дослідження Арсеналу. Також додано рецепти для цих костюмів у Техфабі Безпеки.
+  id: 6733
+  time: '2025-01-19T23:38:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1604
+- author: VMSolidus
+  changes:
+  - type: Remove
+    message: Видалено механіку "Технологічного Блокування Третього Рівня". Більше немає обмеження на одну дисципліну досліджень рівня 3.
+  - type: Add
+    message: Дослідження тепер "м’яко обмежуються" рівнем 3. Кожне відкриття технології рівня 3 множить вартість всіх інших досліджень. Прискорене відкриття вершини може бути дорогим, як і дослідження кількох вершин.
+  id: 6734
+  time: '2025-01-20T01:20:19.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1605
+- author: VMSolidus
+  changes:
+  - type: Fix
+    message: Можливо, виправлено збій, пов'язаний із застосуванням завантажень до неіснуючих об’єктів.
+  id: 6735
+  time: '2025-01-20T01:25:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1607
+- author: Rane
+  changes:
+  - type: Add
+    message: Додано законопорядок "Августин" як середній варіант між Азімовим та Crewsimov.
+  id: 6736
+  time: '2025-01-20T02:43:40.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1609
+- author: Mike32oz
+  changes:
+  - type: Add
+    message: Додано ATS, ліхтарні стовпи, автомати з закусками/напоями.
+  - type: Tweak
+    message: Налаштовано ATS, маленький вентилятор, зручний пояс.
+  - type: Remove
+    message: Видалено ATS, ведмедя, що з’являвся в технічному приміщенні.
+  id: 6737
+  time: '2025-01-20T04:51:26.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1612
+- author: Erisfiregamer1
+  changes:
+  - type: Add
+    message: Додано Disk Burner і модульний комп’ютер як плату для створення комп’ютерних дисків.
+  id: 6738
+  time: '2025-01-20T04:52:00.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1580
+- author: Several contributors
+  changes:
+  - type: Add
+    message: Додано нову карту центральної команди, яка обирається випадково разом зі старою.
+  - type: Add
+    message: Додано розширений SMES для мапперів.
+  - type: Add
+    message: Додано монітор атмосферної мережі для перевірки температури, молекул і тиску на кожній трубі через комп’ютер.
+  - type: Add
+    message: У набір Nukie Med тепер входить компактний дефібрилятор.
+  - type: Add
+    message: Портовано покращений редактор карт.
+  - type: Add
+    message: Додано плюшевого "throngler".
+  - type: Remove
+    message: Видалено "throngler" як можливий здобич у гральних ящиках.
+  id: 6739
+  time: '2025-01-20T07:24:23.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1610
+- author: sleepyyapril
+  changes:
+  - type: Fix
+    message: Виправлено епідемію зомбі у медбеї через фент.
+  id: 6740
+  time: '2025-01-20T08:13:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1614
+- author: CerberusWolfie
+  changes:
+  - type: Add
+    message: Додано комп’ютер реєстрації псіоніків. Тепер можна реєструвати користувачів псіоніки в Epistemics.
+  - type: Add
+    message: Додано епі-окуляри та епі-HUD для відображення іконок користувачів псіоніки. (Священик, Каталогіст, Богомол і Містагог мають доступ у спорядженні).
+  - type: Add
+    message: Додано PsiWatch. Тепер можна переглядати дані реєстру псіоніки на вашому PDA!
+  - type: Fix
+    message: Виправлено, що у священика не було жодних програм у PDA при появі.
+  id: 6741
+  time: '2025-01-20T09:50:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1598
+- author: DEATHB4DEFEAT
+  changes:
+  - type: Tweak
+    message: Додано опис до риси "Червона сорочка", який пояснює її функціонал.
+  id: 6742
+  time: '2025-01-20T19:35:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1616
+- author: CerberusWolfie
+  changes:
+  - type: Add
+    message: Додано MedTek до PDA офіцера Blueshield.
+  - type: Tweak
+    message: Офіцер Blueshield тепер має гарнітуру Центрального Командування замість гарнітури з доступом до всіх каналів командування.
+  id: 6743
+  time: '2025-01-20T21:34:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1617
+

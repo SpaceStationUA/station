@@ -3,6 +3,7 @@ using Content.Server.GameTicking;
 using Content.Server.GameTicking.Presets;
 using Content.Server.Maps;
 using Content.Server.RoundEnd;
+using Content.Shared._Pirate;
 using Content.Shared.CCVar;
 using Content.Shared.Database;
 using Content.Shared.Ghost;
@@ -57,7 +58,7 @@ namespace Content.Server.Voting.Managers
 
             var ghostVotePercentageRequirement = _cfg.GetCVar(CCVars.VoteRestartGhostPercentage);
             var ghostCount = 0;
-            
+
             foreach (var player in _playerManager.Sessions)
             {
                 _playerManager.UpdateState(player);
@@ -78,11 +79,11 @@ namespace Content.Server.Voting.Managers
             #region PIRATE, check minimum round duration before starting vote
             var _gameTicker = EntitySystem.Get<GameTicker>();
             var roundDuration = _gameTicker.RoundDuration().TotalMinutes;
-            if(roundDuration < _cfg.GetCVar(CCVars.VoteRestartMinMinutes) && roundedGhostPercentage <= 90)
+            if(roundDuration < _cfg.GetCVar(PirateCCVars.VoteRestartMinMinutes) && roundedGhostPercentage <= 90)
             {
-                _adminLogger.Add(LogType.Vote, LogImpact.Medium, $"Restart vote failed: Current round duration:{roundDuration} minutes is less than the minimum required duration of {_cfg.GetCVar(CCVars.VoteRestartMinMinutes)} minutes");
+                _adminLogger.Add(LogType.Vote, LogImpact.Medium, $"Restart vote failed: Current round duration:{roundDuration} minutes is less than the minimum required duration of {_cfg.GetCVar(PirateCCVars.VoteRestartMinMinutes)} minutes");
                 _chatManager.DispatchServerAnnouncement(
-                    Loc.GetString("ui-vote-restart-fail-min-round-duration", ("minRoundDuration", _cfg.GetCVar(CCVars.VoteRestartMinMinutes))));
+                    Loc.GetString("ui-vote-restart-fail-min-round-duration", ("minRoundDuration", _cfg.GetCVar(PirateCCVars.VoteRestartMinMinutes))));
                 return;
             }
             #endregion
