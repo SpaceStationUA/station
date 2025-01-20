@@ -1,6 +1,6 @@
 - type: entity
   id: BaseSpeedLoaderCap
-  name: "заряджаючий ковпачкових гармат"
+  name: "cap gun loader"
   parent: BaseItem
   abstract: true
   components:
@@ -31,7 +31,7 @@
 
 - type: entity
   id: SpeedLoaderCap
-  name: "заряджаючий ковпачкових гармат"
+  name: "cap gun loader"
   parent: BaseSpeedLoaderCap
   components:
   - type: BallisticAmmoProvider
