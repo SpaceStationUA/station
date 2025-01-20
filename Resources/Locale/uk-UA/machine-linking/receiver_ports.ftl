@@ -58,7 +58,7 @@ signal-port-description-hold-open = Вимикає автоматичне зак
 signal-port-name-artifact-analyzer-sender = Консоль
 signal-port-description-artifact-analyzer-sender = Відправник сигналу аналітичної консолі
 
-signal-port-name-artifact-analyzer-receiver = Подушечка
+signal-port-name-artifact-analyzer-receiver = Сканер
 signal-port-description-artifact-analyzer-receiver = Приймач сигналу аналізатора артефактів
 
 signal-port-name-set-particle-delta = Встановити тип частинок: дельта

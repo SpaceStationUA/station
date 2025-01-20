@@ -52,10 +52,10 @@ character-item-group-LoadoutUniformsSecurity = Охоронна уніформа
 # Служба
 character-item-group-LoadoutEquipmentService = Сервісне обладнання
 character-item-group-LoadoutMaskService = Сервісні маски
-character-item-group-LoadoutNeckService = Службовий формений одяг
-character-item-group-LoadoutOuterService = Службовий верхній одяг
-character-item-group-LoadoutShoesService = Службове взуття
-character-item-group-LoadoutUniformsService = Службова уніформа
+character-item-group-LoadoutNeckService = Сервісний формений одяг
+character-item-group-LoadoutOuterService = Сервісний верхній одяг
+character-item-group-LoadoutShoesService = сервісне взуття
+character-item-group-LoadoutUniformsService = Сервісна уніформа
 
 # Обслуговування - Бармен
 character-item-group-LoadoutBartenderAmmo = Патрони для бармена
@@ -86,7 +86,7 @@ character-item-group-LoadoutUniformsScience = Епістемічна уніфо�
 character-item-group-LoadoutCataloguerUniforms = Каталогізатор Уніформа
 
 # Медична
-character-item-group-LoadoutHeadService = Службовий головний убір
+character-item-group-LoadoutHeadService = Сервісний головний убір
 character-item-group-LoadoutBartenderHead = Головний убір бармена
 character-item-group-LoadoutBartenderUniforms = Форма для барменів
 character-item-group-LoadoutBotanistUniforms = Уніформа ботаніка

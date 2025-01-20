@@ -1,4 +1,4 @@
-alerts-changeling-chemicals-name = Хімія
+alerts-changeling-chemicals-name = Хімікати
 alerts-changeling-chemicals-desc = витрачайте хімію щоб використати здібності. Повільно відновлюється.
 
 alerts-changeling-biomass-name = Біомаса
