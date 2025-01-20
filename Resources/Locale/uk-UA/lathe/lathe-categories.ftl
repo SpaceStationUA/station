@@ -6,3 +6,5 @@ lathe-category-parts = Деталі
 lathe-category-robotics = Робототехніка
 lathe-category-tools = Інструменти
 lathe-category-weapons = Зброя
+
+lathe-category-tacsuits = Тактичні костюми

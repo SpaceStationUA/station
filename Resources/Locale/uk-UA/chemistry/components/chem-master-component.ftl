@@ -29,3 +29,12 @@ chem-master-window-dose-label = Доза (u):
 chem-master-window-create-button = Створити
 chem-master-window-bottles-label = Пляшки:
 chem-master-window-unknown-reagent-text = Невідомий реагент
+
+chem-master-window-amount-placeholder = Сума переказу
+chem-master-window-sort-method-tooltip = Виберіть метод сортування буфера.
+chem-master-window-sort-method-Time-text = Останнє додавання
+chem-master-window-sort-method-Alphabetical-text = Алфавітний порядок
+chem-master-window-sort-method-Amount-text = Кількість
+chem-master-window-transferring-label = Передаю: [color={$color}]{$quantity}[/color]
+chem-master-window-transferring-default-label = Передаю: [color=#ffa500]50[/color]
+chem-master-window-reagent-move-button = Відійди

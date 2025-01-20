@@ -8,3 +8,5 @@ marking-VoxRFootScales = Vox Права Нога
 marking-VoxRHandScales = Vox Права рука
 marking-VoxRLegScale = Vox Права нога
 marking-VoxTail = Хвіст Vox Tail
+
+marking-VoxRLegScales = Vox Права нога

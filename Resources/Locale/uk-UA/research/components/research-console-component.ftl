@@ -19,3 +19,5 @@ research-console-prereqs-list-entry = - [color=orchid]{$text}[/color]
 
 research-console-no-access-popup = Нема доступу!
 research-console-unlock-technology-radio-broadcast = Розблоковано [bold]{$technology}[/bold] за [bold]{$amount}[/bold] балів.
+
+research-console-menu-softcap-amount-text = Поточний мультиплікатор витрат: [color=#ff8c00]{$softcap}[/color]

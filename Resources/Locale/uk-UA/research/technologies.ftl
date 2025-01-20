@@ -97,3 +97,12 @@ research-technology-excavation = Масові розкопки
 
 research-technology-night-vision = Нічне бачення
 research-technology-thermal-vision = Тепловізійне бачення
+research-technology-basic-weapons = Основні види зброї
+research-technology-advanced-weapons = Передова зброя
+research-technology-prototype-weapons = Прототипи зброї
+research-technology-advanced-tacsuits = Удосконалені тактичні костюми
+research-technology-prototype-tacsuits = Прототипи костюмів
+research-technology-basic-cybernetics = Основи кібернетики
+research-technology-basic-electronics = Базова електроніка
+research-technology-basic-life-improvements = Базові покращення життя
+research-technology-advanced-life-improvements = Прогресивні покращення життя

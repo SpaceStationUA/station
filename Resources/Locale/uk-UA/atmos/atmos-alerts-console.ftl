@@ -33,3 +33,6 @@ atmos-alerts-window-toggle-overlays = Перемикання індикатор�
 
 atmos-alerts-window-flavor-left = Зверніться за допомогою до фахівця з атмосферних систем
 atmos-alerts-window-flavor-right = v1.8
+atmos-alerts-window-invalid-value = Н/Д
+atmos-alerts-window-total-mol-label = Загальна кількість моль
+atmos-alerts-window-total-mol-value = {$value} моль
