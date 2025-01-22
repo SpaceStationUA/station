@@ -225,7 +225,8 @@ namespace Content.Server.Voting.Managers
 
         private void CreateMapVote(ICommonSession? initiator)
         {
-            var maps = _gameMapManager.CurrentlyEligibleMaps().ToDictionary(map => map, map => map.MapName);
+            var selectedMap = _gameMapManager.GetSelectedMap();
+            var maps = _gameMapManager.CurrentlyEligibleMaps().Where(map => map != selectedMap).ToDictionary(map => map, map => map.MapName);
 
             var alone = _playerManager.PlayerCount == 1 && initiator != null;
             var options = new VoteOptions
