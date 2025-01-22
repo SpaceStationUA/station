@@ -110,3 +110,5 @@ petting-failure-syndicate-cyborg = Ви простягаєте руку, щоб 
 petting-failure-derelict-cyborg = Ви простягаєте руку, щоб погладити {THE($target)}, але {POSS-ADJ($target)} іржавий і нерівний зовнішній вигляд змушує вас передумати.
 petting-failure-station-ai = You reach out to pet {THE($target)}, but {SUBJECT($target)} {CONJUGATE-BASIC($target, "zap", "zaps")} your hand away.
 petting-success-station-ai-others = { CAPITALIZE(THE($user)) } улюбленців {THE($target) } на {POSS-ADJ($target) } холодному квадратному екрані. ## Брязкіт парканів
+petting-success-gladiabot = Ви гладите {THE($target)} по {POSS-ADJ($target)} лиховісній картонній голові.
+petting-failure-gladiabot = Ви намагаєтесь погладити {THE($target)}, але {SUBJECT($target)} {CONJUGATE-BE($target)} лише хоче битися!
