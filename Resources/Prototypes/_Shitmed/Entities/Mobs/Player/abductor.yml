@@ -1,5 +1,5 @@
 - type: entity
-  name: "викрадач-одинак"
+  name: lone abductor
   parent: BaseMobAbductor
   id: MobAbductor
   components:
@@ -13,7 +13,7 @@
       - DoorBumpOpener
 
 - type: entity
-  name: "викрадач-одинак"
+  name: lone abductor
   parent: MobAbductor
   id: MobLoneAbductor
   components:
@@ -47,7 +47,7 @@
     back: Wonderprod
 
 - type: entity
-  name: "самотній нерестовик-викрадач"
+  name: lone abductor spawner
   id: SpawnPointLoneAbductor
   parent: MarkerBase
   components:

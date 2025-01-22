@@ -6,8 +6,8 @@
 - type: entity
   parent: BaseSign
   id: N14WallmountVent
-  name: "вентиляційний отвір"
-  description: "Вентиляційний отвір. Може бути гарною схованкою."
+  name: vent
+  description: An airvent. Could be a good stash.
   components:
   - type: WallMount
     arc: 360

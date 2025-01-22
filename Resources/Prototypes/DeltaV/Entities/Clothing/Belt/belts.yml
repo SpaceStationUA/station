@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltCeremonial
-  name: "парадний пояс"
-  description: "Синьо-білий пояс з різноманітними кишенями та мішечками."
+  name: ceremonial belt
+  description: A blue-and-white belt with assorted pockets and pouches.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Belt/ceremonial.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: ClothingBeltSuspendersBlack
-  name: "підтяжки"
-  description: "За те, що тримаєш штани піднятими."
+  name: suspenders
+  description: For holding your pants up.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Belt/suspendersblack.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltCorpsmanWebbing
-  name: "санітарна стрічка"
-  description: "Набір захисних стрічок з синіми санітарними підсвічуваннями."
+  name: corpsman webbing
+  description: A set of security webbing with blue corpsman highlights.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Belt/corpsman.rsi

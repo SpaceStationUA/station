@@ -1,7 +1,7 @@
 - type: entity
   parent: [ BoxCardboard, BaseBagOpenClose ]
   id: CardBoxBase
-  name: "Коробка для карток"
+  name: Card Box
   noSpawn: true
   components:
   - type: Item
@@ -32,7 +32,7 @@
   parent: BaseItem
   id: CardHandBase
   noSpawn: true
-  name: "Карткова рука"
+  name: Card hand
   components:
   - type: Item
     size: Small
@@ -52,7 +52,7 @@
   parent: BaseItem
   id: CardDeckBase
   noSpawn: true
-  name: "Колода_карт"
+  name: Deck_of_cards
   components:
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
@@ -66,7 +66,7 @@
 - type: entity
   parent: CardBoxBase
   id: CardBoxBlack
-  name: "чорний чохол для колоди"
+  name: black deck case
   components:
   - type: Item
     size: Small
@@ -86,7 +86,7 @@
 - type: entity
   parent: CardDeckBase
   id: CardDeckBlack
-  name: "Колода_карт"
+  name: Deck_of_cards
   components:
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
@@ -155,7 +155,7 @@
 - type: entity
   parent: BaseItem
   id: CardBase
-  name: "Картка"
+  name: Card
   noSpawn: true
   components:
   - type: EmitSoundOnLand
