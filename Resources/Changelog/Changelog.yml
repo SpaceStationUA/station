@@ -9764,4 +9764,56 @@ Entries:
   id: 6743
   time: '2025-01-20T21:34:51.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1617
-
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено математику роботи Supermatter-двигуна для коректного врахування серверного такту (tickrate). 
+        Тепер значно менша ймовірність потрапляння у смертельний вир вогню плазми. 
+        Якщо пожежа все ж виникне - переконайтесь, що в двигун подається охолодження, 
+        та активізуйте вогнегасники.
+  id: 6744
+  time: '2025-01-20T23:13:35.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1618
+- author: sleepyyapril
+  changes:
+    - type: Tweak
+      message: Додано відображення калюж та слідів у контекстному меню.
+  id: 6745
+  time: '2025-01-20T23:28:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1620
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Об'єкти, кинуті в Сингулярність або Теслу, тепер впливають на їх рух. 
+        Без втручання зрадника (з Singularity Beacon) "Сінгулуз" з високою ймовірністю 
+        буде викинутий у космос.
+  id: 6746
+  time: '2025-01-21T00:18:24.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1619
+- author: sleepyyapril
+  changes:
+    - type: Remove
+      message: Видалено механіку мани.
+  id: 6747
+  time: '2025-01-21T02:06:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1623
+- author: Timfa2112
+  changes:
+    - type: Add
+      message: Додано ГладіаБотів. Створюйте їх через меню будівництва та влаштовуйте бої з друзями!
+    - type: Tweak
+      message: Модифіковано бойову поведінку HTN: додано випадкові відхилення у часі атак. Наразі використовується лише ГладіаБотами.
+    - type: Tweak
+      message: Оновлено код фракцій для підтримки явно ворожих відносин всередині фракції.
+  id: 6748
+  time: '2025-01-21T14:56:35.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1548
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Гарпії тепер можуть носити штани. Додано displacement map для поліпшення відображення одягу.
+  id: 6749
+  time: '2025-01-22T21:44:47.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1633
