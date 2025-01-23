@@ -175,8 +175,8 @@
     - dm
   name: death-match-title
   description: death-match-description
-  maxPlayers: 12
-  showInVote: true #PIRATE # DeltaV - No.
+  maxPlayers: 10
+  showInVote: false #PIRATE # DeltaV - No.
   supportedMaps: DeathMatchMapPool
   rules:
     - DeathMatch31
