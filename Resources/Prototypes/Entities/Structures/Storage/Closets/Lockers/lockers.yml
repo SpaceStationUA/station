@@ -44,7 +44,7 @@
     stateDoorOpen: secure_open
     stateDoorClosed: secure_door
   - type: AccessReader
-    access: [ [ "Engineering" ], [ "Command" ], [ "Research" ], ["Salvage"] ]
+    access: [ [ "Engineering" ], [ "Command" ], ["Security"] ]
   - type: DamageOtherOnHit
     damage:
       types:
