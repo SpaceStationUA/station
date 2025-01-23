@@ -3,7 +3,7 @@
 - type: entity
   id: PartGray
   parent: [BaseItem, BasePart]
-  name: "gray body part"
+  name: "сірий орган тіла"
   abstract: true
   components:
   - type: Extractable
@@ -16,7 +16,7 @@
 
 - type: entity
   id: TorsoGray
-  name: "gray torso"
+  name: "сірий торс"
   parent: [PartGray, BaseTorso]
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
 
 - type: entity
   id: HeadGray
-  name: "gray head"
+  name: "сіра голова"
   parent: [PartGray, BaseHead]
   components:
   - type: Sprite
@@ -48,7 +48,7 @@
 
 - type: entity
   id: LeftArmGray
-  name: "left gray arm"
+  name: "ліва сіра рука"
   parent: [PartGray, BaseLeftArm]
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 
 - type: entity
   id: RightArmGray
-  name: "right gray arm"
+  name: "права сіра рука"
   parent: [PartGray, BaseRightArm]
   components:
   - type: Sprite
@@ -66,7 +66,7 @@
 
 - type: entity
   id: LeftHandGray
-  name: "left gray hand"
+  name: "ліва сіра долоня"
   parent: [PartGray, BaseLeftHand]
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 
 - type: entity
   id: RightHandGray
-  name: "right gray hand"
+  name: "права сіра долоня"
   parent: [PartGray, BaseRightHand]
   components:
   - type: Sprite
@@ -84,7 +84,7 @@
 
 - type: entity
   id: LeftLegGray
-  name: "left gray leg"
+  name: "ліва сіра нога"
   parent: [PartGray, BaseLeftLeg]
   components:
   - type: Sprite
@@ -93,7 +93,7 @@
 
 - type: entity
   id: RightLegGray
-  name: "right gray leg"
+  name: "права сіра нога"
   parent: [PartGray, BaseRightLeg]
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 
 - type: entity
   id: LeftFootGray
-  name: "left gray foot"
+  name: "ліва сіра стопа"
   parent: [PartGray, BaseLeftFoot]
   components:
   - type: Sprite
@@ -111,7 +111,7 @@
 
 - type: entity
   id: RightFootGray
-  name: "right gray foot"
+  name: "права сіра стопа"
   parent: [PartGray, BaseRightFoot]
   components:
   - type: Sprite
