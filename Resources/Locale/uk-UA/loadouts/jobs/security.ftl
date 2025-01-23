@@ -33,3 +33,7 @@ loadout-name-LoadoutSecurityRevolverFitz = Фітц (летал)
 loadout-name-LoadoutSecurityRevolverFitzNonlethal = Фітц (нелетальна)
 loadout-name-LoadoutSecurityRevolverPython = Пітон (летал)
 loadout-name-LoadoutSecurityRevolverPythonNonlethal = Пітон (нелетальна)
+
+loadout-name-LoadoutSecurityPistolEnergyRevolver = Енергетичний револьвер EG-4
+loadout-name-LoadoutSecurityEquipmentTruncheon = Палиця
+loadout-name-LoadoutSecurityEquipmentEnergySword = Енергетичний меч

@@ -1,2 +1,2 @@
 ## GoobStation
-research-technology-medical-defense = Спорядження медичного контролю
+research-technology-medical-defense = Медичне обладнання для контролю

@@ -106,3 +106,6 @@ humanoid-profile-editor-loadouts-customize-save = Зберегти
 humanoid-profile-editor-loadouts-guidebook-button-tooltip = Натисніть для отримання додаткової інформації
 humanoid-profile-editor-loadouts-heirloom = Реліквія
 humanoid-profile-editor-loadouts-heirloom-tooltip = Будь-яке завантаження, яке ви виберете як свою потенційну реліквію, буде випадковим чином вибрано під час спавну.
+humanoid-profile-editor-station-ai-name-label = Ім'я станції штучного інтелекту:
+humanoid-profile-editor-cyborg-name-label = Ім'я Кіборг:
+humanoid-profile-editor-display-pronouns-label = Косметичні займенники:
