@@ -16,6 +16,7 @@ public sealed partial class ServerApi
     {
         "headofsecurity",
         "blueshield",
+        "blueshieldofficer",
         "warden",
         "detective",
         "securityofficer",

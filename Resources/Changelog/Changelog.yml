@@ -9768,9 +9768,9 @@ Entries:
   changes:
     - type: Fix
       message: >-
-        Виправлено математику роботи Supermatter-двигуна для коректного врахування серверного такту (tickrate). 
-        Тепер значно менша ймовірність потрапляння у смертельний вир вогню плазми. 
-        Якщо пожежа все ж виникне - переконайтесь, що в двигун подається охолодження, 
+        Виправлено математику роботи Supermatter-двигуна для коректного врахування серверного такту (tickrate).
+        Тепер значно менша ймовірність потрапляння у смертельний вир вогню плазми.
+        Якщо пожежа все ж виникне - переконайтесь, що в двигун подається охолодження,
         та активізуйте вогнегасники.
   id: 6744
   time: '2025-01-20T23:13:35.0000000+00:00'
@@ -9786,8 +9786,8 @@ Entries:
   changes:
     - type: Add
       message: >-
-        Об'єкти, кинуті в Сингулярність або Теслу, тепер впливають на їх рух. 
-        Без втручання зрадника (з Singularity Beacon) "Сінгулуз" з високою ймовірністю 
+        Об'єкти, кинуті в Сингулярність або Теслу, тепер впливають на їх рух.
+        Без втручання зрадника (з Singularity Beacon) "Сінгулуз" з високою ймовірністю
         буде викинутий у космос.
   id: 6746
   time: '2025-01-21T00:18:24.0000000+00:00'
@@ -9819,94 +9819,80 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1633
 - author: sleepyyapril
   changes:
-    - type: Tweak
-      message: >-
-        The H.O.N.K. has received an airtight cabin for honk operations in outer
-        space.
-    - type: Add
-      message: >-
-        Added the Ripley MK-II, a heavy, slow all-purpose mech, featuring a
-        pressurized cabin for space operations.
-    - type: Add
-      message: >-
-        Added the Clarke, A fast moving mech for space travel, with built in
-        thrusters (not certain if they work properly though :trollface:)
-    - type: Add
-      message: >-
-        Added the Gygax, a lightly armored and highly mobile mech with enough
-        force to rip walls, or someone's head off.
-    - type: Add
-      message: >-
-        Added the Durand, a slow but beefy combat suit that you dont want to
-        fight in close quarters.
-    - type: Add
-      message: Added the Marauder, a specialized mech issued to ERT operatives.
-    - type: Add
-      message: Added the Seraph, a specialized combat suit issued to ??? operatives.
-    - type: Add
-      message: >-
-        The syndicate has started issuing units under the codenames "Dark Gygax"
-        and "Mauler" to syndicate agents at an introductory price.
-    - type: Add
-      message: The exosuit fabricator can now be emagged to reveal new recipes.
-    - type: Add
-      message: >-
-        There are 4 new bounties cargo can fulfill for mechs. Feedback on the
-        cost/reward is welcome!
+  - type: Tweak
+    message: >-
+      H.O.N.K. отримав герметичну кабіну для операцій з гудіння у космосі.
+  - type: Add
+    message: >-
+      Додано Ripley MK-II - важкий, повільний мех загального призначення з герметичною кабіною для космічних операцій.
+  - type: Add
+    message: >-
+      Додано Clarke - швидкий мех для космічних подорожей з вбудованими двигунами (хоча є сумніви у їхній надійності :trollface:)
+  - type: Add
+    message: >-
+      Додано Gygax - легкоброньований високомобільний мех з силою, достатньою для руйнування стін або відриву голів.
+  - type: Add
+    message: >-
+      Додано Durand - повільний але міцний бойовий костюм, з яким краще не зустрічатись у ближньому бою.
+  - type: Add
+    message: Додано Marauder - спеціалізований мех для оперативників ERT.
+  - type: Add
+    message: Додано Seraph - спеціалізований бойовий костюм для оперативників ???.
+  - type: Add
+    message: >-
+      Синдикат почав постачати юніти під кодовими назвами "Dark Gygax" та "Mauler" за спеціальною ціною.
+  - type: Add
+    message: Емагнутий фабрикатор екзокостюмів тепер відкриває нові схеми.
+  - type: Add
+    message: >-
+      Вантажний відділ тепер може виконувати 4 нові завдання для мехів. Відгуки про вартість/нагороду вітаються!
   id: 6750
   time: '2025-01-23T00:16:33.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1611
 - author: sleepyyapril
   changes:
-    - type: Add
-      message: Added cosmetic pronouns. (disabled by default)
-    - type: Add
-      message: >-
-        Added Station AI name customization through character customization.
-        (disabled by default)
-    - type: Add
-      message: >-
-        Added Cyborg name customization through character customization.
-        (disabled by default)
+  - type: Add
+    message: Додано косметичні займенники (вимкнено за замовчуванням).
+  - type: Add
+    message: >-
+      Додано кастомізацію імені станційного ШІ через редактор персонажа (вимкнено за замовчуванням).
+  - type: Add
+    message: >-
+      Додано кастомізацію імен кіборгів через редактор персонажа (вимкнено за замовчуванням).
   id: 6751
   time: '2025-01-23T00:19:49.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1626
 - author: BlueHNT
   changes:
-    - type: Add
-      message: Added 2 new security loadout items
-    - type: Tweak
-      message: Tweaked BSO's ammo
-    - type: Fix
-      message: Fixed energy cutlass sprite
-    - type: Remove
-      message: Removed broken Ion component
+  - type: Add
+    message: Додано 2 нових предмети для сек'юріті лоадауту
+  - type: Tweak
+    message: Змінено амуніцію BSO
+  - type: Fix
+    message: Виправлено спрайт енергетичного катласа
+  - type: Remove
+    message: Видалено несправний іонний компонент
   id: 6752
   time: '2025-01-23T00:22:22.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1599
 - author: Mike32oz
   changes:
-    - type: Add
-      message: >-
-        Box Station, supermatter crystal, holopads, and Thermal-electric
-        generator.
-    - type: Tweak
-      message: >-
-        Box Station, Engineer, Medical, Epistemics, Cargo, Security, and Service
-        Departments.
-    - type: Remove
-      message: Box Station, Particle Accelerator Room in Engineer Departments.
+  - type: Add
+    message: >-
+      Додано Box Station, суперматеріальний кристал, голоподи та термоелектричний генератор.
+  - type: Tweak
+    message: >-
+      Оновлено Box Station: інженерний, медичний, епістемічний, вантажний, сек'юріті та сервісний відділи.
+  - type: Remove
+    message: Видалено кімнату з прискорювачем частинок у інженерному відділі Box Station.
   id: 6753
   time: '2025-01-23T01:11:05.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1615
 - author: VMSolidus
   changes:
-    - type: Add
-      message: >-
-        (For Developers): Added the MathNet.Numerics library. It contains a
-        great number of scientific and engineering math related functions. For
-        more information, its documentation can be found here,
-        https://numerics.mathdotnet.com/api/MathNet.Numerics/index.htm
+  - type: Add
+    message: >-
+      (Для розробників): Додано бібліотеку MathNet.Numerics з науковими та інженерними математичними функціями. Докладніше: https://numerics.mathdotnet.com/api/MathNet.Numerics/index.htm
   id: 6754
   time: '2025-01-23T03:45:53.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1641
