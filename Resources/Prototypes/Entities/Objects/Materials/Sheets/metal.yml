@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: SheetMetalBase
-  description: "Лист металу, який часто використовується на станції в різних сферах."
+  description: A sheet of metal, used often on the station in various applications.
   components:
   - type: Sprite
     sprite: Objects/Materials/Sheets/metal.rsi
@@ -35,7 +35,7 @@
 - type: entity
   parent: SheetMetalBase
   id: SheetSteel
-  name: "сталь"
+  name: steel
   suffix: Full
   components:
   - type: Material
@@ -152,7 +152,7 @@
 - type: entity
   parent: SheetSteel
   id: SheetSteel10
-  name: "сталь"
+  name: steel
   suffix: 10
   components:
   - type: Sprite
@@ -164,7 +164,7 @@
 - type: entity
   parent: SheetSteel
   id: SheetSteel1
-  name: "сталь"
+  name: steel
   suffix: Single
   components:
   - type: Sprite
@@ -185,8 +185,8 @@
 - type: entity
   parent: SheetMetalBase
   id: SheetBrass
-  name: "латунь"
-  description: "Лист латуні, що використовується переважно любителями годинникових механізмів та залишків ратваріанських культів."
+  name: brass
+  description: A sheet of brass, primarily used by clockwork enthusiasts and the remnants of Ratvarian cults.
   suffix: Full
   components:
   - type: Material
@@ -225,7 +225,7 @@
 - type: entity
   parent: SheetBrass
   id: SheetBrass10
-  name: "латунь"
+  name: brass
   suffix: 10
   components:
   - type: Sprite
@@ -237,7 +237,7 @@
 - type: entity
   parent: SheetBrass
   id: SheetBrass1
-  name: "латунь"
+  name: brass
   suffix: Single
   components:
   - type: Sprite
@@ -249,7 +249,7 @@
 - type: entity
   parent: SheetMetalBase
   id: SheetPlasteel
-  name: "пласталь"
+  name: plasteel
   suffix: Full
   components:
   - type: Material
@@ -301,7 +301,7 @@
 - type: entity
   parent: SheetPlasteel
   id: SheetPlasteel10
-  name: "пласталь"
+  name: plasteel
   suffix: 10
   components:
   - type: Sprite
@@ -313,7 +313,7 @@
 - type: entity
   parent: SheetPlasteel
   id: SheetPlasteel1
-  name: "пласталь"
+  name: plasteel
   suffix: Single
   components:
   - type: Sprite
