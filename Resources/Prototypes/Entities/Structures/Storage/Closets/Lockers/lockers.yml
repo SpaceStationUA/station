@@ -43,6 +43,8 @@
     stateBaseClosed: secure
     stateDoorOpen: secure_open
     stateDoorClosed: secure_door
+  - type: AccessReader
+    access: [ [ "Engineering" ], [ "Command" ], [ "Research" ], ["Salvage"] ]
   - type: DamageOtherOnHit
     damage:
       types:
