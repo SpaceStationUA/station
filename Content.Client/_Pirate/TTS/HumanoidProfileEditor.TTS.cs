@@ -8,7 +8,6 @@ namespace Content.Client.Lobby.UI;
 
 public sealed partial class HumanoidProfileEditor
 {
-    private IRobustRandom _random = default!;
     private TTSSystem _ttsSys = default!;
     private List<TTSVoicePrototype> _voiceList = default!;
     private readonly List<string> _sampleText = new()
@@ -28,7 +27,6 @@ public sealed partial class HumanoidProfileEditor
 
     private void InitializeVoice()
     {
-        _random = IoCManager.Resolve<IRobustRandom>();
         _ttsSys = _entManager.System<TTSSystem>();
         _voiceList = _prototypeManager
             .EnumeratePrototypes<TTSVoicePrototype>()
