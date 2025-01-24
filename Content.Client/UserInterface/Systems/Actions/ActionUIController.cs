@@ -626,7 +626,13 @@ public sealed class ActionUIController : UIController, IOnStateChanged<GameplayS
         {
             button.ClearData();
             if (_container?.TryGetButtonIndex(button, out position) ?? false)
+            {
                 CurrentPage[position] = null;
+                for (int i = position + 1; i < CurrentPage.Size; i++)
+                    CurrentPage[i - 1] = CurrentPage[i];
+                CurrentPage[CurrentPage.Size - 1] = null;
+            }
+            _container?.SetActionData(_actionsSystem, _pages[_currentPageIndex]);
         }
         else if (button.TryReplaceWith(actionId.Value, _actionsSystem) &&
             _container != null &&
@@ -646,7 +652,7 @@ public sealed class ActionUIController : UIController, IOnStateChanged<GameplayS
                         nextPage[i] = actionId;
                         break;
                     }
-                ChangePage(_currentPageIndex + 1); //TODO: Make this a client config?
+                //ChangePage(_currentPageIndex + 1); //TODO: Make this a client config?
             }
     }
 
