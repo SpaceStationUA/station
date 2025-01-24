@@ -35,7 +35,7 @@ public sealed class EmoteSystem : EntitySystem
         // if (_proto.TryIndex(component.ActionEntity, out InstantActionPrototype? proto))
         // {
             // component.ActionEntity = new InstantAction(proto);
-            _actions.AddAction(uid, ref component.ActionEntity, component.OpenEmotesAction);
+            // _actions.AddAction(uid, ref component.ActionEntity, component.OpenEmotesAction);
         // }
     }
 
