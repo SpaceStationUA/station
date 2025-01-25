@@ -135,6 +135,8 @@ public sealed class GameMapManager : IGameMapManager
 
     public void ClearSelectedMap()
     {
+        if (_configSelectedMap != null && _configSelectedMap.ID != "Dev")
+            _configSelectedMap = default!;
         _selectedMap = default!;
     }
 
