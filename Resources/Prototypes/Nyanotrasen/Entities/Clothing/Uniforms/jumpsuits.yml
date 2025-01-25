@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformMailCarrier
-  name: "уніформа листоноші"
-  description: "Ворог собак скрізь і всюди."
+  name: mail carrier's uniform
+  description: Enemy of dogs everywhere.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/mailman.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformSkirtMailCarrier
-  name: "комбінезон листоноші"
-  description: "Ворог собак скрізь і всюди."
+  name: mail carrier's jumpskirt
+  description: Enemy of dogs everywhere.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpskirt/mailman.rsi
@@ -27,20 +27,20 @@
 - type: entity
   parent: ClothingUniformJumpsuitResearchDirector
   id: ClothingUniformJumpsuitMystagogue
-  name: "водолазка містифікатора"
-  description: "Це водолазка, яку носять ті, хто має святу ауру, щоб досягти ролі Містагога. Ви можете практично відчути психічні енергії, які випромінює ця річ, не кажучи вже про власне випромінювання."
+  name: mystagogue's turtleneck
+  description: It's a turtleneck worn by those with the holy aura to achieve the role of Mystagogue. You can practically feel the psychic energies radiating from this thing, not to mention the actual radiation.
 
 - type: entity
   parent: ClothingUniformJumpskirtResearchDirector
   id: ClothingUniformJumpskirtMystagogue
-  name: "водолазка містифікатора"
-  description: "Це водолазка, яку носять ті, хто має святу ауру, щоб досягти ролі Містагога. Ви можете практично відчути психічні енергії, які випромінює ця річ, не кажучи вже про власне випромінювання."
+  name: mystagogue's turtleneck
+  description: It's a turtleneck worn by those with the holy aura to achieve the role of Mystagogue. You can practically feel the psychic energies radiating from this thing, not to mention the actual radiation.
 
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTshirtJeans
-  name: "біла футболка та джинси"
-  description: "Навіть у космосі ця комбінація залишається стильною."
+  name: white t-shirt and jeans
+  description: Even in space, this combo is still in style.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/tshirtjeans.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTshirtJeansGray
-  name: "сіра футболка та джинси"
-  description: "Навіть якщо в космосі немає лісів, ця комбінація все одно практична."
+  name: gray t-shirt and jeans
+  description: Even though there are no forests in space, this combo is still practical.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/tshirtjeansgray.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitTshirtJeansPeach
-  name: "персикова футболка та джинси"
-  description: "Навіть незважаючи на те, що ваш улюблений магазин емо-одягу повернувся до вас додому, ця комбінація все ще залишається гострою."
+  name: peach t-shirt and jeans
+  description: Even though your favorite emo clothing store is back at home, this combo is still edgy.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/tshirtjeanspeach.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMantis
-  name: "форма богомола"
-  description: "Створена за зразком старовинної піхотної форми, ця форма має чудову мобільність для напружених ситуацій."
+  name: mantis' uniform
+  description: Modeled after an ancient infantry uniform, this uniform has superior mobility for tense situations.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/mantis_uniform.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformSkirtMantis
-  name: "спідниця богомола"
-  description: "Адаптована зі старовинної піхотної форми, ця спідниця-комбінезон має чудову мобільність для напружених ситуацій."
+  name: mantis' jumpskirt
+  description: Adapted from an ancient infantry uniform, this jumpskirt has superior mobility for tense situations.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpskirt/mantis_jumpskirt.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPrisonGuard
-  name: "форма тюремного охоронця"
-  description: "Зручна, міцна, водонепроникна уніформа, створена для того, щоб тюремний персонал почувався комфортно та безпечно."
+  name: prison guard's uniform
+  description: A comfortable, durable, waterproof uniform made to keep prison staff comfortable and safe.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/prisonguard.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitGalaxyRed
-  name: "червоний галактичний костюм"
-  description: "Червоний позов для тих, хто веде бізнес у галактичному масштабі."
+  name: red galaxy suit
+  description: Red lawsuit for those that conduct business on a galactic scale.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/lawyergalaxyred.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitGalaxyBlue
-  name: "синій галактичний костюм"
-  description: "Блакитний позов або ті, що ведуть бізнес у галактичному масштабі."
+  name: blue galaxy suit
+  description: Blue lawsuit or those that conduct business on a galactic scale.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/lawyergalaxyblue.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSecSummer
-  name: "літня форма охорони"
-  description: "Вільний і повсякденний варіант стандартної уніформи охоронців."
+  name: summer security uniform
+  description: A loose-fitting and casual variant of the standard security uniform.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/summer_security.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitExplorer
-  name: "форма дослідника"
-  description: "Міцний комплект комбінезонів для мандрівки зоряним небом."
+  name: explorer's uniform
+  description: A rugged set of overalls for trekking across the stars.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/explorer.rsi
@@ -149,8 +149,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterExplorerCoat
-  name: "лабораторний халат дослідника"
-  description: "Схоже, він бачив неабияку частку запилених стежок."
+  name: explorer's labcoat
+  description: Looks like it's seen its fair share of dusty trails.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Coats/explorer_coat.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformTShirtKhakiPants
-  name: "сіра футболка та штани кольору хакі"
-  description: "Сірий, але функціональний одяг."
+  name: drab t-shirt and khaki pants
+  description: Some drab but functional clothing.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Uniforms/Jumpsuit/tshirt_khaki.rsi

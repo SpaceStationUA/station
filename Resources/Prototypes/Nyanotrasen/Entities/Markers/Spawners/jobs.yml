@@ -1,7 +1,7 @@
 - type: entity
   id: SpawnPointGladiator
   parent: SpawnPointJobBase
-  name: "гладіатор"
+  name: gladiator
   components:
   - type: SpawnPoint
     job_id: Gladiator
@@ -14,7 +14,7 @@
 - type: entity
   id: SpawnPointPrisoner
   parent: SpawnPointJobBase
-  name: "в'язень"
+  name: prisoner
   components:
   - type: SpawnPoint
     job_id: Prisoner
@@ -26,7 +26,7 @@
 - type: entity
   id: SpawnPointPrisonGuard
   parent: SpawnPointJobBase
-  name: "тюремний охоронець"
+  name: prison guard
   components:
   - type: SpawnPoint
     job_id: PrisonGuard
@@ -39,7 +39,7 @@
 - type: entity
   id: SpawnPointMailCarrier
   parent: SpawnPointJobBase
-  name: "кур'єр" # Delta V - Mail Carrier to Courier replacement
+  name: courier # Delta V - Mail Carrier to Courier replacement
   components:
   - type: SpawnPoint
     job_id: MailCarrier
@@ -52,7 +52,7 @@
 - type: entity
   id: SpawnPointMartialArtist
   parent: SpawnPointJobBase
-  name: "майстер бойових мистецтв"
+  name: martial artist
   components:
   - type: SpawnPoint
     job_id: MartialArtist
@@ -65,7 +65,7 @@
 - type: entity
   id: SpawnPointForensicMantis
   parent: SpawnPointJobBase
-  name: "богомол"
+  name: mantis
   components:
   - type: SpawnPoint
     job_id: ForensicMantis
