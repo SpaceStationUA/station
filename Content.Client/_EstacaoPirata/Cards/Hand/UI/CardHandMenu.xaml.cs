@@ -42,15 +42,21 @@ public sealed partial class CardHandMenu : RadialMenu
 
         foreach (var card in stack.Cards)
         {
-            if (_playerManager.LocalSession == null)
+            if (_playerManager.LocalSession == null
+                || !_entManager.TryGetComponent<CardComponent>(card, out var cardComp))
                 return;
-            if (!_entManager.TryGetComponent<CardComponent>(card, out var cardComp))
-                return;
+
+            string cardName;
+            if (cardComp.Flipped && _entManager.TryGetComponent<MetaDataComponent>(card, out var metadata))
+                cardName = metadata.EntityName;
+            else
+                cardName = Loc.GetString(cardComp.Name);
+
             var button = new CardMenuButton()
             {
                 StyleClasses = { "RadialMenuButton" },
                 SetSize = new Vector2(64f, 64f),
-                ToolTip = Loc.GetString(cardComp.Name),
+                ToolTip = cardName,
             };
 
             if (_entManager.TryGetComponent<SpriteComponent>(card, out var sprite))

@@ -689,6 +689,8 @@
     - TorsoBorgService
     - MechAirTank # Goobstation
     - MechThruster # Goobstation
+    - PowerCageMedium # Goobstation - Powercell to exosuit fab
+    - PowerCageSmall # Goobstation - Powercell to exosuit fab
     dynamicRecipes:
     - ProximitySensor
     - BorgModuleLightReplacer
@@ -764,6 +766,14 @@
     - MechEquipmentKineticAccelerator
     - MechEquipmentHonkerBananaMortar
     - MechEquipmentHonkerMousetrapMortar
+    # Goobstation - Modsuits
+    - ModsuitChestplate
+    - ModsuitBoots
+    - ModsuitHelmet
+    - ModsuitGauntlets
+    - ModsuitShell
+    - ModsuitPlatingExternal
+    - PowerCageHigh # Goobstation - Powercell to exosuit fab
   - type: EmagLatheRecipes
     emagDynamicRecipes:
     - WeaponMechCombatImmolationGun
@@ -1192,6 +1202,7 @@
     - ChemicalPayload # Nyano
     - SyringeCryostasis
     - ClothingEyesNightVisionMedicalGoggles
+    - EnvirosuitExtinguisherRefill
     # Shitmed Change
     - EnergyScalpel
     - EnergyCautery

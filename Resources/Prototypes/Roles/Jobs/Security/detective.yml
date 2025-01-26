@@ -22,11 +22,19 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  afterLoadoutSpecial:
+  - !type:ModifyEnvirosuitSpecial
+    charges: 6
+  - !type:ModifyEnvirohelmSpecial
+    powerCell: PowerCellHigh
   - !type:AddTraitSpecial
     traits: [ PlateletFactories, BionicArm ]
 
 - type: startingGear
   id: DetectiveGear
+  subGear:
+  - DetectivePlasmamanGear
+
   equipment:
     jumpsuit: ClothingUniformJumpsuitDetective
     back: ClothingBackpackSecurity
@@ -40,3 +48,11 @@
   innerClothingSkirt: ClothingUniformJumpskirtDetective
   satchel: ClothingBackpackSatchelSecurity
   duffelbag: ClothingBackpackDuffelSecurity
+
+- type: startingGear
+  id: DetectivePlasmamanGear
+  parent: BasePlasmamanSecurityGear
+  equipment:
+    jumpsuit: ClothingUniformEnvirosuitDetective
+    head: ClothingHeadEnvirohelmDetective
+    gloves: ClothingHandsGlovesEnviroglovesWhite

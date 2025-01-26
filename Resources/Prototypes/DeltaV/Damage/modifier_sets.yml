@@ -12,6 +12,16 @@
     Piercing: 1.15
 
 - type: damageModifierSet
+  id: Chitinid
+  coefficients:
+    Blunt: 1.15
+    Piercing: 1.25
+    Slash: 0.9
+    Cold: 1.1
+    Radiation: 0.2
+
+#Pirate
+- type: damageModifierSet
   id: Rodentia
   coefficients:
     Blunt: 1.3

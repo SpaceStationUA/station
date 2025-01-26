@@ -4,14 +4,14 @@
   id: Stunbaton
   description: A stun baton for incapacitating people with. Actively harming with this is considered bad tone.
   components:
-  - type: Tag # goob edit
-    tags:
-    - Stunbaton
   - type: Sprite
     sprite: Objects/Weapons/Melee/stunbaton.rsi
     layers:
     - state: stunbaton_off
       map: [ "enum.ToggleVisuals.Layer" ]
+  - type: Tag
+    tags:
+    - Stunbaton
   - type: Stunbaton
     energyPerUse: 50
   - type: ItemToggle

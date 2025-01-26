@@ -192,5 +192,6 @@ public enum SpeciesNaming : byte
     //End of Nyano - Summary: for Oni naming
     TheFirstofLast,
     FirstDashLast,
-    LastFirst, //PIRATE DeltaV
+    LastFirst, //PIRATE DeltaV Rodentia
+    FirstRoman,
 }

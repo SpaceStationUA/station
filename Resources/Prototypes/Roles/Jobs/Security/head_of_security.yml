@@ -14,7 +14,7 @@
       department: Command
       min: 36000 # 10 hours
     - !type:CharacterOverallTimeRequirement
-      min: 72000 #Pirate - 20 hours
+      min: 90000 # DeltaV - 25 hours
     - !type:CharacterWhitelistRequirement
   weight: 10
   startingGear: HoSGear
@@ -40,11 +40,19 @@
   - !type:AddComponentSpecial
     components:
       - type: CommandStaff
+  afterLoadoutSpecial:
+  - !type:ModifyEnvirosuitSpecial
+    charges: 8
+  - !type:ModifyEnvirohelmSpecial
+    powerCell: PowerCellHigh
   - !type:AddTraitSpecial
     traits: [ PlateletFactories, BionicArm ]
 
+
 - type: startingGear
   id: HoSGear
+  subGear:
+  - HoSPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitHoS
     back: ClothingBackpackHOSFilled
@@ -57,3 +65,11 @@
   innerClothingSkirt: ClothingUniformJumpskirtHoS
   satchel: ClothingBackpackSatchelHOSFilled
   duffelbag: ClothingBackpackDuffelHOSFilled
+
+- type: startingGear
+  id: HoSPlasmamanGear
+  parent: BasePlasmamanSecurityGear
+  equipment:
+    jumpsuit: ClothingUniformEnvirosuitHoS
+    head: ClothingHeadEnvirohelmHoS
+    gloves: ClothingHandsGlovesEnviroglovesBlack
