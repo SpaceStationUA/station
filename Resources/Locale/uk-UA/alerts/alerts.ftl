@@ -117,3 +117,7 @@ alerts-deflecting-desc = У вас є шанс відхилити снаряди
 alerts-mana-name = Рівень мани
 alerts-mana-desc = Скільки мани ви можете витратити на свої здібності.
 mana-alert = [font size=12][color=purple]Мана: {$mana}/{$manaMax}[/color][/font]
+alerts-low-plasma-name = [color=red]Низька плазма[/color]
+alerts-low-plasma-desc = У повітрі, яким ви дихаєте, [color=red]недостатньо плазми[/color]. Вдягніть [color=green]внутрішні засоби[/color].
+alerts-high-oxygen-name = [color=red]Високий вміст кисню[/color]
+alerts-high-oxygen-desc = У повітрі, яким ви дихаєте, [color=red]забагато кисню[/color]. Одягніть [color=green]внутрішні засоби[/color].

@@ -44,3 +44,5 @@ loadout-name-LoadoutUniformJumpsuitSailor = костюм моряка (коль�
 loadout-name-LoadoutUniformJumpsuitTrackpants = спортивні штани (кольорові)
 loadout-name-LoadoutUniformJumpsuitTurtleneckGrey = сіра водолазка (кольорова)
 loadout-name-LoadoutUniformJumpsuitYogaGymBra = бюстгальтер для йоги (кольоровий)
+loadout-name-LoadoutUniformEnvirosuitBlackPinkAlt = чорно-рожевий екокостюм, альтернативний
+loadout-name-LoadoutUniformEnvirosuitEnviroslacksMNKAlt = MNK enviroslacks, альтернатива

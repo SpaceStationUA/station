@@ -27,3 +27,4 @@ injector-component-drawing-user = Починаєш малювати голку.
 injector-component-injecting-user = Ви почали вводити голку.
 injector-component-drawing-target = {CAPITALIZE(THE($user))} намагається використати голку, щоб взяти рідину з вас!
 injector-component-injecting-target = {CAPITALIZE($user)} намагається встромити в вас голку!
+injector-component-deny-chitinid = Екзоскелет {CAPITALIZE(THE($target))} занадто товстий, щоб голка могла його пробити.

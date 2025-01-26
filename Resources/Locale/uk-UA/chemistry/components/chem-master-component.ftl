@@ -38,3 +38,8 @@ chem-master-window-sort-method-Amount-text = Кількість
 chem-master-window-transferring-label = Передаю: [color={$color}]{$quantity}[/color]
 chem-master-window-transferring-default-label = Передаю: [color=#ffa500]50[/color]
 chem-master-window-reagent-move-button = Відійди
+chem-master-window-pill-buffer-tab = Буфер таблеток
+chem-master-window-pill-buffer-text = Буфер таблеток
+chem-master-window-pill-buffer-label = буфер таблеток:
+chem-master-window-pill-buffer-empty-text = Буфер таблеток порожній.
+chem-master-window-pill-buffer-low-text = Недостатньо розчину в буфері для таблеток

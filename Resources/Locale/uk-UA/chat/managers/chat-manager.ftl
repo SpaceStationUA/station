@@ -169,3 +169,6 @@ chat-manager-send-cult-chat-wrap-message = [bold]\[{ $channelName }\] [BubbleHea
 chat-manager-cult-channel-name = Культ Крові
 
 chat-manager-language-prefix = ({ $language }){" "}
+
+chat-speech-verb-skeleton-4 = клацання
+chat-speech-verb-skeleton-5 = тріщини

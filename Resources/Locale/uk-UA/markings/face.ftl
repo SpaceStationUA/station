@@ -90,3 +90,6 @@ marking-FaceNeckSlimThick-neck_thick_f = Чохол для шиї (тонкий 
 
 marking-FaceNeckWideThick = Чохол для шиї (широкий товстий)
 marking-FaceNeckWideThick-neck_thick_m = Чохол для шиї (широкий товстий)
+
+marking-IronJaw = Залізна щелепа
+marking-IronJaw-iron_jaw = Залізна щелепа

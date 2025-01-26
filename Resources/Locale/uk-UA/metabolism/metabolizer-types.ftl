@@ -13,3 +13,4 @@ metabolizer-type-vampiric = Вампірський
 metabolizer-type-liquorlifeline = Алкогольна підтримка життя
 
 metabolizer-type-shadowkin = Тіньовик
+metabolizer-type-plasmaman = Плазмамен

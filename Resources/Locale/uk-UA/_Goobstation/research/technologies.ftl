@@ -6,3 +6,5 @@ research-technology-gygax = Гігакс
 research-technology-durand = Дюран
 research-technology-explosive-mech-ammunition = Вибухові боєприпаси для мехів
 research-technology-honk-weapons = Бананова зброя
+
+research-technology-modsuits = Модульні технології

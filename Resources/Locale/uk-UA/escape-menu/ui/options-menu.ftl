@@ -297,3 +297,5 @@ ui-options-chatstack-triple = Останні три повідомлення
 ui-options-function-mapping-enable-pick = Виберіть об'єкт/плитку
 ui-options-function-mapping-enable-decal-pick = Виберіть наклейку
 ui-options-function-mapping-enable-delete = Видалити об'єкт
+ui-options-general-other = Інше
+ui-options-modern-progress-bar = Сучасний індикатор виконання

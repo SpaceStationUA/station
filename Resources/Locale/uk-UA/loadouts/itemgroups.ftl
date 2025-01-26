@@ -763,3 +763,4 @@ character-item-group-LoadoutMagistrateUniforms = Уніформа судді
 character-item-group-LoadoutNanorepBackpacks = Представницькі рюкзаки Nanotrasen
 character-tiem-group-LoadoutNanorepUniforms = Представницька уніформа Нанотрасен
 character-item-group-LoadoutHeadOfSecurityTrinkets = Керівник відділу безпеки дрібничок
+character-item-group-LoadoutCards = Гральні карти

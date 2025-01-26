@@ -8,5 +8,5 @@ marking-HumanHairClassicMedFade = Вицвітання (середнє, клас
 marking-HumanHairClassicOmbre = Омбре класичне
 marking-HumanHairClassicCrewcut = Класична стрижка під каре
 marking-HumanHairClassicLong = Довгий 1 (класичний)
-marking-HumanHairClassicLong2 = Довгий 2 (класичний)
-marking-HumanHairClassicLong3 = Довгий 3 (класичний)
+marking-HumanHairClassicLong2 = Класичне довге волосся 2
+marking-HumanHairClassicLong3 = Класичне довге волосся 3

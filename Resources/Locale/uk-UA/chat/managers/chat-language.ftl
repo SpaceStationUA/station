@@ -33,3 +33,5 @@ chat-language-Penguin-name = Пінгвін
 chat-language-Pig-name = Свиня
 chat-language-Sheep-name = Вівці
 chat-language-Xeno-name = Ксено
+chat-language-Calcic-name = Кальцієвий
+chat-language-Chittin-name = Хітинова

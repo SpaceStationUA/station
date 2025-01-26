@@ -193,3 +193,8 @@ marking-HumanHairWisp = Клаптик
 marking-HumanHairUneven = Нерівномірно
 
 marking-HumanHairSpookyLong = Моторошний Довгий
+marking-HumanHairClassicLong2 = Класичне довге волосся 2
+marking-HumanHairClassicLong3 = Класичне довге волосся 3
+marking-HumanHairLongBow = Довгий лук
+marking-HumanHairPulato = Пулато
+marking-HumanHairShaped = У формі

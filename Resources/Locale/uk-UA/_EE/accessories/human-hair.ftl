@@ -1,0 +1,13 @@
+marking-HumanHairArabicGathered = Арабська збірка
+marking-HumanHairClassicHair = Класична зачіска
+marking-HumanHairSideComb = Бічний гребінець
+marking-HumanHairLong4 = Довга четвірка
+marking-HumanHairManbun2 = Булочка (Manbun 2)
+marking-HumanHairPigtailTajaran = Таджаранські косички
+marking-HumanHairShavedSide = Голений бік
+marking-HumanHairShorthair8 = Коротке волосся 8
+marking-HumanFembun = Фембун
+marking-HumanHairAfricanPigtails = Африканські косички
+marking-HumanHairAfropuffDouble = Afropuff (подвійний)
+marking-HumanHairAfropuffLeft = Afropuff (ліворуч)
+marking-HumanHairAfropuffRight = Afropuff (праворуч)

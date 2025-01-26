@@ -10,3 +10,4 @@ species-name-goblin = Гоблін
 species-name-ipc = ІПШ
 
 species-name-rodentia = Роденція
+species-name-chitinid = Хітинід
