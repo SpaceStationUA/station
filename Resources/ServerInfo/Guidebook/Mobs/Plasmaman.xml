@@ -1,72 +1,73 @@
 <Document>
-  # Plasmamen
+  # Плазмани
 
   <Box>
     <GuideEntityEmbed Entity="MobPlasmaman" Caption=""/>
   </Box>
 
-  They breathe plasma, and oxygen is highly toxic to them when inhaled.
-  Being exposed to oxygen sets them on fire.
+  Вони дихають плазмою, а кисень для них вкрай отруйний при вдиху.
+  Контакт із киснем підпалює їх.
 
-  To prevent ignition, they wear sealed suits made up of an envirosuit (in the jumpsuit slot) and a [bold]spaceworthy[/bold] envirosuit helmet.
-  Other suits like EVA suits, vacsuits, tacsuits and hardsuits will also seal them from oxygen exposure.
+  Щоб уникнути займання, вони носять герметичні костюми: енвірокостюм (у слоті комбінезона) та [bold]космічний[/bold] шолом енвірокостюма.
+  Інші костюми (EVA-костюми, ваккостюми, таккостюми, хардкостюми) також захистять їх від кисню.
 
-  They don't experience hunger nor thirst.
-  They don't have blood and cannot bleed out.
+  Вони не відчувають голоду чи спраги.
+  У них немає крові, тому вони не можуть померти від крововтрати.
 
-  Due to their skeleton body, they can consume Milk to gain a positive moodlet and slowly heal Brute, Heat, Shock, and Caustic damage.
-  They can also consume Plasma to gain a bigger positive moodlet and heal every damage type faster, except for Cellular damage.
+  Через скелетну структуру тіла вони можуть споживати молоко для позитивного мудлета та повільного відновлення від тупих, теплових, електричних та кислотних ушкоджень.
+  Споживання плазми дає сильніший мудлет і прискорює лікування всіх типів ушкоджень, окрім клітинних.
 
   <Box>
     <GuideEntityEmbed Entity="DrinkCartonMilk" />
     <GuideEntityEmbed Entity="SheetPlasma1" />
   </Box>
 
-  They infuse their fists with plasma dust that combusts when they punch, dealing [color=orange]5 Heat[/color] and [color=red]2.25 Blunt[/color] damage. However, each successful punch deals [color=orange]1 Heat[/color] damage to their hands.
+  Їхні кулаки просочені плазмовим пилом, який вибухає при ударі, завдаючи [color=orange]5 теплової[/color] та [color=red]2.25 тупої[/color] шкоди.
+  Однак кожен удар завдає [color=orange]1 теплової[/color] шкоди їхнім рукам.
 
-  Plasmamen with the traits [bold]Claws[/bold], [bold]Talons[/bold] or [bold]Natural Weapons Removal[/bold] have less unarmed damage but don't take self-damage from unarmed attacks.
+  Плазмани з рисами [bold]Кігті[/bold], [bold]Пазурі[/bold] або [bold]Відсутність природної зброї[/bold] завдають менше шкоди, але не отримують самопошкоджень.
 
-  They take [color=#1e90ff]25% less Piercing, 20% less Poison, and 15% less Slash damage[/color],
-  and are [color=#8658fc]immune to Radiation and Cold damage[/color],
-  but take [color=#ffa500]50% more Blunt and 50% more Heat damage[/color].
+  Вони отримують:
+  [color=#1e90ff]на 25% менше колотої, 20% менше отруйної, 15% менше різаної шкоди[/color],
+  [color=#8658fc]імунітет до радіації та холоду[/color],
+  але [color=#ffa500]на 50% більше тупої та теплової шкоди[/color].
 
-  Due to their [color=#8658fc]Cold immunity[/color], they can live in cold environments such as Glacier Station without the need of a winter coat.
+  Завдяки [color=#8658fc]імунітету до холоду[/color], вони можуть жити в холодних зонах (наприклад, Glacier Station) без теплого одягу.
 
-  ## Equipment
+  ## Екіпірування
   <Box>
-    <GuideEntityEmbed Entity="ClothingUniformEnvirosuit" Caption="envirosuit"/>
-    <GuideEntityEmbed Entity="ClothingHeadEnvirohelm" Caption="envirosuit helmet"/>
+    <GuideEntityEmbed Entity="ClothingUniformEnvirosuit" Caption="енвірокостюм"/>
+    <GuideEntityEmbed Entity="ClothingHeadEnvirohelm" Caption="шолом енвірокостюма"/>
     <GuideEntityEmbed Entity="DoubleEmergencyPlasmaTankFilled" />
   </Box>
 
-  All Plasmamen start with an envirosuit, an envirosuit helmet, and a plasma internals tank.
+  Усі плазмани починають гру з енвірокостюмом, шоломом та балоном плазми для дихання.
 
-  Their envirosuits contain a [color=#1e90ff]self-extinguisher[/color] with limited charges, which they can activate when they are on fire
-  and wearing their envirosuit helmet. The self-extinguisher needs to recharge between uses.
+  Їхні енвірокостюми мають [color=#1e90ff]самогасник[/color] з обмеженою кількістю зарядів. Його можна активувати під час займання, якщо наявний шолом.
+  Самогасник потребує перезарядки між використаннями.
 
   <Box HorizontalAlignment="Stretch">
-    Cartridge refills of the envirosuit's self-extinguisher can be bought in [bold]Loadouts[/bold], or printed at the medical techfab after research.
-    A refill makes a recharging self-extinguisher immediately usable again.
     <GuideEntityEmbed Entity="EnvirosuitExtinguisherRefill" />
   </Box>
+  Картриджі для перезаправки самогасника можна придбати у [bold]Loadouts[/bold] або надрукувати в медичному техфабрі після дослідження.
+  Перезаправка негайно відновлює використання самогасника.
 
-  Their envirosuit helmets are [bold]spaceworthy[/bold] and provide welding protection. The helmet's visor can be lit up like a flashlight, using the inserted power cell as a battery.
-  They cannot eat nor drink without taking off their envirosuit helmet.
+  Їхні шоломи [bold]герметичні[/bold], захищають від зварювання та мають підсвітку (використовує енергію батареї шолома).
+  Без зняття шолома вони не можуть їсти чи пити.
 
-  The plasma internals tank lasts roughly an hour before needing to be replaced or refilled.
+  Балон плазми вистачає приблизно на годину.
 
-  ## Medical Treatment
+  ## Медична допомога
   <Box>
     <GuideEntityEmbed Entity="StasisBed" />
   </Box>
 
-  Before performing surgery on a Plasmaman, their envirosuit needs to be unequipped first, which is disastrous in an oxygenated environment.
+  Перед операцією плазмана необхідно зняти енвірокостюм, що смертельно небезпечно в середовищі з киснем.
 
-  To get around this, the Plasmaman can be buckled to a [bold]stasis bed[/bold] before removing their envirosuit
-  to prevent them from self-igniting throughout the surgical procedure.
+  Щоб уникнути цього, плазмана можна пристебнути до [bold]стазисного ліжка[/bold] перед зняттям костюма — це запобігає самозапаленню під час операції.
 
   <Box HorizontalAlignment="Stretch">
-    Their envirosuit helmets prevents them from eating pills, but their envirosuits allow chemicals to be injected through them.
+    Через шолом неможливо приймати пігулки, але енвірокостюм дозволяє робити ін'єкції.
     <GuideEntityEmbed Entity="Syringe" Caption=""/>
   </Box>
 
