@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieRed
-  name: "червона краватка"
-  description: "Червона краватка на застібці з неошовку."
+  name: red-tie
+  description: A neosilk clip-on red tie.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/redtie.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieDet
-  name: "краватка детектива"
-  description: "Вільно зав'язана краватка - ідеальний аксесуар для перевантаженого роботою детектива."
+  name: detective's tie
+  description: A loosely tied necktie, a perfect accessory for the over-worked detective.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/dettie.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieSci
-  name: "краватка вченого"
-  description: "Чому ми всі повинні носити ці безглузді краватки?"
+  name: scientist's tie
+  description: Why do we all have to wear these ridiculous ties?
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/scitie.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieColor
-  name: "краватка"
-  description: "Краватка на застібці з неошовку."
+  name: tie
+  description: A neosilk clip-on tie.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/color.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieShort
-  name: "коротка краватка"
-  description: "Коротка краватка, ідеальна для жилетів."
+  name: short tie
+  description: A short tie, perfect for vests.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/shorttie.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieBow
-  name: "шийний уклін"
-  description: "Бант для прикраси шиї."
+  name: neck bow
+  description: A bow for adorning the neck.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/bow.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieBowTie
-  name: "краватка-метелик"
-  description: "Метелик. Шикарно!"
+  name: bow tie
+  description: A bow tie. Snazzy!
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/bowtie.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckTieRibbon
-  name: "шийна стрічка"
-  description: "Стрічка для прикраси шиї."
+  name: neck ribbon
+  description: A ribbon for adorning the neck.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Ties/ribbon.rsi
