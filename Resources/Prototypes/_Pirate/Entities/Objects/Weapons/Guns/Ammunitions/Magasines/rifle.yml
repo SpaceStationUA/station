@@ -1,6 +1,6 @@
 - type: entity
   id: MagazineRifleParticle
-  name: "magazine (.20 particle)"
+  name: "журнал (.20 частка)"
   parent: BaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -14,7 +14,7 @@
 
 - type: entity
   id: MagazineRifleParticlePlasma
-  name: "magazine (.20 plasma)"
+  name: "магазин (.20 плазма)"
   parent: BaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -28,7 +28,7 @@
 
 - type: entity
   id: MagazineRifleParticleTritium
-  name: "magazine (.20 tritium)"
+  name: "магазин (.20 тритій)"
   parent: BaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -42,7 +42,7 @@
 
 - type: entity
   id: MagazineRifleParticleFrezon
-  name: "magazine (.20 frezon)"
+  name: "магазин (.20 frezon)"
   parent: BaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
