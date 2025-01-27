@@ -4,17 +4,35 @@
   isVisibleLanguage: true
   speech:
     color: "#be3cc5"
-    empathySpeech: true
+    fontId: Lymphatic
+    empathySpeech: false
     speechVerbOverrides:
     - chat-speech-verb-marish
   obfuscation:
     !type:SyllableObfuscation
-    minSyllables: 1 # Replacements are really short
-    maxSyllables: 2
+    minSyllables: 2
+    maxSyllables: 5
     replacement:
-    - mar
-    - mwrrr
-    - maaAr
-    - aarrr
-    - wrurrl
-    - mmar
+    - марр
+    - мверр
+    - маяр
+    - аурр
+    - вирл
+    - ммир
+    - мвер
+    - млер
+    - млевар
+    - мваарр
+    - мааАр
+    - лмвар
+    - влуррл
+    - влмвар
+    - аррмав
+    - мвАлвар
+    - врлурлл
+    - вларрул
+    - вламюр
+    - АлвуРм
+    - мрррАв
+    - вурлмур
+    - ууРлмрр
