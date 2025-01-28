@@ -15,3 +15,5 @@ changelog-tab-title-Admin = Адмін
 changelog-tab-title-DeltaV = Дельта-Ві
 changelog-tab-title-Pirate = Наші зміни
 
+
+changelog-version-unknown = Невідома версія
