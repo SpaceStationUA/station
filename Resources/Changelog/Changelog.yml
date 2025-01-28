@@ -10051,77 +10051,67 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1663
 - author: ShirouAjisai
   changes:
-    - type: Tweak
-      message: Mantis can no longer be a pacifist
+  - type: Tweak
+    message: Мантис більше не може бути пацифістом
   id: 6771
   time: '2025-01-27T04:36:31.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1669
 - author: ShirouAjisai
   changes:
-    - type: Add
-      message: Blueshield Officer now has CPR as a roundstart trait.
+  - type: Add
+    message: Офіцер Блюшілд тепер має CPR як рису на початку раунду
   id: 6772
   time: '2025-01-27T05:41:33.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1672
 - author: sleepyyapril
   changes:
-    - type: Fix
-      message: Other species can pick Cataloguer, Psionic Mantis, and Mystagogue again.
+  - type: Fix
+    message: Інші види знову можуть обирати Каталогізатора, Псіонічного Мантиса та Містагога
   id: 6773
   time: '2025-01-27T05:41:56.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1673
 - author: ShirouAjisai
   changes:
-    - type: Tweak
-      message: >-
-        Security Department can no longer have pacifist, muted, blind, brittle
-        bone disease, or foreigner traits.
-    - type: Tweak
-      message: >-
-        Head of Security can no longer have pacifist, muted, blind, brittle bone
-        disease, or foreigner traits.
-    - type: Tweak
-      message: Heads of staff can no longer have foreigner traits.
-    - type: Tweak
-      message: The Captain can no longer have pacifist or foreigner traits.
-    - type: Tweak
-      message: The Head of Personnel can no longer have foreigner traits.
-    - type: Tweak
-      message: The Administrative Assistant can no longer have foreigner traits.
+  - type: Tweak
+    message: Відділ безпеки більше не може мати рис пацифізму, німоти, сліпоти, хвороби крихких кісток чи іноземця
+  - type: Tweak
+    message: Голова безпеки більше не може мати рис пацифізму, німоти, сліпоти, хвороби крихких кісток чи іноземця
+  - type: Tweak
+    message: Керівники персоналу більше не можуть мати риси іноземця
+  - type: Tweak
+    message: Капітан більше не може мати рис пацифізму чи іноземця
+  - type: Tweak
+    message: Глава персоналу більше не може мати риси іноземця
+  - type: Tweak
+    message: Адміністративний помічник більше не може мати риси іноземця
   id: 6774
   time: '2025-01-27T17:45:36.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1670
 - author: Skubman
   changes:
-    - type: Tweak
-      message: >-
-        All plasma tanks of all kinds now have the correct output pressure for
-        use as Plasmamen internals.
-    - type: Tweak
-      message: >-
-        Plasmamen can no longer select the Temperature Tolerance trait which has
-        no effect since they are already immune to Cold damage.
-    - type: Fix
-      message: Reduced the price of mechs on the uplink.
-    - type: Fix
-      message: Thief game rule now properly selects more than one thief.
-    - type: Remove
-      message: Remove the Raise Glimmer To 500 traitor objective.
+  - type: Tweak
+    message: Усі плазмові балони тепер мають правильний вихідний тиск для використання Plasmamen у системах життєзабезпечення
+  - type: Tweak
+    message: Plasmamen більше не можуть обирати рису Термостійкості, яка не має ефекту через їхню несприйнятливість до холоду
+  - type: Fix
+    message: Змінено ціну мехів у аплінку
+  - type: Fix
+    message: Правило гри "Злодій" тепер коректно обирає більше одного злодія
+  - type: Remove
+    message: Вилучено ціль зрадника "Підняти Glimmer до 500"
   id: 6775
   time: '2025-01-27T19:34:53.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1676
 - author: Skubman
   changes:
-    - type: Add
-      message: >-
-        Ghost Bar! When you die, you can now go to the Ghost Bar to chill and
-        talk about the round with other ghosts. (by Aidenkrz)
-    - type: Add
-      message: Foam Force rifle to cargo lottery! (by IProduceWidgets)
-    - type: Add
-      message: 'Re-enabled the Kill objective for traitors. '
-    - type: Tweak
-      message: Reduced the chances of traitors getting the "Teach a Lesson" objective.
+  - type: Add
+    message: Привид-бар! Коли ви гините, тепер можете відвідувати бар привидів, щоб поспілкуватися з іншими привидами про раунд
+  - type: Add
+    message: Гвинтівка Foam Force додана до лотереї вантажного відділу!
+  - type: Add
+    message: Повторно активовано ціль "Вбити" для зрадників
+  - type: Tweak
+    message: Зменшено ймовірність отримання зрадниками цілі "Навчити уроку"
   id: 6776
   time: '2025-01-28T00:39:57.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1675
