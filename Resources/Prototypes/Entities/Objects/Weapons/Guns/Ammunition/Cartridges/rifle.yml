@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeRifle
-  name: cartridge (.20 rifle)
+  name: "патрон (гвинтівка .20)"
   parent: BaseCartridge
   abstract: true
   components:
@@ -20,7 +20,7 @@
 
 - type: entity
   id: CartridgeRifle
-  name: cartridge (.20 rifle)
+  name: "патрон (гвинтівка .20)"
   parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -28,7 +28,7 @@
 
 - type: entity
   id: CartridgeRiflePractice
-  name: cartridge (.20 rifle practice)
+  name: "патрон (гвинтівка калібру .20)"
   parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -44,7 +44,7 @@
 
 - type: entity
   id: CartridgeRifleRubber
-  name: cartridge (.20 rifle rubber)
+  name: "патрон (.20 гвинтівочна гума)"
   parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -59,7 +59,7 @@
 
 - type: entity
   id: CartridgeRifleIncendiary
-  name: cartridge (.20 rifle incendiary)
+  name: "патрон (гвинтівковий запалювальний калібру .20)"
   parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -74,7 +74,7 @@
 
 - type: entity
   id: CartridgeRifleUranium
-  name: cartridge (.20 rifle uranium)
+  name: "патрон (.20 гвинтівочний уран)"
   parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
