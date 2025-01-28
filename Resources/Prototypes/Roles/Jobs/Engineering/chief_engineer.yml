@@ -4,6 +4,11 @@
   description: job-description-ce
   playTimeTracker: JobChiefEngineer
   requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
     - !type:CharacterPlaytimeRequirement
       tracker: JobAtmosphericTechnician
       min: 36000 # DeltaV - 10 hours

@@ -4,6 +4,15 @@
   description: job-description-hos
   playTimeTracker: JobHeadOfSecurity
   requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Muted
+        - Blindness
+        - Pacifist
+        - BrittleBoneDisease
     - !type:CharacterPlaytimeRequirement
       tracker: JobWarden
       min: 14400 #DeltaV 4 hrs

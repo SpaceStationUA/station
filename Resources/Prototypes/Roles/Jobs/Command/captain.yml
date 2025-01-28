@@ -4,6 +4,12 @@
   description: job-description-captain
   playTimeTracker: JobCaptain
   requirements:
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
+        - Pacifist
     - !type:CharacterDepartmentTimeRequirement
       department: Logistics # DeltaV - Logistics Department replacing Cargo
       min: 18000 # DeltaV - 5 hours
