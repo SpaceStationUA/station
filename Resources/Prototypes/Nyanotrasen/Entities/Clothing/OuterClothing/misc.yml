@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatLettermanBlue
-  name: "синя куртка букмекера"
-  description: "Це синя шкільна куртка з великою цифрою \"14\", вишитою на спині."
+  name: blue letterman jacket
+  description: It's a blue highschool jacket with a big '14' stitched onto the back.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/letterman_jacket_blue.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatLettermanRed
-  name: "червона куртка Леттермана"
-  description: "Це червона шкільна куртка з великою цифрою \"14\", вишитою на спині."
+  name: red letterman jacket
+  description: It's a red highschool jacket with a big '14' stitched onto the back.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/letterman_jacket_red.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatMNKWhiteHoodie
-  name: "Біле худі MNK з капюшоном"
-  description: "Класичне біле худі виробництва MNK."
+  name: MNK white hoodie
+  description: A classic MNK produced white hoodie.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/hoodie_white.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatMNKBlackTopCoat
-  name: "Верхнє покриття MNK чорного кольору"
-  description: "Міцне чорне верхнє покриття MNK."
+  name: MNK black top coat
+  description: A sturdy MNK black top coat.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/black_top_coat.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatMNKBlackJacket
-  name: "Чорна куртка MNK"
-  description: "Легка чорна куртка MNK."
+  name: MNK black jacket
+  description: A light MNK black jacket.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/Misc/black_jacket.rsi
@@ -65,9 +65,9 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterWizardFake
-  name: "мантії чарівників"
+  name: wizard robes
   suffix: fake
-  description: "Комплект синіх халатів."
+  description: A set of blue robes.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/wizard.rsi

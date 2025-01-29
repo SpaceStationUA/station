@@ -1,9 +1,9 @@
 #shuttle walls
 - type: entity
   id: WallAbductorDiagonal
-  name: "зубчаста діагональна стінка абдуктора"
+  name: shuttle wall
   suffix: Diagonal
-  description: "Таємнича стіна невідомого походження"
+  description: Keeps the air in and the greytide out.
   placement:
     mode: SnapgridCenter
     snap:
@@ -59,7 +59,7 @@
 - type: entity
   parent: BaseWall
   id: WallAbductor
-  name: "зубчаста діагональна стінка абдуктора"
+  name: shuttle wall
   suffix: Reinforced, Exterior
   components:
   - type: Damageable
