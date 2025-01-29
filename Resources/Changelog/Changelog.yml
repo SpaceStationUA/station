@@ -10115,3 +10115,40 @@ Entries:
   id: 6776
   time: '2025-01-28T00:39:57.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1675
+- author: Skubman
+  changes:
+    - type: Tweak
+      message: Тепер можна клонувати живих людей.
+    - type: Tweak
+      message: Плазмамени більше не займаються під час клонування у капсулі.
+  id: 6777
+  time: '2025-01-28T18:16:31.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1679
+- author: ShirouAjisai
+  changes:
+    - type: Add
+      message: Додано (змінний) зимовий плащ Blueshield.
+    - type: Add
+      message: Додано броню морпіхів Blueshield.
+    - type: Add
+      message: Додано бронежилет Blueshield.
+    - type: Add
+      message: Додано кімоно Blueshield.
+    - type: Add
+      message: Додано скафандр Blueshield.
+    - type: Tweak
+      message: Виправлено варіанти екіпіровки Blueshield.
+  id: 6778
+  time: '2025-01-29T08:09:14.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1682
+- author: Skubman
+  changes:
+    - type: Fix
+      message: >-
+        Плазмамени більше не будуть майже постійно сповільнені після зміни їхньої температури.
+    - type: Tweak
+      message: >-
+        Трохи знижено поріг температури, при якому плазмамени починають отримувати теплові пошкодження.
+  id: 6779
+  time: '2025-01-29T08:22:41.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1681
