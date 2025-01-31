@@ -10154,62 +10154,50 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1681
 - author: CaasGit
   changes:
-    - type: Add
-      message: Solar panels can now be upgraded with plasma or uranium glass.
+  - type: Add
+    message: "Сонячні панелі тепер можна модернізувати за допомогою плазми або уранового скла."
   id: 6780
   time: '2025-01-30T15:14:17.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1677
 - author: VMSolidus
   changes:
-    - type: Tweak
-      message: >-
-        Psionic traits are now mutually exclusive with cybernetic traits, and
-        vice versa.
-    - type: Fix
-      message: >-
-        Thermographic Vision now correctly measures its pulse duration in
-        seconds instead of nanoseconds. It provides a 2 second scan.
+  - type: Tweak
+    message: "Псіонічні риси тепер є взаємовиключними з кібернетичними рисами, і навпаки."
+  - type: Fix
+    message: "Термографічне бачення тепер правильно вимірює тривалість імпульсу в секундах замість наносекунд. Воно забезпечує 2-секундне сканування."
   id: 6781
   time: '2025-01-30T15:15:44.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1665
 - author: Mike32oz
   changes:
-    - type: Add
-      message: Meta/Box stations, added psionics registry computer
-    - type: Add
-      message: 'Meta/Box stations, added command''s office Computer ID '
-    - type: Fix
-      message: Meta/Box stations, fixed wires, tiny fan
-    - type: Tweak
-      message: Box Station, Expanded the Docking Bay for Salvage Pathfinder
-    - type: Remove
-      message: Meta/Box stations, antimov at upload
+  - type: Add
+    message: "Meta/Box станції, додано комп’ютер реєстру псіоніки"
+  - type: Add
+    message: "Meta/Box станції, додано Computer ID офісу команди"
+  - type: Fix
+    message: "Meta/Box станції, виправлено проводи, маленький вентилятор"
+  - type: Tweak
+    message: "Box Station, розширено зону стикування для Salvage Pathfinder"
+  - type: Remove
+    message: "Meta/Box станції, заборонено переміщення під час завантаження"
   id: 6782
   time: '2025-01-30T15:16:54.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1687
 - author: Ichai
   changes:
-    - type: Tweak
-      message: Change the AI Hologram to AI eye
+  - type: Tweak
+    message: "Змінено AI-голограму на AI-око"
   id: 6783
   time: '2025-01-30T15:18:55.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1680
 - author: VMSolidus
   changes:
-    - type: Add
-      message: >-
-        Clothing now supports having multiple species-specific layers, and
-        species-specific shaders. 
-    - type: Add
-      message: >-
-        New "Unpainted" engineering hardsuit, and "Unpainted" Shanlin Tacsuit.
-        More to come soon. 
-    - type: Add
-      message: >-
-        Unpainted variant of the "Shiwei" tacsuit(AKA: Elite suit). This one is
-        uniquely titanium white instead of the standard gunmetal grey. It can
-        either be ordered through cargo at an exhorbitant cost, or manufactured
-        with the Prototype Tacsuits research.
+  - type: Add
+    message: "Одяг тепер підтримує кілька шарів, специфічних для різних видів, а також шейдерів для кожного виду."
+  - type: Add
+    message: "Новий 'нефарбований' інженерний хардсьют, а також 'нефарбований' Shanlin Tacsuit. Незабаром буде ще."
+  - type: Add
+    message: "Нефарбований варіант 'Shiwei' tacsuit (також відомий як Elite suit). Цей має унікальний титаново-білий колір замість стандартного гарматного сірого. Його можна або замовити через вантажний відділ за завищеною ціною, або виготовити за допомогою дослідження Prototype Tacsuits."
   id: 6784
   time: '2025-01-31T20:22:45.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1692
