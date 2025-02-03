@@ -1,7 +1,7 @@
 - type: entity
   parent: [BaseWeaponBattery]
   id: WeaponAlien
-  name: alien pistol
+  name: "інопланетний пістолет"
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Weapons/Guns/Battery/alien.rsi
@@ -33,7 +33,7 @@
 - type: entity
   parent: [BaseWeaponBattery]
   id: WeaponDecloner
-  name: decloner
+  name: "детонатор"
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Weapons/Guns/Battery/alien.rsi
