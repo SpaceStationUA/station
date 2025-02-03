@@ -627,6 +627,16 @@ entities:
     - type: Transform
       pos: 4.4633284,3.5539389
       parent: 1
+- proto: ClothingOuterArmorAbductor
+  entities:
+  - uid: 234
+    components:
+    - type: Transform
+      pos: 4.5104156,2.361111
+      parent: 1
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
 - proto: ComputerIFF
   entities:
   - uid: 183
