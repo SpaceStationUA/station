@@ -30,3 +30,19 @@ abductor-victim-role-name = Викрадений
 abductor-victim-role-desc = Ви бачили те, що не повинні були. Світ повинен знати правду.
 
 objective-issuer-voices = [color=#FD0098]Голоси[/color]
+
+abductors-ui-armor-control = Контроль броні
+abductors-ui-combat-mode = Бойовий режим
+abductors-ui-stealth-mode = Стелс-режим
+abductors-ui-lock-armor = Заблокувати броню
+abductors-ui-unlock-armor = Розблокувати броню
+abductors-ui-vest-linked = Жилет з'єднаний
+abductor-ui-pad-found = пад: [color=green]підключено[/color]
+abductor-ui-pad-not-found = пад: [color=red]не знайдено[/color]
+abductor-ui-target-none = ціль: [color=red]НЕМАЄ[/color]
+abductor-ui-target-found = ціль: [color=green]{$target}[/color]
+abductor-ui-experimentator-connected = експериментатор: [color=green]підключено[/color]
+abductor-ui-experimentator-not-found = експериментатор: [color=red]не знайдено[/color]
+abductor-ui-victim-none = жертва: [color=red]НЕМАЄ[/color]
+abductor-ui-victim-found = жертва: [color=green]{$victim}[/color]
+abductor-ui-armor-plug-in = [color=red][font size=16]Вам потрібно підключити броню викрадача![/font][/color]

@@ -764,3 +764,5 @@ character-item-group-LoadoutNanorepBackpacks = Представницькі рю
 character-tiem-group-LoadoutNanorepUniforms = Представницька уніформа Нанотрасен
 character-item-group-LoadoutHeadOfSecurityTrinkets = Керівник відділу безпеки дрібничок
 character-item-group-LoadoutCards = Гральні карти
+character-item-group-TraitsMind = Розум над машиною
+character-item-group-TraitsMachine = Машина над розумом
