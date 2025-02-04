@@ -46,3 +46,4 @@ loadout-name-LoadoutUniformJumpsuitTurtleneckGrey = сіра водолазка 
 loadout-name-LoadoutUniformJumpsuitYogaGymBra = бюстгальтер для йоги (кольоровий)
 loadout-name-LoadoutUniformEnvirosuitBlackPinkAlt = чорно-рожевий екокостюм, альтернативний
 loadout-name-LoadoutUniformEnvirosuitEnviroslacksMNKAlt = MNK enviroslacks, альтернатива
+loadout-name-LoadoutUniformJumpsuitBlackTurtleneckFlipped = чорна водолазка, з закатаними рукавами

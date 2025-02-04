@@ -43,3 +43,5 @@ chem-master-window-pill-buffer-text = Буфер таблеток
 chem-master-window-pill-buffer-label = буфер таблеток:
 chem-master-window-pill-buffer-empty-text = Буфер таблеток порожній.
 chem-master-window-pill-buffer-low-text = Недостатньо розчину в буфері для таблеток
+chem-master-window-save-as-frequent-label = Зберегти як часті
+chem-master-window-set-amount-label = Встановити кількість

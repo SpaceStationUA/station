@@ -136,7 +136,7 @@ ent-ClothingOuterHardsuitSanta = Костюм "Веселий" DNK-31
 end-ClothingOuterHardsuitJuggernautReverseEngineered = CSA-80UA - Костюм "Гуань Ю"
     .desc = Гордість і радість корпорації Cybersun-Armaments, названа на честь стародавнього бога війни Сол'. Широко відомий по всій галактиці як "Джаггернаут".
         Відповідаючи своєму громіздкому зовнішньому вигляду, він захищає від усіх форм пошкоджень. Відчувається ДУЖЕ важким.
-ent-ClothingOuterHardsuitEngineeringUnpainted = HpI-19r "Lampsi" hardsuit
+ent-ClothingOuterHardsuitEngineeringUnpainted = HpІ-19г "Lampsi" хардсют
     .desc = { ent-ClothingOuterHardsuitEngineering.desc }
 ent-ClothingOuterHardsuitShanlinUnpainted = CSA-51a - костюм "Shanlin"
     .desc = Тактичний бойовий бронежилет виробництва корпорації Cybersun-Armaments, мітки на костюмі вказують на те, що він забезпечує помірний захист від більшості видів пошкоджень. Цей костюм виготовлений з нефарбованого металу. Відчувається неймовірно легким.

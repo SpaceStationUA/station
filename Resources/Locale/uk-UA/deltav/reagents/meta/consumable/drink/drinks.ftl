@@ -21,3 +21,6 @@ reagent-desc-healthviolation = Нібито це коктейль. Мотив п
 
 reagent-name-mothamphetamine = мотамфетамін
 reagent-desc-mothamphetamine = Дивно... розмитий напій. У нього хаотична аура.
+
+reagent-name-double-ice-cream = Подвійне морозиво
+reagent-desc-double-ice-cream = Морозиво, але тепер з ще більшою кількістю морозива зверху. Солодше не буває!
