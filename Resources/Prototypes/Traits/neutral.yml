@@ -54,7 +54,7 @@
         - type: GermanAccent
         
 - type: trait
-  id: RussianAccent
+  id: UkrainianAccent
   category: TraitsSpeechAccents
   requirements:
     - !type:CharacterItemGroupRequirement
@@ -62,7 +62,7 @@
   functions:
     - !type:TraitAddComponent
       components:
-        - type: RussianAccent
+        - type: UkrainianAccent
         
 - type: trait
   id: FrenchAccent

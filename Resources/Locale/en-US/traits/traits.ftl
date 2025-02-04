@@ -83,8 +83,8 @@ trait-description-Southern = You have a different way of speakin'.
 trait-name-GermanAccent = German accent
 trait-description-GermanAccent = You speak with a German accent.
 
-trait-name-RussianAccent = Russian accent
-trait-description-RussianAccent = You speak with a Russian accent.
+trait-name-UkrainianAccent = Hutsulian accent
+trait-description-UkrainianAccent = You speak with a Ukrainian hutsulian accent.
 
 trait-name-FrenchAccent = French accent
 trait-description-FrenchAccent = You speak with a French accent.
@@ -540,5 +540,5 @@ trait-description-ThermographicVision =
     biological life forms. It can even detect individuals through the walls of a station.
 
 trait-name-ShadowkinBlackeye = Blackeye
-trait-description-ShadowkinBlackeye = 
+trait-description-ShadowkinBlackeye =
     You lose your special Shadowkin powers & respect amongst your peers, in return for some points. Effectively, you are only a Shadowkin in name, not in practice.
