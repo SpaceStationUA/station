@@ -67,8 +67,8 @@ public sealed partial class ChangelingRuleSystem : GameRuleSystem<ChangelingRule
             _role.MindAddRole(mindId, new RoleBriefingComponent { Briefing = briefingShort }, mind, true);
         }
         // hivemind stuff
-        _npcFaction.RemoveFaction(target, NanotrasenFactionId, false);
-        _npcFaction.AddFaction(target, ChangelingFactionId);
+        //_npcFaction.RemoveFaction(target, NanotrasenFactionId, false);
+        //_npcFaction.AddFaction(target, ChangelingFactionId);
 
         // make sure it's initial chems are set to max
         EnsureComp<ChangelingComponent>(target);
