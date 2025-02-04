@@ -1,5 +1,6 @@
 using Content.Shared.Emag.Systems;
 using Content.Shared.Tag;
+using Content.Shared.Whitelist;
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 using Robust.Shared.Serialization;
@@ -24,4 +25,18 @@ public sealed partial class EmagComponent : Component
     /// </summary>
     [DataField, AutoNetworkedField]
     public EntityWhitelist? ValidTargets;
+    
+    // DeltaV - Add a whitelist/blacklist to the Emag
+    /// <summary>
+    /// Whitelist that entities must be on to work.
+    /// </summary>
+    [DataField]
+    public EntityWhitelist? Whitelist;
+
+    /// <summary>
+    /// Blacklist that entities must be off to work.
+    /// </summary>
+    [DataField]
+    public EntityWhitelist? Blacklist;
+    // End of DeltaV code
 }

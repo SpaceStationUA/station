@@ -130,6 +130,9 @@
 
 - type: npcFaction
   id: Cat
+  hostile:
+  - Mouse
+  - SimpleHostile
 
 - type: npcFaction
   id: Birb
