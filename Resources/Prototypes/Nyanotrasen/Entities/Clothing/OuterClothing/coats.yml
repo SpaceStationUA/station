@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatMantis
-  name: "куртка богомола"
-  description: "Зроблена за зразком старовинної піхотної форми, ця куртка може захистити вас від невідомого на вашому шляху до істини."
+  name: mantis' jacket
+  description: Modeled after an ancient infantry uniform, this jacket may guard you against the unknown in your journey for the truth.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Coats/mantis_jacket.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: ClothingOuterStorageToggleableBase
   id: ClothingOuterCoatRndMysta
-  name: "лабораторний халат mystagogue" # Delta V - Mystagogue new coat
-  description: "Схожа на стандартну модель, але з більшою кількістю фіолетового та золотого." # Delta V - Mystagogue new coat
+  name: mystagogue lab coat # Delta V - Mystagogue new coat
+  description: Similar to the standard model but with more purple and gold. # Delta V - Mystagogue new coat
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/OuterClothing/Coats/mystacoat.rsi

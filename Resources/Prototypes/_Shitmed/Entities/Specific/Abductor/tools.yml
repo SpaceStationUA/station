@@ -2,8 +2,8 @@
 - type: entity
   parent: Crowbar
   id: CrowbarAbductor
-  name: "лом викрадача"
-  description: "Багатофункціональний інструмент для відчинення дверей та боротьби з міжпросторовими загарбниками."
+  name: abductor's crowbar
+  description: A multipurpose tool to pry open doors and fight interdimensional invaders.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Abductor/crowbar.rsi
@@ -19,7 +19,7 @@
     - Abductors
 
 - type: entity
-  name: "кусачки викрадача"
+  name: abductor's wirecutter
   parent: BaseItem
   id: WirecutterAbductor
   components:
@@ -73,7 +73,7 @@
     - Abductors
 
 - type: entity
-  name: "викрутка викрадача"
+  name: abductor's screwdriver
   parent: BaseItem
   id: ScrewdriverAbductor
   components:
@@ -121,7 +121,7 @@
     - Abductors
 
 - type: entity
-  name: "ключ викрадача"
+  name: abductor's wrench
   parent: Wrench
   id: WrenchAbductor
   components:
@@ -146,10 +146,10 @@
     - Abductors
 
 - type: entity
-  name: "зварювальний інструмент абдуктора"
+  name: abductor's welding tool
   parent: Welder
   id: WelderAbductor
-  description: "Експериментальний зварювальний апарат, здатний самостійно виробляти паливо і менш шкідливий для очей."
+  description: "An experimental welder capable of self-fuel generation and less harmful to the eyes."
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Abductor/welder.rsi
@@ -181,10 +181,10 @@
     - Abductors
 
 - type: entity
-  name: "мультитул викрадача"
+  name: abductor's multitool
   parent: [BaseItem]
   id: MultitoolAbductor
-  description: "Просунутий інструмент для копіювання, зберігання та надсилання електричних імпульсів і сигналів через дроти та машини."
+  description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines.
   components:
   - type: EmitSoundOnLand
     sound:
