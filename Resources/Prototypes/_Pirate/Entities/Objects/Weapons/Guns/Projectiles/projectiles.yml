@@ -1,8 +1,8 @@
 # particle plasma projectiles
 - type: entity
   id: BaseBulletParticle
-  name: Particle Bullet
-  description: If you can see this you're probably dead!
+  name: "Частинки кулі"
+  description: "Якщо ви бачите це, ви, мабуть, мертві!"
   abstract: true
   components:
   - type: Reflective
@@ -59,7 +59,7 @@
 
 - type: entity
   id: BaseBulletPistolParticleSolution # Trigger-on-collide bullets
-  name: Particle Bullet
+  name: "Частинки кулі"
   parent: BaseBulletParticle
   abstract: true
   components:
