@@ -1,7 +1,7 @@
 - type: entity
-  name: Atmos Fix Vacuum Marker
+  name: "Вакуумний маркер Atmos Fix"
   id: AtmosFixBlockerMarker
-  description: "Vacuum, T20C"
+  description: "Вакуум, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -16,9 +16,9 @@
       mode: 1
 
 - type: entity
-  name: Atmos Fix Oxygen Marker
+  name: "Кисневий маркер Atmos Fix"
   id: AtmosFixOxygenMarker
-  description: "Oxygen @ gas miner pressure, T20C"
+  description: "Кисень @ тиск шахтного газу, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -33,9 +33,9 @@
       mode: 2
 
 - type: entity
-  name: Atmos Fix Nitrogen Marker
+  name: "Азотний маркер Atmos Fix"
   id: AtmosFixNitrogenMarker
-  description: "Nitrogen @ gas miner pressure, T20C"
+  description: "Азот @ тиск шахтного газу, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -50,9 +50,9 @@
       mode: 3
 
 - type: entity
-  name: Atmos Fix Plasma Marker
+  name: "Плазмовий маркер Atmos Fix"
   id: AtmosFixPlasmaMarker
-  description: "Plasma @ gas miner pressure, T20C"
+  description: "Плазма @ тиск шахтного газу, T20C"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -67,9 +67,9 @@
       mode: 4
 
 - type: entity
-  name: Atmos Fix Instant Plasmafire Marker
+  name: "Миттєвий маркер плазмового вогню Atmos Fix"
   id: AtmosFixInstantPlasmaFireMarker
-  description: "INSTANT PLASMAFIRE"
+  description: "МИТТЄВИЙ ПЛАЗМОВИЙ ВОГОНЬ"
   parent: MarkerBase
   components:
     - type: Sprite
@@ -84,9 +84,9 @@
       mode: 5
 
 - type: entity
-  name: Atmos Fix Freezer Marker
+  name: "Маркер для морозильної камери Atmos Fix"
   id: AtmosFixFreezerMarker
-  description: "Change air temp to 235K, for freezer with a big of wiggle room to get set up."
+  description: "Змініть температуру повітря на 235°C, щоб морозильна камера мала достатньо місця для налаштування."
   parent: MarkerBase
   components:
     - type: Sprite
@@ -104,7 +104,7 @@
   parent: AtmosFixNitrogenMarker
   id: AtmosFixVoxMarker
   suffix: Vox Atmosphere
-  description: "Nitrogen @ 101 kPa, 20C"
+  description: "Азот при 101 кПа, 20°C"
   components:
   - type: AtmosFixMarker
     mode: 7
