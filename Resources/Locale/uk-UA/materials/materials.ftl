@@ -47,3 +47,12 @@ materials-raw-normality = сира нормальність
 # Утилізатор матеріалу
 materials-diamond = діамант
 materials-gunpowder = порох
+materials-aluminium = алюміній
+materials-copper = мідь
+materials-tungsten = карбід вольфраму
+materials-lead = свинець
+materials-raw-aluminium = необроблений алюміній
+materials-raw-lead = сирий свинець
+materials-raw-sulfur = сира сірка
+materials-raw-copper = необроблена мідь
+materials-raw-tungsten = сирий вольфрам
