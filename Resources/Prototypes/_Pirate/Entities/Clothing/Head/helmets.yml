@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHelmetClockwork
-  name: "годинниковий шолом"
-  description: "Важкий шолом з латуні."
+  name: clockwork helmet
+  description: A heavy helmet made of brass.
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/Head/Helmets/clockwork.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: [ ClothingHeadEVAHelmetBase ]
   id: ClothingSyndieLeatherMask
-  name: "синдикатська шкіряна маска" #FUCK YOUUUU, NO FUCK YOU LEATHER MAN.
-  description: "Броньована маска зі шкіри голіафа, пофарбована в чорний колір. Виглядає міцною"
+  name: syndicate leather mask #FUCK YOUUUU, NO FUCK YOU LEATHER MAN.
+  description: An armored mask made of goliath skin and painted black. Looks robust
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/Head/Helmets/syndie_leather_mask.rsi

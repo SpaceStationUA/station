@@ -1,9 +1,9 @@
 - type: entity
   id: CrateCargoLuxuryHardsuit
   parent: CratePirate
-  name: "розкішний шахтерський комбінезон ящик"
+  name: luxury mining hardsuit crate
   # DeltaV - Logistics Department - Replace Quartermaster with Logistics Officer
-  description: "Нарешті, бронежилет, який офіцер з логістики міг би назвати своїм. Центр почув вас, тепер перестаньте питати."
+  description: Finally, a hardsuit the Logistics Officer could call their own. Centcomm has heard you, now stop asking.
   # End of modified code
   components:
   - type: StorageFill
@@ -12,8 +12,8 @@
 
 - type: entity
   id: CrateCargoGambling
-  name: "велика лотерея $$$"
-  description: "Коробка зі скарбами, що перевершують ваші найсміливіші фантазії!"
+  name: the grand lottery $$$
+  description: A box containing treasure beyond your greatest imaginations!
   parent: CratePrivateSecure
   components:
   #never make a storage fill this large
