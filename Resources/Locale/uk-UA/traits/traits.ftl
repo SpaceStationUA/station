@@ -362,5 +362,5 @@ trait-name-ItalianAccent = Італійський акцент
 trait-description-ItalianAccent = Ви говорите з італійським акцентом.
 trait-name-SpanishAccent = Іспанський акцент
 trait-description-SpanishAccent = Ви говорите з іспанським акцентом.
-trait-name-UkrainianAccent = Гуцульський акцент
-trait-description-UkrainianAccent = Ви говорите з українським гуцульським акцентом.
+trait-name-UkrainianAccent = Закарпатський говір
+trait-description-UkrainianAccent = Ви говорите закарпатським говором

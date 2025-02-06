@@ -10325,3 +10325,95 @@ Entries:
   id: 6794
   time: '2025-02-04T09:25:17.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1697
+- author: Timfa
+  changes:
+  - type: Add
+    message: Додано захисний шолом до техфабу
+  - type: Tweak
+    message: Трохи збільшено здоров'я Disablerbot та Batonbot
+  - type: Tweak
+    message: Трохи підвищено точність Disablerbot
+  - type: Add
+    message: Додано компонент, який дозволяє змінювати фракції NPC на інші за
+      допомогою Emag
+  - type: Tweak
+    message: Disablerbot та Batonbot тепер можна емагувати...
+  id: 6795
+  time: 2025-02-05T03:56:37.0000000+00:00
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1706
+- author: VMSolidus
+  changes:
+  - type: Add
+    message: Додано матеріали для токарного верстата та процесора руди для свинцю,
+      алюмінію, міді, вольфрам-карбіду та схем. Наразі використовується лише
+      вольфрам-карбід.
+  - type: Add
+    message: Для виготовлення Tacsuits тепер використовується вольфрам-карбід
+      замість Plasteel, і його потрібно набагато менше.
+  - type: Add
+    message: Перероблено випадання руди на планетах з лавою. Тепер на планетах з
+      лавою з будь-якого каменю можуть випадати випадкові руди, але за окремою
+      таблицею. Залізо та золото на планетах з лавою 'щедро', алюміній та
+      вольфрам у помірних кількостях. Всі інші руди дуже рідко зустрічаються
+      на лавових каменях.
+  - type: Add
+    message: Енергетичні мечі тепер можна виготовляти на Secfab після дослідження
+      Arsenal T3 Prototype Weapons
+  id: 6796
+  time: 2025-02-05T15:47:47.0000000+00:00
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1693
+- author: Timfa
+  changes:
+  - type: Add
+    message: Додано плунжер до модуля очищення Боргів
+  id: 6797
+  time: 2025-02-05T18:33:22.0000000+00:00
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1718
+- author: Timfa
+  changes:
+  - type: Tweak
+    message: Gladiabots тепер борються з ворожими істотами. Потрібно близько п'яти з
+      них, щоб вбити слизняка. Грайте весело на арені!
+  - type: Tweak
+    message: Gladiabots тепер можна емагувати. Вони слабкі, тому ви можете вбити їх
+      голими руками.
+  id: 6798
+  time: 2025-02-05T23:21:44.0000000+00:00
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1717
+- author: trashalice
+  changes:
+  - type: Add
+    message: Додано посібник з псіонічного богомола
+  id: 6799
+  time: 2025-02-06T01:44:52.0000000+00:00
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1722
+- author: VMSolidus
+  changes:
+  - type: Fix
+    message: Виправлено некоректну роботу нічного бачення.
+  id: 6800
+  time: 2025-02-06T01:46:06.0000000+00:00
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1723
+- author: sleepyyapril
+  changes:
+  - type: Add
+    message: Портовано планшет AAC з Delta-V.
+  id: 6801
+  time: 2025-02-06T01:47:15.0000000+00:00
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1674
+- author: sleepyyapril
+  changes:
+  - type: Fix
+    message: Виправлено, щоб ChemMaster не відтворював звук натискання кнопки при
+      відкритті.
+  id: 6802
+  time: 2025-02-06T02:16:44.0000000+00:00
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1716
+- author: VMSolidus
+  changes:
+  - type: Remove
+    message: Вилучено можливість використовувати телепатію під час непритомності.
+      Тепер можна безпечно застосовувати sleepy-pen до людей з псі-силами.
+  id: 6803
+  time: 2025-02-06T02:37:21.0000000+00:00
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1725
