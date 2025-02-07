@@ -1,8 +1,8 @@
 - type: entity
   id: TrialTimer
   parent: SignalTimer
-  name: "пробний таймер"
-  description: "Модний таймер з екраном, призначений для того, щоб випробування не виходили за рамки відведеного часу."
+  name: trial timer
+  description: A fancy timer with a screen, designed to keep trials within their time limit.
   components:
   - type: SignalTimer
     canEditLabel: true
