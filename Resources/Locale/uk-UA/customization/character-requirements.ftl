@@ -128,3 +128,15 @@ character-cvar-requirement = Сервер повинен{$inverted ->
     [true]{" "}не
     *[other]{""}
 } мати [color={$color}]{$cvar}[/color], встановлений на [color={$color}]{$value}[/color].
+character-age-requirement-range = Ви маєте{$inverted ->
+    [true]{" "}не
+    *[other]{""}
+} мати від [color=yellow]{$min}[/color] до [color=yellow]{$max}[/color] років
+character-age-requirement-minimum-only = Ви маєте{$inverted ->
+    [true]{" "}не
+    *[other]{""}
+} мати як мінімум [color=yellow]{$min}[/color] років
+character-age-requirement-maximum-only = Ви повинні{$inverted ->
+	[true]{""}
+	*[other]{""}не
+} бути старше [color=yellow]{$max}[/color] років

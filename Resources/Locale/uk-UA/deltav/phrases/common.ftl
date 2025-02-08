@@ -103,3 +103,6 @@ phrase-call = Дзвони
 phrase-this = Це
 phrase-actiondrink = Випий
 phrase-know = Знати
+phrase-number0 = 0
+phrase-number0 = 0
+phrase-number0 = 0

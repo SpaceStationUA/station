@@ -32,3 +32,5 @@ marking-TattooEyeArachneRight-tattoo_eye_arachne_r = Праве павуче о�
 marking-TattooEyeArachneRight = Праве павуче око
 marking-TattooEyeArachneLeft-tattoo_eye_arachne_l = Ліве око павука
 marking-TattooEyeArachneLeft = Ліве око павука
+marking-TattooNanotrasenChest-tattoo_nanotrasen_chest = Татуювання на грудях (нанотрасен)
+marking-TattooNanotrasenChest = Татуювання на грудях (нанотрасен)
