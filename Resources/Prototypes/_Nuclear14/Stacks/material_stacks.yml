@@ -1,13 +1,13 @@
 - type: stack
   id: Circuitry
-  name: circuitry
+  name: "схема"
   icon: { sprite: _Nuclear14/Objects/Misc/materials.rsi, state: circuits_3 }
   spawn: N14MaterialCircuitry1
   maxCount: 15
 
 - type: stack
   id: N14AluminiumOre
-  name: bauxite
+  name: "боксити"
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: lead }
   spawn: N14AluminiumOre1
   maxCount: 10
@@ -15,7 +15,7 @@
 
 - type: stack
   id: N14LeadOre
-  name: lead ore
+  name: "свинцева руда"
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: lead }
   spawn: N14LeadOre1
   maxCount: 10
@@ -23,7 +23,7 @@
 
 - type: stack
   id: N14CopperOre
-  name: copper ore
+  name: "мідна руда"
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: copper }
   spawn: N14CopperOre1
   maxCount: 30
@@ -31,7 +31,7 @@
 
 - type: stack
   id: SulfurOre
-  name: sulfur ore
+  name: "сірчана руда"
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: sulfur }
   spawn: SulfurOre1
   maxCount: 10
@@ -40,7 +40,7 @@
 # Metals
 - type: stack
   id: Lead
-  name: lead
+  name: "свинцевий"
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: ingot_lead }
   spawn: N14IngotLead1
   maxCount: 30
@@ -48,7 +48,7 @@
 
 - type: stack
   id: Aluminium
-  name: aluminium
+  name: "алюміній"
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: ingot_aluminum }
   spawn: N14IngotAluminium1
   maxCount: 30
@@ -56,7 +56,7 @@
 
 - type: stack
   id: N14Copper
-  name: copper
+  name: "мідь"
   icon: { sprite: "/Textures/_Nuclear14/Objects/Misc/materials.rsi", state: ingot_copper }
   spawn: N14IngotCopper1
   maxCount: 30
