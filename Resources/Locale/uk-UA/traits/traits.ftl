@@ -364,3 +364,6 @@ trait-name-SpanishAccent = Іспанський акцент
 trait-description-SpanishAccent = Ви говорите з іспанським акцентом.
 trait-name-UkrainianAccent = Закарпатський говір
 trait-description-UkrainianAccent = Ви говорите закарпатським говором
+
+trait-name-LyreBird = Птах Ліра
+trait-description-LyreBird = Ваш природний талант до мімікрії набагато вищий, ніж у інших Гарпій. Ви здатні досконало імітувати пісні в повному обсязі. Будьте власним повноцінним симфонічним оркестром, джазовим колективом або метал-групою.
