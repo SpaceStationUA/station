@@ -137,6 +137,6 @@ character-age-requirement-minimum-only = Ви маєте{$inverted ->
     *[other]{""}
 } мати як мінімум [color=yellow]{$min}[/color] років
 character-age-requirement-maximum-only = Ви повинні{$inverted ->
-	[true]{""}
-	*[other]{""}не
+    [true]{""}
+    *[other]{" "}не
 } бути старше [color=yellow]{$max}[/color] років
