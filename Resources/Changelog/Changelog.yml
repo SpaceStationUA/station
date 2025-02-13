@@ -10620,4 +10620,156 @@ Entries:
   id: 6827
   time: '2025-02-09T08:58:51.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1749
-
+- author: EctoplasmIsGood
+  changes:
+    - type: Add
+      message: "Арахне мають імунітет до послизання"
+  id: 6828
+  time: '2025-02-09T15:54:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1739
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Системи SMES станції тепер зберігають 120 МВт потужності, замість 8 МВт.
+        Вони тепер повинні виконувати своє призначення.
+  id: 6829
+  time: '2025-02-10T02:23:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1752
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Виправлено проблему, коли у гарпій відсутні 8 різних емоцій.
+  id: 6830
+  time: '2025-02-10T08:54:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1751
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Кинуті об'єкти більше не будуть зіткатися з істотами, що лежать
+        (добровільно чи ні). Це включає об'єкти, що кидаються космічним вітром,
+        які тепер пролетітимуть повз вас, якщо підлогові плитки завдадуть вам
+        критичних ушкоджень.
+  id: 6831
+  time: '2025-02-10T08:59:40.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1754
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        ШІ станції тепер може корисно допомогти, налаштовуючи систему
+        атмосферного контролю, щоб забезпечити екіпаж дихальним киснем,
+        і точно не здійснювати зловмисних дій. Також тепер ви можете попросити
+        ШІ допомогти з енергопостачанням станції, ввімкнувши або вимкнувши
+        суперматерію для безпечної роботи.
+    - type: Add
+      message: >-
+        Локер Містогага тепер містить плату для завантаження ШІ, а також 4 базові
+        чіпи законів ШІ.
+  id: 6832
+  time: '2025-02-10T18:30:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1761
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано функціональність для «Постійних» наборів законів, які не можна
+        видалити через завантаження ШІ. Наразі використовується ANTIMOV, що необхідно
+        для антагоніста MALF ШІ.
+  id: 6833
+  time: '2025-02-10T18:30:59.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1762
+- author: EctoplasmIsGood
+  changes:
+    - type: Tweak
+      message: Видалено тег LoadoutSecurityWeapons з Chester
+  id: 6834
+  time: '2025-02-10T23:45:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1764
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Додано конфігуратори доступу до всіх інженерних локерів.
+    - type: Add
+      message: Додано рецепт автолата для конфігуратора доступу.
+    - type: Tweak
+      message: >-
+        Багато рецептів інструментів було відкориговано щодо вартості матеріалів
+        для використання нових, таких як алюміній та схемотехніка.
+    - type: Remove
+      message: >-
+        Голова відділу кадрів більше не починає з конфігуратором доступу у своєму
+        локері.
+  id: 6835
+  time: '2025-02-11T15:49:58.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1758
+- author: Ichai
+  changes:
+    - type: Tweak
+      message: ШІ станції тепер насправді піддається впливу іонних бур.
+  id: 6836
+  time: '2025-02-11T19:26:07.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1766
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: Додано точки появи для всіх 4 старших посад на станції Lambda.
+    - type: Add
+      message: >-
+        На станції Lambda тепер є 3 слоти для ШІ. Що? Вона буквально має
+        найбільший супутник ШІ серед усіх карт, що перебувають у ротації.
+        Серйозно, у неї супутник ШІ розміром з чортовим Shoko. Звісно, вона
+        повинна мати більше одного слоту для ШІ. Це просто неймовірно.
+    - type: Fix
+      message: Виправлено проблему блокування прибуття на станції Lambda.
+  id: 6837
+  time: '2025-02-11T19:26:32.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1753
+- author: EctoplasmIsGood
+  changes:
+    - type: Fix
+      message: Виправлено проблему з noslip у арахне.
+  id: 6838
+  time: '2025-02-11T21:09:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1767
+- author: Ichai
+  changes:
+    - type: Tweak
+      message: >-
+        Box Station: генератор гравітації переміщено до інженерії, а сховище
+        пересунуте ближче до містка.
+  id: 6839
+  time: '2025-02-12T14:56:04.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1763
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Генераторна кімната Saltern тепер правильно генерується з ящиком, що містить
+        уранове паливо. Нагадаємо, Saltern є унікальною серед усіх інших карт, адже це
+        єдина карта, яку можна запустити виключно на сонячних батареях. Генератори та
+        щедрі акумуляторні резерви забезпечують більше, ніж достатньо часу для налаштування
+        вашого вибору між сонячними батареями чи суперматерією.
+  id: 6840
+  time: '2025-02-12T17:33:25.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1771
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: >-
+        Вилучено наступні карти з ротації: Pebble, Edge, Tortuga, Arena, Asterisk,
+        Hive, Hammurabi та Submarine. Ці карти не зникли назавжди, вони просто не з'являтимуться
+        у списку голосування за карту. Якщо ви хочете побачити їх повернення в офіційному статусі,
+        і маєте талант чи бажання до картографування, не соромтеся подати PR, щоб надати одній з
+        цих карт належну увагу та догляд. Жодна з них не отримувала оновлень понад рік.
+  id: 6841
+  time: '2025-02-12T18:51:09.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1772
+- author: Skubman
+  changes:
+    - type: Tweak
+      message: "Спрайт Rouny був змінений назад на старий культовий спрайт!"
+  id: 6842
+  time: '2025-02-12T20:16:04.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1770
