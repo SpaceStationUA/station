@@ -10,6 +10,8 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Content.Shared.Dataset;
 using Content.Shared.Fax.Components;
+using Content.Shared.Paper;
+
 
 namespace Content.Server.StationGoal;
 
@@ -106,7 +108,13 @@ public sealed class StationGoalPaperSystem : EntitySystem
                     ("name", _random.Pick(signerName.Values))
                 ),
                 Loc.GetString("station-goal-fax-paper-name"),
-                "StationGoalPaper"
+                "Цілі Станції",
+                null,
+                "paper_stamp-centcom",
+                new List<StampDisplayInfo>
+                {
+                    new StampDisplayInfo { StampedName = Loc.GetString("stamp-component-stamped-name-centcom"), StampedColor = Color.FromHex("#006600FF") },
+                }
             );
 
             _fax.Receive(uid, printout, null, fax);
