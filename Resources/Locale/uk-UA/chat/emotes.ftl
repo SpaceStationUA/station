@@ -79,3 +79,4 @@ chat-emote-name-mew = Нявк!
 chat-emote-name-purr = Мурчання
 chat-emote-name-hisses = Шипіння
 chat-emote-name-growl = Рик
+chat-emote-name-harpyhoot = Авууу
