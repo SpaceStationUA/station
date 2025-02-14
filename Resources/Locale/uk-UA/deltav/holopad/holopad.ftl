@@ -20,7 +20,7 @@ holopad-logistics-cargo-bay = Логістика - Вантажний відсі
 holodpad-logistics-mailroom = Логістика - Поштова кімната
 holodpad-logistics-mailfront = Логістика - Перед поштою
 holopad-logistics-salvage-bay = Логістика - Відсік шахтарів
-holopad-logistics-breakroom  = Логістика - Кімната відпочинку
+holopad-logistics-breakroom = Логістика - Кімната відпочинку
 holopad-logistics-ats = Логістика - Автоматична Торгова Станція
 holopad-logistics-shuttle = Логістика - Шатл
 
