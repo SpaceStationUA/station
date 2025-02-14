@@ -10773,3 +10773,66 @@ Entries:
   id: 6842
   time: '2025-02-12T20:16:04.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1770
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Шатли тепер можуть злітати та приземлятися з поверхні планети. Проте вони все ще
+        дотримуються маяків зон виключення, встановлених станціями. Можливо, у майбутньому з’явиться спеціальний шатл (дроп под), який буде налаштований ігнорувати ці зони виключення.
+  id: 6843
+  time: '2025-02-13T02:40:00.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1774
+- author: Skubman
+  changes:
+    - type: Tweak
+      message: >-
+        Плазмани тепер мають дещо нижчу густину і, отже, меншу вагу, ніж середній представник виду (це нерф).
+    - type: Tweak
+      message: >-
+        Стійкість плазманів до різаної шкоди збільшено з 15% до 20%, а до колотої – з 25% до 40% (це баф).
+    - type: Tweak
+      message: >-
+        Вартість перезаправки самогасника енвірокостюма в Loadouts зменшено з 5 балів до 4 балів.
+  id: 6844
+  time: '2025-02-13T03:21:10.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1769
+- author: The Den Contributors
+  changes:
+    - type: Add
+      message: Додано уніформу для патрульних та капелюх для використання службою безпеки. (від Rosycup)
+    - type: Add
+      message: Гарпії отримали здатність видавати "уу"-звук. (від KyuPolaris)
+    - type: Add
+      message: Додано здатність Арахни виробляти шовк. (від KyuPolaris)
+    - type: Tweak
+      message: >-
+        Відкориговано пояси для інструментів, щоб вміщувати більше інструментів, та пояси для мантіс,
+        щоб було можливим носити деякі епістемічні інструменти. (від Rosycup)
+    - type: Add
+      message: >-
+        Стрибок, ось і все. Команди *hop та *hops тепер активують емоцію стрибка. (від KyuPolaris)
+    - type: Fix
+      message: >-
+        Тіньовики тепер можуть вибирати риси Псіонічної Сили без необхідності брати
+        риси Прихованої Психіки. (від Rosycup)
+  id: 6845
+  time: '2025-02-13T03:23:30.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1773
+- author: GNUtopia
+  changes:
+    - type: Add
+      message: Додано коробку гумових патронів для .20 гвинтівки до комплекту для бармена.
+    - type: Add
+      message: >-
+        Додано вимогу віку для Argenti, повторної гвинтівки та коробки гумових патронів для .45 магнума.
+  id: 6846
+  time: '2025-02-13T03:32:25.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1768
+- author: EctoplasmIsGood
+  changes:
+    - type: Tweak
+      message: Повторно увімкнено оголошення війни для ядерних оперативників
+  id: 6847
+  time: '2025-02-14T01:09:58.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1776
+
