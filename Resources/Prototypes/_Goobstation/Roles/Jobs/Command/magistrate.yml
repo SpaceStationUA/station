@@ -33,6 +33,11 @@
   - Command
   - CentralCommand
   - Magistrate
+  - ChiefJustice
+  - Justice
+  - Lawyer
+  - Prosecutor
+  - Clerk
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -55,7 +60,6 @@
     gloves: ClothingHandsGlovesColorWhite
     id: CentcomPDA
     ears: ClothingHeadsetMagistrate
-    pocket1: UniqueMagistrateLockerTeleporter
 
 - type: startingGear
   id: MagistratePlasmamanGear
