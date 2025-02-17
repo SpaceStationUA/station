@@ -446,28 +446,27 @@
   - type: AddAccentClothing # Goobstation
     accent: RatAccent
 
-#- type: entity
-#  parent: ClothingMaskBase
-#  id: ClothingMaskFox
-#  name: fox mask
-#  description: What does the fox say?
-#  components:
-#  - type: Sprite
-#    sprite: Clothing/Mask/fox.rsi
-#  - type: Clothing
-#    sprite: Clothing/Mask/fox.rsi
-#  - type: IdentityBlocker
-#  - type: Tag
-#    tags:
-#    - IPCMaskWearable
-#    - CursedAnimalMask # Goobstation
-#    - WhitelistChameleon # Goobstation
-#  - type: AddAccentClothing # Goobstation
-#  - type: HideLayerClothing
-#    slots:
-#    - Snout
-#  - type: AddAccentClothing # Goobstation
-#    accent: FoxAccent
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskFox
+  name: fox mask
+  description: What does the fox say?
+  components:
+  - type: Sprite
+    sprite: Clothing/Mask/fox.rsi
+  - type: Clothing
+    sprite: Clothing/Mask/fox.rsi
+  - type: IdentityBlocker
+  - type: Tag
+    tags:
+    - IPCMaskWearable
+    - CursedAnimalMask # Goobstation
+    - WhitelistChameleon # Goobstation
+  - type: HideLayerClothing
+    slots:
+    - Snout
+  - type: AddAccentClothing # Goobstation
+    accent: FoxAccent
 
 - type: entity
   parent: ClothingMaskBase
