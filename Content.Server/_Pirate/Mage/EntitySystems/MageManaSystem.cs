@@ -69,7 +69,7 @@ public sealed class MageManaSystem : EntitySystem
 
         if (!enabled || powerLevel == null)
         {
-            _alerts.ClearAlert(uid, component.Alert);
+            // _alerts.ClearAlert(uid, component.Alert);
             return;
         }
 
@@ -79,7 +79,7 @@ public sealed class MageManaSystem : EntitySystem
         var power = Math.Clamp(Math.Round(component.ManaLevel / 14), 0, 7);
 
         // Set the alert level
-        _alerts.ShowAlert(uid, component.Alert, (short) power);
+        // _alerts.ShowAlert(uid, component.Alert, (short) power);
     }
 
 

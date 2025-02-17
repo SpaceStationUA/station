@@ -155,8 +155,7 @@
           sprite: "Effects/creampie.rsi"
           state: "creampie_human"
           visible: false
-
-    #- type: Bloodstream This is left commented out because it's not necessary for a robot, but you may want it.
+#    - type: Bloodstream This is left commented out because it's not necessary for a robot, but you may want it.
     #  damageBleedModifiers: BloodlossIPC
     #  bloodReagent: Oil
     #  bleedReductionAmount: 0
@@ -172,6 +171,7 @@
     #  bloodlossHealDamage:
     #    types:
     #      Burn: 0
+    - type: HasJobIcons # Goobstation
     - type: Flashable
     - type: Flammable
       fireSpread: true
@@ -232,6 +232,8 @@
           type: RadialSelectorMenuBUI
         enum.ListViewSelectorUiKey.Key:
           type: ListViewSelectorBUI
+        enum.WizardTeleportUiKey.Key: # Goobstation - wizard
+          type: WizardTeleportBoundUserInterface
         enum.SurgeryUIKey.Key:
           type: SurgeryBui
     - type: Emoting
@@ -326,7 +328,7 @@
     - type: FireVisuals
       alternateState: Standing
     - type: LightningTarget
-      priority: 1
+      priority: 2 # Goobstation
       lightningExplode: false
     - type: FootPrints
     - type: Carriable

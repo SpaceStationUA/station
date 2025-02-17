@@ -1,5 +1,6 @@
 using Content.Server.Body.Systems;
 using Content.Server.Popups;
+using Content.Shared._Goobstation.Wizard.Guardian;
 using Content.Shared.Actions;
 using Content.Shared.Audio;
 using Content.Shared.Damage;
@@ -11,6 +12,7 @@ using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Mobs;
+using Content.Shared.NPC.Systems;
 using Content.Shared.Popups;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
@@ -35,6 +37,7 @@ namespace Content.Server.Guardian
         [Dependency] private readonly BodySystem _bodySystem = default!;
         [Dependency] private readonly SharedContainerSystem _container = default!;
         [Dependency] private readonly SharedTransformSystem _transform = default!;
+        [Dependency] private readonly NpcFactionSystem _faction = default!; // Goobstation
 
         public override void Initialize()
         {
@@ -62,6 +65,9 @@ namespace Content.Server.Guardian
 
         private void OnGuardianShutdown(EntityUid uid, GuardianComponent component, ComponentShutdown args)
         {
+            if (!TerminatingOrDeleted(uid)) // Goobstation
+                RemCompDeferred<GuardianSharedComponent>(uid);
+
             var host = component.Host;
             component.Host = null;
 
@@ -209,6 +215,13 @@ namespace Content.Server.Guardian
             var host = EnsureComp<GuardianHostComponent>(args.Args.Target.Value);
             // Use map position so it's not inadvertantly parented to the host + if it's in a container it spawns outside I guess.
             var guardian = Spawn(component.GuardianProto, _transform.GetMapCoordinates(args.Args.Target.Value, xform: hostXform));
+
+            // Goobstation start
+            _faction.IgnoreEntity(guardian, args.Args.Target.Value);
+            var sharedComp = EnsureComp<GuardianSharedComponent>(guardian);
+            sharedComp.Host = args.Args.Target.Value;
+            Dirty(guardian, sharedComp);
+            // Goobstation end
 
             _container.Insert(guardian, host.GuardianContainer);
             host.HostedGuardian = guardian;

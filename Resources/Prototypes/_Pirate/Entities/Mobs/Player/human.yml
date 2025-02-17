@@ -21,9 +21,9 @@
   # - type: SpaceNinja
 #  - type: GenericAntag #Break spawner, it becomes infinite
 #    rule: Mage
-  # - type: AutoImplant
-  #   implants:
-  #   - DeathAcidifierImplant
+  - type: AutoImplant
+    implants:
+     - DeathAcidifierImplant
   - type: RandomMetadata
     nameSegments:
     - names_wizard_first

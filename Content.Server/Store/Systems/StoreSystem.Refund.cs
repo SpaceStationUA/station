@@ -19,7 +19,10 @@ public sealed partial class StoreSystem
         if (component.StoreEntity == null || _actions.TryGetActionData(uid, out _, false) || !TryComp<StoreComponent>(component.StoreEntity.Value, out var storeComp))
             return;
 
+        // Goob edit start
+        // DisableListingRefund(component.Data);
         DisableRefund(component.StoreEntity.Value, storeComp);
+        // Goob edit end
     }
 
     private void OnEntityInserted(EntityUid uid, StoreRefundComponent component, EntInsertedIntoContainerMessage args)
@@ -27,7 +30,10 @@ public sealed partial class StoreSystem
         if (component.StoreEntity == null || _actions.TryGetActionData(uid, out _) || !TryComp<StoreComponent>(component.StoreEntity.Value, out var storeComp))
             return;
 
+        // Goob edit start
+        // DisableListingRefund(component.Data);
         DisableRefund(component.StoreEntity.Value, storeComp);
+        // Goob edit end
     }
 
     private void OnStoreTerminating(Entity<StoreComponent> ent, ref EntityTerminatingEvent args)

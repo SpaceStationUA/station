@@ -16,6 +16,8 @@
     - DinosaursNF # Frontier
     - Heretic # goob edit - heretics
     - Blob # Goobstation - Blob
+  friendly: # Goobstation
+    - Wizard
 
 - type: npcFaction
   id: NanoTrasen
@@ -31,6 +33,7 @@
   - Changeling # goob edit - changelings
   - Heretic # goob edit - heretics
   - Blob # Goobstation - Blob
+  - Wizard # goob edit - wizard
 
 - type: npcFaction
   id: Mouse
@@ -55,6 +58,7 @@
   id: SimpleHostile
   friendly:
   - AnimalFriend
+  - Wizard # goob edit - wizard
   hostile:
   - NanoTrasen
   - Syndicate
@@ -89,6 +93,7 @@
   - Changeling # goob edit - changelings
   - Heretic # goob edit - heretics
   - Blob # Goobstation - Blob
+  - Wizard # goob edit - wizard
 
 - type: npcFaction
   id: Xeno
@@ -107,6 +112,8 @@
   - DinosaursNF # Frontier
   - Heretic # goob edit - heretics
   - Blob # Goobstation - Blob
+  friendly: # Goobstation
+    - Wizard
 
 - type: npcFaction
   id: Zombie
@@ -127,6 +134,7 @@
   - Changeling # goob edit - changelings
   - Heretic # goob edit - heretics
   - Blob # Goobstation - Blob
+  - Wizard # goob edit - wizard
 
 - type: npcFaction
   id: Revolutionary
@@ -233,3 +241,4 @@
   - Syndicate
   - DinosaursNF # Frontier
   - Blob # Goobstation - Blob
+  - Wizard # Goobstation - wizard

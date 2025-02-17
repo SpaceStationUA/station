@@ -5,6 +5,7 @@ using Content.Shared.Gibbing.Events;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.Map;
+using Robust.Shared.Network;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
@@ -18,6 +19,7 @@ public sealed class GibbingSystem : EntitySystem
     [Dependency] private readonly SharedAudioSystem _audioSystem = default!;
     [Dependency] private readonly SharedPhysicsSystem _physicsSystem = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
+    [Dependency] private readonly INetManager _net = default!; // Goobstation
 
     //TODO: (future optimization) implement a system that "caps" giblet entities by deleting the oldest ones once we reach a certain limit, customizable via CVAR
 
@@ -187,7 +189,7 @@ public sealed class GibbingSystem : EntitySystem
             _audioSystem.PlayPredicted(gibbable.Comp.GibSound, parentXform.Coordinates, null);
         }
 
-        if (gibType == GibType.Gib)
+        if (gibType == GibType.Gib && _net.IsServer) // Goob edit
             QueueDel(gibbable);
         return true;
     }
@@ -287,7 +289,7 @@ public sealed class GibbingSystem : EntitySystem
 
         var gibbedEvent = new EntityGibbedEvent(gibbable, localGibs);
         RaiseLocalEvent(gibbable, ref gibbedEvent);
-        if (deleteTarget)
+        if (deleteTarget && _net.IsServer) // Goob edit
             QueueDel(gibbable);
         return localGibs;
     }

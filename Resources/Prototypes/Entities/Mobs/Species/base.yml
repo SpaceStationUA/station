@@ -83,6 +83,7 @@
           False: {visible: false}
   - type: StatusIcon
     bounds: -0.5,-0.5,0.5,0.5
+  - type: HasJobIcons # Goobstation
   - type: RotationVisuals
     defaultRotation: 90
     horizontalRotation: 90
@@ -220,6 +221,8 @@
         type: RadialSelectorMenuBUI
       enum.ListViewSelectorUiKey.Key:
         type: ListViewSelectorBUI
+      enum.WizardTeleportUiKey.Key: # Goobstation - wizard
+        type: WizardTeleportBoundUserInterface
       enum.SurgeryUIKey.Key:
         type: SurgeryBui
   - type: Puller

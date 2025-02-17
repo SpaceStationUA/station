@@ -23,7 +23,7 @@ namespace Content.Server.Inventory
             }
         }
 
-        public void TransferEntityInventories(Entity<InventoryComponent?> source, Entity<InventoryComponent?> target)
+        public void TransferEntityInventories(Entity<InventoryComponent?> source, Entity<InventoryComponent?> target, bool force = true) // Goob edit
         {
             if (!Resolve(source.Owner, ref source.Comp) || !Resolve(target.Owner, ref target.Comp))
                 return;
@@ -31,8 +31,8 @@ namespace Content.Server.Inventory
             var enumerator = new InventorySlotEnumerator(source.Comp);
             while (enumerator.NextItem(out var item, out var slot))
             {
-                if (TryUnequip(source, slot.Name, true, true, inventory: source.Comp))
-                    TryEquip(target, item, slot.Name , true, true, inventory: target.Comp);
+                if (TryUnequip(source, slot.Name, true, force, inventory: source.Comp))
+                    TryEquip(target, item, slot.Name , true, force, inventory: target.Comp);
             }
         }
     }

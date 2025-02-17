@@ -28,17 +28,5 @@ public sealed class MageSpawnRule : StationEventSystem<MageSpawnRuleComponent>
         };
 
         _map.TryLoad(shuttleMap, component.MageShuttlePath, out _, options);
-
-        // var nukeopsEntity = _gameTicker.AddGameRule(component.GameRuleProto);
-        // component.AdditionalRule = nukeopsEntity;
-        // _gameTicker.StartGameRule(nukeopsEntity);
-    }
-
-    protected override void Ended(EntityUid uid, MageSpawnRuleComponent component, GameRuleComponent gameRule, GameRuleEndedEvent args)
-    {
-        base.Ended(uid, component, gameRule, args);
-
-        // if (component.AdditionalRule != null)
-        //     GameTicker.EndGameRule(component.AdditionalRule.Value);
     }
 }

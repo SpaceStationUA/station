@@ -1,0 +1,30 @@
+- type: entity
+  name: syndie bee
+  suffix: Angry, syndicate
+  parent: [ MobAngryBee ]
+  id: MobSyndieAngryBee
+  description: How nice a bee. Oh no, it looks angry and wants my pizza.
+  components:
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+    - Syndicate
+
+- type: entity
+  suffix: Angry, weak
+  id: MobAngryBeeWeak
+  parent: MobAngryBee
+  components:
+  - type: MeleeWeapon
+    attackRate: 2
+    damage:
+      types:
+        Piercing: 1
+  - type: TimedDespawn
+    lifetime: 7
+  - type: HTN
+    blackboard:
+      VisionRadius: !type:Single
+        3
+      AggroVisionRadius: !type:Single
+        3

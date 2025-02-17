@@ -178,6 +178,18 @@ public sealed partial class NPCBlackboard : IEnumerable<KeyValuePair<string, obj
                 value = hands.ActiveHand;
                 return true;
             }
+            case ActiveHandEntity: // Goobstation
+            {
+                if (!TryGetValue(Owner, out owner, entManager) ||
+                    !entManager.TryGetComponent<HandsComponent>(owner, out var hands) ||
+                    hands.ActiveHandEntity == null)
+                {
+                    return false;
+                }
+
+                value = hands.ActiveHandEntity;
+                return true;
+            }
             case ActiveHandFree:
             {
                 if (!TryGetValue(Owner, out owner, entManager) ||
@@ -287,6 +299,7 @@ public sealed partial class NPCBlackboard : IEnumerable<KeyValuePair<string, obj
 
     public const string Access = "Access";
     public const string ActiveHand = "ActiveHand";
+    public const string ActiveHandEntity = "ActiveHandEntity"; // Goobstation
     public const string ActiveHandFree = "ActiveHandFree";
     public const string CanMove = "CanMove";
     public const string FreeHands = "FreeHands";

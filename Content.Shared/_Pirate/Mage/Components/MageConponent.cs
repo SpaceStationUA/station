@@ -90,7 +90,7 @@ public sealed partial class MageComponent : Component
     #endregion
 
     [DataField]
-    public ProtoId<AlertPrototype> Alert = "ShadowkinPower";
+    public ProtoId<AlertPrototype> Alert = "ChangelingChemicals";
 
 }
 

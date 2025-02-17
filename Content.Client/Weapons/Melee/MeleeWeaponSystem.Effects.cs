@@ -236,7 +236,30 @@ public sealed partial class MeleeWeaponSystem
                 targetPos += entRotation.RotateVec(arcComponent.Offset);
             }
 
-            TransformSystem.SetWorldPosition(xform, targetPos);
+            // Goob edit start
+            if (arcComponent.TrackRotation)
+            {
+                var angle = GetParentRotation(Transform(arcComponent.User.Value));
+
+                if (angle == null)
+                    TransformSystem.SetWorldPosition(xform, targetPos);
+                else
+                {
+                    var newAngle = angle.Value + arcComponent.RotationOffset;
+                    TransformSystem.SetWorldPositionRotation(arcComponent.User.Value, targetPos, newAngle, xform);
+                }
+            }
+            else
+                TransformSystem.SetWorldPosition(xform, targetPos);
+            // Goob edit end
         }
+    }
+
+    private Angle? GetParentRotation(TransformComponent xform) // Goobstation
+    {
+        if (xform.ParentUid == xform.GridUid || xform.ParentUid == xform.MapUid || !Exists(xform.ParentUid))
+            return TransformSystem.GetWorldRotation(xform);
+
+        return null;
     }
 }

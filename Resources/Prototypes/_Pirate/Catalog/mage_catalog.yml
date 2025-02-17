@@ -11,18 +11,18 @@
   - !type:ListingLimitedStockCondition
     stock: 1
 
-- type: listing
-  id: MageDash
-  name: Телепорт
-  description: Телепорт у полі зору, не через перешкоди.
-  productAction: ActionMageDash
-  cost:
-    Experince: 2
-  categories:
-  - MageAbilities
-  conditions:
-  - !type:ListingLimitedStockCondition
-    stock: 1
+#- type: listing
+#  id: MageDash
+#  name: Телепорт
+#  description: Телепорт у полі зору, не через перешкоди.
+#  productAction: ActionMageDash
+#  cost:
+#    Experince: 2
+#  categories:
+#  - MageAbilities
+#  conditions:
+#  - !type:ListingLimitedStockCondition
+#    stock: 1
 
 - type: listing
   id: MageKnock
@@ -40,7 +40,7 @@
 - type: listing
   id: MageFireball
   name: Фаербол
-  description: EXPLOSION!
+  description: Вибухово!
   productAction: MageAbilityFireball
   cost:
     Experince: 2
@@ -53,7 +53,7 @@
 - type: listing
   id: MageIcicle
   name: Бурулька
-  description: EXPLOSION!
+  description: Вибухово!
   productAction: MageAbilityIcicle
   cost:
     Experince: 2
@@ -80,7 +80,7 @@
   id: MageLightning
   name: Блискавка
   description: Сила тесли!
-  # productEntity: ClothingHandsGlovesColorBlueIsolated
+  productEntity: ClothingHandsGlovesColorYellow
   productAction: MageAbilityLightning
   cost:
     Experince: 2
@@ -90,18 +90,18 @@
   - !type:ListingLimitedStockCondition
     stock: 1
 
-- type: listing
-  id: MageBlind
-  name: Осліплення
-  description: Шось в їхніх очах!
-  productAction: MageAbilityBlind
-  cost:
-    Experince: 2
-  categories:
-  - MageAbilities
-  conditions:
-  - !type:ListingLimitedStockCondition
-    stock: 1
+#- type: listing
+#  id: MageBlind
+#  name: Осліплення
+#  description: Шось в їхніх очах!
+#  productAction: MageAbilityBlind
+#  cost:
+#    Experince: 2
+#  categories:
+#  - MageAbilities
+#  conditions:
+#  - !type:ListingLimitedStockCondition
+#    stock: 1
 
 - type: listing
   id: MageSmoke
@@ -129,18 +129,18 @@
   - !type:ListingLimitedStockCondition
     stock: 1
 
-- type: listing
-  id: MageMindSwap
-  name: Свап розуму
-  description: ти це я, а я це ти
-  productAction: MageAbilityMindSwap
-  cost:
-    Experince: 2
-  categories:
-  - MageAbilities
-  conditions:
-  - !type:ListingLimitedStockCondition
-    stock: 1
+#- type: listing
+#  id: MageMindSwap
+#  name: Свап розуму
+#  description: ти це я, а я це ти
+#  productAction: MageAbilityMindSwap
+#  cost:
+#    Experince: 2
+#  categories:
+#  - MageAbilities
+#  conditions:
+#  - !type:ListingLimitedStockCondition
+#    stock: 1
 
 - type: listing
   id: MageHeal
@@ -155,18 +155,18 @@
   - !type:ListingLimitedStockCondition
     stock: 1
 
-- type: listing
-  id: MageAnimeteDead
-  name: Оживлення метвеця
-  description: Підняти скелет!
-  productAction: MageAbilityAnimateDead
-  cost:
-    Experince: 2
-  categories:
-  - MageAbilities
-  conditions:
-  - !type:ListingLimitedStockCondition
-    stock: 1
+#- type: listing
+#  id: MageAnimeteDead
+#  name: Оживлення метвеця
+#  description: Підняти скелет!
+#  productAction: MageAbilityAnimateDead
+#  cost:
+#    Experince: 2
+#  categories:
+#  - MageAbilities
+#  conditions:
+#  - !type:ListingLimitedStockCondition
+#    stock: 1
 
 - type: listing
   id: MageMagicMissile
@@ -217,15 +217,15 @@
   categories:
   - MageUtility
 
-- type: listing
-  id: MageCloak
-  name: магічний плащ
-  description: Плащ що зкриває вашу сутність.
-  productEntity: ClothingNeckCloakVoidMagic
-  cost:
-    Experince: 2
-  categories:
-  - MageUtility
+#- type: listing
+#  id: MageCloak
+#  name: магічний плащ
+#  description: Плащ що приховує вашу сутність.
+#  productEntity: ClothingNeckCloakVoidMagic
+#  cost:
+#    Experince: 2
+#  categories:
+#  - MageUtility
 
 - type: listing
   id: MageBat
@@ -277,15 +277,15 @@
   categories:
   - MageUtility
 
-- type: listing
-  id: MageMagicEnergyCutlass
-  name: Магічний світлова сабля
-  description: світлова сабля
-  productEntity: MagicEnergyCutlass
-  cost:
-    Experince: 2
-  categories:
-  - MageUtility
+#- type: listing
+#  id: MageMagicEnergyCutlass
+#  name: Магічний світлова сабля
+#  description: світлова сабля
+#  productEntity: MagicEnergyCutlass
+#  cost:
+#    Experince: 2
+#  categories:
+#  - MageUtility
 
 - type: listing
   id: MageMagicGunMultiphasePolymorh
@@ -311,7 +311,7 @@
   id: MageMagicMirror
   name: Щит-дзеркало
   description: Лети туди звідки прилетіло
-  productEntity: MirrorShield
+  productEntity: MirrorShieldCult
   cost:
     Experince: 2
   categories:

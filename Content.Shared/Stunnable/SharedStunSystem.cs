@@ -7,10 +7,12 @@ using Content.Shared.Item;
 using Content.Shared.Bed.Sleep;
 using Content.Shared.Database;
 using Content.Shared.Hands;
+using Content.Shared.Jittering;
 using Content.Shared.Mobs;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Movement.Events;
 using Content.Shared.Movement.Systems;
+using Content.Shared.Speech.EntitySystems;
 using Content.Shared.Standing;
 using Content.Shared.StatusEffect;
 using Content.Shared.Throwing;
@@ -37,6 +39,9 @@ public abstract class SharedStunSystem : EntitySystem
     [Dependency] private readonly StatusEffectsSystem _statusEffect = default!;
     [Dependency] private readonly SharedLayingDownSystem _layingDown = default!;
     [Dependency] private readonly SharedContainerSystem _container = default!;
+    [Dependency] private readonly SharedStutteringSystem _stutter = default!; // goob edit
+    [Dependency] private readonly SharedJitteringSystem _jitter = default!; // goob edit
+    [Dependency] private readonly ClothingModifyStunTimeSystem _modify = default!; // goob edit
 
     /// <summary>
     /// Friction modifier for knocked down players.
@@ -206,6 +211,11 @@ public abstract class SharedStunSystem : EntitySystem
     public bool TryKnockdown(EntityUid uid, TimeSpan time, bool refresh, DropHeldItemsBehavior behavior,
         StatusEffectsComponent? status = null)
     {
+        time *= _modify.GetModifier(uid); // Goobstation
+
+        if (!HasComp<LayingDownComponent>(uid)) // Goobstation - only knockdown mobs that can lie down
+            return false;
+
         if (time <= TimeSpan.Zero || !Resolve(uid, ref status, false))
             return false;
 
@@ -220,14 +230,32 @@ public abstract class SharedStunSystem : EntitySystem
     }
 
     /// <summary>
+    ///     Goobstation.
+    ///     Try knockdown, if it fails - stun.
+    /// </summary>
+    public bool KnockdownOrStun(EntityUid uid, TimeSpan time, bool refresh, StatusEffectsComponent? status = null)
+    {
+        return TryKnockdown(uid, time, refresh, status) || TryStun(uid, time, refresh, status);
+    }
+
+    /// <summary>
     ///     Knocks down the entity, making it fall to the ground.
     /// </summary>
     public bool TryKnockdown(EntityUid uid, TimeSpan time, bool refresh,
         StatusEffectsComponent? status = null)
     {
-        if (time <= TimeSpan.Zero
-            || !Resolve(uid, ref status, false)
-            || !_statusEffect.TryAddStatusEffect<KnockedDownComponent>(uid, "KnockedDown", time, refresh))
+        time *= _modify.GetModifier(uid); // Goobstation
+
+        if (!HasComp<LayingDownComponent>(uid)) // Goobstation - only knockdown mobs that can lie down
+            return false;
+
+        if (time <= TimeSpan.Zero)
+            return false;
+
+        if (!Resolve(uid, ref status, false))
+            return false;
+
+        if (!_statusEffect.TryAddStatusEffect<KnockedDownComponent>(uid, "KnockedDown", time, refresh))
             return false;
 
         var ev = new KnockedDownEvent();

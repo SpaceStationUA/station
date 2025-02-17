@@ -6,10 +6,13 @@ using Content.Shared.Examine;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Interaction;
+using Content.Shared.Tag;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Popups;
 using Content.Shared._Shitmed.Targeting;
+using Content.Shared.Damage.Components;
 using Content.Shared.Throwing;
+using Content.Shared.Weapons.Ranged.Components;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Map;
 using Robust.Shared.Network;
@@ -18,6 +21,7 @@ using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Dynamics;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Timing;
 using Content.Shared.Standing;
@@ -38,6 +42,9 @@ public abstract partial class SharedProjectileSystem : EntitySystem
     [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly SharedBodySystem _body = default!;
     [Dependency] private readonly StandingStateSystem _standing = default!;
+	[Dependency] private readonly TagSystem _tag = default!;
+
+    private static readonly ProtoId<TagPrototype> GunCanAimShooterTag = "GunCanAimShooter";
 
     public override void Initialize()
     {
@@ -200,8 +207,16 @@ public abstract partial class SharedProjectileSystem : EntitySystem
 
     private void PreventCollision(EntityUid uid, ProjectileComponent component, ref PreventCollideEvent args)
     {
-        if (component.IgnoredEntities.Contains(args.OtherEntity)) // Goobstation Hardlight bow 
+        if (component.IgnoredEntities.Contains(args.OtherEntity)) // Goobstation
+        {
             args.Cancelled = true;
+            return;
+        }
+
+        if ((component.Shooter == args.OtherEntity || component.Weapon == args.OtherEntity) &&
+            component.Weapon != null && _tag.HasTag(component.Weapon.Value, GunCanAimShooterTag) &&
+            TryComp(uid, out TargetedProjectileComponent? targeted) && targeted.Target == args.OtherEntity)
+            return;
 
         if (component.IgnoreShooter && (args.OtherEntity == component.Shooter || args.OtherEntity == component.Weapon))
         {

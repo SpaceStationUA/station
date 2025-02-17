@@ -25,6 +25,9 @@ using Robust.Server.Containers;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using System.Linq;
+using Content.Server._Goobstation.Wizard.NPC;
+using Content.Shared.Wieldable;
+using Content.Shared.Wieldable.Components;
 
 namespace Content.Server.NPC.Systems;
 
@@ -48,6 +51,8 @@ public sealed class NPCUtilitySystem : EntitySystem
     [Dependency] private readonly WeldableSystem _weldable = default!;
     [Dependency] private readonly ExamineSystemShared _examine = default!;
     [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
+    [Dependency] private readonly MobThresholdSystem _thresholdSystem = default!;
+    [Dependency] private readonly WieldableSystem _wieldable = default!; // Goobstation
 
     private EntityQuery<PuddleComponent> _puddleQuery;
     private EntityQuery<TransformComponent> _xformQuery;
@@ -275,6 +280,20 @@ public sealed class NPCUtilitySystem : EntitySystem
                 }
 
                 return Math.Clamp(distance / radius, 0f, 1f);
+            }
+            case TargetRequiresWieldAndCanWieldCon: // Goobstation
+            {
+                if (!HasComp<GunRequiresWieldComponent>(targetUid) ||
+                    !TryComp(targetUid, out WieldableComponent? wieldable))
+                    return 1f;
+
+                if (!_wieldable.CanWield(targetUid, wieldable, owner, true))
+                    return 0f;
+
+                var beforeWieldEv = new BeforeWieldEvent();
+                RaiseLocalEvent(targetUid, beforeWieldEv);
+
+                return beforeWieldEv.Cancelled ? 0f : 1f;
             }
             case TargetAmmoCon:
             {
