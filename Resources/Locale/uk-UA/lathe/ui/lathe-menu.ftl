@@ -16,7 +16,7 @@ lathe-menu-material-amount = { $amount ->
 lathe-menu-no-materials-message = Матеріали не завантажені.
 lathe-menu-fabricating-message = Виготовлення...
 lathe-menu-materials-title = Матеріали
-lathe-menu-queue-title = Побудувати чергу
+lathe-menu-queue-title = Черга створення
 
 lathe-menu-material-amount-missing = { $amount ->
     [1] {NATURALFIXED($amount, 2)} {$unit} з {$material} ([color=red]{NATURALFIXED($missingAmount, 2)} {$unit} відсутній[/color])

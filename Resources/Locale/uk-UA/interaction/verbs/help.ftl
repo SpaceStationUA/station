@@ -8,7 +8,7 @@ interaction-HelpUp-success-others-popup = {THE($user)} допомагає {THE($
 interaction-HelpUp-fail-self-popup = Ви не допомогли {THE($target)} встати.
 interaction-HelpUp-fail-target-popup = {THE($user)} не може допомогти вам встати.
 
-interaction-ForceDown-name = Опустити зброю
+interaction-ForceDown-name = Примусити лягти
 interaction-ForceDown-description = Змусьте людину лягти на підлогу.
 interaction-ForceDown-delayed-self-popup = Ви намагаєтесь примусити {THE($target)} опуститися...
 interaction-ForceDown-delayed-target-popup = {THE($user)} намагається змусити вас вийти...
@@ -29,7 +29,7 @@ interaction-MakeSleepOther-success-self-popup = Ви присипляєте {THE
 interaction-MakeSleepOther-success-target-popup = {THE($user)} засинає.
 interaction-MakeSleepOther-success-others-popup = {THE($user)} присипляє {THE($target)}.
 
-interaction-ShakeOther-name = Потисни руку
+interaction-ShakeOther-name = Потрясти
 interaction-ShakeOther-description = Потряси ціль.
 interaction-ShakeOther-fail-self-popup = Вам якось не вдається потрясти {THE($target)}.
 interaction-ShakeOther-fail-target-popup = {THE($user)} якось не діє на вас.
