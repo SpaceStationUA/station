@@ -4,7 +4,7 @@
   description: Спис давнього культу Ратвара, знайдений архіологами Синдикату
   productEntity: RatvarianSpear
   cost:
-    Telecrystal: 6
+    Telecrystal: 30
   categories:
   - UplinkJob
   conditions:
@@ -19,7 +19,7 @@
   icon: { sprite: /Textures/_Pirate/Entities/Mobs/Animals/syndiemothroach.rsi, state: syndiemothroach }
   productEntity: MobSyndicateMothroach
   cost:
-    Telecrystal: 8
+    Telecrystal: 40
   categories:
     - UplinkAllies
 
@@ -30,7 +30,7 @@
   icon: { sprite: /Textures/_Pirate/Objects/Weapons/Melee/contractor_baton.rsi, state: stunbaton_on }
   productEntity: Contractorbaton
   cost:
-    Telecrystal: 8
+    Telecrystal: 40
   categories:
     - UplinkWeapons
 
@@ -41,7 +41,7 @@
   icon: { sprite: /Textures/_Pirate/Objects/Devices/syndicate_teleporter.rsi, state: icon }
   productEntity: SyndicateTeleporter
   cost:
-    Telecrystal: 12
+    Telecrystal: 60
   categories:
   - UplinkUtility
 
@@ -52,7 +52,7 @@
   productEntity: CrateSyndicateMiamiBundle
   icon: { sprite: DeltaV/Clothing/Head/Misc/tony.rsi, state: icon }
   cost:
-    Telecrystal: 10
+    Telecrystal: 50
   categories:
     - UplinkBundles
   conditions:
@@ -72,7 +72,7 @@
   icon: { sprite: /Textures/_Pirate/Clothing/OuterClothing/Armor/syndie_oper.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledCQC
   cost:
-    Telecrystal: 16
+    Telecrystal: 80
   categories:
     - UplinkArmor
   conditions:
@@ -88,7 +88,7 @@
   description: uplink-energy-dome-desc
   productEntity: EnergyDomeGeneratorPersonalSyndie
   cost:
-    Telecrystal: 8
+    Telecrystal: 40
   categories:
   - UplinkArmor
   conditions:
@@ -104,7 +104,7 @@
   description: hoverbike
   productEntity: HoverbikeSyndicateFlatpack
   cost:
-    Telecrystal: 10
+    Telecrystal: 50
   categories:
   - UplinkDeception
   conditions:
@@ -121,7 +121,7 @@
   icon: { sprite: /Textures/_Pirate/Objects/Weapons/Guns/SMGs/csar.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledCSAR
   cost:
-    Telecrystal: 14
+    Telecrystal: 70
   categories:
   - UplinkBundles
   saleLimit: 1
@@ -133,7 +133,7 @@
   icon: { sprite: /Textures/_Pirate/Clothing/OuterClothing/Hardsuits/cybersunstealth.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateStealthHardsuitBundle
   cost:
-    Telecrystal: 15 # might be op? needs testing to see. increase price to 90 TC when we merge the upstream fix that hides HUD stuff for stealthed entities.
+    Telecrystal: 75 # might be op? needs testing to see. increase price to 90 TC when we merge the upstream fix that hides HUD stuff for stealthed entities.
   categories:
   - UplinkArmor
   saleLimit: 1
@@ -145,7 +145,7 @@
   icon: { sprite: /Textures/_Goobstation/Objects/Weapons/Guns/Cannons/syringe_gun.rsi, state: dart-syringe-gun }
   productEntity: DartSyringeGun
   cost:
-    Telecrystal: 6 # goob
+    Telecrystal: 30 # goob
   categories:
   - UplinkChemicals
   conditions:
