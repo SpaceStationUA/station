@@ -7,7 +7,7 @@
   icon: { sprite: /Textures/Objects/Specific/Mech/mecha.rsi, state: darkgygax }
   productEntity: CrateCybersunDarkGygaxBundle
   cost:
-    Telecrystal: 50 # Einstein Engines -  1/5th the price due to no telecrystal rework
+    Telecrystal: 400
   categories:
   - UplinkAllies
 
@@ -18,8 +18,7 @@
   icon: { sprite: /Textures/Objects/Specific/Mech/mecha.rsi, state: mauler }
   productEntity: CrateCybersunMaulerBundle
   cost:
-    Telecrystal: 70 # Einstein Engines - lower the price due to no telecrystal rework
-                     # cost reduced such that nukies can still only buy one with all pooled nukies' TC
+    Telecrystal: 525
   categories:
   - UplinkAllies
   conditions:
@@ -36,7 +35,7 @@
   icon: { sprite: /Textures/_Goobstation/Objects/Weapons/Guns/Pistols/Dualetta.rsi, state: icon }
   productEntity: BriefcaseSyndieDualettaBundleFilled
   cost:
-    Telecrystal: 15
+    Telecrystal: 75
   categories:
   - UplinkWeaponry
 
@@ -47,7 +46,7 @@
   icon: { sprite: /Textures/_Goobstation/Objects/Weapons/Guns/Pistols/Dualetta.rsi, state: icon }
   productEntity: BoxDualettaKit
   cost:
-    Telecrystal: 13
+    Telecrystal: 65
   categories:
   - UplinkWeaponry
 
@@ -59,7 +58,7 @@
   icon: { sprite:  /Textures/_Goobstation/Objects/Weapons/Guns/Bow/hardlight_bow.rsi, state: icon }
   productEntity: BowHardlight
   cost:
-    Telecrystal: 16
+    Telecrystal: 80
   categories:
   - UplinkWeaponry
 
@@ -70,6 +69,6 @@
   description: uplink-dimension-pot-desc
   productEntity: DimensionPot
   cost:
-    Telecrystal: 5
+    Telecrystal: 25
   categories:
   - UplinkDeception

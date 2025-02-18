@@ -3,16 +3,15 @@
   name: job-name-lawyer
   description: job-description-lawyer
   playTimeTracker: JobLawyer
-  antagAdvantage: 2 # DeltaV - Reduced TC: Security Radio and Access
   requirements:
-    - !type:CharacterOverallTimeRequirement
-      min: 18000 #Pirate 5 hrs
-    - !type:CharacterDepartmentTimeRequirement # DeltaV - Security dept time requirement
-      department: Security
-      min: 14400 # 4 hours
+   - !type:CharacterOverallTimeRequirement
+     min: 18000 #Pirate 5 hrs
+   - !type:CharacterDepartmentTimeRequirement # DeltaV - Security dept time requirement
+     department: Security
+     min: 14400 # 4 hours
   startingGear: LawyerGear
   icon: "JobIconLawyer"
-  supervisors: job-supervisors-mag  
+  supervisors: job-supervisors-mag
   access:
   # - Service - DeltaV, removed from service department
   - Justice # DeltaV - Justice dept
