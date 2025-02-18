@@ -1,3 +1,4 @@
+using Content.Server._Goobstation.Wizard.Components;
 using Content.Server.Antag;
 using Content.Server.GameTicking.Rules;
 using Content.Server.GameTicking.Rules.Components;
@@ -17,6 +18,7 @@ public sealed class MakeATraitorSystem : EntitySystem
         Changeling = 3,
         Heretic = 4,
         Blob = 5,
+        Wizard = 6,
     }
 
     [ValidatePrototypeId<EntityPrototype>]
@@ -36,6 +38,9 @@ public sealed class MakeATraitorSystem : EntitySystem
 
     [ValidatePrototypeId<EntityPrototype>]
     private const string DefaultBlobRule = "Blob";
+
+    [ValidatePrototypeId<EntityPrototype>]
+    private const string DefaultWizardRule = "Wizard";
 
     [Dependency] private readonly AntagSelectionSystem _antag = default!;
 
@@ -66,9 +71,17 @@ public sealed class MakeATraitorSystem : EntitySystem
             case TraitorType.Blob:
                 MakeBlob(entity);
                 break;
+            case TraitorType.Wizard:
+                MakeWizard(player);
+                break;
             default:
                 return;
         }
+    }
+
+    private void MakeWizard(ICommonSession? target)
+    {
+        _antag.ForceMakeAntag<WizardRuleComponent>(target, "Wizard");
     }
 
     private void MakeBlob(EntityUid target)
