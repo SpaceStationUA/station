@@ -750,23 +750,23 @@
 #  - !type:ListingLimitedStockCondition
 #    stock: 1
 
-# Event
-- type: listing
-  id: SpellbookEventDimensionShift
-  name: spellbook-event-dimension-shift-name
-  description: spellbook-event-dimension-shift-desc
-  productEvent: !type:DimensionShiftEvent
-  icon:
-    sprite: _Goobstation/Wizard/Icons/spellbook.rsi
-    state: icemoon
-  cost:
-    WizCoin: 0
-  categories:
-  - SpellbookEvents
-  conditions:
-  - !type:ListingLimitedStockCondition
-    stock: 1
-  disableRefund: true
+# Event CAUSE BUGS and LAGS
+#- type: listing
+#  id: SpellbookEventDimensionShift
+#  name: spellbook-event-dimension-shift-name
+#  description: spellbook-event-dimension-shift-desc
+#  productEvent: !type:DimensionShiftEvent
+#  icon:
+#    sprite: _Goobstation/Wizard/Icons/spellbook.rsi
+#    state: icemoon
+#  cost:
+#    WizCoin: 0
+#  categories:
+#  - SpellbookEvents
+#  conditions:
+#  - !type:ListingLimitedStockCondition
+#    stock: 1
+#  disableRefund: true
 
 # Special
 - type: listing
