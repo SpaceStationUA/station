@@ -172,3 +172,5 @@ chat-manager-language-prefix = ({ $language }){" "}
 
 chat-speech-verb-skeleton-4 = клацання
 chat-speech-verb-skeleton-5 = тріщини
+chat-speech-verb-name-supermatter = Надматерія
+chat-speech-verb-supermatter = стани

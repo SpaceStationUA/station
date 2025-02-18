@@ -28,3 +28,6 @@ injector-component-injecting-user = Ви почали вводити голку.
 injector-component-drawing-target = {CAPITALIZE(THE($user))} намагається використати голку, щоб взяти рідину з вас!
 injector-component-injecting-target = {CAPITALIZE($user)} намагається встромити в вас голку!
 injector-component-deny-chitinid = Екзоскелет {CAPITALIZE(THE($target))} занадто товстий, щоб голка могла його пробити.
+injector-spent-text = Витрачено
+onetime-injector-simple-volume-label = Обсяг: [color=white]{$currentVolume}[/color] Режим: [color=white]{$modeString}[/color]
+injector-component-injecting-locked-text = Блокування для ін'єкцій
