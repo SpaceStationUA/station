@@ -522,23 +522,23 @@
     - SpellbookFullRandom
     - SpellbookSemiRandom
 
-- type: listing
-  id: SpellbookSwap
-  productUpgradeId: SpellbookSwapUpgrade
-  name: spellbook-swap-name
-  description: spellbook-swap-desc
-  productAction: ActionSwapSpell
-  cost:
-    WizCoin: 1
-  categories:
-  - SpellbookUtility
-  conditions:
-  - !type:ListingLimitedStockCondition
-    stock: 1
-  - !type:BuyBeforeCondition
-    blacklist:
-    - SpellbookFullRandom
-    - SpellbookSemiRandom
+#- type: listing
+#  id: SpellbookSwap
+#  productUpgradeId: SpellbookSwapUpgrade
+#  name: spellbook-swap-name
+#  description: spellbook-swap-desc
+#  productAction: ActionSwapSpell
+#  cost:
+#    WizCoin: 1
+#  categories:
+#  - SpellbookUtility
+#  conditions:
+#  - !type:ListingLimitedStockCondition
+#    stock: 1
+#  - !type:BuyBeforeCondition
+#    blacklist:
+#    - SpellbookFullRandom
+#    - SpellbookSemiRandom
 
 - type: listing
   id: SpellbookSoulTap
