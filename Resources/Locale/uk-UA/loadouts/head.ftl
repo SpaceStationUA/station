@@ -1,5 +1,3 @@
-loadout-description-LoadoutHeadBeaverHat = Джентельмен.
-loadout-description-LoadoutHeadTophat = Стильний чорний тофат.
 loadout-description-LoadoutHeadHatBluesoft = Кепка.
 loadout-description-LoadoutHeadHatBluesoftFlipped = Кепка.
 loadout-description-LoadoutHeadHatCorpsoft = Кепка.

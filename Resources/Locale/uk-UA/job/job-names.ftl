@@ -24,7 +24,6 @@ job-name-centcomoff = Представник ЦК
 job-name-reporter = Журналіст
 job-name-musician = Музикант
 job-name-librarian = Бібліотекар
-job-name-lawyer = Адвокат
 job-name-mime = Мім
 job-name-ce = Головний Інженер
 job-name-janitor = Прибиральник

@@ -72,10 +72,8 @@ guide-entry-biological = Біологічний
 guide-entry-others = Інші
 guide-entry-botanical = Ботанічні препарати
 guide-entry-altars-golemancy = Вівтарі та големанство
-guide-entry-psionics = Псіоніка
 guide-entry-reverse-engineering = Реінжиніринг
 guide-entry-glimmer-creatures = Мерехтливі істоти
-guide-entry-surgery = Хірургія
 
 guide-entry-rules = Правила сервера
 guide-entry-rules-core-only = Тільки основний набір правил

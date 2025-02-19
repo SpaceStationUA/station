@@ -23,15 +23,12 @@ research-technology-space-scanning = Космічне сканування
 
 research-technology-chemistry = Хімія
 research-technology-surgical-tools = Хірургічні Інструменти
-research-technology-biochemical-stasis = Біохімічний Стазис
-research-technology-mechanized-treatment = Механізована Медицина
 research-technology-medipen-fabrication = Заправлення Медіпенів
 research-technology-virology = Вірусологія
 research-technology-cryogenics = Кріогеника
 research-technology-chemical-dispensary = Роздача Хімікатів
 research-technology-biofabrication = Біофабрикація
 research-technology-crew-monitoring = Монітор Екіпажу
-research-technology-bluespace-chemistry = Блюспейс Хімія
 research-technology-cloning = Клонування
 
 research-technology-salvage-weapons = Шахтарське Зброя
@@ -90,9 +87,6 @@ research-technology-hardsuits-scaf = Армований скафандр
 
 research-technology-mechanized-salvaging = Механізоване шахтерство
 research-technology-advanced-bluespace = Поглиблене дослідження блакитного простору
-research-technology-advanced-treatment = Поглиблене лікування
-research-technology-high-end-surgery = Хірургічні інструменти високого класу
-research-technology-cybernetic-enhancements = Кібернетичні вдосконалення
 research-technology-excavation = Масові розкопки
 
 research-technology-night-vision = Нічне бачення

@@ -7,11 +7,7 @@ reagent-desc-pinkdrink = Цілі цивілізації руйнувалися,
 reagent-name-bubbletea = бульбашковий чай
 reagent-desc-bubbletea = Велика соломинка не входить до комплекту.
 
-reagent-name-the-martinez = Мартінес
-reagent-desc-the-martinez = Легенда про еджраннера.  Пам'ятається під випивку, забувається п'яним.
 
-reagent-name-holywater = свята вода
-reagent-desc-holywater = Вода, освячена якимись потойбічними силами.
 
 reagent-name-lean = худий
 reagent-desc-lean = Огидна суміш соди, випивки та сиропу від кашлю.

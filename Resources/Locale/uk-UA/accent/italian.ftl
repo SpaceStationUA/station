@@ -78,9 +78,6 @@ accent-italian-words-replace-23 = грецький
 accent-italian-words-24 = оперативники
 accent-italian-words-replace-24 = греки
 
-accent-italian-words-24 = операції
-accent-italian-words-replace-24 = греки
-
 accent-italian-words-25 = безпека
 accent-italian-words-replace-25 = сікуреза
 

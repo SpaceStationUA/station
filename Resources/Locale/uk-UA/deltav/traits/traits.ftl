@@ -9,8 +9,6 @@ trait-deuteranopia-name = Дейтеранопія
 trait-deuteranopia-desc = Чи то через біонічні очі на замовлення, чи то через випадкову мутацію,
                           чи через те, що ви - вулканіни, у вас червоно-зелений дальтонізм.
 
-trait-uncloneable-name = Неклонований
-trait-uncloneable-desc = Не можна клонувати
 
 trait-name-ScottishAccent = Шотландський акцент
 trait-description-ScottishAccent = Для людей, які прийшли з клану Хілан.

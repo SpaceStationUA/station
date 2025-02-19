@@ -1,1 +1,0 @@
-store-currency-display-knowledgepoint = Точки знань

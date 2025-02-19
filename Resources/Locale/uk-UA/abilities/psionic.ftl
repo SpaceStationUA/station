@@ -25,9 +25,6 @@ accept-psionics-window-prompt-text-part = Ви отримали псіонічн
 action-name-psionic-invisibility = Псіонна невидимість
 action-description-psionic-invisibility = Зробіть себе невидимим для будь-якої істоти, яка потенційно може бути екстрасенсом. На боргів, тварин тощо це не впливає.
 
-action-name-psionic-invisibility = Псіонна невидимість
-action-description-psionic-invisibility = Зробіть себе невидимим для будь-якої істоти, яка потенційно може бути екстрасенсом. На боргів, тварин тощо це не впливає.
-
 action-name-psionic-invisibility-off = Вимкнути псионну невидимість
 action-description-psionic-invisibility-off = Поверніться в зону видимості та отримайте оглушення.
 

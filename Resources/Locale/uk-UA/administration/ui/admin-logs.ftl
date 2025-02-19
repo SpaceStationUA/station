@@ -14,7 +14,6 @@ admin-logs-select-none = Ні
 
 # Players
 admin-logs-search-players-placeholder = Пошук гравців (АБО)
-admin-logs-select-none = Ні
 admin-logs-include-non-player = Включити не гравців
 
 # Журнали

@@ -167,11 +167,6 @@ cmd-hint-savebp-id = <Grid EntityID>
 
 ## 'flushcookies' command
 # Note: the flushcookies command is from Robust.Client.WebView, it's not in the main engine code.
-
-cmd-flushcookies-desc = Flush CEF cookie storage to disk
-cmd-flushcookies-help = This ensure cookies are properly saved to disk in the event of unclean shutdowns.
-    Note that the actual operation is asynchronous.
-
 cmd-ldrsc-desc = Pre-caches a resource.
 cmd-ldrsc-help = Usage: ldrsc <path> <type>
 
@@ -299,8 +294,6 @@ cmd-savegrid-help = savegrid <gridID> <Path>
 cmd-testbed-desc = Loads a physics testbed on the specified map.
 cmd-testbed-help = testbed <mapid> <test>
 
-cmd-saveconfig-desc = Saves the client configuration to the config file.
-cmd-saveconfig-help = saveconfig
 
 ## 'flushcookies' command
 # Note: the flushcookies command is from Robust.Client.WebView, it's not in the main engine code.
@@ -342,10 +335,6 @@ cmd-testlog-help = Usage: testlog <sawmill> <level> <message>
     sawmill: A label prefixing the logged message.
     level: The log level. Must match one of the values of the LogLevel enum.
     message: The message to be logged. Wrap this in double quotes if you want to use spaces.
-
-## 'vv' command
-cmd-vv-desc = Opens View Variables.
-cmd-vv-help = Usage: vv <entity ID|IoC interface name|SIoC interface name>
 
 ## 'showvelocities' command
 cmd-showvelocities-desc = Displays your angular and linear velocities.
@@ -443,8 +432,6 @@ cmd-overrideplayername-help = Usage: overrideplayername <name>
 cmd-showanchored-desc = Shows anchored entities on a particular tile
 cmd-showanchored-help = Usage: showanchored
 
-cmd-dmetamem-desc = Dumps a type's members in a format suitable for the sandbox configuration file.
-cmd-dmetamem-help = Usage: dmetamem <type>
 
 cmd-dmetamem-desc = Displays chunk bounds for the purposes of rendering.
 cmd-dmetamem-help = Usage: showchunkbb <type>
@@ -511,9 +498,6 @@ cmd-showgridnodes-help = Usage: showgridnodes
 
 cmd-profsnap-desc = Make a profiling snapshot.
 cmd-profsnap-help = Usage: profsnap
-
-cmd-devwindow-desc = Dev Window
-cmd-devwindow-help = Usage: devwindow
 
 cmd-devwindow-desc = Open file
 cmd-devwindow-help = Usage: testopenfile

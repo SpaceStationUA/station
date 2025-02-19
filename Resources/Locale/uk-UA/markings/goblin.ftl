@@ -8,6 +8,3 @@ marking-GoblinNoseBasic = Базовий ніс
 marking-GoblinNoseLong = Довгий Ніс
 marking-GoblinNoseCrooked = Кривий Ніс
 # ікла гобліна
-marking-GoblinTusksBasic = Без іклів
-marking-GoblinTusksSmall = Малі бивні
-marking-GoblinTusksBig = Довгі ікла

@@ -3,7 +3,6 @@ advertisement-courierdrobe-2 = Чудова інвестиція для вашо
 advertisement-courierdrobe-3 = Носіть коричневий з гордістю!
 advertisement-courierdrobe-4 = Ці шорти зручні та легкі в носінні, придбайте свої зараз!
 advertisement-courierdrobe-5 = У нашому стильному одязі випередиш будь-яку небезпеку!
-thankyou-courierdrobe-1 = Now get out there and deliver that mail!
 thankyou-courierdrobe-1 = Ці посилки самі себе не доставлять!
 
 thankyou-courierdrobe-2 = Ці посилки самі себе не доставлять!

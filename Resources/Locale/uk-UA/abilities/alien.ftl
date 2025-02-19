@@ -44,7 +44,6 @@ action-transfer-plasma-alien = Трансферна плазма
 action-transfer-plasma-alien-desc = Перелийте 50 плазми сусідній сестрі.
 
 alien-plasma-left = У вас залишилося {$value} для використання.
-alien-create-structure-failed = You can't create structure here.
 alien-action-fail-plasma = У вас недостатньо плазми, щоб зробити це.
 
 alien-acid-name = Корозійна кислота

@@ -189,7 +189,6 @@ ui-options-function-editor-rotate-object = Повернути
 ui-options-function-editor-flip-object = Розвернути
 ui-options-function-editor-copy-object = Копіювати
 
-ui-options-function-open-abilities-menu = Відкрити меню дій
 ui-options-function-show-debug-console = Відкрити консоль
 ui-options-function-show-debug-monitors = Показати інформацію налагодження
 ui-options-function-inspect-entity = Вивчити сутність

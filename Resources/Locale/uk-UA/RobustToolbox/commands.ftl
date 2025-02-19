@@ -166,11 +166,6 @@ cmd-hint-savebp-id = <Ідентифікатор сітки>
 
 ## Команда 'flushcookies'
 # Примітка: команда flushcookies походить з Robust.Client.WebView, її немає в основному коді рушія.
-
-cmd-flushcookies-desc = Очистити сховище файлів cookie CEF на диску
-cmd-flushcookies-help = Це забезпечує належне збереження файлів cookie на диску у випадку нештатного завершення роботи.
-    Зверніть увагу, що операція виконується асинхронно.
-
 cmd-ldrsc-desc = Попередньо кешує ресурс.
 cmd-ldrsc-help = Використання: ldrsc <шлях> <тип>
 
@@ -294,8 +289,6 @@ cmd-savegrid-help = використання: savegrid <gridID> <Шлях>
 cmd-testbed-desc = Завантажує фізичний тестовий стенд на вказаній мапі.
 cmd-testbed-help = використання: testbed <mapid> <тест>
 
-cmd-saveconfig-desc = Зберігає конфігурацію клієнта у файл.
-cmd-saveconfig-help = використання: saveconfig
 
 ## Команда 'flushcookies'
 # Примітка: команда flushcookies походить з Robust.Client.WebView, її немає в основному коді рушія.
@@ -337,10 +330,6 @@ cmd-testlog-help = Використання: testlog <sawmill> <level> <пові
     Лісопилка: мітка, що додається до повідомлень журналу.
     Рівень: рівень журналу. Має відповідати одному з значень перерахування LogLevel.
     Повідомлення: повідомлення, яке буде записано до журналу. Використовуйте подвійні лапки, якщо хочете використати пробіли.
-
-## Команда 'vv'
-cmd-vv-desc = Відкриває вікно перегляду змінних.
-cmd-vv-help = Використання: vv <ідентифікатор сутності | назва інтерфейсу IoC | назва інтерфейсу SIoC>.
 
 ## Команда 'showvelocities'
 cmd-showvelocities-desc = Відображає кутову та лінійну швидкість.
@@ -445,9 +434,6 @@ cmd-overrideplayername-help = Використання: overrideplayername <ім
 cmd-showanchored-desc = Показує прив'язані сутності на певній плитці
 cmd-showanchored-help = Використання: showanchored
 
-cmd-dmetamem-desc = Вивантажує члени типу в формат, придатний для конфігураційного файлу sandbox.
-cmd-dmetamem-help = Використання: dmetamem <тип>.
-
 cmd-dmetamem-desc = Відображає межі фрагментів для цілей рендерингу.
 cmd-dmetamem-help = Використання: showchunkbb <тип>
 
@@ -513,9 +499,6 @@ cmd-showgridnodes-help = Використання: showgridnodes
 
 cmd-profsnap-desc = Створює знімок для профілювання.
 cmd-profsnap-help = Використання: profsnap
-
-cmd-devwindow-desc = Відкриває вікно розробника.
-cmd-devwindow-help = Використання: devwindow.
 
 cmd-devwindow-desc = Відкриває файл
 cmd-devwindow-help = Використання: testopenfile

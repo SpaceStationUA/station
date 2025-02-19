@@ -5,7 +5,6 @@ loadout-description-LoadoutCommandCapJumpsuitFormal = Вбрання досит�
 loadout-description-LoadoutCommandCapJumpskirtFormal = Вбрання досить вигадливе. Цікаво, куди він міг прямувати, щоб виправдати такий стильний вигляд.
 loadout-description-LoadoutCommandCapOuterWinter = Тепле пальто для космічного холоду.
 loadout-description-LoadoutCommandCapGloves = Рукавички капітана. Це дуже гарні рукавички.
-loadout-description-LoadoutCommandCapHat = The hat of the captain. It is a very nice hat.
 loadout-description-LoadoutCommandCapHatCapcap = Капітанський кашкет, дуже гарний.
 loadout-description-LoadoutCommandCapHat = Капітанський берет, дуже гарний.
 loadout-description-LoadoutCommandCapMaskGas = Навіщо це капітану? Не знаю, але виглядає круто.

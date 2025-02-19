@@ -35,11 +35,6 @@ reagent-effect-guidebook-foam-area-reaction-effect =
         *[other] create
     } large quantities of foam
 
-reagent-effect-guidebook-foam-area-reaction-effect = { $chance ->
-        [1] створює
-        *[other] створює
-    } велику кількість диму
-
 reagent-effect-guidebook-satiate-thirst = { $chance ->
         [1] насичує
         *[other] насичує
@@ -332,12 +327,18 @@ reagent-effect-guidebook-smoke-area-reaction-effect = { $chance ->
     } велику кількість диму
 reagent-effect-guidebook-purify-evil = Очищає від злих сил
 reagent-effect-guidebook-plant-diethylamine = { $chance ->
-		[1] Збільшує
-		*[other] збільшує
-	} тривалість життя та/або базового здоров'я рослини з імовірністю 10% для кожного
+      [1] Збільшує
+      *[other] збільшує
+    } тривалість життя та/або базового здоров'я рослини з імовірністю 10% для кожного
 reagent-effect-guidebook-plant-robust-harvest = { $chance ->
         [1] Збільшує
         *[other] збільшує
     } потужність рослини на {$increase} до максимальної величини {$limit}. При досягненні потужності {$seedlesstreshold} рослина втрачає насіння. Спроба додати потужність понад {$limit} може спричинити зниження врожаю з ймовірністю 10%
-reagent-effect-guidebook-plant-seeds-add = { $chance -> [1] Відновлює *[other] відновити } насіння рослини
-reagent-effect-guidebook-plant-seeds-remove = { $chance -> [1] Видаляє *[other] видаляє } насіння рослини
+reagent-effect-guidebook-plant-seeds-add = { $chance ->
+        [1] Відновлює
+        *[other] відновити
+    } насіння рослини
+reagent-effect-guidebook-plant-seeds-remove = { $chance ->
+        [1] Видаляє
+        *[other] видаляє
+    } насіння рослини

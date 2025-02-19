@@ -17,7 +17,6 @@ marking-FoxThreeTails-foxthreetailstone1 = Внутрішній
 marking-FoxThreeTails-foxthreetailstone2 = Зовнішній
 
 marking-HorseTailCulty = Кінський хвіст
-marking-HorseTailCulty = Хвіст
 
 marking-HorseTailLong = Довгий кінський хвіст
 marking-HorseTailLong-horsetaillong = Хвіст

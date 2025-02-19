@@ -70,7 +70,6 @@ petting-failure-medibot = Ви тягнетесь, аби попестити «{
 ## Knocking on windows
 
 # Shown when knocking on a window
-comp-window-knock = *тук тук*
 
 ## Rattling fences
 

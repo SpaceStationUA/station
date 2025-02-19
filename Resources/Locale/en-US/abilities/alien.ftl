@@ -44,7 +44,6 @@ action-transfer-plasma-alien = Transfer plasma
 action-transfer-plasma-alien-desc = Transfer 50 plasma to nearby sister.
 
 alien-plasma-left = You have {$value} left for use.
-alien-create-structure-failed = You can't create structure here.
 alien-action-fail-plasma = You don't have enough plasma to make this.
 
 alien-acid-name = Corrosive acid

@@ -13,7 +13,6 @@ chat-speech-verb-harpy-2 = цвірінькає
 chat-speech-verb-harpy-3 = скрегоче
 chat-speech-verb-harpy-4 = трелить
 
-chat-speech-verb-name-goblin = Гоблін
 chat-speech-verb-goblin-1 = бурчить
 chat-speech-verb-goblin-2 = вокери
 chat-speech-verb-goblin-3 = випалює

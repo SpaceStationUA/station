@@ -10,9 +10,6 @@ accent-archaic-replacement-3 = чекаю твоєї відповіді
 accent-archaic-replaced-4 = отримати
 accent-archaic-replacement-4 = забезпечити
 
-accent-archaic-replaced-4 = використати
-accent-archaic-replacement-4 = використовувати
-
 accent-archaic-replaced-5 = розглянути
 accent-archaic-replacement-5 = вважати
 

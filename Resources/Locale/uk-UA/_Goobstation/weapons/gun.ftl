@@ -1,9 +1,6 @@
 # EnergyGunComponent
-energygun-examine-fire-mode = Режим стрільби встановлено на {$mode}
 
 # Hardlight Bow
-ammo-selector-examine-mode = Поточний режим: {$mode}
-mode-select-verb-text = Обрати режим стрільби
 mode-selected = Обрано {$mode}
 
 # RequiresDualWieldComponent

@@ -5,7 +5,6 @@ flavor-complex-enthralling = захоплююче
 flavor-complex-sublime = піднесений
 flavor-complex-holy = божественно
 flavor-base-seeds = насіння
-flavor-complex-cotton = як бавовна
 flavor-complex-vanilla = як ваніль
 flavor-complex-soju = як сміливий, алкогольний рис
 flavor-complex-orangecreamcicle = як вершковий, алкогольний апельсиновий сік
@@ -26,7 +25,6 @@ flavor-complex-greengrass = як свято на сонці
 flavor-complex-daiquiri = модний
 flavor-complex-arsonistsbrew = як попіл і полум'я
 flavor-complex-healthcodeviolation = зловісний
-flavor-complex-pumpkin = як гарбуз
 
 flavor-complex-blellow = як неможливий колір
 flavor-complex-candy-strawberry = як полуниця

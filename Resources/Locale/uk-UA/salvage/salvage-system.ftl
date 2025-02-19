@@ -1,11 +1,7 @@
 salvage-system-announcement-source = Система управління магнітом шахтарів
-salvage-system-announcement-arrived = Частину уламків, які можна зачистити, притягнуто. Приблизний час утримання: {$timeLeft} секунд.
-salvage-system-announcement-losing = Магніт більше не в змозі утримувати уламок, який можна зачистити. Приблизний час до втрати: {$timeLeft} секунд.
 salvage-system-announcement-lost = Магніт шахтарів перестав утримувати уламок.
 
 salvage-system-announcement-spawn-magnet-lost = Магніт шахтарів був втрачений.
-salvage-system-announcement-spawn-no-debris-available = Немає уламків, які можна притягнути магнітом.
-salvage-system-announcement-spawn-debris-disintegrated = Уламок розвалився при орбітальному переміщенні.
 
 salvage-system-report-already-active = Магніт шахтарів вже активний.
 salvage-system-report-cooling-down = Магніт шахтарів охолоджується.
