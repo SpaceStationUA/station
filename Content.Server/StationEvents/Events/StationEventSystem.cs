@@ -128,4 +128,13 @@ public abstract class StationEventSystem<T> : GameRuleSystem<T> where T : ICompo
             }
         }
     }
+
+    #region Helper Functions
+
+    protected void ForceEndSelf(EntityUid uid, GameRuleComponent? component = null)
+    {
+        GameTicker.EndGameRule(uid, component);
+    }
+
+    #endregion
 }
