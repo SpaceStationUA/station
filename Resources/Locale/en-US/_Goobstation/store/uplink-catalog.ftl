@@ -8,8 +8,6 @@ uplink-hardsuit-syndiecommander-desc = A surplus commander hardsuit, from the Go
 
 # Cybersun Stealth
 
-uplink-hardsuit-cybersun-stealth-name = Cybersun Stealth Hardsuit
-uplink-hardsuit-cybersun-stealth-desc = Reversed engineered from Spider Clan technology, this hardsuit has stealth plating in it for those special ops. Slightly slower and less armor than the default hardsuits.
 
 # Misc
 
