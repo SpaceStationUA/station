@@ -1,65 +1,65 @@
 ﻿- type: construction
-  name: "лампа денного світла"
+  name: cyan light tube
   id: CyanLight
   graph: CyanLight
   startNode: start
   targetNode: icon
   category: construction-category-utilities
-  description: "Високопотужна світлова трубка, що містить кристал синього кольору"
+  description: A high powered light tube containing a cyan crystal
   icon: { sprite: Objects/Power/light_tube.rsi, state: normal }
   objectType: Item
 
 - type: construction
-  name: "синя лампочка"
+  name: blue light tube
   id: BlueLight
   graph: BlueLight
   startNode: start
   targetNode: icon
   category: construction-category-utilities
-  description: "Високопотужна світлова трубка з синім кристалом"
+  description: A high powered light tube containing a blue crystal
   icon: { sprite: Objects/Power/light_tube.rsi, state: normal }
   objectType: Item
 
 - type: construction
-  name: "рожева лампочка"
+  name: pink light tube
   id: PinkLight
   graph: PinkLight
   startNode: start
   targetNode: icon
   category: construction-category-utilities
-  description: "Високопотужна світлова трубка з рожевим кристалом"
+  description: A high powered light tube containing a pink crystal
   icon: { sprite: Objects/Power/light_tube.rsi, state: normal }
   objectType: Item
 
 - type: construction
-  name: "помаранчева лампа"
+  name: orange light tube
   id: OrangeLight
   graph: OrangeLight
   startNode: start
   targetNode: icon
   category: construction-category-utilities
-  description: "Високопотужна світлова трубка з помаранчевим кристалом"
+  description: A high powered light tube containing an orange crystal
   icon: { sprite: Objects/Power/light_tube.rsi, state: normal }
   objectType: Item
 
 - type: construction
-  name: "червона лампочка"
+  name: red light tube
   id: RedLight
   graph: RedLight
   startNode: start
   targetNode: icon
   category: construction-category-utilities
-  description: "Високопотужна світлова трубка з червоним кристалом"
+  description: A high powered light tube containing a red crystal
   icon: { sprite: Objects/Power/light_tube.rsi, state: normal }
   objectType: Item
 
 - type: construction
-  name: "зелена світлодіодна лампа"
+  name: green light tube
   id: GreenLight
   graph: GreenLight
   startNode: start
   targetNode: icon
   category: construction-category-utilities
-  description: "Високопотужна лампочка із зеленим кристалом"
+  description: A high powered light tube containing a green crystal
   icon: { sprite: Objects/Power/light_tube.rsi, state: normal }
   objectType: Item

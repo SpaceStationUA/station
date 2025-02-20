@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: DiceBag
-  name: "пакетик кубиків"
-  description: "Містить всю удачу, яка вам коли-небудь знадобиться."
+  name: bag of dice
+  description: Contains all the luck you'll ever need.
   components:
   - type: StorageFill
     contents:
@@ -28,7 +28,7 @@
 - type: entity
   parent: DiceBag
   id: MagicDiceBag
-  name: "пакетик кубиків"
+  name: bag of dice
   components:
   - type: Sprite
     sprite: Objects/Fun/dice.rsi

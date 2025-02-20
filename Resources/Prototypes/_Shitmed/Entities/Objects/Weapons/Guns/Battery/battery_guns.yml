@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseWeaponBattery]
   id: WeaponAlien
-  name: "інопланетний пістолет"
-  description: "Це військовий злочин? Можливо."
+  name: alien pistol
+  description: Is this a warcrime? Probably.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Weapons/Guns/Battery/alien.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: [BaseWeaponBattery]
   id: WeaponDecloner
-  name: "детонатор"
-  description: "Це військовий злочин? Можливо."
+  name: decloner
+  description: Is this a warcrime? Probably.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Weapons/Guns/Battery/alien.rsi
