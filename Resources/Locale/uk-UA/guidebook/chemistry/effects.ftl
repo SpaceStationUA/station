@@ -31,9 +31,9 @@ reagent-effect-guidebook-emp-reaction-effect = { $chance ->
 
 reagent-effect-guidebook-foam-area-reaction-effect =
     { $chance ->
-        [1] Creates
-        *[other] create
-    } large quantities of foam
+        [1] Створює
+        *[other] створює
+    } велику кількість піни
 
 reagent-effect-guidebook-satiate-thirst = { $chance ->
         [1] насичує

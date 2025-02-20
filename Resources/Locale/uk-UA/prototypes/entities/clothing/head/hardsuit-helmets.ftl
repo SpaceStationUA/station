@@ -106,3 +106,5 @@ ent-ClothingHeadHelmetHardsuitShanlinUnpainted = CSA-51a helmet
     .desc = Броньований шолом, що надягається на бронежилет Shanlin. Це нефарбований голий метал.
 ent-ClothingHeadHelmetHardsuitShiweiUnpainted = Шолом CSA-54UA
     .desc = Елітна версія шолома костюма Shanlin з покращеною бронею та вогнезахистом. Це нефарбований голий космічний корабельний сплав.
+ent-ClothingHeadHelmetHardsuitCybersunStealth = CSA-91x helmet
+    .desc = Помірно захисний герметичний шолом, розроблений для захисного костюму. Має метаматеріали "Cloaking".

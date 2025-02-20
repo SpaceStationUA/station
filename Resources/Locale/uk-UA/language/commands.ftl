@@ -1,11 +1,11 @@
 command-list-langs-desc = Перелічіть мови, якими може розмовляти ваша поточна організація на даний момент.
-command-list-langs-help = Usage: {$command}
+command-list-langs-help = Використання: {$command}
 
-command-saylang-desc = Send a message in a specific language.
-command-saylang-help = Usage: {$command} <language id> <message>. Example: {$command} GalacticCommon "Hello World!"
+command-saylang-desc = Надіслати повідомлення певною мовою. Для вибору мови ви можете використовувати або назву мови, або її позицію у списку мов.
+command-saylang-help = Використання: {$команда} <ідентифікатор мови> <повідомлення>. Приклад: {$command} TauCetiBasic "Hello World!". Приклад: {$command} 1 "Hello World!"
 
-command-language-select-desc = Select the currently spoken language of your entity.
-command-language-select-help = Usage: {$command} <language id>. Example: {$command} GalacticCommon
+command-language-select-desc = Виберіть мову, якою зараз розмовляють у вашій організації. Ви можете використовувати як назву мови, так і її позицію у списку мов.
+command-language-select-help = Використання: {$команда} <ідентифікатор мови>. Приклад: {$command} 1. Приклад: {$command} TauCetiBasic
 
 command-language-spoken = Домовилися:
 command-language-understood = Зрозуміло:

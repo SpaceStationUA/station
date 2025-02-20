@@ -1,8 +1,8 @@
-﻿# UI
+# UI
 admin-notes-title = Примітки для {$player}
 admin-notes-new-note = Нова записка
 admin-notes-show-more = Показати більше
-admin-notes-for = Note for: {$player}
+admin-notes-for = Примітка для: {$player}
 admin-notes-id = Ідентифікатор: {$id}
 admin-notes-type = Тип: {$type}
 admin-notes-severity = Серйозність: {$severity}
