@@ -1,8 +1,8 @@
 ﻿# Base actions
 - type: entity
   id: ActionToggleLightingAlien
-  name: "Ввімкнути все освітлення"
-  description: "Увімкніть весь рендеринг світла, щоб краще бачити темні ділянки."
+  name: Toggle All Lighting
+  description: Toggle all light rendering to better observe dark areas.
   noSpawn: true
   components:
     - type: InstantAction
@@ -50,8 +50,8 @@
 
 - type: entity
   id: ActionCombatModeToggleAlien
-  name: "[color=red]Бойовий режим[/color]"
-  description: "Увійдіть в бойовий режим"
+  name: "[color=red]Combat Mode[/color]"
+  description: Enter combat mode
   noSpawn: true
   components:
   - type: InstantAction

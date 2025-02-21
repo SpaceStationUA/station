@@ -1,7 +1,7 @@
 - type: entity
   id: ActionSmite
-  name: "Удар!"
-  description: "Миттєво знаходить ціль."
+  name: Smite
+  description: Charge your hand with an unholy energy that can be used to cause a touched victim to violently explode.
   components:
   - type: EntityTargetAction
     useDelay: 60
