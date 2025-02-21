@@ -11054,18 +11054,19 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1823
 - author: sleepyyapril
   changes:
-    - type: Fix
-      message: Ported fix for high lighting quality
+  - type: Fix
+    message: Портоване виправлення для високоякісного підсвічування
   id: 6872
   time: '2025-02-21T02:33:19.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1829
 - author: VMSolidus
   changes:
-    - type: Fix
-      message: >-
-        Singularity shouldn't escape its containment anymore. If it's still
-        escaping containment, do me a favor and revert PR 1619 (Newtonian
-        Singularity)
+  - type: Fix
+    message: >-
+      Сингулярність більше не повинна виходити з-під контролю. Якщо вона все ще
+      виходить з-під контролю, зроби мені послугу та відкотити PR 1619 (Ньютонівська
+      сингулярність)
   id: 6873
   time: '2025-02-21T08:01:55.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1830
+
