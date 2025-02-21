@@ -117,3 +117,6 @@ petting-failure-batonbot = Ви простягаєте руку, щоб погл
 petting-failure-disablerbot = Ви тягнете руку, щоб погладити {THE($target)}, але {SUBJECT($target)} сердито махає зброєю в ваш бік!
 petting-success-weldbot = Ви гладите {THE($target)} по {POSS-ADJ($target)} пофарбованій металевій голові.
 petting-failure-weldbot = Ви простягаєте руку, щоб погладити {THE($target)}, але зварювальник {POSS-ADJ($target)} ледь не обпікає вам руку!
+
+petting-success-plantbot = Ви гладите {THE($target)} по {POSS-ADJ($target)} брудній металевій голові.
+petting-failure-plantbot = Ви простягаєте руку, щоб погладити {THE($target)}, але ножиці {POSS-ADJ($target)} ледь не відрізають вам пальці!

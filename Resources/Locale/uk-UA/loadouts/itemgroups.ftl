@@ -766,3 +766,4 @@ character-item-group-LoadoutHeadOfSecurityTrinkets = Керівник відді
 character-item-group-LoadoutCards = Гральні карти
 character-item-group-TraitsMind = Розум над машиною
 character-item-group-TraitsMachine = Машина над розумом
+character-item-group-LoadoutBlueshieldOfficerPrimary = Основна зброя БШ
