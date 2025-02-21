@@ -90,6 +90,8 @@ public sealed class SlipperySystem : EntitySystem
         {
             var attemptEv = new SlipAttemptEvent();
             RaiseLocalEvent(other, attemptEv);
+            if (attemptEv.Cancelled)
+                return;
 
             var attemptCausingEv = new SlipCausingAttemptEvent();
             RaiseLocalEvent(uid, ref attemptCausingEv);
@@ -127,6 +129,7 @@ public sealed class SlipperySystem : EntitySystem
             _stun.TryParalyze(other, time, true);
         else
             _stun.KnockdownOrStun(other, time, true);
+        RaiseLocalEvent(other, new MoodEffectEvent("MobSlipped"));
 
         // Preventing from playing the slip sound when you are already knocked down.
         if (playSound)
