@@ -1374,7 +1374,7 @@ public abstract class SharedSpellsSystem : EntitySystem
     protected void SetGear(EntityUid uid,
         Dictionary<string, EntProtoId> gear,
         bool force = true,
-        bool makeUnremoveable = true,
+        bool makeUnremoveable = false,
         InventoryComponent? inventoryComponent = null)
     {
         if (_net.IsClient)
