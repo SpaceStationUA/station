@@ -38,7 +38,7 @@
         raffle:
           settings: default
         requirements:
-        - !type:OverallPlaytimeRequirement
+        - !type:CharacterOverallTimeRequirement
           time: 18000 #5 hours
         - !type:DepartmentTimeRequirement
           department: Medical
@@ -128,7 +128,7 @@
         raffle:
           settings: default
         requirements:
-        - !type:OverallPlaytimeRequirement
+        - !type:CharacterOverallTimeRequirement
           time: 18000 #5 hours
         - !type:DepartmentTimeRequirement
           department: Medical
@@ -176,7 +176,7 @@
         raffle:
           settings: default
         requirements:
-        - !type:OverallPlaytimeRequirement
+        - !type:CharacterOverallTimeRequirement
           time: 18000 #5 hours
         - !type:DepartmentTimeRequirement
           department: Security

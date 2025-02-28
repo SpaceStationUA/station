@@ -18,6 +18,9 @@
     description: ghost-role-information-space-dragon-description
     raffle:
       settings: default
+    requirements: # Goobstation - ghost roles requirements
+    - !type:CharacterOverallTimeRequirement
+      time: 18000 #5 hours
   - type: GhostTakeoverAvailable
   - type: HTN
     rootTask:

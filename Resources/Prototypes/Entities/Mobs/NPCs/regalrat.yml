@@ -92,6 +92,9 @@
     rules: ghost-role-information-rat-king-rules
     raffle:
       settings: default
+    requirements: # Goobstation - ghost roles requirements
+    - !type:CharacterOverallTimeRequirement
+      time: 18000 #5 hours
   - type: GhostTakeoverAvailable
   - type: Tag
     tags:
