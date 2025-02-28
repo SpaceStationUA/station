@@ -593,27 +593,27 @@
   - !type:ListingLimitedStockCondition
     stock: 4
 
-- type: listing
-  id: SpellbookMindSwapUpgrade
-  productUpgradeId: SpellbookMindSwapUpgrade
-  name: spellbook-upgrade-mind-swap-name
-  description: spellbook-upgrade-mind-swap-desc
-  icon:
-    sprite: _Goobstation/Wizard/actions.rsi
-    state: mindswap
-  cost:
-    WizCoin: 2
-  categories:
-  - SpellbookUtility
-  conditions:
-  - !type:BuyBeforeCondition
-    whitelist:
-    - SpellbookMindSwap
-    blacklist:
-    - SpellbookFullRandom
-    - SpellbookSemiRandom
-  - !type:ListingLimitedStockCondition
-    stock: 2
+#- type: listing
+#  id: SpellbookMindSwapUpgrade
+#  productUpgradeId: SpellbookMindSwapUpgrade
+#  name: spellbook-upgrade-mind-swap-name
+#  description: spellbook-upgrade-mind-swap-desc
+#  icon:
+#    sprite: _Goobstation/Wizard/actions.rsi
+#    state: mindswap
+#  cost:
+#    WizCoin: 2
+#  categories:
+#  - SpellbookUtility
+#  conditions:
+#  - !type:BuyBeforeCondition
+#    whitelist:
+#    - SpellbookMindSwap
+#    blacklist:
+#    - SpellbookFullRandom
+#    - SpellbookSemiRandom
+#  - !type:ListingLimitedStockCondition
+#    stock: 2
 
 - type: listing
   id: SpellbookKnockUpgrade

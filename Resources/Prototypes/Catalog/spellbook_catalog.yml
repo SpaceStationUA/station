@@ -123,23 +123,23 @@
     - SpellbookFullRandom
     - SpellbookSemiRandom
 
-- type: listing
-  id: SpellbookMindSwap
-  productUpgradeId: SpellbookMindSwapUpgrade # Goobstation
-  name: spellbook-mind-swap-name
-  description: spellbook-mind-swap-description
-  productAction: ActionMindSwapSpell
-  cost:
-    WizCoin: 2
-  categories:
-  - SpellbookUtility
-  conditions:
-  - !type:ListingLimitedStockCondition
-    stock: 1
-  - !type:BuyBeforeCondition # Goobstation
-    blacklist:
-    - SpellbookFullRandom
-    - SpellbookSemiRandom
+#- type: listing
+#  id: SpellbookMindSwap
+#  productUpgradeId: SpellbookMindSwapUpgrade # Goobstation
+#  name: spellbook-mind-swap-name
+#  description: spellbook-mind-swap-description
+#  productAction: ActionMindSwapSpell
+#  cost:
+#    WizCoin: 2
+#  categories:
+#  - SpellbookUtility
+#  conditions:
+#  - !type:ListingLimitedStockCondition
+#    stock: 1
+#  - !type:BuyBeforeCondition # Goobstation
+#    blacklist:
+#    - SpellbookFullRandom
+#    - SpellbookSemiRandom
 
 # Equipment
 - type: listing
