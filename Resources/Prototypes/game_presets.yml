@@ -3,7 +3,7 @@
   alias:
     - survival
   name: survival-title
-  showInVote: true # secret # DeltaV - Me when the survival. Used for periapsis.
+  showInVote: false # secret # DeltaV - Me when the survival. Used for periapsis.
   minPlayers: 13 #PIRATE
   description: survival-description
   rules:
@@ -15,7 +15,7 @@
   id: SurvivalHellshift
   alias:
     - hellshift
-  showInVote: true
+  showInVote: false
   name: hellshift-title
   minPlayers: 15 #PIRATE
   description: hellshift-description
@@ -27,7 +27,7 @@
 - type: gamePreset
   id: SurvivalIrregular
   alias: [irregular]
-  showInVote: true
+  showInVote: false
   minPlayers: 10 #PIRATE
   name: irregular-title
   description: irregular-description
@@ -38,7 +38,7 @@
 - type: gamePreset
   id: SurvivalIrregularExtended
   alias: [irregular-extended]
-  showInVote: true
+  showInVote: false
   minPlayers: 10 #PIRATE
   name: irregular-extended-title
   description: irregular-extended-description
@@ -51,7 +51,7 @@
   name: all-at-once-title
   minPlayers: 20 #PIRATE
   description: all-at-once-description
-  showInVote: true # PIRATE
+  showInVote: false # PIRATE
   rules:
     - Nukeops
     - Traitor
@@ -92,7 +92,7 @@
     - sekrit
   name: secret-title
   showInVote: true
-  minPlayers: 8 #PIRATE
+  minPlayers: 10 #PIRATE
   description: secret-description
   rules:
     - Secret
@@ -132,7 +132,7 @@
     - traitor
   name: traitor-title
   description: traitor-description
-  showInVote: true
+  showInVote: false
   minPlayers: 9 #PIRATE
   rules:
     - Traitor
@@ -147,7 +147,7 @@
   name: changeling-title
   description: changeling-description
   minPlayers: 15 #PIRATE
-  showInVote: true
+  showInVote: false
   rules:
     - Changeling
     - SubGamemodesRule
@@ -161,7 +161,7 @@
   name: heretic-title
   description: heretic-description
   minPlayers: 15 #PIRATE
-  showInVote: true
+  showInVote: false
   rules:
     - Heretic
     - SubGamemodesRule
@@ -187,7 +187,7 @@
     - nukeops
   name: nukeops-title
   description: nukeops-description
-  showInVote: true #PIRATE
+  showInVote: false #PIRATE
   minPlayers: 20 #PIRATE
   rules:
     - Nukeops
@@ -203,7 +203,7 @@
     - revolutionaries
   name: rev-title
   description: rev-description
-  showInVote: true #PIRATE
+  showInVote: false #PIRATE
   minPlayers: 18 #PIRATE
   rules:
     - Revolutionary
@@ -221,7 +221,7 @@
   - zomber
   name: zombie-title
   description: zombie-description
-  showInVote: true #PIRATE
+  showInVote: false #PIRATE
   minPlayers: 16 #PIRATE
   rules:
   - Zombie
