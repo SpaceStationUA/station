@@ -10,6 +10,9 @@
     rules: ghost-role-component-default-rules
     raffle:
       settings: short
+    requirements:
+    - !type:CharacterOverallTimeRequirement
+      time: 3600 # 1 hour
   - type: GhostRoleMobSpawner
     prototype: MobBingle
   - type: Sprite
