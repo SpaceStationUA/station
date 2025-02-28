@@ -43,7 +43,6 @@ using Content.Shared.Maps;
 using Content.Shared.Mind;
 using Content.Shared.Mind.Components;
 using Content.Shared.Mobs.Components;
-using Content.Shared.NPC.Components;
 using Content.Shared.NPC.Systems;
 using Content.Shared.Physics;
 using Content.Shared.Random.Helpers;
@@ -603,13 +602,25 @@ public sealed class SpellsSystem : SharedSpellsSystem
             false);
     }
 
-    protected override bool ChargeItem(EntityUid uid, EntityUid performer)
+    protected override bool ChargeItem(EntityUid uid, ChargeMagicEvent ev)
     {
         if (!TryComp(uid, out BatteryComponent? battery) || battery.CurrentCharge >= battery.MaxCharge)
             return false;
 
-        _battery.SetCharge(uid, battery.MaxCharge, battery);
-        PopupCharged(uid, performer, false);
+        if (Tag.HasTag(uid, ev.WandTag))
+        {
+            var difference = battery.MaxCharge - battery.CurrentCharge;
+            var charge = MathF.Min(difference, ev.WandChargeRate);
+            var degrade = charge * ev.WandDegradePercentagePerCharge;
+            var afterDegrade = MathF.Max(ev.MinWandDegradeCharge, battery.MaxCharge - degrade);
+            if (battery.MaxCharge > ev.MinWandDegradeCharge)
+                _battery.SetMaxCharge(uid, afterDegrade, battery);
+            _battery.AddCharge(uid, charge, battery);
+        }
+        else
+            _battery.SetCharge(uid, battery.MaxCharge, battery);
+
+        PopupCharged(uid, ev.Performer, false);
         return true;
     }
 

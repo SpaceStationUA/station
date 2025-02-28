@@ -1130,7 +1130,7 @@ public abstract class SharedSpellsSystem : EntitySystem
                 break;
             }
 
-            if (ChargeItem(item, ev.Performer))
+            if (ChargeItem(item, ev))
                 break;
         }
 
@@ -1442,7 +1442,7 @@ public abstract class SharedSpellsSystem : EntitySystem
 
     protected virtual void SpawnMonkeys(SummonSimiansEvent ev) { }
 
-    protected virtual bool ChargeItem(EntityUid uid, EntityUid performer)
+    protected virtual bool ChargeItem(EntityUid uid, ChargeMagicEvent ev)
     {
         return true;
     }
