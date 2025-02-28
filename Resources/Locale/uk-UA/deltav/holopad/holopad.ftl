@@ -30,7 +30,7 @@ holopad-justice-attorney = Юстиція - Адвокат
 holopad-justice-clerk = Юстиція - Клерк
 
 # Security
-holopad-security-corpsman = Безпека - БрігМедик
+holopad-security-corpsman = СБ - БрігМедик
 
 # General
 holopad-general-park = Загальний - Парк
@@ -49,14 +49,14 @@ holopad-service-toolroom = Сервіс - Кімната інструменті�
 holopad-service-barber-shop = Сервіс - Перукарня
 
 # Station Specific
-holopad-security-perma-kitchen = Безпека - Перма кухня
-holopad-security-perma-botany = Безпека - Перма ботаніка
-holopad-security-perma-yard-one = Безпека - Перма двір 1
-holopad-security-perma-yard-two = Безпека - Перма двір 2
-holopad-security-perma-workshop = Безпека - Перма майстерня
-holopad-security-perma-guard-complex = Безпека - Перма комплекс охорони
-holopad-security-perma-mineshaft = Безпека - Перма шахта
-holopad-security-perma-arena = Безпека - арена
-holopad-security-perma-gladiator-lounge = Безпека - лаунж гладіаторів
+holopad-security-perma-kitchen = СБ - Перма кухня
+holopad-security-perma-botany = СБ - Перма ботаніка
+holopad-security-perma-yard-one = СБ - Перма двір 1
+holopad-security-perma-yard-two = СБ - Перма двір 2
+holopad-security-perma-workshop = СБ - Перма майстерня
+holopad-security-perma-guard-complex = СБ - Перма комплекс охорони
+holopad-security-perma-mineshaft = СБ - Перма шахта
+holopad-security-perma-arena = СБ - арена
+holopad-security-perma-gladiator-lounge = СБ - лаунж гладіаторів
 holopad-general-spesscar-track = Загальний - Спесскарський трек
 

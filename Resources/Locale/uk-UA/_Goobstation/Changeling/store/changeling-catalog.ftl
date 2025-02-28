@@ -4,10 +4,10 @@
 evolutionmenu-combat-armblade-name = Рукоятка
 evolutionmenu-combat-armblade-desc = Перетворіть одну з ваших рук на гротескне лезо, що складається з кісток і плоті, здатне відкривати повітряні шлюзи і різати ворогів, як масло. Легко обрубується. Коштує 15 хімікатів.
 
-evolutionmenu-combat-armhammer-name = Арм Хаммер
+evolutionmenu-combat-armhammer-name = Ручний Молот
 evolutionmenu-combat-armhammer-desc = Перетворіть одну з ваших рук на гротескний молот, що складається з кісток і плоті, здатний розбивати ваших супротивників, збиваючи їх з ніг і відправляючи в політ. Збиває з ніг лише при легкій атаці. Коштує 15 хімікатів.
 
-evolutionmenu-combat-armclaw-name = Кіготь на руці
+evolutionmenu-combat-armclaw-name = Кігтеруки
 evolutionmenu-combat-armclaw-desc = Перетворіть одну з ваших рук на гротескний кіготь, що складається з кісток і плоті, здатний хапати ваших супротивників, знерухомлюючи їх. Коштує 15 хімікатів.
 
 evolutionmenu-combat-dartgun-name = Рушниця для стрільби з дротиків

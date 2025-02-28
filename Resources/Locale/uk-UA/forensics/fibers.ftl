@@ -25,7 +25,7 @@ fibers-regal-blue = сині
 fibers-olive = оливкові
 
 fibers-dyed = пофарбовані волокна
-fibers-silver = срібло
-fibers-gold = золото
+fibers-silver = срібний
+fibers-gold = золотий
 fibers-maroon = бордовий
 fibers-pink = рожевий

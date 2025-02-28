@@ -2,18 +2,18 @@
 holopad-window-title = {CAPITALIZE($title)}
 holopad-window-subtitle = [color=white][bold]Голографічна система зв'язку[/bold][/color]
 holopad-window-options = [color=darkgray][font size=10][italic]Будь ласка, виберіть варіант зі списку нижче[/italic][/font][/color]
-holopad-window-no-calls-in-progress = Голосові дзвінки не здійснюються
-holopad-window-incoming-call = Вхідний голосовий дзвінок від:
+holopad-window-no-calls-in-progress = Голографічна комунікація відсутня
+holopad-window-incoming-call = З'єднання Голографічної Комунікації від:
 holopad-window-outgoing-call = Спроба встановити з'єднання...
-holopad-window-call-in-progress = Триває голосові дзвінки
+holopad-window-call-in-progress = Триває Голографічна Комунікація
 holopad-window-call-ending = Від'єднання...
 holopad-window-call-rejected = Не вдається встановити з'єднання
-holopad-window-ai-request = Просимо вашої присутності:
+holopad-window-ai-request = Ваша присутність була запитана:
 holopad-window-emergency-broadcast-in-progress = [color=#cf2f2f][bold]Триває екстрена трансляція[/bold][/color]
 holopad-window-controls-locked-out = Керування цим пристроєм заблоковано:
 holopad-window-controls-unlock-countdown = Він автоматично розблокується: {$countdown}
-holopad-window-answer-call = Відповідаю на дзвінок
-holopad-window-end-call = Кінець зв'язку
+holopad-window-answer-call = Відповісти на дзвінок
+holopad-window-end-call = Закінчити зв'язок
 holopad-window-request-station-ai = Запитати станційний ШІ
 holopad-window-activate-projector = Увімкнути проектор
 holopad-window-emergency-broadcast = Екстрена трансляція
@@ -63,7 +63,7 @@ holopad-medical-paramedic = Медичний - Фельдшер
 holopad-medical-virology = Медичний - Вірусологія
 holopad-medical-front = Медичний - Вхід
 holopad-medical-breakroom = Медичний - Кімната відпочинку
-holopad-cargo-front = Вантаж - Фронт
+holopad-cargo-front = Вантаж - Вхід
 holopad-cargo-bay = Вантаж - Вантажний відсік
 holopad-cargo-salvage-bay = Вантаж - аварійний відсік
 holopad-cargo-breakroom = Вантаж - Кімната відпочинку
@@ -97,7 +97,7 @@ holopad-service-kitchen = Сервіс - Кухня
 holopad-service-botany = Сервіс - Ботаніка
 holopad-service-chapel = Сервіс - Каплиця
 holopad-service-library = Сервіс - Бібліотека
-holopad-service-newsroom = Сервіс - Новини
+holopad-service-newsroom = Сервіс - Журналістська
 holopad-service-zookeeper = Сервіс - Доглядач зоопарку
 holopad-service-boxer = Сервіс - Боксер
 holopad-service-clown = Сервіс - Клоун

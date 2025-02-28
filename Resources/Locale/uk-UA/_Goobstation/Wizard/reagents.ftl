@@ -11,7 +11,7 @@ reagent-effect-guidebook-drop-items = { $chance ->
 reagent-name-thick-smoke = густий дим
 reagent-desc-thick-smoke = Надзвичайно густий дим з магічними властивостями. Його не варто вдихати.
 
-reagent-name-mugwort = чай з полинового чаю
+reagent-name-mugwort = полиновий чай
 reagent-desc-mugwort = Колись вважалося, що ця досить гірка трава має магічні захисні властивості.
 
 reagent-comp-condition-wizard-or-apprentice = майстер або учень

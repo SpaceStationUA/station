@@ -6,5 +6,5 @@ store-refund-window-refund-disabled = Повернення коштів відк
 store-refund-window-nothing-to-refund = Повертати нічого.
 
 store-caregory-spellbook-summons = Виклик істот
-store-caregory-spellbook-special = Спеціальний
+store-caregory-spellbook-special = Особливі
 store-caregory-spellbook-bundles = Набори

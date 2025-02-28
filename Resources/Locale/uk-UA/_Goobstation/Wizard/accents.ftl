@@ -8,9 +8,9 @@ accent-words-alt-frog-1 = ГУУУУУ!!
 accent-words-alt-frog-2 = КУРЮ!!
 accent-words-alt-frog-3 = Привіт, моя малятко, привіт, моя люба, привіт, моя дівчино рэгтайму.
 accent-words-alt-frog-4 = Погано, чувак.
-accent-words-alt-frog-5 = ВІДСТАНЬ, ЧУВАК, ВІД МЕНЕ!!
+accent-words-alt-frog-5 = ЗАБЕРІТЬ ЦЬОГО ЧЕЛА ВІД МЕНЕ!!
 accent-words-alt-frog-6 = ХТОСЬ, ЗУПИНИ МЕНЕ!!
-accent-words-alt-frog-7 = Нормали, геть звідси!!
+accent-words-alt-frog-7 = НОРМІСИ, АНУ ВИЙШЛИ!!
 
 # Cow
 accent-words-cow-1 = Муууу!

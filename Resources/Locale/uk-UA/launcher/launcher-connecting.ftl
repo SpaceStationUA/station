@@ -11,7 +11,7 @@ connecting-disconnected = Відключення:
 connecting-tip = Повернись живим!
 connecting-window-tip = Порада { $numberTip }
 connecting-version = вер 0.1
-connecting-fail-reason = Помилка при підключення:
+connecting-fail-reason = Помилка при підключенні:
                          { $reason }
 connecting-state-NotConnecting = Не підключається
 connecting-state-ResolvingHost = Налаштування на хост

@@ -23,4 +23,4 @@ comms-console-message-too-long = Повідомлення занадто дов�
 
 # Значення-заповнювачі
 comms-console-menu-time-remaining = Час, що залишився: {$time}
-comms-console-announcement-title-station-ai = Станція штучного інтелекту
+comms-console-announcement-title-station-ai = Штучний Інтелект Станції
