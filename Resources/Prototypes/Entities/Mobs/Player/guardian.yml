@@ -105,6 +105,7 @@
       tags:
         - CannotSuicide
         - NoPaint
+    - type: MovementIgnoreGravity # Goobstation
 
 # From the uplink injector
 - type: entity
@@ -191,6 +192,10 @@
     - type: HTN # Goobstation
       rootTask:
         task: SimpleHumanoidHostileCompound
+    - type: Tag # Goobstation
+      tags:
+        - CannotSuicide
+        - ShowWizardIcons
 
 - type: entity
   name: HoloClown
