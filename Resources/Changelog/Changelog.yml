@@ -11108,3 +11108,122 @@ Entries:
   id: 6878
   time: '2025-02-21T16:46:25.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1831
+- author: EctoplasmIsGood
+  changes:
+    - type: Tweak
+      message: Місткість вдосконаленого промислового зварювального апарату збільшено з 250 до 500.
+    - type: Tweak
+      message: Швидкість вдосконаленого промислового зварювального апарату збільшено з 1.3x до 1.5x.
+    - type: Tweak
+      message: Місткість експериментального зварювального апарату зменшено з 1000 до 200.
+    - type: Tweak
+      message: Кількість палива для зварювання, що генерується експериментальним зварювальним апаратом, зменшено з 1u до 0.5u.
+    - type: Tweak
+      message: Швидкість експериментального зварювального апарату збільшено з 1x до 2x.
+  id: 6879
+  time: '2025-02-22T03:46:30.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1832
+- author: Timfa2112
+  changes:
+    - type: Tweak
+      message: Зварювальні боти тепер можуть ремонтувати певні конструкції, такі як вікна та заземлювальні стрижні.
+  id: 6880
+  time: '2025-02-22T18:08:01.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1838
+- author: Timfa2112
+  changes:
+    - type: Tweak
+      message: Трікордазин тепер лікує НЕЗНАЧНУ кількість радіаційного ушкодження. Це стосується і медичних ботів. Якщо ушкодження більше, ніж крихітне, зверніться до медичного відділу! Це також вирішує проблему, коли медичний бот постійно набридає вам з приводу 0.1 од. радіаційного ушкодження, бо вважає, що може його вилікувати, в той час, як ліки, які він вводив (до цієї зміни), насправді нічого не робили.
+  id: 6881
+  time: '2025-02-24T00:21:05.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1840
+- author: Timfa2112
+  changes:
+    - type: Add
+      message: Додано тканинні обгортки до спорядження для рук.
+  id: 6882
+  time: '2025-02-25T02:16:52.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1841
+- author: EctoplasmIsGood
+  changes:
+    - type: Tweak
+      message: Зменшено шкоду в ближньому бою голопаразита з 20 до 10 одиниць тупої шкоди.
+    - type: Tweak
+      message: Зменшено швидкість ближнього бою голопаразита з 1.8 до 0.3.
+  id: 6883
+  time: '2025-02-25T05:22:08.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1843
+- author: Diggy
+  changes:
+    - type: Tweak
+      message: Змінено значення характеристики нанобота з 0,9 до 0,6.
+    - type: Fix
+      message: Біонічні ноги ТЕПЕР працюють, ура.
+  id: 6884
+  time: '2025-02-25T14:39:19.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1833
+- author: LaryNevesPR
+  changes:
+    - type: Fix
+      message: Виправлено помилку, через яку сухожилля не завдавали шкоди! Обережно!
+  id: 6885
+  time: '2025-02-25T22:06:27.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1835
+- author: Tonk
+  changes:
+    - type: Add
+      message: Таярани тепер мають окремі позначки для очей, зап'ясть, татуювань та макіяжу.
+  id: 6886
+  time: '2025-02-27T00:03:30.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1834
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: Мозолі, що б'ють, більше не вимагають, щоб ви були однією з 3 професій і Людиною. Також збільшено шкоду з +1 до +2.
+    - type: Tweak
+      message: Біонічна Спінаретта БІЛЬШЕ не повинна мати штрафу до голоду і коштує менше.
+    - type: Tweak
+      message: Швидкість загоєння Фабрик Тромбоцитів збільшено з 0.07 до 0.35, втрати повітря зменшено з 0.7 до 0.25, а максимальний рівень зцілення збільшено з 200 до 400.
+    - type: Tweak
+      message: Зменшено вартість Термального Бачення, щоб вона відповідала Нічному Баченню.
+    - type: Tweak
+      message: Максимальний рівень зцілення Фабрик Тромбоцитів IPC збільшено з 200 до 250.
+    - type: Tweak
+      message: Кібер-очі з Омніхудом тепер доступні також для Командування.
+    - type: Fix
+      message: Виправлено назву та опис модулів Кібер-очей для Нічного та Термального Бачення.
+    - type: Remove
+      message: Видалено "Розум над Машиною" з модулів Кібер-очей.
+  id: 6887
+  time: '2025-02-27T02:27:48.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1828
+- author: ShirouAjisai
+  changes:
+    - type: Add
+      message: Додано плюшеву іграшку Тіньовика до ящиків та іншого.
+    - type: Tweak
+      message: Змінено вікові рамки Тіньовиків.
+  id: 6888
+  time: '2025-02-27T03:39:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1684
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Функція TraitAddTag.
+  id: 6889
+  time: '2025-02-27T04:52:38.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1846
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: Додано Павукоткацтво до Арахни.
+  id: 6890
+  time: '2025-02-27T07:02:55.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1847
+- author: Timfa2112
+  changes:
+    - type: Add
+      message: Додано вимикач Центкому як опцію спорядження для Представника НаноТрейзен.
+  id: 6891
+  time: '2025-02-27T18:48:23.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1845
