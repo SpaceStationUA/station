@@ -33,7 +33,7 @@ using Content.Shared.Mobs.Components;
 using Robust.Shared.Prototypes;
 using Content.Server.Heretic.EntitySystems;
 using Content.Shared.Chat;
-
+using Content.Server._Goobstation.Heretic.EntitySystems.PathSpecific;
 
 namespace Content.Server.Heretic.Abilities;
 
@@ -68,6 +68,7 @@ public sealed partial class HereticAbilitySystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prot = default!;
     [Dependency] private readonly ProtectiveBladeSystem _pblade = default!;
     [Dependency] private readonly StatusEffectsSystem _statusEffect = default!;
+    [Dependency] private readonly VoidCurseSystem _voidcurse = default!;
 
     private List<EntityUid> GetNearbyPeople(Entity<HereticComponent> ent, float range)
     {
