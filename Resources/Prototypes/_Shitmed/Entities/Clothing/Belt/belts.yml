@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingBeltStorageBase
+  parent: [ ClothingBeltUtility ]
   id: ClothingAbductorBelt
   name: alien belt
   description: Can hold various OUR things. # I was going to change this, but it's funny so it stays.
@@ -8,46 +8,3 @@
     sprite: _Shitmed/Clothing/Belt/abductor.rsi
   - type: Clothing
     sprite: _Shitmed/Clothing/Belt/abductor.rsi
-  - type: Storage
-    maxItemSize: Normal
-    grid:
-    - 0,0,9,1
-    whitelist:
-      tags:
-        - Powerdrill
-        - Wirecutter
-        - Crowbar
-        - Screwdriver
-        - Flashlight
-        - Wrench
-        - GeigerCounter
-        - Flare
-        - CableCoil
-        - CigPack
-        - Radio
-        - Knife
-        - Multitool
-        - AppraisalTool
-        - JawsOfLife
-        - GPS
-        - WeldingMask
-      components:
-        - SurgeryTool
-        - SprayPainter
-        - NetworkConfigurator
-        - Welder
-        - PowerCell
-        - Geiger
-        - TrayScanner
-        - GasAnalyzer
-        - HandLabeler
-        - Stunbaton
-        - FlashOnTrigger
-        - SmokeOnTrigger
-        - Flash
-        - Handcuff
-        - BallisticAmmoProvider
-        - Ammo
-  - type: Appearance
-  - type: StaticPrice
-    price: 1000
