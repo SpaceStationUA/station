@@ -60,3 +60,5 @@ accent-words-jackal-1 = Тяв!
 accent-words-jackal-2 = Гав!
 accent-words-jackal-3 = Гав!
 accent-words-jackal-4 = АУУУУУ!
+
+accent-words-alt-raven-1 = Більше ніколи..

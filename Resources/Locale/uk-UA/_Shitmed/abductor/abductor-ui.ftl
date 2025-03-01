@@ -46,3 +46,9 @@ abductor-ui-experimentator-not-found = експериментатор: [color=re
 abductor-ui-victim-none = жертва: [color=red]НЕМАЄ[/color]
 abductor-ui-victim-found = жертва: [color=green]{$victim}[/color]
 abductor-ui-armor-plug-in = [color=red][font size=16]Вам потрібно підключити броню викрадача![/font][/color]
+abductor-lone-ghost-role-name = Самотній викрадач
+abductor-lone-ghost-role-desc = Викрадати людей і набивати їх експериментальними органами сумнівного походження самостійно.
+abductor-scientist-ghost-role-name = Вчений-викрадач
+abductor-scientist-ghost-role-desc = Телепортуйте викрадених напарником людей на свій корабель і начиняйте їх експериментальними органами сумнівного походження.
+abductor-agent-ghost-role-name = Агент викрадачів
+abductor-agent-ghost-role-desc = Викрадати людей для того, щоб ваш партнер пересадив їм експериментальні органи сумнівного походження.
