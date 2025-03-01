@@ -1,8 +1,8 @@
 - type: entity
-  name: station warrant
+  name: "ордер на арешт"
   parent: Paper
   id: PaperStationWarrant
-  description: 'A paper warrant issued by the justice department.'
+  description: "Паперовий ордер, виданий департаментом юстиції."
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: Paper
   id: PaperCrateHydroCoConsumption
-  name: HydroCo Notice
+  name: "Повідомлення HydroCo"
   categories: [ HideSpawnMenu ]
   components:
   - type: Paper
@@ -54,7 +54,7 @@
 - type: entity
   parent: Paper
   id: PaperMailHydroCoTrial
-  name: HydroCo Trial Message
+  name: "Пробне повідомлення HydroCo"
   categories: [ HideSpawnMenu ]
   components:
   - type: Paper
