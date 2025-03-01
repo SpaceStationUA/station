@@ -225,3 +225,34 @@
     - type: RandomStatusActivation
       statusEffects:
         ExpelGas: ExpelGas
+
+- type: entity
+  id: OrganDubiousSteptriggerImmune
+  parent: OrganDubiousBase
+  components:
+  - type: Sprite
+    state: viral
+  - type: Organ
+    onAdd:
+    - type: StepTriggerImmune
+      whitelist:
+        types:
+        - Shard
+        - Landmine
+        - Mousetrap
+        - Lava
+        - Chasm
+        - SlipTile
+        - SlipEntity
+          
+- type: entity
+  id: OrganDubiousVentcrawler
+  parent: OrganDubiousBase
+  components:
+  - type: Sprite
+    state: viral
+  - type: Organ
+    onAdd:
+    - type: VentCrawler
+      allowInventory: false
+

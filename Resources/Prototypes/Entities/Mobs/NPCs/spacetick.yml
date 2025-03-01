@@ -4,6 +4,7 @@
   parent: SimpleSpaceMobBase
   description: It's a space tick, watch out for its nasty bite. CentCom reports that 90 percent of logistics leg amputations are due to space tick bites. # DeltaV - Logistics Department replacing Cargo
   components:
+  - type: VentCrawler # goobstation - Ventcrawl
   - type: InputMover
   - type: MobMover
   - type: HTN
