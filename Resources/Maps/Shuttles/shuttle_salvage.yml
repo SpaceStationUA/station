@@ -19,6 +19,7 @@ entities:
       name: map 2215
     - type: Transform
     - type: Map
+      mapPaused: True
     - type: PhysicsMap
     - type: GridTree
     - type: MovedGrids
@@ -37,7 +38,7 @@ entities:
       chunks:
         0,0:
           ind: 0,0
-          tiles: RAAAAAAARAAAAAAARAAAAAAARAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAARAAAAAAARAAAAAAARAAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAARAAAAAAARAAAAAAARAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAARAAAAAAARAAAAAAARAAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAfgAAAAAAfgAAAAAAfgAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAewAAAAAAQgAAAAAAQgAAAAAAfgAAAAAAfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAewAAAAAAewAAAAAAQgAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAewAAAAAAewAAAAAAQgAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAewAAAAAAewAAAAAAQgAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAewAAAAAAewAAAAAAfgAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAAAAAAQgAAAAAAfgAAAAAAfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfgAAAAAAfgAAAAAAfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          tiles: RAAAAAAARAAAAAAARAAAAAAARAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAARAAAAAAARAAAAAAARAAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAARAAAAAAARAAAAAAARAAAAAAARAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAARAAAAAAARAAAAAAARAAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAfgAAAAAAfgAAAAAAfgAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAewAAAAAAewAAAAAAewAAAAAAfgAAAAAAfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAewAAAAAAewAAAAAAewAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAewAAAAAAewAAAAAAQgAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAewAAAAAAewAAAAAAQgAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAewAAAAAAewAAAAAAfgAAAAAAfgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQgAAAAAAQgAAAAAAfgAAAAAAfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfgAAAAAAfgAAAAAAfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
           version: 6
         0,-1:
           ind: 0,-1
@@ -83,7 +84,7 @@ entities:
             27: 1,3
             28: 0,-1
             29: 3,-1
-            39: -3,-1
+            37: -3,-1
         - node:
             color: '#FFFFFFFF'
             id: Box
@@ -96,17 +97,23 @@ entities:
             color: '#0CFFFFFF'
             id: BoxGreyscale
           decals:
-            40: 0,1
-            41: 0,7
-            42: -2,5
-            43: -1,5
+            38: 0,1
+            39: 0,7
+            40: -2,5
+            41: -1,5
+        - node:
+            angle: 6.283185307179586 rad
+            color: '#FFFFFFFF'
+            id: Caution
+          decals:
+            44: 1.9347682,-3.823842
         - node:
             angle: 4.71238898038469 rad
             color: '#FFFFFFFF'
             id: LoadingArea
           decals:
-            34: 3,2
-            35: 3,0
+            42: 3,2
+            43: 3,0
         - node:
             color: '#FFFFFFFF'
             id: WarnEndN
@@ -128,14 +135,13 @@ entities:
           decals:
             11: 2,8
             12: 2,7
-            13: 2,6
-            14: 1,5
             21: -4,1
         - node:
+            angle: 4.71238898038469 rad
             color: '#FFFFFFFF'
-            id: WarnLineW
+            id: WarnLineS
           decals:
-            15: 1,5
+            45: 2,6
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinCornerSe
@@ -148,11 +154,9 @@ entities:
             1: -1,8
             2: -1,9
             3: -1,10
-            6: 1,6
             7: 1,7
             8: 1,8
             9: 1,9
-            10: 0,5
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinLineN
@@ -164,25 +168,24 @@ entities:
             id: WoodTrimThinLineS
           decals:
             4: -2,7
-            5: 1,6
         - node:
             cleanable: True
             color: '#0CFFFFFF'
             id: heart
           decals:
-            38: -0.32708877,-2.693675
+            36: -0.32708877,-2.693675
         - node:
             cleanable: True
             color: '#0CFFFFFF'
             id: q
           decals:
-            36: 1.5738986,4.7820377
+            34: 1.5738986,4.7820377
         - node:
             cleanable: True
             color: '#0CFFFFFF'
             id: snake
           decals:
-            37: -1.0770888,-4.7583256
+            35: -1.0770888,-4.7583256
     - type: GridAtmosphere
       version: 2
       data:
@@ -289,13 +292,11 @@ entities:
       container: 234
 - proto: AirCanister
   entities:
-  - uid: 222
+  - uid: 240
     components:
     - type: Transform
       pos: 2.5,-2.5
       parent: 2
-    - type: AtmosDevice
-      joinedGrid: 2
 - proto: AirlockSalvageGlassLocked
   entities:
   - uid: 177
@@ -371,6 +372,13 @@ entities:
     - type: Transform
       pos: 4.5,0.5
       parent: 2
+- proto: Autolathe
+  entities:
+  - uid: 193
+    components:
+    - type: Transform
+      pos: -0.5,3.5
+      parent: 2
 - proto: BlastDoorWindows
   entities:
   - uid: 218
@@ -400,6 +408,34 @@ entities:
       links:
       - 221
       - 223
+- proto: BodyBagFolded
+  entities:
+  - uid: 237
+    components:
+    - type: Transform
+      pos: 2.730495,7.1014633
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+  - uid: 239
+    components:
+    - type: Transform
+      pos: 2.2624106,7.080187
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+- proto: Bucket
+  entities:
+  - uid: 233
+    components:
+    - type: Transform
+      pos: 3.4430563,-0.5480062
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
 - proto: ButtonFrameCautionSecurity
   entities:
   - uid: 210
@@ -787,27 +823,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 0.5,9.5
       parent: 2
-- proto: ClothingMaskRaven
-  entities:
-  - uid: 233
-    components:
-    - type: Transform
-      pos: -3.0747612,-2.2156382
-      parent: 2
-- proto: ClothingNeckCloakMiner
-  entities:
-  - uid: 231
-    components:
-    - type: Transform
-      pos: 2.4001982,5.357713
-      parent: 2
-- proto: ClothingNeckCloakVoid
-  entities:
-  - uid: 232
-    components:
-    - type: Transform
-      pos: 4.1731267,5.173441
-      parent: 2
 - proto: ComfyChair
   entities:
   - uid: 191
@@ -835,68 +850,53 @@ entities:
     - type: Transform
       pos: 0.5,10.5
       parent: 2
-- proto: CrateEngineeringMiniJetpack
-  entities:
-  - uid: 212
-    components:
-    - type: Transform
-      pos: 2.5,7.5
-      parent: 2
-- proto: CrateFunParty
-  entities:
-  - uid: 213
-    components:
-    - type: Transform
-      pos: -2.5,-0.5
-      parent: 2
-- proto: CrateGenericSteel
-  entities:
-  - uid: 175
-    components:
-    - type: Transform
-      pos: 0.5,-4.5
-      parent: 2
-- proto: CratePlastic
+- proto: CrateEmptySpawner
   entities:
   - uid: 214
     components:
     - type: Transform
-      pos: 3.5,3.5
+      pos: 2.5,3.5
       parent: 2
-- proto: CrateSecure
-  entities:
   - uid: 215
     components:
     - type: Transform
-      pos: -2.5,3.5
+      pos: 1.5,3.5
       parent: 2
-- proto: DrinkBeerGrowler
+  - uid: 216
+    components:
+    - type: Transform
+      pos: 3.5,3.5
+      parent: 2
+- proto: FoodBoxDonut
   entities:
-  - uid: 224
+  - uid: 243
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -0.41756946,8.890393
+      pos: -0.525953,9.44694
       parent: 2
-  - uid: 225
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -0.41756946,8.780905
-      parent: 2
-- proto: DrinkColaCan
+- proto: FoodShakerSalt
   entities:
-  - uid: 193
+  - uid: 242
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -1.5762784,8.70729
+      pos: 2.835749,-3.0219717
       parent: 2
-  - uid: 194
+- proto: Fulton
+  entities:
+  - uid: 241
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -1.5606534,8.488312
+      pos: 0.44500053,1.5682487
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+- proto: FultonBeacon
+  entities:
+  - uid: 236
+    components:
+    - type: Transform
+      pos: 0.48780566,1.6021973
       parent: 2
 - proto: GasDualPortVentPump
   entities:
@@ -906,8 +906,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 0.5,1.5
       parent: 2
-    - type: AtmosDevice
-      joinedGrid: 2
 - proto: GasPipeBend
   entities:
   - uid: 85
@@ -972,8 +970,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 2.5,-2.5
       parent: 2
-    - type: AtmosDevice
-      joinedGrid: 2
 - proto: GasVentPump
   entities:
   - uid: 84
@@ -981,14 +977,17 @@ entities:
     - type: Transform
       pos: 0.5,7.5
       parent: 2
-    - type: AtmosDevice
-      joinedGrid: 2
 - proto: GeneratorBasic15kW
   entities:
   - uid: 79
     components:
     - type: Transform
       pos: -0.5,-4.5
+      parent: 2
+  - uid: 231
+    components:
+    - type: Transform
+      pos: 0.5,-4.5
       parent: 2
 - proto: GeneratorWallmountBasic
   entities:
@@ -1130,13 +1129,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -1.5,-3.5
       parent: 2
-- proto: HandheldGPSBasic
-  entities:
-  - uid: 216
-    components:
-    - type: Transform
-      pos: -0.79869026,10.573631
-      parent: 2
 - proto: HandHeldMassScanner
   entities:
   - uid: 217
@@ -1156,6 +1148,26 @@ entities:
     - type: Transform
       pos: -0.5,5.5
       parent: 2
+- proto: MaterialCloth
+  entities:
+  - uid: 232
+    components:
+    - type: Transform
+      pos: -1.7039359,8.605473
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+- proto: MedkitAdvancedFilled
+  entities:
+  - uid: 212
+    components:
+    - type: Transform
+      pos: -1.4486163,8.605473
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
 - proto: MiningWindow
   entities:
   - uid: 119
@@ -1258,6 +1270,56 @@ entities:
     - type: Transform
       pos: 1.5,4.5
       parent: 2
+- proto: MopItem
+  entities:
+  - uid: 213
+    components:
+    - type: Transform
+      pos: 3.4856093,-0.61183655
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+- proto: OreBag
+  entities:
+  - uid: 194
+    components:
+    - type: Transform
+      pos: -1.5433547,3.5809207
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+  - uid: 225
+    components:
+    - type: Transform
+      pos: -1.565687,3.5550363
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+  - uid: 229
+    components:
+    - type: Transform
+      pos: -1.565687,3.5550363
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+- proto: OreProcessor
+  entities:
+  - uid: 238
+    components:
+    - type: Transform
+      pos: -1.5,1.5
+      parent: 2
+- proto: OxygenCanister
+  entities:
+  - uid: 211
+    components:
+    - type: Transform
+      pos: 2.5,-0.5
+      parent: 2
 - proto: Paper
   entities:
   - uid: 226
@@ -1331,7 +1393,7 @@ entities:
             radius: 0.35
             position: 0,0
           mask:
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1346,13 +1408,6 @@ entities:
       containers:
         solution@food: !type:ContainerSlot
           ent: 227
-  - uid: 229
-    components:
-    - type: Transform
-      pos: 3.066921,10.138634
-      parent: 2
-    - type: Paper
-      content: На що здатний звичайний інженер, котрий працює на космічній станції? Полагодити флюжеляж станції? Налаштувати поачу необхідних газів? Запустити гравітаційну сингулярність? Звісно, але сьогодні я вам розповім про інженерку, котра працюючи на станції змогла спроєктувати шатл, категорії С1, котрий через його ефективність та простоту, почали використовувати в промислових маштабах, у видобувній, та утилізаторській справі. Завдяки проєкту талановитої Мішель Едвард, тисячі гірників і утилізаторів змогли ефективніше працювати, проєкт "кедр" став її дебютним проєктом, і прославив її, і наукового керівника цього проєкту Мішель Микитюк. Адже до цього проєкти молодої інженерки викуповували маловідомі компанії. А тепер проєкт "кедр" викупила корпорація "Нанотрейсен" і запустила масове виробництво шатлів типу "кедр-в". Ми повінні пишатися такими талановитими особоми як вони.
   - uid: 234
     components:
     - type: MetaData
@@ -1418,7 +1473,7 @@ entities:
             radius: 0.35
             position: 0,0
           mask:
-          - TableLayer
+          - MidImpassable
           - HighImpassable
           - LowImpassable
           - BulletImpassable
@@ -1433,6 +1488,32 @@ entities:
       containers:
         solution@food: !type:ContainerSlot
           ent: 235
+- proto: Pickaxe
+  entities:
+  - uid: 185
+    components:
+    - type: Transform
+      pos: -1.5220783,3.5383677
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+  - uid: 186
+    components:
+    - type: Transform
+      pos: -1.5433547,3.5383677
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
+  - uid: 224
+    components:
+    - type: Transform
+      pos: -1.4795253,3.6021972
+      parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
 - proto: PlastitaniumWindowDiagonal
   entities:
   - uid: 145
@@ -1490,7 +1571,7 @@ entities:
   - uid: 223
     components:
     - type: Transform
-      pos: -1.2613193,8.624648
+      pos: -0.12946808,9.842247
       parent: 2
     - type: DeviceLinkSource
       linkedPorts:
@@ -1500,19 +1581,15 @@ entities:
         - Pressed: Toggle
         220:
         - Pressed: Toggle
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
 - proto: SalvageLocator
   entities:
   - uid: 181
     components:
     - type: Transform
       pos: 0.5,-2.5
-      parent: 2
-- proto: SalvageMaterialCrateSpawner
-  entities:
-  - uid: 211
-    components:
-    - type: Transform
-      pos: 2.5,6.5
       parent: 2
 - proto: SignalButton
   entities:
@@ -1544,13 +1621,6 @@ entities:
     components:
     - type: Transform
       pos: 1.5,-4.5
-      parent: 2
-- proto: SuitStorageSalv
-  entities:
-  - uid: 186
-    components:
-    - type: Transform
-      pos: 1.5,5.5
       parent: 2
 - proto: TableReinforced
   entities:
@@ -1626,6 +1696,13 @@ entities:
     components:
     - type: Transform
       pos: 2.5,8.5
+      parent: 2
+- proto: VendingMachineTankDispenserEVA
+  entities:
+  - uid: 222
+    components:
+    - type: Transform
+      pos: 2.5,7.5
       parent: 2
 - proto: WallReinforced
   entities:
@@ -1779,11 +1856,11 @@ entities:
     - type: Transform
       pos: 2.5,-5.5
       parent: 2
-- proto: WardrobeSalvageFilled
+- proto: WaterTankFull
   entities:
-  - uid: 185
+  - uid: 175
     components:
     - type: Transform
-      pos: 2.5,5.5
+      pos: 0.5,-0.5
       parent: 2
 ...
