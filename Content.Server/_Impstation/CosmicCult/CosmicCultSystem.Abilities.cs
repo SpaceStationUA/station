@@ -20,6 +20,8 @@ using Content.Shared._Impstation.CosmicCult.Components.Examine;
 using Content.Server.Light.Components;
 using Robust.Shared.Physics.Events;
 using Content.Shared.NPC;
+using Content.Shared.Stacks;
+
 
 namespace Content.Server._Impstation.CosmicCult;
 
@@ -189,7 +191,8 @@ public sealed partial class CosmicCultSystem : EntitySystem
         _damageable.TryChangeDamage(args.Target, uid.Comp.CosmicSiphonDamage, origin: uid);
         _popup.PopupEntity(Loc.GetString("cosmicability-siphon-success", ("target", Identity.Entity(target, EntityManager))), uid, uid);
 
-        var entropyMote1 = _stack.Spawn(uid.Comp.CosmicSiphonQuantity, "Entropy", Transform(uid).Coordinates);
+        var stackPrototype = _protoMan.Index<StackPrototype>("Entropy");
+        var entropyMote1 = _stack.Spawn(uid.Comp.CosmicSiphonQuantity, stackPrototype, Transform(uid).Coordinates);
         _hands.TryForcePickupAnyHand(uid, entropyMote1);
         _cultRule.IncrementCultObjectiveEntropy(uid);
 

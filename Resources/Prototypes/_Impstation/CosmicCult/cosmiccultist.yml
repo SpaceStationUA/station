@@ -6,7 +6,7 @@
   objective: roles-antag-cosmiccult-description
   playTimeTracker: AntagCosmicCultist
   requirements:
-  - !type:OverallPlaytimeRequirement
+  - !type:CharacterOverallTimeRequirement
     time: 43200 # 12h
   guides: [ CosmicCult ]
 
@@ -18,6 +18,6 @@
   objective: roles-antag-cosmiccultlead-description
   playTimeTracker: AntagCosmicCultLead
   requirements:
-  - !type:OverallPlaytimeRequirement
+  - !type:CharacterOverallTimeRequirement
     time: 144000 # 40h
   guides: [ CosmicCult ]

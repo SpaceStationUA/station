@@ -42,6 +42,8 @@ using Robust.Shared.Player;
 using Content.Shared.Weapons.Ranged.Systems;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Containers;
+using Robust.Shared.Prototypes;
+
 
 namespace Content.Server._Impstation.CosmicCult;
 
@@ -84,6 +86,7 @@ public sealed partial class CosmicCultSystem : EntitySystem
     [Dependency] private readonly SharedGunSystem _gun = default!;
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
     [Dependency] private readonly SharedContainerSystem _container = default!;
+    [Dependency] private readonly IPrototypeManager _protoMan = default!;
     private const string MapPath = "Maps/_Impstation/Nonstations/cosmicvoid.yml";
     public int CultistCount;
 

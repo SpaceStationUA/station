@@ -397,7 +397,7 @@ public abstract class SharedMindSystem : EntitySystem
             QueueDel(obj);
         }
         comp.Objectives.Clear();
-        comp.ObjectiveTargets.Clear();
+        //comp.ObjectiveTargets.Clear();
         Dirty(mind, comp);
     }
     // IMP EDIT END
