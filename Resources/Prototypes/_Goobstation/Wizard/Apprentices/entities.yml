@@ -1,7 +1,7 @@
 - type: entity
   parent: MobHuman
   id: MobHumanApprenticeBase
-  name: "учень"
+  name: apprentice
   suffix: Human, Apprentice
   components:
   - type: RandomHumanoidAppearance
@@ -23,7 +23,7 @@
 - type: entity
   parent: MobHumanApprenticeBase
   id: MobHumanApprenticeDestruction
-  name: "підмайстер руйнування"
+  name: destruction apprentice
   components:
   - type: SpellsGrant
     guaranteedActions:
@@ -33,7 +33,7 @@
 - type: entity
   parent: MobHumanApprenticeBase
   id: MobHumanApprenticeEthereal
-  name: "безтілесний учень"
+  name: ethereal apprentice
   components:
   - type: SpellsGrant
     guaranteedActions:
@@ -43,7 +43,7 @@
 - type: entity
   parent: MobHumanApprenticeBase
   id: MobHumanApprenticeSummon
-  name: "виклик учня"
+  name: summoning apprentice
   components:
   - type: Loadout
     prototypes: [ApprenticeGearYellow]
@@ -55,7 +55,7 @@
 - type: entity
   parent: MobHumanApprenticeBase
   id: MobHumanApprenticeGun
-  name: "учень стрільця"
+  name: gunslinger apprentice
   components:
   - type: Loadout
     prototypes: [ApprenticeGearBlack]
@@ -68,7 +68,7 @@
 - type: entity
   parent: MobHumanApprenticeBase
   id: MobHumanApprenticeArcane
-  name: "таємничий учень"
+  name: arcane apprentice
   components:
   - type: Loadout
     prototypes: [ApprenticeGearPurple]
@@ -81,7 +81,7 @@
 - type: entity
   parent: MobHumanApprenticeBase
   id: MobHumanApprenticeSanguine
-  name: "учень-сангвінік"
+  name: sanguine apprentice
   components:
   - type: Loadout
     prototypes: [ApprenticeGearRed]
@@ -94,7 +94,7 @@
 - type: entity
   parent: MobHumanApprenticeBase
   id: MobHumanApprenticeRobeless
-  name: "безпритульний підмайстер"
+  name: robeless apprentice
   components:
   - type: Loadout
     prototypes: [ApprenticeGearRobeless]
@@ -107,7 +107,7 @@
 - type: entity
   parent: MobHumanApprenticeBase
   id: MobHumanApprenticeChaos
-  name: "учень хаосу"
+  name: chaos apprentice
   components:
   - type: Loadout
     prototypes: [ApprenticeGearPsy]
