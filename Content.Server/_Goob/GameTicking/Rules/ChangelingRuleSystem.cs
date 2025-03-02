@@ -16,6 +16,7 @@ using System.Text;
 using Content.Server.NPC.Systems;
 using Content.Shared.NPC.Prototypes;
 using Content.Shared.NPC.Systems;
+using Content.Shared.Silicon.Components;
 using Content.Shared.Store.Components;
 using ChangelingComponent = Content.Shared._Goob.Changeling.ChangelingComponent;
 
@@ -40,6 +41,8 @@ public sealed partial class ChangelingRuleSystem : GameRuleSystem<ChangelingRule
 
     public readonly ProtoId<CurrencyPrototype> Currency = "EvolutionPoint";
 
+    [ValidatePrototypeId<EntityPrototype>] EntProtoId mindRole = "MindRoleChangeling";
+
     public override void Initialize()
     {
         base.Initialize();
@@ -54,8 +57,13 @@ public sealed partial class ChangelingRuleSystem : GameRuleSystem<ChangelingRule
     }
     public bool MakeChangeling(EntityUid target, ChangelingRuleComponent rule)
     {
+        if (HasComp<SiliconComponent>(target))
+            return false;
+
         if (!_mind.TryGetMind(target, out var mindId, out var mind))
             return false;
+
+        _role.MindAddRole(mindId, mindRole.Id, mind, true);
 
         // briefing
         if (TryComp<MetaDataComponent>(target, out var metaData))
@@ -64,7 +72,9 @@ public sealed partial class ChangelingRuleSystem : GameRuleSystem<ChangelingRule
             var briefingShort = Loc.GetString("changeling-role-greeting-short", ("name", metaData?.EntityName ?? "Unknown"));
 
             _antag.SendBriefing(target, briefing, Color.Yellow, BriefingSound);
-            _role.MindAddRole(mindId, new RoleBriefingComponent { Briefing = briefingShort }, mind, true);
+
+            if (_role.MindHasRole<ChangelingRoleComponent>(mindId, out var mr))
+                AddComp(mr.Value, new RoleBriefingComponent { Briefing = briefingShort }, overwrite: true);
         }
         // hivemind stuff
         //_npcFaction.RemoveFaction(target, NanotrasenFactionId, false);

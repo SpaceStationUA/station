@@ -371,7 +371,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     /// <param name="colorOverride">Optional color for the announcement message</param>
     public void DispatchGlobalAnnouncement(
         string message,
-        string sender = "Central Command",
+        string sender = "Центральне Командування",
         bool playSound = true,
         SoundSpecifier? announcementSound = null,
         Color? colorOverride = null

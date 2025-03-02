@@ -302,8 +302,8 @@ public sealed class SpellsSystem : SharedSpellsSystem
         Faction.AddFaction(newEntity, WizardRuleSystem.Faction);
         RemCompDeferred<TransferMindOnGibComponent>(newEntity);
         EnsureComp<WizardComponent>(newEntity);
-        if (!Role.MindHasRole<WizardRoleComponent>(mind))
-            Role.MindAddRole(mind, new WizardRoleComponent(), mindComponent, true);
+        if (!Role.MindHasRole<WizardRoleComponent>(mind, out _))
+            Role.MindAddRole(mind, WizardRuleSystem.Role.Id, mindComponent, true);
         EnsureComp<PhylacteryComponent>(item);
         var soulBound = EntityManager.ComponentFactory.GetComponent<SoulBoundComponent>();
         soulBound.Name = name;

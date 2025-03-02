@@ -5,8 +5,8 @@ namespace Content.Shared.Aliens.Components;
 /// <summary>
 /// This is used for...
 /// </summary>
-[RegisterComponent, ExclusiveAntagonist]
-public sealed partial class AlienRoleComponent : AntagonistRoleComponent
+[RegisterComponent]
+public sealed partial class AlienRoleComponent : BaseMindRoleComponent
 {
 
 }

@@ -5,8 +5,8 @@ using Robust.Shared.Prototypes;
 namespace Content.Server._Goobstation.Blob.Roles;
 
 
-[RegisterComponent, ExclusiveAntagonist]
-public sealed partial class BlobRoleComponent : AntagonistRoleComponent
+[RegisterComponent]
+public sealed partial class BlobRoleComponent : BaseMindRoleComponent
 {
 
 }
