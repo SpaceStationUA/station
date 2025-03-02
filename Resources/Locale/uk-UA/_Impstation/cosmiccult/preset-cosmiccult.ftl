@@ -12,8 +12,7 @@ roles-antag-cosmiccultlead-name = Лідер Космічного Культу
 roles-antag-cosmiccultlead-description = Організуйте культ у силу, з якою потрібно рахуватися, щоб ви могли наблизити кінець усього.
 
 cosmiccult-gamemode-title = Космічний Культ
-cosmiccult-gamemode-description =
-    Сканери виявляють аномальне збільшення Λ-CDM. Додаткових даних немає.
+cosmiccult-gamemode-description = Сканери виявляють аномальне збільшення Λ-CDM. Додаткових даних немає.
 
 
 cosmiccult-finale-ready = Жахливе світло виривається з Монумента!
@@ -68,31 +67,26 @@ cosmiccult-summary-crewcomplete = Кожен космічний культист
 
 ## BRIEFINGS
 
-cosmiccult-role-roundstart-fluff =
-    Коли ви готуєтеся до чергової зміни на черговій станції NanoTrasen, незвідані знання раптово наповнюють ваш розум!
+cosmiccult-role-roundstart-fluff = Коли ви готуєтеся до чергової зміни на черговій станції NanoTrasen, незвідані знання раптово наповнюють ваш розум!
     Одкровення, якому немає рівних. Кінець циклічним, сізіфовим стражданням.
     Ніжний фінальний завісу.
 
     Все, що вам потрібно зробити, це наблизити його.
 
-cosmiccult-role-short-briefing =
-    Ви Космічний Культист!
+cosmiccult-role-short-briefing = Ви Космічний Культист!
     Ваші цілі перелічені в меню персонажа.
     Детальніше про вашу роль читайте в довіднику.
 
-cosmiccult-role-conversion-fluff =
-    Коли заклинання завершується, незвідані знання раптово наповнюють ваш розум!
+cosmiccult-role-conversion-fluff = Коли заклинання завершується, незвідані знання раптово наповнюють ваш розум!
     Одкровення, якому немає рівних. Кінець циклічним, сізіфовим стражданням.
     Ніжний фінальний завісу.
 
     Все, що вам потрібно зробити, це наблизити його.
 
-cosmiccult-role-deconverted-fluff =
-    Велика порожнеча омиває ваш розум. Заспокійлива, але незнайома порожнеча...
+cosmiccult-role-deconverted-fluff = Велика порожнеча омиває ваш розум. Заспокійлива, але незнайома порожнеча...
     Усі думки та спогади про ваш час у культі починають згасати та розмиватися.
 
-cosmiccult-role-deconverted-briefing =
-    Деконвертовано!
+cosmiccult-role-deconverted-briefing = Деконвертовано!
     Ви більше не Космічний Культист.
 
 
@@ -117,22 +111,16 @@ cosmiccult-ui-deconverted-title = Деконвертовано
 cosmiccult-ui-converted-title = Конвертовано
 cosmiccult-ui-roundstart-title = Невідоме
 
-cosmiccult-ui-converted-text-1 =
-    Вас було навернено в Космічного Культиста.
-cosmiccult-ui-converted-text-2 =
-    Допомагайте культу в його цілях, забезпечуючи його таємність.
+cosmiccult-ui-converted-text-1 = Вас було навернено в Космічного Культиста.
+cosmiccult-ui-converted-text-2 = Допомагайте культу в його цілях, забезпечуючи його таємність.
     Співпрацюйте з планами ваших товаришів-культистів.
 
-cosmiccult-ui-roundstart-text-1 =
-    Ви Космічний Культист!
-cosmiccult-ui-roundstart-text-2 =
-    Допомагайте культу в його цілях, забезпечуючи його таємність.
+cosmiccult-ui-roundstart-text-1 = Ви Космічний Культист!
+cosmiccult-ui-roundstart-text-2 = Допомагайте культу в його цілях, забезпечуючи його таємність.
     Слухайте вказівки вашого лідера культу.
 
-cosmiccult-ui-deconverted-text-1 =
-    Ви більше не Космічний Культист.
-cosmiccult-ui-deconverted-text-2 =
-    Ви втратили всі спогади, що стосуються Космічного Культу.
+cosmiccult-ui-deconverted-text-1 = Ви більше не Космічний Культист.
+cosmiccult-ui-deconverted-text-2 = Ви втратили всі спогади, що стосуються Космічного Культу.
     Якщо вас навернуть назад, ці спогади повернуться.
 
 cosmiccult-ui-popup-confirm = Підтвердити
