@@ -63,7 +63,7 @@ public sealed partial class SpaceVillainArcadeComponent : SharedSpaceVillainArca
     [ViewVariables(VVAccess.ReadWrite)]
     [DataField("possibleFightVerbs")]
     public List<string> PossibleFightVerbs = new()
-        {"Defeat", "Annihilate", "Save", "Strike", "Stop", "Destroy", "Robust", "Romance", "Pwn", "Own"};
+        {"Перемогти", "Знищити", "Врятувати", "Вдарити", "Зупинити", "Зруйнувати", "Заробастити", "Зароманцити", "Здолати", "Підкорити"};
 
     /// <summary>
     /// The first names/titles that can be used to construct the name of the villain.
