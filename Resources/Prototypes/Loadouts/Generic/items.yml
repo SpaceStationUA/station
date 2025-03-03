@@ -302,6 +302,7 @@
         - Musician
 
 # Survival Kit
+
 - type: loadout
   id: LoadoutItemsEmergencyOxygenTank
   category: Items
@@ -477,12 +478,27 @@
 
 # Survival boxes
 - type: loadout
+  id: LoadoutItemBoxSurvivalIPC
+  category: Items
+  cost: 0
+  items:
+    - BoxSurvivalIpc
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - IPC
+
+- type: loadout
   id: LoadoutItemBoxSurvival
   category: Items
   cost: 0
   items:
     - BoxSurvival
   requirements:
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
     - !type:CharacterDepartmentRequirement
        inverted: true
        departments:
@@ -503,6 +519,10 @@
   items:
     - BoxSurvivalEngineering
   requirements:
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
     - !type:CharacterDepartmentRequirement
        departments:
          - Engineering
@@ -516,6 +536,10 @@
   items:
     - BoxSurvivalSecurity
   requirements:
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
     - !type:CharacterDepartmentRequirement
        departments:
          - Security
@@ -533,6 +557,10 @@
   items:
     - BoxSurvivalBrigmedic
   requirements:
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
     - !type:CharacterJobRequirement
        jobs:
          - Brigmedic
@@ -546,6 +574,10 @@
   items:
     - BoxSurvivalMedical
   requirements:
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
     - !type:CharacterDepartmentRequirement
        departments:
          - Medical
@@ -559,6 +591,10 @@
   items:
     - BoxHug
   requirements:
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
     - !type:CharacterJobRequirement
        jobs:
          - Clown

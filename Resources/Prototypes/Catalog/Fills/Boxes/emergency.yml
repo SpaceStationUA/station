@@ -192,3 +192,17 @@
     layers:
       - state: internals
       - state: extendedtank
+
+- type: entity
+  name: "Набір для аварійного ремонту(ІПШ)"
+  parent: BoxCardboard
+  id: BoxSurvivalIpc
+  description: "Коробка з всім необхідним для ремонту бідних протогенчиків."
+  components:
+  - type: StorageFill
+    contents:
+      - id: CableApcStack10
+      - id: WelderMini
+  - type: Sprite
+    layers:
+      - state: box_ipc
