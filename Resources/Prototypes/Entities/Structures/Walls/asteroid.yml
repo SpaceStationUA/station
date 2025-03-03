@@ -5,8 +5,8 @@
 - type: entity
   id: AsteroidRock
   parent: BaseWall
-  name: "астероїдний камінь"
-  description: "Кам'янистий астероїд."
+  name: asteroid rock
+  description: A rocky asteroid.
   components:
   - type: Transform
     noRot: true
@@ -55,7 +55,7 @@
 - type: entity
   id: AsteroidRockCoal
   parent: AsteroidRock
-  description: "Рудна жила, багата на вугілля."
+  description: An ore vein rich with coal.
   suffix: Coal
   components:
     - type: OreVein
@@ -77,7 +77,7 @@
 - type: entity
   id: AsteroidRockGold
   parent: AsteroidRock
-  description: "Рудна жила, багата на золото."
+  description: An ore vein rich with gold.
   suffix: Gold
   components:
     - type: OreVein
@@ -99,7 +99,7 @@
 - type: entity
   id: AsteroidRockDiamond
   parent: AsteroidRock
-  description: "Рудна жила, багата на алмази."
+  description: An ore vein rich with diamonds.
   suffix: Diamond
   components:
     - type: OreVein
@@ -121,7 +121,7 @@
 - type: entity
   id: AsteroidRockPlasma
   parent: AsteroidRock
-  description: "Рудна жила, багата на плазму."
+  description: An ore vein rich with plasma.
   suffix: Plasma
   components:
     - type: OreVein
@@ -143,7 +143,7 @@
 - type: entity
   id: AsteroidRockQuartz
   parent: AsteroidRock
-  description: "Рудна жила, багата на кварц."
+  description: An ore vein rich with quartz.
   suffix: Quartz
   components:
     - type: OreVein
@@ -165,7 +165,7 @@
 - type: entity
   id: AsteroidRockQuartzCrab
   parent: AsteroidRock
-  description: "Рудна жила, багата на кварц."
+  description: An ore vein rich with quartz.
   suffix: Quartz Crab
   components:
     - type: OreVein
@@ -187,7 +187,7 @@
 - type: entity
   id: AsteroidRockSilver
   parent: AsteroidRock
-  description: "Рудна жила, багата на срібло."
+  description: An ore vein rich with silver.
   suffix: Silver
   components:
     - type: OreVein
@@ -219,7 +219,7 @@
 - type: entity
   id: AsteroidRockTin
   parent: AsteroidRock
-  description: "Рудна жила, багата на залізо."
+  description: An ore vein rich with iron.
   suffix: Iron
   components:
     - type: OreVein
@@ -250,7 +250,7 @@
 - type: entity
   id: AsteroidRockUranium
   parent: AsteroidRock
-  description: "Рудна жила, багата на уран."
+  description: An ore vein rich with uranium.
   suffix: Uranium
   components:
     - type: OreVein
@@ -281,7 +281,7 @@
 - type: entity
   id: AsteroidRockBananium
   parent: AsteroidRock
-  description: "Рудна жила, багата на бананіум."
+  description: An ore vein rich with bananium.
   suffix: Bananium
   components:
     - type: OreVein
@@ -303,7 +303,7 @@
 - type: entity
   id: AsteroidRockArtifactFragment
   parent: AsteroidRock
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
     - type: OreVein
@@ -325,7 +325,7 @@
 - type: entity
   id: AsteroidRockBluespace
   parent: AsteroidRock
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Bluespace
   components:
     - type: OreVein
@@ -347,7 +347,7 @@
 - type: entity
   id: AsteroidRockNormality
   parent: AsteroidRock
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Normality
   components:
     - type: OreVein
@@ -369,9 +369,9 @@
 - type: entity
   id: AsteroidRockMining
   parent: AsteroidRock
-  name: "астероїдний камінь"
+  name: asteroid rock
   suffix: higher ore yield .33
-  description: "Астероїд."
+  description: An asteroid.
   components:
   - type: OreVein
     oreChance: 0.33
@@ -380,9 +380,9 @@
 - type: entity
   id: IronRock
   parent: AsteroidRock
-  name: "айронрок"
+  name: ironrock
   suffix: Low Ore Yield
-  description: "Кам'янистий астероїд."
+  description: A rocky asteroid.
   components:
   - type: IconSmooth
     key: walls
@@ -404,7 +404,7 @@
 - type: entity
   id: AsteroidRockSalt
   parent: AsteroidRock
-  description: "Рудна жила, багата на сіль."
+  description: An ore vein rich with salt.
   suffix: Salt
   components:
     - type: OreVein
@@ -426,9 +426,9 @@
 - type: entity
   id: IronRockMining
   parent: IronRock
-  name: "айронрок"
+  name: ironrock
   suffix: higher ore yield
-  description: "Астероїд."
+  description: An asteroid.
   components:
   - type: OreVein
     oreChance: 0.33
@@ -437,7 +437,7 @@
 - type: entity
   id: AsteroidRockAluminium
   parent: AsteroidRock
-  description: "Рудна жила, багата на боксити."
+  description: An ore vein rich with bauxite.
   suffix: Aluminium
   components:
     - type: OreVein
@@ -459,7 +459,7 @@
 - type: entity
   id: AsteroidRockLead
   parent: AsteroidRock
-  description: "Рудна жила, багата на каситерит."
+  description: An ore vein rich with casiterite.
   suffix: Lead
   components:
     - type: OreVein
@@ -481,7 +481,7 @@
 - type: entity
   id: AsteroidRockCopper
   parent: AsteroidRock
-  description: "Рудна жила, багата на самородну мідь."
+  description: An ore vein rich with native copper.
   suffix: Copper
   components:
     - type: OreVein
@@ -505,7 +505,7 @@
 - type: entity
   id: WallRock
   parent: BaseWall
-  name: "скеля"
+  name: rock
   suffix: planetmap
   components:
     - type: Transform
@@ -550,7 +550,7 @@
 - type: entity
   id: WallRockCoal
   parent: WallRock
-  description: "Рудна жила, багата на вугілля."
+  description: An ore vein rich with coal.
   suffix: Coal
   components:
     - type: OreVein
@@ -572,7 +572,7 @@
 - type: entity
   id: WallRockGold
   parent: WallRock
-  description: "Рудна жила, багата на золото."
+  description: An ore vein rich with gold.
   suffix: Gold
   components:
     - type: OreVein
@@ -594,7 +594,7 @@
 - type: entity
   id: WallRockDiamond
   parent: WallRock
-  description: "Рудна жила, багата на алмази."
+  description: An ore vein rich with diamonds.
   suffix: Diamond
   components:
     - type: OreVein
@@ -616,7 +616,7 @@
 - type: entity
   id: WallRockPlasma
   parent: WallRock
-  description: "Рудна жила, багата на плазму."
+  description: An ore vein rich with plasma.
   suffix: Plasma
   components:
     - type: OreVein
@@ -638,7 +638,7 @@
 - type: entity
   id: WallRockQuartz
   parent: WallRock
-  description: "Рудна жила, багата на кварц."
+  description: An ore vein rich with quartz.
   suffix: Quartz
   components:
     - type: OreVein
@@ -660,7 +660,7 @@
 - type: entity
   id: WallRockSilver
   parent: WallRock
-  description: "Рудна жила, багата на срібло."
+  description: An ore vein rich with silver.
   suffix: Silver
   components:
     - type: OreVein
@@ -683,7 +683,7 @@
 - type: entity
   id: WallRockTin
   parent: WallRock
-  description: "Рудна жила, багата на залізо."
+  description: An ore vein rich with iron.
   suffix: Iron
   components:
     - type: OreVein
@@ -705,7 +705,7 @@
 - type: entity
   id: WallRockUranium
   parent: WallRock
-  description: "Рудна жила, багата на уран."
+  description: An ore vein rich with uranium.
   suffix: Uranium
   components:
     - type: OreVein
@@ -728,7 +728,7 @@
 - type: entity
   id: WallRockBananium
   parent: WallRock
-  description: "Рудна жила, багата на бананіум."
+  description: An ore vein rich with bananium.
   suffix: Bananium
   components:
     - type: OreVein
@@ -750,7 +750,7 @@
 - type: entity
   id: WallRockArtifactFragment
   parent: WallRock
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
     - type: OreVein
@@ -772,7 +772,7 @@
 - type: entity
   id: WallRockSalt
   parent: WallRock
-  description: "Рудна жила, багата на сіль."
+  description: An ore vein rich with salt.
   suffix: Salt
   components:
     - type: OreVein
@@ -794,7 +794,7 @@
 - type: entity
   id: WallRockBluespace
   parent: WallRock
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Bluespace
   components:
     - type: OreVein
@@ -816,7 +816,7 @@
 - type: entity
   id: WallRockNormality
   parent: WallRock
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Normality
   components:
     - type: OreVein
@@ -838,7 +838,7 @@
 - type: entity
   id: WallRockAluminium
   parent: WallRock
-  description: "Рудна жила, багата на боксити."
+  description: An ore vein rich with bauxite.
   suffix: Aluminium
   components:
     - type: OreVein
@@ -860,7 +860,7 @@
 - type: entity
   id: WallRockLead
   parent: WallRock
-  description: "Рудна жила, багата на каситерит."
+  description: An ore vein rich with casiterite.
   suffix: Lead
   components:
     - type: OreVein
@@ -882,7 +882,7 @@
 - type: entity
   id: WallRockCopper
   parent: WallRock
-  description: "Рудна жила, багата на самородну мідь."
+  description: An ore vein rich with native copper.
   suffix: Copper
   components:
     - type: OreVein
@@ -904,7 +904,7 @@
 # Basalt variants
 - type: entity
   id: WallRockBasalt
-  name: "базальт"
+  name: basalt
   parent: WallRock
   components:
     - type: Icon
@@ -929,7 +929,7 @@
 - type: entity
   id: WallRockBasaltCoal
   parent: WallRockBasalt
-  description: "Рудна жила, багата на вугілля."
+  description: An ore vein rich with coal.
   suffix: Coal
   components:
     - type: OreVein
@@ -951,7 +951,7 @@
 - type: entity
   id: WallRockBasaltGold
   parent: WallRockBasalt
-  description: "Рудна жила, багата на золото."
+  description: An ore vein rich with gold.
   suffix: Gold
   components:
     - type: OreVein
@@ -973,7 +973,7 @@
 - type: entity
   id: WallRockBasaltDiamond
   parent: WallRockBasalt
-  description: "Рудна жила, багата на алмази."
+  description: An ore vein rich with diamonds.
   suffix: Diamond
   components:
     - type: OreVein
@@ -995,7 +995,7 @@
 - type: entity
   id: WallRockBasaltPlasma
   parent: WallRockBasalt
-  description: "Рудна жила, багата на плазму."
+  description: An ore vein rich with plasma.
   suffix: Plasma
   components:
     - type: OreVein
@@ -1017,7 +1017,7 @@
 - type: entity
   id: WallRockBasaltQuartz
   parent: WallRockBasalt
-  description: "Рудна жила, багата на кварц."
+  description: An ore vein rich with quartz.
   suffix: Quartz
   components:
     - type: OreVein
@@ -1039,7 +1039,7 @@
 - type: entity
   id: WallRockBasaltSilver
   parent: WallRockBasalt
-  description: "Рудна жила, багата на срібло."
+  description: An ore vein rich with silver.
   suffix: Silver
   components:
     - type: OreVein
@@ -1061,7 +1061,7 @@
 - type: entity
   id: WallRockBasaltTin
   parent: WallRockBasalt
-  description: "Рудна жила, багата на залізо."
+  description: An ore vein rich with iron.
   suffix: Iron
   components:
     - type: OreVein
@@ -1083,7 +1083,7 @@
 - type: entity
   id: WallRockBasaltUranium
   parent: WallRockBasalt
-  description: "Рудна жила, багата на уран."
+  description: An ore vein rich with uranium.
   suffix: Uranium
   components:
     - type: OreVein
@@ -1106,7 +1106,7 @@
 - type: entity
   id: WallRockBasaltBananium
   parent: WallRockBasalt
-  description: "Рудна жила, багата на бананіум."
+  description: An ore vein rich with bananium.
   suffix: Bananium
   components:
     - type: OreVein
@@ -1128,7 +1128,7 @@
 - type: entity
   id: WallRockBasaltArtifactFragment
   parent: WallRockBasalt
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
     - type: OreVein
@@ -1150,7 +1150,7 @@
 - type: entity
   id: WallRockBasaltSalt
   parent: WallRockBasalt
-  description: "Рудна жила, багата на сіль."
+  description: An ore vein rich with salt.
   suffix: Salt
   components:
     - type: OreVein
@@ -1172,7 +1172,7 @@
 - type: entity
   id: WallRockBasaltBluespace
   parent: WallRockBluespace
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Bluespace
   components:
     - type: OreVein
@@ -1194,7 +1194,7 @@
 - type: entity
   id: WallRockBasaltNormality
   parent: WallRockNormality
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Normality
   components:
     - type: OreVein
@@ -1216,7 +1216,7 @@
 - type: entity
   id: WallRockBasaltAluminium
   parent: WallRockBasalt
-  description: "Рудна жила, багата на боксити."
+  description: An ore vein rich with bauxite.
   suffix: Aluminium
   components:
     - type: OreVein
@@ -1238,7 +1238,7 @@
 - type: entity
   id: WallRockBasaltLead
   parent: WallRockBasalt
-  description: "Рудна жила, багата на каситерит."
+  description: An ore vein rich with casiterite.
   suffix: Lead
   components:
     - type: OreVein
@@ -1260,7 +1260,7 @@
 - type: entity
   id: WallRockBasaltCopper
   parent: WallRockBasalt
-  description: "Рудна жила, багата на самородну мідь."
+  description: An ore vein rich with native copper.
   suffix: Copper
   components:
     - type: OreVein
@@ -1282,7 +1282,7 @@
 # Snow variants
 - type: entity
   id: WallRockSnow
-  name: "сніговий замет"
+  name: snowdrift
   parent: WallRock
   components:
     - type: Icon
@@ -1304,7 +1304,7 @@
 - type: entity
   id: WallRockSnowCoal
   parent: WallRockSnow
-  description: "Рудна жила, багата на вугілля."
+  description: An ore vein rich with coal.
   suffix: Coal
   components:
     - type: OreVein
@@ -1326,7 +1326,7 @@
 - type: entity
   id: WallRockSnowGold
   parent: WallRockSnow
-  description: "Рудна жила, багата на золото."
+  description: An ore vein rich with gold.
   suffix: Gold
   components:
     - type: OreVein
@@ -1348,7 +1348,7 @@
 - type: entity
   id: WallRockSnowDiamond
   parent: WallRockSnow
-  description: "Рудна жила, багата на алмази."
+  description: An ore vein rich with diamonds.
   suffix: Diamond
   components:
     - type: OreVein
@@ -1370,7 +1370,7 @@
 - type: entity
   id: WallRockSnowPlasma
   parent: WallRockSnow
-  description: "Рудна жила, багата на плазму."
+  description: An ore vein rich with plasma.
   suffix: Plasma
   components:
     - type: OreVein
@@ -1392,7 +1392,7 @@
 - type: entity
   id: WallRockSnowQuartz
   parent: WallRockSnow
-  description: "Рудна жила, багата на кварц."
+  description: An ore vein rich with quartz.
   suffix: Quartz
   components:
     - type: OreVein
@@ -1414,7 +1414,7 @@
 - type: entity
   id: WallRockSnowSilver
   parent: WallRockSnow
-  description: "Рудна жила, багата на срібло."
+  description: An ore vein rich with silver.
   suffix: Silver
   components:
     - type: OreVein
@@ -1436,7 +1436,7 @@
 - type: entity
   id: WallRockSnowTin
   parent: WallRockSnow
-  description: "Рудна жила, багата на залізо."
+  description: An ore vein rich with iron.
   suffix: Iron
   components:
     - type: OreVein
@@ -1458,7 +1458,7 @@
 - type: entity
   id: WallRockSnowUranium
   parent: WallRockSnow
-  description: "Рудна жила, багата на уран."
+  description: An ore vein rich with uranium.
   suffix: Uranium
   components:
     - type: OreVein
@@ -1481,7 +1481,7 @@
 - type: entity
   id: WallRockSnowBananium
   parent: WallRockSnow
-  description: "Рудна жила, багата на бананіум."
+  description: An ore vein rich with bananium.
   suffix: Bananium
   components:
     - type: OreVein
@@ -1503,7 +1503,7 @@
 - type: entity
   id: WallRockSnowArtifactFragment
   parent: WallRockSnow
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
     - type: OreVein
@@ -1525,7 +1525,7 @@
 - type: entity
   id: WallRockSnowSalt
   parent: WallRockSnow
-  description: "Рудна жила, багата на сіль."
+  description: An ore vein rich with salt.
   suffix: Salt
   components:
     - type: OreVein
@@ -1547,7 +1547,7 @@
 - type: entity
   id: WallRockSnowBluespace
   parent: WallRockSnow
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Bluespace
   components:
     - type: OreVein
@@ -1569,7 +1569,7 @@
 - type: entity
   id: WallRockSnowNormality
   parent: WallRockSnow
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Normality
   components:
     - type: OreVein
@@ -1591,7 +1591,7 @@
 - type: entity
   id: WallRockSnowAluminium
   parent: WallRockSnow
-  description: "Рудна жила, багата на боксити."
+  description: An ore vein rich with bauxite.
   suffix: Aluminium
   components:
     - type: OreVein
@@ -1613,7 +1613,7 @@
 - type: entity
   id: WallRockSnowLead
   parent: WallRockSnow
-  description: "Рудна жила, багата на каситерит."
+  description: An ore vein rich with casiterite.
   suffix: Lead
   components:
     - type: OreVein
@@ -1635,7 +1635,7 @@
 - type: entity
   id: WallRockSnowCopper
   parent: WallRockSnow
-  description: "Рудна жила, багата на самородну мідь."
+  description: An ore vein rich with native copper.
   suffix: Copper
   components:
     - type: OreVein
@@ -1657,7 +1657,7 @@
 # Sand variants
 - type: entity
   id: WallRockSand
-  name: "пісковик"
+  name: sandstone
   parent: WallRock
   components:
     - type: Icon
@@ -1679,7 +1679,7 @@
 - type: entity
   id: WallRockSandCoal
   parent: WallRockSand
-  description: "Рудна жила, багата на вугілля."
+  description: An ore vein rich with coal.
   suffix: Coal
   components:
     - type: OreVein
@@ -1701,7 +1701,7 @@
 - type: entity
   id: WallRockSandGold
   parent: WallRockSand
-  description: "Рудна жила, багата на золото."
+  description: An ore vein rich with gold.
   suffix: Gold
   components:
     - type: OreVein
@@ -1723,7 +1723,7 @@
 - type: entity
   id: WallRockSandDiamond
   parent: WallRockSand
-  description: "Рудна жила, багата на алмази."
+  description: An ore vein rich with diamonds.
   suffix: Diamond
   components:
     - type: OreVein
@@ -1745,7 +1745,7 @@
 - type: entity
   id: WallRockSandPlasma
   parent: WallRockSand
-  description: "Рудна жила, багата на плазму."
+  description: An ore vein rich with plasma.
   suffix: Plasma
   components:
     - type: OreVein
@@ -1767,7 +1767,7 @@
 - type: entity
   id: WallRockSandQuartz
   parent: WallRockSand
-  description: "Рудна жила, багата на кварц."
+  description: An ore vein rich with quartz.
   suffix: Quartz
   components:
     - type: OreVein
@@ -1789,7 +1789,7 @@
 - type: entity
   id: WallRockSandSilver
   parent: WallRockSand
-  description: "Рудна жила, багата на срібло."
+  description: An ore vein rich with silver.
   suffix: Silver
   components:
     - type: OreVein
@@ -1811,7 +1811,7 @@
 - type: entity
   id: WallRockSandTin
   parent: WallRockSand
-  description: "Рудна жила, багата на залізо."
+  description: An ore vein rich with iron.
   suffix: Iron
   components:
     - type: OreVein
@@ -1833,7 +1833,7 @@
 - type: entity
   id: WallRockSandUranium
   parent: WallRockSand
-  description: "Рудна жила, багата на уран."
+  description: An ore vein rich with uranium.
   suffix: Uranium
   components:
     - type: OreVein
@@ -1855,7 +1855,7 @@
 - type: entity
   id: WallRockSandBananium
   parent: WallRockSand
-  description: "Рудна жила, багата на бананіум."
+  description: An ore vein rich with bananium.
   suffix: Bananium
   components:
     - type: OreVein
@@ -1877,7 +1877,7 @@
 - type: entity
   id: WallRockSandArtifactFragment
   parent: WallRockSand
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
     - type: OreVein
@@ -1899,7 +1899,7 @@
 - type: entity
   id: WallRockSandSalt
   parent: WallRockSand
-  description: "Рудна жила, багата на сіль."
+  description: An ore vein rich with salt.
   suffix: Salt
   components:
     - type: OreVein
@@ -1921,7 +1921,7 @@
 - type: entity
   id: WallRockSandBluespace
   parent: WallRockSand
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Bluespace
   components:
     - type: OreVein
@@ -1943,7 +1943,7 @@
 - type: entity
   id: WallRockSandNormality
   parent: WallRockSand
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Normality
   components:
     - type: OreVein
@@ -1965,7 +1965,7 @@
 - type: entity
   id: WallRockSandAluminium
   parent: WallRockSand
-  description: "Рудна жила, багата на боксити."
+  description: An ore vein rich with bauxite.
   suffix: Aluminium
   components:
     - type: OreVein
@@ -1987,7 +1987,7 @@
 - type: entity
   id: WallRockSandLead
   parent: WallRockSand
-  description: "Рудна жила, багата на каситерит."
+  description: An ore vein rich with casiterite.
   suffix: Lead
   components:
     - type: OreVein
@@ -2009,7 +2009,7 @@
 - type: entity
   id: WallRockSandCopper
   parent: WallRockSand
-  description: "Рудна жила, багата на самородну мідь."
+  description: An ore vein rich with native copper.
   suffix: Copper
   components:
     - type: OreVein
@@ -2031,7 +2031,7 @@
 # Chromite variants
 - type: entity
   id: WallRockChromite
-  name: "хроміт"
+  name: chromite
   parent: WallRock
   components:
     - type: Icon
@@ -2053,7 +2053,7 @@
 - type: entity
   id: WallRockChromiteCoal
   parent: WallRockChromite
-  description: "Рудна жила, багата на вугілля."
+  description: An ore vein rich with coal.
   suffix: Coal
   components:
     - type: OreVein
@@ -2075,7 +2075,7 @@
 - type: entity
   id: WallRockChromiteGold
   parent: WallRockChromite
-  description: "Рудна жила, багата на золото."
+  description: An ore vein rich with gold.
   suffix: Gold
   components:
     - type: OreVein
@@ -2097,7 +2097,7 @@
 - type: entity
   id: WallRockChromiteDiamond
   parent: WallRockChromite
-  description: "Рудна жила, багата на алмази."
+  description: An ore vein rich with diamonds.
   suffix: Diamond
   components:
     - type: OreVein
@@ -2119,7 +2119,7 @@
 - type: entity
   id: WallRockChromitePlasma
   parent: WallRockChromite
-  description: "Рудна жила, багата на плазму."
+  description: An ore vein rich with plasma.
   suffix: Plasma
   components:
     - type: OreVein
@@ -2141,7 +2141,7 @@
 - type: entity
   id: WallRockChromiteQuartz
   parent: WallRockChromite
-  description: "Рудна жила, багата на кварц."
+  description: An ore vein rich with quartz.
   suffix: Quartz
   components:
     - type: OreVein
@@ -2163,7 +2163,7 @@
 - type: entity
   id: WallRockChromiteSilver
   parent: WallRockChromite
-  description: "Рудна жила, багата на срібло."
+  description: An ore vein rich with silver.
   suffix: Silver
   components:
     - type: OreVein
@@ -2185,7 +2185,7 @@
 - type: entity
   id: WallRockChromiteTin
   parent: WallRockChromite
-  description: "Рудна жила, багата на залізо."
+  description: An ore vein rich with iron.
   suffix: Iron
   components:
     - type: OreVein
@@ -2207,7 +2207,7 @@
 - type: entity
   id: WallRockChromiteUranium
   parent: WallRockChromite
-  description: "Рудна жила, багата на уран."
+  description: An ore vein rich with uranium.
   suffix: Uranium
   components:
     - type: OreVein
@@ -2230,7 +2230,7 @@
 - type: entity
   id: WallRockChromiteBananium
   parent: WallRockChromite
-  description: "Рудна жила, багата на бананіум."
+  description: An ore vein rich with bananium.
   suffix: Bananium
   components:
     - type: OreVein
@@ -2252,7 +2252,7 @@
 - type: entity
   id: WallRockChromiteArtifactFragment
   parent: WallRockChromite
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
     - type: OreVein
@@ -2274,7 +2274,7 @@
 - type: entity
   id: WallRockChromiteSalt
   parent: WallRockChromite
-  description: "Рудна жила, багата на сіль."
+  description: An ore vein rich with salt.
   suffix: Salt
   components:
     - type: OreVein
@@ -2296,7 +2296,7 @@
 - type: entity
   id: WallRockChromiteBluespace
   parent: WallRockChromite
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Bluespace
   components:
     - type: OreVein
@@ -2318,7 +2318,7 @@
 - type: entity
   id: WallRockChromiteNormality
   parent: WallRockChromite
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Normality
   components:
     - type: OreVein
@@ -2340,7 +2340,7 @@
 - type: entity
   id: WallRockChromiteAluminium
   parent: WallRockChromite
-  description: "Рудна жила, багата на боксити."
+  description: An ore vein rich with bauxite.
   suffix: Aluminium
   components:
     - type: OreVein
@@ -2362,7 +2362,7 @@
 - type: entity
   id: WallRockChromiteLead
   parent: WallRockChromite
-  description: "Рудна жила, багата на каситерит."
+  description: An ore vein rich with casiterite.
   suffix: Lead
   components:
     - type: OreVein
@@ -2384,7 +2384,7 @@
 - type: entity
   id: WallRockChromiteCopper
   parent: WallRockChromite
-  description: "Рудна жила, багата на самородну мідь."
+  description: An ore vein rich with native copper.
   suffix: Copper
   components:
     - type: OreVein
@@ -2406,7 +2406,7 @@
 # Andesite variants
 - type: entity
   id: WallRockAndesite
-  name: "андезит"
+  name: andesite
   parent: WallRock
   components:
     - type: Icon
@@ -2428,7 +2428,7 @@
 - type: entity
   id: WallRockAndesiteCoal
   parent: WallRockAndesite
-  description: "Рудна жила, багата на вугілля."
+  description: An ore vein rich with coal.
   suffix: Coal
   components:
     - type: OreVein
@@ -2450,7 +2450,7 @@
 - type: entity
   id: WallRockAndesiteGold
   parent: WallRockAndesite
-  description: "Рудна жила, багата на золото."
+  description: An ore vein rich with gold.
   suffix: Gold
   components:
     - type: OreVein
@@ -2472,7 +2472,7 @@
 - type: entity
   id: WallRockAndesiteDiamond
   parent: WallRockAndesite
-  description: "Рудна жила, багата на алмази."
+  description: An ore vein rich with diamonds.
   suffix: Diamond
   components:
     - type: OreVein
@@ -2494,7 +2494,7 @@
 - type: entity
   id: WallRockAndesitePlasma
   parent: WallRockAndesite
-  description: "Рудна жила, багата на плазму."
+  description: An ore vein rich with plasma.
   suffix: Plasma
   components:
     - type: OreVein
@@ -2516,7 +2516,7 @@
 - type: entity
   id: WallRockAndesiteQuartz
   parent: WallRockAndesite
-  description: "Рудна жила, багата на кварц."
+  description: An ore vein rich with quartz.
   suffix: Quartz
   components:
     - type: OreVein
@@ -2538,7 +2538,7 @@
 - type: entity
   id: WallRockAndesiteSilver
   parent: WallRockAndesite
-  description: "Рудна жила, багата на срібло."
+  description: An ore vein rich with silver.
   suffix: Silver
   components:
     - type: OreVein
@@ -2560,7 +2560,7 @@
 - type: entity
   id: WallRockAndesiteTin
   parent: WallRockAndesite
-  description: "Рудна жила, багата на залізо."
+  description: An ore vein rich with iron.
   suffix: Iron
   components:
     - type: OreVein
@@ -2582,7 +2582,7 @@
 - type: entity
   id: WallRockAndesiteUranium
   parent: WallRockAndesite
-  description: "Рудна жила, багата на уран."
+  description: An ore vein rich with uranium.
   suffix: Uranium
   components:
     - type: OreVein
@@ -2605,7 +2605,7 @@
 - type: entity
   id: WallRockAndesiteBananium
   parent: WallRockAndesite
-  description: "Рудна жила, багата на бананіум."
+  description: An ore vein rich with bananium.
   suffix: Bananium
   components:
     - type: OreVein
@@ -2627,7 +2627,7 @@
 - type: entity
   id: WallRockAndesiteArtifactFragment
   parent: WallRockAndesite
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Artifact Fragment
   components:
     - type: OreVein
@@ -2649,7 +2649,7 @@
 - type: entity
   id: WallRockAndesiteSalt
   parent: WallRockAndesite
-  description: "Рудна жила, багата на сіль."
+  description: An ore vein rich with salt.
   suffix: Salt
   components:
     - type: OreVein
@@ -2671,7 +2671,7 @@
 - type: entity
   id: WallRockAndesiteBluespace
   parent: WallRockAndesite
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Bluespace
   components:
     - type: OreVein
@@ -2693,7 +2693,7 @@
 - type: entity
   id: WallRockAndesiteNormality
   parent: WallRockAndesite
-  description: "Кам'яна стіна. Що це з неї стирчить?"
+  description: A rock wall. What's that sticking out of it?
   suffix: Normality
   components:
     - type: OreVein
@@ -2715,7 +2715,7 @@
 - type: entity
   id: WallRockAndesiteAluminium
   parent: WallRockAndesite
-  description: "Рудна жила, багата на боксити."
+  description: An ore vein rich with bauxite.
   suffix: Aluminium
   components:
     - type: OreVein
@@ -2737,7 +2737,7 @@
 - type: entity
   id: WallRockAndesiteLead
   parent: WallRockAndesite
-  description: "Рудна жила, багата на каситерит."
+  description: An ore vein rich with casiterite.
   suffix: Lead
   components:
     - type: OreVein
@@ -2759,7 +2759,7 @@
 - type: entity
   id: WallRockAndesiteCopper
   parent: WallRockAndesite
-  description: "Рудна жила, багата на самородну мідь."
+  description: An ore vein rich with native copper.
   suffix: Copper
   components:
     - type: OreVein
