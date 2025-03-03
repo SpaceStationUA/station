@@ -4,8 +4,8 @@
 - type: entity
   parent: BaseItem
   id: FireBomb
-  name: fire bomb
-  description: A weak, improvised incendiary device.
+  name: "вогняна бомба"
+  description: "Слабкий саморобний запалювальний пристрій."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Bombs/ied.rsi
@@ -57,9 +57,9 @@
 - type: entity
   parent: DrinkColaCanEmpty
   id: FireBombEmpty
-  name: fire bomb
+  name: "вогняна бомба"
   suffix: empty
-  description: A weak, improvised incendiary device. This one has no fuel.
+  description: "Слабкий, саморобний запалювальний пристрій. У цьому немає пального."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Bombs/ied.rsi
@@ -86,7 +86,7 @@
   parent: FireBombEmpty
   id: FireBombFuel
   suffix: fuel
-  description: A weak, improvised incendiary device. This one is missing wires.
+  description: "Слабкий, саморобний запалювальний пристрій. У цьому не вистачає дротів."
   components:
   - type: Sprite
     layers:
