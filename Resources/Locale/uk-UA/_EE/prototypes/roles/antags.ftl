@@ -7,3 +7,4 @@ ghost-role-information-deserter-rules = Ви не терорист, але ви 
 roles-antag-sol-alliance-navy-deserter = Дезертир Солдатського флоту
 roles-antag-sol-alliance-navy-deserter-objective = Наповніть свій десантний корабель якомога більшою кількістю цінного луту, і при цьому виживіть, щоб похвалитися цим у наступному вільному порту.
 id-card-access-level-sol-alliance-navy = СОЛ
+role-type-SAN-antagonist-name = Дезертир
