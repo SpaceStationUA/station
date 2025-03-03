@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseStructure
   id: N14WindowBase # use for single tile / standalone windows & broken windows
-  description: "Вікно, через яке можна зазирнути в інші місця."
+  description: A window for seeing into places.
   abstract: true
-  name: "вікно"
+  name: window
   placement:
     mode: SnapgridCenter
     snap:
@@ -63,7 +63,7 @@
 - type: entity
   parent: N14WindowBase
   id: N14WindowBaseAirtight # use for single tile / standalone windows that are intact
-  description: "Вікно, через яке можна зазирнути в інші місця."
+  description: A window for seeing into places.
   abstract: true
   components:
   - type: Airtight
@@ -79,7 +79,7 @@
 - type: entity
   parent: N14WindowBase
   id: N14WindowSmoothBase # Use for windows that smooth together
-  description: "Вікно, через яке можна зазирнути в інші місця."
+  description: A window for seeing into places.
   abstract: true
   components:
   - type: Sprite
@@ -96,7 +96,7 @@
 - type: entity
   parent: N14WindowSmoothBase
   id: N14WindowSmoothBaseAirtight # use for windows that smooth together that are intact
-  description: "Вікно, через яке можна зазирнути в інші місця."
+  description: A window for seeing into places.
   abstract: true
   components:
   - type: Airtight
@@ -257,7 +257,7 @@
   parent: N14WindowBaseAirtight
   id: N14WindowStoreLeft
   suffix: left
-  name: "вітрина магазину"
+  name: store window
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Windows/window_ruins.rsi
@@ -270,7 +270,7 @@
   parent: N14WindowStoreLeft
   id: N14WindowStoreMiddleHorizontal
   suffix: middle horizontal
-  name: "вітрина магазину"
+  name: store window
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Windows/window_ruins.rsi
@@ -283,7 +283,7 @@
   parent: N14WindowStoreLeft
   id: N14WindowStoreRight
   suffix: right
-  name: "вітрина магазину"
+  name: store window
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Windows/window_ruins.rsi
@@ -296,7 +296,7 @@
   parent: N14WindowStoreLeft
   id: N14WindowStoreBottom
   suffix: bottom
-  name: "вітрина магазину"
+  name: store window
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Windows/window_ruins.rsi
@@ -309,7 +309,7 @@
   parent: N14WindowStoreLeft
   id: N14WindowStoreMiddleVertical
   suffix: middle vertical
-  name: "вітрина магазину"
+  name: store window
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Windows/window_ruins.rsi
@@ -322,7 +322,7 @@
   parent: N14WindowStoreLeft
   id: N14WindowStoreTop
   suffix: top
-  name: "вітрина магазину"
+  name: store window
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Windows/window_ruins.rsi

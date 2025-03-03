@@ -19,7 +19,7 @@
 - type: entity
   categories: [HideSpawnMenu]
   id: SpawnPointGhostSANDeserter
-  name: "астральна Нова"
+  name: ghost role spawn point
   suffix: SAN Deserter
   parent: MarkerBase
   components:
@@ -41,7 +41,7 @@
   categories: [HideSpawnMenu]
   parent: MobHuman
   id: MobHumanSANDeserter
-  name: "Дезертир SAN"
+  name: SAN Deserter
   components:
     - type: Loadout
       prototypes: [SANDeserterGearFull]
