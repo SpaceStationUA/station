@@ -1,7 +1,7 @@
 - type: entity
   id: BaseMindRole
-  name: Mind Role
-  description: Mind Role entity
+  name: "Роль Розуму"
+  description: "Сутність Ролі Розуму"
   abstract: true
   components:
   - type: MindRole
@@ -18,7 +18,7 @@
 - type: entity
   parent: BaseMindRole
   id: MindRoleObserver
-  name: Observer Role
+  name: "Роль Спостерігача"
   components:
   - type: ObserverRole
 
@@ -26,7 +26,7 @@
 - type: entity
   parent: BaseMindRole
   id: MindRoleGhostMarker
-  name: Ghost Role
+  name: "Роль Привида"
   components:
   - type: GhostRoleMarkerRole
 
@@ -34,7 +34,7 @@
 - type: entity
   parent: BaseMindRole
   id: MindRoleJob
-  name: Job Role
+  name: "Роль Роботи"
 #  description:
   # MindRoleComponent.JobPrototype is filled by SharedJobSystem
 
@@ -42,7 +42,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleSubvertedSilicon
-  name: Subverted Silicon Role
+  name: "Роль Підкореного Кремнію"
   description:
   components:
   - type: SubvertedSiliconRole
@@ -51,7 +51,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleDragon
-  name: Dragon Role
+  name: "Роль Дракона"
 #  description:
   components:
   - type: MindRole
@@ -65,7 +65,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleNinja
-  name: Space Ninja Role
+  name: "Роль Космічного Ніндзя"
 #  description: mind-role-ninja-description
   components:
   - type: MindRole
@@ -77,7 +77,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleNukeops
-  name: Nukeops Operative Role
+  name: "Роль Оперативника Ядерного Удару"
 #  description: mind-role-nukeops-description
   components:
   - type: MindRole
@@ -88,7 +88,7 @@
 - type: entity
   parent: MindRoleNukeops
   id: MindRoleNukeopsMedic
-  name: Nukeops Medic Role
+  name: "Роль Медика Ядерного Удару"
 #  description: mind-role-nukeops-medic-description
   components:
   - type: MindRole
@@ -97,7 +97,7 @@
 - type: entity
   parent: MindRoleNukeops
   id: MindRoleNukeopsCommander
-  name: Nukeops Commander Role
+  name: "Роль Командира Ядерного Удару"
 #  description: mind-role-nukeops-commander-description
   components:
   - type: MindRole
@@ -107,7 +107,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleHeadRevolutionary
-  name: Head Revolutionary Role
+  name: "Роль Голови Революціонерів"
 #  description: mind-role-head-revolutionary-description
   components:
   - type: MindRole
@@ -118,7 +118,7 @@
 - type: entity
   parent: MindRoleHeadRevolutionary
   id: MindRoleRevolutionary
-  name: Revolutionary Role
+  name: "Роль Революціонера"
 #  description: mind-role-revolutionary-description
   components:
   - type: MindRole
@@ -128,7 +128,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleThief
-  name: Thief Role
+  name: "Роль Злодія"
 #  description: mind-role-thief-description
   components:
   - type: MindRole
@@ -139,7 +139,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleTraitor
-  name: Traitor Role
+  name: "Роль Зрадника"
 #  description: mind-role-traitor-description
   components:
   - type: MindRole
@@ -150,7 +150,7 @@
 - type: entity
   parent: MindRoleTraitor
   id: MindRoleTraitorSleeper
-  name: Sleeper Agent Role
+  name: "Роль Сплячого Агента"
 #  description: mind-role-traitor-sleeper-description
   components:
   - type: MindRole
@@ -160,7 +160,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleInitialInfected
-  name: Initial Infected Role
+  name: "Роль Початкового Інфікованого"
 #  description: mind-role-initial-infected-description
   components:
   - type: MindRole
@@ -171,7 +171,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleZombie
-  name: Zombie Role
+  name: "Роль Зомбі"
 #  description: mind-role-zombie-description
   components:
   - type: MindRole
@@ -183,7 +183,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleChangeling
-  name: Changeling Role
+  name: "Роль Перевертня"
   components:
   - type: MindRole
     antagPrototype: Changeling
@@ -193,7 +193,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleHeretic
-  name: Heretic Role
+  name: "Роль Єретика"
   components:
   - type: MindRole
     antagPrototype: Heretic

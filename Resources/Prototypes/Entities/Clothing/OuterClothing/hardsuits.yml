@@ -5,8 +5,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitBasic
-  name: basic hardsuit
-  description: A basic, universal hardsuit that protects the wearer against the horrors of life in space. Beats not having a hardsuit, at least.
+  name: "базовий комбінезон"
+  description: "Базовий, універсальний скафандр, який захищає власника від жахів життя в космосі. Принаймні, це краще, ніж не мати скафандра."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/basic.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitAtmos
-  name: atmos hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
+  name: "комбінезон \"АТМОС"
+  description: "Спеціальний костюм, що захищає від небезпечних середовищ з низьким тиском. Має термозахист."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/atmospherics.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: ClothingOuterHardsuitEngineering
   id: ClothingOuterHardsuitEngineeringUnpainted
-  name: engineering hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
+  name: "інженерний комбінезон"
+  description: "Спеціальний костюм, який захищає від небезпечних середовищ з низьким тиском. Має радіаційний захист."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/engineering-base.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitEngineering
-  name: engineering hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
+  name: "інженерний комбінезон"
+  description: "Спеціальний костюм, який захищає від небезпечних середовищ з низьким тиском. Має радіаційний захист."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
@@ -137,8 +137,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSpatio
-  name: spationaut hardsuit
-  description: A lightweight hardsuit designed for industrial EVA in zero gravity.
+  name: "скафандр спасателя"
+  description: "Легкий хардкостюм, розроблений для промислового використання EVA в умовах невагомості."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
@@ -168,8 +168,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSalvage
-  name: mining hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
+  name: "шахтарський скафандр"
+  description: "Спеціальний костюм, що захищає від небезпечних середовищ з низьким тиском. Має посилене покриття на випадок зустрічі з дикими тваринами."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
@@ -201,8 +201,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitVoidParamed
-  name: paramedic hardsuit
-  description: A hardsuit made for paramedics.
+  name: "комбінезон парамедика"
+  description: "Костюм для парамедиків."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/paramed.rsi
@@ -234,8 +234,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitMaxim
-  name: salvager maxim hardsuit
-  description: Fire. Heat. These things forge great weapons, they also forge great salvagers.
+  name: "костюм утилізатора максима"
+  description: "Вогонь. Тепло. Ці речі кують велику зброю, вони також кують великих рятівників."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/maxim.rsi
@@ -270,8 +270,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitSecurity
-  name: security hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  name: "захисний костюм"
+  description: "Спеціальний костюм, який захищає від небезпечних середовищ з низьким тиском. Має додатковий шар броні."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security.rsi
@@ -302,8 +302,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitBrigmedic
-  name: corpsman hardsuit # DeltaV - rename brigmedic to corpsman
-  description: Special hardsuit of the guardian angel of the brig. It is the medical version of the security hardsuit. # I will fix the rest of this entry later when I resprite sec suits
+  name: "санітарний комбінезон" # DeltaV - rename brigmedic to corpsman
+  description: "Спеціальний костюм ангела-охоронця гауптвахти. Це медична версія захисного костюма." # I will fix the rest of this entry later when I resprite sec suits
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/brigmedic.rsi
@@ -331,8 +331,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseHeavy
   id: ClothingOuterHardsuitWarden
-  name: warden's hardsuit
-  description: A specialized riot suit geared to combat low pressure environments.
+  name: "костюм наглядача"
+  description: "Спеціалізований костюм для боротьби з масовими заворушеннями, пристосований до умов низького тиску."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security-warden.rsi
@@ -363,8 +363,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitCap
-  name: captain's armored spacesuit
-  description: A formal armored spacesuit, made for the station's captain.
+  name: "броньований скафандр капітана"
+  description: "Офіційний броньований скафандр, виготовлений для капітана станції."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/capspace.rsi
@@ -399,8 +399,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitEngineeringWhite
-  name: chief engineer's hardsuit
-  description: A special hardsuit that protects against hazardous, low pressure environments, made for the chief engineer of the station.
+  name: "костюм головного інженера"
+  description: "Спеціальний захисний костюм, що захищає від небезпечних середовищ з низьким тиском, виготовлений для головного інженера станції."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/engineering-white.rsi
@@ -447,8 +447,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMedical
-  name: chief medical officer's hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Built with lightweight materials for easier movement.
+  name: "комбінезон головного лікаря"
+  description: "Спеціальний костюм, що захищає від небезпечних середовищ з низьким тиском. Виготовлений з легких матеріалів для полегшення руху."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/medical.rsi
@@ -474,8 +474,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseHeavy
   id: ClothingOuterHardsuitRd
-  name: experimental research hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  name: "експериментальний дослідницький комбінезон"
+  description: "Спеціальний костюм, який захищає від небезпечних середовищ з низьким тиском. Має додатковий шар броні."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/rd.rsi
@@ -522,8 +522,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSecurity
   id: ClothingOuterHardsuitSecurityRed
-  name: head of security's hardsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  name: "костюм начальника служби безпеки"
+  description: "Спеціальний костюм, який захищає від небезпечних середовищ з низьким тиском. Має додатковий шар броні."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
@@ -555,8 +555,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
-  name: luxury mining hardsuit
-  description: A refurbished mining hardsuit, fashioned after the Logistics Officer's colors. Graphene lining provides less protection, but is much easier to move. # DeltaV - Logistics Department replacing Cargo
+  name: "розкішний гірничий комбінезон"
+  description: "Відремонтований гірничий комбінезон, виконаний у кольорах офіцера логістики. Графенова підкладка забезпечує менший захист, але в ньому набагато легше рухатися." # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi
@@ -589,8 +589,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndie
   id: ClothingOuterHardsuitShanlinUnpainted
-  name: Cybersun tacsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
+  name: "Кіберкостюм \"Кіберпанцир"
+  description: "Спеціальний костюм, який захищає від небезпечних середовищ з низьким тиском. Має радіаційний захист."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate-base.rsi
@@ -607,8 +607,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitSyndie
-  name: blood-red hardsuit
-  description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
+  name: "криваво-червоний комбінезон"
+  description: "Важкоброньований хардкостюм, призначений для роботи в спецопераціях. Власність \"Мародерів Горлекса\"."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
@@ -649,8 +649,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndie
   id: ClothingOuterHardsuitSyndieMedic
-  name: blood-red medic hardsuit
-  description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
+  name: "криваво-червоний медичний комбінезон"
+  description: "Важкоброньований та маневрений вдосконалений бронежилет, спеціально розроблений для польових медиків."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
@@ -670,8 +670,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndieElite
   id: ClothingOuterHardsuitShiweiUnpainted
-  name: Cybersun tacsuit
-  description: A special suit that protects against hazardous, low pressure environments. Has radiation shielding.
+  name: "Кіберкостюм \"Кіберпанцир"
+  description: "Спеціальний костюм, який захищає від небезпечних середовищ з низьким тиском. Має радіаційний захист."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate-elite-base.rsi
@@ -688,8 +688,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSyndieElite
-  name: syndicate elite hardsuit
-  description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
+  name: "елітний комбінезон синдикату"
+  description: "Елітна версія криваво-червоного бронежилета, з покращеною мобільністю та вогнестійкістю. Власність \"Мародерів Горлекса\"."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
@@ -728,8 +728,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseHeavy
   id: ClothingOuterHardsuitSyndieCommander
-  name: syndicate commander hardsuit
-  description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
+  name: "комбінезон командира синдикату"
+  description: "Посилена версія криваво-червоного бронежилета, створена спеціально для командира оперативного загону синдикату. Має значно покращену броню для смертельних перестрілок на передовій."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
@@ -764,8 +764,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseHeavy
   id: ClothingOuterHardsuitJuggernaut
-  name: cybersun juggernaut suit
-  description: A suit made by the cutting edge R&D department at cybersun to be hyper resilient.
+  name: "костюм кіберсолдата-джаггернаута"
+  description: "Костюм, виготовлений найсучаснішим відділом досліджень та розробок компанії cybersun, щоб бути надзвичайно стійким до зовнішніх впливів."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/cybersun.rsi
@@ -798,8 +798,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, ClothingOuterWizardBaseArmor] # Goob edit
   id: ClothingOuterHardsuitWizard
-  name: wizard hardsuit
-  description: A bizarre gem-encrusted suit that radiates magical energies.
+  name: "скафандр чарівника"
+  description: "Химерний костюм, інкрустований дорогоцінним камінням, що випромінює магічну енергію."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/wizard.rsi
@@ -838,8 +838,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitLing
-  name: organic space suit
-  description: A spaceworthy biomass of pressure and temperature resistant tissue.
+  name: "органічний скафандр"
+  description: "Космічна біомаса зі стійкої до тиску та температури тканини."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
@@ -869,9 +869,9 @@
 - type: entity
   parent:  ClothingOuterHardsuitBase
   id:  ClothingOuterHardsuitPirateEVA
-  name: deep space EVA suit
+  name: "скафандр для глибокого космосу"
   suffix: Pirate
-  description: A heavy space suit that provides some basic protection from the cold harsh realities of deep space.
+  description: "Важкий скафандр, який забезпечує базовий захист від холодних суворих реалій відкритого космосу."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/pirateeva.rsi
@@ -900,8 +900,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitPirateCap
-  name: pirate captain's hardsuit
-  description: An ancient armored hardsuit, perfect for defending against space scurvy and toolbox-wielding scallywags.
+  name: "костюм піратського капітана"
+  description: "Старовинний броньований скафандр, що ідеально захищає від космічної цинги та інструментальних відморозків."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/piratecaptain.rsi
@@ -936,8 +936,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndieCommander
   id: ClothingOuterHardsuitERTLeader
-  name: ERT leader's hardsuit
-  description: A protective hardsuit worn by the leader of an emergency response team.
+  name: "Комбінезон лідера ГШР"
+  description: "Захисний комбінезон, який одягає керівник ГШР."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertleader.rsi
@@ -952,8 +952,8 @@
 - type: entity
   parent: ClothingOuterHardsuitJuggernaut
   id: ClothingOuterHardsuitERTChaplain
-  name: ERT chaplain's hardsuit
-  description: A protective hardsuit worn by the chaplains of an Emergency Response Team.
+  name: "Костюм капелана ERT"
+  description: "Захисний комбінезон, який носять капелани групи швидкого реагування."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi #if you change this, please update the humanoid.yml with a better markers sprite.
@@ -968,8 +968,8 @@
 - type: entity
   parent: ClothingOuterHardsuitCBURN
   id: ClothingOuterHardsuitERTEngineer
-  name: ERT engineer's hardsuit
-  description: A protective hardsuit worn by the engineers of an emergency response team.
+  name: "Комбінезон інженера ГШР"
+  description: "Захисний комбінезон, який одягає керівник ГШР."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertengineer.rsi
@@ -988,8 +988,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndieMedic
   id: ClothingOuterHardsuitERTMedical
-  name: ERT medic's hardsuit
-  description: A protective hardsuit worn by the medics of an emergency response team.
+  name: "Комбінезон медика ГШР"
+  description: "Захисний комбінезон, який носять медики ГШР"
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertmedical.rsi
@@ -1004,8 +1004,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndie
   id: ClothingOuterHardsuitERTSecurity
-  name: ERT security's hardsuit
-  description: A protective hardsuit worn by the security officers of an emergency response team.
+  name: "Бронежилет служби безпеки ГШР"
+  description: "Захисний комбінезон, який носять співробітники служби безпеки ГШР"
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertsecurity.rsi
@@ -1024,8 +1024,8 @@
 - type: entity
   parent: ClothingOuterHardsuitCBURN
   id: ClothingOuterHardsuitERTJanitor
-  name: ERT janitor's hardsuit
-  description: A protective hardsuit worn by the janitors of an emergency response team.
+  name: "Комбінезон прибиральника ГШР"
+  description: "Захисний комбінезон, який носять прибиральники ГШР"
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertjanitor.rsi
@@ -1040,8 +1040,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseHeavy
   id: ClothingOuterHardsuitDeathsquad
-  name: death squad hardsuit
-  description: An advanced hardsuit favored by commandos for use in special operations.
+  name: "костюм ескадрону смерті"
+  description: "Удосконалений бронежилет, який використовують спецпризначенці під час спецоперацій."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
@@ -1076,8 +1076,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
   id: ClothingOuterHardsuitCBURN
-  name: CBURN exosuit
-  description: A lightweight yet strong exosuit used for special cleanup operations.
+  name: "Екзокостюм CBURN"
+  description: "Легкий, але міцний екзокостюм, який використовується для спеціальних операцій з очищення."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/cburn.rsi
@@ -1113,8 +1113,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitClown
-  name: clown hardsuit
-  description: A custom-made clown hardsuit.
+  name: "клоунський костюм"
+  description: "Костюм клоуна, зроблений на замовлення."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/clown.rsi
@@ -1146,8 +1146,8 @@
 - type: entity
   parent: ClothingOuterHardsuitClown
   id: ClothingOuterHardsuitMime
-  name: mime hardsuit
-  description: A custom-made mime hardsuit.
+  name: "костюм міма"
+  description: "Костюм міма, пошитий на замовлення."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/mime.rsi
@@ -1163,8 +1163,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSanta
-  name: Santa's hardsuit
-  description: A festive, cheerful hardsuit that protects the jolly gift-giver while on sleighrides in space. Offers some resistance against asteroid strikes.
+  name: "Костюм Санти"
+  description: "Святковий, веселий скафандр, що захищає веселого дарувальника під час подорожі на санях у космосі. Має певний захист від ударів астероїдів."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/santahardsuit.rsi

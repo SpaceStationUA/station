@@ -34,8 +34,8 @@
 - type: entity
   id: MobGoliath
   parent: BaseMobAsteroid
-  name: goliath
-  description: A massive beast that uses long tentacles to ensnare its prey, threatening them is not advised under any conditions.
+  name: "голіаф"
+  description: "Масивний звір, який використовує довгі щупальця, щоб схопити свою здобич, погрожуючи їй, не рекомендується за жодних обставин."
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Asteroid/goliath.rsi
@@ -93,7 +93,7 @@
 - type: entity
   id: ActionGoliathTentacle
   name: "[color=red]Tentacle Slam[/color]"
-  description: Use your tentacles to grab and stun a target player!
+  description: "Використовуйте щупальця, щоб схопити та оглушити цільового гравця!"
   components:
   - type: EntityWorldTargetAction
     raiseOnUser: true
@@ -111,7 +111,7 @@
 
 - type: entity
   id: GoliathTentacle
-  name: tentacle
+  name: "щупальце"
   components:
   - type: Transform
     anchored: True
@@ -146,7 +146,7 @@
 - type: entity
   id: BaseEffectGoliathTentacleSpawn
   categories: [ HideSpawnMenu ]
-  name: tentacle
+  name: "щупальце"
   abstract: true
   components:
   - type: Transform
@@ -164,7 +164,7 @@
   id: EffectGoliathTentacleSpawn
   parent: BaseEffectGoliathTentacleSpawn
   categories: [ HideSpawnMenu ]
-  name: tentacle
+  name: "щупальце"
   components:
     - type: Sprite
       state: goliath_tentacle_spawn
