@@ -20,9 +20,9 @@ plant-analyzer-soil = У цьому {$holder} є трохи [color=white]{$chemi
 } поглинені.
 plant-analyzer-soil-empty = У цьому {$holder} немає непоглинених хімікатів.
 
-plant-analyzer-component-environemt = Ця [color=green]{$seedName}[/color] потребує атмосферу з тиском [color=lightblue]{$kpa}кПа ± {$kpaTolerance}кПа[/color], температурою [color=lightsalmon]{$temp}°k ± {$tempTolerance}°k[/color] та рівнем освітлення [color=white]{$lightLevel} ± {$lightTolerance}[/color].
-plant-analyzer-component-environemt-void = Цю [color=green]{$seedName}[/color] потрібно вирощувати [bolditalic]у космічному вакуумі[/bolditalic] при рівні освітлення [color=white]{$lightLevel} ± {$lightTolerance}[/color].
-plant-analyzer-component-environemt-gas = Ця [color=green]{$seedName}[/color] потребує атмосферу, що містить [bold]{$gases}[/bold] з тиском [color=lightblue]{$kpa}кПа ± {$kpaTolerance}кПа[/color], температурою [color=lightsalmon]{$temp}°k ± {$tempTolerance}°k[/color] та рівнем освітлення [color=white]{$lightLevel} ± {$lightTolerance}[/color].
+plant-analyzer-component-environment = Ця [color=green]{$seedName}[/color] потребує атмосферу з тиском [color=lightblue]{$kpa}кПа ± {$kpaTolerance}кПа[/color], температурою [color=lightsalmon]{$temp}°k ± {$tempTolerance}°k[/color] та рівнем освітлення [color=white]{$lightLevel} ± {$lightTolerance}[/color].
+plant-analyzer-component-environment-void = Цю [color=green]{$seedName}[/color] потрібно вирощувати [bolditalic]у космічному вакуумі[/bolditalic] при рівні освітлення [color=white]{$lightLevel} ± {$lightTolerance}[/color].
+plant-analyzer-component-environment-gas = Ця [color=green]{$seedName}[/color] потребує атмосферу, що містить [bold]{$gases}[/bold] з тиском [color=lightblue]{$kpa}кПа ± {$kpaTolerance}кПа[/color], температурою [color=lightsalmon]{$temp}°k ± {$tempTolerance}°k[/color] та рівнем освітлення [color=white]{$lightLevel} ± {$lightTolerance}[/color].
 
 plant-analyzer-produce-plural = {MAKEPLURAL($thing)}
 plant-analyzer-output = {$yield ->
