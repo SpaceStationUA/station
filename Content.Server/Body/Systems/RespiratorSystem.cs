@@ -23,6 +23,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Content.Shared.Movement.Pulling.Components; // Goobstation
 using Content.Shared.Movement.Pulling.Systems; // Goobstation
+using Content.Shared._Impstation.CosmicCult.Components; //IMP
 
 namespace Content.Server.Body.Systems;
 
@@ -116,6 +117,9 @@ public sealed class RespiratorSystem : EntitySystem
                     respirator.LastGaspPopupTime = _gameTiming.CurTime;
                     _popupSystem.PopupEntity(Loc.GetString("lung-behavior-gasp"), uid);
                 }
+
+                if (TryComp<CosmicCultComponent>(uid, out var cultComponent) && !cultComponent.Respiration) return; // Imp HACK so cultists gasp but don't take respiration damage.
+                // One line change but a refactor would be so much better. this is VERY BAD and AWFUL.
 
                 TakeSuffocationDamage((uid, respirator));
                 respirator.SuffocationCycles += 1;
