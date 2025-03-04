@@ -4,8 +4,6 @@ monument-interface-occupied = Хтось інший використовує ц�
 
 # Progress bar
 monument-interface-progress-bar = {$percentage}%
-
-# Entropy
 monument-interface-entropy-title = Ентропія
 monument-interface-entropy-infused-label = Насичено:
 monument-interface-entropy-value = {$infused} Ентропії
