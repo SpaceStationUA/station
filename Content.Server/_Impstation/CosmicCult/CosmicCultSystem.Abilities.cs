@@ -21,7 +21,8 @@ using Content.Server.Light.Components;
 using Robust.Shared.Physics.Events;
 using Content.Shared.NPC;
 using Content.Shared.Stacks;
-
+using Content.Shared.Mobs.Components;
+using Content.Shared.Mobs;
 
 namespace Content.Server._Impstation.CosmicCult;
 
@@ -157,7 +158,7 @@ public sealed partial class CosmicCultSystem : EntitySystem
     #region Siphon Entropy
     private void OnCosmicSiphon(Entity<CosmicCultComponent> uid, ref EventCosmicSiphon args)
     {
-        if (HasComp<CosmicCultComponent>(args.Target) || HasComp<BibleUserComponent>(args.Target))
+        if (HasComp<CosmicCultComponent>(args.Target) || HasComp<BibleUserComponent>(args.Target) || HasComp<ActiveNPCComponent>(args.Target) || TryComp<MobStateComponent>(args.Target, out var state) && state.CurrentState != MobState.Alive)
         {
             _popup.PopupEntity(Loc.GetString("cosmicability-siphon-fail", ("target", Identity.Entity(args.Target, EntityManager))), uid, uid);
             return;
@@ -182,13 +183,10 @@ public sealed partial class CosmicCultSystem : EntitySystem
     {
         if (args.Args.Target == null)
             return;
-
         var target = args.Args.Target.Value;
-        if (args.Cancelled || args.Handled)
-            return;
 
-        args.Handled = true;
-        _damageable.TryChangeDamage(args.Target, uid.Comp.CosmicSiphonDamage, origin: uid);
+        _damageable.TryChangeDamage(args.Target, uid.Comp.SiphonAsphyxDamage, origin: uid);
+        _damageable.TryChangeDamage(args.Target, uid.Comp.SiphonColdDamage, origin: uid);
         _popup.PopupEntity(Loc.GetString("cosmicability-siphon-success", ("target", Identity.Entity(target, EntityManager))), uid, uid);
 
         var stackPrototype = _protoMan.Index<StackPrototype>("Entropy");
