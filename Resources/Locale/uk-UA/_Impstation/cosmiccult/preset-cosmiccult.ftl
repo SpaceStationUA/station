@@ -158,3 +158,13 @@ cosmiccult-announce-victory-summon = ЧАСТИНУ КОСМІЧНОЇ СИЛИ 
 cosmiccult-spire-entropy = Частинка ентропії конденсується з поверхні шпиля.
 cosmiccult-entropy-inserted = Ви вливаєте {$count} ентропії в Монумент.
 cosmiccult-astral-ascendant = {$NAME}, Вознесений
+
+cosmiccult-finale-autocall-briefing = Фінал розпочнеться за {$minutesandseconds}, зберіть культ та підготуйтеся до кінця!
+cosmiccult-monument-stage2-briefing = Монумент набирає силу!
+    Його вплив почне діяти на реальний простір за {$time} секунд.
+cosmiccult-monument-stage3-briefing = Монумент завершено!
+    Його вплив почне перетинатися з реальним простором за {$time} секунд.
+    Це фінальний етап! Накопичіть якомога більше ентропії.
+
+## ЗЛОВІСНІ РОЗЛОМИ
+cosmiccult-entropy-unavailable = Ви не можете цього зробити зараз.
