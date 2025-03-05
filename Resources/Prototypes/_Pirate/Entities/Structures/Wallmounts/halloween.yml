@@ -1,8 +1,8 @@
 - type: entity
   parent: PosterBase
   id: HalloweenPosterHalloweenFamily
-  name: ghoast family
-  description: Picture of a family of ghosts, they look happy.
+  name: "родина гоастів"
+  description: "Зображення сім'ї привидів, вони виглядають щасливими."
   components:
   - type: Sprite
     sprite: _Pirate/Structures/Wallmounts/halloween.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: PosterBase
   id: HalloweenPosterHalloweencounts
-  name: count's painting
-  description: Picture of some kind of vampire, the sight of him makes you feel cold.
+  name: "картина графа"
+  description: "Зображення якогось вампіра, від його вигляду стає холодно."
   components:
   - type: Sprite
     sprite: _Pirate/Structures/Wallmounts/halloween.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseSign
   id: HalloweenCheckboxes
-  name: checkboxes
-  description: Black and orange flags, it's got a halloween feel to it.
+  name: "прапорці"
+  description: "Чорно-помаранчеві прапори, відчуття Гелловіну."
   components:
   - type: Sprite
     sprite: _Pirate/Structures/Wallmounts/halloween.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: BaseSign
   id: HalloweenLightbulbs
-  name: light bulbs
-  description: Hanging garland, not the best source of light
+  name: "лампочки"
+  description: "Висяча гірлянда, не найкраще джерело світла"
   components:
   - type: PointLight
     radius: 2.0

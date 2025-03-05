@@ -3,7 +3,7 @@
 - type: entity
   id: PartMonkey
   parent: [BaseItem, BasePart]
-  name: "monkey body part"
+  name: "частина тіла мавпи"
   abstract: true
   components:
   - type: Extractable
@@ -16,7 +16,7 @@
 
 - type: entity
   id: TorsoMonkey
-  name: "monkey torso"
+  name: "тулуб мавпи"
   parent: [PartMonkey, BaseTorso]
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
 
 - type: entity
   id: HeadMonkey
-  name: "monkey head"
+  name: "голова мавпи"
   parent: [PartMonkey, BaseHead]
   components:
   - type: Sprite
@@ -48,7 +48,7 @@
 
 - type: entity
   id: LeftArmMonkey
-  name: "left monkey arm"
+  name: "ліва рука мавпи"
   parent: [PartMonkey, BaseLeftArm]
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 
 - type: entity
   id: RightArmMonkey
-  name: "right monkey arm"
+  name: "права рука мавпи"
   parent: [PartMonkey, BaseRightArm]
   components:
   - type: Sprite
@@ -66,7 +66,7 @@
 
 - type: entity
   id: LeftHandMonkey
-  name: "left monkey hand"
+  name: "ліва мавпяча рука"
   parent: [PartMonkey, BaseLeftHand]
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 
 - type: entity
   id: RightHandMonkey
-  name: "right monkey hand"
+  name: "права мавпяча рука"
   parent: [PartMonkey, BaseRightHand]
   components:
   - type: Sprite
@@ -84,7 +84,7 @@
 
 - type: entity
   id: LeftLegMonkey
-  name: "left monkey leg"
+  name: "ліва нога мавпи"
   parent: [PartMonkey, BaseLeftLeg]
   components:
   - type: Sprite
@@ -93,7 +93,7 @@
 
 - type: entity
   id: RightLegMonkey
-  name: "right monkey leg"
+  name: "права мавпяча лапа"
   parent: [PartMonkey, BaseRightLeg]
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 
 - type: entity
   id: LeftFootMonkey
-  name: "left monkey foot"
+  name: "ліва мавпяча лапа"
   parent: [PartMonkey, BaseLeftFoot]
   components:
   - type: Sprite
@@ -111,7 +111,7 @@
 
 - type: entity
   id: RightFootMonkey
-  name: "right monkey foot"
+  name: "права мавпяча лапка"
   parent: [PartMonkey, BaseRightFoot]
   components:
   - type: Sprite
