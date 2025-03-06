@@ -90,6 +90,8 @@
     - Multitool
   - type: Prying
     enabled: false
+  - type: UseDelay # For insta prying
+    delay: 1
   - type: Tool
     qualities:
       - Screwing
@@ -157,3 +159,13 @@
   - type: Item
     sprite: _Goobstation/Objects/Tools/rcd_chrono.rsi
   - type: RCD
+
+- type: entity #GOOOB
+  name: borg multitool
+  parent: Multitool
+  id: MultitoolBorg
+  description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines.
+  components:
+  - type: Tool
+    qualities:
+    - Pulsing
