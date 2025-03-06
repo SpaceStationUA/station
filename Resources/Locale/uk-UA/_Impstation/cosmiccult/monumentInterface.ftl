@@ -27,3 +27,5 @@ monument-interface-influences-purchased = Придбано
 monument-interface-influences-owned-tooltip = Ви вже володієте цим впливом.
 monument-interface-influences-unlocked-not-enough-entropy-tooltip = Вам потрібно більше {$entropy} ентропії, щоб придбати цей вплив.
 monument-interface-influences-locked-tooltip = Цей вплив заблоковано, додайте більше ентропії до монумента.
+
+monument-interface-entropy-seperator = АБО
