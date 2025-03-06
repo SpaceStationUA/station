@@ -11,9 +11,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolFatigueGreen
-  name: "Форма SAN"
+  name: SAN fatigues
   suffix: Green
-  description: "Повсякденна форма, яку носять \"рядові\" у Збройних силах Соларіан. Хоча Земля вже не є зеленим раєм минулого, оливкові BDU залишаються емблемою старих армій Землі."
+  description: A common uniform worn by "grunts" in the Solarian Armed Forces. Although Earth is no longer the green paradise of old, olive BDUs remain an emblem of old Earth's militaries.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_green.rsi
@@ -23,9 +23,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolFatigueGrey
-  name: "Форма SAN"
+  name: SAN fatigues
   suffix: Grey
-  description: "Повсякденна форма, яку носять \"рядові\" у Збройних силах Соларіан. Хоча і не такий поширений, як оливковий BDU, \"кам'яно-сірий\" залишається популярним вибором кольору уніформи."
+  description: A common uniform worn by "grunts" in the Solarian Armed Forces. Although not as common as olive BDUs, "stone gray" remains a popular choice of uniform color.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_grey.rsi
@@ -35,9 +35,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolFatigueIPC
-  name: "Форма SAN IPC"
+  name: SAN IPC fatigues
   suffix: Grey
-  description: "IPC є єдиним винятком з сумнозвісної ксенофобії Збройних сил Соларіан. Хоча SAN жодного разу не дозволив служити інопланетянам, він прагне використовувати синтетиків, щоб врятувати чистих людей від важкої праці або відправки на м'ясорубку."
+  description: IPCs serve as the only exception to the infamous xenophobia of the Solarians Armed Forces. For while SAN has never once permitted an alien to serve, it is eager to make use of synthetics to save pure humans from back breaking labor or charging into meat grinders.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_ipc.rsi
