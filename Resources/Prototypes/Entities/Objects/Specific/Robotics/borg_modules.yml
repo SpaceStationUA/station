@@ -205,8 +205,7 @@
   - type: ItemBorgModule
     items:
     - MiningDrill
-    # - Shovel # Goobstation
-    - MineralScannerUnpowered
+    - Shovel
     - OreBag
     - Crowbar
     - RadioHandheld
@@ -236,8 +235,11 @@
     - state: cargo
     - state: icon-pka
   - type: ItemBorgModule
-    items:
-    - WeaponProtoKineticAccelerator
+    droppableItems:
+    - id: WeaponProtoKineticAccelerator
+      whitelist:
+        components:
+        - PressureDamageChange
 
 - type: entity
   id: BorgModuleGrapplingGun
