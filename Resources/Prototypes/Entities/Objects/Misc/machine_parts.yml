@@ -20,8 +20,18 @@
     - type: GuideHelp
       guides:
       - MachineUpgrading
-
-# Rating 1
+    - type: Stack
+      count: 1
+    - type: PhysicalComposition #Goobstation - Recycle update
+      materialComposition:
+        Steel: 12
+        Plastic: 12
+  # Goobstation - Custom stack splitting dialog
+    - type: UserInterface
+      interfaces:
+        enum.StackCustomSplitUiKey.Key:
+          type: StackCustomSplitBoundUserInterface
+    - type: StockPart # Goobstation
 
 - type: entity
   id: CapacitorStockPart

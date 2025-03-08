@@ -16,6 +16,15 @@
     - Cautery
     - SawElectric
     - BoneGel
+    # Frontier: droppable borg items
+    droppableItems:
+    - id: OrganHumanBrain
+      whitelist:
+        components:
+        - BodyPart
+        tags:
+        - Organ
+    # End Frontier: droppable borg items
 
 - type: entity
   id: BorgModuleAdvancedSurgery
@@ -32,3 +41,12 @@
     - EnergyCautery
     - AdvancedRetractor
     - BoneGel
+    # Frontier: droppable borg items
+    droppableItems:
+    - id: OrganHumanBrain
+      whitelist:
+        components:
+        - BodyPart
+        tags:
+        - Organ
+    # End Frontier: droppable borg items

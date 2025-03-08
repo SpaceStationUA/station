@@ -205,7 +205,8 @@
   - type: ItemBorgModule
     items:
     - MiningDrill
-    - Shovel
+    # - Shovel # Goobstation
+    - MineralScannerUnpowered
     - OreBag
     - Crowbar
     - RadioHandheld
@@ -286,6 +287,18 @@
     - SheetGlassLingering0
     - PartRodMetalLingering0
     - FloorTileItemSteelLingering0
+    # Frontier: droppable borg items
+    droppableItems:
+    - id: APCElectronics
+      whitelist:
+        components:
+        - Electronics
+        - MachineBoard
+    - id: CapacitorStockPart
+      whitelist:
+        components:
+        - StockPart
+    # End Frontier: droppable borg items
 
 - type: entity
   id: BorgModuleRCD
@@ -407,10 +420,17 @@
   - type: ItemBorgModule
     items:
     - HandheldHealthAnalyzerUnpowered
-    - Beaker
-    - Beaker
-    - BorgDropper
+#    - Beaker # Frontier
+#    - Beaker # Frontier
+#    - BorgDropper # Frontier
     - BorgHypo
+    # Frontier: droppable borg items
+    droppableItems:
+    - id: Beaker
+      whitelist:
+        components:
+        - FitsInDispenser
+    # End Frontier: droppable borg items
 
 # science modules
 # todo: if science ever gets their own custom robot, add more "sci" modules.
@@ -461,6 +481,15 @@
     - Lighter
     - DrinkShaker
     - BorgDropper
+    # Frontier: droppable borg items
+    # - DrinkShaker
+    # - BorgDropper
+    droppableItems:
+    - id: DrinkShaker
+      whitelist:
+        components:
+        - FitsInDispenser
+    # End Frontier: droppable borg items
 
 - type: entity
   id: BorgModuleMusique
@@ -492,6 +521,13 @@
     - HydroponicsToolSpade
     - HydroponicsToolClippers
     - Bucket
+    # Frontier: droppable borg items
+    droppableItems:
+    - id: AppleSeeds
+      whitelist:
+        components:
+        - Seed
+    # End Frontier: droppable borg items
 
 - type: entity
   id: BorgModuleHarvesting
