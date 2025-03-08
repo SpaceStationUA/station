@@ -5,6 +5,10 @@ using Content.Server.Speech.EntitySystems;
 using Content.Server.Temperature.Components;
 using Content.Server.Temperature.Systems;
 using Content.Shared.Chat;
+using Content.Shared._Shitmed.Targeting;
+using Content.Shared._White.BackStab;
+using Content.Shared._White.Standing;
+using Content.Shared.Actions;
 using Content.Shared.Damage;
 using Content.Shared.Damage.Systems;
 using Content.Shared.DoAfter;
@@ -42,6 +46,8 @@ public sealed partial class MansusGraspSystem : EntitySystem
     [Dependency] private readonly TemperatureSystem _temperature = default!;
     [Dependency] private readonly HandsSystem _hands = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
+    [Dependency] private readonly BackStabSystem _backstab = default!;
+    [Dependency] private readonly SharedActionsSystem _actions = default!;
 
     public override void Initialize()
     {
@@ -99,7 +105,8 @@ public sealed partial class MansusGraspSystem : EntitySystem
             }
         }
 
-        hereticComp.MansusGraspActive = false;
+        _actions.SetCooldown(hereticComp.MansusGrasp, ent.Comp.CooldownAfterUse);
+        hereticComp.MansusGrasp = EntityUid.Invalid;
         QueueDel(ent);
         args.Handled = true;
     }
@@ -111,7 +118,7 @@ public sealed partial class MansusGraspSystem : EntitySystem
         if (!args.CanReach
         || !args.ClickLocation.IsValid(EntityManager)
         || !TryComp<HereticComponent>(args.User, out var heretic) // not a heretic - how???
-        || !heretic.MansusGraspActive // no grasp - not special
+        || heretic.MansusGrasp != EntityUid.Invalid // no grasp - not special
         || HasComp<ActiveDoAfterComponent>(args.User) // prevent rune shittery
         || !tags.Contains("Write") || !tags.Contains("Pen")) // not a pen
             return;
