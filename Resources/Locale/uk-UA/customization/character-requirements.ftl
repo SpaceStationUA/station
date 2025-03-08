@@ -140,3 +140,12 @@ character-age-requirement-maximum-only = Ви повинні{$inverted ->
     [true]{""}
     *[other]{" "}не
 } бути старше [color=yellow]{$max}[/color] років
+
+character-antagonist-requirement = Ви {$inverted ->
+    [true]повинні
+    *[other]не повинні
+} бути антагоністом
+character-mindshield-requirement = Ви {$inverted ->
+    [true]повинні
+    *[other]не повинні
+} бути захищені ментальним щитом
