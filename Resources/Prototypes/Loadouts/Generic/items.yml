@@ -302,7 +302,6 @@
         - Musician
 
 # Survival Kit
-
 - type: loadout
   id: LoadoutItemsEmergencyOxygenTank
   category: Items
@@ -477,17 +476,6 @@
         - Plasmaman
 
 # Survival boxes
-- type: loadout
-  id: LoadoutItemBoxSurvivalIPC
-  category: Items
-  cost: 0
-  items:
-    - BoxSurvivalIpc
-  requirements:
-    - !type:CharacterSpeciesRequirement
-      species:
-        - IPC
-
 - type: loadout
   id: LoadoutItemBoxSurvival
   category: Items
