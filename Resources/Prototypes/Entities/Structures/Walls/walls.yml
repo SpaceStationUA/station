@@ -1324,6 +1324,11 @@
           base:
             True: { state: forcewall }
             False: { state: forcewallspawn }
+    - type: PreventCollide
+      whitelist:
+        components:
+        - Wizard
+        - Apprentice
     # Goobstation end
 
 - type: entity
