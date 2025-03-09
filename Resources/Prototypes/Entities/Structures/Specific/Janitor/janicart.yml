@@ -1,9 +1,9 @@
 # Mop Bucket
 - type: entity
-  name: "відро для швабри"
+  name: mop bucket
   id: MopBucket
   parent: [BaseStructureDynamic, StructureWheeled]
-  description: "Тримає воду і сльози двірника."
+  description: Holds water and the tears of the janitor.
   components:
   - type: Clickable
   - type: Sprite
@@ -95,7 +95,7 @@
         - MachineMask
 
 - type: entity
-  name: "відро для швабри"
+  name: mop bucket
   id: MopBucketFull
   parent: MopBucket
   suffix: full
@@ -115,10 +115,10 @@
 
 # Janicart
 - type: entity
-  name: "візок двірника"
+  name: janitorial trolley
   id: JanitorialTrolley
   parent: [BaseStructureDynamic, StructureWheeled]
-  description: "Це альфа і омега санітарії."
+  description: This is the alpha and omega of sanitation.
   components:
     - type: Sprite
       noRot: true
