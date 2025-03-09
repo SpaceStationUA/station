@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputer
   id: ComputerShipyard
-  name: shipyard console
-  description: Used to purchase and sell shuttles
+  name: "консоль верфі"
+  description: "Використовується для покупки та продажу шатлів"
   components:
   - type: ShipyardConsole
   - type: AccessReader
