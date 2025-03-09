@@ -134,3 +134,5 @@ guide-entry-reverse-engineering = Reverse Engineering
 
 guide-entry-loadout-info = Loadouts
 guide-entry-loadout-eyes-eyepatch = Eyepatch
+
+guide-entry-Psionic-Mantis = Psionic Mantis
