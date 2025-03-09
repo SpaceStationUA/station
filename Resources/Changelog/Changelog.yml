@@ -11485,3 +11485,83 @@ Entries:
   id: 6911
   time: '2025-03-07T22:45:53.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1885
+- author: Eagle
+  changes:
+    - type: Add
+      message: >-
+        Удар об стіл. Вдарте стіл, коли ви душите когось у шкоду, подивіться, що
+        станеться.
+    - type: Tweak
+      message: >-
+        Шкода від кидка в іншу істоту тепер базується на кінетичній енергії
+        кинутої істоти. Більше ніяких руйнівних куль з мишей.
+    - type: Tweak
+      message: Тепер ви можете вирватися з м'якого захоплення, просто відійшовши.
+    - type: Tweak
+      message: Ви більше не можете схопити когось іншого, поки вас схопили.
+    - type: Tweak
+      message: Маса тепер впливає на спроби звільнення від захоплення.
+  id: 6912
+  time: '2025-03-08T19:49:02.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1889
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано різноманітні "Шлюзи для спавну шатлів", які можуть
+        використовувати картографи, що дозволяють шатлам, як-от Вантажний шатл,
+        Слідопит тощо, з'являтися вже пристикованими до станції.
+  id: 6913
+  time: '2025-03-08T20:11:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1890
+- author: Timfa2112
+  changes:
+    - type: Add
+      message: >-
+        Додано додаткові описи до революційного маніфесту та цивільного
+        дизейблера
+    - type: Fix
+      message: Виправлено розширений опис на спалаху
+  id: 6914
+  time: '2025-03-08T21:08:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1887
+- author: RadsammyT
+  changes:
+    - type: Tweak
+      message: >-
+        Рудопереробники тепер обробляють свинець, мідь та алюміній миттєво, і
+        набагато швидше обробляють вольфрам
+  id: 6915
+  time: '2025-03-08T21:11:30.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1873
+- author: Eagle
+  changes:
+    - type: Add
+      message: >-
+        Додано Корпоративне Дзюдо, CQC, Сплячий Короп та Крав-Мага бойові
+        мистецтва з унікальними здібностями.
+    - type: Add
+      message: >-
+        Шеф-кухар отримав Кулінарію Ближнього бою на Кухні та в Барі.
+        Тайдери, стережіться.
+  id: 6916
+  time: '2025-03-09T00:31:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1891
+- author: AlgumCorrupto
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено помилку, через яку пофарбований шлюз робототехніка
+        відображав віконний аналог замість стандартного.
+  id: 6917
+  time: '2025-03-09T03:19:17.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1899
+- author: SolarisBirb
+  changes:
+    - type: Fix
+      message: СМ більше не запускається на початку раунду.
+    - type: Fix
+      message: СМ більше не буде розшаровуватися від спейсингу, якщо її не активовано.
+  id: 6918
+  time: '2025-03-09T04:45:00.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1901
