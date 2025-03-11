@@ -1,6 +1,6 @@
 - type: entity
   id: XenoWardingTower
-  name: "Охоронна вежа \"Ксено"
+  name: Xeno warding tower
   placement:
     mode: SnapgridCenter
     snap:
@@ -53,8 +53,8 @@
 - type: entity
   parent: XenoWardingTower
   id: CarpStatue
-  name: "статуя коропа"
-  description: "Статуя одного з відважних коропів, які привели нас туди, де ми є сьогодні. Зроблено зі справжніми зубами!"
+  name: carp statue
+  description: A statue of one of the brave carp that got us where we are today. Made with real teeth!
   components:
   - type: Sprite
     sprite: Structures/Specific/carp_statue.rsi
