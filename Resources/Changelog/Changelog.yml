@@ -11651,188 +11651,187 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1857
 - author: Eagle
   changes:
-    - type: Tweak
-      message: Stamina Crit has been split into Knockdown and Paralysis
-    - type: Tweak
-      message: Stun batons now do 15 stamina damage on hit, and 40 over time
+  - type: Tweak
+    message: Крит витривалості було розділено на Нокдаун та Параліч
+  - type: Tweak
+    message: Електрошокові кийки тепер завдають 15 шкоди витривалості при ударі та 40 з часом
   id: 6925
   time: '2025-03-10T03:34:26.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1914
 - author: White Dream
   changes:
-    - type: Fix
-      message: Fixed airlock opening and closing visuals
-    - type: Fix
-      message: Fixed Weather spamming infinite sounds.
-    - type: Fix
-      message: Cockroaches no longer spam organs when stepped on.
-    - type: Fix
-      message: Fixed the timer on the Return To Round button
-    - type: Fix
-      message: >-
-        Fixed Return to Round not remembering how long it's been since you died
-        if you re-enter your body.
-    - type: Fix
-      message: Fixed harpy flight visuals not showing for other people.
-    - type: Fix
-      message: >-
-        Fixed disabler bolts not going through windows like other kinds of
-        lasers.
-    - type: Fix
-      message: Fixed Vim Harness being free
-    - type: Fix
-      message: Fixed handcuffs not respecting your arm length.
-    - type: Fix
-      message: Made tending wounds not as message spammy.
-    - type: Fix
-      message: >-
-        Fixed shuttle windows not preventing you from being electrocuted by
-        grills under them.
+  - type: Fix
+    message: Виправлено візуальні ефекти відкриття та закриття шлюзу
+  - type: Fix
+    message: Виправлено нескінченні звуки спаму Погоди.
+  - type: Fix
+    message: Таргани більше не спамлять органами, коли на них наступають.
+  - type: Fix
+    message: Виправлено таймер на кнопці респавну.
+  - type: Fix
+    message: >-
+      Виправлено помилку, через яку система респавну не запам'ятовувало, скільки часу минуло з моменту вашої смерті,
+      якщо ви знову входите в своє тіло.
+  - type: Fix
+    message: Виправлено візуальні ефекти польоту гарпії, які не відображалися для інших людей.
+  - type: Fix
+    message: >-
+      Виправлено те, що розряджаючі болти не проходили крізь вікна, як інші види
+      лазерів.
+  - type: Fix
+    message: Виправлена безкоштовність Збруї Віма
+  - type: Fix
+    message: Виправлено те, що наручники не враховували довжину вашої руки.
+  - type: Fix
+    message: Зменшено спам повідомленнями при обробці ран.
+  - type: Fix
+    message: >-
+      Виправлено, що вікна шатла не запобігали ураженню електричним струмом від
+      решіток під ними.
   id: 6926
   time: '2025-03-10T03:43:44.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1911
 - author: AlgumCorrupto
   changes:
-    - type: Fix
-      message: Fixed bug that made ClothingAddFactionComponent not work.
+  - type: Fix
+    message: Виправлена помилка, через яку ClothingAddFactionComponent не працював.
   id: 6927
   time: '2025-03-10T14:29:56.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1917
 - author: Tirochora
   changes:
-    - type: Tweak
-      message: >-
-        you don't use the entire stack of carpet now when crafting colored
-        curtains or fancy tables.
+  - type: Tweak
+    message: >-
+      ви більше не використовуєте весь стек килима при виготовленні кольорових
+      штор або вишуканих столів.
   id: 6928
   time: '2025-03-10T14:44:42.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1916
 - author: Diggy
   changes:
-    - type: Add
-      message: New markings for arachnids, reptilians.
-    - type: Tweak
-      message: >-
-        Allows IPCs to pick up overlay markings such as the gauze stuff, Onis
-        can now have the curved horn marking humans can have.
+  - type: Add
+    message: Нові маркування для павукоподібних, рептилій.
+  - type: Tweak
+    message: >-
+      Дозволяє IPC підбирати накладні маркування, такі як марля, Оні
+      тепер можуть мати маркування вигнутого рогу, яке можуть мати люди.
   id: 6929
   time: '2025-03-11T15:41:48.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1925
 - author: VMSolidus
   changes:
-    - type: Fix
-      message: >-
-        After lengthy retraining, NanoTrasen has taught Vulpkanin that underwear
-        is meant to be worn inside pants, not outside them. 
+  - type: Fix
+    message: >-
+      Після тривалого перенавчання NanoTrasen навчила Вулпканін, що нижню білизну
+      слід носити всередині штанів, а не зовні.
   id: 6930
   time: '2025-03-11T21:24:10.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1894
 - author: VMSolidus
   changes:
-    - type: Tweak
-      message: >-
-        Adjusted turrets to be a more "Fair" fight. They no longer have perfect
-        aimbot accuracy, they don't track targets instantly, and they also have
-        a "More fair" healthbar that can reasonably be shot through by someone
-        with good enough weapons and armor, 
+  - type: Tweak
+    message: >-
+      Налаштовано турелі, щоб вони були більш "чесним" боєм. Вони більше не мають ідеальної
+      точності прицілювання, вони не відстежують цілі миттєво, а також мають
+      "більш чесну" шкалу здоров'я, яку може прострілити людина з
+      достатньо хорошою зброєю та бронею.
   id: 6931
   time: '2025-03-11T21:26:17.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1923
 - author: VMSolidus
   changes:
-    - type: Fix
-      message: Power attack and light attack damages are no longer swapped.
+  - type: Fix
+    message: Потужність атаки та ушкодження від легкої атаки більше не поміняні місцями.
   id: 6932
   time: '2025-03-11T21:29:34.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1896
 - author: VMSolidus
   changes:
-    - type: Tweak
-      message: >-
-        Nerfed universals and other .45 auto guns. I get the meme that .45 is
-        better than 9mm, but not "More than double" the damage of 9mm. 
+  - type: Tweak
+    message: >-
+      Понерфлено універсальні та інші пістолети .45 auto. Я розумію мем, що .45
+      кращий за 9мм, але не "більш ніж вдвічі" за шкодою 9мм.
   id: 6933
   time: '2025-03-11T21:31:34.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1895
 - author: VMSolidus
   changes:
-    - type: Tweak
-      message: >-
-        Ores mined from lavaland now have names matching their real-world
-        counterparts.
-    - type: Fix
-      message: Fixed the lavaland ore crates not having working ore magnets.
+  - type: Tweak
+    message: >-
+      Руди, видобуті з Лаваленду, тепер мають назви, що відповідають їхнім реальним
+      аналогам.
+  - type: Fix
+    message: Виправлено, що ящики з рудою Лаваленду не мали працюючих магнітів для руди.
   id: 6934
   time: '2025-03-11T21:32:32.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1892
 - author: VMSolidus
   changes:
-    - type: Tweak
-      message: >-
-        Increased the accuracy-when-wielded of the BRDI-R25 rifle. As a
-        tradeoff, it has a longer cooldown between hyperbursts.
+  - type: Tweak
+    message: >-
+      Збільшено точність при утриманні гвинтівки BRDI-R25. В якості
+      компромісу, вона має довший час відновлення між гіперпострілами.
   id: 6935
   time: '2025-03-11T21:33:28.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1869
 - author: Tirochora
   changes:
-    - type: Tweak
-      message: >-
-        you can take the battery out of engineering holoprojectors and charge
-        them.
+  - type: Tweak
+    message: >-
+      ви можете вийняти батарею з інженерних голопроекторів і зарядити
+      їх.
   id: 6936
   time: '2025-03-11T21:39:34.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1915
 - author: Spatison
   changes:
-    - type: Fix
-      message: >-
-        Embeddeable projectiles are no longer always destroyed when the thing
-        they are embedded in gets destroyed. Energy Sword throwing enthusiasts
-        may rejoice now that their precious sword is safe.
+  - type: Fix
+    message: >-
+      Вбудовані снаряди більше не завжди знищуються, коли річ,
+      в яку вони вбудовані, знищується. Ентузіасти метання енергетичних мечів
+      можуть радіти, тепер їхній дорогоцінний меч у безпеці.
   id: 6937
   time: '2025-03-11T21:46:14.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1907
 - author: AlgumCorrupto
   changes:
-    - type: Fix
-      message: Health analyzer's doll is now in the normal size.
+  - type: Fix
+    message: Лялька аналізатора здоров'я тепер у нормальному розмірі.
   id: 6938
   time: '2025-03-11T22:58:06.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1928
 - author: Greenwall
   changes:
-    - type: Add
-      message: >-
-        Magma Hand! Sprite by Greenwall, YML by Timfa. Bring a water gun filled
-        with ice, and you'll be fine!
+  - type: Add
+    message: >-
+      Магматична рука! Спрайт від Greenwall, YML від Timfa. Візьміть водяний пістолет, наповнений
+      льодом, і з вами все буде добре!
   id: 6939
   time: '2025-03-12T00:17:57.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1927
 - author: EctoplasmIsGood
   changes:
-    - type: Remove
-      message: Removes flare shielding
-    - type: Tweak
-      message: Adds eye protection to diagnostics hud
-    - type: Tweak
-      message: Adds chemical analyser to med hud
-    - type: Tweak
-      message: Increases med hud and diagnostics hud costs to 2
+  - type: Remove
+    message: Видалено екранування від спалахів
+  - type: Tweak
+    message: Додано захист очей до діагностичного HUD
+  - type: Tweak
+    message: Додає хімічний аналізатор до медичного HUD
+  - type: Tweak
+    message: Збільшує вартість медичного та діагностичного HUD до 2
   id: 6940
   time: '2025-03-12T07:09:01.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1876
 - author: VMSolidus
   changes:
-    - type: Add
-      message: >-
-        Added Space Wind V5. This version of space wind now accounts for the
-        coefficients of friction and gravity as a calculated way to resist space
-        wind. There is no more guesswork on if space wind should be able to
-        throw an object. Additionally, thanks to a standalone module from Matrix
-        Airflow System, space wind is capable of calculating airflow at
-        arbitrarily any point in a room, regardless of whatever garbage
-        Monstermos is saying.
+  - type: Add
+    message: >-
+      Додано Космічний Вітер V5. Ця версія космічного вітру тепер враховує
+      коефіцієнти тертя та гравітації як розрахунковий спосіб протистояти космічному
+      вітру. Більше немає здогадок щодо того, чи повинен космічний вітер бути здатним
+      кинути об'єкт. Крім того, завдяки автономному модулю від Matrix
+      Airflow System, космічний вітер здатний розраховувати потік повітря в
+      довільній точці кімнати, незалежно від того, що говорить Monstermos.
   id: 6941
   time: '2025-03-12T07:10:58.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1765
