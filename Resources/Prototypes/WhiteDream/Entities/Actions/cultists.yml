@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionBloodCultStun
-  name: Stun
-  description: Empowers your hand to stun and mute a victim on contact.
+  name: "Оглушення"
+  description: "Дозволяє вашій руці оглушити і приглушити жертву при контакті."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -23,8 +23,8 @@
 
 - type: entity
   id: ActionBloodCultTeleport
-  name: Teleport
-  description: Empowers your hand to teleport yourself or another cultist to a teleport rune on contact.
+  name: "Телепортуйся"
+  description: "Дозволяє вашій руці телепортувати себе або іншого культиста до руни телепорту при контакті."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -49,8 +49,8 @@
 
 - type: entity
   id: ActionBloodCultEmp
-  name: Electromagnetic Pulse
-  description: Emits a large electromagnetic pulse.
+  name: "Електромагнітний імпульс"
+  description: "Випромінює великий електромагнітний імпульс."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -69,8 +69,8 @@
 
 - type: entity
   id: ActionBloodCultShadowShackles
-  name: Shadow Shackles
-  description: Empowers your hand to handcuff a victim on contact, and mute them if successful.
+  name: "Кайдани тіней"
+  description: "Дозволяє вашій руці одягати наручники на жертву при контакті, а в разі успіху - вимикати звук."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -92,8 +92,8 @@
 
 - type: entity
   id: ActionBloodCultTwistedConstruction
-  name: Twisted Construction
-  description: Empowers your hand to corrupt certain metallic objects.
+  name: "Кручена конструкція"
+  description: "Дозволяє вашій руці пошкоджувати певні металеві предмети."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -119,8 +119,8 @@
 
 - type: entity
   id: ActionBloodCultSummonCombatEquipment
-  name: Summon Combat Equipment
-  description: Allows you to summon combat cult gear, including cult armor, a cult bola and a cult sword.
+  name: "Викликати бойове спорядження"
+  description: "Дозволяє викликати бойове культове спорядження, зокрема культову броню, культову болу та культовий меч."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -143,8 +143,8 @@
 
 - type: entity
   id: ActionBloodCultSummonRitualDagger
-  name: Summon Ritual Dagger
-  description: Allows you to summon a ritual dagger, in case you've lost the dagger that was given to you.
+  name: "Ритуальний кинджал виклику"
+  description: "Дозволяє викликати ритуальний кинджал, якщо ви загубили подарований вам кинджал."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -165,8 +165,8 @@
 
 - type: entity
   id: ActionBloodCultBloodRites
-  name: Blood Rites
-  description: Empowers your hand to absorb blood to be used for advanced rites, or heal a cultist on contact. Use the spell in-hand to cast advanced rites
+  name: "Криваві обряди"
+  description: "Дозволяє вашій руці поглинати кров, щоб використовувати її для складних обрядів або зцілити культиста при контакті. Використовуйте заклинання в руці для проведення складних обрядів"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -189,8 +189,8 @@
 
 - type: entity
   id: ActionSummonCultFloor
-  name: Summon Cult Floor
-  description: This spell constructs a cult floor.
+  name: "Викликати культовий поверх"
+  description: "Це заклинання будує культову підлогу."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -212,8 +212,8 @@
 
 - type: entity
   id: ActionLesserConstruction
-  name: Lesser Construction
-  description: This spell constructs a cult wall.
+  name: "Мале будівництво"
+  description: "Це заклинання будує культову стіну."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -235,8 +235,8 @@
 
 - type: entity
   id: ActionSummonCultDoor
-  name: Summon Cult Door
-  description: This spell constructs a cult door.
+  name: "Викликати Культові Двері"
+  description: "Це заклинання створює культові двері."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -258,8 +258,8 @@
 
 - type: entity
   id: ActionSummonSoulStone
-  name: Summon Soulshard
-  description: This spell reaches into Nar'Sie's realm, summoning one of the legendary fragments across time and space.
+  name: "Викликати Соулшард"
+  description: "Це заклинання проникає в царство Нар'сі, викликаючи один з легендарних фрагментів крізь час і простір."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -281,8 +281,8 @@
 
 - type: entity
   id: ActionSummonSoulStoneHoly
-  name: Summon Holy Soulshard
-  description: This spell reaches into Nar'Sie's realm, summoning one of the legendary fragments across time and space.
+  name: "Викликати Святий Соулшард"
+  description: "Це заклинання проникає в царство Нар'сі, викликаючи один з легендарних фрагментів крізь час і простір."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -304,8 +304,8 @@
 
 - type: entity
   id: ActionForceWallCult
-  name: Shield
-  description: This spell creates a temporary forcefield to shield yourself and allies from incoming fire.
+  name: "Щит"
+  description: "Це заклинання створює тимчасове силове поле, щоб захистити себе і союзників від вогню."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -326,8 +326,8 @@
 
 - type: entity
   id: ActionPhaseShift
-  name: Phase Shift
-  description: This spell allows you to pass through walls.
+  name: "Зсув фаз"
+  description: "Це заклинання дозволяє проходити крізь стіни."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -344,8 +344,8 @@
 
 - type: entity
   id: ActionGauntletEcho
-  name: Gauntlet Echo
-  description: Channels energy into your gauntlet - firing its essence forward in a slow moving, yet devastating, attack
+  name: "Рукавичка Ехо"
+  description: "Спрямовує енергію у вашу рукавичку - вистрілює своєю сутністю вперед у повільній, але руйнівній атаці"
   categories: [ HideSpawnMenu ]
   components:
   - type: WorldTargetAction
