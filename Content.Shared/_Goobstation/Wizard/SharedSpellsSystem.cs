@@ -391,7 +391,7 @@ public abstract class SharedSpellsSystem : EntitySystem
             if (HasComp<SiliconComponent>(target) || HasComp<BorgChassisComponent>(target))
                 Stun.TryParalyze(target, ev.SiliconStunTime / range, true, status);
             else
-                Stun.KnockdownOrStun(target, ev.KnockdownTime / range, true, status);
+                Stun.TryKnockdown(target, ev.KnockdownTime / range, true, status);
         }
 
         _magic.Speak(ev);
