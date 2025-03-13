@@ -5,7 +5,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryOpenIncision
-  name: "Відкритий розріз"
+  name: Open Incision
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -18,7 +18,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryCloseIncision
-  name: "Закритий розріз"
+  name: Close Incision
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -32,7 +32,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryOpenRibcage
-  name: "Розтин грудної клітки"
+  name: Open Ribcage
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -46,7 +46,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemovePart
-  name: "Вийняти частину"
+  name: Remove Part
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -66,7 +66,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachHead
-  name: "Прикріпити голову"
+  name: Attach Head
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -83,7 +83,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachLeftArm
-  name: "Прикріпити ліву руку"
+  name: Attach Left Arm
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -101,7 +101,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachRightArm
-  name: "Прикріпити праву руку"
+  name: Attach Right Arm
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -119,7 +119,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachLegs
-  name: "Прикріпити ноги"
+  name: Attach Legs
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -137,7 +137,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachLeftLeg
-  name: "Прикріпити ліву ногу"
+  name: Attach Left Leg
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -155,7 +155,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachRightLeg
-  name: "Прикріпити праву ногу"
+  name: Attach Right Leg
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -173,7 +173,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachHands
-  name: "Приєднати долоні"
+  name: Attach Hands
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -190,7 +190,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachLeftHand
-  name: "Прикріпити ліву долоню"
+  name: Attach Left Hand
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -209,7 +209,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachRightHand
-  name: "Прикріпити праву долоню"
+  name: Attach Right Hand
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -228,7 +228,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachFeet
-  name: "Прикріпити ступні"
+  name: Attach Feet
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -246,7 +246,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachLeftFoot
-  name: "Прикріпити ліву стопу"
+  name: Attach Left Foot
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -265,7 +265,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachRightFoot
-  name: "Прикріпити праву стопу"
+  name: Attach Right Foot
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -284,7 +284,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryAttachTail
-  name: "Прикріпити хвіст"
+  name: Attach Tail
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -319,7 +319,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryTendWoundsBrute
-  name: "Обробляйте рани від ударів"
+  name: Tend Bruise Wounds
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -332,7 +332,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryTendWoundsBurn
-  name: "Догляд за опіковими ранами"
+  name: Tend Burn Wounds
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -345,7 +345,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertItem
-  name: "Порожнинний імплантат"
+  name: Cavity Implant
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -363,7 +363,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveBrain
-  name: "Видалити мозок"
+  name: Remove Brain
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -382,7 +382,7 @@
 - type: entity
   parent: SurgeryRemoveBrain
   id: SurgeryRemoveBrainTorso
-  name: "Видалити мозок"
+  name: Remove Brain
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryPartCondition
@@ -391,7 +391,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertBrain
-  name: "Вставити мозок"
+  name: Insert Brain
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -412,7 +412,7 @@
 - type: entity
   parent: SurgeryInsertBrain
   id: SurgeryInsertBrainTorso
-  name: "Вставити мозок"
+  name: Insert Brain
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryPartCondition
@@ -421,7 +421,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveHeart
-  name: "Видалити серце"
+  name: Remove Heart
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -440,7 +440,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertHeart
-  name: "Вставити серце"
+  name: Insert Heart
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -461,7 +461,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveLiver
-  name: "Видалити печінку"
+  name: Remove Liver
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -480,7 +480,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertLiver
-  name: "Вставити печінку"
+  name: Insert Liver
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -501,7 +501,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveLungs
-  name: "Видалити легені"
+  name: Remove Lungs
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -520,7 +520,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertLungs
-  name: "Вставити легені"
+  name: Insert Lungs
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -541,7 +541,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveStomach
-  name: "Видалити шлунок"
+  name: Remove Stomach
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -560,7 +560,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertStomach
-  name: "Вставний шлунок"
+  name: Insert Stomach
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -581,7 +581,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryRemoveEyes
-  name: "Видалити очі"
+  name: Remove Eyes
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -600,7 +600,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryInsertEyes
-  name: "Вставити очі"
+  name: Insert Eyes
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -621,7 +621,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryLobotomize
-  name: "Лоботомія"
+  name: Lobotomize
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
@@ -649,7 +649,7 @@
 - type: entity
   parent: SurgeryBase
   id: SurgeryMendBrainTissue
-  name: "Відновлюємо тканину мозку"
+  name: Mend brain tissue
   categories: [ HideSpawnMenu ]
   components:
   - type: Surgery
