@@ -1,0 +1,23 @@
+- type: entity
+  parent: BaseItem
+  id: BaseIPCCharger
+  abstract: true
+  components:
+    - type: IPCCharger
+      sound: /Audio/Effects/PowerSink/charge_fire.ogg
+    - type: Sprite
+      sprite: /Textures/_Pirate/Objects/Power/ipccharger.rsi
+
+- type: entity
+  parent: BaseIPCCharger
+  id: DisposalIPCCharger
+  name: "Одноразова зарядка для ІПШ"
+  description: "Здатна ненадовго продовжити працездатність ІПШ в умавах відсутності світла."
+  components:
+    - type: Sprite
+      layers:
+        - map: ["enum.PowerCellVisualLayers.Base"]
+          state: disposalcharger
+        - map: ["enum.PowerCellVisualLayers.Unshaded"]
+          state: active
+          shader: unshaded
