@@ -1,0 +1,57 @@
+- type: entity
+  id: PlantAnalyzer
+  parent: [BaseItem, PowerCellSlotSmallItem]
+  name: "аналізатор рослин"
+  description: "Сканер, який використовується для оцінки різних зон росту рослини, генетичних ознак та хімічних речовин."
+  components:
+  - type: PowerCellDraw
+    drawRate: 0.8
+  - type: ToggleCellDraw
+  - type: ActivatableUIRequiresPowerCell
+  - type: Sprite
+    sprite: Objects/Specific/Hydroponics/plant_analyzer.rsi
+    layers:
+    - state: icon
+    - state: analyzer
+      shader: unshaded
+  - type: Item
+    storedRotation: -90
+  - type: Tag
+    tags:
+    - PlantAnalyzer
+  - type: ActivatableUI
+    key: enum.PlantAnalyzerUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.PlantAnalyzerUiKey.Key:
+        type: PlantAnalyzerBoundUserInterface
+  - type: ItemToggle
+    onUse: false
+  - type: PlantAnalyzer
+  - type: GuideHelp
+    guides:
+    - Botany
+    - Chemicals
+
+- type: entity
+  name: "звіт аналізатора рослин"
+  parent: Paper
+  id: PlantAnalyzerReportPaper
+  description: "Роздруківка з аналізатора рослин."
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/bureaucracy.rsi
+    layers:
+    - state: paper_receipt_horizontal
+    - state: paper_receipt_horizontal_words
+      map: ["enum.PaperVisualLayers.Writing"]
+      visible: false
+    - state: paper_stamp-generic
+      map: ["enum.PaperVisualLayers.Stamp"]
+      visible: false
+  - type: PaperVisuals
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_perforated.svg.96dpi.png"
+    backgroundImageTile: true
+    backgroundPatchMargin: 6.0, 0.0, 6.0, 0.0
+    contentMargin: 6.0, 6.0, 6.0, 6.0
+    maxWritableArea: 375.0, 600.0

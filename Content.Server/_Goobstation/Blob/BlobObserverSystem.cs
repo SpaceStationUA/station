@@ -143,10 +143,7 @@ public sealed class BlobObserverSystem : SharedBlobObserverSystem
             mind = Comp<MindComponent>(mindId);
         }
 
-        _roleSystem.MindAddRole(mindId, new BlobRoleComponent
-        {
-            PrototypeId = core.MindRoleBlobPrototypeId.Id
-        });
+        _roleSystem.MindAddRole(mindId, core.MindRoleBlobPrototypeId.Id);
         SendBlobBriefing(mindId);
 
         var blobRule = EntityQuery<BlobRuleComponent>().FirstOrDefault();

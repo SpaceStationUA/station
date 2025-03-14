@@ -129,14 +129,14 @@
     state: weldbot
 
 - type: construction
-  name: "заводський робот"
+  name: "рослинобот"
   id: plantbot
   graph: PlantBot
   startNode: start
   targetNode: bot
   category: construction-category-utilities
   objectType: Item
-  description: "Цей бот піклується про рослини."
+  description: "Цей бот доглядає за рослинами."
   icon:
     sprite: Mobs/Silicon/Bots/plantbot.rsi
     state: plantbot

@@ -2,8 +2,8 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSyndieStealthDebug
   suffix: DEBUG, DO NOT MAP, stealth
-  name: "синдикатський скафандр-невидимка"
-  description: "Бронежилет зі стелс-покриттям для операцій, проте захист не працює, коли ви рухаєтесь! Для завершення стелс-покриття потрібно вдягнути шолом."
+  name: "стелс-скафандр Синдикату"
+  description: "Скафандр зі стелс-покриттям для спецоперацій, але захист не працює, коли ви рухаєтесь! Щоб стелс-поле працювало, необхідно одягнути шолом."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
@@ -46,8 +46,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSyndieStealthDebug
   suffix: DEBUG, DO NOT MAP, stealth
-  name: "синдикатський шолом-невидимка"
-  description: "Шолом з обшивкою для стелс-операцій."
+  name: "стелс-шолом скафандра Синдикату"
+  description: "Шолом із покриттям для стелс-операцій."
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndicate.rsi

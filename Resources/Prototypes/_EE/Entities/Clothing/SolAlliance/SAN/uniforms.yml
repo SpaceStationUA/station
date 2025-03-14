@@ -1,0 +1,45 @@
+# For faction clothing related to the Sol Alliance Navy and her Armed Forces
+# Lore Info Link
+- type: entity
+  id: SolAllianceInfo
+  abstract: true
+  components:
+    - type: GuideHelp
+      guides: [SolAlliance]
+
+# Uniforms
+- type: entity
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolFatigueGreen
+  name: "Форма SAN"
+  suffix: Green
+  description: "Повсякденна форма, яку носять \"рядові\" у Збройних силах Соларіан. Хоча Земля вже не є зеленим раєм минулого, оливкові BDU залишаються емблемою старих армій Землі."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_green.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_green.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolFatigueGrey
+  name: "Форма SAN"
+  suffix: Grey
+  description: "Повсякденна форма, яку носять \"рядові\" у Збройних силах Соларіан. Хоча і не такий поширений, як оливковий BDU, \"кам'яно-сірий\" залишається популярним вибором кольору уніформи."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_grey.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_grey.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolFatigueIPC
+  name: "Форма SAN IPC"
+  suffix: Grey
+  description: "IPC є єдиним винятком з сумнозвісної ксенофобії Збройних сил Соларіан. Хоча SAN жодного разу не дозволив служити інопланетянам, він прагне використовувати синтетиків, щоб врятувати чистих людей від важкої праці або відправки на м'ясорубку."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_ipc.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_ipc.rsi

@@ -1,0 +1,19 @@
+- type: entity
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, SolAllianceInfo]
+  id: ClothingOuterVestWebSAN
+  name: "Бронежилет SAN"
+  description: "Стандартний бронежилет для морських піхотинців Соларіан. Хоча решта їхнього спорядження може бути дешевою, броня, яку носять зверху, очевидно, була виготовлена тим, хто запропонував найвищу ціну. Костюм з полімерної тканини покриває велику пластититанову пластину. Всередині вишито: \"Виготовлено CyberSun Armaments, тільки для використання Соларіан\"."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/OuterClothing/SAN_web_vest.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/OuterClothing/SAN_web_vest.rsi
+    - type: Armor
+      modifiers:
+        coefficients:
+          Blunt: 0.75
+          Slash: 0.75
+          Piercing: 0.3
+          Heat: 0.80
+    - type: ExplosionResistance
+      damageCoefficient: 0.90

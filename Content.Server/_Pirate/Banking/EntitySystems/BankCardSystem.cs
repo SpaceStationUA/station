@@ -86,7 +86,7 @@ public sealed class BankCardSystem : EntitySystem
 
     private int GetSalary(EntityUid? mind)
     {
-        if (!_job.MindTryGetJob(mind, out _, out var job) || !_salaries.Salaries.TryGetValue(job.ID, out var salary))
+        if (!_job.MindTryGetJob(mind, out var job) || !_salaries.Salaries.TryGetValue(job.ID, out var salary))
             return 0;
 
         return salary;

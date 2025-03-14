@@ -1366,7 +1366,11 @@
   reactiveEffects:
     Acidic:
       methods: [ Touch ]
-      effects:
+      effects: # imp edit cosmic cult
+      - !type:CleanseCult
+        conditions:
+        - !type:ReagentThreshold
+          min: 20
       - !type:HealthChange
         scaleByQuantity: true
         ignoreResistances: false

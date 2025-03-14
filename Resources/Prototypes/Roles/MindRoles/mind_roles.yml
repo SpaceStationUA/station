@@ -1,0 +1,202 @@
+- type: entity
+  id: BaseMindRole
+  name: "Роль Розуму"
+  description: "Сутність Ролі Розуму"
+  abstract: true
+  components:
+  - type: MindRole
+
+- type: entity
+  parent: BaseMindRole
+  id: BaseMindRoleAntag
+  abstract: true
+  components:
+  - type: MindRole
+    antag: true
+
+#Observer
+- type: entity
+  parent: BaseMindRole
+  id: MindRoleObserver
+  name: "Роль Спостерігача"
+  components:
+  - type: ObserverRole
+
+#Ghostrole Marker
+- type: entity
+  parent: BaseMindRole
+  id: MindRoleGhostMarker
+  name: "Роль Привида"
+  components:
+  - type: GhostRoleMarkerRole
+
+# The Job MindRole holds the mob's Job prototype
+- type: entity
+  parent: BaseMindRole
+  id: MindRoleJob
+  name: "Роль Роботи"
+#  description:
+  # MindRoleComponent.JobPrototype is filled by SharedJobSystem
+
+# Subverted Silicon
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleSubvertedSilicon
+  name: "Роль Підкореного Кремнію"
+  description:
+  components:
+  - type: SubvertedSiliconRole
+
+# Dragon
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleDragon
+  name: "Роль Дракона"
+#  description:
+  components:
+  - type: MindRole
+    antagPrototype: Dragon
+    exclusiveAntag: true
+  - type: DragonRole
+  - type: RoleBriefing
+    briefing: dragon-role-briefing
+
+# Ninja
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleNinja
+  name: "Роль Космічного Ніндзя"
+#  description: mind-role-ninja-description
+  components:
+  - type: MindRole
+    antagPrototype: SpaceNinja
+    exclusiveAntag: true
+  - type: NinjaRole
+
+# Nukies
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleNukeops
+  name: "Роль Оперативника Ядерного Удару"
+#  description: mind-role-nukeops-description
+  components:
+  - type: MindRole
+    exclusiveAntag: true
+    antagPrototype: Nukeops
+  - type: NukeopsRole
+
+- type: entity
+  parent: MindRoleNukeops
+  id: MindRoleNukeopsMedic
+  name: "Роль Медика Ядерного Удару"
+#  description: mind-role-nukeops-medic-description
+  components:
+  - type: MindRole
+    antagPrototype: NukeopsMedic
+
+- type: entity
+  parent: MindRoleNukeops
+  id: MindRoleNukeopsCommander
+  name: "Роль Командира Ядерного Удару"
+#  description: mind-role-nukeops-commander-description
+  components:
+  - type: MindRole
+    antagPrototype: NukeopsCommander
+
+# Revolutionaries
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleHeadRevolutionary
+  name: "Роль Голови Революціонерів"
+#  description: mind-role-head-revolutionary-description
+  components:
+  - type: MindRole
+    antagPrototype: HeadRev
+    exclusiveAntag: true
+  - type: RevolutionaryRole
+
+- type: entity
+  parent: MindRoleHeadRevolutionary
+  id: MindRoleRevolutionary
+  name: "Роль Революціонера"
+#  description: mind-role-revolutionary-description
+  components:
+  - type: MindRole
+    antagPrototype: Rev
+
+# Thief
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleThief
+  name: "Роль Злодія"
+#  description: mind-role-thief-description
+  components:
+  - type: MindRole
+    antagPrototype: Thief
+  - type: ThiefRole
+
+# Traitors
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleTraitor
+  name: "Роль Зрадника"
+#  description: mind-role-traitor-description
+  components:
+  - type: MindRole
+    antagPrototype: Traitor
+    exclusiveAntag: true
+  - type: TraitorRole
+
+- type: entity
+  parent: MindRoleTraitor
+  id: MindRoleTraitorSleeper
+  name: "Роль Сплячого Агента"
+#  description: mind-role-traitor-sleeper-description
+  components:
+  - type: MindRole
+    antagPrototype: TraitorSleeper
+
+# Zombie Squad
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleInitialInfected
+  name: "Роль Початкового Інфікованого"
+#  description: mind-role-initial-infected-description
+  components:
+  - type: MindRole
+    antagPrototype: InitialInfected
+    exclusiveAntag: true
+  - type: InitialInfectedRole
+
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleZombie
+  name: "Роль Зомбі"
+#  description: mind-role-zombie-description
+  components:
+  - type: MindRole
+    antagPrototype: Zombie
+    exclusiveAntag: true
+  - type: ZombieRole
+
+# goob edit - antags
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleChangeling
+  name: "Роль Перевертня"
+  components:
+  - type: MindRole
+    antagPrototype: Changeling
+    exclusiveAntag: true
+  - type: ChangelingRole
+
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleHeretic
+  name: "Роль Єретика"
+  components:
+  - type: MindRole
+    antagPrototype: Heretic
+    exclusiveAntag: true
+  - type: HereticRole
+# goob edit end

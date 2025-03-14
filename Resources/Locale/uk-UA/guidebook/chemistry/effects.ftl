@@ -29,8 +29,7 @@ reagent-effect-guidebook-emp-reaction-effect = { $chance ->
         *[other] причина
     } електромагнітний імпульс
 
-reagent-effect-guidebook-foam-area-reaction-effect =
-    { $chance ->
+reagent-effect-guidebook-foam-area-reaction-effect = { $chance ->
         [1] Створює
         *[other] створює
     } велику кількість піни

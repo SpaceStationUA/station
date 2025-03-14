@@ -285,7 +285,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateHardsuitCommanderBundle
-  name: "комбінезон командира синдикату"
+  name: "комплект скафандра синдикату командира"
   description: "Містить фірмовий криваво-червоний костюм Синдикату."
   components:
   - type: StorageFill
@@ -300,7 +300,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateHardsuitMedicBundle
-  name: "синдикатський медичний комбінезон"
+  name: "комплект скафандра синдикату медика"
   description: "Містить фірмовий криваво-червоний костюм Синдикату."
   components:
   - type: StorageFill
@@ -433,7 +433,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledFPA90
-  name: "Пучок FPA-90"
+  name: "Комплект FPA-90"
   description: "Дешевий пістолет-кулемет з інтегрованим глушником. Поставляється в комплекті з трьома магазинами."
   components:
   - type: StorageFill

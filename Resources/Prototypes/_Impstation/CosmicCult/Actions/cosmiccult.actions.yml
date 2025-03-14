@@ -1,0 +1,145 @@
+- type: entity
+  id: ActionCosmicSiphon
+  name: "Поглинати Ентропію"
+  description: "Тихо викачуйте ентропію з вашої цілі, завдаючи при цьому деякої шкоди."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    useDelay: 50
+    whitelist:
+      components:
+        - HumanoidAppearance
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: siphon
+    event: !type:EventCosmicSiphon {}
+
+- type: entity
+  id: ActionCosmicBlank
+  name: "Витіснити Суб'єктивність"
+  description: "Витіснити розум вашої цілі з її тіла в космічну темряву, тимчасово роблячи її тіло безглуздим."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    canTargetSelf: true
+    useDelay: 120
+    whitelist:
+      components:
+        - HumanoidAppearance
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: blank
+    event: !type:EventCosmicBlank {}
+
+- type: entity
+  id: ActionCosmicPlaceMonument
+  name: "Покликати Монумент"
+  description: "Викликати Монумент у реальний простір. Тримайте його прихованим і в безпеці від не-культистів!"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ConfirmableAction
+    popup: cosmicability-monument-spawn-confirm
+  - type: InstantAction
+    useDelay: 999
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: monument
+    event: !type:EventCosmicPlaceMonument {}
+
+- type: entity
+  id: ActionCosmicReturn
+  name: "Повернення"
+  description: "Розсіяти свою астральну проєкцію та повернутися до свого тіла."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    useDelay: 0
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: return
+    event: !type:EventCosmicReturn {}
+
+- type: entity
+  id: ActionCosmicLapse
+  name: "Аберантний Проміжок"
+  description: "Тимчасово розірвати тілесну форму вашої цілі, роблячи її незмінною, непрохідною та замороженою на місці."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    canTargetSelf: true
+    useDelay: 45
+    whitelist:
+      components:
+        - HumanoidAppearance
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: lapse
+    event: !type:EventCosmicLapse {}
+
+- type: entity
+  id: ActionCosmicGlare
+  name: "Нульовий Погляд"
+  description: "Випромінювати жахливий імпульс космічного світла, сповільнюючи та дезорієнтуючи всіх навколо вас."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 50
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: glare
+    event: !type:EventCosmicGlare {}
+
+- type: entity
+  id: ActionCosmicIngress
+  name: "Примусовий Вхід"
+  description: "Використовуйте концентрований вибух сили, щоб змусити відчинити захищені двері."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    useDelay: 40
+    whitelist:
+      components:
+        - Door
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: ingress
+    event: !type:EventCosmicIngress {}
+
+- type: entity
+  id: ActionCosmicImposition
+  name: "Порожнисте Нав'язування"
+  description: "Ви зводите нанівець будь-яку вхідну шкоду протягом короткого часу."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 160
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: entropic
+    event: !type:EventCosmicImposition {}
+
+- type: entity
+  id: ActionCosmicNova
+  name: "Астральна Нова"
+  description: "Кинути великий і руйнівний вибух астральної енергії."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: WorldTargetAction
+    useDelay: 30
+    raiseOnUser: true
+    range: 60
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: nova
+    event: !type:EventCosmicNova {}
+
+
