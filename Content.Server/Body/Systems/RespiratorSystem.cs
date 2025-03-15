@@ -117,14 +117,14 @@ public sealed class RespiratorSystem : EntitySystem
 
             if (!CanBreathe(uid, respirator)) // Goobstation edit
             {
+                if (TryComp<CosmicCultComponent>(uid, out var cultComponent) && !cultComponent.Respiration && !_mobState.IsIncapacitated(uid)) return; // Imp HACK so cultists gasp while in crit.
+                // One line change but a refactor would be so much better. this is VERY BAD and AWFUL.
+
                 if (_gameTiming.CurTime >= respirator.LastGaspPopupTime + respirator.GaspPopupCooldown)
                 {
                     respirator.LastGaspPopupTime = _gameTiming.CurTime;
                     _popupSystem.PopupEntity(Loc.GetString("lung-behavior-gasp"), uid);
                 }
-
-                if (TryComp<CosmicCultComponent>(uid, out var cultComponent) && !cultComponent.Respiration) return; // Imp HACK so cultists gasp but don't take respiration damage.
-                // One line change but a refactor would be so much better. this is VERY BAD and AWFUL.
 
                 TakeSuffocationDamage((uid, respirator));
                 respirator.SuffocationCycles += 1;
