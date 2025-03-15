@@ -8,6 +8,7 @@
     - state: medical
     - state: icon-surgery
   - type: ItemBorgModule
+    moduleId: Surgery
     items:
     - Scalpel
     - Drill
@@ -17,7 +18,9 @@
     - SawElectric
     - BoneGel
     # Frontier: droppable borg items
-    droppableItems:
+  - type: DroppableBorgModule
+    moduleId: Surgery
+    items:
     - id: OrganHumanBrain
       whitelist:
         components:
@@ -36,13 +39,16 @@
     - state: medical
     - state: icon-advanced-surgery
   - type: ItemBorgModule
+    moduleId: AdvancedSurgery
     items:
     - EnergyScalpel
     - EnergyCautery
     - AdvancedRetractor
     - BoneGel
     # Frontier: droppable borg items
-    droppableItems:
+  - type: DroppableBorgModule
+    moduleId: AdvancedSurgery
+    items:
     - id: OrganHumanBrain
       whitelist:
         components:
