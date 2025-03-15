@@ -10,6 +10,7 @@ using Content.Server.Light.Components;
 using Content.Server.Light.EntitySystems;
 using Content.Server.Nutrition;
 using Content.Server.Popups;
+using Content.Server.Speech.Components;
 using Content.Server.Station.Components;
 using Content.Server.Station.Systems;
 using Content.Shared._Impstation.CosmicCult;
@@ -17,6 +18,7 @@ using Content.Shared._Impstation.CosmicCult.Components;
 using Content.Shared._Impstation.CosmicCult.Components.Examine;
 // using Content.Shared._Impstation.Thaven.Components;
 using Content.Shared.Bed.Sleep;
+using Content.Shared.Clumsy;
 using Content.Shared.Damage;
 using Content.Shared.Dataset;
 using Content.Shared.DoAfter;
@@ -31,6 +33,7 @@ using Content.Shared.Nutrition;
 using Content.Shared.Physics;
 using Content.Shared.Popups;
 using Content.Shared.Random;
+using Content.Shared.Speech.Components;
 using Content.Shared.StatusEffect;
 using Content.Shared.Stunnable;
 using Content.Shared.Throwing;
@@ -91,7 +94,7 @@ public sealed class RogueAscendedSystem : EntitySystem
 
         SubscribeLocalEvent<RogueAscendedComponent, EventRogueInfection>(OnAttemptInfection);
         SubscribeLocalEvent<RogueAscendedComponent, EventRogueInfectionDoAfter>(OnInfectionDoAfter);
-        // SubscribeLocalEvent<RogueAscendedInfectionComponent, ComponentShutdown>(OnInfectionCleansed);
+        SubscribeLocalEvent<RogueAscendedInfectionComponent, ComponentShutdown>(OnInfectionCleansed);
     }
     #region Spawn
     private void OnSpawn(Entity<RogueAscendedComponent> uid, ref ComponentInit args) // I WANT THIS DINGUS YEETED TOWARDS THE STATION AT MACH JESUS
@@ -150,6 +153,15 @@ public sealed class RogueAscendedSystem : EntitySystem
         // }
         // else
         //     RemComp<ThavenMoodsComponent>(uid);
+        //PIRATE START: We don't use that Thaven mood system, we lobotomize them instead
+        //REMOVE lobotomize
+        if (HasComp<OhioAccentComponent>(uid))
+            RemComp<OhioAccentComponent>(uid);
+        if (HasComp<ClumsyComponent>(uid))
+            RemComp<ClumsyComponent>(uid);
+        if (HasComp<RatvarianLanguageComponent>(uid))
+            RemComp<RatvarianLanguageComponent>(uid);
+        //PIRATE END
     }
     #endregion
 
@@ -207,7 +219,13 @@ public sealed class RogueAscendedSystem : EntitySystem
         if (args.Cancelled || args.Target == null)
             return;
         var target = args.Target.Value;
+        //PIRATE START: We don't use that Thaven mood system, we lobotomize them instead
+        //REMOVE lobotomize
         EnsureComp<RogueAscendedInfectionComponent>(target, out var infectionComp);
+        EnsureComp<OhioAccentComponent>(target);
+        EnsureComp<ClumsyComponent>(target);
+        EnsureComp<RatvarianLanguageComponent>(target);
+        //PIRATE END
         // if (HasComp<ThavenMoodsComponent>(target))
             // infectionComp.HadMoods = true; // make note that they already had moods
         // EnsureComp<ThavenMoodsComponent>(target, out var moodComp);

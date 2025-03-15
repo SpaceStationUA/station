@@ -4,6 +4,7 @@
   parent: BaseStorageItem
   id: Bible
   components:
+  - type: CleanseOnUse # Imp CosmicCult
   - type: UseDelay
     delay: 10.0
   - type: Bible
