@@ -33,6 +33,9 @@ public sealed partial class AdminVerbSystem
 
     [ValidatePrototypeId<EntityPrototype>]
     private const string DefaultThiefRule = "Thief";
+    
+    [ValidatePrototypeId<EntityPrototype>]
+    private const string DefaultVampireRule = "Vampire";
 
     [ValidatePrototypeId<EntityPrototype>]
     private const string DefaultBloodCultRule = "BloodCult";
@@ -234,5 +237,19 @@ public sealed partial class AdminVerbSystem
             Message = Loc.GetString("admin-verb-make-cosmiccultist"),
         };
         args.Verbs.Add(cosmiccult);
+        
+        Verb vampire = new()
+        {
+            Text = Loc.GetString("admin-verb-text-make-vampire"),
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/Interface/Actions/actions_vampire.rsi"), "unholystrength"),
+            Act = () =>
+            {
+                _antag.ForceMakeAntag<VampireRuleComponent>(targetPlayer, DefaultVampireRule);
+            },
+            Impact = LogImpact.High,
+            Message = Loc.GetString("admin-verb-make-vampire"),
+        };
+        args.Verbs.Add(vampire);
     }
 }
