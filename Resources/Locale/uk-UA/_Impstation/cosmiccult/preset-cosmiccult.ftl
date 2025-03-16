@@ -109,7 +109,7 @@ cosmiccult-rift-purge = Ви очищуєте зловісний розлом.
 
 cosmiccult-ui-deconverted-title = Деконвертовано
 cosmiccult-ui-converted-title = Конвертовано
-cosmiccult-ui-roundstart-title = Невідоме
+cosmiccult-ui-roundstart-title = Невідомий
 
 cosmiccult-ui-converted-text-1 = Вас було навернено в Космічного Культиста.
 cosmiccult-ui-converted-text-2 = Допомагайте культу в його цілях, забезпечуючи його таємність.
@@ -176,3 +176,7 @@ cosmiccult-elimination-announcement = Згідно зі скануванням �
 
 
 ## ІНСТРУКТАЖІ
+cosmiccult-finale-degen = Ти відчуваєш, як розпадаєшся!
+cosmiccult-monument-stage1-briefing = Монумент було покликано.
+    Він розташований: {$location}!
+cosmiccult-gear-pickup-rejection = {$ITEM} відмовляється від дотику {CAPITALIZE(THE($TARGET))}!

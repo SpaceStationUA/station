@@ -7,8 +7,8 @@ reagent-desc-soju = Алкогольний напій, виготовлений 
 reagent-name-orange-creamcicle = апельсиновий крем
 reagent-desc-orange-creamcicle = Помаранчева, вершкова смакота.
 
-reagent-name-silverjack = срібний джек
-reagent-desc-silverjack = Нагадує про сім'ю.
+reagent-name-silverjack = коктейль 'Джонні Сільверхенд'
+reagent-desc-silverjack = Я бачив, як корпи забирають у фермерів воду, а потім і землю...
 
 reagent-name-brainbomb = мозкова бомба
 reagent-desc-brainbomb = Токсичний для всього живого, особливо для печінки.

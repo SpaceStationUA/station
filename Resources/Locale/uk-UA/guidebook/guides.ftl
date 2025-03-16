@@ -136,3 +136,4 @@ guide-entry-blood-cult = Культ крові
 guide-entry-sm = Двигун надматерії (SM)
 
 guide-entry-Psionic-Mantis = Псіонічна богомолиця
+guide-entry-vampires = Вампіри
