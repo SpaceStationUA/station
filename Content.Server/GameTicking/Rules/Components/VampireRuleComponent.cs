@@ -28,7 +28,7 @@ public sealed partial class VampireRuleComponent : Component
     {
         "CMOHyposprayVampireStealObjective",
         "RDHardsuitVampireStealObjective",
-        "EnergyShotgunVampireStealObjective",
+        // "EnergyShotgunVampireStealObjective",
         "MagbootsVampireStealObjective",
         "ClipboardVampireStealObjective",
         "CaptainIDVampireStealObjective",

@@ -23,7 +23,7 @@ rogue-ascended-shatter-fail = You can't do that right now.
 
 rogue-ascended-round-end-agent-name = astral ascendant
 
-rogue-ascended-objective-issuer = [bold][color=#cae8e8]The Unknown[/color][/bold]
+objective-issuer-rogue-ascended = [bold][color=#cae8e8]The Unknown[/color][/bold]
 
 rogue-ascended-role-greeting =
     You are an Astral Ascendant — the shadow of a transcendant thing echoed back upon reality.
