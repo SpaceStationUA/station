@@ -12,5 +12,6 @@ admin-verb-text-make-nuclear-operative = Make Nuclear Operative
 admin-verb-text-make-pirate = Make Pirate
 admin-verb-text-make-head-rev = Make Head Rev
 admin-verb-text-make-thief = Make Thief
+admin-verb-text-make-vampire = Make Vampire
 
 admin-overlay-antag-classic = ANTAG

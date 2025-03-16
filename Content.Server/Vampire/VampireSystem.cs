@@ -46,6 +46,7 @@ namespace Content.Server.Vampire;
 
 public sealed partial class VampireSystem : EntitySystem
 {
+    [Dependency] private readonly VampireHelpers _vHelper = default!; // PIRATE
     [Dependency] private readonly MindSystem _mind = default!;
     [Dependency] private readonly IAdminLogManager _admin = default!;
     [Dependency] private readonly FoodSystem _food = default!;
@@ -86,7 +87,7 @@ public sealed partial class VampireSystem : EntitySystem
         //SubscribeLocalEvent<VampireComponent, VampireTargetedPowerEvent>(OnUseTargetedPower);
         SubscribeLocalEvent<VampireComponent, ExaminedEvent>(OnExamined);
         SubscribeLocalEvent<VampireComponent, VampireBloodChangedEvent>(OnVampireBloodChangedEvent);
-        
+
         SubscribeLocalEvent<VampireComponent, AfterAutoHandleStateEvent>(GetState);
         SubscribeLocalEvent<VampireComponent, VampireMutationPrototypeSelectedMessage>(OnMutationSelected);
 
@@ -106,7 +107,7 @@ public sealed partial class VampireSystem : EntitySystem
         {
             if (vampire == null || stealth == null)
                 continue;
-            
+
             if (stealth.NextStealthTick <= 0)
             {
                 stealth.NextStealthTick = 1;
@@ -132,7 +133,7 @@ public sealed partial class VampireSystem : EntitySystem
         {
             if (healing == null)
                 continue;
-            
+
             if (healing.NextHealTick <= 0)
             {
                 healing.NextHealTick = 1;
@@ -158,13 +159,13 @@ public sealed partial class VampireSystem : EntitySystem
                 spacedamage.NextSpaceDamageTick -= frameTime;
             }
         }
-        
+
         var strengthQuery = EntityQueryEnumerator<VampireComponent, VampireStrengthComponent>();
         while (strengthQuery.MoveNext(out var uid, out var vampire, out var strength))
         {
             if (vampire == null || strength == null)
                 continue;
-            
+
             if (strength.NextTick <= 0)
             {
                 strength.NextTick = 1;
@@ -198,7 +199,7 @@ public sealed partial class VampireSystem : EntitySystem
         vampire.Comp.Balance[VampireComponent.CurrencyProto] += quantity;
 
         UpdateBloodDisplay(vampire);
-        
+
         var ev = new VampireBloodChangedEvent();
         RaiseLocalEvent(vampire, ev);
 
@@ -215,7 +216,7 @@ public sealed partial class VampireSystem : EntitySystem
         vampire.Comp.Balance[VampireComponent.CurrencyProto] -= quantity;
 
         UpdateBloodDisplay(vampire);
-        
+
         var ev = new VampireBloodChangedEvent();
         RaiseLocalEvent(vampire, ev);
 
@@ -229,7 +230,7 @@ public sealed partial class VampireSystem : EntitySystem
     {
         if (!TryComp<VampireComponent>(vampire, out var comp))
             return;
-        
+
         //Sanity check, you never know who is going to touch this code
         if (!comp.Balance.TryGetValue(VampireComponent.CurrencyProto, out var balance))
             return;
@@ -242,51 +243,51 @@ public sealed partial class VampireSystem : EntitySystem
 
         _action.SetCharges(mutationsAction, chargeDisplay);
     }
-    
+
     private void OnVampireBloodChangedEvent(EntityUid uid, VampireComponent component, VampireBloodChangedEvent args)
     {
         var bloodEssence = _vampire.GetBloodEssence(uid);
-        
+
         AbilityInfo entity = default;
-        
+
         if (TryComp<VampireAlertComponent>(uid, out var alertComp))
             _vampire.SetAlertBloodAmount(alertComp,_vampire.GetBloodEssence(uid).Int());
-        
+
         if (component.actionEntities.TryGetValue("ActionVampireCloakOfDarkness", out entity) && !HasComp<VampireSealthComponent>(uid) && _vampire.GetBloodEssence(uid) < FixedPoint2.New(300))
             component.actionEntities.Remove("ActionVampireCloakOfDarkness");
-        
+
         UpdateAbilities(uid, component , VampireComponent.MutationsActionPrototype, null , bloodEssence >= FixedPoint2.New(50) && !HasComp<VampireSealthComponent>(uid));
-        
+
         //Hemomancer
-        
+
         // Blood Steal
         UpdateAbilities(uid, component , "ActionVampireBloodSteal", "BloodSteal" , bloodEssence >= FixedPoint2.New(200) && component.CurrentMutation == VampireMutationsType.Hemomancer);
-        
+
         // Screech
         UpdateAbilities(uid, component , "ActionVampireScreech", "Screech" , bloodEssence >= FixedPoint2.New(300) && component.CurrentMutation == VampireMutationsType.Hemomancer);
-        
+
         //Umbrae
-        
+
         //Glare
         UpdateAbilities(uid, component , "ActionVampireGlare", "Glare" , bloodEssence >= FixedPoint2.New(200) && component.CurrentMutation == VampireMutationsType.Umbrae);
-        
+
         //CloakOfDarkness
         UpdateAbilities(uid, component , "ActionVampireCloakOfDarkness", "CloakOfDarkness" , bloodEssence >= FixedPoint2.New(300) && component.CurrentMutation == VampireMutationsType.Umbrae);
-        
-        
+
+
         //Gargantua
-        
+
         UpdateAbilities(uid, component , "ActionVampireUnholyStrength", "UnholyStrength" , bloodEssence >= FixedPoint2.New(200) && component.CurrentMutation == VampireMutationsType.Gargantua);
-        
+
         UpdateAbilities(uid, component , "ActionVampireSupernaturalStrength", "SupernaturalStrength" , bloodEssence >= FixedPoint2.New(300) && component.CurrentMutation == VampireMutationsType.Gargantua);
-        
+
         //Bestia
-        
+
         UpdateAbilities(uid, component , "ActionVampireBatform", "PolymorphBat" , bloodEssence >= FixedPoint2.New(200) && component.CurrentMutation == VampireMutationsType.Bestia);
-        
+
         UpdateAbilities(uid, component , "ActionVampireMouseform", "PolymorphMouse" , bloodEssence >= FixedPoint2.New(300) && component.CurrentMutation == VampireMutationsType.Bestia);
     }
-    
+
     private void UpdateAbilities(EntityUid uid, VampireComponent component, string actionId, string? powerId, bool addAction)
     {
         EntityUid? actionEntity = null;
@@ -352,7 +353,7 @@ public sealed partial class VampireSystem : EntitySystem
 
         return false;
     }
-    
+
     private void OnMutationSelected(EntityUid uid, VampireComponent component, VampireMutationPrototypeSelectedMessage args)
     {
         if (component.CurrentMutation == args.SelectedId)
@@ -385,7 +386,7 @@ public sealed partial class VampireSystem : EntitySystem
             return;
         _uiSystem.TryToggleUi(uid, VampireMutationUiKey.Key, actor.PlayerSession);
     }
-    
+
     public void UpdateUi(EntityUid uid, VampireComponent? component = null)
     {
         if (!Resolve(uid, ref component))

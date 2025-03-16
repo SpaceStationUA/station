@@ -7,7 +7,7 @@ using Content.Server.Mind;
 using Content.Server.Objectives;
 using Content.Server.Roles;
 using Content.Server.Vampire;
-using Content.Server.Bible.Components; 
+using Content.Server.Bible.Components;
 using Content.Shared.Alert;
 using Content.Shared.Body.Components;
 using Content.Shared.Vampire.Components;
@@ -28,6 +28,7 @@ namespace Content.Server.GameTicking.Rules;
 
 public sealed partial class VampireRuleSystem : GameRuleSystem<VampireRuleComponent>
 {
+    [Dependency] private readonly VampireHelpers _vHelper = default!;
     [Dependency] private readonly MindSystem _mind = default!;
     [Dependency] private readonly AntagSelectionSystem _antag = default!;
     [Dependency] private readonly AlertsSystem _alerts = default!;
@@ -61,7 +62,7 @@ public sealed partial class VampireRuleSystem : GameRuleSystem<VampireRuleCompon
     private void OnSelectAntag(EntityUid mindId, VampireRuleComponent comp, ref AfterAntagEntitySelectedEvent args)
     {
         var ent = args.EntityUid;
-        
+
         _antag.SendBriefing(ent, MakeBriefing(ent), Color.Yellow, BriefingSound);
         MakeVampire(ent, comp);
     }
@@ -94,12 +95,12 @@ public sealed partial class VampireRuleSystem : GameRuleSystem<VampireRuleCompon
         EnsureComp<VampireSpaceDamageComponent>(target);
         var vampireAlertComponent = EnsureComp<VampireAlertComponent>(target);
         var interfaceComponent = EnsureComp<UserInterfaceComponent>(target);
-        
+
         if (HasComp<UserInterfaceComponent>(target))
             _uiSystem.SetUiState(target, VampireMutationUiKey.Key, new VampireMutationBoundUserInterfaceState(vampireComponent.VampireMutations, vampireComponent.CurrentMutation));
-        
+
         var vampire = new Entity<VampireComponent>(target, vampireComponent);
-        
+
         RemComp<PerishableComponent>(vampire);
         RemComp<BarotraumaComponent>(vampire);
         RemComp<ThirstComponent>(vampire);
@@ -107,23 +108,23 @@ public sealed partial class VampireRuleSystem : GameRuleSystem<VampireRuleCompon
         vampireComponent.Balance = new() { { VampireComponent.CurrencyProto, 0 } };
 
         rule.VampireMinds.Add(mindId);
-        
+
         _vampire.AddStartingAbilities(vampire);
         _vampire.MakeVulnerableToHoly(vampire);
         _alerts.ShowAlert(vampire, vampireAlertComponent.BloodAlert);
         _alerts.ShowAlert(vampire, vampireAlertComponent.StellarWeaknessAlert);
-        
+
         Random random = new Random();
 
         foreach (var objective in rule.BaseObjectives)
             _mind.TryAddObjective(mindId, mind, objective);
-            
+
         if (rule.EscapeObjectives.Count > 0)
         {
             var randomEscapeObjective = rule.EscapeObjectives[random.Next(rule.EscapeObjectives.Count)];
             _mind.TryAddObjective(mindId, mind, randomEscapeObjective);
         }
-        
+
         if (rule.StealObjectives.Count > 0)
         {
             var randomEscapeObjective = rule.StealObjectives[random.Next(rule.StealObjectives.Count)];
@@ -132,29 +133,29 @@ public sealed partial class VampireRuleSystem : GameRuleSystem<VampireRuleCompon
 
         return true;
     }
-    
+
     private void OnGetBriefing(Entity<VampireRuleComponent> role, ref GetBriefingEvent args)
     {
         var ent = args.Mind.Comp.OwnedEntity;
-        
-        if (ent == null 
-            || HasComp<BibleUserComponent>(ent) 
-            || !TryComp<BodyComponent>(ent, out var body) 
-            || _body.TryGetBodyOrganEntityComps<StomachComponent>((ent.Value, body), out var stomachs))
+
+        if (ent == null
+            || HasComp<BibleUserComponent>(ent)
+            || !TryComp<BodyComponent>(ent, out var body)
+            || _vHelper.TryGetBodyOrganEntityComps<StomachComponent>((ent.Value, body), out var stomachs))
             return;
 
         args.Append(MakeBriefing(ent.Value));
     }
-    
+
     private string MakeBriefing(EntityUid ent)
     {
         if (TryComp<MetaDataComponent>(ent, out var metaData))
         {
             var briefing = Loc.GetString("vampire-role-greeting", ("name", metaData?.EntityName ?? "Unknown"));
-            
+
             return briefing;
         }
-        
+
         return "";
     }
 
