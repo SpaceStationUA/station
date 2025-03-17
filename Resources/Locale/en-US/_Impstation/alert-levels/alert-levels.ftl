@@ -22,10 +22,14 @@ alert-level-chartreuse = Chartreuse
 alert-level-chartreuse-announcement = It might be safe to return to your workplaces?
 alert-level-chartreuse-instructions = Huh? Wha?
 
+alert-level-white = White
+alert-level-white-announcement = Spectral activity has been detected! Please defer to the Chaplain and all other spiritual authorities for instruction.
+alert-level-white-instructions = Look out for phantoms, and report if necessary.
+
 alert-level-puce = Puce
 alert-level-puce-announcement = A food recall has been initiated, and your station is affected.
 alert-level-puce-instructions = Don't eat the burgers in the cafeteria...
 
 alert-level-octarine = Octarine
-alert-level-octarine-announcement = A cataclysmic bluespace event threatens to envelop realspace. Crewmembers are urged to halt this event at all costs, and to listen to heads of staff for more information. Failure to adhere will be met with lethal force.
-alert-level-octarine-instructions = EMBRACE THE END.
+alert-level-octarine-announcement = A cataclysmic bluespace event threatens to envelop realspace. Security has been authorized to use lethal weapons. Crewmembers are advised to listen to heads of staff for more information. Failure to adhere will be met with lethal force.
+alert-level-octarine-instructions = THE END IS THE END IS THE END IS
