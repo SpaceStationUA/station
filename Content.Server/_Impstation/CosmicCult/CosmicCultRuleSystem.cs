@@ -153,37 +153,10 @@ public sealed class CosmicCultRuleSystem : GameRuleSystem<CosmicCultRuleComponen
             cultists.Add(playerInfo, cult);
         }
 
-        var options = new VoteOptions
-        {
-            DisplayVotes = false,
-            Title = Loc.GetString("cosmiccult-vote-leadership-title"),
-            InitiatorText = Loc.GetString("cosmiccult-vote-leadership-initiator"),
-            Duration = TimeSpan.FromSeconds(_config.GetCVar(ImpCCVars.CosmicCultStewardVoteTimer)),
-            VoterEligibility = VoteManager.VoterEligibility.CosmicCult
-        };
-
-        foreach (var (name, ent) in cultists)
-        {
-            options.Options.Add((Loc.GetString(name), ent));
-        }
-
-        var vote = _votes.CreateVote(options);
-
-        vote.OnFinished += (_, args) =>
-        {
-            EntityUid picked;
-            if (args.Winner == null)
-            {
-                picked = (EntityUid)_rand.Pick(args.Winners);
-            }
-            else
-            {
-                picked = (EntityUid)args.Winner;
-            }
-            var winner = Identity.Entity(picked, EntityManager);
-            _adminLogger.Add(LogType.Vote, LogImpact.Medium, $"Cult stewardship vote finished: {winner} is now steward.");
-            AddComp<CosmicCultLeadComponent>(picked);
-        };
+        var picked = _rand.Pick(cultists).Value;
+        var winner = Identity.Entity(picked, EntityManager);
+        _adminLogger.Add(LogType.Vote, LogImpact.Medium, $"Cult stewardship vote finished: {winner} is now steward.");
+        AddComp<CosmicCultLeadComponent>(picked);
     }
 
     private void OnAntagSelect(Entity<CosmicCultRuleComponent> uid, ref AfterAntagEntitySelectedEvent args)

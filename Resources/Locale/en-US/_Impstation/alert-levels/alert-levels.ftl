@@ -22,10 +22,6 @@ alert-level-chartreuse = Chartreuse
 alert-level-chartreuse-announcement = It might be safe to return to your workplaces?
 alert-level-chartreuse-instructions = Huh? Wha?
 
-alert-level-white = White
-alert-level-white-announcement = Spectral activity has been detected! Please defer to the Chaplain and all other spiritual authorities for instruction.
-alert-level-white-instructions = Look out for phantoms, and report if necessary.
-
 alert-level-puce = Puce
 alert-level-puce-announcement = A food recall has been initiated, and your station is affected.
 alert-level-puce-instructions = Don't eat the burgers in the cafeteria...
