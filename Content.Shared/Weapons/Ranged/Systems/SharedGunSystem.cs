@@ -581,16 +581,16 @@ public abstract partial class SharedGunSystem : EntitySystem
         Dirty(gun);
     }
 
-     // Goobstation
+    // Goobstation
     public void SetTarget(EntityUid projectile,
-        EntityUid target,
+        EntityUid? target,
         out TargetedProjectileComponent targeted,
         bool dirty = true)
     {
-         targeted = EnsureComp<TargetedProjectileComponent>(projectile);
-         targeted.Target = target;
-         if (dirty)
-             Dirty(projectile, targeted);
+        targeted = EnsureComp<TargetedProjectileComponent>(projectile);
+        targeted.Target = target;
+        if (dirty)
+            Dirty(projectile, targeted);
     }
 
     public void SetFireRate(GunComponent component, float fireRate) // Goobstation
@@ -612,7 +612,6 @@ public abstract partial class SharedGunSystem : EntitySystem
     {
         component.ClumsyProof = clumsyProof;
     }
-
     protected abstract void CreateEffect(EntityUid gunUid, MuzzleFlashEvent message, EntityUid? user = null);
 
     /// <summary>

@@ -5,19 +5,21 @@
   - type: ChangelingRule
   - type: GameRule
     minPlayers: 3
-    delay:
-      min: 30
-      max: 60
+  - type: AntagObjectives
+    objectives:
+    - ChangelingStealDNAObjective
+    - EscapeIdentityObjective
+    - ChangelingSurviveObjective
   - type: AntagSelection
+    selectionTime: PrePlayerSpawn
     agentName: changeling-roundend-name
     definitions:
     - prefRoles: [ Changeling ]
       max: 4
       playerRatio: 12
       lateJoinAdditional: true
-      mindComponents:
-      - type: ChangelingRole
-        prototype: Changeling
+      mindRoles:
+      - MindRoleChangeling
 
 # Blob
 - type: entity

@@ -11837,28 +11837,29 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1765
 - author: VMSolidus
   changes:
-    - type: Fix
-      message: >-
-        Fixed Oni not being able to do a ton of things that required hardcoded
-        tags. I fucking hate the tag system.
+  - type: Fix
+    message: >-
+      Виправлено, що Оні не могли робити багато речей, які вимагали жорстко
+      закодованих тегів. Я ненавиджу систему тегів, бляха.
   id: 6942
   time: '2025-03-12T21:35:51.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1935
 - author: Timfa2112
   changes:
-    - type: Tweak
-      message: Tweaked rev manifesto to not spam chat anymore
+  - type: Tweak
+    message: Змінено маніфест революціонерів, щоб більше не спамити в чаті
   id: 6943
   time: '2025-03-12T23:24:05.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1936
 - author: VMSolidus
   changes:
-    - type: Tweak
-      message: Disabled Monstermos Tile Ripping by default.
-    - type: Tweak
-      message: >-
-        Default settings for Ramping Event Scheduler no longer throws
-        "Ventcritters every 10 seconds, 30 minutes into the round". 
+  - type: Tweak
+    message: Вимкнено виривання плитки Monstermos за замовчуванням.
+  - type: Tweak
+    message: >-
+      Налаштування за замовчуванням для Ramping Event Scheduler більше не
+      викликають "Ventcritters кожні 10 секунд, через 30 хвилин після початку
+      раунду".
   id: 6944
   time: '2025-03-13T03:16:40.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1945
@@ -11904,3 +11905,292 @@ Entries:
   id: 6948
   time: '2025-03-14T15:10:43.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1962
+- author: Timfa2112
+  changes:
+  - type: Add
+    message: Додано мову Нову-Недерік (включно з рисою)
+  id: 6949
+  time: '2025-03-16T02:42:55.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1952
+- author: Raikyr0
+  changes:
+  - type: Add
+    message: Тег SpiderCraft до Спінаретти
+  id: 6950
+  time: '2025-03-17T14:09:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1980
+- author: Raikyr0
+  changes:
+  - type: Add
+    message: Варіанти більшої кількості Дослідницьких Дисків та Спесо
+  - type: Add
+    message: Збільшено кількість Дослідницьких та Спесо, які Рятувальник може випадково знайти
+  - type: Add
+    message: Додано диск на 20000 до таблиці здобичі Оракула (Супер Рідкісний)
+  - type: Add
+    message: Додано радіаційні аптечки до радіаційних шафок
+  id: 6951
+  time: '2025-03-17T14:13:15.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1984
+- author: Raikyr0
+  changes:
+  - type: Add
+    message: Оброблення туш до Лазерних Рапторів
+  id: 6952
+  time: '2025-03-17T14:15:12.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1982
+- author: VMSolidus
+  changes:
+  - type: Fix
+    message: >-
+      Виправлено деякі помилки з Космічним Вітром, пов'язані з шафками, що
+      спричиняли масивні стрибки повітряного потоку,
+  - type: Fix
+    message: >-
+      Виправлено некоректний розрахунок космічного вітру для станцій, які
+      отримують гравітацію від своєї планети, таких як Льодовик.
+  - type: Fix
+    message: >-
+      Виправлено проблему, через яку Космічний Вітер не дотримувався
+      космічного обмеження швидкості в 30 метрів за секунду.
+  id: 6953
+  time: '2025-03-17T14:25:08.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1979
+- author: Plyush
+  changes:
+  - type: Tweak
+    message: Змінено спрайт спідниці Черепахи
+  id: 6954
+  time: '2025-03-17T14:28:09.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1976
+- author: Toby222 and Will-Oliver-Br
+  changes:
+  - type: Add
+    message: Додано пошук номерів у NanoChat
+  id: 6955
+  time: '2025-03-17T14:29:17.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1978
+- author: RocketBoss360
+  changes:
+  - type: Tweak
+    message: Туман Shadeskip тепер триває 30 секунд і має збільшену зону дії.
+  id: 6956
+  time: '2025-03-17T14:35:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1961
+- author: Mike32oz
+  changes:
+  - type: Fix
+    message: Труби Атмосу на аванпості розміщені неправильно.
+  - type: Fix
+    message: Двері двох шатлів аванпосту не з'єднуються належним чином.
+  - type: Fix
+    message: Конвеєрна стрічка/переробник аванпосту не з'єднані належним чином.
+  - type: Fix
+    message: Двері укриття/розкоші не відкриваються ні для кого, навіть для Капітана.
+  - type: Remove
+    message: Сервер моніторингу екіпажу аванпосту спричиняє проблеми на гріді.
+  id: 6957
+  time: '2025-03-17T14:36:55.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1964
+- author: Ichai
+  changes:
+  - type: Tweak
+    message: >-
+      Кіберіада була повністю перероблена у відділі інженерії та ШІ,
+      насолоджуйтесь новим відділом
+  id: 6958
+  time: '2025-03-17T15:32:52.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1974
+- author: VMSolidus
+  changes:
+  - type: Add
+    message: >-
+      Солеварня тепер має док для Pathfinder, який тепер починатиме раунд вже
+      пристикованим до станції, якщо нічого не піде не так.
+  - type: Tweak
+    message: Зроблено суперматерію Солеварні набагато менш "Вибуховою"
+  id: 6959
+  time: '2025-03-17T15:42:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1937
+- author: Tonk
+  changes:
+  - type: Add
+    message: >-
+      Додано тактичні костюми, дороге пальто, капелюх відьми та мантію до
+      меню спорядження.
+  - type: Add
+    message: Додано плюшеві іграшки та розкішну ручку до предметів спорядження.
+  id: 6960
+  time: '2025-03-17T15:47:51.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1967
+- author: hobolyra
+  changes:
+  - type: Add
+    message: >-
+      Файли коду для імплантації, видалення та перевірки компонентів, як
+      зазначено в YML
+  - type: Fix
+    message: Виправлено назви зі старого сервера
+  id: 6961
+  time: '2025-03-17T15:52:01.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1970
+- author: VMSolidus
+  changes:
+  - type: Tweak
+    message: >-
+      Змінено характеристики R25, тепер він має чергу з 3 пострілів замість
+      черги з 5 пострілів.
+  - type: Fix
+    message: >-
+      Виправлено проблему, через яку R25 було нечутно, якщо тільки ви не були
+      тим, хто стріляв.
+  id: 6962
+  time: '2025-03-17T15:53:04.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1946
+- author: VMSolidus
+  changes:
+  - type: Tweak
+    message: Змінено культові двері, щоб вони не запускали людей на люмінальній швидкості.
+  id: 6963
+  time: '2025-03-17T15:53:53.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1947
+- author: GNUtopia
+  changes:
+  - type: Add
+    message: >-
+      Додано миски, форму для пирога, пакетики з сіллю та перцем, а також
+      пластиковий посуд до постійного продавця їжі.
+  id: 6964
+  time: '2025-03-17T16:05:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1965
+- author: Will-Oliver-Br
+  changes:
+  - type: Add
+    message: Дизайн вивіски бару тепер можна змінити через меню.
+  - type: Add
+    message: Вивіски бару тепер мають панель обслуговування, і ШІ може з ними взаємодіяти.
+  - type: Add
+    message: Нова вивіска бару Maltroach (на основі вивіски MoffNyan, з tgstation)
+  - type: Tweak
+    message: Електронні вивіски бару тепер можна знищити.
+  - type: Fix
+    message: Виправлено блукаючий піксель у вивісці бару Officer Beersky
+  id: 6965
+  time: '2025-03-17T16:46:04.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1971
+- author: EctoplasmIsGood
+  changes:
+  - type: Add
+    message: Токарні верстати тепер повідомлятимуть вас, коли у них з'являться нові рецепти
+  id: 6966
+  time: '2025-03-17T17:19:31.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1940
+- author: SolarisBirb
+  changes:
+  - type: Fix
+    message: >-
+      NT нарешті виправила гірничий шатл, і тепер він стикується зі станцією
+      після повернення з лаваланда.
+  id: 6967
+  time: '2025-03-17T17:22:24.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1948
+- author: Mike32oz
+  changes:
+  - type: Add
+    message: Медичні, прибиральні та ботанічні боти Northway
+  - type: Add
+    message: Гірнича консоль Northway для лаваланда
+  - type: Add
+    message: Додано станцію ШІ Northway
+  - type: Remove
+    message: Логістичні шатли Northway
+  id: 6968
+  time: '2025-03-17T17:25:14.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1932
+- author: BramvanZijp
+  changes:
+  - type: Tweak
+    message: >-
+      Кабельні котушки тепер краще лікують опіки у ІРС, причому кабелі СН та
+      ВН забезпечують більше лікування, але застосовуються повільніше.
+  id: 6969
+  time: '2025-03-17T17:41:15.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1934
+- author: SolarisBirb
+  changes:
+  - type: Add
+    message: Core, Glacier, Lambda, Lighthouse, Meta, Shoukou тепер мають гірничі доки!
+  - type: Fix
+    message: >-
+      На Meta та Shoukou Pathfinder пристикований до станції на початку
+      раунду.
+  - type: Fix
+    message: Проводку Meta до богомола виправлено.
+  - type: Add
+    message: Core тепер має консолі моніторингу суперматерії.
+  - type: Add
+    message: Core тепер має голопади.
+  - type: Fix
+    message: Прибуття на Lighthouse тепер стикуються у правильному місці.
+  id: 6970
+  time: '2025-03-17T17:42:23.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1953
+- author: BramvanZijp
+  changes:
+  - type: Tweak
+    message: >-
+      Окуляри medsecglasses були перейменовані на окуляри blueshield, а також
+      оновлено опис
+  - type: Add
+    message: Додано діагностичний HUD до окулярів blueshield.
+  id: 6971
+  time: '2025-03-17T17:44:14.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1924
+- author: SolarisBirb
+  changes:
+  - type: Tweak
+    message: СМЕС/Підстанції/АРС тепер показують відсоток заряду батареї
+  - type: Tweak
+    message: Усі пристрої показують повну потужність у консолі моніторингу живлення.
+  id: 6972
+  time: '2025-03-17T17:51:52.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1913
+- author: dootythefrooty
+  changes:
+  - type: Add
+    message: Анойго - найновіша псі-сила. Відкривайте двері силою розуму!
+  id: 6973
+  time: '2025-03-17T17:55:19.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1926
+- author: RocketBoss360
+  changes:
+  - type: Tweak
+    message: >-
+      Змінено тип крові тіньовиків на чорну кров, щоб краще відповідати
+      колірній палітрі їхніх органів
+  id: 6974
+  time: '2025-03-17T18:10:44.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1904
+- author: Erisfiregamer1
+  changes:
+  - type: Add
+    message: Змінювачі були портовані!
+  id: 6975
+  time: '2025-03-17T18:56:08.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1855
+- author: Rosycup
+  changes:
+  - type: Add
+    message: Додано нові спрайти для каністр з тритієм та аміаком
+  id: 6976
+  time: '2025-03-17T18:57:22.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1986
+- author: VMSolidus
+  changes:
+  - type: Tweak
+    message: >-
+      Змінено стандартні CCVars для космічного вітру, щоб він був менш
+      агресивним і з меншою ймовірністю кидав людей крізь стіни.
+  id: 6977
+  time: '2025-03-17T20:21:03.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1988

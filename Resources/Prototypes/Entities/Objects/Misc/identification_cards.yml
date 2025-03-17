@@ -647,6 +647,8 @@
     heldPrefix: blue
   - type: PresetIdCard
     job: CentralCommandOfficial
+  - type: NanoChatCard # DeltaV
+    listNumber: false
 
 - type: entity
   parent: IDCardStandard
@@ -665,6 +667,8 @@
     job: ERTLeader
   - type: Item
     heldPrefix: gold
+  - type: NanoChatCard # DeltaV
+    listNumber: false
 
 - type: entity
   parent: IDCardStandard
@@ -683,6 +687,8 @@
     job: ERTChaplain
   - type: Item
     heldPrefix: blue
+  - type: NanoChatCard # DeltaV
+    listNumber: false
 
 - type: entity
   parent: IDCardStandard
@@ -699,6 +705,8 @@
     - state: stationengineer
   - type: PresetIdCard
     job: ERTEngineer
+  - type: NanoChatCard # DeltaV
+    listNumber: false
 
 - type: entity
   parent: IDCardStandard
@@ -715,6 +723,8 @@
     - state: janitor
   - type: PresetIdCard
     job: ERTJanitor
+  - type: NanoChatCard # DeltaV
+    listNumber: false
 
 - type: entity
   parent: IDCardStandard
@@ -731,6 +741,8 @@
     - state: medicaldoctor
   - type: PresetIdCard
     job: ERTMedical
+  - type: NanoChatCard # DeltaV
+    listNumber: false
 
 - type: entity
   parent: IDCardStandard
@@ -747,6 +759,8 @@
     - state: cc
   - type: PresetIdCard
     job: ERTSecurity
+  - type: NanoChatCard # DeltaV
+    listNumber: false
 
 - type: entity
   parent: IDCardStandard
@@ -803,6 +817,8 @@
     heldPrefix: blue
   - type: PresetIdCard
     job: DeathSquad
+  - type: NanoChatCard # DeltaV
+    listNumber: false
 
 - type: entity
   name: passenger ID card
@@ -843,6 +859,8 @@
         type: ChameleonBoundUserInterface
   - type: ClothingAddFaction
     faction: Syndicate
+  - type: NanoChatCard # DeltaV
+    listNumber: false
 
 - type: entity
   name: passenger ID card
@@ -893,6 +911,8 @@
     - SyndicateAgent
   - type: ClothingAddFaction
     faction: Syndicate
+  - type: NanoChatCard # DeltaV
+    listNumber: false
 
 - type: entity
   parent: IDCardStandard
@@ -913,6 +933,8 @@
     - SyndicateAgent
   - type: ClothingAddFaction
     faction: Syndicate
+  - type: NanoChatCard # DeltaV
+    listNumber: false
 
 - type: entity
   parent: IDCardStandard
@@ -1012,6 +1034,8 @@
     heldPrefix: blue
   - type: PresetIdCard
     job: CBURN
+  - type: NanoChatCard # DeltaV
+    listNumber: false
 
 - type: entity
   parent: IDCardStandard
@@ -1031,6 +1055,8 @@
   - type: IdCard
     jobTitle: job-title-cluwne
   - type: Unremoveable
+  - type: NanoChatCard # DeltaV
+    listNumber: false
 
 - type: entity
   parent: IDCardStandard
@@ -1110,6 +1136,9 @@
     heldPrefix: silver
   - type: PresetIdCard
     job: AdministrativeAssistant
+  - type: NanoChatCard # DeltaV
+    notificationsMuted: true
+    listNumber: false
 
 #PIRATE START UNTIL END OF FILE
 - type: entity
