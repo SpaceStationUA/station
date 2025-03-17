@@ -1,4 +1,3 @@
-using Content.Server._Goobstation.Bingle;
 using Robust.Shared.GameStates;
 
 namespace Content.Server.Flash.Components;
@@ -7,7 +6,7 @@ namespace Content.Server.Flash.Components;
 ///     Makes the entity immune to being flashed.
 ///     When given to clothes in the "head", "eyes" or "mask" slot it protects the wearer.
 /// </summary>
-[RegisterComponent, Access(typeof(BingleSystem))] // Goob edit
+[RegisterComponent] // Goob edit
 public sealed partial class FlashImmunityComponent : Component
 {
     [DataField]
