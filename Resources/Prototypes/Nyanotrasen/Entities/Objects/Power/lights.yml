@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseLightbulb
-  name: "синя лампочка"
-  description: "Високоенергетична лампа середньої потужності, яка нагадує вам про космос. Може містити ртуть."
+  name: blue light tube
+  description: A medium power high energy bulb that reminds you of space. May contain mercury.
   id: BlueLightTube
   components:
   - type: LightBulb
@@ -18,10 +18,10 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: "лампа розжарювання"
+  name: incandescent light bulb
   suffix: Maintenance
   id: LightBulbMaintenance
-  description: "Тьмяна лампочка."
+  description: A dim light bulb.
   components:
   - type: LightBulb
     bulb: Bulb
@@ -34,8 +34,8 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: "червона лампочка"
-  description: "Кольорова лампа. Вони випромінюють червоний відтінок."
+  name: red light tube
+  description: A colorful light tube. These emit a red hue.
   id: ColoredLightTubeRed
   components:
   - type: LightBulb
@@ -51,8 +51,8 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: "синя лампочка"
-  description: "Кольорова лампа. Вони випромінюють морозний синій відтінок."
+  name: blue light tube
+  description: A colorful light tube. These emit a frosty blue hue.
   id: ColoredLightTubeFrostyBlue
   components:
   - type: LightBulb
@@ -68,8 +68,8 @@
     
 - type: entity
   parent: BaseLightbulb
-  name: "чорна лампочка"
-  description: "Кольорова лампочка. Вони випромінюють \"чорне світло\"."
+  name: black light tube
+  description: A colorful light tube. These emit "black light".
   id: ColoredLightTubeBlackLight
   components:
   - type: LightBulb
@@ -85,10 +85,10 @@
 
 - type: entity
   parent: BaseLightbulb
-  name: "лампа розжарювання"
+  name: incandescent light bulb
   suffix: Maintenance, Red
   id: LightBulbMaintenanceRed
-  description: "Тьмяна лампочка. Вони випромінюють червоний відтінок."
+  description: A dim light bulb. These emit a red hue.
   components:
   - type: LightBulb
     bulb: Bulb

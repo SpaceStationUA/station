@@ -1,6 +1,6 @@
 #Industrial spawners
 - type: entity
-  name: "точка появи промислового мотлоху"
+  name: industrial fluff spawner
   id: LootSpawnerIndustrialFluff
   parent: MarkerBase
   components:
@@ -33,7 +33,7 @@
       offset: 0.0
 
 - type: entity
-  name: "точка появи промислового луту"
+  name: industrial loot spawner
   suffix: Tools + Materials
   id: LootSpawnerIndustrial
   parent: MarkerBase
