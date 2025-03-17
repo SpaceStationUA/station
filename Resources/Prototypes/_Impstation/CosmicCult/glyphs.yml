@@ -24,7 +24,7 @@
     sprite: _Impstation/CosmicCult/Objects/glyphs_floor.rsi
     layers:
       - state: aid
-    drawdepth: Puddles
+    #drawdepth: Puddles
   - type: Appearance
 
 - type: entity
@@ -36,7 +36,7 @@
     sprite: _Impstation/CosmicCult/Objects/glyphs_floor.rsi
     layers:
       - state: truth
-    drawdepth: Puddles
+    #drawdepth: Puddles
   - type: CosmicGlyphConversion
     negateProtection: true
   - type: CosmicGlyph
@@ -53,7 +53,7 @@
     sprite: _Impstation/CosmicCult/Objects/glyphs_floor.rsi
     layers:
       - state: knowledge
-    drawdepth: Puddles
+    #drawdepth: Puddles
   - type: CosmicGlyphConversion
   - type: CosmicGlyph
     glyphName: knowledge
@@ -69,7 +69,7 @@
     layers:
     - sprite: _Impstation/CosmicCult/Objects/glyphs_floor.rsi
       state: cessation
-    drawdepth: Puddles
+    #drawdepth: Puddles
   - type: CosmicGlyphTransmuteSpire
   - type: CosmicGlyph
     glyphName: cessation
@@ -85,7 +85,7 @@
     sprite: _Impstation/CosmicCult/Objects/glyphs_floor.rsi
     layers:
       - state: blades
-    drawdepth: Puddles
+    #drawdepth: Puddles
   - type: CosmicGlyphTransmuteWeapon
   - type: CosmicGlyph
     glyphName: blades
@@ -101,7 +101,7 @@
     sprite: _Impstation/CosmicCult/Objects/glyphs_floor.rsi
     layers:
       - state: warding
-    drawdepth: Puddles
+    #drawdepth: Puddles
   - type: CosmicGlyphTransmuteArmor
   - type: CosmicGlyph
     glyphName: warding
@@ -117,7 +117,7 @@
     sprite: _Impstation/CosmicCult/Objects/glyphs_floor.rsi
     layers:
       - state: projection
-    drawdepth: Puddles
+    #drawdepth: Puddles
   - type: CosmicGlyphAstralProjection
   - type: CosmicGlyph
     glyphName: projection
