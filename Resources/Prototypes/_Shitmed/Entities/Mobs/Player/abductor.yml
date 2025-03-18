@@ -31,7 +31,7 @@
       - DoorBumpOpener
 
 - type: entity
-  name: lone abductor
+  name: "викрадач-одинак"
   parent: MobAbductorAntag
   id: MobLoneAbductor
   components:
@@ -57,7 +57,7 @@
       - LoneAbductorGear
 
 - type: entity
-  name: abductor scientist
+  name: "вчений-викрадач"
   parent: MobAbductorAntag
   id: MobAbductorScientist
   components:
@@ -80,7 +80,7 @@
       - AbductorScientistGear
 
 - type: entity
-  name: abductor agent
+  name: "агент викрадачів"
   parent: MobAbductorAntag
   id: MobAbductorAgent
   components:
@@ -154,7 +154,7 @@
 # Spawners
 
 - type: entity
-  name: lone abductor spawner
+  name: "самотній нерестовик-викрадач"
   id: SpawnPointLoneAbductor
   parent: MarkerBase
   components:
@@ -194,7 +194,7 @@
         state: radiation
 
 - type: entity
-  name: abductor agent spawner
+  name: "викрадач агент нерестовик"
   id: SpawnPointAbductorAgent
   parent: MarkerBase
   components:
@@ -231,7 +231,7 @@
         state: radiation
 
 - type: entity
-  name: abductor scientist spawner
+  name: "викрадач вчений нерестовик"
   id: SpawnPointAbductorScientist
   parent: MarkerBase
   components:

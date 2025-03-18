@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNecklaceStandard
-  name: necklace
-  description: A piece of jewelry that goes around your neck.
+  name: "намисто"
+  description: "Прикраса, яку носять на шиї."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Necklaces/standard.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNecklaceLow
-  name: low-hanging necklace
-  description: A long piece of jewelry that hangs quite low from the neck of its wearer.
+  name: "низько звисаюче намисто"
+  description: "Довгий ювелірний виріб, який досить низько звисає з шиї його власника."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Necklaces/low.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNecklaceRound
-  name: round necklace
-  description: A piece of jewelry that goes around your neck.
+  name: "кругле намисто"
+  description: "Прикраса, яку носять на шиї."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Necklaces/round.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNecklaceSmall
-  name: small necklace
-  description: A diminutive necklace.
+  name: "маленьке намисто"
+  description: "Мініатюрне намисто."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Necklaces/small.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNecklaceGold
-  name: gold necklace
-  description: A piece of golden jewelry that goes around your neck.
+  name: "золоте намисто"
+  description: "Золота прикраса, яка одягається на шию."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Necklaces/gold.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNecklaceSilver
-  name: silver necklace
-  description: A piece of silver jewelry that goes around your neck.
+  name: "срібне намисто"
+  description: "Срібна прикраса, яку носять на шиї."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Necklaces/silver.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNecklaceChainGold
-  name: gold chain necklace
-  description: A winding chain of golden links, fashioned into an exquisite necklace.
+  name: "золоте кольє з ланцюжком"
+  description: "Звивистий ланцюжок із золотих ланок, перетворений на вишукане намисто."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Necklaces/chain_gold.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNecklaceChainSilver
-  name: silver chain necklace
-  description: A winding chain of silver links, fashioned into an exquisite necklace.
+  name: "срібне кольє з ланцюжком"
+  description: "Звивистий ланцюжок зі срібних ланок, перетворений на вишукане намисто."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Necklaces/chain_silver.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNecklacePendantGold
-  name: gold pendant necklace
-  description: A heavy gemstone tethered to a golden necklace by a chain.
+  name: "золотий кулон-намисто"
+  description: "Важкий дорогоцінний камінь, прив'язаний ланцюжком до золотого намиста."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Necklaces/pendant_gold.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNecklacePendantGoldLarge
-  name: large gold pendant necklace
-  description: A large gemstone tethered to a golden necklace by a chain.
+  name: "велике золоте намисто-підвіска"
+  description: "Великий дорогоцінний камінь, прив'язаний ланцюжком до золотого намиста."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Necklaces/pendant_gold_large.rsi
@@ -125,8 +125,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNecklacePendantSilver
-  name: silver pendant necklace
-  description: A heavy gemstone tethered to a silver necklace by a chain.
+  name: "срібний кулон-намисто"
+  description: "Важкий дорогоцінний камінь, прив'язаний ланцюжком до срібного намиста."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Necklaces/pendant_silver.rsi
@@ -143,8 +143,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNecklacePendantSilverLarge
-  name: large silver pendant necklace
-  description: A large gemstone tethered to a silver necklace by a chain.
+  name: "великий срібний кулон-намисто"
+  description: "Великий дорогоцінний камінь, прив'язаний ланцюжком до срібного намиста."
   components:
   - type: Sprite
     sprite: Clothing/Neck/Necklaces/pendant_silver_large.rsi
