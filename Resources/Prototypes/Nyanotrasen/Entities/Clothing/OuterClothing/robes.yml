@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRobeBrown
-  name: "коричневий халат"
-  description: "Це зовсім не виглядає моторошно."
+  name: brown robe
+  description: This doesn't look creepy at all.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Robes/brown.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRobeTechPriest
-  name: "автоматичний халат"
-  description: "Роботи - це, по суті, бики, якщо подумати, тому краще носити червоне."
+  name: automaturge robe
+  description: Robots are basically bulls when you think about it, so best to wear red.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Robes/techpriest.rsi

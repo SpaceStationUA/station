@@ -1,6 +1,6 @@
 - type: entity
-  name: "пакетик з цукерками"
-  description: "Пакунок із солодощами."
+  name: candy bag
+  description: A bag of sweet treats.
   id: CandyBagRandom
   parent: BaseItem
   components:
@@ -39,10 +39,10 @@
     size: Normal
 
 - type: entity
-  name: "зубна щітка"
+  name: toothbrush
   parent: BaseItem
   id: JunkToothbrush
-  description: "Розчаровує."
+  description: Disappointing.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/candy.rsi
@@ -56,8 +56,8 @@
 - type: entity
   id: FoodSnackWrappedCandy
   parent: BaseItem
-  name: "цукерки"
-  description: "Солодкий на смак."
+  name: candy
+  description: It tastes sweet.
   components:
   - type: RandomSprite
     available:
@@ -87,7 +87,7 @@
 - type: entity
   parent: FoodPacketTrash
   id: FoodPacketCandyTrash
-  name: "обгортка від цукерок"
+  name: candy wrapper
   categories: [ HideSpawnMenu ]
   components:
   - type: RandomSprite
@@ -106,8 +106,8 @@
 - type: entity
   id: FoodSnackCandy
   parent: FoodSnackBase
-  name: "цукерки"
-  description: "Солодкий на смак."
+  name: candy
+  description: It tastes sweet.
   components:
   - type: RandomSprite
     available:
@@ -202,10 +202,10 @@
       - Toxin
 
 - type: entity
-  name: "шоколадка"
+  name: chocolate bar
   parent: FoodSnackChocolate
   id: FoodSnackChocolateYellow
-  description: "На смак як картон."
+  description: Tastes like cardboard.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/candy.rsi
@@ -221,27 +221,27 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketChocolateTrash
   id: FoodPacketChocolateTrashYellow
-  name: "шоколадна обгортка"
+  name: chocolate wrapper
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/candy.rsi
     state: chocolatewrapper1
 
 - type: entity
-  name: "шоколадка"
+  name: chocolate bar
   parent: FoodSnackChocolateBar
   id: FoodSnackChocolateBarYellow
-  description: "На смак як картон."
+  description: Tastes like cardboard.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/candy.rsi
     state: chocolateunwrapped1
 
 - type: entity
-  name: "шоколадка"
+  name: chocolate bar
   parent: FoodSnackChocolate
   id: FoodSnackChocolateGreen
-  description: "На смак як картон."
+  description: Tastes like cardboard.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/candy.rsi
@@ -257,17 +257,17 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketChocolateTrash
   id: FoodPacketChocolateTrashGreen
-  name: "шоколадна обгортка"
+  name: chocolate wrapper
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/candy.rsi
     state: chocolatewrapper2
 
 - type: entity
-  name: "шоколадка"
+  name: chocolate bar
   parent: FoodSnackChocolateBar
   id: FoodSnackChocolateBarGreen
-  description: "На смак як картон."
+  description: Tastes like cardboard.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Consumable/candy.rsi
