@@ -12,7 +12,7 @@
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 90
-    attackRate: 0.75
+    attackRate: 1.3333
     damage:
       types:
         Slash: 25
@@ -20,16 +20,22 @@
   - type: Item
     size: Normal
     sprite: Objects/Weapons/Melee/armblade.rsi
+  - type: Tool
+    qualities:
+      - Prying
+  - type: Utensil
+    types:
+    - Knife
+  # Shitmed Change
   - type: Prying
-  - type: UseDelay # Goobstation - For insta prying
-    delay: 1
-  - type: Scalpel # Shitmed
+  - type: Scalpel
     speed: 0.3
-  - type: BoneSaw # Shitmed
+  - type: BoneSaw
     speed: 0.75
-  - type: SurgeryTool # Shitmed
+  - type: SurgeryTool
     startSound:
       path: /Audio/Medical/Surgery/saw.ogg
+
 #PIRATE START UNTIL END OF FILE
 - type: entity
   name: магічна лезорука
