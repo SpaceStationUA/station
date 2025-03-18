@@ -61,18 +61,18 @@
 #    duration: 1
 #  - type: RandomSentienceRule
 
-- type: entity
-  parent: BaseGameRule
-  id: TerminatorSpawn
-  noSpawn: true
-  components:
-  - type: StationEvent
-    weight: 8
-    duration: 1
-    earliestStart: 30
-    minimumPlayers: 20
-  - type: RandomSpawnRule
-    prototype: SpawnPointGhostTerminator
+#- type: entity
+#  parent: BaseGameRule
+#  id: TerminatorSpawn
+#  noSpawn: true
+#  components:
+#  - type: StationEvent
+#    weight: 8
+#    duration: 1
+#    earliestStart: 30
+#    minimumPlayers: 15
+#  - type: RandomSpawnRule
+#    prototype: SpawnPointGhostTerminator
 
 #- type: entity
 #  id: SpiderClownSpawn
