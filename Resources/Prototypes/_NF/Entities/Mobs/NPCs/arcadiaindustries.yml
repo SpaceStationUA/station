@@ -1,8 +1,8 @@
 - type: entity
-  name: Shredder
+  name: "Подрібнювач"
   id: MobArcIndShredder
   parent: SimpleSpaceMobBase
-  description: A small drone meant to deconstruct both organic and non-organic structures
+  description: "Маленький дрон, призначений для деконструкції як органічних, так і неорганічних структур"
   components:
     - type: InputMover
     - type: MobMover
@@ -70,10 +70,10 @@
             1
 
 - type: entity
-  name: Hijacked Hologuardian
+  name: "Захоплений Голоохоронець"
   id: MobArcIndHoloparasiteGuardian
   parent: SimpleSpaceMobBase
-  description: A syndicate hologuardian that seems to have been modified by unknown means.
+  description: "Синдикатський голоохоронець, який, схоже, був модифікований невідомими засобами."
   components:
     - type: Sprite
       drawdepth: Mobs
@@ -125,10 +125,10 @@
             1
 
 - type: entity
-  name: Mobile Blaster Unit
+  name: "Мобільний Бластерний Юніт"
   parent: SimpleSpaceMobBase
   id: MobArcIndBlaster
-  description: A mobile energy blaster that capable of... oh god run it's spotted you!
+  description: "Мобільний енергетичний бластер, здатний... о боже, біжіть, він вас помітив!"
   components:
     - type: NpcFactionMember
       factions:

@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: CultTileSpawnEffect
-  name: cult tile effect
+  name: "ефект культової плитки"
   placement:
     mode: SnapgridCenter
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   id: CultTeleportInEffect
-  name: Teleport in
+  name: "Телепортуйтеся всередину"
   components:
   - type: TimedDespawn
     lifetime: 0.8
@@ -40,7 +40,7 @@
 
 - type: entity
   id: CultTeleportOutEffect
-  name: Teleport out
+  name: "Телепортуйтеся"
   components:
   - type: TimedDespawn
     lifetime: 0.8

@@ -1,9 +1,9 @@
 - type: entity
   id: BulletPlasmaCutter
-  name: cutter bolt
+  name: "ріжучий болт"
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
-  description: Not too bad, but you still don't want to get hit by it.
+  description: "Не так вже й погано, але ви все одно не хочете, щоб він вас зачепив."
   components:
   - type: Reflective
     reflective:
