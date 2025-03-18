@@ -100,7 +100,7 @@ cosmiccult-rift-alreadyempowered = Вам не потрібно поглинат
 cosmiccult-rift-beginabsorb = Ви починаєте поглинати зловісний розлом..
 cosmiccult-rift-beginpurge = Ви починаєте очищати зловісний розлом..
 
-cosmiccult-rift-absorb = Ви поглинаєте зловісний розлом, посилюючи себе.
+cosmiccult-rift-absorb = Ви поглинаєте зловісний розлом, посилюючи себе
 cosmiccult-rift-purge = Ви очищуєте зловісний розлом.
 
 
@@ -180,3 +180,8 @@ cosmiccult-finale-degen = Ти відчуваєш, як розпадаєшся!
 cosmiccult-monument-stage1-briefing = Монумент було покликано.
     Він розташований: {$location}!
 cosmiccult-gear-pickup-rejection = {$ITEM} відмовляється від дотику {CAPITALIZE(THE($TARGET))}!
+cosmiccult-vote-leadership-initiator = Невідоме
+cosmiccult-vote-leadership-title = Управління Космічним Культом
+cosmiccult-finale-speedup = Поклик прискорюється! Енергія вирує навкруги...
+osmiccult-rift-inuse = Ти не можеш цього зробити зараз.
+cosmiccult-announce-finale-warning = Увага всьому екіпажу. Аномалія Λ-CDM переходить у надкритичний стан, прилади виходять з ладу; неминучий горизонт подій переходу з синього простору в реальний. Якщо ви ще не застосували контрпротокол, негайно вилітайте та втручайтеся. Повторюю: негайно втручайтеся або загинете.

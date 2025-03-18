@@ -122,3 +122,5 @@ petting-success-plantbot = Ви гладите {THE($target)} по {POSS-ADJ($ta
 petting-failure-plantbot = Ви простягаєте руку, щоб погладити {THE($target)}, але ножиці {POSS-ADJ($target)} ледь не відрізають вам пальці!
 petting-success-magmahand = Якимось дивом, ви погладили {THE($target)} по {POSS-ADJ($target)} розпеченій поверхні.
 petting-failure-magmahand = Ви простягаєте руку, щоб погладити {THE($target)}, але {POSS-ADJ($target)} пекуча поверхня змушує вас передумати.
+petting-success-fillbot = Ти гладиш {THE($target)} по {POSS-ADJ($target)} старанній металевій голові.
+petting-failure-fillbot = Ти простягаєш руку, щоб погладити {THE($target)}, але {SUBJECT($target)} відштовхує твою руку!

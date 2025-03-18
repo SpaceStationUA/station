@@ -30,3 +30,6 @@ rogue-ascended-role-greeting = Ти - Астральний Піднесений 
 
 objective-condition-maligninfection-title = Зіпсуй {$count} розумів.
 objective-condition-maligninfection-description = Твій дотик може псувати розуми. Зроби це з {$count} особами на станції.
+
+rogue-ascended-infection-briefing = Зловісна енергія просочується у твою психіку. Тебе заразив Астральний Піднесений!
+     Ти повинен шукати лікування у капелана і розповісти іншим що трапилось!

@@ -187,3 +187,8 @@ nano-chat-new-message-title-recipient = {$sender} ({$jobTitle})
 nano-chat-confirm = Підтвердити
 
 # LogProbe additions
+nano-chat-look-up-no-server = Не знайдено дійсного телекомунікаційного сервера
+nano-chat-look-up = Пошук номерів
+nano-chat-list-number = Список номерів
+
+# Створити спливаюче вікно чату

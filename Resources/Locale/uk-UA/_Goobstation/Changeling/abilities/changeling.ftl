@@ -64,3 +64,24 @@ changeling-hivemind-start = Ви налаштовуєте свої мозков�
 changeling-lastresort-activate = ПОТОЧНЕ ТІЛО БУДЕ ВТРАЧЕНО! Використайте його ще раз для підтвердження.
 
 changeling-absorb-fail-nograb = Ви недостатньо сильно схопилися.
+changeling-convert-start = {CAPITALIZE(THE($user))} намагається вжалити {CAPITALIZE(THE($target))}!
+changeling-convert-fail-incapacitated = Ти не можеш заразити цю людину, вона не виведена з ладу.
+changeling-convert-fail-already = Ця людина вже заражена.
+changeling-convert-fail-incompatible = Ця ціль несумісна.
+changeling-convert-end = Ти заражаєш труп. Незабаром він буде перетворений.
+changeling-convert-end-warning = {CAPITALIZE(THE($user))} жалить тебе! Ти відчуваєш гострий біль у руці...
+changeling-convert-end-immune = Труп відторгає яйце.
+changeling-convert-chestbursted-unused = [color=red]У них величезна діра в грудях.[/color]
+changeling-convert-warning-1 = Ти відчуваєш гострий біль!
+changeling-convert-warning-throwup = Твій шлунок ніби плавиться!
+changeling-convert-warning-2 = Твоя голова пульсує!
+changeling-convert-warning-3 = Твоя кров ніби кипить!
+changeling-convert-warning-collapse = Ти падаєш, не в силах стояти через біль!
+changeling-convert-warning-shake = Тебе починає трясти від болю!
+changeling-convert-eeped = Ти непритомнієш!
+changeling-convert-eeped-1 = Твоя голова болить...
+changeling-convert-eeped-2 = Ми нічого не можемо придумати...
+changeling-convert-eeped-3 = Ти нічого не можеш придумати...
+changeling-convert-eeped-shake = Ми тремтимо уві сні...
+changeling-convert-eeped-4 = Твоя кров кипить...
+changeling-convert-skillissue = Біль зникає майже миттєво. Ми знаємо, що повинні робити.
