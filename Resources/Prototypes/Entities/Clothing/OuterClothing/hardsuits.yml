@@ -27,6 +27,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitBasic
 
@@ -69,6 +70,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitAtmos
   - type: GuideHelp
@@ -92,6 +94,7 @@
         shader: unshaded
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitEngineeringUnpainted
 
@@ -130,6 +133,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitEngineering
   - type: StaminaDamageResistance
@@ -169,6 +173,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitSpatio
   - type: GuideHelp
@@ -204,6 +209,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitSalvage
   - type: GuideHelp
@@ -239,6 +245,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitVoidParamed
   - type: GuideHelp
@@ -277,6 +284,7 @@
     reduction: 1
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitMaxim
   - type: GuideHelp
@@ -311,6 +319,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitSecurity
   - type: StaminaDamageResistance
@@ -342,6 +351,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitBrigmedic
   - type: StaminaDamageResistance
@@ -376,6 +386,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitWarden
   - type: StaminaDamageResistance
@@ -412,6 +423,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitCap
   - type: StaminaDamageResistance
@@ -455,6 +467,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitEngineeringWhite
   - type: ClothingGrantComponent
@@ -493,6 +506,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitMedical
   - type: GuideHelp
@@ -537,6 +551,7 @@
     - HighRiskItem
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitRd
   - type: StaticPrice
@@ -578,6 +593,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitSecurityRed
   - type: StaminaDamageResistance
@@ -613,6 +629,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitLuxury
   - type: GuideHelp
@@ -637,6 +654,7 @@
         shader: unshaded
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitShanlinUnpainted
 
@@ -672,6 +690,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitSyndie
   - type: Tag
@@ -696,6 +715,7 @@
     sprite: Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitSyndieMedic
   - type: Tag
@@ -724,6 +744,7 @@
         shader: unshaded
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitShiweiUnpainted
 
@@ -763,6 +784,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitSyndieElite
   - type: StaminaDamageResistance
@@ -799,6 +821,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitSyndieCommander
   - type: StaminaDamageResistance
@@ -837,6 +860,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitJuggernaut
   - type: StaminaDamageResistance
@@ -873,6 +897,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitWizard
   - type: StaminaDamageResistance
@@ -913,6 +938,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitLing
 
@@ -945,6 +971,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitPirateEVA
   - type: StaticPrice
@@ -980,6 +1007,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitPirateCap
   - type: StaticPrice
@@ -1001,6 +1029,7 @@
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertleader.rsi
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitERTLeader
   - type: StaminaDamageResistance
@@ -1019,6 +1048,7 @@
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitERTChaplain
   - type: StaminaDamageResistance
@@ -1037,6 +1067,7 @@
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertengineer.rsi
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitERTEngineer
   - type: StaminaDamageResistance
@@ -1059,6 +1090,7 @@
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertmedical.rsi
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitERTMedical
   - type: StaminaDamageResistance
@@ -1077,6 +1109,7 @@
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertsecurity.rsi
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitERTSecurity
   - type: Tag
@@ -1099,6 +1132,7 @@
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertjanitor.rsi
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitERTJanitor
   - type: StaminaDamageResistance
@@ -1137,6 +1171,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitDeathsquad
   - type: StaminaDamageResistance
@@ -1177,6 +1212,7 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetCBURN
 
@@ -1213,6 +1249,7 @@
     node: clownHardsuit
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitClown
 
@@ -1232,6 +1269,7 @@
     node: mimeHardsuit
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitMime
 
@@ -1264,5 +1302,6 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     replaceCurrentClothing: true
+    blockUnequipWhenAttached: true
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitSanta
