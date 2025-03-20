@@ -1,48 +1,48 @@
 - type: stack
   id: GoldOreUnprocessed
-  name: "самородне золото"
+  name: native gold
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: gold }
   spawn: GoldOre1Unprocessed
   maxCount: 30
 
 - type: stack
   id: DiamondOreUnprocessed
-  name: "самородний алмаз"
+  name: native diamond
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: diamond }
   spawn: DiamondOre1Unprocessed
   maxCount: 30
 
 - type: stack
   id: SteelOreUnprocessed
-  name: "гематит"
+  name: hematite
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: iron }
   spawn: SteelOre1Unprocessed
   maxCount: 30
 
 - type: stack
   id: PlasmaOreUnprocessed
-  name: "самородний форон"
+  name: native phoron
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: plasma }
   spawn: PlasmaOre1Unprocessed
   maxCount: 30
 
 - type: stack
   id: SilverOreUnprocessed
-  name: "аргентит"
+  name: argentite
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: silver }
   spawn: SilverOre1Unprocessed
   maxCount: 30
 
 - type: stack
   id: SpaceQuartzUnprocessed
-  name: "кварц"
+  name: quartz
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: spacequartz }
   spawn: SpaceQuartz1Unprocessed
   maxCount: 30
 
 - type: stack
   id: UraniumOreUnprocessed
-  name: "уранова смолка"
+  name: pitchblende
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: uranium }
   spawn: UraniumOre1Unprocessed
   maxCount: 30
@@ -50,14 +50,14 @@
 
 - type: stack
   id: BananiumOreUnprocessed
-  name: "необроблена бананієва руда"
+  name: unprocessed bananium ore
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: bananium }
   spawn: BananiumOre1Unprocessed
   maxCount: 30
 
 - type: stack
   id: CoalUnprocessed
-  name: "антрацит"
+  name: anthracite
   icon: { sprite: /Textures/Objects/Materials/ore.rsi, state: coal }
   spawn: Coal1Unprocessed
   maxCount: 30

@@ -1,8 +1,8 @@
 - type: entity
-  name: "Гвардія Синдикату"
+  name: Syndicate Guard
   parent: BaseMobHuman
   id: MobRadioGuard
-  description: "Синдикат промив їм мізки і загіпнотизував до ідеальної лояльності. Вони віддадуть своє життя, щоб захистити свою мету."
+  description: "Mindwiped and hypno-indoctrinated into perfect loyalty by the Syndicate. They will throw their life away to defend their objective."
   components:
     - type: NpcFactionMember
       factions:

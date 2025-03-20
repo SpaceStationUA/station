@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSecurity
   id: ClothingOuterHardsuitBlueshield
-  name: "хардсьют офіцера-синьощита"
-  description: "Спеціальний хардсьют безпеки, створений для офіцера-синьощита, має додаткову броню, але якимось чином відчувається легшим."
+  name: blueshield's hardsuit
+  description: A special security hardsuit made for the Blueshield Officer, has extra armor yet somehow feels lighter.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/Combat/blueshield.rsi
@@ -40,8 +40,8 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitCybersunStealth
   suffix: stealth
-  name: "кіберсолдатський стелс-костюм"
-  description: "Бронежилет зі стелс-покриттям для операцій, але захист не працює, коли ви рухаєтесь! Для завершення стелс-покриття потрібно вдягнути шолом."
+  name: cybersun stealth hardsuit
+  description: A hardsuit with stealth plating for operations, the shielding doesn't work while you're moving though! Needs the helmet on to finish the stealth field.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/cybersunstealth.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitChronolegioneer
-  name: "футуристичний комбінезон"
-  description: "Бронежилет, вкритий невідомим матеріалом, який захищає від більшості матеріальних і тимчасових ушкоджень"
+  name: futuristic hardsuit
+  description: A hardsuit covered in an unknown material that protects against most material and temporal damage
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/chronolegioneer.rsi
