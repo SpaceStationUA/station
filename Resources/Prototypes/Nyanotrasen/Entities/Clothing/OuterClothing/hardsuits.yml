@@ -5,7 +5,9 @@
   description: "Легкий хардкостюм, що має шолом з першою в галактиці системою псионного проходження."
   components:
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMystagogue
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMystagogue
 
 - type: entity
   parent: ClothingOuterHardsuitSyndie
@@ -18,7 +20,9 @@
   - type: Clothing
     sprite:  Nyanotrasen/Clothing/OuterClothing/ReverseEngineering/syndicate.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSyndieReverseEngineered
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitSyndieReverseEngineered
 
 - type: entity
   parent: ClothingOuterHardsuitJuggernaut
@@ -32,7 +36,9 @@
   - type: Clothing
     sprite:  Nyanotrasen/Clothing/OuterClothing/ReverseEngineering/juggernaut.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitJuggernautReverseEngineered
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitJuggernautReverseEngineered
 
 - type: entity
   parent: ClothingOuterHardsuitERTLeader
@@ -44,4 +50,6 @@
   - type: Clothing
     sprite: Nyanotrasen/Clothing/OuterClothing/Hardsuits/ERTSuits/ertcentcomm.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitERTCentcomm
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitERTCentcomm
