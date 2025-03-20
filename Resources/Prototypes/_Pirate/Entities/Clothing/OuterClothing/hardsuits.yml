@@ -31,7 +31,9 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMars
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMars
 
 #Mars Elite Hardsuit
 - type: entity
@@ -65,7 +67,9 @@
     sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMarsElite
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMarsElite
 
 #Mars Commander Hardsuit
 - type: entity
@@ -97,7 +101,9 @@
     sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMarsCommander
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMarsCommander
 
 #Mars Juggernaut Hardsuit
 - type: entity
@@ -129,7 +135,9 @@
     sprintModifier: 0.65
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMarsJugger
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMarsJugger
 
 #Mars Special Hardsuit
 - type: entity
@@ -161,7 +169,9 @@
     sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMarsSpecial
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMarsSpecial
 
 #MERC
 - type: entity
@@ -195,7 +205,9 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMercGreen
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMercGreen
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -228,7 +240,9 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMercWhite
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMercWhite
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -261,7 +275,9 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMercBlue
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMercBlue
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -294,7 +310,9 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitTropperDefault
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitTropperDefault
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -327,7 +345,9 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitTropperRed
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitTropperRed
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -360,7 +380,9 @@
     sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitTropperBlack
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitTropperBlack
 
 
 ### Salvage and miners drip hardsuits
@@ -393,7 +415,9 @@
     sprintModifier: 0.75
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitPredaceous
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitPredaceous
 
 #Synla Hardsuit
 - type: entity
@@ -424,7 +448,9 @@
     sprintModifier: 0.75
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSynla
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitSynla
 
 # cybersun stealth
 
@@ -460,7 +486,9 @@
 #    sprintModifier: 0.85
 #  - type: HeldSpeedModifier
 #  - type: ToggleableClothing
-#    clothingPrototype: ClothingHeadHelmetHardsuitCybersunStealth
+#    replaceCurrentClothing: true
+#    clothingPrototypes:
+#      head: ClothingHeadHelmetHardsuitCybersunStealth
 #  - type: Tag
 #    tags:
 #    - Hardsuit

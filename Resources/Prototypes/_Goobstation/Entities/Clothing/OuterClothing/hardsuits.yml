@@ -27,7 +27,9 @@
     sprintModifier: 0.85
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitBlueshield
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitBlueshield
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
 
@@ -74,7 +76,9 @@
     sprintModifier: 0.85
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitCybersunStealth
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitCybersunStealth
   - type: Tag
     tags:
     - Hardsuit
@@ -130,7 +134,9 @@
   - type: StasisProtection
   - type: StasisBlinkProvider
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitChronolegioneer
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitChronolegioneer
 
 - type: entity
   parent: ClothingOuterHardsuitChronolegioneer

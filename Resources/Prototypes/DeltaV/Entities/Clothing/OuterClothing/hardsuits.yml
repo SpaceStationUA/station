@@ -27,7 +27,9 @@
     walkModifier: 0.75
     sprintModifier: 0.75
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitCombatStandard
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitCombatStandard
   - type: AllowSuitStorage
 
 - type: entity
@@ -41,7 +43,9 @@
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/officer.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitCombatOfficer
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitCombatOfficer
 
 # Medical Combat Hardsuits
 - type: entity
@@ -72,7 +76,9 @@
     walkModifier: 0.85
     sprintModifier: 0.85
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitCombatMedical
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitCombatMedical
   - type: AllowSuitStorage
 
 - type: entity
@@ -86,7 +92,9 @@
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/corpsman.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitCombatCorpsman
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitCombatCorpsman
 
 # Riot Combat Hardsuits
 - type: entity
@@ -117,7 +125,9 @@
     walkModifier: 0.60
     sprintModifier: 0.60
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitCombatRiot
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitCombatRiot
   - type: AllowSuitStorage
 
 - type: entity
@@ -131,7 +141,9 @@
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/warden.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitCombatWarden
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitCombatWarden
 
 # Advanced Combat Hardsuits
 - type: entity
@@ -162,7 +174,9 @@
     walkModifier: 0.80
     sprintModifier: 0.80
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitCombatAdvanced
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitCombatAdvanced
   - type: AllowSuitStorage
 
 - type: entity
@@ -176,4 +190,6 @@
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/hos.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitCombatHoS
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitCombatHoS

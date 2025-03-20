@@ -2,7 +2,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitScaf
-  name: "скафандр скаф"
+  name: "скафандр SCAF"
   description: "Зелено-коричневий бойовий скафандр. Старий, але все ще міцний."
   components:
   - type: Sprite
@@ -27,4 +27,6 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitScaf
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitScaf
