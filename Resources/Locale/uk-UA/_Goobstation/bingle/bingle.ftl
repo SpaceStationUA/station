@@ -17,3 +17,5 @@ ghost-role-information-bingle-description = Яма - це любов. Яма - �
 
 bingle-upgrade-success = Ви відчуваєте себе сильнішим
 bingle-pit-grow = Яма стає більшою
+
+bingle-pit-end-of-round = Бінглпіт біля {$location} виріс до рівня {$level} і зібрав {$points} очок Бінгла

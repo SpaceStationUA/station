@@ -477,19 +477,43 @@
   onClick: !type:RetakeVow  { }
   description: alerts-vow-broken-desc
 
+# Goobstation start
+# Changed pulling to accomodate grabbing severity
 - type: alert
   id: Pulled
-  icons: [ /Textures/Interface/Alerts/Pull/pulled.png ]
-  onClick: !type:StopBeingPulled  { }
+  icons:
+  - sprite: /Textures/_White/Interface/Alerts/pull.rsi
+    state: pulled
+  - sprite: /Textures/_White/Interface/Alerts/pull.rsi
+    state: grabbed-soft
+  - sprite: /Textures/_White/Interface/Alerts/pull.rsi
+    state: grabbed-hard
+  - sprite: /Textures/_White/Interface/Alerts/pull.rsi
+    state: grabbed-choke
+  onClick: !type:StopBeingPulled { }
   name: alerts-pulled-name
   description: alerts-pulled-desc
+  minSeverity: 0
+  maxSeverity: 3
 
 - type: alert
   id: Pulling
-  icons: [ /Textures/Interface/Alerts/Pull/pulling.png ]
+  icons:
+  - sprite: /Textures/_White/Interface/Alerts/pull.rsi
+    state: pulling
+  - sprite: /Textures/_White/Interface/Alerts/pull.rsi
+    state: grab-soft
+  - sprite: /Textures/_White/Interface/Alerts/pull.rsi
+    state: grab-hard
+  - sprite: /Textures/_White/Interface/Alerts/pull.rsi
+    state: grab-choke
   onClick: !type:StopPulling  { }
   name: alerts-pulling-name
   description: alerts-pulling-desc
+  minSeverity: 0
+  maxSeverity: 3
+
+# Goobstation end
 
 - type: alert
   id: Bleed
@@ -546,48 +570,48 @@
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health0
-  name: "Налагодження1"
-  description: "Налагодження"
+  name: Debug1
+  description: Debug
 
 - type: alert
   id: Debug2
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health1
-  name: "Налагодження2"
-  description: "Налагодження"
+  name: Debug2
+  description: Debug
 
 - type: alert
   id: Debug3
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health2
-  name: "Налагодження3"
-  description: "Налагодження"
+  name: Debug3
+  description: Debug
 
 - type: alert
   id: Debug4
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health3
-  name: "Налагодження4"
-  description: "Налагодження"
+  name: Debug4
+  description: Debug
 
 - type: alert
   id: Debug5
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health4
-  name: "Налагодження5"
-  description: "Налагодження"
+  name: Debug5
+  description: Debug
 
 - type: alert
   id: Debug6
   icons:
   - sprite: /Textures/Interface/Alerts/human_critical.rsi
     state: critical
-  name: "Налагодження6"
-  description: "Налагодження"
+  name: Debug6
+  description: Debug
 
 # Moods
 - type: alert

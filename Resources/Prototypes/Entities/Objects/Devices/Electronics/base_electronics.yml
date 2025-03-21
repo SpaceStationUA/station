@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseElectronics
   parent: BaseItem
-  name: "базова електроніка"
+  name: base electronics
   abstract: true
   suffix: Electronics
   components:
@@ -17,3 +17,4 @@
       Glass: 200
     chemicalComposition:
       Silicon: 20
+  - type: Electronics # Goobstation

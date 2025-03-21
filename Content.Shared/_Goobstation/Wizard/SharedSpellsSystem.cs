@@ -1,6 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Numerics;
+using Content.Shared._Goobstation.Bingle;
 using Content.Shared._Goobstation.Wizard.BindSoul;
 using Content.Shared._Goobstation.Wizard.Chuuni;
 using Content.Shared._Goobstation.Wizard.Components;
@@ -390,7 +391,7 @@ public abstract class SharedSpellsSystem : EntitySystem
             if (HasComp<SiliconComponent>(target) || HasComp<BorgChassisComponent>(target))
                 Stun.TryParalyze(target, ev.SiliconStunTime / range, true, status);
             else
-                Stun.KnockdownOrStun(target, ev.KnockdownTime / range, true, status);
+                Stun.TryKnockdown(target, ev.KnockdownTime / range, true, status);
         }
 
         _magic.Speak(ev);
@@ -1250,9 +1251,10 @@ public abstract class SharedSpellsSystem : EntitySystem
         var bodyPartQuery = GetEntityQuery<BodyPartComponent>();
         var inventoryQuery = GetEntityQuery<InventoryComponent>();
         var handsQuery = GetEntityQuery<HandsComponent>();
+        var binglePitQuery = GetEntityQuery<BinglePitComponent>();
 
         while (parent.IsValid() && !bodyQuery.HasComp(parent) && !bodyPartQuery.HasComp(parent) &&
-               !inventoryQuery.HasComp(parent) && !handsQuery.HasComp(parent))
+               !inventoryQuery.HasComp(parent) && !handsQuery.HasComp(parent) && !binglePitQuery.HasComp(parent))
         {
             if (((EntityManager.MetaQuery.GetComponent(child).Flags & MetaDataFlags.InContainer) ==
                  MetaDataFlags.InContainer) && managerQuery.TryGetComponent(parent, out var conManager) &&

@@ -125,8 +125,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobHonkBot
-  name: "гудок"
-  description: "Жахливо."
+  name: honkbot
+  description: Horrifying.
   components:
   - type: SpamEmitSound
     minInterval: 2
@@ -164,6 +164,8 @@
         density: 20
         mask:
         - MobMask
+        layer: # Goobstation
+        - MobLayer
   - type: Construction
     graph: HonkBot
     node: bot
@@ -171,6 +173,9 @@
     makeSentient: true
     name: ghost-role-information-honkbot-name
     description: ghost-role-information-honkbot-description
+    rules: ghost-role-information-freeagent-rules
+    mindRoles:
+    - MindRoleGhostRoleFreeAgent
     raffle:
       settings: default
   - type: GhostTakeoverAvailable
@@ -183,8 +188,8 @@
 - type: entity
   parent: MobHonkBot
   id: MobJonkBot
-  name: "jonkbot"
-  description: "Жахливо."
+  name: jonkbot
+  description: Horrifying.
   components:
   - type: SpamEmitSound
     sound:
@@ -198,6 +203,9 @@
     makeSentient: true
     name: ghost-role-information-jonkbot-name
     description: ghost-role-information-jonkbot-description
+    rules: ghost-role-information-freeagent-rules
+    mindRoles:
+    - MindRoleGhostRoleFreeAgent
     raffle:
       settings: default
   - type: InteractionPopup
@@ -217,8 +225,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobCleanBot
-  name: "чистко-бот"
-  description: "Повзуча автоматизація тепер загрожує космічним прибиральникам."
+  name: cleanbot
+  description: The creep of automation now threatening space janitors.
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/cleanbot.rsi
@@ -265,8 +273,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobMedibot
-  name: "медико-бот"
-  description: "Це не замінить лікаря, але краще, ніж нічого."
+  name: medibot
+  description: No substitute for a doctor, but better than nothing.
   components:
   - type: Medibot
     treatments:
@@ -316,8 +324,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobMimeBot
-  name: "мімебот"
-  description: "Чому б не помахати мімеботу рукою?"
+  name: mimebot
+  description: Why not give mimebot a friendly wave.
   components:
   - type: InventorySlots
   - type: Strippable
@@ -338,6 +346,9 @@
     makeSentient: true
     name: ghost-role-information-mimebot-name
     description: ghost-role-information-mimebot-description
+    rules: ghost-role-information-freeagent-rules
+    mindRoles:
+    - MindRoleGhostRoleFreeAgent
     raffle:
       settings: default
   - type: GhostTakeoverAvailable
@@ -350,8 +361,8 @@
 - type: entity
   parent: MobSiliconBase
   id: MobSupplyBot
-  name: "supplybot"
-  description: "Доставляє вантаж!"
+  name: supplybot
+  description: Delivers cargo!
   components:
   - type: Sprite
     sprite: Mobs/Silicon/Bots/supplybot.rsi

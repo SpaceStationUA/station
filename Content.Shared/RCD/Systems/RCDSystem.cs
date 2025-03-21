@@ -25,7 +25,6 @@ using Robust.Shared.Serialization;
 using Robust.Shared.Timing;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
-using Content.Shared.FixedPoint;
 
 namespace Content.Shared.RCD.Systems;
 
@@ -533,8 +532,8 @@ public class RCDSystem : EntitySystem
 
                 return false;
             }
-
         }
+
         return true;
     }
 
@@ -621,7 +620,6 @@ public class RCDSystem : EntitySystem
         }
 
         gridUid = mapGrid.Owner;
-
         var tile = _mapSystem.GetTileRef(gridUid.Value, mapGrid, location);
         var position = _mapSystem.TileIndicesFor(gridUid.Value, mapGrid, location);
         mapGridData = new MapGridData(gridUid.Value, mapGrid, location, tile, position);
@@ -641,7 +639,7 @@ public class RCDSystem : EntitySystem
     {
         if (component.ProtoId.Id != component.CachedPrototype?.Prototype ||
             (component.CachedPrototype?.MirrorPrototype != null &&
-             component.ProtoId.Id!= component.CachedPrototype?.MirrorPrototype))
+            component.ProtoId.Id != component.CachedPrototype?.MirrorPrototype))
         {
             component.CachedPrototype = _protoManager.Index(component.ProtoId);
         }
@@ -681,14 +679,14 @@ public sealed partial class RCDDoAfterEvent : DoAfterEvent
     public ProtoId<RCDPrototype> StartingProtoId { get; private set; } = default!;
 
     [DataField]
-    public FixedPoint2 Cost { get; private set; } = 1;
+    public int Cost { get; private set; } = 1;
 
     [DataField("fx")]
     public NetEntity? Effect { get; private set; } = null;
 
     private RCDDoAfterEvent() { }
 
-    public RCDDoAfterEvent(NetCoordinates location, Direction direction, ProtoId<RCDPrototype> startingProtoId, FixedPoint2 cost, NetEntity? effect = null)
+    public RCDDoAfterEvent(NetCoordinates location, Direction direction, ProtoId<RCDPrototype> startingProtoId, int cost, NetEntity? effect = null)
     {
         Location = location;
         Direction = direction;

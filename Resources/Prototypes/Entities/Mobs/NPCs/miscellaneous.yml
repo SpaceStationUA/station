@@ -1,8 +1,8 @@
 - type: entity
-  name: "лазерний хижак"
+  name: laser raptor
   id: MobLaserRaptor
   parent: SimpleMobBase
-  description: "З часів вікінгів."
+  description: From the Viking age.
   components:
     - type: Body # Shitmed Change
       prototype: LaserRaptor
@@ -35,6 +35,10 @@
           Base: laser_raptor
         Dead:
           Base: laser_raptor_dead
+    - type: Butcherable
+      spawned:
+        - id: FoodMeat
+          amount: 2
     - type: MobThresholds
       thresholds:
         0: Alive
@@ -52,3 +56,4 @@
       interactFailureString: petting-failure-generic
       interactSuccessSound:
         path: /Audio/Animals/lizard_happy.ogg
+    - type: Fauna # Lavaland Change

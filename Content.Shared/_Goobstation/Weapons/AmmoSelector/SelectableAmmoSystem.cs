@@ -1,5 +1,6 @@
 using System.Linq;
 using Content.Shared._Goobstation.Wizard.UserInterface;
+using Content.Shared.Changeling;
 using Content.Shared.Examine;
 using Content.Shared.Popups;
 using Content.Shared.Toggleable;
@@ -8,8 +9,6 @@ using Content.Shared.Weapons.Ranged.Events;
 using Content.Shared.Weapons.Ranged.Systems;
 using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
-using ChangelingChemicalsAmmoProviderComponent = Content.Shared._Goob.Changeling.ChangelingChemicalsAmmoProviderComponent;
-
 
 namespace Content.Shared._Goobstation.Weapons.AmmoSelector;
 
@@ -49,15 +48,15 @@ public sealed class SelectableAmmoSystem : EntitySystem
     private void OnMessage(Entity<AmmoSelectorComponent> ent, ref AmmoSelectedMessage args)
     {
         if (!_activatableUiWhitelist.CheckWhitelist(ent, args.Actor))
-            return;
+           return;
 
         if (!ent.Comp.Prototypes.Contains(args.ProtoId) || !TrySetProto(ent, args.ProtoId))
             return;
 
         var name = GetProviderProtoName(ent);
         if (name != null)
-            _popup.PopupEntity(Loc.GetString("mode-selected", ("mode", name)), ent, args.Actor);
-        _audio.PlayPvs(ent.Comp.SoundSelect, ent);
+            _popup.PopupClient(Loc.GetString("mode-selected", ("mode", name)), ent, args.Actor);
+        _audio.PlayPredicted(ent.Comp.SoundSelect, ent, args.Actor);
     }
 
     public bool TrySetProto(Entity<AmmoSelectorComponent> ent, ProtoId<SelectableAmmoPrototype> proto)
@@ -120,7 +119,7 @@ public sealed class SelectableAmmoSystem : EntitySystem
                 return true;
             var oldFireCost = projectileBattery.FireCost;
             projectileBattery.FireCost = proto.FireCost;
-            var fireCostDiff =  proto.FireCost / oldFireCost;
+            var fireCostDiff = proto.FireCost / oldFireCost;
             projectileBattery.Shots = (int) Math.Round(projectileBattery.Shots / fireCostDiff);
             projectileBattery.Capacity = (int) Math.Round(projectileBattery.Capacity / fireCostDiff);
             Dirty(uid, projectileBattery);

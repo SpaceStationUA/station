@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSecurity
   id: ClothingOuterHardsuitBlueshield
-  name: "бронежилет Блюшильда"
-  description: "Спеціальний хардкостюм, виготовлений для Blueshield, містить додаткову броню."
+  name: blueshield's hardsuit
+  description: A special security hardsuit made for the Blueshield Officer, has extra armor yet somehow feels lighter.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/Combat/blueshield.rsi
@@ -20,13 +20,16 @@
         Slash: 0.5
         Piercing: 0.5
         Radiation: 0.5
+        Heat: 0.5
         Caustic: 0.6
   - type: ClothingSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.85
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitBlueshield
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitBlueshield
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
 
@@ -37,8 +40,8 @@
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitCybersunStealth
   suffix: stealth
-  name: "кіберсолдатський стелс-костюм"
-  description: "Бронежилет зі стелс-покриттям для операцій, але захист не працює, коли ви рухаєтесь! Для завершення стелс-покриття потрібно вдягнути шолом."
+  name: cybersun stealth hardsuit
+  description: A hardsuit with stealth plating for operations, the shielding doesn't work while you're moving though! Needs the helmet on to finish the stealth field.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/cybersunstealth.rsi
@@ -73,7 +76,9 @@
     sprintModifier: 0.85
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitCybersunStealth
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitCybersunStealth
   - type: Tag
     tags:
     - Hardsuit
@@ -98,8 +103,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitChronolegioneer
-  name: "футуристичний комбінезон"
-  description: "Бронежилет, вкритий невідомим матеріалом, який захищає від більшості матеріальних і тимчасових ушкоджень"
+  name: futuristic hardsuit
+  description: A hardsuit covered in an unknown material that protects against most material and temporal damage
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/chronolegioneer.rsi
@@ -129,7 +134,9 @@
   - type: StasisProtection
   - type: StasisBlinkProvider
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitChronolegioneer
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitChronolegioneer
 
 - type: entity
   parent: ClothingOuterHardsuitChronolegioneer

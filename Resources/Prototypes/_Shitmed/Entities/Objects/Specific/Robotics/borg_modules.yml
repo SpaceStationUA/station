@@ -1,13 +1,14 @@
 - type: entity
   id: BorgModuleSurgery
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: "хірургічний модуль \"кіборг"
+  name: surgery cyborg module
   components:
   - type: Sprite
     layers:
     - state: medical
     - state: icon-surgery
   - type: ItemBorgModule
+    moduleId: Surgery
     items:
     - Scalpel
     - Drill
@@ -16,19 +17,42 @@
     - Cautery
     - SawElectric
     - BoneGel
+    # Frontier: droppable borg items
+  - type: DroppableBorgModule
+    moduleId: Surgery
+    items:
+    - id: OrganHumanBrain
+      whitelist:
+        components:
+        - BodyPart
+        tags:
+        - Organ
+    # End Frontier: droppable borg items
 
 - type: entity
   id: BorgModuleAdvancedSurgery
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: "передовий хірургічний модуль-кіборг"
+  name: advanced surgery cyborg module
   components:
   - type: Sprite
     layers:
     - state: medical
     - state: icon-advanced-surgery
   - type: ItemBorgModule
+    moduleId: AdvancedSurgery
     items:
     - EnergyScalpel
     - EnergyCautery
     - AdvancedRetractor
     - BoneGel
+    # Frontier: droppable borg items
+  - type: DroppableBorgModule
+    moduleId: AdvancedSurgery
+    items:
+    - id: OrganHumanBrain
+      whitelist:
+        components:
+        - BodyPart
+        tags:
+        - Organ
+    # End Frontier: droppable borg items

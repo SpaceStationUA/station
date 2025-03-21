@@ -2,6 +2,7 @@ using Content.Server._Pirate.ForcePacify;
 using Content.Server.GameTicking;
 using Content.Server.Players.PlayTimeTracking;
 using Content.Shared.CombatMode.Pacification;
+using Content.Shared.GameTicking;
 using Robust.Server.Player;
 
 namespace Content.Server._Pirate.PacifiedNewbies;

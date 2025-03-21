@@ -2,8 +2,8 @@
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
   id: BaseMobDragon
   suffix: ""
-  name: "космічний дракон"
-  description: "Літаючий левіафан, віддалено пов'язаний з космічними коропами."
+  name: space dragon
+  description: A flying leviathan, loosely related to space carps.
   abstract: true
   components:
   - type: Body # Shitmed
@@ -16,6 +16,9 @@
     makeSentient: true
     name: ghost-role-information-space-dragon-name
     description: ghost-role-information-space-dragon-description
+    rules: ghost-role-information-space-dragon-rules
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
     raffle:
       settings: default
     requirements: # Goobstation - ghost roles requirements
@@ -148,6 +151,8 @@
     color: "#808080"
     activateSound: null
     deactivateSound: null
+  - type: Puller
+    needsHands: false
 
 - type: entity
   parent: BaseMobDragon
@@ -166,8 +171,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: DragonsBreathGun
-  name: "лЕГЕНА ДРАКОНА"
-  description: "Для дихання дракона"
+  name: dragon's lung
+  description: For dragon's breathing
   components:
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 5
@@ -214,8 +219,8 @@
 
 - type: entity
   id: ActionSpawnRift
-  name: "Викликати Carp Rift"
-  description: "Викликає короповий розлом, який періодично буде нереститися коропами."
+  name: Summon Carp Rift
+  description: Summons a carp rift that will periodically spawns carps.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -228,8 +233,8 @@
 
 - type: entity
   id: ActionDevour
-  name: "[color=red]Поглинути[/color]"
-  description: "Спробуйте зламати конструкцію щелепами або проковтнути істоту."
+  name: "[color=red]Devour[/color]"
+  description: Attempt to break a structure with your jaws or swallow a creature.
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction
@@ -241,8 +246,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: ActionDragonsBreath
-  name: "[color=помаранчевий]Подих дракона[/color]"
-  description: "Вивергайте полум'я на всіх, хто наважиться напасти на вас!"
+  name: "[color=orange]Dragon's Breath[/color]"
+  description: Spew out flames at anyone foolish enough to attack you!
   components:
   - type: WorldTargetAction
     # TODO: actual sprite

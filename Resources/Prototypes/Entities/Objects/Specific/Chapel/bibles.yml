@@ -1,9 +1,10 @@
 - type: entity
-  name: "біблія"
-  description: "Нова міжзоряна версія 2340"
+  name: bible
+  description: New Interstellar Version 2340
   parent: BaseStorageItem
   id: Bible
   components:
+  - type: CleanseOnUse # Imp CosmicCult
   - type: UseDelay
     delay: 10.0
   - type: Bible
@@ -18,6 +19,12 @@
     damageOnUntrainedUse: ## What a non-chaplain takes when attempting to heal someone
       groups:
         Burn: 10
+    damageOnUnholyUse: ## What an unholy creature takes when picking up the bible
+      groups:
+        Burn: 30
+    damageUnholy: ## What damage is dealt when a chaplain hits an unholy creature
+      groups:
+        Burn: 20
   - type: Prayable
     bibleUserOnly: true
   - type: ReactionMixer
@@ -63,8 +70,8 @@
 
 - type: entity
   parent: Bible
-  name: "некрономікон"
-  description: "Там є примітка: Klatuu, Verata, Nikto - не забудьте її знову!"
+  name: necronomicon
+  description: "There's a note: Klatuu, Verata, Nikto -- Don't forget it again!"
   id: BibleNecronomicon
   components:
   - type: Bible
@@ -78,6 +85,12 @@
     damageOnUntrainedUse:
       types:
         Caustic: 50
+    damageOnUnholyUse: ## What an unholy creature takes when picking up the bible
+      types:
+        Caustic: 50
+    damageUnholy: ## What damage is dealt when a chaplain hits an unholy creature
+      types:
+        types: 20
     failChance: 0
     locPrefix: "necro"
     healSound: "/Audio/Effects/lightburn.ogg"
@@ -91,8 +104,8 @@
 
 - type: entity
   id: ActionBibleSummon
-  name: "Викликати фамільяра"
-  description: "Викличте фамільяра, який допомагатиме вам і отримає розум подібний до людського, колись наділений душею."
+  name: Summon familiar
+  description: Summon a familiar that will aid you and gain humanlike intelligence once inhabited by a soul.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

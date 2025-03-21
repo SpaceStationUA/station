@@ -4,8 +4,6 @@ monument-interface-occupied = Хтось інший використовує ц�
 
 # Progress bar
 monument-interface-progress-bar = {$percentage}%
-
-# Entropy
 monument-interface-entropy-title = Ентропія
 monument-interface-entropy-infused-label = Насичено:
 monument-interface-entropy-value = {$infused} Ентропії
@@ -29,3 +27,5 @@ monument-interface-influences-purchased = Придбано
 monument-interface-influences-owned-tooltip = Ви вже володієте цим впливом.
 monument-interface-influences-unlocked-not-enough-entropy-tooltip = Вам потрібно більше {$entropy} ентропії, щоб придбати цей вплив.
 monument-interface-influences-locked-tooltip = Цей вплив заблоковано, додайте більше ентропії до монумента.
+
+monument-interface-entropy-seperator = АБО

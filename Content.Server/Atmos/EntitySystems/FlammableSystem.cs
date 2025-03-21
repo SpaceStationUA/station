@@ -323,7 +323,7 @@ namespace Content.Server.Atmos.EntitySystems
         public void Ignite(EntityUid uid, EntityUid ignitionSource, FlammableComponent? flammable = null,
             EntityUid? ignitionSourceUser = null, bool ignoreFireProtection = false)
         {
-            if (!Resolve(uid, ref flammable))
+            if (!Resolve(uid, ref flammable, false)) // Lavaland Change: SHUT THE FUCK UP FLAMMABLE
                 return;
 
             if (flammable.AlwaysCombustible)
@@ -384,7 +384,7 @@ namespace Content.Server.Atmos.EntitySystems
 
             _popup.PopupEntity(Loc.GetString("flammable-component-resist-message"), uid, uid);
             // goob edit - stunmeta
-            _stunSystem.KnockdownOrStun(uid, TimeSpan.FromSeconds(2f), true);
+            _stunSystem.TryKnockdown(uid, TimeSpan.FromSeconds(2f), true);
 
             // TODO FLAMMABLE: Make this not use TimerComponent...
             uid.SpawnTimer(2000, () =>

@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: PersonalAI
-  name: "персональний ШІ-помічник"
-  description: "Ваш електронний друг, з яким весело проводити час!"
+  name: personal ai device
+  description: Your electronic pal who's fun to be with!
   components:
   - type: Renamable
   - type: Instrument
@@ -40,6 +40,9 @@
     beginSearchingText: pai-system-searching
     roleName: pai-system-role-name
     roleDescription: pai-system-role-description
+    roleRules: ghost-role-information-familiar-rules
+    mindRoles:
+    - MindRoleGhostRoleFamiliar
     wipeVerbText: pai-system-wipe-device-verb-text
     wipeVerbPopup: pai-system-wiped-device
     stopSearchVerbText: pai-system-stop-searching-verb-text
@@ -79,6 +82,7 @@
     speaks:
     - TauCetiBasic
     - SolCommon
+    - NovuNederic
     - Tradeband
     - Freespeak
     - Elyran
@@ -86,6 +90,7 @@
     understands:
     - TauCetiBasic
     - SolCommon
+    - NovuNederic
     - Tradeband
     - Freespeak
     - Elyran
@@ -99,8 +104,8 @@
 - type: entity
   parent: PersonalAI
   id: SyndicatePersonalAI
-  name: "синдикат персональний ШІ-помічник"
-  description: "Твій друг із Синдикату, з яким весело проводити час!"
+  name: syndicate personal ai device
+  description: Your Syndicate pal who's fun to be with!
   components:
   - type: Sprite
     sprite: Objects/Fun/pai.rsi
@@ -112,6 +117,9 @@
   - type: ToggleableGhostRole
     roleName: pai-system-role-name-syndicate
     roleDescription: pai-system-role-description-syndicate
+    roleRules: ghost-role-information-familiar-rules
+    mindRoles:
+    - MindRoleGhostRoleFamiliar
   - type: IntrinsicRadioTransmitter
     channels:
     - Syndicate
@@ -130,8 +138,8 @@
 - type: entity
   parent: PersonalAI
   id: PotatoAI
-  name: "штучний інтелект картоплі"
-  description: "Картопля є ідеальним джерелом енергії для цього чіпсу."
+  name: potato artificial intelligence
+  description: It's a potato. You forced it to be sentient, you monster.
   components:
   - type: Sprite
     sprite: Objects/Fun/pai.rsi
@@ -143,6 +151,9 @@
   - type: ToggleableGhostRole
     roleName: pai-system-role-name-potato
     roleDescription: pai-system-role-description-potato
+    roleRules: ghost-role-information-familiar-rules
+    mindRoles:
+    - MindRoleGhostRoleFamiliar
   - type: Appearance
   - type: GenericVisualizer
     visuals:
@@ -157,8 +168,8 @@
 
 - type: entity
   id: ActionPAIPlayMidi
-  name: "Відтворення MIDI"
-  description: "Відкрийте свій портативний MIDI-інтерфейс, щоб заспокоїти власника."
+  name: Play MIDI
+  description: Open your portable MIDI interface to soothe your owner.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -170,8 +181,8 @@
 
 - type: entity
   id: ActionPAIOpenMap
-  name: "Відкрити мапу"
-  description: "Відкрийте інтерфейс карти та допоможіть власнику."
+  name: Open Map
+  description: Open your map interface and guide your owner.
   categories: [ HideSpawnMenu ]
   components:
     - type: InstantAction

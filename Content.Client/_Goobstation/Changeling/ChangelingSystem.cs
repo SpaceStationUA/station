@@ -1,18 +1,16 @@
 using Content.Client.Alerts;
-using Content.Shared.Alert;
 using Content.Client.UserInterface.Systems.Alerts.Controls;
-using Content.Shared._Goob.Changeling;
+using Content.Shared.Changeling;
 using Content.Shared.StatusIcon.Components;
 using Robust.Shared.Prototypes;
-using ChangelingComponent = Content.Shared._Goob.Changeling.ChangelingComponent;
-using HivemindComponent = Content.Shared._Goob.Changeling.HivemindComponent;
-
 
 namespace Content.Client.Changeling;
 
 public sealed class ChangelingSystem : SharedChangelingSystem
 {
 
+    private const int MaxChemicalsNormalizer = 18;
+    private const int MaxBiomassNormalizer = 16;
     [Dependency] private readonly IPrototypeManager _prototype = default!;
     public override void Initialize()
     {
@@ -27,13 +25,18 @@ public sealed class ChangelingSystem : SharedChangelingSystem
         var stateNormalized = 0f;
 
         // hardcoded because uhh umm i don't know. send help.
-        if (args.Alert.AlertKey.AlertType == comp.AlertChemicals)
-            stateNormalized = (int) (comp.Chemicals / comp.MaxChemicals * 18);
-        else if (args.Alert.AlertKey.AlertType == comp.AlertBiomass)
-            stateNormalized = (int) (comp.Biomass / comp.MaxBiomass * 16);
-        else
-            return;
+        switch (args.Alert.AlertKey.AlertType)
+        {
+            case "ChangelingChemicals":
+                stateNormalized = (int) (comp.Chemicals / comp.MaxChemicals * MaxChemicalsNormalizer);
+                break;
 
+            case "ChangelingBiomass":
+                stateNormalized = (int) (comp.Biomass / comp.MaxBiomass * MaxBiomassNormalizer);
+                break;
+            default:
+                return;
+        }
         var sprite = args.SpriteViewEnt.Comp;
         sprite.LayerSetState(AlertVisualLayers.Base, $"{stateNormalized}");
     }

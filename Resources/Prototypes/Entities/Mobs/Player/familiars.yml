@@ -69,10 +69,10 @@
         Heat: 100
 
 - type: entity
-  name: "Ремілія"
+  name: Remilia
   parent: BaseMobPsionicFamiliar
   id: MobBatRemilia
-  description: "Капелана я знаю. Любить фрукти."
+  description: The chaplain's familiar. Likes fruit.
   components:
   - type: GhostRole
     makeSentient: true
@@ -81,6 +81,8 @@
     name: ghost-role-information-remilia-name
     description: ghost-role-information-remilia-description
     rules: ghost-role-information-remilia-rules
+    mindRoles:
+    - MindRoleGhostRoleFamiliar
   - type: GhostTakeoverAvailable
   - type: Grammar
     attributes:
@@ -136,10 +138,10 @@
       30: Dead
 
 - type: entity
-  name: "Цербер"
+  name: Cerberus
   parent: MobCorgiNarsi
   id: MobCorgiCerberus
-  description: "Це цуценя не є здоровим."
+  description: This pupper is not wholesome.
   components:
   - type: GhostRole
     makeSentient: true
@@ -148,6 +150,8 @@
     name: ghost-role-information-cerberus-name
     description: ghost-role-information-cerberus-description
     rules: ghost-role-information-cerberus-rules
+    mindRoles:
+    - MindRoleGhostRoleFamiliar
     raffle:
       settings: default
   - type: GhostTakeoverAvailable
@@ -204,10 +208,10 @@
       Unsexed: Cerberus
 
 - type: entity
-  name: "імп-фамільяр"
+  name: imp familiar
   parent: BaseMobPsionicFamiliar
   id: MobPsionicFamiliarImp
-  description: "Жива крихта полум'я, викликана з Геєни."
+  description: A living mote of flame summoned from Gehenna.
   components:
   - type: Sprite
     drawdepth: Mobs

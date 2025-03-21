@@ -1,17 +1,17 @@
 - type: entity
   id: BulletMagnum
-  name: "куля (.45 magnum)"
+  name: bullet (.45 magnum)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 35
+        Piercing: 25
 
 - type: entity
   id: BulletMagnumPractice
-  name: "куля (.45 magnum practice)"
+  name: bullet (.45 magnum practice)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -22,7 +22,7 @@
 
 - type: entity
   id: BulletMagnumRubber
-  name: "куля (.45 магнум гума)"
+  name: bullet (.45 magnum rubber)
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:
@@ -36,30 +36,30 @@
 - type: entity
   id: BulletMagnumIncendiary
   parent: BaseBulletIncendiary
-  name: "куля (.45 магнум запальна)"
+  name: bullet (.45 magnum incendiary)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
         Blunt: 3
-        Heat: 32
-        
+        Heat: 22
+
 - type: entity
   id: BulletMagnumAP
-  name: "куля (.45 magnum бронебійний)"
+  name: bullet (.45 magnum armor-piercing)
   parent: BaseBulletAP
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 26 # 20% decrease
+        Piercing: 25
     ignoreResistances: true
 
 - type: entity
   id: BulletMagnumUranium
-  name: "куля (.45 магнум уран)"
+  name: bullet (.45 magnum uranium)
   parent: BaseBulletUranium
   categories: [ HideSpawnMenu ]
   components:
@@ -67,4 +67,4 @@
     damage:
       types:
         Radiation: 15
-        Piercing: 20
+        Piercing: 10

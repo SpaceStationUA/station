@@ -18,6 +18,7 @@ using Content.Shared.Roles.Jobs;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using System.Diagnostics.CodeAnalysis;
+using Content.Server._DV.Terminator.Systems;
 using Content.Shared.DetailExaminable;
 
 namespace Content.Server.DeltaV.ParadoxAnomaly.Systems;
@@ -40,6 +41,7 @@ public sealed class ParadoxAnomalySystem : EntitySystem
     [Dependency] private readonly StationSystem _station = default!;
     [Dependency] private readonly StationSpawningSystem _stationSpawning = default!;
     [Dependency] private readonly LoadoutSystem _loadout = default!;
+    [Dependency] private readonly TerminatorSystem _terminator = default!;
 
     public override void Initialize()
     {
@@ -68,39 +70,46 @@ public sealed class ParadoxAnomalySystem : EntitySystem
         twin = null;
 
         // Get a list of potential candidates
-        var candidates = new List<(EntityUid, EntityUid, SpeciesPrototype, HumanoidCharacterProfile)>();
+        var candidates = new List<(EntityUid, EntityUid, SpeciesPrototype, HumanoidCharacterProfile, string)>();
         var query = EntityQueryEnumerator<MindContainerComponent, HumanoidAppearanceComponent>();
         while (query.MoveNext(out var uid, out var mindContainer, out var humanoid))
         {
-            if (humanoid.LastProfileLoaded is not {} profile)
-                continue;
-
-            if (!_proto.TryIndex<SpeciesPrototype>(humanoid.Species, out var species))
-                continue;
-
-            if (_mind.GetMind(uid, mindContainer) is not {} mindId || !HasComp<JobRoleComponent>(mindId))
-                continue;
-
-            if (_role.MindIsAntagonist(mindId))
-                continue;
-
-            // TODO: when metempsychosis real skip whoever has Karma
-
-            candidates.Add((uid, mindId, species, profile));
+            if (mindContainer.Mind is {} mindId &&
+                !_role.MindIsAntagonist(mindId) &&
+                humanoid.LastProfileLoaded is {} profile &&
+                _proto.TryIndex<SpeciesPrototype>(humanoid.Species, out var species) &&
+                _role.MindHasRole<JobRoleComponent>(mindId, out var role) &&
+                role?.Comp1.JobPrototype is {} job)
+            {
+                candidates.Add((uid, mindId, species, profile, job.Id));
+            }
         }
 
-        twin = SpawnParadoxAnomaly(candidates, rule);
-        return twin != null;
+        if (candidates.Count == 0)
+        {
+            Log.Warning("Found no eligible players to paradox clone!");
+            return false;
+        }
+
+        // tries20 my beloved
+        for (int i = 0; i < 20; i++)
+        {
+            twin = SpawnParadoxAnomaly(candidates, rule);
+            if (twin != null)
+                return true;
+        }
+
+        Log.Error("Failed to clone any eligible player!");
+        return false;
     }
 
-    private EntityUid? SpawnParadoxAnomaly(List<(EntityUid, EntityUid, SpeciesPrototype, HumanoidCharacterProfile)> candidates, string rule)
+    private EntityUid? SpawnParadoxAnomaly(List<(EntityUid, EntityUid, SpeciesPrototype, HumanoidCharacterProfile, string)> candidates, string rule)
     {
         // Select a candidate.
         if (candidates.Count == 0)
             return null;
 
-        var (uid, mindId, species, profile) = _random.Pick(candidates);
-        var jobId = Comp<JobRoleComponent>(mindId).Prototype;
+        var (uid, mindId, species, profile, jobId) = _random.Pick(candidates);
         var job = _proto.Index<JobPrototype>(jobId!);
 
         // Find a suitable spawn point.
@@ -124,7 +133,7 @@ public sealed class ParadoxAnomalySystem : EntitySystem
         var spawned = Spawn(species.Prototype, destination);
 
         // Set the kill target to the chosen player
-        // _terminator.SetTarget(spawned, mindId);
+        _terminator.SetTarget(spawned, mindId);
         _genericAntag.MakeAntag(spawned, rule);
 
         //////////////////////////

@@ -1,8 +1,8 @@
 - type: entity
-  name: "прогулянка"
+  name: jaunt
   parent: [Incorporeal, BaseMob]
   id: BaseMobJaunt
-  description: "Тут збереглися слабкі сліди людиноподібної фігури"
+  description: Faint traces of a humanoid figure linger here
   suffix: Ethereal
   components:
   - type: ContentEye
@@ -21,7 +21,7 @@
 
 # Should be slow, for balance
 - type: entity
-  name: "прогулянка"
+  name: jaunt
   parent: BaseMobJaunt
   id: EtherealJaunt
   suffix: Wizard
@@ -37,8 +37,8 @@
   #  overrideContainerOcclusion: true
   #  drawdepth: Ghosts
   - type: MovementSpeedModifier
-    baseSprintSpeed: 3 # Goob edit
-    baseWalkSpeed: 3 # Goob edit
+    baseSprintSpeed: 4 # Goob edit
+    baseWalkSpeed: 4 # Goob edit
   - type: WizardJaunt # Goobstation
   - type: IsDeadIC # Goobstation
     dead: false

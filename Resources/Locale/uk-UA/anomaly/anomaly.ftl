@@ -15,9 +15,9 @@ anomaly-scanner-component-scan-complete = Сканування завершен�
 anomaly-scanner-ui-title = сканер аномалій
 anomaly-scanner-no-anomaly = Наразі жодна аномалія не сканується.
 anomaly-scanner-severity-percentage = Поточна серйозність: [color=gray]{$percent}[/color]
-anomaly-scanner-stability-low = Поточний стан аномалії: [color=gold]Decaying[/color]
-anomaly-scanner-stability-medium = Поточний стан аномалії: [color=forestgreen]Stable[/color]
-anomaly-scanner-stability-high = Поточний стан аномалії: [color=crimson]Growing[/color]
+anomaly-scanner-stability-low = Поточний стан аномалії: [color=gold]Згасає[/color]
+anomaly-scanner-stability-medium = Поточний стан аномалії: [color=forestgreen]Стабільний[/color]
+anomaly-scanner-stability-high = Поточний стан аномалії: [color=crimson]Зростає[/color]
 anomaly-scanner-point-output = Вихід точки: [color=gray]{$point}[/color]
 anomaly-scanner-particle-readout = Аналіз реакції частинок:
 anomaly-scanner-particle-danger = - [color=crimson]Тип небезпеки:[/color] {$type}

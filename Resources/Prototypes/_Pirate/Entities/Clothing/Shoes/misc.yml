@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingShoesBase, PowerCellSlotSmallItem]
   id: ClothingShoesBootsSpeedMagic
-  name: "чоботи спритності"
-  description: "Треба йти швидко!"
+  name: чоботи спритності
+  description: Gotta Go Fast!
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/speedboots.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesRobocop
-  name: "черевики робота-поліцейського"
-  description: "Фантастична людина з титанічною силою! - М. А."
+  name: robot cop boots
+  description: A fantastic human with titanic powers! - M. A.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Misc/robocopshoes.rsi

@@ -9,31 +9,27 @@ roles-antag-cosmiccult-name = Cosmic Cultist
 roles-antag-cosmiccult-description = Usher in the end of all things through subterfuge and sabotage, brainwashing those who would oppose you.
 
 roles-antag-cosmiccultlead-name = Cosmic Cult Leader
-roles-antag-cosmiccultlead-description = Organize the cult into a force to be reckoned, so that you may usher in the end of all things.
+roles-antag-cosmiccultlead-description = Organize the cult into a force to be reckoned with, so that you may usher in the end of all things.
 
 cosmiccult-gamemode-title = The Cosmic Cult
-cosmiccult-gamemode-description =
-    Scanners detect an anomalous increase in Λ-CDM. There is no additional data.
+cosmiccult-gamemode-description = Scanners detect an anomalous increase in Λ-CDM. There is no additional data.
 
+cosmiccult-vote-leadership-initiator = The Unknown
+cosmiccult-vote-leadership-title = Cosmic Cult Stewardship
 
+cosmiccult-finale-autocall-briefing = The Monument activates {$minutesandseconds}! Gather yourselves, and prepare for the end.
 cosmiccult-finale-ready = A terrifying light surges forth from The Monument!
-cosmiccult-finale-count = There are {$COUNT} cultists empowering the monument..
-cosmiccult-finale-cultist-count = {$COUNT ->
-    [0] The summoning is stagnant..
-    [1] The summoning begins to quicken.
-    [2] The summoning begins to quicken..
-    [3] The summoning is slowly quickening..
-    [4] The summoning quickens.
-    [5] The summoning quickens faster.
-    [6] The summoning is hastened!
-    *[other] The summoning is hastened by {$COUNT} cultists present!
-}
+cosmiccult-finale-speedup = The beckoning quickens! Energy surges through the surroundings...
 
+cosmiccult-finale-degen = You feel yourself unravelling!
 cosmiccult-finale-location = Scanners are detecting an enormous Λ-CDM spike {$location}!
-cosmiccult-finale-cancel-begin = You begin to disrupt The Monument's energies..
-cosmiccult-finale-beckon-begin = You begin to Beckon The Unknown..
+cosmiccult-finale-cancel-begin = Your mind's willpower begins to shatter the ritual...
+cosmiccult-finale-beckon-begin = The whispers in the back of your mind intensify...
 cosmiccult-finale-beckon-success = You beckon for the final curtain call.
 
+cosmiccult-monument-powerdown = The Monument falls eerily silent.
+
+## ROUNDEND TEXT
 
 cosmiccult-roundend-cultist-count = {$initialCount ->
     [1] There was {$initialCount} [color=#4cabb3]Cosmic Cultist[/color].
@@ -42,13 +38,11 @@ cosmiccult-roundend-cultist-count = {$initialCount ->
 cosmiccult-roundend-entropy-count = The cult siphoned {$count} Entropy.
 cosmiccult-roundend-cultpop-count = Cultists made up {$count}% of the crew.
 cosmiccult-roundend-monument-stage = {$stage ->
-    [1] The Monument was abandoned.
-    [2] The Monument made some progress.
-    [3] The Monument was completed!
+    [1] Alas, the Monument seems abandoned.
+    [2] The Monument progressed, but completion was out of reach.
+    [3] The Monument was completed.
     *[other] [color=red]Something went REALLY wrong.[/color]
 }
-
-
 
 cosmiccult-roundend-cultcomplete = [color=#4cabb3]Cosmic Cult complete victory![/color]
 cosmiccult-roundend-cultmajor = [color=#4cabb3]Cosmic Cult major victory![/color]
@@ -65,6 +59,10 @@ cosmiccult-summary-neutral = The cult will live to see another day.
 cosmiccult-summary-crewminor = The cult has been left leaderless.
 cosmiccult-summary-crewmajor = All cosmic cultists were eliminated.
 cosmiccult-summary-crewcomplete = Every single cosmic cultist was deconverted!
+
+cosmiccult-elimination-shuttle-call = Based on scans from our long-range sensors, the Λ-CDM anomaly has subsided. We thank you for your prudence. An emergency shuttle has been automatically called to the station for decontamination and debriefing procedures. ETA: {$time} {$units}. Please note, if the psychological impact of the anomaly is negligible, you may recall the shuttle to extend the shift.
+cosmiccult-elimination-announcement = Based on scans from our long-range sensors, the Λ-CDM anomaly has subsided. We thank you for your prudence. An emergency shuttle is already inbound. Return to CentComm safely for decontamination and debriefing procedures.
+
 
 ## BRIEFINGS
 
@@ -95,19 +93,30 @@ cosmiccult-role-deconverted-briefing =
     Deconverted!
     You are no longer a Cosmic Cultist.
 
+cosmiccult-monument-stage1-briefing =
+    The Monument has been beckoned.
+    It is located {$location}!
 
+cosmiccult-monument-stage2-briefing =
+    The Monument grows in power!
+    Its influence will affect realspace in {$time} seconds.
+
+cosmiccult-monument-stage3-briefing =
+    The Monument has been completed!
+    Its influence will begin to overlap with realspace in {$time} seconds.
+    This is the final stretch! Amass as much entropy as you can muster.
 
 ## MALIGN RIFTS
 
-cosmiccult-rift-inuse = You can't do this right now.
-cosmiccult-rift-invaliduser = You lack the tools to deal with this.
-cosmiccult-rift-chaplainoops = You should probably use a bible or gildgrail.
-cosmiccult-rift-alreadyempowered = You don't need to absorb another one.
-cosmiccult-rift-beginabsorb = You begin absorbing the malign rift..
-cosmiccult-rift-beginpurge = You begin purging the malign rift..
+osmiccult-rift-inuse = You can't do this right now.
+cosmiccult-rift-invaliduser = You lack to proper tools to deal with this.
+cosmiccult-rift-chaplainoops = Wield your holy scripture, or a gildgrail.
+cosmiccult-rift-alreadyempowered = You are already empowered; the rift's power would be wasted.
+cosmiccult-rift-beginabsorb = The rift begins to merge with you...
+cosmiccult-rift-beginpurge = Your consecration begins purging the malign rift...
 
-cosmiccult-rift-absorb = You absorb the malign rift, empowering yourself.
-cosmiccult-rift-purge = You purge the malign rift.
+cosmiccult-rift-absorb = {$NAME} absorbs the rift, and malign light empowers their body!
+cosmiccult-rift-purge = {$NAME} purges the malign rift from reality!
 
 
 
@@ -155,12 +164,15 @@ objective-condition-victory-desc = Beckon The Unknown, and herald the final curt
 
 ## CHAT ANNOUNCEMENTS
 
-cosmiccult-radio-tier1-progress = The monument is beckoned unto realspace..
+cosmiccult-radio-tier1-progress = The Monument is beckoned unto the station...
+
 cosmiccult-announce-tier2-progress = An unnerving numbness prickles your senses.
 cosmiccult-announce-tier2-warning = Scanners detect a notable increase in Λ-CDM! Rifts in realspace may appear shortly. Please alert your station's chaplain if sighted.
 
 cosmiccult-announce-tier3-progress = Arcs of bluespace energy crackle across the station's groaning structure. The end draws near.
-cosmiccult-announce-tier3-warning = Critical increase in Λ-CDM detected. Infected personnel are to be eliminated on sight.
+cosmiccult-announce-tier3-warning = Critical increase in Λ-CDM detected. Infected personnel are to be subdued or neutralized on sight.
+
+cosmiccult-announce-finale-warning = All station crew. The Λ-CDM anomaly is going supercritical, instruments failing; blue-to-real transitional event horizon IMMINENT. If you are not already on counter-protocol, immediately sortie and intervene. Repeat: Intervene immediately or die.
 
 cosmiccult-announce-victory-summon = A FRACTION OF COSMIC POWER IS CALLED FORTH.
 
@@ -169,4 +181,6 @@ cosmiccult-announce-victory-summon = A FRACTION OF COSMIC POWER IS CALLED FORTH.
 
 cosmiccult-spire-entropy = A mote of entropy condenses from the surface of the spire.
 cosmiccult-entropy-inserted = You infuse {$count} entropy into The Monument.
+cosmiccult-entropy-unavailable = You can't do that right now.
 cosmiccult-astral-ascendant = {$NAME}, Ascendant
+cosmiccult-gear-pickup-rejection = The {$ITEM} resists {CAPITALIZE(THE($TARGET))}'s touch!

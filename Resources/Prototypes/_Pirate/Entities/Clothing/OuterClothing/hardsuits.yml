@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMars
-  name: "костюм \"Марс-син"
-  description: "Важкоброньований хардкостюм, призначений для роботи в умовах спецоперацій. Власність \"Синів Марса\"."
+  name: mars-son hardsuit
+  description: A heavily armored hardsuit designed for work in special operations. Sons of Mars Property.
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/mars.rsi
@@ -31,14 +31,16 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMars
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMars
 
 #Mars Elite Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMarsElite
-  name: "елітний комбінезон mars elite"
-  description: "Елітна версія марсіанського скафандра, з покращеною мобільністю та вогнестійкістю. Власність компанії \"Сини Марса\"."
+  name: mars elite hardsuit
+  description: An elite version of the mars hardsuit, with improved mobility and fireproofing. Sons of Mars property.
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marselite.rsi
@@ -65,14 +67,16 @@
     sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMarsElite
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMarsElite
 
 #Mars Commander Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMarsCommander
-  name: "скафандр марсіанського командира"
-  description: "Посилена версія бронежилета \"Марс\", спеціально розроблена для командира оперативного загону \"Сини Марса\". Має значно покращену броню для смертельних перестрілок на передовій."
+  name: mars commander hardsuit
+  description: A bulked up version of the mars hardsuit, purpose-built for the commander of a mars sons operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marscommander.rsi
@@ -97,14 +101,16 @@
     sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMarsCommander
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMarsCommander
 
 #Mars Juggernaut Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitJuggernautMars
-  name: "костюм марсіанського джаггернаута"
-  description: "Костюм, виготовлений найсучаснішим відділом досліджень та розробок синів Марса, щоб бути надзвичайно стійким до зовнішніх впливів."
+  name: mars juggernaut suit
+  description: A suit made by the cutting edge R&D department by Mars sons to be hyper resilient.
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marsjugger.rsi
@@ -129,14 +135,16 @@
     sprintModifier: 0.65
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMarsJugger
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMarsJugger
 
 #Mars Special Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMarsSpecial
-  name: "спеціальний комбінезон марс"
-  description: "Химерний костюм, інкрустований дорогоцінним камінням, що випромінює магічну енергію."
+  name: mars special hardsuit
+  description: A bizarre gem-encrusted suit that radiates magical energies.
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/marsspecial.rsi
@@ -161,14 +169,16 @@
     sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMarsSpecial
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMarsSpecial
 
 #MERC
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMercGreen
-  name: "зелений скафандр найманця"
-  description: "Легкий скафандр, який належав відомому найманцю."
+  name: зелений скафандр наймита
+  description: Легкий скафандр, який належав відомому найманцю.
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_green.rsi
@@ -195,13 +205,15 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMercGreen
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMercGreen
 
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMercWhite
-  name: "скафандр найманця"
-  description: "Такі скафандри носять відомі космічні найманці"
+  name: скафандр наймита
+  description: Такі скафандри носять відомі космічні найманці
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_white.rsi
@@ -228,13 +240,15 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMercWhite
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMercWhite
 
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitMercBlue
-  name: "синій скафандр наймита"
-  description: "Легкий скафандр, який належав відомому найманцю."
+  name: синій скафандр наймита
+  description: Легкий скафандр, який належав відомому найманцю.
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/merc_white.rsi
@@ -261,13 +275,15 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMercBlue
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMercBlue
 
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitTropperDefault
-  name: "скафандр штурмовика"
-  description: "Скафандр дуже зручний, але надає добрий захист від середовища та шкідників."
+  name: скафандр штурмовика
+  description: Скафандр дуже зручний, але надає добрий захист від середовища та шкідників.
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_default.rsi
@@ -294,13 +310,15 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitTropperDefault
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitTropperDefault
 
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitTropperRed
-  name: "червоний скафандр штурмовика"
-  description: "Такий костюм можуть носити лише досвідчені штурмовики."
+  name: червоний скафандр штурмовика
+  description: Такий костюм можуть носити лише досвідчені штурмовики.
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_red.rsi
@@ -327,13 +345,15 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitTropperRed
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitTropperRed
 
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitTropperBlack
-  name: "чорний скафандр штурмовика"
-  description: "Не багатьом \"пощастило\" вижити у бою з елітними штурмовиками"
+  name: чорний скафандр штурмовика
+  description: Не багатьом "пощастило" вижити у бою з елітними штурмовиками
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/tropper_black.rsi
@@ -360,7 +380,9 @@
     sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitTropperBlack
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitTropperBlack
 
 
 ### Salvage and miners drip hardsuits
@@ -368,8 +390,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitPredaceous
-  name: "Бронежилет HpI-25 \"Predacious"
-  description: "Модифікований бронежилет є результатом спільної програми Hephaestus Industries та Five point Amory's. Ця варіація має більш струнку конструкцію, що дозволяє швидше рухатися, але за рахунок загального захисту."
+  name: HpI-25 "Predaceous" hardsuit
+  description: A modified hardsuit is a result of a joint effort program of Hephaestus Industries and Five point Amory's. This variation features a slimmer build allowing faster movement at the cost of overall protection.
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/predaceous.rsi
@@ -393,14 +415,16 @@
     sprintModifier: 0.75
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitPredaceous
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitPredaceous
 
 #Synla Hardsuit
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSynla
-  name: "Бронежилет HpI-25 \"Синла"
-  description: "Модифікований бронежилет є результатом спільної програми Hephaestus Industries та Five point Amory's. Ця варіація має більш струнку конструкцію, що дозволяє швидше рухатися, але за рахунок загального захисту."
+  name: HpI-25 "Synla" hardsuit
+  description: A modified hardsuit is a result of a joint effort program of Hephaestus Industries and Five point Amory's. This variation features a slimmer build allowing faster movement at the cost of overall protection.
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Hardsuits/synla.rsi
@@ -424,7 +448,9 @@
     sprintModifier: 0.75
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSynla
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitSynla
 
 # cybersun stealth
 
@@ -460,7 +486,9 @@
 #    sprintModifier: 0.85
 #  - type: HeldSpeedModifier
 #  - type: ToggleableClothing
-#    clothingPrototype: ClothingHeadHelmetHardsuitCybersunStealth
+#    replaceCurrentClothing: true
+#    clothingPrototypes:
+#      head: ClothingHeadHelmetHardsuitCybersunStealth
 #  - type: Tag
 #    tags:
 #    - Hardsuit

@@ -19,6 +19,9 @@
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+#     - shader: StencilClear
+#      sprite: Mobs/Species/Human/parts.rsi
+#      state: l_leg
     - map: [ "enum.HumanoidVisualLayers.Underwear" ]
     - map: [ "enum.HumanoidVisualLayers.Undershirt" ]
     - map: ["jumpsuit"]
@@ -226,6 +229,8 @@
         requireInputValidation: false
       enum.SurgeryUIKey.Key:
         type: SurgeryBui
+      enum.VampireMutationUiKey.Key:
+        type: VampireMutationBoundUserInterface
   - type: Puller
   - type: Speech
     speechSounds: Alto
@@ -270,8 +275,8 @@
   id: BaseMobSpeciesOrganic
   abstract: true
   components:
-  - type: Absorbable # Goobstation - changelings
   - type: Flashable
+  - type: Absorbable # Goobstation - changelings
   - type: Barotrauma
     damage:
       types:
@@ -351,7 +356,6 @@
   - type: CharacterInformation  #PIRATE # Parkstation-CharacterInformation
   - type: OfferItem
   - type: LayingDown
-  - type: Shoving
   - type: BloodstreamAffectedByMass
     power: 0.6 # A minimum size felinid will have 30% blood, a minimum size vulp will have 60%, a maximum size oni will have ~200%
 
@@ -382,6 +386,9 @@
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+#     - shader: StencilClear
+#      sprite: Mobs/Species/Human/parts.rsi
+#      state: l_leg
     - map: [ "enum.HumanoidVisualLayers.Underwear" ]
     - map: [ "enum.HumanoidVisualLayers.Undershirt" ]
     - map: ["jumpsuit"]

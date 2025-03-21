@@ -99,3 +99,14 @@ barsign-prototype-description-empbarsign = Щось пішло не так.
 
 ## Виходьте
 barsign-prototype-description-sign-off = Цей знак, здається, не горить.
+
+barsign-ui-menu = Конфігурація Вивіски Бару
+barsign-ui-set-label = Встановити Вивіску:
+
+# Прототипи вивісок барів
+
+## Хармбатон
+barsign-prototype-name-maltroach = Мальтроуч
+barsign-prototype-description-maltroach = Пищить!
+
+## EmpBarSign

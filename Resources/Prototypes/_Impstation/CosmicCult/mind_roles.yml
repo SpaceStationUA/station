@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCosmicCult
-  name: "Роль Космічного Культу"
+  name: Cosmic Cult Role
   components:
   - type: MindRole
     antagPrototype: CosmicAntagCultist
@@ -9,13 +9,14 @@
     roleType: TeamAntagonist
   - type: CosmicCultRole
 
+# Ascendant Event
 - type: entity
-  parent: MindRoleCosmicCult
-  id: MindRoleCosmicCultLead
-  name: "Роль Лідера Космічного Культу"
+  parent: BaseMindRoleAntag
+  id: MindRoleCosmicAscended
+  name: Rogue Ascended Role
   components:
   - type: MindRole
-    antagPrototype: CosmicAntagLeader
-    exclusiveAntag: true
+    antagPrototype: RogueAscended
     roleType: TeamAntagonist
-  - type: CosmicCultRole
+    exclusiveAntag: true
+  - type: RogueAscendedRole

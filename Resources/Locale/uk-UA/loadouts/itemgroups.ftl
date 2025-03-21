@@ -769,3 +769,6 @@ character-item-group-TraitsMachine = Машина над розумом
 character-item-group-LoadoutBlueshieldOfficerPrimary = Основна зброя БШ
 character-item-group-LoadoutNanorepUniforms = Уніформа представника Nanotrasen
 character-item-group-LoadoutNanotrasenRepresentativeWeapon = Зброя представника Nanotrasen
+character-item-group-LoadoutPlushie = Плюшеві іграшки
+
+# Специфічний для професії шаблон

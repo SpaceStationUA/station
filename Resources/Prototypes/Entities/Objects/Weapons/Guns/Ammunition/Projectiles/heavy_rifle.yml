@@ -1,6 +1,6 @@
 - type: entity
   id: BulletHeavyRifle
-  name: "куля (гвинтівка калібру .20)"
+  name: bullet (.20 rifle)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -11,11 +11,11 @@
 
 - type: entity
   id: BulletMinigun
-  name: "куля для мінігана (калібру .10)"
+  name: minigun bullet (.10 rifle)
   parent: BulletHeavyRifle
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 5
+        Piercing: 12

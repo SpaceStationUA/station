@@ -314,8 +314,8 @@
 - type: entity
   parent: ClothingBackpackERTSecurity
   id: ClothingBackpackDeathSquadFilled
-  name: "рюкзак ескадрону смерті"
-  description: "Містить набір найстрашніших агентів CentComm."
+  name: death squad backpack
+  description: Holds the kit of CentComm's most feared agents.
   components:
     - type: Storage
       grid:
@@ -346,6 +346,10 @@
   categories: [ HideSpawnMenu ]
   parent: ClothingBackpackSalvage
   id: ClothingBackpackSalvageFilled
+  components:
+    - type: StorageFill
+      contents:
+        - id: MiningVoucher
 
 # Pirate
 

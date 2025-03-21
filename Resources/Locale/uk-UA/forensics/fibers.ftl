@@ -29,3 +29,4 @@ fibers-silver = срібний
 fibers-gold = золотий
 fibers-maroon = бордовий
 fibers-pink = рожевий
+fibers-kinetic = кінетичний

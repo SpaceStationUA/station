@@ -1,8 +1,8 @@
 - type: entity
   id: BaseBorgModule
   parent: BaseItem
-  name: "модуль borg"
-  description: "Технологія, яка дає кіборгам нові здібності."
+  name: borg module
+  description: A piece of tech that gives cyborgs new abilities.
   abstract: true
   components:
   - type: Item
@@ -30,8 +30,8 @@
 
 - type: entity
   id: ActionBorgSwapModule
-  name: "Модуль заміни"
-  description: "Виберіть цей модуль, щоб скористатися інструментами, які він надає."
+  name: Swap Module
+  description: Select this module, enabling you to use the tools it provides.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -106,13 +106,14 @@
 - type: entity
   id: BorgModuleCable
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: "кабельний модуль кіборг"
+  name: cable cyborg module
   components:
   - type: Sprite
     layers:
     - state: generic
     - state: icon-cables
   - type: ItemBorgModule
+    moduleId: Cable
     items:
     - CableApcStackLingering10
     - CableMVStackLingering10
@@ -123,26 +124,28 @@
 - type: entity
   id: BorgModuleFireExtinguisher
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: "кібермодуль вогнегасника"
+  name: fire extinguisher cyborg module
   components:
   - type: Sprite
     layers:
     - state: generic
     - state: icon-fire-extinguisher
   - type: ItemBorgModule
+    moduleId: FireExtinguisher
     items:
     - FireExtinguisher
 
 - type: entity
   id: BorgModuleGPS
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: "GPS модуль кіборга"
+  name: GPS cyborg module
   components:
   - type: Sprite
     layers:
     - state: generic
     - state: icon-gps
   - type: ItemBorgModule
+    moduleId: GPS
     items:
     - HandheldGPSBasic
     - HandHeldMassScannerBorg
@@ -151,58 +154,62 @@
 - type: entity
   id: BorgModuleRadiationDetection
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: "модуль виявлення радіації для кіборгів"
+  name: radiation detection cyborg module
   components:
   - type: Sprite
     layers:
     - state: generic
     - state: icon-radiation
   - type: ItemBorgModule
+    moduleId: RadiationDetection
     items:
     - GeigerCounter
 
 - type: entity
   id: BorgModuleTool
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: "інструментальний модуль кіборга"
+  name: tool cyborg module
   components:
   - type: Sprite
     layers:
     - state: generic
     - state: icon-tools
   - type: ItemBorgModule
+    moduleId: Tool
     items:
     - Crowbar
     - Wrench
     - Screwdriver
     - Wirecutter
-    - Multitool
+    - MultitoolBorg
     - WelderIndustrial
 
 # cargo modules
 - type: entity
   id: BorgModuleAppraisal
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: "оціночний модуль \"кіборг"
+  name: appraisal cyborg module
   components:
   - type: Sprite
     layers:
     - state: cargo
     - state: icon-appraisal
   - type: ItemBorgModule
+    moduleId: Appraisal
     items:
     - AppraisalTool
 
 - type: entity
   id: BorgModuleMining
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: "шахтарський кіборг-модуль"
+  name: mining cyborg module
   components:
   - type: Sprite
     layers:
     - state: cargo
     - state: icon-mining
   - type: ItemBorgModule
+    moduleId: Mining
     items:
     - MiningDrill
     - Shovel
@@ -213,8 +220,8 @@
 - type: entity
   id: BorgModuleJetpack
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: "реактивний модуль кіборга"
-  description: "Технологічний пристрій, що надає кіборгам нові здібності. Має бути завантажена кіборгом, перш ніж ви зможете перезарядити реактивний ранець."
+  name: jetpack cyborg module
+  description: A piece of tech that gives cyborgs new abilities. Needs to be loaded by a cyborg before you can refill the jetpack.
   components:
   - type: Sprite
     layers:
@@ -222,32 +229,38 @@
     - state: icon-jetpack
   - type: BorgJetpack
   - type: ItemBorgModule
+    moduleId: Misc
     items:
     - JetpackMicroFilled
 
 - type: entity
   id: BorgModulePka
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: "прото-кінетичний прискорювач кіборг-модуль"
+  name: proto kinetic accelerator cyborg module
   components:
   - type: Sprite
     layers:
     - state: cargo
     - state: icon-pka
-  - type: ItemBorgModule
+  - type: DroppableBorgModule
+    moduleId: PKA
     items:
-    - WeaponProtoKineticAccelerator
+    - id: WeaponProtoKineticAccelerator
+      whitelist:
+        components:
+        - PressureDamageChange
 
 - type: entity
   id: BorgModuleGrapplingGun
   parent: [ BaseBorgModuleCargo, BaseProviderBorgModule ]
-  name: "модуль кіборга з грейферною гарматою"
+  name: grappling gun cyborg module
   components:
   - type: Sprite
     layers:
     - state: cargo
     - state: icon-grappling-gun
   - type: ItemBorgModule
+    moduleId: GrapplingGun
     items:
     - WeaponGrapplingGun
     - HandheldGPSBasic
@@ -256,13 +269,14 @@
 - type: entity
   id: BorgModuleAdvancedTool
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: "вдосконалений інструментальний модуль кіборга"
+  name: advanced tool cyborg module
   components:
   - type: Sprite
     layers:
     - state: engineering
     - state: icon-tools-adv
   - type: ItemBorgModule
+    moduleId: AdvancedTool
     items:
     - Omnitool
     - WelderExperimental
@@ -274,43 +288,74 @@
 - type: entity
   id: BorgModuleConstruction
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: "будівельний модуль-кіборг"
+  name: construction cyborg module
   components:
   - type: Sprite
     layers:
     - state: engineering
     - state: icon-construction
   - type: ItemBorgModule
+    moduleId: Construction
     items:
     - SheetSteelLingering0
     - SheetGlassLingering0
     - PartRodMetalLingering0
     - FloorTileItemSteelLingering0
+    # Frontier: droppable borg items
+  - type: DroppableBorgModule
+    moduleId: Construction
+    items:
+    - id: APCElectronics
+      whitelist:
+        components:
+        - Electronics
+        - MachineBoard
+    - id: CapacitorStockPart
+      whitelist:
+        components:
+        - StockPart
+    # End Frontier: droppable borg items
 
 - type: entity
   id: BorgModuleRCD
   parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
-  name: "Модуль ПЗВ кіборг"
+  name: RCD cyborg module
   components:
   - type: Sprite
     layers:
     - state: engineering
     - state: icon-rcd
   - type: ItemBorgModule
+    moduleId: RCD
     items:
     - RCDRecharging
+
+- type: entity
+  id: BorgModuleRPD
+  parent: [ BaseBorgModuleEngineering, BaseProviderBorgModule ]
+  name: RPD cyborg module
+  components:
+  - type: Sprite
+    layers:
+    - state: engineering
+    - state: icon-rpd
+  - type: ItemBorgModule
+    moduleId: RPD
+    items:
+    - RPDRecharging
 
 # janitorial modules (this gets its own unique things because janis are epic)
 - type: entity
   id: BorgModuleLightReplacer
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: "модуль кіборга, що замінює світло"
+  name: light replacer cyborg module
   components:
   - type: Sprite
     layers:
     - state: janitor
     - state: icon-light-replacer
   - type: ItemBorgModule
+    moduleId: LightReplacer
     items:
     - LightReplacer
     - Crowbar
@@ -319,13 +364,14 @@
 - type: entity
   id: BorgModuleCleaning
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: "очисний кіборг-модуль"
+  name: cleaning cyborg module
   components:
   - type: Sprite
     layers:
     - state: janitor
     - state: icon-mop
   - type: ItemBorgModule
+    moduleId: Cleaning
     items:
     - MopItem
     - Bucket
@@ -335,13 +381,14 @@
 - type: entity
   id: BorgModuleAdvancedCleaning
   parent: [ BaseBorgModuleJanitor, BaseProviderBorgModule ]
-  name: "вдосконалений модуль кіборга для прибирання"
+  name: advanced cleaning cyborg module
   components:
   - type: Sprite
     layers:
     - state: janitor
     - state: icon-mop-adv
   - type: ItemBorgModule
+    moduleId: AdvancedCleaning
     items:
     - AdvMopItem
     - HoloprojectorBorg
@@ -353,13 +400,14 @@
 - type: entity
   id: BorgModuleDiagnosis # todo: reuse when med refractor is finished
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: "модуль діагностики кіборгів"
+  name: diagnosis cyborg module
   components:
   - type: Sprite
     layers:
     - state: medical
     - state: icon-diagnosis
   - type: ItemBorgModule
+    moduleId: Diagnosis
     items:
     - HandheldHealthAnalyzerUnpowered
     - ClothingNeckStethoscope
@@ -367,13 +415,14 @@
 - type: entity
   id: BorgModuleTreatment
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: "лікувальний модуль кіборга"
+  name: treatment cyborg module
   components:
   - type: Sprite
     layers:
     - state: medical
     - state: icon-treatment
   - type: ItemBorgModule
+    moduleId: Treatment
     items:
     - Brutepack10Lingering
     - Ointment10Lingering
@@ -385,58 +434,71 @@
 - type: entity
   id: BorgModuleDefibrillator
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: "модуль дефібрилятора-кіборга"
+  name: defibrillator cyborg module
   components:
   - type: Sprite
     layers:
     - state: medical
     - state: icon-defib
   - type: ItemBorgModule
+    moduleId: Defibrillator
     items:
     - DefibrillatorOneHandedUnpowered
 
 - type: entity
   id: BorgModuleAdvancedTreatment
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: "модуль розширеного лікування кіборгів"
+  name: advanced treatment cyborg module
   components:
   - type: Sprite
     layers:
     - state: medical
     - state: icon-chemist
   - type: ItemBorgModule
+    moduleId: AdvancedTreatment
     items:
     - HandheldHealthAnalyzerUnpowered
-    - Beaker
-    - Beaker
-    - BorgDropper
+#    - Beaker # Frontier
+#    - Beaker # Frontier
+#    - BorgDropper # Frontier
     - BorgHypo
+    # Frontier: droppable borg items
+  - type: DroppableBorgModule
+    moduleId: AdvancedTreatment
+    items:
+    - id: Beaker
+      whitelist:
+        components:
+        - FitsInDispenser
+    # End Frontier: droppable borg items
 
 # science modules
 # todo: if science ever gets their own custom robot, add more "sci" modules.
 - type: entity
   id: BorgModuleArtifact
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: "артефактний модуль кіборга"
+  name: artifact cyborg module
   components:
   - type: Sprite
     layers:
     - state: science
     - state: icon-artifacts
   - type: ItemBorgModule
+    moduleId: Artifact
     items:
     - NodeScanner
 
 - type: entity
   id: BorgModuleAnomaly
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: "модуль аномального кіборга"
+  name: anomaly cyborg module
   components:
   - type: Sprite
     layers:
     - state: science
     - state: icon-anomalies
   - type: ItemBorgModule
+    moduleId: Anomaly
     items:
     - AnomalyScanner
     - AnomalyLocatorUnpowered
@@ -447,13 +509,14 @@
 - type: entity
   id: BorgModuleService
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: "сервісний модуль кіборга"
+  name: service cyborg module
   components:
   - type: Sprite
     layers:
     - state: service
     - state: icon-pen
   - type: ItemBorgModule
+    moduleId: Service
     items:
     - Pen
     - BooksBag
@@ -461,17 +524,29 @@
     - Lighter
     - DrinkShaker
     - BorgDropper
+    # Frontier: droppable borg items
+    # - DrinkShaker
+    # - BorgDropper
+  - type: DroppableBorgModule
+    moduleId: Service
+    items:
+    - id: DrinkShaker
+      whitelist:
+        components:
+        - FitsInDispenser
+    # End Frontier: droppable borg items
 
 - type: entity
   id: BorgModuleMusique
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: "модуль музичного кіборга"
+  name: musique cyborg module
   components:
   - type: Sprite
     layers:
     - state: service
     - state: icon-musique
   - type: ItemBorgModule
+    moduleId: Musique
     items:
     - SynthesizerInstrument
     - ElectricGuitarInstrument
@@ -480,29 +555,40 @@
 - type: entity
   id: BorgModuleGardening
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: "модуль садівничого кіборга"
+  name: gardening cyborg module
   components:
   - type: Sprite
     layers:
     - state: service
     - state: icon-gardening
   - type: ItemBorgModule
+    moduleId: Gardening
     items:
     - HydroponicsToolMiniHoe
     - HydroponicsToolSpade
     - HydroponicsToolClippers
     - Bucket
+    # Frontier: droppable borg items
+  - type: DroppableBorgModule
+    moduleId: Gardening
+    items:
+    - id: AppleSeeds
+      whitelist:
+        components:
+        - Seed
+    # End Frontier: droppable borg items
 
 - type: entity
   id: BorgModuleHarvesting
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: "модуль збирання врожаю кіборга"
+  name: harvesting cyborg module
   components:
   - type: Sprite
     layers:
     - state: service
     - state: icon-harvesting
   - type: ItemBorgModule
+    moduleId: Harvesting
     items:
     - HydroponicsToolScythe
     - HydroponicsToolHatchet
@@ -511,13 +597,14 @@
 - type: entity
   id: BorgModuleClowning
   parent: [ BaseBorgModuleService, BaseProviderBorgModule ]
-  name: "модуль клоунського кіборга"
+  name: clowning cyborg module
   components:
   - type: Sprite
     layers:
     - state: service
     - state: icon-clown
   - type: ItemBorgModule
+    moduleId: Clowning
     items:
     - BikeHorn
     - ClownRecorder
@@ -527,13 +614,14 @@
 - type: entity
   id: BorgModuleSyndicateWeapon
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: "збройовий кіборг-модуль"
+  name: weapon cyborg module
   components:
   - type: Sprite
     layers:
     - state: syndicate
     - state: icon-syndicate
   - type: ItemBorgModule
+    moduleId: SyndicateWeapon
     items:
     - WeaponAdvancedLaser
     - Machete
@@ -541,14 +629,15 @@
 - type: entity
   id: BorgModuleOperative
   parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule ]
-  name: "оперативний модуль кіборгів"
-  description: "Модуль, який поставляється з ломом, Емагом і синдикативною указкою."
+  name: operative cyborg module
+  description: A module that comes with a crowbar, an Emag and a syndicate pinpointer.
   components:
     - type: Sprite
       layers:
       - state: syndicate
       - state: icon-syndicate
     - type: ItemBorgModule
+      moduleId: Operative
       items:
       - Crowbar
       - Emag
@@ -557,14 +646,15 @@
 - type: entity
   id: BorgModuleEsword
   parent: [ BaseBorgModuleSyndicate, BaseProviderBorgModule ]
-  name: "модуль кіборга з енергетичним мечем"
-  description: "Модуль, який постачається з подвійним енергетичним мечем."
+  name: energy sword cyborg module
+  description: A module that comes with a double energy sword.
   components:
     - type: Sprite
       layers:
       - state: syndicate
       - state: icon-syndicate
     - type: ItemBorgModule
+      moduleId: Esword
       items:
       - EnergySwordDouble
       - PinpointerSyndicateNuclear
@@ -572,14 +662,15 @@
 - type: entity
   id: BorgModuleL6C
   parent: [ BaseBorgModuleSyndicateAssault, BaseProviderBorgModule ]
-  name: "Модуль кіборга L6C ROW"
-  description: "Модуль, який постачається з L6C."
+  name: L6C ROW cyborg module
+  description: A module that comes with a L6C.
   components:
     - type: Sprite
       layers:
       - state: syndicate
       - state: icon-syndicate
     - type: ItemBorgModule
+      moduleId: L6C
       items:
         - WeaponLightMachineGunL6C
         - PinpointerSyndicateNuclear
@@ -587,13 +678,14 @@
 - type: entity
   id: BorgModuleMartyr
   parent: [ BaseBorgModule, BaseProviderBorgModule ]
-  name: "модуль кіборга-мученика"
-  description: "Модуль з вибухівкою, з якою ви, ймовірно, не захочете поводитися самостійно."
+  name: martyr cyborg module
+  description: "A module that comes with an explosive you probably don't want to handle yourself."
   components:
     - type: Sprite
       layers:
         - state: syndicateborgbomb
         - state: icon-bomb
     - type: ItemBorgModule
+      moduleId: Martyr
       items:
         - SelfDestructSeq

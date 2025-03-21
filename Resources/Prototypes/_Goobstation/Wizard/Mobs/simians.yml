@@ -52,13 +52,17 @@
       230: 0.5
   - type: Insulated
   - type: FlashImmunity
+  - type: Bloodstream
+    maxBleedAmount: 0
+  - type: Respirator
+    suffocationThreshold: -5
 
 - type: entity
-  name: "мавпа"
+  name: monkey
   id: MobMonkeyAngry
   parent: MobBaseAncestor
   suffix: Angry
-  description: "Нова церква неодарвіністів насправді вірить, що КОЖНА тварина походить від мавпи. На смак вони схожі на свинину, а вбивати їх і весело, і приємно."
+  description: New church of neo-darwinists actually believe that EVERY animal evolved from a monkey. Tastes like pork, and killing them is both fun and relaxing.
   components:
   - type: NameIdentifier
     group: Monkey
@@ -66,6 +70,19 @@
     speechSounds: Monkey
     speechVerb: Monkey
   - type: MonkeyAccent
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+  - type: HTN
+    rootTask:
+      task: SimpleHumanoidHostileCompound
+
+- type: entity
+  name: kobold
+  id: MobKoboldAngry
+  parent: MobBaseKobold
+  description: Cousins to the sentient race of lizard people, kobolds blend in with their natural habitat and are as nasty as monkeys; ready to pull out your hair and stab you to death.
+  components:
   - type: NpcFactionMember
     factions:
     - SimpleHostile

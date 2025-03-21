@@ -1,5 +1,5 @@
 - type: entity
-  name: "блискавка"
+  name: lightning
   id: BaseLightning
   abstract: true
   components:
@@ -30,16 +30,31 @@
       - HideContextMenu
 
 - type: entity
-  name: "блискавка"
+  name: lightning
   id: Lightning
   parent: BaseLightning
   categories: [ HideSpawnMenu ]
   components:
     - type: Lightning
       canArc: true
+      
+- type: entity
+  name: lightning
+  id: VampireLightning
+  parent: BaseLightning
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Lightning
+      canArc: true
+    - type: Sprite
+      sprite: /Textures/Effects/lightning.rsi
+      drawdepth: Effects
+      layers:
+      - state: "yellow_lightning"
+        shader: unshaded
 
 - type: entity
-  name: "моторошна блискавка"
+  name: spooky lightning
   id: LightningRevenant
   parent: BaseLightning
   categories: [ HideSpawnMenu ]
@@ -66,7 +81,7 @@
       shockDamage: 30
 
 - type: entity
-  name: "заряджена блискавка"
+  name: charged lightning
   id: ChargedLightning
   parent: BaseLightning
   categories: [ HideSpawnMenu ]
@@ -85,7 +100,7 @@
       lightningPrototype: ChargedLightning
 
 - type: entity
-  name: "блискавка"
+  name: lightning
   id: Spark
   parent: BaseLightning
   categories: [ HideSpawnMenu ]
@@ -112,7 +127,7 @@
       - HideContextMenu
 
 - type: entity
-  name: "перезаряджена блискавка"
+  name: supercharged lightning
   id: SuperchargedLightning
   parent: ChargedLightning
   categories: [ HideSpawnMenu ]
@@ -138,7 +153,7 @@
       castShadows: false
 
 - type: entity
-  name: "перезаряджені блискавки"
+  name: hypercharged lightning
   id: HyperchargedLightning
   parent: ChargedLightning
   categories: [ HideSpawnMenu ]

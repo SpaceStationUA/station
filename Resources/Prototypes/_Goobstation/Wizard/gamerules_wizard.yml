@@ -5,7 +5,7 @@
   components:
   - type: WizardRule
   - type: GameRule
-    minPlayers: 15
+    minPlayers: 3
   - type: AntagObjectives
     objectives:
     - WizardSurviveObjective
@@ -115,6 +115,12 @@
   id: EndRoundOnWizardDeath
   components:
   - type: EndRoundOnWizardDeathRule
+
+- type: entity
+  parent: BaseGameRule
+  id: GhostsVisible
+  components:
+  - type: GhostsVisibleRule
 
 - type: gamePreset
   id: Wizard

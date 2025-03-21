@@ -33,6 +33,12 @@ public sealed partial class AdminVerbSystem
 
     [ValidatePrototypeId<EntityPrototype>]
     private const string DefaultThiefRule = "Thief";
+    
+    [ValidatePrototypeId<EntityPrototype>]
+    private const string DefaultVampireRule = "Vampire";
+
+    [ValidatePrototypeId<EntityPrototype>]
+    private const string DefaultChangelingRule = "Changeling";
 
     [ValidatePrototypeId<EntityPrototype>]
     private const string DefaultBloodCultRule = "BloodCult";
@@ -142,6 +148,23 @@ public sealed partial class AdminVerbSystem
         };
         args.Verbs.Add(thief);
 
+        // Goobstation - changelings
+        Verb ling = new()
+        {
+            Text = Loc.GetString("admin-verb-text-make-changeling"),
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/_Goobstation/Changeling/changeling_abilities.rsi"), "transform"),
+            Act = () =>
+            {
+                if (!HasComp<SiliconComponent>(args.Target))
+                    _antag.ForceMakeAntag<ChangelingRuleComponent>(targetPlayer, DefaultChangelingRule);
+            },
+            Impact = LogImpact.High,
+            Message = Loc.GetString("admin-verb-make-changeling"),
+        };
+        if (!HasComp<SiliconComponent>(args.Target))
+            args.Verbs.Add(ling);
+
         Verb cultist = new()
         {
             Text = Loc.GetString("admin-verb-text-make-blood-cultist"),
@@ -155,23 +178,6 @@ public sealed partial class AdminVerbSystem
             Message = Loc.GetString("admin-verb-make-blood-cultist"),
         };
         args.Verbs.Add(cultist);
-
-        // Goobstation - changelings
-        Verb ling = new()
-        {
-            Text = Loc.GetString("admin-verb-text-make-changeling"),
-            Category = VerbCategory.Antag,
-            Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/_Goobstation/Changeling/changeling_abilities.rsi"), "transform"),
-            Act = () =>
-            {
-                if (!HasComp<SiliconComponent>(args.Target))
-                    _antag.ForceMakeAntag<ChangelingRuleComponent>(targetPlayer, "Changeling");
-            },
-            Impact = LogImpact.High,
-            Message = Loc.GetString("admin-verb-make-changeling"),
-        };
-        if (!HasComp<SiliconComponent>(args.Target))
-            args.Verbs.Add(ling);
 
         // goobstation - heretics
         Verb heretic = new()
@@ -219,6 +225,8 @@ public sealed partial class AdminVerbSystem
         args.Verbs.Add(wizard);
         
         // IMPSTATION - COSMIC CULT
+        //note - the UI for the monument currently doesn't properly account for cultists added like this until it gets sent a new state - ruddygreat
+        //todo figure out how to fix that
         Verb cosmiccult = new()
         {
             Text = Loc.GetString("admin-verb-text-make-cosmiccultist"),
@@ -232,5 +240,19 @@ public sealed partial class AdminVerbSystem
             Message = Loc.GetString("admin-verb-make-cosmiccultist"),
         };
         args.Verbs.Add(cosmiccult);
+        
+        Verb vampire = new()
+        {
+            Text = Loc.GetString("admin-verb-text-make-vampire"),
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/Interface/Actions/actions_vampire.rsi"), "unholystrength"),
+            Act = () =>
+            {
+                _antag.ForceMakeAntag<VampireRuleComponent>(targetPlayer, DefaultVampireRule);
+            },
+            Impact = LogImpact.High,
+            Message = Loc.GetString("admin-verb-make-vampire"),
+        };
+        args.Verbs.Add(vampire);
     }
 }

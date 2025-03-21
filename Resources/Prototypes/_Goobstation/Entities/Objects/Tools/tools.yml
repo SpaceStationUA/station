@@ -1,8 +1,8 @@
 - type: entity
-  name: "ручний факс"
+  name: handheld fax
   parent: BaseItem
   id: HandheldFax
-  description: "Інструмент, який може надсилати тонни паперу по факсу Centcomm."
+  description: A tool that can send ton of paper on Centcomm fax.
   components:
   - type: Item
     size: Huge
@@ -57,7 +57,7 @@
   - type: MultiHandedItem
 
 - type: entity
-  name: "нанотрасен представницький ручний факс"
+  name: nanotrasen representative handheld fax
   parent: HandheldFax
   id: HandheldFaxNanorep
   suffix: Nanotrasen Representative
@@ -74,10 +74,10 @@
       shader: unshaded
 #PIRATE
 - type: entity
-  name: "звукова викрутка"
+  name: sonic screwdriver
   parent: BaseItem
   id: SonicScrewdriver
-  description: "Wzzzzz...."
+  description: Wzzzzz....
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Tools/sonic_screwdriver.rsi
@@ -90,6 +90,8 @@
     - Multitool
   - type: Prying
     enabled: false
+  - type: UseDelay # For insta prying
+    delay: 1
   - type: Tool
     qualities:
       - Screwing
@@ -139,10 +141,10 @@
 
 
 - type: entity
-  name: "футуристичний УЗО"
+  name: futuristic RCD
   parent: RCD
   id: RCDChrono
-  description: "Інструмент, за допомогою якого можна побудувати станцію з нуля за лічені хвилини."
+  description: A tool that can build a station from scratch in minutes.
   components:
   - type: LimitedCharges
     maxCharges: 100
@@ -157,3 +159,13 @@
   - type: Item
     sprite: _Goobstation/Objects/Tools/rcd_chrono.rsi
   - type: RCD
+
+- type: entity #GOOOB
+  name: borg multitool
+  parent: Multitool
+  id: MultitoolBorg
+  description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines.
+  components:
+  - type: Tool
+    qualities:
+    - Pulsing

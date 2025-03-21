@@ -10,3 +10,4 @@ player-tab-entry-tooltip = Час гри у  дні:годити:хвилини.
 player-tab-filter-line-edit-placeholder = Фільтр
 player-tab-is-antag-yes = ТАК
 player-tab-is-antag-no = НІ
+player-tab-roletype = Тип Ролі
