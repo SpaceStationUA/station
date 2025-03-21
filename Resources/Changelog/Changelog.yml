@@ -12295,267 +12295,214 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1997
 - author: Raikyr0
   changes:
-    - type: Tweak
-      message: Tweaked values on Oni melee bonus to correctly reflect the guidebook
-    - type: Tweak
-      message: Tweaked Blademaster and Spearmaster to mirror Default
-    - type: Tweak
-      message: Buffed Oni's unique traits to be cheaper
-    - type: Tweak
-      message: Buffed Weapon Generalist to 30% so it's not just a nerf
+  - type: Tweak
+    message: Змінено значення бонусу до рукопашного бою Оні, щоб правильно відображати довідник
+  - type: Tweak
+    message: Змінено Майстра Клинків та Майстра Списів, щоб відображали значення за замовчуванням
+  - type: Tweak
+    message: Посилено унікальні риси Оні, щоб вони були дешевшими
+  - type: Tweak
+    message: Посилено «Універсала Зброя» до 30%, щоб це не було просто нерфом
   id: 6987
   time: '2025-03-18T23:12:40.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2008
 - author: CyberLanos
   changes:
-    - type: Tweak
-      message: make miner's salve overdose less punishing
-    - type: Tweak
-      message: >-
-        change miner's salve healing rates to better suit low pressure
-        environment
+  - type: Tweak
+    message: Зроблено передозування шахтарською маззю менш каральним
+  - type: Tweak
+    message: Змінено швидкість лікування шахтарською маззю, щоб краще відповідати умовам низького тиску
   id: 6988
   time: '2025-03-19T01:14:14.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2010
 - author: VMSolidus
   changes:
-    - type: Add
-      message: Ported the Hardlight Bow, a new traitor item.
+  - type: Add
+    message: Портовано Гардлайт Лук, новий предмет зрадника.
   id: 6989
   time: '2025-03-19T01:42:04.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2000
 - author: VMSolidus
   changes:
-    - type: Add
-      message: >-
-        Added "Shrapnel Ammo" to most weapon types as a new special ammunition.
-        Shrapnel ammo essentially turns any gun into a baby shotgun. This
-        includes guns like the L6 Saw.
-    - type: Add
-      message: Added Shrapnel Ammo and specialty ammo bundles to the Syndicate Uplink.
-    - type: Tweak
-      message: >-
-        To encourage people to buy different kinds of ammo, certain guns in the
-        Syndicate Uplink no longer spawn with ammo, and are in return discounted
-        by the cost of the ammo that was removed. Have fun buying C20 magazines
-        with incendiary ammo. 
-    - type: Add
-      message: >-
-        Added Shrapnel Munitions to Arsenal Research T2. Once researched,
-        shrapnel ammo can be manufactured at a security techfab.
+  - type: Add
+    message: Додано "Шрапнельні боєприпаси" до більшості типів зброї як новий спеціальний боєприпас. Шрапнельні боєприпаси, по суті, перетворюють будь-яку зброю на маленький дробовик. Це включає таку зброю, як L6 Пила.
+  - type: Add
+    message: Додано шрапнельні боєприпаси та комплекти спеціальних боєприпасів до Syndicate Uplink.
+  - type: Tweak
+    message: Щоб заохотити людей купувати різні види боєприпасів, певна зброя в Syndicate Uplink більше не з'являється з боєприпасами, а натомість знижується ціна на вартість видалених боєприпасів. Насолоджуйтесь покупкою магазинів C20 із запальними боєприпасами.
+  - type: Add
+    message: Додано шрапнельні боєприпаси до Дослідження Арсеналу T2. Після дослідження шрапнельні боєприпаси можна виготовити на техфабі безпеки.
   id: 6990
   time: '2025-03-19T14:39:58.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2004
 - author: GNUtopia
   changes:
-    - type: Add
-      message: Added Misc department to Jobs loadout
-    - type: Add
-      message: Added Prisoner loadout
-    - type: Fix
-      message: Corrected spelling mistake in pirate tricorn item ID
+  - type: Add
+    message: Додано Різний відділ до екіпірування Вакансій
+  - type: Add
+    message: Додано екіпіровку В'язня
+  - type: Fix
+    message: Виправлено орфографічну помилку в ID предмета піратського трикутника
   id: 6991
   time: '2025-03-19T15:13:14.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1999
 - author: BramvanZijp
   changes:
-    - type: Add
-      message: >-
-        You can now add an access requirement to an IPC's maintenance panel
-        using an access configurator, though an IPC can always unlock their own
-        panel.
-    - type: Tweak
-      message: >-
-        After unlocking an IPC maintenance panel, which is now instant, you need
-        to use a screwdriver to actually open it.
+  - type: Add
+    message: Тепер ви можете додати вимогу доступу до панелі обслуговування IPC за допомогою конфігуратора доступу, хоча IPC завжди може розблокувати свою власну панель.
+  - type: Tweak
+    message: Після розблокування панелі обслуговування IPC, яка тепер відбувається миттєво, вам потрібно використовувати викрутку, щоб фактично відкрити її.
   id: 6992
   time: '2025-03-19T16:27:51.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2014
 - author: EctoplasmIsGood
   changes:
-    - type: Tweak
-      message: 'Make context menu uses spritetree '
+  - type: Tweak
+    message: 'Контекстне меню тепер використовує spritetree'
   id: 6993
   time: '2025-03-19T22:02:45.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2021
 - author: EctoplasmIsGood
   changes:
-    - type: Tweak
-      message: 'Puddles now have a separate draw depth so they display properly '
+  - type: Tweak
+    message: 'Калюжі тепер мають окрему глибину промальовування, тому вони відображаються належним чином'
   id: 6994
   time: '2025-03-19T22:07:12.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2020
 - author: trashalice
   changes:
-    - type: Add
-      message: Added the Shogun's Dogi, selectable as a Captain loadout
+  - type: Add
+    message: Додано Догі Сьогуна, яке можна вибрати як екіпіровку Капітана
   id: 6995
   time: '2025-03-20T04:59:19.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1939
 - author: VMSolidus
   changes:
-    - type: Tweak
-      message: >-
-        Dermal armor has been reworked to provide flat reductions to physical
-        damage instead of percent reduction. This makes it significantly better
-        against "Chip damage" attacks such as unarmed fighting, wild animals,
-        and Shrapnel ammo. But it also makes it much worse against large single
-        sources of damage such as anti-material rifles, large caliber rounds,
-        shotgun slugs, etc. 
+  - type: Tweak
+    message: Шкіряну броню було перероблено, щоб забезпечити фіксоване зниження фізичної шкоди замість відсоткового зниження. Це робить її значно кращою проти атак з "поступовою шкодою", таких як рукопашний бій, дикі тварини та шрапнельні боєприпаси. Але це також робить її набагато гіршою проти великих одиночних джерел шкоди, таких як протиматеріальні гвинтівки, великокаліберні патрони, картеч для дробовика тощо.
   id: 6996
   time: '2025-03-20T05:04:42.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2016
 - author: Diggy
   changes:
-    - type: Add
-      message: You saw nothing and heard nothing, glory to the great maid union.
+  - type: Add
+    message: Ви нічого не бачили і нічого не чули, слава великому союзу покоївок.
   id: 6997
   time: '2025-03-20T09:32:10.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2023
 - author: Erisfiregamer1
   changes:
-    - type: Add
-      message: >-
-        Nerfed the time Changeling Infections take to complete (20 minutes ->
-        10)
+  - type: Add
+    message: Зменшено час, необхідний для завершення зараження Чейнджлінга (20 хвилин -> 10)
   id: 6998
   time: '2025-03-20T10:09:20.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2019
 - author: BramvanZijp
   changes:
-    - type: Add
-      message: >-
-        Initiating a grab on someone now starts a 6 second cooldown before you
-        can throw them.
-    - type: Tweak
-      message: >-
-        The stamina damage taken upon being thrown has been reduced from 120 to
-        100.
+  - type: Add
+    message: Ініціювання захоплення когось тепер починає 6-секундну затримку, перш ніж ви зможете кинути його.
+  - type: Tweak
+    message: Шкоду витривалості, отриману при кидку, зменшено з 120 до 100.
   id: 6999
   time: '2025-03-20T14:25:46.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2028
 - author: Diggy0
   changes:
-    - type: Add
-      message: >-
-        Cybersun has gotten desperate after hearing several of their juggernaut
-        suit users got robusted, so they made whatever the fuck this is, the
-        fucking hardsuit that kills you slowly.
-    - type: Add
-      message: >-
-        Funny code that allows for damage over time to happen, isn't that so
-        cool.
+  - type: Add
+    message: Cybersun впав у відчай, почувши, що кількох користувачів їхніх костюмів джаггернаутів було розбито, тому вони зробили те, що, в біса, це таке, чортовий скафандр, який повільно вбиває вас.
+  - type: Add
+    message: Кумедний код, який дозволяє завдавати шкоду з часом, хіба це не круто.
   id: 7000
   time: '2025-03-20T17:45:51.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1950
 - author: BramvanZijp
   changes:
-    - type: Add
-      message: >-
-        Added the BSO's Greatshield and Atrocity (Mace) as a primary weapon
-        option.
-    - type: Remove
-      message: The Energy Shield has been removed from the BSO's loadout.
+  - type: Add
+    message: Додано Великий щит та Звірство (Булаву) BSO як основний варіант зброї.
+  - type: Remove
+    message: Енергетичний щит було видалено з екіпіровки BSO.
   id: 7001
   time: '2025-03-20T19:13:40.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2029
 - author: trashalice
   changes:
-    - type: Add
-      message: >-
-        HoS Samurai armour to go with the Antque sheath (not in loadouts, art
-        people can decide if it goes in)
+  - type: Add
+    message: Броня Самурая HoS, яка пасує до старовинних піхов (не в екіпіровках, художники можуть вирішити, чи додавати її)
   id: 7002
   time: '2025-03-20T19:14:58.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2015
 - author: Tirochora
   changes:
-    - type: Tweak
-      message: Plasmaman envirosuits have translucent visors.
+  - type: Tweak
+    message: У Плазмаменів прозорі забрала на скафандрах.
   id: 7003
   time: '2025-03-20T19:23:10.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1960
 - author: SolarisBirb
   changes:
-    - type: Add
-      message: >-
-        Added recharging sentry turrets, one is AI-based or the other is Sec can
-        make.
-    - type: Add
-      message: >-
-        The sentry turrets can be made after researching in T3 arsenal.  The
-        boards are made in the sec fab.
-    - type: Add
-      message: 'New ID permissions for borgs and minibots for higher turret options. '
-    - type: Tweak
-      message: Turrets stop shooting after someone goes crit.
+  - type: Add
+    message: Додано турелі, що перезаряджаються, одна на основі ШІ, іншу може зробити Охорона.
+  - type: Add
+    message: Турелі можна зробити після дослідження в Т3 арсеналі. Плати виготовляються на техфабі охорони.
+  - type: Add
+    message: 'Нові дозволи ID для боргів та мініботів для додаткових опцій турелей.'
+  - type: Tweak
+    message: Турелі припиняють стріляти після того, як хтось переходить у критичний стан.
   id: 7004
   time: '2025-03-20T19:25:44.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1990
 - author: Timfa2112
   changes:
-    - type: Add
-      message: >-
-        Added Fillbot. Link it to a lathe, material silo, ore processor or
-        disposal unit with a multitool and watch it gather stuff!
+  - type: Add
+    message: Додано Філлбота. Підключіть його до токарного верстата, бункера для матеріалів, переробника руди або утилізатора за допомогою мультитула і дивіться, як він збирає речі!
   id: 7005
   time: '2025-03-20T22:13:34.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1958
 - author: EctoplasmIsGood
   changes:
-    - type: Add
-      message: BSO/Captain Onis can now pick the terminus as their weapon
+  - type: Add
+    message: BSO/Капітан Оні тепер можуть вибрати термінус як свою зброю
   id: 7006
   time: '2025-03-20T22:15:12.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2034
 - author: Timfa2112
   changes:
-    - type: Add
-      message: >-
-        Added minebot, which is only available as ghost role. It will not work
-        as NPC.
+  - type: Add
+    message: Додано майбота, який доступний лише як роль примари. Він не працюватиме як NPC.
   id: 7007
   time: '2025-03-20T23:35:12.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2009
 - author: Eagle
   changes:
-    - type: Add
-      message: >-
-        Flashbangs now stun and knockdown people. Wear over-ear headset or
-        combat hardsuit helmet to reduce flashbang effective range.
-    - type: Add
-      message: All sec and command members received over-ear headsets.
-    - type: Add
-      message: >-
-        Wearing security, ert, syndie or deathsquad gas mask blocks smoke
-        inhalation even if internals are off.
-    - type: Tweak
-      message: Epinephrine now speeds up by 10%.
-    - type: Add
-      message: >-
-        Jackboots, combat and mercenary boots now reduce all stun and knockdown
-        times by 20%.
-    - type: Add
-      message: Combat hardsuit helmets now protect from flashes.
-    - type: Tweak
-      message: Tear gas is now stronger.
-    - type: Tweak
-      message: Stamcrit stun time is once again 6 seconds.
-    - type: Tweak
-      message: Security hardsuits now have heat resistance.
+  - type: Add
+    message: Світлошумові гранати тепер оглушають та збивають людей з ніг. Носіть навушники або шолом бойового скафандра, щоб зменшити ефективну дальність дії світлошумової гранати.
+  - type: Add
+    message: Усі співробітники служби безпеки та командування отримали навушники.
+  - type: Add
+    message: Носіння протигаза служби безпеки, ЕРТ, синдикату або загону смерті блокує вдихання диму, навіть якщо внутрішні пристрої вимкнені.
+  - type: Tweak
+    message: Епінефрин тепер прискорює на 10%.
+  - type: Add
+    message: Чоботи, бойові та наймані черевики тепер зменшують час оглушення та нокдауну на 20%.
+  - type: Add
+    message: Шоломи бойових скафандрів тепер захищають від спалахів.
+  - type: Tweak
+    message: Сльозогінний газ тепер сильніший.
+  - type: Tweak
+    message: Час оглушення при Stamcrit знову становить 6 секунд.
+  - type: Tweak
+    message: Скафандри безпеки тепер мають термостійкість.
   id: 7008
   time: '2025-03-21T00:13:28.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2022
 - author: Zeta_Null
   changes:
-    - type: Tweak
-      message: Tweaked several tiles to make variants
-    - type: Add
-      message: >-
-        Added a "Worn steel tile" variant for mappers to include, just a steel
-        tile with a missing panel
-    - type: Add
-      message: Added a couple of text decals
+  - type: Tweak
+    message: Змінено декілька тайлів, щоб зробити варіанти
+  - type: Add
+    message: Додано варіант "Зношеної сталевої плитки" для включення картографами, просто сталева плитка з відсутньою панеллю
+  - type: Add
+    message: Додано кілька текстових декалей
   id: 7009
   time: '2025-03-21T20:26:59.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2038
