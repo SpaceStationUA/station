@@ -27,6 +27,7 @@ public sealed partial class NPCBlackboard : IEnumerable<KeyValuePair<string, obj
         {"MaximumIdleTime", 7f},
         {MedibotInjectRange, 4f},
         {WeldbotWeldRange, 4f},
+        {FillbotPickupRange, 10f},
         {PlantbotServiceRange, 4f},
         {MeleeMissChance, 0.3f},
         {"MeleeRange", 1f},
@@ -308,6 +309,7 @@ public sealed partial class NPCBlackboard : IEnumerable<KeyValuePair<string, obj
     public const string Inventory = "Inventory";
     public const string MedibotInjectRange = "MedibotInjectRange";
     public const string WeldbotWeldRange = "WeldbotWeldRange";
+    public const string FillbotPickupRange = "FillbotPickupRange";
     public const string PlantbotServiceRange = "PlantbotServiceRange";
 
     public const string MeleeMissChance = "MeleeMissChance";
