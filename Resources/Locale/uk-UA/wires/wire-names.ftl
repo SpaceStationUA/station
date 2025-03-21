@@ -74,3 +74,7 @@ wires-board-name-jukebox = Музичний автомат
 wires-board-name-computer = Комп'ютер
 wires-board-name-holopad = Голопад
 wires-board-name-barsign = Табличка бару
+wires-board-name-weapon-energy-turret = Турель-охоронник
+wires-board-name-turret-controls = Панель керування туреллю-охоронцем
+
+# Імена, які відображаються в інтерфейсі злому проводів та журналах адміністратора.

@@ -86,3 +86,6 @@ loadout-category-JobsCommandBlueshieldOfficer = Офіцер Блакитног�
 loadout-category-JobsCommandNanorep = Представник Nanotrasen
 loadout-category-Belt = Пояс
 loadout-category-JobsCommandMagistrate = Магістр
+loadout-category-JobsZMisc = Різне
+loadout-category-JobsZMiscAUncategorized = Все Різне
+loadout-category-JobsZMiscPrisoner = В'язень

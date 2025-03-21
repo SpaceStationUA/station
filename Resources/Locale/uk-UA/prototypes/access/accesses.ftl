@@ -53,3 +53,7 @@ id-card-access-level-syndicate-agent = Агент Синдикату
 id-card-access-level-unused = Ви не повинні цього бачити
 
 id-card-access-level-central-command = Центральне командування
+
+id-card-access-level-station-ai = Штучний Інтелект
+id-card-access-level-borg = Кіборг
+id-card-access-level-basic-silicon = Робот

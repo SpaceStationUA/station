@@ -19,3 +19,5 @@ popup-grab-retake-success = Ви звільнили {CAPITALIZE($pulled)} із �
 popup-grab-retake-success-puller = {CAPITALIZE($puller)} звільнив {CAPITALIZE($pulled)} з вашого захоплення!
 popup-grabbed-cant-speak = Ви не можете дихати!
 popup-grab-need-hand = Вам потрібна вільна рука!
+
+popup-grab-throw-fail-cooldown = Тобі потрібно більше часу, щоб закріпити хват, перш ніж ти зможеш кинути {CAPITALIZE($pulled)}!
