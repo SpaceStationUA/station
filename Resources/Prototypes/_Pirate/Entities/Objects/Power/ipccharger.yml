@@ -4,9 +4,9 @@
   abstract: true
   components:
     - type: IPCCharger
-      sound: /Audio/Effects/PowerSink/charge_fire.ogg
     - type: Sprite
       sprite: /Textures/_Pirate/Objects/Power/ipccharger.rsi
+    - type: Appearance
 
 - type: entity
   parent: BaseIPCCharger
