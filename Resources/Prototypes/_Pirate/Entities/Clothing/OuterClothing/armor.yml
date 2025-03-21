@@ -36,3 +36,22 @@
         Heat: 0.80
   - type: ExplosionResistance
     damageCoefficient: 0.90
+
+- type: entity
+  parent: [ClothingOuterArmorHoS, BaseItem]
+  id: ClothingOuterArmorHosSamurai
+  name: "Самурайська броня Голови Безпеки"
+  description: "Відреставрована броня павшого в бою самурая Соліанського Альянсу."
+  components:
+  - type: Clickable
+  - type: Item
+    size: Large
+    shape:
+    - "0,0,2,-3"
+  - type: Sprite
+    state: icon
+    sprite: /Textures/_Pirate/Clothing/OuterClothing/Armor/samurai_hos.rsi
+  - type: Clothing
+    sprite: /Textures/_Pirate/Clothing/OuterClothing/Armor/samurai_hos.rsi
+    slots:
+    - outerClothing
