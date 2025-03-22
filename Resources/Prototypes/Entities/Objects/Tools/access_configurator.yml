@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AccessConfigurator
-  name: access configurator
-  description: Used to modify the access level requirements for airlocks and other lockable devices.
+  name: "конфігуратор доступу"
+  description: "Використовується для зміни вимог до рівня доступу для шлюзів та інших пристроїв, що замикаються."
   components:
     - type: EmitSoundOnLand
       sound:
@@ -21,7 +21,8 @@
       accessLevels:
       - Armory
       - Atmospherics
-      - Bar
+      - BasicSilicon
+      - Borg
       #- Brig #Delta V: Removed Brig Access
       - Boxer #Delta V: Add Boxer Access
       - Detective
@@ -57,6 +58,7 @@
       - Salvage
       - Security
       - Service
+      - StationAi
       - Theatre
       - Zookeeper #Delta V: Add Zookeeper Access
       - ChiefJustice  #Delta V: Add Chief Justice Access

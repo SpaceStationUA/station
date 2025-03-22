@@ -1,8 +1,8 @@
 - type: entity
-  name: hardlight bow
+  name: "лук хардлайт"
   parent: [BaseItem]
   id: BowHardlight
-  description: A modern bow that can fabricate hardlight arrows using an internal energy. This one is designed by the Syndicate for silent takedowns of targets.
+  description: "Сучасний лук, який може випускати надлегкі стріли, використовуючи внутрішню енергію. Цей лук розроблений Синдикатом для безшумного знищення цілей."
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Bow/hardlight_bow.rsi
@@ -30,6 +30,7 @@
     delay: 1
   - type: GunRequiresWield
   - type: Gun
+    clumsyProof: true
     fireRate: 1
     selectedMode: SemiAuto
     availableModes:
@@ -46,9 +47,10 @@
       - ArrowEnergy
       - ArrowDisabler
       - ArrowFiery
-      - ArrowFreeze
+      # - ArrowFreeze
       - ArrowExplosive
       - ArrowXray
+      # - ArrowBee
   - type: FoldingWeapon
   - type: UserInterface
     interfaces:
@@ -71,6 +73,7 @@
         volume: -5
   - type: ItemToggleSize
     activatedSize: Huge
+  - type: ItemTogglePointLight
   - type: ComponentToggler
     components:
     - type: DisarmMalus

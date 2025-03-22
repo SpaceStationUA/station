@@ -1,8 +1,8 @@
 - type: entity
   id: MaterialSilo
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: material silo
-  description: Bluespace storage connected to most lathes on the station.
+  name: "силос для матеріалів"
+  description: "Сховище Bluespace підключено до більшості токарних верстатів на станції."
   components:
   - type: Physics
     bodyType: Static
@@ -30,6 +30,9 @@
   - type: MaterialStorage
     ignoreColor: true
   - type: MaterialSilo
+  - type: DeviceLinkSink
+    ports:
+      - FillbotAnyItem
 
 - type: entity
   id: BaseMaterialSiloUtilizer
@@ -41,5 +44,6 @@
     range: 1000
   - type: DeviceLinkSink
     ports:
+      - FillbotAnyItem
       - MaterialSiloUtilizer
   - type: MaterialSiloUtilizer

@@ -469,3 +469,26 @@ uplink-hardsuit-syndie-medic-name = Криваво-червоний медичн
 uplink-hardsuit-syndie-medic-desc = Варіант костюму "Криваво-червоний" з медичним маркуванням.
 uplink-hardsuit-syndie-commander-name = Криваво-червоний костюм Командир
 uplink-hardsuit-syndie-commander-desc = Броньований варіант культового "криваво-червоного" костюма.
+
+uplink-pistol-magazine-shrapnel-name = Магазин для пістолета (.35 auto, шрапнель)
+uplink-pistol-magazine-shrapnel-desc = Преміальний магазин для стрільби хмарами куль по екіпажу.
+uplink-pistol-magazine-c20r-shrapnel-name = Магазин для пістолета-кулемета (.35 auto, шрапнель)
+uplink-pistol-magazine-c20r-shrapnel-desc = Преміальний магазин на 30 набоїв для стрільби хмарами куль по екіпажу.
+uplink-pistol-magazine-caseless-incendiary-name = Магазин для пістолета (.25 безгільзовий, запальний)
+uplink-pistol-magazine-caseless-incendiary-desc = Преміальний магазин на 10 набоїв, для (тихого) пропалювання дірок у твоєму гаманці та твоїх жертвах.
+uplink-pistol-magazine-caseless-shrapnel-name = Магазин для пістолета (.25 безгільзовий, шрапнель)
+uplink-pistol-magazine-caseless-shrapnel-desc = Преміальний магазин на 10 набоїв, для (тихого) випускання хмар свинцю в екіпаж.
+uplink-magazine-caseless-incendiary-name = Магазин для пістолета-кулемета (.25 безгільзовий, запальний)
+uplink-magazine-caseless-incendiary-desc = Преміальний магазин на 30 набоїв для пропалювання дірок як у твоєму гаманці, так і в твоїх жертвах.
+uplink-magazine-caseless-shrapnel-name = Магазин для пістолета-кулемета (.25 безгільзовий, шрапнель)
+uplink-magazine-caseless-shrapnel-desc = Преміальний магазин на 30 набоїв для (тихого) випускання хмар свинцю в екіпаж.
+uplink-sniper-ammo-shrapnel-name = Коробка з боєприпасами (.60 протипіхотна шрапнель)
+uplink-sniper-ammo-shrapnel-desc = Коробка з 10 протипіхотними картечними пострілами для снайперської гвинтівки Hristov.
+
+# Корисне
+uplink-ammo-bundle-rubber-name = Набір боєприпасів (гумові)
+uplink-ammo-bundle-rubber-desc = Перезарядка! Містить 4 магазини для C-20r, 4 барабани для Bulldog і 2 коробки з боєприпасами для L6 SAW.
+uplink-ammo-bundle-incendiary-name = Набір боєприпасів (запальні)
+uplink-ammo-bundle-incendiary-desc = ПРОКИДАЙСЯ, ЧОРТ ЗАБИРАЙ, САМУРАЮ, НАМ ТРЕБА СПАЛИТИ СТАНЦІЮ!
+uplink-ammo-bundle-shrapnel-name = Набір боєприпасів (шрапнель)
+uplink-ammo-bundle-shrapnel-desc = Перезарядка! Містить 4 магазини для C-20r, 4 барабани для Bulldog і 2 коробки з боєприпасами для L6 SAW.

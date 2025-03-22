@@ -1,9 +1,9 @@
 # Metal Tiles
 - type: tile
   id: FloorMetalBlue
-  name: metal blue
+  name: "металевий синій"
   sprite: /Textures/_Nuclear14/Tiles/metalblue.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -16,9 +16,9 @@
 
 - type: tile
   id: FloorMetalBlueSolid
-  name: metal blue solid
+  name: "металл синій суцільний"
   sprite: /Textures/_Nuclear14/Tiles/metalbluesolid.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -31,9 +31,9 @@
 
 - type: tile
   id: FloorMetalGreen
-  name: metal green
+  name: "металевий зелений"
   sprite: /Textures/_Nuclear14/Tiles/metalgreen.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -46,9 +46,9 @@
 
 - type: tile
   id: FloorMetalGreenSolid
-  name: metal green solid
+  name: "металевий зелений суцільний"
   sprite: /Textures/_Nuclear14/Tiles/metalgreensolid.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -61,9 +61,9 @@
 
 - type: tile
   id: FloorMetalGrey
-  name: metal grey
+  name: "сірий металік"
   sprite: /Textures/_Nuclear14/Tiles/metalgrey.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -76,9 +76,9 @@
 
 - type: tile
   id: FloorMetalGreySolid
-  name: metal grey solid
+  name: "металл сірий суцільний"
   sprite: /Textures/_Nuclear14/Tiles/metalgreysolid.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -91,9 +91,9 @@
 
 - type: tile
   id: FloorMetalGreyDark
-  name: metal grey dark
+  name: "металевий сірий темний"
   sprite: /Textures/_Nuclear14/Tiles/metalgreydark.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -106,9 +106,9 @@
 
 - type: tile
   id: FloorMetalGreyDarkSolid
-  name: metal grey dark solid
+  name: "металевий сірий темний суцільний"
   sprite: /Textures/_Nuclear14/Tiles/metalgreydarksolid.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -121,9 +121,9 @@
 
 - type: tile
   id: FloorMetalPurple
-  name: metal purple
+  name: "металевий фіолетовий"
   sprite: /Textures/_Nuclear14/Tiles/metalpurple.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -136,9 +136,9 @@
 
 - type: tile
   id: FloorMetalPurpleSolid
-  name: metal purple solid
+  name: "металл фіолетовий твердий"
   sprite: /Textures/_Nuclear14/Tiles/metalpurplesolid.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -151,9 +151,9 @@
 
 - type: tile
   id: FloorMetalRed
-  name: metal red
+  name: "металевий червоний"
   sprite: /Textures/_Nuclear14/Tiles/metalred.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -166,9 +166,9 @@
 
 - type: tile
   id: FloorMetalRedSolid
-  name: metal red solid
+  name: "металл червоний твердий"
   sprite: /Textures/_Nuclear14/Tiles/metalredsolid.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -181,9 +181,9 @@
 
 - type: tile
   id: FloorMetalTeal
-  name: metal teal
+  name: "металевий чирок"
   sprite: /Textures/_Nuclear14/Tiles/metalteal.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -196,9 +196,9 @@
 
 - type: tile
   id: FloorMetalTealSolid
-  name: metal teal solid
+  name: "металевий чирок суцільний"
   sprite: /Textures/_Nuclear14/Tiles/metaltealsolid.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -211,9 +211,9 @@
 
 - type: tile
   id: FloorMetalWhite
-  name: metal white
+  name: "металл білий"
   sprite: /Textures/_Nuclear14/Tiles/metalwhite.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -226,9 +226,9 @@
 
 - type: tile
   id: FloorMetalWhiteSolid
-  name: metal white solid
+  name: "металл білий суцільний"
   sprite: /Textures/_Nuclear14/Tiles/metalwhitesolid.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -241,9 +241,9 @@
 
 - type: tile
   id: FloorMetalYellow
-  name: metal yellow
+  name: "металевий жовтий"
   sprite: /Textures/_Nuclear14/Tiles/metalyellow.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -256,9 +256,9 @@
 
 - type: tile
   id: FloorMetalYellowSolid
-  name: metal yellow solid
+  name: "металл жовтого кольору твердий"
   sprite: /Textures/_Nuclear14/Tiles/metalyellowsolid.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -271,9 +271,9 @@
 
 - type: tile
   id: FloorMetalFreezer
-  name: metal freezer
+  name: "металева морозильна камера"
   sprite: /Textures/_Nuclear14/Tiles/metalfreezer.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -286,9 +286,9 @@
 
 - type: tile
   id: FloorMetalTunnel
-  name: tunnel floor
+  name: "підлога тунелю"
   sprite: /Textures/_Nuclear14/Tiles/tunnelintact.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -300,9 +300,9 @@
 
 - type: tile
   id: FloorMetalTunnelRusty
-  name: rusty tunnel floor
+  name: "іржава підлога тунелю"
   sprite: /Textures/_Nuclear14/Tiles/tunnelrusty.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -314,11 +314,11 @@
 
 - type: tile
   id: FloorMetalTunnelWasteland
-  name: wasteland tunnel floor
+  name: "підлога тунелю на пустирі"
   sprite: /Textures/_Nuclear14/Tiles/tunnelwasteland.png
   variants: 11
   placementVariants: [0, 1, 2, 3, 5, 6, 7, 8, 9, 10]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -331,11 +331,11 @@
 # MS13 Metal Tiles
 - type: tile
   id: FloorMS13MetalIndustrial
-  name: ms13 metal industrial
+  name: "ms13 металл промисловий"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Steel/steel_industrial.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   itemDrop: FloorTileItemMetalIndustrial
@@ -348,11 +348,11 @@
 
 - type: tile
   id: FloorMS13MetalTile
-  name: ms13 metal tile
+  name: "металочерепиця ms13"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Steel/steel_tiles.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   itemDrop: FloorTileItemMetalMS13
@@ -365,11 +365,11 @@
 
 - type: tile
   id: FloorMS13MetalGrate
-  name: ms13 metal grate
+  name: "металева решітка ms13"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Steel/steel_grate.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   itemDrop: FloorTileItemMetalGrate
@@ -382,11 +382,11 @@
 
 - type: tile
   id: FloorMS13MetalSolid
-  name: ms13 metal solid
+  name: "ms13 металл суцільний"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Steel/steel_solid.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   itemDrop: FloorTileItemMetalSolid
@@ -400,11 +400,11 @@
 # Interior
 - type: tile
   id: FloorWoodOak
-  name: wood oak
+  name: "деревина дуба"
   sprite: /Textures/_Nuclear14/Tiles/oak.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -417,11 +417,11 @@
 
 - type: tile
   id: FloorWoodOakBroken
-  name: wood oak broken
+  name: "деревина дуб ламаний"
   sprite: /Textures/_Nuclear14/Tiles/oakbroken.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -433,11 +433,11 @@
 
 - type: tile
   id: FloorWoodHouse
-  name: wood house
+  name: "дерев'яний будинок"
   sprite: /Textures/_Nuclear14/Tiles/woodhouse.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -450,11 +450,11 @@
 
 - type: tile
   id: FloorWoodHouseBroken
-  name: wood house broken
+  name: "дерев'яний будинок розбитий"
   sprite: /Textures/_Nuclear14/Tiles/woodhousebroken.png
   variants: 2
   placementVariants: [0, 1]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -466,11 +466,11 @@
 
 - type: tile
   id: FloorWoodBurntBroken
-  name: wood burnt broken
+  name: "деревина згоріла зламана"
   sprite: /Textures/_Nuclear14/Tiles/woodburntbroken.png
   variants: 7
   placementVariants: [0, 1, 2, 3, 4, 5, 6]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -482,11 +482,11 @@
 
 - type: tile
   id: FloorWoodMaple
-  name: wood maple
+  name: "клен"
   sprite: /Textures/_Nuclear14/Tiles/maple.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -500,11 +500,11 @@
 # MS13 wood
 - type: tile
   id: FloorMS13WoodCommon
-  name: ms13 wood common
+  name: "ms13 дерево звичайне"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Wood/wood_common.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -517,11 +517,11 @@
 
 - type: tile
   id: FloorMS13WoodCommonDamaged
-  name: ms13 wood common damaged
+  name: "ms13 деревина звичайна пошкоджена"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Wood/wood_common_damaged.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -534,11 +534,11 @@
 
 - type: tile
   id: FloorMS13WoodFancy
-  name: ms13 wood fancy
+  name: "ms13 дерев'яна фантазія"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Wood/wood_fancy.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -551,11 +551,11 @@
 
 - type: tile
   id: FloorMS13WoodFancyDamaged
-  name: ms13 wood fancy damaged
+  name: "ms13 дерев'яна фантазія пошкоджена"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Wood/wood_fancy_damaged.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -568,11 +568,11 @@
 
 - type: tile
   id: FloorMS13WoodMosaic
-  name: ms13 wood mosaic
+  name: "ms13 дерев'яна мозаїка"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Wood/wood_mosaic.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -585,11 +585,11 @@
 
 - type: tile
   id: FloorMS13WoodMosaicDamaged
-  name: ms13 wood mosaic damaged
+  name: "пошкоджено дерев'яну мозаїку ms13"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Wood/wood_mosaic_damaged.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -602,11 +602,11 @@
 
 - type: tile
   id: FloorMS13WoodWide
-  name: ms13 wood wide
+  name: "ms13 дерево широке"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Wood/wood_wide.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -619,11 +619,11 @@
 
 - type: tile
   id: FloorMS13WoodWideDamaged
-  name: ms13 wood wide damaged
+  name: "ms13 деревина широка пошкоджена"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Wood/wood_wide_damaged.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -637,9 +637,9 @@
 # Carpet
 - type: tile
   id: FloorCarpetRed
-  name: carpet red
+  name: "килим червоний"
   sprite: /Textures/_Nuclear14/Tiles/carpet.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -653,9 +653,9 @@
 # MS13 Carpet
 - type: tile
   id: FloorMS13CarpetRed
-  name: ms13 carpet red
+  name: "ms13 килимовий червоний"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Carpet/carpet_red.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -668,9 +668,9 @@
 
 - type: tile
   id: FloorMS13CarpetFancyRed
-  name: ms13 carpet fancy red
+  name: "ms13 килим фантазійний червоний"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Carpet/carpet_fancy_red.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -683,9 +683,9 @@
 
 - type: tile
   id: FloorMS13CarpetBlue
-  name: ms13 carpet blue
+  name: "ms13 килим синій"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Carpet/carpet_blue.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -698,9 +698,9 @@
 
 - type: tile
   id: FloorMS13CarpetFancyBlue
-  name: ms13 carpet fancy blue
+  name: "ms13 килим фантазійний синій"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Carpet/carpet_fancy_blue.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -713,9 +713,9 @@
 
 - type: tile
   id: FloorMS13CarpetGreen
-  name: ms13 carpet green
+  name: "ms13 килим зелений"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Carpet/carpet_green.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -728,9 +728,9 @@
 
 - type: tile
   id: FloorMS13CarpetFancyGreen
-  name: ms13 carpet fancy green
+  name: "ms13 килим фантазійний зелений"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Carpet/carpet_fancy_green.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -743,9 +743,9 @@
 
 - type: tile
   id: FloorMS13CarpetViolet
-  name: ms13 carpet violet
+  name: "ms13 килимовий фіолетовий"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Carpet/carpet_violet.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
   footstepSounds:
@@ -760,11 +760,11 @@
 # Concrete
 - type: tile
   id: N14FloorConcrete
-  name: concrete
+  name: "бетон"
   sprite: /Textures/_Nuclear14/Tiles/concrete.png
   variants: 6
   placementVariants: [0, 1, 2, 3, 4, 5]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcrete
@@ -775,10 +775,10 @@
 
 - type: tile
   id: N14FloorConcreteTileGoon
-  name: concrete tile
+  name: "бетонна плитка"
   sprite: /Textures/_Nuclear14/Tiles/concrete-goon.png
   variants: 1
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcrete
@@ -789,10 +789,10 @@
 
 - type: tile
   id: N14FloorConcreteGreyBay
-  name: concrete grey
+  name: "бетонно-сірий"
   sprite: /Textures/_Nuclear14/Tiles/concrete-bay.png
   variants: 1
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcrete
@@ -803,10 +803,10 @@
 
 - type: tile
   id: N14FloorConcreteHexacrete
-  name: concrete hexacrete
+  name: "бетон гексабетон"
   sprite: /Textures/_Nuclear14/Tiles/hexacrete.png
   variants: 1
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcrete
@@ -817,9 +817,9 @@
 
 - type: tile
   id: N14FloorConcreteHexacreteDark
-  name: concrete hexacrete dark
+  name: "бетон гексабетон темний"
   sprite: /Textures/_Nuclear14/Tiles/hexacrete_dark.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcrete
@@ -830,11 +830,11 @@
 
 - type: tile
   id: N14FloorConcreteDark
-  name: concrete dark
+  name: "бетон темний"
   sprite: /Textures/_Nuclear14/Tiles/concretedark.png
   variants: 6
   placementVariants: [0, 1, 2, 3, 4, 5]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcrete
@@ -845,11 +845,11 @@
 
 - type: tile
   id: N14FloorConcreteRoad
-  name: concrete road
+  name: "бетонна дорога"
   sprite: /Textures/_Nuclear14/Tiles/concreteroad.png
   variants: 6
   placementVariants: [0, 1, 2, 3, 4, 5]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcrete
@@ -861,11 +861,11 @@
 # MS13 Concrete & Brick
 - type: tile
   id: FloorMS13BrickConcrete
-  name: ms13 brick concrete
+  name: "мс13 цегляний бетон"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Concrete/brickconcrete.png
   variants: 9
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7, 8]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcreteBroken
@@ -876,11 +876,11 @@
 
 - type: tile
   id: FloorMS13BrickHorizontal
-  name: ms13 brick horizontal
+  name: "ms13 цегла горизонтальна"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Brick/brickhorizontal.png
   variants: 9
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7, 8]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcreteBroken
@@ -890,11 +890,11 @@
 
 - type: tile
   id: FloorMS13BrickVertical
-  name: ms13 brick vertical
+  name: "ms13 цегла вертикальна"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Brick/brickvertical.png
   variants: 9
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7, 8]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcreteBroken
@@ -905,9 +905,9 @@
 
 - type: tile
   id: FloorMS13Concrete
-  name: ms13 concrete
+  name: "бетон ms13"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Concrete/concrete_big.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcrete
@@ -918,9 +918,9 @@
 
 - type: tile
   id: FloorMS13ConcreteIndustrial
-  name: ms13 concrete industrial
+  name: "ms13 бетон промисловий"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Concrete/concrete_industrial.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcrete
@@ -931,9 +931,9 @@
 
 - type: tile
   id: FloorMS13ConcreteIndustrialAlt
-  name: ms13 concrete industrial alt
+  name: "ms13 бетон промисловий alt"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Concrete/concrete_industrial_alt.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcrete
@@ -944,9 +944,9 @@
 
 - type: tile
   id: FloorMS13ConcreteIndustrialSplit
-  name: ms13 concrete industrial split
+  name: "ms13 бетонний промисловий розкол"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Concrete/concrete_industrial_split.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcrete
@@ -957,11 +957,11 @@
 
 - type: tile
   id: FloorMS13TileConcreteSmall
-  name: ms13 tile concrete small
+  name: "ms13 плитка бетонна мала"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Concrete/tileconcretesmall.png
   variants: 3
   placementVariants: [0, 1, 2]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: N14FootstepConcrete
@@ -973,9 +973,9 @@
 # MS13 Tiles
 - type: tile
   id: FloorMS13TileFancy
-  name: ms13 tile fancy
+  name: "ms13 плитка фантазія"
   sprite: /Textures/_Nuclear14/Tiles/ms13/fancy.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: N14FootstepConcrete
@@ -986,9 +986,9 @@
 
 - type: tile
   id: FloorMS13TileSierra
-  name: ms13 tile sierra
+  name: "ms13 плитка sierra"
   sprite: /Textures/_Nuclear14/Tiles/ms13/sierra.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: N14FootstepConcrete
@@ -999,11 +999,11 @@
 
 - type: tile
   id: FloorMS13TileSierraBroken
-  name: ms13 tile sierra broken
+  name: "ms13 плитка sierra зламана"
   sprite: /Textures/_Nuclear14/Tiles/ms13/sierrabroken.png
   variants: 3
   placementVariants: [0, 1, 2]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: N14FootstepConcreteBroken
@@ -1014,11 +1014,11 @@
 
 - type: tile
   id: FloorMS13TileBlack
-  name: ms13 tile black
+  name: "ms13 плитка чорна"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Small/tileblack.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1029,11 +1029,11 @@
 
 - type: tile
   id: FloorMS13TileBlackFull
-  name: ms13 tile black full
+  name: "ms13 плитка чорна повна"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Full/tileblackfull.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1044,11 +1044,11 @@
 
 - type: tile
   id: FloorMS13TileBlackLarge
-  name: ms13 tile black large
+  name: "ms13 плитка чорна велика"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Large/tileblacklarge.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1059,11 +1059,11 @@
 
 - type: tile
   id: FloorMS13TileLongBlue
-  name: ms13 tile long blue
+  name: "ms13 плитка довга синя"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Long/tilebluelong.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1074,11 +1074,11 @@
 
 - type: tile
   id: FloorMS13TileBrown
-  name: ms13 tile brown
+  name: "ms13 плитка коричнева"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Small/tilebrown.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1089,11 +1089,11 @@
 
 - type: tile
   id: FloorMS13TileCafe
-  name: ms13 tile cafe
+  name: "кафе з плитки ms13"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Large/tilecafe.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1104,9 +1104,9 @@
 
 - type: tile
   id: FloorMS13TileCeramic
-  name: ms13 tile ceramic
+  name: "ms13 плитка керамічна"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Large/tileceramic.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1117,11 +1117,11 @@
 
 - type: tile
   id: FloorMS13TileCeramicBroken
-  name: ms13 tile ceramic broken
+  name: "ms13 плитка керамічна розбита"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Large/tileceramicbroken.png
   variants: 7
   placementVariants: [0, 1, 2, 3, 4, 5, 6]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1132,11 +1132,11 @@
 
 - type: tile
   id: FloorMS13TileCheck
-  name: ms13 tile check
+  name: "ms13 перевірка плитки"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Large/tilecheck.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1147,11 +1147,11 @@
 
 - type: tile
   id: FloorMS13TileGreen
-  name: ms13 tile green
+  name: "ms13 плитка зелена"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Large/tilegreen.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1162,11 +1162,11 @@
 
 - type: tile
   id: FloorMS13TileGreenFull
-  name: ms13 tile green full
+  name: "ms13 плитка зелена повна"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Full/tilegreenfull.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1177,11 +1177,11 @@
 
 - type: tile
   id: FloorMS13TileGrey
-  name: ms13 tile grey
+  name: "ms13 плитка сіра"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Small/tilegrey.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1192,11 +1192,11 @@
 
 - type: tile
   id: FloorMS13TileGreyLarge
-  name: ms13 tile grey large
+  name: "ms13 плитка сіра велика"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Large/tilegreylarge.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1207,11 +1207,11 @@
 
 - type: tile
   id: FloorMS13TileGreyLong
-  name: ms13 tile grey long
+  name: "ms13 плитка сіра довга"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Long/tilegreylong.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1222,11 +1222,11 @@
 
 - type: tile
   id: FloorMS13TileNavy
-  name: ms13 tile navy
+  name: "ms13 плитка морська"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Small/tilenavy.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1237,11 +1237,11 @@
 
 - type: tile
   id: FloorMS13TileNavyFull
-  name: ms13 tile navy full
+  name: "ms13 плитка морська повна"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Full/tilenavyfull.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1252,11 +1252,11 @@
 
 - type: tile
   id: FloorMS13TileNavyLarge
-  name: ms13 tile navy large
+  name: "ms13 плитка морська велика"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Large/tilenavylarge.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1267,11 +1267,11 @@
 
 - type: tile
   id: FloorMS13TileWhiteLarge
-  name: ms13 tile white large
+  name: "ms13 плитка біла велика"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Large/tilewhitelarge.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1282,11 +1282,11 @@
 
 - type: tile
   id: FloorMS13TileWhiteFull
-  name: ms13 tile white full
+  name: "ms13 плитка біла повна"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Full/tilewhitefull.png
   variants: 8
   placementVariants: [0, 1, 2, 3, 4, 5, 6, 7]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1297,11 +1297,11 @@
 
 - type: tile
   id: FloorMS13TileOrnate
-  name: ms13 tile ornate
+  name: "ms13 плитка орнаментована"
   sprite: /Textures/_Nuclear14/Tiles/ms13/tileornate.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: false
   footstepSounds:
     collection: FootstepFloor
@@ -1313,9 +1313,9 @@
 # Roads
 - type: tile
   id: N14FloorRoadInnerMiddle
-  name: road inner middle
+  name: "дорога внутрішня середина"
   sprite: /Textures/_Nuclear14/Tiles/roadinnermiddle.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1326,9 +1326,9 @@
 
 - type: tile
   id: N14FloorRoadOuterMiddlePath
-  name: road outer middle (path)
+  name: "дорога зовнішня середина (шлях)"
   sprite: /Textures/_Nuclear14/Tiles/roadoutermiddle.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1339,9 +1339,9 @@
 
 - type: tile
   id: N14FloorRoadCorner1
-  name: road corner1
+  name: "поворот дороги1"
   sprite: /Textures/_Nuclear14/Tiles/roadcorner1.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1352,9 +1352,9 @@
 
 - type: tile
   id: N14FloorRoadCorner2
-  name: road corner2
+  name: "поворот дороги2"
   sprite: /Textures/_Nuclear14/Tiles/roadcorner2.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1365,9 +1365,9 @@
 
 - type: tile
   id: N14FloorRoadCorner3
-  name: road corner3
+  name: "поворот дороги3"
   sprite: /Textures/_Nuclear14/Tiles/roadcorner3.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1378,9 +1378,9 @@
 
 - type: tile
   id: N14FloorRoadCorner4
-  name: road corner4
+  name: "поворот дороги4"
   sprite: /Textures/_Nuclear14/Tiles/roadcorner4.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1391,9 +1391,9 @@
 
 - type: tile
   id: N14FloorRoadBottom
-  name: road bottom
+  name: "дно дороги"
   sprite: /Textures/_Nuclear14/Tiles/roadbottom.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1404,9 +1404,9 @@
 
 - type: tile
   id: N14FloorRoadLeft
-  name: road left
+  name: "дорога ліворуч"
   sprite: /Textures/_Nuclear14/Tiles/roadleft.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1417,9 +1417,9 @@
 
 - type: tile
   id: N14FloorRoadRight
-  name: road right
+  name: "дорога праворуч"
   sprite: /Textures/_Nuclear14/Tiles/roadright.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1430,9 +1430,9 @@
 
 - type: tile
   id: N14FloorRoadTop
-  name: road top
+  name: "вершина дороги"
   sprite: /Textures/_Nuclear14/Tiles/roadtop.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1443,9 +1443,9 @@
 
 - type: tile
   id: N14FloorRoadOuterTurnNorth
-  name: road outer turn north
+  name: "зовнішній поворот дороги на північ"
   sprite: /Textures/_Nuclear14/Tiles/roadouterturnn.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1456,9 +1456,9 @@
 
 - type: tile
   id: N14FloorRoadOuterTurnSouth
-  name: road outer turn south
+  name: "зовнішній поворот дороги на південь"
   sprite: /Textures/_Nuclear14/Tiles/roadouterturns.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1469,9 +1469,9 @@
 
 - type: tile
   id: N14FloorRoadOuterTurnWest
-  name: road outer turn west
+  name: "дорога зовнішній поворот на захід"
   sprite: /Textures/_Nuclear14/Tiles/roadouterturnw.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1482,9 +1482,9 @@
 
 - type: tile
   id: N14FloorRoadOuterTurnEast
-  name: road outer turn east
+  name: "зовнішній поворот дороги на схід"
   sprite: /Textures/_Nuclear14/Tiles/roadouterturne.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1495,9 +1495,9 @@
 
 - type: tile
   id: N14FloorRoadOuterCorner1
-  name: road outer corner 1
+  name: "зовнішній поворот дороги 1"
   sprite: /Textures/_Nuclear14/Tiles/roadoutercorner1.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1508,9 +1508,9 @@
 
 - type: tile
   id: N14FloorRoadOuterCorner2
-  name: road outer corner 2
+  name: "зовнішній поворот дороги 2"
   sprite: /Textures/_Nuclear14/Tiles/roadoutercorner2.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1521,9 +1521,9 @@
 
 - type: tile
   id: N14FloorRoadOuterCorner3
-  name: road outer corner 3
+  name: "зовнішній поворот дороги 3"
   sprite: /Textures/_Nuclear14/Tiles/roadoutercorner3.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1534,9 +1534,9 @@
 
 - type: tile
   id: N14FloorRoadOuterCorner4
-  name: road outer corner 4
+  name: "зовнішній поворот дороги 4"
   sprite: /Textures/_Nuclear14/Tiles/roadoutercorner4.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1547,9 +1547,9 @@
 
 - type: tile
   id: N14FloorRoadInnerTurn1
-  name: road inner turn 1
+  name: "внутрішній поворот дороги 1"
   sprite: /Textures/_Nuclear14/Tiles/roadinnerturn1.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1560,9 +1560,9 @@
 
 - type: tile
   id: N14FloorRoadInnerTurn2
-  name: road inner turn 2
+  name: "дорога внутрішній поворот 2"
   sprite: /Textures/_Nuclear14/Tiles/roadinnerturn2.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1573,9 +1573,9 @@
 
 - type: tile
   id: N14FloorRoadInnerTurn3
-  name: road inner turn 3
+  name: "дорога внутрішній поворот 3"
   sprite: /Textures/_Nuclear14/Tiles/roadinnerturn3.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1586,9 +1586,9 @@
 
 - type: tile
   id: N14FloorRoadInnerTurn4
-  name: road inner turn 4
+  name: "дорога внутрішній поворот 4"
   sprite: /Textures/_Nuclear14/Tiles/roadinnerturn4.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1599,9 +1599,9 @@
 
 - type: tile
   id: N14FloorRoadTinyCornerHorizontal1
-  name: road tiny corner horizontal 1
+  name: "дорожній маленький куточок горизонтальний 1"
   sprite: /Textures/_Nuclear14/Tiles/roadtinycornerhorizontal1.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1612,9 +1612,9 @@
 
 - type: tile
   id: N14FloorRoadTinyCornerHorizontal2
-  name: road tiny corner horizontal 2
+  name: "дорожній маленький куточок горизонтальний 2"
   sprite: /Textures/_Nuclear14/Tiles/roadtinycornerhorizontal2.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1625,9 +1625,9 @@
 
 - type: tile
   id: N14FloorRoadTinyCornerHorizontal3
-  name: road tiny corner horizontal 3
+  name: "дорожній маленький куточок горизонтальний 3"
   sprite: /Textures/_Nuclear14/Tiles/roadtinycornerhorizontal3.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1638,9 +1638,9 @@
 
 - type: tile
   id: N14FloorRoadTinyCornerHorizontal4
-  name: road tiny corner horizontal 4
+  name: "дорожній маленький куточок горизонтальний 4"
   sprite: /Textures/_Nuclear14/Tiles/roadtinycornerhorizontal4.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1651,9 +1651,9 @@
 
 - type: tile
   id: N14FloorRoadTinyCornerVertical1
-  name: road tiny corner vertical 1
+  name: "дорожній маленький кут вертикальний 1"
   sprite: /Textures/_Nuclear14/Tiles/roadtinycornervertical1.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1664,9 +1664,9 @@
 
 - type: tile
   id: N14FloorRoadTinyCornerVertical2
-  name: road tiny corner vertical 2
+  name: "дорожній куточок вертикальний 2"
   sprite: /Textures/_Nuclear14/Tiles/roadtinycornervertical2.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1677,9 +1677,9 @@
 
 - type: tile
   id: N14FloorRoadTinyCornerVertical3
-  name: road tiny corner vertical 3
+  name: "дорожній крихітний кут вертикальний 3"
   sprite: /Textures/_Nuclear14/Tiles/roadtinycornervertical3.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1690,9 +1690,9 @@
 
 - type: tile
   id: N14FloorRoadTinyCornerVertical4
-  name: road tiny corner vertical 4
+  name: "дорожній крихітний кут вертикальний 4"
   sprite: /Textures/_Nuclear14/Tiles/roadtinycornervertical4.png
-  baseTurf: FloorWasteland
+  baseTurf: Plating
   isSubfloor: true
   footstepSounds:
     collection: FootstepFloor
@@ -1704,7 +1704,7 @@
 # Wasteland
 - type: tile
   id: FloorWasteland
-  name: wasteland
+  name: "пустир"
   sprite: /Textures/_Nuclear14/Tiles/wasteland.png
   variants: 4
   placementVariants: [0, 1, 2, 3]
@@ -1720,7 +1720,7 @@
 
 - type: tile
   id: FloorDirtNew
-  name: dirt
+  name: "бруд"
   sprite: /Textures/_Nuclear14/Tiles/Dirt/dirt.png
   edgeSpritePriority: 1
   edgeSprites:
@@ -1741,7 +1741,7 @@
 
 - type: tile
   id: FloorDirtIndoors
-  name: dirt indoors
+  name: "бруд у приміщенні"
   sprite: /Textures/_Nuclear14/Tiles/Dirt/dirt.png
   edgeSpritePriority: 1
   edgeSprites:
@@ -1762,7 +1762,7 @@
 
 - type: tile
   id: FloorRubble
-  name: rubble
+  name: "уламки"
   sprite: /Textures/_Nuclear14/Tiles/Rubble/rubble.png
   variants: 4
   edgeSpritePriority: 1
@@ -1784,7 +1784,7 @@
 
 - type: tile
   id: FloorRubbleIndoors
-  name: rubble indoors
+  name: "завали в приміщенні"
   sprite: /Textures/_Nuclear14/Tiles/Rubble/rubble.png
   variants: 4
   edgeSpritePriority: 1
@@ -1807,7 +1807,7 @@
 #  Water
 - type: tile
   id: WaterRiver
-  name: river water
+  name: "річкова вода"
   sprite: /Textures/_Nuclear14/Tiles/riverwater.png
   variants: 32
   placementVariants: [0, 1, 2, 3]
@@ -1824,7 +1824,7 @@
 
 - type: tile
   id: WaterDeep
-  name: water deep
+  name: "вода глибока"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Water/water_deep.png
   friction: 0.01
   isSubfloor: true
@@ -1839,7 +1839,7 @@
 
 - type: tile
   id: WaterMedium
-  name: water medium
+  name: "водне середовище"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Water/water_medium.png
   friction: 0.01
   isSubfloor: true
@@ -1854,7 +1854,7 @@
 
 - type: tile
   id: WaterShallow
-  name: water shallow
+  name: "вода неглибока"
   sprite: /Textures/_Nuclear14/Tiles/ms13/Water/water_shallow.png
   friction: 0.01
   isSubfloor: true

@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: CargoTelepad
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: cargo telepad
-  description: Beam in the pizzas and dig in.
+  name: "вантажний пульт"
+  description: "Принесіть піцу і приступайте до роботи."
   components:
   - type: InteractionOutline
   - type: Physics
@@ -22,7 +22,7 @@
           - MachineMask
   - type: Sprite
     sprite: Structures/cargo_telepad.rsi
-    drawdepth: FloorObjects
+    drawdepth: HighFloorObjects
     layers:
     - state: offline
       map: [ "enum.CargoTelepadLayers.Base" ]

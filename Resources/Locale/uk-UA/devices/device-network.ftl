@@ -53,3 +53,8 @@ device-frequency-prototype-name-cyborg-control = Кіборг-контроль
 device-frequency-prototype-name-robotics-console = Консоль робототехніки
 
 ## частоти камер
+device-frequency-prototype-name-turret = Турель-охоронник
+device-frequency-prototype-name-turret-control = Управління туреллю-охоронцем
+
+## Частоти камер
+device-address-prefix-turret = TRT-

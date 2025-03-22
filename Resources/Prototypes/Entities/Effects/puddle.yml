@@ -86,7 +86,7 @@
 
 - type: entity
   id: PuddleSparkle
-  name: sparkle
+  name: "блиск"
   placement:
     mode: SnapgridCenter
   components:
@@ -101,13 +101,13 @@
       layers:
         - sprite: Fluids/wet_floor_sparkles.rsi
           state: sparkles
-      drawdepth: FloorObjects
+      drawdepth: Puddles
       color: "#FFFFFF80"
 
 - type: entity
-  name: puddle
+  name: "калюжа"
   id: Puddle
-  description: A puddle of liquid.
+  description: "Калюжа рідини."
   placement:
     mode: SnapgridCenter
   components:
@@ -121,17 +121,12 @@
     layers:
     - sprite: Fluids/puddle.rsi
       state: splat0
-    drawdepth: FloorObjects
+    drawdepth: Puddles
     color: "#FFFFFF80"
   - type: Physics
     bodyType: Static
   - type: Fixtures
     fixtures:
-      # Context / examine fixture
-      fix1:
-        shape:
-          !type:PhysShapeCircle
-          radius: 0.25
       slipFixture:
         shape:
           !type:PhysShapeAabb
@@ -174,10 +169,10 @@
   - type: PuddleFootPrints
 
 - type: entity
-  name: footstep
+  name: "крок"
   id: Footstep
   save: false
-  description: Trace of liquid.
+  description: "Сліди рідини."
   components:
     - type: Clickable
     - type: FootstepModifier

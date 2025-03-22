@@ -18,3 +18,4 @@ cosmicability-monument-spawn-error-space = Занадто близько до к
 
 cosmicability-monument-move-confirm = ЦЮ ДІЮ МОЖНА ВИКОРИСТАТИ ЛИШЕ ОДИН РАЗ! Використай її знову для підтвердження.
 cosmicability-glare-confirm = Натисніть ще раз, щоб активувати Нульовий Погляд.
+cosmicability-siphon-full = Ти не можеш утримувати більше Ентропії!
