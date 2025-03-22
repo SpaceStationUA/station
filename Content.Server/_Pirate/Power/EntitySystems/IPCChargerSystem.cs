@@ -29,7 +29,7 @@ namespace Content.Server._Pirate.Power.EntitySystems
                 return;
             var appearance = EntityManager.GetComponentOrNull<AppearanceComponent>(uid);
             var soundSpec = new SoundPathSpecifier("/Audio/Effects/PowerSink/charge_fire.ogg");
-            _appearence.SetData(uid, PowerChargeVisuals.Active, PowerChargeStatus.Off); //TODO: Fix visuals changing
+            _appearence.SetData(uid, PowerChargeVisuals.Active, PowerChargeStatus.Off, appearance); //TODO: Fix visuals changing
             _battery.SetCharge(args.User, batteryComponent.CurrentCharge + component.ChargeAmount, batteryComponent);
             _sound.PlayPvs(soundSpec, uid);
             component.Useable = false;
