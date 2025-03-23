@@ -1,8 +1,8 @@
 - type: entity
   parent: GasFilter
   id: GasFilterHighFlow
-  name: high flow gas filter
-  description: Very useful for filtering gases. It can handle three times the volume of a standard filter, which makes it suitable for use in Supermatter engines.
+  name: "газовий фільтр високого потоку"
+  description: "Дуже корисний для фільтрації газів. Він може обробляти втричі більший об'єм, ніж стандартний фільтр, що робить його придатним для використання в надматеріальних двигунах."
   placement:
     mode: SnapgridCenter
   components:
@@ -14,7 +14,7 @@
 - type: entity
   parent: GasFilterFlipped
   id: GasFilterFlippedHighFlow
-  name: high flow gas filter
+  name: "газовий фільтр високого потоку"
   suffix: Flipped
   placement:
     mode: SnapgridCenter
@@ -27,8 +27,8 @@
 - type: entity
   parent: GasMixer
   id: GasMixerHighFlow
-  name: high pressure gas mixer
-  description: Used for mixing gasses at the extreme pressures required by Supermatter engines.
+  name: "газовий змішувач високого тиску"
+  description: "Використовується для змішування газів при надвисокому тиску, необхідному для надматеріальних двигунів."
   placement:
     mode: SnapgridCenter
   components:
@@ -38,7 +38,7 @@
 - type: entity
   parent: GasMixerFlipped
   id: GasMixerFlippedHighFlow
-  name: high pressure gas mixer
+  name: "газовий змішувач високого тиску"
   suffix: Flipped
   placement:
     mode: SnapgridCenter
@@ -49,8 +49,8 @@
 - type: entity
   parent: PressureControlledValve
   id: PressureControlledValveHighFlow
-  name: blow-off valve
-  description: A variant on a pneumatic valve designed for fire suppression of Supermatter engines. When the pressure in its flow direction exceeds the "reference" pressure on its side, the valve opens.
+  name: "запобіжний клапан"
+  description: "Варіант пневматичного клапана, призначений для пожежогасіння надматеріальних двигунів. Коли тиск у напрямку його потоку перевищує \"еталонний\" тиск збоку, клапан відкривається."
   placement:
     mode: SnapgridCenter
   components:
