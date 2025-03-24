@@ -90,7 +90,7 @@
 
 - type: entity
   id: MagazineMagnumRubber
-  name: "пістолетний магазин (.45 магнум гума)"
+  name: "пістолетний магазин (.45 магнум гумовий)"
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -104,7 +104,7 @@
 
 - type: entity
   id: MagazineMagnumIncendiary
-  name: "магазин до пістолета (запальний .45 магнум)"
+  name: "пістолетний магазин (.45 магнум запальний)"
   parent: BaseMagazineMagnum
   components:
   - type: BallisticAmmoProvider
@@ -140,6 +140,20 @@
   - type: Sprite
     layers:
     - state: piercing
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineMagnumShrapnel
+  name: "пістолетний магазин (.45 магнум, шрапнельний)"
+  parent: BaseMagazineMagnum
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumShrapnel
+  - type: Sprite
+    layers:
+    - state: red
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
@@ -187,7 +201,7 @@
 
 - type: entity
   id: MagazineMagnumSubMachineGunRubber
-  name: "Магазин Vector (гума .45 магнум)"
+  name: "магазин Vector (.45 магнум гумовий)"
   parent: BaseMagazineMagnumSubMachineGun
   components:
   - type: BallisticAmmoProvider

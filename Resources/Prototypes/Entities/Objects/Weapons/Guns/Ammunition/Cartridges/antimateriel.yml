@@ -18,3 +18,11 @@
   - type: SpentAmmoVisuals
   - type: StaticPrice
     price: 20
+
+- type: entity
+  parent: CartridgeAntiMateriel
+  id: CartridgeAntiMaterielShrapnel
+  name: "патрон (.60 протипіхотний, шрапнельний)"
+  components:
+  - type: CartridgeAmmo
+    proto: BulletAntiMaterielShrapnelSpread

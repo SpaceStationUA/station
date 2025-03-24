@@ -2,7 +2,7 @@
   parent: FoodEggBase
   id: DragonEgg
   name: "яйце дракона"
-  description: "Скількох ви вбили, щоб отримати одне з цих яєць?"
+  description: "Скількох ти вбив, щоб отримати одне з цих яєць."
   components:
   - type: Sprite
     sprite: _NF/Objects/Consumable/Food/dragon_egg.rsi
@@ -64,10 +64,10 @@
     price: 20000
 
 - type: entity
-  name: "шкаралупа драконячих яєць"
+  name: "шкаралупа яєць дракона"
   parent: BaseItem
   id: DragonEggshells
-  description: "Ти пройдешся по ним, друже."
+  description: "Ти ходиш по них, друже."
   components:
   - type: Sprite
     sprite: _NF/Objects/Consumable/Food/dragon_egg.rsi
@@ -91,7 +91,7 @@
 
 - type: entity #This is only for the hatching animation since this is an in between from picking the ghost role and becoming the dragon
   id: MobSpawnBabyDragon
-  name: "дракон, що породжує мобів"
+  name: "спавнер драконів"
   categories: [ HideSpawnMenu ]
   components:
   - type: Transform

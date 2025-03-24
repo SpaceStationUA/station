@@ -100,7 +100,7 @@ cosmiccult-rift-alreadyempowered = Вам не потрібно поглинат
 cosmiccult-rift-beginabsorb = Ви починаєте поглинати зловісний розлом..
 cosmiccult-rift-beginpurge = Ви починаєте очищати зловісний розлом..
 
-cosmiccult-rift-absorb = Ви поглинаєте зловісний розлом, посилюючи себе.
+cosmiccult-rift-absorb = Ви поглинаєте зловісний розлом, посилюючи себе
 cosmiccult-rift-purge = Ви очищуєте зловісний розлом.
 
 
@@ -109,7 +109,7 @@ cosmiccult-rift-purge = Ви очищуєте зловісний розлом.
 
 cosmiccult-ui-deconverted-title = Деконвертовано
 cosmiccult-ui-converted-title = Конвертовано
-cosmiccult-ui-roundstart-title = Невідоме
+cosmiccult-ui-roundstart-title = Невідомий
 
 cosmiccult-ui-converted-text-1 = Вас було навернено в Космічного Культиста.
 cosmiccult-ui-converted-text-2 = Допомагайте культу в його цілях, забезпечуючи його таємність.
@@ -158,3 +158,36 @@ cosmiccult-announce-victory-summon = ЧАСТИНУ КОСМІЧНОЇ СИЛИ 
 cosmiccult-spire-entropy = Частинка ентропії конденсується з поверхні шпиля.
 cosmiccult-entropy-inserted = Ви вливаєте {$count} ентропії в Монумент.
 cosmiccult-astral-ascendant = {$NAME}, Вознесений
+
+cosmiccult-finale-autocall-briefing = Фінал розпочнеться за {$minutesandseconds}, зберіть культ та підготуйтеся до кінця!
+cosmiccult-monument-stage2-briefing = Монумент набирає сили!
+    Його вплив позначиться на реальному просторі через {$time} секунд.
+cosmiccult-monument-stage3-briefing = Монумент завершено!
+    Його вплив почне перетинатися з реальним простором через {$time} секунд.
+    Це фінальний ривок! Накопичіть якомога більше ентропії.
+
+## ЗЛОВІСНІ РОЗЛОМИ
+cosmiccult-entropy-unavailable = Ви не можете цього зробити зараз.
+cosmiccult-monument-powerdown = Монумент замовкає...
+
+## ТЕКСТ В КІНЦІ РАУНДУ
+cosmiccult-elimination-shuttle-call = Згідно з даними наших дальніх датчиків, аномалія Λ-CDM вщухла. Ми викличемо аварійний шатл, який прибуде незабаром. Очікуваний час прибуття: {$time} {$units}. Ви можете відкликати шатл, щоб продовжити зміну.
+cosmiccult-elimination-announcement = Згідно зі скануванням наших далекобійних датчиків, аномалія Λ-CDM зникла. Шатл вже викликано.
+
+
+## ІНСТРУКТАЖІ
+cosmiccult-finale-degen = Ти відчуваєш, як розпадаєшся!
+cosmiccult-monument-stage1-briefing = Монумент було покликано.
+    Він розташований: {$location}!
+cosmiccult-gear-pickup-rejection = {$ITEM} відмовляється від дотику {CAPITALIZE(THE($TARGET))}!
+cosmiccult-vote-leadership-initiator = Невідоме
+cosmiccult-vote-leadership-title = Управління Космічним Культом
+cosmiccult-finale-speedup = Поклик прискорюється! Енергія вирує навкруги...
+osmiccult-rift-inuse = Ти не можеш цього зробити зараз.
+cosmiccult-announce-finale-warning = Увага всьому екіпажу. Аномалія Λ-CDM переходить у надкритичний стан, прилади виходять з ладу; неминучий горизонт подій переходу з синього простору в реальний. Якщо ви ще не застосували контрпротокол, негайно вилітайте та втручайтеся. Повторюю: негайно втручайтеся або загинете.
+cosmiccult-vote-steward-initiator = Невідоме
+cosmiccult-vote-steward-title = Управління Космічним Культом
+cosmiccult-vote-steward-briefing = Ти - Управитель Космічного Культу!
+    Переконайся, що Монумент розміщено в безпечному місці, і організуй культ, щоб забезпечити вашу колективну перемогу.
+    Тобі не дозволено вказувати культистам, як використовувати або витрачати їхню Ентропію.
+objective-cosmiccult-steward-charactermenu = Ти повинен спрямувати культ, щоб наблизити кінець всього сущого. Керуй та забезпечуй прогрес культу.

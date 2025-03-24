@@ -20,7 +20,6 @@ public sealed class GravPulseOnMapInitSystem : EntitySystem
         var (uid, comp) = ent;
 
         _gravityWell.GravPulse(uid,
-            out var _,
             comp.MaxRange,
             comp.MinRange,
             comp.BaseRadialAcceleration,

@@ -62,7 +62,7 @@
 
 - type: entity
   id: MagazineRifleIncendiary
-  name: "магазин (запал до гвинтівки калібру 20)"
+  name: "магазин (.20 гвинтівковий запальний)"
   parent: MagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -84,7 +84,7 @@
 
 - type: entity
   id: MagazineRifleRubber
-  name: "магазин (.20 гвинтівочна гума)"
+  name: "магазин (.20 гвинтівковий гумовий)"
   parent: BaseMagazineRifle
   components:
   - type: BallisticAmmoProvider
@@ -106,6 +106,20 @@
   - type: Sprite
     layers:
     - state: uranium
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineRifleShrapnel
+  name: "магазин (.20 гвинтівковий, шрапнельний)"
+  parent: BaseMagazineRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleShrapnel
+  - type: Sprite
+    layers:
+    - state: red
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]

@@ -142,13 +142,13 @@
   objectType: Item
 
 - type: construction
-  name: "стріла з осколків скла"
+  name: "імпровізована стріла"
   id: ImprovisedArrow
   graph: ImprovisedArrow
   startNode: start
   targetNode: ImprovisedArrow
   category: construction-category-weapons
-  description: "Стріла з наконечником зі шматочками скляного уламка, для використання з лука."
+  description: "Стріла з наконечником зі шматків скла, для використання з луком."
   icon: { sprite: Objects/Weapons/Guns/Bow/bow.rsi, state: wielded-arrow }
   objectType: Item
 
@@ -159,7 +159,7 @@
   startNode: start
   targetNode: ImprovisedBow
   category: construction-category-weapons
-  description: "Недбало зроблений лук з дерева та тканини. Це небагато, але він виконував свою роботу протягом тисячоліть."
+  description: "Недбало сконструйований лук, зроблений з дерева та тканини. Це небагато, але він виконував свою роботу протягом тисячоліть."
   icon: { sprite: Objects/Weapons/Guns/Bow/bow.rsi, state: unwielded }
   objectType: Item
 

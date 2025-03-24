@@ -68,7 +68,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifleBigRubber
-  name: "коробочка з набоями (гума калібру .25 без гільз)"
+  name: "коробка боєприпасів (.25 безгільзовий гумовий)"
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -118,7 +118,7 @@
 - type: entity
   parent: BaseMagazineBoxCaselessRifle
   id: MagazineBoxCaselessRifleRubber
-  name: "коробочка з набоями (гума калібру .25 без гільз)"
+  name: "коробка боєприпасів (.25 безгільзовий гумовий)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifleRubber
@@ -129,3 +129,27 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
     - state: rubber
+
+- type: entity
+  parent: MagazineBoxCaselessRifle
+  id: MagazineBoxCaselessRifleIncendiary
+  name: "коробка боєприпасів (.25 безгільзовий запальний)"
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifleIncendiary
+
+- type: entity
+  parent: MagazineBoxCaselessRifle
+  id: MagazineBoxCaselessRifleUranium
+  name: "коробка боєприпасів (.25 безгільзовий, урановий)"
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifleUranium
+
+- type: entity
+  parent: MagazineBoxCaselessRifle
+  id: MagazineBoxCaselessRifleShrapnel
+  name: "коробка боєприпасів (.25 безгільзовий, шрапнельний)"
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifleShrapnel

@@ -44,7 +44,7 @@
 
 - type: entity
   id: CartridgeRifleRubber
-  name: "патрон (.20 гвинтівочна гума)"
+  name: "набій (.20 гвинтівковий гумовий)"
   parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -59,7 +59,7 @@
 
 - type: entity
   id: CartridgeRifleIncendiary
-  name: "патрон (гвинтівковий запалювальний калібру .20)"
+  name: "набій (.20 гвинтівковий запальний)"
   parent: BaseCartridgeRifle
   components:
   - type: CartridgeAmmo
@@ -86,3 +86,18 @@
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#65fe08"
+
+- type: entity
+  id: CartridgeRifleShrapnel
+  name: "патрон (.20 гвинтівковий, шрапнельний)"
+  parent: BaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: BulletRifleShrapnelSpread
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#FF00FF"

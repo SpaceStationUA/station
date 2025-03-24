@@ -5,7 +5,7 @@
   components:
   - type: WizardRule
   - type: GameRule
-    minPlayers: 15
+    minPlayers: 3
   - type: AntagObjectives
     objectives:
     - WizardSurviveObjective
@@ -36,6 +36,7 @@
         - Wizard
   - type: AntagLoadProfileRule
     speciesOverride: Human
+  - type: RuleGrids
   - type: LoadMapRule
     mapPath: /Maps/_Goobstation/Nonstations/wizden.yml
 
@@ -115,6 +116,12 @@
   id: EndRoundOnWizardDeath
   components:
   - type: EndRoundOnWizardDeathRule
+
+- type: entity
+  parent: BaseGameRule
+  id: GhostsVisible
+  components:
+  - type: GhostsVisibleRule
 
 - type: gamePreset
   id: Wizard

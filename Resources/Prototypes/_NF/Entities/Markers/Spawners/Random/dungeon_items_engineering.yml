@@ -1,6 +1,6 @@
 # Clutter
 - type: entity
-  name: "випадковий безлад"
+  name: "випадковий мотлох"
   id: SpawnDungeonLootClutterEngi
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Engineering"
@@ -106,7 +106,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадковий набір інструментів"
+  name: "випадкова скриня з інструментами"
   id: SpawnDungeonLootToolbox
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -206,7 +206,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадковий контейнер для зберігання костюмів"
+  name: "випадковий блок зберігання костюмів"
   id: SpawnDungeonLootSuitStorageUnitsEngi
   parent: MarkerBase
   suffix: "Dungeon, Engineering"
@@ -237,7 +237,7 @@
 
 # Machines
 - type: entity
-  name: "випадковий машинний техфаб"
+  name: "випадковий верстат техфаб"
   id: SpawnDungeonLootLatheEngi
   parent: MarkerBase
   suffix: "Dungeon, Engineering"
@@ -302,7 +302,7 @@
 
 # Other
 - type: entity
-  name: "випадкові частини"
+  name: "випадкові запчастини"
   id: SpawnDungeonLootPartsEngi
   parent: MarkerBasePlaceFree
   suffix: Dungeon

@@ -3,7 +3,7 @@
   parent: MobNonHumanHostileBase
   id: BaseMobArgocyteExpeditions
   name: "аргоцит"
-  description: "Небезпечний інопланетянин, що опинився на протилежному боці планет, відомий своєю схильністю до поїдання руїн."
+  description: "Небезпечний прибулець, знайдений на зворотному боці планет, відомий своєю схильністю до жування руїн."
   abstract: true
   components:
   - type: HTN
@@ -65,7 +65,7 @@
   parent: BaseMobArgocyteExpeditions
   id: MobArgocyteSlurvaExpeditions
   name: "слизь"
-  description: "Жалюгідна істота, ні на що не здатна."
+  description: "Жалюгідна істота, нездатна ні на що."
   components:
   - type: Sprite
     layers:
@@ -140,8 +140,8 @@
 - type: entity
   parent: BaseMobArgocyteExpeditions
   id: MobArgocyteSkitterExpeditions
-  name: "скіттер"
-  description: "Хитрий маленький прибулець... Дивись, щоб вони не втекли з твоїми пайками!"
+  name: "метушня"
+  description: "Підступний маленький прибулець... Слідкуйте, щоб вони не втекли з вашим пайком!"
   components:
   - type: Sprite
     layers:
@@ -177,8 +177,8 @@
 - type: entity
   parent: BaseMobArgocyteExpeditions
   id: MobArgocyteSwiperExpeditions
-  name: "свайпер"
-  description: "Куди подівся той штабель сталі?"
+  name: "крадій"
+  description: "Куди поділася та стопка сталі?"
   components:
   - type: Sprite
     layers:
@@ -223,7 +223,7 @@
 - type: entity
   parent: BaseMobArgocyteExpeditions
   id: MobArgocytePouncerExpeditions
-  name: "вибивач"
+  name: "стрибун"
   components:
   - type: Sprite
     layers:
@@ -277,7 +277,7 @@
 - type: entity
   parent: BaseMobArgocyteExpeditions
   id: MobArgocyteHarvesterExpeditions
-  name: "збирач"
+  name: "жнець"
   components:
   - type: Sprite
     layers:
@@ -304,7 +304,7 @@
   parent: BaseMobArgocyteExpeditions
   id: MobArgocyteCrawlerExpeditions
   name: "повзун"
-  description: "Смертоносні зграйні тварини, які шматують нічого не підозрюючих мандрівників."
+  description: "Смертоносні, зграйні тварини, які калічать необережних мандрівників."
   components:
   - type: Sprite
     layers:
@@ -391,7 +391,7 @@
 - type: entity
   parent: BaseMobArgocyteExpeditions
   id: MobArgocyteLeviathingExpeditions
-  name: "левіащось"
+  name: "левіафан"
   components:
   - type: Sprite
     sprite: Mobs/Aliens/Argocyte/argocyte_large.rsi

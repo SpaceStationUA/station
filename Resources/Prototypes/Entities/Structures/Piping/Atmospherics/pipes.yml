@@ -20,7 +20,7 @@
   - type: Anchorable
   - type: Rotatable
   - type: RCDDeconstructable
-    cost: 0.5
+    cost: 1
     delay: 2
     fx: EffectRCDDeconstruct2
     rpd: true
@@ -56,6 +56,7 @@
   - type: Appearance
   - type: PipeColorVisuals
   - type: NodeContainer
+  # - type: PipeRestrictOverlap - Allow pipe stacking
   - type: AtmosUnsafeUnanchor
   - type: AtmosPipeColor
   - type: AtmosMonitoringConsoleDevice
@@ -82,10 +83,19 @@
       containers:
         VentCrawlerHolderComponent: !type:Container
 
+# Goobstation - Allow device-on-pipe stacking
+
+- type: entity
+  abstract: true
+  parent: GasPipeBase
+  id: GasPipeNoOverlap
+  components:
+  - type: PipeRestrictOverlap
+
 #Note: The PipeDirection of the PipeNode should be the south-facing version, because the entity starts at an angle of 0 (south)
 
 - type: entity
-  parent: GasPipeBase
+  parent: GasPipeNoOverlap
   id: GasPipeHalf
   suffix: Half
   components:
@@ -143,7 +153,7 @@
       collection: MetalThud # this NEEDS to changed to the metal pipe falling sound effect on april first every year
 
 - type: entity
-  parent: GasPipeBase
+  parent: GasPipeNoOverlap
   id: GasPipeBend
   suffix: Bend
   components:
@@ -189,7 +199,7 @@
         Blunt: 3 #This should be 6 but throwing damage is doubled at the moment for some reason so for now it's 3
 
 - type: entity
-  parent: GasPipeBase
+  parent: GasPipeNoOverlap
   id: GasPipeTJunction
   suffix: TJunction
   components:
@@ -235,7 +245,7 @@
       VentCrawlerTube: !type:Container
 
 - type: entity
-  parent: GasPipeBase
+  parent: GasPipeNoOverlap
   id: GasPipeFourway
   suffix: Fourway
   components:
@@ -282,7 +292,7 @@
 
 - type: entity
   id: GasPipeBroken
-  parent: GasPipeBase
+  parent: GasPipeNoOverlap
   name: "прорвана труба"
   description: "Там був газ."
   components:

@@ -9,6 +9,7 @@
       - id: WeaponDisabler
         prob: 0.3
       - id: ClothingBeltSecurityFilled
+      - id: ClothingHandsGlovesKravMaga # Goobstation - Martial Arts
       - id: Flash
       - id: ClothingEyesGlassesSunglasses
       - id: ClothingHeadsetAltSecurity
@@ -40,6 +41,7 @@
       - id: WeaponDisabler
         prob: 0.3
       - id: ClothingBeltSecurityFilled
+      - id: ClothingHandsGlovesKravMaga # Goobstation - Martial Arts
       - id: Flash
       - id: ClothingEyesGlassesSunglasses
       - id: ClothingHeadsetAltSecurity
@@ -90,10 +92,11 @@
       - id: ClothingUniformJumpsuitSecFormal # DeltaV - emergency parade time, Central's coming to visit
         prob: 0.25
       - id: ClothingBeltSecurityFilled
+      - id: ClothingBeltCorporateJudo # Goobstation - Martial Arts
       - id: Flash
         prob: 0.5
       - id: ClothingEyesGlassesSunglasses
-      - id: ClothingHeadsetSecurity
+      - id: ClothingHeadsetAltSecurityRegular # Goobstation
       - id: ClothingHandsGlovesColorBlack
       - id: ClothingShoesBootsJack
       - id: WeaponMeleeNeedle
@@ -222,7 +225,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeDisabler
-  name: "сейф з функцією відключення"
+  name: "сейф-знешкоджувач"
   components:
   - type: StorageFill
     contents:

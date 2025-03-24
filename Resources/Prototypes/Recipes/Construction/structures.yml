@@ -59,7 +59,7 @@
   startNode: start
   targetNode: wall
   category: construction-category-structures
-  description: "Утримує повітря всередині і не пропускає сірість назовні."
+  description: "Утримує повітря всередині та не пускає грейтайдів."
   icon:
     sprite: Structures/Walls/solid.rsi
     state: full
@@ -71,13 +71,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "посилена стіна"
+  name: "армована стіна"
   id: ReinforcedWall
   graph: Girder
   startNode: start
   targetNode: reinforcedWall
   category: construction-category-structures
-  description: "Утримує повітря всередині і не пропускає сірість назовні."
+  description: "Утримує повітря всередині та не пускає грейтайдів."
   icon:
     sprite: Structures/Walls/solid.rsi
     state: rgeneric
@@ -95,7 +95,7 @@
   startNode: start
   targetNode: clockworkWall
   category: construction-category-structures
-  description: "Утримує повітря всередині і не пропускає сірість назовні."
+  description: "Утримує повітря всередині та не пускає грейтайдів."
   icon:
     sprite: Structures/Walls/clock.rsi
     state: full
@@ -113,7 +113,7 @@
   startNode: start
   targetNode: woodWall
   category: construction-category-structures
-  description: "Утримує повітря всередині і не пропускає сірість назовні."
+  description: "Утримує повітря всередині та не пускає грейтайдів."
   icon:
     sprite: Structures/Walls/wood.rsi
     state: full
@@ -131,7 +131,7 @@
   startNode: start
   targetNode: uraniumWall
   category: construction-category-structures
-  description: "Утримує повітря всередині і не пропускає сірість назовні."
+  description: "Утримує повітря всередині та не пускає грейтайдів."
   icon:
     sprite: Structures/Walls/uranium.rsi
     state: full
@@ -149,7 +149,7 @@
   startNode: start
   targetNode: silverWall
   category: construction-category-structures
-  description: "Утримує повітря всередині і не пропускає сірість назовні."
+  description: "Утримує повітря всередині та не пускає грейтайдів."
   icon:
     sprite: Structures/Walls/silver.rsi
     state: full
@@ -167,7 +167,7 @@
   startNode: start
   targetNode: plasticWall
   category: construction-category-structures
-  description: "Утримує повітря всередині і не пропускає сірість назовні."
+  description: "Утримує повітря всередині та не пускає грейтайдів."
   icon:
     sprite: Structures/Walls/plastic.rsi
     state: full
@@ -179,13 +179,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "плазмова стінка"
+  name: "плазмова стіна"
   id: PlasmaWall
   graph: Girder
   startNode: start
   targetNode: plasmaWall
   category: construction-category-structures
-  description: "Утримує повітря всередині і не пропускає сірість назовні."
+  description: "Утримує повітря всередині та не пускає грейтайдів."
   icon:
     sprite: Structures/Walls/plasma.rsi
     state: full
@@ -203,7 +203,7 @@
   startNode: start
   targetNode: goldWall
   category: construction-category-structures
-  description: "Утримує повітря всередині і не пропускає сірість назовні."
+  description: "Утримує повітря всередині та не пускає грейтайдів."
   icon:
     sprite: Structures/Walls/gold.rsi
     state: full
@@ -215,13 +215,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "бананіумна стіна"
+  name: "стіна клоуна"
   id: ClownWall
   graph: Girder
   startNode: start
   targetNode: bananiumWall
   category: construction-category-structures
-  description: "Утримує повітря всередині і не пропускає сірість назовні."
+  description: "Утримує повітря всередині та не пускає грейтайдів."
   icon:
     sprite: Structures/Walls/clown.rsi
     state: full
@@ -239,7 +239,7 @@
   startNode: start
   targetNode: meatWall
   category: construction-category-structures
-  description: "Липкий."
+  description: "Липка."
   icon:
     sprite: Structures/Walls/meat.rsi
     state: full
@@ -269,13 +269,13 @@
   canRotate: false
 
 - type: construction
-  name: "решітка з годинниковим механізмом"
+  name: "годинникова решітка"
   id: ClockGrille
   graph: ClockGrille
   startNode: start
   targetNode: clockGrille
   category: construction-category-structures
-  description: "Хиткий каркас із залізних прутів, зібраний у традиційній ратварській манері."
+  description: "Тендітний каркас із залізних прутів, зібраний у традиційній ратварській манері."
   conditions:
     - !type:TileNotBlocked
       failIfSpace: false
@@ -310,7 +310,7 @@
   startNode: start
   targetNode: clockworkGrilleDiagonal
   category: construction-category-structures
-  description: "Хиткий каркас із залізних прутів, зібраний у традиційній ратварській манері."
+  description: "Тендітний каркас із залізних прутів, зібраний у традиційній ратварській манері."
   conditions:
     - !type:TileNotBlocked
       failIfSpace: false
@@ -433,7 +433,7 @@
   canRotate: false
 
 - type: construction
-  name: "діагональне вікно з годинниковим механізмом"
+  name: "діагональне годинникове вікно"
   id: ClockworkWindowDiagonal
   graph: WindowDiagonal
   startNode: start
@@ -507,7 +507,7 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: "діагональне посилене плазмове вікно"
+  name: "діагональне армоване плазмове вікно"
   id: ReinforcedPlasmaWindowDiagonal
   graph: WindowDiagonal
   startNode: start
@@ -725,13 +725,13 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  name: "вогневий шлюз"
+  name: "вогнестійкий шлюз"
   id: Firelock
   graph: Firelock
   startNode: start
   targetNode: Firelock
   category: construction-category-structures
-  description: "Це протипожежний замок - він блокує зону, коли спрацьовує пожежна сигналізація в цій зоні. Не розчавіться!"
+  description: "Це вогнестійкий шлюз - він блокує зону, коли в зоні спрацьовує пожежна сигналізація. Не дайте себе розчавити!"
   icon:
     sprite: Structures/Doors/Airlocks/Standard/firelock.rsi
     state: closed
@@ -748,7 +748,7 @@
   startNode: start
   targetNode: FirelockGlass
   category: construction-category-structures
-  description: "Це протипожежний замок - він блокує зону, коли спрацьовує пожежна сигналізація в цій зоні. Не розчавіться!"
+  description: "Це вогнестійкий шлюз - він блокує зону, коли в зоні спрацьовує пожежна сигналізація. Не дайте себе розчавити!"
   icon:
     sprite: Structures/Doors/Airlocks/Glass/firelock.rsi
     state: closed
@@ -765,7 +765,7 @@
   startNode: start
   targetNode: FirelockEdge
   category: construction-category-structures
-  description: "Це протипожежний замок - він блокує зону, коли спрацьовує пожежна сигналізація в цій зоні. Не розчавіться!"
+  description: "Це вогнестійкий шлюз - він блокує зону, коли в зоні спрацьовує пожежна сигналізація. Не дайте себе розчавити!"
   icon:
     sprite: Structures/Doors/edge_door_hazard.rsi
     state: closed
@@ -776,13 +776,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "затвор"
+  name: "жалюзі"
   id: Shutters
   graph: Shutters
   startNode: start
   targetNode: Shutters
   category: construction-category-structures
-  description: "Це затвор - з'єднайте його з кнопкою, щоб відкривати і закривати."
+  description: "Це жалюзі - підключіть їх до кнопки, щоб відкривати і закривати."
   icon:
     sprite: Structures/Doors/Shutters/shutters.rsi
     state: closed
@@ -797,7 +797,7 @@
   startNode: start
   targetNode: ShuttersWindow
   category: construction-category-structures
-  description: "Це затвор - з'єднайте його з кнопкою, щоб відкривати і закривати."
+  description: "Це жалюзі - підключіть їх до кнопки, щоб відкривати і закривати."
   icon:
     sprite: Structures/Doors/Shutters/shutters_window.rsi
     state: closed
@@ -812,7 +812,7 @@
   startNode: start
   targetNode: ShuttersRadiation
   category: construction-category-structures
-  description: "Це затвор - з'єднайте його з кнопкою, щоб відкривати і закривати."
+  description: "Це жалюзі - підключіть їх до кнопки, щоб відкривати і закривати."
   icon:
     sprite: Structures/Doors/Shutters/shutters_radiation.rsi
     state: closed
@@ -846,10 +846,11 @@
   conditions:
     - !type:TileNotBlocked
       failIfSpace: false
-    - !type:TileType
-      targets:
-        - Lattice
-        - Plating
+# Lavaland Change: add ability to build catwalks on any tiles
+#    - !type:TileType
+#      targets:
+#        - Lattice
+#        - Plating
   icon:
     sprite: Structures/catwalk.rsi
     state: catwalk_preview
@@ -858,13 +859,13 @@
   canBuildInImpassable: false
 
 - type: construction
-  name: "бананіумна підлога"
+  name: "бананієва підлога"
   id: FloorBananium
   graph: FloorBananium
   startNode: start
   targetNode: BananiumFloor
   category: construction-category-structures
-  description: "Слизька підлога з яскраво-жовтого бананіуму."
+  description: "Слизька підлога з яскраво-жовтого бананію."
   conditions:
     - !type:TileNotBlocked
       failIfSpace: false
@@ -885,7 +886,7 @@
   startNode: start
   targetNode: barricadefull
   category: construction-category-structures
-  description: "Імпровізована барикада з дерев'яних дощок."
+  description: "Імпровізована барикада, зроблена з дерев'яних дощок."
   icon:
     sprite: Structures/barricades.rsi
     state: barricade_full
@@ -902,7 +903,7 @@
   startNode: start
   targetNode: barricadefull
   category: construction-category-structures
-  description: "Імпровізована барикада з дерев'яних дощок."
+  description: "Імпровізована барикада, зроблена з дерев'яних дощок."
   icon:
     sprite: Structures/barricades.rsi
     state: barricade_directional
@@ -982,13 +983,13 @@
 
 # Chain link fencing
 - type: construction
-  name: "огорожа з ланцюгової сітки"
+  name: "ланцюгова огорожа"
   id: FenceMetal
   graph: FenceMetal
   startNode: start
   targetNode: straight
   category: construction-category-structures
-  description: "Частина паркану з рабиці, призначеного для огородження територій."
+  description: "Частина ланцюгової огорожі, призначеної для огородження територій."
   icon:
     sprite: Structures/Walls/fence.rsi
     state: straight
@@ -999,13 +1000,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: "куточок для огорожі з ланцюгової сітки"
+  name: "кутова ланцюгова огорожа"
   id: FenceMetalCorner
   graph: FenceMetal
   startNode: start
   targetNode: corner
   category: construction-category-structures
-  description: "Частина паркану з рабиці, призначеного для огородження територій."
+  description: "Частина ланцюгової огорожі, призначеної для огородження територій."
   icon:
     sprite: Structures/Walls/fence.rsi
     state: corner
@@ -1016,13 +1017,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: "торцева частина огорожі з ланцюгової сітки"
+  name: "кінцева частина ланцюгової огорожі"
   id: FenceMetalEnd
   graph: FenceMetal
   startNode: start
   targetNode: end
   category: construction-category-structures
-  description: "Частина паркану з рабиці, призначеного для огородження територій."
+  description: "Частина ланцюгової огорожі, призначеної для огородження територій."
   icon:
     sprite: Structures/Walls/fence.rsi
     state: end
@@ -1051,13 +1052,13 @@
 
 #Wooden fence high
 - type: construction
-  name: "дерев'яний високий паркан"
+  name: "дерев'яна висока огорожа"
   id: FenceWood
   graph: FenceWood
   startNode: start
   targetNode: straight
   category: construction-category-structures
-  description: "Частина дерев'яного паркану, призначеного для огородження територій."
+  description: "Частина дерев'яної огорожі, призначеної для огородження територій."
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: straight
@@ -1068,13 +1069,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: "дерев'яний високий торець паркану"
+  name: "кінець дерев'яної високої огорожі"
   id: FenceWoodEnd
   graph: FenceWood
   startNode: start
   targetNode: end
   category: construction-category-structures
-  description: "Частина дерев'яного паркану, призначеного для огородження територій."
+  description: "Частина дерев'яної огорожі, призначеної для огородження територій."
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: end
@@ -1085,13 +1086,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: "дерев'яний кут високого паркану"
+  name: "кутова дерев'яна висока огорожа"
   id: FenceWoodCorner
   graph: FenceWood
   startNode: start
   targetNode: corner
   category: construction-category-structures
-  description: "Частина дерев'яного паркану, призначеного для огородження територій."
+  description: "Частина дерев'яної огорожі, призначеної для огородження територій."
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: corner
@@ -1102,13 +1103,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: "дерев'яний високий паркан Т-подібний перехід"
+  name: "т-подібний перехідник дерев'яної високої огорожі"
   id: FenceWoodTJunction
   graph: FenceWood
   startNode: start
   targetNode: tjunction
   category: construction-category-structures
-  description: "Частина дерев'яного паркану, призначеного для огородження територій."
+  description: "Частина дерев'яної огорожі, призначеної для огородження територій."
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: tjunction
@@ -1119,13 +1120,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: "дерев'яні високі ворота паркану"
+  name: "ворота дерев'яної високої огорожі"
   id: FenceWoodGate
   graph: FenceWood
   startNode: start
   targetNode: gate
   category: construction-category-structures
-  description: "Частина дерев'яного паркану, призначеного для огородження територій."
+  description: "Частина дерев'яної огорожі, призначеної для огородження територій."
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: door_closed
@@ -1137,13 +1138,13 @@
 
 #Wooden fence small
 - type: construction
-  name: "дерев'яний невеликий паркан"
+  name: "дерев'яна низька огорожа"
   id: FenceWoodSmall
   graph: FenceWood
   startNode: start
   targetNode: straight_small
   category: construction-category-structures
-  description: "Частина дерев'яного паркану, призначеного для огородження територій."
+  description: "Частина дерев'яної огорожі, призначеної для огородження територій."
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: straight_small
@@ -1154,13 +1155,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: "дерев'яний невеликий торець паркану"
+  name: "кінець дерев'яної низької огорожі"
   id: FenceWoodEndSmall
   graph: FenceWood
   startNode: start
   targetNode: end_small
   category: construction-category-structures
-  description: "Частина дерев'яного паркану, призначеного для огородження територій."
+  description: "Частина дерев'яної огорожі, призначеної для огородження територій."
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: end_small
@@ -1171,13 +1172,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: "дерев'яний невеликий куточок паркану"
+  name: "кутова дерев'яна низька огорожа"
   id: FenceWoodCornerSmall
   graph: FenceWood
   startNode: start
   targetNode: corner_small
   category: construction-category-structures
-  description: "Частина дерев'яного паркану, призначеного для огородження територій."
+  description: "Частина дерев'яної огорожі, призначеної для огородження територій."
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: corner_small
@@ -1188,13 +1189,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: "дерев'яна невелика огорожа т-образного переходу"
+  name: "т-подібний перехідник дерев'яної низької огорожі"
   id: FenceWoodTJunctionSmall
   graph: FenceWood
   startNode: start
   targetNode: tjunction_small
   category: construction-category-structures
-  description: "Частина дерев'яного паркану, призначеного для огородження територій."
+  description: "Частина дерев'яної огорожі, призначеної для огородження територій."
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: tjunction_small
@@ -1205,13 +1206,13 @@
   - !type:TileNotBlocked
 
 - type: construction
-  name: "дерев'яна невелика хвіртка для паркану"
+  name: "ворота дерев'яної низької огорожі"
   id: FenceWoodGateSmall
   graph: FenceWood
   startNode: start
   targetNode: gate_small
   category: construction-category-structures
-  description: "Частина дерев'яного паркану, призначеного для огородження територій."
+  description: "Частина дерев'яної огорожі, призначеної для огородження територій."
   icon:
     sprite: Structures/Walls/wooden_fence.rsi
     state: door_closed_small
@@ -1257,7 +1258,7 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "шлюз-шестерня"
+  name: "шестерний шлюз"
   id: PinionAirlock
   graph: PinionAirlock
   startNode: start
@@ -1274,7 +1275,7 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "шлюз зі скляною шестернею"
+  name: "скляний шестерний шлюз"
   id: PinionAirlockGlass
   graph: PinionAirlock
   startNode: start
@@ -1344,13 +1345,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "безпечні двері"
+  name: "надійні вікнодвері"
   id: SecureWindoor
   graph: Windoor
   startNode: start
   targetNode: windoorSecure
   category: construction-category-structures
-  description: "Вона міцна, це двері, і ви можете бачити крізь неї! І вона може бути зроблена з плазми, урану або звичайного скла!"
+  description: "Вони міцні, це двері, і ви можете бачити крізь них! І вони можуть бути зроблені з плазми, урану або звичайного скла!"
   icon:
     sprite: Structures/Doors/Windoors/windoor.rsi
     state: closed
@@ -1361,13 +1362,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "годинниковий механізм на дверях"
+  name: "годинникові вікнодвері"
   id: ClockworkWindoor
   graph: Windoor
   startNode: start
   targetNode: windoorClockwork
   category: construction-category-structures
-  description: "Вона відкривається, закривається, і крізь неї можна бачити! Ця виглядає міцною."
+  description: "Вони відкриваються, закриваються, і ви можете бачити крізь них! Ці виглядають міцними."
   icon:
     sprite: Structures/Doors/Windoors/clockwork_windoor.rsi
     state: closed
@@ -1385,7 +1386,7 @@
   startNode: start
   targetNode: tubeLight
   category: construction-category-structures
-  description: "Настінний світильник. Використовуйте світлові трубки."
+  description: "Настінний світильник. Використовуйте лампи."
   icon:
     sprite: Structures/Wallmounts/Lighting/light_tube.rsi
     state: base
@@ -1399,7 +1400,7 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "невеликий настінний світильник"
+  name: "малий настінний світильник"
   id: LightSmallFixture
   graph: LightFixture
   startNode: start
@@ -1418,7 +1419,7 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "стовп наземного освітлення"
+  name: "наземний ліхтарний стовп"
   id: LightGroundFixture
   graph: LightFixture
   startNode: start
@@ -1606,14 +1607,14 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "бананіумна статуя клоуна"
+  name: "бананієва статуя клоуна"
   id: BananiumClownStatue
   graph: BananiumStatueClown
   startNode: start
   targetNode: bananiumStatue
   category: construction-category-structures
   placementMode: SnapgridCenter
-  description: "Статуя клоуна з бананіуму."
+  description: "Статуя клоуна, зроблена з бананію."
   objectType: Structure
   canBuildInImpassable: false
   icon:
@@ -1640,13 +1641,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "бананіумний вівтар"
+  name: "бананієвий вівтар"
   id: BananiumAltar
   graph: BananiumAltarGraph
   startNode: start
   targetNode: bananiumAltar
   category: construction-category-structures
-  description: "Вівтар для поклоніння Хонкомамі."
+  description: "Вівтар для поклоніння хонкматері."
   icon:
     sprite: Structures/Furniture/Altars/Cults/bananium.rsi
     state: full

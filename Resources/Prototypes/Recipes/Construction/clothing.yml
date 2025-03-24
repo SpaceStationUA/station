@@ -27,7 +27,7 @@
   startNode: start
   targetNode: armor
   category: construction-category-clothing
-  description: "Обладунки з кісток."
+  description: "Броня, зроблена з кісток."
   icon: { sprite: Clothing/OuterClothing/Armor/bone_armor.rsi, state: icon }
   objectType: Item
 
@@ -38,40 +38,40 @@
   startNode: start
   targetNode: helmet
   category: construction-category-clothing
-  description: "Шолом з кісток."
+  description: "Шолом, зроблений з кісток."
   icon: { sprite: Clothing/Head/Helmets/bone_helmet.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "маска бананового клоуна"
+  name: "бананова маска клоуна"
   id: BananaClownMask
   graph: BananaClownMask
   startNode: start
   targetNode: mask
   category: construction-category-clothing
-  description: "Клоунська маска, прикрашена банановою шкіркою."
+  description: "Маска клоуна, покращена банановою шкіркою."
   icon: { sprite: Clothing/Mask/clown_banana.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "костюм бананового клоуна"
+  name: "банановий костюм клоуна"
   id: BananaClownJumpsuit
   graph: BananaClownJumpsuit
   startNode: start
   targetNode: jumpsuit
   category: construction-category-clothing
-  description: "Клоунський костюм, доповнений банановою шкіркою."
+  description: "Костюм клоуна, покращений банановою шкіркою."
   icon: { sprite: Clothing/Uniforms/Jumpsuit/clown_banana.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "бананові клоунські черевики"
+  name: "бананові черевики клоуна"
   id: BananaClownShoes
   graph: BananaClownShoes
   startNode: start
   targetNode: shoes
   category: construction-category-clothing
-  description: "Пара клоунських черевиків, прикрашених банановою шкіркою."
+  description: "Пара черевиків клоуна, покращених банановою шкіркою."
   icon: { sprite: Clothing/Shoes/Specific/clown_banana.rsi, state: icon }
   objectType: Item
 

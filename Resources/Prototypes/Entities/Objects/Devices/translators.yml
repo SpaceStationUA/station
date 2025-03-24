@@ -146,6 +146,23 @@
     - SolCommon
 
 - type: entity
+  id: NovuNedericTranslator
+  parent: [ TranslatorPoweredBase ]
+  name: "перекладач нову-недерік"
+  description: "Перекладає мову між нову-недерік і галактичною спільною. Як справжній землянин!"
+  components:
+  - type: HandheldTranslator
+    spoken:
+    - TauCetiBasic
+    - NovuNederic
+    understood:
+    - TauCetiBasic
+    - NovuNederic
+    requires:
+    - TauCetiBasic
+    - NovuNederic
+
+- type: entity
   id: RootSpeakTranslator
   parent: [ TranslatorPoweredBase ]
   name: "Перекладач RootSpeak"

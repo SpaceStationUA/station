@@ -69,6 +69,7 @@ guide-entry-revolutionaries = Revolutionaries
 guide-entry-minor-antagonists = Minor Antagonists
 guide-entry-space-ninja = Space Ninja
 guide-entry-blood-cult = Blood Cult
+guide-entry-vampires = Vampires
 
 guide-entry-rules = Server Rules
 guide-entry-rules-core-only = Core Only Ruleset
@@ -134,3 +135,5 @@ guide-entry-reverse-engineering = Reverse Engineering
 
 guide-entry-loadout-info = Loadouts
 guide-entry-loadout-eyes-eyepatch = Eyepatch
+
+guide-entry-Psionic-Mantis = Psionic Mantis

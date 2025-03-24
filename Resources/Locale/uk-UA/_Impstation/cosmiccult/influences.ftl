@@ -33,3 +33,6 @@ influence-description-stride = Астральна енергія оживляє 
 
 influence-name-vitality = Вакуумна Живучість
 influence-description-vitality = Беззоряна порожнеча Монумента переповнює ваш розум і тіло. Ваша тілесна форма повільно регенерує в його присутності.
+
+influence-name-glare = Нульовий Погляд
+influence-description-glare = Випромінює жахливий імпульс космічного світла, сповільнюючи та дезорієнтуючи всіх навколо тебе.

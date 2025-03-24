@@ -54,7 +54,7 @@
 
 - type: entity
   id: SpeedLoaderMagnumIncendiary
-  name: "швидкісний навантажувач (.45 magnum incendive)"
+  name: "швидкозаряджач (.45 магнум запальний)"
   parent: SpeedLoaderMagnum
   components:
   - type: BallisticAmmoProvider
@@ -82,7 +82,7 @@
 
 - type: entity
   id: SpeedLoaderMagnumRubber
-  name: "швидкісний зарядник (гума .45 magnum)"
+  name: "швидкозаряджач (.45 магнум гумовий)"
   parent: BaseSpeedLoaderMagnum
   components:
   - type: BallisticAmmoProvider
@@ -139,3 +139,11 @@
     steps: 7
     zeroVisible: false
   - type: Appearance
+
+- type: entity
+  id: SpeedLoaderMagnumShrapnel
+  name: "спідлоадер (.45 магнум, шрапнельний)"
+  parent: SpeedLoaderMagnum
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumShrapnel

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSecurity
   id: ClothingOuterHardsuitBlueshield
-  name: "бронежилет Блюшильда"
-  description: "Спеціальний хардкостюм, виготовлений для Blueshield, містить додаткову броню."
+  name: "хардсьют офіцера-синьощита"
+  description: "Спеціальний хардсьют безпеки, створений для офіцера-синьощита, має додаткову броню, але якимось чином відчувається легшим."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/Combat/blueshield.rsi
@@ -20,13 +20,16 @@
         Slash: 0.5
         Piercing: 0.5
         Radiation: 0.5
+        Heat: 0.5
         Caustic: 0.6
   - type: ClothingSpeedModifier
     walkModifier: 0.85
     sprintModifier: 0.85
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitBlueshield
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitBlueshield
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
 
@@ -73,7 +76,9 @@
     sprintModifier: 0.85
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitCybersunStealth
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitCybersunStealth
   - type: Tag
     tags:
     - Hardsuit
@@ -93,6 +98,56 @@
         # SIGNIFICANTLY Quieter than a normal hardsuit, but not perfectly stealthy. If you move while people are close enough, they can still hear it.
   - type: StaminaDamageResistance
     coefficient: 0.85 # 15%. Substantially lower than a normal hardsuit.
+
+# cybersun dreadnought
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitCybersunDreadnought
+  name: "CSA-105UA \"Сінтянь\" тактичний костюм" # https://en.wikipedia.org/wiki/Xingtian in case you were wondering where the name comes from.
+  description: "Рідкісний і екзотичний жах з розумів найкращих інженерів Сола. Цей костюм носять як покарання за злочини проти Матері Сол."
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/dreadnought.rsi
+  - type: Item
+    size: Ginormous #damn its hard to spell
+  - type: Clothing
+    sprite: _Goobstation/Clothing/OuterClothing/Hardsuits/dreadnought.rsi
+    equipDelay: 15
+    unequipDelay: 1200 # if i add the unremovable comp then you couldnt even put this on - Diggy here, I added 600 more seconds in case you SOMEHOW had 10 minutes to take it off, now it's 20, enjoy.
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.3 # chinalake meta would go hard
+  - type: FireProtection
+    reduction: 0.9 # atmos fire suit is 0.8, so i guess this is fine? Reduction goes the opossite way right?
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.1
+        Slash: 0.1 # holy shit bruv
+        Piercing: 0.1
+        Heat: 0.1
+        Radiation: 0.25 # do people even know rad ammo exists? anyway making rad its weakness is kinda fair
+        Caustic: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.5
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitDreadnought
+  - type: ClothingGrantComponent
+    component:
+    - type: DamageOverTime
+      damage:
+        types:
+          Piercing: 0.3
+      interval: 1.0
+      ignoreResistances: true
+  - type: StaminaDamageResistance
+    coefficient: 0.10 # 90% stamdgm resist
 
 #PIRATE
 - type: entity
@@ -129,7 +184,9 @@
   - type: StasisProtection
   - type: StasisBlinkProvider
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitChronolegioneer
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitChronolegioneer
 
 - type: entity
   parent: ClothingOuterHardsuitChronolegioneer

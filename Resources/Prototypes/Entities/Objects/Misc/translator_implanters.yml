@@ -61,6 +61,14 @@
     implant: SolCommonTranslatorImplant
 
 - type: entity
+  id: NovuNedericTranslatorImplanter
+  parent: [ BaseTranslatorImplanter ]
+  name: "імплант-перекладач нову-недерік"
+  components:
+  - type: Implanter
+    implant: NovuNedericTranslatorImplant
+
+- type: entity
   id: RootSpeakTranslatorImplanter
   parent: [ BaseTranslatorImplanter ]
   name: "імплантат перекладача кореневої мови"

@@ -1,0 +1,14 @@
+- type: entity
+  id: LavalandHierophantTelepad
+  name: "телепорт ієрофанта"
+  description: "Він замикає вас від зовнішнього світу і змушує танцювати."
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Clickable
+  - type: InteractionOutline
+  - type: Sprite
+    sprite: _Lavaland/Structures/Specific/hierophant_telepad.rsi
+    state: hierophant_tele_on # TODO hierophant visuals
+  - type: HierophantFieldGenerator
+    radius: 11

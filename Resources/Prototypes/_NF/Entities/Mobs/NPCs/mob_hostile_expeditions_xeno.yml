@@ -3,7 +3,7 @@
   parent: MobNonHumanHostileBase
   id: BaseMobXenoExpeditions
   name: "ксено"
-  description: "Вони приходять переважно вночі. Здебільшого."
+  description: "Вони здебільшого приходять вночі. Здебільшого."
   abstract: true
   components:
   - type: HTN
@@ -92,12 +92,12 @@
 - type: entity
   parent: BaseMobXenoExpeditions
   id: MobXenoBurrowerExpeditions
-  name: "Нюхач"
+  name: "Землекоп"
 
 - type: entity
   parent: BaseMobXenoExpeditions
   id: MobXenoPraetorianExpeditions
-  name: "Преторіанський"
+  name: "Преторіанець"
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -140,7 +140,7 @@
 - type: entity
   parent: BaseMobXenoExpeditions
   id: MobXenoRavagerExpeditions
-  name: "Ravager"
+  name: "Спустошувач"
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -188,7 +188,7 @@
 - type: entity
   parent: BaseMobXenoExpeditions
   id: MobXenoSpitterExpeditions
-  name: "Спіттер"
+  name: "Плювач"
   components:
   - type: Sprite
     drawdepth: Mobs

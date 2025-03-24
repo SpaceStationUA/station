@@ -57,7 +57,7 @@
 - type: entity
   parent: BaseMagazineBoxPistol
   id: MagazineBoxPistolRubber
-  name: "коробочка з набоями (.35 автогума)"
+  name: "коробка боєприпасів (.35 авто гумовий)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolRubber
@@ -72,7 +72,7 @@
 - type: entity
   id: MagazineBoxPistolIncendiary
   parent: BaseMagazineBoxPistol
-  name: "коробка з набоями (автоматичний запал калібру .35)"
+  name: "коробка боєприпасів (.35 авто запальний)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -98,3 +98,17 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
     - state: uranium
+
+- type: entity
+  parent: BaseMagazineBoxPistol
+  id: MagazineBoxPistolShrapnel
+  name: "коробка боєприпасів (.35 авто, шрапнельний)"
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgePistolShrapnel
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

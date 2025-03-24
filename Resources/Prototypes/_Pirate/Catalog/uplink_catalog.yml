@@ -127,18 +127,6 @@
   saleLimit: 1
 
 - type: listing
-  id: UplinkHardsuitCybersunStealth
-  name: uplink-hardsuit-cybersun-stealth-name
-  description: uplink-hardsuit-cybersun-stealth-desc
-  icon: { sprite: /Textures/_Pirate/Clothing/OuterClothing/Hardsuits/cybersunstealth.rsi, state: icon }
-  productEntity: ClothingBackpackDuffelSyndicateStealthHardsuitBundle
-  cost:
-    Telecrystal: 75 # might be op? needs testing to see. increase price to 90 TC when we merge the upstream fix that hides HUD stuff for stealthed entities.
-  categories:
-  - UplinkArmor
-  saleLimit: 1
-
-- type: listing
   id: UplinkDartSyringeGun
   name: uplink-dart-syringe-gun-name
   description: uplink-dart-syringe-gun-desc

@@ -54,7 +54,7 @@
   startNode: start
   targetNode: apc
   category: construction-category-utilities
-  description: "Контролер живлення (APC). Контролює потужність. У зоні."
+  description: "Контролер живлення зони (АПЦ). Контролює живлення. У зоні."
   icon:
     sprite: Structures/Power/apc.rsi
     state: base
@@ -102,7 +102,7 @@
   startNode: start
   targetNode: substation
   category: construction-category-utilities
-  description: "Настінна підстанція для компактних приміщень. Перед зведенням стіни обов'язково прокладіть під нею кабель."
+  description: "Настінна підстанція для компактних приміщень. Переконайтеся, що під нею прокладено кабель, перш ніж будувати стіну."
   icon:
     sprite: Structures/Power/substation.rsi
     state: substation_wall
@@ -117,7 +117,7 @@
   startNode: start
   targetNode: generator
   category: construction-category-utilities
-  description: "Настінний генератор для компактних приміщень. Перед зведенням стіни обов'язково прокладіть під ним кабель."
+  description: "Настінний генератор для компактних приміщень. Переконайтеся, що під нею прокладено кабель, перш ніж будувати стіну."
   icon:
     sprite: Structures/Power/Generation/wallmount_generator.rsi
     state: panel
@@ -340,7 +340,7 @@
   startNode: start
   targetNode: air_alarm
   category: construction-category-structures
-  description: "Повітряна тривога. Сигналізація... повітря?"
+  description: "Повітряна сигналізація. Сигналізує... повітря?"
   icon:
     sprite: Structures/Wallmounts/air_monitors.rsi
     state: alarm0
@@ -403,7 +403,7 @@
 - type: construction
   name: "половина газової труби"
   id: GasPipeHalf
-  description: "Половина газової труби. Ніяких скейтбордів."
+  description: "Половина газової труби. Жодних скейтбордів."
   graph: GasPipe
   startNode: start
   targetNode: half
@@ -415,9 +415,9 @@
     state: pipeHalf
 
 - type: construction
-  name: "газова труба пряма"
+  name: "пряма газова труба"
   id: GasPipeStraight
-  description: "Прямий відрізок труби."
+  description: "Прямий сегмент труби."
   graph: GasPipe
   startNode: start
   targetNode: straight
@@ -431,7 +431,7 @@
 - type: construction
   name: "вигин газової труби"
   id: GasPipeBend
-  description: "Відрізок труби, зігнутий під кутом 90 градусів."
+  description: "Сегмент труби, зігнутий під кутом 90 градусів."
   graph: GasPipe
   startNode: start
   targetNode: bend
@@ -443,9 +443,9 @@
     state: pipeBend
 
 - type: construction
-  name: "т-подібний перехід для газової труби"
+  name: "т-подібний перехідник газової труби"
   id: GasPipeTJunction
-  description: "Відрізок труби з Т-подібним з'єднанням."
+  description: "Сегмент труби з Т-подібним перехідником."
   graph: GasPipe
   startNode: start
   targetNode: tjunction
@@ -457,9 +457,9 @@
     state: pipeTJunction
 
 - type: construction
-  name: "газова труба чотиристороння"
+  name: "чотиристоронній перехідник газової труби"
   id: GasPipeFourway
-  description: "Сегмент труби з чотиристороннім з'єднанням."
+  description: "Сегмент труби з чотиристороннім перехідником."
   graph: GasPipe
   startNode: start
   targetNode: fourway
@@ -514,8 +514,8 @@
     - !type:NoUnstackableInTile
 
 - type: construction
-  name: "очищувач повітря"
-  description: "Всмоктує газ у під'єднані труби."
+  name: "повітряний скрубер"
+  description: "Всмоктує газ у підключені труби."
   id: GasVentScrubber
   graph: GasUnary
   startNode: start
@@ -870,6 +870,25 @@
     state: signalscreen
   objectType: Structure
   canRotate: false
+  placementMode: SnapgridCenter
+  canBuildInImpassable: true
+  conditions:
+  - !type:WallmountCondition
+
+# DEFENSES
+- type: construction
+  name: "панель керування туреллю"
+  id: WeaponEnergyTurretControlPanel
+  graph: WeaponEnergyTurretControlPanel
+  startNode: start
+  targetNode: finish
+  category: construction-category-utilities
+  description: "Настінний інтерфейс для дистанційного налаштування робочих параметрів підключених сторожових турелей."
+  icon:
+    sprite: Structures/Wallmounts/turret_controls.rsi
+    state: base
+  objectType: Structure
+  canRotate: true
   placementMode: SnapgridCenter
   canBuildInImpassable: true
   conditions:

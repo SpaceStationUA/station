@@ -28,3 +28,18 @@
       - id: DoubleEmergencyNitrogenTankFilled
       - id: ToolboxSyndicateFilled
       - id: PlushieNuke
+
+- type: entity
+  suffix: Filled
+  parent: CrateSyndicate
+  id: CrateSyndicateDreadnought
+  name: "комплект дредноута кіберсонця"
+  description: "Просунутий комплект дредноута кіберсонця."
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterHardsuitCybersunDreadnought
+      - id: ClothingMaskGasSyndicate
+      - id: ClothingHandsGlovesCombat
+      - id: DoubleEmergencyOxygenTankFilled
+      - id: DoubleEmergencyNitrogenTankFilled

@@ -1,0 +1,34 @@
+﻿- type: entity
+  parent: GasPressurePump
+  id: GasPressurePumpHighFlow
+  name: "газовий насос високого потоку"
+  description: "Насос, який переміщує газ за допомогою тиску. Він перекачує повітря під тиском, втричі більшим, ніж стандартний насос."
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: GasPressurePump
+    enabled: false
+    maxTargetPressure: 13500
+
+- type: entity
+  parent: GasVolumePump
+  id: GasVolumePumpHighFlow
+  name: "об'ємний газовий насос високого потоку"
+  description: "Насос, який переміщує газ за об'ємом. Він перекачує повітря втричі більшим об'ємом, ніж стандартний насос."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: GasVolumePump
+      maxTransferRate: 600
+
+- type: entity
+  parent: GasDualPortVentPump
+  id: GasDualPortVentPumpHighFlow
+  name: "двопортовий повітряний вентиль високого потоку"
+  description: "Має клапан і насос, приєднані до нього. Є два порти: один вхідний для випуску повітря, інший вихідний для відкачування. Він може витримувати втричі більший тиск, ніж стандартний вентиль."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: GasVentPump
+      maxPressure: 13500
+      PumpPower: 6

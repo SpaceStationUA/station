@@ -1,0 +1,9 @@
+- type: entity
+  id: HandPlaceholder
+  name: "невідомий інструмент"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Item
+    size: Ginormous # no storage insertion visuals
+  - type: HandPlaceholder
+  - type: HandPlaceholderVisuals

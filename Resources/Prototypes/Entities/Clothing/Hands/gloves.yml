@@ -235,6 +235,7 @@
     stripTimeReduction: 1
   - type: ToggleClothing
     action: ActionToggleNinjaGloves
+  - type: Unremoveable
   - type: NinjaGloves
     abilities:
     - components:
@@ -279,7 +280,7 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsTacticalMaidGloves
-  name: "тактичні рукавички прислуги"
+  name: "тактичні рукавички покоївки"
   description: "Тактичні рукавички покоївки, кожна поважаюча себе покоївка повинна вміти непомітно ліквідувати свої цілі."
   components:
   - type: Sprite
@@ -446,7 +447,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesJanitor
   name: "гумові рукавички"
-  description: "Високоякісні гумові рукавички, скрипучі для прибирання!"
+  description: "Високоякісні гумові рукавички, скрипучі, щоб зробити прибирання!"
   components:
   - type: Sprite
     sprite: Clothing/Hands/Gloves/janitor.rsi
@@ -467,3 +468,16 @@
     sprite: Clothing/Hands/Gloves/evening_gloves.rsi
   - type: Clothing
     sprite: Clothing/Hands/Gloves/evening_gloves.rsi
+
+- type: entity
+  parent: ClothingHandsGlovesSyntheticBase
+  id: ClothingHandsTacticalMaidGlovesLoadout
+  name: "тактичні рукавички покоївки"
+  description: "Тактичні рукавички покоївки, кожна поважаюча себе покоївка повинна вміти непомітно усувати плями, які залишають пасажири."
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/tacticalmaidgloves.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/tacticalmaidgloves.rsi
+  - type: Fiber
+    fiberColor: fibers-black

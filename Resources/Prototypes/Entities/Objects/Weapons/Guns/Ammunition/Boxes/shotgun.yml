@@ -77,10 +77,10 @@
         - state: shellflare
 
 - type: entity
-  name: "дозатор запалювальних патронів для рушниці"
+  name: "диспенсер запальних дробових набоїв"
   parent: AmmoProviderShotgunShell
   id: BoxShotgunIncendiary
-  description: "Коробка з запалювальними патронами, призначеними для рушниць для масових заворушень."
+  description: "Диспенсерна коробка, повна запальних набоїв, розроблених для дробовиків."
   components:
     - type: BallisticAmmoProvider
       proto: ShellShotgunIncendiary
@@ -127,3 +127,42 @@
       layers:
         - state: boxwide
         - state: shellslug
+
+- type: entity
+  name: "Коробка .50 Дробу"
+  parent: AmmoProviderShotgunShell
+  id: BoxShotgunBirdshot
+  description: "Коробка-дозатор, повна .50 дробу. Століттями використовувалася колоністами для полювання на дрібну дичину в інопланетних світах."
+  components:
+    - type: BallisticAmmoProvider
+      proto: ShellShotgunBirdshot
+    - type: Sprite
+      layers:
+        - state: boxwide
+        - state: shelllethal
+
+- type: entity
+  name: "Коробка .50 00-Картечі"
+  parent: AmmoProviderShotgunShell
+  id: BoxShotgun00Buckshot
+  description: "Коробка-дозатор, повна .50 \"двонульової\" картечі. Століттями використовувалася колоністами для полювання на дичину середнього розміру. Знання того, що означає \"Картеч\", було втрачено з часом."
+  components:
+    - type: BallisticAmmoProvider
+      proto: ShellShotgun00Buckshot
+    - type: Sprite
+      layers:
+        - state: boxwide
+        - state: shelllethal
+
+- type: entity
+  name: "Коробка .50 0000-Картечі"
+  parent: AmmoProviderShotgunShell
+  id: BoxShotgun0000Buckshot
+  description: "Коробка-дозатор, повна .50 \"чотиринульової\" картечі. Століттями використовувалася колоністами для полювання на інопланетну мегафауну. Вона так само легко прорве скафандр, як і товсті шкури."
+  components:
+    - type: BallisticAmmoProvider
+      proto: ShellShotgun0000Buckshot
+    - type: Sprite
+      layers:
+        - state: boxwide
+        - state: shelllethal

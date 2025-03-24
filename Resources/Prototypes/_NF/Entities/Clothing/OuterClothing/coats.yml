@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterCoatHoSTrench
   id: ClothingOuterCoatBHTrench
-  name: "бронежилет мисливця за головами"
-  description: "Пальто з куленепробивним сплавом для додаткового захисту та стилю для тих, хто має харизматичну зовнішність."
+  name: "флаковий плащ мисливця за головами"
+  description: "Великий плащ, посилений куленепробивним сплавом для додаткового захисту та стилю для тих, хто має харизматичну присутність."
   components:
   - type: Armor # ClothingOuterArmorBulletproof stats
     modifiers:
@@ -17,7 +17,7 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterCoatBishop
-  name: "єпископські ризи"
+  name: "ризи єпископа"
   description: "Золоті нитки насправді не зроблені із золота. Облом."
   components:
   - type: Sprite
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingOuterBaseToggleable
   id: ClothingOuterCoatWitchHunter
-  name: "плащ мисливця на відьом"
-  description: "Ще краще виглядає під постійним дощем зі штормовим вітром."
+  name: "пальто мисливця на відьом"
+  description: "Виглядає ще краще під постійним дощем зі штормовим вітром."
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Misc/witch_hunter_coat.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: ClothingOuterBaseToggleable
   id: ClothingOuterCoatCardinal
-  name: "кардинальська мантія"
+  name: "пальто кардинала"
   description: "Ніхто не очікує іспанської інквізиції!"
   components:
   - type: Sprite
@@ -55,8 +55,8 @@
 - type: entity
   parent: [ ClothingOuterStorageBase, ClothingOuterArmorBulletproof ]
   id: ClothingOuterCoatCultJanitor
-  name: "броньовані мантії лідера секти"
-  description: "Королівські шати, що пасують лідеру культу."
+  name: "броньовані ризи лідера культу"
+  description: "Королівські ризи, що підходять для лідера культу."
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Coats/cult_janitor_robe.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: [ ClothingOuterStorageToggleableBase, ClothingOuterArmorBasic ]
   id: ClothingOuterCoatBloodCultRobes
-  name: "культовий одяг"
-  description: "Не існує культу без класичних червоно-малинових культових шат з бронежилетами."
+  name: "культові ризи"
+  description: "Немає культу без класичних червоних/малинових культових риз з куленепробивними жилетами."
   suffix: Frontier
   components:
   - type: Sprite

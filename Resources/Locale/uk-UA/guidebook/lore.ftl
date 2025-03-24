@@ -1,4 +1,4 @@
-guide-entry-setting-lore = Налаштування лору
+guide-entry-setting-lore = Лор
 guide-entry-corporations = Корпорації
 guide-entry-einstein-engines = Двигуни Ейнштейна
 guide-entry-hephaestus-industries = Гефест Індастріз

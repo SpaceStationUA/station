@@ -227,7 +227,7 @@
   startNode: start
   targetNode: chairWoodBench
   category: construction-category-furniture
-  description: "У тебе заноза? Ну, принаймні, це екологічно чисто."
+  description: "Загнали скалку? Ну, принаймні це екологічно."
   icon:
     sprite: Structures/Furniture/chairs.rsi
     state: wooden-bench
@@ -415,7 +415,7 @@
   startNode: start
   targetNode: TableFancyBlack
   category: construction-category-furniture
-  description: "Стіл, накритий красивою скатертиною."
+  description: "Стіл, покритий красивою тканиною."
   icon:
     sprite: Structures/Furniture/Tables/Fancy/black.rsi
     state: full
@@ -432,7 +432,7 @@
   startNode: start
   targetNode: TableFancyBlue
   category: construction-category-furniture
-  description: "Стіл, накритий красивою скатертиною."
+  description: "Стіл, покритий красивою тканиною."
   icon:
     sprite: Structures/Furniture/Tables/Fancy/blue.rsi
     state: full
@@ -443,13 +443,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "фантазійний стіл блакитного кольору"
+  name: "вишуканий блакитний стіл"
   id: TableFancyCyan
   graph: Table
   startNode: start
   targetNode: TableFancyCyan
   category: construction-category-furniture
-  description: "Стіл, накритий красивою скатертиною."
+  description: "Стіл, покритий красивою тканиною."
   icon:
     sprite: Structures/Furniture/Tables/Fancy/cyan.rsi
     state: full
@@ -466,7 +466,7 @@
   startNode: start
   targetNode: TableFancyGreen
   category: construction-category-furniture
-  description: "Стіл, накритий красивою скатертиною."
+  description: "Стіл, покритий красивою тканиною."
   icon:
     sprite: Structures/Furniture/Tables/Fancy/green.rsi
     state: full
@@ -477,13 +477,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "фантазійний помаранчевий стіл"
+  name: "вишуканий помаранчевий стіл"
   id: TableFancyOrange
   graph: Table
   startNode: start
   targetNode: TableFancyOrange
   category: construction-category-furniture
-  description: "Стіл, накритий красивою скатертиною."
+  description: "Стіл, покритий красивою тканиною."
   icon:
     sprite: Structures/Furniture/Tables/Fancy/orange.rsi
     state: full
@@ -500,7 +500,7 @@
   startNode: start
   targetNode: TableFancyPurple
   category: construction-category-furniture
-  description: "Стіл, накритий красивою скатертиною."
+  description: "Стіл, покритий красивою тканиною."
   icon:
     sprite: Structures/Furniture/Tables/Fancy/purple.rsi
     state: full
@@ -517,7 +517,7 @@
   startNode: start
   targetNode: TableFancyPink
   category: construction-category-furniture
-  description: "Стіл, накритий красивою скатертиною."
+  description: "Стіл, покритий красивою тканиною."
   icon:
     sprite: Structures/Furniture/Tables/Fancy/pink.rsi
     state: full
@@ -534,7 +534,7 @@
   startNode: start
   targetNode: TableFancyRed
   category: construction-category-furniture
-  description: "Стіл, накритий красивою скатертиною."
+  description: "Стіл, покритий красивою тканиною."
   icon:
     sprite: Structures/Furniture/Tables/Fancy/red.rsi
     state: full
@@ -551,7 +551,7 @@
   startNode: start
   targetNode: TableFancyWhite
   category: construction-category-furniture
-  description: "Стіл, накритий красивою скатертиною."
+  description: "Стіл, покритий красивою тканиною."
   icon:
     sprite: Structures/Furniture/Tables/Fancy/white.rsi
     state: full
@@ -721,8 +721,8 @@
 #misc
 - type: construction
   id: MeatSpike
-  name: "м'ясний шпик"
-  description: "Шип, який знаходять на кухнях, де забивають тварин."
+  name: "м'ясний шип"
+  description: "Шип, який можна знайти на кухнях, де обробляють тварин."
   graph: MeatSpike
   startNode: start
   targetNode: MeatSpike

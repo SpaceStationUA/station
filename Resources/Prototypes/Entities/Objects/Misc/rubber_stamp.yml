@@ -1,8 +1,8 @@
 - type: entity
-  name: "типова гумова печатка"
+  name: "звичайна гумова печатка"
   parent: BaseItem
   id: RubberStampBase
-  description: "Гумовий штамп для проставлення печатки на важливих документах."
+  description: "Гумова печатка для штампування важливих документів."
   abstract: true
   components:
   - type: Stamp
@@ -23,7 +23,7 @@
     stealGroup: Stamp
 
 - type: entity
-  name: "альтернативний гумовий штамп"
+  name: "альтернативна гумова печатка"
   parent: RubberStampBase
   id: RubberStampBaseAlt
   abstract: true

@@ -166,7 +166,7 @@
 
 - type: entity
   id: MagazinePistolIncendiary
-  name: "магазин до пістолета (.35 автозапалювальний)"
+  name: "пістолетний магазин (.35 авто запальний)"
   parent: MagazinePistol
   components:
   - type: BallisticAmmoProvider
@@ -188,7 +188,7 @@
 
 - type: entity
   id: MagazinePistolRubber
-  name: "пістолетний магазин (.35 auto rubber)"
+  name: "пістолетний магазин (.35 авто гумовий)"
   parent: BaseMagazinePistol
   components:
   - type: BallisticAmmoProvider
@@ -210,6 +210,20 @@
   - type: Sprite
     layers:
     - state: uranium
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazinePistolShrapnel
+  name: "пістолетний магазин (.35 авто, шрапнельний)"
+  parent: BaseMagazinePistol
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgePistolShrapnel
+  - type: Sprite
+    layers:
+    - state: red
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
@@ -257,7 +271,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacityRubber
-  name: "магазин для пістолета-кулемета (.35 auto rubber)"
+  name: "магазин для автоматичного пістолета (.35 авто гумовий)"
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
@@ -265,6 +279,20 @@
   - type: Sprite
     layers:
     - state: rubber
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazinePistolHighCapacityShrapnel
+  name: "магазин для автоматичного пістолета (.35 авто, шрапнельний)"
+  parent: BaseMagazinePistolHighCapacity
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgePistolShrapnel
+  - type: Sprite
+    layers:
+    - state: red
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
@@ -318,7 +346,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunRubber
-  name: "Магазин SMG (.35 автогума)"
+  name: "магазин для пістолета-кулемета (.35 авто гумовий)"
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -332,7 +360,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunIncendiary
-  name: "Магазин SMG (.35 автозапалювальний)"
+  name: "магазин для пістолета-кулемета (.35 авто запальний)"
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -357,3 +385,11 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazinePistolSubMachineGunShrapnel
+  name: "магазин для пістолета-кулемета (.35 авто, шрапнельний)"
+  parent: BaseMagazinePistolSubMachineGun
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgePistolShrapnel

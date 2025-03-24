@@ -26,7 +26,9 @@
     sprintModifier: 0.80
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitBasic
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitBasic
 
 #Atmospherics Hardsuit
 - type: entity
@@ -66,7 +68,9 @@
     sprintModifier: 0.7
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitAtmos
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitAtmos
   - type: GuideHelp
     guides: [ HephaestusIndustries ]
 
@@ -87,7 +91,9 @@
       - state: equipped-OUTERCLOTHING-unshaded
         shader: unshaded
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitEngineeringUnpainted
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitEngineeringUnpainted
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -123,7 +129,9 @@
     sprintModifier: 0.7
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitEngineering
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitEngineering
   - type: StaminaDamageResistance
     coefficient: 0.75 # 25%
   - type: GuideHelp
@@ -160,7 +168,9 @@
     sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSpatio
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitSpatio
   - type: GuideHelp
     guides: [ HephaestusIndustries ]
 
@@ -193,7 +203,9 @@
     sprintModifier: 0.75
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSalvage
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitSalvage
   - type: GuideHelp
     guides: [ HephaestusIndustries ]
 
@@ -226,7 +238,9 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitVoidParamed
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitVoidParamed
   - type: GuideHelp
     guides: [ ZengHuPharmaceuticals ]
 
@@ -262,7 +276,9 @@
   - type: FireProtection
     reduction: 1
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMaxim
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMaxim
   - type: GuideHelp
     guides: [ HephaestusIndustries ]
 
@@ -289,12 +305,15 @@
         Slash: 0.6
         Piercing: 0.6
         Caustic: 0.7
+        Heat: 0.7 # Goobstation
   - type: ClothingSpeedModifier
     walkModifier: 0.75
     sprintModifier: 0.75
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSecurity
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitSecurity
   - type: StaminaDamageResistance
     coefficient: 0.75 # 25%
 
@@ -318,12 +337,15 @@
         Blunt: 0.8
         Slash: 0.8
         Piercing: 0.7
+        Heat: 0.7 # Goobstation
   - type: ClothingSpeedModifier
     walkModifier: 0.65
     sprintModifier: 0.65
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitBrigmedic
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitBrigmedic
   - type: StaminaDamageResistance
     coefficient: 0.75 # 25%
 
@@ -350,12 +372,15 @@
         Slash: 0.6
         Piercing: 0.6
         Caustic: 0.7
+        Heat: 0.7 # Goobstation
   - type: ClothingSpeedModifier
     walkModifier: 0.7
     sprintModifier: 0.7
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitWarden
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitWarden
   - type: StaminaDamageResistance
     coefficient: 0.65 # 35%
 
@@ -389,7 +414,9 @@
     sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitCap
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitCap
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
   - type: GuideHelp
@@ -430,7 +457,9 @@
     sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitEngineeringWhite
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitEngineeringWhite
   - type: ClothingGrantComponent
     component:
     - type: SupermatterImmune
@@ -466,7 +495,9 @@
     sprintModifier: 0.95
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMedical
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMedical
   - type: GuideHelp
     guides: [ ZengHuPharmaceuticals ]
 
@@ -508,7 +539,9 @@
     - WhitelistChameleon
     - HighRiskItem
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitRd
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitRd
   - type: StaticPrice
     price: 750
   - type: StealTarget
@@ -542,12 +575,15 @@
         Piercing: 0.5
         Radiation: 0.5
         Caustic: 0.6
+        Heat: 0.6 # Goobstation
   - type: ClothingSpeedModifier
     walkModifier: 0.8
     sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSecurityRed
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitSecurityRed
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
 
@@ -580,7 +616,9 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitLuxury
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitLuxury
   - type: GuideHelp
     guides: [ HephaestusIndustries ]
 
@@ -602,7 +640,9 @@
       - state: equipped-OUTERCLOTHING-unshaded
         shader: unshaded
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitShanlinUnpainted
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitShanlinUnpainted
 
 - type: entity
   parent: ClothingOuterHardsuitBaseMedium
@@ -635,7 +675,9 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSyndie
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitSyndie
   - type: Tag
     tags:
     - MonkeyWearable
@@ -657,7 +699,9 @@
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSyndieMedic
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitSyndieMedic
   - type: Tag
     tags:
     - Hardsuit
@@ -683,7 +727,9 @@
       - state: equipped-OUTERCLOTHING-unshaded
         shader: unshaded
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitShiweiUnpainted
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitShiweiUnpainted
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -720,7 +766,9 @@
     sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSyndieElite
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitSyndieElite
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
 
@@ -754,7 +802,9 @@
     sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSyndieCommander
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitSyndieCommander
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
   - type: Item
@@ -790,7 +840,9 @@
     sprintModifier: 0.65
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitCybersun
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitJuggernaut
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
 
@@ -813,10 +865,10 @@
   - type: Armor # Goob edit
     modifiers:
       coefficients:
-        Blunt: 0.5
-        Slash: 0.5
-        Piercing: 0.5
-        Heat: 0.5
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.4
+        Heat: 0.4
         Radiation: 0.1
         Caustic: 0.1
   - type: ClothingSpeedModifier
@@ -824,7 +876,9 @@
     sprintModifier: 0.9 # Goob edit
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitWizard
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitWizard
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
   - type: WizardClothes # Goobstation
@@ -862,7 +916,9 @@
     sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitLing
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitLing
 
 #Pirate EVA Suit (Deep Space EVA Suit)
 #Despite visually appearing like a softsuit, it functions exactly like a hardsuit would (parents off of base hardsuit, has resistances and toggleable clothing, etc.) so it goes here.
@@ -892,7 +948,9 @@
     sprintModifier: 0.6
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitPirateEVA
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitPirateEVA
   - type: StaticPrice
     price: 0
 
@@ -925,7 +983,9 @@
     sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitPirateCap
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitPirateCap
   - type: StaticPrice
     price: 0
   - type: StaminaDamageResistance
@@ -944,7 +1004,9 @@
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertleader.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitERTLeader
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitERTLeader
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
 
@@ -960,7 +1022,9 @@
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitERTChaplain
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitERTChaplain
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
 
@@ -976,7 +1040,9 @@
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertengineer.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitERTEngineer
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitERTEngineer
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
   - type: TemperatureProtection
@@ -996,7 +1062,9 @@
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertmedical.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitERTMedical
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitERTMedical
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
 
@@ -1012,7 +1080,9 @@
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertsecurity.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitERTSecurity
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitERTSecurity
   - type: Tag
     tags:
     - Hardsuit
@@ -1032,7 +1102,9 @@
   - type: Clothing
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertjanitor.rsi
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitERTJanitor
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitERTJanitor
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
 
@@ -1068,7 +1140,9 @@
     sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitDeathsquad
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitDeathsquad
   - type: StaminaDamageResistance
     coefficient: 0.1 # 90%
 
@@ -1106,7 +1180,9 @@
     sprintModifier: 1.0
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetCBURN
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetCBURN
 
 #MISC. HARDSUITS
 #Clown Hardsuit
@@ -1140,7 +1216,9 @@
     graph: ClownHardsuit
     node: clownHardsuit
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitClown
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitClown
 
 #Mime Hardsuit
 - type: entity
@@ -1157,7 +1235,9 @@
     graph: MimeHardsuit
     node: mimeHardsuit
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitMime
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitMime
 
 #Santa's Hardsuit
 - type: entity
@@ -1187,4 +1267,6 @@
     sprintModifier: 0.9
   - type: HeldSpeedModifier
   - type: ToggleableClothing
-    clothingPrototype: ClothingHeadHelmetHardsuitSanta
+    replaceCurrentClothing: true
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitSanta

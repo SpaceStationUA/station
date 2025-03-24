@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtArcadia
-  name: "спідниця-комбінезон arcadia"
-  description: "Спідниця-комбінезон виробництва Arcadia Industries. Призначена для зменшення потертостей між ногами для комфорту шкіри, слизу, лусочок, пуху та деревини"
+  name: "спідниця-комбінезон аркадія"
+  description: "Спідниця-комбінезон виробництва Arcadia Industries. Розроблена для зменшення натирання між ногами для комфорту шкіри, слизу, луски, пуху та дерева"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/arcadia.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtValet
-  name: "уніформа паркувальника"
-  description: "Гарна та охайна форма."
+  name: "уніформа камердинера"
+  description: "Гарна та охайна уніформа."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/bartender.rsi
@@ -23,20 +23,20 @@
 - type: entity
   parent: ClothingUniformJumpskirtDetective
   id: ClothingUniformJumpskirtBH
-  name: "міцний костюм"
-  description: "Той, хто носить це, має на увазі бізнес."
+  name: "поношений костюм"
+  description: "Той, хто носить це, має серйозні наміри."
 
 - type: entity
   parent: ClothingUniformJumpskirtDetectiveGrey
   id: ClothingUniformJumpskirtBHGrey
-  name: "чорний костюм"
-  description: "Сірий костюм, з затискачем для краватки."
+  name: "костюм нуар"
+  description: "Сірий костюм із затискачем для краватки."
 
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtMercenary
-  name: "спідниця найманця"
-  description: "Одяг для справжніх найманців, які пройшли крізь вогонь, воду та джунглі планет, що кишать небезпечними монстрами або цілями, за які призначена винагорода."
+  name: "спідниця-комбінезон найманця"
+  description: "Одяг для справжніх найманців, які пройшли вогонь, воду та джунглі планет, затоплених небезпечними монстрами або цілями, за які призначено винагороду."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/mercenary.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtSecGuard
-  name: "форма охоронця"
-  description: "Спеціалізована уніформа для прикордонників Прикордонної застави. Чіткий та офіційний, щоб дати зрозуміти неробам, що ви серйозно ставитеся до справи."
+  name: "уніформа охоронця"
+  description: "Спеціалізована уніформа для охоронця станції Прикордонного Поста. Чітка та офіційна, щоб дати зрозуміти любителям тинятися біля доків, що ви маєте серйозні наміри."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/security_guard.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtNfsd
-  name: "nfsd спідниця-комбінезон"
-  description: "Спідниця з довгими рукавами, виготовлена для заступників шерифа. Призначена для зменшення потертостей між ногами для комфорту шкіри, слизу, луски, пуху та деревини"
+  name: "спідниця-комбінезон nfsd"
+  description: "Спідниця-комбінезон з довгими рукавами, виготовлена для помічників шерифа. Розроблена для зменшення натирання між ногами для комфорту шкіри, слизу, луски, пуху та дерева"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/nfsd_skirt.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtNfsdShort
-  name: "nfsd спідниця-комбінезон"
-  description: "Спідниця з короткими рукавами, виготовлена для заступників шерифа. Призначена для зменшення потертостей між ногами для комфорту шкіри, слизу, луски, пуху та деревини"
+  name: "спідниця-комбінезон nfsd"
+  description: "Спідниця-комбінезон з короткими рукавами, виготовлена для помічників шерифа. Розроблена для зменшення натирання між ногами для комфорту шкіри, слизу, луски, пуху та дерева"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/nfsd_skirt_short.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtPrivateSec
-  name: "комбінезон приватної охорони"
-  description: "Спеціалізована уніформа для приватного охоронця. Для вибагливого приватного підрядника, який потребує професійного вигляду."
+  name: "спідниця-комбінезон приватної охорони"
+  description: "Спеціалізована уніформа для приватного охоронця. Для розбірливого приватного підрядника, якому потрібен професійний вигляд."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/private_security.rsi
@@ -91,7 +91,7 @@
   parent: ClothingUniformJumpskirtHoP
   id: ClothingUniformJumpskirtSr
   name: "уніформа представника станції"
-  description: "Першокласне вбрання для представника прикордонної застави. На пошиття не шкодували коштів, кожен стібок - шедевр. Той факт, що цей костюм взагалі був виданий, свідчить про довіру Центрального командування до свого представника на цій заставі."
+  description: "Найкраще вбрання для представника станції Прикордонного Поста. На пошиття не пошкодували коштів, кожен стібок - шедевр. Той факт, що цей костюм взагалі був виданий, показує довіру, яку Центральне Командування покладає на свого представника на цьому форпості."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpskirt/sr.rsi

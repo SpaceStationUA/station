@@ -103,6 +103,19 @@
     state: batonbot
 
 - type: construction
+  name: "майнебот"
+  id: minebot
+  graph: MineBot
+  startNode: start
+  targetNode: bot
+  category: construction-category-utilities
+  objectType: Item
+  description: "Допомагає шахтарям у їхній роботі."
+  icon:
+    sprite: Mobs/Silicon/Bots/minebot.rsi
+    state: minebot
+
+- type: construction
   name: "disablerbot"
   id: disablerbot
   graph: DisablerBot
@@ -140,3 +153,16 @@
   icon:
     sprite: Mobs/Silicon/Bots/plantbot.rsi
     state: plantbot
+
+- type: construction
+  name: "філлбот"
+  id: fillbot
+  graph: FillBot
+  startNode: start
+  targetNode: bot
+  category: construction-category-utilities
+  objectType: Item
+  description: "Цей бот пов’язаний з машиною, в яку можна вставляти предмети за допомогою мультитула."
+  icon:
+    sprite: Mobs/Silicon/Bots/fillbot.rsi
+    state: fillbot

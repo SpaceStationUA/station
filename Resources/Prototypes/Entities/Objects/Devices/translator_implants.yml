@@ -99,6 +99,21 @@
 
 - type: entity
   parent: BaseSubdermalImplant
+  id: NovuNedericTranslatorImplant
+  name: "імплант-перекладач нову-недерік"
+  description: "Імплант, що дає можливість розуміти і розмовляти нову-недерік. Хозі!"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: TranslatorImplant
+    understood:
+    - NovuNederic
+    spoken:
+    - NovuNederic
+    requires:
+    - TauCetiBasic
+
+- type: entity
+  parent: BaseSubdermalImplant
   id: RootSpeakTranslatorImplant
   name: "імплантат перекладача кореневої мови"
   description: "Імплантат, який дозволяє говорити від імені дерев. Або з деревами."

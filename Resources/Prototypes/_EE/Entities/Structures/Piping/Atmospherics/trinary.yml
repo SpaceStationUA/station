@@ -1,0 +1,58 @@
+- type: entity
+  parent: GasFilter
+  id: GasFilterHighFlow
+  name: "газовий фільтр високого потоку"
+  description: "Дуже корисний для фільтрації газів. Він може обробляти втричі більший об'єм, ніж стандартний фільтр, що робить його придатним для використання в надматеріальних двигунах."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: GasFilter
+      enabled: false
+      transferRate: 3000
+      maxTransferRate: 3000
+
+- type: entity
+  parent: GasFilterFlipped
+  id: GasFilterFlippedHighFlow
+  name: "газовий фільтр високого потоку"
+  suffix: Flipped
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: GasFilter
+      enabled: false
+      transferRate: 3000
+      maxTransferRate: 3000
+
+- type: entity
+  parent: GasMixer
+  id: GasMixerHighFlow
+  name: "газовий змішувач високого тиску"
+  description: "Використовується для змішування газів при надвисокому тиску, необхідному для надматеріальних двигунів."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: GasMixer
+      maxTargetPressure: 13500
+
+- type: entity
+  parent: GasMixerFlipped
+  id: GasMixerFlippedHighFlow
+  name: "газовий змішувач високого тиску"
+  suffix: Flipped
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: GasMixer
+      maxTargetPressure: 13500
+
+- type: entity
+  parent: PressureControlledValve
+  id: PressureControlledValveHighFlow
+  name: "запобіжний клапан"
+  description: "Варіант пневматичного клапана, призначений для пожежогасіння надматеріальних двигунів. Коли тиск у напрямку його потоку перевищує \"еталонний\" тиск збоку, клапан відкривається."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: PressureControlledValve
+      maxTransferRate: 3000

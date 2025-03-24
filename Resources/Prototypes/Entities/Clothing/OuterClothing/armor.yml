@@ -117,6 +117,78 @@
     damageCoefficient: 0.80
 
 - type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing ]
+  id: ClothingOuterArmorRaid
+  name: "рейдерський костюм синдикату"
+  description: "Дещо гнучкий і добре броньований костюм з потужним наплічним ліхтарем, виготовлений у фірмовому криваво-червоному кольорі Gorlex Marauder, він не захищає власника від космосу."
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/syndie-raid.rsi
+    layers:
+    - state: icon
+    - state: light-overlay
+      visible: false
+      shader: unshaded
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/syndie-raid.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.35
+        Slash: 0.35
+        Piercing: 0.35
+        Heat: 0.35
+        Caustic: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.35
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  #Shoulder mounted flashlight
+  - type: ToggleableLightVisuals
+    spriteLayer: light
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING-light
+        shader: unshaded
+  - type: Appearance
+  - type: HandheldLight
+    addPrefix: false
+    blinkingBehaviourId: blinking
+    radiatingBehaviourId: radiating
+  - type: PointLight
+    enabled: false
+    color: "#80ff80"
+    radius: 5
+    energy: 2
+    mask: /Textures/Effects/LightMasks/cone.png
+    autoRot: true
+    netsync: false
+  - type: LightBehaviour
+    behaviours:
+      - !type:FadeBehaviour
+        id: radiating
+        interpolate: Linear
+        maxDuration: 2.0
+        startValue: 3.0
+        endValue: 2.0
+        isLooped: true
+        reverseWhenFinished: true
+      - !type:PulseBehaviour
+        id: blinking
+        interpolate: Nearest
+        maxDuration: 1.0
+        minValue: 0.1
+        maxValue: 2.0
+        isLooped: true
+  - type: Battery
+    maxCharge: 600
+    startingCharge: 600
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 2
+
+- type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorReflective
   name: "відбиваючий жилет"
@@ -185,6 +257,31 @@
       - FullBodyOuter
 
 - type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
+  id: ClothingOuterArmorHosSamurai
+  name: "тоусей гусоку даймьо"
+  description: "Тоусей гусоку, виготовлений для Голови Служби Безпеки, в першу чергу для церемоніального використання, з відсутніми кишенями та рукавицями для полегшення використання вогнепальної зброї, але все ще забезпечує належний захист для Голови Служби Безпеки. Відмінно поєднується з піхвами для катани або тунчхоном!"
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/hosamurai.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/hosamurai.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Heat: 0.65
+        Caustic: 0.75
+  - type: GroupExamine
+  - type: ClothingRequiredStepTriggerImmune
+    slots: WITHOUT_POCKET
+  - type: Tag
+    tags:
+      - FullBodyOuter
+
+- type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorHeavyGreen
   name: "зелений важкий бронекостюм"
@@ -221,7 +318,7 @@
       coefficients:
         Blunt: 0.5
         Slash: 0.5
-        Piercing: 0.6
+        Piercing: 0.5
         Heat: 0.5
         Radiation: 0.1
         Caustic: 0.1
@@ -349,3 +446,29 @@
   - type: GroupExamine
   - type: ClothingRequiredStepTriggerImmune
     slots: WITHOUT_POCKET
+
+- type: entity
+  parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
+  id: ClothingOuterArmorCaptainDogi
+  name: "броньований догі сьогуна"
+  description: "Броньований догі, виготовлений з тонких, але міцних тканин і посилений екзотичним сплавом, щоб зберегти його власника захищеним і стильним у бою та при виконанні обов'язків. Слава Сьогуну!"
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Armor/captaindogi.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Armor/captaindogi.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.6
+        Heat: 0.5
+        Caustic: 0.9
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier
+  - type: ExplosionResistance
+    damageCoefficient: 0.65
+  - type: GroupExamine

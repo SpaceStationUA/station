@@ -25,3 +25,5 @@ power-monitoring-window-flavor-left = [user@nanotrasen] $run power_net_query
 power-monitoring-window-flavor-right = v1.3
 power-monitoring-window-rogue-power-consumer = [color=white][font size=14][bold]! ПОПЕРЕДЖЕННЯ - ВИЯВЛЕНО НЕЛЕГАЛЬНИЙ ПРИСТРІЙ, ЩО СПОЖИВАЄ ЕНЕРГІЮ![/bold][/font][/color]
 power-monitoring-window-power-net-abnormalities = [color=white][font size=14][bold]УВАГА - НЕНОРМАЛЬНА АКТИВНІСТЬ В ЕЛЕКТРОМЕРЕЖІ[/bold][/font][/color]
+
+power-monitoring-window-button-value = {$value} Вт

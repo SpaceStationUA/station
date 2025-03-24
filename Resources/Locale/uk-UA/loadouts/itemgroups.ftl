@@ -769,3 +769,21 @@ character-item-group-TraitsMachine = Машина над розумом
 character-item-group-LoadoutBlueshieldOfficerPrimary = Основна зброя БШ
 character-item-group-LoadoutNanorepUniforms = Уніформа представника Nanotrasen
 character-item-group-LoadoutNanotrasenRepresentativeWeapon = Зброя представника Nanotrasen
+character-item-group-LoadoutPlushie = Плюшеві іграшки
+
+# Специфічний для професії шаблон
+character-item-group-LoadoutPrisonerBackpacks = Рюкзаки В'язня
+character-item-group-LoadoutPrisonerBelt = Пояс В'язня
+character-item-group-LoadoutPrisonerEars = Вуха В'язня
+character-item-group-LoadoutPrisonerEquipment = Спорядження В'язня
+character-item-group-LoadoutPrisonerEyes = Окуляри В'язня
+character-item-group-LoadoutPrisonerloves = Рукавички В'язня
+character-item-group-LoadoutPrisonerHead = Головний убір В'язня
+character-item-group-LoadoutPrisonerId = ID В'язня
+character-item-group-LoadoutPrisonerNeck = Нашийник В'язня
+character-item-group-LoadoutPrisonerMask = Маски В'язня
+character-item-group-LoadoutPrisonerOuter = Верхній одяг В'язня
+character-item-group-LoadoutPrisonerShoes = Взуття В'язня
+character-item-group-LoadoutPrisonerUniforms = Уніформа В'язня
+
+# Риси - Мови

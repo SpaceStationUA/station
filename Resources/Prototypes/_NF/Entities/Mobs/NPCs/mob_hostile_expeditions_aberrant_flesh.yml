@@ -3,8 +3,8 @@
   parent:
   - MobNonHumanHostileBase
   id: BaseMobFleshExpeditions
-  name: "химерна плоть"
-  description: "Безладна маса плоті, оживлена аномальною енергією. Ніяк не виглядає на збоченця!"
+  name: "аберантна плоть"
+  description: "Хитка маса плоті, анімована аномальною енергією."
   abstract: true
   components:
   - type: HTN
@@ -244,8 +244,8 @@
 - type: entity
   parent: BaseMobFleshExpeditions
   id: MobHorrorExpeditions
-  name: "ненормальний жах плоті"
-  description: "Не така вже й жалюгідна маса плоті з загрозливими кістяними шипами, що стирчать з неприродно витягнутих пальців."
+  name: "жах аберантної плоті"
+  description: "Не така вже й хитка маса плоті з грізними кістяними шипами, що стирчать з її неприродно витягнутих пальців."
   noSpawn: true
   components:
   - type: Sprite
@@ -283,8 +283,8 @@
 - type: entity
   parent: BaseMobFleshExpeditions
   id: MobMawExpeditions
-  name: "ненормальна плоті паща"
-  description: "Не пхай туди пальці. Хіба що..."
+  name: "паща аберантної плоті"
+  description: "Не засовуйте туди пальці. Хіба що?.."
   noSpawn: true
   components:
   - type: DamageOtherOnHit

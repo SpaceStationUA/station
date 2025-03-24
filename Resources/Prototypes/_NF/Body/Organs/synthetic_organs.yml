@@ -20,7 +20,7 @@
   id: OrganSyntheticLiver
   parent: BaseHumanOrgan
   name: "синтетична печінка"
-  description: "Фільтрує токсини з крові з більшою швидкістю, ніж стареча печінка."
+  description: "Фільтрує токсини з кровотоку з більшою швидкістю, ніж стара органічна печінка."
   components:
   - type: Sprite
     state: liver
@@ -41,7 +41,7 @@
   id: OrganSyntheticKidneys
   parent: BaseHumanOrgan
   name: "синтетичні нирки"
-  description: "Фільтрує токсини з крові з більшою швидкістю, ніж стареча печінка."
+  description: "Фільтрує токсини з кровотоку з більшою швидкістю, ніж стара органічна печінка."
   components:
   - type: Sprite
     layers:

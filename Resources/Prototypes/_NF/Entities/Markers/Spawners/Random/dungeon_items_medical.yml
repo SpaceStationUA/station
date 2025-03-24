@@ -1,6 +1,6 @@
 # Clutter
 - type: entity
-  name: "випадковий безлад"
+  name: "випадковий мотлох"
   id: SpawnDungeonClutterMedical
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Medical"
@@ -198,7 +198,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: "випадкова мензурка"
+  name: "випадкова склянка"
   id: SpawnDungeonClutterBeakerEmpty
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Empty"
@@ -228,7 +228,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: "випадкові медикаменти"
+  name: "випадкові медичні ручки"
   id: SpawnDungeonClutterMedipens
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -262,7 +262,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадкові ліки"
+  name: "випадкові медикаменти"
   id: SpawnDungeonClutterMedsFull
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Full"
@@ -291,7 +291,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадкові ліки"
+  name: "випадкові медикаменти"
   id: SpawnDungeonClutterMedsSingle
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Single"
@@ -557,7 +557,7 @@
 
 # Other
 - type: entity
-  name: "випадкові хімічні речовини"
+  name: "випадкові хімікати"
   id: SpawnDungeonLootChems
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Chemistry"

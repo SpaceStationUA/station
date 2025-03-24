@@ -1,4 +1,4 @@
-﻿- type: stack
+- type: stack
   id: FloorTileSteel
   name: "сталева плитка"
   spawn: FloorTileItemSteel
@@ -35,28 +35,28 @@
 
 - type: stack
   id: FloorTileTechmaint
-  name: "технічний поверх"
+  name: "підлога техпідтримки"
   spawn: FloorTileItemTechmaint
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileFreezer
-  name: "морозильна плитка"
+  name: "плитка морозильної камери"
   spawn: FloorTileItemFreezer
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileShowroom
-  name: "душова плитка"
+  name: "плитка виставкового залу"
   spawn: FloorTileItemShowroom
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileGCircuit
-  name: "підлога з зеленим контуром"
+  name: "підлога із зеленими схемами"
   spawn: FloorTileItemGCircuit
   maxCount: 30
   itemSize: 5
@@ -84,28 +84,28 @@
 
 - type: stack
   id: FloorTileBrassFilled
-  name: "заповнена латунна пластина"
+  name: "заповнена латунна плита"
   spawn: FloorTileItemBrassFilled
   maxCount: 30
   itemSize: 5
   
 - type: stack
   id: FloorTileBrassReebe
-  name: "гладка латунна пластина"
+  name: "гладка латунна плита"
   spawn: FloorTileItemBrassReebe
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileLino
-  name: "лінолеум для підлоги"
+  name: "лінолеумна підлога"
   spawn: FloorTileItemLino
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileHydro
-  name: "гідроплитка"
+  name: "гідро плитка"
   spawn: FloorTileItemHydro
   maxCount: 30
   itemSize: 5
@@ -126,56 +126,56 @@
 
 - type: stack
   id: FloorTileStackShuttleWhite
-  name: "біла кораблева плитка"
+  name: "біла плитка шатла"
   spawn: FloorTileItemShuttleWhite
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileStackShuttleBlue
-  name: "синя кораблева плитка"
+  name: "синя плитка шатла"
   spawn: FloorTileItemShuttleBlue
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileStackShuttleOrange
-  name: "помаранчева кораблева плитка"
+  name: "помаранчева плитка шатла"
   spawn: FloorTileItemShuttleOrange
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileStackShuttlePurple
-  name: "фіолетова кораблева плитка"
+  name: "фіолетова плитка шатла"
   spawn: FloorTileItemShuttlePurple
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileStackShuttleRed
-  name: "червона кораблева плитка"
+  name: "червона плитка шатла"
   spawn: FloorTileItemShuttleRed
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileStackShuttleGrey
-  name: "сіра кораблева плитка"
+  name: "сіра плитка шатла"
   spawn: FloorTileItemShuttleGrey
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileStackShuttleBlack
-  name: "чорна кораблева плитка"
+  name: "чорна плитка шатла"
   spawn: FloorTileItemShuttleBlack
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileStackEighties
-  name: "плитка в стилі 80-х"
+  name: "плитка для підлоги вісімдесятих"
   spawn: FloorTileItemEighties
   maxCount: 30
   itemSize: 5
@@ -204,13 +204,15 @@
 - type: stack
   id: FloorCarpetRed
   name: "червоний килим"
+  icon: { sprite: Objects/Tiles/tile.rsi, state: carpet-red }
   spawn: FloorCarpetItemRed
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorCarpetBlack
-  name: "блоковий килим"
+  name: "чорний килим"
+  icon: { sprite: Objects/Tiles/tile.rsi, state: carpet-black }
   spawn: FloorCarpetItemBlack
   maxCount: 30
   itemSize: 5
@@ -218,6 +220,7 @@
 - type: stack
   id: FloorCarpetBlue
   name: "синій килим"
+  icon: { sprite: Objects/Tiles/tile.rsi, state: carpet-blue }
   spawn: FloorCarpetItemBlue
   maxCount: 30
   itemSize: 5
@@ -225,20 +228,23 @@
 - type: stack
   id: FloorCarpetGreen
   name: "зелений килим"
+  icon: { sprite: Objects/Tiles/tile.rsi, state: carpet-green }
   spawn: FloorCarpetItemGreen
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorCarpetOrange
-  name: "помаранчевий килим "
+  name: "помаранчевий килим"
+  icon: { sprite: Objects/Tiles/tile.rsi, state: carpet-orange }
   spawn: FloorCarpetItemOrange
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorCarpetSkyBlue
-  name: "небесно-блакитний килим"
+  name: "блакитний килим"
+  icon: { sprite: Objects/Tiles/tile.rsi, state: carpet-skyblue }
   spawn: FloorCarpetItemSkyBlue
   maxCount: 30
   itemSize: 5
@@ -246,6 +252,7 @@
 - type: stack
   id: FloorCarpetPurple
   name: "фіолетовий килим"
+  icon: { sprite: Objects/Tiles/tile.rsi, state: carpet-purple }
   spawn: FloorCarpetItemPurple
   maxCount: 30
   itemSize: 5
@@ -253,13 +260,15 @@
 - type: stack
   id: FloorCarpetPink
   name: "рожевий килим"
+  icon: { sprite: Objects/Tiles/tile.rsi, state: carpet-pink }
   spawn: FloorCarpetItemPink
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorCarpetCyan
-  name: "блакитний килим"
+  name: "ціановий килим"
+  icon: { sprite: Objects/Tiles/tile.rsi, state: carpet-cyan }
   spawn: FloorCarpetItemCyan
   maxCount: 30
   itemSize: 5
@@ -267,48 +276,49 @@
 - type: stack
   id: FloorCarpetWhite
   name: "білий килим"
+  icon: { sprite: Objects/Tiles/tile.rsi, state: carpet-white }
   spawn: FloorCarpetItemWhite
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileStackCarpetClown
-  name: "клоунський килим"
+  name: "килимова плитка клоуна"
   spawn: FloorTileItemCarpetClown
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileStackCarpetOffice
-  name: "офісний килим"
+  name: "килимова плитка офісу"
   spawn: FloorTileItemCarpetOffice
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileStackBoxing
-  name: "плитка для боксерського рингу"
+  name: "плитка боксерського рингу"
   spawn: FloorTileItemBoxing
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileStackGym
-  name: "плитка для підлоги в спортзалі"
+  name: "плитка для підлоги спортзалу"
   spawn: FloorTileItemGym
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileElevatorShaft
-  name: "плитка для шахти ліфта"
+  name: "плитка шахти ліфта"
   spawn: FloorTileItemElevatorShaft
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileRockVault
-  name: "склепінчаста плитка"
+  name: "плитка кам'яного склепіння"
   spawn: FloorTileItemRockVault
   maxCount: 30
   itemSize: 5
@@ -322,21 +332,21 @@
 
 - type: stack
   id: FloorTileMining
-  name: "плитка для шахт. підлоги"
+  name: "гірнича плитка для підлоги"
   spawn: FloorTileItemMining
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileMiningDark
-  name: "темна плитка для шахт. підлоги"
+  name: "темна гірнича плитка для підлоги"
   spawn: FloorTileItemMiningDark
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileMiningLight
-  name: "світла плитка для шахт. підлоги"
+  name: "світла гірнича плитка для підлоги"
   spawn: FloorTileItemMiningLight
   maxCount: 30
   itemSize: 5
@@ -350,7 +360,7 @@
 
 - type: stack
   id: FloorTileClown
-  name: "плитка для клоунської підлоги"
+  name: "плитка для підлоги клоуна"
   spawn: FloorTileItemClown
   maxCount: 30
   itemSize: 5
@@ -399,15 +409,22 @@
 
 - type: stack
   id: FloorTileSilver
-  name: "срібляста плитка для підлоги"
+  name: "срібна плитка для підлоги"
   spawn: FloorTileItemSilver
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileBCircuit
-  name: "bcircuit плитка для підлоги"
+  name: "підлога bcircuit"
   spawn: FloorTileItemBCircuit
+  maxCount: 30
+  itemSize: 5
+
+- type: stack
+  id: FloorTileRCircuit
+  name: "підлога з червоною схемою"
+  spawn: FloorTileItemRCircuit
   maxCount: 30
   itemSize: 5
 
@@ -420,7 +437,7 @@
 
 - type: stack
   id: FloorTileGrassJungle
-  name: "джунглева плитка для підлоги"
+  name: "трав'яна плитка для підлоги джунглів"
   spawn: FloorTileItemGrassJungle
   maxCount: 30
   itemSize: 5
@@ -434,35 +451,35 @@
 
 - type: stack
   id: FloorTileWoodPattern
-  name: "візерункова дерв'яна підлога"
+  name: "дерев'яна підлога з візерунком"
   spawn: FloorTileItemWoodPattern
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileFlesh
-  name: "м'ясна підлога"
+  name: "підлога з плоті"
   spawn: FloorTileItemFlesh
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileSteelMaint
-  name: "сталева підлога тех. шляхів"
+  name: "сталева підлога"
   spawn: FloorTileItemSteelMaint
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileGratingMaint
-  name: "решітчаста підлога тех. шляхів"
+  name: "решітчаста підлога"
   spawn: FloorTileItemGratingMaint
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileWeb
-  name: "павутинчаста плитка"
+  name: "павутинна плитка"
   spawn: FloorTileItemWeb
   maxCount: 30
   itemSize: 5
@@ -470,41 +487,41 @@
 # Faux science tiles
 - type: stack
   id: FloorTileAstroGrass
-  name: "астро-трав'яна підлога"
+  name: "підлога з астро-трави"
   spawn: FloorTileItemAstroGrass
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileMowedAstroGrass
-  name: "скошена астро-травпідлога"
+  name: "скошена підлога з астро-трави"
   spawn: FloorTileItemMowedAstroGrass
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileJungleAstroGrass
-  name: "джунглева астро-травпідлога"
+  name: "підлога з астро-трави джунглів"
   spawn: FloorTileItemJungleAstroGrass
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileAstroIce
-  name: "астро-крижана підлога"
+  name: "підлога з астро-льоду"
   spawn: FloorTileItemAstroIce
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileAstroSnow
-  name: "астро-снігова підлога"
+  name: "підлога з астро-снігу"
   spawn: FloorTileItemAstroSnow
   maxCount: 30
   itemSize: 5
 
 - type: stack
   id: FloorTileWoodLarge
-  name: "масивна дерев'яна підлога"
+  name: "велика дерев'яна підлога"
   spawn: FloorTileItemWoodLarge
   maxCount: 30

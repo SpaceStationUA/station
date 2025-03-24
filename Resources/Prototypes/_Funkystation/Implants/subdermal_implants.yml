@@ -1,0 +1,17 @@
+- type: entity
+  parent: BaseSubdermalImplant
+  id: ChangelingInfectionImplant
+  name: "імплант зараження змінювачем"
+  description: "Цей імплант вводить паразита змінювача в руку користувача, зрештою даючи йому інфекцію Змінювача."
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+      permanent: true
+      whitelist:
+        components:
+        - Absorbable
+    - type: ChangelingInfectionImplant
+    - type: Tag
+      tags:
+      - ChangelingInfectionImplant
+      - HideContextMenu

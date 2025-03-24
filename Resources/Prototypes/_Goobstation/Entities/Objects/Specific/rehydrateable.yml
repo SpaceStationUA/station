@@ -1,0 +1,17 @@
+- type: entity
+  parent: MonkeyCube
+  id: VulpkaninCube
+  name: "куб вулпканіна"
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - MobVulpkaninRandom
+
+- type: entity
+  parent: MonkeyCube
+  id: TajaranCube
+  name: "куб таярана"
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - MobTajaranRandom

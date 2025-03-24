@@ -8,7 +8,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatCardinal
   name: "капелюх кардинала"
-  description: "Добре захищає голову від сонця і розуму."
+  description: "Захищає вашу голову від сонця та розуму."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hats/cardinal_hat.rsi
@@ -23,7 +23,7 @@
   parent: ClothingHeadBase
   id: ClothingHeadHatWitchhunter
   name: "капелюх мисливця на відьом"
-  description: "Відьмі не можна залишати життя."
+  description: "Не дай відьмі жити."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hats/witch_hunter_hat.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBishopMitre
-  name: "єпископська митра"
-  description: "Як це носити? А! Навпаки!"
+  name: "митра єпископа"
+  description: "Як це носити? А! Іншим боком!"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hats/bishop_mitre.rsi
@@ -69,7 +69,7 @@
   id: ClothingHeadHatHoodCardinalHood
   noSpawn: true
   name: "капюшон кардинала"
-  description: "Ховає очі, загартовує віру."
+  description: "Приховує ваші очі, зміцнює вашу віру."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Head/Hoods/cardinal_hood.rsi

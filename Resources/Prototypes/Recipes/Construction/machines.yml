@@ -5,7 +5,7 @@
   startNode: start
   targetNode: computer
   category: construction-category-machines
-  description: "Каркас, який використовується для побудови будь-чого з комп'ютерною платою."
+  description: "Рама, яка використовується для побудови чого-небудь з комп'ютерною платою."
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
@@ -50,7 +50,7 @@
   startNode: start
   targetNode: LightSwitchNode
   category: construction-category-machines
-  description: "Перемикач для перемикання світильників, які підключені до одного акумулятора."
+  description: "Вимикач для ввімкнення/вимкнення світла, підключеного до того ж APC."
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -62,13 +62,13 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: "сигнальний перемикач"
+  name: "сигнальний вимикач"
   id: SignalSwitchRecipe
   graph: SignalSwitchGraph
   startNode: start
   targetNode: SignalSwitchNode
   category: construction-category-machines
-  description: "Це вимикач для перемикання живлення речей."
+  description: "Це вимикач для ввімкнення/вимкнення живлення."
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -98,13 +98,13 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: "перемикач напрямку світла"
+  name: "направлений вимикач світла"
   id: LightSwitchDirectionalRecipe
   graph: LightSwitchDirectionalGraph
   startNode: start
   targetNode: LightSwitchDirectionalNode
   category: construction-category-machines
-  description: "Перемикач для перемикання світильників, які підключені до одного акумулятора."
+  description: "Вимикач для ввімкнення/вимкнення світла, підключеного до того ж APC."
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -116,13 +116,13 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: "перемикач сигналів повороту"
+  name: "направлений сигнальний вимикач"
   id: SignalSwitchDirectionalRecipe
   graph: SignalSwitchDirectionalGraph
   startNode: start
   targetNode: SignalSwitchDirectionalNode
   category: construction-category-machines
-  description: "Це вимикач для перемикання живлення речей."
+  description: "Це вимикач для ввімкнення/вимкнення живлення."
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -134,7 +134,7 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: "кнопка сигналу повороту"
+  name: "направлена сигнальна кнопка"
   id: SignalButtonDirectionalRecipe
   graph: SignalButtonDirectionalGraph
   startNode: start

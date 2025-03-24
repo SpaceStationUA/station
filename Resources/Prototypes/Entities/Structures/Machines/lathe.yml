@@ -49,6 +49,8 @@
     price: 800
   - type: ResearchClient
   - type: TechnologyDatabase
+  - type: Speech # Goobstation - Lathe message on recipes update
+    speechSounds: Lathe
 
 # a lathe that can be sped up with space lube / slowed down with glue
 - type: entity
@@ -213,6 +215,7 @@
     - NekomimeticTranslator
     - DraconicTranslator
     - SolCommonTranslator
+    - NovuNedericTranslator
     - RootSpeakTranslator
     - BasicGalaticCommonTranslatorImplanter
     - MofficTranslator
@@ -242,6 +245,7 @@
     - RiotShield
     - SpeedLoaderMagnum
     - SpeedLoaderMagnumEmpty
+    - GrenadeFlashBang # Goobstation
     # .35 Caseless Pistol
     - MagazinePistolCaselessRiflePractice # EE
     - MagazinePistolCaselessRifle # EE
@@ -376,6 +380,7 @@
     - SyringeBluespace
     - WeaponForceGun
     - WeaponLaserSvalinn
+    - WeaponCivilianDisabler
     - WeaponProtoKineticAccelerator
     - WeaponTetherGun
     - WeaponGrapplingGun
@@ -387,6 +392,9 @@
     - CoreSilver # Nyanotrasen - Silver Golem core
     - OreBagOfHolding
     - DeviceQuantumSpinInverter
+    - PKAUpgradeDamage # Lavaland Change
+    - PKAUpgradeRange # Lavaland Change
+    - PKAUpgradeFireRate # Lavaland Change
     - XenoTranslator
     - AdvancedGalaticCommonTranslatorImplanter
     - BubblishTranslatorImplanter
@@ -402,6 +410,7 @@
     - ClothingEyesThermalVisionGoggles
     - RCDAmmo #DeltaV
     - RCD #EE
+    - RPD
     - WeaponPlasmaCutter # Goobstation
     - WeaponPlasmaRifle # Goobstation
     # Shitmed Change
@@ -501,6 +510,7 @@
     - ChemMasterMachineCircuitboard
     - CondenserMachineCircuitBoard
     - HotplateMachineCircuitboard
+    - PrinterDocMachineCircuitboard  # Corvax-Printer
     - UniformPrinterMachineCircuitboard
     - FloorGreenCircuit
     - FloorBlueCircuit
@@ -721,6 +731,7 @@
     - BorgModuleAdvancedTool
     - BorgModuleGPS
     - BorgModuleRCD
+    - BorgModuleRPD
     - BorgModuleJetpack
     - BorgModulePka
     - BorgModuleArtifact
@@ -959,6 +970,7 @@
       - WeaponFlareGunSecurity
       - WeaponLaserCarbinePractice
       - Zipties
+      - GrenadeFlashBang # Goobstation
       - ShockCollar
       # DeltaV - .38 special ammo - Add various .38 special ammo to security techfab
       - MagazineBoxSpecial
@@ -1007,8 +1019,12 @@
       - MagazineBoxPistolRubber # Frontier
       - MagazineBoxRifleRubber # Frontier
       - SpeedLoaderRifleHeavyRubber
+      - BoxShotgunBirdshot
+      - BoxShotgun00Buckshot
+      - BoxShotgun0000Buckshot
     dynamicRecipes:
       - Truncheon
+      - Terminus
       - BoxShotgunIncendiary
       - BoxShotgunUranium
       - EncryptionKeySyndie
@@ -1105,12 +1121,31 @@
       - EnergySword
       - EnergySwordDouble
       - EnergyCutlass
+      - WeaponEnergyTurretAIMachineCircuitboard
+      - WeaponEnergyTurretStationMachineCircuitboard
+      - WeaponEnergyTurretAIControlPanelElectronics
+      - WeaponEnergyTurretStationControlPanelElectronics
       - WeaponSubMachineGunFPA90
       - WeaponSubMachineGunBRDIR25
       - WeaponPistolMk58
       - WeaponPistolN1984
       - WeaponPistolViper
       - WeaponPistolCobra
+      - MagazineRifleShrapnel
+      - MagazinePistolShrapnel
+      - MagazinePistolSubMachineGunShrapnel
+      - MagazineMagnumShrapnel
+      - MagazineLightRifleShrapnel
+      - MagazineCaselessRifleShrapnel
+      - MagazineCaselessRifleIncendiary
+      - MagazineCaselessRifleUranium
+      - MagazineBoxPistolShrapnel
+      - MagazineBoxMagnumShrapnel
+      - MagazineBoxLightRifleShrapnel
+      - MagazineBoxRifleShrapnel
+      - MagazineBoxCaselessRifleShrapnel
+      - MagazineBoxCaselessRifleIncendiary
+      - MagazineBoxCaselessRifleUranium
   - type: MaterialStorage
     whitelist:
       tags:
@@ -1542,7 +1577,7 @@
   - type: Lathe
     idleState: icon
     runningState: building
-    defaultProductionAmount: 10
+    defaultProductionAmount: 30 #Imp QOL
     staticRecipes:
     - BluespaceCrystal
     - NormalityCrystal

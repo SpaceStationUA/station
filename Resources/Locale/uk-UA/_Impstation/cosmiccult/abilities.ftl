@@ -15,3 +15,7 @@ cosmicability-monument-spawn-error-grid = Невірне місце розташ
 cosmicability-monument-spawn-error-station = Невірне місце розташування! Монумент має бути викликаний на станції.
 cosmicability-monument-spawn-error-intersection = Занадто людно! Монумент потребує порожню зону 3x1 для виклику.
 cosmicability-monument-spawn-error-space = Занадто близько до космосу! Монумент повинен бути на відстані не менше {$DISTANCE}м.
+
+cosmicability-monument-move-confirm = ЦЮ ДІЮ МОЖНА ВИКОРИСТАТИ ЛИШЕ ОДИН РАЗ! Використай її знову для підтвердження.
+cosmicability-glare-confirm = Натисніть ще раз, щоб активувати Нульовий Погляд.
+cosmicability-siphon-full = Ти не можеш утримувати більше Ентропії!

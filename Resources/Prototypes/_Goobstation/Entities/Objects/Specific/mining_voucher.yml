@@ -1,0 +1,15 @@
+- type: entity
+  parent: BaseItem
+  id: MiningVoucher
+  name: "шахтарський ваучер"
+  description: "Жетон для отримання обладнання. Вставте його у свій торговий автомат, щоб отримати обладнання."
+  components:
+  - type: Sprite
+    sprite: DeltaV/Objects/Specific/Salvage/voucher.rsi
+    state: icon
+  - type: Item
+    size: Tiny
+  - type: MiningVoucher
+    vendorWhitelist: # it's the only mining points vendor :)
+     components:
+     - PointsVendor

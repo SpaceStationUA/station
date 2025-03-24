@@ -1,0 +1,32 @@
+- type: entity
+  parent: BaseItem
+  id: CQCManual
+  name: "старий посібник"
+  description: "Невелика чорна інструкція. Містить ілюстровані інструкції з тактичного рукопашного бою."
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Objects/Misc/cqc_manual.rsi
+    layers:
+    - state: icon
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 3000
+  - type: GrantCqc
+
+- type: entity
+  parent: BaseItem
+  id: SleepingCarpScroll
+  name: "таємничий сувій"
+  description: "Сувій, заповнений дивними позначками. Схоже, це малюнки якогось бойового мистецтва."
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Wizard/Objects/scroll.rsi
+    layers:
+    - state: scroll2
+  - type: Item
+    sprite: _Goobstation/Wizard/Objects/scroll.rsi
+    size: Small
+  - type: StaticPrice
+    price: 3000
+  - type: GrantSleepingCarp

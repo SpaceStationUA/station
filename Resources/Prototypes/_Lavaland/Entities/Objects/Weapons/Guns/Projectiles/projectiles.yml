@@ -1,0 +1,48 @@
+- type: entity
+  id: RapidBulletKinetic
+  name: "швидкий кінетичний болт"
+  parent: BulletKinetic
+  categories: [ HideSpawnMenu ]
+  description: "Не дуже погано, але все одно краще не потрапляти під нього."
+  components:
+  - type: Projectile
+    impactEffect: BulletImpactEffectKinetic
+    damage:
+      types:
+        Blunt: 20
+  - type: TimedDespawn
+    lifetime: 0.100 # Lavaland Change
+
+- type: entity
+  id: WeakBulletKinetic
+  name: "слабкий кінетичний болт"
+  parent: BulletKinetic
+  categories: [ HideSpawnMenu ]
+  description: "Не дуже погано, але все одно краще не потрапляти під нього."
+  components:
+  - type: Projectile
+    impactEffect: BulletImpactEffectKinetic
+    damage:
+      types:
+        Blunt: 10
+
+- type: entity
+  id: PelletKinetic
+  categories: [ HideSpawnMenu ]
+  parent: BulletKinetic
+  components:
+  - type: Projectile
+    impactEffect: BulletImpactEffectKinetic
+    damage:
+      types:
+        Blunt: 15
+
+- type: entity
+  id: PelletKineticSpread
+  categories: [ HideSpawnMenu ]
+  parent: BulletKinetic
+  components:
+  - type: ProjectileSpread
+    proto: PelletKinetic
+    count: 4
+    spread: 40

@@ -15,3 +15,5 @@ scrying-orb-verb-message = Увійдіть у царство мертвих
 scrying-orb-verb-text = Активуйте сферу
 
 prayer-verbs-rub = Прошепотіти
+
+wizard-mirror-guardian-change-species-fail = Ви не можете змінити свою расу після розміщення стража!

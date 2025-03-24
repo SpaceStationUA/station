@@ -10,11 +10,16 @@
     bodyType: Dynamic
     linearDamping: 0
     angularDamping: 0
-  - type: Reflective
-    reflective:
-    - Energy
   - type: Fixtures
     fixtures:
+      fix1:
+        shape: !type:PhysShapeCircle
+          radius: 0.2
+        density: 5
+        mask:
+        - ItemMask
+        restitution: 0.3
+        friction: 0.2
       projectile:
         shape:
           !type:PhysShapeAabb
@@ -50,6 +55,7 @@
     deleteOnRemove: true
   - type: ThrowingAngle
     angle: 0
+  - type: ProjectileIgnoreTransparent
 
 - type: entity
   parent: [BaseHardlightArrow, BaseHardlightEmbeddableArrow]
@@ -77,8 +83,7 @@
       types:
         Heat: 0
   - type: StaminaDamageOnCollide
-    damage: 30
-    overtime: 30
+    damage: 60
 
 - type: entity
   parent: [BaseHardlightArrow, BaseHardlightEmbeddableArrow]
@@ -97,28 +102,28 @@
   - type: IgniteOnCollide
     fireStacks: 4
 
-- type: entity
-  parent: [BaseHardlightArrow, BaseHardlightEmbeddableArrow]
-  id: ArrowFreeze
-  name: "стрілка заморожування"
-  description: "Стріла, зроблена з твердого світла. Вона заморожує жертву."
-  components:
-  - type: Sprite
-    color: blue
-  - type: PointLight
-    color: blue
-  - type: Projectile
-    damage:
-      types:
-        Cold: 10
-  - type: ChangeTemperatureOnCollide
-    heat: -300000
+# - type: entity
+#   parent: [BaseHardlightArrow, BaseHardlightEmbeddableArrow]
+#   id: ArrowFreeze
+#   name: freezing arrow
+#   description: An arrow made from hardlight. This one freezes the victim.
+#   components:
+#   - type: Sprite
+#     color: blue
+#   - type: PointLight
+#     color: blue
+#   - type: Projectile
+#     damage:
+#       types:
+#         Cold: 10
+#   - type: ChangeTemperatureOnCollide
+#     heat: -300000
 
 - type: entity
   parent: [BaseHardlightArrow, BaseHardlightEmbeddableArrow]
   id: ArrowExplosive
   name: "вибухова стріла"
-  description: "Стріла, зроблена з твердого світла. Ця вибухає від удару."
+  description: "Стріла, зроблена з твердосвітла. Ця вибухає при влучанні."
   components:
   - type: Sprite
     color: "#7300FF"
@@ -128,8 +133,6 @@
     damage:
       types:
         Heat: 0
-  - type: TimedDespawn
-    lifetime: 0.7
   - type: TriggerOnCollide
     fixtureID: projectile
   - type: ExplodeOnTrigger
@@ -152,8 +155,6 @@
     color: "#1AE51A"
   - type: Projectile
     penetrate: true
-    noPenetrateMask:
-    - BlobImpassable
     damage:
       types:
         Heat: 30
@@ -167,4 +168,23 @@
         mask:
         - Opaque
   - type: TimedDespawn
-    lifetime: 0.7
+    lifetime: 2
+
+# - type: entity
+#   parent: BaseHardlightArrow
+#   id: ArrowBee
+#   name: bee arrow
+#   description: An arrow made from hardlight. This one summons angry bees.
+#   components:
+#   - type: Sprite
+#     color: yellow
+#   - type: PointLight
+#     color: yellow
+#   - type: Projectile
+#     deleteOnCollide: true
+#     damage:
+#       types:
+#         Heat: 0
+#   - type: SpawnEntitiesOnHit
+#     proto: MobAngryBeeWeak
+#     amount: 4

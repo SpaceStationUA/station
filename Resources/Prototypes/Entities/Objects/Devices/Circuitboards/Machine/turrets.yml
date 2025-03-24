@@ -1,0 +1,32 @@
+- type: entity
+  id: WeaponEnergyTurretStationMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: "друкована плата сторожової турелі"
+  description: "Друкована плата машини для сторожової турелі."
+  components:
+    - type: Sprite
+      state: security
+    - type: MachineBoard
+      prototype: WeaponEnergyTurretStation
+      requirements:
+        PowerCell: 1
+      tagRequirements:
+        TurretCompatibleWeapon:
+          Amount: 1
+          DefaultPrototype: WeaponLaserCannon
+          ExamineName: Laser Cannon
+        ProximitySensor:
+          Amount: 1
+          DefaultPrototype: ProximitySensor
+          ExamineName: Proximity Sensor
+
+- type: entity
+  id: WeaponEnergyTurretAIMachineCircuitboard
+  parent: WeaponEnergyTurretStationMachineCircuitboard
+  name: "друкована плата сторожової турелі ШІ"
+  description: "Друкована плата машини для сторожової турелі ШІ."
+  components:
+    - type: Sprite
+      state: command
+    - type: MachineBoard
+      prototype: WeaponEnergyTurretAI

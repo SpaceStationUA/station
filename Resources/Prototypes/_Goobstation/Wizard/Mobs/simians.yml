@@ -52,6 +52,10 @@
       230: 0.5
   - type: Insulated
   - type: FlashImmunity
+  - type: Bloodstream
+    maxBleedAmount: 0
+  - type: Respirator
+    suffocationThreshold: -5
 
 - type: entity
   name: "мавпа"
@@ -66,6 +70,19 @@
     speechSounds: Monkey
     speechVerb: Monkey
   - type: MonkeyAccent
+  - type: NpcFactionMember
+    factions:
+    - SimpleHostile
+  - type: HTN
+    rootTask:
+      task: SimpleHumanoidHostileCompound
+
+- type: entity
+  name: "кобольд"
+  id: MobKoboldAngry
+  parent: MobBaseKobold
+  description: "Двоюрідні брати розумної раси ящерів, кобольди зливаються зі своїм природним середовищем існування і такі ж мерзенні, як мавпи; готові вирвати вам волосся і зарізати до смерті."
+  components:
   - type: NpcFactionMember
     factions:
     - SimpleHostile

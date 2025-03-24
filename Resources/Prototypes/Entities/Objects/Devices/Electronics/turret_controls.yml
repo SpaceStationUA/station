@@ -1,0 +1,26 @@
+- type: entity
+  id: WeaponEnergyTurretStationControlPanelElectronics
+  parent: BaseElectronics
+  name: "електроніка панелі керування сторожової туреллю"
+  description: "Електронна плата, що використовується в панелі керування сторожової туреллю."
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/module.rsi
+    state: security
+  - type: ElectronicsBoard
+    prototype: WeaponEnergyTurretStationControlPanel
+  - type: Tag
+    tags:
+    - TurretControlElectronics
+
+- type: entity
+  id: WeaponEnergyTurretAIControlPanelElectronics
+  parent: WeaponEnergyTurretStationControlPanelElectronics
+  name: "електроніка панелі керування сторожової туреллю ШІ"
+  description: "Електронна плата, що використовується в панелі керування сторожової туреллю ШІ."
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/module.rsi
+    state: command
+  - type: ElectronicsBoard
+    prototype: WeaponEnergyTurretAIControlPanel

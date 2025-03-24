@@ -116,8 +116,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterCombatArmorBOSSenior
-  name: "старший обладунок братства"
-  description: "Бойовий обладунок, який використовували старші бійці \"Сталевого братства\"."
+  name: "броня старшого братства"
+  description: "Комплект бойової броні, що використовується старшими Братства Сталі."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutbossenior.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterCombatArmorBOSCaptain
-  name: "братство капітана броні"
-  description: "Бойовий обладунок, який використовують капітани \"Сталевого братства\". Цей виглядає найкраще."
+  name: "броня капітана братства"
+  description: "Комплект бойової броні, що використовується капітанами Братства Сталі. Цей виглядає найкраще."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutboscaptain.rsi
@@ -203,8 +203,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterRaiderBadlands
-  name: "рейдерська броня для безлюдних земель"
-  description: "Костюм рейдерської броні. Він майже не захищає... але виглядає круто."
+  name: "броня рейдера пусток"
+  description: "Комплект рейдерської броні. Вона майже не забезпечує захисту... але ВИГЛЯДАЄ круто."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutraiderbadlands.rsi
@@ -214,8 +214,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: N14ClothingOuterRaiderBlastmaster
-  name: "рейдерська броня підривника"
-  description: "Костюм рейдерської броні. Він майже не захищає... але виглядає круто."
+  name: "броня рейдера-підривника"
+  description: "Комплект рейдерської броні. Вона майже не забезпечує захисту... але ВИГЛЯДАЄ круто."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutraiderblastmaster.rsi
@@ -225,8 +225,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: N14ClothingOuterRaiderCombat1
-  name: "бойова броня для рейдерів"
-  description: "Броня, яку сумнозвісно використовують у бою рейдери всіх видів."
+  name: "бойова броня рейдера"
+  description: "Частина броні, сумнозвісно використовувана Рейдерами всіх видів у бою."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutcombatraider1.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: N14ClothingOuterRaiderCombat1
   id: N14ClothingOuterRaiderCombat2
-  name: "бойова броня для рейдерів"
-  description: "Броня, яку сумнозвісно використовують у бою рейдери всіх видів."
+  name: "бойова броня рейдера"
+  description: "Частина броні, сумнозвісно використовувана Рейдерами всіх видів у бою."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/OuterClothing/Armor/falloutcombatraider2.rsi

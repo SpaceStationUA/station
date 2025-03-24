@@ -80,3 +80,7 @@ evolutionmenu-utility-hivemindaccess-desc = Налаштовує наші хім
 
 evolutionmenu-utility-absorbbiomatter-name = Поглинання біомаси
 evolutionmenu-utility-absorbbiomatter-desc = Поглинає органічний харчовий продукт, дозволяючи вам відновити хімічні речовини залежно від його вмісту. Може поглинати поживні речовини, варені та неварені білки і жири.
+
+evolutionmenu-utility-infecttarget-name = Заразити Ціль
+evolutionmenu-utility-infecttarget-desc = Вводить паразита Змінювача в ціль, зрештою перетворюючи її на іншого Змінювача.
+    Потрібно 60 хімікатів. Деуномію можна використати, щоб скасувати це, якщо ти помилився, але тільки якщо паразит ще не захопив тіло.

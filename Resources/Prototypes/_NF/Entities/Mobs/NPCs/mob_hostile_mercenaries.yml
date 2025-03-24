@@ -172,7 +172,7 @@
 
 ## Tier 2
 - type: entity
-  name: "найманий порушник"
+  name: "проривач-найманець"
   parent:
   - MobMercenaryBase
   - MobHumanoidHostileAISimpleMelee
@@ -206,7 +206,7 @@
       shader: unshaded
 
 - type: entity
-  name: "найманий порушник"
+  name: "проривач-найманець"
   parent: MobMercenaryBase
   id: MobMercenarySoldierRevolver
   noSpawn: true
@@ -251,7 +251,7 @@
     soundGunshot: /Audio/Weapons/Guns/Gunshots/pistol.ogg
 
 - type: entity
-  name: "найманий порушник"
+  name: "проривач-найманець"
   parent: MobMercenaryBase
   id: MobMercenaryBreacherShotgun
   noSpawn: true
@@ -299,7 +299,7 @@
 
 ## Tier 3
 - type: entity
-  name: "фахівець з найманців"
+  name: "спеціаліст-найманець"
   parent: MobMercenaryBase
   id: MobMercenarySpecialistMedic
   noSpawn: true

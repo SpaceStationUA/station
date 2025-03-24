@@ -154,7 +154,7 @@
 
 #Space Ninja Helmet
 - type: entity
-  parent: ClothingHeadEVAHelmetBase
+  parent: ClothingHeadEVAHelmetNoIngestionBlocker
   id: ClothingHeadHelmetSpaceNinja
   name: "шолом космічного ніндзя"
   description: "Те, що може здатися простим чорним одягом, насправді є дуже складним шоломом з наноплетіння. Стандартне спорядження ніндзя."
@@ -166,12 +166,13 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-  - type: IngestionBlocker
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
     - Hair
     - Snout
+  - type: Unremoveable
+
 
 #Templar Helmet
 - type: entity
@@ -356,6 +357,25 @@
     sprite: Clothing/Head/Helmets/ert_janitor.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/ert_janitor.rsi
+
+# Lavaland shuttupance - Raid Helmet
+- type: entity
+  parent: ClothingHeadHelmetBasic
+  id: ClothingHeadHelmetRaid
+  name: "рейдерський шолом синдикату"
+  description: "Броньований шолом для використання з рейдерським костюмом синдикату. Дуже стильний."
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/syndie-raid.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/syndie-raid.rsi
+  - type: Armor
+    modifiers: #There's gotta be SOME reason to use this over other helmets.
+      coefficients:
+        Blunt: 0.85
+        Slash: 0.85
+        Piercing: 0.85
+        Heat: 0.85
 
 #Bone Helmet
 - type: entity

@@ -299,3 +299,5 @@ ui-options-function-mapping-enable-delete = Видалити об'єкт
 ui-options-general-other = Інше
 ui-options-modern-progress-bar = Сучасний індикатор виконання
 ui-options-mood-visual-effects = Увімкніть візуальні ефекти системи настрою
+
+ui-options-function-smart-equip-back = Автоматично екіпірувати в слот спини

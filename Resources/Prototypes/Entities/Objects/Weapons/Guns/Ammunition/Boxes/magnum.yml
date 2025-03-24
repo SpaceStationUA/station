@@ -56,7 +56,7 @@
 - type: entity
   parent: BaseMagazineBoxMagnum
   id: MagazineBoxMagnumRubber
-  name: "коробочка з набоями (гума .45 магнум)"
+  name: "коробка боєприпасів (.45 магнум гумовий)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumRubber
@@ -71,7 +71,7 @@
 - type: entity
   id: MagazineBoxMagnumIncendiary
   parent: BaseMagazineBoxMagnum
-  name: "коробка набоїв (запалювальні .45 магнум)"
+  name: "коробка боєприпасів (.45 магнум запальний)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeMagnumIncendiary
@@ -112,3 +112,17 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
     - state: piercing
+
+- type: entity
+  parent: BaseMagazineBoxMagnum
+  id: MagazineBoxMagnumShrapnel
+  name: "коробка боєприпасів (.45 магнум, шрапнельний)"
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeMagnumShrapnel
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

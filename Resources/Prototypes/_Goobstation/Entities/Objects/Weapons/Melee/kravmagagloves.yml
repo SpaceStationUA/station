@@ -1,0 +1,16 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: ClothingHandsGlovesKravMaga
+  name: "рукавички Крав Мага"
+  description: "Ці рукавички можуть навчити вас виконувати Крав Мага за допомогою наночипів, поки ви їх носите."
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Hands/Gloves/kravgloves.rsi
+  - type: Item
+  - type: Clothing
+  - type: Fiber
+    fiberMaterial: fibers-leather
+    fiberColor: fibers-red
+  - type: ClothingGrantComponent
+    component:
+    - type: KravMaga

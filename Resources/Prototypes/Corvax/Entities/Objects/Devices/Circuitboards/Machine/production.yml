@@ -1,0 +1,13 @@
+﻿- type: entity
+  id: PrinterDocMachineCircuitboard
+  parent: BaseMachineCircuitboard
+  name: "друкована плата принтера документів"
+  description: "Друкована плата машини для принтера документів"
+  components:
+    - type: MachineBoard
+      prototype: PrinterDoc
+      requirements:
+        MatterBin: 3
+        Manipulator: 1
+      materialRequirements:
+        Glass: 1

@@ -4,7 +4,7 @@
   parent: MobNonHumanHostileBase
   id: BaseMobDinosaurExpeditions
   name: "динозавр"
-  description: "Загадкові бегемоти з минулої епохи, відомі своїм значним зростом і грізною присутністю."
+  description: "Загадкові гіганти з минулої епохи, відомі своїм величним зростом і грізною присутністю."
   abstract: true
   components:
   - type: HTN
@@ -66,7 +66,7 @@
 - type: entity
   parent: BaseMobDinosaurExpeditions
   id: MobDinosaurCompyExpeditions
-  name: "компсогнатус"
+  name: "компсогнат"
   noSpawn: true
   components:
   - type: Sprite
@@ -178,7 +178,7 @@
 - type: entity
   parent: BaseMobDinosaurExpeditions
   id: MobDinosaurParaExpeditions
-  name: "парасауролофус"
+  name: "паразауролоф"
   noSpawn: true
   components:
   - type: Sprite
@@ -252,7 +252,7 @@
 - type: entity
   parent: BaseMobDinosaurExpeditions
   id: MobDinosaurTrikeExpeditions
-  name: "трицератопси"
+  name: "трицератопс"
   noSpawn: true
   components:
   - type: Sprite

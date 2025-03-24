@@ -16,7 +16,6 @@
         prob: 0.15 # Pirate salvage suits variety
       - id: ClothingShoesBootsMag
       - id: ClothingMaskGasExplorer
-      - id: ClothingEyesGlassesGarMeson
       - id: ClothingBeltUtilityFilled
       - id: SurvivalKnife
       - id: HandheldGPSBasic
@@ -36,6 +35,16 @@
         prob: 0.2
       - id: LunchboxLogisticsFilledRandom # DeltaV - Lunchboxes!
         prob: 0.3
+      # Lavaland Change Start
+      - id: WeaponProtoKineticAccelerator
+      - id: OreBag
+      - id: Pickaxe
+      - id: LavalandEquipmentExplorerSuit
+      - id: ShelterCapsule
+      - id: ClothingMaskGasExplorer
+      - id: FlashlightSeclite
+      - id: ClothingEyesGlassesGarMeson
+      # Lavaland Change End
 
 - type: entity
   id: LockerSalvageSpecialistFilled

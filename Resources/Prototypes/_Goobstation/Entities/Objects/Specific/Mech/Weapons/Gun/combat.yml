@@ -187,8 +187,8 @@
 
 - type: entity
   id: WeaponMechCombatShotgunIncendiary
-  name: "Карабін FNX-99 \"Аїд"
-  description: "Навісний карабін, що стріляє запалювальними патронами."
+  name: "FNX-99 \"Hades\" Карабін"
+  description: "Встановлений карабін, що стріляє запальними набоями."
   suffix: Mech Weapon, Gun, Combat, Shotgun, Incendiary
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:
@@ -211,7 +211,7 @@
 - type: entity
   id: WeaponMechCombatUltraRifle
   name: "Ультра AC-2"
-  description: "Навісний карабін, що стріляє запалювальними патронами."
+  description: "Встановлений карабін, що стріляє запальними набоями."
   suffix: Mech Weapon, Gun, Combat, Rifle
   parent: [ BaseMechWeaponRange, CombatMechEquipment ]
   components:

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitArcadia
-  name: "комбінезон arcadia"
-  description: "Комбінезон виробництва Arcadia Industries. Призначений для зменшення потертостей між ногами для комфорту шкіри, слизу, лусочок, пуху та деревини"
+  name: "комбінезон аркадія"
+  description: "Комбінезон виробництва Arcadia Industries. Розроблений для зменшення натирання між ногами для комфорту шкіри, слизу, луски, пуху та дерева"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/arcadia.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitValet
-  name: "уніформа паркувальника"
-  description: "Гарна та охайна форма."
+  name: "уніформа камердинера"
+  description: "Гарна та охайна уніформа."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/bartender.rsi
@@ -23,20 +23,20 @@
 - type: entity
   parent: ClothingUniformJumpsuitDetective
   id: ClothingUniformJumpsuitBH
-  name: "міцний костюм"
-  description: "Той, хто носить це, має на увазі бізнес."
+  name: "поношений костюм"
+  description: "Той, хто носить це, має серйозні наміри."
 
 - type: entity
   parent: ClothingUniformJumpsuitDetectiveGrey
   id: ClothingUniformJumpsuitBHGrey
-  name: "чорний костюм"
-  description: "Сірий костюм, з затискачем для краватки."
+  name: "костюм нуар"
+  description: "Сірий костюм із затискачем для краватки."
 
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitChaplainPilgrimVest
-  name: "комбінезон паломника"
-  description: "Тук-тук. Чи не бажаєте поговорити про нашого Господа і Спасителя Нар-Ссс... Космічному Джибусі?"
+  name: "комбінезон пілігрима"
+  description: "Тук-тук. Чи не бажаєте поговорити про нашого Господа-Спасителя Нар-Ссс... Емм... Космічного Джібуса?"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/chaplain-pilgrim.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitSecGuard
-  name: "форма охоронця"
-  description: "Спеціалізована уніформа для прикордонників Прикордонної застави. Чіткий та офіційний, щоб дати зрозуміти неробам, що ви серйозно ставитеся до справи."
+  name: "уніформа охоронця"
+  description: "Спеціалізована уніформа для охоронця станції Прикордонного Поста. Чітка та офіційна, щоб дати зрозуміти любителям тинятися біля доків, що ви маєте серйозні наміри."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/security_guard.rsi
@@ -58,7 +58,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPilot
   name: "комбінезон пілота"
-  description: "Ви теж вважаєте, що має бути кишенька для ваших улюблених сигарет?"
+  description: "Ви теж вважаєте, що має бути кишеня для ваших улюблених цигарок?"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/pilot.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitERTMailCarrier
-  name: "Форма кур'єра ERT"
-  description: "Спеціальний костюм, виготовлений для елітних листонош компанії CentCom."
+  name: "уніформа поштового перевізника ERT"
+  description: "Спеціальний костюм, створений для елітних поштових перевізників під керівництвом ЦентКому."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/ert_mailcarrier.rsi
@@ -80,7 +80,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNfsd
   name: "комбінезон nfsd"
-  description: "Комбінезон з довгими рукавами, виготовлений для заступників шерифа. Розроблений для зменшення натирання між ногами для комфорту шкіри, слизу, луски, пуху та деревини"
+  description: "Комбінезон з довгими рукавами, виготовлений для помічників шерифа. Розроблений для зменшення натирання між ногами для комфорту шкіри, слизу, луски, пуху та дерева"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_jump.rsi
@@ -91,7 +91,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNfsdShort
   name: "комбінезон nfsd"
-  description: "Комбінезон з короткими рукавами, виготовлений для заступників шерифа. Призначений для зменшення натирання між ногами для комфорту шкіри, слизу, луски, пуху та деревини"
+  description: "Комбінезон з короткими рукавами, виготовлений для помічників шерифа. Розроблений для зменшення натирання між ногами для комфорту шкіри, слизу, луски, пуху та дерева"
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_jump_short.rsi
@@ -102,7 +102,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNfsdTacBlack
   name: "тактичний комбінезон nfsd"
-  description: "Тактичний комбінезон для депутатів у польових умовах."
+  description: "Тактичний комбінезон для помічників у польових умовах."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_black.rsi
@@ -113,7 +113,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNfsdTacGray
   name: "тактичний комбінезон nfsd"
-  description: "Тактичний комбінезон для депутатів у польових умовах."
+  description: "Тактичний комбінезон для помічників у польових умовах."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_gray.rsi
@@ -124,7 +124,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNfsdTacCamo
   name: "тактичний комбінезон nfsd"
-  description: "Тактичний комбінезон для депутатів у польових умовах."
+  description: "Тактичний комбінезон для помічників у польових умовах."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_camo.rsi
@@ -135,7 +135,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNfsdTacCream
   name: "тактичний комбінезон nfsd"
-  description: "Тактичний комбінезон для депутатів у польових умовах."
+  description: "Тактичний комбінезон для помічників у польових умовах."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/nfsd_tac_cream.rsi
@@ -187,7 +187,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPrivateSec
   name: "комбінезон приватної охорони"
-  description: "Спеціалізована уніформа для приватного охоронця. Для вибагливого приватного підрядника, який потребує професійного вигляду."
+  description: "Спеціалізована уніформа для приватного охоронця. Для розбірливого приватного підрядника, якому потрібен професійний вигляд."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/private_security.rsi
@@ -198,7 +198,7 @@
   parent: ClothingUniformJumpsuitHoP
   id: ClothingUniformJumpsuitSr
   name: "уніформа представника станції"
-  description: "Першокласне вбрання для представника прикордонної застави. На пошиття не шкодували коштів, кожен стібок - шедевр. Той факт, що цей костюм взагалі був виданий, свідчить про довіру Центрального командування до свого представника на цій заставі."
+  description: "Найкраще вбрання для представника станції Прикордонного Поста. На пошиття не пошкодували коштів, кожен стібок - шедевр. Той факт, що цей костюм взагалі був виданий, показує довіру, яку Центральне Командування покладає на свого представника на цьому форпості."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/sr.rsi
@@ -208,8 +208,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPirateSlops
-  name: "піратське пошарпене вбрання"
-  description: "Пошарпана, але зручна форма, щоб грабувати сектор."
+  name: "піратські шмотки"
+  description: "Пошарпана, але зручна уніформа для грабунку сектора."
   components:
   - type: Sprite
     sprite: _NF/Clothing/Uniforms/Jumpsuit/pirate_slops.rsi
@@ -219,7 +219,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitPirateLuffy
-  name: "підозріла піратська форма"
+  name: "підозріла піратська уніформа"
   description: "Досить підозрілий на вигляд комплект піратського одягу."
   components:
   - type: Sprite

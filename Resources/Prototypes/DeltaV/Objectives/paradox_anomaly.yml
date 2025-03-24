@@ -1,14 +1,14 @@
 - type: entity
   abstract: true
+  parent: BaseObjective
   id: BaseParadoxAnomalyObjective
   components:
   - type: Objective
     difficulty: 1
-    issuer: self
+    issuer: objective-issuer-self
 
 # not using base kill/keep alive objectives since these intentionally conflict with eachother
 - type: entity
-  categories: [ HideSpawnMenu ]
   parent: BaseParadoxAnomalyObjective
   id: ParadoxAnomalyKillObjective
   description: "У цьому всесвіті немає місця для нас обох."
@@ -19,11 +19,11 @@
       state: icon
   - type: TargetObjective
     title: objective-paradox-anomaly-kill-title
+  - type: TerminatorTargetOverride
   - type: KillPersonCondition
     requireDead: true
 
 - type: entity
-  categories: [ HideSpawnMenu ]
   parent: BaseParadoxAnomalyObjective
   id: ParadoxAnomalyFriendObjective
   description: "Можливо, знайдеться місце, як для друзів."
@@ -34,10 +34,10 @@
       state: folder-white
   - type: TargetObjective
     title: objective-paradox-anomaly-friend-title
+  - type: TerminatorTargetOverride
   - type: KeepAliveCondition
 
 - type: entity
-  categories: [ HideSpawnMenu ]
   parent: [BaseParadoxAnomalyObjective, BaseLivingObjective]
   id: ParadoxAnomalyEscapeObjective
   name: "Втекти до центру живим і неушкодженим."

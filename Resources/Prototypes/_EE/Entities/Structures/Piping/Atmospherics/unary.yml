@@ -1,0 +1,35 @@
+- type: entity
+  parent: GasVentPump
+  id: GasVentPumpHighFlow
+  name: "повітряний вентиль високого тиску"
+  description: "Труба з приєднаним насосом високого потоку. Він може витримувати втричі більший тиск, ніж стандартний вентиль."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: GasVentPump
+      maxPressure: 13500
+      PumpPower: 6
+
+- type: entity
+  parent: GasVentScrubber
+  id: GasVentScrubberHighFlow
+  name: "повітряний скрубер високого тиску"
+  description: "Труба з приєднаним повітряним скрубером. Він може витримувати втричі більший тиск, ніж стандартний скрубер."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: GasVentScrubber
+      maxPressure: 13500
+      maxTransferRate: 600
+
+- type: entity
+  parent: GasOutletInjector
+  id: GasOutletInjectorHighFlow
+  name: "інжектор повітря високого тиску"
+  description: "Інжектор повітря, розрахований на роботу з тиском, втричі більшим, ніж у стандартного інжектора."
+  placement:
+    mode: SnapgridCenter
+  components:
+    - type: GasOutletInjector
+      maxTransferRate: 600
+      maxPressure: 13500

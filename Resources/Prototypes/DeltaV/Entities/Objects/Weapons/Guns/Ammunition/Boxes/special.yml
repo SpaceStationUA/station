@@ -56,7 +56,7 @@
 - type: entity
   parent: BaseMagazineBoxSpecial
   id: MagazineBoxSpecialRubber
-  name: "коробочка з набоями (.38 спеціальна гума)"
+  name: "коробка боєприпасів (.38 спеціальний гумовий)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialRubber
@@ -71,7 +71,7 @@
 - type: entity
   parent: BaseMagazineBoxSpecial
   id: MagazineBoxSpecialIncendiary
-  name: "коробочка з набоями (.38 спеціальний запалювальний)"
+  name: "коробка боєприпасів (.38 спеціальний запальний)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeSpecialIncendiary

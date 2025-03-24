@@ -1,0 +1,10 @@
+- type: entity
+  parent: BaseComputerCircuitboard
+  id: LavalandShuttleConsoleCircuitboard
+  name: "плата консолі шахтарського шатла"
+  description: "Друкована плата для консолі шахтарського шатла."
+  components:
+  - type: Sprite
+    state: cpu_supply
+  - type: ComputerBoard
+    prototype: ComputerShuttleMiningLavaland

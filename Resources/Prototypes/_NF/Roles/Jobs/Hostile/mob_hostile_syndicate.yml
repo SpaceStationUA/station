@@ -1,5 +1,5 @@
 - type: entity
-  name: "морський агент синдикату"
+  name: "агент синдикатського флоту"
   abstract: true
   noSpawn: true
   parent:
@@ -99,7 +99,7 @@
 
 # Syndicate Engineer, "armed" with shotgun
 - type: entity
-  name: "синдикатський інженер"
+  name: "інженер синдикату"
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalEngineerA
   noSpawn: true
@@ -458,7 +458,7 @@
 
 # Hostile Victim of Experimentation, "armed" with shiv
 - type: entity
-  name: "в полоні"
+  name: "полонений"
   parent:
   - MobHumanoidHostileBase
   - MobHumanoidHostileAISimpleMelee
@@ -551,7 +551,7 @@
 
 # Syndicate Deckhand, "armed" with Viper
 - type: entity
-  name: "палубний матрос синдикату"
+  name: "матрос синдикату"
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalDeckhandA
   noSpawn: true
@@ -604,7 +604,7 @@
 
 # Syndicate Mime, melee, "armed" with chainsaw
 - type: entity
-  name: "синдикатська пантоміма"
+  name: "мім синдикату"
   parent:
   - MobSyndicateNavalBase
   - MobHumanoidHostileAISimpleMelee
@@ -628,7 +628,7 @@
 # Syndicate Chemwarrior, shoots healthy mixes of chems
 # Look for chems here: /Resources/Prototypes/_NF/Entities/Objects/Weapons/Ammunition/Projectiles/chem.yml
 - type: entity
-  name: "синдикат \"Хімвоїн"
+  name: "хімвоїн синдикату"
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalChemwarriorA
   noSpawn: true

@@ -47,7 +47,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleBigRubber
-  name: "коробка набоїв (гвинтівкова гума калібру .20)"
+  name: "коробка боєприпасів (.20 гвинтівковий гумовий)"
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -97,7 +97,7 @@
 - type: entity
   parent: BaseMagazineBoxRifle
   id: MagazineBoxRifleRubber
-  name: "коробка набоїв (гвинтівкова гума калібру .20)"
+  name: "коробка боєприпасів (.20 гвинтівковий гумовий)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleRubber
@@ -112,7 +112,7 @@
 - type: entity
   id: MagazineBoxRifleIncendiary
   parent: BaseMagazineBoxRifle
-  name: "коробка з набоями (запал для гвинтівки калібру 20)"
+  name: "коробка боєприпасів (.20 гвинтівковий запальний)"
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeRifleIncendiary
@@ -139,3 +139,16 @@
       map: ["enum.GunVisualLayers.Mag"]
     - state: uranium
 
+- type: entity
+  parent: BaseMagazineBoxRifle
+  id: MagazineBoxRifleShrapnel
+  name: "коробка боєприпасів (.20 гвинтівковий, шрапнельний)"
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeRifleShrapnel
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitRDFormal
-  name: "офіційний костюм наукового керівника"
-  description: "Офіційне вбрання для наукового керівника."
+  name: "офіційний костюм директора з досліджень"
+  description: "Офіційний одяг для директора з досліджень."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/rdformal.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitSettlerRags
-  name: "ганчір'я пустельних поселенців"
-  description: "Якесь лахміття, яке носять люди, що хочуть десь оселитися."
+  name: "лахміття поселенця пустки"
+  description: "Лахміття, яке носять люди, які хочуть десь оселитися."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/wastelandsettler.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitBOSRed
-  name: "червоне братство сталевої уніформи"
-  description: "Форма, яку носять члени \"Сталевого братства\". Ця червона."
+  name: "червона уніформа братства сталі"
+  description: "Уніформа, яку носять члени Братства Сталі. Ця червона."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/Brotherhood/bosred.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitBOSGreen
-  name: "зелене братство сталевої уніформи"
-  description: "Форма, яку носять члени \"Сталевого братства\". Ця зелена."
+  name: "зелена уніформа братства сталі"
+  description: "Уніформа, яку носять члени Братства Сталі. Ця зелена."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/Brotherhood/bosgreen.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitBOSBlack
-  name: "чорне братство сталевої уніформи"
-  description: "Форма, яку носять члени \"Сталевого братства\". Ця чорна."
+  name: "чорна уніформа братства сталі"
+  description: "Уніформа, яку носять члени Братства Сталі. Ця чорна."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/Brotherhood/bosbasic.rsi
@@ -100,9 +100,9 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitBOSSilver
-  name: "братство сталевої уніформи"
+  name: "уніформа братства сталі"
   suffix: silver rank
-  description: "Уніформа, яку носили члени \"Сталевого братства\". Ця має срібні знаки розрізнення."
+  description: "Уніформа, яку носять члени Братства Сталі. Ця має срібні відзнаки."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/Brotherhood/bossilver.rsi
@@ -112,9 +112,9 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitBOSGold
-  name: "братство сталевої уніформи"
+  name: "уніформа братства сталі"
   suffix: gold rank
-  description: "Уніформа, яку носили члени \"Сталевого братства\". Ця має золоті знаки розрізнення."
+  description: "Уніформа, яку носять члени Братства Сталі. Ця має золоті відзнаки."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/Brotherhood/bosgold.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitWastelandDoc
-  name: "одяг лікаря на пустирі"
-  description: "Це одяг, який носили повоєнні лікарі. Ідеально підходить для видалення осколків або перев'язки синців."
+  name: "одяг лікаря пустки"
+  description: "Одяг, який носять лікарі після війни. Ідеально підходить для видалення осколків або перев'язки синців."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/medicaldoctor.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitEnclave
-  name: "анклавна форма"
-  description: "Форма, яку носили члени \"Анклаву\"."
+  name: "уніформа анклаву"
+  description: "Уніформа, яку носять члени Анклаву."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/enclaveuni.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitMerc
-  name: "форма найманця"
-  description: "Уніформа, яку носять типові найманці."
+  name: "уніформа найманця"
+  description: "Уніформа, яку носить типовий найманець."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/mercc.rsi
@@ -158,8 +158,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitMerchant
-  name: "торговий одяг"
-  description: "У наш час єдині люди, яким можна довіряти, - це ті, хто продає вам товари."
+  name: "одяг торговця"
+  description: "У наші дні єдині люди, яким можна довіряти, - це ті, хто вам щось продає."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/merchant.rsi
@@ -169,8 +169,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitTrader
-  name: "одяг для трейдерів"
-  description: "Гей! Ти! Хочеш купити пістолет?"
+  name: "одяг торговця"
+  description: "Гей! Ти! Хочеш купити зброю?"
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/trader.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitCaravan
-  name: "одяг караванників"
-  description: "О, я йду по цій дорозі з поганим настроєм... Господи, я йду по цій дорозі і почуваюся погано..."
+  name: "одяг караванника"
+  description: "О, я йду цією дорогою, почуваючись погано... Господи, я йду цією дорогою, почуваючись погано..."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/caravaneer.rsi
@@ -203,8 +203,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitPreWarRelaxed
-  name: "довоєнний вільний одяг"
-  description: "Це довоєнний вільний одяг. Незважаючи на всі плями та бруд, він все ще досить зручний."
+  name: "довоєнний повсякденний одяг"
+  description: "Це довоєнний повсякденний одяг. Незважаючи на всі плями та бруд, він все ще досить зручний."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/relaxedwear.rsi
@@ -215,7 +215,7 @@
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitPreWarCasual
   name: "довоєнний повсякденний одяг"
-  description: "Це довоєнний повсякденний одяг. Незважаючи на всі плями і бруд, він все ще досить зручний."
+  description: "Це довоєнний повсякденний одяг. Незважаючи на всі плями та бруд, він все ще досить зручний."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/casualwear.rsi
@@ -270,7 +270,7 @@
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitCombat
   name: "бойовий комбінезон"
-  description: "Зручний комбінезон на випадок, коли в тебе стріляють або ти стріляєш у когось."
+  description: "Зручний комбінезон для випадків, коли в вас стріляють або ви стріляєте в когось."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/combatjumpsuit.rsi
@@ -291,8 +291,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitBrahminFarmer
-  name: "фермерський одяг брамінів"
-  description: "Одяг, який носили чесні повоєнні фермери."
+  name: "одяг фермера брамінів"
+  description: "Одяг, який носять чесні фермери після війни."
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/brahminfarmer.rsi
@@ -302,7 +302,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitFollowers
-  name: "послідовники уніформи апокаліпсису"
+  name: "уніформа послідовників апокаліпсису"
   description: "Уніформа, яку часто можна побачити під лабораторними халатами Послідовників Апокаліпсису."
   components:
   - type: Sprite
@@ -314,7 +314,7 @@
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitCowboyBrown
   name: "коричневий ковбойський одяг"
-  description: "Ура, напарнику!"
+  description: "Їха, партнере!"
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/cowboybrown.rsi
@@ -325,7 +325,7 @@
   parent: ClothingUniformBase
   id: N14ClothingUniformJumpsuitCowboyGrey
   name: "сірий ковбойський одяг"
-  description: "Ура, напарнику!"
+  description: "Їха, партнере!"
   components:
   - type: Sprite
     sprite: Nuclear14/Clothing/Uniforms/FalloutSuits/cowboygrey.rsi

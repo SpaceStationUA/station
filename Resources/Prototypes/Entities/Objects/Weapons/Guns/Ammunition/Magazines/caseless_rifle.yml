@@ -99,7 +99,6 @@
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifle
-    capacity: 10
   - type: Sprite
     slayers:
     - state: red
@@ -119,7 +118,6 @@
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRiflePractice
-    capacity: 10
   - type: Sprite
     layers:
     - state: practice
@@ -134,12 +132,11 @@
 
 - type: entity
   id: MagazinePistolCaselessRifleRubber
-  name: "пістолетний магазин (.25 безоболонковий гумовий)"
+  name: "пістолетний магазин (.25 безгільзовий гумовий)"
   parent: BaseMagazinePistolCaselessRifle
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifleRubber
-    capacity: 10
   - type: Sprite
     layers:
     - state: rubber
@@ -151,6 +148,30 @@
     steps: 6
     zeroVisible: false
   - type: Appearance
+
+- type: entity
+  id: MagazinePistolCaselessRifleIncendiary
+  name: "пістолетний магазин (.25 безгільзовий запальний)"
+  parent: BaseMagazinePistolCaselessRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifleIncendiary
+
+- type: entity
+  id: MagazinePistolCaselessRifleUranium
+  name: "пістолетний магазин (.25 безгільзовий, урановий)"
+  parent: BaseMagazinePistolCaselessRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifleUranium
+
+- type: entity
+  id: MagazinePistolCaselessRifleShrapnel
+  name: "пістолетний магазин (.25 безгільзовий, шрапнельний)"
+  parent: BaseMagazinePistolCaselessRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifleShrapnel
 
 - type: entity
   id: MagazineCaselessRifle
@@ -182,7 +203,7 @@
 
 - type: entity
   id: MagazineCaselessRifleRubber
-  name: "магазин (.25 безоболонкова гума)"
+  name: "магазин (.25 безгільзовий гумовий)"
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -193,6 +214,30 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineCaselessRifleIncendiary
+  name: "магазин (.25 безгільзовий запальний)"
+  parent: MagazineCaselessRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifleIncendiary
+
+- type: entity
+  id: MagazineCaselessRifleUranium
+  name: "магазин (.25 безгільзовий, урановий)"
+  parent: MagazineCaselessRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifleUranium
+
+- type: entity
+  id: MagazineCaselessRifleShrapnel
+  name: "магазин (.25 безгільзовий, шрапнельний)"
+  parent: MagazineCaselessRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifleShrapnel
 
 - type: entity
   id: MagazineCaselessRifleShort
@@ -216,7 +261,6 @@
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRiflePractice
-    capacity: 20
   - type: Sprite
     layers:
     - state: practice
@@ -226,15 +270,38 @@
 
 - type: entity
   id: MagazineCaselessRifleShortRubber
-  name: "короткий магазин (.25 безоболонковий гумовий)"
+  name: "короткий магазин (.25 безгільзовий гумовий)"
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifleRubber
-    capacity: 20
   - type: Sprite
     layers:
     - state: rubber
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: MagazineCaselessRifleShortIncendiary
+  name: "короткий магазин (.25 безгільзовий запальний)"
+  parent: BaseMagazineCaselessRifleShort
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifleIncendiary
+
+- type: entity
+  id: MagazineCaselessRifleShortUranium
+  name: "короткий магазин (.25 безгільзовий, урановий)"
+  parent: BaseMagazineCaselessRifleShort
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifleUranium
+
+- type: entity
+  id: MagazineCaselessRifleShortShrapnel
+  name: "короткий магазин (.25 безгільзовий, шрапнельний)"
+  parent: BaseMagazineCaselessRifleShort
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifleShrapnel

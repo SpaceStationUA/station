@@ -83,3 +83,5 @@ signal-port-name-set-particle-sigma = Встановити тип частино
 signal-port-description-set-particle-sigma = Встановлює тип частинок, які випромінює цей пристрій, на сигму.
 signal-port-name-material-silo-utilizer = Утилізатор силосу
 signal-port-description-material-silo-utilizer = Утилізатор для силосу станційного матеріалу
+signal-port-name-fill-any-item = Ціль Філлбота
+signal-port-description-fill-any-item = Цільовий порт для вставки Філлбота.

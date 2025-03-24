@@ -90,6 +90,8 @@
     - Multitool
   - type: Prying
     enabled: false
+  - type: UseDelay # For insta prying
+    delay: 1
   - type: Tool
     qualities:
       - Screwing
@@ -157,3 +159,13 @@
   - type: Item
     sprite: _Goobstation/Objects/Tools/rcd_chrono.rsi
   - type: RCD
+
+- type: entity #GOOOB
+  name: "мультитул борга"
+  parent: Multitool
+  id: MultitoolBorg
+  description: "Удосконалений інструмент для копіювання, зберігання та надсилання електричних імпульсів та сигналів через дроти та машини."
+  components:
+  - type: Tool
+    qualities:
+    - Pulsing

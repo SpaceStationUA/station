@@ -1,19 +1,46 @@
-# For faction clothing related to the Sol Alliance Navy and her Armed Forces
-# Lore Info Link
-- type: entity
-  id: SolAllianceInfo
-  abstract: true
-  components:
-    - type: GuideHelp
-      guides: [SolAlliance]
-
 # Uniforms
+- type: entity
+  parent: [ClothingUniformBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolArmyService
+  name: "службова уніформа армії Соларіану"
+  suffix: SAN
+  description: "Стандартна службова уніформа для рядового складу армії Соларіану. Вона рідко використовується, оскільки більшість рядових замість неї носять свої BDU, за винятком офіційних випадків."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_army_service.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_army_service.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolArmyServiceGeneral
+  name: "генеральська уніформа армії Соларіану"
+  suffix: SAN
+  description: "Стандартна службова уніформа для офіцерів армії Соларіану. Її повинні носити генерали в польових умовах."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_army_service_general.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_army_service_general.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolArmyServiceOfficer
+  name: "офіцерська уніформа армії Соларіану"
+  suffix: SAN
+  description: "Стандартна службова уніформа для офіцерів армії Соларіану."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_army_service_officer.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_army_service_officer.rsi
+
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolFatigueGreen
-  name: "Форма SAN"
-  suffix: Green
-  description: "Повсякденна форма, яку носять \"рядові\" у Збройних силах Соларіан. Хоча Земля вже не є зеленим раєм минулого, оливкові BDU залишаються емблемою старих армій Землі."
+  name: "Зелені BDU Соларіан"
+  suffix: SAN
+  description: "Поширена уніформа, яку носять \"рядові\" у Збройних силах Соларіану. Хоча Земля більше не є зеленим раєм минулого, оливкові BDU залишаються емблемою військових старої Землі."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_green.rsi
@@ -23,9 +50,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolFatigueGrey
-  name: "Форма SAN"
-  suffix: Grey
-  description: "Повсякденна форма, яку носять \"рядові\" у Збройних силах Соларіан. Хоча і не такий поширений, як оливковий BDU, \"кам'яно-сірий\" залишається популярним вибором кольору уніформи."
+  name: "Сірі BDU Соларіан"
+  suffix: SAN
+  description: "Поширена уніформа, яку носять \"рядові\" у Збройних силах Соларіану. Хоча \"кам'яно-сірий\" не такий поширений, як оливкові BDU, він залишається популярним вибором кольору уніформи."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_grey.rsi
@@ -35,11 +62,119 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolFatigueIPC
-  name: "Форма SAN IPC"
-  suffix: Grey
-  description: "IPC є єдиним винятком з сумнозвісної ксенофобії Збройних сил Соларіан. Хоча SAN жодного разу не дозволив служити інопланетянам, він прагне використовувати синтетиків, щоб врятувати чистих людей від важкої праці або відправки на м'ясорубку."
+  name: "Втома IPC Соларіан"
+  suffix: SAN
+  description: "IPC є єдиним винятком із сумнозвісної ксенофобії Збройних сил Соларіану. Хоча SAN жодного разу не дозволив служити інопланетянину, він прагне використовувати синтетиків, щоб врятувати чистих людей від важкої праці або кидання в м'ясорубки."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_ipc.rsi
     - type: Clothing
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_ipc.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolFatigueTan
+  name: "Втома Соларіан"
+  suffix: SAN
+  description: "Поширена уніформа, яку носять \"рядові\" у Збройних силах Соларіану. Ця уніформа кольору хакі для пустельних умов."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_tan.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_tan.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolMarineDress
+  name: "парадна форма морської піхоти Соларіану"
+  suffix: SAN
+  description: "Комплект \"парадної форми\", яку носять морські піхотинці Соларіану під час офіційних заходів."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_mahreen_dress.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_mahreen_dress.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolNavyCoveralls
+  name: "комбінезон ВМС Соларіану"
+  suffix: SAN
+  description: "Поширена робоча уніформа для членів ВМС Соларіану."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_coveralls.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_coveralls.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolNavyDress
+  name: "парадна уніформа ВМС Соларіану"
+  suffix: SAN
+  description: "Форма, яку носять військовослужбовці ВМС Соларіану під час офіційних заходів. Або офіцерами як стандартна уніформа."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_dress.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_dress.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolNavyDressAdmiral
+  name: "парадна адміральська уніформа ВМС Соларіану"
+  suffix: SAN
+  description: "Парадна уніформа для Адміралтейства Соларіану. На відміну від інших звань, Адміралтейство також зобов'язане носити її як службову уніформу."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_dress_admiral.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_dress_admiral.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolNavyDressOfficer
+  name: "парадна офіцерська уніформа ВМС Соларіану"
+  suffix: SAN
+  description: "Парадна уніформа для офіцерів ВМС Соларіану. Залежно від звання, вона також може бути службовою уніформою."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_dress_officer.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_dress_officer.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolNavyDressSeniorOfficer
+  name: "парадна уніформа старшого офіцера ВМС Соларіану"
+  suffix: SAN
+  description: "Парадна уніформа для старших офіцерів ВМС Соларіану. Вона також повинна носитися як службова уніформа."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_dress_senior_officer.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_navy_dress_senior_officer.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolNavySailor
+  name: "матроська уніформа ВМС Соларіану"
+  suffix: SAN
+  description: "Службова уніформа для рядового складу ВМС Соларіану."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_sailor.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_sailor.rsi
+
+- type: entity
+  parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
+  id: ClothingUniformJumpsuitSolServiceWhite
+  name: "службова уніформа армії Соларіану"
+  suffix: SAN
+  description: "Службова уніформа для рядового складу ВМС Соларіану. Ця уніформа білого літнього кольору і повинна носитися в мирний час. Сьогодні її майже ніколи не бачать."
+  components:
+    - type: Sprite
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_service_white.rsi
+    - type: Clothing
+      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_service_white.rsi

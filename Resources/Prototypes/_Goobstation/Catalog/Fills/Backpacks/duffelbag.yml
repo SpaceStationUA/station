@@ -11,3 +11,40 @@
       - id: ClothingHandsGlovesCombat
       - id: DoubleEmergencyOxygenTankFilled
       - id: DoubleEmergencyNitrogenTankFilled
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateBurner
+  name: "Комплект Burner"
+  description: "Великокаліберна гвинтівка Burner, постачається з деякими протиматеріальними та фугасними боєприпасами."
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleBurner
+      - id: MagazineHighCaliberExplosive
+      - id: MagazineHighCaliber
+      - id: MagazineHighCaliber
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateM90Bundle # - 古い M90 バンドルがこの ID を使用しているかどうかはわかりませんが、その ID はコメントアウトされており、もう存在しないと思います。
+  name: "Комплект M-90"
+  description: "Комплект із штурмовою гвинтівкою M-90 синдикату та 2 запасними магазинами."
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleM90
+      - id: MagazineRifle
+      - id: MagazineRifle
+
+- type: entity
+  parent: ClothingBackpackDuffelSyndicateBundle
+  id: ClothingBackpackDuffelSyndicateFilledWSPR
+  name: "Комплект WSPR"
+  description: "Комплект із штурмовою гвинтівкою WSPR синдикату та 2 запасними магазинами."
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponRifleWSPR
+      - id: MagazineLightRifleSubsonic
+        amount: 2

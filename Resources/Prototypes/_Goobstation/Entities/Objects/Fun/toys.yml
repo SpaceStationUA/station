@@ -1,0 +1,10 @@
+- type: entity
+  parent: BasePlushie
+  id: PlushieBingle
+  name: "плюшевий бінгл"
+  description: "Мила м'яка іграшка, що нагадує синього інопланетянина. Ви відчуваєте дивне бажання сказати \"бінгл\""
+  components:
+  - type: Sprite
+    norot: true
+    sprite: _Goobstation/Mobs/Bingle/bingle.rsi
+    state: alive

@@ -1,0 +1,16 @@
+- type: entity
+  parent: ThrowingStar
+  id: ThrowingStarChangeling
+  name: "осколок кістки"
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Changeling/bone_shard.rsi
+    layers:
+    - state: icon
+      map: ["base"]
+  - type: TimedDespawn
+    lifetime: 30
+  - type: HolidayVisuals
+    holidays:
+      base:
+      - FestiveSeason

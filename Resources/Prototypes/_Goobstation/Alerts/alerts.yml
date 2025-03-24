@@ -18,6 +18,14 @@
   minSeverity: 0
   maxSeverity: 5
 
+- type: alert
+  id: KnockedDown
+  icons:
+  - sprite: /Textures/_Goobstation/Interface/Alerts/knockdown.rsi
+    state: icon
+  name: alerts-knocked-down-name
+  description: alerts-knocked-down-desc
+
 #Pirate chrono
 - type: alert
   id: Stasis

@@ -1,0 +1,19 @@
+- type: entity
+  name: "кажан"
+  parent: MobBat
+  id: MobBatVampire
+  description: "Деякі культури вважають їх жахливими, інші хрусткими на зубах."
+  components:
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - VimPilot
+    - CannotSuicide
+  - type: MindContainer
+    showExamineInfo: true
+  - type: NpcFactionMember
+    factions:
+    - PetsNT
+  - type: Alerts
+
+  

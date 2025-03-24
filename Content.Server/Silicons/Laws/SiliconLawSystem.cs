@@ -1,7 +1,7 @@
 using System.Linq;
 using Content.Server.Administration;
 using Content.Server.Chat.Managers;
-using Content.Server.GameTicking;
+using Content.Shared.GameTicking;
 using Content.Server.Radio.Components;
 using Content.Server.Roles;
 using Content.Server.Station.Systems;
@@ -132,7 +132,7 @@ public sealed class SiliconLawSystem : SharedSiliconLawSystem
         component.Lawset?.Laws.Insert(0, new SiliconLaw
         {
             LawString = Loc.GetString("law-emag-custom", ("name", Name(args.UserUid)), ("title", Loc.GetString(component.Lawset.ObeysTo))),
-            Order = 0
+            Order = -1 // Goobstation - AI/borg law changes - borgs obeying AI
         });
 
         //Add the secrecy law after the others
@@ -179,7 +179,7 @@ public sealed class SiliconLawSystem : SharedSiliconLawSystem
             return;
 
         if (!_roles.MindHasRole<SubvertedSiliconRoleComponent>(mindId))
-            _roles.MindAddRole(mindId, "MindRoleSubvertedSilicon");
+            _roles.MindAddRole(mindId, "MindRoleSubvertedSilicon", silent: true);
     }
 
     public SiliconLawset GetLaws(EntityUid uid, SiliconLawBoundComponent? component = null)

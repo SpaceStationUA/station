@@ -100,3 +100,6 @@ research-technology-basic-cybernetics = Основи кібернетики
 research-technology-basic-electronics = Базова електроніка
 research-technology-basic-life-improvements = Базові покращення життя
 research-technology-advanced-life-improvements = Прогресивні покращення життя
+
+research-technology-shrapnel-munitions = Шрапнельні Боєприпаси
+research-technology-laser-sentry-turrets = Технологія Лазерних Турелей-Охоронців

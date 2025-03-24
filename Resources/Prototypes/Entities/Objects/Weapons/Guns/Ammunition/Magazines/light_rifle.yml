@@ -36,7 +36,7 @@
 # Magazines
 - type: entity
   id: MagazineLightRifleBox
-  name: "Коробка магазину L6 SAW (гвинтівка калібру .30)"
+  name: "коробчатий магазин (.30 гвинтівковий)"
   parent: BaseMagazineLightRifle
   components:
   - type: Tag
@@ -53,6 +53,46 @@
     steps: 8
     zeroVisible: false
   - type: Appearance
+
+- type: entity
+  id: MagazineLightRifleBoxPractice
+  name: "коробчатий магазин (.30 гвинтівковий, тренувальний)"
+  parent: MagazineLightRifleBox
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRiflePractice
+
+- type: entity
+  id: MagazineLightRifleBoxRubber
+  name: "коробчатий магазин (.30 гвинтівковий гумовий)"
+  parent: MagazineLightRifleBox
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleRubber
+
+- type: entity
+  id: MagazineLightRifleBoxIncendiary
+  name: "коробчатий магазин (.30 гвинтівковий запальний)"
+  parent: MagazineLightRifleBox
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleIncendiary
+
+- type: entity
+  id: MagazineLightRifleBoxUranium
+  name: "коробчатий магазин (.30 гвинтівковий, урановий)"
+  parent: MagazineLightRifleBox
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleUranium
+
+- type: entity
+  id: MagazineLightRifleBoxShrapnel
+  name: "коробка магазинів L6 SAW (.30 гвинтівковий, шрапнельний)"
+  parent: MagazineLightRifleBox
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleShrapnel
 
 - type: entity
   id: MagazineLightRifle
@@ -97,7 +137,7 @@
 
 - type: entity
   id: MagazineLightRifleRubber
-  name: "магазин (.30 гвинтівочна гума)"
+  name: "магазин (.30 гвинтівковий гумовий)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -125,11 +165,19 @@
 
 - type: entity
   id: MagazineLightRifleIncendiary
-  name: "магазин (запал до гвинтівки калібру .30)"
+  name: "магазин (.30 гвинтівковий запальний)"
   parent: MagazineLightRifle
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleIncendiary
+
+- type: entity
+  id: MagazineLightRifleShrapnel
+  name: "магазин (.30 гвинтівковий, шрапнельний)"
+  parent: BaseMagazineLightRifle
+  components:
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleShrapnel
 
 - type: entity
   id: MagazineLightRifleMaxim

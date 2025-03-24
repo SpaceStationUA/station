@@ -41,6 +41,7 @@
   components:
   - type: ConfirmableAction
     popup: cosmicability-monument-spawn-confirm
+    primeTime: 10 #increased to give you more time to figure out where you want to put it
   - type: InstantAction
     useDelay: 999
     itemIconStyle: NoItem
@@ -48,6 +49,27 @@
       sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
       state: monument
     event: !type:EventCosmicPlaceMonument {}
+  - type: MonumentPlacementMarker
+    tier: 1
+
+- type: entity
+  id: ActionCosmicMoveMonument
+  name: "Перемістити Монумент"
+  description: "Ваша робота вкрай важлива, а кінець неминучий. Переконайтеся, що вона буде завершена під вашим наглядом."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ConfirmableAction
+    popup: cosmicability-monument-move-confirm
+    primeTime: 10 #increased to give you more time to figure out where you want to put it
+  - type: InstantAction
+    useDelay: 999
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: monument-relocate
+    event: !type:EventCosmicMoveMonument {}
+  - type: MonumentPlacementMarker
+    tier: 2
 
 - type: entity
   id: ActionCosmicReturn
@@ -87,8 +109,12 @@
   description: "Випромінювати жахливий імпульс космічного світла, сповільнюючи та дезорієнтуючи всіх навколо вас."
   categories: [ HideSpawnMenu ]
   components:
+  - type: ConfirmableAction
+    popup: cosmicability-glare-confirm
+    confirmDelay: 0.1
+    primeTime: 5 #increased to give you more time to figure out where you want to put it
   - type: InstantAction
-    useDelay: 50
+    useDelay: 55
     itemIconStyle: NoItem
     icon:
       sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
@@ -142,4 +168,78 @@
       state: nova
     event: !type:EventCosmicNova {}
 
+#################################### ROGUE ASCENDANT ACTIONS ######################################
 
+- type: entity
+  id: ActionRogueCosmicNova
+  name: "Узурпована Астральна Нова"
+  description: "Кинути великий і руйнівний вибух астральної енергії."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: WorldTargetAction
+    useDelay: 10
+    raiseOnUser: true
+    range: 60
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: roguenova
+    event: !type:EventRogueCosmicNova {}
+
+- type: entity
+  id: ActionRogueInfection
+  name: "Зловісне Спустошення"
+  description: "Вселити сутність закінчень у підкорену ціль."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    useDelay: 5
+    whitelist:
+      components:
+        - HumanoidAppearance
+    blacklist:
+      components:
+        - RogueAscendedInfection
+        - CosmicCult
+        - BibleUser
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: rogueinfect
+    event: !type:EventRogueInfection {}
+
+- type: entity
+  id: ActionRogueSlumber
+  name: "Оболонка Сну"
+  description: "Миттєво приспати смертну оболонку цілі, залишаючи її сплячою і готовою до Зловісного Спустошення."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    useDelay: 55
+    whitelist:
+      components:
+        - HumanoidAppearance
+    blacklist:
+      components:
+        - RogueAscendedInfection
+        - CosmicCult
+        - BibleUser
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: rogueshatter
+    event: !type:EventRogueSlumber {}
+
+- type: entity
+  id: ActionRogueGrandShunt
+  name: "Зловісний Шип Розуму"
+  description: "Виштовхнути розуми всіх найближчих з їхніх тіл у космічну темряву, тимчасово роблячи їхні тіла бездушними."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 100
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Impstation/CosmicCult/Icons/cosmiccult_abilities.rsi
+      state: rogueshunt
+    event: !type:EventRogueGrandShunt {}

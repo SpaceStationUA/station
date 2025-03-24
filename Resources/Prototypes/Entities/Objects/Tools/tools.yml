@@ -549,6 +549,9 @@
   name: "РПД"
   description: "Пристрій, що використовується для швидкого прокладання труб."
   components:
+  - type: Tag
+    tags:
+      - RPD
   - type: RCD
     isRpd: true
     availablePrototypes:
@@ -572,11 +575,21 @@
     - FilterGas
     - Deconstruct
   - type: LimitedCharges
-    maxCharges: 45
-    charges: 45
+    maxCharges: 50
+    charges: 50
   - type: Sprite
     sprite: Objects/Tools/rpd.rsi
-
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 500
+      Plastic: 150
+      Circuitry: 50
+  - type: StaticPrice
+    price: 100
+  - type: ReverseEngineering # Nyano
+    difficulty: 3
+    recipes:
+      - RPD
 
 - type: entity
   id: RCDEmpty
@@ -601,6 +614,39 @@
     - Firelock
 
 - type: entity
+  id: RPDEmpty
+  parent: RPD
+  suffix: Empty
+  components:
+  - type: LimitedCharges
+    charges: 0
+  - type: Tag
+    tags:
+      - RPD
+  - type: RCD
+    isRpd: true
+    availablePrototypes:
+    - PipeFourway
+    - PipeStraight
+    - PipeBend
+    - PipeTJunction
+    - OutletInjector
+    - ManualValve
+    - VolumetricPump
+    - PressurePump
+    - VentScrubber
+    - PressureValve
+    - DualPortVent
+    - VentGas
+    - VentPassive
+    - MixerGas
+    - Radiator
+    - SignalValve
+    - CanisterPort
+    - FilterGas
+    - Deconstruct
+
+- type: entity
   id: RCDRecharging
   parent: RCD
   name: "експериментальний УЗО"
@@ -619,6 +665,29 @@
   suffix: Admeme
   name: "експериментальний УЗО"
   description: "Пристрій для швидкого будівництва, що пасивно генерує власну стиснуту матерію, на основі блюзового простору."
+  components:
+  - type: AutoRecharge
+    rechargeDuration: 1
+
+- type: entity
+  id: RPDRecharging
+  parent: RPD
+  name: "експериментальний RPD"
+  description: "Пристрій швидкого прокладання труб, вдосконалений блюспейсом, який пасивно генерує власну стиснену матерію."
+  suffix: AutoRecharge
+  components:
+  - type: LimitedCharges
+    maxCharges: 25
+    charges: 25
+  - type: AutoRecharge
+    rechargeDuration: 10
+
+- type: entity
+  id: RPDExperimental
+  parent: RPD
+  suffix: Admeme
+  name: "експериментальний RPD"
+  description: "Пристрій швидкого прокладання труб, вдосконалений блюспейсом, який пасивно генерує власну стиснену матерію."
   components:
   - type: AutoRecharge
     rechargeDuration: 1

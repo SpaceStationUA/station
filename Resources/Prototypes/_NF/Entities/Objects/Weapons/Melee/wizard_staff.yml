@@ -2,7 +2,7 @@
   name: "посох чарівника"
   parent: Shovel
   id: WizardStaffMeleeBase
-  description: "Символ майстерного володіння чаклуном таємними мистецтвами."
+  description: "Символ майстерності чарівника в таємних мистецтвах."
   components:
   - type: Item
     sprite: Objects/Weapons/Guns/Basic/staves.rsi
@@ -23,7 +23,7 @@
     - WizardStaff
 
 - type: entity
-  name: "інертний посох червоного чарівника"
+  name: "інертний червоний посох чарівника"
   parent: WizardStaffMeleeBase
   id: WizardStaffMeleeRed
   components:
@@ -43,7 +43,7 @@
     state: chaos
 
 - type: entity
-  name: "інертний магічний посох мила"
+  name: "інертний мильний посох чарівника"
   parent: WizardStaffMeleeBase
   id: WizardStaffMeleeSoap
   components:
@@ -70,7 +70,7 @@
       path: /Audio/Effects/bite.ogg
 
 - type: entity
-  name: "сектантський посох"
+  name: "посох культиста"
   parent: WizardStaffMeleeBlood
   id: WizardStaffDarkBolt
   suffix: "Dark bolt"

@@ -1,0 +1,212 @@
+- type: entity
+  id: ActionVampireOpenMutationsMenu
+  name: "Меню мутацій"
+  description: "Відкриває меню з мутаціями вампірів."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    icon:
+      sprite: Interface/Actions/actions_vampire.rsi
+      state: summonheirloom
+    event:
+      !type:VampireOpenMutationsMenu
+    useDelay: 5
+
+- type: entity
+  id: ActionVampireToggleFangs
+  name: "Перемкнути Ікла"
+  description: "Висунути або втягнути ікла. Ходіння з висунутими іклами може виявити вашу справжню природу."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    checkCanInteract: false
+    priority: 1
+    itemIconStyle: NoItem
+    icon:
+      sprite: Interface/Actions/actions_vampire.rsi
+      state: fangs_retracted
+    iconOn:
+      sprite: Interface/Actions/actions_vampire.rsi
+      state: fangs_extended
+    event:
+      !type:VampireToggleFangsEvent
+      definitionName: ToggleFangs
+
+- type: entity
+  id: ActionVampireGlare
+  name: "Засліплюючий Погляд"
+  description: "Вивільнити сліпучий спалах з очей, оглушаючи незахищеного смертного на 10 секунд. Вартість активації: 20 Сутності. Перезарядка: 60 секунд"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    whitelist:
+      components:
+      - Body
+    priority: 2
+    itemIconStyle: NoItem
+    icon:
+      sprite: Interface/Actions/actions_vampire.rsi
+      state: glare
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Effects/Vampire/glare.ogg
+    event:
+      !type:VampireGlareEvent
+      definitionName: Glare
+    useDelay: 60
+
+- type: entity
+  id: ActionVampireHypnotise
+  name: "Загіпнотизувати"
+  description: "Пильно вдивитися в очі смертного, змушуючи його заснути на 60 секунд. Вартість активації: 20 Сутності. Затримка активації: 5 секунд. Перезарядка: 5 хвилин"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    whitelist:
+      components:
+      - HumanoidAppearance
+    canTargetSelf: false
+    interactOnMiss: false
+    priority: 2
+    itemIconStyle: NoItem
+    icon:
+      sprite: Interface/Actions/actions_vampire.rsi
+      state: hypnotise
+    event:
+      !type:VampireHypnotiseEvent
+      definitionName: Hypnotise
+    useDelay: 300
+
+- type: entity
+  id: ActionVampireScreech
+  name: "Вереск"
+  description: "Видати пронизливий крик, оглушаючи незахищених смертних і розбиваючи крихкі об'єкти поблизу. Вартість активації: 20 Сутності. Затримка активації: 5 секунд. Перезарядка: 5 хвилин"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    checkCanInteract: false
+    priority: 2
+    itemIconStyle: NoItem
+    icon:
+      sprite: Interface/Actions/actions_vampire.rsi
+      state: screech
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Effects/Vampire/screech_tone.ogg
+    event:
+      !type:VampireScreechEvent
+      definitionName: Screech
+    useDelay: 60
+
+- type: entity
+  id: ActionVampireBloodSteal
+  name: "Крадіжка Крові"
+  description: "Вирвати кров з усіх тіл поблизу - живих чи мертвих. Вартість активації: 20 Сутності. Перезарядка: 60 секунд"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    checkCanInteract: false
+    priority: 2
+    itemIconStyle: NoItem
+    icon:
+      sprite: Interface/Actions/actions_vampire.rsi
+      state: bloodsteal
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Effects/demon_consume.ogg
+    event:
+      !type:VampireBloodStealEvent
+      definitionName: BloodSteal
+    useDelay: 60
+
+- type: entity
+  id: ActionVampireUnholyStrength
+  name: "Надприродна Сила"
+  description: "Ви отримуєте +10 до ріжучої шкоди для атак без зброї. Це працює, доки ви не вимкнете це. Перезарядка: 60 секунд"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    checkCanInteract: false
+    priority: 2
+    itemIconStyle: NoItem
+    icon:
+      sprite: Interface/Actions/actions_vampire.rsi
+      state: unholystrength
+    event:
+      !type:VampireUnholyStrengthEvent
+      definitionName: UnholyStrength
+    useDelay: 60
+
+- type: entity
+  id: ActionVampireSupernaturalStrength
+  name: "Надприродна Сила"
+  description: "Ви можете відкривати двері руками, а також отримуєте +15 до ріжучої шкоди для атак без зброї. Це працює, доки ви не вимкнете це. Перезарядка: 60 секунд"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    checkCanInteract: false
+    priority: 2
+    itemIconStyle: NoItem
+    icon:
+      sprite: Interface/Actions/actions_vampire.rsi
+      state: supernaturalstrength
+    event:
+      !type:VampireSupernaturalStrengthEvent
+      definitionName: SupernaturalStrength
+    useDelay: 60
+
+- type: entity
+  id: ActionVampireBatform
+  name: "Форма Кажана"
+  description: "Прийняти форму кажана. Швидкий, важко влучити, любить фрукти. Вартість активації: 20 Сутності. Перезарядка: 30 секунд"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    checkCanInteract: false
+    priority: 2
+    itemIconStyle: NoItem
+    icon:
+      sprite: Interface/Actions/actions_vampire.rsi
+      state: batform
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Effects/teleport_arrival.ogg
+    event:
+      !type:VampirePolymorphEvent
+      definitionName: PolymorphBat
+    useDelay: 30
+
+- type: entity
+  id: ActionVampireMouseform
+  name: "Форма Миші"
+  description: "Прийняти форму миші. Швидка, маленька, невразлива до дверей. Вартість активації: 20 Сутності. Перезарядка: 30 секунд"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    checkCanInteract: false
+    priority: 2
+    itemIconStyle: NoItem
+    icon:
+      sprite: Interface/Actions/actions_vampire.rsi
+      state: mouseform
+    sound: !type:SoundPathSpecifier
+      path: /Audio/Effects/teleport_arrival.ogg
+    event:
+      !type:VampirePolymorphEvent
+      definitionName: PolymorphMouse
+    useDelay: 30
+
+- type: entity
+  id: ActionVampireCloakOfDarkness
+  name: "Плащ Темряви"
+  description: "Сховатися від очей смертних, стаючи невидимим у нерухомому стані. Вартість активації: 30 Сутності. Утримання: 1 Сутність/секунду. Перезарядка: 10 секунд"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    checkCanInteract: false
+    priority: 2
+    itemIconStyle: NoItem
+    icon:
+      sprite: Interface/Actions/actions_vampire.rsi
+      state: cloakofdarkness
+    event:
+      !type:VampireCloakOfDarknessEvent
+      definitionName: CloakOfDarkness
+    useDelay: 10

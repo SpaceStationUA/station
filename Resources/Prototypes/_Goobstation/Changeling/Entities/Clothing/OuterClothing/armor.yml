@@ -1,0 +1,31 @@
+- type: entity
+  parent: ClothingOuterBaseLarge
+  id: ChangelingClothingOuterArmor
+  name: "хітинова броня"
+  description: "Всепоглинаюча хітинова маса броні."
+  suffix: Unremoveable
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Changeling/ling_armor.rsi
+  - type: Clothing
+    sprite: _Goobstation/Changeling/ling_armor.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Caustic: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: HeldSpeedModifier
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: GroupExamine
+  - type: Unremoveable
+#  - type: ModifyDelayedKnockdown # ! UNCOMMENT WHEN PORTED, goobstation
+#    delayDelta: 2
+#    knockdownTimeDelta: -2

@@ -1,0 +1,38 @@
+- type: entity
+  parent: BaseWall
+  id: WallHierophantArena
+  name: "стіна ієрофанта"
+  components:
+  - type: Tag
+    tags:
+      - Wall
+  - type: Sprite
+    sprite: _Lavaland/Structures/Walls/hierophant.rsi
+  - type: Icon
+    sprite: _Lavaland/Structures/Walls/hierophant.rsi
+  - type: Destructible
+  - type: IconSmooth
+    key: walls
+    base: hierophant
+  - type: SyncSprite
+
+- type: entity
+  parent: BaseWall
+  id: WallHierophantArenaTemporary
+  name: "тимчасове поле ієрофанта"
+  description: "Утримує рятувальника всередині і... Чому ти дивишся на це посеред бою? Тобі нема чим зайнятися?!"
+  components:
+  - type: Tag
+    tags:
+      - Wall
+  - type: Sprite
+    sprite: _Lavaland/Structures/Walls/hierophant_temp.rsi
+  - type: Icon
+    sprite: _Lavaland/Structures/Walls/hierophant_temp.rsi
+  - type: Destructible
+  - type: IconSmooth
+    key: hierofield
+    base: hierotemp
+    shader: unshaded
+  - type: Occluder
+    enabled: false

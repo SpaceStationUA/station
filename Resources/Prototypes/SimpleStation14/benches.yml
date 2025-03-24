@@ -5,7 +5,7 @@
   suffix: Middle
   abstract: true
   parent: SeatBase
-  description: "Кілька місць, що охоплюють один об'єкт. Справжнє диво науки."
+  description: "Кілька сидінь, що охоплюють один об'єкт. Справді диво науки."
   components:
   - type: Physics
     bodyType: Static
@@ -67,7 +67,7 @@
 
 # Pews
 - type: entity
-  name: "лава"
+  name: "церковна лава"
   id: BenchPewMiddle
   parent: BenchBaseMiddle
   components:

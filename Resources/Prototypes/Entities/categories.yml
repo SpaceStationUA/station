@@ -2,3 +2,28 @@
   id: Actions
   name: entity-category-name-actions
   hideSpawnMenu: true
+
+- type: entityCategory
+  id: GameRules
+  name: "правила гри"
+  hideSpawnMenu: true
+
+- type: entityCategory
+  id: Objectives
+  name: "цілі"
+  hideSpawnMenu: true
+
+- type: entityCategory
+  id: Roles
+  name: "ролі"
+  hideSpawnMenu: true
+
+# markers, atmos fixing, etc
+- type: entityCategory
+  id: Mapping
+  name: "мапування"
+
+- type: entityCategory
+  id: DoNotMap
+  name: "не мапувати"
+  suffix: entity-category-suffix-donotmap

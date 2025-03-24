@@ -119,6 +119,7 @@
     interfaces:
       enum.SurgeryUIKey.Key:
         type: SurgeryBui
+  - type: Fauna # Lavaland Change
 
 - type: entity
   name: "основний шлам"
@@ -207,6 +208,13 @@
     - type: NpcFactionMember
       factions:
         - SimpleHostile
+    - type: GhostRole
+      description: ghost-role-information-angry-slimes-description
+      rules: ghost-role-information-angry-slimes-rules
+      mindRoles:
+      - MindRoleGhostRoleTeamAntagonist
+      raffle:
+        settings: short
 
 - type: entity
   name: "зелений слиз"
@@ -240,8 +248,13 @@
     - type: NpcFactionMember
       factions:
         - SimpleHostile
-#    - type: GhostRole #DeltaV - all slimes neutral when ghost role
-#      description: ghost-role-information-angry-slimes-description
+    - type: GhostRole
+      description: ghost-role-information-angry-slimes-description
+      rules: ghost-role-information-angry-slimes-rules
+      mindRoles:
+      - MindRoleGhostRoleTeamAntagonist
+      raffle:
+        settings: short
 
 - type: entity
   name: "жовтий слиз"
@@ -275,5 +288,10 @@
     - type: NpcFactionMember
       factions:
         - SimpleHostile
-#    - type: GhostRole #DeltaV - all slimes neutral when ghost role
-#      description: ghost-role-information-angry-slimes-description
+    - type: GhostRole
+      description: ghost-role-information-angry-slimes-description
+      rules: ghost-role-information-angry-slimes-rules
+      mindRoles:
+      - MindRoleGhostRoleTeamAntagonist
+      raffle:
+        settings: short

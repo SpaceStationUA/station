@@ -1,0 +1,15 @@
+- type: entity
+  parent: BaseItem
+  id: BSOManual
+  name: "Посібник з рукопашного бою Nanotrasen"
+  description: "Невелика синя інструкція. Містить ілюстровані інструкції з тактичного рукопашного бою."
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Objects/Misc/cqc_manual.rsi
+    layers:
+    - state: icon-alt
+  - type: Item
+    size: Small
+  - type: StaticPrice
+    price: 3000
+  - type: GrantCqc
