@@ -1,0 +1,16 @@
+- type: loadout
+  id: LoadoutBSOSwordSangria
+  category: JobsCommandBlueshieldOfficer
+  cost: 5
+  canBeHeirloom: true
+  guideEntry: SecurityWeapons
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBlueshieldOfficerPrimary
+    - !type:CharacterJobRequirement
+      jobs:
+        - BlueshieldOfficer
+    - !type:CharacterAgeRequirement
+      min: 21
+  items:
+    - SangriaSwordSheathFilled
