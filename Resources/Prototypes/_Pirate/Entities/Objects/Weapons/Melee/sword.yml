@@ -1,0 +1,44 @@
+- type: entity
+  name: "Сангрія"
+  parent: Katana
+  id: WeaponSangriaSword
+  description: "Високоякісний меч."
+  components:
+  - type: Sprite
+    sprite: /Textures/_Pirate/Objects/Weapons/Melee/sangria_shield.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -10
+    damage:
+      types:
+        Slash: 20
+    heavyRateModifier: 2
+    heavyRangeModifier: 2.75 #Superior Japanese folded steel
+    heavyDamageBaseModifier: 1.25
+    heavyStaminaCost: 7
+    maxTargets: 1
+    angle: 20
+  - type: DamageOtherOnHit
+    staminaCost: 8
+  - type: EmbeddableProjectile
+  - type: EmbedPassiveDamage
+  - type: ThrowingAngle
+    angle: 45
+  - type: Item
+    size: Normal
+    sprite: /Textures/_Pirate/Objects/Weapons/Melee/sangria_shield.rsi
+  - type: Clothing
+    sprite: /Textures/_Pirate/Objects/Weapons/Melee/sangria_shield.rsi
+    slots:
+    - Back
+
+- type: entity
+  name: "Ножни з Сангрією"
+  id: SangriaSwordSheathFilled
+  parent: ClothingBeltKatanaSheath
+  suffix: Filled
+  components:
+  - type: ContainerFill
+    containers:
+      storagebase:
+      - WeaponSangriaSword

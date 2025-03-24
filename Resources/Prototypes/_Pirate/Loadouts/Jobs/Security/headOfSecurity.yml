@@ -1,0 +1,16 @@
+- type: loadout
+  id: LoadoutCommandHoSSwordSangria
+  category: JobsSecurityHeadOfSecurity
+  cost: 0
+  canBeHeirloom: true
+  guideEntry: SecurityWeapons
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityWeapon
+    - !type:CharacterJobRequirement
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterAgeRequirement
+      min: 21
+  items:
+    - SangriaSwordSheathFilled
