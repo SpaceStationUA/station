@@ -1,0 +1,17 @@
+- type: loadout
+  id: LoadoutItemRandomCandyBag
+  category: Items
+  cost: 0
+  items:
+    - CandyBagRandom
+
+- type: loadout
+  id: LoadoutItemBoxSurvivalIpc
+  category: Items
+  cost: 0
+  items:
+    - BoxSurvivalIpc
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - IPC
