@@ -3,8 +3,8 @@
 - type: entity
   abstract: true
   id: BaseGenerator
-  description: A high efficiency thermoelectric generator.
-  name: generator
+  description: "Високоефективний термоелектричний генератор."
+  name: "генератор"
   placement:
     mode: SnapgridCenter
   components:
@@ -94,8 +94,8 @@
   abstract: true
   id: BaseGeneratorWallmount
   parent: BaseGenerator
-  name: wallmount generator
-  description: A high efficiency thermoelectric generator stuffed in a wall cabinet.
+  name: "настінний генератор"
+  description: "Високоефективний термоелектричний генератор, вмонтований у настінну шафу."
   placement:
     mode: SnapgridCenter
   components:
@@ -146,8 +146,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: BaseGeneratorWallmountFrame
-  name: wallmount generator frame
-  description: A construction frame for a wallmount generator.
+  name: "настінна рама генератора"
+  description: "Будівельна рама для настінного генератора."
   placement:
     mode: SnapgridCenter
   components:
@@ -208,8 +208,8 @@
 - type: entity
   parent: BaseGeneratorWallmount
   id: GeneratorWallmountAPU
-  name: shuttle APU
-  description: An auxiliary power unit for a shuttle - 6kW.
+  name: "шаттл АПУ"
+  description: "Допоміжна силова установка для шатла - 6 кВт."
   suffix: APU, 6kW
   components:
   - type: PowerSupplier
@@ -231,8 +231,8 @@
 - type: entity
   parent: BaseGenerator
   id: GeneratorRTG
-  name: RTG
-  description: A Radioisotope Thermoelectric Generator for long term power.
+  name: "RTG"
+  description: "Радіоізотопний термоелектричний генератор для довготривалого живлення."
   suffix: 10kW
   components:
   - type: PowerSupplier
@@ -279,8 +279,8 @@
 - type: entity
   parent: GeneratorRTG
   id: GeneratorRTGDamaged
-  name: damaged RTG
-  description: A Radioisotope Thermoelectric Generator for long term power. This one has damaged shielding.
+  name: "пошкоджений РТГ"
+  description: "Радіоізотопний термоелектричний генератор для тривалого живлення. У цього пошкоджений екран."
   suffix: 10kW
   components:
   - type: PowerSupplier
