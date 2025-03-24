@@ -12553,126 +12553,136 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2033
 - author: SolarisBirb
   changes:
-    - type: Add
-      message: >-
-        Added an AI sat, xenobiolab for epi, expanded supermatter maints,
-        expanded atmos, added a shuttle making dock, and a courtroom. 
-    - type: Tweak
-      message: Moved ore silo to vault. Added a spare captain ID locker in vault.
+  - type: Add
+    message: >-
+      Додано супутник ШІ, ксенобіолабораторію для епі, розширено зону
+      обслуговування надматерії, розширено атмосферу, додано док для створення
+      шатлів та зал суду.
+  - type: Tweak
+    message: >-
+      Переміщено рудний силос до сховища. Додано запасний капітанський
+      ідентифікаційний ящик у сховище.
   id: 7015
   time: '2025-03-23T00:11:57.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2031
 - author: Raikyr0
   changes:
-    - type: Add
-      message: Noospheric Zap is back, with a shorter cooldown.
-    - type: Add
-      message: Oni only Mystic trait, trade your physical ability for Potentia gain.
-    - type: Add
-      message: Healing Word trait.
-    - type: Tweak
-      message: Tweaked Potenia gain on High/Low Potential it's much higher/lower.
-    - type: Tweak
-      message: tweaked Psionic Powers pool weights a little
-    - type: Tweak
-      message: Power Overwhelming no longer takes 2 spell slots
+  - type: Add
+    message: Ноосферний Залп повернувся, з коротшим часом відновлення.
+  - type: Add
+    message: >-
+      Оні мають унікальну рису Містика, обміняйте свої фізичні здібності на
+      отримання Потенції.
+  - type: Add
+    message: Риса Цілющого Слова.
+  - type: Tweak
+    message: >-
+      Змінено отримання Потенції на Високому/Низькому Потенціалі, тепер воно
+      значно вище/нижче.
+  - type: Tweak
+    message: Трохи змінено вагу пулів псіонічних здібностей.
+  - type: Tweak
+    message: "Сила, що Переповнює" більше не займає 2 слоти для заклинань.
   id: 7016
   time: '2025-03-23T01:10:05.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2011
 - author: Will-Oliver-Br
   changes:
-    - type: Tweak
-      message: All medals now have the ability to specify the reason for the reward.
-    - type: Add
-      message: >-
-        The list of awarded medals and their recipients is now displayed at the
-        end of the round.
+  - type: Tweak
+    message: >-
+      Усі медалі тепер мають можливість вказати причину нагородження.
+  - type: Add
+    message: >-
+      Список нагороджених медалей та їхніх одержувачів тепер відображається в
+      кінці раунду.
   id: 7017
   time: '2025-03-23T10:17:08.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2061
 - author: BramvanZijp
   changes:
-    - type: Tweak
-      message: >-
-        Grab Throws now deal less damage as opposed to previously dealing 10
-        damage to every limb, they also deal less stamina damage.
-    - type: Tweak
-      message: >-
-        Martial arts will no longer enable instant hard-grabs unless the target
-        is downed, instead allowing you to upgrade grabs twice as fast.
-    - type: Tweak
-      message: Corporate Judo's Judo slam and Armbar now do more stamina damage.
-    - type: Fix
-      message: Sleeping carp now has its proper abilities when the target is downed.
-    - type: Fix
-      message: >-
-        CQC Kick now also works on people who are standing up, as originally
-        intended.
-    - type: Tweak
-      message: >-
-        The cooldown before throwing somebody that has been grabbed has been
-        reduced to 2 seconds, but now only starts after hard-grabbing.
-    - type: Fix
-      message: >-
-        CQC's pressure combo will now try to take the opponents held item BEFORE
-        applying stamina damage instead of after, when they may have already
-        dropped the item due to the stamina damage.
+  - type: Tweak
+    message: >-
+      Кидки при захопленні тепер завдають менше шкоди, на відміну від
+      попередніх 10 одиниць шкоди кожній кінцівці, вони також завдають менше
+      шкоди витривалості.
+  - type: Tweak
+    message: >-
+      Бойові мистецтва більше не дозволятимуть миттєві жорсткі захоплення,
+      якщо ціль не збита з ніг, замість цього дозволяючи вам покращувати
+      захоплення вдвічі швидше.
+  - type: Tweak
+    message: Корпоративне Дзюдо, кидок Дзюдо та Армбар тепер завдають більше шкоди витривалості.
+  - type: Fix
+    message: Сплячий короп тепер має свої належні здібності, коли ціль збита з ніг.
+  - type: Fix
+    message: >-
+      Удар CQC тепер також працює на людях, які стоять, як і було задумано
+      спочатку.
+  - type: Tweak
+    message: >-
+      Час відновлення перед кидком когось, хто був захоплений, зменшено до 2
+      секунд, але тепер починається лише після жорсткого захоплення.
+  - type: Fix
+    message: >-
+      Комбо тиску CQC тепер намагатиметься забрати предмет, який тримає
+      супротивник, ПЕРЕД застосуванням шкоди витривалості, а не після, коли
+      він, можливо, вже впустив предмет через шкоду витривалості.
   id: 7018
   time: '2025-03-23T10:21:44.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2055
 - author: ElusiveCoin
   changes:
-    - type: Fix
-      message: Fixed the Chitinid diet and guidebook entry! scavenger eater time!
+  - type: Fix
+    message: Виправлено дієту хітинідів та запис у довіднику! Час поїдання падалі!
   id: 7019
   time: '2025-03-23T10:22:48.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2060
 - author: EctoplasmIsGood
   changes:
-    - type: Add
-      message: Added the Annie, WSPR, M90, and the Burner
+  - type: Add
+    message: Додано Annie, WSPR, M90 та Burner.
   id: 7020
   time: '2025-03-23T10:24:02.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2037
 - author: EctoplasmIsGood
   changes:
-    - type: Add
-      message: >-
-        Borgs now have a law 0 dictating they must follow the Station AIs
-        commands
-    - type: Tweak
-      message: Station AI now spawns with NT Default rather than Asimov
-    - type: Tweak
-      message: Slightly increases the chances of ion storm
+  - type: Add
+    message: >-
+      Борги тепер мають закон 0, який диктує, що вони повинні виконувати
+      команди ШІ станції.
+  - type: Tweak
+    message: ШІ станції тепер з'являється з NT Default, а не з Asimov.
+  - type: Tweak
+    message: Трохи збільшує шанси іонного шторму.
   id: 7021
   time: '2025-03-23T22:09:21.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2064
 - author: SolarisBirb
   changes:
-    - type: Fix
-      message: Removed massive texture bloat.
+  - type: Fix
+    message: Видалено масивне роздування текстур.
   id: 7022
   time: '2025-03-24T02:46:11.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2070
 - author: EctoplasmIsGood
   changes:
-    - type: Tweak
-      message: Space Ninja gear is now unremovable
-    - type: Tweak
-      message: Space Ninja can now eat through their helmet/mask
-    - type: Tweak
-      message: Energy katana deflect chance from 30% to 50%
-    - type: Remove
-      message: >-
-        Removes the shuriken spawn ability, as it has not functioned for ages,
-        and I'm too lazy to fix it
+  - type: Tweak
+    message: Спорядження Космічного Ніндзя тепер незнімне.
+  - type: Tweak
+    message: Космічний Ніндзя тепер може їсти через свій шолом/маску.
+  - type: Tweak
+    message: Шанс відбиття енергетичної катани з 30% до 50%.
+  - type: Remove
+    message: >-
+      Видалено здатність спавну сюрікенів, оскільки вона не функціонувала
+      протягом тривалого часу, і мені надто ліньки її виправляти.
   id: 7023
   time: '2025-03-24T03:10:13.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2039
 - author: SolarisBirb
   changes:
-    - type: Tweak
-      message: Turrets will now shoot lings except for NT turrets.
+  - type: Tweak
+    message: Турелі тепер стрілятимуть у лінгів, за винятком турелей NT.
   id: 7024
   time: '2025-03-24T16:02:24.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2071
