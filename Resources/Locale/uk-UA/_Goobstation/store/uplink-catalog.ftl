@@ -74,13 +74,13 @@ uplink-blast-grenade-desc = Вищий рівень ушкоджень, менш
 uplink-frag-grenade-name = Осколкова граната
 uplink-frag-grenade-desc = Нижчий рівень ушкоджень, більший радіус. Сумісна з China-Lake.
 
-uplink-l6-box-name = Магазин (.30 гвинтівкові патрони)
+uplink-l6-box-name = Коробка з магазинами (.30 гвинтівка)
 uplink-l6-box-desc = Коробка з магазином на 100 патронів. Сумісна з L6 SAW.
 
-uplink-shotgun-magazine-name = Барабан (.50 дробові снаряди)
+uplink-shotgun-magazine-name = Барабан для дробовика (.50 пневматика)
 uplink-shotgun-magazine-desc = Барабан для рушниці на 8 дробових снарядів. Сумісний з Bulldog.
 
-uplink-shotgun-magazine-slug-name = Барабан (.50 кулі)
+uplink-shotgun-magazine-slug-name = Барабан для дробовика (.50 кулі)
 uplink-shotgun-magazine-slug-desc = Барабан для рушниці на 8 куль. Сумісний з Bulldog.
 
 uplink-high-caliber-magazine-name = Магазин для важкої гвинтівки (.50 протиматеріальні)

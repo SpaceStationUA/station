@@ -3,11 +3,9 @@ loadout-description-LoadoutSecurityUniformJumpsuitSenior = Костюм для �
 loadout-description-LoadoutSecurityShoesJackboots = Дуже гарні, важкі, чорні черевики
 
 loadout-name-LoadoutMagazinePistolSpare = пістолетний магазин (.35 auto, запасний)
-loadout-name-LoadoutMagazinePistolNonLethalSpare = пістолетний магазин (.35 автогума, запасний)
-loadout-name-LoadoutSpeedLoaderMagnumSpare = швидкісний навантажувач (.45 magnum, запасний)
-loadout-name-LoadoutSpeedLoaderMagnumRubberSpare = швидкісний навантажувач (гума .45 магнум, запасний)
-
-# Табельна зброя
+loadout-name-LoadoutMagazinePistolNonLethalSpare = пістолетний магазин (.35 auto гумовий, запасний)
+loadout-name-LoadoutSpeedLoaderMagnumSpare = спідлоадер (.45 magnum, запасний)
+loadout-name-LoadoutSpeedLoaderMagnumRubberSpare = спідлоадер (.45 magnum гумовий, запасний)
 loadout-name-LoadoutSecurityMk58 = Mk58 (летальний)
 loadout-name-LoadoutSecurityMk58NonLethal = Mk58 (нелетальна)
 loadout-name-LoadoutSecurityRevolver = Інспектор (смертельний)
@@ -18,8 +16,10 @@ loadout-name-LoadoutSecurityPistolN1984 = N1984 (з летальним резу�
 loadout-name-LoadoutSecurityPistolN1984NonLethal = N1984 (несмертельний)
 loadout-name-LoadoutSecurityPistolViper = Гадюка (смертельно небезпечна)
 loadout-name-LoadoutSecurityPistolViperNonLethal = Гадюка (несмертельна)
-loadout-name-LoadoutMagazineMagnumSpare = пістолетний магазин (.45 магнум, запасний)
-loadout-name-LoadoutMagazineMagnumRubberSpare = магазин до пістолета (.45 магнум гумовий, запасний)
+loadout-name-LoadoutMagazineMagnumSpare = пістолетний магазин (.45 magnum, запасний)
+loadout-name-LoadoutMagazineMagnumRubberSpare = пістолетний магазин (.45 magnum гумовий, запасний)
+
+# Зброя для Служби
 loadout-name-LoadoutSecurityPistolViperWood = Гадюка (летал)
 loadout-name-LoadoutSecurityEnergyGun = Міні-енергетична гармата
 loadout-name-LoadoutSecurityEnergyGunPistol = Енергетичний пістолет

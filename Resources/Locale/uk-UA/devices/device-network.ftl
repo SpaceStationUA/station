@@ -22,7 +22,7 @@ device-frequency-prototype-name-surveillance-camera-entertainment = Розваж
 
 # префікси для випадково згенерованих адрес пристроїв
 device-address-prefix-vent = ВНТ-
-device-address-prefix-scrubber = СКР-
+device-address-prefix-scrubber = SCR-
 device-address-prefix-sensor = SNS-
 # Б'юся об заклад, ти не міг передбачити, що це станеться.
 device-address-prefix-teg = ТЕГ-
