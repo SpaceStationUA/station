@@ -15,8 +15,8 @@ public sealed partial class RustRuneComponent : Component
     [DataField, AutoNetworkedField]
     public bool RustOverlay;
 
-    [DataField]
-    public ProtoId<TagPrototype> DiagonalTag = "Diagonal";
+    // [DataField]
+    // public ProtoId<TagPrototype> DiagonalTag = "Diagonal";
 
     [DataField, AutoNetworkedField]
     public Vector2 RuneOffset = Vector2.Zero;

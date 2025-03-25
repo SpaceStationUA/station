@@ -1,11 +1,11 @@
 using Content.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.Controls;
-using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Prototypes;
 using System.Numerics;
 using Content.Shared._Goobstation.Heretic.Components;
 using Content.Shared.Heretic.Prototypes;
 using Robust.Client.GameObjects;
+using Robust.Client.UserInterface;
 
 namespace Content.Client._Goobstation.Heretic.UI;
 
@@ -15,6 +15,7 @@ public sealed class CarvingKnifeMenu : RadialMenu
     [Dependency] private readonly IPrototypeManager _prot = default!;
 
     private SpriteSystem _sprites;
+    private RadialContainer _mainContainer;
 
     public EntityUid Entity { get; private set; }
 
@@ -23,8 +24,20 @@ public sealed class CarvingKnifeMenu : RadialMenu
     public CarvingKnifeMenu()
     {
         IoCManager.InjectDependencies(this);
-        RobustXamlLoader.Load(this);
+
         _sprites = _ent.System<SpriteSystem>();
+
+        _mainContainer = new RadialContainer
+        {
+            Name = "Main"
+        };
+        AddChild(_mainContainer);
+
+        HorizontalExpand = true;
+        VerticalExpand = true;
+        BackButtonStyleClass = "RadialMenuBackButton";
+        CloseButtonStyleClass = "RadialMenuCloseButton";
+        OnClose += Close;
     }
 
     public void SetEntity(EntityUid ent)
@@ -35,63 +48,47 @@ public sealed class CarvingKnifeMenu : RadialMenu
 
     private void UpdateUI()
     {
-        var main = FindControl<RadialContainer>("Main");
-        main.RemoveAllChildren();
+        _mainContainer.RemoveAllChildren();
 
-        if (!_ent.TryGetComponent(Entity, out CarvingKnifeComponent? carvingKnife))
-            return;
-
-        foreach (var ammo in carvingKnife.Carvings)
+        if (_ent.TryGetComponent(Entity, out CarvingKnifeComponent? carvingKnife))
         {
-            if (!_prot.TryIndex(ammo, out var prototype))
-                continue;
+            if (carvingKnife.Carvings.Count > 0)
+                _mainContainer.Radius = 48f + 24f * MathF.Log(carvingKnife.Carvings.Count);
+            else
+                 _mainContainer.Radius = 48f;
 
-            var button = new RadialMenuTextureButton
+            foreach (var ammo in carvingKnife.Carvings)
             {
-                SetSize = new Vector2(64, 64),
-                ToolTip = Loc.GetString(prototype.Desc),
-                //ProtoId = prototype.ID,
-                StyleClasses = { "RadialMenuButton" }
-            };
-            button.AddStyleClass("RadialMenuButton");
+                if (!_prot.TryIndex(ammo, out var prototype))
+                    continue;
 
-            var texture = new TextureRect
-            {
-                VerticalAlignment = VAlignment.Center,
-                HorizontalAlignment = HAlignment.Center,
-                Texture = _sprites.Frame0(prototype.Icon),
-                TextureScale = new Vector2(2f, 2f)
-            };
+                var button = new RadialMenuTextureButton
+                {
+                    SetSize = new Vector2(64, 64),
+                    ToolTip = Loc.GetString(prototype.Desc),
+                    StyleClasses = { "RadialMenuButton" }
+                };
 
-            button.AddChild(texture);
-            button.OnButtonUp += _ =>
-            {
-                SendCarvingKnifeSystemMessageAction?.Invoke(prototype.ID);
-                Close();
-            };
-            main.AddChild(button);
+                var texture = new TextureRect
+                {
+                    VerticalAlignment = VAlignment.Center,
+                    HorizontalAlignment = HAlignment.Center,
+                    Texture = _sprites.Frame0(prototype.Icon),
+                    TextureScale = new Vector2(2f, 2f)
+                };
+
+                button.AddChild(texture);
+                button.OnButtonUp += _ =>
+                {
+                    SendCarvingKnifeSystemMessageAction?.Invoke(prototype.ID);
+                    Close();
+                };
+                _mainContainer.AddChild(button);
+            }
         }
-
-        //AddCarvingKnifeMenuButtonOnClickActions(main);
+        else
+        {
+             _mainContainer.Radius = 48f;
+        }
     }
-
-    /*private void AddCarvingKnifeMenuButtonOnClickActions(RadialContainer control)
-    {
-        foreach (var child in control.Children)
-        {
-            if (child is not CarvingKnifeMenuButton castChild)
-                continue;
-
-            castChild.OnButtonUp += _ =>
-            {
-                SendCarvingKnifeSystemMessageAction?.Invoke(castChild.ProtoId);
-                Close();
-            };
-        }
-    }*/
 }
-
-/*public sealed class CarvingKnifeMenuButton : RadialMenuTextureButtonWithSector
-{
-    public ProtoId<RuneCarvingPrototype> ProtoId { get; set; }
-}*/

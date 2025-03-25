@@ -36,7 +36,8 @@ public sealed class RustRuneSystem : EntitySystem
         if (!TryComp<SpriteComponent>(uid, out var sprite))
             return;
 
-        var diagonal = _tag.HasTag(uid, comp.DiagonalTag);
+        // var diagonal = _tag.HasTag(uid, comp.DiagonalTag);
+        var diagonal = false;
 
         if (comp.RustOverlay && !sprite.LayerMapTryGet(RustRuneKey.Overlay, out _))
         {
@@ -81,7 +82,8 @@ public sealed class RustRuneSystem : EntitySystem
         if (!TryComp<SpriteComponent>(uid, out var sprite))
             return;
 
-        var diagonal = _tag.HasTag(uid, comp.DiagonalTag);
+        // var diagonal = _tag.HasTag(uid, comp.DiagonalTag);
+        var diagonal = false;
 
         if (comp.RustOverlay && !sprite.LayerMapTryGet(RustRuneKey.Overlay, out _))
         {
