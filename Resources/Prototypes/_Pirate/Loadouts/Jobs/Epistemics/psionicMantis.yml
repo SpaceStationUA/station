@@ -1,0 +1,13 @@
+- type: loadout
+  name: "Шапка екстрасенса"
+  id: LoadoutPsionicMantisEquipmentHeadMindReadHat
+  category: JobsEpistemicsPsionicMantis
+  cost: 4
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - ForensicMantis
+  items:
+    - ClothingHeadMindReadHat

@@ -33,3 +33,16 @@
   - type: Tag
     tags:
     - ClothMade
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadMindReadHat
+  name: "шапка екстрасенса"
+  description: "Не дивлячись на багатообіцяючу назву, блокує псіонічні здібності, а не надає їх."
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/Head/Hats/mindReadHat.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Head/Hats/mindReadHat.rsi
+  - type: TinfoilHat
+    destroyOnFry: false
