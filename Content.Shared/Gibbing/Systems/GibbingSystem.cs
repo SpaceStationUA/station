@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.CodeAnalysis;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
 using System.Numerics;
 using Content.Shared.Gibbing.Components;
 using Content.Shared.Gibbing.Events;
@@ -7,7 +8,6 @@ using Robust.Shared.Containers;
 using Robust.Shared.Map;
 using Robust.Shared.Network;
 using Robust.Shared.Physics.Systems;
-using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 
 namespace Content.Shared.Gibbing.Systems;
@@ -140,7 +140,8 @@ public sealed class GibbingSystem : EntitySystem
             {
                 foreach (var container in validContainers)
                 {
-                    foreach (var ent in container.ContainedEntities)
+                    var entities = container.ContainedEntities.ToList();
+                    foreach(var ent in entities)
                     {
                         DropEntity(new Entity<GibbableComponent?>(ent, null), parentXform, randomSpreadMod,
                             ref droppedEntities, launchGibs,
@@ -154,7 +155,8 @@ public sealed class GibbingSystem : EntitySystem
             {
                 foreach (var container in validContainers)
                 {
-                    foreach (var ent in container.ContainedEntities)
+                    var entities = container.ContainedEntities.ToList();
+                    foreach(var ent in entities)
                     {
                         GibEntity(new Entity<GibbableComponent?>(ent, null), parentXform, randomSpreadMod,
                             ref droppedEntities, launchGibs,

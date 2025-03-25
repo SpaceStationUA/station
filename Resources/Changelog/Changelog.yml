@@ -12704,3 +12704,56 @@ Entries:
   id: 7026
   time: '2025-03-24T21:15:10.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2075
+- author: Tirochora
+  changes:
+    - type: Fix
+      message: Стародавні плазмові шоломи тепер коректно відображають спрайт.
+    - type: Fix
+      message: Базові кольорові шоломи більше не мають відсутніх пікселів на спрайті.
+  id: 7027
+  time: '2025-03-25T08:34:02.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2078
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Повернено біонічні ноги. Рису було перероблено, так що тепер ви
+        починаєте з однією ногою, заміненою на справжній
+        кібернетичний протез, що збільшує швидкість.
+    - type: Add
+      message: >-
+        Біонічна рука тепер дає вам справжню біонічну руку. Веселіться, грабуючи людей
+        заради їхніх кібернетичних імплантів, щоб зібрати колекцію модних біонічних кінцівок.
+  id: 7028
+  time: '2025-03-25T08:38:42.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2056
+- author: Zeta_Null
+  changes:
+    - type: Add
+      message: 8 нових варіантів волосся на обличчі, 4 бороди та 4 вуса.
+    - type: Add
+      message: Перенесено більшість моїх зачісок з N14.
+  id: 7029
+  time: '2025-03-25T08:51:08.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2076
+- author: astriloqua
+  changes:
+    - type: Tweak
+      message: Правильні зміщення та обмежувальні рамки для дерев N14. Перепризначте, якщо вони вже були призначені.
+  id: 7030
+  time: '2025-03-25T08:52:33.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2069
+- author: astriloqua
+  changes:
+    - type: Tweak
+      message: Лічильники N14 тепер повинні бути узгоджені при обертанні.
+  id: 7031
+  time: '2025-03-25T08:54:07.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2073
+- author: ilmenwe
+  changes:
+    - type: Add
+      message: BaseContainer ToList для обох випадків Switch, які його використовують.
+  id: 7032
+  time: '2025-03-25T08:56:28.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2041
