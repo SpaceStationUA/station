@@ -1,3 +1,4 @@
+using Content.Shared._Goobstation.Heretic.Components;
 using Content.Shared._Goobstation.Wizard.Mutate;
 using Content.Shared.Projectiles;
 using Content.Shared.Standing;
@@ -36,6 +37,10 @@ public sealed class SharedKnockdownOnCollideSystem : EntitySystem
             _hulk.Roar((target, hulk), 1f);
             return;
         }
+
+        if (HasComp<RustbringerComponent>(target))
+            return;
+
         _layingDown.TryLieDown(target, null, null, component.Behavior);
     }
 }

@@ -1,3 +1,4 @@
+using Content.Shared._Goobstation.Heretic.Components;
 using System.Linq;
 using Content.Server.Administration.Logs;
 using Content.Server.Ensnaring;
@@ -134,6 +135,9 @@ namespace Content.Server.Strip
                 return;
 
             var hasEnt = _inventorySystem.TryGetSlotEntity(strippable, args.Slot, out var held, inventory);
+
+            if (HasComp<StripMenuInvisibleComponent>(held)) // Goobstation
+                return;
 
             if (userHands.ActiveHandEntity != null && !hasEnt)
                 StartStripInsertInventory((user, userHands), strippable.Owner, userHands.ActiveHandEntity.Value, args.Slot);

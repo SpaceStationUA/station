@@ -31,6 +31,7 @@
     tags:
     - ClothMade
     - WhitelistChameleon
+    - WinterCoat # Goobstation
   - type: StaticPrice
     price: 50
 
@@ -48,6 +49,11 @@
       toggleable-clothing: !type:Container {}
       storagebase: !type:Container
         ents: []
+  - type: Tag # Goobstation
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+    - WinterCoat
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable

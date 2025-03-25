@@ -49,8 +49,14 @@ public sealed partial class TriggerSystem
                 triggerOnTimedCollide.Colliding[collidingEntity] += frameTime;
                 if (collidingTimer > triggerOnTimedCollide.Threshold)
                 {
-                    RaiseLocalEvent(activeTrigger.Owner, new TriggerEvent(activeTrigger.Owner, collidingEntity), true);
+                    // Goobstation start
                     triggerOnTimedCollide.Colliding[collidingEntity] -= triggerOnTimedCollide.Threshold;
+                    var attemptEv = new TriggerAttemptEvent(activeTrigger.Owner, collidingEntity);
+                    RaiseLocalEvent(activeTrigger.Owner, attemptEv, true);
+                    if (attemptEv.Cancelled)
+                        continue;
+                    RaiseLocalEvent(activeTrigger.Owner, new TriggerEvent(activeTrigger.Owner, collidingEntity), true);
+                    // Goobstation end
                 }
             }
         }

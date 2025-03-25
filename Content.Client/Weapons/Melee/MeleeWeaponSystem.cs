@@ -1,5 +1,7 @@
 using System.Linq;
 using Content.Client.Gameplay;
+using Content.Shared._Goobstation.Heretic.Components;
+using Content.Shared._Goobstation.Weapons.MeleeDash;
 using Content.Shared.CCVar;
 using Content.Shared.CombatMode;
 using Content.Shared.Effects;
@@ -62,6 +64,10 @@ public sealed partial class MeleeWeaponSystem : SharedMeleeWeaponSystem
             return;
 
         var entity = entityNull.Value;
+
+        if (TryComp<EntropicPlumeAffectedComponent>(entity, out var affected) &&
+            affected.NextAttack + TimeSpan.FromSeconds(0.1f) > Timing.CurTime) // Goobstation
+            return;
 
         if (!TryGetWeapon(entity, out var weaponUid, out var weapon))
             return;
