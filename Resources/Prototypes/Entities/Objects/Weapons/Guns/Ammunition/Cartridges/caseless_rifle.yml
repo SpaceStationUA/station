@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCartridgeCaselessRifle
-  name: "патрон (гвинтівка .25)"
+  name: cartridge (.25 rifle)
   parent: BaseCartridge
   abstract: true
   components:
@@ -23,7 +23,7 @@
 
 - type: entity
   id: CartridgeCaselessRifle
-  name: "патрон (.25 безоболонковий)"
+  name: cartridge (.25 caseless)
   parent: BaseCartridgeCaselessRifle
   components:
   - type: CartridgeAmmo
@@ -31,7 +31,7 @@
 
 - type: entity
   id: CartridgeCaselessRiflePractice
-  name: "набій (практична набій калібру .25)"
+  name: cartridge (.25 caseless practice)
   parent: BaseCartridgeCaselessRifle
   components:
   - type: CartridgeAmmo
@@ -46,7 +46,7 @@
 
 - type: entity
   id: CartridgeCaselessRifleRubber
-  name: "набій (.25 безгільзовий гумовий)"
+  name: cartridge (.25 caseless rubber)
   parent: BaseCartridgeCaselessRifle
   components:
   - type: CartridgeAmmo
@@ -61,7 +61,7 @@
 
 - type: entity
   id: CartridgeCaselessRifleIncendiary
-  name: "набій (.25 безгільзовий запальний)"
+  name: cartridge (.25 caseless incendiary)
   parent: BaseCartridgeCaselessRifle
   components:
   - type: CartridgeAmmo
@@ -76,7 +76,7 @@
 
 - type: entity
   id: CartridgeCaselessRifleUranium
-  name: "патрон (.25 безгільзовий, урановий)"
+  name: cartridge (.25 caseless uranium)
   parent: BaseCartridgeCaselessRifle
   components:
   - type: CartridgeAmmo
@@ -91,7 +91,7 @@
 
 - type: entity
   id: CartridgeCaselessRifleShrapnel
-  name: "патрон (.25 безгільзовий, шрапнельний)"
+  name: cartridge (.25 caseless shrapnel)
   parent: BaseCartridgeCaselessRifle
   components:
   - type: CartridgeAmmo
