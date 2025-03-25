@@ -46,12 +46,14 @@ public sealed class CarvingKnifeMenu : RadialMenu
             if (!_prot.TryIndex(ammo, out var prototype))
                 continue;
 
-            var button = new CarvingKnifeMenuButton
+            var button = new RadialMenuTextureButton
             {
                 SetSize = new Vector2(64, 64),
                 ToolTip = Loc.GetString(prototype.Desc),
-                ProtoId = prototype.ID
+                //ProtoId = prototype.ID,
+                StyleClasses = { "RadialMenuButton" }
             };
+            button.AddStyleClass("RadialMenuButton");
 
             var texture = new TextureRect
             {
@@ -62,13 +64,18 @@ public sealed class CarvingKnifeMenu : RadialMenu
             };
 
             button.AddChild(texture);
+            button.OnButtonUp += _ =>
+            {
+                SendCarvingKnifeSystemMessageAction?.Invoke(prototype.ID);
+                Close();
+            };
             main.AddChild(button);
         }
 
-        AddCarvingKnifeMenuButtonOnClickActions(main);
+        //AddCarvingKnifeMenuButtonOnClickActions(main);
     }
 
-    private void AddCarvingKnifeMenuButtonOnClickActions(RadialContainer control)
+    /*private void AddCarvingKnifeMenuButtonOnClickActions(RadialContainer control)
     {
         foreach (var child in control.Children)
         {
@@ -81,10 +88,10 @@ public sealed class CarvingKnifeMenu : RadialMenu
                 Close();
             };
         }
-    }
+    }*/
 }
 
-public sealed class CarvingKnifeMenuButton : RadialMenuTextureButtonWithSector
+/*public sealed class CarvingKnifeMenuButton : RadialMenuTextureButtonWithSector
 {
     public ProtoId<RuneCarvingPrototype> ProtoId { get; set; }
-}
+}*/
