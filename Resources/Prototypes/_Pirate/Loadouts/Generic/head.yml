@@ -1,0 +1,10 @@
+- type: loadout
+  id: LoadoutHeadUshanka
+  category: Head
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingHeadHatUshanka
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHead
