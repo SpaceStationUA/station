@@ -400,6 +400,10 @@ public sealed partial class PolymorphSystem : EntitySystem
             }
         // goob edit end
 
+        // Raise an event to inform anything that wants to know about the entity swap
+        RaiseLocalEvent(uid, new PolymorphedIntoEvent(child, false)); // Goobstation
+        RaiseLocalEvent(child, new PolymorphedIntoEvent(child, false)); // Goobstation
+
         return child;
     }
 
@@ -473,7 +477,9 @@ public sealed partial class PolymorphSystem : EntitySystem
         // if an item polymorph was picked up, put it back down after reverting
         _transform.AttachToGridOrMap(parent, parentXform);
 
+        // Raise an event to inform anything that wants to know about the entity swap
         RaiseLocalEvent(uid, new PolymorphedIntoEvent(parent, true)); // Goobstation
+        RaiseLocalEvent(parent, new PolymorphedIntoEvent(parent, true)); // Goobstation
 
         if (component.Configuration.ShowPopup) // Goob edit
         {
