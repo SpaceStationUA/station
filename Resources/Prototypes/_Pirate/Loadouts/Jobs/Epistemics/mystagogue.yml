@@ -1,0 +1,13 @@
+- type: loadout
+  name: "Шапка екстрасенса"
+  id: LoadoutPsionicMystagogueEquipmentHeadMindReadHat
+  category: JobsEpistemicsMystagogue
+  cost: 4
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueEquipment
+    - !type:CharacterJobRequirement
+      jobs:
+        - ResearchDirector
+  items:
+    - ClothingHeadMindReadHat
