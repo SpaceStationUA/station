@@ -46,3 +46,12 @@ heretic-speech-fuckoff = F'K 'FF!
 
 heretic-ability-fail-lowhealth = Це заклинання завдає {$damage} шкоди, але його застосування переведе вас у критичний стан!
 heretic-cant-shoot = Я не можу використовувати { THE($entity) } через мою священну присягу шляху леза
+heretic-ability-fail-tile-not-rusted = Цільова плитка повинна бути іржавою, щоб використовувати цю здатність!
+heretic-ability-fail-tile-occupied = Цільова плитка зайнята!
+heretic-ability-fail-rust-stage-low = Ти недостатньо сильний, щоб вкрити іржею цю поверхню!
+mansus-grasp-trigger-fail = Щось заважає тобі активувати це!
+
+## клинок
+heretic-livingheart-faraway = Воно {$state}, надзвичайно далеко!
+
+## мова

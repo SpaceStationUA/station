@@ -45,3 +45,7 @@ heretic-ritual-flesh-stalker = Самотній ритуал
 heretic-ritual-flesh-ascend = Заключний гімн священика
 heretic-ritual-void-blade = Мерехтіння зими
 heretic-ritual-void-ascend = Вальс наприкінці часів
+
+heretic-ritual-fail-sacrifice-rust = Недостатньо гниючих або кремнієвих трупів.
+
+## побічні квести
