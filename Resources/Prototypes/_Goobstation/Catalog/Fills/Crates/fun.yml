@@ -1,7 +1,7 @@
 - type: entity
   id: CrateFunBingleLoot
   parent: CrateBingle
-  name: Bingle loot
+  name: "Трофеї Бінгла"
   components:
   - type: StorageFill
     contents:
@@ -16,7 +16,7 @@
   id: CrateFunBingleAdmeme
   parent: CrateBingle
   suffix: Admeme voice triggered bingle crate
-  name: Bingle
+  name: "Бінгл"
   components:
   - type: SpawnOnTrigger
     proto: MobBingle
