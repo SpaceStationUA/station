@@ -1,8 +1,8 @@
 - type: entity
-  name: "кадильниця"
+  name: censer
   parent: BaseItem
   id: Censer
-  description: "Зазвичай туди кладуть ладан."
+  description: Usually you put incense in there.
   components:
   - type: Smokable
     exposeTemperature: 1173.15

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretNavy
-  name: "темно-синій офіцерський берет"
-  description: "Темно-синій берет зі срібним щитом сил безпеки \"Нанотрасен\"."
+  name: navy blue officer beret
+  description: A navy blue beret with the silver shield of the Nanotrasen security forces.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/beret_bso_navy.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretOfficer
-  name: "офіцерський берет"
-  description: "Чорний берет зі срібним щитом сил безпеки \"Нанотрасен\"."
+  name: officers beret
+  description: A black beret with the silver shield of the Nanotrasen security forces.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/beret_bso_officer.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatCowboyBlueshield
-  name: "ковбойський капелюх із синім щитом"
-  description: "Діти, шериф повернувся в місто"
+  name: blueshield cowboy hat
+  description: Sheriff's back in town, kids
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hats/cowboyhatbso.rsi
