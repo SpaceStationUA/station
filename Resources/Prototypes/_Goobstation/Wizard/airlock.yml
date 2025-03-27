@@ -3,9 +3,6 @@
   parent: DoorElectronics
   id: DoorElectronicsWizard
   suffix: Wizard, Locked
-  components:
-  - type: AccessReader
-    access: [["Wizard"]]
 
 # Airlock
 - type: entity

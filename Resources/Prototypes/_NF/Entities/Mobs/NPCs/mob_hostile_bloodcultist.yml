@@ -13,11 +13,6 @@
     rechargeCooldown: 1.5
     rechargeSound:
       path: /Audio/_NF/Effects/silence.ogg
-  - type: Advertise
-    pack: bloodcultisthumanoidchatter
-    minimumWait: 30
-    maximumWait: 120
-    nextAdvertisementTime: 10
   # - type: AutoWakeUp
 
 # Humans
@@ -129,10 +124,6 @@
   - type: RechargeBasicEntityAmmo
     rechargeSound:
       path: /Audio/Items/bow_pull.ogg
-  - type: BasicEntityAmmoProvider
-    proto: CrossbowBoltBloodDrinker
-    capacity: 1
-    count: 1
   - type: Gun
     showExamineText: false
     fireRate: 0.5
@@ -184,8 +175,6 @@
     factions:
     - BloodCultNF
   - type: CanMoveInAir
-  - type: Advertise
-    pack: bloodcultisthumanoidchatter
   - type: Reflect
     enabled: true
     reflectProb: .3
@@ -263,8 +252,6 @@
   - type: NpcFactionMember
     factions:
     - BloodCultNF
-  - type: Advertise
-    pack: bloodcultisthumanoidchatter
   - type: Sprite
     drawdepth: Mobs
     sprite: _NF/Mobs/BloodCult/bloodcultleech.rsi
@@ -313,8 +300,6 @@
     factions:
     - BloodCultNF
   - type: MovementIgnoreGravity
-  - type: Advertise
-    pack: bloodcultisthumanoidchatter
   - type: Sprite
     drawdepth: Mobs
     sprite: _NF/Mobs/BloodCult/drainedone.rsi

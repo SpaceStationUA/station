@@ -1,19 +1,4 @@
 - type: entity
-  parent: Jug
-  suffix: holywater
-  id: JugHolywater
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Label
-    currentLabel: reagent-name-holywater
-  - type: SolutionContainerManager
-    solutions:
-      beaker:
-        reagents:
-        - ReagentId: Holywater
-          Quantity: 200
-
-- type: entity
   parent: CratePlastic
   id: CrateChaplain
   name: religious crate
@@ -32,8 +17,6 @@
     - type: StorageFill
       contents:
         - id: Bible
-        - id: JugHolywater
-          amount: 2
 
 - type: cargoProduct
   id: ServiceReligiousSupplies

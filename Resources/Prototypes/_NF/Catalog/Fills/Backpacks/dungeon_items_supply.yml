@@ -50,7 +50,6 @@
     - WeaponCrusher
     - WeaponCrusherGlaive
     - WeaponProtoKineticAccelerator
-    - WeaponProtoKineticAcceleratorSawn
     - OreBag
     - RadioHandheld
     - HandheldGPSBasic
@@ -95,7 +94,6 @@
     - ClothingHeadBandBrown
     - ClothingHeadsetMining
     - ClothingBackpackDuffelSalvage
-    - ClothingBackpackMessengerSalvage
     chance: 1
     offset: 0.0
     rarePrototypes:
@@ -184,8 +182,6 @@
     offset: 0.0
     rarePrototypes:
     - SuitStorageNTSRA
-    - SuitStorageMining
-    - SuitStorageQuartermaster
     rareChance: 0.05
 
 # Machines
@@ -207,11 +203,6 @@
         color: red
   - type: RandomSpawner
     prototypes:
-    - SalvageTechfabNF
-    - SalvageTechfabNF
-    - SalvageTechfabNF
-    - SalvageTechfabNF
-    - SalvageTechfabNF
     - Autolathe
     chance: 1
     offset: 0.0
@@ -245,9 +236,7 @@
     chance: 1
     offset: 0.0
     rarePrototypes:
-    - VendingMachineSyndieContraband
     - VendingMachineSyndieDrobe
-    - VendingMachineArcadia
     rareChance: 0.01
 
 # Other
@@ -271,7 +260,6 @@
     # Computers
     - ComputerIFFCircuitboard
     # Lathes
-    - SalvageTechFabCircuitboardNF
     - AutolatheMachineCircuitboard
     - OreProcessorMachineCircuitboard
     # Machines

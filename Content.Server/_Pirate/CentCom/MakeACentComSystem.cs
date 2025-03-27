@@ -2,6 +2,7 @@ using Content.Server.Ghost.Roles.Components;
 using Content.Server.Humanoid.Systems;
 using Content.Server.RandomMetadata;
 using Content.Server.RoundEnd;
+using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Mind;
 using Content.Shared.Players;
 using Content.Shared.Shuttles.Components;
@@ -17,7 +18,7 @@ namespace Content.Server._Pirate.CentCom;
 public sealed class MakeACentComSystem : EntitySystem
 {
     private const string ShuttlePath = "Maps/Shuttles/Qazmlp/shuttle_CentCom_atmos.yml";
-    [ValidatePrototypeId<EntityPrototype>] private const string Official = "CentcomOfficial";
+    [ValidatePrototypeId<RandomHumanoidSettingsPrototype>] private const string Official = "CentcomOfficial";
     [ValidatePrototypeId<EntityPrototype>] private const string Disk = "CoordinatesDisk";
     [Dependency] private readonly IEntityManager _entManager = default!;
     [Dependency] private readonly MapLoaderSystem _map = default!;

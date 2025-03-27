@@ -32,7 +32,7 @@
   cost:
     Telecrystal: 40
   categories:
-    - UplinkWeapons
+    - UplinkDeception
 
 - type: listing
   id: UplinkTeleporter
@@ -43,7 +43,7 @@
   cost:
     Telecrystal: 60
   categories:
-  - UplinkUtility
+  - UplinkDeception
 
 - type: listing
   id: UplinkMiamiBundle
@@ -54,7 +54,7 @@
   cost:
     Telecrystal: 50
   categories:
-    - UplinkBundles
+    - UplinkDeception
   conditions:
     - !type:StoreWhitelistCondition
       blacklist:
@@ -74,7 +74,7 @@
   cost:
     Telecrystal: 80
   categories:
-    - UplinkArmor
+    - UplinkWeaponry
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:
@@ -90,7 +90,7 @@
   cost:
     Telecrystal: 40
   categories:
-  - UplinkArmor
+  - UplinkDeception
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:
@@ -123,7 +123,7 @@
   cost:
     Telecrystal: 70
   categories:
-  - UplinkBundles
+  - UplinkWeaponry
   saleLimit: 1
 
 - type: listing

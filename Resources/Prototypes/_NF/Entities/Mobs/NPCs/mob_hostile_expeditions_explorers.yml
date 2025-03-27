@@ -43,12 +43,6 @@
         Structural: 30
     soundHit:
       collection: MetalThud
-  - type: Advertise
-    pack: mercenaryhumanoidchatter
-    minimumWait: 30
-    maximumWait: 120
-    nextAdvertisementTime: 10
-  # - type: AutoWakeUp
   - type: PointLight
     enabled: true
     autoRot: false

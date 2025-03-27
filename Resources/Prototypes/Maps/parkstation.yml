@@ -12,8 +12,6 @@
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: 'TG'
-        - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/Shuttles/NTES_Kaeri.yml
         - type: StationJobs
           overflowJobs:
             - Passenger
@@ -37,7 +35,6 @@
             #medical
             ChiefMedicalOfficer: [ 1, 1 ]
             MedicalDoctor: [ 3, 6 ]
-            MedicalRobot: [ 1, 2 ]
             MedicalIntern: [ 2, 2 ]
             Paramedic: [ 1, 1 ]
             MedicalBorg: [ 2, 3 ]

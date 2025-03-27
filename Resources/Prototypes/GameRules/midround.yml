@@ -32,27 +32,17 @@
       briefing:
         sound: "/Audio/Misc/thief_greeting.ogg"
 
-- type: entity
-  noSpawn: true
-  parent: BaseGameRule
-  id: Exterminator
-  components:
-  - type: GenericAntagRule
-    agentName: terminator-round-end-agent-name
-    objectives:
-    - TerminateObjective
-    - ShutDownObjective
 #PIRATE START UNTIL END OF FILE
 # stores configuration for mage
-- type: entity
-  noSpawn: true
-  parent: BaseGameRule
-  id: Mage
-  components:
-  - type: GenericAntagRule
-    agentName: mage-round-end-agent-name
-    objectives:
-    - MageEscapeObjective
+#- type: entity
+#  noSpawn: true
+#  parent: BaseGameRule
+#  id: Mage
+#  components:
+#  - type: GenericAntagRule
+#    agentName: mage-round-end-agent-name
+#    objectives:
+#    - MageEscapeObjective
 #- type: entity
 #  categories: [ HideSpawnMenu ]
 #  parent: BaseGameRule

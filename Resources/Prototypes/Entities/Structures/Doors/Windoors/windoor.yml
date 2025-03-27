@@ -487,12 +487,3 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsSyndicateAgent ]
-#PIRATE START UNTIL END OF FILE
-- type: entity
-  parent: WindoorSecure
-  id: WindoorSecureRoboticsLocked
-  suffix: Robotics, Locked
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ Robotics ]

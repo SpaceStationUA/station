@@ -1,15 +1,4 @@
 - type: polymorph
-  id: Gondola
-  configuration:
-    entity: MobGondola
-    forced: true
-    transferName: false
-    transferHumanoidAppearance: false
-    inventory: Drop
-    revertOnDeath: false
-    revertOnCrit: false
-
-- type: polymorph
   id: Bananamen
   configuration:
     entity: MobBananaMen

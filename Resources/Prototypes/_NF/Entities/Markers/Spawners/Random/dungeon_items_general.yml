@@ -150,10 +150,7 @@
     prototypes:
     - SuitStorageBase
     - SuitStorageEVAAlternate
-    - SuitStorageHydro
-    - SuitStorageMailCarrier
     - SuitStorageBasic
-    - SuitStoragePilot
     - SuitStorageParamedic
     - SuitStorageEngi
     - SuitStorageAtmos
@@ -162,9 +159,7 @@
     offset: 0.0
     rarePrototypes:
     - SuitStorageNTSRA
-    - SuitStorageMining
     - SuitStorageCE
-    - SuitStorageQuartermaster
     - SuitStorageCMO
     rareChance: 0.05
 
@@ -221,9 +216,7 @@
   - type: RandomSpawner
     prototypes:
     - Dresser
-    - LockerWoodenGeneric
     - Dresser
-    - LockerWoodenGeneric
     - TableWood
     - filingCabinetDrawer
     - Bed
@@ -252,11 +245,7 @@
         color: red
   - type: RandomSpawner
     prototypes:
-    - TilePrinterNF
-    - SalvageTechfabNF
-    - ScienceTechFab
-    - ServiceTechFab
-    - EngineeringTechFab
+    - Protolathe
     - Autolathe
     - Protolathe
     - CircuitImprinter
@@ -309,28 +298,10 @@
     - VendingMachineSovietSoda
     - VendingMachineGames
     - VendingMachineHappyHonk
-    - VendingMachineCuddlyCritterVend
-    - VendingMachineAutoTuneVend
-    - VendingMachinePottedPlantVend
     - WaterCooler
     - SpawnDungeonMachineFrame
-    #- VendingMachineChang # No food vendomats in expeds - buy from food ships or die
-    #- VendingMachineDonut
-    #- VendingMachineDiscount
-    #- VendingMachineSnack
-    #- VendingMachineSustenance
-    #- VendingMachineSnackBlue
-    #- VendingMachineSnackOrange
-    #- VendingMachineSnackGreen
-    #- VendingMachineSnackTeal
     chance: 1
     offset: 0.0
-    rarePrototypes:
-    # - VendingMachineChemicalsSyndicate # A bit less Syndicate loot
-    - VendingMachineArcadia
-    # - VendingMachineSyndieDrobe # A bit less Syndicate loot
-    # - VendingMachineSyndieContraband # A bit less Syndicate loot
-    rareChance: 0.05
 
 - type: entity
   name: random vendomat
@@ -371,9 +342,6 @@
     offset: 0.0
     rarePrototypes:
     - VendingMachineMagivend
-    - VendingMachineArcadia
-    # - VendingMachineSyndieDrobe # A bit less Syndicate loot
-    # - VendingMachineSyndieContraband # A bit less Syndicate loot
     - SpawnDungeonMachineFrame
     rareChance: 0.05
 
@@ -401,13 +369,8 @@
     chance: 1
     offset: 0.0
     rarePrototypes:
-    - LessLethalVendingMachine
-    - VendingMachineFlatpackVend
-    - VendingMachineExpeditionaryFlatpackVend
     - VendingMachineAmmo
-    # - VendingMachineSyndieContraband # A bit less Syndicate loot
     - VendingMachineSec
-    - VendingMachineArcadia
     - SpawnDungeonMachineFrame
     rareChance: 0.03
 
@@ -501,10 +464,9 @@
     - SurveillanceCameraWirelessRouterCircuitboard
     - SurveillanceWirelessCameraMonitorCircuitboard
     # Boards
-    - SalvageTechFabCircuitboardNF
-    - ScienceTechFabCircuitboard
-    - ServiceTechFabCircuitboard
-    - EngineeringTechFabCircuitboard
+    - ProtolatheMachineCircuitboard
+    - AutolatheMachineCircuitboard
+    - AutolatheMachineCircuitboard
     - AmmoTechFabCircuitboard
     - MedicalTechFabCircuitboard
     - OreProcessorIndustrialMachineCircuitboard

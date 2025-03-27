@@ -3,6 +3,7 @@ using Content.Server.Humanoid.Systems;
 using Content.Server.RandomMetadata;
 using Content.Server.RoundEnd;
 using Content.Shared.Directions;
+using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Mind;
 using Content.Shared.Players;
 using Content.Shared.Shuttles.Components;
@@ -18,7 +19,7 @@ namespace Content.Server._Pirate.Mercenary;
 public sealed class MakeAMercSystem : EntitySystem
 {
     private const string MapPath = "Maps/Shuttles/Qazmlp/st_merc.yml";
-    [ValidatePrototypeId<EntityPrototype>] private const string SpawnerPrototypeId = "Mercenary";
+    [ValidatePrototypeId<RandomHumanoidSettingsPrototype>] private const string SpawnerPrototypeId = "Mercenary";
     [ValidatePrototypeId<EntityPrototype>] private const string Disk = "CoordinatesDisk";
     [Dependency] private readonly IEntityManager _entManager = default!;
     [Dependency] private readonly MapLoaderSystem _map = default!;

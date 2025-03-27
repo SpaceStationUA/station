@@ -481,9 +481,6 @@
     stateUnlocked: decursed_door
   - type: Lock
     breakOnEmag: false
-  - type: AccessReader
-    access: [["Wizard"]]
-    breakOnEmag: false
   - type: Projectile
     deleteOnCollide: false
     onlyCollideWhenShot: true

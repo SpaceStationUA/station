@@ -189,11 +189,9 @@
   - type: RandomSpawner
     prototypes:
     - ClothingBackpackDuffelSurgeryFilled
-    - ClothingBackpackDuffelSurgeryAdvancedFilled
     chance: 0.95
     offset: 0.0
     rarePrototypes:
-    - ClothingBackpackDuffelSurgeryImpovFilled
     - ClothingBackpackDuffelSyndicateFilledMedical
     rareChance: 0.05
 
@@ -360,10 +358,6 @@
     prototypes:
     - Implanter
     - Implanter
-    - MedicalTrackingImplanter
-    - MedicalTrackingImplanter
-    - MedicalTrackingImplanter
-    - MedicalTrackingImplanter
     - LightImplanter
     - SadTromboneImplanter
     - TrackingImplanter
@@ -480,7 +474,6 @@
     - UniformScrubsColorGreen
     - ClothingBeltMedical
     - ClothingUniformJumpsuitMedicalDoctor
-    - ClothingBackpackMessengerMedical
     - ClothingBackpackDuffelMedical
     chance: 1
     offset: 0.0
@@ -515,7 +508,6 @@
     - LockerMedicalFilled
     - LockerMedicineFilled
     - LockerParamedicFilled
-    - LockerPsychologistFilled
     - ClosetL3VirologyFilled
     chance: 1
     offset: 0.0

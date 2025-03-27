@@ -41,9 +41,6 @@
         name: bolt
         startingItem: null
         insertSound: /Audio/Items/bow_pull.ogg
-        whitelist:
-          tags:
-          - CrossbowBolt
   - type: ContainerContainer
     containers:
       bolt: !type:ContainerSlot
@@ -70,11 +67,6 @@
   - type: ItemMapper
     spriteLayers:
     - bolt
-    mapLayers:
-      bolt:
-        whitelist:
-          tags:
-          - CrossbowBolt
   - type: GenericVisualizer
     visuals:
       enum.WieldableVisuals.Wielded:
@@ -112,11 +104,6 @@
   - type: ItemMapper
     spriteLayers:
     - bolt
-    mapLayers:
-      bolt:
-        whitelist:
-          tags:
-          - CrossbowBolt
   - type: GenericVisualizer
     visuals:
       enum.WieldableVisuals.Wielded:

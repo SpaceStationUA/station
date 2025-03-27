@@ -1259,21 +1259,3 @@
   - type: ContainerFill
     containers:
       board: [ DoorElectronicsSyndicateAgent ]
-#PIRATE START UNTIL END OF FILE
-- type: entity
-  parent: AirlockScience
-  id: AirlockRoboticsLocked
-  suffix: Robotics, Locked
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsRobotics ]
-      
-- type: entity
-  parent: AirlockScienceGlass
-  id: AirlockRoboticsGlassLocked
-  suffix: Robotics, Glass, Locked
-  components:
-  - type: ContainerFill
-    containers:
-      board: [ DoorElectronicsRobotics ]

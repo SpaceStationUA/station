@@ -17,18 +17,12 @@
   #- type: AutoImplant
     #implants:
     #- DeathRattleImplant
-    #- DeathAcidifierImplantNF
     #- DeathAcidifierImplant
     #- MicroBombImplant
   - type: RechargeBasicEntityAmmo
     rechargeCooldown: 1
     rechargeSound:
       path: /Audio/_NF/Effects/silence.ogg
-  - type: Advertise
-    pack: syndicatehumanoidchatter
-    minimumWait: 30
-    maximumWait: 120
-    nextAdvertisementTime: 10
   # - type: AutoWakeUp
 
 # Humans
@@ -173,10 +167,6 @@
       rechargeCooldown: 2
       rechargeSound:
         path: /Audio/_NF/Effects/silence.ogg
-    - type: BasicEntityAmmoProvider
-      proto: DartSyndicateImpedrezene
-      capacity: 1
-      count: 1
     - type: Gun
       showExamineText: false
       fireRate: 4
@@ -203,10 +193,6 @@
     - type: Loadout
       prototypes:
         - SyndicateNavalMedicGearB
-    - type: BasicEntityAmmoProvider
-      proto: DartSyndicateTranquilizer
-      capacity: 1
-      count: 1
 
 - type: entity
   parent: MobSyndicateNavalMedicA
@@ -216,10 +202,6 @@
     - type: Loadout
       prototypes:
         - SyndicateNavalMedicGearD
-    - type: BasicEntityAmmoProvider
-      proto: DartSyndicateTranquilizer
-      capacity: 1
-      count: 1
 
 # Second Officer, "armed" with Advanced Laser Pistol
 - type: entity
@@ -345,9 +327,6 @@
     - type: Loadout
       prototypes:
         - SyndicateNavalGrenadierGearA
-    - type: AutoImplant
-      implants:
-      - DeathAcidifierImplantNF
     - type: RechargeBasicEntityAmmo
       rechargeCooldown: 5
       rechargeSound:
@@ -417,10 +396,6 @@
       rechargeCooldown: 1
       rechargeSound:
         path: /Audio/_NF/Effects/silence.ogg
-    - type: BasicEntityAmmoProvider
-      proto: BulletPistolEmp
-      capacity: 4
-      count: 4
     - type: Gun
       showExamineText: false
       fireRate: 6
@@ -494,7 +469,6 @@
     - type: AutoImplant
       implants:
       - DeathRattleImplant
-      #- DeathAcidifierImplantNF
     - type: RechargeBasicEntityAmmo
       rechargeCooldown: 1.5
       rechargeSound:
@@ -619,11 +593,6 @@
     - type: MovementSpeedModifier
       baseWalkSpeed: 4
       baseSprintSpeed: 6
-    - type: Advertise
-      pack: mimehumanoidchatter
-      minimumWait: 120 # 1 * 2
-      maximumWait: 240 # 2 * 60
-      nextAdvertisementTime: 0
 
 # Syndicate Chemwarrior, shoots healthy mixes of chems
 # Look for chems here: /Resources/Prototypes/_NF/Entities/Objects/Weapons/Ammunition/Projectiles/chem.yml
@@ -640,10 +609,6 @@
     rechargeCooldown: 2
     rechargeSound:
       path: /Audio/_NF/Effects/silence.ogg
-  - type: BasicEntityAmmoProvider
-    proto: SplatterChemCold
-    capacity: 3
-    count: 3
   - type: Gun
     showExamineText: false
     fireRate: 4
@@ -660,10 +625,6 @@
   - type: Loadout
     prototypes:
     - SyndicateNavalChemwarriorGearB
-  - type: BasicEntityAmmoProvider
-    proto: SplatterChemDrugs
-    capacity: 1
-    count: 1
 
 - type: entity
   parent: MobSyndicateNavalChemwarriorA
@@ -673,10 +634,6 @@
   - type: Loadout
     prototypes:
     - SyndicateNavalChemwarriorGearC
-  - type: BasicEntityAmmoProvider
-    proto: SplatterChemMute
-    capacity: 1
-    count: 1
 
 - type: entity
   parent: MobSyndicateNavalChemwarriorA
@@ -686,7 +643,3 @@
   - type: Loadout
     prototypes:
     - SyndicateNavalChemwarriorGearD
-  - type: BasicEntityAmmoProvider
-    proto: SplatterChemWeh
-    capacity: 1
-    count: 1

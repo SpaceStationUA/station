@@ -30,7 +30,6 @@
   - type: Healing
     damageContainers:
       - Biological
-      - BiologicalMetaphysical #imp
     damage:
       types:
         Heat: -10
@@ -82,7 +81,6 @@
   - type: Healing
     damageContainers:
       - Biological
-      - BiologicalMetaphysical #imp
     damage:
       types:
         Heat: -15
@@ -123,7 +121,6 @@
   - type: Healing
     damageContainers:
       - Biological
-      - BiologicalMetaphysical #imp
     damage:
       groups:
         Brute: -30 # was 5 (-15 Brute) for each, Buffed due to limb damage changes
@@ -173,7 +170,6 @@
   - type: Healing
     damageContainers:
       - Biological
-      - BiologicalMetaphysical #imp
     damage:
       groups:
         Brute: -45 # was 10 for each, now 20 for each type in the group, Buffed due to Limb Damage Changes
@@ -212,7 +208,6 @@
   - type: Healing
     damageContainers:
       - Biological
-      - BiologicalMetaphysical #imp
     damage:
       types:
         Bloodloss: -2.5 #lowers bloodloss damage, was .5, buffed due to Limb Damage Changes
@@ -249,7 +244,6 @@
     - type: Healing
       damageContainers:
         - Biological
-        - BiologicalMetaphysical #imp
       damage:
         groups:
           Brute: 5 # Tourniquets HURT!
@@ -280,7 +274,6 @@
   - type: Healing
     damageContainers:
       - Biological
-      - BiologicalMetaphysical #imp
     damage:
       types:
         Slash: -10 # Was 5
@@ -339,7 +332,6 @@
   - type: Healing
     damageContainers:
     - Biological
-    - BiologicalMetaphysical #imp
     damage:
       groups: # these are all split across multiple types
         Brute: -150

@@ -624,7 +624,7 @@ public sealed class CosmicCultRuleSystem : GameRuleSystem<CosmicCultRuleComponen
             EnsureComp<PressureImmunityComponent>(cultist);
             EnsureComp<TemperatureImmunityComponent>(cultist);
 
-            _damage.SetDamageContainerID(cultist, "BiologicalMetaphysical");
+            // _damage.SetDamageContainerID(cultist, "BiologicalMetaphysical");
 
             foreach (var influenceProto in _protoMan.EnumeratePrototypes<InfluencePrototype>().Where(influenceProto => influenceProto.Tier == 3))
             {
@@ -736,7 +736,7 @@ public sealed class CosmicCultRuleSystem : GameRuleSystem<CosmicCultRuleComponen
 
             if (CurrentTier == 3)
             {
-                _damage.SetDamageContainerID(uid, "BiologicalMetaphysical");
+                // _damage.SetDamageContainerID(uid, "BiologicalMetaphysical");
                 cultComp.EntropyBudget = 48; // pity balance
                 cultComp.Respiration = false;
 

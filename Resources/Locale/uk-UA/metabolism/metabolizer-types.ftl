@@ -14,3 +14,6 @@ metabolizer-type-liquorlifeline = Алкогольна підтримка жит
 
 metabolizer-type-shadowkin = Тіньовик
 metabolizer-type-plasmaman = Плазмамен
+
+metabolizer-type-goblin = Гоблін
+metabolizer-type-vampire = Вампір

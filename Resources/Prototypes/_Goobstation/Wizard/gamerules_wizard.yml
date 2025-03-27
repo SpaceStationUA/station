@@ -23,8 +23,8 @@
       - MindRoleWizard
       startingGear: WizardGear
       unequipOldGear: true
-      roleLoadout:
-      - RoleSurvivalEVA
+#      roleLoadout:
+#      - RoleSurvivalEVA
       components:
       - type: Wizard
       - type: RandomMetadata
@@ -35,7 +35,6 @@
         factions:
         - Wizard
   - type: AntagLoadProfileRule
-    speciesOverride: Human
   - type: RuleGrids
   - type: LoadMapRule
     mapPath: /Maps/_Goobstation/Nonstations/wizden.yml

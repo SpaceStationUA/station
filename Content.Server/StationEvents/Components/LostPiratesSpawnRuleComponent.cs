@@ -11,7 +11,7 @@ using Content.Server.StationEvents.Events;
      public string LostPiratesShuttlePath = "Maps/Shuttles/lost_pirates.yml";
 
      [DataField]
-     public EntProtoId GameRuleProto = "Pirates";
+     public EntProtoId GameRuleProto = "LostPiratesSpawn";
 
      [DataField]
      public EntityUid? AdditionalRule;

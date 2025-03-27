@@ -99,9 +99,6 @@
     chance: 0.95
     offset: 0.0
     rarePrototypes:
-    #- RCD
-    - ShipyardRCD
-    - ShipyardRCDAmmo
     - SyndicateJawsOfLife
     rareChance: 0.01
 
@@ -158,7 +155,6 @@
     - ClothingShoesBootsWork
     - ClothingHeadHatHardhatOrange
     - ClothingBackpackDuffelEngineering
-    - ClothingBackpackMessengerEngineering
     chance: 1
     offset: 0.0
     rarePrototypes:
@@ -256,17 +252,12 @@
     prototypes:
     - Autolathe
     - Protolathe
-    - EngineeringTechFab
-    - EngineeringTechFab
-    - EngineeringTechFab
-    - EngineeringTechFab
     - CircuitImprinter
     - MachineFlatpacker
     - SpawnDungeonMachineFrame
     chance: 1
     offset: 0.0
     rarePrototypes:
-    - TilePrinterNF
     - AutolatheHyperConvection
     - ProtolatheHyperConvection
     rareChance: 0.01
@@ -344,8 +335,6 @@
     rarePrototypes:
     #- HandheldStationMap
     # T4
-    - QuadraticCapacitorStockPart
-    - FemtoManipulatorStockPart
     - BluespaceMatterBinStockPart
     rareChance: 0.05
 
@@ -399,13 +388,11 @@
     - AlertsComputerCircuitboard
     # Lathes
     - CircuitImprinterMachineCircuitboard
-    - EngineeringTechFabCircuitboard
+    - AutolatheMachineCircuitboard
     - ProtolatheMachineCircuitboard
     - AutolatheMachineCircuitboard
     - FlatpackerMachineCircuitboard
-    - TilePrinterNFMachineCircuitboard
     # Machines
-    - ShredderMachineCircuitboard
     - SpaceHeaterMachineCircuitBoard
     - PortableScrubberMachineCircuitBoard
     - HellfireHeaterMachineCircuitBoard

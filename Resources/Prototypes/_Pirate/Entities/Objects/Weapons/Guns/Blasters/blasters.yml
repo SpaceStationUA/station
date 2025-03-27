@@ -39,7 +39,7 @@
     maxCharge: 2000
     startingCharge: 2000
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletEnergyGunBlaster
+    proto: BulletEnergyGunLaser
     fireCost: 100
   - type: BatterySelfRecharger
     autoRecharge: true
@@ -103,7 +103,7 @@
     maxCharge: 1000
     startingCharge: 1000
   - type: HitscanBatteryAmmoProvider
-    proto: HolyLaser
+    proto: RedLaser
     fireCost: 180
   - type: BatterySelfRecharger
     autoRecharge: true

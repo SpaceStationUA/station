@@ -24,10 +24,6 @@ public sealed partial class AlienJumpComponent : Component
     [DataField("jumpSprite")]
     public ResPath JumpSprite { get; set; }
 
-    [ViewVariables(VVAccess.ReadWrite)]
-    [DataField("sprite")]
-    public ResPath Sprite { get; set; }
-
     [ViewVariables]
     public SpriteSpecifier? OldSprite;
 

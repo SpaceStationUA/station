@@ -34,12 +34,6 @@
       visible: false
     - state: piston
       map: ["pistonlayer"]
-  - type: ItemSlots
-    slots:
-      disruptionSlot:
-        whitelist:
-          tags:
-          - StasisCage
   - type: GenericVisualizer
     visuals:
       enum.TimelineDisruptiorVisuals.Disrupting:

@@ -15,16 +15,10 @@
     maxItemSize: Small
     grid:
     - 0,0,4,4
-    whitelist:
-      tags:
-      - CrossbowBolt
   - type: Appearance
   - type: StorageContainerVisuals
     maxFillLevels: 5
     fillBaseName: fill-
-  - type: Construction
-    graph: CraftQuiverBolt
-    node: CraftQuiverBolt
 
 # Filled versions
 - type: entity

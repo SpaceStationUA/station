@@ -36,12 +36,6 @@ public sealed class MakeATraitorSystem : EntitySystem
     [ValidatePrototypeId<EntityPrototype>]
     private const string DefaultHereticRule = "Heretic";
 
-    [ValidatePrototypeId<EntityPrototype>]
-    private const string DefaultBlobRule = "Blob";
-
-    [ValidatePrototypeId<EntityPrototype>]
-    private const string DefaultWizardRule = "Wizard";
-
     [Dependency] private readonly AntagSelectionSystem _antag = default!;
 
     public void MakeTraitor(TraitorType traitorType, EntityUid entity)
