@@ -8,3 +8,4 @@ lathe-category-tools = Інструменти
 lathe-category-weapons = Зброя
 
 lathe-category-tacsuits = Тактичні костюми
+lathe-category-books = Книги

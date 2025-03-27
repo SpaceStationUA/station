@@ -174,3 +174,8 @@ chat-speech-verb-skeleton-4 = клацання
 chat-speech-verb-skeleton-5 = тріщини
 chat-speech-verb-name-supermatter = Надматерія
 chat-speech-verb-supermatter = стани
+
+chat-speech-verb-Psychomantic-1 = резонує
+chat-speech-verb-Psychomantic-2 = проєктує
+chat-speech-verb-Psychomantic-3 = вражає
+chat-speech-verb-Psychomantic-4 = випромінює

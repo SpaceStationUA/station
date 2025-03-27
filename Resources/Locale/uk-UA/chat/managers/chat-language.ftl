@@ -36,3 +36,4 @@ chat-language-Xeno-name = Ксено
 chat-language-Calcic-name = Кальцієвий
 chat-language-Chittin-name = Хітинова
 chat-language-NovuNederic-name = Нову-Недерік
+chat-language-Psychomantic-name = Психомантія

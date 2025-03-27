@@ -32,3 +32,8 @@ ghost-roles-window-leave-raffle-button = Покинути розіграш ({$ti
          [one] {$players} гравцем
         *[other] {$players} гравцями
     })
+ghost-gui-toggle-ghost-visibility-popup-on = Увімкнено видимість привидів.
+ghost-gui-toggle-ghost-visibility-popup-off = Вимкнено видимість привидів.
+ghost-gui-toggle-lighting-manager-popup-normal = Освітлення нормальне.
+ghost-gui-toggle-lighting-manager-popup-personal-light = Увімкнено персональне світло.
+ghost-gui-toggle-lighting-manager-popup-fullbright = Режим повної яскравості.
