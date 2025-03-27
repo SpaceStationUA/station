@@ -12757,3 +12757,103 @@ Entries:
   id: 7032
   time: '2025-03-25T08:56:28.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2041
+- author: RocketBoss360
+  changes:
+    - type: Add
+      message: >-
+        Візуальну складову Ксеноглосії було оновлено, додано новий шрифт, колір та пов'язані з нею дієслова мовлення.
+  id: 7033
+  time: '2025-03-26T09:29:58.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2072
+- author: Timfa2112
+  changes:
+    - type: Add
+      message: Додано книжковий прес. Бібліотекарі, радійте!
+  id: 7034
+  time: '2025-03-26T10:03:35.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1977
+- author: EctoplasmIsGood
+  changes:
+    - type: Add
+      message: Ви будете посміхатися.
+  id: 7035
+  time: '2025-03-26T10:12:21.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2086
+- author: ViceEmargo
+  changes:
+    - type: Tweak
+      message: >-
+        Будівництву атмосферних труб більше не заважають конструкції та стіни.
+  id: 7036
+  time: '2025-03-26T10:14:08.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2085
+- author: GNUtopia
+  changes:
+    - type: Tweak
+      message: Здібність 'Зцілююче Слово' більше не воскрешає.
+  id: 7037
+  time: '2025-03-26T10:14:49.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2084
+- author: EctoplasmIsGood
+  changes:
+    - type: Tweak
+      message: Стандартний набір законів для Боргів знову Азімов.
+  id: 7038
+  time: '2025-03-26T10:15:23.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2083
+- author: Mike32oz
+  changes:
+    - type: Add
+      message: Турелі ШІ 'Маяк'.
+    - type: Add
+      message: Відновлено матеріали 'Маяка'.
+    - type: Fix
+      message: Стиковочні двері шатла утилізації 'Маяка'.
+    - type: Remove
+      message: Клоун Тіппі (немезида).
+  id: 7039
+  time: '2025-03-26T11:03:07.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2066
+- author: astriloqua
+  changes:
+    - type: Add
+      message: Портовано точкове світло для спостерігачів.
+    - type: Add
+      message: Портовано варіанти плюшевих ящерів (космічних та звичайних) для носіння в руці та на голові.
+  id: 7040
+  time: '2025-03-26T16:08:30.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2067
+- author: astriloqua
+  changes: []
+  id: 7041
+  time: '2025-03-26T20:34:52.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2047
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено помилку, через яку предмети, кинуті космічним вітром, могли залишатися в повітрі до 500 секунд. Тепер предмети, кинуті космічним вітром, можуть залишатися в повітрі максимум 2 секунди після останнього кидка.
+    - type: Fix
+      message: ЗНАЧНО ПОКРАЩЕНО ПРОДУКТИВНІСТЬ КОСМІЧНОГО ВІТРУ.
+    - type: Tweak
+      message: >-
+        Команда ShowAtmos тепер показує вектори, що представляють точний напрямок, у якому космічний вітер намагається кинути об'єкти на даній плитці! Довжина показаних ліній прямо пропорційна силі потоку повітря на цій плитці. Коротші лінії = слабші кидки. Довші лінії = сильніші кидки. Вони також більше не обмежені напрямками компаса і можуть вказувати в будь-якому довільному напрямку по колу.
+    - type: Tweak
+      message: >-
+        Космічний вітер тепер більше не вимагає обов'язкової наявності Monstermos. Без нього він буде слабким, як немовля, але якщо ваш сервер працює на тостері, ви можете вимкнути Monstermos і все ще мати робочий космічний вітер.
+    - type: Tweak
+      message: >-
+        Уламки в космосі тепер ніколи не герметичні. Вибачте, але це була, по суті, ціна, яку довелося заплатити в обмін на те, щоб Atmos більше не входила навіть до топ-20 систем за вартістю тікрейту сервера.
+  id: 7042
+  time: '2025-03-27T03:21:38.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2089
+- author: EctoplasmIsGood
+  changes:
+    - type: Add
+      message: Додає ремонтних дронів, дешевих роботів, які є досвідченими інженерами.
+    - type: Add
+      message: >-
+        Додає нову опцію дослідження, 'базова робототехніка', яка дозволяє створювати дронів та датчики наближення.
+  id: 7043
+  time: '2025-03-27T09:11:52.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2079
