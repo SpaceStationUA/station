@@ -57,7 +57,6 @@
 - type: entity
   parent: BaseMobFleshExpeditions
   id: MobFleshJaredExpeditions
-  noSpawn: true
   components:
   - type: Sprite
     layers:
@@ -75,7 +74,6 @@
 - type: entity
   parent: MobFleshJaredExpeditions
   id: MobFleshJaredOldExpeditions
-  noSpawn: true
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -87,7 +85,6 @@
 - type: entity
   parent: BaseMobFleshExpeditions
   id: MobFleshGolemExpeditions
-  noSpawn: true
   components:
   - type: Sprite
     layers:
@@ -109,7 +106,6 @@
 - type: entity
   parent: MobFleshGolemExpeditions
   id: MobFleshGolemAltExpeditions
-  noSpawn: true
   components:
   - type: Sprite
     layers:
@@ -127,7 +123,6 @@
 - type: entity
   parent: MobFleshGolemExpeditions
   id: MobFleshGolemOldExpeditions
-  noSpawn: true
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -149,7 +144,6 @@
   - BaseMobFleshExpeditions
   - MobHumanoidHostileAISimpleRanged
   id: MobFleshClampExpeditions
-  noSpawn: true
   components:
   - type: Sprite
     layers:
@@ -186,7 +180,6 @@
 - type: entity
   parent: MobFleshClampExpeditions
   id: MobFleshClampOldExpeditions
-  noSpawn: true
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -214,7 +207,6 @@
 - type: entity
   parent: BaseMobFleshExpeditions
   id: MobFleshLoverExpeditions
-  noSpawn: true
   components:
   - type: Sprite
     layers:
@@ -242,7 +234,6 @@
   id: MobHorrorExpeditions
   name: aberrant flesh horror
   description: Not so shambling mass of flesh with menacing bone spikes protruding from its unnaturally elongated fingers.
-  noSpawn: true
   components:
   - type: Sprite
     layers:
@@ -281,7 +272,6 @@
   id: MobMawExpeditions
   name: aberrant flesh maw
   description: Don't put your fingers in it. Unless?..
-  noSpawn: true
   components:
   - type: DamageOtherOnHit
     damage:

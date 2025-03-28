@@ -3,7 +3,6 @@
   id: ActionToggleLightingAlien
   name: Toggle All Lighting
   description: Toggle all light rendering to better observe dark areas.
-  noSpawn: true
   components:
     - type: InstantAction
       icon: { sprite: Interface/Alien/screen_alien.rsi, state: nightvision0 }
@@ -16,7 +15,6 @@
   id: ActionVomit
   name: action-vomit-name
   description: action-vomit-desc
-  noSpawn: true
   components:
     - type: InstantAction
       icon: { sprite : Fluids/vomit.rsi, state: vomit-0 }
@@ -28,7 +26,6 @@
   id: ActionMakeAcid
   name: action-make-acid-name
   description: action-make-acid-desc
-  noSpawn: true
   components:
     - type: InstantAction
       icon: { sprite : Mobs/Aliens/Xenos/alien.rsi, state: acid }
@@ -40,7 +37,6 @@
   id: ActionAlienNode
   name: action-create-weednode-name
   description: action-create-weednode-desc
-  noSpawn: true
   components:
   - type: InstantAction
     priority: 2
@@ -52,7 +48,6 @@
   id: ActionCombatModeToggleAlien
   name: "[color=red]Combat Mode[/color]"
   description: Enter combat mode
-  noSpawn: true
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -68,7 +63,6 @@
   id: ActionAlienDroneWall
   name: action-create-resin-wall-name
   description: action-create-resin-wall-desc
-  noSpawn: true
   components:
     - type: InstantAction
       priority: 3
@@ -80,7 +74,6 @@
   id: ActionWindowResin
   name: action-create-resin-window-name
   description: action-create-resin-window-desc
-  noSpawn: true
   components:
     - type: InstantAction
       priority: 4
@@ -92,7 +85,6 @@
   id: ActionAlienNest
   name: action-create-alien-nest-name
   description: action-create-alien-nest-desc
-  noSpawn: true
   components:
   - type: InstantAction
     priority: 4
@@ -106,7 +98,6 @@
   id: ActionEvolveDrone
   name: action-evolve-alien-drone
   description: action-evolve-alien-drone-desc
-  noSpawn: true
   components:
   - type: InstantAction
     priority: 9
@@ -118,7 +109,6 @@
   id: ActionEvolveSentinel
   name: action-evolve-alien-sentinel
   description: action-evolve-alien-sentinel-desc
-  noSpawn: true
   components:
   - type: InstantAction
     priority: 11
@@ -130,7 +120,6 @@
   id: ActionEvolvePraetorian
   name: action-evolve-alien-praetorian
   description: action-evolve-alien-praetorian-desc
-  noSpawn: true
   components:
   - type: InstantAction
     priority: 10
@@ -142,7 +131,6 @@
   id: ActionEvolveHunter
   name: action-evolve-alien-hunter
   description: action-evolve-alien-hunter-desc
-  noSpawn: true
   components:
   - type: InstantAction
     priority: 10
@@ -154,7 +142,6 @@
   id: ActionEvolveQueen
   name: action-evolve-alien-queen
   description: action-evolve-alien-queen-desc
-  noSpawn: true
   components:
   - type: InstantAction
     priority: 10
@@ -166,7 +153,6 @@
   id: ActionLarvaGrow
   name: action-larva-grow
   description: action-larva-grow-desc
-  noSpawn: true
   components:
   - type: InstantAction
     priority: 10
@@ -180,7 +166,6 @@
   id: ActionStalkAlien
   name: action-stalk-alien-hunter
   description: action-stalk-alien-hunter-desc
-  noSpawn: true
   components:
   - type: InstantAction
     priority: 0
@@ -194,7 +179,6 @@
   id: ActionJumpAlien
   name: action-alien-jump
   description: action-alien-jump-desc
-  noSpawn: true
   components:
   - type: WorldTargetAction
     priority: 0
@@ -211,7 +195,6 @@
   id: ActionAlienEgg
   name: action-egg-alien
   description: action-egg-alien-desc
-  noSpawn: true
   components:
   - type: InstantAction
     priority: 0
@@ -223,7 +206,6 @@
   id: ActionAlienRoyalLarva
   name: action-promotion-alien
   description: action-promotion-alien-desc
-  noSpawn: true
   components:
   - type: EntityTargetAction
     priority: 0
@@ -236,11 +218,9 @@
   id: ActionTailLash
   name: action-tail-lash
   description: action-tail-lash-desc
-  noSpawn: true
   components:
   - type: InstantAction
     priority: 0
-    cooldown: 11
     icon: { sprite : Mobs/Aliens/Xenos/alien.rsi, state: tail_lash }
     event: !type:TailLashActionEvent
 
@@ -248,7 +228,6 @@
   id: ActionAlienTransferPlasma
   name: action-transfer-plasma-alien
   description: action-transfer-plasma-alien-desc
-  noSpawn: true
   components:
   - type: EntityTargetAction
     priority: 0

@@ -24,7 +24,6 @@
   - MobBloodCultistBase
   - MobHumanoidHostileAISimpleRanged
   id: MobBloodCultistPriest
-  noSpawn: true
   components:
   - type: Inventory
     templateId: human
@@ -56,7 +55,6 @@
   - MobBloodCultistBase
   - MobHumanoidHostileAISimpleRanged
   id: MobBloodCultistJanitor
-  noSpawn: true
   components:
   - type: Inventory
     templateId: human
@@ -89,7 +87,6 @@
   - MobBloodCultistBase
   - MobHumanoidHostileAISimpleMelee
   id: MobBloodCultistAcolyte
-  noSpawn: true
   components:
   - type: Loadout
     prototypes:
@@ -102,7 +99,6 @@
   - MobBloodCultistBase
   - MobHumanoidHostileAISimpleMelee
   id: MobBloodCultistZealotMelee
-  noSpawn: true
   components:
   - type: Loadout
     prototypes:
@@ -116,7 +112,6 @@
   - MobBloodCultistBase
   - MobHumanoidHostileAISimpleRanged
   id: MobBloodCultistZealotRanged
-  noSpawn: true
   components:
   - type: Loadout
     prototypes:
@@ -143,7 +138,6 @@
   - MobBloodCultistBase
   - MobHumanoidHostileAISimpleRanged
   id: MobBloodCultistCaster
-  noSpawn: true
   components:
   - type: Loadout
     prototypes:
@@ -165,7 +159,6 @@
 # Ascended Cultist, spawns 2 Drained Ones
 - type: entity
   name: Ascended Cultist # Megafauna
-  noSpawn: true
   parent:
   - MobNonHumanHostileBase
   - MobHumanoidHostileAISimpleRanged
@@ -176,7 +169,6 @@
     - BloodCultNF
   - type: CanMoveInAir
   - type: Reflect
-    enabled: true
     reflectProb: .3
     spread: 90
   - type: Sprite
@@ -242,7 +234,6 @@
 # Blood Leech, melee, fast, has moderate health regen
 - type: entity
   name: Blood Leech
-  noSpawn: true
   parent:
   - MobNonHumanHostileBase
   - MobPassiveRegen
@@ -288,7 +279,6 @@
 # Drained One, melee
 - type: entity
   name: Drained One
-  noSpawn: true
   parent:
   - MobNonHumanHostileBase
   - FlyingMobBase
@@ -346,7 +336,6 @@
 # Drained One (summonable by players), melee
 - type: entity
   name: Drained One
-  noSpawn: true
   parent: MobBloodCultDrainedOne
   id: MobBloodCultDrainedOneNanoTrasen
   components:

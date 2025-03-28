@@ -50,7 +50,6 @@
 - type: entity
   name: random pen
   id: SpawnDungeonLootBureaucracyPen
-  noSpawn: true
   parent: MarkerBasePlaceFree
   suffix: Dungeon
   components:
@@ -379,7 +378,6 @@
   id: SpawnDungeonMachineFrame
   parent: MarkerBase
   suffix: Dungeon
-  noSpawn: true
   components:
   - type: Sprite
     layers:

@@ -49,7 +49,6 @@
       state: facehugger
   - type: Item
     sprite: Mobs/Aliens/Xenos/alien.rsi
-    state: facehugger
     size: Small
   - type: StaticPrice
     price: 1000
@@ -88,10 +87,8 @@
   components:
     - type: Sprite
       sprite: Mobs/Aliens/Xenos/alien.rsi
-      state: facehugger_impregnated
     - type: Item
       sprite: Mobs/Aliens/Xenos/alien.rsi
-      state: facehugger_impregnated
       size: Small
     - type: StaticPrice
       price: 100
@@ -163,7 +160,6 @@
       state: facehugger
   - type: Item
     sprite: Mobs/Aliens/Xenos/alien.rsi
-    state: facehugger
     size: Small
   - type: StaticPrice
     price: 1000

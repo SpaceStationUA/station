@@ -86,7 +86,6 @@
         - Trash
         - VimPilot
         - Meat
-      wilhelmProbability: 0.001
     - type: CombatMode
       combatToggleAction: ActionCombatModeToggleAlien
     - type: MeleeWeapon
@@ -228,7 +227,6 @@
         NavSmash: !type:Bool
           true
     - type: Tool
-      speed: 1.5
       qualities:
         - Prying
     - type: Prying
@@ -412,7 +410,6 @@
   components:
     - type: AcidMaker
       action: ActionMakeAcid
-      productionLength: 0
       entityProduced: AlienAcid
     - type: ResinSpinner
     - type: PlasmaVessel

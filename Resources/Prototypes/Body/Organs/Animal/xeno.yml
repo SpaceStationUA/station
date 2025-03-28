@@ -2,7 +2,6 @@
   id: OrganXenoAcidGland
   parent: BaseAnimalOrgan
   name: acid-gland
-  noSpawn: true
   components:
     - type: Sprite
       sprite: Mobs/Species/Xeno/organs.rsi
@@ -13,7 +12,6 @@
   id: OrganXenoEggsac
   parent: BaseAnimalOrgan
   name: eggsac
-  noSpawn: true
   components:
     - type: Sprite
       sprite: Mobs/Species/Xeno/organs.rsi
@@ -24,7 +22,6 @@
   id: OrganXenoHivenode
   parent: BaseAnimalOrgan
   name: hivenode
-  noSpawn: true
   components:
     - type: Sprite
       sprite: Mobs/Species/Xeno/organs.rsi
@@ -35,7 +32,6 @@
   id: OrganXenoPlasmaVessel
   parent: BaseAnimalOrgan
   name: plasma-vessel
-  noSpawn: true
   components:
     - type: Sprite
       sprite: Mobs/Species/Xeno/organs.rsi

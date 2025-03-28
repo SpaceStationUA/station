@@ -2,7 +2,6 @@
   id: BulletPistolParticle
   parent: BaseBulletParticle
   name: BulletParticle
-  noSpawn: true
   components:
   - type: Projectile
     impactEffect: BulletImpactEffectOrangeDisabler
@@ -17,7 +16,6 @@
   id: BulletPistolParticlePlasma # Poison Burny bullets
   name: ionized plasma
   parent: BaseBulletPistolParticleSolution
-  noSpawn: true
   components:
   - type: Projectile
     impactEffect: BulletImpactEffectOrangeDisabler
@@ -39,7 +37,6 @@
   id: BulletPistolParticleTritium # Rad Burny bullets
   name: ionized tritium
   parent: BaseBulletPistolParticleSolution
-  noSpawn: true
   components:
   - type: Projectile
     impactEffect: BulletImpactEffectOrangeDisabler
@@ -61,7 +58,6 @@
   id: BulletPistolParticleFrezon # Cold bullets
   name: ionized frezon
   parent: BaseBulletPistolParticleSolution
-  noSpawn: true
   components:
   - type: Projectile
     impactEffect: BulletImpactEffectOrangeDisabler

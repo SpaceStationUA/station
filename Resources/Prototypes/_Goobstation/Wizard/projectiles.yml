@@ -506,14 +506,8 @@
   - type: Ammo
     muzzleFlash: null
   - type: SpawnEntitiesOnHit
-    spawnOnlyIfHitMob: false
     proto: MobAngryBeeWeak
     amount: 8
-    collideIgnoreEntities:
-    - MobBee
-    - MobAngryBee
-    - MobSyndieAngryBee
-    - MobAngryBeeWeak
 
 - type: entity
   id: ProjectileXRayBolt

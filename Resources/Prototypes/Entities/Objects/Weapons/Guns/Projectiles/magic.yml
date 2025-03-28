@@ -261,7 +261,6 @@
   parent: ProjectilePolyboltBase
   name: миша
   description: Ні, я не хочу бути мишою!
-  noSpawn: true
   components:
   - type: PolymorphOnCollide
     polymorph: WizardMouse
@@ -274,7 +273,6 @@
   parent: ProjectilePolyboltBase
   name: клувне
   description: Ні, я не хочу бути клувне!
-  noSpawn: true
   components:
   - type: PolymorphOnCollide
     polymorph: ArtifactCluwne
@@ -287,7 +285,6 @@
   parent: ProjectilePolyboltBase
   name: хліб
   description: Ні, я не хочу бути хлібом!
-  noSpawn: true
   components:
   - type: PolymorphOnCollide
     polymorph: WizardBread
@@ -300,7 +297,6 @@
   parent: ProjectilePolyboltBase
   name: курка
   description: Ні, я не хочу бути куркою!
-  noSpawn: true
   components:
   - type: PolymorphOnCollide
     polymorph: WizardChicken
@@ -313,7 +309,6 @@
   parent: ProjectilePolyboltBase
   name: монке
   description: Ні, я не хочу бути куркою!
-  noSpawn: true
   components:
   - type: PolymorphOnCollide
     polymorph: WizardMonkey
@@ -326,7 +321,6 @@
   parent: ProjectilePolyboltBase
   name: козел
   description: Ні, я не хочу бути куркою!
-  noSpawn: true
   components:
   - type: PolymorphOnCollide
     polymorph: WizardGoat
@@ -339,7 +333,6 @@
   parent: ProjectilePolyboltBase
   name: корова
   description: Ні, я не хочу бути куркою!
-  noSpawn: true
   components:
   - type: PolymorphOnCollide
     polymorph: WizardCow
@@ -352,7 +345,6 @@
   parent: ProjectilePolyboltBase
   name: свиня
   description: Ні, я не хочу бути куркою!
-  noSpawn: true
   components:
   - type: PolymorphOnCollide
     polymorph: WizardPig
@@ -365,7 +357,6 @@
   parent: ProjectilePolyboltBase
   name: омак
   description: Ні, я не хочу бути куркою!
-  noSpawn: true
   components:
   - type: PolymorphOnCollide
     polymorph: WizardHamster
@@ -378,7 +369,6 @@
   parent: ProjectilePolyboltBase
   name: кіт
   description: Ні, я не хочу бути куркою!
-  noSpawn: true
   components:
   - type: PolymorphOnCollide
     polymorph: WizardCat
@@ -391,7 +381,6 @@
   name: ice burst
   description: Brrrrr.
   parent: BaseBullet
-  noSpawn: true
   components:
   - type: Projectile
     damage:
@@ -410,7 +399,6 @@
   id: ProjectileMagicTesla
   name: magic tesla ball
   description: 2 bajillion volts
-  noSpawn: true
   components:
   - type: TimedDespawn
     lifetime: 5
@@ -440,7 +428,6 @@
   name: spellsword bolt
   id: SpellswordBolt
   parent: BaseBullet
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi

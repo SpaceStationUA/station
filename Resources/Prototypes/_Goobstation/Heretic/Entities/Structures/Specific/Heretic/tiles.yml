@@ -157,7 +157,6 @@
   baseTurf: Plating
   isSubfloor: true
   deconstructTools: [ Prying ]
-  deconstructTimeMultiplier: 5
   footstepSounds:
     collection: FootstepPlating
   friction: 0.3
@@ -166,4 +165,3 @@
 - type: edgeSpreader
   id: Rust
   updatesPerSecond: 16
-  preventSpreadOnSpaced: false

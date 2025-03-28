@@ -4,7 +4,6 @@
   id: RogueSiliconGiftBox
   name: rogue unit's bundle
   abstract: true
-  noSpawn: true
   suffix: NPC Loot
   components:
   - type: Sprite
@@ -32,7 +31,6 @@
 - type: entity
   parent: RogueSiliconGiftBox
   id: ClothingBackpackRogueSiliconT1
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -57,7 +55,6 @@
 - type: entity
   parent: RogueSiliconGiftBox
   id: ClothingBackpackRogueSiliconT2
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -86,7 +83,6 @@
 - type: entity
   parent: RogueSiliconGiftBox
   id: ClothingBackpackRogueSiliconT3
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -114,7 +110,6 @@
 - type: entity
   parent: RogueSiliconGiftBox
   id: ClothingBackpackRogueSiliconT4
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:

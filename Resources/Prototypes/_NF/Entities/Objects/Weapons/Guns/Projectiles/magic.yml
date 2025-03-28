@@ -2,7 +2,6 @@
   parent: BaseBulletTrigger
   id: BulletFireBolt
   name: fire bolt
-  noSpawn: true
   components:
   - type: Projectile
     damage:
@@ -22,7 +21,6 @@
   parent: BaseBulletTrigger
   id: BulletMagicBolt
   name: magic bolt
-  noSpawn: true
   components:
   - type: Projectile
     damage:
@@ -41,7 +39,6 @@
   parent: BaseBulletTrigger
   id: BulletBloodCultDarkBolt
   name: blood bolt
-  noSpawn: true
   components:
   - type: Projectile
     damage:

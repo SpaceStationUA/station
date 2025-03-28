@@ -2,7 +2,6 @@
   id: BulletMagnumParticle
   parent: BaseBulletParticle
   name: BulletParticle
-  noSpawn: true
   components:
   - type: Projectile
     impactEffect: BulletImpactEffectOrangeDisabler
@@ -16,7 +15,6 @@
 - type: entity
   id: BulletMagnumParticlePlasma
   parent: BulletPistolParticlePlasma
-  noSpawn: true
   components:
   - type: Projectile
     impactEffect: BulletImpactEffectOrangeDisabler
@@ -32,7 +30,6 @@
 - type: entity
   id: BulletMagnumParticleTritium
   parent: BulletPistolParticleTritium
-  noSpawn: true
   components:
   - type: Projectile
     impactEffect: BulletImpactEffectOrangeDisabler
@@ -48,7 +45,6 @@
 - type: entity
   id: BulletMagnumParticleFrezon
   parent: BulletPistolParticleFrezon
-  noSpawn: true
   components:
   - type: Projectile
     impactEffect: BulletImpactEffectOrangeDisabler

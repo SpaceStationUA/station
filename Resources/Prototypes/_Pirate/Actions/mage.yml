@@ -2,7 +2,6 @@
   id: ActionMageShop
   name: Магазин
   description: Відкриває магазин здібностей.
-  noSpawn: true
   components:
   - type: InstantAction
     icon: Interface/Actions/shop.png
@@ -12,7 +11,6 @@
   id: ActionMageBlink
   name: Телепорт
   description: Телепортуйтеся в вибране місце.
-  noSpawn: true
   components:
   - type: WorldTargetAction
     useDelay: 10
@@ -33,7 +31,6 @@
   id: ActionMageDash
   name: Слабкий Телепорт
   description: Телепортуйтеся у місце що бачиш без перешкод
-  noSpawn: true
   components:
   - type: WorldTargetAction
     useDelay: 10
@@ -54,7 +51,6 @@
   id: MageAbilityKnock
   name: Стук
   description: Це заклинання відкриває сусідні двері.
-  noSpawn: true
   components:
   - type: InstantAction
     useDelay: 5
@@ -71,7 +67,6 @@
   id: MageAbilityFireball
   name: вогняна куля
   description: Випускає вибухову вогняну кулю в напрямку клацання.
-  noSpawn: true
   components:
   - type: WorldTargetAction
     useDelay: 30
@@ -93,7 +88,6 @@
   id: MageAbilityIcicle
   name: Бурулька
   description: бурулька.
-  noSpawn: true
   components:
   - type: WorldTargetAction
     useDelay: 20
@@ -115,7 +109,6 @@
   id: MageAbilityEmp
   name: EM Спалах
   description: Вимкніть будь-які сусідні технології за допомогою електромагнітного імпульсу.
-  noSpawn: true
   components:
   - type: InstantAction
     useDelay: 15
@@ -132,7 +125,6 @@
   id: MageAbilityLightning
   name: Блискавка
   description: Сила Тесли!
-  noSpawn: true
   components:
   - type: InstantAction
     useDelay: 30
@@ -152,7 +144,6 @@
   id: MageAbilityBlind
   name: Blind
   description: Temporarily blinds a target.
-  noSpawn: true
   components:
   - type: EntityTargetAction
     useDelay: 30
@@ -175,7 +166,6 @@
   id: MageAbilitySmoke
   name: Smoke
   description: This spell creates a thick smoke screen around the caster
-  noSpawn: true
   components:
   - type: InstantAction
     useDelay: 45
@@ -191,7 +181,6 @@
   id: MageAbilitySwap
   name: Swap
   description: Swap positions with a target
-  noSpawn: true
   components:
   - type: EntityTargetAction
     useDelay: 30
@@ -215,7 +204,6 @@
   id: MageAbilityMindSwap
   name: Swap
   description: Swap positions with a target
-  noSpawn: true
   components:
   - type: EntityTargetAction
     useDelay: 30
@@ -239,7 +227,6 @@
   id: MageAbilityHeal
   name: Heal
   description: Heals whoever you target. Target yourself to self-heal
-  noSpawn: true
   components:
   - type: EntityTargetAction
     useDelay: 30
@@ -263,7 +250,6 @@
   id: MageAbilityAnimateDead
   name: Animate Dead
   description: This spell forces the skeleton out of all nearby corpses to assist you
-  noSpawn: true
   components:
   - type: InstantAction
     useDelay: 45
@@ -279,7 +265,6 @@
   id: MageMagicMissile
   name: Magic Missile
   description: Fires an orb that stuns on hit towards the clicked location.
-  noSpawn: true
   components:
   - type: WorldTargetAction
     useDelay: 10
@@ -301,7 +286,6 @@
   id: MageIceBurst
   name: Magic Missile
   description: Fires an orb that stuns on hit towards the clicked location.
-  noSpawn: true
   components:
   - type: WorldTargetAction
     useDelay: 10
@@ -323,7 +307,6 @@
   id: MagicTeslaBall
   name: Tesla Ball
   description: Fires a mini tesla ball towards the clicked location
-  noSpawn: true
   components:
   - type: WorldTargetAction
     useDelay: 25

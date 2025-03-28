@@ -467,7 +467,6 @@
     blacklist:
     - SpellbookFullRandom
     - SpellbookSemiRandom
-  disableRefund: true
 
 - type: listing
   id: SpellbookThrownLightning
@@ -732,7 +731,6 @@
   conditions:
   - !type:ListingLimitedStockCondition
     stock: 1
-  disableRefund: true
 
 #- type: listing
 #  id: SpellbookContractApprenticeship
@@ -791,7 +789,6 @@
   - !type:BuyBeforeCondition
     blacklist:
     - SpellbookSemiRandom
-  disableRefund: true
 
 - type: listing
   id: SpellbookSemiRandom
@@ -817,7 +814,6 @@
   - !type:BuyBeforeCondition
     blacklist:
     - SpellbookFullRandom
-  disableRefund: true
 
 # Bundles
 - type: listing
@@ -835,9 +831,6 @@
   - !type:BuyBeforeCondition
     whitelist:
     - SpellbookMimeMalaise
-  disableRefund: true
-  blockRefundListings:
-  - SpellbookMimeMalaise
 
 - type: listing
   id: SpellClownBundle
@@ -856,10 +849,6 @@
     whitelist:
     - SpellbookBananaTouch
     - SpellbookCluwneCurse
-  disableRefund: true
-  blockRefundListings:
-  - SpellbookBananaTouch
-  - SpellbookCluwneCurse
 
 - type: listing
   id: SpellOblivionEnforcerBundle
@@ -873,9 +862,6 @@
   conditions:
   - !type:ListingRelativeLimitedStockCondition
     relativeListing: SpellbookSmHalberd
-  disableRefund: true
-  blockRefundListings:
-  - SpellbookSmHalberd
 
 - type: listing
   id: SpellTiderBundle
@@ -892,6 +878,3 @@
   - !type:BuyBeforeCondition
     whitelist:
     - SpellbookHomingToolbox
-  disableRefund: true
-  blockRefundListings:
-  - SpellbookHomingToolbox

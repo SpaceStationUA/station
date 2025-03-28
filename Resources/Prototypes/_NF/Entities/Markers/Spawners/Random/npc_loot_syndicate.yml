@@ -5,7 +5,6 @@
   name: syndicate naval operative bundle
   description: Loot boxes? Here?
   abstract: true
-  noSpawn: true
   suffix: NPC Loot
   components:
   - type: Sprite
@@ -29,7 +28,6 @@
   name: syndicate naval operative bundle
   description: Loot boxes? Here?
   abstract: true
-  noSpawn: true
   suffix: NPC Loot
   components:
   - type: Sprite
@@ -69,7 +67,6 @@
 - type: entity
   parent: SyndieMessengerGiftBox
   id: ClothingBackpackSyndicateCaptainLootA
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -83,7 +80,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateCaptainLootB
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -97,7 +93,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateCaptainLootC
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -109,7 +104,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateCaptainLootD
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -121,7 +115,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateSecondOfficerLootA
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -134,7 +127,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateSecondOfficerLootB
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -147,7 +139,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateSecondOfficerLootC
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -159,7 +150,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateCaptainLootA
   id: ClothingBackpackSyndicateSecondOfficerLootD
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -172,7 +162,6 @@
 - type: entity
   parent: SyndieMessengerGiftBox
   id: ClothingBackpackSyndicateCommanderLootA
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -187,7 +176,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateCommanderLootA
   id: ClothingBackpackSyndicateCommanderLootB
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -202,7 +190,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateCommanderLootA
   id: ClothingBackpackSyndicateCommanderLootC
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -216,7 +203,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateCommanderLootA
   id: ClothingBackpackSyndicateCommanderLootD
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -228,7 +214,6 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateOperativeLootA
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -242,7 +227,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateOperativeLootA
   id: ClothingBackpackSyndicateOperativeLootB
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -255,7 +239,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateOperativeLootA
   id: ClothingBackpackSyndicateOperativeLootC
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -269,7 +252,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateOperativeLootA
   id: ClothingBackpackSyndicateOperativeLootD
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -282,7 +264,6 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateDeckhandLootA
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -296,7 +277,6 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateDeckhandLootB
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -309,7 +289,6 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateDeckhandLootC
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -322,7 +301,6 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateDeckhandLootD
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -334,28 +312,23 @@
 - type: entity
   parent: ClothingBackpackSyndicateDeckhandLootA
   id: ClothingBackpackSyndicateSaboteurLootA
-  noSpawn: true
 
 - type: entity
   parent: ClothingBackpackSyndicateDeckhandLootB
   id: ClothingBackpackSyndicateSaboteurLootB
-  noSpawn: true
 
 - type: entity
   parent: ClothingBackpackSyndicateDeckhandLootC
   id: ClothingBackpackSyndicateSaboteurLootC
-  noSpawn: true
 
 - type: entity
   parent: ClothingBackpackSyndicateDeckhandLootD
   id: ClothingBackpackSyndicateSaboteurLootD
-  noSpawn: true
 
 ## Medic
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateMedicLootA
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/syndicate.rsi
@@ -374,7 +347,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateMedicLootA
   id: ClothingBackpackSyndicateMedicLootB
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -389,7 +361,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateMedicLootA
   id: ClothingBackpackSyndicateMedicLootC
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -403,7 +374,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateMedicLootA
   id: ClothingBackpackSyndicateMedicLootD
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -417,7 +387,6 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateEngineerLootA
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/syndicate.rsi
@@ -435,7 +404,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateEngineerLootA
   id: ClothingBackpackSyndicateEngineerLootB
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -448,7 +416,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateEngineerLootA
   id: ClothingBackpackSyndicateEngineerLootC
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -460,7 +427,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateEngineerLootA
   id: ClothingBackpackSyndicateEngineerLootD
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -472,7 +438,6 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateChemwarriorLootA
-  noSpawn: true
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/waterbackpack.rsi
@@ -489,7 +454,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateChemwarriorLootA
   id: ClothingBackpackSyndicateChemwarriorLootB
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -502,7 +466,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateChemwarriorLootA
   id: ClothingBackpackSyndicateChemwarriorLootC
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -514,7 +477,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateChemwarriorLootA
   id: ClothingBackpackSyndicateChemwarriorLootD
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -527,7 +489,6 @@
 - type: entity
   parent: SyndieDuffelGiftBox
   id: ClothingBackpackSyndicateGrenadierLootA
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -540,7 +501,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateGrenadierLootA
   id: ClothingBackpackSyndicateGrenadierLootB
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -553,7 +513,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateGrenadierLootA
   id: ClothingBackpackSyndicateGrenadierLootC
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -566,7 +525,6 @@
 - type: entity
   parent: ClothingBackpackSyndicateGrenadierLootA
   id: ClothingBackpackSyndicateGrenadierLootD
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:

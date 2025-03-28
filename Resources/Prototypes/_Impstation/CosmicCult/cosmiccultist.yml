@@ -4,9 +4,6 @@
   antagonist: true
   setPreference: true
   objective: roles-antag-cosmiccult-description
-  playTimeTracker: AntagCosmicCultist
   requirements:
   - !type:CharacterOverallTimeRequirement
-    time: 43200 # 12h
-  guides: [ CosmicCult ]
-
+    min: 43200 # 12h

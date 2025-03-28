@@ -4,7 +4,6 @@
   id: ExplorerDuffelGiftBox
   name: explorer's bundle
   abstract: true
-  noSpawn: true
   suffix: NPC Loot
   components:
   - type: Sprite
@@ -16,7 +15,6 @@
 - type: entity
   parent: ExplorerDuffelGiftBox
   id: ClothingBackpackExplorerMeleeT1
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -45,7 +43,6 @@
 - type: entity
   parent: ExplorerDuffelGiftBox
   id: ClothingBackpackExplorerRangedT1
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -76,7 +73,6 @@
 - type: entity
   parent: ExplorerDuffelGiftBox
   id: ClothingBackpackExplorerMeleeT2
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -108,7 +104,6 @@
 - type: entity
   parent: ExplorerDuffelGiftBox
   id: ClothingBackpackExplorerRangedT2
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -142,7 +137,6 @@
 - type: entity
   parent: ExplorerDuffelGiftBox
   id: ClothingBackpackExplorerMeleeT3
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -174,7 +168,6 @@
 - type: entity
   parent: ExplorerDuffelGiftBox
   id: ClothingBackpackExplorerRangedT3
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:
@@ -209,7 +202,6 @@
 - type: entity
   parent: ExplorerDuffelGiftBox
   id: ClothingBackpackExplorerBoss
-  noSpawn: true
   components:
   - type: SpawnItemsOnUse
     items:

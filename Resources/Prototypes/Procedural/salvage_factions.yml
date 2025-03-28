@@ -144,7 +144,6 @@
   entries:
     - proto: SpawnMobRogueScapT1
       cost: 1
-      maxAmount: 3
     - proto: SpawnMobRogueDronesT1
       cost: 1
       prob: 1.00
@@ -196,28 +195,13 @@
   id: Cultists
   entries:
     - proto: SpawnMobBloodCultLeech
-      amount: 2
-      maxAmount: 3
     - proto: SpawnMobBloodCultistZealotRanged
-      amount: 1
     - proto: SpawnMobBloodCultistZealotMelee
-      amount: 1
-      maxAmount: 3
-      prob: 0.5
     - proto: SpawnMobBloodCultistCaster
-      amount: 1
-      maxAmount: 2
-      prob: 0.25
     - proto: BloodCultTurret
-      amount: 1
     - proto: SpawnMobBloodCultistAcolyte
-      amount: 1
-      prob: 0.25
     - proto: SpawnMobBloodCultistPriest
-      amount: 1
-      prob: 0.1
     - proto: SpawnMobBloodCultistJanitor
-      amount: 1
   configs:
     DefenseStructure: BloodCollector
     Mining: Cultists
@@ -230,35 +214,19 @@
 #   groups:
 #   - entries:
 #     - id: SpawnMobAberrantFleshExpeditions
-#       amount: 1
-#       maxAmount: 3
 #     - id: SpawnMobAberrantFleshExpeditions
-#       amount: 1
-#       maxAmount: 3
 #     prob: 0.5
 #   - entries:
 #     - id: SpawnMobAberrantFleshExpeditions
-#       amount: 1
-#       maxAmount: 3
 #     - id: SpawnMobAberrantFleshExpeditions
-#       amount: 1
-#       maxAmount: 3
 #     prob: 0.25
 #   - entries:
 #     - id: SpawnMobAberrantFleshExpeditions
-#       amount: 1
-#       maxAmount: 3
 #     - id: SpawnMobAberrantFleshExpeditions
-#       amount: 1
-#       maxAmount: 3
 #     prob: 0.25
 #   - entries:
 #     - id: SpawnMobAberrantFleshExpeditions
-#       amount: 2
-#       maxAmount: 4
 #     - id: SpawnMobAberrantFleshExpeditions
-#       amount: 2
-#       maxAmount: 4
 #     prob: 0.1
 #   configs:
 #     DefenseStructure: FleshBlocker
@@ -271,37 +239,24 @@
 #   groups:
 #   - entries:
 #     - id: SpawnMobArgocyteTiny
-#       amount: 3
-#       maxAmount: 5
 #   - entries:
 #     - id: SpawnMobArgocyteSmall
-#       amount: 1
-#       maxAmount: 2
 #     prob: 0.5
 #   - entries:
 #     - id: SpawnMobArgocyteSmall
-#       amount: 1
-#       maxAmount: 2
 #     - id: SpawnMobArgocyteSmall
-#       amount: 1
-#       maxAmount: 2
 #     prob: 0.25
 #   - entries:
 #     - id: MobArgocyteGliderExpeditions
-#       amount: 3
 #     prob: 0.25
 #   - entries:
 #       - id: SpawnMobArgocyteMedium
-#         amount: 2
 #     prob: 0.25
 #   - entries:
 #     - id: SpawnMobArgocyteBig
-#       amount: 1
 #     prob: 0.1
 #   - entries:
 #     - id: MobArgocyteCrawlerExpeditions
-#       amount: 3
-#       maxAmount: 4
 #     prob: 0.001
 #   configs:
 #     DefenseStructure: ArgocyteEgg
@@ -314,33 +269,22 @@
 #   groups:
 #   - entries:
 #     - id: SpawnMobDinosaurSmall
-#       amount: 1
-#       maxAmount: 2
 #     - id: SpawnMobDinosaurSmall
-#       amount: 1
-#       maxAmount: 2
 #     prob: 0.25
 #   - entries:
 #     - id: MobDinosaurDiloExpeditions
-#       amount: 3
 #     prob: 0.25
 #   - entries:
 #       - id: SpawnMobDinosaurMedium
-#         amount: 2
 #     prob: 0.25
 #   - entries:
 #     - id: SpawnMobDinosaurBig
-#       amount: 1
 #     prob: 0.1
 #   - entries:
 #     - id: MobDinosaurDiloExpeditions
-#       amount: 5
-#       maxAmount: 6
 #     prob: 0.001
 #   - entries:
 #     - id: MobDinosaurRaptorExpeditions
-#       amount: 3
-#       maxAmount: 4
 #     prob: 0.001
 #   configs:
 #     DefenseStructure: DinosaurEgg
@@ -353,39 +297,26 @@
 #   groups:
 #   - entries:
 #     - id: SpawnMobMercenaryT1
-#       amount: 1
-#       maxAmount: 2
 #   - entries:
 #     - id: SpawnMobMercenaryT1
-#       amount: 2
-#       maxAmount: 4
 #     prob: 0.75
 #   - entries:
 #     - id: SpawnMobMercenaryT2
-#       amount: 1
-#       maxAmount: 2
 #     prob: 0.5
 #   - entries:
 #     - id: SpawnMobMercenaryT2
-#       amount: 2
-#       maxAmount: 3
 #     prob: 0.25
 #   - entries:
 #     - id: SpawnMobMercenaryT1
-#       amount: 1
 #     prob: 0.3
 #   - entries:
 #     - id: SpawnMobMercenaryT2
-#       amount: 1
 #     prob: 0.25
 #   - entries:
 #     - id: SpawnMobMercenaryT3
-#       amount: 1
 #     prob: 0.1
 #   - entries:
 #     - id: MobMercenarySoldierMosin
-#       amount: 2
-#       maxAmount: 4
 #     prob: 0.05
 #   configs:
 #     DefenseStructure: CybersunDataMiner
@@ -398,43 +329,29 @@
 #   groups:
 #   - entries:
 #     - id: SpawnMobExplorerT1
-#       amount: 1
-#       maxAmount: 2
 #   - entries:
 #     - id: SpawnMobExplorerT1
-#       amount: 2
-#       maxAmount: 4
 #     prob: 0.75
 #   - entries:
 #     - id: SpawnMobExplorerT2
-#       amount: 1
-#       maxAmount: 2
 #     prob: 0.5
 #   - entries:
 #     - id: SpawnMobExplorerT2
-#       amount: 2
-#       maxAmount: 3
 #     prob: 0.25
 #   - entries:
 #     - id: SpawnMobExplorerT1
-#       amount: 1
 #     prob: 0.3
 #   - entries:
 #     - id: SpawnMobExplorerT2
-#       amount: 1
 #     prob: 0.25
 #   - entries:
 #     - id: SpawnMobExplorerT3
-#       amount: 1
 #     prob: 0.1
 #   - entries:
 #     - id: MobExplorerHauler
-#       amount: 1
 #     prob: 0.1
 #   - entries:
 #     - id: MobExplorerMeleeT1
-#       amount: 2
-#       maxAmount: 4
 #     prob: 0.05
 #   configs:
 #     DefenseStructure: ExplorersLootRadar
@@ -447,58 +364,37 @@
 #   groups:
 #   - entries:
 #     - id: SpawnMobRogueScapT1
-#       amount: 2
-#       maxAmount: 3
 #     - id: SpawnMobRogueDronesT1
-#       amount: 1
 #     prob: 1.00
 #   - entries:
 #     - id: SpawnMobRogueScapT1
-#       amount: 2
-#       maxAmount: 4
 #     - id: SpawnMobRogueDronesT1
-#       amount: 1
-#       maxAmount: 2
 #     prob: 0.75
 #   - entries:
 #     - id: SpawnMobRogueSiliconsT2
-#       amount: 1
-#       maxAmount: 2
 #     - id: SpawnMobRogueDronesT1
-#       amount: 1
 #     prob: 0.5
 #   - entries:
 #     - id: SpawnMobRogueSiliconsT2
-#       amount: 2
-#       maxAmount: 3
 #     prob: 0.5
 #   - entries:
 #     - id: SpawnMobRogueSiliconsT2
-#       amount: 3
-#       maxAmount: 4
 #     - id: SpawnMobRogueSiliconsT3
-#       amount: 1
 #     prob: 0.25
 #   - entries:
 #     - id: MobRogueSiliconScrapFlayer
-#       amount: 1
 #     prob: 0.3
 #   - entries:
 #     - id: SpawnMobRogueSiliconsT2
-#       amount: 1
 #     prob: 0.25
 #   - entries:
 #     - id: SpawnMobRogueSiliconsT3
-#       amount: 1
 #     prob: 0.1
 #   - entries:
 #     - id: SpawnMobRogueSiliconsT3
-#       amount: 2
 #     prob: 0.01
 #   - entries:
 #     - id: MobRogueSiliconScrapFlayer
-#       amount: 3
-#       maxAmount: 5
 #     prob: 0.05
 #   configs:
 #     DefenseStructure: RogueAiNode

@@ -53,7 +53,6 @@
   name: pirate uplink
   description: A coconut with an antenna?
   suffix: Empty
-  noSpawn: true
   components:
   - type: Sprite
     sprite: _NF/Objects/Devices/pirate_uplink.rsi
@@ -73,7 +72,6 @@
   - type: ActivatableUI
     key: enum.StoreUiKey.Key
   - type: Store
-    preset: StorePresetPirateUplink
     balance:
       Doubloon: 0
   - type: Tag
@@ -86,7 +84,6 @@
   suffix: Pirate, DEBUG
   components:
   - type: Store
-    preset: StorePresetPirateUplink
     balance:
       Doubloon: 99999
 
@@ -96,7 +93,6 @@
   suffix: P. Captain 20
   components:
   - type: Store
-    preset: StorePresetPirateUplink
     balance:
       Doubloon: 20
 
@@ -106,6 +102,5 @@
   suffix: Crew 15
   components:
   - type: Store
-    preset: StorePresetPirateUplink
     balance:
       Doubloon: 15

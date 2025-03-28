@@ -1,7 +1,6 @@
 - type: entity
   name: syndicate naval agent
   abstract: true
-  noSpawn: true
   parent:
   - MobHumanoidHostileBase
   - MobHumanoidInvetory
@@ -31,7 +30,6 @@
   name: syndicate captain
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalCaptainA
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -55,7 +53,6 @@
 - type: entity
   parent: MobSyndicateNavalCaptainA
   id: MobSyndicateNavalCaptainB
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -68,7 +65,6 @@
 - type: entity
   parent: MobSyndicateNavalCaptainA
   id: MobSyndicateNavalCaptainC
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -81,7 +77,6 @@
 - type: entity
   parent: MobSyndicateNavalCaptainA
   id: MobSyndicateNavalCaptainD
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -96,7 +91,6 @@
   name: syndicate engineer
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalEngineerA
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -120,7 +114,6 @@
 - type: entity
   parent: MobSyndicateNavalEngineerA
   id: MobSyndicateNavalEngineerB
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -133,7 +126,6 @@
 - type: entity
   parent: MobSyndicateNavalEngineerB
   id: MobSyndicateNavalEngineerC
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -142,7 +134,6 @@
 - type: entity
   parent: MobSyndicateNavalEngineerB
   id: MobSyndicateNavalEngineerD
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -158,7 +149,6 @@
   name: syndicate medic
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalMedicA
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -179,7 +169,6 @@
 - type: entity
   parent: MobSyndicateNavalMedicA
   id: MobSyndicateNavalMedicB
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -188,7 +177,6 @@
 - type: entity
   parent: MobSyndicateNavalMedicA
   id: MobSyndicateNavalMedicC
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -197,7 +185,6 @@
 - type: entity
   parent: MobSyndicateNavalMedicA
   id: MobSyndicateNavalMedicD
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -208,7 +195,6 @@
   name: syndicate second officer
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalSecondOfficerA
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -233,7 +219,6 @@
 - type: entity
   parent: MobSyndicateNavalSecondOfficerA
   id: MobSyndicateNavalSecondOfficerB
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -242,7 +227,6 @@
 - type: entity
   parent: MobSyndicateNavalSecondOfficerA
   id: MobSyndicateNavalSecondOfficerC
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -251,7 +235,6 @@
 - type: entity
   parent: MobSyndicateNavalSecondOfficerA
   id: MobSyndicateNavalSecondOfficerD
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -265,7 +248,6 @@
   name: syndicate operative
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalOperatorA
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -293,7 +275,6 @@
 - type: entity
   parent: MobSyndicateNavalOperatorA
   id: MobSyndicateNavalOperatorB
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -302,7 +283,6 @@
 - type: entity
   parent: MobSyndicateNavalOperatorA
   id: MobSyndicateNavalOperatorC
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -311,7 +291,6 @@
 - type: entity
   parent: MobSyndicateNavalOperatorA
   id: MobSyndicateNavalOperatorD
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -322,7 +301,6 @@
   name: syndicate grenadier
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalGrenadierA
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -346,7 +324,6 @@
 - type: entity
   parent: MobSyndicateNavalGrenadierA
   id: MobSyndicateNavalGrenadierB
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -359,7 +336,6 @@
 - type: entity
   parent: MobSyndicateNavalGrenadierA
   id: MobSyndicateNavalGrenadierC
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -372,7 +348,6 @@
 - type: entity
   parent: MobSyndicateNavalGrenadierA
   id: MobSyndicateNavalGrenadierD
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -387,7 +362,6 @@
   name: syndicate saboteur
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalSaboteurA
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -407,7 +381,6 @@
 - type: entity
   parent: MobSyndicateNavalSaboteurA
   id: MobSyndicateNavalSaboteurB
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -416,7 +389,6 @@
 - type: entity
   parent: MobSyndicateNavalSaboteurA
   id: MobSyndicateNavalSaboteurC
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -425,7 +397,6 @@
 - type: entity
   parent: MobSyndicateNavalSaboteurA
   id: MobSyndicateNavalSaboteurD
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -438,7 +409,6 @@
   - MobHumanoidHostileBase
   - MobHumanoidHostileAISimpleMelee
   id: MobExperimentationVictim
-  noSpawn: true
   components:
     - type: NameIdentifier
       group: GenericNumber
@@ -459,7 +429,6 @@
   name: syndicate commander # Mega Fauna for Dungeons
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalCommanderA
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -488,7 +457,6 @@
 - type: entity
   parent: MobSyndicateNavalCommanderA
   id: MobSyndicateNavalCommanderB
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -508,7 +476,6 @@
 - type: entity
   parent: MobSyndicateNavalCommanderB
   id: MobSyndicateNavalCommanderC
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -517,7 +484,6 @@
 - type: entity
   parent: MobSyndicateNavalCommanderB
   id: MobSyndicateNavalCommanderD
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -528,7 +494,6 @@
   name: syndicate deckhand
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalDeckhandA
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -552,7 +517,6 @@
 - type: entity
   parent: MobSyndicateNavalDeckhandA
   id: MobSyndicateNavalDeckhandB
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -561,7 +525,6 @@
 - type: entity
   parent: MobSyndicateNavalDeckhandA
   id: MobSyndicateNavalDeckhandC
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -570,7 +533,6 @@
 - type: entity
   parent: MobSyndicateNavalDeckhandA
   id: MobSyndicateNavalDeckhandD
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -583,7 +545,6 @@
   - MobSyndicateNavalBase
   - MobHumanoidHostileAISimpleMelee
   id: MobSyndicateNavalMime
-  noSpawn: true
   components:
     - type: Loadout
       prototypes:
@@ -600,7 +561,6 @@
   name: syndicate chemwarrior
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalChemwarriorA
-  noSpawn: true
   components:
   - type: Loadout
     prototypes:
@@ -620,7 +580,6 @@
 - type: entity
   parent: MobSyndicateNavalChemwarriorA
   id: MobSyndicateNavalChemwarriorB
-  noSpawn: true
   components:
   - type: Loadout
     prototypes:
@@ -629,7 +588,6 @@
 - type: entity
   parent: MobSyndicateNavalChemwarriorA
   id: MobSyndicateNavalChemwarriorC
-  noSpawn: true
   components:
   - type: Loadout
     prototypes:
@@ -638,7 +596,6 @@
 - type: entity
   parent: MobSyndicateNavalChemwarriorA
   id: MobSyndicateNavalChemwarriorD
-  noSpawn: true
   components:
   - type: Loadout
     prototypes:
