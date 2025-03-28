@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AccessConfigurator
-  name: access configurator
-  description: Used to modify the access level requirements for airlocks and other lockable devices.
+  name: "конфігуратор доступу"
+  description: "Використовується для зміни вимог до рівня доступу для шлюзів та інших пристроїв, що замикаються."
   components:
     - type: EmitSoundOnLand
       sound:

@@ -1,6 +1,6 @@
 # Base
 - type: entity
-  name: mercenary
+  name: "найманець"
   abstract: true
   parent:
   - MobNonHumanHostileBase
@@ -49,7 +49,7 @@
 # Variations
 ## Tier 1
 - type: entity
-  name: mercenary soldier
+  name: "солдат-найманець"
   parent:
   - MobMercenaryBase
   - MobHumanoidHostileAISimpleMelee
@@ -80,7 +80,7 @@
       shader: unshaded
 
 - type: entity
-  name: mercenary soldier
+  name: "солдат-найманець"
   parent: MobMercenaryBase
   id: MobMercenarySoldierPistol
   components:
@@ -120,7 +120,7 @@
     soundGunshot: /Audio/Weapons/Guns/Gunshots/pistol.ogg
 
 - type: entity
-  name: mercenary soldier
+  name: "солдат-найманець"
   parent: MobMercenaryBase
   id: MobMercenarySoldierMosin
   components:
@@ -163,7 +163,7 @@
 
 ## Tier 2
 - type: entity
-  name: mercenary breacher
+  name: "проривач-найманець"
   parent:
   - MobMercenaryBase
   - MobHumanoidHostileAISimpleMelee
@@ -196,7 +196,7 @@
       shader: unshaded
 
 - type: entity
-  name: mercenary breacher
+  name: "проривач-найманець"
   parent: MobMercenaryBase
   id: MobMercenarySoldierRevolver
   components:
@@ -240,7 +240,7 @@
     soundGunshot: /Audio/Weapons/Guns/Gunshots/pistol.ogg
 
 - type: entity
-  name: mercenary breacher
+  name: "проривач-найманець"
   parent: MobMercenaryBase
   id: MobMercenaryBreacherShotgun
   components:
@@ -287,7 +287,7 @@
 
 ## Tier 3
 - type: entity
-  name: mercenary specialist
+  name: "спеціаліст-найманець"
   parent: MobMercenaryBase
   id: MobMercenarySpecialistMedic
   components:
@@ -335,7 +335,7 @@
 
 ## Tier 4 - Boss
 - type: entity
-  name: mercenary captain
+  name: "капітан найманців"
   parent: MobMercenaryBase
   id: MobMercenaryCaptain
   components:
