@@ -266,6 +266,9 @@ namespace Content.Client.Lobby.UI
 
             #region Contractors
 
+            Background.Orphan();
+            CTabContainer.AddTab(Background, Loc.GetString("humanoid-profile-editor-background-tab"));
+
             RefreshNationalities();
             RefreshEmployers();
             RefreshLifepaths();
@@ -676,6 +679,9 @@ namespace Content.Client.Lobby.UI
             // If our nationality isn't available, reset it to default
             if (Profile != null && !nationalityIds.Contains(Profile.Nationality))
                 SetNationality(SharedHumanoidAppearanceSystem.DefaultNationality);
+
+            if(Profile != null)
+                UpdateNationalityDescription(Profile.Nationality);
         }
 
         public void RefreshEmployers()
@@ -707,6 +713,9 @@ namespace Content.Client.Lobby.UI
             // If our employer isn't available, reset it to default
             if (Profile != null && !employerIds.Contains(Profile.Employer))
                 SetEmployer(SharedHumanoidAppearanceSystem.DefaultEmployer);
+
+            if(Profile != null)
+                UpdateEmployerDescription(Profile.Employer);
         }
 
         public void RefreshLifepaths()
@@ -738,6 +747,27 @@ namespace Content.Client.Lobby.UI
             // If our lifepath isn't available, reset it to default
             if (Profile != null && !lifepathIds.Contains(Profile.Lifepath))
                 SetLifepath(SharedHumanoidAppearanceSystem.DefaultLifepath);
+
+            if(Profile != null)
+                UpdateLifepathDescription(Profile.Lifepath);
+        }
+
+        private void UpdateNationalityDescription(string nationality)
+        {
+            var prototype = _prototypeManager.Index<NationalityPrototype>(nationality);
+            NationalityDescriptionLabel.SetMessage(Loc.GetString(prototype.DescriptionKey));
+        }
+
+        private void UpdateLifepathDescription(string lifepath)
+        {
+            var prototype = _prototypeManager.Index<LifepathPrototype>(lifepath);
+            LifepathDescriptionLabel.SetMessage(Loc.GetString(prototype.DescriptionKey));
+        }
+
+        private void UpdateEmployerDescription(string employer)
+        {
+            var prototype = _prototypeManager.Index<EmployerPrototype>(employer);
+            EmployerDescriptionLabel.SetMessage(Loc.GetString(prototype.DescriptionKey));
         }
 
         public void RefreshAntags()
@@ -1458,6 +1488,7 @@ namespace Content.Client.Lobby.UI
             IsDirty = true;
             ReloadProfilePreview();
             ReloadClothes(); // Nationalities may have specific gear, reload the clothes
+            UpdateNationalityDescription(newNationality);
         }
 
         private void SetEmployer(string newEmployer)
@@ -1467,6 +1498,7 @@ namespace Content.Client.Lobby.UI
             IsDirty = true;
             ReloadProfilePreview();
             ReloadClothes(); // Employers may have specific gear, reload the clothes
+            UpdateEmployerDescription(newEmployer);
         }
 
         private void SetLifepath(string newLifepath)
@@ -1476,6 +1508,7 @@ namespace Content.Client.Lobby.UI
             IsDirty = true;
             ReloadProfilePreview();
             ReloadClothes(); // Lifepaths may have specific gear, reload the clothes
+            UpdateLifepathDescription(newLifepath);
         }
 
         private void SetName(string newName)
