@@ -20,7 +20,6 @@ using Content.Shared.Whitelist;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Robust.Shared.Map;
-using Content.Shared.Vehicle.Components;
 using Content.Shared.Verbs;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Events;
@@ -157,21 +156,13 @@ public abstract partial class SharedBuckleSystem
 
     private void OnBuckleThrowPushbackAttempt(EntityUid uid, BuckleComponent component, ThrowPushbackAttemptEvent args)
     {
-        if (component.BuckledTo != null) //Pirate hoverbikes
-        {
-            var buckle = component.BuckledTo;
-            if (TryComp<VehicleComponent>(buckle, out _))
-                return;
-        }
-
         if (component.Buckled)
             args.Cancel();
     }
 
     private void OnBuckleUpdateCanMove(EntityUid uid, BuckleComponent component, UpdateCanMoveEvent args)
     {
-        if (component.Buckled && // buckle shitcode
-            !HasComp<VehicleComponent>(component.BuckledTo))
+        if (component.Buckled)
             args.Cancel();
     }
 

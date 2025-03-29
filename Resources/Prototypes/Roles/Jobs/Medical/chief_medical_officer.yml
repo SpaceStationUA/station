@@ -22,6 +22,9 @@
       min: 43200 # DeltaV - 12 hours
     - !type:CharacterOverallTimeRequirement
       min: 90000 # 25 hours
+    - !type:CharacterEmployerRequirement # Added from master-upstream
+      employers:
+      - NanoTrasen
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"

@@ -3136,13 +3136,6 @@
       - PseudoItem
     # unbuckleDistanceSquared: 0.09 # Frontier: (30 cm)^2 - seems unnecessary, but for consistency with vehicles
   - type: Vehicle
-    southOver: true
-    westOver: true
-    eastOver: true
-    northOver: true
-    northOverride: 0.0
-    southOverride: 0.0
-    autoAnimate: false
   - type: ItemSlots
     slots:
       key_slot:
@@ -3715,13 +3708,6 @@
       - PseudoItem
     # unbuckleDistanceSquared: 0.09 # Frontier: (30 cm)^2 - seems unnecessary, but for consistency with vehicles
   - type: Vehicle
-    southOver: true
-    westOver: true
-    eastOver: true
-    northOver: true
-    northOverride: 0.0
-    southOverride: 0.0
-    autoAnimate: false
   - type: ItemSlots
     slots:
       key_slot:

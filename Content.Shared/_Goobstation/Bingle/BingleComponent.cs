@@ -1,7 +1,5 @@
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
-using Content.Shared.Damage;
-using Robust.Shared.Network;
 
 namespace Content.Shared._Goobstation.Bingle;
 
@@ -12,6 +10,7 @@ public sealed partial class BingleComponent : Component
     public bool Upgraded = false;
     [DataField]
     public bool Prime = false;
+
     [DataField]
     public EntityUid? MyPit;
 }

@@ -10,6 +10,7 @@
   - !type:CharacterDepartmentTimeRequirement # DeltaV - Security dept time requirement
     department: Security
     min: 36000 # DeltaV - 10 hours
+  guides: [ NuclearOperatives ]
 
 - type: antag
   id: NukeopsMedic
@@ -23,7 +24,7 @@
   - !type:CharacterDepartmentTimeRequirement # DeltaV - Medical dept time requirement
     department: Medical
     min: 36000 # 10 hours
-
+  guides: [ NuclearOperatives ]
 - type: antag
   id: NukeopsCommander
   name: roles-antag-nuclear-operative-commander-name
@@ -40,6 +41,7 @@
     department: Command
     min: 36000 # DeltaV - 10 hours
   - !type:CharacterWhitelistRequirement
+  guides: [ NuclearOperatives ]
 
 #Lone Operative Gear
 - type: startingGear

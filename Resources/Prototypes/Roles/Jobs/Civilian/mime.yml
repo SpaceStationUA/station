@@ -3,10 +3,6 @@
   name: job-name-mime
   description: job-description-mime
   playTimeTracker: JobMime
-  requirements:
-    - !type:CharacterOverallTimeRequirement
-      min: 7200 # DeltaV - 2 hours
-    - !type:CharacterWhitelistRequirement # PIRATE - Whitelist requirement
   startingGear: MimeGear
   icon: "JobIconMime"
   supervisors: job-supervisors-hop
@@ -19,6 +15,14 @@
     components:
     - type: MimePowers
     - type: FrenchAccent
+  requirements:
+    - !type:CharacterOverallTimeRequirement
+      min: 7200 # DeltaV - 2 hours
+    - !type:CharacterWhitelistRequirement # PIRATE - Whitelist requirement
+    - !type:CharacterEmployerRequirement
+      inverted: true
+      employers:
+      - Unemployed
 
 - type: startingGear
   id: MimeGear

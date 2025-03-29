@@ -55,7 +55,7 @@
   name: all-at-once-title
   minPlayers: 20 #PIRATE
   description: all-at-once-description
-  showInVote: false # PIRATE
+  showInVote: false
   rules:
     - Nukeops
     - Traitor
@@ -86,10 +86,9 @@
   - greenshift
   - shittersafarideluxeedition
   name: greenshift-title
-  showInVote: true #4boring4vote
+  showInVote: true
   description: greenshift-description
   rules:
-  - BasicRoundstartVariation
   - LavalandStormScheduler # Lavaland Change
 
 - type: gamePreset
@@ -134,7 +133,7 @@
   name: sandbox-title
   description: sandbox-description
   showInVote: true  #PIRATE # Not suitable for use without admin intervention, since entity spamming can quickly crash a server
-  maxPlayers: 7 #PIRATE
+  maxPlayers: 5
   rules:
     - Sandbox
     - LavalandStormScheduler # Lavaland Change
@@ -153,20 +152,6 @@
     - BasicStationEventScheduler
     - BasicRoundstartVariation
     - LavalandStormScheduler # Lavaland Change
-
-- type: gamePreset
-  id: Changeling
-  alias:
-    - changeling
-  name: changeling-title
-  description: changeling-description
-  minPlayers: 15 #PIRATE
-  showInVote: false
-  rules:
-    - Changeling
-    - SubGamemodesRule
-    - BasicStationEventScheduler
-    - BasicRoundstartVariation
 
 - type: gamePreset
   id: Heretic
@@ -190,7 +175,7 @@
   name: death-match-title
   description: death-match-description
   maxPlayers: 10
-  showInVote: false #PIRATE # DeltaV - No.
+  showInVote: false # DeltaV - No.
   supportedMaps: DeathMatchMapPool
   rules:
     - DeathMatch31
@@ -201,7 +186,7 @@
     - nukeops
   name: nukeops-title
   description: nukeops-description
-  showInVote: false #PIRATE
+  showInVote: false
   minPlayers: 20 #PIRATE
   rules:
     - Nukeops
@@ -218,7 +203,7 @@
     - revolutionaries
   name: rev-title
   description: rev-description
-  showInVote: false #PIRATE
+  showInVote: false
   minPlayers: 18 #PIRATE
   rules:
     - Revolutionary
@@ -237,10 +222,27 @@
   - zomber
   name: zombie-title
   description: zombie-description
-  showInVote: false #PIRATE
+  showInVote: false
   minPlayers: 16 #PIRATE
   rules:
   - Zombie
+  - BasicStationEventScheduler
+  - BasicRoundstartVariation
+  - LavalandStormScheduler # Lavaland Change
+
+- type: gamePreset
+  id: Changeling
+  alias:
+  - Changeling
+  - Changelings
+  - Ling
+  - Lings
+  name: changeling-gamemode-title
+  description: changeling-gamemode-description
+  showInVote: false
+  rules:
+  - Changeling
+  - SubGamemodesRule
   - BasicStationEventScheduler
   - BasicRoundstartVariation
   - LavalandStormScheduler # Lavaland Change

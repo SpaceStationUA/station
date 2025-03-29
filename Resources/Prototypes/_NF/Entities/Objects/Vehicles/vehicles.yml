@@ -11,7 +11,6 @@
     - state: hull
       map: [ "enum.DamageStateVisualLayers.Base" ]
     - state: engine
-      map: ["enum.VehicleVisualLayers.AutoAnimate"]
     - state: lights
       shader: unshaded
     noRot: true
@@ -100,7 +99,6 @@
     - state: hull
       map: [ "enum.DamageStateVisualLayers.Base" ]
     - state: engine
-      map: ["enum.VehicleVisualLayers.AutoAnimate"]
     - state: lights
       shader: unshaded
     noRot: true
@@ -165,7 +163,6 @@
     - state: hull
       color: "#8fd3ff"
     - state: engine
-      map: ["enum.VehicleVisualLayers.AutoAnimate"]
     - state: mailtrim
     - state: lights
       shader: unshaded
@@ -211,11 +208,6 @@
   description: An NFSD issued turbine with bike handles. Very safe.
   components:
   - type: Vehicle
-    northOver: true
-    westOver: true
-    eastOver: true
-    northOverride: -0.1
-    southOverride: 0.1
     hornSound:
       path: /Audio/Effects/Vehicle/policesiren.ogg
   - type: MovementSpeedModifier # Very petty on my end
@@ -229,7 +221,6 @@
     - state: hull
       color: "#49633d"
     - state: engine
-      map: ["enum.VehicleVisualLayers.AutoAnimate"]
     - state: nfsdstar
     - state: lights
       shader: unshaded
@@ -315,7 +306,6 @@
     - state: hull
       color: "#3d2712"
     - state: engine
-      map: ["enum.VehicleVisualLayers.AutoAnimate"]
     - state: pirate
     - state: lights
       shader: unshaded
@@ -392,7 +382,6 @@
     - state: hull
       color: "#b51e0e"
     - state: engine
-      map: ["enum.VehicleVisualLayers.AutoAnimate"]
     - state: syndicatebags
     - state: syndicatelights
       shader: unshaded

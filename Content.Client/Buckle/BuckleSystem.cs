@@ -2,7 +2,6 @@ using Content.Client.Rotation;
 using Content.Shared.Buckle;
 using Content.Shared.Buckle.Components;
 using Content.Shared.Rotation;
-using Content.Shared.Vehicle.Components; //Pirate hoverbikes
 using Robust.Client.GameObjects;
 using Robust.Shared.GameStates;
 

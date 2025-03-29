@@ -2,6 +2,7 @@ using System.Linq;
 using Content.Shared.Hands.Components;
 using Content.Shared.Interaction.Components;
 using Content.Shared.Silicons.Borgs.Components;
+using Content.Shared.Whitelist;
 using Content.Server.Silicons.Borgs.Components;
 using Robust.Shared.Containers;
 using Content.Shared._NF.Silicons.Borgs;
@@ -63,6 +64,10 @@ public sealed partial class BorgSystem
 
         if (_actions.AddAction(chassis, ref component.ModuleSwapActionEntity, out var action, component.ModuleSwapActionId, uid))
         {
+            if(TryComp<BorgModuleIconComponent>(uid, out var moduleIconComp))
+            {
+                action.Icon = moduleIconComp.Icon;
+            };
             action.EntityIcon = uid;
             Dirty(component.ModuleSwapActionEntity.Value, action);
         }
@@ -297,9 +302,8 @@ public sealed partial class BorgSystem
                 if (!TryComp<ItemBorgModuleComponent>(containedModuleUid, out var containedItemModuleComp))
                     continue;
 
-                // if (containedItemModuleComp.Items.Count == itemModuleComp.Items.Count && // Frontier: no item check
-                //     containedItemModuleComp.Items.All(itemModuleComp.Items.Contains)) // Frontier
-                if (containedItemModuleComp.ModuleId == itemModuleComp.ModuleId) // Frontier: ID comparison
+                if (containedItemModuleComp.Items.Count == itemModuleComp.Items.Count &&
+                    containedItemModuleComp.Items.All(itemModuleComp.Items.Contains))
                 {
                     if (user != null)
                         Popup.PopupEntity(Loc.GetString("borg-module-duplicate"), uid, user.Value);
@@ -323,8 +327,8 @@ public sealed partial class BorgSystem
         Entity<BorgModuleComponent> module,
         EntityUid? user = null)
     {
-        // if (module.Comp.DefaultModule)
-            // return false;
+        if (module.Comp.DefaultModule)
+            return false;
 
         return true;
     }

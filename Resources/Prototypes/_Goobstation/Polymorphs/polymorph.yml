@@ -1,14 +1,14 @@
 - type: polymorph
-  id: Bananamen
+  id: Cat
   configuration:
-    entity: MobBananaMen
+    entity: MobCat
     forced: true
     transferName: true
-    transferHumanoidAppearance: false
-    revertOnDeath: false
-    revertOnCrit: false
-    polymorphSound: /Audio/Items/bikehorn.ogg
-    inventory: Transfer
+    transferHumanoidAppearance: true
+    inventory: None
+    revertOnDeath: true
+    revertOnCrit: true
+    duration: 20
 
 - type: polymorph
   id: BinglePolymorph
@@ -20,3 +20,15 @@
     inventory: Drop
     revertOnDeath: false
     revertOnCrit: false
+#PIRATE
+- type: polymorph
+  id: Bananamen
+  configuration:
+    entity: MobBananaMen
+    forced: true
+    transferName: true
+    transferHumanoidAppearance: false
+    revertOnDeath: false
+    revertOnCrit: false
+    polymorphSound: /Audio/Items/bikehorn.ogg
+    inventory: Transfer

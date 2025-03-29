@@ -23,6 +23,9 @@
       min: 14400 #Pirate 4 hours
     - !type:CharacterOverallTimeRequirement # DeltaV - Playtime requirement
       min: 72000 #Pirate 20 hours
+    - !type:CharacterEmployerRequirement
+      employers:
+      - NanoTrasen
   weight: 10 # DeltaV - Changed HoP weight from 20 to 10 due to them not being more important than other Heads
   startingGear: HoPGear
   icon: "JobIconHeadOfPersonnel"

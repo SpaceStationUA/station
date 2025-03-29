@@ -12,9 +12,6 @@
     rules: ghost-role-information-freeagent-rules
     raffle:
       settings: default
-    requirements:
-    - !type:CharacterOverallTimeRequirement
-      time: 3600 # 1 hour
   - type: Sprite
     drawdepth: Mobs
     sprite: _Goobstation/Mobs/Bingle/bingle.rsi
@@ -67,7 +64,7 @@
     overtime: 40
     sound: /Audio/Weapons/egloves.ogg
   - type: Damageable
-    damageContainer: OrganicPart
+    damageContainer: Biological
     damageModifierSet: Bingle
   - type: FootstepModifier
     footstepSoundCollection:
@@ -98,6 +95,8 @@
 
 - type: entity
   id: MobBinglePrime
+  name: binglest
+  description: The most bingle per bingle
   parent: MobBingle
   suffix: Prime
   components:
@@ -107,6 +106,8 @@
 - type: entity
   id: MobBingleUpgraded
   parent: MobBingle
+  name: bingler
+  description: More bingle per bingle
   suffix: Upgraded
   components:
   - type: Bingle
@@ -139,5 +140,5 @@
         Structural: 28
         Ion: 7
   - type: Damageable
-    damageContainer: OrganicPart
+    damageContainer: Biological
     damageModifierSet: BingleUpgraded

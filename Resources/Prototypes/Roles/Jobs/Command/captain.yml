@@ -31,6 +31,9 @@
     - !type:CharacterOverallTimeRequirement # DeltaV - Playtime requirement
       min: 72000 #Pirate 20 hours
     - !type:CharacterWhitelistRequirement
+    - !type:CharacterEmployerRequirement
+      employers:
+      - NanoTrasen
   weight: 20
   startingGear: CaptainGear
   icon: "JobIconCaptain"

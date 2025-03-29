@@ -3,11 +3,11 @@ using Content.Shared.Popups;
 using Content.Shared._Goobstation.Bingle;
 using Robust.Shared.Map;
 using System.Numerics;
+using Content.Shared.Overlays.Switchable;
 using Content.Server.Flash.Components;
 using Content.Server.Polymorph.Components;
 using Content.Server.Polymorph.Systems;
 using Content.Shared.CombatMode;
-using Content.Shared.Overlays.Switchable;
 using Robust.Server.GameObjects;
 
 namespace Content.Server._Goobstation.Bingle;

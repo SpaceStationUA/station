@@ -15,6 +15,10 @@
         - BrittleBoneDisease
     - !type:CharacterOverallTimeRequirement
       min: 14400 # DeltaV - 4 hours
+    - !type:CharacterEmployerRequirement
+      inverted: true
+      employers:
+      - Unemployed
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security

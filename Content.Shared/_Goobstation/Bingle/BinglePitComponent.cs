@@ -12,7 +12,9 @@ public sealed partial class BinglePitComponent : Component
     /// </summary>
     [DataField]
     public float BinglePoints = 0f;
+    [DataField]
     public float PointsForAlive = 5f;
+    [DataField]
     public float AdditionalPointsForHuman = 5f;
     /// <summary>
     /// amount of Bingle Points needed for a new bingle
@@ -35,12 +37,18 @@ public sealed partial class BinglePitComponent : Component
     [DataField]
     public float Level = 1f;
     /// <summary>
-    /// Where the entities go when it falls into the pit, empties when it is destroyed.
+    /// Maximum size of the Bingle pit at this level
     /// </summary>
-    public Container Pit = default!;
     [DataField]
     public float MaxSize = 3f;
-    public SoundSpecifier FallingSound = new SoundPathSpecifier("/Audio/Effects/falling.ogg");
-    public EntProtoId GhostRoleToSpawn = "SpawnPointGhostBingle";
 
+    /// <summary>
+    /// Where the entities go when they fall into the pit, empties when the pit is destroyed
+    /// </summary>
+    [DataField("pit")]
+    public Container? Pit = default!;
+    [DataField]
+    public SoundSpecifier FallingSound = new SoundPathSpecifier("/Audio/Effects/falling.ogg");
+    [DataField]
+    public EntProtoId GhostRoleToSpawn = "SpawnPointGhostBingle";
 }

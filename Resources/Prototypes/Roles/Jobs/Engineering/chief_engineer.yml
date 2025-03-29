@@ -20,6 +20,9 @@
       min: 90000 # DeltaV - 25 hours
     - !type:CharacterOverallTimeRequirement
       min: 108000 # 30 hours
+    - !type:CharacterEmployerRequirement # Added from master-upstream
+      employers:
+      - NanoTrasen
   weight: 10
   startingGear: ChiefEngineerGear
   icon: "JobIconChiefEngineer"

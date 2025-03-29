@@ -229,6 +229,9 @@ namespace Content.Server.Database
                 profile.Species,
                 profile.CustomSpecieName,
                 voice, // Pirate TTS
+                profile.Nationality,
+                profile.Employer,
+                profile.Lifepath,
                 profile.Height,
                 profile.Width,
                 profile.Age,
@@ -277,6 +280,9 @@ namespace Content.Server.Database
             profile.Species = humanoid.Species;
             profile.CustomSpecieName = humanoid.Customspeciename;
             profile.Voice = humanoid.Voice; // Pirate TTS
+            profile.Nationality = humanoid.Nationality;
+            profile.Employer = humanoid.Employer;
+            profile.Lifepath = humanoid.Lifepath;
             profile.Age = humanoid.Age;
             profile.Sex = humanoid.Sex.ToString();
             profile.Gender = humanoid.Gender.ToString();

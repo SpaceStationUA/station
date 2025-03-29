@@ -3,12 +3,6 @@
   name: job-name-lawyer
   description: job-description-lawyer
   playTimeTracker: JobLawyer
-  requirements:
-   - !type:CharacterOverallTimeRequirement
-     min: 18000 #Pirate 5 hrs
-   - !type:CharacterDepartmentTimeRequirement # DeltaV - Security dept time requirement
-     department: Security
-     min: 14400 # 4 hours
   startingGear: LawyerGear
   icon: "JobIconLawyer"
   supervisors: job-supervisors-mag
@@ -17,6 +11,16 @@
   - Justice # DeltaV - Justice dept
   - Lawyer
   - Maintenance
+  requirements:
+    - !type:CharacterOverallTimeRequirement
+      min: 18000 #Pirate 5 hrs
+    - !type:CharacterDepartmentTimeRequirement # DeltaV - Security dept time requirement
+      department: Security
+      min: 14400 # 4 hours
+    - !type:CharacterEmployerRequirement
+      inverted: true
+      employers:
+      - Unemployed
 
 - type: startingGear
   id: LawyerGear

@@ -7,8 +7,10 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Logistics # DeltaV - Logistics Department replacing Cargo
       min: 21600 #DeltaV 6 hrs
-  #  - !type:CharacterOverallTimeRequirement #DeltaV
-  #    time: 36000 #10 hrs
+    - !type:CharacterEmployerRequirement
+      inverted: true
+      employers:
+      - Unemployed
   icon: "JobIconShaftMiner"
   startingGear: SalvageSpecialistGear
   supervisors: job-supervisors-qm

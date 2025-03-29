@@ -2,6 +2,7 @@ using System.IO;
 using System.Linq;
 using Content.Shared.CCVar;
 using System.Numerics;
+using Content.Shared._EE.Contractors.Prototypes;
 using Content.Shared.Decals;
 using Content.Shared.Examine;
 using Content.Shared.Humanoid.Markings;
@@ -58,6 +59,15 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         {Sex.Unsexed, "Lada"},
     };
     //PIRATE END
+
+    [ValidatePrototypeId<EmployerPrototype>]
+    public const string DefaultEmployer = "NanoTrasen";
+
+    [ValidatePrototypeId<NationalityPrototype>]
+    public const string DefaultNationality = "Bieselite";
+
+    [ValidatePrototypeId<LifepathPrototype>]
+    public const string DefaultLifepath = "Spacer";
 
     public override void Initialize()
     {
