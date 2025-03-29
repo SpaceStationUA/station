@@ -1,8 +1,8 @@
 - type: entity
-  name: bingle
+  name: "бінгл"
   id: MobBingle
   parent: MobSpaceBasic
-  description: bingle
+  description: "бінгл"
   components:
   - type: Bingle
   - type: GhostTakeoverAvailable
@@ -95,8 +95,8 @@
 
 - type: entity
   id: MobBinglePrime
-  name: binglest
-  description: The most bingle per bingle
+  name: "бінглест"
+  description: "Найбільше бінглу на бінгл"
   parent: MobBingle
   suffix: Prime
   components:
@@ -106,8 +106,8 @@
 - type: entity
   id: MobBingleUpgraded
   parent: MobBingle
-  name: bingler
-  description: More bingle per bingle
+  name: "бінглер"
+  description: "Більше бінглу на бінгл"
   suffix: Upgraded
   components:
   - type: Bingle
