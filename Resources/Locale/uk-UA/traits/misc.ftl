@@ -4,3 +4,7 @@ examine-dermal-armor-message = {CAPITALIZE(POSS-ADJ($entity))} шкіра зда
 examine-bionic-arm-message = {CAPITALIZE(POSS-ADJ($entity))} кінцівки видають постійне слабке дзижчання сервомоторів.
 examine-thermal-vision-message = {CAPITALIZE(POSS-ADJ($entity))} очі періодично пульсують загрозливим червоним блиском.
 examine-bionic-leg-message = {CAPITALIZE(POSS-ADJ($entity))} ноги видають постійне слабке дзижчання сервомоторів.
+examine-featherweight-message = {CAPITALIZE(THE($entity))} виглядає помітно худим для представника свого виду.
+examine-bulky-message = {CAPITALIZE(THE($entity))} виглядає незвично великим для представника свого виду.
+examine-weakling-message = Тіло {CAPITALIZE(POSS-ADJ($entity))} помітно тендітне,
+examine-bodybuilder-message = Вражаюча кількість м'язів помітна на статурі {POSS-ADJ($entity)}.
