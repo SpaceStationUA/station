@@ -14,3 +14,18 @@
       min: 21
   items:
     - SangriaSwordSheathFilled
+
+- type: loadout
+  id: LoadoutCommandHoSSamuraiArmor
+  category: JobsSecurityHeadOfSecurity
+  cost: 0
+  canBeHeirloom: true
+  guideEntry: SecurityWeapons
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityOuter
+    - !type:CharacterJobRequirement
+      jobs:
+        - HeadOfSecurity
+  items:
+    - ClothingOuterArmorHosSamuraiPirate
