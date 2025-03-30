@@ -1,0 +1,18 @@
+- type: entity
+  parent: SeniorResearcherPDA
+  id: UpdatedSeniorResearcherPDA
+  name: "покращений кПК старшого науковця"
+  description: Looks like it's been through years of chemical burns and explosions.
+  components:
+  - type: PdaBorderColor
+    borderColor: "#4a4a4a"
+    accentHColor: "#8900c9"
+    accentVColor: "#8900c9"
+  - type: CartridgeLoader
+    preinstalled:
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - GlimmerMonitorCartridge
+      - NanoChatCartridge # DeltaV
+      - PsiWatchCartridge

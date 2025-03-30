@@ -1,0 +1,11 @@
+- type: loadout
+  id: LoadoutMysticPDA
+  category: JobsEpistemicsMystic
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - SeniorResearcher
+  items:
+    - UpdatedSeniorResearcherPDA
