@@ -1,0 +1,10 @@
+- type: loadout
+  id: LoadoutSecurityMaskGas
+  category: JobsSecurityAUncategorized
+  cost: 0
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityMask
+  items:
+    - ClothingMaskGasSecurity
