@@ -1,7 +1,7 @@
 - type: entity
   id: ProjectileFireball
-  name: "вогняна куля"
-  description: "Тобі краще зважитися."
+  name: fireball
+  description: You better GITTAH WEIGH.
   parent: BulletRocket
   categories: [ HideSpawnMenu ]
   components:
@@ -42,8 +42,8 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   id: ProjectileDragonsBreath
-  name: "дихання дракона"
-  description: "Намагайтеся не підсмажитися."
+  name: dragon's breath
+  description: Try not to get toasted.
   components:
   - type: PointLight
     color: "#E25822"
@@ -73,8 +73,8 @@
 
 - type: entity
   id: ProjectileAnomalyFireball
-  name: "вогняна куля"
-  description: "Згусток полум'я, що висить у повітрі."
+  name: fireball
+  description: Hovering blob of flame.
   parent: ProjectileFireball
   categories: [ HideSpawnMenu ]
   components:
@@ -118,8 +118,8 @@
 - type: entity
   id: ProjectilePolyboltCarp
   parent: ProjectilePolyboltBase
-  name: "короповий поліболт"
-  description: "Ні, я не хочу бути рибою!"
+  name: carp polybolt
+  description: Nooo, I don't wanna be fish!
   categories: [ HideSpawnMenu ]
   components:
   - type: PolymorphOnCollide
@@ -131,8 +131,8 @@
 - type: entity
   id: ProjectilePolyboltMonkey
   parent: ProjectilePolyboltBase
-  name: "мавпячий поліболт"
-  description: "Ні, я не хочу бути мавпою!"
+  name: monkey polybolt
+  description: Nooo, I don't wanna be monkey!
   categories: [ HideSpawnMenu ]
   components:
   - type: PolymorphOnCollide
@@ -144,8 +144,8 @@
 - type: entity
   id: ProjectilePolyboltDoor
   parent: ProjectilePolyboltBase
-  name: "дверний засув"
-  description: "Ні, я не хочу бути дверима!"
+  name: door polybolt
+  description: Nooo, I don't wanna be door!
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -164,8 +164,8 @@
 
 - type: entity
   id: ProjectileHealingBolt
-  name: "цілющий болт"
-  description: "Я НАКАЗУЮ ТОБІ ЖИТИ!"
+  name: healing bolt
+  description: I COMMAND YOU TO LIVE!
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -203,10 +203,10 @@
 
 - type: entity
   id: BulletInstakillMagic
-  name: "магічний свинцевий циліндр"
+  name: magical lead cylinder
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
-  description: "Виглядає знайомо."
+  description: This looks familiar.
   components:
   - type: Projectile
     damage:
@@ -217,8 +217,8 @@
 - type: entity
   id: ProjectilePolyboltCluwne
   parent: ProjectilePolyboltBase
-  name: "застібка-фіксатор"
-  description: "кноХ КноХ!"
+  name: cluwne polybolt
+  description: knoH KnoH!
   categories: [ HideSpawnMenu ]
   components:
   - type: PolymorphOnCollide
@@ -230,8 +230,8 @@
 - type: entity
   id: ProjectileIcicle
   parent: BaseBullet
-  name: "Бурулька"
-  description: "Бррррр."
+  name: Icicle
+  description: Brrrrr.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -246,8 +246,8 @@
 - type: entity
   parent: ProjectilePolyboltBase
   id: ProjectilePolyboltBread
-  name: "хлібний поліболт"
-  description: "Ні, я не хочу бути хлібом!"
+  name: bread polybolt
+  description: Nooo, I don't wanna be bread!
   categories: [ HideSpawnMenu ]
   components:
   - type: PolymorphOnCollide
@@ -259,8 +259,8 @@
 - type: entity
   id: ProjectilePolyboltMouseTimed
   parent: ProjectilePolyboltBase
-  name: "миша"
-  description: "Ні, я не хочу бути мишою!"
+  name: миша
+  description: Ні, я не хочу бути мишою!
   components:
   - type: PolymorphOnCollide
     polymorph: WizardMouse
@@ -271,8 +271,8 @@
 - type: entity
   id: ProjectilePolyboltCluwneTimed
   parent: ProjectilePolyboltBase
-  name: "клувня"
-  description: "Ні, я не хочу бути клувнею!"
+  name: клувне
+  description: Ні, я не хочу бути клувне!
   components:
   - type: PolymorphOnCollide
     polymorph: ArtifactCluwne
@@ -283,8 +283,8 @@
 - type: entity
   id: ProjectilePolyboltBreadTimed
   parent: ProjectilePolyboltBase
-  name: "хліб"
-  description: "Ні, я не хочу бути хлібом!"
+  name: хліб
+  description: Ні, я не хочу бути хлібом!
   components:
   - type: PolymorphOnCollide
     polymorph: WizardBread
@@ -295,8 +295,8 @@
 - type: entity
   id: ProjectilePolyboltChickenTimed
   parent: ProjectilePolyboltBase
-  name: "курка"
-  description: "Ні, я не хочу бути мавпою!"
+  name: курка
+  description: Ні, я не хочу бути куркою!
   components:
   - type: PolymorphOnCollide
     polymorph: WizardChicken
@@ -307,8 +307,8 @@
 - type: entity
   id: ProjectilePolyboltMonkeyTimed
   parent: ProjectilePolyboltBase
-  name: "монке"
-  description: "Ні, я не хочу бути мавпою!"
+  name: монке
+  description: Ні, я не хочу бути куркою!
   components:
   - type: PolymorphOnCollide
     polymorph: WizardMonkey
@@ -319,8 +319,8 @@
 - type: entity
   id: ProjectilePolyboltGoatTimed
   parent: ProjectilePolyboltBase
-  name: "коза"
-  description: "Ні, я не хочу бути мавпою!"
+  name: козел
+  description: Ні, я не хочу бути куркою!
   components:
   - type: PolymorphOnCollide
     polymorph: WizardGoat
@@ -331,8 +331,8 @@
 - type: entity
   id: ProjectilePolyboltCowTimed
   parent: ProjectilePolyboltBase
-  name: "корова"
-  description: "Ні, я не хочу бути мавпою!"
+  name: корова
+  description: Ні, я не хочу бути куркою!
   components:
   - type: PolymorphOnCollide
     polymorph: WizardCow
@@ -343,8 +343,8 @@
 - type: entity
   id: ProjectilePolyboltPigTimed
   parent: ProjectilePolyboltBase
-  name: "свиня"
-  description: "Ні, я не хочу бути мавпою!"
+  name: свиня
+  description: Ні, я не хочу бути куркою!
   components:
   - type: PolymorphOnCollide
     polymorph: WizardPig
@@ -355,8 +355,8 @@
 - type: entity
   id: ProjectilePolyboltHamsterTimed
   parent: ProjectilePolyboltBase
-  name: "омак"
-  description: "Ні, я не хочу бути мавпою!"
+  name: омак
+  description: Ні, я не хочу бути куркою!
   components:
   - type: PolymorphOnCollide
     polymorph: WizardHamster
@@ -367,8 +367,8 @@
 - type: entity
   id: ProjectilePolyboltWizardCatTimed
   parent: ProjectilePolyboltBase
-  name: "кіт"
-  description: "Ні, я не хочу бути мавпою!"
+  name: кіт
+  description: Ні, я не хочу бути куркою!
   components:
   - type: PolymorphOnCollide
     polymorph: WizardCat
@@ -378,8 +378,8 @@
 
 - type: entity
   id: ProjectileIceBurst
-  name: "лід проломився"
-  description: "Бррррр."
+  name: ice burst
+  description: Brrrrr.
   parent: BaseBullet
   components:
   - type: Projectile
@@ -397,8 +397,8 @@
 - type:  entity
   parent: BaseBullet
   id: ProjectileMagicTesla
-  name: "магічна куля тесла"
-  description: "2 баджільйони вольт"
+  name: magic tesla ball
+  description: 2 bajillion volts
   components:
   - type: TimedDespawn
     lifetime: 5
@@ -425,7 +425,7 @@
     requirePower: false
 
 - type: entity
-  name: "болт зачарованого меча"
+  name: spellsword bolt
   id: SpellswordBolt
   parent: BaseBullet
   components:
@@ -444,8 +444,8 @@
 
 - type: entity
   id: ProjectileLocker
-  name: "проклята шафка"
-  description: "Проклята магічна шафка! Зможеш встояти?"
+  name: cursed locker
+  description: A cursed magical locker! Can you resist?
   parent: ClosetSteelBase
   categories: [ HideSpawnMenu ]
   components:

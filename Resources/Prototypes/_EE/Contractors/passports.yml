@@ -1,9 +1,9 @@
 - type: entity
-  name: "паспорт"
+  name: passport
   parent: BaseItem
   id: BasePassport
   abstract: true
-  description: "Паспорт, що позначає національність та особу людини."
+  description: A passport denoting an individual's nationality and identity.
   components:
     - type: Passport
     - type: UseDelay
@@ -22,7 +22,7 @@
       sound: /Audio/SimpleStation14/Items/Handling/book_drop.ogg
 
 - type: entity
-  name: "паспорт Республіки Бізель"
+  name: Biesel Republic passport
   parent: BasePassport
   id: BieselPassport
   components:
@@ -51,7 +51,7 @@
           - Solarian
 
 - type: entity
-  name: "паспорт Альянсу Сол"
+  name: Sol Alliance passport
   parent: BasePassport
   id: SolPassport
   components:
@@ -80,7 +80,7 @@
           - Solarian
 
 - type: entity
-  name: "паспорт Республіки Еліра"
+  name: Republic of Elyra passport
   parent: BasePassport
   id: ElyranPassport
   components:
@@ -91,7 +91,7 @@
       - state: passport_species_human # Todo: make variable via a custom component
 
 - type: entity
-  name: "паспорт Валірії 4б"
+  name: Valyrian 4b passport
   parent: BasePassport
   id: ValyrianPassport
   components:
@@ -102,7 +102,7 @@
       - state: passport_species_human # Todo: make variable via a custom component
 
 - type: entity
-  name: "паспорт Нових Нідерландів"
+  name: New-Netherlands passport
   parent: BasePassport
   id: NederlandicPassport
   components:

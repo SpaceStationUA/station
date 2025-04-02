@@ -2,8 +2,8 @@
 - type: entity
   id: BigRedButton
   parent: SignalButton
-  name: "велика червона кнопка"
-  description: "Натисни... якщо наважишся."
+  name: big red button
+  description: Press it... if you dare.
   components:
   - type: Appearance
   - type: Lock
@@ -262,8 +262,8 @@
 - type: entity
   id: BigRedButtonEmergencyCommand
   parent: BigRedButton
-  name: "екстрена кнопка"
-  description: "Встановлює рівень тривоги станції на \"Червоний код\". Будьте обережні!"
+  name: emergency button
+  description: Sets the alert level of the station to Code Red. Be careful!
   components:
   - type: Sprite
     drawdepth: SmallObjects

@@ -1,6 +1,6 @@
 # Clutter
 - type: entity
-  name: "випадковий мотлох"
+  name: random clutter
   id: SpawnDungeonLootClutterScience
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Science"
@@ -35,7 +35,7 @@
 
 # Clothes
 - type: entity
-  name: "випадковий одяг"
+  name: random clothes
   id: SpawnDungeonLootClothesScience
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Science"
@@ -64,7 +64,7 @@
 
 # Furniture/Lockers
 - type: entity
-  name: "випадкові меблі"
+  name: random furniture
   id: SpawnDungeonFurnitureScience
   parent: MarkerBase
   suffix: "Dungeon, Science"
@@ -98,7 +98,7 @@
 
 # Other
 - type: entity
-  name: "випадковий диск"
+  name: random disk
   id: SpawnDungeonLootRnDDisk
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -126,7 +126,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: "випадкова плата машини"
+  name: random machine board
   id: SpawnDungeonLootCircuitBoardScience
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Sciense"

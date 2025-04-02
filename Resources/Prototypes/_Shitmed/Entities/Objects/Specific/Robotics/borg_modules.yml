@@ -1,7 +1,7 @@
 - type: entity
   id: BorgModuleSurgery
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: "хірургічний модуль \"кіборг"
+  name: surgery cyborg module
   components:
   - type: Sprite
     layers:
@@ -32,7 +32,7 @@
 - type: entity
   id: BorgModuleAdvancedSurgery
   parent: [ BaseBorgModuleMedical, BaseProviderBorgModule ]
-  name: "передовий хірургічний модуль-кіборг"
+  name: advanced surgery cyborg module
   components:
   - type: Sprite
     layers:

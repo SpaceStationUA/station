@@ -1,8 +1,8 @@
 - type: entity
-  name: "Енергетичний револьвер EG-4"
+  name: EG-4 energy revolver
   parent: BaseWeaponBatterySmall
   id: WeaponEnergyRevolver
-  description: "Високотехнологічний енергетичний револьвер, здатний стріляти як смертоносними, так і виводячими з ладу кулями."
+  description: A highly advanced energy revolver capable of firing both lethal and disabling bullets.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Battery/erevolver.rsi
@@ -66,20 +66,20 @@
     autoRechargePauseTime: 5
 
 - type: entity
-  name: "Енергетичний револьвер EG-4"
+  name: EG-4 energy revolver
   parent: WeaponEnergyRevolver
   id: WeaponEnergyRevolverSecurity
-  description: "Надсучасний енергетичний револьвер, здатний стріляти як смертельними, так і виводячими з ладу кулями. Серійний номер на рукоятці вказує на те, що цей револьвер належить співробітнику служби безпеки NT."
+  description: A highly advanced energy revolver capable of firing both lethal and disabling bullets. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   suffix: Security Loadouts
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 #PIRATE
 - type: entity
-  name: "Плазмова гвинтівка"
+  name: Plasma Rifle
   parent: BaseWeaponBattery
   id: WeaponPlasmaRifle
-  description: "Він може вибухнути, а може і не вибухнути у вас перед обличчям."
+  description: It may or may not explode in your face.
   components:
   - type: Sprite
     sprite: Goobstation/Objects/Weapons/Guns/Battery/plasma_rifle.rsi
