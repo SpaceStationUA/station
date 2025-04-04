@@ -13065,295 +13065,284 @@ Entries:
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2109
 - author: Timfa2112
   changes:
-    - type: Add
-      message: >-
-        Moved Nationality, Employer, and Lifepath to a new Background tab. They
-        now also show descriptions for the chosen selections.
+  - type: Add
+    message: >-
+      Перенесено Національність, Роботодавця та Життєвий шлях до нової вкладки "Біографія".
+      Тепер там також відображаються описи для вибраних опцій.
   id: 7062
   time: '2025-03-29T17:49:18.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2113
 - author: BramvanZijp
   changes:
-    - type: Tweak
-      message: >-
-        Tweaked IPC's damage resistances to no longer take double heat damage,
-        and slightly reduce their shock weakness.
+  - type: Tweak
+    message: >-
+      Змінено опірність IPC до пошкоджень, щоб вони більше не отримували подвійну шкоду від тепла,
+      та трохи зменшено їхню вразливість до шоку.
   id: 7063
   time: '2025-03-30T02:22:13.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2110
 - author: EctoplasmIsGood
   changes:
-    - type: Tweak
-      message: >-
-        Station AI gets a variant of Asimov that doesn't state they have to obey
-        themselves
+  - type: Tweak
+    message: >-
+      ШІ станції отримав варіант законів Азімова, який не вимагає від нього слухатися самого себе.
   id: 7064
   time: '2025-03-30T02:30:45.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2118
 - author: PsychoLogik
   changes:
-    - type: Tweak
-      message: Dogs and Foxes can now track scents (Cerberus included)
+  - type: Tweak
+    message: Собаки та лисиці тепер можуть відстежувати запахи (включно з Цербером).
   id: 7065
   time: '2025-03-30T21:02:34.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2116
 - author: Tirochora
   changes:
-    - type: Tweak
-      message: sunglasses with flash protection are more expensive in the loadouts
-    - type: Tweak
-      message: >-
-        sunglasses are either "default" or "shielded" rather than "cheap" or
-        "standard." the description has also been changed to reflect this
+  - type: Tweak
+    message: Сонцезахисні окуляри із захистом від спалахів стали дорожчими у спорядженні.
+  - type: Tweak
+    message: >-
+      Сонцезахисні окуляри тепер бувають "звичайні" або "захищені", а не "дешеві" чи "стандартні".
+      Опис також було змінено відповідно.
   id: 7066
   time: '2025-03-30T21:15:42.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2121
 - author: VMSolidus
   changes:
-    - type: Fix
-      message: Removed an unecessary recursion from atmos system.
+  - type: Fix
+    message: Видалено непотрібну рекурсію з атмосферної системи.
   id: 7067
   time: '2025-04-01T03:11:38.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2126
 - author: WarMechanic
   changes:
-    - type: Add
-      message: >-
-        Added a trait 'Restricted Gear' which unlocks loadout job restrictions
-        at a significant price.
+  - type: Add
+    message: >-
+      Додано рису 'Заборонене спорядження', яка знімає обмеження за професією для спорядження за значну ціну.
   id: 7068
   time: '2025-04-01T06:21:05.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1317
 - author: EctoplasmIsGood
   changes:
-    - type: Tweak
-      message: Give changelings a secret weight, so hopefully they actually pop up now
-    - type: Tweak
-      message: Added changelings and bloodcult to all at once
+  - type: Tweak
+    message: Додано приховану вагу для перевертнів, щоб, сподіваємось, вони тепер з'являлися.
+  - type: Tweak
+    message: Додано перевертнів та культ крові до всіх одночасно.
   id: 7069
   time: '2025-04-01T06:25:03.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2130
 - author: dootythefrooty
   changes:
-    - type: Add
-      message: >-
-        A new pet has been added to loadouts. Squackroaches are gremlin-bird
-        beasts that sing and talk to harpies!
+  - type: Add
+    message: >-
+      До спорядження додано нового улюбленця. Сквоктаргани - це гремліноподібні птахи-звірі, які співають та розмовляють з гарпіями!
   id: 7070
   time: '2025-04-01T06:27:55.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2125
 - author: GNUtopia
   changes:
-    - type: Fix
-      message: Fixed IPCs losing control of their brain when gibbed
-    - type: Fix
-      message: Fixed IPC brains being unable to be surgically inserted/removed
+  - type: Fix
+    message: Виправлено втрату контролю над мозком IPC при розчленуванні.
+  - type: Fix
+    message: Виправлено неможливість хірургічного встановлення/видалення мозку IPC.
   id: 7071
   time: '2025-04-01T06:28:50.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2123
 - author: EctoplasmIsGood
   changes:
-    - type: Add
-      message: Added the dualettas, two stylish pistols that can be dual wielded
-    - type: Add
-      message: >-
-        Added the anaconda, a robust syndicate handcannon that automatically
-        generates ammo
-    - type: Add
-      message: >-
-        Added the Pocket Dimension Plant, a normal looking potted plant that
-        actually has a pocket dimension linked to it
+  - type: Add
+    message: Додано дуалетти - два стильних пістолети, які можна тримати в обох руках.
+  - type: Add
+    message: >-
+      Додано анаконду - потужну ручну гармату Синдикату, яка автоматично генерує набої.
+  - type: Add
+    message: >-
+      Додано Кишеньковий Вимір-Рослину - звичайну на вигляд рослину в горщику, яка насправді пов'язана з кишеньковим виміром.
   id: 7072
   time: '2025-04-01T07:24:39.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2128
 - author: DEATHB4DEFEAT
   changes:
-    - type: Fix
-      message: Fixed many buttons being yellow instead of red
+  - type: Fix
+    message: Виправлено багато кнопок, які були жовтими замість червоних.
   id: 7073
   time: '2025-04-01T07:40:43.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2129
 - author: 12rabbits and Will-Oliver-Br
   changes:
-    - type: Add
-      message: Added a ready manifest display to the pre-round lobby.
+  - type: Add
+    message: Додано дисплей маніфесту готовності до лобі перед раундом.
   id: 7074
   time: '2025-04-01T07:42:42.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2058
 - author: Orion-416
   changes:
-    - type: Fix
-      message: Made RespiratorSystem check for BreathingImmunityComponent
+  - type: Fix
+    message: Система респіратора тепер перевіряє наявність компонента BreathingImmunityComponent.
   id: 7075
   time: '2025-04-01T08:19:43.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2111
 - author: ZetaNull
   changes:
-    - type: Add
-      message: Added custom Parallax to Anchor
-    - type: Fix
-      message: Fixed some bugs with Anchor. Also applies some map fixes
+  - type: Add
+    message: Додано власний Паралакс для карти Anchor.
+  - type: Fix
+    message: Виправлено деякі помилки на карті Anchor. Також застосовано деякі виправлення мапи.
   id: 7076
   time: '2025-04-01T13:53:50.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2131
 - author: VMSolidus
   changes:
-    - type: Add
-      message: >-
-        Added a 3% "Deflect" chance to all hardsuits. Each projectile fired at a
-        hardsuit has a small chance to be "harmlessly" deflected into something
-        else. Have fun if that something else is an unsuspecting clown.
-    - type: Tweak
-      message: >-
-        Comprehensively rebalanced the Juggernaut Suit around having a monstrous
-        45% projectile deflection chance. Go ahead. Shoot it with birdshot. You
-        won't be disappointed in the visuals. 
+  - type: Add
+    message: >-
+      Додано 3% шанс "Відбиття" для всіх скафандрів. Кожен снаряд, випущений у скафандр,
+      має невеликий шанс бути "нешкідливо" відбитим у щось інше.
+      Розважайтеся, якщо це щось інше - нічого не підозрюючий клоун.
+  - type: Tweak
+    message: >-
+      Повністю перебалансовано костюм Джаггернаута, надавши йому монструозний 45% шанс відбиття снарядів.
+      Вперед. Стріляйте в нього дробом. Ви не будете розчаровані візуальними ефектами.
   id: 7077
   time: '2025-04-01T15:21:02.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2114
 - author: 3PonPon3
   changes:
-    - type: Tweak
-      message: Increased the moth flight speed modifier from 1.09 to 1.2
+  - type: Tweak
+    message: Збільшено модифікатор швидкості польоту молі з 1.09 до 1.2.
   id: 7078
   time: '2025-04-02T18:19:25.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2140
 - author: 3PonPon3
   changes:
-    - type: Tweak
-      message: Reduced sign language cost from -2 to -1
-    - type: Tweak
-      message: Removed the limit on how many language traits you can take
-    - type: Fix
-      message: Made sure that you cannot take more than 1 accent trait
+  - type: Tweak
+    message: Зменшено вартість мови жестів з -2 до -1.
+  - type: Tweak
+    message: Видалено обмеження на кількість мовних рис, які можна взяти.
+  - type: Fix
+    message: Переконались, що ви не можете взяти більше однієї риси акценту.
   id: 7079
   time: '2025-04-02T19:46:42.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2142
 - author: Diggy
   changes:
-    - type: Fix
-      message: Corpsman glasses now have the medhud they should have always had.
+  - type: Fix
+    message: Окуляри санітара тепер мають медичний HUD, який вони завжди повинні були мати.
   id: 7080
   time: '2025-04-02T20:10:09.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2141
 - author: EctoplasmIsGood
   changes:
-    - type: Add
-      message: Engi borgs can now carry electronics, and medical borgs can carry organs
-    - type: Add
-      message: Salvage borgs now get a PKA module
-    - type: Tweak
-      message: >-
-        All mining drills have had their damage turned to piercing and have
-        received a moderate damage buff
-    - type: Tweak
-      message: >-
-        Exosuit drills now swing at the same speed as normal drills (why were
-        they worse???)
-    - type: Tweak
-      message: The RPD and RCD modules for borg have been merged into one
-    - type: Tweak
-      message: Salvage can now purchase drills from their vendor
-    - type: Tweak
-      message: Salvage borgs mining module no longer contains a shovel
+  - type: Add
+    message: Інженерні борги тепер можуть носити електроніку, а медичні борги - органи.
+  - type: Add
+    message: Борги-рятувальники тепер отримують модуль PKA.
+  - type: Tweak
+    message: >-
+      Усі шахтарські бури тепер завдають проникаючої шкоди та отримали помірне збільшення пошкоджень.
+  - type: Tweak
+    message: >-
+      Бури екзокостюмів тепер мають таку ж швидкість атаки, як і звичайні бури (чому вони були гіршими???).
+  - type: Tweak
+    message: Модулі RPD та RCD для боргів об'єднано в один.
+  - type: Tweak
+    message: Рятувальники тепер можуть купувати бури у свого постачальника.
+  - type: Tweak
+    message: Шахтарський модуль борга-рятувальника більше не містить лопати.
   id: 7081
   time: '2025-04-03T07:30:33.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2145
 - author: bruhmogus
   changes:
-    - type: Add
-      message: Ported Smuggler Satchels from Wizden
-    - type: Add
-      message: Ported watches (both normal and gold) from Wizden
+  - type: Add
+    message: Портовано контрабандистські сумки з Wizden.
+  - type: Add
+    message: Портовано годинники (звичайні та золоті) з Wizden.
   id: 7082
   time: '2025-04-03T10:38:56.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2088
 - author: mrs
   changes:
-    - type: Tweak
-      message: >-
-        Cyberiad: PA and SM SMES charge from the main grid instead of their
-        respective power sources directly.
-    - type: Tweak
-      message: 'Cyberiad: HV grid reinforced.'
-    - type: Fix
-      message: 'Cyberiad: Security substation finally connected to HV grid.'
+  - type: Tweak
+    message: >-
+      Cyberiad: СМЕС реактора та суперматерії тепер заряджаються від основної мережі
+      замість безпосередньо від своїх джерел живлення.
+  - type: Tweak
+    message: 'Cyberiad: Високовольтну мережу посилено.'
+  - type: Fix
+    message: 'Cyberiad: Підстанцію служби безпеки нарешті підключено до високовольтної мережі.'
   id: 7083
   time: '2025-04-03T18:04:35.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2146
 - author: GNUtopia
   changes:
-    - type: Add
-      message: Added advanced bloodloss chem Artiplates
-    - type: Add
-      message: Added stamina-restoring chem Cryanobalamin
-    - type: Add
-      message: Added stamina-restoring chem Lift Lovers Special
+  - type: Add
+    message: Додано покращений хімікат від крововтрати Artiplates.
+  - type: Add
+    message: Додано хімікат Cryanobalamin для відновлення витривалості.
+  - type: Add
+    message: Додано хімікат Lift Lovers Special для відновлення витривалості.
   id: 7084
   time: '2025-04-03T18:09:56.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2124
 - author: mrs
   changes:
-    - type: Add
-      message: Asterisk to map rotation.
-    - type: Add
-      message: >-
-        Asterisk: AI sat, holopads, AI turrets in the vault and satellite,
-        senior roles, and prosecutor office.
-    - type: Tweak
-      message: >-
-        Asterisk: Atmostech roles from 1 > 2. Prisoner roles from 2 > 3. Prison
-        guard role 0 > 2.
-    - type: Tweak
-      message: >-
-        Asterisk: Atmos filtering goes to ports instead of chambers. Burn mix
-        injector now has a mixer instead of a single port. Burn chamber
-        atmosphere is now a vacuum.
-    - type: Tweak
-      message: 'Asterisk: Replaced evil psionic pod with a regular cloning pod.'
-    - type: Remove
-      message: 'Asterisk: Privacy. The AI is always watching...'
+  - type: Add
+    message: Додано карту Asterisk до ротації.
+  - type: Add
+    message: >-
+      Asterisk: Додано супутник ШІ, голопади, турелі ШІ у сховищі та на супутнику,
+      старші ролі та офіс прокурора.
+  - type: Tweak
+    message: >-
+      Asterisk: Ролі Атмостехів збільшено з 1 до 2. Ролі в'язнів збільшено з 2 до 3.
+      Ролі тюремних охоронців збільшено з 0 до 2.
+  - type: Tweak
+    message: >-
+      Asterisk: Фільтрація атмосфери тепер іде до портів замість камер. Інжектор горючої суміші
+      тепер має змішувач замість одного порту. Атмосфера камери згоряння тепер - вакуум.
+  - type: Tweak
+    message: 'Asterisk: Замінено злу псіонічну капсулу на звичайну капсулу для клонування.'
+  - type: Remove
+    message: 'Asterisk: Приватність. ШІ завжди спостерігає...'
   id: 7085
   time: '2025-04-03T18:12:11.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2104
 - author: WazuraWasTaken
   changes:
-    - type: Tweak
-      message: >-
-        Sec Weapons for The Restricted Gear Trait now Cost a Base Line of 8
-        points
-    - type: Tweak
-      message: 'Weapons in General is More Expensive '
-    - type: Tweak
-      message: Insuls are Slightly More Expensive
-    - type: Tweak
-      message: Holofan cost 1 now
+  - type: Tweak
+    message: >-
+      Зброя СБ для риси "Заборонене спорядження" тепер коштує базово 8 очок.
+  - type: Tweak
+    message: 'Зброя загалом стала дорожчою.'
+  - type: Tweak
+    message: Ізоляційні рукавиці стали трохи дорожчими.
+  - type: Tweak
+    message: Голографічний вентилятор тепер коштує 1 очко.
   id: 7086
   time: '2025-04-03T18:18:11.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2143
 - author: rbertoche
   changes:
-    - type: Tweak
-      message: >-
-        Enhances roundstart antagonist selection making sure all slots are
-        allocated
-    - type: Fix
-      message: Prevents Thief or others antags from causing the round to fail to start
+  - type: Tweak
+    message: >-
+      Покращено вибір антагоністів на старті раунду, забезпечуючи розподіл усіх слотів.
+  - type: Fix
+    message: Запобігає ситуаціям, коли Крадій або інші антагоністи заважали старту раунду.
   id: 7087
   time: '2025-04-03T19:18:30.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/1339
 - author: Timfa2112
   changes:
-    - type: Tweak
-      message: >-
-        Restricted some corporate jackets and scrubs to that specific
-        corporation.
-    - type: Tweak
-      message: >-
-        Downstreams can now disable Contractors entirely or partially if they
-        prefer freeform-rp over gameplay facilitating RP
-    - type: Tweak
-      message: Station AI and Borg are no longer people and don't get passports.
+  - type: Tweak
+    message: >-
+      Обмежено доступ до деяких корпоративних піджаків та медичних костюмів лише для відповідної корпорації.
+  - type: Tweak
+    message: >-
+      Форки тепер можуть повністю або частково вимкнути Контракторів, якщо вони надають перевагу
+      вільному відіграшу ролі над геймплеєм, що сприяє РП.
+  - type: Tweak
+    message: >-
+      ШІ станції та Борги більше не вважаються людьми і не отримують паспорти.
   id: 7088
   time: '2025-04-04T00:42:57.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2134

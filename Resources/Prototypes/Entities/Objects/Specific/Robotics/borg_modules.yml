@@ -260,13 +260,6 @@
     layers:
     - state: cargo
     - state: icon-pka
-  - type: DroppableBorgModule
-    moduleId: PKA
-    items:
-    - id: WeaponProtoKineticAccelerator
-      whitelist:
-        components:
-        - PressureDamageChange
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: pka-module }
 

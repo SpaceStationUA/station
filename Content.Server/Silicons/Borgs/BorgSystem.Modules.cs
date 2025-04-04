@@ -366,13 +366,6 @@ public sealed partial class BorgSystem
             return false;
         }
 
-        // Frontier - event for DroppableBorgModule to use
-        var ev = new BorgCanInsertModuleEvent((uid, component), user);
-        RaiseLocalEvent(module, ref ev);
-        if (ev.Cancelled)
-            return false;
-        // End Frontier
-
         if (TryComp<ItemBorgModuleComponent>(module, out var itemModuleComp))
         {
             var droppableComparer = new DroppableBorgItemComparer(); // Frontier: cached comparer
