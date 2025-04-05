@@ -1,7 +1,7 @@
 - type: entity
   id: ActionHereticRustConstruction
-  name: "Формування Іржі"
-  description: "Перетворює іржаву підлогу на суцільну стіну з іржі. Створення стіни під мобом завдасть йому шкоди."
+  name: Rust Formation
+  description: Transforms a rusted floor into a full wall of rust. Creating a wall underneath a mob will harm it.
   categories: [ HideSpawnMenu ]
   components:
   - type: WorldTargetAction
@@ -20,8 +20,8 @@
 
 - type: entity
   id: ActionHereticAggressiveSpread
-  name: "Агресивне Поширення"
-  description: "Поширює іржу на найближчі поверхні."
+  name: Aggressive Spread
+  description: Spreads rust onto nearby surfaces.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -44,8 +44,8 @@
 
 - type: entity
   id: ActionHereticEntropicPlume
-  name: "Ентропійний Шлейф"
-  description: "Вивергає дезорієнтуючий шлейф, який змушує ворогів атакувати один одного, ненадовго засліплює та отруює їх. Також поширює іржу на шляху шлейфу."
+  name: Entropic Plume
+  description: Spews forth a disorienting plume that causes enemies to strike each other, briefly blinds them and poisons them. Also spreads rust in the path of the plume.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

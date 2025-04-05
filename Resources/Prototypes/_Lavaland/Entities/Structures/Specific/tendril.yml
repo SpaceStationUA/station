@@ -1,9 +1,9 @@
 - type: entity
   id: LavalandTendrilBase
   parent: BaseStructure
-  name: "вусик"
+  name: tendril
   abstract: true
-  description: "Величезна структура."
+  description: A huge structure.
   components:
   - type: Sprite
     noRot: true
@@ -46,8 +46,8 @@
 - type: entity
   id: LavalandTendrilGoliath
   parent: LavalandTendrilBase
-  name: "вусик"
-  description: "Величезна структура."
+  name: tendril
+  description: A huge structure.
   suffix: Goliath
   components:
   - type: Tendril
@@ -59,8 +59,8 @@
 - type: entity
   id: LavalandTendrilLegion
   parent: LavalandTendrilBase
-  name: "вусик"
-  description: "Величезна структура."
+  name: tendril
+  description: A huge structure.
   suffix: Legion
   components:
   # TODO: Add Legioners
@@ -70,8 +70,8 @@
 - type: entity
   id: LavalandTendrilLavaWatcher
   parent: LavalandTendrilBase
-  name: "вусик"
-  description: "Величезна структура."
+  name: tendril
+  description: A huge structure.
   suffix: Watcher
   components:
   - type: Tendril
@@ -83,8 +83,8 @@
 - type: entity
   id: LavalandTendrilIcewingWatcher
   parent: LavalandTendrilBase
-  name: "вусик"
-  description: "Величезна структура."
+  name: tendril
+  description: A huge structure.
   suffix: Ice Watcher
   components:
   - type: Tendril
@@ -96,8 +96,8 @@
 - type: entity
   id: LavalandTendrilMagmawingWatcher
   parent: LavalandTendrilBase
-  name: "вусик"
-  description: "Величезна структура."
+  name: tendril
+  description: A huge structure.
   suffix: Magma Watcher
   components:
   - type: Tendril
@@ -109,8 +109,8 @@
 - type: entity
   id: LavalandTendrilSpaceCarp
   parent: LavalandTendrilBase
-  name: "вусик"
-  description: "Величезна структура."
+  name: tendril
+  description: A huge structure.
   suffix: Carp
   components:
   - type: Tendril
@@ -123,8 +123,8 @@
 - type: entity
   id: LavalandTendrilMagmaHand
   parent: LavalandTendrilBase
-  name: "вусик"
-  description: "Величезна структура."
+  name: tendril
+  description: A huge structure.
   suffix: MagmaHand
   components:
   - type: Tendril
@@ -152,7 +152,7 @@
       #- id: LavalandTendrilLegion
 
 - type: entity
-  name: "генератор вусиків"
+  name: tendril spawner
   id: SpawnerRandomTendrilLavaland
   parent: MarkerBase
   suffix: Lavaland
