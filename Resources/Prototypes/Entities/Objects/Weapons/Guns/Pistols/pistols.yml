@@ -1,8 +1,8 @@
 - type: entity
-  name: "BasePistol"
+  name: BasePistol
   parent: BaseItem
   id: BaseWeaponPistol
-  description: "Корінцевий зубастий і пагонистий."
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -82,10 +82,10 @@
     staminaCost: 5
 
 - type: entity
-  name: "гадюка"
+  name: viper
   parent: BaseWeaponPistol
   id: WeaponPistolViper
-  description: "Невеликий, легко прихований, але дещо малопотужний пістолет, виготовлений виробником масової зброї, який вже понад сто років як не існує. Використовує автоматичні набої калібру .35."
+  description: A small, easily concealable, but somewhat underpowered gun, produced by a bulk arms manufacturer now defunct for over a century. Uses .35 auto ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
@@ -123,7 +123,7 @@
     fireOnDropChance: 0.3
 
 - type: entity
-  name: "гадюка"
+  name: viper
   parent: WeaponPistolViper
   id: WeaponPistolViperEmpty
   suffix: Empty
@@ -149,10 +149,11 @@
             - CartridgePistol
 
 - type: entity
-  name: "гадюка"
+  name: viper
   parent: WeaponPistolViper
   id: WeaponPistolViperSecurity
-  description: "Невеликий, легко прихований, але дещо малопотужний пістолет, виготовлений виробником масової зброї, який вже понад сто років як не існує. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: A small, easily concealable, but somewhat underpowered gun, produced by a bulk arms manufacturer now defunct for over a century.
+               Uses .35 auto ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   suffix: Security Loadouts
   components:
   - type: GuideHelp
@@ -189,16 +190,17 @@
   id: WeaponPistolViperSecurityNonLethal
   parent: WeaponPistolViperNonLethal
   suffix: Non-lethal, SecurityLoadouts
-  description: "Невеликий, легко прихований, але дещо малопотужний пістолет, виготовлений виробником масової зброї, який вже понад сто років як не існує. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: A small, easily concealable, but somewhat underpowered gun, produced by a bulk arms manufacturer now defunct for over a century.
+               Uses .35 auto ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: "кобра"
+  name: cobra
   parent: BaseWeaponPistol
   id: WeaponPistolCobra
-  description: "Міцний, надійний пістолет оператора з вбудованим глушником. Використовує безоболонкові набої калібру .25."
+  description: A rugged, robust operator handgun with inbuilt silencer. Uses .25 caseless ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
@@ -244,7 +246,7 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: "кобра"
+  name: cobra
   parent: WeaponPistolCobra
   id: WeaponPistolCobraEmpty
   suffix: Empty
@@ -269,10 +271,10 @@
             - CartridgeCaselessRifle
 
 - type: entity
-  name: "mK 58"
+  name: mk 58
   parent: BaseWeaponPistol
   id: WeaponPistolMk58
-  description: "Дешева, повсюдна зброя, вироблена дочірньою компанією NanoTrasen. Використовує набої калібру .35."
+  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
@@ -292,7 +294,7 @@
     fireOnDropChance: 0.5
 
 - type: entity
-  name: "mK 58"
+  name: mk58
   parent: WeaponPistolMk58
   id: WeaponPistolMk58Empty
   suffix: Empty
@@ -317,10 +319,11 @@
             - CartridgePistol
 
 - type: entity
-  name: "mK 58"
+  name: mk 58
   parent: WeaponPistolMk58
   id: WeaponPistolMk58Security
-  description: "Дешева, повсюдна зброя, вироблена дочірньою компанією NanoTrasen. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   suffix: Security Loadouts
   components:
   - type: GuideHelp
@@ -356,16 +359,17 @@
   id: WeaponPistolMk58SecurityNonlethal
   parent: WeaponPistolMk58Nonlethal
   suffix: Non-lethal, Security Loadouts
-  description: "Дешева, повсюдна зброя, вироблена дочірньою компанією NanoTrasen. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: "Н1984"
+  name: N1984
   parent: BaseWeaponPistol
   id: WeaponPistolN1984 # the spaces in description are for formatting.
-  description: "Зброя будь-якого офіцера, який себе поважає.     Випускається в калібрі .45 магнум, улюбленому калібрі лордів."
+  description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
@@ -407,7 +411,7 @@
             - CartridgeMagnum
 
 - type: entity
-  name: "Н1984"
+  name: N1984
   parent: WeaponPistolN1984
   id: WeaponPistolN1984Empty
   suffix: Empty
@@ -432,17 +436,18 @@
             - CartridgeMagnum
 
 - type: entity
-  name: "Н1984"
+  name: N1984
   parent: WeaponPistolN1984
   id: WeaponPistolN1984Security # the spaces in description are for formatting.
-  description: "Зброя будь-якого офіцера, який себе поважає. Випускається під калібр .45 магнум, калібр лорда. Серійний номер на руків'ї вказує на те, що цей пістолет належить офіцеру служби безпеки NT."
+  description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   suffix: Security Loadouts
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: "Н1984"
+  name: N1984
   parent: WeaponPistolN1984
   id: WeaponPistolN1984NonLethal
   suffix: Non-lethal
@@ -469,10 +474,11 @@
             - CartridgeMagnum
 
 - type: entity
-  name: "Н1984"
+  name: N1984
   parent: WeaponPistolN1984NonLethal
   id: WeaponPistolN1984SecurityNonLethal
-  description: "Зброя будь-якого офіцера, який себе поважає. Випускається під калібр .45 магнум, калібр лорда. Серійний номер на руків'ї вказує на те, що цей пістолет належить офіцеру служби безпеки NT."
+  description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   suffix: Security Loadouts
   components:
   - type: GuideHelp

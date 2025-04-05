@@ -1,6 +1,6 @@
 - type: entity
   id: MagazineLightRifleLowCapacityEmpty
-  name: "магазин з низькою кришкою (будь-яка гвинтівка калібру .30)"
+  name: "low cap magazine (.30 rifle any)"
   suffix: empty
   parent: MagazineLightRifle
   components:
@@ -19,7 +19,7 @@
 
 - type: entity
   id: MagazineLightRifleLowCapacity
-  name: "магазин з низькою кришкою (гвинтівка калібру .30)"
+  name: "low cap magazine (.30 rifle)"
   parent: BaseMagazineLightRifle
   components:
   - type: BallisticAmmoProvider
@@ -37,7 +37,7 @@
 
 - type: entity
   id: MagazineLightRifleLowCapacityPractice
-  name: "магазин з низьким ковпачком (практична стрільба з гвинтівки калібру .30)"
+  name: "low cap magazine (.30 rifle practice)"
   parent: MagazineLightRifleLowCapacity
   components:
   - type: BallisticAmmoProvider
@@ -54,7 +54,7 @@
 
 - type: entity
   id: MagazineLightRifleLowCapacityRubber
-  name: "магазин малої ємності (.30 гвинтівковий гумовий)"
+  name: "low cap magazine (.30 rifle rubber)"
   parent: MagazineLightRifleLowCapacity
   components:
   - type: BallisticAmmoProvider
@@ -71,7 +71,7 @@
 
 - type: entity
   id: MagazineLightRifleLowCapacityUranium
-  name: "магазин з низьким ковпачком (.30 гвинтівковий уран)"
+  name: "low cap magazine (.30 rifle uranium)"
   parent: MagazineLightRifleLowCapacity
   components:
   - type: BallisticAmmoProvider

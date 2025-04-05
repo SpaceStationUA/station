@@ -16,10 +16,10 @@
 # Cautery
 
 - type: entity
-  name: "термокаутер"
+  name: cautery
   id: Cautery
   parent: BaseToolSurgery
-  description: "Хірургічний інструмент, що використовується для припікання відкритих ран."
+  description: A surgical tool used to cauterize open wounds.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/cautery.rsi
@@ -47,10 +47,10 @@
 # Drill
 
 - type: entity
-  name: "дриль"
+  name: drill
   id: Drill
   parent: BaseToolSurgery
-  description: "Хірургічне свердло для виконання отворів у твердих матеріалах."
+  description: A surgical drill for making holes into hard material.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/drill.rsi
@@ -92,10 +92,10 @@
 # Scalpel
 
 - type: entity
-  name: "скальпель"
+  name: scalpel
   id: Scalpel
   parent: BaseToolSurgery
-  description: "Хірургічний інструмент, за допомогою якого роблять розрізи плоті."
+  description: A surgical tool used to make incisions into flesh.
   components:
   - type: Sharp
     butcherDelayModifier: 1.5 # Butchering with a scalpel, regardless of the type, will take 50% longer
@@ -146,10 +146,10 @@
     - Knife
 
 - type: entity
-  name: "заточка"
+  name: shiv
   id: ScalpelShiv
   parent: Scalpel
-  description: "Загострений шматок скла, відшліфований до краю і обмотаний скотчем для ручки." # Could become a decent tool or weapon with right tool mods.
+  description: A pointy piece of glass, abraded to an edge and wrapped in tape for a handle. # Could become a decent tool or weapon with right tool mods.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
@@ -159,10 +159,10 @@
     heldPrefix: shiv
 
 - type: entity
-  name: "вдосконалений скальпель"
+  name: advanced scalpel
   id: ScalpelAdvanced
   parent: Scalpel
-  description: "Виготовлені з дорожчих матеріалів, гостріші та загалом надійніші."
+  description: Made of more expensive materials, sharper and generally more reliable.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
@@ -178,10 +178,10 @@
     speed: 1.25
 
 - type: entity
-  name: "лазерний скальпель"
+  name: laser scalpel
   id: ScalpelLaser
   parent: Scalpel
-  description: "Скальпель, який використовує спрямований лазер для розрізу замість леза, для більш точної хірургії, а також припікає під час розрізу."
+  description: A scalpel which uses a directed laser to slice instead of a blade, for more precise surgery while also cauterizing as it cuts.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
@@ -203,10 +203,10 @@
 # Retractor
 
 - type: entity
-  name: "ретрактор"
+  name: retractor
   id: Retractor
   parent: BaseToolSurgery
-  description: "Хірургічний інструмент, що використовується для утримання відкритих розрізів."
+  description: A surgical tool used to hold open incisions.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/retractor.rsi
@@ -247,10 +247,10 @@
 # Hemostat
 
 - type: entity
-  name: "гемостат"
+  name: hemostat
   id: Hemostat
   parent: BaseToolSurgery # Shitmed Change
-  description: "Хірургічний інструмент, що використовується для стискання кровоносних судин для запобігання кровотечі."
+  description: A surgical tool used to compress blood vessels to prevent bleeding.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/hemostat.rsi # Shitmed Change
@@ -293,8 +293,8 @@
 - type: entity
   parent: BaseToolSurgery
   id: Bonesetter
-  name: "кісткоутворювач"
-  description: "Використовується для вправлення кісток на місце."
+  name: bone setter
+  description: Used for setting bones back into place.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/bonesetter.rsi
@@ -307,8 +307,8 @@
 - type: entity
   parent: BaseToolSurgery
   id: BoneGel
-  name: "пляшка гелю для кісток"
-  description: "Контейнер для кісткового гелю, який часто потрібно поповнювати зі спеціалізованої машини."
+  name: bottle of bone gel
+  description: A container for bone gel that often needs to be refilled from a specialized machine.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/bone-gel.rsi
@@ -318,10 +318,10 @@
 # Saws
 
 - type: entity
-  name: "пила по металу"
+  name: metal saw
   id: Saw
   parent: BaseToolSurgery
-  description: "Для розпилювання дерева та інших предметів на шматки. Або розпилювання кісток, у разі потреби."
+  description: For cutting wood and other objects to pieces. Or sawing bones, in case of emergency.
   components:
   - type: Sharp
   - type: Utensil
@@ -364,10 +364,10 @@
       path: /Audio/_Shitmed/Medical/Surgery/saw.ogg
 
 - type: entity
-  name: "choppa"
+  name: choppa
   id: SawImprov
   parent: Saw
-  description: "Злісне зубчасте лезо, зроблене з будь-яких неприємних гострих предметів, які ви могли знайти." # It would make a pretty decent weapon, given there are more space for some tool mods too.
+  description: A wicked serrated blade made of whatever nasty sharp things you could find. # It would make a pretty decent weapon, given there are more space for some tool mods too.
   components:
   - type: Sprite
     state: improv
@@ -397,10 +397,10 @@
     speed: 0.5
 
 - type: entity
-  name: "циркулярна пила"
+  name: circular saw
   id: SawElectric
   parent: Saw
-  description: "Для різання у важких умовах."
+  description: For heavy duty cutting.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/circular-saw.rsi
@@ -441,10 +441,10 @@
     speed: 1.25
 
 - type: entity
-  name: "вдосконалена циркулярна пила"
+  name: advanced circular saw
   id: SawAdvanced
   parent: SawElectric
-  description: "Ти думаєш, що можеш вирізати все, що завгодно."
+  description: You think you can cut anything with it.
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/Surgery/saw.rsi
@@ -485,10 +485,10 @@
 # Shitmed Tools
 
 - type: entity
-  name: "інструмент для припікання"
+  name: searing tool
   id: EnergyCautery
   parent: Cautery
-  description: "Припікач з енергетичним наконечником також слугує дрилем у ввімкненому стані."
+  description: A cautery with an energy tip, also serves as a drill in its powered state.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/e-cautery.rsi
@@ -516,10 +516,10 @@
     speed: 1.5
 
 - type: entity
-  name: "енергетичний скальпель"
+  name: energy scalpel
   id: EnergyScalpel
   parent: Scalpel
-  description: "Скальпель, який використовує енергетичне лезо, також слугує пилкою в увімкненому стані."
+  description: A scalpel which uses an energy blade, also serves as a saw in its powered state.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/e-scalpel.rsi
@@ -547,10 +547,10 @@
     speed: 1.5
 
 - type: entity
-  name: "механічні защемлення"
+  name: mechanical pinches
   id: AdvancedRetractor
   parent: Retractor
-  description: "Ретрактор з механічними зажимами також виконує функцію гемостату у включеному стані."
+  description: A retractor with mechanical pinches, also serves as a hemostat in its powered state.
   components:
   - type: Sprite
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/adv-retractor.rsi
@@ -582,7 +582,7 @@
     speed: 1.5
 
 - type: entity
-  name: "медичний мультитул"
+  name: medical multitool
   id: OmnimedTool
   parent: BaseToolSurgery
   components:
