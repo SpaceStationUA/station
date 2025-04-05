@@ -1,8 +1,8 @@
 - type: entity
   parent: ERTLeaderPDA
   id: BlueshieldPDA
-  name: Blueshield Officer PDA
-  description: The silver shield of the Blueshield is engraved on the front.
+  name: "КПК блюшилда"
+  description: "Коштує дорожче ніж ви, сер."
   components:
   - type: Pda
     id: BlueshieldIDCard
@@ -19,8 +19,8 @@
 - type: entity
   parent: AdminPDA
   id: ChronoPDA
-  name: futuristic PDA
-  description: A powerful quantum computer disguised as a regular pda for disguise.
+  name: "футуристичний КПК"
+  description: "Потужний квантовий комп'ютер, замаскований під звичайний КПК для маскування."
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Devices/pda.rsi
