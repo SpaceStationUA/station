@@ -131,6 +131,9 @@
   components:
   - type: GlimmerMobRule
     mobPrototype: MobGlimmerWisp
+  - type: GlimmerEvent
+    minimumGlimmer: 550
+    maximumGlimmer: 1000
 
 - type: entity
   parent: BaseGlimmerSignaturesEvent

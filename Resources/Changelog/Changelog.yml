@@ -13346,3 +13346,93 @@ Entries:
   id: 7088
   time: '2025-04-04T00:42:57.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2134
+- author: Timfa2112
+  changes:
+    - type: Add
+      message: Додано Народну Республіку Адхомай
+    - type: Add
+      message: Додано Ізвеську Гегемонію
+    - type: Fix
+      message: >-
+        Виправлено прапори в паспортах відповідно до встановленого лору
+  id: 7089
+  time: '2025-04-04T08:55:10.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2147
+- author: Timfa2112
+  changes:
+    - type: Add
+      message: Додано команду адміністратора для спавну паспорта гравцеві
+  id: 7090
+  time: '2025-04-04T08:57:20.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2150
+- author: EctoplasmIsGood
+  changes:
+    - type: Tweak
+      message: Іонна шкода була об'єднана з шоковою шкодою
+    - type: Tweak
+      message: Шкоду від дизейблера змінено з термічної на шокову та зменшено
+    - type: Tweak
+      message: Усі кремнієві форми життя тепер отримують 3x шокової шкоди
+  id: 7091
+  time: '2025-04-04T09:01:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2153
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Виправлено різноманітні помилки з псіонікою.
+    - type: Fix
+      message: >-
+        Виправлено помилку, через яку, якщо ви генерували достатньо Потенції під час псіонічного ролу під дією наркотиків для отримання двох здібностей, ви отримували лише одну, назавжди втрачаючи можливість отримувати нові здібності.
+    - type: Fix
+      message: >-
+        Виправлено постійне застрягання Глімера між 500 та 600 шляхом перегляду математики та виявлення алгебраїчної помилки, зробленої рік тому.
+    - type: Tweak
+      message: >-
+        Глімер тепер працює з подвійною точністю. Розважайтеся з цією кардинальною зміною, якщо ви створювали будь-який псіонічний код. Підказка: ви можете перетворити double на (float), якщо не бажаєте переводити свою систему на double.
+  id: 7092
+  time: '2025-04-04T15:41:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/1848
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: >-
+        Виправлено проблему, яка не дозволяла гравцям зберігати налаштування предметів, якщо у них не вистачало очок спорядження для повторної покупки предмета.
+    - type: Add
+      message: Риси тепер можуть визначати порядок, у якому вони застосовуються.
+    - type: Fix
+      message: Виправлено непрацюючу плюшеву іграшку RGBee.
+  id: 7093
+  time: '2025-04-04T15:50:31.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2154
+- author: dootythefrooty
+  changes:
+    - type: Add
+      message: Сквокачів тепер можна носити на голові або на плечі.
+    - type: Fix
+      message: Тепер видно, як тримають Сквокачів.
+  id: 7094
+  time: '2025-04-04T18:35:45.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2151
+- author: GNUtopia
+  changes:
+    - type: Add
+      message: Додано космічну золоту рибку як домашнього улюбленця
+    - type: Add
+      message: Додано подію появи ворожих космічних золотих рибок
+    - type: Tweak
+      message: Додано Сквокачів до події спавну тарганів
+    - type: Fix
+      message: Виправлено деякі помилки локалізації
+  id: 7095
+  time: '2025-04-04T18:37:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2152
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано елементи спорядження, пов'язані з Іноземним легіоном Тау Кита. Вони доступні будь-якому персонажу, який є громадянином Бізеля та має життєвий шлях Ветерана Війни.
+    - type: Add
+      message: Додано вишуканий дробовик-револьвер до вибору зброї Капітана.
+  id: 7096
+  time: '2025-04-04T19:09:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2156
