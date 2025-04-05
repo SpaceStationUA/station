@@ -23,7 +23,7 @@ namespace Content.Shared._EE.Contractors.Systems;
 
 public class SharedPassportSystem : EntitySystem
 {
-    public const int CurrentYear = 2450;
+    public const int CurrentYear = 2470;
     const string PIDChars = "ABCDEFGHJKLMNPQRSTUVWXYZ0123456789";
 
     [Dependency] private readonly IGameTiming _timing = default!;
@@ -53,11 +53,11 @@ public class SharedPassportSystem : EntitySystem
 
         var species = _prototypeManager.Index<SpeciesPrototype>(component.OwnerProfile.Species);
 
-        args.PushMarkup($"Registered to: {component.OwnerProfile.Name}", 50);
-        args.PushMarkup($"Species: {Loc.GetString(species.Name)}", 49);
-        args.PushMarkup($"Sex: {component.OwnerProfile.Gender}", 48);
-        args.PushMarkup($"Height: {MathF.Round(component.OwnerProfile.Height * species.AverageHeight)} cm", 47);
-        args.PushMarkup($"Year of Birth: {CurrentYear - component.OwnerProfile.Age}", 46);
+        args.PushMarkup($"Зареєстровано на: {component.OwnerProfile.Name}", 50);
+        args.PushMarkup($"Особливості: {Loc.GetString(species.Name)}", 49);
+        args.PushMarkup($"Стать: {component.OwnerProfile.Gender}", 48);
+        args.PushMarkup($"Висота: {MathF.Round(component.OwnerProfile.Height * species.AverageHeight)} см", 47);
+        args.PushMarkup($"Рік Народження: {CurrentYear - component.OwnerProfile.Age}", 46);
 
         args.PushMarkup(
             $"PID: {GenerateIdentityString(component.OwnerProfile.Name
