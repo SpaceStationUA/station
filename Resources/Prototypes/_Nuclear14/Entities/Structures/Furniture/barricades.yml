@@ -1,8 +1,8 @@
 - type: entity
   id: N14BarricadeSandbagSingle
   parent: BaseStructure
-  name: sandbags
-  description: A sandbag fortification.
+  name: "мішки з піском"
+  description: "Укріплення з мішків з піском."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/barricades.rsi
@@ -38,8 +38,8 @@
 - type: entity
   id: N14BarricadeTanktrap
   parent: N14BarricadeSandbagSingle
-  name: tank trap
-  description: A metal fabricated spike for blocking vehicles.
+  name: "танкова пастка"
+  description: "Металевий шип для блокування транспортних засобів."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/barricades.rsi
@@ -75,8 +75,8 @@
 - type: entity
   id: N14BarricadeTanktrapRusty
   parent: N14BarricadeTanktrap
-  name: tank trap
-  description: A rusty metal fabricated spike for blocking vehicles.
+  name: "танкова пастка"
+  description: "Іржавий металевий шип для блокування транспортних засобів."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/barricades.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: BaseStructure
   id: N14BarricadeRazorwire
-  name: razorwire barricade
-  description: A razorwire fortification.
+  name: "барикада з колючого дроту"
+  description: "Укріплення з колючого дроту."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/barricades.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: N14BarricadeSandbagSingle
   id: N14BarricadeMetal
-  name: metal barricade
-  description: A metal fortification.
+  name: "металева барикада"
+  description: "Металеве укріплення."
   suffix: black
   components:
   - type: Sprite
