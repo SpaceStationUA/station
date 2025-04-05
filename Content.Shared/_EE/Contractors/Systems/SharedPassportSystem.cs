@@ -54,7 +54,7 @@ public class SharedPassportSystem : EntitySystem
         var species = _prototypeManager.Index<SpeciesPrototype>(component.OwnerProfile.Species);
 
         args.PushMarkup($"Зареєстровано на: {component.OwnerProfile.Name}", 50);
-        args.PushMarkup($"Особливості: {Loc.GetString(species.Name)}", 49);
+        args.PushMarkup($"Вид: {Loc.GetString(species.Name)}", 49);
         args.PushMarkup($"Стать: {component.OwnerProfile.Gender}", 48);
         args.PushMarkup($"Висота: {MathF.Round(component.OwnerProfile.Height * species.AverageHeight)} см", 47);
         args.PushMarkup($"Рік Народження: {CurrentYear - component.OwnerProfile.Age}", 46);
