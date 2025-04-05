@@ -341,3 +341,14 @@ reagent-effect-guidebook-plant-seeds-remove = { $chance ->
         [1] Видаляє
         *[other] видаляє
     } насіння рослини
+
+reagent-effect-guidebook-stamina-change = { $chance ->
+        [1] { $deltasign ->
+                [-1] Збільшує
+                *[1] Зменшує
+            }
+        *[other] { $deltasign ->
+                    [-1] збільшити
+                    *[1] зменшити
+                 }
+    } витривалість на {$amount} балів

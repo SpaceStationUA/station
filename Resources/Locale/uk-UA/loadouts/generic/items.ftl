@@ -51,3 +51,5 @@ loadout-name-LoadoutItemPetCockroach = домашній тарган
 loadout-description-LoadoutItemBlackDeck = Чорна скринька зі стандартними 53 гральними картами. Будь ласка, грайте відповідально.
 loadout-description-LoadoutItemNTDeck = Коробка з логотипом Nanotrasen, що містить стандартні 53 гральні карти. Будь ласка, грайте відповідально.
 loadout-name-LoadoutItemShadowkinPlush = тіньовик плюш
+loadout-name-LoadoutItemPetSquackroach = домашній сквакроуч (розфарбовуваний)
+loadout-name-LoadoutItemPetGoldfish = домашня космічна золота рибка (розфарбовувана)

@@ -490,3 +490,5 @@ uplink-ammo-bundle-incendiary-name = Набір Набоїв (Запальні)
 uplink-ammo-bundle-incendiary-desc = ПРОКИДАЙСЯ, ЧОРТ ЗАБИРАЙ, САМУРАЮ, У НАС Є СТАНЦІЯ, ЯКУ ТРЕБА СПАЛИТИ!
 uplink-ammo-bundle-shrapnel-name = Набір боєприпасів (шрапнель)
 uplink-ammo-bundle-shrapnel-desc = Перезарядка! Містить 4 магазини для C-20r, 4 барабани для Bulldog і 2 коробки з боєприпасами для L6 SAW.
+uplink-smuggler-satchel-name = Сумка Контрабандиста
+uplink-smuggler-satchel-desc = Зручна сумка підозрілого вигляду. Досить пласка, щоб поміститися під плиткою підлоги.

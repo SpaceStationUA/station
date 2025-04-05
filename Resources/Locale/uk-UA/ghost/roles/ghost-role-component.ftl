@@ -276,3 +276,11 @@ ghost-role-information-ifrit-wizard-name = Іфріт (Виклик чарівн
 ghost-role-information-ifrit-wizard-description = Слухай свого господаря. Не відволікайся на пошкодження. Бий людей сильно.
 ghost-role-information-minebot-name = Майнбот
 ghost-role-information-minebot-description = Допомагати шахтарям у їхній роботі.
+ghost-role-information-freeagent-rules = Ти - [color=yellow][bold]Вільний Агент[/bold][/color]. Ти вільний діяти як антагоніст або не-антагоніст.
+                                         Ти не пам'ятаєш нічого зі свого попереднього життя і нічого, що дізнався як привид.
+                                         Тобі дозволено пам'ятати загальні знання про гру, наприклад, як готувати, як використовувати предмети тощо.
+                                         Тобі абсолютно [color=red]ЗАБОРОНЕНО[/color] пам'ятати, скажімо, ім'я, зовнішність тощо свого попереднього персонажа.
+ghost-role-information-squackroach-name = Сквакроуч
+ghost-role-information-squackroach-description = Диявольський, але майже нешкідливий сквакроуч.
+ghost-role-information-space-goldfish-name = Космічна Золота Рибка
+ghost-role-information-space-goldfish-description = Плавай безцільно в повітрі та кусай кожного, хто досить дурний, щоб викликати твій гнів.

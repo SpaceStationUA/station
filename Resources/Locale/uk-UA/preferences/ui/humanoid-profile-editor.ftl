@@ -109,3 +109,4 @@ humanoid-profile-editor-loadouts-heirloom-tooltip = Будь-яке завант
 humanoid-profile-editor-station-ai-name-label = Ім'я станції штучного інтелекту:
 humanoid-profile-editor-cyborg-name-label = Ім'я Кіборг:
 humanoid-profile-editor-display-pronouns-label = Косметичні займенники:
+humanoid-profile-editor-background-tab = Біографія
