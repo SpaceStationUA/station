@@ -35,6 +35,8 @@ namespace Content.Server.Vampiric
         [Dependency] private readonly SharedInteractionSystem _interactionSystem = default!;
         [Dependency] private readonly BloodstreamSystem _bloodstreamSystem = default!;
         [Dependency] private readonly SharedAudioSystem _audio = default!;
+        [Dependency] private readonly HungerSystem _hunger = default!;
+
         public override void Initialize()
         {
             base.Initialize();
@@ -186,6 +188,12 @@ namespace Content.Server.Vampiric
 
             var temp = _solutionSystem.SplitSolution(bloodstream.BloodSolution.Value, bloodsuckerComp.UnitsToSucc);
             _stomachSystem.TryTransferSolution(stomachList[0].Comp.Owner, temp, stomachList[0].Comp);
+
+            if (TryComp<HungerComponent>(bloodsucker, out var hungerComp))
+            {
+                var hungerRestored = (float)temp.Volume * 1.0f;
+                _hunger.ModifyHunger(bloodsucker, hungerRestored, hungerComp);
+            }
 
             // Add a little pierce
             DamageSpecifier damage = new();
