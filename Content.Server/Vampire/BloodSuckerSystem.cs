@@ -1,3 +1,5 @@
+using Content.Shared.Nutrition.Components;
+using Content.Shared.Nutrition.EntitySystems;
 using Content.Shared.Verbs;
 using Content.Shared.Damage;
 using Content.Shared.DoAfter;
