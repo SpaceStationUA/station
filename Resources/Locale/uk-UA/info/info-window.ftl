@@ -2,7 +2,7 @@
 
 ## General stuff
 ui-info-title = Інформація
-ui-info-tab-rules = Правила сервера
+ui-info-tab-rules = Правила Сервера
 ui-info-tab-tutorial = Навчальний посібник
 
 ## Вкладка "Підручник
@@ -11,9 +11,9 @@ ui-info-text-controls = Ви можете переглянути і перепр
 ui-info-header-intro = Вступ
 ui-info-header-controls = Керування
 ui-info-header-gameplay = Ігровий процес
-ui-info-header-sandbox = Нерестовик у пісочниці
-ui-info-subheader-entityoptions = Параметри панелі породження сутностей:
+ui-info-header-sandbox = Спавнер Пісочниці
+ui-info-subheader-entityoptions = Параметри панелі спавну ентіті:
 ui-info-subheader-gridoptions = Параметри вирівнювання по сітці:
 ui-info-header-feedback = Зворотній зв'язок
 
-ui-info-button-controls = Меню параметрів
+ui-info-button-controls = Меню Параметрів

@@ -1,23 +1,23 @@
 ## Implanter Attempt Messages
 
-implanter-component-implanting-target = {$user} намагається вам щось нав'язати!
-implanter-component-implant-failed = {$implant} не може бути вставлений {$target}!
-implanter-draw-failed-permanent = {$implant} у {$target} злився з ними і не може бути видалений!
+implanter-component-implanting-target = {$user} намагається щось імплантувати в вас!
+implanter-component-implant-failed = {$implant} не може бути імплантований в {$target}!
+implanter-draw-failed-permanent = {$implant} у {$target} злився з ним і не може бути видалений!
 implanter-draw-failed = Ви намагалися видалити імплантат, але нічого не знайшли.
 
 ## ІНТЕРФЕЙС
-implanter-draw-text = Жеребкування
+implanter-draw-text = Витягування
 implanter-inject-text = Ін'єкція
 
-implanter-empty-text = Ні
+implanter-empty-text = Пустий
 
-implanter-label = Імплантат: [color=green]{$implantName}[/color] | [color=white]{$modeString}[/color]{$lineBreak}{$implantDescription}
+implanter-label = Імплант: [color=green]{$implantName}[/color] Режим: [color=white]{$modeString}[/color]{$lineBreak}{$implantDescription}
 
 implanter-contained-implant-text = [color=green]{$desc}[/color]
 
 ## Спливаючі вікна імплантатів
 
-scramble-implant-activated-popup = Ваша зовнішність змінюється і змінюється!
+scramble-implant-activated-popup = Ваша зовнішність змінюється!
 
 ## Повідомлення про імплантацію
 

@@ -4,14 +4,14 @@ forensic-fibers-colored = {LOC($color)} {LOC($material)} волокна
 fibers-insulative = ізольовані
 fibers-synthetic = синтетичні
 fibers-leather = шкіряні
-fibers-durathread = міцна нитка
+fibers-durathread = з міцної нитки
 fibers-latex = латексні
 fibers-nitrile = нітрилові
 fibers-nanomachines = ізольовані наномашинові
 fibers-chameleon = голо-хамелеонові
 fibers-rubber = гумові
 
-fibers-purple = фіолетовий
+fibers-purple = фіолетові
 fibers-red = червоні
 fibers-black = чорні
 fibers-blue = сині

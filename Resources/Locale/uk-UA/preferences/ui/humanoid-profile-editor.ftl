@@ -78,7 +78,7 @@ humanoid-profile-editor-traits-header = У вас є {$points ->
     *[other] {$traits}/{$maxTraits} риси
 }
 
-humanoid-profile-editor-traits-show-unusable-button = Показати непридатний для використання
+humanoid-profile-editor-traits-show-unusable-button = Показати Непридатні для Використання
 humanoid-profile-editor-traits-show-unusable-button-tooltip = Якщо увімкнено, риси, які не можна використовувати у вашому поточному наборі символів, будуть виділені червоним кольором.
     Ви все одно не зможете використовувати недійсні риси, доки не зміните налаштування персонажа відповідно до вимог.
     Скоріш за все, це може бути корисно лише у випадку, якщо баг приховує риси, які ви можете використовувати, або якщо ви хочете побачити риси інших видів чи щось подібне.
@@ -97,7 +97,7 @@ humanoid-profile-editor-loadouts-remove-unusable-button = Видалити {$cou
 humanoid-profile-editor-loadouts-remove-unusable-button-tooltip = Якщо ви натиснете цю кнопку, всі вбрання, які не можуть бути використані у вашому поточному наборі одягу, буде вилучено.
     Перед видаленням вбрання вас буде запитано про підтвердження.
 humanoid-profile-editor-customspeciename-label = Спеціальна назва виду:
-humanoid-profile-editor-reset-button = Перезавантаження
+humanoid-profile-editor-reset-button = Перезавантажити
 humanoid-profile-editor-loadouts-customize = Налаштувати
 humanoid-profile-editor-loadouts-customize-name = Ім'я
 humanoid-profile-editor-loadouts-customize-description = Опис

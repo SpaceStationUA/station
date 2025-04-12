@@ -45,7 +45,7 @@ loadout-name-LoadoutItemDrinkVacuumFlask = вакуумна колба (коль
 
 loadout-name-LoadoutItemPetMouse = домашня миша
 loadout-name-LoadoutItemPetHamster = домашній хом'як
-loadout-name-LoadoutItemPetMothroach = домашній тарган
+loadout-name-LoadoutItemPetMothroach = домашня тарганоміль
 loadout-name-LoadoutItemPetCockroach = домашній тарган
 
 loadout-description-LoadoutItemBlackDeck = Чорна скринька зі стандартними 53 гральними картами. Будь ласка, грайте відповідально.

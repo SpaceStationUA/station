@@ -10,8 +10,8 @@ admin-smite-remove-hands-self = Руки відпадають!
 admin-smite-remove-hands-other = {CAPITALIZE($name)} відпадають руки!
 admin-smite-turned-ash-other = {CAPITALIZE($name)} перетворюється на купу попелу!
 admin-smite-stomach-removal-self = У шлунку відчувається порожнеча...
-admin-smite-run-walk-swap-prompt = Щоб запустити, потрібно натиснути клавішу Shift!
-admin-smite-super-speed-prompt = Ви рухаєтесь зі швидкістю 0.8!
+admin-smite-run-walk-swap-prompt = Щоб бігти, потрібно натиснути клавішу Shift!
+admin-smite-super-speed-prompt = Ви рухаєтесь зі швидкістю 0.8 маху!
 admin-smite-lung-removal-self = Ти не можеш дихати!
 admin-smite-terminate-prompt = Я повернуся.
 
@@ -19,10 +19,10 @@ admin-smite-terminate-prompt = Я повернуся.
 ## Описи ударів
 
 admin-smite-explode-description = Підірвати їх.
-admin-smite-chess-dimension-description = Вигнання у шаховий вимір.
+admin-smite-chess-dimension-description = Вигнання у Шаховий Вимір.
 admin-smite-set-alight-description = Змушує їх горіти.
 admin-smite-monkeyify-description = Перетворює ціль на мавпу.
-admin-smite-lung-cancer-description = Рак легенів III стадії, для тих, кому дуже подобається популярний серіал "Пуститися берега" (Breaking Bad).
+admin-smite-lung-cancer-description = Рак легенів III стадії, для тих, кому дуже подобається Пуститися Берега.
 admin-smite-electrocute-description = Їх б'є струмом, роблячи все, що на них було, марним.
 admin-smite-creampie-description = Пиріг, сконденсований в ґудзик.
 admin-smite-remove-blood-description = Видаляє всю їхню кров, безладно.
@@ -63,7 +63,7 @@ admin-smite-terminate-description = Створює роль примари-те�
 ## Описи трюків
 
 admin-trick-unbolt-description = Розблоковує цільовий шлюз.
-admin-trick-bolt-description = Закриває цільовий шлюз.
+admin-trick-bolt-description = Блокує цільовий шлюз.
 admin-trick-emergency-access-on-description = Вмикає аварійний доступ до цільового шлюзу.
 admin-trick-emergency-access-off-description = Вимикає аварійний доступ до цільового шлюзу.
 admin-trick-make-indestructible-description = Робить даний об'єкт незнищенним, фактично божественним.

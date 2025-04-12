@@ -2,7 +2,7 @@
 ### UI
 
 # Verb name for climbing
-comp-climbable-verb-climb = Сховище
+comp-climbable-verb-climb = Забратися
 
 ### Повідомлення про взаємодію
 
@@ -10,13 +10,13 @@ comp-climbable-verb-climb = Сховище
 comp-climbable-user-climbs = Ви стрибаєте на { THE($climbable) }!
 
 # Показується іншим, коли $user залазить на $climbable
-comp-climbable-user-climbs-other = { CAPITALIZE(THE($user)) } jumps onto { THE($climbable) }!
+comp-climbable-user-climbs-other = { CAPITALIZE(THE($user)) } стрибає на { THE($climbable) }!
 
 # Shown to you when your character forces someone to climb on $climbable
-comp-climbable-user-climbs-force = Ви примушуєте { THE($moved-user) } до { THE($climbable) }!
+comp-climbable-user-climbs-force = Ви змушуєте { THE($moved-user) } піднятися на { THE($climbable) }!
 
 # Показується іншим, коли хтось змушує іншого $moved-user залізти на $climbable
-comp-climbable-user-climbs-force-other = { CAPITALIZE(THE($user)) } витісняє { THE($moved-user) } на { THE($climbable) }!
+comp-climbable-user-climbs-force-other = { CAPITALIZE(THE($user)) } піднімає { THE($moved-user) } на { THE($climbable) }!
 
 # Показується вам, коли ваш персонаж знаходиться далеко від того, щоб бути підйомним
 comp-climbable-cant-reach = Туди не дотягнешся!

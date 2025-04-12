@@ -1,4 +1,4 @@
-container-verb-text-enter = Увійдіть
+container-verb-text-enter = Увійти
 container-verb-text-empty = Порожньо
 
-container-thrown-missed = Промахнувся!
+container-thrown-missed = Мимо!

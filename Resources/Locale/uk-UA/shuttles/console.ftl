@@ -1,8 +1,8 @@
-shuttle-pilot-start = Пілотувати корабель
-shuttle-pilot-end = Перестати пілотувати
+shuttle-pilot-start = Ви пілотуєте корабель
+shuttle-pilot-end = Ви перестали пілотувати
 
 shuttle-console-in-ftl = Неможливо виконати FTL коли вже у FTL!
-shuttle-console-mass = Надто великий для FTL
+shuttle-console-mass = Надто далеко щоб виконати FTL
 shuttle-console-prevent = Ви не можете керувати цим кораблем.
 
 # NAV
@@ -20,12 +20,12 @@ shuttle-console-exclusion = Зона виключення
 
 shuttle-console-nav-settings = Налаштування
 shuttle-console-iff-toggle = Перемкнути IFF
-shuttle-console-dock-toggle = Перемкнути стикувальні порти
+shuttle-console-dock-toggle = Показати стикувальні порти
 
 # MAP
 
 shuttle-console-ftl-label = Статус FTL
-shuttle-console-ftl-state-Available = Доступний
+shuttle-console-ftl-state-Available = Доступно
 shuttle-console-ftl-state-Starting = Запуск
 shuttle-console-ftl-state-Travelling = Подорожує
 shuttle-console-ftl-state-Arriving = Прибуття
@@ -41,7 +41,7 @@ shuttle-console-no-signal = Немає сигналу
 shuttle-console-map-objects = Об'єкти сектора
 
 # DOCK
-shuttle-console-docked = Стикувальні об'єкти
+shuttle-console-docked = Стиковані об'єкти
 
 shuttle-console-view = Перегляд
 shuttle-console-undock = Відстикувати

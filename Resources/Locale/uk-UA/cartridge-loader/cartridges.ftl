@@ -15,7 +15,7 @@ net-probe-label-frequency = Частота
 net-probe-label-network = Мережа
 
 log-probe-program-name = ЛогПроб
-log-probe-scan = Викачані логи з {$device}!
+log-probe-scan = Викачано логи з {$device}!
 log-probe-label-time = Час
 log-probe-label-accessor = Доступ до
 log-probe-label-number = #

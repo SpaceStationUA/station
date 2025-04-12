@@ -18,7 +18,7 @@ ghost-role-information-mouse-name = Миша
 ghost-role-information-mouse-description = Голодна пустотлива миша.
 
 ghost-role-information-mothroach-name = Тарганоміль
-ghost-role-information-mothroach-description = Милий, але пустотливий тарганоміль.
+ghost-role-information-mothroach-description = Мила, але пустотлива тарганоміль.
 
 ghost-role-information-giant-spider-name = Гігантський павук
 ghost-role-information-giant-spider-description = Мешканці цієї станції виглядають дуже смачно, а ваша липка павутина ідеально підходить для того, щоб їх зловити!
