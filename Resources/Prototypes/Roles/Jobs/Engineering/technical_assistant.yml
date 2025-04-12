@@ -15,9 +15,11 @@
     - !type:CharacterOverallTimeRequirement # DeltaV - to prevent griefers from taking the role.
       min: 14400 # 4 hours
     - !type:CharacterEmployerRequirement
-      inverted: true
       employers:
-      - Unemployed
+      - HephaestusIndustries
+      - ZavodskoiInterstellar
+      - EinsteinEngines
+      - NanoTrasen
 
 - type: startingGear
   id: TechnicalAssistantGear

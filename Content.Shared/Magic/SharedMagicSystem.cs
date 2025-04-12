@@ -9,6 +9,7 @@ using Content.Shared.Actions;
 using Content.Shared.Body.Components;
 using Content.Shared.Body.Systems;
 using Content.Shared.Changeling;
+using Content.Shared.Chat;
 using Content.Shared.Coordinates.Helpers;
 using Content.Shared.Damage;
 using Content.Shared.Doors.Components;
@@ -811,5 +812,11 @@ public abstract class SharedMagicSystem : EntitySystem
             var ev = new SpeakSpellEvent(args.Performer, speech, speak.ChatType);
             RaiseLocalEvent(ref ev);
         }
+    }
+
+    public void Speak(EntityUid uid, string speech, InGameICChatType inGameICChatType)
+    {
+        var ev = new SpeakSpellEvent(uid, speech, inGameICChatType);
+        RaiseLocalEvent(ref ev);
     }
 }

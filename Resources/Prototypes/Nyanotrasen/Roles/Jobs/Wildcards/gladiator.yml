@@ -15,10 +15,6 @@
       department: Security
       min: 21600
     - !type:CharacterWhitelistRequirement # PIRATE - Whitelist requirement
-    - !type:CharacterEmployerRequirement
-      inverted: true
-      employers:
-      - Unemployed
   special:
   - !type:AddTraitSpecial
     traits:

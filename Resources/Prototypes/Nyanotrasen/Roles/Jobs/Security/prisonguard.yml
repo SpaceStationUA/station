@@ -29,9 +29,10 @@
       department: Security
       min: 14400
     - !type:CharacterEmployerRequirement
-      inverted: true
       employers:
-      - Unemployed
+      - ZavodskoiInterstellar
+      - PMCG
+      - NanoTrasen
 
 - type: startingGear
   id: PrisonGuardGear
