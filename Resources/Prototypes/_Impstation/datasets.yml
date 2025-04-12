@@ -1,1284 +1,1262 @@
 - type: dataset
   id: Departments
   values:
-    - Engineering
-    - Epistemics
-    - Botany
-    - Service
-    - Security
-    - Medical
-    - Justice
-    - The Bar
-    # Begin DeltaV Additions
-    - The Kitchen
-    - Logistics
-    - the Janitorial Department
-    - Reporting
-    - Entertainment
-    - Surgery
-    # End DeltaV Additions
+  - Інженерний відділ
+  - Відділ Епістемології
+  - Відділ Ботаніки
+  - Відділ Обслуговування
+  - Служба Безпеки
+  - Медичний Відділ
+  - Відділ Юстиції
+  - Бар
+  # Begin DeltaV Additions
+  - Кухня
+  - Відділ Логістики
+  - Департамент Прибирання
+  - Відділ Звітності
+  - Відділ Розваг
+  - Відділ Хірургії
+  # End DeltaV Additions
 
 - type: dataset
   id: Pets
   values:
-    - Pun Pun the Monkey
-    - Hamlet the Hamster
-    - Shiva the Spider
-    - Ian the Corgi
-    - Morticia the Raccoon
-    - Morty the Possum
-    - Paperwork the Sloth
-    - Walter the Dog
-    - Renault the Fox
-    - Willow the Kangaroo
-    - Smile the Slime
-    - Tropico the Crab
-    - Carpy the Legal Carp
-    - Laika the Security Dog
-    - Remilia the Chaplain's Familiar
-    # Begin DeltaV Additions
-    - Alexander the Pig
-    - Clippy the Courier Cat
-    - Runtime the Cat
-    - Exception the Cat
-    - Silvia the Medical Snake
-    - Bingus the Cat
-    - A Bee
-    - Siobahn the Epistemics Fox
-    # End DeltaV Additions
+  - Пун-Пун Мавпа
+  - Омак Хом'як
+  - Бодя Павук
+  - Іан Коргі
+  - Мортіша Єнот
+  - Морті Опосум
+  - Папірець Лінивець
+  - Волтер Собака
+  - Рено Лис
+  - Віллоу Кенгуру
+  - Смайл Слиз
+  - Тропіко Краб
+  - Карпі Юридичний Короп
+  - Лайка Собака Охорони
+  - Ремілія Фамільяр Капелана
+  # Begin DeltaV Additions
+  - Олександр Свиня
+  - Кліппі Кіт-Кур'єр
+  - Рантайм Кіт
+  - Ексепшн Кіт
+  - Сільвія Медична Змія
+  - Бінгус Кіт
+  - Бджола
+  - Шівон Лис Епістемології
+  # End DeltaV Additions
 
 - type: dataset
   id: Rooms
   values:
-    - Disposals
-    - The Library
-    - Escape Pod
-    - The Maints Bar
-    - The Restroom
-    - Dorms
-    - The Morgue
-    - The Center of the Station
-    # Begin DeltaV Additions
-    - The Chapel
-    - The Bar
-    - The Boxing Ring
-    - The Logistics Front Desk
-    - The Tool Room
-    - Evac
-    - Solars
-    - Arrivals
-    - The Laundry Room
-    - The Station Anchor
-    - The Park
-    - Court
-    - The Arcade
-    - The Stage
-    # End DeltaV Additions
-    # Begin EE Additions
-    - The Supermatter Crystal
-    - The Singularity Generator
-    - The Bridge
-    - The Automated Trading Station
-    - The Logistics Shuttle
-    - The Perma Brig
-    - The Burn Chamber
-    - Hydroponics
-    - The Kitchen
-    - Epistemics
-    - Medical
-    - Security
-    - Lavaland
-    - The Tesla Generator
-    # End EE Additions
+  - Сміттєпроводи
+  - Бібліотека
+  - Рятувальна капсула
+  - Бар в техах
+  - Вбиральня
+  - Житлові кімнати
+  - Морг
+  - Центр станції
+  # Begin DeltaV Additions
+  - Каплиця
+  - Бар
+  - Боксерський ринг
+  - Стійка реєстрації відділу логістики
+  - Інструментальна
+  - Евакуація
+  - Сонячні панелі
+  - Прибуття
+  - Пральня
+  - Якір станції
+  - Парк
+  - Суд
+  - Аркада
+  - Сцена
+  # End DeltaV Additions
+  # Begin EE Additions
+  - Кристал Суперматерії
+  - Генератор сингулярності
+  - Місток
+  - Автоматична торгова станція
+  - Логістичний шатл
+  - Пермабриг
+  - Камера спалювання
+  - Гідропоніка
+  - Кухня
+  - Епістеміка
+  - Медичний відділ
+  - Служба безпеки
+  - Лаваленд
+  - Генератор Тесли
+  # End EE Additions
 
 - type: dataset
   id: FoodRestrictions
   values:
-    - Vegetarian
-    - Carnivore
-    - Frugivore
-    - Fungivore
-    - Ovivore
-    - Hunter
-    - Soupivore
+  - Вегетаріанський
+  - М'ясоїдний
+  - Фруктоїдний
+  - Грибоїдний
+  - Яйцеїдний
+  - Мисливський
+  - Супоїдний
 
 
 - type: dataset
   id: Items
   values:
-    - Wrenches
-    - Welding Tools
-    - Screwdrivers
-    - Wirecutters
-    - Multitools
-    - Plushies
-    - Food packaging
-    - Soda cans
-    - Flashlights
-    - Empty toolboxes
-    - Civilian clothes
-    - Shoes
-    - Hats
-    - Scarves
-    - Folders
-    - Spray bottles
-    - Plushies
-    - Figurines
-    # Begin DeltaV Additions
-    - Toys
-    - Lockers
-    - Cigarettes
-    - Lighters
-    - Candles
-    - Signatures
-    - Empty bottles
-    - Paper
-    - Crayons
-    - Toys
-    - Lamps
-    - Pens
-    - Lightbulbs
-    - Books
-    - Snacks
-    - Cassettes
-    - Trash
-    # End DeltaV Additions
+  - Гайкові ключі
+  - Зварювальні інструменти
+  - Викрутки
+  - Кусачки
+  - Мультитули
+  - М'які іграшки
+  - Харчова упаковка
+  - Банки з газованою водою
+  - Ліхтарики
+  - Порожні ящики для інструментів
+  - Цивільний одяг
+  - Взуття
+  - Головні убори
+  - Шарфи
+  - Папки
+  - Розпилювачі
+  - М'які іграшки
+  - Фігурки
+  # Begin DeltaV Additions
+  - Іграшки
+  - Шафи
+  - Сигарети
+  - Запальнички
+  - Свічки
+  - Підписи
+  - Порожні пляшки
+  - Папір
+  - Крейда
+  - Іграшки
+  - Лампи
+  - Ручки
+  - Лампочки
+  - Книги
+  - Снеки
+  - Касети
+  - Сміття
+  # End DeltaV Additions
 
 - type: dataset
   id: Edibles
   values:
-    - Enchiladas
-    - Copypasta
-    - Moldy Bread Slice
-    - Baseball Burger
-    - Empowered Burger
-    - McGuffin
-    - Crazy Hamburger
-    # Begin DeltaV Additions
-    - Stick of Cannabis Butter
-    - Cheesecake Balls
-    - Engine Fodder
-    - Bread Dog
-    - Camel's Soup
-    - Chili Con Carnival
-    - Salty Sweet Miso Cola Soup
-    - Ketchup
-    - Chicken Nuggets
-    - Borito Pie
-    - Blue Tomato Soup
-    - Buttered Toast
-    - Ratburger
-    - Vending Machine Snacks
-    # End DeltaV Additions
+  - Енчіладас
+  - Копіпаста
+  - Пліснявий шматок хліба
+  - Бейсбольний бургер
+  - Посилений бургер
+  - МакГафін
+  - Божевільний гамбургер
+  # Begin DeltaV Additions
+  - Паличка канабісового масла
+  - Сирні кульки
+  - Корм для двигуна
+  - Хлібний пес
+  - Верблюжий суп
+  - Чилі кон Карнавал
+  - Солоно-солодкий суп Місо-Кола
+  - Кетчуп
+  - Курячі нагетси
+  - Пиріг Боріто
+  - Синій томатний суп
+  - Тост з маслом
+  - Щурячий бургер
+  - Снеки з торгового автомата
+  # End DeltaV Additions
 
 - type: dataset
   id: Holidays
   values:
-    - Bingus Day
-    - Foster's Feast
-    # Begin DeltaV Additions
-    - Preston’s Tomato Incident 
-    - Submarine's Memorial
-    - Pranksgiving
-    - Sector Delta Employee Appreciation Week
-    - Intergalactic Hug A Robot Day
-    - Todaybor Day
-    - Teo's First Contact Day
-    - Wear Pajamas to Work Day
-    - Roy’s Birthday
-    - NT Corporate Mindfulness Day
-    - Night of Holy Herbs
-    - Logistics Appreciation Week
-    - Big Ear Syndrome Awareness Day
-    - Gunchday
-    - Gerry Patrick's Ascension
-    - The Good Day of Digging and Playing
-    - the Talent Show
-    - Luperthavia
-    - Penny's Big Day
-    - Taco Tuesday 
-    # End DeltaV Additions
+  - День Бінгуса
+  - Бенкет Фостера
+  # Begin DeltaV Additions
+  - Помідорний інцидент Престона
+  - Меморіал Підводного Човна
+  - Жартівдень
+  - Тиждень вдячності співробітникам Сектору Дельта
+  - Міжгалактичний день обіймів з роботом
+  - Тудейбор Дей
+  - День Першого Контакту Тео
+  - День "В піжамі на роботу"
+  - День народження Роя
+  - День корпоративної усвідомленості НТ
+  - Ніч Святих Трав
+  - Тиждень вдячності відділу логістики
+  - День обізнаності про синдром великих вух
+  - Ганчдей
+  - Вознесіння Джеррі Патріка
+  - Добрий день Копання та Гри
+  - шоу талантів
+  - Люпертавія
+  - Великий день Пенні
+  - Тако Вівторок
+  # End DeltaV Additions
 
 - type: dataset
   id: Clothes
   values:
-    - Hardsuits
-    - Gloves
-    - Hats
-    - Capes
-    - Glasses
-    - Backpacks
-    - Coats
-    - Mantles
-    - Berets
-    - Jackets
-    - Plushies
-    - Shoes
-    - Ties
-    - Scarves
+  - Скафандри
+  - Рукавиці
+  - Головні убори
+  - Плащі
+  - Окуляри
+  - Рюкзаки
+  - Пальта
+  - Мантії
+  - Берети
+  - Куртки
+  - М'які іграшки
+  - Взуття
+  - Краватки
+  - Шарфи
 
 - type: dataset
   id: CommandRoles
   values:
-    - Captain
-    - Logistics Officer # DeltaV - what is a quartermaster
-    - Head of Security
-    - Head of Personnel
-    - Chief Engineer
-    - Chief Medical Officer
-    # Begin DeltaV Additions
-    - Mystagogue
-    - Chief Justice
-    - Administrative Assistant 
-    # End DeltaV Additions
+  - Капітан
+  - Офіцер Логістики # DeltaV - що таке квотермастер (ОЛ)
+  - Голова Служби Безпеки
+  - Голова Відділу Кадрів
+  - Головний Інженер
+  - Головний Лікар
+  # Begin DeltaV Additions
+  - Містагог
+  - Головний Суддя
+  - Адміністративний Асистент
+  # End DeltaV Additions
 
 - type: dataset
   id: SpeechRestrictions
   values:
-    - FullNameAndTitle
-    - NamesAreRude
-    - Clarity
-    - SwearingGood
-    - StatementOnly
-    - Imitation
-    - Unclarity
-    - SwearingBad
-    - QuestionOnly
-    - MustAnswer
-    - OnlyWhisper
-    - OnlyYell
-    - Rhyme
-    - Alliterate
-    - ThirdPerson
-    - TitleCase
+  - FullNameAndTitle
+  - NamesAreRude
+  - Clarity
+  - SwearingGood
+  - StatementOnly
+  - Imitation
+  - Unclarity
+  - SwearingBad
+  - QuestionOnly
+  - MustAnswer
+  - OnlyWhisper
+  - OnlyYell
+  - Rhyme
+  - Alliterate
+  - ThirdPerson
+  - TitleCase
 
 - type: dataset
   id: ThavenWords
   values:
-  - accept
-  - add
-  - admire
-  - admit
-  - advise
-  - afford
-  - agree
-  - alert
-  - allow
-  - amuse
-  - analyse
-  - announce
-  - annoy
-  - answer
-  - apologise
-  - appear
-  - applaud
-  - appreciate
-  - approve
-  - argue
-  - arrange
-  - arrest
-  - arrive
-  - ask
-  - attach
-  - attack
-  - attempt
-  - attend
-  - attract
-  - avoid
-  - back
-  - bake
-  - balance
-  - ban
-  - bang
-  - bare
-  - bat
-  - bathe
-  - battle
-  - beam
-  - beg
-  - behave
-  - belong
-  - bleach
-  - bless
-  - blind
-  - blink
-  - blot
-  - blush
-  - boast
-  - boil
-  - bolt
-  - bomb
-  - book
-  - bore
-  - borrow
-  - bounce
-  - bow
-  - box
-  - brake
-  - brake
-  - branch
-  - breathe
-  - bruise
-  - brush
-  - bubble
-  - bump
-  - burn
-  - bury
-  - buzz
-  - calculate
-  - call
-  - camp
-  - care
-  - carry
-  - carve
-  - cause
-  - challenge
-  - change
-  - charge
-  - chase
-  - cheat
-  - check
-  - cheer
-  - chew
-  - choke
-  - chop
-  - claim
-  - clap
-  - clean
-  - clear
-  - clip
-  - close
-  - coach
-  - coil
-  - collect
-  - colour
-  - comb
-  - command
-  - communicate
-  - compare
-  - compete
-  - complain
-  - complete
-  - concentrate
-  - concern
-  - confess
-  - confuse
-  - connect
-  - consider
-  - consist
-  - contain
-  - continue
-  - copy
-  - correct
-  - cough
-  - count
-  - cover
-  - crack
-  - crash
-  - crawl
-  - cross
-  - crush
-  - cry
-  - cure
-  - curl
-  - curve
-  - cycle
-  - dam
-  - damage
-  - dance
-  - dare
-  - decay
-  - deceive
-  - decide
-  - decorate
-  - delay
-  - delight
-  - deliver
-  - depend
-  - describe
-  - desert
-  - deserve
-  - destroy
-  - detect
-  - develop
-  - disagree
-  - disappear
-  - disapprove
-  - disarm
-  - discover
-  - dislike
-  - divide
-  - double
-  - doubt
-  - drag
-  - drain
-  - dream
-  - dress
-  - drip
-  - drop
-  - drown
-  - drum
-  - dry
-  - dust
-  - earn
-  - educate
-  - embarrass
-  - employ
-  - empty
-  - encourage
-  - end
-  - enjoy
-  - enter
-  - entertain
-  - escape
-  - examine
-  - excite
-  - excuse
-  - exercise
-  - exist
-  - expand
-  - expect
-  - explain
-  - explode
-  - extend
-  - face
-  - fade
-  - fail
-  - fancy
-  - fasten
-  - fax
-  - fear
-  - fence
-  - fetch
-  - file
-  - fill
-  - film
-  - fire
-  - fit
-  - fix
-  - flap
-  - flash
-  - float
-  - flood
-  - flow
-  - flower
-  - fold
-  - follow
-  - fool
-  - force
-  - form
-  - found
-  - frame
-  - frighten
-  - fry
-  - gather
-  - gaze
-  - glow
-  - glue
-  - grab
-  - grate
-  - grease
-  - greet
-  - grin
-  - grip
-  - groan
-  - guarantee
-  - guard
-  - guess
-  - guide
-  - hammer
-  - hand
-  - handle
-  - hang
-  - happen
-  - harass
-  - harm
-  - hate
-  - haunt
-  - head
-  - heal
-  - heap
-  - heat
-  - help
-  - hook
-  - hop
-  - hope
-  - hover
-  - hug
-  - hum
-  - hunt
-  - hurry
-  - identify
-  - ignore
-  - imagine
-  - impress
-  - improve
-  - include
-  - increase
-  - influence
-  - inform
-  - inject
-  - injure
-  - instruct
-  - intend
-  - interest
-  - interfere
-  - interrupt
-  - introduce
-  - invent
-  - invite
-  - irritate
-  - itch
-  - jail
-  - jam
-  - jog
-  - join
-  - joke
-  - judge
-  - juggle
-  - jump
-  - kick
-  - kill
-  - kiss
-  - kneel
-  - knit
-  - knock
-  - knot
-  - label
-  - land
-  - last
-  - laugh
-  - launch
-  - learn
-  - level
-  - license
-  - lick
-  - lie
-  - lighten
-  - like
-  - list
-  - listen
-  - live
-  - load
-  - lock
-  - long
-  - look
-  - love
-  - man
-  - manage
-  - march
-  - mark
-  - marry
-  - match
-  - mate
-  - matter
-  - measure
-  - meddle
-  - melt
-  - memorise
-  - mend
-  - messup
-  - milk
-  - mine
-  - miss
-  - mix
-  - moan
-  - moor
-  - mourn
-  - move
-  - muddle
-  - mug
-  - multiply
-  - murder
-  - nail
-  - name
-  - need
-  - nest
-  - nod
-  - note
-  - notice
-  - number
-  - obey
-  - object
-  - observe
-  - obtain
-  - occur
-  - offend
-  - offer
-  - open
-  - order
-  - overflow
-  - owe
-  - own
-  - pack
-  - paddle
-  - paint
-  - park
-  - part
-  - pass
-  - paste
-  - pat
-  - pause
-  - peck
-  - pedal
-  - peel
-  - peep
-  - perform
-  - permit
-  - phone
-  - pick
-  - pinch
-  - pine
-  - place
-  - plan
-  - plant
-  - play
-  - please
-  - plug
-  - point
-  - poke
-  - polish
-  - pop
-  - possess
-  - post
-  - pour
-  - practise
-  - pray
-  - preach
-  - precede
-  - prefer
-  - prepare
-  - present
-  - preserve
-  - press
-  - pretend
-  - prevent
-  - prick
-  - print
-  - produce
-  - program
-  - promise
-  - protect
-  - provide
-  - pull
-  - pump
-  - punch
-  - puncture
-  - punish
-  - push
-  - question
-  - queue
-  - race
-  - radiate
-  - rain
-  - raise
-  - reach
-  - realise
-  - receive
-  - recognise
-  - record
-  - reduce
-  - reflect
-  - refuse
-  - regret
-  - reign
-  - reject
-  - rejoice
-  - relax
-  - release
-  - rely
-  - remain
-  - remember
-  - remind
-  - remove
-  - repair
-  - repeat
-  - replace
-  - reply
-  - report
-  - reproduce
-  - request
-  - rescue
-  - retire
-  - return
-  - rhyme
-  - rinse
-  - risk
-  - rob
-  - rock
-  - roll
-  - rot
-  - rub
-  - ruin
-  - rule
-  - rush
-  - sack
-  - sail
-  - satisfy
-  - save
-  - saw
-  - scare
-  - scatter
-  - scold
-  - scorch
-  - scrape
-  - scratch
-  - scream
-  - screw
-  - scribble
-  - scrub
-  - seal
-  - search
-  - separate
-  - serve
-  - settle
-  - shade
-  - share
-  - shave
-  - shelter
-  - shiver
-  - shock
-  - shop
-  - shriek
-  - shrug
-  - sigh
-  - sign
-  - signal
-  - sin
-  - sip
-  - ski
-  - skip
-  - slap
-  - slip
-  - slow
-  - smash
-  - smell
-  - smile
-  - smoke
-  - snatch
-  - sneeze
-  - sniff
-  - snore
-  - snow
-  - soak
-  - soothe
-  - sound
-  - spare
-  - spark
-  - sparkle
-  - spell
-  - spill
-  - spoil
-  - spot
-  - spray
-  - sprout
-  - squash
-  - squeak
-  - squeal
-  - squeeze
-  - stain
-  - stamp
-  - stare
-  - start
-  - stay
-  - steer
-  - step
-  - stir
-  - stitch
-  - stop
-  - store
-  - strap
-  - strengthen
-  - stretch
-  - stroke
-  - stuff
-  - subtract
-  - succeed
-  - suck
-  - suffer
-  - suggest
-  - suit
-  - supply
-  - support
-  - suppose
-  - surprise
-  - surround
-  - suspect
-  - suspend
-  - switch
-  - talk
-  - tame
-  - tap
-  - taste
-  - tease
-  - telephone
-  - tempt
-  - terrify
-  - test
-  - thank
-  - thaw
-  - tick
-  - tickle
-  - tie
-  - time
-  - tip
-  - tire
-  - touch
-  - tour
-  - tow
-  - trace
-  - trade
-  - train
-  - transport
-  - trap
-  - travel
-  - treat
-  - tremble
-  - trick
-  - trip
-  - trot
-  - trouble
-  - trust
-  - try
-  - tug
-  - tumble
-  - turn
-  - twist
-  - type
-  - unfasten
-  - unite
-  - unlock
-  - unpack
-  - untidy
-  - use
-  - vanish
-  - visit
-  - wail
-  - wait
-  - walk
-  - wander
-  - want
-  - warm
-  - warn
-  - wash
-  - waste
-  - watch
-  - water
-  - wave
-  - weigh
-  - welcome
-  - whine
-  - whip
-  - whirl
-  - whistle
-  - wink
-  - wipe
-  - wish
-  - wobble
-  - wonder
-  - work
-  - worry
-  - wrap
-  - wreck
-  - wrestle
-  - wriggle
-  - yawn
-  - yell
-  - zip
-  - zoom
-    - adorable
-  - adventurous
-  - aggressive
-  - alert
-  - attractive
-  - average
-  - beautiful
-  - blue-eyed
-  - bloody
-  - blushing
-  - bright
-  - clean
-  - clear
-  - cloudy
-  - colorful
-  - crowded
-  - cute
-  - dark
-  - drab
-  - distinct
-  - dull
-  - elegant
-  - excited
-  - fancy
-  - filthy
-  - glamorous
-  - gleaming
-  - gorgeous
-  - graceful
-  - grotesque
-  - handsome
-  - homely
-  - light
-  - long
-  - magnificent
-  - misty
-  - motionless
-  - muddy
-  - old-fashioned
-  - plain
-  - poised
-  - precious
-  - quaint
-  - shiny
-  - smoggy
-  - sparkling
-  - spotless
-  - stormy
-  - strange
-  - ugly
-  - ugliest
-  - unsightly
-  - unusual
-  - wide-eyed
-  - alive
-  - annoying
-  - bad
-  - better
-  - beautiful
-  - brainy
-  - breakable
-  - busy
-  - careful
-  - cautious
-  - clever
-  - clumsy
-  - concerned
-  - crazy
-  - curious
-  - dead
-  - different
-  - difficult
-  - doubtful
-  - easy
-  - expensive
-  - famous
-  - fragile
-  - frail
-  - gifted
-  - helpful
-  - helpless
-  - horrible
-  - important
-  - impossible
-  - inexpensive
-  - innocent
-  - inquisitive
-  - modern
-  - mushy
-  - odd
-  - open
-  - outstanding
-  - poor
-  - powerful
-  - prickly
-  - puzzled
-  - real
-  - rich
-  - shy
-  - sleepy
-  - stupid
-  - super
-  - talented
-  - tame
-  - tender
-  - tough
-  - uninterested
-  - vast
-  - wandering
-  - wild
-  - wrong
-  - angry
-  - annoyed
-  - anxious
-  - arrogant
-  - ashamed
-  - awful
-  - bad
-  - bewildered
-  - black
-  - blue
-  - bored
-  - clumsy
-  - combative
-  - condemned
-  - confused
-  - crazy,flipped-out
-  - creepy
-  - cruel
-  - dangerous
-  - defeated
-  - defiant
-  - depressed
-  - disgusted
-  - disturbed
-  - dizzy
-  - dull
-  - embarrassed
-  - envious
-  - evil
-  - fierce
-  - foolish
-  - frantic
-  - frightened
-  - grieving
-  - grumpy
-  - helpless
-  - homeless
-  - hungry
-  - hurt
-  - ill
-  - itchy
-  - jealous
-  - jittery
-  - lazy
-  - lonely
-  - mysterious
-  - nasty
-  - naughty
-  - nervous
-  - nutty
-  - obnoxious
-  - outrageous
-  - panicky
-  - repulsive
-  - scary
-  - selfish
-  - sore
-  - tense
-  - terrible
-  - testy
-  - thoughtless
-  - tired
-  - troubled
-  - upset
-  - uptight
-  - weary
-  - wicked
-  - worried
-  - agreeable
-  - amused
-  - brave
-  - calm
-  - charming
-  - cheerful
-  - comfortable
-  - cooperative
-  - courageous
-  - delightful
-  - determined
-  - eager
-  - elated
-  - enchanting
-  - encouraging
-  - energetic
-  - enthusiastic
-  - excited
-  - exuberant
-  - fair
-  - faithful
-  - fantastic
-  - fine
-  - friendly
-  - funny
-  - gentle
-  - glorious
-  - good
-  - happy
-  - healthy
-  - helpful
-  - hilarious
-  - jolly
-  - joyous
-  - kind
-  - lively
-  - lovely
-  - lucky
-  - nice
-  - obedient
-  - perfect
-  - pleasant
-  - proud
-  - relieved
-  - silly
-  - smiling
-  - splendid
-  - successful
-  - thankful
-  - thoughtful
-  - victorious
-  - vivacious
-  - witty
-  - wonderful
-  - zealous
-  - zany
-  - broad
-  - chubby
-  - crooked
-  - curved
-  - deep
-  - flat
-  - high
-  - hollow
-  - low
-  - narrow
-  - round
-  - shallow
-  - skinny
-  - square
-  - steep
-  - straight
-  - wide
-  - big
-  - colossal
-  - fat
-  - gigantic
-  - great
-  - huge
-  - immense
-  - large
-  - little
-  - mammoth
-  - massive
-  - miniature
-  - petite
-  - puny
-  - scrawny
-  - short
-  - small
-  - tall
-  - teeny
-  - teeny-tiny
-  - tiny
-  - cooing
-  - deafening
-  - faint
-  - harsh
-  - high-pitched
-  - hissing
-  - hushed
-  - husky
-  - loud
-  - melodic
-  - moaning
-  - mute
-  - noisy
-  - purring
-  - quiet
-  - raspy
-  - resonant
-  - screeching
-  - shrill
-  - silent
-  - soft
-  - squealing
-  - thundering
-  - voiceless
-  - whispering
-  - ancient
-  - brief
-  - early
-  - fast
-  - late
-  - long
-  - modern
-  - old
-  - old-fashioned
-  - quick
-  - rapid
-  - short
-  - slow
-  - swift
-  - young
-  - bitter
-  - delicious
-  - fresh
-  - juicy
-  - ripe
-  - rotten
-  - salty
-  - sour
-  - spicy
-  - stale
-  - sticky
-  - strong
-  - sweet
-  - tart
-  - tasteless
-  - tasty
-  - thirsty
-  - fluttering
-  - fuzzy
-  - greasy
-  - grubby
-  - hard
-  - hot
-  - icy
-  - loose
-  - melted
-  - nutritious
-  - plastic
-  - prickly
-  - rainy
-  - rough
-  - scattered
-  - shaggy
-  - shaky
-  - sharp
-  - shivering
-  - silky
-  - slimy
-  - slippery
-  - smooth
-  - soft
-  - solid
-  - steady
-  - sticky
-  - tender
-  - tight
-  - uneven
-  - weak
-  - wet
-  - wooden
-  - yummy
-  - boiling
-  - breezy
-  - broken
-  - bumpy
-  - chilly
-  - cold
-  - cool
-  - creepy
-  - crooked
-  - cuddly
-  - curly
-  - damaged
-  - damp
-  - dirty
-  - dry
-  - dusty
-  - filthy
-  - flaky
-  - fluffy
-  - freezing
-  - hot
-  - warm
-  - wet
-  - abundant
-  - empty
-  - few
-  - heavy
-  - light
-  - many
-  - numerous
-  - substantial
-  - capitalist
+  - приймати
+  - додавати
+  - захоплюватися
+  - визнавати
+  - радити
+  - дозволяти собі
+  - погоджуватися
+  - сповіщати
+  - дозволяти
+  - розважати
+  - аналізувати
+  - оголошувати
+  - дратувати
+  - відповідати
+  - вибачатися
+  - з'являтися
+  - аплодувати
+  - цінувати
+  - схвалювати
+  - сперечатися
+  - влаштовувати
+  - заарештовувати
+  - прибувати
+  - питати
+  - прикріплювати
+  - атакувати
+  - намагатися
+  - відвідувати
+  - приваблювати
+  - уникати
+  - підтримувати
+  - пекти
+  - балансувати
+  - забороняти
+  - грюкати
+  - оголювати
+  - бити
+  - купатися
+  - битися
+  - світити
+  - благати
+  - поводитися
+  - належати
+  - відбілювати
+  - благословляти
+  - осліплювати
+  - моргати
+  - промокати
+  - червоніти
+  - хвалитися
+  - кип'ятити
+  - замикати
+  - бомбити
+  - бронювати
+  - нудьгувати
+  - позичати
+  - відскакувати
+  - вклонятися
+  - боксувати
+  - гальмувати
+  - розгалужуватися
+  - дихати
+  - робити синець
+  - чистити щіткою
+  - пузиритися
+  - вдарятися
+  - горіти
+  - ховати
+  - дзижчати
+  - обчислювати
+  - кликати
+  - таборувати
+  - піклуватися
+  - нести
+  - вирізати
+  - спричиняти
+  - кидати виклик
+  - змінювати
+  - заряджати
+  - переслідувати
+  - обманювати
+  - перевіряти
+  - підбадьорювати
+  - жувати
+  - душити
+  - рубати
+  - заявляти
+  - плескати
+  - чистити
+  - очищати
+  - стригти
+  - закривати
+  - тренувати
+  - згортати
+  - збирати
+  - фарбувати
+  - розчісувати
+  - командувати
+  - спілкуватися
+  - порівнювати
+  - змагатися
+  - скаржитися
+  - завершувати
+  - концентруватися
+  - стосуватися
+  - зізнаватися
+  - плутати
+  - з'єднувати
+  - розглядати
+  - складатися
+  - містити
+  - продовжувати
+  - копіювати
+  - виправляти
+  - кашляти
+  - рахувати
+  - накривати
+  - тріскатися
+  - розбиватися
+  - повзти
+  - перетинати
+  - розчавлювати
+  - плакати
+  - лікувати
+  - завивати
+  - вигинати
+  - їздити на велосипеді
+  - перегороджувати
+  - пошкоджувати
+  - танцювати
+  - наважуватися
+  - гнити
+  - обманювати
+  - вирішувати
+  - прикрашати
+  - затримувати
+  - захоплювати
+  - доставляти
+  - залежати
+  - описувати
+  - покидати
+  - заслуговувати
+  - руйнувати
+  - виявляти
+  - розвивати
+  - не погоджуватися
+  - зникати
+  - не схвалювати
+  - роззброювати
+  - відкривати
+  - не любити
+  - ділити
+  - подвоювати
+  - сумніватися
+  - тягнути
+  - осушувати
+  - мріяти
+  - одягати
+  - капати
+  - кидати
+  - тонути
+  - барабанити
+  - сушити
+  - витирати пил
+  - заробляти
+  - навчати
+  - бентежити
+  - наймати
+  - спорожняти
+  - заохочувати
+  - закінчувати
+  - насолоджуватися
+  - входити
+  - розважати
+  - втікати
+  - оглядати
+  - збуджувати
+  - вибачати
+  - тренуватися
+  - існувати
+  - розширювати
+  - очікувати
+  - пояснювати
+  - вибухати
+  - продовжувати
+  - стояти обличчям до
+  - в'янути
+  - зазнавати невдачі
+  - уявляти
+  - застібати
+  - надсилати факсом
+  - боятися
+  - огороджувати
+  - приносити
+  - подавати документи
+  - наповнювати
+  - знімати фільм
+  - стріляти
+  - підходити за розміром
+  - лагодити
+  - махати
+  - спалахувати
+  - плавати на поверхні
+  - затоплювати
+  - текти
+  - цвісти
+  - складати
+  - слідувати
+  - дурити
+  - змушувати
+  - формувати
+  - засновувати
+  - обрамляти
+  - лякати
+  - смажити
+  - збирати
+  - пильно дивитися
+  - світитися
+  - клеїти
+  - хапати
+  - терти на тертці
+  - змащувати
+  - вітати
+  - шкіритися
+  - стискати
+  - стогнати
+  - гарантувати
+  - охороняти
+  - вгадувати
+  - вести
+  - забивати молотком
+  - передавати
+  - впоратися
+  - вішати
+  - траплятися
+  - турбувати
+  - шкодити
+  - ненавидіти
+  - переслідувати привидом
+  - очолювати
+  - зцілювати
+  - нагромаджувати
+  - нагрівати
+  - допомагати
+  - чіпляти гачком
+  - стрибати
+  - сподіватися
+  - ширяти
+  - обіймати
+  - гудіти
+  - полювати
+  - поспішати
+  - ідентифікувати
+  - ігнорувати
+  - уявляти
+  - вражати
+  - покращувати
+  - включати
+  - збільшувати
+  - впливати
+  - інформувати
+  - вводити ін'єкцію
+  - ранити
+  - інструктувати
+  - мати намір
+  - цікавити
+  - втручатися
+  - перебивати
+  - представляти
+  - винаходити
+  - запрошувати
+  - дратувати
+  - свербіти
+  - ув'язнювати
+  - заклинювати
+  - бігати підтюпцем
+  - приєднуватися
+  - жартувати
+  - судити
+  - жонглювати
+  - стрибати
+  - копати
+  - вбивати
+  - цілувати
+  - ставати на коліна
+  - в'язати
+  - стукати
+  - зав'язувати вузол
+  - маркувати
+  - приземлятися
+  - тривати
+  - сміятися
+  - запускати
+  - вчитися
+  - вирівнювати
+  - ліцензувати
+  - лизати
+  - брехати
+  - освітлювати
+  - подобатися
+  - перераховувати
+  - слухати
+  - жити
+  - завантажувати
+  - замикати
+  - тужити
+  - дивитися
+  - любити
+  - комплектувати
+  - керувати
+  - марширувати
+  - позначати
+  - одружуватися
+  - пасувати
+  - паруватися
+  - мати значення
+  - вимірювати
+  - втручатися в чужі справи
+  - танути
+  - запам'ятовувати
+  - лагодити
+  - псувати
+  - доїти
+  - добувати
+  - сумувати
+  - змішувати
+  - стогнати
+  - швартуватися
+  - оплакувати
+  - рухати
+  - плутати
+  - грабувати
+  - множити
+  - вбивати з умислом
+  - прибивати цвяхом
+  - називати
+  - потребувати
+  - гніздитися
+  - кивати
+  - занотовувати
+  - помічати
+  - нумерувати
+  - слухатися
+  - заперечувати
+  - спостерігати
+  - отримувати
+  - траплятися
+  - ображати
+  - пропонувати
+  - відкривати
+  - наказувати
+  - переливатися
+  - бути винним
+  - володіти
+  - пакувати
+  - гребти
+  - малювати фарбами
+  - паркувати
+  - розділяти
+  - проходити
+  - клеїти
+  - поплескувати
+  - робити паузу
+  - клювати
+  - крутити педалі
+  - чистити шкірку
+  - підглядати
+  - виконувати
+  - дозволяти
+  - дзвонити по телефону
+  - вибирати
+  - щипати
+  - тужити за сосною
+  - розміщувати
+  - планувати
+  - садити
+  - грати
+  - догоджати
+  - затикати
+  - вказувати
+  - тикати
+  - полірувати
+  - вискакувати
+  - володіти
+  - відправляти поштою
+  - наливати
+  - практикуватися
+  - молитися
+  - проповідувати
+  - передувати
+  - надавати перевагу
+  - готувати
+  - дарувати
+  - зберігати
+  - тиснути
+  - прикидатися
+  - запобігати
+  - колоти
+  - друкувати
+  - виробляти
+  - програмувати
+  - обіцяти
+  - захищати
+  - забезпечувати
+  - тягнути
+  - качати
+  - бити кулаком
+  - проколювати
+  - карати
+  - штовхати
+  - питати
+  - стояти в черзі
+  - змагатися
+  - випромінювати
+  - дощити
+  - піднімати
+  - досягати
+  - усвідомлювати
+  - отримувати
+  - впізнавати
+  - записувати
+  - зменшувати
+  - відбивати
+  - відмовлятися
+  - шкодувати
+  - царювати
+  - відхиляти
+  - радіти
+  - розслаблятися
+  - випускати
+  - покладатися
+  - залишатися
+  - пам'ятати
+  - нагадувати
+  - видаляти
+  - ремонтувати
+  - повторювати
+  - замінювати
+  - відповідати
+  - повідомляти
+  - відтворювати
+  - просити
+  - рятувати
+  - виходити на пенсію
+  - повертати
+  - римувати
+  - полоскати
+  - ризикувати
+  - грабувати
+  - гойдати
+  - котити
+  - гнити
+  - терти
+  - руйнувати
+  - правити
+  - поспішати
+  - звільняти
+  - плисти під вітрилами
+  - задовольняти
+  - рятувати
+  - пиляти
+  - лякати
+  - розкидати
+  - лаяти
+  - обпалювати
+  - шкребти
+  - дряпати
+  - верещати
+  - закручувати
+  - писати нерозбірливо
+  - терти щіткою
+  - запечатувати
+  - шукати
+  - розділяти
+  - служити
+  - оселятися
+  - затінювати
+  - ділитися
+  - голитися
+  - прихищати
+  - тремтіти від холоду
+  - шокувати
+  - робити покупки
+  - верещати
+  - знизувати плечима
+  - зітхати
+  - підписувати
+  - сигналізувати
+  - грішити
+  - сьорбати
+  - кататися на лижах
+  - пропускати
+  - давати ляпаса
+  - ковзати
+  - сповільнювати
+  - розбивати вщент
+  - нюхати
+  - посміхатися
+  - курити
+  - хапати
+  - чхати
+  - сопіти
+  - хропіти
+  - сніжити
+  - замочувати
+  - заспокоювати
+  - звучати
+  - шкодувати
+  - іскрити
+  - іскритися
+  - вимовляти по буквах
+  - розливати
+  - псувати
+  - помічати
+  - розпилювати
+  - проростати
+  - роздавлювати
+  - пищати
+  - верещати
+  - стискати
+  - бруднити
+  - тупотіти
+  - витріщатися
+  - починати
+  - залишатися
+  - керувати кермом
+  - крокувати
+  - перемішувати
+  - шити
+  - зупиняти
+  - зберігати
+  - пристібати ременем
+  - зміцнювати
+  - розтягувати
+  - гладити
+  - напихати
+  - віднімати
+  - досягати успіху
+  - смоктати
+  - страждати
+  - пропонувати
+  - пасувати
+  - постачати
+  - підтримувати
+  - припускати
+  - дивувати
+  - оточувати
+  - підозрювати
+  - підвішувати
+  - перемикати
+  - розмовляти
+  - приручати
+  - постукувати
+  - куштувати
+  - дражнити
+  - телефонувати
+  - спокушати
+  - жахати
+  - тестувати
+  - дякувати
+  - танути
+  - цокати
+  - лоскотати
+  - зав'язувати
+  - вимірювати час
+  - давати чайові
+  - втомлювати
+  - торкатися
+  - подорожувати
+  - буксирувати
+  - простежувати
+  - торгувати
+  - тренувати
+  - перевозити
+  - ловити в пастку
+  - подорожувати
+  - ставитися
+  - тремтіти
+  - обманювати
+  - спотикатися
+  - бігти риссю
+  - турбувати
+  - довіряти
+  - намагатися
+  - смикати
+  - перекидатися
+  - повертати
+  - скручувати
+  - друкувати
+  - розстібати
+  - об'єднувати
+  - відмикати
+  - розпаковувати
+  - робити неохайним
+  - використовувати
+  - зникати
+  - відвідувати
+  - голосити
+  - чекати
+  - ходити
+  - блукати
+  - хотіти
+  - гріти
+  - попереджати
+  - мити
+  - марнувати
+  - дивитися
+  - поливати
+  - махати
+  - важити
+  - вітати
+  - скиглити
+  - збивати
+  - кружляти
+  - свистіти
+  - підморгувати
+  - витирати
+  - бажати
+  - хитатися
+  - дивуватися
+  - працювати
+  - турбуватися
+  - загортати
+  - руйнувати корабель
+  - боротися
+  - звиватися
+  - позіхати
+  - кричати
+  - застібати блискавку
+  - швидко наближати
+  - чарівний
+  - авантюрний
+  - агресивний
+  - тривожний
+  - привабливий
+  - середній
+  - красивий
+  - блакитноокий
+  - кривавий
+  - почервонілий
+  - яскравий
+  - чистий
+  - ясний
+  - хмарний
+  - барвистий
+  - переповнений
+  - милий
+  - темний
+  - невиразний
+  - виразний
+  - нудний
+  - елегантний
+  - збуджений
+  - вишуканий
+  - брудний
+  - гламурний
+  - блискучий
+  - розкішний
+  - граційний
+  - гротескний
+  - гарний
+  - домашній
+  - світлий
+  - довгий
+  - величний
+  - туманний
+  - нерухомий
+  - каламутний
+  - старомодний
+  - простий
+  - врівноважений
+  - дорогоцінний
+  - химерний
+  - блискучий
+  - засможений
+  - іскристий
+  - бездоганний
+  - штормовий
+  - дивний
+  - потворний
+  - найпотворніший
+  - непривабливий
+  - незвичайний
+  - широкоокий
+  - живий
+  - дратівливий
+  - поганий
+  - кращий
+  - розумний
+  - крихкий
+  - зайнятий
+  - обережний
+  - обачний
+  - кмітливий
+  - незграбний
+  - стурбований
+  - божевільний
+  - допитливий
+  - мертвий
+  - інший
+  - важкий
+  - сумнівний
+  - легкий
+  - дорогий
+  - відомий
+  - ламкий
+  - кволий
+  - обдарований
+  - корисний
+  - безпорадний
+  - жахливий
+  - важливий
+  - неможливий
+  - недорогий
+  - невинний
+  - допитливий
+  - сучасний
+  - сентиментальний
+  - дивний
+  - відкритий
+  - видатний
+  - бідний
+  - могутній
+  - колючий
+  - спантеличений
+  - справжній
+  - багатий
+  - сором'язливий
+  - сонний
+  - дурний
+  - чудовий
+  - талановитий
+  - ручний
+  - ніжний
+  - жорсткий
+  - незацікавлений
+  - величезний
+  - блукаючий
+  - дикий
+  - неправильний
+  - сердитий
+  - роздратований
+  - тривожний
+  - зарозумілий
+  - засоромлений
+  - жахливий
+  - розгублений
+  - чорний
+  - синій
+  - знуджений
+  - бойовий
+  - засуджений
+  - збентежений
+  - божевільний
+  - моторошний
+  - жорстокий
+  - небезпечний
+  - переможений
+  - зухвалий
+  - пригнічений
+  - огидний
+  - стурбований
+  - запаморочений
+  - збентежений
+  - заздрісний
+  - злий
+  - лютий
+  - нерозумний
+  - шалений
+  - наляканий
+  - скорботний
+  - сварливий
+  - бездомний
+  - голодний
+  - скривджений
+  - хворий
+  - сверблячий
+  - ревнивий
+  - знервований
+  - лінивий
+  - самотній
+  - таємничий
+  - бридкий
+  - неслухняний
+  - нервовий
+  - дивакуватий
+  - неприємний
+  - обурливий
+  - панічний
+  - відразливий
+  - страшний
+  - егоїстичний
+  - хворий
+  - напружений
+  - жахливий
+  - дратівливий
+  - бездумний
+  - втомлений
+  - проблемний
+  - засмучений
+  - скований
+  - виснажений
+  - грішний
+  - стурбований
+  - приємний
+  - потішений
+  - хоробрий
+  - спокійний
+  - чарівний
+  - веселий
+  - зручний
+  - готовий до співпраці
+  - мужній
+  - чудовий
+  - рішучий
+  - нетерплячий
+  - радісний
+  - чарівний
+  - підбадьорливий
+  - енергійний
+  - ентузіаст
+  - життєрадісний
+  - справедливий
+  - вірний
+  - фантастичний
+  - гарний
+  - дружній
+  - смішний
+  - лагідний
+  - славетний
+  - добрий
+  - щасливий
+  - здоровий
+  - дуже смішний
+  - радісний
+  - радісний
+  - добрий
+  - жвавий
+  - милий
+  - щасливий
+  - милий
+  - слухняний
+  - ідеальний
+  - приємний
+  - гордий
+  - полегшений
+  - безглуздий
+  - усміхнений
+  - блискучий
+  - успішний
+  - вдячний
+  - вдумливий
+  - переможний
+  - жвавий
+  - дотепний
+  - чудовий
+  - ревний
+  - дивакуватий
+  - широкий
+  - пухкий
+  - кривий
+  - вигнутий
+  - глибокий
+  - плаский
+  - високий
+  - порожнистий
+  - низький
+  - вузький
+  - круглий
+  - мілкий
+  - худий
+  - квадратний
+  - крутий
+  - прямий
+  - широкий
+  - великий
+  - колосальний
+  - товстий
+  - гігантський
+  - великий
+  - величезний
+  - неосяжний
+  - великий
+  - маленький
+  - мамонт
+  - масивний
+  - мініатюрний
+  - витончений
+  - кволий
+  - кістлявий
+  - короткий
+  - маленький
+  - високий
+  - крихітний
+  - дуже крихітний
+  - крихітний
+  - воркуючий
+  - оглушливий
+  - слабкий
+  - різкий
+  - високий звук
+  - шиплячий
+  - приглушений
+  - хрипкий
+  - гучний
+  - мелодійний
+  - стогнучий
+  - німий
+  - шумний
+  - муркотливий
+  - тихий
+  - скрипучий
+  - гучний
+  - верескливий
+  - пронизливий
+  - мовчазний
+  - м'який
+  - верещаючий
+  - громовий
+  - безголосий
+  - шепочучий
+  - стародавній
+  - короткий
+  - ранній
+  - швидкий
+  - пізній
+  - старий
+  - швидкий
+  - стрімкий
+  - повільний
+  - прудкий
+  - молодий
+  - гіркий
+  - смачний
+  - свіжий
+  - соковитий
+  - стиглий
+  - гнилий
+  - солоний
+  - кислий
+  - гострий
+  - черствий
+  - липкий
+  - сильний
+  - солодкий
+  - терпкий
+  - позбавлений смаку
+  - смачний
+  - спраглий
+  - тріпочучий
+  - пухнастий
+  - жирний
+  - неохайний
+  - твердий
+  - гарячий
+  - крижаний
+  - вільний
+  - розтоплений
+  - поживний
+  - пластиковий
+  - дощовий
+  - шорсткий
+  - розкиданий
+  - кошлатий
+  - хиткий
+  - гострий
+  - тремтячий
+  - шовковистий
+  - слизький
+  - слизький
+  - гладкий
+  - твердий
+  - стійкий
+  - тугий
+  - нерівний
+  - слабкий
+  - мокрий
+  - дерев'яний
+  - смачний
+  - киплячий
+  - свіжий вітер
+  - зламаний
+  - вибоїстий
+  - прохолодний
+  - холодний
+  - прохолодний
+  - приємний для обіймів
+  - кучерявий
+  - пошкоджений
+  - вологий
+  - брудний
+  - сухий
+  - запилений
+  - лускатий
+  - пухнастий
+  - морозний
+  - рясний
+  - порожній
+  - мало
+  - важкий
+  - легкий
+  - багато
+  - численний
+  - істотний
+  - капіталіст

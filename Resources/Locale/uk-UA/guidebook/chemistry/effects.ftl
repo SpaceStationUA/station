@@ -352,3 +352,7 @@ reagent-effect-guidebook-stamina-change = { $chance ->
                     *[1] зменшити
                  }
     } витривалість на {$amount} балів
+reagent-effect-guidebook-chem-restorereroll-psionic = { $chance ->
+        [1] Відновлює
+        *[other] відновити
+    } здатність отримувати користь від реагентів, що відкривають розум

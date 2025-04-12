@@ -301,3 +301,4 @@ ui-options-modern-progress-bar = Сучасний індикатор викон�
 ui-options-mood-visual-effects = Увімкніть візуальні ефекти системи настрою
 
 ui-options-function-smart-equip-back = Автоматично екіпірувати в слот спини
+ui-options-binds-search = Пошук

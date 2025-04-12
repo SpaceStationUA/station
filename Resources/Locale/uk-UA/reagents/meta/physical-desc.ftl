@@ -100,3 +100,4 @@ reagent-physical-desc-neural = нейронну
 
 reagent-physical-desc-feathery = пір'ястий
 reagent-physical-desc-unhealthy = нездоровий
+reagent-physical-desc-diametric = діаметральний

@@ -114,3 +114,5 @@ language-NovuNederic-description = Колись мова мореплавців 
     Побудована на століттях мореплавства, меліорації та торгівлі, вона процвітає серед тих, хто формує цілі світи — так само, як їхні предки формували землю з моря.
 language-Psychomantic-name = Психомантія
 language-Psychomantic-description = Чисте значення, вільне від тиранії примітивних слів і жестів.
+language-DroneTalk-name = Дрон
+language-DroneTalk-description = Незрозуміло для більшості не-дронів!

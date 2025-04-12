@@ -14,3 +14,5 @@ reagent-effect-status-effect-StaminaModifier = модифікована витр
 
 reagent-effect-status-effect-RadiationProtection = радіаційний захист
 reagent-effect-status-effect-Drowsiness = сонливість
+reagent-effect-status-effect-NoScream = імунітет до болю
+reagent-effect-status-effect-Adrenaline = імунітет до сповільнення через пошкодження

@@ -149,3 +149,6 @@ character-mindshield-requirement = Ви {$inverted ->
     [true]повинні
     *[other]не повинні
 } бути захищені ментальним щитом
+character-requirement-desc = Вимоги:
+
+## Робота
