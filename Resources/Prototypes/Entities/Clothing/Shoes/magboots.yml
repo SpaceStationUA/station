@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingShoesBase, BaseToggleClothing]
   id: ClothingShoesBootsMagBase
-  name: "магнітні чоботи"
-  description: "Магнітні черевики, часто використовуються під час позашляхової активності, щоб гарантувати, що користувач залишається надійно прикріпленим до транспортного засобу."
+  name: magboots
+  description: Magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
   abstract: true
   components:
   - type: Sprite
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingShoesBootsMag
   id: ClothingShoesBootsMagAdv
-  name: "просунуті магнітні чоботи"
-  description: "Найсучасніші магнітні черевики, які не гальмують свого власника."
+  name: advanced magboots
+  description: State-of-the-art magnetic boots that do not slow down their wearer.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/magboots-advanced.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingShoesBootsMag
   id: ClothingShoesBootsMagBlinding
-  name: "магнітні чоботи сліпучої швидкості"
-  description: "Вони виглядатимуть привабливо на такому ловеласі, як ти."
+  name: magboots of blinding speed
+  description: These would look fetching on a fetcher like you.
   components:
   - type: ClothingSpeedModifier
     walkModifier: 1.10 #PVS isn't too much of an issue when you are blind...
@@ -81,8 +81,8 @@
 - type: entity
   parent: [ClothingShoesBootsMagBase, BaseJetpack]
   id: ClothingShoesBootsMagSyndie
-  name: "криваво-червоні магнітні чоботи"
-  description: "Магнітні черевики, що мають потужну магнітну тягу та інтегровані штовхачі, спроектовані за останнім словом техніки."
+  name: blood-red magboots
+  description: Reverse-engineered magnetic boots that have a heavy magnetic pull and integrated thrusters.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/magboots-syndicate.rsi
@@ -129,8 +129,8 @@
 - type: entity
   parent: ClothingShoesBootsMag
   id: ClothingShoesBootsMagEng
-  name: "інженерні магчеревики"
-  description: "Дорогі магчеревики, виготовлені з легших матеріалів для швидкого реагування інженерів."
+  name: engineering magboots
+  description: Expensive magboots made with lighter materials for quick engineering responses.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/magboots.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: ClothingShoesBootsMag
   id: ClothingShoesBootsMagSec
-  name: "бойові магчеревики"
-  description: "Надміцні магчеревики з додатковим захистом і зручним ремінцем для додаткової зброї."
+  name: combat magboots
+  description: Heavy-duty magboots with added protection and a convenient sidearm strap.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/magboots-combat.rsi
@@ -198,8 +198,8 @@
 
 - type: entity
   id: ActionToggleMagboots
-  name: "Перемикач Magboots"
-  description: "Вмикає та вимикає магбути."
+  name: Toggle Magboots
+  description: Toggles the magboots on and off.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

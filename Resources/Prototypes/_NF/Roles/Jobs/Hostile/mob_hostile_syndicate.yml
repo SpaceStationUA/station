@@ -1,5 +1,5 @@
 - type: entity
-  name: "агент синдикатського флоту"
+  name: syndicate naval agent
   abstract: true
   parent:
   - MobHumanoidHostileBase
@@ -27,7 +27,7 @@
 # Humans
 # Syndicate Captain, "armed" with AP Python
 - type: entity
-  name: "капітан синдикату"
+  name: syndicate captain
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalCaptainA
   components:
@@ -88,7 +88,7 @@
 
 # Syndicate Engineer, "armed" with shotgun
 - type: entity
-  name: "інженер синдикату"
+  name: syndicate engineer
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalEngineerA
   components:
@@ -146,7 +146,7 @@
 # Syndicate "Medic", throws poisoned darts laced with 2u of Impedrezene (hallucinogenic, deals minor poison damage, makes you barf and slows you down)
 # Look for darts here: /Resources/Prototypes/_NF/Entities/Objects/Weapons/Throwable/throwable_weapons.yml
 - type: entity
-  name: "медик синдикату"
+  name: syndicate medic
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalMedicA
   components:
@@ -192,7 +192,7 @@
 
 # Second Officer, "armed" with Advanced Laser Pistol
 - type: entity
-  name: "другий офіцер синдикату"
+  name: syndicate second officer
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalSecondOfficerA
   components:
@@ -245,7 +245,7 @@
 
 # Syndicate Security Operative, "armed" with Atreides SMG
 - type: entity
-  name: "оперативник синдикату"
+  name: syndicate operative
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalOperatorA
   components:
@@ -298,7 +298,7 @@
 
 # Syndicate Grenadier, "armed" with china lake
 - type: entity
-  name: "гренадер синдикату"
+  name: syndicate grenadier
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalGrenadierA
   components:
@@ -359,7 +359,7 @@
 
 # Syndicate Saboteur, "armed" with EMP Viper
 - type: entity
-  name: "диверсант синдикату"
+  name: syndicate saboteur
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalSaboteurA
   components:
@@ -404,7 +404,7 @@
 
 # Hostile Victim of Experimentation, "armed" with shiv
 - type: entity
-  name: "полонений"
+  name: captive
   parent:
   - MobHumanoidHostileBase
   - MobHumanoidHostileAISimpleMelee
@@ -426,7 +426,7 @@
 
 # Syndicate Commander, "armed" with AK
 - type: entity
-  name: "командир синдикату" # Mega Fauna for Dungeons
+  name: syndicate commander # Mega Fauna for Dungeons
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalCommanderA
   components:
@@ -491,7 +491,7 @@
 
 # Syndicate Deckhand, "armed" with Viper
 - type: entity
-  name: "матрос синдикату"
+  name: syndicate deckhand
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalDeckhandA
   components:
@@ -540,7 +540,7 @@
 
 # Syndicate Mime, melee, "armed" with chainsaw
 - type: entity
-  name: "мім синдикату"
+  name: syndicate mime
   parent:
   - MobSyndicateNavalBase
   - MobHumanoidHostileAISimpleMelee
@@ -558,7 +558,7 @@
 # Syndicate Chemwarrior, shoots healthy mixes of chems
 # Look for chems here: /Resources/Prototypes/_NF/Entities/Objects/Weapons/Ammunition/Projectiles/chem.yml
 - type: entity
-  name: "хімвоїн синдикату"
+  name: syndicate chemwarrior
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalChemwarriorA
   components:

@@ -1,8 +1,8 @@
 - type: entity
   id: MedipenCigPack
   parent: CigPackBlue
-  name: "коробка медіпенів"
-  description: "Коробка для сигарет AcmeCo, перероблена для зберігання медіпенів."
+  name: medipen box
+  description: An AcmeCo cigarette box repurposed as medipen storage.
   components:
   - type: StorageFill
     contents:

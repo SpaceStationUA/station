@@ -3,7 +3,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   id: BulletHighCaliber
-  name: "куля (.50 протиматеріальний)"
+  name: bullet (.50 anti-materiel)
   components:
   - type: Projectile
     damage:
@@ -16,7 +16,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBulletTrigger
   id: BulletHighCaliberExplosive
-  name: "куля (.50 фугасний)"
+  name: bullet (.50 high-explosive)
   components:
   - type: Projectile
     damage:
@@ -44,7 +44,7 @@
 
 - type: entity
   id: BulletAnaconda
-  name: "куля (.40 безгільзова)"
+  name: bullet (.40 caseless)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -55,10 +55,10 @@
 #PIRATE
 - type: entity
   id: BulletPlasmaCutter
-  name: "ріжучий болт"
+  name: cutter bolt
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
-  description: "Не так вже й погано, але ви все одно не хочете, щоб він вас зачепив."
+  description: Not too bad, but you still don't want to get hit by it.
   components:
   - type: Reflective
     reflective:

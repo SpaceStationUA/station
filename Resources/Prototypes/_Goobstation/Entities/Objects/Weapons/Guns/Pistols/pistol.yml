@@ -1,8 +1,8 @@
 - type: entity
-  name: "Дуалетта"
+  name: Dualetta
   parent: BaseWeaponPistol
   id: WeaponPistolDualetta
-  description: "Найкрутіший пістолет у секторі. Кажуть, що нікому не вистачає сили волі, щоб заплямувати репутацію цієї зброї, наважившись стріляти з неї без іншого пістолета в парі. Хоча декому вистачає волі просто взяти інший пістолет в іншу руку."
+  description: The coolest pistol in the sector. It is said that nobody is strong enough of will to tarnish this weapon's reputation by daring to fire it without another paired pistol. Though, some people have mustered the will to simply use a different gun in the other hand.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Pistols/Dualetta.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: BaseItem
   id: WeaponPistolAnaconda
-  name: "Анаконда"
-  description: "Важкий пістолет, здатний самостійно забезпечувати себе боєприпасами за допомогою вбудованого фабрикатора."
+  name: Anaconda
+  description: A heavy pistol capable of supplying itself with the ammo on the way using a built-in fabricator.
   components:
   - type: Item
     size: Small
