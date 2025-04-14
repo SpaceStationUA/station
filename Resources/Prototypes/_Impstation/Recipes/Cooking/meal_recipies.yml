@@ -1,0 +1,23 @@
+# fin fin related
+
+- type: microwaveMealRecipe
+  id: RecipeFinfinBurger
+  name: finfin sandwich recipe
+  result: FoodBurgerFinfin
+  group: Savory
+  time: 10
+  solids:
+    FoodBreadBun: 1
+    FoodMeatFinfin: 1
+
+- type: microwaveMealRecipe
+  id: RecipeFinfinSashimi
+  name: finfin sashimi recipe
+  result: FoodMealFinfinSashimi
+  group: Savory
+  time: 15
+  reagents:
+    TableSalt: 1
+  solids:
+    FoodMeatFinfin: 2
+

@@ -1,0 +1,20 @@
+- type: foodSequenceElement
+  id: FinfinSashimiBurger
+  name: food-sequence-burger-content-finfin
+  sprites:
+  - sprite: Objects/Consumable/Food/meals.rsi
+    state: sashimi
+
+- type: foodSequenceElement
+  id: FinfinCutlet
+  name: food-sequence-burger-content-finfin
+  sprites:
+  - sprite: Objects/Consumable/Food/meat.rsi
+    state: cutlet-cooked
+
+- type: foodSequenceElement
+  id: FriedFinfinBurger
+  name: food-sequence-burger-content-finfin
+  sprites:
+  - sprite: Objects/Consumable/Food/meat.rsi
+    state: finfin
