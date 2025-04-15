@@ -128,3 +128,214 @@
 #         density: 10
 #         mask:
 #         - ItemMask
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieIpcDress
+  name: "Плюшевий робо-шут"
+  description: "Веселий робо-шут в смішному платті."
+  components:
+  - type: Sprite
+    sprite: /Textures/_Pirate/Objects/Fun/toys.rsi
+    layers:
+      - state: plushie_ipc_base
+        map: [ "enum.DamageStateVisualLayers.Base" ]
+      - state: plushie_ipc_dress
+        map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
+        color: "#f0d2d2"
+  - type: RandomSprite
+    available:
+      - enum.DamageStateVisualLayers.Base:
+          plushie_ipc_base: ""
+      - enum.DamageStateVisualLayers.BaseUnshaded:
+          plushie_ipc_dress: "Sixteen"
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_Pirate/Voice/IPC/ipc_female_sigh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_Pirate/Voice/IPC/ipc_female_sigh.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/_Pirate/Voice/IPC/ipc_womanlaugh_1.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_Pirate/Voice/IPC/ipc_female_sigh.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/_Pirate/Voice/IPC/ipc_womanlaugh_1.ogg
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieIpcCat # :3
+  name: "Плюшевий кото-шут"
+  description: "ІФШ - Інтегроване Фелінідне Шассі. :3"
+  components:
+  - type: Sprite
+    sprite: /Textures/_Pirate/Objects/Fun/toys.rsi
+    state: plushie_ipc_cat
+  - type: EmitSoundOnUse
+    sound:
+      collection: IPCCat
+  - type: EmitSoundOnActivate
+    sound:
+      collection: IPCCat
+  - type: EmitSoundOnCollide
+    sound:
+      collection: IPCCat
+  - type: EmitSoundOnLand
+    sound:
+      collection: IPCCat
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: IPCCat
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieNavigationBeacon
+  name: "Плюшевий навігаційний маяк"
+  description: "Мотиваційно-навігаційний маяк. В тебе все вийде!"
+  components:
+  - type: Sprite
+    sprite: /Textures/_Pirate/Objects/Fun/toys.rsi
+    state: plushie_navigation_beacon
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Admin/Smites/manup.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Admin/Smites/manup.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Admin/Smites/manup.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Admin/Smites/manup.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Admin/Smites/manup.ogg
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieSkeleton
+  name: "Плюшевий скелет-пірат"
+  description: "ААААААААаааааааааааа.. аа.. це просто іграшка..."
+  components:
+  - type: Sprite
+    sprite: /Textures/_Pirate/Objects/Fun/toys.rsi
+    state: plushie_skeleton_pirate
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Admin/adminhelp_old.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Admin/adminhelp_old.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Admin/adminhelp_old.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Admin/adminhelp_old.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Admin/adminhelp_old.ogg
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieNicholas # :3
+  name: "Смішний плюшевий бармен"
+  description: "На біркі, здається, помилка. Чому тут пише Фелінікалас?!"
+  components:
+  - type: Sprite
+    sprite: /Textures/_Pirate/Objects/Fun/toys.rsi
+    state: plushie_Nicholas_Gray
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voice/Human/male_sigh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voice/Human/male_sigh.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Voice/Human/male_sigh.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Human/male_sigh.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voice/Human/male_sigh.ogg
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieOlia
+  name: "Смішна плюшева Голова Безпеки"
+  description: "Точно не арештує тебе за 5 грам канабісу в кармані"
+  components:
+  - type: Sprite
+    sprite: /Textures/_Pirate/Objects/Fun/toys.rsi
+    state: plushie_Olya
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voice/Human/female_sigh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voice/Human/female_sigh.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Voice/Human/female_sigh.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/Human/female_sigh.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Voice/Human/female_sigh.ogg
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieKateryna
+  name: "Смішна плюшева детективка"
+  description: "Плюшева детектива, котра має іграшкову кобуру із револьвером. Ви можете відчути, що іграшка неначе пахне кавовим лікером…"
+  components:
+  - type: Sprite
+    sprite: /Textures/_Pirate/Objects/Fun/toys.rsi
+    state: plushie_Kateryna_Vaselchuk
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Weapons/Guns/Hits/taser_hit.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Weapons/Guns/Hits/taser_hit.ogg
+  - type: EmitSoundOnCollide
+    sound:
+      path: /Audio/Weapons/Guns/Hits/taser_hit.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Weapons/Guns/Hits/taser_hit.ogg
+  - type: EmitSoundOnTrigger
+    sound:
+      path: /Audio/Weapons/Guns/Hits/taser_hit.ogg
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieEntony # :3
+  name: "Смішний плюшевий кіт-медик"
+  description: "Плюшевий фелінід. Від нього смердить морфіном..."
+  components:
+  - type: Sprite
+    sprite: /Textures/_Pirate/Objects/Fun/toys.rsi
+    state: plushie_Entony_White
+  - type: EmitSoundOnUse
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnActivate
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnCollide
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnLand
+    sound:
+      collection: FelinidMeows
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: FelinidMeows

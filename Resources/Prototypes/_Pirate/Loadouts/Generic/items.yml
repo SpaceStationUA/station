@@ -15,3 +15,91 @@
     - !type:CharacterSpeciesRequirement
       species:
         - IPC
+
+- type: loadout
+  id: PlushieIpcDress
+  category: Items
+  cost: 1
+  canBeHeirloom: true
+  items:
+    - PlushieIpcDress
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPlushie
+
+- type: loadout
+  id: PlushieIpcCat
+  category: Items
+  cost: 1
+  canBeHeirloom: true
+  items:
+    - PlushieIpcCat
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPlushie
+
+- type: loadout
+  id: PlushieNavigationBeacon
+  category: Items
+  cost: 1
+  canBeHeirloom: true
+  items:
+    - PlushieNavigationBeacon
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPlushie
+
+- type: loadout
+  id: PlushieSkeleton
+  category: Items
+  cost: 1
+  canBeHeirloom: true
+  items:
+    - PlushieSkeleton
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPlushie
+
+- type: loadout
+  id: PlushieNicholas
+  category: Items
+  cost: 1
+  canBeHeirloom: true
+  items:
+    - PlushieNicholas
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPlushie
+
+- type: loadout
+  id: PlushieOlia
+  category: Items
+  cost: 1
+  canBeHeirloom: true
+  items:
+    - PlushieOlia
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPlushie
+
+- type: loadout
+  id: PlushieKateryna
+  category: Items
+  cost: 1
+  canBeHeirloom: true
+  items:
+    - PlushieKateryna
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPlushie
+
+- type: loadout
+  id: PlushieEntony
+  category: Items
+  cost: 1
+  canBeHeirloom: true
+  items:
+    - PlushieEntony
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPlushie
