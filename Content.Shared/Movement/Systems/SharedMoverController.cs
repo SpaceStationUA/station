@@ -144,27 +144,16 @@ namespace Content.Shared.Movement.Systems
                 }
             }
 
-        // Update relative movement
-        // Shitmed Change Start
-        else //GOOB ABDUCTOR
-        {
+            // Update relative movement
             if (mover.LerpTarget < Timing.CurTime)
             {
-                if (TryComp(uid, out RelayInputMoverComponent? relay) //GOOB ABDUCTOR
-                    && TryComp(relay.RelayEntity, out TransformComponent? relayXform)) //GOOB ABDUCTOR
+                if (TryUpdateRelative(mover, xform))
                 {
-                    if (TryUpdateRelative(mover, relayXform)) //GOOB ABDUCTOR
-                        Dirty(uid, mover);
-                }
-                else //GOOB ABDUCTOR
-                {
-                    if (TryUpdateRelative(mover, xform))  //GOOB ABDUCTOR
-                        Dirty(uid, mover); //GOOB ABDUCTOR
+                    Dirty(uid, mover);
                 }
             }
+
             LerpRotation(uid, mover, frameTime);
-        }
-        // Shitmed Change End
 
 
             if (!canMove
