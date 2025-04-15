@@ -1,6 +1,6 @@
 # Uplink
-store-category-debug = категорія налагодження
-store-category-debug2 = налагодження категорії 2
+store-category-debug = debug категорія
+store-category-debug2 = debug категорія 2
 store-category-weapons = Зброя
 store-category-ammo = Патрони
 store-category-explosives = Вибухівка
@@ -22,9 +22,9 @@ store-category-misc = Різне
 store-category-bundles = Пакети
 store-category-tools = Інструменти
 store-category-armor = Броня
-store-caregory-spellbook-offensive = Наступальні заклинання
-store-caregory-spellbook-defensive = Захисні заклинання
-store-caregory-spellbook-utility = Утилітарні заклинання
-store-caregory-spellbook-equipment = Обладнання майстра
-store-caregory-spellbook-events = Заклинання подій
+store-caregory-spellbook-offensive = Атакуючі Заклинання
+store-caregory-spellbook-defensive = Захисні Заклинання
+store-caregory-spellbook-utility = Корисні Заклинання
+store-caregory-spellbook-equipment = Оснащення Мага
+store-caregory-spellbook-events = Заклинання Подій
 store-discounted-items = Знижки

@@ -18,8 +18,8 @@ replay-menu-none = Не Знайдено Повторів.
 
 # Main Menu Info Box
 replay-info-title = Інформація Повтору
-replay-info-none-selected = Не Вибрано Повтору
-replay-info-invalid = [color=red]Вибрано Невірний Повтор[/color]
+replay-info-none-selected = Не вибрано повтору
+replay-info-invalid = [color=red]Вибрано невірний повтор[/color]
 replay-info-info = {"["}color=gray]Вибрано:[/color]  {$name} ({$file})
                    {"["}color=gray]Час:[/color]   {$time}
                    {"["}color=gray]ID Раунду:[/color]   {$roundId}

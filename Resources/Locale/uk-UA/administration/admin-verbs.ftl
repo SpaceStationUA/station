@@ -1,10 +1,10 @@
 delete-verb-get-data-text = Видалити
-edit-solutions-verb-get-data-text = Редагувати Рідини
+edit-solutions-verb-get-data-text = Редагувати Рішення
 explode-verb-get-data-text = Підірвати
 ahelp-verb-get-data-text = Повідомлення
-admin-verbs-admin-logs-entity = Логи
-admin-verbs-teleport-to = Телепортуватись до
-admin-verbs-teleport-here = Телепортувати сюди
+admin-verbs-admin-logs-entity = Логи Сутності Сутності
+admin-verbs-teleport-to = Телепортуватись До
+admin-verbs-teleport-here = Телепортувати Сюди
 admin-verbs-freeze = Заморозити
 admin-verbs-unfreeze = Розморозити
 admin-verbs-erase = Видалити

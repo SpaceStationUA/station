@@ -6,9 +6,12 @@
   requirements:
     - !type:CharacterOverallTimeRequirement
       min: 36000 # 10 hrs
+    - !type:CharacterEmployerRequirement
+      employers:
+      - NanoTrasen
   startingGear: ProsecutorGear
   icon: "JobIconProsecutor"
-  supervisors: job-supervisors-mag
+  supervisors: job-supervisors-cj
   access:
   - Prosecutor
   - Justice

@@ -4,7 +4,7 @@ injector-draw-text = Набрати
 injector-inject-text = Ввести
 injector-invalid-injector-toggle-mode = Неправильний режим
 injector-volume-label = Кількість: [color=white]{$currentVolume}/{$totalVolume}[/color]
-    Mode: [color=white]{$modeString}[/color] ([color=white]{$transferVolume}u[/color])
+    Режим: [color=white]{$modeString}[/color] ([color=white]{$transferVolume}u[/color])
 
 ## Entity
 
@@ -18,14 +18,14 @@ injector-component-transfer-success-message = Ви перемістили {$amou
 injector-component-draw-success-message = Ви набрали {$amount}u з {$target}.
 injector-component-target-already-full-message = {$target} вже повний!
 injector-component-target-is-empty-message = {$target} пустий!
-injector-component-cannot-toggle-draw-message = Занадто повна, щоб малювати!
-injector-component-cannot-toggle-inject-message = Нічого не потрібно вводити!
+injector-component-cannot-toggle-draw-message = Занадто повний, щоб набрати!
+injector-component-cannot-toggle-inject-message = Нічого вводити!
 
 ## mob-inject doafter повідомлення
 
-injector-component-drawing-user = Починаєш малювати голку.
-injector-component-injecting-user = Ви почали вводити голку.
-injector-component-drawing-target = {CAPITALIZE(THE($user))} намагається використати голку, щоб взяти рідину з вас!
+injector-component-drawing-user = Починаєш набирати голкою.
+injector-component-injecting-user = Ви почали вводити голкою.
+injector-component-drawing-target = {CAPITALIZE(THE($user))} намагається голкою набрати кров вашого тіла!
 injector-component-injecting-target = {CAPITALIZE($user)} намагається встромити в вас голку!
 injector-component-deny-chitinid = Екзоскелет {CAPITALIZE(THE($target))} занадто товстий, щоб голка могла його пробити.
 injector-spent-text = Витрачено

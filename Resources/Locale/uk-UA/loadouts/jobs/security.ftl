@@ -37,3 +37,8 @@ loadout-name-LoadoutSecurityRevolverPythonNonlethal = Пітон (нелетал
 loadout-name-LoadoutSecurityPistolEnergyRevolver = Енергетичний револьвер EG-4
 loadout-name-LoadoutSecurityEquipmentTruncheon = Палиця
 loadout-name-LoadoutSecurityEquipmentEnergySword = Енергетичний меч
+loadout-name-LoadoutSecurityArgenti = Ардженті (летальний)
+loadout-name-LoadoutSecurityArgentiNonLethal = Ардженті (нелетальний)
+loadout-name-LoadoutSecurityShotgunSawnLumen = Обріз дробовика (Люменбласт)
+
+# Службова зброя ближнього бою

@@ -16,9 +16,10 @@
     - !type:CharacterOverallTimeRequirement
       min: 14400 # DeltaV - 4 hours
     - !type:CharacterEmployerRequirement
-      inverted: true
       employers:
-      - Unemployed
+      - ZavodskoiInterstellar
+      - PMCG
+      - NanoTrasen
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security

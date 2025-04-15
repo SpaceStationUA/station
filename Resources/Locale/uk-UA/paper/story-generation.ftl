@@ -223,12 +223,12 @@ story-gen-book-element-trait3 = чудовий
 story-gen-book-element-trait4 = милий
 story-gen-book-element-trait5 = нудно
 story-gen-book-element-trait6 = дивно
-story-gen-book-element-trait7 = кумедний
-story-gen-book-element-trait8 = примхливий
-story-gen-book-element-trait9 = вражаючий
-story-gen-book-element-trait10 = цікавий
-story-gen-book-element-trait11 = неадекватний
-story-gen-book-element-trait12 = сумний
+story-gen-book-element-trait7 = кумедно
+story-gen-book-element-trait8 = примхливо
+story-gen-book-element-trait9 = вражаюче
+story-gen-book-element-trait10 = цікаво
+story-gen-book-element-trait11 = неадекватно
+story-gen-book-element-trait12 = сумно
 story-gen-book-element-trait13 = досить гнітюче
 
 

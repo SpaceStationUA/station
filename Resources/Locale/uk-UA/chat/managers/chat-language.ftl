@@ -37,3 +37,4 @@ chat-language-Calcic-name = Кальцієвий
 chat-language-Chittin-name = Хітинова
 chat-language-NovuNederic-name = Нову-Недерік
 chat-language-Psychomantic-name = Психомантія
+chat-language-DroneTalk-name = Дрон

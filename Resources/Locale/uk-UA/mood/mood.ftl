@@ -67,3 +67,7 @@ mood-effect-HeirloomLost = Я не можу знайти свою релікві
 
 mood-effect-PlasmamanIngestPlasma = Моє тіло омолоджується завдяки свіжій плазмі, що протікає через моє тіло.
 mood-effect-PlasmamanIngestMilk = Я відчуваю, як кальцій молока відновлює мої кістки. Це так по-молочному легко!
+mood-effect-MorphineBenefit = Морфін допомагає мені забути про турботи.
+mood-effect-MorphineWithdrawal = Усе занадто гучне, занадто яскраве. Мені потрібно щось, щоб зняти напругу...
+
+# Хірургія

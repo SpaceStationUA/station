@@ -1,28 +1,28 @@
 character-age-requirement = Ви повинні {$inverted ->
     [true] не бути
     *[other] бути
-} бути у межах [color=yellow]{$min}[/color] та [color=yellow]{$max}[/color] років
+} у межах [color=yellow]{$min}[/color] та [color=yellow]{$max}[/color] років
 character-species-requirement = Ви повинні {$inverted ->
     [true] не бути
     *[other] бути
-} a [color=green]{$species}[/color]
+} [color=green]{$species}[/color]
 character-trait-requirement = Ви повинні {$inverted ->
     [true] не мати
     *[other] мати
-} ознаки [color=lightblue]{$traits}[/color]
+} особливості: [color=lightblue]{$traits}[/color]
 character-backpack-type-requirement = Ви повинні {$inverted ->
     [true] не використовувати
     *[other] використовувати
-} a [color=lightblue]{$type}[/color] як ваш мішок
+} [color=lightblue]{$type}[/color] як ваш мішок
 character-clothing-preference-requirement = Ви повинні {$inverted ->
     [true] не носити
     *[other] носити
-} a [color=lightblue]{$type}[/color]
+} [color=lightblue]{$type}[/color]
 
 character-job-requirement = Ви повинні {$inverted ->
     [true] не бути
     *[other] бути
-} одна з цих робіт: {$jobs}
+} на одній з цих робіт: {$jobs}
 character-department-requirement = Ви повинні {$inverted ->
     [true] не бути
     *[other] бути
@@ -149,3 +149,6 @@ character-mindshield-requirement = Ви {$inverted ->
     [true]повинні
     *[other]не повинні
 } бути захищені ментальним щитом
+character-requirement-desc = Вимоги:
+
+## Робота

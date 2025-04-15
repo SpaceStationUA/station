@@ -28,7 +28,7 @@ research-technology-virology = Вірусологія
 research-technology-cryogenics = Кріогеника
 research-technology-chemical-dispensary = Роздача Хімікатів
 research-technology-biofabrication = Біофабрикація
-research-technology-crew-monitoring = Монітор Екіпажу
+research-technology-crew-monitoring = Моніторинг Екіпажу
 research-technology-cloning = Клонування
 
 research-technology-salvage-weapons = Шахтарське Зброя

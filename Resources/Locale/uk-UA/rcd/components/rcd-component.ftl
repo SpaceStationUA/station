@@ -10,7 +10,7 @@ rcd-component-examine-detail = Поточний режим {$mode}.
 rcd-component-change-mode = Режим RCD виставлено на {$mode}.
 
 rcd-component-no-ammo-message = В RCD закінчились заряди!
-rcd-component-tile-obstructed-message = Ця плитка заблокована!
+rcd-component-tile-obstructed-message = Ви не можете деконструювати тайли, коли на них щось є!
 rcd-component-tile-indestructible-message = Цю плитку неможливо знищити!
 rcd-component-deconstruct-target-not-on-whitelist-message = Ви не можете деконструювати це!
 rcd-component-cannot-build-floor-tile-not-empty-message = Ви можете побудувати підлогу тільки в космосі!

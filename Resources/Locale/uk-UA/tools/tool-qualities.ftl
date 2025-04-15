@@ -1,7 +1,7 @@
 tool-quality-anchoring-name = Пригвинчування
 tool-quality-anchoring-tool-name = Гайковий ключ
 
-tool-quality-prying-name = Пересування
+tool-quality-prying-name = Зняття
 tool-quality-prying-tool-name = Лом
 
 tool-quality-screwing-name = Викручування

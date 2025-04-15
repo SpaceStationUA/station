@@ -281,3 +281,4 @@ flavor-complex-false-meat = не зовсім схоже на м'ясо
 flavor-complex-paper = як кашоподібна м'якоть
 flavor-complex-compressed-meat = як пресоване м'ясо
 flavor-complex-plasma = як плазма
+flavor-complex-supernova = наче наднова, застигла на піку

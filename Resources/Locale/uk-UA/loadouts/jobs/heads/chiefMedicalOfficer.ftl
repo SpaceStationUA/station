@@ -3,3 +3,5 @@ loadout-description-LoadoutCommandCMONeckCloak = Щоб дійсно показ�
 loadout-description-LoadoutCommandCMOOuterWinter = Тепле пальто для космічного холоду. Здається надзвичайно чистим.
 loadout-description-LoadoutCommandCMOOuterLab = Лабораторний халат для операційного директора. Виглядає надзвичайно чистим.
 loadout-description-LoadoutCommandCMOHatBeret = Берет для СМО. Виглядає надзвичайно чистим.
+
+loadout-name-LoadoutChiefMedicalOfficerBeltMilitaryWebbingCMOFilled = розгрузка головного лікаря (заповнена)

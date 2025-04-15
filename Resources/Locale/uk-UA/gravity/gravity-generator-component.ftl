@@ -2,7 +2,7 @@
 
 ## UI
 
-gravity-generator-window-title = Гравітаційний генератор
+gravity-generator-window-title = Гравітаційний Генератор
 
 ## Назви полів інтерфейсу
 
@@ -12,10 +12,10 @@ gravity-generator-window-eta = ОРІЄНТОВНИЙ ЧАС ПРИБУТТЯ:
 gravity-generator-window-charge = Заряд:
 
 ## Статуси інтерфейсу
-gravity-generator-window-status-fully-charged = Повністю заряджений
-gravity-generator-window-status-off = Вимкнено
-gravity-generator-window-status-charging = Зарядка
-gravity-generator-window-status-discharging = Розрядка
+gravity-generator-window-status-fully-charged = Повністю Заряджений
+gravity-generator-window-status-off = Вимкнений
+gravity-generator-window-status-charging = Заряджається
+gravity-generator-window-status-discharging = Розряджається
 
 ## Кнопки живлення інтерфейсу
 gravity-generator-window-power-on = Увімкнено
