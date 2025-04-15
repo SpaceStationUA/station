@@ -6,5 +6,8 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutSecurityMask
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
   items:
     - ClothingMaskGasSecurity
