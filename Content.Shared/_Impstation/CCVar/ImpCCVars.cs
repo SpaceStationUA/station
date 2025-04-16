@@ -7,6 +7,12 @@ namespace Content.Shared._Impstation.CCVar;
 [CVarDefs]
 public sealed class ImpCCVars : CVars
 {
+    /// <summary>
+    /// The number of shared moods to give thaven by default.
+    /// </summary>
+    public static readonly CVarDef<uint> ThavenSharedMoodCount =
+        CVarDef.Create<uint>("thaven.shared_mood_count", 1, CVar.SERVERONLY);
+
     public static readonly CVarDef<int> CosmicCultistEntropyValue =
         CVarDef.Create("cosmiccult.cultist_entropy_value", 7, CVar.SERVER, "How much entropy a convert is worth towards the next monument tier");
 

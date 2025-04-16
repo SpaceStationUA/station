@@ -1,5 +1,5 @@
 # ban
-cmd-ban-desc = Забанити когось
+cmd-ban-desc = Банити когось
 cmd-ban-help = Використання: ban <ім'я або ID користувача> <причина> [тривалість у хвилинах, пропустіть або 0 для постійного бану]
 cmd-ban-player = Не вдалося знайти гравця з таким ім'ям.
 cmd-ban-invalid-minutes = {$minutes} - недійсна кількість хвилин!
@@ -18,7 +18,7 @@ cmd-ban-hint-duration-5 = 2 тижні
 cmd-ban-hint-duration-6 = 1 місяць
 
 # ban panel
-cmd-banpanel-desc = Відкрити панель бану
+cmd-banpanel-desc = Відкриває панель бану
 cmd-banpanel-help = Використання: banpanel [ім'я або guid користувача]
 cmd-banpanel-server = Це не можна використовувати з консолі сервера
 cmd-banpanel-player-err = Вказаного гравця не знайдено

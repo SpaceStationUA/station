@@ -1,2 +1,2 @@
-action-name-toggle-wagging = Хвіст, що виляє
+action-name-toggle-wagging = Виляти Хвостом
 action-description-toggle-wagging = Почати або припинити виляння хвостом.

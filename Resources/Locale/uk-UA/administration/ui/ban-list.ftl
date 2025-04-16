@@ -1,6 +1,6 @@
-﻿# UI
+# UI
 ban-list-bans = Бани
-ban-list-role-bans = Рольові бани
+ban-list-role-bans = Рольові Бани
 
 ban-list-header-ids = Ідентифікатори
 ban-list-header-reason = Причина

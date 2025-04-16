@@ -1,4 +1,4 @@
-verb-system-waiting-on-server-text = Очікування на сервері...
+verb-system-waiting-on-server-text = Очікування на сервер...
 verb-system-null-server-response = Об'єкта не видно. Ви не повинні цього бачити.
 
 
@@ -14,22 +14,22 @@ verb-categories-debug = Дебаг
 verb-categories-examine = Оглянути
 verb-categories-eject = Дістати
 verb-categories-insert = Вставити
-verb-categories-buckle = Пристібнути
-verb-categories-unbuckle = Відстібнути
+verb-categories-buckle = Пристібнутисяся
+verb-categories-unbuckle = Відстібнутисяся
 verb-categories-rotate = Обернути
 verb-categories-smite = Ударити
 verb-categories-tricks = Хитрощі
-verb-categories-transfer = Встановити кількість до трансферу
+verb-categories-transfer = Встановити Кількість до Трансферу
 verb-categories-split = Розділити
-verb-categories-instrument-style = Стиль інструменту
+verb-categories-instrument-style = Стиль Інструменту
 verb-categories-channel-select = Канали
 verb-categories-set-sensor = Сенсор
-verb-categories-timer = Встановити затримку
+verb-categories-timer = Встановити Затримку
 verb-categories-lever = Важіль
 verb-categories-select-type = Оберіть Тип
 verb-categories-fax = Встановити Місцепризначення
 
-verb-common-toggle-light = Перемкнути світло
+verb-common-toggle-light = Перемкнути Світло
 verb-common-close = Зачинити
 verb-common-open = Відчинити
 verb-common-close-ui = Закрити UI

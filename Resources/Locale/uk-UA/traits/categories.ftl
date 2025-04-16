@@ -10,3 +10,7 @@ trait-category-Visual = Візуальний
 trait-category-TraitsSpeechUncategorized = Без категорії
 trait-category-TraitsSpeechAccents = Акценти
 trait-category-TraitsSpeechLanguages = Мови
+trait-category-Psionics = Псіоніка
+trait-category-TraitsPsionicsCasterTypes = Тип Псі-кастера
+trait-category-TraitsPsionicsFeats = Особливості
+trait-category-TraitsPsionicsPowers = Здібності

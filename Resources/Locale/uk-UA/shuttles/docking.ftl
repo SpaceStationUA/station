@@ -1,5 +1,5 @@
-docking-component-dock = Пристикувати
-docking-component-undock = Відстикувати
+docking-component-dock = Пристикуватисяся
+docking-component-undock = Відстикуватисяся
 
 cmd-dock-desc = Спробувати з'єднати 2 шлюзи разом. Не перевіряється, чи це допустимо.
 cmd-dock-help = стикувати <airlock entityuid1> <airlock entityuid2>

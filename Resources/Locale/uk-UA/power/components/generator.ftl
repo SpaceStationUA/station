@@ -1,4 +1,4 @@
-﻿generator-clogged = {$generator} раптово вимкнувся!
+generator-clogged = {$generator} раптово вимкнувся!
 
 portable-generator-verb-start = Запустити генератор
 portable-generator-verb-start-msg-unreliable = Запустити генератор. На це може знадобитися декілька спроб.
@@ -21,13 +21,13 @@ portable-generator-ui-fuel-left-label = Залишок палива:
 portable-generator-ui-clogged = У паливному баку виявлено чужорідні домішки!
 portable-generator-ui-eject = Вийняти
 portable-generator-ui-eta = (~{ $minutes } хв)
-portable-generator-ui-unanchored = Відкручено
+portable-generator-ui-unanchored = Відкручений
 portable-generator-ui-current-output = Поточний вихід: {$voltage}
 portable-generator-ui-network-stats = Мережа:
 portable-generator-ui-network-stats-value = { POWERWATTS($supply) } / { POWERWATTS($load) }
-portable-generator-ui-network-stats-not-connected = Не підключено
+portable-generator-ui-network-stats-not-connected = Не підключений
 
-power-switchable-generator-examine = Вихід встановлено на {$voltage}.
+power-switchable-generator-examine = Вихід енергії встановлено на {$voltage}.
 power-switchable-generator-switched = Вихід змінено на {$voltage}!
 
 power-switchable-voltage = { $voltage ->

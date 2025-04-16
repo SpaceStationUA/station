@@ -18,9 +18,9 @@
       department: Security
       min: 14400 # 4 hours
     - !type:CharacterEmployerRequirement
-      inverted: true
       employers:
-      - Unemployed
+      - IdrisIncorporated
+      - NanoTrasen
 
 - type: startingGear
   id: LawyerGear

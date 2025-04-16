@@ -3,6 +3,12 @@
   name: job-name-chief-justice
   description: job-description-chief-justice
   playTimeTracker: JobChiefJustice
+  weight: 20
+  startingGear: CJGear
+  icon: "JobIconChiefJustice"
+  requireAdminNotify: true
+  supervisors: job-supervisors-captain
+  canBeAntag: false
   requirements:
     - !type:CharacterPlaytimeRequirement
       tracker: JobClerk
@@ -16,12 +22,10 @@
     - !type:CharacterOverallTimeRequirement
       min: 90000 # 25 hours
     - !type:CharacterWhitelistRequirement # whitelist requirement because I don't want any dingus judges
-  weight: 20
-  startingGear: CJGear
-  icon: "JobIconChiefJustice"
-  requireAdminNotify: true
-  supervisors: job-supervisors-captain
-  canBeAntag: false
+    - !type:CharacterEmployerRequirement
+      employers:
+      - IdrisIncorporated
+      - NanoTrasen
   access:
   - Command
   - ChiefJustice

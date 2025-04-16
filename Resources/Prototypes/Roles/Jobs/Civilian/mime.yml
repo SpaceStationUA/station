@@ -19,10 +19,6 @@
     - !type:CharacterOverallTimeRequirement
       min: 7200 # DeltaV - 2 hours
     - !type:CharacterWhitelistRequirement # PIRATE - Whitelist requirement
-    - !type:CharacterEmployerRequirement
-      inverted: true
-      employers:
-      - Unemployed
 
 - type: startingGear
   id: MimeGear

@@ -1,6 +1,6 @@
 cmd-panicbunker-desc = Вмикає бункер паніки, який дозволяє суворіше обмежувати доступ до сервера.
 cmd-panicbunker-help = Використання: панічний бункер
-panicbunker-command-enabled = Увімкнено аварійний бункер.
+panicbunker-command-enabled = Увімкнено панічний бункер.
 panicbunker-command-disabled = Панічний бункер відключено.
 
 cmd-panicbunker_disable_with_admins-desc = Дозволяє ввімкнути чи вимкнути аварійний бункер при підключенні адміністратора.

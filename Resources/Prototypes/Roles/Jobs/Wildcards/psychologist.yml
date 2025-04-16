@@ -19,9 +19,9 @@
       department: Medical
       min: 14400 #DeltaV 4 hrs
     - !type:CharacterEmployerRequirement
-      inverted: true
       employers:
-      - Unemployed
+      - Interdyne
+      - NanoTrasen
 
 - type: startingGear
   id: PsychologistGear

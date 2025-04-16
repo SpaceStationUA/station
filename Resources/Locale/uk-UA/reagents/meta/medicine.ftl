@@ -1,5 +1,5 @@
 reagent-name-cryptobiolin = криптобіолін
-reagent-desc-cryptobiolin = Викликає сплутаність свідомості та запаморочення. Потрібен для створення Спейсаціліну.
+reagent-desc-cryptobiolin = Викликає сплутаність свідомості та запаморочення. Потрібен для створення Спейсациліну.
 
 reagent-name-dylovene = диловен
 reagent-desc-dylovene = Антитоксин широкого спектра дії, котрий виводить токсини із кровообігу. Передозування викликає блювоту, запаморочення і біль.
@@ -52,7 +52,7 @@ reagent-desc-barozine = Сильнодійний препарат, який за
 reagent-name-phalanximine = фаланксимін
 reagent-desc-phalanximine = Використовується для лікування раку. Викликає помірне радіаційне отруєння.
 
-reagent-name-polypyrylium-oligomers = Олігомери поліпірилу
+reagent-name-polypyrylium-oligomers = Олігомери Поліпірилу
 reagent-desc-polypyrylium-oligomers = Фіолетова суміш коротких поліелектролітних ланцюгів, яку нелегко синтезувати в лабораторії. Лікує асфіксію та грубі пошкодження. З часом зупиняє кровотечу.
 
 reagent-name-ambuzol = амбузол
@@ -137,7 +137,7 @@ reagent-name-aloxadone = алоксадон
 reagent-desc-aloxadone = Кріогенний хімікат. Використовується для лікування важких опіків третього ступеня шляхом регенерації обпаленої тканини. Діє незалежно від того, живий чи мертвий пацієнт.
 
 reagent-name-spaceacillin = Спейсацилін
-reagent-desc-spaceacillin = Реагент що лікує Cellular
+reagent-desc-spaceacillin = Реагент що лікує шкоду, завдану клітинам
 
 reagent-name-mannitol = маніт
 reagent-desc-mannitol = Ефективно відновлює пошкодження мозку.

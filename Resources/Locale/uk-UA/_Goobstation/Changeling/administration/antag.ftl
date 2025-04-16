@@ -1,3 +1,3 @@
-admin-verb-make-changeling = Перетворіть мішень на перевертня.
+admin-verb-make-changeling = Перетворити ціль на ченджлінга.
 
-admin-verb-text-make-changeling = Зробити перевертнем
+admin-verb-text-make-changeling = Зробити Ченджлінга

@@ -9,8 +9,8 @@ cmd-mapping-warning = ПОПЕРЕДЖЕННЯ: На сервері викори
 
 # дублює текст з команд завантаження/збереження мапи.
 # I CBF зробити цей PR залежним від того.
-cmd-mapping-failure-integer = {$arg} не є дійсним цілим числом.
-cmd-mapping-failure-float = {$arg} не є дійсним числом з плаваючою комою.
+cmd-mapping-failure-integer = {$arg} не є дійсним інтегром.
+cmd-mapping-failure-float = {$arg} не є дійсним флоутом.
 cmd-mapping-failure-bool = {$arg} не є допустимим bool.
 cmd-mapping-nullspace = Ви не можете завантажити в карту 0.
 cmd-hint-mapping-id = [MapID]

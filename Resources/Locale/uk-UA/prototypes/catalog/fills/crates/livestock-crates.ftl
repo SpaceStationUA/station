@@ -46,8 +46,8 @@ ent-CrateNPCParrot = Ящик з папугами
 ent-CrateNPCPenguin = Ящик з пінгвінами
     .desc = Ящик, що містить двох пінгвінів.
 
-ent-CrateNPCMothroach = Ящик з мотроачами
-    .desc = Ящик, що містить шість мотроачів.
+ent-CrateNPCMothroach = Ящик з тарганомолями
+    .desc = Ящик, що містить шість тарганомолі.
 
 ent-CrateNPCPig = Ящик зі свинею
     .desc = Ящик, що містить одну свиню.

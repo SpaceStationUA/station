@@ -1,25 +1,26 @@
 <Document>
   # Види
 
-  Nanotrasen наймає різні розумні види.
+  Нанотрейзен наймає різноманітні розумні види.
 
   <Box>
-    <GuideEntityEmbed Entity="MobArachnid" Caption="Арахнід"/>
-    <GuideEntityEmbed Entity="MobDiona" Caption="Діона"/>
-    <GuideEntityEmbed Entity="MobHuman" Caption="Людина"/>
-    <GuideEntityEmbed Entity="MobRodentia" Caption="Роденція"/>
+  <GuideEntityEmbed Entity="MobArachnid" Caption="Арахнід"/>
+  <GuideEntityEmbed Entity="MobDiona" Caption="Діона"/>
+  <GuideEntityEmbed Entity="MobHuman" Caption="Людина"/>
+  <GuideEntityEmbed Entity="MobRodentia" Caption="Роденція"/>
   </Box>
   <Box>
   <GuideEntityEmbed Entity="MobMoth" Caption="Метеликоподібні"/>
-    <GuideEntityEmbed Entity="MobOni" Caption="Оні"/>
-  <GuideEntityEmbed Entity="MobReptilian" Caption="Рептилія"/>
-  <GuideEntityEmbed Entity="MobSlimePerson" Caption="Слаймолюд"/>
+  <GuideEntityEmbed Entity="MobOni" Caption="Оні"/>
+  <GuideEntityEmbed Entity="MobReptilian" Caption="Рептилії"/>
+  <GuideEntityEmbed Entity="MobSlimePerson" Caption="Слаймолюдина"/>
   <GuideEntityEmbed Entity="MobShadowkinDummy" Caption="Тіньовик"/>
   <GuideEntityEmbed Entity="MobChitinid" Caption="Хітинід"/>
+  <GuideEntityEmbed Entity="MobThaven" Caption="Тавен"/>
   </Box>
 
-  # Види специфічні для Parkstation
+  # Специфічні види Паркстейшн
   <Box>
-    <GuideEntityEmbed Entity="MobIPCDummy" Caption="ІПШ"/>
+  <GuideEntityEmbed Entity="MobIPCDummy" Caption="ІПШ"/>
   </Box>
 </Document>
