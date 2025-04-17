@@ -1,0 +1,14 @@
+- type: entity
+  id: SquidGameCoffin
+  name: Гроб для гравців
+  parent: ClosetSteelBase
+  description: It's a storage unit for tools.
+  components:
+  - type: Sprite
+    sprite:  _Pirate/SquidGame/cofin.rsi
+    state: closedCoffin
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: closedCoffin
+    stateDoorOpen: openedCoffin
+    stateDoorClosed: closedCoffin
