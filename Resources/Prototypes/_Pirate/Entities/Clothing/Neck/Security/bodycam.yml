@@ -1,0 +1,24 @@
+- type: entity
+  parent: SurveillanceWirelessCameraMovableBase
+  id: SurveillanceWirelessCameraMovableSecurity
+  name: "Офіерський бодікам"
+  components:
+    - type: Sprite
+      sprite: _Pirate/Clothing/Neck/security.rsi
+      state: icon
+    - type: DeviceNetwork
+      deviceNetId: Wired #this line means that camera will work off same router as wired cameras
+      receiveFrequencyId: SurveillanceCameraSecurity
+      transmitFrequencyId: SurveillanceCamera
+    - type: SurveillanceCamera
+      networkSet: true
+      id: "bodycam"
+    - type: Item
+    - type: Clothing
+      sprite: _Pirate/Clothing/Neck/security.rsi
+      equipDelay: 0.5
+      unequipDelay: 0.5
+      slots:
+      - neck
+      - neck1
+      - neck2
