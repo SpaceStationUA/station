@@ -339,3 +339,34 @@
   - type: EmitSoundOnTrigger
     sound:
       collection: FelinidMeows
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieTK # :3
+  name: "Смішний плюшевий НЕ вушкофіл"
+  description: "Плюшевий робо-офіцер. Весь час твердить, шо не любить вушка."
+  components:
+  - type: Sprite
+    sprite: /Textures/_Pirate/Objects/Fun/toys.rsi
+    layers:
+      - state: plushie_ipc_TK_base
+        map: [ "enum.DamageStateVisualLayers.Base" ]
+      - state: plushie_ipc_TK_face
+        map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
+        shader: unshaded
+        color: "#960c0c"
+  - type: EmitSoundOnUse
+    sound:
+      collection: IPCCat
+  - type: EmitSoundOnActivate
+    sound:
+      collection: IPCCat
+  - type: EmitSoundOnCollide
+    sound:
+      collection: IPCCat
+  - type: EmitSoundOnLand
+    sound:
+      collection: IPCCat
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: IPCCat
