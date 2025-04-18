@@ -1,15 +1,12 @@
 using Content.Server.DeviceNetwork.Components;
 using Content.Server.DeviceNetwork.Systems;
-
 using Content.Shared.Clothing;
-using Robust.Server.GameObjects;
 
 namespace Content.Server._Pirate.DeviceNetwork;
 
 public sealed class ActivateCameraOnEquippedSystem : EntitySystem
 {
     [Dependency] DeviceNetworkSystem _deviceNetworkSystem = default!;
-    [Dependency] AppearanceSystem _appearance = default!;
 
     public override void Initialize()
     {
@@ -22,8 +19,8 @@ public sealed class ActivateCameraOnEquippedSystem : EntitySystem
     }
     public void onUnequipped(EntityUid uid, ActivateCameraOnEquippedComponent component, ClothingGotUnequippedEvent args)
     {
-        if (!TryComp(uid, out DeviceNetworkComponent? comp))
+        if (!TryComp(uid, out DeviceNetworkComponent? network_comp))
             return;
-        _deviceNetworkSystem.DisconnectDevice(uid, comp);
+        _deviceNetworkSystem.DisconnectDevice(uid, network_comp);
     }
 }
