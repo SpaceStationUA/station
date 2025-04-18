@@ -293,6 +293,79 @@
 
 - type: entity
   parent: BaseTree
+  id: FloraTree
+  name: tree
+  components:
+  - type: Sprite
+    layers:
+    - state: tree01
+      map: ["random"]
+  - type: RandomSprite
+    available:
+    - random:
+        tree01: ""
+        tree02: ""
+        tree03: ""
+        tree04: ""
+        tree05: ""
+        tree06: ""
+        
+- type: entity
+  parent: BaseTreeSnow
+  id: FloraTreeSnow
+  name: snowy tree
+  components:
+  - type: Sprite
+    layers:
+    - state: treesnow01
+      map: ["random"]
+  - type: RandomSprite
+    available:
+    - random:
+        treesnow01: ""
+        treesnow02: ""
+        treesnow03: ""
+        treesnow04: ""
+        treesnow05: ""
+        treesnow06: ""
+
+- type: entity
+  parent: BaseTreeConifer
+  id: FloraTreeConifer
+  name: snowy conifer
+  components:
+  - type: Sprite
+    layers:
+    - state: treeconifer01
+      map: ["random"]
+  - type: RandomSprite
+    available:
+    - random:
+        treeconifer01: ""
+        treeconifer02: ""
+        treeconifer03: ""
+
+- type: entity
+  parent: BaseTreeLarge
+  id: FloraTreeLarge
+  name: large tree
+  components:
+  - type: Sprite
+    layers:
+    - state: treelarge01
+      map: ["random"]
+  - type: RandomSprite
+    available:
+    - random:
+        treelarge01: ""
+        treelarge02: ""
+        treelarge03: ""
+        treelarge04: ""
+        treelarge05: ""
+        treelarge06: ""
+
+- type: entity
+  parent: BaseTree
   id: FloraTree01
   name: tree
   components:
