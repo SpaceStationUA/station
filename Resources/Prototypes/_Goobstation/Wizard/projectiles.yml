@@ -379,11 +379,7 @@
       components:
       - Body
   - type: RandomTeleport
-    radius:
-      min: 0
-      max: 6
     teleportAttempts: 1
-    forceSafeTeleport: false
   - type: Reflective
     reflective: None
   - type: Ammo
