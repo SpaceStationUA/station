@@ -38,3 +38,6 @@ chat-language-Chittin-name = Хітинова
 chat-language-NovuNederic-name = Нову-Недерік
 chat-language-Psychomantic-name = Психомантія
 chat-language-DroneTalk-name = Дрон
+chat-language-Xeeplian-name = Зіпліанська
+
+# Мови Тварин

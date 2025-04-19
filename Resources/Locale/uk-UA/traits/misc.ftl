@@ -8,3 +8,4 @@ examine-featherweight-message = {CAPITALIZE(THE($entity))} виглядає по
 examine-bulky-message = {CAPITALIZE(THE($entity))} виглядає незвично великим для представника свого виду.
 examine-weakling-message = Тіло {CAPITALIZE(POSS-ADJ($entity))} помітно тендітне,
 examine-bodybuilder-message = Вражаюча кількість м'язів помітна на статурі {POSS-ADJ($entity)}.
+examine-bionic-pryarm-message = {CAPITALIZE(POSS-ADJ($entity))} руки мають виразний вигляд, наче вони дивна машина.

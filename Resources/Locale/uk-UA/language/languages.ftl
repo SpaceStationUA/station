@@ -117,3 +117,8 @@ language-Psychomantic-name = Психомантія
 language-Psychomantic-description = Чисте значення, вільне від тиранії примітивних слів і жестів.
 language-DroneTalk-name = Дрон
 language-DroneTalk-description = Незрозуміло для більшості не-дронів!
+language-Xeeplian-name = Зіпліанська
+language-Xeeplian-description = Наша мова є високорозвиненою, ефективною та лаконічною.
+    Ми полюбили імітувати балаканину деяких нижчих форм життя для подальшого досягнення Наших цілей.
+
+# Мови Тварин

@@ -89,3 +89,4 @@ loadout-category-JobsCommandMagistrate = Магістр
 loadout-category-JobsZMisc = Різне
 loadout-category-JobsZMiscAUncategorized = Все Різне
 loadout-category-JobsZMiscPrisoner = В'язень
+loadout-category-JobsSecurityWeapons = Службова Зброя

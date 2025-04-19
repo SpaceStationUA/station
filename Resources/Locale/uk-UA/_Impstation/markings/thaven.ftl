@@ -44,3 +44,5 @@ marking-ThavenTattooWave = Тату Хвиля
 marking-ThavenTiger = Тигрові Смуги
 marking-ThavenTigerLArm = Тигрові Смуги (ліва рука)
 marking-ThavenTigerRArm = Тигрові Смуги (права рука)
+
+marking-ThavenChestScales = Луска на Грудах

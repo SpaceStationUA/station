@@ -16,3 +16,12 @@ marking-FootDollJointsTattooRight-r_foot_doll = Тату лялькових су
 marking-FootDollJointsTattooRight = Тату лялькових суглобів на стопі (Праве)
 marking-ChestCutHere-chest_cuthere = Татуювання 'Різати тут'
 marking-ChestCutHere = Татуювання 'Різати тут'
+
+marking-ArmDollJointsTattooLeftIPCONLY = Татуювання Лялькових Суглобів на Руці (Ліва)
+marking-ArmDollJointsTattooRightIPCONLY = Татуювання Лялькових Суглобів на Руці (Права)
+marking-HandDollJointsTattooLeftIPCONLY = Татуювання Лялькових Суглобів на Кисті (Ліва)
+marking-HandDollJointsTattooRightIPCONLY = Татуювання Лялькових Суглобів на Кисті (Права)
+marking-LegDollJointsTattooLeftIPCONLY = Татуювання Лялькових Суглобів на Нозі (Ліва)
+marking-LegDollJointsTattooRightIPCONLY = Татуювання Лялькових Суглобів на Нозі (Права)
+marking-FootDollJointsTattooLeftIPCONLY = Татуювання Лялькових Суглобів на Стопі (Ліва)
+marking-FootDollJointsTattooRightIPCONLY = Татуювання Лялькових Суглобів на Стопі (Права)

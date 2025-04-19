@@ -44,3 +44,10 @@ reagent-effect-condition-guidebook-has-tag = ціль { $invert ->
 
 reagent-effect-condition-guidebook-this-reagent = цей реагент
 reagent-effect-condition-guidebook-job-condition = робота цілі - { $job }
+reagent-effect-condition-guidebook-blood-reagent-threshold = { $max ->
+        [2147483648] є щонайменше {NATURALFIXED($min, 2)}u {$reagent}
+        *[other] { $min ->
+                    [0] є щонайбільше {NATURALFIXED($max, 2)}u {$reagent}
+                    *[other] є від {NATURALFIXED($min, 2)}u до {NATURALFIXED($max, 2)}u {$reagent}
+                 }
+    }

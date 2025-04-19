@@ -103,3 +103,4 @@ research-technology-advanced-life-improvements = Прогресивні покр
 
 research-technology-shrapnel-munitions = Шрапнельні Боєприпаси
 research-technology-laser-sentry-turrets = Технологія Лазерних Турелей-Охоронців
+research-technology-positronic-interfacing = Позитронне Сполучення

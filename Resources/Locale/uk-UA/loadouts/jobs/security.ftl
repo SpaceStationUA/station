@@ -42,3 +42,11 @@ loadout-name-LoadoutSecurityArgentiNonLethal = Ардженті (нелетал�
 loadout-name-LoadoutSecurityShotgunSawnLumen = Обріз дробовика (Люменбласт)
 
 # Службова зброя ближнього бою
+loadout-name-LoadoutMagazineUniversalMagnumSpare = магазин мк 32 'Universal' (.45 магнум, запасний)
+loadout-name-LoadoutMagazineUniversalMagnumRubberSpare = магазин мк 32 'Universal' (.45 магнум гумовий, запасний)
+
+# Службова зброя
+loadout-name-LoadoutSecurityPistolUniversal = мк 32 "Універсальний" (летальний)
+loadout-name-LoadoutSecurityPistolUniversalNonLethal = мк 32 "Універсальний" (нелетальний)
+
+# Службова холодна зброя

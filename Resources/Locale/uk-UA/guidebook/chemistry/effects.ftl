@@ -356,3 +356,17 @@ reagent-effect-guidebook-chem-restorereroll-psionic = { $chance ->
         [1] Відновлює
         *[other] відновити
     } здатність отримувати користь від реагентів, що відкривають розум
+reagent-effect-guidebook-add-to-chemicals = { $chance ->
+        [1] { $deltasign ->
+                [1] Додає
+                *[-1] Видаляє
+            }
+        *[other]
+            { $deltasign ->
+                [1] додати
+                *[-1] видалити
+            }
+    } {NATURALFIXED($amount, 2)}u {$reagent} { $deltasign ->
+        [1] до
+        *[-1] з
+    } розчину
