@@ -53,8 +53,7 @@ public sealed partial class AbductorSystem : SharedAbductorSystem
 
         var doAfter = new DoAfterArgs(EntityManager, ev.Performer, TimeSpan.FromSeconds(3), new AbductorReturnDoAfterEvent(), ev.Performer)
         {
-            BreakOnMove = true,
-            BreakOnDamage = true
+            MultiplyDelay = false,
         };
         _doAfter.TryStartDoAfter(doAfter);
         ev.Handled = true;
@@ -73,6 +72,7 @@ public sealed partial class AbductorSystem : SharedAbductorSystem
 
     private void OnSendYourself(SendYourselfEvent ev)
     {
+        Logger.Debug($"{ToPrettyString(ev.Performer)}");
         AddTeleportationEffect(ev.Performer, 5.0f, TeleportationEffectEntity, out var effectEnt, true, false);
         var effect = _entityManager.SpawnEntity(TeleportationEffect, ev.Target);
         EnsureComp<TimedDespawnComponent>(effect, out var _);

@@ -7,7 +7,7 @@
   components:
   - type: Sprite
   - type: StaticPrice
-    price: 20
+    price: 60
   - type: Tag
     tags:
     - SurgeryTool
@@ -156,6 +156,7 @@
     state: shiv
   - type: Item
     sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
+    storedRotation: 90
     heldPrefix: shiv
 
 - type: entity
@@ -169,6 +170,7 @@
     state: advanced
   - type: Item
     sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
+    storedRotation: 90
     heldPrefix: advanced
   - type: MeleeWeapon
     damage:
@@ -249,7 +251,6 @@
       path: /Audio/_Shitmed/Medical/Surgery/retractor2.ogg
   - type: Retractor
 
-
 # Hemostat
 
 - type: entity
@@ -308,6 +309,9 @@
   - type: Item
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/bonesetter.rsi
   - type: BoneSetter
+  - type: SurgeryTool
+    startSound:
+      path: /Audio/_Shitmed/Medical/Surgery/bone_setter.ogg
 
 # Bone Gel - Shitmed Change
 - type: entity
@@ -337,6 +341,7 @@
     sprite: Objects/Specific/Medical/Surgery/saw.rsi
     state: saw
   - type: Item
+    size: Normal
     sprite: Objects/Specific/Medical/Surgery/saw.rsi
     storedRotation: 90
   - type: Tool
@@ -378,6 +383,7 @@
   - type: Sprite
     state: improv
   - type: Item
+    size: Small
     heldPrefix: improv
   - type: MeleeWeapon
     attackRate: 1.17
@@ -412,6 +418,7 @@
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/circular-saw.rsi
     state: circular-saw
   - type: Item
+    size: Normal
     sprite: _Shitmed/Objects/Specific/Medical/Surgery/circular-saw.rsi
     storedRotation: 90
   - type: MeleeWeapon
@@ -440,11 +447,11 @@
     qualities:
       - Sawing
     speedModifier: 1.5
+  - type: BoneSaw # Shitmed
+    speed: 1.5
   - type: SurgeryTool
     startSound:
-      path: /Audio/Medical/Surgery/saw.ogg
-  - type: BoneSaw
-    speed: 1.25
+      path: /Audio/_Shitmed/Medical/Surgery/saw.ogg
 
 - type: entity
   name: advanced circular saw
@@ -456,9 +463,10 @@
     sprite: Objects/Specific/Medical/Surgery/saw.rsi
     state: advanced
   - type: Item
+    size: Normal
     sprite: Objects/Specific/Medical/Surgery/saw.rsi
-    heldPrefix: advanced
     storedRotation: 90
+    heldPrefix: advanced
   - type: MeleeWeapon
     attackRate: .86
     range: 1.5
@@ -516,10 +524,42 @@
       types:
         Piercing: 10
         Heat: 1
-  - type: Cautery
-    speed: 1.5
-  - type: Drill
-    speed: 1.5
+  - type: PhysicalComposition #Goobstation - Recycle update
+    materialComposition:
+      Steel: 150
+      Glass: 37
+      Plasma: 37
+  - type: ItemSwitch
+    showLabel: true
+    state: cautery
+    states:
+      cautery: !type:ItemSwitchState
+        verb: cautery
+        sprite:
+          sprite: _Shitmed/Objects/Specific/Medical/Surgery/e-cautery.rsi
+          state: e-cautery
+        components:
+          - type: Cautery
+            speed: 1.5
+        soundStateActivate:
+          collection: WelderOn
+          params:
+            variation: 0.125
+            volume: -5
+
+      drill: !type:ItemSwitchState
+        verb: drill
+        sprite:
+          sprite: _Shitmed/Objects/Specific/Medical/Surgery/e-cautery.rsi
+          state: e-cautery-on
+        components:
+          - type: Drill
+            speed: 1.5
+        soundStateActivate:
+          collection: sparks
+          params:
+            variation: 0.125
+            volume: -5
 
 - type: entity
   name: energy scalpel
@@ -547,10 +587,42 @@
       types:
         Slash: 10
         Heat: 1
-  - type: Scalpel
-    speed: 1.5
-  - type: BoneSaw
-    speed: 1.5
+  - type: PhysicalComposition #Goobstation - Recycle update
+    materialComposition:
+      Steel: 150
+      Glass: 37
+      Gold: 37
+  - type: ItemSwitch
+    showLabel: true
+    state: scalpel
+    states:
+      scalpel: !type:ItemSwitchState
+        verb: scalpel
+        sprite:
+          sprite: _Shitmed/Objects/Specific/Medical/Surgery/e-scalpel.rsi
+          state: e-scalpel
+        components:
+          - type: Scalpel
+            speed: 1.5
+        soundStateActivate:
+          collection: sparks
+          params:
+            variation: 0.125
+            volume: -5
+
+      saw: !type:ItemSwitchState
+        verb: saw
+        sprite:
+          sprite: _Shitmed/Objects/Specific/Medical/Surgery/e-scalpel.rsi
+          state: e-scalpel-on
+        components:
+          - type: BoneSaw
+            speed: 1.5
+        soundStateActivate:
+          collection: sparks
+          params:
+            variation: 0.125
+            volume: -5
 
 - type: entity
   name: mechanical pinches
@@ -578,14 +650,46 @@
       types:
         Slash: 6.5
         Heat: 1
-  - type: Hemostat
-    speed: 1.5
-  - type: Retractor
-    speed: 1.5
-  - type: Tweezers
-    speed: 1.5
-  - type: Tending
-    speed: 1.5
+  - type: PhysicalComposition #Goobstation - Recycle update
+    materialComposition:
+      Steel: 150
+      Glass: 37
+      Silver: 37
+  - type: ItemSwitch
+    showLabel: true
+    state: retractor
+    states:
+      retractor: !type:ItemSwitchState
+        verb: retractor
+        sprite:
+          sprite: _Shitmed/Objects/Specific/Medical/Surgery/adv-retractor.rsi
+          state: adv-retractor
+        components:
+          - type: Retractor
+            speed: 1.5
+        soundStateActivate:
+          collection: sparks
+          params:
+            variation: 0.125
+            volume: -5
+
+      hemostat: !type:ItemSwitchState
+        verb: hemostat
+        sprite:
+          sprite: _Shitmed/Objects/Specific/Medical/Surgery/adv-retractor.rsi
+          state: adv-retractor-on
+        components:
+          - type: Hemostat
+            speed: 1.5
+          - type: Tweezers
+            speed: 1.5
+          - type: Tending
+            speed: 1.5
+        soundStateActivate:
+          collection: sparks
+          params:
+            variation: 0.125
+            volume: -5
 
 - type: entity
   name: medical multitool

@@ -3,7 +3,6 @@ using Content.Server.Humanoid;
 using Content.Shared._Shitmed.StatusEffects;
 using Content.Shared.Forensics;
 using Content.Shared.Humanoid;
-using Content.Shared.Implants.Components;
 using Content.Shared.Preferences;
 using Content.Shared.Popups;
 
@@ -31,8 +30,8 @@ public sealed class ScrambleDnaEffectSystem : EntitySystem
             {
                 dna.DNA = _forensicsSystem.GenerateDNA();
 
-                var ev = new UseDnaScramblerImplantEvent();
-                RaiseLocalEvent(uid, ev);
+                var ev = new GenerateDnaEvent { Owner = uid, DNA = dna.DNA };
+                RaiseLocalEvent(uid, ref ev);
             }
             if (TryComp<FingerprintComponent>(uid, out var fingerprint))
             {

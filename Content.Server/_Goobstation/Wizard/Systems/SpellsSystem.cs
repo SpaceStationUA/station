@@ -49,6 +49,7 @@ using Content.Shared.Random.Helpers;
 using Content.Shared.Speech.Components;
 using Content.Shared.Store.Components;
 using Content.Shared.Weapons.Ranged.Components;
+using Robust.Shared.Audio;
 using Robust.Shared.Enums;
 using Robust.Shared.GameObjects.Components.Localization;
 using Robust.Shared.Map;
@@ -628,6 +629,6 @@ public sealed class SpellsSystem : SharedSpellsSystem
     {
         base.Blink(ev);
 
-        _teleport.RandomTeleport(ev.Performer, ev.Radius);
+        _teleport.RandomTeleport(ev.Performer, ev.Radius.Max, new SoundPathSpecifier("/Audio/Effects/teleport_arrival.ogg"), 20);
     }
 }

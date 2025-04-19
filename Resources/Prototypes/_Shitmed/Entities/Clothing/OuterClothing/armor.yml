@@ -6,6 +6,10 @@
   - type: Sprite
     sprite: _Shitmed/Clothing/OuterClothing/Armor/abductor.rsi
   - type: AbductorVest
+# DON'T FEEL LIKE DOIN THIS RIGHT NOW SORRY!!
+#  - type: ModifyDelayedKnockdown # Goobstation
+#    delayDelta: 2
+#    knockdownTimeDelta: -2
   - type: ItemSwitch
     state: stealth
     states:
@@ -59,7 +63,7 @@
           equippedPrefix: combat
 
 - type: entity
-  parent: [ ClothingOuterStorageBase, AllowSuitStorageClothing]
+  parent: [ ClothingOuterStorageBase, AllowSuitStorageClothing ]
   id: ClothingOuterCoatAbductor
   name: alien lab coat
   description: A suit of alien origin that protects from various injuries, as well as from chemical spills.

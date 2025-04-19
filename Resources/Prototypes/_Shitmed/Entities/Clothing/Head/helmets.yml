@@ -1,6 +1,6 @@
 - type: entity
-  parent: ClothingHeadBase
   id: ClothingHeadHelmetAbductor
+  parent: ClothingHeadHelmetBasic
   name: alien helmet
   description: Zeep Glorp!
   components:
@@ -13,6 +13,13 @@
         Heat: 0.80
         Radiation: 0.80
         Caustic: 0.95
+  - type: Tag
+    tags:
+    - WhitelistChameleon
+  - type: HideLayerClothing
+    slots:
+    - HeadTop
+    - HeadSide
   - type: ExplosionResistance
     damageCoefficient: 0.75
   - type: Sprite

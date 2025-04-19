@@ -1,14 +1,32 @@
 - type: entity
+  parent: CrateGeneric
   id: SquidGameCoffin
   name: Гроб для гравців
-  parent: ClosetSteelBase
-  description: It's a storage unit for tools.
+  description: A comfy coffin, excelent place for the vampires and corpses.
   components:
   - type: Sprite
-    sprite:  _Pirate/SquidGame/cofin.rsi
-    state: closedCoffin
-  - type: Appearance
-  - type: EntityStorageVisuals
-    stateBaseClosed: closedCoffin
-    stateDoorOpen: openedCoffin
-    stateDoorClosed: closedCoffin
+    sprite: _Pirate/SquidGame/coffin.rsi
+    layers:
+    - state: closedCoffin
+    - state: closedCoffin
+      map: ["enum.StorageVisualLayers.Door"]
+  - type: Icon
+    sprite: _Pirate/SquidGame/coffin.rsi
+    state: generic_icon
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 15
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WoodDestroy
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          MaterialWoodPlank1:
+            min: 1
+            max: 4
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: Coffin

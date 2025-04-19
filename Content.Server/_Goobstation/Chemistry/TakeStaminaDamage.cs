@@ -15,7 +15,7 @@ public sealed partial class TakeStaminaDamage : EntityEffect
     public int Amount = 10;
 
     /// <summary>
-    /// Whether stamina damage should be applied immediately
+    /// Whether stamina damage should be applied immediately.
     /// </summary>
     [DataField]
     public bool Immediate;
@@ -23,19 +23,20 @@ public sealed partial class TakeStaminaDamage : EntityEffect
     protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
         => Loc.GetString("reagent-effect-guidebook-deal-stamina-damage",
             ("immediate", Immediate),
-            ("amount", Amount),
+            ("amount", MathF.Abs(Amount)),
             ("chance", Probability),
             ("deltasign", MathF.Sign(Amount)));
 
     public override void Effect(EntityEffectBaseArgs args)
     {
+        int scaledAmount = Amount;
+
         if (args is EntityEffectReagentArgs reagentArgs)
         {
-            if (reagentArgs.Scale != 1f)
-                return;
+            scaledAmount = (int)(Amount * reagentArgs.Scale);
         }
 
         args.EntityManager.System<StaminaSystem>()
-            .TakeStaminaDamage(args.TargetEntity, Amount, visual: false);
+            .TakeStaminaDamage(args.TargetEntity, scaledAmount, visual: false, immediate: Immediate);
     }
 }

@@ -103,6 +103,7 @@ public sealed partial class AbductorSystem : SharedAbductorSystem
         var doAfter = new DoAfterArgs(EntityManager, args.Actor, TimeSpan.FromSeconds(3), @event, args.Actor)
         {
             BreakOnDamage = false,
+            BreakOnDropItem = false,
             BreakOnHandChange = false,
             BreakOnMove = false,
             BreakOnWeightlessMove = false,

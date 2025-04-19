@@ -13875,3 +13875,342 @@ Entries:
   id: 7141
   time: '2025-04-12T02:17:10.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2228
+- author: Diggy
+  changes:
+  - type: Add
+    message: >-
+      Люди використовували маркування ІПШ, щоб стати невидимими, тепер вони можуть брати лише маркування лялькових суглобів у розділі оверлеїв.
+  id: 7142
+  time: '2025-04-12T22:41:40.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2233
+- author: EctoplasmIsGood
+  changes:
+  - type: Add
+    message: >-
+      Портовано майже всі хімікати з Goob LRP, розважайтеся з ними, мейнери хімії.
+  id: 7143
+  time: '2025-04-13T00:31:33.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2184
+- author: Tirochora
+  changes:
+  - type: Add
+    message: Вогонь повернуто в гру на більш ніж пів секунди.
+  - type: Tweak
+    message: Вогонь не повинен спопеляти людей при невеликій кількості.
+  id: 7144
+  time: '2025-04-13T03:26:05.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2217
+- author: Timfa2112
+  changes:
+  - type: Remove
+    message: Представники командування більше не можуть брати рису 'Німий'.
+  id: 7145
+  time: '2025-04-14T02:52:10.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2210
+- author: Zeta_Null
+  changes:
+  - type: Tweak
+    message: >-
+      Зроблено так, щоб дерев'яні текстури N14 виглядали менш жахливо стиснутими в jpeg і не так, ніби їх взяли зі скріншоту якихось дерев'яних плиток. Які ж вони були жахливі.
+  id: 7146
+  time: '2025-04-14T02:52:45.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2227
+- author: Tirochora
+  changes:
+  - type: Fix
+    message: Багато виправлень помилок у бойових мистецтвах.
+  - type: Tweak
+    message: >-
+      Комбо бойових мистецтв, які вимагають захвату, тепер потребують, щоб ціль залишалася захопленою. Щасти виконати кидок дзюдо.
+  - type: Tweak
+    message: >-
+      Відкориговано шкоду витривалості від обеззброєння CQC та ефекти комбо удару ногою CQC.
+  - type: Fix
+    message: Крав Мага тепер коректно надає більше шкоди без зброї.
+  id: 7147
+  time: '2025-04-14T03:12:37.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2239
+- author: Orion-416
+  changes:
+  - type: Add
+    message: >-
+      Портовано модульні костюми Responsory, Inquisitory, Apocryphal, Corporate, Praetorian зі станції TG.
+  id: 7148
+  time: '2025-04-14T10:32:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2200
+- author: Mike32oz
+  changes:
+  - type: Fix
+    message: 'Точка спавну на Астериску.'
+  id: 7149
+  time: '2025-04-15T04:30:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2240
+- author: ilmenwe
+  changes:
+  - type: Add
+    message: >-
+      spawncorporatestamp, spawnspecificcorporatestamp та маркування marking-ThavenChestScales.
+  id: 7150
+  time: '2025-04-15T04:30:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2236
+- author: ilmenwe
+  changes:
+  - type: Tweak
+    message: Склад ресурсів.
+  id: 7151
+  time: '2025-04-15T04:32:01.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2237
+- author: 3PonPon3
+  changes:
+  - type: Add
+    message: >-
+      Риси, що збільшують швидкість хірургії: 'Хірургічна Підготовка' (1.6, між інтерном та стандартним лікарем) для немедичного персоналу, та 'Досвідчений Хірург' (2.5, як у ГЛ) для медиків (крім інтерна та з санітаром).
+  - type: Tweak
+    message: Вартість 'Навчання CPR' знижено з 4 до 3.
+  - type: Fix
+    message: БСО більше не можуть брати рису 'Навчання CPR', оскільки вони вже мають її вроджено.
+  id: 7152
+  time: '2025-04-15T20:14:10.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2238
+- author: VMSolidus
+  changes:
+  - type: Add
+    message: >-
+      Додано 'Інтегровані двигуни' та 'Інтегровані магнітні чоботи' як особливості, які іноді можуть мати скафандри та тактичні костюми. Скафандри рідко мають обидві функції, а іноді не мають жодної, тоді як більш 'Просунуті' тактичні костюми, такі як серія CSA, завжди матимуть обидві.
+  - type: Tweak
+    message: >-
+      Зменшено максимальний час, протягом якого персонажі гравців можуть залишатися в повітрі без повторного впливу космічного вітру, до 1 секунди (з 2). Це не впливає, якщо вас активно кидають.
+  - type: Fix
+    message: >-
+      Виправлено помилку, через яку дія скафандра для перемикання шолома не відображала іконку шолома.
+  id: 7153
+  time: '2025-04-16T08:03:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2245
+- author: 3PonPon3
+  changes:
+  - type: Add
+    message: >-
+      Додано рису 'Протези Pryarm', яка замінює ваші руки на DX-1 Pryarms, що дозволяє відчиняти знеструмлені двері так само, як ломом.
+  - type: Tweak
+    message: >-
+      Біонічна рука знову коштує 8 очок і доступна лише для командування, служби безпеки, високопосадовців та парамедиків.
+  - type: Remove
+    message: Риса 'Швидкі ноги' поки що прибрана.
+  id: 7154
+  time: '2025-04-16T16:44:11.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2255
+- author: Timfa2112
+  changes:
+  - type: Fix
+    message: >-
+      Виправлено помилку, коли паспорт іноді був закритим, хоча виглядав відкритим, і навпаки.
+  id: 7155
+  time: '2025-04-16T18:26:18.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2243
+- author: Will-Oliver-Br
+  changes:
+  - type: Tweak
+    message: Зроблено ящик для виживання меншим.
+  id: 7156
+  time: '2025-04-16T18:28:24.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2169
+- author: ilmenwe
+  changes:
+  - type: Remove
+    message: Посилання на ContainerManager.
+  - type: Add
+    message: Посилання на ContainerSystem.
+  - type: Tweak
+    message: Деякі назви змінних.
+  id: 7157
+  time: '2025-04-16T18:32:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2231
+- author: Emilly
+  changes:
+  - type: Fix
+    message: 'Gax: дрібні виправлення.'
+  id: 7158
+  time: '2025-04-16T18:35:54.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2249
+- author: mrs
+  changes:
+  - type: Add
+    message: 'Астериск: Док шатла Лаваленду.'
+  - type: Fix
+    message: 'Астериск: Протипожежні шлюзи логістики.'
+  id: 7159
+  time: '2025-04-16T18:36:09.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2248
+- author: SolsticeOfTheWinter
+  changes:
+  - type: Add
+    message: Додано можливість носити термінус на спині.
+  id: 7160
+  time: '2025-04-16T18:43:47.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2065
+- author: dootythefrooty
+  changes:
+  - type: Tweak
+    message: Плюшевих ядерних оперативників тепер видно у ваших руках.
+  id: 7161
+  time: '2025-04-16T18:55:46.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2232
+- author: Kirisune
+  changes:
+  - type: Add
+    message: >-
+      Нелетальна та службова версії mk 32 'Universal' разом зі спеціальними запалювальними, урановими та шрапнельними магазинами.
+  - type: Add
+    message: >-
+      mk 32 'Universal' інтегровано в дослідження та розблоковується на рівні 'Просунута зброя' в зброярні 2-го рівня. Спеціальні магазини заблоковані за відповідними дослідженнями боєприпасів.
+  - type: Add
+    message: >-
+      mk 32 'Universal' інтегровано в техфаб СБ. Пістолет та його магазини коштують трохи дорожче у виготовленні, ніж N1984. Стандартні порожні, летальні та нелетальні магазини можна виготовити на початку раунду.
+  - type: Add
+    message: >-
+      mk 32 'Universal' як опція спорядження для старшого офіцера вартістю <s>5</s> 6 очок, магазини коштують по 4 очки кожен.
+  - type: Add
+    message: >-
+      Наповнений корпоративний пояс дзюдо як опція спорядження для старшого офіцера вартістю 2 очки. Пояс містить стандартні предмети пояса СБ, за винятком електрошокера.
+  - type: Add
+    message: ПП-Дизейблер як опція спорядження для старшого офіцера вартістю 2 очки.
+  - type: Add
+    message: >-
+      Наповнений корпоративний пояс дзюдо як опція спорядження для Голови Служби Безпеки з унікальним спрайтом та вартістю 2 очки.
+  - type: Tweak
+    message: >-
+      Шкода витривалості ПП-Дизейблера збільшена з 15 до <s>25</s> 20. Все ще нижче, ніж у стандартного дизейблера, але тепер його доцільніше носити як службову зброю, незважаючи на його громіздкість порівняно з іншими варіантами.
+  - type: Tweak
+    message: >-
+      Формальний костюм СБ, уніформа старшого штурмовика та кашкет старшого штурмовика тепер є ексклюзивами для старших офіцерів.
+  - type: Tweak
+    message: >-
+      До mk 32 'Universal' додано відсутні компоненти точності, що робить його не таким лазерно точним.
+  id: 7162
+  time: '2025-04-16T18:56:42.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2215
+- author: GNUtopia
+  changes:
+  - type: Add
+    message: Додано людино-машинний інтерфейс (ЛМІ).
+  - type: Add
+    message: Додано адаптер рШІ.
+  - type: Tweak
+    message: Дозволено ЛМІ функціонувати як мозок ІПР.
+  id: 7163
+  time: '2025-04-16T21:56:16.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2251
+- author: dootythefrooty
+  changes:
+  - type: Add
+    message: Викрадачі тут, щоб замінити ваші органи. Гліп Глорп!
+  id: 7164
+  time: '2025-04-17T00:17:27.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2234
+- author: VMSolidus
+  changes:
+  - type: Add
+    message: >-
+      На станції НТ двері 'Високої Безпеки', такі як двері Командного містка, СБ та Сховища, тепер захищені псі-фольгою навколо їх компонентів. Їх більше не можна відкрити силою за допомогою здібності Анойго.
+  - type: Tweak
+    message: >-
+      Анойго, Розсіювання, Обмін розумом, Зцілююче Слово, Подих Життя, Пірокінез та Ноосферний Розряд тепер не працюють, якщо ціль має псіонічну ізоляцію.
+  - type: Fix
+    message: 'Псіонічна Невидимість тепер дійсно працює, як і було заявлено.'
+  - type: Fix
+    message: >-
+      Псіонічна Невидимість та Анойго тепер видають звук, а також коректно застосовують свої перезарядки.
+  - type: Tweak
+    message: >-
+      Анойго перекласифіковано як 'Небезпечну' силу, тепер вона також коштує 10 очок для Елементалістів.
+  - type: Remove
+    message: В'язні більше не можуть бути Псіоніками.
+  - type: Fix
+    message: Мантіс більше не може викликати своє чорне лезо, якщо його руки зайняті.
+  id: 7165
+  time: '2025-04-18T18:53:36.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2272
+- author: VMSolidus
+  changes:
+  - type: Fix
+    message: >-
+      Виправлено різні помилки, пов'язані з Магнітними чоботами та Інтегрованими магнітними чоботами на скафандрах.
+  - type: Tweak
+    message: >-
+      Усі Модульні костюми, а також тактичні костюми, надані Goobstation, тепер також мають Інтегровані магнітні чоботи.
+  id: 7166
+  time: '2025-04-18T21:32:42.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2273
+- author: 3PonPon3
+  changes:
+  - type: Fix
+    message: Виправлено непрацюючі шотландський акцент, заїкання та шепелявість.
+  id: 7167
+  time: '2025-04-18T21:34:03.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2266
+- author: Timfa2112
+  changes:
+  - type: Fix
+    message: >-
+      Виправлено відсутність адмінських команд для спавну печаток, паспортів та пов'язаної з ними локалізації.
+  id: 7168
+  time: '2025-04-18T21:43:13.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2265
+- author: VMSolidus
+  changes:
+  - type: Add
+    message: >-
+      Додано слабкість 'Спалах' до DarkSwap. Потрапляння під будь-який спалах, навіть якщо у вас є захист від спалахів, призводить до миттєвого виходу з темного виміру та отримання величезної шкоди витривалості.
+  - type: Add
+    message: >-
+      Користувачі DarkSwap тепер отримують постійну шкоду витривалості, перебуваючи в темному вимірі.
+  - type: Remove
+    message: >-
+      DarkSwap більше не робить свого користувача невразливим до Космосу, Гравітації та Вакууму.
+  id: 7169
+  time: '2025-04-18T22:09:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2274
+- author: VMSolidus
+  changes:
+  - type: Fix
+    message: >-
+      Космічний вітер більше не призводить до накопичення нескінченного часу оглушення у його жертв.
+  id: 7170
+  time: '2025-04-18T22:32:43.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2276
+- author: LaryNevesPR
+  changes:
+  - type: Fix
+    message: Виправляє зріст персонажа.
+  id: 7171
+  time: '2025-04-18T23:34:33.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2278
+- author: dootythefrooty
+  changes:
+  - type: Fix
+    message: Інтеркоми знову функціональні для всіх каналів.
+  id: 7172
+  time: '2025-04-18T23:45:54.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2269
+- author: ODJ
+  changes:
+  - type: Fix
+    message: >-
+      Оновлено Anchor, велика кількість помилок та відсутній контент мають бути виправлені.
+  id: 7173
+  time: '2025-04-19T00:33:28.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2262
+- author: ODJ
+  changes:
+  - type: Tweak
+    message: Pebble оновлено до версії 3.0, насолоджуйтесь.
+  id: 7174
+  time: '2025-04-19T00:33:47.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2261
+- author: ODJ
+  changes:
+  - type: Tweak
+    message: Шатл утилізації більше не схожий на доріто.
+  id: 7175
+  time: '2025-04-19T01:21:53.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2263

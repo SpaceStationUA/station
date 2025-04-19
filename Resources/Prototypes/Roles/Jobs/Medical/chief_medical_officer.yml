@@ -11,6 +11,7 @@
       traits:
         - Foreigner
         - ForeignerLight
+        - Muted
     - !type:CharacterPlaytimeRequirement
       tracker: JobChemist
       min: 14400 #DeltaV 4 hrs
@@ -22,7 +23,7 @@
       min: 43200 # DeltaV - 12 hours
     - !type:CharacterOverallTimeRequirement
       min: 90000 # 25 hours
-    - !type:CharacterEmployerRequirement # Added from master-upstream
+    - !type:CharacterEmployerRequirement
       employers:
       - ZengHuPharmaceuticals
       - Interdyne

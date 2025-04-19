@@ -8,7 +8,13 @@
   id: MobAbductor
   components:
   - type: Absorbable # BLOOD FOR THE BLOOD GOD
-  - type: Telepathy # Ayy lmao
+  - type: Psionic
+    removable: false
+    roller: false
+  - type: InnatePsionicPowers
+    powersToAdd:
+    - TelepathyPower
+    # no glorp accent for you.
   - type: HumanoidAppearance
     species: Abductor
   - type: Icon
@@ -46,6 +52,17 @@
         Brute: -0.14
   - type: Targeting
   - type: SurgeryTarget
+  - type: Bloodstream
+    bloodReagent: AlienBlood
+  #EE changes
+  - type: LanguageSpeaker
+    currentLanguage: Xeeplian
+  - type: LanguageKnowledge
+    speaks:
+    - Xeeplian
+    understands:
+    - TauCetiBasic
+    - Xeeplian
 
 - type: entity
   parent: BaseSpeciesDummy
