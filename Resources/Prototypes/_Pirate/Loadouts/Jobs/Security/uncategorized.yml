@@ -11,3 +11,14 @@
         - Security
   items:
     - ClothingMaskGasSecurity
+
+- type: loadout
+  id: LoadoutSecurityBodycam
+  category: JobsSecurityAUncategorized
+  cost: 0
+  requirements:
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Security
+  items:
+    - Bodycam

@@ -1,0 +1,99 @@
+# Masks
+- type: entity
+  parent: ClothingMaskGas
+  id: ClothingMaskCircle
+  name: "Маска працівника(Коло)"
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _Pirate/SquidGame/Clothing/Masks/circle.rsi
+    state: icon-circleMask
+  - type: Clothing
+    sprite: _Pirate/SquidGame/Clothing/Masks/circle.rsi
+    equippedState: equipped-Mask
+
+- type: entity
+  parent: ClothingMaskGas
+  id: ClothingMaskSquare
+  name: "Маска працівника(Квадрат)"
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _Pirate/SquidGame/Clothing/Masks/square.rsi
+    state: icon-squareMask
+  - type: Clothing
+    sprite: _Pirate/SquidGame/Clothing/Masks/square.rsi
+    equippedState: equipped-squareMask
+
+- type: entity
+  parent: ClothingMaskGas
+  id: ClothingMaskTriangle
+  name: "Маска працівника(Трикутник)"
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _Pirate/SquidGame/Clothing/Masks/triangle.rsi
+    state: icon-triangleMask
+  - type: Clothing
+    sprite: _Pirate/SquidGame/Clothing/Masks/triangle.rsi
+    equippedState: equipped-triangleMask
+
+- type: entity
+  parent: ClothingMaskGas
+  id: ClothingMaskUwu
+  name: "Маска працівника(Кітик)"
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _Pirate/SquidGame/Clothing/Masks/uwu.rsi
+    state: icon-UwUMask
+  - type: Clothing
+    sprite: _Pirate/SquidGame/Clothing/Masks/uwu.rsi
+    equippedState: equipped-UwUMask
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformBlue
+  name: "Синя уніформа"
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _Pirate/SquidGame/Clothing/Uniform/blue.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Pirate/SquidGame/Clothing/Uniform/blue.rsi
+    equippedState: equipped-blueUniform
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformRed
+  name: "Червона уніформа"
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _Pirate/SquidGame/Clothing/Uniform/red.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Pirate/SquidGame/Clothing/Uniform/red.rsi
+    equippedState: equipped-redUniform_Test
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHoodRed
+  name: "Червоний капюшон"
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _Pirate/SquidGame/Clothing/Uniform/red.rsi
+    state: icon2
+  - type: Clothing
+    sprite: _Pirate/SquidGame/Clothing/Uniform/red.rsi
+    equippedState: equipped-HELMET
+

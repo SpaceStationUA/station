@@ -1426,7 +1426,12 @@
     state: pda-seniorresearcher
   - type: CartridgeLoader
     preinstalled:
-    - PsiWatchCartridge
+      - CrewManifestCartridge
+      - NotekeeperCartridge
+      - NewsReaderCartridge
+      - GlimmerMonitorCartridge
+      - WalletCartridge
+      - NanoChatCartridge
 
 - type: entity
   parent: BaseMedicalPDA
