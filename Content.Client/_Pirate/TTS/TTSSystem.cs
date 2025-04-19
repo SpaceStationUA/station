@@ -22,7 +22,7 @@ public sealed class TTSSystem : EntitySystem
     [Dependency] private readonly AudioSystem _audio = default!;
 
     private ISawmill _sawmill = default!;
-    private readonly MemoryContentRoot _contentRoot = new();
+    // private readonly MemoryContentRoot _contentRoot = new();
     private static readonly ResPath Prefix = ResPath.Root ;/// "";
 
     /// <summary>
@@ -41,7 +41,7 @@ public sealed class TTSSystem : EntitySystem
     public override void Initialize()
     {
         _sawmill = Logger.GetSawmill("tts");
-        _res.AddRoot(Prefix, _contentRoot);
+        // _res.AddRoot(Prefix, _contentRoot);
         _cfg.OnValueChanged(SimpleStationCCVars.TTSVolume, OnTtsVolumeChanged, true);
         SubscribeNetworkEvent<PlayTTSEvent>(OnPlayTTS);
     }
@@ -50,7 +50,7 @@ public sealed class TTSSystem : EntitySystem
     {
         base.Shutdown();
         _cfg.UnsubValueChanged(SimpleStationCCVars.TTSVolume, OnTtsVolumeChanged);
-        _contentRoot.Dispose();
+        // _contentRoot.Dispose();
     }
 
     public void RequestPreviewTTS(string voiceId)
@@ -68,7 +68,7 @@ public sealed class TTSSystem : EntitySystem
         _sawmill.Verbose($"Play TTS audio {ev.Data.Length} bytes from {ev.SourceUid} entity");
 
         var filePath = new ResPath($"{_fileIdx++}.wav");
-        _contentRoot.AddOrUpdateFile(filePath, ev.Data);
+        // _contentRoot.AddOrUpdateFile(filePath, ev.Data);
 
         var audioResource = new AudioResource();
         audioResource.Load(IoCManager.Instance!, Prefix / filePath);
@@ -87,7 +87,7 @@ public sealed class TTSSystem : EntitySystem
             _audio.PlayGlobal(audioResource.AudioStream, audioParams);
         }
 
-        _contentRoot.RemoveFile(filePath);
+        // _contentRoot.RemoveFile(filePath);
     }
 
     private float AdjustVolume(bool isWhisper)
