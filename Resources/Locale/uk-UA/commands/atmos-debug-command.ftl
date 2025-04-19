@@ -1,7 +1,7 @@
 cmd-atvrange-desc = Встановлює діапазон налагодження atmos (у вигляді двох поплавків, початок [червоний] і кінець [синій])
 cmd-atvrange-help = Використання: {$command} <start> <end>
-cmd-atvrange-error-start = Поганий СТАРТ поплавка
-cmd-atvrange-error-end = Поганий поплавок END
+cmd-atvrange-error-start = Поганий флоут СТАРТ
+cmd-atvrange-error-end = Поганий флоут END
 cmd-atvrange-error-zero = Масштаб не може бути нульовим, оскільки це призведе до ділення на нуль у AtmosDebugOverlay.
 
 cmd-atvmode-desc = Встановлює режим налагодження atmos. Шкала буде автоматично скинута.

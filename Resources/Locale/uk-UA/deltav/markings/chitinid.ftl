@@ -1,4 +1,4 @@
-marking-ChitinidAntennasDefault-default = Антени
+marking-ChitinidAntennasDefault-default = Вусики
 marking-ChitinidAntennasDefault = Антени (за замовчуванням)
 
 marking-ChitinidAntennasCurly-curly = Антени

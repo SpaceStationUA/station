@@ -4,7 +4,7 @@
 comp-stack-examine-detail-count = {$count ->
     [one] Містить [color={$markupCountColor}]{$count}[/color] штуку
     *[other] Містить [color={$markupCountColor}]{$count}[/color] штук
-} in the stack.
+} в стопці.
 
 # Stack status control
 comp-stack-status = Рахунок: [color=white]{$count}[/color]
@@ -19,5 +19,5 @@ comp-stack-becomes-full = Тепер стопка повна.
 
 # Text related to splitting a stack
 comp-stack-split = Ви поділили стопку.
-comp-stack-split-halve = Половина
-comp-stack-split-too-small = Стопка замала щоб поділити.
+comp-stack-split-halve = Розділити
+comp-stack-split-too-small = Стопка замала щоб її поділити.

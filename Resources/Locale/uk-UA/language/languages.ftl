@@ -1,10 +1,10 @@
 language-Universal-name = Універсальний
 language-Universal-description = Що ти таке?
 
-language-GalacticCommon-name = Галактичний загальний
+language-GalacticCommon-name = Галактичний Загальний
 language-GalacticCommon-description = Стандартна галицька мова, яку найчастіше використовують для міжвидового спілкування та юридичної роботи.
 
-language-Bubblish-name = Блюббіш
+language-Bubblish-name = Бюббліш
 language-Bubblish-description = Мова слизу. Суміш булькаючих звуків і поп-музики, яку дуже важко сприймати як людську без використання механічних засобів.
 
 language-RootSpeak-name = Говір коренів
@@ -16,11 +16,12 @@ language-Nekomimetic-description = Для стороннього спостер�
 language-Draconic-name = Драконівський
 language-Draconic-description = Спільна мова людей-ящірок складається з шиплячих звуків і хрипів.
 
-language-SolCommon-name = Сонячна звичайна
+language-SolCommon-name = Сол Загальний
 language-SolCommon-description = Мова, спільна для видів з Сонячної системи.
 
-language-Canilunzt-name = Canilunzt
-language-Canilunzt-description = Гортанна мова, якою розмовляють мешканці системи Ваззенд, складається з гарчання, гавкоту, тявкання та інтенсивних рухів вухами і хвостом. Вулканіни розмовляють цією мовою з легкістю.
+language-Canilunzt-name = Канілунцт
+language-Canilunzt-description = Гортанна мова, якою розмовляють мешканці системи Ваззенд,
+   складається з гарчання, гавкоту, тявкання та інтенсивних рухів вухами і хвостом. Вулканіни розмовляють цією мовою з легкістю.
 
 language-Moffic-name = Моффік
 language-Moffic-description = Мова людей-метеликів межує з повною нерозбірливістю.
@@ -35,13 +36,13 @@ language-Dog-name = Пес
 language-Dog-description = Гав!
 
 language-Fox-name = Лис
-language-Fox-description = Ух ти!
+language-Fox-description = Йіп!
 
 language-Xeno-name = Ксено
 language-Xeno-description = Ссссс!
 
 language-Monkey-name = Мавпа
-language-Monkey-description = ууууу!
+language-Monkey-description = уу у уу!
 
 language-Mouse-name = Миша
 language-Mouse-description = Піііі!
@@ -55,7 +56,7 @@ language-Duck-description = Кря!
 language-Cow-name = Корова
 language-Cow-description = Мууу!
 
-language-Sheep-name = Вівці
+language-Sheep-name = Вівця
 language-Sheep-description = Бе-е-е!
 
 language-Kangaroo-name = Кенгуру
@@ -68,7 +69,7 @@ language-Crab-name = Краб
 language-Crab-description = Клац!
 
 language-Kobold-name = Кобольд
-language-Kobold-description = Шипіння!
+language-Kobold-description = Хххх!
 
 language-SignLanguage-name = Мова жестів
 language-SignLanguage-description = Стандартна галактична мова жестів, якою користуються ті, хто не може розмовляти галактичною мовою або не володіє нею взагалі.

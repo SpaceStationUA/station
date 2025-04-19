@@ -1,8 +1,8 @@
-﻿## TabletopGameComponent
+## TabletopGameComponent
 tabletop-verb-play-game = Зіграти
-tabletop-verb-dump-pieces = Сміттєві шматки
+tabletop-verb-dump-pieces = Викинути Фігури
 tabletop-default-board-name = Настолка
-tabletop-error-remove-non-hologram = Ви не можете видалити вбудовану частину!
+tabletop-error-remove-non-hologram = Ви не можете видалити вбудовану фігурку!
 tabletop-added-piece = Дошка яскраво переливається!
 
 ## Chess

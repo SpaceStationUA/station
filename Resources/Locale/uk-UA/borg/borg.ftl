@@ -4,15 +4,15 @@ borg-player-not-allowed-eject = Мозок вигнали з шасі!
 borg-panel-not-open = Панель кіборга не відкрита...
 
 borg-mind-added = {CAPITALIZE($name)} увімкнено!
-borg-mind-removed = {CAPITALIZE($name)} вимкнути!
+borg-mind-removed = {CAPITALIZE($name)} вимкнено!
 
 borg-module-too-many = Не вистачає місця для ще одного модуля...
 borg-module-whitelist-deny = Цей модуль не підходить для цього типу кіборга...
 
 borg-construction-guide-string = Кінцівки і тулуб кіборга повинні бути прикріплені до ендоскелету.
 
-borg-ui-menu-title = Інтерфейс кіборга
-borg-ui-charge-label = Зарядити: {$charge}%
+borg-ui-menu-title = Інтерфейс Кіборга
+borg-ui-charge-label = Заряд: {$charge}%
 borg-ui-no-brain = Немає ядра
 borg-ui-remove-battery = Видалити
 borg-ui-modules-label = Модулі:

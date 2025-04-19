@@ -1,7 +1,7 @@
-expendable-light-start-verb = Стартове світло
+expendable-light-start-verb = Активувати Світло
 
 expendable-light-spent-flare-name = відпрацьований факел
-expendable-light-spent-flare-desc = Схоже, цей факел перегорів. Який облом.
+expendable-light-spent-flare-desc = Схоже, цей факел перегорів. Облом.
 
 expendable-light-burnt-torch-name = згорілий факел
 expendable-light-burnt-torch-desc = Схоже, що смолоскип перегорів. Який облом.

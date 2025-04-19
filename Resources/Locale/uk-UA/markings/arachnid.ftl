@@ -79,16 +79,16 @@ marking-ArachnidTorsoSkull-skull = Дизайн
 marking-ArachnidTorsoTarget = Ціль
 marking-ArachnidTorsoTarget-target = Дизайн
 
-marking-ArachnidRArmStripes = Павукоподібні смуги (праворуч)
+marking-ArachnidRArmStripes = Павукоподібні Смуги (Праворуч)
 marking-ArachnidRArmStripes-stripes_right = Смуги
 
-marking-ArachnidLArmStripes = Павукоподібні смуги (ліворуч)
+marking-ArachnidLArmStripes = Павукоподібні Смуги (Ліворуч)
 marking-ArachnidLArmStripes-stripes_left = Смуги
 
-marking-ArachnidRLegStripes = Павукоподібні смуги (праворуч)
+marking-ArachnidRLegStripes = Павукоподібні Смуги (Праворуч)
 marking-ArachnidRLegStripes-stripes_right = Смуги
 
-marking-ArachnidLLegStripes = Павукоподібні смуги (ліворуч)
+marking-ArachnidLLegStripes = Павукоподібні Смуги (Ліворуч)
 marking-ArachnidLLegStripes-stripes_left = Смуги
 
-marking-ArachnidOverlayFuzzy = Нечіткий
+marking-ArachnidOverlayFuzzy = Ворсистий

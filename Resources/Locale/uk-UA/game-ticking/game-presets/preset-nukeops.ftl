@@ -1,8 +1,8 @@
 nukeops-title = Ядерні оперативники
-nukeops-description = Оперативники націлилися на станцію. Спробуйте утримати їх від озброєння та детонації ядерної бомби, захистивши ядерний диск!
+nukeops-description = Оперативники націлилися на станцію. Спробуйте утримати їх від запуску та детонації ядерної бомби, захистивши ядерний диск!
 
-nukeops-welcome = Ви ядерний оперативник. Ваша місія підірвати станцію - {$station}, і переконайтеся, що це не що інше, як купа уламків. Ваші боси, Синдикат, надали вам інструменти, необхідні для виконання завдання.
-    Операція {$name} почалась! Смерть Нанотрайзен!
+nukeops-welcome = Ви ядерний оперативник. Ваша місія підірвати станцію - {$station}, і переконатися, що це не що інше, як купа уламків. Ваші боси, Синдикат, надали вам інструменти, необхідні для виконання завдання.
+    Операція {$name} почалась! Смерть Нанотрейзен!
 
 nukeops-opsmajor = [color=crimson]Тотальна перемога синдикату![/color]
 nukeops-opsminor = [color=crimson]Незначна перемога синдикату![/color]
@@ -18,15 +18,15 @@ nukeops-cond-nukeactiveatcentcom = Ядерну бомбу доставили д
 nukeops-cond-nukediskoncentcom = Екіпаж втік разом з диском.
 nukeops-cond-nukedisknotoncentcom = Екіпаж залишив ядерний диск автентифікації.
 nukeops-cond-nukiesabandoned = Оперативник були полишені.
-nukeops-cond-allnukiesdead = Всі оперативники померли
-nukeops-cond-somenukiesalive = Хтось з опертивників помер.
+nukeops-cond-allnukiesdead = Всі ядерні оперативники померли.
+nukeops-cond-somenukiesalive = Деякі опертивники померли.
 nukeops-cond-allnukiesalive = Жоден з оперативників не помер.
 
 nukeops-list-start = Оперативниками були:
 nukeops-list-name = - [color=White]{$name}[/color]
 nukeops-list-name-user = - [color=White]{$name}[/color] ([color=gray]{$user}[/color])
-nukeops-not-enough-ready-players = Не вистачає гравців для запуску гри! Є {$readyPlayersCount} гравців готових але потрібно {$minimumPlayers}. Неможливо почати.
-nukeops-no-one-ready = Ніхто не проголосував! Не можливо запустити оперативнків.
+nukeops-not-enough-ready-players = Не вистачає гравців для запуску гри! Є {$readyPlayersCount} гравців готових але потрібно {$minimumPlayers}. Неможливо почати ЯО.
+nukeops-no-one-ready = Ніхто не був готовим! Не можливо запустити ЯО.
 
 nukeops-role-commander = Командир
 nukeops-role-agent = Агент

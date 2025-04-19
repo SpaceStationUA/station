@@ -31,7 +31,7 @@ cmd-vote-on-execute-error-invalid-option = Недійсний варіант
 ## 'listvotes' command
 
 cmd-listvotes-desc = Списки активних голосувань
-cmd-listvotes-help = Використовуйте: listvotes
+cmd-listvotes-help = Використовування: listvotes
 
 ## 'cancelvote' command
 

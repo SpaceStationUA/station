@@ -5,7 +5,7 @@ command-mailto-no-mailreceiver = Цільовий отримувач не має
 command-mailto-no-blankmail = Прототип {$blankMail} не існує. Щось дуже не так. Зверніться до програміста.
 command-mailto-bogus-mail = {$blankMail} не мав {$requiredMailComponent}. Щось дуже не так. Зверніться до програміста.
 command-mailto-invalid-container = Цільовий контейнер не має потрібного контейнера {$requiredContainer}.
-command-mailto-unable-to-receive = Цільовий отримувач не може приймати пошту. Може бути відсутній ID.
+command-mailto-unable-to-receive = Цільовий отримувач не зміг прийняти пошту. Можлива відсутність ID.
 command-mailto-no-teleporter-found = Цільовий отримувач не відповідає жодному поштовому телепортеру станції. Можливо, отримувач знаходиться за межами станції.
 command-mailto-success = Успіх! Поштова посилка поставлена в чергу на телепортацію через {$timeToTeleport} секунд.
 

@@ -32,12 +32,12 @@ ban-banned-permanent-appeal = Цього бану можна позбутись 
 ban-expires = Цей бан триватиме {$duration} хвилин і він скінчиться в {$time} UTC (час Лондона).
 ban-banned-1 = Ви або інший користувач цього пристрою або мережі забанені на цьому сервері.
 ban-banned-2 = Причина бану: "{$reason}"
-ban-banned-3 = Спроба обійти бан, наприклад свторенням нового профіля, буде знайдена.
+ban-banned-3 = Спроба обійти бан, наприклад створенням нового профіля, буде записана.
 
 soft-player-cap-full = Сервер повний!
-panic-bunker-account-denied = Сервер у режимі бункера для захисту від атаки. Нові підключення не будуть прийняті. Спробуйте пізніше
-panic-bunker-account-denied-reason = Сервер у режимі бункера для захисту від атаки, вас не підключило. Причина: "{$reason}"
-panic-bunker-account-reason-account = Профіль має бути старшим за {$minutes} хвилин
+panic-bunker-account-denied = Сервер у режимі панічного бункера. Нові підключення не будуть прийняті. Спробуйте пізніше
+panic-bunker-account-denied-reason = Сервер у режимі панічного бункера, вас не підключило. Причина: "{$reason}"
+panic-bunker-account-reason-account = Акаунт SS14 має бути старшим за {$minutes} хвилин
 panic-bunker-account-reason-overall = Кількість награних годин має бути {$hours} годин
 
 cmd-whitelistremove-desc = Видаляє гравця з вказаним іменем користувача з білого списку сервера.

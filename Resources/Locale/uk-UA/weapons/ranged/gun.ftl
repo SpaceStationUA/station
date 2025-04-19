@@ -9,7 +9,7 @@ gun-set-fire-mode = Виставити на {$mode}
 
 # SelectiveFire
 gun-SemiAuto = напівавтоматичний
-gun-Burst = шквальний
+gun-Burst = відсічками
 gun-FullAuto = автоматичний
 
 # BallisticAmmoProvider
@@ -18,7 +18,7 @@ gun-ballistic-cycled = Заряджено
 gun-ballistic-cycled-empty = Заряджено (порожньо)
 gun-ballistic-transfer-invalid = {CAPITALIZE(THE($ammoEntity))} не поміститься в середині {THE($targetEntity)}!
 gun-ballistic-transfer-empty = {CAPITALIZE(THE($entity))} порожній.
-gun-ballistic-transfer-target-full = {CAPITALIZE(THE($entity))} вже повністю заповнено.
+gun-ballistic-transfer-target-full = {CAPITALIZE(THE($entity))} вже повністю заряджений.
 
 # CartridgeAmmo
 gun-cartridge-spent = Він [color=red]пустий[/color].
@@ -39,7 +39,7 @@ gun-chamber-bolt-open-state = увімкнуто
 gun-chamber-rack = Стійка
 
 # MagazineAmmoProvider
-gun-magazine-examine = Вистачить на [color={$color}]{$count}[/color] пострілів.
+gun-magazine-examine = Залишилося [color={$color}]{$count}[/color] пострілів.
 
 # RevolverAmmoProvider
 gun-revolver-empty = Револьвер порожній

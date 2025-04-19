@@ -1,8 +1,8 @@
 strippable-component-not-holding-anything = Ви нічого не тримаєте!
-strippable-component-cannot-drop = Ви не можете кинути це!
+strippable-component-cannot-drop = Ви не можете покласти це!
 strippable-component-item-slot-occupied-message = {$owner} вже має щось всередині!
-strippable-component-cannot-equip-message = {$owner} неможливо екіпірувати!
-strippable-component-cannot-put-message = {$owner} неможливо покласти!
+strippable-component-cannot-equip-message = {$owner} неможливо екіпірувати там!
+strippable-component-cannot-put-message = {$owner} неможливо покласти там!
 strippable-component-item-slot-free-message = {$owner} нічого не містить!
 strippable-component-cannot-unequip-message = {$owner} неможливо зняти!
 strippable-component-cannot-drop-message = {$owner} неможливо кинути!

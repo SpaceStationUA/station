@@ -12,5 +12,5 @@ lobby-state-player-status-round-not-started = Раунд ще не почавс�
 lobby-state-player-status-round-time = Час раунду: {$hours} годин та {$minutes} хвилин
 lobby-state-song-text = Грає: [color=white]{$songTitle}[/color] від [color=white]{$songArtist}[/color]
 lobby-state-song-no-song-text = У лобі не грає пісня.
-lobby-state-song-unknown-title = [color=dimgray]Невідома пісня[/color]
-lobby-state-song-unknown-artist = [color=dimgray]невідомого автору[/color]
+lobby-state-song-unknown-title = [color=dimgray]Невідома Пісня[/color]
+lobby-state-song-unknown-artist = [color=dimgray]Невідомого Автору[/color]

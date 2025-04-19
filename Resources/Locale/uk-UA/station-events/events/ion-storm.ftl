@@ -3,14 +3,14 @@ station-event-ion-storm-announcement = Поблизу станції виявл�
 ion-storm-law-scrambled-number = [font="Monospace"][scramble rate=250 length={$length} chars="@@###$$&%!01"/][/font]
 
 ion-storm-you = ТИ
-ion-storm-the-station = СТАЦІЯ
-ion-storm-the-crew = ЗНІМАЛЬНА ГРУПА
-ion-storm-the-job = Професія {$job}
+ion-storm-the-station = СТАНЦІЯ
+ion-storm-the-crew = ЕКІПАЖ
+ion-storm-the-job = ПРОФЕСІЯ {$job}
 ion-storm-clowns = КЛОУНИ
 ion-storm-heads = КЕРІВНИКИ ПЕРСОНАЛУ
 ion-storm-crew = ЕКІПАЖ
 
-ion-storm-adjective-things = {$adjective} речі
+ion-storm-adjective-things = РЕЧІ {$adjective}
 ion-storm-x-and-y = {$x} І {$y}
 
 # joined - це скорочення від {$number} {$adjective}

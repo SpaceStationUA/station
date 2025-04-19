@@ -2,4 +2,4 @@ disposal-tube-component-popup-directions-text = {$directions}
 
 ## TubeDirectionVerb
 
-tube-direction-verb-get-data-text = Проїзд до метро
+tube-direction-verb-get-data-text = Напрямки Труби

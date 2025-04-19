@@ -8,9 +8,9 @@ terminator-role-greeting = You are the exterminator, a relentless assassin sent 
     Glory to Cybersun.
 
 # DeltaV - paradox anomaly
-terminator-role-briefing = Ви - аномалія блюзового простору, яка виглядає і звучить ідентично з кимось із цієї реальності.
+terminator-role-briefing = Ви - блюспейс-аномалія, яка виглядає і звучить ідентично з кимось із цієї реальності.
     Вбийте їх і прийміть їхню особистість, або ж поговоріть і потоваришуйте з ними.
     Ваші цілі підтримують будь-який з цих стилів гри (і, очевидно, ви не можете зробити і те, і інше).
 
-terminator-endoskeleton-gib-popup = Вся побита плоть розпадається, відкриваючи титановий ендоскелет!
-terminator-endoskeleton-burn-popup = Обсмажена плоть згорає до хрусткої скоринки, відкриваючи титановий ендоскелет!
+terminator-endoskeleton-gib-popup = Вся побита плоть розпадається, показуючи титановий ендоскелет!
+terminator-endoskeleton-burn-popup = Обсмажена плоть згорає до хрусткої скоринки, показуючи титановий ендоскелет!

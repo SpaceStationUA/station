@@ -1,1 +1,1 @@
-transformable-container-component-glass = ємність з {$reagent}
+transformable-container-component-glass = склянка з {$reagent}

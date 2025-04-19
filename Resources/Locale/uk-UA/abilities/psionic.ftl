@@ -61,7 +61,7 @@ action-description-noospheric-zap = Викликає шок у свідомос�
 
 action-name-pyrokinesis = Пірокінез
 action-description-pyrokinesis = Підпалити легкозаймисту мішень.
-pyrokinesis-power-used = Струмок полум'я охоплює {THE($target)}, запалює {OBJECT($target)}!
+pyrokinesis-power-used = Струмок полум'я охоплює {THE($target)}, і запалює {OBJECT($target)}!
 
 action-name-psychokinesis = Психокінез
 action-description-psychokinesis = Згинайте тканину простору, щоб миттєво рухатися по ній.

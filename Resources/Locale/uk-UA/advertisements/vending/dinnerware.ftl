@@ -1,4 +1,4 @@
-advertisement-dinnerware-1 = Мм, продукти харчування,основа,база!
+advertisement-dinnerware-1 = Мм, продукти харчування!
 advertisement-dinnerware-2 = Продукти харчування та харчові аксесуари.
 advertisement-dinnerware-3 = Беріть свої тарілки!
 advertisement-dinnerware-4 = Ти любиш виделки?

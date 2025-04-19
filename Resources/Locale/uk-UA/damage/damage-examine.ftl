@@ -1,6 +1,6 @@
 # Damage examines
 damage-examinable-verb-text = Пошкодження
-damage-examinable-verb-message = Ознайомтеся з розмірами пошкоджень.
+damage-examinable-verb-message = Ознайомтеся зі значеннями пошкоджень.
 
 damage-hitscan = хіт-скан
 damage-projectile = снаряд

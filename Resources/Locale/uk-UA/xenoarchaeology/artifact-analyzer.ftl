@@ -1,5 +1,5 @@
 analysis-console-menu-title = аналiтична консоль
-analysis-console-server-list-button = Список серверів
+analysis-console-server-list-button = Список Серверів
 analysis-console-scan-button = Сканувати
 analysis-console-scan-tooltip-info = Скануйте артефакти, щоб отримати інформацію про їхню структуру.
 analysis-console-print-button = Друкувати

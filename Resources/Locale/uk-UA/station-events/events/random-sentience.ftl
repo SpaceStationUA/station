@@ -2,8 +2,8 @@
 random-sentience-event-data-1 = сканів наших високочастотних сенсорів
 random-sentience-event-data-2 = графіків передбачень
 random-sentience-event-data-3 = нашої всемогутності
-random-sentience-event-data-4 = трафіків комунікації з вашої станції
-random-sentience-event-data-5 = енергетичної нестабільністі що ми зафіксували
+random-sentience-event-data-4 = комунікації вашої станції
+random-sentience-event-data-5 = енергетичної нестабільності, що ми зафіксували
 random-sentience-event-data-6 = [ВІДРЕДАГОВАНО]
 
 ## Phrases used to describe the level of intelligence, though it doesn't actually affect anything.
@@ -23,18 +23,18 @@ station-event-random-sentience-announcement = На основі { $data }, ми 
     [2] { $kind1 } і { $kind2 }
     [3] { $kind1 }, { $kind2 }, і { $kind3 }
     *[other] { $kind1 }, { $kind2 }, { $kind3 }, ітд.
-} об'єкти розвинули рівень інтелкту типу: { $strength }, і можливість до комунікації.
+} об'єкти розвинули рівень інтелекту типу: { $strength }, і можливість до комунікації.
 
 ## Ghost role description
 
-station-event-random-sentience-role-description = Ви розумна { $name } істота, що отримала життя завдяки космічній магії.
+station-event-random-sentience-role-description = Ви розумна істота { $name }, що отримала життя завдяки космічній магії.
 
 # Flavors
 station-event-random-sentience-flavor-mechanical = механічні
 station-event-random-sentience-flavor-organic = органічні
 station-event-random-sentience-flavor-corgi = коргі
-station-event-random-sentience-flavor-primate = примат
-station-event-random-sentience-flavor-kobold = кобольд
-station-event-random-sentience-flavor-slime = слайм
+station-event-random-sentience-flavor-primate = примати
+station-event-random-sentience-flavor-kobold = кобольди
+station-event-random-sentience-flavor-slime = слайми
 
 station-event-random-sentience-flavor-inanimate = неживий

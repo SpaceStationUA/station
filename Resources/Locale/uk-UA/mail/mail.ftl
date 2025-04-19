@@ -7,7 +7,7 @@ mail-desc-fragile = Вона має [color=red]червону наклейку "
 mail-desc-priority = На захисному замку активована [color=yellow]жовта стрічка пріоритету[/color]. Краще доставити її вчасно!
 mail-desc-priority-inactive = На захисному замку неактивна [color=#886600]жовта стрічка пріоритету[/color].
 mail-unlocked = Захисну систему розблоковано.
-mail-unlocked-by-emag = Захисна система *BZZT*.
+mail-unlocked-by-emag = Захисну систему *BZZT*.
 mail-unlocked-reward = Захисну систему розблоковано. На рахунок логістики додано {$bounty} спесо.
 mail-penalty-lock = ЗЛАМАНО ЗАХИСНИЙ ЗАМОК. РАХУНОК ЛОГІСТИКИ ШТРАФОВАНО НА {$credits} СПЕСО.
 mail-penalty-fragile = ЦІЛІСНІСТЬ ПОРУШЕНО. РАХУНОК ЛОГІСТИКИ ШТРАФОВАНО НА {$credits} СПЕСО.

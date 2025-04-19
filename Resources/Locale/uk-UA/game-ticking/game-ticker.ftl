@@ -17,9 +17,9 @@ game-ticker-get-info-text = Привіт і вітаємо на [color=white]К�
 game-ticker-get-info-preround-text = Привіт і вітаємо на [color=white]Космічній Станції 14![/color]
                             Номер раунду: [color=white]#{$roundId}[/color]
                             Кількість гравців: [color=white]{$playerCount}[/color] ([color=white]{$readyCount}[/color] {$readyCount ->
-                                [one] є
-                                *[other] є
-                            } готові)
+                                [one] готовий
+                                *[other] готових
+                            })
                             Мапа: [color=white]{$mapName}[/color]
                             Режим: [color=white]{$gmTitle}[/color]
                             >[color=yellow]{$desc}[/color]
@@ -36,7 +36,7 @@ player-leave-message = Гравець {$name} вийшов!
 latejoin-arrival-announcement = {$character} ({$job}) прибув на станцію!
 latejoin-arrival-sender = Станція
 latejoin-arrivals-direction = Трансфер до вашої станції прибуде незабаром.
-latejoin-arrivals-direction-time = Шатл який перевозить вас на станцію прибуде за {$time}.
+latejoin-arrivals-direction-time = Шатл який перевозить вас на станцію прибуде через {$time}.
 
 preset-not-enough-ready-players = Не вдається запустити {$presetName}. Потрібно {$minimumPlayers} гравців, але у нас є {$readyPlayersCount}.
 preset-no-one-ready = Не вдається запустити {$presetName}. Жоден гравець не готовий.

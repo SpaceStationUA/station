@@ -7,7 +7,7 @@ generic-article-an = -
 generic-unknown = невідомий
 generic-unknown-title = невідома Назва
 generic-error = помилка
-generic-invalid = неправильний
+generic-invalid = невірний
 
 generic-hours = годин
 

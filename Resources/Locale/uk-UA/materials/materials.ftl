@@ -28,12 +28,12 @@ materials-coal = вугілля
 
 # Руди
 materials-raw-iron = сире залізо
-materials-raw-quartz = кварц-сирець
+materials-raw-quartz = сирий кварц
 materials-raw-gold = сире золото
-materials-raw-silver = чисте срібло
+materials-raw-silver = сире срібло
 materials-raw-plasma = сира плазма
 materials-raw-uranium = сирий уран
-materials-raw-bananium = сирий банан
+materials-raw-bananium = сирий бананіуміум
 materials-raw-salt = неочищена сіль
 
 material-reclaimer-upgrade-process-rate = швидкість процесу

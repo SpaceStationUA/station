@@ -4,4 +4,4 @@ cryo-pod-verb-noun-occupant = Пацієнт
 cryo-pod-examine = Тут є {$beaker}.
 cryo-pod-empty-beaker = Воно порожнє!
 # Shown when a normal ejection through the eject verb is attempted on a locked pod.
-cryo-pod-locked = Механізм виштовхування не реагує!
+cryo-pod-locked = Механізм витягнення не працює!

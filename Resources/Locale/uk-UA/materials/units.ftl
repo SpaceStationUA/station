@@ -9,7 +9,7 @@ materials-unit-roll = рулон
 # pieces of biomass
 materials-unit-piece = кусок
 # bunches of bananium
-materials-unit-bunch = пучок
+materials-unit-bunch = купа
 # slabs of meat
 materials-unit-slab = кусок
 # webs of silk

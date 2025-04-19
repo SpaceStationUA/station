@@ -1,5 +1,5 @@
-war-declarator-not-working = Пристрій блимає та скреготить,але нічого не відбувається...
-war-declarator-ui-header = Оголошення війни
+war-declarator-not-working = Пристрій блимає та скреготить, але нічого не відбувається...
+war-declarator-ui-header = Оголошення Війни
 war-declarator-ui-war-button = ОГОЛОСИТИ ВІЙНУ!
 war-declarator-ui-try-war-button = Спробувати оголосити війну
 war-declarator-conditions-small-crew = Недостатньо ядерних оперативників для оголошення війни!

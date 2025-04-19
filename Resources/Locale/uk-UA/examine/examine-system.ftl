@@ -6,6 +6,6 @@ examine-system-cant-see-entity = Ви не можете розібрати, що
 
 examine-verb-name = Базувати
 
-examinable-anchored = [color=darkgreen]Пригвинчено[/color] до підлоги
+examinable-anchored = Воно [color=darkgreen]пригвинчено[/color] до підлоги
 
-examinable-unanchored = [color=darkred]Відгвинчено[/color] від підлоги
+examinable-unanchored = Воно [color=darkred]відгвинчено[/color] від підлоги

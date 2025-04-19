@@ -13,34 +13,34 @@ accent-dwarf-words-3 = чоловік
 accent-dwarf-words-replace-3 = хлопець
 
 accent-dwarf-words-4 = жінка
-accent-dwarf-words-replace-4 = дівчинко
+accent-dwarf-words-replace-4 = краля
 
 accent-dwarf-words-5 = робити
-accent-dwarf-words-replace-5 = дэ
+accent-dwarf-words-replace-5 = пахати
 
 accent-dwarf-words-6 = не треба
-accent-dwarf-words-replace-6 = не треба
+accent-dwarf-words-replace-6 = не тре
 
 accent-dwarf-words-7 = не треба
-accent-dwarf-words-replace-7 = не треба
+accent-dwarf-words-replace-7 = не тре
 
 accent-dwarf-words-8 = я
-accent-dwarf-words-replace-8 = я
+accent-dwarf-words-replace-8 = йа
 
 accent-dwarf-words-9 = я
-accent-dwarf-words-replace-9 = я
+accent-dwarf-words-replace-9 = йа
 
-accent-dwarf-words-10 = йдучи
-accent-dwarf-words-replace-10 = рушниця
+accent-dwarf-words-10 = йду
+accent-dwarf-words-replace-10 = юду
 
 accent-dwarf-words-11 = знаю
-accent-dwarf-words-replace-11 = кен
+accent-dwarf-words-replace-11 = зна
 
 accent-dwarf-words-12 = я
-accent-dwarf-words-replace-12 = Ах
+accent-dwarf-words-replace-12 = Ай
 
 accent-dwarf-words-13 = ти
-accent-dwarf-words-replace-13 = ти
+accent-dwarf-words-replace-13 = ю
 
 accent-dwarf-words-14 = твої
 accent-dwarf-words-replace-14 = ось так

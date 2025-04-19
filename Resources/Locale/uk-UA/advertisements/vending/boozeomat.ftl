@@ -1,11 +1,11 @@
-﻿advertisement-boozeomat-1 = Сподіваюся, ніхто не попросить у мене кляту чашку чаю...
+advertisement-boozeomat-1 = Сподіваюся, ніхто не попросить у мене кляту чашку чаю...
 advertisement-boozeomat-2 = Алкоголь - друг людства. Ти б кинув друга?
 advertisement-boozeomat-3 = Дуже радий служити вам!
 advertisement-boozeomat-4 = На цій станції ніхто не відчуває спраги?
 advertisement-boozeomat-5 = Пий-пий-пий!
 advertisement-boozeomat-6 = 9 з 10 барменів рекомендують нашу випивку!
-advertisement-boozeomat-7 = Алкоголь - найкращий друг людства. Woof-woof.
-advertisement-boozeomat-8 = Бажаєте гарного холодного пивка?
+advertisement-boozeomat-7 = Алкоголь - найкращий друг людства.
+advertisement-boozeomat-8 = Не бажаєте гарного холодного пивка?
 advertisement-boozeomat-9 = Ніщо так не лікує, як випивка!
 advertisement-boozeomat-10 = Тримай склянку!
 advertisement-boozeomat-11 = Випий наше бухло!

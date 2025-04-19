@@ -1,6 +1,6 @@
 criminal-records-console-window-title = Консоль Кримінальних записів
 criminal-records-console-records-list-title = Екіпаж
-criminal-records-console-select-record-info = Вибрати запис
+criminal-records-console-select-record-info = Вибрати запис.
 criminal-records-console-no-records = Записів не знайдено!
 criminal-records-console-no-record-found = Для даної особи не знайдено записів.
 
@@ -14,8 +14,8 @@ criminal-records-status-suspected = Підозра
 criminal-records-status-discharged = Звільнено
 criminal-records-status-paroled = Умовно-достроково
 
-criminal-records-console-wanted-reason = [color=gray]Підстава для розшуку[/color]
-criminal-records-console-suspected-reason = [color=gray]Підстава для підозри[/color]
+criminal-records-console-wanted-reason = [color=gray]Підстава для Розшуку[/color]
+criminal-records-console-suspected-reason = [color=gray]Підстава для Підозри[/color]
 criminal-records-console-reason = Підстава
 criminal-records-console-reason-placeholder = Наприклад: {$placeholder}
 
@@ -33,11 +33,11 @@ criminal-records-permission-denied = Немає доступу
 
 criminal-records-console-wanted = {$name} подано у розшук офіцером {$officer} за: {$reason}.
 criminal-records-console-suspected = {$name} позначено як підозрілу особу офіцером {$officer} через: {$reason}
-criminal-records-console-not-suspected = {$name} більше не в підозрі.
+criminal-records-console-not-suspected = {$name} більше не підозрілий.
 criminal-records-console-detained = {$name} було затримано офіцером {$officer}.
-criminal-records-console-released = {$name} було звільнено офіцером {$officer}.
+criminal-records-console-released = {$name} було відпущено офіцером {$officer}.
 criminal-records-console-not-wanted = {$name} більше не у розшуку.
-criminal-records-console-paroled = {$name} звільнено достроково офіцером {$officer}.
+criminal-records-console-paroled = {$name} відпущено достроково офіцером {$officer}.
 criminal-records-console-not-parole = {$name} більше не значиться як "звільнено достроково".
 criminal-records-console-unknown-officer = <невідомий офіцер>
 
@@ -49,5 +49,5 @@ criminal-records-prints-filter = Відбитки
 criminal-records-dna-filter = ДНК
 
 ## Arrest auto history lines
-criminal-records-console-auto-history = АРЕСТ: {$reason}
+criminal-records-console-auto-history = АРЕШТОВАНИЙ: {$reason}
 criminal-records-console-unspecified-reason = <не зазначено причину>

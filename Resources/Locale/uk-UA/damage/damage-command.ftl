@@ -1,9 +1,9 @@
-﻿## Damage command loc.
+## Damage command loc.
 
 damage-command-description = Додати або видалити пошкодження об'єкту. 
 damage-command-help = Використання: {$command} <type/group> <amount> [ignoreResistances] [uid]
 
-damage-command-arg-type = <тип або група ушкоджень
+damage-command-arg-type = <тип або група ушкоджень>
 damage-command-arg-quantity = [кількість]
 damage-command-arg-target = [ціль euid]
 

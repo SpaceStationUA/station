@@ -7,7 +7,7 @@ trait-narcolepsy-desc = Ви раптово засинаєте
 trait-pacifist-name = Пацифіст
 trait-pacifist-desc = Ви не можете вбивати чи шкодити іншим
 
-permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} очі скляні і розфокусовані. Не схоже, що {SUBJECT($target)} бачить вас добре, якщо взагалі бачить.[/color]
+permanent-blindness-trait-examined = Очі [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} скляні і розфокусовані. Не схоже, що {SUBJECT($target)} бачить вас добре, якщо взагалі бачить.[/color]
 
 trait-lightweight-name = Легкий Алкоголізм
 trait-lightweight-desc = Алкоголь має більший ефект на вас
@@ -22,7 +22,7 @@ trait-uncloneable-name = Неклонований
 trait-uncloneable-desc = Не можна клонувати
 
 trait-pirate-accent-name = Піратський акцент
-trait-pirate-accent-desc = Ти не можеш перестати говорити як пірат!
+trait-pirate-accent-desc = Йярр! Ви не можете перестати говорити як пірат
 
 trait-archaic-accent-name = Архаїчний акцент
 trait-archaic-accent-desc = Ви розмовляєте мовою яку більшість вважають застарілою
@@ -33,7 +33,7 @@ trait-accentless-desc = У вас немає акценту, який зазви
 trait-wheelchair-bound-name = На візку
 trait-wheelchair-bound-desc = Ви не можете пересуватись без візку. Візок у вас буде.
 
-trait-frontal-lisp-name = Лобова шепелявість
+trait-frontal-lisp-name = Шепелявість
 trait-frontal-lisp-desc = Ви тросески сепелявите
 
 trait-socialanxiety-name = Соціальна тривожність
@@ -54,8 +54,8 @@ trait-name-Pacifist = Пацифіст
 trait-description-Pacifist = Ви не можете нападати на живих істот або завдавати їм шкоди.
 trait-name-LightweightDrunk = Легкий П'яний
 trait-description-LightweightDrunk = Алкоголь сильніше впливає на вас
-trait-name-Muted = Вимкнено
-trait-description-Muted = Ти не можеш говорити
+trait-name-Muted = Німий
+trait-description-Muted = Через генну мутацію, або інші чинники, ви втратили здатність говорити
 trait-name-Paracusia = Паракузія
 trait-description-Paracusia = Ви чуєте звуки, яких насправді немає
 trait-name-PirateAccent = Піратський акцент

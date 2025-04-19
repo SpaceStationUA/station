@@ -1,7 +1,7 @@
 # you shouldn't be creating new hints for every effect/trigger
 # try and reuse them so that a hint isn't a dead giveaway. -emo
 
-artifact-effect-hint-mental = Церебральний вплив
+artifact-effect-hint-mental = Психічний вплив
 artifact-effect-hint-environment = Крах середовища
 artifact-effect-hint-electrical-interference = Електрична інтерференція
 artifact-effect-hint-displacement = Метафізичне зміщення

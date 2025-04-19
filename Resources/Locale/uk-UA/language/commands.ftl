@@ -1,10 +1,10 @@
-command-list-langs-desc = Перелічіть мови, якими може розмовляти ваша поточна організація на даний момент.
+command-list-langs-desc = Дає список мов, якими може розмовляти ваш персонаж на даний момент.
 command-list-langs-help = Використання: {$command}
 
 command-saylang-desc = Надіслати повідомлення певною мовою. Для вибору мови ви можете використовувати або назву мови, або її позицію у списку мов.
 command-saylang-help = Використання: {$command} <ідентифікатор мови> <повідомлення>. Приклад: {$command} TauCetiBasic "Hello World!". Приклад: {$command} 1 "Hello World!"
 
-command-language-select-desc = Виберіть мову, якою зараз розмовляють у вашій організації. Ви можете використовувати як назву мови, так і її позицію у списку мов.
+command-language-select-desc = Виберіть мову вашого персонажа. Ви можете використовувати як назву мови, так і її позицію у списку мов.
 command-language-select-help = Використання: {$command} <ідентифікатор мови>. Приклад: {$command} 1. Приклад: {$command} TauCetiBasic
 
 command-language-spoken = Домовилися:

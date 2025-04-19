@@ -2,15 +2,15 @@
 
 ## Window
 
-air-alarm-ui-access-denied = Недостатньо доступу!
+air-alarm-ui-access-denied = Недостатній доступ!
 
 air-alarm-ui-window-pressure-label = Тиск
 air-alarm-ui-window-temperature-label = Температура
 air-alarm-ui-window-alarm-state-label = Стан
 
 air-alarm-ui-window-address-label = Адреса
-air-alarm-ui-window-device-count-label = Всього пристроїв
-air-alarm-ui-window-resync-devices-label = Пересинхронізація
+air-alarm-ui-window-device-count-label = Всього Пристроїв
+air-alarm-ui-window-resync-devices-label = Пересинхронізувати
 
 air-alarm-ui-window-mode-label = Режим
 air-alarm-ui-window-auto-mode-label = Автоматичний режим

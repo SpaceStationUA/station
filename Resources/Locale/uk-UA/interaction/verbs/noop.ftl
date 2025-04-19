@@ -36,11 +36,11 @@ interaction-WaveAt-success-self-popup = Ти махаєш {$hasUsed ->
 }
 interaction-WaveAt-success-target-popup = {THE($user)} махає {$hasUsed ->
     [false] на тебе.
-    *[true] {POSS-PRONOUN($user)} {$used} на вас.
+    *[true] {OBJECT($user)} {$used} на вас.
 }
-interaction-WaveAt-success-others-popup = {THE($user)} хвилює {$hasUsed ->
+interaction-WaveAt-success-others-popup = {THE($user)} махає {$hasUsed ->
     [false] на {THE($target)}.
-    *[true] {POSS-PRONOUN($user)} {$used} у {THE($target)}.
+    *[true] {OBJECT($user)} {$used} у {THE($target)}.
 }
 
 interaction-PetAnimal-name = {interaction-Pet-name}

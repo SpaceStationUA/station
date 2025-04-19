@@ -9,4 +9,4 @@ comp-gas-pump-ui-pump-output-pressure = Вихідний тиск (кПа):
 
 comp-gas-pump-ui-pump-transfer-rate = Швидкість передачі (л/с):
 
-comp-gas-pump-ui-needs-anchor = Прикрутіть спочатку!
+comp-gas-pump-ui-needs-anchor = Спочатку прикрутіть!

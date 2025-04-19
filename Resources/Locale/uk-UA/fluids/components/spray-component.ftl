@@ -1,1 +1,1 @@
-spray-component-is-empty-message = Порожньо!
+spray-component-is-empty-message = Порожній!

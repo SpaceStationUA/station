@@ -7,7 +7,7 @@ reagent-desc-soju = Алкогольний напій, виготовлений 
 reagent-name-orange-creamcicle = апельсиновий крем
 reagent-desc-orange-creamcicle = Помаранчева, вершкова смакота.
 
-reagent-name-silverjack = коктейль 'Джонні Сільверхенд'
+reagent-name-silverjack = коктейль 'Сільверхенд'
 reagent-desc-silverjack = Я бачив, як корпи забирають у фермерів воду, а потім і землю...
 
 reagent-name-brainbomb = мозкова бомба
@@ -17,7 +17,7 @@ reagent-name-clownblood = кров клоуна
 reagent-desc-clownblood = Улюблений напій охоронців після довгого дня.
 
 reagent-name-circusjuice = цирковий сік
-reagent-desc-circusjuice = Мама пишалася б.
+reagent-desc-circusjuice = Хонкомама пишалася б.
 
 reagent-name-sapopicante = сапо піканте
 reagent-desc-sapopicante = На смак зовсім не схоже на жабу.

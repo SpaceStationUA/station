@@ -1,4 +1,4 @@
-﻿### EmitterComponent
+### EmitterComponent
 
 # Shows when attempting to turn the emitter on or off without proper access
 comp-emitter-access-locked = {$target} заблоковано!
@@ -15,4 +15,4 @@ comp-emitter-not-anchored = {$target} не пригвинчений до під�
 emitter-component-upgrade-fire-rate = скорострільність
 
 emitter-component-current-type = Поточний вибраний тип: {$type}.
-emitter-component-type-set = Встановити тип: {$type}
+emitter-component-type-set = Встановлено тип: {$type}

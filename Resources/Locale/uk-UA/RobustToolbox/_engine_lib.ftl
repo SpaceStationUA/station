@@ -22,24 +22,24 @@ zzzz-object-pronoun = { GENDER($ent) ->
 
 # Використовується всередині функції POSS-PRONOUN().
 zzzz-possessive-pronoun = { GENDER($ent) ->
-    [male] його
-    [female] її
-    [epicene] їхній
-   *[neuter] його
+    [male] нього
+    [female] неї
+    [epicene] них
+   *[neuter] нього
    }
 
 # Використовується внутрішньо функцією POSS-ADJ().
 zzzz-possessive-adjective = { GENDER($ent) ->
     [male] його
     [female] її
-    [epicene] їхній
+    [epicene] їх
    *[neuter] його
    }
 
 # Використовується всередині функції REFLEXIVE().
 zzzz-reflexive-pronoun = { GENDER($ent) ->
-    [male] сам
-    [female] сама
+    [male] себе
+    [female] себе
     [epicene] себе
    *[neuter] себе
    }

@@ -1,2 +1,2 @@
-research-technology-basic-translation = Базовий переклад
-research-technology-advanced-translation = Розширений переклад
+research-technology-basic-translation = Базовий Переклад
+research-technology-advanced-translation = Розширений Переклад

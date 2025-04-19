@@ -1,1 +1,1 @@
-powered-light-component-burn-hand = Ти обпечеш руку!
+powered-light-component-burn-hand = Ти обпікаєш руку!

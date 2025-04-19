@@ -9,7 +9,7 @@ gas-canister-popup-denied = Відмовлено в доступі
 
 # window
 
-gas-canister-window-ok-text = Так
+gas-canister-window-ok-text = ОК
 gas-canister-window-edit-text = Редагувати
 gas-canister-window-label-label = Етикетка:
 gas-canister-window-pressure-label = Тиск:

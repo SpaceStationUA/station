@@ -1,4 +1,4 @@
-loadout-description-LoadoutUniformAncientJumpsuit = Легенда про Грейтіда.
+loadout-description-LoadoutUniformAncientJumpsuit = Легенда про Грейтайда.
 
 loadout-name-LoadoutUniformJumpsuitColorWhite = комбінезон (кольоровий)
 loadout-name-LoadoutUniformJumpskirtColorWhite = спідниця-комбінезон (кольорова)

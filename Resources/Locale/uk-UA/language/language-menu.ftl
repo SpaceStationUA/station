@@ -1,4 +1,4 @@
-language-menu-window-title = Мовне меню
-language-menu-current-language = Поточна мова: {$language}
+language-menu-window-title = Меню Мови
+language-menu-current-language = Поточна Мова: {$language}
 language-menu-description-header = Опис
-ui-options-function-open-language-menu = Меню відкритої мови
+ui-options-function-open-language-menu = Відкрити меню мови

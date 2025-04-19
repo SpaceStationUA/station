@@ -1,8 +1,8 @@
 anomaly-component-contact-damage = Аномалія обпікає вашу шкіру!
 
-anomaly-vessel-component-anomaly-assigned = Аномалія, присвоєна судині.
-anomaly-vessel-component-not-assigned = Ця судина не віднесена до жодної аномалії. Спробуйте скористатися сканером.
-anomaly-vessel-component-assigned = Ця судина наразі віднесена до аномалії.
+anomaly-vessel-component-anomaly-assigned = Аномалія призначена контейнеру.
+anomaly-vessel-component-not-assigned = Цей контейнер не віднесений до жодної аномалії. Спробуйте скористатися сканером.
+anomaly-vessel-component-assigned = Цей контейнер наразі віднесена до аномалії.
 anomaly-vessel-component-upgrade-output = точковий вихід
 
 anomaly-particles-delta = Дельта-частинки

@@ -5,8 +5,6 @@ traitor-round-end-agent-name = зрадник
 
 objective-issuer-syndicate = [color=crimson]Синдикат[/color]
 
-# З'являється в кінці раунду Зрадника
-
 traitor-title = Зрадник
 traitor-description = Серед нас є зрадники...
 traitor-not-enough-ready-players = Недостатньо гравців, готових до гри! {$readyPlayersCount} з {$minimumPlayers} гравців мають бути готові.
@@ -22,9 +20,9 @@ traitor-death-match-end-round-description-entry = {$originalName} має {$tcBal
 ## TraitorRole
 
 # TraitorRole
-traitor-role-greeting = Ви агент синдикату.
+traitor-role-greeting = Ви - Агент, надісланий {$corporation} за дорученням Синдикату.
     Ваші цілі та кодові слова вказані у меню персонажа.
-    Використовуйте висхідну лінію, завантажену у ваш КПК, щоб придбати інструменти, які можуть знадобитися для цієї місії.
+    Використовуйте аплінк, завантажений у ваш КПК, щоб придбати інструменти, які можуть знадобитися для цієї місії.
     Смерть Нанотрейзену!
 traitor-role-codewords = Кодові слова:
     {$codewords}.
@@ -36,7 +34,7 @@ traitor-role-uplink-code = Встановіть мелодію дзвінка в
 # don't need all the flavour text for character menu
 traitor-role-codewords-short = Кодові слова:
     {$codewords}.
-traitor-role-uplink-code-short = Ваш аплінк код {$code}. Встановіть його як сигнал дзвінка КПК для доступу до аплінку.
+traitor-role-uplink-code-short = Ваш код аплінку - {$code}. Встановіть його як сигнал дзвінка КПК для доступу до аплінку.
 
 objective-issuer-unknown = Невідомо
 

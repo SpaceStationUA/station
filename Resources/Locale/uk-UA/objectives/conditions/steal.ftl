@@ -1,6 +1,6 @@
-objective-condition-steal-title-no-owner = Вкрасти {$itemName}.
-objective-condition-steal-title-alive-no-owner = Вкрасти {$itemName}.
-objective-condition-steal-title = Вкрасти {$itemName} у {$owner}.
+objective-condition-steal-title-no-owner = Вкрадіть {$itemName}.
+objective-condition-steal-title-alive-no-owner = Вкрадіть {$itemName}.
+objective-condition-steal-title = Вкрадіть {$itemName} у {$owner}.
 objective-condition-steal-description = Нам потрібно, щоб ви вкрали {$itemName}. Не попадіться.
 
 objective-condition-steal-station = станція

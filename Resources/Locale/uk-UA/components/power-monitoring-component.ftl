@@ -1,7 +1,7 @@
-power-monitoring-window-title = Консоль моніторингу живлення
+power-monitoring-window-title = Консоль Моніторингу Живлення
 
 power-monitoring-window-label-sources = Джерела
-power-monitoring-window-label-smes = SMES
+power-monitoring-window-label-smes = СМЕС
 power-monitoring-window-label-substation = Підстанція
 power-monitoring-window-label-apc = АПЦ
 power-monitoring-window-label-misc = Різне
@@ -14,9 +14,9 @@ power-monitoring-window-total-sources = Загальна потужність г
 power-monitoring-window-total-battery-usage = Загальний час використання акумулятора
 power-monitoring-window-total-loads = Загальне навантаження на мережу
 power-monitoring-window-value = { POWERWATTS($value) }
-power-monitoring-window-show-inactive-consumers = Показати неактивних споживачів
+power-monitoring-window-show-inactive-consumers = Показати Неактивних Споживачів
 
-power-monitoring-window-show-cable-networks = Комутаційні кабельні мережі
+power-monitoring-window-show-cable-networks = Перемкнути кабельні мережі
 power-monitoring-window-show-hv-cable = Висока напруга
 power-monitoring-window-show-mv-cable = Середня напруга
 power-monitoring-window-show-lv-cable = Низька напруга

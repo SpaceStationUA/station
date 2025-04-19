@@ -15,7 +15,7 @@ emergency-shuttle-left = Аварійний Шатл покинув станці
 emergency-shuttle-launch-time = Аварійний Шатл стартує через {$consoleAccumulator} секунд.
 emergency-shuttle-docked = Аварійний Шатл пристикувався до станції зі сторони: {$direction}. Він відчалює через {$time} секунд.
 emergency-shuttle-good-luck = Аварійний Шатл не може знайти станцію. Хай щастить.
-emergency-shuttle-nearby = Аварійний Шатл не може знайти дійсний стикувальний порт. Він був переміщений у напрямку {$direction} від станції.
+emergency-shuttle-nearby = Аварійний Шатл не може знайти вільний стикувальний порт. Він був переміщений у напрямку {$direction} від станції.
 
 # Emergency shuttle console popup / announcement
 emergency-shuttle-console-no-early-launches = Достроковий запуск вимкнено
