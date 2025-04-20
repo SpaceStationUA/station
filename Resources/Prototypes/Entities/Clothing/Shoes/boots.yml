@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsWork
-  name: "робочі черевики"
-  description: "Інженерні робочі черевики на шнурівці для особливо синіх комірців."
+  name: workboots
+  description: Engineering lace-up work boots for the especially blue-collar.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/workboots.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsWorkColor
-  name: "робочі черевики"
-  description: "Робочі черевики на шнурівці для особливо синіх комірців. У різних кольорах!"
+  name: workboots
+  description: Lace-up work boots for the especially blue-collar. In a variety of colors!
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/workboots_color.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: ClothingShoesBootsJack
-  name: "чоботи"
-  description: "Видані Нанотрейзен захисні черевики для бойових сценаріїв або бойових ситуацій. Всюди бойові, весь час."
+  name: jackboots
+  description: Nanotrasen-issue Security combat boots for combat scenarios or combat situations. All combat, all the time.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/jackboots.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: ClothingShoesBootsJackFake
-  name: "чоботи"
-  description: "Цивільна репліка бойових чоботів охорони Нанотрейзен. Виглядають як справжні, але їм бракує продуктивності - ідеальні для гарячих ситуацій."
+  name: jackboots
+  description: Civilian-grade replica of Nanotrasen Security combat boots. Looks the part but lacks the performance—ideal for the heated situations.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/jackboots.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: ClothingShoesBootsJackColor
-  name: "модні черевики"
-  description: "Цивільна копія бойових черевиків Nanotrasen Security, непрактична, але модна."
+  name: fashion jackboots
+  description: Civilian-grade replica of Nanotrasen Security combat boots, impractical but fashionable.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/jackboots_color.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsSalvage
-  name: "чоботи утилізатора"
-  description: "Черевики зі сталевим носком для утилізаторських робіт в небезпечних умовах."
+  name: salvage boots
+  description: Steel-toed salvage boots for salvaging in hazardous environments.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/explorer.rsi
@@ -75,8 +75,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsPerformer
-  name: "черевики артиста"
-  description: "Ці черевики забезпечують чудове зчеплення з поверхнею під час виступів на сцені."
+  name: performer's boots
+  description: These boots provide great traction for when you're up on stage.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/performer.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: ClothingShoesBootsCombat
-  name: "бойові чоботи"
-  description: "Міцні бойові черевики для бойових сценаріїв або бойових ситуацій. Всюди бойові, весь час."
+  name: combat boots
+  description: Robust combat boots for combat scenarios or combat situations. All combat, all the time.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/combatboots.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: ClothingShoesHighheelBoots
-  name: "чоботи на високих підборах"
-  description: "Модні черевики для тих, хто хоче бути стильним, але підготовленим."
+  name: high-heeled boots
+  description: Snazy boots for when you want to be stylish, yet prepared.
   components:
   - type: MeleeWeapon
     damage:
@@ -124,8 +124,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: ClothingShoesBootsMerc
-  name: "чоботи найманця"
-  description: "Черевики, які пройшли багато конфліктів і довели свою бойову надійність."
+  name: mercenary boots
+  description: Boots that have gone through many conflicts and that have proven their combat reliability.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/mercboots.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsLaceup
-  name: "взуття на шнурівці"
-  description: "Пік моди, і вони попередньо відполіровані!"
+  name: laceup shoes
+  description: The height of fashion, and they're pre-polished!
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/laceups.rsi
@@ -150,7 +150,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinter
-  name: "зимові черевики"
+  name: winter boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterboots.rsi
@@ -160,7 +160,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterCargo
-  name: "зимові черевики логістики" #Delta V: Rename Logistics
+  name: logistics winter boots #Delta V: Rename Logistics
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootscargo.rsi
@@ -170,7 +170,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterEngi
-  name: "зимові черевики інженерів"
+  name: engineering winter boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootsengi.rsi
@@ -180,7 +180,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterMed
-  name: "зимові черевики лікарів"
+  name: medical winter boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootsmed.rsi
@@ -190,7 +190,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterSci
-  name: "зимові черевики вчених"
+  name: science winter boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootssci.rsi
@@ -200,7 +200,7 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterSec
-  name: "зимові черевики служби безпеки"
+  name: security winter boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootssec.rsi
@@ -210,8 +210,8 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterSyndicate
-  name: "зимові черевики синдикату"
-  description: "Міцні важкі черевики, схожі на мерч із \"Сінділенду\""
+  name: syndicate's winter boots
+  description: Durable heavy boots, looks like merch from "Syndieland"
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootssyndicate.rsi
@@ -221,8 +221,8 @@
 - type: entity
   parent: ClothingShoesBaseWinterBoots
   id: ClothingShoesBootsWinterWeb
-  name: "зимові черевики з павутини"
-  description: "Щільно сплетене полотно повинно захищати від холоду"
+  name: web winter boots
+  description: Boots made out of dense webbing to help survive even the coldest of winters.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/winterbootsweb.rsi
@@ -247,8 +247,8 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: ClothingShoesBootsCowboyBrown
-  name: "коричневі ковбойські чоботи"
-  description: "У них є шпори, які дзвенять і/або брязкають."
+  name: brown cowboy boots
+  description: They got spurs that jingle and/or jangle.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/cowboybootsbrown.rsi
@@ -261,7 +261,7 @@
 - type: entity
   parent: ClothingShoesBootsCowboyBrown
   id: ClothingShoesBootsCowboyBlack
-  name: "чорні ковбойські чоботи"
+  name: black cowboy boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/cowboybootsblack.rsi
@@ -271,7 +271,7 @@
 - type: entity
   parent: ClothingShoesBootsCowboyBrown
   id: ClothingShoesBootsCowboyWhite
-  name: "білі ковбойські чоботи"
+  name: white cowboy boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/cowboybootswhite.rsi
@@ -281,7 +281,7 @@
 - type: entity
   parent: ClothingShoesBootsCowboyBrown
   id: ClothingShoesBootsCowboyFancy
-  name: "модні ковбойські чоботи"
+  name: fancy cowboy boots
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/cowboybootsfancy.rsi
@@ -291,8 +291,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsAnkle
-  name: "ботильйони"
-  description: "Пара черевиків на низьких підборах, якщо вам потрібне взуття з підборами."
+  name: ankle boots
+  description: A pair of low-heeled boots, if you need inclosed shoes.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/ankleboots.rsi
@@ -302,8 +302,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsFull
-  name: "чоботи на всю довжину"
-  description: "Пара черевиків, які закривають всю ногу."
+  name: full-length boots
+  description: A pair of boots that cover the entire leg.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/fullboots.rsi
@@ -313,8 +313,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsMud
-  name: "грязьові чоботи"
-  description: "Гарна пара непромокальних болотяних черевиків, щоб ноги залишалися сухими."
+  name: mudboots
+  description: A nice pair of weatherproof mudboots to keep your feet dry.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/mudboots.rsi
@@ -324,8 +324,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsMudThigh
-  name: "болотні чоботи до стегна"
-  description: "Гарна пара непромокальних болотяних черевиків, щоб ваші ноги залишалися сухими."
+  name: thigh-high mudboots
+  description: A nice pair of weatherproof mudboots to keep your legs dry.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/thighmudboots.rsi
@@ -335,8 +335,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBootsThigh
-  name: "чоботи до стегна"
-  description: "Пара повсякденних черевиків, що доходять до стегон."
+  name: thigh-high boots
+  description: A pair of casual boots that reach up to the thighs.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Boots/thighboots.rsi

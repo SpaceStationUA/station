@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseMagazineBox
   id: BaseMagazineBoxLightRifle
-  name: "коробочка з набоями (гвинтівка калібру .30)"
+  name: ammunition box (.30 rifle)
   components:
   - type: BallisticAmmoProvider
     mayTransfer: true
@@ -28,7 +28,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleBig
-  name: "велика коробка боєприпасів (.30 гвинтівковий)"
+  name: bulk ammunition box (.30 rifle)
   components:
   - type: BallisticAmmoProvider
     capacity: 200
@@ -48,7 +48,7 @@
 - type: entity
   parent: MagazineBoxLightRifleBig
   id: MagazineBoxLightRifleBigPractice
-  name: "велика коробка боєприпасів (.30 гвинтівковий, тренувальний)"
+  name: bulk ammunition box (.30 rifle practice)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRiflePractice
@@ -56,7 +56,7 @@
 - type: entity
   parent: MagazineBoxLightRifleBig
   id: MagazineBoxLightRifleBigRubber
-  name: "велика коробка боєприпасів (.30 гвинтівковий гумовий)"
+  name: bulk ammunition box (.30 rifle rubber)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleRubber
@@ -64,7 +64,7 @@
 - type: entity
   parent: MagazineBoxLightRifleBig
   id: MagazineBoxLightRifleBigIncendiary
-  name: "велика коробка боєприпасів (.30 гвинтівковий запальний)"
+  name: bulk ammunition box (.30 rifle incendiary)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleIncendiary
@@ -72,7 +72,7 @@
 - type: entity
   parent: MagazineBoxLightRifleBig
   id: MagazineBoxLightRifleBigUranium
-  name: "велика коробка боєприпасів (.30 гвинтівковий, урановий)"
+  name: bulk ammunition box (.30 rifle uranium)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleUranium
@@ -80,7 +80,7 @@
 - type: entity
   parent: MagazineBoxLightRifleBig
   id: MagazineBoxLightRifleBigShrapnel
-  name: "велика коробка боєприпасів (.30 гвинтівковий, шрапнельний)"
+  name: bulk ammunition box (.30 rifle shrapnel)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleShrapnel
@@ -88,7 +88,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifle
-  name: "коробочка з набоями (гвинтівка калібру .30)"
+  name: ammunition box (.30 rifle)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifle
@@ -102,7 +102,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRiflePractice
-  name: "коробочка з набоями (стрільба з гвинтівки калібру .30)"
+  name: ammunition box (.30 rifle practice)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRiflePractice
@@ -117,7 +117,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleRubber
-  name: "коробка боєприпасів (.30 гвинтівковий гумовий)"
+  name: ammunition box (.30 rifle rubber)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleRubber
@@ -132,7 +132,7 @@
 - type: entity
   id: MagazineBoxLightRifleIncendiary
   parent: BaseMagazineBoxLightRifle
-  name: "коробка боєприпасів (.30 гвинтівковий запальний)"
+  name: ammunition box (.30 rifle incendiary)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleIncendiary
@@ -147,7 +147,7 @@
 - type: entity
   parent: BaseMagazineBoxLightRifle
   id: MagazineBoxLightRifleUranium
-  name: "коробочка з набоями (уран для гвинтівок калібру .30)"
+  name: ammunition box (.30 rifle uranium)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleUranium
@@ -162,7 +162,7 @@
 - type: entity
   parent: MagazineBoxLightRifle
   id: MagazineBoxLightRifleShrapnel
-  name: "коробка боєприпасів (.30 гвинтівковий, шрапнельний)"
+  name: ammunition box (.30 rifle shrapnel)
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleShrapnel
