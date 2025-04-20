@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: OreBase
-  description: A piece of unrefined ore.
+  description: "Шматок необробленої руди."
   components:
   - type: Sprite
     sprite: Objects/Materials/ore.rsi
@@ -38,7 +38,7 @@
 - type: entity
   parent: OreBase
   id: GoldOre
-  name: gold ore
+  name: "золота руда"
   suffix: Full
   components:
   - type: Stack
@@ -69,7 +69,7 @@
 - type: entity
   parent: OreBase
   id: DiamondOre
-  name: diamond ore
+  name: "алмазна руда"
   suffix: Full
   components:
   - type: Stack
@@ -100,7 +100,7 @@
 - type: entity
   parent: OreBase
   id: SteelOre
-  name: iron ore
+  name: "залізна руда"
   suffix: Full
   components:
   - type: Stack
@@ -131,7 +131,7 @@
 - type: entity
   parent: OreBase
   id: PlasmaOre
-  name: plasma ore
+  name: "плазмова руда"
   suffix: Full
   components:
   - type: Stack
@@ -167,7 +167,7 @@
 - type: entity
   parent: OreBase
   id: SilverOre
-  name: silver ore
+  name: "срібна руда"
   suffix: Full
   components:
   - type: Stack
@@ -198,7 +198,7 @@
 - type: entity
   parent: OreBase
   id: SpaceQuartz
-  name: space quartz
+  name: "космічний кварц"
   suffix: Full
   components:
   - type: Stack
@@ -229,7 +229,7 @@
 - type: entity
   parent: OreBase
   id: UraniumOre
-  name: uranium ore
+  name: "уранова руда"
   suffix: Full
   components:
   - type: Stack
@@ -268,7 +268,7 @@
 - type: entity
   parent: OreBase
   id: BananiumOre
-  name: bananium ore
+  name: "бананіумна руда"
   suffix: Full
   components:
   - type: Stack
@@ -308,7 +308,7 @@
 - type: entity
   parent: OreBase
   id: Coal
-  name: coal
+  name: "вугілля"
   suffix: Full
   components:
   - type: Stack
@@ -347,7 +347,7 @@
 - type: entity
   parent: OreBase
   id: SaltOre
-  name: salt
+  name: "сіль"
   suffix: Full
   components:
   - type: Stack
@@ -380,7 +380,7 @@
 - type: entity
   parent: OreBase
   id: BluespaceOre
-  name: bluespace ore
+  name: "блюспейс руда"
   suffix: Full
   components:
   - type: Stack
@@ -404,7 +404,7 @@
 - type: entity
   parent: OreBase
   id: NormalityOre
-  name: normality ore
+  name: "нормальна руда"
   suffix: Full
   components:
   - type: Stack
@@ -428,7 +428,7 @@
 - type: entity
   parent: OreBase
   id: TungstenOre
-  name: wolframite
+  name: "вольфраміт"
   suffix: Full
   components:
   - type: Stack

@@ -2,8 +2,8 @@
   parent: BaseItem
   id: EmagUnlimited
   suffix: Unlimited
-  name: cryptographic sequencer
-  description: A red circuit board with a charge indicator.
+  name: "криптографічний секвенсор"
+  description: "Червона друкована плата з індикатором заряду."
   components:
   - type: Emag
     blacklist: # DeltaV - Split Emag into 2 items, this one cannot emag doors

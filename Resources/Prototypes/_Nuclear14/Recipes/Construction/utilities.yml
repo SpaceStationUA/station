@@ -1,11 +1,11 @@
 ﻿- type: construction
-  name: wall torch
+  name: "настінний ліхтар"
   id: WallTorch
   graph: WallTorch
   startNode: start
   targetNode: WallTorch
   category: construction-category-utilities
-  description: A wooden stake on the wall you can light
+  description: "Дерев'яний кілок на стіні, який можна запалити"
   icon: { sprite: _Nuclear14/Structures/Decoration/torches.rsi, state: wall_torch_unlit }
   objectType: Structure
   placementMode: SnapgridCenter

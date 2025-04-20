@@ -3,8 +3,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesNightVisionGoggles
-  name: night vision goggles
-  description: An advanced heads-up display which provides id data and vision in complete darkness.
+  name: "окуляри нічного бачення"
+  description: "Удосконалений дисплей, який відображає ідентифікаційні дані та бачення в повній темряві."
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Goggles/nightvision.rsi
@@ -18,7 +18,7 @@
 - type: entity
   parent: [ClothingEyesNightVisionGoggles, ShowSecurityIcons]
   id: ClothingEyesNightVisionSecurityGoggles
-  name: night vision security goggles
+  name: "окуляри нічного бачення"
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Goggles/security_nightvision.rsi
@@ -28,7 +28,7 @@
 - type: entity
   parent: [ClothingEyesNightVisionGoggles, ClothingEyesHudMedical]
   id: ClothingEyesNightVisionMedicalGoggles
-  name: night vision medical goggles
+  name: "медичні окуляри нічного бачення"
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Goggles/medical_nightvision.rsi
@@ -38,7 +38,7 @@
 - type: entity
   parent: [ClothingEyesNightVisionGoggles, ClothingEyesHudDiagnostic]
   id: ClothingEyesNightVisionDiagnosticGoggles
-  name: night vision diagnostic goggles
+  name: "діагностичні окуляри нічного бачення"
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Goggles/diagnostic_nightvision.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesThermalVisionGoggles
-  name: thermal vision goggles
-  description: Thermals in the shape of glasses.
+  name: "тепловізійні окуляри"
+  description: "Термоси у формі келихів."
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Goggles/thermal.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: ClothingEyesThermalVisionGoggles
   id: ClothingEyesThermalVisionMonocle
-  name: thermonocle
-  description: Never before has seeing through walls felt so gentlepersonly.
+  name: "термонокль"
+  description: "Ніколи ще бачення крізь стіни не було таким ніжним."
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Goggles/monocle_thermal.rsi

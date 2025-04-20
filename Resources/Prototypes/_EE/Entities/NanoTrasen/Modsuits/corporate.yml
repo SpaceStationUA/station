@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingModsuitStandard
   id: ClothingModsuitCorporate
-  name: Corporate modsuit control
-  description: The main controller for a Corporate modsuit.
+  name: "Корпоративний контролер модульного костюма"
+  description: "Основний контролер для корпоративного модульного костюма."
   components:
     - type: Sprite
       sprite: _EE/Clothing/NanoTrasen/Modsuits/corporate.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsStandard
   id: ClothingModsuitGauntletsCorporate
-  name: Corporate modsuit gauntlets
-  description: A pair of gauntlets made for the Corporate modsuit.
+  name: "Корпоративні рукавиці модульного костюма"
+  description: "Пара рукавиць, створених для корпоративного модульного костюма."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -49,8 +49,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons, BaseClothingRadio]
   id: ClothingModsuitHelmetCorporate
-  name: Corporate modsuit helmet
-  description: A state-of-the-art helmet designed by NanoTrasen for the Corporate modsuit. It includes a built-in HUD.
+  name: "Корпоративний шолом модульного костюма"
+  description: "Сучасний шолом, розроблений NanoTrasen для корпоративного модульного костюма. Має вбудований HUD."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -99,8 +99,8 @@
 - type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplateCorporate
-  name: Corporate modsuit chestplate
-  description: A state of the art chestplate designed by NanoTrasen for the Corporate Modsuit. It incorporates powered servos to reduce the equipment load.
+  name: "Корпоративний нагрудник модульного костюма"
+  description: "Сучасний нагрудник, розроблений NanoTrasen для корпоративного модульного костюма. Він оснащений сервоприводами для зменшення навантаження від обладнання."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -152,8 +152,8 @@
 - type: entity
   parent: ClothingModsuitBootsStandard
   id: ClothingModsuitBootsCorporate
-  name: Corporate modsuit boots
-  description: A state-of-the-art pair of magboots for the Corporate modsuit. So long as the suit is powered, these will not slow the wearer down.
+  name: "Корпоративні черевики модульного костюма"
+  description: "Сучасна пара магнітних черевиків для корпоративного модульного костюма. Поки костюм живиться, вони не сповільнюватимуть носія."
   categories: [HideSpawnMenu]
   components:
     - type: Appearance

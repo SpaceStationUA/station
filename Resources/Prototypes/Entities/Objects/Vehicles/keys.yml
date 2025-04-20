@@ -1,8 +1,8 @@
 - type: entity
   parent: VehicleKeyATV
   id: VehicleKeySkeleton
-  name: vehicle skeleton keys
-  description: Unlock any vehicle.
+  name: "скелетні ключі від транспортного засобу"
+  description: "Розблокувати будь-яку машину."
   components:
   - type: Tag
     tags:
@@ -16,8 +16,8 @@
 - type: entity
   parent: VehicleKeyATV
   id: VehicleKeySkeletonMotorcycle
-  name: skeleton motorcycle keys
-  description: A beautiful set of keys adorned with a skull.
+  name: "ключі від скелетного мотоцикла"
+  description: "Красивий набір ключів, прикрашений черепом."
   components:
     - type: Tag
       tags:
