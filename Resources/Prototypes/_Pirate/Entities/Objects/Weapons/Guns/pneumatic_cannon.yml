@@ -1,8 +1,8 @@
 - type: entity
-  name: syringe gun
+  name: "шприц-пістолет"
   parent: [ BaseStorageItem ]
   id: SyringeGun
-  description: A gun that allows you to fire syringes and instantly inject their contents on a target.
+  description: "Пістолет, який дозволяє стріляти шприцами і миттєво впорскувати їхній вміст у ціль."
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Cannons/syringe_gun.rsi
@@ -36,10 +36,10 @@
 
 
 - type: entity
-  name: rapid syringe gun
+  name: "швидкий шприц-пістолет"
   parent: SyringeGun
   id: RapidSyringeGun
-  description: An upgraded version of the syringe gun featuring a faster fire rate and a bigger magazine.
+  description: "Модернізована версія шприцевого пістолета зі збільшеною скорострільністю та більшим магазином."
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Cannons/syringe_gun.rsi
@@ -56,10 +56,10 @@
     fireRate: 1.5
 
 - type: entity
-  name: dart syringe gun
+  name: "пістолет-шприц для дротиків"
   parent: [ SyringeGun ]
   id: DartSyringeGun
-  description: An illegally modified version of the syringe gun that allows projectiles to pierce through armor.
+  description: "Незаконно модифікована версія шприцевого пістолета, що дозволяє снарядам пробивати броню."
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Cannons/syringe_gun.rsi

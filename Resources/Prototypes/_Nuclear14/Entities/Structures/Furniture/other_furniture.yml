@@ -9,8 +9,8 @@
 - type: entity
   parent: BaseStructure
   id: N14GrandfatherClock
-  name: grandfather clock
-  description: An old pre-war clock. Looks grand.
+  name: "дідів годинник"
+  description: "Старий довоєнний годинник. Виглядає чудово."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/np13_misc.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseStructure
   id: N14Television
-  name: television
-  description: An old pre-war television.
+  name: "телебачення"
+  description: "Старий довоєнний телевізор."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/televisions.rsi
@@ -37,7 +37,7 @@
 - type: entity
   parent: N14Television
   id: N14TelevisionRadking
-  description: A Radking brand television.
+  description: "Телевізор марки Radking."
   components:
   - type: Sprite
     state: radking_tv
@@ -45,7 +45,7 @@
 - type: entity
   parent: N14Television
   id: N14TelevisionRedwood
-  description: A television in a redwood cabinet.
+  description: "Телевізор у шафі з червоного дерева."
   components:
   - type: Sprite
     state: redwood_tv
@@ -53,7 +53,7 @@
 - type: entity
   parent: N14Television
   id: N14TelevisionTube
-  description: An old pre-war tube television.
+  description: "Старий довоєнний ламповий телевізор."
   components:
   - type: Sprite
     state: tube_tv
@@ -61,7 +61,7 @@
 - type: entity
   parent: N14Television
   id: N14TelevisionSmall
-  description: A television in a small case.
+  description: "Телевізор у невеликому корпусі."
   components:
   - type: Sprite
     state: small_tv
@@ -79,7 +79,7 @@
 - type: entity
   parent: N14TelevisionSmall
   id: N14TelevisionTiny
-  description: A tiny television.
+  description: "Крихітний телевізор."
   components:
   - type: Sprite
     state: tiny_tv
@@ -87,8 +87,8 @@
 - type: entity
   parent: SeatBase
   id: N14Toilet
-  name: toilet
-  description: Waste not, want not
+  name: "туалет"
+  description: "Не марнуй, не хочеш - не марнуй"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Decoration/world.rsi
