@@ -58078,31 +58078,16 @@ entities:
     - type: Transform
       pos: 37.5,26.5
       parent: 30
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 258
   - uid: 897
     components:
     - type: Transform
       pos: 38.5,20.5
       parent: 30
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 258
   - uid: 898
     components:
     - type: Transform
       pos: 40.5,20.5
       parent: 30
-    - type: DeviceNetwork
-      configurators:
-      - invalid
-      deviceLists:
-      - 258
 - proto: WeaponEnergyTurretAIControlPanel
   entities:
   - uid: 258
