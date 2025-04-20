@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterDirtySportwear
-  name: "брудна спортивка"
-  description: "Краще б це попрасувати."
+  name: брудна спортивка
+  description: Краще б це попрасувати.
   components:
   - type: Sprite
     sprite: T_Pirate/Clothing/OuterClothing/Misc/dirty_sportswear.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterSportwear
-  name: "спортивка"
-  description: "спортивка, підходить для спорту і спорту. також вона підходить для занять спортом і спорт спорту."
+  name: спортивка
+  description: спортивка, підходить для спорту і спорту. також вона підходить для занять спортом і спорт спорту.
   components:
   - type: Sprite
     sprite: T_Pirate/Clothing/OuterClothing/Misc/sportswear.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRobesClockwork
-  name: "халати з годинниковим механізмом"
-  description: "Який культ годинникового механізму без годинникових шат?"
+  name: clockwork robes
+  description: What is a clockwork cult without clockwork robes?
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/OuterClothing/Misc/clockwork_cuirass_old.rsi

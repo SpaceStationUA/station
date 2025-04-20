@@ -1,7 +1,7 @@
 - type: entity
   parent: CratePlastic
   id: CrateChaplain
-  name: "ящик капелана"
+  name: religious crate
   components:
   - type: Icon
     sprite: _Impstation/Structures/Storage/Crates/religious.rsi
@@ -11,8 +11,8 @@
 - type: entity
   id: CrateServiceReligious
   parent: CrateChaplain
-  name: "ящик з релігійним приладдям"
-  description: "Містить святу воду та запасну Біблію."
+  name: religious supplies crate
+  description: Contains holy water and a spare bible.
   components:
     - type: StorageFill
       contents:

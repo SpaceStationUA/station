@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BikeHorn
-  name: "велосипедний гудок"
-  description: "Клаксон від велосипеда."
+  name: bike horn
+  description: A horn off of a bicycle.
   components:
   - type: Sprite
     sprite: Objects/Fun/bikehorn.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: BaseItem
   id: CluwneHorn
-  name: "зламаний велосипедний клаксон"
-  description: "Зламаний ріг від велосипеда."
+  name: broken bike horn
+  description: A broken horn off of a bicycle.
   components:
   - type: UseDelay
   - type: Sprite
@@ -91,9 +91,9 @@
 - type: entity
   parent: BikeHorn
   id: GoldenBikeHorn
-  name: "золотий гудок"
+  name: golden honker
   suffix: No mapping
-  description: "Щасливий приз, моліть богів про винагороду."
+  description: A happy honk prize, pray to the gods for your reward.
   components:
   - type: Sprite
     sprite: Objects/Fun/goldbikehorn.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: BikeHorn
   id: BananiumHorn
-  name: "банановий ріжок"
-  description: "Повітряний ріжок з бананіуму."
+  name: bananium horn
+  description: An air horn made from bananium.
   components:
   - type: Sprite
     sprite: Objects/Fun/bananiumhorn.rsi

@@ -2,7 +2,7 @@
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   id: BulletAntiMateriel
-  name: "куля (.60 протиматеріальна)"
+  name: bullet (.60 anti-materiel)
   components:
   - type: Projectile
     damage:
@@ -15,7 +15,7 @@
 
 - type: entity
   id: BulletAntiMaterielShrapnel
-  name: "куля (.60 протипіхотна, шрапнельна)"
+  name: bullet (.60 anti-personnel shrapnel)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:
