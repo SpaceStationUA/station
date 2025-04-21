@@ -63,6 +63,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformBlue
   name: "Синя уніформа"
+  suffix: SquidGame
   components:
   - type: Item
     size: Tiny
@@ -71,7 +72,6 @@
     state: icon
   - type: Clothing
     sprite: _Pirate/SquidGame/Clothing/Uniform/blue.rsi
-    equippedState: equipped-blueUniform
 
 - type: entity
   parent: ClothingUniformBase
@@ -86,7 +86,6 @@
     state: icon
   - type: Clothing
     sprite: _Pirate/SquidGame/Clothing/Uniform/red.rsi
-    equippedState: equipped-redUniform_Test
   - type: ToggleableClothing
     requiredSlot: innerclothing
     clothingPrototypes:
