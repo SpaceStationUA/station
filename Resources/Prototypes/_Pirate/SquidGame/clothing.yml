@@ -3,6 +3,7 @@
   parent: ClothingMaskGas
   id: ClothingMaskCircle
   name: "Маска працівника(Коло)"
+  suffix: SquidGame
   components:
   - type: Item
     size: Tiny
@@ -17,6 +18,7 @@
   parent: ClothingMaskGas
   id: ClothingMaskSquare
   name: "Маска працівника(Квадрат)"
+  suffix: SquidGame
   components:
   - type: Item
     size: Tiny
@@ -31,6 +33,7 @@
   parent: ClothingMaskGas
   id: ClothingMaskTriangle
   name: "Маска працівника(Трикутник)"
+  suffix: SquidGame
   components:
   - type: Item
     size: Tiny
@@ -45,6 +48,7 @@
   parent: ClothingMaskGas
   id: ClothingMaskUwu
   name: "Маска працівника(Кітик)"
+  suffix: SquidGame
   components:
   - type: Item
     size: Tiny
@@ -59,6 +63,7 @@
   parent: ClothingUniformBase
   id: ClothingUniformBlue
   name: "Синя уніформа"
+  suffix: SquidGame
   components:
   - type: Item
     size: Tiny
@@ -67,12 +72,12 @@
     state: icon
   - type: Clothing
     sprite: _Pirate/SquidGame/Clothing/Uniform/blue.rsi
-    equippedState: equipped-blueUniform
 
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformRed
   name: "Червона уніформа"
+  suffix: SquidGame
   components:
   - type: Item
     size: Tiny
@@ -81,12 +86,18 @@
     state: icon
   - type: Clothing
     sprite: _Pirate/SquidGame/Clothing/Uniform/red.rsi
-    equippedState: equipped-redUniform_Test
+  - type: ToggleableClothing
+    requiredSlot: innerclothing
+    clothingPrototypes:
+      head: ClothingHoodRed
 
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHoodRed
   name: "Червоний капюшон"
+  categories: [ HideSpawnMenu ]
+  description: "Капюшон червоного кольору"
+  suffix: SquidGame
   components:
   - type: Item
     size: Tiny
@@ -96,4 +107,6 @@
   - type: Clothing
     sprite: _Pirate/SquidGame/Clothing/Uniform/red.rsi
     equippedState: equipped-HELMET
-
+  - type: HideLayerClothing
+    slots:
+    - Hair

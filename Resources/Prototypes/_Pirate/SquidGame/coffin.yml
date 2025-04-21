@@ -2,17 +2,20 @@
   parent: CrateGeneric
   id: SquidGameCoffin
   name: Гроб для гравців
-  description: A comfy coffin, excelent place for the vampires and corpses.
+  description: "Гроб для гравців, які програли гру"
+  suffix: SquidGame
   components:
   - type: Sprite
     sprite: _Pirate/SquidGame/coffin.rsi
     layers:
-    - state: closedCoffin
-    - state: closedCoffin
+    - state: base
+    - state: closed
       map: ["enum.StorageVisualLayers.Door"]
+    - state: paper
+      map: ["enum.PaperLabelVisuals.Layer"]
   - type: Icon
     sprite: _Pirate/SquidGame/coffin.rsi
-    state: generic_icon
+    state: base
   - type: Destructible
     thresholds:
     - trigger:
