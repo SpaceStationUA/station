@@ -119,35 +119,68 @@ function getChanges(body) {
 
 // Get the highest changelog number from the changelogs file
 function getHighestCLNumber() {
-    // Read changelogs file
-    const file = fs.readFileSync(`../../${process.env.CHANGELOG_DIR}`, "utf8");
+    const filePath = `../../${process.env.CHANGELOG_DIR}`;
+    let highestId = 0;
 
-    // Get list of CL numbers
-    const data = yaml.load(file);
-    const entries = data && data.Entries ? Array.from(data.Entries) : [];
-    const clNumbers = entries.map((entry) => entry.id);
+    if (fs.existsSync(filePath)) {
+        try {
+            const file = fs.readFileSync(filePath, "utf8");
+            const data = yaml.load(file);
+            if (data && Array.isArray(data.Entries)) {
+                 const clNumbers = data.Entries.map((entry) => entry.id).filter(id => typeof id === 'number');
+                 if (clNumbers.length > 0) {
+                    highestId = Math.max(...clNumbers);
+                 }
+            }
+        } catch (e) {
+            console.error(`Error reading or parsing ${filePath}:`, e);
+        }
+    }
 
-    // Return highest changelog number
-    return Math.max(...clNumbers, 0);
+    return highestId;
 }
 
 function writeChangelog(entry) {
-    let data = { Entries: [] };
+    const filePath = `../../${process.env.CHANGELOG_DIR}`;
+    let data = {};
 
-    // Create a new changelogs file if it does not exist
-    if (fs.existsSync(`../../${process.env.CHANGELOG_DIR}`)) {
-        const file = fs.readFileSync(`../../${process.env.CHANGELOG_DIR}`, "utf8");
-        data = yaml.load(file);
+    if (fs.existsSync(filePath)) {
+        try {
+            const file = fs.readFileSync(filePath, "utf8");
+            data = yaml.load(file);
+            if (typeof data !== 'object' || data === null) {
+                console.warn(`Warning: ${filePath} is malformed. Initializing with default structure.`);
+                data = {};
+            }
+        } catch (e) {
+            console.error(`Error reading or parsing ${filePath}. Initializing with default structure.`, e);
+            data = {};
+        }
+    } else {
+        console.log(`${filePath} not found. Creating new file with default structure.`);
+        data = {
+            Name: "Pirate",
+            AdminOnly: false,
+            Order: 3,
+            Entries: []
+        };
+    }
+
+    if (!Array.isArray(data.Entries)) {
+        console.warn(`Warning: 'Entries' key in ${filePath} is not an array or is missing. Initializing it.`);
+        data.Entries = [];
     }
 
     data.Entries.push(entry);
 
-    // Write updated changelogs file
-    fs.writeFileSync(
-        `../../${process.env.CHANGELOG_DIR}`,
-        "Entries:\n" +
-            yaml.dump(data.Entries, { indent: 2 }).replace(/^---/, "")
-    );
+    try {
+        fs.writeFileSync(
+            filePath,
+            yaml.dump(data, { indent: 2 })
+        );
+    } catch (e) {
+        console.error(`Error writing updated changelog to ${filePath}:`, e);
+    }
 }
 
 // Run main
