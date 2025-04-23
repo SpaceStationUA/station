@@ -1,0 +1,24 @@
+- type: entity
+  id: ReactionChamberChemistry
+  suffix: Chemistry
+  parent: BaseMachinePowered
+  components:
+    - type: Sprite
+      sprite: /Textures/_Pirate/Structures/Machines/reaction_chamber.rsi
+      state: base
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PhysShapeAabb
+            bounds: "-0.14,-0.35,0.1,0.35"
+          density: 190
+          mask:
+            - MachineMask
+          layer:
+            - MachineLayer
+    - type: UserInterface
+      interfaces:
+        enum.ReactionChamberUiKey.Key:
+          type: ReactionChamber
+    - type: ActivatableUI
+      key: enum.ReactionChamberUiKey.Key
