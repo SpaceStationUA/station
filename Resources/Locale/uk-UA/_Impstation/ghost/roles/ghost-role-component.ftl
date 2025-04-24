@@ -1,2 +1,2 @@
-ghost-role-information-finfin-name = Fin Fin
-ghost-role-information-finfin-description = Taken from your home planet of Teo by Salvage, you're so adorable that you were adopted by the station instead of sent to Centcomm. It's in your best interest to stay that way.
+ghost-role-information-finfin-name = Фін Фін
+ghost-role-information-finfin-description = Вас забрали з рідної планети Тео під час операції Salvage, ви такі чарівні, що станцію прийняла вас замість відправлення до Centcomm. Краще залишатися таким і надалі

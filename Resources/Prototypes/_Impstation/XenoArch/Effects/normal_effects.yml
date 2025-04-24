@@ -14,10 +14,13 @@
       prob: 0.5
     - id: SpaceCash5000
       prob: 0.25
+      maxAmount: 1
     - id: SpaceCash10000
       prob: 0.1
+      maxAmount: 1
     - id: SpaceCash50000
       prob: 0.01
+      maxAmount: 1
 
 - type: artifactEffect
   id: EffectBigIgnite
