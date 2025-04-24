@@ -64,7 +64,6 @@
     useSound:
       path: /Audio/_Pirate/Voice/Gray/gray_scream.ogg
   - type: Absorbable # everyone can eat them now
-    biomassRestored: 0.1
 
 - type: entity
   parent: BasePlushie
@@ -120,7 +119,6 @@
     useSound:
       path: /Audio/Voice/Arachnid/arachnid_scream.ogg #OW!!! OWIE!!
   - type: Absorbable #delicious
-    biomassRestored: 0.1
   - type: FlavorProfile
     flavors:
       - whimsy

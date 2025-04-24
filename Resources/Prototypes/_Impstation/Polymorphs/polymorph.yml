@@ -34,15 +34,3 @@
     revertOnDeath: true
     revertOnCrit: true
     duration: 25
-
-- type: polymorph
-  id: ArtifactRod
-  configuration:
-    entity: ImmovableRodArtifactPoly
-    transferName: true
-    transferDamage: false
-    inventory: None
-    duration: 3
-    forced: true
-    revertOnCrit: false
-    revertOnDeath: false

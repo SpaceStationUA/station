@@ -60,16 +60,6 @@
     range: 5
 
 - type: artifactEffect
-  id: EffectPolyRod
-  targetDepth: 4
-  effectProb: 0.05
-  effectHint: artifact-effect-hint-polymorph
-  components:
-  - type: PolyOthersArtifact
-    polymorphPrototypeName: ArtifactRod
-    range: 4
-
-- type: artifactEffect
   id: EffectHealAllPowerful
   targetDepth: 4
   effectHint: artifact-effect-hint-environment
