@@ -1,0 +1,18 @@
+- type: entity
+  parent: ImmovableRodKeepTilesStill
+  id: ImmovableRodFinfin
+  name: immovable Fin Fin
+  description: Your best friend! Don't touch him though.
+  components:
+  - type: ImmovableRod
+    randomizeVelocity: false
+    maxSpeed: 0
+  - type: Sprite
+    sprite: _Impstation/Mobs/Pets/finfin.rsi
+    state: finfin
+    rotation: 0
+    noRot: false
+  - type: PointLight
+    radius: 3
+    color: blue
+    energy: 2.0

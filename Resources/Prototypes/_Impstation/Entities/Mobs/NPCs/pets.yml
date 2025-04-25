@@ -1,0 +1,137 @@
+- type: entity
+  name: Fin Fin
+  parent: MobBat
+  id: MobFinfin
+  description: Your best friend.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _Impstation/Mobs/Pets/finfin.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: finfin
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.25
+        density: 10
+        mask:
+        - FlyingMobMask
+        layer:
+        - FlyingMobLayer
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: ghost-role-information-finfin-name
+    description: ghost-role-information-finfin-description
+    rules: ghost-role-information-nonantagonist-rules
+  - type: GhostTakeoverAvailable
+  - type: Speech
+    speechSounds: Finfin
+    speechVerb: Finfin
+    suffixSpeechVerbs:
+      chat-speech-verb-suffix-exclamation-strong: FinfinExclamationStrong
+      chat-speech-verb-suffix-exclamation: FinfinExclamation
+      chat-speech-verb-suffix-question: DefaultQuestion
+      chat-speech-verb-suffix-stutter: FinfinStutter
+      chat-speech-verb-suffix-mumble: FinfinMumble
+  - type: Inventory
+    speciesId: finfin
+    templateId: pet
+  - type: InventorySlots
+  - type: Strippable
+  - type: UserInterface
+    interfaces:
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: finfin
+      Critical:
+        Base: finfin_justresting
+      Dead:
+        Base: finfin_justresting
+  - type: ReplacementAccent
+    accent: finfin
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatFinfin
+      amount: 2
+  - type: InteractionPopup
+    successChance: 0.9
+    interactSuccessString: petting-success-finfin
+    interactFailureString: petting-failure-finfin
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound:
+      path: /Audio/_Impstation/Animals/finfin3.ogg
+  - type: SentienceTarget
+    flavorKind: station-event-random-sentience-flavor-organic
+  - type: Grammar
+    attributes:
+      proper: true
+      gender: male
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - CannotSuicide
+    - VimPilot
+  - type: StealTarget
+    stealGroup: AnimalFinFin
+
+- type: entity
+  name: Oswald
+  parent: [ MobPenguin, MobCombat, StripableInventoryBase ]
+  id: MobPenguinOswald
+  description: The Hospitality Director's waddling companion. She loves fish.
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: oswald
+      sprite: _Impstation/Mobs/Pets/oswald.rsi
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: oswald
+      Critical:
+        Base: oswald_dead
+      Dead:
+        Base: oswald_dead
+  # - type: ReplacementAccent
+  #   accent: chicken # this is basically the same thing as a penguin probably
+  - type: Speech
+    speechVerb: Vox
+    # speechSounds: Cluck
+  - type: Inventory
+    speciesId: penguin
+    templateId: oswald
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: MeleeWeapon
+    altDisarm: false
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    damage:
+      types:
+        Piercing: 15 # turn this down if her soloing carp turns into a problem
+  - type: NpcFactionMember
+    factions:
+    - Penguin # she loves fish!
+    - Passive
+  - type: Grammar
+    attributes:
+      proper: true
+      gender: female
+  - type: StealTarget
+    stealGroup: AnimalOswald
+  - type: SentienceTarget
+    flavorKind: station-event-random-sentience-flavor-avian
