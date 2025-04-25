@@ -2,320 +2,431 @@ Name: Pirate
 AdminOnly: false
 Order: 3
 Entries:
-- author: Аматадоро
-  changes:
-  - {message: 'Додано пустий голос для ттс. Виберіть його в налаштуваннях персонажу.', type: Add}
-  id: 1
-  time: '2024-07-25T04:26:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Додано традиційний костюм гоблінів та EVA з Фронтіру до меню крафту.', type: Add}
-  id: 2
-  time: '2024-07-25T04:26:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Мавпам повернуто повноцінний інвентар з карманами, поясом, рукавицями.', type: Add}
-  id: 3
-  time: '2024-07-25T04:26:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Ємність СМЕС збільшено на 100%', type: Add}
-  id: 4
-  time: '2024-07-25T04:26:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Оновлено звуки гоблінів з фронтіру.', type: Add}
-  id: 5
-  time: '2024-07-25T04:26:00.0000000+00:00'
-- author: ZorenZal
-  changes:
-  - {message: 'Переклад голограм, шлюзу.', type: Add}
-  id: 6
-  time: '2024-07-25T04:26:00.0000000+00:00'
-- author: Войд
-  changes:
-  - {message: 'Додано кастомний привид Mister_Diavolo', type: Add}
-  id: 7
-  time: '2024-07-27T04:26:00.0000000+00:00'
-- author: Sergio_Boy
-  changes:
-  - {message: 'Часткове виправлення перекладу', type: Fix}
-  id: 8
-  time: '2024-07-27T04:26:00.0000000+00:00'
-- author: Войд
-  changes:
-  - {message: 'Тіньовики більше не можуть скинути з себе знак миру здібностями', type: Fix}
-  id: 9
-  time: '2024-07-27T04:26:00.0000000+00:00'
-- author: Войд
-  changes:
-  - {message: 'Нові гравці вимушені зіграти першу годину маючи знак миру', type: Add}
-  id: 10
-  time: '2024-07-27T04:26:00.0000000+00:00'
-- author: Войд
-  changes:
-  - {message: 'Коли гравець йде за наймита чи оцк - він отримує диск, що тепер працює й необхідний для телепортації на базу', type: Fix}
-  id: 11
-  time: '2024-07-27T04:26:00.0000000+00:00'
-- author: Войд
-  changes:
-  - {message: 'Шатл наймита тепер вимагає доступи для відкривання дверей', type: Fix}
-  id: 12
-  time: '2024-07-27T04:26:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Контрактна самозарядна електро-дубинка в аплінку за 8тк', type: Add}
-  id: 13
-  time: '2024-08-1T04:26:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Рогаті жаби', type: Add}
-  id: 14
-  time: '2024-08-2T04:26:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Адмеме кольорові (particle) патрони і балістичні вежі', type: Add}
-  id: 15
-  time: '2024-08-2T04:26:00.0000000+00:00'
-- author: Войд
-  changes:
-  - {message: 'Доданий привид для JoeTedyu', type: Add}
-  id: 16
-  time: '2024-08-2T13:24:00.0000000+00:00'
-- author: Sh1Nima
-  changes:
-  - {message: 'Додано нові арти на завантажувальний екран та у лобі', type: Add}
-  id: 17
-  time: '2024-08-5T16:16:00.0000000+00:00'
-- author: ImperiaArtSempai
-  changes:
-  - {message: 'Додано новий арт Юкі у лобі', type: Add}
-  id: 18
-  time: '2024-08-5T16:17:00.0000000+00:00'
-- author: Войд
-  changes:
-  - {message: 'Виправлено манга шрифт у всіх хто його використовува.', type: Fix}
-  id: 19
-  time: '2024-08-5T16:18:00.0000000+00:00'
-- author: BombasterDS з Goobstation. Додав Аматадоро
-  changes:
-  - {message: 'Хроно Легіонер', type: Add}
-  id: 20
-  time: '2024-08-6T16:18:00.0000000+00:00'
-- author: BombasterDS з Goobstation. Додав Аматадоро
-  changes:
-  - {message: 'Вогняне намисто для чаклуна', type: Add}
-  id: 21
-  time: '2024-08-6T16:18:00.0000000+00:00'
-- author: Войд
-  changes:
-  - {message: 'Голосування за перезапуск тепер доступні лише якщо раунд триває 2 години чи 90% гравців мерті.', type: Add}
-  id: 22
-  time: '2024-08-9T07:37:00.0000000+00:00'
-- author: Sh1Nima
-  changes:
-  - {message: 'Виправлення сплеш лого', type: Fix}
-  id: 23
-  time: '2024-08-11T17:37:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Мапа Паркстанція', type: Add}
-  id: 24
-  time: '2024-08-16T08:55:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Космобанк.', type: Add}
-  id: 25
-  time: '2024-08-20T10:45:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Раса грей. Поки що недоступна в лобі. Також їх скафандр, стан, рей лаунчер, pvc палку', type: Add}
-  id: 26
-  time: '2024-09-09T10:45:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Бейсбольна бита тепер відбиває предмети!', type: Add}
-  id: 27
-  time: '2024-09-09T10:45:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Телепортер синдикату. Розділ Предмети, 12ТК. 2 заряди з відновленням по 45с, телепортує на 4 +- 2метри', type: Add}
-  id: 28
-  time: '2024-09-09T10:45:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Гральні карти', type: Add}
-  id: 29
-  time: '2024-09-28T10:45:00.0000000+00:00'
-- author: Einstein Engines
-  changes:
-  - {message: 'Велике оновлення EE (можливо багато багів)', type: Add}
-  id: 30
-  time: '2024-10-18T10:45:00.0000000+00:00'
-- author: Goob
-  changes:
-  - {message: 'Changelings', type: Add}
-  id: 31
-  time: '2024-10-18T10:45:00.0000000+00:00'
-- author: Goob
-  changes:
-  - {message: 'Heretic', type: Add}
-  id: 32
-  time: '2024-10-18T10:45:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Велика червона кнопка', type: Add}
-  id: 33
-  time: '2024-10-18T10:45:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Адмеме одяг Ратвар', type: Add}
-  id: 34
-  time: '2024-10-18T10:45:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Bluespace Harvester', type: Remove}
-  id: 35
-  time: '2024-10-18T10:45:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Medipen Refiller', type: Remove}
-  id: 36
-  time: '2024-10-18T10:45:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Адмеме Hyperutactic Blade', type: Add}
-  id: 37
-  time: '2024-10-18T10:45:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Нові зачіски', type: Add}
-  id: 38
-  time: '2024-10-28T10:45:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Набір Бліжнього бою (CQC) в аплінк Ядерних Оперативнів', type: Add}
-  id: 39
-  time: '2024-10-28T10:45:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Геловінські цукерки в ланчбокси, гардероб (розділ речі)', type: Add}
-  id: 40
-  time: '2024-10-29T10:45:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Слайм-гарбуз, слендер мім', type: Add}
-  id: 41
-  time: '2024-10-29T10:45:00.0000000+00:00'
-- author: Войд
-  changes:
-  - {message: 'Тепер при повторному виклику фамільярів вже існуючі фамільяри телепортуються до свого господаря', type: Add}
-  id: 42
-  time: '2024-10-29T11:07:00.0000000+00:00'
-- author: 757575
-  changes:
-  - {message: 'Доданий tiny fan на базу радіо підслуховувачів', type: Add}
-  id: 43
-  time: '2024-10-29T11:09:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Гобліни, фелініди, а також ті хто мають навичку "Малий" можуть їздити на котах, свинях', type: Add}
-  id: 44
-  time: '2024-10-30T11:09:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Нові варіанти інтерфесу - Гелловін та Пурпуровий', type: Add}
-  id: 45
-  time: '2024-10-31T11:09:00.0000000+00:00'
-- author: Войд
-  changes:
-  - {message: 'СБ тепер розпочинає зміну з трейтом фабрика тромбоцитів', type: Add}
-  id: 46
-  time: '2024-11-02T20:44:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Виправлено набір Маямі, ціну знижено з 12 до 10ТК', type: Fix}
-  id: 47
-  time: '2024-11-03T20:44:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'До аплінку повернуто набір з гвинтівкою c-sar .25. Тестова ціна 14ТК', type: Add}
-  id: 48
-  time: '2024-11-03T20:44:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Візуальна вибухова хвиля з RMC при вибуху деяких гранат', type: Add}
-  id: 49
-  time: '2024-11-03T20:44:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Для маперів додано текстури стін, плиток з суфіксом Абдуктор', type: Add}
-  id: 50
-  time: '2024-11-03T20:44:00.0000000+00:00'
-- author: Войд
-  changes:
-  - {message: 'СБ тепер розпочинає зміну з трейтом біонічна рука', type: Add}
-  id: 51
-  time: '2024-11-03T23:26:00.0000000+00:00'
-- author: "Nazar_mt & kraftorset"
-  changes:
-  - {message: 'Оновлена мапа box', type: Add}
-  id: 52
-  time: '2024-11-04T11:09:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Бойові магбуци, вивчаються разом зі звичайними, доступні в техфабі сб', type: Add}
-  id: 53
-  time: '2024-11-08T11:09:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Новий візуальний ефект під час EMP', type: Add}
-  id: 54
-  time: '2024-11-12T11:09:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Нові емоції', type: Add}
-  id: 55
-  time: '2024-11-12T11:09:00.0000000+00:00'
-- author: Аматадоро
-  changes:
-  - {message: 'Диско підлога', type: Add}
-  id: 56
-  time: '2024-11-12T11:09:00.0000000+00:00'
-- author: Аматадоро (портовано з Impstation)
-  changes:
-  - {message: 'Речові мішки S класу в карго', type: Add}
-  id: 57
-  time: '2024-11-19T11:09:00.0000000+00:00'
-- author: Аматадоро (портовано з Goobstation)
-  changes:
-  - {message: 'Набір зі стелс-костюмом Кіберсан за 15 ТК', type: Add}
-  id: 58
-  time: '2024-11-20T11:09:00.0000000+00:00'
-- author: Аматадоро (портовано з Goobstation)
-  changes:
-  - {message: 'Шприцемет', type: Add}
-  id: 59
-  time: '2024-11-29T11:09:00.0000000+00:00'
-- author: Carry_ua
-  changes:
-  - {message: 'Самурайска броня ХОСа', type: Add}
-  id: 60
-  time: '2025-03-30T11:09:00.0000000+00:00'
-- author: Carry_ua
-  changes:
-  - {message: 'Офіцерський протигаз тепер можна вибрати з початку раунду', type: Tweak}
-  - {message: 'В шафі Бріг Медика тепер буде з`являтись сумка з хірургічним набором', type: Tweak }
-  id: 61
-  time: '2025-03-31T11:09:00.0000000+00:00'
-- author: Carry_ua
-  changes:
-  - {message: 'Цілих 9 нових іграшок від @bunkeran. Вибери яка тобі до душі!', type: Add}
-  - {message: 'Газову маску безпеки тепер можуть вибрати тільки працівники безпеки. Живіть з цим.', type: Tweak}
-  id: 62
-  time: '2025-04-15T11:09:00.0000000+00:00'
-- author: Carry_ua
-  changes:
-  - {message: 'Додано бодікам для офіцерів. Шукайте в шафах!', type: Add}
-  id: 63
-  time: '2025-04-18T11:09:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Додано пустий голос для ттс. Виберіть його в налаштуваннях персонажу.
+        type: Add
+    id: 1
+    time: '2024-07-25T04:26:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Додано традиційний костюм гоблінів та EVA з Фронтіру до меню крафту.
+        type: Add
+    id: 2
+    time: '2024-07-25T04:26:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Мавпам повернуто повноцінний інвентар з карманами, поясом, рукавицями.
+        type: Add
+    id: 3
+    time: '2024-07-25T04:26:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Ємність СМЕС збільшено на 100%
+        type: Add
+    id: 4
+    time: '2024-07-25T04:26:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Оновлено звуки гоблінів з фронтіру.
+        type: Add
+    id: 5
+    time: '2024-07-25T04:26:00.0000000+00:00'
+  - author: ZorenZal
+    changes:
+      - message: Переклад голограм, шлюзу.
+        type: Add
+    id: 6
+    time: '2024-07-25T04:26:00.0000000+00:00'
+  - author: Войд
+    changes:
+      - message: Додано кастомний привид Mister_Diavolo
+        type: Add
+    id: 7
+    time: '2024-07-27T04:26:00.0000000+00:00'
+  - author: Sergio_Boy
+    changes:
+      - message: Часткове виправлення перекладу
+        type: Fix
+    id: 8
+    time: '2024-07-27T04:26:00.0000000+00:00'
+  - author: Войд
+    changes:
+      - message: Тіньовики більше не можуть скинути з себе знак миру здібностями
+        type: Fix
+    id: 9
+    time: '2024-07-27T04:26:00.0000000+00:00'
+  - author: Войд
+    changes:
+      - message: Нові гравці вимушені зіграти першу годину маючи знак миру
+        type: Add
+    id: 10
+    time: '2024-07-27T04:26:00.0000000+00:00'
+  - author: Войд
+    changes:
+      - message: >-
+          Коли гравець йде за наймита чи оцк - він отримує диск, що тепер працює
+          й необхідний для телепортації на базу
+        type: Fix
+    id: 11
+    time: '2024-07-27T04:26:00.0000000+00:00'
+  - author: Войд
+    changes:
+      - message: Шатл наймита тепер вимагає доступи для відкривання дверей
+        type: Fix
+    id: 12
+    time: '2024-07-27T04:26:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Контрактна самозарядна електро-дубинка в аплінку за 8тк
+        type: Add
+    id: 13
+    time: '2024-08-1T04:26:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Рогаті жаби
+        type: Add
+    id: 14
+    time: '2024-08-2T04:26:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Адмеме кольорові (particle) патрони і балістичні вежі
+        type: Add
+    id: 15
+    time: '2024-08-2T04:26:00.0000000+00:00'
+  - author: Войд
+    changes:
+      - message: Доданий привид для JoeTedyu
+        type: Add
+    id: 16
+    time: '2024-08-2T13:24:00.0000000+00:00'
+  - author: Sh1Nima
+    changes:
+      - message: Додано нові арти на завантажувальний екран та у лобі
+        type: Add
+    id: 17
+    time: '2024-08-5T16:16:00.0000000+00:00'
+  - author: ImperiaArtSempai
+    changes:
+      - message: Додано новий арт Юкі у лобі
+        type: Add
+    id: 18
+    time: '2024-08-5T16:17:00.0000000+00:00'
+  - author: Войд
+    changes:
+      - message: Виправлено манга шрифт у всіх хто його використовува.
+        type: Fix
+    id: 19
+    time: '2024-08-5T16:18:00.0000000+00:00'
+  - author: BombasterDS з Goobstation. Додав Аматадоро
+    changes:
+      - message: Хроно Легіонер
+        type: Add
+    id: 20
+    time: '2024-08-6T16:18:00.0000000+00:00'
+  - author: BombasterDS з Goobstation. Додав Аматадоро
+    changes:
+      - message: Вогняне намисто для чаклуна
+        type: Add
+    id: 21
+    time: '2024-08-6T16:18:00.0000000+00:00'
+  - author: Войд
+    changes:
+      - message: >-
+          Голосування за перезапуск тепер доступні лише якщо раунд триває 2
+          години чи 90% гравців мерті.
+        type: Add
+    id: 22
+    time: '2024-08-9T07:37:00.0000000+00:00'
+  - author: Sh1Nima
+    changes:
+      - message: Виправлення сплеш лого
+        type: Fix
+    id: 23
+    time: '2024-08-11T17:37:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Мапа Паркстанція
+        type: Add
+    id: 24
+    time: '2024-08-16T08:55:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Космобанк.
+        type: Add
+    id: 25
+    time: '2024-08-20T10:45:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: >-
+          Раса грей. Поки що недоступна в лобі. Також їх скафандр, стан, рей
+          лаунчер, pvc палку
+        type: Add
+    id: 26
+    time: '2024-09-09T10:45:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Бейсбольна бита тепер відбиває предмети!
+        type: Add
+    id: 27
+    time: '2024-09-09T10:45:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: >-
+          Телепортер синдикату. Розділ Предмети, 12ТК. 2 заряди з відновленням
+          по 45с, телепортує на 4 +- 2метри
+        type: Add
+    id: 28
+    time: '2024-09-09T10:45:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Гральні карти
+        type: Add
+    id: 29
+    time: '2024-09-28T10:45:00.0000000+00:00'
+  - author: Einstein Engines
+    changes:
+      - message: Велике оновлення EE (можливо багато багів)
+        type: Add
+    id: 30
+    time: '2024-10-18T10:45:00.0000000+00:00'
+  - author: Goob
+    changes:
+      - message: Changelings
+        type: Add
+    id: 31
+    time: '2024-10-18T10:45:00.0000000+00:00'
+  - author: Goob
+    changes:
+      - message: Heretic
+        type: Add
+    id: 32
+    time: '2024-10-18T10:45:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Велика червона кнопка
+        type: Add
+    id: 33
+    time: '2024-10-18T10:45:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Адмеме одяг Ратвар
+        type: Add
+    id: 34
+    time: '2024-10-18T10:45:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Bluespace Harvester
+        type: Remove
+    id: 35
+    time: '2024-10-18T10:45:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Medipen Refiller
+        type: Remove
+    id: 36
+    time: '2024-10-18T10:45:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Адмеме Hyperutactic Blade
+        type: Add
+    id: 37
+    time: '2024-10-18T10:45:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Нові зачіски
+        type: Add
+    id: 38
+    time: '2024-10-28T10:45:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Набір Бліжнього бою (CQC) в аплінк Ядерних Оперативнів
+        type: Add
+    id: 39
+    time: '2024-10-28T10:45:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Геловінські цукерки в ланчбокси, гардероб (розділ речі)
+        type: Add
+    id: 40
+    time: '2024-10-29T10:45:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Слайм-гарбуз, слендер мім
+        type: Add
+    id: 41
+    time: '2024-10-29T10:45:00.0000000+00:00'
+  - author: Войд
+    changes:
+      - message: >-
+          Тепер при повторному виклику фамільярів вже існуючі фамільяри
+          телепортуються до свого господаря
+        type: Add
+    id: 42
+    time: '2024-10-29T11:07:00.0000000+00:00'
+  - author: 757575
+    changes:
+      - message: Доданий tiny fan на базу радіо підслуховувачів
+        type: Add
+    id: 43
+    time: '2024-10-29T11:09:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: >-
+          Гобліни, фелініди, а також ті хто мають навичку "Малий" можуть їздити
+          на котах, свинях
+        type: Add
+    id: 44
+    time: '2024-10-30T11:09:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Нові варіанти інтерфесу - Гелловін та Пурпуровий
+        type: Add
+    id: 45
+    time: '2024-10-31T11:09:00.0000000+00:00'
+  - author: Войд
+    changes:
+      - message: СБ тепер розпочинає зміну з трейтом фабрика тромбоцитів
+        type: Add
+    id: 46
+    time: '2024-11-02T20:44:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Виправлено набір Маямі, ціну знижено з 12 до 10ТК
+        type: Fix
+    id: 47
+    time: '2024-11-03T20:44:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: До аплінку повернуто набір з гвинтівкою c-sar .25. Тестова ціна 14ТК
+        type: Add
+    id: 48
+    time: '2024-11-03T20:44:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Візуальна вибухова хвиля з RMC при вибуху деяких гранат
+        type: Add
+    id: 49
+    time: '2024-11-03T20:44:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Для маперів додано текстури стін, плиток з суфіксом Абдуктор
+        type: Add
+    id: 50
+    time: '2024-11-03T20:44:00.0000000+00:00'
+  - author: Войд
+    changes:
+      - message: СБ тепер розпочинає зміну з трейтом біонічна рука
+        type: Add
+    id: 51
+    time: '2024-11-03T23:26:00.0000000+00:00'
+  - author: Nazar_mt & kraftorset
+    changes:
+      - message: Оновлена мапа box
+        type: Add
+    id: 52
+    time: '2024-11-04T11:09:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Бойові магбуци, вивчаються разом зі звичайними, доступні в техфабі сб
+        type: Add
+    id: 53
+    time: '2024-11-08T11:09:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Новий візуальний ефект під час EMP
+        type: Add
+    id: 54
+    time: '2024-11-12T11:09:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Нові емоції
+        type: Add
+    id: 55
+    time: '2024-11-12T11:09:00.0000000+00:00'
+  - author: Аматадоро
+    changes:
+      - message: Диско підлога
+        type: Add
+    id: 56
+    time: '2024-11-12T11:09:00.0000000+00:00'
+  - author: Аматадоро (портовано з Impstation)
+    changes:
+      - message: Речові мішки S класу в карго
+        type: Add
+    id: 57
+    time: '2024-11-19T11:09:00.0000000+00:00'
+  - author: Аматадоро (портовано з Goobstation)
+    changes:
+      - message: Набір зі стелс-костюмом Кіберсан за 15 ТК
+        type: Add
+    id: 58
+    time: '2024-11-20T11:09:00.0000000+00:00'
+  - author: Аматадоро (портовано з Goobstation)
+    changes:
+      - message: Шприцемет
+        type: Add
+    id: 59
+    time: '2024-11-29T11:09:00.0000000+00:00'
+  - author: Carry_ua
+    changes:
+      - message: Самурайска броня ХОСа
+        type: Add
+    id: 60
+    time: '2025-03-30T11:09:00.0000000+00:00'
+  - author: Carry_ua
+    changes:
+      - message: Офіцерський протигаз тепер можна вибрати з початку раунду
+        type: Tweak
+      - message: В шафі Бріг Медика тепер буде з`являтись сумка з хірургічним набором
+        type: Tweak
+    id: 61
+    time: '2025-03-31T11:09:00.0000000+00:00'
+  - author: Carry_ua
+    changes:
+      - message: Цілих 9 нових іграшок від @bunkeran. Вибери яка тобі до душі!
+        type: Add
+      - message: >-
+          Газову маску безпеки тепер можуть вибрати тільки працівники безпеки.
+          Живіть з цим.
+        type: Tweak
+    id: 62
+    time: '2025-04-15T11:09:00.0000000+00:00'
+  - author: Carry_ua
+    changes:
+      - message: Додано бодікам для офіцерів. Шукайте в шафах!
+        type: Add
+    id: 63
+    time: '2025-04-18T11:09:00.0000000+00:00'
+  - author: CyberLanos
+    changes:
+      - type: Tweak
+        message: CourierVend у карго
+      - type: Tweak
+        message: ремап суперматерії
+    id: 64
+    time: '2025-04-23T11:06:20.0000000+00:00'
+    url: https://github.com/SpaceStationUA/station/pull/83
+  - author: SpaceCowboyServer
+    changes:
+      - type: Add
+        message: Тваринки Фін Фін та Освальд.
+      - type: Add
+        message: Кілька нових плюшів.
+    id: 65
+    time: '2025-04-24T10:10:39.0000000+00:00'
+    url: https://github.com/SpaceStationUA/station/pull/84
+  - author: SpaceCowboyServer
+    changes:
+      - type: Remove
+        message: Безкінечне блимання ламп
+    id: 66
+    time: '2025-04-24T11:08:00.0000000+00:00'
+    url: https://github.com/SpaceStationUA/station/pull/85
+  - author: SpaceCowboyServer
+    changes:
+      - type: Fix
+        message: (можливо) прибрано якийсь баг при стрільбі що призводив до вильоту гри
+    id: 67
+    time: '2025-04-25T11:30:43.0000000+00:00'
+    url: https://github.com/SpaceStationUA/station/pull/86
