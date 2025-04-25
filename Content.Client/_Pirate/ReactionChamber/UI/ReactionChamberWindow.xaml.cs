@@ -5,9 +5,9 @@ using Robust.Client.UserInterface.XAML;
 
 namespace Content.Client._Pirate.ReactionChamber.UI;
 [GenerateTypedNameReferences]
-public sealed partial class ReactionChamber : DefaultWindow
+public sealed partial class ReactionChamberWindow : DefaultWindow
 {
-    public ReactionChamber()
+    public ReactionChamberWindow()
     {
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);

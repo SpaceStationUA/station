@@ -1,0 +1,16 @@
+<DefaultWindow xmlns="https://spacestation14.io"
+               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+               xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+               xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+               Resizable="False"
+               Title="HelloWorld!">
+    <!-- x:Class="Content.Client._Pirate.ReactionChamber.UI.ReactionChamber" -->
+    <BoxContainer Orientation="Horizontal" MinSize="500 500">
+        <PanelContainer Margin="0, 100" SetHeight="10" HorizontalAlignment="Stretch" >
+            <PanelContainer.PanelOverride>
+            <gfx:StyleBoxFlat BackgroundColor="#858585"/>
+            </PanelContainer.PanelOverride>
+        </PanelContainer>
+        <Button MaxSize="100 40" ToggleMode="True" Text="Turn on/off"></Button>
+    </BoxContainer>
+</DefaultWindow>

@@ -1,5 +1,7 @@
 - type: entity
   id: ReactionChamberChemistry
+  name: "Камера для реакцій"
+  description: "Чудо хімічних технологій. Дозволяє встановлювати бажану температуру вашої субстанції."
   suffix: Chemistry
   parent: BaseMachinePowered
   components:
@@ -19,6 +21,12 @@
     - type: UserInterface
       interfaces:
         enum.ReactionChamberUiKey.Key:
-          type: ReactionChamber
+          type: ReactionChamberBoundUI
     - type: ActivatableUI
       key: enum.ReactionChamberUiKey.Key
+    - type: ItemSlots
+      slots:
+        beakerSlot:
+          whitelist:
+            components:
+              - FitsInDispenser
