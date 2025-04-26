@@ -1,8 +1,8 @@
 - type: entity
-  name: "Фін Фін"
+  name: Fin Fin
   parent: MobBat
   id: MobFinfin
-  description: "Твій найкращий друг."
+  description: Your best friend.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -84,10 +84,10 @@
     stealGroup: AnimalFinFin
 
 - type: entity
-  name: "Освальд"
+  name: Oswald
   parent: [ MobPenguin, MobCombat, StripableInventoryBase ]
   id: MobPenguinOswald
-  description: "Супутник Директора з гостинності, що перевалюється. Вона любить рибу."
+  description: The Hospitality Director's waddling companion. She loves fish.
   components:
   - type: Sprite
     drawdepth: Mobs

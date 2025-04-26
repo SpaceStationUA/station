@@ -1,120 +1,120 @@
 - type: construction
-  name: "клоунський костюм"
+  name: clown vacsuit
   id: ClownHardsuit
   graph: ClownHardsuit
   startNode: start
   targetNode: clownHardsuit
   category: construction-category-clothing
-  description: "Модифікований костюм для клоуна."
+  description: A modified vacsuit fit for a clown.
   icon: { sprite: Clothing/OuterClothing/Hardsuits/clown.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "мімічний костюм"
+  name: mime vacsuit
   id: MimeHardsuit
   graph: MimeHardsuit
   startNode: start
   targetNode: mimeHardsuit
   category: construction-category-clothing
-  description: "Модифікований костюм для міма."
+  description: A modified vacsuit fit for a mime.
   icon: { sprite: Clothing/OuterClothing/Hardsuits/mime.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "кістяна броня"
+  name: bone armor
   id: BoneArmor
   graph: BoneArmor
   startNode: start
   targetNode: armor
   category: construction-category-clothing
-  description: "Броня, зроблена з кісток."
+  description: Armor made of bones.
   icon: { sprite: Clothing/OuterClothing/Armor/bone_armor.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "кістяний шолом"
+  name: bone helmet
   id: BoneHelmet
   graph: BoneHelmet
   startNode: start
   targetNode: helmet
   category: construction-category-clothing
-  description: "Шолом, зроблений з кісток."
+  description: Helmet made of bones.
   icon: { sprite: Clothing/Head/Helmets/bone_helmet.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "бананова маска клоуна"
+  name: banana clown mask
   id: BananaClownMask
   graph: BananaClownMask
   startNode: start
   targetNode: mask
   category: construction-category-clothing
-  description: "Маска клоуна, покращена банановою шкіркою."
+  description: A clown mask upgraded with banana peels.
   icon: { sprite: Clothing/Mask/clown_banana.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "банановий костюм клоуна"
+  name: banana clown suit
   id: BananaClownJumpsuit
   graph: BananaClownJumpsuit
   startNode: start
   targetNode: jumpsuit
   category: construction-category-clothing
-  description: "Костюм клоуна, покращений банановою шкіркою."
+  description: A clown suit upgraded with banana peels.
   icon: { sprite: Clothing/Uniforms/Jumpsuit/clown_banana.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "бананові черевики клоуна"
+  name: banana clown shoes
   id: BananaClownShoes
   graph: BananaClownShoes
   startNode: start
   targetNode: shoes
   category: construction-category-clothing
-  description: "Пара черевиків клоуна, покращених банановою шкіркою."
+  description: A pair of clown shoes upgraded with banana peels.
   icon: { sprite: Clothing/Shoes/Specific/clown_banana.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "медсек hud"
+  name: medsec hud
   id: ClothingEyesHudMedSec
   graph: HudMedSec
   startNode: start
   targetNode: medsecHud
   category: construction-category-clothing
-  description: "Два HUD, з'єднані кров'ю і потом"
+  description: Two huds joined by arms
   icon: { sprite: Clothing/Eyes/Hud/medsec.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "качині капці"
+  name: ducky slippers
   id: ClothingShoeSlippersDuck
   graph: ClothingShoeSlippersDuck
   startNode: start
   targetNode: shoes
   category: construction-category-clothing
-  description: "Затишні, але переслідувані привидами качок, яких ви годували хлібом у дитинстві."
+  description: Comfy, yet haunted by the ghosts of ducks you fed bread to as a child.
   icon: { sprite: Clothing/Shoes/Misc/duck-slippers.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "тканинні обгортання"
+  name: cloth wraps
   id: ClothingClothWrap
   graph: ClothingClothWrap
   startNode: start
   targetNode: shoes
   category: construction-category-clothing
-  description: "Рулон обробленого полотна, що використовується для обмотування кігтів або лап."
+  description: A roll of treated canvas used for wrapping claws or paws.
   icon: { sprite: Clothing/Shoes/Misc/clothWrap.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "сагайдак"
+  name: quiver
   id: ClothingBeltQuiver
   graph: Quiver
   startNode: start
   targetNode: Quiver
   category: construction-category-clothing
-  description: "Вміщує до 15 стріл і щільно облягає талію."
+  description: Can hold up to 15 arrows, and fits snug around your waist.
   icon: { sprite: Clothing/Belt/quiver.rsi, state: icon }
   objectType: Item

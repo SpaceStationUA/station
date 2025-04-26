@@ -1,6 +1,6 @@
 - type: entity
   id: BaseSpeedLoaderHeavyRifle
-  name: "швидкозарядник (.20 гвинтівковий)"
+  name: "speed loader (.20 rifle)"
   parent: BaseItem
   abstract: true
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   id: SpeedLoaderRifleHeavy
-  name: "швидкозарядник (.20 гвинтівковий)"
+  name: "speed loader (.20 rifle)"
   parent: BaseSpeedLoaderHeavyRifle
   components:
   - type: BallisticAmmoProvider
@@ -44,7 +44,7 @@
 
 - type: entity
   id: SpeedLoaderRifleHeavyEmpty
-  name: "швидкозарядник (.20 гвинтівковий будь-який)"
+  name: "speed loader (.20 rifle any)"
   parent: SpeedLoaderRifleHeavy
   components:
   - type: BallisticAmmoProvider
@@ -62,7 +62,7 @@
 
 - type: entity
   id: SpeedLoaderRifleHeavyIncendiary
-  name: "швидкозаряджач (.20 гвинтівковий запальний)"
+  name: "speed loader (.20 rifle incendiary)"
   parent: BaseSpeedLoaderHeavyRifle
   components:
   - type: BallisticAmmoProvider
@@ -82,7 +82,7 @@
 
 - type: entity
   id: SpeedLoaderRifleHeavyPractice
-  name: "швидкозарядник (.20 гвинтівковий тренувальний)"
+  name: "speed loader (.20 rifle practice)"
   parent: BaseSpeedLoaderHeavyRifle
   components:
   - type: BallisticAmmoProvider
@@ -105,7 +105,7 @@
 
 - type: entity
   id: SpeedLoaderRifleHeavyUranium
-  name: "швидкозарядник (.20 гвинтівковий урановий)"
+  name: "speed loader (.20 rifle uranium)"
   parent: BaseSpeedLoaderHeavyRifle
   components:
   - type: BallisticAmmoProvider
@@ -128,7 +128,7 @@
 
 - type: entity
   id: SpeedLoaderRifleHeavyRubber
-  name: "швидкозаряджач (.20 гвинтівковий гумовий)"
+  name: "speed loader (.20 rifle rubber)"
   parent: BaseSpeedLoaderHeavyRifle
   components:
   - type: BallisticAmmoProvider
