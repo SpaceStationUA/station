@@ -282,3 +282,4 @@ flavor-complex-paper = як кашоподібна м'якоть
 flavor-complex-compressed-meat = як пресоване м'ясо
 flavor-complex-plasma = як плазма
 flavor-complex-supernova = наче наднова, застигла на піку
+flavor-complex-xelthia = ніби якийсь екзотичний вид кислуватих кальмарів

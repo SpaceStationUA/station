@@ -4,3 +4,4 @@ chat-language-Delvahii-name = Дельвахії
 
 chat-language-NalRasan-name = Нал'расан
 chat-language-SiikTajr-name = Сіік'тайр
+chat-language-Qiilour-name = Кійлур
