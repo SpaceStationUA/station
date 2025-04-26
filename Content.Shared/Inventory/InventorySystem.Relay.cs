@@ -25,6 +25,7 @@ using Content.Shared.Overlays.Switchable;
 using Content.Shared.Heretic;
 
 using Content.Shared.Stunnable;
+using Content.Shared.Movement.Events;
 
 namespace Content.Shared.Inventory;
 
@@ -50,6 +51,7 @@ public partial class InventorySystem
         SubscribeLocalEvent<InventoryComponent, TargetBeforeHyposprayInjectsEvent>(RelayInventoryEvent);
         SubscribeLocalEvent<InventoryComponent, SelfBeforeGunShotEvent>(RelayInventoryEvent);
         SubscribeLocalEvent<InventoryComponent, SelfBeforeClimbEvent>(RelayInventoryEvent);
+        SubscribeLocalEvent<InventoryComponent, MakeFootstepSoundEvent>(RelayInventoryEvent);
 
         SubscribeLocalEvent<InventoryComponent, CheckMagicItemEvent>(RelayInventoryEvent); // goob edit
 

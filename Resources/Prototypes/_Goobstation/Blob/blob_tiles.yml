@@ -62,12 +62,12 @@
       !type:BlobTileCosts
       core: 0
       invalid: 0
-      resource: 70
-      factory: 90
-      node: 60
-      reflective: 20
-      strong: 20
-      normal: 10
+      resource: 60
+      factory: 80
+      node: 50
+      reflective: 15
+      strong: 15
+      normal: 6
 #      storage: 50
 #      turret: 75
     actionPrototypes:
@@ -136,7 +136,7 @@
     thresholds:
       - trigger:
           !type:DamageTrigger
-          damage: 15
+          damage: 25
         behaviors:
           - !type:DoActsBehavior
             acts: [ "Destruction" ]
@@ -200,7 +200,7 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 100
+            damage: 200
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
@@ -238,7 +238,7 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 45
+            damage: 90
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
@@ -308,7 +308,7 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 75
+            damage: 150
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
@@ -336,7 +336,7 @@
       thresholds:
         - trigger:
             !type:DamageTrigger
-            damage: 50
+            damage: 100
           behaviors:
             - !type:DoActsBehavior
               acts: [ "Destruction" ]

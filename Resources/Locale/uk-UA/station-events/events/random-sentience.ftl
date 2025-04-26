@@ -27,7 +27,7 @@ station-event-random-sentience-announcement = На основі { $data }, ми 
 
 ## Ghost role description
 
-station-event-random-sentience-role-description = Ви розумна істота { $name }, що отримала життя завдяки космічній магії.
+station-event-random-sentience-role-description = Ви - розумна { $name }, що отримала життя завдяки космічній магії.
 
 # Flavors
 station-event-random-sentience-flavor-mechanical = механічні
