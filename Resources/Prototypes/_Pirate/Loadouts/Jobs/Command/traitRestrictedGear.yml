@@ -318,7 +318,7 @@
 - type: loadout
   id: LoadoutCaptainRestrictedGearEyesSunglasses
   category: JobsCommandCaptain
-  cost: 1
+  cost: 2
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutCaptainEyes
@@ -508,7 +508,7 @@
 - type: loadout
   id: LoadoutCommandRestrictedGearCapMaskGas
   category: JobsCommandCaptain
-  cost: 1
+  cost: 2
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutCaptainMask
@@ -526,7 +526,7 @@
 - type: loadout
   id: LoadoutCommandRestrictedGearCapMaskGasCombat
   category: JobsCommandCaptain
-  cost: 1
+  cost: 2
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutCaptainMask
@@ -558,25 +558,6 @@
         - RestrictedGear
   items:
     - ClothingOuterWinterCap
-
-- type: loadout
-  id: LoadoutCaptainRestrictedGearOuterTrench
-  category: JobsCommandCaptain
-  cost: 1
-  exclusive: true
-  canBeHeirloom: true
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutCaptainOuter
-    - !type:CharacterJobRequirement
-      inverted: true
-      jobs:
-        - Captain
-    - !type:CharacterTraitRequirement
-      traits:
-        - RestrictedGear
-  items:
-    - ClothingOuterCoatCapTrench
 
 # Shoes
 
