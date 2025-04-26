@@ -2,9 +2,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANArmyCampaign
-  name: Solarian campaign hat
+  name: "парадний кашкет Соларіан"
   suffix: SAN
-  description: A hat worn by Solarian officers on parades.
+  description: "Кашкет, який носять офіцери Соларіану на парадах."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_army_campaign.rsi
@@ -14,9 +14,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANArmyCap
-  name: Solarian army cap
+  name: "армійський кашкет Соларіан"
   suffix: SAN
-  description: Tradition holds that the brim of this hat must never be used to shield one's eyes from mother Sol'.
+  description: "Традиція стверджує, що козирок цього кашкета ніколи не можна використовувати, щоб захистити очі від матері Сонця."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_army_cap.rsi
@@ -26,9 +26,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANArmyCapOfficer
-  name: Solarian army officer cap
+  name: "армійський офіцерський кашкет Соларіан"
   suffix: SAN
-  description: Tradition holds that the brim of this hat must never be used to shield one's eyes from mother Sol'. This hat bears officer chevrons.
+  description: "Традиція стверджує, що козирок цього кашкета ніколи не можна використовувати, щоб захистити очі від матері Сонця. Цей кашкет має офіцерські шеврони."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_army_cap_officer.rsi
@@ -38,9 +38,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANArmyCapSenior
-  name: Solarian army senior officer cap
+  name: "армійський кашкет старшого офіцера Соларіан"
   suffix: SAN
-  description: A pristine hat worn for the purpose of casting a larger shadow when looking down on aliens.
+  description: "Бездоганний кашкет, який носять для того, щоб відкидати більшу тінь, коли дивишся зверхньо на інопланетян."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_army_cap_senior.rsi
@@ -50,9 +50,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANArmyField
-  name: Solarian army field hat
+  name: "армійський польовий кашкет Соларіан"
   suffix: SAN
-  description: A common field hat worn by Solarian grunts. This one is colored olive drab.
+  description: "Звичайний польовий кашкет, який носять солдати Соларіану. Цей кашкет оливково-сірого кольору."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_army_field.rsi
@@ -62,9 +62,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANArmyFieldGrey
-  name: Solarian army field hat
+  name: "армійський польовий кашкет Соларіан"
   suffix: SAN
-  description: A common field hat worn by Solarian grunts. This one is colored stone grey.
+  description: "Звичайний польовий кашкет, який носять солдати Соларіану. Цей кашкет кам'яно-сірого кольору."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_army_field_grey.rsi
@@ -74,9 +74,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANArmyGarrison
-  name: Solarian army garrison hat
+  name: "армійський гарнізонний кашкет Соларіан"
   suffix: SAN
-  description: A garrison hat worn by grunts in the Solarian PDF.
+  description: "Гарнізонний кашкет, який носять рядові в PDF Соларіану."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_army_garrison.rsi
@@ -86,9 +86,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANArmyGarrisonCaptain
-  name: Solarian army garrison captain hat
+  name: "кашкет капітана армійського гарнізону Соларіан"
   suffix: SAN
-  description: A garrison hat worn by a Solarian PDF Captain.
+  description: "Гарнізонний кашкет, який носить капітан PDF Соларіану."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_army_garrison_captain.rsi
@@ -98,9 +98,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANArmyGarrisonOficer
-  name: Solarian army garrison officer hat
+  name: "армійський гарнізонний офіцерський кашкет Соларіан"
   suffix: SAN
-  description: A garrison hat worn by a Solarian PDF Officer.
+  description: "Гарнізонний кашкет, який носить офіцер PDF Соларіану."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_army_garrison_officer.rsi
@@ -110,9 +110,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANMarineUtility
-  name: Solarian marine utility hat
+  name: "морський піхотний кашкет Соларіан"
   suffix: SAN
-  description: A common hat worn by Solarian grunts. This one is colored olive drab.
+  description: "Звичайний кашкет, який носять солдати Соларіану. Цей кашкет оливково-сірого кольору."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_marine_utility.rsi
@@ -122,9 +122,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANMarineUtilityGrey
-  name: Solarian marine utility hat
+  name: "морський піхотний кашкет Соларіан"
   suffix: SAN
-  description: A common hat worn by Solarian grunts. This one is colored stone grey.
+  description: "Звичайний кашкет, який носять солдати Соларіану. Цей кашкет кам'яно-сірого кольору."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_marine_utility_grey.rsi
@@ -134,9 +134,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANNavyCap
-  name: Solarian navy cap
+  name: "кашкет ВМС Соларіан"
   suffix: SAN
-  description: A simple cap worn by Solarian Navy ratings.
+  description: "Простий кашкет, який носять матроси ВМС Соларіану."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_navy_cap.rsi
@@ -146,9 +146,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANNavyCapAdmiral
-  name: Solarian navy admiral cap
+  name: "кашкет адмірала ВМС Соларіан"
   suffix: SAN
-  description: When ordering the glassing of Xenos cities, accept no substitute but this hat upon thy head.
+  description: "Коли наказуєте знищити міста ксеносів, не приймайте ніяких замінників, окрім цього кашкета на вашій голові."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_navy_cap_admiral.rsi
@@ -158,9 +158,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANNavyCapOfficer
-  name: Solarian navy officer cap
+  name: "офіцерський кашкет ВМС Соларіан"
   suffix: SAN
-  description: A hat worn by officers in the Solarian Navy
+  description: "Кашкет, який носять офіцери ВМС Соларіану"
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_navy_cap_officer.rsi
@@ -170,9 +170,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANNavyCapOfficerSenior
-  name: Solarian navy senior officer cap
+  name: "кашкет старшого офіцера ВМС Соларіан"
   suffix: SAN
-  description: A hat worn by senior officers in the Solarian Navy
+  description: "Кашкет, який носять старші офіцери ВМС Соларіану"
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_navy_cap_senior.rsi
@@ -182,9 +182,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, SolAllianceInfo]
   id: ClothingHeadHatSANWheelCap
-  name: Solarian wheel cap
+  name: "кашкет-колесо Соларіан"
   suffix: SAN
-  description: Also known as a "Mechanic hat", this hat is worn by technicians in the Solarian Armed Forces
+  description: "Цей кашкет, також відомий як \"кашкет механіка\", носять техніки у Збройних силах Соларіану"
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Helmet/SAN_wheel_cap.rsi

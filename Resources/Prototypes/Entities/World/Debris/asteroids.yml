@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: BaseAsteroidDebris
   parent: BaseDebris
-  name: Asteroid Debris
+  name: "Уламки астероїдів"
   abstract: true
   components:
     - type: MapGrid
@@ -57,7 +57,7 @@
 - type: entity
   id: AsteroidDebrisSmall
   parent: BaseAsteroidDebris
-  name: Asteroid Debris Small
+  name: "Уламки астероїдів малі"
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -67,7 +67,7 @@
 - type: entity
   id: AsteroidDebrisMedium
   parent: BaseAsteroidDebris
-  name: Asteroid Debris Medium
+  name: "Уламки астероїдів середні"
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -77,7 +77,7 @@
 - type: entity
   id: AsteroidDebrisLarge
   parent: BaseAsteroidDebris
-  name: Asteroid Debris Large
+  name: "Уламки астероїдів великі"
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -87,7 +87,7 @@
 - type: entity
   id: AsteroidDebrisLarger
   parent: BaseAsteroidDebris
-  name: Asteroid Debris Larger
+  name: "Уламки астероїдів величезні"
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -98,7 +98,7 @@
 - type: entity
   id: AsteroidSalvageSmall
   parent: BaseAsteroidDebris
-  name: Salvage Asteroid Small
+  name: "Рятівний астероїд малий"
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -110,7 +110,7 @@
 - type: entity
   id: AsteroidSalvageMedium
   parent: BaseAsteroidDebris
-  name: Salvage Asteroid Medium
+  name: "Рятівний астероїд середній"
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -122,7 +122,7 @@
 - type: entity
   id: AsteroidSalvageLarge
   parent: BaseAsteroidDebris
-  name: Salvage Asteroid Large
+  name: "Рятівний астероїд великий"
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid
@@ -134,7 +134,7 @@
 - type: entity
   id: AsteroidSalvageHuge
   parent: BaseAsteroidDebris
-  name: Salvage Asteroid Huge
+  name: "Рятівний астероїд величезний"
   categories: [ HideSpawnMenu ]
   components:
     - type: MapGrid

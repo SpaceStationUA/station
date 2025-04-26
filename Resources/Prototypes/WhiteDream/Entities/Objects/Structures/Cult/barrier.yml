@@ -1,6 +1,6 @@
 ﻿- type: entity
-  name: cult barrier
-  description: Can be destroyed with ritual dagger.
+  name: "бар'єр культу"
+  description: "Можна знищити ритуальним кинджалом."
   id: BloodCultBarrier
   parent: BaseStructure
   components:
@@ -46,7 +46,7 @@
 - type: entity
   id: WallForceCult
   parent: WallForce
-  name: glowing wall
-  description: An unholy shield that blocks all attacks.
+  name: "стіна, що світиться"
+  description: "Нечистий щит, який блокує всі атаки."
   components:
   - type: Dispellable
