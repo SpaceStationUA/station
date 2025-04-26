@@ -163,7 +163,7 @@ public sealed partial class BlobCoreComponent : Component
     public FixedPoint2 SwapCoreCost = 200;
 
     [DataField]
-    public FixedPoint2 SwapChemCost = 75;
+    public FixedPoint2 SwapChemCost = 70;
 
     #endregion
 
