@@ -5,12 +5,19 @@
                Resizable="False"
                Title="HelloWorld!">
     <!-- x:Class="Content.Client._Pirate.ReactionChamber.UI.ReactionChamber" -->
-    <BoxContainer Orientation="Horizontal" MinSize="500 500">
-        <PanelContainer Margin="0, 100" SetHeight="10" HorizontalAlignment="Stretch" >
-            <PanelContainer.PanelOverride>
-            <gfx:StyleBoxFlat BackgroundColor="#858585"/>
-            </PanelContainer.PanelOverride>
-        </PanelContainer>
-        <Button MaxSize="100 40" ToggleMode="True" Text="Turn on/off"></Button>
+    <BoxContainer Orientation="Horizontal"
+                  MinSize="500 500"
+                  VerticalAlignment="Top">
+        <Button MaxSize="100 40"
+                ToggleMode="True"
+                Text="Увімкнути"
+                Name="ActiveButton"
+                ></Button>
+        <BoxContainer>
+            <Label Text="Бажана температура(Кельвіни): "></Label>
+            <FloatSpinBox Name="TempField" Orientation="Horizontal"  >
+                <Label Text="293.15"></Label>
+            </FloatSpinBox>
+        </BoxContainer>
     </BoxContainer>
 </DefaultWindow>

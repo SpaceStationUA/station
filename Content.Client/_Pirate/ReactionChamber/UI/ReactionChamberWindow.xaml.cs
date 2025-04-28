@@ -7,9 +7,31 @@ namespace Content.Client._Pirate.ReactionChamber.UI;
 [GenerateTypedNameReferences]
 public sealed partial class ReactionChamberWindow : DefaultWindow
 {
+
+    public bool Active;
+    public float Temp;
     public ReactionChamberWindow()
     {
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
     }
+    public void SetTemp(float temp)
+    {
+        Temp = temp;
+    }
+    public void SetActive(bool active)
+    {
+        Active = active;
+        ActiveButton.Pressed = active;
+
+        if (active)
+        {
+            ActiveButton.Text = "Вимкнути";
+        }
+        else
+        {
+            ActiveButton.Text = "Увімкнути";
+        }
+    }
+
 }
