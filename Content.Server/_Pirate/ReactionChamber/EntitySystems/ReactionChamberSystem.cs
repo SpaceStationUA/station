@@ -15,7 +15,7 @@ using Robust.Shared.Prototypes;
 namespace Content.Server._Pirate.ReactionChamber.EntitySystems;
 public sealed partial class ReactionChamberSystem : EntitySystem
 {
-    [Dependency] protected readonly IPrototypeManager PrototypeManager = default!;
+    [Dependency] readonly IPrototypeManager PrototypeManager = default!;
     [Dependency] UserInterfaceSystem _userInterfaceSystem = default!;
     [Dependency] ItemSlotsSystem _itemSlotsSystem = default!;
     [Dependency]
@@ -23,8 +23,8 @@ public sealed partial class ReactionChamberSystem : EntitySystem
     public override void Initialize()
     {
         SubscribeLocalEvent<ReactionChamberComponent, EntInsertedIntoContainerMessage>(OnItemInsert);
-        SubscribeLocalEvent<ReactionChamberComponent, ReactionChamberActiveChangeMessage>(onActiveChangeMessage);
-        SubscribeLocalEvent<ReactionChamberComponent, ReactionChamberTempChangeMessage>(onTempChangeMessage);
+        SubscribeLocalEvent<ReactionChamberComponent, ReactionChamberActiveChangeMessage>(OnActiveChangeMessage);
+        SubscribeLocalEvent<ReactionChamberComponent, ReactionChamberTempChangeMessage>(OnTempChangeMessage);
     }
     public override void Update(float frameTime)
     {
@@ -42,16 +42,21 @@ public sealed partial class ReactionChamberSystem : EntitySystem
                 foreach (var (_, soln) in _solutionContainerSystem.EnumerateSolutions(container.Owner)) // add temp to all solutions
                 {
                     var (_, solnComp) = soln;
-                    double deltaJ; // delta Juoles
-                    float C = solnComp.Solution.GetHeatCapacity(PrototypeManager); //pytoma teploemnist
+                    double deltaJ; // Juoles added to solution
+                    float C = solnComp.Solution.GetHeatCapacity(PrototypeManager); //pytoma teploemnist rechowyny (kurs fizyky 8 klass Chlibowska)
                     float solnTemp = solnComp.Solution.GetThermalEnergy(PrototypeManager) / C;
                     float deltaT = comp.Temp - solnTemp;
                     if (solnTemp != comp.Temp)
                     {
                         deltaJ = deltaT * C * frameTime * comp.BaseMultiplyer;
-                        Log.Info($"{deltaJ} = {deltaT} * {C} * {frameTime} * {comp.BaseMultiplyer}");
                         _solutionContainerSystem.AddThermalEnergy(soln, (float) deltaJ);
                         isAllTempRight = false;
+                        if (Math.Abs(deltaJ) <= 0.005)
+                        {
+                            _solutionContainerSystem.SetTemperature(soln, comp.Temp); // optymizacija included :)
+                            isAllTempRight = true;
+                            return;
+                        }
                     }
                     else
                     {
@@ -59,8 +64,6 @@ public sealed partial class ReactionChamberSystem : EntitySystem
                         return;
                     }
                 }
-
-            // comp.Active = false;
         }
     }
     void OnItemInsert<T>(Entity<ReactionChamberComponent> ent, ref T ev)
@@ -69,15 +72,13 @@ public sealed partial class ReactionChamberSystem : EntitySystem
         var beaker = _itemSlotsSystem.GetItemOrNull(ent, "beakerSlot");
         if (beaker is null)
             return;
-        // ent.Comp.Active = true;
     }
-    private void onActiveChangeMessage(Entity<ReactionChamberComponent> ent, ref ReactionChamberActiveChangeMessage args)
+    private void OnActiveChangeMessage(Entity<ReactionChamberComponent> ent, ref ReactionChamberActiveChangeMessage args)
     {
         ent.Comp.Active = args.Active;
     }
-    private void onTempChangeMessage(Entity<ReactionChamberComponent> ent, ref ReactionChamberTempChangeMessage args)
+    private void OnTempChangeMessage(Entity<ReactionChamberComponent> ent, ref ReactionChamberTempChangeMessage args)
     {
-        Log.Info($"Recived temp: {args.Temp}");
-        ent.Comp.Temp = args.Temp;
+        ent.Comp.Temp = float.Clamp(args.Temp, ent.Comp.MinTemp, ent.Comp.MaxTemp);
     }
 }

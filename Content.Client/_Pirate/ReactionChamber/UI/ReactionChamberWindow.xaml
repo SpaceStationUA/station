@@ -6,7 +6,7 @@
                Title="HelloWorld!">
     <!-- x:Class="Content.Client._Pirate.ReactionChamber.UI.ReactionChamber" -->
     <BoxContainer Orientation="Horizontal"
-                  MinSize="500 500"
+                  MinSize="720 500"
                   VerticalAlignment="Top">
         <Button MaxSize="100 40"
                 ToggleMode="True"
@@ -15,8 +15,8 @@
                 ></Button>
         <BoxContainer>
             <Label Text="Бажана температура(Кельвіни): "></Label>
-            <FloatSpinBox Name="TempField" Orientation="Horizontal"  >
-                <Label Text="293.15"></Label>
+            <FloatSpinBox Name="TempField" Orientation="Horizontal" MinWidth="200" MaxHeight="40" >
+
             </FloatSpinBox>
         </BoxContainer>
     </BoxContainer>

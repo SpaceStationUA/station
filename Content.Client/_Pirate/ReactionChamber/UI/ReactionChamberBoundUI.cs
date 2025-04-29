@@ -13,7 +13,7 @@ public sealed class ReactionChamberBoundUI : BoundUserInterface
     public ReactionChamberBoundUI(EntityUid owner, Enum uiKey) : base(owner, uiKey)
     {
         _window = new ReactionChamberWindow();
-        _window.FindControl<Button>("ActiveButton").OnPressed += _ => onActiveBtnPressed(_window.Active);
+        _window.FindControl<Button>("ActiveButton").OnPressed += _ => onActiveBtnPressed(!_window.Active);
         _window.FindControl<FloatSpinBox>("TempField").OnValueChanged += _ => onTempFieldEntered(_window.FindControl<FloatSpinBox>("TempField").Value);
     }
     protected override void Open()
@@ -40,11 +40,12 @@ public sealed class ReactionChamberBoundUI : BoundUserInterface
     }
     private void onActiveBtnPressed(bool active)
     {
-        _window.SetActive(!_window.Active);
+        _window.SetActive(active);
         SendMessage(new ReactionChamberActiveChangeMessage(active));
     }
     private void onTempFieldEntered(float temp)
     {
+        _window.SetTemp(temp);
         SendMessage(new ReactionChamberTempChangeMessage(temp));
     }
 }

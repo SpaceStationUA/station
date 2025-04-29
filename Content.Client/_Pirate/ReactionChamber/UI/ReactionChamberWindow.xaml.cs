@@ -14,6 +14,7 @@ public sealed partial class ReactionChamberWindow : DefaultWindow
     {
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
+        SetActive(false);
     }
     public void SetTemp(float temp)
     {
