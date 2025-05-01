@@ -6,7 +6,6 @@ using Content.Shared.Chemistry.Dispenser;
 using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.FixedPoint;
-using Content.Shared.Labels.Components;
 using Content.Shared.Nutrition.EntitySystems;
 using JetBrains.Annotations;
 using Robust.Server.Audio;
@@ -14,6 +13,7 @@ using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
+using Content.Shared.Labels.Components;
 
 namespace Content.Server.Chemistry.EntitySystems
 {
@@ -46,7 +46,7 @@ namespace Content.Server.Chemistry.EntitySystems
             SubscribeLocalEvent<ReagentDispenserComponent, ReagentDispenserDispenseReagentMessage>(OnDispenseReagentMessage);
             SubscribeLocalEvent<ReagentDispenserComponent, ReagentDispenserClearContainerSolutionMessage>(OnClearContainerSolutionMessage);
 
-            SubscribeLocalEvent<ReagentDispenserComponent, MapInitEvent>(OnMapInit, before: new[] { typeof(ItemSlotsSystem) });
+            SubscribeLocalEvent<ReagentDispenserComponent, MapInitEvent>(OnMapInit, before: new []{typeof(ItemSlotsSystem)});
         }
 
         private void SubscribeUpdateUiState<T>(Entity<ReagentDispenserComponent> ent, ref T ev)
@@ -141,7 +141,7 @@ namespace Content.Server.Chemistry.EntitySystems
                 _solutionTransferSystem.Transfer(reagentDispenser,
                         storedContainer.Value, src.Value,
                         outputContainer.Value, dst.Value,
-                        (int) reagentDispenser.Comp.DispenseAmount);
+                        (int)reagentDispenser.Comp.DispenseAmount);
             }
 
             UpdateUiState(reagentDispenser);
@@ -193,7 +193,7 @@ namespace Content.Server.Chemistry.EntitySystems
 
                 component.StorageSlotIds.Add(storageSlotId);
                 component.StorageSlots.Add(storageComponent);
-                component.StorageSlots[i].Name = "Storage Slot " + (i + 1);
+                component.StorageSlots[i].Name = "Storage Slot " + (i+1);
                 _itemSlotsSystem.AddItemSlot(uid, component.StorageSlotIds[i], component.StorageSlots[i]);
             }
 
