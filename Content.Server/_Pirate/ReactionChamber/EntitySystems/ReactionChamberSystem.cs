@@ -54,7 +54,7 @@ public sealed partial class ReactionChamberSystem : EntitySystem
                     float deltaT = comp.Temp - solnTemp;
                     if (solnTemp != comp.Temp)
                     {
-                        deltaJ = deltaT * C * frameTime * comp.BaseMultiplyer;
+                        deltaJ = deltaT * C * frameTime * comp.BaseMultiplier;
                         _solutionContainerSystem.AddThermalEnergy(soln, (float) deltaJ);
                         isAllTempRight = false;
                         if (Math.Abs(deltaJ) <= 0.005)
