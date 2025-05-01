@@ -28,6 +28,9 @@ public sealed partial class ReactionChamberWindow : DefaultWindow
         Sprite.SetEntity(null);
         if (state.Beaker is not null && state.BeakerInfo is not null)
         {
+
+            if (state.BeakerInfo.SpinBoxTemp is not null)
+                TempField.Value = state.BeakerInfo.SpinBoxTemp.Value.Float();
             Sprite.SetEntity(state.Beaker.Value);
 
             var beakerVolLabel = new Label();
@@ -37,7 +40,6 @@ public sealed partial class ReactionChamberWindow : DefaultWindow
             beakerVolLabel.Text = $"{state.BeakerInfo.Volume}/{state.BeakerInfo.MaxVolume}";
             beakerVolLabel.HorizontalAlignment = HAlignment.Center;
 
-
             ContainerInfo.AddChild(beakerNameLabel);
             ContainerInfo.AddChild(beakerVolLabel);
 
@@ -45,7 +47,6 @@ public sealed partial class ReactionChamberWindow : DefaultWindow
             {
                 foreach (var (reagetnt, quantity) in state.BeakerInfo.Reagents)
                 {
-                    var reagentQuantityContainer = new BoxContainer();
                     var reagentLabel = new Label();
                     var quantityLabel = new Label
                     {
@@ -65,8 +66,8 @@ public sealed partial class ReactionChamberWindow : DefaultWindow
                         quantityLabel,
                     }
                     });
-
                 }
+                TemperatureLabel.Text = $"{state.BeakerInfo.Temp}";
             }
         }
 

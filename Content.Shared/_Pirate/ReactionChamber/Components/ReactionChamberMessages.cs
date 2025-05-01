@@ -34,13 +34,16 @@ public sealed class BeakerInfo
     public FixedPoint2? Volume;
     public FixedPoint2? MaxVolume;
     public List<ReagentQuantity>? Reagents;
-
-    public BeakerInfo(string? name = null, FixedPoint2? volume = null, FixedPoint2? maxVolume = null, List<ReagentQuantity>? reagents = null)
+    public FixedPoint2? Temp;
+    public FixedPoint2? SpinBoxTemp;
+    public BeakerInfo(string? name = null, FixedPoint2? volume = null, FixedPoint2? maxVolume = null, List<ReagentQuantity>? reagents = null, FixedPoint2? temp = null, FixedPoint2? spinBoxTemp = null)
     {
         Name = name;
         MaxVolume = maxVolume;
         Volume = volume;
         Reagents = reagents;
+        Temp = temp;
+        SpinBoxTemp = spinBoxTemp;
     }
 }
 [Serializable]

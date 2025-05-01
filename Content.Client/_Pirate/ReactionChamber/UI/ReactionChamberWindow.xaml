@@ -38,7 +38,11 @@
             </BoxContainer>
             <PanelContainer HorizontalAlignment="Right" SetSize="560 260">
                 <PanelContainer.PanelOverride><gfx:StyleBoxFlat BackgroundColor="#1b1b1e" BorderColor="#404046" BorderThickness="1.5"></gfx:StyleBoxFlat></PanelContainer.PanelOverride>
-                <PanelContainer SetHeight="2" Margin="0 65 0 0" VerticalAlignment="Top">
+               <BoxContainer SetHeight="60" Orientation="Horizontal" VerticalAlignment="Top">
+                   <Label Margin="5 0 0 0" Text="Температура розчину(К): "></Label>
+                   <Label Name="TemperatureLabel"></Label>
+               </BoxContainer>
+                <PanelContainer SetHeight="2" Margin="0 60 0 0" VerticalAlignment="Top">
                     <PanelContainer.PanelOverride><gfx:StyleBoxFlat BackgroundColor="#1b1b1e" BorderColor="#404046" BorderThickness="1.5"></gfx:StyleBoxFlat></PanelContainer.PanelOverride>
                 </PanelContainer>
                 <ScrollContainer SetHeight="190" Margin="5 70 5 0">
