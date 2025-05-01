@@ -31,7 +31,8 @@ public sealed class ReactionChamberBoundUI : BoundUserInterface
     protected override void UpdateState(BoundUserInterfaceState state)
     {
         base.UpdateState(state);
-        // _window?.u
+        var castState = (ReactionChamberBoundUIState) state;
+        _window.UpdateState(castState);
     }
     protected override void Dispose(bool disposing)
     {
@@ -48,4 +49,5 @@ public sealed class ReactionChamberBoundUI : BoundUserInterface
         _window.SetTemp(temp);
         SendMessage(new ReactionChamberTempChangeMessage(temp));
     }
+
 }

@@ -3,21 +3,51 @@
                xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
                xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
                Resizable="False"
-               Title="HelloWorld!">
-    <!-- x:Class="Content.Client._Pirate.ReactionChamber.UI.ReactionChamber" -->
-    <BoxContainer Orientation="Horizontal"
-                  MinSize="720 500"
-                  VerticalAlignment="Top">
-        <Button MaxSize="100 40"
-                ToggleMode="True"
-                Text="Увімкнути"
-                Name="ActiveButton"
-                ></Button>
-        <BoxContainer>
-            <Label Text="Бажана температура(Кельвіни): "></Label>
-            <FloatSpinBox Name="TempField" Orientation="Horizontal" MinWidth="200" MaxHeight="40" >
 
+               Title="Камера Реакцій">
+    <BoxContainer Orientation="Vertical"
+                  MinSize="720 350"
+                  VerticalAlignment="Top"
+                  >
+        <PanelContainer>
+            <PanelContainer.PanelOverride><gfx:StyleBoxFlat BackgroundColor="#1b1b1e" BorderColor="#404046" BorderThickness="1.5"></gfx:StyleBoxFlat></PanelContainer.PanelOverride>
+            <BoxContainer
+                Margin="5"
+                Orientation="Vertical">
+            <BoxContainer>
+            <Label Text="Бажана температура(Кельвіни): "></Label>
+                <FloatSpinBox Name="TempField" Orientation="Horizontal" SetSize="200 35" Margin="10 0 0 0" >
             </FloatSpinBox>
+        </BoxContainer>
+
+            </BoxContainer>
+        <PanelContainer SetWidth="2" HorizontalAlignment="Center" Margin="420 0.5 0 0">
+            <PanelContainer.PanelOverride><gfx:StyleBoxFlat BackgroundColor="#404046" ></gfx:StyleBoxFlat></PanelContainer.PanelOverride>
+            <Button SetSize="120 35"
+                    ToggleMode="True"
+                    Text="Увімкнути"
+                    Name="ActiveButton"
+                    Margin="75 3 0 0"
+            ></Button>
+        </PanelContainer>
+        </PanelContainer>
+        <BoxContainer Margin="0 20 0 0" SetWidth="720">
+            <BoxContainer Orientation="Vertical" VerticalAlignment="Center">
+            <SpriteView Name="Sprite" SetSize="160 160" Scale="5 5" HorizontalAlignment="Left"></SpriteView>
+                <BoxContainer Name="ContainerInfo" Orientation="Vertical" HorizontalAlignment="Center"></BoxContainer>
+            </BoxContainer>
+            <PanelContainer HorizontalAlignment="Right" SetSize="560 260">
+                <PanelContainer.PanelOverride><gfx:StyleBoxFlat BackgroundColor="#1b1b1e" BorderColor="#404046" BorderThickness="1.5"></gfx:StyleBoxFlat></PanelContainer.PanelOverride>
+                <PanelContainer SetHeight="2" Margin="0 65 0 0" VerticalAlignment="Top">
+                    <PanelContainer.PanelOverride><gfx:StyleBoxFlat BackgroundColor="#1b1b1e" BorderColor="#404046" BorderThickness="1.5"></gfx:StyleBoxFlat></PanelContainer.PanelOverride>
+                </PanelContainer>
+                <ScrollContainer SetHeight="190" Margin="5 70 5 0">
+                    <BoxContainer Name="ReagentsContainer" Orientation="Vertical"  >
+                    </BoxContainer>
+
+                </ScrollContainer>
+
+            </PanelContainer>
         </BoxContainer>
     </BoxContainer>
 </DefaultWindow>

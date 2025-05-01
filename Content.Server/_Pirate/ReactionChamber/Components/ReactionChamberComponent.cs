@@ -7,5 +7,5 @@ public sealed partial class ReactionChamberComponent : Component
     [DataField] public float BaseMultiplyer = 0.5f;
     [DataField] public float MinTemp = 73.32f;
     [DataField]
-    public float MaxTemp = 742.15f;
+    public float MaxTemp = 1000.00f;
 }

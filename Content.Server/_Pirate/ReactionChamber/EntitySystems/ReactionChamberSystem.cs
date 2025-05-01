@@ -5,7 +5,9 @@ using Content.Shared._Pirate.ReactionChamber.Components;
 using Content.Shared.Chemistry.Components;
 using Content.Shared.Chemistry.Components.SolutionManager;
 using Content.Shared.Chemistry.EntitySystems;
+using Content.Shared.Chemistry.Reagent;
 using Content.Shared.Containers.ItemSlots;
+using Content.Shared.FixedPoint;
 using Content.Shared.Mobs;
 using MathNet.Numerics;
 using Robust.Server.GameObjects;
@@ -22,7 +24,9 @@ public sealed partial class ReactionChamberSystem : EntitySystem
     SharedSolutionContainerSystem _solutionContainerSystem = default!;
     public override void Initialize()
     {
-        SubscribeLocalEvent<ReactionChamberComponent, EntInsertedIntoContainerMessage>(OnItemInsert);
+        SubscribeLocalEvent<ReactionChamberComponent, SolutionChangedEvent>(UpdateUiState);
+        SubscribeLocalEvent<ReactionChamberComponent, EntInsertedIntoContainerMessage>(UpdateUiState);
+        SubscribeLocalEvent<ReactionChamberComponent, EntRemovedFromContainerMessage>(UpdateUiStateNull);
         SubscribeLocalEvent<ReactionChamberComponent, ReactionChamberActiveChangeMessage>(OnActiveChangeMessage);
         SubscribeLocalEvent<ReactionChamberComponent, ReactionChamberTempChangeMessage>(OnTempChangeMessage);
     }
@@ -66,13 +70,10 @@ public sealed partial class ReactionChamberSystem : EntitySystem
                 }
         }
     }
-    void OnItemInsert<T>(Entity<ReactionChamberComponent> ent, ref T ev)
-    {
-
-        var beaker = _itemSlotsSystem.GetItemOrNull(ent, "beakerSlot");
-        if (beaker is null)
-            return;
-    }
+    // void OnItemInsert<T>(Entity<ReactionChamberComponent> ent, ref T ev)
+    // {
+    //     UpdateUiState(ent, ref ev);
+    // }
     private void OnActiveChangeMessage(Entity<ReactionChamberComponent> ent, ref ReactionChamberActiveChangeMessage args)
     {
         ent.Comp.Active = args.Active;
@@ -80,5 +81,49 @@ public sealed partial class ReactionChamberSystem : EntitySystem
     private void OnTempChangeMessage(Entity<ReactionChamberComponent> ent, ref ReactionChamberTempChangeMessage args)
     {
         ent.Comp.Temp = float.Clamp(args.Temp, ent.Comp.MinTemp, ent.Comp.MaxTemp);
+    }
+    void UpdateUiStateNull<T>(Entity<ReactionChamberComponent> ent, ref T ev)
+    {
+        _userInterfaceSystem.SetUiState(ent.Owner, ReactionChamberUiKey.Key, new ReactionChamberBoundUIState());
+    }
+    void UpdateUiState<T>(Entity<ReactionChamberComponent> ent, ref T ev)
+    {
+        string? beakerName = null;
+        FixedPoint2? beakerVolume = null;
+        FixedPoint2? beakerMaxVolume = null;
+        List<ReagentQuantity>? reagents = null;
+        var beaker = _itemSlotsSystem.GetItemOrNull(ent, "beakerSlot");
+        // List<string>? solutions = new List<string>();
+        // List<FixedPoint2>? solutionVolumes = new List<FixedPoint2>();
+        if (beaker is { Valid: true })
+        {
+            if (_solutionContainerSystem.TryGetFitsInDispenser(beaker.Value, out _, out var solution))
+            {
+                beakerName = solution.Name;
+                beakerVolume = solution.Volume;
+                beakerMaxVolume = solution.MaxVolume;
+                reagents = solution.Contents;
+            }
+
+            // TryComp<SolutionContainerManagerComponent>(beaker, out var container);
+            // if (container is not null)
+            // {
+            //     foreach (var (_, soln) in _solutionContainerSystem.EnumerateSolutions(container.Owner))
+            //     {
+            //         if (soln.Comp.Solution.Name is not null)
+            //         {
+            //             Log.Info($"Adding {soln.Comp.Solution.Name} with volume {soln.Comp.Solution.Volume}");
+            //             solutions.Add(soln.Comp.Solution.Name);
+            //             solutionVolumes.Add(soln.Comp.Solution.Volume);
+            //         }
+            //         else
+            //             Log.Info($"solnName is null");
+            //     }
+            // }
+            // else
+            //     Log.Info($"container is null");
+
+            _userInterfaceSystem.SetUiState(ent.Owner, ReactionChamberUiKey.Key, new ReactionChamberBoundUIState(new NetEntity(beaker.Value.Id), new BeakerInfo(beakerName, beakerVolume, beakerMaxVolume, reagents)));
+        }
     }
 }
