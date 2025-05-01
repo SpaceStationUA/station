@@ -45,7 +45,7 @@ public sealed partial class ReactionChamberWindow : DefaultWindow
 
             if (state.BeakerInfo.Reagents is not null)
             {
-                foreach (var (reagetnt, quantity) in state.BeakerInfo.Reagents)
+                foreach (var (reagent, quantity) in state.BeakerInfo.Reagents)
                 {
                     var reagentLabel = new Label();
                     var quantityLabel = new Label
@@ -53,7 +53,7 @@ public sealed partial class ReactionChamberWindow : DefaultWindow
                         Text = Loc.GetString("reagent-dispenser-window-quantity-label-text", ("quantity", quantity)),
                         StyleClasses = { StyleNano.StyleClassLabelSecondaryColor },
                     };
-                    reagentLabel.Text = reagetnt.Prototype + ": ";
+                    reagentLabel.Text = reagent.Prototype + ": ";
 
                     // if (_prototypeManager.TryIndex(reagetnt.Prototype, out ReagentPrototype? p))
                     //     name = p.LocalizedName;
