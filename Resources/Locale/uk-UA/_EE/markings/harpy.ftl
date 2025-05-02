@@ -1,0 +1,12 @@
+marking-HarpyAsymagicalZetawing = Асимагічні Крила
+marking-HarpyColorableAsymagicalZetawing = Асимагічні Крила (Розфарбовувані)
+marking-HarpyDragobatZetawing = Крила Драгокажана
+marking-HarpyColorableDragobatZetawing = Крила Драгокажана (Розфарбовувані)
+marking-HarpyLimeZetawing = Лаймові Зетакрила
+marking-HarpyColorlessZetawing = Розфарбовувані Зетакрила
+marking-HarpyMacawZetawing = Крила Ари
+marking-HarpyMonocolorParrotZetawing = Крила Папуги (Одноколірні)
+marking-HarpyTricolorParrotZetawing = Крила Папуги (Триколірні)
+marking-HarpyQuintetZetawing = Крила Квінтету
+marking-HarpySmallZetawing = Малі Крила
+marking-HarpyDownwardZetawing = Крила, Спрямовані Вниз

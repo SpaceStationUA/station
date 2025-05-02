@@ -1,134 +1,221 @@
 ## CrimeAssist
 
-# General
+# --- General ---
 crime-assist-program-name = Crime Assist
 crime-assist-yes-button = Yes
 crime-assist-no-button = No
-crime-assist-crimetype-innocent = Innocent
-crime-assist-crimetype-misdemeanour = Misdemeanour
-crime-assist-crimetype-felony = Felony
-crime-assist-crimetype-capital = Capital
-crime-assist-crime-innocent = No crime was committed
-crime-assist-mainmenu = Welcome to Crime Assist!
-crime-assist-sophont-explanation = A sophont is described as any entity with the capacity to display the following attributes:
-                                   • [bold]Sapience[/bold]: the entity possesses basic logic and problem-solving skills, or at a minimum some level of significant intelligence.
-                                   • [bold]Sentience[/bold]: the entity has the capacity to process an emotion or lack thereof, or at a minimum the ability to recognise its own pain.
-                                   • [bold]Self-awareness[/bold]: the entity is capable of altering its behaviour in a reasonable fashion as a result of stimuli, or at a minimum is capable of recognising its own sapience and sentience.
-                                   Any sophont is considered a legal person, regardless of origin or prior cognitive status. Much like any other intelligent organic, a sophont may press charges against crew and be tried for crimes.
+crime-assist-back-button = Back
 
-# Crimes
-crime-assist-crime-animalcruelty = Code 101: Animal Cruelty
-crime-assist-crime-theft = Code 102: Theft
-crime-assist-crime-trespass = Code 110: Trespass
-crime-assist-crime-vandalism = Code 111: Vandalism
-crime-assist-crime-hooliganism = Code 112: Hooliganism
-crime-assist-crime-manslaughter = Code 201: Manslaughter
-crime-assist-crime-grandtheft = Code 202: Grand Theft
-crime-assist-crime-blackmarketeering = Code 203: Black Marketeering
-crime-assist-crime-sabotage = Code 204: Sabotage
-crime-assist-crime-mindbreaking = Code 205: Mindbreaking
-crime-assist-crime-assault = Code 206: Assault
-crime-assist-crime-abuseofpower = Code 207: Abuse of Power
-crime-assist-crime-possession = Code 208: Possession
-crime-assist-crime-endangerment = Code 209: Endangerment
-crime-assist-crime-breakingandentering = Code 210: Breaking and Entering
-crime-assist-crime-rioting = Code 211: Rioting
-crime-assist-crime-contemptofcourt = Code 212: Contempt of Court
-crime-assist-crime-perjuryfalsereport = Code 213: Perjury or False Report
-crime-assist-crime-obstructionofjustice = Code 214: Obstruction of Justice
-crime-assist-crime-murder = Code 301: Murder
-crime-assist-crime-terrorism = Code 303: Terrorism
-crime-assist-crime-grandsabotage = Code 304: Grand Sabotage
-crime-assist-crime-decorporealisation = Code 305: Decorporealisation
-crime-assist-crime-kidnapping = Code 309: Kidnapping
-crime-assist-crime-sedition = Code 311: Sedition
-crime-assist-crime-sexualharassment = Code 314: Sexual Harassment
+# --- Severity Levels ---
+crime-assist-severity-innocent = Innocent
+crime-assist-severity-light = Minor Offences
+crime-assist-severity-medium = Medium Offences
+crime-assist-severity-heavy = Major Offences
+crime-assist-severity-veryheavy = Severe Offences
+crime-assist-severity-critical = Critical Offences
 
-# Questions
-crime-assist-question-isitterrorism = Did the suspect hold hostages, cause many deaths or major destruction to force compliance from the crew?
-crime-assist-question-wassomeoneattacked = Was an entity attacked?
-crime-assist-question-wasitsophont = Was the victim in question a sophont?
-crime-assist-question-didvictimdie = Did the victim die as a result to the attack?
-crime-assist-question-isvictimremovedfrombody = Is the victim alive, but intentionally and permanently removed from the body?
-crime-assist-question-wasdeathintentional = Did the suspect attack the victim with intent to kill?
-crime-assist-question-forcedmindbreakertoxin = Was the victim forced to take Mindbreaker Toxin?
-crime-assist-question-hadillicititem = Did the suspect have an illicit or controlled item, substance or entity?
-crime-assist-question-wasitaperson = Did the suspect hold another sophont against its will?
-crime-assist-question-wassuspectselling = Was the suspect selling or distributing the illicit items?
-crime-assist-question-wassuspectseentaking = Can it be proven that the suspect took the item knowing that it was illegal for the suspect to possess the item?
-crime-assist-question-isitemextremelydangerous = Is the item in question dangerous to other sophonts or the station as a whole?
-crime-assist-question-wassuspectinarestrictedlocation = Was the suspect in a restricted location, or anywhere the suspect did not have legal access to?
-crime-assist-question-wasentrancelocked = Did the suspect force through a locked access point to get to the location?
-crime-assist-question-didsuspectbreaksomething = Did the suspect break something?
-crime-assist-question-weretheremanysuspects = Were there many suspects in a group causing a disturbance?
-crime-assist-question-wasdamagesmall = Was the damage minor, or easily undone?
-crime-assist-question-wasdestroyeditemimportanttostation = Was the damaged or destroyed item important to the functioning of the station?
-crime-assist-question-islargepartofstationdestroyed = Was a large part of the station destroyed or made uninhabitable?
-crime-assist-question-wascrimesexualinnature = Was the crime sexual in nature?
-crime-assist-question-wassuspectanuisance = Was the suspect being a nuisance to other sophonts?
-crime-assist-question-falselyreportingtosecurity = Has the suspect made a report, in person or through radio channels, to security that was proven to be intentionally false?
-crime-assist-question-happenincourt = Was the suspect a nuisance in court?
-crime-assist-question-duringactiveinvestigation = Was the suspect a nuisance during an active investigation, and hindered the investigation as a result?
-crime-assist-question-tocommandstaff = Did the suspect overthrow or compromise a lawfully established Chain of Command, or attempt to do so?
-crime-assist-question-wasitcommanditself = Was a command staff or department head abusing authority over another sophont?
+# --- Start & Category Questions ---
+crime-assist-q-start = The incident under review involves...
+crime-assist-q-category-person = ...harm to a person?
+crime-assist-q-category-property = ...damage to property/station?
+crime-assist-q-category-theft = ...theft?
+crime-assist-q-category-possession = ...illegal possession of items?
+crime-assist-q-category-authority = ...disruption of order/authority?
 
-# Crime details
-crime-assist-crimedetail-innocent = Crime could not be determined. Use your best judgement to resolve the situation.
-crime-assist-crimedetail-animalcruelty = To inflict unnecessary suffering on a sapient being with malicious intent.
-crime-assist-crimedetail-theft = To unlawfully take property or items without consent.
-crime-assist-crimedetail-trespass = To enter into an area where one is not authorised nor invited.
-crime-assist-crimedetail-vandalism = To deface or superficially damage public property, or property belonging to another person.
-crime-assist-crimedetail-hooliganism = To intentionally and maliciously engage in disruptive conduct, where one refuses to cease.
-crime-assist-crimedetail-manslaughter = To effect violence upon a sophont, resulting in their death, without the apparent intent to kill them.
-crime-assist-crimedetail-grandtheft = To unlawfully take highly restricted, dangerous, valuable, or highly sensitive property or items without consent.
-crime-assist-crimedetail-blackmarketeering = To sell, distribute, or otherwise circulate restricted items or substances to unauthorised sophonts or entities.
-crime-assist-crimedetail-sabotage = To engage in malicious actions that directly or indirectly hinder the operation of a vessel or its part, modify and/or damage technology one is not authorised to access, or endanger multiple sophonts.
-crime-assist-crimedetail-mindbreaking = To unlawfully and maliciously rid a psionic sophont of their powers.
-crime-assist-crimedetail-assault = To cause physical harm or to effect unwanted physical contact on a sophont, without the apparent intent to kill them, or to threaten such actions with both capability and intent to do so.
-crime-assist-crimedetail-abuseofpower = To intentionally misuse or wrongfully exercise one’s own authority, influence, or control, resulting in harm, unjust treatment, or demonstrable loss to a separate party due to violation of ethical and professional standards.
-crime-assist-crimedetail-possession = To be in unauthorised possession of restricted items or items of particular danger.
-crime-assist-crimedetail-endangerment = To recklessly abandon obligations involving the continued wellbeing and/or protection of life and property, through malpractice, action, or inaction.
-crime-assist-crimedetail-breakingandentering = To break and enter into a high security area where one is not authorised nor invited, with intent to commit a crime within.
-crime-assist-crimedetail-rioting = To partake in an unauthorised riotous, tumultuous, and disruptive public assembly that refuses to disperse after warning.
-crime-assist-crimedetail-contemptofcourt = To conduct oneself disruptively and disrespectfully before the court.
-crime-assist-crimedetail-perjuryfalsereport = To wilfully and maliciously tell an untruth either in court or in the process of making an actionable report to law enforcement.
-crime-assist-crimedetail-obstructionofjustice = To wilfully disobey, interfere with, or refuse a decree of the court, warrant, or arrest.
-crime-assist-crimedetail-murder = To kill a sophont with malicious intent and premeditation.
-crime-assist-crimedetail-terrorism = To commit an act with the intent to cause injury or death, or to take hostages, in order to provoke a state of terror in, intimidate, or compel a group of sophonts to do or to abstain from doing any act.
-crime-assist-crimedetail-grandsabotage = To engage in malicious actions that directly or indirectly make uninhabitable or inoperable a vessel or its part, or irreversibly modify and/or damage technology one is not authorised to access, causing severe bodily harm or death to multiple sophonts.
-crime-assist-crimedetail-decorporealisation = To unlawfully, maliciously, and permanently strip a sophont’s mind from their body.
-crime-assist-crimedetail-kidnapping = To unlawfully confine or restrict the free movement of a sophont against their will.
-crime-assist-crimedetail-sedition = To act to overthrow a lawfully established Chain of Command or governing body without lawful or legitimate cause.
-crime-assist-crimedetail-sexualharassment = To sexually harass, attempt to coerce into sexual relations, or effect unwanted sexual contact with an unwilling sophont.
+# --- Harm Person Questions ---
+crime-assist-q-harmperson-death = Did the incident result in death?
+crime-assist-q-death-intentional = Was there intent to kill (malice, premeditation)?
+crime-assist-q-death-attempt = Was it an attempted murder that failed (e.g., use of lethal weapon without justification)?
+crime-assist-q-death-grossnegligence = Did the death occur due to gross negligence (blatant disregard for safety leading to severe consequences)?
+crime-assist-q-death-assaultresult = Did the death occur as a result of an assault (even if intent to kill is not proven)?
+crime-assist-q-death-assaultvictim = Was the victim of the assault resulting in death an official (Nanotrasen contract holder)?
+crime-assist-q-death-simplenegligence = Did the death occur due to simple negligence (negligence that halted work, but without gross disregard)?
+crime-assist-q-harmperson-kidnapping = Was a person unlawfully held under duress / against their will?
+crime-assist-q-kidnap-victimtype = Was the victim of kidnapping an official (Nanotrasen contract holder)?
+crime-assist-q-harmperson-assault = Was it an assault (physical harm, unwanted contact, excessive force without intent to kill)?
+crime-assist-q-assault-victimtype = Was the victim of the assault an official (Nanotrasen contract holder)?
+crime-assist-q-harmperson-harassment = Was it harassment (intimidation, threats, verbal abuse, lewd acts)?
+crime-assist-q-harmperson-brawl = Was it a brawl (minor physical force, <4 hits, pushing, stunning)?
 
-# Punishments
-crime-assist-crimepunishment-innocent = No punishment may be necessary
-crime-assist-crimepunishment-animalcruelty = Punishment: 3 minutes
-crime-assist-crimepunishment-theft = Punishment: 2 minutes
-crime-assist-crimepunishment-trespass = Punishment: 2 minutes
-crime-assist-crimepunishment-vandalism = Punishment: 2 minutes
-crime-assist-crimepunishment-hooliganism = Punishment: As necessary
-crime-assist-crimepunishment-manslaughter = Punishment: 8 minutes
-crime-assist-crimepunishment-grandtheft = Punishment: 8 minutes
-crime-assist-crimepunishment-blackmarketeering = Punishment: 6 minutes
-crime-assist-crimepunishment-sabotage = Punishment: 6 minutes
-crime-assist-crimepunishment-mindbreaking = Punishment: 5 minutes
-crime-assist-crimepunishment-assault = Punishment: 5 minutes
-crime-assist-crimepunishment-abuseofpower = Punishment: 5 minutes
-crime-assist-crimepunishment-possession = Punishment: Up to 5 minutes
-crime-assist-crimepunishment-endangerment = Punishment: 4 minutes
-crime-assist-crimepunishment-breakingandentering = Punishment: 4 minutes
-crime-assist-crimepunishment-rioting = Punishment: 4 minutes
-crime-assist-crimepunishment-contemptofcourt = Punishment: 4 minutes
-crime-assist-crimepunishment-perjuryfalsereport = Punishment: 3 minutes
-crime-assist-crimepunishment-obstructionofjustice = Punishment: 2 minutes
-crime-assist-crimepunishment-murder = Punishment: Capital
-crime-assist-crimepunishment-terrorism = Punishment: Capital
-crime-assist-crimepunishment-grandsabotage = Punishment: Capital
-crime-assist-crimepunishment-decorporealisation = Punishment: Capital
-crime-assist-crimepunishment-kidnapping = Punishment: Capital
-crime-assist-crimepunishment-sedition = Punishment: Capital
-crime-assist-crimepunishment-sexualharassment = Punishment: Capital
+# --- Harm Property Questions ---
+crime-assist-q-property-intent = Were the actions damaging property/station malicious (intentional sabotage/terrorism)?
+crime-assist-q-property-terrorism = Was the goal mass destruction, intimidation, or destabilization for political/ideological reasons?
+crime-assist-q-property-sabotagescale = Was the intentional sabotage major (serious threat to station/crew, releasing viruses, explosion, arson, AI destruction)?
+crime-assist-q-property-creatingdanger = Did unintentional actions create danger for the crew/station (accidental plasma leak, slip hazard)?
+crime-assist-q-property-vandalism = Was it minor intentional damage to station or property (not graffiti)?
+crime-assist-q-property-equipmisuse = Was it misuse of equipment (using others' equipment or not for its intended purpose)?
+
+# --- Theft Questions ---
+# NOTE: These questions imply a linear check due to UI limits. Ideally use radio buttons/dropdown.
+crime-assist-q-theft-itemtype-strategic-transport = Was a strategic transport vehicle stolen (Cargo/Sec/CC/ERT shuttle)?
+crime-assist-q-theft-itemtype-nuclear-docs = Was the Nuclear Authentication Disk or classified documentation/blueprints stolen?
+crime-assist-q-theft-itemtype-other-transport = Was another space vehicle stolen (mining, research)?
+crime-assist-q-theft-itemtype-high-value = Were highly valuable/confidential items stolen (>1000cr, Captain/HoP ID, mechs, consoles)?
+crime-assist-q-theft-itemtype-restricted = Were restricted/dangerous/valuable items stolen (weapons, safes, spacesuits, 251-1000cr)?
+crime-assist-q-theft-itemtype-robbery = Was it robbery (theft directly from a person, <250cr)?
+crime-assist-q-theft-itemtype-minor = Was it minor theft (common items, from general areas, <250cr)?
+
+# --- Possession Questions ---
+# NOTE: These questions imply a linear check due to UI limits. Ideally use radio buttons/dropdown.
+crime-assist-q-possession-itemtype-contraband-s = Were the items Class S contraband?
+crime-assist-q-possession-itemtype-contraband-a = Were the items Class A contraband?
+crime-assist-q-possession-itemtype-contraband-c = Were the items Class C contraband?
+crime-assist-q-possession-itemtype-weapon = Was it combat weaponry/ammunition?
+crime-assist-q-possession-distrib-wpn = Was there distribution of combat weaponry/ammunition?
+crime-assist-q-possession-itemtype-pyrotox = Was it pyrotechnics/toxins (C4, explosives, Lexorin, etc.)?
+crime-assist-q-possession-distrib-tox = Was there distribution of pyrotechnics/toxins?
+crime-assist-q-possession-itemtype-coldweapon = Was it a cold weapon not used for work?
+crime-assist-q-possession-itemtype-drug = Was it recreational narcotics?
+crime-assist-q-possession-distrib-drug = Was there distribution of recreational narcotics?
+crime-assist-q-possession-itemtype-selfdef = Was it self-defense equipment used outside official duties?
+crime-assist-q-possession-itemtype-confiscated = Was it confiscated items (evidence) used improperly?
+
+# --- Authority/Order Questions ---
+crime-assist-q-authority-mutiny = Were the actions aimed at overthrowing/undermining command without lawful cause?
+crime-assist-q-authority-trespass = Was it trespassing into an area without proper access?
+# NOTE: These questions imply a linear check due to UI limits. Ideally use radio buttons/dropdown.
+crime-assist-q-authority-trespasslevel-secured = Was the area secured (Security, Command, EVA, Engineering, Atmos, Toxins)?
+crime-assist-q-authority-trespasslevel-brokeninto = Was entry gained by breaking in (to any area)?
+crime-assist-q-authority-trespasslevel-general = Was it trespassing into a general access area without authorization?
+crime-assist-q-authority-riot = Was it participation in an unauthorized riot/disturbance that refused to disperse?
+crime-assist-q-authority-hooliganism = Was it hooliganism (graffiti, disruptive behavior, littering flyers)?
+
+# --- Crime Titles (Art. XXX Name) ---
+crime-assist-title-100 = Art. 100 Vandalism
+crime-assist-title-102 = Art. 102 Brawling
+crime-assist-title-103 = Art. 103 Possession of Narcotics
+crime-assist-title-104 = Art. 104 Possession of Self-Defense Equipment
+crime-assist-title-105 = Art. 105 Hooliganism
+crime-assist-title-106 = Art. 106 Equipment Misuse
+crime-assist-title-107 = Art. 107 Petty Theft
+crime-assist-title-108 = Art. 108 Trespassing
+crime-assist-title-200 = Art. 200 Creating Workplace Hazard
+crime-assist-title-201 = Art. 201 Harassment
+crime-assist-title-202 = Art. 202 Assault
+crime-assist-title-203 = Art. 203 Distribution of Narcotics
+crime-assist-title-204 = Art. 204 Possession of Cold Weapons
+crime-assist-title-205 = Art. 205 Negligence
+crime-assist-title-206 = Art. 206 Misuse of Confiscated Items
+crime-assist-title-207 = Art. 207 Robbery
+crime-assist-title-208 = Art. 208 Breaking and Entering
+crime-assist-title-300 = Art. 300 Sabotage
+crime-assist-title-301 = Art. 301 Kidnapping
+crime-assist-title-302 = Art. 302 Assaulting an Official
+crime-assist-title-303 = Art. 303 Possession of Pyrotechnics/Toxins
+crime-assist-title-304 = Art. 304 Possession of Combat Weaponry/Ammunition
+crime-assist-title-305 = Art. 305 Rioting
+crime-assist-title-306 = Art. 306 Possession of Class C Contraband
+crime-assist-title-307 = Art. 307 Theft
+crime-assist-title-308 = Art. 308 Trespassing in Secured Area
+crime-assist-title-400 = Art. 400 Major Sabotage
+crime-assist-title-401 = Art. 401 Kidnapping an Official
+crime-assist-title-402 = Art. 402 Attempted Murder
+crime-assist-title-403 = Art. 403 Trafficking Pyrotechnics/Toxins
+crime-assist-title-404 = Art. 404 Arms Trafficking
+crime-assist-title-405 = Art. 405 Gross Negligence
+crime-assist-title-406 = Art. 406 Possession of Class A Contraband
+crime-assist-title-407 = Art. 407 Grand Theft
+crime-assist-title-408 = Art. 408 Hijacking Space Vehicle
+crime-assist-title-500 = Art. 500 Terrorism
+crime-assist-title-502 = Art. 502 Murder
+crime-assist-title-505 = Art. 505 Mutiny
+crime-assist-title-506 = Art. 506 Possession of Class S Contraband
+crime-assist-title-507 = Art. 507 Theft of Classified Documents/Nuclear Equipment
+crime-assist-title-508 = Art. 508 Hijacking Strategic Space Vehicle
+crime-assist-title-innocent = No Crime Determined
+crime-assist-title-error = Classification Error
+
+# --- Crime Descriptions ---
+crime-assist-desc-100 = Intentional minor damage to station or property (not graffiti).
+crime-assist-desc-102 = Minor physical force without intent for serious harm (>3 disarm attempts, pushing, <4 hits, stunning).
+crime-assist-desc-103 = Possession of recreational narcotics (Space Drugs, Ephedrine, THC, etc.).
+crime-assist-desc-104 = Use of security/non-lethal equipment (flashes, batons, tasers) outside official duties.
+crime-assist-desc-105 = Graffiti, inappropriate behavior, littering flyers (without incitement to mutiny).
+crime-assist-desc-106 = Use of equipment not belonging to one's department/role, or not for its intended purpose.
+crime-assist-desc-107 = Taking items from areas without access, or items belonging to others/station. Theft of credits up to 250cr.
+crime-assist-desc-108 = Being in an area without authorized access (general areas).
+crime-assist-desc-200 = Careless actions creating danger for crew/station (without malicious intent). E.g., accidental plasma leak, slip hazard.
+crime-assist-desc-201 = Intimidation, threats, verbal abuse. Lewd gestures/actions towards a person. Unwanted touching.
+crime-assist-desc-202 = Application of excessive physical force without clear intent to kill. Causing serious but non-critical harm. Forcible injection of toxins/narcotics.
+crime-assist-desc-202-lethal = Assault (Art. 202) that unintentionally resulted in the victim's death.
+crime-assist-desc-203 = Sale/transfer of recreational narcotics.
+crime-assist-desc-204 = Possession of a dangerous item (saws, spears, axes) that is not part of one's job.
+crime-assist-desc-205 = Negligence that did not affect the crew but halted work for a minor period. May include accidental death.
+crime-assist-desc-206 = Use of confiscated items (evidence) not for their intended purpose.
+crime-assist-desc-207 = Theft of items directly from a person. Theft of credits up to 250cr. Return stolen goods.
+crime-assist-desc-208 = Breaking into a department by breaching a gateway/wall.
+crime-assist-desc-300 = Malicious actions hindering the operation of crew/station (releasing N2O, welding doors, cutting power, barricades).
+crime-assist-desc-301 = Holding a crew member under duress / against their will (not an official).
+crime-assist-desc-302 = Assaulting a person with a Nanotrasen contract (not a passenger).
+crime-assist-desc-302-lethal = Assaulting an official (Art. 302) that unintentionally resulted in the victim's death.
+crime-assist-desc-303 = Possession: C4, explosives, Amatoxin, Lexorin, Toxin, Fentanyl, LSD, Unstable Mutagen.
+crime-assist-desc-304 = Unauthorized possession of kinetic/laser weapons or ammunition (non-training).
+crime-assist-desc-305 = Participation in an unauthorized riot/disturbance that refuses to disperse.
+crime-assist-desc-306 = Possession of Class C contraband items.
+crime-assist-desc-307 = Theft of restricted/dangerous/valuable items. Theft of credits 251-1000cr. (Weapons, safes, spacesuits). Breaking in = theft.
+crime-assist-desc-308 = Being in a restricted area (Security, Command posts, EVA, Engineering, Atmos, Toxins) without permission.
+crime-assist-desc-400 = Malicious destructive actions seriously endangering crew/station (releasing viruses, explosion, arson, AI destruction, multiple hull breaches).
+crime-assist-desc-401 = Kidnapping a person with a Nanotrasen contract (not a passenger).
+crime-assist-desc-402 = Attempted murder that failed. Application of excessive physical force with clear intent to kill (use of lethal weapons).
+crime-assist-desc-403 = Distribution: C4, explosives, Amatoxin, Lexorin, Toxin, Fentanyl, LSD, Unstable Mutagen.
+crime-assist-desc-404 = Distribution of kinetic/laser weapons or ammunition.
+crime-assist-desc-405 = Negligence leading to severe consequences (injury/death of crew, department shutdown >20 min).
+crime-assist-desc-406 = Possession of Class A contraband items.
+crime-assist-desc-407 = Theft of high-value/confidential items. Theft of credits >1000cr. (Tech, docs, Captain/HoP ID, mechs, consoles).
+crime-assist-desc-408 = Hijacking of mining, research, or other non-strategic shuttles.
+crime-assist-desc-500 = Actions aimed at mass destruction, intimidation, destabilization for political/ideological purposes (nuclear explosion, bio-attack).
+crime-assist-desc-502 = Intentional killing of a crew member (malice, premeditation). Unauthorized execution.
+crime-assist-desc-505 = Actions (individual/group) to overthrow/undermine command without lawful cause.
+crime-assist-desc-506 = Possession of highest-class contraband (Class S). Automatically classifies as Enemy of the Corporation.
+crime-assist-desc-507 = Theft of the Nuclear Authentication Disk, classified research, blueprints, etc.
+crime-assist-desc-508 = Hijacking: Cargo shuttle, Security shuttles, CC shuttles, ERT shuttles.
+crime-assist-desc-innocent = Actions do not fall under any article of Space Law.
+crime-assist-desc-error = Could not definitively classify the crime based on provided answers. Requires further investigation and decision by an authorized official.
+
+# --- Crime Punishments ---
+crime-assist-punish-100 = Punishment: 5 min / 100 cr + restitution
+crime-assist-punish-102 = Punishment: 4 min / 200 cr
+crime-assist-punish-103 = Punishment: 3 min + confiscation / 250 cr + confiscation
+crime-assist-punish-104 = Punishment: 5 min + confiscation / 300 cr + confiscation
+crime-assist-punish-105 = Punishment: 3 min / 200 cr
+crime-assist-punish-106 = Punishment: 4 min / 200 cr
+crime-assist-punish-107 = Punishment: 5 min + return / 250 cr + return
+crime-assist-punish-108 = Punishment: Warning / 100 cr
+crime-assist-punish-200 = Punishment: 7 min / 350 cr
+crime-assist-punish-201 = Punishment: 10 min
+crime-assist-punish-202 = Punishment: 10 min
+crime-assist-punish-203 = Punishment: 8 min / 500 cr + confiscation
+crime-assist-punish-204 = Punishment: 7 min + confiscation / 400 cr + confiscation
+crime-assist-punish-205 = Punishment: 10 min
+crime-assist-punish-206 = Punishment: 8 min / 500 cr + confiscation
+crime-assist-punish-207 = Punishment: 10 min + return
+crime-assist-punish-208 = Punishment: 7 min / 400 cr
+crime-assist-punish-300 = Punishment: 13 min
+crime-assist-punish-301 = Punishment: 15 min
+crime-assist-punish-302 = Punishment: 15 min
+crime-assist-punish-303 = Punishment: 11 min + confiscation / 750 cr + confiscation
+crime-assist-punish-304 = Punishment: 12 min + confiscation / 1200 cr + confiscation
+crime-assist-punish-305 = Punishment: 15 min
+crime-assist-punish-306 = Punishment: 15 min + confiscation / 1500 cr + confiscation
+crime-assist-punish-307 = Punishment: 15 min + return
+crime-assist-punish-308 = Punishment: 14 min
+crime-assist-punish-400 = Punishment: 20 min
+crime-assist-punish-401 = Punishment: 20 min
+crime-assist-punish-402 = Punishment: 20 min
+crime-assist-punish-403 = Punishment: 18 min + equipment confiscation
+crime-assist-punish-404 = Punishment: 20 min + equipment confiscation
+crime-assist-punish-405 = Punishment: 20 min
+crime-assist-punish-406 = Punishment: 16 min / 1700 cr + confiscation
+crime-assist-punish-407 = Punishment: 20 min + return
+crime-assist-punish-408 = Punishment: 20 min
+crime-assist-punish-500 = Punishment: 30 min / Permanent / Execution (at Magistrate/Captain's discretion)
+crime-assist-punish-502 = Punishment: Permanent / Execution (at Magistrate/Captain's discretion)
+crime-assist-punish-505 = Punishment: Permanent / Execution (at Magistrate/Captain's discretion)
+crime-assist-punish-506 = Punishment: Permanent (Enemy of the Corporation)
+crime-assist-punish-507 = Punishment: Permanent / Execution (at Magistrate/Captain's discretion)
+crime-assist-punish-508 = Punishment: 30 min
+crime-assist-punish-innocent = No punishment necessary.
+crime-assist-punish-error = Requires decision by an authorized official.
 
 ## MailMetrics
 

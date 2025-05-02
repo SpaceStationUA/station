@@ -27,11 +27,10 @@ public sealed partial class CrimeAssistUiFragment : BoxContainer
 
         _pages = new List<CrimeAssistPage>(_prototypeManager.EnumeratePrototypes<CrimeAssistPage>());
 
-        _currentPage = FindPageById("mainmenu");
+        _currentPage = FindPageById("crime-assist-q-start");
         UpdateUI(_currentPage);
 
-        StartButton.OnPressed += _ => UpdateUI(FindPageById(FindPageById("mainmenu").OnStart!));
-        HomeButton.OnPressed += _ => UpdateUI(FindPageById("mainmenu"));
+        HomeButton.OnPressed += _ => UpdateUI(FindPageById("crime-assist-q-start"));
         YesButton.OnPressed += _ => AdvanceState(_currentPage!, true);
         NoButton.OnPressed += _ => AdvanceState(_currentPage!, false);
     }
@@ -74,10 +73,12 @@ public sealed partial class CrimeAssistUiFragment : BoxContainer
         {
             string color = page.LocKeySeverity! switch
             {
-                "crime-assist-crimetype-innocent" => "#39a300",
-                "crime-assist-crimetype-misdemeanour" => "#7b7b30",
-                "crime-assist-crimetype-felony" => "#7b5430",
-                "crime-assist-crimetype-capital" => "#7b2e30",
+                "crime-assist-severity-innocent" => "#39a300",
+                "crime-assist-severity-light" => "#cccc00",
+                "crime-assist-severity-medium" => "#ff9900",
+                "crime-assist-severity-heavy" => "#ff3300",
+                "crime-assist-severity-veryheavy" => "#cc0000",
+                "crime-assist-severity-critical" => "#8b0000",
                 _ => "#ff00ff"
             };
 

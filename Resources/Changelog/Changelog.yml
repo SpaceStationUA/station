@@ -14214,3 +14214,150 @@ Entries:
   id: 7175
   time: '2025-04-19T01:21:53.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2263
+- author: Orion-416
+  changes:
+    - type: Fix
+      message: Виправлено проблему, через яку бойові магнітні чоботи спричиняли помилку тесту.
+  id: 7176
+  time: '2025-04-23T02:56:54.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2301
+- author: dootythefrooty
+  changes:
+    - type: Fix
+      message: Сервер моніторингу екіпажу тепер працює на Anchor, Asterisk, Core, Hive, Lambda та Pebble на початку раунду.
+  id: 7177
+  time: '2025-04-24T02:26:36.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2302
+- author: Timfa2112
+  changes:
+    - type: Remove
+      message: Вилучено можливість бути антагоністом для Корпоративного зв'язкового.
+  id: 7178
+  time: '2025-04-24T02:27:36.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2299
+- author: LaryNevesPR
+  changes:
+    - type: Fix
+      message: Павукам набридло дружити, і вони знову почали кусатися.
+  id: 7179
+  time: '2025-04-24T03:46:28.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2303
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Виправлено розсинхронізацію тактичних ременів, нашийників з дзвіночками та скафандрів із рухом персонажа.
+    - type: Tweak
+      message: Зроблено різні великі покращення продуктивності.
+  id: 7180
+  time: '2025-04-24T04:28:17.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2298
+- author: DEATHB4DEFEAT
+  changes:
+    - type: Tweak
+      message: Покращено читабельність багатьох частин редактора персонажів за допомогою кольорових рядків.
+    - type: Tweak
+      message: Прибрано деякі дрібниці в редакторі персонажів, зокрема видалено крихітний відступ, який зменшував кожну вкладку.
+    - type: Fix
+      message: Виправлено стиль вкладки "Фон" редактора персонажів, який був спотворений через неправильно розміщені елементи інтерфейсу.
+    - type: Tweak
+      message: Зроблено так, щоб вкладка "Роботи" використовувала правильні заголовки для назв відділів.
+    - type: Tweak
+      message: Покращено редактор позначок.
+    - type: Tweak
+      message: Покращено макет редактора персонажів.
+    - type: Tweak
+      message: Покращено назви деяких кнопок у редакторі персонажів.
+    - type: Add
+      message: Редактор персонажів тепер одночасно показує попередній перегляд вашого персонажа з усіх 4 напрямків.
+  id: 7181
+  time: '2025-04-24T09:24:54.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2252
+- author: Zeta_Null
+  changes:
+    - type: Add
+      message: Додано 12 нових наборів крил для Гарпій.
+  id: 7182
+  time: '2025-04-25T04:53:28.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2280
+- author: Zeta_Null
+  changes:
+    - type: Add
+      message: Додано Кселтію, користувацький інопланетний вид.
+    - type: Add
+      message: >-
+        Додано ізольовану куртку, щоб компенсувати відсутність доступу до слота для рукавичок у Кселтії.
+    - type: Add
+      message: >-
+        Предмет "Щупальце Кселтії", що випадає при відростанні рук. Його можна приготувати.
+  id: 7183
+  time: '2025-04-25T08:58:09.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2214
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: 'MAS версія 1 тут. '
+  id: 7184
+  time: '2025-04-25T13:00:45.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2309
+- author: Zeta_Null
+  changes:
+    - type: Add
+      message: Додано відповідний шрифт для використання Кіїлуром
+    - type: Tweak
+      message: >-
+        Додано Кселтію до деяких чорних списків рис, для яких вона не підходить (пов'язані з руками)
+  id: 7185
+  time: '2025-04-25T21:19:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2317
+- author: 3PonPon3
+  changes:
+    - type: Tweak
+      message: >-
+        Скориговано політ молі та гарпії, щоб зробити його більш збалансованим. (Політ молі, збільшення швидкості ~30%,
+        політ гарпії ~60% порівняно зі спринтом, враховує всі
+        модифікатори, включаючи 10% збільшення швидкості спринту гарпій) Змінено вартість риси "Справжній політ"
+         на -2 замість -5.
+  id: 7186
+  time: '2025-04-25T23:19:17.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2313
+- author: 3PonPon3
+  changes:
+    - type: Add
+      message: >-
+        Додано Моффік (мова молей) та Чіттін (мова хітинідів) як риси
+        мов. Доступно для IPC та Гарпій за 1 очко, а також для Молей (Чіттін)
+        та Хітинідів (Моффік).
+    - type: Fix
+      message: >-
+        Гарпії більше не можуть витрачати очко на рису стандартної валірійської мови,
+        якою вони вже володіють.
+  id: 7187
+  time: '2025-04-25T23:24:32.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2316
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано нову уніформу для конкретних роботодавців: Гефест, Заводський, та
+        НаноТрейзен.
+    - type: Add
+      message: >-
+        Додано опції важкої броні для служби безпеки, щоб витрачати очки спорядження на щось
+        окрім зброї.
+    - type: Add
+      message: Додано унікальний варіант важкої броні для Голови служби безпеки.
+    - type: Add
+      message: >-
+        Додано спеціалізовані ящики з важкою бронею для замовлення у вкладці Зброярні, ці
+        включають варіанти балістичної та лазерно-абляційної броні.
+    - type: Add
+      message: >-
+        Додано бронежилет TCAF для тих, хто хоче використовувати комплекти безпеки TCAF,
+        але не любить значного уповільнення.
+    - type: Tweak
+      message: >-
+        Трохи ослаблено важку броню TCAF, тепер вона має таке ж 30% уповільнення, як
+        і інші варіанти "Важкої броні СБ".
+  id: 7188
+  time: '2025-04-26T00:31:47.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2315

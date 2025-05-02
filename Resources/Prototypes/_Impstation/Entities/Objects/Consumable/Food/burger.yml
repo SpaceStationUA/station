@@ -1,0 +1,27 @@
+- type: entity
+  name: finfin sandwich
+  parent: FoodBurgerBase
+  id: FoodBurgerFinfin
+  description: Why
+  components:
+  - type: FlavorProfile
+    flavors:
+    - bun
+    - finfin
+    - chicken
+    - duck
+    - fishy
+  - type: Sprite
+    state: chicken
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 16
+        - ReagentId: Protein
+          Quantity: 9
+  - type: Tag
+    tags:
+    - Meat

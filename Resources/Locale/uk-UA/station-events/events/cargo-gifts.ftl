@@ -1,14 +1,14 @@
 cargo-gifts-event-announcement = Вітаємо! { $sender } вирішили надіслати { $description } для { $dest }. Шукайте його в наступному вантажі.
 cargo-gift-default-description = Подаруночки!
 cargo-gift-default-sender = НаноТрейзен
-cargo-gift-default-dest = Логістичного Департаменту
+cargo-gift-default-dest = Логістичного Відділу
 
 cargo-gift-dest-bar = бару
-cargo-gift-dest-eng = Інженерного Департаменту
-cargo-gift-dest-supp = Логістичного Департаменту
-cargo-gift-dest-janitor = Сервісного Департаменту
-cargo-gift-dest-med = Медичного Департаменту
-cargo-gift-dest-sec = Департаменту Служби Безпеки
+cargo-gift-dest-eng = Інженерного Відділу
+cargo-gift-dest-supp = Логістичного Відділу
+cargo-gift-dest-janitor = Сервісного Відділу
+cargo-gift-dest-med = Медичного Відділу
+cargo-gift-dest-sec = Відділу Служби Безпеки
 
 cargo-gift-pizza-small = маленьку партію піци
 cargo-gift-pizza-large = велику партію піци

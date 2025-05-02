@@ -4,17 +4,6 @@
   text: "/ServerInfo/Guidebook/ServerRules/DefaultRuleset.xml"
 
 - type: guideEntry
-  id: SpaceLaw
-  name: guide-entry-rules-space-law
-  priority: 1
-  text: "/ServerInfo/Guidebook/ServerRules/SpaceLaw/SpaceLaw.xml"
-  children:
-  - SpaceLawControlledSubstances
-  - SpaceLawRestrictedGear
-  - SpaceLawRestrictedWeapons
-  - SpaceLawCrimeList
-
-- type: guideEntry
   id: SpaceLawControlledSubstances
   name: guide-entry-rules-sl-controlled-substances
   priority: 20
