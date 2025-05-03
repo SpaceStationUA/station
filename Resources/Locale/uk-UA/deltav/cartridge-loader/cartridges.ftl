@@ -217,10 +217,10 @@ mail-metrics-expired = Збитки (прострочені)
 mail-metrics-damaged = Збитки (пошкоджені)
 mail-metrics-tampered = Збитки (зіпсовані)
 mail-metrics-unopened = Невідкриті
-mail-metrics-count-header = Пакети
+mail-metrics-count-header = Посилок
 mail-metrics-money-header = Спесо
 mail-metrics-total = Всього
-mail-metrics-progress = {$opened} з {$total} пакетів відкрито!
+mail-metrics-progress = {$opened} з {$total} посилок відкрито!
 mail-metrics-progress-percent = Відсоток успіху: {$successRate}%
 # Біржова торгівля
 stock-trading-program-name = Біржова торгівля

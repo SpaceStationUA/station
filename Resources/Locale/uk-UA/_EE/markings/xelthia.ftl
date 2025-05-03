@@ -1,4 +1,4 @@
-marking-XelthiaStripeyChest = Смуги на Грудині
+marking-XelthiaStripeyChest = Смуги на Тулубі
 marking-XelthiaUnderbelly = Кольорове Черево
 marking-XelthiaEarsNormal = Звичайні Вуха
 marking-XelthiaEarsSmall = Короткі Вуха

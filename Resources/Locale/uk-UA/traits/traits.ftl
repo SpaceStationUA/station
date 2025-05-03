@@ -46,7 +46,7 @@ trait-goblin-accent-name = Гоблін кант
 trait-goblin-accent-desc = Ви розмовляєте секретною мовою яку багато хто вважає як недолугу і тому не дуже секретною
 
 trait-name-Blindness = Сліпота
-trait-description-Blindness = Ви юридично незрячий і не можете бачити далі кількох метрів перед собою.
+trait-description-Blindness = Ви юридично незрячий і не можете бачити далі кількох метрів перед собою
 trait-examined-Blindness = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} очі скляні і розфокусовані. Не схоже, що {SUBJECT($target)} бачить вас добре, якщо взагалі бачить.[/color]
 trait-name-Narcolepsy = Нарколепсія
 trait-description-Narcolepsy = Ви засинаєте безладно

@@ -7,8 +7,8 @@ marking-ThavenEyebrowBarbels = Голова Тавена (вусики над б
 marking-ThavenUnderbellyFace-underbelly_face = Голова
 marking-ThavenUnderbellyFace = Голова Тавена (нижня частина обличчя)
 
-marking-ThavenUnderbellyTorso-underbelly_torso = Груди
-marking-ThavenUnderbellyTorso = Груди Тавена (нижня частина тулуба)
+marking-ThavenUnderbellyTorso-underbelly_torso = Тулуб
+marking-ThavenUnderbellyTorso = Тулуб Тавена (нижня частина тулуба)
 
-marking-ThavenCarpSpots-carp_spots = Груди
-marking-ThavenCarpSpots = Груди Тавена (коропові плями)
+marking-ThavenCarpSpots-carp_spots = Тулуб
+marking-ThavenCarpSpots = Тулуб Тавена (коропові плями)

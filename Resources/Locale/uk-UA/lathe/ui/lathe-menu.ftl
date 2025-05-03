@@ -11,7 +11,7 @@ lathe-menu-tooltip-display = {$amount} штук(-и) {$material}
 lathe-menu-description-display = [italic]{$description}[/italic]
 lathe-menu-material-amount = { $amount ->
     [1] {NATURALFIXED($amount, 2)} {$unit}
-    *[other] {NATURALFIXED($amount, 2)} {MAKEPLURAL($unit)}
+    *[other] {NATURALFIXED($amount, 2)} {$unit}ів(-и)
 }
 lathe-menu-no-materials-message = Матеріали не завантажені.
 lathe-menu-fabricating-message = Виготовлення...
@@ -20,7 +20,7 @@ lathe-menu-queue-title = Черга Створення
 
 lathe-menu-material-amount-missing = { $amount ->
     [1] {NATURALFIXED($amount, 2)} {$unit} з {$material} ([color=red]{NATURALFIXED($missingAmount, 2)} {$unit} відсутній[/color])
-    *[other] {NATURALFIXED($amount, 2)} {MAKEPLURAL($unit)} з {$material} ([color=red]{NATURALFIXED($missingAmount, 2)} {MAKEPLURAL($unit)} відсутні[/color])
+    *[other] {NATURALFIXED($amount, 2)} {$unit}ів з {$material} ([color=red]{NATURALFIXED($missingAmount, 2)} {$unit}ів відсутні[/color])
 }
 
 lathe-menu-reagent-slot-examine = Збоку є гніздо для мензурки.

@@ -1,20 +1,20 @@
 reverse-engineering-machine-menu-title = машина зворотного проектування
-reverse-engineering-machine-server-list-button = Список серверів
-reverse-engineering-machine-scan-button = Проаналізуйте
-reverse-engineering-machine-scan-tooltip-info = Проаналізуйте вставлений елемент, щоб спробувати здійснити його реінжиніринг.
+reverse-engineering-machine-server-list-button = Список Серверів
+reverse-engineering-machine-scan-button = Проаналізувати
+reverse-engineering-machine-scan-tooltip-info = Проаналізувати вставлений елемент, щоб спробувати здійснити його реверсивний інжиніринг.
 reverse-engineering-machine-safety-button = Безпека
 reverse-engineering-machine-safety-tooltip-info = Увімкнути протоколи безпеки. Якщо безпеку вимкнено, будуть використовуватися сильніші, але, можливо, руйнівні методи аналізу.
-reverse-engineering-machine-autoscan-button = Автозонд
+reverse-engineering-machine-autoscan-button = АвтоЗонд
 reverse-engineering-machine-autoscan-tooltip-info = Увімкніть, чи потрібно автоматично запускати новий зонд після завершення попереднього.
 reverse-engineering-machine-stop-button = Стоп!
 reverse-engineering-machine-stop-tooltip-info = Зупинити поточний зонд.
-reverse-engineering-machine-eject-button = Викидай!
+reverse-engineering-machine-eject-button = Викинути
 reverse-engineering-machine-eject-tooltip-info = Викинути поточний елемент.
 
-reverse-engineering-status-ready = Вставте елемент для зворотного проектування.
-reverse-engineering-current-item = Поточний товар: {$item}
+reverse-engineering-status-ready = Вставте елемент для декомпіляції.
+reverse-engineering-current-item = Поточний предмет: {$item}
 reverse-engineering-analysis-score = Потужність аналізу: {$score}
-reverse-engineering-item-difficulty = Труднощі: {$difficulty}
+reverse-engineering-item-difficulty = Трудність: {$difficulty}
 reverse-engineering-progress = Прогрес: {$progress}%
 reverse-engineering-last-attempt-result = Останній результат зондування: {$result}
 
@@ -32,4 +32,4 @@ reverse-engineering-machine-aversion-upgrade = Бонус відрази до р
 
 reverse-engineering-popup-failure = {CAPITALIZE(THE($machine))} розкидає дим і уламки на всі боки!
 
-reverse-engineering-examine = [color=yellow]Цей елемент можна переробити. Складність: {$diff}[/color]
+reverse-engineering-examine = [color=yellow]Цей предмет можна розібрати. Складність: {$diff}[/color]
