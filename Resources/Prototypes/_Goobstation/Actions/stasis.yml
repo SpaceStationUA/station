@@ -1,7 +1,7 @@
 - type: entity
   id: ActionChronoBlink
-  name: "Тимчасова зміна"
-  description: "Змінює ваші координати, дозволяючи телепортуватися в сусідні локації"
+  name: Temporary shift
+  description: Changes your coordinates, allowing you to teleport to nearby locations
   components:
   - type: WorldTargetAction
     icon:

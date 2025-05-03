@@ -1,5 +1,5 @@
 - type: entity
-  name: "Кривавий Культист"
+  name: Blood Cultist
   abstract: true
   parent:
   - MobHumanoidHostileBase
@@ -19,7 +19,7 @@
 # Blood Cult Priest, ranged mab, bolts deal 10 slash damage
 # Look for magic bolt here:\Resources\Prototypes\_NF\Entities\Objects\Weapons\Guns\Projectiles\magic.yml
 - type: entity
-  name: "Священик Кривавого Культу"
+  name: Blood Cult Priest
   parent:
   - MobBloodCultistBase
   - MobHumanoidHostileAISimpleRanged
@@ -50,7 +50,7 @@
 # Blood Cult Janitor, ranged mab, bolts deal 10 slash damage
 # Look for magic bolt here:\Resources\Prototypes\_NF\Entities\Objects\Weapons\Guns\Projectiles\magic.yml
 - type: entity
-  name: "Прибиральник Кривавого Культу"
+  name: Blood Cult Janitor
   parent:
   - MobBloodCultistBase
   - MobHumanoidHostileAISimpleRanged
@@ -82,7 +82,7 @@
 
 # Blood Cult Acolyte, melee mob armed with eldritch sword (16 slash)
 - type: entity
-  name: "Аколіт Кривавого Культу"
+  name: Blood Cult Acolyte
   parent:
   - MobBloodCultistBase
   - MobHumanoidHostileAISimpleMelee
@@ -94,7 +94,7 @@
 
 # Blood Cult Acolyte, melee mob armed with ritual dagger (12 slash)
 - type: entity
-  name: "Фанатик Кривавого Культу"
+  name: Blood Cult Zealot
   parent:
   - MobBloodCultistBase
   - MobHumanoidHostileAISimpleMelee
@@ -107,7 +107,7 @@
 # Blood Cult Zealot, ranged mob, crossbow bolt deals 20 slash and 5 bloodloss
 # Look for crossbow bolt here: \Resources\Prototypes\_NF\Entities\Objects\Weapons\Guns\Projectiles\crossbow_bolts.yml
 - type: entity
-  name: "Фанатик Кривавого Культу"
+  name: Blood Cult Zealot
   parent:
   - MobBloodCultistBase
   - MobHumanoidHostileAISimpleRanged
@@ -133,7 +133,7 @@
 # Blood Cult Zealot, ranged mob, magic bolt deals 5 slash and 2 bloodloss
 # Look for magic bolt here:\Resources\Prototypes\_NF\Entities\Objects\Weapons\Guns\Projectiles\magic.yml
 - type: entity
-  name: "Фанатик Кривавого Культу"
+  name: Blood Cult Zealot
   parent:
   - MobBloodCultistBase
   - MobHumanoidHostileAISimpleRanged
@@ -158,7 +158,7 @@
 # Non-human mobs
 # Ascended Cultist, spawns 2 Drained Ones
 - type: entity
-  name: "Піднесений Культист" # Megafauna
+  name: Ascended Cultist # Megafauna
   parent:
   - MobNonHumanHostileBase
   - MobHumanoidHostileAISimpleRanged
@@ -233,7 +233,7 @@
 
 # Blood Leech, melee, fast, has moderate health regen
 - type: entity
-  name: "Кривава П'явка"
+  name: Blood Leech
   parent:
   - MobNonHumanHostileBase
   - MobPassiveRegen
@@ -278,7 +278,7 @@
 
 # Drained One, melee
 - type: entity
-  name: "Виснажений"
+  name: Drained One
   parent:
   - MobNonHumanHostileBase
   - FlyingMobBase
@@ -335,7 +335,7 @@
 
 # Drained One (summonable by players), melee
 - type: entity
-  name: "Виснажений"
+  name: Drained One
   parent: MobBloodCultDrainedOne
   id: MobBloodCultDrainedOneNanoTrasen
   components:
@@ -351,7 +351,7 @@
 - type: entity
   parent: BaseWeaponTurret
   id: BloodCultTurret
-  name: "кривавий пілон"
+  name: blood pylon
   components:
     - type: NpcFactionMember
       factions:
