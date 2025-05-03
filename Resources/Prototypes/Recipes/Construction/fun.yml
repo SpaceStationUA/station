@@ -1,22 +1,22 @@
 - type: construction
-  name: "бананієвий гудок"
+  name: bananium horn
   id: HornBananium
   graph: BananiumHorn
   startNode: start
   targetNode: bananiumHorn
   category: construction-category-weapons
-  description: "Повітряний гудок, зроблений з бананію."
+  description: An air horn made from bananium.
   icon: { sprite: Objects/Fun/bananiumhorn.rsi, state: icon }
   objectType: Item
 
 - type: construction
-  name: "пилова чаша Усіани"
+  name: ousiana dust bowl
   id:  FoodOusianaDustBowl
   graph: OusianaDustBowl
   startNode: start
   targetNode: ousianadustbowl
   category: construction-category-misc
-  description: "Потужний порошок, який при вживанні може зламати псіонічні блоки"
+  description: A potent powder, which when consumed can break psionic blocks
   icon: { sprite: Objects/Consumable/Food/bowl.rsi, state: ousiana }
   objectType: Item
 
