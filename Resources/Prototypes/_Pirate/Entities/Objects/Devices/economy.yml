@@ -14,7 +14,7 @@
 - type: entity
   parent: BaseDepartmentBudgetCard
   id: CommandBudgetCard
-  name: command budget card
+  name: "бюджетна картка команди"
   components:
     - type: Sprite
       state: budgetcard
@@ -24,7 +24,7 @@
 - type: entity
   parent: Paper
   id: CommandBudgetPinPaper
-  name: command budget pin
+  name: "командний бюджетний штифт"
   components:
   - type: CommandBudgetPinPaper
   - type: Paper
@@ -32,7 +32,7 @@
 - type: entity
   parent: BaseDepartmentBudgetCard
   id: CargoBudgetCard
-  name: cargo budget card
+  name: "картка бюджету вантажу"
   components:
     - type: Sprite
       state: car_budget
@@ -42,7 +42,7 @@
 - type: entity
   parent: BaseDepartmentBudgetCard
   id: CivilianBudgetCard
-  name: civilian budget card
+  name: "цивільна бюджетна картка"
   components:
     - type: Sprite
       state: srv_budget
@@ -52,7 +52,7 @@
 - type: entity
   parent: BaseDepartmentBudgetCard
   id: EngineeringBudgetCard
-  name: engineering budget card
+  name: "інженерна бюджетна карта"
   components:
     - type: Sprite
       state: eng_budget
@@ -62,7 +62,7 @@
 - type: entity
   parent: BaseDepartmentBudgetCard
   id: MedicalBudgetCard
-  name: medical budget card
+  name: "медична бюджетна картка"
   components:
     - type: Sprite
       state: med_budget
@@ -72,7 +72,7 @@
 - type: entity
   parent: BaseDepartmentBudgetCard
   id: ScienceBudgetCard
-  name: science budget card
+  name: "бюджетна картка науки"
   components:
     - type: Sprite
       state: sci_budget
@@ -82,7 +82,7 @@
 - type: entity
   parent: BaseDepartmentBudgetCard
   id: SecurityBudgetCard
-  name: security budget card
+  name: "бюджетна картка безпеки"
   components:
     - type: Sprite
       state: sec_budget
@@ -92,8 +92,8 @@
 - type: entity
   parent: BaseItem
   id: Eftpos
-  name: EFTPOS
-  description: Swipe your ID card to make purchases electronically.
+  name: "EFTPOS"
+  description: "Проведіть посвідченням особи, щоб здійснювати покупки в електронному вигляді."
   components:
     - type: Sprite
       sprite: _Pirate/Objects/Devices/eftpos.rsi

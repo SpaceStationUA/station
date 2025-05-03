@@ -2,8 +2,8 @@
   abstract: true
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: SurveillanceCameraRouterBase
-  name: camera router
-  description: A surveillance camera router. It routes. Perhaps.
+  name: "роутер для камери"
+  description: "Маршрутизатор камер спостереження. Він прокладає маршрути. Можливо."
   components:
     - type: DeviceNetwork
       deviceNetId: Wired
@@ -106,8 +106,8 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: SurveillanceCameraWirelessRouterBase
-  name: wireless camera router
-  description: A wireless surveillance camera router. It routes. Perhaps.
+  name: "бездротовий маршрутизатор для камер"
+  description: "Бездротовий маршрутизатор для камер спостереження. Він прокладає маршрути. Можливо."
   components:
     - type: DeviceNetwork
       deviceNetId: Wireless
