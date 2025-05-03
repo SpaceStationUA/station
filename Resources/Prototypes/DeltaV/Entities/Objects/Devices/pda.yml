@@ -1,8 +1,8 @@
 - type: entity
   parent: BasePDA
   id: CorpsmanPDA
-  name: corpsman PDA
-  description: Red and Sterile. Has a built-in health analyzer.
+  name: "кПК брігмедика"
+  description: "Червоний і стерильний. Має вбудований аналізатор здоров'я."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Devices/pda.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: BasePDA
   id: ChiefJusticePDA
-  name: chief justice PDA
-  description: Whosoever bears this PDA is the law.
+  name: "кПК магістрата"
+  description: "Хто б не носив цей КПК, він є законом."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Devices/pda.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: BasePDA
   id: ClerkPDA
-  name: clerk PDA
-  description: It has the stamp to prove it's been officially notarized!
+  name: "кПК клерка"
+  description: "На ньому стоїть печатка, яка підтверджує, що він офіційно завірений нотаріусом!"
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Devices/pda.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: BasePDA
   id: ProsecutorPDA
-  name: prosecutor PDA
-  description: Sharp. Looks like it could prosecute you all on its own.
+  name: "кПК прокурора"
+  description: "Гострий. Схоже, він може переслідувати вас усіх самостійно."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Devices/pda.rsi
@@ -178,8 +178,8 @@
 - type: entity
   parent: BasePDA
   id: AdminAssistantPDA
-  name: administrative assistant PDA
-  description: Theres pen scribbles all over the edges, and a few sticky notes stuck on it.
+  name: "адміністративний асистент КПК"
+  description: "По краях - каракулі ручкою, і на ній приклеєно кілька липких записок."
   components:
   - type: Sprite
     sprite: Objects/Devices/pda.rsi

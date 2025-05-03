@@ -1,8 +1,8 @@
 - type: entity
-  name: killer tomato
+  name: "помідор-вбивця"
   id: MobTomatoKiller
   parent: SimpleSpaceMobBase
-  description: This is really going to let you own some vegans in your next online debate.
+  description: "Це дійсно дозволить вам залучити кількох веганів до наступної онлайн-дискусії."
   components:
   - type: InputMover
   - type: MobMover
@@ -71,10 +71,10 @@
   - type: NoSlip
 
 - type: entity
-  name: oneirophage
+  name: "онейрофаг"
   parent: MobGiantSpider
   id: MobGiantSpiderVampire
-  description: The 'dream-eater' spider, rumored to be one of the potential genetic sources for arachne.
+  description: "Павук-\"пожирач снів\", який, за чутками, є одним з потенційних генетичних джерел павука-русака."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -177,7 +177,7 @@
         - ArachneWeb
 
 - type: entity
-  name: oneirophage
+  name: "онейрофаг"
   parent: MobGiantSpiderVampire
   id: MobGiantSpiderVampireAngry
   suffix: Angry
