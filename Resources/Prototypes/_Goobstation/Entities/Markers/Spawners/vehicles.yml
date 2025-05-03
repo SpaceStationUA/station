@@ -1,5 +1,5 @@
 - type: entity
-  name: "спавнер секвею"
+  name: Secway Spawner
   id: SpawnVehicleSecway
   parent: MarkerBase
   components:
@@ -13,7 +13,7 @@
       - VehicleSecway
 
 - type: entity
-  name: "спавнер ATV "
+  name: ATV Spawner
   id: SpawnVehicleATV
   parent: MarkerBase
   components:
@@ -27,7 +27,7 @@
       - VehicleATV
 
 - type: entity
-  name: "спавнер дженікарту"
+  name: Janicart Spawner
   id: SpawnVehicleJanicart
   parent: MarkerBase
   components:
@@ -41,7 +41,7 @@
       - VehicleJanicart
 
 - type: entity
-  name: "спавнер інвалідного візку"
+  name: Wheelchair Spawner
   id: SpawnVehicleWheelchair
   parent: MarkerBase
   components:
@@ -55,7 +55,7 @@
       - VehicleWheelchair
 
 - type: entity
-  name: "спавнер інвалідного візку [Складений]"
+  name: Wheelchair [Folded] Spawner
   id: SpawnVehicleWheelchairFolded
   parent: MarkerBase
   components:

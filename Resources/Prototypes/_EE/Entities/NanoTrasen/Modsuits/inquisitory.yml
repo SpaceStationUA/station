@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingModsuitStandard
   id: ClothingModsuitInquisitory
-  name: "Інквізиторський контролер модульного костюма"
-  description: "Основний контролер для інквізиторського модульного костюма."
+  name: Inquisitory modsuit control
+  description: The main controller for a Inquisitory modsuit.
   components:
     - type: Sprite
       sprite: _EE/Clothing/NanoTrasen/Modsuits/inquisitory.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsStandard
   id: ClothingModsuitGauntletsInquisitory
-  name: "Інквізиторські рукавиці модульного костюма"
-  description: "Пара рукавиць, створених для інквізиторського модульного костюма."
+  name: Inquisitory modsuit gauntlets
+  description: A pair of gauntlets made for the Inquisitory modsuit.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -49,8 +49,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons, BaseClothingRadio]
   id: ClothingModsuitHelmetInquisitory
-  name: "Інквізиторський шолом модульного костюма"
-  description: "Сучасний шолом, розроблений NanoTrasen для інквізиторського модульного костюма. Має вбудований HUD."
+  name: Inquisitory modsuit helmet
+  description: A state-of-the-art helmet designed by NanoTrasen for the Inquisitory modsuit. It includes a built-in HUD.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -93,8 +93,8 @@
 - type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplateInquisitory
-  name: "Інквізиторський нагрудник модульного костюма"
-  description: "Сучасний нагрудник, розроблений NanoTrasen для інквізиторського модульного костюма. Він оснащений сервоприводами для зменшення навантаження від обладнання."
+  name: Inquisitory modsuit chestplate
+  description: A state of the art chestplate designed by NanoTrasen for the Inquisitory Modsuit. It incorporates powered servos to reduce the equipment load.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -138,8 +138,8 @@
 - type: entity
   parent: ClothingModsuitBootsStandard
   id: ClothingModsuitBootsInquisitory
-  name: "Інквізиторські черевики модульного костюма"
-  description: "Сучасна пара магнітних черевиків для інквізиторського модульного костюма. Поки костюм живиться, вони не сповільнюватимуть носія."
+  name: Inquisitory modsuit boots
+  description: A state-of-the-art pair of magboots for the Inquisitory modsuit. So long as the suit is powered, these will not slow the wearer down.
   categories: [HideSpawnMenu]
   components:
     - type: Appearance

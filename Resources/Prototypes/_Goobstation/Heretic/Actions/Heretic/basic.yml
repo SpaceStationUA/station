@@ -1,8 +1,8 @@
 # actions
 - type: entity
   id: ActionHereticOpenStore
-  name: "Відкрите сховище знань"
-  description: "Відкрийте Сховище знань."
+  name: Open Knowledge Store
+  description: Open the Knowledge Store.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -16,8 +16,8 @@
 
 - type: entity
   id: ActionHereticMansusGrasp
-  name: "Мансусова хватка"
-  description: "Спрямуйте силу Старих Богів через свою руку."
+  name: Mansus Grasp
+  description: Channel the power of the Old Gods through your grip.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -31,8 +31,8 @@
 
 - type: entity
   id: ActionHereticLivingHeart
-  name: "Живе серце"
-  description: "Використовуйте своє серце, щоб визначити місцезнаходження жертви."
+  name: Living Heart
+  description: Use your heart to get your sacrifice targets location.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -47,8 +47,8 @@
 
 - type: entity
   id: ActionHereticMansusLink
-  name: "Manse Link"
-  description: "Проникнути крізь реальність і з'єднати уми один з одним. Радіоключ за замовчуванням: :z"
+  name: Manse Link
+  description: Pierce through reality and connect minds to one another. Default radio key is :z
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityTargetAction

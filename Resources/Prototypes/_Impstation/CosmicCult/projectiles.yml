@@ -1,7 +1,7 @@
 - type: entity
   id: ProjectileCosmicNova
-  name: "Астральна Нова"
-  description: "Ой-ой."
+  name: Astral Nova
+  description: Uh oh.
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -47,7 +47,7 @@
 - type: entity
   id: ProjectileRogueCosmicNova
   parent: ProjectileCosmicNova
-  name: "Узурпована Астральна Нова"
+  name: Usurped Astral Nova
   components:
     - type: CosmicAstralNova
       doStun: false

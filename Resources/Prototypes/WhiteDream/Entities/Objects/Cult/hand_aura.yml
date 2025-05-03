@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BaseBloodCultAura
-  name: "кров'яна аура"
-  description: "Зловісна аура, що спотворює потік реальності навколо."
+  name: blood aura
+  description: A sinister looking aura that distorts the flow of reality around it.
   abstract: true
   categories: [ HideSpawnMenu ]
   components:
@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseBloodCultAura
   id: BloodRitesAura
-  name: "аура кровного обряду"
-  description: "Поглинає кров з усього, до чого торкаєшся. Дотик до культистів і споруд може зцілити їх. Використовуйте в руці, щоб розіграти складний обряд."
+  name: blood rite aura
+  description: Absorbs blood from anything you touch. Touching cultists and constructs can heal them. Use in-hand to cast an advanced rite.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/rites.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseBloodCultAura
   id: StunAura
-  name: "приголомшлива аура"
-  description: "При попаданні оглушить і змусить замовкнути слабкодуху жертву."
+  name: stunning aura
+  description: Will stun and mute a weak-minded victim on hit.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/stun.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseBloodCultAura
   id: ShadowShacklesAura
-  name: "тінь сковує ауру"
-  description: "При попаданні сковує ціль тіньовими кайданами."
+  name: shadow shackles aura
+  description: Will shackles the target with shadow shackles on hit.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/shadow_shackles.rsi
