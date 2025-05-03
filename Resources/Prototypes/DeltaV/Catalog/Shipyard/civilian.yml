@@ -1,7 +1,7 @@
 - type: vessel
   id: PTS
-  name: Private Transport Shuttle
-  description: A private transport vessel for up to 6 passengers.
+  name: "Трансфер на приватному транспорті"
+  description: "Приватне транспортне судно для перевезення до 6 пасажирів."
   price: 23000
   path: /Maps/Shuttles/DeltaV/pts.yml
   categories:
@@ -11,8 +11,8 @@
 
 - type: vessel
   id: Barge
-  name: The Barge
-  description: A large shipping vessel repurposed into a salvage bar.
+  name: "Баржа"
+  description: "Велике вантажне судно, переобладнане в бар утилізаторів."
   price: 54000
   path: /Maps/Shuttles/DeltaV/barge.yml
   categories:
@@ -23,8 +23,8 @@
 
 - type: vessel
   id: Helix
-  name: NTMC Helix
-  description: A large mobile health clinic for servicing distant outposts.
+  name: "НТМК Хелікс"
+  description: "Велика мобільна медична клініка для обслуговування віддалених форпостів."
   price: 60000
   path: /Maps/Shuttles/DeltaV/helix.yml
   categories:
@@ -34,8 +34,8 @@
 
 - type: vessel
   id: Prospector
-  name: NT-7 Prospector
-  description: A small mining vessel designed to assist salvage operations.
+  name: "NT-7 Розвідник"
+  description: "Невелике гірничодобувне судно, призначене для допомоги в операціях з утилізації."
   price: 35000
   path: /Maps/Shuttles/DeltaV/prospector.yml
   categories:
@@ -45,8 +45,8 @@
 
 - type: vessel
   id: Nomad
-  name: NTCV Nomad
-  description: A small shuttle for transporting up to 3 passengers with relative comfort.
+  name: "NTCV Номад"
+  description: "Невеликий шатл для перевезення до 3 пасажирів з відносним комфортом."
   price: 21000
   path: /Maps/Shuttles/DeltaV/ntcv-nomad.yml
   categories:
@@ -56,8 +56,8 @@
 
 - type: vessel
   id: Tote
-  name: NTSV Tote
-  description: A small shipping vessel, adapted from the Nomad line of shuttles with room for 2 passengers.
+  name: "NTSV Тоут"
+  description: "Невелике судно, адаптоване з лінійки шатлів Nomad, розраховане на 2 пасажирів."
   price: 20000
   path: /Maps/Shuttles/DeltaV/ntsv-tote.yml
   categories:
@@ -67,8 +67,8 @@
 
 - type: vessel
   id: Pulse
-  name: NTV Pulse
-  description: A moderately sized shuttle intended for all-purpose use. It can comfortably accomodate a crew of up to ten people.
+  name: "НТВ Пульс"
+  description: "Шаттл середнього розміру, призначений для універсального використання. У ньому може комфортно розміститися екіпаж до десяти осіб."
   price: 70000
   path: /Maps/Shuttles/DeltaV/ntv-pulse.yml
   categories:

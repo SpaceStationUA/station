@@ -3,9 +3,9 @@
 - type: entity
   id: N14BaseDoor # Metal Base
   parent: BaseStructure
-  name: door
+  name: "двері"
   abstract: true
-  description: A door, where will it lead?
+  description: "Двері, куди вони ведуть?"
   components:
   - type: InteractionOutline
   - type: Sprite
@@ -67,8 +67,8 @@
 - type: entity
   parent: N14BaseDoor
   id: N14DoorMakeshift # Base Door Wood
-  name: makeshift door
-  description: It's a wooden door. It looks dirty and handmade.
+  name: "імпровізовані двері"
+  description: "Це дерев'яні двері. Виглядають брудними, ручної роботи."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/wooddoor.rsi
@@ -101,9 +101,9 @@
 - type: entity
   parent: N14DoorMakeshift
   id: N14DoorWoodHousePainted
-  name: wooden door
+  name: "дерев'яні двері"
   suffix: painted
-  description: It's a painted door.
+  description: "Це пофарбовані двері."
   components:
   - type: Sprite
     netsync: false
@@ -121,8 +121,8 @@
 - type: entity
   parent: N14DoorMakeshift
   id: N14DoorWoodRoom
-  name: wooden door
-  description: A door used inside pre-war buildigs that section off rooms.
+  name: "дерев'яні двері"
+  description: "Двері, що використовувалися в довоєнних будівлях для розділення кімнат."
   components:
   - type: Sprite
     netsync: false
@@ -134,8 +134,8 @@
 - type: entity
   parent: N14DoorMakeshift
   id: N14DoorWoodInterior
-  name: wooden door
-  description: A door used inside pre-war buildings.
+  name: "дерев'яні двері"
+  description: "Двері, що використовувалися в довоєнних будівлях."
   components:
   - type: Sprite
     netsync: false
@@ -148,8 +148,8 @@
   parent: N14DoorMakeshift
   id: N14DoorWoodRoomDamaged
   suffix: damaged
-  name: wooden door
-  description: A door used inside pre-war houses. Unsuprisingly, it looks like it'll fall apart at any moment.
+  name: "дерев'яні двері"
+  description: "Двері, якими користувалися в довоєнних будинках. Не дивно, що вони виглядають так, ніби можуть розвалитися будь-якої миті."
   components:
   - type: Sprite
     netsync: false
@@ -161,9 +161,9 @@
 - type: entity
   parent: BaseMaterialDoor
   id: N14DoorRoomRepaired
-  name: door
+  name: "двері"
   suffix: repaired
-  description: This door looks worse for wear, but fixed up a little.
+  description: "Ці двері виглядають більш зношеними, але трохи відремонтованими."
   components:
   - type: Sprite
     netsync: false
@@ -175,8 +175,8 @@
 - type: entity
   parent: N14DoorMakeshift
   id: N14DoorWoodSecure
-  name: secure door
-  description: It's a secure door, made out of wood. Hope you brought bobby pins.
+  name: "надійні двері"
+  description: "Це надійні двері, зроблені з дерева. Сподіваюся, ти приніс шпильки."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/securedoor.rsi
@@ -196,8 +196,8 @@
 - type: entity
   parent: N14BaseDoor
   id: N14DoorMetalReinforced
-  name: metal reinforced door
-  description: It's a door, reinforced with metal. Hope you brought you bobby pins.
+  name: "металеві армовані двері"
+  description: "Це двері, укріплені металом. Сподіваюся, ти приніс шпильки."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/metaldoor.rsi
@@ -208,8 +208,8 @@
 - type: entity
   parent: N14DoorMetalReinforced
   id: N14DoorMetalSecureBrotherhood
-  name: secure brotherhood door
-  description: It's secure, AND branded! What more could you want?
+  name: "безпечні двері братства"
+  description: "Це безпечно і брендовано! Чого ще можна бажати?"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/bosdoor.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: N14BaseDoor
   id: N14DoorCellMetal
-  name: cell door
-  description: A door that bad guys are locked behind.
+  name: "двері камери"
+  description: "Двері, за якими замикаються погані хлопці."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/celldoor.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: N14DoorCellMetal
   id: N14DoorMetalBar
-  name: barred door
-  description: A door made from metal bars.
+  name: "заґратовані двері"
+  description: "Двері з металевих стрижнів."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/barreddoor.rsi
@@ -255,8 +255,8 @@
 - type: entity
   parent: N14DoorMetalReinforced
   id: N14DoorMetalSecure
-  name: secure door
-  description: A secure door made from steel.
+  name: "надійні двері"
+  description: "Надійні двері зі сталі."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/securesteeldoor.rsi
@@ -267,8 +267,8 @@
 - type: entity
   parent: N14DoorCellMetal
   id: N14DoorSpikedGate
-  name: spiked gate
-  description: A spiked gate to scare off the weak.
+  name: "шиповані ворота"
+  description: "Ворота з шипами, щоб відлякувати слабких."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/spikedgate.rsi
@@ -280,8 +280,8 @@
 - type: entity
   parent: N14DoorMakeshift
   id: N14DoorGlass
-  name: glass door
-  description: It's a door with panels made of clean glass.
+  name: "скляні двері"
+  description: "Це двері з панелями з чистого скла."
   components:
   - type: Sprite
     netsync: false
@@ -322,8 +322,8 @@
 - type: entity
   parent: N14DoorGlass
   id: N14DoorGlassDirty
-  name: dirty glass door
-  description: It's a glass door. You can barely make out what's behind it...
+  name: "брудні скляні двері"
+  description: "Скляні двері. Ледве можна розгледіти, що за ними..."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/dirtyglassdoor.rsi
@@ -338,8 +338,8 @@
 - type: entity
   parent: N14DoorGlass
   id: N14DoorGlassBroken
-  name: broken glass door
-  description: Shattered, just like your marriage.
+  name: "розбиті скляні двері"
+  description: "Розбитий, як і твій шлюб."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/brokenglassdoor.rsi
@@ -361,8 +361,8 @@
 - type: entity
   parent: N14DoorGlass
   id: N14DoorGlassStore
-  name: store door
-  description: It's a glass door found at pre-war stores. Hey, that rhymes!
+  name: "двері магазину"
+  description: "Це скляні двері з довоєнних магазинів. Гей, це римується!"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/storedoor.rsi
@@ -398,8 +398,8 @@
 - type: entity
   parent: N14DoorGlassStore
   id: N14DoorGlassStoreDirty
-  name: dirty store door
-  description: It's a glass door used at pre-war stores. It doesn't seem like it's been washed recently.
+  name: "брудні двері магазину"
+  description: "Це скляні двері, які використовувалися в довоєнних магазинах. Не схоже, що їх недавно мили."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/dirtystoredoor.rsi
@@ -410,8 +410,8 @@
 - type: entity
   parent: N14DoorGlassBroken
   id: N14DoorGlassStoreBroken
-  name: broken glass door
-  description: Shattered, just like your marriage.
+  name: "розбиті скляні двері"
+  description: "Розбитий, як і твій шлюб."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/FalloutDoors/brokenstoredoor.rsi
@@ -423,9 +423,9 @@
 - type: entity
   parent: BaseMaterialDoor
   id: N14DoorTentflap
-  name: tent flap
+  name: "клапан намету"
   suffix: smoothed tent
-  description: A door for a tent.
+  description: "Двері для намету."
   components:
   - type: Sprite
     netsync: false
@@ -467,8 +467,8 @@
 - type: entity
   parent: N14DoorTentflap
   id: N14DoorTentLeatherflap
-  name: tent flap
-  description: A door for a tent. Leathery.
+  name: "клапан намету"
+  description: "Двері для намету. Шкіряні."
   components:
   - type: Sprite
     netsync: false
@@ -480,8 +480,8 @@
 - type: entity
   parent: N14DoorTentflap
   id: N14DoorTentClothflap
-  name: tent flap
-  description: A door for a tent. Cloth.
+  name: "клапан намету"
+  description: "Двері для намету. Тканина."
   components:
   - type: Sprite
     netsync: false

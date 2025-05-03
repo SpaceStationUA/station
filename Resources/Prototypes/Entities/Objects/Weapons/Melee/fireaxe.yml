@@ -1,8 +1,8 @@
 - type: entity
-  name: fireaxe
+  name: "пожежна сокира"
   parent: BaseItem
   id: FireAxe
-  description: A versatile tool, capable of prying open airlocks and tearing through windows.
+  description: "Універсальний інструмент, здатний відчиняти шлюзи та пробивати вікна."
   components:
   - type: Tag
     tags:
@@ -72,9 +72,9 @@
 
 - type: entity
   id: FireAxeFlaming
-  name: fire axe
+  name: "пожежна сокира"
   parent: FireAxe
-  description: Why fight fire with an axe when you can fight with fire and axe? Now featuring rugged rubberized handle!
+  description: "Навіщо боротися з вогнем сокирою, коли можна боротися і з вогнем, і з сокирою? Тепер з міцною прогумованою ручкою!"
   components:
   - type: MeleeWeapon
     wideAnimationRotation: 90
