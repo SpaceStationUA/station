@@ -221,6 +221,10 @@
         - id: BoxZiptie
         - id: CrowbarRed
         - id: MagazineMagnum
+      # PIRATE START
+        - id: EnergySwordHoS
+        - id: WeaponPistolN1984
+      # PIRATE END
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -235,7 +239,11 @@
         - id: RegenerativeMesh
         - id: BoxZiptie
         - id: CrowbarRed
-        - id: MagazinePistol
+      # PIRATE START
+        - id: MagazineMagnum
+        - id: EnergySwordHoS
+        - id: WeaponPistolN1984
+      # PIRATE END
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -252,6 +260,8 @@
         - id: EpinephrineChemistryBottle
         - id: EpinephrineChemistryBottle
         - id: WeaponEnergyGunPistol
+        - id: EnergySwordHoS # PIRATE
+      
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -272,6 +282,7 @@
         - id: SheetSteel
         - id: SheetGlass
         - id: WeaponEnergyGunPistol
+        - id: EnergySwordHoS # PIRATE
 
 - type: entity
   categories: [ HideSpawnMenu ]
