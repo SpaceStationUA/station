@@ -379,6 +379,7 @@
       - NewsReaderCartridge
       - GlimmerMonitorCartridge
       - NanoChatCartridge # DeltaV
+      - WalletCartridge # Pirate banking
       - PsiWatchCartridge
 
 - type: entity
@@ -806,7 +807,7 @@
     state: pda-chemistry
 
 - type: entity
-  parent: BasePDA
+  parent: SciencePDA
   id: RnDPDA
   name: mystagogue PDA # DeltaV - Epistemics Department replacing Science
   description: It appears surprisingly ordinary.
@@ -1410,7 +1411,7 @@
     state: pda-seniorengineer
 
 - type: entity
-  parent: BasePDA
+  parent: SciencePDA
   id: SeniorResearcherPDA
   name: senior researcher PDA
   description: Looks like it's been through years of chemical burns and explosions.
@@ -1424,14 +1425,6 @@
     accentVColor: "#8900c9"
   - type: Icon
     state: pda-seniorresearcher
-  - type: CartridgeLoader
-    preinstalled:
-      - CrewManifestCartridge
-      - NotekeeperCartridge
-      - NewsReaderCartridge
-      - GlimmerMonitorCartridge
-      - WalletCartridge
-      - NanoChatCartridge
 
 - type: entity
   parent: BaseMedicalPDA
