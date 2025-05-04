@@ -10,8 +10,6 @@
     - !type:CharacterSpeciesRequirement
       species:
         - IPC
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitAddComponent
       components:
@@ -34,8 +32,6 @@
             - Security
             - Command
             - Dignitary
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -83,8 +79,6 @@
         - SeniorOfficer #PIRATE
         - Warden #PIRATE
         - Brigmedic #PIRATE
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions: # TODO: Code Platelet factories as an actual obtainable implant, and replace this with TraitAddImplant
     - !type:TraitReplaceComponent
       components:
