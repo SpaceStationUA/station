@@ -1,8 +1,8 @@
 ﻿# Base actions
 - type: entity
   id: ActionToggleLightingAlien
-  name: Toggle All Lighting
-  description: Toggle all light rendering to better observe dark areas.
+  name: "Ввімкнути все освітлення"
+  description: "Увімкніть весь рендеринг світла, щоб краще бачити темні ділянки."
   components:
     - type: InstantAction
       icon: { sprite: Interface/Alien/screen_alien.rsi, state: nightvision0 }
@@ -46,8 +46,8 @@
 
 - type: entity
   id: ActionCombatModeToggleAlien
-  name: "[color=red]Combat Mode[/color]"
-  description: Enter combat mode
+  name: "[color=red]Бойовий режим[/color]"
+  description: "Увійдіть в бойовий режим"
   components:
   - type: InstantAction
     checkCanInteract: false

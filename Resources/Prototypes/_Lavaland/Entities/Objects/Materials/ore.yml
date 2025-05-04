@@ -8,7 +8,7 @@
 - type: entity
   parent: GoldOre
   id: GoldOreUnprocessed
-  name: native gold
+  name: "самородне золото"
   suffix: Full
   components:
   - type: Stack
@@ -19,7 +19,7 @@
 - type: entity
   parent: GoldOreUnprocessed
   id: GoldOre1Unprocessed
-  name: native gold
+  name: "самородне золото"
   suffix: Single
   components:
   - type: Stack
@@ -28,7 +28,7 @@
 - type: entity
   parent: DiamondOre
   id: DiamondOreUnprocessed
-  name: native diamond
+  name: "самородний алмаз"
   suffix: Full
   components:
   - type: Stack
@@ -39,7 +39,7 @@
 - type: entity
   parent: DiamondOreUnprocessed
   id: DiamondOre1Unprocessed
-  name: native diamond
+  name: "самородний алмаз"
   suffix: Single
   components:
   - type: Stack
@@ -48,7 +48,7 @@
 - type: entity
   parent: SteelOre
   id: SteelOreUnprocessed
-  name: hematite
+  name: "гематит"
   suffix: Full
   components:
   - type: Stack
@@ -59,7 +59,7 @@
 - type: entity
   id: SteelOre1Unprocessed
   parent: SteelOreUnprocessed
-  name: hematite
+  name: "гематит"
   suffix: Single
   components:
   - type: Stack
@@ -68,7 +68,7 @@
 - type: entity
   parent: PlasmaOre
   id: PlasmaOreUnprocessed
-  name: native phoron
+  name: "самородний форон"
   suffix: Full
   components:
   - type: Stack
@@ -79,7 +79,7 @@
 - type: entity
   parent: PlasmaOreUnprocessed
   id: PlasmaOre1Unprocessed
-  name: native phoron
+  name: "самородний форон"
   suffix: Single
   components:
   - type: Stack
@@ -88,7 +88,7 @@
 - type: entity
   parent: SilverOre
   id: SilverOreUnprocessed
-  name: argentite
+  name: "аргентит"
   suffix: Full
   components:
   - type: Stack
@@ -99,7 +99,7 @@
 - type: entity
   parent: SilverOreUnprocessed
   id: SilverOre1Unprocessed
-  name: argentite
+  name: "аргентит"
   suffix: Single
   components:
   - type: Stack
@@ -108,7 +108,7 @@
 - type: entity
   parent: SpaceQuartz
   id: SpaceQuartzUnprocessed
-  name: quartz
+  name: "кварц"
   suffix: Full
   components:
   - type: Stack
@@ -119,7 +119,7 @@
 - type: entity
   parent: SpaceQuartzUnprocessed
   id: SpaceQuartz1Unprocessed
-  name: quartz
+  name: "кварц"
   suffix: Single
   components:
   - type: Stack
@@ -128,7 +128,7 @@
 - type: entity
   parent: UraniumOre
   id: UraniumOreUnprocessed
-  name: pitchblende
+  name: "уранова смолка"
   suffix: Full
   components:
   - type: Stack
@@ -139,7 +139,7 @@
 - type: entity
   parent: UraniumOreUnprocessed
   id: UraniumOre1Unprocessed
-  name: pitchblende
+  name: "уранова смолка"
   suffix: Single
   components:
   - type: Stack
@@ -148,7 +148,7 @@
 - type: entity
   parent: BananiumOre
   id: BananiumOreUnprocessed
-  name: unprocessed bananium ore
+  name: "необроблена бананієва руда"
   suffix: Full
   components:
   - type: Stack
@@ -159,7 +159,7 @@
 - type: entity
   parent: BananiumOreUnprocessed
   id: BananiumOre1Unprocessed
-  name: unprocessed bananium ore
+  name: "необроблена бананієва руда"
   suffix: Single
   components:
   - type: Stack
@@ -168,7 +168,7 @@
 - type: entity
   parent: Coal
   id: CoalUnprocessed
-  name: anthracite
+  name: "антрацит"
   suffix: Full
   components:
   - type: Stack
@@ -179,7 +179,7 @@
 - type: entity
   parent: CoalUnprocessed
   id: Coal1Unprocessed
-  name: anthracite
+  name: "антрацит"
   suffix: Single
   components:
   - type: Stack
@@ -188,7 +188,7 @@
 - type: entity
   parent: CoalUnprocessed
   id: Coal5Unprocessed
-  name: anthracite
+  name: "антрацит"
   suffix: Five
   components:
   - type: Stack
@@ -197,7 +197,7 @@
 - type: entity
   parent: CoalUnprocessed
   id: Coal10Unprocessed
-  name: anthracite
+  name: "антрацит"
   suffix: Ten
   components:
   - type: Stack
@@ -206,7 +206,7 @@
 - type: entity
   parent: CoalUnprocessed
   id: Coal15Unprocessed
-  name: anthracite
+  name: "антрацит"
   suffix: Fifteen
   components:
   - type: Stack

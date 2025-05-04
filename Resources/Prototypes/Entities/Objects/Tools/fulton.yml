@@ -1,7 +1,7 @@
 # Stack
 - type: stack
   id: Fulton
-  name: fulton
+  name: "фултон"
   icon:
     sprite: /Textures/Objects/Tools/fulton.rsi
     state: extraction_pack
@@ -12,8 +12,8 @@
 - type: entity
   id: FultonBeacon
   parent: BaseFoldable
-  name: fulton beacon
-  description: Beacon to receive fulton extractions.
+  name: "фултонський маяк"
+  description: "Маячок для отримання фултонних екстрактів."
   components:
     - type: Physics
       bodyType: Dynamic
@@ -52,8 +52,8 @@
   id: Fulton
   parent: BaseItem
   suffix: Full
-  name: fulton
-  description: Used to extract containers, items, or forcibly recruit people into your base of operations.
+  name: "фултон"
+  description: "Використовується для вилучення контейнерів, предметів або насильницького вербування людей на вашу базу операцій."
   components:
   - type: Fulton
   - type: Item
@@ -79,7 +79,7 @@
 - type: entity
   id: Fulton1
   parent: Fulton
-  name: fulton
+  name: "фултон"
   suffix: One
   components:
   - type: Stack
@@ -88,7 +88,7 @@
 - type: entity
   id: FultonEffect
   categories: [ HideSpawnMenu ]
-  name: fulton effect
+  name: "ефект Фултона"
   components:
   - type: TimedDespawn
     lifetime: 60
