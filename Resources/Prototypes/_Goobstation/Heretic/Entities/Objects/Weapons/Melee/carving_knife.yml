@@ -1,6 +1,6 @@
 - type: entity
-  name: carving knife
-  description: A small knife made of cold steel, pure and perfect. Its sharpness can carve into titanium itself - but only few can evoke the dangers that lurk beneath reality.
+  name: "ніж для різьблення"
+  description: "Маленький ніж з холодної сталі, чистий і досконалий. Його гострота може різати сам титан - але лише деякі можуть викликати небезпеки, що ховаються під реальністю."
   parent: [BaseKnife]
   id: CarvingKnife
   components:
@@ -49,8 +49,8 @@
 
 - type: entity
   id: ActionRunebreak
-  name: Rune Break
-  description: Destroys all runes carved by this blade.
+  name: "Руйнування Рун"
+  description: "Знищує всі руни, вирізьблені цим клинком."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

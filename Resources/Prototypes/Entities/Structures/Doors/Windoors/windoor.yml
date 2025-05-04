@@ -1,44 +1,44 @@
 - type: entity
   id: Windoor
   parent: BaseWindoor
-  name: Windoor
-  description: It's a window and a sliding door. Wow!
+  name: "вікно"
+  description: "Він відкривається, закривається, і ви можете бачити крізь нього! І воно може бути зроблене з плазми, урану або звичайного скла!"
 
 - type: entity
   id: WindoorSecure
   parent: BaseSecureWindoor
-  name: Secure Windoor
-  description: It's a sturdy window and a sliding door. Wow!
+  name: "Захисне Вікно"
+  description: "Це міцне вікно і розсувні двері. Ого!"
 
 - type: entity
   id: WindoorClockwork
   parent: BaseClockworkWindoor
-  name: clockwork windoor
-  description: It's a sturdy window and a sliding door. Wow!
+  name: "годинникове вікно-двері"
+  description: "Це міцне вікно і розсувні двері. Ого!"
 
 - type: entity
   id: WindoorPlasma
   parent: BasePlasmaWindoor
-  name: Plasma Windoor
-  description: It's a pink window *and* a sliding door. Amazing!
+  name: "Плазмове Вікно-двері"
+  description: "Це рожеве вікно і розсувні двері. Дивовижно!"
 
 - type: entity
   id: WindoorSecurePlasma
   parent: BaseSecurePlasmaWindoor
-  name: Secure Plasma Windoor
-  description: It's a sturdy purple window *and* a sliding door. Spectacular!
+  name: "Захищене Плазмове Вікно-двері"
+  description: "Це міцне фіолетове вікно і розсувні двері. Приголомшливо!"
 
 - type: entity
   id: WindoorUranium
   parent: BaseUraniumWindoor
-  name: Uranium Windoor
-  description: It's a window and a sliding door. Huh? Oh, and it's green!
+  name: "Уранове Вікно-двері"
+  description: "Це вікно і розсувні двері. А? О, і вони зелені!"
 
 - type: entity
   id: WindoorSecureUranium
   parent: BaseSecureUraniumWindoor
-  name: Secure Uranium Windoor
-  description: It's a sturdy window and a sliding door. It's so neon green, it might even taste like limes!
+  name: "Захищене Уранове Вікно-двері"
+  description: "Це міцне вікно та розсувні двері. Він такий неоново-зелений, що на смак може навіть нагадувати лайм!"
 
 # TODO remove these with parameterized prototypes/whatever we end up doing
 # Windoors (alphabetical)

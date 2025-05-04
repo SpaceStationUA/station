@@ -1,8 +1,8 @@
 - type: entity
-  name: proto-kinetic shotgun
+  name: "протокінетичний дробовик"
   id: WeaponProtoKineticShotgun
   parent: [WeaponProtoKineticAcceleratorBase]
-  description: Fires a spread of low-damage kinetic bolts.
+  description: "Випускає віяло кінетичних болтів малої потужності."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
@@ -39,10 +39,10 @@
     - 0,0,4,0
 
 - type: entity
-  name: proto-kinetic repeater
+  name: "протокінетичний карабін"
   id: WeaponProtoKineticRepeater
   parent: [WeaponProtoKineticAcceleratorBase]
-  description: Fires a barrage of kinetic bolts at a short range.
+  description: "Випускає шквал кінетичних болтів на короткій відстані."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
@@ -89,10 +89,10 @@
     - 0,0,2,1
 
 - type: entity
-  name: proto-kinetic pistol
+  name: "протокінетичний пістолет"
   id: WeaponProtoKineticPistol
   parent: [WeaponProtoKineticAcceleratorBase]
-  description: Fires low-damage kinetic bolts, has a higher mod capacity.
+  description: "Випускає кінетичні болти малої потужності, має більшу ємність для модифікацій."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Basic/kinetic_accelerator.rsi
