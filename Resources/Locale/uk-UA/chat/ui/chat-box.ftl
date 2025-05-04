@@ -1,4 +1,4 @@
-hud-chatbox-info = {$talk-key} щоб говорити, {$cycle-key} to cycle channels.
+hud-chatbox-info = {$talk-key} щоб говорити, {$cycle-key} щоб перемикати канали.
 hud-chatbox-info-talk = {$talk-key} щоб говорити.
 hud-chatbox-info-cycle = Натисніть тут, щоб поговорити, {$cycle-key}, щоб перемикати канали.
 hud-chatbox-info-unbound = Натисніть тут щоб говорити.
@@ -16,9 +16,9 @@ hud-chatbox-select-channel-Damage = Шкода
 hud-chatbox-select-channel-Visual = Дії
 hud-chatbox-select-channel-Radio = Радіо
 
-hud-chatbox-channel-Admin = Admin Інше
-hud-chatbox-channel-AdminAlert = Admin Тривога
-hud-chatbox-channel-AdminChat = Admin Чат
+hud-chatbox-channel-Admin = Адмін Інше
+hud-chatbox-channel-AdminAlert = Адмін Алерти
+hud-chatbox-channel-AdminChat = Адмін Чат
 hud-chatbox-channel-Dead = Мерці
 hud-chatbox-channel-Emotes = Емоції
 hud-chatbox-channel-Local = Говорити

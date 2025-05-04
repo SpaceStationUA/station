@@ -23,7 +23,7 @@ log-probe-label-number = #
 glimmer-monitor-program-name = Монітор Мерехтіння
 glimmer-monitor-current-glimmer = Мерехтіння: {$glimmer}Ψ
 glimmer-monitor-interval = Інтервал
-glimmer-monitor-sync = Оновити
+glimmer-monitor-sync = Синхронізувати
 
 astro-nav-program-name = АстроНав
 med-tek-program-name = МедТек

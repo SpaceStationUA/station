@@ -45,7 +45,7 @@ marking-LizardSnoutSharp-snout_sharp = Ящірка мордаста (гостр
 marking-LizardSnoutSharp = Морда Ящірки (Гостра)
 
 marking-LizardChestTiger-body_tiger = Скриня ящірки (тигра)
-marking-LizardChestTiger = Груди Ящірки (Тигр)
+marking-LizardChestTiger = Тулуб Ящірки (Тигр)
 
 marking-LizardHeadTiger-head_tiger = Голова ящірки (тигра)
 marking-LizardHeadTiger = Голова Ящірки (Тигр)
@@ -97,7 +97,7 @@ marking-LizardHornsFloppyKoboldEars-horns_floppy_kobold_ears = Вуха ящір
 marking-LizardHornsFloppyKoboldEars = Вуха Ящірки (Кобольд-Незграба)
 
 marking-LizardChestUnderbelly-body_underbelly = Грудна клітка ящірки (підчерев'я)
-marking-LizardChestUnderbelly = Груди Ящірки (Підчерев'я)
+marking-LizardChestUnderbelly = Тулуб Ящірки (Підчерев'я)
 
 marking-LizardChestBackspikes-body_backspikes = Шипи на спині ящірки (чотири)
 marking-LizardChestBackspikes = Шипи на спині Ящірки (Чотири)
