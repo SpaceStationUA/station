@@ -1,8 +1,8 @@
 - type: entity
   parent: MMI
   id: AiAdapter
-  name: "персональний адаптер ШІ"
-  description: "Пристрій, що дозволяє пШІ взаємодіяти з електронікою так, ніби це позитронний мозок."
+  name: personal ai adapter
+  description: A device that allows a pAI to interface with electronics as if it was a positronic brain.
   components:
     - type: Sprite
       sprite: _EE/Objects/Specific/Robotics/paiadapter.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: MMI
   id: ReverseMMI
-  name: "людино-машинний інтерфейс"
-  description: "Машина, здатна забезпечувати зв'язок між біологічним тілом та позитронікою, дозволяючи екіпажу продовжувати приносити користь після робочих інцидентів."
+  name: machine-man interface
+  description: A machine able to facilitate communication between a biological body and positronics, enabling crew to continue to provide value after work-related incidents.
   components:
     - type: Sprite
       sprite: _EE/Objects/Specific/Robotics/reversemmi.rsi

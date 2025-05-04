@@ -34,7 +34,7 @@
 - type: entity
   parent: PinpointerStation
   id: PinpointerStationUnremoveable
-  description: "Ти - станція. Знайди себе. Натисни E, щоб активувати."
+  description: You are the station. Find yourself. Press E to activate.
   suffix: Unremoveable
   components:
   - type: Unremoveable
@@ -46,8 +46,8 @@
 
 - type: entity
   id: ActionDroneOpenMap
-  name: "Відкрити Карту"
-  description: "Поглянь на себе."
+  name: Open Map
+  description: Look upon yourself.
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -58,8 +58,8 @@
 
 - type: entity
   id: ActionDronePlayMidi
-  name: "Грати MIDI"
-  description: "Створіть атмосферу."
+  name: Play MIDI
+  description: Contribute to the ambiance.
   components:
   - type: InstantAction
     checkCanInteract: false

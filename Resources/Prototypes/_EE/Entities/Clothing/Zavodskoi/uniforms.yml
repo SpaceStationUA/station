@@ -1,9 +1,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, ZavodInfo]
   id: ClothingUniformJumpsuitZavodAtmos
-  name: "комбінезон техніка атмосфери"
+  name: atmos technician jumpsuit
   suffix: Zavodskoi
-  description: "Уніформа, яку носять техніки атмосфери, що працюють за контрактом з Zavodskoi Interstellar"
+  description: A uniform worn by atmos techs contracted from Zavodskoi Interstellar
   components:
     - type: Sprite
       sprite: _EE/Clothing/Zavodskoi/Uniforms/zav_atmos.rsi
@@ -13,9 +13,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, ZavodInfo]
   id: ClothingUniformJumpsuitZavodCadet
-  name: "комбінезон кадета служби безпеки"
+  name: security cadet jumpsuit
   suffix: Zavodskoi
-  description: "Уніформа, яку носять кадети служби безпеки, що працюють за контрактом з Zavodskoi Interstellar"
+  description: A uniform worn by security cadets contracted from Zavodskoi Interstellar
   components:
     - type: Sprite
       sprite: _EE/Clothing/Zavodskoi/Uniforms/zav_cadet.rsi
@@ -25,9 +25,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, ZavodInfo]
   id: ClothingUniformJumpsuitZavodDetective
-  name: "комбінезон детектива"
+  name: detective jumpsuit
   suffix: Zavodskoi
-  description: "Уніформа, яку носять детективи, що працюють за контрактом з Zavodskoi Interstellar"
+  description: A uniform worn by detectives contracted from Zavodskoi Interstellar
   components:
     - type: Sprite
       sprite: _EE/Clothing/Zavodskoi/Uniforms/zav_detective.rsi
@@ -37,9 +37,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, ZavodInfo]
   id: ClothingUniformJumpsuitZavodDetectiveAlt
-  name: "комбінезон детектива"
+  name: detective jumpsuit
   suffix: Zavodskoi, Alt
-  description: "Уніформа, яку носять детективи, що працюють за контрактом з Zavodskoi Interstellar"
+  description: A uniform worn by detectives contracted from Zavodskoi Interstellar
   components:
     - type: Sprite
       sprite: _EE/Clothing/Zavodskoi/Uniforms/zav_detective_alt.rsi
@@ -49,9 +49,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, ZavodInfo]
   id: ClothingUniformJumpsuitZavodEngineer
-  name: "комбінезон інженера"
+  name: engineer jumpsuit
   suffix: Zavodskoi
-  description: "Уніформа, яку носять інженери, що працюють за контрактом з Zavodskoi Interstellar"
+  description: A uniform worn by engineers contracted from Zavodskoi Interstellar
   components:
     - type: Sprite
       sprite: _EE/Clothing/Zavodskoi/Uniforms/zav_engineer.rsi
@@ -61,9 +61,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, ZavodInfo]
   id: ClothingUniformJumpsuitZavodEngineerApprentice
-  name: "комбінезон інженера-учня"
+  name: apprentice engineer jumpsuit
   suffix: Zavodskoi
-  description: "Уніформа, яку носять інженери-учні, що працюють за контрактом з Zavodskoi Interstellar"
+  description: A uniform worn by engineering apprentices contracted from Zavodskoi Interstellar
   components:
     - type: Sprite
       sprite: _EE/Clothing/Zavodskoi/Uniforms/zav_engineering_apprentice.rsi
@@ -73,9 +73,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, ZavodInfo]
   id: ClothingUniformJumpsuitZavodSecurityOfficer
-  name: "комбінезон офіцера служби безпеки"
+  name: security officer jumpsuit
   suffix: Zavodskoi
-  description: "Уніформа, яку носять офіцери служби безпеки, що працюють за контрактом з Zavodskoi Interstellar"
+  description: A uniform worn by security officers contracted from Zavodskoi Interstellar
   components:
     - type: Sprite
       sprite: _EE/Clothing/Zavodskoi/Uniforms/zav_officer.rsi
@@ -85,9 +85,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, ZavodInfo]
   id: ClothingUniformJumpsuitZavodSecurityOfficerAlt1
-  name: "комбінезон офіцера служби безпеки"
+  name: security officer jumpsuit
   suffix: Zavodskoi, alt 1
-  description: "Уніформа, яку носять офіцери служби безпеки, що працюють за контрактом з Zavodskoi Interstellar"
+  description: A uniform worn by security officers contracted from Zavodskoi Interstellar
   components:
     - type: Sprite
       sprite: _EE/Clothing/Zavodskoi/Uniforms/zav_officer_alt1.rsi
@@ -97,9 +97,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, ZavodInfo]
   id: ClothingUniformJumpsuitZavodSecurityOfficerAlt2
-  name: "комбінезон офіцера служби безпеки"
+  name: security officer jumpsuit
   suffix: Zavodskoi, alt 2
-  description: "Уніформа, яку носять офіцери служби безпеки, що працюють за контрактом з Zavodskoi Interstellar"
+  description: A uniform worn by security officers contracted from Zavodskoi Interstellar
   components:
     - type: Sprite
       sprite: _EE/Clothing/Zavodskoi/Uniforms/zav_officer_alt2.rsi
@@ -109,9 +109,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, ZavodInfo]
   id: ClothingUniformJumpsuitZavodWarden
-  name: "комбінезон наглядача"
+  name: warden jumpsuit
   suffix: Zavodskoi
-  description: "Уніформа, яку носять наглядачі, що працюють за контрактом з Zavodskoi Interstellar"
+  description: A uniform worn by wardens contracted from Zavodskoi Interstellar
   components:
     - type: Sprite
       sprite: _EE/Clothing/Zavodskoi/Uniforms/zav_warden.rsi

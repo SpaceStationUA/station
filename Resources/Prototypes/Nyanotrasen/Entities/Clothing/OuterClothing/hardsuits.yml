@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterHardsuitRd
   id: ClothingOuterHardsuitMystagogue
-  name: "скафандр Наукового Директора"
-  description: "Легкий хардкостюм, що має шолом з першою в галактиці системою псионного проходження."
+  name: mystagogue's hardsuit
+  description: Lightweight hardsuit that has a helmet with a galaxy-first psionic passthrough system.
   components:
   - type: ToggleableClothing
     replaceCurrentClothing: true
@@ -13,7 +13,7 @@
   parent: ClothingOuterHardsuitSyndie
   id: ClothingOuterHardsuitSyndieReverseEngineered
   suffix: reverse-engineered
-  name: "Бойовий костюм SA-122"
+  name: SA-122 combat hardsuit
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/ReverseEngineering/syndicate.rsi
@@ -28,8 +28,8 @@
   parent: ClothingOuterHardsuitJuggernaut
   id: ClothingOuterHardsuitJuggernautReverseEngineered
   suffix: reverse-engineered
-  name: "Штурмовий костюм SA-126"
-  description: "Костюм, виготовлений відділом спеціальних придбань компанії \"НаноТрейзен\", щоб бути надміцним."
+  name: SA-126 assault hardsuit
+  description: A suit made by the special acquisitions department of Nanotrasen to be hyper resilient.
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/ReverseEngineering/juggernaut.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: ClothingOuterHardsuitERTLeader
   id: ClothingOuterHardsuitERTCentcomm
-  name: "Захисний костюм CentCom"
+  name: CentCom hardsuit
   components:
   - type: Sprite
     sprite: Nyanotrasen/Clothing/OuterClothing/Hardsuits/ERTSuits/ertcentcomm.rsi
