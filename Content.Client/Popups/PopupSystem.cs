@@ -1,4 +1,7 @@
 using System.Linq;
+using Content.Client.UserInterface.Systems.Chat; //GoobStation log popups in the chat
+using Content.Shared._Goobstation.CCVar; //GoobStation log popups in the chat
+using Content.Shared.Chat; //GoobStation log popups in the chat
 using Content.Shared.Examine;
 using Content.Shared.GameTicking;
 using Content.Shared.Popups;
@@ -39,6 +42,18 @@ namespace Content.Client.Popups
         public const float MaximumPopupLifetime = 5f;
         public const float PopupLifetimePerCharacter = 0.04f;
 
+        // GoobStation log popups in the chat START
+        // Font size mapping for popups logged to chat
+        private static readonly Dictionary<PopupType, string> FontSizeDict = new()
+        {
+            { PopupType.Medium, "12" },
+            { PopupType.MediumCaution, "12" },
+            { PopupType.Large, "15" },
+            { PopupType.LargeCaution, "15" }
+        };
+        private bool _shouldLogInChat;
+        // GoobStation log popups in the chat END
+
         public override void Initialize()
         {
             SubscribeNetworkEvent<PopupCursorEvent>(OnPopupCursorEvent);
@@ -56,7 +71,12 @@ namespace Content.Client.Popups
                     _examine,
                     _transform,
                     this));
-        }
+
+           // GoobStation log popups in the chat START
+           _shouldLogInChat = _configManager.GetCVar(GoobCVars.LogInChat);
+           _configManager.OnValueChanged(GoobCVars.LogInChat, log => { _shouldLogInChat = log; });
+           // GoobStation log popups in the chat END
+       }
 
         public override void Shutdown()
         {
@@ -85,7 +105,27 @@ namespace Content.Client.Popups
             };
 
             _aliveWorldLabels.Add(label);
-        }
+
+           // GoobStation log popups in the chat START
+           // Log to chat if enabled and in range
+           if (_shouldLogInChat &&
+               _playerManager.LocalEntity != null &&
+               _examine.InRangeUnOccluded(_playerManager.LocalEntity.Value, coordinates, 10)) // Check range
+           {
+               var fontsize = FontSizeDict.GetValueOrDefault(type, "10");
+               var fontcolor = type is PopupType.LargeCaution or PopupType.MediumCaution or PopupType.SmallCaution
+                   ? "#C62828" // Caution color
+                   : "#AEABC4"; // Default color
+
+               // Format message with BBCode for chat
+               var wrappedMessage = $"[font size={fontsize}][color={fontcolor}]{message}[/color][/font]";
+               // Create ChatMessage (using Emotes channel like the original)
+               var chatMsg = new ChatMessage(ChatChannel.Emotes, message, wrappedMessage, GetNetEntity(EntityUid.Invalid), null);
+               // Send to chat UI
+               _uiManager.GetUIController<ChatUIController>().ProcessChatMessage(chatMsg);
+           }
+           // GoobStation log popups in the chat END
+       }
 
         #region Abstract Method Implementations
         public override void PopupCoordinates(string? message, EntityCoordinates coordinates, PopupType type = PopupType.Small)
