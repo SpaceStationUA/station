@@ -11,7 +11,7 @@ mail-unlocked-by-emag = Захисну систему *BZZT*.
 mail-unlocked-reward = Захисну систему розблоковано. На рахунок логістики додано {$bounty} спесо.
 mail-penalty-lock = ЗЛАМАНО ЗАХИСНИЙ ЗАМОК. РАХУНОК ЛОГІСТИКИ ШТРАФОВАНО НА {$credits} СПЕСО.
 mail-penalty-fragile = ЦІЛІСНІСТЬ ПОРУШЕНО. РАХУНОК ЛОГІСТИКИ ШТРАФОВАНО НА {$credits} СПЕСО.
-mail-penalty-expired = ТЕРМІН ДОСТАВКИ ПРОЙШОВ. РАХУНОК ЛОГІСТИКИ ШТРАФОВАНО НА {$credits} СПЕСО.
+mail-penalty-expired = ТЕРМІН ДОСТАВКИ ПРОСТРОЧЕНИЙ. РАХУНОК ЛОГІСТИКИ ШТРАФОВАНО НА {$credits} СПЕСО.
 mail-item-name-unaddressed = пошта
 mail-item-name-addressed = пошта ({$recipient})
 

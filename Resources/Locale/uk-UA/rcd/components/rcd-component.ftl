@@ -24,10 +24,10 @@ rcd-component-examine-build-details = Наразі встановлено збі
 ### Повідомлення про взаємодію
 
 # Зміна режиму
-rcd-component-change-build-mode = Тепер RCD налаштовано на збірку {MAKEPLURAL($name)}.
+rcd-component-change-build-mode = Тепер RCD налаштовано на збірку {$name}.
 
 # Кількість набоїв
-rcd-component-insufficient-ammo-message = У ПЗР не вистачає зарядів!
+rcd-component-insufficient-ammo-message = У RCD не вистачає зарядів!
 
 # Деконструкція
 rcd-component-nothing-to-deconstruct-message = Тут немає чого деконструювати!

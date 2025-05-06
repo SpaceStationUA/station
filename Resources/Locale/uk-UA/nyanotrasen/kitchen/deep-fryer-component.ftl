@@ -23,18 +23,18 @@ deep-fryer-window-title = Фритюрниця
 deep-fryer-label-baskets = Кошики
 deep-fryer-label-oil-level = Рівень олії
 deep-fryer-label-oil-purity = Чистота олії
-deep-fryer-button-insert-item = Вставити предмет
+deep-fryer-button-insert-item = Вставити Предмет
 deep-fryer-button-insert-item-tooltip = Покладіть предмет, який ви тримаєте, в один із кошиків фритюрниці.
-deep-fryer-button-scoop-vat = Зібрати рідину
+deep-fryer-button-scoop-vat = Зібрати Рідину
 deep-fryer-button-scoop-vat-tooltip = Вийміть трохи рідини з ємності для масла. Для цього потрібно тримати ємність для рідини.
-deep-fryer-button-clear-slag = Чистити шлак
+deep-fryer-button-clear-slag = Чистити Шлак
 deep-fryer-button-clear-slag-tooltip = Очистіть відходи з баку для масла. Для цього потрібно тримати ємність для рідини.
-deep-fryer-button-remove-all-items = Вийняти всі предмети
+deep-fryer-button-remove-all-items = Вийняти Всі Предмети
 deep-fryer-button-remove-all-items-tooltip = Відразу вийміть усі предмети з кошиків фритюрниці.
 
 ## DeepFriedComponent
 
-deep-fried-crispy-item = хрусткий {$entity}
+deep-fried-crispy-item = хрустке {$entity}
 deep-fried-crispy-item-examine = Він покритий хрусткою маслянистою консистенцією.
 
 deep-fried-fried-item = обсмажене {$entity}

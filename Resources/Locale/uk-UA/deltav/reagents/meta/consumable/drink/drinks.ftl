@@ -1,5 +1,5 @@
 reagent-name-kvass = квас
-reagent-desc-kvass = Прохолодний освіжаючий напій зі смаком соціалізму.
+reagent-desc-kvass = Прохолодний напій, що освіжає.
 
 reagent-name-gunmetal = гарматний металл
 reagent-desc-gunmetal = Суперечливий напій, вперше змішаний Solus Cream, відомим як перший бармен, який подав зварювальне паливо в коктейлі - не втративши при цьому ліцензію на продаж алкоголю.
@@ -19,7 +19,7 @@ reagent-desc-arsonistsbrew = Зробіть ковток і посмійтеся
 reagent-name-healthviolation = порушення санітарних норм
 reagent-desc-healthviolation = Нібито це коктейль. Мотив попереджувального конуса здається доречним.
 
-reagent-name-mothamphetamine = мотамфетамін
+reagent-name-mothamphetamine = молькамфетамін
 reagent-desc-mothamphetamine = Дивно... розмитий напій. У нього хаотична аура.
 
 reagent-name-double-ice-cream = Подвійне морозиво

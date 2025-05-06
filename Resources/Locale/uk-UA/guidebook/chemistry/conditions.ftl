@@ -14,7 +14,7 @@ reagent-effect-condition-guidebook-reagent-threshold = { $max ->
                  }
     }
 
-reagent-effect-condition-guidebook-mob-state-condition = моб - це { $state }
+reagent-effect-condition-guidebook-mob-state-condition = моб - { $state }
 
 reagent-effect-condition-guidebook-solution-temperature = температура розчину дорівнює { $max ->
             [2147483648] не менше {NATURALFIXED($min, 2)}k

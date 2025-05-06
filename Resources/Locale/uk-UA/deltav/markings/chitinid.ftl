@@ -54,7 +54,7 @@ marking-ChitinidWingsFirefly = Хвіст (світлячок)
 
 
 
-marking-ChitinidChestCharred-charred_chest = Груди
+marking-ChitinidChestCharred-charred_chest = Тулуб
 marking-ChitinidChestCharred = Хітинова скриня (обвуглена)
 
 marking-ChitinidHeadCharred-charred_head = Голова
@@ -74,8 +74,8 @@ marking-ChitinidRArmCharred = Хітинідна права рука (обвуг
 
 
 
-marking-ChitinidChestPlated-plated_chest = Груди
-marking-ChitinidChestPlated = Груди з хітиніду (з покриттям)
+marking-ChitinidChestPlated-plated_chest = Тулуб
+marking-ChitinidChestPlated = Тулуб Хітиніда (з покриттям)
 
 marking-ChitinidLArmPlated-plated_l_arm = Ліва рука
 marking-ChitinidLArmPlated = Ліва рука з хітиніду (з покриттям)
@@ -85,8 +85,8 @@ marking-ChitinidRArmPlated = Хітинідна права рука (з покр
 
 
 
-marking-ChitinidChestStripes-stripes_chest = Груди
-marking-ChitinidChestStripes = Хітинові груди (смужки)
+marking-ChitinidChestStripes-stripes_chest = Тулуб
+marking-ChitinidChestStripes = Хітиновий Тулуб (смужки)
 
 marking-ChitinidHeadStripes-stripes_head = Голова
 marking-ChitinidHeadStripes = Хітинідна голова (смужки)
@@ -105,8 +105,8 @@ marking-ChitinidRArmStripes = Хітинідна права рука (смужк
 
 
 
-marking-ChitinidChestRadiant-radiant_chest = Груди
-marking-ChitinidChestRadiant = Груди з хітиніду (променисті)
+marking-ChitinidChestRadiant-radiant_chest = Тулуб
+marking-ChitinidChestRadiant = Тулуб з хітиніду (променистий)
 
 marking-ChitinidHeadRadiant-radiant_head = Голова
 marking-ChitinidHeadRadiant = Хітинідна голова (промениста)
@@ -125,10 +125,10 @@ marking-ChitinidRArmRadiant = Хітинідна права рука (проме
 
 
 
-marking-ChitinidChestToxic-toxic_chest = Груди
-marking-ChitinidChestToxic = Хітинові груди (токсичні)
+marking-ChitinidChestToxic-toxic_chest = Тулуб
+marking-ChitinidChestToxic = Хітиновий Тулуб (токсичний)
 
-marking-ChitinidHeadToxic-toxic_head = Голова 
+marking-ChitinidHeadToxic-toxic_head = Голова
 marking-ChitinidHeadToxic = Хітинідна голова (токсична)
 
 marking-ChitinidLLegToxic-toxic_l_leg = Ліва нога
@@ -145,8 +145,8 @@ marking-ChitinidRArmToxic = Хітинідна права рука (токсич
 
 
 
-marking-ChitinidChestSpotted-spotted_chest = Груди
-marking-ChitinidChestSpotted = Хітинідні груди (плямисті)
+marking-ChitinidChestSpotted-spotted_chest = Тулуб
+marking-ChitinidChestSpotted = Хітинідний Тулуб (плямистий)
 
 marking-ChitinidHeadSpotted-spotted_head = Голова
 marking-ChitinidHeadSpotted = Хітинідна голова (плямиста)

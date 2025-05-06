@@ -11,7 +11,7 @@ sealable-clothing-seal-up-boots = Ущільнювач {$partName} приляг�
 sealable-clothing-seal-down = Відбувається розпечатування {$partName}
 sealable-clothing-seal-down-helmet = {$partName} з шипінням відкривається.
 sealable-clothing-seal-down-gauntlets = {$partName} розхитується навколо ваших пальців.
-sealable-clothing-seal-down-chestplate = {$partName} звільняє ваші груди.
+sealable-clothing-seal-down-chestplate = {$partName} звільняє ваш тулуб.
 sealable-clothing-seal-down-boots = {$partName} послаблює свою хватку на ваших ногах.
 
 sealable-clothing-sealed-process-toggle-fail = Костюм вже вимикається!
