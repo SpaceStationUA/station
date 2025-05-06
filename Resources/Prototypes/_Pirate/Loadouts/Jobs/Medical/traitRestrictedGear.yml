@@ -1,0 +1,1150 @@
+# Chemist RestrictedGear loadouts
+# Backpacks
+
+- type: loadout
+  id: LoadoutChemistRestrictedGearBackpackBackpack
+  category: JobsMedicalChemist
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelChemistry
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+- type: loadout
+  id: LoadoutBackpackRestrictedGearSatchelChemistry
+  category: JobsMedicalChemist
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelChemistry
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+- type: loadout
+  id: LoadoutBackpackRestrictedGearDuffelChemistry
+  category: JobsMedicalChemist
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackDuffelChemistry
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+# Eyes
+
+- type: loadout
+  id: LoadoutMedicalRestrictedGearEyesGlassesChemist
+  category: JobsMedicalChemist
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistEyes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingEyesGlassesChemist
+
+# Gloves
+
+- type: loadout
+  id: LoadoutMedicalRestrictedGearHandsGlovesChemist
+  category: JobsMedicalChemist
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistGloves
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHandsGlovesChemist
+
+# Neck
+
+- type: loadout
+  id: LoadoutMedicalRestrictedGearNeckTieChem
+  category: JobsMedicalChemist
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckTieChem
+
+# Outer
+
+- type: loadout
+  id: LoadoutChemistRestrictedGearWinterCoat
+  category: JobsMedicalChemist
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterChem
+
+- type: loadout
+  id: LoadoutMedicalRestrictedGearOuterLabcoatChem
+  category: JobsMedicalChemist
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterCoatLabChem
+
+- type: loadout
+  id: LoadoutMedicalRestrictedGearOuterApronChemist
+  category: JobsMedicalChemist
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterApronChemist
+
+# Shoes
+
+- type: loadout
+  id: LoadoutMedicalRestrictedGearShoesEnclosedChem
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesEnclosedChem
+
+# Uniforms
+
+- type: loadout
+  id: LoadoutMedicalRestrictedGearUniformJumpsuitChemShirt
+  category: JobsMedicalChemist
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitChemShirt
+
+- type: loadout
+  id: LoadoutMedicalRestrictedGearUniformJumpsuitChemistry
+  category: JobsMedicalChemist
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitChemistry
+
+- type: loadout
+  id: LoadoutMedicalRestrictedGearUniformJumpskirtChemistry
+  category: JobsMedicalChemist
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChemistUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtChemistry
+
+# Chief Medical Officer RestrictedGear loadouts
+# Head
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCMOHatBeret
+  category: JobsMedicalChiefMedicalOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatBeretCmo
+
+- type: loadout
+  id: LoadoutClothingRestrictedGearHeadMirror
+  category: JobsMedicalChiefMedicalOfficer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadMirror
+
+# Neck
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCMONeckMantle
+  category: JobsMedicalChiefMedicalOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckMantleCMO
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCMONeckCloak
+  category: JobsMedicalChiefMedicalOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingCloakCmo
+
+- type: loadout
+  id: LoadoutChiefMedicalOfficerRestrictedGearNeckMedalMedical
+  category: JobsMedicalChiefMedicalOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckMedicalmedal
+
+# Outer
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCMOOuterWinter
+  category: JobsMedicalChiefMedicalOfficer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterCMO
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCMOOuterLab
+  category: JobsMedicalChiefMedicalOfficer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterCoatLabCmo
+
+# Shoes
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCMOShoesBootsWinter
+  category: JobsMedicalChiefMedicalOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsWinterChiefMedicalOfficer
+
+- type: loadout
+  id: LoadoutChiefMedicalOfficerRestrictedGearShoesLaceup
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsLaceup
+
+- type: loadout
+  id: LoadoutChiefMedicalOfficerRestrictedGearShoesLeather
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesLeather
+
+# Uniforms
+
+- type: loadout
+  id: LoadoutChiefMedicalOfficerRestrictedGearJumpsuit
+  category: JobsMedicalChiefMedicalOfficer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitCMO
+
+- type: loadout
+  id: LoadoutChiefMedicalOfficerRestrictedGearJumpskirt
+  category: JobsMedicalChiefMedicalOfficer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtCMO
+
+- type: loadout
+  id: LoadoutChiefMedicalOfficerRestrictedGearTurtleskirt
+  category: JobsMedicalChiefMedicalOfficer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtCMOTurtle
+
+- type: loadout
+  id: LoadoutChiefMedicalOfficerRestrictedGearTurtlesuit
+  category: JobsMedicalChiefMedicalOfficer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefMedicalOfficerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefMedicalOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitCMOTurtle
+
+# Medical Doctor RestrictedGear loadouts
+
+# Head
+
+- type: loadout
+  id: LoadoutMedicalRestrictedGearHeadNurse
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalDoctorHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - MedicalDoctor
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadNurseHat
+
+# Uniforms
+
+- type: loadout
+  id: LoadoutMedicalDoctorRestrictedGearJumpsuit
+  category: JobsMedicalMedicalDoctor
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalDoctorUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - MedicalDoctor
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitMedicalDoctor
+
+- type: loadout
+  id: LoadoutMedicalDoctorRestrictedGearJumpskirt
+  category: JobsMedicalMedicalDoctor
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalDoctorUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - MedicalDoctor
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtMedicalDoctor
+
+# Medical Intern RestrictedGear loadouts
+
+# Paramedic RestrictedGear loadouts
+# Uniforms
+
+- type: loadout
+  id: LoadoutMedicalRestrictedGearUniformParamedicJumpsuit
+  category: JobsMedicalParamedic
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutParamedicUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Paramedic
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitParamedic
+
+- type: loadout
+  id: LoadoutMedicalRestrictedGearUniformParamedicJumpskirt
+  category: JobsMedicalParamedic
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutParamedicUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Paramedic
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtParamedic
+
+# Psychologist RestrictedGear loadouts
+
+# Uniforms
+
+- type: loadout
+  id: LoadoutPsychologistRestrictedGearJumpsuit
+  category: JobsMedicalPsychologist
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsychologistUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Psychologist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitPsychologist
+
+- type: loadout
+  id: LoadoutPsychologistRestrictedGearJumpskirt
+  category: JobsMedicalPsychologist
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsychologistUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Psychologist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitPsychologist
+
+# Senior Physician RestrictedGear loadouts
+# Head
+
+- type: loadout
+  id: LoadoutMedicalRestrictedGearHeadBeretSeniorPhysician
+  category: JobsMedicalSeniorPhysician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSeniorPhysicianHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SeniorPhysician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatBeretSeniorPhysician
+
+# Uniforms
+
+- type: loadout
+  id: LoadoutMedicalUniformJumpskirtSeniorRestrictedGear
+  category: JobsMedicalSeniorPhysician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSeniorPhysicianUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SeniorPhysician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtSeniorPhysician
+
+
+- type: loadout
+  id: LoadoutMedicalUniformJumpsuitSeniorRestrictedGear
+  category: JobsMedicalSeniorPhysician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSeniorPhysicianUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SeniorPhysician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitSeniorPhysician
+
+# Uncategorized
+# Backpacks
+
+- type: loadout
+  id: LoadoutBackpackMedicalRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackMedical
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+
+- type: loadout
+  id: LoadoutBackpackVirologyRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackVirology
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+
+- type: loadout
+  id: LoadoutBackpackGeneticsRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackGenetics
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+
+- type: loadout
+  id: LoadoutBackpackSatchelMedicalRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelMedical
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+
+- type: loadout
+  id: LoadoutBackpackSatchelVirologyRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelVirology
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+
+- type: loadout
+  id: LoadoutBackpackSatchelGeneticsRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelGenetics
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+
+- type: loadout
+  id: LoadoutBackpackDuffelMedicalRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackDuffelMedical
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+
+- type: loadout
+  id: LoadoutBackpackDuffelVirologyRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackDuffelVirology
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+
+- type: loadout
+  id: LoadoutBackpackDuffelGeneticsRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackDuffelGenetics
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+# Gloves
+
+- type: loadout
+  id: LoadoutMedicalGlovesNitrileRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalGloves
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHandsGlovesNitrile
+
+
+- type: loadout
+  id: LoadoutMedicalGlovesLatexRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalGloves
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHandsGlovesLatex
+
+# Head
+
+- type: loadout
+  id: LoadoutMedicalHeadSurgcapBlueRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatSurgcapBlue
+
+
+- type: loadout
+  id: LoadoutMedicalHeadSurgcapPurpleRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatSurgcapPurple
+
+
+- type: loadout
+  id: LoadoutMedicalHeadSurgcapGreenRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatSurgcapGreen
+
+
+- type: loadout
+  id: LoadoutMedicalHeadSurgcapCyanRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatSurgcapCyan
+
+
+- type: loadout
+  id: LoadoutMedicalHeadSurgcapBlackRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatSurgcapBlack
+
+
+- type: loadout
+  id: LoadoutMedicalHeadSurgcapPinkRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatSurgcapPink
+
+
+- type: loadout
+  id: LoadoutMedicalHeadSurgcapWhiteRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatSurgcapWhite
+
+
+- type: loadout
+  id: LoadoutMedicalHeadSurgcapCybersunRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - MedicalDoctor
+        - Chemist
+        - Paramedic
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatSurgcapCybersun
+
+# Neck
+
+- type: loadout
+  id: LoadoutMedicalNeckStethoscopeRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalNeck
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckStethoscope
+
+# Outer
+
+- type: loadout
+  id: LoadoutMedicalOuterWinterCoatRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalOuter
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Medical
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterMed
+
+
+- type: loadout
+  id: LoadoutMedicalOuterLabcoatRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - MedicalDoctor
+        - Chemist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterCoatLab
+
+
+- type: loadout
+  id: LoadoutMedicalOuterCybersunWindbreakerRestrictedGear
+  category: JobsMedicalAUncategorized
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMedicalOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - MedicalDoctor
+        - Chemist
+        - Paramedic
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterCoatCybersunWindbreaker
