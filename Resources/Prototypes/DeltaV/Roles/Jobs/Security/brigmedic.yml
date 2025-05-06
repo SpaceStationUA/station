@@ -51,8 +51,6 @@
     charges: 6
   - !type:ModifyEnvirohelmSpecial
     powerCell: PowerCellHigh
-  - !type:AddTraitSpecial # PIRATE SEC BUFF
-    traits: [ PlateletFactories, BionicArm ]
 
 - type: startingGear
   id: CorpsmanGear # see Prototypes/Roles/Jobs/Fun/misc_startinggear.yml for "BrigmedicGear"
