@@ -455,3 +455,14 @@ Entries:
     id: 70
     time: '2025-05-06T14:03:24.0000000+00:00'
     url: https://github.com/SpaceStationUA/station/pull/89
+  - author: CarryUa
+    changes:
+      - type: Remove
+        message: СБ більше не має біоніку за замовчуванням
+      - type: Add
+        message: >-
+          Додано нові трейти BionicArmSec та PlateletFactoriesSec для СБ зі
+          зниженою вартістю (-2 поінти)
+    id: 71
+    time: '2025-05-06T14:04:27.0000000+00:00'
+    url: https://github.com/SpaceStationUA/station/pull/92
