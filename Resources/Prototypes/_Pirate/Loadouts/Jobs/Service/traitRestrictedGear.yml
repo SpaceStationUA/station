@@ -1,0 +1,1057 @@
+# Bartender
+
+# Head
+- type: loadout
+  id: LoadoutServiceHeadBartenderNtRestrictedGear
+  category: JobsServiceBartender
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBartenderHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Bartender
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatFlatcapBartenderNanotrasen
+
+- type: loadout
+  id: LoadoutServiceHeadBartenderIdrisRestrictedGear
+  category: JobsServiceBartender
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBartenderHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Bartender
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatFlatcapBartenderIdris
+
+- type: loadout
+  id: LoadoutServiceHeadBartenderOrionRestrictedGear
+  category: JobsServiceBartender
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBartenderHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Bartender
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatFlatcapBartenderOrion
+
+# Outer
+- type: loadout
+  id: LoadoutServiceBartenderWinterCoatRestrictedGear
+  category: JobsServiceBartender
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBartenderOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Bartender
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterBar
+
+# Uniforms
+- type: loadout
+  id: LoadoutServiceBartenderUniformPurpleRestrictedGear
+  category: JobsServiceBartender
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBartenderUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Bartender
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitBartenderPurple
+
+- type: loadout
+  id: LoadoutServiceJumpsuitBartenderNtRestrictedGear
+  category: JobsServiceBartender
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBartenderUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Bartender
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitBartenderNt
+
+- type: loadout
+  id: LoadoutServiceJumpsuitBartenderIdrisRestrictedGear
+  category: JobsServiceBartender
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBartenderUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Bartender
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitBartenderIdris
+
+- type: loadout
+  id: LoadoutServiceJumpsuitBartenderOrionRestrictedGear
+  category: JobsServiceBartender
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBartenderUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Bartender
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitBartenderOrion
+
+# Botanist
+
+# Outer
+- type: loadout
+  id: LoadoutServiceBotanistWinterCoatRestrictedGear
+  category: JobsServiceBotanist
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBotanistOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Botanist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterHydro
+
+# Uniforms
+- type: loadout
+  id: LoadoutServiceBotanistUniformOverallsRestrictedGear
+  category: JobsServiceBotanist
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBotanistUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Botanist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformOveralls
+
+- type: loadout
+  id: LoadoutServiceJumpsuitHydroponicsNtRestrictedGear
+  category: JobsServiceBotanist
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBotanistUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Botanist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitHydroponicsNt
+
+- type: loadout
+  id: LoadoutServiceJumpsuitHydroponicsIdrisRestrictedGear
+  category: JobsServiceBotanist
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBotanistUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Botanist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitHydroponicsIdris
+
+- type: loadout
+  id: LoadoutServiceJumpsuitHydroponicsOrionRestrictedGear
+  category: JobsServiceBotanist
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBotanistUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Botanist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitHydroponicsOrion
+
+# Chef
+
+# Head
+- type: loadout
+  id: LoadoutServiceHeadChefNtRestrictedGear
+  category: JobsServiceChef
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChefHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chef
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatChefNt
+
+- type: loadout
+  id: LoadoutServiceHeadChefIdrisRestrictedGear
+  category: JobsServiceChef
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChefHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chef
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatChefIdris
+
+- type: loadout
+  id: LoadoutServiceHeadChefOrionRestrictedGear
+  category: JobsServiceChef
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChefHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chef
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatChefOrion
+
+# Outer
+- type: loadout
+  id: LoadoutServiceOuterChefNtRestrictedGear
+  category: JobsServiceChef
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChefOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chef
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterJacketChefNt
+
+- type: loadout
+  id: LoadoutServiceOuterChefIdrisRestrictedGear
+  category: JobsServiceChef
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChefOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chef
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterJacketChefIdris
+
+- type: loadout
+  id: LoadoutServiceOuterChefOrionRestrictedGear
+  category: JobsServiceChef
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChefOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chef
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterJacketChefOrion
+
+# Uniforms
+- type: loadout
+  id: LoadoutServiceJumpsuitChefNtRestrictedGear
+  category: JobsServiceChef
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChefUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chef
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitChefNt
+
+- type: loadout
+  id: LoadoutServiceJumpsuitChefIdrisRestrictedGear
+  category: JobsServiceChef
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChefUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chef
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitChefIdris
+
+- type: loadout
+  id: LoadoutServiceJumpsuitChefOrionRestrictedGear
+  category: JobsServiceChef
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChefUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chef
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitChefOrion
+
+# Clown
+
+# Backpacks
+- type: loadout
+  id: LoadoutBackpackClownRestrictedGear
+  category: JobsServiceClown
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutClownBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Clown
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackClown
+
+- type: loadout
+  id: LoadoutBackpackSatchelClownRestrictedGear
+  category: JobsServiceClown
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutClownBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Clown
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackSatchelClown
+
+- type: loadout
+  id: LoadoutBackpackDuffelClownRestrictedGear
+  category: JobsServiceClown
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutClownBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Clown
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackDuffelClown
+
+# Neck
+- type: loadout
+  id: LoadoutServiceClownMaskSexyRestrictedGear
+  category: JobsServiceClown
+  cost: 3
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutClownMask
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Clown
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingMaskSexyClown
+
+# Outer
+- type: loadout
+  id: LoadoutServiceClownOuterWinterRestrictedGear
+  category: JobsServiceClown
+  cost: 2
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutClownOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Clown
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterClown
+
+- type: loadout
+  id: LoadoutServiceClownOuterClownPriestRestrictedGear
+  category: JobsServiceClown
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutClownOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Clown
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterClownPriest
+
+# Shoes
+- type: loadout
+  id: LoadoutServiceClownBootsWinterRestrictedGear
+  category: JobsServiceClown
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutClownShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Clown
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsWinterClown
+
+# Uniforms
+- type: loadout
+  id: LoadoutServiceClownOutfitJesterRestrictedGear
+  category: JobsServiceClown
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutClownUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Clown
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitJester
+    - ClothingHeadHatJester
+    - ClothingShoesJester
+
+- type: loadout
+  id: LoadoutServiceClownOutfitJesterAltRestrictedGear
+  category: JobsServiceClown
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutClownUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Clown
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitJesterAlt
+    - ClothingHeadHatJesterAlt
+    - ClothingShoesJester
+
+# Janitor
+
+# Outer
+- type: loadout
+  id: LoadoutServiceWinterCoatJanitorRestrictedGear
+  category: JobsServiceJanitor
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutJanitorOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Janitor
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterJani
+
+# Uniforms
+- type: loadout
+  id: LoadoutServiceJumpsuitJanitorNtRestrictedGear
+  category: JobsServiceJanitor
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutJanitorUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Janitor
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitJanitorNt
+
+- type: loadout
+  id: LoadoutServiceJumpsuitJanitorIdrisRestrictedGear
+  category: JobsServiceJanitor
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutJanitorUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Janitor
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitJanitorIdris
+
+- type: loadout
+  id: LoadoutServiceJumpsuitJanitorOrionRestrictedGear
+  category: JobsServiceJanitor
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutJanitorUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Janitor
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitJanitorOrion
+
+# Lawyer
+
+# Uniforms
+- type: loadout
+  id: LoadoutServiceLawyerUniformBlueSuitRestrictedGear
+  category: JobsServiceLawyer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLawyerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Lawyer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitLawyerBlue
+
+- type: loadout
+  id: LoadoutServiceLawyerUniformBlueSkirtRestrictedGear
+  category: JobsServiceLawyer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLawyerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Lawyer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtLawyerBlue
+
+- type: loadout
+  id: LoadoutServiceLawyerUniformRedSuitRestrictedGear
+  category: JobsServiceLawyer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLawyerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Lawyer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitLawyerRed
+
+- type: loadout
+  id: LoadoutServiceLawyerUniformRedSkirtRestrictedGear
+  category: JobsServiceLawyer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLawyerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Lawyer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtLawyerRed
+
+- type: loadout
+  id: LoadoutServiceLawyerUniformPurpleSuitRestrictedGear
+  category: JobsServiceLawyer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLawyerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Lawyer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitLawyerPurple
+
+- type: loadout
+  id: LoadoutServiceLawyerUniformPurpleSkirtRestrictedGear
+  category: JobsServiceLawyer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLawyerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Lawyer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtLawyerPurple
+
+- type: loadout
+  id: LoadoutServiceLawyerUniformGoodSuitRestrictedGear
+  category: JobsServiceLawyer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLawyerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Lawyer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitLawyerGood
+
+- type: loadout
+  id: LoadoutServiceLawyerUniformGoodSkirtRestrictedGear
+  category: JobsServiceLawyer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLawyerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Lawyer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtLawyerGood
+
+# Mime
+
+# Backpacks
+- type: loadout
+  id: LoadoutBackpackMimeRestrictedGear
+  category: JobsServiceMime
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMimeBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Mime
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackMime
+
+- type: loadout
+  id: LoadoutBackpackSatchelMimeRestrictedGear
+  category: JobsServiceMime
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMimeBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Mime
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackSatchelMime
+
+- type: loadout
+  id: LoadoutBackpackDuffelMimeRestrictedGear
+  category: JobsServiceMime
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMimeBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Mime
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackDuffelMime
+
+# Neck
+- type: loadout
+  id: LoadoutServiceMimeMaskSadRestrictedGear
+  category: JobsServiceMime
+  cost: 2
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMimeMask
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Mime
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingMaskSadMime
+
+- type: loadout
+  id: LoadoutServiceMimeMaskScaredRestrictedGear
+  category: JobsServiceMime
+  cost: 2
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMimeMask
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Mime
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingMaskScaredMime
+
+- type: loadout
+  id: LoadoutServiceMimeMaskSexyRestrictedGear
+  category: JobsServiceMime
+  cost: 3
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMimeMask
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Mime
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingMaskSexyMime
+
+# Outer
+- type: loadout
+  id: LoadoutServiceMimeOuterWinterRestrictedGear
+  category: JobsServiceMime
+  cost: 2
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMimeOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Mime
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterMime
+
+# Shoes
+- type: loadout
+  id: LoadoutServiceMimeShoesBootsWinterRestrictedGear
+  category: JobsServiceMime
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMimeShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Mime
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsWinterMime
+
+# Musician
+
+# Outer
+- type: loadout
+  id: LoadoutServiceWinterCoatMusicianRestrictedGear
+  category: JobsServiceMusician
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMusicianOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Musician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterMusician
+
+# Reporter
+
+# Uniforms
+- type: loadout
+  id: LoadoutServiceReporterUniformDetectivesuitRestrictedGear
+  category: JobsServiceReporter
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutReporterUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Reporter
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitDetective
+
+- type: loadout
+  id: LoadoutServiceReporterUniformDetectiveskirtRestrictedGear
+  category: JobsServiceReporter
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutReporterUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Reporter
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtDetective
+
+- type: loadout
+  id: LoadoutServiceReporterUniformJournalistRestrictedGear
+  category: JobsServiceReporter
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutReporterUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Reporter
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitJournalist
