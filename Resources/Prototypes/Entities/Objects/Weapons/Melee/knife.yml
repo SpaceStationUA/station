@@ -136,6 +136,12 @@
     sprite: Objects/Weapons/Melee/combat_knife.rsi
   - type: DisarmMalus
     malus: 0.225
+  - type: Accessory
+    pushComponents: 
+      - MeleeWeapon
+      - Scalpel
+      - BoneSaw
+      - SurgeryTool
 
 - type: entity
   name: survival knife
