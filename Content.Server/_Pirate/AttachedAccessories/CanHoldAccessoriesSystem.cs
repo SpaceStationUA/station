@@ -23,14 +23,18 @@ public sealed partial class CanHoldAccessoriesSystem : EntitySystem
     private void OnInit(EntityUid uid, CanHoldAccessoriesComponent component, ComponentInit args)
     {
         EnsureComp<ItemSlotsComponent>(uid, out var itemSlotsComponent);
+
+        bool hasWhitelistTags = component.WhiteListTags != null && component.WhiteListTags.Count > 0;
         for (int i = 1; i <= component.MaxAccessories; i++)
         {
             var slot = new ItemSlot
             {
-                Whitelist = new EntityWhitelist { Components = ["Accessory"] },
+                Whitelist = hasWhitelistTags
+                ? new EntityWhitelist { Components = ["Accessory"], Tags = component.WhiteListTags, RequireAll = true }
+                : new EntityWhitelist { Tags = ["NullAccessory"], RequireAll = true }, //tag that no entity has
                 Swap = false,
                 EjectOnBreak = true,
-                Name = $"AccessorySlot{i}"
+                Name = "Accessory"
             };
             _itemSlots.AddItemSlot(uid, $"accessory{i}", slot, itemSlotsComponent);
         }
