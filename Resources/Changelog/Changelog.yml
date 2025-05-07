@@ -14730,3 +14730,176 @@ Entries:
   id: 7227
   time: '2025-05-03T13:12:01.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2387
+- author: ODJ
+  changes:
+    - type: Tweak
+      message: Очищення Lighthouse
+  id: 7228
+  time: '2025-05-03T13:25:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2388
+- author: ODJ
+  changes:
+    - type: Tweak
+      message: Реорганізація та видалення непотрібних/поганих ролей у Shoukou
+  id: 7229
+  time: '2025-05-03T13:54:17.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2389
+- author: ODJ
+  changes:
+    - type: Tweak
+      message: Очищення Saltern
+  id: 7230
+  time: '2025-05-03T15:03:59.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2390
+- author: ODJ
+  changes:
+    - type: Remove
+      message: Калюжа в Bagel.
+    - type: Tweak
+      message: Медицина та ролі Bagel.
+  id: 7231
+  time: '2025-05-03T15:05:01.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2391
+- author: ODJ
+  changes:
+    - type: Tweak
+      message: Реорганізовано та очищено Asterisks.
+  id: 7232
+  time: '2025-05-03T15:05:29.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2392
+- author: ODJ
+  changes:
+    - type: Tweak
+      message: Очищення та незначна переробка Lambda
+  id: 7233
+  time: '2025-05-03T17:43:10.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2394
+- author: Mapping Team
+  changes:
+    - type: Tweak
+      message: Арена зазнала капітального ремонту
+  id: 7234
+  time: '2025-05-03T17:43:26.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2393
+- author: DEATHB4DEFEAT
+  changes:
+    - type: Fix
+      message: >-
+        Меню вибору професії більше не перемикається магічним чином на старий стиль під час редагування інших частин вашого персонажа
+    - type: Fix
+      message: >-
+        Ви більше не можете обманювати себе та вибирати більше міток, ніж дозволяє ліміт очок
+    - type: Fix
+      message: Виправлено деяку дивну поведінку кнопки "Налаштувати" в редакторі міток
+  id: 7235
+  time: '2025-05-04T21:10:26.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2332
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Спроба з'явитися з недійсним списком рис тепер просто завадить вам з'явитися з будь-якими рисами взагалі. Це також повідомить будь-яких адміністраторів, які можуть бути онлайн, про спробу.
+  id: 7236
+  time: '2025-05-05T01:39:33.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2410
+- author: Release
+  changes:
+    - type: Tweak
+      message: 'Команда маперів: Арена зазнала капітального ремонту'
+    - type: Tweak
+      message: 'ODJ: Арена зазнала капітального ремонту'
+    - type: Tweak
+      message: 'ODJ: Арена зазнала капітального ремонту'
+    - type: Remove
+      message: 'ODJ: Калюжа в Bagel.'
+    - type: Tweak
+      message: 'ODJ: Медицина та ролі Bagel.'
+    - type: Tweak
+      message: 'ODJ: Очищення Saltern'
+    - type: Tweak
+      message: 'ODJ: Реорганізація та видалення непотрібних/поганих ролей у Shoukou'
+    - type: Tweak
+      message: 'ODJ: Очищення Lighthouse'
+    - type: Tweak
+      message: 'ODJ: Очищення Meta'
+    - type: Tweak
+      message: 'ODJ: Незначні зміни в Northway'
+    - type: Tweak
+      message: 'ODJ: Очищення та реорганізація Radstation'
+    - type: Tweak
+      message: 'ZetaNull: Виправлено колір крові Кселтії при відображенні пошкоджень'
+    - type: Fix
+      message: 'TCJ: Виправлення для псіонічного ролінгу та мережевого коду рис'
+    - type: Tweak
+      message: 'EctoplasmIsGood: Відкориговано псіонічні ваги'
+    - type: Fix
+      message: >-
+        EctoplasmIsGood: Борги-викрадачі та медичні борги тепер мають належні прискорення хірургії та обхід обмежень одягу
+    - type: Fix
+      message: 'EctoplasmIsGood: Бойові рукавиці TCAF більше не повинні викликати помилку'
+    - type: Tweak
+      message: >-
+        EctoplasmIsGood: Бармени та шеф-кухарі тепер можуть бути працевлаштовані в Orion Express та Idris Incorporated
+    - type: Fix
+      message: >-
+        EctoplasmIsGood, imatsoup, Matthew Herber: Енергетична зброя більше не буде змінювати режим при триманні в руках
+    - type: Remove
+      message: 'EctoplasmIsGood: Видалено вміння "Teach a Lesson"'
+    - type: Fix
+      message: 'EctoplasmIsGood: Виправлено Містичний КПК'
+    - type: Fix
+      message: 'ZetaNull: Виправлено локалізацію крила гарпії, спрямованого донизу'
+    - type: Tweak
+      message: >-
+        Timfa: Ослаблено атаки ближнього бою Тавенів (Thaven), зменшивши вдвічі шкоду витривалості та видаливши їхні прискорені атаки
+    - type: Fix
+      message: 'ZetaNull: Виправлено рукавиці-куртки Кселтії для коректного блокування відбитків пальців '
+    - type: Fix
+      message: >-
+        Gareth Quaile: Перевертні (Changelings) тепер коректно визначаються як Одиночні Антагоністи в адмінській панелі!
+    - type: Fix
+      message: 'ZetaNull: Виправлено текстуру лінолеумної підлоги.'
+    - type: Add
+      message: >-
+        ZetaNull: Додано хірургічну куртку, щоб Кселтія могла проводити операції, надягаючи її замість рукавичок.
+    - type: Tweak
+      message: >-
+        ZetaNull: Змінено хірургію, щоб куртки з рукавичками вважалися рукавичками.
+    - type: Fix
+      message: 'EctoplasmIsGood: Маяки більше не вимикаються через збій при розділенні сітки '
+    - type: Fix
+      message: >-
+        DootyTheFrooty: Око Викрадача (Abductor Eye) тепер невидиме для нижчих організмів.
+    - type: Remove
+      message: 'DootyTheFrooty: Органи невидимості видалено через те, що вони були жахливо зламані.'
+    - type: Fix
+      message: 'BloodFiendishOperator: Костюми ERT більше не повинні спричиняти значних помилок.'
+    - type: Fix
+      message: >-
+        BloodFiendishOperator: Спрайт голови Bloodred тепер має бути equipped-helmet, а не equipped-head (це залишок від порту спрайтів з impstation)
+    - type: Fix
+      message: 'BloodFiendishOperator: Костюм BSO / Дредноута тепер світиться.'
+    - type: Fix
+      message: >-
+        BloodFiendishOperator: Відновлені методом зворотної розробки важкі скафандри від Nyano тепер світяться і більше не відображають помилок.
+    - type: Fix
+      message: 'BloodFiendishOperator: Шоломи ERT тепер повинні випромінювати світло.'
+    - type: Tweak
+      message: 'CliveOcelot: BSO тепер має накладну гарнітуру'
+    - type: Tweak
+      message: 'CliveOcelot: Модульний костюм BSO тепер має правильний колір світла'
+    - type: Add
+      message: 'ZetaNull: Виправлено проблеми з локалізацією міток'
+  id: 7237
+  time: '2025-05-07T03:18:14.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2409
+- author: VMSolidus
+  changes:
+    - type: Add
+      message: >-
+        Додано соларіанські армійські/флотські комплекти одягу до спорядження для персонажів із Соларіанин+ВетеранВійни.
+    - type: Tweak
+      message: Усі косметичні предмети спорядження тепер безкоштовні.
+  id: 7238
+  time: '2025-05-07T19:45:10.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2407

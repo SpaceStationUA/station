@@ -302,3 +302,4 @@ ui-options-mood-visual-effects = Увімкніть візуальні ефек�
 
 ui-options-function-smart-equip-back = Автоматично екіпірувати в слот спини
 ui-options-binds-search = Пошук
+ui-options-log-in-chat = Записувати спливаючі вікна в чат
