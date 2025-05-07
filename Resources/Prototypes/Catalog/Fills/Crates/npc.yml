@@ -1,8 +1,8 @@
 - type: entity
   id: CrateNPCBee
   parent: CrateLivestock
-  name: crate of bees
-  description: A crate containing a swarm of eight bees.
+  name: "ящик з бджолами"
+  description: "Ящик з роєм із восьми бджіл."
   components:
   - type: StorageFill
     contents:
@@ -12,8 +12,8 @@
 - type: entity
   id: CrateNPCButterflies
   parent: CrateLivestock
-  name: crate of butterflies
-  description: A crate containing five butterflies.
+  name: "ящик з метеликами"
+  description: "Ящик з п'ятьма метеликами."
   components:
   - type: StorageFill
     contents:
@@ -23,8 +23,8 @@
 - type: entity
   id: CrateNPCCat
   parent: CrateLivestock
-  name: cat crate
-  description: A crate containing a single cat.
+  name: "клітка з котом"
+  description: "Ящик, в якому знаходиться один кіт."
   components:
   - type: StorageFill
     contents:
@@ -47,8 +47,8 @@
 - type: entity
   id: CrateNPCChicken
   parent: CrateLivestock
-  name: chicken crate
-  description: A crate containing four fully grown chickens.
+  name: "клітка з курями"
+  description: "Ящик з чотирма дорослими курми."
   components:
   - type: StorageFill
     contents:
@@ -58,8 +58,8 @@
 - type: entity
   id: CrateNPCCrab
   parent: CrateLivestock
-  name: crab crate
-  description: A crate containing three huge crabs.
+  name: "клітка з крабами"
+  description: "Ящик з трьома величезними крабами."
   components:
   - type: StorageFill
     contents:
@@ -69,8 +69,8 @@
 - type: entity
   id: CrateNPCDuck
   parent: CrateLivestock
-  name: duck crate
-  description: A crate containing six fully grown ducks.
+  name: "клітка з качками"
+  description: "Ящик з шістьма дорослими качками."
   components:
   - type: StorageFill
     contents:
@@ -84,8 +84,8 @@
 - type: entity
   id: CrateNPCPibble
   parent: CrateLivestock
-  name: pitbull crate
-  description: "Note from the shelter: Lab mix. Looking for a home without cats, birds, or children. Anxious when pet."
+  name: "клітка для пітбуля"
+  description: "Записка з притулку: Лабораторна суміш. Шукає дім без котів, птахів та дітей. Тривожиться, коли його пестять."
   components:
   - type: StorageFill
     contents:
@@ -95,8 +95,8 @@
 - type: entity
   id: CrateNPCCorgi
   parent: CrateLivestock
-  name: corgi crate
-  description: A crate containing a single corgi.
+  name: "клітка з коргі"
+  description: "Ящик з одним коргі."
   components:
   - type: StorageFill
     contents:
@@ -105,8 +105,8 @@
 - type: entity
   id: CrateNPCPuppyCorgi
   parent: CrateLivestock
-  name: puppy corgi crate
-  description: A crate containing a single puppy corgi. Awww.
+  name: "клітка з цуценятом коргі"
+  description: "Ящик з одним цуценям коргі. Мило."
   components:
   - type: StorageFill
     contents:
@@ -115,8 +115,8 @@
 - type: entity
   id: CrateNPCCow
   parent: CrateLivestock
-  name: cow crate
-  description: A crate containing a single cow.
+  name: "клітка з коровою"
+  description: "Ящик з однією коровою."
   components:
   - type: StorageFill
     contents:
@@ -125,8 +125,8 @@
 - type: entity
   id: CrateNPCGoat
   parent: CrateLivestock
-  name: goat crate
-  description: A crate containing a single goat.
+  name: "клітка з козою"
+  description: "Ящик з однією козою."
   components:
   - type: StorageFill
     contents:
@@ -135,8 +135,8 @@
 - type: entity
   id: CrateNPCGoose
   parent: CrateLivestock
-  name: goose crate
-  description: A crate containing two geese.
+  name: "клітка з гусьми"
+  description: "Ящик з двома гусьми."
   components:
   - type: StorageFill
     contents:
@@ -146,8 +146,8 @@
 - type: entity
   id: CrateNPCGorilla
   parent: CrateLivestock
-  name: gorilla crate
-  description: A crate containing a single gorilla.
+  name: "клітка з горилою"
+  description: "Ящик з однією горилою."
   components:
   - type: StorageFill
     contents:
@@ -156,8 +156,8 @@
 - type: entity
   id: CrateNPCMonkeyCube
   parent: CrateGenericSteel
-  name: monkey cube crate
-  description: A crate containing single box of monkey cubes.
+  name: "ящик мавпячих кубиків"
+  description: "Ящик з однією коробкою мавпячих кубиків."
   components:
   - type: StorageFill
     contents:
@@ -166,8 +166,8 @@
 - type: entity
   id: CrateNPCKoboldCube
   parent: CrateGenericSteel
-  name: kobold cube crate
-  description: A crate containing single box of kobold cubes.
+  name: "ящик кобольдних кубиків"
+  description: "Ящик з однією коробкою кубиків кобольдів."
   components:
   - type: StorageFill
     contents:
@@ -176,8 +176,8 @@
 - type: entity
   id: CrateNPCMouse
   parent: CrateLivestock
-  name: mice crate
-  description: A crate containing five mice.
+  name: "клітка з мишами"
+  description: "Ящик з п'ятьма мишами."
   components:
   - type: StorageFill
     contents:
@@ -187,8 +187,8 @@
 - type: entity
   id: CrateNPCParrot
   parent: CrateLivestock
-  name: parrot crate
-  description: A crate containing three parrots.
+  name: "клітка з папугами"
+  description: "Ящик з трьома папугами."
   components:
   - type: StorageFill
     contents:
@@ -198,8 +198,8 @@
 - type: entity
   id: CrateNPCPenguin
   parent: CrateLivestock
-  name: penguin crate
-  description: A crate containing two penguins.
+  name: "клітка з пінгвінами"
+  description: "Ящик з двома пінгвінами."
   components:
   - type: StorageFill
     contents:
@@ -209,8 +209,8 @@
 - type: entity
   id: CrateNPCPig
   parent: CrateLivestock
-  name: pig crate
-  description: A crate containing a single pig.
+  name: "клітка з свинею"
+  description: "Ящик з однією свинею."
   components:
   - type: StorageFill
     contents:
@@ -219,8 +219,8 @@
 - type: entity
   id: CrateNPCSnake
   parent: CrateLivestock
-  name: snake crate
-  description: A crate containing three snakes.
+  name: "клітка з зміями"
+  description: "Ящик з трьома зміями."
   components:
   - type: StorageFill
     contents:
@@ -248,8 +248,8 @@
 - type: entity
   id: CrateNPCLizard
   parent: CrateLivestock
-  name: lizard crate
-  description: A crate containing a lizard.
+  name: "клітка з ящіркою"
+  description: "Ящик з ящіркою."
   components:
     - type: StorageFill
       contents:
@@ -258,8 +258,8 @@
 - type: entity
   id: CrateNPCKangaroo
   parent: CrateLivestock
-  name: kangaroo crate
-  description: A crate containing a kangaroo.
+  name: "клітка з кенгуру"
+  description: "Ящик з кенгуру."
   components:
   - type: StorageFill
     contents:
@@ -268,8 +268,8 @@
 - type: entity
   id: CrateNPCMothroach
   parent: CrateLivestock
-  name: crate of mothroaches
-  description: A crate containing four mothroaches.
+  name: "ящик з мольраганами"
+  description: "Ящик з чотирма мольраганами."
   components:
   - type: StorageFill
     contents:
