@@ -12,10 +12,8 @@ public sealed partial class CanHoldAccessoriesComponent : Component
 {
     [DataField] public int MaxAccessories = 3;
     /// <summary>
-    ///     Accessory must have at least one of these tags to be inserted.
+    ///     If null, no accessories can be inserted.
     /// </summary>
     [DataField] public List<ProtoId<TagPrototype>>? WhiteListTags = new();
-    [DataField] public List<ProtoId<TagPrototype>>? BlackListTags = new();
-
     public List<IComponent?> OriginalComponents = new();
 }

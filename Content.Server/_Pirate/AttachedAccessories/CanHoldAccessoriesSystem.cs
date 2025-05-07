@@ -5,9 +5,7 @@ using Robust.Shared.Containers;
 using Robust.Shared.Serialization.Manager;
 
 namespace Content.Server._Pirate.AttachedAccessories;
-/// <summary>
-///     Allows entity to hold accessories.
-/// </summary>
+
 public sealed partial class CanHoldAccessoriesSystem : EntitySystem
 {
     [Dependency] private readonly ItemSlotsSystem _itemSlots = default!;
