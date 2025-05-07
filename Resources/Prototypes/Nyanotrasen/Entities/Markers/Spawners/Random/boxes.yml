@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomBox
-  name: "спавнер випадкової коробки"
+  name: random box spawner
   components:
   - type: Sprite
     layers:
@@ -57,7 +57,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomAmmoBox
-  name: "спавнер випадкового ящика з боєприпасами"
+  name: random ammo box spawner
   suffix: 15%
   components:
   - type: Sprite

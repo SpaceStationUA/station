@@ -1,7 +1,7 @@
 - type: entity
   id: ConstructShell
-  name: "оболонка конструкту"
-  description: "порожня оболонка конструкції"
+  name: construct shell
+  description: empty construct shell
   parent: BaseItem
   components:
   - type: Sprite
@@ -113,8 +113,8 @@
 - type: entity
   id: ConstructJuggernaut
   parent: ConstructBase
-  name: "джаггернаут"
-  description: "Масивна, броньована конструкція, побудована для того, щоб очолювати атаки і вбирати ворожий вогонь."
+  name: juggernaut
+  description: A massive, armored construct built to spearhead attacks and soak up enemy fire.
   components:
   - type: Sprite
     layers:
@@ -154,8 +154,8 @@
 - type: entity
   parent: ConstructBase
   id: ConstructArtificer
-  name: "майстер"
-  description: "Циліндрична конструкція, присвячена створенню та підтримці культу армій Нар'сі."
+  name: artificer
+  description: A bulbous construct dedicated to building and maintaining the Cult of Nar'Sie's armies.
   components:
   - type: Sprite
     layers:
@@ -193,8 +193,8 @@
 - type: entity
   parent: ConstructBase
   id: ConstructWraith
-  name: "привид"
-  description: "Злий, пазуристий панцир, створений, щоб вбивати ворогів і сіяти хаос в тилу ворога."
+  name: wraith
+  description: A wicked, clawed shell constructed to assassinate enemies and sow chaos behind enemy lines.
   components:
   - type: Sprite
     layers:
@@ -239,8 +239,8 @@
 - type: entity
   id: ConstructHarvester
   parent: ConstructBase
-  name: "комбайн"
-  description: "Довга, тонка конструкція, збудована, щоб сповістити про піднесення Нар'є. Скоро все закінчиться."
+  name: harvester
+  description: A long, thin construct built to herald Nar'Sie's rise. It'll be all over soon.
   components:
   - type: Sprite
     layers:
@@ -269,8 +269,8 @@
 - type: entity
   id: ShadeCult
   parent: ConstructBase # It's not technically a construct but it code wise? it is.
-  name: "відтінок"
-  description: "Зв'язаний дух."
+  name: shade
+  description: A bound spirit.
   components:
   - type: Sprite
     state: shade_cult
@@ -293,7 +293,7 @@
 - type: entity
   id: ConstructJuggernautHoly
   parent: ConstructJuggernaut
-  name: "очищений джаггернаут"
+  name: purified juggernaut
   components:
   - type: Sprite
     layers:
@@ -314,8 +314,8 @@
 - type: entity
   id: ConstructArtificerHoly
   parent: ConstructArtificer
-  name: "очищений артіфікатор"
-  description: "Циліндрична конструкція, присвячена створенню та підтримці святих армій."
+  name: purified artificer
+  description: A bulbous construct dedicated to building and maintaining the holy armies.
   components:
   - type: Sprite
     layers:
@@ -339,7 +339,7 @@
 - type: entity
   id: ConstructWraithHoly
   parent: ConstructWraith
-  name: "очищений привид"
+  name: purified wraith
   components:
   - type: Sprite
     layers:
@@ -360,7 +360,7 @@
 - type: entity
   id: ShadeHoly
   parent: ShadeCult
-  name: "очищений відтінок"
+  name: purified shade
   components:
   - type: Sprite
     state: shade_holy

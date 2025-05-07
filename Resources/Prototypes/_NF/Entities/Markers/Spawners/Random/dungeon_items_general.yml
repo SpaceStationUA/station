@@ -12,7 +12,7 @@
 
 # Clutter
 - type: entity
-  name: "випадковий мотлох"
+  name: random clutter
   id: SpawnDungeonLootBureaucracy
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Bureaucracy"
@@ -48,7 +48,7 @@
 
 # Tools
 - type: entity
-  name: "випадкова ручка"
+  name: random pen
   id: SpawnDungeonLootBureaucracyPen
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -88,7 +88,7 @@
 
 # Furniture/lockers
 - type: entity
-  name: "випадкова шафка"
+  name: random locker
   id: SpawnDungeonLootLockersGeneral
   parent: MarkerBase
   suffix: "Dungeon, Generic"
@@ -130,7 +130,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: "випадкова шафа зберігання костюмів"
+  name: random suit storage unit
   id: SpawnDungeonLootSuitStorageUnitsGeneral
   parent: MarkerBase
   suffix: "Dungeon, Generic"
@@ -163,7 +163,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: "випадкова шафка"
+  name: random locker
   id: SpawnDungeonLootLockersProtectiveGear
   parent: MarkerBase
   suffix: "Dungeon, Protective Gear"
@@ -197,7 +197,7 @@
     rareChance: 0.25
 
 - type: entity
-  name: "випадкова спальня"
+  name: random bedroom
   id: SpawnDungeonFurnitureBedroom
   parent: MarkerBase
   suffix: "Dungeon, Furniture"
@@ -229,7 +229,7 @@
 
 # Machines
 - type: entity
-  name: "випадковий верстат техфаб"
+  name: random machine techfab
   id: SpawnDungeonLootLathe
   parent: MarkerBase
   suffix: Dungeon
@@ -264,7 +264,7 @@
     rareChance: 0.03
 
 - type: entity
-  name: "випадковий вендомат" # drinks, smokes, toy, decor
+  name: random vendomat # drinks, smokes, toy, decor
   id: SpawnDungeonVendomatsRecreational
   parent: MarkerBase
   suffix: "Dungeon, Recreational"
@@ -303,7 +303,7 @@
     offset: 0.0
 
 - type: entity
-  name: "випадковий вендомат"
+  name: random vendomat
   id: SpawnDungeonVendomatsClothes
   parent: MarkerBase
   suffix: "Dungeon, Clothes"
@@ -345,7 +345,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: "випадковий вендомат"
+  name: random vendomat
   id: SpawnDungeonVendomatsTools
   parent: MarkerBase
   suffix: "Dungeon, Tools"
@@ -374,7 +374,7 @@
     rareChance: 0.03
 
 - type: entity
-  name: "випадкова машинна рама"
+  name: random machine frame
   id: SpawnDungeonMachineFrame
   parent: MarkerBase
   suffix: Dungeon
@@ -397,7 +397,7 @@
 
 # Other
 - type: entity
-  name: "випадкова машинна плата"
+  name: random machine board
   id: SpawnDungeonLootCircuitBoard
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, General"
@@ -482,7 +482,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадкові спесо"
+  name: random spesos
   id: SpawnDungeonLootSpesos
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -514,7 +514,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадкові матеріали"
+  name: random materials
   id: SpawnDungeonLootMaterialsBasicFull
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Basic"
@@ -553,7 +553,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: "випадкові матеріали"
+  name: random materials
   id: SpawnDungeonLootMaterialsValuableFull
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Valuable"
@@ -581,7 +581,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадкові матеріали"
+  name: random materials
   id: SpawnDungeonLootMaterialsBasicSingle
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Basic, Single"
@@ -620,7 +620,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадкові матеріали"
+  name: random materials
   id: SpawnDungeonLootMaterialsValuableSingle
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Valuable, Single"
@@ -651,7 +651,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадкові руди"
+  name: random ores
   id: SpawnDungeonLootOresFull
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Full"
@@ -681,7 +681,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: "випадкові руди"
+  name: random ores
   id: SpawnDungeonLootOresSingle
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Single"
@@ -711,7 +711,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: "випадковий ящик з транспортним засобом"
+  name: random vehicle crate
   id: SpawnDungeonLootCrateVehicle
   parent: MarkerBase
   suffix: "Dungeon"
@@ -736,7 +736,7 @@
     rareChance: 0.35
 
 - type: entity
-  name: "випадкова каністра"
+  name: random canister
   id: SpawnDungeonLootCanister
   parent: MarkerBase
   suffix: Dungeon
@@ -771,7 +771,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: "випадковий портфель"
+  name: random briefcase
   id: SpawnDungeonLootBriefcase
   parent: MarkerBasePlaceFree
   suffix: Dungeon

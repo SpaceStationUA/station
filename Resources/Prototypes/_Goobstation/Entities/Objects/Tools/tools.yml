@@ -1,8 +1,8 @@
 - type: entity
-  name: "ручний факс"
+  name: handheld fax
   parent: BaseItem
   id: HandheldFax
-  description: "Ручний факсимільний апарат, що надається корпоративним представникам."
+  description: A hand-held fax machine provided to corporate liaisons.
   components:
   - type: Item
     size: Huge
@@ -57,7 +57,7 @@
   - type: MultiHandedItem
 
 - type: entity
-  name: "ручний факс корпоративного представника"
+  name: corporate liaison handheld fax
   parent: HandheldFax
   id: HandheldFaxNanorep
   suffix: Corporate Liaison
@@ -74,10 +74,10 @@
       shader: unshaded
 #PIRATE
 - type: entity
-  name: "звукова викрутка"
+  name: sonic screwdriver
   parent: BaseItem
   id: SonicScrewdriver
-  description: "Wzzzzz...."
+  description: Wzzzzz....
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Tools/sonic_screwdriver.rsi
@@ -141,10 +141,10 @@
 
 
 - type: entity
-  name: "футуристичний УЗО"
+  name: futuristic RCD
   parent: RCD
   id: RCDChrono
-  description: "Інструмент, за допомогою якого можна побудувати станцію з нуля за лічені хвилини."
+  description: A tool that can build a station from scratch in minutes.
   components:
   - type: LimitedCharges
     maxCharges: 100
@@ -161,10 +161,10 @@
   - type: RCD
 
 - type: entity #GOOOB
-  name: "мультитул борга"
+  name: borg multitool
   parent: Multitool
   id: MultitoolBorg
-  description: "Удосконалений інструмент для копіювання, зберігання та надсилання електричних імпульсів та сигналів через дроти та машини."
+  description: An advanced tool to copy, store, and send electrical pulses and signals through wires and machines.
   components:
   - type: Tool
     qualities:

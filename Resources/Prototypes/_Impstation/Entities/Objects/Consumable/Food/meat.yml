@@ -1,8 +1,8 @@
 - type: entity
-  name: "сире м'ясо Фін Фіна"
+  name: raw Fin Fin meat
   parent: FoodMeatRawBase
   id: FoodMeatFinfin
-  description: "Шматок сирого Фін Фіна. Він був твоїм найкращим другом!"
+  description: A slab of raw Fin Fin. He was your best friend!
   components:
   - type: Sprite
     sprite: _Impstation/Objects/Consumable/Food/meat.rsi
@@ -27,10 +27,10 @@
     defaultTarget: cooked finfin
 
 - type: entity
-  name: "сира котлета з фінфіна"
+  name: raw finfin cutlet
   parent: FoodMeatBase
   id: FoodMeatFinfinCutlet
-  description: "Котлета з сирого фінфіна. Він був твоїм найкращим другом!"
+  description: A cutlet of raw finfin. He was your best friend!
   components:
   - type: Tag
     tags:
@@ -54,10 +54,10 @@
     node: cooked finfin cutlet
 
 - type: entity
-  name: "котлета з фінфіна"
+  name: finfin cutlet
   parent: FoodMeatBase
   id: FoodMeatFinfinCutletCooked
-  description: "Котлета з приготованого фінфіна. Чи будуть ці руки колись чистими?"
+  description: A cutlet of cooked finfin. Will these hands never be clean?
   components:
   - type: Tag
     tags:
@@ -83,10 +83,10 @@
       Taco: FinfinCutlet
 
 - type: entity
-  name: "приготований Фін Фін"
+  name: cooked Fin Fin
   parent: FoodMeatBase
   id: FoodMeatFinfinCooked
-  description: "Приготований шматок Фін Фіна. Найкраще використовувати в інших рецептах."
+  description: A cooked piece of Fin Fin. Best used in other recipes.
   components:
   - type: Tag
     tags:

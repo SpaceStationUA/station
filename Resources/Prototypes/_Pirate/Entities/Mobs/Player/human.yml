@@ -1,6 +1,6 @@
 # Mage
 - type: entity
-  name: "Маг"
+  name: Маг
   parent: MobHuman
   id: MobHumanMage
   components:
@@ -42,7 +42,7 @@
 
 # Lost Pirate
 - type: entity
-  name: "Пірат"
+  name: Pirate
   parent: MobHuman
   id: MobHumanLostPirate
   components:
@@ -55,7 +55,7 @@
      prototypes: [PirateGear]
 
 - type: entity
-  name: "Піратський капітан"
+  name: Pirate Captain
   parent: MobHuman
   id: MobHumanLostCaptainPirate
   components:
@@ -68,7 +68,7 @@
      prototypes: [PirateCaptainGear]
 
 - type: entity
-  name: "Перший товариш Пірат"
+  name: Firstmate Pirate
   parent: MobHuman
   id: MobHumanLostFirstmatePirate
   components:

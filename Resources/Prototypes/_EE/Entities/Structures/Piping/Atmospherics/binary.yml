@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: GasPressurePump
   id: GasPressurePumpHighFlow
-  name: "газовий насос високого потоку"
-  description: "Насос, який переміщує газ за допомогою тиску. Він перекачує повітря під тиском, втричі більшим, ніж стандартний насос."
+  name: high flow gas pump
+  description: A pump that moves gas by pressure. It pumps air at three times the pressure of a standard pump.
   placement:
     mode: SnapgridCenter
   components:
@@ -13,8 +13,8 @@
 - type: entity
   parent: GasVolumePump
   id: GasVolumePumpHighFlow
-  name: "об'ємний газовий насос високого потоку"
-  description: "Насос, який переміщує газ за об'ємом. Він перекачує повітря втричі більшим об'ємом, ніж стандартний насос."
+  name: high flow volumetric gas pump. It pumps air at three times the volume of a standard pump
+  description: A pump that moves gas by volume.
   placement:
     mode: SnapgridCenter
   components:
@@ -24,8 +24,8 @@
 - type: entity
   parent: GasDualPortVentPump
   id: GasDualPortVentPumpHighFlow
-  name: "двопортовий повітряний вентиль високого потоку"
-  description: "Має клапан і насос, приєднані до нього. Є два порти: один вхідний для випуску повітря, інший вихідний для відкачування. Він може витримувати втричі більший тиск, ніж стандартний вентиль."
+  name: high flow dual-port air vent
+  description: Has a valve and a pump attached to it. There are two ports, one is an input for releasing air, the other is an output when siphoning. It can handle three times the pressure of a standard vent.
   placement:
     mode: SnapgridCenter
   components:
