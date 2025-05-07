@@ -1,3 +1,4 @@
+using System.Linq;
 using Content.Server._Pirate.AttachedAccessories;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Whitelist;
@@ -50,13 +51,12 @@ public sealed partial class CanHoldAccessoriesSystem : EntitySystem
             {
                 if (compInstance is null)
                     continue;
-                if (!HasComp(uid, compInstance.GetType())) //TODO what the fuck is this shit
+                if (!HasComp(uid, compInstance.GetType()))
                 {
-                    // EntityManager.AddComponent(uid, _serialization.CreateCopy(comp, notNullableOverride: true));
                     EntityManager.AddComponent(uid, compInstance);
-
+                    // component.OriginalComponents.Add(compInstance);
                 }
-                else //TODO still todo this lol
+                else
                 {
                     var originalComponent = EntityManager.GetComponent(uid, compInstance.GetType());
                     EntityManager.RemoveComponent(uid, compInstance.GetType());
@@ -68,20 +68,33 @@ public sealed partial class CanHoldAccessoriesSystem : EntitySystem
     }
     private void OnAccessoryRemoved(EntityUid uid, CanHoldAccessoriesComponent component, EntRemovedFromContainerMessage args)
     {
-        if (!HasComp<AccessoryComponent>(args.Entity))
+        if (!TryComp<AccessoryComponent>(args.Entity, out var accessoryComponent))
             return;
         if (component.OriginalComponents is null)
             return;
+        if (accessoryComponent.PushComponents is null)
+            return;
+
 
         List<IComponent?> compsToRemove = new();
-        foreach (var comp in component.OriginalComponents)
+        foreach (var compName in accessoryComponent.PushComponents)
         {
-            if (comp is null)
-                continue;
-            var compInstance = _serialization.CreateCopy(comp, notNullableOverride: true);
-            EntityManager.RemoveComponent(uid, compInstance.GetType());
-            EntityManager.AddComponent(uid, compInstance);
-            compsToRemove.Add(comp);
+            if (GetCompInstanceByName(uid, compName, out var compInstance))
+            {
+                Log.Info($"Removing {compName}({compInstance?.GetType().Name}) from {uid}");
+                compsToRemove.Add(compInstance);
+                if (compInstance is null)
+                    continue;
+                EntityManager.RemoveComponent(uid, compInstance.GetType());
+                if (component.OriginalComponents.AsQueryable().Any(x => x != null && x.GetType() == compInstance.GetType()))
+                {
+                    var comp = component.OriginalComponents.AsQueryable().First(x => x != null && x.GetType() == compInstance.GetType());
+                    var originalCompInstance = _serialization.CreateCopy(comp);
+                    if (originalCompInstance is not null)
+                        EntityManager.AddComponent(uid, originalCompInstance);
+                }
+
+            }
         }
         foreach (var comp in compsToRemove)
         {
