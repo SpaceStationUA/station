@@ -482,12 +482,18 @@
   id: LoadoutSecurityRevolver
   category: JobsSecurityWeapons
   cost: 0
-  canBeHeirloom: true
+  canBeHeirloom: true 
   guideEntry: SecurityWeapons
   requirements:
   - !type:CharacterDepartmentTimeRequirement
     department: Security
     min: 3600 # 1 hours
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
   - !type:CharacterLogicOrRequirement
@@ -512,6 +518,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -537,6 +549,12 @@
     min: 3600 # 1 hours
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -559,6 +577,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -582,6 +606,12 @@
   - !type:CharacterDepartmentTimeRequirement
     department: Security
     min: 3600 # 1 hours
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
   - !type:CharacterLogicOrRequirement
@@ -606,6 +636,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -729,6 +765,12 @@
     min: 18000 # 5 hours
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -800,6 +842,12 @@
   - !type:CharacterDepartmentTimeRequirement
     department: Security
     min: 3600 # 1 hours
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
   - !type:CharacterLogicOrRequirement
@@ -872,6 +920,12 @@
   - !type:CharacterDepartmentTimeRequirement
     department: Security
     min: 3600 # 1 hours
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
   - !type:CharacterLogicOrRequirement
@@ -896,6 +950,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -919,6 +979,12 @@
   - !type:CharacterDepartmentTimeRequirement
     department: Security
     min: 3600 # 1 hours
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
   - !type:CharacterLogicOrRequirement
@@ -943,6 +1009,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -966,6 +1038,12 @@
   - !type:CharacterDepartmentTimeRequirement
     department: Security
     min: 3600 # 1 hours
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
   - !type:CharacterLogicOrRequirement
@@ -990,6 +1068,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -1013,6 +1097,12 @@
   - !type:CharacterDepartmentTimeRequirement
     department: Security
     min: 3600 # 1 hours
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
   - !type:CharacterLogicOrRequirement
@@ -1037,6 +1127,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -1060,6 +1156,12 @@
   - !type:CharacterDepartmentTimeRequirement
     department: Security
     min: 3600 # 1 hours
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
   - !type:CharacterLogicOrRequirement
@@ -1084,6 +1186,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -1106,6 +1214,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterDepartmentTimeRequirement
     department: Security
     min: 18000 # 5 hours
@@ -1131,6 +1245,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
