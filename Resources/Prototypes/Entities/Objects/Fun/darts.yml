@@ -1,6 +1,6 @@
 - type: entity
-  name: dart
-  description: light throwing dart for playing darts. Don't get in the eye!
+  name: "дротик"
+  description: "легкий метальний дротик для гри в дартс. Не потрапляйте в очі!"
   parent: BaseItem
   id: Dart
   components:
@@ -132,10 +132,10 @@
     maxTransferAmount: 7
 
 - type: entity
-  name: dartboard
+  name: "дартс"
   id: TargetDarts
   parent: BaseStructureDynamic
-  description: A target for playing darts.
+  description: "Мішень для гри в дартс."
   components:
   - type: Sprite
     sprite: Objects/Fun/Darts/target.rsi
@@ -195,9 +195,9 @@
 - type: entity
   parent: BaseItem
   id: HypoDartBox
-  name: hypodart box
+  name: "гіподарт-бокс"
   suffix: HypoDart
-  description: A small box containing an hypodart. Packaging disintegrates when opened, leaving no evidence behind.
+  description: "Невеличка коробочка з гіподартом. Упаковка руйнується при відкритті, не залишаючи після себе жодних доказів."
   components:
   - type: Sprite
     sprite: Objects/Fun/Darts/dartbox.rsi

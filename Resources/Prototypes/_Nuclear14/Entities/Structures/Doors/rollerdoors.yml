@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMaterialDoor
   id: N14DoorShutterFramedRoller
-  name: shutter
-  description: A lightweight airtight roller shutter door.
+  name: "затвор"
+  description: "Легкі герметичні ролетні двері."
   components:
   - type: Door
     bumpOpen: false
@@ -21,9 +21,9 @@
 - type: entity
   parent: BaseMaterialDoor
   id: N14DoorShutterRoller
-  name: garage shutter
+  name: "гаражні ворота"
   suffix: frameless
-  description: A lightweight airtight roller shutter door.
+  description: "Легкі герметичні ролетні двері."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Doors/RollerDoors/garageshutter.rsi
