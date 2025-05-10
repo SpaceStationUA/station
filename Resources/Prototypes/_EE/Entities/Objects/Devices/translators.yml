@@ -1,8 +1,8 @@
 - type: entity # needs to be properly added to research and all that. not sure how to do that.
   id: QiilourTranslator
   parent: [ TranslatorPoweredBase ]
-  name: Qiilour translator
-  description: Translates speech between Qiilour and Galactic Common. Useful for talking to Xelthia.
+  name: "Перекладач Кіїлур"
+  description: "Перекладає мову між Кіїлур та Галактичною Загальною. Корисний для розмов з Зелтією."
   components:
   - type: HandheldTranslator
     spoken:
