@@ -21,8 +21,8 @@ public sealed partial class ReactionChamberSystem : EntitySystem
     [Dependency] readonly IPrototypeManager PrototypeManager = default!;
     [Dependency] UserInterfaceSystem _userInterfaceSystem = default!;
     [Dependency] ItemSlotsSystem _itemSlotsSystem = default!;
-    [Dependency]
-    SharedSolutionContainerSystem _solutionContainerSystem = default!;
+    [Dependency] SharedSolutionContainerSystem _solutionContainerSystem = default!;
+    [Dependency] AppearanceSystem _appearance = default!;
     public override void Initialize()
     {
         SubscribeLocalEvent<ReactionChamberComponent, SolutionContainerChangedEvent>(UpdateUiState);
@@ -86,12 +86,21 @@ public sealed partial class ReactionChamberSystem : EntitySystem
         ent.Comp.Temp = float.Clamp(args.Temp, ent.Comp.MinTemp, ent.Comp.MaxTemp);
         UpdateUiState(ent, ref args);
     }
+    void UpdateSpriteState<T>(Entity<ReactionChamberComponent> ent, ref T ev)
+    {
+        if (!TryComp<AppearanceComponent>(ent.Owner, out var appearance))
+            return;
+        var beaker = _itemSlotsSystem.GetItemOrNull(ent, "beakerSlot");
+        _appearance.SetData(ent.Owner, ReactionChamberVisuals.HasItem, beaker is not null, appearance);
+    }
     void UpdateUiStateNull<T>(Entity<ReactionChamberComponent> ent, ref T ev)
     {
+        UpdateSpriteState(ent, ref ev);
         _userInterfaceSystem.SetUiState(ent.Owner, ReactionChamberUiKey.Key, new ReactionChamberBoundUIState());
     }
     void UpdateUiState<T>(Entity<ReactionChamberComponent> ent, ref T ev)
     {
+        UpdateSpriteState(ent, ref ev);
         string? beakerName = null;
         FixedPoint2? beakerVolume = null;
         FixedPoint2? beakerMaxVolume = null;
@@ -110,7 +119,10 @@ public sealed partial class ReactionChamberSystem : EntitySystem
                 beakerMaxVolume = solution.MaxVolume;
                 reagents = solution.Contents;
                 spinBoxTemp = float.Clamp(ent.Comp.Temp, ent.Comp.MinTemp, ent.Comp.MaxTemp);
-                temp = soln.Value.Comp.Solution.GetThermalEnergy(PrototypeManager) / soln.Value.Comp.Solution.GetHeatCapacity(PrototypeManager);
+                var heatCap = soln.Value.Comp.Solution.GetHeatCapacity(PrototypeManager);
+                var thermalEnergy = soln.Value.Comp.Solution.GetThermalEnergy(PrototypeManager);
+                if (heatCap > 0 && !float.IsNaN(thermalEnergy) && !float.IsNaN(heatCap))
+                    temp = !float.IsNaN(thermalEnergy / heatCap) ? thermalEnergy / heatCap : null;
             }
             _userInterfaceSystem.SetUiState(ent.Owner, ReactionChamberUiKey.Key, new ReactionChamberBoundUIState(new NetEntity(beaker.Value.Id), new BeakerInfo(beakerName, beakerVolume, beakerMaxVolume, reagents, temp, spinBoxTemp)));
         }

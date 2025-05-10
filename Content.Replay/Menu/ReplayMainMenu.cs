@@ -263,7 +263,7 @@ public sealed class ReplayMainScreen : State
         }
         catch (Exception ex)
         {
-            Logger.Error($"Failed to load replay info. Exception: {ex}");
+            Logger.GetSawmill("replay.mainmenu").Error($"Failed to load replay info. Exception: {ex}");
             SelectReplay(null);
             return;
         }
