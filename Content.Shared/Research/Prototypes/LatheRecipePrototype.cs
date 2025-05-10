@@ -66,16 +66,16 @@ namespace Content.Shared.Research.Prototypes
         public bool ApplyMaterialDiscount = true;
 
         /// <summary>
+        /// A category used for visually sorting lathe recipes in the UI.
+        /// </summary>
+        [DataField]
+        public ProtoId<LatheCategoryPrototype>? Category;
+
+        /// <summary>
         /// DeltaV: Number of mining points this recipe adds to an oreproc when printed.
         /// Scales with stack count.
         /// </summary>
         [DataField]
         public uint MiningPoints;
-
-        /// <summary>
-        /// List of categories used for visually sorting lathe recipes in the UI.
-        /// </summary>
-        [DataField]
-        public List<ProtoId<LatheCategoryPrototype>> Categories = new();
     }
 }
