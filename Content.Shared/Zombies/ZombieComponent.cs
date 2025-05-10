@@ -123,9 +123,12 @@ public sealed partial class ZombieComponent : Component
     {
         DamageDict = new()
         {
-            { "Blunt", -2 },
-            { "Slash", -2 },
-            { "Piercing", -2 }
+            // # PIRATE START
+            { "Blunt", -5 },
+            { "Slash", -5 },
+            { "Piercing", -5 },
+            { "Heat",  -5},
+            // # PIRATE END
         }
     };
 

@@ -1,3 +1,4 @@
+using Content.Server.Abilities.Psionics;
 using Content.Server.Atmos.Components;
 using Content.Server.Body.Components;
 using Content.Server.Chat;
@@ -32,13 +33,12 @@ using Content.Shared.NPC.Systems;
 using Content.Shared.Nutrition.AnimalHusbandry;
 using Content.Shared.Nutrition.Components;
 using Content.Shared.Popups;
+using Content.Shared.Prying.Components;
 using Content.Shared.Roles;
+using Content.Shared.Traits.Assorted.Components;
 using Content.Shared.Weapons.Melee;
 using Content.Shared.Zombies;
-using Content.Shared.Prying.Components;
 using Robust.Shared.Audio.Systems;
-using Content.Shared.Traits.Assorted.Components;
-using Content.Server.Abilities.Psionics;
 
 namespace Content.Server.Zombies
 {
@@ -178,9 +178,11 @@ namespace Content.Server.Zombies
                 {
                     DamageDict = new()
                     {
-                        { "Slash", 13 },
-                        { "Piercing", 7 },
-                        { "Structural", 10 }
+                        // # PIRATE START
+                        { "Slash", 18 },
+                        { "Piercing", 10 },
+                        { "Structural", 15 }
+                        // PIRATE END
                     }
                 };
                 melee.Damage = dspec;
