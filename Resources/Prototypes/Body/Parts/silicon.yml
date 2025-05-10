@@ -37,7 +37,7 @@
 - type: entity
   id: BaseBorgLeftArm
   parent: PartSilicon
-  name: "кіборг ліва рука"
+  name: cyborg left arm
   components:
   - type: BodyPart
     partType: Arm # Shitmed Change
@@ -60,7 +60,7 @@
 - type: entity
   id: BaseBorgRightArm
   parent: PartSilicon
-  name: "кіборг права рука"
+  name: cyborg right arm
   components:
   - type: BodyPart
     partType: Arm # Shitmed Change
@@ -83,7 +83,7 @@
 - type: entity
   id: BaseBorgLegLeft
   parent: PartSilicon
-  name: "ліва нога кіборга"
+  name: cyborg left leg
   components:
   - type: BodyPart
     partType: Leg
@@ -107,7 +107,7 @@
 - type: entity
   id: BaseBorgLegRight
   parent: PartSilicon
-  name: "права нога кіборга"
+  name: cyborg right leg
   components:
   - type: BodyPart
     partType: Leg
@@ -131,7 +131,7 @@
 - type: entity
   id: BaseLightHeadBorg
   parent: PartSilicon
-  name: "голова кіборга"
+  name: cyborg head
   components:
   - type: BodyPart
     partType: Head
@@ -148,7 +148,7 @@
 - type: entity
   id: BaseBorgTorso
   parent: PartSilicon
-  name: "торс кіборга"
+  name: cyborg torso
   components:
   - type: BodyPart
     partType: Torso

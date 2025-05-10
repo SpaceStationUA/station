@@ -1,8 +1,8 @@
 - type: entity
-  name: "коробка з КПК для охорони"
+  name: security PDA box
   parent: BoxPDA
   id: BoxPDASecurity
-  description: "Коробка запасних мікрокомп'ютерів КПК для відділу безпеки."
+  description: A box of spare PDA microcomputers for the security department.
   components:
   - type: StorageFill
     contents:
@@ -12,10 +12,10 @@
       - id: WardenPDA
 
 - type: entity
-  name: "коробка з КПК для в'язнів"
+  name: prisoner PDA box
   parent: BoxPDA
   id: BoxPDAPrisoner
-  description: "Коробка запасних мікрокомп'ютерів КПК для наглядача, щоб він міг використовувати їх для ув'язнених."
+  description: A box of spare PDA microcomputers for the warden to use for prisoners.
   components:
   - type: StorageFill
     contents:
@@ -23,10 +23,10 @@
         amount: 4
 
 - type: entity
-  name: "коробка з КПК для лікарів"
+  name: medical PDA box
   parent: BoxPDA
   id: BoxPDAMedical
-  description: "Коробка запасних мікрокомп'ютерів КПК для медичного відділення."
+  description: A box of spare PDA microcomputers for the medical department.
   components:
   - type: StorageFill
     contents:
@@ -36,10 +36,10 @@
       - id: ParamedicPDA
 
 - type: entity
-  name: "коробка з КПК для вчених"
+  name: epistemics PDA box
   parent: BoxPDA
   id: BoxPDAScience
-  description: "Коробка запасних мікрокомп'ютерів КПК для відділу епістеміки."
+  description: A box of spare PDA microcomputers for the epistemics department.
   components:
   - type: Item
     shape:
@@ -56,10 +56,10 @@
       - id: RoboticsPDA
 
 - type: entity
-  name: "коробка з КПК для інженерів"
+  name: engineering PDA box
   parent: BoxPDA
   id: BoxPDAEngineering
-  description: "Коробка запасних мікрокомп'ютерів КПК для інженерного відділу."
+  description: A box of spare PDA microcomputers for the engineering department.
   components:
   - type: StorageFill
     contents:
@@ -68,10 +68,10 @@
       - id: AtmosPDA
 
 - type: entity
-  name: "коробка з КПК для карго"
+  name: logistics PDA box
   parent: BoxPDA
   id: BoxPDACargo
-  description: "Коробка запасних мікрокомп'ютерів КПК для відділу логістики."
+  description: A box of spare PDA microcomputers for the logistics department.
   components:
   - type: StorageFill
     contents:
@@ -83,10 +83,10 @@
         amount: 1
 
 - type: entity
-  name: "коробка з КПК відділу правосуддя"
+  name: justice PDA box
   parent: BoxPDA
   id: BoxPDAJustice
-  description: "Коробка запасних мікрокомп'ютерів PDA для Міністерства юстиції."
+  description: A box of spare PDA microcomputers for the justice department.
   components:
   - type: StorageFill
     contents:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: JackoLantern
-  name: "ліхтар-джакузі"
-  description: "Різьблений гарбуз, що нагадує посмішку з вогником всередині, дуже моторошний."
+  name: jack-o'-lantern
+  description: A carved pumpkin that resembles a smile with a light inside of it, very spooky.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Decoration/Seasonal/jackolantern.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: BaseItem
   id: UnlitJackoLantern
-  name: "ліхтар-джакузі"
-  description: "Різьблений гарбуз, що нагадує посмішку, не дуже моторошну, але дещо милу."
+  name: jack-o'-lantern
+  description: A carved pumpkin that resembles a smile, not very spooky but somewhat cute.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Decoration/Seasonal/jackolantern.rsi
