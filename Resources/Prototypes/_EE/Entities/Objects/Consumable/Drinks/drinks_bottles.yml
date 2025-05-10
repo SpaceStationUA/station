@@ -1,8 +1,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottlePlasticBaseFull]
   id: DrinkSportsYellowBottleFull
-  name: "жовта пляшка Супернейду"
-  description: "Дивно напівпрозорий та райдужний спортивний напій. Кажуть, зі смаком лимона-лайму."
+  name: yellow Supernade bottle
+  description: A strangely translucent and iridescent sports drink. It's allegedly lemon-lime flavored.
   components:
   - type: Item
     size: Small
@@ -31,8 +31,8 @@
 - type: entity
   parent: DrinkSportsYellowBottleFull
   id: DrinkSportsBlueBottleFull
-  name: "синя пляшка Супернейду"
-  description: "Вражаючий синій спортивний напій, заборонений до продажу через вміст канцерогенів. Кажуть, зі смаком прохолодного фрезону."
+  name: blue Supernade bottle
+  description: A striking blue performance sports drink, banned from sale for containing carcinogens. It's allegedly cool frezon flavored.
   components:
   - type: Sprite
     sprite: _EE/Objects/Consumable/Drinks/sportsdrink.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: DrinkSportsYellowBottleFull
   id: DrinkSportsRedBottleFull
-  name: "червона пляшка Супернейду"
-  description: "Нудотно-червоний спортивний напій, заборонений до продажу через вміст канцерогенів. Кажуть, зі смаком нітро-пуншу."
+  name: red Supernade bottle
+  description: A sickly red performance sports drink, banned from sale for containing carcinogens. It's allegedly nitrous punch flavored.
   components:
   - type: Sprite
     sprite: _EE/Objects/Consumable/Drinks/sportsdrink.rsi

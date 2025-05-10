@@ -1,7 +1,7 @@
 - type: entity
-  name: "велика конічна колба"
+  name: large conical flask
   parent: LargeBeaker
-  description: "Використовується для зберігання великої кількості хімікатів або розчинів."
+  description: Used to contain a large amount of chemicals or solutions.
   id: LargeConicalFlask
   components:
   - type: Spillable
@@ -33,9 +33,9 @@
     price: 20
 
 - type: entity
-  name: "конічна колба"
+  name: conical flask
   parent: BaseBeaker
-  description: "Використовується для зберігання помірної кількості хімікатів та розчинів."
+  description: Used to contain a moderate amount of chemicals and solutions.
   id: ConicalFlask
   components:
   - type: Spillable

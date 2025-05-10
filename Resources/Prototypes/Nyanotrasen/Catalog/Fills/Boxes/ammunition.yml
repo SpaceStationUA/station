@@ -1,8 +1,8 @@
 - type: entity
-  name: "коробка картриджів для Солбрейкера"
+  name: box of soulbreaker cartridges
   parent: BaseAmmoProvider
   id: BoxShellSoulbreaker
-  description: "Коробка з антипіонерськими патронами, призначеними для рушниць для розбиття масових заворушень."
+  description: A box full of anti-psionic soulbreaker cartridges, designed for riot shotguns.
   components:
     - type: BallisticAmmoProvider
       proto: ShellSoulbreaker
@@ -16,10 +16,10 @@
 
 
 - type: entity
-  name: "коробка магазинів під набій .45 магнум Універсальний"
+  name: box of .45 magnum Universal magazines
   parent: BoxMagazine
   id: BoxMagazineUniversalMagnum
-  description: "Коробка, повна магазинів до набоїв .45 магнум."
+  description: A box full of .45 magnum magazines.
   components:
   - type: StorageFill
     contents:
@@ -34,10 +34,10 @@
         - BallisticAmmoProvider
 
 - type: entity
-  name: "коробка магазинів .45 магнум Універсальний (тренувальні)"
+  name: box of .45 magnum Universal (practice) magazines
   parent: BoxMagazine
   id: BoxMagazineUniversalMagnumPractice
-  description: "Коробка, повна тренувальних магазинів під набій .45 магнум."
+  description: A box full of .45 magnum practice magazines.
   components:
   - type: StorageFill
     contents:
@@ -52,10 +52,10 @@
         - BallisticAmmoProvider
 
 - type: entity
-  name: "коробка магазинів .45 магнум Універсальний (гумові)"
+  name: box of .45 magnum Universal (rubber) magazines
   parent: BoxMagazine
   id: BoxMagazineUniversalMagnumRubber
-  description: "Коробка, повна гумових магазинів .45 магнум."
+  description: A box full of .45 magnum rubber magazines.
   components:
   - type: StorageFill
     contents:
@@ -70,10 +70,10 @@
         - BallisticAmmoProvider
 
 - type: entity
-  name: "коробка швидкісних зарядних пристроїв для гвинтівок калібру .30"
+  name: box of .30 rifle speed loaders
   parent: BoxMagazine
   id: BoxSpeedLoaderLightRifle
-  description: "Коробка, повна швидкісних набоїв для гвинтівок калібру .30."
+  description: A box full of .30 rifle speed loaders.
   components:
   - type: StorageFill
     contents:

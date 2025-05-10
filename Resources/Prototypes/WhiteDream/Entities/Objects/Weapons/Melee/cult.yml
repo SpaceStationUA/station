@@ -1,8 +1,8 @@
 - type: entity
-  name: "ритуальний кинджал"
+  name: ritual dagger
   parent: BaseKnife
   id: RitualDagger
-  description: "Дивний кинджал, що використовується зловісними групами для ритуалів і жертвоприношень."
+  description: A strange dagger used by sinister groups for rituals and sacrifices.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cult_dagger.rsi
@@ -45,10 +45,10 @@
     - Knife
 
 - type: entity
-  name: "жахливий меч"
+  name: eldritch longsword
   parent: BaseItem
   id: EldritchLongsword
-  description: "Меч гуде нечистою енергією. Він світиться тьмяним червоним світлом."
+  description: A sword humming with unholy energy. It glows with a dim red light.
   components:
   - type: Sharp
   - type: Sprite
@@ -88,8 +88,8 @@
 - type: entity
   parent: BaseItem
   id: BloodSpear
-  name: "кривава алебарда"
-  description: "Огидний спис, що повністю складається із застиглої крові."
+  name: blood halberd
+  description: A sickening spear composed entirely of crystallized blood.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/Weapons/cult_spear.rsi

@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterJacketInsulated
-  name: "ізольована куртка"
-  description: "Товста куртка з мембраною на кінцях рукавів, яка прилягає до рук користувача, дозволяючи використовувати її як утеплені рукавички. Корисно, якщо ви не можете носити або знайти звичайні утеплені рукавички."
+  name: insulated jacket
+  description: A thick jacket with a membrane attached to the end of its sleeves that conforms to the user's hands, allowing it to function as insulated gloves. Useful if you can't wear or find regular insulated gloves.
   components:
   - type: Sprite
     sprite: _EE/Clothing/GloveJackets/insulated_jacket.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterJacketSurgical
-  name: "хірургічна куртка"
-  description: "Товста куртка з мембраною на кінцях рукавів, яка прилягає до рук користувача, дозволяючи використовувати її як хірургічні рукавички. Корисно, якщо вам потрібно провести операцію, але ви не можете носити звичайні рукавички."
+  name: surgical jacket
+  description: A thick jacket with a membrane attached to the end of its sleeves that conforms to the user's hands, allowing it to function as surgical gloves. Useful for if you need to do surgery but can't wear normal gloves.
   components:
   - type: Sprite
     sprite: _EE/Clothing/GloveJackets/surgical_jacket.rsi
