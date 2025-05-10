@@ -7,6 +7,9 @@
   discipline: Experimental
   tier: 3
   cost: 5000
+  technologyPrerequisites:
+  - AdvancedTacsuits
+  softCapContribution: 1.5
   recipeUnlocks:
   - ModsuitChestplate
   - ModsuitBoots
@@ -14,8 +17,3 @@
   - ModsuitGauntlets
   - ModsuitShell
   - ModsuitPlatingExternal
-  # Goobstation R&D Console rework start
-  position: -3,-3
-  technologyPrerequisites:
-    - AdvancedTacsuits
-  # Goobstation R&D Console rework end

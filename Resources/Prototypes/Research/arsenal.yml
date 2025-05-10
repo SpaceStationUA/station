@@ -29,9 +29,6 @@
   - MechEquipmentKineticAccelerator # Goobstation
   - WeaponPistolMk58
   # These are roundstart but not replenishable for salvage
-  # Goobstation R&D Console rework start
-  position: 1,0
-  # Goobstation R&D Console rework end
 
 - type: technology
   id: DraconicMunitions
@@ -61,11 +58,6 @@
   - CartridgeSpecialIncendiary
   - MagazineBoxSpecialIncendiary
   - MagazineUniversalMagnumIncendiary
-  # Goobstation R&D Console rework start
-  position: 3,-1
-  technologyPrerequisites:
-    - ShrapnelMunitions
-  # Goobstation R&D Console rework end
 
 - type: technology
   id: UraniumMunitions
@@ -94,11 +86,6 @@
   - CartridgeSpecialUranium
   - MagazineBoxSpecialUranium
   - MagazineUniversalMagnumUranium
-  # Goobstation R&D Console rework start
-  position: 3,-2
-  technologyPrerequisites:
-    - ShrapnelMunitions
-  # Goobstation R&D Console rework end
 
 # Tier 2
 
@@ -115,12 +102,6 @@
   - ClothingOuterHardsuitCombatStandard
   - ClothingOuterHardsuitCombatMedical
   - ClothingOuterHardsuitCombatRiot
-  # Goobstation R&D Console rework start
-  position: 4,-2
-  technologyPrerequisites:
-    - AdvancedWeapons
-    - HardsuitsArmoredAdvanced
-  # Goobstation R&D Console rework end
 
 - type: technology
   id: ExplosiveTechnology
@@ -140,11 +121,6 @@
   - ExplosivePayload
   - ChemicalPayload
   # TODO: Add "Explosive Ammunition" to this tech to make it waaaay more interesting.
-  # Goobstation R&D Console rework start
-  position: 4,-1
-  technologyPrerequisites:
-    - UraniumMunitions
-  # Goobstation R&D Console rework end
 
 - type: technology
   id: ShrapnelMunitions
@@ -168,11 +144,6 @@
   - MagazineBoxRifleShrapnel
   - MagazineBoxCaselessRifleShrapnel
   - MagazineUniversalMagnumShrapnel
-  # Goobstation R&D Console rework start
-  position: 2,-2
-  technologyPrerequisites:
-    - BasicWeapons
-  # Goobstation R&D Console rework end
 
 - type: technology
   id: AdvancedWeapons
@@ -204,11 +175,8 @@
   - WeaponPistolCobra
   - Terminus
   - WeaponPistolUniversal
-  # Goobstation R&D Console rework start
   technologyPrerequisites:
   - BasicWeapons
-  position: 3,0
-  # Goobstation R&D Console rework end
 
 # Tier 3
 
@@ -226,11 +194,9 @@
   - ClothingOuterHardsuitShanlinUnpainted
   - ClothingOuterHardsuitShiweiUnpainted
   - ClothingOuterHardsuitJuggernautReverseEngineered
-  # Goobstation R&D Console rework start
   technologyPrerequisites:
   - AdvancedTacsuits
-  position: 5,-2
-  # Goobstation R&D Console rework end
+  softCapContribution: 1.5
 
 - type: technology
   id: LaserTurrets
@@ -246,11 +212,9 @@
   - WeaponEnergyTurretStationMachineCircuitboard
   - WeaponEnergyTurretAIControlPanelElectronics
   - WeaponEnergyTurretStationControlPanelElectronics
-  # Goobstation R&D Console rework start
   technologyPrerequisites:
   - AdvancedWeapons
-  position: 6,-2
-  # Goobstation R&D Console rework end
+  softCapContribution: 1.5
 
 - type: technology
   id: PrototypeWeapons
@@ -272,8 +236,4 @@
   - EnergySwordDouble
   - EnergyCutlass
   - WeaponSubMachineGunBRDIR25
-  # Goobstation R&D Console rework start
-  technologyPrerequisites:
-    - AdvancedWeapons
-  position: 4,0
-  # Goobstation R&D Console rework end
+  softCapContribution: 1.5

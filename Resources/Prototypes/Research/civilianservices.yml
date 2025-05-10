@@ -29,11 +29,6 @@
   - BorgModuleArtifact
   - BorgModuleAnomaly
   - DroneElectronics
-  # Goobstation R&D Console rework start
-  position: -2,1
-  technologyPrerequisites:
-    - BasicElectronics
-  # Goobstation R&D Console rework end
 
 - type: technology
   id: BasicElectronics
@@ -60,9 +55,6 @@
   - FatExtractorMachineCircuitboard
   - BiofabricatorMachineCircuitboard
   - BiomassReclaimerMachineCircuitboard
-  # Goobstation R&D Console rework start
-  position: -1,0
-  # Goobstation R&D Console rework end
 
 # TODO: Add recipes to manufacture Vacsuits.
 # - type: technology
@@ -115,11 +107,6 @@
   - MedicalScannerMachineCircuitboard
   - MetempsychoticMachineCircuitboard
   - EnvirosuitExtinguisherRefill
-  # Goobstation R&D Console rework start
-  position: -2,-1
-  technologyPrerequisites:
-    - BasicElectronics
-  # Goobstation R&D Console rework end
 
 - type: technology
   id: HONKMech
@@ -140,11 +127,6 @@
   - HonkerPeripheralsElectronics
   - HonkerTargetingElectronics
   - MechEquipmentHorn
-  # Goobstation R&D Console rework start
-  position: -3,2
-  technologyPrerequisites:
-    - BasicCybernetics
-  # Goobstation R&D Console rework end
 
 # Tier 3
 # TODO: Add recipes to manufacture Advanced Hardsuits
@@ -159,6 +141,7 @@
 #   cost: 15000
 #   recipeUnlocks:
 #   - ClothingOuterHardsuitEngineeringWhite
+#   softCapContribution: 1.5
 
 - type: technology
   id: AdvancedLifeImprovements
@@ -175,11 +158,7 @@
   - BluespaceBeaker
   - SyringeBluespace
   # TODO: Add things like frontier's Hyposprays.
-  # Goobstation R&D Console rework start
-  position: -3,-1
-  technologyPrerequisites:
-    - BasicLifeImprovements
-  # Goobstation R&D Console rework end
+  softCapContribution: 1.5
 
 - type: technology
   id: AdvancedTranslation
@@ -201,8 +180,4 @@
   - RootSpeakTranslatorImplanter
   - AnimalTranslator
   - MofficTranslatorImplanter
-  # Goobstation R&D Console rework start
-  position: -4,-1
-  technologyPrerequisites:
-    - AdvancedLifeImprovements
-  # Goobstation R&D Console rework end
+  softCapContribution: 1.5
