@@ -6,14 +6,11 @@ using Content.Client.Message;
 using Content.Client.ReadyManifest;
 using Content.Client.UserInterface.Systems.Chat;
 using Content.Client.Voting;
-using Content.Shared.Preferences;
 using Robust.Client;
 using Robust.Client.Console;
-using Robust.Client.Player;
 using Robust.Client.ResourceManagement;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
-using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
 namespace Content.Client.Lobby
@@ -27,10 +24,6 @@ namespace Content.Client.Lobby
         [Dependency] private readonly IUserInterfaceManager _userInterfaceManager = default!;
         [Dependency] private readonly IGameTiming _gameTiming = default!;
         [Dependency] private readonly IVoteManager _voteManager = default!;
-        [Dependency] private readonly IClientPreferencesManager _preferencesManager = default!;
-        [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-        [Dependency] private readonly IDependencyCollection _dependencies = default!;
-        [Dependency] private readonly IPlayerManager _playerManager = default!;
 
         private ISawmill _sawmill = default!;
         private ClientGameTicker _gameTicker = default!;
@@ -113,12 +106,7 @@ namespace Content.Client.Lobby
 
         private void OnReadyToggled(BaseButton.ButtonToggledEventArgs args)
         {
-            var pressed = args.Pressed;
-            var character = _preferencesManager.Preferences?.SelectedCharacter;
-            if (character is not HumanoidCharacterProfile humanoid || !humanoid.IsValid(_playerManager.LocalSession!, _dependencies))
-                pressed = false;
-
-            SetReady(pressed);
+            SetReady(args.Pressed);
         }
 
         private void OnManifestPressed(BaseButton.ButtonEventArgs args)

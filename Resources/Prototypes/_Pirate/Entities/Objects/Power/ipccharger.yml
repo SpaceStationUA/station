@@ -16,8 +16,14 @@
   components:
     - type: Sprite
       layers:
-        - map: ["enum.PowerCellVisualLayers.Base"]
+        - map: ["enum.IPCChargerLayers.Base"]
           state: disposalcharger
-        - map: ["enum.PowerCellVisualLayers.Unshaded"]
+        - map: ["enum.IPCChargerLayers.Unshaded"]
           state: active
           shader: unshaded
+    - type: GenericVisualizer
+      visuals:
+        enum.IPCChargerVisuals.Active:
+          enum.IPCChargerLayers.Unshaded:
+            True: { visible: true }
+            False: { visible: false }
