@@ -1,4 +1,4 @@
-using Content.Goobstation.Common.Research;
+using Content.Shared._Goobstation.Research.Common;
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Research.Components

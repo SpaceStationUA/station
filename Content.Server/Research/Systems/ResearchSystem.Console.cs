@@ -3,20 +3,16 @@ using Content.Server.Research.Components;
 using Content.Shared.UserInterface;
 using Content.Shared.Access.Components;
 using Content.Shared.Emag.Components;
-using Content.Shared.Emag.Systems;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Research.Components;
 using Content.Shared.Research.Prototypes;
-using Content.Goobstation.Common.Pirates;
-using Content.Goobstation.Common.Research; // R&D Console Rework
+using Content.Shared._Goobstation.Research.Common; // R&D Console Rework
 using System.Linq; // R&D Console Rework
 
 namespace Content.Server.Research.Systems;
 
 public sealed partial class ResearchSystem
 {
-    [Dependency] private readonly EmagSystem _emag = default!;
-
     private void InitializeConsole()
     {
         SubscribeLocalEvent<ResearchConsoleComponent, ConsoleUnlockTechnologyMessage>(OnConsoleUnlock);
@@ -24,23 +20,10 @@ public sealed partial class ResearchSystem
         SubscribeLocalEvent<ResearchConsoleComponent, ResearchServerPointsChangedEvent>(OnPointsChanged);
         SubscribeLocalEvent<ResearchConsoleComponent, ResearchRegistrationChangedEvent>(OnConsoleRegistrationChanged);
         SubscribeLocalEvent<ResearchConsoleComponent, TechnologyDatabaseModifiedEvent>(OnConsoleDatabaseModified);
-        SubscribeLocalEvent<ResearchConsoleComponent, TechnologyDatabaseSynchronizedEvent>(OnConsoleDatabaseSynchronized);
     }
 
     private void OnConsoleUnlock(EntityUid uid, ResearchConsoleComponent component, ConsoleUnlockTechnologyMessage args)
     {
-        // goob edit - spirates
-        var eqe = EntityQueryEnumerator<ResourceSiphonComponent>();
-        while (eqe.MoveNext(out var siphon))
-        {
-            if (siphon.Active)
-            {
-                _popup.PopupEntity(Loc.GetString("console-block-something"), args.Actor);
-                return;
-            }
-        }
-        // goob edit end
-
         var act = args.Actor;
 
         if (!this.IsPowered(uid, EntityManager))
@@ -75,7 +58,6 @@ public sealed partial class ResearchSystem
         SyncClientWithServer(uid);
         UpdateConsoleInterface(uid, component);
     }
-
     private void OnConsoleBeforeUiOpened(EntityUid uid, ResearchConsoleComponent component, BeforeActivatableUIOpenEvent args)
     {
         SyncClientWithServer(uid);

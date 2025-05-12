@@ -1,6 +1,6 @@
 using Robust.Shared.Serialization;
 
-namespace Content.Goobstation.Common.Research;
+namespace Content.Shared._Goobstation.Research.Common;
 
 [Serializable, NetSerializable]
 public enum ResearchAvailability : byte

@@ -2,8 +2,8 @@ using System.Linq;
 using System.Numerics;
 using Content.Client.Research;
 using Content.Client.UserInterface.Controls;
-using Content.Goobstation.Common.Research;
-using Content.Goobstation.Shared.Research;
+using Content.Shared._Goobstation.Research.Common;
+using Content.Shared._Goobstation.Research;
 using Content.Shared.Access.Systems;
 using Content.Shared.Research.Components;
 using Content.Shared.Research.Prototypes;
@@ -17,7 +17,7 @@ using Robust.Shared.Input;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 
-namespace Content.Goobstation.Client.Research.UI;
+namespace Content.Client._Goobstation.Research.UI;
 
 [GenerateTypedNameReferences]
 public sealed partial class FancyResearchConsoleMenu : FancyWindow

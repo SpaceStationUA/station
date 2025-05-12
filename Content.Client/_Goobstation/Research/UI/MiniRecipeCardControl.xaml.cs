@@ -8,7 +8,7 @@ using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 
-namespace Content.Goobstation.Client.Research.UI;
+namespace Content.Client._Goobstation.Research.UI;
 
 [GenerateTypedNameReferences]
 public sealed partial class MiniRecipeCardControl : Control
