@@ -1,7 +1,7 @@
 ensouled-item-name = зачарований {$item}
 ensouled-item-desc = [color=darkred]Жахлива аура оточує цей предмет, саме його існування є образливим для самого життя...[/color]
 
-delete-on-drop-attempt-comp-examine = Киньте цей елемент, щоб позбутися його.
+delete-on-drop-attempt-comp-examine = Киньте цей предмет, щоб позбутися його.
 
 enchanted-rifle-guns-left = Зброя зліва: [color=yellow]{$guns}[/color].
 

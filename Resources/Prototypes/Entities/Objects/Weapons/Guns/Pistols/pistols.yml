@@ -80,6 +80,11 @@
       collection: MetalThud
   - type: DamageOtherOnHit
     staminaCost: 5
+    # PIRATE START
+  - type: CanHoldAccessories
+    whiteListTags:
+      - CombatKnife
+    # PIRATE END
 
 - type: entity
   name: viper

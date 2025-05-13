@@ -1,0 +1,1521 @@
+# Acolyte
+- type: loadout
+  id: LoadoutAcolyteRestrictedGearUniformSuit
+  category: JobsEpistemicsAcolyte
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAcolyteUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Scientist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitScientist
+
+- type: loadout
+  id: LoadoutAcolyteRestrictedGearUniformSkirt
+  category: JobsEpistemicsAcolyte
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAcolyteUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Scientist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtScientist
+
+# Cataloger
+- type: loadout
+  id: LoadoutCatalogerRestrictedGearEyesEpiHUD
+  category: JobsEpistemicsCataloger
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCatalogerEquipment
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Librarian
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingEyesHudEpistemics
+
+- type: loadout
+  id: LoadoutCatalogerRestrictedGearEyesEpiGlasses
+  category: JobsEpistemicsCataloger
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCatalogerEquipment
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Librarian
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingEyesGlassesEpistemics
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearJumpsuitLibrarianNt
+  category: JobsEpistemicsCataloger
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCatalogerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Librarian
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitLibrarianNt
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearJumpsuitLibrarianIdris
+  category: JobsEpistemicsCataloger
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCatalogerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Librarian
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitLibrarianIdris
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearJumpsuitLibrarianOrion
+  category: JobsEpistemicsCataloger
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCatalogerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Librarian
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitLibrarianOrion
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearJumpsuitLibrarianHeph
+  category: JobsEpistemicsCataloger
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCatalogerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Librarian
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitLibrarianHeph
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearJumpsuitLibrarianPMCG
+  category: JobsEpistemicsCataloger
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCatalogerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Librarian
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitLibrarianPMCG
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearJumpsuitLibrarianZav
+  category: JobsEpistemicsCataloger
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCatalogerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Librarian
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitLibrarianZav
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearJumpsuitLibrarianZeng
+  category: JobsEpistemicsCataloger
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCatalogerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Librarian
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitLibrarianZeng
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearJumpsuitLibrarian
+  category: JobsEpistemicsCataloger
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCatalogerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Librarian
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitLibrarian
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearJumpskirtLibrarian
+  category: JobsEpistemicsCataloger
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCatalogerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Librarian
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtLibrarian
+
+# Chaplain
+- type: loadout
+  id: LoadoutChaplainRestrictedGearEyesEpiHUD
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainEquipment
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingEyesHudEpistemics
+
+- type: loadout
+  id: LoadoutChaplainRestrictedGearEyesEpiGlasses
+  category: JobsEpistemicsChaplain
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainEquipment
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingEyesGlassesEpistemics
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearHeadHatHoodNunHood
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatHoodNunHood
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearHeadHatPlaguedoctor
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatPlaguedoctor
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearHeadHatWitch
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatWitch
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearHeadHatWitch1
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatWitch1
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearNeckStoleChaplain
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckStoleChaplain
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearMaskPlague
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainMask
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingMaskPlague
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearOuterPlagueSuit
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterPlagueSuit
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearOuterNunRobe
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterNunRobe
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearOuterHoodieBlack
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterHoodieBlack
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearOuterHoodieChaplain
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterHoodieChaplain
+
+- type: loadout
+  id: LoadoutChaplainRestrictedGearJumpsuit
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitChaplain
+
+- type: loadout
+  id: LoadoutChaplainRestrictedGearJumpskirt
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtChaplain
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearUniformJumpsuitMonasticRobeDark
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitMonasticRobeDark
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearUniformJumpsuitMonasticRobeLight
+  category: JobsEpistemicsChaplain
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChaplainUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Chaplain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitMonasticRobeLight
+
+# Golemancer
+- type: loadout
+  id: LoadoutBackpackRestrictedGearRobotics
+  category: JobsEpistemicsGolemancer
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackRobotics
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutGolemancerBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Roboticist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+- type: loadout
+  id: LoadoutBackpackRestrictedGearSatchelRobotics
+  category: JobsEpistemicsGolemancer
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelRobotics
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutGolemancerBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Roboticist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+- type: loadout
+  id: LoadoutBackpackRestrictedGearDuffelRobotics
+  category: Backpacks
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackDuffelRobotics
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutGolemancerBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Roboticist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+- type: loadout
+  id: LoadoutGolemancerRestrictedGearBeltUtility
+  category: JobsEpistemicsGolemancer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutGolemancerBelt
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Roboticist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBeltUtilityFilled
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearUniformWinterCoatRoboticist
+  category: JobsEpistemicsGolemancer
+  cost: 1
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutGolemancerUniforms
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+    - Roboticist
+  - !type:CharacterTraitRequirement
+    traits:
+    - RestrictedGear
+  items:
+  - ClothingOuterWinterRobo
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearUniformJumpskirtRoboticist
+  category: JobsEpistemicsGolemancer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutGolemancerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Roboticist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtRoboticist
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearUniformJumpsuitRoboticist
+  category: JobsEpistemicsGolemancer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutGolemancerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Roboticist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitRoboticist
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearUniformJumpsuitRoboticistNT
+  category: JobsEpistemicsGolemancer
+  cost: 1
+  exclusive: true
+  guideEntry: NanoTrasen
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutGolemancerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Roboticist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - NanoTrasen
+  items:
+    - ClothingUniformJumpsuitNTRoboticist
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearUniformJumpsuitRoboticistHeph
+  category: JobsEpistemicsGolemancer
+  cost: 1
+  exclusive: true
+  guideEntry: HephaestusIndustries
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutGolemancerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Roboticist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - HephaestusIndustries
+  items:
+    - ClothingUniformJumpsuitHephRoboticist
+
+# Mystagogue
+- type: loadout
+  id: LoadoutMystagogueRestrictedGearBackpacksBackpack
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackResearchDirectorFilled
+
+- type: loadout
+  id: LoadoutMystagogueRestrictedGearBackpacksSatchel
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackSatchelResearchDirectorFilled
+
+- type: loadout
+  id: LoadoutMystagogueRestrictedGearBackpacksDuffel
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackDuffelResearchDirectorFilled
+
+- type: loadout
+  id: LoadoutMystagogueRestrictedGearEyesEpiHUD
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueEquipment
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingEyesHudEpistemics
+
+- type: loadout
+  id: LoadoutMystagogueRestrictedGearEyesEpiGlasses
+  category: JobsEpistemicsMystagogue
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueEquipment
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingEyesGlassesEpistemics
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearRDHeadHatBeretMysta
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatBeretMysta
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearRDHeadHoodMysta
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHoodMysta
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearRDNeckMantle
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckMantleRD
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearRDNeckCloak
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckCloakRd
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearRDNeckCloakMystagogue
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckCloakMystagogue
+
+- type: loadout
+  id: LoadoutMystagogueRestrictedGearNeckSciencemedal
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckSciencemedal
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearRDOuterWinter
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterRD
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearRDOuterMysta
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterCoatRndMysta
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearRDShoesBootsWinter
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsWinterMystagogue
+
+- type: loadout
+  id: LoadoutMystagogueRestrictedGearUniformJumpsuit
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitResearchDirector
+
+### PIRATE changes until end of file
+
+# Mystagogue Loadouts
+- type: loadout
+  id: LoadoutMystagogueRestrictedGearUniformJumpskirt
+  category: JobsEpistemicsMystagogue
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMystagogueUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchDirector
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtResearchDirector
+
+# Mystic Loadouts
+- type: loadout
+  id: LoadoutScienceRestrictedGearOuterLabcoatSeniorResearcher
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMysticOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SeniorResearcher
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterCoatLabSeniorResearcher
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearUniformJumpskirtSenior
+  category: JobsEpistemicsMystic
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMysticUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SeniorResearcher
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtSeniorResearcher
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearUniformJumpsuitSenior
+  category: JobsEpistemicsMystic
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMysticUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SeniorResearcher
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitSeniorResearcher
+
+# Noviciate Loadouts
+- type: loadout
+  id: LoadoutNoviciateRestrictedGearUniformSuit
+  category: JobsEpistemicsNoviciate
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNoviciateUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchAssistant
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitColorWhite
+
+- type: loadout
+  id: LoadoutNoviciateRestrictedGearUniformSkirt
+  category: JobsEpistemicsNoviciate
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNoviciateUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ResearchAssistant
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtColorWhite
+
+# Psionic Mantis Loadouts
+- type: loadout
+  id: LoadoutPsionicMantisRestrictedGearEyesEpiHUD
+  category: JobsEpistemicsPsionicMantis
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisEquipment
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ForensicMantis
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingEyesHudEpistemics
+
+- type: loadout
+  id: LoadoutPsionicMantisRestrictedGearEyesEpiGlasses
+  category: JobsEpistemicsPsionicMantis
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisEquipment
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ForensicMantis
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingEyesGlassesEpistemics
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearOuterWinterCoatMantis
+  category: JobsEpistemicsPsionicMantis
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ForensicMantis
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterCoatMantis
+
+- type: loadout
+  id: LoadoutPsionicMantisRestrictedGearUniformSuit
+  category: JobsEpistemicsPsionicMantis
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ForensicMantis
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitMantis
+
+- type: loadout
+  id: LoadoutPsionicMantisRestrictedGearUniformSkirt
+  category: JobsEpistemicsPsionicMantis
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPsionicMantisUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ForensicMantis
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformSkirtMantis
+
+# General Epistemics Backpacks
+- type: loadout
+  id: LoadoutBackpackRestrictedGearScience
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackScience
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+- type: loadout
+  id: LoadoutBackpackRestrictedGearSatchelScience
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelScience
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+- type: loadout
+  id: LoadoutBackpackRestrictedGearDuffelScience
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackDuffelScience
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+# Gloves
+- type: loadout
+  id: LoadoutScienceRestrictedGearHandsGlovesColorPurple
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsGloves
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHandsGlovesColorPurple
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearHandsGlovesLatex
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsGloves
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHandsGlovesLatex
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearHandsGlovesRobohands
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsGloves
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHandsGlovesRobohands
+
+# Head
+- type: loadout
+  id: LoadoutScienceRestrictedGearHeadHatBeret
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatBeretRND
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearHeadHatFez
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatFez
+
+- type: loadout
+  id: LoadoutHeadRestrictedGearHoodTechPriest
+  category: Head
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingHeadTechPriest
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+# Neck
+- type: loadout
+  id: LoadoutScienceRestrictedGearNeckTieSci
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsNeck
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckTieSci
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearNeckScarfStripedPurple
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsNeck
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckScarfStripedPurple
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearNeckScarfStripedBlack
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsNeck
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckScarfStripedBlack
+
+# Outer
+- type: loadout
+  id: LoadoutScienceRestrictedGearOuterCoat
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsOuter
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterCoatRnd
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearOuterLabcoat
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsOuter
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterCoatLab
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearOuterCoatRobo
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsOuter
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterCoatRobo
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearOuterWinterSci
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsOuter
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterSci
+
+- type: loadout
+  id: LoadoutScienceRestrictedGearOuterExplorerLabcoat
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsOuter
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterExplorerCoat
+
+- type: loadout
+  id: LoadoutOuterRestrictedGearRobeTechPriest
+  category: Outer
+  cost: 1
+  items:
+    - ClothingOuterRobeTechPriest
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsOuter
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+# Shoes
+- type: loadout
+  id: LoadoutScienceRestrictedGearShoesBootsWinterSci
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEpistemicsShoes
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Epistemics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsWinterSci

@@ -4,8 +4,8 @@ cargo-console-menu-account-name-label = Назва рахунку:{" "}
 cargo-console-menu-account-name-none-text = Немає
 cargo-console-menu-shuttle-name-label = Ім'я шатла:{" "}
 cargo-console-menu-shuttle-name-none-text = Немає
-cargo-console-menu-points-label = Космобакси:{" "}
-cargo-console-menu-points-amount = ${$amount}
+cargo-console-menu-points-label = Космобаксів:{" "}
+cargo-console-menu-points-amount = {$amount}$
 cargo-console-menu-shuttle-status-label = Статус шатлу:{" "}
 cargo-console-menu-shuttle-status-away-text = Відлетів
 cargo-console-menu-order-capacity-label = Обсяг замовлення:{" "}
@@ -19,7 +19,7 @@ cargo-console-menu-order-reason-description = Причини: {$reason}
 cargo-console-menu-populate-categories-all-text = Усі
 cargo-console-menu-populate-orders-cargo-order-row-product-name-text = {$productName} (x{$orderAmount}) від {$orderRequester}
 cargo-console-menu-cargo-order-row-approve-button = Затвердити
-cargo-console-menu-cargo-order-row-cancel-button = Закрити
+cargo-console-menu-cargo-order-row-cancel-button = Відмовити
 
 # Orders
 cargo-console-order-not-allowed = Доступ заборонено

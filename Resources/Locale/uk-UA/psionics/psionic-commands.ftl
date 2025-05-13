@@ -1,7 +1,7 @@
-command-glimmershow-description = Показати поточний рівень мерехтіння.
+command-glimmershow-description = Показати поточний рівень Мерехтіння.
 command-glimmershow-help = Немає аргументів.
 
-command-glimmerset-description = Встановіть мерехтіння на число.
+command-glimmerset-description = Встановити показник Мерехтіння.
 command-glimmerset-help = glimmerset (ціле число)
 
 command-lspsionic-description = Список псіоніків.

@@ -16,22 +16,22 @@
 reagent-effect-guidebook-create-entity-reaction-effect = { $chance ->
         *[other] створює
     } { $amount ->
-        *[other] {$amount} {MAKEPLURAL($entname)}
+        *[other] {$amount} ($entname)
     }
 
 reagent-effect-guidebook-explosion-reaction-effect = { $chance ->
-        [1] Причини
-        *[other] причина
+        [1] Спричиняє
+        *[other] спричиняють
     } вибух
 
 reagent-effect-guidebook-emp-reaction-effect = { $chance ->
-        [1] Причини
-        *[other] причина
+        [1] Спричиняє
+        *[other] спричиняють
     } електромагнітний імпульс
 
 reagent-effect-guidebook-foam-area-reaction-effect = { $chance ->
         [1] Створює
-        *[other] створює
+        *[other] створюють
     } велику кількість піни
 
 reagent-effect-guidebook-satiate-thirst = { $chance ->
@@ -53,40 +53,40 @@ reagent-effect-guidebook-satiate-hunger = { $chance ->
 reagent-effect-guidebook-health-change = { $chance ->
         [1] { $healsordeals ->
                 [heals] Зцілює
-                [deals] Укладає угоди
+                [deals] Шкодить
                 *[both] Змінює здоров'я на
              }
         *[other] { $healsordeals ->
-                    [heals] зцілює
-                    [deals] укладає угоду
+                    [heals] зцілють
+                    [deals] шкодять
                     *[both] змінюють здоров'я на
                  }
     } { $changes }
 
 reagent-effect-guidebook-status-effect = { $type ->
         [add]   { $chance ->
-                    [1] Causes
-                    *[other] cause
-                } {LOC($key)} for at least {NATURALFIXED($time, 3)} {MANY("second", $time)} with accumulation
+                    [1] Спричиняє
+                    *[other] спричиняють
+                } {LOC($key)} якнайменше {NATURALFIXED($time, 3)} {MANY("second", $time)} з накопиченням
         *[set]  { $chance ->
-                    [1] Causes
-                    *[other] cause
-                } {LOC($key)} for at least {NATURALFIXED($time, 3)} {MANY("second", $time)} without accumulation
+                    [1] Спричиняє
+                    *[other] спричиняють
+                } {LOC($key)} якнайменше {NATURALFIXED($time, 3)} {MANY("second", $time)} без накопичення
         [remove]{ $chance ->
-                    [1] Removes
-                    *[other] remove
-                } {NATURALFIXED($time, 3)} {MANY("second", $time)} of {LOC($key)}
+                    [1] Прибирає
+                    *[other] прибирають
+                } {NATURALFIXED($time, 3)} {MANY("second", $time)} {LOC($key)}
     }
 
 reagent-effect-guidebook-activate-artifact = { $chance ->
-        [1] Спроби
+        [1] Спроб
         *[other] спроба
     } активувати артефакт
 
 reagent-effect-guidebook-set-solution-temperature-effect = { $chance ->
-        [1] Множини
+        [1] Встановлює
         *[other] встановлює
-    } температуру розв'язку з точністю {NATURALFIXED($temperature, 2)}k
+    } температуру розчину з точністю {NATURALFIXED($temperature, 2)}k
 
 reagent-effect-guidebook-adjust-solution-temperature-effect = { $chance ->
         [1] { $deltasign ->
@@ -96,7 +96,7 @@ reagent-effect-guidebook-adjust-solution-temperature-effect = { $chance ->
         *[other]
             { $deltasign ->
                 [1] додає
-                *[-1] видалити
+                *[-1] прибирає
             }
     } тепло від розчину, поки воно не досягне { $deltasign ->
                 [1] не більше {NATURALFIXED($maxtemp, 2)}k
@@ -111,7 +111,7 @@ reagent-effect-guidebook-adjust-reagent-reagent = { $chance ->
         *[other]
             { $deltasign ->
                 [1] додає
-                *[-1] видалити
+                *[-1] видаляє
             }
     } {NATURALFIXED($amount, 2)}u з {$reagent} { $deltasign ->
         [1] до
@@ -303,10 +303,10 @@ reagent-effect-guidebook-missing = { $chance ->
 
 reagent-effect-guidebook-change-glimmer-reaction-effect = { $chance ->
         [1] Змінює
-        *[other] змінює
+        *[other] Змінює
     } кількість мерехтінь на {$count} пунктів
 reagent-effect-guidebook-chem-remove-psionic = { $chance ->
-        [1] видаляє
+        [1] Видаляє
         *[other] видаляє
     } псіонічні здібності
 reagent-effect-guidebook-chem-reroll-psionic = { $chance ->

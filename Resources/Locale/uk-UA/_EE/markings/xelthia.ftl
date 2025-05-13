@@ -1,4 +1,4 @@
-marking-XelthiaStripeyChest = Смуги на Грудині
+marking-XelthiaStripeyChest = Смуги на Тулубі
 marking-XelthiaUnderbelly = Кольорове Черево
 marking-XelthiaEarsNormal = Звичайні Вуха
 marking-XelthiaEarsSmall = Короткі Вуха
@@ -11,3 +11,9 @@ marking-XelthiaHairOvereye = Надочні Волоскові Вусики
 marking-XelthiaHairFancy = Вишукані Волоскові Вусики
 marking-XelthiaHairTripoint = Триконечні Волоскові Вусики
 marking-XelthiaHairDownNBack = Вниз і 'Н' Назад Вусики
+marking-XelthiaStripeyChest-stripey = Смуга
+marking-XelthiaUnderbelly-underbelly = Підчерев'я
+marking-XelthiaEarsNormal-ears_normal = Вухо
+marking-XelthiaEarsSmall-ears_small = Вухо
+marking-XelthiaBackspikes-backspikes = Шип на спині
+marking-XelthiaTailNormal-tail_normal = Хвіст

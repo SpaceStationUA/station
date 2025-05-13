@@ -1,0 +1,789 @@
+# Atmospheric Technician Backpacks
+- type: loadout
+  id: LoadoutAtmosphericTechnicianRestrictedGearBackpackBackpack
+  category: JobsEngineeringAtmosphericTechnician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAtmosphericTechnicianBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AtmosphericTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackAtmospherics
+
+- type: loadout
+  id: LoadoutAtmosphericTechnicianRestrictedGearBackpackSatchel
+  category: JobsEngineeringAtmosphericTechnician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAtmosphericTechnicianBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AtmosphericTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackSatchelAtmospherics
+
+- type: loadout
+  id: LoadoutAtmosphericTechnicianRestrictedGearBackpackDuffel
+  category: JobsEngineeringAtmosphericTechnician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAtmosphericTechnicianBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AtmosphericTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackDuffelAtmospherics
+
+# Atmospheric Technician Head
+- type: loadout
+  id: LoadoutAtmosphericTechnicianRestrictedGearChickenhead
+  category: JobsEngineeringAtmosphericTechnician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAtmosphericTechnicianHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AtmosphericTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatChickenhead
+
+# Atmospheric Technician Mask
+- type: loadout
+  id: LoadoutAtmosphericTechnicianRestrictedGearMaskGasAtmos
+  category: JobsEngineeringAtmosphericTechnician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAtmosphericTechnicianMask
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AtmosphericTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingMaskGasAtmos
+
+# Atmospheric Technician Outer
+- type: loadout
+  id: LoadoutAtmosphericTechnicianRestrictedGearWinterCoat
+  category: JobsEngineeringAtmosphericTechnician
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAtmosphericTechnicianOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AtmosphericTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterAtmos
+
+- type: loadout
+  id: LoadoutAtmosphericTechnicianRestrictedGearChickenSuit
+  category: JobsEngineeringAtmosphericTechnician
+  cost: 1
+  exclusive: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAtmosphericTechnicianOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AtmosphericTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterSuitChicken
+
+# Atmospheric Technician Shoes
+- type: loadout
+  id: LoadoutAtmosphericTechnicianRestrictedGearShoesWhite
+  category: JobsEngineeringAtmosphericTechnician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAtmosphericTechnicianShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AtmosphericTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesColorWhite
+
+- type: loadout
+  id: LoadoutAtmosphericTechnicianRestrictedGearShoesWork
+  category: JobsEngineeringAtmosphericTechnician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAtmosphericTechnicianShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AtmosphericTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsWork
+
+# Atmospheric Technician Uniforms
+- type: loadout
+  id: LoadingEngineeringAtmosRestrictedGearUniformSuit
+  category: JobsEngineeringAtmosphericTechnician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAtmosphericTechnicianUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AtmosphericTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitAtmos
+
+- type: loadout
+  id: LoadingEngineeringAtmosRestrictedGearUniformSkirt
+  category: JobsEngineeringAtmosphericTechnician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAtmosphericTechnicianUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AtmosphericTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtAtmos
+
+# Chief Engineer Backpacks
+- type: loadout
+  id: LoadoutEngineeringChiefEngineerRestrictedGearBackpackBackpack
+  category: JobsEngineeringChiefEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefEngineerBackpack
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackChiefEngineerFilled
+
+- type: loadout
+  id: LoadoutEngineeringChiefEngineerRestrictedGearBackpackSatchel
+  category: JobsEngineeringChiefEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefEngineerBackpack
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackSatchelChiefEngineerFilled
+
+- type: loadout
+  id: LoadoutEngineeringChiefEngineerRestrictedGearBackpackDuffel
+  category: JobsEngineeringChiefEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefEngineerBackpack
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackDuffelChiefEngineerFilled
+
+# Chief Engineer Belt
+- type: loadout
+  id: LoadoutChiefEngineerRestrictedGearBelt
+  category: JobsEngineeringChiefEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefEngineerBelt
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBeltChiefEngineer
+
+- type: loadout
+  id: LoadoutChiefEngineerRestrictedGearBeltFilled
+  category: JobsEngineeringChiefEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefEngineerBelt
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBeltChiefEngineerFilled
+
+# Chief Engineer Neck
+- type: loadout
+  id: LoadoutEngineeringChiefEngineerRestrictedGearNeckMantle
+  category: JobsEngineeringChiefEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefEngineerNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckMantleCE
+
+- type: loadout
+  id: LoadoutEngineeringChiefEngineerRestrictedGearNeckCloak
+  category: JobsEngineeringChiefEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefEngineerNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckCloakCe
+
+- type: loadout
+  id: LoadoutEngineeringChiefEngineerRestrictedGearNeckEngineerMedal
+  category: JobsEngineeringChiefEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefEngineerNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckEngineermedal
+
+# Chief Engineer Outer
+- type: loadout
+  id: LoadoutCommandCERestrictedGearOuterWinter
+  category: JobsEngineeringChiefEngineer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefEngineerOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterCE
+
+# Chief Engineer Shoes
+- type: loadout
+  id: LoadoutChiefEngineerRestrictedGearShoesBootsWinter
+  category: JobsEngineeringChiefEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefEngineerShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsWinterChiefEngineer
+
+# Chief Engineer Uniforms
+- type: loadout
+  id: LoadoutChiefEngineerRestrictedGearUniformSuit
+  category: JobsEngineeringChiefEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefEngineerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitChiefEngineer
+
+- type: loadout
+  id: LoadoutEngineeringChiefEngineerRestrictedGearUniformSkirt
+  category: JobsEngineeringChiefEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutChiefEngineerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtChiefEngineer
+
+# Senior Engineer Uniforms
+- type: loadout
+  id: LoadoutEngineeringRestrictedGearUniformJumpskirtSenior
+  category: JobsEngineeringSeniorEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSeniorEngineerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SeniorEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtSeniorEngineer
+
+- type: loadout
+  id: LoadoutEngineeringRestrictedGearUniformJumpsuitSenior
+  category: JobsEngineeringSeniorEngineer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSeniorEngineerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SeniorEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitSeniorEngineer
+
+# Station Engineer Uniforms
+- type: loadout
+  id: LoadoutStationEngineerRestrictedGearUniformsSuit
+  category: JobsEngineeringStationEngineer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutStationEngineerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - StationEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitEngineering
+
+- type: loadout
+  id: LoadoutStationEngineerRestrictedGearUniformsSkirt
+  category: JobsEngineeringStationEngineer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutStationEngineerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - StationEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtEngineering
+
+# Technical Assistant Uniforms
+- type: loadout
+  id: LoadoutTechnicalAssistantRestrictedGearSuit
+  category: JobsEngineeringTechnicalAssistant
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutTechnicalAssistantUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - TechnicalAssistant
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitColorYellow
+
+- type: loadout
+  id: LoadoutTechnicalAssistantRestrictedGearSkirt
+  category: JobsEngineeringTechnicalAssistant
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutTechnicalAssistantUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - TechnicalAssistant
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtColorYellow
+
+# All Engineering Department Jobs Backpacks
+- type: loadout
+  id: LoadoutRestrictedGearBackpackEngineering
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackEngineering
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Engineering
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+- type: loadout
+  id: LoadoutRestrictedGearBackpackSatchelEngineering
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelEngineering
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Engineering
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+- type: loadout
+  id: LoadoutRestrictedGearBackpackDuffelEngineering
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackDuffelEngineering
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Engineering
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+# Engineering Department Head
+- type: loadout
+  id: LoadoutEngineeringRestrictedGearHeadBeret
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Engineering
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatBeretEngineering
+
+- type: loadout
+  id: LoadoutEngineeringRestrictedGearHeadHardhatBlue
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Engineering
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatHardhatBlue
+
+- type: loadout
+  id: LoadoutEngineeringRestrictedGearHeadHardhatOrange
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Engineering
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatHardhatOrange
+
+- type: loadout
+  id: LoadoutEngineeringRestrictedGearHeadHardhatYellow
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Engineering
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatHardhatYellow
+
+- type: loadout
+  id: LoadoutEngineeringRestrictedGearHeadHardhatWhite
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Engineering
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatHardhatWhite
+
+- type: loadout
+  id: LoadoutEngineeringRestrictedGearHeadHardhatRed
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Engineering
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatHardhatRed
+
+# Engineering Department Outer
+- type: loadout
+  id: LoadoutEngineeringRestrictedGearWinterCoat
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringOuter
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Engineering
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterEngi
+
+- type: loadout
+  id: LoadoutEngineeringRestrictedGearOuterHazard
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringOuter
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Engineering
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterVestHazard
+
+# Engineering Department Uniforms
+- type: loadout
+  id: LoadoutEngineeringRestrictedGearUniformSuit
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - StationEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitEngineering
+
+- type: loadout
+  id: LoadoutEngineeringRestrictedGearUniformSkirt
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - StationEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtEngineering
+
+- type: loadout
+  id: LoadoutEngineeringRestrictedGearUniformHazard
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEngineeringUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - StationEngineer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitEngineeringHazard

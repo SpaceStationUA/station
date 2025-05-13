@@ -67,7 +67,7 @@ ui-options-scale-175 = 175%
 ui-options-scale-200 = 200%
 ui-options-hud-theme = Тема HUD:
 ui-options-hud-theme-default = За замовчуванням
-ui-options-hud-theme-plasmafire = Плазмовий вогонь
+ui-options-hud-theme-plasmafire = Плазмовий Вогонь
 ui-options-hud-theme-slimecore = Слаймкор
 ui-options-hud-theme-clockwork = Заводний механізм
 ui-options-hud-theme-retro = Ретро
@@ -302,3 +302,4 @@ ui-options-mood-visual-effects = Увімкніть візуальні ефек�
 
 ui-options-function-smart-equip-back = Автоматично екіпірувати в слот спини
 ui-options-binds-search = Пошук
+ui-options-log-in-chat = Записувати спливаючі вікна в чат

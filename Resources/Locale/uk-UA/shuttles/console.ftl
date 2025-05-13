@@ -19,13 +19,13 @@ shuttle-console-iff-label = {$name} ({$distance}м)
 shuttle-console-exclusion = Зона виключення
 
 shuttle-console-nav-settings = Налаштування
-shuttle-console-iff-toggle = Перемкнути IFF
+shuttle-console-iff-toggle = Показати IFF
 shuttle-console-dock-toggle = Показати стикувальні порти
 
 # MAP
 
 shuttle-console-ftl-label = Статус FTL
-shuttle-console-ftl-state-Available = Доступно
+shuttle-console-ftl-state-Available = Готовий
 shuttle-console-ftl-state-Starting = Запуск
 shuttle-console-ftl-state-Travelling = Подорожує
 shuttle-console-ftl-state-Arriving = Прибуття
@@ -33,7 +33,7 @@ shuttle-console-ftl-state-Cooldown = Охолодження
 
 shuttle-console-map-settings = Налаштування
 shuttle-console-ftl-button = НАДСВІТЛОВА ШВИДКІСТЬ
-shuttle-console-map-rebuild = Сканування об'єктів
+shuttle-console-map-rebuild = Сканувати об'єкти
 shuttle-console-map-beacons = Показати маяки
 
 shuttle-console-no-signal = Немає сигналу

@@ -8,3 +8,9 @@ research-technology-explosive-mech-ammunition = Вибухові боєприп�
 research-technology-honk-weapons = Бананова зброя
 
 research-technology-modsuits = Модульні технології
+research-technology-smart-weaponry = Розумне Озброєння
+research-technology-accessibility = Технології Допомоги Екіпажу
+research-technology-bluespace-theory = Теорія Синьопростору
+research-technology-rescue = Удосконалене Рятувальне Обладнання
+research-technology-advancedweaponry = Удосконалене Озброєння
+research-technology-energy-bolt-weaponry = Енергетична Променева Зброя
