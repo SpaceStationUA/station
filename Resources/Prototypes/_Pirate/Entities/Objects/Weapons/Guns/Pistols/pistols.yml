@@ -5,67 +5,66 @@
   description: A rooty tooty point and shooty.
   abstract: true
   components:
-  - type: Sprite
-    layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-0
-        map: ["enum.GunVisualLayers.Mag"]
-  - type: Item
-    size: Small
-    shape:
-    - 0,0,1,0
-    - 0,1,0,1
-  - type: Tag
-    tags:
-    - Sidearm
-  - type: Clothing
-    sprite: Objects/Weapons/Guns/Pistols/viper.rsi
-    quickEquip: false
-    slots:
-    - suitStorage
-    - Belt
-  - type: Gun
-    fireRate: 6
-    selectedMode: SemiAuto
-    availableModes:
-      - SemiAuto
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
-  - type: ChamberMagazineAmmoProvider
-    soundRack:
-      path: /Audio/Weapons/Guns/Cock/pistol_cock.ogg
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazinePistol
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazinePistol
-            - MagazinePistolHighCapacity
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgePistol
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgePistol
-  - type: ContainerContainer
-    containers:
-      gun_magazine: !type:ContainerSlot
-      gun_chamber: !type:ContainerSlot
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
-  - type: Appearance
-  - type: StaticPrice
-    price: 500
-
+    - type: Sprite
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-0
+          map: ["enum.GunVisualLayers.Mag"]
+    - type: Item
+      size: Small
+      shape:
+        - 0,0,1,0
+        - 0,1,0,1
+    - type: Tag
+      tags:
+        - Sidearm
+    - type: Clothing
+      sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+      quickEquip: false
+      slots:
+        - suitStorage
+        - Belt
+    - type: Gun
+      fireRate: 6
+      selectedMode: SemiAuto
+      availableModes:
+        - SemiAuto
+      soundGunshot:
+        path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+    - type: ChamberMagazineAmmoProvider
+      soundRack:
+        path: /Audio/Weapons/Guns/Cock/pistol_cock.ogg
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazinePistol
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazinePistol
+              - MagazinePistolHighCapacity
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgePistol
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgePistol
+    - type: ContainerContainer
+      containers:
+        gun_magazine: !type:ContainerSlot
+        gun_chamber: !type:ContainerSlot
+    - type: MagazineVisuals
+      magState: mag
+      steps: 1
+      zeroVisible: true
+    - type: Appearance
+    - type: StaticPrice
+      price: 500
 
 - type: entity
   name: трубний пістолет
@@ -73,35 +72,35 @@
   id: N14WeaponPipe10mm
   description: a light makeshift pistol, the grip is incredibly uncomfortable.
   components:
-  - type: Sprite
-    sprite: _Pirate/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Item
-    sprite: _Pirate/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
-  - type: Gun
-    fireRate: 4
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazinePistol
-        whitelist:
-          tags:
-            - MagazinePistol
-            - MagazinePistolHighCapacity
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgePistol
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgePistol
+    - type: Sprite
+      sprite: _Pirate/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-0
+          map: ["enum.GunVisualLayers.Mag"]
+    - type: Item
+      sprite: _Pirate/Objects/Weapons/Guns/Pistols/10mmPIPEpistol.rsi
+    - type: Gun
+      fireRate: 4
+      soundGunshot:
+        path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazinePistol
+          whitelist:
+            tags:
+              - MagazinePistol
+              - MagazinePistolHighCapacity
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgePistol
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgePistol
 
 - type: entity
   name: chinese пістолет
@@ -109,46 +108,46 @@
   id: N14WeaponPistolChinese
   description: A elegant and long barrel pistol with a integrated magazine, chambered in 9 mm.
   components:
-  - type: Sprite
-    sprite: _Pirate/Objects/Weapons/Guns/Pistols/chinesepistol.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-  - type: Item
-    sprite: _Pirate/Objects/Weapons/Guns/Pistols/chinesepistol.rsi
-    # size: 10
-  - type: Clothing
-    slots:
-    - suitStorage
-    - Belt
-  - type: Gun
-    fireRate: 6
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
-    selectedMode: Semiauto
-    availableModes:
-     - Semiauto
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazinePistol
-        whitelist:
-          tags:
-            - CartridgePistol
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgePistol
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgePistol
-  - type: BallisticAmmoProvider
-    capacity: 14
-    proto: CartridgePistol
-    whitelist:
-      tags:
-      - CartridgePistol
+    - type: Sprite
+      sprite: _Pirate/Objects/Weapons/Guns/Pistols/chinesepistol.rsi
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+    - type: Item
+      sprite: _Pirate/Objects/Weapons/Guns/Pistols/chinesepistol.rsi
+      # size: 10
+    - type: Clothing
+      slots:
+        - suitStorage
+        - Belt
+    - type: Gun
+      fireRate: 6
+      soundGunshot:
+        path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
+      selectedMode: Semiauto
+      availableModes:
+        - Semiauto
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazinePistol
+          whitelist:
+            tags:
+              - CartridgePistol
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgePistol
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgePistol
+    - type: BallisticAmmoProvider
+      capacity: 14
+      proto: CartridgePistol
+      whitelist:
+        tags:
+          - CartridgePistol
 
 - type: entity
   name: шпіон
@@ -156,48 +155,48 @@
   id: N14WeaponPistolSpy
   description: A modified version of the common chinese pistols. with a integrated silencer, extended mag and fully automatic conversion this gun was designed with passion, chambered in 9 mm.
   components:
-  - type: Sprite
-    sprite: _Pirate/Objects/Weapons/Guns/Pistols/thespy.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-  - type: Item
-    sprite: _Pirate/Objects/Weapons/Guns/Pistols/thespy.rsi
-    # size: 10
-  - type: Clothing
-    slots:
-    - suitStorage
-    - Belt
-  - type: Gun
-    fireRate: 6
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
-      params:
-        volume: -10
-    selectedMode: Fullauto
-    availableModes:
-     - Fullauto
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazinePistol
-        whitelist:
-          tags:
-            - CartridgePistol
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgePistol
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgePistol
-  - type: BallisticAmmoProvider
-    capacity: 14
-    proto: CartridgePistol
-    whitelist:
-      tags:
-      - CartridgePistol
+    - type: Sprite
+      sprite: _Pirate/Objects/Weapons/Guns/Pistols/thespy.rsi
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+    - type: Item
+      sprite: _Pirate/Objects/Weapons/Guns/Pistols/thespy.rsi
+      # size: 10
+    - type: Clothing
+      slots:
+        - suitStorage
+        - Belt
+    - type: Gun
+      fireRate: 6
+      soundGunshot:
+        path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
+        params:
+          volume: -10
+      selectedMode: Fullauto
+      availableModes:
+        - Fullauto
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazinePistol
+          whitelist:
+            tags:
+              - CartridgePistol
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgePistol
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgePistol
+    - type: BallisticAmmoProvider
+      capacity: 14
+      proto: CartridgePistol
+      whitelist:
+        tags:
+          - CartridgePistol
 
 - type: entity
   name: mk 59
@@ -206,32 +205,32 @@
   description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 particle.
   suffix: particle, admeme
   components:
-  - type: Gun
-    fireRate: 5
-    availableModes:
-      - SemiAuto
-    soundGunshot:
-      path: /Audio/_Pirate/Weapons/Guns/Miss/particleboltfire2.ogg
-      params:
-        volume: 5
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazinePistolParticle
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazinePistol
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgePistolParticle
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgePistol
+    - type: Gun
+      fireRate: 5
+      availableModes:
+        - SemiAuto
+      soundGunshot:
+        path: /Audio/_Pirate/Weapons/Guns/Miss/particleboltfire2.ogg
+        params:
+          volume: 5
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazinePistolParticle
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazinePistol
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgePistolParticle
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgePistol
 
 - type: entity
   name: Particle N1984
@@ -240,33 +239,59 @@
   description: The sidearm of any self respecting officer. Comes in the lord's caliber .45 particle.
   suffix: particle, admeme
   components:
-  - type: Gun
-    minAngle: 1
-    maxAngle: 20
-    angleIncrease: 8
-    angleDecay: 9
-    fireRate: 4
-    availableModes:
-    - SemiAuto
-    soundGunshot:
-      path: /Audio/_Pirate/Weapons/Guns/Miss/particleboltfire2.ogg
-      params:
-        volume: 5
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazineMagnumParticle
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazineMagnum
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgeMagnumParticle
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgeMagnum
+    - type: Gun
+      minAngle: 1
+      maxAngle: 20
+      angleIncrease: 8
+      angleDecay: 9
+      fireRate: 4
+      availableModes:
+        - SemiAuto
+      soundGunshot:
+        path: /Audio/_Pirate/Weapons/Guns/Miss/particleboltfire2.ogg
+        params:
+          volume: 5
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazineMagnumParticle
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazineMagnum
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgeMagnumParticle
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgeMagnum
+
+- type: entity
+  parent: WeaponPistolViperWoodSecurity
+  name: "Гадюка (нелетальна)"
+  id: WeaponPistolViperWoodSecurityNonLethal
+  suffix: Non-lethal, Security Loadouts
+  components:
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazinePistolRubber
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazinePistol
+              - MagazinePistolHighCapacity
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgePistolRubber
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgePistol
