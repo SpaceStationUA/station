@@ -18,6 +18,11 @@
   - EnergyCautery
   - AdvancedRetractor
   - BorgModuleAdvancedSurgery
+  # Goobstation R&D Console rework start
+  position: -3,0
+  technologyPrerequisites:
+    - BasicLifeImprovements
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: CyberneticEnhancements
@@ -36,6 +41,11 @@
   - BasicCyberneticEyes
   - SecurityCyberneticEyes
   - MedicalCyberneticEyes
+  # Goobstation R&D Console rework start
+  position: -4,1
+  technologyPrerequisites:
+    - BasicCybernetics
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: Autodoc
@@ -48,6 +58,12 @@
   cost: 10000
   recipeUnlocks:
   - AutodocCircuitboard
+  # Goobstation R&D Console rework start
+  position: -4,0
+  technologyPrerequisites:
+    - CyberneticEnhancements
+    - AdvancedTreatment
+  # Goobstation R&D Console rework end
 
 # Tier 3
 
@@ -62,4 +78,8 @@
   cost: 10000
   recipeUnlocks:
   - OmnimedTool
-  softCapContribution: 1.2
+  # Goobstation R&D Console rework start
+  position: -4,-2
+  technologyPrerequisites:
+    - Autodoc
+  # Goobstation R&D Console rework end
