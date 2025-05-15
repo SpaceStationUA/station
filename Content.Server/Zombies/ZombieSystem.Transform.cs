@@ -178,9 +178,11 @@ namespace Content.Server.Zombies
                 {
                     DamageDict = new()
                     {
-                        { "Slash", 13 },
-                        { "Piercing", 7 },
-                        { "Structural", 10 }
+                        // # PIRATE START
+                        { "Slash", 18 },
+                        { "Piercing", 10 },
+                        { "Structural", 15 }
+                        // # PIRATE END
                     }
                 };
                 melee.Damage = dspec;

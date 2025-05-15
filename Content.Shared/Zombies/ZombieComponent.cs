@@ -27,7 +27,9 @@ public sealed partial class ZombieComponent : Component
     /// being invincible by bundling up.
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
-    public float MinZombieInfectionChance = 0.25f;
+    // # PIRATE START
+    public float MinZombieInfectionChance = 0.50f;
+    // # PIRATE END
 
     [ViewVariables(VVAccess.ReadWrite)]
     public float ZombieMovementSpeedDebuff = 0.70f;
@@ -121,9 +123,12 @@ public sealed partial class ZombieComponent : Component
     {
         DamageDict = new()
         {
-            { "Blunt", -2 },
-            { "Slash", -2 },
-            { "Piercing", -2 }
+            // # PIRATE START
+            { "Blunt", -5 },
+            { "Slash", -5 },
+            { "Piercing", -5 },
+            { "Heat",  -5},
+            // # PIRATE END
         }
     };
 
