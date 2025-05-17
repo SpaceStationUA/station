@@ -12,7 +12,7 @@ namespace Content.Shared.Research.Components;
 public sealed partial class TechnologyDatabaseComponent : Component
 {
     /// <summary>
-    ///     A main discipline that bypasses the T3 Softcap
+    /// A main discipline that locks out other discipline technology past a certain tier.
     /// </summary>
     [AutoNetworkedField]
     [DataField("mainDiscipline", customTypeSerializer: typeof(PrototypeIdSerializer<TechDisciplinePrototype>))]
@@ -44,9 +44,6 @@ public sealed partial class TechnologyDatabaseComponent : Component
     [AutoNetworkedField]
     [DataField("unlockedRecipes", customTypeSerializer: typeof(PrototypeIdListSerializer<LatheRecipePrototype>))]
     public List<string> UnlockedRecipes = new();
-
-    [DataField, AutoNetworkedField]
-    public float SoftCapMultiplier = 1;
 }
 
 /// <summary>
@@ -67,3 +64,10 @@ public readonly record struct TechnologyDatabaseModifiedEvent // Goobstation - L
         UnlockedRecipes = unlockedRecipes ?? new();
     }
 };
+
+/// <summary>
+/// Event raised on a database after being synchronized
+/// with the values from another database.
+/// </summary>
+[ByRefEvent]
+public readonly record struct TechnologyDatabaseSynchronizedEvent;

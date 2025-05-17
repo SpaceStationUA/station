@@ -6,6 +6,8 @@ using Content.Shared.Emag.Components;
 using Content.Shared.IdentityManagement;
 using Content.Shared.Research.Components;
 using Content.Shared.Research.Prototypes;
+using Content.Shared._Goobstation.Research.Common; // R&D Console Rework
+using System.Linq; // R&D Console Rework
 
 namespace Content.Server.Research.Systems;
 
@@ -36,8 +38,7 @@ public sealed partial class ResearchSystem
             return;
         }
 
-        if (!UnlockTechnology(uid, args.Id, act)
-            || !TryComp<TechnologyDatabaseComponent>(uid, out var database))
+        if (!UnlockTechnology(uid, args.Id, act))
             return;
 
         if (!HasComp<EmaggedComponent>(uid))
@@ -48,7 +49,7 @@ public sealed partial class ResearchSystem
             var message = Loc.GetString(
                 "research-console-unlock-technology-radio-broadcast",
                 ("technology", Loc.GetString(technologyPrototype.Name)),
-                ("amount", technologyPrototype.Cost * database.SoftCapMultiplier),
+                ("amount", technologyPrototype.Cost),
                 ("approver", getIdentityEvent.Title ?? string.Empty)
             );
             _radio.SendRadioMessage(uid, message, component.AnnouncementChannel, uid, escapeMarkup: false);
@@ -57,7 +58,6 @@ public sealed partial class ResearchSystem
         SyncClientWithServer(uid);
         UpdateConsoleInterface(uid, component);
     }
-
     private void OnConsoleBeforeUiOpened(EntityUid uid, ResearchConsoleComponent component, BeforeActivatableUIOpenEvent args)
     {
         SyncClientWithServer(uid);
@@ -68,20 +68,41 @@ public sealed partial class ResearchSystem
         if (!Resolve(uid, ref component, ref clientComponent, false))
             return;
 
-        ResearchConsoleBoundInterfaceState state;
+        // R&D Console Rework Start
+        var allTechs = PrototypeManager.EnumeratePrototypes<TechnologyPrototype>().ToList();
+        Dictionary<string, ResearchAvailability> techList;
+        var points = 0;
 
-        if (TryGetClientServer(uid, out _, out var serverComponent, clientComponent))
+        if (TryGetClientServer(uid, out var serverUid, out var server, clientComponent) &&
+            TryComp<TechnologyDatabaseComponent>(serverUid, out var db))
         {
-            var points = clientComponent.ConnectedToServer ? serverComponent.Points : 0;
-            var softCap = clientComponent.ConnectedToServer ? serverComponent.CurrentSoftCapMultiplier : 1;
-            state = new ResearchConsoleBoundInterfaceState(points, softCap);
+            var unlockedTechs = new HashSet<string>(db.UnlockedTechnologies);
+            techList = allTechs.ToDictionary(
+                proto => proto.ID,
+                proto =>
+                {
+                    if (unlockedTechs.Contains(proto.ID))
+                        return ResearchAvailability.Researched;
+
+                    var prereqsMet = proto.TechnologyPrerequisites.All(p => unlockedTechs.Contains(p));
+                    var canAfford = server.Points >= proto.Cost;
+
+                    return prereqsMet ?
+                        (canAfford ? ResearchAvailability.Available : ResearchAvailability.PrereqsMet)
+                        : ResearchAvailability.Unavailable;
+                });
+
+            if (clientComponent != null)
+                points = clientComponent.ConnectedToServer ? server.Points : 0;
         }
         else
         {
-            state = new ResearchConsoleBoundInterfaceState(default, default);
+            techList = allTechs.ToDictionary(proto => proto.ID, _ => ResearchAvailability.Unavailable);
         }
 
-        _uiSystem.SetUiState(uid, ResearchConsoleUiKey.Key, state);
+        _uiSystem.SetUiState(uid, ResearchConsoleUiKey.Key,
+            new ResearchConsoleBoundInterfaceState(points, techList));
+        // R&D Console Rework End
     }
 
     private void OnPointsChanged(EntityUid uid, ResearchConsoleComponent component, ref ResearchServerPointsChangedEvent args)
@@ -99,7 +120,14 @@ public sealed partial class ResearchSystem
 
     private void OnConsoleDatabaseModified(EntityUid uid, ResearchConsoleComponent component, ref TechnologyDatabaseModifiedEvent args)
     {
+        SyncClientWithServer(uid);
         UpdateConsoleInterface(uid, component);
     }
 
+    private void OnConsoleDatabaseSynchronized(EntityUid uid, ResearchConsoleComponent component, ref TechnologyDatabaseSynchronizedEvent args)
+    {
+        UpdateConsoleInterface(uid, component);
+    }
 }
+
+public sealed partial class ResearchConsoleUnlockEvent : CancellableEntityEventArgs { }
