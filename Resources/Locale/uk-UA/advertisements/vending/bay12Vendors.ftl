@@ -9,7 +9,7 @@ advertisement-weebvend-3 = Каваї-десу!
 
 advertisement-hotfood-1 = Несіть сюди свою несвіжу, крихку їжу! Національна страва Сола ще ніколи не була такою смачною!
 advertisement-hotfood-2 = Якщо це їжа, яка чекає на вас вдома, не дивно, що ви ховаєтесь тут.
-advertisement-hotfood-3 = Продукти харчування Solarian, як завжди, подаються з гарніром діареї!
+advertisement-hotfood-3 = Продукти харчування Соларіанів, як завжди, подаються з гарніром діареї!
 advertisement-hotfood-4 = Помста - це страва, яку найкраще подавати теплою.
 
 advertisement-fitness-1 = SweatMAX, стань сильним!
