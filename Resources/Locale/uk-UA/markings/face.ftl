@@ -36,6 +36,8 @@ marking-FaceEyebrowLeft-eyebrow_l = Брова (ліворуч)
 
 marking-FaceEyebrows = Брови
 marking-FaceEyebrows-eyebrows = Брови
+marking-ReptilianEyebrowsBig = Великі брови
+marking-ReptilianEyebrowsBigger = Гігантські брови
 
 marking-FaceEyecornerRight = Куточок ока (праворуч)
 marking-FaceEyecornerRight-eyecorner_r = Куточок ока (праворуч)
@@ -73,11 +75,14 @@ marking-FaceNosetape-nosetape = Стрічка для носа
 marking-FaceNosetip = Кінчик носа
 marking-FaceNosetip-nosetip = Кінчик носа
 
+marking-ReptilianEyebags = Мішки під очима
+
 marking-FaceNosestripe = Носова смужка
 marking-FaceNosestripe-nosestripe = Носова смужка
 
 marking-FaceUnibrow = Єдина брова
 marking-FaceUnibrow-unibrow = Єдина брова
+marking-ReptilianEyebrowsUnibrow = Єдина брова
 
 marking-FaceNeckSlim = Чохол на шию (тонкий)
 marking-FaceNeckSlim-neck_f = Чохол на шию (тонкий)

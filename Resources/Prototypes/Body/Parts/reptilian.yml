@@ -36,8 +36,18 @@
   parent: [PartReptilian, BaseHead]
   components:
   - type: Sprite
-    sprite: Mobs/Species/Reptilian/parts.rsi
-    state: "head_m"
+    netsync: false
+    sprite: Mobs/Customization/rept_head.rsi
+    state: "head_base"
+  - type: Icon
+    sprite: Mobs/Customization/rept_head.rsi
+    state: "head_base"
+  - type: BodyPart
+    partType: Head
+    organs:
+      eyes:
+        id: "eyes"
+    vital: true
   - type: Extractable
     juiceSolution:
       reagents:
@@ -45,6 +55,9 @@
         Quantity: 5
       - ReagentId: Blood
         Quantity: 10
+  - type: Tag
+    tags:
+      - Head
 
 - type: entity
   id: LeftArmReptilian
