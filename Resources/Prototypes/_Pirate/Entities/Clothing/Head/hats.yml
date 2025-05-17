@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretRobotics
-  name: robotics beret
-  description: Це берет робототехників.
+  name: "берет робототехніка"
+  description: "Це берет робототехників."
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_robotics.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretBioinginer
-  name: bioinginer beret
-  description: Білий берет біоінженера.
+  name: "берет біоінженера"
+  description: "Білий берет біоінженера."
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_bioinginer.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretBlueshield
-  name: blueshield beret
-  description: Стоїть на захисті твого ніжного волосся.
+  name: "берет синього щита"
+  description: "Стоїть на захисті твого ніжного волосся."
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_blueshield.rsi

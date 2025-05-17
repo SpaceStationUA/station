@@ -1,6 +1,6 @@
 # Clutter
 - type: entity
-  name: random clutter
+  name: "випадковий мотлох"
   id: SpawnDungeonClutterMedical
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Medical"
@@ -49,7 +49,7 @@
 
 # Tools
 - type: entity
-  name: random medkit
+  name: "випадкова аптечка"
   id: SpawnDungeonLootKitsFirstAid
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -87,7 +87,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: random tool
+  name: "випадковий інструмент"
   id: SpawnDungeonLootToolsSurgeryCrude
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Surgery, Improvised"
@@ -113,7 +113,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: random tool
+  name: "випадковий інструмент"
   id: SpawnDungeonLootToolsSurgery
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Surgery"
@@ -142,7 +142,7 @@
     rareChance: 0.1
 
 - type: entity
-  name: random tool
+  name: "випадковий інструмент"
   id: SpawnDungeonLootToolsSurgeryAdvanced
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Surgery, Advanced"
@@ -172,7 +172,7 @@
     rareChance: 0.15
 
 - type: entity
-  name: random surgery kit
+  name: "випадковий хірургічний набір"
   id: SpawnDungeonLootKitSurgery
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -196,7 +196,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: random beaker
+  name: "випадкова склянка"
   id: SpawnDungeonClutterBeakerEmpty
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Empty"
@@ -226,7 +226,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: random medipens
+  name: "випадкові медичні ручки"
   id: SpawnDungeonClutterMedipens
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -260,7 +260,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: random meds
+  name: "випадкові медикаменти"
   id: SpawnDungeonClutterMedsFull
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Full"
@@ -289,7 +289,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: random meds
+  name: "випадкові медикаменти"
   id: SpawnDungeonClutterMedsSingle
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Single"
@@ -312,7 +312,7 @@
     offset: 0.0
 
 - type: entity
-  name: random patient transport
+  name: "випадковий транспорт для пацієнтів"
   id: SpawnDungeonClutterPatientTransport
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -340,7 +340,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: random implanter
+  name: "випадковий імплантатор"
   id: SpawnDungeonClutterImplanter
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -372,7 +372,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: random syringe
+  name: "випадковий шприц"
   id: SpawnDungeonClutterSyringe
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -412,7 +412,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: random hypospray
+  name: "випадковий гіпоспрей"
   id: SpawnDungeonClutterHypospray
   parent: MarkerBasePlaceFree
   suffix: Dungeon
@@ -440,7 +440,7 @@
 
 # Clothes
 - type: entity
-  name: random clothes
+  name: "випадковий одяг"
   id: SpawnDungeonLootClothesMed
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Medical"
@@ -483,7 +483,7 @@
 
 # Furniture/Lockers
 - type: entity
-  name: random locker
+  name: "випадкова шафка"
   id: SpawnDungeonLootLockersMed
   parent: MarkerBase
   suffix: "Dungeon, Medical"
@@ -518,7 +518,7 @@
 
 # Machines
 - type: entity
-  name: random vendomat
+  name: "випадковий вендомат"
   id: SpawnDungeonVendomatsMed
   parent: MarkerBase
   suffix: "Dungeon, Medical"
@@ -549,7 +549,7 @@
 
 # Other
 - type: entity
-  name: random chemicals
+  name: "випадкові хімікати"
   id: SpawnDungeonLootChems
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Chemistry"
@@ -600,7 +600,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: random machine board
+  name: "випадкова плата машини"
   id: SpawnDungeonLootCircuitBoardMed
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Medical"
