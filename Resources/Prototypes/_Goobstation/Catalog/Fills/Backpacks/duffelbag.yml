@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateStealthHardsuitBundle
-  name: "комплект стелс-костюму кіберсан"
-  description: "Удосконалений комплект стелс-костюму кіберсан."
+  name: cybersun stealthsuit bundle
+  description: "An advanced cybersun stealth tacsuit bundle."
   components:
   - type: StorageFill
     contents:
@@ -15,8 +15,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateBurner
-  name: "Комплект Burner"
-  description: "Великокаліберна гвинтівка Burner, постачається з деякими протиматеріальними та фугасними боєприпасами."
+  name: Burner Bundle
+  description: "A high caliber Burner rifle, comes with some anti materiel and high explosive ammunition."
   components:
   - type: StorageFill
     contents:
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateM90Bundle # - 古い M90 バンドルがこの ID を使用しているかどうかはわかりませんが、その ID はコメントアウトされており、もう存在しないと思います。
-  name: "Комплект M-90"
-  description: "Комплект із штурмовою гвинтівкою M-90 синдикату та 2 запасними магазинами."
+  name: M-90 bundle
+  description: "A bundle carrying the syndicate's M-90 assault rifle, packed with 2 spare magazines."
   components:
   - type: StorageFill
     contents:
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledWSPR
-  name: "Комплект WSPR"
-  description: "Комплект із штурмовою гвинтівкою WSPR синдикату та 2 запасними магазинами."
+  name: WSPR bundle
+  description: "A bundle carrying the syndicate's WSPR assault rifle, packed with 2 spare magazines."
   components:
   - type: StorageFill
     contents:

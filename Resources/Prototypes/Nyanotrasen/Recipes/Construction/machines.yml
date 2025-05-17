@@ -1,7 +1,7 @@
 - type: construction
   id: GlimmerProber
-  name: "глімерний зонд"
-  description: "Збільшує кількість мерехтінь і точок дослідження."
+  name: glimmer prober
+  description: Increases glimmer and research points.
   graph: GlimmerDevices
   startNode: start
   targetNode: glimmerProber
@@ -17,8 +17,8 @@
 
 - type: construction
   id: GlimmerDrain
-  name: "зливник глімеру"
-  description: "Зменшує мерехтіння."
+  name: glimmer drain
+  description: Decreases glimmer.
   graph: GlimmerDevices
   startNode: start
   targetNode: glimmerDrain

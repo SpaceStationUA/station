@@ -1,7 +1,7 @@
 - type: entity
   id: WeaponEnergyTurretControlPanelFrame
-  name: "збірка панелі керування туреллю"
-  description: "Незавершена настінна збірка для панелі керування сторожовою туреллю."
+  name: sentry turret control panel assembly
+  description: An incomplete wall-mounted assembly for a sentry turret control panel.
   categories: [ HideSpawnMenu ]
   components:
 
@@ -50,8 +50,8 @@
 - type: entity
   parent: WeaponEnergyTurretControlPanelFrame
   id: WeaponEnergyTurretStationControlPanel
-  name: "панель керування туреллю"
-  description: "Настінний інтерфейс для дистанційного налаштування робочих параметрів підключених сторожових турелей."
+  name: sentry turret control panel
+  description: A wall-mounted interface for remotely configuring the operational parameters of linked sentry turrets.
   components:
 
   # Sprites and appearance
@@ -195,8 +195,8 @@
 - type: entity
   parent: WeaponEnergyTurretStationControlPanel
   id: WeaponEnergyTurretAIControlPanel
-  name: "панель керування туреллю ШІ"
-  description: "Настінний інтерфейс, що дозволяє локальному штучному інтелекту налаштовувати робочі параметри підключених сторожових турелей."
+  name: AI sentry turret control panel
+  description: A wall-mounted interface that allows a local artifical intelligence to adjust the operational parameters of linked sentry turrets.
   components:
   - type: AccessReader
     access: [["StationAi"], ["Captain"], ["ResearchDirector"]]

@@ -1,7 +1,7 @@
 - type: entity
   id: WarpPoint
   parent: MarkerBase
-  name: "точка телепортації"
+  name: warp point
   components:
   - type: WarpPoint
   - type: WizardTeleportWarpPoint # Goobstation
@@ -11,7 +11,7 @@
 - type: entity
   id: WarpPointBeacon
   parent: WarpPoint
-  name: "точка телепортації (маяк)"
+  name: warp point (beacon)
   components:
   - type: NavMapBeacon
   - type: WarpPoint
@@ -20,7 +20,7 @@
 - type: entity
   parent: WarpPoint
   id: WarpPointBombing
-  name: "точка телепортації"
+  name: warp point
   suffix: ninja bombing target
   components:
   - type: BombingTarget

@@ -55,7 +55,7 @@
 
 - type: tile
   id: FloorCosmicCorruption
-  name: "лиховісна плитка космічног культу"
+  name: tiles-cosmiccult-floor-malign
   sprite: /Textures/_Impstation/CosmicCult/Tileset/cosmicfloor/tile_malign.png
   variants: 4
   placementVariants:
@@ -72,7 +72,7 @@
 
 - type: tile
   id: FloorCosmicVoid
-  name: "плитка космічного культу - порожнеча"
+  name: tiles-cosmiccult-floor-void
   sprite: /Textures/_Impstation/CosmicCult/Tileset/cosmicfloor/floor_void.png
   baseTurf: Plating
   isSubfloor: false
@@ -83,8 +83,8 @@
 
 - type: entity
   id: FloorCosmicDecay
-  name: "ентропійний розпад"
-  description: "Один лише погляд на це викликає озноб по спині."
+  name: entropic decay
+  description: Just one look at this sends a chill running down your spine.
   placement:
     mode: SnapgridCenter
     snap:

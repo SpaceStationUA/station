@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseTree
   id: HalloweenTree01
-  name: "мертве дерево"
-  description: "Мертве дерево з листям на ньому виглядає моторошно."
+  name: dead tree
+  description: Dead tree with leaves on it, looks creepy.
   suffix: Геловін
   components:
   - type: Sprite
@@ -12,8 +12,8 @@
 - type: entity
   parent: BaseTree
   id: HalloweenTree02
-  name: "мертве дерево"
-  description: "Мертве дерево з листям на ньому виглядає моторошно."
+  name: dead tree
+  description: Dead tree with leaves on it, looks creepy.
   components:
   - type: Sprite
     sprite: __TEMP/flora_halloween.rsi
@@ -22,9 +22,9 @@
 - type: entity
   parent: BaseTree
   id: HalloweenTree03
-  name: "мертве дерево"
+  name: dead tree
   suffix: Геловін
-  description: "Мертве дерево з листям на ньому виглядає моторошно."
+  description: Dead tree with leaves on it, looks creepy.
   components:
   - type: Sprite
     sprite: __TEMP/flora_halloween.rsi
@@ -33,9 +33,9 @@
 - type: entity
   parent: BaseTree
   id: HalloweenTree04
-  name: "мертве дерево"
+  name: dead tree
   suffix: Геловін
-  description: "Мертве дерево з листям на ньому виглядає моторошно."
+  description: Dead tree with leaves on it, looks creepy.
   components:
   - type: Sprite
     sprite: __TEMP/flora_halloween.rsi
@@ -45,9 +45,9 @@
 - type: entity
   parent: BaseTree
   id: HalloweenTree
-  name: "моторошне дерево"
+  name: spooky tree
   suffix: Геловін
-  description: "Класне дерево."
+  description: Cool tree.
   components:
   - type: Sprite
     sprite: _Pirate/Structures/Decoration/tree.rsi
