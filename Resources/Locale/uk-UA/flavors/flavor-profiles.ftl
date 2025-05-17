@@ -8,19 +8,19 @@ flavor-profile-unknown = Смакує невимовно.
 # will go in front so you don't get this like "Tastes like tomatoes, sweet and spicy",
 # instead, you get "Tastes sweet, spicy and like tomatoes".
 
-flavor-base-savory = пахучий
+flavor-base-savory = пахуче
 flavor-base-sweet = солодко
-flavor-base-salty = солоно...фу,блін
-flavor-base-sour = кисле
+flavor-base-salty = солоно
+flavor-base-sour = кисло
 flavor-base-bitter = гірко
 flavor-base-spicy = гостро
 flavor-base-metallic = металічно
-flavor-base-meaty = мясисто
+flavor-base-meaty = м'ясисто
 flavor-base-fishy = рибно
 flavor-base-crabby = крабово
 flavor-base-cheesy = сирно
 flavor-base-funny = весело
-flavor-base-tingly = наче в твій язик вїлися сотні голок
+flavor-base-tingly = наче в твій язик в'їлися сотні голок
 flavor-base-acid = кислотно
 flavor-base-leafy = листяно
 flavor-base-minty = м'ятно
@@ -48,8 +48,8 @@ flavor-base-alkaline = лужний
 flavor-base-holy = святий
 flavor-base-horrible = жахливо
 # lmao
-flavor-base-terrible = жахливо
-flavor-base-mindful = уважним.
+flavor-base-terrible = погано
+flavor-base-mindful = уважно
 
 # Складні ароматизатори. Додайте сюди ароматизатор, якщо хочете чогось більш
 # специфічного.
@@ -67,7 +67,7 @@ flavor-complex-mustard = як гірчиця.
 # Харчові ароматизатори.
 
 ## Харчові хімікати. На випадок, якщо ви з'їсте щось, що має це всередині.
-flavor-complex-nutriment = як харчі
+flavor-complex-nutriment = як живлення
 flavor-complex-vitamin = як вітаміни
 flavor-complex-protein = як протеїни 
 
@@ -96,7 +96,7 @@ flavor-complex-dough = як тісто
 flavor-complex-sweet-dough = як солодке тісто
 flavor-complex-tofu = як тофу
 flavor-complex-miso = як місо
-flavor-complex-lemoon = як laurel
+flavor-complex-lemoon = як лемуун
 flavor-complex-muffin = як здоба
 flavor-complex-peas = горохово
 flavor-complex-pineapple = ананасово
@@ -173,9 +173,9 @@ flavor-complex-violets = як фіалки.
 
 ## Загальний смак алкоголю/соди. Він повинен бути замінений на справжній профіль смаку
 flavor-complex-alcohol = як майбутній перегар
-flavor-complex-soda = наче газики уже в твоїй голові
+flavor-complex-soda = як газована вода
 flavor-complex-juice = як вижатий фрукт
-flavor-complex-rocksandstones = як каміння...навіщо?!
+flavor-complex-rocksandstones = як рокси і стоунси
 
 ## Basic drinks
 flavor-complex-water = водянисто
@@ -187,8 +187,8 @@ flavor-complex-ale = хлібно
 flavor-complex-tonic-water = як розлючена вода
 flavor-complex-cola = як кола
 flavor-complex-energy-drink = як кислота в акумуляторі
-flavor-complex-dr-gibb = наприклад, недбалість
-flavor-complex-grape-soda = як виноградну газовану воду
+flavor-complex-dr-gibb = як медична халатність
+flavor-complex-grape-soda = як виноградна газована вода
 flavor-complex-lemon-lime-soda = як лимонно-лаймова газована вода
 flavor-complex-pwr-game-soda = як в іграх
 flavor-complex-root-beer-soda = як кореневе пиво
@@ -212,8 +212,8 @@ flavor-complex-ice = як лід
 flavor-complex-mopwata = як застояна, брудна вода
 
 ## Коктейлі
-flavor-complex-long-island = як повна брехня,що це чай
-flavor-complex-three-mile-island = як чай,відварений у радіоактивних відходах
+flavor-complex-long-island = як повна брехня, що це чай
+flavor-complex-three-mile-island = як чай, відварений у радіоактивних відходах
 flavor-complex-whiskey-cola = як знущання над 150 річним віскі
 flavor-complex-root-beer-float = як морозиво в рутбірі
 flavor-complex-black-russian = як алкогольна кава

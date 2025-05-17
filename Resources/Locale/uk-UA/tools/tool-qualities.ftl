@@ -31,7 +31,7 @@ tool-quality-woodcutting-tool-name = Сокира
 tool-quality-rolling-name = Прокатка
 tool-quality-rolling-tool-name = Качалка
 
-tool-quality-digging-name = Копання
+tool-quality-digging-name = Копати
 tool-quality-digging-tool-name = Лопата
 
 tool-quality-axing-name = Рубання сокирою

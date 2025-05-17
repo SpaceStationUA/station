@@ -14,4 +14,13 @@ public sealed partial class GoobCVars
         CVarDef.Create("mech.gun_outside_mech", true, CVar.SERVER | CVar.REPLICATED);
 
     #endregion
+	#region Chat
+
+    /// <summary>
+    /// Whether or not to log popups in the chat.
+    /// </summary>
+    public static readonly CVarDef<bool> LogInChat =
+        CVarDef.Create("chat.log_in_chat", true, CVar.CLIENT | CVar.ARCHIVE);
+
+    #endregion
 }

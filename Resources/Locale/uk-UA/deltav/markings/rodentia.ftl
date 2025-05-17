@@ -146,10 +146,10 @@ marking-RodentiaTailSquirrelBicolor-squirrel_overlay = Вторинний
 
 ## візерунки
 
-marking-RodentiaChestCountershade = Груди - Контрзатінення
+marking-RodentiaChestCountershade = Тулуб - Контрзатінення
 marking-RodentiaChestCountershade-countershade = Контрзатінення
 
-marking-RodentiaChestCountershadeF = Груди - Контрзатінення
+marking-RodentiaChestCountershadeF = Тулуб - Контрзатінення
 marking-RodentiaChestCountershadeF-countershade_f = Контрзатінення
 
 marking-RodentiaLegLeftCountershade = Ліва нога - Контрзатінення
@@ -160,13 +160,13 @@ marking-RodentiaLegRightCountershade = Права нога - Контрзаті�
 marking-RodentiaLegRightCountershade-r_leg = Нога
 marking-RodentiaLegRightCountershade-countershade_rleg = Контрзатінення
 
-marking-RodentiaChestFawn = Груди - Оленячі (Fawn)
+marking-RodentiaChestFawn = Тулуб - Оленячі (Fawn)
 marking-RodentiaChestFawn-fawn = Візерунок
 
-marking-RodentiaChestHooded = Груди - Каптур
+marking-RodentiaChestHooded = Тулуб - Каптур
 marking-RodentiaChestHooded-hooded = Візерунок
 
-marking-RodentiaChestHoodedF = Груди - Каптур
+marking-RodentiaChestHoodedF = Тулуб - Каптур
 marking-RodentiaChestHoodedF-hooded_f = Візерунок
 
 # базові частини

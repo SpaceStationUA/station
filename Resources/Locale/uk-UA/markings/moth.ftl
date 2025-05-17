@@ -137,8 +137,8 @@ marking-MothWingsUnderwing = Крила (Стрічкові)
 
 
 
-marking-MothChestCharred-charred_chest = Груди
-marking-MothChestCharred = Груди Ніани (Обвуглене)
+marking-MothChestCharred-charred_chest = Тулуб
+marking-MothChestCharred = Тулуб Ніани (Обвуглене)
 
 marking-MothHeadCharred-charred_head = Голова
 marking-MothHeadCharred = Голова Ніани (Обвуглене)
@@ -157,8 +157,8 @@ marking-MothRArmCharred = Права Рука Ніани  (Обвуглене)
 
 
 
-marking-MothChestDeathhead-deathhead_chest = Груди
-marking-MothChestDeathhead = Груди Ніани (Голова Смерті)
+marking-MothChestDeathhead-deathhead_chest = Тулуб
+marking-MothChestDeathhead = Тулуб Ніани (Голова Смерті)
 
 marking-MothHeadDeathhead-deathhead_head = Голова
 marking-MothHeadDeathhead = Голова Ніани (Голова Смерті)
@@ -177,8 +177,8 @@ marking-MothRArmDeathhead = Права Рука Ніани  (Голова Сме
 
 
 
-marking-MothChestFan-fan_chest = Груди
-marking-MothChestFan = Груди Ніани (Вентилятор)
+marking-MothChestFan-fan_chest = Тулуб
+marking-MothChestFan = Тулуб Ніани (Вентилятор)
 
 marking-MothHeadFan-fan_head = Голова
 marking-MothHeadFan = Голова Ніани (Вентилятор)
@@ -197,8 +197,8 @@ marking-MothRArmFan = Права Рука Ніани (Вентилятор)
 
 
 
-marking-MothChestFirewatch-firewatch_chest = Груди
-marking-MothChestFirewatch = Груди Ніани (Пожежний Дозор)
+marking-MothChestFirewatch-firewatch_chest = Тулуб
+marking-MothChestFirewatch = Тулуб Ніани (Пожежний Дозор)
 
 marking-MothHeadFirewatch-firewatch_head = Голова
 marking-MothHeadFirewatch = Голова Ніани (Пожежний Дозор)
@@ -217,8 +217,8 @@ marking-MothRArmFirewatch = Права Рука Ніани (Пожежний Д�
 
 
 
-marking-MothChestGothic-gothic_chest = Груди
-marking-MothChestGothic = Груди Ніани (Готика)
+marking-MothChestGothic-gothic_chest = Тулуб
+marking-MothChestGothic = Тулуб Ніани (Готика)
 
 marking-MothHeadGothic-gothic_head = Голова 
 marking-MothHeadGothic = Голова Ніани (Готика)
@@ -237,8 +237,8 @@ marking-MothRArmGothic = Права Рука Ніани (Готика)
 
 
 
-marking-MothChestJungle-jungle_chest = Груди
-marking-MothChestJungle = Груди Ніани (Джунглі)
+marking-MothChestJungle-jungle_chest = Тулуб
+marking-MothChestJungle = Тулуб Ніани (Джунглі)
 
 marking-MothHeadJungle-jungle_head = Голова
 marking-MothHeadJungle = Голова Ніани (Джунглі)
@@ -257,8 +257,8 @@ marking-MothRArmJungle = Права Рука Ніани (Джунглі)
 
 
 
-marking-MothChestMoonfly-moonfly_chest = Груди
-marking-MothChestMoonfly = Груди Ніани (Нічний)
+marking-MothChestMoonfly-moonfly_chest = Тулуб
+marking-MothChestMoonfly = Тулуб Ніани (Нічний)
 
 marking-MothHeadMoonfly-moonfly_head = Голова
 marking-MothHeadMoonfly = Голова Ніани (Нічний)
@@ -277,8 +277,8 @@ marking-MothRArmMoonfly = Права Рука Ніани (Нічний)
 
 
 
-marking-MothChestOakworm-oakworm_chest = Груди
-marking-MothChestOakworm = Груди Ніани (Дубовий Червець)
+marking-MothChestOakworm-oakworm_chest = Тулуб
+marking-MothChestOakworm = Тулуб Ніани (Дубовий Червець)
 
 marking-MothHeadOakworm-oakworm_head = Голова
 marking-MothHeadOakworm = Голова Ніани (Дубовий Червець)
@@ -297,8 +297,8 @@ marking-MothRArmOakworm = Права Рука Ніани (Дубовий Чер�
 
 
 
-marking-MothChestPointy-pointy_chest = Груди
-marking-MothChestPointy = Груди Ніани (Загострений)
+marking-MothChestPointy-pointy_chest = Тулуб
+marking-MothChestPointy = Тулуб Ніани (Загострений)
 
 marking-MothHeadPointy-pointy_head = Голова
 marking-MothHeadPointy = Голова Ніани (Загострений)
@@ -317,8 +317,8 @@ marking-MothRArmPointy = Права Рука Ніани (Загострений)
 
 
 
-marking-MothChestRagged-ragged_chest = Груди
-marking-MothChestRagged = Груди Ніани (Дране)
+marking-MothChestRagged-ragged_chest = Тулуб
+marking-MothChestRagged = Тулуб Ніани (Дране)
 
 marking-MothHeadRagged-ragged_head = Голова
 marking-MothHeadRagged = Голова Ніани (Дране)
@@ -337,8 +337,8 @@ marking-MothRArmRagged = Права Рука Ніани (Дране)
 
 
 
-marking-MothChestRoyal-royal_chest = Груди
-marking-MothChestRoyal = Груди Ніани (Королівський)
+marking-MothChestRoyal-royal_chest = Тулуб
+marking-MothChestRoyal = Тулуб Ніани (Королівський)
 
 marking-MothHeadRoyal-royal_head = Голова
 marking-MothHeadRoyal = Голова Ніани (Королівський)
@@ -357,8 +357,8 @@ marking-MothRArmRoyal = Права Рука Ніани (Королівський
 
 
 
-marking-MothChestWhitefly-whitefly_chest = Груди
-marking-MothChestWhitefly = Груди Ніани (Біла Муха)
+marking-MothChestWhitefly-whitefly_chest = Тулуб
+marking-MothChestWhitefly = Тулуб Ніани (Біла Муха)
 
 marking-MothHeadWhitefly-whitefly_head = Голова
 marking-MothHeadWhitefly = Голова Ніани (Біла Муха)
@@ -377,8 +377,8 @@ marking-MothRArmWhitefly = Права Рука Ніани (Біла Муха)
 
 
 
-marking-MothChestWitchwing-witchwing_chest = Груди
-marking-MothChestWitchwing = Груди Ніани (Відьмине Крило)
+marking-MothChestWitchwing-witchwing_chest = Тулуб
+marking-MothChestWitchwing = Тулуб Ніани (Відьмине Крило)
 
 marking-MothHeadWitchwing-witchwing_head = Голова
 marking-MothHeadWitchwing = Голова Ніани (Відьмине Крило)

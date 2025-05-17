@@ -14,7 +14,7 @@ guidebook-reagent-sources-ent-wrapper = [bold]{$name}[/bold] \[1\]
 guidebook-reagent-sources-gas-wrapper = [bold]{$name} (газ)[/bold] \[1\]
 guidebook-reagent-effects-header = Ефекти
 guidebook-reagent-effects-metabolism-group-rate = [bold]{$group}[/bold] [color=gray]({$rate} одиниць на секунду)[/color]
-guidebook-reagent-physical-description = [italic]Здається, це {$description}.[/italic]
+guidebook-reagent-physical-description = [italic]Схоже на {$description} речовину.[/italic]
 guidebook-reagent-recipes-mix-info = {$minTemp ->
     [0] {$hasMax ->
             [true] {CAPITALIZE($verb)} нижче {NATURALFIXED($maxTemp, 2)}K

@@ -1,0 +1,873 @@
+# Corpsman Gloves
+- type: loadout
+  id: LoadoutClothingHandsGlovesNitrileRestrictedGear
+  category: JobsSecurityCorpsman
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCorpsmanGloves
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Brigmedic
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHandsGlovesNitrile
+
+# Corpsman Head
+- type: loadout
+  id: LoadoutClothingHeadHatBeretBrigmedicRestrictedGear
+  category: JobsSecurityCorpsman
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCorpsmanHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Brigmedic
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatBeretBrigmedic
+
+- type: loadout
+  id: LoadoutClothingHeadHatBeretCorpsmanRestrictedGear
+  category: JobsSecurityCorpsman
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCorpsmanHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Brigmedic
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatBeretCorpsman
+
+# Detective Uniforms
+- type: loadout
+  id: LoadoutSecurityUniformZavodDetectiveRestrictedGear
+  category: JobsSecurityDetective
+  cost: 1
+  exclusive: true
+  guideEntry: ZavodskoiInterstellar
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutDetectiveUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Detective
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - ZavodskoiInterstellar
+  items:
+    - ClothingUniformJumpsuitZavodDetective
+
+- type: loadout
+  id: LoadoutSecurityUniformZavodDetectiveAltRestrictedGear
+  category: JobsSecurityDetective
+  cost: 1
+  exclusive: true
+  guideEntry: ZavodskoiInterstellar
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutDetectiveUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Detective
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - ZavodskoiInterstellar
+  items:
+    - ClothingUniformJumpsuitZavodDetectiveAlt
+
+# Head Of Security Loadouts for RestrictedGear
+# Head
+- type: loadout
+  id: LoadoutCommandHOSHatBeretRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatBeretHoS
+
+- type: loadout
+  id: LoadoutCommandHOSHatHoshatRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatHoshat
+
+# HoS Neck
+- type: loadout
+  id: LoadoutCommandHOSNeckMantleRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckMantleHOS
+
+- type: loadout
+  id: LoadoutCommandHOSNeckCloakRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckCloakHos
+
+- type: loadout
+  id: LoadoutCommandHOSNeckCloakFurRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckCloakHosFur
+
+# HoS Shoes
+- type: loadout
+  id: LoadoutCommandHOSShoesBootsWinterRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsWinterHeadOfSecurity
+
+# HoS Uniforms
+- type: loadout
+  id: LoadoutUniformJumpskirtHoSBlueRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtHoSBlue
+
+- type: loadout
+  id: LoadoutUniformJumpskirtHoSGreyRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtHoSGrey
+
+- type: loadout
+  id: LoadoutCommandHOSJumpsuitAltRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitHoSAlt
+
+- type: loadout
+  id: LoadoutCommandHOSJumpsuitBlueRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitHoSBlue
+
+- type: loadout
+  id: LoadoutCommandHOSJumpsuitGreyRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitHoSGrey
+
+- type: loadout
+  id: LoadoutCommandHOSJumpsuitParadeRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitHoSParadeMale
+
+- type: loadout
+  id: LoadoutCommandHOSJumpsuitFormalRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitHosFormal
+
+- type: loadout
+  id: LoadoutCommandHOSJumpskirtAltRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtHoSAlt
+
+- type: loadout
+  id: LoadoutCommandHOSJumpskirtParadeRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtHoSParadeMale
+
+- type: loadout
+  id: LoadoutCommandHOSJumpskirtFormalRestrictedGear
+  category: JobsSecurityHeadOfSecurity
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfSecurityUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfSecurity
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtHosFormal
+
+# Senior Officer Uniforms
+- type: loadout
+  id: LoadoutSecurityUniformJumpskirtSeniorRestrictedGear
+  category: JobsSecuritySeniorOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSeniorOfficerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SeniorOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtSeniorOfficer
+
+- type: loadout
+  id: LoadoutSecurityUniformJumpsuitSeniorRestrictedGear
+  category: JobsSecuritySeniorOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSeniorOfficerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SeniorOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitSeniorOfficer
+
+- type: loadout
+  id: LoadoutUniformJumpsuitSecFormalRestrictedGear
+  category: JobsSecuritySeniorOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSeniorOfficerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SeniorOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+  - ClothingUniformJumpsuitSecFormal
+
+# General Security Items for RestrictedGear
+# Backpacks
+- type: loadout
+  id: LoadoutClothingBackSecurityRestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackSecurity
+
+- type: loadout
+  id: LoadoutClothingBackSecuritySatchelRestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackSatchelSecurity
+
+- type: loadout
+  id: LoadoutClothingBackSecurityDuffelRestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackDuffelSecurity
+# Head
+
+- type: loadout
+  id: LoadoutSecurityHeadHatBeretRestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityHead
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatBeretSecurity
+
+# Uniforms
+
+- type: loadout
+  id: LoadoutSecurityUniformJumpsuitBlueRestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitSecBlue
+
+
+- type: loadout
+  id: LoadoutSecurityUniformJumpsuitGreyRestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitSecGrey
+
+
+- type: loadout
+  id: LoadoutSecurityUniformJumpskirtGreyRestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtSecGrey
+
+
+- type: loadout
+  id: LoadoutSecurityUniformJumpskirtBlueRestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtSecBlue
+
+
+- type: loadout
+  id: LoadoutUniformJumpsuitSecSummerRestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitSecSummer
+
+
+- type: loadout
+  id: LoadoutSecurityUniformEnvirosuitBlueRestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Plasmaman
+  items:
+    - ClothingUniformEnvirosuitSecBlue
+    - ClothingHeadEnvirohelmSecBlue
+
+
+- type: loadout
+  id: LoadoutSecurityUniformEnvirosuitGreyRestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Plasmaman
+  items:
+    - ClothingUniformEnvirosuitSecGrey
+    - ClothingHeadEnvirohelmSecGrey
+
+
+- type: loadout
+  id: LoadoutSecurityUniformZavodSecurityOfficerRestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  guideEntry: ZavodskoiInterstellar
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - ZavodskoiInterstellar
+  items:
+    - ClothingUniformJumpsuitZavodSecurityOfficer
+
+
+- type: loadout
+  id: LoadoutSecurityUniformZavodSecurityOfficerAlt1RestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  guideEntry: ZavodskoiInterstellar
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - ZavodskoiInterstellar
+  items:
+    - ClothingUniformJumpsuitZavodSecurityOfficerAlt1
+
+
+- type: loadout
+  id: LoadoutSecurityUniformZavodSecurityOfficerAlt2RestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  guideEntry: ZavodskoiInterstellar
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSecurityUniforms
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Security
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - ZavodskoiInterstellar
+  items:
+    - ClothingUniformJumpsuitZavodSecurityOfficerAlt2
+
+
+- type: loadout
+  id: LoadoutSecurityUniformZavodCadetRestrictedGear
+  category: JobsSecurityAUncategorized
+  cost: 1
+  exclusive: true
+  guideEntry: ZavodskoiInterstellar
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutDetectiveUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Detective
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - ZavodskoiInterstellar
+  items:
+    - ClothingUniformJumpsuitZavodCadet
+
+# Warden items for RestrictedGear
+
+- type: loadout
+  id: LoadoutClothingHeadHatBeretWardenRestrictedGear
+  category: JobsSecurityWarden
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWardenHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Warden
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatBeretWarden
+
+- type: loadout
+  id: LoadoutUniformJumpsuitWardenBlueRestrictedGear
+  category: JobsSecurityWarden
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWardenUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Warden
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitWardenBlue
+
+
+- type: loadout
+  id: LoadoutUniformJumpsuitWardenGreyRestrictedGear
+  category: JobsSecurityWarden
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWardenUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Warden
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitWardenGrey
+
+
+- type: loadout
+  id: LoadoutUniformJumpskirtWardenBlueRestrictedGear
+  category: JobsSecurityWarden
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWardenUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Warden
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtWardenBlue
+
+
+- type: loadout
+  id: LoadoutUniformJumpskirtWardenGreyRestrictedGear
+  category: JobsSecurityWarden
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWardenUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Warden
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtWardenGrey
+
+
+- type: loadout
+  id: LoadoutUniformJumpskirtZavodWardenRestrictedGear
+  category: JobsSecurityWarden
+  cost: 1
+  exclusive: true
+  guideEntry: ZavodskoiInterstellar
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutWardenUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Warden
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - ZavodskoiInterstellar
+  items:
+    - ClothingUniformJumpsuitZavodWarden
