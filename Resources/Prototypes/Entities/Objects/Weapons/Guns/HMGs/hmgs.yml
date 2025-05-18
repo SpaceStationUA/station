@@ -37,6 +37,12 @@
       collection: MetalThud
   - type: DamageOtherOnHit
     staminaCost: 16
+  # PIRATE START
+  - type: CanHoldAccessories
+    whiteListTags:
+      - CombatKnife
+  - type: CanTakeAim
+  # PIRATE END
 
 - type: entity
   name: minigun
