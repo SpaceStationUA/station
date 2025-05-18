@@ -1,3 +1,4 @@
+using System.Linq;
 using Content.Shared._Pirate.Actions.Events;
 using Content.Shared.Alert;
 using Content.Shared.Containers.ItemSlots;
@@ -9,6 +10,7 @@ using Content.Shared.Mobs.Components;
 using Content.Shared.Movement.Components;
 using Content.Shared.Popups;
 using Content.Shared.Projectiles;
+using Content.Shared.Weapons.Ranged;
 using Content.Shared.Weapons.Ranged.Components;
 using Content.Shared.Weapons.Ranged.Events;
 using Content.Shared.Weapons.Ranged.Systems;
@@ -32,22 +34,22 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
     }
     private void OnAmmoShot(EntityUid uid, CanTakeAimComponent component, AmmoShotEvent args)
     {
-        foreach (var entity in args.FiredProjectiles)
-        {
-            if (TryComp<ProjectileComponent>(entity, out var projectile))
-            {
-                var deltaT = (_timing.CurFrame - component.AimStartFrame) * _timing.FramesPerSecondAvg;
-                Logger.Debug($"Delta T: {deltaT}s");
-                projectile.Damage *= component.MaxDamageMultiplier * (component.MaxAimTime / deltaT);
+        // TODO: Add damage multiplying
+        // foreach (var entity in args.FiredProjectiles)
+        // {
+        // if (TryComp<ProjectileComponent>(entity, out var projectile))
+        // {
+        //     var deltaT = (_timing.CurFrame - component.AimStartFrame) * _timing.FramesPerSecondAvg;
+        //     Logger.Debug($"Delta T: {deltaT}s");
+        //     projectile.Damage *= component.MaxDamageMultiplier * (component.MaxAimTime / deltaT);
 
-                Dirty(entity, projectile);
-            }
-        }
+        //     Dirty(entity, projectile);
+        // }
+        // }
     }
 
     private void OnAimingTargetMove(EntityUid uid, CanTakeAimComponent component, OnAimingTargetMoveEvent args)
     {
-        Logger.Info("Target moved");
         component.IsAiming = false;
         Dirty(uid, component);
         if (!TryComp<GunComponent>(uid, out var gunComp))
@@ -57,7 +59,7 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
         ;
         // if (_gun.CanShoot(gunComp))
         // {
-        Logger.Info("Checking for Chamber..");
+        EntityUid? ammo = null;
         if (TryComp<ChamberMagazineAmmoProviderComponent>(uid, out var chamberComp))
         {
 
@@ -68,35 +70,61 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
                 _popup.PopupClient(Loc.GetString("gun-chamber-bolt-ammo"), component.User, PopupType.Medium);
                 return;
             }
-            var ammo = _gun.GetChamberEntity(uid);
-            if (ammo == null)
-                return;
-            _gun.Shoot(uid, gunComp, ammo.Value, gunCoords, targetCoords, out _, component.User);
+            ammo = _gun.GetChamberEntity(uid);
         }
-        Logger.Info("Checking for Revolver..");
         if (TryComp<RevolverAmmoProviderComponent>(uid, out var revolverComp))
         {
-            Logger.Info("Gun is revolver");
-            Logger.Info($"CurrentIndex: {revolverComp.CurrentIndex}, state: {revolverComp.Chambers[revolverComp.CurrentIndex]}");
             if (revolverComp.Chambers[revolverComp.CurrentIndex] != true)
             {
-                Logger.Info("Revolver is empty");
                 _popup.PopupClient(Loc.GetString("gun-chamber-bolt-ammo"), component.User, PopupType.Medium);
                 return;
             }
-            var ammo = revolverComp.AmmoSlots[revolverComp.CurrentIndex];
-            if (ammo == null)
+            var fromCoords = _transform.ToCoordinates(_transform.GetMapCoordinates(uid));
+            var takeAmmoEvent = new TakeAmmoEvent(1, new List<(EntityUid? Entity, IShootable Shootable)>(), fromCoords, component.User);
+            RaiseLocalEvent(uid, takeAmmoEvent);
+
+            if (takeAmmoEvent.Ammo.Count > 0)
+            {
+                Logger.Info("Created ammo for revolver");
+                _gun.Shoot(uid, gunComp, takeAmmoEvent.Ammo[0].Entity!.Value, gunCoords, targetCoords, out _, component.User);
                 return;
+            }
+            ammo = revolverComp.AmmoSlots[revolverComp.CurrentIndex];
             Logger.Info("Shooting revolver");
-            _gun.Shoot(uid, gunComp, ammo.Value, gunCoords, targetCoords, out _, component.User);
         }
-        if (component.User == null)
-            return;
         if (TryComp<BallisticAmmoProviderComponent>(uid, out var ballisticComp))
         {
+
+            // Use TakeAmmo to safely get ammo
+            var fromCoords = _transform.ToCoordinates(_transform.GetMapCoordinates(uid));
+            var takeAmmoEvent = new TakeAmmoEvent(1, new List<(EntityUid? Entity, IShootable Shootable)>(), fromCoords, component.User);
+            RaiseLocalEvent(uid, takeAmmoEvent);
+
+            (ammo, _) = takeAmmoEvent.Ammo[0];
+        }
+        if (TryComp<MagazineAmmoProviderComponent>(uid, out var magazineComp))
+        {
+            var magEntity = _gun.GetMagazineEntity(uid);
+            if (magEntity == null)
+                return;
+            var fromCoords = _transform.ToCoordinates(_transform.GetMapCoordinates(uid));
+            var takeAmmoEvent = new TakeAmmoEvent(1, new List<(EntityUid? Entity, IShootable Shootable)>(), fromCoords, component.User);
+            RaiseLocalEvent(uid, takeAmmoEvent);
+            (ammo, _) = takeAmmoEvent.Ammo[0];
+        }
+        if (ammo == null)
+            return;
+        _gun.Shoot(uid, gunComp, ammo.Value, gunCoords, targetCoords, out _, component.User);
+        if (component.User == null)
+            return;
+        if (ballisticComp != null)
+        {
             // For ballistic guns, use the ActivateInWorldEvent to trigger cycling
-            var activateEvent = new ActivateInWorldEvent(component.User.Value, uid, true);
-            RaiseLocalEvent(uid, activateEvent);
+            if (ballisticComp.AutoCycle)
+            {
+                var activateEvent = new ActivateInWorldEvent(component.User.Value, uid, true);
+                RaiseLocalEvent(uid, activateEvent);
+            }
         }
         else if (revolverComp != null)
         {
@@ -106,9 +134,11 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
         }
         else if (chamberComp != null)
         {
-            // For chamber-magazine guns, use the UseInHandEvent to trigger cycling
-            var useEvent = new UseInHandEvent(component.User.Value);
-            RaiseLocalEvent(uid, useEvent);
+            if (chamberComp.AutoCycle)
+            {
+                var useEvent = new UseInHandEvent(component.User.Value);
+                RaiseLocalEvent(uid, useEvent);
+            }
         }
         else
         {
