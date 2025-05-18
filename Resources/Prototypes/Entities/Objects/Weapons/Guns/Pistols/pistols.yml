@@ -80,6 +80,9 @@
       collection: MetalThud
   - type: DamageOtherOnHit
     staminaCost: 5
+    # PIRATE START
+  - type: CanTakeAim
+    # PIRATE END
 
 - type: entity
   name: viper
