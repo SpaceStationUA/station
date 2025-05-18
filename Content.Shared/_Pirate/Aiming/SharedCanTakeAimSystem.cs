@@ -83,7 +83,7 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
 
             if (takeAmmoEvent.Ammo.Count > 0)
             {
-                ammo = revolverComp.AmmoSlots[revolverComp.CurrentIndex];
+                ammo = takeAmmoEvent.Ammo[0].Entity;
             }
         }
         if (TryComp<BallisticAmmoProviderComponent>(uid, out var ballisticComp))
@@ -95,10 +95,8 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
             RaiseLocalEvent(uid, takeAmmoEvent);
             if (takeAmmoEvent.Ammo.Count > 0)
             {
-                _gun.Shoot(uid, gunComp, takeAmmoEvent.Ammo[0].Entity!.Value, gunCoords, targetCoords, out _, component.User);
-                return;
+                ammo = takeAmmoEvent.Ammo[0].Entity;
             }
-            (ammo, _) = takeAmmoEvent.Ammo[0];
         }
         if (TryComp<MagazineAmmoProviderComponent>(uid, out var magazineComp))
         {
@@ -108,7 +106,7 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
             var fromCoords = _transform.ToCoordinates(_transform.GetMapCoordinates(uid));
             var takeAmmoEvent = new TakeAmmoEvent(1, new List<(EntityUid? Entity, IShootable Shootable)>(), fromCoords, component.User);
             RaiseLocalEvent(uid, takeAmmoEvent);
-            (ammo, _) = takeAmmoEvent.Ammo[0];
+            ammo = takeAmmoEvent.Ammo[0].Entity;
         }
         if (ammo == null)
             return;
@@ -137,11 +135,6 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
                 var useEvent = new UseInHandEvent(component.User.Value);
                 RaiseLocalEvent(uid, useEvent);
             }
-        }
-        else
-        {
-            // For other gun types, try the CycleFire method which works for selective fire guns
-            _gun.CycleFire(uid, gunComp, component.User);
         }
         // }
         // _gun.ShootProjectile(ammo.Value, direction, _physics.GetMapLinearVelocity(uid, physComp), uid);
