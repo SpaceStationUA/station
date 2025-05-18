@@ -63,10 +63,8 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
         if (TryComp<ChamberMagazineAmmoProviderComponent>(uid, out var chamberComp))
         {
 
-            Logger.Info("Gun has chamber");
             if (chamberComp.BoltClosed != null && chamberComp.BoltClosed.Value == false)
             {
-                Logger.Info("Gun is not bolted");
                 _popup.PopupClient(Loc.GetString("gun-chamber-bolt-ammo"), component.User, PopupType.Medium);
                 return;
             }
@@ -85,12 +83,10 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
 
             if (takeAmmoEvent.Ammo.Count > 0)
             {
-                Logger.Info("Created ammo for revolver");
                 _gun.Shoot(uid, gunComp, takeAmmoEvent.Ammo[0].Entity!.Value, gunCoords, targetCoords, out _, component.User);
                 return;
             }
             ammo = revolverComp.AmmoSlots[revolverComp.CurrentIndex];
-            Logger.Info("Shooting revolver");
         }
         if (TryComp<BallisticAmmoProviderComponent>(uid, out var ballisticComp))
         {
@@ -179,10 +175,8 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
     }
     private void EnsureComponentOnTarget(EntityUid target, EntityUid uid) // uid is uid of gun, not user!!!
     {
-        Log.Debug("Ensuring component on target...");
         if (!HasComp<OnSigthComponent>(target))
         {
-            Logger.Debug("Target dont have OnSigthComponent. Adding it...");
             var onSigthComp = new OnSigthComponent
             {
                 AimedAtBy = new()
@@ -192,7 +186,6 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
         }
         else
         {
-            Log.Debug("Target have OnSigthComponent. Adding user to it...");
             var onSigthComp = _entMan.GetComponent<OnSigthComponent>(target);
             if (!onSigthComp.AimedAtBy.Contains(uid))
                 onSigthComp.AimedAtBy.Add(uid);

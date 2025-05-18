@@ -16,7 +16,6 @@ public sealed partial class SharedOnSightSystem : EntitySystem
     }
     private void OnStartup(EntityUid uid, OnSigthComponent component, ComponentStartup args)
     {
-        Logger.Debug("OnSightStartUp");
         if (_proto.TryIndex<AlertPrototype>("OnSightAlert", out var alertProto))
             _alerts.ShowAlert(uid, alertProto);
     }
@@ -28,9 +27,7 @@ public sealed partial class SharedOnSightSystem : EntitySystem
         {
             var ev = new OnAimingTargetMoveEvent(uid);
             RaiseLocalEvent(entity, ev);
-            Logger.Debug($"Raised event for {entity}");
         }
-        Log.Debug("Component Removed");
         RemComp<OnSigthComponent>(uid);
     }
 }
