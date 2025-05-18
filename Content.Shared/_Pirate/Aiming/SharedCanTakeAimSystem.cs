@@ -72,7 +72,7 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
         }
         if (TryComp<RevolverAmmoProviderComponent>(uid, out var revolverComp))
         {
-            if (revolverComp.Chambers[revolverComp.CurrentIndex] != true)
+            if (revolverComp.Chambers[revolverComp.CurrentIndex] == false)
             {
                 _popup.PopupClient(Loc.GetString("gun-chamber-bolt-ammo"), component.User, PopupType.Medium);
                 return;
@@ -141,6 +141,8 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
     }
     public void OnWeaponTakeAim(EntityUid uid, CanTakeAimComponent component, ref AfterInteractEvent args)
     {
+        if (args.Target == null)
+            return;
         if (args.Target == args.User)
             return;
         component.User = args.User;
@@ -150,8 +152,6 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
             return;
         }
         if (!HasComp<MobMoverComponent>(args.Target))
-            return;
-        if (args.Target == null)
             return;
         if (!TryComp<MetaDataComponent>(args.User, out var userMetaComp) || !TryComp<MetaDataComponent>(args.Target, out var targetMetaComp))
             return;
