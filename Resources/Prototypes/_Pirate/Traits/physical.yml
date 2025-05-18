@@ -10,8 +10,6 @@
     - !type:CharacterSpeciesRequirement
       species:
         - IPC
-    - !type:CharacterItemGroupRequirement
-      group: TraitsMind
   functions:
     - !type:TraitAddComponent
       components:
@@ -21,3 +19,78 @@
         - description: trait-description-EyeProtectionModule
           fontSize: 12
           requireDetailRange: true
+
+- type: trait
+  id: BionicArmSec
+  category: Physical
+  points: -2
+  requirements:
+    - !type:CharacterLogicOrRequirement
+      requirements:
+        - !type:CharacterDepartmentRequirement
+          departments:
+            - Security
+            - Command
+            - Dignitary
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - BionicPryArm
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - Xelthia # this would fall off
+  functions:
+    - !type:TraitCyberneticLimbReplacement
+      removeBodyPart: Arm
+      partSymmetry: Left
+      protoId: JawsOfLifeLeftArm
+      slotId: "left arm"
+    - !type:TraitCyberneticLimbReplacement
+      removeBodyPart: Arm
+      partSymmetry: Right
+      protoId: JawsOfLifeRightArm
+      slotId: "right arm"
+    - !type:TraitPushDescription
+      descriptionExtensions:
+        - description: examine-bionic-arm-message
+          fontSize: 12
+          requireDetailRange: true
+
+- type: trait
+  id: PlateletFactoriesSec
+  category: Physical
+  points: -2
+  requirements:
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Prisoner # Bionics should be "Confiscated" from long term prisoners.
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
+    - !type:CharacterJobRequirement
+      jobs:
+        - Detective #PIRATE
+        - HeadOfSecurity #PIRATE
+        - SecurityCadet #PIRATE
+        - SecurityOfficer #PIRATE
+        - SeniorOfficer #PIRATE
+        - Warden #PIRATE
+        - Brigmedic #PIRATE
+  functions: # TODO: Code Platelet factories as an actual obtainable implant, and replace this with TraitAddImplant
+    - !type:TraitReplaceComponent
+      components:
+        - type: PassiveDamage
+          allowedStates:
+            - Alive
+            - Critical
+          damageCap: 400
+          damage:
+            groups:
+              Brute: -0.35
+              Burn: -0.35
+              Airloss: -0.25
+              Toxin: -0.35
+              Genetic: -0.35

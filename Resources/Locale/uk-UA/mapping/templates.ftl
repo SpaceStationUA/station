@@ -40,7 +40,7 @@ mapping-template-ceroom = Кімната СЕ
 mapping-template-atmos = Атмосферика
 mapping-template-materials = Матеріали
 mapping-template-telecoms = Телекомунікації
-mapping-template-solarpanels = Сонячні панелі
+mapping-template-solarpanels = Сонячні Панелі
 mapping-template-ame = Кімната AME
 mapping-template-paroom = Приміщення для прискорювача частинок
 

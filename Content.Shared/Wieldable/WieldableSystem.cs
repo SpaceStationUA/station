@@ -24,6 +24,7 @@ using Robust.Shared.Timing;
 using Content.Shared.StatusEffect;
 using Content.Shared.Stunnable;
 using Robust.Shared.Audio;
+using Content.Shared._Goobstation.HoloCigar.TheManWhoSoldTheWorld;
 
 namespace Content.Shared.Wieldable;
 
@@ -45,7 +46,7 @@ public sealed class WieldableSystem : EntitySystem
     {
         base.Initialize();
 
-        SubscribeLocalEvent<WieldableComponent, UseInHandEvent>(OnUseInHand, before: [typeof(SharedGunSystem)]);
+        SubscribeLocalEvent<WieldableComponent, UseInHandEvent>(OnUseInHand, before: [typeof(SharedGunSystem), typeof(BatteryWeaponFireModesSystem)]);
         SubscribeLocalEvent<WieldableComponent, ItemUnwieldedEvent>(OnItemUnwielded);
         SubscribeLocalEvent<WieldableComponent, GotUnequippedHandEvent>(OnItemLeaveHand);
         SubscribeLocalEvent<WieldableComponent, VirtualItemDeletedEvent>(OnVirtualItemDeleted);
@@ -90,6 +91,8 @@ public sealed class WieldableSystem : EntitySystem
         if (TryComp<WieldableComponent>(uid, out var wieldable) &&
             !wieldable.Wielded)
         {
+            if(HasComp<TheManWhoSoldTheWorldComponent>(args.User))
+            return;
             args.Cancel();
 
             var time = _timing.CurTime;

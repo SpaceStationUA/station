@@ -1,0 +1,642 @@
+# Cargo Technician
+# Outer
+
+- type: loadout
+  id: LoadoutCargoOuterWinterCargoRestrictedGear
+  category: JobsLogisticsAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCargoTechnicianOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - CargoTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterCargo
+
+# Shoes
+
+- type: loadout
+  id: LoadoutCargoShoesBootsWinterCargoRestrictedGear
+  category: JobsLogisticsAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCargoTechnicianShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - CargoTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsWinterCargo
+
+# Uniforms
+
+- type: loadout
+  id: LoadoutCargoTechnicianUniformSuitRestrictedGear
+  category: JobsLogisticsCargoTechnician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCargoTechnicianUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - CargoTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitCargo
+
+- type: loadout
+  id: LoadoutCargoTechnicianUniformSkirtRestrictedGear
+  category: JobsLogisticsCargoTechnician
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCargoTechnicianUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - CargoTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtCargo
+
+- type: loadout
+  id: LoadoutCargoTechnicianUniformHephRestrictedGear
+  category: JobsLogisticsCargoTechnician
+  cost: 1
+  exclusive: true
+  guideEntry: HephaestusIndustries
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCargoTechnicianUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - CargoTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - HephaestusIndustries
+  items:
+    - ClothingUniformJumpsuitHephCargoTech
+
+- type: loadout
+  id: LoadoutCargoTechnicianUniformHephAltRestrictedGear
+  category: JobsLogisticsCargoTechnician
+  cost: 1
+  exclusive: true
+  guideEntry: HephaestusIndustries
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCargoTechnicianUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - CargoTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - HephaestusIndustries
+  items:
+    - ClothingUniformJumpsuitHephCargoTechAlt
+
+- type: loadout
+  id: LoadoutCargoTechnicianUniformNTRestrictedGear
+  category: JobsLogisticsCargoTechnician
+  cost: 1
+  exclusive: true
+  guideEntry: NanoTrasen
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCargoTechnicianUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - CargoTechnician
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - NanoTrasen
+  items:
+    - ClothingUniformJumpsuitNTCargoTech
+
+# Courier
+# Head
+
+- type: loadout
+  id: LoadoutCourierHeadMailRestrictedGear
+  category: JobsLogisticsCourier
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCourierHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - MailCarrier
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadMailCarrier
+
+# Outer
+
+- type: loadout
+  id: LoadoutCourierOuterMailRestrictedGear
+  category: JobsLogisticsCourier
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCourierOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - MailCarrier
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterCoatMail
+
+# Uniforms
+
+- type: loadout
+  id: LoadoutCourierUniformSuitRestrictedGear
+  category: JobsLogisticsCourier
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCourierUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - MailCarrier
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformCourier
+
+- type: loadout
+  id: LoadoutCourierUniformSkirtRestrictedGear
+  category: JobsLogisticsCourier
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCourierUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - MailCarrier
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformSkirtCourier
+
+- type: loadout
+  id: LoadoutCourierUniformMailSuitRestrictedGear
+  category: JobsLogisticsCourier
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCourierUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - MailCarrier
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformMailCarrier
+
+- type: loadout
+  id: LoadoutCourierUniformMailSkirtRestrictedGear
+  category: JobsLogisticsCourier
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCourierUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - MailCarrier
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformSkirtMailCarrier
+
+- type: loadout
+  id: LoadoutCourierUniformEnvirosuitMailCarrierRestrictedGear
+  category: JobsLogisticsCourier
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCourierUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - MailCarrier
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Plasmaman
+  items:
+    - ClothingUniformEnvirosuitMailCarrier
+    - ClothingHeadEnvirohelmMailCarrier
+
+# Logistics Officer
+# Head
+
+- type: loadout
+  id: LoadoutCommandQMHeadSoftRestrictedGear
+  category: JobsLogisticsLogisticsOfficer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLogisticsOfficerHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Quartermaster
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatQMsoft
+
+# Neck
+
+- type: loadout
+  id: LoadoutCommandQMNeckCloakRestrictedGear
+  category: JobsLogisticsLogisticsOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLogisticsOfficerNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Quartermaster
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckCloakQm
+
+# Outer
+
+- type: loadout
+  id: LoadoutQMWinterCoatRestrictedGear
+  category: JobsLogisticsLogisticsOfficer
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLogisticsOfficerOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Quartermaster
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterQM
+
+# Shoes
+
+- type: loadout
+  id: LoadoutCommandQMShoesBootsWinterRestrictedGear
+  category: JobsLogisticsLogisticsOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLogisticsOfficerShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Quartermaster
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsWinterLogisticsOfficer
+
+# Uniforms
+
+- type: loadout
+  id: LoadoutCommandQMUniformTurtleneckRestrictedGear
+  category: JobsLogisticsLogisticsOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLogisticsOfficerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Quartermaster
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitQMTurtleneck
+
+- type: loadout
+  id: LoadoutCommandQMUniformTurtleneckSkirtRestrictedGear
+  category: JobsLogisticsLogisticsOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLogisticsOfficerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Quartermaster
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtQMTurtleneck
+
+# Salvage Specialist
+# Backpacks
+
+- type: loadout
+  id: LoadoutSalvageBackpackBackpackRestrictedGear
+  category: JobsLogisticsSalvageSpecialist
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SalvageSpecialist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackSalvage
+
+- type: loadout
+  id: LoadoutSalvageBackpackSatchelRestrictedGear
+  category: JobsLogisticsSalvageSpecialist
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SalvageSpecialist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackSatchelSalvage
+
+- type: loadout
+  id: LoadoutSalvageBackpackDuffelRestrictedGear
+  category: JobsLogisticsSalvageSpecialist
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SalvageSpecialist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackDuffelSalvage
+
+# Equipment/Neck
+
+- type: loadout
+  id: LoadoutCargoNeckGoliathCloakRestrictedGear
+  category: JobsLogisticsSalvageSpecialist
+  cost: 1
+  exclusive: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SalvageSpecialist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobSalvageSpecialist
+      min: 36000 # 10 hours
+  items:
+    - ClothingNeckCloakGoliathCloak
+
+- type: loadout
+  id: LoadoutSalvageNeckCloakMinerRestrictedGear
+  category: JobsLogisticsSalvageSpecialist
+  cost: 1
+  exclusive: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SalvageSpecialist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckCloakMiner
+
+# Outer
+
+- type: loadout
+  id: LoadoutCargoOuterWinterMinerRestrictedGear
+  category: JobsLogisticsSalvageSpecialist
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SalvageSpecialist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterMiner
+
+# Uniforms
+
+- type: loadout
+  id: LoadoutSalvageSpecialistUniformSuitRestrictedGear
+  category: JobsLogisticsSalvageSpecialist
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SalvageSpecialist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitSalvageSpecialist
+
+- type: loadout
+  id: LoadoutSalvageSpecialistUniformHephRestrictedGear
+  category: JobsLogisticsSalvageSpecialist
+  cost: 1
+  exclusive: true
+  guideEntry: HephaestusIndustries
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SalvageSpecialist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - HephaestusIndustries
+  items:
+    - ClothingUniformJumpsuitHephMiner
+
+- type: loadout
+  id: LoadoutSalvageSpecialistUniformNTRestrictedGear
+  category: JobsLogisticsSalvageSpecialist
+  cost: 1
+  exclusive: true
+  guideEntry: NanoTrasen
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutSalvageSpecialistUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - SalvageSpecialist
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterEmployerRequirement
+      employers:
+        - NanoTrasen
+  items:
+    - ClothingUniformJumpsuitNTMiner
+
+# Uncategorized
+# Backpacks
+
+- type: loadout
+  id: LoadoutBackpackCargoRestrictedGear
+  category: JobsLogisticsAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLogisticsBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Logistics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackCargo
+
+- type: loadout
+  id: LoadoutBackpackSatchelCargoRestrictedGear
+  category: JobsLogisticsAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLogisticsBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Logistics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackSatchelCargo
+
+- type: loadout
+  id: LoadoutBackpackDuffelCargoRestrictedGear
+  category: JobsLogisticsAUncategorized
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutLogisticsBackpacks
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Logistics
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackDuffelCargo

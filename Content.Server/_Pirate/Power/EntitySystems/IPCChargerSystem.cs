@@ -2,6 +2,7 @@ using Content.Server._Pirate.Power.Components;
 using Content.Server.Construction.Completions;
 using Content.Server.Power.Components;
 using Content.Server.Power.EntitySystems;
+using Content.Shared._Pirate.Power;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Power;
@@ -25,12 +26,14 @@ namespace Content.Server._Pirate.Power.EntitySystems
                 return;
             if (!TryComp(args.User, out ItemSlotsComponent? itemSlot_component)) // checks if player that`ve used charger can hold items(ie. IPC)
                 return;
+            if (!itemSlot_component.Slots["cell_slot"].HasItem)
+                return;
             if (!TryComp(itemSlot_component.Slots["cell_slot"].Item, out BatteryComponent? batteryComponent)) // checks if the player actually have cell inserted
                 return;
             var appearance = EntityManager.GetComponentOrNull<AppearanceComponent>(uid);
             var soundSpec = new SoundPathSpecifier("/Audio/Effects/PowerSink/charge_fire.ogg");
-            _appearence.SetData(uid, PowerChargeVisuals.Active, PowerChargeStatus.Off, appearance); //TODO: Fix visuals changing
-            _battery.SetCharge(args.User, batteryComponent.CurrentCharge + component.ChargeAmount, batteryComponent);
+            _appearence.SetData(uid, IPCChargerVisuals.Active, false, appearance);
+            _battery.SetCharge(itemSlot_component.Slots["cell_slot"].Item!.Value, batteryComponent.CurrentCharge + component.ChargeAmount, batteryComponent);
             _sound.PlayPvs(soundSpec, uid);
             component.Useable = false;
         }

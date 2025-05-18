@@ -21,6 +21,7 @@
       - ZavodskoiInterstellar
       - PMCG
       - NanoTrasen
+      - EastOrionCompany
   startingGear: SecurityOfficerGear
   icon: "JobIconSecurityOfficer"
   supervisors: job-supervisors-hos
@@ -43,8 +44,6 @@
     charges: 6
   - !type:ModifyEnvirohelmSpecial
     powerCell: PowerCellHigh
-  - !type:AddTraitSpecial
-    traits: [ PlateletFactories, BionicArm ]
 
 - type: startingGear
   id: SecurityOfficerGear

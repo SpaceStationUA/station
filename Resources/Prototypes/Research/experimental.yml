@@ -1,6 +1,5 @@
 # Tier 1
 
-
 - type: technology
   id: BasicAnomalousResearch
   name: research-technology-basic-anomalous-research
@@ -16,6 +15,11 @@
   - AnomalyLocatorWide
   - APECircuitboard
   - AnomalyVesselCircuitboard
+  # Goobstation R&D Console rework start
+  position: 0,-2
+  technologyPrerequisites:
+    - BasicXenoArcheology
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: BasicXenoArcheology
@@ -32,6 +36,9 @@
   - ArtifactAnalyzerMachineCircuitboard
   - TechDiskComputerCircuitboard
   - ReverseEngineeringMachineCircuitboard
+  # Goobstation R&D Console rework start
+  position: 0,-1
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: AnomalyCoreHarnessing
@@ -44,6 +51,11 @@
   cost: 10000
   recipeUnlocks:
   - WeaponGauntletGorilla
+  # Goobstation R&D Console rework start
+  position: 0,-4
+  technologyPrerequisites:
+    - AdvancedAnomalyResearch
+  # Goobstation R&D Console rework end
 
 # Tier 2
 
@@ -61,6 +73,11 @@
   - AdvancedMatterBinStockPart
   - NanoManipulatorStockPart
   - RPED
+  # Goobstation R&D Console rework start
+  position: -3,-2
+  technologyPrerequisites:
+    - BasicXenoArcheology
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: AdvancedAnomalyResearch
@@ -78,6 +95,9 @@
   - ArtifactCrusherMachineCircuitboard
   technologyPrerequisites:
   - BasicAnomalousResearch
+  # Goobstation R&D Console rework start
+  position: 0,-3
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: DeterrenceTechnologies
@@ -91,6 +111,11 @@
   recipeUnlocks:
   - WeaponParticleDecelerator
   - HoloprojectorField
+  # Goobstation R&D Console rework start
+  position: -1,-2
+  technologyPrerequisites:
+    - BasicXenoArcheology
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: NightVisionTech
@@ -106,6 +131,11 @@
   - ClothingEyesNightVisionSecurityGoggles
   - ClothingEyesNightVisionMedicalGoggles
   - ClothingEyesNightVisionDiagnosticGoggles
+  # Goobstation R&D Console rework start
+  position: 1,-4
+  technologyPrerequisites:
+    - ThermalVisionTech
+  # Goobstation R&D Console rework end
 
 - type: technology
   id: ThermalVisionTech
@@ -118,6 +148,11 @@
   cost: 10000
   recipeUnlocks:
   - ClothingEyesThermalVisionGoggles
+  # Goobstation R&D Console rework start
+  position: 1,-2
+  technologyPrerequisites:
+    - BasicXenoArcheology
+  # Goobstation R&D Console rework end
 
 # Tier 3
 
@@ -134,21 +169,24 @@
   - SuperCapacitorStockPart
   - SuperMatterBinStockPart
   - PicoManipulatorStockPart
-  softCapContribution: 1.2
+  # Goobstation R&D Console rework start
+  position: -2,-3
+  technologyPrerequisites:
+    - AdvancedParts
+  # Goobstation R&D Console rework end
 
-- type: technology
-  id: GravityManipulation
-  name: research-technology-gravity-manipulation
-  icon:
-    sprite: Objects/Weapons/Guns/Launchers/tether_gun.rsi
-    state: base
-  discipline: Experimental
-  tier: 3
-  cost: 10000
-  recipeUnlocks:
-    - WeaponForceGun
-    - WeaponTetherGun
-  softCapContribution: 1.5
+# - type: technology
+#   id: GravityManipulation
+#   name: research-technology-gravity-manipulation
+#   icon:
+#     sprite: Objects/Weapons/Guns/Launchers/tether_gun.rsi
+#     state: base
+#   discipline: Experimental
+#   tier: 3
+#   cost: 10000
+#   recipeUnlocks:
+#     - WeaponForceGun
+#     - WeaponTetherGun
 
 - type: technology
   id: QuantumLeaping
@@ -161,4 +199,8 @@
   cost: 10000
   recipeUnlocks:
   - DeviceQuantumSpinInverter
-  softCapContribution: 1.5
+  # Goobstation R&D Console rework start
+  position: -1,-3
+  technologyPrerequisites:
+    - DeterrenceTechnologies
+  # Goobstation R&D Console rework end

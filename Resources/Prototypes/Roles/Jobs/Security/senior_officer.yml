@@ -31,6 +31,7 @@
       - ZavodskoiInterstellar
       - PMCG
       - NanoTrasen
+      - EastOrionCompany
   startingGear: SeniorOfficerGear
   icon: "JobIconSeniorOfficer"
   supervisors: job-supervisors-hos
@@ -49,8 +50,6 @@
     charges: 6
   - !type:ModifyEnvirohelmSpecial
     powerCell: PowerCellHigh
-  - !type:AddTraitSpecial
-    traits: [ PlateletFactories, BionicArm ]
 
 - type: startingGear
   id: SeniorOfficerGear

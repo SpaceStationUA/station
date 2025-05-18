@@ -45,28 +45,30 @@
   items:
   - Flash
 
-- type: loadout
-  id: LoadoutMagazinePistol
-  category: JobsSecurityWeapons
-  cost: 0
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityEquipment
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - MagazinePistol
+# PIRATE START
+# - type: loadout
+#   id: LoadoutMagazinePistol
+#   category: JobsSecurityWeapons
+#   cost: 0
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityEquipment
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - MagazinePistol
+# PIRATE END
 
 - type: loadout
   id: LoadoutMagazinePistolSpare
@@ -155,29 +157,31 @@
   items:
   - SpeedLoaderMagnum
 
-- type: loadout
-  id: LoadoutSpeedLoaderMagnumSpare
-  category: JobsSecurityWeapons
-  cost: 4
-  exclusive: true
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityEquipment
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - SpeedLoaderMagnum
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSpeedLoaderMagnumSpare
+#   category: JobsSecurityWeapons
+#   cost: 4
+#   exclusive: true
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityEquipment
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - SpeedLoaderMagnum
+# PIRATE END
 
 - type: loadout
   id: LoadoutSpeedLoaderMagnumRubber
@@ -221,29 +225,31 @@
   items:
   - SpeedLoaderMagnumRubber
 
-- type: loadout
-  id: LoadoutMagazineMagnum
-  category: JobsSecurityWeapons
-  cost: 4
-  exclusive: true
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityEquipment
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - MagazineMagnum
+# PIRATE START
+# - type: loadout
+#   id: LoadoutMagazineMagnum
+#   category: JobsSecurityWeapons
+#   cost: 4
+#   exclusive: true
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityEquipment
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - MagazineMagnum
+# PIRATE END
 
 - type: loadout
   id: LoadoutMagazineMagnumRubber
@@ -341,29 +347,31 @@
   items:
   - SpeedLoaderRifleHeavy
 
-- type: loadout
-  id: LoadoutSpeedLoaderRifleHeavySpare
-  category: JobsSecurityWeapons
-  cost: 4
-  exclusive: true
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityEquipment
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - SpeedLoaderRifleHeavy
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSpeedLoaderRifleHeavySpare
+#   category: JobsSecurityWeapons
+#   cost: 4
+#   exclusive: true
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityEquipment
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - SpeedLoaderRifleHeavy
+# PIRATE END
 
 - type: loadout
   id: LoadoutSpeedLoaderRifleHeavyRubber
@@ -431,30 +439,32 @@
   items:
   - WeaponDisabler
 
-- type: loadout
-  id: LoadoutSecurityMk58
-  category: JobsSecurityWeapons
-  cost: 0
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - WeaponPistolMk58Security
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSecurityMk58
+#   category: JobsSecurityWeapons
+#   cost: 0
+#   canBeHeirloom: true
+#   guideEntry: SecurityWeapons
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityWeapons
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - WeaponPistolMk58Security
+# PIRATE END
 
 - type: loadout
   id: LoadoutSecurityMk58NonLethal
@@ -478,30 +488,38 @@
   items:
   - WeaponPistolMk58SecurityNonlethal
 
-- type: loadout
-  id: LoadoutSecurityRevolver
-  category: JobsSecurityWeapons
-  cost: 0
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - WeaponRevolverInspectorSecurity
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSecurityRevolver
+#   category: JobsSecurityWeapons
+#   cost: 0
+#   canBeHeirloom: true 
+#   guideEntry: SecurityWeapons
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#       # PIRATE START
+#   - !type:CharacterJobRequirement
+#     inverted: true
+#     jobs:
+#       - SecurityCadet
+#       # PIRATE END
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityWeapons
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - WeaponRevolverInspectorSecurity
+# PIRATE END
 
 - type: loadout
   id: LoadoutSecurityRevolverNonLethal
@@ -512,6 +530,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -525,30 +549,38 @@
   items:
   - WeaponRevolverInspectorNonLethalSecurity
 
-- type: loadout
-  id: LoadoutSecurityRevolverDeckard
-  category: JobsSecurityWeapons
-  cost: 1
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - WeaponRevolverDeckardSecurity
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSecurityRevolverDeckard
+#   category: JobsSecurityWeapons
+#   cost: 1
+#   canBeHeirloom: true
+#   guideEntry: SecurityWeapons
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityWeapons
+#       # PIRATE START
+#   - !type:CharacterJobRequirement
+#     inverted: true
+#     jobs:
+#       - SecurityCadet
+#       # PIRATE END
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - WeaponRevolverDeckardSecurity
+# PIRATE END
 
 - type: loadout
   id: LoadoutSecurityRevolverDeckardNonLethal
@@ -559,6 +591,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -572,30 +610,38 @@
   items:
   - WeaponRevolverDeckardNonLethalSecurity
 
-- type: loadout
-  id: LoadoutSecurityPistolN1984
-  category: JobsSecurityWeapons
-  cost: 5
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - WeaponPistolN1984Security
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSecurityPistolN1984
+#   category: JobsSecurityWeapons
+#   cost: 5
+#   canBeHeirloom: true
+#   guideEntry: SecurityWeapons
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#       # PIRATE START
+#   - !type:CharacterJobRequirement
+#     inverted: true
+#     jobs:
+#       - SecurityCadet
+#       # PIRATE END
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityWeapons
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - WeaponPistolN1984Security
+# PIRATE END
 
 - type: loadout
   id: LoadoutSecurityPistolN1984NonLethal
@@ -606,6 +652,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -619,30 +671,32 @@
   items:
   - WeaponPistolN1984SecurityNonLethal
 
-- type: loadout
-  id: LoadoutSecurityPistolViper
-  category: JobsSecurityWeapons
-  cost: 2
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - WeaponPistolViperSecurity
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSecurityPistolViper
+#   category: JobsSecurityWeapons
+#   cost: 2
+#   canBeHeirloom: true
+#   guideEntry: SecurityWeapons
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityWeapons
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - WeaponPistolViperSecurity
+# PIRATE END
 
 - type: loadout
   id: LoadoutSecurityPistolViperNonLethal
@@ -666,30 +720,32 @@
   items:
   - WeaponPistolViperSecurityNonLethal
 
-- type: loadout
-  id: LoadoutSecurityPistolViperWood
-  category: JobsSecurityWeapons
-  cost: 2
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 108000 # 30 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - WeaponPistolViperWoodSecurity
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSecurityPistolViperWood
+#   category: JobsSecurityWeapons
+#   cost: 2
+#   canBeHeirloom: true
+#   guideEntry: SecurityWeapons
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 108000 # 30 hours
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityWeapons
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - WeaponPistolViperWoodSecurity
+# PIRATE END
 
 - type: loadout
   id: LoadoutSecurityEquipmentTruncheon
@@ -731,9 +787,11 @@
     group: LoadoutSecurityWeapons
   - !type:CharacterLogicOrRequirement
     requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
+    # PIRATE START
+    # - !type:CharacterDepartmentRequirement
+    #   departments:
+    #   - Security
+    # PIRATE END
     - !type:CharacterJobRequirement
       jobs:
       - BlueshieldOfficer
@@ -793,13 +851,21 @@
 - type: loadout
   id: LoadoutSecurityEnergyGunPistol
   category: JobsSecurityWeapons
-  cost: 2
+  #PIRATE START
+  cost: 3
+  #PIRATE END
   canBeHeirloom: true
   guideEntry: SecurityWeapons
   requirements:
   - !type:CharacterDepartmentTimeRequirement
     department: Security
     min: 3600 # 1 hours
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
   - !type:CharacterLogicOrRequirement
@@ -815,30 +881,32 @@
   items:
   - WeaponEnergyGunPistolSecurity
 
-- type: loadout
-  id: LoadoutSecurityPistolPollock
-  category: JobsSecurityWeapons
-  cost: 1
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - WeaponPistolPollockSecurity
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSecurityPistolPollock
+#   category: JobsSecurityWeapons
+#   cost: 1
+#   canBeHeirloom: true
+#   guideEntry: SecurityWeapons
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityWeapons
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - WeaponPistolPollockSecurity
+# PIRATE END
 
 - type: loadout
   id: LoadoutSecurityPistolPollockNonlethal
@@ -862,30 +930,38 @@
   items:
   - WeaponPistolPollockNonlethalSecurity
 
-- type: loadout
-  id: LoadoutSecurityRevolverSnub
-  category: JobsSecurityWeapons
-  cost: 3
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - WeaponRevolverSnubSecurity
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSecurityRevolverSnub
+#   category: JobsSecurityWeapons
+#   cost: 3
+#   canBeHeirloom: true
+#   guideEntry: SecurityWeapons
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#       # PIRATE START
+#   - !type:CharacterJobRequirement
+#     inverted: true
+#     jobs:
+#       - SecurityCadet
+#       # PIRATE END
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityWeapons
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - WeaponRevolverSnubSecurity
+# PIRATE END
 
 - type: loadout
   id: LoadoutSecurityRevolverSnubNonlethal
@@ -896,6 +972,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -909,30 +991,38 @@
   items:
   - WeaponRevolverSnubNonlethalSecurity
 
-- type: loadout
-  id: LoadoutSecurityRevolverK38Master
-  category: JobsSecurityWeapons
-  cost: 1
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - WeaponRevolverK38MasterSecurity
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSecurityRevolverK38Master
+#   category: JobsSecurityWeapons
+#   cost: 1
+#   canBeHeirloom: true
+#   guideEntry: SecurityWeapons
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#       # PIRATE START
+#   - !type:CharacterJobRequirement
+#     inverted: true
+#     jobs:
+#       - SecurityCadet
+#       # PIRATE END
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityWeapons
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - WeaponRevolverK38MasterSecurity
+# PIRATE END
 
 - type: loadout
   id: LoadoutSecurityRevolverK38MasterNonlethal
@@ -943,6 +1033,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -956,30 +1052,38 @@
   items:
   - WeaponRevolverK38MasterNonlethalSecurity
 
-- type: loadout
-  id: LoadoutSecurityRevolverFitz
-  category: JobsSecurityWeapons
-  cost: 2
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - WeaponRevolverFitzSecurity
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSecurityRevolverFitz
+#   category: JobsSecurityWeapons
+#   cost: 2
+#   canBeHeirloom: true
+#   guideEntry: SecurityWeapons
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#       # PIRATE START
+#   - !type:CharacterJobRequirement
+#     inverted: true
+#     jobs:
+#       - SecurityCadet
+#       # PIRATE END
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityWeapons
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - WeaponRevolverFitzSecurity
+# PIRATE END
 
 - type: loadout
   id: LoadoutSecurityRevolverFitzNonlethal
@@ -990,6 +1094,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -1003,30 +1113,38 @@
   items:
   - WeaponRevolverFitzNonlethalSecurity
 
-- type: loadout
-  id: LoadoutSecurityRevolverPython
-  category: JobsSecurityWeapons
-  cost: 5
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - WeaponRevolverPythonSecurity
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSecurityRevolverPython
+#   category: JobsSecurityWeapons
+#   cost: 5
+#   canBeHeirloom: true
+#   guideEntry: SecurityWeapons
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#       # PIRATE START
+#   - !type:CharacterJobRequirement
+#     inverted: true
+#     jobs:
+#       - SecurityCadet
+#       # PIRATE END
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityWeapons
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - WeaponRevolverPythonSecurity
+# PIRATE END
 
 - type: loadout
   id: LoadoutSecurityRevolverPythonNonlethal
@@ -1037,6 +1155,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -1050,30 +1174,38 @@
   items:
   - WeaponRevolverPythonNonlethalSecurity
 
-- type: loadout
-  id: LoadoutSecurityArgenti
-  category: JobsSecurityWeapons
-  cost: 0
-  canBeHeirloom: true
-  guideEntry: SecurityWeapons
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 3600 # 1 hours
-  - !type:CharacterItemGroupRequirement
-    group: LoadoutSecurityWeapons
-  - !type:CharacterLogicOrRequirement
-    requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
-    - !type:CharacterJobRequirement
-      jobs:
-      - BlueshieldOfficer
-  - !type:CharacterAgeRequirement
-    min: 21
-  items:
-  - WeaponRevolverArgentiSecurity
+# PIRATE START
+# - type: loadout
+#   id: LoadoutSecurityArgenti
+#   category: JobsSecurityWeapons
+#   cost: 0
+#   canBeHeirloom: true
+#   guideEntry: SecurityWeapons
+#   requirements:
+#   - !type:CharacterDepartmentTimeRequirement
+#     department: Security
+#     min: 3600 # 1 hours
+#       # PIRATE START
+#   - !type:CharacterJobRequirement
+#     inverted: true
+#     jobs:
+#       - SecurityCadet
+#       # PIRATE END
+#   - !type:CharacterItemGroupRequirement
+#     group: LoadoutSecurityWeapons
+#   - !type:CharacterLogicOrRequirement
+#     requirements:
+#     - !type:CharacterDepartmentRequirement
+#       departments:
+#       - Security
+#     - !type:CharacterJobRequirement
+#       jobs:
+#       - BlueshieldOfficer
+#   - !type:CharacterAgeRequirement
+#     min: 21
+#   items:
+#   - WeaponRevolverArgentiSecurity
+# PIRATE END
 
 - type: loadout
   id: LoadoutSecurityArgentiNonLethal
@@ -1084,6 +1216,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement
@@ -1111,12 +1249,17 @@
     min: 18000 # 5 hours
   - !type:CharacterLogicOrRequirement
     requirements:
-    - !type:CharacterDepartmentRequirement
-      departments:
-      - Security
+    # PIRATE START
+    # - !type:CharacterDepartmentRequirement
+    #   departments:
+    #   - Security
+    # PIRATE END
     - !type:CharacterJobRequirement
       jobs:
       - BlueshieldOfficer
+      # PIRATE START
+      - HeadOfSecurity
+      # PIRATE END
   - !type:CharacterAgeRequirement
     min: 21
   items:
@@ -1131,6 +1274,12 @@
   requirements:
   - !type:CharacterItemGroupRequirement
     group: LoadoutSecurityWeapons
+      # PIRATE START
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+      - SecurityCadet
+      # PIRATE END
   - !type:CharacterLogicOrRequirement
     requirements:
     - !type:CharacterDepartmentRequirement

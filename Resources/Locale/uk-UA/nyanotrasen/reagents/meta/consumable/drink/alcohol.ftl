@@ -8,13 +8,13 @@ reagent-name-orange-creamcicle = апельсиновий крем
 reagent-desc-orange-creamcicle = Помаранчева, вершкова смакота.
 
 reagent-name-silverjack = коктейль 'Сільверхенд'
-reagent-desc-silverjack = Я бачив, як корпи забирають у фермерів воду, а потім і землю...
+reagent-desc-silverjack = Я бачив, як корпо забирають у фермерів воду, а потім і землю...
 
 reagent-name-brainbomb = мозкова бомба
 reagent-desc-brainbomb = Токсичний для всього живого, особливо для печінки.
 
 reagent-name-clownblood = кров клоуна
-reagent-desc-clownblood = Улюблений напій охоронців після довгого дня.
+reagent-desc-clownblood = Улюблений напій Служби Безпеки після довгого дня.
 
 reagent-name-circusjuice = цирковий сік
 reagent-desc-circusjuice = Хонкомама пишалася б.

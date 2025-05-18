@@ -1,0 +1,1386 @@
+# Administrative Assistant Loadouts with RestrictedGear
+# Gloves
+
+- type: loadout
+  id: LoadoutAdministrativeAssistantRestrictedGearGlovesHoP
+  category: JobsCommandAdminAssistant
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAdminAssistantGloves
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AdministrativeAssistant
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHandsGlovesHop
+
+
+- type: loadout
+  id: LoadoutAdministrativeAssistantRestrictedGearGlovesInspection
+  category: JobsCommandAdminAssistant
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAdminAssistantGloves
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AdministrativeAssistant
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHandsGlovesInspection
+
+# Uniforms
+
+- type: loadout
+  id: LoadoutAdminAssistantRestrictedGearUniformJumpsuit
+  category: JobsCommandAdminAssistant
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAdminAssistantUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AdministrativeAssistant
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitAdminAssistant
+
+
+- type: loadout
+  id: LoadoutAdminAssistantRestrictedGearUniformJumpskirt
+  category: JobsCommandAdminAssistant
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutAdminAssistantUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - AdministrativeAssistant
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtAdminAssistant
+
+# Blueshield Officer Loadouts with RestrictedGear
+# Backpacks
+
+- type: loadout
+  id: LoadoutClothingRestrictedGearBackpackBlueshield
+  category: JobsCommandBlueshieldOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBlueshieldOfficerBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - BlueshieldOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackBlueshield
+
+
+- type: loadout
+  id: LoadoutClothingRestrictedGearSatchelBlueshield
+  category: JobsCommandBlueshieldOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBlueshieldOfficerBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - BlueshieldOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackSatchelBlueshield
+
+
+- type: loadout
+  id: LoadoutClothingRestrictedGearDuffelBlueshield
+  category: JobsCommandBlueshieldOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBlueshieldOfficerBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - BlueshieldOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackDuffelBlueshield
+
+
+- type: loadout
+  id: LoadoutClothingRestrictedGearModsuitBlueshield
+  category: JobsCommandBlueshieldOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBlueshieldOfficerBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - BlueshieldOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingModsuitPraetorian #Blueshield modsuit
+
+# Equipment/Hats
+
+- type: loadout
+  id: LoadoutClothingRestrictedGearBlueshieldBeretNavy
+  category: JobsCommandBlueshieldOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBlueshieldOfficerHats
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - BlueshieldOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatBeretNavy
+
+
+- type: loadout
+  id: LoadoutClothingRestrictedGearBlueshieldBeretOfficer
+  category: JobsCommandBlueshieldOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBlueshieldOfficerHats
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - BlueshieldOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatBeretOfficer
+
+
+- type: loadout
+  id: LoadoutClothingRestrictedGearBlueshieldCowboyHat
+  category: JobsCommandBlueshieldOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBlueshieldOfficerHats
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - BlueshieldOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatCowboyBlueshield
+
+# Uniforms
+
+- type: loadout
+  id: LoadoutClothingRestrictedGearUniformJumpskirtBlueshieldOfficer
+  category: JobsCommandBlueshieldOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBlueshieldOfficerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - BlueshieldOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtBlueshieldOfficer
+
+
+- type: loadout
+  id: LoadoutClothingRestrictedGearUniformJumpsuitBlueshieldOfficer
+  category: JobsCommandBlueshieldOfficer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBlueshieldOfficerUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - BlueshieldOfficer
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitBlueshieldOfficer
+
+# Captain Loadouts with RestrictedGear
+# Backpacks
+
+- type: loadout
+  id: LoadoutBackpackRestrictedGearCaptain
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackCaptain
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+
+- type: loadout
+  id: LoadoutBackpackRestrictedGearSatchelCaptain
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackSatchelCaptain
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+
+- type: loadout
+  id: LoadoutBackpackRestrictedGearDuffelCaptain
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingBackpackDuffelCaptain
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+# Equipment
+
+- type: loadout
+  id: LoadoutCaptainRestrictedGearEyesSunglasses
+  category: JobsCommandCaptain
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainEyes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingEyesGlassesSunglasses
+
+# Gloves
+
+- type: loadout
+  id: LoadoutCaptainRestrictedGearGlovesCapGloves
+  category: JobsCommandCaptain
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainGloves
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHandsGlovesCaptain
+
+
+- type: loadout
+  id: LoadoutCaptainRestrictedGearGlovesInspection
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainGloves
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHandsGlovesInspection
+
+# Head
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCapHat
+  category: JobsCommandCaptain
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatCaptain
+
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCapHatCapcap
+  category: JobsCommandCaptain
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatCapcap
+
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCapHatBeret
+  category: JobsCommandCaptain
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatBeretCap
+
+# Neck
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCapNeckMantle
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckMantleCap
+
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCapNeckCloak
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckCloakCap
+
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCapNeckCloakFormal
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckCloakCapFormal
+
+
+- type: loadout
+  id: LoadoutCaptainRestrictedGearNeckGoldMedal
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckGoldmedal
+
+# Mask
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCapMaskGas
+  category: JobsCommandCaptain
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainMask
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingMaskGasCaptain
+
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCapMaskGasCombat
+  category: JobsCommandCaptain
+  cost: 2
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainMask
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingMaskGasCaptainCombat
+
+# Outer
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCapOuterWinter
+  category: JobsCommandCaptain
+  cost: 1
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterCap
+
+# Shoes
+
+- type: loadout
+  id: LoadoutCaptainRestrictedGearShoesLaceup
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsLaceup
+
+
+- type: loadout
+  id: LoadoutCaptainRestrictedGearShoesLeather
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesLeather
+
+
+- type: loadout
+  id: LoadoutCaptainRestrictedGearShoesWinter
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsWinterCap
+
+# Uniforms
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCapJumpsuit
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitCaptain
+
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCapJumpskirt
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtCaptain
+
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCapJumpsuitFormal
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitCapFormal
+
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCapJumpskirtFormal
+  category: JobsCommandCaptain
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutCaptainUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtCapFormalDress
+
+# Head Of Personnel Loadouts with RestrictedGear
+# Backpacks
+
+- type: loadout
+  id: LoadoutCommandRestrictedGearCommandHOPBackIan
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  canBeHeirloom: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackIan
+
+# Gloves (RestrictedGear)
+- type: loadout
+  id: LoadoutHeadOfPersonnelGlovesHoPRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelGloves
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHandsGlovesHop
+
+- type: loadout
+  id: LoadoutHeadOfPersonnelGlovesInspectionRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 2
+  exclusive: true
+  customColorTint: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelGloves
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHandsGlovesInspection
+
+# Head (RestrictedGear)
+- type: loadout
+  id: LoadoutCommandHOPHatCapRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatHopcap
+
+# Neck (RestrictedGear)
+- type: loadout
+  id: LoadoutCommandHOPNeckMantleRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckMantleHOP
+
+- type: loadout
+  id: LoadoutCommandHOPNeckCloakRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckCloakHop
+
+- type: loadout
+  id: LoadoutHeadOfPersonnelNeckGoldMedalRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckGoldmedal
+
+# Outer (RestrictedGear)
+- type: loadout
+  id: LoadoutcommandHOPOuterCoatFormalRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterCoatHoPFormal
+
+- type: loadout
+  id: LoadoutHeadOfPersonnelOuterWinterRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterHoP
+
+# Shoes (RestrictedGear)
+- type: loadout
+  id: LoadoutHeadOfPersonnelShoesLaceupRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsLaceup
+
+- type: loadout
+  id: LoadoutHeadOfPersonnelShoesLeatherRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Captain
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesLeather
+
+- type: loadout
+  id: LoadoutCommandHOPShoesBootsWinterRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelShoes
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingShoesBootsWinterHeadOfPersonel
+
+# Uniforms (RestrictedGear)
+- type: loadout
+  id: LoadoutHeadOfPersonnelUniformJumpsuitRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitHoP
+
+- type: loadout
+  id: LoadoutHeadOfPersonnelUniformJumpskirtRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtHoP
+
+- type: loadout
+  id: LoadoutCommandHOPJumpsuitTurtleneckBoatswainRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitBoatswain
+
+- type: loadout
+  id: LoadoutCommandHOPJumpsuitMessRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitHoPMess
+
+- type: loadout
+  id: LoadoutCommandHOPJumpskirtMessRestrictedGear
+  category: JobsCommandHeadOfPersonnel
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHeadOfPersonnelUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - HeadOfPersonnel
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtHoPMess
+
+# Magistrate Head (RestrictedGear)
+- type: loadout
+  id: LoadoutClothingHeadChiefJusticeRestrictedGear
+  category: JobsCommandMagistrate
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMagistrateHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefJustice
+        - Magistrate
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingHeadHatCJToque
+
+# Magistrate Neck (RestrictedGear)
+- type: loadout
+  id: LoadoutClothingNeckChiefJusticeRestrictedGear
+  category: JobsCommandMagistrate
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMagistrateNeck
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefJustice
+        - Magistrate
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingNeckCloakCJ
+
+# Magistrate Outer (RestrictedGear)
+- type: loadout
+  id: LoadoutClothingOuterChiefJusticeRestrictedGear
+  category: JobsCommandMagistrate
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMagistrateOuter
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefJustice
+        - Magistrate
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterChiefJustice
+
+# Magistrate Uniforms (RestrictedGear)
+- type: loadout
+  id: LoadoutClothingUniformJumpskirtMagistrateRestrictedGear
+  category: JobsCommandMagistrate
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMagistrateUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefJustice
+        - Magistrate
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtChiefJustice
+
+- type: loadout
+  id: LoadoutClothingUniformJumpsuitMagistrateRestrictedGear
+  category: JobsCommandMagistrate
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMagistrateUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - Magistrate
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitMagistrate
+
+- type: loadout
+  id: LoadoutClothingUniformJumpsuitChiefJusticeRestrictedGear
+  category: JobsCommandMagistrate
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMagistrateUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefJustice
+        - Magistrate
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitChiefJustice
+
+- type: loadout
+  id: LoadoutClothingUniformJumpsuitChiefJusticeFormalRestrictedGear
+  category: JobsCommandMagistrate
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMagistrateUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefJustice
+        - Magistrate
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitChiefJusticeFormal
+
+- type: loadout
+  id: LoadoutClothingUniformJumpsuitChiefJusticeWhiteRestrictedGear
+  category: JobsCommandMagistrate
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMagistrateUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - ChiefJustice
+        - Magistrate
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitChiefJusticeWhite
+
+# Nanorep Backpacks (RestrictedGear)
+- type: loadout
+  id: LoadoutClothingBackpackSatchelNanorepRestrictedGear
+  category: JobsCommandNanorep
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNanorepBackpacks
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - NanotrasenRepresentative
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingBackpackSatchelNanorep
+
+# Nanorep Equipment (RestrictedGear)
+- type: loadout
+  id: LoadoutHeadBeretWhiteCorporateLiaisonRestrictedGear
+  category: JobsCommandNanorep
+  cost: 1
+  exclusive: true
+  customColorTint: true
+  items:
+    - ClothingHeadHatBeretWhite
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHead
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - NanotrasenRepresentative
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+# Nanorep Outer (RestrictedGear)
+- type: loadout
+  id: LoadoutClothingOuterCorporateJacketNanoTrasenCorporateLiaisonRestrictedGear
+  category: JobsCommandNanorep
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNanorepUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - NanotrasenRepresentative
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterCorporateJacket
+
+- type: loadout
+  id: LoadoutClothingOuterCorporateJacketZavodskoiInterstellarCorporateLiaisonRestrictedGear
+  category: JobsCommandNanorep
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNanorepUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - NanotrasenRepresentative
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterZiCorporateJacket
+
+- type: loadout
+  id: LoadoutClothingOuterCorporateJacketEinsteinEnginesCorporateLiaisonRestrictedGear
+  category: JobsCommandNanorep
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNanorepUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - NanotrasenRepresentative
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterEeCorporateJacket
+
+- type: loadout
+  id: LoadoutClothingOuterCorporateJacketHephaestusIndustriesCorporateLiaisonRestrictedGear
+  category: JobsCommandNanorep
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNanorepUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - NanotrasenRepresentative
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterHiCorporateJacket
+
+- type: loadout
+  id: LoadoutClothingOuterCorporateJacketInterdyneCorporateLiaisonRestrictedGear
+  category: JobsCommandNanorep
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNanorepUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - NanotrasenRepresentative
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterIdCorporateJacket
+
+- type: loadout
+  id: LoadoutClothingOuterCorporateJacketZengHuPharmaceuticalsCorporateLiaisonRestrictedGear
+  category: JobsCommandNanorep
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNanorepUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - NanotrasenRepresentative
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterZhCorporateJacket
+
+- type: loadout
+  id: LoadoutClothingOuterCorporateJacketIdrisIncorporatedCorporateLiaisonRestrictedGear
+  category: JobsCommandNanorep
+  cost: 1
+  guideEntry: IdrisIncorporated
+  items:
+    - ClothingOuterIiCorporateJacket
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNanorepUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - NanotrasenRepresentative
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+- type: loadout
+  id: LoadoutClothingOuterCorporateJacketOrionExpressCorporateLiaisonRestrictedGear
+  category: JobsCommandNanorep
+  cost: 1
+  guideEntry: OrionExpress
+  items:
+    - ClothingOuterOeCorporateJacket
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNanorepUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - NanotrasenRepresentative
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+
+# Nanorep Uniforms (RestrictedGear)
+- type: loadout
+  id: LoadoutClothingUniformJumpskirtNanotrasenRepresentativeRestrictedGear
+  category: JobsCommandNanorep
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNanorepUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - NanotrasenRepresentative
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpskirtNanotrasenRepresentative
+
+- type: loadout
+  id: LoadoutClothingUniformJumpsuitNanotrasenRepresentativeRestrictedGear
+  category: JobsCommandNanorep
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNanorepUniforms
+    - !type:CharacterJobRequirement
+      inverted: true
+      jobs:
+        - NanotrasenRepresentative
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingUniformJumpsuitNanotrasenRepresentative
