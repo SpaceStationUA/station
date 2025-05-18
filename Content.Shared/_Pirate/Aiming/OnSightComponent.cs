@@ -5,7 +5,7 @@ namespace Content.Shared._Pirate.Aiming;
 /// It is used to add alert and process OnAimingTargetMoveEvent
 /// </summary>
 [RegisterComponent]
-public sealed partial class OnSigthComponent : Component
+public sealed partial class OnSightComponent : Component
 {
     /// <summary>
     /// List of entities that are aiming at this entity.

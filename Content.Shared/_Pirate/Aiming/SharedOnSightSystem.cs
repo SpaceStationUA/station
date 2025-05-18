@@ -11,15 +11,15 @@ public sealed partial class SharedOnSightSystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        SubscribeLocalEvent<OnSigthComponent, MoveEvent>(OnMove);
-        SubscribeLocalEvent<OnSigthComponent, ComponentStartup>(OnStartup);
+        SubscribeLocalEvent<OnSightComponent, MoveEvent>(OnMove);
+        SubscribeLocalEvent<OnSightComponent, ComponentStartup>(OnStartup);
     }
-    private void OnStartup(EntityUid uid, OnSigthComponent component, ComponentStartup args)
+    private void OnStartup(EntityUid uid, OnSightComponent component, ComponentStartup args)
     {
         if (_proto.TryIndex<AlertPrototype>("OnSightAlert", out var alertProto))
             _alerts.ShowAlert(uid, alertProto);
     }
-    private void OnMove(EntityUid uid, OnSigthComponent component, ref MoveEvent args)
+    private void OnMove(EntityUid uid, OnSightComponent component, ref MoveEvent args)
     {
         if (_proto.TryIndex<AlertPrototype>("OnSightAlert", out var alertProto))
             _alerts.ClearAlert(uid, alertProto);
@@ -28,6 +28,6 @@ public sealed partial class SharedOnSightSystem : EntitySystem
             var ev = new OnAimingTargetMoveEvent(uid);
             RaiseLocalEvent(entity, ev);
         }
-        RemComp<OnSigthComponent>(uid);
+        RemComp<OnSightComponent>(uid);
     }
 }

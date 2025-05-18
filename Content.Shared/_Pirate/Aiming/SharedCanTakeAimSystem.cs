@@ -83,10 +83,8 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
 
             if (takeAmmoEvent.Ammo.Count > 0)
             {
-                _gun.Shoot(uid, gunComp, takeAmmoEvent.Ammo[0].Entity!.Value, gunCoords, targetCoords, out _, component.User);
-                return;
+                ammo = revolverComp.AmmoSlots[revolverComp.CurrentIndex];
             }
-            ammo = revolverComp.AmmoSlots[revolverComp.CurrentIndex];
         }
         if (TryComp<BallisticAmmoProviderComponent>(uid, out var ballisticComp))
         {
@@ -95,7 +93,11 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
             var fromCoords = _transform.ToCoordinates(_transform.GetMapCoordinates(uid));
             var takeAmmoEvent = new TakeAmmoEvent(1, new List<(EntityUid? Entity, IShootable Shootable)>(), fromCoords, component.User);
             RaiseLocalEvent(uid, takeAmmoEvent);
-
+            if (takeAmmoEvent.Ammo.Count > 0)
+            {
+                _gun.Shoot(uid, gunComp, takeAmmoEvent.Ammo[0].Entity!.Value, gunCoords, targetCoords, out _, component.User);
+                return;
+            }
             (ammo, _) = takeAmmoEvent.Ammo[0];
         }
         if (TryComp<MagazineAmmoProviderComponent>(uid, out var magazineComp))
@@ -154,14 +156,23 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
             _popup.PopupClient("Я не зможу попасти в ціль звідси...", args.User, PopupType.Medium);
             return;
         }
-        if (component.IsAiming)
-            return;
         if (!HasComp<MobMoverComponent>(args.Target))
             return;
         if (args.Target == null)
             return;
         if (!TryComp<MetaDataComponent>(args.User, out var userMetaComp) || !TryComp<MetaDataComponent>(args.Target, out var targetMetaComp))
             return;
+        if (component.IsAiming)
+        {
+            if (HasComp<OnSightComponent>(args.Target))
+            {
+                RemComp<OnSightComponent>(args.Target.Value);
+                _popup.PopupPredicted($"{userMetaComp.EntityName} stopped aiming at {targetMetaComp.EntityName}.", args.Target.Value, args.Target.Value, PopupType.Large);
+                component.IsAiming = false;
+            }
+            return;
+        }
+
         if (userMetaComp == null || targetMetaComp == null)
             return;
         if (TryComp<MobStateComponent>(args.Target, out var targetMobState) && targetMobState.CurrentState != Mobs.MobState.Alive)
@@ -175,9 +186,9 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
     }
     private void EnsureComponentOnTarget(EntityUid target, EntityUid uid) // uid is uid of gun, not user!!!
     {
-        if (!HasComp<OnSigthComponent>(target))
+        if (!HasComp<OnSightComponent>(target))
         {
-            var onSigthComp = new OnSigthComponent
+            var onSigthComp = new OnSightComponent
             {
                 AimedAtBy = new()
             };
@@ -186,7 +197,7 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
         }
         else
         {
-            var onSigthComp = _entMan.GetComponent<OnSigthComponent>(target);
+            var onSigthComp = _entMan.GetComponent<OnSightComponent>(target);
             if (!onSigthComp.AimedAtBy.Contains(uid))
                 onSigthComp.AimedAtBy.Add(uid);
         }
