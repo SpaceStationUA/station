@@ -77,7 +77,7 @@ fence-rattle-success = *брязкіт*
 
 ## Обіймають гравців
 
-hugging-success-generic = {THE($target)} тане у ваших обіймах.
+hugging-success-generic = {THE($target)} тане в обіймах.
 hugging-success-generic-others = { CAPITALIZE(THE($user)) } обіймає {THE($target)}.
 hugging-success-generic-target = { CAPITALIZE(THE($user)) } обіймає вас.
 

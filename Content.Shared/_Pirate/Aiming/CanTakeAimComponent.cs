@@ -1,0 +1,22 @@
+using Content.Shared.Damage;
+
+namespace Content.Shared._Pirate.Aiming;
+
+/// <summary>
+/// Allows the weapon entity to be used to aim at other entities.
+/// </summary>
+[RegisterComponent]
+public sealed partial class CanTakeAimComponent : Component
+{
+    public bool IsAiming = false;
+    public EntityUid? User = null;
+    public double AimStartFrame = 0;
+    /// <summary>
+    /// How long does it take for your shot to fully "charge" in seconds
+    /// </summary>
+    [DataField] public float MaxAimTime = 5f;
+    /// <summary>
+    /// Maximal damage boost you can get from aiming
+    /// </summary>
+    [DataField] public short MaxDamageMultiplier = 2;
+}

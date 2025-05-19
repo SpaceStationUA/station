@@ -9,4 +9,4 @@ id-card-console-window-job-selection-label = Посадові налаштува
 
 access-id-card-console-component-no-hands-error = У вас немає рук.
 id-card-console-privileged-id = Привілейоване ID
-id-card-console-target-id = Ідентифіковане ID
+id-card-console-target-id = Змінене ID
