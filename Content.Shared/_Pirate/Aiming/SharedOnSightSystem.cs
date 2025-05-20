@@ -33,7 +33,7 @@ public sealed partial class SharedOnSightSystem : EntitySystem
         }
         if (_proto.TryIndex<AlertPrototype>("OnSightAlert", out var alertProto))
             _alerts.ClearAlert(uid, alertProto);
-        foreach (var entity in component.AimedAtWith)
+        foreach (var entity in component.AimedAtWith.ToArray())
         {
             var ev = new OnAimingTargetMoveEvent(uid);
             RaiseLocalEvent(entity, ev);
@@ -42,7 +42,7 @@ public sealed partial class SharedOnSightSystem : EntitySystem
     }
     public void OnAimerShooting(EntityUid uid, OnSightComponent component, OnAimerShootingEvent args)
     {
-        foreach (var entity in component.AimedAtWith)
+        foreach (var entity in component.AimedAtWith.ToArray())
         {
             if (entity == args.Gun)
             {
@@ -50,7 +50,7 @@ public sealed partial class SharedOnSightSystem : EntitySystem
                 break;
             }
         }
-        foreach (var entity in component.AimedAtBy)
+        foreach (var entity in component.AimedAtBy.ToArray())
         {
             if (entity == args.User)
             {

@@ -1,15 +1,9 @@
-using System.Linq;
 using Content.Shared._Pirate.Aiming.Events;
-using Content.Shared.Alert;
-using Content.Shared.Containers.ItemSlots;
-using Content.Shared.Damage;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
-using Content.Shared.Mind.Components;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Movement.Components;
 using Content.Shared.Popups;
-using Content.Shared.Projectiles;
 using Content.Shared.Weapons.Ranged;
 using Content.Shared.Weapons.Ranged.Components;
 using Content.Shared.Weapons.Ranged.Events;
@@ -179,7 +173,8 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
             return;
 
         component.AimStartFrame = _timing.CurFrame;
-        component.AimingAt.Add(args.Target.Value);
+        if (!component.AimingAt.Contains(args.Target.Value))
+            component.AimingAt.Add(args.Target.Value);
         EnsureComponentOnTarget(args.Target.Value, uid, args.User);
         component.IsAiming = true;
         _popup.PopupPredicted($"{userMetaComp.EntityName} is aiming at {targetMetaComp.EntityName}!", args.Target.Value, args.Target.Value, PopupType.LargeCaution);
@@ -187,25 +182,12 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
     }
     private void EnsureComponentOnTarget(EntityUid target, EntityUid uid, EntityUid userUid) // uid is uid of gun, not user!!!
     {
-        if (!HasComp<OnSightComponent>(target))
-        {
-            var onSigthComp = new OnSightComponent();
-            onSigthComp.AimedAtBy.Add(userUid);
+        EnsureComp<OnSightComponent>(target, out var onSigthComp);
+        if (!onSigthComp.AimedAtWith.Contains(uid))
             onSigthComp.AimedAtWith.Add(uid);
-            AddComp(target, onSigthComp);
-        }
-        else
-        {
-            var onSigthComp = _entMan.GetComponent<OnSightComponent>(target);
-            if (!onSigthComp.AimedAtWith.Contains(uid))
-            {
-                onSigthComp.AimedAtWith.Add(uid);
-            }
-            if (!onSigthComp.AimedAtBy.Contains(userUid))
-            {
-                onSigthComp.AimedAtBy.Add(userUid);
-            }
-        }
+
+        if (!onSigthComp.AimedAtBy.Contains(userUid))
+            onSigthComp.AimedAtBy.Add(userUid);
     }
 
 }
