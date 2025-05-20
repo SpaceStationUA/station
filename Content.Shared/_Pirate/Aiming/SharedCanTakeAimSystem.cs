@@ -1,5 +1,5 @@
 using System.Linq;
-using Content.Shared._Pirate.Actions.Events;
+using Content.Shared._Pirate.Aiming.Events;
 using Content.Shared.Alert;
 using Content.Shared.Containers.ItemSlots;
 using Content.Shared.Damage;
@@ -34,14 +34,20 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
     }
     private void OnAmmoShot(EntityUid uid, CanTakeAimComponent component, AmmoShotEvent args)
     {
-        // TODO: Add damage multiplying
-        foreach (var entity in component.AimingAt)
+        if (component.User != null)
         {
-            if (HasComp<OnSightComponent>(entity))
+            var ev = new OnAimerShootingEvent(uid, component.User.Value);
+            foreach (var entity in component.AimingAt)
             {
-                RemComp<OnSightComponent>(entity);
+                if (HasComp<OnSightComponent>(entity))
+                {
+                    RaiseLocalEvent(entity, ev);
+                }
             }
+            component.IsAiming = false;
+            component.AimingAt.Clear();
         }
+        // TODO: Add damage multiplying
         // foreach (var entity in args.FiredProjectiles)
         // {
         // if (TryComp<ProjectileComponent>(entity, out var projectile))

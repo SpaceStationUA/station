@@ -1,4 +1,4 @@
-using Content.Shared._Pirate.Actions.Events;
+using Content.Shared._Pirate.Aiming.Events;
 using Content.Shared.Alert;
 using Content.Shared.Movement.Pulling.Components;
 using Robust.Shared.Prototypes;
@@ -14,6 +14,7 @@ public sealed partial class SharedOnSightSystem : EntitySystem
         base.Initialize();
         SubscribeLocalEvent<OnSightComponent, MoveEvent>(OnMove);
         SubscribeLocalEvent<OnSightComponent, ComponentStartup>(OnStartup);
+        SubscribeLocalEvent<OnSightComponent, OnAimerShootingEvent>(OnAimerShooting);
     }
     private void OnStartup(EntityUid uid, OnSightComponent component, ComponentStartup args)
     {
@@ -22,18 +23,12 @@ public sealed partial class SharedOnSightSystem : EntitySystem
     }
     private void OnMove(EntityUid uid, OnSightComponent component, ref MoveEvent args)
     {
-        if (TryComp<PullableComponent>(uid, out var pullComp))
+        if (TryComp<PullableComponent>(uid, out var pullComp) && pullComp.BeingPulled && pullComp.Puller != null)
         {
-            if (pullComp.BeingPulled && pullComp.Puller != null)
+            foreach (var entity in component.AimedAtBy)
             {
-                foreach (var entity in component.AimedAtBy)
-                {
-                    if (entity == pullComp.Puller.Value)
-                    {
-                        return;
-                    }
-                }
-
+                if (entity == pullComp.Puller.Value)
+                    return;
             }
         }
         if (_proto.TryIndex<AlertPrototype>("OnSightAlert", out var alertProto))
@@ -45,5 +40,29 @@ public sealed partial class SharedOnSightSystem : EntitySystem
         }
         RemComp<OnSightComponent>(uid);
     }
-
+    public void OnAimerShooting(EntityUid uid, OnSightComponent component, OnAimerShootingEvent args)
+    {
+        foreach (var entity in component.AimedAtWith)
+        {
+            if (entity == args.Gun)
+            {
+                component.AimedAtWith.Remove(entity);
+                break;
+            }
+        }
+        foreach (var entity in component.AimedAtBy)
+        {
+            if (entity == args.User)
+            {
+                component.AimedAtBy.Remove(entity);
+                break;
+            }
+        }
+        if (component.AimedAtWith.Count == 0 || component.AimedAtBy.Count == 0)
+        {
+            if (_proto.TryIndex<AlertPrototype>("OnSightAlert", out var alertProto))
+                _alerts.ClearAlert(uid, alertProto);
+            RemComp<OnSightComponent>(uid);
+        }
+    }
 }
