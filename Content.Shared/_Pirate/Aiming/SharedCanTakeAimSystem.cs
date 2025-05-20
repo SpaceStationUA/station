@@ -40,6 +40,7 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
             }
             component.IsAiming = false;
             component.AimingAt.Clear();
+            Dirty(uid, component);
         }
         // TODO: Add damage multiplying
         // foreach (var entity in args.FiredProjectiles)
