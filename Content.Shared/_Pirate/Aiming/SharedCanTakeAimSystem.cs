@@ -35,6 +35,13 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
     private void OnAmmoShot(EntityUid uid, CanTakeAimComponent component, AmmoShotEvent args)
     {
         // TODO: Add damage multiplying
+        foreach (var entity in component.AimingAt)
+        {
+            if (HasComp<OnSightComponent>(entity))
+            {
+                RemComp<OnSightComponent>(entity);
+            }
+        }
         // foreach (var entity in args.FiredProjectiles)
         // {
         // if (TryComp<ProjectileComponent>(entity, out var projectile))
@@ -122,12 +129,6 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
                 RaiseLocalEvent(uid, activateEvent);
             }
         }
-        else if (revolverComp != null)
-        {
-            // For revolvers, use the UseInHandEvent to trigger cycling
-            var useEvent = new UseInHandEvent(component.User.Value);
-            RaiseLocalEvent(uid, useEvent);
-        }
         else if (chamberComp != null)
         {
             if (chamberComp.AutoCycle)
@@ -172,27 +173,32 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
             return;
 
         component.AimStartFrame = _timing.CurFrame;
-        EnsureComponentOnTarget(args.Target.Value, uid);
+        component.AimingAt.Add(args.Target.Value);
+        EnsureComponentOnTarget(args.Target.Value, uid, args.User);
         component.IsAiming = true;
         _popup.PopupPredicted($"{userMetaComp.EntityName} is aiming at {targetMetaComp.EntityName}!", args.Target.Value, args.Target.Value, PopupType.LargeCaution);
 
     }
-    private void EnsureComponentOnTarget(EntityUid target, EntityUid uid) // uid is uid of gun, not user!!!
+    private void EnsureComponentOnTarget(EntityUid target, EntityUid uid, EntityUid userUid) // uid is uid of gun, not user!!!
     {
         if (!HasComp<OnSightComponent>(target))
         {
-            var onSigthComp = new OnSightComponent
-            {
-                AimedAtBy = new()
-            };
-            onSigthComp.AimedAtBy.Add(uid);
+            var onSigthComp = new OnSightComponent();
+            onSigthComp.AimedAtBy.Add(userUid);
+            onSigthComp.AimedAtWith.Add(uid);
             AddComp(target, onSigthComp);
         }
         else
         {
             var onSigthComp = _entMan.GetComponent<OnSightComponent>(target);
-            if (!onSigthComp.AimedAtBy.Contains(uid))
-                onSigthComp.AimedAtBy.Add(uid);
+            if (!onSigthComp.AimedAtWith.Contains(uid))
+            {
+                onSigthComp.AimedAtWith.Add(uid);
+            }
+            if (!onSigthComp.AimedAtBy.Contains(userUid))
+            {
+                onSigthComp.AimedAtBy.Add(userUid);
+            }
         }
     }
 
