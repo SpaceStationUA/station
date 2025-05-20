@@ -189,6 +189,7 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
 
         if (!onSigthComp.AimedAtBy.Contains(userUid))
             onSigthComp.AimedAtBy.Add(userUid);
+        Dirty(target, onSigthComp);
     }
 
 }
