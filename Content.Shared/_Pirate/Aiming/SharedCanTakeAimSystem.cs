@@ -35,7 +35,8 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
             {
                 if (HasComp<OnSightComponent>(entity))
                 {
-                    RaiseLocalEvent(entity, ev);
+                    var uidCopy = entity;
+                    RaiseLocalEvent(uidCopy, ev);
                 }
             }
             component.IsAiming = false;
