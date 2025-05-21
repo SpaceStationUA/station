@@ -31,12 +31,11 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
         if (component.User != null)
         {
             var ev = new OnAimerShootingEvent(uid, component.User.Value);
-            foreach (var entity in component.AimingAt)
+            foreach (var entity in component.AimingAt.ToArray())
             {
                 if (HasComp<OnSightComponent>(entity))
                 {
-                    var uidCopy = entity;
-                    RaiseLocalEvent(uidCopy, ev);
+                    RaiseLocalEvent(entity, ev);
                 }
             }
             component.IsAiming = false;
