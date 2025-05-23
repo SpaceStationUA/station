@@ -49,6 +49,12 @@
 - type: markingPoints
   id: MobShadowkinMarkingLimits
   points:
+    Head:
+      points: 2
+      required: false
+    Face:
+      points: 3
+      required: false
     Tail:
       points: 1
       required: true

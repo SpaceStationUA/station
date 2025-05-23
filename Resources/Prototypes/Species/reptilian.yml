@@ -21,7 +21,7 @@
 - type: speciesBaseSprites
   id: MobReptilianSprites
   sprites:
-    Head: MobReptilianHead
+    Head: MobIPCHead # теорія змови вийшла на новий рівень. Ящеро-Люди минулий вік, як вам Ящеро-Роботи???
     Face: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
     Underwear: MobHumanoidAnyMarking
@@ -44,11 +44,18 @@
   id: MobReptilianMarkingLimits
   onlyWhitelisted: true
   points:
+    Head:
+      points: 1
+      required: true
+      defaultMarkings: [ MarkingLizardBaseHead ]
     Hair:
       points: 0
       required: false
     FacialHair:
       points: 0
+      required: false
+    Face:
+      points: 3
       required: false
     Tail:
       points: 1
@@ -97,6 +104,38 @@
     LeftHand:
       points: 6
       required: false
+    Wings:
+      points: 1
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobReptilianMarkingFollowSkin
+  markingsMatchSkin: true
+  layerAlpha: 0.5
+
+- type: marking
+  id: MarkingLizardBaseHead
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: Mobs/Customization/rept_head.rsi
+    state: head_base
+  - sprite: Mobs/Customization/rept_head.rsi
+    state: head_base_1
+
+- type: marking
+  id: MarkingLizardFlattenedHead
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: Mobs/Customization/rept_head.rsi
+    state: head_flattened
+  - sprite: Mobs/Customization/rept_head.rsi
+    state: head_flattened_2
+  - sprite: Mobs/Customization/rept_head.rsi
+    state: head_flattened_3
 
 - type: humanoidBaseSprite
   id: MobReptilianHead

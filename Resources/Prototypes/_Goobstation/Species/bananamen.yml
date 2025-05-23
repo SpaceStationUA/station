@@ -32,6 +32,12 @@
 - type: markingPoints
   id: MobBananMenMarkingLimits
   points:
+    Head:
+      points: 2
+      required: false
+    Face:
+      points: 3
+      required: false
     Snout:
       points: 1
       required: false
