@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSuicideAction
   id: ActionActivateBluespaceLifeline
-  name: Activate Bluespace Lifeline
-  description: Activates your bluespace lifeline implant, teleporting you far-far away from this station. You won't be able to come back.
+  name: "Активуйте Bluespace Lifeline"
+  description: "Активує ваш імплантат рятувального круга, телепортуючи вас дуже далеко від цієї станції. Ти не зможеш повернутися."
   components:
   - type: InstantAction
     checkCanInteract: false
@@ -16,8 +16,8 @@
 
 - type: entity
   id: ActionHorn
-  name: Honk!
-  description: Beep the horn at whoever you will run over.
+  name: "Посигналь!"
+  description: "Посигнальте тому, кого збираєтесь переїхати."
   components:
   - type: InstantAction
     useDelay: 1
@@ -26,8 +26,8 @@
 
 - type: entity
   id: ActionSiren
-  name: Siren
-  description: Alert your victim to your presence.
+  name: "Сирена"
+  description: "Сповістіть свою жертву про свою присутність."
   components:
   - type: InstantAction
     useDelay: 1

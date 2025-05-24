@@ -1,9 +1,9 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ZavodInfo]
   id: ClothingOuterJacketZavDetective
-  name: detective jacket
+  name: "куртка детектива"
   suffix: Zavodskoi
-  description: A sturdy jacket worn by detectives contracted from Zavodskoi Interstellar
+  description: "Міцна куртка, яку носять детективи, що працюють за контрактом з Zavodskoi Interstellar"
   components:
     - type: Sprite
       sprite: _EE/Clothing/Zavodskoi/OuterClothing/zav_jacket_detective.rsi
@@ -22,9 +22,9 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ZavodInfo]
   id: ClothingOuterJacketZavSecurity
-  name: security shell jacket
+  name: "куртка-оболонка служби безпеки"
   suffix: Zavodskoi
-  description: A shell jacket worn by security staff contracted from Zavodskoi Interstellar
+  description: "Куртка-оболонка, яку носить персонал служби безпеки, що працює за контрактом з Zavodskoi Interstellar"
   components:
     - type: Sprite
       sprite: _EE/Clothing/Zavodskoi/OuterClothing/zav_jacket_security.rsi
@@ -43,9 +43,9 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ZavodInfo]
   id: ClothingOuterJacketZavSecurityAlt
-  name: security shell jacket
+  name: "куртка-оболонка служби безпеки"
   suffix: Zavodskoi, alt
-  description: A shell jacket worn by security staff contracted from Zavodskoi Interstellar
+  description: "Куртка-оболонка, яку носить персонал служби безпеки, що працює за контрактом з Zavodskoi Interstellar"
   components:
     - type: Sprite
       sprite: _EE/Clothing/Zavodskoi/OuterClothing/zav_jacket_security_alt.rsi
