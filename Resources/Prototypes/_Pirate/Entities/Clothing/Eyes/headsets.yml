@@ -1,0 +1,12 @@
+- type: entity
+  parent: ClothingHeadsetAltSyndicate
+  id: ClothingHeadsetInterdyne
+  name: interdyne headset
+  description: Гарнітура Інтердайну.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyInterdynePrivat
+      - EncryptionKeySyndie
+      - EncryptionKeyCommon
