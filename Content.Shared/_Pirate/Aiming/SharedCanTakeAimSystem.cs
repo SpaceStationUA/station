@@ -1,15 +1,9 @@
-using System.Linq;
-using Content.Shared._Pirate.Actions.Events;
-using Content.Shared.Alert;
-using Content.Shared.Containers.ItemSlots;
-using Content.Shared.Damage;
+using Content.Shared._Pirate.Aiming.Events;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
-using Content.Shared.Mind.Components;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Movement.Components;
 using Content.Shared.Popups;
-using Content.Shared.Projectiles;
 using Content.Shared.Weapons.Ranged;
 using Content.Shared.Weapons.Ranged.Components;
 using Content.Shared.Weapons.Ranged.Events;
@@ -34,6 +28,20 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
     }
     private void OnAmmoShot(EntityUid uid, CanTakeAimComponent component, AmmoShotEvent args)
     {
+        if (component.User != null)
+        {
+            var ev = new OnAimerShootingEvent(uid, component.User.Value);
+            foreach (var entity in component.AimingAt.ToArray())
+            {
+                if (HasComp<OnSightComponent>(entity))
+                {
+                    RaiseLocalEvent(entity, ev);
+                }
+            }
+            component.IsAiming = false;
+            component.AimingAt.Clear();
+            Dirty(uid, component);
+        }
         // TODO: Add damage multiplying
         // foreach (var entity in args.FiredProjectiles)
         // {
@@ -122,12 +130,6 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
                 RaiseLocalEvent(uid, activateEvent);
             }
         }
-        else if (revolverComp != null)
-        {
-            // For revolvers, use the UseInHandEvent to trigger cycling
-            var useEvent = new UseInHandEvent(component.User.Value);
-            RaiseLocalEvent(uid, useEvent);
-        }
         else if (chamberComp != null)
         {
             if (chamberComp.AutoCycle)
@@ -172,28 +174,22 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
             return;
 
         component.AimStartFrame = _timing.CurFrame;
-        EnsureComponentOnTarget(args.Target.Value, uid);
+        if (!component.AimingAt.Contains(args.Target.Value))
+            component.AimingAt.Add(args.Target.Value);
+        EnsureComponentOnTarget(args.Target.Value, uid, args.User);
         component.IsAiming = true;
         _popup.PopupPredicted($"{userMetaComp.EntityName} is aiming at {targetMetaComp.EntityName}!", args.Target.Value, args.Target.Value, PopupType.LargeCaution);
 
     }
-    private void EnsureComponentOnTarget(EntityUid target, EntityUid uid) // uid is uid of gun, not user!!!
+    private void EnsureComponentOnTarget(EntityUid target, EntityUid uid, EntityUid userUid) // uid is uid of gun, not user!!!
     {
-        if (!HasComp<OnSightComponent>(target))
-        {
-            var onSigthComp = new OnSightComponent
-            {
-                AimedAtBy = new()
-            };
-            onSigthComp.AimedAtBy.Add(uid);
-            AddComp(target, onSigthComp);
-        }
-        else
-        {
-            var onSigthComp = _entMan.GetComponent<OnSightComponent>(target);
-            if (!onSigthComp.AimedAtBy.Contains(uid))
-                onSigthComp.AimedAtBy.Add(uid);
-        }
+        EnsureComp<OnSightComponent>(target, out var onSigthComp);
+        if (!onSigthComp.AimedAtWith.Contains(uid))
+            onSigthComp.AimedAtWith.Add(uid);
+
+        if (!onSigthComp.AimedAtBy.Contains(userUid))
+            onSigthComp.AimedAtBy.Add(userUid);
+        Dirty(target, onSigthComp);
     }
 
 }

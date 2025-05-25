@@ -8,7 +8,12 @@ namespace Content.Shared._Pirate.Aiming;
 public sealed partial class OnSightComponent : Component
 {
     /// <summary>
-    /// List of entities that are aiming at this entity.
+    /// List of guns uids that are aiming at this entity.
+    /// </summary>
+    [DataField] public List<EntityUid> AimedAtWith = new();
+    /// <summary>
+    /// List of actual players that are aiming at this entity.
     /// </summary>
     [DataField] public List<EntityUid> AimedAtBy = new();
+
 }

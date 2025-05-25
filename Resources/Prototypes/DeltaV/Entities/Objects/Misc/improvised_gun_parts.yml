@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ModularBreech
-  name: modular breech
-  description: Loads the projectile and propellent into the chamber of the gun. Used in the creation of flintlock muskets.
+  name: "модульна казенна частина"
+  description: "Заряджає снаряд і порох у патронник зброї. Використовувався у створенні кремінних мушкетів."
   components:
     - type: Item
       size: Small
@@ -20,8 +20,8 @@
 - type: entity
   parent: BaseItem
   id: ModularTrigger
-  name: modular trigger
-  description: Makes gun go pew when activated. Used in the creation of guns.
+  name: "модульний тригер"
+  description: "Змушує зброю вистрілити при активації. Використовується при створенні зброї."
   components:
     - type: Item
       size: Small
@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseItem
   id: Bayonet
-  name: bayonet
-  description: Often placed on guns to go stabby stabby.
+  name: "багнет"
+  description: "Часто ставлять на рушниці для нанесення колючо-ріжучих ударів."
   components:
     - type: Item
       size: Small

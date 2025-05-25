@@ -57,7 +57,7 @@
 # Assembly
 - type: entity
   id: AirlockUraniumAssembly
-  name: airlock assembly
+  name: "збірка шлюзу"
   suffix: Uranium
   parent: AirlockAssembly
   components:
@@ -81,13 +81,13 @@
 
 # Recipes
 - type: construction
-  name: uranium airlock
+  name: "урановий шлюз"
   id: AirlockUranium
   graph: AirlockUranium
   startNode: start
   targetNode: airlock
   category: construction-category-structures
-  description: It opens, it closes, and maybe crushes you.
+  description: "Він відкривається, закривається і, можливо, розчавить вас."
   icon:
     sprite: _Goobstation/Wizard/Structures/Airlocks/Standard/uranium.rsi
     state: assembly
@@ -98,13 +98,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: glass uranium airlock
+  name: "скляний урановий шлюз"
   id: AirlockUraniumGlass
   graph: AirlockUranium
   startNode: start
   targetNode: glassAirlock
   category: construction-category-structures
-  description: It opens, it closes, and maybe crushes you.
+  description: "Він відкривається, закривається і, можливо, розчавить вас."
   icon:
     sprite: _Goobstation/Wizard/Structures/Airlocks/Glass/uranium.rsi
     state: assembly

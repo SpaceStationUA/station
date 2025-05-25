@@ -1,8 +1,8 @@
 - type: entity
-  name: spear
+  name: "грубий спис"
   parent: BaseItem
   id: Spear
-  description: Definition of a Classic. Keeping murder affordable since 200,000 BCE.
+  description: "Грубий спис для того, щоб продірявити когось."
   components:
   - type: EmbeddableProjectile
     offset: 0.15,0.15
@@ -43,7 +43,7 @@
         Piercing: 7
         Slash: 1
     heavyRateModifier: 1.3
-    heavyRangeModifier: 1.25
+    heavyRangeModifier: 1.35
     heavyDamageBaseModifier: 1.0
     heavyStaminaCost: 2.5
     maxTargets: 3
@@ -120,10 +120,10 @@
     fillBaseName: spear
 
 - type: entity
-  name: reinforced spear
+  name: "грубий армований спис"
   parent: Spear
   id: SpearReinforced
-  description: A spear with a reinforced glass shard as a tip.
+  description: "Грубий армований спис для тих випадків, коли потрібно наробити в комусь дірок."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/reinforced_spear.rsi
@@ -141,10 +141,10 @@
     graph: SpearReinforced
 
 - type: entity
-  name: plasma spear
+  name: "плазмовий спис"
   parent: Spear
   id: SpearPlasma
-  description: A spear with a plasma shard as a tip.
+  description: "Грубий плазмовий спис для тих випадків, коли потрібно наробити в комусь дірок."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/plasma_spear.rsi
@@ -162,10 +162,10 @@
     graph: SpearPlasma
 
 - type: entity
-  name: uranium spear
+  name: "урановий спис"
   parent: Spear
   id: SpearUranium
-  description: A spear with a uranium shard as a tip.
+  description: "Спис з необробленого урану для тих випадків, коли потрібно наробити в комусь дірок."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/uranium_spear.rsi
@@ -184,10 +184,10 @@
     graph: SpearUranium
 
 - type: entity
-  name: bone spear
+  name: "кістяний спис"
   parent: Spear
   id: SpearBone
-  description: A spear made of bones.
+  description: "Кістки та шовк у поєднанні."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/bone_spear.rsi
@@ -195,10 +195,10 @@
     graph: SpearBone
 
 - type: entity
-  name: salvage harpoon
+  name: "рятувальний гарпун"
   parent: BaseItem
   id: SalvageHarpoon
-  description: A spear made of refined steel produced for salvage and hunting purposes. Hunters fancy it when it comes to hunting various carp species.
+  description: "Спис, виготовлений з рафінованої сталі, призначений для рятувальних та мисливських цілей. Мисливці полюбляють його, коли йдеться про полювання на різні види коропів."
   components:
   - type: EmbeddableProjectile
     offset: 0.15,0.15
@@ -239,7 +239,7 @@
         Piercing: 10
         Slash: 2
     heavyRateModifier: 1.3
-    heavyRangeModifier: 1.25
+    heavyRangeModifier: 1.35
     heavyDamageBaseModifier: 1.0
     heavyStaminaCost: 2.5
     maxTargets: 3
