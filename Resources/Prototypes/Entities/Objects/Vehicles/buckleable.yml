@@ -2,7 +2,7 @@
   parent: BaseVehicle
   id: BaseVehicleRideable
   abstract: true
-  name: Vehicle
+  name: "Транспортний засіб"
   components:
   - type: Strap
     buckleOffset: "0.10, 0.36"
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseVehicleRideable
   id: VehicleSkeletonMotorcycle
-  name: skeleton motorcycle
-  description: Bad to the Bone. # Frontier, using VehicleSkeletonMotorcycleNF instead
+  name: "скелетний мотоцикл"
+  description: "Поганий до мозку кісток." # Frontier, using VehicleSkeletonMotorcycleNF instead
   components:
     - type: Vehicle
     - type: Sprite
@@ -84,8 +84,8 @@
 - type: entity
   id: VehicleUnicycle
   parent: [BaseVehicleRideable, BaseFoldable, BaseItem]
-  name: unicycle
-  description: It only has one wheel!
+  name: "одноколісний велосипед"
+  description: "У нього лише одне колесо!"
   components:
   - type: Vehicle
     hornSound:

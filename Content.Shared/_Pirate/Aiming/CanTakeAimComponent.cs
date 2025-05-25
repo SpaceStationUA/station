@@ -11,6 +11,7 @@ public sealed partial class CanTakeAimComponent : Component
     public bool IsAiming = false;
     public EntityUid? User = null;
     public double AimStartFrame = 0;
+    public List<EntityUid> AimingAt = new();
     /// <summary>
     /// How long does it take for your shot to fully "charge" in seconds
     /// </summary>

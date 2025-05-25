@@ -1,6 +1,6 @@
 # Random graffiti
 - type: entity
-  name: holograffiti
+  name: "голографіті"
   id: SpawnerHoloGraffitiRandom
   parent: MarkerBase
   suffix: Random
@@ -66,8 +66,8 @@
 - type: entity
   id: HoloGraffiti
   #parent: BaseSign
-  name: holograffiti
-  description: A graffiti composed of hard light. Can be easily removed by force.
+  name: "голографіті"
+  description: "Графіті, що складається з жорсткого світла. Легко видаляється силою."
   abstract: true
   placement:
     mode: SnapgridCenter

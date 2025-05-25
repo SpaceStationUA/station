@@ -646,7 +646,7 @@ namespace Content.Server.GameTicking
             }
         }
 
-        public TimeSpan RoundDuration()
+        public new TimeSpan RoundDuration()
         {
             return _gameTiming.CurTime.Subtract(RoundStartTimeSpan);
         }

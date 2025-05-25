@@ -1,14 +1,13 @@
 using Content.Server.Body.Components;
 using Content.Shared.Nutrition.Components;
-using Content.Server.Nutrition.EntitySystems;
 using Content.Shared.FixedPoint;
 using Robust.Shared.Audio;
 using Robust.Shared.Prototypes;
 
 namespace Content.Server.Nutrition.Components;
 
-[RegisterComponent, Access(typeof(FoodSystem), typeof(FoodSequenceSystem))]
-public sealed partial class FoodComponent : SharedFoodComponent // Goobstation - Changeling absorb biomass ability, now inherits from shared
+[RegisterComponent]
+public sealed partial class FoodComponent : Component
 {
     [DataField]
     public string Solution = "food";
@@ -34,7 +33,6 @@ public sealed partial class FoodComponent : SharedFoodComponent // Goobstation -
     [DataField]
     public bool UtensilRequired;
 
-    /* Goobstation - Changeling absorb biomass ability, has been moved to shared
     /// <summary>
     ///     If this is set to true, food can only be eaten if you have a stomach with a
     ///     <see cref="StomachComponent.SpecialDigestible"/> that includes this entity in its whitelist,
@@ -43,7 +41,6 @@ public sealed partial class FoodComponent : SharedFoodComponent // Goobstation -
     /// </summary>
     [DataField]
     public bool RequiresSpecialDigestion;
-    */
 
     /// <summary>
     ///     Stomachs required to digest this entity.
@@ -82,4 +79,7 @@ public sealed partial class FoodComponent : SharedFoodComponent // Goobstation -
     /// </summary>
     [DataField, ViewVariables(VVAccess.ReadWrite)]
     public bool RequireDead = true;
+
+    [DataField]
+    public HashSet<string> MoodletsOnEat = new();
 }
