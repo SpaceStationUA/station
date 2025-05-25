@@ -99,6 +99,11 @@
   id: DoNotResuscitate
   category: Physical
   points: 10
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
   functions:
     - !type:TraitAddComponent
       components:
