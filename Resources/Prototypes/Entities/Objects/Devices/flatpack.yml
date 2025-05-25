@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: BaseFlatpack
-  name: base flatpack
-  description: A flatpack used for constructing something.
+  name: "базовий флетпак"
+  description: "Плаский пакунок, який використовується для побудови чогось."
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -38,8 +38,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SolarAssemblyFlatpack
-  name: solar assembly flatpack
-  description: A flatpack used for constructing a solar assembly.
+  name: "флетпак сонячної панелі"
+  description: "Флетпак, що використовується для побудови сонячної батареї."
   components:
   - type: Flatpack
     entity: SolarAssembly
@@ -52,8 +52,8 @@
 - type: entity
   parent: BaseFlatpack
   id: AmePartFlatpack
-  name: AME flatpack
-  description: A flatpack used for constructing an antimatter engine reactor.
+  name: "флетпак ДАМу"
+  description: "Флетпак, що використовується для побудови реактора двигуна антиматерії."
   components:
   - type: Sprite
     layers:
@@ -70,8 +70,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TegCenterPartFlatpack
-  name: TEG Center flatpack
-  description: A flatpack used for constructing the central core of a TEG.
+  name: "флетпак Центра ТЕГ"
+  description: "Флетпак, що використовується для будівництва центрального ядра ТЕГ."
   components:
   - type: Flatpack
     entity: TegCenter
@@ -88,8 +88,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TegCirculatorPartFlatpack
-  name: TEG Circulator flatpack
-  description: A flatpack used for constructing the circulator of a TEG.
+  name: "флетпак Циркулятора ТЕГ"
+  description: "Флетпак, що використовується для будівництва циркулятора ТЕГ."
   components:
   - type: Flatpack
     entity: TegCirculator
@@ -106,8 +106,8 @@
 - type: entity
   parent: BaseFlatpack
   id: SingularityGeneratorFlatpack
-  name: singularity generator flatpack
-  description: A flatpack used for constructing a singularity generator.
+  name: "флетпак генератора сингулярностей"
+  description: "Флетпак, що використовується для побудови генератора сингулярностей."
   components:
   - type: Flatpack
     entity: SingularityGenerator
@@ -120,8 +120,8 @@
 - type: entity
   parent: BaseFlatpack
   id: RadiationCollectorFlatpack
-  name: radiation collector flatpack
-  description: A flatpack used for constructing a radiation collector.
+  name: "флетпак радіаційного колектора"
+  description: "Флетпак, що використовується для побудови радіаційного колектора."
   components:
   - type: Flatpack
     entity: RadiationCollectorNoTank
@@ -134,8 +134,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ContainmentFieldGeneratorFlatpack
-  name: containment field generator flatpack
-  description: A flatpack used for constructing a containment field generator.
+  name: "флетпак генератора захисного поля"
+  description: "Флетпак, що використовується для побудови генератора захисного поля."
   components:
   - type: Flatpack
     entity: ContainmentFieldGenerator
@@ -148,8 +148,8 @@
 - type: entity
   parent: BaseFlatpack
   id: EmitterFlatpack
-  name: emitter flatpack
-  description: A flatpack used for constructing an emitter.
+  name: "флетпак випромінювача"
+  description: "Флетпак, що використовується для побудови випромінювача."
   components:
   - type: Flatpack
     entity: Emitter
@@ -162,8 +162,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaGeneratorFlatpack
-  name: tesla generator flatpack
-  description: A flatpack used for constructing a tesla generator.
+  name: "флетпак генератора тесли"
+  description: "Флетпак, що використовується для побудови тесла-генератора."
   components:
   - type: Flatpack
     entity: TeslaGenerator
@@ -176,8 +176,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaCoilFlatpack
-  name: tesla coil flatpack
-  description: A flatpack used for constructing a tesla coil.
+  name: "флетпак котушки тесли"
+  description: "Флетпак, що використовується для побудови котушки Тесли."
   components:
   - type: Flatpack
     entity: TeslaCoil
@@ -190,8 +190,8 @@
 - type: entity
   parent: BaseFlatpack
   id: TeslaGroundingRodFlatpack
-  name: grounding rod flatpack
-  description: A flatpack used for constructing a grounding rod.
+  name: "флетпак заземлювача тесли"
+  description: "Флетпак, що використовується для виготовлення заземлювача."
   components:
   - type: Flatpack
     entity: TeslaGroundingRod
@@ -204,8 +204,8 @@
 - type: entity
   parent: BaseFlatpack
   id: GyroscopeFlatpack
-  name: gyroscope flatpack
-  description: A flatpack used for constructing a gyroscope.
+  name: "флетпак гіроскопа"
+  description: "Флетпак, що використовується для побудови гіроскопа."
   components:
   - type: Flatpack
     entity: Gyroscope
@@ -219,8 +219,8 @@
 - type: entity
   parent: BaseFlatpack
   id: ThrusterFlatpack
-  name: thruster flatpack
-  description: A flatpack used for constructing a thruster.
+  name: "флетпак рушійного двигуна"
+  description: "Флетпак, що використовується для побудови рушія."
   components:
   - type: Flatpack
     entity: Thruster
