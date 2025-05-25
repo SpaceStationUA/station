@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponHeavyMachineGun
+  name: "Базова зброя - великокаліберний кулемет"
   parent: BaseItem
   id: BaseWeaponHeavyMachineGun
-  description: Spray and pray
+  description: "Розпилюйте і моліться"
   abstract: true
   components:
   - type: Sprite
@@ -45,10 +45,10 @@
   # PIRATE END
 
 - type: entity
-  name: minigun
+  name: "мініган"
   id: WeaponMinigun
   parent: BaseWeaponHeavyMachineGun
-  description: Vzzzzzt! Rahrahrahrah! Vrrrrr! Uses .10 rifle ammo.
+  description: "Взззззз! Rahrahrahrahrah! Врррррр! Використовує гвинтівкові патрони 10-го калібру."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/HMGs/minigun.rsi

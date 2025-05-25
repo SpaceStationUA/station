@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBeltSecurity
   id: ClothingBeltCorporateJudo
-  name: Corporate Judo Belt
-  description: Teaches the wearer NT Corporate Judo.
+  name: "Пояс корпоративного дзюдо"
+  description: "Навчає власника корпоративному дзюдо NT."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Belt/judobelt.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingBeltCorporateJudo
   id: ClothingBeltCorporateJudoFilled
-  name: Corporate Judo Belt
-  description: Teaches the wearer NT Corporate Judo.
+  name: "Пояс корпоративного дзюдо"
+  description: "Навчає власника корпоративному дзюдо NT."
   components:
   - type: StorageFill
     contents:
@@ -48,8 +48,8 @@
 - type: entity
   parent: ClothingBeltCorporateJudoFilled
   id: ClothingBeltCorporateJudoHoS
-  name: Corporate Judo Belt
-  description: Teaches the wearer NT Corporate Judo.
+  name: "Пояс корпоративного дзюдо"
+  description: "Навчає власника корпоративному дзюдо NT."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Belt/judobelthos.rsi

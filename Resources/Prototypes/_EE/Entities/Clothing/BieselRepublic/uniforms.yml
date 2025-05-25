@@ -1,9 +1,9 @@
 - type: entity
   parent: [ClothingUniformBase, TCFLInfo]
   id: ClothingUniformJumpsuitTCAFArmsman
-  name: TCAF Armsman uniform
+  name: "Уніформа піхотинця TCAF"
   suffix: TCFL
-  description: A uniform worn by current and former infantry in the Tau-Ceti Armed Forces
+  description: "Уніформа, яку носять діючі та колишні піхотинці Збройних Сил Тау-Кіта"
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Uniforms/TCAF_armsman.rsi
@@ -13,9 +13,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, TCFLInfo]
   id: ClothingUniformJumpsuitTCFLLegate
-  name: TCFL Legate uniform
+  name: "Уніформа легата TCFL"
   suffix: TCFL
-  description: A uniform worn by commissioned officers in the Tau-Ceti Foreign Legion
+  description: "Уніформа, яку носять офіцери Іноземного легіону Тау-Кіта"
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Uniforms/TCFL_legate.rsi
@@ -25,9 +25,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, TCFLInfo]
   id: ClothingUniformJumpsuitTCFLPilot
-  name: TCFL pilot uniform
+  name: "Уніформа пілота TCFL"
   suffix: TCFL
-  description: A uniform worn by current and former pilots in the Tau-Ceti Foreign Legion
+  description: "Уніформа, яку носять діючі та колишні пілоти Іноземного легіону Тау-Кіта"
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Uniforms/TCFL_pilot.rsi
@@ -37,9 +37,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, TCFLInfo]
   id: ClothingUniformJumpsuitTCFLSentinel
-  name: TCFL Sentinel uniform
+  name: "Уніформа вартового TCFL"
   suffix: TCFL
-  description: A uniform worn by the non-commissioned officers of the Tau-Ceti Foreign Legion
+  description: "Уніформа, яку носять сержанти та старшини Іноземного легіону Тау-Кіта"
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Uniforms/TCFL_sentinel.rsi
@@ -49,9 +49,9 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, TCFLInfo]
   id: ClothingUniformJumpsuitTCFLVolunteer
-  name: TCFL volunteer uniform
+  name: "Уніформа добровольця TCFL"
   suffix: TCFL
-  description: A uniform worn by the enlisted members of the Tau-Ceti Foreign Legion. As an all-volunteer service that accepts any, regardless of race, species, or creed, every member of the TCFL starts out at this level.
+  description: "Уніформа, яку носять рядові члени Іноземного легіону Тау-Кіта. Оскільки це повністю добровольча служба, яка приймає будь-кого, незалежно від раси, виду чи віросповідання, кожен член TCFL починає з цього рівня."
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Uniforms/TCFL_volunteer.rsi

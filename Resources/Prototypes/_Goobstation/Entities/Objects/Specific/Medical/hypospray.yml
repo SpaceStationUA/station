@@ -1,0 +1,264 @@
+# Cartridge Autoinjectors
+
+- type: entity
+  parent: BaseItem
+  id: BaseCartridgeAutoinjector
+  abstract: true
+  components:
+  - type: Item
+    sprite: _Goobstation/Objects/Specific/Medical/autoinjector.rsi
+  - type: Sprite
+    sprite: _Goobstation/Objects/Specific/Medical/autoinjector.rsi
+  - type: SolutionContainerVisuals
+    maxFillLevels: 1
+    fillBaseName: cartridge
+  - type: Appearance
+  - type: SolutionContainerManager
+    solutions:
+      hypospray:
+        maxVol: 10
+  - type: ExaminableSolution
+    solution: hypospray
+  - type: Hypospray
+    solutionName: hypospray
+    transferAmount: 10
+    onlyAffectsMobs: false
+    injectOnly: true
+  - type: HyposprayBlockNonMobInjection
+  - type: UseDelay
+    delay: 30 # up this later if its too low
+  - type: ContainerContainer
+    containers:
+      item: !type:ContainerSlot
+  - type: ItemSlots
+    slots:
+      item:
+        name: Cartridge
+        whitelist:
+          tags:
+          - AutoinjectorCartridge
+
+- type: entity
+  name: "автоінжектор картриджів безпеки"
+  parent: BaseCartridgeAutoinjector
+  description: "Використовується для швидкого введення ліків. Використовує картриджі, що друкуються на техфабі служби безпеки."
+  id: SecHypo
+  components:
+  - type: Sprite
+    layers:
+      - state: security-base
+      - state: cartridge1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+
+- type: entity
+  name: "медичний автоінжектор картриджів"
+  parent: BaseCartridgeAutoinjector
+  description: "Використовується для швидкого введення ліків. Використовує картриджі, що друкуються на медичному техфабі."
+  id: ParamedHypo
+  components:
+  - type: Sprite
+    layers:
+      - state: medical-base
+      - state: cartridge1
+        map: ["enum.SolutionContainerLayers.Fill"]
+        visible: false
+
+# Autoinjector Cartridges
+
+- type: entity
+  name: "картридж для автоінжектора"
+  parent: BaseItem
+  description: "Використовується в картриджному автоінжекторі."
+  id: BaseAutoinjectorCartridge
+  abstract: true
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _Goobstation/Objects/Specific/Medical/cartridge.rsi
+    layers:
+    - state: base
+    - state: filling
+      color: "#ffffff"
+  - type: SolutionCartridge
+    targetSolution: hypospray
+    solution:
+      maxVol: 10
+  - type: Tag
+    tags:
+      - AutoinjectorCartridge
+
+- type: entity
+  name: "картридж для автоінжектора з адреналіном"
+  parent: BaseAutoinjectorCartridge
+  description: "Містить 7u адреналіну та 3u транексамової кислоти, використовується в картриджному автоінжекторі."
+  id: CartridgeEpinephrine
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: filling
+      color: "#cad8d4"
+  - type: SolutionCartridge
+    targetSolution: hypospray
+    solution:
+      maxVol: 10
+      reagents:
+      - ReagentId: Epinephrine
+        Quantity: 7
+      - ReagentId: TranexamicAcid
+        Quantity: 3 # Fully stops bleeding
+
+- type: entity
+  name: "картридж для автоінжектора при втраті повітря"
+  parent: BaseAutoinjectorCartridge
+  description: "Містить 7u фізіологічного розчину та 3u дексаліну плюс, використовується в картриджному автоінжекторі."
+  id: CartridgeSaline
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: filling
+      color: "#1776c4"
+  - type: SolutionCartridge
+    targetSolution: hypospray
+    solution:
+      maxVol: 10
+      reagents:
+      - ReagentId: Saline
+        Quantity: 7
+      - ReagentId: DexalinPlus
+        Quantity: 3
+
+- type: entity
+  name: "картридж для автоінжектора від грубої сили"
+  parent: BaseAutoinjectorCartridge
+  description: "Містить 4u бікардину, 3u бозаїду, 2u саліцилової кислоти та 1u транексамової кислоти, використовується в картриджному автоінжекторі."
+  id: CartridgeBicaridine
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: filling
+      color: "#c5932d"
+  - type: SolutionCartridge
+    targetSolution: hypospray
+    solution:
+      maxVol: 10
+      reagents:
+      - ReagentId: Bicaridine
+        Quantity: 4
+      - ReagentId: Bozaide
+        Quantity: 3
+      - ReagentId: SalicylicAcid
+        Quantity: 2
+      - ReagentId: TranexamicAcid
+        Quantity: 1 # Stops 30% of maximum bleeding
+  # Finely tuned mix, heals up to 98 total brute split between 3 types, equivalent of 3.23 brute packs
+
+- type: entity
+  name: "картридж для автоінжектора від опіків"
+  parent: BaseAutoinjectorCartridge
+  description: "Містить 4u келотану, 3u дермаліну, 2u оксандролону та 1u сигінату, використовується в картриджному автоінжекторі."
+  id: CartridgeDermaline
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: filling
+      color: "#956960"
+  - type: SolutionCartridge
+    targetSolution: hypospray
+    solution:
+      maxVol: 10
+      reagents:
+      - ReagentId: Kelotane
+        Quantity: 4
+      - ReagentId: Dermaline
+        Quantity: 3
+      - ReagentId: Oxandrolone
+        Quantity: 2
+      - ReagentId: Sigynate
+        Quantity: 1
+  # Finely tuned mix, heals up to 114 total burn split between 4 types, twice as good for heat/cold/shock than for caustic, equivalent of 3.25 ointments
+
+- type: entity
+  name: "екстрений картридж для автоінжектора"
+  parent: BaseAutoinjectorCartridge
+  description: "Містить 10u атропіну, використовується в картриджному автоінжекторі."
+  id: CartridgeAtropine
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: filling
+      color: "#572757"
+  - type: SolutionCartridge
+    targetSolution: hypospray
+    solution:
+      maxVol: 10
+      reagents:
+      - ReagentId: Atropine
+        Quantity: 10
+
+- type: entity
+  name: "картридж для автоінжектора від проколів"
+  parent: BaseAutoinjectorCartridge
+  description: "Містить 10u пунктурази, використовується в картриджному автоінжекторі."
+  id: CartridgePuncturase
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: filling
+      color: "#b9bf93"
+  - type: SolutionCartridge
+    targetSolution: hypospray
+    solution:
+      maxVol: 10
+      reagents:
+      - ReagentId: Puncturase
+        Quantity: 10
+
+- type: entity
+  name: "стимулюючий картридж для автоінжектора"
+  parent: BaseAutoinjectorCartridge
+  description: "Містить 10u ефедрину, використовується в картриджному автоінжекторі."
+  id: CartridgeEphedrine
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: filling
+      color: "#d2fffa"
+  - type: SolutionCartridge
+    targetSolution: hypospray
+    solution:
+      maxVol: 10
+      reagents:
+      - ReagentId: Ephedrine
+        Quantity: 10
+
+- type: entity
+  name: "седативний картридж для автоінжектора"
+  parent: BaseAutoinjectorCartridge
+  description: "Містить 4u тиризену, 3u імпедрезину та 3u галоперидолу, використовується в картриджному автоінжекторі."
+  id: CartridgeTirizene
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: filling
+      color: "#415130"
+  - type: SolutionCartridge
+    targetSolution: hypospray
+    solution:
+      maxVol: 10
+      reagents:
+      - ReagentId: Tirizene
+        Quantity: 4
+      - ReagentId: Impedrezene
+        Quantity: 3
+      - ReagentId: Haloperidol
+        Quantity: 3

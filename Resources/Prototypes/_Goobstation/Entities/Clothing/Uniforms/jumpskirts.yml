@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtBlueshieldOfficer
-  name: blueshield officer jumpskirt
-  description: A short-sleeved grey and blue jumpskirt, made out of a sturdy material. Blueshield standard issue.
+  name: "офіцерський комбінезон з синім щитом"
+  description: "Сіро-блакитний комбінезон з короткими рукавами, виготовлений з міцного матеріалу. Стандартна комплектація Blueshield."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/blueshield_officer.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: CentcomAgentSkirt
-  name: centcom agent skirt
-  description: A skirt worn by CentComs legal team. Smells of burnt coffee.
+  name: "спідниця агента центкома"
+  description: "Спідниця, яку носить юридична команда CentComs. Пахне горілою кавою."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/centcom_agent.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtNanotrasenRepresentative
-  name: corporate liaison skirt
-  description: A black skirt worn by officials.
+  name: "спідниця корпоративного представника"
+  description: "Чорна спідниця, яку носять офіційні особи."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpskirt/nanotrasen_representative.rsi
