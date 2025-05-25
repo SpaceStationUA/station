@@ -1,0 +1,11 @@
+- type: loadout
+  id: LoadoutCorpsmanMaskBreathMedicalSecurity
+  category: JobsSecurityCorpsman
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingMaskBreathMedicalSecurity
+  requirements:
+    - !type:CharacterJobRequirement
+      jobs:
+        - Brigmedic

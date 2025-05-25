@@ -569,6 +569,10 @@
       inverted: true
       species:
         - IPC
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - BloodDeficiency
   functions: # TODO: Code Platelet factories as an actual obtainable implant, and replace this with TraitAddImplant
     - !type:TraitReplaceComponent
       components:
@@ -584,6 +588,8 @@
               Airloss: -0.25
               Toxin: -0.35
               Genetic: -0.35
+        - type: BloodDeficiency # Incredibly actually works
+          bloodLossPercentage: -0.025
 
 - type: trait
   id: DermalArmor
@@ -622,7 +628,9 @@
       traits:
         - Photophobia
         - Blindness
-        - Nearsighted
+        # PITARE START
+        # - Nearsighted
+        # PIRATE END
   functions:
     - !type:TraitPushDescription
       descriptionExtensions:
@@ -977,7 +985,9 @@
         - OmniEyesModule
         - Photophobia
         - Blindness
-        - Nearsighted
+        # PIRATE START
+        # - Nearsighted
+        # PIRATE END
   functions:
     - !type:TraitAddComponent
       components:
@@ -1004,7 +1014,9 @@
         - OmniEyesModule
         - Photophobia
         - Blindness
-        - Nearsighted
+        # PITARE START
+        # - Nearsighted
+        # PIRATE END
   functions:
     - !type:TraitAddComponent
       components:
@@ -1035,7 +1047,9 @@
         - OmniEyesModule
         - Photophobia
         - Blindness
-        - Nearsighted
+        # PITARE START
+        # - Nearsighted
+        # PIRATE END
   functions:
     - !type:TraitAddComponent
       components:
@@ -1067,7 +1081,9 @@
       traits:
         - Photophobia
         - Blindness
-        - Nearsighted
+        # PITARE START
+        # - Nearsighted
+        # PIRATE END
         - MedicalEyesModule
         - DiagnosticEyesModule
         - SecurityEyesModule
@@ -1105,7 +1121,9 @@
       traits:
         - Photophobia
         - Blindness
-        - Nearsighted
+        # PITARE START
+        # - Nearsighted
+        # PIRATE END
   functions:
     - !type:TraitAddComponent
       components:
@@ -1128,7 +1146,9 @@
       traits:
         - Photophobia
         - Blindness
-        - Nearsighted
+        # PITARE START
+        # - Nearsighted
+        # PIRATE END
   functions:
     - !type:TraitAddComponent
       components:

@@ -23,7 +23,7 @@ mood-effect-OnFire = ГОРИТЬ!!!
 
 mood-effect-Creampied = Я був хрещений. На смак як пиріг.
 
-mood-effect-MobSlipped = Я послизнувся! Наступного разу буду обережнішою.
+mood-effect-MobSlipped = Послизнулись! Треба бути обережніше.
 
 mood-effect-MobVomit = Мій обід був жахливим на смак, коли я повернувся.
 
