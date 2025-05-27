@@ -36,18 +36,20 @@
   parent: [PartReptilian, BaseHead]
   components:
   - type: Sprite
+    # PIRATE START
     netsync: false
-    sprite: Mobs/Customization/rept_head.rsi
+    sprite: _Pirate/Mobs/Customization/rept_head.rsi
     state: "head_base"
   - type: Icon
-    sprite: Mobs/Customization/rept_head.rsi
+    sprite: _Pirate/Mobs/Customization/rept_head.rsi
     state: "head_base"
-  - type: BodyPart
+  - type: BodyPart  
     partType: Head
     organs:
       eyes:
         id: "eyes"
     vital: true
+    # PIRATE END
   - type: Extractable
     juiceSolution:
       reagents:
@@ -55,9 +57,11 @@
         Quantity: 5
       - ReagentId: Blood
         Quantity: 10
+    # PIRATE START
   - type: Tag
     tags:
       - Head
+    # PIRATE END
 
 - type: entity
   id: LeftArmReptilian

@@ -21,7 +21,7 @@
 - type: speciesBaseSprites
   id: MobReptilianSprites
   sprites:
-    Head: MobIPCHead # теорія змови вийшла на новий рівень. Ящеро-Люди минулий вік, як вам Ящеро-Роботи???
+    Head: MobIPCHead # PIRATE
     Face: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
     Underwear: MobHumanoidAnyMarking
@@ -44,19 +44,23 @@
   id: MobReptilianMarkingLimits
   onlyWhitelisted: true
   points:
+  # PIRATE START
     Head:
       points: 1
       required: true
       defaultMarkings: [ MarkingLizardBaseHead ]
+  # PIRATE END
     Hair:
       points: 0
       required: false
     FacialHair:
       points: 0
       required: false
+  # PIRATE START
     Face:
       points: 3
       required: false
+  # PIRATE END
     Tail:
       points: 1
       required: true
@@ -104,6 +108,7 @@
     LeftHand:
       points: 6
       required: false
+  # PIRATE START
     Wings:
       points: 1
       required: false
@@ -112,16 +117,17 @@
   id: MobReptilianMarkingFollowSkin
   markingsMatchSkin: true
   layerAlpha: 0.5
-
+  # PIRATE END
+  
 - type: marking
   id: MarkingLizardBaseHead
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Reptilian]
   sprites:
-  - sprite: Mobs/Customization/rept_head.rsi
+  - sprite: _Pirate/Mobs/Customization/rept_head.rsi
     state: head_base
-  - sprite: Mobs/Customization/rept_head.rsi
+  - sprite: _Pirate/Mobs/Customization/rept_head.rsi
     state: head_base_1
 
 - type: marking
@@ -130,11 +136,11 @@
   markingCategory: Head
   speciesRestriction: [Reptilian]
   sprites:
-  - sprite: Mobs/Customization/rept_head.rsi
+  - sprite: _Pirate/Mobs/Customization/rept_head.rsi
     state: head_flattened
-  - sprite: Mobs/Customization/rept_head.rsi
+  - sprite: _Pirate/Mobs/Customization/rept_head.rsi
     state: head_flattened_2
-  - sprite: Mobs/Customization/rept_head.rsi
+  - sprite: _Pirate/Mobs/Customization/rept_head.rsi
     state: head_flattened_3
 
 - type: humanoidBaseSprite
