@@ -60,35 +60,4 @@
           negative: true
   sprites:
   - sprite: Mobs/Customization/tattoos.rsi
-<<<<<<< HEAD
-=======
-    state: tattoo_eye_l
-
-- type: marking
-  id: ReptilianTattooEyeRight
-  bodyPart: Eyes
-  markingCategory: Face
-  speciesRestriction: [Reptilian] # Delta V - Felinid, Oni, Harpy
-  coloring:
-    default:
-      type:
-        !type:EyeColoring
-          negative: true
-  sprites:
-  - sprite: Mobs/Customization/tattoos.rsi
-    state: tattoo_eye_r
-
-- type: marking
-  id: ReptilianTattooEyeLeft
-  bodyPart: Eyes
-  markingCategory: Face
-  speciesRestriction: [Reptilian] # Delta V - Felinid, Oni, Harpy
-  coloring:
-    default:
-      type:
-        !type:EyeColoring
-          negative: true
-  sprites:
-  - sprite: Mobs/Customization/tattoos.rsi
->>>>>>> bd333ffc4059027ab42a71e607c1aa3e4f5adf91
     state: tattoo_eye_l
