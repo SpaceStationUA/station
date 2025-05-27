@@ -18,7 +18,8 @@
       - sprite: _Pirate/Objects/Devices/encryption_keys.rsi
         state: interdyne_green
 
-- type: entity
+#Приватні ключі. Не використовуються для лодаута!! | Потрібні для гост ролів або івентів
+- type: entity 
   parent: EncryptionKey
   id: EncryptionKeyInterdynePrivat
   name: Ключ приватного каналу Інтердайну
