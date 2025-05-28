@@ -85,3 +85,14 @@
     sprite: T_Pirate/Clothing/OuterClothing/Coats/tribalcoat.rsi
   - type: Clothing
     sprite: T_Pirate/Clothing/OuterClothing/Coats/tribalcoat.rsi
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatEngineerGray
+  name: "сіре пальто інженера"
+  description: "Сіро-помаранчеве пальто інженера з біркою відділу і логотипом НТ"
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/OuterClothing/Coats/engineer_gray.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/OuterClothing/Coats/engineer_gray.rsi

@@ -1,0 +1,15 @@
+# All Engineering Department Jobs
+# Eyes
+- type: loadout
+  id: LoadoutEngineeringEyesOrangeMeson
+  category: JobsEngineeringAAUncategorized
+  cost: 2
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutEyesEngineering
+    - !type:CharacterDepartmentRequirement
+      departments:
+        - Engineering
+  items:
+    - ClothingEyesGlassesOrangeMeson
