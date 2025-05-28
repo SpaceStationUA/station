@@ -5,6 +5,7 @@ admin-verb-make-nuclear-operative = Make target into a lone Nuclear Operative.
 admin-verb-make-pirate = Make the target into a pirate. Note this doesn't configure the game rule.
 admin-verb-make-head-rev = Make the target into a Head Revolutionary.
 admin-verb-make-thief = Make the target into a thief.
+admin-verb-make-shadowling = Make the target into a shadowling.
 
 admin-verb-text-make-traitor = Make Traitor
 admin-verb-text-make-zombie = Make Zombie
@@ -14,4 +15,7 @@ admin-verb-text-make-head-rev = Make Head Rev
 admin-verb-text-make-thief = Make Thief
 admin-verb-text-make-vampire = Make Vampire
 
+admin-verb-text-make-shadowling = Make Shadowling
+
 admin-overlay-antag-classic = ANTAG
+
