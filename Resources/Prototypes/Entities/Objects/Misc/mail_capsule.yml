@@ -1,5 +1,5 @@
 - type: entity
-  name: "поштова капсула"
+  name: mail capsule
   suffix: Primed
   id: MailCapsulePrimed
   parent: BaseItem
@@ -122,10 +122,10 @@
         Blunt: 9.5
 
 - type: entity
-  name: "поштова капсульна скринька"
+  name: mail capsule box
   parent: BoxCardboard
   id: BoxMailCapsulePrimed
-  description: "Коробка заґрунтованих поштових капсул."
+  description: A box of primed mail capsules.
   components:
   - type: Storage
     grid:

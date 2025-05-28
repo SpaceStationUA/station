@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingEyesBase, FlippableEyesBase]
   id: ClothingEyesEyepatch
-  name: "пов'язка на око"
-  description: "Йо-хо-хо."
+  name: eyepatch
+  description: Yarr.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Misc/eyepatch.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: [ClothingEyesEyepatch, FlippableEyesBase]
   id: ClothingEyesEyepatchColor
-  name: "пов'язка на око"
-  description: "Йо-хо-хо."
+  name: eyepatch
+  description: Yarr.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Misc/eyepatch_color.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesBlindfold
-  name: "пов'язка на очі"
-  description: "Зв'язка, що веде за собою сліпих."
+  name: blindfold
+  description: The bind leading the blind.
   components:
   - type: Sprite
     sprite: Clothing/Eyes/Misc/blindfold.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesBlindfoldFake
-  name: "пов'язка на очі"
-  description: "Зв'язка, що веде за собою сліпих."
+  name: blindfold
+  description: The bind leading the blind.
   suffix: fake
   components:
   - type: Sprite

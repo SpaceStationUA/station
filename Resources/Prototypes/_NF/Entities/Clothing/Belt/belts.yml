@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltArcadia
-  name: "пояс arcadia"
-  description: "Пояс, створений Arcadia Industries. Здається, дуже здатний вмістити багато предметів."
+  name: arcadia webbing
+  description: A webbing created by Arcadia Industries. Seems very capable of fitting many items.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Belt/arcadia.rsi
@@ -13,7 +13,7 @@
 - type: entity
   parent: ClothingBeltBase
   id: ClothingBeltCultForceField
-  name: "рунічна пряжка ременя культу"
+  name: cult runic belt buckle
   components:
   - type: Sprite
     sprite: _NF/Clothing/Belt/cult_force_field.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: ClothingBeltStorageBase
   id: ClothingBeltCultWebbing
-  name: "культовий пояс"
-  description: "Пояс з кишенями, обшитими водонепроникним (вода, га?) матеріалом."
+  name: cult webbing
+  description: A webbing with pockets lined with waterproof (water, huh?)  material.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Belt/cult_webbing.rsi

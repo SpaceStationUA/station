@@ -1,9 +1,9 @@
 - type: entity
-  name: "паперовий пакет"
+  name: paper bag
   id: PaperBagCandy
   parent: CandyBucket
   suffix: Геловін
-  description: "Сумка для зберігання хімічних препаратів, таких як пігулки, баночки, пляшечки та шприци."
+  description: A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
   components:
     - type: Sprite
       sprite: __TEMP/paper_bag.rsi
@@ -15,11 +15,11 @@
       - 0,0,4,2
 
 - type: entity
-  name: "гарбузовий мішок"
+  name: pumpkin bag
   id: PumpkinBagCandy
   parent: CandyBucket
   suffix: Геловін
-  description: "Сумка для зберігання хімічних препаратів, таких як пігулки, баночки, пляшечки та шприци."
+  description: A bag for storing chemistry products, such as pills, pill canisters, bottles, and syringes.
   components:
     - type: Sprite
       sprite: __TEMP/pumpkin_bag.rsi

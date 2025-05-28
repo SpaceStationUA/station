@@ -1,8 +1,8 @@
 - type: entity
   parent: ComputerSurveillanceWirelessCameraMonitor
   id: ComputerTelevision
-  name: "дерев'яний телевізор"
-  description: "Нарешті тут з'явився пристойний прийом..."
+  name: wooden television
+  description: Finally, some decent reception around here...
   components:
   - type: Sprite
     noRot: true
@@ -33,8 +33,8 @@
 - type: entity
   parent: BaseComputer
   id: WallmountTelescreenFrame
-  name: "рама телескопічного екрану"
-  description: "Нарешті тут з'явився пристойний прийом..."
+  name: telescreen frame
+  description: Finally, some decent reception around here...
   components:
   - type: Construction
     graph: WallmountTelescreen
@@ -88,8 +88,8 @@
   parent: WallmountTelescreenFrame
   id: WallmountTelescreen
   suffix: camera monitor
-  name: "телеекран"
-  description: "Нарешті тут з'явився пристойний прийом..."
+  name: telescreen
+  description: Finally, some decent reception around here...
   components:
   - type: Construction
     graph: WallmountTelescreen
@@ -118,8 +118,8 @@
 - type: entity
   parent: WallmountTelescreenFrame
   id: WallmountTelevisionFrame
-  name: "телевізійна рамка"
-  description: "Нарешті тут з'явився пристойний прийом..."
+  name: television frame
+  description: Finally, some decent reception around here...
   components:
   - type: Fixtures
     fixtures:
@@ -148,8 +148,8 @@
   parent: WallmountTelevisionFrame
   id: WallmountTelevision
   suffix: entertainment
-  name: "телебачення"
-  description: "Нарешті тут з'явився пристойний прийом..."
+  name: television
+  description: Finally, some decent reception around here...
   components:
   - type: Construction
     graph: WallmountTelevision

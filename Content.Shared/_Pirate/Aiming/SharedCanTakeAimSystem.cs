@@ -1,4 +1,5 @@
 using Content.Shared._Pirate.Aiming.Events;
+using Content.Shared.CombatMode.Pacification;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Mobs.Components;
@@ -148,6 +149,13 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
         if (args.Target == args.User)
             return;
         component.User = args.User;
+
+        if (_entMan.TryGetComponent<PacifiedComponent>(args.User, out _))
+        {
+            _popup.PopupClient(Loc.GetString("pacified-cannot-aim"), args.User, args.User, PopupType.Medium);
+            return;
+        }
+
         if (!args.CanReach)
         {
             _popup.PopupClient("Я не зможу попасти в ціль звідси...", args.User, PopupType.Medium);

@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: BaseBulletTrigger
   id: BulletFireBolt
-  name: "вогняний болт"
+  name: fire bolt
   components:
   - type: Projectile
     damage:
@@ -20,7 +20,7 @@
 - type: entity
   parent: BaseBulletTrigger
   id: BulletMagicBolt
-  name: "магічний болт"
+  name: magic bolt
   components:
   - type: Projectile
     damage:
@@ -38,7 +38,7 @@
 - type: entity
   parent: BaseBulletTrigger
   id: BulletBloodCultDarkBolt
-  name: "кривавий болт"
+  name: blood bolt
   components:
   - type: Projectile
     damage:

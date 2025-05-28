@@ -1,9 +1,9 @@
 
 - type: entity
-  name: "великий щит"
+  name: greatshield
   parent: [BaseItem, ClothingSlotBase]
   id: BlueShieldShield
-  description: "Культовий тезка цих солдатів, Блакитний щит. Відомий тим, що приймає постріли, призначені для високопосадовців."
+  description: The iconic namesake of these soldiers, the Blueshield. Known to take shots meant for high-ranking officials.
   components:
     - type: ContainerContainer
     - type: ItemToggle

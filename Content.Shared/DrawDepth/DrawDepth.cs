@@ -36,9 +36,7 @@ namespace Content.Shared.DrawDepth
         /// </summary>
         FloorObjects = DrawDepthTag.Default - 7,
 
-         FloorEffects = DrawDepthTag.Default - 5, // Goobstation
-
-        BlobTiles = DrawDepthTag.Default - 4, // Goobstation - Blob
+        FloorEffects = DrawDepthTag.Default - 5, // Goobstation
 
         /// <summary>
         //     Discrete drawdepth to avoid z-fighting with other FloorObjects but also above floor entities.
@@ -49,6 +47,8 @@ namespace Content.Shared.DrawDepth
         //     Objects that are on the floor, but should render above puddles. This includes kudzu, holopads, telepads and levers.
         /// </summary>
         HighFloorObjects = DrawDepthTag.Default - 5,
+
+        BlobTiles = DrawDepthTag.Default - 4, // Goobstation - Blob
 
         DeadMobs = DrawDepthTag.Default - 4,
 

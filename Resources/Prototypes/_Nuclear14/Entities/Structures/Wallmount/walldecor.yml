@@ -23,9 +23,9 @@
 - type: entity
   parent: N14SignBase
   id: N14FlagWallUS
-  name: "прапор"
+  name: flag
   suffix: US
-  description: "Прапор США."
+  description: A US flag.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Wallmounts/walldecor.rsi
@@ -35,7 +35,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallChina
   suffix: China
-  description: "Китайський прапор."
+  description: A Chinese flag.
   components:
   - type: Sprite
     state: flag_china
@@ -44,7 +44,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallCalifornia
   suffix: California
-  description: "Прапор Каліфорнії."
+  description: A flag of California.
   components:
   - type: Sprite
     state: flag_cali
@@ -53,7 +53,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallArizona
   suffix: Arizona
-  description: "Прапор Арізони."
+  description: A flag of Arizona.
   components:
   - type: Sprite
     state: flag_arizona
@@ -62,7 +62,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallEnclave
   suffix: Enclave
-  description: "Прапор Анклаву."
+  description: An Enclave flag.
   components:
   - type: Sprite
     state: flag_enclave
@@ -71,7 +71,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallNCR
   suffix: NCR
-  description: "Прапор NCR."
+  description: An NCR flag.
   components:
   - type: Sprite
     state: flag_ncr
@@ -80,7 +80,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallLegion
   suffix: Legion
-  description: "Прапор Легіону."
+  description: A Legion flag.
   components:
   - type: Sprite
     state: flag_legion
@@ -89,7 +89,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallRangers
   suffix: Rangers
-  description: "Прапор Рейнджерів."
+  description: A Rangers flag.
   components:
   - type: Sprite
     state: flag_rangers
@@ -98,7 +98,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallWesternBrotherhood
   suffix: Midwestern BOS
-  description: "Прапор Середнього Заходу \"Сталевого братства\"."
+  description: A Midwest Brotherhood of Steel flag.
   components:
   - type: Sprite
     state: flag_westbos
@@ -107,7 +107,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallWashingtonBrotherhood # Actually Eastern but repurposed.
   suffix: Washington BOS
-  description: "Прапор Вашингтонського сталевого братства."
+  description: A Washington Brotherhood of Steel flag.
   components:
   - type: Sprite
     state: flag_eastbos
@@ -116,7 +116,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallColorado
   suffix: colorado
-  description: "Прапор штату Колорадо"
+  description: A flag for the state of Colorado
   components:
   - type: Sprite
     state: flag_colorado
@@ -125,7 +125,7 @@
   parent: N14FlagWallUS
   id: N14FlagWallDenver
   suffix: denver
-  description: "Прапор штату Денвер"
+  description: A flag for the state of Denver
   components:
   - type: Sprite
     state: flag_denver
@@ -134,8 +134,8 @@
 - type: entity
   parent: N14SignBase
   id: N14WallDecorClock
-  name: "годинник"
-  description: "Годинник. Не думаю, що він працює."
+  name: clock
+  description: A clock. Don't think it works.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Wallmounts/walldecor.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: N14WallDecorClock
   id: N14WallDecorCalendar
-  name: "календар"
-  description: "Календар на якийсь забутий рік."
+  name: calendar
+  description: A calendar for some forgotten year.
   components:
   - type: Sprite
     state: calendar
@@ -154,8 +154,8 @@
 - type: entity
   parent: N14WallDecorClock
   id: N14WallDecorCalendar1
-  name: "календар"
-  description: "Чистий календар на якийсь забутий рік."
+  name: calendar
+  description: A blank calendar for some forgotten year.
   components:
   - type: Sprite
     state: calendar_blank
@@ -163,8 +163,8 @@
 - type: entity
   parent: N14WallDecorClock
   id: N14WallDecorCross
-  name: "хрест"
-  description: "Символ з іншого часу."
+  name: cross
+  description: A symbol from another time.
   components:
   - type: Sprite
     state: cross
@@ -172,8 +172,8 @@
 - type: entity
   parent: N14WallDecorClock
   id: N14WallDecorWallscreen
-  name: "настінний екран"
-  description: "На стіні висіло скупчення моніторів."
+  name: wall screen
+  description: A cluster of monitors hung on the wall.
   components:
   - type: Sprite
     state: wallscreen

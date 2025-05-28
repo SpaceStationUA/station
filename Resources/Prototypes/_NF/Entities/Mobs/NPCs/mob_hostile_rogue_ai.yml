@@ -40,7 +40,7 @@
 
 ## Mob base
 - type: entity
-  name: "юніт вулика"
+  name: hivemind unit
   abstract: true
   parent:
   - MobNonHumanHostileBase
@@ -130,7 +130,7 @@
   parent:
   - MobRogueSiliconBase
   id: MobRogueSiliconScrapBase
-  name: "брухтовий юніт"
+  name: scrap unit
   abstract: true
   components:
   - type: Loadout
@@ -196,7 +196,7 @@
   parent:
   - MobRogueSiliconBase
   id: MobRogueSiliconDroneBase
-  name: "дрон"
+  name: drone
   abstract: true
   components:
   - type: Loadout
@@ -589,7 +589,7 @@
   - MobRogueSiliconBase
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconServo
-  name: "сервоюніт"
+  name: servo unit
   #noSpawn: true
   components:
   - type: Loadout
@@ -625,7 +625,7 @@
   - MobRogueSiliconBase
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconHerder
-  name: "юніт-пастух"
+  name: herder unit
   #noSpawn: true
   components:
   - type: Loadout
@@ -682,7 +682,7 @@
   - MobRogueSiliconDroneBase
   - MobRogueSiliconHitscanBatteryAmmo
   id: MobRogueSiliconHunter
-  name: "юніт-мисливець"
+  name: hunter unit
   #noSpawn: true
   components:
   - type: Loadout
@@ -734,7 +734,7 @@
   parent:
   - MobRogueSiliconBase
   id: MobRogueSiliconCatcher
-  name: "юніт-ловець"
+  name: catcher unit
   #noSpawn: true
   components:
   - type: Loadout
@@ -787,7 +787,7 @@
   - MobRogueSiliconBase
   - MobRogueSiliconAISimpleMelee
   id: MobRogueSiliconTesla
-  name: "юніт тесла"
+  name: tesla unit
   #noSpawn: true
   components:
   - type: Loadout
@@ -850,7 +850,7 @@
   - MobRogueSiliconDroneBase
   - MobRogueSiliconHitscanBatteryAmmo
   id: MobRogueSiliconGuardian
-  name: "юніт-охоронець"
+  name: guardian unit
   #noSpawn: true
   components:
   - type: Loadout
@@ -912,7 +912,7 @@
 - type: entity
   parent: MobRogueSiliconBase
   id: MobRogueSiliconBoss
-  name: "юніт-одна зірка"
+  name: one star unit
   #noSpawn: true
   components:
   - type: Loadout

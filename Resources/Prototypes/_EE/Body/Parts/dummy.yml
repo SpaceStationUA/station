@@ -11,45 +11,45 @@
 
 - type: entity
   id: HeadDummy
-  name: "манекен голови"
+  name: "dummy head"
   parent: [HeadHuman, BaseDummyPart]
 
 - type: entity
   id: LeftArmDummy
-  name: "манекен лівої руки"
+  name: "dummy left arm"
   parent: [LeftArmHuman, BaseDummyPart]
 
 - type: entity
   id: RightArmDummy
-  name: "манекен правої руки"
+  name: "dummy right arm"
   parent: [RightArmHuman, BaseDummyPart]
 
 - type: entity
   id: LeftHandDummy
-  name: "манекен лівої кисті"
+  name: "dummy left hand"
   parent: [LeftHandHuman, BaseDummyPart]
 
 - type: entity
   id: RightHandDummy
-  name: "манекен правої кисті"
+  name: "dummy right hand"
   parent: [RightHandHuman, BaseDummyPart]
 
 - type: entity
   id: LeftLegDummy
-  name: "манекен лівої ноги"
+  name: "dummy left leg"
   parent: [LeftLegHuman, BaseDummyPart]
 
 - type: entity
   id: RightLegDummy
-  name: "манекен правої ноги"
+  name: "dummy right leg"
   parent: [RightLegHuman, BaseDummyPart]
 
 - type: entity
   id: LeftFootDummy
-  name: "манекен лівої ступні"
+  name: "dummy left foot"
   parent: [LeftFootHuman, BaseDummyPart]
 
 - type: entity
   id: RightFootDummy
-  name: "манекен правої ступні"
+  name: "dummy right foot"
   parent: [RightFootHuman, BaseDummyPart]

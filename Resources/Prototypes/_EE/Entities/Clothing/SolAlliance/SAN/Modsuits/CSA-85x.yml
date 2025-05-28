@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, SolAllianceInfo]
   id: ClothingModsuitSANMarine
-  name: "Контролер модсьюта CSA-85x \"Мазу"
-  description: "Основний контролер модсьюта \"Мазу\". Рідкісний і неймовірно цінний зразок військової техніки, який зазвичай використовується спецназом Соларіану."
+  name: CSA-85x "Mazu" modsuit control
+  description: The main controller for a "Mazu" modsuit. A rare and incredibly valuable piece of military hardware typically reserved for Solarian special forces.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Modsuits/csa_85x.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: [ClothingModsuitGauntletsStandard, SolAllianceInfo]
   id: ClothingModsuitGauntletsSANMarine
-  name: "Рукавиці модсьюта CSA-85x \"Мазу"
-  description: "Пара рукавиць, створених для дроблення черепів інопланетян. Є частиною модсьюта \"Мазу\"."
+  name: CSA-85x "Mazu" modsuit gauntlets
+  description: A pair of gauntlets made for crushing alien skulls. It is part of the "Mazu" modsuit.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -41,8 +41,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, SolAllianceInfo, ShowSecurityIcons, BaseClothingRadio]
   id: ClothingModsuitHelmetSANMarine
-  name: "Шолом модсьюта CSA-85x \"Мазу"
-  description: "Сучасний шолом, розроблений CyberSun Armaments для модсьюта \"Мазу\". Він включає вбудований HUD."
+  name: CSA-85x "Mazu" modsuit helmet
+  description: A state-of-the-art helmet designed by CyberSun Armaments for the "Mazu" modsuit. It includes a built-in HUD.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -69,8 +69,8 @@
 - type: entity
   parent: [ClothingModsuitChestplateStandard, SolAllianceInfo]
   id: ClothingModsuitChestplateSANMarine
-  name: "Нагрудник модсьюта CSA-85x \"Мазу"
-  description: "Сучасний нагрудник для модсьюта \"Мазу\". Він використовує ту ж броню, що і тактичний костюм \"Шаньлінь\", але також включає в себе сервоприводи для зменшення навантаження на спорядження."
+  name: CSA-85x "Mazu" modsuit chestplate
+  description: A state of the art chestplate for the "Mazu" Modsuit. It uses the same armor plating as a "Shanlin" tacsuit, but also incorporates powered servos to reduce the equipment load.
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -103,8 +103,8 @@
 - type: entity
   parent: [ClothingModsuitBootsStandard, SolAllianceInfo]
   id: ClothingModsuitBootsSANMarine
-  name: "Черевики модсьюта CSA-85x \"Мазу"
-  description: "Сучасна пара магнітних черевиків для модсьюта \"Мазу\". Поки костюм під напругою, вони не сповільнюватимуть власника."
+  name: CSA-85x "Mazu" modsuit boots
+  description: A state-of-the-art pair of magboots for the "Mazu" modsuit. So long as the suit is powered, these will not slow the wearer down.
   categories: [HideSpawnMenu]
   components:
     - type: Appearance
@@ -118,7 +118,7 @@
 - type: entity
   parent: [ClothingModsuitSANMarine]
   id: ClothingModsuitSANMarineFilledMarine
-  name: "Контролер модсьюта CSA-85x \"Мазу"
+  name: CSA-85x "Mazu" modsuit control
   suffix: SAN, Marine Kit
   components:
     - type: StorageFill
@@ -137,7 +137,7 @@
 - type: entity
   parent: [ClothingModsuitSANMarine]
   id: ClothingModsuitSANMarineFilledOfficer
-  name: "Контролер модсьюта CSA-85x \"Мазу"
+  name: CSA-85x "Mazu" modsuit control
   suffix: SAN, Officer Kit
   components:
     - type: StorageFill
@@ -160,8 +160,8 @@
   id: CrateSANModsuit
   suffix: Filled
   parent: [CrateAluminium, SolAllianceInfo]
-  name: "комплект модсьюта морської піхоти Соларіану"
-  description: "Містить повну уніформу морського піхотинця Соларіану, у комплекті з модсьютом."
+  name: Solarian marine modsuit bundle
+  description: Contains the full uniform of a Solarian marine, complete with a modsuit.
   components:
   - type: StorageFill
     contents:
@@ -171,8 +171,8 @@
   id: CrateSANModsuitGroup
   suffix: Filled
   parent: [CrateAluminium, SolAllianceInfo]
-  name: "комплект модсьюта морської піхоти Соларіану"
-  description: "Містить п'ять повних уніформ морської піхоти Соларіану, у комплекті з модсьютами."
+  name: Solarian marine modsuit bundle
+  description: Contains five full Solarian marine uniforms, complete with modsuits.
   components:
   - type: StorageFill
     contents: # 4 Marines, 1 Officer

@@ -1,8 +1,8 @@
 - type: entity
-  name: "ордер на арешт"
+  name: station warrant
   parent: Paper
   id: PaperStationWarrant
-  description: "Паперовий ордер, виданий відділом правосуддя."
+  description: 'A paper warrant issued by the justice department.'
   components:
   - type: Sprite
     sprite: Objects/Misc/bureaucracy.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: Paper
   id: PaperCrateHydroCoConsumption
-  name: "Повідомлення HydroCo"
+  name: HydroCo Notice
   categories: [ HideSpawnMenu ]
   components:
   - type: Paper
@@ -54,7 +54,7 @@
 - type: entity
   parent: Paper
   id: PaperMailHydroCoTrial
-  name: "Пробне повідомлення HydroCo"
+  name: HydroCo Trial Message
   categories: [ HideSpawnMenu ]
   components:
   - type: Paper
@@ -84,3 +84,16 @@
       before consuming.
 
       Enjoy your drinks!
+
+# contents set by FugitiveRule or a creative admeme
+- type: entity
+  parent: PaperStationWarrant
+  id: PaperFugitiveReport
+  name: fugitive report
+  description: An arrest warrant for a space fugitive sent from GALPOL.
+
+- type: entity
+  parent: Paper
+  id: TapeRecorderTranscript
+  name: record transcript
+  # TODO: could have a unique sprite in the future

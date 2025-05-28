@@ -173,3 +173,20 @@ objective-condition-fail = { $condition } | [color={ $markupColor }]Невдач
 blob-title = Блоб-інфекція
 blob-description = Блоб-інфекція — це паразитична космічна істота, здатна знищувати цілі станції.
 admin-verb-text-make-blob = Зробити гравця блоб-інфекцією
+
+blob-core-under-attack = Ваше ядро атаковано!
+blob-create-storage-action-name = Створити Сховище Блоба (50)
+blob-create-storage-action-desc = Перетворює обраний звичайний блоб на сховище, що збільшує максимальну кількість ресурсів, які може мати блоб.
+blob-create-turret-action-name = Створити Турель Блоба (75)
+blob-create-turret-action-desc = Перетворює обраний звичайний блоб на турель, що стріляє по ворогах малими спорами, споживаючи очки.
+blob-objective-percentage = Він захопив [color=White]{ $progress }%[/color] до перемоги.
+blob-end-victory = [color=Red]Блоб(и) успішно поглинув(ли) станцію![/color]
+blob-end-fail = [color=Green]Блоб(и) не зміг(ли) поглинути станцію.[/color]
+speak-vv-blob = Блоб
+blob-end-fail-progress = Усі блоби захопили [color=Yellow]{ $progress }%[/color] до перемоги.
+speak-vv-blob-core = Ядро блоба
+
+# Мова
+language-Blob-name = Блоб
+chat-language-Blob-name = Блоб
+language-Blob-description = Бліб боб! Блоб блоб!
