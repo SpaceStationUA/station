@@ -9,8 +9,6 @@
     - Dragon
     - Revolutionary
     - Changeling
-    - Heretic
-    - Wizard
 
 - type: explosion
   id: Blob
@@ -27,27 +25,27 @@
   id: BlobMob
 
 - type: entity
-  name: "ракова миша"
-  description: "Токсична. Писк!"
-  parent: MobMouseCancer
-  id: MobMouseCancerBlob
+  parent: MobMouse
+  id: MobMouseBlob
   suffix: Blob
   components:
   - type: BlobCarrier
 
 - type: entity
   id: SpawnPointGhostBlobRat
-  name: "Точка спавну Миші Блоба"
+  name: Mouse Blob Spawn Point
   suffix: Blob Ghost Role
   parent: BaseAntagSpawner
   components:
     - type: GhostRoleMobSpawner
-      prototype: MobMouseCancerBlob
+      prototype: MobMouseBlob
     - type: GhostRole
       makeSentient: true
       name: blob-carrier-role-name
       description: blob-carrier-role-desc
       rules: blob-carrier-role-rules
+      mindRoles:
+      - MindRoleGhostRoleTeamAntagonist
       raffle:
         settings: default
     - type: Sprite
@@ -56,16 +54,18 @@
         - state: green
         - sprite: Mobs/Animals/bat.rsi
           state: bat
+
 # Blob
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleBlob
-  name: "Роль Блоба"
+  name: Blob Role
 #  description: mind-role-blob-description
   components:
   - type: MindRole
     antagPrototype: Blob
     exclusiveAntag: true
+    roleType: TeamAntagonist
   - type: BlobRole
 
 - type: factionIcon
@@ -85,4 +85,3 @@
   id: BlobPoint
   displayName: store-currency-display-blob-points
   canWithdraw: false
-

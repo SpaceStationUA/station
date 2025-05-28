@@ -179,21 +179,6 @@ public sealed partial class AdminVerbSystem
         };
         args.Verbs.Add(cultist);
 
-        // goobstation - heretics
-        Verb heretic = new()
-        {
-            Text = Loc.GetString("admin-verb-make-heretic"),
-            Category = VerbCategory.Antag,
-            Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/_Goobstation/Heretic/Blades/blade_blade.rsi"), "icon"),
-            Act = () =>
-            {
-                _antag.ForceMakeAntag<HereticRuleComponent>(targetPlayer, "Heretic");
-            },
-            Impact = LogImpact.High,
-            Message = Loc.GetString("admin-verb-make-heretic"),
-        };
-        args.Verbs.Add(heretic);
-
         // Goobstation - Blob
         Verb blobAntag = new()
         {
@@ -208,6 +193,20 @@ public sealed partial class AdminVerbSystem
             Message = Loc.GetString("admin-verb-text-make-blob"),
 	    };
         args.Verbs.Add(blobAntag);
+        // goobstation - heretics
+        Verb heretic = new()
+        {
+            Text = Loc.GetString("admin-verb-make-heretic"),
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/_Goobstation/Heretic/Blades/blade_blade.rsi"), "icon"),
+            Act = () =>
+            {
+                _antag.ForceMakeAntag<HereticRuleComponent>(targetPlayer, "Heretic");
+            },
+            Impact = LogImpact.High,
+            Message = Loc.GetString("admin-verb-make-heretic"),
+        };
+        args.Verbs.Add(heretic);
 
         // Goobstation - Wizard
         Verb wizard = new()
@@ -224,9 +223,6 @@ public sealed partial class AdminVerbSystem
         };
         args.Verbs.Add(wizard);
         
-        // IMPSTATION - COSMIC CULT
-        //note - the UI for the monument currently doesn't properly account for cultists added like this until it gets sent a new state - ruddygreat
-        //todo figure out how to fix that
         Verb cosmiccult = new()
         {
             Text = Loc.GetString("admin-verb-text-make-cosmiccultist"),

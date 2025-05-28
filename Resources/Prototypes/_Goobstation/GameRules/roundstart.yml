@@ -54,8 +54,8 @@
         text: blob-carrier-role-greeting
         color: Plum
         sound: /Audio/Announcements/bloblarm.ogg
-      mindComponents:
-      - type: BlobRole
+      mindRoles:
+      - MindRoleBlob
 
 - type: entity
   id: BlobSpawn
@@ -72,4 +72,4 @@
     carrierBlobProtos:
     - SpawnPointGhostBlobRat
     playersPerCarrierBlob: 30
-    maxCarrierBlob: 2
+    maxCarrierBlob: 1
