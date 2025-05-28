@@ -1,0 +1,15 @@
+- type: loadout
+  id: LoadoutUniformEngineerGray
+  category: Uniform
+  cost: 0
+  exclusive: true
+  canBeHeirloom: true
+  items:
+    - ClothingUniformJumpskirtEngineerGray
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+      inverted: true
+      departments:
+        - Command
