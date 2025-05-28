@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingBackpackDuffelMedical
   id: ClothingBackpackDuffelSurgeryFilled
-  name: "хірургічна сумка-мішок"
-  description: "Велика сумка для додаткових медичних засобів - ця, здається, призначена для зберігання хірургічних інструментів."
+  name: surgical duffel bag
+  description: "A large duffel bag for holding extra medical supplies - this one seems to be designed for holding surgical tools."
   components:
   - type: StorageFill
     contents:
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle
   id: ClothingBackpackDuffelSyndicateFilledMedical
-  name: "синдикатська хірургічна сумка-мішок"
-  description: "Велика сумка з повним набором хірургічних інструментів."
+  name: syndicate surgical duffel bag
+  description: A large duffel bag containing a full suite of surgical tools.
   components:
   - type: StorageFill
     contents:
@@ -52,8 +52,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledShotgun
-  name: "комплект зі зброєю Бульдог"
-  description: "Худий і злий: Містить популярну рушницю \"Бульдог\", барабан з картеччю на 12 г та 3 барабани з картеччю на 12 г." #, and a pair of Thermal Imaging Goggles.
+  name: Bulldog bundle
+  description: "Lean and mean: Contains the popular Bulldog Shotgun, a 12g beanbag drum and 3 12g buckshot drums." #, and a pair of Thermal Imaging Goggles.
   components:
   - type: StorageFill
     contents:
@@ -66,8 +66,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledSMG
-  name: "комплект з C-20r"
-  description: "Старий, як світ: класичний пістолет-кулемет C-20r у комплекті з трьома магазинами." #, and a Suppressor.
+  name: C-20r bundle
+  description: "Old faithful: The classic C-20r Submachine Gun, bundled with three magazines." #, and a Suppressor.
   components:
   - type: StorageFill
     contents:
@@ -77,8 +77,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledRevolver
-  name: "комплект з Python"
-  description: "З повністю зарядженим Magnum Python, оснащеним двома спідлоудерами, ви будете голосно і гордо заявляти про себе."
+  name: Python bundle
+  description: "Go loud and proud with a fully loaded Magnum Python, bundled with two speed loaders."
   components:
   - type: StorageFill
     contents:
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledLMG
-  name: "комплект з L6 SAW"
-  description: "Більше дакка: культовий кулемет L6 у комплекті з 2 коробчастими магазинами."
+  name: L6 Saw bundle
+  description: "More dakka: The iconic L6 lightmachinegun, bundled with 2 box magazines."
   components:
   - type: StorageFill
     contents:
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
-  name: "комплект з гранатометом China-Lake"
-  description: "Старий гранатомет China-Lake у комплекті з 11 пострілами різого типу."
+  name: China-Lake bundle
+  description: "An old China-Lake grenade launcher bundled with 11 rounds of various destruction capability."
   components:
   - type: StorageFill
     contents:
@@ -114,8 +114,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledCarbine
-  name: "комплект з М-90г"
-  description: "Універсальна бойова гвинтівка з підствольним гранатометом, в комплекті з 3 магазинами та 6 гранатами різної потужності."
+  name: M-90gl bundle
+  description: "A versatile battle rifle with an attached grenade launcher, bundled with 3 magazines and 6 grenades of various capabilities."
   components:
   - type: StorageFill
     contents:
@@ -132,8 +132,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateAmmo
   id: ClothingBackpackDuffelSyndicateAmmoFilled
-  name: "комплект боєприпасів"
-  description: "Перезарядка! Містить 4 магазини для C-20r, 4 барабани для Bulldog, 2 коробки з набоями для L6 SAW і 3 магазини для Burner."
+  name: ammo bundle
+  description: "Reloading! Contains 4 magazines for the C-20r, 4 drums for the Bulldog, 2 ammo boxes for the L6 SAW, and 3 mags for the Burner."
   components:
   - type: StorageFill
     contents:
@@ -153,8 +153,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateAmmo
   id: ClothingBackpackDuffelSyndicateAmmoFilledRubber
-  name: "комплект боєприпасів"
-  description: "Перезарядка! Містить 4 магазини для C-20r, 4 барабани для Bulldog і 2 коробки боєприпасів для L6 SAW."
+  name: ammo bundle
+  description: "Reloading! Contains 4 magazines for the C-20r, 4 drums for the Bulldog, and 2 ammo boxes for the L6 SAW."
   components:
   - type: StorageFill
     contents:
@@ -168,8 +168,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateAmmo
   id: ClothingBackpackDuffelSyndicateAmmoFilledIncendiary
-  name: "комплект боєприпасів"
-  description: "Перезарядка! Містить 4 магазини для C-20r, 4 барабани для Bulldog і 2 коробки боєприпасів для L6 SAW."
+  name: ammo bundle
+  description: "Reloading! Contains 4 magazines for the C-20r, 4 drums for the Bulldog, and 2 ammo boxes for the L6 SAW."
   components:
   - type: StorageFill
     contents:
@@ -183,8 +183,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateAmmo
   id: ClothingBackpackDuffelSyndicateAmmoFilledShrapnel
-  name: "комплект боєприпасів"
-  description: "Перезарядка! Містить 4 магазини для C-20r, 4 барабани для Bulldog і 2 коробки боєприпасів для L6 SAW."
+  name: ammo bundle
+  description: "Reloading! Contains 4 magazines for the C-20r, 4 drums for the Bulldog, and 2 ammo boxes for the L6 SAW."
   components:
   - type: StorageFill
     contents:
@@ -198,8 +198,8 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelSyndicateCostumeCentcom
-  name: "комплект з офіційним костюмом ЦК"
-  description: "Містить повний комплект офіційної уніформи CentCom, гарнітуру та буфер обміну. Ключі шифрування та ідентифікатор доступу не входять до комплекту."
+  name: CentCom official costume duffel bag
+  description: "Contains a full CentCom Official uniform set, headset and clipboard included. Encryption keys and ID access are not included."
   suffix: DO NOT MAP
   components:
   - type: Tag
@@ -236,8 +236,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateCarpSuit
-  name: "комплект з костюмом коропа"
-  description: "Містить костюм коропа та друзів, з якими можна погратися."
+  name: carp suit duffel bag
+  description: Contains a carp suit and some friends to play with.
   components:
   - type: StorageFill
     contents:
@@ -248,8 +248,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicatePyjamaBundle
-  name: "комплект з піжамою Синдикату"
-  description: "Містить 3 пари піжам Синдикату та 3 плюшевих іграшки для ідеальної ночівлі."
+  name: syndicate pyjama duffel bag
+  description: Contains 3 pairs of syndicate pyjamas and 3 plushies for the ultimate sleepover.
   components:
   - type: Storage
     grid:
@@ -274,8 +274,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateC4tBundle
-  name: "комплект з С-4 Синдикату"
-  description: "Містить багато зарядів С-4."
+  name: syndicate C-4 bundle
+  description: "Contains a lot of C-4 charges."
   components:
   - type: StorageFill
     contents:
@@ -303,8 +303,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateEVABundle
-  name: "комплект EVA Синдикату"
-  description: "Містить затверджений Синдикатом костюм EVA."
+  name: syndicate EVA bundle
+  description: "Contains the Syndicate approved EVA suit."
   components:
   - type: StorageFill
     contents:
@@ -319,8 +319,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateHardsuitBundle
-  name: "комплект хардсьюту Синдикату"
-  description: "Містить фірмовий криваво-червоний костюм Синдикату."
+  name: syndicate hardsuit bundle
+  description: "Contains the Syndicate's signature blood red hardsuit."
   components:
   - type: StorageFill
     contents:
@@ -334,8 +334,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateHardsuitCommanderBundle
-  name: "комплект скафандра синдикату командира"
-  description: "Містить фірмовий криваво-червоний костюм Синдикату."
+  name: syndicate commander hardsuit bundle
+  description: "Contains the Syndicate's signature blood red hardsuit."
   components:
   - type: StorageFill
     contents:
@@ -349,8 +349,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateHardsuitMedicBundle
-  name: "комплект скафандра синдикату медика"
-  description: "Містить фірмовий криваво-червоний костюм Синдикату."
+  name: syndicate medic hardsuit bundle
+  description: "Contains the Syndicate's signature blood red hardsuit."
   components:
   - type: StorageFill
     contents:
@@ -364,8 +364,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
-  name: "комплект елітного хардсьюту Синдикату"
-  description: "Містить елітний хардкостюм Синдикату, до якого додається ще кілька речей."
+  name: syndicate elite hardsuit bundle
+  description: "Contains the Syndicate's elite hardsuit, which comes with some more stuff in it."
   components:
   - type: StorageFill
     contents:
@@ -379,8 +379,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateHardsuitExtrasBundle
-  name: "комплект додаткового спорядження для хардсьюту Синдикату"
-  description: "Містить речі, які ви неодмінно захочете мати при покупці захисного костюма."
+  name: syndicate hardsuit extras bundle
+  description: "Contains stuff that you will absolutely want to have when purchasing a hardsuit."
   components:
   - type: StorageFill
     contents:
@@ -393,8 +393,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelZombieBundle
-  name: "комплект зомбі"
-  description: "Комплект \"все в одному\" для вивільнення нежиті на станції."
+  name: syndicate zombie bundle
+  description: "An all-in-one kit for unleashing the undead upon a station."
   components:
   - type: StorageFill
     contents:
@@ -408,7 +408,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateOperative
-  name: "сумка-мішок оперативника"
+  name: operative duffelbag
   components:
   - type: StorageFill
     contents:
@@ -421,8 +421,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle
   id: ClothingBackpackDuffelSyndicateOperativeMedic
-  name: "сумка-мішок медика-оперативника"
-  description: "Велика сумка для зберігання додаткового медичного приладдя."
+  name: operative medic duffelbag
+  description: A large duffel bag for holding extra medical supplies.
   components:
   - type: StorageFill
     contents:
@@ -441,8 +441,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle
   id: ClothingBackpackDuffelSyndicateMedicalBundleFilled
-  name: "комплект медицини"
-  description: "Все, що вам потрібно, - це повернути товаришів у бій."
+  name: medical bundle
+  description: "All you need to get your comrades back in the fight."
   components:
   - type: StorageFill
     contents:
@@ -463,8 +463,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateDecoyKitFilled
-  name: "комплект приманок"
-  description: "Містить відволікаючі пристрої, як слухові, так і візуальні. Скоро - і з запахами."
+  name: decoy bundle
+  description: "Contains distractions, both auditory and visual. Smell coming soon."
   components:
   - type: StorageFill
     contents:
@@ -482,8 +482,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledFPA90
-  name: "комплект FPA-90"
-  description: "Дешевий пістолет-кулемет з інтегрованим глушником. Магазини продаються окремо."
+  name: FPA-90 bundle
+  description: "A cheap integrally suppressed SMG. Magazines are sold separately."
   components:
   - type: StorageFill
     contents:

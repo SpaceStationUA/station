@@ -1,8 +1,8 @@
 - type: entity
-  name: "сашимі з фінфіна"
+  name: finfin sashimi
   parent: FoodMealBase
   id: FoodMealFinfinSashimi
-  description: "Безсовісний делікатес. Японсько-теонська ф'южн-кухня!"
+  description: An unscrupulous delicacy. Japanese-Teoean fusion cuisine!
   components:
   - type: FlavorProfile
     flavors:
@@ -29,7 +29,7 @@
       Burger: FinfinSashimiBurger
 
 - type: entity
-  name: "Спавнер Освальда"
+  name: Oswald Spawner
   id: SpawnMobPenguinOswald
   parent: MarkerBase
   components:

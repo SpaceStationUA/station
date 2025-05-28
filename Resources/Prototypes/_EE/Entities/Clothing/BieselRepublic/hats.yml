@@ -2,9 +2,9 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, TCFLInfo, BaseClothingRadio]
   id: ClothingHeadHelmetHardsuitTCFLTacsuit
-  name: "Шолом тактичного костюма TCFL"
+  name: TCFL tacsuit helmet
   suffix: TCFL
-  description: "Сучасний шолом, що використовується зі стандартним тактичним костюмом TCFL"
+  description: A modern helmet used with the standard TCFL tacsuit
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCFL_tacsuit_helmet.rsi
@@ -30,9 +30,9 @@
 - type: entity
   parent: [ClothingHeadHelmetBasic, TCFLInfo, BaseClothingRadio]
   id: ClothingHeadHelmetTCFLHeavy
-  name: "Важкий тактичний шолом TCFL"
+  name: TCFL heavy tactical helmet
   suffix: TCFL
-  description: "Значна частина спорядження, що використовується TCFL, перепрофільована зі старого сонячного озброєння. Цей вдосконалений шолом включає балістичний полімерний лицьовий щиток."
+  description: Much of the equipment used by the TCFL is repurposed from older Solarian wargear. This advanced helmet includes a ballistic polymer face shield.
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCAF_tactical_helmet_full.rsi
@@ -65,9 +65,9 @@
 - type: entity
   parent: [ClothingHeadHelmetBasic, TCFLInfo, BaseClothingRadio]
   id: ClothingHeadHelmetTCFLNoVisor
-  name: "Легкий тактичний шолом ЗСТЦ"
+  name: TCAF light tactical helmet
   suffix: TCFL
-  description: "Базовий тактичний шолом, який носять члени Збройних сил Тау-Кита."
+  description: A basic tactical helmet worn by members of the Tau-Ceti Armed Forces.
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCAF_tactical_helmet_novisor.rsi
@@ -77,9 +77,9 @@
 - type: entity
   parent: [ClothingHeadHelmetBasic, TCFLInfo, BaseClothingRadio]
   id: ClothingHeadHelmetTCFLVisor
-  name: "Легкий тактичний шолом ЗСТЦ"
+  name: TCAF light tactical helmet
   suffix: TCFL
-  description: "Базовий тактичний шолом, який носять члени Збройних сил Тау-Кита."
+  description: A basic tactical helmet worn by members of the Tau-Ceti Armed Forces.
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCAF_tactical_helmet_visor.rsi
@@ -89,9 +89,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, TCFLInfo]
   id: ClothingHeadHatTCAFBeretDress
-  name: "Парадний берет TCAF"
+  name: TCAF dress beret
   suffix: TCFL
-  description: "Формальний берет, який носять діючі та колишні члени Збройних Сил Тау-Кіта."
+  description: A formal beret worn by current and former members of the Tau-Ceti Armed Forces.
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCAF_beret_dress.rsi
@@ -101,9 +101,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, TCFLInfo]
   id: ClothingHeadHatTCAFBeretField
-  name: "Польовий берет TCAF"
+  name: TCAF field beret
   suffix: TCFL
-  description: "Польовий берет, який носять діючі та колишні члени Збройних Сил Тау-Кіта."
+  description: A field beret worn by current and former members of the Tau-Ceti Armed Forces.
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCAF_beret_field.rsi
@@ -113,9 +113,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, TCFLInfo]
   id: ClothingHeadHatTCFLBeretDress
-  name: "Парадний берет TCFL"
+  name: TCFL dress beret
   suffix: TCFL
-  description: "Парадний берет, який носять діючі та колишні члени Іноземного легіону Тау-Кіта. Цей берет часто можна побачити в барах по всьому Рукаву Оріона."
+  description: A dress beret worn by current and former members of the Tau-Ceti Foreign Legion. This beret is a common sight in bars all across the Orion Spur.
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCFL_beret_dress.rsi
@@ -125,9 +125,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, TCFLInfo]
   id: ClothingHeadHatTCFLBeretField
-  name: "Польовий берет TCFL"
+  name: TCFL field beret
   suffix: TCFL
-  description: "Польовий берет, який носять діючі та колишні члени Іноземного легіону Тау-Кіта. Цей берет часто можна побачити в барах по всьому Рукаву Оріона."
+  description: A field beret worn by current and former members of the Tau-Ceti Foreign Legion. This beret is a common sight in bars all across the Orion Spur.
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCFL_beret_field.rsi
@@ -137,9 +137,9 @@
 - type: entity
   parent: [ClothingHeadBaseButcherable, TCFLInfo]
   id: ClothingHeadHatTCFLBeretSentinel
-  name: "Берет вартового TCFL"
+  name: TCFL sentinel beret
   suffix: TCFL
-  description: "Парадний берет, який носять елітні члени Іноземного легіону Тау-Кіта."
+  description: A dress beret worn by the elite members of the Tau-Ceti Foreign Legion.
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCFL_beret_sentinel.rsi
@@ -149,9 +149,9 @@
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlippable, TCFLInfo]
   id: ClothingHeadHatTCFLSoftCap
-  name: "М'яка кепка TCFL"
+  name: TCFL soft cap
   suffix: TCFL
-  description: "М'яка вовняна шапка, яку носять діючі та колишні члени Іноземного легіону Тау-Кіта."
+  description: A soft wool hat worn by current and former members of the Tau-Ceti Foreign Legion.
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Helmet/TCFL_softcap.rsi

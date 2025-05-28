@@ -1,8 +1,8 @@
 - type: entity
-  name: "Розторопша"
+  name: CrystalThistle
   parent: FoodProduceBase
   id: FoodCrystalThistle
-  description: "Варіант гадючника, який проріс гострими кварцовими уламками."
+  description: A variant of galaxythistle that has sprouted sharp quartz shards.
   components:
   - type: FlavorProfile
     flavors:
@@ -24,10 +24,10 @@
     grindableSolutionName: food
 
 - type: entity
-  name: "Примарний перець"
+  name: Ghost Pepper
   parent: FoodProduceBase
   id: FoodGhostPepper
-  description: "Так гаряче, що однією ногою в могилі опинишся."
+  description: So hot, you'll have one foot in the grave.
   components:
     - type: FlavorProfile
       flavors:
@@ -57,10 +57,10 @@
       - Vegetable
 
 - type: entity
-  name: "Космічний реваншист"
+  name: Cosmic Revenant
   parent: FoodProduceBase
   id: FoodCosmicRevenant
-  description: "Це взагалі перець? Виглядає... з привидами."
+  description: Is this even a pepper? Looks... Haunted.
   components:
     - type: FlavorProfile
       flavors:

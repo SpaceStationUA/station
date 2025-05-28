@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
   id: ClothingOuterVestWeb
-  name: "розвантажувальний жилет"
-  description: "Синтетичний бронежилет. На цей додали розгрузку та балістичні пластини."
+  name: web vest
+  description: A synthetic armor vest. This one has added webbing and ballistic plates.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/webvest.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingOuterVestWeb #web vest so it should have some pockets for ammo
   id: ClothingOuterVestWebMerc
-  name: "бронежилет найманця"
-  description: "Високоякісний бронежилет, виготовлений з міцного синтетичного матеріалу. Він напрочуд гнучкий та легкий, незважаючи на грізну броню."
+  name: merc web vest
+  description: A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterVestDetective
-  name: "бронежилет детектива"
-  description: "Бронежилет запеклого приватного детектива."
+  name: detective's vest
+  description: A hard-boiled private investigator's armored vest.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/detvest.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterVestHazard
-  name: "сигнальний жилет"
-  description: "Жилет підвищеної видимості, що використовується в робочих зонах."
+  name: hi-viz vest
+  description: A high-visibility vest used in work zones.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/hazard.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVest
-  name: "жилет"
-  description: "Товстий жилет з гумовою, водостійкою оболонкою."
+  name: vest
+  description: A thick vest with a rubbery, water-resistant shell.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVestNt
-  name: "жилет Нанотрейзен"
-  description: "Товстий жилет з гумовою, водонепроникною оболонкою синього кольору."
+  name: nanotrasen vest
+  description: A thick vest with a rubbery, water-resistant shell coloured in blue.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest_nt.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVestIdris
-  name: "жилет Idris Incorporated"
-  description: "Товстий жилет з гумовою, водонепроникною оболонкою кольору чаплі."
+  name: idris incorporated vest
+  description: A thick vest with a rubbery, water-resistant shell coloured in teal.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest_idris.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVestOrion
-  name: "жилет Orion Express"
-  description: "Товстий жилет з гумовою, водонепроникною оболонкою коричневого кольору."
+  name: orion express vest
+  description: A thick vest with a rubbery, water-resistant shell coloured in brown.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest_orion.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterVestColorable
-  name: "жилет"
-  description: "Ви зацікавлені в тому, щоб виглядати добре, і цей жилет - ідеальний вибір для досягнення цієї мети!"
+  name: vest
+  description: You have a vested interest in looking good, and this vest is the vest choice to achieve that!
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest_colorable.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: ClothingOuterFoldableBase
   id: ClothingOuterVestThick
-  name: "товстий жилет"
-  description: "Жилет зі штучної шкіри."
+  name: thick vest
+  description: A vest made of synthetic leather.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/vest_thick.rsi
@@ -156,8 +156,8 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterVestBlueshield
-  name: "бронежилет синього щита"
-  description: "Це жилет, а не желе!.."
+  name: blueshield vest
+  description: Це желет а не желе!.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/blueshield.rsi

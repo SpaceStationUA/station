@@ -1,11 +1,11 @@
 ﻿- type: construction
-  name: "комп'ютер"
+  name: computer
   id: Computer
   graph: Computer
   startNode: start
   targetNode: computer
   category: construction-category-machines
-  description: "Рама, яка використовується для побудови чого-небудь з комп'ютерною платою."
+  description: A frame used to construct anything with a computer circuitboard.
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
@@ -13,8 +13,8 @@
     state: 4
 
 - type: construction
-  name: "рама машини"
-  description: "Машина на стадії будівництва. Потрібно більше деталей."
+  name: machine frame
+  description: A machine under construction. Needs more parts.
   id: MachineFrame
   graph: Machine
   startNode: start
@@ -28,13 +28,13 @@
 
 # Switching
 - type: construction
-  name: "двосторонній важіль"
+  name: two-way lever
   id: TwoWayLeverRecipe
   graph: LeverGraph
   startNode: start
   targetNode: LeverNode
   category: construction-category-machines
-  description: "Важіль для керування машинами. Має 3 режими."
+  description: A lever to control machines. It has 3 modes.
   objectType: Structure
   canBuildInImpassable: false
   icon:
@@ -44,13 +44,13 @@
     - !type:TileNotBlocked
 
 - type: construction
-  name: "вимикач світла"
+  name: light switch
   id: LightSwitchRecipe
   graph: LightSwitchGraph
   startNode: start
   targetNode: LightSwitchNode
   category: construction-category-machines
-  description: "Вимикач для ввімкнення/вимкнення світла, підключеного до того ж АПЦ."
+  description: A switch for toggling lights that are connected to the same apc.
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -62,13 +62,13 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: "сигнальний вимикач"
+  name: signal switch
   id: SignalSwitchRecipe
   graph: SignalSwitchGraph
   startNode: start
   targetNode: SignalSwitchNode
   category: construction-category-machines
-  description: "Це вимикач для ввімкнення/вимкнення живлення."
+  description: It's a switch for toggling power to things.
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -80,13 +80,13 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: "сигнальна кнопка"
+  name: signal button
   id: SignalButtonRecipe
   graph: SignalButtonGraph
   startNode: start
   targetNode: SignalButtonNode
   category: construction-category-machines
-  description: "Це кнопка для активації чогось."
+  description: It's a button for activating something.
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -98,13 +98,13 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: "направлений вимикач світла"
+  name: directional light switch
   id: LightSwitchDirectionalRecipe
   graph: LightSwitchDirectionalGraph
   startNode: start
   targetNode: LightSwitchDirectionalNode
   category: construction-category-machines
-  description: "Вимикач для ввімкнення/вимкнення світла, підключеного до того ж АПЦ."
+  description: A switch for toggling lights that are connected to the same apc.
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -116,13 +116,13 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: "направлений сигнальний вимикач"
+  name: directional signal switch
   id: SignalSwitchDirectionalRecipe
   graph: SignalSwitchDirectionalGraph
   startNode: start
   targetNode: SignalSwitchDirectionalNode
   category: construction-category-machines
-  description: "Це вимикач для ввімкнення/вимкнення живлення."
+  description: It's a switch for toggling power to things.
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on
@@ -134,13 +134,13 @@
     - !type:WallmountCondition
 
 - type: construction
-  name: "направлена сигнальна кнопка"
+  name: directional signal button
   id: SignalButtonDirectionalRecipe
   graph: SignalButtonDirectionalGraph
   startNode: start
   targetNode: SignalButtonDirectionalNode
   category: construction-category-machines
-  description: "Це кнопка для активації чогось."
+  description: It's a button for activating something.
   icon:
     sprite: Structures/Wallmounts/switch.rsi
     state: on

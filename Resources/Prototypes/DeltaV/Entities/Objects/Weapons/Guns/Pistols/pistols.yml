@@ -1,8 +1,8 @@
 - type: entity
-  name: "гадюка"
+  name: viper
   parent: BaseWeaponPistol
   id: WeaponPistolViperWood
-  description: "Невеликий, малопотужний пістолет з приємними лакованими дерев'яними ручками. Використовує автоматичні набої калібру .35."
+  description: A small, low-power pistol with pleasant lacquered wooden grips. Uses .35 auto ammo.
   suffix: Wood
   components:
   - type: Sprite
@@ -34,19 +34,20 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: "гадюка"
+  name: viper
   parent: WeaponPistolViperWood
   id: WeaponPistolViperWoodSecurity
-  description: "Невеликий, малопотужний пістолет з приємними лакованими дерев'яними ручками. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: A small, low-power pistol with pleasant lacquered wooden grips. Uses .35 auto ammo.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: "Минтай"
+  name: Pollock
   parent: BaseWeaponPistol
   id: WeaponPistolPollock
-  description: "Компактний та серійний бойовий пістолет. Використовує автоматичні набої калібру .35."
+  description: A compact and mass-produced combat pistol. Uses .35 auto ammo.
   suffix: Mercenary
   components:
   - type: Sprite
@@ -82,16 +83,17 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: "Минтай"
+  name: Pollock
   parent: WeaponPistolPollock
   id: WeaponPistolPollockSecurity
-  description: "Компактний та серійний бойовий пістолет. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
+  description: A compact and mass-produced combat pistol. Uses .35 auto ammo.
+               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
   components:
   - type: GuideHelp
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: "Минтай"
+  name: Pollock
   parent: WeaponPistolPollockSecurity
   id: WeaponPistolPollockNonlethalSecurity
   components:
@@ -118,10 +120,10 @@
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: "пси-зломщик"
+  name: psi-breaker
   parent: BaseWeaponPistol
   id: WeaponPistolPsiBreaker
-  description: "Невеликий, яскравий пістолет з мармуровою рукояткою. Тактичної переваги не дає. Використовує спеціальні набої калібру .38."
+  description: A small, flashy pistol with a marble style grip. Provides no tactical advantage. Uses .38 special ammo.
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Weapons/Guns/Pistols/psibreaker.rsi
@@ -155,11 +157,11 @@
       gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: "кремінний замок"
+  name: flintlock
   suffix: "craftable"
   parent: WeaponPistolFlintlock
   id: WeaponPistolFlintlockCrafted
-  description: "Старий кремінний замок, схожий на бандитську війну 1800-х років. Використовує мушкетні патрони."
+  description: An old flintlock, feels like 1800s gang warfare. Uses musket cartridges.
   components:
   - type: BallisticAmmoProvider
     whitelist:
