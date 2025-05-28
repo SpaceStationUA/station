@@ -14,3 +14,5 @@ admin-verb-text-make-head-rev = Зробити Гол. Реви
 admin-verb-text-make-thief = Зробити Злодія
 admin-overlay-antag-classic = АНТАГ
 admin-verb-text-make-vampire = Зробити Вампіром
+admin-verb-make-shadowling = Перетворити ціль на тіневика.
+admin-verb-text-make-shadowling = Зробити Тіневиком
