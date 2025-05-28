@@ -7,6 +7,7 @@ using Content.Shared._Impstation.CosmicCult;
 using Content.Server.Atmos.Components;
 using Content.Server.Body.Components;
 using Content.Server.Bible.Components;
+using Content.Shared._Goobstation.Bible;
 using Robust.Shared.Audio.Systems;
 using Content.Shared.Temperature.Components;
 using Content.Shared.Popups;
