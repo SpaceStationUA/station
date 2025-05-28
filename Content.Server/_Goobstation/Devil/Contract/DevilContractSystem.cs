@@ -51,10 +51,13 @@ public sealed partial class DevilContractSystem : EntitySystem
 
     private ISawmill _sawmill = null!;
 
+    private readonly Dictionary<string, string> _ukrainianClauseToIdMap = new();
+
     public override void Initialize()
     {
         base.Initialize();
         InitializeRegex();
+        InitializeUkrainianClauseMap();
         InitializeSpecialActions();
 
         SubscribeLocalEvent<DevilContractComponent, BeingSignedAttemptEvent>(OnContractSignAttempt);
@@ -83,6 +86,39 @@ public sealed partial class DevilContractSystem : EntitySystem
         _clauseRegex = new Regex($@"^\s*(?<target>{targetPattern})\s*:\s*(?<clause>.+?)\s*$",
             RegexOptions.IgnoreCase | RegexOptions.Compiled | RegexOptions.Multiline);
     }
+
+    private void InitializeUkrainianClauseMap()
+    {
+        _ukrainianClauseToIdMap["правовласностінадушу"] = "soulownership";
+        _ukrainianClauseToIdMap["смерть"] = "death";
+        _ukrainianClauseToIdMap["слабкість"] = "weakness";
+        _ukrainianClauseToIdMap["страхкосмосу"] = "fearofspace";
+        _ukrainianClauseToIdMap["тіні"] = "shadows";
+        _ukrainianClauseToIdMap["страхсмерті"] = "fearofdeath";
+        _ukrainianClauseToIdMap["страхвогню"] = "fearoffire";
+        _ukrainianClauseToIdMap["шанс"] = "chance";
+        _ukrainianClauseToIdMap["розкішнікроси"] = "brokeness";
+        _ukrainianClauseToIdMap["страхсвітла"] = "fearoflight";
+        _ukrainianClauseToIdMap["обжерливість"] = "gluttony";
+        _ukrainianClauseToIdMap["страхелектрики"] = "fearofelectricity";
+        _ukrainianClauseToIdMap["жадібність"] = "greed";
+        _ukrainianClauseToIdMap["безболісність"] = "pain";
+        _ukrainianClauseToIdMap["внутрішнійспокій"] = "innerpeace";
+        _ukrainianClauseToIdMap["вразливість"] = "strength";
+        _ukrainianClauseToIdMap["втраталюдяності"] = "humanity";
+        _ukrainianClauseToIdMap["незв'язність"] = "coherence";
+        _ukrainianClauseToIdMap["втратаголосу"] = "voice";
+        _ukrainianClauseToIdMap["втратаруки"] = "ahand";
+        _ukrainianClauseToIdMap["втратаноги"] = "aleg";
+        _ukrainianClauseToIdMap["нарколепсія"] = "awake";
+        _ukrainianClauseToIdMap["паралічніг"] = "legs";
+        _ukrainianClauseToIdMap["втратаоргану"] = "anorgan";
+        _ukrainianClauseToIdMap["втратазору"] = "sight";
+        _ukrainianClauseToIdMap["втратаволідоборотьби"] = "willtofight";
+        _ukrainianClauseToIdMap["відлікчасу"] = "time";
+        _ukrainianClauseToIdMap["безсмертя"] = "mortality";
+    }
+
     private void OnGetVerbs(Entity<DevilContractComponent> contract, ref GetVerbsEvent<AlternativeVerb> args)
     {
         if (!args.CanInteract
@@ -261,8 +297,15 @@ public sealed partial class DevilContractSystem : EntitySystem
                 continue;
 
             var clauseKey = match.Groups["clause"].Value.Trim().ToLowerInvariant().Replace(" ", "");
+            var finalClauseId = clauseKey;
 
-            if (!_prototypeManager.TryIndex(clauseKey, out DevilClausePrototype? clauseProto)
+            if (_ukrainianClauseToIdMap.TryGetValue(clauseKey, out var mappedId))
+            {
+                finalClauseId = mappedId;
+                _sawmill.Debug($"Mapped Ukrainian clause '{clauseKey}' to ID '{finalClauseId}' for weight calculation.");
+            }
+
+            if (!_prototypeManager.TryIndex(finalClauseId, out DevilClausePrototype? clauseProto)
                 || !contract.Comp.CurrentClauses.Add(clauseProto))
                 continue;
 
@@ -289,6 +332,13 @@ public sealed partial class DevilContractSystem : EntitySystem
 
             var targetKey = match.Groups["target"].Value.Trim().ToLowerInvariant().Replace(" ", "");
             var clauseKey = match.Groups["clause"].Value.Trim().ToLowerInvariant().Replace(" ", "");
+            var finalClauseId = clauseKey;
+
+            if (_ukrainianClauseToIdMap.TryGetValue(clauseKey, out var mappedId))
+            {
+                finalClauseId = mappedId;
+                _sawmill.Debug($"Mapped Ukrainian clause '{clauseKey}' to ID '{finalClauseId}' for applying effects.");
+            }
 
             var locId = _targetResolvers.Keys.FirstOrDefault(id => Loc.GetString(id).Equals(targetKey, StringComparison.OrdinalIgnoreCase));
             var resolver = _targetResolvers[locId];
@@ -299,16 +349,16 @@ public sealed partial class DevilContractSystem : EntitySystem
                 continue;
             }
 
-            if (!_prototypeManager.TryIndex(clauseKey, out DevilClausePrototype? clause))
+            if (!_prototypeManager.TryIndex(finalClauseId, out DevilClausePrototype? clause))
             {
-                _sawmill.Warning($"Unknown contract clause: {clauseKey}");
+                _sawmill.Warning($"Unknown contract clause: {finalClauseId} (original from paper: {clauseKey})");
                 continue;
             }
 
             // no duplicates
-            if (!processedClauses.Add(clauseKey))
+            if (!processedClauses.Add(finalClauseId))
             {
-                _sawmill.Warning($"Attempted to apply duplicate clause: {clauseKey} on contract {ToPrettyString(contract)}");
+                _sawmill.Warning($"Attempted to apply duplicate clause: {finalClauseId} (original from paper: {clauseKey}) on contract {ToPrettyString(contract)}");
                 continue;
             }
 
@@ -318,7 +368,7 @@ public sealed partial class DevilContractSystem : EntitySystem
             if (targetEntity is not null)
                 ApplyEffectToTarget(targetEntity.Value, clause, contract);
             else
-                _sawmill.Warning($"Invalid target entity from resolver for clause {clauseKey} in contract {ToPrettyString(contract)}");
+                _sawmill.Warning($"Invalid target entity from resolver for clause {finalClauseId} (original from paper: {clauseKey}) in contract {ToPrettyString(contract)}");
         }
     }
 

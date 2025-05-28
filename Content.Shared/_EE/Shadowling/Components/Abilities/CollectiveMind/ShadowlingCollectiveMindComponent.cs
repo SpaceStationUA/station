@@ -63,7 +63,7 @@ public sealed partial class ShadowlingCollectiveMindComponent : Component
         },
         new ShadowlingActionData()
         {
-            UnlockAtThralls = 20,
+            UnlockAtThralls = 15,
             ActionPrototype = "ActionAscendance",
             ActionComponentName = "ShadowlingAscendance"
         }
@@ -76,7 +76,7 @@ public sealed partial class ShadowlingCollectiveMindComponent : Component
     public int AmountOfThralls;
 
     [DataField]
-    public int ThrallsRequiredForAscension = 20;
+    public int ThrallsRequiredForAscension = 15;
 
     [DataField]
     public float BaseStunTime = 0.5f;
