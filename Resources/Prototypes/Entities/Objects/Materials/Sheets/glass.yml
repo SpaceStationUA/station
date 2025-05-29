@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: SheetGlassBase
-  name: glass
-  description: A sheet of glass, used often on the station in various applications.
+  name: "скло"
+  description: "Лист скла, який часто використовується на станції в різних сферах."
   components:
   - type: Sprite
     sprite: Objects/Materials/Sheets/glass.rsi
@@ -143,8 +143,8 @@
 - type: entity
   parent: SheetGlassBase
   id: SheetRGlass
-  name: reinforced glass
-  description: A reinforced sheet of glass.
+  name: "армоване скло"
+  description: "Армований лист скла."
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -213,7 +213,7 @@
 - type: entity
   parent: SheetRGlass
   id: SheetRGlass1
-  name: reinforced glass
+  name: "армоване скло"
   suffix: Single
   components:
   - type: Sprite
@@ -238,7 +238,7 @@
 - type: entity
   parent: SheetRGlass
   id: SheetRGlass10
-  name: reinforced glass
+  name: "армоване скло"
   suffix: Single
   components:
   - type: Sprite
@@ -250,8 +250,8 @@
 - type: entity
   parent: SheetGlassBase
   id: SheetPGlass
-  name: plasma glass
-  description: A sheet of translucent plasma.
+  name: "плазмове скло"
+  description: "Лист напівпрозорої плазми."
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -316,7 +316,7 @@
 - type: entity
   parent: SheetPGlass
   id: SheetPGlass1
-  name: plasma glass
+  name: "плазмове скло"
   suffix: Single
   components:
   - type: Sprite
@@ -339,7 +339,7 @@
 - type: entity
   parent: SheetPGlass
   id: SheetPGlass10
-  name: plasma glass
+  name: "плазмове скло"
   suffix: 10
   components:
   - type: Sprite
@@ -351,8 +351,8 @@
 - type: entity
   parent: SheetPGlass
   id: SheetRPGlass
-  name: reinforced plasma glass
-  description: A reinforced sheet of translucent plasma.
+  name: "армоване плазмове скло"
+  description: "Армований лист напівпрозорої плазми."
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -407,7 +407,7 @@
 - type: entity
   parent: SheetRPGlass
   id: SheetRPGlass1
-  name: reinforced plasma glass
+  name: "армоване плазмове скло"
   suffix: Single
   components:
   - type: Sprite
@@ -419,7 +419,7 @@
 - type: entity
   parent: SheetRPGlass
   id: SheetRPGlass10
-  name: reinforced plasma glass
+  name: "армоване плазмове скло"
   suffix: Single
   components:
   - type: Sprite
@@ -431,8 +431,8 @@
 - type: entity
   parent: SheetGlassBase
   id: SheetUGlass
-  name: uranium glass
-  description: A sheet of uranium glass.
+  name: "уранове скло"
+  description: "Лист уранового скла."
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -508,7 +508,7 @@
 - type: entity
   parent: SheetUGlass
   id: SheetUGlass1
-  name: uranium glass
+  name: "уранове скло"
   suffix: Single
   components:
   - type: Sprite
@@ -520,7 +520,7 @@
 - type: entity
   parent: SheetUGlass
   id: SheetUGlass10
-  name: uranium glass
+  name: "уранове скло"
   suffix: 10
   components:
   - type: Sprite
@@ -532,8 +532,8 @@
 - type: entity
   parent: SheetUGlass
   id: SheetRUGlass
-  name: reinforced uranium glass
-  description: A reinforced sheet of uranium.
+  name: "армоване уранове скло"
+  description: "Армований лист уранового скла."
   components:
   - type: PhysicalComposition
     materialComposition:
@@ -587,7 +587,7 @@
 - type: entity
   parent: SheetRUGlass
   id: SheetRUGlass1
-  name: reinforced uranium glass
+  name: "армоване уранове скло"
   suffix: Single
   components:
   - type: Sprite
@@ -599,7 +599,7 @@
 - type: entity
   parent: SheetRUGlass
   id: SheetRUGlass10
-  name: reinforced uranium glass
+  name: "армоване уранове скло"
   suffix: 10
   components:
   - type: Sprite
@@ -611,8 +611,8 @@
 - type: entity
   parent: SheetGlassBase
   id: SheetClockworkGlass
-  name: clockwork glass
-  description: A sheet of brass-hardened glass, primarily used by clockwork enthusiasts and remnants of Ratvarian cults.
+  name: "годинникове скло"
+  description: "Армований латунню лист скла."
   suffix: Full
   components:
   - type: PhysicalComposition
@@ -676,7 +676,7 @@
 - type: entity
   parent: SheetClockworkGlass
   id: SheetClockworkGlass1
-  name: clockwork glass
+  name: "годинникове скло"
   suffix: Single
   components:
   - type: Sprite
@@ -688,7 +688,7 @@
 - type: entity
   parent: SheetClockworkGlass
   id: SheetClockworkGlass10
-  name: clockwork glass
+  name: "годинникове скло"
   suffix: 10
   components:
   - type: Sprite

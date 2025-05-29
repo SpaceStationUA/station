@@ -1,8 +1,8 @@
 - type: entity
-  name: bang severer
+  name: "палка уєбалка"
   parent: BaseItem
   id: MeleeDebugSever
-  description: sever yer parts a week from now
+  description: "ярр, через тиждень розірвемо на частини"
   suffix: DEBUG
   components:
   - type: Tag
@@ -21,7 +21,7 @@
     sprite: Objects/Weapons/Melee/debug.rsi
 
 - type: entity
-  name: bang severer 100dmg
+  name: "палка уєбалка 100дмг"
   parent: MeleeDebugSever
   id: MeleeDebugSever100
   components:
@@ -34,7 +34,7 @@
         Slash: 100
 
 - type: entity
-  name: bang severer 200dmg
+  name: "палка уєбалка 200дмг"
   parent: MeleeDebugSever
   id: MeleeDebugSever200
   components:
@@ -47,10 +47,10 @@
         Slash: 200
 
 - type: entity
-  name: bang burner
+  name: "вибуховий пальник\""
   parent: BaseItem
   id: MeleeDebugBurner
-  description: burn yer parts
+  description: "деталі пальника"
   suffix: DEBUG
   components:
   - type: Tag
@@ -69,7 +69,7 @@
     sprite: Objects/Weapons/Melee/debug.rsi
 
 - type: entity
-  name: bang burner 200dmg
+  name: "bang burner 200дмг"
   parent: MeleeDebugBurner
   id: MeleeDebugBurner200
   components:

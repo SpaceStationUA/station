@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseHandheldInstrument
   id: Rickenbacker4003Instrument
-  name: Rickenbacker
-  description: Just a regular bass guitar.
+  name: "Рікенбекер"
+  description: "Звичайна бас-гітара."
   components:
   - type: Instrument
     program: 33
@@ -35,9 +35,9 @@
 - type: entity
   parent: Rickenbacker4003Instrument
   id: Rickenbacker4001Instrument
-  name: Rickenbacker
+  name: "Рікенбекер"
   suffix: Antag
-  description: It's the climax!
+  description: "Це кульмінація!"
   components:
   - type: MeleeWeapon
     soundHit:

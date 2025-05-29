@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingModsuitStandard, TCFLInfo]
   id: ClothingModsuitTCFLLegionnaire
-  name: TCFL-Legionnaire modsuit control
-  description: The main controller for a Legionnaire modsuit. It's likeness is worn by commissioned officers in the Tau Ceti Foreign Legion.
+  name: "Керування мод-костюмом Легіонера TCFL"
+  description: "Основний контролер для мод-костюма Легіонера. Його копію носять офіцери Іноземного легіону Тау-Кіта."
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/Modsuits/legionnaire.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: [ClothingModsuitGauntletsStandard, TCFLInfo]
   id: ClothingModsuitGauntletsTCFLLegionnaire
-  name: TCFL-Legionnaire modsuit gauntlets
-  description: A pair of gauntlets made for for the Legionnaire modsuit.
+  name: "Рукавиці мод-костюма Легіонера TCFL"
+  description: "Пара рукавиць, виготовлених для мод-костюма Легіонера."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -41,8 +41,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, TCFLInfo, ShowSecurityIcons, BaseClothingRadio]
   id: ClothingModsuitHelmetTCFLLegionnaire
-  name: TCFL-Legionnaire modsuit helmet
-  description: A state-of-the-art helmet designed by NanoTrasen for the Legionnaire modsuit. It includes a built-in HUD.
+  name: "Шолом мод-костюма Легіонера TCFL"
+  description: "Сучасний шолом, розроблений NanoTrasen для мод-костюма Легіонера. Він має вбудований HUD."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -77,8 +77,8 @@
 - type: entity
   parent: [ClothingModsuitChestplateStandard, TCFLInfo]
   id: ClothingModsuitChestplateTCFLLegionnaire
-  name: TCFL-Legionnaire modsuit chestplate
-  description: A state of the art chestplate designed by NanoTrasen for the Legionnaire Modsuit. It incorporates powered servos to reduce the equipment load.
+  name: "Нагрудник мод-костюма Легіонера TCFL"
+  description: "Сучасний нагрудник, розроблений NanoTrasen для мод-костюма Легіонера. Він містить силові сервоприводи для зменшення навантаження від спорядження."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -124,8 +124,8 @@
 - type: entity
   parent: [ClothingModsuitBootsStandard, TCFLInfo]
   id: ClothingModsuitBootsTCFLLegionnaire
-  name: TCFL-Legionnaire modsuit boots
-  description: A state-of-the-art pair of magboots for the Legionnaire modsuit. So long as the suit is powered, these will not slow the wearer down.
+  name: "Черевики мод-костюма Легіонера TCFL"
+  description: "Сучасна пара магнітних черевиків для мод-костюма Легіонера. Поки костюм живиться, вони не сповільнюватимуть користувача."
   categories: [HideSpawnMenu]
   components:
     - type: Appearance

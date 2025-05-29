@@ -3,8 +3,8 @@
   parent:
   - MobNonHumanHostileBase
   id: BaseMobFleshExpeditions
-  name: aberrant flesh
-  description: A shambling mass of flesh, animated through anomalous energy.
+  name: "аберантна плоть"
+  description: "Хитка маса плоті, анімована аномальною енергією."
   abstract: true
   components:
   - type: HTN
@@ -232,8 +232,8 @@
 - type: entity
   parent: BaseMobFleshExpeditions
   id: MobHorrorExpeditions
-  name: aberrant flesh horror
-  description: Not so shambling mass of flesh with menacing bone spikes protruding from its unnaturally elongated fingers.
+  name: "жах аберантної плоті"
+  description: "Не така вже й хитка маса плоті з грізними кістяними шипами, що стирчать з її неприродно витягнутих пальців."
   components:
   - type: Sprite
     layers:
@@ -270,8 +270,8 @@
 - type: entity
   parent: BaseMobFleshExpeditions
   id: MobMawExpeditions
-  name: aberrant flesh maw
-  description: Don't put your fingers in it. Unless?..
+  name: "паща аберантної плоті"
+  description: "Не засовуйте туди пальці. Хіба що?.."
   components:
   - type: DamageOtherOnHit
     damage:

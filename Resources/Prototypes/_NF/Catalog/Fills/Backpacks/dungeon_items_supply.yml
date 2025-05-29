@@ -1,6 +1,6 @@
 # Clutter
 - type: entity
-  name: random clutter
+  name: "випадковий мотлох"
   id: SpawnDungeonLootClutterSalvage
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Salvaging"
@@ -30,7 +30,7 @@
 
 # Tools
 - type: entity
-  name: random tool
+  name: "випадковий інструмент"
   id: SpawnDungeonLootToolsSalvage
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Salvaging"
@@ -68,7 +68,7 @@
 
 # Clothes
 - type: entity
-  name: random clothes
+  name: "випадковий одяг"
   id: SpawnDungeonLootClothesSalvage
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Salvage"
@@ -101,7 +101,7 @@
     rareChance: 0.01
 
 - type: entity
-  name: random hardsuits
+  name: "випадкові скафандри"
   id: SpawnDungeonLootHardsuitsSalvage
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Salvage"
@@ -128,7 +128,7 @@
 
 # Lockers
 - type: entity
-  name: random locker
+  name: "випадкова шафка"
   id: SpawnDungeonLootLockersSalvage
   parent: MarkerBase
   suffix: "Dungeon, Salvaging"
@@ -158,7 +158,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: random suit storage unit
+  name: "випадковий блок зберігання костюмів"
   id: SpawnDungeonLootSuitStorageUnitsSalvage
   parent: MarkerBase
   suffix: "Dungeon, Salvaging"
@@ -186,7 +186,7 @@
 
 # Machines
 - type: entity
-  name: random machine techfab
+  name: "випадковий верстат техфаб"
   id: SpawnDungeonLootLatheSalvage
   parent: MarkerBase
   suffix: "Dungeon, Salvaging"
@@ -213,7 +213,7 @@
     rareChance: 0.05
 
 - type: entity
-  name: random vendomats
+  name: "випадкові вендомати"
   id: SpawnDungeonVendomatsSalvage
   parent: MarkerBase
   suffix: "Dungeon, Salvaging"
@@ -241,7 +241,7 @@
 
 # Other
 - type: entity
-  name: random machine board
+  name: "випадкова плата машини"
   id: SpawnDungeonLootCircuitBoardSalvage
   parent: MarkerBasePlaceFree
   suffix: "Dungeon, Salvaging"

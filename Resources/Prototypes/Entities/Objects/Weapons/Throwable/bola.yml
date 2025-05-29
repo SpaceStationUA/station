@@ -1,11 +1,11 @@
 # Goob edit - energy bola
 
 - type: entity
-  name: bola
+  name: "імпровізована бола"
   abstract: true
   id: BaseBola
   parent: BaseItem
-  description: High velocity entanglement tool.
+  description: "Високошвидкісний інструмент для заплутування."
   components:
   - type: Item
     size: Normal
@@ -30,10 +30,10 @@
     canMoveBreakout: true
 
 - type: entity
-  name: bola
+  name: "імпровізована бола"
   parent: [BaseBola]
   id: Bola
-  description: Linked together with some spare cuffs and metal.
+  description: "Проста зброя для того, щоб підставити комусь підніжку на відстані."
   components:
   - type: Construction
     graph: Bola
@@ -59,10 +59,10 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: energy bola
+  name: "енергетична бола"
   id: BolaEnergy
   parent: BaseBola
-  description: An advanced hardlight criminal entangling tool. Otherwise known as an expensive piece of string.
+  description: "Просунутий інструмент для заплутування злочинців з жорстким світлом. Інакше відомий як дорогий шматок мотузки."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Throwable/energy_bola.rsi

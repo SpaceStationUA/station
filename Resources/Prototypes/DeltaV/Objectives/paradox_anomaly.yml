@@ -11,7 +11,7 @@
 - type: entity
   parent: BaseParadoxAnomalyObjective
   id: ParadoxAnomalyKillObjective
-  description: This universe doesn't have room for both of us.
+  description: "У цьому всесвіті немає місця для нас обох."
   components:
   - type: Objective
     icon:
@@ -26,7 +26,7 @@
 - type: entity
   parent: BaseParadoxAnomalyObjective
   id: ParadoxAnomalyFriendObjective
-  description: Perhaps there is room, as friends.
+  description: "Можливо, знайдеться місце, як для друзів."
   components:
   - type: Objective
     icon:
@@ -40,8 +40,8 @@
 - type: entity
   parent: [BaseParadoxAnomalyObjective, BaseLivingObjective]
   id: ParadoxAnomalyEscapeObjective
-  name: Escape to centcom alive and unrestrained.
-  description: This is your universe now.
+  name: "Втекти до ЦК живим і неушкодженим."
+  description: "Тепер це твій всесвіт."
   components:
   - type: Objective
     icon:

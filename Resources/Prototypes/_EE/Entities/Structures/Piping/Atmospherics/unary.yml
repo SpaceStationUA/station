@@ -1,8 +1,8 @@
 - type: entity
   parent: GasVentPump
   id: GasVentPumpHighFlow
-  name: high pressure air vent
-  description: A pipe with an attached high-flow pump. It can handle three times the pressure of a standard vent.
+  name: "повітряний вентиль високого тиску"
+  description: "Труба з приєднаним насосом високого потоку. Він може витримувати втричі більший тиск, ніж стандартний вентиль."
   placement:
     mode: SnapgridCenter
   components:
@@ -13,8 +13,8 @@
 - type: entity
   parent: GasVentScrubber
   id: GasVentScrubberHighFlow
-  name: high pressure air scrubber
-  description: A pipe with an attached air scrubber. It can handle three times the pressure of a standard scrubber.
+  name: "повітряний скрубер високого тиску"
+  description: "Труба з приєднаним повітряним скрубером. Він може витримувати втричі більший тиск, ніж стандартний скрубер."
   placement:
     mode: SnapgridCenter
   components:
@@ -25,8 +25,8 @@
 - type: entity
   parent: GasOutletInjector
   id: GasOutletInjectorHighFlow
-  name: high pressure air injector
-  description: An air injector designed to handle three times the pressure of a standard injector.
+  name: "інжектор повітря високого тиску"
+  description: "Інжектор повітря, розрахований на роботу з тиском, втричі більшим, ніж у стандартного інжектора."
   placement:
     mode: SnapgridCenter
   components:

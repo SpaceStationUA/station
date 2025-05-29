@@ -1,24 +1,24 @@
 - type: construction
-  name: goblin traditional robes
+  name: "гоблінські традиційні шати"
   id: ClothingOuterCoatRobesGoblinRecipe
   graph: ClothingOuterCoatRobesGoblinGraph
   startNode: start
   targetNode: ClothingOuterCoatRobesGoblinNode
   category: construction-category-clothing
-  description: Traditional robes of goblinkind. Very regal.
+  description: "Традиційні шати гоблінів. Дуже королівські."
   icon:
     sprite: _NF/Clothing/OuterClothing/Coats/goblin_robes.rsi
     state: icon
   objectType: Item
 
 - type: construction
-  name: goblin traditional EVA robes
+  name: "гоблінські традиційні халати з ЕВА"
   id: ClothingOuterEVASuitGoblinRecipe
   graph: ClothingOuterEVASuitGoblinGraph
   startNode: start
   targetNode: ClothingOuterEVASuitGoblinNode
   category: construction-category-clothing
-  description: Traditional robes of goblinkind made EVA-capable. Very regal.
+  description: "Традиційні шати гоблінкіндів, зроблені з EVA. Дуже королівські."
   icon:
     sprite: _NF/Clothing/OuterClothing/Suits/goblin_eva_robes.rsi
     state: icon

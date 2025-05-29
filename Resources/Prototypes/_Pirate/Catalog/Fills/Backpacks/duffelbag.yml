@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackBootsSpeedMagic
-  name: Набір чоботів швидкості
+  name: "комплект чоботів швидкості"
   description: "Містить чоботи швидкості та батарейку яку треба в них вставити"
   suffix: DO NOT MAP
   components:
@@ -15,7 +15,7 @@
 - type: entity
   parent: ClothingBackpackDuffel
   id: ClothingBackpackHolyGrenade
-  name: Набір святих гранат
+  name: "комплект святих ручних гранат"
   description: "Містить святі гранати: 4 відволікаючих, і 1 справжню"
   suffix: DO NOT MAP
   components:
@@ -30,7 +30,7 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledCQC
-  name: CQC bundle
+  name: "Пакет CQC"
   description: "CQC."
   components:
   - type: StorageFill
@@ -47,8 +47,8 @@
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle
   id: ClothingBackpackDuffelSyndicateFilledCSAR
-  name: C-SAR bundle
-  description: "A brand new, top of the line Cybersun Specialist Automatic Rifle, and 3 spare magazines."
+  name: "Пакет C-SAR"
+  description: "Абсолютно нова, найкраща автоматична гвинтівка Cybersun Specialist та 3 запасні магазини."
   components:
   - type: StorageFill
     contents:

@@ -1,7 +1,7 @@
 - type: entity
   id: PartRodentia
   parent: BaseItem
-  name: "rodentia body part"
+  name: "частина тіла роденції"
   abstract: true
   components:
   - type: Sprite
@@ -23,7 +23,7 @@
 
 - type: entity
   id: TorsoRodentia
-  name: "rodentia torso"
+  name: "тулуб роденції"
   parent: PartRodentia
   components:
   - type: Sprite
@@ -35,7 +35,7 @@
 
 - type: entity
   id: HeadRodentia
-  name: "rodentia head"
+  name: "голова роденції"
   parent: PartRodentia
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 
 - type: entity
   id: LeftArmRodentia
-  name: "left rodentia arm"
+  name: "ліва рука роденції"
   parent: PartRodentia
   components:
   - type: Sprite
@@ -68,7 +68,7 @@
 
 - type: entity
   id: RightArmRodentia
-  name: "right rodentia arm"
+  name: "права рука роденції"
   parent: PartRodentia
   components:
   - type: Sprite
@@ -81,7 +81,7 @@
 
 - type: entity
   id: LeftHandRodentia
-  name: "left rodentia hand"
+  name: "ліва долоня роденції"
   parent: PartRodentia
   components:
   - type: Sprite
@@ -94,7 +94,7 @@
 
 - type: entity
   id: RightHandRodentia
-  name: "right rodentia hand"
+  name: "права долоня роденції"
   parent: PartRodentia
   components:
   - type: Sprite
@@ -107,7 +107,7 @@
 
 - type: entity
   id: LeftLegRodentia
-  name: "left rodentia leg"
+  name: "ліва нога роденції"
   parent: PartRodentia
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
 
 - type: entity
   id: RightLegRodentia
-  name: "right rodentia leg"
+  name: "права нога роденції"
   parent: PartRodentia
   components:
   - type: Sprite
@@ -135,7 +135,7 @@
 
 - type: entity
   id: LeftFootRodentia
-  name: "left rodentia foot"
+  name: "ліва ступня роденції"
   parent: PartRodentia
   components:
   - type: Sprite
@@ -148,7 +148,7 @@
 
 - type: entity
   id: RightFootRodentia
-  name: "right rodentia foot"
+  name: "права ступня роденції"
   parent: PartRodentia
   components:
   - type: Sprite

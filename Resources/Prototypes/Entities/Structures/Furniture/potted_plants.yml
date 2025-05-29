@@ -1,8 +1,8 @@
 - type: entity
   id: PottedPlantBase
   parent: BaseStructureDynamic
-  name: potted plant
-  description: A little bit of nature contained in a pot.
+  name: "рослина в горщику"
+  description: "Трохи природи в горщику."
   abstract: true
   components:
   - type: Transform
@@ -111,8 +111,8 @@
 - type: entity
   id: PottedPlantBioluminscent #PottedPlant9 but i didn't want map conflicts
   parent: PottedPlantBase
-  name: "bioluminescent potted plant"
-  description: "It produces light!"
+  name: "біолюмінесцентна рослина в горщику"
+  description: "Він виробляє світло!"
   components:
   - type: Sprite
     state: plant-09
@@ -123,7 +123,7 @@
 - type: entity
   id: PottedPlant10
   parent: PottedPlantBase
-  description: A pretty piece of nature contained in a pot.
+  description: "Гарний шматочок природи в горщику."
   components:
   - type: Sprite
     state: plant-10
@@ -230,7 +230,7 @@
   id: PottedPlantRD #PottedPlant25
   parent: PottedPlantBase
   # DeltaV - Epistemics Department - Replace Research Director with Mystagogue
-  name: Mystagogue's potted plant
+  name: "Кімнатна рослина містагога"
   description: "A gift from the botanical staff, presented after the Mystagogue's reassignment. There's a tag on it that says \"Y'all come back now, y'hear?\"\nIt doesn't look very healthy..."
   # End of modified code
   components:
@@ -242,7 +242,7 @@
 - type: entity
   id: PottedPlant26
   parent: PottedPlantBase
-  description: Is it just me, or is it blinking?
+  description: "Мені здається, чи він блимає?"
   components:
   - type: Sprite
     state: plant-26
@@ -252,8 +252,8 @@
 - type: entity
   id: PottedPlant27
   parent: PottedPlantBase
-  name: plastic potted plant
-  description: A fake, cheap looking, plastic tree. Perfect for people who kill every plant they touch.
+  name: "пластикова рослина в горщику"
+  description: "Фальшиве, дешеве на вигляд, пластикове дерево. Ідеально підходить для людей, які вбивають кожну рослину, до якої торкаються."
   components:
   - type: Sprite
     state: plant-27

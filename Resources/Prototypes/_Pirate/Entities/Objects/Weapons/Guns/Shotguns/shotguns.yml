@@ -1,8 +1,8 @@
 - type: entity
-  name: shotgun
+  name: "дробовик"
   parent: BaseWeaponShotgun
   id: N14WeaponShotgun
-  description: A pump action shotgun..
+  description: "Помпова рушниця."
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Shotguns/pump.rsi
@@ -17,10 +17,10 @@
   # - type: Wieldable
 
 - type: entity
-  name: бойовий дробовик
+  name: "бойовий дробовик"
   parent: BaseWeaponShotgun
   id: N14WeaponAutoShotgun
-  description: It's a magazine-fed automatic shotgun designed for close quarters combat, uses 12 gauge shells.
+  description: "Це автоматична рушниця з магазинним живленням, призначена для ближнього бою, використовує набої 12-го калібру."
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Shotguns/combat_shotgun.rsi
@@ -73,10 +73,10 @@
   - type: Appearance
 
 - type: entity
-  name: дробовик каравану
+  name: "дробовик каравану"
   parent: BaseWeaponShotgun
   id: N14WeaponCaravanShotgun
-  description: The perfect shotgun for a long jorney. works well for hunting brahmins, geckos and fiends, uses 20 gauge shells.
+  description: "Ідеальна рушниця для довгого джорніту. добре підходить для полювання на брамінів, геконів та дияволів, використовує набої 20 калібру."
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Shotguns/caravan_shotgun.rsi
@@ -93,10 +93,10 @@
     proto: ShellShotgun
 
 - type: entity
-  name: riot дробовик
+  name: "бунтівний дробовик"
   parent: BaseItem
   id: N14WeaponRiotShotgun
-  description: A compact semi automatic shotgun used by the police forces of the pre war, chambered in 20 gauge shells.
+  description: "Компактна напівавтоматична рушниця, що використовувалася поліцією в довоєнний час, під набої 20-го калібру."
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/Shotguns/riot_shotgun.rsi

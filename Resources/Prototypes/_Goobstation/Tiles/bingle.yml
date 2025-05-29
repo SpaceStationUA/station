@@ -1,6 +1,6 @@
 - type: tile
   id: FloorBingle
-  name: tiles-bingle-floor
+  name: "tiles-bingle-floor"
   sprite: /Textures/_Goobstation/Tiles/binglefloortile.png
   variants: 4
   placementVariants:
@@ -20,7 +20,7 @@
 - type: entity
   id: FloorTileItemBingle
   parent: FloorTileItemBase
-  name: bingle floor
+  name: "підлога з бінгла"
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Tiles/bingle.rsi
@@ -34,6 +34,6 @@
 
 - type: stack
   id: FloorTileBingle
-  name: bingle floor
+  name: "підлога з бінгла"
   spawn: FloorTileItemBingle
   maxCount: 30
