@@ -74,3 +74,16 @@
   - type: ContainerContainer
     containers:
       cell_slot: !type:ContainerSlot
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesOrangeMeson
+  name: "інженерні окуляри" #less confusion
+  description: "Окуляри помаранчевого кольору з використанням запатентованого полімеру, що забезпечує корекцію зору і захист від пошкоджень очей усіх типів."
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/Eyes/Glasses/orange_meson.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Eyes/Glasses/orange_meson.rsi
+  - type: EyeProtection
+  - type: VisionCorrection
