@@ -1,17 +1,17 @@
 - type: gamePreset
   id: Blob
   alias:
-  - blab
+    - blob
   name: blob-title
+  showInVote: false
   description: blob-description
   minPlayers: 15
-  showInVote: false
   rules:
-  - BlobGameMode
-  - BasicStationEventScheduler
-  - BasicRoundstartVariation
-  - SubGamemodesRule
-
+    - BlobGameMode
+    - SubGamemodesRule
+    - BasicStationEventScheduler
+    - BasicRoundstartVariation
+    - LavalandStormScheduler
 
 - type: gamePreset
   id: Abductor

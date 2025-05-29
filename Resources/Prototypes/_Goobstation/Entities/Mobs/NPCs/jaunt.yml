@@ -1,0 +1,38 @@
+- type: entity
+  id: PolymorphShadowJauntAnimation
+  name: "Невідомо"
+  description: "Ви не можете зрозуміти, що це."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    drawdepth: WallMountedItems
+    sprite: _Goobstation/Mobs/polymorphs.rsi
+    state: shadow_jaunt
+    loop: false
+  - type: TimedDespawn
+    lifetime: 1
+
+- type: entity
+  id: PolymorphShadowJauntEndAnimation
+  name: "Невідомо"
+  description: "Ви не можете зрозуміти, що це."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    drawdepth: WallMountedItems
+    sprite: _Goobstation/Mobs/polymorphs.rsi
+    state: shadow_jaunt_end
+    loop: false
+  - type: TimedDespawn
+    lifetime: 1
+
+- type: entity
+  id: PolymorphShadowJaunt
+  name: "Невідомо"
+  description: "Ви не можете зрозуміти, що це."
+  parent: BaseMobJaunt
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: MovementSpeedModifier
+    baseSprintSpeed: 12
+    baseWalkSpeed: 8

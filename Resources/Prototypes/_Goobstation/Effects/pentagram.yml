@@ -1,0 +1,31 @@
+- type: entity
+  id: Pentagram
+  name: "пентаграма"
+  parent: Acidifier
+  description: "Диявольське коло призову."
+  components:
+  - type: Sprite
+    sprite: /Textures/_Goobstation/Effects/pentagram.rsi
+    drawdepth: BelowMobs
+    noRot: true
+    layers:
+    - state: pentagram
+      shader: unshaded
+  - type: Transform
+    anchored: False
+  - type: TimedDespawn
+    lifetime: 5
+  - type: PointLight
+    color: Red
+    radius: 3
+    energy: 2
+    netsync: false
+
+- type: entity
+  id: PentagramHellHand
+  parent: Pentagram
+  name: "пентаграма та рука"
+  description: "Диявольське коло призову з не менш диявольською рукою."
+  components:
+  - type: SpawnOnDespawn
+    prototype: HellHand

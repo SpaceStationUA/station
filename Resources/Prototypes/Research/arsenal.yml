@@ -206,7 +206,7 @@
   - WeaponPistolUniversal
   # Goobstation R&D Console rework start
   technologyPrerequisites:
-  - BasicWeapons
+  - WeaponPlasmaRifleTech
   position: 3,0
   # Goobstation R&D Console rework end
 
@@ -248,8 +248,8 @@
   - WeaponEnergyTurretStationControlPanelElectronics
   # Goobstation R&D Console rework start
   technologyPrerequisites:
-  - AdvancedWeapons
-  position: 6,-2
+  - PrototypeWeapons
+  position: 5,1
   # Goobstation R&D Console rework end
 
 - type: technology

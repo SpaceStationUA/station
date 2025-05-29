@@ -45,6 +45,7 @@ public enum StationEventMusicType : byte
 {
     Nuke,
     CosmicCult, // Imp edit
+    Shadowling
 }
 
 /// <summary>

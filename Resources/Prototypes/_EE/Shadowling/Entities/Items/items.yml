@@ -1,0 +1,26 @@
+# Anti Thrall Item
+- type: entity
+  parent: BaseItem
+  id: AntiMindControlDevice
+  name: "пристрій проти контролю розуму"
+  description: "Спеціальний пристрій, призначений для скасування контролю над розумом."
+  components:
+  - type: Sprite
+    sprite: _EE/Shadowling/anti_mind_control.rsi
+    state: anti-mind-control
+  - type: Item
+    size: Small
+    sprite: _EE/Shadowling/anti_mind_control.rsi
+  - type: AntiMindControlItem
+    maxCharges: 5
+    currentCharges: 5
+  - type: GuideHelp
+    guides: [ Shadowlings ]
+
+- type: entity
+  parent: ArmBladeChangeling
+  id: LightEaterArmBlade
+  name: "Пожирач Світла"
+  description: "Ручний клинок, що може миттєво прорізати джерела світла та спопелити їх."
+  components:
+  - type: LightEater
