@@ -1,0 +1,334 @@
+# All Abilities
+
+# Pre-Hatch
+
+- type: entity
+  id: ActionHatch
+  name: "Вилупитися"
+  description: "Розпочинає процес вилуплення."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: engage_hatch
+    event: !type:HatchEvent {}
+  - type: ConfirmableAction
+    popup: sling-hatch-engage-popup
+  - type: ShadowlingAction
+
+# Post-Hatch
+- type: entity
+  id: ActionEnthrall
+  name: "Поневолити"
+  description: "Розбиває їхню волю, створюючи поневоленого."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    canTargetSelf: false
+    interactOnMiss: false
+    itemIconStyle: NoItem
+    range: 0.5
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: enthrall
+    event: !type:EnthrallEvent { }
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionGlare
+  name: "Сліпучий Погляд"
+  description: "Темний погляд, що приголомшує, змушує замовкнути та сповільнює вашу ціль."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    canTargetSelf: false
+    interactOnMiss: false
+    itemIconStyle: NoItem
+    useDelay: 30
+    range: 10
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: glare
+    event: !type:GlareEvent { }
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionVeil
+  name: "Завіса"
+  description: "Імпульс темряви, що гасить кожне світло."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    useDelay: 60
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: veil
+    event: !type:VeilEvent { }
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionRapidRehatch
+  name: "Швидке Переродження"
+  description: "Скиньте свою пошкоджену плоть і повстаньте цілими знову."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    useDelay: 60
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: rehatch
+    event: !type:RapidRehatchEvent { }
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionShadowWalk
+  name: "Тіньова Хода"
+  description: "Крокуйте в порожнечу, рухаючись невидимо та безперешкодно."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    useDelay: 45
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: shadow_walk
+    event: !type:ShadowWalkEvent { }
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionIcyVeins
+  name: "Крижані Вени"
+  description: "Пропустіть мороз крізь їхні вени."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    useDelay: 50
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: icy_veins
+    event: !type:IcyVeinsEvent { }
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionDestroyEngines
+  name: "Знищити Двигуни"
+  description: "Знищити двигуни евакуаційного шатла. Затримує шатл на 10 хвилин."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: destroy_engines
+    event: !type:DestroyEnginesEvent { }
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionCollectiveMind
+  name: "Колективний Розум"
+  description: "Збирайте розуми ваших Поневолених та отримуйте різноманітні здібності."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: collective_mind
+    event: !type:CollectiveMindEvent { }
+  - type: ShadowlingAction
+
+# Thrall Required Actions
+
+- type: entity
+  id: ActionBlindnessSmoke
+  name: "Засліплюючий Дим"
+  description: "Зцілюйте своїх та засліплюйте кожного, хто наважиться увійти у ваш туман."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    useDelay: 60
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: blindness_smoke
+    event: !type:BlindnessSmokeEvent { }
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionNullCharge
+  name: "Нульовий Заряд"
+  description: "Станьте біля АРС та перевантажте його сплеском нуліфікуючої сили."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    useDelay: 60
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: null_charge
+    event: !type:NullChargeEvent
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionSonicScreech
+  name: "Звуковий Вереск"
+  description: "Випустіть пронизливий крик, що дезорієнтує всіх, хто його почує."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    useDelay: 30
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: sonic_screech
+    event: !type:SonicScreechEvent
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionBlackRecuperation
+  name: "Чорне Відновлення"
+  description: "Поверніть мертвого Поневоленого до життя або посильте живого. Ви зменшите свою опірність світлу, використовуючи це."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    canTargetSelf: false
+    interactOnMiss: false
+    itemIconStyle: NoItem
+    range: 1
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: black_recuperation
+    event: !type:BlackRecuperationEvent
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionEmpoweredEnthrall
+  name: "Посилене Поневолення"
+  description: "Розбиває їхню волю, створюючи Поневоленого. Швидше та сильніше."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    canTargetSelf: false
+    interactOnMiss: false
+    itemIconStyle: NoItem
+    range: 1
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: emp_enthrall
+    event: !type:EmpoweredEnthrallEvent
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionNoxImperii
+  name: "Імперія Ночі"
+  description: "Станьте невразливими до того, чого боїтеся найбільше. Світла."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: nox_imperii
+    event: !type:NoxImperiiEvent
+  - type: ShadowlingAction
+
+# Ascension Abilities
+
+- type: entity
+  id: ActionAscendance
+  name: "Вознесіння"
+  description: "Створіть своє яйце вознесіння та ступіть на шлях бога."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: ascendance
+    event: !type:AscendanceEvent
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionAnnihilate
+  name: "Знищити"
+  description: "Розтрощити їх на шматки плоті."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    canTargetSelf: false
+    interactOnMiss: false
+    itemIconStyle: NoItem
+    useDelay: 45
+    range: 12
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: annihilate
+    event: !type:AnnihilateEvent
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionHypnosis
+  name: "Гіпноз"
+  description: "Зробіть будь-кого Поневоленим миттєво."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    canTargetSelf: false
+    interactOnMiss: false
+    itemIconStyle: NoItem
+    useDelay: 30
+    range: 12
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: enthrall
+    event: !type:HypnosisEvent
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionPlaneShift
+  name: "Міжплановий Зсув"
+  description: "Проходьте крізь будь-що, коли забажаєте."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    useDelay: 2
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: shadow_walk
+    event: !type:TogglePlaneShiftEvent
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionLightningStorm
+  name: "Грозова Буря"
+  description: "Створіть кулю гніву, що вражає електричним струмом усіх поблизу вас."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    useDelay: 30
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: lightning_storm
+    event: !type:LightningStormEvent
+  - type: ShadowlingAction
+
+- type: entity
+  id: ActionAscendantBroadcast
+  name: "Трансляція Вознесеного"
+  description: "Надішліть дуже важкопомітне повідомлення кожному."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: broadcast
+    event: !type:AscendantBroadcastEvent
+  - type: ShadowlingAction

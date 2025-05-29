@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AACTablet
-  name: AAC tablet
-  description: An "augmentative and alternative communication" device that allows speech-impaired individuals to communicate.
+  name: "Планшет AAC"
+  description: "Пристрій для \"додаткової та альтернативної комунікації\", який дозволяє людям з вадами мовлення спілкуватися."
   components:
   - type: Sprite
     sprite: DeltaV/Objects/Devices/tablets.rsi
@@ -42,3 +42,9 @@
     speechSounds: Alto
   - type: AACTablet
   - type: VoiceMask
+  - type: LanguageSpeaker
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    understands:
+    - TauCetiBasic

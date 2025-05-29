@@ -1,0 +1,27 @@
+# Basic
+
+- type: entity
+  parent: ToggleNightVision
+  id: ActionThrallDarksight
+  name: "Темний Зір Поневоленого"
+  description: "Бачити крізь темряву."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    icon:
+      sprite: _EE/Shadowling/thrall_abilities.rsi
+      state: thrall_darksight
+
+- type: entity
+  id: ActionGuise
+  name: "Маскування"
+  description: "Стати невидимим у темряві."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    useDelay: 120
+    icon:
+      sprite: _EE/Shadowling/shadowling_abilities.rsi
+      state: shadow_walk
+    event: !type:GuiseEvent { }

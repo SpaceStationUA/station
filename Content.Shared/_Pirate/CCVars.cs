@@ -47,14 +47,4 @@ public sealed class PirateCCVars
     /// </summary>
     public static readonly CVarDef<float> PublicTransitFlyTime =
         CVarDef.Create("nf14.publictransit.fly_time", 145f, CVar.SERVERONLY);
-
-
-    public static readonly CVarDef<int> BlobMax =
-        CVarDef.Create("blob.max", 3, CVar.SERVERONLY);
-
-    public static readonly CVarDef<int> BlobPlayersPer =
-        CVarDef.Create("blob.players_per", 20, CVar.SERVERONLY);
-
-    public static readonly CVarDef<bool> BlobCanGrowInSpace =
-        CVarDef.Create("blob.grow_space", true, CVar.SERVER);
 }

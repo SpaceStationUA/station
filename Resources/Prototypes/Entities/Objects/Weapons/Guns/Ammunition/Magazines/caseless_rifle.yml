@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineCaselessRifle
-  name: "magazine (.25 caseless)"
+  name: "магазин (.25 безоболонковий)"
   parent: BaseItem
   abstract: true
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: BaseMagazineCaselessRifleShort
-  name: "caseless rifle short magazine (.25 caseless)"
+  name: "безкаліберна гвинтівка з коротким магазином (.25 безкаліберна)"
   parent: BaseMagazineCaselessRifle
   abstract: true
   components:
@@ -53,7 +53,7 @@
 
 - type: entity
   id: BaseMagazinePistolCaselessRifle
-  name: "pistol magazine (.25 caseless)"
+  name: "магазин до пістолета (калібру .25 без набоїв)"
   parent: BaseMagazineCaselessRifle
   abstract: true
   components:
@@ -83,7 +83,7 @@
 
 - type: entity
   id: MagazineCaselessRifle10x24
-  name: "box magazine (.25 caseless)"
+  name: "коробчатий магазин (.25 без гільзи)"
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -94,7 +94,7 @@
 
 - type: entity
   id: MagazinePistolCaselessRifle
-  name: "pistol magazine (.25 caseless)"
+  name: "магазин до пістолета (калібру .25 без набоїв)"
   parent: BaseMagazinePistolCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -113,7 +113,7 @@
 
 - type: entity
   id: MagazinePistolCaselessRiflePractice
-  name: "pistol magazine (.25 caseless practice)"
+  name: "магазин до пістолета (калібру .25) для стрільби без набоїв"
   parent: BaseMagazinePistolCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -132,7 +132,7 @@
 
 - type: entity
   id: MagazinePistolCaselessRifleRubber
-  name: "pistol magazine (.25 caseless rubber)"
+  name: "пістолетний магазин (.25 безгільзовий гумовий)"
   parent: BaseMagazinePistolCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -151,7 +151,7 @@
 
 - type: entity
   id: MagazinePistolCaselessRifleIncendiary
-  name: "pistol magazine (.25 caseless incendiary)"
+  name: "пістолетний магазин (.25 безгільзовий запальний)"
   parent: BaseMagazinePistolCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -159,7 +159,7 @@
 
 - type: entity
   id: MagazinePistolCaselessRifleUranium
-  name: "pistol magazine (.25 caseless uranium)"
+  name: "пістолетний магазин (.25 безгільзовий, урановий)"
   parent: BaseMagazinePistolCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -167,7 +167,7 @@
 
 - type: entity
   id: MagazinePistolCaselessRifleShrapnel
-  name: "pistol magazine (.25 caseless shrapnel)"
+  name: "пістолетний магазин (.25 безгільзовий, шрапнельний)"
   parent: BaseMagazinePistolCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -175,7 +175,7 @@
 
 - type: entity
   id: MagazineCaselessRifle
-  name: "magazine (.25 caseless)"
+  name: "магазин (.25 безоболонковий)"
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -189,7 +189,7 @@
 
 - type: entity
   id: MagazineCaselessRiflePractice
-  name: "magazine (.25 caseless practice)"
+  name: "магазин (.25 тренувальний безоболонковий)"
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -203,7 +203,7 @@
 
 - type: entity
   id: MagazineCaselessRifleRubber
-  name: "magazine (.25 caseless rubber)"
+  name: "магазин (.25 безгільзовий гумовий)"
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -217,7 +217,7 @@
 
 - type: entity
   id: MagazineCaselessRifleIncendiary
-  name: "magazine (.25 caseless incendiary)"
+  name: "магазин (.25 безгільзовий запальний)"
   parent: MagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -225,7 +225,7 @@
 
 - type: entity
   id: MagazineCaselessRifleUranium
-  name: "magazine (.25 caseless uranium)"
+  name: "магазин (.25 безгільзовий, урановий)"
   parent: MagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -233,7 +233,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShrapnel
-  name: "magazine (.25 caseless shrapnel)"
+  name: "магазин (.25 безгільзовий, шрапнельний)"
   parent: MagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -241,7 +241,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShort
-  name: "short magazine (.25 caseless)"
+  name: "короткий магазин (.25 без гільзи)"
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider
@@ -256,7 +256,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShortPractice
-  name: "short magazine (.25 caseless practice)"
+  name: "короткий журнал (.25 безсудової практики)"
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider
@@ -270,7 +270,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShortRubber
-  name: "short magazine (.25 caseless rubber)"
+  name: "короткий магазин (.25 безгільзовий гумовий)"
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider
@@ -284,7 +284,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShortIncendiary
-  name: "short magazine (.25 caseless incendiary)"
+  name: "короткий магазин (.25 безгільзовий запальний)"
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider
@@ -292,7 +292,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShortUranium
-  name: "short magazine (.25 caseless uranium)"
+  name: "короткий магазин (.25 безгільзовий, урановий)"
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider
@@ -300,7 +300,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShortShrapnel
-  name: "short magazine (.25 caseless shrapnel)"
+  name: "короткий магазин (.25 безгільзовий, шрапнельний)"
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider

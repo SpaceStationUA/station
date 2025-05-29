@@ -2,7 +2,7 @@
   id: Incorporeal
   save: false
   abstract: true
-  description: Mobs without physical bodies
+  description: "Натовпи без фізичних тіл"
   components:
   - type: Sprite
     noRot: true
@@ -33,8 +33,8 @@
   - Incorporeal
   - BaseMob
   id: MobObserver
-  name: observer
-  description: Boo!
+  name: "спостерігач"
+  description: "Бу!"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -71,12 +71,17 @@
   - type: PointLight
     radius: 6
     enabled: false
+  - type: UserInterface
+    interfaces:
+      enum.RevivalContractUiKey.Key: # Goobstation - Devil
+        type: RevivalContractBoundUserInterface
+        requireInputValidation: false
 
 
 - type: entity
   id: ActionGhostBoo
-  name: Boo!
-  description: Scare your crew members because of boredom!
+  name: "Бу!"
+  description: "Налякайте членів екіпажу нудьгою!"
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -88,8 +93,8 @@
 
 - type: entity
   id: ActionToggleLighting
-  name: Toggle Lighting
-  description: Toggle light rendering to better observe dark areas.
+  name: "Перемкнути Освітлення"
+  description: "Перемкнути рендеринг світла для кращого огляду темних зон."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -101,8 +106,8 @@
 
 - type: entity
   id: ActionToggleFov
-  name: Toggle FoV
-  description: Toggles field-of-view in order to see what players see.
+  name: "Toggle FoV"
+  description: "Перемикає поле зору, щоб бачити те, що бачать гравці."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -114,8 +119,8 @@
 
 - type: entity
   id: ActionToggleGhosts
-  name: Toggle Ghosts
-  description: Toggle the visibility of other ghosts.
+  name: "Перемикання привидів"
+  description: "Перемикання видимості інших привидів."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -127,8 +132,8 @@
 
 - type: entity
   id: ActionToggleGhostHearing
-  name: Toggle Ghost Hearing
-  description: Toggle between hearing all messages and hearing only radio & nearby messages.
+  name: "Ввімкнути слух привидів"
+  description: "Перемикайтеся між прослуховуванням усіх повідомлень і прослуховуванням лише радіо та повідомлень поблизу."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -144,8 +149,8 @@
   - Incorporeal
   - BaseMob
   id: MobTelegnosisObserver
-  name: psionic projection
-  description: A soul dancing across the dreamlight
+  name: "псіонічна проєкція"
+  description: "Душа, що танцює крізь світло снів"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

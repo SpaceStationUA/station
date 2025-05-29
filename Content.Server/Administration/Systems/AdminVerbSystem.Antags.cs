@@ -1,3 +1,4 @@
+using Content.Server._Goobstation.Devil.GameTicking.Rules;
 using Content.Server._Goobstation.Wizard.Components;
 using Content.Server._Impstation.CosmicCult.Components;
 using Content.Server.Administration.Commands;
@@ -39,6 +40,9 @@ public sealed partial class AdminVerbSystem
 
     [ValidatePrototypeId<EntityPrototype>]
     private const string DefaultChangelingRule = "Changeling";
+
+    [ValidatePrototypeId<EntityPrototype>]
+    private const string DefaultShadowlingRule = "Shadowling";
 
     [ValidatePrototypeId<EntityPrototype>]
     private const string DefaultBloodCultRule = "BloodCult";
@@ -165,6 +169,21 @@ public sealed partial class AdminVerbSystem
         if (!HasComp<SiliconComponent>(args.Target))
             args.Verbs.Add(ling);
 
+        // Goobstation - Devil
+        Verb devilAntag = new()
+        {
+            Text = Loc.GetString("admin-verb-text-make-devil"),
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(new("_Goobstation/Actions/devil.rsi"), "summon-contract"),
+            Act = () =>
+            {
+                _antag.ForceMakeAntag<DevilRuleComponent>(targetPlayer, "Devil");
+            },
+            Impact = LogImpact.High,
+            Message = Loc.GetString("admin-verb-make-devil"),
+        };
+        args.Verbs.Add(devilAntag);
+
         Verb cultist = new()
         {
             Text = Loc.GetString("admin-verb-text-make-blood-cultist"),
@@ -178,21 +197,6 @@ public sealed partial class AdminVerbSystem
             Message = Loc.GetString("admin-verb-make-blood-cultist"),
         };
         args.Verbs.Add(cultist);
-
-        // goobstation - heretics
-        Verb heretic = new()
-        {
-            Text = Loc.GetString("admin-verb-make-heretic"),
-            Category = VerbCategory.Antag,
-            Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/_Goobstation/Heretic/Blades/blade_blade.rsi"), "icon"),
-            Act = () =>
-            {
-                _antag.ForceMakeAntag<HereticRuleComponent>(targetPlayer, "Heretic");
-            },
-            Impact = LogImpact.High,
-            Message = Loc.GetString("admin-verb-make-heretic"),
-        };
-        args.Verbs.Add(heretic);
 
         // Goobstation - Blob
         Verb blobAntag = new()
@@ -209,6 +213,36 @@ public sealed partial class AdminVerbSystem
 	    };
         args.Verbs.Add(blobAntag);
 
+        Verb shadowling = new()
+        {
+            Text = Loc.GetString("admin-verb-text-make-shadowling"),
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(
+                new("/Textures/_EE/Shadowling/shadowling_abilities.rsi"),
+                "engage_hatch"),
+            Act = () =>
+            {
+                _antag.ForceMakeAntag<ShadowlingRuleComponent>(targetPlayer, DefaultShadowlingRule);
+            },
+            Impact = LogImpact.High,
+            Message = Loc.GetString("admin-verb-make-shadowling"),
+        };
+        args.Verbs.Add(shadowling);
+        // goobstation - heretics
+        Verb heretic = new()
+        {
+            Text = Loc.GetString("admin-verb-make-heretic"),
+            Category = VerbCategory.Antag,
+            Icon = new SpriteSpecifier.Rsi(new ResPath("/Textures/_Goobstation/Heretic/Blades/blade_blade.rsi"), "icon"),
+            Act = () =>
+            {
+                _antag.ForceMakeAntag<HereticRuleComponent>(targetPlayer, "Heretic");
+            },
+            Impact = LogImpact.High,
+            Message = Loc.GetString("admin-verb-make-heretic"),
+        };
+        args.Verbs.Add(heretic);
+
         // Goobstation - Wizard
         Verb wizard = new()
         {
@@ -224,9 +258,6 @@ public sealed partial class AdminVerbSystem
         };
         args.Verbs.Add(wizard);
         
-        // IMPSTATION - COSMIC CULT
-        //note - the UI for the monument currently doesn't properly account for cultists added like this until it gets sent a new state - ruddygreat
-        //todo figure out how to fix that
         Verb cosmiccult = new()
         {
             Text = Loc.GetString("admin-verb-text-make-cosmiccultist"),

@@ -1,8 +1,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingBlunt
-  name: Blunt Painting
-  description: A blunt smoking weird-cat thing with a smug look.
+  name: "Тупий живопис"
+  description: "Тупий дивакуватий котяра з самовдоволеним поглядом."
   components:
   - type: Sprite
     sprite: DeltaV/Structures/Wallmounts/Paintings/ps3moira.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: PaintingBase
   id: PaintingSpoon
-  name: Spoon Painting
-  description: The type of painting that really ties together a room.
+  name: "Розпис ложками"
+  description: "Картини, які дійсно об'єднують кімнату."
   components:
   - type: Sprite
     sprite: DeltaV/Structures/Wallmounts/Paintings/leonardodabepis.rsi

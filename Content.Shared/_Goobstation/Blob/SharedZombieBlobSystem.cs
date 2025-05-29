@@ -26,8 +26,8 @@ public abstract class SharedZombieBlobSystem : EntitySystem
             !HasComp<ZombieBlobComponent>(args.Actor))
             return;
 
-        // if(uiComp.RequiresComplex)
-            // args.Cancel();
+        if(uiComp.RequiresComplex)
+            args.Cancel();
     }
 
     private void OnAttemptShoot(Entity<ZombieBlobComponent> ent, ref ShotAttemptedEvent args)

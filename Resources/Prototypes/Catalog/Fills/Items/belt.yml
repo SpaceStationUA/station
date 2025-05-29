@@ -131,9 +131,11 @@
       - id: Bloodpack
         amount: 1
       - id: Gauze
-      - id: EmergencyMedipen
-      - id: BruteAutoInjector
-      - id: BurnAutoInjector
+      - id: ParamedHypo  #Goobstation - ParamedHypo
+      - id: CartridgeBicaridine  #Goobstation - ParamedHypo
+      - id: CartridgeAtropine  #Goobstation - ParamedHypo
+      - id: CartridgeDermaline  #Goobstation - ParamedHypo
+      - id: CartridgeSaline  #Goobstation - ParamedHypo
 
 - type: entity
   id: ClothingBeltPlantFilled
@@ -159,7 +161,7 @@
 - type: entity
   id: ClothingBeltMilitaryWebbingGrenadeFilled
   parent: ClothingBeltMilitaryWebbing
-  name: grenadier chest rig
+  name: "розвантажувальний жилет гренадера"
   suffix: Filled
   components:
   - type: Item

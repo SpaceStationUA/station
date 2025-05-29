@@ -1,10 +1,10 @@
 
 - type: entity
-  name: xelthia tentacle
+  name: "щупальце зелтії"
   # bacon is cured so not raw = cant rot
   parent: FoodMeatBase
   id: FoodMeatXelthiaTentacle
-  description: A xelthia tentacle. Edible...?
+  description: "Щупальце зелтії. Їстівне...?"
   components:
   - type: Tag
     tags:
@@ -33,10 +33,10 @@
     defaultTarget: xelthiarm
 
 - type: entity
-  name: xelthia calamari
+  name: "кальмар зелтії"
   parent: FoodMeatBase
   id: FoodMeatXelthiaTentacleCooked
-  description: This was someone's arm at one point, but now it's some weird Calamari. They probably don't mind.
+  description: "Колись це була чиясь рука, але тепер це якийсь дивний Кальмар. Вони, мабуть, не проти."
   components:
   - type: FlavorProfile
     flavors:

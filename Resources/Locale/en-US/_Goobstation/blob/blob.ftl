@@ -54,6 +54,7 @@ blob-get-resource = +{ $point }
 blob-spent-resource = -{ $point }
 blobberaut-not-on-blob-tile = You are dying while not on blob tiles.
 carrier-blob-alert = You have { $second } seconds left before transformation.
+blob-core-under-attack = Your core is under attack!
 
 blob-mob-zombify-second-start = { $pod } starts turning you into a zombie.
 blob-mob-zombify-third-start = { $pod } starts turning { $target } into a zombie.
@@ -94,8 +95,12 @@ blob-alert-critical = Biohazard level critical, nuclear authentication codes hav
 blob-alert-critical-NoNukeCode = Biohazard level critical. Central Command orders any remaining personnel to seek shelter, and await resque.
 
 # Actions
-blob-create-factory-action-name = Place Factory Blob (80)
-blob-create-factory-action-desc = Turns selected normal blob into a factory blob, which will produce up to 3 spores and a blobbernaut if placed next to a core or a node.
+blob-create-factory-action-name = Create Blob Factory (40)
+blob-create-factory-action-desc = Transforms a selected normal blob into a factory that can produce various blob minions, if there is a node or core nearby.
+blob-create-storage-action-name = Create Blob Storage (50)
+blob-create-storage-action-desc = Transforms a selected normal blob into storage, which increases the maximum amount of resources the blob can have.
+blob-create-turret-action-name = Create Blob Turret (75)
+blob-create-turret-action-desc = Transforms a selected normal blob into a turret that shoots at enemies with small spores, consuming points.
 blob-create-resource-action-name = Place Resource Blob (60)
 blob-create-resource-action-desc = Turns selected normal blob into a resource blob which will generates resources if placed next to a core or a node.
 blob-create-node-action-name = Place Node Blob (50)
@@ -144,7 +149,7 @@ blob-role-greeting =
     You are blob - a parasitic space creature capable of destroying entire stations.
         Your goal is to survive and grow as large as possible.
     	You are almost invulnerable to physical damage, but heat can still hurt you.
-        Use Alt+E to upgrade normal blob tiles to strong blob and strong blob to reflective blob.
+        Use Alt+LMB to upgrade normal blob tiles to strong blob and strong blob to reflective blob.
     	Make sure to place resource blobs to generate resources.
         Keep in mind that resource blobs and factories will only work when next to node blobs or cores.
 blob-zombie-greeting = You were infected and raised by a blob spore. Now you must help the blob take over the station.
@@ -160,11 +165,16 @@ blob-user-was-a-blob = [color=gray]{$user}[/color] was a blob.
 blob-user-was-a-blob-named = [color=White]{$name}[/color] ([color=gray]{$user}[/color]) was a blob.
 blob-was-a-blob-named = [color=White]{$name}[/color] was a blob.
 
+blob-objective-percentage = It captured [color=White]{ $progress }%[/color] to the victory.
+blob-end-victory = [color=Red]Blob(s) successfully absorbed the station![/color]
+blob-end-fail = [color=Green]Blob(s) failed to absorb the station.[/color]
+blob-end-fail-progress = All blobs captured [color=Yellow]{ $progress }%[/color] to the victory.
+
 preset-blob-objective-issuer-blob = [color=#33cc00]Blob[/color]
 
-blob-user-was-a-blob-with-objectives = [color=gray]{$user}[/color] was a blob who had the following objectives:
-blob-user-was-a-blob-with-objectives-named = [color=White]{$name}[/color] ([color=gray]{$user}[/color]) was a blob who had the following objectives:
-blob-was-a-blob-with-objectives-named = [color=White]{$name}[/color] was a blob who had the following objectives:
+blob-user-was-a-blob-with-objectives = [color=gray]{$user}[/color] was a blob:
+blob-user-was-a-blob-with-objectives-named = [color=White]{$name}[/color] ([color=gray]{$user}[/color]) was a blob:
+blob-was-a-blob-with-objectives-named = [color=White]{$name}[/color] was a blob:
 
 # Objectivies
 objective-condition-blob-capture-title = Take over the station
@@ -172,6 +182,11 @@ objective-condition-blob-capture-description = Your only goal is to take over th
 objective-condition-success = { $condition } | [color={ $markupColor }]Success![/color]
 objective-condition-fail = { $condition } | [color={ $markupColor }]Failure![/color] ({ $progress }%)
 
-blob-title = Blob Infection
-blob-description = The Blob Infection is a parasitic space creature capable of destroying entire stations. It is almost invulnerable to physical damage, but heat can still hurt it. The Blob Infection's goal is to survive and grow as large as possible. Use Alt+E to upgrade normal blob tiles to strong blob and strong blob to reflective blob. Make sure to place resource blobs to generate resources. Keep in mind that resource blobs and factories will only work when next to node blobs or cores.
-admin-verb-text-make-blob = Make player a blob infection
+# Radio names
+speak-vv-blob = Blob
+speak-vv-blob-core = Blob core
+
+# Language
+language-Blob-name = Blob
+chat-language-Blob-name = Blob
+language-Blob-description = Bleeb bob! Blob blob!

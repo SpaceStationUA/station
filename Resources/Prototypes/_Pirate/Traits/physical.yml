@@ -94,3 +94,17 @@
               Airloss: -0.25
               Toxin: -0.35
               Genetic: -0.35
+
+- type: trait
+  id: DoNotResuscitate
+  category: Physical
+  points: 10
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      inverted: true
+      species:
+        - IPC
+  functions:
+    - !type:TraitAddComponent
+      components:
+        - type: DoNotResuscitate

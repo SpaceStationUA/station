@@ -36,9 +36,6 @@ marking-FaceEyebrowLeft-eyebrow_l = Брова (ліворуч)
 
 marking-FaceEyebrows = Брови
 marking-FaceEyebrows-eyebrows = Брови
-marking-ReptilianEyebrowsBig = Великі брови
-marking-ReptilianEyebrowsBigger = Гігантські брови
-
 marking-FaceEyecornerRight = Куточок ока (праворуч)
 marking-FaceEyecornerRight-eyecorner_r = Куточок ока (праворуч)
 
@@ -75,14 +72,11 @@ marking-FaceNosetape-nosetape = Стрічка для носа
 marking-FaceNosetip = Кінчик носа
 marking-FaceNosetip-nosetip = Кінчик носа
 
-marking-ReptilianEyebags = Мішки під очима
-
 marking-FaceNosestripe = Носова смужка
 marking-FaceNosestripe-nosestripe = Носова смужка
 
 marking-FaceUnibrow = Єдина брова
 marking-FaceUnibrow-unibrow = Єдина брова
-marking-ReptilianEyebrowsUnibrow = Єдина брова
 
 marking-FaceNeckSlim = Чохол на шию (тонкий)
 marking-FaceNeckSlim-neck_f = Чохол на шию (тонкий)
@@ -98,3 +92,10 @@ marking-FaceNeckWideThick-neck_thick_m = Чохол для шиї (широки�
 
 marking-IronJaw = Залізна щелепа
 marking-IronJaw-iron_jaw = Залізна щелепа
+<<<<<<< HEAD
+=======
+marking-EmissiveEyeRight-tattoo_eye_r = Праве Кібернетичне Око (Емісійне)
+marking-EmissiveEyeRight = Праве Кібернетичне Око (Емісійне)
+marking-EmissiveEyeLeft-tattoo_eye_l = Ліве Кібернетичне Око (Емісійне)
+marking-EmissiveEyeLeft = Ліве Кібернетичне Око (Емісійне)
+>>>>>>> 82b58209017a9e31059b67dc2fa41a61ec027ec6

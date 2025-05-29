@@ -1,9 +1,9 @@
 using Content.Shared.Damage;
 using Robust.Shared.Audio;
 using Robust.Shared.GameStates;
-using Robust.Shared.Physics.Dynamics; //Goob
+using Robust.Shared.Physics.Dynamics;
 using Robust.Shared.Prototypes;
-using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom; //Goob
+using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom;
 
 namespace Content.Shared.Projectiles;
 
@@ -86,7 +86,7 @@ public sealed partial class ProjectileComponent : Component
     [DataField]
     public bool Penetrate;
 
-    /// <summary> //Goob
+    /// <summary>
     ///     Collision mask of what not to penetrate if <see cref="Penetrate"/> is true.
     /// </summary>
     [DataField(customTypeSerializer: typeof(FlagSerializer<CollisionMask>))]

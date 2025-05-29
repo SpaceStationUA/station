@@ -1,491 +1,486 @@
 - type: entity
-  name: BasePistol
+  name: "BasePistol"
   parent: BaseItem
   id: BaseWeaponPistol
-  description: A rooty tooty point and shooty.
+  description: "Корінцевий зубастий і пагонистий."
   abstract: true
   components:
-  - type: Sprite
-    layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-0
-        map: ["enum.GunVisualLayers.Mag"]
-  - type: Item
-    size: Small
-    shape:
-    - 0,0,1,0
-    - 0,1,0,1
-  - type: Tag
-    tags:
-    - Sidearm
-  - type: Clothing
-    sprite: Objects/Weapons/Guns/Pistols/viper.rsi
-    quickEquip: false
-    slots:
-    - suitStorage
-    - Belt
-  - type: Gun
-    fireRate: 6
-    selectedMode: SemiAuto
-    availableModes:
-      - SemiAuto
-      - FullAuto
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
-  - type: ChamberMagazineAmmoProvider
-    soundRack:
-      path: /Audio/Weapons/Guns/Cock/pistol_cock.ogg
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazinePistol
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazinePistol
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgePistol
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgePistol
-  - type: ContainerContainer
-    containers:
-      gun_magazine: !type:ContainerSlot
-      gun_chamber: !type:ContainerSlot
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
-  - type: Appearance
-  - type: StaticPrice
-    price: 500
-  - type: Execution
-  - type: AmmoCounter
-  - type: MeleeWeapon
-    attackRate: 1.2
-    damage:
-      types:
-        Blunt: 7.5
-    swapKeys: true
-    disableHeavy: true
-    animation: WeaponArcThrust
-    wideAnimationRotation: 135
-    soundHit:
-      collection: MetalThud
-  - type: DamageOtherOnHit
-    staminaCost: 5
-    # PIRATE START
-  - type: CanHoldAccessories
-    whiteListTags:
-      - CombatKnife
-    # PIRATE END
+    - type: Sprite
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-0
+          map: ["enum.GunVisualLayers.Mag"]
+    - type: Item
+      size: Small
+      shape:
+        - 0,0,1,0
+        - 0,1,0,1
+    - type: Tag
+      tags:
+        - Sidearm
+    - type: Clothing
+      sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+      quickEquip: false
+      slots:
+        - suitStorage
+        - Belt
+    - type: Gun
+      fireRate: 6
+      selectedMode: SemiAuto
+      availableModes:
+        - SemiAuto
+        - FullAuto
+      soundGunshot:
+        path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+    - type: ChamberMagazineAmmoProvider
+      soundRack:
+        path: /Audio/Weapons/Guns/Cock/pistol_cock.ogg
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazinePistol
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazinePistol
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgePistol
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgePistol
+    - type: ContainerContainer
+      containers:
+        gun_magazine: !type:ContainerSlot
+        gun_chamber: !type:ContainerSlot
+    - type: MagazineVisuals
+      magState: mag
+      steps: 1
+      zeroVisible: true
+    - type: Appearance
+    - type: StaticPrice
+      price: 500
+    - type: Execution
+    - type: AmmoCounter
+    - type: MeleeWeapon
+      attackRate: 1.2
+      damage:
+        types:
+          Blunt: 7.5
+      swapKeys: true
+      disableHeavy: true
+      animation: WeaponArcThrust
+      wideAnimationRotation: 135
+      soundHit:
+        collection: MetalThud
+    - type: DamageOtherOnHit
+      staminaCost: 5
+      # PIRATE START
+    - type: CanHoldAccessories
+      whiteListTags:
+        - CombatKnife
+    - type: CanTakeAim
+      # PIRATE END
 
 - type: entity
-  name: viper
+  name: "гадюка"
   parent: BaseWeaponPistol
   id: WeaponPistolViper
-  description: A small, easily concealable, but somewhat underpowered gun, produced by a bulk arms manufacturer now defunct for over a century. Uses .35 auto ammo.
+  description: "Невеликий, легко прихований, але дещо малопотужний пістолет, виготовлений виробником масової зброї, який вже понад сто років як не існує. Використовує автоматичні набої калібру .35."
   components:
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/viper.rsi
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazinePistol
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazinePistol
-            - MagazinePistolHighCapacity
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgePistol
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgePistol
-  - type: ContainerContainer
-    containers:
-      gun_magazine: !type:ContainerSlot
-      gun_chamber: !type:ContainerSlot
-  - type: Gun
-    fireRate: 6
-    selectedMode: SemiAuto
-    availableModes:
-      - SemiAuto
-      - FullAuto
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
-    fireOnDropChance: 0.3
+    - type: Sprite
+      sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazinePistol
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazinePistol
+              - MagazinePistolHighCapacity
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgePistol
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgePistol
+    - type: ContainerContainer
+      containers:
+        gun_magazine: !type:ContainerSlot
+        gun_chamber: !type:ContainerSlot
+    - type: Gun
+      fireRate: 6
+      selectedMode: SemiAuto
+      availableModes:
+        - SemiAuto
+        - FullAuto
+      soundGunshot:
+        path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+      fireOnDropChance: 0.3
 
 - type: entity
-  name: viper
+  name: "гадюка"
   parent: WeaponPistolViper
   id: WeaponPistolViperEmpty
   suffix: Empty
   components:
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: null
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazinePistol
-            - MagazinePistolHighCapacity
-      gun_chamber:
-        name: Chamber
-        startingItem: null
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgePistol
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: null
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazinePistol
+              - MagazinePistolHighCapacity
+        gun_chamber:
+          name: Chamber
+          startingItem: null
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgePistol
 
 - type: entity
-  name: viper
+  name: "гадюка"
   parent: WeaponPistolViper
   id: WeaponPistolViperSecurity
-  description: A small, easily concealable, but somewhat underpowered gun, produced by a bulk arms manufacturer now defunct for over a century.
-               Uses .35 auto ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+  description: "Невеликий, легко прихований, але дещо малопотужний пістолет, виготовлений виробником масової зброї, який вже понад сто років як не існує. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
   suffix: Security Loadouts
   components:
-  - type: GuideHelp
-    guides: [ SecurityWeapons ]
+    - type: GuideHelp
+      guides: [SecurityWeapons]
 
 - type: entity
   id: WeaponPistolViperNonLethal
   parent: WeaponPistolViper
   suffix: Non-lethal
   components:
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/vipernl.rsi
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazinePistolRubber
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazinePistol
-            - MagazinePistolHighCapacity
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgePistolRubber
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgePistol
+    - type: Sprite
+      sprite: Objects/Weapons/Guns/Pistols/vipernl.rsi
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazinePistolRubber
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazinePistol
+              - MagazinePistolHighCapacity
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgePistolRubber
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgePistol
 
 - type: entity
   id: WeaponPistolViperSecurityNonLethal
   parent: WeaponPistolViperNonLethal
   suffix: Non-lethal, SecurityLoadouts
-  description: A small, easily concealable, but somewhat underpowered gun, produced by a bulk arms manufacturer now defunct for over a century.
-               Uses .35 auto ammo. The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+  description: "Невеликий, легко прихований, але дещо малопотужний пістолет, виготовлений виробником масової зброї, який вже понад сто років як не існує. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
   components:
-  - type: GuideHelp
-    guides: [ SecurityWeapons ]
+    - type: GuideHelp
+      guides: [SecurityWeapons]
 
 - type: entity
-  name: cobra
+  name: "кобра"
   parent: BaseWeaponPistol
   id: WeaponPistolCobra
-  description: A rugged, robust operator handgun with inbuilt silencer. Uses .25 caseless ammo.
+  description: "Міцний, надійний пістолет оператора з вбудованим глушником. Використовує безоболонкові набої калібру .25."
   components:
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Clothing
-    sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
-  - type: ChamberMagazineAmmoProvider
-    boltClosed: null
-  - type: Gun
-    damageModifier: 1.25 # "Extra Robust" despite having an underpowered cartridge.
-    fireRate: 4
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
-      params:
-        volume: -14
-    availableModes:
-    - SemiAuto
-    fireOnDropChance: 0.1
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazinePistolCaselessRifle
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazinePistolCaselessRifle
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgeCaselessRifle
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgeCaselessRifle
-  - type: ContainerContainer
-    containers:
-      gun_magazine: !type:ContainerSlot
-      gun_chamber: !type:ContainerSlot
+    - type: Sprite
+      sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-0
+          map: ["enum.GunVisualLayers.Mag"]
+    - type: Clothing
+      sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
+    - type: ChamberMagazineAmmoProvider
+      boltClosed: null
+    - type: Gun
+      damageModifier: 1.25 # "Extra Robust" despite having an underpowered cartridge.
+      fireRate: 4
+      soundGunshot:
+        path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
+        params:
+          volume: -14
+      availableModes:
+        - SemiAuto
+      fireOnDropChance: 0.1
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazinePistolCaselessRifle
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazinePistolCaselessRifle
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgeCaselessRifle
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgeCaselessRifle
+    - type: ContainerContainer
+      containers:
+        gun_magazine: !type:ContainerSlot
+        gun_chamber: !type:ContainerSlot
 
 - type: entity
-  name: cobra
+  name: "кобра"
   parent: WeaponPistolCobra
   id: WeaponPistolCobraEmpty
   suffix: Empty
   components:
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: null
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazinePistolCaselessRifle
-      gun_chamber:
-        name: Chamber
-        startingItem: null
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgeCaselessRifle
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: null
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazinePistolCaselessRifle
+        gun_chamber:
+          name: Chamber
+          startingItem: null
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgeCaselessRifle
 
 - type: entity
-  name: mk 58
+  name: "mK 58"
   parent: BaseWeaponPistol
   id: WeaponPistolMk58
-  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
+  description: "Дешева, повсюдна зброя, вироблена дочірньою компанією NanoTrasen. Використовує набої калібру .35."
   components:
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Clothing
-    sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
-  - type: Gun
-    fireRate: 5
-    availableModes:
-    - SemiAuto
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
-    fireOnDropChance: 0.5
+    - type: Sprite
+      sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-0
+          map: ["enum.GunVisualLayers.Mag"]
+    - type: Clothing
+      sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+    - type: Gun
+      fireRate: 5
+      availableModes:
+        - SemiAuto
+      soundGunshot:
+        path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
+      fireOnDropChance: 0.5
 
 - type: entity
-  name: mk58
+  name: "mK 58"
   parent: WeaponPistolMk58
   id: WeaponPistolMk58Empty
   suffix: Empty
   components:
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: null
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazinePistol
-      gun_chamber:
-        name: Chamber
-        startingItem: null
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgePistol
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: null
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazinePistol
+        gun_chamber:
+          name: Chamber
+          startingItem: null
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgePistol
 
 - type: entity
-  name: mk 58
+  name: "mK 58"
   parent: WeaponPistolMk58
   id: WeaponPistolMk58Security
-  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
-               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+  description: "Дешева, повсюдна зброя, вироблена дочірньою компанією NanoTrasen. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
   suffix: Security Loadouts
   components:
-  - type: GuideHelp
-    guides: [ SecurityWeapons ]
+    - type: GuideHelp
+      guides: [SecurityWeapons]
 
 - type: entity
   id: WeaponPistolMk58Nonlethal
   parent: WeaponPistolMk58
   suffix: Non-lethal
   components:
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/mk58nl.rsi
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazinePistolRubber
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazinePistol
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgePistolRubber
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgePistol
+    - type: Sprite
+      sprite: Objects/Weapons/Guns/Pistols/mk58nl.rsi
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazinePistolRubber
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazinePistol
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgePistolRubber
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgePistol
 
 - type: entity
   id: WeaponPistolMk58SecurityNonlethal
   parent: WeaponPistolMk58Nonlethal
   suffix: Non-lethal, Security Loadouts
-  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
-               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+  description: "Дешева, повсюдна зброя, вироблена дочірньою компанією NanoTrasen. Використовує автоматичні набої калібру .35. Серійний номер на рукоятці вказує на те, що цей пістолет належить співробітнику служби безпеки NT."
   components:
-  - type: GuideHelp
-    guides: [ SecurityWeapons ]
+    - type: GuideHelp
+      guides: [SecurityWeapons]
 
 - type: entity
-  name: N1984
+  name: "Н1984"
   parent: BaseWeaponPistol
   id: WeaponPistolN1984 # the spaces in description are for formatting.
-  description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
+  description: "Зброя будь-якого офіцера, який себе поважає.     Випускається в калібрі .45 магнум, улюбленому калібрі лордів."
   components:
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Clothing
-    sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
-  - type: Gun
-    minAngle: 1
-    maxAngle: 20
-    angleIncrease: 8
-    angleDecay: 9
-    fireRate: 4
-    availableModes:
-    - SemiAuto
-    soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
-    fireOnDropChance: 0.6
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazineMagnum
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazineMagnum
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgeMagnum
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgeMagnum
+    - type: Sprite
+      sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
+      layers:
+        - state: base
+          map: ["enum.GunVisualLayers.Base"]
+        - state: mag-0
+          map: ["enum.GunVisualLayers.Mag"]
+    - type: Clothing
+      sprite: Objects/Weapons/Guns/Pistols/N1984.rsi
+    - type: Gun
+      minAngle: 1
+      maxAngle: 20
+      angleIncrease: 8
+      angleDecay: 9
+      fireRate: 4
+      availableModes:
+        - SemiAuto
+      soundGunshot:
+        path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
+      fireOnDropChance: 0.6
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazineMagnum
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazineMagnum
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgeMagnum
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgeMagnum
 
 - type: entity
-  name: N1984
+  name: "Н1984"
   parent: WeaponPistolN1984
   id: WeaponPistolN1984Empty
   suffix: Empty
   components:
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: null
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazineMagnum
-      gun_chamber:
-        name: Chamber
-        startingItem: null
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgeMagnum
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: null
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazineMagnum
+        gun_chamber:
+          name: Chamber
+          startingItem: null
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgeMagnum
 
 - type: entity
-  name: N1984
+  name: "Н1984"
   parent: WeaponPistolN1984
   id: WeaponPistolN1984Security # the spaces in description are for formatting.
-  description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
-               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+  description: "Зброя будь-якого офіцера, який себе поважає. Випускається під калібр .45 магнум, калібр лорда. Серійний номер на руків'ї вказує на те, що цей пістолет належить офіцеру служби безпеки NT."
   suffix: Security Loadouts
   components:
-  - type: GuideHelp
-    guides: [ SecurityWeapons ]
+    - type: GuideHelp
+      guides: [SecurityWeapons]
 
 - type: entity
-  name: N1984
+  name: "Н1984"
   parent: WeaponPistolN1984
   id: WeaponPistolN1984NonLethal
   suffix: Non-lethal
   components:
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Pistols/N1984nl.rsi
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: Magazine
-        startingItem: MagazineMagnumRubber
-        insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazineMagnum
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgeMagnumRubber
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgeMagnum
+    - type: Sprite
+      sprite: Objects/Weapons/Guns/Pistols/N1984nl.rsi
+    - type: ItemSlots
+      slots:
+        gun_magazine:
+          name: Magazine
+          startingItem: MagazineMagnumRubber
+          insertSound: /Audio/Weapons/Guns/MagIn/pistol_magin.ogg
+          ejectSound: /Audio/Weapons/Guns/MagOut/pistol_magout.ogg
+          priority: 2
+          whitelist:
+            tags:
+              - MagazineMagnum
+        gun_chamber:
+          name: Chamber
+          startingItem: CartridgeMagnumRubber
+          priority: 1
+          whitelist:
+            tags:
+              - CartridgeMagnum
 
 - type: entity
-  name: N1984
+  name: "Н1984"
   parent: WeaponPistolN1984NonLethal
   id: WeaponPistolN1984SecurityNonLethal
-  description: The sidearm of any self respecting officer.     Comes in .45 magnum, the lord's caliber.
-               The serial number on the handguard marks this gun as belonging to an NT Security Officer.
+  description: "Зброя будь-якого офіцера, який себе поважає. Випускається під калібр .45 магнум, калібр лорда. Серійний номер на руків'ї вказує на те, що цей пістолет належить офіцеру служби безпеки NT."
   suffix: Security Loadouts
   components:
-  - type: GuideHelp
-    guides: [ SecurityWeapons ]
+    - type: GuideHelp
+      guides: [SecurityWeapons]

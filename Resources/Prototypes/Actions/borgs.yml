@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: ActionViewLaws
-  name: View Laws
-  description: View the laws that you must follow.
+  name: "Переглянути закони"
+  description: "Ознайомтеся з законами, яких ви повинні дотримуватися."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -14,7 +14,7 @@
 
 - type: entity
   id: ActionSelectBorgType
-  name: Select Cyborg Type
+  name: "Обрати Тип Кіборга"
   components:
   - type: InstantAction
     itemIconStyle: NoItem

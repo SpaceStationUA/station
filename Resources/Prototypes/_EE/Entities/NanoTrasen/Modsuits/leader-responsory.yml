@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingModsuitStandard
   id: ClothingModsuitResponsoryLeader
-  name: Leader Responsory modsuit control
-  description: The main controller for a Leader Responsory modsuit.
+  name: "Лідерський реагувальний контролер модульного костюма"
+  description: "Основний контролер для лідерського реагувального модульного костюма."
   components:
     - type: Sprite
       sprite: _EE/Clothing/NanoTrasen/Modsuits/leader-responsory.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: ClothingModsuitGauntletsStandard
   id: ClothingModsuitGauntletsResponsoryLeader
-  name: Leader Responsory modsuit gauntlets
-  description: A pair of gauntlets made for the Leader Responsory modsuit.
+  name: "Лідерські реагувальні рукавиці модульного костюма"
+  description: "Пара рукавиць, створених для лідерського реагувального модульного костюма."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -51,8 +51,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons, BaseClothingRadio]
   id: ClothingModsuitHelmetResponsoryLeader
-  name: Leader Responsory modsuit helmet
-  description: A state-of-the-art helmet designed by NanoTrasen for the Leader Responsory modsuit. It includes a built-in HUD.
+  name: "Лідерський реагувальний шолом модульного костюма"
+  description: "Сучасний шолом, розроблений NanoTrasen для лідерського реагувального модульного костюма. Має вбудований HUD."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -95,8 +95,8 @@
 - type: entity
   parent: ClothingModsuitChestplateStandard
   id: ClothingModsuitChestplateResponsoryLeader
-  name: Leader Responsory modsuit chestplate
-  description: A state of the art chestplate designed by NanoTrasen for the Leader Responsory Modsuit. It incorporates powered servos to reduce the equipment load.
+  name: "Лідерський реагувальний нагрудник модульного костюма"
+  description: "Сучасний нагрудник, розроблений NanoTrasen для лідерського реагувального модульного костюма. Він оснащений сервоприводами для зменшення навантаження від обладнання."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -145,8 +145,8 @@
 - type: entity
   parent: ClothingModsuitBootsStandard
   id: ClothingModsuitBootsResponsoryLeader
-  name: Leader Responsory modsuit boots
-  description: A state-of-the-art pair of magboots for the Leader Responsory modsuit. So long as the suit is powered, these will not slow the wearer down.
+  name: "Лідерські реагувальні черевики модульного костюма"
+  description: "Сучасна пара магнітних черевиків для лідерського реагувального модульного костюма. Поки костюм живиться, вони не сповільнюватимуть носія."
   categories: [HideSpawnMenu]
   components:
     - type: Appearance

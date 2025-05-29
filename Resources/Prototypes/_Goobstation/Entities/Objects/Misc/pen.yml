@@ -1,0 +1,39 @@
+# SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
+# SPDX-FileCopyrightText: 2024 BombasterDS <115770678+BombasterDS@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: entity
+  name: "футуристична ручка"
+  parent: PenCentcom
+  id: PenFuture
+  description: "Деякі теорії стверджують, що апокаліпсис 3024 року стався через ручки"
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Objects/Misc/bureaucracy.rsi
+    state: pen_future
+  - type: Item
+    sprite: _Goobstation/Objects/Misc/bureaucracy.rsi
+    heldPrefix: pen_future
+
+- type: entity
+  name: "диявольська ручка"
+  parent: BaseAdvancedPen
+  id: PenDevil
+  description: "Диявольськи гостра ручка з дивно теплим корпусом. Не така гостра, як язик диявола, і не посріблена."
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Objects/Misc/bureaucracy.rsi
+    state: pen_devil
+  - type: Item
+    sprite: _Goobstation/Objects/Misc/bureaucracy.rsi
+    heldPrefix: pen_devil
+  - type: MeleeWeapon
+    wideAnimationRotation: -45
+    damage:
+      types:
+        Piercing: 15
+        Heat: 5
+    soundHit:
+      path: /Audio/Weapons/bladeslice.ogg

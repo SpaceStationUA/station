@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseWeaponRifle
+  name: "BaseWeaponRifle"
   parent: [BaseItem, BaseGunWieldable]
   id: BaseWeaponRifle
-  description: A rooty tooty point and shooty.
+  description: "Корінцевий зубастий і пагонистий."
   abstract: true
   components:
   - type: Sprite
@@ -74,13 +74,14 @@
   - type: CanHoldAccessories
     whiteListTags:
       - CombatKnife
+  - type: CanTakeAim
     # PIRATE END
 
 - type: entity
-  name: AKMS
+  name: "AKMS"
   parent: BaseWeaponRifle
   id: WeaponRifleAk
-  description: An iconic weapon of war. Uses .30 rifle ammo.
+  description: "Культова зброя війни. Використовує гвинтівкові патрони калібру .30."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
@@ -126,10 +127,10 @@
   - type: Appearance
 
 - type: entity
-  name: M-90gl
+  name: "М-90г"
   parent: BaseWeaponRifle
   id: WeaponRifleM90GrenadeLauncher
-  description: An older bullpup carbine model, with an attached underbarrel grenade launcher. Uses .20 rifle ammo.
+  description: "Стара модель карабіна буллпап, з підствольним гранатометом. Використовує гвинтівкові набої калібру .20."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
@@ -169,10 +170,10 @@
   - type: Appearance
 
 - type: entity
-  name: Lecter
+  name: "Лектер"
   parent: BaseWeaponRifle
   id: WeaponRifleLecter
-  description: A high end military grade assault rifle. Uses .20 rifle ammo.
+  description: "Штурмова гвинтівка високого військового класу. Використовує набої 20-го калібру."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/lecter.rsi
@@ -216,7 +217,7 @@
   - type: Appearance
 
 - type: entity
-  name: Lecter
+  name: "Лектер"
   parent: WeaponRifleLecter
   id: WeaponRifleLecterRubber
   suffix: Non-lethal
@@ -241,10 +242,10 @@
             - CartridgeRifle
 
 - type: entity
-  name: Foam Force Astro Ace
+  name: "Піна Foam Force Astro Ace"
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponRifleFoam
-  description: A premium foam rifle of the highest quality. Its plastic feels rugged, and its mechanisms sturdy.
+  description: "Преміальна пістолетна гвинтівка найвищої якості. Її пластик здається міцним, а механізми - надійними."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Rifles/foam_rifle.rsi

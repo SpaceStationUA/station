@@ -1,6 +1,6 @@
 - type: entity
   id: CartridgeMagicBullet
-  name: magic bullet cartridge
+  name: "патрон magic bullet"
   parent: [ BaseCartridge ]
   components:
   - type: Tag
@@ -18,8 +18,8 @@
   - type: SpentAmmoVisuals
 
 - type: entity
-  name: scroll of teleportation
-  description: This scroll can teleport you anywhere on the station.
+  name: "сувій телепортації"
+  description: "Цей сувій може телепортувати вас у будь-яке місце на станції."
   parent: [BaseItem]
   id: ScrollTeleport
   components:
@@ -45,8 +45,8 @@
     price: 1000
 
 - type: entity
-  name: scroll of teleportation
-  description: This scroll can teleport you anywhere on the station. Only has one use.
+  name: "сувій телепортації"
+  description: "Цей сувій може телепортувати вас у будь-яке місце на станції. Може бути використаний лише один раз."
   parent: ScrollTeleport
   id: ScrollTeleportApprentice
   suffix: Apprentice
@@ -55,8 +55,8 @@
     usesLeft: 1
 
 - type: entity
-  name: lightning bolt spell packet
-  description: Some birdseed wrapped in cloth that crackles with electricity.
+  name: "пакет заклинання блискавки"
+  description: "Пташиний корм, загорнутий у тканину, яка потріскує від електрики."
   parent: BaseItem
   id: ThrownLightning
   components:
@@ -155,7 +155,7 @@
     spillWhenThrown: false
 
 - type: entity
-  name: wizard's rubber stamp
+  name: "печатка майстра"
   parent: RubberStampCMO
   id: RubberStampWizard
   suffix: DO NOT MAP
@@ -166,8 +166,8 @@
 - type: entity
   parent: [DrinkBase]
   id: EverfullMug
-  name: everfull mug
-  description: An enchanted mug which refills omnizine automatically.
+  name: "вічно повна кружка"
+  description: "Зачароване горнятко, яке автоматично наповнює омнізин."
   components:
   - type: Sprite
     sprite: _Goobstation/Wizard/Objects/evermug.rsi
@@ -190,7 +190,7 @@
     price: 25000
 
 - type: entity
-  name: passenger ID card
+  name: "посвідчення особи пасажира"
   parent: AgentIDCard
   id: WizardIDCard
   suffix: Wizard
@@ -198,8 +198,8 @@
 - type: entity
   parent: Crowbar
   id: CrowbarWizard
-  name: Magic crowbar
-  description: A compact wizard multipurpose tool to pry open doors and destroy stations.
+  name: "Чарівний лом"
+  description: "Компактний багатофункціональний інструмент майстра для відчинення дверей та знищення станцій."
   components:
   - type: MeleeWeapon
     damage:

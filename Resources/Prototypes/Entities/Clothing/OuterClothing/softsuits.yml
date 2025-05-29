@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitEVA
-  name: vacsuit
-  description: A lightweight vacsuit with the basic ability to protect the wearer from the vacuum of space during emergencies.
+  name: "вакуумний костюм"
+  description: "Легкий ваккостюм з базовою здатністю захищати власника від вакууму космосу під час надзвичайних ситуацій."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitSyndicate # TODO: rename to ClothingOuterEVASuitSyndicate
-  name: syndicate vacsuit
-  description: "Has a tag on the back that reads: 'Totally not property of an enemy corporation, honest!'"
+  name: "синдикатський вакуумний костюм"
+  description: "Ззаду є бирка з написом: \"Зовсім не власність ворожої корпорації, чесно!\""
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_syndicate.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterSuitEmergency
-  name: emergency vacsuit
-  description: An emergency vacsuit with a built-in helmet. It's horribly slow and lacking in temperature protection, but enough to bide you time from the harsh vaccuum of space.
+  name: "аварійний вакуумний костюм"
+  description: "Аварійний скафандр із вбудованим шоломом. Він страшенно повільний і не захищає від температури, але його достатньо, щоб витримати час у суворому космічному вакуумі."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_emergency.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id:  ClothingOuterHardsuitEVAPrisoner
-  name: prisoner vacsuit
-  description: A lightweight space suit for prisoners to protect them from the vacuum of space during emergencies.
+  name: "вакуумний костюм для в'язнів"
+  description: "Легкий скафандр для ув'язнених, щоб захистити їх від вакууму космосу під час надзвичайних ситуацій."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/eva_prisoner.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: ClothingOuterEVASuitBase
   id: ClothingOuterHardsuitAncientEVA
-  name: NTSRA vacsuit #Nanotrasen Space Research Association
-  description: An ancient vacsuit, designed by the NTSRA branch of CentCom. It is very finely crafted, allowing for greater mobility than most modern vacsuits.
+  name: "вакуумний костюм NTSRA" #Nanotrasen Space Research Association
+  description: "Старовинний захисний костюм, розроблений філією NTSRA компанії CentCom. Він дуже тонко виготовлений, що забезпечує більшу мобільність, ніж більшість сучасних скафандрів."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Suits/ancient_voidsuit.rsi

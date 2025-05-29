@@ -1,8 +1,8 @@
 - type: entity
-  name: New-Nederic plant clippers
+  name: "Ново-недерійські садові ножиці"
   parent: BaseItem
   id: HydroponicsToolClippersEOC
-  description: A sophisticsted tool developed by the East-Orion Company to take samples from even the most delicate plants.
+  description: "Витончений інструмент, розроблений Східно-Оріонською Компанією для взяття зразків навіть з найніжніших рослин."
   components:
   - type: Tag
     tags:
@@ -18,7 +18,7 @@
       types:
         Piercing: 8
     heavyRateModifier: 1.25
-    heavyRangeModifier: 1.5
+    heavyRangeModifier: 1.15
     heavyDamageBaseModifier: 1.25
     maxTargets: 1
     angle: 20
