@@ -1,0 +1,13 @@
+- type: entity
+  id: ActionLightEater
+  name: "Пожирач Світла"
+  description: "Спопеліть або вимкніть кожне джерело світла, яке ви вдарите своїм ручним клинком."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 2
+    itemIconStyle: NoItem
+    icon:
+      sprite: _EE/Nightmare/nightmare_abilities.rsi
+      state: light_eater
+    event: !type:ToggleLightEaterEvent {}

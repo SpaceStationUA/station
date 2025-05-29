@@ -1,0 +1,16 @@
+- type: entity
+  parent: BoxCardboard
+  id: BoxTapeRecorder
+  name: "коробка з магнітофоном"
+  description: "Коробка з різнокольоровими касетами та магнітофоном."
+  components:
+  - type: Sprite
+    layers:
+    - state: box_security
+    - sprite: DeltaV/Objects/Storage/boxes.rsi
+      state: recorder
+  - type: StorageFill
+    contents:
+    - id: CassetteTape
+      amount: 4
+    - id: TapeRecorder

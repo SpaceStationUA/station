@@ -84,3 +84,16 @@
       before consuming.
 
       Enjoy your drinks!
+
+# contents set by FugitiveRule or a creative admeme
+- type: entity
+  parent: PaperStationWarrant
+  id: PaperFugitiveReport
+  name: "звіт про втікача"
+  description: "Ордер на арешт космічного втікача, надісланий з ГАЛПОЛу."
+
+- type: entity
+  parent: Paper
+  id: TapeRecorderTranscript
+  name: "стенограма запису"
+  # TODO: could have a unique sprite in the future

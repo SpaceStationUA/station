@@ -1,0 +1,114 @@
+# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
+# SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
+# SPDX-FileCopyrightText: 2025 SolsticeOfTheWinter <solsticeofthewinter@gmail.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Devil Specific
+
+- type: entity
+  id: ActionCreateContract
+  name: "Викликати пекельний контракт"
+  description: "Створює пекельний контракт у руці Диявола."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 10
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Goobstation/Actions/devil.rsi
+      state: summon-contract
+    event: !type:CreateContractEvent {}
+
+- type: entity
+  id: ActionCreateRevivalContract
+  name: "Викликати контракт на воскресіння"
+  description: "Створює контракт на воскресіння в руці Диявола."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 30
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Goobstation/Actions/devil.rsi
+      state: summon-contract-revival
+    event: !type:CreateRevivalContractEvent {}
+
+- type: entity
+  id: ActionShadowJaunt
+  name: "Тіньовий стрибок"
+  description: "Розчиніться в тінях."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    useDelay: 40 # Stop running you cowardly fucks.
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Goobstation/Actions/devil.rsi
+      state: shadow-jaunt
+    event: !type:ShadowJauntEvent {}
+
+- type: entity
+  id: ActionDevilPossess
+  name: "Заволодіти ціллю"
+  description: "Тимчасово заволодіти ціллю."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: EntityTargetAction
+    useDelay: 70
+    whitelist:
+      components:
+      - Body
+    canTargetSelf: false
+    interactOnMiss: false
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Goobstation/Actions/devil.rsi
+      state: possess
+    event: !type:DevilPossessionEvent {}
+
+- type: entity
+  id: ActionEndPossession
+  name: "Припинити одержимість"
+  description: "Скасувати цю одержимість достроково."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    checkCanInteract: false
+    checkConsciousness: false
+    icon:
+      sprite: _Goobstation/Actions/devil.rsi
+      state: possess
+    event: !type:EndPossessionEarlyEvent {}
+
+- type: entity
+  id: ActionDevilGrip
+  name: "Диявольська Хватка"
+  description: "Та мала частка вашої сили, що залишилася в цьому царстві, скерована у ваші руки."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Goobstation/Actions/devil.rsi
+      state: devil-grip
+    event: !type:DevilGripEvent {}
+
+# Deals
+
+- type: entity
+  id: ActionCheatDeath
+  name: "Обдурити Смерть"
+  description: "Посмійтеся в обличчя Смерті з косою. У вас ще є час."
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: NoItem
+    useDelay: 250
+    checkCanInteract: false
+    checkConsciousness: false
+    icon:
+      sprite: _Goobstation/Actions/devil.rsi
+      state: cheat-death
+    event: !type:CheatDeathEvent {}

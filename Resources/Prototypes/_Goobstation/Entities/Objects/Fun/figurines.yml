@@ -1,0 +1,10 @@
+- type: entity
+  parent: BaseFigurine
+  id: ToyFigurineDevil
+  name: "фігурка демона"
+  description: "Фігурка, що зображує Демона у свіжопошитому костюмі."
+  components:
+  - type: Sprite
+    state: lawyer
+#  - type: SpeakOnTrigger
+    pack: FigurinesDevil

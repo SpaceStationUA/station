@@ -8,3 +8,14 @@
     sprite: _Pirate/Clothing/Shoes/Specific/clockwork_treads.rsi
   - type: Clothing
     sprite: _Pirate/Clothing/Shoes/Specific/clockwork_treads.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesShortFabricWrap
+  name: "короткі тканинні обгортання"
+  description: "Дещо менш коротші тканинні обгортання."
+  components:
+  - type: Sprite
+    sprite: _Pirate/Clothing/Shoes/Specific/short_fabricWrap.rsi
+  - type: Clothing
+    sprite: _Pirate/Clothing/Shoes/Specific/short_fabricWrap.rsi
