@@ -1,21 +1,27 @@
-mail-recipient-mismatch = Ім'я або посада отримувача не збігаються.
-mail-invalid-access = Ім'я та посада отримувача збігаються, але доступ не відповідає очікуваному.
-mail-locked = Захисний замок ще не знято. Прикладіть ID отримувача.
-mail-desc-far = Поштова посилка. Ви не можете розібрати, кому вона адресована, на такій відстані.
-mail-desc-close = Поштова посилка, адресована {CAPITALIZE($name)}, {$job}.
-mail-desc-fragile = Вона має [color=red]червону наклейку "крихке"[/color].
-mail-desc-priority = На захисному замку активована [color=yellow]жовта стрічка пріоритету[/color]. Краще доставити її вчасно!
-mail-desc-priority-inactive = На захисному замку неактивна [color=#886600]жовта стрічка пріоритету[/color].
-mail-unlocked = Захисну систему розблоковано.
-mail-unlocked-by-emag = Захисну систему *BZZT*.
-mail-unlocked-reward = Захисну систему розблоковано. На рахунок логістики додано {$bounty} спесо.
-mail-penalty-lock = ЗЛАМАНО ЗАХИСНИЙ ЗАМОК. РАХУНОК ЛОГІСТИКИ ШТРАФОВАНО НА {$credits} СПЕСО.
-mail-penalty-fragile = ЦІЛІСНІСТЬ ПОРУШЕНО. РАХУНОК ЛОГІСТИКИ ШТРАФОВАНО НА {$credits} СПЕСО.
-mail-penalty-expired = ТЕРМІН ДОСТАВКИ ПРОСТРОЧЕНИЙ. РАХУНОК ЛОГІСТИКИ ШТРАФОВАНО НА {$credits} СПЕСО.
+
+
+# Mailnow
+
+
+# Mailtestbulk
+
+mail-recipient-mismatch = Ім'я або посада одержувача не збігаються.
+mail-invalid-access = Ім'я та посада одержувача збігаються, але доступ не відповідає очікуваному.
+mail-locked = Захист від несанкціонованого доступу не знято. Торкніться ID одержувача.
+mail-desc-far = Посилка. З такої відстані неможливо розібрати, кому вона адресована.
+mail-desc-close = Посилка, адресована {CAPITALIZE($name)}, {$job}.
+mail-desc-fragile = Має [color=red]червону позначку "крихке"[/color].
+mail-desc-priority = Захисна [color=yellow]жовта стрічка пріоритету[/color] активна. Краще доставити вчасно!
+mail-desc-priority-inactive = Захисна [color=#886600]жовта стрічка пріоритету[/color] неактивна.
+mail-unlocked = Систему захисту від несанкціонованого доступу розблоковано.
+mail-unlocked-by-emag = Система захисту від несанкціонованого доступу *БЗЗТ*.
+mail-unlocked-reward = Систему захисту від несанкціонованого доступу розблоковано. {$bounty} спесо було додано на рахунок логістики.
+mail-penalty-lock = ЗАХИСТ ВІД НЕСАНКЦІОНОВАНОГО ДОСТУПУ ЗЛАМАНО. БАНКІВСЬКИЙ РАХУНОК ЛОГІСТИКИ ОШТРАФОВАНО НА {$credits} СПЕСО.
+mail-penalty-fragile = ЦІЛІСНІСТЬ ПОРУШЕНО. БАНКІВСЬКИЙ РАХУНОК ЛОГІСТИКИ ОШТРАФОВАНО НА {$credits} СПЕСО.
+mail-penalty-expired = ДОСТАВКУ ПРОСТРОЧЕНО. БАНКІВСЬКИЙ РАХУНОК ЛОГІСТИКИ ОШТРАФОВАНО НА {$credits} СПЕСО.
 mail-item-name-unaddressed = пошта
 mail-item-name-addressed = пошта ({$recipient})
-
-mail-large-item-name-unaddressed = посилка
-mail-large-item-name-addressed = посилка ({$recipient})
-mail-large-desc-far = Велика посилка.
-mail-large-desc-close = Велика посилка, адресована {CAPITALIZE($name)}, {$job}.
+mail-large-item-name-unaddressed = пакунок
+mail-large-item-name-addressed = пакунок ({$recipient})
+mail-large-desc-far = Великий пакунок.
+mail-large-desc-close = Великий пакунок, адресований {CAPITALIZE($name)}, {$job}.
