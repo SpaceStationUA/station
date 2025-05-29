@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingModsuitStandard]
   id: BloodredModsuitBackpack
-  name: EE-99MS "Raider" Modsuit Control
-  description: A control module for the "Raider" modsuit.
+  name: "Модуль керування модсуїтом EE-99MS \"Рейдер"
+  description: "Модуль керування для модсуїта \"Рейдер\"."
   components:
     - type: Sprite
       sprite: _TG/Clothing/Modsuit/bloodredmodsuit.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: [ClothingModsuitGauntletsStandard]
   id: ClothingModsuitGauntletsBloodredModsuit
-  name: EE-99MS "Raider" Modsuit Gauntlets
-  description: A set of armored gauntlets for the "Raider" modsuit.
+  name: "Рукавиці модсуїта EE-99MS \"Рейдер"
+  description: "Набір броньованих рукавиць для модсуїта \"Рейдер\"."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -51,8 +51,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons]
   id: ClothingModsuitHelmetBloodredModsuit
-  name: EE-99MS "Raider" Modsuit Helm
-  description: A helmet made for the "Raider" modsuit.
+  name: "Шолом модсуїта EE-99MS \"Рейдер"
+  description: "Шолом, створений для модсуїта \"Рейдер\"."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -79,8 +79,8 @@
 - type: entity
   parent: [ClothingModsuitChestplateStandard, BaseIntegratedManeuveringThrusters]
   id: ClothingModsuitChestplateBloodredModsuit
-  name: EE-99MS "Raider" Modsuit Chestplate
-  description: A mass production model of a modular-tacsuit that once made headlines for its showings in Solarian media. After being rejected in favor of the Shanlin tacsuit, these suits have mysteriously become commonplace among frontier pirate crews.
+  name: "Нагрудник модсуїта EE-99MS \"Рейдер"
+  description: "Масово виробнича модель модульного тактичного костюма, яка колись потрапила в заголовки газет завдяки показам у соларіанських медіа. Після того, як його відкинули на користь тактичного костюма Шанлінь, ці костюми таємничим чином стали звичним явищем серед прикордонних піратських екіпажів."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -123,8 +123,8 @@
 - type: entity
   parent: [ClothingModsuitBootsStandard]
   id: ClothingModsuitBootsBloodredModsuit
-  name: EE-99MS "Raider" Modsuit Boots
-  description: A set of greaves made for the "Raider" modsuit.
+  name: "Черевики модсуїта EE-99MS \"Рейдер"
+  description: "Набір наголінників, створений для модсуїта \"Рейдер\"."
   categories: [HideSpawnMenu]
   components:
     - type: Appearance
@@ -145,8 +145,8 @@
 - type: entity
   parent: [ClothingModsuitStandard]
   id: EliteModsuitBackpack
-  name: EE-122MS "Jaeger" Modsuit Control
-  description: A controller for the "Jaeger" modsuit.
+  name: "Модуль керування модсуїтом EE-122MS \"Єгер"
+  description: "Контролер для модсуїта \"Єгер\"."
   components:
     - type: Sprite
       sprite: _TG/Clothing/Modsuit/syndicateelitemodsuit.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: [ClothingModsuitGauntletsStandard]
   id: ClothingModsuitGauntletsEliteSyndicateModsuit
-  name: EE-122MS "Jaeger" Modsuit Gauntlets
-  description: A pair of gauntlets made for the "Jaeger" modsuit.
+  name: "Рукавиці модсуїта EE-122MS \"Єгер"
+  description: "Пара рукавиць, створених для модсуїта \"Єгер\"."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -195,8 +195,8 @@
 - type: entity
   parent: [ClothingModsuitHelmetStandard, ShowSecurityIcons]
   id: ClothingModsuitHelmetEliteSyndicateModsuit
-  name: EE-122MS "Jaeger" Modsuit Helm
-  description: A helmet made for the "Jaeger" modsuit.
+  name: "Шолом модсуїта EE-122MS \"Єгер"
+  description: "Шолом, створений для модсуїта \"Єгер\"."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -224,8 +224,8 @@
 - type: entity
   parent: [ClothingModsuitChestplateStandard, BaseIntegratedManeuveringThrusters]
   id: ClothingModsuitChestplateEliteSyndicateModsuit
-  name: EE-122MS "Jaeger" Modsuit Chestplate
-  description: A mass production modular take on the Shiwei tacsuit. It trades a lot of the Shiwei's enhanced protection for modular equipment gear. Compared with the Raider modsuit, it offers unparalleled protection from energy weapons, but its ballistic protection leaves much to be desired.
+  name: "Нагрудник модсуїта EE-122MS \"Єгер"
+  description: "Масово виробничий модульний варіант тактичного костюма Шивей. Він поступається значною частиною посиленого захисту Шивей заради модульного обладнання. Порівняно з модсуїтом Рейдер, він пропонує неперевершений захист від енергетичної зброї, але його балістичний захист залишає бажати кращого."
   categories: [HideSpawnMenu]
   components:
     - type: Sprite
@@ -266,8 +266,8 @@
 - type: entity
   parent: [ClothingModsuitBootsStandard]
   id: ClothingModsuitBootsEliteSyndicateModsuit
-  name: EE-122MS "Jaeger" Modsuit Boots
-  description: A pair of greaves made for the "Jaeger" modsuit.
+  name: "Черевики модсуїта EE-122MS \"Єгер"
+  description: "Пара наголінників, створених для модсуїта \"Єгер\"."
   categories: [HideSpawnMenu]
   components:
     - type: Appearance

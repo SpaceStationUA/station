@@ -2,8 +2,8 @@
   abstract: true
   parent: [ BaseStructureDynamic, SmallConstructibleMachine ]
   id: SurveillanceWirelessCameraBase
-  name: wireless camera
-  description: A camera. It's watching you. Kinda.
+  name: "бездротова камера"
+  description: "Камера. Вона стежить за тобою. Типу того."
   components:
     - type: InteractionOutline
     - type: Eye
@@ -127,10 +127,10 @@
       networkSet: true
 #PIRATE START UNTIL END OF FILE
 - type: entity
-  name: камера журналіста
+  name: "камера журналіста"
   parent: Clothing
   id: JournalistCamera
-  description: A picture says more than a thousand words. Comes with an ultrabright flash and internal photo roll, so make sure every snap counts!
+  description: "Фотографія скаже більше, ніж тисяча слів. Поставляється з ультраяскравим спалахом і внутрішнім фоторулоном, тому переконайтеся, що кожен знімок має значення!"
   components:
     - type: Sprite
       sprite: _Pirate/Objects/Devices/camera.rsi

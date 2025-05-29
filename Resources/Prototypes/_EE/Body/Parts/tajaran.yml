@@ -1,7 +1,7 @@
 - type: entity
   id: PartTajaran
   parent: [BaseItem, BasePart]
-  name: "tajaran body part"
+  name: "частина тіла таджарану"
   abstract: true
   components:
   - type: Extractable
@@ -14,7 +14,7 @@
 
 - type: entity
   id: TorsoTajaran
-  name: "Tajaran torso"
+  name: "Таджаранський тулуб"
   parent: [PartTajaran, BaseTorso]
   components:
   - type: Sprite
@@ -31,7 +31,7 @@
 
 - type: entity
   id: HeadTajaran
-  name: "Tajaran head"
+  name: "Таджаранська голова"
   parent: [PartTajaran, BaseHead]
   components:
   - type: Sprite
@@ -47,7 +47,7 @@
 
 - type: entity
   id: LeftArmTajaran
-  name: "left Tajaran arm"
+  name: "ліва таджаранська рука"
   parent: [PartTajaran, BaseLeftArm]
   components:
   - type: Sprite
@@ -56,7 +56,7 @@
 
 - type: entity
   id: RightArmTajaran
-  name: "right Tajaran arm"
+  name: "права таджаранська рука"
   parent: [PartTajaran, BaseRightArm]
   components:
   - type: Sprite
@@ -65,7 +65,7 @@
 
 - type: entity
   id: LeftHandTajaran
-  name: "left Tajaran hand"
+  name: "ліва таджаранська рука"
   parent: [PartTajaran, BaseLeftHand]
   components:
   - type: Sprite
@@ -74,7 +74,7 @@
 
 - type: entity
   id: RightHandTajaran
-  name: "right Tajaran hand"
+  name: "права таджаранська рука"
   parent: [PartTajaran, BaseRightHand]
   components:
   - type: Sprite
@@ -83,7 +83,7 @@
 
 - type: entity
   id: LeftLegTajaran
-  name: "left Tajaran leg"
+  name: "ліва нога таджаранця"
   parent: [PartTajaran, BaseLeftLeg]
   components:
   - type: Sprite
@@ -92,7 +92,7 @@
 
 - type: entity
   id: RightLegTajaran
-  name: "right Tajaran leg"
+  name: "права таджаранська нога"
   parent: [PartTajaran, BaseRightLeg]
   components:
   - type: Sprite
@@ -101,7 +101,7 @@
 
 - type: entity
   id: LeftFootTajaran
-  name: "left Tajaran foot"
+  name: "ліва таджаранська нога"
   parent: [PartTajaran, BaseLeftFoot]
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
 
 - type: entity
   id: RightFootTajaran
-  name: "right Tajaran foot"
+  name: "права таджаранська нога"
   parent: [PartTajaran, BaseRightFoot]
   components:
   - type: Sprite

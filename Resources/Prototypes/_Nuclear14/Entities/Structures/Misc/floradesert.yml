@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseTree
   id: N14FloraDesertCactus
-  name: Cactus
-  description: Some kind of wasteland flora.
+  name: "Кактус"
+  description: "Якась пустищна флора."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/floradesert.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: N14FloraDesertCactus
   id: N14FloraDesertTree1
-  name: "tree yucca"
-  description: A Joshua Tree.
+  name: "деревовидна юка"
+  description: "Дерево Ісуса Навина."
   components:
   - type: Sprite
     state: joshua_1
@@ -62,8 +62,8 @@
 - type: entity
   parent: N14FloraDesertCactus
   id: N14FloraTreeBald
-  name: bald tree
-  description: "What? Even trees go bald."
+  name: "лисе дерево"
+  description: "Що? Навіть дерева лисіють."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Misc/trees-ms.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: N14FloraTreeBald
   id: N14FloraTreePine
-  name: pine tree
-  description: It has an almost overwhelming scent.
+  name: "сосна"
+  description: "Він має майже приголомшливий аромат."
   components:
   - type: Sprite
     layers:
@@ -98,8 +98,8 @@
 - type: entity
   parent: N14FloraTreeBald
   id: N14FloraTreeDead1
-  name: dead tree
-  description: A dead memory of a tree.
+  name: "мертве дерево"
+  description: "Мертва пам'ять про дерево."
   components:
   - type: Sprite
     layers:

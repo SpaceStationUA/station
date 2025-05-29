@@ -6,7 +6,7 @@
   parent: MaterialBase
   id: N14MaterialBase
   suffix: Full, 30
-  description: A raw material.
+  description: "Сировина."
   components:
   - type: Sprite
     sprite: _Nuclear14/Objects/Misc/materials.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: N14MaterialBase
   id: N14MaterialCircuitry
-  name: circuitry
+  name: "схема"
   suffix: Full
   components:
   - type: Material

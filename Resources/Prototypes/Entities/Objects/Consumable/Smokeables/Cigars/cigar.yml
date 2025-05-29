@@ -4,8 +4,8 @@
 - type: entity
   id: Cigar
   parent: BaseCigar
-  name: cigar
-  description: "A brown roll of tobacco and... well, you're not quite sure."
+  name: "сигара"
+  description: "Коричневий згорток тютюну і... ну, ви не зовсім впевнені."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigars/cigar.rsi
@@ -50,8 +50,8 @@
 - type: entity
   id: CigarGold
   parent: Cigar
-  name: premium Havanian cigar
-  description: A cigar fit for only the best of the best.
+  name: "преміальна гаванська сигара"
+  description: "Сигара, гідна лише найкращих з найкращих."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigars/cigar-gold.rsi
@@ -89,8 +89,8 @@
 - type: entity
   id: CigarRobust
   parent: Cigar
-  name: Cohiba Robusto cigar
-  description: There's little more you could want from a cigar.
+  name: "Сигара Cohiba Robusto"
+  description: "Мало що ще можна бажати від сигари."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Smokeables/Cigars/cigar-gold.rsi

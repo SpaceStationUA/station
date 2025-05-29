@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: AutodocCircuitboard
-  name: autodoc machine board
-  description: A machine printed circuit board for an autodoc.
+  name: "плата автодокументації машини"
+  description: "Машинна друкована плата для автодокумента."
   components:
   - type: MachineBoard
     prototype: Autodoc
@@ -41,8 +41,8 @@
 - type: entity
   id: MedicalBiofabMachineBoard
   parent: BaseMachineCircuitboard
-  name: medical biofab machine board
-  description: A machine printed circuit board for a medical biofab.
+  name: "медична плата для машин з біотканини"
+  description: "Машинна друкована плата для медичної біофабрики."
   components:
   - type: Sprite
     state: medical

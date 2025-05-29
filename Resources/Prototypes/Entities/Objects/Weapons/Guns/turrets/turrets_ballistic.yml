@@ -11,7 +11,7 @@
   parent: BaseWeaponBallisticTurret
   id: WeaponTurretSAN
   suffix: Sol Alliance Navy
-  description: A turret designed to provide protection for Sol Marines during combat drops. It menaces targets with a twin-linked C-20r, although its cheap fire controller lends to poor accuracy.
+  description: "Турель, призначена для забезпечення захисту морських піхотинців Сол під час бойових висадок. Вона загрожує цілям спареним C-20r, хоча її дешевий контролер вогню призводить до низької точності."
   components:
     - type: NpcFactionMember
       factions:
@@ -29,7 +29,7 @@
 
 - type: entity
   parent: BaseWeaponBallisticTurret
-  name: disposable ballistic turret
+  name: "одноразова балістична турель"
   id: WeaponTurretSyndicateDisposable
   suffix: Syndicate, Disposable
   components:
@@ -80,8 +80,8 @@
     - SimpleHostile
 
 - type: entity
-  name: xeno turret
-  description: Shoots 9mm acid projectiles
+  name: "ксенобашта"
+  description: "Стріляє 9-мм кислотними снарядами"
   parent: BaseWeaponBallisticTurret
   id: WeaponTurretXeno
   suffix: Xeno

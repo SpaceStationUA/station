@@ -1,8 +1,8 @@
 - type: entity
-  name: box of soulbreaker cartridges
+  name: "коробка картриджів для Солбрейкера"
   parent: BaseAmmoProvider
   id: BoxShellSoulbreaker
-  description: A box full of anti-psionic soulbreaker cartridges, designed for riot shotguns.
+  description: "Коробка з антипіонерськими патронами, призначеними для рушниць для розбиття масових заворушень."
   components:
     - type: BallisticAmmoProvider
       proto: ShellSoulbreaker
@@ -16,10 +16,10 @@
 
 
 - type: entity
-  name: box of .45 magnum Universal magazines
+  name: "коробка магазинів під набій .45 магнум Універсальний"
   parent: BoxMagazine
   id: BoxMagazineUniversalMagnum
-  description: A box full of .45 magnum magazines.
+  description: "Коробка, повна магазинів до набоїв .45 магнум."
   components:
   - type: StorageFill
     contents:
@@ -34,10 +34,10 @@
         - BallisticAmmoProvider
 
 - type: entity
-  name: box of .45 magnum Universal (practice) magazines
+  name: "коробка магазинів .45 магнум Універсальний (тренувальні)"
   parent: BoxMagazine
   id: BoxMagazineUniversalMagnumPractice
-  description: A box full of .45 magnum practice magazines.
+  description: "Коробка, повна тренувальних магазинів під набій .45 магнум."
   components:
   - type: StorageFill
     contents:
@@ -52,10 +52,10 @@
         - BallisticAmmoProvider
 
 - type: entity
-  name: box of .45 magnum Universal (rubber) magazines
+  name: "коробка магазинів .45 магнум Універсальний (гумові)"
   parent: BoxMagazine
   id: BoxMagazineUniversalMagnumRubber
-  description: A box full of .45 magnum rubber magazines.
+  description: "Коробка, повна гумових магазинів .45 магнум."
   components:
   - type: StorageFill
     contents:
@@ -70,10 +70,10 @@
         - BallisticAmmoProvider
 
 - type: entity
-  name: box of .30 rifle speed loaders
+  name: "коробка швидкісних зарядних пристроїв для гвинтівок калібру .30"
   parent: BoxMagazine
   id: BoxSpeedLoaderLightRifle
-  description: A box full of .30 rifle speed loaders.
+  description: "Коробка, повна швидкісних набоїв для гвинтівок калібру .30."
   components:
   - type: StorageFill
     contents:

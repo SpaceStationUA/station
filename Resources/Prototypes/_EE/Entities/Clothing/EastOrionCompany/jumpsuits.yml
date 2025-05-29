@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitHydroponicsEOC
-  name: New-Nederic jumpsuit
-  description: A jumpsuit worn by the agricultural workforce of the East-Orion Company.
+  name: "Ново-недерійський комбінезон"
+  description: "Комбінезон, який носять сільськогосподарські працівники Східно-Оріонської Компанії."
   components:
   - type: Sprite
     sprite: _EE/Clothing/Uniforms/Jumpsuits/hydro_eoc.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase]
   id: ClothingUniformJumpsuitSecurityEOC
-  name: FCU jumpsuit
-  description: A standard Farmer's Civil Union jumpsuit, worn by East-Orion Company employees who protect agricultural assets and interests.
+  name: "Комбінезон ФРС"
+  description: "Стандартний комбінезон Фермерської Робітничої Спілки, який носять співробітники Східно-Оріонської Компанії, що захищають сільськогосподарські активи та інтереси."
   components:
   - type: Sprite
     sprite: _EE/Clothing/Uniforms/Jumpsuits/security_eoc.rsi

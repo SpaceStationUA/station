@@ -1,7 +1,7 @@
 - type: entity
-  name: high-tech mechanical pinches
+  name: "високотехнологічні механічні затискачі"
   id: MechanicalPinchesAbductor
-  description: A highly advanced set of mechanical pinches, they seem to work like a hemostat and retractor.
+  description: "Високотехнологічний набір механічних щипців, вони працюють як гемостат і ретрактор."
   parent: BaseToolSurgery
   components:
   - type: Sprite
@@ -39,8 +39,8 @@
     - Abductors
 
 - type: entity
-  name: high-tech searing tool
-  description: A highly advanced cautery with an energy tip, it seems to also work as a drill.
+  name: "високотехнологічний інструмент для випалювання"
+  description: "Високотехнологічний припікач з енергетичним наконечником, який, здається, також працює як дриль."
   id: SearingToolAbductor
   parent: BaseToolSurgery
   components:
@@ -75,8 +75,8 @@
     - Abductors
 
 - type: entity
-  name: high-tech energy scalpel
-  description: A scalpel which uses an energy blade, it seems to also work as a saw.
+  name: "високотехнологічний енергетичний скальпель"
+  description: "Скальпель, який використовує енергетичне лезо, здається, також працює як пила."
   id: EnergyScalpelAbductor
   parent: BaseToolSurgery
   components:
@@ -111,9 +111,9 @@
     - Abductors
 
 - type: entity
-  name: high-tech bone manipulator
+  name: "високотехнологічний кістковий маніпулятор"
   id: BoneManipulatorAbductor
-  description: A highly advanced tool, capable of mending bones.
+  description: "Надсучасний інструмент, здатний вправляти кістки."
   parent: BaseToolSurgery
   components:
     - type: Sprite

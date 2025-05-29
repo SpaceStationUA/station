@@ -2,10 +2,10 @@
 # Kebabs
 
 - type: entity
-  name: skewer
+  name: "шампур"
   parent: BaseItem
   id: FoodKebabSkewer
-  description: A thin rod of metal used to skewer just about anything and cook it.
+  description: "Тонкий металевий стрижень, на який нанизували практично все, що завгодно, і готували."
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/skewer.rsi
@@ -62,10 +62,10 @@
           Quantity: 2
 
 - type: entity
-  name: double rat kebab
+  name: "подвійний щурячий шашлик"
   parent: FoodKebabSkewer
   id: FoodMeatRatdoubleKebab
-  description: A double serving of not so delicious rat meat, on a stick.
+  description: "Подвійна порція не дуже смачного щурячого м'яса на паличці."
   components:
   - type: Sprite
     layers:
@@ -81,10 +81,10 @@
           Quantity: 6
 
 - type: entity
-  name: fiesta kebab
+  name: "шашлик фієста"
   parent: FoodKebabSkewer
   id: FoodMeatFiestaKebab
-  description: Always a cruise ship party somewhere in the world, right?
+  description: "Завжди вечірка на круїзному лайнері десь у світі, чи не так?"
   components:
   - type: Sprite
     layers:
@@ -95,10 +95,10 @@
       - state: skewer-tomato
 
 - type: entity
-  name: snake kebab
+  name: "зміїний шашлик"
   parent: FoodKebabSkewer
   id: FoodMeatSnakeKebab
-  description: Snake meat on a stick. It's a little tough.
+  description: "Зміїне м'ясо на паличці. Трохи жорсткувате."
   components:
   - type: Sprite
     layers:

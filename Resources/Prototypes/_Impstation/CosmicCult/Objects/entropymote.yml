@@ -3,8 +3,8 @@
 - type: entity
   parent: [ MaterialBase ]
   id: MaterialCosmicCultEntropy
-  name: mote of entropy
-  description: A solidified mote of entropic essence. Feels numbing to the touch.
+  name: "порошинка ентропії"
+  description: "Затверділа порошинка ентропійної сутності. Відчувається оніміння на дотик."
   suffix: Full
   components:
   - type: Stack
@@ -84,7 +84,7 @@
 
 - type: stack
   id: Entropy
-  name: mote of entropy
+  name: "порошинка ентропії"
   icon: { sprite: _Impstation/CosmicCult/Objects/entropymote.rsi, state: mote }
   spawn: MaterialCosmicCultEntropy1
   maxCount: 6

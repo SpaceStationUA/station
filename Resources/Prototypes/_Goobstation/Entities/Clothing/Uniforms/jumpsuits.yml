@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitBlueshieldOfficer
-  name: blueshield officer jumpsuit
-  description: A short-sleeved grey and blue jumpsuit, made out of a sturdy material. Blueshield standard issue.
+  name: "офіцерський комбінезон \"Синій щит"
+  description: "Сіро-блакитний комбінезон з короткими рукавами, виготовлений з міцного матеріалу. Стандартна комплектація Blueshield."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/blueshield_officer.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitNanotrasenRepresentative
-  name: corporate liaison suit
-  description: A black suit worn by officials.
+  name: "костюм корпоративного представника"
+  description: "Чорний костюм, який носять офіційні особи."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/nanotrasen_representative.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformJumpsuitMagistrate
-  name: magistrate robes
-  description: The robes worn by officials.
+  name: "мантії судді"
+  description: "Роба, яку носять чиновники."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Uniforms/Jumpsuit/magistrate.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: ClothingUniformJumpsuitLawyerBlack
   id: ClothingUniformJumpsuitDevil
-  name: devilish suit
-  description: A stylish black suit made of materials not from this dimension. Warm to the touch.
+  name: "диявольський костюм"
+  description: "Стильний чорний костюм, виготовлений з матеріалів не з цього виміру. Теплий на дотик."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpsuit/lawyerblack.rsi

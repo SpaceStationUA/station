@@ -1,9 +1,9 @@
 - type: entity
   parent: [ClothingOuterHardsuitShanlinUnpainted, TCFLInfo]
   id: ClothingOuterHardsuitTCFL
-  name: TCFL Tacsuit
+  name: "Тактичний костюм TCFL"
   suffix: TCFL
-  description: Standard-issue body armor for Solarian marines. While the rest of their gear may be cheap, the armor worn on top was apparently made by the highest bidder. A suit of polymer fabric encases a large plastitanium plate. The inside is sewn with, "Manufactured by CyberSun Armaments, For Solarian-Use Only".
+  description: "Стандартний бронежилет для сонячних морпіхів. Хоча решта їхнього спорядження може бути дешевою, броня, яку носять зверху, була, очевидно, виготовлена тим, хто запропонував найвищу ціну. Костюм з полімерної тканини покриває велику пластитанову пластину. Всередині нашито: \"Виготовлено CyberSun Armaments, Тільки для Сонячного використання\"."
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/OuterClothing/TCFL_tacsuit.rsi
@@ -20,9 +20,9 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, TCFLInfo]
   id: ClothingOuterArmorTCFLHeavy
-  name: TCAF heavy armor
+  name: "Важка броня ЗСТЦ"
   suffix: TCFL
-  description: A suit of heavy armor used by members of the Tau-Ceti Armed Forces. Once common to the Sol Alliance, this wargear is often now made locally by companies such as Five-Points Armory, BRDI, or even NanoTrasen.
+  description: "Костюм важкої броні, що використовується членами Збройних сил Тау-Кита. Колись поширене в Альянсі Сол, це спорядження тепер часто виготовляється місцевими компаніями, такими як Five-Points Armory, BRDI або навіть NanoTrasen."
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/OuterClothing/TCAF_plate_carrier_heavy.rsi
@@ -52,9 +52,9 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, TCFLInfo]
   id: ClothingOuterArmorTCFLLight
-  name: TCAF plate carrier
+  name: "Плитоноска ЗСТЦ"
   suffix: TCFL
-  description: A plate carrier worn by members of the Tau-Ceti Armed Forces. Once common to the Sol Alliance, this wargear is often now made locally by companies such as Five-Points Armory, BRDI, or even NanoTrasen.
+  description: "Плитоноска, яку носять члени Збройних сил Тау-Кита. Колись поширена в Альянсі Сол, ця екіпіровка тепер часто виготовляється місцевими компаніями, такими як Five-Points Armory, BRDI або навіть NanoTrasen."
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/OuterClothing/TCAF_plate_carrier_light.rsi
@@ -83,9 +83,9 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, TCFLInfo]
   id: ClothingOuterJacketTCAF
-  name: TCAF Jacket
+  name: "Куртка TCAF"
   suffix: TCFL
-  description: A high quality jacket made from a blend of tear resistant and fire retardant fabric. It's commonly worn by current and former members of the Tau-Ceti Armed Forces
+  description: "Високоякісна куртка, виготовлена зі суміші стійкої до розривів та вогнетривкої тканини. Її зазвичай носять діючі та колишні члени Збройних Сил Тау-Кіта"
   components:
     - type: Sprite
       sprite: _EE/Clothing/BieselRepublic/OuterClothing/TCAF_jacket.rsi
