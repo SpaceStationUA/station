@@ -12,7 +12,7 @@
   femaleFirstNames: names_vox
   naming: First
   sexes:
-    - Unsexed
+  - Unsexed
 
 - type: speciesBaseSprites
   id: MobVoxSprites
@@ -37,11 +37,11 @@
   id: MobVoxMarkingLimits
   onlyWhitelisted: true
   points:
-    # PIRATE START
+  # PIRATE START
     Face:
       points: 3
       required: false
-    # PIRATE END
+  # PIRATE END
     Hair:
       points: 1
       required: false
@@ -54,46 +54,46 @@
     Snout:
       points: 1
       required: true
-      defaultMarkings: [VoxBeak]
+      defaultMarkings: [ VoxBeak ]
     RightArm:
       points: 1
       required: true
-      defaultMarkings: [VoxRArmScales]
+      defaultMarkings: [ VoxRArmScales ]
     RightHand:
       points: 1
       required: true
-      defaultMarkings: [VoxRHandScales]
+      defaultMarkings: [ VoxRHandScales ]
     LeftArm:
       points: 1
       required: true
-      defaultMarkings: [VoxLArmScales]
+      defaultMarkings: [ VoxLArmScales ]
     LeftHand:
       points: 1
       required: true
-      defaultMarkings: [VoxLHandScales]
+      defaultMarkings: [ VoxLHandScales ]
     RightLeg:
       points: 1
       required: true
-      defaultMarkings: [VoxRLegScales]
+      defaultMarkings: [ VoxRLegScales ]
     LeftLeg:
       points: 1
       required: true
-      defaultMarkings: [VoxLLegScales]
+      defaultMarkings: [ VoxLLegScales ]
     RightFoot:
       points: 1
       required: true
-      defaultMarkings: [VoxRFootScales]
+      defaultMarkings: [ VoxRFootScales ]
     LeftFoot:
       points: 1
       required: true
-      defaultMarkings: [VoxLFootScales]
+      defaultMarkings: [ VoxLFootScales ]
     Chest:
       points: 1
       required: false
     Tail:
       points: 1
       required: true
-      defaultMarkings: [VoxTail]
+      defaultMarkings: [ VoxTail ]
 
 - type: humanoidBaseSprite
   id: MobVoxEyes

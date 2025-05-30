@@ -24,13 +24,9 @@ marking-TattooCampbellRightLeg = Татуювання на правій нозі
 
 marking-TattooEyeRight-tattoo_eye_r = Праве око
 marking-TattooEyeRight = Праве Око
-marking-ReptilianTattooEyeRight-tattoo_eye_r = Праве око
-marking-ReptilianTattooEyeRight = Праве Око
 
 marking-TattooEyeLeft-tattoo_eye_l = Ліве око
 marking-TattooEyeLeft = Ліве Око
-marking-ReptilianTattooEyeLeft-tattoo_eye_l = Ліве око
-marking-ReptilianTattooEyeLeft = Ліве Око
 
 marking-TattooEyeArachneRight-tattoo_eye_arachne_r = Праве павуче око
 marking-TattooEyeArachneRight = Праве павуче око
