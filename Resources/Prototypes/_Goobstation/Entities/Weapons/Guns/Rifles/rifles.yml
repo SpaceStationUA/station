@@ -1,8 +1,8 @@
 - type: entity
-  name: "M-90"
+  name: M-90
   parent: BaseWeaponRifle
   id: WeaponRifleM90
-  description: "Модифікація M-90gl, у якій видалено вбудований гранатомет. Використовує гвинтівкові набої .20."
+  description: A revision of the M-90gl that removes the inbuilt grenade launcher. Uses .20 rifle ammo.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/m90.rsi
@@ -44,10 +44,10 @@
     fireRate: 6
 
 - type: entity
-  name: "Annie"
+  name: Annie
   parent: BaseWeaponRifle
   id: WeaponRifleAnnie
-  description: "Звір, розроблений, щоб нести тягар нездійсненних місій. Використовує гвинтівкові набої .30."
+  description: A beast designed to shoulder the weight of impossible missions. Uses .30 rifle ammo.
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/annie.rsi
@@ -101,10 +101,10 @@
   - type: Appearance
 
 - type: entity
-  name: "WSPR"
+  name: WSPR
   parent: BaseWeaponRifle
   id: WeaponRifleWSPR
-  description: "Ультрасучасна гвинтівка від Cybersun з потужною інтегрованою системою приглушення. Використовує дозвукові набої .30"
+  description: A cutting-edge rifle from Cybersun with a powerful integrated suppression system. Uses .30 subsonic ammunition
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Weapons/Guns/Rifles/wspr.rsi

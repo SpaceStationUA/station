@@ -73,7 +73,7 @@
   - type: Targeting # Shitmed Change
 
 - type: entity
-  name: "дрон"
+  name: drone
   id: MobDrone
   parent: [PlayerSiliconBase, BaseBorgTransponder]
   components:
@@ -173,7 +173,7 @@
     sprite:
       sprite: _Imp/Drone/drone.rsi
       state: shell
-    name: "дрон"
+    name: drone
   - type: MovementIgnoreGravity
   - type: Fixtures
     fixtures:

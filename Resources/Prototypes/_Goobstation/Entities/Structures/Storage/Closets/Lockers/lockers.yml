@@ -1,6 +1,6 @@
 - type: entity
   id: LockerBlueshieldOfficer
-  name: "офіцерська шафка з блакитним щитом"
+  name: blueshield officer locker
   parent: LockerBaseSecure
   components:
   - type: Appearance
@@ -15,9 +15,9 @@
 
 - type: entity
   id: LockerNanorep
-  name: "шафка корпоративного представника"
+  name: corporate liaison locker
   parent: LockerBaseSecure
-  description: "Шафка, наповнена обладнанням для корпоративних представників, люб'язно надана Центральним командуванням NanoTrasen."
+  description: A locker filled with equipment for corporate liaisons, courtesy of NanoTrasen Central Command.
   components:
   - type: Appearance
   - type: Sprite
@@ -31,7 +31,7 @@
 
 - type: entity
   id: LockerMagistrate
-  name: "шафка судді"
+  name: magistrate locker
   parent: LockerBaseSecure
   components:
   - type: Appearance

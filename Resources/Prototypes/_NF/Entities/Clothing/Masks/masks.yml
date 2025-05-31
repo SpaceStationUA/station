@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingMaskGasExplorer
   id: ClothingMaskArcadia
-  name: "бойова маска аркадія"
-  description: "Щільно прилегла високотехнологічна маска, розроблена Arcadia Industries для космічних бійців."
+  name: arcadia battle mask
+  description: A close-fitting high tech mask designed by Arcadia Industries for space faring battlers.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Mask/arcadia.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: ClothingMaskBase
   id: FaceHuggerPlushie
-  name: "плюшевий лицехват"
-  description: "Ідеальна плюшева іграшка, щоб налякати друзів прибульцями!"
+  name: facehugger plushie
+  description: The perfect plushie to scare your friends with aliens!
   components:
   - type: Sprite
     sprite: _NF/Clothing/Mask/facehuggerplushie.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskPilot
-  name: "дихальна маска пілота"
-  description: "Щільно прилегла дихальна маска, розроблена, схоже, для мінімального комфорту користувача."
+  name: pilot breathing mask
+  description: A close-fitting breathing mask designed for, it would seems, minimal comfort of wearer.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Mask/pilot.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: ClothingMaskGasSecurity
   id: ClothingMaskGasNfsd
-  name: "протигаз nfsd"
-  description: "Стандартний протигаз NFSD."
+  name: nfsd gas mask
+  description: A standard issue nfsd gas mask.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Mask/nfsd.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: ClothingMaskGasSecurity
   id: ClothingMaskGasSheriff
-  name: "протигаз шерифа nfsd"
-  description: "Протигаз, гідний шерифа."
+  name: nfsd sheriff gas mask
+  description: A gas mask worthy of a sheriff.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Mask/nfsd_sheriff.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskCultJanitor
-  name: "маска лідера культу"
-  description: "Щільно прилегла вражаюча дихальна маска, розроблена для лідерів культів, які цінують стиль."
+  name: cult leader mask
+  description: A close-fitting imposing breathing mask designed for cult leaders who value style.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Mask/cult_janitor_mask.rsi

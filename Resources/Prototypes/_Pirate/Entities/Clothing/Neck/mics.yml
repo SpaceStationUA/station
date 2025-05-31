@@ -1,6 +1,6 @@
 - type: entity
-  name: "Вогняне намисто"
-  description: "Намисто, зачароване на вогняний щит. Тільки не запускай вогняну кулю з увімкнутим щитом, бо він її не пропустить!"
+  name: Вогняне намисто
+  description: Намисто, зачароване на вогняний щит. Тільки не запускай вогняну кулю з увімкнутим щитом, бо він її не пропустить!
   id: WizardFireNecklace
   parent: ClothingNeckBase
   components:
@@ -28,8 +28,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: DeathTagSyndie
-  name: "мітка смерті"
-  description: "ТОВ \"Горлекс\" піклується про своїх клієнтів. На бирці смерті лише два слова W.A.S R.O.B.U.S.T"
+  name: death tag
+  description: Gorlex LLC cares about their clients. The death tag has only two words on it W.A.S R.O.B.U.S.T
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/Neck/Misc/syndie_number.rsi

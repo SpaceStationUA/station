@@ -1,8 +1,8 @@
 - type: entity
   parent: SimpleMobBase
   id: MobPibble
-  name: "пітбуль"
-  description: "Собака-нянька. Або лабораторний мікс, залежно від того, хто запитує."
+  name: pitbull
+  description: Nanny dog. Or a lab mix depending on who is asking.
   components:
   - type: MeleeWeapon
     hidden: true
@@ -94,8 +94,8 @@
 - type: entity
   parent: MobPibble
   id: MobPibbleVent
-  name: "вентбулл"
-  description: "Щось на кшталт помісі пітбуля... чи, можливо, наступний етап еволюції піблів?"
+  name: ventbull
+  description: Some kind of pitbull mix... or maybe the next stage in pibble evolution?
   components:
   - type: MeleeWeapon
     hidden: true

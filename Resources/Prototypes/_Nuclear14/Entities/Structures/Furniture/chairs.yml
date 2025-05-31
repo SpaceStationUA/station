@@ -1,8 +1,8 @@
 - type: entity
   parent: ChairWood
   id: N14ChairWood
-  name: "дерев'яний стілець"
-  description: "Дерев'яний стілець, придатний для сидіння."
+  name: wooden chair
+  description: A wooden chair suitable for sitting on.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/bedsandchairs.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: N14ChairWood
   id: N14ChairWoodSettler
-  name: "дерев'яний стілець"
-  description: "Дерев'яний стілець, на який претендували деякі поселенці."
+  name: wooden chair
+  description: A wooden chair claimed by some settlers.
   components:
   - type: Sprite
     state: wooden_chair_settler
@@ -49,7 +49,7 @@
 - type: entity
   parent: StoolBase
   id: N14ChairStoolBarBlack
-  description: "Чорний барний стілець."
+  description: A black bar stool.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/bedsandchairs.rsi
@@ -62,7 +62,7 @@
 - type: entity
   parent: StoolBase
   id: N14ChairStoolBarTan
-  description: "Засмаглий барний стілець."
+  description: A tan bar stool.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/bedsandchairs.rsi
@@ -74,7 +74,7 @@
 - type: entity
   parent: StoolBase
   id: N14ChairStoolBarRed
-  description: "Червоний барний стілець."
+  description: A red bar stool.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: N14ChairWood
   id: N14ChairArmchair
-  name: "крісло"
-  description: "М'яке крісло."
+  name: armchair
+  description: A padded armchair.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
@@ -100,7 +100,7 @@
 - type: entity
   parent: Chair
   id: N14ChairMetalGreen
-  description: "Металевий стілець для сидіння."
+  description: A metal chair for sitting on.
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/chairs.rsi
@@ -187,7 +187,7 @@
 - type: entity
   parent: OfficeChairBase
   id: N14ChairOfficeRed
-  name: "офісне крісло"
+  name: office chair
   suffix: red
   components:
   - type: Sprite
@@ -210,7 +210,7 @@
 - type: entity
   parent: OfficeChairBase
   id: N14ChairOfficeBlue
-  name: "офісне крісло"
+  name: office chair
   suffix: blue
   components:
   - type: Sprite
@@ -233,7 +233,7 @@
 - type: entity
   parent: OfficeChairBase
   id: N14ChairOfficeGreen
-  name: "офісне крісло"
+  name: office chair
   suffix: green
   components:
   - type: Sprite
@@ -268,7 +268,7 @@
 - type: entity
   parent: N14ChairMetalGreen
   id: N14ChairMetalFolding
-  name: "розкладний стілець"
+  name: folding chair
   suffix: folding
   components:
   - type: Sprite
@@ -280,7 +280,7 @@
 - type: entity
   parent: N14ChairMetalGreen
   id: N14ChairBarRetro
-  name: "ретро-стілець"
+  name: retro chair
   suffix: retro
   components:
   - type: Sprite
@@ -289,8 +289,8 @@
 - type: entity
   parent: N14ChairMetalGreen
   id: N14ChairPlastic
-  name: "пластиковий стілець"
-  description: "Пластиковий стілець. Виглядає незручно."
+  name: plastic chair
+  description: A plastic chair. Looks uncomfy.
   suffix: plastic
   components:
   - type: Sprite
@@ -302,8 +302,8 @@
 - type: entity
   parent: N14ChairMetalGreen
   id: N14ChairDinerBench
-  name: "обідній стілець"
-  description: "Лавка в американській забігайлівці."
+  name: diner chair
+  description: An American Diner bench.
   components:
   - type: Sprite
     state: diner_chair

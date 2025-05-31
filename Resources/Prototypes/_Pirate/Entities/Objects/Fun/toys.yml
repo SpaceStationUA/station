@@ -23,8 +23,8 @@
 - type: entity
   parent: PlushieLizard
   id: NFPlushieBotanist #Weh!
-  name: "плюшевий ботанік"
-  description: "Вам потрібна їжа, і вона просто не перестане рости райдужною травою."
+  name: botanist plushie
+  description: You need food and it just wont stop making rainbow weed.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Fun/toys.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: PlushieLizard
   id: NFPlushieEngineer #Weh!
-  name: "плюшевий інженер "
-  description: "Бідолаха просто сидить без діла! Обійми його!"
+  name: engineer plushie
+  description: The poor thing is just sitting there with nothing to do! Give it a hug!
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Fun/toys.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: PlushieLizard
   id: NFPlushieConstruction #Weh!
-  name: "плюшевий будівельник"
-  description: "Робота в процесі. Шкода, що все так закінчилося."
+  name: construction plushie
+  description: A work in progress. A shame it had to end this way.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Fun/toys.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: PlushieLizard
   id: NFPlushieCmo #Weh!
-  name: "плюшевий головний лікар"
-  description: "Зовсім поруч."
+  name: chief medical officer plushie
+  description: Just a weh away.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Fun/toys.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: PlushieCarp
   id: NFPlushieSharkMinnow
-  name: "sharkminnow плюшевий"
-  description: "Воно вбило тебе! Воно вбило твоїх друзів! Тепер це джерело ПТСР - досить приголомшливе м'яке опудало!"
+  name: sharkminnow plushie
+  description: It's killed you! It's killed your friends! Now this source of PTSD is a Pretty Terrific Stuffed Doodad!
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Fun/sharkminnow.rsi
@@ -244,7 +244,7 @@
   parent: BasePlushie
   id: PlushieNicholas # :3
   name: "Смішний плюшевий бармен"
-  description: "На бірці, здається, помилка. Чому тут пише Фелінікалас?!"
+  description: "На біркі, здається, помилка. Чому тут пише Фелінікалас?!"
   components:
   - type: Sprite
     sprite: /Textures/_Pirate/Objects/Fun/toys.rsi
@@ -269,7 +269,7 @@
   parent: BasePlushie
   id: PlushieOlia
   name: "Смішна плюшева Голова Безпеки"
-  description: "Точно не арештує тебе за 5 грам канабісу в кишені"
+  description: "Точно не арештує тебе за 5 грам канабісу в кармані"
   components:
   - type: Sprite
     sprite: /Textures/_Pirate/Objects/Fun/toys.rsi

@@ -3,7 +3,7 @@
 - type: entity
   id: PartVulpkanin
   parent: BaseItem
-  name: "частина тіла вульпи"
+  name: "vulpkanin body part"
   abstract: true
   components:
   - type: Damageable
@@ -58,7 +58,7 @@
 
 - type: entity
   id: TorsoVulpkanin
-  name: "торс вульпи"
+  name: "vulpkanin torso"
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -109,7 +109,7 @@
 
 - type: entity
   id: HeadVulpkanin
-  name: "голова вульпи"
+  name: "vulpkanin head"
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -133,7 +133,7 @@
 
 - type: entity
   id: LeftArmVulpkanin
-  name: "ліва рука вульпи"
+  name: "left vulpkanin arm"
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -150,7 +150,7 @@
 
 - type: entity
   id: RightArmVulpkanin
-  name: "права рука вульпи"
+  name: "right vulpkanin arm"
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -167,7 +167,7 @@
 
 - type: entity
   id: LeftHandVulpkanin
-  name: "ліва долоня вульпи"
+  name: "left vulpkanin hand"
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -184,7 +184,7 @@
 
 - type: entity
   id: RightHandVulpkanin
-  name: "права долоня вульпи"
+  name: "right vulpkanin hand"
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -201,7 +201,7 @@
 
 - type: entity
   id: LeftLegVulpkanin
-  name: "ліва нога вульпи"
+  name: "left vulpkanin leg"
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -219,7 +219,7 @@
 
 - type: entity
   id: RightLegVulpkanin
-  name: "права нога вульпи"
+  name: "right vulpkanin leg"
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -237,7 +237,7 @@
 
 - type: entity
   id: LeftFootVulpkanin
-  name: "ліва стопа вульпи"
+  name: "left vulpkanin foot"
   parent: PartVulpkanin
   components:
   - type: Sprite
@@ -254,7 +254,7 @@
 
 - type: entity
   id: RightFootVulpkanin
-  name: "права стопа вульпи"
+  name: "right vulpkanin foot"
   parent: PartVulpkanin
   components:
   - type: Sprite

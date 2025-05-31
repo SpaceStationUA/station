@@ -1,8 +1,8 @@
 - type: entity
-  name: "BaseWeaponLauncher"
+  name: BaseWeaponLauncher
   parent: BaseItem
   id: BaseWeaponLauncher
-  description: "Корінцевий зубастий і пагонистий."
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -42,10 +42,10 @@
   # PIRATE END
 
 - type: entity
-  name: "гранатомет \"Китайське озеро"
+  name: china lake
   parent: [BaseWeaponLauncher, BaseGunWieldable]
   id: WeaponLauncherChinaLake
-  description: "ПЛОП"
+  description: PLOOP
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
@@ -76,10 +76,10 @@
       path: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
 
 - type: entity
-  name: "РПГ-7"
+  name: RPG-7
   parent: BaseWeaponLauncher
   id: WeaponLauncherRocket
-  description: "Модифікований старовинний реактивний гранатомет."
+  description: A modified ancient rocket-propelled grenade launcher.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -109,10 +109,10 @@
   - type: Appearance
 
 - type: entity
-  name: "реактивна система залпового вогню"
+  name: multiple rocket launcher
   parent: BaseWeaponLauncher
   id: WeaponLauncherMultipleRocket
-  description: "Модифікований старовинний реактивний гранатомет."
+  description: A modified ancient rocket-propelled grenade launcher.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
@@ -144,10 +144,10 @@
   - type: Appearance
 
 - type: entity
-  name: "піратська гармата"
+  name: pirate cannon
   parent: BaseWeaponLauncher
   id: WeaponLauncherPirateCannon
-  description: "Бабах!"
+  description: Kaboom!
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
@@ -379,11 +379,11 @@
 #            False: { visible: false }
 
 - type: entity
-  name: "метеоритна рушниця"
+  name: meteor launcher
   parent: WeaponLauncherMultipleRocket
   id: WeaponLauncherAdmemeMeteorLarge
   suffix: Admeme
-  description: "Він вистрілює великими метеоритами"
+  description: It fires large meteors
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -392,11 +392,11 @@
     proto: MeteorLarge
 
 - type: entity
-  name: "нерухома пускова установка для стрижнів"
+  name: immovable rod launcher
   parent: WeaponLauncherAdmemeMeteorLarge
   id: WeaponLauncherAdmemeImmovableRodSlow
   suffix: Admeme
-  description: "Він стріляє повільними нерухомими стрижнями."
+  description: It fires slow immovable rods.
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -406,10 +406,10 @@
 
 # Frontier mail RPDS
 - type: entity
-  name: "пошта RPDS"
+  name: mail RPDS
   parent: WeaponLauncherChinaLake
   id: WeaponMailLake
-  description: "Швидка Система Доставки Посилок"
+  description: Rap(b?)id Parcel Delivery System
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Launchers/mail.rsi

@@ -1,6 +1,6 @@
 - type: entity
   id: TorsoAbductor
-  name: "тулуб викрадача"
+  name: "abductor torso"
   parent: BaseTorso
   components:
   - type: Sprite
@@ -16,7 +16,7 @@
 
 - type: entity
   id: HeadAbductor
-  name: "голова викрадача"
+  name: "abductor head"
   parent: BaseHead
   components:
   - type: Sprite
@@ -25,7 +25,7 @@
 
 - type: entity
   id: LeftArmAbductor
-  name: "ліва рука викрадача"
+  name: "left abductor arm"
   parent: BaseLeftArm
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 
 - type: entity
   id: RightArmAbductor
-  name: "права абдукторна рука"
+  name: "right abductor arm"
   parent: BaseRightArm
   components:
   - type: Sprite
@@ -43,7 +43,7 @@
 
 - type: entity
   id: LeftHandAbductor
-  name: "ліва рука викрадача"
+  name: "left abductor hand"
   parent: BaseLeftHand
   components:
   - type: Sprite
@@ -52,7 +52,7 @@
 
 - type: entity
   id: RightHandAbductor
-  name: "права рука викрадача"
+  name: "right abductor hand"
   parent: BaseRightHand
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 
 - type: entity
   id: LeftLegAbductor
-  name: "ліва нога викрадача"
+  name: "left abductor leg"
   parent: BaseLeftLeg
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: RightLegAbductor
-  name: "права абдукторна нога"
+  name: "right abductor leg"
   parent: BaseRightLeg
   components:
   - type: Sprite
@@ -79,7 +79,7 @@
 
 - type: entity
   id: LeftFootAbductor
-  name: "ліва абдукторна стопа"
+  name: "left abductor foot"
   parent: BaseLeftFoot
   components:
   - type: Sprite
@@ -88,7 +88,7 @@
 
 - type: entity
   id: RightFootAbductor
-  name: "права абдукторна стопа"
+  name: "right abductor foot"
   parent: BaseRightFoot
   components:
   - type: Sprite
