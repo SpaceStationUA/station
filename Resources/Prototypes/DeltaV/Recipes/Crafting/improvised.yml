@@ -1,77 +1,77 @@
 - type: construction
-  name: "мушкет"
+  name: musket
   id: WeaponRifleMusket
   graph: WeaponRifleMusketGraph
   startNode: start
   targetNode: musket
   category: construction-category-weapons
   objectType: Item
-  description: "Старий кремінний мушкет. Використовує мушкетні патрони."
+  description: An old flintlock musket. Uses musket cartidges.
   icon:
     sprite: Objects/Weapons/Guns/Snipers/musket.rsi
     state: base
 
 - type: construction
-  name: "модульна казенна частина"
+  name: modular breech
   id: ModularBreech
   graph: ModularBreechGraph
   startNode: start
   targetNode: modularbreech
   category: construction-category-weapons
   objectType: Item
-  description: "Заряджає снаряд і порох у патронник зброї. Використовувався у створенні кремінних мушкетів."
+  description: Loads the projectile and propellent into the chamber of the gun. Used in the creation of flintlock muskets.
   icon:
     sprite: DeltaV/Objects/Misc/modular_breech.rsi
     state: base
 
 - type: construction
-  name: "модульний тригер"
+  name: modular trigger
   id: ModularTrigger
   graph: ModularTriggerGraph
   startNode: start
   targetNode: modulartrigger
   category: construction-category-weapons
   objectType: Item
-  description: "Змушує зброю вистрілити при активації. Використовується при створенні зброї."
+  description: Makes gun go pew when activated. Used in the creation of guns.
   icon:
     sprite: DeltaV/Objects/Misc/modular_trigger.rsi
     state: base
 
 - type: construction
-  name: "багнет"
+  name: bayonet
   id: Bayonet
   graph: BayonetGraph
   startNode: start
   targetNode: bayonet
   category: construction-category-weapons
   objectType: Item
-  description: "Часто ставлять на рушниці для нанесення колючо-ріжучих ударів."
+  description: Often placed on guns to go stabby stabby.
   icon:
     sprite: DeltaV/Objects/Misc/bayonet.rsi
     state: base
     
 - type: construction
-  name: "патрон (мушкет)"
+  name: cartridge (musket)
   id: CartridgeMusket
   graph: CartridgeMusketGraph
   startNode: start
   targetNode: musketcartridge
   category: construction-category-weapons
   objectType: Item
-  description: "Паперовий мушкетний патрон, яким заряджали мушкет."
+  description: A paper musket cartridge used to load a musket.
   icon:
     sprite: DeltaV/Objects/Weapons/Guns/Ammunition/Casings/musket_casing.rsi
     state: base
 
 - type: construction
-  name: "кремінний замок"
+  name: flintlock
   id: WeaponPistolFlintlockCrafted
   graph: WeaponPistolFlintlockCraftedGraph
   startNode: start
   targetNode: flintlock
   category: construction-category-weapons
   objectType: Item
-  description: "Старий кремінний замок, схожий на бандитську війну 1800-х років. Використовує мушкетні патрони."
+  description: An old flintlock, feels like 1800s gang warfare. Uses musket cartidges.
   icon:
     sprite: Objects/Weapons/Guns/Snipers/flintlock.rsi
     state: base

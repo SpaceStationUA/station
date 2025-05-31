@@ -14,8 +14,8 @@
     price: 0
 
 - type: entity
-  name: "мазь"
-  description: "Використовується для лікування неприємних опіків. Менш ефективний при опіках їдкими речовинами."
+  name: ointment
+  description: Used to treat those nasty burns. Less effective on caustic burns.
   parent: BaseHealingItem
   id: Ointment
   suffix: Full
@@ -65,8 +65,8 @@
     count: 10
 
 - type: entity
-  name: "регенеративна сітка"
-  description: "Використовується для лікування навіть найнеприємніших опіків. Також ефективний при опіках їдкими речовинами."
+  name: regenerative mesh
+  description: Used to treat even the nastiest burns. Also effective against caustic burns.
   parent: BaseHealingItem
   id: RegenerativeMesh
   suffix: Full
@@ -107,8 +107,8 @@
     count: 1
 
 - type: entity
-  name: "пакет від синців"
-  description: "Лікувальний гель-пакет та бинти, призначені для лікування травм від ударів тупими предметами."
+  name: bruise pack
+  description: A therapeutic gel pack and bandages designed to treat blunt-force trauma.
   parent: BaseHealingItem
   id: Brutepack
   suffix: Full
@@ -153,8 +153,8 @@
     count: 10
 
 - type: entity
-  name: "медикаментозний шов"
-  description: "Шов, просочений ліками, ефективно лікує травми від ударів тупими предметами та закриває рани."
+  name: medicated suture
+  description: A suture soaked in medicine, treats blunt-force trauma effectively and closes wounds.
   parent: BaseHealingItem
   id: MedicatedSuture
   suffix: Full
@@ -194,8 +194,8 @@
     count: 1
 
 - type: entity
-  name: "пакет крові"
-  description: "Містить революційний універсальний кровозамінник, створений передовою медичною наукою Nanotrasen."
+  name: blood pack
+  description: Contains a groundbreaking universal blood replacement created by Nanotrasen's advanced medical science.
   parent: BaseHealingItem
   id: Bloodpack
   suffix: Full
@@ -233,8 +233,8 @@
 - type: entity
   parent: BaseHealingItem
   id: Tourniquet
-  name: "джгут"
-  description: "Зупиняє кровотечу! Сподіваюся."
+  name: tourniquet
+  description: Stops bleeding! Hopefully.
   components:
     - type: Tag
       tags:
@@ -258,8 +258,8 @@
         path: "/Audio/Items/Medical/brutepack_end.ogg"
 
 - type: entity
-  name: "рулон марлі"
-  description: "Стерильну марлю, щоб обмотати закривавлені обрубки."
+  name: roll of gauze
+  description: Some sterile gauze to wrap around bloody stumps.
   parent: BaseHealingItem
   id: Gauze
   suffix: Full
@@ -308,8 +308,8 @@
     count: 1
 
 - type: entity
-  name: "крем з алое"
-  description: "Місцевий крем від опіків."
+  name: aloe cream
+  description: A topical cream for burns.
   parent: Ointment ##Yes it's a direct reskin
   id: AloeCream
   components:
@@ -323,8 +323,8 @@
 - type: entity
   parent: BaseHealingItem
   id: HealingToolbox
-  name: "інструментарій зцілення"
-  description: "Потужний набір інструментів, просякнутий сильною енергією. Він може зцілити ваші рани і наповнити вас вбивчим наміром."
+  name: healing toolbox
+  description: A powerful toolbox imbued with robust energy. It can heal your wounds and fill you with murderous intent.
   suffix: DO NOT MAP
   components:
   - type: Sprite
@@ -867,7 +867,7 @@
 
 # Syringes
 - type: entity
-  name: "шприц з ефедрином"
+  name: ephedrine syringe
   parent: PrefilledSyringe
   id: SyringeEphedrine
   components:
@@ -880,7 +880,7 @@
           Quantity: 15
 
 - type: entity
-  name: "шприц з інапроваліном"
+  name: inaprovaline syringe
   parent: PrefilledSyringe
   id: SyringeInaprovaline
   components:
@@ -893,7 +893,7 @@
           Quantity: 15
 
 - type: entity
-  name: "шприц з транексамовою кислотою"
+  name: tranexamic acid syringe
   parent: PrefilledSyringe
   id: SyringeTranexamicAcid
   components:
@@ -906,7 +906,7 @@
           Quantity: 15
 
 - type: entity
-  name: "шприц з бікаридином"
+  name: bicaridine syringe
   parent: PrefilledSyringe
   id: SyringeBicaridine
   components:
@@ -919,7 +919,7 @@
           Quantity: 15
 
 - type: entity
-  name: "шприц для дерматину"
+  name: dermaline syringe
   parent: PrefilledSyringe
   id: SyringeDermaline
   components:
@@ -932,7 +932,7 @@
           Quantity: 15
 
 - type: entity
-  name: "гіроналіновий шприц"
+  name: hyronalin syringe
   parent: PrefilledSyringe
   id: SyringeHyronalin
   components:
@@ -945,7 +945,7 @@
           Quantity: 15
 
 - type: entity
-  name: "шприц для іпекаку"
+  name: ipecac syringe
   parent: PrefilledSyringe
   id: SyringeIpecac
   components:
@@ -958,7 +958,7 @@
           Quantity: 15
 
 - type: entity
-  name: "шприц з амбузолом"
+  name: ambuzol syringe
   parent: PrefilledSyringe
   id: SyringeAmbuzol
   components:
@@ -971,7 +971,7 @@
               Quantity: 15
 
 - type: entity
-  name: "шприц із сигінатом"
+  name: sigynate syringe
   parent: PrefilledSyringe
   id: SyringeSigynate
   components:
@@ -984,7 +984,7 @@
               Quantity: 15
 
 - type: entity
-  name: "шприц з етилредоксазином"
+  name: ethylredoxrazine syringe
   parent: PrefilledSyringe
   id: SyringeEthylredoxrazine
   components:
@@ -997,7 +997,7 @@
               Quantity: 15
 
 - type: entity
-  name: "шприц з фалангініном"
+  name: phalanximine syringe
   parent: PrefilledSyringe
   id: SyringePhalanximine
   components:
@@ -1010,7 +1010,7 @@
               Quantity: 15
 
 - type: entity
-  name: "шприц з фізіологічним розчином"
+  name: saline syringe
   parent: PrefilledSyringe
   id: SyringeSaline
   components:
@@ -1024,7 +1024,7 @@
 
 #this is where all the syringes are so i didn't know where to put it
 - type: entity
-  name: "шприц з ромеролом"
+  name: romerol syringe
   parent: PrefilledSyringe
   id: SyringeRomerol
   components:
@@ -1037,7 +1037,7 @@
           Quantity: 15
 
 - type: entity
-  name: "шприц зі стимуляторами"
+  name: stimulants syringe
   parent: PrefilledSyringe
   id: SyringeStimulants
   components:

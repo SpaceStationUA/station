@@ -211,6 +211,7 @@
       - id: BoxEvidenceMarkers
       - id: LunchboxSecurityFilledRandom # Delta-v Lunchboxes!
         prob: 0.3
+      - id: BoxTapeRecorder # DeltaV
 
 - type: entity
   id: ClosetBombFilled
@@ -232,7 +233,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeDisabler
-  name: "сейф-знешкоджувач"
+  name: disabler safe
   components:
   - type: StorageFill
     contents:
@@ -242,7 +243,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafePistolMk58
-  name: "сейф для MK58"
+  name: mk58 safe
   components:
   - type: StorageFill
     contents:
@@ -254,7 +255,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeRifleLecter
-  name: "сейф для Лектора"
+  name: lecter safe
   components:
   - type: StorageFill
     contents:
@@ -266,7 +267,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeSubMachineGunDrozd
-  name: "сейф для Дрозда"
+  name: drozd safe
   components:
   - type: StorageFill
     contents:
@@ -278,7 +279,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeShotgunEnforcer
-  name: "сейф для Enforcer"
+  name: enforcer safe
   components:
   - type: StorageFill
     contents:
@@ -290,7 +291,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeShotgunKammerer
-  name: "сейф для Каммерера"
+  name: kammerer safe
   components:
   - type: StorageFill
     contents:
@@ -303,7 +304,7 @@
   id: GunSafeSubMachineGunWt550
   suffix: Wt550
   parent: GunSafe
-  name: "сейф для WT550 "
+  name: wt550 safe
   components:
   - type: StorageFill
     contents:
@@ -315,7 +316,7 @@
 - type: entity
   parent: GunSafe
   id: GunSafeLaserCarbine
-  name: "сейф для лазерних карабінів"
+  name: laser safe
   components:
   - type: StorageFill
     contents:
@@ -326,7 +327,7 @@
   id: GunSafeRifleBRDIR25
   suffix: BRDI-R25
   parent: GunSafe
-  name: "Сейф для гвинтівки BRDI-R25"
+  name: BRDI-R25 safe
   components:
   - type: StorageFill
     contents:

@@ -4,8 +4,8 @@
   - MobCombat
   id: slendermimeplayer
   suffix: геловін
-  name: "Пантоміма"
-  description: "Щось не так..."
+  name: Mime
+  description: Something seems off...
   components:
   - type: Eye
     drawFov: false
@@ -75,9 +75,9 @@
 - type: entity
   parent: slendermimeplayer
   id: slendermimeai
-  name: "Пантоміма"
+  name: Mime
   suffix: AI
-  description: "Щось не так..."
+  description: Something seems off...
   components:
   - type: HTN
     rootTask:
@@ -105,9 +105,9 @@
 - type: entity
   parent: slendermimeai
   id: slendermimeghostrole
-  name: "Пантоміма"
+  name: Mime
   suffix: AI, Ghost role
-  description: "Щось не так..."
+  description: Something seems off...
   components:
   - type: GhostRole
     allowMovement: true
@@ -140,8 +140,8 @@
   - BaseMob
   - MobCombat
   id: WeenMonsterPlayer
-  name: "Монстр"
-  description: "Щось не так..."
+  name: Monster
+  description: Something seems off...
   suffix: геловін
   components:
   - type: Eye

@@ -2,7 +2,7 @@
 - type: entity
   parent: IDCardStandard
   id: BlueshieldIDCard
-  name: "iD-карта Блюшилд"
+  name: blueshield officer ID card
   components:
   - type: Sprite
     layers:
@@ -19,8 +19,8 @@
 - type: entity
   parent: IDCardStandard
   id: ChronoIDCard
-  name: "футуристичне посвідчення особи"
-  description: "Картка, яка спочатку давала доступ до всього у цьому всесвіті"
+  name: futuristic ID card
+  description: The card that originally accessed everything in this universe
   components:
   - type: Sprite
     sprite: _Goobstation/Objects/Misc/id_cards.rsi

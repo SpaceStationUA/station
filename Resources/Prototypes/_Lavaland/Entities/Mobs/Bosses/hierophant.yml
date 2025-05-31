@@ -1,7 +1,7 @@
 - type: entity
   id: LavalandBossHierophant
-  name: "ієрофант"
-  description: "Масивний металевий кийок, що висить у повітрі, ніби чекаючи. Він змусить вас танцювати під його ритм."
+  name: hierophant
+  description: A massive metal club that hangs in the air as though waiting. It'll make you dance to its beat.
   components:
   # Basic stuff
   - type: Physics
@@ -70,7 +70,7 @@
 - type: entity
   id: LavalandHierophantSquare
   suffix: DO NOT MAP
-  name: "площа ієрофанта"
+  name: hierophant square
   placement:
     mode: SnapgridCenter
     snap:
@@ -123,7 +123,7 @@
 - type: entity
   id: LavalandHierophantChaser
   suffix: DO NOT MAP
-  name: "переслідувач ієрофанта"
+  name: hierophant chaser
   placement:
     mode: SnapgridCenter
     snap:

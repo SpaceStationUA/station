@@ -1,8 +1,8 @@
 - type: entity
-  name: "трубний пістолет-кулемет"
+  name: трубний пістолет-кулемет
   parent: BaseWeaponSubMachineGun
   id: N14weapon10mmpipe
-  description: "саморобний SMG, якщо його потрясти, то можна було почути, як брязкають деталі всередині пістолета."
+  description: a makeshift SMG, if you shake it you could hear the loose parts inside of the gun.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/SMGs/10mmPIPE.rsi
@@ -50,10 +50,10 @@
   - type: Appearance
 
 - type: entity
-  name: "Снайперська гвинтівка C-SAR"
+  name: C-SAR Burst Rifle
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunCSAR
-  description: "Безкаліберна гвинтівка 11-го покоління калібру .25. Зроблена на замовлення для якогось Джуліуса."
+  description: An 11th generation .25 caseless burst rifle. Custom made for a certain Julius.
   components:
   - type: Sprite
     sprite: _Pirate/Objects/Weapons/Guns/SMGs/csar.rsi

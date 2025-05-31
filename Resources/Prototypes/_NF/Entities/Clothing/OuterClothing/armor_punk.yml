@@ -2,8 +2,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing] #web vest so it should have some pockets for ammo # Frontier: ClothingOuterVestWeb<ClothingOuterStorageBase, BaseMinorContraband<BaseC1Contraband
   id: ClothingOuterVestWebMercenary # Frontier - Merc to Mercenary
-  name: "павутинний жилет найманця" # Frontier - merc to mercenary
-  description: "Високоякісний бронежилет, виготовлений з міцного синтетичного матеріалу. Він напрочуд гнучкий та легкий, незважаючи на грізну броню."
+  name: mercenary web vest # Frontier - merc to mercenary
+  description: A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Vests/mercwebvest.rsi
@@ -23,7 +23,7 @@
 - type: entity
   parent: ClothingOuterVestWebMercenary
   id: ClothingOuterArmorPunkGreen
-  name: "панківські обладунки"
+  name: punk armor
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_green.rsi
@@ -33,7 +33,7 @@
 - type: entity
   parent: ClothingOuterArmorPunkGreen
   id: ClothingOuterArmorPunkOrange
-  name: "панківські обладунки"
+  name: punk armor
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_orange.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: ClothingOuterArmorPunkGreen
   id: ClothingOuterArmorPunkRed
-  name: "панківські обладунки"
+  name: punk armor
   components:
   - type: Sprite
     sprite: _NF/Clothing/OuterClothing/Armor/bulletproof_vest_red.rsi
@@ -53,7 +53,7 @@
 - type: entity
   parent: ClothingOuterArmorPunkGreen
   id: ClothingOuterArmorPunkRandomized
-  name: "панківські обладунки"
+  name: punk armor
   suffix: Random visuals
   components:
   - type: Sprite
@@ -103,7 +103,7 @@
 - type: entity
   parent: ClothingOuterArmorBulletproof
   id: ClothingOuterArmorElitePunkRandomized
-  name: "панк важка броня"
+  name: punk heavy armor
   suffix: Random visuals
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseBoardEntity
   id: BackgammonBoard
-  name: "дошка для гри в нарди"
-  description: "Старомодна гра в кості та фігурки."
+  name: backgammon board
+  description: Old fashioned game of dice and pieces.
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/backgammon.rsi
@@ -16,7 +16,7 @@
 
 - type: entity
   id: BackgammonBoardTabletop
-  name: "нарди"
+  name: backgammon
   parent: BaseBoardTabletop
   categories: [ HideSpawnMenu ]
   components:

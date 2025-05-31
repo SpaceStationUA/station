@@ -1,6 +1,6 @@
 - type: entity
-  name: "частинки"
-  description: "Прискорені частинки."
+  name: particles
+  description: Accelerated particles.
   id: ParticlesProjectile
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
@@ -50,8 +50,8 @@
       guides: [ Singularity, Power ]
 
 - type: entity
-  name: "античастинки"
-  description: "Прискорені негативні частинки."
+  name: anti particles
+  description: Accelerated negative particles.
   id: AntiParticlesProjectile
   parent: ParticlesProjectile
   categories: [ HideSpawnMenu ]

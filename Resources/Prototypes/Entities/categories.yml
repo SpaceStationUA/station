@@ -5,25 +5,25 @@
 
 - type: entityCategory
   id: GameRules
-  name: "правила гри"
+  name: entity-category-name-game-rules
   hideSpawnMenu: true
 
 - type: entityCategory
   id: Objectives
-  name: "цілі"
+  name: entity-category-name-objectives
   hideSpawnMenu: true
 
 - type: entityCategory
   id: Roles
-  name: "ролі"
+  name: entity-category-name-roles
   hideSpawnMenu: true
 
 # markers, atmos fixing, etc
 - type: entityCategory
   id: Mapping
-  name: "мапування"
+  name: entity-category-name-mapping
 
 - type: entityCategory
   id: DoNotMap
-  name: "не мапувати"
+  name: entity-category-name-donotmap
   suffix: entity-category-suffix-donotmap

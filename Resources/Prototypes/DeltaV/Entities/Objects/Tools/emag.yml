@@ -1,8 +1,8 @@
 - type: entity
   parent: Emag
   id: Doorjack
-  name: "перевизначення доступу до шлюзу"
-  description: "Спеціалізований криптографічний секвенсор з особливим батарейним відсіком, спеціально розроблений для заміни кодів доступу до шлюзів станції."
+  name: airlock access override
+  description: A specialized cryptographic sequencer with a distinctive battery tray, specifically designed to override station airlock access codes.
   components:
   - type: Emag
     blacklist:

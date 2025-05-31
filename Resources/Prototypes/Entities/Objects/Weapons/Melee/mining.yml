@@ -1,8 +1,8 @@
 - type: entity
-  name: "кирка"
+  name: pickaxe
   parent: BaseItem
   id: Pickaxe
-  description: "Зазубрена до досконалості, для вбивання в каміння."
+  description: Notched to perfection, for jamming it into rocks.
   components:
   - type: Tag
     tags:
@@ -46,10 +46,10 @@
   - type: UseDelay
 
 - type: entity
-  name: "гірничий бур"
+  name: mining drill
   parent: BaseItem
   id: MiningDrill
-  description: "Потужний інструмент для швидкого буріння гірських порід."
+  description: Powerful tool used to quickly drill through rocks.
   components:
   - type: Item
     storedRotation: -90
@@ -82,10 +82,10 @@
     angle: 270
 
 - type: entity
-  name: "гірничий бур з алмазним наконечником"
+  name: diamond tipped mining drill
   parent: MiningDrill
   id: MiningDrillDiamond
-  description: "Значно ефективніший гірничий бур з алмазним наконечником."
+  description: A significantly more efficient mining drill tipped with diamond.
   components:
   - type: Sprite
     sprite: Objects/Tools/handdrilldiamond.rsi
@@ -111,8 +111,8 @@
   abstract: true
   parent: BaseItem
   id: BaseWeaponCrusher # Crusher? But I...
-  name: "дробарка"
-  description: "Ранній проект протокінетичного прискорювача."
+  name: crusher
+  description: An early design of the proto-kinetic accelerator.
   components:
   - type: Sharp
   - type: UnpoweredFlashlight
@@ -190,8 +190,8 @@
 - type: entity
   parent: BaseWeaponCrusher
   id: WeaponCrusherDagger
-  name: "кинджал дробарки"
-  description: "Зменшена версія протокінетичної дробарки. Використовує кінетичну енергію для вібрації леза на високих швидкостях."
+  name: crusher dagger
+  description: A scaled down version of a proto-kinetic crusher. Uses kinetic energy to vibrate the blade at high speeds.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher_dagger.rsi
@@ -222,8 +222,8 @@
 - type: entity
   parent: WeaponCrusher
   id: WeaponCrusherGlaive
-  name: "дробарко меч"
-  description: "Ранній проект прото-кінетичного прискорювача у формі рукавиці."
+  name: crusher glaive
+  description: An early design of the proto-kinetic accelerator, in glaive form.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/crusher_glaive.rsi

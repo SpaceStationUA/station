@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: ShuttleCurse
-  name: "проклята куля"
-  description: "Ви вдивляєтесь у цю димчасту кулю і бачите жахливі долі, що спіткали шатл аварійної евакуації."
+  name: cursed orb
+  description: You peer within this smokey orb and glimpse terrible fates befalling the emergency escape shuttle.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/shuttle_curse.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: BaseItem
   id: WhetstoneCult
-  name: "жахливе точило"
-  description: "Блок, посилений темною магією. Гостра зброя посилюється при використанні на камені."
+  name: eldritch whetstone
+  description: A block, empowered by dark magic. Sharp weapons will be enhanced when used on the stone.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/whetstone_cult.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: BaseItem
   id: VeilShifter
-  name: "зрушувач завіси"
-  description: "Ця реліквія миттєво телепортує вас і все, що ви тягнете, вперед на помірну відстань."
+  name: veil shifter
+  description: This relic instantly teleports you, and anything you're pulling, forward by a moderate distance.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/veil_shifter.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: BaseItem
   id: VoidTorch
-  name: "смолоскип порожнечі"
-  description: "Використовується ветеранами-культистами для миттєвої передачі предметів своїм нужденним побратимам"
+  name: void torch
+  description: Used by veteran cultists to instantly transport items to their needful brethren
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/void_torch.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: BaseItem
   id: ShadowShackles
-  name: "тіньові кайдани"
-  description: "Кайдани, що зловісною магією сковують зап'ястя."
+  name: shadow shackles
+  description: Shackles that bind the wrists with sinister magic.
   components:
   - type: Item
     size: Small
@@ -153,8 +153,8 @@
 - type: entity
   parent: BaseItem
   id: MirrorShieldCult
-  name: "дзеркальний щит"
-  description: "Сумнозвісний щит, який використовували секти Нар'Сі, щоб збити з пантелику та дезорієнтувати своїх ворогів. Його краї обтяжені, щоб використовувати як метальну зброю здатну вивести з ладу кількох ворогів з надприродною точністю."
+  name: mirror shield
+  description: An infamous shield used by Nar'Sien sects to confuse and disorient their enemies. Its edges are weighted for use as a throwing weapon - capable of disabling multiple foes with preternatural accuracy.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Items/mirror_shield.rsi

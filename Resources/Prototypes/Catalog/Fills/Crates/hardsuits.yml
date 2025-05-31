@@ -2,8 +2,8 @@
 - type: entity
   id: CrateEngineeringFotiaHardsuit
   parent: CrateEngineering
-  name: "ящик з костюмом fotia"
-  description: "Містить один бронежилет HpI-19t \"Fotia\". Потрібен інженерний доступ, щоб відкрити."
+  name: fotia hardsuit crate
+  description: Contains a single HpI-19t "Fotia" hardsuit. Requires Engineering access to open.
   components:
   - type: StorageFill
     contents:
@@ -12,8 +12,8 @@
 - type: entity
   id: CrateEngineeringLampsiHardsuit
   parent: CrateEngineering
-  name: "ящик з важким костюмом lampsi"
-  description: "Містить один хардсьют HpI-19r \"Lampsi\". Костюм не пофарбований. Потрібен інженерний доступ, щоб відкрити."
+  name: lampsi hardsuit crate
+  description: Contains a single HpI-19r "Lampsi" hardsuit. The suit comes unpainted. Requires Engineering access to open.
   components:
   - type: StorageFill
     contents:
@@ -23,8 +23,8 @@
 - type: entity
   id: CrateLogisticsKritiHardsuit
   parent: CrateGenericSteel
-  name: "ящик з важким костюмом kriti"
-  description: "Містить один хардсьют HpI-20s \"Kriti\"."
+  name: kriti hardsuit crate
+  description: Contains a single HpI-20s "Kriti" hardsuit.
   components:
   - type: StorageFill
     contents:
@@ -33,8 +33,8 @@
 - type: entity
   id: CrateLogisticsLavrionHardsuit
   parent: CrateGenericSteel
-  name: "ящик з важким костюмом lavrion"
-  description: "Містить один хардсьют HpI-20a \"Lavrion\"."
+  name: lavrion hardsuit crate
+  description: Contains a single HpI-20a "Lavrion" hardsuit.
   components:
   - type: StorageFill
     contents:
@@ -44,8 +44,8 @@
 - type: entity
   id: CrateSecurityShanlinTacsuit
   parent: CrateSecgear
-  name: "ящик для костюмів shanlin"
-  description: "Містить один костюм CSA-51a \"Shanlin\". Для відкриття потрібен доступ до системи безпеки."
+  name: shanlin tacsuit crate
+  description: Contains a single CSA-51a "Shanlin" tacsuit. Requires Security access to open.
   components:
   - type: StorageFill
     contents:
@@ -54,8 +54,8 @@
 - type: entity
   id: CrateSecurityShiweiTacsuit
   parent: CrateSecgear
-  name: "ящик костюма шивей"
-  description: "Містить один костюм CSA-54UA \"Shiwei\". Для відкриття потрібен доступ до системи безпеки."
+  name: shiwei tacsuit crate
+  description: Contains a single CSA-54UA "Shiwei" tacsuit. Requires Security access to open.
   components:
   - type: StorageFill
     contents:
@@ -64,8 +64,8 @@
 - type: entity
   id: CrateSecurityGuanYuTacsuit
   parent: CrateSecgear
-  name: "ящик для костюма гуань-ю"
-  description: "Містить один костюм CSA-80UA \"Гуань-Ю\". Для відкриття потрібен доступ до системи безпеки."
+  name: guan-yu tacsuit crate
+  description: Contains a single CSA-80UA "Guan-Yu" tacsuit. Requires Security access to open.
   components:
   - type: StorageFill
     contents:
@@ -74,8 +74,8 @@
 - type: entity
   id: CrateSecurityBaghaturTacsuit
   parent: CrateSecgear
-  name: "ящик з тактичним костюмом baghatur"
-  description: "Містить один костюм FPA-83s \"Багатур\". Для відкриття потрібен доступ служби безпеки."
+  name: baghatur tacsuit crate
+  description: Contains a single FPA-83s "Baghatur" tacsuit. Requires Security access to open.
   components:
   - type: StorageFill
     contents:
@@ -84,8 +84,8 @@
 - type: entity
   id: CrateSecuritySuldeTacsuit
   parent: CrateSecgear
-  name: "ящик з тактичним костюмом sulde"
-  description: "Містить один костюм FPA-93 - \"Sulde Mk.II\". Для відкриття потрібен доступ служби безпеки."
+  name: sulde tacsuit crate
+  description: Contains a single FPA-93 - "Sulde Mk.II" tacsuit. Requires Security access to open.
   components:
   - type: StorageFill
     contents:
@@ -94,8 +94,8 @@
 - type: entity
   id: CrateSecurityTsagaanTacsuit
   parent: CrateSecgear
-  name: "ящик з тактичним костюмом tsagaan"
-  description: "Містить один костюм FPA-86 - \"Tsagaan Mk.II\". Для відкриття потрібен доступ служби безпеки."
+  name: tsagaan tacsuit crate
+  description: Contains a single FPA-86 - "Tsagaan Mk.II" tacsuit. Requires Security access to open.
   components:
   - type: StorageFill
     contents:
