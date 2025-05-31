@@ -16,13 +16,14 @@ using Robust.Shared.Containers;
 using Robust.Shared.Prototypes;
 
 namespace Content.Server._Pirate.ReactionChamber.EntitySystems;
+
 public sealed partial class ReactionChamberSystem : EntitySystem
 {
     [Dependency] readonly IPrototypeManager PrototypeManager = default!;
-    [Dependency] UserInterfaceSystem _userInterfaceSystem = default!;
-    [Dependency] ItemSlotsSystem _itemSlotsSystem = default!;
-    [Dependency] SharedSolutionContainerSystem _solutionContainerSystem = default!;
-    [Dependency] AppearanceSystem _appearance = default!;
+    [Dependency] readonly UserInterfaceSystem _userInterfaceSystem = default!;
+    [Dependency] readonly ItemSlotsSystem _itemSlotsSystem = default!;
+    [Dependency] readonly SharedSolutionContainerSystem _solutionContainerSystem = default!;
+    [Dependency] readonly AppearanceSystem _appearance = default!;
     public override void Initialize()
     {
         SubscribeLocalEvent<ReactionChamberComponent, SolutionContainerChangedEvent>(UpdateUiState);
@@ -35,39 +36,44 @@ public sealed partial class ReactionChamberSystem : EntitySystem
     public override void Update(float frameTime)
     {
         base.Update(frameTime);
-        bool isAllTempRight = false;
         var query = EntityQueryEnumerator<ReactionChamberComponent>();
-        while (query.MoveNext(out var uid, out ReactionChamberComponent? comp) && comp.Active)
+        while (query.MoveNext(out var uid, out ReactionChamberComponent? comp))
         {
+            if (!comp.Active)
+                continue;
+            comp.IsAllTempRight = false;
             var beaker = _itemSlotsSystem.GetItemOrNull(uid, "beakerSlot");
             if (beaker is null)
-                return;
+                continue;
             if (!TryComp<SolutionContainerManagerComponent>(beaker, out var container))
                 continue;
-            if (!isAllTempRight)
-                foreach (var (_, soln) in _solutionContainerSystem.EnumerateSolutions(container.Owner)) // add temp to all solutions
+            if (!comp.IsAllTempRight)
+                foreach (var (_, soln) in _solutionContainerSystem.EnumerateSolutions(beaker.Value)) // add temp to all solutions
                 {
                     var (_, solnComp) = soln;
-                    double deltaJ; // Juoles added to solution
-                    float C = solnComp.Solution.GetHeatCapacity(PrototypeManager); //pytoma teploemnist rechowyny (kurs fizyky 8 klass Chlibowska)
-                    float solnTemp = solnComp.Solution.GetThermalEnergy(PrototypeManager) / C;
-                    float deltaT = comp.Temp - solnTemp;
+                    comp.SolnHeatCapacity = solnComp.Solution.GetHeatCapacity(PrototypeManager); // used to get real capacity, and therefore real soln temp
+                    var solnTemp = solnComp.Solution.GetThermalEnergy(PrototypeManager) / comp.SolnHeatCapacity;
+                    var deltaT = comp.Temp - solnTemp;
+                    UpdateDeltaJ(uid, deltaT, frameTime, comp);
                     if (solnTemp != comp.Temp)
                     {
-                        deltaJ = deltaT * C * frameTime * comp.BaseMultiplier;
-                        _solutionContainerSystem.AddThermalEnergy(soln, (float) deltaJ);
-                        isAllTempRight = false;
-                        if (Math.Abs(deltaJ) <= 0.005)
+                        Logger.Info($"Adding {comp.DeltaJ}J to solution.");
+                        Logger.Info($"C = {comp.HeatCapacity}");
+                        Logger.Info($"Soln Temp = {solnTemp}K");
+
+                        _solutionContainerSystem.AddThermalEnergy(soln, (float) comp.DeltaJ);
+                        comp.IsAllTempRight = false;
+                        if (Math.Abs(comp.DeltaJ) <= 0.005)
                         {
                             _solutionContainerSystem.SetTemperature(soln, comp.Temp); // optymizacija included :)
-                            isAllTempRight = true;
-                            return;
+                            comp.IsAllTempRight = true;
+                            break;
                         }
                     }
                     else
                     {
-                        isAllTempRight = true;
-                        return;
+                        comp.IsAllTempRight = true;
+                        break;
                     }
                 }
         }
@@ -76,6 +82,10 @@ public sealed partial class ReactionChamberSystem : EntitySystem
     // {
     //     UpdateUiState(ent, ref ev);
     // }
+    public void UpdateDeltaJ(EntityUid uid, float deltaT, float frameTime, ReactionChamberComponent comp)
+    {
+        comp.DeltaJ = deltaT * comp.HeatCapacity * frameTime;
+    }
     private void OnActiveChangeMessage(Entity<ReactionChamberComponent> ent, ref ReactionChamberActiveChangeMessage args)
     {
         ent.Comp.Active = args.Active;
