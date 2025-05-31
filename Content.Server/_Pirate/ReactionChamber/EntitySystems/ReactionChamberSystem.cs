@@ -57,10 +57,6 @@ public sealed partial class ReactionChamberSystem : EntitySystem
                     UpdateDeltaJ(uid, deltaT, frameTime, comp);
                     if (solnTemp != comp.Temp)
                     {
-                        Logger.Info($"Adding {comp.DeltaJ}J to solution.");
-                        Logger.Info($"C = {comp.HeatCapacity}");
-                        Logger.Info($"Soln Temp = {solnTemp}K");
-
                         _solutionContainerSystem.AddThermalEnergy(soln, (float) comp.DeltaJ);
                         comp.IsAllTempRight = false;
                         if (Math.Abs(comp.DeltaJ) <= 0.005)
