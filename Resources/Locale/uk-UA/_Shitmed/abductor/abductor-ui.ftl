@@ -3,9 +3,9 @@ abductors-ui-teleport = Телепортуйся
 abductors-ui-attract = Залучати
 
 abductors-ui-experiment = Експеримент
-abductors-ui-complete-experiment = Завершіть експеримент
+abductors-ui-complete-experiment = Завершити експеримент
 
-abductors-ui-gizmo-transferred = Передано цільову інформацію
+abductors-ui-gizmo-transferred = Передано інформацію про ціль
 
 abductors-title = Викрадачі
 abductors-description = Викрадачі націлилися на станцію. Не дайте їм себе викрасти!

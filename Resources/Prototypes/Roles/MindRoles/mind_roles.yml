@@ -276,6 +276,27 @@
     roleType: SoloAntagonist
   - type: ChangelingRole
 
+# shadowling
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleShadowling
+  name: Shadowling Role
+  components:
+  - type: MindRole
+    antagPrototype: Shadowling
+    exclusiveAntag: true
+    roleType: TeamAntagonist
+  - type: ShadowlingRole
+
+- type: entity
+  parent: MindRoleShadowling
+  id: MindRoleThrall
+  name: Thrall Role
+  components:
+  - type: MindRole
+    antagPrototype: Thrall
+
+#PIRATE START UNTIL END OF FILE
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleHeretic
@@ -285,9 +306,7 @@
     antagPrototype: Heretic
     exclusiveAntag: true
   - type: HereticRole
-# goob edit end
-# Vampire
-
+  
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleVampire

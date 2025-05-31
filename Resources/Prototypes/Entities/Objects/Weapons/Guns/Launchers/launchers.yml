@@ -34,6 +34,12 @@
   - type: DamageOtherOnHit
     staminaCost: 14
   - type: Execution
+  # PIRATE START
+  - type: CanHoldAccessories
+    whiteListTags:
+      - CombatKnife
+  - type: CanTakeAim
+  # PIRATE END
 
 - type: entity
   name: china lake

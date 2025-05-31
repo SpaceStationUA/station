@@ -81,6 +81,12 @@
         Blunt: 3
   - type: DamageOtherOnHit
     staminaCost: 12
+  # PIRATE START
+  - type: CanHoldAccessories
+    whiteListTags:
+      - CombatKnife
+  - type: CanTakeAim
+  # PIRATE END
 
 - type: entity
   name: L6 SAW

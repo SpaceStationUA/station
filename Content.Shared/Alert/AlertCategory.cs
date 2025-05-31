@@ -18,5 +18,8 @@ public enum AlertCategory
     Thirst,
     Toxins,
     Battery,
-    Counter
+    Counter,
+    // PIRATE START
+    Aiming
+    // PIRATE END
 }

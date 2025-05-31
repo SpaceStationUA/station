@@ -15028,3 +15028,163 @@ Entries:
   id: 7252
   time: '2025-05-16T22:26:31.0000000+00:00'
   url: https://github.com/Simple-Station/Einstein-Engines/pull/2431
+- author: CyberLanos
+  changes:
+  - type: Add
+    message: портовано тоновану захисну пов'язку на око
+  - type: Add
+    message: додано тоновану пов'язку на око до екіпірування старшого офіцера та голови служби безпеки
+  - type: Tweak
+    message: додано дію перевертання та спрайти для пов'язок на око, у яких вони були відсутні
+  id: 7253
+  time: '2025-05-17T19:25:31.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2271
+- author: VMSolidus
+  changes:
+  - type: Add
+    message: >-
+      Повторно увімкнено "Шейдер настрою" після значної переробки. Візуальні
+      ефекти настрою тепер масштабуються залежно від настрою вашого персонажа,
+      замість того, щоб завжди бути майже у відтінках сірого. Високий рівень
+      життя тепер робить світ більш кольоровим та насиченим.
+  - type: Add
+    message: >-
+      Величезна різноманітність ліків, препаратів і навіть продуктів
+      харчування (залежно від смаку!) тепер впливають на настрій.
+      Використання пакетика солі тепер дійсно робить їжу такою, що краще
+      піднімає настрій.
+  - type: Add
+    message: Перебування під дією сльозогінного газу спричиняє значне погіршення настрою.
+  - type: Add
+    message: Смаження їжі у фритюрі дає значний бонус до настрою.
+  - type: Add
+    message: >
+      Додано нові риси: "Маніакальність", "Мінливість" та "Мертві емоції".
+  id: 7254
+  time: '2025-05-17T21:10:11.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2425
+- author: VMSolidus
+  changes:
+  - type: Fix
+    message: >-
+      Турелі та NPC тепер можуть влучати по гравцях, які лежать на підлозі.
+      Вони (за замовчуванням) мають 50% шанс промахнутися по гравцях, які
+      лежать, тобто це все ще надає певний захист, але не ідеальний захист
+      від турелей.
+  id: 7255
+  time: '2025-05-17T21:10:34.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2427
+- author: Will-Oliver-Br
+  changes:
+  - type: Add
+    message: Додано медичний та охоронний автоінжектор для картриджів.
+  id: 7256
+  time: '2025-05-17T21:11:03.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2258
+- author: VMSolidus
+  changes:
+  - type: Add
+    message: >-
+      Маркування тепер можуть використовувати шейдери. Включно з такими
+      речами, як ефекти світіння. Тепер ви також можете мати кібернетичні
+      очі, що світяться. Екрани на головах IPC тепер світяться.
+  id: 7257
+  time: '2025-05-17T21:26:06.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2432
+- author: Will-Oliver-Br
+  changes:
+  - type: Tweak
+    message: Тепер ви можете вмикати та вимикати блокування на офісних кріслах.
+  id: 7258
+  time: '2025-05-19T19:49:56.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2422
+- author: Will-Oliver-Br
+  changes:
+  - type: Fix
+    message: Рятувальні капсули тепер правильно стикуються з ЦентКоммом.
+  id: 7259
+  time: '2025-05-20T19:39:39.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2439
+- author: Tirochora
+  changes:
+  - type: Fix
+    message: Крав Мага більше не збільшує всю шкоду в ближньому бою.
+  id: 7260
+  time: '2025-05-20T19:39:57.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2430
+- author: Tirochora
+  changes:
+  - type: Tweak
+    message: Удар по столу (table slamming) тепер має бути більш послідовним.
+  - type: Fix
+    message: >-
+      Тепер ви повинні мати можливість коректно використовувати обидві руки
+      після того, як відпустили когось із задушливого захвату.
+  id: 7261
+  time: '2025-05-20T19:42:05.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2247
+- author: VMSolidus
+  changes:
+  - type: Fix
+    message: >-
+      Виправлено некоректну роботу "Бонусної дальності для сильних атак"
+      холодної зброї.
+  - type: Add
+    message: >-
+      Додано підтримку для холодної зброї, що має бонусну дальність при
+      обеззброюванні або легких атаках.
+  id: 7262
+  time: '2025-05-20T19:42:50.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2442
+- author: VMSolidus
+  changes:
+  - type: Add
+    message: >-
+      Додано підтримку для Органів (таких як Кібернетика) для використання
+      тієї ж великої бібліотеки функцій, що використовуються Рисами.
+  id: 7263
+  time: '2025-05-23T22:41:30.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2448
+- author: Will-Oliver-Br
+  changes:
+    - type: Fix
+      message: >-
+        Тепер панель швидкого доступу не перетворюється на вечірку, коли підбирає предмет з дією.
+  id: 7264
+  time: '2025-05-26T00:36:05.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2446
+- author: Kyoth25f
+  changes:
+    - type: Add
+      message: 'Додано нового антагоніста: Блоб'
+  id: 7265
+  time: '2025-05-28T00:24:57.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2441
+- author: VMSolidus
+  changes:
+    - type: Fix
+      message: Значно покращено продуктивність системи займистості.
+  id: 7266
+  time: '2025-05-28T01:25:30.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2462
+- author: Mapping Team
+  changes:
+    - type: Tweak
+      message: Очищення Gax
+  id: 7267
+  time: '2025-05-28T05:10:30.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2458
+- author: Lumminal
+  changes:
+    - type: Add
+      message: Портовано крадійський маяк з wizden. Тепер розважайтеся, крадучи домашніх улюбленців!
+  id: 7268
+  time: '2025-05-28T05:14:30.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2447
+- author: VMSolidus
+  changes:
+    - type: Tweak
+      message: 'Внесено значні покращення продуктивності до систем мережевих пристроїв.'
+  id: 7269
+  time: '2025-05-28T22:30:47.0000000+00:00'
+  url: https://github.com/Simple-Station/Einstein-Engines/pull/2465

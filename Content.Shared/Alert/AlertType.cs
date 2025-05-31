@@ -81,6 +81,7 @@ namespace Content.Shared.Alert
         Charge, //IPC
 		Caged, //IPC
         Stasis, // Chronolegioner
+        OnSight, // Aiming
 //Pirate END
         Deflecting,
     }

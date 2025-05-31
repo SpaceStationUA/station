@@ -58,6 +58,12 @@
         Blunt: 2.5
   - type: DamageOtherOnHit
     staminaCost: 7.5
+  # PIRATE START
+  - type: CanHoldAccessories
+    whiteListTags:
+      - CombatKnife
+  - type: CanTakeAim
+  # PIRATE END
 
 - type: entity
   name: Kardashev-Mosin

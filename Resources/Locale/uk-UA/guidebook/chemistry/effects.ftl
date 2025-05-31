@@ -370,3 +370,13 @@ reagent-effect-guidebook-add-to-chemicals = { $chance ->
         [1] до
         *[-1] з
     } розчину
+reagent-effect-guidebook-remove-moodlet = Видаляє мудлет {$name}.
+reagent-effect-guidebook-purge-moodlets = Видаляє всі активні непостійні мудлети.
+reagent-effect-guidebook-blind-non-sling = { $chance ->
+        [1] Засліплює будь-якого
+        *[other] засліпити будь-якого
+    } не-тіневика
+reagent-effect-guidebook-heal-sling = { $chance ->
+        [1] Лікує будь-якого
+        *[other] лікувати будь-якого
+    } тіневика та раба

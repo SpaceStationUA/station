@@ -27,10 +27,8 @@
   id: BlobMob
 
 - type: entity
-  name: cancer mouse
-  description: Toxic. Squeak!
-  parent: MobMouseCancer
-  id: MobMouseCancerBlob
+  parent: MobMouse
+  id: MobMouseBlob
   suffix: Blob
   components:
   - type: BlobCarrier
@@ -42,12 +40,14 @@
   parent: BaseAntagSpawner
   components:
     - type: GhostRoleMobSpawner
-      prototype: MobMouseCancerBlob
+      prototype: MobMouseBlob
     - type: GhostRole
       makeSentient: true
       name: blob-carrier-role-name
       description: blob-carrier-role-desc
       rules: blob-carrier-role-rules
+      mindRoles:
+      - MindRoleGhostRoleTeamAntagonist
       raffle:
         settings: default
     - type: Sprite
@@ -56,6 +56,7 @@
         - state: green
         - sprite: Mobs/Animals/bat.rsi
           state: bat
+
 # Blob
 - type: entity
   parent: BaseMindRoleAntag
@@ -66,6 +67,7 @@
   - type: MindRole
     antagPrototype: Blob
     exclusiveAntag: true
+    roleType: TeamAntagonist
   - type: BlobRole
 
 - type: factionIcon
@@ -85,4 +87,3 @@
   id: BlobPoint
   displayName: store-currency-display-blob-points
   canWithdraw: false
-

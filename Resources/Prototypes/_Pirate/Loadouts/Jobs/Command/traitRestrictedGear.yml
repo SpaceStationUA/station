@@ -19,7 +19,6 @@
   items:
     - ClothingHandsGlovesHop
 
-
 - type: loadout
   id: LoadoutAdministrativeAssistantRestrictedGearGlovesInspection
   category: JobsCommandAdminAssistant
@@ -57,7 +56,6 @@
         - RestrictedGear
   items:
     - ClothingUniformJumpsuitAdminAssistant
-
 
 - type: loadout
   id: LoadoutAdminAssistantRestrictedGearUniformJumpskirt
@@ -98,7 +96,6 @@
   items:
     - ClothingBackpackBlueshield
 
-
 - type: loadout
   id: LoadoutClothingRestrictedGearSatchelBlueshield
   category: JobsCommandBlueshieldOfficer
@@ -116,7 +113,6 @@
         - RestrictedGear
   items:
     - ClothingBackpackSatchelBlueshield
-
 
 - type: loadout
   id: LoadoutClothingRestrictedGearDuffelBlueshield
@@ -136,11 +132,10 @@
   items:
     - ClothingBackpackDuffelBlueshield
 
-
 - type: loadout
   id: LoadoutClothingRestrictedGearModsuitBlueshield
   category: JobsCommandBlueshieldOfficer
-  cost: 1
+  cost: 15
   exclusive: true
   requirements:
     - !type:CharacterItemGroupRequirement
@@ -175,7 +170,6 @@
   items:
     - ClothingHeadHatBeretNavy
 
-
 - type: loadout
   id: LoadoutClothingRestrictedGearBlueshieldBeretOfficer
   category: JobsCommandBlueshieldOfficer
@@ -193,7 +187,6 @@
         - RestrictedGear
   items:
     - ClothingHeadHatBeretOfficer
-
 
 - type: loadout
   id: LoadoutClothingRestrictedGearBlueshieldCowboyHat
@@ -232,7 +225,6 @@
         - RestrictedGear
   items:
     - ClothingUniformJumpskirtBlueshieldOfficer
-
 
 - type: loadout
   id: LoadoutClothingRestrictedGearUniformJumpsuitBlueshieldOfficer
@@ -273,7 +265,6 @@
       traits:
         - RestrictedGear
 
-
 - type: loadout
   id: LoadoutBackpackRestrictedGearSatchelCaptain
   category: JobsCommandCaptain
@@ -291,7 +282,6 @@
     - !type:CharacterTraitRequirement
       traits:
         - RestrictedGear
-
 
 - type: loadout
   id: LoadoutBackpackRestrictedGearDuffelCaptain
@@ -349,7 +339,6 @@
   items:
     - ClothingHandsGlovesCaptain
 
-
 - type: loadout
   id: LoadoutCaptainRestrictedGearGlovesInspection
   category: JobsCommandCaptain
@@ -388,7 +377,6 @@
   items:
     - ClothingHeadHatCaptain
 
-
 - type: loadout
   id: LoadoutCommandRestrictedGearCapHatCapcap
   category: JobsCommandCaptain
@@ -405,7 +393,6 @@
         - RestrictedGear
   items:
     - ClothingHeadHatCapcap
-
 
 - type: loadout
   id: LoadoutCommandRestrictedGearCapHatBeret
@@ -444,7 +431,6 @@
   items:
     - ClothingNeckMantleCap
 
-
 - type: loadout
   id: LoadoutCommandRestrictedGearCapNeckCloak
   category: JobsCommandCaptain
@@ -463,7 +449,6 @@
   items:
     - ClothingNeckCloakCap
 
-
 - type: loadout
   id: LoadoutCommandRestrictedGearCapNeckCloakFormal
   category: JobsCommandCaptain
@@ -481,7 +466,6 @@
         - RestrictedGear
   items:
     - ClothingNeckCloakCapFormal
-
 
 - type: loadout
   id: LoadoutCaptainRestrictedGearNeckGoldMedal
@@ -519,7 +503,6 @@
         - RestrictedGear
   items:
     - ClothingMaskGasCaptain
-
 
 - type: loadout
   id: LoadoutCommandRestrictedGearCapMaskGasCombat
@@ -577,7 +560,6 @@
   items:
     - ClothingShoesBootsLaceup
 
-
 - type: loadout
   id: LoadoutCaptainRestrictedGearShoesLeather
   category: JobsCommandCaptain
@@ -595,7 +577,6 @@
         - RestrictedGear
   items:
     - ClothingShoesLeather
-
 
 - type: loadout
   id: LoadoutCaptainRestrictedGearShoesWinter
@@ -635,7 +616,6 @@
   items:
     - ClothingUniformJumpsuitCaptain
 
-
 - type: loadout
   id: LoadoutCommandRestrictedGearCapJumpskirt
   category: JobsCommandCaptain
@@ -654,7 +634,6 @@
   items:
     - ClothingUniformJumpskirtCaptain
 
-
 - type: loadout
   id: LoadoutCommandRestrictedGearCapJumpsuitFormal
   category: JobsCommandCaptain
@@ -672,7 +651,6 @@
         - RestrictedGear
   items:
     - ClothingUniformJumpsuitCapFormal
-
 
 - type: loadout
   id: LoadoutCommandRestrictedGearCapJumpskirtFormal
