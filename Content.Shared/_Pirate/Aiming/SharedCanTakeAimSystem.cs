@@ -1,4 +1,5 @@
 using Content.Shared._Pirate.Aiming.Events;
+using Content.Shared.CombatMode.Pacification;
 using Content.Shared.Hands;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
@@ -174,6 +175,11 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
             return;
         if (!HasComp<MobMoverComponent>(args.Target))
             return;
+        if (HasComp<PacifiedComponent>(args.User))
+        {
+            _popup.PopupClient("Я просто не можу наставити зброю на когось", args.User, PopupType.Medium);
+            return;
+        }
         if (!args.CanReach)
         {
             _popup.PopupClient("Я не зможу попасти в ціль звідси...", args.User, PopupType.Medium);
