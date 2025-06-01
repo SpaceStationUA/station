@@ -3,7 +3,7 @@
   parent: BaseStructure
   id: N14WallRockIndestructible
   suffix: Indestructible
-  name: rock
+  name: "скеля"
   components:
     - type: Occluder
     - type: Airtight
@@ -39,8 +39,8 @@
   abstract: true
   parent: BaseStructure
   id: N14BaseFenceIndestructible
-  name: fence
-  description: Helps keep trespassers out.
+  name: "паркан"
+  description: "Допомагає не пускати сторонніх."
   placement:
     mode: SnapgridCenter
     snap:
@@ -69,7 +69,7 @@
   parent: N14BaseFenceIndestructible
   id: N14WallFenceChainMapBoundary
   suffix: Indestructible
-  name: chainlink fence
+  name: "огорожа з ланцюгової сітки"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/fencechain.rsi

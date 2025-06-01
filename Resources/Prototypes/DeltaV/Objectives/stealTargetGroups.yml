@@ -1,20 +1,20 @@
 ﻿- type: stealTargetGroup
   id: SpaceCashLuckyBill
-  name: logistics officer's lucky bill
+  name: "щаслива купюра офіцера логістики"
   sprite:
     sprite: DeltaV/Objects/Misc/first_bill.rsi
     state: icon
 
 - type: stealTargetGroup
   id: BookIanDossier
-  name: head of personnel's photobook
+  name: "фотокнига керівника відділу кадрів"
   sprite:
     sprite: DeltaV/Objects/Misc/bureaucracy.rsi
     state: folder-hop-ian
 
 - type: stealTargetGroup
   id: RubberStampNotary
-  name: notary stamp
+  name: "печатка нотаріуса"
   sprite:
     sprite: DeltaV/Objects/Misc/stamps.rsi
     state: stamp-notary

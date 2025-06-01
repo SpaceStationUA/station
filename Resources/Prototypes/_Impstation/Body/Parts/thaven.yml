@@ -1,7 +1,7 @@
 - type: entity
   id: PartThaven
   parent: [BaseItem, BasePart]
-  name: "thaven body part"
+  name: "частина тіла тавена"
   abstract: true
   components:
   - type: Sprite # Shitmed Change
@@ -11,7 +11,7 @@
 
 - type: entity
   id: TorsoThaven
-  name: "thaven torso"
+  name: "торс тавена"
   parent: [PartThaven, BaseTorso]
   components:
   - type: Sprite
@@ -19,7 +19,7 @@
 
 - type: entity
   id: HeadThaven
-  name: "thaven head"
+  name: "голова тавена"
   parent: [PartThaven, BaseHead]
   components:
   - type: Sprite
@@ -27,7 +27,7 @@
 
 - type: entity
   id: LeftArmThaven
-  name: "left thaven arm"
+  name: "ліва рука тавена"
   parent: [PartThaven, BaseLeftArm]
   components:
   - type: Sprite
@@ -35,7 +35,7 @@
 
 - type: entity
   id: RightArmThaven
-  name: "right thaven arm"
+  name: "права рука тавена"
   parent: [PartThaven, BaseRightArm]
   components:
   - type: Sprite
@@ -43,7 +43,7 @@
 
 - type: entity
   id: LeftHandThaven
-  name: "left thaven hand"
+  name: "ліва кисть тавена"
   parent: [PartThaven, BaseLeftHand]
   components:
   - type: Sprite
@@ -51,7 +51,7 @@
 
 - type: entity
   id: RightHandThaven
-  name: "right thaven hand"
+  name: "права кисть тавена"
   parent: [PartThaven, BaseRightHand]
   components:
   - type: Sprite
@@ -59,7 +59,7 @@
 
 - type: entity
   id: LeftLegThaven
-  name: "left thaven leg"
+  name: "ліва нога тавена"
   parent: [PartThaven, BaseLeftLeg]
   components:
   - type: Sprite
@@ -67,7 +67,7 @@
 
 - type: entity
   id: RightLegThaven
-  name: "right thaven leg"
+  name: "права нога тавена"
   parent: [PartThaven, BaseRightLeg]
   components:
   - type: Sprite
@@ -75,7 +75,7 @@
 
 - type: entity
   id: LeftFootThaven
-  name: "left thaven foot"
+  name: "ліва стопа тавена"
   parent: [PartThaven, BaseLeftFoot]
   components:
   - type: Sprite
@@ -83,7 +83,7 @@
 
 - type: entity
   id: RightFootThaven
-  name: "right thaven foot"
+  name: "права стопа тавена"
   parent: [PartThaven, BaseRightFoot]
   components:
   - type: Sprite

@@ -1,9 +1,9 @@
 - type: entity
   parent: [ BaseItem, MobCombat ]
   id: MrChips
-  name: mr chips
+  name: "містер Чіпс"
   suffix: Dummy
-  description: It's a dummy, dummy!
+  description: "Це лише лялька, лише лялька!"
   components:
   - type: Sprite
     sprite: Objects/Fun/mrchips.rsi
@@ -34,7 +34,7 @@
 - type: entity
   parent: MrChips
   id: MrDips
-  name: mr dips
+  name: "містер Діпс"
   components:
   - type: Sprite
     sprite: Objects/Fun/mrdips.rsi
@@ -46,8 +46,8 @@
 - type: entity
   id: PetRockCarrier
   parent: HappyHonk
-  name: pet rock carrier
-  description: Your new and only best friend home!
+  name: "переноска для домашніх тварин"
+  description: "Ваш новий і єдиний найкращий друг вдома!"
   components:
   - type: Sprite
     sprite: Objects/Storage/Happyhonk/rock_carrier.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: [BaseItem, MrChips]
   id: BasePetRock
-  name: pet rock
-  description: Your new and only best friend!
+  name: "домашній камінь"
+  description: "Твій новий і єдиний найкращий друг!"
   abstract: true
   components:
   - type: DamageOnLand
@@ -113,7 +113,7 @@
 - type: entity
   parent: BasePetRock
   id: PetRockFred
-  name: fred
+  name: "фред"
   components:
   - type: Sprite
     sprite: Objects/Fun/petrock.rsi
@@ -123,7 +123,7 @@
 - type: entity
   parent: BasePetRock
   id: PetRockRoxie
-  name: roxie
+  name: "роксі"
   components:
   - type: Sprite
     sprite: Objects/Fun/petrock.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPin
-  name: hair pin
-  description: A nice hair pin.
+  name: "шпилька для волосся"
+  description: "Гарна шпилька."
   components:
   - type: Sprite
     sprite: Clothing/Head/Accessories/pin.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPinClover
-  name: clover pin
-  description: A hair pin in the shape of a clover leaf. Smells of mischief.
+  name: "шпилька для конюшини"
+  description: "Шпилька для волосся у формі листка конюшини. Пахне пустощами."
   components:
   - type: Sprite
     sprite: Clothing/Head/Accessories/pin_clover.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPinButterfly
-  name: butterfly pin
-  description: A hair pin in the shape of a butterfly.
+  name: "шпилька-метелик"
+  description: "Шпилька для волосся у формі метелика."
   components:
   - type: Sprite
     sprite: Clothing/Head/Accessories/pin_butterfly.rsi
@@ -46,8 +46,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatPinMagnetic
-  name: magnetic pin
-  description: A pair of magnetic pins that stick to your head with magnetism.
+  name: "магнітний штифт"
+  description: "Пара магнітних шпильок, які прилипають до голови за допомогою магніту."
   components:
   - type: Sprite
     sprite: Clothing/Head/Accessories/pin_magnetic.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatRibbon
-  name: hair ribbon
-  description: A length of ribbon acting as a headband.
+  name: "стрічка для волосся"
+  description: "Відрізок стрічки, що виконує роль пов'язки на голову."
   components:
   - type: Sprite
     sprite: Clothing/Head/Accessories/ribbon.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBow
-  name: hair bow
-  description: A hair bow with a small removable clip on the back.
+  name: "бант для волосся"
+  description: "Бант для волосся з невеликим знімним затискачем ззаду."
   components:
   - type: Sprite
     sprite: Clothing/Head/Accessories/bow.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBowSmall
-  name: small hair bow
-  description: A ribbon tied into a small bow with a clip on the back to attach to hair.
+  name: "невеликий бант для волосся"
+  description: "Стрічка, зав'язана в невеликий бант із затискачем ззаду для кріплення до волосся."
   components:
   - type: Sprite
     sprite: Clothing/Head/Accessories/bow_small.rsi

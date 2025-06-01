@@ -1,9 +1,9 @@
 # An officer without his sword is not in proper uniform.
 - type: entity
-  name: Solarian marine sabre
+  name: "шабля морського піхотинця Соларіану"
   parent: CaptainSabre
   id: SANMarineSabre
-  description: A plastitanium cavalry sabre, issued to every graduate from Solarian military academies. An officer without a sword is an officer not in uniform.
+  description: "Пластититанова кавалерійська шабля, яка видається кожному випускнику військових академій Соларіану. Офіцер без меча - це офіцер не в уніформі."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Swords/SAN_marine_officer_sword.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingBeltSheath
   id: ClothingBeltSheathSANMarineFilled
-  name: Solarian sabre sheath
-  description: An ornate sheath designed to hold an officer's blade.
+  name: "піхви для шаблі Соларіан"
+  description: "Вишукані піхви, призначені для зберігання офіцерського клинка."
   components:
   - type: ContainerFill
     containers:
@@ -26,10 +26,10 @@
       - SANMarineSabre
 
 - type: entity
-  name: Solarian officer sabre
+  name: "офіцерська шабля Соларіан"
   parent: SANMarineSabre
   id: SANOfficerSabre
-  description: A plastitanium fencing sabre, issued to every graduate from Solarian military academies. An officer without a sword is an officer not in uniform.
+  description: "Пластититанова фехтувальна шабля, яка видається кожному випускнику військових академій Соларіану. Офіцер без меча - це офіцер не в уніформі."
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Swords/SAN_officer_sword.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: ClothingBeltSheath
   id: ClothingBeltSheathSANOfficerFilled
-  name: Solarian sabre sheath
-  description: An ornate sheath designed to hold an officer's blade.
+  name: "піхви для шаблі Соларіан"
+  description: "Вишукані піхви, призначені для зберігання офіцерського клинка."
   components:
   - type: ContainerFill
     containers:

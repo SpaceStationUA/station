@@ -1,8 +1,8 @@
 - type: entity
   parent: EmergencyNitrogenTank
   id: EmergencyNitrousOxideTank
-  name: emergency nitrous oxide tank
-  description: A downsized nitrous oxide tank for field applications. Usable as a source of oxygen in a pinch.
+  name: "аварійний балон із закисом азоту"
+  description: "Зменшений балон із закисом азоту для польових умов. Можна використовувати як джерело кисню в екстрених ситуаціях."
   components:
   - type: Sprite
     sprite: Objects/Tanks/emergency_anesthetic.rsi

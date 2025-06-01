@@ -1,8 +1,8 @@
 - type: entity
-  name: jug
+  name: "бутль"
   parent: BaseItem
   id: Jug
-  description: Used to contain a very large amount of chemicals or solutions. Chugging is extremely ill-advised.
+  description: "Використовується для зберігання дуже великої кількості хімічних речовин або розчинів. Вживати його вкрай нерозумно."
   components:
     - type: SolutionContainerManager
       solutions:

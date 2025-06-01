@@ -37,7 +37,7 @@
 - type: entity
   parent: N14BaseTallObstacle
   id: N14BarricadeWoodTall
-  name: wooden barricade
+  name: "дерев'яна барикада"
   suffix: tall
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 - type: entity
   parent: N14BaseTallObstacle
   id: N14CellBars
-  name: cell bars
+  name: "клітинні решітки"
   components:
   - type: Sprite
     state: bars
@@ -113,7 +113,7 @@
 - type: entity
   parent: N14CellBars
   id: N14CellBarsRust
-  name: cell bars
+  name: "клітинні решітки"
   components:
   - type: Sprite
     state: bars_rust

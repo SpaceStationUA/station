@@ -57,8 +57,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieThrongler
-  name: throngler plushie
-  description: A stuffed toy to remind cargo techs of what they can no longer have.
+  name: "плюшевий нагрудник"
+  description: "М'яка іграшка, що нагадує вантажникам про те, чого вони більше не можуть мати."
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/ThronglerPlushie.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieGhost
-  name: ghost soft toy
-  description: The start of your personal GHOST GANG!
+  name: "м'яка іграшка-привид"
+  description: "Померла 8 хвилин тому"
   components:
     - type: Sprite
       sprite: Mobs/Ghosts/ghost_human.rsi
@@ -112,9 +112,9 @@
 - type: entity
   parent: PlushieGhost
   id: PlushieGhostRevenant
-  name: revenant soft toy
+  name: "рлюшевий ревенант"
   suffix: DO NOT MAP
-  description: So soft it almost makes you want to take a nap...
+  description: "Іграшка, якою можна налякати медпункт."
   components:
     - type: Item
       size: Normal
@@ -129,8 +129,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieBee
-  name: bee plushie
-  description: A cute toy that resembles an even cuter programmer. You'd have to be a monster to grind this up.
+  name: "плюшева бджола"
+  description: "Мила іграшка, що нагадує милих осіб працюючих в ІТ. Лише найжорстокіші можуть викинути таку."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieHampter
-  name: hampter plushie
-  description: A cute stuffed toy that resembles a hamster. Its face looks squished.
+  name: "плюшевий хом'як"
+  description: "Мила м'яка іграшка, що нагадує ом'яка з сплющеною мордочкою."
   components:
   - type: Sprite
     state: plushie_hampter
@@ -195,8 +195,8 @@
 - type: entity
   parent: PlushieBee
   id: PlushieRGBee
-  name: RGBee plushie
-  description: A cute toy that resembles a bee plushie while you're on LSD.
+  name: "плюшева RGBджола"
+  description: "Мила іграшка, що нагадує звичайну плюшеву бджілку, коли ви під Оракульною олією."
   components:
   - type: PointLight
     radius: 1.5
@@ -207,8 +207,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieNuke
-  name: nukie plushie
-  description: A stuffed toy that resembles a syndicate nuclear operative. The tag claims operatives to be purely fictitious.
+  name: "плюшевий нюкер"
+  description: "М'яка іграшка, що нагадує ядерного оперативника Синдикату. На етикетці зазначено, що це виключно плід уяви."
   components:
   - type: Sprite
     state: plushie_nuke
@@ -218,8 +218,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieRouny
-  name: rouny plushie
-  description: Rouny
+  name: "руніплюш"
+  description: "Руні з плюшевим рум'янцем"
   components:
   - type: Sprite
     state: plushie_rouny
@@ -228,8 +228,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieLamp
-  name: lamp plushie
-  description: A light emitting friend!
+  name: "плюшевий світильник"
+  description: "Друг, що випромінює світло!"
   components:
   - type: Sprite
     state: plushie_lamp
@@ -241,8 +241,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieArachind
-  name: arachnid plushie
-  description: An adorable stuffed toy that resembles an arachnid. It feels silky..
+  name: "плюшевий арахнід"
+  description: "Чарівна м'яка іграшка, що нагадує арахнідів. На дотик шовковиста."
   components:
   - type: Sprite
     state: plushie_arachnid
@@ -270,8 +270,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieLizard #Weh!
-  name: lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson. Made by CentCom as a token initiative to combat speciesism in work environments. "Welcome your new colleagues as you do this plush, with open arms!"
+  name: "плюшева рептилія"
+  description: "Мила м'яка іграшка, що нагадує прямоходячих рептилій. Виготовлена компанією ЦентКом на підтримку боротьби зі специсизмом на робочому місці. \"Привітайте своїх нових колег як цю іграшку, з відкритими обіймами!\""
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -331,8 +331,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSpaceLizard #ᵂᵉʰ!
-  name: space lizard plushie
-  description: An adorable stuffed toy that resembles a lizardperson in an EVA suit. Made by CentCom as a token initiative to combat speciesism in space environments. "Welcome your new colleges as you do this plush, with open arms!"
+  name: "плюшева косморептилія"
+  description: "Мила м'яка іграшка, що нагадує прямоходячу рептилію в EVA скафандрі. Виготовлена компанією ЦентКом на підтримку боротьби зі специсизмом на просторах космосу. \"Привітайте своїх нових колег як цю іграшку, з відкритими обіймами!\""
   components:
   - type: Item
     heldPrefix: spacelizard
@@ -384,8 +384,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieDiona
-  name: diona plushie
-  description: An adorable stuffed toy that resembles a diona. Love water and cuddles. Do not wet!
+  name: "плюшева діона"
+  description: "Чарівна м'яка іграшка, що нагадує діону. Любить воду і обійми. Не мочити!"
   components:
     - type: Sprite
       layers:
@@ -459,8 +459,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSharkBlue
-  name: blue shark soft toy
-  description: Big and safe to have by your side if you want to discover the world below the surface of the ocean.
+  name: "м'яка блакитна акула"
+  description: "Велика і безпечна, для того щоб відкрити для себе глибинний світ океану."
   components:
   - type: Sprite
     sprite: Objects/Fun/sharkplush.rsi
@@ -476,8 +476,8 @@
 - type: entity
   parent: PlushieSharkBlue
   id: PlushieSharkPink
-  name: pink shark soft toy
-  description: Hehe shonk :)
+  name: "м'яка рожева акула"
+  description: "Хіхі пік :3"
   components:
   - type: Sprite
     sprite: Objects/Fun/sharkplush.rsi
@@ -492,8 +492,8 @@
 - type: entity
   parent: PlushieSharkBlue
   id: PlushieSharkGrey
-  name: grey shark soft toy
-  description: A quiet, reserved kind of shonk. Loves to ride the grey tide.
+  name: "м'яка сіра акула"
+  description: "Варіант для тихих та стриманих. Обожнює сідлати похмурі хвилі."
   components:
   - type: Sprite
     sprite: Objects/Fun/sharkplush.rsi
@@ -508,8 +508,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieRatvar
-  name: ratvar plushie
-  description: A small stuffed doll of the elder god Ratvar.
+  name: "ратплюш"
+  description: "Невеличка м'яка іграшка у вигляді верховного божества Ратвара."
   components:
   - type: Item
     size: Normal
@@ -519,8 +519,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieNar
-  name: nar'sie plushie
-  description: A small stuffed doll of the elder goddess Nar'Sie.
+  name: "нар'плюш"
+  description: "Невеличка м'яка іграшка у вигляді старшого божества Нар'сі."
   components:
   - type: Item
     size: Normal
@@ -530,8 +530,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieCarp
-  name: carp plushie
-  description: An adorable stuffed toy that resembles the monstrous space carp.
+  name: "плюшевий космокороп"
+  description: "Чарівна м'яка іграшка, що нагадує страхітливого космічного коропа."
   components:
   - type: Sprite
     state: carpplush
@@ -567,8 +567,8 @@
 - type: entity
   parent: PlushieCarp
   id: PlushieMagicarp
-  name: magicarp plushie
-  description: An adorable stuffed toy resembling the exceedingly rare magicarp.
+  name: "плюшевий магікороп"
+  description: "Чарівна м'яка іграшка, що нагадує надзвичайно рідкісного магігарпа."
   components:
   - type: Sprite
     state: magicplush
@@ -576,8 +576,8 @@
 - type: entity
   parent: PlushieCarp
   id: PlushieRainbowCarp
-  name: rainbow carp plushie
-  description: An adorable stuffed toy resembling the legendary rainbow carp.
+  name: "веселковий плюшевий короп"
+  description: "Чарівна м'яка іграшка, що нагадує легендарного веселкового коропа."
   components:
   - type: Sprite
     state: rainbowcarpplush
@@ -590,8 +590,8 @@
 - type: entity
   parent: PlushieCarp
   id: PlushieHolocarp
-  name: holocarp plushie
-  description: A holographic stuffed toy resembling science's nemesis - the holocarp.
+  name: "плюшевий голокороп"
+  description: "Голографічна м'яка іграшка, що нагадує заклятого ворога науки - голокоропа."
   components:
   - type: Sprite
     state: holoplush
@@ -599,8 +599,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSlime
-  name: slime plushie
-  description: An adorable stuffed toy that resembles a slime. It's basically a hacky sack.
+  name: "плюшевий слимак"
+  description: "Мила м'яка іграшка, що нагадує слимака. По суті, це мішок для хокею з м'ячем."
   components:
   - type: Sprite
     state: plushie_slime
@@ -608,8 +608,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSnake
-  name: snake plushie
-  description: An adorable stuffed toy that resembles a snake.
+  name: "плюшева змійка"
+  description: "Чарівна м'яка іграшка, що нагадує змію."
   components:
   - type: Sprite
     state: plushie_snake
@@ -631,8 +631,8 @@
 - type: entity
   parent: BasePlushie
   id: ToyMouse
-  name: mouse toy
-  description: A colorful toy mouse!
+  name: "плюшева миша"
+  description: "Барвиста іграшкова мишка!"
   components:
   - type: Sprite
     state: toy_mouse
@@ -671,8 +671,8 @@
 - type: entity
   parent: BasePlushie
   id: ToyRubberDuck
-  name: rubber ducky
-  description: Not carried here by ocean currents.
+  name: "гумова качечка"
+  description: "Не принесена сюди океанськими течіями."
   components:
   - type: Item
     size: Tiny
@@ -712,8 +712,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieVox
-  name: vox plushie
-  description: SKREEEEEEEEEEEE!
+  name: "плюшевий вокс"
+  description: "СКРІІІІІІІІІ!"
   components:
   - type: Sprite
     state: plushie_vox
@@ -738,8 +738,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieAtmosian
-  name: atmosian plushie
-  description: An adorable stuffed toy that resembles a brave atmosian. Unfortunately, he won't fix those depressurizations for you.
+  name: "плюшевий атмоінженер"
+  description: "Мила м'яка іграшка, що нагадує відважного атмоінженера. На жаль, не працююча на справжній роботі."
   components:
   - type: Sprite
     state: plushie_atmosian
@@ -747,8 +747,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieXeno
-  name: xeno plushie
-  description: An adorable stuffed toy that resembles a scary xenomorf. You're lucky it's just a toy.
+  name: "ксеноплюш"
+  description: "Мила м'яка іграшка, що нагадує страшного ксеноморфа. Нам пощастило, що це лише іграшка."
   components:
   - type: Item
     size: Normal
@@ -778,8 +778,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushiePenguin
-  name: penguin plushie
-  description: I use arch btw!
+  name: "плюшевий пінгвін"
+  description: "Діставай вибухівку"
   components:
   - type: Sprite
     state: plushie_penguin
@@ -787,8 +787,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieHuman
-  name: human plushie
-  description: This is a felt plush of a human. All craftsmanship is of the lowest quality. The human is naked. The human is crying. The human is screaming.
+  name: "плюшева людина"
+  description: "М'яка іграшка низької якості, зроблена з фетру. Ця людина гола. Ця людина плаче. Ця людина кричить."
   components:
   - type: Sprite
     state: plushie_human
@@ -815,8 +815,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieArachne
-  name: Arachne plushie
-  description: A plushie of an Arachne, a half human, half spider creature. Why does it look familiar?
+  name: "Плюшевий арахнід"
+  description: "Плюшева фігурка арахніда, напівлюдини-напівпавука. Чому вона виглядає знайомо?"
   components:
   - type: Sprite
     state: plushie_arachne
@@ -843,8 +843,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieMoth
-  name: moth plushie
-  description: Cute and fluffy moth plushie. Enjoy, bz!
+  name: "плюшева моль"
+  description: "Мила і пухнастка іграшка. Для теплих обіймів, бз сквік!"
   components:
   - type: Sprite
     state: plushie_moth
@@ -874,8 +874,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieJester #Weh!
-  name: jester plushie
-  description: A dubious little creature getting up to mischief.
+  name: "плюшевий блазень"
+  description: "Сумнівна маленька істота, що замишляє недобрі справи."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -884,8 +884,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieSlips
-  name: janitor plushie
-  description: The silent cleaner, the one that you dont hear say "Weh"!
+  name: "плюшевий прибиральник"
+  description: "Безшумний прибиральник, той, що не говорить \"Ух\"!"
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -934,8 +934,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieGnome
-  name: gnome plushie
-  description: A stuffed toy that resembles a gnome! or a drawf...
+  name: "плюшевий гном"
+  description: "М'яка іграшка, що нагадує гнома! або дроворуба..."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -944,8 +944,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieLoveable
-  name: loveable plushie
-  description: A stuffed toy that resembles... a creature.
+  name: "плюшевий красунчик"
+  description: "М'яка іграшка, що нагадує... істоту."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -954,8 +954,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieDeer
-  name: deer plushie
-  description: A stuffed toy that resembles a deer!
+  name: "плюшевий олень"
+  description: "М'яка іграшка, що нагадує оленя!"
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -964,8 +964,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieIpc
-  name: ipc plushie
-  description: A stuffed toy that resembles a ipc!
+  name: "плюшевий ipc"
+  description: "М'яка іграшка, що нагадує ipc!"
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -974,8 +974,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieGrey
-  name: grey plushie
-  description: A stuffed toy that resembles a grey!
+  name: "плюшевий сірий"
+  description: "М'яка іграшка, що нагадує сірого!"
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -984,8 +984,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieAbductor
-  name: abductor plushie
-  description: A stuffed toy that resembles an abductor!
+  name: "плюшевий викрадач"
+  description: "М'яка іграшка, що нагадує викрадача!"
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -994,8 +994,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieAbductorAgent
-  name: abductor agent plushie
-  description: A stuffed toy that resembles an abductor agent!
+  name: "плюшевий агент-викрадач"
+  description: "М'яка іграшка, що нагадує агента-викрадача!"
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1004,8 +1004,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieRedFox
-  name: red fox plushie
-  description: A cute plushie that look like a red foxxo!
+  name: "плюшевий рудий лис"
+  description: "Симпатична плюшева іграшка, що схожа на рудого фоксо!"
   components:
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
@@ -1014,8 +1014,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushiePurpleFox
-  name: purple fox plushie
-  description: A cute plushie that look like a purple foxxo!
+  name: "плюшевий фіолетовий лис"
+  description: "Симпатична плюшева іграшка, що схожа на фіолетового фоксо!"
   components:
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
@@ -1024,8 +1024,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushiePinkFox
-  name: pink fox plushie
-  description: A cute plushie that look like a pink foxxo!
+  name: "плюшевий рожевий лис"
+  description: "Симпатична плюшева іграшка, що схожа рожевого фоксо!"
   components:
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
@@ -1034,8 +1034,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieOrangeFox
-  name: orange fox plushie
-  description: A cute plushie that look like a orange foxxo!
+  name: "плюшевий помаранчевий лис"
+  description: "Симпатична плюшева іграшка, що схожа на помаранчевого фоксо!"
   components:
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
@@ -1044,8 +1044,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieMarbleFox
-  name: marble fox plushie
-  description: A cute plushie that look like a marble foxxo!
+  name: "плюшевий мармуровий лис"
+  description: "Симпатична плюшева іграшка, що схожа на мармурового фоксо!"
   components:
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
@@ -1054,8 +1054,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieCrimsonFox
-  name: crimson fox plushie
-  description: A cute plushie that look like a crimson foxxo!
+  name: "плюшевий малиновий лис"
+  description: "Симпатична плюшева іграшка, що схожа на малинового фоксо!"
   components:
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
@@ -1064,8 +1064,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieCoffeeFox
-  name: coffee fox plushie
-  description: A cute plushie that look like a coffee foxxo!
+  name: "плюшевий кавовий лис"
+  description: "Симпатична плюшева іграшка, що схожа на кавового фоксо!"
   components:
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
@@ -1074,8 +1074,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieBlueFox
-  name: blue fox plushie
-  description: A cute plushie that look like a blue foxxo!
+  name: "плюшевий блакитний лис"
+  description: "Симпатична плюшева іграшка, що схожа на блакитного фоксо!"
   components:
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
@@ -1084,8 +1084,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieBlackFox
-  name: black fox plushie
-  description: A cute plushie that look like a black foxxo!
+  name: "плюшевий чорний лис"
+  description: "Симпатична плюшева іграшка, що схожа на чорного фоксо!"
   components:
   - type: Sprite
     sprite: Objects/Fun/foxplushie.rsi
@@ -1094,8 +1094,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieVulp
-  name: vulpkanin plushie
-  description: A vulpkanin plushie, at least you can hug this one without the risk to get bitten.
+  name: "плюшева вульпа"
+  description: "Вульпканіна плюшевий ведмедик, якого принаймні можна обійняти без ризику бути укушеним."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1116,8 +1116,8 @@
 - type: entity
   parent: PlushieVulp
   id: PlushieTrystan
-  name: office vulp plushie
-  description: The ones who yeeps!
+  name: "плюшева офісна вульпа"
+  description: "Ті, хто гигикають!"
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1126,8 +1126,8 @@
 - type: entity
   parent: PlushieVulp
   id: PlushieCorgi
-  name: corgi plushie
-  description: The ian plushie edition!
+  name: "плюшевий коргі"
+  description: "Видання в плюшевій обкладинці!"
   components:
   - type: Sprite
     sprite: Objects/Fun/corgiplushie.rsi
@@ -1136,7 +1136,7 @@
 - type: entity
   parent: PlushieVulp
   id: PlushieGirlyCorgi
-  name: girly corgi plushie
+  name: "плюшевий коргі для дівчаток"
   components:
   - type: Sprite
     sprite: Objects/Fun/corgiplushie.rsi
@@ -1145,7 +1145,7 @@
 - type: entity
   parent: PlushieVulp
   id: PlushieRobotCorgi
-  name: robot corgi plushie
+  name: "плюшевий робот коргі"
   components:
   - type: Sprite
     sprite: Objects/Fun/corgiplushie.rsi
@@ -1154,7 +1154,7 @@
 - type: entity
   parent: BasePlushie
   id: BasePlushieCat
-  description: A stuffed toy that resembles a cute kitty!
+  description: "М'яка іграшка, що нагадує милого котика!"
   abstract: true
   components:
   - type: EmitSoundOnUse
@@ -1173,7 +1173,7 @@
 - type: entity
   parent: BasePlushieCat
   id: PlushieCatBlack
-  name: black cat plushie
+  name: "плюшевий чорний кіт"
   components:
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
@@ -1182,7 +1182,7 @@
 - type: entity
   parent: BasePlushieCat
   id: PlushieCatGrey
-  name: grey cat plushie
+  name: "плюшевий сірий кіт"
   components:
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
@@ -1191,7 +1191,7 @@
 - type: entity
   parent: BasePlushieCat
   id: PlushieCatOrange
-  name: orange cat plushie
+  name: "плюшевий помаранчевий кіт"
   components:
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
@@ -1200,7 +1200,7 @@
 - type: entity
   parent: BasePlushieCat
   id: PlushieCatSiames
-  name: siames cat plushie
+  name: "плюшевий сіамський кіт"
   components:
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
@@ -1209,7 +1209,7 @@
 - type: entity
   parent: BasePlushieCat
   id: PlushieCatTabby
-  name: tabby cat plushie
+  name: "плюшевий кіт таббі"
   components:
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
@@ -1218,7 +1218,7 @@
 - type: entity
   parent: BasePlushieCat
   id: PlushieCatTuxedo
-  name: tuxedo cat plushie
+  name: "плюшевий кіт у смокінгу"
   components:
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
@@ -1227,7 +1227,7 @@
 - type: entity
   parent: BasePlushieCat
   id: PlushieCatWhite
-  name: white cat plushie
+  name: "плюшевий білий кіт"
   components:
   - type: Sprite
     sprite: Objects/Fun/catplushie.rsi
@@ -1238,8 +1238,8 @@
 - type: entity
   parent: BaseItem
   id: BaseFigurineCheapo
-  name: figurine
-  description: A small miniature.
+  name: "статуетка"
+  description: "Маленька мініатюра."
   abstract: true
   components:
   - type: Sprite
@@ -1256,8 +1256,8 @@
 - type: entity
   parent: BaseFigurineCheapo
   id: ToyAi
-  name: AI toy
-  description: A scaled-down toy AI core.
+  name: "іграшковий ШІ"
+  description: "Зменшене ядро іграшкового АІ."
   components:
   - type: Sprite
     state: AI
@@ -1265,8 +1265,8 @@
 - type: entity
   parent: BaseFigurineCheapo
   id: ToyNuke
-  name: nuke toy
-  description: A plastic model of a Nuclear Fission Explosive. No uranium included... probably.
+  name: "ядерна іграшка"
+  description: "Пластикова модель ядерної бомби. Без урану в складі... напевно."
   components:
   - type: Sprite
     state: nuketoy
@@ -1297,8 +1297,8 @@
 - type: entity
   parent: BasePlushie
   id: ToyIan
-  name: ian toy
-  description: Unable to eat, but just as fluffy as the real guy!
+  name: "іграшка Іана"
+  description: "Не може їсти, але такий же пухнастий, як справжній хлопець!"
   components:
   - type: Item
     size: Tiny
@@ -1332,8 +1332,8 @@
 - type: entity
   parent: FoamWeaponBase
   id: FoamCrossbow
-  name: foam crossbow
-  description: Aiming this at Security may get you filled with lead.
+  name: "пінопластовий арбалет"
+  description: "Спрямувавши його на службу безпеки, ви можете наїстися свинцю."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1364,8 +1364,8 @@
 - type: entity
   parent: BaseItem
   id: ToyGunBase
-  name: ToyGunBase
-  description: A rooty tooty point and shooty.
+  name: "ToyGunBase"
+  description: "Корінцевий зубастий і пагонистий."
   abstract: true
   components:
   - type: Sprite
@@ -1373,8 +1373,8 @@
 - type: entity
   parent: ToyGunBase
   id: RevolverCapGun
-  name: cap gun
-  description: Looks almost like the real thing! Ages 8 and up.
+  name: "іграшковий пістолет"
+  description: "Виглядає майже як справжній! Від 8 років і старше."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1416,9 +1416,9 @@
 - type: entity
   parent: RevolverCapGun
   id: RevolverCapGunFake
-  name: cap gun
+  name: "іграшковий пістолет"
   suffix: Fake
-  description: Looks almost like the real thing! Ages 8 and up.
+  description: "Виглядає майже як справжній! Від 8 років і старше."
   components:
   - type: RevolverAmmoProvider
     whitelist:
@@ -1432,8 +1432,8 @@
 - type: entity
   parent: BaseItem
   id: FoamBlade
-  name: foamblade
-  description: It says "Sternside Changs number 1 fan" on it.
+  name: "піноблейд"
+  description: "На ньому написано \"Найвідданійший фанат Жалослава Перевертовича\"."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1457,8 +1457,8 @@
 - type: entity
   parent: BaseItem
   id: Basketball
-  name: basketball
-  description: Where dah courts at?
+  name: "баскетбольний м'яч"
+  description: "Де знаходяться суди?"
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1476,8 +1476,8 @@
 - type: entity
   parent: BaseItem
   id: Football
-  name: football
-  description: Otherwise known as a handegg.
+  name: "футбольний м'яч"
+  description: "Інакше відома як гандеґґ."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1490,8 +1490,8 @@
 - type: entity
   parent: BaseItem
   id: BeachBall
-  name: beach ball
-  description: The simple beach ball is one of Nanotrasen's most popular products. 'Why do we make beach balls? Because we can! (TM)' - Nanotrasen
+  name: "пляжний м'яч"
+  description: "Простий пляжний м'яч - один з найпопулярніших продуктів Nanotrasen. \"Чому ми робимо пляжні м'ячі? Тому що ми можемо! (ТМ)\" - Nanotrasen"
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1509,8 +1509,8 @@
 - type: entity
   parent: BaseItem
   id: BalloonSyn
-  name: syndie balloon
-  description: Handed out to the bravest souls who survived the "atomic twister" ride at Syndieland.
+  name: "повітряна куля Синдикату "
+  description: "Вручається найсміливішим душам, які пережили атракціон \"атомний твістер\" у \"Сінділенді\"."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1528,8 +1528,8 @@
 - type: entity
   parent: BaseItem
   id: BalloonNT
-  name: nanotrasen balloon
-  description: Specially designed to inflict maximum psychological damage to Syndicate operatives.
+  name: "повітряна куля НаноТрейзену"
+  description: "Спеціально розроблений, щоб завдати максимальної психологічної шкоди оперативникам Синдикату."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1547,8 +1547,8 @@
 - type: entity
   parent: BaseItem
   id: BalloonCorgi
-  name: corgi balloon
-  description: Just like owning a real dog - but a lot floatier.
+  name: "повітряна куля коргі"
+  description: "Це як володіти справжнім собакою - але набагато легше."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1566,8 +1566,8 @@
 - type: entity
   parent: BaseItem
   id: SingularityToy
-  name: singuloth-brand toy
-  description: Mass-produced by a sadistic corporate conglomerate!
+  name: "сингулярна брендована іграшка"
+  description: "Масове виробництво садистського корпоративного конгломерату!"
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1586,8 +1586,8 @@
 - type: entity
   parent: BaseItem
   id: TeslaToy
-  name: Teddy Tesla
-  description: The favorite toy of the great engineer Nikola Tesla.
+  name: "Тедді Тесла"
+  description: "Улюблена іграшка великого інженера Ніколи Тесли."
   components:
   - type: Sprite
     sprite: Structures/Power/Generation/Tesla/energy_miniball.rsi
@@ -1612,8 +1612,8 @@
 - type: entity
   parent: BaseItem
   id: PonderingOrb
-  name: pondering orb
-  description: Ponderous, man... Really ponderous.
+  name: "сфера роздумів"
+  description: "Обтяжливо, чувак... Дійсно обтяжливо."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1632,8 +1632,8 @@
 - type: entity
   parent: BaseItem
   id: ToySword
-  name: toy sword
-  description: New Sandy-Cat plastic sword! Comes with realistic sound and full color! Looks almost like the real thing!
+  name: "іграшковий меч"
+  description: "Новий пластиковий меч Sandy-Cat! Поставляється з реалістичним звуком і повним кольором! Виглядає майже як справжній!"
   components:
     - type: EnergySword
       colorOptions:
@@ -1702,8 +1702,8 @@
 - type: entity
   parent: BasePlushie
   id: ToyAmongPequeno
-  name: among pequeño
-  description: sus!
+  name: "малий амонг"
+  description: "sus!"
   components:
   - type: Sprite
     sprite: Objects/Fun/pequeno.rsi
@@ -1719,8 +1719,8 @@
 - type: entity
   parent: BaseItem
   id: FoamCutlass
-  name: foam cutlass
-  description: Cosplay as a pirate and force your friends to walk the plank.
+  name: "пінопластовий ніж"
+  description: "Перевдягніться в пірата і змусьте своїх друзів пройтись по дошці."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/cutlass.rsi
@@ -1740,8 +1740,8 @@
 - type: entity
   parent: BaseItem
   id: ClownRecorder
-  name: clown recorder
-  description: When you just can't get those laughs coming the natural way!
+  name: "клоунський диктофон"
+  description: "Коли ти просто не можеш розсміятися природним чином!"
   components:
   - type: Sprite
     sprite: Objects/Fun/clownrecorder.rsi
@@ -1765,8 +1765,8 @@
 - type: entity
   parent: BaseItem
   id: ToyHammer
-  name: rubber hammer
-  description: A brightly colored hammer made of rubber.
+  name: "гумовий молоток"
+  description: "Яскраво забарвлений молоток з гуми."
   components:
     - type: Sprite
       sprite: Objects/Fun/rubber_hammer.rsi
@@ -1801,8 +1801,8 @@
 - type: entity
   parent: ToyHammer
   id: BwoinkHammer
-  name: bwoink hammer
-  description: A toy hammer which makes a wildly terrifying sound. It is missing it's old spirit of bangammer and is still unraisinable.
+  name: "бвоінк молоток"
+  description: "Іграшковий молоток, що видає моторошний звук. Він втратив свій старий дух і все ще не придатний для використання."
   suffix: DO NOT MAP
   components:
     - type: Sprite
@@ -1829,8 +1829,8 @@
 - type: entity
   parent: BaseItem
   id: WhoopieCushion
-  name: whoopie cushion
-  description: A practical joke device involving flatulence humour.
+  name: "подушка-пустушка"
+  description: "Розіграш, пов'язаний з гумором про метеоризм."
   components:
   - type: Sprite
     sprite: Objects/Fun/whoopie.rsi
@@ -1892,10 +1892,10 @@
         - ItemMask
 
 - type: entity
-  name: banana
+  name: "банан"
   parent: FoodProduceBase
   id: PlasticBanana
-  description: A plastic banana.
+  description: "Пластиковий банан."
   suffix: Plastic
   components:
   - type: FlavorProfile
@@ -1917,8 +1917,8 @@
 - type: entity
   parent: DrinkBase
   id: CrazyGlue
-  name: crazy glue
-  description:  A bottle of crazy glue manufactured by Honk! Co.
+  name: "божевільний клей"
+  description: "Пляшка шаленого клею виробництва Honk! Co."
   components:
   - type: Openable
     sound:
@@ -1956,8 +1956,8 @@
 - type: entity
   parent: BaseItem
   id: NewtonCradle
-  name: newton cradle
-  description: A device bored paper pushers use to remind themselves that time did not stop yet. Contains gravity.
+  name: "ньютонівська колиска"
+  description: "Пристрій, яким користуються нудьгуючі штовхачі паперу, щоб нагадати собі, що час ще не зупинився. Містить гравітацію."
   components:
   - type: Sprite
     sprite: Objects/Fun/newton_cradle.rsi
@@ -1983,11 +1983,11 @@
 #        maxDistance: 3
 
 - type: entity
-  name: The Throngler
+  name: "Розбишака"
   parent: ToyHammer
   id: ThronglerToy
   suffix: Toy
-  description: Why would you make this?
+  description: "Навіщо ви це робите?"
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/Throngler2.rsi
@@ -2013,8 +2013,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieShadowkin
-  name: shadowkin plushie
-  description: A plushie of a Shadowkin. It's very soft.
+  name: "плюшевий шедовкін"
+  description: "Плюшева іграшка Шедовкіна. Вона дуже м'яка."
   components:
     - type: Sprite
       sprite: Objects/Fun/toys.rsi
@@ -2023,8 +2023,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieMort
-  name: morty plushie
-  description: A plushie of the lovely Morty. It's a resilient, yet sensitive type of plush.
+  name: "плюшевий Морті"
+  description: "Плюшева фігурка чарівного Морті. Це пружний, але чутливий тип плюшу."
   components:
     - type: Sprite
       sprite: Objects/Fun/toys.rsi
@@ -2033,8 +2033,8 @@
 - type: entity
   parent: BasePlushie
   id: PlushieHarpy
-  name: harpy plushie
-  description: A soft plushie of a harpy! A small tag on it guarantees that all feathers are ethically sourced.
+  name: "плюшева гарпія"
+  description: "М'яка плюшева гарпія! Маленька бірочка на ньому гарантує, що все пір'я отримане з етичним спосбом."
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi

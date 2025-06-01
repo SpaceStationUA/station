@@ -1,8 +1,8 @@
 - type: entity
-  name: jaunt
+  name: "прогулянка"
   parent: [Incorporeal, BaseMob]
   id: BaseMobJaunt
-  description: Faint traces of a humanoid figure linger here
+  description: "Тут збереглися слабкі сліди людиноподібної фігури"
   suffix: Ethereal
   components:
   - type: ContentEye
@@ -22,7 +22,7 @@
 
 # Should be slow, for balance
 - type: entity
-  name: jaunt
+  name: "прогулянка"
   parent: BaseMobJaunt
   id: EtherealJaunt
   suffix: Wizard

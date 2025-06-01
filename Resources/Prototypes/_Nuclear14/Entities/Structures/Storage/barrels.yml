@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: N14BaseBarrel
-  name: barrel
-  description: This barrel looks like it could contain something.
+  name: "бочка"
+  description: "Ця бочка виглядає так, ніби в ній щось може бути."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -73,8 +73,8 @@
 - type: entity
   parent: N14BaseBarrel
   id: N14BlackBarrel
-  name: black barrel
-  description: A worn out black barrel. The label is torn off.
+  name: "чорна бочка"
+  description: "Потерта чорна бочка. Етикетка відірвана."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: N14BaseBarrel
   id: N14BlueBarrel
-  name: blue barrel
-  description: A blue barrel with a warning sign of. Maybe it contains water?
+  name: "синя бочка"
+  description: "Синя бочка з попереджувальним знаком. Може, в ній вода?"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: N14BaseBarrel
   id: N14RedBarrel
-  name: red barrel
-  description: A red barrel with an explosive warning sign on. Better be careful.
+  name: "червона бочка"
+  description: "Червона бочка з попереджувальним знаком про вибухонебезпечність. Будьте обережні."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: N14BaseBarrel
   id: N14YellowBarrel
-  name: yellow barrel
-  description: A yellow barrel with a radiation warning sign on. Better be careful.
+  name: "жовта бочка"
+  description: "Жовта бочка з попереджувальним знаком радіації. Будьте обережні."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -132,8 +132,8 @@
   parent: N14BaseBarrelOpen
   id: N14BlackBarrelOpen
   suffix: open
-  name: black barrel
-  description: A worn out black barrel. The label is torn off. The lid is off and you can see inside.
+  name: "чорна бочка"
+  description: "Потерта чорна бочка. Етикетка відірвана. Кришка знята і можна зазирнути всередину."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -143,8 +143,8 @@
   parent: N14BaseBarrelOpen
   id: N14BlueBarrelOpen
   suffix: open
-  name: blue barrel
-  description: A blue barrel with a warning sign of. The lid is off and you can see inside.
+  name: "синя бочка"
+  description: "Синя бочка з попереджувальним знаком. Кришка знята і можна зазирнути всередину."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -154,8 +154,8 @@
   parent: N14BaseBarrelOpen
   id: N14RedBarrelOpen
   suffix: open
-  name: red barrel
-  description: A red barrel with an explosive warning sign on. The lid is off and you can see inside.
+  name: "червона бочка"
+  description: "Червона бочка з попереджувальним знаком про вибухонебезпечність. Кришка знята, і можна зазирнути всередину."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -165,8 +165,8 @@
   parent: N14BaseBarrelOpen
   id: N14YellowBarrelOpen
   suffix: open
-  name: yellow barrel
-  description: A yellow barrel with a radiation warning sign on. The lid is off and you can see inside but it still makes you twitch.
+  name: "жовта бочка"
+  description: "Жовта бочка з попереджувальним знаком радіаційної небезпеки. Кришка знята, і ви можете зазирнути всередину, але це все одно змушує вас смикатися."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -180,7 +180,7 @@
   parent: N14BlackBarrelOpen
   id: N14BlackBarrelFull
   suffix: full
-  description: A worn out black barrel. This one looks full of some dark liquid.
+  description: "Пошарпана чорна бочка. Здається, вона повна якоїсь темної рідини."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -191,7 +191,7 @@
   parent: N14RedBarrelOpen
   id: N14RedBarrelFull
   suffix: full
-  description: A red barrel with an explosive warning sign on. It has a golden liquid inside.
+  description: "Червона бочка з попереджувальним знаком про вибухонебезпечність. Усередині золотиста рідина."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -215,7 +215,7 @@
   parent: N14YellowBarrelOpen
   id: N14YellowBarrelFull
   suffix: full
-  description: A yellow barrel with a radiation warning sign on. You can see the glowing goo bubble.
+  description: "Жовта бочка з попереджувальним знаком радіаційної небезпеки. Видно бульбашку, що світиться."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/barrels.rsi
@@ -248,8 +248,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: N14BurningBarrel
-  name: burnt barrel
-  description: This barrel looks like it once contained a fire.
+  name: "обгоріла бочка"
+  description: "Ця бочка виглядає так, ніби в ній колись була пожежа."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/burningbarrel.rsi
@@ -272,8 +272,8 @@
 - type: entity
   parent: N14BurningBarrel
   id: N14BurningBarrelLit
-  name: burning barrel
-  description: This barrel is smoldering. Toasty
+  name: "палаюча бочка"
+  description: "Ця бочка тліє. Підсмажена"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Storage/burningbarrel.rsi

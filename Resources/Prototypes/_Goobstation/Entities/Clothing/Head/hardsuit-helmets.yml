@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitBlueshield
-  name: blueshield's hardsuit helmet
-  description: Blueshield hardsuit with a top of the line gunlink. Belongs to the Blueshield.
+  name: "шолом захисного костюму Блюшильда"
+  description: "Бронежилет Blueshield з високоякісною збройовою накладкою. Належить до Блюшид."
   components:
   - type: BreathMask
   - type: Sprite
@@ -45,8 +45,8 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitCybersunStealth
   suffix: stealth
-  name: cybersun stealth hardsuit helmet
-  description: A helmet with plating for stealth operations.
+  name: "шолом стелс хардкостюма кіберсан"
+  description: "Шолом з обшивкою для стелс-операцій."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hardsuits/cybersunstealth.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitDreadnought
-  name: CSA-105UA "Xíngtiān" tacsuit
-  description: A helmet for the Xíngtiān tacsuit.
+  name: "CSA-105UA \"Сінтянь\" тактичний шолом"
+  description: "Шолом для тактичного костюма Сінтянь."
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Head/Hardsuits/dreadnought.rsi
@@ -112,8 +112,8 @@
 - type: entity
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitChronolegioneer
-  name: futuristic helmet
-  description: The helmet of the fighters of the future, designed for special timeflow operations
+  name: "футуристичний шолом"
+  description: "Шолом бійців майбутнього, призначений для спеціальних операцій у часопросторі"
   components:
   - type: BreathMask
   - type: Sprite

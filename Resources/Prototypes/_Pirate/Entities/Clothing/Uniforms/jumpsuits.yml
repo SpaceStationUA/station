@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformSwimsuitBlack
-  name: чорний купальник
-  description: Black beach swimsuit.
+  name: "чорний купальник"
+  description: "Чорний пляжний купальник."
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/Uniforms/Swimsuits/black.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformSwimsuitRed
-  name: червоний купальник
-  description: A red beach swimsuit. It looks pretty cliched
+  name: "червоний купальник"
+  description: "Червоний пляжний купальник. Виглядає досить банально"
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/Uniforms/Swimsuits/red.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformSwimsuitRibbon
-  name: стрічковий купальник
-  description: A swimsuit connected by ribbons
+  name: "стрічковий купальник"
+  description: "Купальник, з'єднаний стрічками"
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/Uniforms/Swimsuits/ribbon.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformSwimsuitAnime
-  name: східний купальник
-  description: A swimsuit that is defiantly open. Some schoolgirls from oriental comics wear similar ones
+  name: "східний купальник"
+  description: "Купальник, що є зухвало відкритим. Такі носять деякі школярки зі східних коміксів"
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/Uniforms/Swimsuits/anime.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: lothingUniformSwimsuitOutdoor
-  name: відкритий купальник
-  description: A swimsuit that is defiantly open. It doesn't look complete
+  name: "відкритий купальник"
+  description: "Купальник, який зухвало відкритий. Він не виглядає повним"
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/Uniforms/Swimsuits/outdoor.rsi

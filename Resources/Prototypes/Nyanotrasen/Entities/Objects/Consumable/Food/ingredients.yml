@@ -1,9 +1,9 @@
 # Curd cheese, substitute for a lot of things
 - type: entity
-  name: curd cheese
+  name: "сирний сир"
   parent: FoodBakingBase
   id: FoodCurdCheese
-  description: Known by many names throughout cuisine, curd cheese is useful for a wide variety of dishes.
+  description: "Відомий під багатьма назвами в кулінарії, кисломолочний сир корисний для приготування найрізноманітніших страв."
   components:
   - type: FlavorProfile
     flavors:
@@ -26,10 +26,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: cheese curds
+  name: "сирні сирки"
   parent: FoodBakingBase
   id: FoodCheeseCurds
-  description: Not to be mistaken for curd cheese. Tasty deep fried.
+  description: "Не плутати з сирним сиром. Смачно смажиться у фритюрі."
   components:
   - type: FlavorProfile
     flavors:
@@ -50,10 +50,10 @@
 
 # Mozzarella
 - type: entity
-  name: mozzarella cheese
+  name: "сир моцарела"
   parent: FoodBakingBase
   id: FoodMozzarella
-  description: Delicious, creamy, and cheesy, all in one simple package.
+  description: "Смачний, вершковий і сирний, і все це в одній простій упаковці."
   components:
   - type: FlavorProfile
     flavors:
@@ -75,10 +75,10 @@
       - ClothMade # Mothic Food
 
 - type: entity
-  name: herby cheese
+  name: "трав'яний сир"
   parent: FoodBakingBase
   id: FoodMothHerbyCheese
-  description: As a staple of mothic cuisine, cheese is often augmented with various flavours to keep variety in their diet.
+  description: "Сир, як основний продукт мотиської кухні, часто доповнюють різними смаковими добавками, щоб урізноманітнити свій раціон."
   components:
   - type: FlavorProfile
     flavors:
@@ -104,10 +104,10 @@
 #Tastes like cheese, herbs
 
 - type: entity
-  name: mothic salad
+  name: "салат з молі"
   parent: FoodBowlBase
   id: FoodMothSaladBase
-  description: A basic salad of cabbage, red onion and tomato.
+  description: "Базовий салат з капусти, червоної цибулі та помідорів."
   components:
   - type: FlavorProfile
     flavors:
