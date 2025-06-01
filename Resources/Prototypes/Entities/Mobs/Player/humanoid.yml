@@ -4,9 +4,9 @@
   id: EventHumanoid
   # Shitmed Change Start
   speciesBlacklist:
-  - Monkey
-  - Kobold
-  - Abductor
+    - Monkey
+    - Kobold
+    - Abductor
   # Shitmed Change End
   components:
     - type: RandomHumanoidAppearance
@@ -57,6 +57,12 @@
     - Shadowkin
     - Monkey # Shitmed Change
     - Kobold # Shitmed Change
+  # PIRATE Change Start
+    - BananaMen
+    - Gingerbread
+    - Skeleton
+    - Vox
+  # PIRATE Change End
   components:
     - type: MindShield
     - type: GhostRole
@@ -97,6 +103,12 @@
     - Shadowkin
     - Monkey # Shitmed Change
     - Kobold # Shitmed Change
+  # PIRATE Change Start
+    - BananaMen
+    - Gingerbread
+    - Skeleton
+    - Vox
+  # PIRATE Change End
   components:
     - type: MindShield
     - type: GhostRole
@@ -522,6 +534,12 @@
     - Shadowkin
     - Monkey # Shitmed Change
     - Kobold # Shitmed Change
+  # PIRATE Change Start
+    - BananaMen
+    - Gingerbread
+    - Skeleton
+    - Vox
+  # PIRATE Change End
   components:
     - type: MindShield
     - type: Loadout
@@ -556,6 +574,12 @@
     - Shadowkin
     - Monkey # Shitmed Change
     - Kobold # Shitmed Change
+  # PIRATE Change Start
+    - BananaMen
+    - Gingerbread
+    - Skeleton
+    - Vox
+  # PIRATE Change End
   components:
     - type: MindShield
     - type: GhostRole
@@ -588,6 +612,12 @@
     - Shadowkin
     - Monkey # Shitmed Change
     - Kobold # Shitmed Change
+  # PIRATE Change Start
+    - BananaMen
+    - Gingerbread
+    - Skeleton
+    - Vox
+  # PIRATE Change End
   components:
     - type: RandomHumanoidAppearance
       randomizeName: false
@@ -610,6 +640,13 @@
     - Shadowkin
     - Monkey # Shitmed Change
     - Kobold # Shitmed Change
+  # PIRATE Change Start
+    - BananaMen
+    - Gingerbread
+    - Plasmaman
+    - Skeleton
+    - Vox
+  # PIRATE Change End
   components:
     - type: RandomHumanoidAppearance
       randomizeName: false
