@@ -1148,3 +1148,14 @@
         - RestrictedGear
   items:
     - ClothingOuterCoatCybersunWindbreaker
+
+- type: loadout
+  id: LoadoutEncryptionKeyInterdyne
+  category: JobsMedicalAUncategorized
+  cost: 1
+  items:
+    - EncryptionKeyInterdyne
+  requirements:
+    - !type:CharacterEmployerRequirement
+      employers:
+      - Interdyne

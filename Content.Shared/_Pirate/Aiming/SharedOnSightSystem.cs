@@ -31,8 +31,12 @@ public sealed partial class SharedOnSightSystem : EntitySystem
                     return;
             }
         }
+        if (args.OldPosition == args.NewPosition)
+            return;
+
         if (_proto.TryIndex<AlertPrototype>("OnSightAlert", out var alertProto))
             _alerts.ClearAlert(uid, alertProto);
+
         foreach (var entity in component.AimedAtWith.ToArray())
         {
             var ev = new OnAimingTargetMoveEvent(uid);
