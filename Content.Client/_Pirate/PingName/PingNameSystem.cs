@@ -238,13 +238,15 @@ public sealed class PingNameSystem : SharedPingNameSystem
         }
 
         var soundId = _cfg.GetCVar(PirateCVars.PingNameSoundId);
-        var volume = _cfg.GetCVar(PirateCVars.PingNameSoundVolume);
+        var volumeGain = _cfg.GetCVar(PirateCVars.PingNameSoundVolume);
 
         var soundPath = GetPingSoundPath(soundId);
 
         try
         {
-            var audioParams = AudioParams.Default.WithVolume(volume);
+            // Convert linear gain (0.0-1.0) to decibels for proper volume control
+            var volumeDb = SharedAudioSystem.GainToVolume(volumeGain);
+            var audioParams = AudioParams.Default.WithVolume(volumeDb);
             _audio.PlayGlobal(soundPath, Filter.Local(), false, audioParams);
         }
         catch (Exception ex)
@@ -272,13 +274,15 @@ public sealed class PingNameSystem : SharedPingNameSystem
 
     public void PlayTestPingSound(string soundId)
     {
-        var volume = _cfg.GetCVar(PirateCVars.PingNameSoundVolume);
+        var volumeGain = _cfg.GetCVar(PirateCVars.PingNameSoundVolume);
 
         var soundPath = GetPingSoundPath(soundId);
 
         try
         {
-            var audioParams = AudioParams.Default.WithVolume(volume);
+            // Convert linear gain (0.0-1.0) to decibels for proper volume control
+            var volumeDb = SharedAudioSystem.GainToVolume(volumeGain);
+            var audioParams = AudioParams.Default.WithVolume(volumeDb);
             _audio.PlayGlobal(soundPath, Filter.Local(), false, audioParams);
         }
         catch (Exception ex)

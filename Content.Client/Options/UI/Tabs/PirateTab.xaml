@@ -44,8 +44,15 @@
                 <Label Text="{Loc 'ui-options-pirate-ping-name-custom-words'}"
                        FontColorOverride="{x:Static s:StyleNano.NanoGold}"
                        StyleClasses="LabelKeyText"/>
-                <LineEdit Name="CustomWordsLineEdit"
-                         PlaceHolder="{Loc 'ui-options-pirate-ping-name-custom-words-placeholder'}"/>
+                <BoxContainer Orientation="Vertical">
+                    <LineEdit Name="CustomWordsLineEdit"
+                             PlaceHolder="{Loc 'ui-options-pirate-ping-name-custom-words-placeholder'}"/>
+                    <Label Name="CustomWordsLimitLabel"
+                           Text="Залишилось символів: 250/250"
+                           HorizontalAlignment="Right"
+                           Margin="0 2 0 0"
+                           StyleClasses="LabelSubText"/>
+                </BoxContainer>
 
                 <!-- Color Settings -->
                 <Label Text="{Loc 'ui-options-pirate-ping-name-color'}"

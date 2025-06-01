@@ -56,5 +56,17 @@ public sealed class PirateCVars
     /// </summary>
     public static readonly CVarDef<float> PingNameSoundVolume =
         CVarDef.Create("pirate.ping_name_sound_volume", 0.5f, CVar.CLIENTONLY | CVar.ARCHIVE);
+
+    /// <summary>
+    /// Maximum length of custom words string (server-configurable)
+    /// </summary>
+    public static readonly CVarDef<int> PingNameCustomWordsMaxLength =
+        CVarDef.Create("pirate.ping_name_custom_words_max_length", 250, CVar.SERVER | CVar.REPLICATED);
+
+    /// <summary>
+    /// Maximum number of custom words allowed (server-configurable)
+    /// </summary>
+    public static readonly CVarDef<int> PingNameCustomWordsMaxCount =
+        CVarDef.Create("pirate.ping_name_custom_words_max_count", 20, CVar.SERVER | CVar.REPLICATED);
 }
 

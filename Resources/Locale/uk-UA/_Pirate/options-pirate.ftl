@@ -16,6 +16,7 @@ ui-options-pirate-ping-name-test-sound = Тест
 ui-options-pirate-ping-name-custom-words = Додаткові слова для підсвічування
 ui-options-pirate-ping-name-custom-words-placeholder = Введіть слова, розділені пробілами
 ui-options-pirate-ping-name-custom-words-tooltip = Додаткові слова, які викликатимуть підсвічування та звуки при згадуванні
+ui-options-pirate-ping-name-custom-words-limit = Залишилось символів: {$remaining}/{$max}
 ui-options-pirate-ping-name-sound-cooldown = Кулдаун звуку:
 ui-options-pirate-ping-name-sound-cooldown-suffix = секунд (0 = без затримки)
 ui-options-pirate-ping-name-sound-volume = Гучність звуку:
