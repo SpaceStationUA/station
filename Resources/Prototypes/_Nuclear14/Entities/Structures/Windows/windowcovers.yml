@@ -1,8 +1,8 @@
 - type: entity
   id: N14BarricadeWindow
   parent: BaseStructure
-  name: "барикада"
-  description: "Імпровізована барикада."
+  name: barricade
+  description: A makeshift barricade.
   components:
     - type: CanBuildWindowOnTop
     - type: Sprite
@@ -38,8 +38,8 @@
 - type: entity
   parent: N14BarricadeWindow
   id: N14BarricadeDoor
-  name: "зачинені двері"
-  description: "Замкнені двері. Доведеться їх виламати."
+  name: locked door
+  description: A locked door. Might have to break it down.
   components:
     - type: Sprite
       sprite: _Nuclear14/Structures/Furniture/barricades.rsi
@@ -51,8 +51,8 @@
 - type: entity
   id: N14WindowBars
   parent: BaseStructure
-  name: "віконні решітки"
-  description: "Міцні на вигляд решітки, що блокують доступ."
+  name: window bars
+  description: Sturdy looking bars blocking access.
   components:
     - type: MeleeSound
       soundGroups:

@@ -1,8 +1,8 @@
 - type: entity
-  name: "BaseWeaponSniper"
+  name: BaseWeaponSniper
   parent: BaseItem
   id: BaseWeaponSniper
-  description: "Корінцевий зубастий і пагонистий."
+  description: A rooty tooty point and shooty.
   abstract: true
   components:
   - type: Sprite
@@ -66,10 +66,10 @@
   # PIRATE END
 
 - type: entity
-  name: "Кардашев-Мосін"
+  name: Kardashev-Mosin
   parent: [BaseWeaponSniper, BaseGunWieldable]
   id: WeaponSniperMosin
-  description: "Зброя для полювання або нескінченної окопної війни, з багнетом, прикріпленим до ствола. Використовує гвинтівкові набої калібру .30."
+  description: A weapon for hunting, or endless trench warfare, with a bayonet attached at the barrel. Uses .30 rifle ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
@@ -115,20 +115,20 @@
       - CartridgeLightRifle
 
 - type: entity
-  name: "Кардашев-Мосін"
+  name: Kardashev-Mosin
   parent: WeaponSniperMosin
   id: WeaponSniperMosinRubber
-  description: "Зброя для полювання або нескінченної траншейної війни. Використовує гумові кулі калібру .30."
+  description: A weapon for hunting, or endless trench warfare. Uses .30 rifle rubber ammo.
   suffix: Non-Lethal
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeLightRifleRubber
 
 - type: entity
-  name: "Кардашев-Мосін"
+  name: Kardashev-Mosin
   parent: WeaponSniperMosin
   id: WeaponSniperMosinEmpty
-  description: "Зброя для полювання або нескінченної окопної війни. Використовує гвинтівкові патрони калібру .30."
+  description: A weapon for hunting, or endless trench warfare. Uses .30 rifle ammo.
   suffix: Empty
   components:
   - type: BallisticAmmoProvider
@@ -141,10 +141,10 @@
         requireDetailRange: false
 
 - type: entity
-  name: "Христов"
+  name: Hristov
   parent: [BaseWeaponSniper, BaseGunWieldable]
   id: WeaponSniperHristov
-  description: "Портативна протитанкова гвинтівка. Стріляє бронебійними 14,5 мм снарядами. Використовує боєприпаси калібру .60."
+  description: A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/heavy_sniper.rsi
@@ -162,10 +162,10 @@
     fireRate: 0.5
 
 - type: entity
-  name: "мушкет"
+  name: musket
   parent: BaseWeaponSniper
   id: Musket
-  description: "Це мало бути в музеї задовго до твого народження. Використовує мушкетні гільзи." # Delta V - swapping to our crafted musket ammo
+  description: This should've been in a museum long before you were born. Uses musket catridges. # Delta V - swapping to our crafted musket ammo
   components:
   - type: Sharp
   - type: Item
@@ -215,10 +215,10 @@
     angle: 225
 
 - type: entity
-  name: "кремінний пістолет"
+  name: flintlock pistol
   parent: BaseWeaponSniper
   id: WeaponPistolFlintlock
-  description: "Супутниця пірата. Яррр! Використовує мушкетні патрони." # Delta V - Ditto the above
+  description: A pirate's companion. Yarrr! Uses musket cartridges. # Delta V - Ditto the above
   components:
   - type: Gun
     minAngle: 0

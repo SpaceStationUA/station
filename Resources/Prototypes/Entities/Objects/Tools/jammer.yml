@@ -1,8 +1,8 @@
 - type: entity
-  name: "радіоперешкода"
+  name: radio jammer
   parent: BaseItem
   id: RadioJammer
-  description: "Цей пристрій при активації виводить з ладу будь-який вихідний радіозв'язок поблизу, а також датчики костюма."
+  description: This device will disrupt any nearby outgoing radio communication as well as suit sensors when activated.
   components:
   - type: Sprite
     sprite: Objects/Devices/jammer.rsi

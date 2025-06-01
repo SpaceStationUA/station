@@ -1,8 +1,8 @@
 - type: entity
-  name: "коробка для виживання"
+  name: survival box
   parent: BoxCardboardSmall
   id: BoxSurvival
-  description: "Це коробка з базовим респіратором та аварійним кисневим балоном всередині."
+  description: It's a box with basic internals inside.
   components:
   - type: StorageFill
     contents:
@@ -19,10 +19,10 @@
       - state: emergencytank
 
 - type: entity
-  name: "коробка для подовженого виживання"
+  name: extended-capacity survival box
   parent: BoxCardboardSmall
   id: BoxSurvivalEngineering
-  description: "Це коробка з базовим респіратором та кисневим балоном збільшеної місткості всередині."
+  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
   components:
   - type: StorageFill
     contents:
@@ -39,10 +39,10 @@
       - state: extendedtank
 
 - type: entity
-  name: "коробка для виживання"
+  name: survival box
   parent: BoxCardboardSmall
   id: BoxSurvivalSecurity
-  description: "Це коробка з базовим респіратором та аварійним кисневим балоном всередині."
+  description: It's a box with basic internals inside.
   suffix: Security
   components:
   - type: StorageFill
@@ -60,10 +60,10 @@
       - state: emergencytank
 
 - type: entity
-  name: "коробка для виживання"
+  name: survival box
   parent: BoxCardboardSmall
   id: BoxSurvivalBrigmedic
-  description: "Це коробка з базовим респіратором та аварійним кисневим балоном всередині."
+  description: It's a box with basic internals inside.
   suffix: MedSec
   components:
   - type: StorageFill
@@ -81,10 +81,10 @@
       - state: emergencytank
 
 - type: entity
-  name: "коробка для виживання"
+  name: survival box
   parent: BoxCardboardSmall
   id: BoxSurvivalMedical
-  description: "Це коробка з базовим респіратором та аварійним кисневим балоном всередині."
+  description: It's a box with basic internals inside.
   suffix: Medical
   components:
   - type: StorageFill
@@ -102,10 +102,10 @@
       - state: emergencytank
 
 - type: entity
-  name: "коробка обіймів"
+  name: box of hugs
   parent: BoxCardboardSmall
   id: BoxHug
-  description: "Спеціальна коробка для чутливих людей."
+  description: A special box for sensitive people.
   suffix: Emergency
   components:
   - type: Sprite
@@ -146,8 +146,8 @@
 - type: entity
   parent: BoxSurvival
   id: BoxMime
-  name: "коробка для виживання"
-  description: "Це коробка з базовим респіратором та аварійним кисневим балоном всередині."
+  name: survival box
+  description: It's a box with basic internals inside.
   suffix: Emergency
   components:
   - type: StorageFill
@@ -178,7 +178,7 @@
 - type: entity
   parent: BoxCardboardSmall
   id: BoxSurvivalSyndicate
-  description: "Це коробка з базовим респіратором та кисневим балоном збільшеної місткості всередині."
+  description: It's a box with basic internals inside. This one is labelled to contain an extended-capacity tank.
   components:
   - type: StorageFill
     contents:

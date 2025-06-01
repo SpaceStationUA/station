@@ -1,6 +1,6 @@
 - type: entity
   id: BulletPistol
-  name: "куля (.35 auto)"
+  name: bullet (.35 auto)
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
@@ -11,7 +11,7 @@
 
 - type: entity
   id: BulletPistolPractice
-  name: "куля (.35 auto practice)"
+  name: bullet (.35 auto practice)
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -22,7 +22,7 @@
 
 - type: entity
   id: BulletPistolRubber
-  name: "куля (.35 авто гумовий)"
+  name: bullet (.35 auto rubber)
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:
@@ -34,7 +34,7 @@
 - type: entity
   id: BulletPistolIncendiary
   parent: BaseBulletIncendiary
-  name: "куля (.35 авто запальний)"
+  name: bullet (.35 auto incendiary)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -46,7 +46,7 @@
 - type: entity
   id: BulletPistolUranium
   parent: BaseBulletUranium
-  name: "куля (.35 auto uranium)"
+  name: bullet (.35 auto uranium)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -57,7 +57,7 @@
 
 - type: entity
   id: BulletPistolShrapnel
-  name: "куля (.35 авто, шрапнельна)"
+  name: bullet (.35 auto shrapnel)
   categories: [ HideSpawnMenu ]
   parent: BaseBullet
   components:

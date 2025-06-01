@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingOuterBaseMedium, ClothingOuterStorageToggleableBase, AllowSuitStorageClothing ]
   id: ClothingOuterArmorHeretic
-  name: "зловісні обладунки"
-  description: "Пошарпаний, запилений комплект обладунків. Дивні очі вишикувалися зсередини."
+  name: ominous armor
+  description: A ragged, dusty set of robes. Strange eyes line the inside.
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/eldritch_armor.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: [ ClothingOuterBaseMedium, ClothingOuterStorageToggleableBase, AllowSuitStorageClothing ]
   id: ClothingOuterArmorCloakVoid
-  name: "порожній плащ"
-  description: "Чорний, як смола, не відбиває світла. Рунічні символи вишикувані зовні. З кожним спалахом ви втрачаєте розуміння того, що бачите."
+  name: void cloak
+  description: Black like tar, reflecting no light. Runic symbols line the outside. With each flash you lose comprehension of what you are seeing.
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/void_cloak.rsi

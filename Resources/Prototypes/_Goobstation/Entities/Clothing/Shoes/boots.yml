@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingShoesBootsMag
   id: ClothingShoesBootsChrono
-  name: "футуристичні черевики"
-  description: "Вдосконалене футуристичне взуття, яке гарантує комфорт та повне зчеплення з будь-якою поверхнею"
+  name: futuristic boots
+  description: An advanced futuristic shoe that guarantees wearer comfort and full traction on any surface
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Shoes/Boots/chronolegioneer.rsi
@@ -31,8 +31,8 @@
 - type: entity
   parent: ClothingShoesBootsMagBase
   id: ClothingShoesRealJordans
-  name: "джордани з автографом"
-  description: "Найсучасніші, офіційні, незім'яті Джордани, які захищають вас від ковзання, коли увімкнені."
+  name: air jordans
+  description: State-of-the-art, official, uncreased Jordans that protect you from slipping when turned on.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Shoes/Boots/jordans.rsi
@@ -69,8 +69,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesCreasedJordans
-  name: "зім'яті джордани"
-  description: "Ні, чекайте... цього не може бути.... ВОНИ ЗІМ'ЯТІ!"
+  name: creased air jordans
+  description: No wait... this can't be.... THEY'RE CREASED!
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Shoes/Boots/jordans.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingShoesRealJordans
   id: ClothingShoesRealJordansAutographed
-  name: "джордани з автографом"
-  description: "Це не просто Джордани, їх підписав сам Майкл Джордан. Вони, мабуть, коштують ЦІЛЕ СТАТТЯ."
+  name: air jordans
+  description: These aren't just any Jordans, these were signed my Micheal Jordan himself. These must be worth a FORTUNE.
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Shoes/Boots/jordans.rsi

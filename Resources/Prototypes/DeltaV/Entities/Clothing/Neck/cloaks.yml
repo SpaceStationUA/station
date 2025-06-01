@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakMystagogue
-  name: "плащ містагога"
+  name: mystagogue's cloak
   suffix: Delta-V
-  description: "Зручний біло-фіолетовий плащ, ідеальний для тих безсонних ночей, коли вас переслідують ще нерозгадані таємниці всесвіту."
+  description: A comfy white and purple cloak, perfect for those sleepless nights when you're haunted by the yet unsolved mysteries of the universe.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Cloaks/mystacloak.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakBoat
-  name: "Накидка НаноТрейзен"
-  description: "Королівська синя накидка з фазової тканини з червоною фетровою підкладкою та золотим оздобленням. Якимось чином він навіть дорожчий, ніж виглядає."
+  name: NanoTrasen boat cloak
+  description: A regal blue durathread boat cloak with a red felt lining and gold trim. Somehow, it's even more expensive than it looks.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Cloaks/boatcloak.rsi
@@ -26,8 +26,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckSalvager
-  name: "плащ утилізатора"
-  description: "Їх носили небезпечні люди, які з легкістю руйнували станції."
+  name: salvager's cloak
+  description: Worn by dangerous people who've deconstructed stations with ease.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Cloaks/salvage.rsi 
@@ -37,8 +37,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakCJ
-  name: "мантія головного судді"
-  description: "Важкий плащ, прикрашений скромною емблемою та пишною хутряною обробкою."
+  name: chief justice's cloak
+  description: A hefty cloak adorned with a modest insignia and grand fur trim.
   components:
   - type: Sprite
     sprite: DeltaV/Clothing/Neck/Cloaks/cjcloak.rsi

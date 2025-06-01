@@ -3,7 +3,7 @@
 - type: entity
   id: PartReptilian
   parent: [BaseItem, BasePart]
-  name: "частина тіла рептилії"
+  name: "reptilian body part"
   abstract: true
   components:
   - type: Extractable
@@ -16,7 +16,7 @@
 
 - type: entity
   id: TorsoReptilian
-  name: "тулуб рептилії"
+  name: "reptilian torso"
   parent: [PartReptilian, BaseTorso]
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
 
 - type: entity
   id: HeadReptilian
-  name: "голова рептилії"
+  name: "reptilian head"
   parent: [PartReptilian, BaseHead]
   components:
   - type: Sprite
@@ -65,7 +65,7 @@
 
 - type: entity
   id: LeftArmReptilian
-  name: "ліва рука рептилії"
+  name: "left reptilian arm"
   parent: [PartReptilian, BaseLeftArm]
   components:
   - type: Sprite
@@ -74,7 +74,7 @@
 
 - type: entity
   id: RightArmReptilian
-  name: "права рука рептилії"
+  name: "right reptilian arm"
   parent: [PartReptilian, BaseRightArm]
   components:
   - type: Sprite
@@ -83,7 +83,7 @@
 
 - type: entity
   id: LeftHandReptilian
-  name: "ліва долоня рептилії"
+  name: "left reptilian hand"
   parent: [PartReptilian, BaseLeftHand]
   components:
   - type: Sprite
@@ -92,7 +92,7 @@
 
 - type: entity
   id: RightHandReptilian
-  name: "права долоня рептилії"
+  name: "right reptilian hand"
   parent: [PartReptilian, BaseRightHand]
   components:
   - type: Sprite
@@ -101,7 +101,7 @@
 
 - type: entity
   id: LeftLegReptilian
-  name: "ліва нога рептилії"
+  name: "left reptilian leg"
   parent: [PartReptilian, BaseLeftLeg]
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
 
 - type: entity
   id: RightLegReptilian
-  name: "права нога рептилії"
+  name: "right reptilian leg"
   parent: [PartReptilian, BaseRightLeg]
   components:
   - type: Sprite
@@ -119,7 +119,7 @@
 
 - type: entity
   id: LeftFootReptilian
-  name: "ліва стопа рептилії"
+  name: "left reptilian foot"
   parent: [PartReptilian, BaseLeftFoot]
   components:
   - type: Sprite
@@ -128,7 +128,7 @@
 
 - type: entity
   id: RightFootReptilian
-  name: "права стопа рептилії"
+  name: "right reptilian foot"
   parent: [PartReptilian, BaseRightFoot]
   components:
   - type: Sprite
