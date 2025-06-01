@@ -259,12 +259,12 @@ public sealed class PingNameSystem : SharedPingNameSystem
     {
         return new Dictionary<string, string>
         {
-            { "ping1", "Cargo Ping" },
+            { "ping1", "Item Beep" },
             { "ping2", "Simple Beep" },
             { "ping3", "Chime" },
             { "ping4", "Ding" },
             { "ping5", "Bell Chime" },
-            { "ping6", "Item Beep" },
+            { "ping6", "Cargo Ping" },
             { "ping7", "Tech Confirm" },
             { "ping8", "Double Beep" },
             { "ping9", "Desk Bell" },
@@ -295,12 +295,12 @@ public sealed class PingNameSystem : SharedPingNameSystem
     {
         return soundId switch
         {
-            "ping1" => new SoundPathSpecifier("/Audio/Effects/Cargo/ping.ogg"),
+            "ping1" => new SoundPathSpecifier("/Audio/Items/beep.ogg"),
             "ping2" => new SoundPathSpecifier("/Audio/Effects/beep1.ogg"),
             "ping3" => new SoundPathSpecifier("/Audio/Machines/chime.ogg"),
             "ping4" => new SoundPathSpecifier("/Audio/Machines/ding.ogg"),
             "ping5" => new SoundPathSpecifier("/Audio/Effects/chime.ogg"),
-            "ping6" => new SoundPathSpecifier("/Audio/Items/beep.ogg"),
+            "ping6" => new SoundPathSpecifier("/Audio/Effects/Cargo/ping.ogg"),
             "ping7" => new SoundPathSpecifier("/Audio/Machines/high_tech_confirm.ogg"),
             "ping8" => new SoundPathSpecifier("/Audio/Effects/double_beep.ogg"),
             "ping9" => new SoundPathSpecifier("/Audio/Items/desk_bell_ring.ogg"),

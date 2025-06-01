@@ -13,13 +13,13 @@ public sealed class PirateCVars
     /// Whether name highlighting is enabled
     /// </summary>
     public static readonly CVarDef<bool> PingNameEnabled =
-        CVarDef.Create("pirate.ping_name_enabled", false, CVar.CLIENTONLY | CVar.ARCHIVE);
+        CVarDef.Create("pirate.ping_name_enabled", true, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     /// <summary>
     /// Whether ping name sounds are enabled
     /// </summary>
     public static readonly CVarDef<bool> PingNameSoundsEnabled =
-        CVarDef.Create("pirate.ping_name_sounds_enabled", false, CVar.CLIENTONLY | CVar.ARCHIVE);
+        CVarDef.Create("pirate.ping_name_sounds_enabled", true, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     /// <summary>
     /// Whether to play sound when you mention your own name (for testing)
