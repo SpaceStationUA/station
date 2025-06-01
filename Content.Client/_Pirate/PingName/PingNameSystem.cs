@@ -240,20 +240,7 @@ public sealed class PingNameSystem : SharedPingNameSystem
         var soundId = _cfg.GetCVar(PirateCVars.PingNameSoundId);
         var volume = _cfg.GetCVar(PirateCVars.PingNameSoundVolume);
 
-        var soundPath = soundId switch
-        {
-            "ping1" => new SoundPathSpecifier("/Audio/Effects/Cargo/ping.ogg"),
-            "ping2" => new SoundPathSpecifier("/Audio/Effects/beep1.ogg"),
-            "ping3" => new SoundPathSpecifier("/Audio/Machines/chime.ogg"),
-            "ping4" => new SoundPathSpecifier("/Audio/Machines/ding.ogg"),
-            "ping5" => new SoundPathSpecifier("/Audio/Effects/chime.ogg"),
-            "ping6" => new SoundPathSpecifier("/Audio/Items/beep.ogg"),
-            "ping7" => new SoundPathSpecifier("/Audio/Machines/high_tech_confirm.ogg"),
-            "ping8" => new SoundPathSpecifier("/Audio/Effects/double_beep.ogg"),
-            "ping9" => new SoundPathSpecifier("/Audio/Items/desk_bell_ring.ogg"),
-            "ping10" => new SoundPathSpecifier("/Audio/_Pirate/Voice/IPC/ipc_ding_1.ogg"),
-            _ => new SoundPathSpecifier("/Audio/Effects/Cargo/ping.ogg")
-        };
+        var soundPath = GetPingSoundPath(soundId);
 
         try
         {
@@ -287,7 +274,22 @@ public sealed class PingNameSystem : SharedPingNameSystem
     {
         var volume = _cfg.GetCVar(PirateCVars.PingNameSoundVolume);
 
-        var soundPath = soundId switch
+        var soundPath = GetPingSoundPath(soundId);
+
+        try
+        {
+            var audioParams = AudioParams.Default.WithVolume(volume);
+            _audio.PlayGlobal(soundPath, Filter.Local(), false, audioParams);
+        }
+        catch (Exception ex)
+        {
+            _sawmill.Error($"Failed to play test ping sound '{soundId}': {ex.Message}");
+        }
+    }
+
+    private SoundPathSpecifier GetPingSoundPath(string soundId)
+    {
+        return soundId switch
         {
             "ping1" => new SoundPathSpecifier("/Audio/Effects/Cargo/ping.ogg"),
             "ping2" => new SoundPathSpecifier("/Audio/Effects/beep1.ogg"),
@@ -301,16 +303,6 @@ public sealed class PingNameSystem : SharedPingNameSystem
             "ping10" => new SoundPathSpecifier("/Audio/_Pirate/Voice/IPC/ipc_ding_1.ogg"),
             _ => new SoundPathSpecifier("/Audio/Effects/Cargo/ping.ogg")
         };
-
-        try
-        {
-            var audioParams = AudioParams.Default.WithVolume(volume);
-            _audio.PlayGlobal(soundPath, Filter.Local(), false, audioParams);
-        }
-        catch (Exception ex)
-        {
-            _sawmill.Error($"Failed to play test ping sound '{soundId}': {ex.Message}");
-        }
     }
 
     private string EscapeRegexSpecialChars(string input)

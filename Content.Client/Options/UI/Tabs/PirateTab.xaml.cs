@@ -32,9 +32,11 @@ public sealed partial class PirateTab : Control
             {
                 _pingNameSystem = _entitySystemManager?.GetEntitySystemOrNull<PingNameSystem>();
             }
-            catch
+            catch (Exception ex)
             {
                 // EntitySystemManager might not be initialized yet
+                var logger = Logger.GetSawmill("pirate.ping_name");
+                logger.Warning($"Failed to initialize PingNameSystem: {ex.Message}");
                 _pingNameSystem = null;
             }
 
@@ -82,12 +84,27 @@ public sealed partial class PirateTab : Control
     {
         if (disposing)
         {
+            // Unsubscribe from all event handlers to prevent memory leaks
             PingNameEnabledCheckBox.OnToggled -= OnPingNameEnabledToggled;
             PingNameSoundsCheckBox.OnToggled -= OnPingNameSoundsToggled;
+            PingNameSelfSoundsCheckBox.OnToggled -= OnPingNameSelfSoundsToggled;
 
+            // Sound controls
+            TestSoundButton.OnPressed -= OnTestSoundButtonPressed;
+            PingSoundSelector.OnItemSelected -= OnPingSoundSelected;
+
+            // Custom words
+            CustomWordsLineEdit.OnTextChanged -= OnCustomWordsChanged;
+
+            // Sound cooldown and volume
+            SoundCooldownSpinBox.OnValueChanged -= OnSoundCooldownChanged;
+            SoundVolumeSlider.OnValueChanged -= OnSoundVolumeChanged;
+
+            // Color controls
             ColorSliders.OnColorChanged -= OnColorSlidersChanged;
             PingNameColorReset.OnPressed -= OnPingNameColorReset;
 
+            // Apply/Reset buttons
             ApplyButton.OnPressed -= OnApplyButtonPressed;
             ResetButton.OnPressed -= OnResetButtonPressed;
         }
@@ -146,9 +163,11 @@ public sealed partial class PirateTab : Control
 
             _soundSelectorInitialized = true;
         }
-        catch
+        catch (Exception ex)
         {
             // If there's any error, keep the default sounds
+            var logger = Logger.GetSawmill("pirate.ping_name");
+            logger.Warning($"Failed to setup sound selector: {ex.Message}");
             return;
         }
     }
@@ -163,9 +182,11 @@ public sealed partial class PirateTab : Control
             {
                 SetupSoundSelector();
             }
-            catch
+            catch (Exception ex)
             {
                 // If setup fails, keep using default sounds
+                var logger = Logger.GetSawmill("pirate.ping_name");
+                logger.Warning($"Failed to setup sound selector in UpdateValues: {ex.Message}");
             }
         }
 
@@ -241,9 +262,11 @@ public sealed partial class PirateTab : Control
             {
                 SetupSoundSelector();
             }
-            catch
+            catch (Exception ex)
             {
                 // If setup fails, continue with default sounds
+                var logger = Logger.GetSawmill("pirate.ping_name");
+                logger.Warning($"Failed to setup sound selector in test button: {ex.Message}");
             }
         }
 
@@ -264,9 +287,11 @@ public sealed partial class PirateTab : Control
             {
                 PingNameSystem.PlayTestPingSound(soundId);
             }
-            catch
+            catch (Exception ex)
             {
                 // System might not be fully initialized
+                var logger = Logger.GetSawmill("pirate.ping_name");
+                logger.Warning($"Failed to play test ping sound: {ex.Message}");
             }
         }
         // If system is not available, we can't play the sound but at least we don't crash
