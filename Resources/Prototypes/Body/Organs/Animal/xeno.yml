@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: OrganXenoAcidGland
   parent: BaseAnimalOrgan
-  name: "кислотоутворююча залоза"
+  name: acid-gland
   components:
     - type: Sprite
       sprite: Mobs/Species/Xeno/organs.rsi
@@ -11,7 +11,7 @@
 - type: entity
   id: OrganXenoEggsac
   parent: BaseAnimalOrgan
-  name: "яйцевий мішочок"
+  name: eggsac
   components:
     - type: Sprite
       sprite: Mobs/Species/Xeno/organs.rsi
@@ -21,7 +21,7 @@
 - type: entity
   id: OrganXenoHivenode
   parent: BaseAnimalOrgan
-  name: "хайв-нода"
+  name: hivenode
   components:
     - type: Sprite
       sprite: Mobs/Species/Xeno/organs.rsi
@@ -31,7 +31,7 @@
 - type: entity
   id: OrganXenoPlasmaVessel
   parent: BaseAnimalOrgan
-  name: "плазмова судина"
+  name: plasma-vessel
   components:
     - type: Sprite
       sprite: Mobs/Species/Xeno/organs.rsi
@@ -41,8 +41,8 @@
 - type: entity
   id: OrganXenoBrain
   parent: BaseHumanOrganUnGibbable
-  name: "мозок"
-  description: "Джерело неймовірного, нескінченного інтелекту. Хонк."
+  name: brain
+  description: "The source of incredible, unending intelligence. Honk."
   components:
     - type: Sprite
       sprite: Mobs/Species/Xeno/organs.rsi
@@ -61,7 +61,7 @@
 
 - type: entity
   id: TorsoXeno
-  name: "торс інопланетяниниа"
+  name: "alien torso"
   parent: [PartHuman, BaseTorso]
   components:
     - type: Sprite

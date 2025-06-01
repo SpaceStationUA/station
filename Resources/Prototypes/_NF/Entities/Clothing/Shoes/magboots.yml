@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingShoesBootsMag, ClothingShoesBootsCombat]
   id: ClothingShoesBootsMagCombat
-  name: "бойові магнітні черевики"
-  description: "Бойові магнітні черевики, які часто використовуються під час позакорабельної діяльності, щоб гарантувати, що користувач залишається надійно прикріпленим до транспортного засобу."
+  name: combat magboots
+  description: Combat magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Shoes/Boots/magboots-combat.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: ClothingShoesBootsMagCombat
   id: ClothingShoesBootsMagNfsd
-  name: "магнітні черевики nfsd"
+  name: nfsd magboots
   components:
   - type: Sprite
     sprite: _NF/Clothing/Shoes/Boots/magboots-nfsd.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: ClothingShoesBootsMagCombat
   id: ClothingShoesBootsMagPirate
-  name: "піратські магнітні черевики"
-  description: "Піратські магнітні черевики, які часто використовуються під час позакорабельної діяльності, щоб гарантувати, що користувач залишається надійно прикріпленим до транспортного засобу."
+  name: pirate magboots
+  description: Pirate magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Shoes/Boots/magboots-pirate.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: ClothingShoesBootsMagCombat
   id: ClothingShoesBootsMagMercenary
-  name: "магнітні черевики найманця"
-  description: "Магнітні черевики найманця, які часто використовуються під час позакорабельної діяльності, щоб гарантувати, що користувач залишається надійно прикріпленим до транспортного засобу."
+  name: mercenary magboots
+  description: Mercenary magnetic boots, often used during extravehicular activity to ensure the user remains safely attached to the vehicle.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Shoes/Boots/magboots-mercenary.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: ClothingShoesBootsMag
   id: ClothingShoesBootsMagGaloshes
-  name: "магнітні черевики-калоші"
-  description: "Магнітні черевики-калоші, які часто використовуються під час прибирання, щоб гарантувати, що користувач залишається надійно прикріпленим до підлоги."
+  name: galoshes magboots
+  description: Galoshes magnetic boots, often used during cleaning activity to ensure the user remains safely attached to the floor.
   components:
   - type: Sprite
     sprite: _NF/Clothing/Shoes/Boots/magboots-galoshes.rsi
