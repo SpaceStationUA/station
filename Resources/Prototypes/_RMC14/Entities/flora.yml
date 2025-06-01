@@ -108,8 +108,8 @@
 - type: entity
   parent: RMCBasePlant
   id: BonsaiTree01
-  description: "Маленький, листяний кущ."
-  name: "Кущ"
+  description: A small, leafy bush.
+  name: Bush
   components:
   - type: Sprite
     state: tree_1
@@ -118,8 +118,8 @@
 - type: entity
   parent: RMCBasePlant
   id: BonsaiTree02
-  description: "Маленький, листяний кущ."
-  name: "Кущ"
+  description: A small, leafy bush.
+  name: Bush
   components:
   - type: Sprite
     state: tree_2
@@ -128,8 +128,8 @@
 - type: entity
   parent: RMCBasePlant
   id: BonsaiTree03
-  description: "Маленький, листяний кущ."
-  name: "Кущ"
+  description: A small, leafy bush.
+  name: Bush
   components:
   - type: Sprite
     state: tree_3
@@ -138,8 +138,8 @@
 - type: entity
   parent: RMCBasePlant
   id: BonsaiTree04
-  description: "Маленький, листяний кущ."
-  name: "Кущ"
+  description: A small, leafy bush.
+  name: Bush
   components:
   - type: Sprite
     state: tree_4
@@ -148,7 +148,7 @@
 - type: entity
   parent: RMCBasePlant
   id: StalkyBush01
-  name: "стебловий кущ"
+  name: stalkybush
   components:
   - type: Sprite
     state: bushh1
@@ -157,7 +157,7 @@
 - type: entity
   parent: RMCBasePlant
   id: StalkyBush02
-  name: "стебловий кущ"
+  name: stalkybush
   components:
   - type: Sprite
     state: bushh2
@@ -166,7 +166,7 @@
 - type: entity
   parent: RMCBasePlant
   id: StalkyBush03
-  name: "стебловий кущ"
+  name: stalkybush
   components:
   - type: Sprite
     state: bushh3
@@ -175,7 +175,7 @@
 - type: entity
   parent: RMCBasePlant
   id: FernyBush01
-  name: "папоротевий кущ"
+  name: fernybush
   components:
   - type: Sprite
     state: bushj1
@@ -184,7 +184,7 @@
 - type: entity
   parent: RMCBasePlant
   id: FernyBush02
-  name: "папоротевий кущ"
+  name: fernybush
   components:
   - type: Sprite
     state: bushj2
@@ -193,7 +193,7 @@
 - type: entity
   parent: RMCBasePlant
   id: FernyBush03
-  name: "папоротевий кущ"
+  name: fernybush
   components:
   - type: Sprite
     state: bushj3
@@ -202,7 +202,7 @@
 - type: entity
   parent: RMCBasePalm
   id: RMCFloraTreePalm01
-  name: "пальма"
+  name: palm tree
   components:
   - type: Sprite
     state: palm1
@@ -210,7 +210,7 @@
 - type: entity
   parent: RMCBasePalm
   id: RMCFloraTreePalm02
-  name: "пальма"
+  name: palm tree
   components:
   - type: Sprite
     state: palm2
@@ -218,8 +218,8 @@
 - type: entity
   parent: RMCBaseRockDestructible
   id: RMCRock
-  name: "камінь"
-  description: "Затверділе скупчення місцевих мінералів. При розплавленні перетворюється на субстанцію, більш відому як лава."
+  name: rock
+  description: A solidified collection of local minerals. When melted, becomes a substance best known as lava.
   components:
   - type: Sprite
     state: rock
@@ -227,8 +227,8 @@
 - type: entity
   parent: RMCBaseRockIndistructable
   id: RMCRockIndistructable
-  name: "міцний камінь"
-  description: "Затверділе скупчення місцевих мінералів. При розплавленні перетворюється на субстанцію, більш відому як лава. Ці виглядають особливо міцними."
+  name: sturdy rock
+  description: A solidified collection of local minerals. When melted, becomes a substance best known as lava. These look particularly durable.
   components:
   - type: Sprite
     state: rock
@@ -236,8 +236,8 @@
 - type: entity
   parent: RMCBaseRockDestructible
   id: RMCRockSmart
-  name: "розумний камінь"
-  description: "Тепер намалюйте, як вони здобувають освіту."
+  name: a smart rock
+  description: Now draw them getting an education.
   components:
   - type: Sprite
     state: educated_rock
@@ -245,8 +245,8 @@
 - type: entity
   parent: RMCBaseRockDestructible
   id: RMCBoulder1
-  name: "валун"
-  description: "Великий камінь. Він нічого не готує."
+  name: boulder
+  description: A large rock. It's not cooking anything.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Flora/boulder.rsi

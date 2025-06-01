@@ -1,6 +1,6 @@
 - type: entity
   id: MagazinePistolParticle
-  name: "магазин для пістолета (.35 калібру)"
+  name: pistol magazine (.35 particle)
   parent: BaseMagazinePistol
   components:
   - type: BallisticAmmoProvider
@@ -14,7 +14,7 @@
 
 - type: entity
   id: MagazinePistolParticlePlasma
-  name: "пістолетний магазин (.35 плазма)"
+  name: pistol magazine (.35 plasma)
   parent: BaseMagazinePistol
   components:
   - type: BallisticAmmoProvider
@@ -28,7 +28,7 @@
 
 - type: entity
   id: MagazinePistolParticleTritium
-  name: "пістолетний магазин (.35 тритій)"
+  name: pistol magazine (.35 tritium)
   parent: BaseMagazinePistol
   components:
   - type: BallisticAmmoProvider
@@ -42,7 +42,7 @@
 
 - type: entity
   id: MagazinePistolParticleFrezon
-  name: "пістолетний магазин (.35 frezon)"
+  name: pistol magazine (.35 frezon)
   parent: BaseMagazinePistol
   components:
   - type: BallisticAmmoProvider
@@ -56,7 +56,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunParticle
-  name: "Магазин SMG (патрон .35)"
+  name: SMG magazine (.35 particle)
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -70,7 +70,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunParticlePlasma
-  name: "Магазин SMG (.35 плазма)"
+  name: SMG magazine (.35 plasma)
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -84,7 +84,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunParticleTritium
-  name: "Магазин SMG (.35 тритій)"
+  name: SMG magazine (.35 tritium)
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider
@@ -98,7 +98,7 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunParticleFrezon
-  name: "Магазин SMG (.35 frezon)"
+  name: SMG magazine (.35 frezon)
   parent: BaseMagazinePistolSubMachineGun
   components:
   - type: BallisticAmmoProvider

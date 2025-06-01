@@ -1,8 +1,8 @@
 - type: entity
   id: AltarBase
   parent: BaseStructure
-  name: "вівтар"
-  description: "Вівтар богів."
+  name: altar
+  description: Altar of the Gods.
   abstract: true
   components:
   - type: Anchorable
@@ -37,7 +37,7 @@
 - type: entity
   id: AltarNanotrasen
   parent: AltarBase
-  name: "вівтар Нанотрейзен"
+  name: nanotrasen altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -79,7 +79,7 @@
 - type: entity
   id: AltarChaos
   parent: AltarNanotrasen
-  name: "вівтар хаосу"
+  name: chaos altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -94,7 +94,7 @@
 - type: entity
   id: AltarDruid
   parent: AltarNanotrasen
-  name: "друїдський вівтар"
+  name: druid altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -109,7 +109,7 @@
 - type: entity
   id: AltarToolbox
   parent: AltarNanotrasen
-  name: "вівтар ящику для інструментів"
+  name: toolbox altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -124,7 +124,7 @@
 - type: entity
   id: AltarSpaceChristian
   parent: AltarNanotrasen
-  name: "космічно-християнський вівтар"
+  name: space-Christian altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -146,7 +146,7 @@
 - type: entity
   id: AltarSatana
   parent: AltarNanotrasen
-  name: "сатанинський вівтар"
+  name: satanic altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -168,7 +168,7 @@
 - type: entity
   id: AltarTechnology
   parent: AltarNanotrasen
-  name: "вівтар технологій"
+  name: technology altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
@@ -190,7 +190,7 @@
 - type: entity
   id: AltarConvertFestival
   parent: AltarBase
-  name: "вівтар фестивалю"
+  name: festival altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -235,7 +235,7 @@
 - type: entity
   id: AltarConvertMaint
   parent: AltarConvertFestival
-  name: "вівтар технічних тунелей"
+  name: maint altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -257,7 +257,7 @@
 - type: entity
   id: AltarConvertBlue
   parent: AltarConvertFestival
-  name: "блакитний вівтар"
+  name: blue altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -279,7 +279,7 @@
 - type: entity
   id: AltarConvertBurden
   parent: AltarConvertFestival
-  name: "вівтар тягару"
+  name: burden altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -301,7 +301,7 @@
 - type: entity
   id: AltarConvert
   parent: AltarConvertFestival
-  name: "перетворюючий вівтар"
+  name: convert altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -323,7 +323,7 @@
 - type: entity
   id: AltarConvertOrange
   parent: AltarConvertFestival
-  name: "помаранчевий вівтар"
+  name: orange altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -345,7 +345,7 @@
 - type: entity
   id: AltarConvertRed
   parent: AltarConvertFestival
-  name: "червоний вівтар"
+  name: red altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -367,7 +367,7 @@
 - type: entity
   id: AltarConvertWhite
   parent: AltarConvertFestival
-  name: "білий вівтар"
+  name: white altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -389,7 +389,7 @@
 - type: entity
   id: AltarConvertYellow
   parent: AltarConvertFestival
-  name: "жовтий вівтар"
+  name: yellow altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
@@ -411,7 +411,7 @@
 - type: entity
   id: AltarHeaven
   parent: AltarBase
-  name: "небесний вівтар"
+  name: heaven altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Cults/heaven.rsi
@@ -455,7 +455,7 @@
 - type: entity
   id: AltarFangs
   parent: AltarHeaven
-  name: "ікластий вівтар"
+  name: fanged altar
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Cults/fangs.rsi
@@ -469,8 +469,8 @@
 - type: entity
   id: AltarBananium
   parent: AltarBase
-  name: "вівтар Хонкоматері"
-  description: "Банановий вівтар, присвячений матері-берегині."
+  name: honkmother altar
+  description: A bananium altar dedicated to the honkmother.
   components:
   - type: Sprite
     sprite: Structures/Furniture/Altars/Cults/bananium.rsi

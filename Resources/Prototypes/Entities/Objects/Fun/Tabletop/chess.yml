@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseBoardEntity
   id: ChessBoard
-  name: "шахівниця"
-  description: "Шахова дошка. Фігури в комплекті!"
+  name: chessboard
+  description: A chessboard. Pieces included!
   components:
   - type: Sprite
     sprite: Objects/Fun/Tabletop/chessboard.rsi
@@ -18,7 +18,7 @@
 # Chessboard tabletop item (item only visible in tabletop game)
 - type: entity
   id: ChessBoardTabletop
-  name: "шахівниця"
+  name: chessboard
   parent: BaseBoardTabletop
   categories: [ HideSpawnMenu ]
   components:
@@ -29,7 +29,7 @@
 # White pieces
 - type: entity
   id: WhiteKing
-  name: "білий король"
+  name: white king
   parent: BaseTabletopPiece
   components:
   - type: Sprite
@@ -38,7 +38,7 @@
 
 - type: entity
   id: WhiteQueen
-  name: "біла королева"
+  name: white queen
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -47,7 +47,7 @@
 
 - type: entity
   id: WhiteRook
-  name: "біла тура"
+  name: white rook
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -56,7 +56,7 @@
 
 - type: entity
   id: WhiteBishop
-  name: "білий офіцер"
+  name: white bishop
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -65,7 +65,7 @@
 
 - type: entity
   id: WhiteKnight
-  name: "білий кінь"
+  name: white knight
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -74,7 +74,7 @@
 
 - type: entity
   id: WhitePawn
-  name: "білий пішак"
+  name: white pawn
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -84,7 +84,7 @@
 # Black pieces
 - type: entity
   id: BlackKing
-  name: "чорний король"
+  name: black king
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -93,7 +93,7 @@
 
 - type: entity
   id: BlackQueen
-  name: "чорна королева"
+  name: black queen
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -102,7 +102,7 @@
 
 - type: entity
   id: BlackRook
-  name: "чорна тура"
+  name: black rook
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -111,7 +111,7 @@
 
 - type: entity
   id: BlackBishop
-  name: "чорний офіцер"
+  name: black bishop
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -120,7 +120,7 @@
 
 - type: entity
   id: BlackKnight
-  name: "чорний кінь"
+  name: black knight
   parent: BaseTabletopPiece
   components:
     - type: Sprite
@@ -129,7 +129,7 @@
 
 - type: entity
   id: BlackPawn
-  name: "чорний пішак"
+  name: black pawn
   parent: BaseTabletopPiece
   components:
     - type: Sprite

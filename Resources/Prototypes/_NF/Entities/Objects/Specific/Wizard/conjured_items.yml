@@ -10,7 +10,7 @@
 
 # Conjured objects
 - type: entity
-  name: "синдикатське мило"
+  name: soap
   id: SoapConjured
   parent:
   - BaseBullet
@@ -62,7 +62,7 @@
 
 # Blood Cult Soaps
 - type: entity
-  name: "мильце"
+  name: soaplet
   id: SoapletBloodCult
   parent: SoapConjured
   components:
@@ -105,7 +105,7 @@
     softness: 1
 
 - type: entity
-  name: "синдикатське мило"
+  name: soap
   id: SoapConjuredBloodCultCluster # I swear, I'll use it some how
   parent:
   - Soap

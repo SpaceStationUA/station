@@ -2,7 +2,7 @@
   id: BaseLathe
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   abstract: true
-  name: "токарний верстат"
+  name: lathe
   components:
   - type: Appearance
   - type: WiresVisuals
@@ -90,8 +90,8 @@
 - type: entity
   id: Autolathe
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: "автолат"
-  description: "Виробляє базові предмети, використовуючи метал та скло."
+  name: autolathe
+  description: It produces basic items using metal and glass.
   components:
   - type: Sprite
     sprite: Structures/Machines/autolathe.rsi
@@ -283,8 +283,8 @@
 - type: entity
   id: AutolatheHyperConvection
   parent: [Autolathe, BaseHyperlathe]
-  name: "гіперконвекційний автолат"
-  description: "Високоекспериментальний автолат, який використовує потужність надзвичайного тепла для повільного та більш економічно ефективного створення об'єктів."
+  name: hyper convection autolathe
+  description: A highly-experimental autolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
   components:
   - type: Sprite
     sprite: Structures/Machines/autolathe_hypercon.rsi
@@ -294,8 +294,8 @@
 - type: entity
   id: Protolathe
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: "протолат"
-  description: "Перетворює сировину на вдосконалені предмети."
+  name: protolathe
+  description: Converts raw materials into advanced items.
   components:
   - type: Sprite
     sprite: Structures/Machines/protolathe.rsi
@@ -482,8 +482,8 @@
 - type: entity
   id: ProtolatheHyperConvection
   parent: [Protolathe, BaseHyperlathe]
-  name: "гіперконвекційний протолат"
-  description: "Високоекспериментальний протолат, який використовує потужність надзвичайного тепла для повільного та більш економічно ефективного створення об'єктів."
+  name: hyper convection protolathe
+  description: A highly-experimental protolathe that harnesses the power of extreme heat to slowly create objects more cost-effectively.
   components:
   - type: Sprite
     sprite: Structures/Machines/protolathe_hypercon.rsi
@@ -493,8 +493,8 @@
 - type: entity
   id: CircuitImprinter
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: "друкар плат"
-  description: "Друкує плати для механізмів."
+  name: circuit imprinter
+  description: Prints circuit boards for machines.
   components:
   - type: Sprite
     sprite: Structures/Machines/circuit_imprinter.rsi
@@ -657,8 +657,8 @@
 - type: entity
   id: CircuitImprinterHyperConvection
   parent: [CircuitImprinter, BaseHyperlathe]
-  name: "гіперконвекційний друкар плат"
-  description: "Високоекспериментальний друкар плат, який використовує потужність надзвичайного тепла для повільного та більш економічно ефективного створення об'єктів."
+  name: hyper convection circuit imprinter
+  description: A highly-experimental circuit imprinter that harnesses the power of extreme heat to slowly create objects more cost-effectively.
   components:
   - type: Sprite
     sprite: Structures/Machines/circuit_imprinter_hypercon.rsi
@@ -668,8 +668,8 @@
 - type: entity
   id: ExosuitFabricator
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: "фабрикатор екзокостюмів"
-  description: "Створює деталі для робототехніки та інших механічних потреб"
+  name: exosuit fabricator
+  description: Creates parts for robotics and other mechanical needs
   components:
   - type: Sprite
     sprite: Structures/Machines/exosuit_fabricator.rsi
@@ -850,8 +850,8 @@
 - type: entity
   id: Biofabricator
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
-  name: "біофабрикатор"
-  description: "Виробляє куби тварин, використовуючи біомасу."
+  name: biofabricator
+  description: Produces animal cubes using biomass.
   components:
   - type: Sprite
     sprite: Structures/Machines/biofabricator.rsi
@@ -902,8 +902,8 @@
 - type: entity
   id: SecurityTechFab
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: "техфаб служби безпеки"
-  description: "Друкує обладнання для використання службою безпеки."
+  name: security techfab
+  description: Prints equipment for use by security crew.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -1199,8 +1199,8 @@
 - type: entity
   id: AmmoTechFab
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: "техфаб боєприпасів"
-  description: "Друкує мінімально необхідну кількість набоїв, яка може знадобитися будь-якій бюджетній армії чи зброярні. Нічого особливого."
+  name: ammo techfab
+  description: Prints the bare minimum of bullets that any budget military or armory could need. Nothing fancy.
   components:
     - type: Sprite
       sprite: Structures/Machines/techfab.rsi
@@ -1279,8 +1279,8 @@
 - type: entity
   id: MedicalTechFab
   parent: [BaseLatheLube, BaseMaterialSiloUtilizer]
-  name: "медичний техфаб"
-  description: "Друкує обладнання для використання медблоком."
+  name: medical techfab
+  description: Prints equipment for use by the medbay.
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -1380,8 +1380,8 @@
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
   id: UniformPrinter
-  name: "принтер уніформ"
-  description: "Друкує нову або запасну уніформу."
+  name: uniform printer
+  description: Prints new or replacement uniforms.
   components:
   - type: Transform
     noRot: false
@@ -1609,8 +1609,8 @@
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
   id: OreProcessor
-  name: "переробник руди"
-  description: "Виробляє листи та злитки, використовуючи руди."
+  name: ore processor
+  description: It produces sheets and ingots using ores.
   components:
   - type: Sprite
     sprite: Structures/Machines/ore_processor.rsi
@@ -1668,8 +1668,8 @@
 - type: entity
   parent: OreProcessor
   id: OreProcessorIndustrial
-  name: "промисловий переробник руди"
-  description: "Переробник руди, спеціально розроблений для масового виробництва металів у промислових цілях."
+  name: industrial ore processor
+  description: An ore processor specifically designed for mass-producing metals in industrial applications.
   components:
   - type: Sprite
     sprite: Structures/Machines/ore_processor_industrial.rsi
@@ -1682,8 +1682,8 @@
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
   id: Sheetifier
-  name: "листороб-2000"
-  description: "Та ще листова машина."
+  name: sheet-meister 2000
+  description: A very sheety machine.
   components:
   - type: Sprite
     sprite: Structures/Machines/sheetifier.rsi
@@ -1713,8 +1713,8 @@
 - type: entity
   parent: [BaseLathe, BaseMaterialSiloUtilizer]
   id: PrizeCounter
-  name: "прилавок з призами"
-  description: "Заберіть свій приз та виграйте іграшки та милі плюшеві іграшки!"
+  name: prize counter
+  description: Claim your prize and win some toys and cute plushies!
   components:
   - type: AmbientOnPowered
   - type: AmbientSound

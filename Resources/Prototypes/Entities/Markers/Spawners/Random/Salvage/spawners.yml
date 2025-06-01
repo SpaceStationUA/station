@@ -31,7 +31,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerScrapCommon
-  name: "Точка появи звичайного брухту"
+  name: Salvage Scrap Spawner
   suffix: Common, 50%
   components:
   - type: Sprite
@@ -92,7 +92,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerScrapValuable
-  name: "Точка появи звичайного брухту"
+  name: Salvage Scrap Spawner
   suffix: Valuable, 50%
   components:
   - type: Sprite
@@ -168,7 +168,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerTreasure
-  name: "Точка появи скарбів"
+  name: Salvage Treasure Spawner
   suffix: Common, 75%
   components:
   - type: Sprite
@@ -238,7 +238,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerTreasureValuable
-  name: "Точка появи скарбів"
+  name: Salvage Treasure Spawner
   suffix: Valuable, 75%
   components:
   - type: Sprite
@@ -297,7 +297,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerEquipment
-  name: "Точка появи обладнання"
+  name: Salvage Equipment Spawner
   suffix: Common, 75%
   components:
   - type: Sprite
@@ -362,7 +362,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerEquipmentValuable
-  name: "Точка появи обладнання"
+  name: Salvage Equipment Spawner
   suffix: Valuable, 75%
   components:
   - type: Sprite
@@ -379,7 +379,7 @@
 - type: entity
   parent: MarkerBase
   id: SalvageSpawnerMobMiningAsteroid
-  name: "Точка появи мобів на гірничому астероїді"
+  name: Mining Asteroid Mob Spawner
   components:
   - type: Sprite
     layers:

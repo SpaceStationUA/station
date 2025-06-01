@@ -32,7 +32,7 @@
 # Delta V variants of Xenos to allow ghost takeover again
 
 - type: entity
-  name: "Нюхач"
+  name: Burrower
   id: MobXenoPlayer
   parent: MobXeno
   suffix: Player
@@ -47,7 +47,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: "Преторіанський"
+  name: Praetorian
   parent: MobXenoPraetorianNPC
   id: MobXenoPraetorian
   suffix: Player
@@ -62,7 +62,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: "Дрон"
+  name: Drone
   parent: MobXenoDroneNPC
   id: MobXenoDrone
   suffix: Player
@@ -77,7 +77,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: "Королева"
+  name: Queen
   parent: MobXenoQueenNPC
   id: MobXenoQueen
   suffix: Player
@@ -92,7 +92,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: "Ravager"
+  name: Ravager
   parent: MobXenoRavagerNPC
   id: MobXenoRavager
   suffix: Player
@@ -107,7 +107,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: "Бігун"
+  name: Runner
   parent: MobXenoRunnerNPC
   id: MobXenoRunner
   suffix: Player
@@ -122,7 +122,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: "Руні"
+  name: Rouny
   parent: MobXenoRounyNPC
   id: MobXenoRouny
   components:
@@ -136,7 +136,7 @@
   - type: GhostTakeoverAvailable
 
 - type: entity
-  name: "Спіттер"
+  name: Spitter
   parent: MobXenoSpitterNPC
   id: MobXenoSpitter
   suffix: Player

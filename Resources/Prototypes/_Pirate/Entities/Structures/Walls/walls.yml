@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseWall
   id: WallBackroomsIndestructible
-  name: "стіна підсобки"
+  name: backrooms wall
   suffix: Геловін
   components:
     - type: Tag
@@ -19,10 +19,10 @@
 - type: entity
   id: BaseFalseWallUnWeldable # To prevent welding of wooden/meat/plastic false walls
   parent: BaseStructure
-  name: "суцільна стіна" # No meta
+  name: solid wall # No meta
   suffix: false wall
   abstract: true
-  description: "Утримує повітря всередині та грейтайдів зовні."
+  description: Keeps the air in and the greytide out.
   components:
   - type: Sprite
     # sprite: _Goobstation/Structures/Walls/false_walls/false_wall.rsi
@@ -86,7 +86,7 @@
 
 - type: entity
   id: BackroomsFalseWall
-  name: "стіна підсобки"
+  name: backrooms wall
   suffix: Геловін
   parent: BaseFalseWallUnWeldable
   components:
@@ -99,9 +99,9 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallAbductorJaggedShort
-  name: "Зубчаста діагональна стінка абдуктора (КОРОТКА)"
+  name: Jagged Diagonal Abductor Wall (SHORT)
   suffix: "diagonal, абдуктор"
-  description: "Таємнича стіна невідомого походження"
+  description: A mysterious wall of unknown origin
   placement:
     mode: SnapgridCenter
     snap:
@@ -121,9 +121,9 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallAbductorJagged
-  name: "Зубчаста діагональна стінка абдуктора"
+  name: Jagged Diagonal Abductor Wall
   suffix: "diagonal, абдуктор"
-  description: "Таємнича стіна невідомого походження"
+  description: A mysterious wall of unknown origin
   placement:
     mode: SnapgridCenter
     snap:
@@ -143,9 +143,9 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallAbductorJaggedShortFL
-  name: "Зубчаста діагональна стінка абдуктора (ШОРСТКОПОВЕРНУТА)"
+  name: Jagged Diagonal Abductor Wall (SHORT-FLIPPED)
   suffix: "diagonal, абдуктор"
-  description: "Таємнича стіна невідомого походження"
+  description: A mysterious wall of unknown origin
   placement:
     mode: SnapgridCenter
     snap:
@@ -165,9 +165,9 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallAbductorHalf
-  name: "Напівстіна викрадача"
+  name: Abductor Half Wall
   suffix: "diagonal, абдуктор"
-  description: "Таємнича стіна невідомого походження"
+  description: A mysterious wall of unknown origin
   placement:
     mode: SnapgridCenter
     snap:
@@ -187,9 +187,9 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallAbductorHalfCorner
-  name: "Напівстінний куточок Abductor"
+  name: Abductor Half Wall Corner
   suffix: diagonal
-  description: "Таємнича стіна невідомого походження"
+  description: A mysterious wall of unknown origin
   placement:
     mode: SnapgridCenter
     snap:
@@ -209,9 +209,9 @@
 - type: entity
   parent: WallShuttleDiagonal
   id: WallAbductorHalfCornerFlip
-  name: "Кут настінний (FLIPPED)"
+  name: Abductor Half Wall Corner (FLIPPED)
   suffix: "diagonal, абдуктор"
-  description: "Таємнича стіна невідомого походження"
+  description: A mysterious wall of unknown origin
   placement:
     mode: SnapgridCenter
     snap:

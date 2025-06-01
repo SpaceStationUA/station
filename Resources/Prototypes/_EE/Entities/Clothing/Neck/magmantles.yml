@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseIntegratedMagboot]
   id: ClothingNeckMantleMag
-  name: "магмантія"
-  description: "Винайдена динамічним дуетом гарпій, ця мантія створює локалізоване гравітаційне поле, забезпечуючи ефект магчеревиків без самих черевиків! Однак, через гравітаційне поле важко рухатися, що робить магнітну мантію дещо гіршою за свого попередника. Проте, вона має вовняну підкладку. Затишно!"
+  name: magmantle
+  description: Invented by a dynamic duo of harpies, this mantle creates a localized gravity field, enabling the effects of magboots without the boot! However, the gravity field is cumbersome to move through, making the magnetic mantle somewhat inferior to its predecessor. However, it does come with a wool lining. Cozy!
   components:
   - type: Sprite
     sprite: _EE/Clothing/Neck/Mantles/magmantle.rsi
@@ -30,8 +30,8 @@
 
 - type: entity
   id: ActionToggleMagmantle
-  name: "Перемкнути Магмантію"
-  description: "Вмикає та вимикає особисте гравітаційне поле."
+  name: Toggle Magmantle
+  description: Toggles the personal gravity field on and off.
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

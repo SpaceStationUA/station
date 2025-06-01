@@ -1,7 +1,7 @@
 - type: entity
   id: CargoPallet
-  name: "вантажний піддон"
-  description: "Звичний атрибут логістики та вантажу. Непомітне нагадування, куди ставити ящики під час транспортування, щоб уникнути синців на гомілках."
+  name: cargo pallet
+  description: Common fixture of logistics and cargo. Subtle reminder where crates go during transport to avoid bruised shins.
   parent: BaseStructure
   components:
   - type: InteractionOutline
@@ -57,8 +57,8 @@
 
 - type: entity
   id: CargoPalletSell
-  name: "піддон для продажу вантажу"
-  description: "Позначає дійсні товари для продажу."
+  name: cargo selling pallet
+  description: Designates valid items to sell.
   parent: CargoPallet
   components:
   - type: CargoPallet
@@ -75,8 +75,8 @@
 
 - type: entity
   id: CargoPalletBuy
-  name: "палета для купівлі вантажу"
-  description: "Вказує, де з'являтимуться замовлення після покупки."
+  name: cargo buying pallet
+  description: Designates where orders will appear when purchased.
   parent: CargoPallet
   components:
   - type: CargoPallet

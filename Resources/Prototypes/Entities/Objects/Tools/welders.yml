@@ -1,8 +1,8 @@
 - type: entity
-  name: "зварювальний інструмент"
+  name: welding tool
   parent: BaseItem
   id: Welder
-  description: "Розплавляє все, що завгодно, якщо воно заправлене паливом, не забудьте захисні окуляри!"
+  description: "Melts anything as long as it's fueled, don't forget your eye protection!"
   components:
   - type: EmitSoundOnPickup
     sound: /Audio/SimpleStation14/Items/Handling/welder_pickup.ogg
@@ -147,10 +147,10 @@
         friction: 0.2
 
 - type: entity
-  name: "промисловий зварювальний інструмент"
+  name: industrial welding tool
   parent: Welder
   id: WelderIndustrial
-  description: "Промисловий зварювальний апарат з більш ніж удвічі більшим запасом палива."
+  description: "An industrial welder with over double the fuel capacity."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_industrial.rsi
@@ -176,10 +176,10 @@
         friction: 0.2
 
 - type: entity
-  name: "передовий промисловий зварювальний інструмент"
+  name: advanced industrial welding tool
   parent: WelderIndustrial
   id: WelderIndustrialAdvanced
-  description: "Удосконалений промисловий зварювальний апарат з більш ніж п'ятикратним запасом палива та більш гарячим полум'ям."
+  description: "An advanced industrial welder with over five times the fuel capacity and a hotter flame."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_industrialadv.rsi
@@ -196,10 +196,10 @@
     speedModifier: 1.5
 
 - type: entity
-  name: "експериментальний зварювальний інструмент"
+  name: experimental welding tool
   parent: Welder
   id: WelderExperimental
-  description: "Експериментальний зварювальний апарат, який менш шкідливий для очей, має більш гаряче полум'я і повільно регенерує паливо."
+  description: "An experimental welder that is less harmful to the eyes while having a hotter flame and slowly regenerating fuel."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_experimental.rsi
@@ -237,10 +237,10 @@
         friction: 0.2
 
 - type: entity
-  name: "аварійний зварювальний інструмент"
+  name: emergency welding tool
   parent: Welder
   id: WelderMini
-  description: "Мініатюрний зварювальний апарат, що використовується під час надзвичайних ситуацій."
+  description: "A miniature welder used during emergencies."
   components:
   - type: Sprite
     sprite: Objects/Tools/welder_mini.rsi

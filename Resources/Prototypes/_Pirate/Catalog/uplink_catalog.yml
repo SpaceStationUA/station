@@ -1,7 +1,7 @@
 - type: listing
   id: UplinkRatvarianSpear
-  name: "Спис Ратвара"
-  description: "Спис давнього культу Ратвара, знайдений архіологами Синдикату"
+  name: Спис Ратвара
+  description: Спис давнього культу Ратвара, знайдений архіологами Синдикату
   productEntity: RatvarianSpear
   cost:
     Telecrystal: 30
@@ -14,8 +14,8 @@
 
 - type: listing
   id: UplinkMobSyndicateMothroachMicrobomb
-  name: "тарганоміль синдикату"
-  description: "Мотильок з імплантом мікробомби."
+  name: Синдикатський мотильок
+  description: Мотильок з імплантом мікробомби.
   icon: { sprite: /Textures/_Pirate/Entities/Mobs/Animals/syndiemothroach.rsi, state: syndiemothroach }
   productEntity: MobSyndicateMothroach
   cost:
@@ -47,8 +47,8 @@
 
 - type: listing
   id: UplinkMiamiBundle
-  name: "ім'я-майамі"
-  description: "майамі-опис"
+  name: miami-name
+  description: miami-desc
   productEntity: CrateSyndicateMiamiBundle
   icon: { sprite: DeltaV/Clothing/Head/Misc/tony.rsi, state: icon }
   cost:
@@ -67,8 +67,8 @@
 
 - type: listing
   id: UplinkСQСBundle
-  name: "Набір ближнього бою"
-  description: "Містить бойовий костюм Горлекса, та інші речі для елітного оперативника що розраховує на ближній бій"
+  name: Набір ближнього бою
+  description: Містить бойовий костюм Горлекса, та інші речі для елітного оперативника що розраховує на ближній бій
   icon: { sprite: /Textures/_Pirate/Clothing/OuterClothing/Armor/syndie_oper.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledCQC
   cost:
@@ -98,8 +98,8 @@
 
 - type: listing
   id: UplinkHoverBikeSyndie
-  name: "ховербайк"
-  description: "ховербайк"
+  name: hoverbike
+  description: hoverbike
   productEntity: HoverbikeSyndicateFlatpack
   cost:
     Telecrystal: 50
