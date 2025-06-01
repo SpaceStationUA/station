@@ -1,0 +1,63 @@
+- type: marking
+  id: ReptilianEyebags
+  bodyPart: Face
+  markingCategory: Face
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
+    state: eyebags
+
+- type: marking
+  id: ReptilianEyebrowsBig
+  bodyPart: Face
+  markingCategory: Face
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
+    state: eyebrowsthick
+
+- type: marking
+  id: ReptilianEyebrowsBigger
+  bodyPart: Face
+  markingCategory: Face
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
+    state: eyebrowsultra
+
+- type: marking
+  id: ReptilianEyebrowsUnibrow
+  bodyPart: Face
+  markingCategory: Face
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
+    state: eyebrowsunibrow
+
+- type: marking
+  id: ReptilianTattooEyeRight
+  bodyPart: Eyes
+  markingCategory: Face
+  speciesRestriction: [Reptilian] # Delta V - Felinid, Oni, Harpy
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+          negative: true
+  sprites:
+  - sprite: Mobs/Customization/tattoos.rsi
+    state: tattoo_eye_r
+
+- type: marking
+  id: ReptilianTattooEyeLeft
+  bodyPart: Eyes
+  markingCategory: Face
+  speciesRestriction: [Reptilian] # Delta V - Felinid, Oni, Harpy
+  coloring:
+    default:
+      type:
+        !type:EyeColoring
+          negative: true
+  sprites:
+  - sprite: Mobs/Customization/tattoos.rsi
+    state: tattoo_eye_l
