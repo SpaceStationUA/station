@@ -3,8 +3,8 @@
 - type: entity
   parent: ToggleNightVision
   id: ActionThrallDarksight
-  name: Thrall Darksight
-  description: See through the darkness.
+  name: "Темний Зір Поневоленого"
+  description: "Бачити крізь темряву."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction
@@ -14,8 +14,8 @@
 
 - type: entity
   id: ActionGuise
-  name: Guise
-  description: Become invisible in the darkness.
+  name: "Маскування"
+  description: "Стати невидимим у темряві."
   categories: [ HideSpawnMenu ]
   components:
   - type: InstantAction

@@ -1,8 +1,8 @@
 - type: entity
-  name: energy sword
+  name: "енергетичний меч"
   parent: BaseItem
   id: EnergySword
-  description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
+  description: "Дуже гучний і небезпечний меч з променем з чистої, концентрованої плазми. Розсікає неброньовані цілі як масло."
   components:
   - type: EnergySword
   - type: ItemToggle
@@ -103,10 +103,10 @@
         variation: 0.250
 
 - type: entity
-  name: antique energy sword
+  name: "антикварний енергетичний меч"
   parent: EnergySword
   id: EnergySwordHoS
-  description: An elegant weapon fit for a prince, this otherwise plain silver hilt is engraved with, "My Love".
+  description: "Елегантна зброя, гідна принца, на звичайному срібному руків'ї якої викарбувано: \"Моя любов\"."
   components:
     - type: EnergySword
       activatedColor: "#00CCFF"
@@ -116,11 +116,11 @@
       stealGroup: HoSAntiqueWeapon
 
 - type: entity
-  name: pen
+  name: "ручка"
   parent: EnergySword
   id: EnergyDagger
   suffix: E-Dagger
-  description: 'A dark ink pen.'
+  description: "Ручка з темним чорнилом."
   components:
   - type: ItemToggle
     soundActivate:
@@ -212,9 +212,9 @@
 - type: entity
   parent: BaseItem
   id: EnergyDaggerBox
-  name: e-dagger box
+  name: "коробка для електронних кинджалів"
   suffix: E-Dagger
-  description: A small box containing an e-dagger. Packaging disintegrates when opened, leaving no evidence behind.
+  description: "Невеличка коробочка з електронним кинджалом. Упаковка розпадається при відкритті, не залишаючи жодних доказів."
   components:
   - type: Item
     size: Tiny
@@ -228,10 +228,10 @@
       path: /Audio/Effects/unwrap.ogg
 
 - type: entity
-  name: energy cutlass
+  name: "енергетичний меч"
   parent: EnergySword
   id: EnergyCutlass
-  description: An exotic energy weapon, brutal blade crackling with crudely harnessed plasma. #DeltaV - nicer description.
+  description: "Екзотична енергетична зброя, брутальне лезо, що потріскує грубо приборканою плазмою." #DeltaV - nicer description.
   components:
   - type: ItemToggleMeleeWeapon
     activatedDamage:
@@ -269,10 +269,10 @@
         shader: unshaded
 
 - type: entity
-  name: energy cutlass
+  name: "енергетичний меч"
   parent: EnergyCutlass
   id: EnergyCutlassSecurity
-  description: A sleek energy weapon, its blade hums with volatile plasma, expertly contained to cut through nearly any material. The serial number on the hilt marks this gun as belonging to an NT Security Officer. # how do I make the text blue
+  description: "Витончена енергетична зброя, її лезо дзвенить летючою плазмою, майстерно сконцентрованою для того, щоб прорізати майже будь-який матеріал. Серійний номер на руків'ї вказує на те, що ця зброя належить офіцеру служби безпеки NT." # how do I make the text blue
   suffix: Security Loadouts
   components:
   - type: MeleeWeapon
@@ -287,10 +287,10 @@
     guides: [ SecurityWeapons ]
 
 - type: entity
-  name: double-bladed energy sword
+  name: "двосторонній енергетичний меч"
   parent: EnergySword
   id: EnergySwordDouble
-  description: Syndicate Command's intern thought that having only one blade on energy swords was not cool enough. This can be stored in pockets.
+  description: "Стажер Командування Синдикату вважав, що мати лише одне лезо на енергетичному мечі - недостатньо круто. Його можна зберігати в кишенях."
   components:
   - type: ItemToggle
     onUse: false # wielding events control it instead

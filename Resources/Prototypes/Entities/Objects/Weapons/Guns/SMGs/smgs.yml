@@ -1,8 +1,8 @@
 - type: entity
-  name: BaseSMG
+  name: "BaseSMG"
   parent: BaseItem
   id: BaseWeaponSubMachineGun
-  description: A rooty tooty point and shooty.
+  description: "Корінцевий зубастий і пагонистий."
   abstract: true
   components:
   - type: Sprite
@@ -83,10 +83,10 @@
     # PIRATE END
 
 - type: entity
-  name: Atreides
+  name: "Атрейдс"
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunAtreides
-  description: Pla-ket-ket-ket-ket! Uses .35 auto ammo.
+  description: "Пла-кет-кет-кет-кет-кет! Використовує автоматичні набої 35-го калібру."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
@@ -107,10 +107,10 @@
   - type: Appearance
 
 - type: entity
-  name: C-20r sub machine gun
+  name: "Пістолет-кулемет C-20r"
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable]
   id: WeaponSubMachineGunC20r
-  description: Manufactured by Cybersun-Armaments, the C-20r is one of the most popular personal small-arms in the Coalition of Colonies. Uses .35 auto ammo.
+  description: "С-20r, вироблений компанією Cybersun-Armaments, є однією з найпопулярніших особистих стрілецьких рушниць в Коаліції Колоній. Використовує автоматичні набої калібру .35."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
@@ -146,10 +146,10 @@
   - type: Appearance
 
 - type: entity
-  name: C-20r sub machine gun
+  name: "Пістолет-кулемет C-20r"
   parent: [WeaponSubMachineGunC20r]
   id: WeaponSubMachineGunC20rEmpty
-  description: Manufactured by Cybersun-Armaments, the C-20r is one of the most popular personal small-arms in the Coalition of Colonies. Uses .35 auto ammo.
+  description: "С-20r, вироблений компанією Cybersun-Armaments, є однією з найпопулярніших особистих стрілецьких рушниць в Коаліції Колоній. Використовує автоматичні набої калібру .35."
   components:
   - type: ItemSlots
     slots:
@@ -171,19 +171,19 @@
             - CartridgePistol
 
 - type: entity
-  name: antique C-20r submachine gun
+  name: "антикварний пістолет-кулемет С-20r"
   parent: WeaponSubMachineGunC20r
   id: WeaponSubMachineGunC20rHoS
-  description: This heavily worn submachine gun is engraved with the words, "Remember Mars".
+  description: "На цьому сильно зношеному пістолеті-кулеметі викарбувано слова: \"Пам'ятай про Марс\"."
   components:
     - type: StealTarget
       stealGroup: HoSAntiqueWeapon
 
 - type: entity
-  name: Drozd
+  name: "Дрозд"
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunDrozd
-  description: An excellent fully automatic Heavy SMG.
+  description: "Чудовий повністю автоматичний важкий кулемет Heavy SMG."
   components:
     - type: Sprite
       sprite: Objects/Weapons/Guns/SMGs/drozd.rsi
@@ -283,10 +283,10 @@
 #  - type: Appearance
 
 - type: entity
-  name: WT550
+  name: "WT550"
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunWt550
-  description: An excellent SMG, produced by NanoTrasen's Small Arms Division. Uses .35 auto ammo.
+  description: "Відмінний SMG, вироблений підрозділом стрілецької зброї компанії NanoTrasen. Використовує автомобільні набої калібру .35."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
@@ -345,10 +345,10 @@
   - type: Appearance
 
 - type: entity
-  name: antique Wt550
+  name: "антикварний WT550"
   id: WeaponSubMachineGunWt550HoS
   parent: WeaponSubMachineGunWt550
-  description: A prized possession of the station's Head of Security. The smell of dried blood lingers on this weapon's muzzle. A small torch with 24 stars surrounding it has been engraved on the grip.
+  description: "Цінна річ голови безпеки. Запах засохлої крові зберігається на дулі цієї зброї. На руків'ї викарбувано маленький факел з 24 зірками навколо нього."
   components:
     - type: StealTarget
       stealGroup: HoSAntiqueWeapon
@@ -356,7 +356,7 @@
 
 # Rubber
 - type: entity
-  name: Drozd
+  name: "Дрозд"
   parent: WeaponSubMachineGunDrozd
   id: WeaponSubMachineGunDrozdRubber
   suffix: Non-Lethal

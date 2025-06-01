@@ -47,7 +47,7 @@
     stepOn: true
 
 - type: entity
-  name: kick mine
+  name: "вдарити міну"
   parent: BaseLandMine
   id: LandMineKick
   components:
@@ -55,8 +55,8 @@
   - type: DeleteOnTrigger
 
 - type: entity
-  name: modular mine
-  description: This bad boy could be packing any number of dangers. Or a bike horn.
+  name: "модульна міна"
+  description: "Цей поганець може приховувати в собі безліч небезпек. Або велосипедний клаксон."
   parent: BaseLandMine
   id: LandMineModular
   components:
@@ -66,7 +66,7 @@
     node: emptyCase
 
 - type: entity
-  name: explosive mine
+  name: "вибухонебезпечна міна"
   parent: BaseLandMine
   id: LandMineExplosive
   components:

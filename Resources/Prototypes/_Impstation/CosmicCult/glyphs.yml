@@ -1,7 +1,7 @@
 - type: entity
   id: CosmicGlyphBase
-  name: base glyph
-  description: A strange, otherworldly marking.
+  name: "базовий гліф"
+  description: "Дивне, потойбічне маркування."
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -30,7 +30,7 @@
 - type: entity
   parent: CosmicGlyphBase
   id: CosmicGlyphTruth
-  name: Glyph of Truth
+  name: "Гліф Істини"
   components:
   - type: Sprite
     sprite: _Impstation/CosmicCult/Objects/glyphs_floor.rsi
@@ -47,7 +47,7 @@
 - type: entity
   parent: CosmicGlyphBase
   id: CosmicGlyphKnowledge
-  name: Glyph of Knowledge
+  name: "Гліф Знання"
   components:
   - type: Sprite
     sprite: _Impstation/CosmicCult/Objects/glyphs_floor.rsi
@@ -63,7 +63,7 @@
 - type: entity
   parent: CosmicGlyphBase
   id: CosmicGlyphCessation
-  name: Glyph of Cessation
+  name: "Гліф Припинення"
   components:
   - type: Sprite
     layers:
@@ -79,7 +79,7 @@
 - type: entity
   parent: CosmicGlyphBase
   id: CosmicGlyphBlades
-  name: Glyph of Blades
+  name: "Гліф Клинків"
   components:
   - type: Sprite
     sprite: _Impstation/CosmicCult/Objects/glyphs_floor.rsi
@@ -95,7 +95,7 @@
 - type: entity
   parent: CosmicGlyphBase
   id: CosmicGlyphWarding
-  name: Glyph of Warding
+  name: "Гліф Захисту"
   components:
   - type: Sprite
     sprite: _Impstation/CosmicCult/Objects/glyphs_floor.rsi
@@ -111,7 +111,7 @@
 - type: entity
   parent: CosmicGlyphBase
   id: CosmicGlyphProjection
-  name: Glyph of Projection
+  name: "Гліф Проєкції"
   components:
   - type: Sprite
     sprite: _Impstation/CosmicCult/Objects/glyphs_floor.rsi

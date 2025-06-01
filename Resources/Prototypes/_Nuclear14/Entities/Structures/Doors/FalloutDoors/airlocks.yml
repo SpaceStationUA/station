@@ -1,8 +1,8 @@
 - type: entity
   id: N14Airlock
   parent: Airlock
-  name: bunker door
-  description: It opens, it closes, it might crush you, and there might be only radiation and monsters behind it. Has to be manually activated.
+  name: "двері бункера"
+  description: "Він відкривається, закривається, може розчавити вас, а за ним може бути лише радіація та монстри. Активується вручну."
   abstract: true
   components:
   - type: Door

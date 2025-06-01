@@ -3,8 +3,8 @@
 - type: entity
   id: N14FreeTableBase # Base off this for metal tables
   parent: BaseStructure
-  name: table
-  description: A square piece of metal standing on four metal legs.
+  name: "таблиця"
+  description: "Квадратний шматок металу, що стоїть на чотирьох металевих ніжках."
   abstract: true
   components:
   - type: Damageable
@@ -60,9 +60,9 @@
 - type: entity
   parent: N14TableMetalRound
   id: N14TableMetalRoundDirty
-  name: round table
+  name: "круглий стіл"
   suffix: dirty
-  description: A round metal table. Prison like.
+  description: "Круглий металевий стіл. Як у в'язниці."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: N14FreeTableBase
   id: N14TableDeskSchool
-  name: end table
-  description: A wooden end table.
+  name: "приставний столик"
+  description: "Дерев'яний торцевий столик."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: N14TableDeskSchool
   id: N14TableWoodEnd
-  name: end table
-  description: A wooden end table.
+  name: "приставний столик"
+  description: "Дерев'яний торцевий столик."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -113,8 +113,8 @@
 - type: entity
   parent: N14TableWoodSquare
   id: N14TableWoodRound
-  name: wooden table
-  description: A wooden round table.
+  name: "дерев'яний стіл"
+  description: "Дерев'яний круглий стіл."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: N14TableDeskSchool
   id: N14TableWoodSquare
-  name: wooden table
-  description: A wooden square table.
+  name: "дерев'яний стіл"
+  description: "Дерев'яний квадратний стіл."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: N14TableWoodSquare
   id: N14TableWoodLow
-  name: wooden table
-  description: A low wooden square table.
+  name: "дерев'яний стіл"
+  description: "Низький дерев'яний квадратний стіл."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: N14TableWoodSquare
   id: N14TableWoodCabledrum
-  name: cable drum
-  description: A convenient table.
+  name: "кабельний барабан"
+  description: "Зручний стіл."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -172,8 +172,8 @@
 - type: entity
   parent: N14TableWoodSquare
   id: N14TableCasinoDice
-  name: dice table
-  description: A table for playing dice games.
+  name: "гральний стіл"
+  description: "Стіл для гри в кості."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/tables.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: N14FreeTableBase
   id: N14TableDeskMetal
-  name: metal desk
-  description: A metal desk for working at. Sturdy.
+  name: "металевий стіл"
+  description: "Металевий стіл для роботи. Міцний."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/desks.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: N14TableDeskSchool
   id: N14TableDeskWood
-  name: wooden desk
-  description: A wooden desk for working at.
+  name: "дерев'яний стіл"
+  description: "Дерев'яний стіл для роботи."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/desks.rsi
@@ -271,8 +271,8 @@
 - type: entity
   parent: N14TableDeskWood
   id: N14TableCasinoCards
-  name: cards table
-  description: A fancy table for playing cards at.
+  name: "картковий стіл"
+  description: "Вишуканий стіл для гри в карти."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -281,8 +281,8 @@
 - type: entity
   parent: N14TableCasinoCards
   id: N14TableCasinoPool
-  name: pool table
-  description: A fancy table for playing pool at.
+  name: "більярдний стіл"
+  description: "Модний стіл для гри в більярд."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -291,8 +291,8 @@
 - type: entity
   parent: N14TableCasinoCards
   id: N14TableWoodenOvalWide
-  name: wooden table
-  description: An oval table made from wood.
+  name: "дерев'яний стіл"
+  description: "Овальний стіл з дерева."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -301,8 +301,8 @@
 - type: entity
   parent: N14TableCasinoCards
   id: N14TableWoodenSquareWide
-  name: wooden table
-  description: A wide square table made from wood.
+  name: "дерев'яний стіл"
+  description: "Широкий квадратний стіл з дерева."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -311,8 +311,8 @@
 - type: entity
   parent: N14TableCasinoCards
   id: N14TableMetalWide
-  name: metal table
-  description: A wide metal table.
+  name: "металевий стіл"
+  description: "Широкий металевий стіл."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/64x64_furniture.rsi
@@ -322,7 +322,7 @@
 - type: entity
   parent: N14TableDeskSchool
   id: N14TableCounter
-  name: wooden counter
+  name: "дерев'яна стійка"
   suffix: full
   components:
   - type: Sprite
@@ -370,7 +370,7 @@
 - type: entity
   parent: N14TableCounter
   id: N14TableCounterCraft
-  description: This counter looks like scrap.
+  description: "Цей прилавок схожий на металобрухт."
   suffix: craft full
   components:
   - type: Sprite
@@ -407,8 +407,8 @@
 - type: entity
   parent: N14FreeTableBase
   id: N14TableCounterMetal
-  name: metal counter
-  description: A cold, hard metal counter.
+  name: "металевий прилавок"
+  description: "Холодний, твердий металевий прилавок."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/counters.rsi
@@ -456,8 +456,8 @@
 - type: entity
   id: N14TableMetalGrate
   parent: Table
-  name: metal table
-  description: A cold handmade metal table made from grating.
+  name: "металевий стіл"
+  description: "Холодний металевий стіл ручної роботи з решітки."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/metalgrate.rsi
@@ -470,8 +470,8 @@
 - type: entity
   id: N14TableWoodSettler
   parent: Table
-  name: wooden table
-  description: A wooden table used by settlers.
+  name: "дерев'яний стіл"
+  description: "Дерев'яний стіл, який використовували поселенці."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/table_settler.rsi
@@ -495,8 +495,8 @@
 - type: entity
   parent: TableWood
   id: N14TableCounterBar
-  name: bar counter
-  description: An alcohol stained bartop.
+  name: "барна стійка"
+  description: "Заплямована алкоголем барна стійка."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/Tables/barcounter.rsi

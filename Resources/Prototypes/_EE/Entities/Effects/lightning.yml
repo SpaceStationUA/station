@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseLightning
   id: SupermatterLightning
-  name: supermatter arc
+  name: "дуга надматерії"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
 - type: entity
   parent: SupermatterLightning
   id: SupermatterLightningCharged
-  name: charged supermatter arc
+  name: "дуга зарядженої надматерії"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -58,7 +58,7 @@
 - type: entity
   parent: SupermatterLightningCharged
   id: SupermatterLightningSupercharged
-  name: supercharged supermatter arc
+  name: "дуга з надлишковим зарядом надматерії"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

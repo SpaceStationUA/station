@@ -1,8 +1,8 @@
 - type: entity
-  name: eldritch blade
+  name: "лезо елдрича"
   parent: BaseItem
   id: EldritchBlade
-  description: A sword humming with unholy energy.
+  description: "Меч гуде нечистою енергією."
   components:
   - type: Sharp
   - type: Sprite
@@ -25,10 +25,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: unholy halberd
+  name: "нечестива алебарда"
   parent: BaseItem
   id: UnholyHalberd
-  description: A poleaxe that seems to be linked to its wielder.
+  description: "Посох, який, здається, пов'язаний з його власником."
   components:
   - type: Tag
     tags:

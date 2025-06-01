@@ -1,7 +1,7 @@
 - type: entity
   id: PartIPC
   parent: BaseItem
-  name: "ipc body part"
+  name: "частина тіла ІПШ"
   abstract: true
   components:
   - type: Damageable
@@ -36,7 +36,7 @@
 
 - type: entity
   id: TorsoIPC
-  name: "ipc torso"
+  name: "тулуб ІПШ"
   parent: PartIPC
   components:
   - type: Sprite
@@ -89,7 +89,7 @@
 
 - type: entity
   id: HeadIPC
-  name: "ipc head"
+  name: "голова ІПШ"
   parent: PartIPC
   components:
   - type: Sprite
@@ -118,7 +118,7 @@
 
 - type: entity
   id: LeftArmIPC
-  name: "left ipc arm"
+  name: "ліва рука ІПШ"
   parent: PartIPC
   components:
   - type: Sprite
@@ -138,7 +138,7 @@
 
 - type: entity
   id: RightArmIPC
-  name: "right ipc arm"
+  name: "права рука ІПШ"
   parent: PartIPC
   components:
   - type: Sprite
@@ -158,7 +158,7 @@
 
 - type: entity
   id: LeftHandIPC
-  name: "left ipc hand"
+  name: "ліва кисть ІПШ"
   parent: PartIPC
   components:
   - type: Sprite
@@ -174,7 +174,7 @@
 
 - type: entity
   id: RightHandIPC
-  name: "right ipc hand"
+  name: "права кисть ІПШ"
   parent: PartIPC
   components:
   - type: Sprite
@@ -190,7 +190,7 @@
 
 - type: entity
   id: LeftLegIPC
-  name: "left ipc leg"
+  name: "ліва нога ІПШ"
   parent: PartIPC
   components:
   - type: Sprite
@@ -211,7 +211,7 @@
 
 - type: entity
   id: RightLegIPC
-  name: "right ipc leg"
+  name: "права нога ІПШ"
   parent: PartIPC
   components:
   - type: Sprite
@@ -232,7 +232,7 @@
 
 - type: entity
   id: LeftFootIPC
-  name: "left ipc foot"
+  name: "ліва ступня ІПШ"
   parent: PartIPC
   components:
   - type: Sprite
@@ -248,7 +248,7 @@
 
 - type: entity
   id: RightFootIPC
-  name: "right ipc foot"
+  name: "права ступня ІПШ"
   parent: PartIPC
   components:
   - type: Sprite

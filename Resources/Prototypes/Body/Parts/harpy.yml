@@ -1,7 +1,7 @@
 - type: entity
   id: PartHarpy
   parent: BaseItem
-  name: "harpy body part"
+  name: "частина тіла гарпії"
   abstract: true
   components:
   - type: Damageable
@@ -56,7 +56,7 @@
 
 - type: entity
   id: TorsoHarpy
-  name: "harpy torso"
+  name: "торс гарпії"
   parent: PartHarpy
   components:
   - type: Sprite
@@ -107,7 +107,7 @@
 
 - type: entity
   id: HeadHarpy
-  name: "harpy head"
+  name: "голова гарпії"
   parent: PartHarpy
   components:
   - type: Sprite
@@ -131,7 +131,7 @@
 
 - type: entity
   id: LeftArmHarpy
-  name: "left harpy arm"
+  name: "ліва рука гарпії"
   parent: PartHarpy
   components:
   - type: Sprite
@@ -148,7 +148,7 @@
 
 - type: entity
   id: RightArmHarpy
-  name: "right harpy arm"
+  name: "права рука гарпії"
   parent: PartHarpy
   components:
   - type: Sprite
@@ -171,7 +171,7 @@
 
 - type: entity
   id: LeftHandHarpy
-  name: "left harpy hand"
+  name: "ліва долоня гарпії"
   parent: PartHarpy
   components:
   - type: Sprite
@@ -188,7 +188,7 @@
 
 - type: entity
   id: RightHandHarpy
-  name: "right harpy hand"
+  name: "права долоня гарпії"
   parent: PartHarpy
   components:
   - type: Sprite
@@ -205,7 +205,7 @@
 
 - type: entity
   id: LeftLegHarpy
-  name: "left harpy leg"
+  name: "ліва нога гарпії"
   parent: PartHarpy
   components:
   - type: Sprite
@@ -223,7 +223,7 @@
 
 - type: entity
   id: RightLegHarpy
-  name: "right harpy leg"
+  name: "права нога гарпії"
   parent: PartHarpy
   components:
   - type: Sprite
@@ -241,7 +241,7 @@
 
 - type: entity
   id: LeftFootHarpy
-  name: "left harpy foot"
+  name: "ліва стопа гарпії"
   parent: PartHarpy
   components:
   - type: Sprite
@@ -258,7 +258,7 @@
 
 - type: entity
   id: RightFootHarpy
-  name: "right harpy foot"
+  name: "права стопа гарпії"
   parent: PartHarpy
   components:
   - type: Sprite

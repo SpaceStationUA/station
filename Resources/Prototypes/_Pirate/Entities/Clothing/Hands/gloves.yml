@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsGlovesSyntheticBase
   id: ClothingHandsGlovesClockwork
-  name: clockwork gauntlets
-  description: Heavy gauntlets with brass reinforcement. #when clockcult is implemented it should say "Heavy, shock-resistant gauntlets with brass reinforcement"
+  name: "рукавиці з годинниковим механізмом"
+  description: "Важкі рукавиці з латунним армуванням." #when clockcult is implemented it should say "Heavy, shock-resistant gauntlets with brass reinforcement"
   components:
   - type: Sprite
     sprite: _Pirate/Clothing/Hands/Gloves/clockwork_gauntlets.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: [ ClothingHandsBase ]
   id: ClothingHandsSyndieCombat
-  name: close quaters potholders
-  description: The Gorlex and Waffle.CO heart of compact combat kit. These gloves have insulated blood-red coating with palm side especially covered in blue combat velctro squares for quick disarming attacks.
+  name: "закриті прихватки для прихваток"
+  description: "Серце компактного бойового набору Gorlex та Waffle.CO. Ці рукавички мають ізольоване криваво-червоне покриття з долонною стороною, спеціально вкритою синіми бойовими липучками для швидкого обеззброєння атак."
   components: # TO DO, somehow make disarming attack 100%
   - type: Sprite
     sprite: _Pirate/Clothing/Hands/Gloves/syndie_disarming_gloves.rsi

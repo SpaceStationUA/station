@@ -5,7 +5,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallStore
-  name: store wall
+  name: "стіна магазину"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/store.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: N14WallStore
   id: N14WallSuperstore
-  name: store wall
+  name: "стіна магазину"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/superstore.rsi
@@ -36,7 +36,7 @@
 - type: entity
   parent: N14WallStore
   id: N14WallBrick
-  name: brick wall
+  name: "цегляна стіна"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/brick.rsi
@@ -49,7 +49,7 @@
 - type: entity
   parent: N14WallStore
   id: N14WallConcreteLight
-  name: concrete wall
+  name: "бетонна стіна"
   suffix: light
   components:
   - type: Sprite
@@ -71,8 +71,8 @@
 - type: entity
   id: N14WallWoodFrame
   parent: Barricade
-  name: wooden wall Frame
-  description: A frame for building into a wall.
+  name: "дерев'яна стіна Рама"
+  description: "Рама для вбудовування в стіну."
   components:
   - type: Construction
     graph: N14WoodWall
@@ -100,7 +100,7 @@
 - type: entity
   parent: BaseWall
   id: N14WallWoodWhite
-  name: wooden wall
+  name: "дерев'яна стіна"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/woodwhite.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: N14WallWoodWhiteFrame
-  name: wall frame
-  description: Part of a wooden wall supporting the structure.
+  name: "каркас стіни"
+  description: "Частина дерев'яної стіни, що підтримує конструкцію."
   components:
   - type: Transform
     anchored: true
@@ -194,8 +194,8 @@
 - type: entity
   parent: N14WallWoodWhite
   id: N14WallWoodLog
-  name: log wall
-  description: A wall made out of wooden logs.
+  name: "дерев'яна стіна"
+  description: "Стіна з дерев'яних колод."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/woodlognew.rsi
@@ -212,8 +212,8 @@
 - type: entity
   parent: BaseWall
   id: N14WallTent
-  name: tent wall
-  description: A tent made from cloth. Keeps the weather out at least.
+  name: "стіна намету"
+  description: "Намет з тканини. Принаймні захищає від негоди."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/tent.rsi

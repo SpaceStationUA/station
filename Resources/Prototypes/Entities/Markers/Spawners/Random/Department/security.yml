@@ -1,6 +1,6 @@
 # Security 
 - type: entity
-  name: security loot spawner
+  name: "точка появи базового охоронного луту"
   suffix: Gear, Simple
   id: LootSpawnerSecurityBasic
   parent: MarkerBase
@@ -24,7 +24,7 @@
       chance: 0.85
 
 - type: entity
-  name: security loot spawner
+  name: "точка появи базового охоронного луту"
   suffix: Gear, Better
   id: LootSpawnerSecurity
   parent: MarkerBase
@@ -56,7 +56,7 @@
 # Armory loot spawner
 # Automatics are a complete mess right now, so the AK-MS And WT-550 have been commented out for consistency's sake. I have no idea what role these guns are supposed to fufill.
 - type: entity
-  name: armory loot spawner
+  name: "точка появи збройового луту"
   suffix: Guns, Armor
   id: LootSpawnerArmory
   parent: MarkerBase
@@ -94,7 +94,7 @@
       offset: 0.0
 
 - type: entity
-  name: armory loot spawner
+  name: "точка появи збройового луту"
   suffix: Guns
   id: LootSpawnerArmoryGunsOnly
   parent: MarkerBase
@@ -121,7 +121,7 @@
       offset: 0.0
 
 - type: entity
-  name: armory loot spawner
+  name: "точка появи збройового луту"
   suffix: Armor
   id: LootSpawnerArmoryArmorOnly
   parent: MarkerBase

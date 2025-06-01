@@ -1,6 +1,6 @@
 - type: entity
   id: TorsoShadowling
-  name: "Shadowling torso"
+  name: "Тулуб Тіньовика"
   parent: BaseTorso
   components:
   - type: Sprite
@@ -16,7 +16,7 @@
 
 - type: entity
   id: HeadShadowling
-  name: "Shadowling head"
+  name: "Голова Тіньовика"
   parent: BaseHead
   components:
   - type: Sprite
@@ -25,7 +25,7 @@
 
 - type: entity
   id: LeftArmShadowling
-  name: "left Shadowling arm"
+  name: "ліва рука Тіньовика"
   parent: BaseLeftArm
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 
 - type: entity
   id: RightArmShadowling
-  name: "right Shadowling arm"
+  name: "права рука Тіньовика"
   parent: BaseRightArm
   components:
   - type: Sprite
@@ -43,7 +43,7 @@
 
 - type: entity
   id: LeftHandShadowling
-  name: "left Shadowling hand"
+  name: "ліва кисть Тіньовика"
   parent: BaseLeftHand
   components:
   - type: Sprite
@@ -52,7 +52,7 @@
 
 - type: entity
   id: RightHandShadowling
-  name: "right Shadowling hand"
+  name: "права кисть Тіньовика"
   parent: BaseRightHand
   components:
   - type: Sprite
@@ -61,7 +61,7 @@
 
 - type: entity
   id: LeftLegShadowling
-  name: "left Shadowling leg"
+  name: "ліва нога Тіньовика"
   parent: BaseLeftLeg
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: RightLegShadowling
-  name: "right Shadowling leg"
+  name: "права нога Тіньовика"
   parent: BaseRightLeg
   components:
   - type: Sprite
@@ -79,7 +79,7 @@
 
 - type: entity
   id: LeftFootShadowling
-  name: "left Shadowling foot"
+  name: "ліва стопа Тіньовика"
   parent: BaseLeftFoot
   components:
   - type: Sprite
@@ -88,7 +88,7 @@
 
 - type: entity
   id: RightFootShadowling
-  name: "right Shadowling foot"
+  name: "права стопа Тіньовика"
   parent: BaseRightFoot
   components:
   - type: Sprite
