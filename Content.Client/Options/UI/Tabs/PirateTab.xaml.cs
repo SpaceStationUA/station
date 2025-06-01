@@ -22,6 +22,10 @@ public sealed partial class PirateTab : Control
     private PingNameSystem? _pingNameSystem;
     private bool _soundSelectorInitialized = false;
 
+    // Constants for custom words limit thresholds
+    private const int NearCharLimitThreshold = 20;
+    private const int NearWordLimitThreshold = 3;
+
     private PingNameSystem? PingNameSystem
     {
         get
@@ -323,8 +327,8 @@ public sealed partial class PirateTab : Control
         // Change color based on remaining characters or word count
         var isOverCharLimit = remaining == 0;
         var isOverWordLimit = wordCount > maxCount;
-        var isNearCharLimit = remaining < 20;
-        var isNearWordLimit = wordCount > maxCount - 3;
+        var isNearCharLimit = remaining < NearCharLimitThreshold;
+        var isNearWordLimit = wordCount > maxCount - NearWordLimitThreshold;
 
         if (isOverCharLimit || isOverWordLimit)
         {
