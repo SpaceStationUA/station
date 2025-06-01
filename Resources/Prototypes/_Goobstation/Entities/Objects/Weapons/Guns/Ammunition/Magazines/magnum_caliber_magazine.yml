@@ -1,7 +1,7 @@
 # Empty mags
 - type: entity
   id: BaseMagazineMagnumLeverRifle
-  name: "магазин (гвинтівка калібру .45)"
+  name: "magazine (.45 rifle)"
   parent: BaseItem
   abstract: true
   components:
@@ -35,7 +35,7 @@
 
 - type: entity
   id: MagazineMagnumLeverRifle
-  name: "магазин для важільної гвинтівки (.45)"
+  name: "lever rifle magazine (.45)"
   parent: BaseMagazineMagnumLeverRifle
   components:
   - type: Tag

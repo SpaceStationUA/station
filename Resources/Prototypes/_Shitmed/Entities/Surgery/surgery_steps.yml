@@ -7,7 +7,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepOpenIncisionScalpel
-  name: "Вирізати скальпелем"
+  name: Cut with a scalpel
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -29,7 +29,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampBleeders
-  name: "Затисніть кровотечу"
+  name: Clamp the bleeders
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -50,7 +50,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRetractSkin
-  name: "Відтягніть шкіру"
+  name: Retract the skin
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -66,7 +66,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSawBones
-  name: "Розпилював кістки наскрізь"
+  name: Saw through bones
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -83,7 +83,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepPriseOpenBones
-  name: "Розкрийте кістки"
+  name: Prise the bones open
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -134,7 +134,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCloseBones
-  name: "Зблизити кістки"
+  name: Close bones
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -150,7 +150,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepMendRibcage
-  name: "Виправляємо грудну клітку"
+  name: Mend ribcage
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -166,7 +166,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCloseIncision
-  name: "Закритий розріз"
+  name: Close incision
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -196,7 +196,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertFeature
-  name: "Вставна частина"
+  name: Insert part
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -211,7 +211,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSealWounds
-  name: "Ущільнені рани"
+  name: Seal wounds
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -239,7 +239,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSawFeature
-  name: "Розпилював кістки наскрізь"
+  name: Saw through bones
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -256,7 +256,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepClampInternalBleeders
-  name: "Затискач для внутрішніх кровотеч"
+  name: Clamp internal bleeders
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -277,7 +277,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveFeature
-  name: "Ампутувати частину"
+  name: Amputate part
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -301,7 +301,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepCarefulIncisionScalpel
-  name: "Обережно зробіть надріз"
+  name: Make a careful incision
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -318,7 +318,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRepairBruteTissue
-  name: "Відновлення пошкоджених тканин"
+  name: Repair damaged tissue
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -337,7 +337,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRepairBurnTissue
-  name: "Відновлення обпалених тканин"
+  name: Repair burnt tissue
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -357,7 +357,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSealTendWound
-  name: "Заклейте рану"
+  name: Seal the wound
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -381,7 +381,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertItem
-  name: "Вставте предмет у порожнину"
+  name: Insert item into cavity
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -396,7 +396,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveItem
-  name: "Вийміть предмет з порожнини"
+  name: Remove item from cavity
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -413,7 +413,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepRemoveOrgan
-  name: "Видалити орган"
+  name: Remove organ
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -429,7 +429,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepInsertOrgan
-  name: "Додати орган"
+  name: Add organ
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -445,7 +445,7 @@
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertLungs
-  name: "Додайте легені"
+  name: Add lungs
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryDamageChangeEffect
@@ -458,14 +458,14 @@
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertStomach
-  name: "Додати шлунок"
+  name: Add stomach
   categories: [ HideSpawnMenu ]
   # no effect its just for minmaxing metabolism
 
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertLiver
-  name: "Додати печінку"
+  name: Add liver
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryDamageChangeEffect
@@ -478,13 +478,13 @@
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertEyes
-  name: "Додати очі"
+  name: Add eyes
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: SurgeryStepInsertOrgan
   id: SurgeryStepInsertHeart
-  name: "Додати серце"
+  name: Add heart
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgerySpecialDamageChangeEffect
@@ -494,7 +494,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepSealOrganWound
-  name: "Ущільнені рани"
+  name: Seal wounds
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -515,7 +515,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepLobotomize
-  name: "Лоботомізувати пацієнта"
+  name: Lobotomize patient
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep
@@ -545,7 +545,7 @@
 - type: entity
   parent: SurgeryStepBase
   id: SurgeryStepMendBrainTissue
-  name: "Відновлюємо тканину мозку"
+  name: Mend brain tissue
   categories: [ HideSpawnMenu ]
   components:
   - type: SurgeryStep

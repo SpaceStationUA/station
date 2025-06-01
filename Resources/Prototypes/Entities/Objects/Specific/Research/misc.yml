@@ -1,8 +1,8 @@
 - type: entity
   parent: PonderingOrb
   id: PonderingOrbTelepathic
-  name: "телепатична ретрансляційна куля"
-  description: "Передає повідомлення, перехоплені з \"Псіоніки\"."
+  name: telepathic relay orb
+  description: Relays messages intercepted from Psionics.
   components:
   - type: TelepathicRepeater
   - type: Psionic

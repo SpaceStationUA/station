@@ -3,8 +3,8 @@
 - type: entity
   id: N14RockGrey
   parent: BaseWall
-  name: "астероїдний камінь"
-  description: "Кам'янистий астероїд."
+  name: asteroid rock
+  description: A rocky asteroid.
   components:
   - type: Transform
     noRot: true
@@ -48,7 +48,7 @@
 - type: entity
   id: N14RockGreyCoal
   parent: N14RockGrey
-  description: "Рудна жила, багата на вугілля."
+  description: An ore vein rich with coal.
   suffix: Coal
   components:
     - type: OreVein
@@ -70,7 +70,7 @@
 - type: entity
   id: N14RockGreyGold
   parent: N14RockGrey
-  description: "Рудна жила, багата на золото."
+  description: An ore vein rich with gold.
   suffix: Gold
   components:
     - type: OreVein
@@ -92,7 +92,7 @@
 - type: entity
   id: N14RockGreySilver
   parent: N14RockGrey
-  description: "Рудна жила, багата на срібло."
+  description: An ore vein rich with silver.
   suffix: Silver
   components:
     - type: OreVein
@@ -114,7 +114,7 @@
 - type: entity
   id: N14RockGreySteel
   parent: N14RockGrey
-  description: "Рудна жила, багата на сталь."
+  description: An ore vein rich with Steel.
   suffix: Steel
   components:
     - type: OreVein
@@ -136,7 +136,7 @@
 - type: entity
   id: N14RockGreyUranium
   parent: N14RockGrey
-  description: "Рудна жила, багата на уран."
+  description: An ore vein rich with uranium.
   suffix: Uranium
   components:
     - type: OreVein
@@ -158,9 +158,9 @@
 - type: entity
   id: N14RockGreyMining
   parent: N14RockGrey
-  name: "рудна жила"
+  name: ore vein
   suffix: higher ore yield .44
-  description: "Астероїд."
+  description: An asteroid.
   components:
   - type: OreVein
     oreChance: 0.44
@@ -181,9 +181,9 @@
 - type: entity
   id: SteelRock
   parent: N14RockGrey
-  name: "рудна жила"
+  name: ore vein
   suffix: Low Ore Yield
-  description: "Кам'янистий астероїд."
+  description: A rocky asteroid.
   components:
   - type: IconSmooth
     key: walls
@@ -205,7 +205,7 @@
 - type: entity
   id: N14RockGreySalt
   parent: N14RockGrey
-  description: "Рудна жила, багата на сіль."
+  description: An ore vein rich with salt.
   suffix: Salt
   components:
     - type: OreVein
@@ -227,9 +227,9 @@
 - type: entity
   id: N14RockMining
   parent: SteelRock
-  name: "руда евін"
+  name: ore evin
   suffix: higher ore yield
-  description: "Астероїд."
+  description: An asteroid.
   components:
   - type: OreVein
     oreChance: 0.33
@@ -240,7 +240,7 @@
 - type: entity
   id: N14WallRock
   parent: BaseWall
-  name: "скеля"
+  name: rock
   suffix: planetmap
   components:
     - type: Transform
@@ -285,7 +285,7 @@
 - type: entity
   id: N14WallRockCoal
   parent: N14WallRock
-  description: "Рудна жила, багата на вугілля."
+  description: An ore vein rich with coal.
   suffix: Coal
   components:
     - type: OreVein
@@ -307,7 +307,7 @@
 - type: entity
   id: N14WallRockGold
   parent: N14WallRock
-  description: "Рудна жила, багата на золото."
+  description: An ore vein rich with gold.
   suffix: Gold
   components:
     - type: OreVein
@@ -329,7 +329,7 @@
 - type: entity
   id: N14WallRockSilver
   parent: N14WallRock
-  description: "Рудна жила, багата на срібло."
+  description: An ore vein rich with silver.
   suffix: Silver
   components:
     - type: OreVein
@@ -351,7 +351,7 @@
 - type: entity
   id: N14WallRockSteel
   parent: N14WallRock
-  description: "Рудна жила, багата на сталь."
+  description: An ore vein rich with Steel.
   suffix: Steel
   components:
     - type: OreVein
@@ -373,7 +373,7 @@
 - type: entity
   id: N14WallRockUranium
   parent: N14WallRock
-  description: "Рудна жила, багата на уран."
+  description: An ore vein rich with uranium.
   suffix: Uranium
   components:
     - type: OreVein
@@ -395,7 +395,7 @@
 - type: entity
   id: N14WallRockSalt
   parent: N14WallRock
-  description: "Рудна жила, багата на сіль."
+  description: An ore vein rich with salt.
   suffix: Salt
   components:
     - type: OreVein
@@ -417,7 +417,7 @@
 # Basalt variants
 - type: entity
   id: N14WallRockBasalt
-  name: "базальт"
+  name: basalt
   parent: N14WallRock
   components:
     - type: Icon
@@ -439,7 +439,7 @@
 - type: entity
   id: N14WallRockBasaltCoal
   parent: N14WallRockBasalt
-  description: "Рудна жила, багата на вугілля."
+  description: An ore vein rich with coal.
   suffix: Coal
   components:
     - type: OreVein
@@ -461,7 +461,7 @@
 - type: entity
   id: N14WallRockBasaltGold
   parent: N14WallRockBasalt
-  description: "Рудна жила, багата на золото."
+  description: An ore vein rich with gold.
   suffix: Gold
   components:
     - type: OreVein
@@ -483,7 +483,7 @@
 - type: entity
   id: N14WallRockBasaltSilver
   parent: N14WallRockBasalt
-  description: "Рудна жила, багата на срібло."
+  description: An ore vein rich with silver.
   suffix: Silver
   components:
     - type: OreVein
@@ -505,7 +505,7 @@
 - type: entity
   id: N14WallRockBasaltSteel
   parent: N14WallRockBasalt
-  description: "Рудна жила, багата на сталь."
+  description: An ore vein rich with Steel.
   suffix: Steel
   components:
     - type: OreVein
@@ -527,7 +527,7 @@
 - type: entity
   id: N14WallRockBasaltUranium
   parent: N14WallRockBasalt
-  description: "Рудна жила, багата на уран."
+  description: An ore vein rich with uranium.
   suffix: Uranium
   components:
     - type: OreVein
@@ -549,7 +549,7 @@
 - type: entity
   id: N14WallRockBasaltSalt
   parent: N14WallRockBasalt
-  description: "Рудна жила, багата на сіль."
+  description: An ore vein rich with salt.
   suffix: Salt
   components:
     - type: OreVein
@@ -571,7 +571,7 @@
 # Sand variants
 - type: entity
   id: N14WallRockSand
-  name: "пісковик"
+  name: sandstone
   parent: N14WallRock
   components:
     - type: Icon
@@ -593,7 +593,7 @@
 - type: entity
   id: N14WallRockSandCoal
   parent: N14WallRockSand
-  description: "Рудна жила, багата на вугілля."
+  description: An ore vein rich with coal.
   suffix: Coal
   components:
     - type: OreVein
@@ -615,7 +615,7 @@
 - type: entity
   id: N14WallRockSandGold
   parent: N14WallRockSand
-  description: "Рудна жила, багата на золото."
+  description: An ore vein rich with gold.
   suffix: Gold
   components:
     - type: OreVein
@@ -637,7 +637,7 @@
 - type: entity
   id: N14WallRockSandSilver
   parent: N14WallRockSand
-  description: "Рудна жила, багата на срібло."
+  description: An ore vein rich with silver.
   suffix: Silver
   components:
     - type: OreVein
@@ -659,7 +659,7 @@
 - type: entity
   id: N14WallRockSandSteel
   parent: N14WallRockSand
-  description: "Рудна жила, багата на сталь."
+  description: An ore vein rich with Steel.
   suffix: Steel
   components:
     - type: OreVein
@@ -681,7 +681,7 @@
 - type: entity
   id: N14WallRockSandUranium
   parent: N14WallRockSand
-  description: "Рудна жила, багата на уран."
+  description: An ore vein rich with uranium.
   suffix: Uranium
   components:
     - type: OreVein
@@ -703,7 +703,7 @@
 - type: entity
   id: N14WallRockSandSalt
   parent: N14WallRockSand
-  description: "Рудна жила, багата на сіль."
+  description: An ore vein rich with salt.
   suffix: Salt
   components:
     - type: OreVein
@@ -725,7 +725,7 @@
 # Andesite variants
 - type: entity
   id: N14WallRockAndesite
-  name: "андезит"
+  name: andesite
   parent: N14WallRock
   components:
     - type: Icon
@@ -747,7 +747,7 @@
 - type: entity
   id: N14WallRockAndesiteCoal
   parent: N14WallRockAndesite
-  description: "Рудна жила, багата на вугілля."
+  description: An ore vein rich with coal.
   suffix: Coal
   components:
     - type: OreVein
@@ -769,7 +769,7 @@
 - type: entity
   id: N14WallRockAndesiteGold
   parent: N14WallRockAndesite
-  description: "Рудна жила, багата на золото."
+  description: An ore vein rich with gold.
   suffix: Gold
   components:
     - type: OreVein
@@ -791,7 +791,7 @@
 - type: entity
   id: N14WallRockAndesiteSilver
   parent: N14WallRockAndesite
-  description: "Рудна жила, багата на срібло."
+  description: An ore vein rich with silver.
   suffix: Silver
   components:
     - type: OreVein
@@ -813,7 +813,7 @@
 - type: entity
   id: N14WallRockAndesiteSteel
   parent: N14WallRockAndesite
-  description: "Рудна жила, багата на сталь."
+  description: An ore vein rich with Steel.
   suffix: Steel
   components:
     - type: OreVein
@@ -835,7 +835,7 @@
 - type: entity
   id: N14WallRockAndesiteUranium
   parent: N14WallRockAndesite
-  description: "Рудна жила, багата на уран."
+  description: An ore vein rich with uranium.
   suffix: Uranium
   components:
     - type: OreVein
@@ -857,7 +857,7 @@
 - type: entity
   id: N14WallRockAndesiteSalt
   parent: N14WallRockAndesite
-  description: "Рудна жила, багата на сіль."
+  description: An ore vein rich with salt.
   suffix: Salt
   components:
     - type: OreVein

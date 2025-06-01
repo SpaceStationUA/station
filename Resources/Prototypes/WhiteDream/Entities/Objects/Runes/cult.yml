@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: CultRuneBase
-  name: "на основі руни"
+  name: based rune
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -27,8 +27,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneOffering
-  name: "руна підношення"
-  description: "Пропонує некультиста, що знаходиться над ним, Нар'сі, або навертаючи його, або приносячи в жертву. Один культист потрібен для мертвої жертви, два - для навернення і три - для живих жертв і цілей для жертвоприношень."
+  name: rune of offering
+  description: Offers a noncultist above it to Nar'Sie, either converting them or sacrificing them. One cultists required for dead sacrifice, two for conversion and three for living sacrifices and sacrifice targets.
   components:
   - type: Sprite
     state: "offering"
@@ -39,8 +39,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneEmpower
-  name: "руна влади"
-  description: "Дозволяє культистам готувати більшу кількість магії крові за набагато меншу ціну."
+  name: rune of empower
+  description: Allows cultists to prepare greater amounts of blood magic at far less of a cost.
   components:
   - type: Sprite
     state: strength
@@ -51,8 +51,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneTeleport
-  name: "руна телепортації"
-  description: "Викривляє все, що знаходиться над нею, на іншу обрану руну телепорту"
+  name: rune of teleportation
+  description: Warps everything above it to another chosen teleport rune
   components:
   - type: Sprite
     state: teleport
@@ -69,8 +69,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneRevive
-  name: "руна омолодження"
-  description: "Потрібно покласти на руну мертвого, несвідомого або бездіяльного культиста. За умови достатньої кількості жертвоприношень, він отримає нове життя."
+  name: rune of rejuvenation
+  description: Requires a dead, mindless, or inactive cultist placed upon the rune. Provided there have been sufficient sacrifices, they will be given a new life.
   components:
   - type: Sprite
     state: revive
@@ -81,8 +81,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneBarrier
-  name: "руна бар'єру"
-  description: "При виклику створює тимчасову невидиму стіну, яка блокує прохід."
+  name: rune of barrier
+  description: When invoked, makes a temporary invisible wall to block passage.
   components:
   - type: Sprite
     state: barrier
@@ -97,8 +97,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneSummoning
-  name: "руна виклику"
-  description: "Прикликає одного культиста до руни. Вимагає 2 інвокаторів."
+  name: rune of summoning
+  description: Summons a single cultist to the rune. Requires 2 invokers.
   components:
   - type: Sprite
     state: summon
@@ -114,8 +114,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneBloodBoil
-  name: "руна киплячої крові"
-  description: "Закипає кров невіруючих, які бачать руну, швидко завдаючи надзвичайної шкоди. Вимагає 3 інвокаторів."
+  name: rune of boiling blood
+  description: Boils the blood of non-believers who can see the rune, rapidly dealing extreme amounts of damage. Requires 3 invokers.
   components:
   - type: Sprite
     state: blood_boil
@@ -130,8 +130,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneApocalypse
-  name: "руна апокаліпсису"
-  description: "Провісник кінця світу. Зростає в силі з відчаєм культу - але з ризиком... побічних ефектів. Потрібні 3 викликають."
+  name: rune of apocalypse
+  description: Harbinger of the end times. Grows in strength with the cult's desperation - but at the risk of... side effects. Requires 3 invokers.
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Runes/apocalypse.rsi
@@ -156,8 +156,8 @@
 - type: entity
   parent: CultRuneBase
   id: CultRuneDimensionalRending
-  name: "руна просторової візуалізації"
-  description: "Руйнує просторові бар'єри, закликаючи Геометра. Потрібно 10 призовників"
+  name: rune of dimensional rending
+  description: Tears apart dimensional barriers, calling forth the Geometer. Requires 10 invokers
   components:
   - type: Sprite
     sprite: WhiteDream/BloodCult/Entities/Runes/dimensional_rending.rsi

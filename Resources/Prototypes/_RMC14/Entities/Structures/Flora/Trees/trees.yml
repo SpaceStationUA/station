@@ -2,7 +2,7 @@
   id: RMCBaseTree
   suffix: RMCBaseTree
   abstract: true
-  description: "Ага, це дерево."
+  description: Yep, it's a tree.
   components:
   - type: SpriteFade
   - type: Clickable
@@ -166,8 +166,8 @@
   id: RMCBaseTreeAlien
   suffix: RMCBaseTreeAlien
   abstract: true
-  name: "дивне дерево"
-  description: "Якесь дивне інопланетне дерево. Воно сочиться хворобливо-жовтим соком."
+  name: strange tree
+  description: Some kind of bizarre alien tree. It oozes with a sickly yellow sap.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Flora/flora_treealien.rsi

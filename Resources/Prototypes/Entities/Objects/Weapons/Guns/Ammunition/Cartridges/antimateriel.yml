@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseCartridge
   id: CartridgeAntiMateriel
-  name: "патрон (.60 протипіхотний)"
+  name: cartridge (.60 anti-materiel)
   components:
   - type: Tag
     tags:
@@ -22,7 +22,7 @@
 - type: entity
   parent: CartridgeAntiMateriel
   id: CartridgeAntiMaterielShrapnel
-  name: "патрон (.60 протипіхотний, шрапнельний)"
+  name: cartridge (.60 anti-personnel shrapnel)
   components:
   - type: CartridgeAmmo
     proto: BulletAntiMaterielShrapnelSpread

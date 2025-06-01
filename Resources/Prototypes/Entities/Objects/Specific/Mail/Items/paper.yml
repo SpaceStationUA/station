@@ -2,7 +2,7 @@
 # TODO: these should really be based on localization strings.
 - type: entity
   id: PaperMailNFPowerTool
-  name: "Небезпечна реклама"
+  name: Hazard Fraught advertisement
   categories: [ HideSpawnMenu ]
   suffix: "power tool ad, formatted"
   parent: Paper
@@ -169,7 +169,7 @@
 
 - type: entity
   id: PaperMailNFPwrGameAd
-  name: "pwr ігрова реклама"
+  name: pwr game advertisement
   categories: [ HideSpawnMenu ]
   suffix: "pwr game ad"
   parent: Paper
@@ -183,7 +183,7 @@
 
 - type: entity
   id: PaperMailNFRedBoolAd
-  name: "червона реклама bool"
+  name: red bool advertisement
   categories: [ HideSpawnMenu ]
   suffix: "red bool ad"
   parent: Paper
@@ -199,7 +199,7 @@
 
 - type: entity
   id: PaperMailNFSpaceColaAd
-  name: "реклама космічної коли"
+  name: space cola advertisement
   categories: [ HideSpawnMenu ]
   suffix: "space cola ad"
   parent: Paper
@@ -213,7 +213,7 @@
 
 - type: entity
   id: PaperMailNFSpaceMountainWindAd
-  name: "реклама вітру космічної гори"
+  name: space mountain wind advertisement
   categories: [ HideSpawnMenu ]
   suffix: "space mountain wind ad"
   parent: Paper
@@ -227,7 +227,7 @@
 
 - type: entity
   id: PaperMailNFSpaceUpAd
-  name: "розмістити рекламу"
+  name: space up advertisement
   categories: [ HideSpawnMenu ]
   suffix: "space up ad"
   parent: Paper
@@ -329,7 +329,7 @@
 
 - type: entity
   id: PaperMailNFPetBedAssemblyManual
-  name: "посібник зі складання лежанки для домашніх тварин"
+  name: pet bed assembly manual
   categories: [ HideSpawnMenu ]
   suffix: "pet bed assembly manual"
   parent: Paper
@@ -380,7 +380,7 @@
 
 - type: entity
   id: PaperMailNFAntivirus
-  name: "Інвойс Snortin Antivirus"
+  name: Snortin Antivirus invoice
   categories: [ HideSpawnMenu ]
   suffix: "antivirus ad"
   parent: Paper
@@ -403,7 +403,7 @@
 - type: entity
   id: PaperMailNFEMPPreparedness
   categories: [ HideSpawnMenu ]
-  name: "Бланк відповіді про готовність до електромагнітних потрясінь"
+  name: EMP preparedness response form
   suffix: "emp preparedness" #DeltaV - Replaces mention of SR with HoS
   parent: Paper
   components:
@@ -424,7 +424,7 @@
 - type: entity
   id: PaperMailNFBuildABuddy
   categories: [ HideSpawnMenu ]
-  name: "Лист про усиновлення від Build-a-Buddy"
+  name: Build-a-Buddy adoption letter
   suffix: "build-a-buddy" #DeltaV- Body text changed, because Goblins Aren't Real
   parent: Paper
   components:

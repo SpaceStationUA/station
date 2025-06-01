@@ -2,7 +2,7 @@
 - type: entity
   parent: BaseMobSpeciesOrganic
   id: BaseMobXelthia
-  name: "Уріст МакЩупальця"
+  name: Urist McTentacles
   abstract: true
   components:
   - type: Hunger
@@ -164,11 +164,11 @@
 
 - type: entity
   save: false
-  name: "Уріст МакРуки"
+  name: Urist McHands
   parent: MobHumanDummy
   id: MobXelthiaDummy
   categories: [ HideSpawnMenu ]
-  description: "Манекен зелтії, призначений для використання під час налаштування персонажа."
+  description: A dummy xelthia meant to be used in character setup.
   components:
   - type: HumanoidAppearance
     species: Xelthia

@@ -3,7 +3,7 @@
 - type: entity
   id: SpawnPointBlueshieldOfficer
   parent: SpawnPointJobBase
-  name: "блюзовий офіцер"
+  name: blueshieldofficer
   components:
   - type: SpawnPoint
     job_id: BlueshieldOfficer
@@ -15,7 +15,7 @@
 - type: entity
   id: SpawnPointNanotrasenRepresentative
   parent: SpawnPointJobBase
-  name: "нанотрасенпредставник"
+  name: nanotrasenrepresentative
   components:
   - type: SpawnPoint
     job_id: NanotrasenRepresentative
@@ -27,7 +27,7 @@
 - type: entity
   id: SpawnPointMagistrate
   parent: SpawnPointJobBase
-  name: "суддя"
+  name: magistrate
   components:
   - type: SpawnPoint
     job_id: Magistrate
