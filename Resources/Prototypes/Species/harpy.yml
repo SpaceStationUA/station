@@ -43,6 +43,14 @@
 - type: markingPoints
   id: MobHarpyMarkingLimits
   points:
+  # PIRATE START
+    Head:
+      points: 2
+      required: false
+    Face:
+      points: 3
+      required: false
+  # PIRATE END
     Hair:
       points: 1
       required: false

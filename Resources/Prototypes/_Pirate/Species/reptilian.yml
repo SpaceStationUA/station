@@ -1,0 +1,28 @@
+- type: humanoidBaseSprite
+  id: MobReptilianMarkingFollowSkin
+  markingsMatchSkin: true
+  layerAlpha: 0.5
+  
+- type: marking
+  id: MarkingLizardBaseHead
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Pirate/Mobs/Customization/rept_head.rsi
+    state: head_base
+  - sprite: _Pirate/Mobs/Customization/rept_head.rsi
+    state: head_base_1
+
+- type: marking
+  id: MarkingLizardFlattenedHead
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Reptilian]
+  sprites:
+  - sprite: _Pirate/Mobs/Customization/rept_head.rsi
+    state: head_flattened
+  - sprite: _Pirate/Mobs/Customization/rept_head.rsi
+    state: head_flattened_2
+  - sprite: _Pirate/Mobs/Customization/rept_head.rsi
+    state: head_flattened_3
