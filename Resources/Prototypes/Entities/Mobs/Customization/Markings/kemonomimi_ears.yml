@@ -18,7 +18,7 @@
   id: BunnyEars
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Human, IPC]
+  speciesRestriction: [Human, IPC, SlimePerson] # PIRATE - Added SlimePerson support
   coloring:
     default:
       type:
@@ -57,7 +57,7 @@
   id: FoxEars
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Human, IPC]
+  speciesRestriction: [Human, IPC, SlimePerson] # PIRATE - Added SlimePerson support
   coloring:
     default:
       type:
