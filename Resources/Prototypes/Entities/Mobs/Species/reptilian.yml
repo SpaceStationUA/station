@@ -24,7 +24,8 @@
     - id: FoodMeatLizard
       amount: 5
   - type: Inventory
-    speciesId: reptilian
+    templateId: digitigrade #PIRATE
+    speciesId: reptilian #PIRATE - for species-specific clothing sprites
   - type: LizardAccent
   - type: Speech
     speechSounds: Lizard

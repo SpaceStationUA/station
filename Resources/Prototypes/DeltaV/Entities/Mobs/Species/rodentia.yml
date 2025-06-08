@@ -11,6 +11,7 @@
     baseDecayRate: 0.0467 # 33% faster than usual
   - type: Carriable # Carrying system from nyanotrasen.
   - type: Inventory
+    templateId: rodentia #PIRATE
     speciesId: rodentia
   - type: Icon
     sprite: DeltaV/Mobs/Species/Rodentia/parts.rsi
@@ -124,4 +125,5 @@
   - type: HumanoidAppearance
     species: Rodentia
   - type: Inventory
+    templateId: rodentia #PIRATE
     speciesId: rodentia
