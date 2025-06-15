@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: BaseStockPart
-  name: stock part
+  name: "стокова частина"
   parent: BaseItem
-  description: What?
+  description: "Що?"
   abstract: true
   components:
     - type: Sprite
@@ -20,9 +20,9 @@
 
 - type: entity
   id: CapacitorStockPart
-  name: capacitor
+  name: "конденсатор"
   parent: BaseStockPart
-  description: A basic capacitor used in the construction of a variety of devices.
+  description: "Базовий конденсатор, який використовується в побудові різноманітних пристроїв."
   suffix: Rating 1
   components:
     - type: Sprite
@@ -41,9 +41,9 @@
 
 - type: entity
   id: MicroManipulatorStockPart
-  name: manipulator
+  name: "маніпулятор"
   parent: BaseStockPart
-  description: A basic manipulator used in the construction of a variety of devices.
+  description: "Базовий маніпулятор, що використовується при конструюванні різноманітних пристроїв."
   suffix: Rating 1
   components:
     - type: Sprite
@@ -59,9 +59,9 @@
 
 - type: entity
   id: MatterBinStockPart
-  name: matter bin
+  name: "контейнер матерії"
   parent: BaseStockPart
-  description: A basic matter bin used in the construction of a variety of devices.
+  description: "Базовий контейнер для речовин, який використовується в конструкції різноманітних пристроїв."
   suffix: Rating 1
   components:
     - type: Sprite
@@ -79,9 +79,9 @@
 
 - type: entity
   id: AdvancedCapacitorStockPart
-  name: advanced capacitor
+  name: "вдосконалений конденсатор"
   parent: CapacitorStockPart
-  description: An advanced capacitor used in the construction of a variety of devices.
+  description: "Вдосконалений конденсатор, який використовується в конструкції різноманітних пристроїв."
   suffix: Rating 2
   components:
     - type: Sprite
@@ -95,9 +95,9 @@
 
 - type: entity
   id: NanoManipulatorStockPart
-  name: advanced manipulator
+  name: "просунутий маніпулятор"
   parent: MicroManipulatorStockPart
-  description: An advanced manipulator used in the construction of a variety of devices.
+  description: "Вдосконалений маніпулятор, який використовується в конструюванні різноманітних пристроїв."
   suffix: Rating 2
   components:
     - type: Sprite
@@ -111,9 +111,9 @@
 
 - type: entity
   id: AdvancedMatterBinStockPart
-  name: advanced matter bin
+  name: "просунутий контейнер матерії"
   parent: MatterBinStockPart
-  description: An advanced matter bin used in the construction of a variety of devices.
+  description: "Удосконалений контейнер для речовин, що використовується в конструкції різноманітних пристроїв."
   suffix: Rating 2
   components:
     - type: Sprite
@@ -129,9 +129,9 @@
 
 - type: entity
   id: SuperCapacitorStockPart
-  name: super capacitor
+  name: "суперконденсатор"
   parent: CapacitorStockPart
-  description: A super capacitor used in the construction of a variety of devices.
+  description: "Суперконденсатор, який використовується в конструкції різноманітних пристроїв."
   suffix: Rating 3
   components:
     - type: Sprite
@@ -145,9 +145,9 @@
 
 - type: entity
   id: PicoManipulatorStockPart
-  name: super manipulator
+  name: "супер маніпулятор"
   parent: MicroManipulatorStockPart
-  description: A super manipulator used in the construction of a variety of devices.
+  description: "Суперманіпулятор, який використовується в конструюванні різноманітних пристроїв."
   suffix: Rating 3
   components:
     - type: Sprite
@@ -161,9 +161,9 @@
 
 - type: entity
   id: SuperMatterBinStockPart
-  name: super matter bin
+  name: "контейнер для надматерії"
   parent: MatterBinStockPart
-  description: A super matter bin used in the construction of a variety of devices.
+  description: "Контейнер для надматерії, що використовується в будівництві різноманітних пристроїв."
   suffix: Rating 3
   components:
     - type: Sprite
@@ -179,9 +179,9 @@
 
 - type: entity
   id: BluespaceCapacitorStockPart
-  name: bluespace capacitor
+  name: "блюспейс конденсатор"
   parent: CapacitorStockPart
-  description: A bluespace capacitor used in the construction of a variety of devices.
+  description: "Конденсатор для блюзового простору, що використовується в конструкції різноманітних пристроїв."
   suffix: Rating 4
   components:
     - type: Sprite
@@ -195,9 +195,9 @@
 
 - type: entity
   id: BluespaceManipulatorStockPart
-  name: bluespace manipulator
+  name: "блюспейс маніпулятор"
   parent: MicroManipulatorStockPart
-  description: A bluespace manipulator used in the construction of a variety of devices.
+  description: "Маніпулятор, що використовується при конструюванні різноманітних пристроїв."
   suffix: Rating 4
   components:
     - type: Sprite
@@ -211,9 +211,9 @@
 
 - type: entity
   id: BluespaceMatterBinStockPart
-  name: bluespace matter bin
+  name: "блюспейс контейнер матерії"
   parent: MatterBinStockPart
-  description: A bluespace matter bin used in the construction of a variety of devices.
+  description: "Бункер для сміття з блакитного простору, що використовується в конструкції різноманітних пристроїв."
   suffix: Rating 4
   components:
     - type: Sprite

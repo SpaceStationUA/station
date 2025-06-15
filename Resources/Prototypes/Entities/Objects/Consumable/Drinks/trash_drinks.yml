@@ -1,10 +1,10 @@
 # These can still be used as containers
 - type: entity
-  name: base empty bottle
+  name: "основа порожня пляшка"
   id: DrinkBottleBaseEmpty
   parent: BaseItem
   abstract: true
-  description: An empty bottle.
+  description: "Порожня пляшка."
   suffix: Empty
   components:
   - type: Sprite
@@ -78,7 +78,7 @@
   - type: SpaceGarbage
 
 - type: entity
-  name: base empty bottle
+  name: "основа порожня пляшка"
   id: DrinkBottleBaseSmallEmpty
   parent: DrinkBottleBaseEmpty
   abstract: true
@@ -91,11 +91,11 @@
         maxVol: 50
 
 - type: entity
-  name: base empty carton
+  name: "основа порожня коробка"
   id: DrinkCartonBaseEmpty
   parent: BaseItem
   abstract: true
-  description: An empty carton.
+  description: "Порожня коробка."
   suffix: Empty
   components:
   - type: Sprite
@@ -150,7 +150,7 @@
     sound: /Audio/SimpleStation14/Items/Handling/drinkglass_drop.ogg
 
 - type: entity
-  name: base empty bottle
+  name: "основа порожня пляшка"
   id: DrinkCartonBaseLargeEmpty
   parent: DrinkCartonBaseEmpty
   abstract: true
@@ -164,7 +164,7 @@
 
 # Containers
 - type: entity
-  name: Jailbreaker Verte bottle
+  name: "Пляшка Jailbreaker Verte"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleAbsinthe
   components:
@@ -173,7 +173,7 @@
 
 
 - type: entity
-  name: alcohol bottle
+  name: "пляшка алкоголю"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleAlcoClear
   components:
@@ -182,7 +182,7 @@
 
 
 - type: entity
-  name: ale bottle
+  name: "пляшка елю"
   parent: DrinkBottleBaseSmallEmpty
   id: DrinkBottleAle
   components:
@@ -191,7 +191,7 @@
 
 
 - type: entity
-  name: beer bottle
+  name: "пивна пляшка"
   parent: DrinkBottleBaseSmallEmpty
   id: DrinkBottleBeer
   components:
@@ -200,7 +200,7 @@
 
 
 - type: entity
-  name: cognac bottle
+  name: "пляшка коньяку"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleCognac
   components:
@@ -209,7 +209,7 @@
 
 
 - type: entity
-  name: Griffeater gin bottle
+  name: "Пляшка джину Griffeater"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleGin
   components:
@@ -218,7 +218,7 @@
 
 
 - type: entity
-  name: gildlager bottle
+  name: "пляшка з позолотою"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleGildlager
   components:
@@ -227,7 +227,7 @@
 
 
 - type: entity
-  name: coffee liqueur bottle
+  name: "пляшка кавового лікеру"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleCoffeeLiqueur
   components:
@@ -236,7 +236,7 @@
 
 
 - type: entity
-  name: nt cahors bottle
+  name: "пляшка nt cahors"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleNTCahors
   components:
@@ -245,7 +245,7 @@
 
 
 - type: entity
-  name: patron bottle
+  name: "пляшка-меценат"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottlePatron
   components:
@@ -254,7 +254,7 @@
 
 
 - type: entity
-  name: poison wine bottle
+  name: "пляшка отруйного вина"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottlePoisonWine
   components:
@@ -263,7 +263,7 @@
 
 
 - type: entity
-  name: rum bottle
+  name: "пляшка рому"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleRum
   components:
@@ -272,7 +272,7 @@
 
 
 - type: entity
-  name: tequila bottle
+  name: "пляшка текіли"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleTequila
   components:
@@ -281,7 +281,7 @@
 
 
 - type: entity
-  name: vermouth bottle
+  name: "пляшка вермуту"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleVermouth
   components:
@@ -290,7 +290,7 @@
 
 
 - type: entity
-  name: vodka bottle
+  name: "пляшка горілки"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleVodka
   components:
@@ -299,7 +299,7 @@
 
 
 - type: entity
-  name: whiskey bottle
+  name: "пляшка віскі"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleWhiskey
   components:
@@ -308,7 +308,7 @@
 
 
 - type: entity
-  name: wine bottle
+  name: "пляшка вина"
   parent: DrinkBottleBaseEmpty
   id: DrinkBottleWine
   components:
@@ -316,7 +316,7 @@
     sprite: Objects/Consumable/TrashDrinks/winebottle_empty.rsi
 
 - type: entity
-  name: lime juice carton
+  name: "упаковка соку лайма"
   parent: DrinkCartonBaseEmpty
   id: DrinkCartonLime
   components:
@@ -325,7 +325,7 @@
 
 
 - type: entity
-  name: orange juice carton
+  name: "упаковка апельсинового соку"
   parent: DrinkCartonBaseEmpty
   id: DrinkCartonOrange
   components:
@@ -334,7 +334,7 @@
 
 
 - type: entity
-  name: tomato juice carton
+  name: "упаковка томатного соку"
   parent: DrinkCartonBaseEmpty
   id: DrinkCartonTomato
   components:
@@ -343,7 +343,7 @@
 
 
 - type: entity
-  name: milk cream carton
+  name: "упаковка молочних вершків"
   parent: DrinkCartonBaseEmpty
   id: DrinkCartonCream
   components:
@@ -352,7 +352,7 @@
 
 
 - type: entity
-  name: milk carton
+  name: "пакет молока"
   parent: DrinkCartonBaseLargeEmpty
   id: DrinkCartonMilk
   components:
@@ -364,7 +364,7 @@
         maxVol: 100
 
 - type: entity
-  name: soy milk carton
+  name: "упаковка соєвого молока"
   parent: DrinkCartonBaseLargeEmpty
   id: DrinkCartonSoyMilk
   components:
@@ -372,7 +372,7 @@
     sprite: Objects/Consumable/Drinks/soymilk.rsi
 
 - type: entity
-  name: oat milk carton
+  name: "пакет вівсяного молока"
   parent: DrinkCartonBaseLargeEmpty
   id: DrinkCartonOatMilk
   components:

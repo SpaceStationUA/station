@@ -48,8 +48,8 @@
 - type: entity
   parent: DrinkJuiceBoxBaseFull
   id: DrinkJuiceOrangeJuicebox
-  name: orange juice box
-  description: A great source of vitamins. Stay healthy!
+  name: "коробка апельсинового соку"
+  description: "Чудове джерело вітамінів. Будьте здорові!"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -63,8 +63,8 @@
 - type: entity
   parent: DrinkJuiceBoxBaseFull
   id: DrinkJuicePineappleJuicebox
-  name: pineapple juice box
-  description: Everyone's favourite juice.
+  name: "коробка ананасового соку"
+  description: "Всіма улюблений сік."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -78,8 +78,8 @@
 - type: entity
   parent: DrinkJuiceBoxBaseFull
   id: DrinkJuiceAppleJuicebox
-  name: apple juice box
-  description: Sweet apple juice. Don't be late for school!
+  name: "коробка яблучного соку"
+  description: "Солодкий яблучний сік. Не запізнитися до школи!"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -93,8 +93,8 @@
 - type: entity
   parent: DrinkJuiceBoxBaseFull
   id: DrinkJuiceGrapeJuicebox
-  name: grape juice box
-  description: Tasty grape juice in a fun little container. Non-alcoholic!
+  name: "коробка виноградного соку"
+  description: "Смачний виноградний сік у веселій маленькій тарі. Безалкогольний!"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -108,8 +108,8 @@
 - type: entity
   parent: DrinkJuiceBoxBaseFull
   id: DrinkChocolateJuicebox
-  name: chocolate milk juice box
-  description: Tasty chocolate juice and milk in a small box. Contains Theobromine.
+  name: "коробка шоколадного молочного соку"
+  description: "Смачний шоколадний сік та молоко у маленькій коробочці. Містить теобромін."
   components:
   - type: SolutionContainerManager
     solutions:

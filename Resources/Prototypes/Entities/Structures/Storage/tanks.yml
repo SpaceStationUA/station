@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseStructure
   id: StorageTankBase
-  name: storage tank
-  description: A liquids storage tank.
+  name: "резервуар для зберігання"
+  description: "Резервуар для зберігання рідин."
   abstract: true
   components:
   - type: Sprite
@@ -61,8 +61,8 @@
 - type: entity
   id: StorageTankWide
   parent: StorageTankBase
-  name: fuel tank
-  description: A fuel tank. It's used to store high amounts of fuel.
+  name: "паливний бак"
+  description: "Паливний бак. Використовується для зберігання великої кількості пального."
   suffix: Empty
   components:
   - type: Sprite

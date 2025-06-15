@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseStructure
   id: N14TentLeatherWall
-  name: tent
-  description: A tent made out of leather.
+  name: "намет"
+  description: "Намет зі шкіри."
   components:
   - type: Sprite
     drawdepth: Walls
@@ -54,8 +54,8 @@
 - type: entity
   parent: N14TentLeatherWall
   id: N14TentClothWall
-  name: tent
-  description: A tent made out of cloth.
+  name: "намет"
+  description: "Намет з тканини."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/tents.rsi

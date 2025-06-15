@@ -2,7 +2,7 @@
   id: RMCBaseBush
   suffix: RMCBaseBush
   abstract: true
-  name: bush
+  name: "кущ"
   components:
   - type: SpriteFade
   - type: Clickable
@@ -42,7 +42,7 @@
   id: RMCBaseGrass
   suffix: RMCBaseGrass
   abstract: true
-  name: grass
+  name: "трава"
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_grass.rsi
@@ -52,7 +52,7 @@
   id: RMCBaseFlowers
   suffix: RMCBaseFlowers
   abstract: true
-  name: flowers
+  name: "квіти"
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_flowers.rsi
@@ -62,7 +62,7 @@
   id: RMCBaseRock
   suffix: RMCBaseRock
   abstract: true
-  name: rocks
+  name: "камені"
   components:
   - type: Sprite
     sprite: Decals/Flora/flora_rocks.rsi
@@ -852,8 +852,8 @@
   parent: RMCBaseBush
   id: RMCAlienBush1
   suffix: RMCAlienBush1
-  name: strange tree
-  description: Some kind of bizarre alien tree. It oozes with a sickly yellow sap.
+  name: "дивне дерево"
+  description: "Якесь дивне інопланетне дерево. Воно сочиться хворобливо-жовтим соком."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Flora/flora_plantalien.rsi
@@ -867,8 +867,8 @@
   parent: RMCBaseBush
   id: RMCStump1
   suffix: RMCFloraTreeStumpNoCol
-  name: tree stump
-  description: There used to be a tree here.
+  name: "пеньок"
+  description: "Раніше тут було дерево."
   components:
   - type: Sprite
     sprite: Objects/Decoration/Flora/flora_treessnow.rsi

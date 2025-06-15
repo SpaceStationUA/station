@@ -5,8 +5,8 @@
 - type: entity
   parent: SignBase
   id: SignBar2
-  name: bar sign
-  description: Bar! Get drunk here.
+  name: "вказівник бару"
+  description: "Бар! Напивайся тут."
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/signs_32x32.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: SignBar2
   id: SignClinic
-  name: clinic sign
-  description: A clinic sign. Hopefully they have meds.
+  name: "вказівник клініки"
+  description: "Вивіска клініки. Сподіваюся, у них є ліки."
   components:
   - type: Sprite
     state: clinic
@@ -28,8 +28,8 @@
 - type: entity
   parent: SignBar2
   id: SignOpen1
-  name: open sign
-  description: Open for business. Maybe.
+  name: "знак \"Відкрито"
+  description: "Відкрито для бізнесу. Можливо."
   components:
   - type: Sprite
     state: open
@@ -62,8 +62,8 @@
 - type: entity
   parent: SignBase
   id: SignForRent
-  name: for rent sign
-  description: A sign advertising a place for rent.
+  name: "вивіска \"Здається в оренду"
+  description: "Вивіска з оголошенням про оренду житла."
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/signs_32x32.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: SignBase
   id: SignNotice
-  name: notice sign
-  description: NOTICE!
+  name: "знак попередження"
+  description: "УВАГА!"
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/walldecor.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: SignNotice
   id: SignDanger2
-  name: danger sign
-  description: Danger.
+  name: "знак небезпеки"
+  description: "Небезпека."
   components:
   - type: Sprite
     state: danger_sign
@@ -91,8 +91,8 @@
 - type: entity
   parent: SignNotice
   id: WallDecorExitsign
-  name: exit sign
-  description: A sign that says EXIT. I wonder what it means.
+  name: "знак виходу"
+  description: "Вивіска з написом \"ВИХІД\". Цікаво, що це означає."
   components:
   - type: Sprite
     state: exit
@@ -102,8 +102,8 @@
 - type: entity
   parent: SignBar2
   id: SignBazaarOn
-  name: bazaar sign
-  description: A sign for a bazaar. How bizarre.
+  name: "базарна вивіска"
+  description: "Вивіска базару. Як дивно."
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/signs_64x32.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: SignBazaarOn
   id: SignHotel
-  name: hotel sign
-  description: A sign for a hotel. Get a room!
+  name: "вивіска готелю"
+  description: "Вивіска готелю. Зніміть номер!"
   components:
   - type: Sprite
     state: hotel
@@ -125,8 +125,8 @@
 - type: entity
   parent: SignBazaarOn
   id: SignPrivateProperty
-  name: private property sign
-  description: A private property sign.
+  name: "знак \"Приватна Власність"
+  description: "Знак приватної власності."
   components:
   - type: Sprite
     state: private
@@ -134,8 +134,8 @@
 - type: entity
   parent: SignBazaarOn
   id: SignOpenBig
-  name: open sign
-  description: We are open sign. I hope so.
+  name: "знак \"Відкрито"
+  description: "Ми відкриті. Сподіваюсь на це..."
   components:
   - type: Sprite
     state: we_open_open
@@ -147,8 +147,8 @@
 - type: entity
   parent: SignBazaarOn
   id: SignWorkersOnly
-  name: workers only sign
-  description: No tresspassing!
+  name: "знак \"Тільки для Працівників"
+  description: "Ніяких перехожих!"
   components:
   - type: Sprite
     state: workers

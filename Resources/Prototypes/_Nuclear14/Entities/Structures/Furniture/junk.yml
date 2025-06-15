@@ -85,8 +85,8 @@
 - type: entity
   parent: N14JunkWoodBase
   id: N14JunkDresser
-  name: broken dresser
-  description: Once held underwear. Now it's junk.
+  name: "зламаний комод"
+  description: "Колись це була нижня білизна. Тепер це мотлох."
   components:
   - type: Sprite
     state: junk_dresser
@@ -106,8 +106,8 @@
 - type: entity
   parent: N14JunkDresser
   id: N14JunkCabinet
-  name: broken cabinet
-  description: Once held clothes. Now it's junk.
+  name: "зламана шафа"
+  description: "Колись це був одяг. Тепер це мотлох."
   components:
   - type: Sprite
     state: junk_cabinet
@@ -115,8 +115,8 @@
 - type: entity
   parent: N14JunkDresser
   id: N14JunkTable
-  name: broken table
-  description: Ate without table, now I'm angry. Junk.
+  name: "зламаний стіл"
+  description: "Їв без столу, тепер злий. Сміття."
   components:
   - type: Sprite
     state: junk_table
@@ -125,8 +125,8 @@
 - type: entity
   parent: N14JunkMetalBase
   id: N14JunkMachine
-  name: broken machine
-  description: Rusty old machine. Now it's junk.
+  name: "зламана машина"
+  description: "Стара іржава машина. Тепер це мотлох."
   components:
   - type: Sprite
     state: junk_machine
@@ -157,8 +157,8 @@
 - type: entity
   parent: N14JunkMachine
   id: N14JunkMicrowave
-  name: broken microwave
-  description: Dirty old microwave. Now it's junk.
+  name: "зламана мікрохвильовка"
+  description: "Брудна стара мікрохвильовка. Тепер це мотлох."
   components:
   - type: Sprite
     state: junk_micro
@@ -166,8 +166,8 @@
 - type: entity
   parent: N14JunkMachine
   id: N14JunkJukebox
-  name: broken jukebox
-  description: An old destroyed jukebox. Now it's junk.
+  name: "зламаний музичний автомат"
+  description: "Старий зруйнований музичний автомат. Тепер це мотлох."
   components:
   - type: Sprite
     state: junk_jukebox
@@ -175,8 +175,8 @@
 - type: entity
   parent: N14JunkMetalBase
   id: N14JunkBed1
-  name: broken bed
-  description: An old bed with a holey mattress. Now it's junk.
+  name: "зламане ліжко"
+  description: "Старе ліжко з дірявим матрацом. Тепер це мотлох."
   components:
   - type: Sprite
     state: junk_bed1
@@ -184,8 +184,8 @@
 - type: entity
   parent: N14JunkMetalBase
   id: N14JunkBed2
-  name: broken bed
-  description: A rusty bed frame. Now it's junk.
+  name: "зламане ліжко"
+  description: "Іржавий каркас ліжка. Тепер це мотлох."
   components:
   - type: Sprite
     state: junk_bed2
@@ -193,8 +193,8 @@
 - type: entity
   parent: N14JunkMachine
   id: N14JunkTV
-  name: broken TV
-  description: An old television. Now it's junk.
+  name: "зламаний телевізор"
+  description: "Старий телевізор. Тепер це мотлох."
   components:
   - type: Sprite
     state: junk_tv
@@ -202,8 +202,8 @@
 - type: entity
   parent: N14JunkMachine
   id: N14JunkArcade
-  name: broken arcade game
-  description: An old arcade machine. Now it's junk.
+  name: "зламана аркадна гра"
+  description: "Старий ігровий автомат. Тепер це мотлох."
   components:
   - type: Sprite
     state: junk_arcade
@@ -211,8 +211,8 @@
 - type: entity
   parent: N14JunkMetalBase
   id: N14JunkUrinal
-  name: broken urinal
-  description: A broken stinky urinal.
+  name: "зламаний пісуар"
+  description: "Зламаний смердючий пісуар."
   components:
   - type: Sprite
     state: junk_urinal
@@ -220,8 +220,8 @@
 - type: entity
   parent: Mirror
   id: N14JunkMirror
-  name: broken mirror
-  description: Mirror mirror... I hope I don't get bad luck.
+  name: "розбите дзеркало"
+  description: "Дзеркало, дзеркало, дзеркало... Сподіваюся, мені не пощастить."
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Furniture/junk.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: N14JunkMetalBase
   id: N14JunkClock
-  name: broken clock
-  description: Out of time!
+  name: "зламаний годинник"
+  description: "Немає часу!"
   components:
   - type: Sprite
     state: junk_clock

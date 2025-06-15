@@ -1,6 +1,6 @@
 - type: entity
   id: BaseSpellbook
-  name: spellbook
+  name: "книга заклинань"
   parent: [BaseItem] # Goob edit
   abstract: true
   components:
@@ -29,7 +29,7 @@
 # Do not add discounts or price inflation
 - type: entity
   id: WizardsGrimoire
-  name: wizards grimoire
+  name: "гримуар чарівників"
   suffix: Wizard
   parent: [ BaseItem, StorePresetSpellbook ] # Goob edit
   components:
@@ -63,7 +63,7 @@
 # Not meant for wizard antag but meant for spawning, so people can't abuse refund if they were given a tome
 - type: entity
   id: WizardsGrimoireNoRefund
-  name: wizards grimoire
+  name: "гримуар чарівників"
   suffix: Wizard, No Refund
   parent: [ WizardsGrimoire, StorePresetSpellbook ]
   components:
@@ -75,7 +75,7 @@
 
 - type: entity
   id: SpawnSpellbook
-  name: spawn spellbook
+  name: "книга заклинань відтворення"
   parent: BaseSpellbook
   components:
     - type: Spellbook
@@ -84,7 +84,7 @@
 
 - type: entity
   id: ForceWallSpellbook
-  name: force wall spellbook
+  name: "книга заклинань силової стіни"
   parent: BaseSpellbook
   components:
     - type: Sprite
@@ -107,7 +107,7 @@
 
 - type: entity
   id: BlinkBook
-  name: blink spellbook
+  name: "книга заклинань блимання"
   parent: BaseSpellbook
   components:
     - type: Sprite
@@ -128,7 +128,7 @@
 
 - type: entity
   id: SmiteBook
-  name: smite spellbook
+  name: "книга заклинань удару"
   parent: BaseSpellbook
   components:
     - type: Sprite
@@ -151,7 +151,7 @@
 
 - type: entity
   id: KnockSpellbook
-  name: knock spellbook
+  name: "книга заклинань оглушення"
   parent: BaseSpellbook
   components:
     - type: Sprite
@@ -173,7 +173,7 @@
 
 - type: entity
   id: FireballSpellbook
-  name: fireball spellbook
+  name: "книга заклинань вогняної кулі"
   parent: BaseSpellbook
   components:
     - type: Sprite
@@ -197,7 +197,7 @@
 
 - type: entity
   id: ScrollRunes
-  name: scroll of traps # Goob edit
+  name: "сувій рун" # Goob edit
   parent: BaseSpellbook
   components:
   - type: Item

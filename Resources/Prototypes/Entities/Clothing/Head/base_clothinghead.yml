@@ -65,7 +65,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadLightBase
-  name: base helmet with light
+  name: "базовий шолом з підсвічуванням"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -124,7 +124,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadEVAHelmetBase
-  name: base space helmet
+  name: "базовий космічний шолом"
   components:
   - type: Item
     size: Normal
@@ -156,7 +156,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadEVAHelmetNoIngestionBlocker
-  name: base space helmet
+  name: "базовий космічний шолом"
   components:
   - type: Item
     size: Normal
@@ -187,7 +187,7 @@
   abstract: true
   # No parent since we aren't actually an item.
   id: ClothingHeadHardsuitBase
-  name: base hardsuit helmet
+  name: "базовий шолом скафандру"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -241,7 +241,7 @@
   abstract: true
   parent: ClothingHeadBase
   id: ClothingHeadEnvirohelmBase
-  name: base envirosuit helmet
+  name: "базовий шолом екокостюму"
   components:
   - type: Sprite
     layers:
@@ -341,7 +341,7 @@
   abstract: true
   parent: ClothingHeadEnvirohelmBase
   id: ClothingHeadEnvirohelmCustomBase
-  name: base custom envirosuit helmet
+  name: "базовий кастомний шолом для екокостюму"
   components:
   - type: ToggleableLightVisuals
     inhandVisuals:
@@ -403,7 +403,7 @@
   abstract: true
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHardsuitWithLightBase
-  name: base hardsuit helmet with light
+  name: "базовий шолом скафандру з підсвічуванням"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -454,8 +454,8 @@
 - type: entity
   abstract: true
   id: ClothingHeadHatHoodWinterBase
-  name: base winter coat hood
-  description: A hood, made to keep your head warm.
+  name: "капюшон базового зимового пальто"
+  description: "Капюшон, створений для того, щоб тримати голову в теплі."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

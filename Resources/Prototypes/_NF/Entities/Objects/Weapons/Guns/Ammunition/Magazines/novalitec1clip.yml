@@ -2,7 +2,7 @@
 - type: entity
   parent: BaseMagazineRifle
   id: MagazineNovaliteC1Empty
-  name: "clip (.20 rifle any)"
+  name: "обойма (будь-яка гвинтівка калібру .20)"
   suffix: empty
   components:
   - type: Tag
@@ -35,7 +35,7 @@
 - type: entity
   parent: MagazineNovaliteC1Empty
   id: MagazineNovaliteC1
-  name: "clip (.20 rifle)"
+  name: "обойма (гвинтівка калібру .20)"
   suffix: full
   components:
   - type: BallisticAmmoProvider
@@ -50,7 +50,7 @@
 - type: entity
   parent: MagazineNovaliteC1Empty
   id: MagazineNovaliteC1Rubber
-  name: "clip (.20 rifle rubber)"
+  name: "обойма (.20 гвинтівковий гумовий)"
   suffix: full
   components:
   - type: BallisticAmmoProvider

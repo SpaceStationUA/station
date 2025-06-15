@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStructure
   id: N14BaseFence
-  name: fence
-  description: Helps keep trespassers out.
+  name: "паркан"
+  description: "Допомагає не пускати сторонніх."
   placement:
     mode: SnapgridCenter
     snap:
@@ -34,7 +34,7 @@
 - type: entity
   parent: N14BaseFence
   id: N14WallFenceChain
-  name: chainlink fence
+  name: "огорожа з ланцюгової сітки"
   components:
   - type: Sprite
     sprite: _Nuclear14/Structures/Walls/nc14/fencechain.rsi

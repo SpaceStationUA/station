@@ -1,11 +1,11 @@
 - type: construction
-  name: log wall
+  name: "дерев'яна стіна"
   id: N14WoodWallLog
   graph: N14WoodWall
   startNode: start
   targetNode: logWall
   category: construction-category-structures
-  description: Home from home.
+  description: "Як у себе вдома"
   icon:
     sprite: _Nuclear14/Structures/Walls/nc14/woodlog.rsi
     state: full
@@ -19,13 +19,13 @@
 
 # # Doors
 - type: construction
-  name: wooden door
+  name: "дерев'яні двері"
   id: N14DoorWood
   graph: N14DoorGraph
   startNode: start
   targetNode: woodDoorMakeshift
   category: construction-category-structures
-  description: A primitive door with manual operation like the cavemen used.
+  description: "Примітивні двері з ручним керуванням, як у печерних людей."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false

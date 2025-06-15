@@ -1,8 +1,8 @@
 - type: entity
-  name: analgesic medipen
+  name: "анальгетичний медіпен"
   parent: ChemicalMedipen
   id: PainMedipen
-  description: A rapid dose of morphine and epinephrine to prepare patients for field surgery. One medipen gives 75 seconds of pain relief.
+  description: "Швидка доза морфіну та епінефрину для підготовки пацієнтів до польової хірургії. Один медіпен дає 75 секунд знеболення."
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/medipen.rsi
