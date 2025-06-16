@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: "Уріст МакВульп"
+  name: Urist McVulp
   parent: BaseMobSpeciesOrganic
   id: BaseMobVulpkanin
   abstract: true
@@ -11,6 +11,7 @@
     baseDecayRate: 0.02083333332 # 25% more than default
   - type: Carriable # Carrying system from nyanotrasen.
   - type: Inventory # Allows vulps to wear properly shaped helmets
+    templateId: vulpkanin #PIRATE
     speciesId: vulpkanin
   - type: Thirst
   - type: Icon
@@ -130,11 +131,11 @@
 
 - type: entity
   save: false
-  name: "Манекен Вульпи"
+  name: Vulpkanin Dummy
   parent: MobHumanDummy
   id: MobVulpkaninDummy
   categories: [ HideSpawnMenu ]
-  description: "Фіктивна вульпа, призначена для використання в налаштуванні персонажа."
+  description: A dummy vulpkanin meant to be used in character setup.
   components:
   - type: HumanoidAppearance
     species: Vulpkanin
@@ -143,4 +144,5 @@
     - HeadTop
     - HeadSide
   - type: Inventory
+    templateId: vulpkanin #PIRATE
     speciesId: vulpkanin

@@ -1,6 +1,6 @@
 # Metal Tiles
 - type: entity
-  name: "металева підлога синя"
+  name: metal floor blue
   parent: FloorTileItemBase
   id: FloorTileItemMetalBlue
   components:
@@ -16,7 +16,7 @@
     stackType: FloorTileMetalBlue
     
 - type: entity
-  name: "металева підлога синій суцільний"
+  name: metal floor blue solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalBlueSolid
   components:
@@ -32,7 +32,7 @@
     stackType: FloorTileMetalBlueSolid
     
 - type: entity
-  name: "металева підлога зелена"
+  name: metal floor green
   parent: FloorTileItemBase
   id: FloorTileItemMetalGreen
   components:
@@ -48,7 +48,7 @@
     stackType: FloorTileMetalGreen
     
 - type: entity
-  name: "металева підлога зелений суцільний"
+  name: metal floor green solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalGreenSolid
   components:
@@ -64,7 +64,7 @@
     stackType: FloorTileMetalGreenSolid
     
 - type: entity
-  name: "металева підлога сіра"
+  name: metal floor grey
   parent: FloorTileItemBase
   id: FloorTileItemMetalGrey
   components:
@@ -80,7 +80,7 @@
     stackType: FloorTileMetalGrey
     
 - type: entity
-  name: "металева підлога сіра суцільна"
+  name: metal floor grey solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalGreySolid
   components:
@@ -96,7 +96,7 @@
     stackType: FloorTileMetalGreySolid
     
 - type: entity
-  name: "металева підлога сіра темна"
+  name: metal floor grey dark
   parent: FloorTileItemBase
   id: FloorTileItemMetalGreyDark
   components:
@@ -112,7 +112,7 @@
     stackType: FloorTileMetalGreyDark
     
 - type: entity
-  name: "металева підлога сіра темна суцільна"
+  name: metal floor grey dark solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalGreyDarkSolid
   components:
@@ -128,7 +128,7 @@
     stackType: FloorTileMetalGreyDarkSolid
     
 - type: entity
-  name: "металева підлога фіолетовий"
+  name: metal floor purple
   parent: FloorTileItemBase
   id: FloorTileItemMetalPurple
   components:
@@ -144,7 +144,7 @@
     stackType: FloorTileMetalPurple
     
 - type: entity
-  name: "металева підлога фіолетовий суцільний"
+  name: metal floor purple solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalPurpleSolid
   components:
@@ -160,7 +160,7 @@
     stackType: FloorTileMetalPurpleSolid
     
 - type: entity
-  name: "металева підлога червона"
+  name: metal floor red
   parent: FloorTileItemBase
   id: FloorTileItemMetalRed
   components:
@@ -176,7 +176,7 @@
     stackType: FloorTileMetalRed
     
 - type: entity
-  name: "металева підлога червона суцільна"
+  name: metal floor red solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalRedSolid
   components:
@@ -192,7 +192,7 @@
     stackType: FloorTileMetalRedSolid
     
 - type: entity
-  name: "металевий підлоговий чирок"
+  name: metal floor teal
   parent: FloorTileItemBase
   id: FloorTileItemMetalTeal
   components:
@@ -208,7 +208,7 @@
     stackType: FloorTileMetalTeal
     
 - type: entity
-  name: "металева підлога teal solid"
+  name: metal floor teal solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalTealSolid
   components:
@@ -224,7 +224,7 @@
     stackType: FloorTileMetalTealSolid
     
 - type: entity
-  name: "металева підлога біла"
+  name: metal floor white
   parent: FloorTileItemBase
   id: FloorTileItemMetalWhite
   components:
@@ -240,7 +240,7 @@
     stackType: FloorTileMetalWhite
     
 - type: entity
-  name: "металева підлога біла суцільна"
+  name: metal floor white solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalWhiteSolid
   components:
@@ -256,7 +256,7 @@
     stackType: FloorTileMetalWhiteSolid
     
 - type: entity
-  name: "металева підлога жовта"
+  name: metal floor yellow
   parent: FloorTileItemBase
   id: FloorTileItemMetalYellow
   components:
@@ -272,7 +272,7 @@
     stackType: FloorTileMetalYellow
     
 - type: entity
-  name: "металева підлога жовта суцільна"
+  name: metal floor yellow solid
   parent: FloorTileItemBase
   id: FloorTileItemMetalYellowSolid
   components:
@@ -288,7 +288,7 @@
     stackType: FloorTileMetalYellowSolid
     
 - type: entity
-  name: "морозильна скриня з металевою підлогою"
+  name: metal floor freezer
   parent: FloorTileItemBase
   id: FloorTileItemMetalFreezer
   components:
@@ -306,7 +306,7 @@
 # Wood Tiles
 
 - type: entity
-  name: "дубова підлога"
+  name: oak wood floor
   parent: FloorTileItemBase
   id: FloorTileItemWoodOak
   components:
@@ -325,7 +325,7 @@
 #    node: woodtileoak
 
 - type: entity
-  name: "дерев'яна підлога в будинку"
+  name: house wood floor
   parent: FloorTileItemBase
   id: FloorTileItemWoodHouse
   components:
@@ -344,7 +344,7 @@
 #    node: woodtiledark
 
 - type: entity
-  name: "кленова підлога"
+  name: maple floor
   parent: FloorTileItemBase
   id: FloorTileItemWoodMaple
   components:
@@ -363,7 +363,7 @@
 #    node: woodtilelight
 
 - type: entity
-  name: "промислова підлога"
+  name: industrial floor
   parent: FloorTileItemBase
   id: FloorTileItemMetalIndustrial
   components:
@@ -379,7 +379,7 @@
     stackType: FloorTileMetalIndustrial
     
 - type: entity
-  name: "металева підлога"
+  name: metal floor
   parent: FloorTileItemBase
   id: FloorTileItemMetalMS13
   components:
@@ -395,7 +395,7 @@
     stackType: FloorTileMetalMS13
     
 - type: entity
-  name: "металева решітчаста підлога"
+  name: metal grate floor
   parent: FloorTileItemBase
   id: FloorTileItemMetalGrate
   components:
@@ -411,7 +411,7 @@
     stackType: FloorTileMetalGrate
     
 - type: entity
-  name: "металева суцільна підлога"
+  name: metal solid floor
   parent: FloorTileItemBase
   id: FloorTileItemMetalSolid
   components:
@@ -429,7 +429,7 @@
 # Carpets
 
 - type: entity
-  name: "червона доріжка"
+  name: red carpet
   parent: FloorTileItemBase
   id: FloorTileItemCarpetRed
   components:

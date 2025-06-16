@@ -1,9 +1,11 @@
 using Content.Shared._Pirate.Aiming.Events;
 using Content.Shared.CombatMode.Pacification;
+using Content.Shared.Hands;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Movement.Components;
+using Content.Shared.Movement.Events;
 using Content.Shared.Popups;
 using Content.Shared.Weapons.Ranged;
 using Content.Shared.Weapons.Ranged.Components;
@@ -16,51 +18,73 @@ namespace Content.Shared._Pirate.Aiming;
 public sealed partial class SharedCanTakeAimSystem : EntitySystem
 {
     [Dependency] private readonly SharedPopupSystem _popup = default!;
-    [Dependency] private readonly EntityManager _entMan = default!;
     [Dependency] private readonly SharedGunSystem _gun = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly IGameTiming _timing = default!;
+    [Dependency] private readonly SharedInteractionSystem _interact = default!;
     public override void Initialize()
     {
         base.Initialize();
         SubscribeLocalEvent<CanTakeAimComponent, AfterInteractEvent>(OnWeaponTakeAim);
         SubscribeLocalEvent<CanTakeAimComponent, OnAimingTargetMoveEvent>(OnAimingTargetMove);
         SubscribeLocalEvent<CanTakeAimComponent, AmmoShotEvent>(OnAmmoShot);
+        SubscribeLocalEvent<CanTakeAimComponent, DroppedEvent>(OnDropped);
     }
-    private void OnAmmoShot(EntityUid uid, CanTakeAimComponent component, AmmoShotEvent args)
+    public override void Update(float frameTime)
     {
-        if (component.User != null)
+        base.Update(frameTime);
+        var query = EntityQueryEnumerator<CanTakeAimComponent>();
+        while (query.MoveNext(out var uid, out var comp))
         {
-            var ev = new OnAimerShootingEvent(uid, component.User.Value);
-            foreach (var entity in component.AimingAt.ToArray())
+            if (comp.User == null)
+                continue;
+            if (!comp.IsAiming)
+                continue;
+            foreach (var target in comp.AimingAt.ToArray())
             {
-                if (HasComp<OnSightComponent>(entity))
+                if (!_interact.InRangeAndAccessible(comp.User.Value, target))
                 {
-                    RaiseLocalEvent(entity, ev);
+                    if (!TryComp<OnSightComponent>(target, out var onSightComp))
+                        continue;
+                    RemoveComponentOnTarget(target, new Entity<CanTakeAimComponent>(uid, comp));
+                    continue;
                 }
             }
-            component.IsAiming = false;
-            component.AimingAt.Clear();
-            Dirty(uid, component);
+            UpdateIsAiming(comp);
         }
-        // TODO: Add damage multiplying
-        // foreach (var entity in args.FiredProjectiles)
-        // {
-        // if (TryComp<ProjectileComponent>(entity, out var projectile))
-        // {
-        //     var deltaT = (_timing.CurFrame - component.AimStartFrame) * _timing.FramesPerSecondAvg;
-        //     Logger.Debug($"Delta T: {deltaT}s");
-        //     projectile.Damage *= component.MaxDamageMultiplier * (component.MaxAimTime / deltaT);
+    }
 
-        //     Dirty(entity, projectile);
-        // }
-        // }
+    private void OnDropped(EntityUid uid, CanTakeAimComponent component, DroppedEvent args)
+    {
+        foreach (var target in component.AimingAt.ToArray())
+        {
+            RemoveComponentOnTarget(target, new Entity<CanTakeAimComponent>(uid, component));
+        }
+        UpdateIsAiming(component);
+    }
+
+    private void OnAmmoShot(EntityUid uid, CanTakeAimComponent comp, AmmoShotEvent args)
+    {
+        if (comp.User != null)
+        {
+            foreach (var entity in comp.AimingAt.ToArray())
+            {
+                RemoveComponentOnTarget(entity, new Entity<CanTakeAimComponent>(uid, comp));
+            }
+            comp.AimingAt.Clear();
+            UpdateIsAiming(comp);
+        }
+
     }
 
     private void OnAimingTargetMove(EntityUid uid, CanTakeAimComponent component, OnAimingTargetMoveEvent args)
     {
+        if (!component.IsAiming)
+            return;
+        if (!component.AimingAt.Contains(args.Target))
+            return;
+
         component.IsAiming = false;
-        Dirty(uid, component);
         if (!TryComp<GunComponent>(uid, out var gunComp))
             return;
         var targetCoords = _transform.ToCoordinates(_transform.GetMapCoordinates(args.Target));
@@ -144,34 +168,31 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
     }
     public void OnWeaponTakeAim(EntityUid uid, CanTakeAimComponent component, ref AfterInteractEvent args)
     {
+        component.User = args.User;
         if (args.Target == null)
             return;
         if (args.Target == args.User)
             return;
-        component.User = args.User;
-
-        if (_entMan.TryGetComponent<PacifiedComponent>(args.User, out _))
+        if (!HasComp<MobMoverComponent>(args.Target))
+            return;
+        if (HasComp<PacifiedComponent>(args.User))
         {
-            _popup.PopupClient(Loc.GetString("pacified-cannot-aim"), args.User, args.User, PopupType.Medium);
+            _popup.PopupClient("Я просто не можу наставити зброю на когось", args.User, PopupType.Medium);
             return;
         }
-
         if (!args.CanReach)
         {
             _popup.PopupClient("Я не зможу попасти в ціль звідси...", args.User, PopupType.Medium);
             return;
         }
-        if (!HasComp<MobMoverComponent>(args.Target))
-            return;
         if (!TryComp<MetaDataComponent>(args.User, out var userMetaComp) || !TryComp<MetaDataComponent>(args.Target, out var targetMetaComp))
             return;
         if (component.IsAiming)
         {
             if (HasComp<OnSightComponent>(args.Target))
             {
-                RemComp<OnSightComponent>(args.Target.Value);
-                _popup.PopupPredicted($"{userMetaComp.EntityName} stopped aiming at {targetMetaComp.EntityName}.", args.Target.Value, args.Target.Value, PopupType.Large);
-                component.IsAiming = false;
+                RemoveComponentOnTarget(args.Target.Value, new Entity<CanTakeAimComponent>(uid, component));
+                UpdateIsAiming(component);
             }
             return;
         }
@@ -182,10 +203,9 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
             return;
 
         component.AimStartFrame = _timing.CurFrame;
-        if (!component.AimingAt.Contains(args.Target.Value))
-            component.AimingAt.Add(args.Target.Value);
+        EnsureAimingAt(args.Target.Value, component);
         EnsureComponentOnTarget(args.Target.Value, uid, args.User);
-        component.IsAiming = true;
+        UpdateIsAiming(component);
         _popup.PopupPredicted($"{userMetaComp.EntityName} is aiming at {targetMetaComp.EntityName}!", args.Target.Value, args.Target.Value, PopupType.LargeCaution);
 
     }
@@ -197,7 +217,34 @@ public sealed partial class SharedCanTakeAimSystem : EntitySystem
 
         if (!onSigthComp.AimedAtBy.Contains(userUid))
             onSigthComp.AimedAtBy.Add(userUid);
-        Dirty(target, onSigthComp);
     }
-
+    private void RemoveComponentOnTarget(EntityUid target, Entity<CanTakeAimComponent> ent)
+    {
+        if (TryComp<MetaDataComponent>(ent.Comp.User, out var userMetaComp) && TryComp<MetaDataComponent>(target, out var targetMetaComp))
+            if (userMetaComp != null && targetMetaComp != null)
+                _popup.PopupPredicted($"{userMetaComp.EntityName} stopped aiming at {targetMetaComp.EntityName}.", target, target, PopupType.Large);
+        if (ent.Comp.User == null)
+            return;
+        var ev = new OnAimerShootingEvent(ent.Owner, ent.Comp.User.Value);
+        if (!TryComp<CanTakeAimComponent>(ev.Gun, out var canTakeAimComp))
+            return;
+        if (HasComp<OnSightComponent>(target))
+        {
+            RaiseLocalEvent(target, ev);
+            canTakeAimComp.AimingAt.Remove(target);
+            return;
+        }
+    }
+    private void EnsureAimingAt(EntityUid target, CanTakeAimComponent component)
+    {
+        if (!component.AimingAt.Contains(target))
+            component.AimingAt.Add(target);
+    }
+    private void UpdateIsAiming(CanTakeAimComponent comp)
+    {
+        if (comp.AimingAt.Count > 0)
+            comp.IsAiming = true;
+        else
+            comp.IsAiming = false;
+    }
 }

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: DoorRemoteDefault
-  name: "пульт від дверей"
-  description: "Гаджет, який може дистанційно відчиняти та зачиняти двері."
+  name: door remote
+  description: A gadget which can open and bolt doors remotely.
   abstract: true
   components:
   - type: Sprite
@@ -17,7 +17,7 @@
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteCommand
-  name: "пульт від командних дверей"
+  name: command door remote
   components:
   - type: Sprite
     layers:
@@ -33,7 +33,7 @@
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteSecurity
-  name: "пульт від захисних дверей"
+  name: security door remote
   components:
   - type: Sprite
     layers:
@@ -49,7 +49,7 @@
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteArmory
-  name: "пульт від дверей арсеналу"
+  name: armory door remote
   components:
   - type: Sprite
     layers:
@@ -65,7 +65,7 @@
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteService
-  name: "пульт від службових дверей"
+  name: service door remote
   components:
   - type: Sprite
     layers:
@@ -81,7 +81,7 @@
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteResearch
-  name: "пульт від дослідницьких дверей"
+  name: research door remote
   components:
   - type: Sprite
     layers:
@@ -97,7 +97,7 @@
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteCargo
-  name: "логістичний пульт для дверей" # DeltaV - Logistics Department replacing Cargo
+  name: logistics door remote # DeltaV - Logistics Department replacing Cargo
   components:
   - type: Sprite
     layers:
@@ -113,7 +113,7 @@
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteMedical
-  name: "пульт для медичних дверей"
+  name: medical door remote
   components:
   - type: Sprite
     layers:
@@ -129,7 +129,7 @@
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteEngineering
-  name: "пульт для інженерних дверей"
+  name: engineering door remote
   components:
   - type: Sprite
     layers:
@@ -145,8 +145,8 @@
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteFirefight
-  name: "пульт для протипожежних дверей"
-  description: "Гаджет, який може дистанційно відчиняти та зачиняти FireDoors."
+  name: fire-fighting door remote
+  description: A gadget which can open and bolt FireDoors remotely.
   components:
     - type: Sprite
       layers:
@@ -163,7 +163,7 @@
 - type: entity
   parent: DoorRemoteDefault
   id: DoorRemoteAll
-  name: "пульт дистанційного керування для супер-дверей"
+  name: super door remote
   suffix: Admeme
   components:
   - type: Sprite

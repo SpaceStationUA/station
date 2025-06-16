@@ -1,8 +1,8 @@
 - type: entity
   parent: HandLabeler
   id: FishLabeler
-  name: "етикетувальник риби"
-  description: "Ручний етикетувальник, модифікований для давання імен вашим рибкам."
+  name: fish labeler
+  description: A hand labeler modified for naming your fish.
   components:
   - type: HandLabeler
     whitelist:

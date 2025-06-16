@@ -215,8 +215,10 @@
 
 - type: marking
   id: LizardHeadTiger
-  bodyPart: Head
-  markingCategory: Head
+  # PIRATE START
+  bodyPart: HeadTop
+  markingCategory: Face
+  # PIRATE END
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: Mobs/Customization/reptilian_parts.rsi

@@ -10,10 +10,10 @@ public sealed partial class OnSightComponent : Component
     /// <summary>
     /// List of guns uids that are aiming at this entity.
     /// </summary>
-    [DataField] public List<EntityUid> AimedAtWith = new();
+    public List<EntityUid> AimedAtWith = new();
     /// <summary>
     /// List of actual players that are aiming at this entity.
     /// </summary>
-    [DataField] public List<EntityUid> AimedAtBy = new();
+    public List<EntityUid> AimedAtBy = new();
 
 }

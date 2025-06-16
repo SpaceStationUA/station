@@ -1,8 +1,8 @@
 - type: entity
-  name: "Меч"
+  name: Sword
   parent: BaseItem
   id: BaseSword
-  description: "Гострий меч."
+  description: A sharp sword.
   abstract: true
   components:
   - type: Sharp
@@ -19,10 +19,10 @@
       - Knife
 
 - type: entity
-  name: "шабля капітана"
+  name: captain's sabre
   parent: BaseSword
   id: CaptainSabre
-  description: "Церемоніальна зброя, що належить капітану станції."
+  description: A ceremonial weapon belonging to the captain of the station.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/captain_sabre.rsi
@@ -67,10 +67,10 @@
     # not putting a BlockMovement component here cause that's funny.
 
 - type: entity
-  name: "катана"
+  name: katana
   parent: BaseSword
   id: Katana
-  description: "Старовинний ремісничий виріб із не такої вже й давньої пласталі."
+  description: Ancient craftwork made with not so ancient plasteel.
   components:
   - type: Tag
     tags:
@@ -104,10 +104,10 @@
   - type: DisarmMalus
 
 - type: entity
-  name: "енергетична катана"
+  name: energy katana
   parent: Katana
   id: EnergyKatana
-  description: "Катана, наповнена сильною енергією."
+  description: A katana infused with strong energy.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/energykatana.rsi
@@ -140,10 +140,10 @@
     velocityBeforeMinProb: 10.0
 
 - type: entity
-  name: "мачете"
+  name: machete
   parent: BaseSword
   id: Machete
-  description: "Велике, злісне на вигляд лезо."
+  description: A large, vicious looking blade.
   components:
   - type: Tag
     tags:
@@ -175,10 +175,10 @@
     sprite: Objects/Weapons/Melee/machete.rsi
 
 - type: entity
-  name: "клеймор"
+  name: claymore
   parent: BaseSword
   id: Claymore
-  description: "Стародавній бойовий клинок."
+  description: An ancient war blade.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Melee/claymore.rsi
@@ -214,10 +214,10 @@
     - back
 
 - type: entity
-  name: "шабля"
+  name: cutlass
   parent: BaseSword
   id: Cutlass
-  description: "Зловісно вигнуте лезо, яке часто можна побачити в руках космічних піратів."
+  description: A wickedly curved blade, often seen in the hands of space pirates.
   components:
   - type: Tag
     tags:
@@ -250,10 +250,10 @@
     sprite: Objects/Weapons/Melee/cutlass.rsi
 
 - type: entity
-  name: "Розбишака"
+  name: The Throngler
   parent: BaseSword
   id: Throngler
-  description: "Навіщо комусь це робити?"
+  description: Why would someone make this?
   components:
     - type: Sprite
       sprite: Objects/Weapons/Melee/Throngler2.rsi

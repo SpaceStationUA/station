@@ -1,0 +1,222 @@
+# PIRATE - Slime-specific ears and tails for SlimePerson species with followSkinColor
+
+# Slime Ears (HeadTop) - using existing textures with slime coloring
+
+- type: marking
+  id: SlimeEarsBasic
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Mobs/Customization/cat_parts.rsi
+    state: ears_cat_outer
+  - sprite: Mobs/Customization/cat_parts.rsi
+    state: ears_cat_inner
+
+- type: marking
+  id: SlimeCatEars
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Mobs/Customization/cat_parts.rsi
+    state: ears_cat_outer
+  - sprite: Mobs/Customization/cat_parts.rsi
+    state: ears_cat_inner
+
+- type: marking
+  id: SlimeBunnyEars
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Mobs/Customization/kemonomimi-ears.rsi
+    state: bunnyearstone1
+  - sprite: Mobs/Customization/kemonomimi-ears.rsi
+    state: bunnyearstone2
+
+- type: marking
+  id: SlimeFoxEars
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Mobs/Customization/kemonomimi-ears.rsi
+    state: foxears
+
+- type: marking
+  id: SlimeEarsCurled
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+    state: curled_outer
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+    state: curled_inner
+
+- type: marking
+  id: SlimeEarsDroopy
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+    state: droopy_outer
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+    state: droopy_inner
+
+- type: marking
+  id: SlimeEarsStubby
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+    state: stubby_outer
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+    state: stubby_inner
+
+- type: marking
+  id: SlimeEarsTall
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+    state: tall_outer
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+    state: tall_inner
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+    state: tall_fuzz
+
+- type: marking
+  id: SlimeEarsWide
+  bodyPart: HeadTop
+  markingCategory: HeadTop
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+    state: wide_outer
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
+    state: wide_inner
+
+
+
+# Slime Tails - using existing tail textures with slime coloring
+
+- type: marking
+  id: SlimeTailBasic
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Mobs/Customization/cat_parts.rsi
+    state: tail_cat
+
+- type: marking
+  id: SlimeCatTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Mobs/Customization/cat_parts.rsi
+    state: tail_cat
+
+- type: marking
+  id: SlimeBunnyTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Mobs/Customization/kemonomimi-tails.rsi
+    state: bunnytail
+
+- type: marking
+  id: SlimeFluffyTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Mobs/Customization/kemonomimi-tails.rsi
+    state: fluffytail
+
+- type: marking
+  id: SlimeSharkTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Mobs/Customization/kemonomimi-tails.rsi
+    state: sharktail
+
+- type: marking
+  id: SlimeFelinidTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+    state: basic_tail_tip
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+    state: basic_tail_stripes_even
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+    state: basic_tail_stripes_odd
+
+- type: marking
+  id: SlimeFelinidTailWithBow
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [SlimePerson]
+  followSkinColor: true
+  sprites:
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+    state: basic_tail_tip
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+    state: basic_tail_stripes_even
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+    state: basic_tail_stripes_odd
+  - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
+    state: basic_bow
+
+
+# TODO:
+
+#- type: marking
+#  id: SlimeEarsBubble
+#  bodyPart: HeadTop
+#  markingCategory: HeadTop
+#  speciesRestriction: [SlimePerson]
+#  followSkinColor: true
+#  sprites:
+#  - sprite: Mobs/Customization/cat_parts.rsi
+#    state: ears_cat_outer
+#  - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
+#    state: bubble
+
+#- type: marking
+#  id: SlimeTailBubble
+#  bodyPart: Tail
+#  markingCategory: Tail
+#  speciesRestriction: [SlimePerson]
+#  followSkinColor: true
+#  sprites:
+#  - sprite: Mobs/Customization/cat_parts.rsi
+#    state: tail_cat
+#  - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
+#    state: bubble

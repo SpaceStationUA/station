@@ -1,6 +1,7 @@
 using System.Globalization;
 using System.Linq;
 using System.Numerics;
+using System.Text.RegularExpressions; // #PIRATE CHANGES
 using Content.Client.Administration.Managers;
 using Content.Client.Chat;
 using Content.Client.Chat.Managers;
@@ -15,6 +16,7 @@ using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Screens;
 using Content.Client.UserInterface.Systems.Chat.Widgets;
 using Content.Client.UserInterface.Systems.Gameplay;
+using Content.Client._Pirate.PingName; // #PIRATE CHANGES
 using Content.Shared.Administration;
 using Content.Shared.CCVar;
 using Content.Shared.Chat;
@@ -67,6 +69,7 @@ public sealed class ChatUIController : UIController
     [UISystemDependency] private readonly TransformSystem? _transform = default;
     [UISystemDependency] private readonly MindSystem? _mindSystem = default!;
     [UISystemDependency] private readonly RoleCodewordSystem? _roleCodewordSystem = default!;
+    [UISystemDependency] private readonly PingNameSystem? _pingNameSystem = default!; // #PIRATE CHANGES
 
     [ValidatePrototypeId<ColorPalettePrototype>]
     private const string ChatNamePalette = "ChatNames";
@@ -838,6 +841,15 @@ public sealed class ChatUIController : UIController
 
     public void ProcessChatMessage(ChatMessage msg, bool speechBubble = true)
     {
+        // PIRATE CHANGES START HERE
+        if (_pingNameSystem != null)
+        {
+            // Check if the message is from the local player
+            var isFromSelf = _player.LocalEntity != null && msg.SenderEntity == _ent.GetNetEntity(_player.LocalEntity.Value);
+            msg.WrappedMessage = _pingNameSystem.HighlightNamesInMessage(msg.WrappedMessage, isFromSelf);
+        }
+        // PIRATE CHANGES END HERE
+
         // color the name unless it's something like "the old man"
         if ((msg.Channel == ChatChannel.Local || msg.Channel == ChatChannel.Whisper) && _chatNameColorsEnabled)
         {

@@ -1,7 +1,7 @@
 - type: entity
   id: PartXelthia
   parent: [BaseItem, BasePart]
-  name: "частина тіла зелтії"
+  name: "xelthia body part"
   abstract: true
   components:
   - type: Extractable
@@ -14,7 +14,7 @@
 
 - type: entity
   id: TorsoXelthia
-  name: "торс зелтії"
+  name: "xelthia torso"
   parent: [PartXelthia, BaseTorso]
   components:
   - type: Sprite
@@ -30,7 +30,7 @@
 
 - type: entity
   id: HeadXelthia
-  name: "голова зелтії"
+  name: "xelthia head"
   parent: [PartXelthia, BaseHead]
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 
 - type: entity
   id: LeftArmXelthia
-  name: "ліва рука зелтії"
+  name: "left xelthia arm"
   parent: [PartXelthia, BaseLeftArm]
   components:
   - type: Sprite
@@ -55,7 +55,7 @@
 
 - type: entity
   id: RightArmXelthia
-  name: "права рука зелтії"
+  name: "right xelthia arm"
   parent: [PartXelthia, BaseRightArm]
   components:
   - type: Sprite
@@ -64,7 +64,7 @@
 
 - type: entity
   id: LeftHandXelthia
-  name: "ліва кисть зелтії"
+  name: "left xelthia hand"
   parent: [PartXelthia, BaseLeftHand]
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
 
 - type: entity
   id: RightHandXelthia
-  name: "права кисть зелтії"
+  name: "right xelthia hand"
   parent: [PartXelthia, BaseRightHand]
   components:
   - type: Sprite
@@ -82,7 +82,7 @@
 
 - type: entity
   id: LeftLegXelthia
-  name: "ліва нога зелтії"
+  name: "left xelthia leg"
   parent: [PartXelthia, BaseLeftLeg]
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 
 - type: entity
   id: RightLegXelthia
-  name: "права нога зелтії"
+  name: "right xelthia leg"
   parent: [PartXelthia, BaseRightLeg]
   components:
   - type: Sprite
@@ -100,7 +100,7 @@
 
 - type: entity
   id: LeftFootXelthia
-  name: "ліва ступня зелтії"
+  name: "left xelthia foot"
   parent: [PartXelthia, BaseLeftFoot]
   components:
   - type: Sprite
@@ -109,7 +109,7 @@
 
 - type: entity
   id: RightFootXelthia
-  name: "права ступня зелтії"
+  name: "right xelthia foot"
   parent: [PartXelthia, BaseRightFoot]
   components:
   - type: Sprite

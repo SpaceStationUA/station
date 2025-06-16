@@ -1,8 +1,8 @@
 - type: entity
   id: KitchenDeepFryer
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: "фритюрниця"
-  description: "Промислова фритюрниця. Великий хіт на державних ярмарках!"
+  name: deep fryer
+  description: An industrial deep fryer. A big hit at state fairs!
   components:
   - type: Transform
     noRot: false

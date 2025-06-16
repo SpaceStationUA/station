@@ -2,7 +2,7 @@
   id: HumanoidEyebags
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Dwarf, Human, SlimePerson, Felinid, Oni, Harpy, Reptilian, Vulpkanin, Arachne, Lamia, Tajaran]
+  speciesRestriction: [Dwarf, Human, SlimePerson, Felinid, Oni, Harpy, Vulpkanin, Arachne, Lamia, Tajaran] # PIRATE
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
     state: eyebags
@@ -21,7 +21,7 @@
   id: EyebrowsBig
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Dwarf, Human, SlimePerson, Felinid, Oni, Harpy, Reptilian, Vulpkanin, Arachne, Lamia, Tajaran]
+  speciesRestriction: [Dwarf, Human, SlimePerson, Felinid, Oni, Harpy, Vulpkanin, Arachne, Lamia, Tajaran] # PIRATE
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
     state: eyebrowsthick
@@ -30,7 +30,7 @@
   id: EyebrowsBigger
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Dwarf, Human, SlimePerson, Felinid, Oni, Harpy, Reptilian, Vulpkanin, Arachne, Lamia, Tajaran]
+  speciesRestriction: [Dwarf, Human, SlimePerson, Felinid, Oni, Harpy, Vulpkanin, Arachne, Lamia, Tajaran] # PIRATE
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
     state: eyebrowsultra
@@ -39,7 +39,7 @@
   id: EyebrowsUnibrow
   bodyPart: Head
   markingCategory: Head
-  speciesRestriction: [Dwarf, Human, SlimePerson, Felinid, Oni, Harpy, Reptilian, Vulpkanin, Arachne, Lamia, Tajaran]
+  speciesRestriction: [Dwarf, Human, SlimePerson, Felinid, Oni, Harpy, Vulpkanin, Arachne, Lamia, Tajaran] # PIRATE
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
     state: eyebrowsunibrow
@@ -77,8 +77,8 @@
 
 - type: marking
   id: ScarTalons
-  bodyPart: Head
-  markingCategory: Head
+  bodyPart: HeadTop # PIRATE
+  markingCategory: Face # PIRATE
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
@@ -86,8 +86,8 @@
 
 - type: marking
   id: ScarSlash
-  bodyPart: Head
-  markingCategory: Head
+  bodyPart: HeadTop # PIRATE
+  markingCategory: Face # PIRATE
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi
@@ -95,8 +95,8 @@
 
 - type: marking
   id: BadMoltHead
-  bodyPart: Head
-  markingCategory: Head
+  bodyPart: HeadTop # PIRATE
+  markingCategory: Face # PIRATE
   speciesRestriction: [Reptilian]
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle2.rsi

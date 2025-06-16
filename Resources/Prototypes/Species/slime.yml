@@ -15,6 +15,7 @@
     Face: MobHumanoidAnyMarking
     Head: MobSlimeHead
     HeadSide: MobHumanoidAnyMarking
+    HeadTop: MobHumanoidAnyMarking # PIRATE - Added HeadTop mapping for slime ears
     Hair: MobSlimeMarkingFollowSkin
     FacialHair: MobSlimeMarkingFollowSkin
     Underwear: MobHumanoidAnyMarking
@@ -29,19 +30,34 @@
     RLeg: MobSlimeRLeg
     LFoot: MobSlimeLFoot
     RFoot: MobSlimeRFoot
+    Tail: MobHumanoidAnyMarking # PIRATE - Added Tail mapping for slime tails
 
 - type: markingPoints
   id: MobSlimeMarkingLimits
   points:
+  # PIRATE START
+    Head:
+      points: 2
+      required: false
+    Face:
+      points: 3
+      required: false
+  # PIRATE END
     Hair:
       points: 1
       required: false
     HeadSide:
       points: 6
       required: false
+    HeadTop: # PIRATE - Added HeadTop support for slime ears
+      points: 1 # PIRATE
+      required: false # PIRATE
     FacialHair:
       points: 1
       required: false
+    Tail: # PIRATE - Added Tail support for slime tails
+      points: 1 # PIRATE
+      required: false # PIRATE
     Chest:
       points: 6
       required: false

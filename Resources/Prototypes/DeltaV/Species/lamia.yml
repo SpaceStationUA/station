@@ -1,6 +1,6 @@
 - type: species
   id: Lamia
-  name: "Ламіа"
+  name: Lamia
   roundStart: true
   prototype: MobLamia
   dollPrototype: MobLamiaDummy
@@ -15,6 +15,14 @@
 - type: markingPoints
   id: MobLamiaMarkingLimits
   points:
+  # PIRATE START
+    Head:
+      points: 2
+      required: false
+    Face:
+      points: 3
+      required: false
+  # PIRATE END
     Hair:
       points: 1
       required: false

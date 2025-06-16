@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: "магмова рука"
+  name: magma hand
   id: MobMagmaHand
   parent: [ LavalandMobBase, MobCombat ]
-  description: "Виглядає гарячою на дотик... Краще не тиснути їй руку!"
+  description: Looks hot to the touch... Better not shake its hand!
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -112,11 +112,11 @@
       task: SimpleHostileCompound
 
 - type: entity
-  name: "спостерігач"
+  name: watcher
   id: MobWatcherBase
   parent: [ SimpleSpaceMobBase, FlyingMobBase ]
   abstract: true
-  description: "Він ніби дивиться крізь тебе."
+  description: It's like its staring right through you.
   components:
   - type: NpcFactionMember
     factions:
@@ -204,7 +204,7 @@
 - type: entity
   id: MobWatcherIcewing
   parent: MobWatcherBase
-  name: "льодокрилий спостерігач"
+  name: icewing watcher
   components:
   - type: Sprite
     layers:
@@ -222,7 +222,7 @@
 - type: entity
   id: MobWatcherMagmawing
   parent: MobWatcherBase
-  name: "магмакрилий спостерігач"
+  name: magmawing watcher
   components:
   - type: Sprite
     layers:
@@ -243,9 +243,9 @@
 - type: entity
   id: MobWatcherPride
   parent: MobWatcherBase
-  name: "прайдокрилий спостерігач"
+  name: pride watcher
   suffix: Admeme
-  description: "Цей рідкісний підвид з'являється лише в червні."
+  description: This rare subspecies only appears in June.
   components:
   - type: Sprite
     layers:

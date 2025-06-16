@@ -1,8 +1,8 @@
 - type: entity
   id: CrateServiceJanitorialSupplies
   parent: CratePlastic
-  name: "ящик з інвентарем прибиральника"
-  description: "Дайте відсіч бруду та жиру за допомогою Засобів для Прибирання від Nanotrasen(tm)! Містить три відра, попереджувальні знаки та чистячі гранати. Також є одна швабра, мітла, аерозольний очищувач, ганчірка та мішок для сміття."
+  name: janitorial supplies crate
+  description: Fight back against dirt and grime with Nanotrasen's Janitorial Essentials(tm)! Contains three buckets, caution signs, and cleaner grenades. Also has a single mop, broom, spray cleaner, rag, and trash bag.
   components:
   - type: StorageFill
     contents:
@@ -24,8 +24,8 @@
 - type: entity
   id: CrateServiceReplacementLights
   parent: CrateGenericSteel
-  name: "ящик з запасними лампами"
-  description: "Нехай світло Ефіру осяє цю станцію! Або, принаймні, світло сорока двох ламп і двадцяти однієї лампочки."
+  name: replacement lights crate
+  description: May the light of Aether shine upon this station! Or at least, the light of forty two light tubes and twenty one light bulbs.
   components:
   - type: StorageFill
     contents:
@@ -35,8 +35,8 @@
 - type: entity
   id: CrateMousetrapBoxes
   parent: CrateGenericSteel
-  name: "ящик з мишоловками"
-  description: "Мишоловки, для випадків, коли увесь персонал переслідує ціла орда щурів. Використовуйте економно... або ні."
+  name: mousetraps crate
+  description: Mousetraps, for when all of service is being haunted by an entire horde of rats. Use sparingly... or not.
   components:
     - type: StorageFill
       contents:
@@ -45,8 +45,8 @@
 - type: entity
   id: CrateServiceSmokeables
   parent: CrateGenericSteel
-  name: "ящик з тютюновими виробами"
-  description: "Набридла швидка смерть на станції? Замовляйте цей ящик і викурюйте свій шлях до кашляючої смерті!"
+  name: smokeables crate
+  description: Tired of a quick death on the station? Order this crate and chain-smoke your way to a coughy demise!
   components:
   - type: StorageFill
     contents:
@@ -71,8 +71,8 @@
 - type: entity
   id: CrateServiceTheatre
   parent: CrateGenericSteel
-  name: "ящик для театральних вистав"
-  description: "Містить плащ молі, перукарські ножиці, форму покоївки, клоунські та мімічні атрибути, а також інше для виступу."
+  name: theatrical performances crate
+  description: Contains a moth cloak, barber scissors, maid uniform, clown and mime attributes, and other performance charms.
   components:
   - type: StorageFill
     contents:
@@ -96,8 +96,8 @@
 - type: entity
   id: CrateServiceCustomSmokable
   parent: CrateGenericSteel
-  name: "ящик курильних сумішей \"зроби сам"
-  description: "Хочете трохи покреативити з тим, що ви використовуєте, щоб знищити свої легені? Тоді цей ящик для вас! Тут є все необхідне для того, щоб крутити сигарети власноруч."
+  name: DIY smokeables crate
+  description: Want to get a little creative with what you use to destroy your lungs? Then this crate is for you! Has everything you need to roll your own cigarettes.
   components:
   - type: StorageFill
     contents:
@@ -112,8 +112,8 @@
 - type: entity
   id: CrateServiceBureaucracy
   parent: CrateGenericSteel
-  name: "ящик з бюрократією"
-  description: "Кілька стосів паперу, кілька ручок та офісна іграшка. Що ще треба для щастя?"
+  name: bureaucracy crate
+  description: Several stacks of paper, a few pens and an office toy. What more could you ask for?
   components:
   - type: StorageFill
     contents:
@@ -132,8 +132,8 @@
 - type: entity
   id: CrateServicePersonnel
   parent: CrateCommandSecure
-  name: "ящик для персоналу"
-  description: "Містить коробки з пустими посвідченнями особи та КПК."
+  name: personnel crate
+  description: Contains a box of blank ID cards and PDAs.
   components:
   - type: StorageFill
     contents:
@@ -143,8 +143,8 @@
 - type: entity
   id: CrateServiceBooks
   parent: CrateGenericSteel
-  name: "ящик з книгами"
-  description: "Містить 10 порожніх книг випадкового вигляду."
+  name: books crate
+  description: Contains 10 empty books of random appearance.
   components:
     - type: StorageFill
       contents:
@@ -154,8 +154,8 @@
 - type: entity
   id: CrateServiceGuidebooks
   parent: CrateGenericSteel
-  name: "ящик з керівництвами"
-  description: "Містить керівництва."
+  name: guidebooks crate
+  description: Contains guidebooks.
   components:
     - type: StorageFill
       contents:
@@ -176,8 +176,8 @@
 - type: entity
   id: CrateServiceSodaDispenser
   parent: CrateGenericSteel
-  name: "ящик з заправкою дозатора газованої води"
-  description: "Містить заправки для диспенсеру безалкогольних напоїв."
+  name: soda dispenser refill crate
+  description: Contains refills for soda dispensers.
   components:
     - type: StorageFill
       contents:
@@ -203,8 +203,8 @@
 - type: entity
   id: CrateServiceBoozeDispenser
   parent: CrateGenericSteel
-  name: "ящик з заправкою диспенсера напоїв"
-  description: "Містить заправки для диспенсеру алкогольних напоїв."
+  name: booze dispenser refill crate
+  description: Contains refills for booze dispensers.
   components:
     - type: StorageFill
       contents:
@@ -224,8 +224,8 @@
 - type: entity
   id: CrateServiceBox
   parent: CratePlastic
-  name: "ящик з коробками"
-  description: "Містить 6 порожніх коробок для універсального використання."
+  name: boxes crate
+  description: Contains 6 empty multipurpose boxes.
   components:
     - type: StorageFill
       contents:
@@ -235,8 +235,8 @@
 - type: entity
   id: CrateJanitorBiosuit
   parent: CratePlastic
-  name: "ящик з біозахисними костюмами прибиральника"
-  description: "Містить 2 біозахисні костюми, щоб жодна хвороба не відволікала вас від прибирання."
+  name: janitor bio suit crate
+  description: Contains 2 biohazard suits to ensure that no disease will distract you from cleaning.
   components:
   - type: StorageFill
     contents:
@@ -325,8 +325,8 @@
 - type: entity
   id: CrateJanitorExplosive
   parent: ClosetJanitorBomb
-  name: "ящик з бомбозахисним костюмом прибиральника"
-  description: "Поставляє саперний костюм для очищення будь-яких вибухонебезпечних сполук, придбайте його вже сьогодні!"
+  name: janitorial bomb suit crate
+  description: Supplies a bomb suit for cleaning up any explosive compounds, buy one today!
   components:
   - type: StorageFill
     contents:

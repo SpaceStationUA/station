@@ -1,8 +1,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateFootlocker
-  name: "шафка для взуття"
-  description: "Шафка зі взуттям для чийогось спорядження."
+  name: footlocker
+  description: A footlocker for someones equipment.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/footlocker.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateAluminium
-  name: "алюмінієвий ящик"
-  description: "Алюмінієвий ящик для зберігання речей."
+  name: aluminium crate
+  description: An aluminium crate for storing stuff.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/aluminiumcrate.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateArmy
-  name: "армійський ящик"
-  description: "Ящик із зіркою армії США."
+  name: army crate
+  description: A crate with a US Army star on.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/armycrate.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMedical2
-  name: "медичний ящик"
-  description: "Металевий ящик для зберігання медичного обладнання."
+  name: medical crate
+  description: A metal crate for storing medical equipment.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/medicalcrate.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateRed
-  name: "червоний ящик"
-  description: "Вицвілий червоний ящик для зберігання речей."
+  name: red crate
+  description: A faded red crate for storing stuff.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/redcrate.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: CrateGeneric
   id: Trashbin
-  name: "сміттєвий бак"
-  description: "Смітник для викидання сміття."
+  name: trash bin
+  description: A trash bin for putting rubbish in.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/trashbin.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: CrateFootlocker
   id: CrateTrashcart
-  name: "візок для сміття"
-  description: "Сміттєвий візок для транспортування відходів."
+  name: trash cart
+  description: A trash cart for transporting waste.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/trashcart.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: CrateGeneric
   id: CrateFreezer2
-  name: "морозильна камера"
-  description: "Морозильна камера для зберігання продуктів у прохолоді."
+  name: freezer
+  description: A freezer for keeping things cool.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/freezer.rsi
@@ -108,7 +108,7 @@
 - type: entity
   parent: CrateGeneric
   id: CrateWooden
-  name: "дерев'яний ящик"
+  name: wooden crate
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/cratewooden.rsi
@@ -135,8 +135,8 @@
 - type: entity
   parent: CrateWooden
   id: CrateMilitary
-  name: "військовий ящик"
-  description: "Старий дерев'яний ящик. Схоже, в ньому можуть бути якісь припаси."
+  name: military crate
+  description: An old wooden crate. Looks like it might have some supplies in.
   components:
   - type: Icon
     sprite: Structures/Storage/Crates/cratemilitary.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: CrateBreakBase
-  name: "дерев'яний ящик"
-  description: "Дерев'яний ящик для зберігання."
+  name: wooden crate
+  description: A wooden crate for storage.
   abstract: true
   components:
   - type: Damageable
@@ -213,7 +213,7 @@
 - type: entity
   parent: CrateBreakBase
   id: CrateBreakArmy
-  name: "армійський ящик"
+  name: army crate
   components:
   - type: Sprite
     state: army_crate

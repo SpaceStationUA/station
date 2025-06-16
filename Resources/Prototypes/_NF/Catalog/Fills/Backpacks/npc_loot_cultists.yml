@@ -2,8 +2,8 @@
 - type: entity
   parent: SyndieMessengerGiftBox
   id: CultistMessengerGiftBox
-  name: "комплект кривавого культиста"
-  description: "Ящики з лутом? Тут?"
+  name: blood cultist bundle
+  description: Loot boxes? Here?
   abstract: true
   suffix: NPC Loot
   components:
@@ -44,7 +44,7 @@
 - type: entity
   parent: CultistMessengerGiftBox
   id: ClothingBackpackBloodCultZealotLootA
-  name: "комплект спорядження культиста"
+  name: cultist gear bundle
   components:
   - type: SpawnItemsOnUse
     items:
